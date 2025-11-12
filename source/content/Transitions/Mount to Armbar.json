@@ -1,26 +1,25 @@
 {
-  "metadata": {
-    "title": "Mount to Armbar | BJJ Technique | BJJ Graph",
-    "description": "Learn Mount to Armbar in BJJ. Step-by-step execution from Mount to Armbar Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Expert insights included.",
-    "transition_id": "T907",
-    "tags": [
-      "bjj",
-      "transition",
-      "mount",
-      "armbar",
-      "submission",
-      "fundamental",
-      "control"
-    ],
-    "starting_position": "Mount Top",
-    "ending_position": "Armbar Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Mount to Armbar",
+  "description": "Master the Mount to Armbar transition in BJJ. Complete step-by-step execution from Mount to Armbar Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "mount",
+    "armbar",
+    "submission",
+    "fundamental",
+    "control",
+    "attack",
+    "top-position"
+  ],
+  "starting_position": "Mount",
+  "ending_position": "Armbar Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
-  "overview": "The Mount to Armbar transition is one of the most fundamental and high-percentage submission attacks in Brazilian Jiu-Jitsu, representing a cornerstone technique that every practitioner must master. From the dominant Mount Top position, this technique capitalizes on the opponent's natural defensive reactions by converting their arm-framing attempts into submission opportunities. The transition requires precise weight distribution, controlled movement sequencing, and the ability to maintain dominant positioning throughout the execution. This technique exemplifies the principle of position before submission, as maintaining mount control throughout the transition is critical to success. The Mount to Armbar serves as a gateway technique that opens pathways to other submissions including the triangle choke, Americana, and Ezekiel choke, making it an essential component of any complete mount attack system.",
+  "overview": "The Mount to Armbar transition is one of the most fundamental and high-percentage submission attacks in Brazilian Jiu-Jitsu, representing a cornerstone technique that every practitioner must master. From the dominant Mount position, this technique capitalizes on the opponent's natural defensive reactions by converting their arm-framing attempts into submission opportunities. The transition requires precise weight distribution, controlled movement sequencing, and the ability to maintain dominant positioning throughout the execution. This technique exemplifies the principle of position before submission, as maintaining mount control throughout the transition is critical to success. The Mount to Armbar serves as a gateway technique that opens pathways to other submissions including the triangle choke, Americana, and Ezekiel choke, making it an essential component of any complete mount attack system.",
   "key_principles": [
     "Maintain heavy chest pressure throughout the transition to prevent opponent escape",
     "Control opponent's arm before initiating the pivot to prevent defensive withdrawal",
@@ -31,7 +30,7 @@
     "Maintain constant downward pressure and connection throughout all phases of the movement"
   ],
   "setup_requirements": [
-    "Establish secure Mount Top position with proper weight distribution",
+    "Establish secure Mount position with proper weight distribution",
     "Opponent must be framing against your chest or attempting to push you away",
     "Control of opponent's near-side arm through grip or pressure",
     "Stable base with knees tight to opponent's sides",
@@ -43,7 +42,7 @@
     {
       "step_number": 1,
       "action": "Establish high mount control",
-      "description": "From Mount Top, walk your knees forward toward the opponent's armpits to establish high mount position. Drive your chest forward and down, forcing your opponent to frame against your chest with their arms. This defensive reaction creates the opportunity for the armbar attack. Keep your hips heavy and maintain connection through your chest.",
+      "description": "From Mount, walk your knees forward toward the opponent's armpits to establish high mount position. Drive your chest forward and down, forcing your opponent to frame against your chest with their arms. This defensive reaction creates the opportunity for the armbar attack. Keep your hips heavy and maintain connection through your chest.",
       "timing": "Establish position before opponent can create significant frames"
     },
     {

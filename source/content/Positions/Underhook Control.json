@@ -1,1 +1,803 @@
-
+{
+  "name": "Underhook Control",
+  "slug": "underhook-control",
+  "description": "Master underhook control in BJJ. Strategic guide covering bottom defensive escapes and top offensive attacks with complete positional analysis and competition-tested strategies.",
+  "variant_uniqueness": "Inside control trades defense for sweep access",
+  "overview": "Underhook control represents one of the most fundamental positional battles in Brazilian Jiu-Jitsu, occurring across multiple positions including half guard, side control transitions, and scramble situations. This inside control position creates a critical strategic fork where the practitioner who secures and maintains the underhook gains significant mechanical advantage in directing the pace and outcome of exchanges.\n\nThe underhook battle fundamentally centers on controlling your opponent's center of gravity and restricting their ability to generate pressure or establish dominant angles. When you secure an underhook, you create a structural frame that prevents your opponent from flattening you out while simultaneously opening pathways for sweeps, back takes, and positional improvements. The deep underhook penetrates past your opponent's arm and connects to their back or far shoulder, creating a mechanical lever that disrupts their base and posture.\n\nFrom bottom positions, underhook control transforms defensive scenarios into offensive opportunities. The bottom practitioner uses the underhook to prevent their opponent from consolidating side control or knee-on-belly, instead creating space for hip movement and guard recovery. The underhook serves as both shield and sword—protecting against submissions while enabling sweeps and reversals. This dual functionality makes underhook control essential for any bottom player seeking to neutralize top pressure and create scramble opportunities.\n\nFrom top positions, underhook control becomes an offensive weapon for maintaining pressure, preventing escapes, and setting up passes or submissions. The top player uses the underhook to drive their opponent to their side, flatten them out, or create angles for leg attacks and back takes. Top underhook control often connects directly to dominant positions like mount or back control, making it a high-value objective in any passing sequence.\n\nThe strategic value of underhook control extends beyond immediate positional advantage. Practitioners who consistently win the underhook battle control the tempo of matches, forcing opponents into reactive patterns and creating predictable defensive responses. This positional warfare develops into complex hand-fighting exchanges where timing, grip strength, and technical precision determine outcomes. High-level competitors invest significant training time in underhook battles because winning these micro-exchanges translates directly into macro positional dominance.\n\nModern Brazilian Jiu-Jitsu has elevated underhook control from a fundamental concept to an advanced art form. Practitioners now chain underhook entries with specific guard systems, develop sophisticated underhook retention strategies, and exploit underhook-based passing systems that integrate seamlessly with leg entanglement attacks. Understanding underhook control from both bottom and top perspectives creates a complete positional understanding that applies across gi and no-gi contexts, from beginner fundamentals through elite competition strategy.",
+  "key_principles": [
+    "The underhook battle determines who controls the positional exchange—win this and you control the tempo",
+    "Deep underhook penetration past the arm connects to the opponent's back, creating maximal leverage",
+    "The underhook creates a structural frame that prevents flattening while enabling hip mobility",
+    "From bottom, the underhook transforms defensive positions into offensive launching points",
+    "From top, the underhook prevents escapes while creating angles for advancement",
+    "Underhook control must be dynamic—static underhooks invite counter-strategies and stalling",
+    "The non-underhook hand plays a critical role in preventing opponent head control and crossfaces"
+  ],
+  "related_positions": [
+    {
+      "name": "Half Guard",
+      "relationship": "Primary position where underhook battles determine sweep vs. pass outcomes"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Advanced underhook position that maximizes bottom control and sweep opportunities"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Neutral scramble position where both players compete for underhook dominance"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position where bottom player seeks underhook to prevent consolidation and create escapes"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Defensive position where underhook control enables back takes or guard recovery"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Guard system that integrates underhook control for sweeps and back takes"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Leg-based position that combines with underhook control for sweep stability"
+    },
+    {
+      "name": "Quarter Guard",
+      "relationship": "Transitional position where underhook control prevents pass completion"
+    },
+    {
+      "name": "Z-Guard",
+      "relationship": "Half guard variation that prioritizes underhook control for defensive structure"
+    },
+    {
+      "name": "Body Lock",
+      "relationship": "Advanced control position that evolves from dominant underhook positioning"
+    }
+  ],
+  "bottom": {
+    "name": "Underhook Control Bottom",
+    "description": "Master bottom underhook control in BJJ. Complete guide to defensive escapes, offensive sweeps, and back takes from bottom underhook position with competition-proven techniques.",
+    "tags": ["Position", "Bottom Position", "Underhook", "Half Guard Bottom", "Defensive Strategy", "Sweep Setup"],
+    "overview": "Bottom underhook control represents the most fundamental defensive and offensive tool available to the bottom practitioner in Brazilian Jiu-Jitsu. When facing top pressure in half guard, quarter guard, or side control transitions, securing the underhook becomes the primary objective that separates successful escapes from prolonged defensive struggles. The bottom underhook penetrates deep under the opponent's armpit, connecting to their far shoulder or back and creating a structural frame that prevents chest-to-chest pressure while opening pathways for hip movement.\n\nThe mechanical advantage of bottom underhook control stems from its ability to control your opponent's center of gravity while protecting your own positional integrity. When properly executed, the underhook creates a barrier that prevents your opponent from driving their shoulder into your face, establishing crossface control, or flattening you to the mat. This protective structure simultaneously enables offensive opportunities—the same lever that keeps you safe becomes the tool for executing sweeps, taking the back, or recovering guard position.\n\nBottom underhook control functions as a gateway position rather than a destination. The skilled bottom player uses the underhook to create immediate action: driving forward for old school sweeps, rolling under for deep half entries, or coming up to dogfight position for scramble exchanges. Static underhook control invites your opponent to establish counter-grips and immobilize your structure, so dynamic movement patterns become essential. The underhook provides the structural security to move your hips, change angles, and create the off-balancing necessary for successful techniques.\n\nThe strategic value of bottom underhook control extends beyond technical execution into the mental warfare of positional exchanges. When you consistently secure and maintain underhooks from bottom positions, you force your opponent into reactive patterns. They must address your underhook before advancing their position, creating predictable defensive responses you can exploit. This positional warfare becomes especially valuable in competition settings where controlling the pace of exchanges and forcing opponents into uncomfortable positions yields strategic advantages.\n\nModern bottom players have developed sophisticated underhook-based guard systems that integrate with leg entanglements, butterfly hooks, and inversion techniques. The bottom underhook connects seamlessly with X-guard entries, single leg X transitions, and leg drag recoveries, creating a comprehensive bottom game that applies across weight classes and competition formats. Understanding bottom underhook control as the foundation of defensive guard play provides the structural knowledge necessary for developing advanced guard retention and offensive guard systems.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "The bottom practitioner's arm penetrates deeply under the opponent's near armpit, with the hand connecting to the far shoulder blade or latissimus dorsi. This deep penetration creates the structural frame necessary to prevent chest-to-chest pressure and maintain space for hip mobility.",
+      "The bottom practitioner maintains their inside hip away from the mat by using the underhook frame and bottom leg positioning. This hip positioning prevents the opponent from flattening the bottom player completely and enables the dynamic hip movement necessary for sweeps and guard recovery.",
+      "The non-underhook hand establishes a secondary frame, typically posting against the opponent's hip, knee, or far arm to prevent crossface control and maintain structural balance. This secondary frame completes the defensive structure and creates the stability necessary for offensive actions."
+    ],
+    "prerequisites": [
+      "Bottom player has secured inside position with arm penetrating past opponent's armpit",
+      "Bottom player maintains space between their chest and opponent's chest using underhook frame",
+      "Bottom player has at least one leg maintaining some form of guard retention or hook control",
+      "Opponent is in top position attempting to consolidate control or advance position"
+    ],
+    "key_principles": [
+      "The underhook must be deep—shallow underhooks provide minimal leverage and invite opponent shoulder pressure",
+      "Dynamic movement prevents static stalemates—use the underhook to enable hip mobility and angle changes",
+      "The non-underhook hand prevents crossface control, which would nullify underhook advantages",
+      "Hip positioning determines success—keep inside hip elevated to maintain offensive options",
+      "The underhook creates sweep opportunities by controlling opponent's center of gravity and base",
+      "Underhook control is transitional—use it immediately to advance position rather than holding statically",
+      "Combine underhook control with leg positioning (butterfly hooks, lockdown, shields) for maximum effectiveness"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Old School Sweep",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 45,
+          "intermediate": 60,
+          "advanced": 75
+        }
+      },
+      {
+        "technique": "Underhook Sweep",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Rolling Back Take",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Half Guard to Back Take",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Deep Half Entry",
+        "target_position": "Deep Half Guard",
+        "success_rates": {
+          "beginner": 50,
+          "intermediate": 65,
+          "advanced": 80
+        }
+      },
+      {
+        "technique": "Butterfly Guard to X-Guard",
+        "target_position": "X-Guard",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Single Leg X Entry",
+        "target_position": "Single Leg X-Guard",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Technical Standup",
+        "target_position": "Standing Position",
+        "success_rates": {
+          "beginner": 45,
+          "intermediate": 60,
+          "advanced": 75
+        }
+      },
+      {
+        "technique": "Arm Drag to Back",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Re-Guard",
+        "target_position": "Closed Guard",
+        "success_rates": {
+          "beginner": 50,
+          "intermediate": 65,
+          "advanced": 80
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Underhook Pass",
+        "target_position": "Side Control",
+        "success_rate": 55
+      },
+      {
+        "technique": "Crossface Pass",
+        "target_position": "Side Control",
+        "success_rate": 60
+      },
+      {
+        "technique": "Knee Cut Pass",
+        "target_position": "Side Control",
+        "success_rate": 50
+      },
+      {
+        "technique": "Whizzer",
+        "target_position": "Overhook Control",
+        "success_rate": 45
+      },
+      {
+        "technique": "Kimura to Back Take",
+        "target_position": "Back Control",
+        "success_rate": 40
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Deep Half Entry",
+        "target_position": "Deep Half Guard",
+        "trigger": "When opponent attempts to flatten you with crossface or shoulder pressure"
+      },
+      {
+        "technique": "Rolling Back Take",
+        "target_position": "Back Control",
+        "trigger": "When opponent drives forward excessively, creating momentum for roll-under"
+      },
+      {
+        "technique": "Arm Drag to Back",
+        "target_position": "Back Control",
+        "trigger": "When opponent posts their far hand forward to base, exposing their back"
+      },
+      {
+        "technique": "Technical Standup",
+        "target_position": "Standing Position",
+        "trigger": "When opponent maintains distance and avoids engaging with underhook frame"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent drives forward with heavy chest pressure attempting to flatten you",
+        "actions": [
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent maintains upright posture with their hips back and base wide",
+        "actions": [
+          {
+            "technique": "Old School Sweep",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Technical Standup",
+            "target": "Standing Position",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to establish crossface with their far arm",
+        "actions": [
+          {
+            "technique": "Arm Drag to Back",
+            "target": "Back Control",
+            "probability": 50
+          },
+          {
+            "technique": "Underhook Sweep",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent secures whizzer overhook on your underhook arm",
+        "actions": [
+          {
+            "technique": "Re-Guard",
+            "target": "Closed Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining shallow underhook that only reaches opponent's bicep or elbow area",
+        "consequence": "Opponent easily establishes crossface control and drives shoulder pressure into your face, flattening you to the mat and nullifying offensive opportunities",
+        "correction": "Drive your underhook deeply past opponent's armpit with hand reaching their far shoulder blade. Use hip movement to maintain depth and prevent opponent from extracting their arm backward"
+      },
+      {
+        "error": "Keeping inside hip flat on the mat while holding underhook",
+        "consequence": "Opponent flattens you completely, eliminating hip mobility necessary for sweeps or guard recovery. Static position allows opponent to consolidate control and advance",
+        "correction": "Use underhook frame to elevate inside hip off the mat. Maintain dynamic hip positioning with ability to shrimp, turn, or drive forward. Never allow both hips flat simultaneously"
+      },
+      {
+        "error": "Neglecting non-underhook hand, allowing it to hang passively",
+        "consequence": "Opponent establishes crossface control with their far arm, driving your head away and creating angle for pass. Crossface nullifies underhook advantages completely",
+        "correction": "Non-underhook hand must actively frame against opponent's hip, knee, or far arm. This secondary frame prevents crossface and completes defensive structure"
+      },
+      {
+        "error": "Holding static underhook without attempting sweeps or positional improvements",
+        "consequence": "Opponent adapts to your static position, establishes counter-grips, and neutralizes your offensive potential. Referees may penalize for stalling in competition",
+        "correction": "Treat underhook as launching point for immediate action. Continuously attempt sweeps, back takes, or guard recovery rather than holding position statically"
+      },
+      {
+        "error": "Pulling down on underhook instead of driving upward and forward",
+        "consequence": "Pulling down collapses your own structure and brings opponent's weight onto you. Creates crushing pressure that prevents hip movement and offensive options",
+        "correction": "Drive underhook upward toward ceiling while driving your body forward and into opponent. This lifting action off-balances opponent and creates sweep opportunities"
+      },
+      {
+        "error": "Ignoring leg positioning while focusing entirely on upper body underhook battle",
+        "consequence": "Opponent controls your legs independently, establishing knee slice or leg drag passes that bypass your upper body frames completely",
+        "correction": "Coordinate underhook control with butterfly hooks, lockdown, or knee shield positioning. Effective bottom control requires upper and lower body integration"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Underhook Establishment Drill",
+        "description": "Bottom player starts in half guard without underhook. Top player maintains moderate pressure. Bottom player uses hand fighting and hip movement to establish deep underhook against resistance. Reset and repeat focusing on speed and depth of penetration.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Dynamic Underhook Retention",
+        "description": "Bottom player maintains deep underhook while top player attempts various stripping methods including whizzer, arm drag, and forward pressure. Bottom player uses hip movement and grip adjustment to retain underhook through all attacks.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Underhook Sweep Chain",
+        "description": "From bottom underhook control, bottom player attempts old school sweep, then transitions to deep half entry if opponent defends, then attempts rolling back take if opponent counters. Practice smooth chaining without resetting.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Crossface Prevention Drill",
+        "description": "Bottom player maintains underhook while top player specifically attempts to establish crossface with far arm. Bottom player uses non-underhook hand frames to prevent crossface while maintaining underhook depth and hip mobility.",
+        "duration": "4 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Underhook to Back to Choke",
+        "path": "Underhook Control Bottom → Rolling Back Take → Back Control → Rear Naked Choke"
+      },
+      {
+        "name": "Deep Half to Leg Attack",
+        "path": "Underhook Control Bottom → Deep Half Entry → Ashi Garami → Outside Heel Hook"
+      },
+      {
+        "name": "Sweep to Mount Submission",
+        "path": "Underhook Control Bottom → Old School Sweep → Mount → Armbar from Mount"
+      },
+      {
+        "name": "Technical Stand to Guillotine",
+        "path": "Underhook Control Bottom → Technical Standup → Front Headlock → Guillotine Choke"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Guard",
+        "relationship": "Primary bottom position where underhook control provides sweep and back take opportunities"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Advanced underhook position accessed by rolling under from standard underhook control"
+      },
+      {
+        "name": "Dogfight Position",
+        "relationship": "Scramble position where both players compete for dominant underhook positioning"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Open guard system that integrates underhook control for sweep mechanics"
+      },
+      {
+        "name": "Old School Sweep",
+        "relationship": "Classic sweep directly enabled by deep bottom underhook control"
+      },
+      {
+        "name": "Rolling Back Take",
+        "relationship": "Back exposure technique using underhook as primary control and leverage point"
+      },
+      {
+        "name": "Quarter Guard",
+        "relationship": "Transitional guard position where underhook control prevents pass completion"
+      },
+      {
+        "name": "Z-Guard",
+        "relationship": "Half guard variation that prioritizes underhook control for defensive structure"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75,
+        "description": "Ability to maintain bottom underhook control against pass attempts"
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70,
+        "description": "Success rate in using underhook to sweep or take back"
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 25,
+        "advanced": 40,
+        "description": "Likelihood of finishing submission from bottom underhook pathways"
+      },
+      "average_time": "30-90 seconds before sweep attempt or guard recovery"
+    },
+    "expert_insights": {
+      "danaher": "The bottom underhook represents the most mechanically sound defensive structure available to the bottom practitioner because it simultaneously creates a barrier against chest pressure while establishing a lever for off-balancing. The key insight most practitioners miss is that underhook depth determines everything—a shallow underhook connecting only to the opponent's bicep provides minimal leverage and invites shoulder pressure, while a deep underhook penetrating past the armpit to connect with the scapula or latissimus creates genuine mechanical advantage. The non-underhook hand plays an equally critical role by preventing crossface control, which would nullify all underhook advantages. When you coordinate deep underhook control with intelligent hip positioning and dynamic movement patterns, you transform defensive scenarios into offensive launching points. The bottom player who masters underhook battles controls the fundamental exchange that determines whether they remain defensive or transition to offensive action.",
+      "gordon_ryan": "In competition, I win most of my bottom battles by immediately establishing the underhook and refusing to let opponents neutralize it. The moment you're in bottom half guard or any similar position, your first action must be securing that deep underhook—everything else flows from there. I see too many competitors holding shallow underhooks or staying static, which allows top players to establish their pressure game and grind out passes. My approach is to use the underhook aggressively for immediate action: driving forward for old school sweeps, rolling under for deep half entries, or coming up on top in scrambles. The underhook gives you the structural control to move your hips freely, and hip movement is what creates successful sweeps. Against high-level opponents, I combine the underhook with leg positioning—using lockdown to control their leg while the underhook controls their upper body creates a complete control system that's extremely difficult to pass. Don't be passive with underhooks—use them to create immediate offensive threats.",
+      "eddie_bravo": "The underhook from bottom is the foundation of the entire 10th Planet half guard system because it gives you the leverage to control bigger, stronger opponents without relying purely on strength. When you get that deep underhook in lockdown position, you've created a control system where you can sweep, take the back, or transition to deep half at will—the opponent has to defend multiple threats simultaneously. What makes underhook control so powerful in no-gi is that without the gi grips to slow things down, whoever controls the underhook controls the scramble. I teach my students to think of the underhook as the key that unlocks all your offensive options from bottom—without it, you're just defending, but with it, you become dangerous. The underhook connects perfectly with the lockdown system because while your legs control their leg, your underhook controls their upper body, giving you complete control of their base and posture. From there, you can hit old school sweeps, electric chair attacks, or roll into deep half depending on how they react. The beauty of underhook-based systems is they work at every skill level and translate perfectly from gi to no-gi competition."
+    }
+  },
+  "top": {
+    "name": "Underhook Control Top",
+    "description": "Master top underhook control in BJJ. Complete guide to offensive pressure, pass consolidation, and submission setups from top underhook position with proven strategies.",
+    "tags": ["Position", "Top Position", "Underhook", "Half Guard Top", "Passing Strategy", "Pressure Control"],
+    "overview": "Top underhook control represents one of the most powerful pressure-passing and position-consolidating tools available to the top practitioner in Brazilian Jiu-Jitsu. When navigating half guard, quarter guard, or side control transitions from top position, securing the underhook creates immediate mechanical advantages that enable passes, back takes, and submission entries. The top underhook drives under the opponent's arm from the outside, connecting your chest to their shoulder and creating direct pressure that flattens them to the mat while restricting their hip mobility.\n\nThe offensive power of top underhook control stems from its ability to eliminate the bottom player's defensive structure while simultaneously creating passing angles and advancement opportunities. When properly executed, the top underhook drives the opponent's shoulder toward the mat, collapsing their frames and preventing them from creating the space necessary for guard retention or sweeps. This pressure-based control method integrates perfectly with crossface positioning, where your shoulder drives into their face while your underhook controls their far shoulder, creating a crushing pressure system that overwhelms defensive efforts.\n\nTop underhook control functions as both a transitional tool and a position in its own right. Skilled passers use the underhook to establish immediate control when entering opponent's guard, creating the pressure necessary to advance through quarter guard and into side control. The underhook simultaneously prevents bottom player offensive actions—it neutralizes sweep attempts by controlling their ability to turn into you, eliminates back take opportunities by keeping them flattened, and creates submission opportunities through arm isolation and neck exposure. This multi-functional control makes top underhook positioning essential for any pressure-passing system.\n\nThe strategic value of top underhook control extends into the psychological dimension of positional warfare. When you consistently establish top underhook control, you force opponents into uncomfortable positions where their offensive options become severely limited. Bottom players facing skilled underhook pressure must expend significant energy fighting to recover their frames and create space, leading to fatigue and defensive errors. This strategic pressure creates the conditions for successful passes even when individual techniques face resistance—the cumulative effect of sustained pressure overwhelms defensive structures.\n\nModern pressure-passing systems have elevated top underhook control into sophisticated position chains that integrate with leg weaves, knee cuts, and body lock positions. Top players now use underhook control to create dilemmas where bottom players must choose between defending the pass and defending the back take, with either choice leading to positional advancement. Understanding top underhook control as a foundational pressure tool provides the structural knowledge necessary for developing complete passing systems that apply across weight classes, rule sets, and competition formats.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "The top practitioner's arm penetrates under the opponent's near arm from the outside, with the hand connecting to their far shoulder or driving past to establish deep control. This outside-to-inside penetration creates the pressure angle necessary to flatten the bottom player and restrict hip mobility.",
+      "The top practitioner maintains chest pressure driving toward the mat through the underhook connection, creating downward force that collapses the bottom player's defensive frames. This pressure vector prevents the bottom player from elevating their inside hip or creating space for guard recovery.",
+      "The top practitioner's head position establishes secondary control, typically driving crossface pressure or maintaining head control that prevents the bottom player from turning into the underhook or creating off-balancing opportunities."
+    ],
+    "prerequisites": [
+      "Top player has established position in or near opponent's guard or half guard",
+      "Top player has created angle or pressure opportunity to penetrate underhook from outside",
+      "Bottom player has not yet established strong inside frames or deep underhook themselves",
+      "Top player maintains base and posture sufficient to drive pressure through underhook connection"
+    ],
+    "key_principles": [
+      "The top underhook must drive downward pressure continuously—upward pressure invites bottom player movement",
+      "Coordinate underhook pressure with crossface control to create complete upper body domination",
+      "Use underhook to drive opponent to their side, creating passing angles and eliminating guard retention",
+      "The underhook enables leg-free passing by controlling upper body while legs advance position",
+      "Maintain heavy hip pressure driving toward opponent's hips to prevent explosive escapes",
+      "Top underhook creates back take opportunities when bottom player attempts to turn away",
+      "Transition between underhook passing and other passing methods to prevent adaptation and stalling"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Underhook Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 50,
+          "intermediate": 65,
+          "advanced": 80
+        }
+      },
+      {
+        "technique": "Knee Cut Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 45,
+          "intermediate": 60,
+          "advanced": 75
+        }
+      },
+      {
+        "technique": "Crossface Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 50,
+          "intermediate": 65,
+          "advanced": 80
+        }
+      },
+      {
+        "technique": "Kimura to Back Take",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Back Take Generic",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Transition to North-South",
+        "target_position": "North-South",
+        "success_rates": {
+          "beginner": 45,
+          "intermediate": 60,
+          "advanced": 75
+        }
+      },
+      {
+        "technique": "Leg Weave Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Darce Setup",
+        "target_position": "D'arce Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Anaconda Setup",
+        "target_position": "Anaconda Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Body Lock Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 45,
+          "intermediate": 60,
+          "advanced": 75
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Underhook Sweep",
+        "target_position": "Side Control",
+        "success_rate": 40
+      },
+      {
+        "technique": "Old School Sweep",
+        "target_position": "Side Control",
+        "success_rate": 45
+      },
+      {
+        "technique": "Deep Half Entry",
+        "target_position": "Deep Half Guard",
+        "success_rate": 50
+      },
+      {
+        "technique": "Rolling Back Take",
+        "target_position": "Back Control",
+        "success_rate": 35
+      },
+      {
+        "technique": "Re-Guard",
+        "target_position": "Closed Guard",
+        "success_rate": 45
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Kimura to Back Take",
+        "target_position": "Back Control",
+        "trigger": "When bottom player establishes their own underhook and attempts to come up"
+      },
+      {
+        "technique": "Darce Setup",
+        "target_position": "D'arce Control",
+        "trigger": "When bottom player drives forward with underhook, exposing their neck"
+      },
+      {
+        "technique": "Crossface Pass",
+        "target_position": "Side Control",
+        "trigger": "When bottom player focuses on fighting underhook, neglecting far side defense"
+      },
+      {
+        "technique": "Back Take Generic",
+        "target_position": "Back Control",
+        "trigger": "When bottom player turns away to escape underhook pressure, exposing their back"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If bottom player establishes their own inside underhook and attempts to come up or sweep",
+        "actions": [
+          {
+            "technique": "Kimura to Back Take",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Darce Setup",
+            "target": "D'arce Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player remains flat or defensive without establishing strong inside frames",
+        "actions": [
+          {
+            "technique": "Underhook Pass",
+            "target": "Side Control",
+            "probability": 70
+          },
+          {
+            "technique": "Knee Cut Pass",
+            "target": "Side Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player turns away to escape underhook pressure or crossface",
+        "actions": [
+          {
+            "technique": "Back Take Generic",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Transition to North-South",
+            "target": "North-South",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player creates distance with frames and attempts to recover full guard",
+        "actions": [
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Body Lock Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling upward on the underhook instead of driving downward pressure",
+        "consequence": "Lifting creates space underneath your body, allowing bottom player to elevate their hip, create angles, and execute sweeps or guard recovery. Your pressure becomes neutralized completely",
+        "correction": "Drive underhook pressure downward toward the mat continuously. Think of pushing opponent's shoulder into the ground rather than pulling them toward you. Weight drives through the underhook connection"
+      },
+      {
+        "error": "Neglecting crossface control while focusing entirely on underhook",
+        "consequence": "Bottom player establishes head control or inside position, enabling them to turn into you for sweeps or create off-balancing opportunities. Underhook alone provides incomplete control",
+        "correction": "Coordinate underhook with crossface pressure where your shoulder drives into opponent's face. This dual control eliminates their ability to turn and creates complete upper body domination"
+      },
+      {
+        "error": "Allowing hips to rise high above opponent's hips during underhook control",
+        "consequence": "High hips create space for bottom player to shrimp, recover guard, or insert knee shields. Your pressure becomes ineffective and passes stall",
+        "correction": "Keep your hips low and driving toward opponent's hips. Maintain heavy hip pressure that pins them flat while your underhook controls their upper body"
+      },
+      {
+        "error": "Maintaining static underhook position without advancing or creating new angles",
+        "consequence": "Bottom player adapts to static pressure, establishes defensive frames, and neutralizes your passing attempts. Referees may penalize for stalling in competition",
+        "correction": "Use underhook as foundation for continuous advancement. Chain together knee cuts, leg weaves, and position transitions rather than holding static pressure"
+      },
+      {
+        "error": "Exposing your own neck by overcommitting to underhook pressure without protecting head position",
+        "consequence": "Bottom player establishes guillotine grips or front headlock control, creating dangerous submission threats that force you to abandon your pass",
+        "correction": "Maintain head position tight to opponent's shoulder or far side of their body. Never allow space for them to insert their arm around your neck during underhook advances"
+      },
+      {
+        "error": "Failing to control opponent's far leg while focusing on upper body underhook control",
+        "consequence": "Bottom player uses far leg to create leverage for sweeps, especially old school or hook sweeps that exploit your weight commitment to upper body",
+        "correction": "Coordinate underhook control with leg control strategies. Use your free hand to post on their far knee or hip, preventing leverage for sweeps while underhook controls upper body"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Underhook Establishment Against Resistance",
+        "description": "Top player starts in half guard pass position. Bottom player uses hand fighting to prevent underhook establishment. Top player uses angle creation, pressure timing, and grip fighting to penetrate deep underhook against active resistance. Reset and repeat.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Underhook Pass Chain Drill",
+        "description": "From top underhook control, top player attempts knee cut pass, then transitions to leg weave if defended, then crossface pass if further defended. Practice smooth transition chaining without resetting to starting position.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Underhook to Back Take",
+        "description": "Bottom player attempts to turn away from underhook pressure. Top player immediately transitions to back take, maintaining underhook control throughout the transition. Practice recognizing turn timing and securing back control smoothly.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Pressure Maintenance Drill",
+        "description": "Top player maintains underhook with crossface while bottom player uses explosive movements to create space and escape. Top player focuses on keeping constant downward pressure and maintaining control through dynamic movements.",
+        "duration": "4 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Underhook Pass to Mount Armbar",
+        "path": "Underhook Control Top → Underhook Pass → Side Control → Transition to Mount → Armbar from Mount"
+      },
+      {
+        "name": "Underhook to Back to Choke",
+        "path": "Underhook Control Top → Back Take Generic → Back Control → Rear Naked Choke"
+      },
+      {
+        "name": "Underhook to Darce Finish",
+        "path": "Underhook Control Top → Darce Setup → D'arce Control → Darce Choke"
+      },
+      {
+        "name": "Kimura from Underhook",
+        "path": "Underhook Control Top → Kimura to Back Take → Kimura Control → Kimura"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Guard",
+        "relationship": "Primary position where top underhook control enables pressure passing and position advancement"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Target position accessed through successful underhook-based passes"
+      },
+      {
+        "name": "Quarter Guard",
+        "relationship": "Transitional passing position where underhook control prevents guard recovery"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Pressure passing position that integrates with underhook control for pass completion"
+      },
+      {
+        "name": "Overhook Control",
+        "relationship": "Alternative overhook control that opponents use to defend against underhook passes"
+      },
+      {
+        "name": "Underhook Pass",
+        "relationship": "Primary passing technique directly enabled by top underhook control"
+      },
+      {
+        "name": "Kimura to Back Take",
+        "relationship": "Counter-technique when bottom player establishes their own underhook"
+      },
+      {
+        "name": "Crossface Pass",
+        "relationship": "Complementary passing technique that combines with underhook for complete control"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85,
+        "description": "Ability to maintain top underhook control against escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80,
+        "description": "Success rate in using underhook to complete passes or take back"
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50,
+        "description": "Likelihood of finishing submission from top underhook pathways"
+      },
+      "average_time": "20-60 seconds before pass completion or position transition"
+    },
+    "expert_insights": {
+      "danaher": "Top underhook control represents the most mechanically efficient pressure-passing method because it directly addresses the primary defensive structure available to bottom players—their inside frames and hip mobility. When you establish a deep underhook from top position, you create a direct pressure vector from your chest through their shoulder to the mat, collapsing their defensive frames and eliminating the space necessary for guard retention. The critical technical detail most practitioners overlook is the coordination between underhook pressure and crossface control—the underhook alone provides incomplete control, but when combined with your shoulder driving into their face, you create a pressure system that overwhelms defensive efforts. The top underhook also creates a strategic dilemma for bottom players: if they turn away to escape the pressure, they expose their back; if they turn toward you to fight the underhook, they give up the pass. This forced choice makes underhook-based passing exceptionally high percentage at all skill levels. Master the coordination of downward underhook pressure, crossface control, and low hip positioning to create pressure passing that reliably advances position against any opponent.",
+      "gordon_ryan": "In my passing game, top underhook control is the foundation that enables everything else—once I establish that underhook, I know I'm going to pass eventually because bottom players cannot maintain their defensive structure under sustained pressure. The key is driving constant downward pressure through the underhook while keeping my hips heavy and low. Too many passers make the mistake of pulling up on the underhook or letting their hips rise, which creates space for bottom players to recover. My approach is to make it absolutely miserable for them—constant pressure, constant advancement, never giving them a chance to breathe or reset their frames. I love combining the underhook with knee cuts because the underhook controls their upper body while my knee cuts through their leg defenses, creating passes they cannot stop. Against high-level opponents, I'll use the underhook to create back take opportunities when they try to turn away from the pressure—some of my best back takes come directly from underhook passing positions when opponents make the mistake of turning. The underhook gives you control of the fundamental exchange in passing—control their shoulder, control their ability to move, and you control the entire position.",
+      "eddie_bravo": "Top underhook control is where a lot of traditional pressure passing meets innovative submission opportunities, especially in no-gi where the positions flow faster without gi grips slowing things down. When I'm on top with an underhook, I'm not just thinking about passing—I'm looking for darce chokes, anacondas, and kimura traps that open up when bottom players fight the pressure. The beauty of underhook control is it creates multiple threats: if they stay flat, you pass; if they try to come up, you catch darce or anaconda; if they try to turn away, you take the back. That's the dilemma approach applied to passing—every defensive choice they make gives you a different offensive opportunity. In the 10th Planet system, we integrate underhook passing with our leg attack game because once you pass half guard with an underhook, you're perfectly positioned to transition into leg entanglements if they try to recover guard. The underhook becomes the bridge between passing and leg locks, creating a complete offensive system. Don't just think of the underhook as a passing tool—think of it as the control position that opens up your entire submission game from top."
+    }
+  }
+}

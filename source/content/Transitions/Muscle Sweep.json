@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Muscle Sweep | BJJ Technique | BJJ Graph",
-    "description": "Master the Muscle Sweep from Closed Guard to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Learn setup, timing, and variations.",
-    "transition_id": "T059",
-    "tags": [
-      "bjj",
-      "transition",
-      "sweep",
-      "closed_guard",
-      "fundamental",
-      "beginner_technique",
-      "mount_transition"
-    ],
-    "starting_position": "Closed Guard Bottom",
-    "ending_position": "Mount",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Muscle Sweep",
+  "description": "Master the Muscle Sweep from Closed Guard to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Learn setup, timing, and variations.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "closed_guard",
+    "fundamental",
+    "beginner_technique",
+    "mount_transition"
+  ],
+  "starting_position": "Closed Guard",
+  "ending_position": "Mount",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Muscle Sweep is a fundamental attacking technique from Closed Guard that exploits the opponent's forward pressure and broken posture. Unlike more technical sweeps that rely on precise leverage points, the Muscle Sweep uses a combination of hip movement, upper body control, and explosive power to drive the opponent backward and sweep them to Mount position. This sweep is particularly effective when the opponent is defending other attacks and their weight is distributed forward, or when they attempt to posture up from a broken-down position. The technique requires good timing and the ability to coordinate upper body pulling with lower body hip elevation. While often considered a 'strength-based' technique by its name, proper execution relies more on timing the opponent's weight distribution and creating the correct angle of attack. The Muscle Sweep serves as an excellent foundational sweep for beginners while remaining effective at advanced levels when combined with other guard attacks.",
   "key_principles": [
@@ -223,7 +220,7 @@
     }
   ],
   "safety_considerations": "When practicing the Muscle Sweep, ensure controlled execution to protect both partners. The person being swept should be prepared for backward rolling motion and know how to breakfall safely. Avoid slamming the opponent by following through smoothly to mount rather than releasing them during the sweep. For the bottom person, be cautious with grip strength on the collar to avoid neck strain - pull the collar down and across rather than purely downward. During training, start with slow controlled repetitions before adding explosive power. Partners should communicate clearly about resistance levels, especially during the learning phases. Be particularly careful when training this technique with significant size mismatches, as the smaller person may struggle with the explosive elements while the larger person may inadvertently use too much force. Always practice on proper matted surfaces to cushion any impacts.",
-  "position_integration": "The Muscle Sweep serves as a fundamental component of the Closed Guard Bottom attacking system, working in coordination with other primary guard attacks. It is particularly effective when integrated into sequences that force defensive reactions - for example, threatening Triangle or Omoplata to break posture, then executing the Muscle Sweep when the opponent defends. The technique connects to the broader positional hierarchy by providing a direct path from Closed Guard Bottom to Mount, one of the most significant positional improvements possible. When the Muscle Sweep is defended, it creates opportunities for transitions to Kimura from Guard, Armbar from Guard, or Hip Bump Sweep, making it valuable even when not completed. The sweep also teaches fundamental principles of angle creation, hip movement, and coordinating upper and lower body actions that apply throughout guard work. In competitive contexts, the Muscle Sweep serves as a reliable scoring technique from closed guard, earning a sweep (2 points) and mount position (4 additional points) when executed successfully.",
+  "position_integration": "The Muscle Sweep serves as a fundamental component of the Closed Guard Bottom attacking system, working in coordination with other primary guard attacks. It is particularly effective when integrated into sequences that force defensive reactions - for example, threatening Triangle or Omoplata to break posture, then executing the Muscle Sweep when the opponent defends. The technique connects to the broader positional hierarchy by providing a direct path from Closed Guard to Mount, one of the most significant positional improvements possible. When the Muscle Sweep is defended, it creates opportunities for transitions to Kimura from Guard, Armbar from Guard, or Hip Bump Sweep, making it valuable even when not completed. The sweep also teaches fundamental principles of angle creation, hip movement, and coordinating upper and lower body actions that apply throughout guard work. In competitive contexts, the Muscle Sweep serves as a reliable scoring technique from closed guard, earning a sweep (2 points) and mount position (4 additional points) when executed successfully.",
   "related_content": [
     {
       "name": "Hip Bump Sweep",
@@ -246,7 +243,7 @@
       "relationship": "Follow-up submission when opponent posts to defend sweep"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Triangle from Guard",
       "relationship": "Alternative attack from broken posture setup position"
     },
     {

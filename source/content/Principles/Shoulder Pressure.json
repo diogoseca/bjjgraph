@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Shoulder Pressure | BJJ Concept | BJJ Graph",
-    "description": "Understand Shoulder Pressure in BJJ. Learn force application, weight distribution, control principles across positions. Expert insights from Danaher, Ryan, Bravo included.",
-    "principle_id": "P112",
-    "tags": ["bjj", "concept", "pressure", "control", "top-position", "pinning", "weight-distribution"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Shoulder Pressure",
+  "description": "Master shoulder pressure control in BJJ. Learn weight distribution, skeletal alignment, pressure vectors across positions for efficient pinning and control.",
+  "tags": ["bjj", "principle", "pressure", "control", "top-position", "pinning", "weight-distribution", "side-control", "mount"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
 
   "overview": "Shoulder Pressure is a fundamental control concept involving the strategic application of body weight through the shoulder to pin, control, and immobilize an opponent. This principle transcends specific positions and represents one of the most efficient methods of maintaining top control while minimizing energy expenditure. The concept relies on proper weight distribution, skeletal alignment, and understanding of pressure vectors to create sustained, uncomfortable control that drains the opponent's defensive capacity.\n\nEffective shoulder pressure requires precise positioning where the practitioner's shoulder contacts specific anatomical targets on the opponent's body—typically the sternum, chin, jaw, or neck area. The pressure is not generated through muscular effort but through proper body positioning that allows gravity and skeletal structure to do the work. This creates a sustainable control mechanism that can be maintained for extended periods without fatigue.\n\nMastery of shoulder pressure fundamentally changes a practitioner's top game, transforming scrambles into dominant positions and making escapes significantly more difficult for opponents. The concept integrates seamlessly with other control principles like crossface control, hip pressure, and weight distribution to create layered control systems that are extremely difficult to escape.",
 
@@ -88,12 +85,27 @@
       "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "Maintaining stable base while applying shoulder pressure prevents counters and allows sustained control without vulnerability to sweeps or reversals"
+    },
+    {
+      "principle_name": "Forward Pressure",
+      "relationship_type": "Extension",
+      "description": "Shoulder pressure represents a specific application of forward pressure principles, focusing force through a single point for concentrated control"
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Extension",
+      "description": "Shoulder pressure occupies a high position in the control point hierarchy as it simultaneously controls head movement and chest expansion"
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding leverage allows practitioners to maximize shoulder pressure efficiency by optimizing body positioning and mechanical advantage"
     }
   ],
 
   "application_contexts": [
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Drive shoulder into opponent's sternum or jaw while distributing weight forward, using shoulder as primary control point to prevent shrimping and create discomfort that forces defensive reactions"
     },
     {
@@ -101,7 +113,7 @@
       "how_applied": "Apply shoulder pressure to opponent's chin or near-side shoulder while knee controls torso, creating dual-axis pressure that limits both upper and lower body movement"
     },
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Use shoulder to drive into opponent's face or chest when they attempt to turn or create frames, redirecting their escape attempts while maintaining superior position"
     },
     {
@@ -109,19 +121,19 @@
       "how_applied": "Press shoulder into sternum while head controls one side, creating crushing chest pressure that restricts breathing and limits defensive options"
     },
     {
-      "context": "Scarf Hold Top",
-      "how_applied": "Drive shoulder into opponent's jaw to turn their head away while controlling near arm, using shoulder as primary control mechanism for the entire position"
-    },
-    {
-      "context": "Headquarters Position Top",
-      "how_applied": "Apply shoulder pressure to opponent's knee or thigh while passing guard, using weight to flatten defensive structures and prevent re-guard"
-    },
-    {
       "context": "Kesa Gatame",
       "how_applied": "Press shoulder into opponent's face while sitting heavy on chest, creating uncomfortable pressure that motivates escape attempts into submission traps"
     },
     {
-      "context": "Modified Mount Top",
+      "context": "Scarf Hold Position",
+      "how_applied": "Drive shoulder into opponent's jaw to turn their head away while controlling near arm, using shoulder as primary control mechanism for the entire position"
+    },
+    {
+      "context": "Headquarters Position",
+      "how_applied": "Apply shoulder pressure to opponent's knee or thigh while passing guard, using weight to flatten defensive structures and prevent re-guard"
+    },
+    {
+      "context": "Modified Scarf Hold",
       "how_applied": "Use shoulder to control opponent's head and upper body while transitioning to higher mount or submission positions, maintaining pressure throughout movement"
     },
     {
@@ -129,16 +141,28 @@
       "how_applied": "Drive shoulder into opponent's chest while facing away, using bodyweight to create crushing pressure on ribcage and restrict breathing capacity"
     },
     {
-      "context": "100 Kilos Position Top",
+      "context": "100 Kilos",
       "how_applied": "Apply maximum shoulder pressure to opponent's chest while sprawling back, creating extremely heavy pressure that is difficult to maintain defenses against"
     },
     {
-      "context": "Knee Slice Position Top",
+      "context": "Half Guard Pass",
       "how_applied": "Use shoulder to drive into opponent's chest while cutting knee across, preventing them from recovering guard by pinning upper body to mat"
     },
     {
-      "context": "High Mount Top",
+      "context": "High Mount",
       "how_applied": "Press shoulder into opponent's face to set up armbar or collar choke, using pressure to force defensive arm positioning that opens submission opportunities"
+    },
+    {
+      "context": "Side Control Consolidation",
+      "how_applied": "Establish shoulder pressure immediately after passing to prevent immediate re-guard attempts, using the shoulder to anchor the position while securing additional control points"
+    },
+    {
+      "context": "Technical Mount",
+      "how_applied": "Apply shoulder pressure to opponent's jaw or neck area while establishing high mount position, using pressure to limit their ability to turn into turtle"
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Drive shoulder into opponent's hip or upper body to flatten turtle position, using pressure to break down defensive posture and expose the back or arms"
     }
   ],
 
@@ -309,22 +333,22 @@
   "related_content": [
     {
       "name": "Pressure Application",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Parent concept providing theoretical foundation for shoulder pressure applications"
     },
     {
       "name": "Cross Face Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary control mechanism often applied through same shoulder as pressure"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Primary position for developing and applying shoulder pressure fundamentals"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational principle determining effectiveness of shoulder pressure application"
     },
     {
@@ -334,12 +358,12 @@
     },
     {
       "name": "Hip Pressure",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary pressure concept creating two-point control system with shoulder pressure"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary defensive counter to shoulder pressure from bottom position"
     },
     {
@@ -348,23 +372,23 @@
       "relationship": "Passing methodology utilizing shoulder pressure as primary control mechanism"
     },
     {
-      "name": "Scarf Hold Top",
+      "name": "Kesa Gatame",
       "content_type": "Position",
       "relationship": "Position exemplifying shoulder-based control as primary pinning mechanism"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Superior position where shoulder pressure supplements positional control"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Framework placing shoulder pressure within hierarchy of control mechanisms"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential principle for maintaining stability while applying shoulder pressure"
     }
   ],

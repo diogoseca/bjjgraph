@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Hip Escape | BJJ Technique | BJJ Graph",
-    "description": "Master the Hip Escape (Shrimp) in BJJ. Essential defensive movement for escaping pins and creating space. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T807",
-    "tags": [
-      "bjj",
-      "transition",
-      "defense",
-      "movement",
-      "escape",
-      "shrimp",
-      "fundamental"
-    ],
-    "starting_position": "Side Control",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Hip Escape",
+  "description": "Master the Hip Escape (Shrimp) in BJJ. Essential defensive movement for escaping pins and creating space. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "defense",
+    "movement",
+    "escape",
+    "shrimp",
+    "fundamental"
+  ],
+  "starting_position": "Side Control",
+  "ending_position": "Half Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Hip Escape, also known as the Shrimp or Shrimping movement, is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu. This essential movement pattern allows practitioners to create distance and recover guard position when pinned beneath an opponent. The technique involves a coordinated movement of bridging, turning, and sliding the hips away from pressure while maintaining proper frames to prevent the opponent from following. Understanding and mastering the hip escape is critical for survival in bottom positions, as it forms the foundation for virtually all escapes from pins including side control, mount, knee on belly, and north-south positions. The movement creates the necessary space to insert defensive frames, recover guard, or transition to better positions. While simple in concept, the hip escape requires precise timing, proper weight distribution, and efficient body mechanics to execute effectively against a skilled opponent applying heavy pressure.",
   "key_principles": [
@@ -242,7 +239,7 @@
   "related_content": [
     {
       "name": "Elbow Escape",
-      "relationship": "Alternative name/variation - same core technique with emphasis on elbow positioning during frames"
+      "relationship": "Alternative name - same core technique with emphasis on elbow positioning"
     },
     {
       "name": "Frame and Shrimp",
@@ -250,55 +247,47 @@
     },
     {
       "name": "Shrimp Escape",
-      "relationship": "Alternative name - same fundamental technique, different nomenclature"
+      "relationship": "Alternative name - same fundamental technique"
     },
     {
       "name": "Side Control Escape",
-      "relationship": "Primary application - hip escape is the foundational movement for escaping side control"
+      "relationship": "Primary application - hip escape is foundational for escaping side control"
     },
     {
       "name": "Bridge and Roll",
-      "relationship": "Complementary escape - often combined with hip escape when bridge creates sufficient space"
+      "relationship": "Complementary escape - often combined with hip escape"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Follow-up position - successful hip escape leads to guard recovery"
+      "name": "Guard Replacement",
+      "relationship": "Follow-up technique - guard replacement after creating space"
     },
     {
       "name": "Knee Shield Retention",
-      "relationship": "Follow-up technique - knee shield is established in space created by hip escape"
+      "relationship": "Follow-up position - knee shield established in space created"
     },
     {
-      "name": "Technical Standup",
-      "relationship": "Alternative follow-up - can transition to standup instead of guard after creating space"
+      "name": "Technical Stand-up",
+      "relationship": "Alternative follow-up - transition to standup instead of guard"
     },
     {
       "name": "Ghost Escape",
-      "relationship": "Advanced variation - uses similar hip movement principles with different angle"
+      "relationship": "Advanced variation - similar hip movement principles with different angle"
     },
     {
-      "name": "Mount Escape Hierarchy",
-      "relationship": "System integration - hip escape is primary escape method from mount bottom"
+      "name": "Upa Escape",
+      "relationship": "Complementary technique - alternative escape method from mount"
     },
     {
-      "name": "Hip Escape Mechanics",
-      "relationship": "Conceptual foundation - theoretical framework underlying this technique"
+      "name": "Granby Roll",
+      "relationship": "Alternative escape - different movement pattern for similar goal"
     },
     {
-      "name": "Space Creation",
-      "relationship": "Core concept - hip escape is primary method of creating space from bottom"
+      "name": "Hitchhiker Escape",
+      "relationship": "Alternative technique - another escape option from side control"
     },
     {
-      "name": "Defensive Framing",
-      "relationship": "Required prerequisite - proper frames essential for successful hip escape"
-    },
-    {
-      "name": "Escape Hierarchy",
-      "relationship": "System position - hip escape sits at top of most defensive hierarchies"
-    },
-    {
-      "name": "Guard Retention",
-      "relationship": "Related application - shrimping movement used extensively in guard retention"
+      "name": "Re-Guard",
+      "relationship": "Follow-up position - guard recovery after escape"
     }
   ],
   "expert_insights": {

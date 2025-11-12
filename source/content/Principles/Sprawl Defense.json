@@ -1,14 +1,11 @@
 {
-  "metadata": {
-    "title": "Sprawl Defense | BJJ Concept | BJJ Graph",
-    "description": "Master Sprawl Defense in BJJ. Understand fundamental takedown defense principles, hip positioning, counter-offense timing. Expert insights from Danaher, Ryan, Bravo included.",
-    "principle_id": "P098",
-    "tags": ["bjj", "concept", "takedown-defense", "wrestling", "sprawl", "defensive-strategy"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
-
+  "name": "Sprawl Defense",
+  "description": "Master sprawl defense mechanics in Brazilian Jiu-Jitsu. Learn takedown defense principles, hip positioning, weight distribution, and counter-offense timing.",
+  "tags": ["bjj", "principle", "takedown-defense", "wrestling", "sprawl", "defensive-strategy", "counter-offense", "front-headlock"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
+  
   "overview": "Sprawl Defense represents one of the most fundamental defensive concepts in Brazilian Jiu-Jitsu and grappling, serving as the primary response to single-leg and double-leg takedown attempts. At its core, the sprawl is a dynamic hip movement that creates distance and downward pressure to neutralize an opponent's penetration step while simultaneously establishing dominant position for counter-offense. The concept extends beyond the physical mechanics of throwing the hips back and driving weight downward—it encompasses the entire defensive framework of recognizing takedown entries, timing the sprawl response, and transitioning to offensive opportunities.\n\nThe sprawl defense system integrates seamlessly with BJJ's standing game, providing a bridge between wrestling-based takedown defense and submission-oriented counter-attacks. While rooted in wrestling fundamentals, BJJ practitioners adapt the sprawl to create opportunities for guillotines, front headlocks, anacondas, darces, and back takes. This dual-purpose nature—simultaneously defending the takedown while setting up attacks—makes sprawl defense essential for both gi and no-gi competition.\n\nMastery of sprawl defense requires understanding weight distribution, hip mobility, hand fighting positioning, and the timing windows that separate successful defense from being taken down. The concept scales across skill levels: beginners learn basic hip retraction and sprawling mechanics, intermediates develop timing and counter-offense integration, and advanced practitioners use the sprawl as an offensive weapon to create submission opportunities. Understanding this concept is prerequisite to effective standing defense in modern BJJ competition.",
 
   "key_principles": [
@@ -83,6 +80,41 @@
       "principle_name": "Defensive Framing",
       "relationship_type": "Complementary",
       "description": "Using frames with hands, forearms, and body positioning during sprawl creates barriers that prevent opponent from advancing position or securing deeper control despite initial takedown attempt."
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Prerequisite",
+      "description": "Explosive hip mobility and coordination form the foundation of effective sprawl execution, requiring trained hip extension patterns and dynamic movement capabilities."
+    },
+    {
+      "principle_name": "Timing and Rhythm",
+      "relationship_type": "Complementary",
+      "description": "Reading opponent's rhythm and timing takedown entry recognition to the precise moment of penetration step maximizes sprawl effectiveness while minimizing wasted energy on false threats."
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Extension",
+      "description": "Sprawl mechanics represent a specific application of distance creation principles, using hip retraction to create separation when opponent attempts to close distance through takedowns."
+    },
+    {
+      "principle_name": "Hand Fighting",
+      "relationship_type": "Prerequisite",
+      "description": "Active hand fighting prevents clean takedown setups and creates opportunities to disrupt opponent's grips before sprawl becomes necessary, forming the first line of takedown defense."
+    },
+    {
+      "principle_name": "Defensive Posture",
+      "relationship_type": "Complementary",
+      "description": "Maintaining proper defensive posture in standing position—balanced stance, hands ready, hips mobile—creates the structural foundation from which effective sprawls can be executed."
+    },
+    {
+      "principle_name": "Forward Pressure",
+      "relationship_type": "Extension",
+      "description": "After sprawl execution, applying forward pressure onto opponent's shoulders and back represents the offensive application of pressure principles in the context of takedown defense."
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Strategic sprawl deployment based on threat assessment conserves energy for sustained defensive effort throughout matches, avoiding exhaustion from responding to feints and non-committed attacks."
     }
   ],
 
@@ -92,19 +124,19 @@
       "how_applied": "Sprawl defense serves as primary takedown defense against wrestlers and MMA-style grapplers, with emphasis on guillotine and darce counter-attacks immediately following successful sprawl."
     },
     {
-      "context": "Guard Pull",
+      "context": "Standing Guard",
       "how_applied": "Sprawl timing prevents opponent from pulling guard effectively, forcing them to work from less favorable positions or commit to alternative entries that create counter-offensive opportunities."
     },
     {
-      "context": "Turtle Top",
+      "context": "Turtle",
       "how_applied": "Sprawl-like pressure mechanics apply when opponent attempts to return to guard from turtle, using similar hip extension and downward pressure to maintain top control and prevent re-guard."
     },
     {
-      "context": "Back Control",
-      "how_applied": "Hip extension principles from sprawl defense translate to preventing opponent from flattening you when attempting to escape back control, maintaining defensive posture through similar mechanics."
+      "context": "Standing Back Control",
+      "how_applied": "When opponent shoots from standing back control position, modified sprawl mechanics combined with back control maintenance prevents them from escaping while potentially advancing to mat work positions."
     },
     {
-      "context": "Half Guard Top",
+      "context": "Half Guard",
       "how_applied": "Sprawl mechanics inform how to maintain downward pressure when opponent attempts to come up from half guard, preventing them from achieving underhooks or dogfight positions."
     },
     {
@@ -116,20 +148,32 @@
       "how_applied": "During scrambles from various positions, sprawl-based hip retraction and pressure application helps win positional exchanges by controlling opponent's attempts to come on top or secure advantageous grips."
     },
     {
-      "context": "Standing Back Control",
-      "how_applied": "When opponent shoots from standing back control position, modified sprawl mechanics combined with back control maintenance prevents them from escaping while potentially advancing to mat work positions."
-    },
-    {
-      "context": "Open Guard Top",
+      "context": "Open Guard",
       "how_applied": "Understanding sprawl pressure dynamics informs pressure passing approaches from top of open guard, using similar weight distribution and hip positioning to flatten opponent's guard structure."
     },
     {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Pre-emptive sprawl positioning in clinch scenarios prevents clean takedown entries, with slight hip retraction and lowered center of gravity making penetration steps more difficult for opponent."
     },
     {
-      "context": "Guard Recovery",
+      "context": "Defensive Position",
       "how_applied": "When opponent attempts to take you down while you're recovering guard, sprawl mechanics combined with guard retention create defensive hybrid positions that prevent full takedown completion."
+    },
+    {
+      "context": "Combat Base",
+      "how_applied": "From combat base in opponent's guard, sprawl principles inform how to maintain forward pressure and prevent being swept backward through similar weight distribution patterns."
+    },
+    {
+      "context": "Collar Ties",
+      "how_applied": "Collar tie control integrates with sprawl readiness by maintaining hand positioning that allows quick transition to sprawl defense while controlling opponent's posture and takedown setups."
+    },
+    {
+      "context": "Underhook Battle",
+      "how_applied": "During underhook battles, sprawl mechanics provide escape option when opponent secures dominant underhook position and attempts to transition to takedown or advantageous clinch control."
+    },
+    {
+      "context": "Body Lock",
+      "how_applied": "When opponent achieves body lock control and attempts takedown, modified sprawl with hip pressure and downward drive can create defensive opportunities and prevent clean takedown execution."
     }
   ],
 
@@ -336,13 +380,28 @@
     },
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Prerequisite skill that prevents clean takedown entries and reduces frequency of required sprawl defense"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept that ensures sprawl structure remains stable during defensive execution"
+    },
+    {
+      "name": "Sprawl",
+      "content_type": "Transition",
+      "relationship": "Technical execution and movement patterns that implement the sprawl defense concept"
+    },
+    {
+      "name": "Takedown Defense",
+      "content_type": "Transition",
+      "relationship": "Broader defensive framework that includes sprawl defense as one of multiple defensive options"
+    },
+    {
+      "name": "Snap Down",
+      "content_type": "Transition",
+      "relationship": "Complementary standing control technique that creates front headlock opportunities similar to sprawl outcomes"
     }
   ],
 

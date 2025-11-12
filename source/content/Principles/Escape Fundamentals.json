@@ -1,22 +1,20 @@
 {
-  "metadata": {
-    "title": "Escape Fundamentals | BJJ Concept | BJJ Graph",
-    "description": "Understand Escape Fundamentals in BJJ. Learn core principles of framing, space creation, angle generation, and position recovery. Expert insights included.",
-    "principle_id": "P027",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "defense",
-      "escape",
-      "frames",
-      "space-creation",
-      "survival"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Escape Fundamentals",
+  "description": "Master Escape Fundamentals in BJJ. Learn systematic framing, space creation, angle generation, and position recovery across all defensive scenarios.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "defense",
+    "escape",
+    "frames",
+    "space-creation",
+    "survival",
+    "position-recovery"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Escape Fundamentals represent the core principles and mechanical patterns underlying all successful escapes from inferior positions in BJJ, providing systematic framework for defensive survival and position improvement. Unlike specific escape techniques, escape fundamentals are comprehensive conceptual guidelines that apply across all defensive scenarios and determine overall defensive capability. This concept encompasses the biomechanical understanding that successful escapes follow predictable patterns: creating frames, generating space, creating angles, and transitioning to improved positions through sequential movements. Escape fundamentals serve as both immediate survival mechanism enabling defense against submissions and long-term strategic framework for escaping dominant positions. The ability to apply escape fundamentals consistently under pressure often determines defensive success and overall BJJ survivability, making it one of the most essential conceptual elements for practitioners at all levels.",
   "key_principles": [
     "Establish frames immediately as first defensive priority to create structural barriers",
@@ -93,6 +91,36 @@
       "principle_name": "Space Management",
       "relationship_type": "Complementary",
       "description": "Space Management principles directly support escape fundamentals by providing conceptual framework for understanding how space is created, maintained, and exploited during defensive sequences."
+    },
+    {
+      "principle_name": "Shrimping",
+      "relationship_type": "Prerequisite",
+      "description": "Shrimping mechanics form the foundational movement pattern for executing hip escapes that create the space and angles necessary for all escape sequences."
+    },
+    {
+      "principle_name": "Bridging Mechanics",
+      "relationship_type": "Prerequisite",
+      "description": "Bridging provides essential explosive movement capability for creating vertical space and disrupting opponent's base during critical escape moments."
+    },
+    {
+      "principle_name": "Mount Escape Series",
+      "relationship_type": "Extension",
+      "description": "Mount Escape Series represents specific application of escape fundamentals to mount position with detailed technical sequences and position-specific variations."
+    },
+    {
+      "principle_name": "Side Control Escapes",
+      "relationship_type": "Extension",
+      "description": "Side Control Escapes apply escape fundamentals specifically to side control scenarios with techniques optimized for this particular pin structure."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Complementary",
+      "description": "Guard Retention principles complement escape fundamentals by preventing the need for escapes through proactive defensive positioning before pins are established."
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Energy Conservation principles integrate with escape fundamentals to ensure sustainable defensive effort over extended periods without premature exhaustion."
     }
   ],
   "application_contexts": [
@@ -117,28 +145,48 @@
       "how_applied": "Applied through creating frames using forearms under opponent's armpits, bridging to create upward pressure and space, shrimping to either side to create angles, and recovering to guard by inserting legs between bodies during opponent's base adjustment."
     },
     {
-      "context": "Scarf Hold Position",
+      "context": "Kesa Gatame",
       "how_applied": "Fundamentals manifest through establishing frame against opponent's head and far hip, bridging toward trapped arm side to create space, using free leg to generate additional hip movement, and escaping to guard through sequential rolling or shrimping movements."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "While not traditional escape position, fundamentals apply when posture is broken by creating frames to reestablish distance, using hip movement to recover proper guard angle, and preventing opponent from consolidating passing position."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Applied when facing flattening pressure by creating underhook frames, using hip escape to recover to side-facing position, maintaining knee shield distance, and preventing opponent from advancing to mount or achieving complete pass."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Fundamentals express through protecting collar and arm exposure, creating base width to prevent rolling, using granby roll or sit-through movements to escape back exposure, and recovering to guard through sequential defensive transitions."
     },
     {
-      "context": "Bottom Position",
-      "how_applied": "Universal application of establishing protective frames, creating space through hip movement regardless of specific position, generating angles to disrupt opponent's control structures, and systematically working toward guard recovery or position improvement."
+      "context": "Crucifix",
+      "how_applied": "Applied by protecting trapped arm and neck while creating hip movement to reduce opponent's control, systematically freeing one limb at a time through frame creation and space generation, and transitioning to improved defensive position."
     },
     {
-      "context": "Defensive Position",
-      "how_applied": "Core fundamentals of framing, spacing, and angling applied during worst-case defensive scenarios to prevent immediate submission while creating pathways toward position improvement through patient, systematic escape execution."
+      "context": "High Mount",
+      "how_applied": "Escape fundamentals applied by creating frames high on opponent's chest and hips, using explosive bridge to create maximum displacement, immediately inserting elbow escape during opponent's base recovery, and transitioning to half guard or closed guard."
+    },
+    {
+      "context": "Technical Mount",
+      "how_applied": "Fundamentals manifest through immediate recognition of exposed back danger, creating frames to prevent mount consolidation, using hip escape toward opponent's lower leg, and recovering to closed guard or half guard before full mount is established."
+    },
+    {
+      "context": "Modified Mount",
+      "how_applied": "Applied by identifying which side offers better escape opportunity based on opponent's leg positioning, creating frames on less-controlled side, executing hip escape toward that direction, and recovering guard through knee insertion."
+    },
+    {
+      "context": "Knee Shield Half Guard",
+      "how_applied": "When knee shield is compromised, escape fundamentals apply through re-establishing frame distance, using hip movement to recover proper angle, preventing flatten-out while maintaining some barrier, and transitioning to more secure half guard variation or full guard recovery."
+    },
+    {
+      "context": "Lockdown",
+      "how_applied": "Fundamentals apply when opponent establishes heavy pressure by creating upper body frames, using controlled hip movement to maintain lockdown control while preventing flattening, and systematically working toward sweep or back take opportunities."
+    },
+    {
+      "context": "Deep Half Guard",
+      "how_applied": "When facing smash pressure in deep half, escape fundamentals manifest through maintaining underhook frame, using hip movement to prevent complete flattening, protecting head from crossface control, and either completing sweep or transitioning to standard half guard."
     }
   ],
   "decision_framework": [
@@ -300,47 +348,47 @@
   "related_content": [
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core prerequisite skill that provides structural foundation for all escape fundamentals applications"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential mechanical component providing primary space and angle generation during escapes"
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework that determines which escape fundamentals to apply based on positional priority"
     },
     {
       "name": "Pin Escape Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Position-specific application of universal escape fundamentals to various pinning scenarios"
     },
     {
       "name": "Mount Escape Series",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific implementation of escape fundamentals from mount position with detailed technical sequences"
     },
     {
       "name": "Side Control Escapes",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Application of escape fundamentals specifically to side control with position-specific variations"
     },
     {
       "name": "Back Escape Series",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complex application of escape fundamentals to back control scenarios requiring additional hand fighting components"
     },
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Overarching defensive framework within which escape fundamentals are deployed based on strategic objectives"
     },
     {
       "name": "Space Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept explaining how space is created, maintained, and exploited during defensive sequences"
     },
     {

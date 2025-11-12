@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Open Guard to Deep Half | BJJ Technique | BJJ Graph",
-    "description": "Learn Open Guard to Deep Half transition in BJJ. Step-by-step execution from Open Guard Bottom to Deep Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T914",
-    "tags": [
-      "bjj",
-      "transition",
-      "guard",
-      "open_guard",
-      "deep_half",
-      "half_guard",
-      "sweep",
-      "recovery"
-    ],
-    "starting_position": "Open Guard Bottom",
-    "ending_position": "Deep Half Guard Bottom",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Open Guard to Deep Half",
+  "description": "Learn Open Guard to Deep Half transition in BJJ. Step-by-step execution from Open Guard Bottom to Deep Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard",
+    "open_guard",
+    "deep_half",
+    "half_guard",
+    "sweep",
+    "recovery"
+  ],
+  "starting_position": "Open Guard",
+  "ending_position": "Deep Half Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The transition from Open Guard to Deep Half represents a strategic guard recovery sequence that transforms defensive situations into powerful offensive opportunities. This technique is particularly valuable when facing aggressive standing or passing pressure from top position, allowing the bottom player to dive underneath their opponent's center of gravity and establish the deep half guard structure. The deep half position provides excellent sweeping mechanics while simultaneously nullifying many common passing strategies. This transition emphasizes proper hip movement, head positioning, and timing to safely navigate underneath the opponent's base. Modern practitioners have refined this entry to work against various passing styles, making it an essential component of comprehensive guard retention systems. The technique demonstrates the principle of using depth and angle changes to create defensive depth while maintaining offensive threats.",
   "key_principles": [
@@ -198,7 +195,7 @@
     },
     {
       "question": "What should you do immediately upon completing the deep half structure, and why is this timing critical?",
-      "answer": "Immediately upon completing the deep half structure, you must begin your sweeping sequence without any pause. This timing is critical because it prevents your opponent from establishing defensive posture in response to your entry. The transition and sweep should be treated as one continuous motion - the offensive advantage of deep half comes from the dynamic entry that immediately converts to attacking pressure. If you pause after achieving the position, you give your opponent time to base out, establish grips, and neutralize your sweeping mechanics. The most successful deep half entries flow seamlessly into old school sweep, waiter sweep, or Homer sweep variations, maintaining constant pressure and initiative.",
+      "answer": "Immediately upon completing the deep half structure, you must begin your sweeping sequence without any pause. This timing is critical because it prevents your opponent from establishing defensive posture in response to your entry. The transition and sweep should be treated as one continuous motion - the offensive advantage of deep half comes from the dynamic entry that immediately converts to attacking pressure. If you pause after achieving the position, you give your opponent time to base out, establish grips, and neutralize your sweeping mechanics. The most successful deep half entries flow seamlessly into old school sweep, waiter sweep, or Homer Simpson sweep variations, maintaining constant pressure and initiative.",
       "difficulty": "Advanced"
     },
     {
@@ -218,55 +215,55 @@
     }
   ],
   "safety_considerations": "When practicing the open guard to deep half transition, practitioners must prioritize proper head positioning throughout the entry sequence. Never allow your head to dive between your opponent's legs, as this creates immediate vulnerability to guillotine chokes and can result in serious neck injuries if the submission is applied aggressively. Always maintain a tucked chin position to protect against crossface pressure and potential neck cranks. During drilling, partners should use controlled movements and avoid explosive counter-pressure until proper technique is established. Beginners should practice this entry exclusively with cooperative partners who understand the safety requirements and will not apply sudden pressure that could compress the neck. As with all inverted or underneath positions, practitioners with neck injuries or restrictions should consult with medical professionals before attempting this technique. The transition should be trained progressively, starting with zero resistance and gradually increasing intensity only after demonstrating consistent proper form. Partners should communicate clearly about resistance levels and immediately stop if either person feels uncomfortable or unsafe during the entry sequence.",
-  "position_integration": "The open guard to deep half transition represents a critical component of modern guard retention and recovery systems. This entry serves as a essential bridge between various open guard structures and the deep half position, allowing practitioners to maintain guard integrity when facing aggressive standing or pressure passing attempts. The technique integrates seamlessly with other guard recovery concepts, particularly when combined with reverse De La Riva, butterfly guard, and single leg X positions as alternative pathways. In competition contexts, this transition is frequently used as a last-resort guard retention option when primary guards are being passed, effectively transforming defensive situations into offensive opportunities through depth and angle changes. The deep half position reached through this entry provides immediate access to powerful sweeping sequences including the old school sweep, waiter sweep, and Homer sweep, making it not just a defensive recovery but an offensive position in its own right. Advanced practitioners use this entry as part of layered guard systems where open guard, butterfly, deep half, and single leg X positions flow together based on opponent reactions. The transition also connects to back-take sequences and leg entanglement systems for practitioners who train in modern submission grappling rulesets. Understanding this entry as part of the larger positional ecosystem rather than as an isolated technique is essential for developing comprehensive guard games that function against diverse passing styles and opponent body types.",
+  "position_integration": "The open guard to deep half transition represents a critical component of modern guard retention and recovery systems. This entry serves as an essential bridge between various open guard structures and the deep half position, allowing practitioners to maintain guard integrity when facing aggressive standing or pressure passing attempts. The technique integrates seamlessly with other guard recovery concepts, particularly when combined with reverse De La Riva, butterfly guard, and single leg X positions as alternative pathways. In competition contexts, this transition is frequently used as a last-resort guard retention option when primary guards are being passed, effectively transforming defensive situations into offensive opportunities through depth and angle changes. The deep half position reached through this entry provides immediate access to powerful sweeping sequences including the old school sweep, waiter sweep, and Homer sweep, making it not just a defensive recovery but an offensive position in its own right. Advanced practitioners use this entry as part of layered guard systems where open guard, butterfly, deep half, and single leg X positions flow together based on opponent reactions. The transition also connects to back-take sequences and leg entanglement systems for practitioners who train in modern submission grappling rulesets. Understanding this entry as part of the larger positional ecosystem rather than as an isolated technique is essential for developing comprehensive guard games that function against diverse passing styles and opponent body types.",
   "related_content": [
     {
-      "name": "Deep Half Entry",
-      "relationship": "Primary technique - direct pathway to same position"
+      "name": "Deep Half Guard",
+      "relationship": "Ending position"
     },
     {
       "name": "Old School Sweep",
-      "relationship": "Follow-up sweep from completed position"
+      "relationship": "Primary follow-up sweep"
     },
     {
       "name": "Waiter Sweep",
-      "relationship": "Alternative sweep option from deep half"
+      "relationship": "Alternative sweep option"
     },
     {
       "name": "Electric Chair Submission",
-      "relationship": "Advanced submission option from deep half position"
+      "relationship": "Advanced submission from position"
     },
     {
       "name": "Half Guard Sweeps",
-      "relationship": "Related sweeping system from similar position"
+      "relationship": "Related sweeping system"
     },
     {
       "name": "Butterfly Guard to X-Guard",
-      "relationship": "Alternative transition from similar open guard position"
+      "relationship": "Alternative transition pathway"
     },
     {
       "name": "Guard Recovery",
-      "relationship": "Broader positional concept this technique exemplifies"
+      "relationship": "Broader positional concept"
     },
     {
       "name": "Single Leg X Sweep",
-      "relationship": "Alternative position when deep half entry is defended"
+      "relationship": "Alternative when entry defended"
     },
     {
-      "name": "Reverse De La Riva Guard Bottom",
-      "relationship": "Alternative guard position that flows to deep half"
+      "name": "De La Riva Guard",
+      "relationship": "Alternative starting guard"
     },
     {
       "name": "Lockdown Sweeps",
-      "relationship": "Related sweeping system from half guard family"
+      "relationship": "Related half guard system"
     },
     {
       "name": "Underhook Sweep from Half",
-      "relationship": "Related sweeping concept using similar mechanics"
+      "relationship": "Related sweeping mechanics"
     },
     {
       "name": "Hook Sweep",
-      "relationship": "Alternative sweep from butterfly/open guard positions"
+      "relationship": "Alternative from butterfly/open guard"
     }
   ],
   "expert_insights": {

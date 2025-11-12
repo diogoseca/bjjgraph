@@ -1,7 +1,6 @@
 {
   "name": "S Mount",
   "slug": "s-mount",
-  "category": "dominant-positions",
   "description": "Master S Mount in BJJ - the ultimate armbar setup position. Complete technical guide covering control mechanics, submission chains, and transition strategies from both perspectives.",
   "variant_uniqueness": "Perpendicular body angle maximizes armbar leverage",
   "overview": "S Mount, also known as technical mount or mounted armbar position, represents one of the most dominant and submission-oriented positions in Brazilian Jiu-Jitsu. This position is characterized by the top practitioner sitting perpendicular to their opponent while maintaining mount control, with one leg extended over the opponent's head and the other leg positioned across their torso. The name derives from the S-shaped configuration created by the top person's body position relative to their opponent.\n\nThe strategic value of S Mount lies in its dual nature as both a controlling position and a launching platform for high-percentage submissions. Unlike standard mount, which prioritizes positional dominance and chest-to-chest pressure, S Mount sacrifices some stability in exchange for superior attacking mechanics, particularly for armbars. The perpendicular body angle creates optimal leverage for shoulder isolation and provides multiple submission paths while maintaining enough control to prevent escape.\n\nFrom the bottom perspective, S Mount represents an extremely dangerous position that requires immediate defensive action. The bottom practitioner faces the dual threat of submission and positional advancement, with limited defensive options once proper control is established. Understanding S Mount defense is crucial for survival in competition and training, as the position naturally flows from standard mount control and appears frequently in high-level competition.\n\nThe transition mechanics into S Mount typically originate from mount or side control, with the top practitioner moving into perpendicular alignment to attack the arm. This position features prominently in the games of submission specialists like Demian Maia, Roger Gracie, and Renzo Gracie, who have demonstrated its effectiveness at the highest levels of competition. The position exemplifies the principle of position before submission, as proper S Mount control makes the armbar nearly inevitable.\n\nHistorically, S Mount has been a fundamental component of Japanese judo groundwork (newaza) and was adopted early in Brazilian Jiu-Jitsu's development. The position showcases the art's emphasis on positional dominance and technical submission execution, rather than relying purely on strength or athleticism. Modern competitors continue to refine S Mount mechanics, developing increasingly sophisticated control methods and submission chains that make the position even more dominant in contemporary grappling.",
@@ -20,7 +19,7 @@
       "relationship": "Primary entry position - S Mount is an attacking transition from standard mount"
     },
     {
-      "name": "Mount/High Mount",
+      "name": "High Mount",
       "relationship": "Alternative dominant position - can transition between high mount and S Mount for submissions"
     },
     {
@@ -28,7 +27,7 @@
       "relationship": "Primary submission destination - S Mount provides optimal setup for armbar finish"
     },
     {
-      "name": "Mount/Mounted Triangle",
+      "name": "Mounted Triangle",
       "relationship": "Alternative submission - can transition to mounted triangle if armbar is defended"
     },
     {
@@ -40,7 +39,7 @@
       "relationship": "Alternative advancement - if opponent turns away from S Mount, take the back"
     },
     {
-      "name": "Mount/Mounted Crucifix",
+      "name": "Mounted Crucifix",
       "relationship": "Alternative control position - similar arm isolation mechanics with different body configuration"
     },
     {
@@ -151,7 +150,7 @@
       },
       {
         "technique": "Triangle from Mount",
-        "target_position": "Mount/Mounted Triangle",
+        "target_position": "Mounted Triangle",
         "success_rate": 40
       },
       {
@@ -445,7 +444,7 @@
       },
       {
         "technique": "Triangle from Mount",
-        "target_position": "Mount/Mounted Triangle",
+        "target_position": "Mounted Triangle",
         "success_rates": {
           "beginner": 35,
           "intermediate": 50,
@@ -490,7 +489,7 @@
       },
       {
         "technique": "Mounted Crucifix Entry",
-        "target_position": "Mount/Mounted Crucifix",
+        "target_position": "Mounted Crucifix",
         "success_rates": {
           "beginner": 20,
           "intermediate": 35,
@@ -542,7 +541,7 @@
       },
       {
         "technique": "Switch to Triangle",
-        "target_position": "Mount/Mounted Triangle",
+        "target_position": "Mounted Triangle",
         "trigger": "When opponent brings their free arm across their body to defend armbar"
       },
       {
@@ -582,7 +581,7 @@
           },
           {
             "technique": "Switch to triangle attack",
-            "target": "Mount/Mounted Triangle",
+            "target": "Mounted Triangle",
             "probability": 55
           },
           {
@@ -612,7 +611,7 @@
         "actions": [
           {
             "technique": "Switch to triangle setup",
-            "target": "Mount/Mounted Triangle",
+            "target": "Mounted Triangle",
             "probability": 70
           },
           {
@@ -622,7 +621,7 @@
           },
           {
             "technique": "Transition to mounted crucifix",
-            "target": "Mount/Mounted Crucifix",
+            "target": "Mounted Crucifix",
             "probability": 50
           }
         ]
@@ -714,7 +713,7 @@
       },
       {
         "name": "Triangle Chain",
-        "path": "Mount → S Mount Top → Mount/Mounted Triangle → Triangle Choke Front → Won by Submission"
+        "path": "Mount → S Mount Top → Mounted Triangle → Triangle Choke Front → Won by Submission"
       },
       {
         "name": "Back Attack Series",
@@ -722,7 +721,7 @@
       },
       {
         "name": "Mounted Crucifix Path",
-        "path": "Mount → S Mount Top → Mount/Mounted Crucifix → Choke from Crucifix → Won by Submission"
+        "path": "Mount → S Mount Top → Mounted Crucifix → Choke from Crucifix → Won by Submission"
       },
       {
         "name": "Alternative Arm Attack",
@@ -739,11 +738,11 @@
         "relationship": "Primary submission destination - S Mount provides optimal setup for armbar"
       },
       {
-        "name": "Mount/High Mount",
+        "name": "High Mount",
         "relationship": "Alternative attacking position - can flow between high mount and S Mount"
       },
       {
-        "name": "Mount/Mounted Triangle",
+        "name": "Mounted Triangle",
         "relationship": "Alternative submission - common transition when armbar is defended"
       },
       {

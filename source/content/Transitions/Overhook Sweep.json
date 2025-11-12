@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Overhook Sweep | BJJ Technique | BJJ Graph",
-    "description": "Master Overhook Sweep in BJJ. Sweeping technique from Closed Guard Bottom to Mount Top. Step-by-step execution. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
-    "transition_id": "T072",
-    "tags": [
-      "bjj",
-      "transition",
-      "technique",
-      "sweep",
-      "closed-guard",
-      "overhook",
-      "mount"
-    ],
-    "starting_position": "Closed Guard Bottom",
-    "ending_position": "Mount Top",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 65,
-      "advanced": 80
-    }
+  "name": "Overhook Sweep",
+  "description": "Master the Overhook Sweep from closed guard in BJJ. Step-by-step execution guide. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "sweep",
+    "closed-guard",
+    "overhook",
+    "mount"
+  ],
+  "starting_position": "Closed Guard",
+  "ending_position": "Mount",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 65,
+    "advanced": 80
   },
   "overview": "The Overhook Sweep is a fundamental attacking technique from closed guard that capitalizes on controlling one of the opponent's arms with an overhook grip. This sweep is particularly effective when the opponent posts their hand on the mat or extends their arm, creating the opportunity to trap it and use their own base against them. The technique combines off-balancing principles with leverage mechanics to elevate and roll the opponent, transitioning from a bottom position to a dominant top position. The overhook sweep is highly reliable because it works with the opponent's natural defensive reactions - when they post to maintain base, they inadvertently create the exact weakness needed for the sweep. This makes it an excellent choice for practitioners at all levels, from beginners learning fundamental sweeping mechanics to advanced competitors using it as part of a sophisticated closed guard attacking system. The sweep can be executed both in gi and no-gi scenarios, though grip configurations differ slightly between the two contexts.",
   "key_principles": [
@@ -251,7 +248,7 @@
       "relationship": "Alternative to sweeping when opponent postures hard"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "relationship": "Ending position - where the sweep deposits you"
     }
   ],

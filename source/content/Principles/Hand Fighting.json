@@ -1,22 +1,20 @@
 {
-  "metadata": {
-    "title": "Hand Fighting | BJJ Concept | BJJ Graph",
-    "description": "Understand Hand Fighting in BJJ. Learn strategic hand positioning, control management, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included.",
-    "principle_id": "P114",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "control",
-      "grips",
-      "hand-fighting",
-      "positioning",
-      "clinch"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Hand Fighting",
+  "description": "Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement. Expert insights from Danaher, Gordon Ryan, Eddie Bravo.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "control",
+    "grips",
+    "hand-fighting",
+    "positioning",
+    "clinch",
+    "guard-retention"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Hand Fighting represents the dynamic battle for upper body positional control through strategic management of hand positioning, engagement, and prevention. Unlike grip fighting which focuses specifically on establishing and breaking grips, hand fighting encompasses a broader tactical framework involving all aspects of upper body control through hand placement, movement, and sequencing. This concept applies across all phases of BJJ but is particularly critical in the standing phase, clinch exchanges, and upper body dominant positions. Hand fighting serves as both an offensive mechanism for establishing dominant control pathways and a defensive system for preventing opponent's preferred control structures. The ability to win the hand fighting battle often determines subsequent positional advantages and creates the foundation for effective technique application, making it one of the most fundamental yet frequently overlooked conceptual elements in BJJ.",
   "key_principles": [
     "Establish inside position control when possible to gain mechanical advantage",
@@ -93,6 +91,36 @@
       "principle_name": "Action and Reaction",
       "relationship_type": "Complementary",
       "description": "Hand fighting creates reactions that can be exploited tactically. Understanding action-reaction dynamics allows hand fighting to be used as a setup mechanism for creating desired opponent responses."
+    },
+    {
+      "principle_name": "Collar Control",
+      "relationship_type": "Extension",
+      "description": "Collar control represents a specific application of hand fighting principles for establishing dominant head and upper body control. Hand fighting success determines the ability to establish and maintain collar controls."
+    },
+    {
+      "principle_name": "Sleeve Control",
+      "relationship_type": "Extension",
+      "description": "Sleeve control requires hand fighting competency to establish and maintain across various positions. Hand fighting determines timing and positioning for effective sleeve control establishment."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Complementary",
+      "description": "Guard retention relies heavily on hand fighting to prevent passing grips and maintain control over opponent's upper body. Hand fighting creates the first line of defense in guard retention systems."
+    },
+    {
+      "principle_name": "Guard Passing Principles",
+      "relationship_type": "Complementary",
+      "description": "Successful guard passing requires winning hand fighting battles to establish passing grips while preventing guard player's retention controls. Hand fighting determines initial passing success."
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Complementary",
+      "description": "Hand fighting can be used to create and manage distance through strategic hand placement and frame establishment. These principles work together in defensive scenarios."
+    },
+    {
+      "principle_name": "Off-Balancing",
+      "relationship_type": "Extension",
+      "description": "Hand fighting establishes the control points necessary for effective off-balancing techniques. Superior hand positioning creates mechanical advantages for disrupting opponent's balance."
     }
   ],
   "application_contexts": [
@@ -101,27 +129,23 @@
       "how_applied": "Hand fighting establishes initial control in standing exchanges, determining who gains positional advantage before clinch engagement. Focus is on inside position control, collar tie establishment, and preventing opponent's preferred grips while working toward takedown setups."
     },
     {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Hand fighting determines control hierarchy in clinch exchanges, with emphasis on underhook battles, overhook prevention, and head control establishment. Success in clinch hand fighting directly impacts takedown success and defensive positioning."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Hand fighting from closed guard focuses on preventing posture establishment, breaking grips that facilitate guard opening, and establishing control pathways for sweeps and submissions. Emphasis on sleeve control, collar grips, and preventing strong posture grips."
-    },
-    {
-      "context": "Closed Guard Top",
-      "how_applied": "Hand fighting priorities include establishing posture grips, preventing sleeve and collar control, and creating the hand positioning necessary for effective guard opening. Focus on grip prevention and creating space for guard passing preparation."
-    },
-    {
-      "context": "Open Guard Bottom",
-      "how_applied": "Hand fighting establishes and maintains guard retention grips while preventing opponent's passing grips. Emphasis on sleeve control, pant grips, and creating control asymmetry that favors guard player's technical objectives."
     },
     {
       "context": "Combat Base",
       "how_applied": "Hand fighting from combat base focuses on preventing guard player's grips while establishing passing controls. Emphasis on hand positioning that supports base maintenance while creating passing opportunities."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Open Guard",
+      "how_applied": "Hand fighting establishes and maintains guard retention grips while preventing opponent's passing grips. Emphasis on sleeve control, pant grips, and creating control asymmetry that favors guard player's technical objectives."
+    },
+    {
+      "context": "Spider Guard",
       "how_applied": "Hand fighting establishes and maintains sleeve grips while preventing posture and creating distance control. Focus on grip establishment timing, preventing grip breaks, and creating control angles for sweeps."
     },
     {
@@ -129,20 +153,36 @@
       "how_applied": "Hand fighting controls opponent's upper body while leg positions control lower body. Emphasis on sleeve and collar control that prevents posting and creates off-balancing opportunities for sweeps and back takes."
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
+      "context": "Reverse De La Riva Guard",
       "how_applied": "Hand fighting establishes far sleeve control and prevents crossface positioning while leg hooks control near side. Focus on creating control asymmetry that facilitates transitions to back control or sweeps."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Hand fighting maintains lasso control while preventing free arm from establishing crossface or underhook controls. Emphasis on controlling free arm through grips that facilitate lasso effectiveness."
     },
     {
-      "context": "Overhook Control Position",
+      "context": "Overhook Control",
       "how_applied": "Hand fighting establishes and deepens overhook control while preventing opponent's defensive hand fighting. Focus on sequencing controls that maximize overhook effectiveness for positional advancement."
     },
     {
-      "context": "Underhook Control Position",
+      "context": "Underhook Control",
       "how_applied": "Hand fighting deepens underhook positioning while preventing opponent's defensive frames and counter-controls. Emphasis on hand positioning that converts underhook into dominant control structures."
+    },
+    {
+      "context": "Collar Sleeve Guard",
+      "how_applied": "Hand fighting establishes and maintains collar and sleeve grips while preventing opponent's passing attempts. Focus on grip management that creates off-balancing and sweep opportunities."
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Hand fighting establishes overhook or underhook controls while preventing opponent's crossface and pressure. Emphasis on upper body control that facilitates butterfly hook effectiveness for sweeps."
+    },
+    {
+      "context": "Half Guard",
+      "how_applied": "Hand fighting battles for underhooks and prevents crossface control from top or bottom. Focus on establishing favorable upper body controls that support either retention or passing objectives."
+    },
+    {
+      "context": "Collar Ties",
+      "how_applied": "Hand fighting establishes and maintains collar tie positions while preventing opponent's counter-controls. Emphasis on head control and creating angles for takedowns or guard pulls."
     }
   ],
   "decision_framework": [
@@ -302,42 +342,42 @@
   "related_content": [
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary skill focusing on specific grip establishment and breaking that builds on hand fighting foundations"
     },
     {
       "name": "Grip Fighting Strategies",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework for grip fighting that integrates with hand fighting tactical approach"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides theoretical framework for prioritizing hand fighting objectives based on positional value"
     },
     {
       "name": "Connection Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Defensive application of hand fighting principles for denying opponent's control establishment"
     },
     {
       "name": "Posture Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical application requiring hand fighting success to establish controls necessary for posture disruption"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Defensive structure requiring effective hand fighting to establish and maintain proper hand positioning"
     },
     {
       "name": "Collar Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific control type requiring hand fighting success to establish and maintain effectively"
     },
     {
       "name": "Sleeve Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental control requiring hand fighting competency for establishment in various positions"
     },
     {
@@ -346,12 +386,12 @@
       "relationship": "Primary context where hand fighting determines initial control establishment before engagement"
     },
     {
-      "name": "Clinch Position",
+      "name": "Clinch",
       "content_type": "Position",
       "relationship": "Critical hand fighting context for underhook battles and control hierarchy establishment"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Guard position requiring sophisticated hand fighting for control establishment and maintenance"
     },

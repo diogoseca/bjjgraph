@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Top Half Guard | BJJ Concept | BJJ Graph",
-    "description": "Understand Top Half Guard control in BJJ. Master pressure distribution, crossface control, passing sequences. Strategic framework for all half guard variations included.",
-    "principle_id": "P118",
-    "tags": [
-      "bjj",
-      "concept",
-      "position",
-      "control",
-      "passing",
-      "half-guard",
-      "pressure",
-      "top-position"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Top Half Guard",
+  "description": "Master Top Half Guard control in BJJ. Learn pressure distribution, crossface dominance, passing sequences across all half guard variations. Complete strategic framework included.",
+  "tags": [
+    "bjj",
+    "principle",
+    "position",
+    "control",
+    "passing",
+    "half-guard",
+    "pressure",
+    "top-position"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Top Half Guard represents the conceptual framework for controlling, neutralizing, and ultimately passing the half guard position from the top position. Unlike the state-specific perspective which focuses on positional mechanics, this concept encompasses the strategic principles, decision-making frameworks, and tactical understanding required for mastery of this critical transitional battleground. Top Half Guard as a concept addresses the methodical approach to dealing with various half guard configurations through proper pressure distribution, connection management, and tactical sequencing. This position serves as one of the most important laboratories for developing fundamental pressure-passing principles, as it provides clear feedback on weight distribution, control effectiveness, and passing mechanics. Understanding Top Half Guard as a conceptual framework rather than merely a position transforms it from a transitional state into a comprehensive offensive system that can be adapted to counter any defensive half guard strategy.",
   "key_principles": [
     "Establish and maintain cross-face control to limit opponent's upper body mobility",
@@ -93,11 +90,31 @@
       "principle_name": "Dilemma Creation",
       "relationship_type": "Advanced form",
       "description": "Advanced top half guard play evolves into systematic dilemma creation where the top player forces the bottom player to choose between defending different attack vectors, each choice opening specific passing opportunities."
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Prerequisite",
+      "description": "Solid base maintenance prevents sweeps and allows sustained pressure application, forming the foundation for all top half guard control strategies."
+    },
+    {
+      "principle_name": "Weight Distribution",
+      "relationship_type": "Complementary",
+      "description": "Proper weight distribution enables effective pressure while maintaining mobility and base stability, critical for adapting to opponent's defensive reactions."
+    },
+    {
+      "principle_name": "Space Management",
+      "relationship_type": "Complementary",
+      "description": "Systematic space reduction limits opponent's defensive options and creates passing opportunities by preventing hip escapes and frame establishment."
+    },
+    {
+      "principle_name": "Hip Pressure",
+      "relationship_type": "Complementary",
+      "description": "Effective hip pressure immobilizes the opponent's lower body while crossface controls the upper body, creating the complete control structure necessary for passing."
     }
   ],
   "application_contexts": [
     {
-      "context": "Half Guard Top",
+      "context": "Half Guard",
       "how_applied": "Direct application domain where all top half guard principles manifest. Pressure distribution, crossface control, and passing sequence selection determine success in converting control to passed position."
     },
     {
@@ -105,7 +122,7 @@
       "how_applied": "Requires specialized frame negation strategies and pressure angle adjustments. Top half guard concepts guide the systematic collapse of knee shield through proper shoulder positioning and hip pressure application."
     },
     {
-      "context": "Lockdown Half Guard Bottom",
+      "context": "Lockdown",
       "how_applied": "Demands base widening and posture management to counter lockdown mechanics. Concepts guide proper weight distribution to prevent whip-over sweeps while maintaining offensive pressure."
     },
     {
@@ -113,7 +130,7 @@
       "how_applied": "Requires early recognition and sprawl-based counters. Top half guard principles inform when to prevent deep half entry versus when to allow controlled entry while maintaining upper body dominance."
     },
     {
-      "context": "Z-Guard Bottom",
+      "context": "Z-Guard",
       "how_applied": "Necessitates understanding of the unique frame structure created by Z-guard configuration. Concepts guide angle creation and pressure application specific to this hybrid defensive structure."
     },
     {
@@ -121,7 +138,7 @@
       "how_applied": "Represents critical decision point where top half guard principles determine whether to complete pass, return to standard half guard control, or transition to alternative passing approaches."
     },
     {
-      "context": "Underhook Battle Position",
+      "context": "Underhook Control",
       "how_applied": "Serves as primary arena for implementing underhook strategy concepts. Position dictates when to fight for underhook control versus when to establish alternative control points."
     },
     {
@@ -133,15 +150,15 @@
       "how_applied": "Represents advanced expression of top half guard concepts where underhook control and leg position create platform for multiple passing options and submission threats."
     },
     {
-      "context": "Knee Slice Position Top",
-      "how_applied": "Demonstrates application of top half guard principles in specific passing execution. Concepts inform proper weight distribution and base maintenance during active passing movements."
+      "context": "Quarter Guard",
+      "how_applied": "Demonstrates near-completion of passing process where maintaining pressure and preventing re-guard becomes primary focus of top half guard principles."
     },
     {
-      "context": "Smash Pass Position",
-      "how_applied": "Exemplifies heavy pressure application concepts adapted to specific passing methodology. Principles guide shoulder positioning and hip control throughout smash passing sequences."
+      "context": "Flattened Half Guard",
+      "how_applied": "Shows successful application of pressure concepts where opponent's defensive structure has been compressed, creating optimal conditions for passing initiation."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Represents successful application of top half guard concepts resulting in passed position. Understanding reinforces importance of proper pressure maintenance and control point establishment."
     }
   ],
@@ -303,7 +320,7 @@
   ],
   "related_content": [
     {
-      "name": "Half Guard Top",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Primary position where this concept is applied, serving as the main laboratory for developing and refining top half guard control and passing principles"
     },
@@ -313,7 +330,7 @@
       "relationship": "Common defensive variation requiring specialized application of top half guard principles, particularly frame negation and pressure angle adjustment"
     },
     {
-      "name": "Lockdown Half Guard Bottom",
+      "name": "Lockdown",
       "content_type": "Position",
       "relationship": "Defensive system requiring specific adaptations of base and pressure concepts to counter lockdown mechanics and maintain passing opportunities"
     },
@@ -349,17 +366,17 @@
     },
     {
       "name": "Pressure Application",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept that underlies all effective top half guard control and must be mastered before developing advanced half guard passing abilities"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework that guides decision-making about which control points to prioritize when establishing and maintaining top half guard dominance"
     },
     {
       "name": "Underhook Defense",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept that directly applies to top half guard situations where preventing and countering opponent's underhook is critical to success"
     }
   ],

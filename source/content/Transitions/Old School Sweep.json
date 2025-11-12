@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Old School Sweep | BJJ Technique | BJJ Graph",
-    "description": "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execution to top position. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
-    "transition_id": "T072",
-    "tags": [
-      "bjj",
-      "sweep",
-      "half-guard",
-      "old-school",
-      "fundamentals",
-      "eddie-bravo",
-      "10th-planet"
-    ],
-    "starting_position": "Half Guard Bottom",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    }
+  "name": "Old School Sweep",
+  "description": "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execution to top position. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "sweep",
+    "half-guard",
+    "old-school",
+    "fundamentals",
+    "eddie-bravo",
+    "10th-planet"
+  ],
+  "starting_position": "Half Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 70
   },
   "overview": "The Old School Sweep is a fundamental half guard technique popularized by Eddie Bravo and the 10th Planet system. This sweep capitalizes on the opponent's forward pressure by using an underhook and strategic footwork to off-balance and sweep them. The technique is particularly effective when the opponent is driving forward in an attempt to pass your half guard. By establishing a deep underhook and creating an angle with your body, you can use your opponent's momentum against them. The Old School Sweep is valued for its reliability and mechanical simplicity - it doesn't require exceptional flexibility or athleticism, making it accessible to practitioners of all body types. The sweep flows naturally into dominant top positions and integrates seamlessly with other half guard attacks, creating a threatening offensive system from bottom position.",
   "key_principles": [
@@ -252,8 +249,12 @@
   "position_integration": "The old school sweep is a cornerstone technique within the half guard bottom system, particularly the 10th Planet methodology. It integrates seamlessly with the lockdown position, creating offensive opportunities from what many consider a defensive position. The sweep connects directly to the electric chair submission system - when opponents defend the electric chair by pulling their leg free, you maintain your underhook and angle to immediately threaten the old school sweep. This creates a true dilemma where defending one attack opens the other. The technique also chains effectively with deep half guard entries, as the underhook and posting mechanics transition smoothly between positions. When opponents counter the old school by posting their far arm, you can attack with kimura locks or transition to back takes, further expanding your offensive system. The old school sweep teaches fundamental principles applicable throughout BJJ: using opponent's pressure against them, creating leverage with proper angles, and maintaining connection throughout transitions. These principles transfer to numerous other positions and techniques, making the old school sweep valuable beyond its immediate tactical application.",
   "related_content": [
     {
-      "name": "Lockdown Half Guard Bottom",
-      "relationship": "Primary starting position - lockdown controls trapped leg during sweep"
+      "name": "Half Guard",
+      "relationship": "Primary starting position - foundational position for technique execution"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Enhanced control variation - lockdown controls trapped leg during sweep"
     },
     {
       "name": "Electric Chair",
@@ -284,28 +285,16 @@
       "relationship": "System integration - old school combined with lockdown creates powerful sweeping system"
     },
     {
-      "name": "10th Planet Half Guard Bottom System",
-      "relationship": "System foundation - old school sweep is core component of Eddie Bravo's half guard system"
+      "name": "Underhook Control",
+      "relationship": "Control principle - underhook is primary control mechanism for sweep"
     },
     {
-      "name": "Lockdown to Electric Chair System",
-      "relationship": "Complete offensive system - old school integrates with electric chair and other lockdown attacks"
+      "name": "Side Control",
+      "relationship": "Ending position - common landing position after successful sweep"
     },
     {
-      "name": "Sweep Mechanics",
-      "relationship": "Fundamental principle - old school demonstrates classical sweeping mechanics"
-    },
-    {
-      "name": "Off-Balancing",
-      "relationship": "Applied concept - sweep exemplifies using opponent's pressure for off-balancing"
-    },
-    {
-      "name": "Whizzer Control",
-      "relationship": "Counter defense - understanding whizzer helps defend against opponent's overhook counters"
-    },
-    {
-      "name": "Hip Movement",
-      "relationship": "Technical element - proper hip bridge and movement critical for sweep execution"
+      "name": "Dogfight Position",
+      "relationship": "Transition option - can lead to dogfight if opponent counters by coming to knees"
     }
   ],
   "expert_insights": {

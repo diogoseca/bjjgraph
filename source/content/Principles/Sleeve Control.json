@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Sleeve Control | BJJ Concept | BJJ Graph",
-    "description": "Understand Sleeve Control in BJJ. Learn grip mechanics, breaking posture, cross-position application. Strategic framework for manipulating opponent's arms.",
-    "principle_id": "P125",
-    "tags": ["bjj", "concept", "grip", "control", "guard", "sleeve", "manipulation"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Sleeve Control",
+  "description": "Master sleeve control in BJJ. Learn grip mechanics, posture breaking, distance management across guard systems. Strategic framework for arm manipulation.",
+  "tags": ["bjj", "principle", "grip", "control", "guard", "sleeve", "manipulation", "posture", "distance"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Sleeve Control is a fundamental gripping concept in Brazilian Jiu-Jitsu that involves securing and manipulating an opponent's sleeve to control their arm position, break posture, prevent base establishment, and create offensive opportunities. This concept forms the foundation of most guard systems, particularly in gi training, where fabric grips provide mechanical advantages for controlling distance, angles, and transitions.\n\nThe strategic value of sleeve control extends beyond simple grip fighting - it represents a systematic approach to manipulating an opponent's ability to post, base, and defend. By controlling the sleeve, you control the endpoint of their kinetic chain, effectively neutralizing their ability to generate power, establish frames, or execute techniques. Proper sleeve control creates a constant dilemma: if the opponent focuses on breaking your grip, they cannot advance their position; if they ignore the grip to advance, they move into vulnerable positions where sweeps and submissions become available.\n\nSleeve control integrates with other fundamental concepts including grip strategy, posture breaking, distance management, and off-balancing. The concept appears across all guard positions - from closed guard collar and sleeve combinations to spider guard extension control to De La Riva manipulation. Mastering sleeve control provides a framework for understanding how to systematically break down an opponent's defensive structure while building your own offensive system.",
   "key_principles": [
     "Control the endpoint (wrist/sleeve) to control the entire arm and limit opponent's ability to post or frame",
@@ -83,56 +80,98 @@
       "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Sleeve control functions as essential guard retention tool by preventing opponent from establishing strong passing grips and controlling their arm position throughout retention sequences"
+    },
+    {
+      "principle_name": "Grip Fighting",
+      "relationship_type": "Prerequisite",
+      "description": "Hand fighting skills determine success in establishing and maintaining sleeve grips against resistant opponents who actively defend their sleeves"
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Extension",
+      "description": "Sleeve control represents key control point in hierarchy of gripping priorities - understanding when sleeve control takes precedence over other available grips"
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Mechanical leverage principles explain why deep wrist grips provide superior control compared to elbow or shoulder control"
+    },
+    {
+      "principle_name": "Creating Reactions",
+      "relationship_type": "Complementary",
+      "description": "Sleeve control creates predictable reactions - opponent either addresses the grip or ignores it - both reactions create offensive opportunities"
+    },
+    {
+      "principle_name": "Dilemma Creation",
+      "relationship_type": "Extension",
+      "description": "Sleeve control forces opponent into constant dilemma between defending grips and advancing position, both choices leading to vulnerabilities"
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Controlling opponent's sleeve prevents them from establishing effective frames while allowing you to create your own defensive structures"
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Cross-sleeve and collar combination creates primary control system - pulling cross-sleeve across centerline breaks posture while same-side collar prevents opponent circling away"
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Double sleeve grips with feet in biceps create extension-based control system that prevents opponent from establishing forward pressure and sets up sweeps and triangles"
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Threading leg around controlled sleeve creates mechanical lock on opponent's arm, preventing them from freeing the arm while establishing angle for sweeps"
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Far-side sleeve control combined with pants grip and DLR hook creates three-point control that prevents opponent from clearing leg hooks and sets up back takes"
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
+      "context": "Reverse De La Riva Guard",
       "how_applied": "Near-side sleeve pull combined with RDLR hook prevents opponent from stepping over and establishes angle for kiss-of-dragon entries and back attacks"
     },
     {
-      "context": "Collar Sleeve Guard Bottom",
+      "context": "Collar Sleeve Guard",
       "how_applied": "Dedicated guard variation built entirely around collar and sleeve grip synergy - sleeve pulls break posture while collar grip prevents posture recovery"
     },
     {
-      "context": "Double Sleeve Guard Bottom",
+      "context": "Double Sleeve Guard",
       "how_applied": "Both sleeves controlled with feet on hips creates maximum extension control - opponent cannot establish forward pressure or grip pants, only defense is standing"
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Initial sleeve control serves as first point of contact when opponent stands - establishes connection while determining which specific guard variation to enter"
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Two-on-one sleeve control combined with butterfly hooks creates powerful sweep platform by controlling one arm completely while elevating opponent"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Underhook battle often decided by far-side sleeve control - prevents opponent from crossfacing and establishes angle for sweeps and back takes"
     },
     {
-      "context": "Seated Guard Bottom",
+      "context": "Seated Guard",
       "how_applied": "Seated position relies heavily on sleeve grips to prevent opponent from establishing dominant grips and to create reactive entries into more active guard systems"
     },
     {
-      "context": "X-Guard Bottom",
+      "context": "X-Guard",
       "how_applied": "Far-side sleeve control combined with X-hook configuration prevents opponent from basing out and sets up sweep to top position"
+    },
+    {
+      "context": "Standing Guard",
+      "how_applied": "When opponent stands in your guard, immediate sleeve control prevents them from establishing distance and strong passing grips while you adjust guard retention"
+    },
+    {
+      "context": "Inverted Guard",
+      "how_applied": "Maintaining sleeve control while inverting prevents opponent from passing to side control and creates opportunities for berimbolo entries"
+    },
+    {
+      "context": "Feet on Hips Guard",
+      "how_applied": "Double sleeve control with feet on hips maximizes distance and prevents opponent from closing gap to establish pressure passing sequences"
     }
   ],
   "decision_framework": [
@@ -295,41 +334,41 @@
   "related_content": [
     {
       "name": "Grip Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Parent concept providing overall framework for when and how to establish sleeve control within broader grip fighting strategy"
     },
     {
       "name": "Collar Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary gripping concept that combines with sleeve control to create powerful two-point control systems"
     },
     {
       "name": "Posture Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary application of sleeve control - extending arms and pulling across centerline breaks opponent's upright posture"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Guard position built entirely on double sleeve control with feet in biceps creating maximum extension control"
     },
     {
-      "name": "Lasso Guard Bottom",
+      "name": "Lasso Guard",
       "content_type": "Position",
       "relationship": "Guard variation using threaded leg around controlled sleeve to create mechanical lock on opponent's arm"
     },
     {
-      "name": "Collar Sleeve Guard Bottom",
+      "name": "Collar Sleeve Guard",
       "content_type": "Position",
       "relationship": "Dedicated guard system optimizing the synergy between collar and sleeve grip combinations"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Foundational position where cross-sleeve and collar control creates primary closed guard control system"
     },
     {
-      "name": "De La Riva Guard Bottom",
+      "name": "De La Riva Guard",
       "content_type": "Position",
       "relationship": "Open guard position using far-side sleeve control combined with DLR hook to prevent guard passing"
     },
@@ -345,8 +384,13 @@
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips"
+    },
+    {
+      "name": "Grip Fighting",
+      "content_type": "Principle",
+      "relationship": "Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance"
     }
   ],
   "expert_insights": {

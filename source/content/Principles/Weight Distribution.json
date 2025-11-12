@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Weight Distribution | BJJ Concept | BJJ Graph",
-    "description": "Understand Weight Distribution in BJJ. Learn strategic pressure allocation, dynamic adjustment, cross-position application. Expert insights included.",
-    "principle_id": "P117",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "weight",
-      "pressure",
-      "control",
-      "top-game",
-      "biomechanics"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Weight Distribution",
+  "description": "Master strategic weight allocation in BJJ top positions. Learn biomechanical pressure principles, dynamic distribution adjustment, and energy-efficient control.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "weight",
+    "pressure",
+    "control",
+    "top-game",
+    "biomechanics"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Weight Distribution represents the strategic management of bodyweight allocation across contact points to maximize control effectiveness, minimize escape opportunities, and optimize technical execution in top positions. Unlike simple heavy pressure, weight distribution is a sophisticated conceptual framework encompassing the biomechanical principles of leverage and balance, strategic decisions about where to concentrate or disperse weight, dynamic adjustment of distribution based on opponent responses, and the integration of weight allocation with technical objectives. This concept recognizes that effective top control depends not on maximum weight application but on intelligent weight distribution that simultaneously achieves multiple objectives: preventing escapes, enabling technique execution, maintaining base integrity, and conserving energy. Weight distribution serves as both a control mechanism that pins opponent effectively and a strategic tool that creates specific reactions enabling technical advancement. The ability to distribute weight intelligently often determines whether a practitioner can maintain dominant positions against resistance or loses control through predictable, rigid pressure patterns, making it one of the most essential conceptual elements in top game development.",
   "key_principles": [
     "Distribute weight strategically across multiple contact points rather than loading single areas",
@@ -85,23 +82,53 @@
       "description": "Control Point Hierarchy informs weight distribution strategy by identifying which body parts offer the most valuable control targets, allowing practitioners to prioritize pressure allocation toward points that prevent the most dangerous escape vectors."
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Extension",
-      "description": "Weight Distribution serves as a primary mechanism within the broader Energy Management System, using intelligent pressure allocation to drain opponent's energy through constant defensive burden while conserving personal energy through efficient skeletal loading rather than muscular effort."
+      "description": "Weight Distribution serves as a primary mechanism within the broader Energy Conservation framework, using intelligent pressure allocation to drain opponent's energy through constant defensive burden while conserving personal energy through efficient skeletal loading rather than muscular effort."
     },
     {
       "principle_name": "Position Transitions",
       "relationship_type": "Advanced form",
       "description": "Advanced practitioners integrate weight distribution seamlessly with Position Transitions, using strategic pressure shifts not just for static control but as the primary enabling mechanism for smooth movement between positions, where weight distribution actively creates the pathways for technical advancement."
+    },
+    {
+      "principle_name": "Hip Pressure",
+      "relationship_type": "Complementary",
+      "description": "Hip Pressure represents one of the most critical components of overall weight distribution strategy, as hip placement and pressure often determine whether opponent can create escape frames or remains flattened under control."
+    },
+    {
+      "principle_name": "Shoulder Pressure",
+      "relationship_type": "Complementary",
+      "description": "Shoulder Pressure works in coordination with overall weight distribution patterns, particularly in side control and north-south positions where shoulder loading creates oppressive control while enabling hip mobility for transitions."
+    },
+    {
+      "principle_name": "Forward Pressure",
+      "relationship_type": "Complementary",
+      "description": "Forward Pressure represents a specific directional application of weight distribution principles, particularly relevant in passing scenarios where pressure angle and distribution determine whether guard is collapsed or merely compressed."
+    },
+    {
+      "principle_name": "Biomechanical Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding fundamental biomechanics underlies all intelligent weight distribution, as effective pressure allocation depends on recognizing how skeletal structure, joint angles, and leverage points multiply or diminish the control effects of applied weight."
+    },
+    {
+      "principle_name": "Maximum Efficiency Principle",
+      "relationship_type": "Extension",
+      "description": "Weight Distribution embodies the Maximum Efficiency Principle by seeking to achieve maximum control with minimum effort through strategic allocation rather than maximum force application, exemplifying the core judo principle in practical application."
+    },
+    {
+      "principle_name": "Off-Balancing",
+      "relationship_type": "Complementary",
+      "description": "Off-Balancing and Weight Distribution work synergistically where strategic weight allocation creates the imbalances that make opponent vulnerable to sweeps, while off-balancing principles inform optimal pressure angles for control."
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Distribute weight primarily through hips and chest onto opponent's torso, maintaining sufficient weight on knees/feet for base while concentrating pressure to flatten opponent and prevent hip escape, modulating between heavy chest pressure for control and lighter distribution when executing techniques."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Create asymmetric weight distribution with heavy chest and shoulder pressure on opponent's upper body while using strategic hip placement to block hip escape, maintaining active base on outside leg while inside knee provides control point that can modulate between heavy pressure and light touch based on escape attempts."
     },
     {
@@ -113,15 +140,15 @@
       "how_applied": "Distribute weight across chest and shoulder girdle to create oppressive downward pressure on opponent's head and chest, maintaining sufficient weight on toes for mobility while using gravity-assisted pressure that requires minimal muscular effort to maintain crushing control that drains opponent energy."
     },
     {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Apply strategic weight through chest onto opponent's back while using hooks and grips for control rather than relying primarily on pressure, modulating weight distribution to maintain connection without being so heavy that opponent can use explosive movements to create separation or roll."
     },
     {
-      "context": "Half Guard Top",
+      "context": "Half Guard",
       "how_applied": "Create forward and downward pressure through chest and shoulder while distributing weight to prevent opponent's underhook and frame, using strategic weight shifts to flatten opponent or create reactions that enable knee slice or other passing sequences."
     },
     {
-      "context": "Closed Guard Top",
+      "context": "Closed Guard",
       "how_applied": "Maintain strategic weight distribution in combat base that creates enough downward pressure to limit opponent's offensive options while keeping sufficient weight on feet and hands to maintain posture and prevent being broken down, constantly adjusting to opponent's breaking attempts."
     },
     {
@@ -129,8 +156,32 @@
       "how_applied": "Concentrate weight through chest and shoulder directly across opponent's head and near-side shoulder, using strategic distribution that simultaneously prevents their near arm from escaping while maintaining sufficient base through spread legs to resist being rolled, creating crushing pressure that limits breathing and movement."
     },
     {
-      "context": "Turtle Position Top",
+      "context": "Turtle",
       "how_applied": "Distribute weight strategically across opponent's back and hips to flatten them while maintaining sufficient base to prevent them explosively changing levels, modulating between heavy pressure to break them down and lighter pressure when setting up back takes or submission attacks."
+    },
+    {
+      "context": "Technical Mount",
+      "how_applied": "Balance weight between controlling opponent's upper body through chest pressure and maintaining base through posted foot and knee positioning, using asymmetric distribution that traps opponent's arm while enabling smooth transitions to full mount or armbar attacks."
+    },
+    {
+      "context": "Modified Mount",
+      "how_applied": "Distribute weight to control opponent's trapped arm and shoulder while maintaining sufficient base through spread legs and posted hand, creating pressure patterns that simultaneously prevent escape and set up submission attacks on the trapped limb."
+    },
+    {
+      "context": "S Mount",
+      "how_applied": "Concentrate weight through hips and legs onto opponent's shoulder and head while maintaining dynamic balance that allows rapid adjustment to escape attempts, using strategic distribution that facilitates armbar execution while preventing opponent from recovering guard."
+    },
+    {
+      "context": "Headquarters Position",
+      "how_applied": "Apply forward pressure through shoulder and chest while distributing weight to control opponent's knees and hips, maintaining mobile base that allows rapid direction changes while keeping constant pressure that prevents guard recovery and enables various passing options."
+    },
+    {
+      "context": "Combat Base",
+      "how_applied": "Distribute weight strategically between posted foot, base knee, and hands to maintain strong posture against guard breaks while creating enough downward pressure to limit opponent's offensive options, balancing stability needs against mobility for standing or passing."
+    },
+    {
+      "context": "Scarf Hold Position",
+      "how_applied": "Create heavy cross-body pressure through chest and near-side control of opponent's arm while maintaining wide base through spread legs, using weight distribution that simultaneously pins opponent's upper body and prevents their hip mobility for escape."
     }
   ],
   "decision_framework": [
@@ -279,12 +330,12 @@
   ],
   "related_content": [
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Primary application position where weight distribution principles are most critical for maintaining control and preventing escapes"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Key position requiring sophisticated asymmetric weight distribution to simultaneously block hip escapes and maintain base stability"
     },
@@ -315,33 +366,33 @@
     },
     {
       "name": "Pressure Application",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept that Weight Distribution refines and systematizes through strategic allocation principles"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept that works in constant balance with weight distribution, requiring practitioners to allocate pressure while preserving stability"
     },
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Biomechanical foundation underlying intelligent weight distribution where mechanical advantage multiplies pressure effectiveness"
     },
     {
-      "name": "Energy Management System",
-      "content_type": "Concept",
+      "name": "Energy Conservation",
+      "content_type": "Principle",
       "relationship": "Broader strategic framework within which weight distribution serves as primary mechanism for draining opponent energy while conserving personal resources"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Related concept that informs weight distribution strategy by identifying which body parts offer most valuable pressure allocation targets"
     }
   ],
   "expert_insights": {
-    "danaher": "Approaches weight distribution as engineering optimization problem where objective is achieving maximum control effectiveness with minimum energy expenditure. Emphasizes what he terms 'strategic pressure allocation' where weight is concentrated on specific targets that prevent the most dangerous escape vectors for each position. Teaches systematic weight distribution patterns for each dominant position with clear guidelines on percentage allocations: in mount, approximately sixty percent of weight should flow through hips and lower chest onto opponent's torso with remaining forty percent distributed across base points; in side control, asymmetric loading with roughly seventy percent through chest and shoulder onto opponent's upper body while thirty percent maintains base through legs and hips. Most critically, stresses that elite control comes from intelligent distribution rather than maximum pressure, enabling sustained control that less skilled practitioners cannot maintain through brute force approaches. Views the ability to modulate distribution dynamically as separating advanced from intermediate practitioners, where refined players adjust pressure continuously based on tactile feedback rather than maintaining static loading patterns.",
-    "gordon_ryan": "Views weight distribution as dynamic system requiring constant adjustment based on opponent's movements rather than static positioning. Focuses on what he calls 'reactive pressure' where weight shifts anticipatorily based on reading opponent's escape intentions through tactile feedback before visible movements occur. In competition application, emphasizes the importance of maintaining pressure while remaining mobile enough to respond to technical escape attempts, noting that many practitioners fail to transition effectively because they commit weight rigidly rather than maintaining fluid distribution that enables smooth movement between positions. Particularly in his passing game, uses strategic weight distribution not just for control but as offensive tool that creates specific reactions enabling technical advancement: when opponent accepts heavy pressure, he transitions freely; when opponent frames to create space, he uses their pushing energy to facilitate position changes. Against elite opponents, modulates between heavy static pressure to limit explosive movements and lighter mobile distribution when reading technical escape attempts, adapting distribution strategy based on opponent-specific threats rather than applying generic pressure patterns.",
-    "eddie_bravo": "Has developed unconventional weight distribution strategies within his system that sometimes prioritize mobility over maximum pressure, challenging traditional BJJ emphasis on heavy control. When teaching weight distribution, emphasizes what he calls 'active pressure' where weight is used not just to control but to create reactions that set up submissions and transitions. Particularly in positions like twister side control, advocates for strategic weight distribution that simultaneously controls opponent and creates submission opportunities, using pressure allocation to force defensive choices that open attacking pathways. In his rubber guard system, even from bottom position, teaches principles of strategic weight distribution where guard player uses leg positioning to control how opponent's weight is distributed, forcing them into compromised positions through intelligent pressure management. Views weight distribution as creative tool rather than just control mechanism, using unconventional pressure patterns to create unique submission opportunities that don't exist within conventional distribution frameworks. Often uses lighter pressure than traditional approaches because his technical objective is creating movement and reactions rather than pure positional dominance, demonstrating that optimal weight distribution depends on tactical goals rather than following universal heavy-pressure principles."
+    "danaher": "Weight distribution represents an engineering optimization problem where the objective is achieving maximum control effectiveness with minimum energy expenditure. The concept of strategic pressure allocation is essential: weight must be concentrated on specific targets that prevent the most dangerous escape vectors for each position. In mount, approximately sixty percent of weight should flow through hips and lower chest onto opponent's torso with the remaining forty percent distributed across base points. In side control, employ asymmetric loading with roughly seventy percent through chest and shoulder onto opponent's upper body while thirty percent maintains base through legs and hips. Elite control comes from intelligent distribution rather than maximum pressure, enabling sustained control that less skilled practitioners cannot maintain through brute force approaches. The ability to modulate distribution dynamically separates advanced from intermediate practitioners, where refined players adjust pressure continuously based on tactile feedback rather than maintaining static loading patterns. This dynamic adjustment allows anticipation of escape attempts before they fully develop, creating a control system that feels inescapable to the opponent despite requiring minimal effort from the top player.",
+    "gordon_ryan": "Weight distribution is a dynamic system requiring constant adjustment based on opponent's movements rather than static positioning. The concept of reactive pressure is fundamental: weight shifts anticipatorily based on reading opponent's escape intentions through tactile feedback before visible movements occur. In competition application, maintaining pressure while remaining mobile enough to respond to technical escape attempts is critical. Many practitioners fail to transition effectively because they commit weight rigidly rather than maintaining fluid distribution that enables smooth movement between positions. In passing game particularly, strategic weight distribution functions not just for control but as an offensive tool creating specific reactions that enable technical advancement. When opponent accepts heavy pressure, transitions flow freely; when opponent frames to create space, their pushing energy facilitates position changes. Against elite opponents, modulation between heavy static pressure to limit explosive movements and lighter mobile distribution when reading technical escape attempts becomes essential. Distribution strategy must adapt based on opponent-specific threats rather than applying generic pressure patterns, with explosive opponents requiring heavier control while technical escapers demand constant micro-adjustments.",
+    "eddie_bravo": "The 10th Planet system employs unconventional weight distribution strategies that sometimes prioritize mobility over maximum pressure, challenging traditional BJJ emphasis on heavy control. The concept of active pressure is central: weight is used not just to control but to create reactions that set up submissions and transitions. In positions like twister side control, strategic weight distribution simultaneously controls opponent and creates submission opportunities, using pressure allocation to force defensive choices that open attacking pathways. Even from bottom positions in rubber guard system, strategic weight distribution principles apply where guard player uses leg positioning to control how opponent's weight is distributed, forcing them into compromised positions through intelligent pressure management. Weight distribution functions as a creative tool rather than just control mechanism, with unconventional pressure patterns creating unique submission opportunities that don't exist within conventional distribution frameworks. Often lighter pressure than traditional approaches proves optimal because the technical objective is creating movement and reactions rather than pure positional dominance, demonstrating that optimal weight distribution depends on tactical goals rather than following universal heavy-pressure principles."
   }
 }

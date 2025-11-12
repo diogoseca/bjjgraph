@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "De La Riva Sweep | BJJ Technique | BJJ Graph",
-    "description": "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La Riva Guard to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T058",
-    "tags": [
-      "bjj",
-      "transition",
-      "sweep",
-      "open_guard",
-      "gi_specific",
-      "de_la_riva",
-      "advanced_guard"
-    ],
-    "starting_position": "De La Riva Guard",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "De La Riva Sweep",
+  "description": "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La Riva Guard to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "open_guard",
+    "gi_specific",
+    "de_la_riva",
+    "advanced_guard"
+  ],
+  "starting_position": "De La Riva Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The De La Riva Sweep is a fundamental attacking technique from the De La Riva Guard position that allows the bottom player to off-balance and sweep their opponent to achieve top position. This sweep exploits the mechanical disadvantage created when the opponent's weight is distributed across a compromised base, using the De La Riva hook and strategic grips to control and manipulate their center of gravity. The technique is highly effective in gi-based Brazilian Jiu-Jitsu and forms the foundation of an entire guard system.\n\nThe De La Riva Sweep works by creating a powerful lever system using the De La Riva hook (leg wrapped around opponent's leg from outside), combined with strategic sleeve and collar grips. By extending the hooked leg while pulling with the grips, the practitioner generates rotational force that disrupts the opponent's base and drives them to the mat. The sweep can lead to various dominant positions including side control, mount, or back control, depending on how the opponent reacts and falls.\n\nThis technique represents a cornerstone of modern sport jiu-jitsu, particularly in IBJJF competition formats where the De La Riva guard is extensively used. Mastering the De La Riva Sweep requires understanding timing, grip fighting, hip movement, and the ability to chain multiple attacks together. The sweep becomes increasingly effective as practitioners develop sensitivity to weight distribution and learn to capitalize on their opponent's forward pressure or attempts to pass the guard.",
   "key_principles": [
@@ -80,7 +77,7 @@
     {
       "counter": "Opponent steps back with hooked leg to relieve pressure",
       "effectiveness": "High",
-      "your_response": "Follow their movement by extending your body forward, transition to X-Guard or Single Leg X, or switch to alternative De La Riva attacks like the Kiss of the Dragon back take"
+      "your_response": "Follow their movement by extending your body forward, transition to X-Guard or Single Leg X-Guard, or switch to alternative De La Riva attacks like the Kiss of the Dragon back take"
     },
     {
       "counter": "Opponent posts with free hand to block the sweep",
@@ -90,12 +87,12 @@
     {
       "counter": "Opponent jumps over the De La Riva hook to pass",
       "effectiveness": "Medium",
-      "your_response": "Retract hook and transition to reverse De La Riva, or use their momentum to invert and take the back"
+      "your_response": "Retract hook and transition to Reverse De La Riva Guard, or use their momentum to invert and take the back"
     },
     {
       "counter": "Opponent maintains heavy base and drives forward pressure",
       "effectiveness": "Low",
-      "your_response": "Use their forward pressure to transition to deep De La Riva position, or switch to overhead sweep variations when they commit weight forward"
+      "your_response": "Use their forward pressure to transition to Deep Half Guard position, or switch to overhead sweep variations when they commit weight forward"
     }
   ],
   "common_errors": [
@@ -218,12 +215,12 @@
     },
     {
       "question": "What are three common transitions if the De La Riva Sweep attempt is countered or fails?",
-      "answer": "Three effective transitions include: (1) Kiss of the Dragon back take when opponent steps back, (2) Omoplata when opponent posts their arm to defend, and (3) X-Guard or Single Leg X when opponent creates distance. Maintaining attacking pressure through transitions prevents opponent from consolidating passing position.",
+      "answer": "Three effective transitions include: (1) Kiss of the Dragon back take when opponent steps back, (2) Omoplata when opponent posts their arm to defend, and (3) X-Guard or Single Leg X-Guard when opponent creates distance. Maintaining attacking pressure through transitions prevents opponent from consolidating passing position.",
       "difficulty": "Advanced"
     }
   ],
   "safety_considerations": "The De La Riva Sweep should be executed with controlled force to protect both practitioners from injury. When sweeping, be mindful of the rotational torque placed on the opponent's knee from the hook position—avoid jerking or explosive movements that could stress knee ligaments. Ensure training partners understand proper falling technique (breakfalls) before practicing at full speed. The bottom player should maintain awareness of their own knee and ankle positioning in the De La Riva hook to prevent hyperextension injuries. When practicing, start slowly and gradually increase speed as both partners develop familiarity with the technique. Communication is essential, particularly when partner is airborne during sweep completion. Practice on appropriate mat surfaces with adequate padding. If you experience knee or ankle discomfort while in De La Riva Guard, release the position immediately and assess before continuing.",
-  "position_integration": "The De La Riva Sweep is a foundational technique within the broader De La Riva Guard system, one of the most sophisticated and widely-used open guard systems in modern Brazilian Jiu-Jitsu. This sweep serves as both a primary attacking option and a gateway to numerous other techniques including back takes, submissions, and alternative sweeps. Within the positional hierarchy, the De La Riva Guard represents an active bottom position that can neutralize opponent's passing attempts while creating offensive opportunities. The sweep's success often depends on integration with other De La Riva attacks such as the berimbolo, Kiss of the Dragon, waiter sweep, and omoplata, creating a web of interconnected threats that keep opponents defensive. Understanding when to commit to the sweep versus when to flow to alternative attacks is crucial for high-level De La Riva Guard play. The technique also connects to related guard systems including X-Guard, Single Leg X, and Reverse De La Riva, allowing practitioners to transition between guards while maintaining offensive pressure. In competition contexts, the De La Riva Sweep is particularly valuable because it can score sweep points (2 points in IBJJF) while also potentially leading to more dominant positions for additional points.",
+  "position_integration": "The De La Riva Sweep is a foundational technique within the broader De La Riva Guard system, one of the most sophisticated and widely-used open guard systems in modern Brazilian Jiu-Jitsu. This sweep serves as both a primary attacking option and a gateway to numerous other techniques including back takes, submissions, and alternative sweeps. Within the positional hierarchy, the De La Riva Guard represents an active bottom position that can neutralize opponent's passing attempts while creating offensive opportunities. The sweep's success often depends on integration with other De La Riva attacks such as the berimbolo, Kiss of the Dragon, waiter sweep, and omoplata, creating a web of interconnected threats that keep opponents defensive. Understanding when to commit to the sweep versus when to flow to alternative attacks is crucial for high-level De La Riva Guard play. The technique also connects to related guard systems including X-Guard, Single Leg X-Guard, and Reverse De La Riva Guard, allowing practitioners to transition between guards while maintaining offensive pressure. In competition contexts, the De La Riva Sweep is particularly valuable because it can score sweep points (2 points in IBJJF) while also potentially leading to more dominant positions for additional points.",
   "related_content": [
     {
       "name": "De La Riva Guard",
@@ -250,7 +247,7 @@
       "relationship": "Variation - overhead sweep using similar De La Riva structure"
     },
     {
-      "name": "Single Leg X Guard",
+      "name": "Single Leg X-Guard",
       "relationship": "Related position - common transition when opponent steps back"
     },
     {
@@ -266,7 +263,7 @@
       "relationship": "Submission option - complementary attack from same guard"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Resulting position - common ending position after successful sweep"
     },
     {

@@ -848,277 +848,273 @@ aliases: ["BJJ-Submissions"]
 
 Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.
 
-
-> **📝 Note**: 106 of 132 items are using fallback content while their JSON files are being updated. 
-> Items marked with ⚠️ need their JSON files fixed. Run the generator again after fixing to get complete descriptions.
-
 ---
 
 ## All Submissions
 
-**[[Achilles Lock]]** - 
+**[[Achilles Lock]]** - Master the Achilles Lock leg submission with comprehensive safety protocols, setup mechanics, and finishing details. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Americana]]** - 
+**[[Americana]]** - Master the Americana shoulder lock from mount and side control. Complete safety protocols, systematic setup, and controlled execution. Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Americana Variations]]** - 
+**[[Americana Variations]]** - Master Americana variations in BJJ. Complete guide with safety protocols, alternative grips, and finishing mechanics. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Americana from Mount]]** - 
+**[[Americana from Mount]]** - Master the Americana shoulder lock from mount with safety protocols, setup, and execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Americana from Side Control]]** - 
+**[[Americana from Side Control]]** - Master the Americana from Side Control with comprehensive safety protocols, setup requirements, and execution steps. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 **[[Anaconda Choke]]** - Master Anaconda Choke in BJJ. Complete guide with safety protocols, setup from turtle/front headlock, execution steps. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[Anaconda Variations]]** - ⚠️ Content being updated - Learn about Anaconda Variations in BJJ.
+**[[Anaconda Variations]]** - Master Anaconda choke variations in BJJ. Complete guide covering arm-in setup, high elbow finish, marce choke. Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[Aoki Lock]]** - ⚠️ Content being updated - Learn about Aoki Lock in BJJ.
+**[[Aoki Lock]]** - Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution, and defense. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
 
-**[[Arm Crush]]** - ⚠️ Content being updated - Learn about Arm Crush in BJJ.
+**[[Arm Crush]]** - Master the Arm Crush submission in BJJ. Learn shoulder lock mechanics, setup from side control, and safe application. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Arm Triangle]]** - ⚠️ Content being updated - Learn about Arm Triangle in BJJ.
+**[[Arm Triangle]]** - Master the Arm Triangle choke in BJJ. Setup from side control, execution mechanics, finishing details. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Arm Triangle Progression]]** - ⚠️ Content being updated - Learn about Arm Triangle Progression in BJJ.
+**[[Arm Triangle Progression]]** - Master Arm Triangle choke progression from side control. Systematic setup, isolation, finishing mechanics. Success: Beginner 40%, Intermediate 60%, Advanced 75%.
 
-**[[Arm in Guillotine]]** - ⚠️ Content being updated - Learn about Arm in Guillotine in BJJ.
+**[[Arm in Guillotine]]** - Master Arm in Guillotine in BJJ. High-percentage front headlock choke with trapped arm. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Complete safety guide included.
 
-**[[Armbar Finish]]** - ⚠️ Content being updated - Learn about Armbar Finish in BJJ.
+**[[Armbar Finish]]** - Master the Armbar Finish mechanics in BJJ. Complete guide covering final control, hip elevation, breaking mechanics. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Armbar from Back]]** - ⚠️ Content being updated - Learn about Armbar from Back in BJJ.
+**[[Armbar from Back]]** - Master the Armbar from Back Control in BJJ. Complete safety guide with setup, execution, and finish. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
-**[[Armbar from Back with Legs]]** - ⚠️ Content being updated - Learn about Armbar from Back with Legs in BJJ.
+**[[Armbar from Back with Legs]]** - Master Armbar from Back with Legs in BJJ. Complete guide with safety protocols, setup from back control, and finishing mechanics. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Armbar from Crucifix]]** - ⚠️ Content being updated - Learn about Armbar from Crucifix in BJJ.
+**[[Armbar from Crucifix]]** - Master Armbar from Crucifix in BJJ. Complete guide with safety protocols, setup, execution steps, finishing mechanics. Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Armbar from Guard]]** - ⚠️ Content being updated - Learn about Armbar from Guard in BJJ.
+**[[Armbar from Guard]]** - Master the armbar from guard with systematic technique breakdown, safety protocols, and execution details. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Armbar from Mount]]** - ⚠️ Content being updated - Learn about Armbar from Mount in BJJ.
+**[[Armbar from Mount]]** - Master Armbar from Mount in BJJ. Complete safety protocols, setup, execution steps. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Armbar from Side Control]]** - ⚠️ Content being updated - Learn about Armbar from Side Control in BJJ.
+**[[Armbar from Side Control]]** - Master Armbar from Side Control in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Banana Split]]** - ⚠️ Content being updated - Learn about Banana Split in BJJ.
+**[[Banana Split]]** - Master the Banana Split submission in BJJ. Complete guide covering setup from deep half guard, execution mechanics, and safety protocols. Success: 25%/40%/55%.
 
-**[[Baratoplata]]** - ⚠️ Content being updated - Learn about Baratoplata in BJJ.
+**[[Baratoplata]]** - Master the Baratoplata submission in BJJ. Innovative shoulder lock from rubber guard combining omoplata mechanics with arm isolation. Beginner 20%, Intermediate 35%, Advanced 50%.
 
-**[[Baseball Bat Choke]]** - ⚠️ Content being updated - Learn about Baseball Bat Choke in BJJ.
+**[[Baseball Bat Choke]]** - Master the Baseball Bat Choke in BJJ. Devastating collar choke from top positions with tight control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Baseball Bat Choke Variations]]** - ⚠️ Content being updated - Learn about Baseball Bat Choke Variations in BJJ.
+**[[Baseball Bat Choke Variations]]** - Master Baseball Bat Choke Variations in BJJ. Multiple grips and setups from back, mount, side control. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Belly Down Armbar]]** - ⚠️ Content being updated - Learn about Belly Down Armbar in BJJ.
+**[[Belly Down Armbar]]** - Master the Belly Down Armbar in BJJ. Complete guide with safety protocols, precise setup from turtle/scrambles, and finishing mechanics. Success: 30/50/70%.
 
-**[[Bicep Slicer]]** - ⚠️ Content being updated - Learn about Bicep Slicer in BJJ.
+**[[Bicep Slicer]]** - Master the Bicep Slicer in BJJ. Complete guide with safety protocols, setup from crucifix and truck positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Boston Crab]]** - ⚠️ Content being updated - Learn about Boston Crab in BJJ.
+**[[Boston Crab]]** - Master Boston Crab submission in BJJ. Complete guide covering setup, execution, safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
 
-**[[Bow and Arrow Choke]]** - ⚠️ Content being updated - Learn about Bow and Arrow Choke in BJJ.
+**[[Bow and Arrow Choke]]** - Master the Bow and Arrow Choke in BJJ. Complete guide with safety protocols, setup from back control, finishing mechanics. Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Bow and Arrow Choke Variations]]** - ⚠️ Content being updated - Learn about Bow and Arrow Choke Variations in BJJ.
+**[[Bow and Arrow Choke Variations]]** - Master Bow and Arrow Choke variations in BJJ. Complete guide covering lapel mechanics, angle adjustments, and finishing details. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Bow and Arrow Variations]]** - ⚠️ Content being updated - Learn about Bow and Arrow Variations in BJJ.
+**[[Bow and Arrow Variations]]** - Master Bow and Arrow Choke variations in BJJ. Complete guide with safety protocols, setup from multiple positions, execution variations. Success rates: 35-65%.
 
-**[[Brabo Choke]]** - ⚠️ Content being updated - Learn about Brabo Choke in BJJ.
+**[[Brabo Choke]]** - Master the Brabo Choke in BJJ. Complete guide with safety protocols, setup from front headlock, execution steps. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Brabo Variations]]** - ⚠️ Content being updated - Learn about Brabo Variations in BJJ.
+**[[Brabo Variations]]** - Master Brabo Choke variations in BJJ. Complete guide covering no-gi darce, rolling entries, and finishing mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Breadcutter Choke]]** - ⚠️ Content being updated - Learn about Breadcutter Choke in BJJ.
+**[[Breadcutter Choke]]** - Master the Breadcutter Choke in BJJ. Devastating collar choke from turtle/back control using opponent's own gi. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Buggy Choke]]** - ⚠️ Content being updated - Learn about Buggy Choke in BJJ.
+**[[Buggy Choke]]** - Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Calf Slicer]]** - ⚠️ Content being updated - Learn about Calf Slicer in BJJ.
+**[[Calf Slicer]]** - Master the Calf Slicer in BJJ. Complete guide with safety protocols, setup from 50-50 and Truck, execution steps. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
 
-**[[Calf Slicer Variations]]** - ⚠️ Content being updated - Learn about Calf Slicer Variations in BJJ.
+**[[Calf Slicer Variations]]** - Master Calf Slicer Variations in BJJ. Complete guide covering setup, execution, safety protocols. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Calf Slicer from 50-50]]** - ⚠️ Content being updated - Learn about Calf Slicer from 50-50 in BJJ.
+**[[Calf Slicer from 50-50]]** - Master the Calf Slicer from 50-50 Guard in BJJ. Complete safety guide covering setup, execution, and injury prevention. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
 
-**[[Calf Slicer from Truck]]** - ⚠️ Content being updated - Learn about Calf Slicer from Truck in BJJ.
+**[[Calf Slicer from Truck]]** - Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from Eddie Bravo's system. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Can Opener]]** - ⚠️ Content being updated - Learn about Can Opener in BJJ.
+**[[Can Opener]]** - Understand Can Opener neck crank in BJJ: safety risks, legal status, defensive counters. Success rates: Beginner 15%, Intermediate 25%, Advanced 35%.
 
-**[[Chin Strap Guillotine]]** - ⚠️ Content being updated - Learn about Chin Strap Guillotine in BJJ.
+**[[Chin Strap Guillotine]]** - Master the Chin Strap Guillotine in BJJ. High-control choke targeting the neck from front headlock positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Choke from Crucifix]]** - ⚠️ Content being updated - Learn about Choke from Crucifix in BJJ.
+**[[Choke from Crucifix]]** - Master Choke from Crucifix in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Clock Choke]]** - ⚠️ Content being updated - Learn about Clock Choke in BJJ.
+**[[Clock Choke]]** - Master Clock Choke from turtle/back in BJJ. Blood choke with gi lapel control targeting carotid arteries. Success: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Cross Collar Choke]]** - ⚠️ Content being updated - Learn about Cross Collar Choke in BJJ.
+**[[Cross Collar Choke]]** - Master the Cross Collar Choke in BJJ. Complete guide covering gi grips, proper hand placement, and finishing mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Cross Collar Variations]]** - ⚠️ Content being updated - Learn about Cross Collar Variations in BJJ.
+**[[Cross Collar Variations]]** - Master Cross Collar Choke variations in BJJ. Complete safety guide covering grips, execution, defense patterns. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Crotch Ripper]]** - ⚠️ Content being updated - Learn about Crotch Ripper in BJJ.
+**[[Crotch Ripper]]** - Master the Crotch Ripper leg lock in BJJ. Groin compression submission from lockdown with safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
 
-**[[Crucifix Submissions]]** - ⚠️ Content being updated - Learn about Crucifix Submissions in BJJ.
+**[[Crucifix Submissions]]** - Master crucifix submissions in BJJ. Complete guide covering arm isolation, choke setups, and finishing mechanics. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[D'arce-Anaconda Connection]]** - ⚠️ Content being updated - Learn about D'arce-Anaconda Connection in BJJ.
+**[[D'arce-Anaconda Connection]]** - Master the D'arce-Anaconda connection in BJJ. Learn seamless transitions between these powerful chokes from front headlock. Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Darce Choke]]** - ⚠️ Content being updated - Learn about Darce Choke in BJJ.
+**[[Darce Choke]]** - Master the Darce Choke in BJJ. Complete guide with safety protocols, setup requirements, execution steps, and variations. Success rates: 35%-55%-70%.
 
-**[[Darce Variations]]** - ⚠️ Content being updated - Learn about Darce Variations in BJJ.
+**[[Darce Variations]]** - Master D'arce choke variations in BJJ. Complete guide covering setups from turtle, front headlock, scrambles. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Electric Chair Submission]]** - 
+**[[Electric Chair Submission]]** - Master the Electric Chair from lockdown. Complete guide with compression mechanics, setup, and safety. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Estima Lock]]** - 
+**[[Estima Lock]]** - Master Estima Lock foot submission with safety protocols, setup from 50-50 guard, execution steps, defense patterns. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.
 
-**[[Ezekiel Choke]]** - 
+**[[Ezekiel Choke]]** - Master the Ezekiel Choke in BJJ with safety protocols, setup, and execution. Learn blade angle and bilateral pressure. Success: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Ezekiel Variations]]** - 
+**[[Ezekiel Variations]]** - Master Ezekiel Choke variations in BJJ. Complete guide with safety protocols, setup, execution from multiple positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Ezekiel from Mount]]** - 
+**[[Ezekiel from Mount]]** - Master the Ezekiel Choke from Mount with comprehensive safety protocols, setup requirements, and execution steps. Learn bilateral carotid compression mechanics.
 
-**[[Far Side Armbar]]** - 
+**[[Far Side Armbar]]** - Master Far Side Armbar from top positions. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Flying Armbar]]** - 
+**[[Flying Armbar]]** - Master the Flying Armbar technique in BJJ. High-risk aerial submission targeting elbow joint with dynamic entry. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.
 
-**[[Flying Kneebar]]** - 
+**[[Flying Kneebar]]** - Master the Flying Kneebar in BJJ. Complete guide with safety protocols, setup, execution, and counters. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.
 
-**[[Gogoplata]]** - 
+**[[Gogoplata]]** - Master the Gogoplata shin choke in BJJ. Complete guide with safety protocols, rubber guard setup, and execution steps. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.
 
-**[[Guillotine Choke]]** - 
+**[[Guillotine Choke]]** - Master the Guillotine Choke in BJJ with step-by-step execution, safety protocols, and variations. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Guillotine Sequence]]** - ⚠️ Content being updated - Learn about Guillotine Sequence in BJJ.
+**[[Guillotine Sequence]]** - Master the guillotine sequence in BJJ with systematic entry, control, and finishing options. Learn high-percentage setups, variations, and transitions.
 
-**[[Guillotine Variations]]** - ⚠️ Content being updated - Learn about Guillotine Variations in BJJ.
+**[[Guillotine Variations]]** - Master guillotine variations in BJJ. Complete guide covering high elbow, arm-in, chin strap grips. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Heel Hook]]** - ⚠️ Content being updated - Learn about Heel Hook in BJJ.
+**[[Heel Hook]]** - Master the Heel Hook in BJJ. Complete safety-first guide covering inside/outside variations, setup from Ashi Garami positions, anatomical targets, and defensive counters.
 
-**[[Heel Hook Dilemma]]** - ⚠️ Content being updated - Learn about Heel Hook Dilemma in BJJ.
+**[[Heel Hook Dilemma]]** - Master the Heel Hook Dilemma in BJJ. Strategic finishing system from leg entanglements. Success rates: Beginner 15%, Intermediate 35%, Advanced 60%. Safety protocols included.
 
-**[[Heel Hook Variations]]** - ⚠️ Content being updated - Learn about Heel Hook Variations in BJJ.
+**[[Heel Hook Variations]]** - Master heel hook variations in BJJ. Complete guide covering inside, outside, and reverse heel hooks with safety protocols and entries from leg entanglements.
 
-**[[High Elbow Guillotine]]** - ⚠️ Content being updated - Learn about High Elbow Guillotine in BJJ.
+**[[High Elbow Guillotine]]** - Master High Elbow Guillotine in BJJ. Complete guide with safety protocols, setup, execution, and expert analysis. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Inside Heel Hook]]** - ⚠️ Content being updated - Learn about Inside Heel Hook in BJJ.
+**[[Inside Heel Hook]]** - Master Inside Heel Hook in BJJ. Complete guide with safety protocols, entry mechanics, and leg entanglement control. Success rates: Beginner 20%, Intermediate 40%, Advanced 65%.
 
-**[[Inverted Triangle]]** - ⚠️ Content being updated - Learn about Inverted Triangle in BJJ.
+**[[Inverted Triangle]]** - Master the Inverted Triangle submission in BJJ. Complete guide covering setup from bottom positions, execution mechanics, and finishing details. Success rates vary by skill level.
 
-**[[Japanese Necktie]]** - ⚠️ Content being updated - Learn about Japanese Necktie in BJJ.
+**[[Japanese Necktie]]** - Master Japanese Necktie in BJJ. Complete guide with safety protocols, setup from turtle, execution steps, and variations. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Kimura]]** - ⚠️ Content being updated - Learn about Kimura in BJJ.
+**[[Kimura]]** - Master the Kimura shoulder lock in BJJ. Safety guide with setup, execution, and variations from multiple positions. Success: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Kimura Variations]]** - ⚠️ Content being updated - Learn about Kimura Variations in BJJ.
+**[[Kimura Variations]]** - Master Kimura variations in BJJ. Complete guide covering setups from guard, mount, side control, turtle, and standing. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
 
-**[[Kimura from Guard]]** - ⚠️ Content being updated - Learn about Kimura from Guard in BJJ.
+**[[Kimura from Guard]]** - Master the Kimura from Guard in BJJ. Complete guide with safety protocols, setup requirements, and execution steps. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Kimura from Half Guard]]** - ⚠️ Content being updated - Learn about Kimura from Half Guard in BJJ.
+**[[Kimura from Half Guard]]** - Master the Kimura from Half Guard in BJJ. Complete guide with safety protocols, setup from underhook battle, finishing mechanics. Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Kimura from Mount]]** - ⚠️ Content being updated - Learn about Kimura from Mount in BJJ.
+**[[Kimura from Mount]]** - Master the Kimura from Mount in BJJ. Complete guide with safety protocols, setup requirements, and execution steps. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.
 
-**[[Kimura from North-South]]** - ⚠️ Content being updated - Learn about Kimura from North-South in BJJ.
+**[[Kimura from North-South]]** - Master Kimura from North-South in BJJ. Complete safety guide with setup, execution, variations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Kimura from Side Control]]** - ⚠️ Content being updated - Learn about Kimura from Side Control in BJJ.
+**[[Kimura from Side Control]]** - Master the Kimura from Side Control in BJJ. Comprehensive guide covering setup, execution, and safety protocols. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Kimura from Standing]]** - ⚠️ Content being updated - Learn about Kimura from Standing in BJJ.
+**[[Kimura from Standing]]** - Master the Kimura from Standing in BJJ. Complete safety guide with takedown integration, shoulder lock mechanics, control transitions. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Kimura from Turtle]]** - ⚠️ Content being updated - Learn about Kimura from Turtle in BJJ.
+**[[Kimura from Turtle]]** - Master Kimura from Turtle in BJJ. Complete guide with safety protocols, setup, execution steps. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Kneebar]]** - ⚠️ Content being updated - Learn about Kneebar in BJJ.
+**[[Kneebar]]** - Master the Kneebar in BJJ. Complete guide with safety protocols, setup, execution, and defense. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Learn safe application.
 
-**[[Kneebar Finish]]** - ⚠️ Content being updated - Learn about Kneebar Finish in BJJ.
+**[[Kneebar Finish]]** - Master the Kneebar Finish in BJJ. Complete guide covering knee isolation mechanics, breaking angles, and finishing protocols. Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Kneebar Variations]]** - ⚠️ Content being updated - Learn about Kneebar Variations in BJJ.
+**[[Kneebar Variations]]** - Master Kneebar Variations in BJJ. Complete guide covering entries from multiple positions, finishing mechanics, safety protocols. Success: 30%-50%-70%.
 
-**[[Kneebar from 50-50]]** - ⚠️ Content being updated - Learn about Kneebar from 50-50 in BJJ.
+**[[Kneebar from 50-50]]** - Master Kneebar from 50-50 Guard in BJJ. Complete guide with safety protocols, leg entanglement mechanics, finish details. Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Kneebar from Guard]]** - ⚠️ Content being updated - Learn about Kneebar from Guard in BJJ.
+**[[Kneebar from Guard]]** - Master Kneebar from Guard in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Kneebar from Half Guard]]** - ⚠️ Content being updated - Learn about Kneebar from Half Guard in BJJ.
+**[[Kneebar from Half Guard]]** - Master the Kneebar from Half Guard in BJJ. Complete guide covering setup, execution, and safety protocols. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Kneebar from Top]]** - ⚠️ Content being updated - Learn about Kneebar from Top in BJJ.
+**[[Kneebar from Top]]** - Master the Kneebar from Top positions in BJJ. Complete safety guide with setup, execution, and control mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Loop Choke]]** - ⚠️ Content being updated - Learn about Loop Choke in BJJ.
+**[[Loop Choke]]** - Master the Loop Choke in BJJ - deceptive collar choke from mount, side control, turtle. Technical execution with proper grip mechanics and body positioning.
 
-**[[Loop Choke Variations]]** - ⚠️ Content being updated - Learn about Loop Choke Variations in BJJ.
+**[[Loop Choke Variations]]** - Master Loop Choke Variations in BJJ. Complete guide covering setup, execution, safety protocols. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Loop Choke from Mount]]** - ⚠️ Content being updated - Learn about Loop Choke from Mount in BJJ.
+**[[Loop Choke from Mount]]** - Master the Loop Choke from Mount in BJJ. Complete guide with safety protocols, setup requirements, and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Marce Choke]]** - ⚠️ Content being updated - Learn about Marce Choke in BJJ.
+**[[Marce Choke]]** - Master the Marce Choke in BJJ - powerful lapel choke from top positions. Setup, execution, safety protocols. Success: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Mir Lock]]** - ⚠️ Content being updated - Learn about Mir Lock in BJJ.
+**[[Mir Lock]]** - Master the Mir Lock shoulder submission in BJJ. Complete guide with safety protocols, setup from top control, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%
 
-**[[Monoplata]]** - ⚠️ Content being updated - Learn about Monoplata in BJJ.
+**[[Monoplata]]** - Master the Monoplata submission in BJJ. Complete guide covering setup from guard, execution steps, safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 55%.
 
-**[[Monoplata from Guard]]** - ⚠️ Content being updated - Learn about Monoplata from Guard in BJJ.
+**[[Monoplata from Guard]]** - Master the Monoplata from Guard in BJJ. Complete guide with safety protocols, setup, and execution steps. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.
 
-**[[Monoplata from Mount]]** - ⚠️ Content being updated - Learn about Monoplata from Mount in BJJ.
+**[[Monoplata from Mount]]** - Master Monoplata from Mount in BJJ. Complete safety guide covering setup, execution, and injury prevention. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.
 
-**[[North-South Choke]]** - ⚠️ Content being updated - Learn about North-South Choke in BJJ.
+**[[North-South Choke]]** - Master North-South Choke in BJJ. Complete guide with setup from top control, execution mechanics, safety protocols. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[North-South to Kimura]]** - ⚠️ Content being updated - Learn about North-South to Kimura in BJJ.
+**[[North-South to Kimura]]** - Master the North-South to Kimura transition in BJJ. Complete guide covering setup, execution, and finishing mechanics. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Omoplata]]** - ⚠️ Content being updated - Learn about Omoplata in BJJ.
+**[[Omoplata]]** - Master the Omoplata shoulder lock in BJJ. Complete guide covering setup, execution, safety protocols, and variations. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Omoplata Variations]]** - ⚠️ Content being updated - Learn about Omoplata Variations in BJJ.
+**[[Omoplata Variations]]** - Master Omoplata variations in BJJ. Complete guide covering standard, rolling, baratoplata, and tarikoplata techniques with setup requirements and finishing mechanics.
 
-**[[Omoplata from Guard]]** - ⚠️ Content being updated - Learn about Omoplata from Guard in BJJ.
+**[[Omoplata from Guard]]** - Master Omoplata from Guard in BJJ. Complete shoulder lock guide with safety protocols, setup, execution. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Outside Heel Hook]]** - ⚠️ Content being updated - Learn about Outside Heel Hook in BJJ.
+**[[Outside Heel Hook]]** - Master Outside Heel Hook in BJJ. Safety guide covering proper application, knee rotation mechanics, injury prevention. Success: Beginner 20%, Intermediate 35%, Advanced 55%.
 
-**[[Paper Cutter Choke]]** - ⚠️ Content being updated - Learn about Paper Cutter Choke in BJJ.
+**[[Paper Cutter Choke]]** - Master Paper Cutter Choke in BJJ. Complete guide with safety protocols, setup from side control, execution details. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Peruvian Necktie]]** - ⚠️ Content being updated - Learn about Peruvian Necktie in BJJ.
+**[[Peruvian Necktie]]** - Master the Peruvian Necktie in BJJ. Complete guide with safety protocols, setup from turtle, execution sequence. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 **[[Rear Naked Choke]]** - Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[Reverse Armbar]]** - ⚠️ Content being updated - Learn about Reverse Armbar in BJJ.
+**[[Reverse Armbar]]** - Master the Reverse Armbar in BJJ. Complete guide with safety protocols, setup, execution, and variations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Reverse Kimura]]** - ⚠️ Content being updated - Learn about Reverse Kimura in BJJ.
+**[[Reverse Kimura]]** - Master Reverse Kimura in BJJ. Complete guide with safety protocols, setup from various positions, and execution. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Rolling Armbar]]** - ⚠️ Content being updated - Learn about Rolling Armbar in BJJ.
+**[[Rolling Armbar]]** - Master the Rolling Armbar in BJJ. Dynamic submission from guard and scrambles with technical precision. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
-**[[Rolling Omoplata]]** - ⚠️ Content being updated - Learn about Rolling Omoplata in BJJ.
+**[[Rolling Omoplata]]** - Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from failed sweeps or scrambles. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%. Includes safety protocols.
 
-**[[Short Choke]]** - ⚠️ Content being updated - Learn about Short Choke in BJJ.
+**[[Short Choke]]** - Master the Short Choke in BJJ. Devastating lapel strangle from top positions with minimal space. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Complete safety guide.
 
-**[[Spine Lock]]** - ⚠️ Content being updated - Learn about Spine Lock in BJJ.
+**[[Spine Lock]]** - Master the Spine Lock submission in BJJ. Advanced spinal compression from truck/turtle positions. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.
 
-**[[Spinning Armbar]]** - ⚠️ Content being updated - Learn about Spinning Armbar in BJJ.
+**[[Spinning Armbar]]** - Master the Spinning Armbar in BJJ. Dynamic submission from multiple positions with fluid rotation mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Straight Ankle Lock]]** - ⚠️ Content being updated - Learn about Straight Ankle Lock in BJJ.
+**[[Straight Ankle Lock]]** - Master the Straight Ankle Lock in BJJ. Complete guide with safety protocols, setup from Ashi Garami, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Straight Armbar]]** - ⚠️ Content being updated - Learn about Straight Armbar in BJJ.
+**[[Straight Armbar]]** - Master the Straight Armbar in BJJ. Complete safety-first guide with setup, execution, defense counters. Success rates: Beginner 40%, Intermediate 55%, Advanced 75%.
 
-**[[Straight Footlock]]** - ⚠️ Content being updated - Learn about Straight Footlock in BJJ.
+**[[Straight Footlock]]** - Master the Straight Footlock in BJJ. Safety guide with setup and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Fundamental leg lock.
 
-**[[Suloev Stretch]]** - ⚠️ Content being updated - Learn about Suloev Stretch in BJJ.
+**[[Suloev Stretch]]** - Master the Suloev Stretch in BJJ. Devastating knee compression submission from top positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Switch to Triangle]]** - ⚠️ Content being updated - Learn about Switch to Triangle in BJJ.
+**[[Switch to Triangle]]** - Master the Switch to Triangle in BJJ. Safety protocols, guard setups, execution steps. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Tarikoplata]]** - ⚠️ Content being updated - Learn about Tarikoplata in BJJ.
+**[[Tarikoplata]]** - Master the Tarikoplata shoulder lock in BJJ. Advanced guard submission combining omoplata mechanics with wrist control. Success rates: Beginner 20%, Intermediate 35%, Advanced 55%.
 
-**[[Ten Finger Guillotine]]** - ⚠️ Content being updated - Learn about Ten Finger Guillotine in BJJ.
+**[[Ten Finger Guillotine]]** - Master the Ten Finger Guillotine in BJJ. Comprehensive guide covering setup, execution, and safety protocols. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Toe Hold]]** - 
+**[[Toe Hold]]** - Master the Toe Hold leg lock in BJJ. Complete guide with safety protocols, setup from leg entanglements, execution. Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Toe Hold Variations]]** - ⚠️ Content being updated - Learn about Toe Hold Variations in BJJ.
+**[[Toe Hold Variations]]** - Master toe hold variations in BJJ. Learn setups from 50-50, ashi garami, and top positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Toe Hold from 50-50]]** - 
+**[[Toe Hold from 50-50]]** - Master the Toe Hold from 50-50 Guard with comprehensive safety protocols, setup requirements, and execution steps. Learn rotational ankle attacks with progressive training phases.
 
-**[[Toe Hold from Top]]** - 
+**[[Toe Hold from Top]]** - Master Toe Hold from Top in BJJ. Complete guide with safety protocols, setup, execution steps. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Triangle Choke]]** - 
+**[[Triangle Choke]]** - Master the Triangle Choke in BJJ. Complete safety guide with setup, execution, and defense. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[Triangle Choke Back]]** - 
+**[[Triangle Choke Back]]** - Master Triangle Choke from Back Control in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Triangle Choke Front]]** - 
+**[[Triangle Choke Front]]** - Master Triangle Choke from front positions in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Triangle Choke Side]]** - 
+**[[Triangle Choke Side]]** - Master Triangle Choke Side from top position in BJJ. Complete safety guide covering setup from side control, execution mechanics, and defense patterns.
 
-**[[Triangle from Back]]** - 
+**[[Triangle from Back]]** - Master Triangle from Back in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Expert insights included.
 
-**[[Triangle from Closed Guard]]** - 
+**[[Triangle from Closed Guard]]** - Master triangle choke from closed guard. Complete guide with safety protocols, setup requirements, and execution steps. Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[Triangle from De La Riva]]** - ⚠️ Content being updated - Learn about Triangle from De La Riva in BJJ.
+**[[Triangle from De La Riva]]** - Master Triangle from De La Riva in BJJ. Complete guide with setup requirements, execution steps, and safety protocols. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Triangle from Guard]]** - ⚠️ Content being updated - Learn about Triangle from Guard in BJJ.
+**[[Triangle from Guard]]** - Master Triangle from Guard in BJJ. Complete safety guide covering setup, execution, and finish. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Triangle from Mount]]** - ⚠️ Content being updated - Learn about Triangle from Mount in BJJ.
+**[[Triangle from Mount]]** - Master Triangle from Mount in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Triangle from Spider Guard]]** - ⚠️ Content being updated - Learn about Triangle from Spider Guard in BJJ.
+**[[Triangle from Spider Guard]]** - Master Triangle from Spider Guard. Setup from spider hooks, angle creation, finish mechanics. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Twister]]** - ⚠️ Content being updated - Learn about Twister in BJJ.
+**[[Twister]]** - Master the Twister submission in BJJ. Complete guide with safety protocols, setup from Truck position, and spinal lock execution. Beginner 15%, Intermediate 30%, Advanced 50%.
 
-**[[Twister Finish]]** - ⚠️ Content being updated - Learn about Twister Finish in BJJ.
+**[[Twister Finish]]** - Master the Twister finishing sequence in BJJ. Complete guide with safety protocols, spinal mechanics, and control refinement. Beginner 20%, Intermediate 35%, Advanced 55%.
 
-**[[Von Flue Choke]]** - ⚠️ Content being updated - Learn about Von Flue Choke in BJJ.
+**[[Von Flue Choke]]** - Master the Von Flue Choke counter in BJJ. Complete safety guide with setup and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Williams Shoulder Lock]]** - ⚠️ Content being updated - Learn about Williams Shoulder Lock in BJJ.
+**[[Williams Shoulder Lock]]** - Master Williams Shoulder Lock in BJJ. Complete guide with safety protocols, setup from Williams Guard, execution steps. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 
 ---
@@ -1126,9 +1122,9 @@ Master all BJJ submission techniques. Complete guide to chokes, joint locks, and
 ## Statistics
 
 - **Total Submissions**: 132
-- **Items with complete content**: 26
-- **Items needing JSON updates**: 106
-- **Last Updated**: October 30, 2025
+- **Items with complete content**: 132
+- **Items needing JSON updates**: 0
+- **Last Updated**: November 12, 2025
 
 ---
 
@@ -1139,4 +1135,4 @@ Master all BJJ submission techniques. Complete guide to chokes, joint locks, and
 
 ---
 
-*This hub page is automatically generated from content files. Last generated: 2025-10-30 21:36:42*
+*This hub page is automatically generated from content files. Last generated: 2025-11-12 00:23:26*

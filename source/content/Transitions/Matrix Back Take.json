@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Matrix Back Take | BJJ Technique | BJJ Graph",
-    "description": "Master the Matrix Back Take from turtle. Step-by-step execution with control maintenance and weight distribution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-    "transition_id": "T158",
-    "tags": ["bjj", "technique", "back-take", "turtle", "transition", "advanced"],
-    "starting_position": "Turtle Bottom",
-    "ending_position": "Back Control Top",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Matrix Back Take",
+  "description": "Master the Matrix Back Take from turtle. Step-by-step execution with control maintenance and weight distribution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "tags": ["bjj", "technique", "back-take", "turtle", "transition", "advanced"],
+  "starting_position": "Turtle",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Matrix Back Take is an advanced transition from turtle position that exploits the opponent's defensive posture to establish back control. This technique derives its name from the fluid, evasive movements required to navigate around the opponent's defensive frames while maintaining constant pressure and connection. The Matrix Back Take is particularly effective when the opponent is tightly defending their turtle position with good base and posture, making traditional back take entries difficult. By using dynamic movement and precise weight distribution, the attacker can bypass the opponent's defenses and secure the coveted back control position.\n\nThis technique requires excellent body awareness, timing, and the ability to read the opponent's defensive reactions. The Matrix Back Take involves a series of coordinated movements that flow together seamlessly, creating a path to the back even when the opponent is actively defending. The key to success lies in maintaining constant connection to the opponent while continuously adjusting pressure and angles to prevent them from recovering guard or escaping to a better position. When executed properly, the Matrix Back Take feels effortless and creates minimal opportunity for the opponent to counter or escape.\n\nThe Matrix Back Take has become increasingly popular in modern no-gi grappling, where traditional gi-based controls are unavailable. It represents a sophisticated understanding of positional transitions and demonstrates the importance of movement quality over static pressure. This technique is commonly seen in high-level competition and is a staple in many contemporary back attack systems.",
   "key_principles": [
@@ -217,7 +214,7 @@
       "relationship": "Alternative entry method from same starting position"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "relationship": "Ending position and follow-up attacking platform"
     },
     {
@@ -225,7 +222,7 @@
       "relationship": "Control position established after completing the technique"
     },
     {
-      "name": "Truck Position",
+      "name": "Truck",
       "relationship": "Alternative transition if opponent rolls through the matrix entry"
     },
     {
@@ -241,7 +238,7 @@
       "relationship": "Alternative submission option from back control position"
     },
     {
-      "name": "Turtle Bottom",
+      "name": "Turtle",
       "relationship": "Defensive position being attacked in this technique"
     },
     {
@@ -249,7 +246,7 @@
       "relationship": "Alternative back take that can be chained with matrix entry"
     },
     {
-      "name": "Back Control to Crucifix",
+      "name": "Crucifix",
       "relationship": "Follow-up transition if opponent defends the neck from back control"
     }
   ],

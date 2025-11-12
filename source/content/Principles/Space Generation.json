@@ -1,14 +1,11 @@
 {
-  "metadata": {
-    "title": "Space Generation | BJJ Concept | BJJ Graph",
-    "description": "Understand Space Generation in BJJ. Learn defensive positioning, frame mechanics, and escape fundamentals. Master hip movement and creating distance.",
-    "principle_id": "P087",
-    "tags": ["bjj", "concept", "space generation", "defense", "escape", "frames", "shrimping", "distance"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
-
+  "name": "Space Generation",
+  "description": "Master Space Generation in BJJ. Learn frame mechanics, hip escape techniques, defensive positioning to create distance. Essential for escapes and guard retention.",
+  "tags": ["bjj", "principle", "space generation", "defense", "escape", "frames", "shrimping", "distance", "survival"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
+  
   "overview": "Space Generation is the fundamental defensive concept of creating distance between yourself and an opponent to prevent control, escape disadvantageous positions, and recover to more favorable positions. This concept represents the opposite of pressure passing and control maintenance—where offensive players seek to eliminate space, defensive players must actively create it to survive and escape. Space generation involves the coordinated use of frames, hip movement, shrimping, bridging, and strategic positioning to systematically create the gaps necessary for defensive maneuvers. Understanding space generation is essential for effective guard retention, pin escapes, and submission defense, as nearly all defensive sequences begin with the creation of space.\n\nThe ability to generate space under pressure separates competent defensive grapplers from those who get smashed and submitted. Space generation is not simply about pushing away—it requires precise timing, proper body mechanics, frame placement, and an understanding of leverage principles. Effective space generation creates windows of opportunity where defensive options become available: inserting guard frames, recovering hooks, escaping hips, or transitioning to better positions. The concept scales from fundamental white belt escapes to advanced black belt guard retention systems, with increasing sophistication in timing, efficiency, and strategic application.\n\nSpace generation fundamentally relies on the principle that control requires contact and pressure. By systematically creating distance at key control points—head, shoulders, hips, and legs—the defensive player disrupts the opponent's control structure and creates pathways for movement. This concept integrates closely with frame management, hip escape mechanics, and defensive posture to form the foundation of all defensive jiu-jitsu.",
 
   "key_principles": [
@@ -88,48 +85,78 @@
       "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
       "description": "Space generation is the foundational skill underlying all escape sequences—no escape is possible without first creating the necessary space for movement"
+    },
+    {
+      "principle_name": "Shrimping",
+      "relationship_type": "Complementary",
+      "description": "Shrimping is the primary technical execution of lateral space generation through hip rotation and translation"
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Extension",
+      "description": "The combination of bridging and shrimping represents the complete space generation toolkit for escaping pins and recovering position"
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Extension",
+      "description": "Guard retention systems are built on preemptive space generation that prevents opponents from establishing dominant pressure positions"
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Frame management focuses on maintaining and adjusting frames while space generation focuses on the movement that creates distance"
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Complementary",
+      "description": "Hip movement encompasses all space-generating movements including shrimping, bridging, and granby rolling"
+    },
+    {
+      "principle_name": "Escape Hierarchy",
+      "relationship_type": "Extension",
+      "description": "The escape hierarchy defines which spaces must be created first based on position severity and control points"
     }
   ],
 
   "application_contexts": [
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "Create space by framing against neck and hip, then shrimping away to recover guard—the classic application requiring coordinated frame pressure and hip escape to generate enough space for knee insertion"
     },
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "Bridge to create vertical space and disrupt base, then immediately shrimp when pressure shifts to create lateral space for elbow escape or guard recovery"
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "Frame against knee and shoulder while shrimping away to create space for hip escape—requires managing opponent's far-side underhook while generating distance"
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Bridge explosively to create space under chest, then immediately swim arms inside and shrimp to create hip space for turtle or guard recovery"
     },
     {
-      "context": "Kesa Gatame Bottom",
+      "context": "Kesa Gatame",
       "how_applied": "Create space by bridging into opponent to disturb their weight distribution, then explosively shrimp away when pressure momentarily lightens to escape their head control"
     },
     {
-      "context": "Back Control Bottom",
+      "context": "Back Control",
       "how_applied": "Create space at hips by posting hands on mat and lifting hips away from opponent's hooks, allowing hip escape and hook clearing"
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "When opponent stands to pass, create space by opening guard and using feet on hips to establish distance management frames that prevent immediate pressure passing"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Use underhook and knee shield to create space preventing crossface and shoulder pressure, allowing recovery to full guard or sweep opportunities"
     },
     {
-      "context": "Deep Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "Create space by rolling under and away from opponent's pressure, using the roll momentum to generate distance for sweep entries or guard recovery"
     },
     {
-      "context": "Bottom Turtle",
+      "context": "Turtle",
       "how_applied": "Create space by explosive forward granby roll or backward sit-through, generating distance from back attack attempts and allowing guard recovery"
     },
     {
@@ -137,24 +164,32 @@
       "how_applied": "Use defensive shell with frames protecting face and neck while shrimping to create enough space to transition to turtle or recover guard structure"
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "Progressive space generation from flattened position—first create space for knee insertion, then space for full guard recovery through sequential shrimping"
-    },
-    {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Constantly create and manage space using feet on hips, collar grips, and distance management to prevent opponent from establishing pressure passing grips"
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Use butterfly hooks and frames to create space preventing chest-to-chest pressure, maintaining the critical gap that makes sweeps and guard retention possible"
     },
     {
-      "context": "Z-Guard Bottom",
+      "context": "Z-Guard",
       "how_applied": "Knee shield creates primary space preventing shoulder pressure, while frames and hip movement maintain the distance needed for retention and sweeps"
     },
     {
-      "context": "Lockdown Guard Bottom",
+      "context": "Lockdown",
       "how_applied": "Use lockdown to control distance while using frames and hip movement to create upper body space for underhook battles and sweep attempts"
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Leg frames on biceps create structural space preventing forward pressure, while grips and foot placement manage distance for sweeps and transitions"
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Hook and collar grip create rotational space preventing opponent from settling weight, while active hip movement maintains optimal distance for sweeps"
+    },
+    {
+      "context": "High Mount",
+      "how_applied": "Frame against hips to prevent grapevine while bridging to create space for hip escape, then immediately shrimp to begin mount escape sequence"
     }
   ],
 
@@ -321,12 +356,12 @@
   "related_content": [
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core skill that enables space generation—frames provide the structural leverage for all space-creating movements"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary mechanical technique for converting frame-created space into actual positional displacement"
     },
     {
@@ -345,39 +380,39 @@
       "relationship": "Technical sequence explicitly teaching coordinated frame and hip escape for systematic space generation"
     },
     {
-      "name": "Side Control Bottom",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Primary position where space generation skills are most critical for survival and escape"
     },
     {
-      "name": "Mount Bottom",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "High-threat position requiring explosive bridging and shrimping to generate escape space under maximum pressure"
     },
     {
-      "name": "Guard Recovery",
-      "content_type": "Position",
-      "relationship": "Target position achieved through successful space generation from pins and pressure positions"
-    },
-    {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader framework that space generation serves as the foundational skill for all escape sequences"
     },
     {
       "name": "Defensive Framing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept focusing on frame structure and maintenance while space generation focuses on movement"
     },
     {
       "name": "Connection Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Partner concept—space generation creates distance, connection breaking prevents recapture of control"
     },
     {
       "name": "Bridge and Shrimp",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core movement pattern combining two primary space-generation techniques in coordinated sequence"
+    },
+    {
+      "name": "Shrimping",
+      "content_type": "Principle",
+      "relationship": "Fundamental movement skill that is the primary method of lateral space generation in defensive sequences"
     }
   ],
 

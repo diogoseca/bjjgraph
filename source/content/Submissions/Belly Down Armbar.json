@@ -1,1 +1,363 @@
-
+{
+  "name": "Belly Down Armbar",
+  "description": "Master the Belly Down Armbar in BJJ. Complete guide with safety protocols, precise setup from turtle/scrambles, and finishing mechanics. Success: 30/50/70%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "armbar",
+    "joint-lock",
+    "turtle-attack",
+    "scramble-finish",
+    "elbow-hyperextension",
+    "advanced-technique"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Arm Lock",
+  "target_area": "Elbow joint and shoulder girdle",
+  "starting_position": "Turtle",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
+  },
+  "overview": "The Belly Down Armbar is an opportunistic joint lock typically applied when the opponent is in turtle position or during scrambles when they expose an arm while defending other attacks. Unlike traditional armbars executed from guard or mount where you control the opponent's torso with your legs, the belly down variant requires you to secure the isolated arm while the opponent remains face-down on the mat. This submission is particularly effective when your opponent turtles to defend against back takes or other attacks, as their defensive posture often leaves their arms extended and vulnerable. The key to success lies in rapid arm isolation, maintaining connection to the opponent's body to prevent them from rolling through the position, and applying controlled hyperextension to the elbow joint. The belly down armbar requires excellent timing and positional awareness, as the opponent has more escape options compared to traditional armbar positions. However, when executed correctly with proper control of the shoulder and hip, this submission becomes a powerful finishing option from positions where traditional submissions may be difficult to secure.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears)",
+        "severity": "High",
+        "recovery_time": "4-12 weeks for moderate sprains, 3-6 months for severe tears, potential surgery required"
+      },
+      {
+        "injury": "Shoulder dislocation or rotator cuff strain from torque during extension",
+        "severity": "Medium",
+        "recovery_time": "2-8 weeks depending on severity, potential for chronic instability"
+      },
+      {
+        "injury": "Bicep tendon strain or tear from sudden pressure application",
+        "severity": "Medium",
+        "recovery_time": "3-6 weeks for strains, 3-6 months for complete tears"
+      }
+    ],
+    "application_speed": "SLOW and progressive - minimum 3-5 seconds from initial arm isolation to full extension in training",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making verbal distress sounds)",
+      "Physical hand tap on your body or the mat",
+      "Physical foot tap on the mat",
+      "Any distress signal including unusual movement or sounds"
+    ],
+    "release_protocol": [
+      "Immediately release hip pressure and stop extending the arm",
+      "Release the wrist grip while maintaining light control",
+      "Allow opponent to retract their arm naturally without resistance",
+      "Check with training partner verbally before continuing"
+    ],
+    "training_restrictions": [
+      "Never spike, jerk, or explosively extend the submission in training",
+      "Never use competition-speed application during drilling or light rolling",
+      "Always ensure training partner has both hands free to tap",
+      "Never continue pressure after feeling resistance or hearing joint sounds",
+      "Avoid this submission with beginners until they understand proper defensive reactions"
+    ]
+  },
+  "key_principles": [
+    "Arm isolation and control - secure the wrist and upper arm before committing to the finish",
+    "Hip pressure against opponent's shoulder - prevents rolling escape and maintains arm extension",
+    "Body connection maintenance - keep your chest/torso connected to opponent's back/side throughout",
+    "Elbow orientation control - ensure opponent's elbow faces upward before applying extension",
+    "Progressive pressure application - gradually increase extension allowing time for tap response",
+    "Angle management - position your hips perpendicular to opponent's arm for maximum leverage",
+    "Shoulder immobilization - control the shoulder girdle to prevent defensive rotation"
+  ],
+  "setup_requirements": [
+    "Opponent is in turtle position, flat on belly, or transitioning during scramble",
+    "One of opponent's arms is extended or isolated away from their body",
+    "You have established grip control on opponent's wrist and/or upper arm",
+    "Your body position allows you to drop your weight across opponent's shoulder",
+    "Opponent's elbow is accessible and can be oriented upward",
+    "You have hip mobility to swing your leg over or maintain pressure on opponent's back"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Arm isolation from turtle position",
+      "description": "As opponent assumes turtle position, identify an extended arm (often the posting arm or the arm defending a choke attempt). Secure a firm two-on-one grip with both hands controlling the wrist and upper tricep area. Pull the arm away from opponent's body at approximately 45-90 degrees, breaking their defensive structure and preventing them from pulling the arm back to safety.",
+      "timing": "0-2 seconds from initial contact",
+      "pressure_level": "Moderate"
+    },
+    {
+      "step_number": 2,
+      "action": "Drop weight across shoulder",
+      "description": "While maintaining wrist control with your outside hand, drop your chest and bodyweight across the opponent's shoulder blade and upper back area. This pins their shoulder to the mat and prevents them from rolling through the position or rotating their body to escape. Your inside arm should thread under their armpit or over their back to secure additional control and prevent their torso from turning.",
+      "timing": "2-3 seconds, immediately after arm isolation",
+      "pressure_level": "Firm"
+    },
+    {
+      "step_number": 3,
+      "action": "Hip positioning and leg configuration",
+      "description": "Position your hips perpendicular to the opponent's extended arm, similar to a traditional armbar but without leg control over their head. Your near-side leg should be based out for stability, with your foot planted on the mat. Your far leg can either base out wide, sprawl back, or in some variations hook over the opponent's far hip to prevent them from rolling toward you. The key is maintaining downward pressure through your hips while keeping your base stable.",
+      "timing": "3-4 seconds",
+      "pressure_level": "Firm"
+    },
+    {
+      "step_number": 4,
+      "action": "Elbow orientation and final grip adjustment",
+      "description": "Ensure the opponent's thumb is pointing upward and their elbow joint is facing toward the ceiling - this is critical for proper joint mechanics. Adjust your grip so both hands control the wrist area with thumbs pointing toward their hand (monkey grip or same-side grip). Your forearms should be positioned across their tricep/elbow area to act as the fulcrum point for the hyperextension. Keep your chest pressure constant on their shoulder throughout this adjustment.",
+      "timing": "4-5 seconds",
+      "pressure_level": "Moderate"
+    },
+    {
+      "step_number": 5,
+      "action": "Hip drive and arm extension initiation",
+      "description": "With grips secured and elbow properly oriented, begin driving your hips down and forward toward the mat while simultaneously pulling the wrist toward your chest. This creates a lever action with your forearms as the fulcrum point and the opponent's elbow as the breaking point. The motion should be smooth and controlled - imagine slowly closing a book rather than snapping it shut. Maintain constant awareness of opponent's tap signals throughout.",
+      "timing": "5-7 seconds, slow and progressive",
+      "pressure_level": "Firm"
+    },
+    {
+      "step_number": 6,
+      "action": "Finish and control maintenance",
+      "description": "Continue hip pressure and wrist pull until you feel the arm reach full extension or the opponent taps. At full extension, the arm should form a straight line from shoulder to wrist with your hips and forearms creating the breaking pressure on the elbow joint. If opponent attempts to roll toward you, increase shoulder pressure and tighten your body connection. If they roll away, be prepared to follow or release and transition to back control rather than risking injury from awkward torque.",
+      "timing": "7+ seconds, maintaining control until tap or position change",
+      "pressure_level": "Maximum"
+    }
+  ],
+  "opponent_defense_patterns": [
+    {
+      "defense": "Rolling through toward the attacking side to create slack and escape the arm",
+      "effectiveness": "High",
+      "your_adjustment": "Anticipate the roll by increasing shoulder pressure and keeping your chest glued to their back. Follow their roll while maintaining wrist control, often transitioning to traditional armbar position or taking the back as they rotate. Do not fight the roll - follow it while keeping connection."
+    },
+    {
+      "defense": "Pulling the trapped arm back toward their body with explosive strength",
+      "effectiveness": "Medium",
+      "your_adjustment": "Counter by dropping all your bodyweight onto their shoulder while maintaining two-handed wrist control. Angle your body so your hip pressure opposes their pulling direction. If they successfully pull the arm close to their body, immediately transition to another attack (back take, crucifix, or neck attack) rather than forcing the finish."
+    },
+    {
+      "defense": "Posting with the free hand and bridging to create space",
+      "effectiveness": "Medium",
+      "your_adjustment": "Use your head position and shoulder pressure to drive into their posted arm, collapsing their base. Alternatively, switch your inside hand control to attack the free arm, creating a dilemma where defending one arm exposes the other. Maintain hip pressure throughout to prevent them from creating significant space."
+    },
+    {
+      "defense": "Flattening completely and hiding both arms under their body",
+      "effectiveness": "Low",
+      "your_adjustment": "If this defense occurs before you've isolated the arm, use the opportunity to transition to back control or other turtle attacks. If attempted during the submission, your existing arm control and shoulder pressure should prevent them from successfully hiding the arm. Simply maintain your position and continue the extension sequence."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting the submission without proper shoulder control",
+      "consequence": "Opponent easily rolls through the position, escaping to safety or reversing position while you lose the isolated arm",
+      "correction": "Always establish heavy chest and shoulder pressure before committing to the arm extension. Your bodyweight should pin their shoulder blade to the mat, making rolling nearly impossible.",
+      "danger_level": "Low"
+    },
+    {
+      "error": "Incorrect elbow orientation (thumb pointing down or to the side)",
+      "consequence": "Submission becomes ineffective and places dangerous torque on the shoulder joint instead of controlled pressure on the elbow. Can cause shoulder injury instead of clean tap from elbow pressure.",
+      "correction": "Before applying extension, verify the thumb points toward the ceiling and the elbow pit faces upward. Adjust the arm orientation before committing to the finish. The natural completion should feel like straightening the arm, not twisting it.",
+      "danger_level": "CRITICAL"
+    },
+    {
+      "error": "Explosive or jerking application of the arm extension",
+      "consequence": "High risk of serious elbow injury including complete ligament tears, dislocations, or bone damage. Opponent may not have time to tap before injury occurs.",
+      "correction": "Apply pressure progressively over 3-5 seconds minimum in training. Think 'squeeze and extend' not 'snap and break.' Competition application can be faster but still must allow tap response time. This is a joint lock, not a strike.",
+      "danger_level": "CRITICAL"
+    },
+    {
+      "error": "Losing connection with opponent's body during the finish",
+      "consequence": "Creates space for opponent to escape, roll, or counter-attack. Reduces control and effectiveness of the submission significantly.",
+      "correction": "Keep your chest, hips, and legs in constant contact with opponent's back/shoulder throughout the entire sequence. Move with them if they shift position rather than allowing separation.",
+      "danger_level": "Low"
+    },
+    {
+      "error": "Failing to secure proper wrist control before dropping weight",
+      "consequence": "Opponent pulls arm free before you can establish the submission, wasting position and energy while alerting them to the attack",
+      "correction": "Sequence matters: grip and isolate the arm first, then drop your weight, then adjust positioning. Never reverse this order or attempt multiple steps simultaneously.",
+      "danger_level": "Low"
+    },
+    {
+      "error": "Using only upper body strength to extend the arm",
+      "consequence": "Inefficient submission that requires excessive strength, tires you out, and allows stronger opponents to resist. Also increases injury risk from improper leverage.",
+      "correction": "Drive extension primarily through hip pressure and body positioning. Your arms hold the wrist while your hips and core do the work of creating the breaking pressure. Technique beats strength.",
+      "danger_level": "Medium"
+    },
+    {
+      "error": "Continuing pressure after feeling or hearing joint sounds (pops, cracks)",
+      "consequence": "Potential for catastrophic joint injury, ligament damage requiring surgery, or permanent mobility impairment to training partner.",
+      "correction": "Any unusual joint sounds are an immediate signal to STOP and release pressure. Check with your partner before continuing. In competition, joint sounds may indicate imminent tap, but in training they demand immediate release.",
+      "danger_level": "CRITICAL"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "From failed back take or seatbelt control",
+      "description": "When attacking the back and opponent defends by turtling, they often post an arm to prevent you from securing the second hook. This posted arm becomes an ideal target for the belly down armbar. Transition from your back attack attempt by releasing your lower hook, dropping your weight across their shoulder, and immediately attacking the posted arm with both hands.",
+      "when_to_use": "When back control is defended and opponent turtles with an extended posting arm"
+    },
+    {
+      "variation_name": "Rolling belly down armbar from guard or mount",
+      "description": "From traditional armbar positions (closed guard, mount), if the opponent defends by stacking you heavily or attempts to slam, you can roll them over your head while maintaining arm control, ending in the belly down armbar position with them face-down. This variation requires you to keep constant grip on the wrist throughout the roll and immediately establish shoulder pressure when you complete the rotation.",
+      "when_to_use": "When traditional armbar is defended with heavy stacking or slam attempts"
+    },
+    {
+      "variation_name": "From front headlock or guillotine defense",
+      "description": "If opponent defends a front headlock or guillotine by sprawling and driving forward, their arms are often extended and vulnerable. Release the head control, immediately secure the near arm with both hands, and drop your weight across their shoulder blade as they flatten. This creates a seamless transition from choking attacks to joint lock attacks.",
+      "when_to_use": "When neck attacks are defended by opponent driving forward and flattening"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the PRIMARY safety concern when applying the belly down armbar, and what specifically must you do to minimize this risk?",
+      "answer": "The primary safety concern is causing severe elbow hyperextension, ligament tears, or joint dislocation through explosive application. To minimize risk, you must apply pressure progressively over a minimum of 3-5 seconds in training, never spike or jerk the extension, and immediately release at any sign of tap or distress signals. The controlled, gradual application allows the opponent adequate time to recognize the danger and tap before structural damage occurs to the joint.",
+      "safety_critical": true
+    },
+    {
+      "question": "Why is shoulder control and body connection critical to the success of the belly down armbar, and what happens if you fail to maintain it?",
+      "answer": "Shoulder control pins the opponent's shoulder blade to the mat and prevents them from rolling through the position to escape - the most common and effective defense against this submission. Body connection ensures you move with the opponent rather than creating space. Without proper shoulder pressure, the opponent can easily initiate a roll toward you, creating slack in the arm and escaping before the submission is secured. Your chest and hip pressure must remain constant throughout the entire finishing sequence.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the correct elbow orientation for the belly down armbar and why is incorrect orientation dangerous?",
+      "answer": "The correct orientation has the opponent's thumb pointing toward the ceiling and the elbow pit facing upward, creating a natural plane for hyperextension. This ensures pressure is applied directly to the elbow joint's natural breaking point. Incorrect orientation (thumb down or sideways) places dangerous rotational torque on the shoulder joint and elbow simultaneously, potentially causing shoulder dislocation, rotator cuff tears, or complex injuries rather than a controlled elbow hyperextension that the opponent can feel and tap to.",
+      "safety_critical": true
+    },
+    {
+      "question": "What is the proper sequence of steps for establishing the belly down armbar, and why does this order matter?",
+      "answer": "The correct sequence is: (1) Isolate and control the arm with two-on-one grips, (2) Drop weight across the shoulder to pin it, (3) Position hips perpendicular to the arm, (4) Orient the elbow correctly, (5) Apply progressive extension through hip drive. This order matters because attempting to drop weight before securing the arm allows escape, and applying pressure before orienting the elbow creates injury risk. Each step builds the control necessary for the next step to be effective and safe.",
+      "safety_critical": false
+    },
+    {
+      "question": "How should you respond if your opponent begins rolling toward you during the belly down armbar attempt?",
+      "answer": "Rather than fighting the roll and risking awkward torque on the arm, you should follow their rotation while maintaining wrist control and shoulder pressure. Keep your body connected to theirs throughout the roll, which often allows you to transition to a traditional armbar position with leg control or to take the back as they complete the rotation. The key principle is to move with the opponent's defensive movement rather than opposing it rigidly, maintaining control while transitioning to a more secure position.",
+      "safety_critical": false
+    },
+    {
+      "question": "What immediate action must you take if you hear or feel popping, cracking, or unusual sounds from the opponent's joint during application?",
+      "answer": "You must IMMEDIATELY stop all pressure and release the submission, regardless of whether the opponent has tapped. Joint sounds indicate potential structural damage occurring in real-time and demand instant cessation. After releasing, verbally check with your training partner to assess if injury has occurred before continuing any rolling. In training, partner safety always supersedes securing the tap. Joint sounds are an absolute stop signal that cannot be ignored.",
+      "safety_critical": true
+    }
+  ],
+  "training_progressions_and_safety_protocols": [
+    {
+      "phase": "Technical Understanding and Solo Drilling",
+      "timeframe": "Weeks 1-2, 15-20 minutes per session",
+      "focus": "Learn the mechanical sequence without a partner. Practice the motion of arm isolation, body positioning, hip placement, and extension movement using a grappling dummy or visualizing the sequence. Study video footage of correct technique and identify key control points.",
+      "resistance_level": "None",
+      "safety_emphasis": "Understand the injury mechanism of elbow hyperextension and why controlled application is mandatory. Study tap signals and release protocols thoroughly before live practice."
+    },
+    {
+      "phase": "Cooperative Positional Drilling",
+      "timeframe": "Weeks 3-4, 20-30 minutes per session",
+      "focus": "Partner starts in turtle position and extends arm on cue. Practice the full sequence from arm isolation through shoulder control to final position, stopping before applying pressure. Reset and repeat, focusing on smooth transitions and proper body positioning at each step.",
+      "resistance_level": "Zero resistance",
+      "safety_emphasis": "Practice the release protocol after each repetition. Partner provides feedback on shoulder pressure, grip control, and body positioning. No actual joint pressure applied - only positioning practice."
+    },
+    {
+      "phase": "Slow Application with Progressive Pressure",
+      "timeframe": "Weeks 5-8, integrated into regular drilling",
+      "focus": "Partner offers minimal resistance while you complete the full technique including light extension pressure. Apply pressure slowly over 5-7 seconds, stopping immediately at partner's tap. Partner practices tapping early to establish safety habits. Alternate roles frequently.",
+      "resistance_level": "Mild resistance",
+      "safety_emphasis": "Minimum 5-second application time enforced strictly. Partner must tap early (50-60% pressure) while learning. Discuss afterward what the submission felt like and at what point tap was appropriate. Build trust and communication between partners."
+    },
+    {
+      "phase": "Situational Rolling from Setup Positions",
+      "timeframe": "Weeks 9-16, 5-10 minute rounds",
+      "focus": "Start from turtle position with specific scenarios (defending back take, posting arm exposed, etc.). Apply realistic but controlled resistance. Attacking partner seeks the belly down armbar while defending partner uses legitimate defensive reactions (rolling, pulling arm back, posting). Reset when submission is secured or escape is successful.",
+      "resistance_level": "Realistic resistance",
+      "safety_emphasis": "Maintain 3-5 second application time. Both partners develop sensitivity to submission danger - attacker learns to feel resistance and stop, defender learns to tap earlier rather than resisting joint locks to the breaking point. Verbal communication remains constant."
+    },
+    {
+      "phase": "Integration into Open Rolling",
+      "timeframe": "Weeks 17+, ongoing",
+      "focus": "Attempt the technique during regular sparring sessions when opportunities arise naturally. Focus on recognition of setup opportunities rather than forcing the technique. Continue practicing progressive application and early tapping habits with all training partners.",
+      "resistance_level": "Full resistance",
+      "safety_emphasis": "Apply the same safety standards learned in drilling to live rolling - never use explosive application in training. Build reputation as a safe training partner who applies submissions progressively. Respect taps instantly and check on partners afterward if application felt too fast."
+    },
+    {
+      "phase": "Competition Preparation and Refinement",
+      "timeframe": "Months 6+, for advanced practitioners only",
+      "focus": "Practice competition-speed applications in controlled settings with trusted training partners. Develop ability to finish quickly when needed while maintaining technical precision. Study competition footage to understand how elite grapplers secure and finish this submission under time pressure.",
+      "resistance_level": "Full resistance",
+      "safety_emphasis": "Distinguish clearly between training application (slow, progressive, safe) and competition application (faster but still controlled). Never practice competition-speed submissions on beginners or untrusted partners. Maintain technical precision even under pressure - speed without control is dangerous and ineffective."
+    }
+  ],
+  "from_positions": [
+    "Turtle",
+    "Scramble Position",
+    "Front Headlock",
+    "Crucifix",
+    "Back Control",
+    "Side Control",
+    "North-South",
+    "Knee on Belly"
+  ],
+  "related_submissions": [
+    "Armbar from Mount",
+    "Armbar from Guard",
+    "Armbar from Side Control",
+    "Armbar from Back",
+    "Straight Armbar",
+    "Rolling Armbar",
+    "Spinning Armbar",
+    "Far Side Armbar",
+    "Kimura from Turtle",
+    "Kimura",
+    "Guillotine Choke",
+    "Rear Naked Choke",
+    "Arm Triangle"
+  ],
+  "related_content": [
+    {
+      "name": "Turtle",
+      "relationship": "Primary starting position where opponent is most vulnerable to this submission"
+    },
+    {
+      "name": "Armbar from Mount",
+      "relationship": "Traditional armbar variation that can transition to belly down position if defended with stacking"
+    },
+    {
+      "name": "Kimura from Turtle",
+      "relationship": "Alternative arm lock from same position creating submission combinations"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Common attack when this position is defended; back take opportunities emerge if armbar fails"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Alternative control position when attacking turtle; can transition between crucifix and belly down armbar"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Setup position where opponent's defensive reactions expose arms for belly down armbar"
+    },
+    {
+      "name": "Rolling Armbar",
+      "relationship": "Technical variation that can transition to belly down finish if opponent defends by turning away"
+    },
+    {
+      "name": "Submission Chains",
+      "relationship": "Principle of linking submissions where belly down armbar serves as follow-up to defended attacks"
+    },
+    {
+      "name": "Hip Elevation",
+      "relationship": "Biomechanical principle essential for generating breaking pressure in this submission"
+    },
+    {
+      "name": "Leverage Principles",
+      "relationship": "Fundamental concept explaining why proper body positioning creates more effective submissions than strength"
+    },
+    {
+      "name": "Turtle to Back Take",
+      "relationship": "Transition technique that creates setup opportunities for belly down armbar when opponent defends"
+    },
+    {
+      "name": "Guard Pass",
+      "relationship": "After passing, opponent often turtles creating opportunity for this submission"
+    }
+  ],
+  "expert_insights": {
+    "danaher": "The belly down armbar represents a critical component of what I call the 'turtle attack system' - a comprehensive approach to attacking opponents who assume the defensive turtle position. The mechanical principle here is fundamentally different from traditional armbars: you're not using leg control over the head and torso, which means you must generate all your control through shoulder immobilization and hip pressure. The key technical detail most practitioners miss is the angle of their hips relative to the arm - you want your pelvis perpendicular to the humerus, creating a 90-degree angle that maximizes leverage while minimizing the opponent's ability to rotate their shoulder. From a systemic perspective, this submission should never be viewed in isolation but rather as one option within a decision tree: if the opponent turtles, you have back takes, chokes, crucifix positions, and this armbar all available. The belly down armbar becomes highest percentage when the opponent posts an arm defensively or extends an arm while turtling - in these moments, their arm is structurally compromised and isolated, making it the priority target. Training emphasis must be on the transitional flow between these options rather than fixating on any single finish.",
+    "gordon_ryan": "In competition, the belly down armbar is a high-level finishing position that catches people who think they're safe in turtle. What I've found from using this at the highest levels is that it's not really a first attack - it's what you threaten after they defend something else. I'm usually attacking the back or going for a choke, and when they turtle up hard and post that arm to stop me from getting my hooks in, that's when I switch to the armbar. The thing is, you have to be fast with your weight distribution. Soon as you grab that wrist, you're dropping your chest across their shoulder blade before they even realize what's happening. In training versus competition, my application speed is completely different. Training, I take 5-6 seconds, let them feel it coming, let them tap safely. Competition, I'm breaking that elbow in under 2 seconds if they don't tap - that's the reality of high-level grappling. But you build to that over years. The guys I train with know I'm safe; the guys I compete against know I'm dangerous. That distinction matters. Also, if someone starts to roll through, I almost always let them and take the back rather than trying to hold this finish - back control is generally a superior position unless the armbar is already fully locked.",
+    "eddie_bravo": "The belly down armbar fits perfectly into the 10th Planet philosophy of attacking from everywhere and creating constant submission threats even from positions people think are neutral or defensive. What's sick about this move is that most people think turtle is a safe position to stall or rest - we've spent years developing attacks specifically to punish that mindset. From our system perspective, this armbar usually comes after the twister, the crotch ripper, or the truck attempts get defended. They turtle up, post an arm, and boom - you've got the armbar right there. One variation we use a lot is combining this with our lockdown game: if someone defends the lockdown by turtling and trying to clear the leg, their arms are constantly exposed for this finish. The key innovation from our testing is that you don't always need to fully extend the arm - sometimes just controlling it belly-down and threatening the finish opens up the truck or the back take. It's about the dilemma: defend your arm, I take your back; defend your back, I break your arm. In training, we're super careful with this one though - it's one of those techniques where the tap needs to come early because once the arm is straight and the hips are driving, there's no time to tap without damage. We drill the control portions way more than the actual finish, and we teach people to tap to the position, not the pain. That safety culture is what allows us to train this kind of dangerous shit multiple times per week without everyone ending up injured."
+  }
+}

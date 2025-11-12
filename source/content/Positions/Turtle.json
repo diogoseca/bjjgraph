@@ -1,9 +1,8 @@
 {
   "name": "Turtle",
   "slug": "turtle",
-  "category": "transitional-positions",
   "description": "Master turtle position in BJJ. Strategic guide covering defensive escapes, guard recovery, and back defense with complete bottom and top perspective analysis.",
-  "variant_uniqueness": "Hands-and-knees posture with back exposed",
+  "variant_uniqueness": "Defensive posture trading back exposure",
   "overview": "Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform and attacking position. The turtle serves as a critical juncture between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats from both perspectives. From the bottom, the key lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. From the top, the position offers multiple attacking pathways including back takes, front headlock submissions, and crucifix entries. Top-level competitors like Marcelo Garcia, Priit Mihkelson, and various 10th Planet practitioners have developed sophisticated turtle-based systems that demonstrate the position's versatility. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries or attacks depending on which perspective you occupy. Success in turtle position from either angle demands constant movement, grip fighting excellence, and the ability to read opponent's weight distribution and intentions in real-time.",
   "key_principles": [
     "Turtle is never a resting position - always transitional and requires immediate action",
@@ -40,7 +39,7 @@
       "relationship": "Escape target via technical standup from turtle bottom"
     },
     {
-      "name": "Twister/Truck",
+      "name": "Truck",
       "relationship": "Advanced back attack variation accessible from turtle"
     },
     {
@@ -52,7 +51,7 @@
       "relationship": "Alternative front headlock attack from turtle top"
     },
     {
-      "name": "Half Guard/Deep Half Guard",
+      "name": "Deep Half Guard",
       "relationship": "Recovery option via sit-through from turtle bottom"
     }
   ],
@@ -117,7 +116,7 @@
       },
       {
         "technique": "Deep Half Entry",
-        "target_position": "Half Guard/Deep Half Guard",
+        "target_position": "Deep Half Guard",
         "success_rates": {
           "beginner": 20,
           "intermediate": 35,
@@ -258,7 +257,7 @@
         "actions": [
           {
             "technique": "Deep Half Escape",
-            "target": "Half Guard/Deep Half Guard",
+            "target": "Deep Half Guard",
             "probability": 40
           },
           {
@@ -326,15 +325,15 @@
     "optimal_submission_paths": [
       {
         "name": "Shortest escape path to safety",
-        "path": "Turtle → Granby Roll → Closed Guard → Triangle Choke → Won by Submission"
+        "path": "Turtle Bottom → Granby Roll → Closed Guard → Triangle Choke → Won by Submission"
       },
       {
         "name": "Aggressive counter-attack path",
-        "path": "Turtle → Peterson Roll → Half Guard/Deep Half Guard → Half Guard Sweeps → Mount → Armbar from Mount → Won by Submission"
+        "path": "Turtle Bottom → Peterson Roll → Half Guard → Half Guard Sweeps → Mount → Armbar from Mount → Won by Submission"
       },
       {
         "name": "Standing escape to reset",
-        "path": "Turtle → Technical Standup → Standing Position → Double leg takedown → Back Control → Rear Naked Choke → Won by Submission"
+        "path": "Turtle Bottom → Technical Standup → Standing Position → Double leg takedown → Back Control → Rear Naked Choke → Won by Submission"
       }
     ],
     "related_content": [
@@ -347,7 +346,7 @@
         "relationship": "Primary guard recovery goal from turtle bottom"
       },
       {
-        "name": "Half Guard/Deep Half Guard",
+        "name": "Deep Half Guard",
         "relationship": "Alternative recovery position via sit-through or roll"
       },
       {
@@ -492,7 +491,7 @@
       },
       {
         "technique": "Turtle to Truck Entry",
-        "target_position": "Twister/Truck",
+        "target_position": "Truck",
         "success_rates": {
           "beginner": 10,
           "intermediate": 25,
@@ -536,7 +535,7 @@
       },
       {
         "technique": "Deep Half Entry",
-        "target_position": "Half Guard/Deep Half Guard",
+        "target_position": "Deep Half Guard",
         "success_rate": 35
       },
       {
@@ -742,7 +741,7 @@
         "relationship": "Arm attack when opponent extends limb"
       },
       {
-        "name": "Twister/Truck",
+        "name": "Truck",
         "relationship": "Advanced back attack variation from turtle"
       },
       {

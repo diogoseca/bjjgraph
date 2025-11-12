@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Strength Development | BJJ Concept | BJJ Graph",
-    "description": "Understand Strength Development in BJJ. Learn functional strength principles, training methods, and position-specific applications. Expert insights included.",
-    "principle_id": "P112",
-    "tags": ["bjj", "concept", "strength", "conditioning", "physical development", "training", "power"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Expert"
-  },
+  "name": "Strength Development",
+  "description": "Master strength development for BJJ. Learn functional power training, grip endurance, position-specific strength applications, and expert programming strategies.",
+  "tags": ["bjj", "concept", "strength", "conditioning", "physical development", "training", "power", "grip strength", "functional training"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Expert",
 
   "overview": "Strength Development in Brazilian Jiu-Jitsu represents a sophisticated understanding of functional power application specific to grappling contexts. Unlike conventional strength training focused on isolated muscle groups, BJJ-specific strength development emphasizes connected, whole-body power generation, grip endurance, postural strength, and the ability to maintain control under dynamic resistance. This concept recognizes that raw strength alone provides minimal advantage without technical proficiency, but when combined with proper technique, strategic strength development becomes a significant force multiplier across all aspects of grappling.\n\nThe concept encompasses both general physical preparation and position-specific strength requirements. General strength provides the foundation for injury prevention, energy system development, and overall athleticism, while specific strength targets the unique demands of grappling positions—maintaining base under pressure, executing powerful hip movements, sustaining grip control, and generating explosive power for sweeps and takedowns. Effective strength development for BJJ requires understanding the interplay between maximum strength, strength endurance, explosive power, and the technical efficiency that allows smaller practitioners to overcome larger, stronger opponents through superior leverage and timing.\n\nCritically, strength development in BJJ must be contextualized within the principle of maximum efficiency with minimum effort. Practitioners learn to recognize when to apply maximum force, when to redirect force, and when to yield strategically. This intelligent application of strength, combined with technical precision and tactical awareness, creates the complete grappler who can adapt to opponents of varying sizes, styles, and strength levels while maintaining longevity in training and competition.",
 
@@ -88,32 +85,62 @@
       "principle_name": "Progressive Resistance Training",
       "relationship_type": "Extension",
       "description": "Systematic progression of training loads and intensities forms the foundation for continuous strength adaptation, applying overload principles to create consistent improvement in force production capacity."
+    },
+    {
+      "principle_name": "Maximum Efficiency Principle",
+      "relationship_type": "Complementary",
+      "description": "Strength must be applied intelligently within the framework of maximum efficiency with minimum effort, ensuring power application is strategic rather than wasteful."
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding mechanical leverage allows practitioners to multiply strength effectiveness through optimal body positioning, making limited strength more effective than superior strength poorly applied."
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Complementary",
+      "description": "Core and postural strength directly support base maintenance principles, providing the physical capacity to resist off-balancing attempts and maintain stable positioning."
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Isometric and pushing strength enable effective frame creation and maintenance, allowing practitioners to manage distance and prevent opponent pressure application."
+    },
+    {
+      "principle_name": "Grip Fighting",
+      "relationship_type": "Complementary",
+      "description": "Grip strength and endurance directly determine success in grip fighting exchanges, allowing sustained control establishment and prevention of opponent's gripping strategies."
+    },
+    {
+      "principle_name": "Pressure Application",
+      "relationship_type": "Extension",
+      "description": "Developed strength capacity enables consistent pressure application in top positions, creating the physical foundation for pressure-based control and submission systems."
     }
   ],
 
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Grip strength maintains sleeve and collar control, core strength enables hip movement and posture breaking, pulling strength closes distance and controls opponent's upper body, leg strength maintains closed guard position and creates sweeping force."
     },
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Isometric strength maintains weight distribution and base, core strength resists bridge and roll attempts, pressing strength creates forward pressure for submission setups, hip strength maintains high mount position against escape attempts."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Shoulder and chest strength applies crossface pressure, core strength maintains hip connection to prevent shrimp escapes, arm strength controls opponent's far arm and head, isometric strength sustains pressure throughout extended control periods."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Leg strength maintains lockdown or underhook retention, pulling strength secures underhook control, core strength enables dog fight position recovery, hip drive creates sweeping opportunities from deep half variations."
     },
     {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Grip endurance maintains collar grips for choke setups, core strength maintains hooks and prevents opponent rolling, arm strength controls opponent's defensive hand fighting, isometric strength sustains body triangle or seat belt control."
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Neck and shoulder strength defends against choke attempts and maintains posture, core strength prevents being flattened, leg strength maintains base for standing up or transitioning to guard, whole-body strength creates explosive movement for sit-through escapes."
     },
     {
@@ -121,24 +148,36 @@
       "how_applied": "Leg strength maintains base and stance, pulling strength executes takedown entries, explosive power generates throwing force, core strength maintains posture during opponent's takedown attempts, grip strength secures controlling grips during standup exchanges."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Leg strength maintains distance control through feet on hips or spider guard hooks, grip strength prevents grip breaks, core strength maintains mobility and angle creation, hip strength generates off-balancing force through de la riva or x-guard positions."
     },
     {
-      "context": "Knee on Belly Top",
+      "context": "Knee on Belly",
       "how_applied": "Leg strength drives knee pressure into opponent's diaphragm, core strength maintains balance during opponent's escape attempts, arm strength controls opponent's arms and head, isometric strength sustains pressure while transitioning between controls."
     },
     {
-      "context": "North-South Top",
+      "context": "North-South",
       "how_applied": "Chest and shoulder strength applies suffocating pressure, core strength prevents being rolled, arm strength secures kimura or choke grips, whole-body strength maintains connection as opponent attempts to create space."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Leg strength elevates opponent through butterfly hooks, pulling strength maintains upper body connection, core strength enables angle changes, explosive hip drive creates sweeping force when opponent's base is compromised."
     },
     {
       "context": "Combat Base",
       "how_applied": "Leg strength maintains stable posting, core strength resists being pulled or swept, arm strength defends grips and controls distance, whole-body strength enables explosive standing to pass guard or disengage."
+    },
+    {
+      "context": "Double Unders",
+      "how_applied": "Pulling strength secures double underhook control, core strength enables stack pressure and lifting, leg drive generates forward momentum for passing, isometric strength maintains connection while opponent defends."
+    },
+    {
+      "context": "Body Lock",
+      "how_applied": "Grip endurance maintains body lock grip under sustained resistance, core strength enables lifting and back take transitions, pulling strength closes distance and prevents separation, whole-body strength coordinates multiple control points."
+    },
+    {
+      "context": "Front Headlock",
+      "how_applied": "Neck and shoulder strength applies downward pressure, arm strength controls opponent's head and posture, core strength maintains bent-over position, explosive power enables snap downs and guillotine finishes."
     }
   ],
 
@@ -305,53 +344,63 @@
   "related_content": [
     {
       "name": "Explosive Power",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept focusing on rate of force development and speed-strength, working synergistically with maximum strength to create dynamic force application"
     },
     {
       "name": "Progressive Resistance Training",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Training methodology providing systematic framework for continuous strength adaptation through proper load progression and periodization principles"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic concept governing when and how to apply strength versus when to conserve energy through superior positioning and technical efficiency"
     },
     {
       "name": "Biomechanical Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept explaining how leverage and mechanical advantage multiply strength effectiveness through proper body positioning and force vector alignment"
     },
     {
       "name": "Cardio Conditioning",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary physical development enabling repeated strength application throughout extended sessions through improved metabolic capacity and recovery between efforts"
     },
     {
-      "name": "Mount Top",
+      "name": "Flexibility Training",
+      "content_type": "Principle",
+      "relationship": "Complementary training approach that develops functional range of motion strength, allowing force generation through complete movement patterns while reducing injury risk"
+    },
+    {
+      "name": "Maximum Efficiency Principle",
+      "content_type": "Principle",
+      "relationship": "Overarching principle ensuring strength application serves technical efficiency rather than replacing proper mechanics and positioning"
+    },
+    {
+      "name": "Leverage Principles",
+      "content_type": "Principle",
+      "relationship": "Mechanical understanding that allows limited strength to be multiplied through optimal body positioning and force application angles"
+    },
+    {
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Top control position demonstrating application of pressing strength, isometric holds, and hip pressure for maintaining dominant position and creating submission opportunities"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Bottom position requiring exceptional grip strength, pulling capacity, and core strength for maintaining control and creating offensive opportunities from inferior position"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Dominant position requiring grip endurance for maintaining controls, core strength for hook retention, and isometric strength for sustaining body triangle or seat belt connections"
     },
     {
-      "name": "Hip Bump Sweep",
-      "content_type": "Transition",
-      "relationship": "Guard sweep requiring coordinated hip extension power, pulling strength for upper body control, and timing to overcome opponent's base through explosive force application"
-    },
-    {
-      "name": "Kimura",
+      "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "Shoulder lock requiring grip strength for maintaining figure-four control, pulling strength for proper finishing mechanics, and isometric strength to sustain position during opponent's escape attempts"
+      "relationship": "High-percentage submission requiring grip strength for collar control, pulling strength for proper choking mechanics, and isometric strength to maintain position during finishing sequence"
     }
   ],
 

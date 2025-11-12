@@ -1,6 +1,6 @@
 {
   "name": "Energy Conservation",
-  "description": "Master energy conservation in BJJ. Learn strategic resource management, efficient movement patterns, selective resistance, and tactical concessions.",
+  "description": "Master energy conservation in BJJ. Learn strategic resource management, efficient movement patterns, selective resistance, and tactical concessions for sustained performance.",
   "tags": [
     "bjj",
     "principle",
@@ -97,6 +97,21 @@
       "principle_name": "Frame Management",
       "relationship_type": "Prerequisite",
       "description": "Structural frames conserve energy by using skeletal leverage rather than muscular resistance"
+    },
+    {
+      "principle_name": "Energy Management System",
+      "relationship_type": "Extension",
+      "description": "Comprehensive system that implements energy conservation principles across all positions and contexts"
+    },
+    {
+      "principle_name": "Escape Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Prioritizing escape opportunities based on energy cost supports strategic resource allocation"
+    },
+    {
+      "principle_name": "Risk Assessment",
+      "relationship_type": "Complementary",
+      "description": "Evaluating positional risks informs decisions about energy allocation for defensive efforts"
     }
   ],
   "application_contexts": [
@@ -121,24 +136,44 @@
       "how_applied": "Highly efficient defensive position requiring minimal energy to maintain while allowing controlled breathing and recovery between exchanges"
     },
     {
-      "context": "Guard Passing",
+      "context": "Guard Pass",
       "how_applied": "Use pressure and patience rather than explosive scrambles, forcing defender to expend energy while passer maintains structural control"
     },
     {
-      "context": "Takedown Exchanges",
-      "how_applied": "Pull guard strategically to avoid high-energy standup exchanges when grappling is preferred or when energy conservation is prioritized"
+      "context": "Open Guard",
+      "how_applied": "Strategic guard pulling to avoid high-energy standup exchanges when grappling is preferred or when energy conservation is prioritized"
     },
     {
-      "context": "Leg Entanglement",
+      "context": "Ashi Garami",
       "how_applied": "Recognize when to clear entanglements versus when to accept neutral positions to avoid exhausting scrambles"
     },
     {
-      "context": "Submission Defense",
+      "context": "Armbar Control",
       "how_applied": "Use structural defense and proper hand positioning rather than explosive strength-based resistance against submission attempts"
     },
     {
-      "context": "Competition Late Rounds",
-      "how_applied": "Tactical stalling in advantageous positions, point lead protection, and risk-averse positional play when ahead on points"
+      "context": "Half Guard",
+      "how_applied": "Bottom player can stall and recover in lockdown or deep half, while top player conserves energy through shoulder pressure and patience"
+    },
+    {
+      "context": "Knee Shield Half Guard",
+      "how_applied": "Efficient barrier position allowing defensive recovery while maintaining frames and preventing pass without constant scrambling"
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Active hook control allows sweeping opportunities while seated posture enables breathing and energy recovery between attacks"
+    },
+    {
+      "context": "Deep Half Guard",
+      "how_applied": "Extremely defensive position allowing complete recovery while opponent struggles to advance, forcing attacker to expend energy"
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Hook control maintains distance and defensive safety without requiring constant grip fighting or explosive movement"
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Extended legs create distance and control while allowing upper body relaxation and breathing between offensive attempts"
     }
   ],
   "decision_framework": [
@@ -336,6 +371,16 @@
       "name": "Guard Pull",
       "content_type": "Transition",
       "relationship": "Tactical tool for avoiding high-energy standup exchanges"
+    },
+    {
+      "name": "Energy Management System",
+      "content_type": "System",
+      "relationship": "Systematic implementation of energy conservation principles across all contexts"
+    },
+    {
+      "name": "Deep Half Guard",
+      "content_type": "Position",
+      "relationship": "Defensive recovery position exemplifying energy conservation under pressure"
     }
   ],
   "expert_insights": {

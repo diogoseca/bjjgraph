@@ -1,17 +1,15 @@
 {
-  "metadata": {
-    "title": "Standing Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Standing Position in BJJ. Complete guide covering takedowns, guard pulls, grip fighting, and defensive strategies. Comprehensive neutral position analysis.",
-    "state_id": "S044",
-    "tags": [
-      "bjj",
-      "position",
-      "neutral",
-      "takedown",
-      "standing",
-      "grip-fighting"
-    ]
-  },
+  "name": "Standing Position",
+  "description": "Master standing position in BJJ. Complete guide covering grips, takedowns, guard pulls, and maintaining balance with offensive and defensive strategies.",
+  "tags": [
+    "bjj",
+    "position",
+    "standing",
+    "neutral",
+    "takedowns",
+    "grip-fighting"
+  ],
+  "variant_uniqueness": "Equal offensive access with high mobility",
   "overview": "The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.",
   "state_properties": {
     "point_value": 0,
@@ -47,7 +45,7 @@
   "offensive_transitions": [
     {
       "technique": "Double Leg Entry",
-      "target_position": "Side Control Top",
+      "target_position": "Side Control",
       "success_rates": {
         "beginner": 25,
         "intermediate": 40,
@@ -56,7 +54,7 @@
     },
     {
       "technique": "Single Leg Entry",
-      "target_position": "Top Position",
+      "target_position": "Half Guard",
       "success_rates": {
         "beginner": 30,
         "intermediate": 45,
@@ -65,7 +63,7 @@
     },
     {
       "technique": "Ippon Seoi Nage",
-      "target_position": "Side Control Top",
+      "target_position": "Side Control",
       "success_rates": {
         "beginner": 15,
         "intermediate": 30,
@@ -74,7 +72,7 @@
     },
     {
       "technique": "Osoto Gari",
-      "target_position": "Top Position",
+      "target_position": "Mount",
       "success_rates": {
         "beginner": 20,
         "intermediate": 35,
@@ -83,7 +81,7 @@
     },
     {
       "technique": "Ankle Pick",
-      "target_position": "Top Position",
+      "target_position": "Half Guard",
       "success_rates": {
         "beginner": 25,
         "intermediate": 40,
@@ -101,7 +99,7 @@
     },
     {
       "technique": "Guard Pull",
-      "target_position": "Closed Guard Bottom",
+      "target_position": "Closed Guard",
       "success_rates": {
         "beginner": 40,
         "intermediate": 60,
@@ -110,7 +108,7 @@
     },
     {
       "technique": "Sitting Guard Pull",
-      "target_position": "Seated Guard Bottom",
+      "target_position": "Seated Guard",
       "success_rates": {
         "beginner": 45,
         "intermediate": 65,
@@ -128,7 +126,7 @@
     },
     {
       "technique": "Uchi Mata",
-      "target_position": "Side Control Top",
+      "target_position": "Side Control",
       "success_rates": {
         "beginner": 15,
         "intermediate": 30,
@@ -137,7 +135,7 @@
     },
     {
       "technique": "Kouchi Gari",
-      "target_position": "Top Position",
+      "target_position": "Half Guard",
       "success_rates": {
         "beginner": 25,
         "intermediate": 40,
@@ -146,7 +144,7 @@
     },
     {
       "technique": "High Crotch",
-      "target_position": "Top Position",
+      "target_position": "Half Guard",
       "success_rates": {
         "beginner": 25,
         "intermediate": 40,
@@ -164,7 +162,7 @@
     },
     {
       "technique": "50-50 Entry from Standing",
-      "target_position": "50-50 Guard Bottom",
+      "target_position": "50-50 Guard",
       "success_rates": {
         "beginner": 20,
         "intermediate": 35,
@@ -173,7 +171,7 @@
     },
     {
       "technique": "Bodylock Pass",
-      "target_position": "Side Control Top",
+      "target_position": "Side Control",
       "success_rates": {
         "beginner": 25,
         "intermediate": 40,
@@ -189,17 +187,17 @@
     },
     {
       "technique": "Sprawl Defense",
-      "target_position": "Turtle Position",
+      "target_position": "Turtle",
       "success_rate": 45
     },
     {
       "technique": "Guard Pull",
-      "target_position": "Closed Guard Bottom",
+      "target_position": "Closed Guard",
       "success_rate": 60
     },
     {
       "technique": "Sitting Guard Pull",
-      "target_position": "Seated Guard Bottom",
+      "target_position": "Seated Guard",
       "success_rate": 55
     },
     {
@@ -214,7 +212,7 @@
     },
     {
       "technique": "Standing to Single Leg X",
-      "target_position": "Single Leg X Guard",
+      "target_position": "Single Leg X-Guard",
       "success_rate": 35
     }
   ],
@@ -222,7 +220,7 @@
     {
       "technique": "Snap Down to Front Headlock",
       "target_position": "Front Headlock",
-      "trigger": "Opponent pulls head back or stands too upright"
+      "trigger": "Opponent pulls head back or stands too upright during grip exchange"
     },
     {
       "technique": "Single Leg to Back Take",
@@ -232,17 +230,17 @@
     {
       "technique": "Arm Drag to Back",
       "target_position": "Standing Back Control",
-      "trigger": "Opponent reaches for grips or extends arms"
+      "trigger": "Opponent reaches for grips or extends arms forward"
     },
     {
       "technique": "Ankle Pick",
-      "target_position": "Top Position",
+      "target_position": "Half Guard",
       "trigger": "Opponent steps forward or shifts weight to one leg"
     },
     {
       "technique": "Sprawl",
       "target_position": "Front Headlock",
-      "trigger": "Opponent shoots for legs or drops level"
+      "trigger": "Opponent shoots for legs or drops level suddenly"
     },
     {
       "technique": "Russian Tie to Back Take",
@@ -261,7 +259,7 @@
         },
         {
           "technique": "Guard Pull",
-          "target": "Closed Guard Bottom",
+          "target": "Closed Guard",
           "probability": 50
         },
         {
@@ -276,17 +274,17 @@
       "actions": [
         {
           "technique": "Single Leg Entry",
-          "target": "Top Position",
+          "target": "Half Guard",
           "probability": 50
         },
         {
           "technique": "Double Leg Entry",
-          "target": "Side Control Top",
+          "target": "Side Control",
           "probability": 45
         },
         {
           "technique": "Ankle Pick",
-          "target": "Top Position",
+          "target": "Half Guard",
           "probability": 40
         }
       ]
@@ -301,12 +299,12 @@
         },
         {
           "technique": "Guard Pull",
-          "target": "Closed Guard Bottom",
+          "target": "Closed Guard",
           "probability": 55
         },
         {
           "technique": "Guillotine Choke",
-          "target": "Guillotine Choke",
+          "target": "Guillotine Control",
           "probability": 40
         }
       ]
@@ -321,7 +319,7 @@
         },
         {
           "technique": "Sitting Guard Pull",
-          "target": "Seated Guard Bottom",
+          "target": "Seated Guard",
           "probability": 60
         },
         {
@@ -336,7 +334,7 @@
       "actions": [
         {
           "technique": "Ankle Pick",
-          "target": "Top Position",
+          "target": "Half Guard",
           "probability": 45
         },
         {
@@ -346,7 +344,7 @@
         },
         {
           "technique": "Guard Pull",
-          "target": "Closed Guard Bottom",
+          "target": "Closed Guard",
           "probability": 50
         }
       ]
@@ -423,7 +421,7 @@
     },
     {
       "name": "Leg Lock Path via Guard Pull",
-      "path": "Standing Position → 50-50 Entry from Standing → 50-50 Guard Bottom → Inside Heel Hook → Won by Submission"
+      "path": "Standing Position → 50-50 Entry from Standing → 50-50 Guard → Inside Heel Hook → Won by Submission"
     },
     {
       "name": "Back Attack Path from Takedown",
@@ -431,7 +429,7 @@
     },
     {
       "name": "Armbar Path from Guard",
-      "path": "Standing Position → Guard Pull → Closed Guard Bottom → Triangle from Closed Guard → Triangle Choke → Won by Submission"
+      "path": "Standing Position → Guard Pull → Closed Guard → Triangle from Closed Guard → Triangle Choke → Won by Submission"
     },
     {
       "name": "Kimura Path from Standing Control",
@@ -440,11 +438,7 @@
   ],
   "related_content": [
     {
-      "name": "Neutral Starting Position",
-      "relationship": "Synonymous position - identical tactical considerations"
-    },
-    {
-      "name": "Clinch Position",
+      "name": "Clinch",
       "relationship": "Natural progression from standing with established grips"
     },
     {
@@ -452,7 +446,7 @@
       "relationship": "Common transition target from snapdowns"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Primary guard pull destination"
     },
     {
@@ -486,6 +480,10 @@
     {
       "name": "Standing Defense Strategy",
       "relationship": "Strategic system for this position"
+    },
+    {
+      "name": "Collar Ties",
+      "relationship": "Primary grip control position from standing"
     }
   ],
   "position_metrics": {
@@ -507,8 +505,8 @@
     "average_time": "30-90 seconds in competitive settings, longer in training environments"
   },
   "expert_insights": {
-    "danaher": "The standing position represents the most complex decision-making environment in grappling because it requires integration of multiple skill sets that are often trained in isolation. The systematic approach to standing exchanges begins with understanding that grip fighting is not merely about securing grips, but about creating hierarchical control that facilitates specific takedown entries while denying the opponent's preferred attacks. I emphasize the connection between grip configurations and takedown mechanics - certain grips naturally lead to certain techniques, and the grip fighting phase should be viewed as the setup phase for your primary offensive techniques. The concept of creating defensive frames in standing is equally critical; maintaining proper distance through head position, forearm frames, and strategic grips prevents the opponent from entering their optimal attack range. From a biomechanical perspective, the standing position demands an understanding of leverage principles that differ significantly from ground grappling - the base of support is much smaller (just the feet), making balance disruption through rotational forces and directional changes more effective than the linear pressure that works on the ground. Practitioners must develop the ability to recognize takedown entries in their earliest phases, as defensive reactions become exponentially more difficult once an opponent has established positional control through grips and body positioning.",
+    "danaher": "The standing position represents the most complex decision-making environment in grappling because it requires integration of multiple skill sets that are often trained in isolation. The systematic approach to standing exchanges begins with understanding that grip fighting is not merely about securing grips, but about creating hierarchical control that facilitates specific takedown entries while denying the opponent's preferred attacks. I emphasize the connection between grip configurations and takedown mechanics - certain grips naturally lead to certain techniques, and the grip fighting phase should be viewed as the setup phase for your primary offensive techniques. The concept of creating defensive frames in standing is equally critical; maintaining proper distance through head position, forearm frames, and strategic grips prevents the opponent from entering their optimal attack range. From a biomechanical perspective, the standing position demands an understanding of leverage principles that differ significantly from ground grappling - the base of support is much smaller with just the feet, making balance disruption through rotational forces and directional changes more effective than the linear pressure that works on the ground. Practitioners must develop the ability to recognize takedown entries in their earliest phases, as defensive reactions become exponentially more difficult once an opponent has established positional control through grips and body positioning.",
     "gordon_ryan": "In modern competition, the standing phase is often a strategic game of managing risk versus opportunity, and understanding your strengths relative to your opponent is critical for decision-making in this position. I approach standing exchanges with a clear hierarchy of preferred outcomes based on the specific opponent and competitive context. Against wrestlers with superior takedown games, I prioritize grip configurations that facilitate tactical guard pulls to my strongest guard positions, particularly outside Ashi Garami entries that immediately threaten leg attacks. The key is to make the guard pull look like a defensive reaction while actually being a planned offensive entry. Against pure guard players, I'll engage more aggressively in the standing phase to establish dominant grips that set up passing sequences or force them into guard pulls that favor my top game. Grip fighting in competition needs to be efficient and purposeful - I'm not interested in prolonged grip battles that drain energy, but rather in quick decisive grip sequences that either establish my attack or force the opponent into a disadvantageous position. The timing of guard pulls is crucial; pulling too early gives up potential advantages position and points, while waiting too long can result in being taken down. I've developed specific grip sequences that create the illusion of takedown attempts, causing opponents to react defensively, which then opens clean guard pull entries with optimal positioning. Understanding referee interpretation of engagement rules is also critical for avoiding penalties while controlling the pace of standing exchanges.",
-    "eddie_bravo": "The standing position in no-gi grappling presents unique opportunities for creative entries into the 10th Planet system, and I've developed specialized approaches that bridge conventional wrestling with our submission-oriented game plan. The absence of gi grips fundamentally changes the standing game - you're working with collar ties, underhooks, overhooks, and wrist control rather than sleeve and lapel grips, which creates different timing windows and entry mechanics. I emphasize using the standing position to set up direct entries into rubber guard, lockdown half guard, or leg entanglement positions through strategic guard pulls that immediately establish the grips and configurations needed for our attacking sequences. The concept of the 'combat guard pull' is central to our approach - this isn't a passive pull to guard, but an aggressive entry that immediately threatens submissions or sweeps, putting the top player in defensive mode from the moment they enter your guard. For example, pulling to rubber guard with immediate mission control or pulling to lockdown with the whip-up setup already in progress. Standing exchanges also present opportunities for front headlock entries, which are highly compatible with our submission chains - the guillotine, darce, and anaconda sequences work beautifully in no-gi and can be set up through snapdowns or failed takedown defense. I teach students to view the standing position not as a separate phase of grappling, but as the entry point to our systematic submission attacks, with each grip fight and positioning battle designed to create the specific entries that lead into our highest-percentage finishing sequences."
+    "eddie_bravo": "The standing position in no-gi grappling presents unique opportunities for creative entries into the 10th Planet system, and I've developed specialized approaches that bridge conventional wrestling with our submission-oriented game plan. The absence of gi grips fundamentally changes the standing game - you're working with collar ties, underhooks, overhooks, and wrist control rather than sleeve and lapel grips, which creates different timing windows and entry mechanics. I emphasize using the standing position to set up direct entries into rubber guard, lockdown half guard, or leg entanglement positions through strategic guard pulls that immediately establish the grips and configurations needed for our attacking sequences. The concept of the combat guard pull is central to our approach - this isn't a passive pull to guard, but an aggressive entry that immediately threatens submissions or sweeps, putting the top player in defensive mode from the moment they enter your guard. For example, pulling to rubber guard with immediate mission control or pulling to lockdown with the whip-up setup already in progress. Standing exchanges also present opportunities for front headlock entries, which are highly compatible with our submission chains - the guillotine, darce, and anaconda sequences work beautifully in no-gi and can be set up through snapdowns or failed takedown defense. I teach students to view the standing position not as a separate phase of grappling, but as the entry point to our systematic submission attacks, with each grip fight and positioning battle designed to create the specific entries that lead into our highest-percentage finishing sequences."
   }
 }

@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Forward Pressure | BJJ Concept | BJJ Graph",
-    "description": "Understand Forward Pressure in BJJ. Learn strategic force application, weight distribution, and advancement principles across positions. Expert insights included.",
-    "principle_id": "P116",
-    "tags": [
-      "bjj",
-      "concept",
-      "offense",
-      "fundamental",
-      "control",
-      "pressure",
-      "passing",
-      "advancement"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Forward Pressure",
+  "description": "Master Forward Pressure in BJJ. Learn strategic force application, weight distribution, and advancement principles across positions. Technical analysis included.",
+  "tags": [
+    "bjj",
+    "principle",
+    "offense",
+    "fundamental",
+    "control",
+    "pressure",
+    "passing",
+    "advancement",
+    "guard passing",
+    "top control"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Forward Pressure represents the strategic application of advancing force, momentum, and weight distribution to overcome defensive barriers, eliminate space, and create positional advancement opportunities. Unlike specific techniques, forward pressure is a conceptual framework applicable across all offensive phases of BJJ, particularly in guard passing, pin consolidation, and submission setups. This concept encompasses the mechanical principles, directional control, and psychological aspects of creating consistent, purposeful advancing force that compromises opponent's defensive structures. Forward pressure serves as both an offensive weapon that breaks through resistance and a control mechanism that limits opponent's mobility and recovery options. The ability to apply effective forward pressure often determines whether a practitioner can overcome sophisticated defensive systems or remains neutralized by opponent's frames and space creation, making it one of the most essential conceptual elements for offensive BJJ.",
   "key_principles": [
     "Direct force application along strategic advancement pathways",
@@ -93,19 +92,35 @@
       "principle_name": "Base Maintenance",
       "relationship_type": "Prerequisite",
       "description": "Effective Forward Pressure requires strong Base Maintenance to prevent counter-sweeps and off-balancing, as advancing force without stable base creates vulnerability to defensive reversals."
+    },
+    {
+      "principle_name": "Pressure Passing",
+      "relationship_type": "Extension",
+      "description": "Pressure Passing represents a specific systematic application of Forward Pressure principles within guard passing contexts, building comprehensive passing systems around forward force application."
+    },
+    {
+      "principle_name": "Shoulder Pressure",
+      "relationship_type": "Complementary",
+      "description": "Shoulder Pressure provides one of the primary mechanisms for Forward Pressure application, particularly in passing and top control situations where shoulder-driven force creates significant advancement opportunities."
+    },
+    {
+      "principle_name": "Hip Pressure",
+      "relationship_type": "Complementary",
+      "description": "Hip Pressure works synergistically with upper body Forward Pressure to create multi-directional force application, with hip-driven pressure often serving as the lower body component of comprehensive pressure systems."
+    },
+    {
+      "principle_name": "Connection Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding Connection Principles is essential for effective Forward Pressure, as pressure can only be transmitted through properly established and maintained connection points between practitioners."
     }
   ],
   "application_contexts": [
     {
-      "context": "Knee Slice Position Top",
-      "how_applied": "Forward pressure drives the knee across opponent's centerline while maintaining chest-to-chest contact, using bodyweight to flatten the bottom player and prevent hip escape or frame creation that would disrupt the passing sequence."
+      "context": "Knee on Belly",
+      "how_applied": "Concentrated forward pressure through the knee controls opponent's diaphragm and creates psychological pressure, with the ability to shift pressure angle preventing both escape attempts and setting up transitions to mount or submissions."
     },
     {
-      "context": "Smash Pass Position",
-      "how_applied": "Sustained forward pressure through the crossface and shoulder drives opponent's upper body into the mat while the hips advance, creating the characteristic smashing action that collapses defensive structures and eliminates space for guard recovery."
-    },
-    {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Multi-directional forward pressure through chest weight, crossface pressure, and hip positioning prevents opponent's escape attempts while creating the positional dominance necessary for submission setups or further advancement to mount."
     },
     {
@@ -113,36 +128,40 @@
       "how_applied": "Strategic forward pressure through chest and hip contact controls opponent's bridging attempts while maintaining high position, with pressure adjustments preventing both escape sequences and creating submission opportunities through defensive reactions."
     },
     {
-      "context": "Knee on Belly",
-      "how_applied": "Concentrated forward pressure through the knee controls opponent's diaphragm and creates psychological pressure, with the ability to shift pressure angle preventing both escape attempts and setting up transitions to mount or submissions."
-    },
-    {
-      "context": "Long Step Position Top",
-      "how_applied": "Forward pressure drives the stepping leg deep while maintaining upper body pressure to prevent guard recovery, using advancing force to systematically clear the legs and establish side control positioning."
-    },
-    {
-      "context": "Headquarters Position Top",
-      "how_applied": "Controlled forward pressure through proper posture and hand positioning breaks down opponent's guard structure while preventing sweep attempts, using incremental advancement rather than explosive force to maintain safety while passing."
-    },
-    {
-      "context": "Combat Base",
-      "how_applied": "Forward pressure in combat base drives the opponent's legs down and back while maintaining structural integrity, using advancing force to flatten the bottom player and create passing opportunities without sacrificing defensive stability."
-    },
-    {
-      "context": "Half Guard Top",
-      "how_applied": "Crossface and underhook pressure drives opponent away from the trapped leg while forward hip pressure prevents the bottom player from creating the angles necessary for sweeps or deep half entries."
+      "context": "Kesa Gatame",
+      "how_applied": "Hip-driven forward pressure combined with arm control creates a crushing pin that prevents both bridging and hip escape attempts, with pressure maintained through proper weight distribution rather than pure muscular force."
     },
     {
       "context": "Scarf Hold Position",
       "how_applied": "Forward pressure through the chest and arm control drives opponent's shoulder into the mat while preventing hip escape, with the pressure angle adjusted to maintain pinning control and create submission opportunities."
     },
     {
-      "context": "Kesa Gatame",
-      "how_applied": "Hip-driven forward pressure combined with arm control creates a crushing pin that prevents both bridging and hip escape attempts, with pressure maintained through proper weight distribution rather than pure muscular force."
+      "context": "Combat Base",
+      "how_applied": "Forward pressure in combat base drives the opponent's legs down and back while maintaining structural integrity, using advancing force to flatten the bottom player and create passing opportunities without sacrificing defensive stability."
     },
     {
-      "context": "Closed Guard Top",
+      "context": "Half Guard",
+      "how_applied": "Crossface and underhook pressure drives opponent away from the trapped leg while forward hip pressure prevents the bottom player from creating the angles necessary for sweeps or deep half entries."
+    },
+    {
+      "context": "Closed Guard",
       "how_applied": "Controlled forward pressure during guard opening sequences prevents opponent from establishing strong attacking positions, with advancing force used strategically to create posture-breaking opportunities while maintaining base against sweep attempts."
+    },
+    {
+      "context": "Headquarters Position",
+      "how_applied": "Controlled forward pressure through proper posture and hand positioning breaks down opponent's guard structure while preventing sweep attempts, using incremental advancement rather than explosive force to maintain safety while passing."
+    },
+    {
+      "context": "North-South",
+      "how_applied": "Forward chest pressure combined with head control creates overwhelming pin pressure that limits breathing and movement, with pressure maintained to prevent escape attempts while setting up submission opportunities from the north-south position."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Forward pressure from top turtle position drives opponent flat to the mat while controlling the hips, using advancing force to break down the turtle structure and create back take or submission opportunities."
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "Strategic forward pressure disrupts guard player's distance management and frame structures, using advancing force to close distance and establish control positions that neutralize open guard retention systems."
     }
   ],
   "decision_framework": [
@@ -299,22 +318,22 @@
   "related_content": [
     {
       "name": "Pressure Passing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Direct application of Forward Pressure principles specifically within guard passing contexts"
     },
     {
       "name": "Pressure Application",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader conceptual framework that encompasses Forward Pressure as one directional application"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental skill that enables effective Forward Pressure through proper force distribution"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Defensive counter-concept that Forward Pressure must overcome to achieve advancement"
     },
     {
@@ -328,7 +347,7 @@
       "relationship": "Archetypal Forward Pressure passing technique where pressure creates the fundamental mechanism"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Control position where Forward Pressure prevents escapes and creates submission opportunities"
     },
@@ -338,24 +357,24 @@
       "relationship": "Dominant position maintained and utilized through strategic Forward Pressure application"
     },
     {
-      "name": "Crossface Pass",
-      "content_type": "Transition",
-      "relationship": "Passing technique utilizing crossface pressure as primary Forward Pressure mechanism"
-    },
-    {
       "name": "Guard Passing Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader passing framework within which Forward Pressure serves as a foundational element"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Conceptual framework determining which contact points provide optimal Forward Pressure application"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Prerequisite defensive skill necessary to apply Forward Pressure without creating counter vulnerabilities"
+    },
+    {
+      "name": "Shoulder Pressure",
+      "content_type": "Principle",
+      "relationship": "Specific mechanism for Forward Pressure application through shoulder-driven force"
     }
   ],
   "expert_insights": {

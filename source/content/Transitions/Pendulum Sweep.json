@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Pendulum Sweep | BJJ Technique | BJJ Graph",
-    "description": "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper execution, timing, and leverage. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.",
-    "transition_id": "T089",
-    "tags": [
-      "bjj",
-      "sweep",
-      "closed-guard",
-      "fundamental",
-      "guard-attack"
-    ],
-    "starting_position": "Closed Guard Bottom",
-    "ending_position": "Mount",
-    "success_rates": {
-      "beginner": 40,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Pendulum Sweep",
+  "description": "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper execution, timing, and leverage. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "sweep",
+    "closed-guard",
+    "fundamental",
+    "guard-attack"
+  ],
+  "starting_position": "Closed Guard",
+  "ending_position": "Mount",
+  "success_rates": {
+    "beginner": 40,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Pendulum Sweep is a fundamental and highly effective attack from closed guard that exploits the opponent's defensive posture when they post their hand to the mat. Named for the pendulum-like leg motion that generates sweeping momentum, this technique is one of the first sweeps taught to beginners due to its mechanical efficiency and high success rate. The sweep works by creating a powerful lever system using your legs while controlling the opponent's upper body, making it extremely difficult to defend once properly initiated. Unlike many sweeps that require breaking the opponent's posture forward, the Pendulum Sweep actually works best when the opponent maintains upright posture or even leans back, making it an ideal complement to other closed guard attacks. The technique's effectiveness comes from the combination of hip movement, proper gripping, and the pendulum motion of the outside leg, which creates overwhelming rotational force that dumps the opponent directly into mount position. Mastering this sweep provides practitioners with a reliable path from defensive bottom position to dominant top position.",
   "key_principles": [
@@ -224,7 +221,7 @@
   "position_integration": "The Pendulum Sweep is a cornerstone technique in the closed guard bottom attacking system and serves as a critical component of a complete guard game. It integrates seamlessly with other closed guard attacks by creating a multi-threat system where each technique sets up the next. When you threaten Triangle Choke or Kimura, the opponent often posts their hand to defend, which creates the perfect opportunity for the Pendulum Sweep. Similarly, if the opponent defends the Pendulum Sweep by basing wide or standing, this opens opportunities for other attacks like Omoplata or technical stand-ups. The sweep's direct path to mount position makes it especially valuable because it allows you to transition from the most defensive position to the most dominant position in a single movement. In the broader BJJ positional hierarchy, mastering the Pendulum Sweep gives practitioners a reliable method to reverse inferior positions and establish control, which is essential for both self-defense and competition contexts. It also teaches fundamental concepts of angle creation, leverage, and timing that apply throughout the entire guard system.",
   "related_content": [
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Starting position where technique is executed from"
     },
     {

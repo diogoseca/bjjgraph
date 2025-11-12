@@ -338,107 +338,103 @@ aliases: ["BJJ-Systems"]
 
 Master BJJ through systematic approaches. Complete guide to guard systems, passing systems, leg lock systems, and submission chains. Learn proven methodologies from Danaher, Gordon Ryan, and Eddie Bravo.
 
-
-> **📝 Note**: 35 of 47 items are using fallback content while their JSON files are being updated. 
-> Items marked with ⚠️ need their JSON files fixed. Run the generator again after fixing to get complete descriptions.
-
 ---
 
 ## All Systems
 
-**[[10th Planet Half Guard Bottom System]]** - ⚠️ Content being updated - Learn about 10th Planet Half Guard Bottom System in BJJ.
+**[[10th Planet Half Guard Bottom System]]** - Master 10th Planet Half Guard Bottom System with Lockdown, Electric Chair, and systematic sweeps. Eddie Bravo's revolutionary framework for bottom half guard dominance.
 
-**[[10th Planet No-Gi Guard System]]** - ⚠️ Content being updated - Learn about 10th Planet No-Gi Guard System in BJJ.
+**[[10th Planet No-Gi Guard System]]** - Master 10th Planet No-Gi Guard System with rubber guard, lockdown, and twister paths. Comprehensive framework from Eddie Bravo's innovative methodology with systematic sequences.
 
-**[[10th Planet Rubber Guard System]]** - ⚠️ Content being updated - Learn about 10th Planet Rubber Guard System in BJJ.
+**[[10th Planet Rubber Guard System]]** - Master the 10th Planet Rubber Guard System. Eddie Bravo's revolutionary no-gi guard framework with Mission Control, New York, and submission chains. Complete technical breakdown.
 
-**[[Andrew Wiltse Half Guard System]]** - ⚠️ Content being updated - Learn about Andrew Wiltse Half Guard System in BJJ.
+**[[Andrew Wiltse Half Guard System]]** - Master Andrew Wiltse's modern half guard system. Comprehensive framework connecting knee shield retention, sweep mechanics, and back attacks. Advanced systematic approach.
 
-**[[B-Team Dilemma System]]** - ⚠️ Content being updated - Learn about B-Team Dilemma System in BJJ.
+**[[B-Team Dilemma System]]** - Master B-Team Dilemma System in BJJ. Craig Jones's strategic framework forcing opponents into lose-lose decisions across leg locks, back takes, submissions.
 
-**[[Back Attack System]]** - ⚠️ Content being updated - Learn about Back Attack System in BJJ.
+**[[Back Attack System]]** - Master systematic back attack sequences in BJJ. Comprehensive framework covering entries, control mechanics, and submission chains with expert analysis.
 
-**[[Back Defense Protocol]]** - ⚠️ Content being updated - Learn about Back Defense Protocol in BJJ.
+**[[Back Defense Protocol]]** - Master back defense in BJJ with systematic escape protocols. Learn hand fighting, hip escapes, and recovery strategies. Complete defensive framework for all skill levels.
 
-**[[Berimbolo]]** - ⚠️ Content being updated - Learn about Berimbolo in BJJ.
+**[[Berimbolo]]** - Master the Berimbolo system in BJJ. Revolutionary guard retention and back-taking framework using inversion and technical precision. Complete training methodology included.
 
-**[[Bernardo Faria Pressure System]]** - ⚠️ Content being updated - Learn about Bernardo Faria Pressure System in BJJ.
+**[[Bernardo Faria Pressure System]]** - Master Bernardo Faria's legendary pressure passing system. Learn systematic top pressure, weight distribution, and control principles that won 5 World Championships.
 
-**[[Blue to Purple Progression]]** - ⚠️ Content being updated - Learn about Blue to Purple Progression in BJJ.
+**[[Blue to Purple Progression]]** - Master the blue to purple belt progression in BJJ. Comprehensive framework covering technical requirements, strategic development, and competitive readiness for advancement.
 
-**[[Caio Terra Guard Retention System]]** - ⚠️ Content being updated - Learn about Caio Terra Guard Retention System in BJJ.
+**[[Caio Terra Guard Retention System]]** - Master Caio Terra's guard retention framework with systematic hip movement, frame management, and recovery sequences. Complete guide to maintaining guard under pressure.
 
-**[[Competition Preparation System]]** - ⚠️ Content being updated - Learn about Competition Preparation System in BJJ.
+**[[Competition Preparation System]]** - Master BJJ competition preparation. Systematic framework covering mental training, physical conditioning, strategic planning, and match-day protocols for peak performance.
 
-**[[Competition Scoring Strategy]]** - ⚠️ Content being updated - Learn about Competition Scoring Strategy in BJJ.
+**[[Competition Scoring Strategy]]** - Master BJJ competition scoring with comprehensive tactical framework. Learn point optimization, position hierarchy, and winning game plans for IBJJF formats.
 
-**[[Competition Strategy]]** - ⚠️ Content being updated - Learn about Competition Strategy in BJJ.
+**[[Competition Strategy]]** - Master BJJ competition strategy. Framework for tournament preparation, match tactics, scoring optimization, and adaptive game planning for all formats.
 
-**[[Craig Jones Leg Lock System]]** - ⚠️ Content being updated - Learn about Craig Jones Leg Lock System in BJJ.
+**[[Craig Jones Leg Lock System]]** - Master Craig Jones Leg Lock System in BJJ. High-percentage leg attack framework with systematic entries, control positions, and submission chains. Competition-proven methodology.
 
-**[[Danaher Front Headlock System]]** - 
+**[[Danaher Front Headlock System]]** - Master the Front Headlock System in BJJ. Comprehensive control framework with guillotine, anaconda, darce pathways and back attacks. Systematic methodology for dominant finishing.
 
-**[[Danaher Leg Lock System]]** - 
+**[[Danaher Leg Lock System]]** - Master the Danaher Leg Lock System. Systematic framework for ashi-garami positions, leg control, and lower body submissions with 70%+ finish rates.
 
-**[[Danaher Straight Jacket System]]** - 
+**[[Danaher Straight Jacket System]]** - Master systematic back control progression from seat belt to straight jacket configuration. Comprehensive framework for upper body immobilization and submission chains.
 
-**[[Defensive Prioritization Framework]]** - ⚠️ Content being updated - Learn about Defensive Prioritization Framework in BJJ.
+**[[Defensive Prioritization Framework]]** - Master defensive BJJ strategy with systematic prioritization framework. Learn escape hierarchies, risk assessment, and position-specific defensive responses.
 
-**[[Dynamic Guard System]]** - ⚠️ Content being updated - Learn about Dynamic Guard System in BJJ.
+**[[Dynamic Guard System]]** - Master Dynamic Guard System in BJJ. Comprehensive framework for maintaining fluid guard retention through constant movement, grip fighting, and position switching.
 
-**[[Garry Tonon Leg Lock to Back System]]** - ⚠️ Content being updated - Learn about Garry Tonon Leg Lock to Back System in BJJ.
+**[[Garry Tonon Leg Lock to Back System]]** - Master Garry Tonon's leg lock to back system. Learn seamless transitions between lower body attacks and back control. High-percentage competition system.
 
-**[[Gi-Specific Strategy]]** - ⚠️ Content being updated - Learn about Gi-Specific Strategy in BJJ.
+**[[Gi-Specific Strategy]]** - Master gi-specific BJJ strategy. Comprehensive framework for grips, control systems, and technical advantages unique to gi training. Expert tactical approaches.
 
-**[[Gordon Ryan Passing System]]** - ⚠️ Content being updated - Learn about Gordon Ryan Passing System in BJJ.
+**[[Gordon Ryan Passing System]]** - Master Gordon Ryan's pressure passing system for no-gi BJJ. Complete framework covering body lock passing, leg drags, and systematic guard neutralization.
 
-**[[IBJJF Strategy Guide]]** - ⚠️ Content being updated - Learn about IBJJF Strategy Guide in BJJ.
+**[[IBJJF Strategy Guide]]** - Master IBJJF competition strategy for BJJ. Complete framework covering rules, scoring, positioning, and tactical decision-making for tournament success.
 
-**[[Keenan Cornelius Lapel Guard System]]** - ⚠️ Content being updated - Learn about Keenan Cornelius Lapel Guard System in BJJ.
+**[[Keenan Cornelius Lapel Guard System]]** - Master Keenan Cornelius Lapel Guard System in BJJ. Comprehensive framework using gi grips to control, sweep, and submit. Revolutionary guard retention approach.
 
 **[[Kimura Trap System]]** - Master Kimura Trap System in BJJ. Framework connecting control to submissions and back takes. Danaher's systematic approach to offensive dominance.
 
-**[[Lachlan Giles Leg Lock Defense Framework]]** - ⚠️ Content being updated - Learn about Lachlan Giles Leg Lock Defense Framework in BJJ.
+**[[Lachlan Giles Leg Lock Defense Framework]]** - Master defensive leg lock strategies from ADCC champion Lachlan Giles. Comprehensive framework covering prevention, escape mechanics, and systematic counter-attacks.
 
-**[[Lockdown to Electric Chair System]]** - ⚠️ Content being updated - Learn about Lockdown to Electric Chair System in BJJ.
+**[[Lockdown to Electric Chair System]]** - Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's systematic half guard framework connecting control to sweeps and submissions with detailed progressions.
 
-**[[MMA Crossover Strategy]]** - ⚠️ Content being updated - Learn about MMA Crossover Strategy in BJJ.
+**[[MMA Crossover Strategy]]** - Master MMA Crossover Strategy for BJJ. Comprehensive framework adapting grappling for strikes, cage work, and ground-and-pound. Competition-tested methods from no-gi specialists.
 
-**[[Marcelo Garcia Butterfly Guard System]]** - ⚠️ Content being updated - Learn about Marcelo Garcia Butterfly Guard System in BJJ.
+**[[Marcelo Garcia Butterfly Guard System]]** - Master Marcelo Garcia's revolutionary butterfly guard system. Learn systematic sweeps, back takes, and transitions from the seated guard position with technical precision.
 
-**[[Marcelo Garcia Guillotine System]]** - ⚠️ Content being updated - Learn about Marcelo Garcia Guillotine System in BJJ.
+**[[Marcelo Garcia Guillotine System]]** - Master Marcelo Garcia's high-percentage guillotine system. Learn systematic entries, grip variations, and finishing mechanics for competition success.
 
-**[[Marcelo Garcia X-Guard System]]** - ⚠️ Content being updated - Learn about Marcelo Garcia X-Guard System in BJJ.
+**[[Marcelo Garcia X-Guard System]]** - Master Marcelo Garcia's X-Guard System. Complete framework from entries to sweeps, back takes, and submission chains. Competition-proven systematic approach to X-Guard mastery.
 
-**[[Mental Game Framework]]** - ⚠️ Content being updated - Learn about Mental Game Framework in BJJ.
+**[[Mental Game Framework]]** - Master the mental game in BJJ competition. Complete psychological framework covering focus, pressure management, and strategic mindset. Build unshakable confidence.
 
-**[[Mikey Musumeci Berimbolo System]]** - ⚠️ Content being updated - Learn about Mikey Musumeci Berimbolo System in BJJ.
+**[[Mikey Musumeci Berimbolo System]]** - Master Mikey Musumeci's berimbolo system with technical precision. Complete framework from DLR entries to back takes and sweeps. Competition-tested methodology.
 
-**[[Modern No-Gi Passing System]]** - ⚠️ Content being updated - Learn about Modern No-Gi Passing System in BJJ.
+**[[Modern No-Gi Passing System]]** - Master modern no-gi guard passing with systematic pressure, connection control, and dynamic transitions. Complete framework for defeating contemporary guards.
 
-**[[No-Gi Competition Approach]]** - ⚠️ Content being updated - Learn about No-Gi Competition Approach in BJJ.
+**[[No-Gi Competition Approach]]** - Master no-gi competition strategy in BJJ. Complete framework covering gripping, pacing, submission chains, and tactical adjustments. Proven competition methodology.
 
-**[[No-Gi Tactical Framework]]** - Master No-Gi Tactical Framework in BJJ. Complete strategy for no-gi grappling covering grips, positions, and submissions. Expert insights included.
+**[[No-Gi Tactical Framework]]** - Complete strategic framework for no-gi grappling. Master body lock controls, leg attacks, and dynamic transitions without gi grips. Build competition-ready systems.
 
-**[[Roger Gracie Fundamental System]]** - ⚠️ Content being updated - Learn about Roger Gracie Fundamental System in BJJ.
+**[[Roger Gracie Fundamental System]]** - Master Roger Gracie's fundamental system: positional dominance through precise technique. Learn the methodical approach that defined a champion's game.
 
-**[[Rubber Guard to Omoplata System]]** - ⚠️ Content being updated - Learn about Rubber Guard to Omoplata System in BJJ.
+**[[Rubber Guard to Omoplata System]]** - Master the Rubber Guard to Omoplata System in BJJ. Learn systematic progression from flexible guard control to shoulder locks, sweeps, and back takes with multiple attack pathways.
 
-**[[Rubber Guard to Triangle System]]** - ⚠️ Content being updated - Learn about Rubber Guard to Triangle System in BJJ.
+**[[Rubber Guard to Triangle System]]** - Master Rubber Guard to Triangle System. Framework connecting rubber guard control to triangle submissions with systematic transitions and positions.
 
-**[[Ryan Hall Triangle System]]** - 
+**[[Ryan Hall Triangle System]]** - Master Ryan Hall's Triangle System. Comprehensive framework connecting closed guard control to triangle finishes, armbars, and omoplatas with systematic submission chains.
 
-**[[Self-Defense Application Framework]]** - 
+**[[Self-Defense Application Framework]]** - Master self-defense applications of BJJ with systematic framework for street effectiveness, legal considerations, stress inoculation, and reality-based training methodology.
 
-**[[Standing Defense Strategy]]** - 
+**[[Standing Defense Strategy]]** - Master standing defense with systematic framework for takedown prevention, sprawling, base maintenance, and strategic positioning. Complete guide to defending leg attacks.
 
-**[[Straight Footlock to Kneebar Chain]]** - 
+**[[Straight Footlock to Kneebar Chain]]** - Master the fundamental leg lock chain connecting straight ankle locks to kneebars. Learn systematic transitions and defensive reaction patterns.
 
-**[[Submission Clinic System]]** - 
+**[[Submission Clinic System]]** - Master systematic submission hunting from dominant positions in BJJ. Learn to chain attacks, create dilemmas, and maintain control while presenting constant submission threats.
 
-**[[Teaching Methodology Framework]]** - 
+**[[Teaching Methodology Framework]]** - Master BJJ teaching with systematic instruction framework. Progressive resistance, positional hierarchy, and skill development for coaching excellence.
 
-**[[Twister System]]** - 
+**[[Twister System]]** - Master the Twister System in BJJ. Complete framework from lockdown control through truck position to spine lock submissions. Progressive control system.
 
 
 ---
@@ -446,9 +442,9 @@ Master BJJ through systematic approaches. Complete guide to guard systems, passi
 ## Statistics
 
 - **Total Systems**: 47
-- **Items with complete content**: 12
-- **Items needing JSON updates**: 35
-- **Last Updated**: October 30, 2025
+- **Items with complete content**: 47
+- **Items needing JSON updates**: 0
+- **Last Updated**: November 12, 2025
 
 ---
 
@@ -459,4 +455,4 @@ Master BJJ through systematic approaches. Complete guide to guard systems, passi
 
 ---
 
-*This hub page is automatically generated from content files. Last generated: 2025-10-30 21:36:42*
+*This hub page is automatically generated from content files. Last generated: 2025-11-12 00:23:26*

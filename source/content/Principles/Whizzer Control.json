@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Whizzer Control | BJJ Concept | BJJ Graph",
-    "description": "Understand Whizzer Control in BJJ. Learn overhook defense, pressure application, counter-attacking principles. Cross-position applications included.",
-    "principle_id": "P112",
-    "tags": [
-      "bjj",
-      "control",
-      "defense",
-      "wrestling",
-      "counter",
-      "overhook",
-      "underhook-defense",
-      "frame"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Whizzer Control",
+  "description": "Master Whizzer Control in BJJ. Learn overhook mechanics, pressure application, counter-attacking principles. Cross-position applications from half guard to standing included.",
+  "tags": [
+    "bjj",
+    "control",
+    "defense",
+    "wrestling",
+    "counter",
+    "overhook",
+    "underhook-defense",
+    "frame"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Whizzer Control represents a fundamental defensive control mechanism in Brazilian Jiu-Jitsu, derived from wrestling, where a practitioner establishes an overhook over an opponent's underhooking arm. This control serves dual purposes: neutralizing an opponent's offensive underhook control while simultaneously creating offensive counter-attacking opportunities. The Whizzer's effectiveness stems from its ability to apply downward pressure on the opponent's arm, disrupting their posture and base while maintaining the defender's structural integrity.\n\nThe concept transcends simple arm positioning, embodying a comprehensive approach to managing an opponent's attempts to establish dominant control through underhooks. Proper Whizzer application requires coordinated integration of arm pressure, body positioning, footwork, and base management. The control proves particularly valuable in transitions between positions, where the battle for underhook dominance often determines positional outcomes.\n\nWhizzer Control finds application across numerous positional contexts, from standing clinch scenarios to ground-based half guard battles, making it an essential concept for practitioners developing comprehensive defensive and counter-attacking capabilities. Understanding the mechanical principles underlying effective Whizzer application enables practitioners to adapt the concept to varied tactical situations while maintaining defensive soundness and offensive threat potential.",
   "key_principles": [
     "Establish overhook by placing arm over opponent's underhooking arm",
@@ -92,19 +89,45 @@
       "principle_name": "Action and Reaction",
       "relationship_type": "Complementary",
       "description": "The Whizzer demonstrates action-reaction principles by using opponent underhook pressure against them, converting their offensive action into defensive opportunity"
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Complementary",
+      "description": "Effective Whizzer control requires simultaneous base maintenance to create comprehensive defensive structure that prevents opponent advancement"
+    },
+    {
+      "principle_name": "Forward Pressure",
+      "relationship_type": "Alternative",
+      "description": "The Whizzer counters opponent forward pressure by redirecting and neutralizing their driving force through superior leverage positioning"
+    },
+    {
+      "principle_name": "Weight Distribution",
+      "relationship_type": "Complementary",
+      "description": "Proper weight distribution amplifies Whizzer effectiveness by ensuring pressure application remains sustainable and mechanically efficient"
+    },
+    {
+      "principle_name": "Defensive Posture",
+      "relationship_type": "Extension",
+      "description": "Whizzer Control exemplifies defensive posture principles by maintaining structural integrity while neutralizing opponent offensive attempts"
+    },
+    {
+      "principle_name": "Creating Reactions",
+      "relationship_type": "Extension",
+      "description": "The Whizzer creates predictable opponent reactions that can be exploited for counter-offensive sequences including sweeps and reversals"
+    },
+    {
+      "principle_name": "Biomechanical Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding biomechanical principles of leverage, pressure vectors, and joint mechanics underlies effective Whizzer application and adjustment"
     }
   ],
   "application_contexts": [
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Establish Whizzer on the underhook side to prevent opponent from flattening position and establishing cross-face control, while creating sweep opportunities through the Whizzer's off-balancing effect"
     },
     {
-      "context": "Half Guard Top",
-      "how_applied": "Recognize and counter opponent Whizzer attempts by maintaining proper base, pressure direction, and considering underhook release or position change rather than fighting directly against established Whizzer control"
-    },
-    {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Use Whizzer to prevent opponent from establishing controlling underhook during turtle position, protecting against back exposure and creating opportunities to return to guard or stand"
     },
     {
@@ -112,11 +135,11 @@
       "how_applied": "Apply Whizzer to counter opponent's underhook attempts during front headlock scenarios, preventing them from improving position while creating scramble opportunities"
     },
     {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Establish Whizzer in standing clinch exchanges to neutralize opponent underhook control, prevent takedown attempts, and create opportunities for own takedown entries or position improvements"
     },
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "Utilize Whizzer when opponent attempts to establish underhook during side control escape sequences, preventing them from securing mount or back control transitions"
     },
     {
@@ -134,6 +157,18 @@
     {
       "context": "Butterfly Guard",
       "how_applied": "Use Whizzer when opponent attempts to establish controlling underhook from top of butterfly guard, preventing their passing attempts while maintaining sweep threats"
+    },
+    {
+      "context": "Underhook Battle",
+      "how_applied": "Establish Whizzer as primary defensive tool when losing the underhook battle, converting opponent's offensive control into neutralized position with counter-attacking potential"
+    },
+    {
+      "context": "Scramble Position",
+      "how_applied": "Apply Whizzer during scrambles to control opponent's movement and prevent them from establishing dominant position while maintaining positional awareness"
+    },
+    {
+      "context": "Back Control",
+      "how_applied": "Use Whizzer defensively when opponent attempts to establish controlling underhook while attacking the back, preventing them from securing body triangle or improving control"
     }
   ],
   "decision_framework": [
@@ -297,37 +332,37 @@
   "related_content": [
     {
       "name": "Underhook Defense",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Parent concept - Whizzer Control serves as primary mechanism within broader underhook defense framework"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Primary application context where Whizzer control proves tactically essential for defensive integrity"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary defensive concept - Whizzer represents specialized framing application for underhook scenarios"
     },
     {
-      "name": "Underhook Sweep",
+      "name": "Underhook Sweep from Half",
       "content_type": "Transition",
       "relationship": "Counter-offensive technique commonly executed from established Whizzer control position"
     },
     {
-      "name": "Turtle Bottom",
+      "name": "Turtle",
       "content_type": "Position",
       "relationship": "Critical application context where Whizzer prevents back exposure and maintains defensive soundness"
     },
     {
       "name": "Control Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader principle category within which Whizzer Control operates as specialized application"
     },
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept underlying effective Whizzer mechanics and pressure application"
     },
     {
@@ -341,19 +376,19 @@
       "relationship": "Transitional position where Whizzer control determines success in achieving dominant angle"
     },
     {
-      "name": "Half Guard Sweeps",
-      "content_type": "Transition",
-      "relationship": "Collection of techniques frequently initiated from Whizzer control establishment"
-    },
-    {
       "name": "Off-Balancing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Tactical outcome achieved through proper Whizzer pressure application and angle manipulation"
     },
     {
       "name": "Front Headlock",
       "content_type": "Position",
       "relationship": "Scramble position where Whizzer control prevents opponent underhook dominance"
+    },
+    {
+      "name": "Whizzer",
+      "content_type": "Transition",
+      "relationship": "Technical execution of the Whizzer control concept in transitional contexts"
     }
   ],
   "expert_insights": {

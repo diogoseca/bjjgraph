@@ -1,24 +1,23 @@
 {
-  "metadata": {
-    "title": "North-South to Kimura | BJJ Technique | BJJ Graph",
-    "description": "Master North-South to Kimura in BJJ. Step-by-step execution with grip control and shoulder isolation. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T912",
-    "tags": [
-      "bjj",
-      "transition",
-      "north_south",
-      "kimura",
-      "submission",
-      "shoulder_lock",
-      "top_control"
-    ],
-    "starting_position": "North-South Top",
-    "ending_position": "Kimura Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "North-South to Kimura",
+  "description": "Master North-South to Kimura transition in BJJ. Step-by-step arm isolation and control from dominant position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "north-south",
+    "kimura",
+    "submission-setup",
+    "shoulder-lock",
+    "top-control",
+    "arm-isolation",
+    "positional-attack"
+  ],
+  "starting_position": "North-South",
+  "ending_position": "Kimura Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The North-South to Kimura transition represents a fundamental attacking sequence from one of BJJ's most dominant control positions. From North-South position, the practitioner isolates the opponent's arm and transitions to the Kimura control position, threatening a high-percentage shoulder lock submission. This technique capitalizes on the superior weight distribution and control inherent to the North-South position, where the opponent's defensive frames are compromised and their shoulders are vulnerable to attack. The transition requires precise timing and grip control, as the practitioner must maintain chest-to-chest pressure while manipulating the opponent's arm into the characteristic figure-four Kimura grip. Once established, the Kimura control offers multiple finishing options, sweep opportunities, and transitions to other dominant positions, making this a versatile and essential technique for any top game specialist. The position's effectiveness stems from the mechanical advantage created by controlling the opponent's shoulder joint while their mobility is restricted by your body weight.",
   "key_principles": [
@@ -220,11 +219,11 @@
   "position_integration": "The North-South to Kimura transition is a cornerstone technique in modern BJJ's top control system, bridging the gap between positional dominance and submission finishing. North-South position is typically achieved through transitions from side control, mount escapes, or successful guard passes, and represents one of the strongest control positions in grappling. From this position, the Kimura serves as both a high-percentage submission and a powerful control mechanism that opens multiple attacking pathways. When the direct Kimura finish is defended, practitioners can seamlessly transition to back control (rolling them with the Kimura grip), move to mount (using the arm as a handle), switch to armbars or chokes, or return to side control with superior arm control. This versatility makes the North-South to Kimura transition essential for any top game specialist. The technique also integrates into larger systematic approaches, particularly in submission-oriented games where practitioners chain submissions together. Understanding this transition is crucial for both offensive and defensive purposes - attacking practitioners must master the technique to capitalize on North-South opportunities, while defensive practitioners must understand the mechanics to defend intelligently and avoid injury. The position exemplifies the fundamental BJJ principle of using superior position to create submission opportunities while maintaining control and safety.",
   "related_content": [
     {
-      "name": "North-South Top",
+      "name": "North-South",
       "relationship": "Starting position for this transition"
     },
     {
-      "name": "Kimura Control Top",
+      "name": "Kimura Control",
       "relationship": "Ending position and primary goal of this transition"
     },
     {
@@ -244,7 +243,7 @@
       "relationship": "Follow-up transition when opponent defends the submission"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Common entry position before reaching North-South"
     },
     {
@@ -256,11 +255,11 @@
       "relationship": "Alternative submission when Kimura is defended"
     },
     {
-      "name": "Gift Wrap Top Position",
+      "name": "Gift Wrap",
       "relationship": "Intermediate control position used in some variations"
     },
     {
-      "name": "Crucifix Top Position",
+      "name": "Crucifix",
       "relationship": "Advanced variation combining leg and arm control"
     },
     {

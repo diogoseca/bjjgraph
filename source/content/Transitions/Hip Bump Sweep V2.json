@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Hip Bump Sweep | BJJ Technique | BJJ Graph",
-    "description": "Master the Hip Bump Sweep from Closed Guard. Complete guide with setup, execution steps, and success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T045",
-    "tags": [
-      "bjj",
-      "transition",
-      "sweep",
-      "closed_guard",
-      "fundamental"
-    ],
-    "starting_position": "Closed Guard Bottom",
-    "ending_position": "Mount",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Hip Bump Sweep V2",
+  "description": "Master the Hip Bump Sweep from Closed Guard. Complete guide with setup, execution steps, and success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "closed guard",
+    "fundamental",
+    "beginner friendly",
+    "mount attack"
+  ],
+  "starting_position": "Closed Guard",
+  "ending_position": "Mount",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Hip Bump Sweep is a fundamental attacking technique from closed guard that exploits an opponent's broken posture and forward weight distribution. This sweep creates an angular attack by using hip movement to off-balance the opponent laterally, resulting in a reversal to the mount position. The technique is particularly effective when the opponent resists backward pressure by posting their hands or driving their weight forward.\n\nThe Hip Bump Sweep serves as a cornerstone technique in closed guard offense, teaching practitioners essential principles of angle creation, timing, and using an opponent's reactions. When executed properly, it forces the opponent into a position where they cannot base effectively, making the sweep nearly unstoppable. The technique also serves as an excellent setup for other attacks including triangles, armbars, and kimuras when the opponent defends the initial sweep attempt.\n\nThis sweep is considered essential curriculum for white and blue belts, as it develops fundamental skills in breaking posture, creating angles, and understanding weight distribution. The Hip Bump Sweep integrates seamlessly into closed guard attack systems and creates multiple offensive opportunities through the reactions it generates from opponents.",
   "key_principles": [
@@ -259,7 +258,7 @@
       "relationship": "Conceptual foundation explaining the biomechanical principles behind the technique"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Starting position - hip bump is core technique from this position"
     },
     {

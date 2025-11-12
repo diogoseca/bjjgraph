@@ -1,7 +1,7 @@
 {
   "name": "Half Guard",
   "slug": "half-guard",
-  "description": "Master Half Guard in BJJ with comprehensive bottom and top strategies. Learn sweeps, passes, and transitions with 65% success rates for advanced practitioners.",
+  "description": "Master Half Guard in BJJ with comprehensive bottom and top strategies. Learn sweeps, passes, transitions with 80% retention for advanced practitioners.",
   "variant_uniqueness": "Asymmetric leg trap for dynamic offense",
   "overview": "Half Guard represents one of the most strategically complex positions in Brazilian Jiu-Jitsu, existing at the critical intersection between guard retention and being passed. This position is characterized by one player trapping a single leg of their opponent between their own legs, creating an asymmetric control structure that offers unique offensive and defensive possibilities for both practitioners. Unlike symmetric guard positions where both legs are either inside or outside the opponent's legs, Half Guard's one-leg-in, one-leg-out configuration creates distinct mechanical advantages and vulnerabilities that require specialized technical knowledge.\n\nHistorically dismissed as a stalling position or mere transitional state, Half Guard has evolved into a sophisticated offensive system through the innovations of practitioners like Roberto Gordo Correa, Eddie Bravo, Bernardo Faria, and Lucas Leite. The position's modern development has spawned numerous sub-variations including Deep Half, Lockdown, Knee Shield, Z-Guard, and Butterfly Half, each offering distinct strategic pathways and requiring specific technical responses. This evolution has transformed Half Guard from a last-ditch defensive position into a primary offensive platform capable of generating sweeps, submissions, and back takes at the highest levels of competition.\n\nSuccess in Half Guard demands understanding the fundamental asymmetry that defines the position. The trapped leg serves as an anchor point and fulcrum for leverage, while the free leg provides base and mobility for the top player or framing and distance management for the bottom player. The battle for upper body control through underhooks, crossfaces, and frames determines positional hierarchy and dictates available offensive sequences. Modern Half Guard play emphasizes constant movement, systematic position improvement, and the creation of offensive dilemmas that force opponents into defensive reactions, making it an essential component of any complete guard system.",
   "key_principles": [
@@ -52,6 +52,16 @@
       "name": "Pocket Half Guard",
       "slug": "pocket-half-guard",
       "description": "Tight variation with deep underhook and close-range control"
+    },
+    {
+      "name": "Old School",
+      "slug": "old-school",
+      "description": "Classic position with arm trapped preparing for sweep to mount"
+    },
+    {
+      "name": "Electric Chair",
+      "slug": "electric-chair",
+      "description": "Lockdown submission position targeting hip and groin"
     }
   ],
   "related_positions": [
@@ -461,15 +471,15 @@
       "eddie_bravo": "Half guard bottom is the foundation of the entire 10th Planet system because it's the position where you can be most creative while maintaining security. The lockdown completely changes the game - instead of just trapping their leg, you're controlling their entire base and posture, which opens up the whole electric chair, old school, and plan B sequence. What people don't understand is that half guard isn't about waiting for opportunities, it's about creating dilemmas through constant pressure and unconventional attacks. I want them thinking about the electric chair so they stand up, then I hit the old school. The whip-up from lockdown is crucial - it off-balances them and creates the scramble situations where technical innovation beats traditional pressure passing."
     },
     "name": "Half Guard Bottom",
-    "description": "Master Half Guard Bottom with comprehensive sweeps, submissions, and back takes. Advanced practitioners achieve 65% sweep rates through systematic technique application.",
+    "description": "Master Half Guard Bottom with comprehensive sweeps, submissions, and back takes. Advanced practitioners achieve 65% sweep rates through systematic techniques.",
     "tags": [
-      "bjj position",
-      "half guard bottom",
-      "guard retention",
-      "sweeps from half guard",
-      "defensive position",
-      "underhook control",
-      "modern guard system"
+      "bjj position half guard bottom",
+      "half guard bottom sweeps",
+      "guard retention half guard",
+      "sweeps from half guard bottom",
+      "defensive position half guard",
+      "underhook control half guard",
+      "modern guard system half guard"
     ]
   },
   "top": {
@@ -840,15 +850,15 @@
       "eddie_bravo": "Half guard top became infinitely more complex once we developed the lockdown and electric chair system at 10th Planet, forcing top players to completely rethink their passing strategies. The old-school approach of just smashing through doesn't work against sophisticated lockdown players who understand how to break posture and create sweeping opportunities. When I'm on top in half guard, especially against lockdown, my first priority is posture maintenance - staying tall with my back straight and not letting them break me down. Once they get the lockdown, the battle becomes about hand fighting and preventing them from controlling my posture or getting to their offensive positions. Against traditional half guard, I look for the darce when they try to come up for the underhook, or I'll work the knee slice if they stay flat."
     },
     "name": "Half Guard Top",
-    "description": "Master Half Guard Top with systematic passing strategies. Advanced practitioners achieve 70% pass completion rate through methodical control and pressure application.",
+    "description": "Master Half Guard Top with systematic passing strategies. Advanced practitioners achieve 70% pass completion through control, pressure, and execution.",
     "tags": [
-      "bjj position",
-      "half guard top",
-      "guard passing",
-      "pressure passing",
-      "top control",
-      "passing strategy",
-      "positional dominance"
+      "bjj position half guard top",
+      "half guard top passing",
+      "guard passing half guard",
+      "pressure passing half guard",
+      "top control half guard",
+      "passing strategy half guard",
+      "positional dominance half guard"
     ]
   }
 }

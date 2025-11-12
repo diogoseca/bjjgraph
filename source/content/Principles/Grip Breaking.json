@@ -1,21 +1,21 @@
 {
-  "metadata": {
-    "title": "Grip Breaking | BJJ Concept | BJJ Graph",
-    "description": "Master grip breaking in BJJ. Learn biomechanical principles, strategic timing, cross-position applications. Expert insights from Danaher, Ryan, and Bravo included.",
-    "principle_id": "P109",
-    "tags": [
-      "bjj",
-      "concept",
-      "grips",
-      "defense",
-      "fundamental",
-      "grip fighting",
-      "control breaking"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Grip Breaking",
+  "description": "Master grip breaking mechanics in BJJ. Learn biomechanical principles, strategic timing, and systematic breaking sequences across all positions with detailed technical analysis.",
+  "tags": [
+    "bjj",
+    "principle",
+    "grips",
+    "defense",
+    "fundamental",
+    "grip fighting",
+    "control breaking",
+    "hand fighting",
+    "guard retention",
+    "escape fundamentals"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Grip Breaking represents the fundamental defensive skill of removing an opponent's established hand controls that would otherwise restrict movement, dictate positioning, or facilitate attacks. Unlike specific techniques, grip breaking is a comprehensive conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the mechanical principles, timing, leverage, and strategic approach to neutralizing opponent's grips in both gi and no-gi contexts. Grip breaking serves as a critical defensive capability that prevents opponent control consolidation and creates opportunities for establishing advantageous positions and attacks. The ability to effectively break grips often determines whether a practitioner can implement their preferred strategies or remains restricted by opponent's control, making it one of the most essential conceptual elements in BJJ, particularly in the gi. Understanding grip breaking transforms defensive reactions into proactive control denial, enabling practitioners to dictate engagement terms rather than constantly responding to opponent initiatives.",
   "key_principles": [
     "Apply breaking force against the weakest point of opponent's grip structure",
@@ -92,15 +92,35 @@
       "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Leverage principles provide the mechanical understanding that makes grip breaking efficient. Understanding how to apply force perpendicular to grip structure, use body weight, and create mechanical advantage enables effective breaking without excessive strength."
+    },
+    {
+      "principle_name": "Grip Fighting Strategies",
+      "relationship_type": "Extension",
+      "description": "Grip fighting strategies provide the broader tactical context for when and how to break grips. Strategic frameworks inform whether to break immediately, tolerate temporarily, or prevent entirely based on position and game plan."
+    },
+    {
+      "principle_name": "Connection Breaking",
+      "relationship_type": "Complementary",
+      "description": "Connection breaking extends grip breaking principles to breaking postural connections and pressure-based controls. Both concepts share the goal of denying opponent control and creating movement opportunities."
+    },
+    {
+      "principle_name": "Defensive Concepts",
+      "relationship_type": "Extension",
+      "description": "Grip breaking serves as a foundational defensive concept that enables other defensive strategies. Without effective grip breaking, defensive framing, escapes, and guard retention become significantly more difficult."
+    },
+    {
+      "principle_name": "Space Management",
+      "relationship_type": "Complementary",
+      "description": "Space management and grip breaking work together to create defensive opportunities. Breaking grips creates momentary space that must be managed effectively to prevent immediate grip reestablishment and enable offensive transitions."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Breaking opponent's collar and sleeve grips to prevent posture control and passing attempts. Focus on breaking cross collar grips that enable chokes and posture breaking, using hip movement to create angles that weaken grip structure while maintaining closed guard control."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Preventing opponent from stripping foot grips on biceps or breaking spider control by maintaining constant tension. When opponent establishes counter-grips on pants or ankles, breaking these immediately prevents smash passing and enables spider guard maintenance."
     },
     {
@@ -108,27 +128,27 @@
       "how_applied": "Breaking opponent's cross collar grip and pants grips that enable passing. Focus on two-handed breaks of controlling grips while maintaining De La Riva hook, preventing opponent from consolidating control and initiating headquarters or leg drag passing sequences."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Breaking opponent's underhook or crossface grips that enable flat pressure and passing. Timing breaks with hip escapes to create frames and prevent consolidation of top control, particularly breaking grips that facilitate smash passing or knee slice."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Breaking standing opponent's pants grips and collar grips that enable toreando and bullfighter passes. Using two-handed breaks combined with hip movement to prevent opponent from controlling both legs simultaneously and creating passing angles."
     },
     {
-      "context": "Closed Guard Top",
-      "how_applied": "Breaking opponent's sleeve grips and collar grips that prevent posture and restrict passing options. Focus on standing posture and mechanical breaking to overcome guard player's grips before attempting guard opening sequences."
+      "context": "Combat Base",
+      "how_applied": "As top player, breaking bottom player's collar and sleeve grips that prevent posture and restrict passing mobility. Using mechanical breaking combined with base adjustments to overcome guard player's controlling grips before initiating passing sequences."
     },
     {
       "context": "Standing Position",
       "how_applied": "Breaking opponent's collar ties, sleeve grips, and underhook controls that enable takedowns. Timing breaks with footwork and level changes, preventing opponent from establishing gripping sequences that lead to throws or takedown entries."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Breaking opponent's seatbelt grips, collar grips, and harness controls that enable back takes. Using hip movement and hand fighting to deny grip consolidation while creating opportunities to return to guard or stand."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Breaking opponent's crossface and underhook grips during escape attempts. Timing breaks with bridging and shrimping movements to create frames and space, preventing opponent from reestablishing broken controls during escape sequences."
     },
     {
@@ -144,20 +164,28 @@
       "how_applied": "Breaking opponent's overhook and whizzer controls that prevent sweeps and enable passing. Using two-handed breaks combined with hook leverage to strip opponent's defensive grips before executing butterfly sweeps."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Preventing opponent from breaking your lasso control while simultaneously breaking their counter-grips on pants or free leg. Maintaining lasso tension while using free hand to strip dangerous grips that enable passing."
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
+      "context": "Reverse De La Riva Guard",
       "how_applied": "Breaking opponent's cross collar and belt grips that enable stack passing and pressure. Using two-handed breaks coordinated with RDLR hook movement to prevent opponent from consolidating top pressure and passing."
     },
     {
-      "context": "Combat Base",
-      "how_applied": "As top player, breaking bottom player's collar and sleeve grips that prevent posture and restrict passing mobility. Using mechanical breaking combined with base adjustments to overcome guard player's controlling grips."
+      "context": "Clinch",
+      "how_applied": "Breaking opponent's collar ties, underhooks, and overhooks to prevent takedown control. Using circular arm movements and head position to strip grips before opponent can chain them into takedown entries."
     },
     {
-      "context": "Clinch Position",
-      "how_applied": "Breaking opponent's collar ties, underhooks, and overhooks to prevent takedown control. Using circular arm movements and head position to strip grips before opponent can chain them into takedown entries."
+      "context": "Collar Sleeve Guard",
+      "how_applied": "Breaking opponent's counter-grips on collar and sleeve while maintaining your own collar-sleeve control. Using systematic breaking to eliminate grips that enable opponent's passing while preserving your own guard control structure."
+    },
+    {
+      "context": "Double Sleeve Guard",
+      "how_applied": "Preventing opponent from establishing pants grips or collar grips while maintaining double sleeve control. Breaking any grips opponent establishes on your gi or body to maintain pure sleeve control configuration."
+    },
+    {
+      "context": "Seated Guard",
+      "how_applied": "Breaking opponent's collar grips and sleeve controls that enable passing pressure. Using seated posture and two-handed breaking to strip grips before opponent can initiate knee cut or headquarters passing."
     }
   ],
   "decision_framework": [
@@ -316,56 +344,56 @@
   "related_content": [
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Parent concept providing offensive perspective on grip exchanges and establishment strategies"
     },
     {
       "name": "Grip Fighting Strategies",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework for grip exchange including both establishment and breaking components"
     },
     {
       "name": "Hand Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept focusing on preventing grip establishment through active hand fighting"
     },
     {
       "name": "Grip Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Higher-level strategic thinking about grip prioritization and exchange patterns"
     },
     {
       "name": "Collar Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific application of grip concepts to collar grips and collar-based control systems"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Defensive structure often established immediately after successful grip breaking"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Depends heavily on grip breaking to deny passing controls and maintain guard position"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides framework for prioritizing which grips to break based on value and threat level"
     },
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental mechanical principles that enable efficient grip breaking without excessive strength"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Position where grip breaking and maintenance create constant tactical exchanges"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Fundamental guard position requiring grip breaking to prevent posture control and passing"
     },

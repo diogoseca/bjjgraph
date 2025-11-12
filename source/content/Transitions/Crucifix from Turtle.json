@@ -1,23 +1,22 @@
 {
-  "metadata": {
-    "title": "Crucifix from Turtle | BJJ Technique | BJJ Graph",
-    "description": "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Turtle Top to Crucifix Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
-    "transition_id": "T355",
-    "tags": [
-      "bjj",
-      "transition",
-      "position_advancement",
-      "turtle",
-      "back_attack",
-      "control"
-    ],
-    "starting_position": "Turtle Position Top",
-    "ending_position": "Crucifix Control Position",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 65,
-      "advanced": 80
-    }
+  "name": "Crucifix from Turtle",
+  "description": "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Turtle to Crucifix. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "position_advancement",
+    "turtle",
+    "back_attack",
+    "control",
+    "crucifix",
+    "arm_trap"
+  ],
+  "starting_position": "Turtle",
+  "ending_position": "Crucifix",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 65,
+    "advanced": 80
   },
   "overview": "The Crucifix from Turtle is a sophisticated back attack transition that capitalizes on your opponent's defensive turtle position. This technique involves controlling both of your opponent's arms while establishing back control, creating one of the most dominant positions in Brazilian Jiu-Jitsu. The crucifix offers exceptional control with minimal energy expenditure while presenting multiple submission opportunities including chokes, armbars, and joint locks. The transition requires precise timing and coordination, as you must simultaneously secure arm control while establishing your hooks. This position is particularly valuable in both gi and no-gi competition, as it effectively neutralizes your opponent's defensive capabilities while maximizing your offensive options. The crucifix from turtle represents a fundamental component of modern back attack systems.",
   "key_principles": [
@@ -210,11 +209,11 @@
   "position_integration": "The crucifix from turtle represents a critical component of modern back attack systems and turtle top control strategies. This technique bridges the gap between traditional turtle attacks and advanced back control positions, providing a high-control option when standard back takes are defended. In the broader BJJ positional hierarchy, the crucifix serves as both a destination position and a gateway to other dominant controls. It integrates seamlessly with front headlock systems, as many turtle scenarios arise from front headlock positions. The technique also connects to the broader family of turtle attacks including the clock choke, bow and arrow setups, and various rolling transitions. Understanding the crucifix from turtle enhances your ability to capitalize on opponents who use defensive turtle position frequently, particularly in gi competition where turtle is a common defensive response. The position also serves as an important teaching tool for understanding arm control concepts, weight distribution, and the principle of controlling opponents through limb isolation rather than pure strength.",
   "related_content": [
     {
-      "name": "Turtle Position Top",
+      "name": "Turtle",
       "relationship": "Starting position for this technique"
     },
     {
-      "name": "Crucifix Control Position",
+      "name": "Crucifix",
       "relationship": "Ending position and control objective"
     },
     {
@@ -250,12 +249,24 @@
       "relationship": "Related back control position"
     },
     {
-      "name": "Gift Wrap Position",
+      "name": "Gift Wrap",
       "relationship": "Similar arm control concept"
     },
     {
       "name": "Kimura from Turtle",
       "relationship": "Alternative submission attack from turtle top"
+    },
+    {
+      "name": "Turtle to Back Control",
+      "relationship": "Related back attack transition"
+    },
+    {
+      "name": "Crucifix Submissions",
+      "relationship": "Submission attacks from position"
+    },
+    {
+      "name": "Mounted Crucifix",
+      "relationship": "Related crucifix variation"
     }
   ],
   "expert_insights": {

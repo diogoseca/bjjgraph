@@ -1,20 +1,18 @@
 {
-  "metadata": {
-    "name": "Grip Fighting",
-    "description": "Understand Grip Fighting in BJJ. Learn strategic hand engagement, grip hierarchies, breaking mechanics, and cross-position application. Expert insights included.",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "control",
-      "strategy",
-      "grips",
-      "hand-fighting"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Grip Fighting",
+  "description": "Master grip fighting in BJJ. Learn strategic hand engagement, grip hierarchies, breaking mechanics, and prevention tactics across all positions and transitions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "control",
+    "strategy",
+    "grips",
+    "hand-fighting"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Grip Fighting represents the fundamental tactical battle for control through hand engagement that occurs throughout all phases of Brazilian Jiu-Jitsu. Unlike specific techniques or positions, grip fighting encompasses a comprehensive system of establishing, maintaining, breaking, and preventing grips that apply across all positions and transitions. This skill set serves as the foundation for both offensive and defensive BJJ, as grip control largely determines who can impose their game and dictate the direction of exchanges. Grip fighting occurs continuously throughout matches and is often considered the \"invisible game within the game\" that significantly influences outcomes despite being less visually apparent than techniques like sweeps or submissions. The ability to systematically dominate grip exchanges allows practitioners to control tempo, create offensive opportunities, and deny opponents their preferred attacking sequences. Understanding grip hierarchies, biomechanical advantages, and strategic sequencing transforms grip fighting from random hand battling into a sophisticated control system that multiplies the effectiveness of all subsequent techniques.",
   "key_principles": [
     "Establish advantageous grips before opponent secures their preferred controls",
@@ -73,12 +71,12 @@
       "description": "Effective grip fighting creates the opportunities and mechanical advantages necessary for posture breaking. The grips established through grip fighting determine the leverage points available for breaking opponent's structural integrity."
     },
     {
-      "principle_name": "Guard Passing Concepts",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Prerequisite",
       "description": "Successful guard passing requires first winning the grip fighting exchange to establish passing grips while denying guard retention grips. Grip fighting mastery is foundational to implementing effective passing strategies."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Prerequisite",
       "description": "Guard retention depends heavily on winning grip battles to maintain guard connections while preventing passing grips. The grip fighting exchange often determines whether guards can be retained or will be passed."
     },
@@ -91,6 +89,36 @@
       "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Frames and grips work together to control distance and positioning. Grip fighting establishes offensive connections while frames create defensive structure, with both requiring coordinated hand management."
+    },
+    {
+      "principle_name": "Grip Strategy",
+      "relationship_type": "Extension",
+      "description": "Grip strategy provides the overarching tactical framework for grip fighting execution. While grip fighting encompasses the technical mechanics, grip strategy determines which grips to pursue in specific contexts."
+    },
+    {
+      "principle_name": "Grip Break",
+      "relationship_type": "Extension",
+      "description": "Grip breaking represents a specific subset of grip fighting focused on removing established grips. Mastery of grip breaking mechanics is essential for comprehensive grip fighting capability."
+    },
+    {
+      "principle_name": "Hand Fighting",
+      "relationship_type": "Complementary",
+      "description": "Hand fighting encompasses the broader category of hand engagement including grip fighting, framing, and posting. Grip fighting represents the offensive control aspects within hand fighting."
+    },
+    {
+      "principle_name": "Collar Control",
+      "relationship_type": "Extension",
+      "description": "Collar control represents a specific application of grip fighting principles focused on establishing and maintaining collar grips for control and submission opportunities."
+    },
+    {
+      "principle_name": "Sleeve Control",
+      "relationship_type": "Extension",
+      "description": "Sleeve control applies grip fighting principles to establishing arm and sleeve grips that restrict opponent mobility and create attacking opportunities."
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Complementary",
+      "description": "Strong base maintenance makes grip fighting more effective by providing stable platform for grip battles. Conversely, winning grip exchanges helps establish and maintain superior base positions."
     }
   ],
   "application_contexts": [
@@ -137,6 +165,22 @@
     {
       "context": "Overhook Control",
       "how_applied": "Grip fighting secures and maintains the overhook control while preventing opponent from achieving underhook or freeing the trapped arm. Additional grip fighting on the opposite side determines whether the overhook can be converted to back takes or sweeps."
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Grip fighting in butterfly guard establishes collar and sleeve controls while preventing opponent from achieving underhooks or crossface grips. The grip battles determine whether butterfly hooks can be used effectively for sweeps or elevations."
+    },
+    {
+      "context": "Half Guard",
+      "how_applied": "From bottom half guard, grip fighting prevents crossface and underhook controls while establishing own underhooks and collar grips. From top, grip fighting establishes crossface and underhook while preventing bottom player's underhook and lockdown controls."
+    },
+    {
+      "context": "Double Sleeve Guard",
+      "how_applied": "Grip fighting establishes and maintains both sleeve grips while using feet to manage distance and prevent opponent from achieving collar or pants grips. The double sleeve configuration provides control but requires constant grip maintenance against breaking attempts."
+    },
+    {
+      "context": "Reverse De La Riva Guard",
+      "how_applied": "Grip fighting secures opposite collar and ankle grips while preventing opponent from achieving crossface or hip controls. The grip combinations enable the off-balancing mechanics specific to reverse DLR guard retention and sweeping."
     }
   ],
   "decision_framework": [
@@ -336,12 +380,12 @@
       "relationship": "Grips established through grip fighting enable effective posture breaking mechanics"
     },
     {
-      "name": "Guard Passing Concepts",
+      "name": "Guard Passing Principles",
       "content_type": "Principle",
       "relationship": "Winning grip fights is prerequisite for implementing effective passing strategies"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Guard retention depends heavily on maintaining favorable grip exchanges"
     },

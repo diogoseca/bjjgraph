@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Transition Sequences | BJJ Concept | BJJ Graph",
-    "description": "Understand Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions. Expert insights included.",
-    "principle_id": "P117",
-    "tags": [
-      "bjj",
-      "concept",
-      "transitions",
-      "sequences",
-      "flow",
-      "movement",
-      "chains",
-      "tactics"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Transition Sequences",
+  "description": "Master Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions with expert insights.",
+  "tags": [
+    "bjj",
+    "principle",
+    "transitions",
+    "sequences",
+    "flow",
+    "movement",
+    "chains",
+    "tactics",
+    "momentum",
+    "position-linking"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Transition Sequences represent the sophisticated skill of linking multiple positional changes and technical actions into coherent tactical flows that create compound advantages through connected movement rather than isolated techniques. Unlike individual transitions, transition sequences are dynamic chains where each positional change or technique attempt creates the setup conditions for subsequent actions, forming self-reinforcing tactical progressions that are more effective than their component parts executed in isolation. This concept encompasses the ability to recognize and execute multi-step movement patterns that preserve momentum, the strategic linking of positions toward specific objectives, and the adaptive modification of sequences based on opponent responses. Transition sequences serve as both offensive frameworks that create scoring and submission opportunities through cumulative positional improvement, and defensive systems that enable escape from bad positions through systematic progression rather than single desperate movements. The ability to implement effective transition sequences often distinguishes advanced practitioners who flow between positions systematically from intermediate practitioners who struggle with disconnected technique attempts, making it one of the most critical conceptual elements separating technical proficiency from tactical mastery in BJJ.",
   "key_principles": [
     "Link transitions through momentum conservation where each movement facilitates the next",
@@ -93,56 +92,88 @@
       "principle_name": "Flow Rolling",
       "relationship_type": "Advanced form",
       "description": "Flow rolling represents the highest expression of transition sequences where both practitioners link multiple sequences continuously in cooperative manner, developing sequence execution at maximum technical level"
+    },
+    {
+      "principle_name": "Submission Chains",
+      "relationship_type": "Complementary",
+      "description": "Submission chains apply sequence logic to finishing techniques, often integrated within positional sequences to create multi-dimensional offensive pressure"
+    },
+    {
+      "principle_name": "Guard Passing Principles",
+      "relationship_type": "Extension",
+      "description": "Guard passing sequences represent specific application of transition sequence concepts to the critical skill of defeating guard systems through linked technical progressions"
+    },
+    {
+      "principle_name": "Creating Reactions",
+      "relationship_type": "Prerequisite",
+      "description": "The ability to force opponent reactions through initial techniques provides the mechanical foundation upon which sequence logic is built"
+    },
+    {
+      "principle_name": "System Building",
+      "relationship_type": "Advanced form",
+      "description": "Systems represent the highest level of sequence organization, integrating multiple related sequences into comprehensive game frameworks"
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Developing sweep sequences where initial sweep attempt creates off-balancing that sets up secondary sweep or back take option, common sequence being hip bump to guillotine to triangle when opponent defends each progressive threat"
     },
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Implementing submission sequences where armbar attempt forces defensive arm position enabling transition to triangle or mounted triangle, then adapting to back take when opponent bridges, creating three-step sequence toward finish"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Creating sweep chains where underhook sweep attempt generates forward pressure that opponent counters by driving back, setting up old school sweep or back take as secondary options within same sequence flow"
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Executing pressure sequences where initial north-south transition threatens submission forcing opponent to turn, creating mount opportunity, then transitioning to back control when mount is defended, maintaining offensive pressure throughout"
     },
     {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Developing submission sequences where rear naked choke attempt forces chin protection creating armbar opportunity, which when defended opens path to body triangle or mount maintenance, forming multi-option attack chain"
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Building sweep sequences where berimbolo attempt generates base reaction allowing transition to X-guard or single leg X-guard, then adapting to technical standup when opponent counters, maintaining offensive initiative"
     },
     {
-      "context": "Bottom Turtle",
+      "context": "Turtle",
       "how_applied": "Creating escape sequences where initial hip escape generates space for guard recovery, which if countered leads to roll-through to deep half guard, then potentially to single leg position, forming systematic escape progression"
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Implementing guard retention sequences where initial guard replacement leads to specific guard establishment (DLR, spider, etc.), which then creates sweeping or submission opportunities based on opponent's passing approach"
     },
     {
-      "context": "Knee on Belly Top",
+      "context": "Knee on Belly",
       "how_applied": "Developing submission sequences where baseball bat choke attempt forces opponent to turn away, creating armbar opportunity, which when defended enables transition to mount or back take, maintaining top pressure"
     },
     {
-      "context": "North-South Top",
+      "context": "North-South",
       "how_applied": "Building control sequences where kimura threat forces arm defense creating space for mount transition, which if escaped leads to back take attempt, forming systematic progression toward superior control positions"
     },
     {
-      "context": "Deep Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "Creating sweep sequences where homer sweep attempt generates posting reaction allowing waiter sweep, which if countered opens path to single leg or x-guard position, maintaining offensive momentum through adaptations"
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Implementing sweep chains where basic butterfly sweep creates forward roll opportunity when opponent bases, leading to back take or guard recovery based on opponent's defensive choice, forming reactive sequence branches"
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Developing leg entanglement sequences where heel hook threat forces defensive leg positioning that creates transition to saddle or 50-50, then adapting to kneebar when opponent attempts escape, creating submission chain"
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Creating sweep sequences where bicep control sweep attempt generates standing reaction allowing transition to triangle or omoplata setup, maintaining offensive pressure through connected attacks"
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "Building sweep sequences where basic X-guard sweep creates technical standup opportunity when opponent counters, leading to single leg takedown or guard pull based on opponent's base recovery, maintaining offensive initiative"
     }
   ],
   "decision_framework": [
@@ -298,22 +329,22 @@
   "related_content": [
     {
       "name": "Position Transitions",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept that addresses individual positional changes which form building blocks of transition sequences"
     },
     {
       "name": "Position Chains",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Related concept focusing on sequential position progression providing structural framework for sequence development"
     },
     {
       "name": "Offensive Combinations",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Parallel concept applying combination principles to techniques while transition sequences apply same principles to positions"
     },
     {
       "name": "Timing and Rhythm",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential supporting concept providing temporal framework that governs when each sequence step should execute"
     },
     {
@@ -337,29 +368,29 @@
       "relationship": "Systematic framework built around sequences linking back maintenance to multiple submission options"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Common sequence starting position with numerous established sweep and submission sequence options"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Position rich with sweep sequences where initial attempts create follow-up opportunities"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Dominant position enabling submission sequences that link armbar, triangle, and back take options"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Superior position with established submission sequences linking choking and joint lock attacks"
     }
   ],
   "expert_insights": {
-    "danaher": "Approaches transition sequences through systematic analysis of positional connections and technical linking mechanics, developing what he terms \"kinetic chains\" where each movement creates biomechanical setup for subsequent actions. Emphasizes importance of understanding why sequences work at mechanical level rather than merely memorizing movement patterns, enabling practitioners to recognize sequence opportunities during live rolling through biomechanical pattern recognition. Systematizes sequence development through hierarchical structure where fundamental position progressions form foundation upon which more complex sequences build, creating developmental pathway from simple two-step sequences to sophisticated multi-branch tactical flows. Views transition sequences as implementation of strategic principles at tactical level, where sequences represent concrete execution of abstract positional hierarchies and submission strategies. He stresses that effective sequences are not arbitrary technique combinations but logical progressions where each step creates specific mechanical conditions that make subsequent steps mechanically superior, requiring deep understanding of position relationships and biomechanical principles rather than simple memorization of movement patterns.",
-    "gordon_ryan": "Views transition sequences as competitive weapons that compound technical advantages by denying opponent reset opportunities between attacks. Focuses on developing what he describes as \"sequence pressure\" where continuous transitional flow creates psychological and physical fatigue beyond what individual techniques would produce. Emphasizes importance of drilling sequences until they become unconscious motor patterns executable at full competition speed without cognitive load, freeing mental resources for strategic decision-making and opponent analysis. In his approach, signature sequences function as competitive advantages because even when opponents know sequence is coming, the kinetic linking and setup integration make defending entire sequence more difficult than stopping individual components, creating situations where defense requires simultaneous countering of multiple threats. He advocates for developing personal sequence repertoires centered around proven high-percentage techniques rather than collecting large numbers of low-probability sequences, focusing competitive preparation on mastering fewer sequences to expert level rather than superficial familiarity with many options. His sequence development emphasizes speed and pressure as critical elements, recognizing that sequences executed with proper tempo create compound defensive problems that same technical progressions executed slowly cannot achieve.",
-    "eddie_bravo": "Has developed signature transition sequences within 10th Planet system that often link unconventional positions into tactical flows not commonly seen in traditional BJJ. Teaches sequence concept he calls \"the path\" where each position system has optimal transitional routes toward back takes and submissions, creating systematic progressions students can learn as connected units. Advocates for developing personal sequence vocabularies aligned with body mechanics and technical preferences rather than adopting universal sequences, creating individual tactical identities through signature flows. Views transition sequences as creative expression opportunities within BJJ's technical framework, encouraging innovation in sequence development while respecting fundamental principles of momentum conservation and positional advantage. His approach emphasizes that sequences should feel natural to individual practitioner's movement patterns and body type, recognizing that sequences working effectively for one body type may be inefficient for others, leading to teaching methodology where students learn sequence principles then develop personal variations. He particularly emphasizes integration of unique positions like lockdown and rubber guard into sequences, creating tactical progressions that opponents less familiar with these positions struggle to defend effectively, using unconventional sequence elements as competitive advantages in rule sets where leg locks and other modern techniques are legal."
+    "danaher": "Approaches transition sequences through systematic analysis of positional connections and technical linking mechanics, developing what he terms kinetic chains where each movement creates biomechanical setup for subsequent actions. Emphasizes importance of understanding why sequences work at mechanical level rather than merely memorizing movement patterns, enabling practitioners to recognize sequence opportunities during live rolling through biomechanical pattern recognition. Systematizes sequence development through hierarchical structure where fundamental position progressions form foundation upon which more complex sequences build, creating developmental pathway from simple two-step sequences to sophisticated multi-branch tactical flows. Views transition sequences as implementation of strategic principles at tactical level, where sequences represent concrete execution of abstract positional hierarchies and submission strategies. Stresses that effective sequences are not arbitrary technique combinations but logical progressions where each step creates specific mechanical conditions that make subsequent steps mechanically superior, requiring deep understanding of position relationships and biomechanical principles rather than simple memorization of movement patterns.",
+    "gordon_ryan": "Views transition sequences as competitive weapons that compound technical advantages by denying opponent reset opportunities between attacks. Focuses on developing what he describes as sequence pressure where continuous transitional flow creates psychological and physical fatigue beyond what individual techniques would produce. Emphasizes importance of drilling sequences until they become unconscious motor patterns executable at full competition speed without cognitive load, freeing mental resources for strategic decision-making and opponent analysis. In his approach, signature sequences function as competitive advantages because even when opponents know sequence is coming, the kinetic linking and setup integration make defending entire sequence more difficult than stopping individual components, creating situations where defense requires simultaneous countering of multiple threats. Advocates for developing personal sequence repertoires centered around proven high-percentage techniques rather than collecting large numbers of low-probability sequences, focusing competitive preparation on mastering fewer sequences to expert level rather than superficial familiarity with many options. His sequence development emphasizes speed and pressure as critical elements, recognizing that sequences executed with proper tempo create compound defensive problems that same technical progressions executed slowly cannot achieve.",
+    "eddie_bravo": "Has developed signature transition sequences within 10th Planet system that often link unconventional positions into tactical flows not commonly seen in traditional BJJ. Teaches sequence concept he calls the path where each position system has optimal transitional routes toward back takes and submissions, creating systematic progressions students can learn as connected units. Advocates for developing personal sequence vocabularies aligned with body mechanics and technical preferences rather than adopting universal sequences, creating individual tactical identities through signature flows. Views transition sequences as creative expression opportunities within BJJ's technical framework, encouraging innovation in sequence development while respecting fundamental principles of momentum conservation and positional advantage. His approach emphasizes that sequences should feel natural to individual practitioner's movement patterns and body type, recognizing that sequences working effectively for one body type may be inefficient for others, leading to teaching methodology where students learn sequence principles then develop personal variations. Particularly emphasizes integration of unique positions like lockdown and rubber guard into sequences, creating tactical progressions that opponents less familiar with these positions struggle to defend effectively, using unconventional sequence elements as competitive advantages in rule sets where leg locks and other modern techniques are legal."
   }
 }

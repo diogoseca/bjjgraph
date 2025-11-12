@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Escape Hierarchy | BJJ Concept | BJJ Graph",
-    "description": "Understand Escape Hierarchy in BJJ. Learn systematic prioritization of escape techniques based on danger, energy efficiency, and success probability. Expert insights included.",
-    "principle_id": "P034",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "escapes",
-      "hierarchy",
-      "defensive strategy",
-      "position transitions",
-      "energy management"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Escape Hierarchy",
+  "description": "Master systematic escape prioritization in BJJ. Learn to assess positional danger, select high-percentage escapes, manage energy, and build improvements.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "escapes",
+    "hierarchy",
+    "defensive strategy",
+    "position transitions",
+    "energy management"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Escape Hierarchy represents the systematic framework for prioritizing and selecting escape techniques based on positional danger, energy efficiency, success probability, and tactical objectives. Unlike random escape attempts, escape hierarchy encompasses the strategic decision-making that determines which escapes to attempt first, when to transition between escape types, how to sequence movements for maximum effectiveness, and when to accept partial improvements rather than pursuing complete escapes. This concept addresses the relative danger levels of various bottom positions, the energy costs associated with different escape mechanics, the success probabilities of escape options from specific positions, and the tactical considerations that influence escape prioritization in different contexts. Escape hierarchy serves as both a survival framework that enables systematic positional improvement and a strategic tool that optimizes energy expenditure, making it one of the most essential conceptual elements in defensive BJJ.",
   "key_principles": [
     "Prioritize escaping from most dangerous positions first (back control, mount, then side control)",
@@ -93,6 +90,36 @@
       "principle_name": "Defensive Strategy",
       "relationship_type": "Extension",
       "description": "Broader defensive strategy encompasses escape hierarchy as one component within comprehensive defensive framework, extending hierarchical thinking to include prevention, survival, and counterattack elements beyond pure escape mechanics."
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Frame management principles support escape hierarchy by providing structural foundations that enable escape attempts while maintaining defensive integrity throughout escape sequences."
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Complementary",
+      "description": "Space creation techniques serve as tactical tools within escape hierarchy, enabling positional improvements that facilitate higher-percentage escape attempts from various positions."
+    },
+    {
+      "principle_name": "Mount Escape Hierarchy",
+      "relationship_type": "Extension",
+      "description": "Position-specific hierarchy for mount escapes demonstrates detailed application of general hierarchical principles to one of the most critical escape scenarios in BJJ."
+    },
+    {
+      "principle_name": "Guard Recovery",
+      "relationship_type": "Extension",
+      "description": "Guard recovery represents ultimate goal of many escape sequences, with hierarchy determining optimal paths to achieve guard position from various inferior positions."
+    },
+    {
+      "principle_name": "Hip Escape Mechanics",
+      "relationship_type": "Prerequisite",
+      "description": "Fundamental hip escape mechanics form the technical foundation for many high-percentage escapes within the hierarchy, requiring mastery before strategic selection becomes relevant."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Prerequisite",
+      "description": "Defensive framing capabilities are essential prerequisites for maintaining safety during escape attempts, with frames preventing position deterioration when escapes are partially successful."
     }
   ],
   "application_contexts": [
@@ -117,19 +144,19 @@
       "how_applied": "From north-south, escape hierarchy emphasizes creating space through hip movement before attempting to turn into opponent, accepting side control or turtle as intermediate positions, recognizing that rushing escapes often leads to mount or back exposure."
     },
     {
-      "context": "Crucifix Control Position",
+      "context": "Crucifix",
       "how_applied": "Under crucifix control, hierarchy demands protecting neck first, then systematically freeing trapped arm, accepting temporary inferior positions during arm extraction, recognizing that rushing escape attempts increase choke vulnerability."
     },
     {
-      "context": "Scarf Hold Position",
-      "how_applied": "From scarf hold, escape hierarchy prioritizes freeing near-side arm through bridge mechanics, then hip escaping to create guard recovery angle, accepting that explosive escapes work better than gradual movement due to this position's structural characteristics."
+      "context": "Kesa Gatame",
+      "how_applied": "From kesa gatame, escape hierarchy often prioritizes explosive bridge to far side over gradual escaping, recognizing this position's vulnerability to explosive movement, accepting turtle or guard positions as successful escapes from this high-control pin."
     },
     {
       "context": "Technical Mount",
       "how_applied": "Against technical mount, hierarchy treats position as mount variant requiring similar priorities—frame creation, prevention of upper body attacks, then either bridge-and-roll or elbow escape based on opponent's base, accepting side control as successful outcome."
     },
     {
-      "context": "S Mount Position",
+      "context": "S Mount",
       "how_applied": "From S-mount, escape hierarchy prioritizes defending armbar first by keeping threatened arm close, then attempting to bring knees together to reduce control, accepting standard mount as positional improvement when S-mount specific escapes are unavailable."
     },
     {
@@ -137,12 +164,24 @@
       "how_applied": "When caught in triangle control, hierarchy demands immediate posture recovery and stacking pressure, then systematic arm positioning to prevent choke completion, accepting guard position if escape requires releasing defensive grips, prioritizing survival over positional advancement."
     },
     {
-      "context": "Kesa Gatame",
-      "how_applied": "From kesa gatame, escape hierarchy often prioritizes explosive bridge to far side over gradual escaping, recognizing this position's vulnerability to explosive movement, accepting turtle or guard positions as successful escapes from this high-control pin."
+      "context": "Half Guard",
+      "how_applied": "Within half guard, hierarchy recognizes this as relatively safe position where creating distance and recovering full guard takes priority over risky underhook battles, accepting that maintaining half guard is preferable to failed sweep attempts that give up position."
     },
     {
-      "context": "Half Guard Bottom",
-      "how_applied": "Within half guard, hierarchy recognizes this as relatively safe position where creating distance and recovering full guard takes priority over risky underhook battles, accepting that maintaining half guard is preferable to failed sweep attempts that give up position."
+      "context": "Turtle",
+      "how_applied": "From turtle position, escape hierarchy prioritizes protecting against back takes and chokes, then systematically working to recover guard or stand up, accepting that maintaining turtle structure is preferable to rushing escapes that expose back or neck."
+    },
+    {
+      "context": "Closed Guard",
+      "how_applied": "From closed guard bottom when posture is broken and in danger, hierarchy emphasizes re-establishing posture and creating space before attempting sweeps or submissions, recognizing that defensive structure takes precedence over offensive attempts."
+    },
+    {
+      "context": "Modified Mount",
+      "how_applied": "Against modified mount variations, escape hierarchy follows similar principles to standard mount with adjustments based on specific configuration, prioritizing frame creation, submission defense, then systematic escape to side control or guard."
+    },
+    {
+      "context": "Reverse Mount",
+      "how_applied": "From reverse mount, hierarchy prioritizes defending against lower body attacks (calf slicers, ankle locks), then executing explosive bridge or rolling escapes, accepting turtle or scramble positions as successful outcomes from this unusual but dangerous position."
     }
   ],
   "decision_framework": [
@@ -179,7 +218,7 @@
     {
       "step_number": 7,
       "decision_point": "Chain escapes based on cumulative positional improvement",
-      "action": "Sequence multiple escape attempts to create progressive advancement (back control → turtle → half guard → full guard), recognizing that three partial successes equal one complete escape and maintaining escape momentum prevents opponent from consolidating superior positions."
+      "action": "Sequence multiple escape attempts to create progressive advancement (back control to turtle to half guard to full guard), recognizing that three partial successes equal one complete escape and maintaining escape momentum prevents opponent from consolidating superior positions."
     },
     {
       "step_number": 8,
@@ -212,6 +251,16 @@
       "error": "Selecting escapes based on personal preference rather than situational appropriateness",
       "consequence": "Attempts low-percentage escapes when high-percentage options exist, wastes opportunities by using wrong escape for specific situation, and develops predictable escape patterns that opponents easily defend once identified.",
       "correction": "Choose escapes based on opponent's position quality, your current attributes, and situational demands rather than comfort level, deliberately practicing unfamiliar but situationally-appropriate escapes to develop complete hierarchical decision-making."
+    },
+    {
+      "error": "Panicking under pressure and abandoning systematic escape approach",
+      "consequence": "Random frantic movements waste energy without positional improvement, create opportunities for opponent to advance position or secure submissions, and reinforce psychological patterns that undermine defensive composure.",
+      "correction": "Develop mental frameworks that maintain systematic thinking even under pressure, practicing escapes from worst-case scenarios to build confidence that methodical application works even from severely compromised positions."
+    },
+    {
+      "error": "Failing to recognize timing windows for optimal escape execution",
+      "consequence": "Attempts escapes against fully established control rather than during transitional moments, requiring excessive force and energy while achieving lower success rates, missing opportunities when opponent is vulnerable during position transitions.",
+      "correction": "Study opponent's weight distribution patterns and transition moments, timing escape attempts to coincide with shifts in pressure or grip adjustments, developing sensitivity to detect vulnerability windows even under heavy control."
     }
   ],
   "training_approaches": [
@@ -232,7 +281,7 @@
     },
     {
       "approach_name": "Escape Chain Sequencing",
-      "description": "Drill multi-escape sequences where primary escape is defended requiring immediate transition to secondary escape, developing fluid chaining between escape attempts and building cumulative improvement through connected escape series.",
+      "description": "Drill multi-escape sequences where primary escape is defended requiring immediate transition to secondary escape, developing fluid chaining between escape attempts and building cumulative progress through connected escape series.",
       "focus": "Creating seamless transitions between different escape types and developing ability to maintain escape momentum even when individual attempts are partially defended."
     },
     {
@@ -290,42 +339,42 @@
   "related_content": [
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept that defines relative danger levels used to establish escape priorities"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides technical escape mechanics that hierarchy determines when to apply"
     },
     {
       "name": "Pin Escape Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specialized application of escape hierarchy specifically to pinning positions"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary framework for resource allocation that integrates with escape efficiency priorities"
     },
     {
       "name": "Mount Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Position-specific hierarchy for mount escapes demonstrating detailed application of general principles"
     },
     {
       "name": "Back Escape Series",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Systematic approach to escaping highest-danger position, exemplifying urgent escape priorities"
     },
     {
       "name": "Side Control Escapes",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Common escape scenarios demonstrating intermediate-priority position requiring methodical approach"
     },
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader defensive framework that encompasses escape hierarchy as one critical component"
     },
     {

@@ -1,413 +1,9 @@
 {
-  "metadata": {
-    "title": "Spider Guard Bottom | BJJ Position Guide | BJJ Graph",
-    "description": "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve and collar control, sweeps, and submissions. Fundamental open guard with 60% sweep success at advanced level.",
-    "state_id": "S086",
-    "tags": ["bjj", "position", "spider-guard", "open-guard", "bottom", "gi", "guard"],
-    "parent_variant": "Spider Guard",
-    "sibling_variants": ["Spider Guard Top"]
-  },
-
-  "overview": "Spider Guard Bottom is a fundamental gi-based open guard position where the bottom practitioner controls the opponent's sleeves with their grips while using their feet against the opponent's biceps or hips to create distance and control. This position is characterized by active foot placement on the opponent's arms, extended legs creating mechanical advantage, and strong collar or sleeve grips that prevent the opponent from establishing dominant posture. The guard creates a web-like control system that makes passing extremely difficult while offering numerous sweep and submission opportunities. Spider Guard is one of the most versatile positions in gi jiu-jitsu, allowing the bottom player to control distance, create angles, and launch attacks while maintaining a strong defensive framework. The position excels at neutralizing pressure passing attempts and creating opportunities for transitions to other guard variations or direct attacks.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive with offensive options",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-
-  "state_invariants": [
-    "Bottom practitioner is on their back with at least one foot actively placed against opponent's bicep, arm, or hip creating extension and distance control through the leg",
-    "Strong grip control on opponent's sleeves (double sleeve grip) or collar and sleeve combination, with grips maintained at or above opponent's elbows for maximum control leverage",
-    "Top practitioner is in standing or combat base position, facing the bottom player with their posture disrupted by foot pressure and grip control preventing forward advancement",
-    "Bottom practitioner's hips are mobile and off the ground, allowing for angle creation and guard retention through hip movement and leg extension adjustments"
-  ],
-
-  "prerequisites": [
-    "Opponent in standing or combat base position within guard range",
-    "Successful establishment of sleeve grip controls on opponent's arms",
-    "Ability to place at least one foot against opponent's bicep or hip",
-    "Sufficient space to extend legs and create distance",
-    "Active hip mobility to maintain guard position"
-  ],
-
-  "key_principles": [
-    "Maintain constant tension through extended legs pressing against opponent's arms to prevent forward pressure and passing attempts",
-    "Keep grips tight on sleeves or collar to control opponent's posture and prevent grip breaks",
-    "Use hip movement and angle creation to set up sweeps and prevent guard passes",
-    "Balance extension with the ability to retract legs quickly for transitions to other guards",
-    "Control distance through foot placement - biceps for maximum extension, hips for closer control",
-    "Create constant dilemmas for opponent between defending sweeps and maintaining posture",
-    "Combine foot pressure with grip control to break opponent's balance and create sweep opportunities"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Triangle Setup",
-      "target_position": "Triangle Control Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Omoplata Sweep",
-      "target_position": "Omoplata Control Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Spider Guard Sweeps",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Lasso Guard Sweeps",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "De La Riva Sweep",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Balloon Sweep",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Armbar from Guard",
-      "target_position": "Armbar Control Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Transition to Omoplata",
-      "target_position": "Omoplata Control Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Spider Guard Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 40
-    },
-    {
-      "technique": "Knee Cut Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 45
-    },
-    {
-      "technique": "Toreando Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 50
-    },
-    {
-      "technique": "Stack Pass",
-      "target_position": "Mount Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Grip Break",
-      "target_position": "Open Guard Top",
-      "success_rate": 55
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Lasso Guard Sweeps",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent attempts to stack or step around guard"
-    },
-    {
-      "technique": "Triangle Setup",
-      "target_position": "Triangle Control Bottom",
-      "trigger": "Opponent postures up and extends arms to break grips"
-    },
-    {
-      "technique": "Omoplata Sweep",
-      "target_position": "Omoplata Control Bottom",
-      "trigger": "Opponent pulls arm back to break sleeve grip"
-    },
-    {
-      "technique": "De La Riva Sweep",
-      "target_position": "Back Control Top",
-      "trigger": "Opponent shifts weight to pass on one side"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent stands upright with extended posture trying to break grips",
-      "actions": [
-        {
-          "technique": "Triangle Setup",
-          "target": "Triangle Control Bottom",
-          "probability": 55
-        },
-        {
-          "technique": "Omoplata Sweep",
-          "target": "Omoplata Control Bottom",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent drives forward with low posture attempting pressure pass",
-      "actions": [
-        {
-          "technique": "Lasso Guard Sweeps",
-          "target": "Side Control Top",
-          "probability": 65
-        },
-        {
-          "technique": "Balloon Sweep",
-          "target": "Mount Top",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent steps to side attempting toreando or knee cut pass",
-      "actions": [
-        {
-          "technique": "De La Riva Sweep",
-          "target": "Back Control Top",
-          "probability": 55
-        },
-        {
-          "technique": "Spider Guard Sweeps",
-          "target": "Mount Top",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent secures strong grips and controls distance effectively",
-      "actions": [
-        {
-          "technique": "Guard Recovery",
-          "target": "Closed Guard Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Shin to Shin Pull",
-          "target": "Single Leg X Guard Bottom",
-          "probability": 45
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Allowing legs to bend and lose extension pressure on opponent's arms",
-      "consequence": "Opponent can drive forward pressure and establish passing position",
-      "correction": "Maintain constant leg extension with active foot pressure against biceps or hips, keeping legs straight and creating distance"
-    },
-    {
-      "error": "Gripping too low on opponent's sleeves or wrists instead of upper sleeve",
-      "consequence": "Weak control that allows opponent to strip grips and advance position",
-      "correction": "Establish grips at or above opponent's elbows for maximum leverage and control, using deep four-finger sleeve grips"
-    },
-    {
-      "error": "Keeping hips flat on the mat without active movement",
-      "consequence": "Limited ability to create angles for sweeps and vulnerability to stack passes",
-      "correction": "Keep hips elevated and mobile, constantly adjusting angles and using hip movement to set up attacks and prevent passes"
-    },
-    {
-      "error": "Using both feet on same side creating imbalanced control",
-      "consequence": "Opponent can easily circulate around uncontrolled side to pass guard",
-      "correction": "Distribute feet strategically - one on each arm for maximum control, or one bicep and one hip for varied pressure"
-    },
-    {
-      "error": "Failing to transition when opponent secures strong grips or begins breaking guard",
-      "consequence": "Guard gets passed as opponent establishes dominant grips and posture",
-      "correction": "Recognize grip fighting disadvantage early and transition to closed guard, lasso, or other guard variation before position is compromised"
-    },
-    {
-      "error": "Over-committing to sweeps without securing proper grips first",
-      "consequence": "Failed sweep attempts that leave guard vulnerable to passes",
-      "correction": "Establish strong grip and foot control before initiating sweeps, ensuring proper setup and timing"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Spider Guard Retention Drill",
-      "description": "Partner attempts to pass spider guard using various methods while you maintain position, focusing on hip movement, grip retention, and foot placement. Start with 50% resistance and gradually increase intensity. Goal is to maintain spider guard for 2-minute rounds."
-    },
-    {
-      "name": "Sweep Chain Combinations",
-      "description": "Flow through spider guard sweep sequences - balloon sweep to triangle to omoplata. Partner provides graduated resistance. Practice transitioning between sweeps based on opponent's reactions. Perform 10 repetitions per combination, alternating sides."
-    },
-    {
-      "name": "Grip Fighting from Spider Guard",
-      "description": "Partner attempts to break your grips while you maintain sleeve control and re-establish grips when broken. Focus on grip strength, grip replacement strategies, and maintaining foot pressure even during grip transitions. 3-minute rounds with 30-second rest."
-    },
-    {
-      "name": "Dynamic Guard Recovery",
-      "description": "Start with compromised spider guard position (weak grips or poor foot placement). Practice recovering optimal position through hip movement, grip fighting, and foot repositioning. Partner applies moderate pressure. 5 rounds of 1 minute each."
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest path to Triangle",
-      "path": "Spider Guard Bottom → Triangle Setup → Triangle Control Bottom → Triangle Choke"
-    },
-    {
-      "name": "High-percentage Omoplata path",
-      "path": "Spider Guard Bottom → Omoplata Sweep → Omoplata Control Bottom → Omoplata"
-    },
-    {
-      "name": "Armbar sequence",
-      "path": "Spider Guard Bottom → Armbar from Guard → Armbar Control Bottom → Armbar Finish"
-    },
-    {
-      "name": "Sweep to submission path",
-      "path": "Spider Guard Bottom → Balloon Sweep → Mount Top → Armbar from Mount → Armbar Finish"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Lasso Guard Bottom",
-      "relationship": "Common variation where one leg wraps over opponent's shoulder for enhanced control"
-    },
-    {
-      "name": "Open Guard Bottom",
-      "relationship": "Parent category that includes spider guard as specific variation"
-    },
-    {
-      "name": "De La Riva Guard Bottom",
-      "relationship": "Complementary guard that works well in combination with spider guard"
-    },
-    {
-      "name": "Collar Sleeve Guard Bottom",
-      "relationship": "Similar guard variation using collar and sleeve grips instead of double sleeve"
-    },
-    {
-      "name": "Triangle Control Bottom",
-      "relationship": "Primary submission target from spider guard attacks"
-    },
-    {
-      "name": "Omoplata Control Bottom",
-      "relationship": "High-percentage submission and sweep option from spider guard"
-    },
-    {
-      "name": "X-Guard Bottom",
-      "relationship": "Guard variation that can be transitioned to from spider guard"
-    },
-    {
-      "name": "Closed Guard Bottom",
-      "relationship": "Fallback defensive position when spider guard is compromised"
-    },
-    {
-      "name": "Sleeve Control",
-      "relationship": "Fundamental concept critical for spider guard effectiveness"
-    },
-    {
-      "name": "Grip Fighting",
-      "relationship": "Essential skill for establishing and maintaining spider guard control"
-    }
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 40,
-      "intermediate": 60,
-      "advanced": 75
-    },
-    "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 45,
-      "advanced": 60
-    },
-    "submission_probability": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
-    },
-    "average_time": "1-3 minutes depending on skill level and opponent's passing strategy"
-  },
-
-  "expert_insights": {
-    "danaher": "Spider guard represents a fundamental principle in guard work - the creation of mechanical advantage through geometric positioning. By placing your feet on the opponent's biceps while controlling their sleeves, you create a lever system where your legs (the stronger muscle group) oppose their arms (weaker in this context). The critical technical detail is maintaining full leg extension to maximize this mechanical advantage. Many practitioners fail by allowing their knees to bend, which eliminates the structural integrity of the position. The grips must be established at or above the elbows to control the entire arm as a unit. This position exemplifies the concept of distance management in jiu-jitsu - you can extend fully to prevent forward pressure or retract strategically to create angles for sweeps and submissions. The systematic approach to spider guard involves recognizing that every opponent reaction creates a specific opportunity: posturing up opens triangles and omoplatas, driving forward opens balloon sweeps, and lateral movement opens directional sweeps.",
-
-    "gordon_ryan": "Spider guard is one of the highest percentage gi positions for creating sweep opportunities against standing opponents, which is why I used it extensively in my gi competition career. The key to making spider guard work at the highest levels is being extremely aggressive with your attacks - you cannot be passive or the opponent will eventually break your grips and pass. I focus on constant threatening with sweeps, forcing the opponent into defensive reactions that open up submissions. The balloon sweep is my go-to move because it works on everyone regardless of size, and when they defend it, the triangle opens up immediately. In competition, I never hold spider guard statically - I'm always moving my hips, adjusting angles, and threatening attacks to keep the opponent reactive. The worst thing you can do is let them settle into a comfortable posture and start their passing sequence. Against world-class passers, I combine spider guard with lasso and De La Riva grips to create a guard retention system rather than relying on pure spider guard alone.",
-
-    "eddie_bravo": "Spider guard is solid but in no-gi you obviously can't use it, which is why we developed alternatives in the 10th Planet system. However, when I do train in the gi, I look at spider guard as an entry point to more dynamic positions rather than a place to hang out. The traditional spider guard can become too static, so I like to use it momentarily to set up transitions to rubber guard, omoplata sequences, or to stand up for wrestling. One thing people don't utilize enough from spider guard is the ability to invert and attack the legs - if you have good grips and the opponent is standing, you can use that control to safely enter leg entanglements. The innovation I bring to spider guard is treating it as a transitional position in a larger system rather than a destination. Also, the bicep control you learn in spider guard translates directly to controlling the arms in rubber guard, so the grip strength and sensitivity you develop transfers between systems. For 10th Planet practitioners training in the gi, I teach spider guard as a way to develop grip fighting skills and understanding of distance control that applies universally."
-  }
-}
-{
-  "metadata": {
-    "title": "Spider Guard | BJJ Position Guide | BJJ Graph",
-    "description": "Master Spider Guard in BJJ. Complete guide covering setup, control, sweeps, and submissions. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
-    "state_id": "S067",
-    "tags": [
-      "bjj",
-      "position",
-      "guard",
-      "open_guard",
-      "bottom",
-      "spider_guard",
-      "grip_control"
-    ]
-  },
+  "name": "Spider Guard",
+  "slug": "spider-guard",
+  "description": "Master Spider Guard in BJJ. Strategic guide covering when to use spider guard, defensive escapes, and offensive attacks with complete perspective analysis.",
+  "variant_uniqueness": "Sleeve and bicep control for distance management",
   "overview": "Spider Guard is a highly technical open guard position characterized by the bottom player controlling both sleeves of the opponent while placing their feet on the opponent's biceps or elbows, creating strong pushing frames. This guard creates exceptional distance management and posture control, allowing the bottom player to break down the top player's base while setting up sweeps, triangles, and omoplatas. The position derives its name from the resemblance to a spider's legs extending outward with thread-like control of the opponent's arms.\n\nSpider Guard is particularly effective in gi-based competition, where sleeve grips provide mechanical advantage for controlling distance and creating off-balancing opportunities. The position allows the guard player to maintain safe distance while simultaneously threatening attacks, making it difficult for the opponent to establish effective passing pressure. Advanced practitioners use Spider Guard as a hub position, flowing to Lasso Guard, De La Riva Guard, and various other open guard variations.\n\nThe effectiveness of Spider Guard relies heavily on grip strength, hip mobility, and precise foot placement. When executed correctly, it creates a dilemma for the opponent: maintaining upright posture leaves them vulnerable to sweeps, while attempting to address the feet on biceps creates opportunities for transitions to submission positions. This position is fundamental to modern gi jiu-jitsu and serves as a cornerstone of many competition-focused guard systems.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive with offensive options",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium"
-  },
-  "state_invariants": [
-    "Both feet positioned on opponent's biceps or elbows with active pushing pressure, creating extension and distance between both bodies while maintaining tactical control of opponent's upper body movement",
-    "Both hands controlling opponent's sleeves with deep grips at or near the cuffs, establishing mechanical advantage through lever arm extension and preventing opponent from establishing dominant grips or posture",
-    "Bottom player's hips positioned off the mat with active hip mobility, creating angles and maintaining ability to adjust distance while keeping lower back slightly rounded for mobility and sweep mechanics",
-    "Opponent forced into extended posture with arms straightened and weight distributed between hands and feet, unable to establish close-range pressure or consolidated base due to sleeve control and foot frames"
-  ],
-  "prerequisites": [
-    "Establishment of sleeve grips on both of opponent's arms at or near the cuffs",
-    "Opponent in standing, kneeling, or combat base position within range of guard player's legs",
-    "Guard player on back with sufficient hip mobility to place feet on opponent's arms",
-    "Open guard position with sufficient space to extend legs and establish foot frames"
-  ],
   "key_principles": [
     "Maintain deep sleeve grips at the cuffs to maximize lever arm length and control opponent's arm movement",
     "Keep constant pushing pressure through feet on biceps to control distance and prevent opponent from establishing close-range pressure",
@@ -417,271 +13,34 @@
     "Adjust foot placement between biceps and elbows based on opponent's reactions and passing attempts",
     "Use one leg as primary control while the other leg creates angles and threatens attacks"
   ],
-  "offensive_transitions": [
+  "related_positions": [
     {
-      "technique": "Spider Guard Sweeps",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Triangle Setup",
-      "target_position": "Triangle Control",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Spider Guard to Omoplata",
-      "target_position": "Omoplata Control",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Omoplata Sweep",
-      "target_position": "Back Control",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Lasso Guard Sweeps",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Scissor Sweep",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Pendulum Sweep",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Elevator Sweep",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Spider Guard Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 45
-    },
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 40
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Toreando Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 50
-    },
-    {
-      "technique": "Grip Break",
-      "target_position": "Top Open Guard",
-      "success_rate": 55
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Lasso Guard Sweeps",
-      "target_position": "Lasso Guard Bottom",
-      "trigger": "Opponent attempts to step back or circle to break grips"
-    },
-    {
-      "technique": "Triangle Setup",
-      "target_position": "Triangle Control",
-      "trigger": "Opponent leans forward or drives one arm across centerline to attempt pass"
-    },
-    {
-      "technique": "Omoplata Sweep",
-      "target_position": "Back Control",
-      "trigger": "Opponent postures up aggressively or attempts to stack"
-    },
-    {
-      "technique": "Scissor Sweep",
-      "target_position": "Mount",
-      "trigger": "Opponent's weight shifts to one side or attempts lateral movement"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent maintains upright posture with weight back and attempts to break grips by pulling arms away",
-      "actions": [
-        {
-          "technique": "Scissor Sweep",
-          "target": "Mount",
-          "probability": 60
-        },
-        {
-          "technique": "Pendulum Sweep",
-          "target": "Mount",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "Else if opponent drives forward and attempts to consolidate posture or establish shoulder pressure",
-      "actions": [
-        {
-          "technique": "Triangle Setup",
-          "target": "Triangle Control",
-          "probability": 65
-        },
-        {
-          "technique": "Spider Guard to Omoplata",
-          "target": "Omoplata Control",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "Else if opponent stands up tall and attempts to circle or move laterally to clear legs",
-      "actions": [
-        {
-          "technique": "Lasso Guard Sweeps",
-          "target": "Lasso Guard Bottom",
-          "probability": 60
-        },
-        {
-          "technique": "Elevator Sweep",
-          "target": "Top Position",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "Else if opponent successfully breaks one sleeve grip and attempts to control that arm",
-      "actions": [
-        {
-          "technique": "Omoplata Sweep",
-          "target": "Back Control",
-          "probability": 55
-        },
-        {
-          "technique": "Guard Replacement",
-          "target": "Open Guard Bottom",
-          "probability": 50
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Using shallow or weak sleeve grips that allow opponent to easily strip grips",
-      "consequence": "Opponent breaks grips quickly and establishes dominant passing position with immediate pressure",
-      "correction": "Establish deep grips at the cuffs with all four fingers inside the sleeve, thumb on outside, and maintain constant tension through grip pulling coordinated with foot pressure"
-    },
-    {
-      "error": "Placing feet too high on opponent's shoulders or too low on forearms instead of biceps/elbows",
-      "consequence": "Loss of mechanical advantage for controlling posture and creating off-balancing, allowing opponent to maintain stable base",
-      "correction": "Position feet precisely on biceps for maximum control, or on elbows when opponent attempts to bend arms, ensuring strong pushing frames with balls of feet"
-    },
-    {
-      "error": "Keeping hips flat on mat without active hip movement or angle creation",
-      "consequence": "Opponent can establish stable base and use strength to slowly advance position without facing off-balancing threats",
-      "correction": "Keep hips elevated off mat with constant micro-adjustments, creating angles to opponent's side and using hip movement to generate sweep momentum"
-    },
-    {
-      "error": "Pushing with feet but not pulling with grips, creating uncoordinated opposing forces",
-      "consequence": "Reduced control effectiveness as opponent can resist single-direction pressure and maintain posture through strength",
-      "correction": "Coordinate simultaneous grip pulls and foot pushes to create scissoring action that multiplies force and breaks opponent's structural integrity"
-    },
-    {
-      "error": "Allowing both legs to remain static in symmetrical position without threatening attacks",
-      "consequence": "Opponent can systematically address both legs simultaneously and execute methodical passing sequences",
-      "correction": "Use one leg as primary control while other leg actively seeks angles, threatens triangles, or converts to lasso/DLR variations"
-    },
-    {
-      "error": "Failing to adjust when opponent begins to successfully strip grips or clear legs",
-      "consequence": "Complete loss of guard position leading to side control or mount as opponent passes",
-      "correction": "Immediately transition to alternative guards (Lasso, DLR, Closed Guard) at first sign of grip or leg clearing, maintaining active guard retention"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Spider Guard Grip and Posture Control Drill",
-      "description": "Partner stands in combat base while guard player establishes spider guard grips and foot placement. Partner attempts to maintain posture while guard player practices breaking posture down and extending it back up, focusing on coordination of grip pulls with foot pushes. Emphasize grip endurance and precise foot placement.",
-      "duration": "3 minutes per person"
-    },
-    {
-      "name": "Spider Guard Sweep Combinations Flow Drill",
-      "description": "From established spider guard, guard player flows through sequence of sweeps (scissor, pendulum, elevator) based on partner's reactions. Partner provides progressive resistance, allowing sweeps to near-completion before resetting. Focus on hip movement, angle creation, and timing of sweep entries.",
-      "duration": "5 minutes per person"
-    },
-    {
-      "name": "Spider to Triangle/Omoplata Transition Drill",
-      "description": "Partner in spider guard attempts various passing approaches while guard player identifies opportunities to transition to triangle or omoplata positions. Start with cooperative drilling, then add resistance. Emphasize recognition of correct timing windows when opponent's arms cross centerline or posture drives forward.",
-      "duration": "4 minutes per person"
-    },
-    {
-      "name": "Spider Guard Retention Against Pass Attempts",
-      "description": "Partner actively attempts to pass spider guard using various methods (toreando, knee slice, grip breaks) while guard player focuses solely on maintaining guard position and re-establishing frames when compromised. Develop defensive reactions and guard recovery pathways.",
-      "duration": "3 minutes per person"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Direct Triangle Path",
-      "path": "Spider Guard → Triangle Setup → Triangle Control → Triangle Choke (2-step path when opponent drives forward with arm across centerline)"
-    },
-    {
-      "name": "Omoplata Finish Path",
-      "path": "Spider Guard → Spider Guard to Omoplata → Omoplata Control → Omoplata from Guard (3-step high-percentage path from spider guard)"
-    },
-    {
-      "name": "Armbar After Sweep Path",
-      "path": "Spider Guard → Scissor Sweep → Mount → Armbar from Mount (4-step path combining sweep with dominant position submission)"
-    },
-    {
-      "name": "Omoplata to Back Path",
-      "path": "Spider Guard → Spider Guard to Omoplata → Omoplata Sweep → Back Control → Rear Naked Choke (5-step path when opponent defends omoplata by rolling)"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Lasso Guard Bottom",
+      "name": "Lasso Guard",
       "relationship": "Common variation where one leg threads under opponent's arm creating lasso control"
     },
     {
-      "name": "Open Guard Bottom",
+      "name": "Open Guard",
       "relationship": "Parent category position that spider guard falls under"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Related guard position using similar grip concepts with different foot placement"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Complementary open guard that combines well with spider guard transitions"
+    },
+    {
+      "name": "Double Sleeve Guard",
+      "relationship": "Grip configuration used in establishing spider guard control"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative open guard that can be transitioned to from spider guard"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Transition target when opponent stands and spider guard sweeps create elevation"
     },
     {
       "name": "Triangle Control",
@@ -690,425 +49,732 @@
     {
       "name": "Omoplata Control",
       "relationship": "High-percentage submission transition when opponent drives forward"
-    },
-    {
-      "name": "De La Riva Guard",
-      "relationship": "Complementary open guard that combines well with spider guard transitions"
-    },
-    {
-      "name": "Collar Sleeve Guard Bottom",
-      "relationship": "Related guard position using similar grip concepts with different foot placement"
-    },
-    {
-      "name": "X-Guard",
-      "relationship": "Transition target when opponent stands and spider guard sweeps create elevation"
-    },
-    {
-      "name": "Grip Fighting",
-      "relationship": "Essential concept for establishing and maintaining spider guard sleeve control"
-    },
-    {
-      "name": "Posture Breaking",
-      "relationship": "Core concept applied through coordinated grip and foot pressure in spider guard"
     }
   ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
+  "bottom": {
+    "name": "Spider Guard Bottom",
+    "description": "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve and collar control, sweeps, and submissions. Fundamental open guard with 60% sweep success at advanced level.",
+    "tags": ["bjj", "position", "spider-guard", "open-guard", "bottom", "gi", "guard"],
+    "overview": "Spider Guard Bottom is a fundamental gi-based open guard position where the bottom practitioner controls the opponent's sleeves with their grips while using their feet against the opponent's biceps or hips to create distance and control. This position is characterized by active foot placement on the opponent's arms, extended legs creating mechanical advantage, and strong collar or sleeve grips that prevent the opponent from establishing dominant posture. The guard creates a web-like control system that makes passing extremely difficult while offering numerous sweep and submission opportunities. Spider Guard is one of the most versatile positions in gi jiu-jitsu, allowing the bottom player to control distance, create angles, and launch attacks while maintaining a strong defensive framework. The position excels at neutralizing pressure passing attempts and creating opportunities for transitions to other guard variations or direct attacks.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
     },
-    "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    },
-    "submission_probability": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
-    },
-    "average_time": "45-90 seconds before transition or pass"
-  },
-  "expert_insights": {
-    "danaher": "Spider Guard represents a masterclass in leverage mechanics and distance management. The position's effectiveness derives from creating opposing vectors of force—the simultaneous pulling of sleeve grips combined with pushing through foot frames generates exponentially greater control than either action alone. The key biomechanical principle is establishing maximum lever arm length through deep sleeve grips at the cuffs while positioning feet on the biceps or elbows to control the opponent's ability to generate power through shoulder rotation. When executed with proper coordination, spider guard creates a systematic problem: the opponent cannot address both the grip control and the foot frames simultaneously. The skilled practitioner uses hip angle variation not merely for sweep timing, but to create geometric problems that make the opponent's base fundamentally unstable regardless of their strength or size advantages.",
-    "gordon_ryan": "Spider guard is a competition-proven position when you understand the submission-first mentality rather than just stalling for advantages. Most competitors make the mistake of playing spider too conservatively, focusing on grip retention rather than actively hunting triangles and omoplatas. In high-level competition, you have maybe 15-20 seconds of effective spider guard before elite passers start systematically dismantling your grips and frames. Use that window to immediately threaten attacks—when the opponent sees the triangle threat, they pull their arm back, which opens the scissor sweep; when they defend the sweep by driving forward, you have the omoplata. I constantly switch between one-leg lasso and double-sleeve spider to keep opponents guessing and prevent them from settling into comfortable passing rhythm. The modern meta requires mixing spider with collar-sleeve and DLR entries rather than staying static in traditional double-sleeve spider.",
-    "eddie_bravo": "Spider guard is sick for creating that no-gi-style distance control even in the gi, but you gotta stay creative and not let it become static. The traditional approach focuses too much on symmetrical control with both feet on biceps, which makes you predictable. I teach my guys to constantly shift between spider and other guards—use spider to create the initial distance and posture break, then immediately flow to rubber guard, lockdown, or deep half depending on opponent's reactions. The sleeve grips are powerful, but don't be afraid to sacrifice one grip to swim for better positions like overhooks or back takes. Think of spider as a launching pad, not a destination. When you combine spider principles with 10th Planet flexibility and transitions, you get this unpredictable guard system where opponents can't establish passing rhythm because they never know if you're going for a traditional sweep or some unconventional transition to the truck or twister positions."
-  }
-}
-{
-  "metadata": {
-    "title": "Spider Guard Top | BJJ Position Guide | BJJ Graph",
-    "description": "Master Spider Guard Top in BJJ. Learn grip breaking, passing strategies, and transitions. Face Spider Guard Bottom with 45% intermediate pass success.",
-    "state_id": "S087",
-    "tags": ["bjj", "position", "guard-passing", "spider-guard", "top-position", "open-guard"]
-  },
-  "overview": "Spider Guard Top is the position where the top player is standing or on their knees facing an opponent who has established Spider Guard Bottom, with at least one sleeve grip and foot placement on the bicep or hip. This is a challenging guard-passing scenario that requires systematic grip breaking, posture control, and strategic movement to overcome the bottom player's distance management and sweeping threats. The top player must balance between staying safe from sweeps while creating passing opportunities through grip breaks, angle changes, and pressure application. Success in this position requires understanding the mechanics of Spider Guard control points and having a systematic approach to neutralizing the bottom player's offensive capabilities. The position is commonly encountered in both gi and competition settings, making it an essential skill for any serious BJJ practitioner.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive with offensive options",
-    "risk_level": "Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium"
-  },
-  "state_invariants": [
-    "Top player standing or on knees facing bottom player who has established Spider Guard with at least one sleeve grip and corresponding foot placement on bicep or hip",
-    "Bottom player on their back or seated with hips elevated off mat using foot pressure on top player's arms or torso to create distance and control posture",
-    "Top player maintaining upright posture while managing sleeve grips and foot pressure from bottom player, seeking to break grips and establish passing grips",
-    "Both players engaged in grip fighting battle with top player attempting to control pants/legs while bottom player maintains sleeve and collar grips with feet creating frames"
-  ],
-  "prerequisites": [
-    "Bottom player has established at least one Spider Guard hook with corresponding sleeve grip",
-    "Top player is in standing or combat base position facing the guard",
-    "Bottom player has sufficient space and distance control to maintain foot pressure",
-    "Both players are engaged in active grip fighting",
-    "Top player has not yet achieved dominant passing grips or position"
-  ],
-  "key_principles": [
-    "Maintain strong upright posture to prevent being broken down or swept forward",
-    "Systematically break grips before attempting to pass, never force passes with grips intact",
-    "Control distance by stepping back or circling to reduce effectiveness of Spider Guard hooks",
-    "Use grip breaks in combination with angle changes to create passing opportunities",
-    "Keep weight centered and base wide to defend against technical sweeps like lasso sweeps and scissor variations",
-    "Target weak points in the guard structure such as single-side Spider Guard or transitions between grips",
-    "Pressure the legs down and forward once grips are broken to flatten the guard and enable passing sequences"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Toreando Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
+    "state_invariants": [
+      "Bottom practitioner is on their back with at least one foot actively placed against opponent's bicep, arm, or hip creating extension and distance control through the leg",
+      "Strong grip control on opponent's sleeves (double sleeve grip) or collar and sleeve combination, with grips maintained at or above opponent's elbows for maximum control leverage",
+      "Top practitioner is in standing or combat base position, facing the bottom player with their posture disrupted by foot pressure and grip control preventing forward advancement",
+      "Bottom practitioner's hips are mobile and off the ground, allowing for angle creation and guard retention through hip movement and leg extension adjustments"
+    ],
+    "prerequisites": [
+      "Opponent in standing or combat base position within guard range",
+      "Successful establishment of sleeve grip controls on opponent's arms",
+      "Ability to place at least one foot against opponent's bicep or hip",
+      "Sufficient space to extend legs and create distance",
+      "Active hip mobility to maintain guard position"
+    ],
+    "key_principles": [
+      "Maintain constant tension through extended legs pressing against opponent's arms to prevent forward pressure and passing attempts",
+      "Keep grips tight on sleeves or collar to control opponent's posture and prevent grip breaks",
+      "Use hip movement and angle creation to set up sweeps and prevent guard passes",
+      "Balance extension with the ability to retract legs quickly for transitions to other guards",
+      "Control distance through foot placement - biceps for maximum extension, hips for closer control",
+      "Create constant dilemmas for opponent between defending sweeps and maintaining posture",
+      "Combine foot pressure with grip control to break opponent's balance and create sweep opportunities"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Triangle Setup",
+        "target_position": "Triangle Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Omoplata Sweep",
+        "target_position": "Omoplata Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Spider Guard Sweeps",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Lasso Guard Sweeps",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "De La Riva Sweep",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Scissor Sweep",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Armbar from Guard",
+        "target_position": "Armbar Control",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Spider Guard to Omoplata",
+        "target_position": "Omoplata Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Spider Guard Pass",
+        "target_position": "Side Control",
+        "success_rate": 40
+      },
+      {
+        "technique": "Knee Cut Pass",
+        "target_position": "Side Control",
+        "success_rate": 45
+      },
+      {
+        "technique": "Toreando Pass",
+        "target_position": "Side Control",
+        "success_rate": 50
+      },
+      {
+        "technique": "Stack Pass",
+        "target_position": "Mount",
+        "success_rate": 35
+      },
+      {
+        "technique": "Grip Break",
+        "target_position": "Open Guard",
+        "success_rate": 55
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Lasso Guard Sweeps",
+        "target_position": "Side Control",
+        "trigger": "Opponent attempts to stack or step around guard"
+      },
+      {
+        "technique": "Triangle Setup",
+        "target_position": "Triangle Control",
+        "trigger": "Opponent postures up and extends arms to break grips"
+      },
+      {
+        "technique": "Omoplata Sweep",
+        "target_position": "Omoplata Control",
+        "trigger": "Opponent pulls arm back to break sleeve grip"
+      },
+      {
+        "technique": "De La Riva Sweep",
+        "target_position": "Back Control",
+        "trigger": "Opponent shifts weight to pass on one side"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent stands upright with extended posture trying to break grips",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 55
+          },
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Omoplata Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent drives forward with low posture attempting pressure pass",
+        "actions": [
+          {
+            "technique": "Lasso Guard Sweeps",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Scissor Sweep",
+            "target": "Mount",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent steps to side attempting toreando or knee cut pass",
+        "actions": [
+          {
+            "technique": "De La Riva Sweep",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Spider Guard Sweeps",
+            "target": "Mount",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "Else if opponent secures strong grips and controls distance effectively",
+        "actions": [
+          {
+            "technique": "Guard Recovery",
+            "target": "Closed Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Shin to Shin Pull",
+            "target": "Single Leg X-Guard",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing legs to bend and lose extension pressure on opponent's arms",
+        "consequence": "Opponent can drive forward pressure and establish passing position",
+        "correction": "Maintain constant leg extension with active foot pressure against biceps or hips, keeping legs straight and creating distance"
+      },
+      {
+        "error": "Gripping too low on opponent's sleeves or wrists instead of upper sleeve",
+        "consequence": "Weak control that allows opponent to strip grips and advance position",
+        "correction": "Establish grips at or above opponent's elbows for maximum leverage and control, using deep four-finger sleeve grips"
+      },
+      {
+        "error": "Keeping hips flat on the mat without active movement",
+        "consequence": "Limited ability to create angles for sweeps and vulnerability to stack passes",
+        "correction": "Keep hips elevated and mobile, constantly adjusting angles and using hip movement to set up attacks and prevent passes"
+      },
+      {
+        "error": "Using both feet on same side creating imbalanced control",
+        "consequence": "Opponent can easily circulate around uncontrolled side to pass guard",
+        "correction": "Distribute feet strategically - one on each arm for maximum control, or one bicep and one hip for varied pressure"
+      },
+      {
+        "error": "Failing to transition when opponent secures strong grips or begins breaking guard",
+        "consequence": "Guard gets passed as opponent establishes dominant grips and posture",
+        "correction": "Recognize grip fighting disadvantage early and transition to closed guard, lasso, or other guard variation before position is compromised"
+      },
+      {
+        "error": "Over-committing to sweeps without securing proper grips first",
+        "consequence": "Failed sweep attempts that leave guard vulnerable to passes",
+        "correction": "Establish strong grip and foot control before initiating sweeps, ensuring proper setup and timing"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Spider Guard Retention Drill",
+        "description": "Partner attempts to pass spider guard using various methods while you maintain position, focusing on hip movement, grip retention, and foot placement. Start with 50% resistance and gradually increase intensity. Goal is to maintain spider guard for 2-minute rounds."
+      },
+      {
+        "name": "Sweep Chain Combinations",
+        "description": "Flow through spider guard sweep sequences - balloon sweep to triangle to omoplata. Partner provides graduated resistance. Practice transitioning between sweeps based on opponent's reactions. Perform 10 repetitions per combination, alternating sides."
+      },
+      {
+        "name": "Grip Fighting from Spider Guard",
+        "description": "Partner attempts to break your grips while you maintain sleeve control and re-establish grips when broken. Focus on grip strength, grip replacement strategies, and maintaining foot pressure even during grip transitions. 3-minute rounds with 30-second rest."
+      },
+      {
+        "name": "Dynamic Guard Recovery",
+        "description": "Start with compromised spider guard position (weak grips or poor foot placement). Practice recovering optimal position through hip movement, grip fighting, and foot repositioning. Partner applies moderate pressure. 5 rounds of 1 minute each."
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Shortest path to Triangle",
+        "path": "Spider Guard Bottom → Triangle Setup → Triangle Control → Triangle Choke"
+      },
+      {
+        "name": "High-percentage Omoplata path",
+        "path": "Spider Guard Bottom → Omoplata Sweep → Omoplata Control → Omoplata"
+      },
+      {
+        "name": "Armbar sequence",
+        "path": "Spider Guard Bottom → Armbar from Guard → Armbar Control → Armbar Finish"
+      },
+      {
+        "name": "Sweep to submission path",
+        "path": "Spider Guard Bottom → Scissor Sweep → Mount → Armbar from Mount"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Lasso Guard",
+        "relationship": "Common variation where one leg wraps over opponent's shoulder for enhanced control"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Parent category that includes spider guard as specific variation"
+      },
+      {
+        "name": "De La Riva Guard",
+        "relationship": "Complementary guard that works well in combination with spider guard"
+      },
+      {
+        "name": "Collar Sleeve Guard",
+        "relationship": "Similar guard variation using collar and sleeve grips instead of double sleeve"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Primary submission target from spider guard attacks"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "High-percentage submission and sweep option from spider guard"
+      },
+      {
+        "name": "X-Guard",
+        "relationship": "Guard variation that can be transitioned to from spider guard"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Fallback defensive position when spider guard is compromised"
+      },
+      {
+        "name": "Sleeve Control",
+        "relationship": "Fundamental concept critical for spider guard effectiveness"
+      },
+      {
+        "name": "Grip Fighting",
+        "relationship": "Essential skill for establishing and maintaining spider guard control"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "advancement_probability": {
         "beginner": 30,
         "intermediate": 45,
         "advanced": 60
-      }
-    },
-    {
-      "technique": "Leg Drag Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 28,
-        "intermediate": 42,
-        "advanced": 58
-      }
-    },
-    {
-      "technique": "X Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 22,
-        "intermediate": 38,
-        "advanced": 52
-      }
-    },
-    {
-      "technique": "Stack Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
+      },
+      "submission_probability": {
         "beginner": 20,
         "intermediate": 35,
         "advanced": 50
-      }
+      },
+      "average_time": "1-3 minutes depending on skill level and opponent's passing strategy"
     },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Headquarters Position Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Double Under Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 18,
-        "intermediate": 32,
-        "advanced": 48
-      }
+    "expert_insights": {
+      "danaher": "Spider guard represents a fundamental principle in guard work - the creation of mechanical advantage through geometric positioning. By placing your feet on the opponent's biceps while controlling their sleeves, you create a lever system where your legs (the stronger muscle group) oppose their arms (weaker in this context). The critical technical detail is maintaining full leg extension to maximize this mechanical advantage. Many practitioners fail by allowing their knees to bend, which eliminates the structural integrity of the position. The grips must be established at or above the elbows to control the entire arm as a unit. This position exemplifies the concept of distance management in jiu-jitsu - you can extend fully to prevent forward pressure or retract strategically to create angles for sweeps and submissions. The systematic approach to spider guard involves recognizing that every opponent reaction creates a specific opportunity: posturing up opens triangles and omoplatas, driving forward opens balloon sweeps, and lateral movement opens directional sweeps.",
+      "gordon_ryan": "Spider guard is one of the highest percentage gi positions for creating sweep opportunities against standing opponents, which is why I used it extensively in my gi competition career. The key to making spider guard work at the highest levels is being extremely aggressive with your attacks - you cannot be passive or the opponent will eventually break your grips and pass. I focus on constant threatening with sweeps, forcing the opponent into defensive reactions that open up submissions. The balloon sweep is my go-to move because it works on everyone regardless of size, and when they defend it, the triangle opens up immediately. In competition, I never hold spider guard statically - I'm always moving my hips, adjusting angles, and threatening attacks to keep the opponent reactive. The worst thing you can do is let them settle into a comfortable posture and start their passing sequence. Against world-class passers, I combine spider guard with lasso and De La Riva grips to create a guard retention system rather than relying on pure spider guard alone.",
+      "eddie_bravo": "Spider guard is solid but in no-gi you obviously can't use it, which is why we developed alternatives in the 10th Planet system. However, when I do train in the gi, I look at spider guard as an entry point to more dynamic positions rather than a place to hang out. The traditional spider guard can become too static, so I like to use it momentarily to set up transitions to rubber guard, omoplata sequences, or to stand up for wrestling. One thing people don't utilize enough from spider guard is the ability to invert and attack the legs - if you have good grips and the opponent is standing, you can use that control to safely enter leg entanglements. The innovation I bring to spider guard is treating it as a transitional position in a larger system rather than a destination. Also, the bicep control you learn in spider guard translates directly to controlling the arms in rubber guard, so the grip strength and sensitivity you develop transfers between systems. For 10th Planet practitioners training in the gi, I teach spider guard as a way to develop grip fighting skills and understanding of distance control that applies universally."
     }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Scissor Sweep",
-      "target_position": "Mount Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Lasso Guard Sweeps",
-      "target_position": "Mount Bottom",
-      "success_rate": 40
-    },
-    {
-      "technique": "Triangle from Spider Guard",
-      "target_position": "Triangle Control",
-      "success_rate": 25
-    },
-    {
-      "technique": "Omoplata from Guard",
-      "target_position": "Omoplata Control",
-      "success_rate": 20
-    },
-    {
-      "technique": "Armbar from Guard",
-      "target_position": "Armbar Control",
-      "success_rate": 18
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Grip Break",
-      "target_position": "Combat Base",
-      "trigger": "Bottom player attempts to establish second sleeve grip or transition to Lasso"
-    },
-    {
-      "technique": "Leg Weave Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Bottom player switches to single-side Spider Guard with one hook"
-    },
-    {
-      "technique": "Knee Cut Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Bottom player releases foot pressure to attempt triangle or omoplata entry"
-    },
-    {
-      "technique": "Back Step",
-      "target_position": "Leg Drag Top Position",
-      "trigger": "Bottom player commits to lasso sweep attempt on one side"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If bottom player has double sleeve grips with both feet on biceps in classic Spider Guard",
-      "actions": [
-        {
-          "technique": "Grip Break",
-          "target": "Combat Base",
-          "probability": 60
-        },
-        {
-          "technique": "Leg Weave Pass",
-          "target": "Side Control Top",
-          "probability": 40
-        }
-      ]
-    },
-    {
-      "condition": "Else if bottom player transitions to Lasso Guard on one side while maintaining Spider Guard on other",
-      "actions": [
-        {
-          "technique": "Toreando Pass",
-          "target": "Side Control Top",
-          "probability": 50
-        },
-        {
-          "technique": "Back Step",
-          "target": "Leg Drag Top Position",
-          "probability": 35
-        },
-        {
-          "technique": "X Pass",
-          "target": "Side Control Top",
-          "probability": 30
-        }
-      ]
-    },
-    {
-      "condition": "Else if bottom player has single-side Spider Guard with free hand controlling collar or lapel",
-      "actions": [
-        {
-          "technique": "Knee Slice Pass",
-          "target": "Side Control Top",
-          "probability": 55
-        },
-        {
-          "technique": "Long Step Pass",
-          "target": "Headquarters Position Top",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "Else if bottom player commits to triangle or omoplata entry, releasing foot pressure",
-      "actions": [
-        {
-          "technique": "Stack Pass",
-          "target": "Side Control Top",
-          "probability": 60
-        },
-        {
-          "technique": "Leg Drag Pass",
-          "target": "Side Control Top",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "Else if grips are broken and bottom player has not yet re-established guard structure",
-      "actions": [
-        {
-          "technique": "Double Under Pass",
-          "target": "Side Control Top",
-          "probability": 65
-        },
-        {
-          "technique": "Toreando Pass",
-          "target": "Side Control Top",
-          "probability": 60
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting to pass with sleeve grips still intact, allowing bottom player to maintain full distance control",
-      "consequence": "Bottom player easily executes sweeps or transitions to submissions as top player moves forward into their control structure",
-      "correction": "Systematically break grips first using proper grip-breaking mechanics, then establish your own passing grips before advancing"
-    },
-    {
-      "error": "Staying too close and allowing bottom player to break posture down with collar grips combined with Spider Guard hooks",
-      "consequence": "Top player gets swept forward or pulled into triangle/omoplata entries where bottom player has superior control",
-      "correction": "Maintain distance and upright posture, step back when necessary to reset and prevent posture breaks"
-    },
-    {
-      "error": "Committing weight forward onto one side while bottom player still has strong Spider Guard on that side",
-      "consequence": "Easy technical sweep for bottom player as top player's weight is already committed in direction of sweep",
-      "correction": "Only commit weight forward after neutralizing the Spider Guard on that side through grip breaks and leg control"
-    },
-    {
-      "error": "Ignoring the lasso hook transition, allowing bottom player to establish deep lasso control",
-      "consequence": "Lasso becomes extremely difficult to pass and opens multiple sweep and omoplata opportunities for bottom player",
-      "correction": "Recognize lasso entry early and immediately address it with proper lasso passing sequences or prevent the entry through grip fighting"
-    },
-    {
-      "error": "Using arms to fight against the foot pressure on biceps, creating arm fatigue and wasted energy",
-      "consequence": "Top player tires quickly, grips weaken, and bottom player maintains control with minimal energy expenditure",
-      "correction": "Use posture, distance management, and systematic grip breaks rather than muscling against foot pressure"
-    },
-    {
-      "error": "Failing to control the bottom player's hips and legs after breaking grips, allowing immediate guard re-establishment",
-      "consequence": "Bottom player simply re-establishes Spider Guard and the passing cycle restarts with no progress made",
-      "correction": "Immediately control pants/legs and pressure forward to flatten the guard structure once grips are broken"
-    },
-    {
-      "error": "Standing too narrow or with feet too close together when facing Spider Guard",
-      "consequence": "Poor base makes top player highly vulnerable to technical sweeps even with mediocre Spider Guard execution",
-      "correction": "Maintain wide, stable base with feet outside opponent's hips and weight centered between both legs"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Systematic Grip Breaking Drill",
-      "description": "Partner establishes Spider Guard with double sleeve grips and bicep hooks. Top player practices systematic grip breaking techniques including the thumb strip, two-hands-on-one break, and posture-based breaks. Rotate through all grip break variations. Bottom player maintains moderate resistance but allows successful breaks. Focus on technique and efficiency rather than strength.",
-      "duration": "5 minutes"
-    },
-    {
-      "name": "Spider Guard Passing Positional Sparring",
-      "description": "Bottom player starts in Spider Guard with grips established. Top player must pass within 3 minutes using any systematic passing approach. If bottom player sweeps or submits, reset to Spider Guard. Track successful passes and analyze which passing sequences work best against different Spider Guard variations.",
-      "duration": "3 minute rounds, 5-8 rounds"
-    },
-    {
-      "name": "Distance Management and Posture Drill",
-      "description": "Bottom player establishes Spider Guard and actively attempts to break top player's posture down using collar grips combined with foot pressure. Top player practices maintaining distance and upright posture through proper stance, distance control, and timely backward steps. Emphasize staying safe rather than passing aggressively.",
-      "duration": "4 minutes"
-    },
-    {
-      "name": "Counter to Lasso Transition Drill",
-      "description": "Bottom player starts in Spider Guard and attempts to transition one hook to lasso. Top player must recognize the transition and immediately counter with appropriate passing sequences (toreando, back step, or X-pass). Practice both sides. Focus on timing the counter during the transition window.",
-      "duration": "6 minutes"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest path to dominant position",
-      "path": "Spider Guard Top → Toreando Pass → Side Control Top → Mount Top → Armbar from Mount"
-    },
-    {
-      "name": "High-percentage grip break to back attack",
-      "path": "Spider Guard Top → Grip Break → Leg Drag Pass → Back Control Top → Rear Naked Choke"
-    },
-    {
-      "name": "Technical passing to submission control",
-      "path": "Spider Guard Top → Knee Slice Pass → Side Control Top → North-South Top → Kimura from North-South"
-    },
-    {
-      "name": "Counter-sweep to dominant finish",
-      "path": "Spider Guard Top → Stack Pass → Side Control Top → Mount Top → Ezekiel from Mount"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Spider Guard Bottom",
-      "relationship": "Opposite position - understanding bottom perspective improves passing"
-    },
-    {
-      "name": "Combat Base",
-      "relationship": "Transitional position for grip fighting and passing setup"
-    },
-    {
-      "name": "Toreando Pass",
-      "relationship": "Primary passing technique from Spider Guard Top"
-    },
-    {
-      "name": "Lasso Guard Top",
-      "relationship": "Common variation when bottom player transitions from Spider Guard"
-    },
-    {
-      "name": "Grip Fighting",
-      "relationship": "Essential concept for success in Spider Guard Top"
-    },
-    {
-      "name": "Guard Passing Principles",
-      "relationship": "Fundamental concepts applicable to Spider Guard passing"
-    },
-    {
-      "name": "Leg Drag Pass",
-      "relationship": "High-percentage passing option from Spider Guard Top"
-    },
-    {
-      "name": "X Pass",
-      "relationship": "Effective passing technique against lasso transitions"
-    },
-    {
-      "name": "Posture Breaking",
-      "relationship": "Key defensive concept - what bottom player attempts, top player must defend"
-    },
-    {
-      "name": "Open Guard Top",
-      "relationship": "Parent category of guard passing positions"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 55,
-      "intermediate": 65,
-      "advanced": 75
-    },
-    "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 45,
-      "advanced": 60
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 8,
-      "advanced": 12
-    },
-    "average_time": "1-3 minutes"
   },
-  "expert_insights": {
-    "danaher": "Spider Guard represents one of the most systematically sound distance management systems in Brazilian Jiu-Jitsu, utilizing biomechanical principles of leverage through extended limbs controlling the opponent's arms while the feet create frames against the torso. For the top player, the fundamental understanding must be that Spider Guard is a grip-dependent position - once the grips are broken, the position collapses entirely. The methodology for passing must therefore be systematic grip breaking followed by immediate leg control before the bottom player can re-establish their guard structure. The most common error I observe is practitioners attempting to pass with grips intact, which is biomechanically inefficient and tactically unsound. Instead, utilize proper grip-breaking mechanics that attack the thumb or use two-hands-on-one leverage, then immediately transition to passing grips on the pants or legs while maintaining distance to prevent re-gripping. The passing sequences from Spider Guard should exploit the fundamental weakness of the position: when the bottom player's feet are on your biceps or torso, their legs are extended and vulnerable to being pressured down and controlled.",
-    "gordon_ryan": "In competition, Spider Guard is one of the most annoying guards to deal with because it's designed purely to stall and create distance - it's a negative position that prevents you from passing but doesn't really threaten you if you stay disciplined. My approach is aggressive and systematic: I immediately attack the grips with violent grip breaks, step back to create distance if they're threatening sweeps, then as soon as I break the grips I'm pressuring forward hard with toreando or leg drag passes before they can reset. The key is never giving them time to re-establish - you break grips and immediately pass in one continuous motion. I've found that most Spider Guard players rely heavily on their grips and don't have good answers when you break them efficiently and attack immediately. Also, I specifically target the single-side Spider Guard moment when they're transitioning between grips or moving to lasso - that's when they're most vulnerable. In ADCC and no-gi, this position barely exists because sleeve grips aren't available, which tells you everything about how grip-dependent it really is. Stay patient, break grips systematically, then explode through with your passing sequence.",
-    "eddie_bravo": "Spider Guard from the top is all about understanding that the bottom guy is using his feet like hands to control distance and create frames - it's an intelligent design but it has weaknesses you can exploit. In the 10th Planet system, we approach this differently than traditional gi passers because we're thinking about the no-gi equivalent and translating those concepts. The key innovation is recognizing that when someone has their feet on your biceps, they're essentially giving you their legs - you just need to trap them and pass around. I like the cartwheel pass and other dynamic movements that completely change the angle and make their foot pressure irrelevant. Also, we use a lot of pressure on the legs themselves, like pushing their knees together or stepping over one leg while controlling the other. The traditional approach is too respectful of the guard - instead, I advocate for aggressive leg attacks and constant angle changes that force them to choose between maintaining their grips or defending their legs. Remember, Spider Guard is a stalling position in many ways, so if you're dynamic and constantly changing angles, you're forcing them to react rather than control. Get creative, use your wrestling, and don't be afraid to abandon traditional passing sequences for more unorthodox attacks."
+  "top": {
+    "name": "Spider Guard Top",
+    "description": "Master Spider Guard Top in BJJ. Learn grip breaking, passing strategies, and transitions. Face Spider Guard Bottom with 45% intermediate pass success.",
+    "tags": ["bjj", "position", "guard-passing", "spider-guard", "top-position", "open-guard"],
+    "overview": "Spider Guard Top is the position where the top player is standing or on their knees facing an opponent who has established Spider Guard Bottom, with at least one sleeve grip and foot placement on the bicep or hip. This is a challenging guard-passing scenario that requires systematic grip breaking, posture control, and strategic movement to overcome the bottom player's distance management and sweeping threats. The top player must balance between staying safe from sweeps while creating passing opportunities through grip breaks, angle changes, and pressure application. Success in this position requires understanding the mechanics of Spider Guard control points and having a systematic approach to neutralizing the bottom player's offensive capabilities. The position is commonly encountered in both gi and competition settings, making it an essential skill for any serious BJJ practitioner.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Top player standing or on knees facing bottom player who has established Spider Guard with at least one sleeve grip and corresponding foot placement on bicep or hip",
+      "Bottom player on their back or seated with hips elevated off mat using foot pressure on top player's arms or torso to create distance and control posture",
+      "Top player maintaining upright posture while managing sleeve grips and foot pressure from bottom player, seeking to break grips and establish passing grips",
+      "Both players engaged in grip fighting battle with top player attempting to control pants or legs while bottom player maintains sleeve and collar grips with feet creating frames"
+    ],
+    "prerequisites": [
+      "Bottom player has established at least one Spider Guard hook with corresponding sleeve grip",
+      "Top player is in standing or combat base position facing the guard",
+      "Bottom player has sufficient space and distance control to maintain foot pressure",
+      "Both players are engaged in active grip fighting",
+      "Top player has not yet achieved dominant passing grips or position"
+    ],
+    "key_principles": [
+      "Maintain strong upright posture to prevent being broken down or swept forward",
+      "Systematically break grips before attempting to pass, never force passes with grips intact",
+      "Control distance by stepping back or circling to reduce effectiveness of Spider Guard hooks",
+      "Use grip breaks in combination with angle changes to create passing opportunities",
+      "Keep weight centered and base wide to defend against technical sweeps like lasso sweeps and scissor variations",
+      "Target weak points in the guard structure such as single-side Spider Guard or transitions between grips",
+      "Pressure the legs down and forward once grips are broken to flatten the guard and enable passing sequences"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Toreando Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Leg Drag Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Knee Slice Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 28,
+          "intermediate": 42,
+          "advanced": 58
+        }
+      },
+      {
+        "technique": "X Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 22,
+          "intermediate": 38,
+          "advanced": 52
+        }
+      },
+      {
+        "technique": "Stack Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Long Step Pass",
+        "target_position": "Headquarters Position",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Double Under Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 18,
+          "intermediate": 32,
+          "advanced": 48
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Scissor Sweep",
+        "target_position": "Mount",
+        "success_rate": 35
+      },
+      {
+        "technique": "Lasso Guard Sweeps",
+        "target_position": "Mount",
+        "success_rate": 40
+      },
+      {
+        "technique": "Triangle Setup",
+        "target_position": "Triangle Control",
+        "success_rate": 25
+      },
+      {
+        "technique": "Omoplata Sweep",
+        "target_position": "Omoplata Control",
+        "success_rate": 20
+      },
+      {
+        "technique": "Armbar from Guard",
+        "target_position": "Armbar Control",
+        "success_rate": 18
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Grip Break",
+        "target_position": "Combat Base",
+        "trigger": "Bottom player attempts to establish second sleeve grip or transition to Lasso"
+      },
+      {
+        "technique": "Leg Weave Pass",
+        "target_position": "Side Control",
+        "trigger": "Bottom player switches to single-side Spider Guard with one hook"
+      },
+      {
+        "technique": "Knee Cut Pass",
+        "target_position": "Side Control",
+        "trigger": "Bottom player releases foot pressure to attempt triangle or omoplata entry"
+      },
+      {
+        "technique": "Back Step",
+        "target_position": "Leg Drag Control",
+        "trigger": "Bottom player commits to lasso sweep attempt on one side"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If bottom player has double sleeve grips with both feet on biceps in classic Spider Guard",
+        "actions": [
+          {
+            "technique": "Grip Break",
+            "target": "Combat Base",
+            "probability": 60
+          },
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player transitions to Lasso Guard on one side while maintaining Spider Guard on other",
+        "actions": [
+          {
+            "technique": "Toreando Pass",
+            "target": "Side Control",
+            "probability": 50
+          },
+          {
+            "technique": "Back Step",
+            "target": "Leg Drag Control",
+            "probability": 35
+          },
+          {
+            "technique": "X Pass",
+            "target": "Side Control",
+            "probability": 30
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player has single-side Spider Guard with free hand controlling collar or lapel",
+        "actions": [
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 55
+          },
+          {
+            "technique": "Long Step Pass",
+            "target": "Headquarters Position",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "Else if bottom player commits to triangle or omoplata entry, releasing foot pressure",
+        "actions": [
+          {
+            "technique": "Stack Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "Else if grips are broken and bottom player has not yet re-established guard structure",
+        "actions": [
+          {
+            "technique": "Double Under Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Toreando Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to pass with sleeve grips still intact, allowing bottom player to maintain full distance control",
+        "consequence": "Bottom player easily executes sweeps or transitions to submissions as top player moves forward into their control structure",
+        "correction": "Systematically break grips first using proper grip-breaking mechanics, then establish your own passing grips before advancing"
+      },
+      {
+        "error": "Staying too close and allowing bottom player to break posture down with collar grips combined with Spider Guard hooks",
+        "consequence": "Top player gets swept forward or pulled into triangle or omoplata entries where bottom player has superior control",
+        "correction": "Maintain distance and upright posture, step back when necessary to reset and prevent posture breaks"
+      },
+      {
+        "error": "Committing weight forward onto one side while bottom player still has strong Spider Guard on that side",
+        "consequence": "Easy technical sweep for bottom player as top player's weight is already committed in direction of sweep",
+        "correction": "Only commit weight forward after neutralizing the Spider Guard on that side through grip breaks and leg control"
+      },
+      {
+        "error": "Ignoring the lasso hook transition, allowing bottom player to establish deep lasso control",
+        "consequence": "Lasso becomes extremely difficult to pass and opens multiple sweep and omoplata opportunities for bottom player",
+        "correction": "Recognize lasso entry early and immediately address it with proper lasso passing sequences or prevent the entry through grip fighting"
+      },
+      {
+        "error": "Using arms to fight against the foot pressure on biceps, creating arm fatigue and wasted energy",
+        "consequence": "Top player tires quickly, grips weaken, and bottom player maintains control with minimal energy expenditure",
+        "correction": "Use posture, distance management, and systematic grip breaks rather than muscling against foot pressure"
+      },
+      {
+        "error": "Failing to control the bottom player's hips and legs after breaking grips, allowing immediate guard re-establishment",
+        "consequence": "Bottom player simply re-establishes Spider Guard and the passing cycle restarts with no progress made",
+        "correction": "Immediately control pants or legs and pressure forward to flatten the guard structure once grips are broken"
+      },
+      {
+        "error": "Standing too narrow or with feet too close together when facing Spider Guard",
+        "consequence": "Poor base makes top player highly vulnerable to technical sweeps even with mediocre Spider Guard execution",
+        "correction": "Maintain wide, stable base with feet outside opponent's hips and weight centered between both legs"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Systematic Grip Breaking Drill",
+        "description": "Partner establishes Spider Guard with double sleeve grips and bicep hooks. Top player practices systematic grip breaking techniques including the thumb strip, two-hands-on-one break, and posture-based breaks. Rotate through all grip break variations. Bottom player maintains moderate resistance but allows successful breaks. Focus on technique and efficiency rather than strength.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Spider Guard Passing Positional Sparring",
+        "description": "Bottom player starts in Spider Guard with grips established. Top player must pass within 3 minutes using any systematic passing approach. If bottom player sweeps or submits, reset to Spider Guard. Track successful passes and analyze which passing sequences work best against different Spider Guard variations.",
+        "duration": "3 minute rounds, 5-8 rounds"
+      },
+      {
+        "name": "Distance Management and Posture Drill",
+        "description": "Bottom player establishes Spider Guard and actively attempts to break top player's posture down using collar grips combined with foot pressure. Top player practices maintaining distance and upright posture through proper stance, distance control, and timely backward steps. Emphasize staying safe rather than passing aggressively.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Counter to Lasso Transition Drill",
+        "description": "Bottom player starts in Spider Guard and attempts to transition one hook to lasso. Top player must recognize the transition and immediately counter with appropriate passing sequences (toreando, back step, or X-pass). Practice both sides. Focus on timing the counter during the transition window.",
+        "duration": "6 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Shortest path to dominant position",
+        "path": "Spider Guard Top → Toreando Pass → Side Control → Mount → Armbar from Mount"
+      },
+      {
+        "name": "High-percentage grip break to back attack",
+        "path": "Spider Guard Top → Grip Break → Leg Drag Pass → Back Control → Rear Naked Choke"
+      },
+      {
+        "name": "Technical passing to submission control",
+        "path": "Spider Guard Top → Knee Slice Pass → Side Control → North-South → Kimura from North-South"
+      },
+      {
+        "name": "Counter-sweep to dominant finish",
+        "path": "Spider Guard Top → Stack Pass → Side Control → Mount → Ezekiel Choke"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Spider Guard",
+        "relationship": "Opposite position - understanding bottom perspective improves passing"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Transitional position for grip fighting and passing setup"
+      },
+      {
+        "name": "Toreando Pass",
+        "relationship": "Primary passing technique from Spider Guard Top"
+      },
+      {
+        "name": "Lasso Guard",
+        "relationship": "Common variation when bottom player transitions from Spider Guard"
+      },
+      {
+        "name": "Grip Fighting",
+        "relationship": "Essential concept for success in Spider Guard Top"
+      },
+      {
+        "name": "Guard Passing Principles",
+        "relationship": "Fundamental concepts applicable to Spider Guard passing"
+      },
+      {
+        "name": "Leg Drag Pass",
+        "relationship": "High-percentage passing option from Spider Guard Top"
+      },
+      {
+        "name": "X Pass",
+        "relationship": "Effective passing technique against lasso transitions"
+      },
+      {
+        "name": "Posture Breaking",
+        "relationship": "Key defensive concept - what bottom player attempts, top player must defend"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Parent category of guard passing positions"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 55,
+        "intermediate": 65,
+        "advanced": 75
+      },
+      "advancement_probability": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 8,
+        "advanced": 12
+      },
+      "average_time": "1-3 minutes"
+    },
+    "expert_insights": {
+      "danaher": "Spider Guard represents one of the most systematically sound distance management systems in Brazilian Jiu-Jitsu, utilizing biomechanical principles of leverage through extended limbs controlling the opponent's arms while the feet create frames against the torso. For the top player, the fundamental understanding must be that Spider Guard is a grip-dependent position - once the grips are broken, the position collapses entirely. The methodology for passing must therefore be systematic grip breaking followed by immediate leg control before the bottom player can re-establish their guard structure. The most common error I observe is practitioners attempting to pass with grips intact, which is biomechanically inefficient and tactically unsound. Instead, utilize proper grip-breaking mechanics that attack the thumb or use two-hands-on-one leverage, then immediately transition to passing grips on the pants or legs while maintaining distance to prevent re-gripping. The passing sequences from Spider Guard should exploit the fundamental weakness of the position: when the bottom player's feet are on your biceps or torso, their legs are extended and vulnerable to being pressured down and controlled.",
+      "gordon_ryan": "In competition, Spider Guard is one of the most annoying guards to deal with because it's designed purely to stall and create distance - it's a negative position that prevents you from passing but doesn't really threaten you if you stay disciplined. My approach is aggressive and systematic: I immediately attack the grips with violent grip breaks, step back to create distance if they're threatening sweeps, then as soon as I break the grips I'm pressuring forward hard with toreando or leg drag passes before they can reset. The key is never giving them time to re-establish - you break grips and immediately pass in one continuous motion. I've found that most Spider Guard players rely heavily on their grips and don't have good answers when you break them efficiently and attack immediately. Also, I specifically target the single-side Spider Guard moment when they're transitioning between grips or moving to lasso - that's when they're most vulnerable. In ADCC and no-gi, this position barely exists because sleeve grips aren't available, which tells you everything about how grip-dependent it really is. Stay patient, break grips systematically, then explode through with your passing sequence.",
+      "eddie_bravo": "Spider Guard from the top is all about understanding that the bottom guy is using his feet like hands to control distance and create frames - it's an intelligent design but it has weaknesses you can exploit. In the 10th Planet system, we approach this differently than traditional gi passers because we're thinking about the no-gi equivalent and translating those concepts. The key innovation is recognizing that when someone has their feet on your biceps, they're essentially giving you their legs - you just need to trap them and pass around. I like the cartwheel pass and other dynamic movements that completely change the angle and make their foot pressure irrelevant. Also, we use a lot of pressure on the legs themselves, like pushing their knees together or stepping over one leg while controlling the other. The traditional approach is too respectful of the guard - instead, I advocate for aggressive leg attacks and constant angle changes that force them to choose between maintaining their grips or defending their legs. Remember, Spider Guard is a stalling position in many ways, so if you're dynamic and constantly changing angles, you're forcing them to react rather than control. Get creative, use your wrestling, and don't be afraid to abandon traditional passing sequences for more unorthodox attacks."
+    }
   }
 }

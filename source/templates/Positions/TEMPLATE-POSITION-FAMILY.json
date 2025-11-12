@@ -420,7 +420,7 @@
             "properties": {
               "name": {
                 "type": "string",
-                "minLength": 10
+                "minLength": 3
               },
               "description": {
                 "type": "string",
@@ -428,7 +428,8 @@
               },
               "duration": {
                 "type": "string",
-                "minLength": 10
+                "description": "Optional drill duration",
+                "examples": ["3 minutes", "5 minutes", "10 minutes"]
               }
             },
             "additionalProperties": false
@@ -447,7 +448,7 @@
             "properties": {
               "name": {
                 "type": "string",
-                "minLength": 10
+                "minLength": 3
               },
               "path": {
                 "type": "string",
@@ -471,7 +472,7 @@
             "properties": {
               "name": {
                 "type": "string",
-                "minLength": 10
+                "minLength": 3
               },
               "relationship": {
                 "type": "string",
@@ -945,7 +946,7 @@
             "properties": {
               "name": {
                 "type": "string",
-                "minLength": 10
+                "minLength": 3
               },
               "description": {
                 "type": "string",
@@ -953,7 +954,8 @@
               },
               "duration": {
                 "type": "string",
-                "minLength": 10
+                "description": "Optional drill duration",
+                "examples": ["3 minutes", "5 minutes", "10 minutes"]
               }
             },
             "additionalProperties": false
@@ -972,7 +974,7 @@
             "properties": {
               "name": {
                 "type": "string",
-                "minLength": 10
+                "minLength": 3
               },
               "path": {
                 "type": "string",
@@ -996,7 +998,7 @@
             "properties": {
               "name": {
                 "type": "string",
-                "minLength": 10
+                "minLength": 3
               },
               "relationship": {
                 "type": "string",

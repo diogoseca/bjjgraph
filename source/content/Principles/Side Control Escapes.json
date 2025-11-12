@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Side Control Escapes | BJJ Concept | BJJ Graph",
-    "description": "Understand Side Control Escapes in BJJ. Learn systematic escape frameworks, weight distribution, frame creation. Expert insights from Danaher, Ryan, and Bravo included.",
-    "principle_id": "P045",
-    "tags": ["bjj", "concept", "side-control", "escapes", "defensive", "pin-escape", "framing", "hip-escape"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Side Control Escapes",
+  "description": "Master systematic side control escape frameworks in BJJ. Learn frame creation, hip mechanics, space generation, and progressive escape sequences under pressure.",
+  "tags": ["bjj", "principle", "side-control", "escapes", "defensive", "pin-escape", "framing", "hip-escape"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Side Control Escapes represent a fundamental defensive framework encompassing the systematic principles and techniques for recovering guard or achieving neutral position when pinned in side control. This concept extends beyond individual escape techniques to include the hierarchical decision-making process, energy management strategies, and biomechanical principles that govern effective defensive movement under pressure. Understanding side control escapes is essential for survival in Brazilian Jiu-Jitsu, as side control represents one of the most common and dominant pinning positions in both gi and no-gi grappling.\n\nThe concept of side control escapes is built upon several interconnected sub-concepts including defensive framing, hip escape mechanics, space creation, and progressive escape sequences. Effective escapes require understanding the relationship between opponent weight distribution, connection points, and the defender's ability to create and exploit space. The hierarchical nature of escape attempts—from preventing mount advancement to recovering guard—requires practitioners to develop situational awareness and adaptive decision-making under significant physical and psychological pressure.\n\nMastery of side control escapes fundamentally changes a practitioner's defensive capabilities and competitive viability. While white belts often panic and exhaust themselves with ineffective struggling, advanced practitioners employ systematic escape sequences that conserve energy, exploit opponent errors, and methodically work toward guard recovery. This concept serves as the foundation for all pin escape methodologies and directly influences a practitioner's ability to survive and ultimately succeed against larger, stronger, or more experienced opponents.",
   "key_principles": [
     "**Frame Early, Frame Often**: Establish defensive frames before opponent consolidates control—prevention is infinitely easier than recovery once full pressure is established",
@@ -69,7 +66,7 @@
       "description": "Shrimping and hip mobility represent the primary movement pattern for converting created space into actual guard recovery—technical proficiency in hip escapes directly determines escape success rates"
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Efficient energy usage while defending side control determines whether practitioner can survive long enough to exploit escape opportunities—energy conservation enables sustained defensive effort"
     },
@@ -82,56 +79,86 @@
       "principle_name": "Mount Escape Series",
       "relationship_type": "Extension",
       "description": "Side control escape concepts extend logically into mount escape frameworks when opponent successfully advances—the same principles of frame creation, space generation, and hip escape apply with position-specific modifications"
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Complementary",
+      "description": "The fundamental movement patterns of bridging and shrimping form the mechanical foundation for all side control escape execution—technical mastery of these movements is essential"
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Complementary",
+      "description": "All side control escapes depend on systematic space generation between defender and attacker—understanding space creation principles determines escape pathway selection"
+    },
+    {
+      "principle_name": "Connection Breaking",
+      "relationship_type": "Prerequisite",
+      "description": "Identifying and breaking opponent's key connection points must occur before escape movement can be effective—connection breaking precedes positional change"
+    },
+    {
+      "principle_name": "Guard Recovery",
+      "relationship_type": "Extension",
+      "description": "Successful side control escapes culminate in guard recovery—understanding guard recovery principles ensures defender can consolidate escaped position"
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Complementary",
+      "description": "Specific framing techniques and angles for side control defense provide the tactical implementation of frame creation principles in this positional context"
+    },
+    {
+      "principle_name": "Pin Escape Methodology",
+      "relationship_type": "Prerequisite",
+      "description": "General pin escape methodology provides the overarching framework within which side control specific techniques are organized and selected"
     }
   ],
   "application_contexts": [
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "Primary application environment where defender employs systematic frame establishment, underhook battle, and progressive hip escape sequences to recover closed guard, half guard, or butterfly guard while preventing opponent advancement to mount or north-south"
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "Modified escape framework emphasizing inside position recovery and frame angles adjusted for vertical rather than horizontal pressure—concepts of space creation and hip mobility apply with position-specific technical modifications for the elevated pressure point"
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Escape principles apply with emphasis on preventing arm isolation and maintaining elbow-knee connections—hip escape execution becomes more challenging requiring alternative pathways such as bridging to opponent's side or inverting to recover guard"
     },
     {
-      "context": "Kesa Gatame Bottom",
+      "context": "Kesa Gatame",
       "how_applied": "Traditional scarf hold position requires modified escape approach emphasizing far arm extraction and bridge-to-opposite-side rather than standard hip escape—core principles of frame creation and energy management remain constant while technical execution adapts"
     },
     {
-      "context": "Reverse Kesa-Gatame Bottom",
+      "context": "Reverse Kesa-Gatame",
       "how_applied": "Reverse scarf hold escapes employ similar bridging concepts as traditional kesa gatame but with modified angle and emphasis on preventing far arm control—understanding standard side control escape hierarchy informs systematic approach"
     },
     {
-      "context": "Modified Scarf Hold Bottom",
+      "context": "Modified Scarf Hold",
       "how_applied": "Variations of scarf hold require recognition of which standard escape concepts apply and which require position-specific modifications—frame angles, bridge directions, and hip escape pathways adjust while core principles remain consistent"
     },
     {
-      "context": "100 Kilos Bottom Position",
+      "context": "100 Kilos",
       "how_applied": "Heavy top pressure variation of side control emphasizing survival and breathing maintenance before technical escape—energy conservation and psychological composure become paramount with escape execution requiring precise timing during pressure transitions"
     },
     {
-      "context": "Twister Side Control Bottom",
+      "context": "Twister Side Control",
       "how_applied": "Specialized variation requiring heightened awareness of submission threats while executing escape sequences—standard frame and hip escape concepts apply with additional emphasis on preventing lockdown and protecting far knee from capture"
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "When escapes fail and defender turtles, side control escape concepts inform decision to return to guard versus accept back exposure—understanding failed escape mechanics helps prevent repeated mistakes from turtle position"
     },
     {
-      "context": "Guard Recovery Bottom",
-      "how_applied": "Final stage of successful escape sequence where defender consolidates guard position—concepts of maintaining frames and space creation continue through guard recovery to prevent immediate guard passing"
-    },
-    {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Partial escape success where defender recovers half guard requires modified application of side control escape principles—underhook battle and space creation continue from half guard with position-specific objectives"
     },
     {
-      "context": "Defensive Bottom Position",
+      "context": "Defensive Position",
       "how_applied": "Generic defensive posture employs side control escape principles of frame maintenance, breathing regulation, and systematic space creation regardless of specific pin variation—conceptual understanding transcends specific positional details"
+    },
+    {
+      "context": "Mount",
+      "how_applied": "When prevention fails and opponent advances to mount, the same conceptual framework of frame creation, hip escape, and progressive space generation applies with position-specific technical modifications for the more dominant position"
     }
   ],
   "decision_framework": [
@@ -290,26 +317,26 @@
   "related_content": [
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Overarching framework that side control escapes exist within—understanding positional hierarchy determines when to prevent advancement versus when to accept position change for better escape opportunity"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational mechanical skill required for all side control escape attempts—quality of defensive frames directly determines escape success probability"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary movement pattern for converting created space into guard recovery—technical proficiency in hip escapes is essential for completing escape sequences"
     },
     {
-      "name": "Energy Management System",
-      "content_type": "Concept",
+      "name": "Energy Conservation",
+      "content_type": "Principle",
       "relationship": "Determines sustainability of defensive effort and ability to wait for optimal escape opportunities—energy conservation enables extended survival under pressure"
     },
     {
-      "name": "Side Control Bottom",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Primary positional context where side control escape concepts are applied—specific techniques and decision frameworks manifest within this position"
     },
@@ -330,7 +357,7 @@
     },
     {
       "name": "Mount Escape Series",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Extension of side control escape concepts into more disadvantageous position—same principles of frame maintenance and progressive escape apply with position-specific modifications"
     },
     {

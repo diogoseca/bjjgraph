@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Guillotine Defense | BJJ Technique | BJJ Graph",
-    "description": "Learn Guillotine Defense in BJJ. Step-by-step escape from Guillotine Choke attacks. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Essential defensive technique.",
-    "transition_id": "T214",
-    "tags": [
-      "bjj",
-      "transition",
-      "defense",
-      "guillotine",
-      "escape",
-      "choke-defense",
-      "survival"
-    ],
-    "starting_position": "Front Headlock Control Position",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Guillotine Defense",
+  "description": "Learn Guillotine Defense in BJJ. Step-by-step escape from Guillotine Choke attacks. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Essential defensive technique.",
+  "tags": [
+    "bjj",
+    "transition",
+    "defense",
+    "guillotine",
+    "escape",
+    "choke-defense",
+    "survival"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jitsu, addressing one of the most common and dangerous submission threats across all levels of competition. When caught in a guillotine choke, whether standing or on the ground, understanding the proper defensive mechanics can mean the difference between tapping and escaping to a superior position. This defensive sequence focuses on alleviating pressure from the carotid arteries while simultaneously creating escape pathways that neutralize the submission threat. The defense must be executed with precise timing and technical understanding, as improper attempts can actually tighten the choke and accelerate the need to tap. Modern guillotine defense emphasizes posture management, hand fighting, and strategic movement patterns that exploit the mechanical weaknesses inherent in the attacking position. Success requires both preventative awareness to avoid deep guillotine positions and reactive technical skills to escape when caught. The technique serves as a fundamental component of any complete defensive system, particularly relevant in no-gi grappling where guillotine attacks are statistically among the most successful submissions.",
   "key_principles": [
@@ -250,7 +247,7 @@
       "relationship": "Different attacking variations require defensive adaptations"
     },
     {
-      "name": "Front Headlock Control Position",
+      "name": "Front Headlock",
       "relationship": "Starting position where guillotine threats commonly emerge"
     },
     {

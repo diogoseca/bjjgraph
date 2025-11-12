@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Ouchi Gari | BJJ Technique | BJJ Graph",
-    "description": "Master Ouchi Gari takedown in BJJ. Step-by-step execution from standing to dominant top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T060",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "judo",
-      "fundamental",
-      "standing",
-      "foot-sweep",
-      "off-balancing"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Ouchi Gari",
+  "description": "Master Ouchi Gari takedown in BJJ. Step-by-step execution from standing to dominant top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "judo",
+    "fundamental",
+    "standing",
+    "foot-sweep",
+    "off-balancing"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has become an essential tool in Brazilian Jiu-Jitsu's standing game. The technique involves reaping the opponent's lead leg from the inside while simultaneously breaking their posture and balance to the rear corner. Unlike pure throwing arts where the goal is a clean ippon, BJJ practitioners use Ouchi Gari both as a takedown to achieve dominant top position and as a setup for other attacks when the opponent defends. The technique's effectiveness lies in its ability to capitalize on natural standing posture—most grapplers stand with weight distributed between both legs, making them vulnerable to this inside leg attack. When executed properly, Ouchi Gari creates a powerful combination of off-balancing, sweeping action, and forward pressure that makes it extremely difficult for the opponent to maintain their base. The technique integrates seamlessly with BJJ's ground game, as a successful Ouchi Gari typically lands the practitioner in side control or a transitional position from which mount or back control can be achieved. Its versatility makes it valuable across all rulesets, from IBJJF competition to no-gi grappling and MMA applications.",
   "key_principles": [
@@ -246,7 +243,7 @@
     },
     {
       "question": "What are the key differences in how Ouchi Gari is finished in judo versus BJJ, and why do these differences exist?",
-      "answer": "In judo, Ouchi Gari is finished with emphasis on making opponent land flat on their back with force and control (ippon), often requiring the thrower to maintain upright posture throughout and create a clean throwing motion. In BJJ, the finish prioritizes landing in a dominant position like side control, so the thrower typically follows opponent to the ground more aggressively, sometimes even sacrificing perfect throwing form to ensure they achieve top position. BJJ practitioners are less concerned with the aesthetics of the throw and more focused on the positional outcome. This reflects the different scoring systems and objectives—judo values the throw itself as potential match-ending, while BJJ treats it as a means to achieve positional dominance for continued grappling.",
+      "answer": "In judo, Ouchi Gari is finished with emphasis on making opponent land flat on their back with force and control (ippon), often requiring the thrower to maintain upright posture throughout and create a clean throwing motion. In BJJ, the finish prioritizes landing in a dominant position like side control, so the thrower typically follows opponent to the ground more aggressively, sometimes even sacrificing perfect throwing form to ensure they achieve top position. BJJ practitioners are less concerned with the aesthetics of the throw and more focused on the positional outcome. This reflects the different scoring systems and objectives—judo values the throw itself as potentially match-ending, while BJJ treats it as a means to achieve positional dominance for continued grappling.",
       "difficulty": "Advanced"
     }
   ],
@@ -274,7 +271,7 @@
       "relationship": "Combination technique - forward throw that can be entered when opponent sprawls or pulls back from Ouchi Gari attempt"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Common ending position - typical landing position after successful Ouchi Gari execution"
     },
     {
@@ -290,16 +287,16 @@
       "relationship": "Starting position - neutral standing position from which Ouchi Gari is initiated"
     },
     {
-      "name": "Clinch Position",
+      "name": "Clinch",
       "relationship": "Setup position - grip fighting and clinch work that creates opportunities for Ouchi Gari"
-    },
-    {
-      "name": "Single Leg Entry",
-      "relationship": "Alternative technique - wrestling-based takedown that can be used in combination or as substitute when opponent defends Ouchi Gari"
     },
     {
       "name": "Sprawl",
       "relationship": "Common counter - primary defensive response opponent uses against Ouchi Gari that must be addressed"
+    },
+    {
+      "name": "Deashi Harai",
+      "relationship": "Alternative technique - advanced foot sweep that can be used in combination with Ouchi Gari"
     }
   ],
   "expert_insights": {

@@ -1,21 +1,20 @@
 {
-  "metadata": {
-    "title": "Hand Fighting from Back | BJJ Concept | BJJ Graph",
-    "description": "Understand hand fighting from back control in BJJ. Learn defensive priorities, wrist control strategies, survival frameworks.",
-    "principle_id": "P055",
-    "tags": [
-      "bjj",
-      "concept",
-      "defense",
-      "back-control",
-      "hand-fighting",
-      "submission-defense",
-      "survival"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Hand Fighting from Back",
+  "description": "Master defensive hand fighting from back control in BJJ. Learn wrist control mechanics, chin protection strategies, and survival frameworks to prevent rear naked chokes.",
+  "tags": [
+    "bjj",
+    "principle",
+    "defense",
+    "back-control",
+    "hand-fighting",
+    "submission-defense",
+    "survival",
+    "wrist-control",
+    "chin-protection"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Hand Fighting from Back represents the critical defensive skill set required when an opponent has achieved back control and is attempting to establish choking attacks, particularly the rear naked choke. Unlike proactive hand fighting in neutral positions, hand fighting from back is a survival-oriented defensive framework focused on preventing opponent's hands from connecting around the neck while maintaining breathing capacity and creating escape opportunities. This concept encompasses the biomechanical understanding, grip defense strategies, positional awareness, and mental composure required to defend against one of BJJ's most dominant attacking positions. Hand fighting from back serves as both an immediate submission defense mechanism that prevents finishing attacks and a transitional platform that enables systematic escape sequences. The ability to effectively hand fight from back often determines whether a practitioner survives dangerous positions or succumbs to high-percentage submissions, making it one of the most essential defensive concepts in BJJ.",
   "key_principles": [
     "Protect the neck with hands as the primary defensive priority before considering escape options",
@@ -84,9 +83,44 @@
       "description": "Framing principles apply in hand fighting through forearm placement and structural positioning, adapted for the specific constraints of back control defense"
     },
     {
-      "principle_name": "Submission Defense",
+      "principle_name": "RNC Defense",
       "relationship_type": "Extension",
-      "description": "Hand fighting from back represents a specialized application of general submission defense principles, tailored to the unique threats and constraints of back control positions"
+      "description": "Hand fighting from back represents the primary technical component of rear naked choke defense, forming the active defensive layer that prevents choke completion"
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Understanding which control points to prioritize in defensive contexts guides hand fighting strategy, with wrist control taking precedence over other defensive considerations"
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Effective hand fighting relies on leverage-based defenses rather than strength-based opposition, aligning with energy conservation principles for sustainable defense"
+    },
+    {
+      "principle_name": "Back Escape Series",
+      "relationship_type": "Prerequisite",
+      "description": "Hand fighting creates the defensive foundation necessary for implementing systematic back escape protocols, buying time for positional improvement"
+    },
+    {
+      "principle_name": "Defensive Strategy",
+      "relationship_type": "Extension",
+      "description": "Hand fighting from back exemplifies defensive strategy principles applied to the specific context of back control submission defense"
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Forearm frames and structural positioning in hand fighting represent specialized applications of general frame management principles"
+    },
+    {
+      "principle_name": "Connection Breaking",
+      "relationship_type": "Extension",
+      "description": "Preventing opponent's hands from connecting around the neck is a specialized application of connection breaking principles"
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Complementary",
+      "description": "Hand fighting creates the space and time necessary for implementing larger escape movements and positional adjustments"
     }
   ],
   "application_contexts": [
@@ -99,7 +133,7 @@
       "how_applied": "Defending against the seatbelt grip configuration by controlling the top hand before it can transition to choking position, often using two-on-one control to neutralize the more dangerous attacking arm"
     },
     {
-      "context": "Body Triangle Back Control",
+      "context": "Body Triangle",
       "how_applied": "Hand fighting becomes more critical when body triangle is locked as hip escape options are limited, requiring complete reliance on hand fighting to prevent submission while working systematic leg extraction"
     },
     {
@@ -107,19 +141,19 @@
       "how_applied": "Defending against standing rear attacks where gravity and opponent's body weight create additional choking pressure, requiring aggressive wrist control and chin protection while working to establish grounded position"
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Preventing opponent from establishing back control by fighting hands as they attempt to thread under the body, addressing potential choke setups before back position is fully established"
     },
     {
-      "context": "Harness Position",
+      "context": "Harness",
       "how_applied": "Defending against the harness grip where one arm is already deep, requiring emergency hand fighting protocols to prevent the second hand from connecting while working to strip the deep grip"
     },
     {
-      "context": "Gift Wrap Position",
+      "context": "Gift Wrap",
       "how_applied": "Managing the compromised position where one arm is controlled by opponent, using the free arm to defend the neck while preventing opponent from capitalizing on the trapped arm configuration"
     },
     {
-      "context": "Crucifix Position",
+      "context": "Crucifix",
       "how_applied": "Emergency hand fighting when both arms are severely compromised, using limited mobility to create chin protection and prevent choke completion despite positional disadvantage"
     },
     {
@@ -129,6 +163,18 @@
     {
       "context": "Rear Triangle",
       "how_applied": "Fighting hands while managing the additional constraint of triangle pressure, requiring modified hand positions that address both the choke threat and the triangle compression"
+    },
+    {
+      "context": "Standing Rear Clinch",
+      "how_applied": "Applying hand fighting principles in standing contexts where opponent attempts to establish rear control, preventing grip establishment before back control is fully achieved"
+    },
+    {
+      "context": "Technical Mount",
+      "how_applied": "Defending against transition to back control by maintaining hand fighting awareness as opponent establishes mounting position with back attack potential"
+    },
+    {
+      "context": "Twister Control",
+      "how_applied": "Using hand fighting principles to defend neck while managing the extreme positional constraint of twister control, prioritizing neck defense over positional escape"
     }
   ],
   "decision_framework": [
@@ -290,7 +336,7 @@
   "related_content": [
     {
       "name": "Chin Protection",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary defensive concept that works synergistically with hand fighting to prevent choke completion"
     },
     {
@@ -315,28 +361,43 @@
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Hand fighting creates the defensive foundation necessary for implementing systematic positional escapes"
     },
     {
       "name": "Grip Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "General principle that provides foundational understanding for specific back defense applications"
     },
     {
-      "name": "Body Triangle Back Control",
+      "name": "Body Triangle",
       "content_type": "Position",
       "relationship": "Advanced back control variation where hand fighting becomes even more critical due to limited escape options"
     },
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader strategic framework within which hand fighting from back represents a specific tactical application"
+    },
+    {
+      "name": "RNC Defense",
+      "content_type": "Principle",
+      "relationship": "Hand fighting constitutes the primary active component of rear naked choke defensive protocols"
+    },
+    {
+      "name": "Harness",
+      "content_type": "Position",
+      "relationship": "Compromised back control position requiring emergency hand fighting protocols"
+    },
+    {
+      "name": "Back Escape Series",
+      "content_type": "Principle",
+      "relationship": "Hand fighting provides the defensive time and space necessary for systematic escape implementation"
     }
   ],
   "expert_insights": {
-    "danaher": "Approaches hand fighting from back as a hierarchical defensive system with clear priority structure—chin protection first, wrist control second, escape third. Emphasizes understanding the biomechanical requirements for effective choking, particularly the necessity for opponent to connect both hands, which creates a binary defensive objective. Systematizes hand positions according to attack stage, from preemptive defensive positioning before attacks develop to emergency defenses when chokes are near completion. Treats hand fighting as a buying mechanism that creates time for systematic escape protocols rather than as complete solution in itself, integrating defensive hand work seamlessly with positional improvement sequences.",
-    "gordon_ryan": "Views hand fighting from back as a competition-critical skill that must be trained under maximum resistance to develop stress-tested reflexes. Focuses on what he terms aggressive defense where wrist control is maintained with sufficient strength to actually prevent opponent's hands from advancing rather than passive defensive positioning. Emphasizes the importance of immediate two-on-one control establishment on the top attacking arm, treating this as non-negotiable priority that takes precedence over all other defensive considerations. Advocates for integrating hand fighting practice with high-level competitors who apply maximum finishing pressure to develop realistic defensive capability rather than compliant drilling.",
-    "eddie_bravo": "Has developed specialized hand fighting strategies within the 10th Planet system that emphasize dynamic movement integration with wrist control rather than static defensive positioning. When teaching back defense, focuses on what he calls fighting while moving where hand fighting efforts are coordinated with continuous positional adjustment attempts rather than treating defense and escape as separate phases. Emphasizes creative defensive solutions that may violate conventional positioning principles but create tactical confusion for attackers, particularly in no-gi contexts where grip-based defenses must be adapted. Advocates for maintaining offensive mindset even from defensive positions, treating hand fighting as active problem-solving rather than passive survival."
+    "danaher": "Hand fighting from back must be understood as a hierarchical defensive system with clear priority structure—chin protection first, wrist control second, escape third. The biomechanical requirements for effective choking are precise: opponent must connect both hands with sufficient depth to compress the carotid arteries. This creates a binary defensive objective that can be systematized. I categorize hand positions according to attack stage, from preemptive defensive positioning before attacks develop to emergency defenses when chokes are near completion. Each stage has specific technical requirements and leverage points. The critical insight is that hand fighting is a buying mechanism that creates time for systematic escape protocols rather than a complete solution in itself. Students must understand that survival without escape merely delays the inevitable, so hand fighting must be seamlessly integrated with positional improvement sequences. The mental component cannot be understated—panic breathing and desperate random movements are the primary reasons skilled practitioners still succumb to back attacks.",
+    "gordon_ryan": "In competition, hand fighting from back is a make-or-break skill that must be trained under maximum resistance to develop stress-tested reflexes. I focus on what I call aggressive defense where wrist control is maintained with sufficient strength to actually prevent opponent's hands from advancing rather than passive defensive positioning. The moment back control is achieved, my hands immediately establish two-on-one control on the top attacking arm—this is non-negotiable priority that takes precedence over all other defensive considerations. Most practitioners fail because they try to escape before securing defensive hand position, creating windows for submission. I train hand fighting exclusively with high-level competitors who apply maximum finishing pressure, because compliant drilling creates false confidence that fails under competition stress. The key technical detail is shoulder elevation combined with wrist control—using skeletal structure to block arm penetration rather than relying solely on grip strength. This allows sustainable defense even when significantly fatigued late in matches.",
+    "eddie_bravo": "In the 10th Planet system, we've developed specialized hand fighting strategies that emphasize dynamic movement integration with wrist control rather than static defensive positioning. What I teach is fighting while moving—hand fighting efforts are coordinated with continuous positional adjustment attempts rather than treating defense and escape as separate phases. This creates tactical confusion for attackers because they're dealing with a moving target while trying to establish precise choke mechanics. One innovation we use is what I call active chin tucking where the chin isn't just defensive but actually used to trap and control opponent's attacking arm, creating offensive opportunities from defensive positions. In no-gi contexts where grip-based defenses must be adapted, we focus on forearm control and shoulder pressure even more than in gi. The mental approach is critical—I teach students to maintain offensive mindset even from defensive positions, treating hand fighting as active problem-solving rather than passive survival. This psychological reframing helps prevent the panic response that leads to technical breakdown."
   }
 }

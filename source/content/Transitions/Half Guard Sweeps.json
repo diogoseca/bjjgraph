@@ -1,23 +1,20 @@
 {
-  "metadata": {
-    "title": "Half Guard Sweeps | BJJ Technique | BJJ Graph",
-    "description": "Master Half Guard Sweeps in BJJ. Complete systematic approach from Half Guard Bottom to dominant top positions. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.",
-    "transition_id": "T156",
-    "tags": [
-      "bjj",
-      "technique",
-      "sweep",
-      "half-guard",
-      "bottom-position",
-      "offensive"
-    ],
-    "starting_position": "Half Guard Bottom",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 40,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Half Guard Sweeps",
+  "description": "Master Half Guard Sweeps in BJJ. Complete systematic approach from Half Guard Bottom to dominant top positions. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "technique",
+    "sweep",
+    "half-guard",
+    "bottom-position",
+    "offensive"
+  ],
+  "starting_position": "Half Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 40,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "Half Guard Sweeps represent a comprehensive offensive system from the half guard bottom position, offering multiple pathways to reverse an opponent and achieve dominant top position. The half guard has evolved from a defensive position into one of the most dynamic attacking platforms in modern Brazilian Jiu-Jitsu. These sweeps exploit the inherent structural weaknesses created when an opponent attempts to pass or maintain control in half guard. The success of half guard sweeps relies on understanding weight distribution, creating angles, and manipulating the opponent's base through systematic off-balancing. Whether using the underhook series, lockdown mechanics, or deep half guard entries, practitioners must develop a layered approach that chains multiple sweep attempts together. The half guard sweep system is particularly effective because it allows the bottom player to control distance, manage frames, and create offensive opportunities even against larger, stronger opponents. Modern competition has demonstrated that a well-developed half guard sweep game can neutralize even the most aggressive passers and create consistent paths to dominant positions or back takes.",
   "key_principles": [
@@ -91,7 +88,7 @@
     {
       "counter": "Opponent sprawls back and pulls their trapped leg free",
       "effectiveness": "Medium",
-      "your_response": "As they pull back, follow them by coming up on your knees and transitching to single leg or transitioning to butterfly guard. Alternatively, if you have underhook, use their backward movement to come up into dog fight position or take their back."
+      "your_response": "As they pull back, follow them by coming up on your knees and transitioning to single leg or transitioning to butterfly guard. Alternatively, if you have underhook, use their backward movement to come up into dogfight position or take their back."
     },
     {
       "counter": "Opponent posts strong far-side base to prevent sweep",

@@ -1,22 +1,20 @@
 {
-  "metadata": {
-    "title": "Transition Management | BJJ Concept | BJJ Graph",
-    "description": "Understand transition management in BJJ - systematic control of position changes. Learn timing, risk assessment, decision-making frameworks for dynamic movements.",
-    "principle_id": "P120",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "transitions",
-      "timing",
-      "control",
-      "decision-making",
-      "positional-hierarchy"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Transition Management",
+  "description": "Master transition management in BJJ. Learn timing recognition, risk assessment, and decision frameworks for controlling position changes. Build systematic progression chains.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "transitions",
+    "timing",
+    "control",
+    "decision-making",
+    "positional-hierarchy",
+    "strategy"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Transition Management represents the systematic skill of controlling and optimizing position changes between distinct states in the BJJ hierarchy, encompassing the timing, risk assessment, and technical execution required to move safely and effectively between positions. Unlike specific techniques which address singular movements, transition management is a comprehensive strategic framework that governs how practitioners navigate the dynamic flow between positions, balancing offensive opportunity against defensive vulnerability. This concept encompasses the decision-making processes, awareness requirements, and tactical considerations that determine whether transitions advance positional objectives or expose practitioners to counterattacks and reversals. Transition management serves as both an offensive framework for creating progressive position advancement chains and a defensive protocol for minimizing vulnerability during necessary movements. The ability to manage transitions effectively often determines the difference between controlled positional progression and chaotic scrambles, making it one of the most critical strategic elements separating intermediate from advanced practitioners.",
   "key_principles": [
     "Recognize optimal timing windows when opponent's defensive structure is compromised or distracted",
@@ -93,48 +91,98 @@
       "principle_name": "Control Maintenance",
       "relationship_type": "Complementary",
       "description": "Control principles govern how to maintain dominance during transitions, ensuring that positional changes don't sacrifice established controls or create exploitable gaps in connection management."
+    },
+    {
+      "principle_name": "Creating Reactions",
+      "relationship_type": "Extension",
+      "description": "Advanced transition management involves deliberately manipulating opponent's reactions to create timing windows, rather than passively waiting for naturally occurring opportunities."
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Complementary",
+      "description": "Maintaining stable base throughout transitions prevents overcommitment and preserves recovery options if transitional attempts are countered or fail."
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Proper frame maintenance during transitions prevents opponent from capitalizing on temporary vulnerabilities created during position changes."
+    },
+    {
+      "principle_name": "Position Transitions",
+      "relationship_type": "Extension",
+      "description": "Position transitions represent the mechanical execution component, while transition management provides the strategic decision-making framework governing when and how to execute those movements."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Complementary",
+      "description": "Guard retention principles inform defensive transition management, determining when to change guard variations versus when to maintain current structure."
+    },
+    {
+      "principle_name": "Escape Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Escape hierarchy provides the prioritization framework for transition management from inferior positions, determining which position changes represent meaningful improvement."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Transition management governs decisions about when to break posture for sweeps versus when to threaten submissions, when to open guard for technical stand-ups versus when to maintain closed position, and how to sequence attacks to create progressive advancement opportunities without exposing back or allowing opponent to establish passing grips."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Determines timing for transitioning between knee shield retention, deep half entries, and underhook battles based on opponent's pressure direction and base configuration. Manages risk-reward of recovering full guard versus sweeping to top position versus taking back, ensuring transitions don't create crossface or smash passing vulnerabilities."
     },
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Controls decisions about when to transition to high mount for submissions versus when to maintain standard mount for control, when to transition to technical mount or S-mount, and how to respond to escape attempts without sacrificing dominant position or allowing guard recovery."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Manages transitions to mount, north-south, knee on belly, or submission positions based on opponent's defensive framing and escape attempts. Determines when to pursue submissions versus when to advance position, and how to maintain control during transitional movements without allowing guard recovery."
     },
     {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Governs decisions about when to transition between body triangle, high mount, and standard back control based on opponent's defensive hand fighting and escape attempts. Manages risk of losing position during submission attempts versus maintaining control for positional dominance."
     },
     {
-      "context": "Bottom Turtle",
+      "context": "Turtle",
       "how_applied": "Determines timing for transitioning to guard recovery versus attempting single leg or other sweeps versus accepting opponent taking back. Manages vulnerability during transitions from defensive turtle to offensive positions, ensuring movements don't expose back or neck to submissions."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Controls transitions between different open guard variations (De La Riva, X-Guard, Spider Guard, etc.) based on opponent's passing style and grip configurations. Manages timing of guard pull versus takedown attempts in standing situations, and coordinates transitions to prevent guard passing during variation changes."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Governs transitions between butterfly sweeps, X-guard entries, and single leg X positions based on opponent's base and weight distribution. Determines when to elevate for sweeps versus when to maintain hooks for control, managing exposure during transitional movements."
     },
     {
-      "context": "Deep Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "Manages transitions between deep half sweeps, waiter sweeps, and back takes based on opponent's whizzer control and crossface pressure. Controls timing of entries from other half guard variations and exits to top position, minimizing vulnerability during position changes."
     },
     {
-      "context": "Knee Shield Half Guard Bottom",
+      "context": "Knee Shield Half Guard",
       "how_applied": "Determines when to transition to deep half, recover full guard, or attempt sweeps based on opponent's underhook control and passing pressure. Manages shield retention versus offensive transitions, ensuring movements don't create smash passing or leg weave vulnerabilities."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Controls transitions to reverse De La Riva, X-Guard, or berimbolo entries based on opponent's base and grip reactions. Manages timing of hook switches and inversion entries to prevent opponent establishing dominant passing positions during transitional phases."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "Governs transitions between X-Guard sweeps, single leg X entries, and leg entanglement attacks based on opponent's balance and posting reactions. Determines optimal timing for elevation versus maintaining control hooks during dynamic exchanges."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Manages transitions between different leg entanglement variations (inside ashi, outside ashi, saddle) based on opponent's defensive posture and leg positioning. Controls submission attack timing versus position consolidation to prevent opponent's leg extractions during transitional movements."
+    },
+    {
+      "context": "North-South",
+      "how_applied": "Determines when to transition to mount, side control, or submission attacks based on opponent's defensive reactions and hip escape attempts. Manages maintenance of shoulder pressure during transitional movements to prevent guard recovery."
+    },
+    {
+      "context": "Knee on Belly",
+      "how_applied": "Controls transitions between knee on belly pressure, mount entries, and submission attacks based on opponent's framing and turning reactions. Manages balance between maintaining mobile pressure and committing to positional advancement."
     }
   ],
   "decision_framework": [
@@ -290,42 +338,42 @@
   "related_content": [
     {
       "name": "Position Transitions",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Closely related concept focusing on mechanical execution of position changes"
     },
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides evaluative framework for assessing transition value and advancement potential"
     },
     {
       "name": "Timing and Rhythm",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Governs when to initiate transitions based on opponent's defensive state and movement patterns"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Influences transition frequency and commitment levels based on energy conservation principles"
     },
     {
       "name": "Risk Assessment",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides analytical framework for evaluating transition risk-reward ratios"
     },
     {
       "name": "Position Chains",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Represents advanced application of transition management through systematic position sequences"
     },
     {
       "name": "Control Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Governs preservation of dominance and connection during transitional movements"
     },
     {
       "name": "Creating Reactions",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides methods for deliberately creating transition windows through opponent manipulation"
     },
     {
@@ -339,14 +387,14 @@
       "relationship": "High-value transition category requiring sophisticated management due to vulnerability if failed"
     },
     {
-      "name": "Mount Bottom",
-      "content_type": "Position",
-      "relationship": "Inferior position where transition management critically determines escape success versus submission vulnerability"
+      "name": "Hip Escape",
+      "content_type": "Transition",
+      "relationship": "Fundamental defensive transition requiring careful timing and structural maintenance"
     },
     {
-      "name": "Half Guard Bottom",
-      "content_type": "Position",
-      "relationship": "Position with numerous transition options requiring careful management and decision-making"
+      "name": "Bridge and Roll",
+      "content_type": "Transition",
+      "relationship": "Classic transition demonstrating importance of timing recognition and momentum control"
     }
   ],
   "expert_insights": {

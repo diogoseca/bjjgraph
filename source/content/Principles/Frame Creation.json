@@ -1,21 +1,19 @@
 {
-  "metadata": {
-    "title": "Frame Creation | BJJ Concept | BJJ Graph",
-    "description": "Understand Frame Creation in BJJ. Learn structural barriers, force distribution, skeletal alignment principles. Cross-position defensive applications. Expert insights included.",
-    "principle_id": "P104",
-    "tags": [
-      "bjj",
-      "concept",
-      "defense",
-      "structure",
-      "fundamental",
-      "frames",
-      "escape"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Frame Creation",
+  "description": "Master Frame Creation in BJJ. Learn skeletal alignment, force distribution, and structural barriers to manage pressure, create space, and escape bad positions effectively.",
+  "tags": [
+    "bjj",
+    "principle",
+    "defense",
+    "structure",
+    "fundamental",
+    "frames",
+    "escape",
+    "space-creation"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Frame Creation represents the fundamental defensive skill of establishing structural barriers using the arms, legs, and torso to manage pressure, create space, and prevent an opponent from advancing position. Unlike specific techniques, framing is a conceptual framework applicable across all positions and phases of BJJ. Frames function as temporary structural supports that redirect force, create defensive space, and establish the foundation for subsequent escapes, transitions, or offensive opportunities. The concept encompasses understanding proper skeletal alignment, force distribution, connection points, and the strategic timing of frame establishment. Frame creation serves as the primary defensive mechanism that enables a practitioner to survive disadvantageous positions and create the opportunity for positional improvement, making it one of the most essential conceptual elements for both beginners and advanced practitioners. Mastery of framing transforms defensive situations from desperate struggles into calculated defensive structures that systematically neutralize opponent pressure while creating pathways for recovery.",
   "key_principles": [
     "Establish frames using proper skeletal alignment to maximize structural integrity",
@@ -92,11 +90,41 @@
       "principle_name": "Connection Breaking",
       "relationship_type": "Alternative",
       "description": "While Frame Creation focuses on establishing barriers to prevent advancement, Connection Breaking focuses on dissolving opponent's established control points. These represent complementary defensive strategies used in different phases of defensive sequences."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Extension",
+      "description": "Defensive Framing is the specific application of Frame Creation principles in defensive contexts, focusing on frame utilization during escapes and guard retention scenarios."
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Advanced form",
+      "description": "Frame Management represents the advanced skill of coordinating multiple frames over time, including strategic frame establishment, maintenance, transition, and dissolution throughout dynamic exchanges."
+    },
+    {
+      "principle_name": "Escape Fundamentals",
+      "relationship_type": "Prerequisite",
+      "description": "Frame Creation is one of the core components of Escape Fundamentals, serving as the first step in most escape sequences by creating the initial space required for movement."
+    },
+    {
+      "principle_name": "Pressure Reduction",
+      "relationship_type": "Complementary",
+      "description": "Effective frames are the primary tool for Pressure Reduction, redirecting opponent weight and force away from vulnerable areas while creating breathing room for defensive actions."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Extension",
+      "description": "Guard Retention heavily relies on Frame Creation to maintain distance and prevent guard passing, using frames to create barriers that keep opponents from establishing dominant passing positions."
+    },
+    {
+      "principle_name": "Biomechanical Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding Biomechanical Principles is essential for effective Frame Creation, as optimal framing relies on proper body mechanics, joint angles, and force distribution through skeletal structures."
     }
   ],
   "application_contexts": [
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Establishing frames against the opponent's shoulder and hip using straight-arm positioning to create space for hip escape. The near arm frames the neck/shoulder while the far arm frames the hip, creating perpendicular pressure that prevents chest-to-chest compression."
     },
     {
@@ -104,11 +132,11 @@
       "how_applied": "Creating frames with elbows tight to ribs and forearms positioned against opponent's hips or chest to prevent high mount advancement and create space for hip escape or bridge-and-roll escapes. Frames must be positioned to redirect downward pressure laterally."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Using arm frames against opponent's collar, shoulders, or biceps to manage posture and prevent opponent from establishing dominant grips or posture for passing. Frames maintain critical distance that preserves offensive capability."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Establishing underhook frames or knee shield frames that prevent opponent from flattening and establishing crossface control. The knee shield creates a structural barrier while arm frames manage upper body positioning."
     },
     {
@@ -120,7 +148,7 @@
       "how_applied": "Using one arm to frame the knee while the other frames the opponent's hip or shoulder, creating a comprehensive barrier that prevents mount transition while generating space for elbow escape or re-guard."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Creating frames with arms and legs that prevent opponent from inserting hooks or flattening while maintaining compact defensive posture. Frames establish boundaries that protect against back take attempts."
     },
     {
@@ -128,7 +156,7 @@
       "how_applied": "Establishing frames against opponent's head and hip to create the initial space necessary for bridge escapes or transitioning to turtle. The frame against the head prevents submission attempts while the hip frame creates escape pathways."
     },
     {
-      "context": "Guard Recovery",
+      "context": "Open Guard",
       "how_applied": "Using frames to create and maintain distance during scrambles, preventing opponent from establishing dominant pins while legs work to re-establish guard structure. Frames buy time for guard recovery sequences."
     },
     {
@@ -140,7 +168,19 @@
       "how_applied": "The knee shield itself functions as the primary frame, with supplementary arm frames managing upper body control. This creates a comprehensive framing structure that prevents both upper and lower body advancement."
     },
     {
-      "context": "Bottom Position Generic",
+      "context": "Technical Mount",
+      "how_applied": "Establishing frames to prevent opponent from consolidating full mount position while creating space for hip escape back to half guard or full guard recovery."
+    },
+    {
+      "context": "High Mount",
+      "how_applied": "Using frames to prevent opponent from advancing into submissions or S-mount while creating the foundation for elbow escape or bridge-based reversals."
+    },
+    {
+      "context": "Back Control",
+      "how_applied": "Creating frames with hands to defend the neck and prevent choking attacks while maintaining chin protection and creating opportunities to escape hooks and turn into opponent."
+    },
+    {
+      "context": "Defensive Position",
       "how_applied": "Universal framing principles apply across all bottom positions: establish perpendicular frames to pressure vectors, use skeletal structure for sustainability, and coordinate frames with breathing and hip movement for maximum effectiveness."
     }
   ],
@@ -216,6 +256,11 @@
       "error": "Holding breath or breathing shallowly while maintaining frames",
       "consequence": "Inadequate breathing leads to rapid fatigue, reduced core stability, and muscular tension that compromises frame structural integrity and overall defensive capability",
       "correction": "Maintain steady breathing rhythm, exhaling during frame establishment to engage core musculature and inhaling during momentary pressure reductions to maintain oxygen supply"
+    },
+    {
+      "error": "Overextending arms when creating frames",
+      "consequence": "Overextended frames lose structural integrity and become vulnerable to collapse when opponent applies lateral pressure or weight, compromising defensive effectiveness",
+      "correction": "Maintain slight bend in elbows to preserve structural strength and allow for micro-adjustments, keeping frames within optimal range of motion for sustained pressure resistance"
     }
   ],
   "training_approaches": [
@@ -298,22 +343,22 @@
   "related_content": [
     {
       "name": "Space Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Frame Creation is the primary mechanism through which Space Creation is achieved in defensive situations"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Frames provide the stable foundation from which hip escape movements can be executed effectively"
     },
     {
       "name": "Defensive Framing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Closely related concept focusing on specific framing applications in defensive scenarios"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Advanced concept covering the strategic coordination and timing of frame establishment and dissolution"
     },
     {
@@ -322,17 +367,12 @@
       "relationship": "Primary escape technique that relies fundamentally on effective frame creation to generate initial space"
     },
     {
-      "name": "Side Control Escape",
-      "content_type": "Transition",
-      "relationship": "Complete escape system that begins with establishing effective frames against shoulder and hip pressure"
-    },
-    {
       "name": "Frame and Shrimp",
       "content_type": "Transition",
       "relationship": "Core defensive technique that explicitly integrates frame creation with hip escape movement"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Primary position where frame creation skills are essential for effective defense and escape"
     },
@@ -348,13 +388,18 @@
     },
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept underlying effective frame creation through skeletal alignment and mechanical advantage"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Inverse application of similar biomechanical principles used in framing, applied to maintaining top positions"
+    },
+    {
+      "name": "Escape Fundamentals",
+      "content_type": "Principle",
+      "relationship": "Frame Creation serves as a core component of escape fundamentals, providing the initial space for movement"
     }
   ],
   "expert_insights": {

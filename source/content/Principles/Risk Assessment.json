@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Risk Assessment | BJJ Concept | BJJ Graph",
-    "description": "Understand Risk Assessment in BJJ. Learn position evaluation, risk-reward analysis, decision-making frameworks. Master strategic thinking across all positions with expert insights.",
-    "principle_id": "P111",
-    "tags": ["bjj", "concept", "strategy", "decision-making", "risk-management", "competition", "training"],
-    "application_level": "Intermediate",
-    "complexity_level": "High",
-    "development_timeline": "Intermediate to Expert"
-  },
+  "name": "Risk Assessment",
+  "description": "Master strategic decision-making in BJJ through comprehensive risk assessment. Learn position evaluation, success probability estimation, and context-based strategy.",
+  "tags": ["bjj", "principle", "strategy", "decision-making", "risk-management", "competition", "training", "mental-game"],
+  "application_level": "Intermediate",
+  "complexity_level": "High",
+  "development_timeline": "Intermediate to Expert",
   "overview": "Risk Assessment is a fundamental strategic concept in Brazilian Jiu-Jitsu that governs decision-making throughout rolling and competition. It involves the continuous evaluation of potential outcomes, weighing the probability of success against the consequences of failure for each action. This concept becomes particularly crucial as practitioners advance beyond pure technique execution and begin to develop strategic thinking.\n\nAt its core, Risk Assessment requires understanding the hierarchical value of positions, the energy cost of transitions, and the likelihood of success for various techniques given the current context. A practitioner with strong risk assessment skills can distinguish between high-percentage opportunities and low-percentage gambles, choosing actions that maximize advantage while minimizing exposure to dangerous positions or submissions.\n\nThe development of risk assessment skills transforms a practitioner from a reactive technician into a strategic competitor. It encompasses understanding when to accept neutral positions, when to pursue aggressive advancement, when to consolidate control, and when to abandon a technique that is being successfully defended. This concept integrates deeply with energy management, positional hierarchy, and competitive strategy to form the foundation of high-level BJJ performance.",
   "key_principles": [
     "Position hierarchy determines the baseline risk level - assess from bottom of mount vs top of closed guard differently",
@@ -79,35 +76,60 @@
       "principle_name": "Dilemma Creation",
       "relationship_type": "Advanced form",
       "description": "Creating dilemmas for opponents involves understanding and manipulating their risk assessment to force bad choices"
+    },
+    {
+      "principle_name": "Escape Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Escape prioritization is a direct application of risk assessment from inferior positions"
+    },
+    {
+      "principle_name": "Guard Retention Concepts",
+      "relationship_type": "Complementary",
+      "description": "Guard retention strategies involve constant risk assessment about when to fight for guard vs when to accept pass and work escapes"
+    },
+    {
+      "principle_name": "Competition Strategy",
+      "relationship_type": "Extension",
+      "description": "Competition strategy is the macro-level application of risk assessment principles across entire tournaments"
+    },
+    {
+      "principle_name": "Defensive Strategy",
+      "relationship_type": "Complementary",
+      "description": "Defensive tactics are informed by risk assessment of escape options versus acceptance of control"
+    },
+    {
+      "principle_name": "Submission Defense Concepts",
+      "relationship_type": "Complementary",
+      "description": "Submission defense involves risk assessment of escape timing versus prevention strategies"
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Bottom",
-      "how_applied": "Must assess risk of bridge-and-roll escape versus elbow escape - failed bridge exposes back, but elbow escape is slower and maintains inferior position longer"
+      "context": "Mount",
+      "how_applied": "From dominant position, assess risk-reward of transitioning to high mount or S-mount versus maintaining stable low mount - premature transitions can allow escape opportunities"
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Evaluate risk-reward of submission attempts versus sweeps - failed triangle from closed guard may allow opponent to pass, while failed sweep often returns to closed guard"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Assess whether to pursue underhook battle or accept knee shield frames - underhook provides sweep opportunities but risks getting flattened if opponent wins the battle"
     },
     {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Decide between securing position with body triangle versus immediate choke attack - rushing the choke risks losing the dominant position if not properly controlled"
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Evaluate timing for transitioning to mount versus consolidating side control - premature mount attempts allow recovery to guard, but staying too long wastes advantageous position"
     },
     {
-      "context": "Knee on Belly Top",
+      "context": "Knee on Belly",
       "how_applied": "Assess when to abandon knee on belly for more stable mount - opponent's escape attempts indicate whether position is sustainable or if transition is necessary"
     },
     {
-      "context": "Deep Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "Evaluate risk of sweep attempts versus returning to standard half guard - deep half sweeps are powerful but failed attempts often result in getting passed"
     },
     {
@@ -115,20 +137,32 @@
       "how_applied": "Decide between takedown attempts versus guard pull based on wrestling skill differential and competition rules - failed takedowns can concede points and dominant position"
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Assess risk of rolling to guard versus standing up - rolling exposes back but standing requires more energy and technical proficiency"
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Continuously evaluate whether to maintain distance management or attempt closed guard recovery - distance management is safer but closed guard offers more attack opportunities"
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Decide between explosive bridging escape versus patient elbow-knee escape - explosive attempts require more energy and risk submission if timed poorly"
     },
     {
-      "context": "50-50 Guard Bottom",
+      "context": "50-50 Guard",
       "how_applied": "Evaluate leg entanglement risks versus disengagement - staying engaged offers leg lock opportunities but also exposes you to attacks, while disengaging may concede top position"
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Assess commitment to heel hook entries versus maintaining position control - premature submission attempts can allow opponent to escape the leg entanglement entirely"
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Evaluate energy cost of maintaining spider hooks versus transitioning to less energy-intensive guards - spider control is powerful but exhausting over time"
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Assess risk of berimbolo attempts versus standard sweeps - berimbolo offers back exposure but requires precise timing and risks failed inversion"
     }
   ],
   "decision_framework": [
@@ -290,48 +324,53 @@
   "related_content": [
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundation for position valuation in risk assessment"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary framework that integrates with risk assessment"
     },
     {
       "name": "Match Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Higher-level strategic framework built on risk assessment decisions"
     },
     {
       "name": "Position-Over-Submission Approach",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific strategic philosophy derived from risk assessment principles"
     },
     {
       "name": "Dilemma Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Advanced application of risk assessment to manipulate opponent decisions"
     },
     {
       "name": "Competition Mindset",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Psychological framework that enables effective risk assessment under pressure"
     },
     {
-      "name": "Mount Bottom",
+      "name": "Mount",
       "content_type": "Position",
-      "relationship": "High-risk position requiring careful escape selection"
+      "relationship": "Dominant position where risk assessment determines attack timing versus positional consolidation"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Dominant position where risk assessment determines attack timing"
+      "relationship": "Most dominant position requiring careful risk assessment of submission timing"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Neutral position with various risk-reward profiles for different attacks"
+      "relationship": "Neutral position with various risk-reward profiles for different attacks and sweeps"
+    },
+    {
+      "name": "Escape Hierarchy",
+      "content_type": "Principle",
+      "relationship": "Direct application of risk assessment for prioritizing escape options from inferior positions"
     }
   ],
   "expert_insights": {

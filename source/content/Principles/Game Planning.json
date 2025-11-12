@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Game Planning | BJJ Concept | BJJ Graph",
-    "description": "Understand Game Planning in BJJ. Learn strategic frameworks for pre-match preparation, opponent analysis, technique selection, and tactical execution. Expert insights included.",
-    "principle_id": "P041",
-    "tags": [
-      "bjj",
-      "concept",
-      "strategy",
-      "competition",
-      "planning",
-      "advanced",
-      "mental-game",
-      "match-preparation"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Intermediate to Expert"
-  },
+  "name": "Game Planning",
+  "description": "Master strategic game planning in BJJ. Learn pre-match preparation, opponent analysis, technique selection, energy allocation, and tactical execution for competition.",
+  "tags": [
+    "bjj",
+    "principle",
+    "strategy",
+    "competition",
+    "planning",
+    "advanced",
+    "mental-game",
+    "match-preparation",
+    "tactical-approach",
+    "opponent-analysis"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Intermediate to Expert",
   "overview": "Game Planning represents the strategic framework for developing comprehensive pre-match strategies that optimize technique selection, energy allocation, and tactical approaches based on your strengths, opponent characteristics, rule set parameters, and match objectives. Unlike spontaneous reactive rolling, game planning involves systematic analysis and preparation that creates coherent strategic approaches to matches, training rounds, and competition scenarios. This concept encompasses the analytical processes, self-assessment frameworks, opponent evaluation methods, and tactical decision-making structures required to construct effective match strategies before engagement begins. Game planning serves as both an offensive blueprint that guides your proactive approach and a defensive framework that prepares responses to likely opponent strategies. The ability to construct and execute effective game plans often determines whether a practitioner fights with coordinated strategy or simply reacts to circumstances, making it one of the most essential conceptual elements for competition success and accelerated development.",
   "key_principles": [
     "Game plans should be built around your highest-percentage positions and techniques rather than aspirational skills",
@@ -70,9 +69,9 @@
       "description": "Match Strategy focuses on in-match tactical decision-making while Game Planning provides the pre-match framework that guides those real-time decisions. Effective game planning creates the strategic foundation that match strategy executes."
     },
     {
-      "principle_name": "Competition Preparation System",
+      "principle_name": "Match Preparation",
       "relationship_type": "Prerequisite",
-      "description": "Competition preparation provides the broader framework of physical, technical, and mental readiness within which game planning operates. Game planning cannot succeed without adequate competition preparation in conditioning, technique refinement, and mental readiness."
+      "description": "Match preparation provides the broader framework of physical, technical, and mental readiness within which game planning operates. Game planning cannot succeed without adequate preparation in conditioning, technique refinement, and mental readiness."
     },
     {
       "principle_name": "Positional Hierarchy",
@@ -93,11 +92,31 @@
       "principle_name": "Risk Assessment",
       "relationship_type": "Complementary",
       "description": "Risk assessment helps determine which strategic approaches are appropriate for specific match scenarios and opponents. Game planning uses risk assessment to balance aggressive and conservative elements based on match importance and position."
+    },
+    {
+      "principle_name": "Competition Mindset",
+      "relationship_type": "Complementary",
+      "description": "Competition mindset provides the mental framework that enables effective game plan execution under pressure. Game planning requires the competitive mentality to commit to prepared strategies despite stress and uncertainty."
+    },
+    {
+      "principle_name": "Dilemma Creation",
+      "relationship_type": "Extension",
+      "description": "Dilemma creation principles inform how game plans construct attack sequences that force opponents into no-win scenarios. Effective game planning incorporates deliberate dilemma structures into strategic approaches."
+    },
+    {
+      "principle_name": "Position Chains",
+      "relationship_type": "Extension",
+      "description": "Position chains represent the linked sequences of positions that form the pathways within game plans. Game planning connects position chains into comprehensive strategic frameworks with clear progression logic."
+    },
+    {
+      "principle_name": "Offensive Combinations",
+      "relationship_type": "Extension",
+      "description": "Offensive combinations are the tactical building blocks that game plans organize into coherent strategic sequences. Game planning determines which combinations to emphasize based on opponent weaknesses and your technical strengths."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Game plans from closed guard determine whether to prioritize sweeps, submissions, or transitions to other guard systems based on opponent passing style and your highest-percentage attacks. Planning includes identifying specific sweep-submission combinations and contingencies for when opponent establishes strong posture or begins passing sequences."
     },
     {
@@ -109,7 +128,7 @@
       "how_applied": "Game plans for back attacks prioritize specific choking sequences while planning for common escape attempts, with predetermined responses to hand fighting and body positioning changes. Strategic planning includes when to pursue immediate submission versus controlling position for longer duration."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Game planning from half guard determines whether to prioritize underhook battles, lockdown control, or transitions to deep half based on opponent's passing style and positional preferences. Plans include specific sweep sequences and submission setups that align with your technical strengths."
     },
     {
@@ -121,16 +140,8 @@
       "how_applied": "Game plans for side control include specific submission sequences, transition timing to mount or north-south, and energy allocation for maintaining pressure versus pursuing advancement. Strategic planning determines when to consolidate position versus when to advance based on opponent's defensive capabilities."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Game planning for open guard determines which specific guard systems to employ based on opponent's passing style, with predetermined transitions between spider, lasso, De La Riva, and other variations. Plans include recognition points for when to stand up, when to pull closed guard, and when to invert."
-    },
-    {
-      "context": "Top Position",
-      "how_applied": "Strategic planning for top game determines passing approaches based on opponent's guard retention style and your highest-percentage passes. Game plans include specific passing sequences, pressure timing, and contingencies for guard recovery attempts."
-    },
-    {
-      "context": "Neutral Starting Position",
-      "how_applied": "Game planning for match openings determines takedown attempts versus guard pulling based on opponent tendencies and rule set advantages. Strategic decisions include grip fighting approaches, when to engage versus when to disengage, and energy expenditure in opening exchanges."
     },
     {
       "context": "Butterfly Guard",
@@ -143,6 +154,26 @@
     {
       "context": "X-Guard",
       "how_applied": "Game planning from X-guard includes specific sweep directions based on opponent stance and balance, with predetermined submission setups and transitions to other guard systems when primary attacks are defended. Strategic decisions include when to maintain position versus when to sweep immediately."
+    },
+    {
+      "context": "Standing Position",
+      "how_applied": "Game planning for match openings determines takedown attempts versus guard pulling based on opponent tendencies and rule set advantages. Strategic decisions include grip fighting approaches, when to engage versus when to disengage, and energy expenditure in opening exchanges."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Strategic planning for turtle position includes predetermined sequences for back takes, rolling attacks, or guard recovery based on opponent's control methods. Game plans determine when to stay defensive versus when to explode into transitions or stand-ups."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Game plans from spider guard prioritize specific sweep angles and submission entries based on opponent's posture and gripping responses. Strategic planning includes transitions to triangle setups, omoplata attacks, and alternative guard systems when primary attacks are neutralized."
+    },
+    {
+      "context": "Knee on Belly",
+      "how_applied": "Strategic planning for knee on belly includes specific submission sequences, timing for transitions to mount or side control, and decision points for when to apply maximum pressure versus when to advance positions. Game plans optimize point scoring while maintaining positional security."
+    },
+    {
+      "context": "North-South",
+      "how_applied": "Game planning for north-south includes predetermined submission sequences, transition timing back to side control or mount, and energy allocation for choke attempts. Strategic decisions determine when to maintain control versus when to pursue immediate submissions."
     }
   ],
   "decision_framework": [
@@ -302,8 +333,43 @@
   "related_content": [
     {
       "name": "Match Strategy",
-      "content_type": "Concept",
-      "relationship": "Complementary concept focusing on in-match tactical decision-making that executes game plan frameworks"
+      "content_type": "Principle",
+      "relationship": "Complementary principle focusing on in-match tactical decision-making that executes game plan frameworks"
+    },
+    {
+      "name": "Match Preparation",
+      "content_type": "Principle",
+      "relationship": "Related principle covering immediate pre-match readiness including warm-up, mental state, and final preparations"
+    },
+    {
+      "name": "Competition Mindset",
+      "content_type": "Principle",
+      "relationship": "Mental framework that enables effective game plan execution under competitive pressure"
+    },
+    {
+      "name": "Positional Hierarchy",
+      "content_type": "Principle",
+      "relationship": "Foundational principle that determines which positions game plans seek to achieve or avoid"
+    },
+    {
+      "name": "Energy Management System",
+      "content_type": "Principle",
+      "relationship": "Principles for allocating effort across match duration that inform game planning energy strategies"
+    },
+    {
+      "name": "System Building",
+      "content_type": "Principle",
+      "relationship": "Development of cohesive technical systems that become building blocks for comprehensive game plans"
+    },
+    {
+      "name": "Risk Assessment",
+      "content_type": "Principle",
+      "relationship": "Evaluation framework that helps balance aggressive and conservative game plan elements"
+    },
+    {
+      "name": "Dilemma Creation",
+      "content_type": "Principle",
+      "relationship": "Strategic principle for constructing attack sequences that force opponents into no-win scenarios"
     },
     {
       "name": "Competition Preparation System",
@@ -311,54 +377,9 @@
       "relationship": "Broader system providing physical, technical, and mental readiness within which game planning operates"
     },
     {
-      "name": "Match Preparation",
-      "content_type": "Concept",
-      "relationship": "Related concept covering immediate pre-match readiness including warm-up, mental state, and final preparations"
-    },
-    {
-      "name": "Competition Mindset",
-      "content_type": "Concept",
-      "relationship": "Mental framework that enables effective game plan execution under competitive pressure"
-    },
-    {
-      "name": "Positional Hierarchy",
-      "content_type": "Concept",
-      "relationship": "Foundational concept that determines which positions game plans seek to achieve or avoid"
-    },
-    {
-      "name": "Energy Management System",
-      "content_type": "Concept",
-      "relationship": "Principles for allocating effort across match duration that inform game planning energy strategies"
-    },
-    {
-      "name": "System Building",
-      "content_type": "Concept",
-      "relationship": "Development of cohesive technical systems that become building blocks for comprehensive game plans"
-    },
-    {
-      "name": "Risk Assessment",
-      "content_type": "Concept",
-      "relationship": "Evaluation framework that helps balance aggressive and conservative game plan elements"
-    },
-    {
-      "name": "Competition Strategy",
-      "content_type": "System",
-      "relationship": "Broader strategic framework encompassing game planning as one component of competitive approach"
-    },
-    {
       "name": "Mental Game Framework",
       "content_type": "System",
       "relationship": "Psychological preparation system that supports effective game planning and execution"
-    },
-    {
-      "name": "Closed Guard Bottom",
-      "content_type": "Position",
-      "relationship": "Common starting position where game planning determines sweep versus submission priorities"
-    },
-    {
-      "name": "Mount",
-      "content_type": "Position",
-      "relationship": "Dominant position where game plans guide submission sequences and positional advances"
     }
   ],
   "expert_insights": {

@@ -1,1 +1,487 @@
-
+{
+  "name": "Collar Ties",
+  "description": "Master collar ties in BJJ and wrestling. Complete guide to establishing dominant head control, breaking posture, setting up takedowns and clinch positions.",
+  "tags": [
+    "bjj",
+    "position",
+    "standing",
+    "neutral",
+    "clinch",
+    "collar-tie",
+    "head-control",
+    "wrestling",
+    "takedowns",
+    "grip-fighting"
+  ],
+  "variant_uniqueness": "Head control with asymmetric advantage",
+  "overview": "Collar ties represent a fundamental clinching position in Brazilian Jiu-Jitsu and wrestling where one or both practitioners establish control of the opponent's head and neck area. This position creates an immediate tactical advantage by controlling posture, disrupting balance, and setting up a variety of offensive attacks. The collar tie is characterized by one hand gripping behind the opponent's neck (at the collar in gi or directly on the neck/upper back in no-gi) while maintaining an upright stance.\n\nThe strategic value of collar ties lies in their versatility - they serve as both a defensive frame to maintain distance and an offensive tool to break posture and create angles for takedowns, throws, or transitions to more dominant clinch positions. Unlike purely defensive positions, collar ties allow both practitioners to compete for control simultaneously, creating a dynamic exchange where grip fighting, head positioning, and footwork determine who gains the advantage.\n\nMastering collar ties requires understanding the interplay between upper body control and lower body positioning. While the hands control the head and neck, the feet must constantly adjust angles and maintain a strong base. This position appears frequently in both gi and no-gi contexts, forming the foundation for numerous takedown sequences, front headlock attacks, and transitions to body lock or underhook positions. Competitors who excel at collar tie fighting can dictate the pace of standing exchanges and force opponents into reactive rather than proactive positions.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Neutral",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Low",
+    "time_sustainability": "Medium to Long"
+  },
+  "state_invariants": [
+    "At least one practitioner maintains hand control on opponent's head, neck, or collar area with active pressure downward",
+    "Both practitioners remain in upright athletic stance with weight distributed through bent knees and balls of feet for mobility",
+    "Head positioning battle ongoing with both competitors fighting to keep chin tucked and head above opponent's head level",
+    "Distance maintained at arm's length or closer with constant grip fighting and hand position adjustments occurring",
+    "Base and posture remain strong enough to resist immediate takedown attempts while creating offensive opportunities"
+  ],
+  "prerequisites": [
+    "Athletic stance with bent knees, straight back, and head up maintaining good posture",
+    "Understanding of basic grip fighting concepts including hand placement, breaking grips, and establishing control",
+    "Ability to maintain balance while applying and defending against pulling and pushing forces",
+    "Awareness of head position importance and ability to keep chin tucked to protect neck",
+    "Basic footwork skills including circling, angle changes, and stance adjustments under pressure"
+  ],
+  "key_principles": [
+    "Control the head to control the body - head positioning dictates opponent's posture and balance",
+    "Maintain your own head above opponent's head level to establish dominant position and prevent counter control",
+    "Use collar tie to break opponent's posture downward while keeping your own posture strong and upright",
+    "Combine upper body control with footwork and angle changes to create openings for attacks",
+    "Keep opposite hand active for framing, blocking, or establishing additional grips and controls",
+    "Apply constant pressure through collar tie to prevent opponent from establishing strong base or offensive position",
+    "Circle away from opponent's power side and toward their controlled side to maximize tactical advantage"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Snap Down",
+      "target_position": "Front Headlock",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Arm Drag",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Single Leg Entry",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Double Leg Entry",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 38,
+        "intermediate": 52,
+        "advanced": 67
+      }
+    },
+    {
+      "technique": "High Crotch",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Ankle Pick",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Collar Drag",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 32,
+        "intermediate": 47,
+        "advanced": 62
+      }
+    },
+    {
+      "technique": "Snap Down to Front Headlock",
+      "target_position": "Front Headlock",
+      "success_rates": {
+        "beginner": 42,
+        "intermediate": 57,
+        "advanced": 72
+      }
+    },
+    {
+      "technique": "Body Lock Pass",
+      "target_position": "Body Lock",
+      "success_rates": {
+        "beginner": 28,
+        "intermediate": 43,
+        "advanced": 58
+      }
+    },
+    {
+      "technique": "Front Headlock Series",
+      "target_position": "Front Headlock",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Underhook Sweep",
+      "target_position": "Underhook Control",
+      "success_rates": {
+        "beginner": 33,
+        "intermediate": 48,
+        "advanced": 63
+      }
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Standing Back Control",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Sprawl",
+      "target_position": "Sprawl Defense",
+      "success_rate": 55
+    },
+    {
+      "technique": "Takedown Defense",
+      "target_position": "Standing Position",
+      "success_rate": 50
+    },
+    {
+      "technique": "Pull guard",
+      "target_position": "Closed Guard",
+      "success_rate": 65
+    },
+    {
+      "technique": "Guard Pull",
+      "target_position": "Open Guard",
+      "success_rate": 60
+    },
+    {
+      "technique": "Collar Drag",
+      "target_position": "Back Control",
+      "success_rate": 45
+    },
+    {
+      "technique": "Snap Down",
+      "target_position": "Front Headlock",
+      "success_rate": 48
+    },
+    {
+      "technique": "Sprawl Defense",
+      "target_position": "Front Headlock",
+      "success_rate": 52
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Re-snap to Front Headlock",
+      "target_position": "Front Headlock",
+      "trigger": "Opponent attempts to stand up from snap down by posting hands"
+    },
+    {
+      "technique": "Switch to Body Lock",
+      "target_position": "Body Lock",
+      "trigger": "Opponent breaks collar tie grip and attempts to establish distance"
+    },
+    {
+      "technique": "Circle to Single Leg",
+      "target_position": "Standing Position",
+      "trigger": "Opponent drives forward into collar tie pressure creating leg exposure"
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Standing Back Control",
+      "trigger": "Opponent reaches for counter collar tie or attempts grip break"
+    },
+    {
+      "technique": "Duck Under",
+      "target_position": "Back Control",
+      "trigger": "Opponent extends arms to push or frame against collar tie"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent postures up strongly and resists downward pressure",
+      "actions": [
+        {
+          "technique": "Single Leg Entry",
+          "target": "Standing Position",
+          "probability": 55
+        },
+        {
+          "technique": "Double Leg Entry",
+          "target": "Standing Position",
+          "probability": 50
+        },
+        {
+          "technique": "Ankle Pick",
+          "target": "Standing Position",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's head comes down or posture breaks under collar tie pressure",
+      "actions": [
+        {
+          "technique": "Snap Down",
+          "target": "Front Headlock",
+          "probability": 70
+        },
+        {
+          "technique": "Front Headlock Series",
+          "target": "Front Headlock",
+          "probability": 65
+        },
+        {
+          "technique": "Guillotine Choke",
+          "target": "Guillotine Control",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent circles away from collar tie or attempts to disengage",
+      "actions": [
+        {
+          "technique": "Collar Drag",
+          "target": "Back Control",
+          "probability": 60
+        },
+        {
+          "technique": "Arm Drag",
+          "target": "Back Control",
+          "probability": 58
+        },
+        {
+          "technique": "High Crotch",
+          "target": "Standing Position",
+          "probability": 52
+        }
+      ]
+    },
+    {
+      "condition": "If opponent drives forward aggressively into collar tie",
+      "actions": [
+        {
+          "technique": "Sprawl",
+          "target": "Sprawl Defense",
+          "probability": 65
+        },
+        {
+          "technique": "Pull guard",
+          "target": "Closed Guard",
+          "probability": 60
+        },
+        {
+          "technique": "Body Lock Pass",
+          "target": "Body Lock",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent reaches for counter collar tie or inside control",
+      "actions": [
+        {
+          "technique": "Arm Drag to Back",
+          "target": "Standing Back Control",
+          "probability": 62
+        },
+        {
+          "technique": "Snap Down to Front Headlock",
+          "target": "Front Headlock",
+          "probability": 58
+        },
+        {
+          "technique": "Underhook Sweep",
+          "target": "Underhook Control",
+          "probability": 48
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Reaching for collar tie with extended arm while standing upright with high posture",
+      "consequence": "Exposes practitioner to arm drags, allows opponent to easily strip grip, and creates vulnerability to counter attacks",
+      "correction": "Lower your level by bending knees before establishing collar tie, keep elbow tight to body, and use footwork to close distance safely"
+    },
+    {
+      "error": "Pulling straight down on collar tie without creating angles or using footwork",
+      "consequence": "Opponent can resist by simply posting legs wider and maintaining base, making snap downs ineffective",
+      "correction": "Combine downward pressure with lateral movement by circling and changing angles to disrupt opponent's base and create openings"
+    },
+    {
+      "error": "Keeping head in neutral or low position while establishing collar tie control",
+      "consequence": "Allows opponent to establish their own collar tie on top of yours, negating your positional advantage and creating stalemate",
+      "correction": "Fight to keep your head above opponent's head level, use collar tie to push their head down while keeping yours elevated"
+    },
+    {
+      "error": "Gripping collar tie with death grip using only arm strength without engaging body weight",
+      "consequence": "Wastes energy rapidly, leads to grip fatigue, and fails to generate sufficient breaking pressure on opponent's posture",
+      "correction": "Use your body weight and hip positioning to apply pressure through collar tie rather than relying solely on arm strength"
+    },
+    {
+      "error": "Neglecting free hand positioning while focusing only on collar tie control",
+      "consequence": "Opponent can establish underhooks, control your free arm, or attack exposed side leading to position reversal",
+      "correction": "Keep free hand active by framing on opponent's shoulder, controlling their arm, or establishing second point of control"
+    },
+    {
+      "error": "Standing square to opponent with parallel feet while maintaining collar tie",
+      "consequence": "Limits mobility and makes it difficult to generate power for attacks or defend against opponent's takedowns",
+      "correction": "Maintain staggered stance with feet offset, stay on balls of feet for quick movement, and keep knees bent for explosive attacks"
+    },
+    {
+      "error": "Maintaining static collar tie position without threatening attacks or creating reactions",
+      "consequence": "Allows opponent to adjust and strengthen their position, leading to grip fighting stalemate with no tactical advantage",
+      "correction": "Constantly threaten with level changes, snap attempts, and angle changes to keep opponent reactive and create offensive openings"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Collar Tie Pummeling",
+      "description": "Partners face each other and take turns establishing collar ties while opponent works to break grip and establish their own control. Focus on hand fighting, head positioning, and grip replacement. Reset after each successful control establishment.",
+      "duration": "3 minutes"
+    },
+    {
+      "name": "Collar Tie to Snap Down Flow",
+      "description": "One partner establishes collar tie and practices snap down motion while other partner offers progressive resistance. Focus on combining downward pull with footwork and angle changes. Alternate roles every 10 repetitions.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Collar Tie Takedown Chains",
+      "description": "From collar tie position, attacking partner attempts sequence of takedowns (snap down, single leg, double leg) while defender sprawls and maintains position. Emphasize smooth transitions between attacks based on opponent's reactions.",
+      "duration": "4 minutes"
+    },
+    {
+      "name": "Head Position Battle",
+      "description": "Both partners establish collar ties simultaneously and fight to achieve superior head position. Winner is practitioner who successfully keeps head above opponent's while maintaining collar tie control for 3 seconds. Reset and continue.",
+      "duration": "3 minutes"
+    },
+    {
+      "name": "Collar Tie Reaction Drill",
+      "description": "Partner with collar tie control makes random movements (pull down, push away, circle left/right). Second partner must react appropriately with correct defensive technique or counter attack. Develop automatic responses to common collar tie attacks.",
+      "duration": "5 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Snap down to front headlock submission path",
+      "path": "Collar Ties → Snap Down → Front Headlock → Anaconda Choke"
+    },
+    {
+      "name": "Snap to darce sequence",
+      "path": "Collar Ties → Snap Down to Front Headlock → Darce Choke"
+    },
+    {
+      "name": "Drag to back attack sequence",
+      "path": "Collar Ties → Arm Drag to Back → Standing Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Takedown to mount submission",
+      "path": "Collar Ties → Single Leg Takedown → Side Control → Transition to Mount → Armbar from Mount"
+    },
+    {
+      "name": "Snap to guillotine attack",
+      "path": "Collar Ties → Snap Down → Front Headlock → Guillotine Choke"
+    },
+    {
+      "name": "Body lock to back control path",
+      "path": "Collar Ties → Body Lock Pass → Standing Rear Clinch → Rear Naked Choke"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Standing Position",
+      "relationship": "Parent position where collar ties are established from neutral standing engagement"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Primary destination via snap down creating immediate submission and back take opportunities"
+    },
+    {
+      "name": "Clinch",
+      "relationship": "Related clinching position with different grip configurations and control mechanics"
+    },
+    {
+      "name": "Overhook Control Clinch",
+      "relationship": "Alternative clinch control competing with collar tie during grip fighting exchanges"
+    },
+    {
+      "name": "Underhook Control",
+      "relationship": "Counter position opponent seeks to establish when defending against collar tie pressure"
+    },
+    {
+      "name": "Body Lock",
+      "relationship": "Advanced clinch position accessible by transitioning from collar tie to waist control"
+    },
+    {
+      "name": "Standing Back Control",
+      "relationship": "Common destination via arm drag or collar drag from collar tie position"
+    },
+    {
+      "name": "Sprawl Defense",
+      "relationship": "Defensive position when opponent shoots takedown from collar tie engagement"
+    },
+    {
+      "name": "Snap Down",
+      "relationship": "Primary offensive technique executed from collar tie to break opponent's posture"
+    },
+    {
+      "name": "Arm Drag",
+      "relationship": "High-percentage attack from collar tie leading to back exposure and control"
+    },
+    {
+      "name": "Guillotine Control",
+      "relationship": "Submission position accessible when opponent's head drops under collar tie pressure"
+    },
+    {
+      "name": "Hand Fighting",
+      "relationship": "Fundamental principle governing grip establishment and maintenance in collar tie exchanges"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 25,
+      "advanced": 40
+    },
+    "average_time": "20-60 seconds in active exchanges before transitioning to takedown attempt, guard pull, or more dominant clinch position"
+  },
+  "expert_insights": {
+    "danaher": "The collar tie represents one of the most efficient control points in standing grappling because it allows you to control the opponent's entire body through leverage on their head and neck. The mechanical advantage comes from the fact that the head sits atop the spine, and by controlling it you can manipulate the opponent's base and posture with minimal energy expenditure. The key technical detail most practitioners miss is the relationship between collar tie pressure and footwork - you must circle toward the side you're controlling while maintaining downward and lateral pressure to truly break their structure. The collar tie also serves as an excellent defensive tool because it creates distance and frames that prevent the opponent from establishing dominant grips or achieving the optimal angle for their attacks. When executed with proper head positioning and constant pressure, the collar tie becomes a systematic gateway to multiple attacking sequences including snap downs to front headlock positions, arm drags to back exposure, and level changes to leg attacks.",
+    "gordon_ryan": "In high-level competition, the collar tie battle determines who controls the standing exchange and dictates the pace of engagement. I use collar ties aggressively to force opponents into reactive positions where they're constantly defending rather than attacking. The competition reality is that whoever establishes superior head position and collar tie control first usually gets to choose between shooting takedowns or forcing guard pulls on their terms. Against tough opponents, I focus on establishing my collar tie while keeping my head higher than theirs - this creates an immediate hierarchical advantage that's difficult to overcome. The snap down from collar tie is one of my highest-percentage techniques because once their head breaks down, you have immediate access to front headlock control which opens up multiple submission paths. In no-gi especially, collar ties are even more critical because without gi grips, head control becomes the primary means of manipulating your opponent's position. I chain collar tie attacks together - if the snap down fails, I immediately switch to arm drag or level change for takedowns, never allowing them to reset to neutral.",
+    "eddie_bravo": "Collar ties are one of those fundamental positions that work everywhere from sport BJJ to MMA to street situations. What makes them so effective is they give you offensive options while keeping you safe from counters. In the 10th Planet system, we emphasize using collar ties to set up our guard pulls - you control their posture and head, then sit to your guard game on your terms rather than letting them pass from the start. The collar tie also creates perfect entries for front headlock attacks, and once you have front headlock control, you're in the danger zone for anacondas, darces, and guillotines. One thing people sleep on is using collar tie pressure to create scrambles - you break their posture down, they try to stand up or defend, and that's when creative techniques happen. The snap down to front headlock to guillotine sequence is money in both gi and no-gi. From a self-defense perspective, collar ties let you control distance against strikes while setting up takedowns or clinch positions. The innovation comes in combining collar tie control with unorthodox attacks - instead of just standard wrestling attacks, think about transitioning to rubber guard entries or creating angles for unusual takedowns that opponents don't expect from this position."
+  }
+}

@@ -1,22 +1,22 @@
 {
-  "metadata": {
-    "title": "Guillotine Counter | BJJ Technique | BJJ Graph",
-    "description": "Learn Guillotine Counter in BJJ. Step-by-step execution from Guillotine Defense to Safe Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-    "transition_id": "T199",
-    "tags": [
-      "bjj",
-      "transition",
-      "counter",
-      "defense",
-      "submission-defense"
-    ],
-    "starting_position": "Guillotine Control",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 50,
-      "intermediate": 70,
-      "advanced": 85
-    }
+  "name": "Guillotine Counter",
+  "description": "Learn Guillotine Counter in BJJ. Step-by-step execution from Guillotine Defense to Side Control Top. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "counter",
+    "defense",
+    "submission-defense",
+    "guillotine",
+    "scramble",
+    "guard-passing"
+  ],
+  "starting_position": "Guillotine Control",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 50,
+    "intermediate": 70,
+    "advanced": 85
   },
   "overview": "The Guillotine Counter is a critical defensive technique that transforms a dangerous submission threat into a dominant top position. When caught in a guillotine choke, whether standing or on the ground, understanding proper defensive mechanics can mean the difference between tapping and establishing control. This counter relies on fundamental principles of posture management, pressure application, and strategic hand positioning to neutralize the choking threat while simultaneously advancing position. The technique is particularly valuable in both gi and no-gi contexts, as guillotine attempts are common across all levels of competition. By mastering this counter, practitioners develop confidence in scramble situations and learn to remain calm under submission pressure. The guillotine counter exemplifies the BJJ principle that every offensive technique has a systematic defense, and that proper technique overcomes strength and panic.",
   "key_principles": [
@@ -226,8 +226,8 @@
       "difficulty": "Advanced"
     }
   ],
-  "safety_considerations": "Controlled Application: Tap immediately if defense isn't working to prevent injury from extended choke pressure. Training partners should release pressure if they feel the defending person's defense failing or if defender taps. Mat Awareness: Be aware of spatial boundaries during aggressive forward movement in defense, as driving opponent backward can result in collision with walls or other athletes. Partner Safety: Controlled resistance during drilling phase prevents unnecessary injury risk to both parties - the person applying guillotine should not crank at full force during cooperative drilling. Gradual Progression: Build up choke pressure gradually allowing development of defense under realistic but safe conditions. Never practice with full resistance until technical competency is established.",
-  "position_integration": "The Guillotine Counter is a critical component of front headlock defense and scramble management systems. It connects directly to guard passing scenarios where opponent attempts guillotine from bottom, takedown situations where guillotine is used as a counter to shots, and transition moments where guillotines appear during position changes. After successfully defending the guillotine, practitioners advance to Side Control Top, which is a cornerstone offensive position. This counter also integrates with broader defensive strategies including Guard Recovery when defense is partially successful, and connects to submissions defense frameworks that teach systematic responses to all major submission threats. Understanding this counter improves confidence in scrambles and reduces hesitation when engaging in positions where guillotines are common.",
+  "safety_considerations": "When practicing guillotine counters, both partners must exercise caution to prevent injury. The person applying the guillotine should release pressure immediately upon tap or if they sense their partner's defense is failing. Prolonged exposure to choking pressure can cause injury even in training. The defending practitioner should tap early and often during learning phases rather than risk injury by fighting through a fully locked submission. Training partners should communicate clearly about pressure levels, starting with light resistance and gradually increasing as technical proficiency improves. Be aware of mat boundaries during the forward drive portion of the defense, as aggressive movement can result in collision with walls or other training partners. Never practice this technique with full resistance until both partners demonstrate technical competency in controlled drilling. Remember that the goal in training is skill development, not proving toughness by refusing to tap.",
+  "position_integration": "The Guillotine Counter is a critical component of front headlock defense and scramble management systems. It connects directly to guard passing scenarios where opponent attempts guillotine from bottom, takedown situations where guillotine is used as a counter to shots, and transition moments where guillotines appear during position changes. After successfully defending the guillotine, practitioners advance to Side Control, which is a cornerstone offensive position offering numerous submission and control options. This counter also integrates with broader defensive strategies including Guard Recovery when defense is partially successful, and connects to submission defense frameworks that teach systematic responses to all major submission threats. Understanding this counter improves confidence in scrambles and reduces hesitation when engaging in positions where guillotines are common, such as Front Headlock, Turtle, and various guard-pulling situations. The technique is equally valuable in gi and no-gi contexts, making it a fundamental skill for well-rounded grapplers.",
   "related_content": [
     {
       "name": "Guillotine Defense",
@@ -246,7 +246,7 @@
       "relationship": "Related defensive concept against takedowns that can lead to guillotine situations"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Ending position after successful guillotine counter execution"
     },
     {
@@ -262,11 +262,11 @@
       "relationship": "Variation requiring specific defensive adjustments during counter execution"
     },
     {
-      "name": "Front Headlock Control Position",
+      "name": "Front Headlock",
       "relationship": "Starting control position from which many guillotines are initiated"
     },
     {
-      "name": "Posture Recovery",
+      "name": "Posture Up",
       "relationship": "Fundamental skill required for effective guillotine defense"
     }
   ],

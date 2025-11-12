@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Half Guard to Back Take | BJJ Technique | BJJ Graph",
-    "description": "Learn Half Guard to Back Take in BJJ. Advanced transition from half guard to dominant back control. Success rates: Beginner 45%, Intermediate 70%, Advanced 85%.",
-    "transition_id": "T906",
-    "tags": [
-      "bjj",
-      "transition",
-      "half-guard",
-      "back-take",
-      "advanced",
-      "sweep",
-      "back-control"
-    ],
-    "starting_position": "Half Guard Bottom",
-    "ending_position": "Back Control",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 70,
-      "advanced": 85
-    }
+  "name": "Half Guard to Back Take",
+  "description": "Learn Half Guard to Back Take in BJJ. Advanced transition from half guard to dominant back control. Success rates: Beginner 45%, Intermediate 70%, Advanced 85%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "half-guard",
+    "back-take",
+    "advanced",
+    "sweep",
+    "back-control"
+  ],
+  "starting_position": "Half Guard",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 70,
+    "advanced": 85
   },
   "overview": "Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.",
   "key_principles": [
@@ -248,7 +245,7 @@
   "position_integration": "Half Guard to Back Take is a fundamental transition in the offensive half guard system, representing one of the highest-percentage paths from defensive bottom position to dominant back control. This transition integrates seamlessly with the broader half guard framework, connecting underhook battles, lockdown systems, deep half positions, and various sweep attempts. The technique serves as a critical bridge between guard retention and position dominance, allowing practitioners to transform defensive scenarios into offensive opportunities through proper angle creation and timing. It connects directly to back attack systems once back control is achieved, opening pathways to rear naked choke, armbar from back, and bow and arrow variations. The transition also complements other half guard techniques like the old school sweep, kimura traps, and deep half entries, creating a comprehensive half guard game where each technique supports and enhances the others.",
   "related_content": [
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "relationship": "Starting position - foundational position where technique initiates"
     },
     {
@@ -268,7 +265,7 @@
       "relationship": "Combination technique - can transition between this and back take based on opponent's defense"
     },
     {
-      "name": "Lockdown Half Guard Bottom",
+      "name": "Lockdown",
       "relationship": "Position variation - 10th Planet approach to same back take concept"
     },
     {

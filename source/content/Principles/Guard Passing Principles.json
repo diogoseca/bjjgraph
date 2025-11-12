@@ -1,21 +1,19 @@
 {
-  "metadata": {
-    "name": "Guard Passing Principles",
-    "description": "Understand Guard Passing Principles in BJJ. Learn systematic framework, control progression, cross-position applications.",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "offense",
-      "passing",
-      "top-game",
-      "control",
-      "progression"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Guard Passing Principles",
+  "description": "Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "offense",
+    "passing",
+    "top-game",
+    "control",
+    "progression"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Guard Passing Principles represent the fundamental strategic and biomechanical concepts underlying all successful guard passing, providing systematic framework for advancing from guard to dominant pinning positions. Unlike specific passing techniques, guard passing principles are comprehensive conceptual guidelines that apply across all guard types and determine overall passing effectiveness. This concept encompasses the tactical understanding that successful passing requires neutralizing guard retention mechanics, establishing control points, and progressing through stages from open guard to consolidated side control or mount. Guard passing principles serve as both offensive framework enabling position advancement and strategic guide for pass selection based on opponent's defensive patterns. The ability to apply guard passing principles consistently determines offensive effectiveness against guard players, making it one of the most essential conceptual elements for top game development.",
   "key_principles": [
     "Maintain strong posture preventing opponent from breaking your structure and establishing offensive control",
@@ -92,6 +90,31 @@
       "principle_name": "Passing Counter System",
       "relationship_type": "Advanced form",
       "description": "Represents higher-level application requiring mastery of fundamental passing principles, incorporating defensive awareness and counter-passing strategies against guard player's offensive attempts"
+    },
+    {
+      "principle_name": "Speed Passing",
+      "relationship_type": "Extension",
+      "description": "Specific passing style emphasizing rapid movement and timing rather than pressure, demonstrating alternative expression of core passing principles"
+    },
+    {
+      "principle_name": "Long Step Passing",
+      "relationship_type": "Extension",
+      "description": "Technical passing system utilizing distance management and leg clearing principles, showing application of core concepts through specific mechanical approach"
+    },
+    {
+      "principle_name": "Forward Pressure",
+      "relationship_type": "Complementary",
+      "description": "Fundamental pressure application concept that supports passing objectives by preventing opponent from establishing comfortable defensive positioning"
+    },
+    {
+      "principle_name": "Connection Breaking",
+      "relationship_type": "Complementary",
+      "description": "Essential skill for disrupting opponent's guard retention mechanics by systematically removing connection points they rely on for control"
+    },
+    {
+      "principle_name": "Weight Distribution",
+      "relationship_type": "Prerequisite",
+      "description": "Foundational understanding of balance and pressure allocation required for maintaining base while advancing position during passes"
     }
   ],
   "application_contexts": [
@@ -124,7 +147,7 @@
       "how_applied": "Requires base posting to prevent elevation sweeps, systematic leg extraction from X-hook configuration, and understanding of pressure angles that collapse X-Guard structure"
     },
     {
-      "context": "De La Riva Guard/Reverse De La Riva Guard",
+      "context": "Reverse De La Riva Guard",
       "how_applied": "Focuses on hip control to prevent inversion entries, systematic clearing of RDLR hook, and maintaining forward pressure while circling away from entanglement mechanics"
     },
     {
@@ -132,8 +155,28 @@
       "how_applied": "Requires grip breaking on lasso sleeve control, systematic approach to clearing lasso configuration while maintaining posture, and understanding of pressure directions that neutralize lasso mechanics"
     },
     {
-      "context": "Ashi Garami/50-50 Guard",
+      "context": "50-50 Guard",
       "how_applied": "Emphasizes systematic leg extraction strategies, understanding of hip positioning to prevent leg entanglement deepening, and consolidation priorities after achieving leg separation"
+    },
+    {
+      "context": "Single Leg X-Guard",
+      "how_applied": "Requires base widening to prevent sweeps, understanding of weight distribution to collapse SLX structure, and systematic leg clearing while maintaining forward pressure"
+    },
+    {
+      "context": "Seated Guard",
+      "how_applied": "Focuses on distance management to prevent opponent from establishing leg-based guards, grip control to limit mobility, and understanding of optimal passing angles against seated posture"
+    },
+    {
+      "context": "Standing Guard",
+      "how_applied": "Emphasizes takedown defense awareness while advancing position, grip fighting to prevent guard pulls, and systematic approach to closing distance for passing initiation"
+    },
+    {
+      "context": "Headquarters Position",
+      "how_applied": "Represents critical intermediate passing stage where principles of hip control, base maintenance, and leg management converge before final consolidation to side control"
+    },
+    {
+      "context": "Combat Base",
+      "how_applied": "Foundational passing posture demonstrating proper application of base maintenance and posture principles, serving as stable platform for initiating passing sequences"
     }
   ],
   "decision_framework": [

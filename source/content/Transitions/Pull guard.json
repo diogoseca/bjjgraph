@@ -1,23 +1,22 @@
 {
-  "metadata": {
-    "title": "Pull Guard | BJJ Technique | BJJ Graph",
-    "description": "Master Pull Guard in BJJ. Learn proper execution from standing to guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Expert insights included.",
-    "transition_id": "T814",
-    "tags": [
-      "bjj",
-      "transition",
-      "guard_pull",
-      "defense",
-      "takedown_defense",
-      "guard_establishment"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Closed Guard Bottom",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Pull guard",
+  "description": "Master Pull Guard in BJJ. Learn proper execution from standing to guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete technique breakdown included.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard_pull",
+    "defense",
+    "takedown_defense",
+    "guard_establishment",
+    "standing",
+    "grips"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.",
   "key_principles": [
@@ -224,15 +223,15 @@
   "position_integration": "Guard pulling serves as a critical tactical transition that allows practitioners to bypass the standing phase entirely and immediately establish their preferred ground fighting system. This technique represents a fundamental strategic choice in competition and training: rather than engaging in takedown exchanges where wrestling specialists may have advantages, guard players can immediately enter the domain where their technical systems are strongest. The guard pull connects directly into the entire guard retention and attack framework, making it an essential entry point for all guard-based games. Modern competition has evolved sophisticated guard pull variations specifically designed to enter advanced positions like De La Riva, spider guard, lasso guard, or even inverted positions that immediately threaten back takes. The technique also integrates with grip fighting strategy, as the grips established during standing exchanges directly determine which guard positions can be most effectively established. Understanding guard pulling is essential for developing a complete game, as it provides the bridge between standing engagement and ground control, allowing practitioners to dictate the pace and domain of the match. The technique's effectiveness multiplies when combined with strong guard retention skills and immediate offensive sequences from the established position.",
   "related_content": [
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Primary ending position for basic guard pull"
     },
     {
-      "name": "Open Guard Bottom",
+      "name": "Open Guard",
       "relationship": "Alternative ending position for distance-based guard pulls"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "relationship": "Specific guard variation established from grip-dependent pull"
     },
     {
@@ -252,12 +251,8 @@
       "relationship": "Starting position for all guard pull variations"
     },
     {
-      "name": "Grip Fighting",
-      "relationship": "Essential prerequisite concept for effective guard pulling"
-    },
-    {
-      "name": "Guard Retention Concepts",
-      "relationship": "Follow-up defensive system after establishing guard"
+      "name": "Butterfly Guard",
+      "relationship": "Common guard type established from sitting pull variation"
     },
     {
       "name": "Hip Bump Sweep",
@@ -268,8 +263,12 @@
       "relationship": "Alternative offensive sequence from closed guard pull"
     },
     {
-      "name": "Triangle Setup",
+      "name": "Triangle from Closed Guard",
       "relationship": "Submission attack initiated immediately after guard pull"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Advanced guard variation with specific pull entry requirements"
     }
   ],
   "expert_insights": {

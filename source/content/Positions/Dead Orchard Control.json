@@ -1,1115 +1,778 @@
 {
-  "metadata": {
-    "title": "Dead Orchard Control Bottom | BJJ Position Guide | BJJ Graph",
-    "description": "Master Dead Orchard Control Bottom in BJJ. Complete defensive guide with escape routes, submission defense strategies, and systematic survival techniques.",
-    "state_id": "S421",
-    "tags": ["bjj", "position", "dead-orchard", "bottom", "defensive", "turtle", "front-headlock", "submission-control"],
-    "parent_variant": "Dead Orchard Control",
-    "sibling_variants": ["Dead Orchard Control Top"]
-  },
-  "overview": "Dead Orchard Control Bottom represents one of the most disadvantageous positions in Brazilian Jiu-Jitsu, where the practitioner is trapped in a modified front headlock position with their opponent controlling both the head and an arm while applying significant pressure. This position is a variation of the anaconda/darce control family, named for its ability to 'kill' offensive options and leave the bottom player in a state of severe positional deficit. The bottom practitioner finds themselves with limited mobility, restricted breathing, and facing immediate submission threats from multiple angles.\n\nFrom this position, the bottom player must prioritize survival and systematic escape rather than attempting offensive actions. The primary dangers include the anaconda choke, darce choke, guillotine variations, and potential transitions to back control or mount. The crushing pressure applied by the top player makes this an extremely energy-draining position for the defender, requiring calm, technical responses rather than explosive escape attempts that often worsen the situation.\n\nUnderstanding the mechanics of Dead Orchard Control Bottom is essential for comprehensive defensive jiu-jitsu. While this is not a position to willingly enter, knowing the proper defensive frames, breathing techniques, and systematic escape sequences can mean the difference between tapping and surviving to recover guard. The position emphasizes the importance of preventing front headlock positions in the first place, as escaping once fully established requires significant technical knowledge and composure under pressure.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive",
-    "risk_level": "High",
-    "energy_cost": "High",
-    "time_sustainability": "Short"
-  },
-  "state_invariants": [
-    "Opponent controls your head with one arm wrapped around the neck, typically in a front headlock configuration with their chest pressing down on the back of your head and neck, restricting upward movement and creating a heavy, oppressive weight that limits breathing and vision",
-    "Your trapped arm is secured by opponent's control, either caught inside their grip or pinned between your bodies, eliminating the ability to post or create frames on that side while the opponent's body weight reinforces this arm isolation",
-    "Your base is severely compromised with weight distributed awkwardly across knees and free hand, unable to establish proper turtle posture due to the opponent's angle of attack and pressure direction forcing you into a curled, defensive shell position",
-    "Opponent's hips are positioned to your side or slightly behind, applying perpendicular or angular pressure that prevents you from squaring up or establishing defensive frames, while maintaining the ability to transition between multiple submission threats",
-    "Your free arm must work to create space at the neck and prevent choking mechanics while simultaneously trying to maintain enough base to prevent being flattened completely to the mat, creating a constant dilemma between defending submissions and defending position"
-  ],
-  "prerequisites": [
-    "Failed turtle defense allowing opponent to secure front headlock control",
-    "Unsuccessful takedown attempt resulting in opponent securing head and arm control",
-    "Transition from failed guard pull or guard recovery where opponent capitalizes on exposed posture",
-    "Lost scramble from bottom position with opponent achieving superior angle and head control",
-    "Mistimed or poorly executed escape attempt from side control, mount, or back control"
-  ],
+  "name": "Dead Orchard Control",
+  "slug": "dead-orchard-control",
+  "description": "Master Dead Orchard Control in BJJ. Strategic guide covering specialized anaconda variation with enhanced control mechanics, submission threats, and systematic defensive responses.",
+  "variant_uniqueness": "Anaconda grip emphasizing extended control",
+  "overview": "Dead Orchard Control represents an advanced positional control within Brazilian Jiu-Jitsu, particularly emphasized in Eddie Bravo's 10th Planet system. This position combines the structural control elements of the anaconda choke with strategic patience and extended dominance, creating a hybrid state between pure submission attempt and positional control. The name reflects the trapped, lifeless quality of the opponent's positioning - caught in a grip that systematically breaks down defensive capabilities while maintaining constant submission threat. Unlike standard anaconda setups that prioritize immediate finishing, Dead Orchard Control emphasizes sustainable pressure application and systematic dismantling of opponent defenses, allowing the practitioner to control timing and choose between maintaining position, advancing to more dominant states, or completing the submission. The position exists in both offensive and defensive contexts, with the top player working to maintain crushing pressure and submission mechanics while the bottom player must navigate a severely compromised defensive scenario with limited mobility and breathing restriction. Understanding both perspectives is essential for complete positional mastery, as the control mechanics, escape principles, and transition opportunities differ dramatically based on which role the practitioner occupies. This position demonstrates the evolution of modern grappling beyond simple submission hunting toward sophisticated positional dominance that creates multiple offensive pathways.",
   "key_principles": [
-    "Maintain calm breathing despite restricted airway - panic and explosive movement accelerate fatigue and worsen position",
-    "Create space at the neck with your free hand using consistent, technical frames rather than desperate pushing",
-    "Protect your trapped arm from being used as leverage for submissions by keeping elbow tight and preventing overextension",
-    "Work systematically toward hip escape and guard recovery rather than attempting to immediately stand or roll",
-    "Recognize submission threats early and address choking mechanics before they become fully locked in",
-    "Use small, efficient movements to conserve energy while progressively improving position",
-    "Keep chin tucked and neck protected to minimize submission vulnerability while working escapes"
+    "Establish deep anaconda grip configuration before committing to extended control or submission finish",
+    "Apply gradual, systematic pressure increases rather than explosive finishing attempts to break down defenses",
+    "Maintain shoulder pressure into opponent's trapped shoulder to prevent posture recovery and structural escape",
+    "Control opponent's hips and movement through strategic weight distribution and positioning adjustments",
+    "Recognize optimal windows for submission finish versus position advancement based on opponent reactions",
+    "From bottom, prioritize calm breathing and systematic escape sequences over explosive panic movements",
+    "Create and maintain proper angles for compression whether attacking or defending the position"
   ],
-  "offensive_transitions": [
+  "related_positions": [
     {
-      "technique": "Rolling to Guard",
-      "target_position": "Closed Guard Bottom",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
-      }
+      "name": "Anaconda Control",
+      "relationship": "Parent technique - standard anaconda without dead orchard control emphasis"
     },
     {
-      "technique": "Hip Escape",
-      "target_position": "Guard Recovery Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
+      "name": "D'arce Control",
+      "relationship": "Sister position - alternative arm-in choke with similar control mechanics"
     },
     {
-      "technique": "Granby Roll",
-      "target_position": "Half Guard Bottom",
-      "success_rates": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35
-      }
+      "name": "Front Headlock",
+      "relationship": "Entry position - common setup state for dead orchard establishment"
     },
     {
-      "technique": "Technical Standup",
-      "target_position": "Standing Bottom Position",
-      "success_rates": {
-        "beginner": 5,
-        "intermediate": 15,
-        "advanced": 25
-      }
-    },
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Turtle Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Arm Extraction",
-      "target_position": "Defensive Bottom Position",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Anaconda from Turtle",
-      "target_position": "Anaconda Control Bottom",
-      "success_rate": 65
-    },
-    {
-      "technique": "Darce Setup",
-      "target_position": "Darce Control Bottom Position",
-      "success_rate": 60
-    },
-    {
-      "technique": "Guillotine Setup",
-      "target_position": "Guillotine Control Bottom",
-      "success_rate": 55
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Bottom",
-      "success_rate": 50
-    },
-    {
-      "technique": "Turtle to Back Take",
-      "target_position": "Back Control Bottom",
-      "success_rate": 45
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South Bottom",
-      "success_rate": 40
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Hip Escape",
-      "target_position": "Guard Recovery Bottom",
-      "trigger": "Opponent attempts to flatten you completely by driving weight forward"
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Closed Guard Bottom",
-      "trigger": "Opponent shifts weight to isolate arm for anaconda grip"
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Half Guard Bottom",
-      "trigger": "Opponent transitions weight to secure back control"
-    },
-    {
-      "technique": "Frame Creation",
-      "target_position": "Turtle Bottom",
-      "trigger": "Opponent attempts to lock submission before fully consolidating position"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent is actively working to lock anaconda or darce choke with arm trapped deep",
-      "actions": [
-        {
-          "technique": "Arm Extraction",
-          "target": "Defensive Bottom Position",
-          "probability": 35
-        },
-        {
-          "technique": "Rolling to Guard",
-          "target": "Closed Guard Bottom",
-          "probability": 30
-        },
-        {
-          "technique": "Hip Escape",
-          "target": "Guard Recovery Bottom",
-          "probability": 25
-        }
-      ]
-    },
-    {
-      "condition": "Else if opponent is transitioning to mount or back control rather than submission",
-      "actions": [
-        {
-          "technique": "Frame and Shrimp",
-          "target": "Turtle Bottom",
-          "probability": 45
-        },
-        {
-          "technique": "Hip Escape",
-          "target": "Guard Recovery Bottom",
-          "probability": 35
-        },
-        {
-          "technique": "Granby Roll",
-          "target": "Half Guard Bottom",
-          "probability": 30
-        }
-      ]
-    },
-    {
-      "condition": "Else if opponent's grip is loose or pressure is temporarily reduced",
-      "actions": [
-        {
-          "technique": "Technical Standup",
-          "target": "Standing Bottom Position",
-          "probability": 40
-        },
-        {
-          "technique": "Rolling to Guard",
-          "target": "Closed Guard Bottom",
-          "probability": 35
-        },
-        {
-          "technique": "Hip Escape",
-          "target": "Guard Recovery Bottom",
-          "probability": 45
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Explosive bridging or rolling without first addressing the head and arm control",
-      "consequence": "Opponent easily follows the movement and locks in anaconda or darce choke, or takes back control with hooks",
-      "correction": "First create frames at the neck with free hand, then use systematic hip escape movements to progressively improve position before attempting larger movements"
-    },
-    {
-      "error": "Allowing the trapped arm to be pulled across your own body or overextended",
-      "consequence": "Provides opponent with leverage for anaconda choke and eliminates any base on that side, making position nearly inescapable",
-      "correction": "Keep trapped arm elbow tight to your ribs and actively pull it back toward your hip whenever possible to maintain structural integrity"
-    },
-    {
-      "error": "Pushing directly into opponent's chest or shoulders with free arm",
-      "consequence": "Wastes energy, provides no effective space creation, and leaves neck exposed when arm tires",
-      "correction": "Frame specifically at the choking arm and opponent's hip or shoulder to create angles for hip escape, using skeletal structure rather than muscular pushing"
-    },
-    {
-      "error": "Holding breath or breathing shallowly due to panic from restricted airway",
-      "consequence": "Rapid fatigue, mental panic, and inability to execute technical escapes before running out of energy",
-      "correction": "Focus on controlled nasal breathing and accept the discomfort, understanding that technical escapes are possible even with restricted breathing"
-    },
-    {
-      "error": "Attempting to immediately stand up or posture fully upright",
-      "consequence": "Opponent uses the upward movement to elevate and lock submission even tighter, or easily takes back control",
-      "correction": "Work through progressive position improvement: create space, free trapped arm or secure frames, hip escape to guard recovery, then consider standing"
-    },
-    {
-      "error": "Giving up mentally and waiting for inevitable submission",
-      "consequence": "Missing escape opportunities and failing to develop essential defensive skills for high-pressure situations",
-      "correction": "Maintain problem-solving mindset and systematically work through defensive sequence even when position seems hopeless, as opponent errors create escape windows"
-    },
-    {
-      "error": "Turning away from opponent or exposing back further to escape head control",
-      "consequence": "Opponent secures back control with hooks, an even worse position with higher submission probability",
-      "correction": "Keep chest facing downward or toward opponent's hips, using hip escape to create distance rather than turning away and exposing back"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Dead Orchard Survival Drill",
-      "description": "Partner establishes dead orchard control with moderate pressure. Bottom player practices maintaining calm breathing, creating frames at neck, and working systematic hip escape without explosive movement. Focus on survival for 2-minute rounds before attempting escapes. Build mental toughness and technique under sustained pressure.",
-      "duration": "5 rounds of 2 minutes"
-    },
-    {
-      "name": "Progressive Escape Sequence Drill",
-      "description": "Partner establishes dead orchard control. Bottom player must complete sequence: (1) create frame at neck, (2) begin hip escape movement, (3) free trapped arm or secure better base, (4) complete hip escape to guard recovery. Reset and repeat, gradually increasing opponent's resistance level from 50% to 80%.",
-      "duration": "10 minutes alternating"
-    },
-    {
-      "name": "Submission Defense Recognition Drill",
-      "description": "Partner establishes dead orchard control and randomly attempts anaconda, darce, or guillotine finish. Bottom player must identify the specific threat within 3 seconds and apply appropriate defensive counter (hand fighting for guillotine, arm extraction for anaconda, hip angle change for darce). Develops pattern recognition under pressure.",
-      "duration": "8 minutes alternating"
-    },
-    {
-      "name": "Positional Sparring from Dead Orchard",
-      "description": "Start in established dead orchard control bottom position. Bottom player works to escape to any guard position (scored as success) or avoid submission for 90 seconds (scored as survival). Top player works to submit or advance to mount/back. Track success rates to measure defensive improvement over time.",
-      "duration": "6 rounds of 90 seconds"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Highest probability opponent path (defend against this)",
-      "path": "Dead Orchard Control Bottom → Anaconda Choke (opponent success: 65%)"
-    },
-    {
-      "name": "Highest percentage escape path",
-      "path": "Dead Orchard Control Bottom → Hip Escape → Guard Recovery Bottom → Closed Guard Bottom (35-50% success based on skill level)"
-    },
-    {
-      "name": "Secondary escape path via turtle restoration",
-      "path": "Dead Orchard Control Bottom → Frame and Shrimp → Turtle Bottom → Turtle to Guard → Half Guard Bottom (25-40% success based on skill level)"
-    },
-    {
-      "name": "Emergency scramble path when submissions are imminent",
-      "path": "Dead Orchard Control Bottom → Rolling to Guard → Closed Guard Bottom (15-40% success, high risk but necessary when choke is locking)"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Dead Orchard Control Top",
-      "relationship": "Opposite perspective - understanding top control mechanics aids bottom defense"
-    },
-    {
-      "name": "Anaconda Control Bottom",
-      "relationship": "Common transition - dead orchard often becomes anaconda control"
-    },
-    {
-      "name": "Darce Control Bottom Position",
-      "relationship": "Similar defensive challenges - same escape principles apply"
-    },
-    {
-      "name": "Front Headlock Bottom",
-      "relationship": "Parent position - dead orchard is specialized variation"
-    },
-    {
-      "name": "Turtle Bottom",
-      "relationship": "Typical entry position - prevention starts in turtle defense"
-    },
-    {
-      "name": "Guillotine Control Bottom",
-      "relationship": "Alternative submission threat from same control framework"
-    },
-    {
-      "name": "Guard Recovery Bottom",
-      "relationship": "Primary escape target - most achievable defensive goal"
-    },
-    {
-      "name": "Anaconda Choke",
-      "relationship": "Primary submission threat requiring specific defense"
-    },
-    {
-      "name": "Darce Choke",
-      "relationship": "Secondary submission threat with different mechanics"
-    },
-    {
-      "name": "Hip Escape",
-      "relationship": "Essential escape technique from compressed positions"
-    },
-    {
-      "name": "Frame Creation",
-      "relationship": "Core defensive concept for creating space under pressure"
-    },
-    {
-      "name": "Submission Defense",
-      "relationship": "Broader defensive framework applicable to this position"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 10,
-      "intermediate": 25,
-      "advanced": 40
-    },
-    "advancement_probability": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 45
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 15
-    },
-    "average_time": "30-90 seconds before submission or escape"
-  },
-  "expert_insights": {
-    "danaher": "Dead Orchard Control Bottom represents a catastrophic breakdown in defensive hierarchy where multiple control points have been ceded simultaneously - the head, an arm, and positional angle. The biomechanical reality is severe: the human body cannot generate effective power when the head is controlled and pulled downward while an arm is trapped across the centerline. Your defensive strategy must be systematic rather than instinctive. First, address the most immediate threat to structural integrity - typically this is the choking mechanism at the neck. Create a frame with your free hand, not by pushing into the opponent's chest, but by establishing a post at their hip or shoulder to create an angle for hip movement. Second, recognize that explosive escape attempts will fail because they require the very base and structural alignment that this position denies you. Instead, use incremental hip escape movements to progressively shift your body angle relative to the opponent's pressure vector. The goal is not immediate freedom but systematic position improvement: from dead orchard to modified turtle, from modified turtle to guard recovery, from guard recovery to closed guard. Each step must be consolidated before attempting the next. Understanding the mechanical principles of why this position is so dominant helps you identify the specific structural changes needed to escape, rather than simply fighting harder within a losing framework.",
-    "gordon_ryan": "I've been caught in dead orchard variations in high-level competition, and the key is recognizing it's a survival position first, escape position second. The guys who tap are the ones who panic when they feel their breathing restricted and start making desperate, large movements that just help me finish the choke or take their back. The guys who survive are the ones who accept the discomfort, keep breathing through their nose even though it's hard, and work technically. Your first job is hand fighting the choking arm - not just pushing randomly, but specifically attacking their grip or the angle of their arm across your neck. At the same time, you need to prevent them from flattening you completely because once you're flat, it's basically over. Keep some kind of base with your free arm and your knees, even if it's compromised. The escape that works best for me when I'm on bottom is a patient hip escape combined with freeing my trapped arm. I'm not trying to explode out - I'm using small, controlled movements to shift my hips away from their pressure while simultaneously pulling my elbow back toward my own hip to free the trapped arm. Once that arm is free, you can establish proper frames and start the real escape sequence. The competition reality is that if you're in this position, you're already in trouble, so don't compound it by being impatient. Work the problem methodically and you'll find opportunities when they transition or adjust their grips.",
-    "eddie_bravo": "Dead Orchard from the bottom is one of those positions where you need to get creative because traditional escapes often don't work when you're really stuck. In 10th Planet we emphasize the importance of the Granby roll and inversion skills for exactly these kinds of trapped positions. When you're caught in dead orchard and the standard hip escape isn't available because they've got you too tight, you need to think about using momentum and unconventional angles. One thing I teach is the concept of rolling through the position rather than trying to push out of it - if you time it right when they're transitioning their weight to lock in a submission, you can use a Granby-style roll to invert and come out the back door. Another approach is to attack their balance by pulling their far knee or ankle with your free hand while simultaneously shrimping - this creates a diagonal escape angle they're not expecting. The key is not accepting the conventional wisdom that you're completely stuck. Look for creative solutions like the lockdown-style concepts of controlling their leg to prevent them from sprawling their weight, or using your free leg to hook over their back and create a scramble. Sometimes the best escape is to make the position so chaotic and unstable that they have to abandon the control to prevent you from taking an even more unorthodox path to safety. Don't just survive - be proactive about creating chaos that works in your favor."
-  }
-}
-{
-  "metadata": {
-    "title": "Dead Orchard Control | BJJ Position Guide | BJJ Graph",
-    "description": "Master Dead Orchard Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 75%, Advanced 85%.",
-    "state_id": "S054",
-    "tags": [
-      "bjj",
-      "position",
-      "guard",
-      "10th-planet",
-      "submission-control",
-      "triangle-variation",
-      "advanced"
-    ]
-  },
-  "overview": "The Dead Orchard is an advanced control position within Eddie Bravo's 10th Planet Jiu-Jitsu system, representing a highly specialized variation of the triangle choke position. This position is characterized by the practitioner establishing a triangle position while controlling both of the opponent's arms inside the triangle, effectively creating a double arm triangle configuration. Unlike a standard triangle where only one arm is trapped inside, the Dead Orchard secures both arms, significantly increasing the control and finishing mechanics of the position. The position creates exceptional breaking pressure against both of the opponent's arms while simultaneously applying a powerful compression against the neck, creating a multi-threat submission scenario that is exceptionally difficult to defend once established. The Dead Orchard typically emerges from the Rubber Guard progression but can be accessed from multiple pathways including Williams Guard, standard closed guard, and various 10th Planet positions. Once established, the position offers multiple finishing options including triangle chokes, armbars, omoplatas, and shoulder lock variations, making it one of the most versatile control positions in modern no-gi grappling. The position's effectiveness lies in its ability to completely neutralize the opponent's defensive capabilities by removing their ability to post, frame, or create space.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium"
-  },
-  "state_invariants": [
-    "Triangle position with legs locked around opponent's neck and shoulder, one leg draped over the shoulder and the other secured under the armpit, creating a tight noose-like configuration that compresses the carotid arteries and restricts breathing",
-    "Both of opponent's arms trapped inside triangle configuration with elbows pointing downward and hands unable to create defensive frames, completely eliminating their ability to posture up or establish base",
-    "Proper angle established with hips elevated and body positioned at approximately 45 degrees to opponent's centerline, maximizing compression on the neck while creating leverage for arm attacks",
-    "Control of opponent's posture through leg pressure and hip positioning, keeping their head pulled down and spine rounded to prevent any defensive movement or escape attempts",
-    "Upper body actively engaged with hands controlling either your own shin to tighten the triangle or gripping opponent's far arm to prevent rotation and maintain positional dominance",
-    "Opponent's defensive options severely restricted with both arms hyperextended inside the triangle, head compressed forward, and body flattened or on knees with no ability to generate power or movement"
-  ],
-  "prerequisites": [
-    "Strong triangle mechanics and understanding of proper leg positioning for maximum compression",
-    "Hip mobility and flexibility sufficient to maintain triangle lock while manipulating opponent's arms",
-    "Understanding of arm control mechanics and ability to trap both arms simultaneously",
-    "Knowledge of 10th Planet progression system, particularly Rubber Guard and Williams Guard entries",
-    "Ability to maintain multiple control points while transitioning between positions",
-    "Experience with triangle choke finishing mechanics and angle creation"
-  ],
-  "key_principles": [
-    "Trap both of opponent's arms inside triangle configuration before they can establish defensive frames or posture",
-    "Create and maintain proper angle for compression by elevating hips and positioning body at 45 degrees to opponent's centerline",
-    "Apply synchronized pressure against neck and arms using coordinated leg squeeze and hip movement",
-    "Maintain proper leg positioning with ankles locked and pressure distributed through the back of opponent's neck",
-    "Establish auxiliary control points through hand grips on shin or opponent's far arm to prevent defensive rotation",
-    "Prevent opponent from creating defensive frames or posture by keeping their head pulled down and arms hyperextended",
-    "Manage energy through efficient pressure application, using leg and hip positioning rather than constant muscular tension"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Triangle Choke",
-      "target_position": "Won by Submission",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Armbar from Guard",
-      "target_position": "Armbar Control Bottom",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Omoplata from Guard",
-      "target_position": "Omoplata Control Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Transition to Omoplata",
-      "target_position": "Omoplata Control Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Switch to Triangle",
-      "target_position": "Triangle Control Bottom",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Rolling Armbar",
-      "target_position": "Armbar Control Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Kimura from Guard",
-      "target_position": "Kimura Control Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Posture Recovery",
-      "target_position": "Closed Guard Top",
-      "success_rate": 15
-    },
-    {
-      "technique": "Triangle Escape",
-      "target_position": "Combat Base Top",
-      "success_rate": 20
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Top Position",
-      "success_rate": 10
-    },
-    {
-      "technique": "Stack Defense",
-      "target_position": "Guard Pass",
-      "success_rate": 12
-    },
-    {
-      "technique": "Arm Extraction",
-      "target_position": "Closed Guard Top",
-      "success_rate": 18
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Triangle Choke",
-      "target_position": "Won by Submission",
-      "trigger": "Opponent attempts to posture up with head still trapped"
-    },
-    {
-      "technique": "Armbar from Guard",
-      "target_position": "Armbar Control Bottom",
-      "trigger": "Opponent tries to pull arms free creating extension"
-    },
-    {
-      "technique": "Omoplata from Guard",
-      "target_position": "Omoplata Control Bottom",
-      "trigger": "Opponent attempts to roll or turn away from pressure"
-    },
-    {
-      "technique": "Switch to Triangle",
-      "target_position": "Triangle Control Bottom",
-      "trigger": "Opponent successfully extracts one arm"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent attempts to posture up while both arms remain trapped",
-      "actions": [
-        {
-          "technique": "Triangle Choke",
-          "target": "Won by Submission",
-          "probability": 70
-        },
-        {
-          "technique": "Pull opponent back down and adjust angle",
-          "target": "Dead Orchard Control",
-          "probability": 25
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to extract their arms by pulling back",
-      "actions": [
-        {
-          "technique": "Armbar from Guard",
-          "target": "Armbar Control Bottom",
-          "probability": 65
-        },
-        {
-          "technique": "Transition to Omoplata",
-          "target": "Omoplata Control Bottom",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent tries to roll or rotate away from pressure",
-      "actions": [
-        {
-          "technique": "Omoplata from Guard",
-          "target": "Omoplata Control Bottom",
-          "probability": 60
-        },
-        {
-          "technique": "Rolling Armbar",
-          "target": "Armbar Control Bottom",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent successfully extracts one arm but remains in triangle",
-      "actions": [
-        {
-          "technique": "Switch to Triangle",
-          "target": "Triangle Control Bottom",
-          "probability": 75
-        },
-        {
-          "technique": "Kimura from Guard",
-          "target": "Kimura Control Bottom",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent flattens out and stops moving to defend",
-      "actions": [
-        {
-          "technique": "Triangle Choke",
-          "target": "Won by Submission",
-          "probability": 65
-        },
-        {
-          "technique": "Adjust angle and increase compression",
-          "target": "Dead Orchard Control",
-          "probability": 30
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Insufficient angle creation when establishing the position",
-      "consequence": "Leads to reduced compression pressure as improper body alignment fails to maximize the choke or arm attacks, allowing opponent to maintain better posture and breathing capacity",
-      "correction": "Ensure your body is angled at approximately 45 degrees to opponent's centerline, using your hips and legs to create optimal compression angle with shoulder pulling away from trapped side"
-    },
-    {
-      "error": "Poor leg lock maintenance with ankles crossing too loosely",
-      "consequence": "Results in control vulnerability as loose triangle allows opponent to posture up, extract their head, or create enough space to begin escape sequences",
-      "correction": "Lock your ankle deeply behind the knee, squeeze your knees together, and point your toes to maximize leg pressure while keeping the triangle tight around opponent's neck"
-    },
-    {
-      "error": "Trapping both arms too high near the shoulders instead of controlling at the elbows",
-      "consequence": "Gives opponent ability to create frames with their hands and potentially push against your hips or knees to escape, reducing effectiveness of arm attacks",
-      "correction": "Control opponent's arms at or below the elbows, keeping their hands pointing downward and unable to create defensive frames or posts"
-    },
-    {
-      "error": "Failing to control opponent's far arm or shoulder",
-      "consequence": "Allows opponent to rotate their body away from the pressure, potentially extracting their head or rolling into a more favorable position",
-      "correction": "Maintain constant control of opponent's far arm by gripping their wrist or tricep, or control their far shoulder to prevent rotation and maintain dominant angle"
-    },
-    {
-      "error": "Releasing hip pressure prematurely when opponent stops moving",
-      "consequence": "Creates opportunity for opponent to recover posture and begin escape sequence just when they appear to be controlled, wasting energy and position",
-      "correction": "Maintain consistent hip elevation and pressure throughout the position, only releasing to transition to a more dominant position or submission finish"
-    },
-    {
-      "error": "Attempting to finish too quickly without establishing full control",
-      "consequence": "Rushes the submission attempt before proper angle and compression are achieved, resulting in escaped position and lost opportunity",
-      "correction": "Take time to establish proper angle, lock triangle tightly, secure both arms completely, then systematically apply finishing pressure while maintaining control"
-    },
-    {
-      "error": "Neglecting to adjust angle when opponent shifts weight",
-      "consequence": "Loses optimal compression as opponent's movement changes force vectors, potentially creating escape opportunities or reducing submission effectiveness",
-      "correction": "Continuously adjust your angle and hip position to maintain perpendicular alignment to opponent's spine, following their movement to keep maximum pressure on carotid arteries"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Dead Orchard Entry and Maintenance Drill",
-      "description": "Partner starts in your closed guard. Practice entering Dead Orchard by controlling both arms inside your triangle, focusing on proper angle creation and maintaining tight leg lock. Progress from static drilling to light resistance, emphasizing the transition from standard triangle to double-arm trap configuration.",
-      "duration": "5-10 minutes"
-    },
-    {
-      "name": "Rubber Guard to Dead Orchard Flow Drill",
-      "description": "Begin in Rubber Guard position and practice smooth transitions to Dead Orchard, working on the arm trapping sequence and angle adjustments. Focus on maintaining control throughout transition and establishing dominant position before attempting finish. Partner provides progressive resistance.",
-      "duration": "5-10 minutes"
-    },
-    {
-      "name": "Dead Orchard Finishing Sequences",
-      "description": "Start with Dead Orchard already established. Drill all finishing options including triangle choke, armbar, omoplata, and shoulder lock variations. Practice reading opponent's defensive reactions and flowing between submission options based on their movement. Partner taps early to allow multiple repetitions.",
-      "duration": "10-15 minutes"
-    },
-    {
-      "name": "Dead Orchard Defense and Re-Control",
-      "description": "Partner attempts specific escapes from Dead Orchard including posturing, arm extraction, and rolling. Practice maintaining position through opponent's escape attempts, making necessary adjustments to angle and pressure. Focus on anticipating defensive movements and countering before position is lost.",
-      "duration": "5-10 minutes"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Direct Triangle Finish",
-      "path": "Dead Orchard Control → Triangle Choke → Won by Submission"
-    },
-    {
-      "name": "Armbar Transition Path",
-      "path": "Dead Orchard Control → Armbar from Guard → Armbar Control Bottom → Won by Submission"
-    },
-    {
-      "name": "Omoplata Conversion Path",
-      "path": "Dead Orchard Control → Omoplata from Guard → Omoplata Control Bottom → Won by Submission"
-    },
-    {
-      "name": "Triangle-Armbar Chain",
-      "path": "Dead Orchard Control → Triangle Choke attempt → Armbar from Guard → Won by Submission"
-    },
-    {
-      "name": "Rubber Guard Entry Path",
-      "path": "Rubber Guard Bottom → Williams Guard Bottom → Dead Orchard Control → Triangle Choke → Won by Submission"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Triangle Control Bottom",
-      "relationship": "Parent position - standard triangle serves as foundation for Dead Orchard mechanics"
-    },
-    {
-      "name": "Williams Guard Bottom",
-      "relationship": "Entry position - common pathway to Dead Orchard in 10th Planet system"
-    },
-    {
-      "name": "Rubber Guard Bottom",
-      "relationship": "Entry position - primary entry sequence in 10th Planet progression"
-    },
-    {
-      "name": "Omoplata Control Bottom",
-      "relationship": "Transition target - natural follow-up when opponent defends triangle"
-    },
-    {
-      "name": "Armbar Control Bottom",
-      "relationship": "Transition target - alternative finish when arms are extended"
-    },
-    {
-      "name": "Closed Guard Bottom",
-      "relationship": "Starting position - traditional closed guard can transition to Dead Orchard"
-    },
-    {
-      "name": "Submission Control Position",
-      "relationship": "Category - Dead Orchard is specialized submission control position"
-    },
-    {
-      "name": "Triangle Choke",
-      "relationship": "Primary submission - main finishing option from Dead Orchard"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 50,
-      "intermediate": 70,
-      "advanced": 85
-    },
-    "advancement_probability": {
-      "beginner": 45,
-      "intermediate": 65,
-      "advanced": 80
-    },
-    "submission_probability": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 75
-    },
-    "average_time": "30-90 seconds before submission or position change"
-  },
-  "expert_insights": {
-    "danaher": "The Dead Orchard represents a fascinating biomechanical study in how multiple simultaneous threats can create an inescapable control scenario. While not specifically focusing on this position in my teaching, I acknowledge its mechanical efficiency in creating an extremely difficult defensive scenario through the combination of strangle and joint attack vectors. The position's effectiveness stems from the geometric impossibility it creates - by trapping both arms inside the triangle configuration, you eliminate the opponent's ability to create the frames and posts that normally enable triangle escapes. The force vectors working against the opponent are multiplicative rather than additive: as they attempt to address the choking pressure on their neck, they inadvertently increase the hyperextension on their arms, and vice versa. This creates a biomechanical paradox where any defensive movement simultaneously worsens multiple attack vectors. From a systematic perspective, the position exemplifies the principle that truly dominant positions should offer multiple finishing pathways while eliminating defensive options. The key technical detail that practitioners often miss is the precise angle of the hips - the compression must be directed not just downward but slightly across the opponent's neck to properly affect the carotid arteries while maintaining arm control. Understanding these biomechanical principles transforms the Dead Orchard from a novel technique into a genuinely high-percentage finishing position.",
-    "gordon_ryan": "In competition, I focus heavily on preventative measures that stop the Dead Orchard progression before both arms become trapped, because once it's fully locked in, it's an extremely difficult position to escape. The key defensive moment occurs during the transition from standard closed guard or Rubber Guard into the Dead Orchard setup - this is where you must recognize the trap being set and prevent the second arm from being controlled inside the triangle. When I see opponents attempting this position, I immediately prioritize posture recovery and creating frames before they can establish the proper angle. However, when executing the position offensively, the Dead Orchard becomes incredibly powerful because it creates multiple submission threats simultaneously. In no-gi competition especially, where grips are limited, the ability to control both arms while applying a choke gives you complete dominance. The position works particularly well when you've already broken the opponent down mentally through previous submission attempts - they're so focused on defending the initial triangle that they don't recognize the Dead Orchard trap until both arms are secured. From a competition strategy perspective, I view this as an advanced weapon that requires significant setup time but offers extremely high finishing rates once established. The investment in learning the proper mechanics and entry sequences pays dividends against high-level opponents who can typically defend standard triangles.",
-    "eddie_bravo": "The Dead Orchard is one of the crown jewels of the 10th Planet system and represents the ultimate evolution of triangle choke mechanics. I developed this position because I wanted to create a triangle variation that eliminated all the common escapes - and trapping both arms inside achieves exactly that. When you lock in a proper Dead Orchard, your opponent is completely helpless because every defensive movement they make actually tightens the position. Try to posture up? The choke gets tighter. Try to pull the arms out? Perfect, now I've got the armbar. Try to roll? Congratulations, you just gave me the omoplata. This position embodies the core 10th Planet philosophy of creating impossible dilemmas where the opponent has no good options. The beauty of the Dead Orchard is that it flows naturally from the Rubber Guard progression, particularly from Mission Control and Williams Guard positions. Once you understand the system, the entries become second nature and you start seeing Dead Orchard opportunities everywhere. The key that separates beginners from advanced practitioners is understanding that the Dead Orchard isn't just about trapping both arms - it's about the angle and the pressure distribution. You need to angle your body correctly, elevate your hips to create the proper compression, and maintain constant pressure without burning out your legs. I've seen countless students rush the position and lose it because they didn't take the time to establish proper control first. Master the mechanics, drill the transitions, and the Dead Orchard becomes one of the highest percentage finishing positions in your entire game. It's particularly devastating in no-gi where traditional grip-based defenses don't exist."
-  }
-}
-{
-  "metadata": {
-    "title": "Dead Orchard Control Top | BJJ Position Guide | BJJ Graph",
-    "description": "Master Dead Orchard Control Top in BJJ. Specialized anaconda variation with enhanced control. Complete guide covering setup, control mechanics, and finishing options.",
-    "state_id": "S210",
-    "tags": ["bjj", "position", "dead-orchard", "anaconda", "front-headlock", "choke-control", "top-position", "10th-planet", "submission-control"],
-    "parent_variant": "Dead Orchard Control",
-    "sibling_variants": ["Dead Orchard Control Bottom"]
-  },
-
-  "overview": "Dead Orchard Control Top is an advanced anaconda choke variation developed within the 10th Planet system, characterized by a specific grip configuration and body positioning that creates exceptional control while maintaining submission threat. This position represents a hybrid control state where the practitioner has secured the anaconda grip but emphasizes positional dominance and control mechanics over immediate submission completion. The 'dead orchard' nomenclature refers to the trapped, lifeless quality of the opponent's arm position combined with the systematic breakdown of their defensive structure.\n\nFrom top position, the practitioner establishes a deep anaconda-style grip around the opponent's neck and nearside arm while maintaining superior body positioning that prevents escape and creates submission opportunities. Unlike standard anaconda control, dead orchard control incorporates specific grip adjustments and weight distribution principles that allow for extended positional maintenance while gradually increasing submission pressure. This position is particularly effective in no-gi contexts where the practitioner can control timing and gradually advance position or finish the submission based on opponent reactions.\n\nThe position serves as both a control platform and a submission gateway, allowing the practitioner to maintain dominant position while threatening the finish. Understanding dead orchard control requires mastery of anaconda mechanics, shoulder pressure application, and the ability to read opponent defensive patterns to determine optimal finishing timing.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium"
-  },
-
-  "state_invariants": [
-    "Deep anaconda grip secured around opponent's neck and nearside arm with gable or S-grip configuration, creating circular compression on carotid arteries and restricting opponent's movement",
-    "Top practitioner's shoulder driving into opponent's trapped shoulder, creating downward pressure that prevents posture recovery and maintains submission angle",
-    "Opponent's trapped arm secured tightly against their own neck by the anaconda grip, eliminating space and creating structural weakness in their defensive frame",
-    "Top practitioner's hips positioned to control opponent's movement while maintaining weight distribution that prevents escape attempts and allows for positional adjustments",
-    "Top practitioner's free arm controlling opponent's far side or establishing secondary grips that enhance control and submission mechanics"
-  ],
-
-  "prerequisites": [
-    "Successful front headlock control establishment with opponent's posture broken down",
-    "Deep underhook secured on opponent's nearside arm with hand positioned past opponent's far shoulder",
-    "Opponent's head controlled and positioned appropriately for anaconda grip configuration",
-    "Top position maintained with ability to adjust weight distribution and hip placement",
-    "Grip strength and shoulder mobility sufficient to maintain anaconda configuration under resistance"
-  ],
-
-  "key_principles": [
-    "Maintain deep anaconda grip with constant circular pressure toward opponent's far shoulder to create blood choke mechanics",
-    "Drive shoulder pressure into opponent's trapped shoulder to prevent posture recovery and maintain submission angle",
-    "Control opponent's hips and movement with strategic weight distribution to prevent escape attempts",
-    "Keep opponent's trapped arm tight against their neck by maintaining grip depth and shoulder pressure",
-    "Use gradual pressure increases rather than explosive finishing attempts to break down defensive structure systematically",
-    "Maintain awareness of opponent's free arm and control secondary grips to prevent defensive hand fighting",
-    "Adjust body position based on opponent's escape attempts while preserving grip integrity and submission mechanics"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Anaconda Choke",
-      "target_position": "Won by Submission",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South Top",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      }
-    },
-    {
-      "technique": "Darce from Turtle",
-      "target_position": "Darce Control Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Front Headlock to Back",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Side Control to Mount",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Hip Escape",
-      "target_position": "Turtle Bottom",
-      "success_rate": 25
-    },
-    {
-      "technique": "Arm Extraction",
-      "target_position": "Front Headlock Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Closed Guard Bottom",
-      "success_rate": 20
-    },
-    {
-      "technique": "Grip Break",
-      "target_position": "Scramble Position",
-      "success_rate": 15
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "trigger": "Opponent attempts to turn away from pressure"
-    },
-    {
-      "technique": "Front Headlock to Back",
-      "target_position": "Back Control Top",
-      "trigger": "Opponent drives forward attempting to escape grip"
-    },
-    {
-      "technique": "Darce from Turtle",
-      "target_position": "Darce Control Position",
-      "trigger": "Opponent defends anaconda by creating space on trapped arm side"
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South Top",
-      "trigger": "Opponent attempts to bridge or create space underneath"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent remains stationary with minimal defensive movement",
-      "actions": [
-        {
-          "technique": "Anaconda Choke",
-          "target": "Won by Submission",
-          "probability": 70
-        },
-        {
-          "technique": "Increase shoulder pressure gradually",
-          "target": "Dead Orchard Control Top",
-          "probability": 30
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to turn away from the choke pressure",
-      "actions": [
-        {
-          "technique": "Transition to Mount",
-          "target": "Mount Top",
-          "probability": 60
-        },
-        {
-          "technique": "Front Headlock to Back",
-          "target": "Back Control Top",
-          "probability": 40
-        }
-      ]
-    },
-    {
-      "condition": "If opponent drives forward attempting to escape the grip",
-      "actions": [
-        {
-          "technique": "Front Headlock to Back",
-          "target": "Back Control Top",
-          "probability": 55
-        },
-        {
-          "technique": "Guillotine from Turtle",
-          "target": "Guillotine Control Top",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent creates space on the trapped arm side",
-      "actions": [
-        {
-          "technique": "Darce from Turtle",
-          "target": "Darce Control Position",
-          "probability": 65
-        },
-        {
-          "technique": "Transition to North-South",
-          "target": "North-South Top",
-          "probability": 35
-        }
-      ]
-    },
-    {
-      "condition": "If opponent establishes strong defensive grips preventing finish",
-      "actions": [
-        {
-          "technique": "Transition to North-South",
-          "target": "North-South Top",
-          "probability": 50
-        },
-        {
-          "technique": "Side Control to Mount",
-          "target": "Side Control Top",
-          "probability": 50
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Rushing the submission finish without establishing proper control and breaking down opponent's defensive structure",
-      "consequence": "Opponent escapes grip during explosive finishing attempt, returns to neutral or advantageous position",
-      "correction": "Focus on gradual pressure increases while maintaining positional control, allowing submission mechanics to develop systematically over 10-15 seconds of sustained pressure"
-    },
-    {
-      "error": "Allowing opponent's free arm to establish defensive grips or frames against the choking arm",
-      "consequence": "Opponent creates space, defends submission effectively, and potentially escapes to better position",
-      "correction": "Control opponent's free arm with strategic secondary grips or body positioning, prevent defensive hand fighting before attempting finish"
-    },
-    {
-      "error": "Losing shoulder pressure on opponent's trapped shoulder during position maintenance",
-      "consequence": "Opponent recovers posture, creates space, and escapes the control position",
-      "correction": "Maintain constant shoulder drive into opponent's trapped shoulder throughout the position, adjust body weight to reinforce pressure as needed"
-    },
-    {
-      "error": "Failing to adjust grip depth as opponent defends, allowing grip to become shallow",
-      "consequence": "Submission mechanics weaken, opponent creates space for escape, control position deteriorates",
-      "correction": "Continuously reassess and adjust grip depth, using body movement and weight shifts to maintain or improve hand position"
-    },
-    {
-      "error": "Poor hip positioning allowing opponent to create distance or turn into the practitioner",
-      "consequence": "Opponent escapes to guard, achieves sweep, or otherwise reverses the position",
-      "correction": "Maintain active hip control with strategic weight distribution, adjust positioning based on opponent's movement patterns while preserving grip integrity"
-    },
-    {
-      "error": "Neglecting to monitor opponent's breathing and defensive responses during extended control",
-      "consequence": "Miss optimal finishing opportunities or fail to recognize when position maintenance is more advantageous than immediate submission attempt",
-      "correction": "Develop sensitivity to opponent's defensive patterns, breathing changes, and fatigue indicators to time submission attempts optimally"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Anaconda Grip Maintenance Drill",
-      "description": "Partner starts in defensive turtle position. Establish dead orchard control and maintain grip and shoulder pressure for 2-minute rounds while partner attempts various escape sequences. Focus on grip depth preservation, shoulder pressure consistency, and positional adjustments without releasing control. Reset and repeat for 5 rounds with 1-minute rest periods.",
-      "duration": "5 rounds × 2 minutes"
-    },
-    {
-      "name": "Positional Flow Drill",
-      "description": "From dead orchard control top, practice flowing between control maintenance and various offensive transitions (mount, north-south, back control, submission finish) based on partner's defensive reactions. Partner provides progressive resistance increasing from 30% to 70% over multiple rounds. Focus on smooth transitions while maintaining grip integrity and pressure throughout movement sequences.",
-      "duration": "10 minutes continuous flow"
-    },
-    {
-      "name": "Submission Timing Development",
-      "description": "Establish dead orchard control and practice recognizing optimal finishing windows based on partner's defensive responses. Partner alternates between different defensive patterns (static defense, explosive escape attempts, gradual space creation). Practitioner must identify and capitalize on submission opportunities while maintaining position when finish is not available. Instructor provides feedback on timing decisions.",
-      "duration": "6 rounds × 3 minutes"
-    },
-    {
-      "name": "Counter-Response Chain Drill",
-      "description": "Partner executes specific escape sequences from dead orchard control (hip escape, arm extraction, rolling attempts). Practitioner responds with appropriate counter-transitions maintaining offensive advantage. Focus on reading opponent movement patterns early and executing counters smoothly. Progress through all major escape patterns with increasing speed and resistance.",
-      "duration": "15 minutes"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Direct finishing path",
-      "path": "Front Headlock Top → Dead Orchard Control Top → Anaconda Choke → Won by Submission"
-    },
-    {
-      "name": "Control-to-mount path",
-      "path": "Turtle Top → Dead Orchard Control Top → Mount Top → Armbar from Mount → Won by Submission"
-    },
-    {
-      "name": "Choke variation path",
-      "path": "Front Headlock Top → Dead Orchard Control Top → Darce Control Position → Darce Choke → Won by Submission"
-    },
-    {
-      "name": "Back attack path",
-      "path": "Dead Orchard Control Top → Back Control Top → Rear Naked Choke → Won by Submission"
-    },
-    {
-      "name": "Position advancement path",
-      "path": "Turtle Top → Dead Orchard Control Top → North-South Top → North-South Choke → Won by Submission"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Anaconda Control Top",
-      "relationship": "Parent position - standard anaconda configuration without dead orchard specific mechanics"
-    },
-    {
-      "name": "Darce Control Position",
-      "relationship": "Sister technique - alternative arm-in choke control from similar entries"
-    },
-    {
-      "name": "Front Headlock Top",
-      "relationship": "Entry position - primary setup position for dead orchard control establishment"
-    },
-    {
-      "name": "Guillotine Control Top",
+      "name": "Guillotine Control",
       "relationship": "Alternative control - different front headlock choke configuration"
     },
     {
-      "name": "Anaconda Choke",
-      "relationship": "Primary submission - main finishing technique from this control position"
+      "name": "Turtle",
+      "relationship": "Common entry state where dead orchard is frequently established"
     },
     {
-      "name": "Front Headlock to Anaconda",
-      "relationship": "Entry transition - technique for establishing dead orchard from front headlock"
+      "name": "Mount",
+      "relationship": "Transition target - high-percentage advancement when submission is defended"
     },
     {
-      "name": "Danaher Front Headlock System",
-      "relationship": "Strategic framework - systematic approach to front headlock positions including anaconda variations"
+      "name": "Back Control",
+      "relationship": "Alternative advancement - positional transition when opponent drives forward"
     },
     {
-      "name": "Turtle Top Position",
-      "relationship": "Common entry - opponent position from which dead orchard is frequently established"
+      "name": "North-South",
+      "relationship": "Control alternative - transition option when maintaining top pressure"
     },
     {
-      "name": "Mount Top",
-      "relationship": "Transition target - high-percentage advancement when opponent defends submission"
+      "name": "Closed Guard",
+      "relationship": "Escape target from bottom - primary defensive objective"
     },
     {
-      "name": "Pressure Application",
-      "relationship": "Core concept - fundamental principle for maintaining dead orchard control effectively"
+      "name": "Half Guard",
+      "relationship": "Secondary escape target - achievable defensive recovery position"
     }
   ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 80
+  "bottom": {
+    "name": "Dead Orchard Control Bottom",
+    "description": "Master Dead Orchard Control Bottom defense in BJJ. Systematic escape guide with survival techniques, breathing management, and recovery pathways from severely compromised position.",
+    "tags": ["bjj", "position", "dead-orchard", "bottom", "defensive", "turtle", "front-headlock", "submission-control", "escape-hierarchy"],
+    "overview": "Dead Orchard Control Bottom represents one of the most disadvantageous positions in Brazilian Jiu-Jitsu, where the practitioner is trapped in a modified front headlock position with their opponent controlling both the head and an arm while applying significant pressure. This position is a variation of the anaconda and darce control family, named for its ability to systematically eliminate offensive options and leave the bottom player in a state of severe positional deficit. The bottom practitioner finds themselves with limited mobility, restricted breathing, and facing immediate submission threats from multiple angles including anaconda choke, darce choke, guillotine variations, and potential transitions to back control or mount. The crushing pressure applied by the top player makes this an extremely energy-draining position for the defender, requiring calm, technical responses rather than explosive escape attempts that often worsen the situation. Understanding the mechanics of Dead Orchard Control Bottom is essential for comprehensive defensive jiu-jitsu, as knowing the proper defensive frames, breathing techniques, and systematic escape sequences can mean the difference between tapping and surviving to recover guard. The position emphasizes the critical importance of preventing front headlock positions in the first place, as escaping once fully established requires significant technical knowledge, mental composure under pressure, and efficient energy management throughout the defensive sequence.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
     },
-    "advancement_probability": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
+    "state_invariants": [
+      "Opponent controls your head with one arm wrapped around the neck, typically in a front headlock configuration with their chest pressing down on the back of your head and neck, restricting upward movement and creating a heavy, oppressive weight that limits breathing and vision while establishing the foundation for submission mechanics",
+      "Your trapped arm is secured by opponent's control, either caught inside their grip or pinned between your bodies, eliminating the ability to post or create frames on that side while the opponent's body weight reinforces this arm isolation and creates leverage for potential choke finishes",
+      "Your base is severely compromised with weight distributed awkwardly across knees and free hand, unable to establish proper turtle posture due to the opponent's angle of attack and pressure direction forcing you into a curled, defensive shell position that limits mobility and power generation",
+      "Opponent's hips are positioned to your side or slightly behind, applying perpendicular or angular pressure that prevents you from squaring up or establishing defensive frames, while maintaining the ability to transition between multiple submission threats or positional advancements based on your defensive reactions",
+      "Your free arm must work simultaneously to create space at the neck and prevent choking mechanics while trying to maintain enough base to prevent being flattened completely to the mat, creating a constant dilemma between defending submissions and defending position with insufficient resources to address both threats optimally"
+    ],
+    "prerequisites": [
+      "Failed turtle defense allowing opponent to secure front headlock control with deep grip",
+      "Unsuccessful takedown attempt resulting in opponent securing head and arm control during scramble",
+      "Transition from failed guard pull or guard recovery where opponent capitalizes on exposed posture",
+      "Lost scramble from bottom position with opponent achieving superior angle and head control",
+      "Mistimed or poorly executed escape attempt from side control, mount, or back control"
+    ],
+    "key_principles": [
+      "Maintain calm, controlled breathing despite restricted airway - panic and explosive movement accelerate fatigue and worsen position",
+      "Create space at the neck with your free hand using consistent, technical frames rather than desperate pushing that wastes energy",
+      "Protect your trapped arm from being used as leverage for submissions by keeping elbow tight and preventing overextension",
+      "Work systematically toward hip escape and guard recovery rather than attempting to immediately stand or roll which often fails",
+      "Recognize submission threats early and address choking mechanics before they become fully locked in and inescapable",
+      "Use small, efficient movements to conserve energy while progressively improving position through incremental gains",
+      "Keep chin tucked and neck protected to minimize submission vulnerability while working systematic escapes"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Hip Escape",
+        "target_position": "Turtle",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Rolling to Guard",
+        "target_position": "Closed Guard",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 25,
+          "advanced": 40
+        }
+      },
+      {
+        "technique": "Frame and Shrimp",
+        "target_position": "Turtle",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Granby Roll",
+        "target_position": "Half Guard",
+        "success_rates": {
+          "beginner": 10,
+          "intermediate": 20,
+          "advanced": 35
+        }
+      },
+      {
+        "technique": "Arm Extraction",
+        "target_position": "Front Headlock",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
+      },
+      {
+        "technique": "Technical Standup",
+        "target_position": "Standing Position",
+        "success_rates": {
+          "beginner": 5,
+          "intermediate": 15,
+          "advanced": 25
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Anaconda from Turtle",
+        "target_position": "Anaconda Control",
+        "success_rate": 65
+      },
+      {
+        "technique": "Darce Setup",
+        "target_position": "D'arce Control",
+        "success_rate": 60
+      },
+      {
+        "technique": "Guillotine Setup",
+        "target_position": "Guillotine Control",
+        "success_rate": 55
+      },
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "success_rate": 50
+      },
+      {
+        "technique": "Turtle to Back Take",
+        "target_position": "Back Control",
+        "success_rate": 45
+      },
+      {
+        "technique": "Transition to North-South",
+        "target_position": "North-South",
+        "success_rate": 40
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Hip Escape",
+        "target_position": "Turtle",
+        "trigger": "Opponent attempts to flatten you completely by driving weight forward"
+      },
+      {
+        "technique": "Rolling to Guard",
+        "target_position": "Closed Guard",
+        "trigger": "Opponent shifts weight to isolate arm for anaconda grip"
+      },
+      {
+        "technique": "Granby Roll",
+        "target_position": "Half Guard",
+        "trigger": "Opponent transitions weight to secure back control"
+      },
+      {
+        "technique": "Frame Creation",
+        "target_position": "Turtle",
+        "trigger": "Opponent attempts to lock submission before fully consolidating position"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent is actively working to lock anaconda or darce choke with arm trapped deep",
+        "actions": [
+          {
+            "technique": "Arm Extraction",
+            "target": "Front Headlock",
+            "probability": 35
+          },
+          {
+            "technique": "Rolling to Guard",
+            "target": "Closed Guard",
+            "probability": 30
+          },
+          {
+            "technique": "Hip Escape",
+            "target": "Turtle",
+            "probability": 25
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is transitioning to mount or back control rather than immediate submission",
+        "actions": [
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Turtle",
+            "probability": 45
+          },
+          {
+            "technique": "Hip Escape",
+            "target": "Turtle",
+            "probability": 35
+          },
+          {
+            "technique": "Granby Roll",
+            "target": "Half Guard",
+            "probability": 30
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's grip is loose or pressure is temporarily reduced",
+        "actions": [
+          {
+            "technique": "Hip Escape",
+            "target": "Turtle",
+            "probability": 45
+          },
+          {
+            "technique": "Technical Standup",
+            "target": "Standing Position",
+            "probability": 40
+          },
+          {
+            "technique": "Rolling to Guard",
+            "target": "Closed Guard",
+            "probability": 35
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Explosive bridging or rolling without first addressing the head and arm control",
+        "consequence": "Opponent easily follows the movement and locks in anaconda or darce choke, or takes back control with hooks",
+        "correction": "First create frames at the neck with free hand, then use systematic hip escape movements to progressively improve position before attempting larger movements"
+      },
+      {
+        "error": "Allowing the trapped arm to be pulled across your own body or overextended",
+        "consequence": "Provides opponent with leverage for anaconda choke and eliminates any base on that side, making position nearly inescapable",
+        "correction": "Keep trapped arm elbow tight to your ribs and actively pull it back toward your hip whenever possible to maintain structural integrity"
+      },
+      {
+        "error": "Pushing directly into opponent's chest or shoulders with free arm",
+        "consequence": "Wastes energy, provides no effective space creation, and leaves neck exposed when arm tires",
+        "correction": "Frame specifically at the choking arm and opponent's hip or shoulder to create angles for hip escape, using skeletal structure rather than muscular pushing"
+      },
+      {
+        "error": "Holding breath or breathing shallowly due to panic from restricted airway",
+        "consequence": "Rapid fatigue, mental panic, and inability to execute technical escapes before running out of energy",
+        "correction": "Focus on controlled nasal breathing and accept the discomfort, understanding that technical escapes are possible even with restricted breathing"
+      },
+      {
+        "error": "Attempting to immediately stand up or posture fully upright",
+        "consequence": "Opponent uses the upward movement to elevate and lock submission even tighter, or easily takes back control",
+        "correction": "Work through progressive position improvement: create space, free trapped arm or secure frames, hip escape to guard recovery, then consider standing"
+      },
+      {
+        "error": "Giving up mentally and waiting for inevitable submission",
+        "consequence": "Missing escape opportunities and failing to develop essential defensive skills for high-pressure situations",
+        "correction": "Maintain problem-solving mindset and systematically work through defensive sequence even when position seems hopeless, as opponent errors create escape windows"
+      },
+      {
+        "error": "Turning away from opponent or exposing back further to escape head control",
+        "consequence": "Opponent secures back control with hooks, an even worse position with higher submission probability",
+        "correction": "Keep chest facing downward or toward opponent's hips, using hip escape to create distance rather than turning away and exposing back"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Dead Orchard Survival Drill",
+        "description": "Partner establishes dead orchard control with moderate pressure. Bottom player practices maintaining calm breathing, creating frames at neck, and working systematic hip escape without explosive movement. Focus on survival for 2-minute rounds before attempting escapes. Build mental toughness and technique under sustained pressure.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Progressive Escape Sequence Drill",
+        "description": "Partner establishes dead orchard control. Bottom player must complete sequence: (1) create frame at neck, (2) begin hip escape movement, (3) free trapped arm or secure better base, (4) complete hip escape to guard recovery. Reset and repeat, gradually increasing opponent's resistance level from 50% to 80%.",
+        "duration": "10 minutes alternating"
+      },
+      {
+        "name": "Submission Defense Recognition Drill",
+        "description": "Partner establishes dead orchard control and randomly attempts anaconda, darce, or guillotine finish. Bottom player must identify the specific threat within 3 seconds and apply appropriate defensive counter (hand fighting for guillotine, arm extraction for anaconda, hip angle change for darce). Develops pattern recognition under pressure.",
+        "duration": "8 minutes alternating"
+      },
+      {
+        "name": "Positional Sparring from Dead Orchard",
+        "description": "Start in established dead orchard control bottom position. Bottom player works to escape to any guard position (scored as success) or avoid submission for 90 seconds (scored as survival). Top player works to submit or advance to mount or back. Track success rates to measure defensive improvement over time.",
+        "duration": "6 rounds of 90 seconds"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Highest percentage escape path",
+        "path": "Dead Orchard Control Bottom → Hip Escape → Turtle → Closed Guard"
+      },
+      {
+        "name": "Secondary escape via guard restoration",
+        "path": "Dead Orchard Control Bottom → Frame and Shrimp → Turtle → Half Guard"
+      },
+      {
+        "name": "Emergency scramble path when submissions imminent",
+        "path": "Dead Orchard Control Bottom → Rolling to Guard → Closed Guard"
+      },
+      {
+        "name": "Standing escape path when space available",
+        "path": "Dead Orchard Control Bottom → Technical Standup → Standing Position"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Anaconda Control",
+        "relationship": "Common transition - dead orchard often becomes full anaconda control"
+      },
+      {
+        "name": "D'arce Control",
+        "relationship": "Similar defensive challenges - same escape principles apply"
+      },
+      {
+        "name": "Front Headlock",
+        "relationship": "Parent position - dead orchard is specialized variation"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Typical entry position - prevention starts in turtle defense"
+      },
+      {
+        "name": "Guillotine Control",
+        "relationship": "Alternative submission threat from same control framework"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Primary escape target - most achievable defensive goal"
+      },
+      {
+        "name": "Anaconda Choke",
+        "relationship": "Primary submission threat requiring specific defense"
+      },
+      {
+        "name": "Darce Choke",
+        "relationship": "Secondary submission threat with different mechanics"
+      },
+      {
+        "name": "Hip Escape",
+        "relationship": "Essential escape technique from compressed positions"
+      },
+      {
+        "name": "Frame Creation",
+        "relationship": "Core defensive concept for creating space under pressure"
+      },
+      {
+        "name": "Submission Defense",
+        "relationship": "Broader defensive framework applicable to this position"
+      },
+      {
+        "name": "Escape Hierarchy",
+        "relationship": "Conceptual framework for prioritizing defensive actions"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 10,
+        "intermediate": 25,
+        "advanced": 40
+      },
+      "advancement_probability": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 10,
+        "advanced": 15
+      },
+      "average_time": "30-90 seconds before submission or escape"
     },
-    "submission_probability": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    },
-    "average_time": "45-90 seconds"
+    "expert_insights": {
+      "danaher": "Dead Orchard Control Bottom represents a catastrophic breakdown in defensive hierarchy where multiple control points have been ceded simultaneously - the head, an arm, and positional angle. The biomechanical reality is severe: the human body cannot generate effective power when the head is controlled and pulled downward while an arm is trapped across the centerline. Your defensive strategy must be systematic rather than instinctive. First, address the most immediate threat to structural integrity - typically this is the choking mechanism at the neck. Create a frame with your free hand, not by pushing into the opponent's chest, but by establishing a post at their hip or shoulder to create an angle for hip movement. Second, recognize that explosive escape attempts will fail because they require the very base and structural alignment that this position denies you. Instead, use incremental hip escape movements to progressively shift your body angle relative to the opponent's pressure vector. The goal is not immediate freedom but systematic position improvement: from dead orchard to modified turtle, from modified turtle to guard recovery, from guard recovery to closed guard. Each step must be consolidated before attempting the next. Understanding the mechanical principles of why this position is so dominant helps you identify the specific structural changes needed to escape, rather than simply fighting harder within a losing framework.",
+      "gordon_ryan": "I've been caught in dead orchard variations in high-level competition, and the key is recognizing it's a survival position first, escape position second. The guys who tap are the ones who panic when they feel their breathing restricted and start making desperate, large movements that just help me finish the choke or take their back. The guys who survive are the ones who accept the discomfort, keep breathing through their nose even though it's hard, and work technically. Your first job is hand fighting the choking arm - not just pushing randomly, but specifically attacking their grip or the angle of their arm across your neck. At the same time, you need to prevent them from flattening you completely because once you're flat, it's basically over. Keep some kind of base with your free arm and your knees, even if it's compromised. The escape that works best for me when I'm on bottom is a patient hip escape combined with freeing my trapped arm. I'm not trying to explode out - I'm using small, controlled movements to shift my hips away from their pressure while simultaneously pulling my elbow back toward my own hip to free the trapped arm. Once that arm is free, you can establish proper frames and start the real escape sequence. The competition reality is that if you're in this position, you're already in trouble, so don't compound it by being impatient. Work the problem methodically and you'll find opportunities when they transition or adjust their grips.",
+      "eddie_bravo": "Dead Orchard from the bottom is one of those positions where you need to get creative because traditional escapes often don't work when you're really stuck. In 10th Planet we emphasize the importance of the Granby roll and inversion skills for exactly these kinds of trapped positions. When you're caught in dead orchard and the standard hip escape isn't available because they've got you too tight, you need to think about using momentum and unconventional angles. One thing I teach is the concept of rolling through the position rather than trying to push out of it - if you time it right when they're transitioning their weight to lock in a submission, you can use a Granby-style roll to invert and come out the back door. Another approach is to attack their balance by pulling their far knee or ankle with your free hand while simultaneously shrimping - this creates a diagonal escape angle they're not expecting. The key is not accepting the conventional wisdom that you're completely stuck. Look for creative solutions like the lockdown-style concepts of controlling their leg to prevent them from sprawling their weight, or using your free leg to hook over their back and create a scramble. Sometimes the best escape is to make the position so chaotic and unstable that they have to abandon the control to prevent you from taking an even more unorthodox path to safety. Don't just survive - be proactive about creating chaos that works in your favor."
+    }
   },
-
-  "expert_insights": {
-    "danaher": "Dead orchard control represents a sophisticated understanding of anaconda mechanics where the practitioner transitions from viewing the position purely as a submission setup to recognizing it as a complete control system. The biomechanical foundation rests on creating a closed kinetic chain around the opponent's neck and shoulder complex while simultaneously removing their ability to generate escape-relevant forces. The key distinction from standard anaconda positioning lies in the emphasis on shoulder pressure maintenance and grip depth optimization throughout extended control periods. By treating the position as a control platform first and submission second, the practitioner develops the patience and technical precision necessary to recognize optimal finishing windows rather than forcing low-percentage submission attempts. The systematic approach involves establishing the grip complex, securing superior body positioning, breaking down opponent defensive structures through gradual pressure increases, and finally capitalizing on defensive errors or fatigue to complete the submission. This methodology produces significantly higher success rates because the opponent's defensive capabilities have been systematically dismantled before the finishing sequence begins.",
-    "gordon_ryan": "Dead orchard control is one of the highest-percentage no-gi positions I use in competition because it gives you complete control while maintaining constant submission threat. The position works exceptionally well against defensive specialists who are good at stalling from bottom positions because you're attacking their neck and structure simultaneously - they can't just turtle up and wait. What makes this position elite is that most opponents don't recognize the submission danger until it's too late because you're maintaining it as a control position rather than immediately attacking the finish. I focus on three main aspects: getting my grip as deep as possible initially so I don't have to readjust under pressure, driving my shoulder into their trapped shoulder to prevent any posture recovery, and controlling their hips so they can't create the distance needed to escape. When they start to fatigue from defending the position, that's when I tighten everything up and finish the choke. The position also sets up perfect transitions to mount or back control if they defend the submission correctly, so you're always advancing your position even if the finish isn't there. In competition, I use this to break opponents mentally because they're stuck defending with no clear escape path.",
-    "eddie_bravo": "Dead orchard control is a perfect example of 10th Planet's philosophy of creating positions that put opponents in constant dilemma situations where every defensive option opens up something else. The name comes from how dead and lifeless their trapped arm becomes - it's completely useless to them, like a dead tree in an orchard. What makes this position special is the grip variation and shoulder pressure combination that creates this weird trapped feeling opponents hate. You're not just going for the choke right away - you're cooking them, making them carry your weight while their arm is stuck in this uncomfortable position where it's actually working against them by being tight to their own neck. The innovation in dead orchard is recognizing that the anaconda grip can be a long-term control position in no-gi where you can maintain it, transition from it, and finish from it based on how they react. I teach students to think of it as a web - once they're caught in the dead orchard, every movement they make either tightens the submission or opens up a transition to a more dominant position. The psychological warfare aspect is huge because experienced opponents recognize they're in trouble but don't have a clear defensive path, which creates the kind of mental pressure that leads to mistakes and taps."
+  "top": {
+    "name": "Dead Orchard Control Top",
+    "description": "Master Dead Orchard Control Top in BJJ. Advanced anaconda variation emphasizing extended positional dominance with systematic breakdown mechanics and multiple finishing options.",
+    "tags": ["bjj", "position", "dead-orchard", "anaconda", "front-headlock", "choke-control", "top-position", "10th-planet", "submission-control"],
+    "overview": "Dead Orchard Control Top is an advanced anaconda choke variation developed within the 10th Planet system, characterized by a specific grip configuration and body positioning that creates exceptional control while maintaining submission threat. This position represents a hybrid control state where the practitioner has secured the anaconda grip but emphasizes positional dominance and control mechanics over immediate submission completion. The nomenclature refers to the trapped, lifeless quality of the opponent's arm position combined with the systematic breakdown of their defensive structure. From top position, the practitioner establishes a deep anaconda-style grip around the opponent's neck and nearside arm while maintaining superior body positioning that prevents escape and creates submission opportunities. Unlike standard anaconda control, dead orchard control incorporates specific grip adjustments and weight distribution principles that allow for extended positional maintenance while gradually increasing submission pressure. This position is particularly effective in no-gi contexts where the practitioner can control timing and gradually advance position or finish the submission based on opponent reactions. The position serves as both a control platform and a submission gateway, allowing the practitioner to maintain dominant position while threatening the finish. Understanding dead orchard control requires mastery of anaconda mechanics, shoulder pressure application, and the ability to read opponent defensive patterns to determine optimal finishing timing.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Deep anaconda grip secured around opponent's neck and nearside arm with gable or S-grip configuration, creating circular compression on carotid arteries and restricting opponent's movement while establishing submission mechanics",
+      "Top practitioner's shoulder driving into opponent's trapped shoulder, creating downward pressure that prevents posture recovery and maintains submission angle while systematically breaking down defensive structure",
+      "Opponent's trapped arm secured tightly against their own neck by the anaconda grip, eliminating space and creating structural weakness in their defensive frame that compounds with continued pressure application",
+      "Top practitioner's hips positioned to control opponent's movement while maintaining weight distribution that prevents escape attempts and allows for positional adjustments based on defensive reactions",
+      "Top practitioner's free arm controlling opponent's far side or establishing secondary grips that enhance control and submission mechanics while preventing defensive hand fighting or space creation"
+    ],
+    "prerequisites": [
+      "Successful front headlock control establishment with opponent's posture broken down",
+      "Deep underhook secured on opponent's nearside arm with hand positioned past opponent's far shoulder",
+      "Opponent's head controlled and positioned appropriately for anaconda grip configuration",
+      "Top position maintained with ability to adjust weight distribution and hip placement",
+      "Grip strength and shoulder mobility sufficient to maintain anaconda configuration under resistance"
+    ],
+    "key_principles": [
+      "Maintain deep anaconda grip with constant circular pressure toward opponent's far shoulder to create blood choke mechanics",
+      "Drive shoulder pressure into opponent's trapped shoulder to prevent posture recovery and maintain submission angle",
+      "Control opponent's hips and movement with strategic weight distribution to prevent escape attempts",
+      "Keep opponent's trapped arm tight against their neck by maintaining grip depth and shoulder pressure",
+      "Use gradual pressure increases rather than explosive finishing attempts to break down defensive structure systematically",
+      "Maintain awareness of opponent's free arm and control secondary grips to prevent defensive hand fighting",
+      "Adjust body position based on opponent's escape attempts while preserving grip integrity and submission mechanics"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Anaconda Choke",
+        "target_position": "Won by Submission",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 55,
+          "advanced": 75
+        }
+      },
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 45,
+          "intermediate": 60,
+          "advanced": 75
+        }
+      },
+      {
+        "technique": "Transition to North-South",
+        "target_position": "North-South",
+        "success_rates": {
+          "beginner": 50,
+          "intermediate": 65,
+          "advanced": 80
+        }
+      },
+      {
+        "technique": "Darce from Turtle",
+        "target_position": "D'arce Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Front Headlock to Back",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Side Control to Mount",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Hip Escape",
+        "target_position": "Turtle",
+        "success_rate": 25
+      },
+      {
+        "technique": "Arm Extraction",
+        "target_position": "Front Headlock",
+        "success_rate": 30
+      },
+      {
+        "technique": "Rolling to Guard",
+        "target_position": "Closed Guard",
+        "success_rate": 20
+      },
+      {
+        "technique": "Grip Break",
+        "target_position": "Scramble Position",
+        "success_rate": 15
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "trigger": "Opponent attempts to turn away from pressure"
+      },
+      {
+        "technique": "Front Headlock to Back",
+        "target_position": "Back Control",
+        "trigger": "Opponent drives forward attempting to escape grip"
+      },
+      {
+        "technique": "Darce from Turtle",
+        "target_position": "D'arce Control",
+        "trigger": "Opponent defends anaconda by creating space on trapped arm side"
+      },
+      {
+        "technique": "Transition to North-South",
+        "target_position": "North-South",
+        "trigger": "Opponent attempts to bridge or create space underneath"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent remains stationary with minimal defensive movement",
+        "actions": [
+          {
+            "technique": "Anaconda Choke",
+            "target": "Won by Submission",
+            "probability": 70
+          },
+          {
+            "technique": "Increase shoulder pressure gradually",
+            "target": "Dead Orchard Control Top",
+            "probability": 30
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to turn away from the choke pressure",
+        "actions": [
+          {
+            "technique": "Transition to Mount",
+            "target": "Mount",
+            "probability": 60
+          },
+          {
+            "technique": "Front Headlock to Back",
+            "target": "Back Control",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward attempting to escape the grip",
+        "actions": [
+          {
+            "technique": "Front Headlock to Back",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Guillotine Setup",
+            "target": "Guillotine Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent creates space on the trapped arm side",
+        "actions": [
+          {
+            "technique": "Darce from Turtle",
+            "target": "D'arce Control",
+            "probability": 65
+          },
+          {
+            "technique": "Transition to North-South",
+            "target": "North-South",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes strong defensive grips preventing finish",
+        "actions": [
+          {
+            "technique": "Transition to North-South",
+            "target": "North-South",
+            "probability": 50
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Side Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Rushing the submission finish without establishing proper control and breaking down opponent's defensive structure",
+        "consequence": "Opponent escapes grip during explosive finishing attempt, returns to neutral or advantageous position",
+        "correction": "Focus on gradual pressure increases while maintaining positional control, allowing submission mechanics to develop systematically over 10-15 seconds of sustained pressure"
+      },
+      {
+        "error": "Allowing opponent's free arm to establish defensive grips or frames against the choking arm",
+        "consequence": "Opponent creates space, defends submission effectively, and potentially escapes to better position",
+        "correction": "Control opponent's free arm with strategic secondary grips or body positioning, prevent defensive hand fighting before attempting finish"
+      },
+      {
+        "error": "Losing shoulder pressure on opponent's trapped shoulder during position maintenance",
+        "consequence": "Opponent recovers posture, creates space, and escapes the control position",
+        "correction": "Maintain constant shoulder drive into opponent's trapped shoulder throughout the position, adjust body weight to reinforce pressure as needed"
+      },
+      {
+        "error": "Failing to adjust grip depth as opponent defends, allowing grip to become shallow",
+        "consequence": "Submission mechanics weaken, opponent creates space for escape, control position deteriorates",
+        "correction": "Continuously reassess and adjust grip depth, using body movement and weight shifts to maintain or improve hand position"
+      },
+      {
+        "error": "Poor hip positioning allowing opponent to create distance or turn into the practitioner",
+        "consequence": "Opponent escapes to guard, achieves sweep, or otherwise reverses the position",
+        "correction": "Maintain active hip control with strategic weight distribution, adjust positioning based on opponent's movement patterns while preserving grip integrity"
+      },
+      {
+        "error": "Neglecting to monitor opponent's breathing and defensive responses during extended control",
+        "consequence": "Miss optimal finishing opportunities or fail to recognize when position maintenance is more advantageous than immediate submission attempt",
+        "correction": "Develop sensitivity to opponent's defensive patterns, breathing changes, and fatigue indicators to time submission attempts optimally"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Anaconda Grip Maintenance Drill",
+        "description": "Partner starts in defensive turtle position. Establish dead orchard control and maintain grip and shoulder pressure for 2-minute rounds while partner attempts various escape sequences. Focus on grip depth preservation, shoulder pressure consistency, and positional adjustments without releasing control. Reset and repeat for 5 rounds with 1-minute rest periods.",
+        "duration": "5 rounds × 2 minutes"
+      },
+      {
+        "name": "Positional Flow Drill",
+        "description": "From dead orchard control top, practice flowing between control maintenance and various offensive transitions (mount, north-south, back control, submission finish) based on partner's defensive reactions. Partner provides progressive resistance increasing from 30% to 70% over multiple rounds. Focus on smooth transitions while maintaining grip integrity and pressure throughout movement sequences.",
+        "duration": "10 minutes continuous flow"
+      },
+      {
+        "name": "Submission Timing Development",
+        "description": "Establish dead orchard control and practice recognizing optimal finishing windows based on partner's defensive responses. Partner alternates between different defensive patterns (static defense, explosive escape attempts, gradual space creation). Practitioner must identify and capitalize on submission opportunities while maintaining position when finish is not available. Instructor provides feedback on timing decisions.",
+        "duration": "6 rounds × 3 minutes"
+      },
+      {
+        "name": "Counter-Response Chain Drill",
+        "description": "Partner executes specific escape sequences from dead orchard control (hip escape, arm extraction, rolling attempts). Practitioner responds with appropriate counter-transitions maintaining offensive advantage. Focus on reading opponent movement patterns early and executing counters smoothly. Progress through all major escape patterns with increasing speed and resistance.",
+        "duration": "15 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Direct finishing path",
+        "path": "Front Headlock → Dead Orchard Control Top → Anaconda Choke → Won by Submission"
+      },
+      {
+        "name": "Control-to-mount path",
+        "path": "Turtle → Dead Orchard Control Top → Mount → Armbar from Mount → Won by Submission"
+      },
+      {
+        "name": "Choke variation path",
+        "path": "Front Headlock → Dead Orchard Control Top → D'arce Control → Darce Choke → Won by Submission"
+      },
+      {
+        "name": "Back attack path",
+        "path": "Dead Orchard Control Top → Back Control → Rear Naked Choke → Won by Submission"
+      },
+      {
+        "name": "Position advancement path",
+        "path": "Turtle → Dead Orchard Control Top → North-South → North-South Choke → Won by Submission"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Anaconda Control",
+        "relationship": "Parent position - standard anaconda configuration without dead orchard specific mechanics"
+      },
+      {
+        "name": "D'arce Control",
+        "relationship": "Sister technique - alternative arm-in choke control from similar entries"
+      },
+      {
+        "name": "Front Headlock",
+        "relationship": "Entry position - primary setup position for dead orchard control establishment"
+      },
+      {
+        "name": "Guillotine Control",
+        "relationship": "Alternative control - different front headlock choke configuration"
+      },
+      {
+        "name": "Anaconda Choke",
+        "relationship": "Primary submission - main finishing technique from this control position"
+      },
+      {
+        "name": "Front Headlock to Anaconda",
+        "relationship": "Entry transition - technique for establishing dead orchard from front headlock"
+      },
+      {
+        "name": "Danaher Front Headlock System",
+        "relationship": "Strategic framework - systematic approach to front headlock positions including anaconda variations"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common entry - opponent position from which dead orchard is frequently established"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Transition target - high-percentage advancement when opponent defends submission"
+      },
+      {
+        "name": "Pressure Application",
+        "relationship": "Core concept - fundamental principle for maintaining dead orchard control effectively"
+      },
+      {
+        "name": "10th Planet No-Gi Guard System",
+        "relationship": "System origin - dead orchard control developed within 10th Planet methodology"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Alternative advancement - transition when opponent drives forward"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      },
+      "average_time": "45-90 seconds"
+    },
+    "expert_insights": {
+      "danaher": "Dead orchard control represents a sophisticated understanding of anaconda mechanics where the practitioner transitions from viewing the position purely as a submission setup to recognizing it as a complete control system. The biomechanical foundation rests on creating a closed kinetic chain around the opponent's neck and shoulder complex while simultaneously removing their ability to generate escape-relevant forces. The key distinction from standard anaconda positioning lies in the emphasis on shoulder pressure maintenance and grip depth optimization throughout extended control periods. By treating the position as a control platform first and submission second, the practitioner develops the patience and technical precision necessary to recognize optimal finishing windows rather than forcing low-percentage submission attempts. The systematic approach involves establishing the grip complex, securing superior body positioning, breaking down opponent defensive structures through gradual pressure increases, and finally capitalizing on defensive errors or fatigue to complete the submission. This methodology produces significantly higher success rates because the opponent's defensive capabilities have been systematically dismantled before the finishing sequence begins. The position exemplifies the principle that truly dominant control states should offer multiple offensive pathways while eliminating defensive options, creating a scenario where the opponent faces an increasingly impossible defensive problem as time progresses.",
+      "gordon_ryan": "Dead orchard control is one of the highest-percentage no-gi positions I use in competition because it gives you complete control while maintaining constant submission threat. The position works exceptionally well against defensive specialists who are good at stalling from bottom positions because you're attacking their neck and structure simultaneously - they can't just turtle up and wait. What makes this position elite is that most opponents don't recognize the submission danger until it's too late because you're maintaining it as a control position rather than immediately attacking the finish. I focus on three main aspects: getting my grip as deep as possible initially so I don't have to readjust under pressure, driving my shoulder into their trapped shoulder to prevent any posture recovery, and controlling their hips so they can't create the distance needed to escape. When they start to fatigue from defending the position, that's when I tighten everything up and finish the choke. The position also sets up perfect transitions to mount or back control if they defend the submission correctly, so you're always advancing your position even if the finish isn't there. In competition, I use this to break opponents mentally because they're stuck defending with no clear escape path. The psychological pressure of being trapped in a position where you can feel the submission threat but can't effectively escape creates mistakes and opportunities that wouldn't exist with more explosive submission attempts.",
+      "eddie_bravo": "Dead orchard control is a perfect example of 10th Planet's philosophy of creating positions that put opponents in constant dilemma situations where every defensive option opens up something else. The name comes from how dead and lifeless their trapped arm becomes - it's completely useless to them, like a dead tree in an orchard. What makes this position special is the grip variation and shoulder pressure combination that creates this weird trapped feeling opponents hate. You're not just going for the choke right away - you're cooking them, making them carry your weight while their arm is stuck in this uncomfortable position where it's actually working against them by being tight to their own neck. The innovation in dead orchard is recognizing that the anaconda grip can be a long-term control position in no-gi where you can maintain it, transition from it, and finish from it based on how they react. I teach students to think of it as a web - once they're caught in the dead orchard, every movement they make either tightens the submission or opens up a transition to a more dominant position. The psychological warfare aspect is huge because experienced opponents recognize they're in trouble but don't have a clear defensive path, which creates the kind of mental pressure that leads to mistakes and taps. Master this position and you've got a weapon that works at every level of competition."
+    }
   }
 }

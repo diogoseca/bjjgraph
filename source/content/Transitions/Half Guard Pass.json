@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Half Guard Pass | BJJ Technique | BJJ Graph",
-    "description": "Learn Half Guard Pass in BJJ. Step-by-step execution from Half Guard Top to Side Control. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
-    "transition_id": "T086",
-    "tags": [
-      "bjj",
-      "transition",
-      "guard_pass",
-      "half_guard",
-      "fundamental"
-    ],
-    "starting_position": "Half Guard Top",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 40,
-      "intermediate": 60,
-      "advanced": 80
-    }
+  "name": "Half Guard Pass",
+  "description": "Master the Half Guard Pass in BJJ. Systematic approach from Half Guard Top to Side Control. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard_pass",
+    "half_guard",
+    "fundamental",
+    "pressure_passing",
+    "top_position"
+  ],
+  "starting_position": "Half Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 40,
+    "intermediate": 60,
+    "advanced": 80
   },
   "overview": "The Half Guard Pass is one of the most essential techniques in Brazilian Jiu-Jitsu, representing the fundamental challenge of progressing from the half guard top position to full side control. This technique encompasses a systematic approach to defeating the bottom player's defensive structure, which includes their leg entanglement, underhook battles, and frame creation. Understanding the half guard pass is crucial because half guard represents one of the most common positions in modern BJJ, serving as a key battleground between the top player's passing efforts and the bottom player's retention and sweeping attacks.\n\nThe effectiveness of the half guard pass lies in understanding the bottom player's defensive hierarchy and systematically dismantling each layer of defense. The bottom player typically relies on distance management through frames, connection through underhooks or overhooks, and leg control through various half guard configurations. The top player must address each of these defensive structures in sequence while maintaining pressure and preventing the bottom player from recovering full guard or executing sweeps.\n\nSuccessful half guard passing requires a combination of technical precision, pressure application, and strategic decision-making. The passer must recognize which variation of half guard they're facing (traditional half guard, lockdown, knee shield, deep half, etc.) and adapt their passing strategy accordingly. This technique forms the foundation for more advanced passing systems and represents a critical skill progression from beginner to advanced levels, with success rates improving dramatically as practitioners develop better pressure, timing, and recognition of defensive reactions.",
   "key_principles": [
@@ -227,13 +226,33 @@
     },
     {
       "question": "How should you sequence your passing attempts when your initial half guard pass is defended?",
-      "answer": "Rather than remaining static and attempting to force a single passing technique against active defense, experienced passers chain multiple passing sequences together based on opponent's reactions. If traditional pressure passing is defended with strong frames, transition to knee slice or headquarters. If they defend knee slice, flow to leg drag or long step. The key is maintaining forward pressure and control while fluidly transitioning between passing angles. Each defensive response creates new opportunities - if they defend your crossface, they often weaken their leg defense; if they focus entirely on leg retention, their upper body becomes vulnerable. This systematic approach prevents you from getting stuck in static battles of strength and instead uses opponent's defensive choices to create new passing opportunities.",
+      "answer": "Rather than remaining static and attempting to force a single passing technique against active defense, experienced passers chain multiple passing sequences together based on opponent's reactions. If traditional pressure passing is defended with strong frames, transition to knee slice or headquarters. If they defend knee slice, flow to leg drag or long step. The key is maintaining forward pressure and control while fluidly transitioning between passing angles. Each defensive response creates new opportunities - if they defend your crossface, they often weaken their leg defense; if they focus entirely on leg retention, their upper body becomes vulnerable. This systematic approach prevents you from getting stuck in prolonged stalling positions and instead uses opponent's defensive choices to create new passing opportunities.",
       "difficulty": "Advanced"
     }
   ],
   "safety_considerations": "Half guard passing is generally safe when practiced with proper control and progressive resistance. The primary safety concerns involve knee and hip injuries to the passing player if they attempt to violently rip their trapped leg free without proper technique - this can stress knee ligaments and hip flexors. Always extract your leg using proper hip positioning and pressure rather than forceful yanking. For the bottom player, ensure your partner doesn't drive crossface pressure excessively hard onto your neck or face, especially when learning. Bottom players should be aware of potential shoulder and rib pressure and communicate if pressure becomes uncomfortable. When practicing lockdown defenses, the top player should use controlled movements when whipping their leg to break the hold rather than violent kicking that could injure their partner's legs. Both partners should build pressure gradually during training rather than applying maximum force immediately. Advanced practitioners should be particularly careful when practicing against deep half guard attempts, as mistimed movements can result in awkward falls or knee torque.",
   "position_integration": "The half guard pass is a foundational technique within the broader BJJ positional hierarchy, serving as the primary method for advancing from a contested position (half guard top) to a dominant position (side control). Half guard represents one of the most common positions in modern BJJ because it's a natural stopping point during guard passing attempts and guard recovery efforts - the bottom player often catches one leg while attempting to prevent a full pass. Understanding half guard passing is essential for any top game development because you will inevitably encounter this position dozens of times in every training session. The technique integrates with the complete passing system by providing specific solutions for this leg entanglement scenario, distinct from open guard passing or closed guard breaking. It connects directly to side control transitions, knee slice variations, leg drag sequences, and various other passing positions. From a defensive perspective, understanding the half guard pass helps you recognize what the bottom player is trying to prevent and accomplish, making you a better half guard player from both top and bottom. This pass also serves as entry into advanced concepts like pressure passing systems, chain passing sequences, and position-specific grip fighting strategies. Competition analysis shows that successful half guard passing correlates strongly with overall competition success because it demonstrates complete positional control and the ability to navigate complex defensive structures.",
   "related_content": [
+    {
+      "name": "Half Guard",
+      "relationship": "Starting position - understanding bottom perspective improves your passing"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Standard ending position after successful half guard pass"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Major defensive counter to prevent - requires specific awareness and stuffing techniques"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Specific half guard variation requiring adapted passing strategy"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Common defensive frame requiring clearing technique during pass"
+    },
     {
       "name": "Knee Slice Pass",
       "relationship": "Common follow-up passing technique when establishing headquarters position from half guard"
@@ -243,28 +262,12 @@
       "relationship": "Alternative passing method utilizing underhook control from half guard top"
     },
     {
-      "name": "Knee Slice from Half",
-      "relationship": "Specific variation of knee slice that starts directly from half guard entanglement"
-    },
-    {
-      "name": "Smash Pass",
-      "relationship": "Pressure-based passing alternative using leg weave mechanics"
-    },
-    {
       "name": "Long Step Pass",
       "relationship": "Angle-based passing option when direct passing is defended"
     },
     {
-      "name": "Half Guard Bottom",
-      "relationship": "Defensive position - understanding bottom perspective improves your passing"
-    },
-    {
-      "name": "Side Control Top",
-      "relationship": "Standard ending position after successful half guard pass"
-    },
-    {
-      "name": "Deep Half Guard",
-      "relationship": "Major defensive counter to prevent - requires specific awareness and stuffing techniques"
+      "name": "Smash Pass",
+      "relationship": "Pressure-based passing alternative using leg weave mechanics"
     },
     {
       "name": "Kimura from Half Guard",
@@ -275,17 +278,13 @@
       "relationship": "Opportunistic submission when opponent attempts underhook and turns to their side"
     },
     {
-      "name": "Lockdown Position",
-      "relationship": "Specific half guard variation requiring adapted passing strategy"
-    },
-    {
-      "name": "Knee Shield Position Bottom",
-      "relationship": "Common defensive frame requiring clearing technique during pass"
+      "name": "Headquarters Position",
+      "relationship": "Transitional position when stepping over half guard legs"
     }
   ],
   "expert_insights": {
     "danaher": "The half guard pass represents a critical intersection of systematic pressure application and mechanical understanding of leverage systems. What many practitioners fail to understand is that half guard is not passed through the legs - it is passed through the shoulders and chest. The leg entanglement is merely a symptom of insufficient upper body control. When you achieve proper crossface or underhook dominance, combined with forward chest pressure that pins their shoulder structure to the mat, the leg extraction becomes almost trivial because they cannot follow your movement with their hips. The common error is treating the trapped leg as the primary problem when it's actually a secondary consequence of inadequate pressure and shoulder control. Study the mechanics of how professional wrestlers control opponents in top position - they understand that controlling the upper body controls everything below it. The half guard pass should be viewed as a systematic sequence: first establish dominant shoulder pressure, second neutralize their underhook or establish your own, third address any knee shield or frame, and only fourth extract the trapped leg. Most practitioners reverse this sequence and wonder why they struggle. Additionally, understanding the concept of 'following the pass' is crucial - your chest pressure must remain constant throughout the entire passing sequence, never allowing vertical space as you transition to side control. This requires hip mobility and the ability to keep your chest connected while your legs reposition. The half guard pass is ultimately about creating a pressure system that the bottom player cannot escape, not about forcefully ripping your leg free through muscular strength.",
-    "gordon_ryan": "In competition, the half guard pass is absolutely essential because almost every high-level match will involve half guard positions multiple times. What I've learned through countless competition experiences is that the underhook battle in half guard determines everything - if your opponent gets the underhook and you don't address it immediately, you're in serious danger of being swept or having your back taken. I've seen black belt world champions get swept from half guard because they neglected the underhook for even three seconds. My approach to half guard passing focuses heavily on winning this battle first, usually through aggressive crossface or by establishing my own underhook and using it to drive them flat. One thing that separates competition-level half guard passing from gym rolling is the intensity of pressure - in competition, you must be willing to make your opponent extremely uncomfortable with shoulder pressure, chest pressure, and crossface control. They should feel completely flattened and unable to move. I also prioritize developing multiple passing sequences from half guard rather than relying on one technique, because intelligent opponents will defend your favorite pass. I'll start with traditional pressure passing, but if they establish strong lockdown or knee shield, I immediately switch to knee slice or headquarters position. If they defend that, I flow to long step or leg drag. This chain passing approach prevents you from getting stuck in prolonged stalling positions. Another critical competition insight is that half guard is often where matches are decided on points - if you can consistently pass half guard, you're scoring three points per pass and establishing dominant positions that lead to submissions. Practice your half guard passing until you can complete it against full resistance within 30-45 seconds, because that's the pace required in competition.",
+    "gordon_ryan": "In competition, the half guard pass is absolutely essential because almost every high-level match will involve half guard positions multiple times. What I've learned through countless competition experiences is that the underhook battle in half guard determines everything - if your opponent gets the underhook and you don't address it immediately, you're in serious danger of being swept or having your back taken. I've seen black belt world champions get swept from half guard because they neglected the underhook for even three seconds. My approach to half guard passing focuses heavily on winning this battle first, usually through aggressive crossface or by establishing my own underhook and using it to drive them flat. One thing that separates competition-level half guard passing from gym rolling is the intensity of pressure - in competition, you must be willing to make your opponent extremely uncomfortable with shoulder pressure, chest pressure, and crossface control. They should feel completely flattened and unable to move. I also prioritize developing multiple passing sequences from half guard rather than relying on one technique, because intelligent opponents will defend your favorite pass. I'll start with traditional pressure passing, but if they establish strong lockdown or knee shield, I immediately switch to knee slice or headquarters position. If they defend that, I flow to leg drag or long step. This chain passing approach prevents you from getting stuck in prolonged stalling positions. Another critical competition insight is that half guard is often where matches are decided on points - if you can consistently pass half guard, you're scoring three points per pass and establishing dominant positions that lead to submissions. Practice your half guard passing until you can complete it against full resistance within 30-45 seconds, because that's the pace required in competition.",
     "eddie_bravo": "Half guard passing is interesting because the position has evolved so much with modern techniques like lockdown, deep half, and various 10th Planet innovations. Traditional pressure passing still works, but you need to understand the new defensive structures that technical half guard players are using. The lockdown completely changes the passing game - if someone gets a tight lockdown on you, trying to muscle your way out is playing their game. Instead, I teach specific lockdown counters including controlling their top foot to break the configuration, or transitioning to positions where the lockdown becomes irrelevant like getting the underhook and driving them to their back. Deep half is another modern evolution that makes half guard passing more complex - you must recognize the initial movement toward deep half and shut it down immediately by keeping your hips low and forward. One innovative approach I've developed is using the whizzer much more aggressively in half guard passing. When they get an underhook, instead of just defending, I whizzer over their arm and use it as a steering wheel to control their entire body, driving them flat and often creating submission opportunities like the darce or arm triangle. Another concept is the psychological aspect of pressure passing - when you're putting heavy, uncomfortable pressure on someone, they start making mistakes because they're desperate to escape the discomfort. This is when sweep attempts become sloppy and you can capitalize. I also encourage developing your own variations based on your body type and attributes. If you're flexible, maybe the leg weave smash pass works better for you. If you're strong and explosive, maybe knee slice. The fundamentals of pressure and upper body control remain constant, but the specific mechanics can be personalized to match your game."
   }
 }

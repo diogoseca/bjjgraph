@@ -1,23 +1,20 @@
 {
-  "metadata": {
-    "title": "Lumberjack Sweep | BJJ Technique | BJJ Graph",
-    "description": "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step execution with underhook control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T057",
-    "tags": [
-      "bjj",
-      "transition",
-      "sweep",
-      "half_guard",
-      "underhook",
-      "fundamental"
-    ],
-    "starting_position": "Half Guard Bottom",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Lumberjack Sweep",
+  "description": "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step execution with underhook control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "half_guard",
+    "underhook",
+    "fundamental"
+  ],
+  "starting_position": "Half Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on underhook control to off-balance and sweep an opponent who is attempting to pass. Named for the chopping motion used to break down the opponent's base, this technique is particularly effective against opponents who overcommit their weight forward or fail to establish proper crossface control. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position. This technique serves as a cornerstone of modern half guard systems, providing a reliable option when the opponent is pressuring into your half guard. The Lumberjack Sweep's effectiveness lies in its ability to exploit the opponent's forward momentum, turning their pressure into a liability. By controlling the underhook and creating the proper angle, the bottom player can generate significant leverage despite being in an inferior position. This sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage.",
   "key_principles": [
@@ -224,11 +221,11 @@
   "position_integration": "The lumberjack sweep is a cornerstone technique of modern half guard bottom systems, serving as a primary sweeping option that integrates seamlessly with other half guard attacks. Within the positional hierarchy, half guard represents a defensive position where the bottom player is trying to recover full guard or sweep to top position. The lumberjack sweep provides a reliable sweeping mechanism that works particularly well against forward pressure, complementing other half guard sweeps like the old school sweep (which works against upright posture) and deep half sweeps (which work when opponent is more defensive). This technique connects to the broader BJJ system by providing a transition from bottom position to top position, directly improving positional standing and earning sweep points in competition. The lumberjack sweep also chains naturally with submission attacks, particularly the kimura (when opponent posts to defend), creating a powerful sweep-or-submit dilemma. Advanced practitioners integrate this sweep into a comprehensive half guard game where the threat of the lumberjack sweep forces opponents to defend in ways that open other attacks, effectively creating a system where each technique supports and enables the others.",
   "related_content": [
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "relationship": "Primary starting position for this technique"
     },
     {
-      "name": "Deep Half Guard Bottom",
+      "name": "Deep Half Guard",
       "relationship": "Alternative position when lumberjack sweep is defended with crossface"
     },
     {
@@ -236,7 +233,7 @@
       "relationship": "Complementary sweep from half guard that works against different defensive postures"
     },
     {
-      "name": "Lockdown Half Guard Bottom",
+      "name": "Lockdown",
       "relationship": "Variation using lockdown leg control for additional security"
     },
     {
@@ -252,11 +249,11 @@
       "relationship": "Submission attack when opponent posts arm to defend sweep"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Common ending position after successful sweep completion"
     },
     {
-      "name": "Knee on Belly Top",
+      "name": "Knee on Belly",
       "relationship": "Alternative top position finish when opponent rolls through"
     },
     {
@@ -264,7 +261,7 @@
       "relationship": "Comprehensive system incorporating lumberjack sweep with lockdown variations"
     },
     {
-      "name": "Underhook Defense",
+      "name": "Underhook Control",
       "relationship": "Conceptual framework for understanding underhook control importance"
     },
     {

@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Lockdown Sweeps | BJJ Technique | BJJ Graph",
-    "description": "Master Lockdown Sweeps from half guard. Learn Electric Chair, Old School, and Whipover variations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T103",
-    "tags": ["bjj", "technique", "sweep", "half-guard", "lockdown", "10th-planet", "eddie-bravo"],
-    "starting_position": "Lockdown Half Guard Bottom",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Lockdown Sweeps",
+  "description": "Master Lockdown Sweeps from half guard. Learn Electric Chair, Old School, and Whipover variations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "technique", "sweep", "half-guard", "lockdown", "10th-planet", "eddie-bravo"],
+  "starting_position": "Lockdown",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Lockdown Sweeps represent a systematic approach to attacking from the lockdown position, a cornerstone of Eddie Bravo's 10th Planet Jiu-Jitsu system. By controlling the opponent's leg with a figure-four lock using your legs, you create a powerful mechanical advantage that limits their mobility while generating multiple sweep opportunities. The lockdown position transforms the traditional half guard bottom into an offensive platform where the bottom player dictates the pace and direction of the match.\n\nThese sweeps exploit the fundamental biomechanical principle that an opponent with one leg trapped cannot effectively base or post to defend against directional changes. The primary sweeps from lockdown include the Electric Chair (lifting sweep to back exposure), Old School (backwards rolling sweep), Whipover (forward momentum sweep), and various transitions to deep half guard or dogfight positions. Each sweep creates distinct finishing opportunities and can be chained together based on opponent reactions.\n\nThe lockdown system excels in no-gi competition and MMA applications where traditional gi-based controls are unavailable. By removing the opponent's ability to pass while simultaneously creating offensive opportunities, the lockdown represents a paradigm shift from defensive half guard retention to aggressive attacking sequences. Understanding when to tighten the lockdown for sweeps versus when to release for transitions is critical to maximizing the effectiveness of this system.",
   "key_principles": [
@@ -126,16 +123,6 @@
       "error": "Neglecting head position and allowing opponent crossface control",
       "consequence": "Opponent controls your upper body, prevents underhook effectiveness, and can pass around lockdown or take your back",
       "correction": "Always maintain head position to the side or under opponent's chin. Fight crossface attempts immediately with frames and head movement. Good head position is equally important as lockdown control."
-    },
-    {
-      "error": "Using lockdown as purely defensive position without attacking",
-      "consequence": "Opponent eventually finds passing solution or referee penalties for stalling in competition setting",
-      "correction": "Treat lockdown as offensive attacking position. Constantly threaten sweeps and transitions. Chain Electric Chair to Old School to Whipover based on reactions. Make opponent defend rather than attack."
-    },
-    {
-      "error": "Failing to control opponent's free arm during sweep execution",
-      "consequence": "Opponent posts with free hand to prevent sweep completion and recovers base mid-motion",
-      "correction": "Use your free hand (non-underhook hand) to control opponent's far arm or grip their head to prevent defensive posting. Time this control to occur as sweep motion begins for maximum effectiveness."
     }
   ],
   "training_progressions": [
@@ -164,15 +151,9 @@
       "resistance_level": "Medium"
     },
     {
-      "phase": "Week 13-16: Competition Timing and Finishing",
+      "phase": "Week 13+: Competition Application",
       "focus": "Executing sweeps with full resistance and finishing in dominant positions",
       "description": "Full resistance positional sparring from half guard bottom with goal of securing lockdown sweeps. Partner uses all defensive strategies including crossface, leg extraction, and passing around lockdown. Practice finishing swept positions immediately with submissions or advancing to back control rather than allowing opponent to re-guard. Incorporate lockdown work into regular sparring rounds. Focus on efficiency - getting sweeps with minimal energy expenditure by using perfect timing rather than strength.",
-      "resistance_level": "Full"
-    },
-    {
-      "phase": "Week 17+: Advanced Applications and Problem Solving",
-      "focus": "High-level lockdown strategies, gi versus no-gi adaptations, countering modern defenses",
-      "description": "Study film of high-level lockdown practitioners (Eddie Bravo, Geo Martinez, Richie Martinez). Drill lockdown against opponents who specifically train to defend it. Work on maintaining lockdown against standing opponent and converting to sweeps or back takes. Practice lockdown in both gi and no-gi, understanding grip and control differences. Develop personal lockdown style based on your body type and attributes. Teach lockdown system to training partners to deepen understanding through instruction.",
       "resistance_level": "Full"
     }
   ],
@@ -196,11 +177,6 @@
       "variant_name": "Shaolin Sweep",
       "description": "Advanced sweep combining lockdown control with arm drag to create multiple sweeping vectors. You drag opponent's arm across while simultaneously sweeping with lockdown, creating overwhelming off-balancing force.",
       "when_to_use": "Against opponents who defend lockdown sweeps by controlling your upper body. Arm drag removes their posting ability while lockdown removes their base."
-    },
-    {
-      "variant_name": "Vaporizer Sweep",
-      "description": "Electric chair variation where instead of going to truck, you trap opponent's arm and transition directly to mounted crucifix position. Locks opponent's arm using your leg while maintaining lockdown on their leg.",
-      "when_to_use": "When opponent defends Electric Chair by grabbing your leg or pants. Their defensive grip becomes liability as you trap the gripping arm."
     },
     {
       "variant_name": "Deep Half Transition Sweep",
@@ -233,11 +209,6 @@
       "question": "How does the lockdown position fundamentally change the nature of half guard from a traditional perspective?",
       "answer": "Traditional half guard is often viewed as a defensive or transitional position where the bottom player focuses primarily on retention and preventing the pass. The lockdown transforms half guard into an offensive attacking platform by removing the opponent's mobility and base through the leg trap, allowing the bottom player to dictate pace and direction. This represents a philosophical shift where the person on bottom controls the engagement rather than the top player. By trapping one leg, the lockdown eliminates the opponent's primary passing tools while simultaneously creating multiple sweep and back-take opportunities. This inversion of traditional positional hierarchy is core to Eddie Bravo's 10th Planet system and represents a paradigm shift in modern half guard theory.",
       "difficulty": "Advanced"
-    },
-    {
-      "question": "What defensive priority should you have if your opponent begins to successfully defend all lockdown sweeps and starts to pass around your lockdown?",
-      "answer": "You must immediately transition rather than fighting to maintain a losing lockdown position. Primary transitions include: releasing to deep half guard (maintaining leg trap but changing angle), transitioning to dogfight position (coming up on elbow and knee), converting to butterfly hooks, or if necessary, fully re-guarding to closed guard or open guard frames. The key principle is recognizing when lockdown is no longer providing advantage - maintaining bad lockdown position while opponent passes leads to getting your back taken or being crushed in quarter mount. Advanced practitioners use lockdown as one option within a larger half guard system, seamlessly flowing to alternative positions when lockdown becomes disadvantaged.",
-      "difficulty": "Advanced"
     }
   ],
   "safety_considerations": "Lockdown sweeps are generally safe techniques with low injury risk when practiced properly. The primary safety concern is knee stress on the opponent's trapped leg - when securing the lockdown figure-four, avoid cranking or twisting motions that could damage the knee joint. Apply lockdown pressure progressively rather than explosively, especially with new training partners unfamiliar with the position. When executing Electric Chair sweeps, control the rolling motion to prevent partner from landing awkwardly on their neck or head. During Old School sweeps, ensure adequate mat space behind you before rolling backward to avoid collisions with walls or other practitioners. For the practitioner in lockdown bottom, protect your own neck during sweeps by keeping chin tucked and avoiding hyperextension. If training partner is significantly larger or stronger, use technique and timing rather than forcing sweeps through strength, as this can lead to muscle strains in the hips and lower back. Both partners should communicate about lockdown tightness - tapping is appropriate if knee pressure becomes uncomfortable. When drilling at high intensity, alternate between working sweeps and playing top position to prevent overuse injuries from repetitive motions. Overall, lockdown sweeps are suitable for practitioners of all levels when proper progression and partner awareness are maintained.",
@@ -252,7 +223,7 @@
       "relationship": "Follow-up submission - can be entered directly from Electric Chair sweep variation"
     },
     {
-      "name": "Lockdown Half Guard Bottom",
+      "name": "Lockdown",
       "relationship": "Starting position - the foundational position from which all lockdown sweeps initiate"
     },
     {
@@ -268,16 +239,12 @@
       "relationship": "Related category - broader family of half guard sweeping techniques"
     },
     {
-      "name": "Truck Position Bottom",
+      "name": "Truck",
       "relationship": "Follow-up position - common finishing position after Electric Chair sweep variation"
     },
     {
-      "name": "100% Sweep",
-      "relationship": "Alternative technique - another powerful sweep from lockdown using different mechanics"
-    },
-    {
-      "name": "Vaporizer Position",
-      "relationship": "Follow-up position - advanced transition from Electric Chair combining sweep with submission"
+      "name": "Twister",
+      "relationship": "Follow-up submission - advanced finish from truck position after lockdown sweeps"
     },
     {
       "name": "10th Planet Half Guard Bottom System",

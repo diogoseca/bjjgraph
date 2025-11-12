@@ -1,6 +1,6 @@
 {
   "name": "Sumi Gaeshi",
-  "description": "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, execution, and sweep mechanics from standing or seated guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "description": "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, execution, and sweep mechanics from standing or seated guard. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
   "tags": [
     "bjj",
     "judo",
@@ -242,7 +242,7 @@
       "relationship": "Common starting position for seated Sumi Gaeshi variation"
     },
     {
-      "name": "Double Leg Entry",
+      "name": "Double leg takedown",
       "relationship": "Alternative takedown from similar standing position and grips"
     },
     {
@@ -250,7 +250,7 @@
       "relationship": "Backup option that shares similar initial movement"
     },
     {
-      "name": "Ankle Pick Sweep",
+      "name": "Ankle Pick",
       "relationship": "Chain technique when opponent circles away from Sumi Gaeshi angle"
     },
     {

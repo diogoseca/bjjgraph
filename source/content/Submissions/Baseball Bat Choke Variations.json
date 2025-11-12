@@ -126,7 +126,7 @@
       "action": "Apply finishing pressure gradually",
       "description": "Progressively increase the rotational pulling force while maintaining all other control points. The finish combines the rotational force with a slight pulling motion that brings both grips toward your centerline. Apply pressure steadily over 3-4 seconds to allow your partner time to recognize the submission and tap safely. Watch for tap signals and be prepared to release immediately. The choke should feel tight and inevitable rather than sudden and explosive.",
       "timing": "3-4 seconds",
-      "pressure_level": "Firm to Maximum"
+      "pressure_level": "Maximum"
     }
   ],
   "opponent_defense_patterns": [

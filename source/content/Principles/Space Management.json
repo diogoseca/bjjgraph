@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Space Management | BJJ Concept | BJJ Graph",
-    "description": "Understand Space Management in BJJ. Learn frame construction, pressure recognition, escape mechanics. Cross-position applications with",
-    "principle_id": "P042",
-    "tags": ["bjj", "concept", "space", "frames", "escapes", "defense", "control"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Space Management",
+  "description": "Master Space Management in BJJ. Learn frame construction, hip escape mechanics, pressure recognition across all positions. Defensive and offensive applications.",
+  "tags": ["bjj", "principle", "space", "frames", "escapes", "defense", "control", "hip-movement", "pressure"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Space Management is a fundamental defensive and offensive concept in Brazilian Jiu-Jitsu that governs the ability to create, maintain, manipulate, and deny physical space between competitors. At its core, space management involves understanding how to use frames, hip movement, and positional awareness to either create escape opportunities when defending or eliminate opponent mobility when attacking. This concept is essential across all positions and skill levels, forming the foundation for effective guard retention, escape sequences, and controlling dominance.\n\nDefensively, space management enables practitioners to survive dangerous positions by creating critical distance that prevents submissions and allows for recovery to better positions. This involves constructing effective frames using skeletal structure rather than muscular force, recognizing pressure vectors, and executing precise hip escapes to generate the space needed for guard recovery or position improvement. The ability to manage space defensively often determines whether a practitioner can survive against larger, stronger opponents.\n\nOffensively, space management involves the systematic elimination of opponent options by controlling distance and limiting mobility. Advanced practitioners use pressure passing, crossface control, and strategic weight distribution to compress the space available to their opponent, forcing them into predictable defensive reactions that can be exploited. Understanding both sides of space management—creation and denial—allows practitioners to develop a complete game that transitions seamlessly between offensive and defensive strategies based on positional context.",
   "key_principles": [
     "Frames use skeletal structure (bone alignment) rather than muscular force to manage space efficiently",
@@ -84,39 +81,69 @@
       "principle_name": "Energy Management System",
       "relationship_type": "Prerequisite",
       "description": "Proper energy management enables sustained space management under pressure. Without understanding how to conserve energy through efficient frames and movement, practitioners exhaust themselves trying to create space, leading to positional deterioration."
+    },
+    {
+      "principle_name": "Bridging Mechanics",
+      "relationship_type": "Complementary",
+      "description": "Bridging mechanics complement hip escapes and frames by providing vertical space creation that relieves pressure and creates angles for lateral movement. The bridge-then-shrimp sequence is fundamental to effective space management."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Prerequisite",
+      "description": "Defensive framing provides the specific technical applications of frame construction in various defensive contexts. This principle details which frames work in which positions and against which types of attacks."
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Extension",
+      "description": "Understanding control point hierarchy allows practitioners to prioritize which spaces to defend or attack. This principle identifies that controlling head and hips provides the most effective space compression, while defending these points is critical for space creation."
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Alternative",
+      "description": "Distance creation is a closely related principle that emphasizes creating separation specifically for re-engagement or guard establishment. Space management encompasses distance creation but also includes space denial and control aspects."
+    },
+    {
+      "principle_name": "Pin Escape Methodology",
+      "relationship_type": "Extension",
+      "description": "Pin escape methodology applies space management principles specifically to escaping pinning positions like side control, mount, and north-south. It provides systematic sequences that combine frames, hip escapes, and timing to recover from pins."
+    },
+    {
+      "principle_name": "Connection Breaking",
+      "relationship_type": "Complementary",
+      "description": "Connection breaking works together with space management by first disrupting opponent control points before creating space. Breaking grips and connections creates opportunities for more effective space creation and position recovery."
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "Creating frames against opponent's hips and shoulders to prevent submission attacks while generating hip escape space for elbow escape or bridge and roll. Space management here focuses on creating vertical distance to relieve chest pressure and horizontal space for hip movement."
     },
     {
-      "context": "Side Control Bottom",
-      "how_applied": "Using near-side elbow frame against opponent's neck/shoulder and far-side hand against hip to create breathing room and prevent crossface. Hip escapes then capitalize on this space to recover guard or escape to turtle. Space management priorities shift based on whether opponent applies crossface or underhook control."
+      "context": "Side Control",
+      "how_applied": "Using near-side elbow frame against opponent's neck or shoulder and far-side hand against hip to create breathing room and prevent crossface. Hip escapes then capitalize on this space to recover guard or escape to turtle. Space management priorities shift based on whether opponent applies crossface or underhook control."
     },
     {
-      "context": "Back Control Bottom",
+      "context": "Back Control",
       "how_applied": "Creating space between opponent's chest and your back by fighting grips, hand fighting, and using defensive posture to prevent choking attacks. Space management here involves denying the opponent's ability to flatten you out while creating escape opportunities through rotation and hip movement."
     },
     {
-      "context": "Closed Guard Top",
+      "context": "Closed Guard",
       "how_applied": "Offensively managing distance to maintain safe posture while preventing sweeps and submissions. This involves controlling the space between your center of gravity and opponent's attacking points, using good posture to create vertical space while maintaining enough pressure to prevent easy attacks."
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Managing space under your body to prevent opponent from inserting hooks or flattening you out. This involves keeping elbows tight, maintaining good base, and using defensive positioning to deny the space needed for back takes or submissions. Space compression by the opponent seeks to eliminate these protective spaces."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Creating space on the underhook side using frames and knee shields to prevent being flattened, while managing distance to set up sweeps or back takes. Space management here balances creating enough separation for offensive options while maintaining enough connection to control opponent movement."
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "Using elbow-to-knee connection and hip escapes to create space against intense pressure, while preventing mount or submission transitions. The extreme pressure of knee on belly makes space management critical for survival and requires understanding how to frame against the knee while protecting the neck."
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Creating space by bridging and turning while using hands to frame against opponent's hips and shoulders to prevent crushing pressure and submission attacks. Space management priorities include preventing being flattened, maintaining breathing room, and creating angles for escape."
     },
     {
@@ -124,15 +151,15 @@
       "how_applied": "Offensively eliminating space by controlling distance, using pressure to compress opponent's defensive frames, and systematically removing options for guard recovery. Space management from top involves understanding how much pressure to apply and when to remove frames to advance position."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Using grips and leg extension to manage distance and prevent opponent from closing space for passing. This defensive application involves maintaining ideal distance through active frame management with both arms and legs, creating a barrier that controls opponent approach angles."
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Managing space through hook control and distance management to prevent opponent from settling weight and initiating passes. The de la riva hook creates a space management tool that controls hip distance while grips manage upper body spacing."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Using feet, grips, and hip movement to maintain ideal distance that prevents opponent from establishing dominant grips or initiating passes. Open guard space management involves constant adjustment of distance based on opponent pressure and movement."
     },
     {
@@ -144,8 +171,20 @@
       "how_applied": "Dynamically managing space during transitions by creating separation to recover guard or establish better position. Scrambles require rapid space management decisions to capitalize on momentary opportunities while preventing opponent from settling into control positions."
     },
     {
-      "context": "Leg Entanglement Position",
-      "how_applied": "Managing distance in the legs to prevent submission attacks while creating space for escapes or counter-attacks. This specialized application involves understanding how to create space in entangled positions without exposing submission opportunities, using hip positioning and leg configuration to manage distances."
+      "context": "Butterfly Guard",
+      "how_applied": "Using butterfly hooks and frames to control distance and create elevation for sweeps while preventing opponent from establishing control. Space management in butterfly guard involves maintaining enough connection for sweeping while preventing opponent from settling weight or passing."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "Managing space through hook and frame configuration to control opponent's base and posture while setting up sweeps. The X-guard uses legs to manage lower body spacing while hands control upper body distance and prevent counter-pressure."
+    },
+    {
+      "context": "Knee Shield Half Guard",
+      "how_applied": "Using the knee shield as a primary space management tool to prevent opponent from closing distance and flattening, while maintaining offensive opportunities. The shield creates a structural barrier that manages distance on the near side while allowing mobility on the far side."
+    },
+    {
+      "context": "Guard Recovery",
+      "how_applied": "Creating space through frames and hip escapes to insert knees or establish hooks when transitioning from bad positions back to guard. Space management is critical in this transitional context to prevent opponent from re-establishing control."
     }
   ],
   "decision_framework": [
@@ -307,23 +346,23 @@
   ],
   "related_content": [
     {
-      "name": "Side Control Bottom",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Primary position where space management principles are most critically applied defensively"
     },
     {
-      "name": "Mount Bottom",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "High-priority defensive position requiring expert-level space management for survival and escape"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core technical component that enables space management through proper skeletal structure"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential movement skill that capitalizes on created space to improve position"
     },
     {
@@ -333,32 +372,32 @@
     },
     {
       "name": "Guard Recovery",
-      "content_type": "Position",
+      "content_type": "Principle",
       "relationship": "Common goal of defensive space management from bottom positions"
     },
     {
       "name": "Pressure Application",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Offensive counterpart to defensive space management, understanding both creates complete framework"
     },
     {
-      "name": "Knee Shield Bottom Position",
+      "name": "Knee Shield Half Guard",
       "content_type": "Position",
       "relationship": "Position that utilizes space management principles through active frame maintenance"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept that enables sustained space management through efficiency"
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework that determines when and how to apply space management techniques"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Extension of space management principles applied specifically to maintaining guard positions"
     },
     {

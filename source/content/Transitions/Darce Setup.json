@@ -1,22 +1,22 @@
 {
-  "metadata": {
-    "title": "Darce Setup | BJJ Technique | BJJ Graph",
-    "description": "Learn Darce Setup in BJJ. Step-by-step execution from Front Headlock/Turtle to Darce Control. Success: Beginner 30%, Intermediate 45%, Advanced 60%.",
-    "transition_id": "T104",
-    "tags": [
-      "bjj",
-      "transition",
-      "submission_setup",
-      "front_headlock",
-      "choke"
-    ],
-    "starting_position": "Front Headlock",
-    "ending_position": "Darce Control Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 45,
-      "advanced": 60
-    }
+  "name": "Darce Setup",
+  "description": "Learn Darce Setup in BJJ. Step-by-step execution from Front Headlock/Turtle to Darce Control. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "submission_setup",
+    "front_headlock",
+    "choke",
+    "turtle",
+    "darce",
+    "no-gi"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "D'arce Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 45,
+    "advanced": 60
   },
   "overview": "The Darce Setup is a crucial transitional technique that transforms front headlock control into one of Brazilian Jiu-Jitsu's most effective submission positions. Named after Joe D'Arce, this setup exploits opponent posture and creates the distinctive arm-in configuration that defines the Darce choke system. The technique is particularly effective when opponents attempt to defend turtle position or when transitioning from scrambles, making it an essential weapon for modern grapplers. Understanding proper hand positioning, angle creation, and body weight distribution during the setup phase dramatically increases finishing rates. The Darce setup requires precise timing and technical execution rather than pure strength, making it accessible to practitioners of all sizes when properly understood. This technique serves as a gateway to multiple submission opportunities including the Darce choke, Anaconda choke, and various transitions to back control or mount positions.",
   "key_principles": [
@@ -231,51 +231,51 @@
   "related_content": [
     {
       "name": "Darce Choke",
-      "relationship": "Direct finish - the submission completed from this setup position"
+      "relationship": "Direct finish"
     },
     {
       "name": "Front Headlock to Darce",
-      "relationship": "Alternative entry - another pathway to the same position"
+      "relationship": "Alternative entry"
     },
     {
       "name": "Darce from Turtle",
-      "relationship": "Parallel technique - setup from similar starting position"
+      "relationship": "Parallel technique"
     },
     {
       "name": "Anaconda from Turtle",
-      "relationship": "Alternative attack - backup option when Darce angle isn't optimal"
+      "relationship": "Alternative attack"
     },
     {
       "name": "Front Headlock to Anaconda",
-      "relationship": "Related setup - similar mechanics with different grip configuration"
+      "relationship": "Related setup"
     },
     {
       "name": "D'arce-Anaconda Connection",
-      "relationship": "System integration - understanding transitions between these related techniques"
+      "relationship": "System integration"
     },
     {
       "name": "Guillotine from Turtle",
-      "relationship": "Alternative attack - different submission from same control position"
+      "relationship": "Alternative attack"
     },
     {
       "name": "Front Headlock to Guillotine",
-      "relationship": "Backup option - when arm-in configuration cannot be achieved"
+      "relationship": "Backup option"
     },
     {
       "name": "Snap Down to Front Headlock",
-      "relationship": "Primary entry - common pathway to establish initial control"
+      "relationship": "Primary entry"
     },
     {
       "name": "Crucifix from Turtle",
-      "relationship": "Alternative transition - option when opponent defends threading arm"
+      "relationship": "Alternative transition"
     },
     {
       "name": "Arm Triangle from Turtle",
-      "relationship": "Related choke - similar control mechanics with different finish"
+      "relationship": "Related choke"
     },
     {
       "name": "Front Headlock Series",
-      "relationship": "System overview - comprehensive framework containing this technique"
+      "relationship": "System overview"
     }
   ],
   "expert_insights": {

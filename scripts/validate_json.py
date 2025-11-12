@@ -322,7 +322,7 @@ def validate_family_variants(data, json_file_path):
         return errors
 
     json_path = Path(json_file_path)
-    variant_folder = json_path.parent / data.get('slug', json_path.stem)
+    variant_folder = json_path.parent / json_path.stem  # Always use filename without extension
 
     if not variant_folder.exists():
         errors.append(f"FAMILY position has variations array but folder not found: {variant_folder}")

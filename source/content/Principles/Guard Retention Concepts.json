@@ -1,22 +1,20 @@
 {
-  "metadata": {
-    "name": "Guard Retention Concepts",
-    "description": "Understand Guard Retention Concepts in BJJ. Learn defensive frameworks, movement patterns, framing strategies for maintaining guard under pressure. Expert insights included.",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "guard",
-      "retention",
-      "defense",
-      "bottom-game",
-      "defensive-strategy",
-      "guard-recovery"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Guard Retention Concepts",
+  "description": "Master guard retention principles in BJJ. Learn defensive frameworks, movement patterns, framing strategies, and hip mobility for maintaining guard under pressure.",
+  "tags": [
+    "bjj",
+    "concept",
+    "fundamental",
+    "guard",
+    "retention",
+    "defense",
+    "bottom-game",
+    "defensive-strategy",
+    "guard-recovery"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Guard Retention Concepts represents the comprehensive defensive framework for maintaining guard position against opponent's passing attempts and preventing advancement to dominant positions. Unlike specific retention techniques, guard retention concepts encompass the biomechanical principles, movement patterns, framing strategies, and tactical decision-making that enable effective guard maintenance under pressure. This concept addresses the creation and maintenance of defensive structures, the hip mobility required for continuous re-positioning, the timing of recovery movements, and the strategic use of frames, hooks, and grips to prevent passing completion. Guard retention serves as both a defensive shield that prevents positional losses and an offensive foundation that maintains attacking opportunities, making it one of the most essential conceptual elements in BJJ for bottom players. The systematic understanding of retention principles enables practitioners to maintain guard against superior opponents through intelligent defensive layering rather than relying solely on physical attributes.",
   "key_principles": [
     "Maintain distance through frames and hooks to prevent opponent from establishing passing control",
@@ -93,6 +91,26 @@
       "principle_name": "Space Management",
       "relationship_type": "Extension",
       "description": "Guard retention applies space management principles specifically to maintain distance and prevent opponent from eliminating defensive space. Creating and protecting space forms the foundation of retention effectiveness."
+    },
+    {
+      "principle_name": "Guard Recovery",
+      "relationship_type": "Extension",
+      "description": "Guard recovery represents the application of retention principles in the specific context of restoring guard from partially passed positions. Recovery is the final retention layer when primary defensive structures are breached."
+    },
+    {
+      "principle_name": "Shrimping",
+      "relationship_type": "Prerequisite",
+      "description": "Hip escape mechanics provide the fundamental movement pattern for maintaining distance and recovering guard alignment during retention sequences. Shrimping proficiency directly determines retention capability."
+    },
+    {
+      "principle_name": "Knee Shield Retention",
+      "relationship_type": "Extension",
+      "description": "Knee shield retention represents specific application of general retention principles within half guard context, using shin shield as primary defensive barrier."
+    },
+    {
+      "principle_name": "Butterfly Hook Retention",
+      "relationship_type": "Extension",
+      "description": "Butterfly hook retention applies general retention frameworks specifically to butterfly guard, emphasizing hook maintenance and reinsertion as primary retention mechanisms."
     }
   ],
   "application_contexts": [
@@ -133,12 +151,28 @@
       "how_applied": "Collar and sleeve grips with feet on hips create distance retention, with technical standup options when opponent attempts to close distance. This guard type excels at maintaining distance but requires active grip fighting for retention."
     },
     {
-      "context": "Z-Guard",
-      "how_applied": "Shin shield across opponent's torso creates retention structure, with hip mobility enabling recovery when opponent attempts to clear shield. Similar to knee shield but with different angle and leverage properties."
+      "context": "Collar Sleeve Guard",
+      "how_applied": "Collar and sleeve grip combination with feet on hips or biceps creates retention through distance and angle control, with grip management preventing opponent from establishing favorable passing grips."
+    },
+    {
+      "context": "Reverse De La Riva Guard",
+      "how_applied": "Reverse de la riva hook with opposite leg controls creates retention by restricting opponent's forward movement and forcing lateral passing attempts that are easier to defend."
+    },
+    {
+      "context": "Single Leg X-Guard",
+      "how_applied": "Single leg elevation with X-hook structure creates retention by preventing opponent from establishing stable base, requiring constant balance management that limits passing options."
     },
     {
       "context": "Inverted Guard",
       "how_applied": "Inverted positioning creates retention through unconventional angles that many passers struggle to address, with inversion serving both as retention mechanism and transition to other guard types when opponent adjusts."
+    },
+    {
+      "context": "Rubber Guard",
+      "how_applied": "Mission control and other rubber guard positions create retention through posture breaking and control structures that prevent opponent from establishing passing distance."
+    },
+    {
+      "context": "Worm Guard",
+      "how_applied": "Lapel entanglement creates retention by restricting opponent's movement options and forcing specific passing patterns that can be countered with prepared responses."
     }
   ],
   "decision_framework": [

@@ -1,10 +1,9 @@
 {
   "name": "Mount",
   "slug": "mount",
-  "category": "dominant-positions",
   "description": "Master the Mount position in BJJ. Learn control mechanics, submission attacks, and defense strategies from top and bottom perspectives with expert insights.",
   "variant_uniqueness": "Highest points with control-submission balance",
-  "overview": "The Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, awarded 4 points in IBJJF competition. From this elevated position, the top practitioner sits astride the opponent's torso with their knees on either side, creating overwhelming control through gravity and positioning. The Mount has been refined over decades as one of the most devastating positions in grappling, offering numerous submission opportunities while maintaining exceptional control. John Danaher emphasizes that Mount is not merely about achieving the position but understanding the systematic progression from basic control to high mount, technical mount, and S-mount variations, each offering distinct offensive advantages. The position's effectiveness stems from the top practitioner's ability to use their entire body weight to pin the opponent while maintaining freedom of movement for attacks. Gordon Ryan's competition success demonstrates that modern Mount control focuses on creating submission dilemmas where defensive movements open new attacking opportunities. Eddie Bravo's 10th Planet system adds innovative elements like the Mounted Triangle and Gift Wrap control that expand traditional Mount attacks. From bottom Mount, the position represents a critical defensive challenge requiring systematic escape knowledge and composure under extreme pressure. The escape hierarchy prioritizes establishing frames, creating space through hip movement, and recovering guard through technical precision rather than explosive strength. Understanding Mount from both perspectives is essential for complete grappling development, as it represents the intersection of positional control and submission finishing ability.",
+  "overview": "The Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, awarded 4 points in IBJJF competition. From this elevated position, the top practitioner sits astride the opponent's torso with their knees on either side, creating overwhelming control through gravity and positioning. The Mount has been refined over decades as one of the most devastating positions in grappling, offering numerous submission opportunities while maintaining exceptional control. Modern Mount control focuses on creating submission dilemmas where defensive movements open new attacking opportunities. The position's effectiveness stems from the top practitioner's ability to use their entire body weight to pin the opponent while maintaining freedom of movement for attacks. From bottom Mount, the position represents a critical defensive challenge requiring systematic escape knowledge and composure under extreme pressure. The escape hierarchy prioritizes establishing frames, creating space through hip movement, and recovering guard through technical precision rather than explosive strength. Understanding Mount from both perspectives is essential for complete grappling development, as it represents the intersection of positional control and submission finishing ability.",
   "key_principles": [
     "Weight distribution - Top maintains heavy hips while keeping upper body mobile for attacks",
     "Base maintenance - Bottom must prevent further advancement while creating escape opportunities",
@@ -26,8 +25,8 @@
       "description": "One leg posted out for stability while maintaining dominant position"
     },
     {
-      "name": "S Mount Position",
-      "slug": "s-mount-position",
+      "name": "S Mount",
+      "slug": "s-mount",
       "description": "Asymmetric positioning with one leg extended for armbar setups"
     },
     {
@@ -90,7 +89,7 @@
       "defensive positioning",
       "frame creation fundamentals"
     ],
-    "overview": "Being mounted represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, requiring systematic knowledge, mental composure, and technical precision to escape safely. The bottom Mount position places the defender in immediate danger of both positional advancement and submission attacks, making escape knowledge essential for survival in competition and training. John Danaher teaches that Mount escapes follow a strict hierarchy beginning with preventing further advancement to high mount or technical mount, then establishing defensive frames to create space, and finally executing hip movement to recover guard. The most critical error beginners make is attempting explosive bridge-and-roll escapes without proper setup, which often results in giving up the back or exposing the neck to chokes. Gordon Ryan emphasizes that modern Mount defense requires understanding that every defensive movement creates potential offensive opportunities for the top practitioner, necessitating a systematic approach rather than random escape attempts. The fundamental principle of Mount escape involves creating a wedge of space between the opponent's hips and your torso through proper framing, then using hip escape mechanics to insert the knee shield and recover guard. Eddie Bravo's system adds elements like the Lockdown recovery and deep half guard entries as alternative escape routes when traditional Elbow Escape paths are blocked. Understanding energy management is critical from bottom Mount, as explosive panic-driven movements deplete the defender's stamina while the top practitioner maintains control with minimal effort. The position requires accepting the reality of being in a bad position and working systematically rather than desperately to improve position incrementally.",
+    "overview": "Being mounted represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, requiring systematic knowledge, mental composure, and technical precision to escape safely. The bottom Mount position places the defender in immediate danger of both positional advancement and submission attacks, making escape knowledge essential for survival in competition and training. Mount escapes follow a strict hierarchy beginning with preventing further advancement to high mount or technical mount, then establishing defensive frames to create space, and finally executing hip movement to recover guard. The most critical error beginners make is attempting explosive bridge-and-roll escapes without proper setup, which often results in giving up the back or exposing the neck to chokes. Modern Mount defense requires understanding that every defensive movement creates potential offensive opportunities for the top practitioner, necessitating a systematic approach rather than random escape attempts. The fundamental principle of Mount escape involves creating a wedge of space between the opponent's hips and your torso through proper framing, then using hip escape mechanics to insert the knee shield and recover guard. Understanding energy management is critical from bottom Mount, as explosive panic-driven movements deplete the defender's stamina while the top practitioner maintains control with minimal effort. The position requires accepting the reality of being in a bad position and working systematically rather than desperately to improve position incrementally.",
     "state_properties": {
       "point_value": -4,
       "position_type": "Defensive",
@@ -168,7 +167,7 @@
       },
       {
         "technique": "Deep Half Entry",
-        "target_position": "Half Guard/Deep Half Guard",
+        "target_position": "Deep Half Guard",
         "success_rates": {
           "beginner": 10,
           "intermediate": 25,
@@ -202,7 +201,7 @@
       },
       {
         "technique": "Transition to High Mount",
-        "target_position": "Mount/High Mount",
+        "target_position": "High Mount",
         "success_rate": 65
       },
       {
@@ -212,7 +211,7 @@
       },
       {
         "technique": "Transition to Technical Mount",
-        "target_position": "Mount/Technical Mount",
+        "target_position": "Technical Mount",
         "success_rate": 60
       },
       {
@@ -244,7 +243,7 @@
       },
       {
         "technique": "Lockdown Recovery",
-        "target_position": "Half Guard/Lockdown",
+        "target_position": "Lockdown",
         "trigger": "When escaping hip to side and can capture one leg"
       }
     ],
@@ -304,7 +303,7 @@
           },
           {
             "technique": "Deep Half Entry",
-            "target": "Half Guard/Deep Half Guard",
+            "target": "Deep Half Guard",
             "probability": 35
           }
         ]
@@ -372,19 +371,19 @@
     "optimal_submission_paths": [
       {
         "name": "Primary Escape Sequence",
-        "path": "Mount → Frame Creation → Hip Escape → Half Guard → Closed Guard"
+        "path": "Mount Bottom → Frame Creation → Hip Escape → Half Guard → Closed Guard"
       },
       {
         "name": "Bridge and Roll Reversal",
-        "path": "Mount → Arm Trap → Bridge and Roll → Mount → Submission Position"
+        "path": "Mount Bottom → Arm Trap → Bridge and Roll → Mount → Submission Position"
       },
       {
         "name": "Deep Half Recovery",
-        "path": "Mount → Hip Escape → Deep Half Entry → Half Guard/Deep Half Guard → Sweep"
+        "path": "Mount Bottom → Hip Escape → Deep Half Entry → Deep Half Guard → Sweep"
       },
       {
         "name": "Technical Standup Escape",
-        "path": "Mount → Frame and Shrimp → Technical Standup → Standing Position"
+        "path": "Mount Bottom → Frame and Shrimp → Technical Standup → Standing Position"
       }
     ],
     "related_content": [
@@ -448,7 +447,7 @@
       "submission from mount",
       "dominant positioning strategy"
     ],
-    "overview": "The top Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, offering maximum control with diverse submission opportunities. This position, awarded 4 points in IBJJF competition, places the top practitioner in an elevated position astride the opponent's torso with the ability to distribute weight strategically while maintaining mobility for attacks. John Danaher teaches that effective mount control is about creating a system where the opponent's every defensive movement opens new offensive opportunities, forming submission chains that flow naturally from one attack to the next. The fundamental concept involves using gravity as an ally, keeping the hips heavy on the opponent while the upper body remains mobile and ready to capitalize on defensive reactions. Gordon Ryan's competitive success demonstrates that modern mount attacks prioritize high-percentage submissions that can be finished quickly under time pressure, with particular emphasis on the armbar and cross collar choke as primary weapons. The position's effectiveness stems from the top practitioner's ability to advance through progressive variations - from low mount emphasizing control, to high mount near the armpits for immediate submission access, to technical mount bridging toward back control. Eddie Bravo's 10th Planet system adds innovative elements like the mounted triangle and gift wrap control that expand traditional mount finishing options, particularly valuable in no-gi competition. Understanding mount progression involves recognizing when to maintain control versus when to advance position, balancing the security of the mount against the increased finishing potential of variations like S-mount for armbars or technical mount for back takes. The position requires patience and technical precision, as rushing submissions from poor positions often results in losing the mount entirely.",
+    "overview": "The top Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, offering maximum control with diverse submission opportunities. This position, awarded 4 points in IBJJF competition, places the top practitioner in an elevated position astride the opponent's torso with the ability to distribute weight strategically while maintaining mobility for attacks. Effective mount control is about creating a system where the opponent's every defensive movement opens new offensive opportunities, forming submission chains that flow naturally from one attack to the next. The fundamental concept involves using gravity as an ally, keeping the hips heavy on the opponent while the upper body remains mobile and ready to capitalize on defensive reactions. Modern mount attacks prioritize high-percentage submissions that can be finished quickly under time pressure, with particular emphasis on the armbar and cross collar choke as primary weapons. The position's effectiveness stems from the top practitioner's ability to advance through progressive variations - from low mount emphasizing control, to high mount near the armpits for immediate submission access, to technical mount bridging toward back control. Understanding mount progression involves recognizing when to maintain control versus when to advance position, balancing the security of the mount against the increased finishing potential of variations like S-mount for armbars or technical mount for back takes. The position requires patience and technical precision, as rushing submissions from poor positions often results in losing the mount entirely.",
     "state_properties": {
       "point_value": 4,
       "position_type": "Offensive/Controlling",
@@ -526,7 +525,7 @@
       },
       {
         "technique": "Mounted Triangle",
-        "target_position": "Mount/Mounted Triangle",
+        "target_position": "Mounted Triangle",
         "success_rates": {
           "beginner": 15,
           "intermediate": 35,
@@ -544,7 +543,7 @@
       },
       {
         "technique": "Transition to Technical Mount",
-        "target_position": "Mount/Technical Mount",
+        "target_position": "Technical Mount",
         "success_rates": {
           "beginner": 45,
           "intermediate": 65,
@@ -553,7 +552,7 @@
       },
       {
         "technique": "S-Mount Transition",
-        "target_position": "Mount/S Mount Position",
+        "target_position": "S Mount",
         "success_rates": {
           "beginner": 30,
           "intermediate": 50,
@@ -598,7 +597,7 @@
       },
       {
         "technique": "Deep Half Entry",
-        "target_position": "Half Guard/Deep Half Guard",
+        "target_position": "Deep Half Guard",
         "success_rate": 25
       }
     ],
@@ -610,7 +609,7 @@
       },
       {
         "technique": "Transition to High Mount",
-        "target_position": "Mount/High Mount",
+        "target_position": "High Mount",
         "trigger": "When opponent creates frames and attempts to push away"
       },
       {
@@ -635,7 +634,7 @@
           },
           {
             "technique": "Transition to High Mount",
-            "target": "Mount/High Mount",
+            "target": "High Mount",
             "probability": 55
           }
         ]
@@ -680,7 +679,7 @@
           },
           {
             "technique": "Transition to Technical Mount",
-            "target": "Mount/Technical Mount",
+            "target": "Technical Mount",
             "probability": 65
           }
         ]
@@ -763,7 +762,7 @@
     "optimal_submission_paths": [
       {
         "name": "Primary Armbar Chain",
-        "path": "Mount → Mount/High Mount → Mount/S Mount Position → Armbar Control → Won by Submission"
+        "path": "Mount → High Mount → S Mount → Armbar Control → Won by Submission"
       },
       {
         "name": "Collar Choke Series",
@@ -771,7 +770,7 @@
       },
       {
         "name": "Back Take Progression",
-        "path": "Mount → Mount/Technical Mount → Back Control → Rear Naked Choke"
+        "path": "Mount → Technical Mount → Back Control → Rear Naked Choke"
       },
       {
         "name": "Americana to Armbar",

@@ -2,7 +2,7 @@
   "name": "Kesa Gatame",
   "slug": "kesa-gatame",
   "description": "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering control mechanics, submissions, escapes, and transitions with complete perspective analysis for both bottom and top players.",
-  "variant_uniqueness": "Perpendicular angle trades back exposure for control",
+  "variant_uniqueness": "Perpendicular angle trades back exposure for arm",
   "overview": "Kesa Gatame, also known as Scarf Hold, represents one of judo's most effective pinning positions adapted for Brazilian Jiu-Jitsu. This position creates a unique control dynamic where the top practitioner sits perpendicular to their supine opponent, wrapping one arm around the opponent's head while controlling the near arm. The position's defining characteristic is the trade-off between offensive control and defensive vulnerability—while offering exceptional upper body immobilization and powerful submission opportunities, it simultaneously exposes the top player's back to potential attacks if proper awareness is not maintained.\n\nHistorically, Kesa Gatame has been a cornerstone of judo newaza and was prominently featured in early Brazilian Jiu-Jitsu through the Gracie family's judo background. The position excels at immobilizing larger opponents through superior leverage and weight distribution rather than pure pressure. Modern BJJ has seen the position evolve with variations addressing the traditional back exposure weakness while maintaining offensive potency. Understanding both perspectives—the oppressive control from top and the systematic escape mechanics from bottom—is essential for complete positional mastery.\n\nThe strategic uniqueness of Kesa Gatame lies in its geometric relationship: the perpendicular body angle creates biomechanical advantages for control but also creates specific vulnerabilities that can be exploited through proper technique. From the top, practitioners must balance aggressive submission attacks with defensive awareness of back takes. From the bottom, practitioners must recognize that standard side control escapes are ineffective and employ specialized bridge-and-turn mechanics or capitalize on the opponent's back exposure.",
   "key_principles": [
     "Perpendicular body positioning creates unique control mechanics distinct from standard side control",
@@ -90,7 +90,7 @@
     "offensive_transitions": [
       {
         "technique": "Bridge and Roll",
-        "target_position": "Kesa Gatame",
+        "target_position": "Scarf Hold Position",
         "success_rates": {
           "beginner": 25,
           "intermediate": 35,
@@ -217,7 +217,7 @@
           },
           {
             "technique": "Bridge and Roll",
-            "target": "Kesa Gatame",
+            "target": "Scarf Hold Position",
             "probability": 30
           }
         ]
@@ -267,7 +267,7 @@
         "actions": [
           {
             "technique": "Bridge and Roll",
-            "target": "Kesa Gatame",
+            "target": "Scarf Hold Position",
             "probability": 50
           },
           {
@@ -344,7 +344,7 @@
       },
       {
         "name": "Counter-submission opportunity",
-        "path": "Kesa Gatame Bottom → Bridge and Roll → Kesa Gatame → Americana from Side Control → Won by Submission"
+        "path": "Kesa Gatame Bottom → Bridge and Roll → Scarf Hold Position → Americana from Side Control → Won by Submission"
       },
       {
         "name": "Back attack path",
@@ -353,16 +353,12 @@
     ],
     "related_content": [
       {
-        "name": "Kesa Gatame",
+        "name": "Scarf Hold Position",
         "relationship": "Opposite perspective - sibling variant"
       },
       {
         "name": "Side Control",
         "relationship": "Similar defensive position with different escape mechanics"
-      },
-      {
-        "name": "Scarf Hold Position",
-        "relationship": "Alternative name for same position family"
       },
       {
         "name": "Kuzure Kesa-Gatame",
@@ -543,7 +539,7 @@
       },
       {
         "technique": "Bridge and Roll",
-        "target_position": "Kesa Gatame",
+        "target_position": "Scarf Hold Position",
         "success_rate": 25
       },
       {
@@ -698,23 +694,23 @@
     "optimal_submission_paths": [
       {
         "name": "Shortest High-Percentage Path",
-        "path": "Kesa Gatame Top → Americana from Side Control → Won by Submission"
+        "path": "Scarf Hold Position → Americana from Side Control → Won by Submission"
       },
       {
         "name": "Control-First Path",
-        "path": "Kesa Gatame Top → Transition to North-South → North-South Choke → Won by Submission"
+        "path": "Scarf Hold Position → Transition to North-South → North-South Choke → Won by Submission"
       },
       {
         "name": "Arm Attack Sequence",
-        "path": "Kesa Gatame Top → Kimura from Side Control → Armbar from Side Control → Won by Submission"
+        "path": "Scarf Hold Position → Kimura from Side Control → Armbar from Side Control → Won by Submission"
       },
       {
         "name": "Mount Transition Path",
-        "path": "Kesa Gatame Top → Transition to Mount → Americana from Mount → Won by Submission"
+        "path": "Scarf Hold Position → Transition to Mount → Americana from Mount → Won by Submission"
       },
       {
         "name": "Pressure Choke Path",
-        "path": "Kesa Gatame Top → Arm Triangle → Won by Submission"
+        "path": "Scarf Hold Position → Arm Triangle → Won by Submission"
       }
     ],
     "related_content": [
@@ -753,14 +749,6 @@
       {
         "name": "Pressure Application",
         "relationship": "Fundamental concept for position effectiveness"
-      },
-      {
-        "name": "Cross Face Control",
-        "relationship": "Key control concept for head manipulation"
-      },
-      {
-        "name": "Pin Escape Methodology",
-        "relationship": "Defensive framework opponent must overcome"
       },
       {
         "name": "Weight Distribution",

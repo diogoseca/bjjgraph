@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "North-South Escape | BJJ Technique | BJJ Graph",
-    "description": "Learn North-South Escape in BJJ. Step-by-step execution from North-South Bottom to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T195",
-    "tags": [
-      "bjj",
-      "transition",
-      "escape",
-      "defensive",
-      "north-south",
-      "guard-recovery",
-      "bottom-position"
-    ],
-    "starting_position": "North-South Bottom",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "North-South Escape",
+  "description": "Learn North-South Escape in BJJ. Step-by-step execution from North-South to Guard Recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "defensive",
+    "north-south",
+    "guard-recovery",
+    "bottom-position"
+  ],
+  "starting_position": "North-South",
+  "ending_position": "Guard Recovery",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The North-South Escape is a fundamental defensive technique designed to recover guard from one of the most dominant pinning positions in Brazilian Jiu-Jitsu. When trapped in north-south position, the top player maintains heavy chest pressure and controls your movement with their hips and arms, making escape extremely difficult without proper technique. This escape relies on precise hip movement, frame creation, and timing to create the space necessary to recover to a safer bottom position. The technique emphasizes the principle of creating distance through bridging and shrimping mechanics while preventing your opponent from transitioning to more dangerous positions like mount or side control. Success requires understanding weight distribution, maintaining defensive posture throughout the escape sequence, and capitalizing on small windows of opportunity when the top player adjusts their position. The north-south escape is essential for any practitioner's defensive arsenal, as it addresses a common scenario where opponents achieve dominant control through passing or transitioning from other top positions.",
   "key_principles": [
@@ -231,7 +228,7 @@
   "position_integration": "The north-south escape is a critical component of the comprehensive pin escape system in Brazilian Jiu-Jitsu. It addresses one of the most common dominant positions that arises from successful guard passing sequences, transitions from side control, or scrambles. The technique integrates directly with the defensive hierarchy, serving as a bridge between inferior bottom positions and guard recovery. Understanding this escape enhances overall defensive capabilities because north-south position frequently appears in both training and competition. The escape connects systematically with side control escapes, as the positions share similar escape mechanics (framing, bridging, shrimping, and guard recovery). Practitioners who master this escape develop better overall hip escape mechanics that transfer to all bottom position escapes. The technique also teaches important principles about creating and managing space under pressure, timing movements with opponent's weight shifts, and maintaining defensive awareness during transitions. Within the broader BJJ system, the north-south escape represents the defensive response to successful pressure passing systems and top control strategies, making it essential knowledge for practitioners at all levels who wish to develop well-rounded defensive skills.",
   "related_content": [
     {
-      "name": "North-South Bottom",
+      "name": "North-South",
       "relationship": "Starting position - the inferior position being escaped from"
     },
     {
@@ -263,7 +260,7 @@
       "relationship": "Alternative ending - variation for recovering to standing position"
     },
     {
-      "name": "Turtle Position",
+      "name": "Turtle",
       "relationship": "Alternative ending - intermediate position during some escape variations"
     },
     {

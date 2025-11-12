@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Grip Advantage | BJJ Concept | BJJ Graph",
-    "description": "Understand Grip Advantage in BJJ. Learn strategic grip acquisition, denial patterns, asymmetric control creation. Cross-position applications included.",
-    "principle_id": "P103",
-    "tags": [
-      "bjj",
-      "concept",
-      "control",
-      "strategy",
-      "grip",
-      "hand fighting",
-      "positioning"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Grip Advantage",
+  "description": "Master grip advantage in BJJ. Learn strategic grip acquisition, denial patterns, and asymmetric control creation across all positions. Complete guide included.",
+  "tags": [
+    "bjj",
+    "principle",
+    "control",
+    "strategy",
+    "grip fighting",
+    "hand fighting",
+    "positioning"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Grip Advantage represents the positional and tactical superiority achieved through establishing dominant hand controls before an opponent can secure their preferred grips. Unlike specific techniques, grip advantage is a fundamental conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the strategic acquisition of high-value grips, denial of opponent's primary grips, and the creation of asymmetric control scenarios that provide leverage for subsequent technical applications. Grip advantage serves as a precursor to most successful offensive sequences and represents one of the primary determinants of who can impose their game plan effectively. In essence, grip advantage creates the foundation upon which positional advantage can be built, making it a critical conceptual element in both gi and no-gi contexts.",
   "key_principles": [
     "Establish primary grips before opponent achieves their preferred controls",
@@ -92,15 +89,45 @@
       "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Effective grip acquisition and denial requires precise timing to secure controls during opponent's transitional moments or defensive gaps, making timing and rhythm essential components of grip advantage implementation."
+    },
+    {
+      "principle_name": "Collar Control",
+      "relationship_type": "Extension",
+      "description": "Collar control represents a specific application of grip advantage principles focusing on one of the highest-value control points in gi grappling for posture manipulation and distance management."
+    },
+    {
+      "principle_name": "Sleeve Control",
+      "relationship_type": "Extension",
+      "description": "Sleeve control embodies grip advantage through arm isolation and movement restriction, creating leverage for offensive techniques while denying opponent's ability to frame or post effectively."
+    },
+    {
+      "principle_name": "Hand Fighting",
+      "relationship_type": "Prerequisite",
+      "description": "Hand fighting encompasses the physical contest for establishing grips, while grip advantage represents the strategic understanding of which exchanges to prioritize and how to convert tactical grip wins into positional dominance."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Complementary",
+      "description": "Effective guard retention fundamentally depends on maintaining grip advantage that controls passer's distance and angles, preventing them from establishing the grips necessary for effective passing sequences."
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Frame management works in conjunction with grip advantage, as establishing superior grips often requires creating frames that deny opponent's controls while facilitating your own grip acquisitions."
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Complementary",
+      "description": "Grip advantage enables effective distance management by providing the leverage points necessary to create or close space according to tactical objectives, making distance control dependent on superior grips."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Guard player seeks collar and sleeve grips to control distance and posture while denying opponent's ability to establish strong grips on pants or belt, creating offensive opportunities for sweeps and submissions while limiting passing options."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Practitioner uses sleeve grips combined with feet on biceps to create powerful pushing and pulling leverage, establishing grip advantage that prevents opponent from closing distance or establishing their preferred passing grips on legs or hips."
     },
     {
@@ -108,7 +135,7 @@
       "how_applied": "Guard player combines ankle grip with collar or sleeve control to create asymmetric leverage that disrupts opponent's base while denying their ability to secure strong cross-face or underhook grips necessary for effective passing."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Bottom player fights for underhook and far-side grips to create sweeping opportunities while preventing opponent from establishing cross-face and underhook combinations that would flatten the position and enable passing sequences."
     },
     {
@@ -116,11 +143,11 @@
       "how_applied": "Top player in guard uses strategic grips on opponent's collar, sleeves, or pants to control distance and prevent guard retention grips, establishing grip advantage that facilitates standing passes or pressure passing entries."
     },
     {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Standing grip fighting determines who controls the engagement through superior collar ties, sleeve controls, or body locks, with grip advantage directly translating to takedown opportunities and defensive positioning in the standing phase."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Top player uses grips on far arm, near arm, or head to maintain control and prevent escape attempts while bottom player seeks grips that enable frame creation and space generation for defensive recovery."
     },
     {
@@ -136,12 +163,24 @@
       "how_applied": "Guard player uses overhook or collar grips combined with butterfly hooks to create elevation and off-balancing opportunities while denying opponent's ability to establish strong whizzer or cross-face controls."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Practitioner threads opponent's arm with their leg while maintaining sleeve control, creating grip advantage that restricts opponent's mobility and posture while enabling systematic sweeping attacks and guard retention."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Guard player establishes initial grip contacts that control distance and enable guard recovery while preventing opponent from securing grips that facilitate pressure passing or distance management for standing passes."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Guard player combines ankle hook with collar and sleeve grips to create rotational leverage and off-balancing pressure while denying opponent the grips necessary to establish stable passing postures."
+    },
+    {
+      "context": "Collar Sleeve Guard",
+      "how_applied": "Practitioner uses collar and sleeve grip combination to create distance management framework that controls opponent's posture and movement while preventing them from establishing grips that facilitate guard passing entries."
+    },
+    {
+      "context": "Double Sleeve Guard",
+      "how_applied": "Guard player controls both sleeves to restrict opponent's ability to post or establish grips, creating grip advantage that enables sweeping attacks while preventing opponent from generating forward pressure or establishing passing grips."
     }
   ],
   "decision_framework": [
@@ -305,41 +344,41 @@
   "related_content": [
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational tactical framework for implementing grip advantage strategies"
     },
     {
       "name": "Collar Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific application of grip advantage principles to collar-based controls in gi BJJ"
     },
     {
       "name": "Sleeve Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic use of sleeve grips to create distance management and positional leverage"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Framework for understanding relative value of different control points that informs grip prioritization"
     },
     {
       "name": "Grip Break",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Defensive application of grip advantage focusing on neutralizing opponent's established controls"
     },
     {
       "name": "Hand Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Active contest for establishing and denying grips that determines grip advantage outcomes"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Guard position heavily dependent on establishing grip advantage through sleeve controls and feet placement"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Fundamental guard position where grip advantage determines offensive opportunity and defensive security"
     },
@@ -354,7 +393,7 @@
       "relationship": "Top position in guard where establishing grip advantage is prerequisite for effective passing"
     },
     {
-      "name": "Clinch Position",
+      "name": "Clinch",
       "content_type": "Position",
       "relationship": "Standing position where grip advantage directly translates to takedown opportunities and defensive positioning"
     },

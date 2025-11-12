@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Underhook Defense | BJJ Concept | BJJ Graph",
-    "description": "Understand Underhook Defense in BJJ. Learn prevention strategies, neutralization techniques, and recovery protocols. Expert insights from Danaher, Ryan, and Bravo included.",
-    "principle_id": "P112",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "underhook",
-      "defense",
-      "grip-fighting",
-      "control",
-      "position-retention"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Underhook Defense",
+  "description": "Master underhook defense principles in BJJ. Learn prevention strategies, neutralization techniques, and recovery protocols across all positions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "underhook",
+    "defense",
+    "grip-fighting",
+    "control",
+    "position-retention"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Underhook Defense represents the strategic and technical framework for preventing, controlling, and neutralizing opponent's underhook positions that threaten positional control, back takes, and sweeps. Unlike specific defensive movements, underhook defense is a comprehensive conceptual system encompassing threat recognition when opponent secures or attempts underhooks, grip fighting strategies to prevent underhook establishment, framing and postural tactics to neutralize established underhooks, and recovery protocols when underhooks lead to positional compromise. This concept integrates biomechanical understanding of how underhooks create leverage and control with tactical priorities for addressing underhook threats in various positions. Underhook defense serves as both an immediate protective mechanism preventing opponent from capitalizing on underhook advantages and a systematic control restoration process enabling position recovery when underhooks are established. The ability to implement effective underhook defense often determines whether a practitioner can maintain positional security in contested situations or becomes vulnerable to sweeps, back takes, and control positions that exploit underhook leverage, making it one of the most essential conceptual elements in competitive BJJ.",
   "key_principles": [
     "Recognize underhook threats immediately based on position and opponent's grip objectives",
@@ -90,34 +87,60 @@
       "description": "Understanding which underhooks are most dangerous (deep half, back exposure, etc.) extends control point hierarchy concept to prioritize defensive responses based on threat level."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
       "description": "Underhook defense extends into guard retention as preventing opponent's underhook during guard passing is critical element of maintaining guard position."
+    },
+    {
+      "principle_name": "Hand Fighting",
+      "relationship_type": "Prerequisite",
+      "description": "Hand fighting encompasses the proactive grip fighting skills necessary to prevent underhook establishment before opponent can secure dangerous positions."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Complementary",
+      "description": "Defensive framing techniques provide the structural tools necessary to neutralize established underhooks and maintain distance when prevention fails."
+    },
+    {
+      "principle_name": "Space Management",
+      "relationship_type": "Complementary",
+      "description": "Managing distance and space coordinates with underhook defense as creating appropriate spacing reduces underhook effectiveness and enables recovery."
+    },
+    {
+      "principle_name": "Connection Breaking",
+      "relationship_type": "Alternative",
+      "description": "When underhook defense through frames and whizzers fails, breaking the underhook connection entirely becomes alternative pathway to neutralize the threat."
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding leverage mechanics explains why underhooks are dangerous and informs proper positioning and pressure angles for effective defense."
+    },
+    {
+      "principle_name": "Pressure Reduction",
+      "relationship_type": "Complementary",
+      "description": "Reducing opponent's pressure coordinates with underhook defense as excessive forward pressure amplifies underhook effectiveness for sweeps and passes."
     }
   ],
   "application_contexts": [
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Prevent opponent from establishing underhook on far side which enables them to flatten you and pass. Establish your own underhook or use frames to keep opponent's chest elevated and prevent their underhook from connecting to your back."
     },
     {
-      "context": "Half Guard Top",
-      "how_applied": "Defend against bottom player's underhook attempts that threaten sweeps and back takes. Use crossface, whizzer, or underhook battle to prevent opponent from getting deep underhook that enables them to come up on their side."
-    },
-    {
-      "context": "Deep Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "While you want underhook in deep half, you must defend against opponent's counter-underhook on your far side that can flatten you and prevent sweep execution. Frame against their shoulder and maintain angle."
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Primary defensive concern is preventing opponent's underhook from underneath that leads to clock choke, back take, or turtle flattening. Use elbow connection to hip and base widening to deny underhook access."
     },
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "Prevent opponent's far side underhook which enables them to establish strong crossface position and prevents your escape attempts. Frame against their shoulder and neck to deny underhook connection."
     },
     {
-      "context": "Closed Guard Top",
+      "context": "Closed Guard",
       "how_applied": "Defend against bottom player's overhook attempts that can lead to triangle, omoplata, or sweeps. Maintain good posture and hand position to prevent opponent from securing deep overhook control."
     },
     {
@@ -129,20 +152,36 @@
       "how_applied": "Defend against opponent's underhook attempt on your trapped arm side that enables them to take your back or complete anaconda/darce. Keep your trapped arm tight to body and work to establish your own underhook."
     },
     {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Prevent opponent from establishing body lock or single underhook that leads to takedowns and throws. Use collar ties, overhooks, and underhook battles to maintain neutral or advantageous clinch position."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Maintain underhook control or prevent opponent's underhook that enables them to flatten you and pass. Your underhook is offensive tool while defending theirs prevents them from controlling your upper body."
     },
     {
-      "context": "Underhook Battle Position",
+      "context": "Underhook Battle",
       "how_applied": "Direct underhook versus underhook contest where proper technique, pressure, and positioning determine who gains superior control. Use head position, hip placement, and shoulder pressure to win underhook battle."
     },
     {
-      "context": "Standing Back Control Bottom",
+      "context": "Standing Back Control",
       "how_applied": "If opponent has your back while standing, prevent their second underhook which enables body lock and throwing attacks. Fight their grip with both hands and work to turn into them or establish your own control."
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "Defend against opponent's underhook during guard passing attempts that enables them to control your upper body and flatten your guard. Use frames, distance management, and grip fighting to prevent consolidation."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "While maintaining De La Riva hook, prevent opponent's underhook on near side that neutralizes the hook's effectiveness and enables them to pass. Maintain collar and sleeve control to prevent underhook establishment."
+    },
+    {
+      "context": "Kesa Gatame",
+      "how_applied": "From bottom of scarf hold, prevent opponent from securing underhook on your near arm which locks the pin and prevents escape. Keep near arm tucked and work to establish frames before attempting escape."
+    },
+    {
+      "context": "Body Lock",
+      "how_applied": "When opponent attempts or establishes body lock, immediately address underhooks on both sides. Break grips, establish frames, and prevent them from locking hands around your body to eliminate takedown threat."
     }
   ],
   "decision_framework": [
@@ -306,26 +345,26 @@
   "related_content": [
     {
       "name": "Whizzer Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary neutralization tool used when opponent establishes underhook, controlling their arm with overhook to prevent offensive use"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides structural defensive framework when underhook is established, using forearms and hands to maintain distance and prevent opponent turning into you"
     },
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational skill for preventative underhook defense, controlling opponent's grips before they can establish problematic underhook positions"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Works synergistically with underhook defense as maintaining strong base prevents opponent from using underhook leverage to off-balance or sweep"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Critical application context where underhook defense determines whether you maintain active guard or get flattened and passed"
     },
@@ -335,12 +374,12 @@
       "relationship": "Pure underhook battle position where underhook defense skills directly determine positional outcome"
     },
     {
-      "name": "Turtle Bottom",
+      "name": "Turtle",
       "content_type": "Position",
       "relationship": "Position where defending underhook from underneath is critical to preventing clock choke, back take, and flattening attacks"
     },
     {
-      "name": "Underhook Battle Position",
+      "name": "Underhook Battle",
       "content_type": "Position",
       "relationship": "Dedicated position for developing and testing underhook versus underhook control skills"
     },
@@ -355,13 +394,13 @@
       "relationship": "Common sweep that underhook defense protocols aim to prevent when playing top half guard"
     },
     {
-      "name": "Deep Half Guard Bottom",
+      "name": "Deep Half Guard",
       "content_type": "Position",
       "relationship": "Position where you want underhook but must defend opponent's counter-underhook on far side"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Extends to underhook contexts by prioritizing which underhooks represent most dangerous threats requiring immediate defense"
     }
   ],

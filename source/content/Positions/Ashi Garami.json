@@ -1,9 +1,9 @@
 {
   "name": "Ashi Garami",
   "slug": "ashi-garami",
-  "description": "Master Ashi Garami leg entanglement positions in BJJ. Learn control mechanics, submission entries, and strategic transitions with expert insights.",
-  "variant_uniqueness": "Moderate control, high submission diversity",
-  "overview": "**Ashi Garami** (足絡み, Japanese for \"leg entanglement\") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom positional hierarchies, Ashi Garami positions exist in a horizontal plane where both practitioners compete for leg control and finishing opportunities. This position family has revolutionized competitive Brazilian Jiu-Jitsu and submission grappling, particularly in no-gi formats where the absence of grips makes leg attacks more accessible and effective.\n\nThe Ashi Garami system encompasses multiple variations, each offering distinct tactical advantages and submission pathways. From the fundamental **Outside Ashi-Garami** (standard outside leg entanglement) to the advanced **Saddle** position (formerly known as \"Honey Hole\"), these positions create a strategic landscape where control, attack, and counter-attack occur simultaneously. The position family includes **50-50 Guard** (bilateral leg entanglement), **Inside Ashi-Garami** (inside leg control), **Cross Ashi-Garami** (cross-body leg control), and **Ushiro Ashi-Garami** (reverse leg entanglement), each with specific biomechanical advantages and submission chains.\n\nModern Ashi Garami systems, particularly those developed by **John Danaher** and the Danaher Death Squad, emphasize hierarchical position progression, systematic entry sequences, and mechanical understanding of heel exposure. Unlike older leg lock approaches that relied on explosive attacks, contemporary Ashi Garami methodology treats leg entanglements as positions requiring control maintenance, gradual advancement, and strategic positioning before submission attempts. This systematic approach has proven devastatingly effective at the highest levels of competition, with athletes like **Gordon Ryan**, **Garry Tonon**, and **Craig Jones** demonstrating the position family's dominance in both gi and no-gi formats.\n\nThe strategic value of Ashi Garami positions extends beyond submission threats. These positions offer unique tactical advantages including neutralization of size and strength differentials, creation of scoring opportunities through sweeps and reversals, and forcing opponents into defensive postures that limit their offensive capabilities. The bilateral nature of many Ashi Garami variations creates \"dilemma situations\" where defensive actions against one threat expose vulnerabilities to alternative attacks, embodying the modern competition principle of forcing opponents to choose between multiple negative outcomes.\n\nUnderstanding Ashi Garami requires recognizing the position as a complete system rather than isolated techniques. Success in these positions demands mastery of fundamental principles including hip positioning, inside space control, heel exposure mechanics, and transitional pathways between variations. The position family's effectiveness has fundamentally altered competitive grappling strategy, making leg lock defense and Ashi Garami understanding essential components of any complete grappling game.",
+  "description": "Master Ashi Garami leg entanglements with control mechanics, hierarchical advancement, submission entries, defensive escapes, and bilateral awareness.",
+  "variant_uniqueness": "Horizontal control negates size through mechanics",
+  "overview": "**Ashi Garami** (足絡み, Japanese for \"leg entanglement\") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom positional hierarchies, Ashi Garami positions exist in a horizontal plane where both practitioners compete for leg control and finishing opportunities. This position family has revolutionized competitive Brazilian Jiu-Jitsu and submission grappling, particularly in no-gi formats where the absence of grips makes leg attacks more accessible and effective.\n\nThe Ashi Garami system encompasses multiple variations, each offering distinct tactical advantages and submission pathways. From the fundamental **Outside Ashi-Garami** (standard outside leg entanglement) to the advanced **Saddle** position (formerly known as \"Honey Hole\"), these positions create a strategic landscape where control, attack, and counter-attack occur simultaneously. The position family includes **50-50 Guard** (bilateral leg entanglement), **Inside Ashi-Garami** (inside leg control), **Cross Ashi-Garami** (cross-body leg control), and **Ushiro Ashi-Garami** (reverse leg entanglement), each with specific biomechanical advantages and submission chains.\n\nModern Ashi Garami systems emphasize hierarchical position progression, systematic entry sequences, and mechanical understanding of heel exposure. Unlike older leg lock approaches that relied on explosive attacks, contemporary Ashi Garami methodology treats leg entanglements as positions requiring control maintenance, gradual advancement, and strategic positioning before submission attempts. This systematic approach has proven devastatingly effective at the highest levels of competition in both gi and no-gi formats.\n\nThe strategic value of Ashi Garami positions extends beyond submission threats. These positions offer unique tactical advantages including neutralization of size and strength differentials, creation of scoring opportunities through sweeps and reversals, and forcing opponents into defensive postures that limit their offensive capabilities. The bilateral nature of many Ashi Garami variations creates \"dilemma situations\" where defensive actions against one threat expose vulnerabilities to alternative attacks, embodying the modern competition principle of forcing opponents to choose between multiple negative outcomes.\n\nUnderstanding Ashi Garami requires recognizing the position as a complete system rather than isolated techniques. Success in these positions demands mastery of fundamental principles including hip positioning, inside space control, heel exposure mechanics, and transitional pathways between variations. The position family's effectiveness has fundamentally altered competitive grappling strategy, making leg lock defense and Ashi Garami understanding essential components of any complete grappling game.",
   "key_principles": [
     "**Inside Space Control**: Maintaining control of the inside space between your hip and opponent's hip prevents escapes and enables position advancement",
     "**Heel Exposure Management**: Understanding which leg configurations expose the heel and which protect it determines offensive and defensive priorities",
@@ -28,22 +28,22 @@
     {
       "name": "Honey Hole",
       "slug": "honey-hole",
-      "description": "Legacy name for Saddle position, the apex of leg entanglement control hierarchy"
+      "description": "Legacy name for Saddle position, apex of leg entanglement control hierarchy"
     },
     {
       "name": "Inside Ashi-Garami",
       "slug": "inside-ashi-garami",
-      "description": "Inside leg control position with superior advancement pathways and control options"
+      "description": "Inside leg control with superior advancement pathways and control options"
     },
     {
       "name": "Outside Ashi-Garami",
       "slug": "outside-ashi-garami",
-      "description": "Standard outside leg entanglement, fundamental entry position for leg lock system"
+      "description": "Standard outside leg entanglement, fundamental entry for leg lock system"
     },
     {
       "name": "Saddle",
       "slug": "saddle",
-      "description": "Ultimate leg control position with maximum heel exposure and submission opportunities"
+      "description": "Ultimate leg control with maximum heel exposure and submission opportunities"
     },
     {
       "name": "Ushiro Ashi-Garami",
@@ -185,8 +185,8 @@
         "success_rate": 30
       },
       {
-        "technique": "Heel Hook Defense",
-        "target_position": "Defensive Position",
+        "technique": "Heel Hook",
+        "target_position": "Won by Submission",
         "success_rate": 50
       }
     ],
@@ -368,11 +368,11 @@
       "eddie_bravo": "The leg lock revolution vindicated what we were exploring in 10th Planet for years—there are entire positional dimensions beyond the traditional top-bottom hierarchy. Ashi Garami positions are beautiful because they create chaos within structure, allowing smaller, technical practitioners to compete with larger, stronger opponents on equal or superior terms. The positions embody the principle of modern grappling: force your opponent into dilemma situations where all their defensive options expose them to different attacks. In 50-50, defending the heel exposes the calf, defending the calf exposes the heel, and attempts to escape create opportunities for positional advancement. What makes these positions revolutionary is how they democratize submission opportunities—you don't need to be Gordon Ryan's size to finish Gordon Ryan-sized opponents when you have Saddle with proper mechanics. The technical equalizer aspect is profound. Train the system comprehensively, not just the flashy finishes, and you'll develop a complete game that works at every level of competition."
     },
     "name": "Ashi Garami Bottom",
-    "description": "Master Ashi Garami from bottom position. Learn leg control, hierarchical advancement, and systematic finishing sequences with comprehensive technical analysis.",
+    "description": "Master Ashi Garami from bottom with systematic leg control, hierarchical advancement, high-percentage finishing sequences, and bilateral position awareness.",
     "tags": [
-      "leg entanglement system",
-      "bottom position leg control",
-      "modern no-gi methodology"
+      "leg entanglement system bottom position offensive guard",
+      "bottom position leg control offensive guard modern methodology",
+      "modern no-gi methodology competitive system leg lock game"
     ]
   },
   "top": {
@@ -451,15 +451,6 @@
         "target_position": "Outside Ashi-Garami",
         "success_rates": {
           "beginner": 20,
-          "intermediate": 40,
-          "advanced": 60
-        }
-      },
-      {
-        "technique": "Pressure Pass",
-        "target_position": "Side Control",
-        "success_rates": {
-          "beginner": 25,
           "intermediate": 40,
           "advanced": 60
         }
@@ -622,7 +613,7 @@
     "optimal_submission_paths": [
       {
         "name": "Defensive Extraction to Control",
-        "path": "Outside Ashi-Garami → Ashi Garami Escape → Standing Position → Pressure Pass → Side Control"
+        "path": "Outside Ashi-Garami → Ashi Garami Escape → Standing Position → Guard Pass → Side Control"
       },
       {
         "name": "Counter-Attack Sequence",
@@ -674,11 +665,11 @@
       "eddie_bravo": "The leg lock revolution has made traditional top-bottom hierarchies obsolete in many contexts—you can't just rely on being 'on top' anymore when a skilled leg locker can finish you from what looks like a defensive position. The evolution of leg lock defense requires abandoning the old mindset of 'I'm on top so I'm safe' and recognizing that leg entanglements create bilateral threat scenarios where both players can attack. The beautiful chaos of modern no-gi emerges from this reality—every exchange becomes a technical puzzle rather than simple position dominance. My defensive philosophy emphasizes staying in the fight rather than desperate escaping. If someone has my leg, I'm not just trying to rip out; I'm establishing my own controls, looking for their neck, considering counter-entanglements. The positions create multiple simultaneous problems for both practitioners, and whoever solves their problems first wins the exchange. This is the future of grappling—complex, multidimensional positional chess that rewards comprehensive technical understanding over physical advantages."
     },
     "name": "Ashi Garami Top",
-    "description": "Master defensive strategies against Ashi Garami leg entanglements. Learn systematic escapes, heel protection, and counter-attack sequences.",
+    "description": "Master defensive strategies against Ashi Garami leg entanglements from top with systematic escapes, heel protection mechanics, counter-attacks, and awareness.",
     "tags": [
-      "leg lock defense system",
-      "top position defense",
-      "counter-attack methodology"
+      "leg lock defense system top position defensive strategy",
+      "top position defense against entanglements leg lock escape",
+      "counter-attack methodology defensive system competitive defense"
     ]
   }
 }

@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Guard Pass | BJJ Technique | BJJ Graph",
-    "description": "Learn Guard Pass techniques in BJJ. Comprehensive guide to passing guard from various positions. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
-    "transition_id": "T999",
-    "tags": [
-      "bjj",
-      "transition",
-      "guard-pass",
-      "advancement",
-      "fundamental"
-    ],
-    "starting_position": "Open Guard Bottom",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Guard Pass",
+  "description": "Learn Guard Pass techniques in BJJ. Comprehensive guide to passing guard from various positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-pass",
+    "advancement",
+    "fundamental",
+    "top-game",
+    "position-advancement"
+  ],
+  "starting_position": "Open Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "Guard passing represents one of the fundamental challenges in Brazilian Jiu-Jitsu - the art of moving from an opponent's guard position to a dominant top position. The guard pass is not a single technique but rather a category of movements that share the common goal of safely navigating past the opponent's legs while maintaining control and balance. Successful guard passing requires a combination of technical precision, timing, pressure management, and strategic decision-making based on the opponent's guard type and defensive responses.\n\nThe modern approach to guard passing encompasses multiple philosophies: pressure passing prioritizes weight distribution and grinding control, speed passing emphasizes quick footwork and timing, and systematic passing combines both elements based on opponent reactions. Elite competitors like Gordon Ryan have demonstrated that understanding when to apply each passing style - and smoothly transitioning between them - creates an unstoppable passing game. The guard passer must simultaneously break the opponent's grips, neutralize their hip movement, control their legs, and advance position while defending submission attempts and sweep threats.\n\nMastering guard passing fundamentals creates the foundation for all top game development in BJJ. Whether passing closed guard, open guard variations, or modern leg entanglement guards, the core principles remain consistent: establish dominant grips, control distance and angles, break the opponent's structure, and advance through stages of control before settling into a dominant position. This systematic approach, combined with the ability to read and counter opponent reactions, separates effective guard passers from those who struggle to advance position.",
   "key_principles": [
@@ -292,7 +291,7 @@
       "relationship": "Passing style category"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Common ending position after successful pass"
     },
     {
@@ -300,7 +299,7 @@
       "relationship": "Common position for initiating passes from closed guard"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Guard type requiring passing"
     }
   ],

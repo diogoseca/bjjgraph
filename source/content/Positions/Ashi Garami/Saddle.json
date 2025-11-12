@@ -1,9 +1,9 @@
 {
   "name": "Saddle",
   "slug": "saddle",
-  "description": "Master saddle position in BJJ. Complete leg entanglement guide covering inside heel hooks, outside heel hooks, and systematic finishing mechanics with expert analysis.",
-  "variant_uniqueness": "Extreme leg isolation creates submission dilemmas",
-  "overview": "The Saddle position, also known as the Honey Hole in some schools, represents one of the most dominant and dangerous leg entanglement positions in modern Brazilian Jiu-Jitsu. This configuration involves controlling your opponent's leg while sitting perpendicular to their body, with your legs forming a figure-four or similar entanglement around their targeted leg. The position offers unparalleled control over the hip, knee, and ankle joints simultaneously, creating multiple submission pathways primarily focused on heel hooks but also including straight ankle locks, toe holds, and kneebars.\n\nHistorically, the Saddle was considered an advanced no-gi position, popularized through submission grappling and MMA before gaining acceptance in certain gi competition formats. Its effectiveness in neutralizing larger, stronger opponents through mechanical advantage has made it a cornerstone of modern leg lock systems. The position's power lies in its ability to isolate one leg while preventing the opponent from effectively defending or escaping, creating what practitioners call a \"check mate\" scenario where every defensive movement opens new attacking opportunities.\n\nThe Saddle functions as both a controlling position and a submission platform. Unlike positions such as mount or back control where the goal is positional dominance with submission as a secondary objective, the Saddle inverts this hierarchy—it exists primarily to finish the match through submission, with positional control serving that ultimate goal. This makes it particularly relevant in submission-only formats and no-gi competitions where leg locks are legal, though practitioners must understand ruleset restrictions in IBJJF and similar organizations.\n\nFrom a strategic perspective, the Saddle represents the culmination of systematic leg entanglement progression. Practitioners typically enter this position from Outside Ashi-Garami, Inside Ashi-Garami, Single Leg X-Guard, or 50-50 Guard through specific technical transitions. Each entry pathway requires precise timing, angle creation, and understanding of weight distribution to achieve the ideal configuration. Once established, the position offers remarkable sustainability against resistance, as the opponent's natural defensive reactions often tighten the entanglement rather than creating escape opportunities.\n\nThe modern Saddle game emphasizes control before submission, contrary to earlier approaches that prioritized immediate attacking. Contemporary methodology, particularly as systematized by high-level instructors, focuses on achieving what's called \"positional dominance\"—a configuration where all of the opponent's escape attempts have been addressed through superior positioning, grip placement, and angle management. Only after establishing this level of control do practitioners transition to finishing mechanics. This approach dramatically increases submission success rates while reducing the risk of losing position during the attacking sequence.\n\nUnderstanding the Saddle requires knowledge of both the offensive and defensive perspectives. From bottom, practitioners must recognize the catastrophic danger of this position and employ systematic escape protocols that prioritize protecting the heel, clearing the hip line, and creating space for leg extraction. From top, practitioners must understand the nuanced details that separate a loose leg entanglement from a dominant Saddle—factors including hip pressure, shoulder positioning, grip selection, and maintaining perpendicular alignment to the opponent's body.",
+  "description": "Master saddle position mechanics with systematic entries, control optimization, and finishing sequences for heel hooks and leg attacks in modern BJJ.",
+  "variant_uniqueness": "Perpendicular entanglement submission dilemma",
+  "overview": "The Saddle position, also known as the Honey Hole in some schools, represents one of the most dominant and dangerous leg entanglement positions in modern Brazilian Jiu-Jitsu. This configuration involves controlling your opponent's leg while sitting perpendicular to their body, with your legs forming a figure-four or similar entanglement around their targeted leg. The position offers unparalleled control over the hip, knee, and ankle joints simultaneously, creating multiple submission pathways primarily focused on heel hooks but also including straight ankle locks, toe holds, and kneebars.\n\nHistorically, the Saddle was considered an advanced no-gi position, popularized through submission grappling and MMA before gaining acceptance in certain gi competition formats. Its effectiveness in neutralizing larger, stronger opponents through mechanical advantage has made it a cornerstone of modern leg lock systems. The position's power lies in its ability to isolate one leg while preventing the opponent from effectively defending or escaping, creating what practitioners call a \"check mate\" scenario where every defensive movement opens new attacking opportunities.\n\nThe Saddle functions as both a controlling position and a submission platform. Unlike positions such as mount or back control where the goal is positional dominance with submission as a secondary objective, the Saddle inverts this hierarchy—it exists primarily to finish the match through submission, with positional control serving that ultimate goal. This makes it particularly relevant in submission-only formats and no-gi competitions where leg locks are legal, though practitioners must understand ruleset restrictions in IBJJF and similar organizations.\n\nFrom a strategic perspective, the Saddle represents the culmination of systematic leg entanglement progression. Practitioners typically enter this position from Outside Ashi-Garami, Inside Ashi-Garami, Single Leg X-Guard, or 50-50 Guard through specific technical transitions. Each entry pathway requires precise timing, angle creation, and understanding of weight distribution to achieve the ideal configuration. Once established, the position offers remarkable sustainability against resistance, as the opponent's natural defensive reactions often tighten the entanglement rather than create escape opportunities.\n\nThe modern Saddle game emphasizes control before submission, contrary to earlier approaches that prioritized immediate attacking. Contemporary methodology, particularly as systematized by high-level instructors, focuses on achieving what's called \"positional dominance\"—a configuration where all of the opponent's escape attempts have been addressed through superior positioning, grip placement, and angle management. Only after establishing this level of control do practitioners transition to finishing mechanics. This approach dramatically increases submission success rates while reducing the risk of losing position during the attacking sequence.\n\nUnderstanding the Saddle requires knowledge of both the offensive and defensive perspectives. From bottom, practitioners must recognize the catastrophic danger of this position and employ systematic escape protocols that prioritize protecting the heel, clearing the hip line, and creating space for leg extraction. From top, practitioners must understand the nuanced details that separate a loose leg entanglement from a dominant Saddle—factors including hip pressure, shoulder positioning, grip selection, and maintaining perpendicular alignment to the opponent's body.",
   "key_principles": [
     "Hip pressure controls opponent's ability to turn into or away from the entanglement",
     "Perpendicular alignment to opponent's body maximizes mechanical advantage on the leg",
@@ -89,7 +89,7 @@
         }
       },
       {
-        "technique": "Ashi Garami Escape",
+        "technique": "Hip Escape",
         "target_position": "Half Guard",
         "success_rates": {
           "beginner": 10,
@@ -98,7 +98,7 @@
         }
       },
       {
-        "technique": "Hip Escape",
+        "technique": "Technical Standup",
         "target_position": "Standing Position",
         "success_rates": {
           "beginner": 5,
@@ -107,7 +107,7 @@
         }
       },
       {
-        "technique": "Ashi Garami Escape",
+        "technique": "Guard Recovery",
         "target_position": "Open Guard",
         "success_rates": {
           "beginner": 12,
@@ -122,6 +122,15 @@
           "beginner": 8,
           "intermediate": 20,
           "advanced": 40
+        }
+      },
+      {
+        "technique": "Frame and Shrimp",
+        "target_position": "Outside Ashi-Garami",
+        "success_rates": {
+          "beginner": 18,
+          "intermediate": 35,
+          "advanced": 55
         }
       }
     ],
@@ -285,7 +294,7 @@
       },
       {
         "name": "Worst Case Survival",
-        "path": "Heel already exposed → Hide heel internally → Attack grips → Create body connection → Clear hip pressure → Escape to Ashi Garami"
+        "path": "Heel already exposed → Hide heel internally → Attack grips → Create body connection → Clear hip pressure → Escape to Inside Ashi-Garami"
       }
     ],
     "related_content": [
@@ -429,7 +438,7 @@
         }
       },
       {
-        "technique": "Ashi Garami Escape",
+        "technique": "Position Change",
         "target_position": "Inside Ashi-Garami",
         "success_rates": {
           "beginner": 45,
@@ -454,12 +463,12 @@
         "success_rate": 30
       },
       {
-        "technique": "Ashi Garami Escape",
+        "technique": "Hip Escape",
         "target_position": "Half Guard",
         "success_rate": 25
       },
       {
-        "technique": "Hip Escape",
+        "technique": "Technical Standup",
         "target_position": "Standing Position",
         "success_rate": 20
       },
@@ -477,7 +486,7 @@
       },
       {
         "technique": "Grip Break",
-        "target_position": "Inside Heel Hook",
+        "target_position": "Inside Ashi-Garami",
         "trigger": "Opponent breaks your heel control grip"
       },
       {

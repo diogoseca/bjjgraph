@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Guard Replacement | BJJ Technique | BJJ Graph",
-    "description": "Learn Guard Replacement in BJJ. Step-by-step execution from Bottom Position Under Attack to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T158",
-    "tags": [
-      "bjj",
-      "transition",
-      "escape",
-      "guard",
-      "defensive",
-      "recovery",
-      "retention",
-      "bottom-position"
-    ],
-    "starting_position": "Bottom Position",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Guard Replacement",
+  "description": "Learn Guard Replacement in BJJ. Step-by-step execution from compromised guard to guard recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "guard",
+    "defensive",
+    "recovery",
+    "retention",
+    "bottom-position"
+  ],
+  "starting_position": "Defensive Position",
+  "ending_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "Guard Replacement is a fundamental defensive transition that allows a bottom player to re-establish guard control after their opponent has begun to pass or compromise their guard structure. This technique is essential for maintaining defensive integrity and preventing the opponent from advancing to more dominant positions like side control or mount. The movement combines hip escape mechanics, framing, and timing to create the necessary space and angle to reinsert the guard.\n\nThe technique is particularly critical in modern BJJ where guard retention is viewed as a skill set unto itself. Unlike static guard positions, guard replacement is a dynamic recovery process that requires the practitioner to read their opponent's pressure direction, create space through shrimping movements, and actively replace their legs between themselves and their opponent. The effectiveness of this technique scales significantly with skill level, as advanced practitioners develop better timing, more efficient movement patterns, and superior ability to chain multiple recovery attempts together.\n\nGuard replacement serves as a bridge between losing guard control and being fully passed. It represents the last line of defense before the opponent secures a passing position, making it one of the highest-priority skills for any bottom player to master. The technique can be applied from various compromised positions including when the opponent has achieved an underhook, established crossface control, or begun to step over the legs.",
   "key_principles": [
@@ -97,7 +94,7 @@
     {
       "counter": "Opponent follows your hips as you shrimp, maintaining pressure",
       "effectiveness": "Medium",
-      "your_response": "Chain multiple shrimps together in rapid succession, changing angles with each escape. You can also use grips to pull the opponent off-balance in the opposite direction of your escape, creating a moment of hesitation that allows your escape to succeed."
+      "your_response": "Chain multiple shrimps together in rapid succession, changing angles with each escape. You can also use grips to pull the opponent off-balance in the opposite direction of your shrimp, creating a moment of hesitation that allows your escape to succeed."
     },
     {
       "counter": "Opponent catches your recovering leg and continues to pass",
@@ -197,7 +194,7 @@
       "when_to_use": "Against opponents who are exceptionally good at following hip escapes, or when you need to create maximum distance quickly"
     },
     {
-      "variant_name": "Butterfly Hook Retention Replacement",
+      "variant_name": "Butterfly Hook Guard Replacement",
       "description": "Rather than recovering to closed guard or standard open guard, focus on establishing butterfly hooks during the recovery process. As you shrimp and create angle, insert the near-side leg as a butterfly hook while the far-side leg either becomes the second hook or posts on the opponent's hip. This creates immediate sweeping opportunities and is particularly effective in no-gi where closed guard is less viable.",
       "when_to_use": "In no-gi situations or when you want to transition immediately into offensive butterfly guard attacks"
     },
@@ -274,7 +271,7 @@
     },
     {
       "name": "Guard Recovery",
-      "relationship": "Ending position and broader conceptual category"
+      "relationship": "Principle concept underlying this technique"
     },
     {
       "name": "Technical Standup",
@@ -285,7 +282,7 @@
       "relationship": "Advanced guard retention technique that can follow failed replacement"
     },
     {
-      "name": "Butterfly Hook Retention Bottom",
+      "name": "Butterfly Guard",
       "relationship": "Specific guard position that can be target of replacement"
     },
     {
@@ -293,11 +290,11 @@
       "relationship": "Alternative recovery position when standard replacement unavailable"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Knee Shield Half Guard",
       "relationship": "Common position where guard replacement is initiated"
     },
     {
-      "name": "Open Guard Bottom",
+      "name": "Open Guard",
       "relationship": "Common starting and ending position for this technique"
     }
   ],

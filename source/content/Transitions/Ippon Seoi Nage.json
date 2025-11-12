@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Ippon Seoi Nage | BJJ Technique | BJJ Graph",
-    "description": "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation with gripping, entry mechanics, and ground transitions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T201",
-    "tags": ["bjj", "takedown", "judo", "throwing", "standing"],
-    "starting_position": "Standing Position",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Ippon Seoi Nage",
+  "description": "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation with gripping, entry mechanics, and ground transitions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": ["bjj", "takedown", "judo", "throwing", "standing", "seoi-nage", "gi", "no-gi", "competition"],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "Ippon Seoi Nage is a classical judo shoulder throw adapted for Brazilian Jiu-Jitsu competition and self-defense. The technique involves entering beneath your opponent's center of gravity, loading them onto your back and shoulders, then executing a powerful forward rotation to throw them to the mat. Unlike many BJJ-specific takedowns, Ippon Seoi Nage requires significant technical precision in grip fighting, footwork, and kuzushi (off-balancing) to execute successfully against resisting opponents.\n\nIn the BJJ context, Ippon Seoi Nage offers several strategic advantages: it generates immediate top position with forward momentum, often landing you in side control or knee-on-belly; it works effectively in both gi and no-gi situations with appropriate grip adaptations; and it creates psychological pressure on opponents who must respect your throwing threat. The technique is particularly effective against opponents who maintain upright posture and resist guard pulls, making it a valuable addition to any standing game.\n\nThe modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing against forward pressure, and smooth transitions to ground control positions. Successful execution requires coordinating multiple elements: breaking your opponent's balance forward and to the side, achieving deep penetration with your hips below theirs, maintaining continuous pulling action throughout the throw, and controlling the landing to secure top position immediately.",
   "key_principles": [
@@ -72,7 +69,7 @@
     {
       "counter": "Opponent widens base and posts hand on your hip",
       "effectiveness": "High",
-      "your_response": "Switch to different throw (Tai Otoshi or Ko Uchi Gari) or immediately pull guard if throw is stuffed. Do not continue forcing the throw against solid defensive posture."
+      "your_response": "Switch to different throw (Tai Otoshi or Kouchi Gari) or immediately pull guard if throw is stuffed. Do not continue forcing the throw against solid defensive posture."
     },
     {
       "counter": "Opponent sprawls backward and pulls their hips away",
@@ -87,7 +84,7 @@
     {
       "counter": "Opponent turns into you during entry, facing same direction",
       "effectiveness": "Medium",
-      "your_response": "Adjust to Morote Seoi Nage variation or transition to Back Take if they over-rotate. Maintain sleeve control throughout adjustment."
+      "your_response": "Adjust to Morote Seoi Nage variation or transition to Back Control if they over-rotate. Maintain sleeve control throughout adjustment."
     }
   ],
   "common_errors": [
@@ -220,7 +217,7 @@
       "relationship": "Two-handed variation for no-gi situations"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Primary landing position after successful throw"
     },
     {
@@ -234,11 +231,23 @@
     {
       "name": "Guard Pull",
       "relationship": "Alternative standing attack that can be used to set up throwing entries"
+    },
+    {
+      "name": "Osoto Gari",
+      "relationship": "Follow-up throw when opponent defends by stepping back"
+    },
+    {
+      "name": "Kouchi Gari",
+      "relationship": "Setup attack to create forward momentum for Seoi Nage entry"
+    },
+    {
+      "name": "Ankle Pick",
+      "relationship": "Counter option when throw is defended with sprawl"
     }
   ],
   "expert_insights": {
     "danaher": "Ippon Seoi Nage represents the classical intersection of judo biomechanics and Brazilian Jiu-Jitsu positional strategy. The technique's success depends entirely on understanding the mechanical principle of creating a fulcrum point below opponent's center of mass - your hips and shoulders become the axis over which they must rotate. The critical error most BJJ practitioners make is attempting the throw without proper kuzushi; they try to compensate for poor off-balancing with strength and speed, which fails against skilled opposition. Study how judoka use grip fighting to create micro-adjustments in opponent's balance, then exploit these moments of instability with explosive entries. The real mastery lies not in the throwing motion itself, but in recognizing the precise moment when opponent's balance is broken sufficiently to make the throw high-percentage. Additionally, understand that in BJJ context, the throw's value extends beyond scoring points - the forward momentum and dominant landing position often allow you to bypass guard entirely, moving directly into submission chains or mount transitions that would otherwise require extensive guard passing effort.",
     "gordon_ryan": "I use Ippon Seoi Nage primarily as a psychological weapon more than a primary takedown in my game, but when it hits, it completely demoralizes opponents while giving you instant dominant position. The key to making it work in high-level no-gi is adapting the grips to overhook and wrist control, then hitting it when guys are reaching to establish their own grips. Most BJJ guys don't train throw defense seriously, so if you can drill this technique until the entry is automatic, you can catch people who are way better grapplers than you just because they never developed takedown awareness. That said, don't be stubborn with it - if you hit your entry and feel resistance, immediately bail to Single Leg or pull guard with your established grips. The throw works best as part of a standup system where you're threatening multiple attacks; when guys are worried about your Single Leg, they defend differently and create the upright posture that makes Seoi Nage available. One thing I emphasize is controlling the landing aggressively - don't just throw them and stand up celebrating, drive through them into side control and immediately start your passing or submission sequences while they're still disoriented from the impact.",
-    "eddie_bravo": "Seoi Nage is old school judo but it's actually perfect for no-gi if you modify it right, and most people sleep on it because they think throws don't work without the gi. What I teach my guys is to use the overhook control version and hit it off the fake guard pull, which creates this sick setup where they're expecting you to jump guard and suddenly you're rotating under them for the throw. The 10th Planet variation emphasizes using the throw to land directly in Lockdown Half Guard or Truck position instead of traditional side control - you maintain that sleeve control during the throw but as you land, you're already establishing your leg position for your ground game. This is way more efficient than landing in side control and then having to work through their frames. Another adaptation we use is the Drop Seoi variation, which I actually prefer because it's lower commitment and you can transition to leg attacks if the throw gets stuffed. The drop version lets you threaten the throw but if they defend well, you're already in position to attack legs or sweep. Don't sleep on this technique just because it looks traditional - when you blend it with modern no-gi strategy and unorthodox positions, it becomes this unpredictable weapon that catches everyone off guard."
+    "eddie_bravo": "Seoi Nage is old school judo but it's actually perfect for no-gi if you modify it right, and most people sleep on it because they think throws don't work without the gi. What I teach my guys is to use the overhook control version and hit it off the fake guard pull, which creates this sick setup where they're expecting you to jump guard and suddenly you're rotating under them for the throw. The 10th Planet variation emphasizes using the throw to land directly in Lockdown or Truck position instead of traditional side control - you maintain that sleeve control during the throw but as you land, you're already establishing your leg position for your ground game. This is way more efficient than landing in side control and then having to work through their frames. Another adaptation we use is the Drop Seoi variation, which I actually prefer because it's lower commitment and you can transition to leg attacks if the throw gets stuffed. The drop version lets you threaten the throw but if they defend well, you're already in position to attack legs or sweep. Don't sleep on this technique just because it looks traditional - when you blend it with modern no-gi strategy and unorthodox positions, it becomes this unpredictable weapon that catches everyone off guard."
   }
 }

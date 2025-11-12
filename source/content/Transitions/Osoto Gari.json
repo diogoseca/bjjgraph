@@ -1,25 +1,24 @@
 {
-  "metadata": {
-    "title": "Osoto Gari | BJJ Technique | BJJ Graph",
-    "description": "Learn Osoto Gari in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 55%, Advanced 75%.",
-    "transition_id": "T044",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "judo",
-      "throw",
-      "standing"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 55,
-      "advanced": 75
-    }
+  "name": "Osoto Gari",
+  "description": "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Step-by-step takedown from Standing Position to Side Control. Success: Beginner 30%, Intermediate 55%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "judo",
+    "throw",
+    "standing",
+    "sweep",
+    "reap"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 55,
+    "advanced": 75
   },
-  "overview": "Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successfully integrated into Brazilian Jiu-Jitsu as a high-percentage standing technique. This technique involves reaping your opponent's weight-bearing leg from the outside while simultaneously driving their upper body backward, creating a powerful off-balancing motion that results in a controlled takedown. The beauty of Osoto Gari lies in its simplicity and effectiveness - it requires minimal setup compared to other throws and can be executed from various gripping configurations. In the BJJ context, Osoto Gari is particularly valuable because it allows the practitioner to maintain upper body control throughout the throw, often landing directly in dominant positions such as Side Control or Scarf Hold. The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. Unlike many judo throws that require extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively when the opponent is slightly forward-weighted, making it an excellent counter-attacking technique.",
+  "overview": "Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successfully integrated into Brazilian Jiu-Jitsu as a high-percentage standing technique. This technique involves reaping your opponent's weight-bearing leg from the outside while simultaneously driving their upper body backward, creating a powerful off-balancing motion that results in a controlled takedown. The beauty of Osoto Gari lies in its simplicity and effectiveness - it requires minimal setup compared to other throws and can be executed from various gripping configurations. In the BJJ context, Osoto Gari is particularly valuable because it allows the practitioner to maintain upper body control throughout the throw, often landing directly in dominant positions such as Side Control or Scarf Hold (Kesa Gatame). The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. Unlike many judo throws that require extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively when the opponent is slightly forward-weighted, making it an excellent counter-attacking technique.",
   "key_principles": [
     "Control opponent's upper body with strong collar and sleeve grips before attempting the throw",
     "Drive opponent's weight onto their back leg by pulling them forward and slightly to the side",
@@ -240,7 +239,7 @@
       "relationship": "Advanced Variation - Hip-based throw using similar off-balancing direction"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Primary Landing Position - Most common position achieved after successful throw"
     },
     {

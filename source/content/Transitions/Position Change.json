@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Position Change | BJJ Technique | BJJ Graph",
-    "description": "Master Position Change transitions in BJJ. Learn systematic advancement from guard to dominant positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T212",
-    "tags": [
-      "bjj",
-      "transition",
-      "advancement",
-      "tactical",
-      "intermediate",
-      "position control",
-      "strategy"
-    ],
-    "starting_position": "Guard Position",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Position Change",
+  "description": "Master Position Change transitions in BJJ. Learn systematic advancement from guard to dominant positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "advancement",
+    "tactical",
+    "intermediate",
+    "position control",
+    "strategy"
+  ],
+  "starting_position": "Open Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "Position Change represents the fundamental tactical advancement in Brazilian Jiu-Jitsu, where a practitioner systematically transitions from one position to a more dominant position. This concept encompasses the entire spectrum of positional transitions, from escaping inferior positions to establishing and maintaining dominant control. Understanding position change is essential for developing a cohesive game plan that emphasizes positional dominance over immediate submission attempts.\n\nThe ability to change positions effectively requires a deep understanding of the positional hierarchy in BJJ, timing, weight distribution, and the creation of angles. Successful position changes are built on recognizing opportunities created by opponent reactions, maintaining connection points throughout the transition, and controlling the pace of engagement. This skill separates advanced practitioners who can systematically work through positions from beginners who struggle to maintain positional advantages.\n\nPosition changes serve multiple strategic purposes: they increase point scoring opportunities in competition, create better submission angles, tire opponents through constant defensive demands, and demonstrate technical superiority. The most effective position changes combine offensive pressure with defensive awareness, ensuring that the transition itself doesn't create vulnerabilities. Mastering this fundamental concept allows practitioners to implement their game plan methodically while neutralizing opponent attacks.",
   "key_principles": [
@@ -118,7 +115,7 @@
     {
       "error": "Failing to create angle before attempting position change",
       "consequence": "Opponent's defensive structure remains strong, making transition energy-expensive and low-percentage",
-      "correction": "Always establish an angle first through hip movement or torso adjustment; this fundamentally weakens opponent's ability to maintain current position"
+      "correction": "Always establish an angle first through hip movement or torso adjustment; this fundamentally weakens opponent's ability to maintain current structure"
     },
     {
       "error": "Abandoning the transition at first sign of resistance",
@@ -253,7 +250,7 @@
       "relationship": "Classic incremental position improvement transition"
     },
     {
-      "name": "Guard Replacement",
+      "name": "Re-Guard",
       "relationship": "Defensive position change to recover guard from inferior positions"
     },
     {
@@ -265,7 +262,7 @@
       "relationship": "Example of multi-step position change sequence"
     },
     {
-      "name": "Technical Stand-up",
+      "name": "Technical Stand Up to Single Leg",
       "relationship": "Position change to return to standing from bottom positions"
     },
     {

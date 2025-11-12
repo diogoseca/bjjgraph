@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Frame Management | BJJ Concept | BJJ Graph",
-    "description": "Understand Frame Management in BJJ. Learn structural framing, pressure distribution, dynamic adaptation across positions. Expert insights included.",
-    "principle_id": "P040",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "defense",
-      "frames",
-      "structure",
-      "distance-control",
-      "pressure-management"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Frame Management",
+  "description": "Master Frame Management in BJJ. Learn skeletal framing, pressure redirection, dynamic adaptation across all positions. Build efficient defensive structure.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "defense",
+    "frames",
+    "structure",
+    "distance-control",
+    "pressure-management"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Frame Management represents the fundamental skill of creating, maintaining, and strategically utilizing structural barriers using limbs and body alignment to control distance, redirect pressure, and create space necessary for defensive and offensive techniques. Unlike isolated framing techniques, frame management is a comprehensive conceptual framework that encompasses frame construction principles, pressure distribution mechanics, dynamic frame adaptation under variable loads, and strategic frame deployment across all positions and scenarios. This concept serves as both a critical defensive mechanism preventing opponent from establishing dominant control and an essential offensive tool for creating attacking opportunities through distance management. Frame management determines the effectiveness of escape sequences, guard retention systems, and submission defense protocols, making it one of the most foundational conceptual elements spanning from white belt basics through black belt sophistication. The ability to manage frames effectively under pressure often distinguishes successful defensive responses from positional submission to dominant control.",
   "key_principles": [
     "Construct frames using skeletal structure rather than muscular strength to maximize efficiency and sustainability",
@@ -93,6 +90,36 @@
       "principle_name": "Escape Fundamentals",
       "relationship_type": "Prerequisite",
       "description": "Nearly all escape sequences begin with establishing effective frames to create initial distance from opponent, making frame management foundational skill enabling all other escape techniques to function"
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Complementary",
+      "description": "Defensive framing techniques represent specific positional implementations of broader frame management principles across all defensive scenarios"
+    },
+    {
+      "principle_name": "Frame Creation",
+      "relationship_type": "Complementary",
+      "description": "Frame creation describes the initial establishment of frames, while frame management encompasses ongoing maintenance and dynamic adaptation of those structures"
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Complementary",
+      "description": "Frames provide the structural mechanism enabling distance creation, controlling space between practitioner and opponent to facilitate escapes and transitions"
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Extension",
+      "description": "Frame management serves as critical component of guard retention systems, maintaining distance control that prevents opponent from completing passing sequences"
+    },
+    {
+      "principle_name": "Hip Escape Mechanics",
+      "relationship_type": "Complementary",
+      "description": "Hip escapes and frame management work synergistically, with frames controlling distance while hip movements generate actual positional recovery and escape progress"
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Complementary",
+      "description": "Bridging and shrimping movements must be coordinated with frame maintenance to create effective escape sequences from bad positions"
     }
   ],
   "application_contexts": [
@@ -105,12 +132,16 @@
       "how_applied": "Using elbow frames against opponent's hips to control distance and prevent high mount progression, combined with hip bridge movements to create escape opportunities while managing submission threats"
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Creating frames to break opponent's posture and maintain optimal attacking distance, preventing opponent from establishing strong base while controlling their upper body positioning for sweeps and submissions"
     },
     {
-      "context": "Half Guard Bottom",
-      "how_applied": "Utilizing knee shield frames to maintain distance from opponent's upper body pressure, controlling space necessary for underhook battles and preventing opponent from flattening defender completely"
+      "context": "Half Guard",
+      "how_applied": "Utilizing frames to maintain distance from opponent's upper body pressure, controlling space necessary for underhook battles and preventing opponent from flattening defender completely"
+    },
+    {
+      "context": "Knee Shield Half Guard",
+      "how_applied": "Employing knee shield as primary frame structure to maintain maximum distance from opponent's upper body, creating space for underhook acquisition and sweep opportunities"
     },
     {
       "context": "North-South",
@@ -129,12 +160,28 @@
       "how_applied": "Establishing defensive frames to prevent opponent from consolidating passing position, maintaining critical distance during transition phases while working to reestablish guard structure"
     },
     {
-      "context": "Bottom Turtle",
+      "context": "Turtle",
       "how_applied": "Creating defensive frames to prevent opponent from flattening or taking back, maintaining structural integrity while looking for opportunities to return to guard or stand up"
     },
     {
       "context": "Defensive Position",
       "how_applied": "Using frames as primary defensive barrier across all bad positions, establishing structural defense that buys time for systematic escape execution rather than relying on scrambling or strength"
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "Maintaining frames on opponent's hips, shoulders, or biceps to control distance and prevent passing, creating space necessary for guard retention and attacking sequences"
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Using extended leg frames on opponent's biceps combined with sleeve grips to maintain maximum distance control, preventing forward pressure while creating sweep opportunities"
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Employing frames on opponent's far leg and collar to maintain optimal distance while DLR hook controls base, preventing opponent from settling weight and completing passes"
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Framing on opponent's shoulders or biceps while butterfly hooks control lower body, maintaining upright posture and distance necessary for sweep execution and guard retention"
     }
   ],
   "decision_framework": [
@@ -293,32 +340,32 @@
   "related_content": [
     {
       "name": "Defensive Frame",
-      "content_type": "Concept",
-      "relationship": "Complementary concept providing specific tactical framing applications in positional contexts"
+      "content_type": "Principle",
+      "relationship": "Complementary principle providing specific tactical framing applications in positional contexts"
     },
     {
       "name": "Space Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Frames provide structural foundation enabling space generation through hip movement"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Frame management controls distance while hip escapes generate actual positional recovery"
     },
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental mechanical concepts underlying effective frame construction through skeletal alignment"
     },
     {
       "name": "Energy Conservation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Proper frames dramatically reduce energy expenditure in defensive situations"
     },
     {
       "name": "Side Control Escapes",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Frame management provides critical distance control enabling escape execution from side control"
     },
     {
@@ -340,6 +387,16 @@
       "name": "Guard Recovery",
       "content_type": "Position",
       "relationship": "Transitional position where frame management prevents passing completion"
+    },
+    {
+      "name": "Defensive Framing",
+      "content_type": "Principle",
+      "relationship": "Specific defensive framing techniques implementing frame management principles"
+    },
+    {
+      "name": "Guard Retention",
+      "content_type": "Principle",
+      "relationship": "Frame management serves as critical component preventing guard passes"
     }
   ],
   "expert_insights": {

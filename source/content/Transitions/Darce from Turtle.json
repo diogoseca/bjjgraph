@@ -1,23 +1,23 @@
 {
-  "metadata": {
-    "title": "Darce from Turtle | BJJ Technique | BJJ Graph",
-    "description": "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle Top to Darce Control. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
-    "transition_id": "T353",
-    "tags": [
-      "bjj",
-      "transition",
-      "submission_setup",
-      "turtle",
-      "front_headlock",
-      "nogi"
-    ],
-    "starting_position": "Turtle Position Top",
-    "ending_position": "Darce Control Position",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    }
+  "name": "Darce from Turtle",
+  "description": "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle Top to Darce Control. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%. Master front headlock attacks.",
+  "tags": [
+    "bjj",
+    "transition",
+    "submission_setup",
+    "turtle",
+    "front_headlock",
+    "nogi",
+    "darce",
+    "choke",
+    "blood_choke"
+  ],
+  "starting_position": "Turtle",
+  "ending_position": "D'arce Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 70
   },
   "overview": "The Darce choke from turtle position is one of the most high-percentage submissions in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique capitalizes on the opponent's defensive turtle posture by attacking the exposed neck and far-side arm, creating a powerful blood choke that can force a tap within seconds when properly executed. The Darce from turtle is especially effective because opponents often feel safe in the turtle position, making them less defensive against this attack. The technique requires precise arm positioning, shoulder pressure, and an understanding of how to create the necessary space to thread your choking arm through. When executed correctly, the Darce choke cuts off blood flow to both carotid arteries while simultaneously creating structural pressure on the neck, making it extremely difficult to defend once locked in. This submission has become a staple in the arsenals of high-level competitors due to its effectiveness against various turtle defensive strategies and its ability to transition seamlessly from other front headlock attacks.",
   "key_principles": [
@@ -164,12 +164,6 @@
       "focus": "High-pressure application and transition flow",
       "description": "Use in full resistance positional sparring (start in turtle top position) and regular rolling. Work on recognizing the Darce opportunity from various turtle attacks (clock choke attempts, crucifix setups, etc.). Success rate should be 60-70% against partners of similar skill level. Focus on speed of execution while maintaining control and safety. Chain with other turtle attacks to create submission dilemmas.",
       "resistance_level": "Full"
-    },
-    {
-      "phase": "Ongoing: Refinement and Variations",
-      "focus": "Advanced details and situational adaptations",
-      "description": "Continue refining technique based on body types, gi vs. no-gi contexts, and opponent skill levels. Study high-level competition footage of successful Darce finishes from turtle. Experiment with grip variations, entry timing, and transition options. Work on setting up the Darce by threatening other attacks first. Develop your personal style and preferred details within the fundamental framework.",
-      "resistance_level": "Full"
     }
   ],
   "variants_and_adaptations": [
@@ -268,6 +262,14 @@
     {
       "name": "Darce Variations",
       "relationship": "Technical expansion - different methods and adjustments for the finish"
+    },
+    {
+      "name": "Front Headlock to Darce",
+      "relationship": "Entry method - systematic approach to setting up the technique"
+    },
+    {
+      "name": "Anaconda Choke",
+      "relationship": "Sister technique - mirror image choke with similar mechanics"
     }
   ],
   "expert_insights": {

@@ -1,21 +1,20 @@
 {
-  "metadata": {
-    "title": "Explosive Power | BJJ Concept | BJJ Graph",
-    "description": "Understand Explosive Power in BJJ. Learn force production, movement velocity optimization, cross-position application.",
-    "principle_id": "P035",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "power",
-      "explosiveness",
-      "athleticism",
-      "biomechanics"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Explosive Power",
+  "description": "Master explosive power in BJJ. Learn force production, rate of development, velocity optimization across positions for sweeps, escapes, and takedowns.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "power",
+    "explosiveness",
+    "athleticism",
+    "biomechanics",
+    "speed",
+    "force production"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Explosive Power represents the capacity to generate maximum force in minimum time, enabling rapid positional changes, dynamic technique execution, and successful exploitation of brief tactical windows that characterize high-level Brazilian Jiu-Jitsu exchanges. Unlike pure strength (maximum force production) or endurance (sustained force over time), explosive power is the rate-dependent physical quality that determines success in scrambles, takedowns, explosive escapes, and dynamic sweeps where the athlete who can generate force faster gains decisive positional advantage. This concept encompasses the neuromuscular adaptations, biomechanical principles, and training methodologies that develop the ability to convert strength into speed and create the explosive movements that separate elite performers from technically competent but athletically limited practitioners. Explosive power serves as both an offensive weapon enabling rapid position advancement and dynamic technique execution, and a defensive tool allowing escape from disadvantageous positions through explosive bridging, shrimping, or standing movements. The ability to generate explosive force often determines outcomes in transitional moments and scrambles where technical positions break down and athletic qualities become primary performance determinants.",
   "key_principles": [
     "Develop explosive power progressively building from strength foundation before emphasizing maximal velocity",
@@ -89,18 +88,48 @@
       "description": "Aerobic capacity supports recovery between explosive efforts and maintains power output across extended training sessions or competition matches"
     },
     {
-      "principle_name": "Flexibility Training",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Complementary",
-      "description": "Adequate range of motion enables full expression of explosive power through complete movement patterns while reducing injury risk from high-velocity force application"
+      "description": "Proper leverage amplifies explosive force application, ensuring power is applied through mechanically advantageous angles that multiply effectiveness"
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Extension",
+      "description": "Hip explosiveness provides primary force generation for most BJJ movements, making hip power development critical for overall explosive capacity"
+    },
+    {
+      "principle_name": "Off-Balancing",
+      "relationship_type": "Complementary",
+      "description": "Explosive power enables rapid off-balancing when opponent's base becomes momentarily vulnerable, creating sweep and takedown opportunities"
+    },
+    {
+      "principle_name": "Bridging Mechanics",
+      "relationship_type": "Extension",
+      "description": "Explosive bridging represents specific application of power development for escapes and position recovery from bottom positions"
+    },
+    {
+      "principle_name": "Hip Escape Mechanics",
+      "relationship_type": "Extension",
+      "description": "Explosive shrimping and hip escapes require rapid force production to create space and recover guard positions"
+    },
+    {
+      "principle_name": "Sweep Mechanics",
+      "relationship_type": "Complementary",
+      "description": "Many sweep variations depend on explosive execution to generate rapid off-balancing before opponent can stabilize defensive structure"
+    },
+    {
+      "principle_name": "Takedown Entry",
+      "relationship_type": "Complementary",
+      "description": "Explosive level changes and penetration steps overcome opponent defensive reactions through speed of execution in takedown situations"
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Explosive hip elevation and angle creation enables dynamic sweep entries like Hip Bump Sweep and Pendulum Sweep where rapid force generation breaks opponent's base before defensive adjustments occur"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Explosive underhook battles and knee shield movements create space and off-balance opponents, with power enabling rapid transitions to Deep Half Guard or sweep completions when brief windows open"
     },
     {
@@ -124,7 +153,7 @@
       "how_applied": "Explosive foot pressure on biceps combined with rapid lapel or sleeve manipulation creates the dynamic off-balancing that enables sweep entries when opponent briefly commits weight forward or backward"
     },
     {
-      "context": "Bottom Turtle",
+      "context": "Turtle",
       "how_applied": "Explosive roll-through movements and granby rolls escape back exposure through rapid position changes that occur faster than opponent can secure controlling grips and consolidate dominant position"
     },
     {
@@ -136,12 +165,32 @@
       "how_applied": "Explosive movements during transitional chaos enable position establishment before opponent can organize defense, with athletic superiority often determining scramble outcomes when technical positions break down"
     },
     {
-      "context": "Neutral Starting Position",
-      "how_applied": "Explosive grip fighting and stance breaking create initial advantages that set up subsequent tactical sequences, with power enabling successful imposition of preferred gripping configurations"
+      "context": "Mount",
+      "how_applied": "Explosive bridging and hip elevation from bottom mount creates escape opportunities, while explosive transitions to technical mount or armbar positions from top mount capitalize on opponent defensive reactions"
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Back Control",
+      "how_applied": "Explosive forward rolling and granby movements enable escape from back control by changing positions faster than opponent can adjust hooks and maintain control structure"
+    },
+    {
+      "context": "Side Control",
+      "how_applied": "Explosive bridging combined with hip escape mechanics creates the rapid space generation necessary for guard recovery when opponent's pressure temporarily lightens"
+    },
+    {
+      "context": "Open Guard",
       "how_applied": "Explosive leg movements and angle creation maintain distance management and generate sweep opportunities where rapid force application prevents opponent from passing through sustained pressure"
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Explosive hook manipulation and grip control enable rapid transitions to X-Guard, Single Leg X, and back-take opportunities when opponent's balance becomes momentarily compromised"
+    },
+    {
+      "context": "Single Leg X-Guard",
+      "how_applied": "Explosive elevation and directional sweeping movements dump opponent through rapid force application that overcomes base before weight redistribution can occur"
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Explosive hip rotation and leg manipulation enable rapid entries to finishing positions and transitions between leg entanglement variations when opponent attempts to clear legs"
     }
   ],
   "decision_framework": [
@@ -312,12 +361,12 @@
       "relationship": "Demonstrates explosive leg extension and pulling mechanics that require rapid force production for successful completion"
     },
     {
-      "name": "Double Leg Entry",
+      "name": "Double Leg Finish",
       "content_type": "Transition",
       "relationship": "Requires explosive level change and penetration step where speed of execution determines success against defensive reactions"
     },
     {
-      "name": "Technical Standup",
+      "name": "Technical Stand Up to Single Leg",
       "content_type": "Transition",
       "relationship": "Utilizes explosive posting and hip elevation to rapidly achieve standing position from bottom positions"
     },
@@ -328,27 +377,27 @@
     },
     {
       "name": "Bridge and Shrimp",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental movement pattern incorporating explosive bridging mechanics essential for escapes and position recovery"
     },
     {
       "name": "Strength Development",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Prerequisite physical quality providing force production foundation upon which explosive power is built"
     },
     {
       "name": "Biomechanical Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Governs optimal force application pathways ensuring explosive power is mechanically efficient"
     },
     {
       "name": "Timing and Rhythm",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Determines when explosive efforts are deployed for maximum tactical effectiveness"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework governing when and how explosive power is deployed within overall energy budget"
     },
     {

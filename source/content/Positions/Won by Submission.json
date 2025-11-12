@@ -1,11 +1,9 @@
 {
-  "metadata": {
-    "title": "Won by Submission | BJJ Position Guide | BJJ Graph",
-    "description": "Terminal state in BJJ where practitioner successfully forces opponent to submit. Complete guide covering tap protocols, finish mechanics, and safety with expert insights.",
-    "state_id": "S999",
-    "tags": ["bjj", "submission", "terminal-state", "victory", "finish"]
-  },
-  "overview": "Won by Submission represents the terminal state in Brazilian Jiu-Jitsu where a practitioner has successfully forced their opponent to submit through a joint lock or choke. This state marks the end of a match or training round through technical victory, achieved when the opponent verbally submits, physically taps (on the opponent, mat, or themselves), or when the referee stops the match due to a submission being fully locked in. This terminal state is the ultimate objective in submission-focused BJJ, representing the successful application of technique, timing, and control to force capitulation. Understanding this state involves recognizing proper submission mechanics, tap protocols, safety considerations, and the technical pathways that lead to successful finishes. Unlike positional victories or points-based wins, submission victory demonstrates complete technical dominance through forcing the opponent to acknowledge defeat, making it the most definitive form of victory in grappling arts.",
+  "name": "Won by Submission",
+  "description": "Terminal state in BJJ where practitioner successfully forces opponent to submit. Learn tap protocols, finish mechanics, safety procedures, and paths to victory.",
+  "tags": ["bjj", "submission", "terminal-state", "victory", "finish", "tap-protocol", "safety"],
+  "variant_uniqueness": "Terminal state ending match completely",
+  "overview": "Won by Submission represents the terminal state in Brazilian Jiu-Jitsu where a practitioner has successfully forced their opponent to submit through a joint lock or choke. This state marks the end of a match or training round through technical victory, achieved when the opponent verbally submits, physically taps (on the opponent, mat, or themselves), or when the referee stops the match due to a submission being fully locked in. This terminal state is the ultimate objective in submission-focused BJJ, representing the successful application of technique, timing, and control to force capitulation. Understanding this state involves recognizing proper submission mechanics, tap protocols, safety considerations, and the technical pathways that lead to successful finishes. Unlike positional victories or points-based wins, submission victory demonstrates complete technical dominance through forcing the opponent to acknowledge defeat, making it the most definitive form of victory in grappling arts. The path to this state requires systematic progression through control positions, elimination of defensive options, and precise application of submission mechanics with respect for partner safety.",
   "state_properties": {
     "point_value": 0,
     "position_type": "Offensive",
@@ -14,21 +12,21 @@
     "time_sustainability": "Short"
   },
   "state_invariants": [
-    "Submission technique is fully locked in with proper mechanical advantage established through optimal joint angle or vascular/airway compression, leaving opponent with no viable defensive options remaining",
-    "Opponent has clearly indicated submission through recognized tap signal (hand tap on opponent/mat, verbal submission, or foot tap if hands immobilized), or referee has stopped match due to submission being complete",
-    "Technical control is maintained throughout finish with proper body positioning, grip configuration, and pressure application that prevents escape while ensuring submission effectiveness and safety protocols are followed"
+    "Submission technique is fully locked in with proper mechanical advantage established through optimal joint angle or vascular/airway compression, leaving opponent with no viable defensive options remaining and creating immediate threat of injury or unconsciousness",
+    "Opponent has clearly indicated submission through recognized tap signal (hand tap on opponent/mat, verbal submission, or foot tap if hands immobilized), or referee has stopped match due to submission being complete with opponent unable to defend safely",
+    "Technical control is maintained throughout finish with proper body positioning, grip configuration, and pressure application that prevents escape while ensuring submission effectiveness and safety protocols are followed with gradual pressure buildup allowing adequate time for tap recognition"
   ],
   "prerequisites": [
-    "Successful establishment of submission control position with proper mechanics",
-    "Opponent's defensive options have been systematically eliminated or bypassed",
-    "Proper technique execution with adequate control to prevent escape",
-    "Opponent recognizes inability to escape and chooses to submit",
-    "Clear communication of submission through recognized tap protocols"
+    "Successful establishment of submission control position with proper mechanics and leverage",
+    "Opponent's defensive options have been systematically eliminated or bypassed through superior positioning",
+    "Proper technique execution with adequate control to prevent escape during submission application",
+    "Opponent recognizes inability to escape and chooses to submit to prevent injury",
+    "Clear communication of submission through recognized tap protocols with immediate recognition"
   ],
   "key_principles": [
     "Technical precision in submission mechanics with proper joint alignment or choke application ensures finish while maintaining safety",
     "Control position must be maintained throughout submission attempt to prevent escape and ensure effectiveness",
-    "Gradual pressure application allows opponent time to recognize submission and tap safely",
+    "Gradual pressure application allows opponent time to recognize submission and tap safely without explosive force",
     "Recognition of tap signals is immediate and mandatory - release submission instantly upon any tap indication",
     "Safety protocols are paramount - never apply submissions explosively or refuse to release after tap",
     "Understanding of proper finish mechanics for each submission type ensures effectiveness and safety",
@@ -37,7 +35,7 @@
   "offensive_transitions": [
     {
       "technique": "Match Victory Acknowledgement",
-      "target_position": "Neutral Starting Position",
+      "target_position": "Standing Position",
       "success_rates": {
         "beginner": 100,
         "intermediate": 100,
@@ -46,7 +44,7 @@
     },
     {
       "technique": "Position Reset for Training",
-      "target_position": "Neutral Starting Position",
+      "target_position": "Standing Position",
       "success_rates": {
         "beginner": 100,
         "intermediate": 100,
@@ -55,7 +53,7 @@
     },
     {
       "technique": "Technical Discussion",
-      "target_position": "Neutral Starting Position",
+      "target_position": "Standing Position",
       "success_rates": {
         "beginner": 100,
         "intermediate": 100,
@@ -64,7 +62,7 @@
     },
     {
       "technique": "Continue Rolling from Reset",
-      "target_position": "Neutral Starting Position",
+      "target_position": "Standing Position",
       "success_rates": {
         "beginner": 95,
         "intermediate": 98,
@@ -73,7 +71,7 @@
     },
     {
       "technique": "Review Submission Mechanics",
-      "target_position": "Neutral Starting Position",
+      "target_position": "Standing Position",
       "success_rates": {
         "beginner": 90,
         "intermediate": 95,
@@ -82,7 +80,7 @@
     },
     {
       "technique": "Partner Safety Check",
-      "target_position": "Neutral Starting Position",
+      "target_position": "Standing Position",
       "success_rates": {
         "beginner": 100,
         "intermediate": 100,
@@ -93,27 +91,27 @@
   "defensive_responses": [
     {
       "technique": "Acknowledge Submission",
-      "target_position": "Neutral Starting Position"
+      "target_position": "Standing Position"
     },
     {
       "technique": "Reset to Starting Position",
-      "target_position": "Neutral Starting Position"
+      "target_position": "Standing Position"
     },
     {
       "technique": "Request Technical Explanation",
-      "target_position": "Neutral Starting Position"
+      "target_position": "Standing Position"
     }
   ],
   "counter_transitions": [
     {
       "technique": "Immediate Release Protocol",
-      "target_position": "Neutral Starting Position",
-      "trigger": "Any tap signal detected from opponent"
+      "target_position": "Standing Position",
+      "trigger": "Any tap signal detected from opponent including hand tap, foot tap, or verbal submission"
     },
     {
       "technique": "Position Maintenance After Release",
-      "target_position": "Neutral Starting Position",
-      "trigger": "Training partner requests to review submission mechanics"
+      "target_position": "Standing Position",
+      "trigger": "Training partner requests to review submission mechanics or restart from standing"
     }
   ],
   "decision_tree": [
@@ -122,7 +120,7 @@
       "actions": [
         {
           "technique": "Immediate Submission Release",
-          "target": "Neutral Starting Position",
+          "target": "Standing Position",
           "probability": 100
         }
       ]
@@ -132,7 +130,7 @@
       "actions": [
         {
           "technique": "Release Submission Immediately",
-          "target": "Neutral Starting Position",
+          "target": "Standing Position",
           "probability": 100
         }
       ]
@@ -142,7 +140,7 @@
       "actions": [
         {
           "technique": "Emergency Release Protocol",
-          "target": "Neutral Starting Position",
+          "target": "Standing Position",
           "probability": 100
         }
       ]
@@ -152,7 +150,7 @@
       "actions": [
         {
           "technique": "Technical Discussion and Demonstration",
-          "target": "Neutral Starting Position",
+          "target": "Standing Position",
           "probability": 95
         }
       ]
@@ -215,73 +213,81 @@
   "optimal_submission_paths": [
     {
       "name": "Back Control to RNC Path",
-      "path": "Back Control Top → Seat Belt Control Back Top → Rear Naked Choke → Won by Submission"
+      "path": "Back Control → Seat Belt Control Back → Rear Naked Choke → Won by Submission"
     },
     {
       "name": "Mount to Armbar Path",
-      "path": "Mount Top → High Mount Top → Armbar Control Top → Armbar Finish → Won by Submission"
+      "path": "Mount → High Mount → Armbar Control → Armbar from Mount → Won by Submission"
     },
     {
       "name": "Closed Guard to Triangle Path",
-      "path": "Closed Guard Bottom → Triangle Control Bottom → Triangle Choke → Won by Submission"
+      "path": "Closed Guard → Triangle Control → Triangle from Closed Guard → Won by Submission"
     },
     {
       "name": "Side Control to Kimura Path",
-      "path": "Side Control Top → Kimura Control Top → Kimura → Won by Submission"
+      "path": "Side Control → Kimura Control → Kimura from Side Control → Won by Submission"
     },
     {
       "name": "Turtle to Darce Path",
-      "path": "Turtle Top → Darce Control Top → Darce Choke → Won by Submission"
+      "path": "Turtle → D'arce Control → Darce Choke → Won by Submission"
     },
     {
       "name": "Ashi Garami to Heel Hook Path",
-      "path": "Ashi Garami Top → Saddle Position Top → Heel Hook → Won by Submission"
+      "path": "Ashi Garami → Saddle → Heel Hook → Won by Submission"
     },
     {
       "name": "Guard to Omoplata Path",
-      "path": "Closed Guard Bottom → Omoplata Control Bottom → Omoplata → Won by Submission"
+      "path": "Closed Guard → Omoplata Control → Omoplata from Guard → Won by Submission"
     }
   ],
   "related_content": [
     {
       "name": "Rear Naked Choke",
-      "relationship": "Most common submission finish from back control"
+      "relationship": "Most common submission finish from back control positions"
     },
     {
       "name": "Triangle Choke",
       "relationship": "High-percentage submission from guard positions"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Fundamental submission from multiple positions"
+      "name": "Armbar from Mount",
+      "relationship": "Fundamental submission from dominant top position"
     },
     {
       "name": "Kimura",
-      "relationship": "Versatile submission available from many positions"
+      "relationship": "Versatile submission available from multiple control positions"
     },
     {
       "name": "Heel Hook",
       "relationship": "Modern leg lock submission requiring advanced safety awareness"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "relationship": "Highest percentage position for submission finishes"
     },
     {
-      "name": "Mount Top",
-      "relationship": "Dominant position with multiple submission paths"
+      "name": "Mount",
+      "relationship": "Dominant position with multiple submission attack paths"
     },
     {
-      "name": "Triangle Control Bottom",
-      "relationship": "Control position leading to triangle submission"
-    },
-    {
-      "name": "Submission Position Generic",
-      "relationship": "General category encompassing all submission control states"
+      "name": "Triangle Control",
+      "relationship": "Control position leading to triangle choke submission"
     },
     {
       "name": "Lost by Submission",
       "relationship": "Opposing terminal state from defender's perspective"
+    },
+    {
+      "name": "Guillotine Choke",
+      "relationship": "Common submission finish from front headlock control"
+    },
+    {
+      "name": "Armbar from Guard",
+      "relationship": "Classic submission from bottom position guard control"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Controlling position with multiple submission transitions"
     }
   ],
   "position_metrics": {

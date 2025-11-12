@@ -1,23 +1,23 @@
 {
-  "metadata": {
-    "title": "Morote Seoi Nage | BJJ Technique | BJJ Graph",
-    "description": "Learn Morote Seoi Nage in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 50%, Advanced 75%.",
-    "transition_id": "T231",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "judo",
-      "throw",
-      "standing"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Morote Seoi Nage",
+  "description": "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw from standing to side control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "judo",
+    "throw",
+    "standing",
+    "technique",
+    "gi",
+    "shoulder-throw"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo technique that has proven highly effective in Brazilian Jiu-Jitsu competition and self-defense scenarios. Unlike the single-handed Ippon Seoi Nage, this variation maintains grips on both sleeves or wrists throughout the throw, providing superior control and reducing the opponent's ability to counter. The technique exploits forward momentum or pressure, using a rotating entry to load the opponent onto your back before executing an explosive forward projection. This throw is particularly effective in gi competition where sleeve control is paramount, and it transitions seamlessly into dominant top positions like side control or mount. The Morote Seoi Nage requires precise timing, strong hip positioning, and excellent kuzushi (off-balancing) to execute successfully against resisting opponents. When mastered, it becomes a high-percentage technique that can score immediate points in competition while establishing superior position for submission attacks or control.",
   "key_principles": [
@@ -242,7 +242,7 @@
       "relationship": "Backup - alternative when opponent defends throw"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Follow-up - primary landing position after successful throw"
     },
     {
@@ -254,8 +254,24 @@
       "relationship": "Combination - sweeping hip throw that creates tactical uncertainty"
     },
     {
-      "name": "Double Leg Entry",
+      "name": "Double leg takedown",
       "relationship": "Alternative - contrasting attack that exploits different defensive reactions"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Follow-up - backup position if opponent posts during throw"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Follow-up - control position if opponent defends by posting"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Follow-up - high-value position option after throw"
+    },
+    {
+      "name": "Seoi Nage",
+      "relationship": "Parent - general family of shoulder throws"
     }
   ],
   "expert_insights": {

@@ -1,23 +1,22 @@
 {
-  "metadata": {
-    "title": "Omoplata to Sweep | BJJ Technique | BJJ Graph",
-    "description": "Learn Omoplata to Sweep transition in BJJ. Step-by-step execution from Omoplata Control to Mount/Top Position. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T156",
-    "tags": [
-      "bjj",
-      "transition",
-      "sweep",
-      "omoplata",
-      "guard",
-      "intermediate"
-    ],
-    "starting_position": "Omoplata Control Bottom",
-    "ending_position": "Mount Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Omoplata to Sweep",
+  "description": "Learn the Omoplata to Sweep transition in BJJ. Step-by-step execution from Omoplata Control to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "omoplata",
+    "guard",
+    "intermediate",
+    "attack",
+    "position-reversal"
+  ],
+  "starting_position": "Omoplata Control",
+  "ending_position": "Mount",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Omoplata to Sweep is a fundamental transition that capitalizes on your opponent's defensive reactions to the omoplata shoulder lock. When executing an omoplata from guard, opponents frequently defend by rolling forward or posting their free hand to relieve pressure on the trapped shoulder. This defensive response creates an immediate sweeping opportunity where you can use their momentum and compromised base to reverse position and achieve top control. The technique demonstrates the principle of creating offensive dilemmas - your opponent must choose between defending the submission and maintaining positional stability, and either choice creates attacking opportunities for you. This sweep is particularly effective because it maintains offensive pressure throughout the transition, never allowing your opponent to recover their guard or escape the engagement. The movement flows naturally from the omoplata setup and requires minimal additional energy expenditure, making it an essential component of any complete guard attack system.",
   "key_principles": [
@@ -262,11 +261,11 @@
       "relationship": "Complementary attack creating guard offensive system"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "relationship": "Primary ending position after successful sweep"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "relationship": "Alternative ending position if opponent rolls through"
     },
     {

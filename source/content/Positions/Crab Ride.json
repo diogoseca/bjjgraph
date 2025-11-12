@@ -1,378 +1,9 @@
 {
-  "metadata": {
-    "title": "Crab Ride Bottom | BJJ Position Guide | BJJ Graph",
-    "description": "Master Crab Ride Bottom position in BJJ. Control from turtle with hooks and back attacks. Defensive position with 45% escape rate and transition opportunities.",
-    "state_id": "S156",
-    "tags": ["bjj", "position", "turtle", "defensive", "back-control", "wrestling"],
-    "parent_variant": "Crab Ride",
-    "sibling_variants": ["Crab Ride Top"]
-  },
-
-  "overview": "Crab Ride Bottom is a defensive position where you find yourself on all fours in turtle position while your opponent has established a one-sided back control with hooks and upper body control. This position is common in wrestling-based grappling and represents a critical juncture where the bottom player must defend against back takes while seeking opportunities to escape or counter. The position gets its name from the crab-like configuration of the top player's body as they wrap around the bottom player's side with asymmetric hook control.\n\nFrom the bottom perspective, Crab Ride is a high-pressure defensive position that requires immediate action. Unlike traditional turtle where both players may be relatively static, Crab Ride Bottom involves dynamic movement as the top player actively works to complete the back take or advance to other controlling positions. The bottom player's primary objectives are to prevent the second hook from being inserted, strip the existing hook, and create separation to escape or re-guard. Understanding the mechanics of hook removal and hip positioning is essential for survival in this position.\n\nStrategically, Crab Ride Bottom is often a transitional state rather than a sustainable position. The bottom player must balance defensive priorities - protecting the neck from chokes, preventing the second hook, and maintaining base to avoid being flattened. Successful defense requires combining technical precision with explosive movement, as small windows of opportunity emerge when the top player adjusts their grips or shifts weight to improve position. Advanced practitioners can even counter-attack from this seemingly disadvantageous position, using the top player's commitment to the ride as an opportunity for reversals or leg attacks.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive",
-    "risk_level": "High",
-    "energy_cost": "High",
-    "time_sustainability": "Short"
-  },
-
-  "state_invariants": [
-    "Bottom player on hands and knees in turtle/quadruped position with weight distributed through both arms and legs, maintaining defensive ball-up posture with chin tucked and elbows tight to prevent space for attacks",
-    "Top player has one hook (typically inside hook) inserted on one side with foot crossed over bottom player's thigh or wrapped around leg, while maintaining chest-to-back pressure and upper body control through collar ties, overhooks, or seatbelt grip",
-    "Top player's body positioned asymmetrically on one side of bottom player, creating the characteristic 'crab' shape with one leg hooking while the other leg posts for base and leverage to complete back take or maintain control"
-  ],
-
-  "prerequisites": [
-    "Bottom player has entered turtle position from guard pass defense, takedown defense, or failed guard pull",
-    "Top player has established initial hook insertion from turtle top position",
-    "Top player has secured upper body control through grips on collar, belt, or body",
-    "Bottom player's base has been partially compromised but not yet fully broken"
-  ],
-
-  "key_principles": [
-    "Keep weight distributed on all four points (hands and knees) to maintain base and prevent being flattened to mat",
-    "Immediately address the inserted hook by clearing it or preventing second hook insertion",
-    "Protect the neck by keeping chin tucked and maintaining tight defensive posture",
-    "Use explosive hip movement and direction changes to create separation and disrupt top player's balance",
-    "Time defensive movements with top player's grip changes and weight shifts to maximize escape opportunities",
-    "Maintain awareness of choke threats while prioritizing positional defense to prevent full back control",
-    "Create frames with elbows and shoulders to prevent top player from consolidating control"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Hip Escape",
-      "target_position": "Turtle Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Closed Guard Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Standing up in Base",
-      "target_position": "Standing Position",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Sit Through Escape",
-      "target_position": "Half Guard Bottom",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
-    },
-    {
-      "technique": "Rolling Back Take",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35
-      }
-    },
-    {
-      "technique": "Hook Strip to Re-Guard",
-      "target_position": "Butterfly Guard Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Crab Ride to Back",
-      "target_position": "Back Control Top",
-      "success_rate": 55
-    },
-    {
-      "technique": "Truck Entry",
-      "target_position": "Truck Top Position",
-      "success_rate": 35
-    },
-    {
-      "technique": "Crucifix from Turtle",
-      "target_position": "Crucifix Top Position",
-      "success_rate": 30
-    },
-    {
-      "technique": "Twister Lock Setup",
-      "target_position": "Twister Control Top",
-      "success_rate": 25
-    },
-    {
-      "technique": "Darce from Turtle",
-      "target_position": "Darce Control Top Position",
-      "success_rate": 40
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Hook Strip Counter",
-      "target_position": "Turtle Bottom",
-      "trigger": "When opponent attempts to insert second hook, strip the first hook using hand or leg and return to neutral turtle"
-    },
-    {
-      "technique": "Explosive Sit Through",
-      "target_position": "Half Guard Bottom",
-      "trigger": "When opponent lifts hips to complete back take, explosively sit through to face opponent and establish half guard"
-    },
-    {
-      "technique": "Forward Roll Escape",
-      "target_position": "Closed Guard Bottom",
-      "trigger": "When opponent overcommits weight forward trying to flatten you, roll forward and invert to recover guard"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent has only one hook and is trying to insert second hook",
-      "actions": [
-        {
-          "technique": "Hip Escape",
-          "target": "Turtle Bottom",
-          "probability": 45
-        },
-        {
-          "technique": "Hook Strip to Re-Guard",
-          "target": "Butterfly Guard Bottom",
-          "probability": 35
-        }
-      ]
-    },
-    {
-      "condition": "If opponent has strong upper body control and is breaking you down",
-      "actions": [
-        {
-          "technique": "Granby Roll",
-          "target": "Closed Guard Bottom",
-          "probability": 40
-        },
-        {
-          "technique": "Forward Roll Escape",
-          "target": "Closed Guard Bottom",
-          "probability": 30
-        }
-      ]
-    },
-    {
-      "condition": "If opponent is high on your back with loose hook control",
-      "actions": [
-        {
-          "technique": "Standing up in Base",
-          "target": "Standing Position",
-          "probability": 50
-        },
-        {
-          "technique": "Rolling Back Take",
-          "target": "Back Control Top",
-          "probability": 25
-        }
-      ]
-    },
-    {
-      "condition": "If opponent commits weight to one side for truck entry",
-      "actions": [
-        {
-          "technique": "Sit Through Escape",
-          "target": "Half Guard Bottom",
-          "probability": 45
-        },
-        {
-          "technique": "Explosive Hip Movement",
-          "target": "Turtle Bottom",
-          "probability": 35
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Staying static in turtle position without addressing the hook",
-      "consequence": "Allows top player time to consolidate control, insert second hook, and complete back take with minimal resistance",
-      "correction": "Immediately work to strip the hook or create separation through explosive movement - never remain passive in this position"
-    },
-    {
-      "error": "Exposing the neck while trying to escape",
-      "consequence": "Opens up rear naked choke or other neck attacks even if escape is partially successful",
-      "correction": "Keep chin tucked throughout all escape attempts and protect neck with hands before attempting explosive movements"
-    },
-    {
-      "error": "Allowing base to be broken and getting flattened to stomach",
-      "consequence": "Transitions to full back control or mount position with greatly reduced escape options",
-      "correction": "Maintain strong posting with at least one arm and one leg, use explosive hip movements before being completely flattened"
-    },
-    {
-      "error": "Reaching back for opponent's leg without controlling their upper body first",
-      "consequence": "Creates space for opponent to advance position or secure choke as you lose defensive structure",
-      "correction": "Secure opponent's hands or create frames before attempting hook removal, ensuring neck safety throughout"
-    },
-    {
-      "error": "Moving predictably in same direction repeatedly",
-      "consequence": "Opponent anticipates movement and times their attacks or position advancement accordingly",
-      "correction": "Change directions unpredictably, combining forward, backward, and lateral movements to keep opponent reactive"
-    },
-    {
-      "error": "Giving up too quickly and accepting back control",
-      "consequence": "Misses opportunities to escape during transitional moments when top player is adjusting position",
-      "correction": "Continue fighting through the position with persistent explosive movements and technical escapes until fully controlled"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Hook Strip Repetitions",
-      "description": "Partner establishes crab ride with one hook, bottom player practices stripping the hook using various grips and movements. Reset after each successful strip. Focus on maintaining defensive posture while addressing the hook.",
-      "duration": "3 minutes per partner"
-    },
-    {
-      "name": "Turtle to Guard Transitions Under Pressure",
-      "description": "Starting from crab ride bottom, practice granby rolls, sit-throughs, and forward rolls to recover guard position. Partner applies progressive resistance. Emphasize explosive hip movement and timing.",
-      "duration": "5 minutes per partner"
-    },
-    {
-      "name": "Positional Sparring from Crab Ride",
-      "description": "Start in crab ride bottom position, bottom player works for 90 seconds to escape to neutral or better position. Top player works to complete back take. Reset if either goal is achieved. Track success rate.",
-      "duration": "10 x 90-second rounds"
-    },
-    {
-      "name": "Defensive Movement Flow",
-      "description": "Bottom player flows through all escape options (hip escape, granby, stand up, sit through) while partner maintains crab ride control at 50% intensity. Focus on smooth transitions between escape attempts.",
-      "duration": "4 minutes continuous"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Escape to Safety Path",
-      "path": "Crab Ride Bottom → Hip Escape → Turtle Bottom → Technical Stand-up → Standing Position (Neutral)"
-    },
-    {
-      "name": "Counter-Attack Path",
-      "path": "Crab Ride Bottom → Rolling Back Take → Back Control Top → Rear Naked Choke"
-    },
-    {
-      "name": "Guard Recovery Path",
-      "path": "Crab Ride Bottom → Granby Roll → Closed Guard Bottom → Triangle Setup → Triangle Choke"
-    },
-    {
-      "name": "Wrestling Escape Path",
-      "path": "Crab Ride Bottom → Standing up in Base → Standing Rear Clinch Bottom → Hip Escape → Neutral Standing Position"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Crab Ride Top",
-      "relationship": "Sibling variant - opposite perspective of same position"
-    },
-    {
-      "name": "Turtle Bottom",
-      "relationship": "Common entry position - where crab ride is often established from"
-    },
-    {
-      "name": "Back Control Bottom",
-      "relationship": "Primary threat position - what opponent is working toward"
-    },
-    {
-      "name": "Truck Bottom Position",
-      "relationship": "Alternative control position - similar defensive challenges"
-    },
-    {
-      "name": "Granby Roll",
-      "relationship": "Primary escape technique - most common technical solution"
-    },
-    {
-      "name": "Hip Escape",
-      "relationship": "Fundamental escape - basic defensive movement"
-    },
-    {
-      "name": "Rolling Back Take",
-      "relationship": "Counter-attack option - offensive opportunity from defensive position"
-    },
-    {
-      "name": "Rear Naked Choke",
-      "relationship": "Primary submission threat - what to defend against"
-    }
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
-    },
-    "advancement_probability": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 45
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 20
-    },
-    "average_time": "15-30 seconds"
-  },
-
-  "expert_insights": {
-    "danaher": "The crab ride bottom position represents a critical phase in the turtle position hierarchy where defensive priorities must be immediately established. The biomechanical reality is that once the first hook is inserted, you are working against time - the longer you remain in this position, the more likely the top player will consolidate control. The key is understanding the concept of 'hook removal windows' - brief moments when the top player adjusts their grips or shifts weight where the inserted hook becomes vulnerable to stripping. Technically, you must maintain what I call 'structured chaos' - explosive, unpredictable movement that prevents the opponent from settling into their control, while simultaneously maintaining enough structure to protect your neck and prevent being flattened. The granby roll is often the highest percentage escape because it combines direction change, explosive hip movement, and positional inversion in a single technique that is difficult for the top player to counter if timed correctly with their weight shifts.",
-    
-    "gordon_ryan": "From competition experience, I can tell you that staying in crab ride bottom is a losing battle - you need to explode out of it immediately. The best grapplers I've faced in this position never let me get comfortable; they're constantly moving, changing directions, and making it exhausting for me to maintain the ride. What works at the highest level is combining your defensive escapes with constant hand fighting - don't let them get clean grips on your collar or belt because that's what allows them to break you down. I've had success both escaping and attacking from this position depending on how the top player commits their weight. If they're aggressive going for the back take, the granby roll works great. If they're being more conservative, sometimes you can actually counter them with a rolling back take or sit-through to half guard. The key is reading their intentions and timing your explosions for when they're adjusting position - that's when they're most vulnerable.",
-    
-    "eddie_bravo": "Crab ride bottom is where 10th Planet guys need to think outside the box because traditional turtle defense isn't enough against high-level back attackers. What we focus on is the 'Electric Chair mindset' even from bottom - looking for leg entanglements and off-balancing opportunities while defending. One thing that's super effective is when the top guy has that one hook in, you can actually use your leg to trap their hooking leg and create a lockdown-style control, then use that to facilitate your granby or sit-through. It's all about being unpredictable and uncomfortable to ride. We also drill a lot of inverted movements from this position - forward rolls, reverse granby, even cartwheel escapes for the flexible guys. The moment you accept being static in crab ride bottom, you're going to get your back taken or get caught in a twister setup. Keep moving, stay creative, and look for those unconventional escapes that people don't expect."
-  }
-}
-{
-  "metadata": {
-    "title": "Crab Ride | BJJ Position Guide | BJJ Graph",
-    "description": "Master Crab Ride position in BJJ. Complete guide covering back control entries, submissions, and turtle attacks. Transitional position with 60% back take success.",
-    "state_id": "S156",
-    "tags": ["bjj", "position", "crab-ride", "turtle-attack", "back-control", "transitional", "top-position", "control"]
-  },
-  "overview": "Crab Ride is a highly effective transitional position from turtle where the top practitioner establishes a dominant perpendicular control position alongside the opponent's torso. This position serves as a critical gateway to back control, allowing the top player to systematically break down the turtle defense while maintaining offensive pressure. The position derives its name from the crab-like lateral positioning, where the attacking practitioner sits perpendicular to their opponent with hooks established and weight distributed to prevent escape. From this configuration, the top player can attack the back, threaten submissions, or force positional improvements while the bottom player struggles with limited mobility and defensive options.\n\nCrab Ride represents one of the most systematic approaches to attacking turtle, particularly valued in modern no-gi grappling where turtle positions are commonly encountered during scrambles and guard passing sequences. The position allows for excellent control while preserving multiple offensive pathways, creating the type of positional dilemma that forces opponents into defensive errors. Unlike direct back attacks that can be telegraphed, Crab Ride provides a methodical framework for breaking down turtle defense through calculated pressure and strategic hooking.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-  "state_invariants": [
-    "Top practitioner positioned perpendicular to opponent's torso with hips alongside opponent's ribs, creating lateral control angle that prevents forward or backward movement",
-    "Bottom leg hook (near-side hook) inserted under opponent's near hip with foot controlling inside thigh, establishing primary connection point that prevents opponent from sitting to guard",
-    "Top practitioner's chest and shoulder pressure applied to opponent's upper back or shoulder, creating downward force that keeps opponent flattened and unable to posture up",
-    "Opponent remains in defensive turtle position with hands and knees on mat, head tucked, attempting to protect neck and prevent back exposure",
-    "Top practitioner's near-side arm controls opponent's far arm or wraps around torso, establishing upper body control that sets up back take or submission entries"
-  ],
-  "prerequisites": [
-    "Opponent in turtle position (hands and knees on mat)",
-    "Top practitioner has achieved top position alongside turtle",
-    "At least one hook established (typically bottom/near-side hook)",
-    "Upper body control initiated (arm control, overhook, or body lock)",
-    "Weight distributed to prevent opponent's forward or backward movement"
-  ],
+  "name": "Crab Ride",
+  "slug": "crab-ride",
+  "description": "Master Crab Ride position in BJJ. Strategic guide covering turtle attack entries, back control pathways, and submission setups with complete perspective analysis.",
+  "variant_uniqueness": "Perpendicular angle maximizes control leverage",
+  "overview": "Crab Ride is a highly effective transitional position from turtle where the top practitioner establishes a dominant perpendicular control position alongside the opponent's torso. This position serves as a critical gateway to back control, allowing the top player to systematically break down the turtle defense while maintaining offensive pressure. The position derives its name from the crab-like lateral positioning, where the attacking practitioner sits perpendicular to their opponent with hooks established and weight distributed to prevent escape. From this configuration, the top player can attack the back, threaten submissions, or force positional improvements while the bottom player struggles with limited mobility and defensive options.\n\nCrab Ride represents one of the most systematic approaches to attacking turtle, particularly valued in modern no-gi grappling where turtle positions are commonly encountered during scrambles and guard passing sequences. The position allows for excellent control while preserving multiple offensive pathways, creating the type of positional dilemma that forces opponents into defensive errors. Unlike direct back attacks that can be telegraphed, Crab Ride provides a methodical framework for breaking down turtle defense through calculated pressure and strategic hooking.\n\nFrom the defensive perspective, Crab Ride Bottom is a high-pressure situation that requires immediate action and technical precision. The bottom player must balance multiple defensive priorities - protecting the neck from chokes, preventing the second hook from being inserted, and maintaining base to avoid being flattened. Understanding the mechanics of hook removal and hip positioning is essential for survival, as this position often represents a transitional state rather than a sustainable position. Advanced practitioners can even counter-attack from this seemingly disadvantageous position, using the top player's commitment to the ride as an opportunity for reversals or leg attacks.",
   "key_principles": [
     "Maintain perpendicular body angle to opponent's spine, maximizing control leverage while minimizing opponent's escape vectors",
     "Establish bottom hook first as primary control mechanism, using it to prevent opponent from sitting to guard or rolling away",
@@ -382,696 +13,743 @@
     "Use systematic pressure to force opponent into making a choice between defending back exposure and defending submissions",
     "Coordinate hook insertion with upper body control, timing the second hook entry as opponent reacts to initial control"
   ],
-  "offensive_transitions": [
+  "related_positions": [
     {
-      "technique": "Crab Ride to Back",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 75
-      }
+      "name": "Back Control",
+      "relationship": "Primary advancement target from Crab Ride Top"
     },
     {
-      "technique": "Crucifix from Turtle",
-      "target_position": "Crucifix Control Top Position",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
+      "name": "Turtle",
+      "relationship": "Parent position where Crab Ride is established"
     },
     {
-      "technique": "Rolling Back Take",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
+      "name": "Crucifix",
+      "relationship": "Alternative attacking position when opponent extends arms"
     },
     {
-      "technique": "Transition to Truck",
-      "target_position": "Truck Position Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Truck Entry",
-      "target_position": "Truck Position Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Turtle to Guard",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 40
-    },
-    {
-      "technique": "Turtle to Standing",
-      "target_position": "Standing Position",
-      "success_rate": 30
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Guard Recovery Bottom Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Technical Standup",
-      "target_position": "Standing Position",
-      "success_rate": 35
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Back Take Generic",
-      "target_position": "Back Control Top",
-      "trigger": "Opponent attempts to sit to guard, exposing back"
-    },
-    {
-      "technique": "Crucifix from Turtle",
-      "target_position": "Crucifix Control Top Position",
-      "trigger": "Opponent extends far arm to post or frame"
-    },
-    {
-      "technique": "Transition to Truck",
-      "target_position": "Truck Position Top",
-      "trigger": "Opponent turns into you to escape hooks"
-    },
-    {
-      "technique": "Rolling Back Take",
-      "target_position": "Back Control Top",
-      "trigger": "Opponent attempts forward roll or granby escape"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent keeps turtle tight with elbows in and refuses to move",
-      "actions": [
-        {
-          "technique": "Crucifix from Turtle",
-          "target": "Crucifix Control Top Position",
-          "probability": 55
-        },
-        {
-          "technique": "Transition to Truck",
-          "target": "Truck Position Top",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to sit to guard or turn into you",
-      "actions": [
-        {
-          "technique": "Crab Ride to Back",
-          "target": "Back Control Top",
-          "probability": 70
-        },
-        {
-          "technique": "Rolling Back Take",
-          "target": "Back Control Top",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent extends arms to create space or posts hand",
-      "actions": [
-        {
-          "technique": "Crucifix from Turtle",
-          "target": "Crucifix Control Top Position",
-          "probability": 65
-        },
-        {
-          "technique": "Back Take Generic",
-          "target": "Back Control Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to stand or technical standup",
-      "actions": [
-        {
-          "technique": "Crab Ride to Back",
-          "target": "Back Control Top",
-          "probability": 60
-        },
-        {
-          "technique": "Transition to Mount",
-          "target": "Mount Top",
-          "probability": 50
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Sitting too high on opponent's back instead of alongside their torso",
-      "consequence": "Opponent can easily shake you off or roll forward, escaping control and returning to neutral position",
-      "correction": "Maintain perpendicular positioning with hips alongside opponent's ribs, keeping low center of gravity and lateral control angle"
-    },
-    {
-      "error": "Failing to establish bottom hook before attempting top hook",
-      "consequence": "Opponent can sit to guard immediately, preventing back control and forcing you to restart the sequence",
-      "correction": "Always secure bottom hook first as primary anchor point, then work methodically for top hook once base is established"
-    },
-    {
-      "error": "Using only hooks without upper body control",
-      "consequence": "Opponent can hand-fight effectively and maintain defensive turtle, preventing progression to back or submissions",
-      "correction": "Coordinate hook placement with arm control (overhook, body lock, or arm trap) to eliminate defensive frames"
-    },
-    {
-      "error": "Remaining static instead of following opponent's movement",
-      "consequence": "Opponent escapes through dynamic movement while you stay anchored to one position, losing control entirely",
-      "correction": "Stay mobile and reactive, adjusting your position as opponent moves while maintaining hook and pressure connection"
-    },
-    {
-      "error": "Overcommitting to one attack without creating dilemmas",
-      "consequence": "Opponent can focus all defensive energy on one threat, successfully defending and eventually escaping",
-      "correction": "Create multi-layered threats (back, crucifix, truck) that force opponent to choose which attack to defend against"
-    },
-    {
-      "error": "Insufficient chest pressure allowing opponent to posture up",
-      "consequence": "Opponent regains defensive structure and can begin standing up or turning to face you",
-      "correction": "Apply constant downward chest pressure on opponent's upper back/shoulder to keep them flattened and defensive"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Crab Ride Maintenance Drill",
-      "description": "Partner starts in turtle, top person establishes crab ride position with bottom hook. Bottom person attempts various escape directions (sitting to guard, rolling forward, turning in, standing) while top person maintains position for 2-minute rounds. Focus on staying connected through movement.",
-      "duration": "5 rounds of 2 minutes"
-    },
-    {
-      "name": "Hook Entry Sequence Drill",
-      "description": "Starting from side position on turtle, practice systematic hook entry: establish bottom hook, secure upper body control, insert top hook. Reset and repeat 10 times each side, emphasizing smooth coordination between hooks and upper body control.",
-      "duration": "10 repetitions each side"
-    },
-    {
-      "name": "Crab Ride to Back Take Flow Drill",
-      "description": "Start in crab ride, partner gives specific reactions (sitting to guard, staying tight, turning in) and top person finishes appropriate back take variation. Flow through all major pathways with 50% resistance, building muscle memory for reading cues and executing transitions.",
-      "duration": "10 minutes continuous flow"
-    },
-    {
-      "name": "Crucifix vs Back Decision Making Drill",
-      "description": "From crab ride position, partner alternates between keeping arms tight (crucifix opportunity) and leaving back exposed (back take opportunity). Top person must read position and execute correct attack. Develop decision-making speed and pattern recognition.",
-      "duration": "8 minutes alternating scenarios"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest path to rear naked choke",
-      "path": "Crab Ride → Back Control Top (Crab Ride to Back) → Rear Naked Choke"
-    },
-    {
-      "name": "High-percentage crucifix path",
-      "path": "Crab Ride → Crucifix Control Top Position (Crucifix from Turtle) → Choke from Crucifix"
-    },
-    {
-      "name": "Twister submission path",
-      "path": "Crab Ride → Truck Position Top (Transition to Truck) → Twister"
-    },
-    {
-      "name": "Alternative back control path",
-      "path": "Crab Ride → Back Control Top (Rolling Back Take) → Rear Naked Choke"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Turtle Top Position",
-      "relationship": "Parent category - Crab Ride is specific turtle top position"
-    },
-    {
-      "name": "Back Control Top",
-      "relationship": "Primary transition target - most common advancement from Crab Ride"
-    },
-    {
-      "name": "Crucifix Control Top Position",
-      "relationship": "Alternative transition target - when opponent extends arms"
-    },
-    {
-      "name": "Truck Position Top",
-      "relationship": "Variation transition - when opponent turns into hooks"
-    },
-    {
-      "name": "Seat Belt Control Back",
-      "relationship": "Related control position - similar back attack structure"
+      "name": "Truck",
+      "relationship": "Related twister system position with similar control mechanics"
     },
     {
       "name": "Cross Body Ride",
-      "relationship": "Similar position - alternative perpendicular turtle control"
+      "relationship": "Similar perpendicular turtle attack position"
     },
     {
-      "name": "Harness Position",
-      "relationship": "Related back control - shares control principles"
-    },
-    {
-      "name": "Turtle to Back Control",
-      "relationship": "Key transition - primary pathway from this position"
-    },
-    {
-      "name": "Crucifix from Turtle",
-      "relationship": "Common transition - alternative to back when arms extended"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 75
-    },
-    "advancement_probability": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 70
-    },
-    "submission_probability": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
-    },
-    "average_time": "30-90 seconds"
-  },
-  "expert_insights": {
-    "danaher": "The Crab Ride represents one of the most systematically sound approaches to attacking turtle, as it allows you to establish a position of perpendicular control that maximizes your leverage while minimizing the opponent's defensive options. The key to understanding this position lies in recognizing that turtle defense fundamentally relies on four-point base stability and the ability to keep elbows connected to knees. By positioning yourself perpendicular to the opponent's spine and establishing your bottom hook as the primary control mechanism, you create an asymmetric control situation where the opponent must defend multiple threats simultaneously. The brilliance of Crab Ride is that it forces the opponent into a decision-making dilemma: they can either maintain tight defensive structure and risk crucifix or truck attacks, or they can attempt dynamic movement to escape and expose their back in the process. This position should be viewed not as a destination but as a systematic checkpoint on the pathway to back control, where you methodically break down defensive layers through coordinated hook insertion, upper body control, and strategic pressure application.",
-    "gordon_ryan": "In competition, Crab Ride is one of the highest-percentage positions for securing back control against tough turtle defense, especially in no-gi where opponents frequently use turtle as a guard passing counter or scramble position. What makes this position so effective at the elite level is that it gives you multiple high-percentage pathways to advancement - if they stay tight you can crucifix them, if they move you take the back, if they turn in you can truck them. I focus heavily on establishing the bottom hook first because that's your insurance policy against them sitting to guard, which is the most common escape from this position. Once that hook is in, you can be patient and methodical with your upper body control, waiting for them to make a mistake or create an opening. The competition reality is that most people will try to explode out of turtle within 10-15 seconds rather than stay static, so you need to be ready to follow their movement and capitalize on that moment of transition. Against high-level opponents, I often use the threat of the crucifix to bait them into moving, then immediately convert to the back take as they react.",
-    "eddie_bravo": "Crab Ride is all about creating that sideways angle where you're not giving them anything to push against or turn into - you're like a crab sitting next to them controlling their whole world from the side. In the 10th Planet system, we see this position as a major entry point into our truck game and twister attacks, because once you have that perpendicular control with your hooks in, you can start manipulating their spine and creating the twisting motion we're looking for. The innovative approach here is to not think of this as just a back take position but as a submission hunting position in its own right. When I'm coaching this, I emphasize staying loose and mobile rather than rigid and static - you want to be able to flow with their movement and follow them wherever they try to escape, like you're riding a mechanical bull. One thing we do differently is we're not afraid to give up the position temporarily if it means we can roll them into truck or use their escape momentum against them. The creativity comes from recognizing that every direction they try to move opens up a different attack, so you're essentially controlling a choose-your-own-adventure situation where every path leads to them getting submitted or their back taken."
-  }
-}
-{
-  "metadata": {
-    "title": "Crab Ride Top | BJJ Position Guide | BJJ Graph",
-    "description": "Master Crab Ride Top position in BJJ. Complete guide covering back attack control, submission setups, and transitions. Dominant attacking position with 70% back take rate.",
-    "state_id": "S097",
-    "tags": ["bjj", "position", "crab-ride", "top", "back-attack", "turtle-attack", "control", "offensive"],
-    "parent_variant": "Crab Ride",
-    "sibling_variants": ["Crab Ride Bottom"]
-  },
-
-  "overview": "Crab Ride Top is a highly effective attacking position from the turtle, where the top practitioner controls the opponent from the side with a distinctive hook-and-grip configuration. This position creates a perfect platform for back attacks, submissions, and positional transitions while keeping the opponent trapped and unable to effectively defend or escape.\n\nThe position gets its name from the sideways orientation and the characteristic way the attacker 'rides' the opponent's back and hips, similar to how a crab might cling to its prey. The top practitioner typically establishes control with one leg hooking under the opponent's near hip while maintaining upper body control through strategic gripping on the far side. This asymmetrical configuration creates tremendous pressure and limits the bottom player's mobility.\n\nCrab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems taught by experts like Danaher and Garry Tonon.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-
-  "state_invariants": [
-    "Top practitioner positioned on the side of opponent's turtle with hips oriented perpendicular to opponent's spine, maintaining lateral control rather than directly on top",
-    "One leg (typically near leg) hooks under opponent's hip or thigh with foot positioned inside opponent's legs, creating an anchor point for control and preventing forward movement",
-    "Upper body control established through grips on opponent's far side, typically controlling the far arm, shoulder, or collar while maintaining chest pressure against opponent's ribs and shoulder blade",
-    "Opponent remains in defensive turtle position with at least one hand posted on the mat for base, unable to effectively turn toward the attacker or escape laterally due to the hooking leg",
-    "Top practitioner's free leg (far leg) maintains base on the mat with knee and foot positioned for mobility, allowing adjustments and transitions while keeping weight distributed to maintain pressure"
-  ],
-
-  "prerequisites": [
-    "Opponent in bottom turtle position with defensive posture",
-    "Ability to establish side control relative to opponent's turtle",
-    "At least one controlling grip on opponent's body or gi",
-    "Hip positioning that allows for leg insertion under opponent"
-  ],
-
-  "key_principles": [
-    "Maintain perpendicular hip orientation to opponent's spine to maximize control and create attacking angles",
-    "Use the hooking leg as an anchor to control opponent's hip movement and prevent forward or lateral escapes",
-    "Keep chest pressure against opponent's shoulder and ribs to flatten their posture and limit defensive mobility",
-    "Control opponent's far side to prevent them from turning into you and establishing guard",
-    "Stay mobile with your free leg to adjust position and follow opponent's movements",
-    "Create constant attacking threats to keep opponent defensive and reactive",
-    "Transition smoothly between crab ride variations and back attacks based on opponent's defensive reactions"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Crab Ride to Back",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80
-      }
-    },
-    {
-      "technique": "Back Control to Crucifix",
-      "target_position": "Crucifix Position Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Darce from Turtle",
-      "target_position": "Darce Control Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Anaconda from Turtle",
-      "target_position": "Anaconda Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Guillotine from Turtle",
-      "target_position": "Guillotine Control Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Arm Triangle from Turtle",
-      "target_position": "Arm Triangle",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Side Control to Mount",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Turtle to Guard",
-      "target_position": "Guard Recovery Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Turtle to Standing",
-      "target_position": "Standing Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Open Guard Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Technical Standup",
-      "target_position": "Standing Position",
-      "success_rate": 20
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Crab Ride to Back",
-      "target_position": "Back Control Top",
-      "trigger": "Opponent attempts to turn into you or sit through"
-    },
-    {
-      "technique": "Back Control to Crucifix",
-      "target_position": "Crucifix Position Top",
-      "trigger": "Opponent extends far arm to defend neck or post"
-    },
-    {
-      "technique": "Darce from Turtle",
-      "target_position": "Darce Control Position",
-      "trigger": "Opponent tucks chin and brings head down defensively"
-    },
-    {
-      "technique": "Anaconda from Turtle",
-      "target_position": "Anaconda Control Top",
-      "trigger": "Opponent drives forward or attempts to circle away"
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "trigger": "Opponent flattens out completely or rolls to back"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent keeps strong turtle posture with head up and elbows tight",
-      "actions": [
-        {
-          "technique": "Crab Ride to Back",
-          "target": "Back Control Top",
-          "probability": 70
-        },
-        {
-          "technique": "Back Control to Crucifix",
-          "target": "Crucifix Position Top",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent drops head down and tucks chin defensively",
-      "actions": [
-        {
-          "technique": "Darce from Turtle",
-          "target": "Darce Control Position",
-          "probability": 65
-        },
-        {
-          "technique": "Anaconda from Turtle",
-          "target": "Anaconda Control Top",
-          "probability": 65
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to turn into you or sit through",
-      "actions": [
-        {
-          "technique": "Crab Ride to Back",
-          "target": "Back Control Top",
-          "probability": 75
-        },
-        {
-          "technique": "Guillotine from Turtle",
-          "target": "Guillotine Control Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent flattens out completely or rolls to their back",
-      "actions": [
-        {
-          "technique": "Transition to Mount",
-          "target": "Mount Top",
-          "probability": 80
-        },
-        {
-          "technique": "Side Control to Mount",
-          "target": "Side Control Top",
-          "probability": 75
-        }
-      ]
-    },
-    {
-      "condition": "If opponent extends far arm to post or defend neck",
-      "actions": [
-        {
-          "technique": "Back Control to Crucifix",
-          "target": "Crucifix Position Top",
-          "probability": 70
-        },
-        {
-          "technique": "Arm Triangle from Turtle",
-          "target": "Arm Triangle",
-          "probability": 55
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Positioning too far forward over opponent's shoulders instead of staying perpendicular to the spine",
-      "consequence": "Allows opponent to sit through and establish guard, or enables them to turn into you and escape",
-      "correction": "Keep hips oriented perpendicular to opponent's spine with weight distributed laterally across their shoulder and ribs, maintaining the characteristic sideways crab position"
-    },
-    {
-      "error": "Failing to maintain constant pressure with chest against opponent's shoulder and ribs",
-      "consequence": "Opponent can regain strong turtle posture, create space to escape, or turn into you effectively",
-      "correction": "Drive chest pressure continuously into opponent's shoulder blade and ribs to keep them flattened and defensive, using your body weight rather than arm strength"
-    },
-    {
-      "error": "Allowing the hooking leg to become passive or losing the hip anchor",
-      "consequence": "Opponent can easily move forward, circle away, or create the space needed to escape or recover guard",
-      "correction": "Actively maintain the leg hook under opponent's hip with your foot positioned inside their legs, using it as an anchor to control their movement and create attacking opportunities"
-    },
-    {
-      "error": "Gripping only the near side instead of controlling the far side of opponent's body",
-      "consequence": "Opponent can turn toward you more easily, establish defensive frames, or escape to guard without significant resistance",
-      "correction": "Focus control on opponent's far side through grips on far arm, far shoulder, or far collar to prevent them from turning into you and to set up back attacks"
-    },
-    {
-      "error": "Keeping too much weight on the free leg instead of committing to the position",
-      "consequence": "Reduces pressure on opponent and makes your position unstable, allowing easier escapes and reducing attacking effectiveness",
-      "correction": "Shift majority of weight onto opponent while keeping free leg mobile for adjustments, balancing control with the ability to transition smoothly"
-    },
-    {
-      "error": "Staying static without creating attacking threats or advancing position",
-      "consequence": "Allows opponent time to strengthen their defensive turtle posture, plan escapes, and potentially create scrambling opportunities",
-      "correction": "Constantly threaten back takes, submissions, and positional advances to keep opponent reactive and defensive, never allowing them to settle into stable turtle"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Crab Ride Establishment Drill",
-      "description": "Partner starts in turtle with moderate resistance. Practitioner works to establish proper crab ride position from various starting points (standing behind turtle, side of turtle, after failed guard pass). Focus on getting perpendicular hip orientation, inserting the hooking leg correctly, and establishing far side control. Partner gradually increases resistance as practitioner improves.",
-      "duration": "5 minutes per partner"
-    },
-    {
-      "name": "Back Take Flow Drill",
-      "description": "Starting from established crab ride, practitioner flows between different back attack entries while partner maintains defensive turtle. Practice inserting hooks, establishing seat belt control, and adjusting body position. Partner can defend moderately but should not attempt full escapes. Focus on smooth transitions and maintaining control throughout the sequence.",
-      "duration": "5 minutes per partner"
-    },
-    {
-      "name": "Submission Chain Drill",
-      "description": "From crab ride position, practice flowing between darce, anaconda, guillotine, and arm triangle setups based on partner's defensive reactions. Partner defends realistically but taps early. Emphasize recognizing which submission is available based on head position, arm placement, and body orientation. Build muscle memory for submission entries from this position.",
-      "duration": "5 minutes per partner"
-    },
-    {
-      "name": "Positional Sparring: Crab Ride vs Turtle Escape",
-      "description": "Top player starts in crab ride position and works to maintain control while advancing to back or submission. Bottom player works to escape to guard, standing, or create scrambles. Reset when either player achieves their goal. Track success rate for both players and adjust resistance level as needed.",
-      "duration": "3-minute rounds, multiple rounds"
-    },
-    {
-      "name": "Crab Ride Reaction Drill",
-      "description": "Partner in turtle randomly performs different defensive actions (turning in, sitting through, driving forward, flattening out). Practitioner must react with appropriate counter-transitions from the decision tree. Coach calls out defensive actions or allows partner to choose. Build automatic responses to common turtle escape attempts.",
-      "duration": "5 minutes per partner"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Highest percentage path to submission",
-      "path": "Crab Ride Top → Back Control Top → Rear Naked Choke (65% overall success for advanced practitioners)"
-    },
-    {
-      "name": "Fastest path to submission",
-      "path": "Crab Ride Top → Darce Choke (can finish in 8-12 seconds with proper setup)"
-    },
-    {
-      "name": "No-gi specialist path",
-      "path": "Crab Ride Top → Crucifix Position Top → Rear Naked Choke or arm isolation submissions"
-    },
-    {
-      "name": "Gi-specific path",
-      "path": "Crab Ride Top → Bow and Arrow Choke (uses collar grips established during crab ride)"
-    },
-    {
-      "name": "MMA application path",
-      "path": "Crab Ride Top → Back Control Top → Rear Naked Choke (most reliable in MMA context with strikes)"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Crab Ride Bottom",
-      "relationship": "Opposing perspective of same position"
-    },
-    {
-      "name": "Back Control Top",
-      "relationship": "Primary advancement target"
-    },
-    {
-      "name": "Turtle Top Position",
-      "relationship": "Parent position category"
-    },
-    {
-      "name": "Crucifix Position Top",
-      "relationship": "Common transition target"
-    },
-    {
-      "name": "Cross Body Ride Top",
-      "relationship": "Similar turtle attack position"
-    },
-    {
-      "name": "Rodeo Ride Top Position",
+      "name": "Rodeo Ride",
       "relationship": "Alternative turtle control variation"
     },
     {
-      "name": "Darce Control Position",
-      "relationship": "Direct submission target from this position"
+      "name": "Harness",
+      "relationship": "Related back attack structure with hook control"
     },
     {
-      "name": "Anaconda Control Top",
-      "relationship": "Direct submission target from this position"
+      "name": "Gift Wrap",
+      "relationship": "Related control position for back attacks"
     },
     {
-      "name": "Back Attack System",
-      "relationship": "Strategic framework using crab ride as entry"
+      "name": "Front Headlock",
+      "relationship": "Alternative turtle attack position"
     }
   ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 80
+  "bottom": {
+    "name": "Crab Ride Bottom",
+    "description": "Master Crab Ride Bottom defense in BJJ. Complete guide covering hook stripping, explosive escapes, and counter-attacks. High-pressure defensive position requiring immediate action.",
+    "tags": ["bjj", "position", "crab-ride", "bottom", "defensive", "turtle", "escape", "wrestling"],
+    "overview": "Crab Ride Bottom is a defensive position where you find yourself on all fours in turtle position while your opponent has established a one-sided back control with hooks and upper body control. This position is common in wrestling-based grappling and represents a critical juncture where the bottom player must defend against back takes while seeking opportunities to escape or counter. The position gets its name from the crab-like configuration of the top player's body as they wrap around the bottom player's side with asymmetric hook control.\n\nFrom the bottom perspective, Crab Ride is a high-pressure defensive position that requires immediate action. Unlike traditional turtle where both players may be relatively static, Crab Ride Bottom involves dynamic movement as the top player actively works to complete the back take or advance to other controlling positions. The bottom player's primary objectives are to prevent the second hook from being inserted, strip the existing hook, and create separation to escape or re-guard. Understanding the mechanics of hook removal and hip positioning is essential for survival in this position.\n\nStrategically, Crab Ride Bottom is often a transitional state rather than a sustainable position. The bottom player must balance defensive priorities - protecting the neck from chokes, preventing the second hook, and maintaining base to avoid being flattened. Successful defense requires combining technical precision with explosive movement, as small windows of opportunity emerge when the top player adjusts their grips or shifts weight to improve position. Advanced practitioners can even counter-attack from this seemingly disadvantageous position, using the top player's commitment to the ride as an opportunity for reversals or leg attacks.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
     },
-    "advancement_probability": {
-      "beginner": 55,
-      "intermediate": 70,
-      "advanced": 85
+    "state_invariants": [
+      "Bottom player on hands and knees in turtle/quadruped position with weight distributed through both arms and legs, maintaining defensive ball-up posture with chin tucked and elbows tight to prevent space for attacks",
+      "Top player has one hook (typically inside hook) inserted on one side with foot crossed over bottom player's thigh or wrapped around leg, while maintaining chest-to-back pressure and upper body control through collar ties, overhooks, or seatbelt grip",
+      "Top player's body positioned asymmetrically on one side of bottom player, creating the characteristic 'crab' shape with one leg hooking while the other leg posts for base and leverage to complete back take or maintain control"
+    ],
+    "prerequisites": [
+      "Bottom player has entered turtle position from guard pass defense, takedown defense, or failed guard pull",
+      "Top player has established initial hook insertion from turtle top position",
+      "Top player has secured upper body control through grips on collar, belt, or body",
+      "Bottom player's base has been partially compromised but not yet fully broken"
+    ],
+    "key_principles": [
+      "Keep weight distributed on all four points (hands and knees) to maintain base and prevent being flattened to mat",
+      "Immediately address the inserted hook by clearing it or preventing second hook insertion",
+      "Protect the neck by keeping chin tucked and maintaining tight defensive posture",
+      "Use explosive hip movement and direction changes to create separation and disrupt top player's balance",
+      "Time defensive movements with top player's grip changes and weight shifts to maximize escape opportunities",
+      "Maintain awareness of choke threats while prioritizing positional defense to prevent full back control",
+      "Create frames with elbows and shoulders to prevent top player from consolidating control"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Hip Escape",
+        "target_position": "Turtle",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Granby Roll",
+        "target_position": "Closed Guard",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Standing up in Base",
+        "target_position": "Standing Position",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Sit Through Escape",
+        "target_position": "Half Guard",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
+      },
+      {
+        "technique": "Rolling Back Take",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 10,
+          "intermediate": 20,
+          "advanced": 35
+        }
+      },
+      {
+        "technique": "Hook Strip to Re-Guard",
+        "target_position": "Butterfly Guard",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Crab Ride to Back",
+        "target_position": "Back Control",
+        "success_rate": 55
+      },
+      {
+        "technique": "Truck Entry",
+        "target_position": "Truck",
+        "success_rate": 35
+      },
+      {
+        "technique": "Crucifix from Turtle",
+        "target_position": "Crucifix",
+        "success_rate": 30
+      },
+      {
+        "technique": "Twister Lock Setup",
+        "target_position": "Twister Control",
+        "success_rate": 25
+      },
+      {
+        "technique": "Darce from Turtle",
+        "target_position": "D'arce Control",
+        "success_rate": 40
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Hook Strip Counter",
+        "target_position": "Turtle",
+        "trigger": "When opponent attempts to insert second hook, strip the first hook using hand or leg and return to neutral turtle"
+      },
+      {
+        "technique": "Explosive Sit Through",
+        "target_position": "Half Guard",
+        "trigger": "When opponent lifts hips to complete back take, explosively sit through to face opponent and establish half guard"
+      },
+      {
+        "technique": "Forward Roll Escape",
+        "target_position": "Closed Guard",
+        "trigger": "When opponent overcommits weight forward trying to flatten you, roll forward and invert to recover guard"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has only one hook and is trying to insert second hook",
+        "actions": [
+          {
+            "technique": "Hip Escape",
+            "target": "Turtle",
+            "probability": 45
+          },
+          {
+            "technique": "Hook Strip to Re-Guard",
+            "target": "Butterfly Guard",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has strong upper body control and is breaking you down",
+        "actions": [
+          {
+            "technique": "Granby Roll",
+            "target": "Closed Guard",
+            "probability": 40
+          },
+          {
+            "technique": "Forward Roll Escape",
+            "target": "Closed Guard",
+            "probability": 30
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is high on your back with loose hook control",
+        "actions": [
+          {
+            "technique": "Standing up in Base",
+            "target": "Standing Position",
+            "probability": 50
+          },
+          {
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
+            "probability": 25
+          }
+        ]
+      },
+      {
+        "condition": "If opponent commits weight to one side for truck entry",
+        "actions": [
+          {
+            "technique": "Sit Through Escape",
+            "target": "Half Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Explosive Hip Movement",
+            "target": "Turtle",
+            "probability": 35
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Staying static in turtle position without addressing the hook",
+        "consequence": "Allows top player time to consolidate control, insert second hook, and complete back take with minimal resistance",
+        "correction": "Immediately work to strip the hook or create separation through explosive movement - never remain passive in this position"
+      },
+      {
+        "error": "Exposing the neck while trying to escape",
+        "consequence": "Opens up rear naked choke or other neck attacks even if escape is partially successful",
+        "correction": "Keep chin tucked throughout all escape attempts and protect neck with hands before attempting explosive movements"
+      },
+      {
+        "error": "Allowing base to be broken and getting flattened to stomach",
+        "consequence": "Transitions to full back control or mount position with greatly reduced escape options",
+        "correction": "Maintain strong posting with at least one arm and one leg, use explosive hip movements before being completely flattened"
+      },
+      {
+        "error": "Reaching back for opponent's leg without controlling their upper body first",
+        "consequence": "Creates space for opponent to advance position or secure choke as you lose defensive structure",
+        "correction": "Secure opponent's hands or create frames before attempting hook removal, ensuring neck safety throughout"
+      },
+      {
+        "error": "Moving predictably in same direction repeatedly",
+        "consequence": "Opponent anticipates movement and times their attacks or position advancement accordingly",
+        "correction": "Change directions unpredictably, combining forward, backward, and lateral movements to keep opponent reactive"
+      },
+      {
+        "error": "Giving up too quickly and accepting back control",
+        "consequence": "Misses opportunities to escape during transitional moments when top player is adjusting position",
+        "correction": "Continue fighting through the position with persistent explosive movements and technical escapes until fully controlled"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Hook Strip Repetitions",
+        "description": "Partner establishes crab ride with one hook, bottom player practices stripping the hook using various grips and movements. Reset after each successful strip. Focus on maintaining defensive posture while addressing the hook.",
+        "duration": "3 minutes per partner"
+      },
+      {
+        "name": "Turtle to Guard Transitions Under Pressure",
+        "description": "Starting from crab ride bottom, practice granby rolls, sit-throughs, and forward rolls to recover guard position. Partner applies progressive resistance. Emphasize explosive hip movement and timing.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Positional Sparring from Crab Ride",
+        "description": "Start in crab ride bottom position, bottom player works for 90 seconds to escape to neutral or better position. Top player works to complete back take. Reset if either goal is achieved. Track success rate.",
+        "duration": "10 x 90-second rounds"
+      },
+      {
+        "name": "Defensive Movement Flow",
+        "description": "Bottom player flows through all escape options (hip escape, granby, stand up, sit through) while partner maintains crab ride control at 50% intensity. Focus on smooth transitions between escape attempts.",
+        "duration": "4 minutes continuous"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Escape to Safety Path",
+        "path": "Crab Ride Bottom → Hip Escape → Turtle → Technical Stand-up → Standing Position (Neutral)"
+      },
+      {
+        "name": "Counter-Attack Path",
+        "path": "Crab Ride Bottom → Rolling Back Take → Back Control → Rear Naked Choke"
+      },
+      {
+        "name": "Guard Recovery Path",
+        "path": "Crab Ride Bottom → Granby Roll → Closed Guard → Triangle Setup → Triangle Choke"
+      },
+      {
+        "name": "Wrestling Escape Path",
+        "path": "Crab Ride Bottom → Standing up in Base → Standing Rear Clinch → Hip Escape → Neutral Standing Position"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Crab Ride",
+        "relationship": "Sibling variant - opposite perspective of same position"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common entry position - where crab ride is often established from"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary threat position - what opponent is working toward"
+      },
+      {
+        "name": "Truck",
+        "relationship": "Alternative control position - similar defensive challenges"
+      },
+      {
+        "name": "Granby Roll",
+        "relationship": "Primary escape technique - most common technical solution"
+      },
+      {
+        "name": "Hip Escape",
+        "relationship": "Fundamental escape - basic defensive movement"
+      },
+      {
+        "name": "Rolling Back Take",
+        "relationship": "Counter-attack option - offensive opportunity from defensive position"
+      },
+      {
+        "name": "Rear Naked Choke",
+        "relationship": "Primary submission threat - what to defend against"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      },
+      "advancement_probability": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 10,
+        "advanced": 20
+      },
+      "average_time": "15-30 seconds"
     },
-    "submission_probability": {
-      "beginner": 25,
-      "intermediate": 45,
-      "advanced": 65
-    },
-    "average_time": "30-90 seconds before advancing or opponent escaping"
+    "expert_insights": {
+      "danaher": "The crab ride bottom position represents a critical phase in the turtle position hierarchy where defensive priorities must be immediately established. The biomechanical reality is that once the first hook is inserted, you are working against time - the longer you remain in this position, the more likely the top player will consolidate control. The key is understanding the concept of 'hook removal windows' - brief moments when the top player adjusts their grips or shifts weight where the inserted hook becomes vulnerable to stripping. Technically, you must maintain what I call 'structured chaos' - explosive, unpredictable movement that prevents the opponent from settling into their control, while simultaneously maintaining enough structure to protect your neck and prevent being flattened. The granby roll is often the highest percentage escape because it combines direction change, explosive hip movement, and positional inversion in a single technique that is difficult for the top player to counter if timed correctly with their weight shifts.",
+      "gordon_ryan": "From competition experience, I can tell you that staying in crab ride bottom is a losing battle - you need to explode out of it immediately. The best grapplers I've faced in this position never let me get comfortable; they're constantly moving, changing directions, and making it exhausting for me to maintain the ride. What works at the highest level is combining your defensive escapes with constant hand fighting - don't let them get clean grips on your collar or belt because that's what allows them to break you down. I've had success both escaping and attacking from this position depending on how the top player commits their weight. If they're aggressive going for the back take, the granby roll works great. If they're being more conservative, sometimes you can actually counter them with a rolling back take or sit-through to half guard. The key is reading their intentions and timing your explosions for when they're adjusting position - that's when they're most vulnerable.",
+      "eddie_bravo": "Crab ride bottom is where 10th Planet guys need to think outside the box because traditional turtle defense isn't enough against high-level back attackers. What we focus on is the 'Electric Chair mindset' even from bottom - looking for leg entanglements and off-balancing opportunities while defending. One thing that's super effective is when the top guy has that one hook in, you can actually use your leg to trap their hooking leg and create a lockdown-style control, then use that to facilitate your granby or sit-through. It's all about being unpredictable and uncomfortable to ride. We also drill a lot of inverted movements from this position - forward rolls, reverse granby, even cartwheel escapes for the flexible guys. The moment you accept being static in crab ride bottom, you're going to get your back taken or get caught in a twister setup. Keep moving, stay creative, and look for those unconventional escapes that people don't expect."
+    }
   },
-
-  "expert_insights": {
-    "danaher": "The crab ride represents a mechanically superior control position from turtle precisely because of its asymmetrical nature and the biomechanical advantages it creates. By positioning your hips perpendicular to the opponent's spine rather than parallel, you create a configuration where their defensive structure is fundamentally compromised. The hooking leg serves as a mechanical anchor that controls their hip movement in multiple directions simultaneously, while your chest pressure against their shoulder creates a collapsing force on their turtle posture. This position excels because it allows you to control distance and angle while maintaining multiple high-percentage attacking pathways. The key mechanical principle is that you're using your opponent's own defensive turtle structure against them by creating leverage points that their posture cannot effectively resist. Focus on understanding the geometry of control - your perpendicular orientation creates angles that make escape geometrically difficult while simultaneously opening direct pathways to the back. The systematic approach involves establishing the position methodically, then using opponent defensive reactions to dictate your specific attacking sequence rather than forcing predetermined attacks.",
-    "gordon_ryan": "In competition, crab ride is one of the highest percentage positions for securing back control or finishing submissions from turtle, which is why you see it constantly at the highest levels of no-gi grappling. When I get to crab ride, I'm thinking about back control first because that's where the most reliable finishing opportunities exist, especially under ADCC rules where you can ride time and hunt the finish. The position gives you complete control while keeping you relatively safe from counters, which is critical in high-level competition where mistakes are immediately punished. What makes this position so effective competitively is that it forces your opponent into a defensive shell while you have multiple attacking options based on their reactions. If they stay tight in turtle, I'm working to the back. If they try to sit through or turn in, I'm looking for darce or anaconda. If they extend their far arm, crucifix is there. The versatility is what makes it competition-proven. In my matches, I use crab ride as a control position where I can assess my energy levels and my opponent's defensive patterns before committing to my finishing sequence. It's also excellent for strategic purposes because it accumulates control time while you're in a genuinely dominant attacking position.",
-    "eddie_bravo": "Crab ride is crucial in the 10th Planet system, especially for no-gi where you don't have collar grips to fall back on when attacking turtle. We drill this position extensively because it's one of the best setups for our favorite submissions from turtle - darce, anaconda, and twister sequences. The beautiful thing about crab ride is how it naturally flows into multiple attacks depending on how your opponent defends. If they keep their head up, you're going to the back and hunting the rear naked or setting up the twister. If they tuck and try to make themselves small, that's when the darce and anaconda entries become available. One thing we emphasize in our system is staying active and creating constant threats from crab ride rather than just holding the position. We want to make the opponent react, and their reactions tell us which attack to pursue. The position also works perfectly with our overall philosophy of maintaining control while hunting the submission - you're not abandoning position to attack, you're using a dominant control position as the platform for finishing. For MMA applications, crab ride is even more valuable because you can land effective strikes to the body and head while controlling position and setting up back takes or submissions."
+  "top": {
+    "name": "Crab Ride Top",
+    "description": "Master Crab Ride Top attacks in BJJ. Complete guide covering back control entries, submission setups, and crucifix transitions. Dominant attacking position with 70% advancement rate.",
+    "tags": ["bjj", "position", "crab-ride", "top", "offensive", "turtle-attack", "back-attack", "control"],
+    "overview": "Crab Ride Top is a highly effective attacking position from the turtle, where the top practitioner controls the opponent from the side with a distinctive hook-and-grip configuration. This position creates a perfect platform for back attacks, submissions, and positional transitions while keeping the opponent trapped and unable to effectively defend or escape.\n\nThe position gets its name from the sideways orientation and the characteristic way the attacker 'rides' the opponent's back and hips, similar to how a crab might cling to its prey. The top practitioner typically establishes control with one leg hooking under the opponent's near hip while maintaining upper body control through strategic gripping on the far side. This asymmetrical configuration creates tremendous pressure and limits the bottom player's mobility.\n\nCrab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems taught by experts like Danaher and Garry Tonon.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top practitioner positioned on the side of opponent's turtle with hips oriented perpendicular to opponent's spine, maintaining lateral control rather than directly on top",
+      "One leg (typically near leg) hooks under opponent's hip or thigh with foot positioned inside opponent's legs, creating an anchor point for control and preventing forward movement",
+      "Upper body control established through grips on opponent's far side, typically controlling the far arm, shoulder, or collar while maintaining chest pressure against opponent's ribs and shoulder blade",
+      "Opponent remains in defensive turtle position with at least one hand posted on the mat for base, unable to effectively turn toward the attacker or escape laterally due to the hooking leg",
+      "Top practitioner's free leg (far leg) maintains base on the mat with knee and foot positioned for mobility, allowing adjustments and transitions while keeping weight distributed to maintain pressure"
+    ],
+    "prerequisites": [
+      "Opponent in bottom turtle position with defensive posture",
+      "Ability to establish side control relative to opponent's turtle",
+      "At least one controlling grip on opponent's body or gi",
+      "Hip positioning that allows for leg insertion under opponent"
+    ],
+    "key_principles": [
+      "Maintain perpendicular hip orientation to opponent's spine to maximize control and create attacking angles",
+      "Use the hooking leg as an anchor to control opponent's hip movement and prevent forward or lateral escapes",
+      "Keep chest pressure against opponent's shoulder and ribs to flatten their posture and limit defensive mobility",
+      "Control opponent's far side to prevent them from turning into you and establishing guard",
+      "Stay mobile with your free leg to adjust position and follow opponent's movements",
+      "Create constant attacking threats to keep opponent defensive and reactive",
+      "Transition smoothly between crab ride variations and back attacks based on opponent's defensive reactions"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Crab Ride to Back",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 45,
+          "intermediate": 65,
+          "advanced": 80
+        }
+      },
+      {
+        "technique": "Back Control to Crucifix",
+        "target_position": "Crucifix",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Darce from Turtle",
+        "target_position": "D'arce Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Anaconda from Turtle",
+        "target_position": "Anaconda Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Guillotine from Turtle",
+        "target_position": "Guillotine Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Arm Triangle from Turtle",
+        "target_position": "Arm Triangle",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 60,
+          "advanced": 75
+        }
+      },
+      {
+        "technique": "Side Control to Mount",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 50,
+          "intermediate": 65,
+          "advanced": 80
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Turtle to Guard",
+        "target_position": "Open Guard",
+        "success_rate": 35
+      },
+      {
+        "technique": "Turtle to Standing",
+        "target_position": "Standing Position",
+        "success_rate": 25
+      },
+      {
+        "technique": "Rolling to Guard",
+        "target_position": "Open Guard",
+        "success_rate": 30
+      },
+      {
+        "technique": "Technical Standup",
+        "target_position": "Standing Position",
+        "success_rate": 20
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Crab Ride to Back",
+        "target_position": "Back Control",
+        "trigger": "Opponent attempts to turn into you or sit through"
+      },
+      {
+        "technique": "Back Control to Crucifix",
+        "target_position": "Crucifix",
+        "trigger": "Opponent extends far arm to defend neck or post"
+      },
+      {
+        "technique": "Darce from Turtle",
+        "target_position": "D'arce Control",
+        "trigger": "Opponent tucks chin and brings head down defensively"
+      },
+      {
+        "technique": "Anaconda from Turtle",
+        "target_position": "Anaconda Control",
+        "trigger": "Opponent drives forward or attempts to circle away"
+      },
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "trigger": "Opponent flattens out completely or rolls to back"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent keeps strong turtle posture with head up and elbows tight",
+        "actions": [
+          {
+            "technique": "Crab Ride to Back",
+            "target": "Back Control",
+            "probability": 70
+          },
+          {
+            "technique": "Back Control to Crucifix",
+            "target": "Crucifix",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drops head down and tucks chin defensively",
+        "actions": [
+          {
+            "technique": "Darce from Turtle",
+            "target": "D'arce Control",
+            "probability": 65
+          },
+          {
+            "technique": "Anaconda from Turtle",
+            "target": "Anaconda Control",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to turn into you or sit through",
+        "actions": [
+          {
+            "technique": "Crab Ride to Back",
+            "target": "Back Control",
+            "probability": 75
+          },
+          {
+            "technique": "Guillotine from Turtle",
+            "target": "Guillotine Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent flattens out completely or rolls to their back",
+        "actions": [
+          {
+            "technique": "Transition to Mount",
+            "target": "Mount",
+            "probability": 80
+          },
+          {
+            "technique": "Side Control to Mount",
+            "target": "Side Control",
+            "probability": 75
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends far arm to post or defend neck",
+        "actions": [
+          {
+            "technique": "Back Control to Crucifix",
+            "target": "Crucifix",
+            "probability": 70
+          },
+          {
+            "technique": "Arm Triangle from Turtle",
+            "target": "Arm Triangle",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Positioning too far forward over opponent's shoulders instead of staying perpendicular to the spine",
+        "consequence": "Allows opponent to sit through and establish guard, or enables them to turn into you and escape",
+        "correction": "Keep hips oriented perpendicular to opponent's spine with weight distributed laterally across their shoulder and ribs, maintaining the characteristic sideways crab position"
+      },
+      {
+        "error": "Failing to maintain constant pressure with chest against opponent's shoulder and ribs",
+        "consequence": "Opponent can regain strong turtle posture, create space to escape, or turn into you effectively",
+        "correction": "Drive chest pressure continuously into opponent's shoulder blade and ribs to keep them flattened and defensive, using your body weight rather than arm strength"
+      },
+      {
+        "error": "Allowing the hooking leg to become passive or losing the hip anchor",
+        "consequence": "Opponent can easily move forward, circle away, or create the space needed to escape or recover guard",
+        "correction": "Actively maintain the leg hook under opponent's hip with your foot positioned inside their legs, using it as an anchor to control their movement and create attacking opportunities"
+      },
+      {
+        "error": "Gripping only the near side instead of controlling the far side of opponent's body",
+        "consequence": "Opponent can turn toward you more easily, establish defensive frames, or escape to guard without significant resistance",
+        "correction": "Focus control on opponent's far side through grips on far arm, far shoulder, or far collar to prevent them from turning into you and to set up back attacks"
+      },
+      {
+        "error": "Keeping too much weight on the free leg instead of committing to the position",
+        "consequence": "Reduces pressure on opponent and makes your position unstable, allowing easier escapes and reducing attacking effectiveness",
+        "correction": "Shift majority of weight onto opponent while keeping free leg mobile for adjustments, balancing control with the ability to transition smoothly"
+      },
+      {
+        "error": "Staying static without creating attacking threats or advancing position",
+        "consequence": "Allows opponent time to strengthen their defensive turtle posture, plan escapes, and potentially create scrambling opportunities",
+        "correction": "Constantly threaten back takes, submissions, and positional advances to keep opponent reactive and defensive, never allowing them to settle into stable turtle"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Crab Ride Establishment Drill",
+        "description": "Partner starts in turtle with moderate resistance. Practitioner works to establish proper crab ride position from various starting points (standing behind turtle, side of turtle, after failed guard pass). Focus on getting perpendicular hip orientation, inserting the hooking leg correctly, and establishing far side control. Partner gradually increases resistance as practitioner improves.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Back Take Flow Drill",
+        "description": "Starting from established crab ride, practitioner flows between different back attack entries while partner maintains defensive turtle. Practice inserting hooks, establishing seat belt control, and adjusting body position. Partner can defend moderately but should not attempt full escapes. Focus on smooth transitions and maintaining control throughout the sequence.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Submission Chain Drill",
+        "description": "From crab ride position, practice flowing between darce, anaconda, guillotine, and arm triangle setups based on partner's defensive reactions. Partner defends realistically but taps early. Emphasize recognizing which submission is available based on head position, arm placement, and body orientation. Build muscle memory for submission entries from this position.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Positional Sparring: Crab Ride vs Turtle Escape",
+        "description": "Top player starts in crab ride position and works to maintain control while advancing to back or submission. Bottom player works to escape to guard, standing, or create scrambles. Reset when either player achieves their goal. Track success rate for both players and adjust resistance level as needed.",
+        "duration": "3-minute rounds, multiple rounds"
+      },
+      {
+        "name": "Crab Ride Reaction Drill",
+        "description": "Partner in turtle randomly performs different defensive actions (turning in, sitting through, driving forward, flattening out). Practitioner must react with appropriate counter-transitions from the decision tree. Coach calls out defensive actions or allows partner to choose. Build automatic responses to common turtle escape attempts.",
+        "duration": "5 minutes per partner"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Highest percentage path to submission",
+        "path": "Crab Ride Top → Back Control → Rear Naked Choke (65% overall success for advanced practitioners)"
+      },
+      {
+        "name": "Fastest path to submission",
+        "path": "Crab Ride Top → Darce Choke (can finish in 8-12 seconds with proper setup)"
+      },
+      {
+        "name": "No-gi specialist path",
+        "path": "Crab Ride Top → Crucifix → Rear Naked Choke or arm isolation submissions"
+      },
+      {
+        "name": "Gi-specific path",
+        "path": "Crab Ride Top → Bow and Arrow Choke (uses collar grips established during crab ride)"
+      },
+      {
+        "name": "MMA application path",
+        "path": "Crab Ride Top → Back Control → Rear Naked Choke (most reliable in MMA context with strikes)"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Crab Ride",
+        "relationship": "Opposing perspective of same position"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Primary advancement target"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Parent position category"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Common transition target"
+      },
+      {
+        "name": "Cross Body Ride",
+        "relationship": "Similar turtle attack position"
+      },
+      {
+        "name": "Rodeo Ride",
+        "relationship": "Alternative turtle control variation"
+      },
+      {
+        "name": "D'arce Control",
+        "relationship": "Direct submission target from this position"
+      },
+      {
+        "name": "Anaconda Control",
+        "relationship": "Direct submission target from this position"
+      },
+      {
+        "name": "Back Attack System",
+        "relationship": "Strategic framework using crab ride as entry"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      },
+      "advancement_probability": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      },
+      "average_time": "30-90 seconds before advancing or opponent escaping"
+    },
+    "expert_insights": {
+      "danaher": "The crab ride represents a mechanically superior control position from turtle precisely because of its asymmetrical nature and the biomechanical advantages it creates. By positioning your hips perpendicular to the opponent's spine rather than parallel, you create a configuration where their defensive structure is fundamentally compromised. The hooking leg serves as a mechanical anchor that controls their hip movement in multiple directions simultaneously, while your chest pressure against their shoulder creates a collapsing force on their turtle posture. This position excels because it allows you to control distance and angle while maintaining multiple high-percentage attacking pathways. The key mechanical principle is that you're using your opponent's own defensive turtle structure against them by creating leverage points that their posture cannot effectively resist. Focus on understanding the geometry of control - your perpendicular orientation creates angles that make escape geometrically difficult while simultaneously opening direct pathways to the back. The systematic approach involves establishing the position methodically, then using opponent defensive reactions to dictate your specific attacking sequence rather than forcing predetermined attacks.",
+      "gordon_ryan": "In competition, crab ride is one of the highest percentage positions for securing back control or finishing submissions from turtle, which is why you see it constantly at the highest levels of no-gi grappling. When I get to crab ride, I'm thinking about back control first because that's where the most reliable finishing opportunities exist, especially under ADCC rules where you can ride time and hunt the finish. The position gives you complete control while keeping you relatively safe from counters, which is critical in high-level competition where mistakes are immediately punished. What makes this position so effective competitively is that it forces your opponent into a defensive shell while you have multiple attacking options based on their reactions. If they stay tight in turtle, I'm working to the back. If they try to sit through or turn in, I'm looking for darce or anaconda. If they extend their far arm, crucifix is there. The versatility is what makes it competition-proven. In my matches, I use crab ride as a control position where I can assess my energy levels and my opponent's defensive patterns before committing to my finishing sequence. It's also excellent for strategic purposes because it accumulates control time while you're in a genuinely dominant attacking position.",
+      "eddie_bravo": "Crab ride is crucial in the 10th Planet system, especially for no-gi where you don't have collar grips to fall back on when attacking turtle. We drill this position extensively because it's one of the best setups for our favorite submissions from turtle - darce, anaconda, and twister sequences. The beautiful thing about crab ride is how it naturally flows into multiple attacks depending on how your opponent defends. If they keep their head up, you're going to the back and hunting the rear naked or setting up the twister. If they tuck and try to make themselves small, that's when the darce and anaconda entries become available. One thing we emphasize in our system is staying active and creating constant threats from crab ride rather than just holding the position. We want to make the opponent react, and their reactions tell us which attack to pursue. The position also works perfectly with our overall philosophy of maintaining control while hunting the submission - you're not abandoning position to attack, you're using a dominant control position as the platform for finishing. For MMA applications, crab ride is even more valuable because you can land effective strikes to the body and head while controlling position and setting up back takes or submissions."
+    }
   }
 }

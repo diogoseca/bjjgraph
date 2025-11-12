@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Shrimping | BJJ Concept | BJJ Graph",
-    "description": "Understand Shrimping in BJJ. Learn hip escape mechanics, space creation principles, and defensive movement patterns. Expert insights from Danaher, Ryan, and Bravo included.",
-    "principle_id": "P111",
-    "tags": ["bjj", "concept", "shrimping", "hip-escape", "defensive-movement", "space-creation", "fundamental"],
-    "application_level": "Fundamental",
-    "complexity_level": "Low",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Shrimping",
+  "description": "Master shrimping in BJJ. Learn hip escape mechanics, space creation principles, defensive movement patterns, and timing across all bottom positions for effective escapes.",
+  "tags": ["bjj", "principle", "shrimping", "hip-escape", "defensive-movement", "space-creation", "fundamental", "escape", "bottom-position"],
+  "application_level": "Fundamental",
+  "complexity_level": "Low",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Shrimping, also known as hip escaping, is one of the most fundamental movement patterns in Brazilian Jiu-Jitsu. This core defensive concept involves using hip movement to create space, escape from inferior positions, and reestablish guard or improve position. The shrimping motion combines a bridging action with a hip rotation and extension of the legs, allowing a practitioner to move their hips away from an opponent while maintaining upper body connection and defensive frames.\n\nThe shrimping movement is essential for survival in bottom positions, particularly when escaping mount, side control, knee on belly, and other dominant top positions. By repeatedly shrimping, a practitioner can incrementally create the space necessary to insert a knee shield, recover guard, or escape to a neutral position. The concept is so fundamental that it forms the basis of virtually all bottom position movement and is typically one of the first techniques taught to beginners.\n\nMastery of shrimping extends beyond the basic movement pattern to include understanding when to shrimp, how much space to create, what to do with created space, and how to chain shrimps together with other movements like bridging, framing, and guard retention. Advanced practitioners use shrimping not just reactively for escapes, but proactively to create angles for sweeps, submissions, and transitions. The principle of using hip movement to manage distance and create space underlies much of defensive BJJ strategy.",
   "key_principles": [
     "Hip mobility and rotation are the primary drivers of defensive movement",
@@ -84,56 +81,79 @@
       "principle_name": "Mount Escape Series",
       "relationship_type": "Complementary",
       "description": "Shrimping is a core component of most mount escape sequences, either as the primary escape movement or as a complementary action to bridging and trap-and-roll escapes."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Prerequisite",
+      "description": "Proper defensive frames must be maintained throughout shrimping movements to create the structural barrier that prevents opponent advancement. Frames and shrimps work in tandem for effective escapes."
+    },
+    {
+      "principle_name": "Guard Recovery",
+      "relationship_type": "Extension",
+      "description": "Shrimping is the primary mechanism through which guard recovery is achieved from most bottom positions. The space created by shrimping enables the reinsertion of guard structures."
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Extension",
+      "description": "Shrimping represents a specific application of the broader hip movement principle, demonstrating how hip mobility translates to defensive capability and positional improvement."
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "Shrimp to create space for knee insertion after establishing frames on hips or using the elbow escape sequence. Multiple shrimps often required to move hips far enough to recover guard."
     },
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "Shrimp away from opponent while maintaining frames to create space for knee shield insertion or guard recovery. Direction typically toward opponent's legs to create guard retention opportunities."
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "Immediate shrimping response to create distance from the knee pressure, often combined with hand fighting to prevent re-establishment of control. Quick, explosive shrimps most effective."
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Shrimp to either side while framing on opponent's hips to create angular escape routes. Often requires changing shrimp direction based on opponent's weight distribution and base."
     },
     {
-      "context": "Kesa Gatame Bottom",
+      "context": "Kesa Gatame",
       "how_applied": "Shrimp toward opponent's legs while establishing frames and creating space to extract trapped arm or establish guard hooks. Multiple progressive shrimps typically needed."
     },
     {
-      "context": "Scarf Hold Bottom",
+      "context": "Scarf Hold Position",
       "how_applied": "Shrimping motion used to incrementally move hips away from opponent's control, creating angles for sweep attempts or position reversals while preventing further consolidation."
     },
     {
-      "context": "Back Control Bottom",
+      "context": "Back Control",
       "how_applied": "Shrimp to create space between hips and opponent's hooks, enabling hand fighting against grips and creating escape opportunities. Often combined with hip rotation to prevent hook retention."
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Shrimp motion used to move hips away from attacking opponent, preventing back take or submission attempts while creating opportunities to establish guard or return to standing."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Shrimp to create underhook opportunities, establish knee shields, or transition to deep half guard. The shrimping motion creates the angles necessary for sweeps and back takes."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Shrimping used to create angles for triangle, armbar, or omoplata attacks. Also employed when opponent establishes strong posture to create off-balancing opportunities."
     },
     {
-      "context": "Technical Mount Bottom",
+      "context": "Technical Mount",
       "how_applied": "Shrimp to prevent full mount progression while creating space to bring trapped leg through. Requires careful timing and strong frames to avoid giving up full mount."
     },
     {
-      "context": "High Mount Bottom",
+      "context": "High Mount",
       "how_applied": "Emergency shrimping combined with bridging to prevent submission attacks and create space for arm extraction or position recovery. Often requires explosive, committed movements."
+    },
+    {
+      "context": "Defensive Position",
+      "how_applied": "Shrimping as a proactive defense to maintain distance and prevent opponent from establishing dominant grips or position. Constant small shrimps prevent opponent from settling weight."
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "Offensive shrimping to create angles for leg entanglements, back takes, and sweep entries. Hip movement used to generate the angles that compromise opponent's balance and posture."
     }
   ],
   "decision_framework": [
@@ -297,7 +317,7 @@
   "related_content": [
     {
       "name": "Bridge and Shrimp",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary fundamental movement that combines with shrimping in most escape sequences"
     },
     {
@@ -307,22 +327,22 @@
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader biomechanical framework that includes shrimping as primary application"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential prerequisite skill that must be combined with shrimping for effective escapes"
     },
     {
       "name": "Mount Escape Series",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Series of escapes where shrimping serves as foundational movement pattern"
     },
     {
       "name": "Side Control Escapes",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Collection of escape techniques that rely heavily on shrimping mechanics"
     },
     {
@@ -332,13 +352,23 @@
     },
     {
       "name": "Space Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Overarching principle that shrimping implements in practical application"
     },
     {
       "name": "Hip Escape",
       "content_type": "Transition",
       "relationship": "Alternative name and specific application of shrimping movement pattern"
+    },
+    {
+      "name": "Guard Recovery",
+      "content_type": "Principle",
+      "relationship": "Strategic objective that shrimping movements enable from bottom positions"
+    },
+    {
+      "name": "Escape Hierarchy",
+      "content_type": "Principle",
+      "relationship": "Framework within which shrimping serves as foundational first-level escape movement"
     }
   ],
   "expert_insights": {

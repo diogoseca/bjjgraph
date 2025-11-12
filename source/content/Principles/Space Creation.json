@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Space Creation | BJJ Concept | BJJ Graph",
-    "description": "Understand Space Creation in BJJ. Learn distance generation, frame mechanics, hip escape principles, and cross-position defensive applications.",
-    "principle_id": "P156",
-    "tags": ["bjj", "concept", "space creation", "defense", "frames", "escapes", "fundamentals"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Space Creation",
+  "description": "Master Space Creation in BJJ. Learn frame mechanics, hip escape principles, bridging techniques, and defensive applications across positions with proven training methods.",
+  "tags": ["bjj", "principle", "space creation", "defense", "frames", "escapes", "fundamentals", "hip movement", "bridging"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Space Creation is one of the most fundamental defensive concepts in Brazilian Jiu-Jitsu, representing the practitioner's ability to generate distance between their body and an opponent's controlling position. This concept forms the foundation of virtually all escape sequences, as creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.\n\nAt its core, Space Creation involves understanding how to use frames, hip movement, bridging mechanics, and timing to generate gaps in the opponent's pressure system. The concept is not merely about pushing away or using strength; rather, it requires sophisticated understanding of leverage points, weight distribution, and the opponent's base structure. Effective space creation exploits moments when the opponent's weight is transitioning, their base is compromised, or their grips are being adjusted.\n\nThe mastery of Space Creation fundamentally changes a practitioner's defensive capabilities. Beginners often make the mistake of accepting compression and trying to escape from completely flattened positions, which is biomechanically nearly impossible against skilled opponents. Advanced practitioners understand that space must be created in increments—first creating breathing room, then hip mobility, then full body movement—and that each increment requires different techniques and timing. This concept underlies every escape in BJJ, from simple elbow escapes from side control to complex granby rolls from back control.",
   "key_principles": [
     "Frames must be established before hip movement can occur - structural integrity precedes mobility",
@@ -84,56 +81,98 @@
       "principle_name": "Defensive Strategy",
       "relationship_type": "Complementary",
       "description": "Space Creation is a core component of overall Defensive Strategy. It represents the proactive approach to defense—generating opportunities for escape rather than simply enduring pressure and waiting for opponent mistakes."
+    },
+    {
+      "principle_name": "Bridging Mechanics",
+      "relationship_type": "Complementary",
+      "description": "Bridging Mechanics provides the vertical space creation component that complements lateral hip escape movements. Together they form the complete space creation toolkit for different positional contexts."
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Extension",
+      "description": "Bridge and Shrimp represents the practical application of Space Creation principles, combining both vertical and lateral distance generation into coordinated escape sequences."
+    },
+    {
+      "principle_name": "Connection Breaking",
+      "relationship_type": "Prerequisite",
+      "description": "Connection Breaking often must occur before effective Space Creation can happen. Removing opponent grips and hooks eliminates the mechanical connections that prevent distance generation."
+    },
+    {
+      "principle_name": "Guard Recovery",
+      "relationship_type": "Extension",
+      "description": "Guard Recovery is the typical goal of Space Creation from inferior positions. The created distance allows for knee insertion and guard recomposition."
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Complementary",
+      "description": "Hip Movement principles underpin all Space Creation efforts. Understanding proper hip mechanics is essential for generating effective distance against pressure."
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Alternative",
+      "description": "Distance Creation represents a broader concept that includes Space Creation as a defensive application, while also encompassing offensive distance management strategies."
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "Space creation from bottom mount primarily uses bridging to elevate the opponent's hips combined with hip escape to create lateral distance. The bottom practitioner frames against the opponent's hips or chest while explosively bridging, then immediately shrimps to prevent the mount from being re-established. Multiple bridge-and-shrimp cycles are typically necessary."
     },
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "From bottom side control, space creation relies heavily on shoulder frames against the opponent's neck and hip while shrimping the hips away. The practitioner creates initial breathing room by framing, then progressively escapes the hips to create enough distance to insert a knee shield or recover full guard. Timing the escape during the opponent's weight transitions is critical."
     },
     {
-      "context": "Back Control Bottom",
+      "context": "Back Control",
       "how_applied": "Space creation from back control focuses on creating distance between the chest and the opponent's chest to prevent the choking arm from connecting to the choking hand. This involves tucking the chin, hand fighting the choking attempts, and using hip escape mechanics to slide the hips away from the opponent's hooks while simultaneously working to strip the seatbelt grip."
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "Under knee on belly pressure, space creation requires framing against both the knee and the opponent's upper body while shrimping the hips toward the direction of the knee. The initial frame creates separation at the upper body, allowing the hips to escape and potentially trap the posted leg or create enough distance to turtle or re-guard."
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "From bottom north-south, space creation utilizes bridging mechanics to elevate the opponent combined with immediate hip rotation to create angular distance. Because the opponent's weight is distributed along the centerline, bridges must be accompanied by rotation to prevent the opponent from simply settling back down in the same position."
     },
     {
-      "context": "Kesa Gatame Bottom",
+      "context": "Kesa Gatame",
       "how_applied": "Space creation from kesa gatame involves bridging toward the opponent's head while simultaneously using the near-side arm to create a frame against their far hip. The bridge disrupts their base while the frame prevents them from following the movement. Hip escape is then used to create lateral distance and potentially recover guard or escape to turtle."
     },
     {
-      "context": "Scarf Hold Bottom",
-      "how_applied": "Under scarf hold control, space creation requires framing against the opponent's posted arm and hip while bridging to create elevation. The practitioner then shrimps the hips away from the pressure, working to create enough distance to either escape the position entirely or transition to a more favorable defensive position like turtle."
-    },
-    {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "From turtle, space creation focuses on creating distance between the hips and heels to prevent opponent flattening. This involves maintaining the tripod base structure while using subtle weight shifts and base widening to prevent the opponent from collapsing the position. Space is also created through active posting and base recovery when opponent attempts to break structure."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "In half guard, space creation involves using the lockdown or butterfly hook to prevent opponent's hip pressure while framing against their upper body. The bottom player creates distance by shrimping the hips away from the trapped leg side, allowing for underhook battles, deep half entries, or sweep attempts. The space created enables offensive action from what could be a defensive position."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "While closed guard is typically an offensive position, space creation becomes relevant when the opponent establishes strong posture or begins to pass. The guard player creates space by opening the guard strategically, using hip movement to maintain distance, and employing frames to prevent the opponent from settling into passing position."
     },
     {
-      "context": "Deep Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "Space creation in deep half guard involves creating vertical distance by elevating the opponent's hips using the deep half hook and shoulder positioning. This elevation creates the space necessary for rolling under sweeps or transitions to other guard positions. The concept here inverts the typical lateral space creation model."
     },
     {
-      "context": "Bottom Position Generic",
-      "how_applied": "The generic application of space creation from any bottom position follows the same fundamental principles: establish frames to create initial separation, use hip movement to generate distance, time the attempt during opponent weight transitions, and immediately utilize created space before it's recovered. The specific techniques vary by position but the conceptual framework remains constant."
+      "context": "High Mount",
+      "how_applied": "From bottom high mount, space creation becomes more difficult due to the opponent's elevated position. The defender must use forearm frames against the opponent's hips while performing smaller, more frequent bridge-and-shrimp movements to gradually work back to regular mount position before executing full escapes."
+    },
+    {
+      "context": "Technical Mount",
+      "how_applied": "Under technical mount control, space creation focuses on preventing the opponent from transitioning to full mount or armbar. The bottom player uses the trapped arm to create frames while the free arm establishes distance, all while working to extract the trapped arm and recover to a more defensible position."
+    },
+    {
+      "context": "Crucifix",
+      "how_applied": "Space creation from crucifix is extremely challenging due to the opponent's arm control. The defender must focus on creating space with the legs by hip escaping away from the opponent's body weight, while simultaneously working to free at least one arm to establish frames and continue the escape sequence."
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "In butterfly guard, space creation is used defensively when the opponent establishes strong overhooks or begins to flatten the position. The guard player creates space by actively using butterfly hooks to elevate and create distance, while frames prevent forward pressure and maintain the structural integrity of the position."
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "Space creation in open guard involves using frames with hands and feet to maintain distance and prevent the opponent from settling into passing positions. The guard player constantly adjusts hip position to maintain optimal distance—close enough to threaten sweeps and submissions, far enough to prevent being smashed flat."
     }
   ],
   "decision_framework": [
@@ -301,12 +340,12 @@
   "related_content": [
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides the structural foundation for space creation - frames create separation points from which hips can escape"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "The primary engine for executing space creation in most bottom positions"
     },
     {
@@ -320,42 +359,42 @@
       "relationship": "Core transition demonstrating space creation principles from side control"
     },
     {
-      "name": "Mount Bottom",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Primary position where bridging-based space creation is essential for escape"
     },
     {
-      "name": "Side Control Bottom",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Position requiring shrimping-based space creation for escape and guard recovery"
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Space creation represents the first critical phase in the systematic escape framework"
     },
     {
       "name": "Pressure Reduction",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept that often must occur before or during space creation attempts"
     },
     {
-      "name": "Technical Stand-up",
+      "name": "Technical Standup",
       "content_type": "Transition",
       "relationship": "Often the end goal of space creation from ground positions - getting back to standing"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "The natural progression after successful space creation from inferior positions"
     },
     {
-      "name": "Back Control Bottom",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Critical defensive position where space creation prevents choking sequences"
     },
     {
-      "name": "Upa Escape",
+      "name": "Bridge and Roll",
       "content_type": "Transition",
       "relationship": "Explosive space creation technique from mount using bridging mechanics"
     }

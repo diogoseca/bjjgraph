@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Grip Fighting Strategies | BJJ Concept | BJJ Graph",
-    "description": "Master grip fighting strategies in BJJ. Learn grip hierarchy, breaking mechanics, tactical sequencing across all positions. Expert insights from Danaher, Ryan, and Bravo included.",
-    "principle_id": "P049",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "grips",
-      "control",
-      "strategy",
-      "hand-fighting"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Grip Fighting Strategies",
+  "description": "Master grip fighting strategies in BJJ. Learn grip hierarchy, breaking mechanics, tactical sequencing across all positions. Systematic approach to hand fighting.",
+  "tags": [
+    "bjj",
+    "concept",
+    "fundamental",
+    "grips",
+    "control",
+    "strategy",
+    "hand-fighting"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Grip Fighting Strategies represents the fundamental skill of establishing, maintaining, and denying grips to create tactical advantages in both standing and ground positions. Unlike specific techniques, grip fighting is a comprehensive conceptual framework that applies across all phases of BJJ, from the initial engagement to ground control and submissions. This concept encompasses the tactical approach to grip selection, grip breaking methodology, and the strategic sequencing of grip exchanges that create opportunities for technique execution while denying opponent options. Grip fighting serves as both a defensive mechanism that prevents opponent control establishment and an offensive foundation that enables technique application through superior positioning. The ability to win grip exchanges often determines who controls the pace and direction of the match, making it one of the most essential conceptual elements in competitive BJJ.",
   "key_principles": [
     "Establish grips before opponent to gain first-mover advantage",
@@ -92,15 +89,45 @@
       "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Grip fighting success depends on timing grip attempts and breaks to coincide with opponent's movements and vulnerabilities. Understanding rhythm in exchanges enables more efficient grip establishment and denial."
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Frame creation often requires specific grips to maintain structural integrity. Grip fighting determines ability to establish and maintain frames that prevent opponent advancement."
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Complementary",
+      "description": "Creating and managing distance relies on grip control to push or pull opponent. Grip fighting provides the connection points necessary for effective distance management."
+    },
+    {
+      "principle_name": "Angle Creation",
+      "relationship_type": "Extension",
+      "description": "Grip advantages enable angle creation by controlling opponent's position while maintaining mobility. Superior grips allow practitioners to move around opponents while restricting their rotation."
+    },
+    {
+      "principle_name": "Action and Reaction",
+      "relationship_type": "Complementary",
+      "description": "Grip fighting exemplifies action-reaction principle where opponent's grip attempts create counter-gripping opportunities. Understanding this dynamic enables exploiting opponent's grip commitments."
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Efficient grip fighting conserves energy by using proper mechanics rather than strength. Strategic grip selection reduces wasted effort on low-value grip exchanges."
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Complementary",
+      "description": "Maintaining base while grip fighting requires coordinating hand fighting with postural stability. Practitioners must balance aggressive grip fighting with maintaining structural integrity."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Guard player fights to establish collar and sleeve grips to control posture and set up attacks, while denying opponent's grip breaking attempts and preventing cross-collar or stacking grips that enable passing."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Practitioner prioritizes establishing and maintaining sleeve grips with feet in biceps, fighting to prevent opponent from stripping grips or establishing counter-grips that neutralize spider guard control."
     },
     {
@@ -108,11 +135,11 @@
       "how_applied": "Guard player fights for ankle, belt, and collar grips while preventing opponent from establishing pants grips or cross-face control that facilitate guard passing and De La Riva neutralization."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Establishing deep sleeve control for lasso while fighting to maintain the lasso grip against stripping attempts, simultaneously working to secure secondary grips that enable sweeps and prevent passing."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Dynamic grip fighting to establish guard-specific grips (sleeve, collar, ankle, pants) while denying opponent's passing grips, constantly adapting grip strategy based on opponent's passing approach."
     },
     {
@@ -120,15 +147,11 @@
       "how_applied": "Initial grip exchanges at the start of standing engagement, fighting for dominant collar and sleeve positions while denying opponent's preferred takedown grips, establishing offensive grip configurations."
     },
     {
-      "context": "Top Open Guard",
-      "how_applied": "Passer works to establish passing grips (pants, cross-collar, underhooks) while systematically breaking guard player's retention grips, creating windows for passing mechanics through grip advantage."
-    },
-    {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Bottom player fights for underhooks, collar grips, and sleeve control to enable sweeps and prevent flattening, while denying crossface and whizzer grips that consolidate top control."
     },
     {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Hand fighting for collar ties, underhooks, and overhooks while preventing opponent from establishing similar grips, creating advantageous positions for takedown entries or guard pulls."
     },
     {
@@ -136,12 +159,32 @@
       "how_applied": "Establishing collar and sleeve grips to facilitate butterfly sweeps while maintaining hooks, fighting to prevent opponent from securing over-under or double-under passing grips."
     },
     {
-      "context": "Seated Guard Bottom",
+      "context": "Seated Guard",
       "how_applied": "Fighting to establish ankle and collar grips while preventing opponent from controlling both sleeves or establishing dominant grips that enable smash passing or leg drag sequences."
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
-      "how_applied": "Securing far collar or sleeve grips while maintaining leg positioning, denying opponent's attempts to control the upper body and break down the reverse De La Riva structure."
+      "context": "Collar Sleeve Guard",
+      "how_applied": "Maintaining specific collar and sleeve grip configuration while actively defending against grip breaks, using this combination to control distance and create sweep opportunities."
+    },
+    {
+      "context": "Double Sleeve Guard",
+      "how_applied": "Fighting to secure both sleeve grips to control opponent's arms and posture, preventing opponent from establishing any upper body grips while using foot placement to manage distance."
+    },
+    {
+      "context": "Collar Ties",
+      "how_applied": "Establishing and maintaining collar tie control in standing positions, using this dominant grip to break opponent's posture and create entries for takedowns while denying opponent's grip attempts."
+    },
+    {
+      "context": "Side Control",
+      "how_applied": "Top player works to secure crossface and underhook grips to maintain pin, while bottom player fights to establish frames and underhooks to create escape opportunities."
+    },
+    {
+      "context": "Mount",
+      "how_applied": "Top player establishes collar grips for submission attacks while preventing bottom player from securing sleeve or collar grips that enable escapes and reversals."
+    },
+    {
+      "context": "Back Control",
+      "how_applied": "Attacker fights to secure collar grips for chokes while maintaining seat belt control, defender works to strip grips and create hand fighting exchanges that delay submission attempts."
     }
   ],
   "decision_framework": [
@@ -298,46 +341,46 @@
   "related_content": [
     {
       "name": "Grip Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Parent concept covering overall grip strategy of which grip fighting represents the competitive application component"
     },
     {
       "name": "Grip Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Component skill that focuses specifically on the technical execution of breaking opponent's established grips"
     },
     {
       "name": "Hand Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Closely related concept emphasizing the dynamic hand exchanges that occur before grips are established"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader concept that contextualizes grips as initial control points in the hierarchy of positional dominance"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Heavily dependent on grip fighting as guard retention requires establishing retention grips while denying passing grips"
     },
     {
       "name": "Guard Passing Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept where passing success depends significantly on winning the grip fight to neutralize guard retention"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Position that exemplifies grip fighting importance as entire guard structure depends on maintaining sleeve grips against breaking attempts"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Foundational position where grip fighting determines ability to control posture and execute attacks versus defend against passing"
     },
     {
-      "name": "Lasso Guard Bottom",
+      "name": "Lasso Guard",
       "content_type": "Position",
       "relationship": "Guard system requiring sophisticated grip fighting to establish and maintain deep sleeve control for lasso configuration"
     },

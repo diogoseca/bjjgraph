@@ -1,1 +1,392 @@
-
+{
+  "name": "Rolling Omoplata",
+  "description": "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from failed sweeps or scrambles. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%. Includes safety protocols.",
+  "tags": [
+    "bjj",
+    "submission",
+    "omoplata",
+    "shoulder-lock",
+    "joint-lock",
+    "rolling-technique",
+    "dynamic-submission",
+    "guard-submission"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint and rotator cuff",
+  "starting_position": "Scramble Position",
+  "success_rates": {
+    "beginner": 25,
+    "intermediate": 40,
+    "advanced": 60
+  },
+  "overview": "The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on momentum and transition phases during scrambles, failed sweeps, or guard recovery situations. Unlike the traditional static omoplata from closed or open guard, this variation involves a rolling motion that allows the practitioner to capture the opponent's shoulder joint while both grapplers are in movement. This technique is particularly effective when transitioning from failed sweep attempts, inverting under pressure, or recovering guard against aggressive passing attempts. The rolling motion generates unexpected leverage on the shoulder while simultaneously off-balancing the opponent, making it difficult to defend once initiated. The technique requires excellent timing, spatial awareness, and flexibility, as the practitioner must coordinate their hip rotation with leg positioning while maintaining control of the opponent's trapped arm throughout the roll. The Rolling Omoplata represents modern BJJ's evolution toward dynamic, flow-based submissions that blur the lines between offense and defense, making it a favorite among competitors who emphasize movement-based games.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear or strain",
+        "severity": "High",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for tear"
+      },
+      {
+        "injury": "Shoulder dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "3-6 months with potential surgical intervention"
+      },
+      {
+        "injury": "Labrum tear",
+        "severity": "High",
+        "recovery_time": "4-9 months, often requires surgery"
+      },
+      {
+        "injury": "AC joint separation",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 4-6 seconds minimum in training with gradual pressure increase",
+    "tap_signals": [
+      "Verbal tap (most important during rolls)",
+      "Physical hand tap on body or mat",
+      "Physical foot tap on mat",
+      "Any distress vocalization",
+      "Frantically tapping with free hand"
+    ],
+    "release_protocol": [
+      "Immediately stop all forward rolling motion",
+      "Release leg pressure on shoulder and head",
+      "Remove leg triangle if locked",
+      "Extend hips backward to create space",
+      "Allow partner to safely extract their arm",
+      "Check partner's shoulder mobility before continuing"
+    ],
+    "training_restrictions": [
+      "Never complete the roll at full speed in training",
+      "Never apply sudden jerking or explosive pressure",
+      "Always allow partner to tap before locking the position",
+      "Never practice on partners with known shoulder injuries",
+      "Always telegraph the technique during flow rolling",
+      "Never combine with neck cranking or cervical spine pressure"
+    ]
+  },
+  "key_principles": [
+    "Momentum conversion - transform failed sweeps or transitions into submission opportunities",
+    "Hip rotation synchronization - coordinate hip movement with leg positioning throughout the roll",
+    "Arm isolation - maintain control of the trapped arm throughout the rolling motion",
+    "Weight distribution - use body weight to prevent opponent's roll-through escape",
+    "Shoulder alignment - ensure the shoulder joint is properly isolated before applying pressure",
+    "Timing over strength - capitalize on moments when opponent is off-balance or transitioning",
+    "Exit awareness - always have a plan to transition if the submission fails"
+  ],
+  "setup_requirements": [
+    "Opponent's arm must be isolated and controlled (typically extended or posting)",
+    "Sufficient space to complete the rolling motion without obstruction",
+    "Opponent off-balance or in transition between positions",
+    "Hip mobility to complete the inverted rotation",
+    "Grip or control on opponent's arm throughout the movement",
+    "Clear understanding of direction and momentum needed for the roll",
+    "Partner's weight distributed forward or to the side (not fully posted back)"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Arm isolation and initial control",
+      "description": "During a scramble, failed sweep, or transition, identify when opponent posts their arm or extends it for base. Secure control of this arm by gripping the wrist or controlling it with your legs. Your opponent should be slightly off-balance with their weight forward or lateral. This is often available when they're defending a sweep or trying to pass your guard.",
+      "timing": "Opportunistic - requires reading the scramble",
+      "pressure_level": "Light"
+    },
+    {
+      "step_number": 2,
+      "action": "Hip positioning for the roll",
+      "description": "Position your hips near the opponent's trapped shoulder while maintaining arm control. Your body should be oriented perpendicular or angled to your opponent. Begin to load your weight onto your shoulders and upper back in preparation for the rolling motion. Your free leg should be positioned to hook over the opponent's back or shoulder during the roll.",
+      "timing": "1-2 seconds - establish position",
+      "pressure_level": "Light"
+    },
+    {
+      "step_number": 3,
+      "action": "Initiate the rolling motion",
+      "description": "Execute a smooth backward roll over your shoulder, similar to a granby roll, while maintaining control of the isolated arm. As you roll, your hips should rotate toward the opponent's head, and your legs should begin to position around their shoulder and head. The roll should be fluid and controlled, not explosive or sudden. Use your momentum to swing your legs into position.",
+      "timing": "2-3 seconds - complete the roll",
+      "pressure_level": "Moderate"
+    },
+    {
+      "step_number": 4,
+      "action": "Leg positioning and shoulder isolation",
+      "description": "As you complete the roll and come up on your side or belly, thread one leg over the opponent's back and the other leg across their head/neck area. The leg over the back should sit deep on their shoulder blade, while the leg across the head controls their posture. Their trapped arm should be fully extended with your hip positioned directly against their shoulder joint. Your hips should be slightly elevated above their shoulder level.",
+      "timing": "1-2 seconds - secure position",
+      "pressure_level": "Moderate"
+    },
+    {
+      "step_number": 5,
+      "action": "Lock the triangle and adjust angle",
+      "description": "Lock your legs together in a figure-four configuration if possible, though this is optional depending on your flexibility and the angle. More importantly, adjust your body angle so you're perpendicular to your opponent's spine with your hips directly pressuring their shoulder joint. Your weight should be distributed to prevent them from rolling through or backward. Their arm should be straight and immobilized.",
+      "timing": "1-2 seconds - secure configuration",
+      "pressure_level": "Firm"
+    },
+    {
+      "step_number": 6,
+      "action": "Apply controlled shoulder pressure",
+      "description": "Drive your hips forward and slightly downward into the opponent's shoulder joint while simultaneously pulling their wrist or controlling their arm extension. The pressure should be gradual and progressive, applied through hip extension rather than jerking movements. Watch for the tap signal carefully as the opponent may have limited ability to tap with the trapped arm. Maintain control of their head with your leg to prevent them from turning into the submission and escaping.",
+      "timing": "2-4 seconds - gradual pressure application",
+      "pressure_level": "Maximum"
+    }
+  ],
+  "opponent_defense_patterns": [
+    {
+      "defense": "Rolling through to escape (forward roll)",
+      "effectiveness": "Medium",
+      "your_adjustment": "Immediately post your outside hand on the mat and distribute your weight to block their forward momentum. Follow their roll by adjusting your leg position and maintaining hip pressure on the shoulder. Transition to back control if they complete the roll."
+    },
+    {
+      "defense": "Grabbing their own belt or gi pants to prevent arm extension",
+      "effectiveness": "High",
+      "your_adjustment": "Use your leg across their head to break their posture and prevent them from maintaining the defensive grip. Alternatively, transition to a triangle choke or switch to back-take as they defend. Apply pressure with your hips to make the defensive position uncomfortable."
+    },
+    {
+      "defense": "Pulling arm back toward their body",
+      "effectiveness": "High",
+      "your_adjustment": "Anticipate this defense during the setup phase. Secure wrist control before initiating the roll, or use your legs to hook their arm and prevent retraction. If they succeed in pulling the arm back, immediately transition to triangle control or back-take opportunities."
+    },
+    {
+      "defense": "Stacking and driving forward pressure",
+      "effectiveness": "Low",
+      "your_adjustment": "Your inverted position and rolling momentum naturally counter stacking pressure. As they drive forward, use their momentum to complete the roll more easily. Once inverted with legs positioned, stacking becomes ineffective as you're already past their pressure line."
+    },
+    {
+      "defense": "Turning into the submission (internal rotation)",
+      "effectiveness": "Medium",
+      "your_adjustment": "Use your leg across their head to control their ability to turn. If they begin turning in, adjust your hip angle to maintain perpendicular pressure on the shoulder. Alternatively, transition to a triangle choke as they turn their body toward you."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Rolling too explosively or with excessive speed",
+      "consequence": "Partner cannot tap in time, leading to serious shoulder injuries; also causes loss of control during the roll",
+      "correction": "Practice the rolling motion slowly in isolation. Focus on smooth, controlled movement with gradual acceleration. Always telegraph the technique in training and give your partner time to recognize the position.",
+      "danger_level": "CRITICAL"
+    },
+    {
+      "error": "Failing to maintain arm control during the roll",
+      "consequence": "Opponent extracts their arm mid-roll, leaving you inverted and vulnerable to passing or counterattack",
+      "correction": "Establish secure wrist control or use your legs to hook the arm before initiating the roll. Practice the coordination of maintaining this control throughout the entire rolling motion. If you lose the arm, abort the submission and return to guard."
+    },
+    {
+      "error": "Incorrect shoulder angle after the roll",
+      "consequence": "No pressure on the shoulder joint; opponent easily escapes or rolls through",
+      "correction": "Focus on positioning your hips perpendicular to the opponent's spine, not parallel. Your hip should be directly against their shoulder joint with their arm extended straight. Practice positional drilling to develop the correct angle recognition."
+    },
+    {
+      "error": "Rolling in the wrong direction or with poor spatial awareness",
+      "consequence": "You complete the roll but end up out of bounds or in a worse position; wasted energy and lost opportunity",
+      "correction": "Develop spatial awareness through drilling. Always check your position relative to mat boundaries before attempting dynamic techniques. Practice rolling in both directions to build comfort with the movement."
+    },
+    {
+      "error": "Not controlling opponent's head with the leg",
+      "consequence": "Opponent turns into the submission and escapes, or rolls through completely",
+      "correction": "The leg across the head is critical for controlling their posture and preventing rotation. Keep this leg tight and active, using it to break their posture downward while applying the shoulder lock."
+    },
+    {
+      "error": "Applying the submission with cranking or jerking motions",
+      "consequence": "Sudden shoulder dislocation, rotator cuff tear, or other severe injuries requiring medical intervention",
+      "correction": "Always apply pressure gradually through hip extension, never through jerking or explosive movements. In training, aim for 4-6 seconds of progressive pressure application. Develop sensitivity to feel resistance and stop immediately if partner shows distress.",
+      "danger_level": "CRITICAL"
+    },
+    {
+      "error": "Attempting the technique without sufficient hip mobility",
+      "consequence": "Incomplete roll, awkward positioning, or muscle strain in your own hips and lower back",
+      "correction": "Develop hip flexibility through dedicated stretching and mobility work. Practice granby rolls and other inverted movements separately before attempting this submission. If you lack the mobility, focus on traditional omoplata variations instead."
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Rolling Omoplata from Failed Scissor Sweep",
+      "description": "When your scissor sweep is defended and opponent posts their far arm, use the momentum of your sweep attempt to roll under and capture the posted arm. Your scissor sweep motion naturally loads you into the rolling position.",
+      "when_to_use": "Ideal when opponent bases heavily on their far arm to defend your scissor sweep; creates a seamless offensive chain"
+    },
+    {
+      "variation_name": "Rolling Omoplata from Spider Guard",
+      "description": "From spider guard with foot on bicep, when opponent attempts to remove your foot and posts their hand, release the foot and immediately roll toward that posted arm while maintaining control with your other leg. The spider guard control sets up perfect arm isolation.",
+      "when_to_use": "Effective against aggressive spider guard passing attempts; opponent's posted arm is already extended"
+    },
+    {
+      "variation_name": "Rolling Omoplata to Triangle Chain",
+      "description": "If opponent defends the rolling omoplata by grabbing their belt or pulling their arm back, use your leg positioning to immediately transition to a triangle choke. Your legs are already in position around their head and arm.",
+      "when_to_use": "When facing opponents who know the rolling omoplata defense; creates an offensive dilemma"
+    },
+    {
+      "variation_name": "Rolling Omoplata from Reverse De La Riva",
+      "description": "From reverse De La Riva when opponent drives their weight forward, use your RDLR hook to off-balance them while rolling backward toward their posted arm. The RDLR position provides excellent momentum for the roll.",
+      "when_to_use": "Against pressure passing attempts from RDLR; uses opponent's forward pressure against them"
+    },
+    {
+      "variation_name": "Double Rolling Omoplata (Consecutive Rolls)",
+      "description": "If the first roll doesn't fully capture the shoulder, maintain arm control and execute a second roll to adjust your angle. This addresses situations where spatial awareness or initial positioning was slightly off.",
+      "when_to_use": "When the first roll gets you close but not perfectly positioned; requires excellent control maintenance"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the minimum application time for the Rolling Omoplata in training, and why is this critical?",
+      "answer": "The minimum application time is 4-6 seconds with gradual pressure increase. This is critical because the shoulder joint is extremely vulnerable to sudden rotational forces, and the dynamic nature of the rolling entry can generate unexpected momentum. The trapped partner may have limited ability to tap with the captured arm, so slower application gives them time to recognize the danger and tap with their free hand or verbally. Rushing the technique significantly increases the risk of rotator cuff tears or shoulder dislocation.",
+      "safety_critical": true
+    },
+    {
+      "question": "What are the key differences between a rolling omoplata and a traditional static omoplata in terms of setup and execution?",
+      "answer": "The rolling omoplata is initiated from dynamic scrambles, transitions, or failed sweeps rather than established guard positions. It involves a rolling motion (similar to a granby roll) to capture the opponent's arm during movement, whereas the traditional omoplata is set up from static positions like closed guard or spider guard with deliberate leg positioning. The rolling version requires better timing and spatial awareness because both grapplers are in motion. The rolling omoplata often captures posting arms during scrambles, while the traditional version usually attacks arms that are already controlled in guard. The dynamic momentum of the rolling version makes it harder to defend once initiated, but also requires more technical precision to execute correctly.",
+      "safety_critical": false
+    },
+    {
+      "question": "If your opponent begins rolling forward through your rolling omoplata attempt, what should you do and why?",
+      "answer": "Immediately post your outside hand on the mat and redistribute your weight to block their forward momentum while maintaining hip pressure on their shoulder. If they successfully complete the roll, follow through and transition to back control, as you'll be in position to take their back. The key is not to resist their momentum entirely but to control it and ensure you maintain a dominant position. Never try to force the omoplata if they're successfully rolling through, as this can create awkward angles and injury risk. Following their momentum to back control creates a seamless offensive transition and maintains your attacking position.",
+      "safety_critical": false
+    },
+    {
+      "question": "Why is controlling the opponent's head with your leg critical in the Rolling Omoplata, and what happens if you neglect this detail?",
+      "answer": "The leg across the head prevents the opponent from turning into the submission (internal rotation of the shoulder), which is one of the primary escapes from omoplata positions. Without head control, the opponent can rotate their body toward you, reducing the shoulder lock pressure and potentially escaping to a neutral or top position. The head control also prevents them from posturing up and creating the space needed to extract their arm. Additionally, this leg breaking their posture downward increases the effectiveness of the shoulder pressure by maintaining the proper angle. Neglecting head control typically results in an easy escape or even a reversal.",
+      "safety_critical": false
+    },
+    {
+      "question": "What should you immediately do if your training partner taps during the rolling motion before you've completed the position?",
+      "answer": "Immediately stop all rolling motion and release leg pressure on their shoulder and head. Do not complete the roll or attempt to 'finish' the position. Extend your hips backward to create space and allow them to safely extract their arm. The tap during the rolling motion indicates they feel vulnerable to injury from the momentum or angle, and continuing could cause serious shoulder damage. After releasing, check on your partner's shoulder mobility and comfort level before continuing training. This situation emphasizes the importance of controlled, telegraphed rolling motion in training rather than explosive or surprise entries.",
+      "safety_critical": true
+    },
+    {
+      "question": "What type of flexibility and mobility is required for the Rolling Omoplata, and what are the risks of attempting it without adequate preparation?",
+      "answer": "The technique requires excellent hip mobility for the inverted rolling motion, similar to granby rolls or other inversion techniques. You need sufficient lower back flexibility to control your body position throughout the roll, and shoulder mobility to maintain arm control while your own body rotates. Hamstring flexibility helps with leg positioning around the opponent's head and shoulder. Attempting this technique without adequate mobility can result in incomplete rolls that leave you in vulnerable positions, inability to generate the proper angle for the submission, or even injury to your own lower back, hips, or neck from forced positioning. The rolling motion under load requires body awareness that comes from progressive flexibility development, not forced attempts.",
+      "safety_critical": false
+    },
+    {
+      "question": "When is the optimal moment during a scramble or transition to attempt the Rolling Omoplata?",
+      "answer": "The optimal moment is when your opponent posts their arm for base while being slightly off-balance with their weight forward or lateral. This commonly occurs during defended sweep attempts, guard recovery situations, or when they're actively trying to pass and need to post to maintain balance. The key indicator is seeing an isolated, extended arm that you can control while your opponent's base is compromised. Timing is critical - too early and they can retract the arm; too late and they've established a strong base. The technique capitalizes on transitional moments when the opponent is more focused on positional objectives than protecting their arms, making them vulnerable to the dynamic submission entry.",
+      "safety_critical": false
+    }
+  ],
+  "training_progressions_and_safety_protocols": [
+    {
+      "phase": "Technical Understanding - Solo Movement",
+      "timeframe": "Week 1-2",
+      "focus": "Practice granby rolls, hip inversions, and rolling motions without a partner. Develop the rolling mechanics and body awareness needed for the technique. Work on hip mobility and inverted positioning.",
+      "resistance_level": "None",
+      "safety_emphasis": "Build foundational movement patterns safely. No injury risk in solo drilling. Focus on smooth, controlled rolling motion and spatial awareness."
+    },
+    {
+      "phase": "Positional Introduction - Cooperative Partner",
+      "timeframe": "Week 3-4",
+      "focus": "With a fully cooperative partner, practice the complete rolling motion while they present a posted arm. Go slowly through each step, focusing on maintaining arm control throughout the roll. Partner should offer zero resistance and clearly tap early.",
+      "resistance_level": "Zero resistance",
+      "safety_emphasis": "Partner must tap immediately when pressure begins. Practice tap signals and release protocols. Never apply finishing pressure - focus only on achieving the position. Minimum 6-second application if any pressure is used."
+    },
+    {
+      "phase": "Positional Recognition - Flow Rolling",
+      "timeframe": "Week 5-8",
+      "focus": "During light flow rolling, begin to recognize moments when the rolling omoplata is available (posted arms during scrambles). Telegraph the technique clearly to your partner and execute at 30-40% speed. Focus on reading the opportunities rather than finishing.",
+      "resistance_level": "Mild resistance",
+      "safety_emphasis": "Always announce the technique before attempting it in flow. Partner should be prepared and tap early. Focus on entry mechanics rather than finishing. If partner shows any discomfort, release immediately."
+    },
+    {
+      "phase": "Integration - Situational Drilling",
+      "timeframe": "Month 3-4",
+      "focus": "Set up specific scenarios (failed scissor sweep, spider guard passing defense, RDLR transitions) and practice the rolling omoplata from these common setups. Partner offers realistic but controlled resistance up to the point of the roll.",
+      "resistance_level": "Realistic resistance",
+      "safety_emphasis": "Partner still taps early once position is achieved. No finishing pressure in drilling. Practice the transition chains if the submission fails. Communicate throughout the drill about comfort and pressure levels."
+    },
+    {
+      "phase": "Live Application - Controlled Sparring",
+      "timeframe": "Month 5-6",
+      "focus": "Attempt the technique during regular sparring rounds, but continue to apply submissions slowly and progressively. Focus on catching the opportunities during live scrambles while maintaining safety protocols.",
+      "resistance_level": "Full resistance",
+      "safety_emphasis": "Maintain 4-6 second minimum application time even during competition-style rolls. Watch carefully for taps as partner may have limited tap access. Never attempt the technique on partners with shoulder injuries or significantly less experience."
+    },
+    {
+      "phase": "Refinement - Competition Preparation",
+      "timeframe": "Month 6+",
+      "focus": "Fine-tune the technique for competition application. Practice recognizing setup opportunities at higher speeds and transitioning smoothly when the submission isn't available. Develop the technique as part of a broader offensive system.",
+      "resistance_level": "Full resistance",
+      "safety_emphasis": "Understand the distinction between training and competition application speeds. In training, always maintain safety margins. Drilling the release protocol should be as common as drilling the technique itself. Continue respecting partner safety regardless of skill level."
+    }
+  ],
+  "from_positions": [
+    "Scramble Position",
+    "Closed Guard",
+    "Open Guard",
+    "Spider Guard",
+    "De La Riva Guard",
+    "Reverse De La Riva Guard",
+    "Lasso Guard",
+    "Butterfly Guard",
+    "Half Guard",
+    "Seated Guard"
+  ],
+  "related_submissions": [
+    "Omoplata",
+    "Omoplata from Guard",
+    "Omoplata Variations",
+    "Triangle Choke",
+    "Triangle from Guard",
+    "Baratoplata",
+    "Gogoplata",
+    "Armbar from Guard",
+    "Rolling Armbar",
+    "Reverse Armbar",
+    "Tarikoplata",
+    "Monoplata",
+    "Kimura from Guard",
+    "Inverted Triangle",
+    "Spinning Armbar"
+  ],
+  "related_content": [
+    {
+      "name": "Omoplata Sweep",
+      "relationship": "Transitional technique - failed rolling omoplata can convert to sweep"
+    },
+    {
+      "name": "Omoplata to Back",
+      "relationship": "Follow-up technique - if opponent rolls through, take the back"
+    },
+    {
+      "name": "Triangle to Omoplata",
+      "relationship": "Submission chain - triangle defense opens rolling omoplata opportunity"
+    },
+    {
+      "name": "Spider Guard to Omoplata",
+      "relationship": "Common setup - spider guard creates ideal arm isolation for rolling entry"
+    },
+    {
+      "name": "Rubber Guard to Omoplata System",
+      "relationship": "System integration - rubber guard provides alternative omoplata entries"
+    },
+    {
+      "name": "Granby Roll Concept",
+      "relationship": "Movement foundation - granby roll mechanics are essential for this technique"
+    },
+    {
+      "name": "Hip Movement",
+      "relationship": "Technical principle - hip rotation and mobility are critical for execution"
+    },
+    {
+      "name": "Submission Chains",
+      "relationship": "Strategic concept - rolling omoplata works best as part of offensive chain"
+    },
+    {
+      "name": "Flexibility Training",
+      "relationship": "Physical requirement - adequate hip and back flexibility needed for safety"
+    },
+    {
+      "name": "Guard Recovery",
+      "relationship": "Tactical situation - rolling omoplata often available during guard recovery scrambles"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Positional relationship - inverted positioning creates rolling omoplata opportunities"
+    },
+    {
+      "name": "Sweep Mechanics",
+      "relationship": "Technical foundation - failed sweep mechanics naturally load into rolling omoplata"
+    }
+  ],
+  "expert_insights": {
+    "danaher": "The Rolling Omoplata represents an evolution in submission mechanics where we exploit transitional moments rather than static positions. The key to this technique is understanding that it's a momentum-based submission - you're converting kinetic energy from a scramble or failed technique into a shoulder lock. From a biomechanical perspective, the rolling motion allows you to attack the shoulder joint from an angle that bypasses many of the traditional omoplata defenses. The opponent's natural instinct is to defend against linear threats, but the rolling motion creates a rotational force vector on the shoulder that's much harder to counter. However, this same advantage creates significant safety concerns. The technique generates forces on the shoulder joint before your opponent may fully recognize they're in danger. In training, you must slow down the entry dramatically and focus on positional achievement rather than finishing. The rolling motion should be telegraphed and controlled, giving your partner time to recognize the threat and tap early. I emphasize to my students that this technique should only be attempted after mastering traditional omoplatas and developing excellent body control through inversion drills. The submission itself is secondary to the movement literacy required to execute it safely. When teaching this technique, I spend considerably more time on the release protocols and safety considerations than on the finishing mechanics, because the true skill is in recognizing when you have it and applying minimal pressure to get the tap.",
+    "gordon_ryan": "The Rolling Omoplata is one of those techniques that looks flashy but is actually incredibly practical in competition when you understand the right moments to use it. I hit this regularly in training and competition because people don't expect it during scrambles - they're focused on passing or defending sweeps, not protecting their arms. The key timing is when someone posts to defend your sweep or to establish base during a transition. That posted arm is gold if you can recognize it quickly. What makes this technique effective at the highest levels is that it works even when people know it's coming, because the scramble situation doesn't give them time to react perfectly. Unlike slow, methodical submissions where your opponent has time to think through their defenses, the rolling omoplata capitalizes on chaos and forces split-second decision making. In competition, I'm always looking for opportunities to chain this with other attacks. If they defend the rolling omoplata by pulling their arm back, I'm immediately looking for the triangle. If they try to roll through, I'm taking the back. The technique itself is just one part of a broader offensive system built around scramble situations. That said, there's a massive difference between how I apply this in competition versus training. In training, I slow everything down and give my partners time to tap. In competition, the application is faster, but I still maintain control throughout the movement. The biggest mistake I see people make is trying to practice this at competition speed in the training room - that's how training partners get injured. Develop the movement slowly, build the muscle memory, and save the explosive entries for competition where the stakes justify the risks.",
+    "eddie_bravo": "The Rolling Omoplata is pure 10th Planet DNA - it's all about staying dangerous during transitions and never giving your opponent a moment to relax. This technique embodies what we teach: when something fails, you don't retreat, you flow into the next attack. That failed sweep? That's just the setup for the rolling omoplata. They defended your spider guard attack? Roll into the omoplata and catch them by surprise. What I love about this submission is that it rewards flexibility, creativity, and the willingness to enter positions that most people avoid. You're going inverted, you're rolling while controlling an arm, you're putting yourself in what looks like a vulnerable position - but that's exactly where the magic happens. The traditional BJJ approach is position before submission, but techniques like the rolling omoplata show that there's this whole universe of submissions available during the transition between positions. We drill this constantly at 10th Planet because it builds comfort with inversion and scrambles. However - and this is critical - we also have a strong safety culture around dynamic submissions. Just because you can do something flashy doesn't mean you should crank it in training. The rolling omoplata can seriously hurt someone's shoulder if you're reckless, so we emphasize controlled entries and early tapping. I tell my students: be creative and aggressive with your entries, but respectful and controlled with your finishes. The goal is to make your training partners better, not to injure them. This technique also requires serious hip flexibility and body control, which is why we incorporate so much yoga and mobility work into our training. You can't force this technique if your body isn't prepared for it - you'll either fail to execute it or hurt yourself trying. Put in the mobility work, develop the movement through drilling, and this technique becomes a legitimate weapon in your arsenal."
+  }
+}

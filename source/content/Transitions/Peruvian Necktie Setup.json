@@ -1,24 +1,24 @@
 {
-  "metadata": {
-    "title": "Peruvian Necktie Setup | BJJ Technique | BJJ Graph",
-    "description": "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from Front Headlock to submission position. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.",
-    "transition_id": "T176",
-    "tags": [
-      "bjj",
-      "transition",
-      "submission_setup",
-      "front_headlock",
-      "advanced",
-      "turtle_attack",
-      "necktie"
-    ],
-    "starting_position": "Front Headlock",
-    "ending_position": "Submission Position Generic",
-    "success_rates": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
-    }
+  "name": "Peruvian Necktie Setup",
+  "description": "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from Front Headlock to submission position. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "submission_setup",
+    "front_headlock",
+    "advanced",
+    "turtle_attack",
+    "necktie",
+    "no-gi",
+    "scramble",
+    "inversion"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "Peruvian Necktie",
+  "success_rates": {
+    "beginner": 20,
+    "intermediate": 35,
+    "advanced": 50
   },
   "overview": "The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.",
   "key_principles": [
@@ -253,8 +253,8 @@
       "relationship": "Finish - the submission completed after this setup"
     },
     {
-      "name": "Japanese Necktie",
-      "relationship": "Variation - related necktie-style submission with different entry angle"
+      "name": "Japanese Necktie Setup",
+      "relationship": "Variation - related necktie-style setup with different entry angle"
     },
     {
       "name": "Anaconda Choke",
@@ -273,16 +273,16 @@
       "relationship": "Alternative transition - positional advancement option from same control"
     },
     {
-      "name": "Turtle to Back Take",
-      "relationship": "Counter option - used when opponent defends Peruvian Necktie setup"
-    },
-    {
       "name": "Guillotine Setup",
       "relationship": "Related setup - shares similar control principles and timing windows"
     },
     {
-      "name": "Snap Down",
+      "name": "Snap Down to Front Headlock",
       "relationship": "Entry technique - creates front headlock control for setup opportunity"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Opponent position - defensive posture being exploited for entry"
     }
   ],
   "expert_insights": {

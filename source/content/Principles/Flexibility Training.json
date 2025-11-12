@@ -1,21 +1,20 @@
 {
-  "metadata": {
-    "title": "Flexibility Training | BJJ Concept | BJJ Graph",
-    "description": "Understand Flexibility Training in BJJ. Learn systematic mobility development, injury prevention, and range of motion protocols for enhanced performance.",
-    "principle_id": "P036",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "flexibility",
-      "mobility",
-      "physical conditioning",
-      "injury prevention"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Flexibility Training",
+  "description": "Master flexibility development for BJJ. Learn progressive protocols for hip mobility, hamstring elasticity, injury prevention, and position-specific range of motion enhancement.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "flexibility",
+    "mobility",
+    "physical conditioning",
+    "injury prevention",
+    "hip mobility",
+    "range of motion"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Flexibility Training represents the systematic development of range of motion, joint mobility, and muscle elasticity that enables technical execution, injury prevention, and positional versatility in Brazilian Jiu-Jitsu. Unlike raw strength or cardiovascular conditioning, flexibility training is a foundational physical attribute that directly impacts technique accessibility, defensive capability, and injury resilience. This concept encompasses the biomechanical principles, progressive development protocols, and strategic approach to creating sustainable mobility that enhances technical performance without compromising stability or strength. Flexibility serves as both an enabling factor that expands technical repertoire (particularly guard-based techniques and defensive escapes) and a protective mechanism that reduces injury risk during dynamic movements and awkward positions. The ability to maintain and utilize functional flexibility often determines whether a practitioner can execute advanced techniques or remains limited to basic movements, making it one of the most essential physical development elements in BJJ.",
   "key_principles": [
     "Develop flexibility progressively using systematic protocols that respect tissue adaptation timelines",
@@ -92,11 +91,26 @@
       "principle_name": "Drilling Methodology",
       "relationship_type": "Complementary",
       "description": "Systematic drilling methodology provides the repetition volume necessary to develop and maintain functional flexibility while building movement patterns that utilize increased range of motion."
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Extension",
+      "description": "Flexibility directly enables enhanced hip movement patterns that form the foundation of guard retention, escapes, and positional adjustments throughout BJJ."
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Extension",
+      "description": "Adequate spinal and hip flexibility is prerequisite for effective bridging and shrimping mechanics that create escape opportunities and positional improvements."
+    },
+    {
+      "principle_name": "Progressive Resistance Training",
+      "relationship_type": "Complementary",
+      "description": "Progressive resistance training methodology applies equally to flexibility development where gradual intensity increases respect tissue adaptation and prevent injury."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Hip flexor and hamstring flexibility enables tight guard closure, high guard positioning, and the ability to break posture effectively while maintaining control without excessive muscular tension."
     },
     {
@@ -108,11 +122,11 @@
       "how_applied": "Hamstring and hip flexibility allows for proper angle creation, leg positioning across shoulders, and the ability to adjust triangle position to close finishing mechanics without losing control."
     },
     {
-      "context": "Omoplata Control",
+      "context": "Omoplata",
       "how_applied": "Hip mobility and spinal rotation enable practitioners to achieve proper positioning, maintain control during opponent's rolling defense, and transition to alternative attacks when flexibility allows position adjustment."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Ankle flexibility and hip mobility support extended leg positioning, effective distance management, and the ability to maintain foot placement on biceps while creating angles for sweeps and submissions."
     },
     {
@@ -132,7 +146,7 @@
       "how_applied": "Hip flexibility from top position allows practitioners to maintain low, pressure-heavy mount while adjusting to opponent's escape attempts, transitioning to high mount, or setting up submission attacks."
     },
     {
-      "context": "Bottom Turtle",
+      "context": "Turtle",
       "how_applied": "Spinal and hip flexibility enables effective turtle defense with ability to maintain compact positioning, prevent opponent penetration, and execute technical stand-ups or guard recoveries when opportunities arise."
     },
     {
@@ -144,20 +158,20 @@
       "how_applied": "Hip mobility and hamstring flexibility enable proper X-guard structure with extended legs controlling opponent's base while maintaining connection points that support sweeping mechanics and positional control."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Shoulder and hip flexibility supports deep lasso positioning, effective distance control, and the ability to maintain leg placement around arm while creating angles for sweeps and transitions."
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
-      "how_applied": "Hip external rotation and ankle flexibility enable proper reverse De La Riva hook placement and maintenance while supporting inversion mechanics and technical transitions that require exceptional mobility."
-    },
-    {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Hip and spinal flexibility supports effective underhook battles, knee shield maintenance, and the ability to create angles for sweeps or back takes despite opponent's pressure and passing attempts."
     },
     {
       "context": "Butterfly Guard",
       "how_applied": "Groin flexibility and hip mobility enable deep butterfly hook placement, effective elevation mechanics, and the capacity to maintain position while creating sweeping opportunities through range of motion."
+    },
+    {
+      "context": "Mission Control",
+      "how_applied": "Extreme hip and hamstring flexibility required to achieve and maintain mission control position with leg over opponent's shoulder while controlling posture and setting up rubber guard attacks."
     }
   ],
   "decision_framework": [
@@ -312,17 +326,17 @@
   "related_content": [
     {
       "name": "Biomechanical Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides foundational understanding for intelligent flexibility development that respects joint mechanics and tissue adaptation"
     },
     {
       "name": "Strength Development",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary physical attribute that must develop alongside flexibility to create stable, controlled range of motion"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Enhanced by adequate flexibility as efficient movement through full range reduces energy expenditure during technical execution"
     },
     {
@@ -331,8 +345,8 @@
       "relationship": "Requires exceptional hip flexibility and represents position most dependent on advanced mobility for effective execution"
     },
     {
-      "name": "Omoplata Control",
-      "content_type": "Position",
+      "name": "Omoplata",
+      "content_type": "Submission",
       "relationship": "Demands significant hip and spinal mobility for position achievement and maintenance during opponent's defensive reactions"
     },
     {
@@ -351,24 +365,24 @@
       "relationship": "Benefits from hip and shoulder flexibility allowing deep positioning and effective control maintenance under pressure"
     },
     {
-      "name": "Berimbolo",
-      "content_type": "System",
-      "relationship": "Requires significant spinal flexibility and hip mobility for inversion mechanics and positional transitions"
-    },
-    {
-      "name": "Granby Roll",
-      "content_type": "Transition",
-      "relationship": "Demands spinal and shoulder flexibility for effective execution as escape mechanism or transitional movement"
-    },
-    {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Enhanced by flexibility training that enables greater defensive range in frames, hip movement, and leg positioning"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Directly supported by flexibility development enabling bridging, shrimping, and escape mechanics that require range of motion"
+    },
+    {
+      "name": "Hip Movement",
+      "content_type": "Principle",
+      "relationship": "Fundamentally dependent on hip flexibility for full range of guard retention and escape mechanics"
+    },
+    {
+      "name": "Progressive Resistance Training",
+      "content_type": "Principle",
+      "relationship": "Provides methodology framework that applies equally to flexibility development protocols"
     }
   ],
   "expert_insights": {

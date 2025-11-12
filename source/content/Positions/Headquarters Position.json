@@ -1,366 +1,43 @@
 {
-  "metadata": {
-    "title": "Headquarters Bottom Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Headquarters Bottom in BJJ. Complete defensive guide covering frames, retention, and re-guard options. Essential half guard variation with 60% retention.",
-    "state_id": "S096",
-    "tags": ["bjj", "position", "headquarters-bottom", "half-guard", "defensive", "bottom-position", "retention"]
-  },
-  "overview": "Headquarters Bottom Position represents a defensive half guard configuration where the bottom practitioner finds themselves trapped in their opponent's 'headquarters' pressure position. This occurs when the top player has established strong knee shield control with their shin across the bottom player's torso while maintaining significant forward pressure. The bottom player is typically on their side or back, using defensive frames to create space and prevent the pass while looking for opportunities to recover full guard or initiate sweeps.\n\nThis position is characterized by the bottom player being compressed under the top player's weight distribution through the knee shield, requiring strong defensive framing and hip mobility to maintain guard retention. The bottom practitioner must manage the constant threat of the knee slice pass while simultaneously working to improve their position through re-guarding sequences or sweep attempts. Success in this position demands excellent frame management, timing, and the ability to exploit windows of opportunity when the top player commits to passing pressure.\n\nHeadquarters Bottom is considered a transitional defensive position rather than a stable attacking platform. The primary objective is survival and position improvement through systematic defensive protocols, with secondary goals of sweep opportunities when the top player overcommits. Understanding the positional hierarchy and having clear pathways to better positions is essential for effective defense from this challenging bottom position.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive",
-    "risk_level": "Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Short to Medium"
-  },
-  "state_invariants": [
-    "Bottom player positioned on their side or back with top player's shin/knee across their torso creating compression and control, limiting mobility and offensive options while requiring constant defensive awareness",
-    "Bottom player's far side (non-trapped) leg often used as defensive frame or hook to maintain distance and prevent flattening, while near side leg is controlled or pressured by opponent's knee shield position",
-    "Top player maintains forward pressure through knee shield with weight distributed across bottom player's chest/abdomen, creating sustained compression that must be managed through frames and hip movement",
-    "Bottom player's arms actively framing against top player's shoulder, hip, or knee to create space and prevent further compression while maintaining enough structure to attempt recovery sequences or sweep entries"
-  ],
-  "prerequisites": [
-    "Top player has established knee shield position across bottom player's torso from half guard",
-    "Bottom player unable to maintain full half guard lockdown or butterfly hooks",
-    "Top player applying forward pressure through knee shield creating compression",
-    "Bottom player's half guard retention compromised but not fully passed",
-    "Frames and defensive posture required to prevent immediate pass completion"
-  ],
-  "key_principles": [
-    "Maintain active frames on top player's shoulder, hip, or knee to prevent complete flattening and create breathing room for defensive movements",
-    "Keep hips mobile and ready to shrimp or bridge to create angles for re-guarding or sweep attempts when opportunities arise",
-    "Prevent top player from consolidating weight directly over centerline by maintaining angle and using frames to redirect pressure",
-    "Protect underhook position on trapped side when possible to maintain connection and prevent complete isolation",
-    "Use far leg (non-trapped side) as active defensive tool through frames, hooks, or shield positions to manage distance and create recovery opportunities",
-    "Time defensive movements with top player's weight shifts and pressure adjustments to maximize efficiency and create windows for position improvement",
-    "Maintain strong mental focus on position improvement pathways rather than accepting prolonged defensive stalemate"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Underhook Sweep from Half",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Re-Guard from Headquarters",
-      "target_position": "Half Guard Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Old School Sweep",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
-    },
-    {
-      "technique": "Guard Recovery",
-      "target_position": "Closed Guard Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Butterfly Guard to X-Guard",
-      "target_position": "X-Guard Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 55
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 50
-    },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 45
-    },
-    {
-      "technique": "Leg Drag Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 50
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Half Guard Bottom",
-      "trigger": "Top player drives weight forward during knee slice attempt"
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "trigger": "Top player commits fully to knee slice creating underhook opportunity"
-    },
-    {
-      "technique": "Re-Guard from Headquarters",
-      "target_position": "Closed Guard Bottom",
-      "trigger": "Top player pulls back to reset pressure allowing hip escape"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If top player drives forward with heavy knee slice pressure",
-      "actions": [
-        {
-          "technique": "Deep Half Entry",
-          "target": "Deep Half Guard Bottom",
-          "probability": 45
-        },
-        {
-          "technique": "Underhook Sweep from Half",
-          "target": "Top Position",
-          "probability": 35
-        }
-      ]
-    },
-    {
-      "condition": "If top player maintains static pressure without advancing",
-      "actions": [
-        {
-          "technique": "Re-Guard from Headquarters",
-          "target": "Half Guard Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Old School Sweep",
-          "target": "Top Position",
-          "probability": 40
-        }
-      ]
-    },
-    {
-      "condition": "If top player stands or elevates posture to pass",
-      "actions": [
-        {
-          "technique": "Guard Recovery",
-          "target": "Open Guard Bottom",
-          "probability": 55
-        },
-        {
-          "technique": "Butterfly Guard to X-Guard",
-          "target": "X-Guard Bottom",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If top player isolates far leg for leg drag",
-      "actions": [
-        {
-          "technique": "Frame and Shrimp",
-          "target": "Half Guard Bottom",
-          "probability": 40
-        },
-        {
-          "technique": "Deep Half Entry",
-          "target": "Deep Half Guard Bottom",
-          "probability": 35
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Accepting flat position on back without maintaining active frames",
-      "consequence": "Top player consolidates full pressure making re-guarding nearly impossible and pass completion highly probable",
-      "correction": "Maintain constant frame pressure on top player's shoulder or hip while staying on side to preserve mobility and defensive options"
-    },
-    {
-      "error": "Using only upper body frames without hip movement",
-      "consequence": "Frames collapse under sustained pressure leading to exhaustion and inevitable pass as static defense fails",
-      "correction": "Coordinate frames with hip shrimping and angle creation to use frames as launching points for movement rather than pure blocking"
-    },
-    {
-      "error": "Attempting sweeps without establishing proper grips or frames first",
-      "consequence": "Sweep attempts fail immediately while giving up defensive structure allowing top player to advance position easily",
-      "correction": "Build defensive frames and grips systematically before initiating offensive movements ensuring stable platform for attempts"
-    },
-    {
-      "error": "Allowing top player to control both legs simultaneously",
-      "consequence": "Complete loss of guard structure making any recovery impossible and pass completion immediate",
-      "correction": "Keep far leg active as defensive frame or shield maintaining at least one leg free for defensive movements and position recovery"
-    },
-    {
-      "error": "Fighting with pure strength against superior pressure position",
-      "consequence": "Rapid energy depletion leading to flattening and easy pass as muscular fatigue undermines defensive capacity",
-      "correction": "Use timing and angles to redirect pressure rather than opposing it directly, conserving energy for critical defensive movements"
-    },
-    {
-      "error": "Focusing solely on preventing pass without seeking position improvement",
-      "consequence": "Stalemate that favors top player's scoring position and allows them to methodically break down defenses over time",
-      "correction": "Balance defensive priorities with active pursuit of re-guard or sweep opportunities creating dynamic rather than static defense"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Headquarters Survival Rounds",
-      "description": "Bottom player starts in headquarters bottom position with top player applying knee slice pressure. Bottom player must maintain frames and prevent pass for 2-minute rounds while seeking re-guard opportunities. Focus on frame endurance and hip mobility under pressure.",
-      "duration": "5 rounds x 2 minutes"
-    },
-    {
-      "name": "Frame-to-Re-Guard Sequence Drilling",
-      "description": "Partner applies headquarters pressure while bottom player practices systematic re-guard sequences: establish frames, create angle through shrimp, recover guard structure. Repeat in cycles focusing on technical precision and timing rather than speed.",
-      "duration": "10 minutes continuous"
-    },
-    {
-      "name": "Deep Half Entry Under Pressure",
-      "description": "Top player maintains headquarters position while bottom player specifically practices deep half guard entries from various defensive frames. Partner provides graduated resistance allowing technique refinement before full resistance application.",
-      "duration": "6 minutes per partner"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Deep Half to Leg Lock Path",
-      "path": "Headquarters Bottom Position → Deep Half Entry → Deep Half Guard Bottom → Outside Ashi-Garami Bottom → Straight Ankle Lock"
-    },
-    {
-      "name": "Re-Guard to Triangle Path",
-      "path": "Headquarters Bottom Position → Guard Recovery → Closed Guard Bottom → Triangle Choke"
-    },
-    {
-      "name": "Sweep to Mount Submissions",
-      "path": "Headquarters Bottom Position → Underhook Sweep from Half → Mount Top → Armbar from Mount"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Parent position - headquarters bottom is defensive variation when half guard retention is compromised"
-    },
-    {
-      "name": "Headquarters Position Top",
-      "relationship": "Opposite perspective - understanding top player's objectives aids defensive strategy"
-    },
-    {
-      "name": "Deep Half Guard Bottom",
-      "relationship": "Primary offensive improvement - common recovery target from headquarters bottom"
-    },
-    {
-      "name": "Knee Shield Half Guard Bottom",
-      "relationship": "Related half guard variation - shares defensive principles and recovery pathways"
-    },
-    {
-      "name": "Side Control Bottom",
-      "relationship": "Negative transition target - position that results from failed headquarters defense"
-    },
-    {
-      "name": "Re-Guard from Headquarters",
-      "relationship": "Key recovery transition - primary technical pathway to position improvement"
-    },
-    {
-      "name": "Knee Slice Pass",
-      "relationship": "Primary threat - understanding opponent's passing mechanics improves defensive timing"
-    },
-    {
-      "name": "Guard Retention Concepts",
-      "relationship": "Conceptual framework - theoretical principles underlying effective headquarters defense"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 40,
-      "intermediate": 60,
-      "advanced": 75
-    },
-    "advancement_probability": {
-      "beginner": 25,
-      "intermediate": 40,
-      "advanced": 55
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 20
-    },
-    "average_time": "30-90 seconds before transition to better or worse position"
-  },
-  "expert_insights": {
-    "danaher": "Headquarters bottom position represents a critical junction in the half guard passing sequence where defensive priorities must be precisely calibrated. The fundamental error practitioners make is treating this as a stable position worthy of extended occupation rather than recognizing it as a transitional crisis requiring immediate systematic response. Your defensive structure must be built on the principle of creating angles rather than opposing pressure directly - when the top player drives their knee across your torso, your frames are not designed to stop this pressure but rather to redirect it while your hips create the angle necessary for re-guarding sequences. The hierarchy of defensive actions must be clear: first establish frames that prevent complete flattening, second create the angle through hip escape that opens recovery pathways, third exploit the window created by these movements to recover guard structure or enter deep half positions. The most sophisticated defense recognizes that the top player's pressure itself creates opportunities - as they commit weight forward to complete the pass, they necessarily create space behind them that allows deep half entries. Your mental model should categorize every moment in headquarters bottom as either building defensive structure or exploiting offensive windows, never accepting passive survival.",
-    "gordon_ryan": "From competition experience, headquarters bottom is where matches get decided - it's the last stand before your guard gets passed and you're defending side control for the rest of the round. The key is understanding that you're playing on a timer here, and that timer is how long your frames can hold up under sustained pressure. I focus on two main pathways: if they're pressuring hard for the knee slice, I'm going under to deep half because their forward commitment is what gives me that entry. If they're being patient and controlling, I'm working my re-guard with the understanding that I need to create a reaction first - usually by threatening the underhook sweep to get them to post, which opens the path to recover full guard. The biggest mistake I see is guys trying to sweep from here without establishing the proper controls first. You're in a defensive position, so your sweeps need to come from defensive reactions, not offensive initiatives. When I'm drilling this position, I'm focused on making my frames efficient enough that I can maintain them while my hips are working, because the moment your frames collapse is the moment you're defending side control. Competition-wise, if you're in headquarters bottom, you better be working toward something better within 10-15 seconds or you're getting passed by any decent opponent.",
-    "eddie_bravo": "Headquarters bottom is actually one of my favorite teaching positions because it forces people to understand the 10th Planet philosophy of never accepting bad positions - you're always working toward something better. From here, I'm immediately thinking about the lockdown if I can get it, or I'm going to electric chair entries if they're putting heavy pressure. The thing about headquarters is it's created by their knee shield, so if you can control that knee or get under it, you've got options. I teach a lot of invisible collar work from here too - if they're pressuring hard, their posture is often compromised and you can threaten the guillotine or darce, which creates the reaction that lets you recover. The deep half entry is huge from here, especially the Jeff Glover style where you're swimming the underhook and going belly down. But the real innovation in this position is recognizing that their pressure can be used against them - when they're driving that knee slice, they're committed and off-balance, which is when the old school sweep becomes available. I also like the rubber guard recovery from here if you can get your leg up and into mission control, because their forward pressure actually helps you lock it in. The key is staying creative and not letting them settle into a rhythm with their passing pressure."
-  }
-}
-{
-  "metadata": {
-    "title": "Headquarters Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Headquarters Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Central passing hub with 70% advancement rate.",
-    "state_id": "S015",
-    "tags": [
-      "bjj",
-      "position",
-      "passing",
-      "top-control",
-      "guard-passing"
-    ]
-  },
-  "overview": "The Headquarters Position (HQ) is a fundamental guard passing control position where the top player controls one of the bottom player's legs while establishing strong base and posture. This position serves as a central hub for multiple passing strategies, creating a systematic approach to bypassing various guard configurations. Headquarters offers exceptional control with relatively low risk, acting as a decision point from which the passer can select the optimal passing route based on the opponent's reactions. The position creates a strategic advantage by limiting the bottom player's defensive options while maintaining multiple offensive pathways. From Headquarters, the passer can flow seamlessly between knee slice, long step, smash pass, and leg weave variations, making it one of the most versatile positions in modern guard passing systems.",
+  "name": "Headquarters Position",
+  "description": "Master Headquarters Position in BJJ. Strategic passing control position with multiple offensive pathways and 70% advancement rate for systematic guard passing.",
+  "tags": ["bjj", "position", "headquarters", "guard-passing", "top-control", "systematic-passing", "half-guard"],
+  "variant_uniqueness": "Systematic passing hub with versatile control",
+  "overview": "Headquarters Position is a fundamental guard passing control position where the top player establishes dominant leg control while maintaining strong base and upright posture. This position serves as the central hub of modern systematic guard passing, acting as a strategic decision point from which the passer selects optimal passing routes based on opponent reactions. The position creates exceptional control with relatively low risk, limiting the bottom player's defensive options while maintaining multiple offensive pathways.\n\nHeadquarters offers a systematic approach to bypassing various guard configurations by controlling one of the opponent's legs while establishing triangulated base structure. From this position, the passer can flow seamlessly between knee slice, long step, smash pass, and leg weave variations, making it one of the most versatile positions in contemporary guard passing systems. The position's effectiveness stems from its ability to compress infinite guard passing complexity into finite if-then decision sequences.\n\nThis position represents a fundamental evolution in guard passing theory, moving away from commitment-heavy explosive passes toward measured, reactive approaches that maintain safety while threatening multiple directions simultaneously. The passer can probe defenses methodically, returning to headquarters between attempts rather than overcommitting to single directions, creating grinding systematic pressure that exhausts defensive options over time.",
   "state_properties": {
     "point_value": 0,
     "position_type": "Offensive/Controlling",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
+    "risk_level": "Low",
+    "energy_cost": "Low",
+    "time_sustainability": "Long"
   },
   "state_invariants": [
-    "One of opponent's legs is controlled and pinned between the top player's legs, with the knee driven toward the mat to restrict hip mobility and prevent guard recovery",
-    "The supporting leg is firmly posted wide and away from the opponent's body, creating a stable triangular base that resists off-balancing attempts and sweep mechanics",
-    "Upright posture is maintained with spine alignment perpendicular to the mat, weight distributed through the hips rather than hands, preventing forward rolls and maintaining balance",
-    "Control hand grips the opponent's knee, thigh, or pants at the knee line, while the opposite hand controls the lapel, collar, or establishes an underhook to prevent frames",
-    "Opponent's hips are flattened to the mat or controlled in a way that prevents them from turning into the passer or creating angular escapes through hip movement"
+    "One opponent leg controlled and pinned between top player's legs with knee driven toward mat by shin or knee pressure, restricting hip mobility and preventing guard recovery through sustained downward pressure",
+    "Supporting leg firmly posted wide on mat creating stable triangular base typically positioned 45-90 degrees from controlled leg, providing stability against sweeps while allowing dynamic weight transfer for passing attacks",
+    "Upright posture maintained with spine aligned vertically and perpendicular to mat, head up with shoulders positioned over hips rather than leaning forward, creating structural integrity that prevents breakdown and maintains balance",
+    "Control hand grips opponent's knee, thigh, or pants at knee line while opposite hand controls lapel, collar, or establishes underhook, preventing frames while maintaining distance management and preventing opponent from establishing defensive structures",
+    "Opponent's hips flattened to mat or controlled through combination of leg pressure and upper body control, limiting mobility and ability to create hip movement necessary for guard retention or sweep attempts"
   ],
   "prerequisites": [
-    "Solid understanding of base mechanics and weight distribution principles",
-    "Ability to establish and maintain knee-line control against resistance",
-    "Familiarity with fundamental guard passing concepts and timing",
-    "Recognition of opponent's defensive patterns and guard retention strategies",
-    "Competence in grip fighting and hand positioning to establish initial control"
+    "Solid understanding of base mechanics and weight distribution principles in top positions",
+    "Ability to establish and maintain knee-line control against resistance from various guard configurations",
+    "Familiarity with fundamental guard passing concepts, timing, and systematic passing methodology",
+    "Recognition of opponent's defensive patterns, guard retention strategies, and common escape sequences",
+    "Competence in grip fighting and hand positioning to establish initial control from standing or combat base"
   ],
   "key_principles": [
-    "Control opponent's leg by driving knee toward mat, eliminating their ability to create frames or recover guard structure",
-    "Establish strong posting base with opposite leg positioned wide and perpendicular to opponent's body line",
-    "Maintain upright posture with strong spine alignment, preventing forward weight shift that creates rolling opportunities",
-    "Create and manipulate passing angles by adjusting hip position and weight distribution",
-    "Control opponent's hip mobility through strategic placement of trapped leg and pressure application",
-    "Neutralize opponent's frames and hooks by maintaining distance with posting hand while controlling with gripping hand",
-    "Systematically eliminate defensive options by reading reactions and selecting appropriate passing variations"
+    "Control opponent's leg by driving knee firmly toward mat, eliminating their ability to create frames or recover guard structure through sustained pressure",
+    "Establish strong posting base with opposite leg positioned wide and perpendicular to opponent's body line, creating triangular structure resistant to sweeps",
+    "Maintain upright posture with strong spine alignment and vertical orientation, preventing forward weight shift that creates rolling opportunities or compromises balance",
+    "Create and manipulate passing angles by adjusting hip position and weight distribution while maintaining connection with trapped leg throughout transitions",
+    "Control opponent's hip mobility through strategic placement of trapped leg and systematic pressure application that limits their movement options",
+    "Neutralize opponent's frames and hooks by maintaining distance with posting hand while controlling with gripping hand, preventing them from creating space",
+    "Systematically eliminate defensive options by reading reactions and selecting appropriate passing variations, using headquarters as central decision hub"
   ],
   "offensive_transitions": [
     {
       "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
+      "target_position": "Side Control",
       "success_rates": {
         "beginner": 40,
         "intermediate": 60,
@@ -369,7 +46,7 @@
     },
     {
       "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
+      "target_position": "Side Control",
       "success_rates": {
         "beginner": 35,
         "intermediate": 55,
@@ -378,7 +55,7 @@
     },
     {
       "technique": "Smash Pass",
-      "target_position": "Side Control Top",
+      "target_position": "Side Control",
       "success_rates": {
         "beginner": 45,
         "intermediate": 65,
@@ -396,7 +73,7 @@
     },
     {
       "technique": "Over-Under Pass",
-      "target_position": "Side Control Top",
+      "target_position": "Side Control",
       "success_rates": {
         "beginner": 35,
         "intermediate": 55,
@@ -405,11 +82,20 @@
     },
     {
       "technique": "Underhook Pass",
-      "target_position": "Side Control Top",
+      "target_position": "Side Control",
       "success_rates": {
         "beginner": 40,
         "intermediate": 60,
         "advanced": 75
+      }
+    },
+    {
+      "technique": "Crossface Pass",
+      "target_position": "Side Control",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
       }
     },
     {
@@ -420,42 +106,28 @@
         "intermediate": 45,
         "advanced": 60
       }
-    },
-    {
-      "technique": "Crossface Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
     }
   ],
   "defensive_responses": [
     {
       "technique": "Frame and Shrimp",
-      "target_position": "Guard Recovery",
+      "target_position": "Half Guard",
       "success_rate": 45
     },
     {
       "technique": "Underhook Sweep from Half",
-      "target_position": "Top Position",
+      "target_position": "Scramble Position",
       "success_rate": 35
     },
     {
-      "technique": "Re-Guard",
-      "target_position": "Half Guard Bottom",
+      "technique": "Re-Guard from Headquarters",
+      "target_position": "Half Guard",
       "success_rate": 40
     },
     {
       "technique": "Technical Standup",
       "target_position": "Standing Position",
       "success_rate": 30
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Open Guard Bottom",
-      "success_rate": 25
     },
     {
       "technique": "Deep Half Entry",
@@ -466,37 +138,32 @@
   "counter_transitions": [
     {
       "technique": "Pressure Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent attempts to create frames and space with hands or feet"
+      "target_position": "Side Control",
+      "trigger": "Opponent attempts to create frames and space with hands or feet to prevent passing pressure"
     },
     {
-      "technique": "Knee Cut Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent turns toward trapped leg to recover half guard"
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control",
+      "trigger": "Opponent turns toward trapped leg attempting to recover half guard structure or full guard"
     },
     {
       "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent extends leg to create distance or push knee line"
+      "target_position": "Side Control",
+      "trigger": "Opponent extends leg to create distance or pushes knee line with foot on hip"
     },
     {
       "technique": "Back Step",
       "target_position": "Back Control",
-      "trigger": "Opponent commits to deep half guard entry or underhook attack"
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent attempts to shrimp away or create lateral movement"
+      "trigger": "Opponent commits to deep half guard entry or underhook attack creating back exposure"
     }
   ],
   "decision_tree": [
     {
-      "condition": "If opponent keeps leg straight and attempts to push knee line with foot on hip",
+      "condition": "If opponent keeps leg straight and attempts to push knee line with foot on hip creating distance",
       "actions": [
         {
           "technique": "Long Step Pass",
-          "target": "Side Control Top",
+          "target": "Side Control",
           "probability": 70
         },
         {
@@ -507,37 +174,37 @@
       ]
     },
     {
-      "condition": "If opponent turns toward trapped leg attempting to recover half guard or full guard",
+      "condition": "If opponent turns toward trapped leg attempting to recover half guard or full guard structures",
       "actions": [
         {
           "technique": "Knee Slice Pass",
-          "target": "Side Control Top",
+          "target": "Side Control",
           "probability": 75
         },
         {
           "technique": "Crossface Pass",
-          "target": "Side Control Top",
+          "target": "Side Control",
           "probability": 65
         }
       ]
     },
     {
-      "condition": "If opponent creates strong frames with hands on shoulder and hip, attempting to maintain distance",
+      "condition": "If opponent creates strong frames with hands on shoulder and hip attempting to maintain distance",
       "actions": [
         {
           "technique": "Smash Pass",
-          "target": "Side Control Top",
+          "target": "Side Control",
           "probability": 80
         },
         {
           "technique": "Pressure Pass",
-          "target": "Side Control Top",
+          "target": "Side Control",
           "probability": 70
         }
       ]
     },
     {
-      "condition": "If opponent attempts deep half guard entry or commits to underhook sweep",
+      "condition": "If opponent attempts deep half guard entry or commits to underhook sweep mechanics",
       "actions": [
         {
           "technique": "Back Step",
@@ -546,23 +213,8 @@
         },
         {
           "technique": "Underhook Pass",
-          "target": "Side Control Top",
+          "target": "Side Control",
           "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent remains passive without clear defensive commitment",
-      "actions": [
-        {
-          "technique": "Knee Slice Pass",
-          "target": "Side Control Top",
-          "probability": 70
-        },
-        {
-          "technique": "Transition to Mount",
-          "target": "Mount",
-          "probability": 55
         }
       ]
     }
@@ -570,492 +222,106 @@
   "common_errors": [
     {
       "error": "Poor knee control with insufficient pressure on opponent's knee line",
-      "consequence": "Allows opponent to recover guard structure, create frames, or enter into half guard positions that neutralize passing momentum",
-      "correction": "Drive knee firmly toward mat using weight from hips, pinning opponent's knee and restricting hip mobility. Maintain constant downward pressure throughout the passing sequence."
+      "consequence": "Allows opponent to recover guard structure, create effective frames, or enter into half guard positions that neutralize passing momentum and reset position to opponent's advantage",
+      "correction": "Drive knee firmly toward mat using weight from hips, pinning opponent's knee and restricting hip mobility through constant downward pressure maintained throughout entire passing sequence"
     },
     {
-      "error": "Excessive forward lean with weight shifted over hands rather than hips",
-      "consequence": "Creates vulnerability to forward rolls, off-balancing sweeps, and granby roll escapes. Compromises base stability and reaction time.",
-      "correction": "Keep spine upright and perpendicular to mat, distributing weight through hips and posting leg. Use hands for balance and control, not weight support."
+      "error": "Excessive forward lean with weight shifted over hands rather than hips and chest",
+      "consequence": "Creates vulnerability to forward rolls, off-balancing sweeps, and granby roll escapes while compromising base stability and reaction time to opponent movements",
+      "correction": "Keep spine upright and perpendicular to mat, distributing weight through hips and posting leg while using hands for balance and control rather than weight support"
     },
     {
-      "error": "Insufficient base width with posting leg too close to opponent's body",
-      "consequence": "Reduces stability against lateral sweeps and makes passer vulnerable to being pushed or pulled off balance during opponent's escape attempts",
-      "correction": "Post supporting leg wide and away from opponent's centerline, creating triangular base. Angle posting foot perpendicular to opponent's body for maximum stability."
+      "error": "Insufficient base width with posting leg positioned too close to opponent's body",
+      "consequence": "Reduces stability against lateral sweeps and makes passer vulnerable to being pushed or pulled off balance during opponent's escape attempts or sweep mechanics",
+      "correction": "Post supporting leg wide and away from opponent's centerline creating triangular base with posting foot angled perpendicular to opponent's body for maximum stability"
     },
     {
       "error": "Passive positioning without active pressure or advancing intention",
-      "consequence": "Allows opponent time to develop escape sequences, recover guard structures, or create effective defensive frames that prevent progression",
-      "correction": "Maintain constant forward pressure while reading opponent's reactions. Continuously threaten multiple passing options to prevent opponent from settling into defensive patterns."
+      "consequence": "Allows opponent time to develop escape sequences, recover guard structures, or create effective defensive frames that prevent progression and eliminate passing advantages",
+      "correction": "Maintain constant forward pressure while reading opponent's reactions, continuously threatening multiple passing options to prevent opponent from settling into defensive patterns"
     },
     {
       "error": "Telegraphing pass direction through premature weight shifts or grip changes",
-      "consequence": "Opponent anticipates passing direction and establishes defensive structures or escape routes before passer can complete the technique",
-      "correction": "Maintain neutral position until opponent commits to a defensive pattern, then explosively execute the appropriate counter-pass. Use feints and subtle weight adjustments to disguise intentions."
+      "consequence": "Opponent anticipates passing direction and establishes defensive structures or escape routes before passer can complete technique, neutralizing passing attempts",
+      "correction": "Maintain neutral position until opponent commits to defensive pattern, then explosively execute appropriate counter-pass while using feints and subtle adjustments to disguise intentions"
     },
     {
-      "error": "Losing connection with trapped leg during transitional moments",
-      "consequence": "Opponent recovers full guard or creates scramble situations that eliminate passing advantages and reset position to neutral",
-      "correction": "Maintain leg control throughout entire passing sequence using consistent pressure. If transitioning grips, ensure new control is established before releasing original grip."
-    },
-    {
-      "error": "Inadequate head control or upper body management",
-      "consequence": "Allows opponent to establish effective frames, create distance, or use collar grips to off-balance and disrupt passing attempts",
-      "correction": "Control opponent's upper body using collar grips, underhooks, or crossface pressure. Prevent opponent from establishing frames by managing distance and controlling head positioning."
+      "error": "Losing connection with trapped leg during transitional moments between passes",
+      "consequence": "Opponent recovers full guard or creates scramble situations that eliminate passing advantages and reset position to neutral or worse positions",
+      "correction": "Maintain leg control throughout entire passing sequence using consistent pressure, ensuring new control is established before releasing original grip during transitions"
     }
   ],
   "training_drills": [
     {
       "name": "Headquarters Maintenance Drill",
-      "description": "Partner starts in headquarters with one leg trapped. Bottom player uses various escape attempts (frames, shrimps, deep half entries) while top player maintains position and adjusts base. Focus on weight distribution, posting mechanics, and knee control pressure.",
+      "description": "Partner starts in headquarters with one leg trapped. Bottom player uses various escape attempts including frames, shrimps, deep half entries, and guard recovery while top player maintains position and adjusts base. Focus on weight distribution, posting mechanics, and knee control pressure throughout opponent's defensive movements.",
       "duration": "3 minutes per round, 3-4 rounds per partner"
     },
     {
       "name": "Headquarters Passing Cycle",
-      "description": "From established headquarters, cycle through all primary passing options (knee slice, long step, smash pass, leg weave) based on coach's calls or timer. Bottom player provides progressive resistance. Emphasizes reading reactions and selecting appropriate passing variations.",
+      "description": "From established headquarters position, cycle through all primary passing options including knee slice, long step, smash pass, and leg weave based on coach's calls or timer intervals. Bottom player provides progressive resistance. Emphasizes reading reactions and selecting appropriate passing variations while maintaining headquarters as central hub.",
       "duration": "5 minutes continuous flow, 2-3 rounds per partner"
     },
     {
       "name": "Recovery to Headquarters Drill",
-      "description": "Start from compromised positions (opponent has frames, partial guard recovery, or defensive grips). Work to re-establish headquarters control against resistance. Develops ability to find headquarters position during live rolling and competition.",
-      "duration": "2 minutes per scenario, 5-6 different scenarios"
-    },
-    {
-      "name": "Reaction-Based Passing from HQ",
-      "description": "Bottom player chooses one of three defensive responses (push knee line, turn toward passer, or create frames). Top player reads the reaction and executes appropriate counter-pass. Builds decision-tree recognition and automatic response patterns.",
-      "duration": "10 repetitions per defensive response, 3-4 rounds"
+      "description": "Start from compromised positions where opponent has frames, partial guard recovery, or defensive grips established. Work to re-establish headquarters control against resistance. Develops ability to find and maintain headquarters position during live rolling and competition scenarios with realistic resistance levels.",
+      "duration": "2 minutes per scenario, 5-6 different starting positions"
     }
   ],
   "optimal_submission_paths": [
     {
-      "name": "Shortest submission path via mount control",
-      "path": "Headquarters Position → Knee Slice Pass → Side Control Top → Transition to Mount → Mount → Americana from Mount"
-    },
-    {
       "name": "High-percentage kimura path from side control",
-      "path": "Headquarters Position → Smash Pass → Side Control Top → Kimura from Side Control"
+      "path": "Headquarters Position → Smash Pass → Side Control → Kimura from Side Control"
     },
     {
-      "name": "Back attack path via counter to deep half entry",
-      "path": "Headquarters Position → Back Step (counter to deep half) → Back Control → Rear Naked Choke"
+      "name": "Back attack path via counter to deep half",
+      "path": "Headquarters Position → Back Step → Back Control → Rear Naked Choke"
     },
     {
-      "name": "Leg weave to mount submission sequence",
-      "path": "Headquarters Position → Leg Weave Pass → Mount → Arm Triangle → Won by Submission"
-    },
-    {
-      "name": "Pressure passing to north-south choke",
-      "path": "Headquarters Position → Pressure Pass → Side Control Top → Transition to North-South → North-South Choke"
+      "name": "Mount submission sequence via knee slice",
+      "path": "Headquarters Position → Knee Slice Pass → Side Control → Transition to Mount → Mount → Americana from Mount"
     }
   ],
   "related_content": [
     {
-      "name": "Knee Slice Position Top",
-      "relationship": "Primary transition target - most common passing option from headquarters"
-    },
-    {
-      "name": "Smash Pass Position",
-      "relationship": "Alternative passing position when opponent creates frames"
-    },
-    {
       "name": "Combat Base",
-      "relationship": "Preceding position - often used to establish headquarters control"
+      "relationship": "Preceding position - often used to establish headquarters control from guard configurations"
     },
     {
-      "name": "Half Guard Bottom",
-      "relationship": "Common starting position from which headquarters is established"
+      "name": "Half Guard",
+      "relationship": "Common starting position from which headquarters is established during passing sequences"
     },
     {
-      "name": "Side Control Top",
-      "relationship": "Primary target position for most passing sequences from headquarters"
+      "name": "Side Control",
+      "relationship": "Primary target position for most passing sequences initiated from headquarters"
     },
     {
       "name": "Deep Half Guard",
-      "relationship": "Common defensive entry opponent attempts from headquarters"
+      "relationship": "Common defensive entry opponent attempts from headquarters pressure"
     },
     {
       "name": "Guard Passing Principles",
-      "relationship": "Foundational concept that underlies headquarters strategy"
+      "relationship": "Foundational concept that underlies headquarters systematic passing strategy"
     },
     {
       "name": "Pressure Passing",
-      "relationship": "Technical concept applied when maintaining headquarters control"
+      "relationship": "Technical concept applied when maintaining headquarters control and advancing passes"
     },
     {
-      "name": "Long Step Position Top",
-      "relationship": "Variation of headquarters with different leg configuration"
+      "name": "Knee Slice Pass",
+      "relationship": "Primary offensive transition when opponent turns toward trapped leg"
     },
     {
-      "name": "Top Half Guard",
-      "relationship": "Related concept covering strategic approach to passing from top"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 40,
-      "intermediate": 60,
-      "advanced": 75
-    },
-    "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    },
-    "submission_probability": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 45
-    },
-    "average_time": "30-90 seconds before advancing to side control or mount"
-  },
-  "expert_insights": {
-    "danaher": "Headquarters represents the central hub of a systematic passing approach, where controlling the opponent's knee-line creates the fundamental decision point in guard passing. The position's power lies not in forcing a specific pass, but in creating a control structure that limits the opponent's defensive options while maintaining multiple offensive pathways. By establishing headquarters, you compress the infinite complexity of guard passing into a finite series of if-then sequences. When opponent extends the leg, execute long step. When they turn toward you, execute knee slice. When they create frames, execute smash pass. This systematic reduction transforms guard passing from a chaotic scramble into a controlled technical progression. The critical principle is maintaining connection with the trapped leg throughout all transitions - this connection is the thread that ties together your entire passing system. Without it, you return to chaos. With it, you have a roadmap through every defensive response.",
-    "gordon_ryan": "In competition, headquarters is my favorite position because it puts maximum pressure on my opponent to make decisions while I stay relatively safe and can choose my passing route based on their mistakes. I don't commit heavy pressure initially - I want to float just enough to make them think they can escape, which causes them to show me their defensive strategy. Once they commit to pushing my knee, turning into me, or trying to frame, I already know exactly which pass is going to work. The key is not telegraphing your intention. If they can't tell whether you're going knee slice, long step, or smash pass, they can't defend all three simultaneously. I'll often feint one direction to get them overcommitted, then immediately switch to the now-open passing lane. Against high-level opponents, headquarters also gives me time to control their grips and establish my preferred grip configurations before committing to the pass, which dramatically increases my success rate in the actual passing sequence.",
-    "eddie_bravo": "From headquarters-type positions, I'm always looking for opportunities to create unconventional control angles that traditional passers ignore. While everyone is focused on the standard knee slice or long step, I'm thinking about how to use that trapped leg as an anchor point to create rotational pressure that leads into twister side control or truck position entries. If the opponent is defending the standard passes, they're not ready for you to suddenly change levels and attack their back or go for unconventional leg positions. The 10th Planet approach is to use headquarters as a launching point for creative transitions rather than just a passing position. For example, if they defend the knee slice by turning toward me, instead of forcing the pass I might transition to calf slicer control or even look for the truck entry if they give me their back. Don't get stuck thinking headquarters only leads to side control - it can lead to much more interesting positions if you're willing to think outside the box."
-  }
-}
-{
-  "metadata": {
-    "title": "Headquarters Position Top | BJJ Position Guide | BJJ Graph",
-    "description": "Master Headquarters Position Top in BJJ. Complete guide covering setup, control, passing strategies, and transitions. Success rates: Beginner 70%, Intermediate 85%, Advanced 95%.",
-    "state_id": "S080",
-    "tags": [
-      "bjj",
-      "state",
-      "pass",
-      "top",
-      "control",
-      "systematic"
-    ]
-  },
-  "overview": "The Headquarters Position Top (HQ) is a fundamental and highly systematic guard passing control position where the top player controls one of the bottom player's legs while establishing strong base, upright posture, and optimal positioning for multiple passing strategies. Popularized and refined by John Danaher and his students, headquarters serves as the central hub of modern guard passing systems, creating a decision point from which the passer can select the optimal passing route based on the opponent's defensive reactions. The position offers exceptional control with minimal energy expenditure and low risk, functioning as a stable platform for methodical, systematic guard passing rather than explosive or risky passing attempts.\n\nThe headquarters position represents a fundamental shift in guard passing philosophy, moving away from commitment-heavy passing attempts toward a more measured, reactive approach that maintains safety while threatening multiple directions simultaneously. From this position, the passer can attack with knee slice passes, leg drag passes, long step passes, or transitions to other passing positions while maintaining the ability to return to headquarters if any single passing attempt is defended. This creates a grinding, systematic pressure that exhausts the bottom player's defensive options over time while keeping the passer safe from sweeps and submissions. The position is equally effective in gi and no-gi contexts, though specific gripping strategies differ between the two formats.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low",
-    "energy_cost": "Low",
-    "time_sustainability": "Long"
-  },
-  "state_invariants": [
-    "One opponent leg controlled between your legs with their knee pinned to the mat by your shin or knee while your leg wraps around or controls their thigh, eliminating their ability to create angles or recover guard structures",
-    "Supporting leg firmly posted wide on the mat in a strong triangular base position, typically at 45-90 degree angle from the controlled leg, providing stability against sweeps and allowing weight distribution that prevents opponent from elevating your hips",
-    "Upright posture maintained with spine aligned vertically, head up, and shoulders over hips rather than leaning forward onto opponent, creating structural integrity that prevents opponent from breaking you down or creating sweep angles",
-    "Hands actively controlling opponent's upper body through collar grips, sleeve grips, or strategic posts on hips and shoulders, maintaining distance management and preventing opponent from establishing defensive frames or closing distance to initiate guard recovery",
-    "Opponent's hips flattened to mat or controlled through combination of leg pressure and upper body control, limiting their mobility and ability to create the hip movement necessary for guard retention or sweep attempts"
-  ],
-  "prerequisites": [
-    "Solid understanding of base and posture fundamentals in top positions",
-    "Familiarity with guard passing mechanics and principles of systematic passing",
-    "Recognition of opponent's defensive patterns and common guard retention frames",
-    "Knowledge of systematic passing approaches and ability to chain multiple passing attempts",
-    "Understanding of leg control mechanics and ability to pin opponent's knee effectively"
-  ],
-  "key_principles": [
-    "Pin opponent's knee firmly to mat with sustained pressure from shin or knee, eliminating space and preventing hip mobility",
-    "Maintain upright posture with aligned spine and head position over hips, never collapsing forward onto opponent",
-    "Establish wide, stable base with posted leg creating triangular structure that resists sweeps and provides platform for movement",
-    "Control opponent's hip mobility through combination of leg pressure and strategic upper body grips",
-    "Systematically eliminate defensive options by threatening multiple passing directions simultaneously",
-    "Maintain headquarters as decision hub, returning to position between passing attempts rather than overcommitting to single direction",
-    "Use opponent's defensive reactions to inform passing selection, attacking the direction they leave vulnerable"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      }
+      "name": "Long Step Pass",
+      "relationship": "Primary offensive transition when opponent extends leg to create distance"
     },
     {
-      "technique": "Knee Slice from Half",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80
-      }
+      "name": "Headquarters Pass",
+      "relationship": "Specific passing transition utilizing headquarters control principles"
     },
     {
-      "technique": "Leg Weave Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Underhook Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Crossface Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Over-Under Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Frame Creation",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Hip Escape",
-      "target_position": "Open Guard Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Knee Shield Retention",
-      "target_position": "Knee Shield Position Bottom",
-      "success_rate": 40
-    },
-    {
-      "technique": "Guard Replacement",
-      "target_position": "Closed Guard Bottom",
-      "success_rate": 25
-    },
-    {
-      "technique": "Underhook Sweep",
-      "target_position": "Dogfight Position",
-      "success_rate": 35
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent extends frames to create distance from upper body"
-    },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent commits knee shield or attempts to recover full guard"
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent turtles or turns away to defend initial passing attempt"
-    },
-    {
-      "technique": "Leg Weave Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent attempts to insert second leg back into guard or create butterfly hooks"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent extends frames and pushes upper body away creating distance",
-      "actions": [
-        {
-          "technique": "Knee Slice Pass",
-          "target": "Side Control Top",
-          "probability": 70
-        },
-        {
-          "technique": "Knee Slice from Half",
-          "target": "Side Control Top",
-          "probability": 65
-        }
-      ]
-    },
-    {
-      "condition": "If opponent commits knee shield or attempts to recover guard structure",
-      "actions": [
-        {
-          "technique": "Long Step Pass",
-          "target": "Side Control Top",
-          "probability": 65
-        },
-        {
-          "technique": "Leg Weave Pass",
-          "target": "Side Control Top",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent turns away or turtles to defend passing attempt",
-      "actions": [
-        {
-          "technique": "Smash Pass",
-          "target": "Side Control Top",
-          "probability": 70
-        },
-        {
-          "technique": "Crossface Pass",
-          "target": "Side Control Top",
-          "probability": 65
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to create underhooks or battle for inside position",
-      "actions": [
-        {
-          "technique": "Underhook Pass",
-          "target": "Side Control Top",
-          "probability": 65
-        },
-        {
-          "technique": "Over-Under Pass",
-          "target": "Side Control Top",
-          "probability": 60
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Poor knee control with insufficient pressure on opponent's pinned leg",
-      "consequence": "Allows opponent to recover guard easily as insufficient pressure on their knee permits hip mobility and frame recovery, enabling them to re-establish defensive structures and escape passing sequences",
-      "correction": "Pin their knee firmly to the mat with your shin or knee, maintaining constant downward pressure that eliminates their ability to create angles, move hips, or re-establish guard structures"
-    },
-    {
-      "error": "Weak base positioning with narrow stance or posted leg too close to body",
-      "consequence": "Creates vulnerability to sweeps and reversals as narrow or imbalanced base makes you unstable during transitions, allowing opponent to elevate hips or create off-balancing angles",
-      "correction": "Post supporting leg wide at 45-90 degree angle creating strong triangular base that distributes weight effectively and provides stable platform resistant to opponent's sweep attempts"
-    },
-    {
-      "error": "Collapsing forward with poor posture, leaning chest and shoulders onto opponent",
-      "consequence": "Allows opponent to break down your structure, create frames under your chest, and generate sweep opportunities by controlling your upper body weight and creating leverage angles",
-      "correction": "Maintain upright posture with spine vertical, head up, and shoulders positioned over hips, using structural alignment rather than muscular tension to maintain position"
-    },
-    {
-      "error": "Overcommitting to single passing direction without maintaining headquarters option",
-      "consequence": "Once committed to failed passing attempt, difficult to recover position and opponent can use your momentum to create sweep opportunities or recover guard completely",
-      "correction": "Maintain ability to return to headquarters between passing attempts, treating each pass as probe rather than all-or-nothing commitment, allowing you to chain multiple attempts systematically"
-    },
-    {
-      "error": "Poor upper body control allowing opponent to establish strong frames or grips",
-      "consequence": "Opponent can create distance, prevent passing pressure, and initiate guard recovery sequences by controlling your posture and movement through frames and grip advantages",
-      "correction": "Actively control opponent's upper body through strategic collar, sleeve, or posting grips that prevent frame establishment and maintain distance management necessary for effective passing"
-    },
-    {
-      "error": "Static headquarters position without threatening multiple passing directions",
-      "consequence": "Opponent can focus defensive efforts on single direction, making guard retention easier and reducing effectiveness of passing system",
-      "correction": "Constantly threaten multiple passing directions through subtle weight shifts and positioning adjustments, forcing opponent to make defensive choices that create openings in other directions"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Knee Pin Maintenance Drill",
-      "description": "Practice maintaining knee control from headquarters against progressive resistance, developing sensitivity to opponent's movement and adjustment timing. Partner provides graduated resistance from 25% to 75%, attempting to recover guard while you focus solely on maintaining perfect knee pin and base.",
-      "duration": "5 minutes per round, 3 rounds"
-    },
-    {
-      "name": "Pass Selection Cycling Drill",
-      "description": "Drill transitioning between different passes from headquarters based on partner's defensive reactions, building decision-making skills and pattern recognition. Partner provides specific defensive frames and movements, and you respond with appropriate passing selection from headquarters hub.",
-      "duration": "3 minutes per round, 5 rounds"
-    },
-    {
-      "name": "Headquarters Recovery and Re-establishment Drill",
-      "description": "Work on recovering headquarters when position is compromised, understanding how to reset control when opponent creates frames or angles. Start from various guard positions and work to establish headquarters, then maintain against escape attempts, focusing on returning to headquarters rather than forcing passes.",
-      "duration": "4 minutes per round, 4 rounds"
-    },
-    {
-      "name": "Systematic Passing Flow Drill",
-      "description": "Flow through complete passing sequences starting from headquarters, attempting 3-4 different passes before committing to completion. Emphasizes maintaining headquarters as central hub and developing ability to chain passing attempts without losing position.",
-      "duration": "6 minutes per round, 3 rounds"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "High-percentage kimura path from passing position",
-      "path": "Headquarters Position Top → Knee Slice Pass → Side Control Top → Kimura from Side Control"
-    },
-    {
-      "name": "Systematic arm triangle path through mount",
-      "path": "Headquarters Position Top → Smash Pass → Side Control Top → Mount → Arm Triangle"
-    },
-    {
-      "name": "Back attack path from leg control",
-      "path": "Headquarters Position Top → Long Step Pass → Side Control Top → Back Control → Rear Naked Choke"
-    },
-    {
-      "name": "Darce choke path from headquarters pressure",
-      "path": "Headquarters Position Top → Crossface Pass → Front Headlock Control Position → Darce Choke"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Common starting position where headquarters is established from"
-    },
-    {
-      "name": "Combat Base",
-      "relationship": "Foundational position that transitions into headquarters with leg control"
-    },
-    {
-      "name": "Side Control Top",
-      "relationship": "Primary target position for successful passes from headquarters"
-    },
-    {
-      "name": "Knee Slice Position Top",
-      "relationship": "Variation of headquarters with specific passing angle commitment"
-    },
-    {
-      "name": "Long Step Position Top",
-      "relationship": "Transitional position accessed from headquarters passing attempts"
-    },
-    {
-      "name": "Smash Pass Position",
-      "relationship": "Alternative passing position accessed from headquarters control"
-    },
-    {
-      "name": "Knee Shield Position Bottom",
-      "relationship": "Common defensive structure opponent attempts from headquarters pressure"
-    },
-    {
-      "name": "Dogfight Position",
-      "relationship": "Transitional position that can occur during headquarters battle"
-    },
-    {
-      "name": "Guard Passing Principles",
-      "relationship": "Conceptual framework underlying headquarters passing system"
-    },
-    {
-      "name": "Pressure Passing Framework",
-      "relationship": "Systematic approach that headquarters exemplifies"
+      "name": "Re-Guard from Headquarters",
+      "relationship": "Common defensive transition opponent attempts from this position"
     }
   ],
   "position_metrics": {
@@ -1074,428 +340,11 @@
       "intermediate": 30,
       "advanced": 45
     },
-    "average_time": "30-90 seconds before passing attempt or position change"
+    "average_time": "30-90 seconds before advancing to side control or mount, or returning to guard configurations"
   },
   "expert_insights": {
-    "danaher": "The headquarters position represents a fundamental evolution in guard passing theory, moving away from the traditional commitment-heavy passing attempts toward a more systematic, decision-tree based approach that maintains safety while creating multiple attacking vectors simultaneously. The biomechanical efficiency of headquarters lies in its triangulated base structure combined with the mechanical advantage created by pinning the opponent's knee to the mat, which eliminates their primary tool for creating angles and recovering guard structures. From a systematic standpoint, headquarters serves as what I call a 'passing hub' - a central position from which multiple passes can be initiated with minimal positional risk, allowing the passer to probe defenses methodically and select the optimal passing route based on the opponent's reactions rather than committing blindly to a single direction. The key technical elements are the vertical spinal alignment which prevents breakdown, the wide base which resists sweeps, and the active knee pin which eliminates the bottom player's mobility - together these create a position that can be maintained with minimal energy expenditure while constantly threatening progression.",
-    "gordon_ryan": "I use headquarters as my primary passing position in both gi and no-gi because it allows me to stay safe while threatening multiple passes simultaneously. The opponent never knows which direction I'm passing until I commit, which keeps them reactive and defensive rather than able to launch their own attacks. I emphasize a floating approach to headquarters where I maintain lower pressure initially to bait defensive movements, then commit heavily to specific passes when they overcommit to one direction. The key is being patient in headquarters and not rushing passes before the position is properly established - I'll often spend 30-60 seconds just maintaining headquarters and making small adjustments, forcing my opponent to make the first mistake. When they push my upper body, I slice the knee; when they frame the knee slice, I go long step; when they turtle, I smash pass. This reactive passing from a stable hub is what allowed me to maintain such high passing percentages in ADCC and other elite competitions where guard players are extremely difficult to pass through commitment-based approaches.",
-    "eddie_bravo": "While headquarters is more of a traditional systematic approach compared to the 10th Planet style, I recognize its effectiveness for methodical passing, especially in no-gi contexts where leg entanglement positions are prevalent. I teach students to use headquarters as a transition position but emphasize maintaining constant pressure and movement rather than static control - we're always hunting for the calf slice, the truck position, or transitioning to leg attacks if the opponent over-focuses on defending the pass. The combination of headquarters with quick transitions to leg drags and back steps can create explosive passing sequences that catch opponents off guard, especially when they're expecting the slow, grinding headquarters game. The key innovation I bring to headquarters is not getting too attached to the position and being willing to flow between headquarters and other passing positions dynamically, using it as one tool in a larger passing system rather than the single central hub. We also look for the electric chair and banana split from headquarters when the opponent tries to recover half guard, adding submission threats that traditional headquarters players might miss."
-  }
-}
-{
-  "metadata": {
-    "title": "Headquarters Top Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Headquarters Top Position in BJJ. Strategic passing position with 70% pass success rate. Complete guide covering control, passes, and expert insights from Danaher and Ryan.",
-    "state_id": "S072",
-    "tags": ["bjj", "position", "headquarters", "guard-passing", "top-position", "half-guard-passing"],
-    "parent_variant": "Headquarters Position",
-    "sibling_variants": ["Headquarters Bottom Position"]
-  },
-
-  "overview": "Headquarters Top Position is a strategic guard passing position where the top player establishes dominant control over the bottom player's legs while maintaining safe distance from submissions. This position represents the optimal staging area for initiating passes against half guard and other retention-based guards, providing maximum control with minimal risk. The top player uses their weight distribution, shoulder pressure, and leg control to systematically break down the guard player's defensive structure. Headquarters is characterized by the top player's ability to control both of the bottom player's legs while maintaining posture and balance, creating a stable platform from which to execute a variety of passing attacks. This position has become increasingly important in modern BJJ, particularly in no-gi grappling where it serves as a critical transitional state between standing and fully passed positions.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-
-  "state_invariants": [
-    "Top player's hips positioned above and outside the bottom player's legs with weight distributed through the chest and shoulder into opponent's upper body, creating constant downward pressure that limits mobility",
-    "Top player's hands controlling both of the bottom player's legs, typically one hand on the knee and one controlling the ankle or shin, establishing bilateral leg control that prevents guard retention",
-    "Bottom player's back on the mat with shoulders pinned or heavily weighted, unable to create significant angles or generate offensive attacks due to the top player's shoulder pressure and superior position",
-    "Top player maintains upright posture with head above the bottom player's center line, allowing visual control of all escape attempts while keeping safe distance from triangle attacks and other guard submissions",
-    "Top player's knees positioned wide and stable on the mat outside the bottom player's hips, creating a low base that resists sweeps while allowing dynamic weight transfer for passing attacks"
-  ],
-
-  "prerequisites": [
-    "Successful disengagement from close-range guard (closed guard, half guard, or butterfly guard)",
-    "Establishment of distance management to prevent re-engagement of guard",
-    "Control of at least one of opponent's legs (typically via grip on knee or ankle)",
-    "Posture established with chest over opponent's center line",
-    "Opponent's shoulders pinned or heavily pressured to mat",
-    "Safe positioning away from triangle and submission threats"
-  ],
-
-  "key_principles": [
-    "Maintain constant shoulder pressure into opponent's chest/shoulders to limit mobility and prevent re-guard",
-    "Control both of opponent's legs simultaneously to eliminate guard retention options",
-    "Keep hips mobile and ready to transition in any direction based on opponent's defensive reactions",
-    "Distribute weight through chest and shoulders rather than hands to maintain heavy pressure while keeping hands free for grips",
-    "Maintain safe distance from opponent's hips to avoid triangle attacks while staying close enough to pressure effectively",
-    "Use wide knee base for stability while remaining ready to drive forward or circle for passing angles",
-    "Monitor opponent's hands constantly to prevent them from establishing frames or creating space"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Headquarters Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      }
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Leg Weave Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Knee Cut Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 42,
-        "intermediate": 58,
-        "advanced": 72
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Re-Guard from Headquarters",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Knee Shield Recovery",
-      "target_position": "Knee Shield Half Guard Bottom",
-      "success_rate": 40
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rate": 25
-    },
-    {
-      "technique": "Reverse De La Riva Recovery",
-      "target_position": "Reverse De La Riva Guard Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Technical Standup",
-      "target_position": "Standing Guard Bottom",
-      "success_rate": 20
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Turtle Bottom",
-      "success_rate": 15
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent attempts to recover half guard by inserting knee shield"
-    },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent extends legs to create distance and prevent knee slice"
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent attempts to turn to turtle or create scramble"
-    },
-    {
-      "technique": "Leg Weave Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent locks down legs in defensive configuration"
-    },
-    {
-      "technique": "Back Step",
-      "target_position": "Back Control Top",
-      "trigger": "Opponent commits weight to one side while attempting to re-guard"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent extends legs to create distance and prevent close-range passing",
-      "actions": [
-        {
-          "technique": "Long Step Pass",
-          "target": "Side Control Top",
-          "probability": 65
-        },
-        {
-          "technique": "Leg Weave Pass",
-          "target": "Side Control Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to insert knee shield or recover half guard structure",
-      "actions": [
-        {
-          "technique": "Knee Slice Pass",
-          "target": "Side Control Top",
-          "probability": 70
-        },
-        {
-          "technique": "Smash Pass",
-          "target": "Side Control Top",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent turns to turtle or attempts to scramble to escape pressure",
-      "actions": [
-        {
-          "technique": "Transition to Truck",
-          "target": "Truck Top Position",
-          "probability": 50
-        },
-        {
-          "technique": "Back Take Generic",
-          "target": "Back Control Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent locks down legs in defensive configuration without creating space",
-      "actions": [
-        {
-          "technique": "Smash Pass",
-          "target": "Side Control Top",
-          "probability": 65
-        },
-        {
-          "technique": "Leg Weave Pass",
-          "target": "Side Control Top",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to stand up or create distance with frames",
-      "actions": [
-        {
-          "technique": "Headquarters Pass",
-          "target": "Side Control Top",
-          "probability": 70
-        },
-        {
-          "technique": "Knee Cut Pass",
-          "target": "Side Control Top",
-          "probability": 65
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Placing too much weight on hands instead of chest and shoulders",
-      "consequence": "Reduces effective pressure on opponent, allows them to create frames and recover guard easily, and tires out arms unnecessarily",
-      "correction": "Drive weight through chest and shoulder into opponent's upper body, keeping hands light for grips and control while using body weight for pressure"
-    },
-    {
-      "error": "Positioning hips too close to opponent's hips",
-      "consequence": "Exposes passer to triangle attacks, makes it easier for opponent to recover guard or create scrambles",
-      "correction": "Keep hips elevated and positioned away from opponent's hips, maintaining safe distance while still applying shoulder pressure"
-    },
-    {
-      "error": "Failing to control both of opponent's legs simultaneously",
-      "consequence": "Allows opponent to easily recover guard by inserting free leg for knee shield or butterfly hook",
-      "correction": "Establish bilateral leg control with both hands on opponent's knees, ankles, or shins before attempting to pass"
-    },
-    {
-      "error": "Rushing the pass without establishing proper control first",
-      "consequence": "Leads to scrambles, re-guards, or worse positions as opponent capitalizes on improper weight distribution",
-      "correction": "Take time to establish heavy shoulder pressure and solid leg control before initiating passing movement"
-    },
-    {
-      "error": "Keeping knees too close together, creating narrow base",
-      "consequence": "Makes position unstable and susceptible to sweeps or opponent's attempts to create angles",
-      "correction": "Maintain wide knee base outside opponent's hips for maximum stability and balance"
-    },
-    {
-      "error": "Allowing opponent to establish strong grips on passing leg or arm",
-      "consequence": "Gives opponent leverage to prevent passes and potentially sweep or submit",
-      "correction": "Constantly monitor and break opponent's grips while preventing them from establishing strong control points"
-    },
-    {
-      "error": "Committing too early to one passing direction",
-      "consequence": "Telegraphs intention and allows opponent to defend effectively in anticipated direction",
-      "correction": "Maintain multi-directional threat by keeping hips mobile and being ready to change passing angle based on opponent's reactions"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Headquarters Establishment Drill",
-      "description": "Partner starts in half guard. Top player works to establish headquarters position by creating distance, controlling legs, and applying shoulder pressure. Bottom player provides progressive resistance. Reset and repeat.",
-      "duration": "5 minutes per partner"
-    },
-    {
-      "name": "Multi-Directional Passing from Headquarters",
-      "description": "From established headquarters, top player practices transitioning between different passing attacks (knee slice, long step, smash, leg weave) based on coach's calls or bottom player's defensive reactions. Focus on maintaining control throughout transitions.",
-      "duration": "5 minutes per partner"
-    },
-    {
-      "name": "Headquarters Retention Against Re-Guards",
-      "description": "Bottom player actively attempts to recover guard using various methods (knee shield recovery, deep half entry, reverse de la riva). Top player must maintain headquarters position and prevent re-guard through proper pressure and leg control.",
-      "duration": "3 minute rounds"
-    },
-    {
-      "name": "Pressure Application Drill",
-      "description": "From headquarters, top player focuses solely on applying maximum shoulder pressure while maintaining proper positioning. Bottom player provides feedback on pressure effectiveness. Emphasis on weight distribution through chest rather than hands.",
-      "duration": "2 minute rounds, switch roles"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest path to submission",
-      "path": "Headquarters Top Position → Knee Slice Pass → Side Control Top → Kimura"
-    },
-    {
-      "name": "High-percentage path",
-      "path": "Headquarters Top Position → Headquarters Pass → Side Control Top → Americana"
-    },
-    {
-      "name": "Back attack path",
-      "path": "Headquarters Top Position → Back Step → Back Control Top → Rear Naked Choke"
-    },
-    {
-      "name": "Mount path",
-      "path": "Headquarters Top Position → Knee Slice Pass → Side Control Top → Transition to Mount → Mount Top → Armbar from Mount"
-    },
-    {
-      "name": "North-South path",
-      "path": "Headquarters Top Position → Long Step Pass → North-South Top → North-South Choke"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Headquarters Control",
-      "relationship": "Parent position concept"
-    },
-    {
-      "name": "Half Guard Top",
-      "relationship": "Predecessor position in passing sequence"
-    },
-    {
-      "name": "Knee Shield Half Guard Top",
-      "relationship": "Common entry position"
-    },
-    {
-      "name": "Side Control Top",
-      "relationship": "Primary passing target"
-    },
-    {
-      "name": "Long Step Pass",
-      "relationship": "Primary offensive transition"
-    },
-    {
-      "name": "Knee Slice Pass",
-      "relationship": "Primary offensive transition"
-    },
-    {
-      "name": "Smash Pass",
-      "relationship": "Alternative passing option"
-    },
-    {
-      "name": "Leg Weave Pass",
-      "relationship": "Alternative passing option"
-    },
-    {
-      "name": "Gordon Ryan Passing System",
-      "relationship": "Expert system utilizing this position"
-    },
-    {
-      "name": "Pressure Passing",
-      "relationship": "Core concept application"
-    },
-    {
-      "name": "Guard Passing Principles",
-      "relationship": "Theoretical framework"
-    }
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 60,
-      "intermediate": 75,
-      "advanced": 85
-    },
-    "advancement_probability": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 80
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 15
-    },
-    "average_time": "30-90 seconds"
-  },
-
-  "expert_insights": {
-    "danaher": "Headquarters position represents the culmination of systematic guard passing methodology where distance management, leg control, and pressure application converge into a unified strategic framework. The biomechanical advantage stems from the top player's ability to apply downward force through the shoulder girdle directly into the opponent's thoracic region while simultaneously controlling both lower limbs, creating a mechanical disadvantage that makes guard retention exceptionally difficult. The position's effectiveness lies not in explosive movements but in the systematic removal of the bottom player's defensive options through precise control points and weight distribution. Modern competitors who master headquarters can maintain this position indefinitely while methodically breaking down even the most sophisticated guard retention systems through patient, pressure-based passing.",
-    "gordon_ryan": "Headquarters is my absolute go-to position for passing any type of guard in competition because it gives me total control with almost zero risk. When I get to headquarters, I know I'm passing—it's just a matter of which direction based on how they defend. The key is being patient and heavy, making them carry your weight until they make a mistake or get tired. I use headquarters especially against leg lockers because it keeps me safe from entries while I systematically break down their guard. From here I can go knee slice, long step, or smash depending on how they react, and I'm threatening all three at the same time so they can't defend effectively. If you're not using headquarters as your main passing position in no-gi, you're making your life way harder than it needs to be.",
-    "eddie_bravo": "While headquarters is primarily a pressure passing position, we've found ways to use it as a control point before transitioning to more dynamic attacks or even leg entanglements. The traditional approach is solid, but in 10th Planet we like to add movement and create dilemmas from this position. Instead of just grinding forward, we'll use headquarters to bait reactions—threaten the pass one way, then cut back the other direction or even transition to truck position if they turn away. You can also use it as a rest position in no-gi when you need to recover but don't want to give up your passing progress. The shoulder pressure keeps them pinned while you catch your breath and plan your next move. It's become increasingly important in modern no-gi because it's one of the few positions where you can be super safe from leg locks while still maintaining offensive pressure."
+    "danaher": "Headquarters position represents the central hub of systematic guard passing methodology where controlling the opponent's knee-line creates the fundamental decision point in modern guard passing systems. The position's power lies not in forcing any specific pass, but in creating a control structure that systematically limits the opponent's defensive options while maintaining multiple offensive pathways simultaneously. By establishing headquarters, you compress the infinite complexity of guard passing into a finite series of if-then sequences that can be executed methodically. When the opponent extends their leg, you execute long step. When they turn toward you, you execute knee slice. When they create frames, you execute smash pass. This systematic reduction transforms guard passing from a chaotic scramble into a controlled technical progression with clear decision trees. The critical principle is maintaining connection with the trapped leg throughout all transitions - this connection is the thread that ties together your entire passing system and prevents the chaos of scrambles. The biomechanical efficiency stems from the triangulated base structure combined with the mechanical advantage created by pinning the opponent's knee to the mat, which eliminates their primary tool for creating angles and recovering guard structures. Modern competitors who master headquarters can maintain this position with minimal energy expenditure while methodically breaking down even the most sophisticated guard retention systems.",
+    "gordon_ryan": "In competition, headquarters is my absolute favorite passing position because it puts maximum pressure on my opponent to make decisions while I stay relatively safe and maintain complete control of the passing sequence. When I get to headquarters, I know I'm passing - it's just a matter of which direction based on how they defend and what mistakes they make under pressure. I don't commit heavy pressure initially because I want to float just enough to make them think they can escape, which causes them to show me their defensive strategy and commit to specific movements. Once they commit to pushing my knee, turning into me, or trying to frame, I already know exactly which pass is going to work based on their defensive choice. The key is not telegraphing your intention early - if they can't tell whether you're going knee slice, long step, or smash pass, they can't defend all three simultaneously and must guess. I'll often feint one direction to get them overcommitted, then immediately switch to the now-open passing lane they've abandoned. Against high-level opponents, headquarters also gives me time to control their grips and establish my preferred grip configurations before committing to the pass, which dramatically increases my success rate in the actual passing sequence. I use headquarters especially against leg lockers because it keeps me safe from entries while I systematically break down their guard with minimal risk.",
+    "eddie_bravo": "From headquarters-type positions, I'm always looking for opportunities to create unconventional control angles that traditional systematic passers tend to ignore in their focus on the standard passes. While everyone is thinking about the knee slice or long step, I'm analyzing how to use that trapped leg as an anchor point to create rotational pressure that leads into twister side control or truck position entries that open up entirely different submission systems. If the opponent is defending the standard passes effectively, they're typically not ready for you to suddenly change levels and attack their back or transition to unconventional leg positions and 10th Planet-specific controls. The 10th Planet approach is to use headquarters as a launching point for creative transitions rather than just a passing position with predetermined outcomes. For example, if they defend the knee slice by turning toward me, instead of forcing the pass through their defense I might transition to calf slicer control or even look for the truck entry if they give me their back during the defensive movement. Don't get stuck thinking headquarters only leads to side control - it can lead to much more interesting and submission-rich positions if you're willing to think outside the traditional systematic passing box. We also look for the electric chair and banana split from headquarters when the opponent tries to recover half guard, adding submission threats that create additional dilemmas beyond just the passing pressure."
   }
 }

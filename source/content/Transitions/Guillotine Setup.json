@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Guillotine Setup | BJJ Technique | BJJ Graph",
-    "description": "Learn Guillotine Setup in BJJ. Step-by-step execution from Front Headlock to Guillotine Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T156",
-    "tags": [
-      "bjj",
-      "transition",
-      "technique",
-      "guillotine",
-      "front-headlock",
-      "submission-setup",
-      "standing",
-      "choke"
-    ],
-    "starting_position": "Front Headlock",
-    "ending_position": "Guillotine Control",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Guillotine Setup",
+  "description": "Learn Guillotine Setup in BJJ. Step-by-step execution from Front Headlock to Guillotine Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "guillotine",
+    "front-headlock",
+    "submission-setup",
+    "standing",
+    "choke"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "Guillotine Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Guillotine Setup represents one of the most fundamental and highest-percentage submission entries in Brazilian Jiu-Jitsu, serving as a critical bridge between controlling the opponent's head and securing a fight-finishing choke. This transition capitalizes on the dominant front headlock position, where the practitioner has already secured head control and posture dominance, and systematically converts this control into a guillotine choke configuration. The setup is characterized by precise arm placement around the opponent's neck, proper hand positioning for maximum leverage, and strategic body alignment that maximizes choking pressure while minimizing escape opportunities. What makes this setup particularly valuable is its versatility across multiple contexts—it can be executed from standing exchanges, scrambles, failed takedown attempts, or ground transitions, making it an essential tool for practitioners at all levels. The guillotine setup embodies the principle of capitalizing on opponent mistakes, as it most commonly presents itself when an opponent shoots for a takedown, turtles defensively, or attempts to pass guard with poor posture. Understanding the nuances of grip configuration, head positioning, and hip placement during the setup phase dramatically increases the success rate of the subsequent choke, as a properly established guillotine is extraordinarily difficult to defend once locked in place.",
   "key_principles": [
@@ -167,12 +164,6 @@
       "focus": "Applying guillotine setup in live training and positional sparring",
       "description": "Incorporate guillotine setups into live rolling with specific focus on recognizing opportunities from scrambles, failed takedowns, and guard passing attempts. Practice chaining the setup with other front headlock attacks (anaconda, darce, snapdown to back take) to create dilemmas. Work against fully resisting opponents who know you're hunting for the guillotine.",
       "resistance_level": "Full"
-    },
-    {
-      "phase": "Ongoing: Refinement and Situational Mastery",
-      "focus": "Developing high-level timing, grip fighting, and setup variations",
-      "description": "Continue refining the subtleties of the setup: micro-adjustments in angle, grip pressure variation, timing the transition based on opponent's weight distribution. Study high-level footage of guillotine specialists and analyze their setup mechanics. Develop your personal preferred variation and chain it with your overall game plan.",
-      "resistance_level": "Full"
     }
   ],
   "variants_and_adaptations": [
@@ -234,51 +225,51 @@
   "related_content": [
     {
       "name": "Front Headlock to Guillotine",
-      "relationship": "Direct follow-up - the complete sequence from establishing front headlock to finishing the choke"
+      "relationship": "Direct follow-up"
     },
     {
       "name": "Guillotine Choke",
-      "relationship": "Natural finish - the submission that this setup leads to"
+      "relationship": "Natural finish"
     },
     {
       "name": "High Elbow Guillotine",
-      "relationship": "Variation - alternative setup and finishing mechanics when traditional approach is defended"
+      "relationship": "Variation"
     },
     {
       "name": "Front Headlock to Anaconda",
-      "relationship": "Alternative attack - switch option when guillotine setup is compromised"
+      "relationship": "Alternative attack"
     },
     {
       "name": "Front Headlock to Darce",
-      "relationship": "Alternative attack - another front headlock submission option based on opponent's defensive posture"
+      "relationship": "Alternative attack"
     },
     {
       "name": "Snap Down to Front Headlock",
-      "relationship": "Entry method - how to establish the front headlock position from standing"
+      "relationship": "Entry method"
     },
     {
       "name": "Guillotine from Turtle",
-      "relationship": "Alternative entry - catching the guillotine setup when opponent turtles defensively"
+      "relationship": "Alternative entry"
     },
     {
       "name": "Arm in Guillotine",
-      "relationship": "Variation - different setup configuration that traps opponent's arm"
+      "relationship": "Variation"
     },
     {
       "name": "Ten Finger Guillotine",
-      "relationship": "Grip variation - specific grip configuration for the setup and finish"
+      "relationship": "Grip variation"
     },
     {
       "name": "Guillotine Defense",
-      "relationship": "Counter-perspective - understanding defensive options helps refine your setup"
+      "relationship": "Counter-perspective"
     },
     {
       "name": "Front Headlock to Back",
-      "relationship": "Alternative finish - transitioning to back take if guillotine setup becomes unavailable"
+      "relationship": "Alternative finish"
     },
     {
       "name": "Chin Strap Guillotine",
-      "relationship": "Variation - setup adjustment when opponent defends with chin tuck"
+      "relationship": "Variation"
     }
   ],
   "expert_insights": {

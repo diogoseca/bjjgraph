@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Long Step Pass | BJJ Technique | BJJ Graph",
-    "description": "Master the Long Step Pass to dominate open guard. Step-by-step execution from standing to side control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-    "transition_id": "T089",
-    "tags": ["bjj", "guard-passing", "long-step", "pressure-passing", "open-guard"],
-    "starting_position": "Open Guard Top",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Long Step Pass",
+  "description": "Master the Long Step Pass to dominate open guard. Step-by-step execution from standing to side control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "tags": ["bjj", "guard-passing", "long-step", "pressure-passing", "open-guard"],
+  "starting_position": "Open Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Long Step Pass is a fundamental pressure passing technique used to control and pass open guard positions. This pass involves establishing grips on the opponent's pants or belt, using a long stepping motion to bypass the guard while maintaining heavy pressure and base. The technique is particularly effective against seated guards, butterfly guard, and De La Riva variations where the passer can control the distance and dictate the pace of engagement.\n\nThe Long Step Pass exemplifies the principle of pressure over speed, using superior positioning and weight distribution to nullify the guard player's defensive frames and movement. By stepping deep to the side while controlling the opponent's lower body, the passer creates angles that make guard retention extremely difficult. This technique forms the foundation of many modern passing systems and connects seamlessly with other pressure-based approaches.\n\nWhat makes the Long Step Pass particularly effective is its ability to shut down the opponent's ability to create space or re-guard. The combination of grip control, strategic stepping, and pressure application forces the bottom player into increasingly defensive positions until the pass is complete. This makes it one of the highest-percentage passes in both gi and no-gi grappling.",
   "key_principles": [
@@ -242,7 +239,7 @@
     }
   ],
   "safety_considerations": "The Long Step Pass is generally a safe technique when executed with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's neck and face during the crossface application - while the crossface should be firm and controlling, it should not create dangerous cranking pressure on the cervical spine. When practicing, partners should communicate about pressure levels and reduce intensity if the crossface becomes uncomfortable. Additionally, be aware of your weight distribution to avoid dropping all your weight onto the opponent's ribcage, which can restrict breathing or cause discomfort. During training progressions, increase resistance gradually to prevent injuries from explosive movements when practitioners are still learning proper mechanics. Pay particular attention to knee and hip positioning to avoid hyperextension injuries during the stepping motion.",
-  "position_integration": "The Long Step Pass is a cornerstone technique in the guard passing hierarchy and serves as a fundamental entry point into pressure-based passing systems. It connects directly to Side Control Top, which is one of the most dominant positions in BJJ, making it a high-value technique for positional advancement. The pass integrates seamlessly with other pressure passes including the Knee Slice Pass, Over-Under Pass, and Smash Pass, allowing practitioners to develop a cohesive passing game where each technique flows naturally into the next based on the opponent's defensive responses. From a systems perspective, the Long Step Pass is particularly valuable because it teaches the fundamental principles of pressure passing - forward weight commitment, crossface control, and strategic stepping - that apply across all pressure-based approaches. It works effectively against seated guards, butterfly guard, De La Riva variations, and many other open guard positions, making it an extremely versatile tool. The technique also serves as an excellent foundation for beginners learning guard passing concepts while remaining effective at the highest levels of competition when executed with proper timing and pressure.",
+  "position_integration": "The Long Step Pass is a cornerstone technique in the guard passing hierarchy and serves as a fundamental entry point into pressure-based passing systems. It connects directly to Side Control, which is one of the most dominant positions in BJJ, making it a high-value technique for positional advancement. The pass integrates seamlessly with other pressure passes including the Knee Slice Pass, Over-Under Pass, and Smash Pass, allowing practitioners to develop a cohesive passing game where each technique flows naturally into the next based on the opponent's defensive responses. From a systems perspective, the Long Step Pass is particularly valuable because it teaches the fundamental principles of pressure passing - forward weight commitment, crossface control, and strategic stepping - that apply across all pressure-based approaches. It works effectively against seated guards, butterfly guard, De La Riva variations, and many other open guard positions, making it an extremely versatile tool. The technique also serves as an excellent foundation for beginners learning guard passing concepts while remaining effective at the highest levels of competition when executed with proper timing and pressure.",
   "related_content": [
     {
       "name": "Knee Slice Pass",
@@ -265,7 +262,7 @@
       "relationship": "Preparatory position often used before initiating long step"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Ending position and consolidation point after successful pass"
     },
     {

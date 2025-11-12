@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Side Control Defensive Framework | BJJ Concept | BJJ Graph",
-    "description": "Understand Side Control Defensive Framework in BJJ. Master systematic escape principles, frame management, and recovery strategies. Expert insights included.",
-    "principle_id": "P089",
-    "tags": ["bjj", "concept", "defense", "side-control", "escape", "framework", "pins", "bottom-position"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Side Control Defensive Framework",
+  "description": "Master Side Control Defensive Framework in BJJ. Learn systematic escape principles, frame management, hip escape timing, and hierarchical recovery strategies for dominant pins.",
+  "tags": ["bjj", "principle", "defense", "side-control", "escape", "framework", "pins", "bottom-position", "survival", "guard-recovery"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Side Control Defensive Framework represents a comprehensive systematic approach to defending and escaping from side control positions, one of the most dominant pinning positions in Brazilian Jiu-Jitsu. This framework integrates biomechanical principles, positional awareness, and tactical decision-making to transform defensive scenarios into offensive opportunities. The framework emphasizes understanding control points, creating frames, managing space, and executing hierarchical escape sequences based on opponent pressure and positioning.\n\nUnlike isolated techniques, this framework treats side control defense as an interconnected system where each defensive action sets up subsequent options. The practitioner learns to recognize patterns in opponent pressure, identify vulnerable control points, and systematically work through escape hierarchies from immediate survival to full guard recovery. Mastery requires understanding the relationship between framing, hip movement, and timing to create windows of opportunity.\n\nThe framework scales across skill levels: beginners focus on survival and basic frames, intermediates develop timing and multi-step escapes, advanced practitioners integrate feints and transitions, while experts seamlessly flow between defensive options based on opponent reactions. This systematic approach reduces panic, conserves energy, and transforms one of BJJ's worst positions into a manageable challenge.",
   "key_principles": [
     "Establish defensive frames immediately to prevent mount transition and create breathing room",
@@ -81,50 +78,70 @@
       "description": "Side Control Defensive Framework represents specific application of broader pin escape principles. Concepts learned here transfer to escaping other pins (mount, north-south, knee-on-belly)."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Recovery",
       "relationship_type": "Advanced form",
       "description": "Ultimate goal of side control defense is returning to guard positions. Framework provides systematic path from defensive survival to offensive guard position recovery."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Complementary",
+      "description": "Core defensive skill enabling space creation and escape execution through proper arm and leg placement under pressure."
+    },
+    {
+      "principle_name": "Shrimping",
+      "relationship_type": "Complementary",
+      "description": "Fundamental hip movement pattern that enables space creation and positional escape from side control positions."
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Complementary",
+      "description": "Combined bridging and shrimping mechanics provide coordinated escape execution methods central to framework success."
+    },
+    {
+      "principle_name": "Creating Space",
+      "relationship_type": "Complementary",
+      "description": "Space creation principles directly enable progression through escape hierarchy within side control defensive framework."
     }
   ],
   "application_contexts": [
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "Primary application context where all framework principles directly apply. Practitioner uses frames, hip movement, and escape hierarchy to systematically work from worst-case scenarios to guard recovery."
     },
     {
-      "context": "Kesa Gatame Bottom",
+      "context": "Kesa Gatame",
       "how_applied": "Modified application requiring adjusted frame angles due to perpendicular body orientation. Hip escape mechanics remain similar but require different initial space creation due to opponent headlock position."
     },
     {
-      "context": "Reverse Kesa-Gatame Bottom",
+      "context": "Reverse Kesa-Gatame",
       "how_applied": "Framework principles adapt to reverse orientation with emphasis on preventing arm isolation. Underhook battles become critical as pathway to turtle or guard recovery."
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Frame construction changes to address overhead pressure, but space creation and hip escape fundamentals transfer directly. Framework teaches when to accept north-south versus when to fight back to side control."
     },
     {
-      "context": "Scarf Hold Bottom",
+      "context": "Scarf Hold Position",
       "how_applied": "Traditional scarf hold requires modified frames protecting near arm while using far arm for posting. Hip escape mechanics adapt to opponent's perpendicular pressure angle."
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "Framework principles for frame creation and space management apply with modifications for vertical pressure. Emphasis shifts to preventing transition back to side control while recovering guard."
     },
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "When mount prevention fails, framework provides roadmap for accepting temporary side control to execute safer escapes. Understanding side control defense improves mount escape options."
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Framework informs decision-making about when to accept turtle position versus fighting to remain on side. Understanding side control defense helps prevent opponent flattening from turtle."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "When half guard is being passed, framework provides defensive structure for preventing full side control consolidation. Early frame establishment can stop pass completion."
     },
     {
-      "context": "Guard Recovery Bottom Position",
+      "context": "Closed Guard",
       "how_applied": "Final stages of framework execution where practitioner actively recovers guard position. Framework teaches systematic approach to getting knees between bodies and establishing guard structure."
     }
   ],
@@ -288,23 +305,23 @@
   ],
   "related_content": [
     {
-      "name": "Side Control Bottom",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Primary application position where all framework principles directly apply"
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept providing systematic escape prioritization structure"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core defensive skill enabling space creation and escape execution"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary movement pattern for executing escapes from side control"
     },
     {
@@ -318,23 +335,23 @@
       "relationship": "Basic hip movement pattern central to framework execution"
     },
     {
-      "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "name": "Guard Recovery",
+      "content_type": "Principle",
       "relationship": "Ultimate goal of defensive framework - returning to offensive guard positions"
     },
     {
-      "name": "Kesa Gatame Bottom",
+      "name": "Kesa Gatame",
       "content_type": "Position",
       "relationship": "Related pin position requiring framework adaptation to different pressure angles"
     },
     {
       "name": "Pin Escape Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader escape system encompassing side control defensive principles"
     },
     {
       "name": "Pressure Reduction",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept for managing opponent pressure during defense"
     }
   ],

@@ -1,16 +1,11 @@
 {
-  "metadata": {
-    "title": "Single Leg Variations | BJJ Concept | BJJ Graph",
-    "description": "Understand Single Leg Variations in BJJ. Learn setup mechanics, finishing methods, and tactical applications across positions. Expert insights included.",
-    "principle_id": "P089",
-    "tags": ["bjj", "concept", "takedowns", "single-leg", "wrestling", "entries", "finishing", "variations"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
-
+  "name": "Single Leg Variations",
+  "description": "Master Single Leg Variations in BJJ - comprehensive guide to high crotch finishes, outside trips, inside trips, running the pipe, and dump variations.",
+  "tags": ["bjj", "principle", "takedowns", "single-leg", "wrestling", "entries", "finishing", "variations", "base-disruption", "angle-creation"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Single Leg Variations represent a comprehensive tactical framework for attacking one of the opponent's legs across multiple contexts - from standing takedowns to ground-based sweeps and submissions. This concept encompasses the full spectrum of single leg attacks, including high crotch finishes, outside trips, inside trips, running the pipe, and dump variations. The fundamental principle underlying all single leg variations is the asymmetric control of the opponent's base by isolating one leg, creating a mechanical disadvantage that can be exploited through multiple finishing pathways.\n\nThe effectiveness of single leg variations stems from their adaptability to different body types, athleticism levels, and tactical situations. Unlike double leg attacks that require explosive power and deep penetration, single leg variations can be executed from various angles, distances, and positions. This versatility makes them equally effective in gi and no-gi contexts, in wrestling-based exchanges, and as recovery techniques when initial takedown attempts are partially defended. The concept extends beyond pure takedowns to include guard pulling entries, sweep mechanics from bottom positions, and transitional control positions.\n\nMastery of single leg variations requires understanding not just the mechanical execution of different finishes, but the decision-making framework that determines which variation to apply based on opponent reactions, weight distribution, defensive grips, and positional context. Elite practitioners develop a systematic approach to single leg attacks that chains multiple variations together, using each attempted finish to set up the next option in a continuous offensive cycle.",
-
   "key_principles": [
     "**Leg Isolation**: Successful single leg attacks begin with cleanly securing one leg while maintaining sufficient distance from the opponent's upper body to prevent counter grips",
     "**Hip Connection**: Maintaining tight connection between your hip and the captured leg creates a fulcrum for leverage and prevents the opponent from generating defensive power",
@@ -21,7 +16,6 @@
     "**Grip Security**: The leg grip must be maintained through all finishing attempts, requiring proper hand positioning and connection points that survive dynamic movement",
     "**Posture Control**: Managing your own posture while compromising the opponent's prevents counter attacks and maintains offensive initiative throughout the sequence"
   ],
-
   "component_skills": [
     {
       "skill_name": "Leg Capture Mechanics",
@@ -56,7 +50,6 @@
       "description": "Understanding common defensive responses to single leg attacks (sprawl, limp leg, wizard control, whizzer) and how to counter or neutralize each defense through proper variation selection and technical adjustments."
     }
   ],
-
   "principle_relationships": [
     {
       "principle_name": "Takedown Entry",
@@ -87,16 +80,30 @@
       "principle_name": "Grip Fighting",
       "relationship_type": "Prerequisite",
       "description": "Effective grip fighting creates the openings and controls necessary to secure clean single leg entries while preventing opponent counter grips that compromise finishing effectiveness"
+    },
+    {
+      "principle_name": "Weight Distribution",
+      "relationship_type": "Complementary",
+      "description": "Reading opponent weight distribution determines which finishing variation will be most effective, as each finish exploits specific weight loading patterns"
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Complementary",
+      "description": "All single leg finishes rely on leverage mechanics to overcome strength disadvantages, using proper body positioning and mechanical advantage rather than pure force"
+    },
+    {
+      "principle_name": "Forward Pressure",
+      "relationship_type": "Complementary",
+      "description": "Maintaining constant forward pressure throughout single leg sequences prevents opponent recovery and creates cumulative defensive fatigue that increases finishing percentage"
     }
   ],
-
   "application_contexts": [
     {
       "context": "Standing Position",
       "how_applied": "Primary application as takedown attacks from neutral standing, using level changes, penetration steps, and various grips to secure the leg before applying finishing variations"
     },
     {
-      "context": "Clinch Position",
+      "context": "Collar Ties",
       "how_applied": "Transitioning from upper body clinch controls to single leg attacks by creating space, changing levels, and exploiting opponent weight shifts during grip fighting exchanges"
     },
     {
@@ -104,11 +111,11 @@
       "how_applied": "Converting front headlock control into single leg variations when opponent attempts to stand or build base, particularly effective for outside trip and high crotch finishes"
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Attacking the near leg from top turtle position to force the opponent to their back, using single leg control to prevent re-guard and transition to passing positions"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "Single leg sweep variations from half guard bottom, isolating the trapped leg and using it as an anchor point for off-balancing and reversal mechanics"
     },
     {
@@ -116,7 +123,7 @@
       "how_applied": "Using De La Riva hook as single leg control point, applying similar finishing principles (ankle picks, elevation sweeps) adapted to guard context"
     },
     {
-      "context": "Single Leg X Guard",
+      "context": "Single Leg X-Guard",
       "how_applied": "Pure expression of single leg control from bottom position, where all finishing mechanics focus on disrupting the opponent's remaining base points through elevations and directional pressure"
     },
     {
@@ -128,7 +135,7 @@
       "how_applied": "Converting butterfly hooks into single leg elevation sweeps, using hook mechanics to lift one leg while compromising the opponent's base structure"
     },
     {
-      "context": "Closed Guard Top",
+      "context": "Closed Guard",
       "how_applied": "Transitioning to single leg passes when opponent opens guard, using leg isolation to prevent re-closure while advancing to passing positions"
     },
     {
@@ -138,9 +145,20 @@
     {
       "context": "Overhook Control Clinch",
       "how_applied": "Using overhook control to set up single leg entries by controlling the near arm while changing levels to attack the corresponding leg"
+    },
+    {
+      "context": "Body Lock",
+      "how_applied": "Transitioning from body lock position to single leg when opponent defends the takedown, maintaining control while adjusting grip configuration to attack isolated leg"
+    },
+    {
+      "context": "Underhook Control",
+      "how_applied": "Converting underhook control to single leg opportunities by using the underhook to prevent opponent sprawl while attacking near leg with level change"
+    },
+    {
+      "context": "Scramble Position",
+      "how_applied": "Opportunistically securing single leg control during scrambles when opponent's leg becomes exposed, using dynamic transitions to establish control and apply finishes"
     }
   ],
-
   "decision_framework": [
     {
       "step_number": 1,
@@ -183,7 +201,6 @@
       "action": "Finish the takedown securing top position, or if opponent successfully defends to guard, transition to passing sequence while maintaining positional advantage gained"
     }
   ],
-
   "common_errors": [
     {
       "error": "Releasing leg control when first finishing attempt fails",
@@ -221,7 +238,6 @@
       "correction": "Emphasize grip strength training and proper hand positioning that survives dynamic movement, including trap hand adjustments and defensive hand reinforcement as needed"
     }
   ],
-
   "training_approaches": [
     {
       "approach_name": "Isolation Drilling by Variation",
@@ -254,7 +270,6 @@
       "focus": "Integration into competitive timing, dealing with fatigue, and maintaining effectiveness against game-planning opponents"
     }
   ],
-
   "developmental_metrics": [
     {
       "level": "Beginner",
@@ -297,7 +312,6 @@
       ]
     }
   ],
-
   "related_content": [
     {
       "name": "Single Leg Entry",
@@ -320,7 +334,7 @@
       "relationship": "Alternative transition option when takedown finish is defended, converting to back attack"
     },
     {
-      "name": "Single Leg X Guard",
+      "name": "Single Leg X-Guard",
       "content_type": "Position",
       "relationship": "Guard position that applies single leg control principles from bottom, using similar finishing mechanics adapted to supine context"
     },
@@ -336,12 +350,12 @@
     },
     {
       "name": "Takedown Entry",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader conceptual framework for all takedown attacks that provides context for single leg applications"
     },
     {
       "name": "Off-Balancing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental principle that enhances all single leg finishing effectiveness through deliberate base disruption"
     },
     {
@@ -351,7 +365,7 @@
     },
     {
       "name": "Angle Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Critical supporting concept that multiplies single leg effectiveness through proper angular positioning"
     },
     {
@@ -360,7 +374,6 @@
       "relationship": "Alternative takedown approach that serves as complementary attack creating systematic takedown game"
     }
   ],
-
   "expert_insights": {
     "danaher": "The single leg attack represents perhaps the most versatile takedown system in grappling because it offers the greatest number of mechanical finishing variations from a single initial control position. When you secure a single leg, you have isolated one of the opponent's primary base points while maintaining distance from their upper body control - this asymmetric advantage is the foundation of all finishing variations. The key to systematic single leg attacking is understanding that your first finishing attempt will rarely succeed against skilled opposition. Instead, view each attempted finish as a probe that generates a specific defensive reaction, and have prepared technical responses to each possible defense. The high crotch creates backward weight shift, the outside trip requires far leg posting, the inside trip demands near leg loading - each finish attempt creates predictable compensations that open pathways to alternative finishes. This is not random technique chaining but systematic exploitation of mechanical necessities. Train each variation to technical perfection in isolation, but understand that mastery lies in the decision tree that determines variation sequencing based on opponent responses. The practitioner who can chain four to five variations seamlessly, maintaining leg control throughout, will finish the overwhelming majority of single leg attempts regardless of opponent defensive skill.",
     "gordon_ryan": "In competition, single leg variations are my highest percentage takedown system because they work equally well against defensive specialists and aggressive opponents. The beauty of single leg attacks is that they don't require the deep penetration and explosive power of double legs - you can enter from longer range, you can adjust angles mid-sequence, and you have multiple finishing pathways if your first option gets defended. My approach is to make the opponent defend multiple things simultaneously. When I secure the leg, I immediately threaten the high crotch, which forces them to sprawl their hips back. That backward weight shift makes them vulnerable to the outside trip. If they post that leg heavy to defend the trip, now they're loaded for the inside trip. If they try to limp leg out, I'm running the pipe and driving them backward until they fall. The key is relentless offensive pressure - never give them time to settle into a defensive structure. I chain variations rapidly, sometimes attempting three different finishes within five seconds, because each defense creates the opening for the next attack. Against elite competition, I've found that the dump variations are extremely effective when opponents get good at defending the standard finishes - the rotational mechanics catch them by surprise. Train your single leg variations until you can hit any finish from any angle without thinking, because in competition, the mental hesitation kills more takedown attempts than technical deficiency.",

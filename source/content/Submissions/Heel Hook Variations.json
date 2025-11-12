@@ -1,6 +1,6 @@
 {
   "name": "Heel Hook Variations",
-  "description": "Master heel hook variations in BJJ. Complete guide covering inside, outside, and reverse heel hooks with safety protocols. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "description": "Master heel hook variations in BJJ. Complete guide covering inside, outside, and reverse heel hooks with safety protocols and entries from leg entanglements.",
   "tags": [
     "bjj",
     "submission",
@@ -132,21 +132,21 @@
       "action": "Generate rotational force through hip movement",
       "description": "The finish comes from rotating your entire torso/hips while keeping the heel anchored to your body, NOT from twisting with your arms. Think of your upper body and the opponent's heel as one unit - when you rotate your torso externally (away from their leg), their heel rotates with you while their knee remains trapped. The rotation should be smooth and controlled, especially in training. Your arms simply maintain the connection between heel and torso; your hips do all the work. Rotate your shoulders and chest toward the mat on the heel side. In training, this rotation should take 5-7 seconds minimum with constant communication.",
       "timing": "Final finishing movement, applied SLOWLY in training",
-      "pressure_level": "Firm to Maximum (but SLOW progression)"
+      "pressure_level": "Maximum"
     },
     {
       "step_number": 6,
       "action": "Maintain control and release properly upon tap",
       "description": "As you apply rotational pressure, maintain all control points - heel grip, leg entanglement, hip position. The submission is complete when opponent taps or when you feel the ligaments begin to strain (in competition). In training, STOP at the first sign of resistance or discomfort - NEVER push through to the injury point. The instant your partner taps (by any method - verbal, hand, foot, or distress signal), immediately reverse the rotation to neutral, release the heel grip gently, and slowly release the leg entanglement. Do not jerk or drop the leg suddenly. Ask your partner verbally if they are okay before resetting.",
       "timing": "Throughout finish and especially during release",
-      "pressure_level": "Light during release"
+      "pressure_level": "Light"
     },
     {
       "step_number": 7,
       "action": "Variation adaptation for outside and reverse heel hooks",
       "description": "For outside heel hook from outside ashi-garami, the mechanics are similar but mirrored - you attack the heel that is on your side, and the rotation direction is opposite (internal rotation of your torso generates the breaking force). The outside variation often requires more arm strength and is generally less secure. For reverse heel hook, the grip is inverted (your palm faces opposite direction), changing the leverage and finishing mechanics. Regardless of variation, the principles remain: control the knee line, secure the heel to your body, generate force with hip rotation (not arm twisting), and apply EXTREMELY slowly in training.",
       "timing": "Variation selection based on leg entanglement position",
-      "pressure_level": "Varies by variation but always SLOW in training"
+      "pressure_level": "Moderate"
     }
   ],
   "opponent_defense_patterns": [
@@ -167,12 +167,12 @@
     },
     {
       "defense": "Sitting up and posting hands on mat to create base and escape angle",
-      "effectiveness": "Medium to High",
+      "effectiveness": "Medium",
       "your_adjustment": "Use your free hand to control their upper body - post on their chest, grab their collar, or control their head to prevent them from fully sitting up. Some practitioners prefer to elevate their own hips while pulling opponent's heel, which forces them back to the mat. If they do manage to sit up significantly, you may need to transition to a different position or release and re-enter."
     },
     {
       "defense": "Clearing the outside leg (in saddle/ashi) to escape the entanglement entirely",
-      "effectiveness": "High if successful",
+      "effectiveness": "High",
       "your_adjustment": "Your outside leg must be heavy and actively hooking - don't let it be passive. Drive your outside leg across their hip and keep your heel hooked to their far side. If they start to clear it, immediately hide your heel deeper around their body or switch to inside position. Some practitioners establish a triangle configuration with their legs before finishing to prevent this escape. If entanglement is lost, release the heel immediately and reset position."
     }
   ],

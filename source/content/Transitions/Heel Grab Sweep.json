@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Heel Grab Sweep | BJJ Technique | BJJ Graph",
-    "description": "Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, execution, and expert insights. Beginner 35%, Intermediate 60%, Advanced 75%.",
-    "transition_id": "T053",
-    "tags": [
-      "bjj",
-      "transition",
-      "sweep",
-      "open_guard",
-      "dynamic",
-      "single_leg_x",
-      "x_guard",
-      "off_balancing"
-    ],
-    "starting_position": "Single Leg X Guard",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Heel Grab Sweep",
+  "description": "Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, execution, and expert insights. Success rates: 35%, 60%, 75%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "open_guard",
+    "dynamic",
+    "single_leg_x",
+    "x_guard",
+    "off_balancing"
+  ],
+  "starting_position": "Single Leg X-Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Heel Grab Sweep is a fundamental off-balancing technique from Single Leg X Guard that exploits your opponent's compromised base by controlling their trapped leg and manipulating their heel. This sweep creates a powerful lever system where you use your legs to elevate and extend the opponent's trapped leg while simultaneously pulling their heel backward, disrupting their balance and forcing them to the mat. The technique is particularly effective against standing opponents who attempt to maintain a squared stance or those who fail to properly address the Single Leg X position. The Heel Grab Sweep serves as a primary attacking option from Single Leg X Guard, working in concert with other sweeps and leg entanglements to create a comprehensive guard system. Its effectiveness stems from the biomechanical advantage created by controlling both the opponent's heel and knee simultaneously, making it extremely difficult for them to maintain balance or counter effectively. This sweep is applicable in both gi and no-gi contexts, though the grip variations differ slightly between the two formats.",
   "key_principles": [
@@ -93,7 +90,7 @@
     {
       "counter": "Opponent sits to the mat quickly, nullifying the sweep",
       "effectiveness": "High",
-      "your_response": "Immediately transition to Ashi Garami or Outside Ashi-Garami Top position, maintaining control of their leg and attacking with leg locks or alternative sweeps from the entanglement"
+      "your_response": "Immediately transition to Ashi Garami or Outside Ashi-Garami position, maintaining control of their leg and attacking with leg locks or alternative sweeps from the entanglement"
     },
     {
       "counter": "Opponent grabs your belt or gi pants to prevent being swept backward",
@@ -194,7 +191,7 @@
     },
     {
       "variant_name": "Transition to Outside Ashi",
-      "description": "If opponent begins to sit or defend the sweep effectively, maintain heel control and transition your legs to Outside Ashi-Garami Top position. This allows you to attack with heel hooks or continue sweeping from a different angle while keeping the opponent's leg controlled throughout.",
+      "description": "If opponent begins to sit or defend the sweep effectively, maintain heel control and transition your legs to Outside Ashi-Garami position. This allows you to attack with heel hooks or continue sweeping from a different angle while keeping the opponent's leg controlled throughout.",
       "when_to_use": "When opponent sits to defend or when leg lock opportunities present themselves"
     },
     {
@@ -226,7 +223,7 @@
     },
     {
       "question": "What should you do if your opponent sits to the mat to counter your Heel Grab Sweep?",
-      "answer": "Immediately transition to a leg entanglement position such as Ashi Garami or Outside Ashi-Garami Top, maintaining control of their trapped leg throughout. When the opponent sits, they eliminate the sweeping opportunity but expose themselves to leg lock attacks and alternative sweeping mechanics from the seated entanglement position. This transition should be smooth and immediate, keeping constant pressure on their leg.",
+      "answer": "Immediately transition to a leg entanglement position such as Ashi Garami or Outside Ashi-Garami, maintaining control of their trapped leg throughout. When the opponent sits, they eliminate the sweeping opportunity but expose themselves to leg lock attacks and alternative sweeping mechanics from the seated entanglement position. This transition should be smooth and immediate, keeping constant pressure on their leg.",
       "difficulty": "Intermediate"
     },
     {
@@ -296,7 +293,7 @@
   ],
   "expert_insights": {
     "danaher": "The Heel Grab Sweep demonstrates fundamental principles of leverage and off-balancing that apply throughout grappling. The key to understanding this technique lies in recognizing how controlling the heel creates a short lever arm that allows you to manipulate the entire leg structure with minimal effort. When you secure the heel with both hands and extend your legs simultaneously, you create opposing forces that make it biomechanically impossible for the opponent to maintain balance. The heel acts as a control point from which you can rotate the entire leg, and because the foot is off the ground, the opponent has no way to generate reactive force against your sweep. This is a perfect example of using skeletal alignment against the opponent - you're essentially pulling their foundation out from under them in a direction they cannot defend. The timing element is crucial: you must execute the sweep when their weight is committed to the trapped leg, as this maximizes the off-balancing effect and minimizes their ability to counter with their free leg. The integration of this sweep with leg entanglements creates a powerful systematic approach where defending one attack opens others, forcing the opponent into impossible defensive dilemmas.",
-    "gordon_ryan": "In competition, the Heel Grab Sweep is one of my highest percentage techniques from Single Leg X because it requires minimal setup and works against almost any standing opponent. The beauty of this sweep is its simplicity and explosiveness - there's no complex timing or positioning required beyond establishing basic Single Leg X Guard. I use this sweep constantly to transition from bottom to top position, particularly against opponents who try to disengage by standing up. The key in high-level competition is combining this sweep with leg lock threats to create real dilemmas. When I grip the heel, my opponent knows I can sweep them backward or transition to Outside Ashi-Garami Top for heel hooks. This forces them to make a choice under pressure, and either option works in my favor. I've swept world champions with this technique because it's so mechanically sound - if you have their heel and your legs are positioned correctly, the sweep is almost guaranteed. The follow-through is where many competitors fail; you must immediately transition to a dominant position and not allow any space for recovery. I treat this sweep as a position advancement tool rather than just a reversal, always thinking two steps ahead to where I want to end up after the sweep completes.",
-    "eddie_bravo": "The Heel Grab Sweep is fundamental to our 10th Planet system because it bridges traditional guard concepts with modern leg entanglement attacks. What I love about this technique is how it sets up our entire leg lock game - when you threaten the sweep, opponents react in predictable ways that open up submissions. We teach this sweep early but emphasize the transition to positions like Outside Ashi-Garami Top or the Saddle Position when opponents defend. The no-gi variation requires really focusing on that heel control since you don't have gi grips to rely on. I tell my students to think of the heel as a steering wheel - you're literally steering the opponent's entire body by controlling that one point. The innovation comes in how you combine this sweep with rubber guard entries, Electric Chair setups, and other 10th Planet positions. We drill this as part of our open guard flow, transitioning between Single Leg X, standard X-Guard, and leg locks depending on how the opponent reacts. The key is staying aggressive and creative - don't just execute the basic sweep, use it as a launching point for combinations and attacks that keep your opponent guessing. When you add the Heel Grab Sweep to techniques like the Vaporizer and our leg lock system, you create a complete guard game that works at the highest levels of no-gi competition."
+    "gordon_ryan": "In competition, the Heel Grab Sweep is one of my highest percentage techniques from Single Leg X because it requires minimal setup and works against almost any standing opponent. The beauty of this sweep is its simplicity and explosiveness - there's no complex timing or positioning required beyond establishing basic Single Leg X Guard. I use this sweep constantly to transition from bottom to top position, particularly against opponents who try to disengage by standing up. The key in high-level competition is combining this sweep with leg lock threats to create real dilemmas. When I grip the heel, my opponent knows I can sweep them backward or transition to Outside Ashi-Garami for heel hooks. This forces them to make a choice under pressure, and either option works in my favor. I've swept world champions with this technique because it's so mechanically sound - if you have their heel and your legs are positioned correctly, the sweep is almost guaranteed. The follow-through is where many competitors fail; you must immediately transition to a dominant position and not allow any space for recovery. I treat this sweep as a position advancement tool rather than just a reversal, always thinking two steps ahead to where I want to end up after the sweep completes.",
+    "eddie_bravo": "The Heel Grab Sweep is fundamental to our 10th Planet system because it bridges traditional guard concepts with modern leg entanglement attacks. What I love about this technique is how it sets up our entire leg lock game - when you threaten the sweep, opponents react in predictable ways that open up submissions. We teach this sweep early but emphasize the transition to positions like Outside Ashi-Garami or the Saddle Position when opponents defend. The no-gi variation requires really focusing on that heel control since you don't have gi grips to rely on. I tell my students to think of the heel as a steering wheel - you're literally steering the opponent's entire body by controlling that one point. The innovation comes in how you combine this sweep with rubber guard entries, Electric Chair setups, and other 10th Planet positions. We drill this as part of our open guard flow, transitioning between Single Leg X, standard X-Guard, and leg locks depending on how the opponent reacts. The key is staying aggressive and creative - don't just execute the basic sweep, use it as a launching point for combinations and attacks that keep your opponent guessing. When you add the Heel Grab Sweep to techniques like the Vaporizer and our leg lock system, you create a complete guard game that works at the highest levels of no-gi competition."
   }
 }

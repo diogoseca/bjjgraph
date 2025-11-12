@@ -1,1173 +1,756 @@
 {
-  "metadata": {
-    "title": "Leg Weave Bottom Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Leg Weave Bottom in BJJ. Defensive half guard position with 35% escape rate. Complete guide covering frames, escapes, and defensive strategies.",
-    "state_id": "S162",
-    "tags": ["bjj", "position", "half-guard", "defensive", "bottom", "leg-weave"],
-    "parent_variant": "Half Guard Bottom",
-    "sibling_variants": ["Leg Weave Top Position"]
-  },
-
-  "overview": "Leg Weave Bottom Position represents a challenging defensive scenario in half guard where the top player has threaded their leg through your half guard structure, establishing a powerful passing position. This position occurs when the passer has successfully weaved their knee-side leg between your legs while maintaining upper body control, creating significant pressure and limiting your mobility. The bottom player faces immediate threats of guard passes to side control, mount, or back control if defensive frames and hip movement are not properly established. While disadvantageous, this position offers specific defensive pathways and counter-attacks that can recover guard or create scrambles when executed with proper timing and technique. Understanding the mechanics of maintaining frames, creating angles, and preventing the complete pass is essential for survival and eventual escape from this high-pressure position.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive",
-    "risk_level": "High",
-    "energy_cost": "High",
-    "time_sustainability": "Short"
-  },
-
-  "state_invariants": [
-    "Top player's knee-side leg is threaded between bottom player's legs, typically positioning the shin or knee across the bottom player's hip line or thigh to establish the weave structure",
-    "Bottom player maintains half guard hook with one leg (usually the far leg) while the near leg is being controlled or pressured by the top player's weaved leg",
-    "Top player applies forward and downward pressure through chest and shoulder, often with crossface or underhook control to flatten the bottom player",
-    "Bottom player's back is on or near the mat with varying degrees of hip escape and shoulder rotation depending on defensive frame effectiveness",
-    "Space between players is minimal due to the leg weave creating tight connection, requiring bottom player to actively create frames with forearms, elbows, or knees"
-  ],
-
-  "prerequisites": [
-    "Bottom player was in half guard position (standard, knee shield, or lockdown variation)",
-    "Top player successfully initiated leg weave entry by threading knee-side leg between bottom player's legs",
-    "Bottom player failed to prevent the initial weave with knee shield or frame",
-    "Top player established some form of upper body control (crossface, underhook, or collar tie)",
-    "Bottom player's far-side leg maintains some connection (half guard hook) preventing complete pass"
-  ],
-
+  "name": "Leg Weave",
+  "slug": "leg-weave",
+  "description": "Master leg weave position in BJJ. Advanced guard passing control with leg threading mechanics. Strategic guide covering both bottom defense and top passing perspectives with complete technical analysis.",
+  "variant_uniqueness": "Threading leg trades mobility for passing power",
+  "overview": "Leg Weave is a sophisticated guard passing position where one player threads their leg between the opponent's legs to establish control and disrupt defensive structures. This position represents a critical juncture in modern Brazilian Jiu-Jitsu where the passer creates a mechanical advantage through leg positioning while the bottom player must employ specific defensive strategies to prevent the pass or create counter-attacks.\n\nThe position is most commonly encountered during half guard passing sequences, where the top player weaves their knee-side leg through the guard structure to neutralize the bottom player's hooks and frames. This creates a unique control dynamic where the top player can distribute weight effectively while the bottom player faces limited mobility and must rely on precise framing and timing to escape or reverse.\n\nFrom the bottom perspective, leg weave represents a high-pressure defensive scenario requiring immediate frame establishment and hip movement to prevent complete flattening. The bottom player must understand specific escape pathways including knee shield recovery, deep half entries, and dogfight transitions. From the top perspective, the position offers multiple passing options based on opponent reactions, including knee slice, smash pass, and leg drag variations.\n\nMastery of both perspectives is essential for modern grapplers, as the leg weave has become increasingly prevalent in high-level competition where traditional guard retention methods are systematically dismantled. Understanding the mechanical principles, pressure points, and timing windows from both angles creates a complete picture of this transitional battleground.",
   "key_principles": [
-    "Establish and maintain strong defensive frames using forearms against opponent's neck, shoulder, or hip to prevent complete flattening",
-    "Keep active hip movement and angle creation to prevent top player from settling their weight and consolidating position",
-    "Protect the underhook battle - fight to maintain or recover underhook on the near side to limit top player's control",
-    "Use far-side leg (hook) actively to disrupt balance and prevent top player from stepping over or completing passes",
-    "Create space through bridging and shrimping movements to insert knee shield or recover full guard structure",
-    "Monitor and defend crossface pressure - prevent head control which enables easier passing sequences",
-    "Maintain awareness of back exposure - avoid turning too far into opponent when attempting escapes"
+    "Leg weave disrupts guard structure by threading through defensive frames, creating asymmetric control that favors the passer",
+    "Bottom player must immediately establish frames and hip movement to prevent complete flattening and maintain escape options",
+    "Top player maintains constant forward pressure with low hips to consolidate position and prevent guard recovery",
+    "Position creates multiple passing dilemmas where defending one threat opens pathways to alternative passes",
+    "Understanding weight distribution between upper body and leg positioning is critical for both maintaining and escaping control",
+    "The weave position is fundamentally transitional - both players must be prepared to flow to adjacent positions based on reactions"
   ],
-
-  "offensive_transitions": [
+  "related_positions": [
     {
-      "technique": "Frame and Shrimp",
-      "target_position": "Knee Shield Half Guard Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
+      "name": "Half Guard",
+      "relationship": "Parent position where leg weave commonly develops during passing sequences"
     },
     {
-      "technique": "Underhook Sweep from Half",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
+      "name": "Knee Shield Half Guard",
+      "relationship": "Primary recovery target for bottom player escaping leg weave pressure"
     },
     {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rates": {
+      "name": "Deep Half Guard",
+      "relationship": "Common counter-entry when top player drives forward pressure in leg weave"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary completion target for top player passing from leg weave"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing position with similar pressure and control concepts"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Transitional position when bottom player comes up on elbow from leg weave"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative bottom strategy to trap weaving leg and counter passing pressure"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Common result when bottom player fails to defend leg weave effectively"
+    },
+    {
+      "name": "Leg Drag Position",
+      "relationship": "Alternative passing finish when bottom player turns during leg weave"
+    }
+  ],
+  "bottom": {
+    "name": "Leg Weave Bottom",
+    "description": "Master defensive strategies from leg weave bottom. High-pressure half guard position with frame-based escapes. Success rates: Beginner 25%, Intermediate 40%, Advanced 55% for guard recovery.",
+    "tags": ["bjj", "position", "half-guard", "defensive", "bottom", "leg-weave", "guard-retention"],
+    "overview": "Leg Weave Bottom Position represents a challenging defensive scenario in half guard where the top player has threaded their leg through your guard structure, establishing a powerful passing position. This position occurs when the passer has successfully weaved their knee-side leg between your legs while maintaining upper body control, creating significant pressure and limiting your mobility. The bottom player faces immediate threats of guard passes to side control, mount, or back control if defensive frames and hip movement are not properly established. While disadvantageous, this position offers specific defensive pathways and counter-attacks that can recover guard or create scrambles when executed with proper timing and technique. Understanding the mechanics of maintaining frames, creating angles, and preventing the complete pass is essential for survival and eventual escape from this high-pressure position. Success requires constant movement, precise framing against the opponent's pressure points, and recognition of timing windows for transitions to more favorable positions like knee shield, deep half, or dogfight.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Top player's knee-side leg is threaded between bottom player's legs, typically positioning the shin or knee across the bottom player's hip line or thigh to establish the weave structure that disrupts defensive leg positioning",
+      "Bottom player maintains half guard hook with one leg (usually the far leg) while the near leg is being controlled or pressured by the top player's weaved leg, creating asymmetric leg connection",
+      "Top player applies forward and downward pressure through chest and shoulder, often with crossface or underhook control to flatten the bottom player and prevent hip escape",
+      "Bottom player's back is on or near the mat with varying degrees of hip escape and shoulder rotation depending on defensive frame effectiveness and ability to create angles",
+      "Space between players is minimal due to the leg weave creating tight connection, requiring bottom player to actively create frames with forearms, elbows, or knees to prevent complete chest-to-chest contact"
+    ],
+    "prerequisites": [
+      "Bottom player was in half guard position (standard, knee shield, or lockdown variation)",
+      "Top player successfully initiated leg weave entry by threading knee-side leg between bottom player's legs",
+      "Bottom player failed to prevent the initial weave with knee shield or frame",
+      "Top player established some form of upper body control (crossface, underhook, or collar tie)",
+      "Bottom player's far-side leg maintains some connection (half guard hook) preventing complete pass"
+    ],
+    "key_principles": [
+      "Establish and maintain strong defensive frames using forearms against opponent's neck, shoulder, or hip to prevent complete flattening",
+      "Keep active hip movement and angle creation to prevent top player from settling their weight and consolidating position",
+      "Protect the underhook battle - fight to maintain or recover underhook on the near side to limit top player's control",
+      "Use far-side leg (hook) actively to disrupt balance and prevent top player from stepping over or completing passes",
+      "Create space through bridging and shrimping movements to insert knee shield or recover full guard structure",
+      "Monitor and defend crossface pressure - prevent head control which enables easier passing sequences",
+      "Maintain awareness of back exposure - avoid turning too far into opponent when attempting escapes"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Frame and Shrimp",
+        "target_position": "Knee Shield Half Guard",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Underhook Sweep from Half",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
+      },
+      {
+        "technique": "Deep Half Entry",
+        "target_position": "Deep Half Guard",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Old School Sweep",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 10,
+          "intermediate": 25,
+          "advanced": 40
+        }
+      },
+      {
+        "technique": "Dogfight Position",
+        "target_position": "Dogfight Position",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Rolling to Guard",
+        "target_position": "Closed Guard",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Lockdown Sweeps",
+        "target_position": "Lockdown",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Leg Weave Pass",
+        "target_position": "Side Control",
+        "success_rate": 60
+      },
+      {
+        "technique": "Smash Pass",
+        "target_position": "Side Control",
+        "success_rate": 55
+      },
+      {
+        "technique": "Knee Slice Pass",
+        "target_position": "Side Control",
+        "success_rate": 50
+      },
+      {
+        "technique": "Long Step Pass",
+        "target_position": "Side Control",
+        "success_rate": 45
+      },
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "success_rate": 40
+      },
+      {
+        "technique": "Back Take Generic",
+        "target_position": "Back Control",
+        "success_rate": 35
+      },
+      {
+        "technique": "Transition to North-South",
+        "target_position": "North-South",
+        "success_rate": 30
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Frame and Shrimp",
+        "target_position": "Knee Shield Half Guard",
+        "trigger": "Top player attempts to flatten with crossface - create frame on neck and shrimp hip away"
+      },
+      {
+        "technique": "Deep Half Entry",
+        "target_position": "Deep Half Guard",
+        "trigger": "Top player drives forward pressure - dive under their center of gravity to deep half"
+      },
+      {
+        "technique": "Underhook Sweep from Half",
+        "target_position": "Side Control",
+        "trigger": "Top player posts hands forward - capture underhook and roll to top"
+      },
+      {
+        "technique": "Dogfight Position",
+        "target_position": "Dogfight Position",
+        "trigger": "Top player elevates to complete pass - come up on elbow to seated position"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If top player establishes strong crossface and drives chest pressure to flatten you",
+        "actions": [
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Knee Shield Half Guard",
+            "probability": 40
+          },
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 35
+          },
+          {
+            "technique": "Rolling to Guard",
+            "target": "Closed Guard",
+            "probability": 25
+          }
+        ]
+      },
+      {
+        "condition": "If top player posts hands forward or elevates hips to step over your leg",
+        "actions": [
+          {
+            "technique": "Underhook Sweep from Half",
+            "target": "Side Control",
+            "probability": 45
+          },
+          {
+            "technique": "Old School Sweep",
+            "target": "Side Control",
+            "probability": 35
+          },
+          {
+            "technique": "Dogfight Position",
+            "target": "Dogfight Position",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If top player drives weight forward while maintaining low posture",
+        "actions": [
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Lockdown Sweeps",
+            "target": "Lockdown",
+            "probability": 30
+          },
+          {
+            "technique": "Rolling to Guard",
+            "target": "Closed Guard",
+            "probability": 20
+          }
+        ]
+      },
+      {
+        "condition": "If top player attempts to free their leg from your hook while controlling upper body",
+        "actions": [
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Knee Shield Half Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Underhook Sweep from Half",
+            "target": "Side Control",
+            "probability": 35
+          },
+          {
+            "technique": "Dogfight Position",
+            "target": "Dogfight Position",
+            "probability": 40
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing top player to establish deep crossface without fighting for frames",
+        "consequence": "Complete flattening occurs, eliminating hip mobility and making escapes extremely difficult. Top player can consolidate position and pass at will.",
+        "correction": "Immediately establish forearm or elbow frame against opponent's neck or shoulder as leg weave begins. Keep active resistance to prevent head control. Prioritize frame maintenance over other defensive actions initially."
+      },
+      {
+        "error": "Releasing far-side leg hook prematurely in attempt to escape",
+        "consequence": "Top player completes pass immediately to side control or mount without resistance. Loss of only remaining connection point accelerates positional loss.",
+        "correction": "Maintain far-side hook throughout escape attempts unless deliberately transitioning to deep half or other guard recovery. Use hook to off-balance opponent and create scramble opportunities. Only release when secured alternative position."
+      },
+      {
+        "error": "Remaining static and accepting the position without hip movement",
+        "consequence": "Top player settles weight and consolidates leg weave, making escape progressively more difficult. Energy depletes while defending without attempting improvement.",
+        "correction": "Keep constant hip movement even if small - shrimp, bridge, angle changes. Never accept static position. Create micro-adjustments that prevent opponent from settling and set up larger escape movements."
+      },
+      {
+        "error": "Turning fully into opponent to escape, exposing back",
+        "consequence": "Top player takes back control or achieves crucifix position. What began as guard pass defense becomes back attack defense with worse odds.",
+        "correction": "Maintain awareness of back exposure threshold. When turning to dogfight or deep half, keep shoulders within 45 degrees of mat. If forced further, transition to turtle with defensive posture rather than giving up back mount."
+      },
+      {
+        "error": "Using only upper body strength to fight frames without hip engagement",
+        "consequence": "Arms fatigue quickly while top player maintains pressure through better leverage. Frame battle is lost leading to flattening and pass.",
+        "correction": "Coordinate frame pressure with hip movement and leg engagement. Use shrimping motion to create angle that makes frames more effective. Engage core and legs to support arm frames rather than isolated upper body pushing."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Leg Weave Escape Flow Drill",
+        "description": "Partner establishes leg weave with moderate pressure. Bottom player cycles through frame creation, hip escape, knee shield recovery, and dogfight entries for 2-minute rounds. Top player maintains position but allows escapes to complete, then re-establishes weave. Focus on smooth transitions between defensive options.",
+        "duration": "5 rounds of 2 minutes"
+      },
+      {
+        "name": "Progressive Resistance Leg Weave Defense",
+        "description": "Start with compliant top player allowing bottom player to work all escape options. Gradually increase resistance over 5 rounds: 30% resistance, 50%, 70%, 90%, then 100% competitive. Bottom player maintains same escape attempts throughout increasing difficulty. Identifies which escapes work under pressure.",
+        "duration": "5 rounds of 3 minutes"
+      },
+      {
+        "name": "Frame Maintenance Under Pressure",
+        "description": "Top player establishes leg weave and applies sustained crossface and chest pressure for 30-second intervals. Bottom player focuses solely on maintaining strong frames without attempting escapes. Develop frame endurance and proper positioning under realistic pressure. Rest 30 seconds between intervals.",
+        "duration": "10 intervals of 30 seconds"
+      },
+      {
+        "name": "Leg Weave to Deep Half Timing Drill",
+        "description": "Top player alternates between forward pressure and backward weight shifts. Bottom player identifies windows for deep half entry based on weight distribution. Practice shooting deep half only when opponent commits weight forward. Develops timing recognition and entry precision.",
+        "duration": "4 rounds of 3 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Defensive escape to sweep to submission",
+        "path": "Leg Weave Bottom → Knee Shield Half Guard → Side Control → Kimura from Side Control"
+      },
+      {
+        "name": "Deep half counter to leg lock",
+        "path": "Leg Weave Bottom → Deep Half Guard → Ashi Garami → Inside Heel Hook"
+      },
+      {
+        "name": "Dogfight scramble to back attack",
+        "path": "Leg Weave Bottom → Dogfight Position → Back Control → Rear Naked Choke"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position - broader category of bottom half guard positions"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Primary escape target - recovering defensive structure with frames"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Counter-attack option - diving under pressure to invert guard hierarchy"
+      },
+      {
+        "name": "Dogfight Position",
+        "relationship": "Scramble position - transitional state when coming up on elbow"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "Alternative defensive strategy - trapping weaving leg to counter pressure"
+      },
+      {
+        "name": "Frame Management",
+        "relationship": "Defensive concept - fundamental skill for survival in leg weave bottom"
+      },
+      {
+        "name": "Guard Retention",
+        "relationship": "Core principle - preventing guard pass from compromised position"
+      },
+      {
+        "name": "Underhook Defense",
+        "relationship": "Defensive concept - critical for preventing crossface and maintaining frames"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
         "beginner": 20,
         "intermediate": 35,
         "advanced": 50
-      }
-    },
-    {
-      "technique": "Old School Sweep",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 40
-      }
-    },
-    {
-      "technique": "Dogfight Position",
-      "target_position": "Dogfight Position Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Electric Chair",
-      "target_position": "Electric Chair Bottom",
-      "success_rates": {
+      },
+      "advancement_probability": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      },
+      "submission_probability": {
         "beginner": 5,
-        "intermediate": 15,
-        "advanced": 30
-      }
+        "intermediate": 10,
+        "advanced": 20
+      },
+      "average_time": "30-90 seconds before pass or escape"
     },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Guard Recovery Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
+    "expert_insights": {
+      "danaher": "The leg weave bottom position represents a critical junction in the half guard passing sequence where the battle of angles and frames determines outcome. The fundamental principle at work here is the concept of inside position versus outside position - the top player has achieved inside leg positioning through the weave, creating a biomechanical advantage that must be neutralized through superior frame construction and hip angle management. The key defensive insight is that frames are not static structures but dynamic tools that create distance, which then enables angle creation through shrimping mechanics. Most bottom players make the catastrophic error of accepting the flat position, at which point the passer's weight advantage becomes insurmountable. The intelligent escape sequence begins with establishing frames that prevent complete chest-to-chest contact, then immediately creating hip angle to insert the knee shield or transition to deep half guard. Understanding that this position is fundamentally about the battle for inside control - once lost with the leg weave, it must be systematically recovered through precise technical sequences rather than explosive scrambling.",
+      "gordon_ryan": "Leg weave bottom is honestly one of the worst positions to be in during competition because good passers will flatten you and pass in seconds if you don't know the specific escapes. From my experience at the highest levels, the absolute key is never letting them settle their weight - you need to be moving your hips constantly even if it's small movements. The frame on the neck is non-negotiable, that's your survival tool that buys you time to hip escape. What works for me when I end up here is immediately recognizing whether they're driving forward pressure or trying to step over - if they drive forward, that's your deep half window, if they elevate to step over, that's when you come up to dogfight. Against elite guys like Lachlan Giles or Nick Rodriguez who have incredible pressure, I've found that the old school sweep becomes viable because they commit so much weight forward trying to flatten you. The biggest mistake I see is people giving up the position mentally and just accepting the pass - if you keep fighting for frames and angles, you'd be surprised how many scrambles you can create even against world-class passers.",
+      "eddie_bravo": "The leg weave is basically the passer trying to kill your lockdown and half guard game, but there's some sick counters if you know the 10th Planet system. First thing, don't let them flatten you bro - that's death. You gotta keep that electric chair option alive by maintaining your leg connection and looking for that ankle. A lot of people don't realize that when they weave their leg through, they're actually giving you a potential path to the twister side control if you can get the underhook and roll them. The deep half entry is money here too, especially if you've been drilling the dogfight to deep half connection. What I teach is to always be thinking about the lockdown recovery even from bad positions like this - if you can get your foot across their hip while they're weaving, you can sometimes trap their leg and create the whole lockdown game again. The vaporizer sweep is also there if they commit too much weight forward and you have that far leg hook. Bottom line is leg weave bottom is dangerous but it's not game over - you've got electric chair, deep half, dogfight, and if you're flexible enough, rubber guard entries when they post their hands. Keep moving, maintain that hook, and look for the counters."
     }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Leg Weave Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 60
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 55
-    },
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 50
-    },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 45
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rate": 40
-    },
-    {
-      "technique": "Back Take Generic",
-      "target_position": "Back Control Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Knee on Belly",
-      "target_position": "Knee on Belly Top",
-      "success_rate": 30
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Knee Shield Half Guard Bottom",
-      "trigger": "Top player attempts to flatten with crossface - create frame on neck and shrimp hip away"
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "trigger": "Top player drives forward pressure - dive under their center of gravity to deep half"
-    },
-    {
-      "technique": "Underhook Sweep from Half",
-      "target_position": "Top Position",
-      "trigger": "Top player posts hands forward - capture underhook and roll to top"
-    },
-    {
-      "technique": "Dogfight Position",
-      "target_position": "Dogfight Position Bottom",
-      "trigger": "Top player elevates to complete pass - come up on elbow to seated position"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If top player establishes strong crossface and drives chest pressure to flatten you",
-      "actions": [
-        {
-          "technique": "Frame and Shrimp",
-          "target": "Knee Shield Half Guard Bottom",
-          "probability": 40
-        },
-        {
-          "technique": "Deep Half Entry",
-          "target": "Deep Half Guard Bottom",
-          "probability": 35
-        },
-        {
-          "technique": "Rolling to Guard",
-          "target": "Guard Recovery Bottom",
-          "probability": 25
-        }
-      ]
-    },
-    {
-      "condition": "If top player posts hands forward or elevates hips to step over your leg",
-      "actions": [
-        {
-          "technique": "Underhook Sweep from Half",
-          "target": "Top Position",
-          "probability": 45
-        },
-        {
-          "technique": "Old School Sweep",
-          "target": "Top Position",
-          "probability": 35
-        },
-        {
-          "technique": "Dogfight Position",
-          "target": "Dogfight Position Bottom",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If top player drives weight forward while maintaining low posture",
-      "actions": [
-        {
-          "technique": "Deep Half Entry",
-          "target": "Deep Half Guard Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Electric Chair",
-          "target": "Electric Chair Bottom",
-          "probability": 30
-        },
-        {
-          "technique": "Rolling to Guard",
-          "target": "Guard Recovery Bottom",
-          "probability": 20
-        }
-      ]
-    },
-    {
-      "condition": "If top player attempts to free their leg from your hook while controlling upper body",
-      "actions": [
-        {
-          "technique": "Frame and Shrimp",
-          "target": "Knee Shield Half Guard Bottom",
-          "probability": 45
-        },
-        {
-          "technique": "Underhook Sweep from Half",
-          "target": "Top Position",
-          "probability": 35
-        },
-        {
-          "technique": "Dogfight Position",
-          "target": "Dogfight Position Bottom",
-          "probability": 40
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Allowing top player to establish deep crossface without fighting for frames",
-      "consequence": "Complete flattening occurs, eliminating hip mobility and making escapes extremely difficult. Top player can consolidate position and pass at will.",
-      "correction": "Immediately establish forearm or elbow frame against opponent's neck or shoulder as leg weave begins. Keep active resistance to prevent head control. Prioritize frame maintenance over other defensive actions initially."
-    },
-    {
-      "error": "Releasing far-side leg hook prematurely in attempt to escape",
-      "consequence": "Top player completes pass immediately to side control or mount without resistance. Loss of only remaining connection point accelerates positional loss.",
-      "correction": "Maintain far-side hook throughout escape attempts unless deliberately transitioning to deep half or other guard recovery. Use hook to off-balance opponent and create scramble opportunities. Only release when secured alternative position."
-    },
-    {
-      "error": "Remaining static and accepting the position without hip movement",
-      "consequence": "Top player settles weight and consolidates leg weave, making escape progressively more difficult. Energy depletes while defending without attempting improvement.",
-      "correction": "Keep constant hip movement even if small - shrimp, bridge, angle changes. Never accept static position. Create micro-adjustments that prevent opponent from settling and set up larger escape movements."
-    },
-    {
-      "error": "Turning fully into opponent to escape, exposing back",
-      "consequence": "Top player takes back control or achieves crucifix position. What began as guard pass defense becomes back attack defense with worse odds.",
-      "correction": "Maintain awareness of back exposure threshold. When turning to dogfight or deep half, keep shoulders within 45 degrees of mat. If forced further, transition to turtle with defensive posture rather than giving up back mount."
-    },
-    {
-      "error": "Using only upper body strength to fight frames without hip engagement",
-      "consequence": "Arms fatigue quickly while top player maintains pressure through better leverage. Frame battle is lost leading to flattening and pass.",
-      "correction": "Coordinate frame pressure with hip movement and leg engagement. Use shrimping motion to create angle that makes frames more effective. Engage core and legs to support arm frames rather than isolated upper body pushing."
-    },
-    {
-      "error": "Attempting deep half entry without proper angle or timing",
-      "consequence": "Top player sprawls weight back, crushes the attempted entry, and often transitions to more dominant positions like north-south or back control.",
-      "correction": "Only shoot deep half when opponent drives forward pressure or posts hands. Create angle first with frame and shrimp to position hips. Time entry when opponent's weight is committed forward, making sprawl defense impossible."
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Leg Weave Escape Flow Drill",
-      "description": "Partner establishes leg weave with moderate pressure. Bottom player cycles through frame creation, hip escape, knee shield recovery, and dogfight entries for 2-minute rounds. Top player maintains position but allows escapes to complete, then re-establishes weave. Focus on smooth transitions between defensive options.",
-      "duration": "5 rounds of 2 minutes"
-    },
-    {
-      "name": "Progressive Resistance Leg Weave Defense",
-      "description": "Start with compliant top player allowing bottom player to work all escape options. Gradually increase resistance over 5 rounds: 30% resistance, 50%, 70%, 90%, then 100% competitive. Bottom player maintains same escape attempts throughout increasing difficulty. Identifies which escapes work under pressure.",
-      "duration": "5 rounds of 3 minutes with increasing resistance"
-    },
-    {
-      "name": "Frame Maintenance Under Pressure",
-      "description": "Top player establishes leg weave and applies sustained crossface and chest pressure for 30-second intervals. Bottom player focuses solely on maintaining strong frames without attempting escapes. Develop frame endurance and proper positioning under realistic pressure. Rest 30 seconds between intervals.",
-      "duration": "10 intervals of 30 seconds on, 30 seconds rest"
-    },
-    {
-      "name": "Leg Weave to Deep Half Timing Drill",
-      "description": "Top player alternates between forward pressure and backward weight shifts. Bottom player identifies windows for deep half entry based on weight distribution. Practice shooting deep half only when opponent commits weight forward. Develops timing recognition and entry precision.",
-      "duration": "4 rounds of 3 minutes"
-    },
-    {
-      "name": "Leg Weave Positional Sparring",
-      "description": "Start every round in leg weave bottom position. Bottom player scores by recovering guard, sweeping, or escaping. Top player scores by passing to side control or better. Reset to leg weave after each score. Competitive environment to test all defensive options under pressure.",
-      "duration": "6 rounds of 4 minutes"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Defensive escape to sweep to submission",
-      "path": "Leg Weave Bottom Position → (Frame and Shrimp) → Knee Shield Half Guard Bottom → (Underhook Sweep from Half) → Top Position → (Kimura from Side Control) → Kimura"
-    },
-    {
-      "name": "Deep half counter to leg lock",
-      "path": "Leg Weave Bottom Position → (Deep Half Entry) → Deep Half Guard Bottom → (Ankle Pick Sweep) → Ashi Garami Top → (Inside Heel Hook) → Inside Heel Hook"
-    },
-    {
-      "name": "Dogfight scramble to back attack",
-      "path": "Leg Weave Bottom Position → (Dogfight Position) → Dogfight Position Bottom → (Back Take Generic) → Back Control Top → (Rear Naked Choke) → Rear Naked Choke"
-    },
-    {
-      "name": "Electric chair sweep to submission",
-      "path": "Leg Weave Bottom Position → (Electric Chair) → Electric Chair Bottom → (Electric Chair Submission) → Electric Chair Submission"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Leg Weave Top Position",
-      "relationship": "Opposite perspective - understanding top player's objectives and pressure points"
-    },
-    {
-      "name": "Knee Shield Half Guard Bottom",
-      "relationship": "Primary escape target - recovering defensive structure with frames"
-    },
-    {
-      "name": "Deep Half Guard Bottom",
-      "relationship": "Counter-attack option - diving under pressure to invert guard hierarchy"
-    },
-    {
-      "name": "Dogfight Position Bottom",
-      "relationship": "Scramble position - transitional state when coming up on elbow"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Parent position - broader category of bottom half guard positions"
-    },
-    {
-      "name": "Headquarters Position Top",
-      "relationship": "Related passing position - similar pressure and control concepts"
-    },
-    {
-      "name": "Smash Pass Position",
-      "relationship": "Common progression - where leg weave often leads if defense fails"
-    },
-    {
-      "name": "Pressure Passing",
-      "relationship": "Conceptual framework - understanding pressure-based passing to defend effectively"
-    },
-    {
-      "name": "Underhook Defense",
-      "relationship": "Defensive concept - critical for preventing crossface and maintaining frames"
-    },
-    {
-      "name": "Frame Management",
-      "relationship": "Defensive concept - fundamental skill for survival in leg weave bottom"
-    }
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
-    },
-    "advancement_probability": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 45
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 20
-    },
-    "average_time": "30-90 seconds before pass or escape"
   },
-
-  "expert_insights": {
-    "danaher": "The leg weave bottom position represents a critical junction in the half guard passing sequence where the battle of angles and frames determines outcome. The fundamental principle at work here is the concept of inside position versus outside position - the top player has achieved inside leg positioning through the weave, creating a biomechanical advantage that must be neutralized through superior frame construction and hip angle management. The key defensive insight is that frames are not static structures but dynamic tools that create distance, which then enables angle creation through shrimping mechanics. Most bottom players make the catastrophic error of accepting the flat position, at which point the passer's weight advantage becomes insurmountable. The intelligent escape sequence begins with establishing frames that prevent complete chest-to-chest contact, then immediately creating hip angle to insert the knee shield or transition to deep half guard. Understanding that this position is fundamentally about the battle for inside control - once lost with the leg weave, it must be systematically recovered through precise technical sequences rather than explosive scrambling.",
-    "gordon_ryan": "Leg weave bottom is honestly one of the worst positions to be in during competition because good passers will flatten you and pass in seconds if you don't know the specific escapes. From my experience at the highest levels, the absolute key is never letting them settle their weight - you need to be moving your hips constantly even if it's small movements. The frame on the neck is non-negotiable, that's your survival tool that buys you time to hip escape. What works for me when I end up here is immediately recognizing whether they're driving forward pressure or trying to step over - if they drive forward, that's your deep half window, if they elevate to step over, that's when you come up to dogfight. Against elite guys like Lachlan Giles or Nick Rodriguez who have incredible pressure, I've found that the old school sweep becomes viable because they commit so much weight forward trying to flatten you. The biggest mistake I see is people giving up the position mentally and just accepting the pass - if you keep fighting for frames and angles, you'd be surprised how many scrambles you can create even against world-class passers.",
-    "eddie_bravo": "The leg weave is basically the passer trying to kill your lockdown and half guard game, but there's some sick counters if you know the 10th Planet system. First thing, don't let them flatten you bro - that's death. You gotta keep that electric chair option alive by maintaining your leg connection and looking for that ankle. A lot of people don't realize that when they weave their leg through, they're actually giving you a potential path to the twister side control if you can get the underhook and roll them. The deep half entry is money here too, especially if you've been drilling the dogfight to deep half connection. What I teach is to always be thinking about the lockdown recovery even from bad positions like this - if you can get your foot across their hip while they're weaving, you can sometimes trap their leg and create the whole lockdown game again. The vaporizer sweep is also there if they commit too much weight forward and you have that far leg hook. Bottom line is leg weave bottom is dangerous but it's not game over - you've got electric chair, deep half, dogfight, and if you're flexible enough, rubber guard entries when they post their hands. Keep moving, maintain that hook, and look for the counters."
-  }
-}
-{
-  "metadata": {
-    "title": "Leg Weave Position Top | BJJ Position Guide | BJJ Graph",
-    "description": "Master Leg Weave Position Top in BJJ. Advanced guard passing position with leg control and weight distribution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "state_id": "S097",
-    "tags": ["bjj", "position", "guard-passing", "top-position", "leg-weave", "half-guard-pass", "pressure-passing"]
-  },
-
-  "overview": "Leg Weave Position Top is an advanced guard passing position where the top practitioner weaves their leg between the bottom player's legs to establish control and weight distribution. This position is most commonly used when passing half guard or dealing with stubborn leg retention from the bottom player. The weaving action creates a unique mechanical advantage that disrupts the bottom player's defensive structure while establishing a dominant passing angle.\n\nThe position is characterized by threading one leg through the opponent's guard, typically while maintaining upper body control through underhooks, crossface, or grip control. This creates a powerful pressure-passing platform where the top player can distribute their weight effectively across the opponent's defensive frames. The leg weave disrupts common half guard retention strategies and eliminates the bottom player's ability to effectively use butterfly hooks or knee shields.\n\nLeg Weave Position Top is particularly effective in modern no-gi grappling where traditional gi grips are unavailable, forcing practitioners to rely more heavily on positional mechanics and weight distribution. The position requires good hip mobility and precise weight placement to prevent the bottom player from re-establishing their guard structure.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-
-  "state_invariants": [
-    "Top player's leg threaded between opponent's legs, creating a weaving pattern that disrupts the bottom player's defensive frame and prevents hip mobility",
-    "Top player's chest and shoulder pressure directed toward opponent's upper body, typically through crossface or shoulder-of-justice positioning with sustained forward pressure",
-    "Bottom player's guard structure compromised, with limited ability to create frames or maintain distance due to the leg weaving action controlling hip movement",
-    "Top player maintains low base with hips driving forward, weight distributed through the woven leg and upper body pressure points to prevent bottom player recovery"
-  ],
-
-  "prerequisites": [
-    "Successful entry from half guard passing sequence or knee slice attempt",
-    "Control of opponent's upper body through underhook, crossface, or shoulder pressure",
-    "One leg threaded between opponent's legs in weaving position",
-    "Opponent's guard structure disrupted with limited ability to retain hooks or frames",
-    "Top player maintaining forward pressure and low center of gravity",
-    "Bottom player flat on back or defensive position with compromised leg retention"
-  ],
-
-  "key_principles": [
-    "Maintain constant forward pressure through chest and shoulder, never allowing opponent to create space or recover guard structure",
-    "Keep weaving leg active and mobile to prevent opponent from establishing hooks or controlling the leg",
-    "Distribute weight strategically between upper body pressure and leg positioning to maximize control",
-    "Control opponent's near-side arm through underhook or wrist control to prevent defensive frames",
-    "Use crossface or shoulder pressure to control opponent's head and limit their mobility options",
-    "Keep hips low and driving forward to prevent opponent from creating space underneath",
-    "Anticipate opponent's attempts to recover guard and preemptively adjust weight distribution"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Leg Weave Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
+  "top": {
+    "name": "Leg Weave Top",
+    "description": "Master leg weave passing from top position. Advanced guard passing control with leg threading mechanics. Success rates: Beginner 35%, Intermediate 55%, Advanced 70% for pass completion.",
+    "tags": ["bjj", "position", "leg-weave", "guard-passing", "top-position", "half-guard-pass", "pressure-passing"],
+    "overview": "The Leg Weave Top Position is an advanced guard passing control where the top player threads one leg between the bottom player's legs while maintaining upper body control. This position creates a powerful passing platform by neutralizing the bottom player's leg-based guards and frames, particularly effective against opponents who rely heavily on knee shield, butterfly hooks, or other leg-based defensive structures. The leg weave represents a transitional control point in modern BJJ guard passing systems, bridging the gap between initial guard engagement and final passing positions like side control or mount. The position is characterized by the top player's leg creating a weave pattern through the opponent's guard, disrupting their defensive structure while maintaining forward pressure and control. Mastery of the leg weave position requires precise weight distribution, understanding of angles, and the ability to chain multiple passing sequences together. Elite practitioners use this position to create passing dilemmas where the bottom player must choose between defending different passing threats, often leading to successful guard passes with high percentage rates at advanced levels. The position has become increasingly prevalent in modern no-gi grappling where traditional gi grips are unavailable, forcing practitioners to rely more heavily on positional mechanics and weight distribution.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
     },
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Kimura from Half Guard",
-      "target_position": "Kimura Control Top",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
-    },
-    {
-      "technique": "Darce Setup",
-      "target_position": "Darce Control Top Position",
-      "success_rates": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 40
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Half Guard Recovery",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rate": 25
-    },
-    {
-      "technique": "Lockdown Sweeps",
-      "target_position": "Lockdown Position Bottom",
-      "success_rate": 20
-    },
-    {
-      "technique": "Underhook Sweep from Half",
-      "target_position": "Top Position",
-      "success_rate": 15
-    },
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Guard Recovery Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Knee Shield Retention",
-      "target_position": "Knee Shield Half Guard Bottom",
-      "success_rate": 40
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Crossface Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent attempts to create frames or turn into you"
-    },
-    {
-      "technique": "Underhook Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent exposes underhook side while defending leg weave"
-    },
-    {
-      "technique": "Leg Drag Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent's legs become extended or disconnected during recovery attempt"
-    },
-    {
-      "technique": "Back Take Generic",
-      "target_position": "Back Control Top",
-      "trigger": "Opponent turns away to escape pressure and exposes back"
-    },
-    {
-      "technique": "Knee Slice from Half",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent flattens out and loses hip mobility"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent maintains strong knee shield or creates frames to prevent forward progress",
-      "actions": [
-        {
-          "technique": "Smash Pass",
-          "target": "Side Control Top",
-          "probability": 50
-        },
-        {
-          "technique": "Leg Drag Pass",
-          "target": "Side Control Top",
-          "probability": 45
+    "state_invariants": [
+      "Top player's lead leg is threaded between bottom player's legs, creating a weaving pattern that disrupts defensive leg positioning and prevents the bottom player from establishing effective guard retention frames",
+      "Upper body control maintained through grips on the opponent's collar, sleeves, or underhooks, with the top player's chest pressure directed toward the bottom player's upper body to prevent them from sitting up or creating distance",
+      "Bottom player on their back or side with limited ability to establish butterfly hooks, knee shield, or other leg-based defensive structures due to the top player's leg positioning disrupting their base and frame",
+      "Top player's hips positioned forward and low, creating constant forward pressure that drives through the bottom player's center line while maintaining balance and preventing the bottom player from recovering guard or sweeping",
+      "Weight distribution favoring the lead leg side, with the top player's base controlled through their non-weaving leg and hands, creating a stable platform that allows for dynamic passing movements while maintaining pressure"
+    ],
+    "prerequisites": [
+      "Initial guard engagement from standing or combat base position",
+      "Successful opening of closed guard or engagement with open guard variations",
+      "Control of at least one upper body grip (collar, sleeve, or underhook)",
+      "Bottom player unable to establish effective knee shield or butterfly hook retention",
+      "Top player's posture and base stable enough to thread leg without being swept"
+    ],
+    "key_principles": [
+      "Thread the lead leg deep between opponent's legs while maintaining upper body connection and forward pressure",
+      "Keep hips low and driving forward to prevent bottom player from creating space or recovering guard",
+      "Control opponent's upper body with grips or underhooks to prevent them from sitting up or framing effectively",
+      "Use the weaved leg to pin opponent's bottom leg while freeing the top leg for passing",
+      "Maintain constant pressure and angle changes to prevent bottom player from establishing defensive frames",
+      "Chain multiple passing threats together to create dilemmas for the bottom player",
+      "Keep weight distributed between the weaved leg and supporting leg to maintain balance and prevent sweeps"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Leg Weave Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 55,
+          "advanced": 70
         }
-      ]
-    },
-    {
-      "condition": "If opponent turns into you and exposes underhook or attempts deep half entry",
-      "actions": [
-        {
-          "technique": "Crossface Pass",
-          "target": "Side Control Top",
-          "probability": 55
-        },
-        {
-          "technique": "Darce Setup",
-          "target": "Darce Control Top Position",
-          "probability": 40
-        },
-        {
-          "technique": "Kimura from Half Guard",
-          "target": "Kimura Control Top",
-          "probability": 35
+      },
+      {
+        "technique": "Knee Slice Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 60,
+          "advanced": 75
         }
-      ]
-    },
-    {
-      "condition": "If opponent flattens out and loses hip mobility while defending",
-      "actions": [
-        {
-          "technique": "Knee Slice Pass",
-          "target": "Side Control Top",
-          "probability": 60
-        },
-        {
-          "technique": "Long Step Pass",
-          "target": "Side Control Top",
-          "probability": 50
+      },
+      {
+        "technique": "Leg Drag Pass",
+        "target_position": "Leg Drag Position",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 50,
+          "advanced": 65
         }
-      ]
-    },
-    {
-      "condition": "If opponent turns away to escape pressure and exposes their back",
-      "actions": [
-        {
-          "technique": "Back Take Generic",
-          "target": "Back Control Top",
-          "probability": 65
-        },
-        {
-          "technique": "Transition to Truck",
-          "target": "Truck Top Position",
-          "probability": 45
+      },
+      {
+        "technique": "Smash Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 45,
+          "advanced": 60
         }
-      ]
-    },
-    {
-      "condition": "Else if opponent maintains defensive posture but cannot escape",
-      "actions": [
-        {
-          "technique": "Leg Weave Pass",
-          "target": "Side Control Top",
-          "probability": 55
-        },
-        {
-          "technique": "Transition to North-South",
-          "target": "North-South Top",
-          "probability": 45
+      },
+      {
+        "technique": "Over-Under Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 50,
+          "advanced": 65
         }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Rising too high with hips during leg weave, reducing pressure and allowing opponent to create space",
-      "consequence": "Opponent can shrimp away, recover guard structure, or insert knee shield to prevent pass completion",
-      "correction": "Maintain low hip position with chest driving forward, keeping weight distributed through shoulder and weaving leg to maximize pressure"
-    },
-    {
-      "error": "Failing to control opponent's near-side arm, allowing them to create defensive frames",
-      "consequence": "Opponent establishes strong frames that prevent forward progress and create opportunities for guard recovery or sweeps",
-      "correction": "Secure underhook or wrist control on near-side arm immediately, using crossface or shoulder pressure to pin arm and eliminate framing opportunities"
-    },
-    {
-      "error": "Leaving weaving leg static and vulnerable to opponent's leg control or entanglement",
-      "consequence": "Opponent captures weaving leg with lockdown, butterfly hook, or other leg retention that stalls pass and creates sweep opportunities",
-      "correction": "Keep weaving leg active and mobile, constantly adjusting position to prevent opponent from establishing hooks or controlling the leg"
-    },
-    {
-      "error": "Committing too much weight to one side without proper balance, making position unstable",
-      "consequence": "Opponent can use your imbalanced weight distribution to create sweep opportunities or recover guard easily",
-      "correction": "Distribute weight strategically between upper body pressure and leg positioning, maintaining active balance and ability to adjust"
-    },
-    {
-      "error": "Neglecting head control and allowing opponent freedom of movement with their upper body",
-      "consequence": "Opponent can turn into you, create angles for sweeps, or establish grips that compromise your passing control",
-      "correction": "Use crossface, shoulder-of-justice, or head control to limit opponent's mobility and prevent them from turning or creating favorable angles"
-    },
-    {
-      "error": "Rushing the pass without establishing proper control points first",
-      "consequence": "Opponent exploits gaps in your control to recover guard, execute sweeps, or create scrambles that negate your passing advantage",
-      "correction": "Establish solid control through upper body pressure, arm control, and leg positioning before attempting to complete the pass to side control"
-    },
-    {
-      "error": "Failing to anticipate opponent's common defensive reactions like knee shield insertion or deep half attempts",
-      "consequence": "Opponent successfully defends and recovers guard structure, forcing you to restart the passing sequence from a less advantageous position",
-      "correction": "Read opponent's defensive patterns and preemptively adjust weight and positioning to counter their most likely defensive responses before they can execute them"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Leg Weave Entry Repetitions",
-      "description": "Partner starts in half guard bottom with standard retention. Top player practices threading leg and establishing weave position, focusing on smooth entry mechanics and immediate pressure establishment. Reset and repeat 10-15 times per side.",
-      "duration": "5-7 minutes"
-    },
-    {
-      "name": "Pressure Maintenance Drill",
-      "description": "Start in established leg weave position. Bottom player uses 50% resistance to create frames and attempt guard recovery. Top player focuses on maintaining constant pressure, controlling arms, and preventing space creation. Hold position for 2 minutes, then switch.",
-      "duration": "8-10 minutes"
-    },
-    {
-      "name": "Weave to Pass Flow Drill",
-      "description": "Top player enters leg weave position and flows through various passing options (knee slice, smash pass, long step) based on bottom player's defensive reactions. Bottom player provides realistic but controlled resistance. Focus on reading reactions and selecting appropriate passing technique.",
-      "duration": "10-12 minutes"
-    },
-    {
-      "name": "Counter Defense Drill",
-      "description": "Bottom player attempts specific escapes (deep half, knee shield recovery, underhook sweep) from leg weave position. Top player practices recognizing and countering each escape attempt with appropriate passing adjustments. Work through 5-6 common escape scenarios.",
-      "duration": "8-10 minutes"
-    },
-    {
-      "name": "Positional Sparring from Leg Weave",
-      "description": "Start in leg weave position with full resistance. Top player attempts to complete pass to side control or mount. Bottom player attempts to recover full guard or sweep. Reset when position is achieved by either player. 3-minute rounds.",
-      "duration": "15-20 minutes"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest pressure path",
-      "path": "Leg Weave Position Top → Side Control Top → Kimura Control Top → Kimura"
-    },
-    {
-      "name": "High-percentage strangling path",
-      "path": "Leg Weave Position Top → Darce Control Top Position → Darce Choke"
-    },
-    {
-      "name": "Opportunistic choke path",
-      "path": "Leg Weave Position Top → Back Control Top → Rear Naked Choke"
-    },
-    {
-      "name": "Mount control path",
-      "path": "Leg Weave Position Top → Side Control Top → Mount Top → Armbar from Mount"
-    },
-    {
-      "name": "North-South attack path",
-      "path": "Leg Weave Position Top → North-South Top → North-South Choke"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Primary position being passed from"
-    },
-    {
-      "name": "Knee Slice Position Top",
-      "relationship": "Similar passing position with different leg configuration"
-    },
-    {
-      "name": "Smash Pass Position",
-      "relationship": "Related pressure passing position"
-    },
-    {
-      "name": "Headquarters Position Top",
-      "relationship": "Common position before entering leg weave"
-    },
-    {
-      "name": "Side Control Top",
-      "relationship": "Primary target position after successful pass"
-    },
-    {
-      "name": "Long Step Position Top",
-      "relationship": "Alternative passing position with similar mechanics"
-    },
-    {
-      "name": "Deep Half Guard Bottom",
-      "relationship": "Common escape attempt from leg weave"
-    },
-    {
-      "name": "Crossface Pass",
-      "relationship": "Related passing technique from this position"
-    },
-    {
-      "name": "Pressure Passing",
-      "relationship": "Core concept underlying this position"
-    },
-    {
-      "name": "Guard Passing Principles",
-      "relationship": "Fundamental concept applied in this position"
-    }
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 40,
-      "intermediate": 55,
-      "advanced": 70
-    },
-    "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    },
-    "submission_probability": {
-      "beginner": 10,
-      "intermediate": 20,
-      "advanced": 35
-    },
-    "average_time": "45-90 seconds before completing pass or position change"
-  },
-
-  "expert_insights": {
-    "danaher": "The leg weave position represents a sophisticated mechanical solution to the problem of stubborn half guard retention. By threading your leg through the opponent's defensive structure, you create a pressure angle that is biomechanically difficult to defend against. The key insight is that the weaving action disrupts the opponent's ability to generate hip power, which is the foundation of all guard retention. When executed properly, the leg weave transforms a dynamic guard passing exchange into a controlled pressure scenario where you dictate the pace and direction of the engagement. The position requires precise weight distribution—too much weight on the legs and you lose upper body control; too much on the upper body and your legs become vulnerable to entanglement. Master practitioners understand that the leg weave is not merely a passing position but a control platform from which multiple passing paths become available based on the opponent's defensive reactions.",
-    "gordon_ryan": "Leg weave is one of my most reliable positions for passing stubborn half guard players in competition, especially against opponents who are good at maintaining knee shields and creating frames. The beauty of this position is that it gives you dominant control while maintaining multiple passing options based on how your opponent reacts. In high-level competition, most opponents will try to turn into you or establish deep half when you establish the leg weave—this is exactly what you want because it opens up darce and anaconda opportunities while they're trying to escape the pressure. The mistake most people make is trying to force the pass too quickly instead of using the position to break down the opponent's defensive structure first. I like to establish heavy shoulder pressure and control their near arm, then wait for them to make a defensive move that creates an opening. Against elite competition, the leg weave also sets up excellent transitions to the truck position if they turn away, giving you back attack opportunities.",
-    "eddie_bravo": "The leg weave is a fascinating position because it challenges conventional passing wisdom by intentionally putting your leg in a potentially vulnerable position. From the 10th Planet perspective, we see this as a high-risk, high-reward scenario that forces both players into dynamic problem-solving. What makes leg weave interesting is how it interacts with our lockdown-based half guard system—when someone tries to leg weave against a skilled lockdown player, it can backfire spectacularly if they don't understand the counters. That said, when executed by someone who really understands the mechanics, leg weave can be brutally effective because it disrupts the bottom player's ability to generate the hip movement necessary for most modern half guard attacks. The innovative approach is to combine leg weave with different upper body control variations—crossface, underhook, whizzer control—creating different pressure patterns that the opponent has to solve. I teach students to think of leg weave not as a single technique but as a pressure framework that adapts to the opponent's defensive strategy."
-  }
-}
-{
-  "metadata": {
-    "title": "Leg Weave Top Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Leg Weave Top Position in BJJ. Advanced guard passing control with leg entanglement. Complete guide with 70% pass completion rate for advanced practitioners.",
-    "state_id": "S263",
-    "tags": ["bjj", "position", "leg-weave", "guard-passing", "top-position", "half-guard-pass"],
-    "sibling_variants": ["Leg Weave Bottom Position"]
-  },
-  "overview": "The Leg Weave Top Position is an advanced guard passing control where the top player threads one leg between the bottom player's legs while maintaining upper body control. This position creates a powerful passing platform by neutralizing the bottom player's leg-based guards and frames. The leg weave is particularly effective against opponents who rely heavily on knee shield, butterfly hooks, or other leg-based defensive structures.\n\nThis position represents a transitional control point in modern BJJ guard passing systems, bridging the gap between initial guard engagement and final passing positions like side control or mount. The leg weave allows the top player to systematically dismantle the bottom player's defensive frames while maintaining forward pressure and control. The position is characterized by the top player's leg creating a \"weave\" pattern through the opponent's guard, hence the name.\n\nMastery of the leg weave position requires precise weight distribution, understanding of angles, and the ability to chain multiple passing sequences together. Elite practitioners use this position to create passing dilemmas where the bottom player must choose between defending different passing threats, often leading to successful guard passes with high percentage rates at advanced levels.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium"
-  },
-  "state_invariants": [
-    "Top player's lead leg is threaded between bottom player's legs, creating a weaving pattern that disrupts defensive leg positioning and prevents the bottom player from establishing effective guard retention frames",
-    "Upper body control maintained through grips on the opponent's collar, sleeves, or underhooks, with the top player's chest pressure directed toward the bottom player's upper body to prevent them from sitting up or creating distance",
-    "Bottom player on their back or side with limited ability to establish butterfly hooks, knee shield, or other leg-based defensive structures due to the top player's leg positioning disrupting their base and frame",
-    "Top player's hips positioned forward and low, creating constant forward pressure that drives through the bottom player's center line while maintaining balance and preventing the bottom player from recovering guard or sweeping",
-    "Weight distribution favoring the lead leg side, with the top player's base controlled through their non-weaving leg and hands, creating a stable platform that allows for dynamic passing movements while maintaining pressure"
-  ],
-  "prerequisites": [
-    "Initial guard engagement from standing or combat base position",
-    "Successful opening of closed guard or engagement with open guard variations",
-    "Control of at least one upper body grip (collar, sleeve, or underhook)",
-    "Bottom player unable to establish effective knee shield or butterfly hook retention",
-    "Top player's posture and base stable enough to thread leg without being swept"
-  ],
-  "key_principles": [
-    "Thread the lead leg deep between opponent's legs while maintaining upper body connection and forward pressure",
-    "Keep hips low and driving forward to prevent bottom player from creating space or recovering guard",
-    "Control opponent's upper body with grips or underhooks to prevent them from sitting up or framing effectively",
-    "Use the weaved leg to pin opponent's bottom leg while freeing the top leg for passing",
-    "Maintain constant pressure and angle changes to prevent bottom player from establishing defensive frames",
-    "Chain multiple passing threats together to create dilemmas for the bottom player",
-    "Keep weight distributed between the weaved leg and supporting leg to maintain balance and prevent sweeps"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Leg Weave Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
+      },
+      {
+        "technique": "Long Step Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Back Step",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
       }
-    },
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Knee Slice Position Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Frame and Shrimp",
+        "target_position": "Knee Shield Half Guard",
+        "success_rate": 40
+      },
+      {
+        "technique": "Underhook Sweep from Half",
+        "target_position": "Side Control",
+        "success_rate": 25
+      },
+      {
+        "technique": "Deep Half Entry",
+        "target_position": "Deep Half Guard",
+        "success_rate": 30
+      },
+      {
+        "technique": "Re-Guard",
+        "target_position": "Closed Guard",
+        "success_rate": 20
+      },
+      {
+        "technique": "Lockdown Sweeps",
+        "target_position": "Lockdown",
+        "success_rate": 25
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Knee Slice Pass",
+        "target_position": "Side Control",
+        "trigger": "Opponent attempts to recover knee shield or create frames"
+      },
+      {
+        "technique": "Leg Drag Pass",
+        "target_position": "Leg Drag Position",
+        "trigger": "Opponent turns away or attempts to turtle"
+      },
+      {
+        "technique": "Smash Pass",
+        "target_position": "Side Control",
+        "trigger": "Opponent flattens out and tries to prevent pass with legs"
+      },
+      {
+        "technique": "Back Step",
+        "target_position": "Back Control",
+        "trigger": "Opponent exposes back while attempting deep half entry"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent attempts to create frames with arms or recover knee shield position",
+        "actions": [
+          {
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
+            "probability": 65
+          },
+          {
+            "technique": "Leg Weave Pass",
+            "target": "Side Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turns away or attempts to come up to turtle position",
+        "actions": [
+          {
+            "technique": "Leg Drag Pass",
+            "target": "Back Control",
+            "probability": 55
+          },
+          {
+            "technique": "Back Step",
+            "target": "Back Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent flattens out completely and attempts to use leg positioning to prevent pass",
+        "actions": [
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Over-Under Pass",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts deep half guard entry or underhook sweep",
+        "actions": [
+          {
+            "technique": "Back Step",
+            "target": "Back Control",
+            "probability": 45
+          },
+          {
+            "technique": "Sprawl Defense",
+            "target": "Headquarters Position",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Threading leg too shallow between opponent's legs without deep penetration",
+        "consequence": "Bottom player can easily recover knee shield or butterfly hooks, negating the leg weave control",
+        "correction": "Drive the lead leg deep between opponent's legs until your knee is past their hip line, ensuring maximum disruption of their defensive structure"
+      },
+      {
+        "error": "Allowing hips to rise too high or losing forward pressure during the weave",
+        "consequence": "Bottom player creates space to recover guard or sit up, losing passing momentum",
+        "correction": "Keep hips low and constantly driving forward with chest pressure directed at opponent's upper body throughout the passing sequence"
+      },
+      {
+        "error": "Neglecting upper body control while focusing solely on leg positioning",
+        "consequence": "Bottom player sits up, frames effectively, or creates angles that allow guard recovery",
+        "correction": "Maintain at least one strong upper body grip (collar, sleeve, or underhook) while threading the leg, using upper body control to prevent opponent from sitting up"
+      },
+      {
+        "error": "Committing too much weight to the weaved leg, losing balance and base",
+        "consequence": "Bottom player can execute sweeps or recover guard by attacking the top player's compromised balance",
+        "correction": "Distribute weight between weaved leg, supporting leg, and hands to maintain a stable base while applying pressure"
+      },
+      {
+        "error": "Staying static in the leg weave position without chaining passing sequences",
+        "consequence": "Bottom player adjusts to the position and finds defensive solutions or escape routes",
+        "correction": "Continuously threaten multiple passing directions (knee slice, leg drag, smash pass) to create dilemmas and prevent the bottom player from settling into defensive postures"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Leg Weave Threading Drill",
+        "description": "Partner in open guard, practice threading your lead leg between their legs while maintaining upper body control. Focus on depth of penetration and maintaining forward pressure. Partner provides 50% resistance. 5 repetitions each side.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Passing Chain Flow Drill",
+        "description": "From leg weave position, flow between knee slice, leg drag, and smash pass attempts without completing the pass. Partner responds with appropriate defensive frames. Focus on smooth transitions and maintaining pressure throughout. Continue for time.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Leg Weave Positional Sparring",
+        "description": "Start in leg weave position. Top player works to complete the pass to side control, mount, or back control. Bottom player works to recover guard or sweep. Reset after each completion. Track success rates.",
+        "duration": "8 minutes"
+      },
+      {
+        "name": "Counter Response Drill",
+        "description": "Bottom player attempts specific escapes (knee shield recovery, deep half entry, underhook sweep). Top player responds with appropriate counters (knee slice, back step, pressure adjustment). Focus on reading opponent's movement and countering immediately.",
+        "duration": "7 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "High-percentage control to submission path",
+        "path": "Leg Weave Top → Side Control → Americana from Side Control"
+      },
+      {
+        "name": "Back attack path via exposure",
+        "path": "Leg Weave Top → Back Control → Rear Naked Choke"
+      },
+      {
+        "name": "Mount control to armbar path",
+        "path": "Leg Weave Top → Mount → Armbar from Mount"
+      },
+      {
+        "name": "Leg entanglement path for advanced practitioners",
+        "path": "Leg Weave Top → Ashi Garami → Inside Heel Hook"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Leg Drag Position",
+        "relationship": "Alternative passing finish from leg weave control"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Common starting position before establishing leg weave"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Primary completion target for leg weave passes"
+      },
+      {
+        "name": "Headquarters Position",
+        "relationship": "Related passing position with similar pressure principles"
+      },
+      {
+        "name": "Pressure Passing",
+        "relationship": "Core concept underlying this position"
+      },
+      {
+        "name": "Guard Passing Principles",
+        "relationship": "Fundamental concept applied in this position"
+      },
+      {
+        "name": "Long Step Pass",
+        "relationship": "Related passing concept with leg threading mechanics"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
         "advanced": 75
-      }
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 10,
+        "advanced": 15
+      },
+      "average_time": "30-60 seconds for pass completion at advanced level"
     },
-    {
-      "technique": "Leg Drag Pass",
-      "target_position": "Leg Drag Top Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Smash Pass Position",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Over-Under Pass",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Back Step",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
+    "expert_insights": {
+      "danaher": "The leg weave represents a sophisticated passing mechanism that exploits fundamental principles of base disruption and frame negation. When you thread your leg between the opponent's legs, you're systematically destroying their ability to create the leg-based frames that are essential to modern guard retention. The key is understanding that this is not merely a leg position, but a complete control system. Your weaved leg must pin their bottom leg while your upper body controls prevent them from sitting up. The biomechanics demand that you maintain constant forward pressure with your hips while using your grips to control their upper body rotation. This creates a situation where the bottom player cannot effectively use their legs for framing or their upper body for posture recovery. The position becomes exponentially more powerful when you understand it as a platform for creating passing dilemmas rather than a singular passing technique. By threatening knee slice, leg drag, and smash pass simultaneously, you force the opponent into defensive choices that inevitably open passing lanes.",
+      "gordon_ryan": "In competition, the leg weave is one of my highest percentage passing positions because it completely shuts down modern guard retention systems that rely on leg-based frames. When I get my leg threaded deep between their legs, I'm immediately looking to chain passes together - if they defend the knee slice, I'm going to the leg drag; if they defend the leg drag, I'm smashing through or taking the back. The position works so well because most people train guard retention based on keeping the passer at distance with knee shields and butterfly hooks, but the leg weave destroys those frames before they can even establish them. What makes this position elite-level is that you're not just passing - you're controlling the pace and creating situations where every defensive movement opens up a different passing opportunity. Against high-level opponents, I'm constantly adjusting my pressure and grips to keep them guessing which pass is coming. The leg weave gives me that control and those options, which is why it's a fundamental part of my no-gi passing system.",
+      "eddie_bravo": "The leg weave is sick for no-gi because it takes away all those annoying leg frames that people use to stall out guard passing. When you thread that leg deep, you're basically telling their legs 'you don't work anymore' and then it's game over for their guard. I teach my guys to think of it as creating a highway to the pass - once your leg is woven in, you've got a straight shot to side control or the back depending on how they react. The beauty of this position is that it works perfectly with the modern leg lock game too. If they try to enter on your legs while you're in the leg weave, you're already in perfect position to counter with leg entanglements or take their back. What's really innovative about the leg weave is how it bridges old school pressure passing with new school leg lock systems. You can use it to pass traditionally, or you can use it as an entry point into the saddle or other leg attack positions. That versatility makes it essential for the complete modern grappler who needs to threaten both positional dominance and leg attacks."
     }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 40
-    },
-    {
-      "technique": "Underhook Sweep",
-      "target_position": "Top Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Butterfly Hook Retention",
-      "target_position": "Butterfly Guard Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Re-Guard",
-      "target_position": "Closed Guard Bottom",
-      "success_rate": 20
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Knee Cut Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent attempts to recover knee shield or create frames"
-    },
-    {
-      "technique": "Leg Drag Pass",
-      "target_position": "Leg Drag Top Position",
-      "trigger": "Opponent turns away or attempts to turtle"
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent flattens out and tries to prevent pass with legs"
-    },
-    {
-      "technique": "Back Step",
-      "target_position": "Back Control Top",
-      "trigger": "Opponent exposes back while attempting deep half entry"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent attempts to create frames with arms or recover knee shield position",
-      "actions": [
-        {
-          "technique": "Knee Slice Pass",
-          "target": "Side Control Top",
-          "probability": 65
-        },
-        {
-          "technique": "Leg Weave Pass",
-          "target": "Side Control Top",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent turns away or attempts to come up to turtle position",
-      "actions": [
-        {
-          "technique": "Leg Drag Pass",
-          "target": "Back Control Top",
-          "probability": 55
-        },
-        {
-          "technique": "Back Step",
-          "target": "Back Control Top",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent flattens out completely and attempts to use leg positioning to prevent pass",
-      "actions": [
-        {
-          "technique": "Smash Pass",
-          "target": "Side Control Top",
-          "probability": 60
-        },
-        {
-          "technique": "Over-Under Pass",
-          "target": "Side Control Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts deep half guard entry or underhook sweep",
-      "actions": [
-        {
-          "technique": "Back Step",
-          "target": "Back Control Top",
-          "probability": 45
-        },
-        {
-          "technique": "Sprawl Defense",
-          "target": "Leg Weave Top Position",
-          "probability": 50
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Threading leg too shallow between opponent's legs without deep penetration",
-      "consequence": "Bottom player can easily recover knee shield or butterfly hooks, negating the leg weave control",
-      "correction": "Drive the lead leg deep between opponent's legs until your knee is past their hip line, ensuring maximum disruption of their defensive structure"
-    },
-    {
-      "error": "Allowing hips to rise too high or losing forward pressure during the weave",
-      "consequence": "Bottom player creates space to recover guard or sit up, losing passing momentum",
-      "correction": "Keep hips low and constantly driving forward with chest pressure directed at opponent's upper body throughout the passing sequence"
-    },
-    {
-      "error": "Neglecting upper body control while focusing solely on leg positioning",
-      "consequence": "Bottom player sits up, frames effectively, or creates angles that allow guard recovery",
-      "correction": "Maintain at least one strong upper body grip (collar, sleeve, or underhook) while threading the leg, using upper body control to prevent opponent from sitting up"
-    },
-    {
-      "error": "Committing too much weight to the weaved leg, losing balance and base",
-      "consequence": "Bottom player can execute sweeps or recover guard by attacking the top player's compromised balance",
-      "correction": "Distribute weight between weaved leg, supporting leg, and hands to maintain a stable base while applying pressure"
-    },
-    {
-      "error": "Staying static in the leg weave position without chaining passing sequences",
-      "consequence": "Bottom player adjusts to the position and finds defensive solutions or escape routes",
-      "correction": "Continuously threaten multiple passing directions (knee slice, leg drag, smash pass) to create dilemmas and prevent the bottom player from settling into defensive postures"
-    },
-    {
-      "error": "Ignoring opponent's underhook attempts during the leg weave",
-      "consequence": "Bottom player establishes deep underhook that enables sweeps or deep half guard entries",
-      "correction": "Immediately address underhook attempts by crossfacing, posting the arm, or switching to alternative passing angles that neutralize the underhook threat"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Leg Weave Threading Drill",
-      "description": "Partner in open guard, practice threading your lead leg between their legs while maintaining upper body control. Focus on depth of penetration and maintaining forward pressure. Partner provides 50% resistance. 5 repetitions each side.",
-      "duration": "5 minutes"
-    },
-    {
-      "name": "Passing Chain Flow Drill",
-      "description": "From leg weave position, flow between knee slice, leg drag, and smash pass attempts without completing the pass. Partner responds with appropriate defensive frames. Focus on smooth transitions and maintaining pressure throughout. Continue for time.",
-      "duration": "6 minutes"
-    },
-    {
-      "name": "Leg Weave Positional Sparring",
-      "description": "Start in leg weave position. Top player works to complete the pass to side control, mount, or back control. Bottom player works to recover guard or sweep. Reset after each completion. Track success rates.",
-      "duration": "8 minutes"
-    },
-    {
-      "name": "Counter Response Drill",
-      "description": "Bottom player attempts specific escapes (knee shield recovery, deep half entry, underhook sweep). Top player responds with appropriate counters (knee slice, back step, pressure adjustment). Focus on reading opponent's movement and countering immediately.",
-      "duration": "7 minutes"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "High-percentage control to submission path",
-      "path": "Leg Weave Top Position → Side Control Top → Americana from Side Control"
-    },
-    {
-      "name": "Back attack path via exposure",
-      "path": "Leg Weave Top Position → Back Step → Back Control Top → Rear Naked Choke"
-    },
-    {
-      "name": "Mount control to armbar path",
-      "path": "Leg Weave Top Position → Knee Slice Pass → Mount Top → Armbar from Mount"
-    },
-    {
-      "name": "Leg entanglement path for advanced practitioners",
-      "path": "Leg Weave Top Position → Leg Drag Pass → Saddle Position Top → Heel Hook"
-    },
-    {
-      "name": "Pressure-based submission path",
-      "path": "Leg Weave Top Position → Smash Pass → Side Control Top → Arm Triangle"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Knee Slice Position Top",
-      "relationship": "Common transition target - similar passing mechanics"
-    },
-    {
-      "name": "Leg Drag Top Position",
-      "relationship": "Alternative passing finish from leg weave control"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Common starting position before establishing leg weave"
-    },
-    {
-      "name": "Smash Pass Position",
-      "relationship": "Related passing position with similar pressure principles"
-    },
-    {
-      "name": "Side Control Top",
-      "relationship": "Primary completion target for leg weave passes"
-    },
-    {
-      "name": "Deep Half Guard Bottom",
-      "relationship": "Common defensive response requiring counter-transitions"
-    },
-    {
-      "name": "Knee Slice Pass",
-      "relationship": "Primary offensive transition from this position"
-    },
-    {
-      "name": "Long Step Pass",
-      "relationship": "Related passing concept with leg threading mechanics"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 75
-    },
-    "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 15
-    },
-    "average_time": "30-60 seconds for pass completion at advanced level"
-  },
-  "expert_insights": {
-    "danaher": "The leg weave represents a sophisticated passing mechanism that exploits fundamental principles of base disruption and frame negation. When you thread your leg between the opponent's legs, you're systematically destroying their ability to create the leg-based frames that are essential to modern guard retention. The key is understanding that this is not merely a leg position, but a complete control system. Your weaved leg must pin their bottom leg while your upper body controls prevent them from sitting up. The biomechanics demand that you maintain constant forward pressure with your hips while using your grips to control their upper body rotation. This creates a situation where the bottom player cannot effectively use their legs for framing or their upper body for posture recovery. The position becomes exponentially more powerful when you understand it as a platform for creating passing dilemmas rather than a singular passing technique. By threatening knee slice, leg drag, and smash pass simultaneously, you force the opponent into defensive choices that inevitably open passing lanes.",
-    "gordon_ryan": "In competition, the leg weave is one of my highest percentage passing positions because it completely shuts down modern guard retention systems that rely on leg-based frames. When I get my leg threaded deep between their legs, I'm immediately looking to chain passes together - if they defend the knee slice, I'm going to the leg drag; if they defend the leg drag, I'm smashing through or taking the back. The position works so well because most people train guard retention based on keeping the passer at distance with knee shields and butterfly hooks, but the leg weave destroys those frames before they can even establish them. What makes this position elite-level is that you're not just passing - you're controlling the pace and creating situations where every defensive movement opens up a different passing opportunity. Against high-level opponents, I'm constantly adjusting my pressure and grips to keep them guessing which pass is coming. The leg weave gives me that control and those options, which is why it's a fundamental part of my no-gi passing system.",
-    "eddie_bravo": "The leg weave is sick for no-gi because it takes away all those annoying leg frames that people use to stall out guard passing. When you thread that leg deep, you're basically telling their legs 'you don't work anymore' and then it's game over for their guard. I teach my guys to think of it as creating a highway to the pass - once your leg is woven in, you've got a straight shot to side control or the back depending on how they react. The beauty of this position is that it works perfectly with the modern leg lock game too. If they try to enter on your legs while you're in the leg weave, you're already in perfect position to counter with leg entanglements or take their back. What's really innovative about the leg weave is how it bridges old school pressure passing with new school leg lock systems. You can use it to pass traditionally, or you can use it as an entry point into the saddle or other leg attack positions. That versatility makes it essential for the complete modern grappler who needs to threaten both positional dominance and leg attacks."
   }
 }

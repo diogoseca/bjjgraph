@@ -1,6 +1,6 @@
 {
   "name": "Banana Split",
-  "description": "Master the Banana Split submission in BJJ. Complete guide covering setup from deep half guard, execution mechanics, and safety protocols. Beginner 25%, Intermediate 40%, Advanced 55%.",
+  "description": "Master the Banana Split submission in BJJ. Complete guide covering setup from deep half guard, execution mechanics, and safety protocols. Success: 25%/40%/55%.",
   "tags": [
     "bjj",
     "submission",
@@ -357,12 +357,12 @@
       "relationship": "Transition that can lead to banana split variation"
     },
     {
-      "name": "Deep Half Entry",
-      "relationship": "Fundamental transition to establish starting position"
+      "name": "Half Guard Sweeps",
+      "relationship": "Complementary attacks from same position family"
     },
     {
-      "name": "Half Guard",
-      "relationship": "Parent position family containing deep half guard"
+      "name": "Half Guard to Back Take",
+      "relationship": "Alternative attack when banana split controls are established but finish unavailable"
     }
   ],
   "expert_insights": {
