@@ -1338,7 +1338,3 @@ Complete guide to all BJJ positions. Learn the positional hierarchy, point value
 
 - [[BJJ State Machine]] - Complete positional graph
 - [[BJJ Graph]] - Home page
-
----
-
-*This hub page is automatically generated from content files. Last generated: 2025-11-12 11:05:58*

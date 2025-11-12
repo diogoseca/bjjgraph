@@ -346,10 +346,6 @@ aliases: ["BJJ-{category_name}"]
 
 - [[BJJ State Machine]] - Complete positional graph
 - [[BJJ Graph]] - Home page
-
----
-
-*This hub page is automatically generated from content files. Last generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}*
 """
         
         return hub_page

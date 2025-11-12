@@ -1884,7 +1884,3 @@ Master all BJJ transitions and techniques. Complete guide to sweeps, passes, tak
 
 - [[BJJ State Machine]] - Complete positional graph
 - [[BJJ Graph]] - Home page
-
----
-
-*This hub page is automatically generated from content files. Last generated: 2025-11-12 11:05:59*
