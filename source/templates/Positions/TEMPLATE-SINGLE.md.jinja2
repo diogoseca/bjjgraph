@@ -127,7 +127,7 @@ description: "{{ data.description }}"
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions {{ data.position_metrics.advancement_probability.advanced }}% of the time with proper technique.
+> **Quick Stats**: Advanced practitioners advance to better positions {{ data.position_metrics.advancement_probability.advanced }}% of the time.
 
 ---
 
@@ -157,7 +157,7 @@ description: "{{ data.description }}"
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 {% for invariant in data.state_invariants -%}
 - {{ invariant }}
@@ -167,7 +167,7 @@ description: "{{ data.description }}"
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 {% for prereq in data.prerequisites -%}
 - {{ prereq }}
@@ -203,7 +203,7 @@ description: "{{ data.description }}"
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 {% for response in data.defensive_responses -%}
 - **[[{{ response.technique }}]]** → [[{{ response.target_position }}]]{% if response.success_rate %} (Success: {{ response.success_rate }}%){% endif %}

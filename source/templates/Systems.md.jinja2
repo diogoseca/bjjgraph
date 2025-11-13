@@ -90,7 +90,7 @@ description: "{{description}}"
 -->
 {% endif %}
 
-> **Quick Answer**: {{name}} is a {{difficulty_level|lower}} difficulty {{system_type}} system. This systematic approach integrates {{key_components|length}} key components into a cohesive fighting framework.
+> {{name}} is a {{difficulty_level|lower}} difficulty {{system_type}} system. Integrates {{key_components|length}} components.
 
 **System ID**: {{system_id}}
 **System Type**: {{system_type}}
@@ -109,7 +109,7 @@ description: "{{description}}"
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 {% for principle in key_principles -%}
 - {{principle}}
 {% endfor %}
@@ -118,7 +118,7 @@ description: "{{description}}"
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 {% for component in key_components -%}
 **{{component.component_name}}** ({{component.purpose}})
 {{component.description}}
@@ -129,7 +129,7 @@ description: "{{description}}"
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 {% for step in implementation_sequence -%}
 {{step.step_number}}. **{{step.phase}}**: {{step.description}}
 {% if step.key_points -%}
@@ -197,7 +197,7 @@ Proficiency indicators:
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: {{expert_insights.danaher}}
 - **Gordon Ryan**: {{expert_insights.gordon_ryan}}
 - **Eddie Bravo**: {{expert_insights.eddie_bravo}}

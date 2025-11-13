@@ -39,6 +39,55 @@ BJJ Graph uses a **JSON → Jinja2 → Markdown** pipeline:
 
 ---
 
+## Position Architecture: "Playing As" Model
+
+BJJ Graph positions follow a chess-like architecture where the position represents a game state and Top/Bottom represent the roles you play.
+
+### Core Concepts
+
+**Position (Hub Page)** - The game state configuration
+- Represents the position itself (e.g., "Mount", "Closed Guard", "Side Control")
+- Canonical entry point and primary graph node
+- Bifurcates into two role-specific pages: Top and Bottom
+- File structure: `Positions/Mount.md` (hub), `Positions/Mount/Bottom.md`, `Positions/Mount/Top.md`
+
+**Top/Bottom (Role Pages)** - Playing as one side
+- **User-facing labels:** "Top" / "Bottom" (displayed in UI, headings, navigation)
+- **Internal naming:** `playing_as`, `role` (use in schemas, code comments, variable names)
+- Separate pages because they represent **opposing roles** with:
+  - Different objectives (Top: maintain control/submit; Bottom: escape/reverse)
+  - Different techniques (sweeps vs. submissions)
+  - Different strategic frameworks
+- **Not "perspectives"** - they are distinct roles you play, like playing White vs. Black in chess
+
+### Chess Analogy
+
+Think of a BJJ position like a chess board configuration:
+- **Position = Board state** (e.g., "King's Gambit opening" or "Mount")
+- **Top/Bottom = Which side you're playing** (White or Black)
+- The board configuration exists independently of which player you are
+- You play ONE role at a time with completely different objectives
+
+### Graph Architecture Implications
+
+**Graph nodes represent positions (hub pages), not roles:**
+- Hub page is the canonical graph node (e.g., "Mount")
+- Bottom/Top pages excluded from graph to avoid redundancy
+- Prevents graph clutter: No "Mount Bottom", "Mount Top", "Mount Hub" as separate nodes
+- User mental model: Graph shows position-to-position relationships
+
+**Hub page aggregates links from both roles:**
+- Bottom page links (escapes, reversals) → Added to hub's graph connections
+- Top page links (submissions, advancements) → Added to hub's graph connections
+- Result: Hub connects to all related positions from both roles
+
+**Navigation behavior:**
+- Clicking hub node in graph → Navigates to hub page
+- Hub page provides overview + navigation to Bottom/Top roles
+- Direct navigation to Bottom/Top pages still works via relative links
+
+---
+
 ## Project Structure
 
 ```

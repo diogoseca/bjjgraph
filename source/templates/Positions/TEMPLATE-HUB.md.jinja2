@@ -24,7 +24,7 @@ description: "{{ description }}"
 -->
 {% endif %}
 
-> **Quick Overview**: {{ overview[:200] }}...
+> {{ overview[:200] }}...
 
 ---
 
@@ -51,7 +51,7 @@ description: "{{ description }}"
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 {% if variations %}
 {# FAMILY: Combined multi-variant table #}
@@ -64,50 +64,36 @@ description: "{{ description }}"
 {% endfor %}
 
 {% else %}
-{# DUAL: Simple comparison table #}
+{# DUAL: Simple comparison table - playing_as roles #}
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | {{ bottom_summary.state_properties.position_type }} | {{ top_summary.state_properties.position_type }} |
-| Risk Level | {{ bottom_summary.state_properties.risk_level }} | {{ top_summary.state_properties.risk_level }} |
-| Energy Cost | {{ bottom_summary.state_properties.energy_cost }} | {{ top_summary.state_properties.energy_cost }} |
-| Time Sustainability | {{ bottom_summary.state_properties.time_sustainability }} | {{ top_summary.state_properties.time_sustainability }} |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | {{ bottom_summary.state_properties.position_type }} | {{ top_summary.state_properties.position_type }} |
+| **Risk Level** | {{ bottom_summary.state_properties.risk_level }} | {{ top_summary.state_properties.risk_level }} |
+| **Energy Cost** | {{ bottom_summary.state_properties.energy_cost }} | {{ top_summary.state_properties.energy_cost }} |
+| **Time** | {{ bottom_summary.state_properties.time_sustainability }} | {{ top_summary.state_properties.time_sustainability }} |
 
-**What Makes This Position Unique:** {{ variant_uniqueness }}
+**What Makes This Unique:** {{ variant_uniqueness }}
 
-{% endif %}
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[{{ name }}/Bottom|Bottom Perspective]]** - {% if bottom_summary.state_properties.position_type == "Offensive" %}Sweeps, attacks, and submissions{% elif bottom_summary.state_properties.position_type == "Defensive" %}Escapes, frames, and survival strategies{% else %}Techniques and strategies{% endif %}
-- **[[{{ name }}/Top|Top Perspective]]** - {% if top_summary.state_properties.position_type == "Offensive" %}Submissions and positional attacks{% elif top_summary.state_properties.position_type == "Controlling" %}Control, pressure, and dominance{% else %}Techniques and strategies{% endif %}
-
-{% if variations %}
-### By Variation
-{% for variation in variations %}
-- **[[{{ variation.name }}]]** - {{ variation.description }}
-{% endfor %}
 {% endif %}
 
 </section>
 
 <section id="bottom-summary" class="content-section">
 
-## {{ name }} Bottom Perspective
+{# Playing as bottom role #}
+## Playing as Bottom
+
+[[Bottom|→ Full Bottom Guide]]
 
 {% if bottom_summary.state_properties.position_type == "Defensive" %}
-The bottom player in {{ name|lower }} must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 {% elif bottom_summary.state_properties.position_type == "Offensive" %}
-The bottom player in {{ name|lower }} controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 {% elif bottom_summary.state_properties.position_type == "Defensive with offensive options" %}
-The bottom player in {{ name|lower }} balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 {% else %}
-The bottom player in {{ name|lower }} navigates both offensive and defensive opportunities based on opponent's actions.
+Read and react based on their actions.
 {% endif %}
 
 ### Key Principles
@@ -131,22 +117,23 @@ The bottom player in {{ name|lower }} navigates both offensive and defensive opp
   - ✅ Correction: {{ error.correction }}
 {% endfor %}
 
-👉 **[[{{ name }}/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## {{ name }} Top Perspective
+{# Playing as top role #}
+## Playing as Top
+
+[[Top|→ Full Top Guide]]
 
 {% if top_summary.state_properties.position_type == "Offensive" %}
-The top player in {{ name|lower }} enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 {% elif top_summary.state_properties.position_type == "Controlling" %}
-The top player in {{ name|lower }} focuses on maintaining dominant control, applying pressure, and systematically breaking opponent's defensive structure.
+You dominate the position. Apply pressure, break their structure, create openings.
 {% elif top_summary.state_properties.position_type == "Offensive/Controlling" %}
-The top player in {{ name|lower }} balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 {% else %}
-The top player in {{ name|lower }} manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 {% endif %}
 
 ### Key Principles
@@ -169,8 +156,6 @@ The top player in {{ name|lower }} manages the position strategically based on o
   - Consequence: {{ error.consequence }}
   - ✅ Correction: {{ error.correction }}
 {% endfor %}
-
-👉 **[[{{ name }}/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -110,7 +110,7 @@ description: "{{ top.description }}"
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control {{ top.position_metrics.retention_rate.advanced }}% of the time and finish submissions in {{ top.position_metrics.submission_probability.advanced }}% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control {{ top.position_metrics.retention_rate.advanced }}% of the time and finish submissions in {{ top.position_metrics.submission_probability.advanced }}%.
 
 ---
 
@@ -140,7 +140,7 @@ description: "{{ top.description }}"
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 {% for invariant in top.state_invariants -%}
 - {{ invariant }}
@@ -150,7 +150,7 @@ description: "{{ top.description }}"
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 {% for prereq in top.prerequisites -%}
 - {{ prereq }}
@@ -170,7 +170,7 @@ description: "{{ top.description }}"
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 {% for transition in top.offensive_transitions -%}
 ### [[{{ transition.technique }}]] → [[{{ transition.target_position }}]]
@@ -186,7 +186,7 @@ description: "{{ top.description }}"
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 {% for response in top.defensive_responses -%}
 - **[[{{ response.technique }}]]** → [[{{ response.target_position }}]]{% if response.success_rate %} (Opponent Success: {{ response.success_rate }}%){% endif %}
@@ -196,7 +196,7 @@ description: "{{ top.description }}"
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 {% for counter in top.counter_transitions -%}
 - **[[{{ counter.technique }}]]** → [[{{ counter.target_position }}]]

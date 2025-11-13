@@ -110,7 +110,7 @@ description: "{{ bottom.description }}"
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape {{ bottom.position_metrics.advancement_probability.advanced }}% of the time with proper technique.
+> **Quick Stats**: Advanced practitioners escape {{ bottom.position_metrics.advancement_probability.advanced }}% of the time.
 
 ---
 
@@ -140,7 +140,7 @@ description: "{{ bottom.description }}"
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 {% for invariant in bottom.state_invariants -%}
 - {{ invariant }}
@@ -150,7 +150,7 @@ description: "{{ bottom.description }}"
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 {% for prereq in bottom.prerequisites -%}
 - {{ prereq }}
@@ -170,7 +170,7 @@ description: "{{ bottom.description }}"
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 {% for transition in bottom.offensive_transitions -%}
 ### [[{{ transition.technique }}]] → [[{{ transition.target_position }}]]
@@ -186,7 +186,7 @@ description: "{{ bottom.description }}"
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 {% for response in bottom.defensive_responses -%}
 - **[[{{ response.technique }}]]** → [[{{ response.target_position }}]]{% if response.success_rate %} (Opponent Success: {{ response.success_rate }}%){% endif %}
@@ -196,7 +196,7 @@ description: "{{ bottom.description }}"
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 {% for counter in bottom.counter_transitions -%}
 - **[[{{ counter.technique }}]]** → [[{{ counter.target_position }}]]

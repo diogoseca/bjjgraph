@@ -92,7 +92,7 @@ description: "{{description}}"
 -->
 {% endif %}
 
-> **Quick Answer**: {{name}} is a {{submission_type|lower}} targeting the {{target_area}}. ⚠️ **SAFETY**: This technique can cause {{safety_considerations.injury_risks[0].injury}} - apply slowly over 3-5 seconds and release immediately upon tap.
+> {{name}} is a {{submission_type|lower}} targeting the {{target_area}}. ⚠️ **SAFETY**: This technique can cause {{safety_considerations.injury_risks[0].injury}}. Apply gradually and release immediately upon tap.
 
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -113,7 +113,7 @@ description: "{{description}}"
 
 <section id="safety-considerations" class="content-section">
 
-## Is {{name}} Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -144,7 +144,7 @@ description: "{{description}}"
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 {% for principle in key_principles -%}
 - {{principle}}
 {% endfor %}
@@ -153,7 +153,7 @@ description: "{{description}}"
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 {% for req in setup_requirements -%}
 - {{req}}
 {% endfor %}
@@ -162,7 +162,7 @@ description: "{{description}}"
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 {% for step in execution_steps -%}
 {{step.step_number}}. **{{step.action}}**: {{step.description}}{% if step.timing %} (Timing: {{step.timing}}){% endif %}{% if step.pressure_level %} [Pressure: {{step.pressure_level}}]{% endif %}
 {% endfor %}
@@ -171,7 +171,7 @@ description: "{{description}}"
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 {% for defense in opponent_defense_patterns -%}
 - **{{defense.defense}}** (Effectiveness: {{defense.effectiveness}}){% if defense.your_adjustment %} - Your Adjustment: {{defense.your_adjustment}}{% endif %}
 {% endfor %}
@@ -180,7 +180,7 @@ description: "{{description}}"
 
 <section id="common-errors" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
+## Common Errors
 {% for error in common_errors -%}
 - **Error**: {{error.error}}{% if error.danger_level %} [{{error.danger_level}} DANGER]{% endif %}
   - **Consequence**: {{error.consequence}}
@@ -191,7 +191,7 @@ description: "{{description}}"
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 {% for variant in variations_and_setups -%}
 **{{variant.variation_name}}**: {{variant.description}}{% if variant.when_to_use %} (When to use: {{variant.when_to_use}}){% endif %}
 
@@ -212,7 +212,7 @@ description: "{{description}}"
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 {% for phase in training_progressions_and_safety_protocols -%}
 **{{phase.phase}}** ({{phase.timeframe}})
 - Focus: {{phase.focus}}
@@ -225,7 +225,7 @@ description: "{{description}}"
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 {% for position in from_positions -%}
 - [[{{position}}]]
@@ -235,7 +235,7 @@ description: "{{description}}"
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 {% for submission in related_submissions -%}
 - [[{{submission}}]]
@@ -255,7 +255,7 @@ description: "{{description}}"
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: {{expert_insights.danaher}}
 - **Gordon Ryan**: {{expert_insights.gordon_ryan}}
 - **Eddie Bravo**: {{expert_insights.eddie_bravo}}

@@ -90,7 +90,7 @@ description: "{{description}}"
 -->
 {% endif %}
 
-> **Quick Answer**: {{name}} is a {{complexity_level|lower}} complexity BJJ principle applicable at the {{application_level}} level. Master this principle in {{development_timeline}}.
+> {{name}} is a {{complexity_level|lower}} complexity BJJ principle applicable at the {{application_level}} level. Develop over {{development_timeline}}.
 
 **Principle ID**: {{principle_id}}
 **Application Level**: {{application_level}}
@@ -110,7 +110,7 @@ description: "{{description}}"
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 {% for principle in key_principles -%}
 - {{principle}}
 {% endfor %}
@@ -119,7 +119,7 @@ description: "{{description}}"
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 {% for skill in component_skills -%}
 **{{skill.skill_name}}**: {{skill.description}}
 
@@ -129,7 +129,7 @@ description: "{{description}}"
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 {% for rel in principle_relationships -%}
 - **[[{{rel.principle_name}}]]** ({{rel.relationship_type}}): {{rel.description}}
 {% endfor %}
@@ -138,7 +138,7 @@ description: "{{description}}"
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 {% for context in application_contexts -%}
 **{{context.context}}**: {{context.how_applied}}
 
@@ -148,7 +148,7 @@ description: "{{description}}"
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 {% for step in decision_framework -%}
 {{step.step_number}}. **{{step.decision_point}}**: {{step.action}}
 {% endfor %}
@@ -157,7 +157,7 @@ description: "{{description}}"
 
 <section id="common-errors" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
+## Common Errors
 {% for error in common_errors -%}
 - **Error**: {{error.error}}
   - **Consequence**: {{error.consequence}}
@@ -168,7 +168,7 @@ description: "{{description}}"
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 {% for approach in training_approaches -%}
 **{{approach.approach_name}}** (Focus: {{approach.focus}})
 {{approach.description}}
@@ -179,7 +179,7 @@ description: "{{description}}"
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 {% for metric in developmental_metrics -%}
 **{{metric.level}} Level**:
 {% for behavior in metric.observable_behaviors -%}
@@ -192,7 +192,7 @@ description: "{{description}}"
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 {% for item in related_content -%}
 - [[{{item.name}}]] ({{item.content_type}}) - {{item.relationship}}
@@ -202,7 +202,7 @@ description: "{{description}}"
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: {{expert_insights.danaher}}
 - **Gordon Ryan**: {{expert_insights.gordon_ryan}}
 - **Eddie Bravo**: {{expert_insights.eddie_bravo}}
