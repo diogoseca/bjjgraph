@@ -69,7 +69,6 @@ type TweenNode = {
 
 async function renderGraph(container: string, fullSlug: FullSlug) {
   const slug = simplifySlug(fullSlug)
-  const visited = getVisited()
   const graph = document.getElementById(container)
   if (!graph) return
   removeAllChildren(graph)
@@ -202,20 +201,19 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   // helper function to detect content type from node slug
   function getContentTypeColor(nodeId: SimpleSlug): string {
-    if (nodeId.startsWith("positions/")) return computedStyleMap["--graphPosition"]
-    if (nodeId.startsWith("transitions/")) return computedStyleMap["--graphTransition"]
-    if (nodeId.startsWith("submissions/")) return computedStyleMap["--graphSubmission"]
-    if (nodeId.startsWith("principles/")) return computedStyleMap["--graphPrinciple"]
-    if (nodeId.startsWith("systems/")) return computedStyleMap["--graphSystem"]
-    if (nodeId.startsWith("tags/")) return computedStyleMap["--graphTag"]
+    const lowerNodeId = nodeId.toLowerCase()
+    if (lowerNodeId.startsWith("positions/")) return computedStyleMap["--graphPosition"]
+    if (lowerNodeId.startsWith("transitions/")) return computedStyleMap["--graphTransition"]
+    if (lowerNodeId.startsWith("submissions/")) return computedStyleMap["--graphSubmission"]
+    if (lowerNodeId.startsWith("principles/")) return computedStyleMap["--graphPrinciple"]
+    if (lowerNodeId.startsWith("systems/")) return computedStyleMap["--graphSystem"]
+    if (lowerNodeId.startsWith("tags/")) return computedStyleMap["--graphTag"]
     return computedStyleMap["--gray"]
   }
 
   // calculate color based on content type and state
   const color = (d: NodeData) => {
     const isCurrent = d.id === slug
-    const isTag = d.id.startsWith("tags/")
-    const isVisited = visited.has(d.id)
 
     // Get base color for this content type
     const baseColor = getContentTypeColor(d.id)
@@ -416,7 +414,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
     let oldLabelOpacity = 0
     const isTagNode = nodeId.startsWith("tags/")
-    const isVisited = visited.has(nodeId) && nodeId !== slug
     const nodeColor = color(n)
     const gfx = new Graphics({
       interactive: true,
@@ -424,7 +421,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       eventMode: "static",
       hitArea: new Circle(0, 0, nodeRadius(n)),
       cursor: "pointer",
-      alpha: isVisited ? 0.6 : 1.0,
     })
       .circle(0, 0, nodeRadius(n))
       .fill({ color: isTagNode ? computedStyleMap["--light"] : nodeColor })
