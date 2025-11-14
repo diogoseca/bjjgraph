@@ -214,7 +214,53 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
     let [targetCanonical, targetAnchor] = splitAnchor(canonicalSlug)
 
     if (opts.strategy === "shortest") {
-      // if the file name is unique, then it's just the filename
+      // Context-aware resolution with flexible partial path matching
+      const srcDir = src.split("/").slice(0, -1).join("/") // e.g., "Positions" from "Positions/Mount.md"
+      const srcFileName = src.split("/").at(-1)?.replace(/\.md$/, "") // e.g., "Mount" from "Mount.md"
+      const targetParts = targetCanonical.split("/")
+
+      // STEP 1: Try partial path relative to source directory
+      // [[Mount/High Mount]] from /Positions/X.md → /Positions/Mount/High Mount
+      // [[High Mount/Top]] from /Positions/Mount.md → /Positions/Mount/High Mount/Top
+      const partialPathMatch = opts.allSlugs.find((slug) => {
+        // Check if slug ends with the target path when joined with srcDir
+        const candidatePath = `${srcDir}/${targetCanonical}`
+        return slug === candidatePath || slug.endsWith(`/${targetCanonical}`)
+      })
+      if (partialPathMatch) {
+        return (resolveRelative(src, partialPathMatch) + targetAnchor) as RelativeURL
+      }
+
+      // STEP 2: Check same directory (siblings)
+      // [[Bottom]] from /Positions/Mount.md → /Positions/Bottom.md (if exists)
+      const sameDirMatch = opts.allSlugs.find((slug) => {
+        const slugDir = slug.split("/").slice(0, -1).join("/")
+        const slugFile = slug.split("/").at(-1)
+        return slugDir === srcDir && targetCanonical === slugFile
+      })
+      if (sameDirMatch) {
+        return (resolveRelative(src, sameDirMatch) + targetAnchor) as RelativeURL
+      }
+
+      // STEP 3: Check subdirectory from current file
+      // [[High Mount]] from /Positions/Mount.md → /Positions/Mount/High Mount.md
+      // [[Bottom]] from /Positions/Mount.md → /Positions/Mount/Bottom.md
+      if (targetParts.length === 1) {
+        // Single part: check under folder named after current file
+        const subDirMatch = opts.allSlugs.find((slug) => {
+          const parts = slug.split("/")
+          if (parts.length < 2) return false
+          const parentDir = parts.slice(0, -2).join("/")
+          const folderName = parts.at(-2)
+          const fileName = parts.at(-1)
+          return parentDir === srcDir && folderName === srcFileName && targetCanonical === fileName
+        })
+        if (subDirMatch) {
+          return (resolveRelative(src, subDirMatch) + targetAnchor) as RelativeURL
+        }
+      }
+
+      // STEP 4: Fall back to global unique check (original behavior)
       const matchingFileNames = opts.allSlugs.filter((slug) => {
         const parts = slug.split("/")
         const fileName = parts.at(-1)
