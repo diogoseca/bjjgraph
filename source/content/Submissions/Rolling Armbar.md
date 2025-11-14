@@ -8,7 +8,7 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 
 
 
-> **Quick Answer**: Rolling Armbar is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation - apply slowly over 3-5 seconds and release immediately upon tap.
+> Rolling Armbar is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="safety-considerations" class="content-section">
 
-## Is Rolling Armbar Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Maintain unbreakable arm control throughout the entire rolling sequence
 - Use rotational momentum to create submission leverage rather than forcing the position
 - Keep hips connected to the controlled arm to prevent escape during the roll
@@ -225,7 +225,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure grip on opponent's wrist with both hands (one on wrist, one above elbow or on bicep)
 - Break opponent's posture or capitalize on their forward momentum
 - Create angle off the center line to initiate rotation
@@ -239,7 +239,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure the arm and establish control**: From closed guard or during a scramble, secure a two-on-one grip on the opponent's arm. Your outside hand grips their wrist while your inside hand controls above the elbow or grips the bicep. Pull the arm across your centerline and tight to your chest, isolating it from their body. This initial control is critical - without it, the entire technique fails. (Timing: 0-1 seconds) [Pressure: Firm]
 2. **Break posture and create the angle**: Pull the controlled arm down and across your body while simultaneously using your legs to break their posture forward. Open your guard if closed, and swing your outside leg (same side as the controlled arm) over their shoulder and behind their head. Create a 45-degree angle off center by hip escaping slightly to the opposite side. This angle is essential for the rolling mechanics to work properly. (Timing: 1-2 seconds) [Pressure: Firm]
 3. **Initiate the rolling motion**: Maintaining tight arm control, tuck your chin to your chest and look toward the direction you'll roll. Drive your shoulder to the mat on the same side as the controlled arm. Use your free leg to push off the mat and generate rotational momentum. The roll should feel like a smooth backwards somersault over your shoulder. Keep the opponent's arm glued to your chest throughout - any separation here allows escape. (Timing: 2-3 seconds) [Pressure: Moderate]
@@ -252,7 +252,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent grabs their own gi or belt to prevent arm isolation** (Effectiveness: High) - Your Adjustment: Use your legs to break their grip by pushing their defensive hand away with your shin or knee. Alternatively, attack the defensive arm instead if they commit too heavily to the grip. Can also transition to triangle or omoplata if they remain defensive.
 - **Opponent stacks you during the roll to pressure your neck and prevent rotation** (Effectiveness: Medium) - Your Adjustment: Anticipate the stack by rolling faster and more explosively. If already stacked, use your free leg to push off their hip or shoulder to complete the rotation. Can also abort the roll and transition to triangle choke from the stacked position.
 - **Opponent keeps their elbow tight to their body and postures backward** (Effectiveness: High) - Your Adjustment: Don't force the roll against a strong defensive posture. Instead, use the momentum of their backward pull to sweep them forward or transition to other attacks. Wait for them to re-engage before attempting the roll again.
@@ -262,28 +262,28 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Rolling with the arm away from your body instead of maintaining tight connection [Low DANGER]
+## Common Mistakes
+- **Mistake**: Rolling with the arm away from your body instead of maintaining tight connection [Low DANGER]
   - **Consequence**: Opponent easily slips their arm free during the roll, completely negating the submission attempt and potentially giving them top position
   - **Correction**: Throughout the entire rolling sequence, pull the controlled arm across your chest and keep it glued to your body. Think of trying to touch their wrist to your opposite shoulder. Use both hands to maintain this connection.
-- **Error**: Jerking or spiking the submission during or after the roll [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the submission during or after the roll [CRITICAL DANGER]
   - **Consequence**: High risk of elbow dislocation, ligament tears, or complete rupture of the joint capsule requiring surgical repair
   - **Correction**: Apply the finishing extension slowly and progressively over 3-5 seconds minimum. The roll creates momentum and surprise - you don't need speed on the finish. Watch for the tap and release immediately.
-- **Error**: Rolling over your neck instead of your shoulder [CRITICAL DANGER]
+- **Mistake**: Rolling over your neck instead of your shoulder [CRITICAL DANGER]
   - **Consequence**: Severe neck strain, potential cervical spine injury, and loss of control during the technique, allowing opponent to escape or counter
   - **Correction**: Tuck your chin and look at your hip on the rolling side. Drive your shoulder to the mat first, not the top of your head. The roll should go diagonally across your back from shoulder to opposite hip, never over your neck.
-- **Error**: Attempting the roll without proper angle or space [Medium DANGER]
+- **Mistake**: Attempting the roll without proper angle or space [Medium DANGER]
   - **Consequence**: Getting stuck mid-roll, losing the arm, or ending up in a worse position with opponent achieving top control or mount
   - **Correction**: Before initiating the roll, create a 45-degree angle by hip escaping away from the controlled arm. Ensure you have at least 2-3 feet of clear mat space behind you. If space is limited, choose a different attack.
-- **Error**: Not controlling the opponent's head or upper body with your legs during the roll [Medium DANGER]
+- **Mistake**: Not controlling the opponent's head or upper body with your legs during the roll [Medium DANGER]
   - **Consequence**: Opponent follows your roll and maintains top pressure, potentially passing to side control or mount while you're vulnerable
   - **Correction**: As you swing your leg over their shoulder, actively pull their head down and forward with your leg. Keep this leg heavy on their head/shoulder throughout the entire roll to prevent them from following your rotation.
-- **Error**: Finishing with legs uncrossed or knees spread apart [Low DANGER]
+- **Mistake**: Finishing with legs uncrossed or knees spread apart [Low DANGER]
   - **Consequence**: Significant loss of control and leverage, allowing opponent to escape by pulling their arm free or stacking you
   - **Correction**: After completing the roll, immediately cross your ankles over their torso and pinch your knees together tightly. Your legs should be actively squeezing their body, not just resting on them. This creates the structural integrity needed for the finish.
-- **Error**: Releasing hand control to adjust position after the roll [Low DANGER]
+- **Mistake**: Releasing hand control to adjust position after the roll [Low DANGER]
   - **Consequence**: Opponent immediately pulls their arm free and escapes, wasting the entire setup and potentially giving them top position
   - **Correction**: Never release your two-handed grip on their arm until the submission is fully locked or you're transitioning to another technique. Keep constant tension on the arm throughout. Position adjustments should be made with leg movement and hip positioning only.
 
@@ -292,7 +292,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Rolling Armbar from Standing**: When opponent is standing and you're seated or in open guard, secure their arm and use your legs to climb their body while initiating the roll. This variation requires more explosive power but can catch standing opponents completely by surprise. (When to use: When opponent stands to break guard or during standing passing attempts)
 
 **Counter Rolling Armbar from Stack Defense**: When opponent attempts to stack you from a submission attempt or guard position, use their forward pressure to facilitate the roll. As they drive forward, pull them over your body and complete the roll with their momentum assisting. Often available from failed triangle or omoplata attempts. (When to use: When being stacked from bottom position or during opponent's aggressive passing attempts)
@@ -337,7 +337,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Mechanics Drilling** (Weeks 1-2)
 - Focus: Learn the rolling mechanics separately from the submission. Practice the shoulder roll movement pattern without a partner, focusing on protecting your neck and completing smooth rotations. Then add static arm control drills where partner gives zero resistance.
 - Resistance: Zero resistance
@@ -374,7 +374,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Open Guard]]
@@ -392,7 +392,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Armbar from Guard]]
 - [[Armbar from Mount]]
@@ -435,7 +435,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The rolling armbar represents a perfect marriage of momentum and mechanics, where rotational force multiplies the leverage applied to the elbow joint. The key to mastering this technique lies in understanding that the roll itself is not a submission - it is a positional transition that uses angular momentum to overcome the opponent's defensive structure. Your primary concern during the rolling phase must be maintaining the connection between your hips and their controlled arm; any separation here negates the entire mechanical advantage. The finishing mechanics are identical to any armbar, but the setup creates a unique problem for the opponent - they must simultaneously defend the submission while managing their own balance during your rotation. From a safety perspective, the dynamic nature of this technique demands exceptional control during application. The element of surprise created by the roll means your opponent may not realize the danger until the submission is fully locked, requiring you to apply pressure progressively and watch carefully for the tap signal. Never use speed as a substitute for proper mechanics - the roll creates all the momentum you need.
 - **Gordon Ryan**: In competition, the rolling armbar is a game-changer because it attacks during transitions when opponents are thinking about passing or maintaining position, not defending submissions. I hit this constantly when guys try to stack me from guard or when they're working to break my closed guard - their forward pressure actually helps the roll work better. The key is not telegraphing it - you need to threaten other attacks first so they're not expecting the roll. I like to threaten triangle or omoplata, get them defending that, then boom - hit the roll when they're focused on the wrong problem. In training, you need to be way more careful than in competition. I've seen too many guys get hurt because someone rolled too fast or extended too quick. Take your time on the finish - if you have the position locked, they're not escaping, so there's no reason to rush it. The tap will come from the position, not from how fast you apply it. Also, if you're rolling with someone less experienced, maybe skip this one or go super slow. It's one of those techniques where the person getting caught doesn't always know they're in trouble until it's too late.
 - **Eddie Bravo**: The rolling armbar is pure flow, man - it's about using momentum and timing instead of fighting for position. In the 10th Planet system, we use this all the time from rubber guard when guys try to posture out hard. That forward pressure they're giving you is fuel for the roll. But here's the thing - you can't muscle this technique. If you try to force the roll against resistance, you're gonna get stacked and probably lose position. You gotta feel when they're committed to moving forward, then capitalize on that moment. From a safety standpoint, this is one where you really need to develop control before you start hitting it in live rolls. The rolling motion can be dangerous if you go over your neck wrong, and the submission can come on fast if you're not careful. When I teach this, I make sure students drill the rolling mechanics separately first - just doing shoulder rolls without a partner until it's smooth and natural. Then we add the arm control. We also have a rule that you have to hold the finishing position for a full three seconds before applying any extension pressure. That pause gives your partner time to recognize they're caught and tap before any damage happens. This technique is all about smooth execution and respecting your training partners' safety while still being able to hit a sick submission.

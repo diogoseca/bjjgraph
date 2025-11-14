@@ -13,10 +13,6 @@ description: "Master Rubber Guard in BJJ with this comprehensive guide covering 
 
 
 
-> **Quick Overview**: The Rubber Guard is a specialized guard position developed and popularized by Eddie Bravo within his 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -48,7 +44,7 @@ The Rubber Guard is a specialized guard position developed and popularized by Ed
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -56,58 +52,15 @@ The Rubber Guard is a specialized guard position developed and popularized by Ed
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Rubber Guard]] | Medium | High | Medium | Medium | High flexibility for arm control |
-
 | [[Mission Control]] | Medium | High | Medium | High | High guard trades base for submission proximity |
-
 | [[New York]] | Medium | High | Medium | High | High-risk control trading stability for attacks |
-
 | [[New York Control]] | Medium | High | Medium | Medium | Extreme flexibility enables submission access |
-
 | [[Invisible Collar]] | High | Low to Medium | High | Medium | Deceptive grip hides submission threat |
-
 | [[Zombie]] | Medium | Medium | Medium | Medium | Lockdown transforms defensive turtle into offense |
-
 | [[Crackhead Control]] | High | Medium to High | Medium | High | Deep overhook trades safety for submissions |
-
 | [[Meathook]] | Medium | High | High | High | Extreme arm isolation for devastating attacks |
-
 | [[Chill Dog]] | Medium | Low to Medium | Medium | Medium | Compact turtle defense with escape options |
-
 | [[Carni]] | Medium | High | Medium | High | Dynamic leg control trades static security |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Rubber Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Rubber Guard/Top|Top Perspective]]** - Techniques and strategies
-
-
-### By Variation
-
-- **[[Mission Control]]** - Primary Rubber Guard position with shin across back and foot secured
-
-- **[[New York]]** - Advanced variation with omoplata threat and enhanced arm control
-
-- **[[New York Control]]** - Submission-ready configuration from New York position
-
-- **[[Invisible Collar]]** - Submission setup position emphasizing neck control without gi grips
-
-- **[[Zombie]]** - Gogoplata setup position with shin positioned across throat
-
-- **[[Crackhead Control]]** - Variation emphasizing extreme arm isolation and shoulder pressure
-
-- **[[Meathook]]** - Transitional position focusing on elbow control and arm trapping
-
-- **[[Chill Dog]]** - Relaxed control position maintaining arm isolation with minimal energy
-
-- **[[Carni]]** - High-level variation combining multiple control points for submissions
 
 
 
@@ -115,10 +68,13 @@ The Rubber Guard is a specialized guard position developed and popularized by Ed
 
 <section id="bottom-summary" class="content-section">
 
-## Rubber Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Rubber Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in rubber guard navigates both offensive and defensive opportunities based on opponent's actions.
+Read and react based on their actions.
 
 
 ### Key Principles
@@ -170,7 +126,7 @@ The bottom player in rubber guard navigates both offensive and defensive opportu
   - Success Rate: Beginner 15%, Intermediate 28%, Advanced 48%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Insufficient flexibility attempting position too early in development**
@@ -198,16 +154,17 @@ The bottom player in rubber guard navigates both offensive and defensive opportu
   - ✅ Correction: Actively manage opponent's free hand with grips, overhooks, or positioning. Use opposite hand to control wrist, elbow, or head depending on specific sub-position being utilized
 
 
-👉 **[[Rubber Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Rubber Guard Top Perspective
+
+## Playing as Top
+
+[[Rubber Guard/Top|→ Full Top Guide]]
 
 
-The top player in rubber guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -256,7 +213,7 @@ The top player in rubber guard manages the position strategically based on oppon
   - Success Rate: Beginner 18%, Intermediate 33%, Advanced 53%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pulling trapped arm aggressively straight back without addressing leg control**
@@ -284,8 +241,6 @@ The top player in rubber guard manages the position strategically based on oppon
   - ✅ Correction: Remain calm and apply systematic defensive protocol. Use leverage and positioning rather than pure strength. Conserve energy for sustained defensive effort rather than explosive bursts
 
 
-👉 **[[Rubber Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -298,63 +253,63 @@ The top player in rubber guard manages the position strategically based on oppon
 
 Primary Rubber Guard position with shin across back and foot secured
 
-[Explore Mission Control →](rubber-guard/mission-control)
+[Explore Mission Control →](./Mission Control)
 
 
 ### [[New York]]
 
 Advanced variation with omoplata threat and enhanced arm control
 
-[Explore New York →](rubber-guard/new-york)
+[Explore New York →](./New York)
 
 
 ### [[New York Control]]
 
 Submission-ready configuration from New York position
 
-[Explore New York Control →](rubber-guard/new-york-control)
+[Explore New York Control →](./New York Control)
 
 
 ### [[Invisible Collar]]
 
 Submission setup position emphasizing neck control without gi grips
 
-[Explore Invisible Collar →](rubber-guard/invisible-collar)
+[Explore Invisible Collar →](./Invisible Collar)
 
 
 ### [[Zombie]]
 
 Gogoplata setup position with shin positioned across throat
 
-[Explore Zombie →](rubber-guard/zombie)
+[Explore Zombie →](./Zombie)
 
 
 ### [[Crackhead Control]]
 
 Variation emphasizing extreme arm isolation and shoulder pressure
 
-[Explore Crackhead Control →](rubber-guard/crackhead-control)
+[Explore Crackhead Control →](./Crackhead Control)
 
 
 ### [[Meathook]]
 
 Transitional position focusing on elbow control and arm trapping
 
-[Explore Meathook →](rubber-guard/meathook)
+[Explore Meathook →](./Meathook)
 
 
 ### [[Chill Dog]]
 
 Relaxed control position maintaining arm isolation with minimal energy
 
-[Explore Chill Dog →](rubber-guard/chill-dog)
+[Explore Chill Dog →](./Chill Dog)
 
 
 ### [[Carni]]
 
 High-level variation combining multiple control points for submissions
 
-[Explore Carni →](rubber-guard/carni)
+[Explore Carni →](./Carni)
 
 
 

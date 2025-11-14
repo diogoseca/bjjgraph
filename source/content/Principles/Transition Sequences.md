@@ -8,7 +8,7 @@ description: "Master Transition Sequences in BJJ. Learn to link positions system
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Transition Sequences in BJJ. Learn to link positions system
 
 
 
-> **Quick Answer**: Transition Sequences is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Transition Sequences is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Transition Sequences represent the sophisticated skill of linking multiple posit
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Link transitions through momentum conservation where each movement facilitates the next
 - Develop position chains that progress systematically toward tactical objectives
 - Create setup conditions through initial transitions that enable subsequent actions
@@ -181,7 +181,7 @@ Transition Sequences represent the sophisticated skill of linking multiple posit
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Momentum Conservation**: The ability to preserve kinetic energy from one transition into the next, using the completion of one movement as the initiation of subsequent actions. This involves understanding how body mechanics allow energy transfer between positions rather than stopping and restarting movement with each technique.
 
 **Positional Pattern Recognition**: The capacity to identify common position sequences that occur naturally during rolling and recognize when the current position presents opportunities for established sequence entry. This includes understanding how opponent reactions to initial moves create predictable setup conditions for follow-up techniques.
@@ -204,7 +204,7 @@ Transition Sequences represent the sophisticated skill of linking multiple posit
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Position Chains]]** (Prerequisite): Understanding how positions connect sequentially forms the foundation for building transition sequences, as sequences are essentially position chains executed with proper timing and momentum preservation
 - **[[Transition Management]]** (Complementary): While transition management addresses individual positional changes, transition sequences extend this to multiple linked transitions, requiring both skills to work in concert for effective implementation
 - **[[Offensive Combinations]]** (Extension): Transition sequences represent the positional manifestation of offensive combinations, applying combination principles to position changes rather than isolated techniques
@@ -221,7 +221,7 @@ Transition Sequences represent the sophisticated skill of linking multiple posit
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Developing sweep sequences where initial sweep attempt creates off-balancing that sets up secondary sweep or back take option, common sequence being hip bump to guillotine to triangle when opponent defends each progressive threat
 
 **Mount**: Implementing submission sequences where armbar attempt forces defensive arm position enabling transition to triangle or mounted triangle, then adapting to back take when opponent bridges, creating three-step sequence toward finish
@@ -258,7 +258,7 @@ Transition Sequences represent the sophisticated skill of linking multiple posit
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current position for established sequence entry points**: Identify whether current position matches starting position of practiced sequences in your repertoire, recognizing familiar grips, angles, and control points that signal sequence opportunities
 2. **Initiate sequence with highest probability first technique**: Execute initial transition or attack with commitment sufficient to generate defensive reaction, ensuring opponent must respond meaningfully rather than ignoring initial threat
 3. **Observe opponent's defensive response pattern**: Identify specific defensive action opponent employs (posting, turning, bridging, etc.), recognizing this response as setup condition for next technique in sequence chain
@@ -271,28 +271,28 @@ Transition Sequences represent the sophisticated skill of linking multiple posit
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Executing sequences at drilling speed during live rolling
+## Common Mistakes
+- **Mistake**: Executing sequences at drilling speed during live rolling
   - **Consequence**: Opponent has time to recognize sequence pattern and preemptively defend later steps, negating compound advantage that sequences create through rapid connected pressure
   - **Correction**: Practice sequences with progressive resistance training, gradually increasing execution speed until individual transitions blur into continuous flowing movement executable at competition pace
-- **Error**: Abandoning sequences at first defensive response
+- **Mistake**: Abandoning sequences at first defensive response
   - **Consequence**: Practitioner never develops patience to execute multi-step sequences, reverting to isolated technique attempts that are easier to defend and miss compound advantages of connected attacks
   - **Correction**: Commit to completing minimum two-step sequences even when initial technique fails, recognizing that opponent's defense of first attack is precisely what creates opportunity for second
-- **Error**: Attempting overly complex sequences beyond current skill level
+- **Mistake**: Attempting overly complex sequences beyond current skill level
   - **Consequence**: Execution breaks down at critical transition points, creating scrambles where opponent escapes rather than controlled sequences that maintain offensive advantage throughout
   - **Correction**: Build sequence complexity gradually, mastering two-step sequences before adding third step, ensuring each component transition is technically sound in isolation before chaining
-- **Error**: Neglecting grip and control maintenance between transitions
+- **Mistake**: Neglecting grip and control maintenance between transitions
   - **Consequence**: Opponent creates space or breaks connections during transitional moments, disrupting sequence flow and allowing defensive reset that negates advantage of connected attacks
   - **Correction**: Focus on maintaining at least one strong connection point throughout sequence, planning grip transitions that never allow opponent complete disconnection between sequence steps
-- **Error**: Following memorized sequences without adapting to opponent responses
+- **Mistake**: Following memorized sequences without adapting to opponent responses
   - **Consequence**: Practitioner attempts step three when opponent's defense has already disrupted step two, leading to failed techniques rather than adaptive sequences that branch based on defensive choices
   - **Correction**: Develop branching sequence trees where primary path has alternative routes based on specific opponent defenses, drilling multiple sequence variations from same starting position
-- **Error**: Using excessive strength to force sequences against resistance
+- **Mistake**: Using excessive strength to force sequences against resistance
   - **Consequence**: Sequences become unsustainable energy expenditure, practitioner fatigues quickly, and technical precision deteriorates making later sequence steps ineffective even when setup is correct
   - **Correction**: Practice sequences with emphasis on using opponent's reactions as energy source, allowing defensive movements to power transitions rather than muscular force throughout chain
-- **Error**: Failing to integrate submission threats within positional sequences
+- **Mistake**: Failing to integrate submission threats within positional sequences
   - **Consequence**: Opponent can focus entirely on defending position changes without worrying about submissions, making defensive task easier and reducing effectiveness of positional pressure
   - **Correction**: Build sequences that alternate between positional transitions and submission attempts, creating dilemma where defending one category opens opportunities in other
 
@@ -301,7 +301,7 @@ Transition Sequences represent the sophisticated skill of linking multiple posit
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Sequence Building** (Focus: Systematic complexity progression that ensures each sequence layer is technically sound before adding next level, preventing overwhelming complexity that leads to poor execution)
 Start with two-step sequences drilling each pair of transitions until smooth, then add third step, gradually building to four or five-step sequences as technical proficiency develops
 
@@ -326,7 +326,7 @@ Create personal sequence maps showing starting positions, primary sequence paths
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can execute simple two-step sequences in drilling with cooperative partner but struggles to maintain sequence flow during live rolling
 - Recognizes when initial technique fails but defaults to starting over rather than flowing to connected secondary technique
@@ -362,7 +362,7 @@ Create personal sequence maps showing starting positions, primary sequence paths
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Position Transitions]] (Principle) - Foundational concept that addresses individual positional changes which form building blocks of transition sequences
 - [[Position Chains]] (Principle) - Related concept focusing on sequential position progression providing structural framework for sequence development
@@ -382,7 +382,7 @@ Create personal sequence maps showing starting positions, primary sequence paths
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches transition sequences through systematic analysis of positional connections and technical linking mechanics, developing what he terms kinetic chains where each movement creates biomechanical setup for subsequent actions. Emphasizes importance of understanding why sequences work at mechanical level rather than merely memorizing movement patterns, enabling practitioners to recognize sequence opportunities during live rolling through biomechanical pattern recognition. Systematizes sequence development through hierarchical structure where fundamental position progressions form foundation upon which more complex sequences build, creating developmental pathway from simple two-step sequences to sophisticated multi-branch tactical flows. Views transition sequences as implementation of strategic principles at tactical level, where sequences represent concrete execution of abstract positional hierarchies and submission strategies. Stresses that effective sequences are not arbitrary technique combinations but logical progressions where each step creates specific mechanical conditions that make subsequent steps mechanically superior, requiring deep understanding of position relationships and biomechanical principles rather than simple memorization of movement patterns.
 - **Gordon Ryan**: Views transition sequences as competitive weapons that compound technical advantages by denying opponent reset opportunities between attacks. Focuses on developing what he describes as sequence pressure where continuous transitional flow creates psychological and physical fatigue beyond what individual techniques would produce. Emphasizes importance of drilling sequences until they become unconscious motor patterns executable at full competition speed without cognitive load, freeing mental resources for strategic decision-making and opponent analysis. In his approach, signature sequences function as competitive advantages because even when opponents know sequence is coming, the kinetic linking and setup integration make defending entire sequence more difficult than stopping individual components, creating situations where defense requires simultaneous countering of multiple threats. Advocates for developing personal sequence repertoires centered around proven high-percentage techniques rather than collecting large numbers of low-probability sequences, focusing competitive preparation on mastering fewer sequences to expert level rather than superficial familiarity with many options. His sequence development emphasizes speed and pressure as critical elements, recognizing that sequences executed with proper tempo create compound defensive problems that same technical progressions executed slowly cannot achieve.
 - **Eddie Bravo**: Has developed signature transition sequences within 10th Planet system that often link unconventional positions into tactical flows not commonly seen in traditional BJJ. Teaches sequence concept he calls the path where each position system has optimal transitional routes toward back takes and submissions, creating systematic progressions students can learn as connected units. Advocates for developing personal sequence vocabularies aligned with body mechanics and technical preferences rather than adopting universal sequences, creating individual tactical identities through signature flows. Views transition sequences as creative expression opportunities within BJJ's technical framework, encouraging innovation in sequence development while respecting fundamental principles of momentum conservation and positional advantage. His approach emphasizes that sequences should feel natural to individual practitioner's movement patterns and body type, recognizing that sequences working effectively for one body type may be inefficient for others, leading to teaching methodology where students learn sequence principles then develop personal variations. Particularly emphasizes integration of unique positions like lockdown and rubber guard into sequences, creating tactical progressions that opponents less familiar with these positions struggle to defend effectively, using unconventional sequence elements as competitive advantages in rule sets where leg locks and other modern techniques are legal.

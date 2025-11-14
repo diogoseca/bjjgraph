@@ -8,7 +8,7 @@ description: "Master Arm Triangle choke progression from side control. Systemati
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Arm Triangle choke progression from side control. Systemati
 
 
 
-> **Quick Answer**: Arm Triangle Progression is a blood choke targeting the Carotid arteries (compression via shoulder and arm). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression - apply slowly over 3-5 seconds and release immediately upon tap.
+> Arm Triangle Progression is a blood choke targeting the Carotid arteries (compression via shoulder and arm). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="safety-considerations" class="content-section">
 
-## Is Arm Triangle Progression Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -214,7 +214,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Use opponent's shoulder as part of the choking structure - their anatomy works against them
 - Head isolation must occur before transitioning to finishing position
 - Shoulder pressure drives into neck at precise angle toward far shoulder
@@ -228,7 +228,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Dominant side control with opponent flat on back
 - Opponent's near arm trapped across their own body or isolated high
 - Your head positioned tight to opponent's head on choking side
@@ -242,7 +242,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish dominant side control with crossface**: Begin from tight side control with heavy crossface pressure. Your chest should be driving into opponent's face, preventing them from turning toward you. Your hips are low and tight to their body. Your far arm can control their far hip or be posted for base. This foundational control prevents the initial defensive movements that would stop the choke setup. (Timing: Hold for 2-3 seconds to establish positional dominance) [Pressure: Firm]
 2. **Thread choking arm deep under opponent's head**: Slide your crossface arm deep under opponent's head, reaching across to the far side of their neck. Your shoulder should be tight to their face. The key detail is depth - your bicep should be on one side of their neck and their own shoulder on the other side, creating the triangular structure. This arm becomes the 'blade' of the choke, so maximum depth is critical. Your hand can grip your own opposite shoulder or reach to the mat on the far side. (Timing: 2-3 seconds to establish deep arm position) [Pressure: Moderate]
 3. **Trap opponent's near arm across their body**: Use your free hand to control opponent's near arm, either pushing it across their chest or using it to create the choking triangle. You want their arm to run across their own neck, adding to the compression. This arm positioning is what makes the choke 'arm triangle' - their shoulder becomes part of the choking mechanism. Some variations have the arm high near their face, others across the chest. Both work if the shoulder is properly aligned. (Timing: 1-2 seconds of active arm control) [Pressure: Firm]
@@ -256,7 +256,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent turns into you before arm is isolated** (Effectiveness: High) - Your Adjustment: Maintain heavy crossface pressure and use your chest to prevent the turn. If they succeed in turning, transition to taking the back or switch to a different submission like the kimura. Prevention through proper crossface is key - don't allow the initial turn.
 - **Opponent frames with far arm to prevent you from closing distance** (Effectiveness: High) - Your Adjustment: Control the far arm before attempting the choke. You can trap it to their hip, push it over their head, or use it to set up different submissions. The arm triangle requires both arms to be neutralized - one trapped in the choke, one controlled or cleared.
 - **Opponent pulls their trapped arm free during transition** (Effectiveness: Medium) - Your Adjustment: Maintain constant shoulder pressure on their face throughout the transition. Their arm should be pinned between your shoulder and their face - if you create any gap, they escape. Consider switching to mount before attempting to finish rather than finishing from side, as mount provides better control during the squeeze.
@@ -266,28 +266,28 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Rushing the transition before properly isolating the head and arm [Low DANGER]
+## Common Mistakes
+- **Mistake**: Rushing the transition before properly isolating the head and arm [Low DANGER]
   - **Consequence**: Opponent escapes by pulling their arm free or turning away, completely neutralizing the submission attempt
   - **Correction**: Spend extra time in the setup phase ensuring the arm is truly trapped and your shoulder pressure is eliminating all space. Only transition once the structure is locked - patience in setup determines success in finish.
-- **Error**: Squeezing upward toward the ceiling instead of inward toward centerline [Medium DANGER]
+- **Mistake**: Squeezing upward toward the ceiling instead of inward toward centerline [Medium DANGER]
   - **Consequence**: Ineffective choke that allows opponent to defend indefinitely, wasted energy, and potential neck strain without arterial compression
   - **Correction**: Focus on driving your shoulder across their neck while pulling your elbows together. The squeeze should feel like you're trying to touch your elbows together in front of their neck, not lifting their head off the mat. Imagine squeezing toward their far shoulder.
-- **Error**: Positioning hips too low on opponent's torso during mount finish [Low DANGER]
+- **Mistake**: Positioning hips too low on opponent's torso during mount finish [Low DANGER]
   - **Consequence**: Incorrect angle prevents proper shoulder pressure into neck, opponent can bridge more easily, and the choke lacks the necessary compression to finish
   - **Correction**: In mount finish variation, hips should be high on their chest, almost to their armpits. This creates the downward angle needed for your shoulder to drive into their neck properly. If you feel like you're mounting too high, you're probably at the right height for this choke.
-- **Error**: Creating gap between your shoulder and opponent's face during transition [Low DANGER]
+- **Mistake**: Creating gap between your shoulder and opponent's face during transition [Low DANGER]
   - **Consequence**: Opponent immediately pulls their arm free and escapes, potentially recovering guard or reversing position
   - **Correction**: Your shoulder must remain glued to their face throughout the entire transition. Think of your shoulder, their head, and their trapped arm as a single unit that moves together. If you need to adjust position, do it slowly while maintaining constant pressure. Consider finishing from side control if you cannot maintain connection during the mount transition.
-- **Error**: Applying rapid, jerking pressure instead of slow progressive squeeze [CRITICAL DANGER]
+- **Mistake**: Applying rapid, jerking pressure instead of slow progressive squeeze [CRITICAL DANGER]
   - **Consequence**: Partner cannot tap in time, risk of loss of consciousness, windpipe damage if angle is wrong, and development of unsafe training habits
   - **Correction**: ALWAYS apply arm triangle pressure slowly over 3-5 seconds minimum. You should feel the pressure building gradually. Watch your partner's face for color changes or signs of distress. In training, the goal is to achieve the position where you COULD finish, not to actually finish every time. Give your partner time to recognize they're caught and tap safely.
-- **Error**: Forgetting to check that partner's tapping arm is free [CRITICAL DANGER]
+- **Mistake**: Forgetting to check that partner's tapping arm is free [CRITICAL DANGER]
   - **Consequence**: Partner cannot signal submission, risk of injury or loss of consciousness, dangerous training environment
   - **Correction**: Before applying finishing pressure, do a quick mental check that at least one of your partner's arms is completely free to tap on you or the mat. If both arms are trapped in your control, you've made a serious safety error. Adjust your position to free one arm before applying any choking pressure.
-- **Error**: Targeting windpipe instead of carotid arteries [High DANGER]
+- **Mistake**: Targeting windpipe instead of carotid arteries [High DANGER]
   - **Consequence**: Painful air choke instead of clean blood choke, potential trachea damage, opponent unnecessarily suffering, and development of poor technique
   - **Correction**: The pressure point should be the sides of the neck where the carotid arteries run, not the front of the throat. If your partner is coughing or their face is turning red from air restriction rather than blood restriction, your angle is wrong. Adjust so your shoulder drives into the side of the neck. A proper arm triangle should feel relatively comfortable to you while being inescapable for the opponent - if it feels like hard work, your angle is off.
 
@@ -296,7 +296,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Mount Finish**: After isolating the head and arm from side control, transition fully to mount position before finishing the choke. Your hips are high on their chest, head tight to theirs, with your body weight distributed forward. This variation provides maximum control and prevents most escapes, making it ideal for opponents with strong defensive awareness. (When to use: When opponent is very defensive and likely to escape during side control finish, or when you need guaranteed positional control before submitting (competition scenarios))
 
 **Side Control Finish**: Complete the choke from side control by moving your body parallel to opponent's body, head to head. Your shoulder drives into their neck while you squeeze your elbows together. This is faster than transitioning to mount and works well when the angle is already perfect from your initial setup. (When to use: When the setup is extremely tight and you have the perfect angle immediately, or when opponent is already weakened and unlikely to defend the transition)
@@ -341,7 +341,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (First 2 weeks of learning the technique)
 - Focus: Learn the structural mechanics, practice the setup from side control, understand the choking triangle concept, and develop slow, controlled transitions without finishing the choke
 - Resistance: Zero resistance
@@ -378,7 +378,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[Mount]]
@@ -396,7 +396,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Arm Triangle]]
 - [[Darce Choke]]
@@ -439,7 +439,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The arm triangle progression is a masterclass in systematic submission development. The beauty of this technique lies in its structural efficiency - you are using the opponent's own shoulder as part of the choking mechanism, meaning they cannot simply pull their arm free to escape once the structure is properly established. The critical technical detail that separates successful from unsuccessful attempts is the depth of your initial arm placement under their head. Your bicep must be on one side of their neck and their shoulder on the other side, creating a true triangle. Half-depth arm placement creates half-pressure at best. The progression from side control to finishing position requires absolute maintenance of shoulder pressure on their face - any gap, even momentarily, allows the escape. From a safety perspective, this choke must be applied with progressive pressure over several seconds in training. Blood chokes work through arterial compression, and the pressure should build gradually. Watch your training partner's face for color changes and be prepared to release immediately. The arm triangle teaches an essential lesson: structural control eliminates the need for excessive force. When positioned correctly, moderate pressure achieves complete submission.
 - **Gordon Ryan**: In competition, the arm triangle is one of my highest-percentage submissions because it combines positional dominance with finishing power. When I secure side control or mount, I'm constantly looking for the head and arm isolation that signals arm triangle opportunity. The key competition detail is finishing from mount versus side control. Against elite opponents with strong defensive awareness, I almost always transition to mount before applying finishing pressure - the positional control is worth the extra second of transition time. The mount finish eliminates most escape routes and allows me to control their hips with my legs while finishing the choke. However, in training, I emphasize the distinction between competition speed and training speed. In competition, I might finish an arm triangle in 2-3 seconds once I have the position. In the training room, I apply the same technique over 5-7 seconds minimum, giving my partner every opportunity to tap safely. This isn't softness - it's intelligence. Injuring training partners means fewer quality training opportunities, which hurts your development more than any single submission helps it. The progression I favor is: establish dominant side control, isolate the head and arm with maximum depth, transition to high mount while maintaining shoulder pressure, connect my hands behind their head, then squeeze my elbows together while driving my shoulder across their neck. This systematic approach works at the highest levels of competition when executed with proper timing and pressure.
 - **Eddie Bravo**: The arm triangle is fundamental in the 10th Planet system because it works incredibly well in no-gi where you don't have collar grips to fall back on. From positions like the truck or twister side control, the arm triangle structure appears constantly - you just have to recognize it. One innovation I emphasize is using the arm triangle as a control position rather than always hunting the finish. If I get the head and arm structure locked from side control, I might hold that position for 30-60 seconds, draining my opponent's energy and setting up other attacks. When they try to escape the arm triangle, they often give up their back or expose their arms for kimuras. It's a hub position, not just a destination. From a teaching perspective, I'm extremely strict about safety protocols with this choke. At 10th Planet, we drill the '5-second rule' - minimum 5 seconds from starting the squeeze to full pressure. No exceptions, even in competition training. We've had black belts get tapped by blue belts who held arm triangles too long, and we celebrate that because it means our safety culture is working. The blue belt trusted the technique and applied it slowly; the black belt recognized they were caught and tapped early rather than trying to tough it out. That's the culture we want. The arm triangle also teaches a crucial lesson about using opponent's anatomy against them - their own shoulder chokes them out. That principle extends to so many other techniques in our system. Master that concept and your whole game levels up.

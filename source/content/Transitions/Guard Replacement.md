@@ -8,7 +8,7 @@ description: "Learn Guard Replacement in BJJ. Step-by-step execution from compro
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Guard Replacement in BJJ. Step-by-step execution from compro
 
 
 
-> **Quick Answer**: Guard Replacement transitions from [[Defensive Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Guard Replacement transitions from [[Defensive Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ Guard replacement serves as a bridge between losing guard control and being full
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create space through hip escape before attempting to replace guard
 - Frame against opponent's hips, shoulders, or head to maintain distance
 - Keep hips mobile and constantly adjust angle relative to opponent
@@ -190,7 +190,7 @@ Guard replacement serves as a bridge between losing guard control and being full
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Recognition that guard is being compromised or passed
 - At least one arm free to create frames
 - Sufficient space between hips and opponent to initiate hip escape
@@ -203,7 +203,7 @@ Guard replacement serves as a bridge between losing guard control and being full
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish frames**: Create defensive frames using your hands and forearms against the opponent's shoulders, hips, or head. The frames should be rigid enough to create distance but not so extended that they can be easily collapsed. Position your elbows at approximately 90 degrees, using skeletal structure rather than pure muscle strength to maintain the barrier. Your hands should be active, constantly adjusting to redirect opponent's pressure away from your centerline. (Timing: Immediately upon recognizing guard is being compromised)
 2. **Hip escape (shrimp)**: Execute a powerful hip escape by turning onto your side, posting your inside foot on the mat, and driving your hips away from the opponent at approximately a 45-degree angle. Your outside shoulder should touch or nearly touch the mat as you create this angle. The shrimp should be explosive enough to create 6-12 inches of space between your hip and the opponent. Maintain your frames throughout this movement to prevent the opponent from following your hips. (Timing: Execute when opponent commits weight forward)
 3. **Create angle**: As you shrimp, rotate your body to create an angle perpendicular or nearly perpendicular to your opponent's torso. This angle is critical because it increases the distance your legs must travel to recover guard while making it more difficult for the opponent to pressure directly into you. Your head should move away from the opponent while your hips create space. Keep your shoulders off the mat and weight on your side to maintain mobility. (Timing: Simultaneous with hip escape)
@@ -217,7 +217,7 @@ Guard replacement serves as a bridge between losing guard control and being full
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives weight forward immediately as you shrimp** (Effectiveness: High) - Your Response: Switch to a different escape direction or transition to a turtle position to prevent being flattened. You can also use the opponent's forward pressure to execute a technical standup or underhook escape.
 - **Opponent collapses your frames by controlling your elbows or wrists** (Effectiveness: High) - Your Response: Immediately switch to different framing points such as the opponent's face, hips, or use your forearms across their throat. Create new frames faster than they can collapse them, and increase the speed and frequency of your hip escapes.
 - **Opponent follows your hips as you shrimp, maintaining pressure** (Effectiveness: Medium) - Your Response: Chain multiple shrimps together in rapid succession, changing angles with each escape. You can also use grips to pull the opponent off-balance in the opposite direction of your shrimp, creating a moment of hesitation that allows your escape to succeed.
@@ -227,28 +227,28 @@ Guard replacement serves as a bridge between losing guard control and being full
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Shrimping directly away in a straight line rather than at an angle
+## Common Mistakes
+- **Mistake**: Shrimping directly away in a straight line rather than at an angle
   - **Consequence**: Creates minimal effective space and makes it easy for opponent to follow your hips and continue pressure
   - **Correction**: Always shrimp at a 45-degree angle or more, creating perpendicular positioning to the opponent's body. The angle is what creates functional distance, not just linear movement.
-- **Error**: Remaining flat on back while attempting to recover guard
+- **Mistake**: Remaining flat on back while attempting to recover guard
   - **Consequence**: Eliminates hip mobility and allows opponent to establish heavy pressure, making guard recovery nearly impossible
   - **Correction**: Turn onto your side immediately when guard is compromised. Stay on your side throughout the recovery process, using your shoulder and hip as the primary points of contact with the mat.
-- **Error**: Attempting to recover far leg before establishing near-leg shield
+- **Mistake**: Attempting to recover far leg before establishing near-leg shield
   - **Consequence**: Creates a gap that allows opponent to drive through and complete the pass, often resulting in immediate side control
   - **Correction**: Always establish the near-leg knee shield first as a defensive barrier. Only attempt to recover the far leg once the near leg is actively preventing the opponent from closing distance.
-- **Error**: Using weak, bent-arm frames that collapse under pressure
+- **Mistake**: Using weak, bent-arm frames that collapse under pressure
   - **Consequence**: Opponent easily drives through frames and achieves chest-to-chest pressure, eliminating all escape options
   - **Correction**: Create frames with elbows at 90 degrees, using skeletal structure and body positioning rather than pure arm strength. Frame against opponent's hips or shoulders where leverage is optimal.
-- **Error**: Shrimping only once and giving up if it doesn't immediately work
+- **Mistake**: Shrimping only once and giving up if it doesn't immediately work
   - **Consequence**: Opponent waits out the single escape attempt and then continues passing with minimal resistance
   - **Correction**: Chain multiple shrimps together, sometimes 3-5 in rapid succession. Each shrimp should build on the previous one, gradually creating more space and better angles. Persistence is key to successful guard recovery.
-- **Error**: Failing to maintain grips during the recovery process
+- **Mistake**: Failing to maintain grips during the recovery process
   - **Consequence**: Opponent's hands are free to post, establish controls, and counter the guard replacement with ease
   - **Correction**: Maintain at least one controlling grip throughout the entire sequence, whether on sleeve, collar, or wrist. Grips allow you to off-balance the opponent and control their ability to counter your recovery.
-- **Error**: Not immediately establishing a specific guard after recovering legs
+- **Mistake**: Not immediately establishing a specific guard after recovering legs
   - **Consequence**: Opponent immediately begins another passing sequence, and you're constantly defending rather than attacking
   - **Correction**: The moment both legs are recovered, immediately establish a specific guard position and begin working offensive attacks. Guard recovery should seamlessly flow into guard offense.
 
@@ -257,7 +257,7 @@ Guard replacement serves as a bridge between losing guard control and being full
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Movement Patterns** - Developing proper shrimping mechanics and frame structure
 Practice solo shrimping drills focusing on creating proper angles (45 degrees or more from starting position). Work on establishing frames against a wall or training dummy. Drill the motion of near-leg shield while shrimping. Partner practices the movement pattern with zero resistance, focusing purely on mechanics and body positioning.
 (Resistance: None)
@@ -288,7 +288,7 @@ Guard replacement becomes an automatic response integrated with other retention 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Reverse Shrimp Guard Replacement**: Instead of shrimping away from the opponent, shrimp in the opposite direction (towards the opponent) while rotating under them. This creates an angle on the other side and can be particularly effective when the opponent is overcommitted to following your hips in one direction. The reversal of direction catches opponents off-guard and creates immediate space for leg recovery. (When to use: When opponent is aggressively following your shrimps in one direction and you need to change the escape angle dramatically)
 
 **Inversion Guard Replacement**: For more mobile practitioners, combine guard replacement with an inversion by rolling over your shoulder as you shrimp. This creates extreme angles and can allow you to recover guard even when the opponent has achieved significant passing progress. The inversion adds a vertical component to your escape, making it much harder for the opponent to follow. Often transitions into positions like reverse De La Riva or crab ride. (When to use: Against opponents who are exceptionally good at following hip escapes, or when you need to create maximum distance quickly)
@@ -333,7 +333,7 @@ Guard replacement becomes an automatic response integrated with other retention 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Guard replacement is generally a safe technique with minimal injury risk when performed correctly. However, practitioners should be aware of several safety considerations. Controlled application of shrimping movements is important to prevent hip or knee injuries from jerky or overextended motions—the shrimp should be explosive but smooth, without hyperextension of the joints. Mat awareness is crucial during guard replacement as the movement can cover significant lateral distance; ensure adequate space to prevent rolling off the mat or into obstacles. When drilling with partners, allow them to feel the technique working without explosive force that could cause injury, gradually building intensity as both partners become familiar with the movement patterns. Particular attention should be paid to neck safety when incorporating inversion variations—never force the neck to bear weight it cannot support, and build neck strength progressively before attempting inverted guard replacements under resistance. Partners should communicate clearly about resistance levels during training to prevent situations where one partner is using full resistance while the other expects cooperative drilling.
 
@@ -341,7 +341,7 @@ Guard replacement is generally a safe technique with minimal injury risk when pe
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Guard Replacement serves as a critical connective technique within the broader BJJ defensive system, representing the primary method for recovering guard after it has been compromised. This technique integrates seamlessly with the guard retention hierarchy—it is typically the second line of defense after initial guard retention concepts like distance management and grip fighting. When guard replacement fails or is unavailable, practitioners transition to tertiary escapes like technical standups, inversions, or deep half entries. The technique connects forward to all open guard positions (butterfly, De La Riva, X-guard, etc.) as well as closed guard, making it a universal recovery tool regardless of specific guard style. It also integrates with position transitions by serving as the mechanism through which bottom players move from compromised positions back to their offensive guard game. Understanding guard replacement as part of a defensive system rather than an isolated technique is essential—it should be practiced in sequence with guard retention, re-guard strategies, and worst-case scenario escapes from side control or mount. Advanced practitioners develop the ability to flow between guard replacement and other retention techniques like granby rolls or technical standups, creating a comprehensive guard retention system that is difficult for opponents to overcome.
 
@@ -349,7 +349,7 @@ Guard Replacement serves as a critical connective technique within the broader B
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Re-Guard]] - Primary related technique - another method of guard recovery
 - [[Shrimp Escape]] - Fundamental movement pattern used within guard replacement
@@ -369,7 +369,7 @@ Guard Replacement serves as a critical connective technique within the broader B
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Guard replacement is fundamentally about managing angular relationships and maintaining critical distance through systematic application of hip escape mechanics. The technique succeeds when the practitioner understands that space creation is not about moving away from the opponent in absolute terms, but rather about creating perpendicular angles that maximize the functional distance the opponent must traverse to maintain passing pressure. The frames serve not merely as barriers but as tools for redirecting opponent force vectors away from your centerline, allowing your hip escapes to be maximally effective. What separates elite guard retention from intermediate-level defense is the ability to chain multiple replacement attempts together with minimal rest between movements, creating a defensive rhythm that opponents cannot match. The key technical detail most practitioners miss is the importance of staying on the side throughout the sequence—being flat on your back eliminates the rotational mobility of your hips and makes every aspect of guard replacement exponentially more difficult. When teaching this technique, I emphasize that it is not a singular technique but rather a systematic approach to maintaining guard integrity that must be practiced as part of a complete defensive hierarchy.
 - **Gordon Ryan**: In competition, guard replacement is something you're going to use constantly—it's probably the most important defensive skill you can develop because even the best guard players get their guards pressured and compromised regularly. What I've found at the highest levels is that you need to be comfortable replacing your guard 5, 6, sometimes 10 times in a single passing exchange before you get an opportunity to attack. The guys who can only attempt it once or twice before they tire or get frustrated are the ones who get their guards passed consistently. My approach to guard replacement emphasizes explosive, committed hip escapes rather than tentative half-movements. You need to fully commit to each shrimp with maximum power and speed, and the moment you feel the opponent adjusting to follow you, you're already initiating the next escape in a different direction. The grip fighting component cannot be overstated—maintaining sleeve or collar control while you're escaping is what prevents elite passers from just following your hips and shutting everything down. Against the best passers in the world, your guard replacement has to be proactive rather than reactive; you start replacing guard the moment you sense pressure increasing, not after your guard is already half-passed.
 - **Eddie Bravo**: Guard replacement is where a lot of traditional BJJ players get stuck in outdated thinking—they're trying to recover to positions that made sense 20 years ago but aren't optimal for modern no-gi grappling. What we emphasize in the 10th Planet system is that guard replacement should be viewed as an opportunity to enter dynamic guard positions like lockdown, rubber guard, or deep half, not just recovering to basic closed guard. The shrimping mechanics are the same, but your target positions should be guards that immediately create offensive threats and dilemmas for your opponent. I also think most people don't understand the value of the reverse shrimp—when everyone's expecting you to shrimp away from pressure, shrimping into it and rotating under your opponent creates angles that most passers aren't prepared for. This is where creativity comes in; guard replacement doesn't have to be this defensive, desperate movement. It can be an entry to your most dangerous positions if you approach it with the right mindset. The other piece that's crucial is not being married to staying on the ground—if your guard replacement isn't working after 2-3 attempts, being willing to transition to technical standups or even full standing can completely change the dynamic and prevent you from getting stuck in that grinding, exhausting guard retention battle that goes nowhere.

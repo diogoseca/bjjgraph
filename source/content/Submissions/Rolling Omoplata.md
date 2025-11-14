@@ -8,7 +8,7 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 
 
 
-> **Quick Answer**: Rolling Omoplata is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain - apply slowly over 3-5 seconds and release immediately upon tap.
+> Rolling Omoplata is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="safety-considerations" class="content-section">
 
-## Is Rolling Omoplata Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -212,7 +212,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Momentum conversion - transform failed sweeps or transitions into submission opportunities
 - Hip rotation synchronization - coordinate hip movement with leg positioning throughout the roll
 - Arm isolation - maintain control of the trapped arm throughout the rolling motion
@@ -226,7 +226,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent's arm must be isolated and controlled (typically extended or posting)
 - Sufficient space to complete the rolling motion without obstruction
 - Opponent off-balance or in transition between positions
@@ -240,7 +240,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Arm isolation and initial control**: During a scramble, failed sweep, or transition, identify when opponent posts their arm or extends it for base. Secure control of this arm by gripping the wrist or controlling it with your legs. Your opponent should be slightly off-balance with their weight forward or lateral. This is often available when they're defending a sweep or trying to pass your guard. (Timing: Opportunistic - requires reading the scramble) [Pressure: Light]
 2. **Hip positioning for the roll**: Position your hips near the opponent's trapped shoulder while maintaining arm control. Your body should be oriented perpendicular or angled to your opponent. Begin to load your weight onto your shoulders and upper back in preparation for the rolling motion. Your free leg should be positioned to hook over the opponent's back or shoulder during the roll. (Timing: 1-2 seconds - establish position) [Pressure: Light]
 3. **Initiate the rolling motion**: Execute a smooth backward roll over your shoulder, similar to a granby roll, while maintaining control of the isolated arm. As you roll, your hips should rotate toward the opponent's head, and your legs should begin to position around their shoulder and head. The roll should be fluid and controlled, not explosive or sudden. Use your momentum to swing your legs into position. (Timing: 2-3 seconds - complete the roll) [Pressure: Moderate]
@@ -253,7 +253,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Rolling through to escape (forward roll)** (Effectiveness: Medium) - Your Adjustment: Immediately post your outside hand on the mat and distribute your weight to block their forward momentum. Follow their roll by adjusting your leg position and maintaining hip pressure on the shoulder. Transition to back control if they complete the roll.
 - **Grabbing their own belt or gi pants to prevent arm extension** (Effectiveness: High) - Your Adjustment: Use your leg across their head to break their posture and prevent them from maintaining the defensive grip. Alternatively, transition to a triangle choke or switch to back-take as they defend. Apply pressure with your hips to make the defensive position uncomfortable.
 - **Pulling arm back toward their body** (Effectiveness: High) - Your Adjustment: Anticipate this defense during the setup phase. Secure wrist control before initiating the roll, or use your legs to hook their arm and prevent retraction. If they succeed in pulling the arm back, immediately transition to triangle control or back-take opportunities.
@@ -263,28 +263,28 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Rolling too explosively or with excessive speed [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Rolling too explosively or with excessive speed [CRITICAL DANGER]
   - **Consequence**: Partner cannot tap in time, leading to serious shoulder injuries; also causes loss of control during the roll
   - **Correction**: Practice the rolling motion slowly in isolation. Focus on smooth, controlled movement with gradual acceleration. Always telegraph the technique in training and give your partner time to recognize the position.
-- **Error**: Failing to maintain arm control during the roll
+- **Mistake**: Failing to maintain arm control during the roll
   - **Consequence**: Opponent extracts their arm mid-roll, leaving you inverted and vulnerable to passing or counterattack
   - **Correction**: Establish secure wrist control or use your legs to hook the arm before initiating the roll. Practice the coordination of maintaining this control throughout the entire rolling motion. If you lose the arm, abort the submission and return to guard.
-- **Error**: Incorrect shoulder angle after the roll
+- **Mistake**: Incorrect shoulder angle after the roll
   - **Consequence**: No pressure on the shoulder joint; opponent easily escapes or rolls through
   - **Correction**: Focus on positioning your hips perpendicular to the opponent's spine, not parallel. Your hip should be directly against their shoulder joint with their arm extended straight. Practice positional drilling to develop the correct angle recognition.
-- **Error**: Rolling in the wrong direction or with poor spatial awareness
+- **Mistake**: Rolling in the wrong direction or with poor spatial awareness
   - **Consequence**: You complete the roll but end up out of bounds or in a worse position; wasted energy and lost opportunity
   - **Correction**: Develop spatial awareness through drilling. Always check your position relative to mat boundaries before attempting dynamic techniques. Practice rolling in both directions to build comfort with the movement.
-- **Error**: Not controlling opponent's head with the leg
+- **Mistake**: Not controlling opponent's head with the leg
   - **Consequence**: Opponent turns into the submission and escapes, or rolls through completely
   - **Correction**: The leg across the head is critical for controlling their posture and preventing rotation. Keep this leg tight and active, using it to break their posture downward while applying the shoulder lock.
-- **Error**: Applying the submission with cranking or jerking motions [CRITICAL DANGER]
+- **Mistake**: Applying the submission with cranking or jerking motions [CRITICAL DANGER]
   - **Consequence**: Sudden shoulder dislocation, rotator cuff tear, or other severe injuries requiring medical intervention
   - **Correction**: Always apply pressure gradually through hip extension, never through jerking or explosive movements. In training, aim for 4-6 seconds of progressive pressure application. Develop sensitivity to feel resistance and stop immediately if partner shows distress.
-- **Error**: Attempting the technique without sufficient hip mobility
+- **Mistake**: Attempting the technique without sufficient hip mobility
   - **Consequence**: Incomplete roll, awkward positioning, or muscle strain in your own hips and lower back
   - **Correction**: Develop hip flexibility through dedicated stretching and mobility work. Practice granby rolls and other inverted movements separately before attempting this submission. If you lack the mobility, focus on traditional omoplata variations instead.
 
@@ -293,7 +293,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Rolling Omoplata from Failed Scissor Sweep**: When your scissor sweep is defended and opponent posts their far arm, use the momentum of your sweep attempt to roll under and capture the posted arm. Your scissor sweep motion naturally loads you into the rolling position. (When to use: Ideal when opponent bases heavily on their far arm to defend your scissor sweep; creates a seamless offensive chain)
 
 **Rolling Omoplata from Spider Guard**: From spider guard with foot on bicep, when opponent attempts to remove your foot and posts their hand, release the foot and immediately roll toward that posted arm while maintaining control with your other leg. The spider guard control sets up perfect arm isolation. (When to use: Effective against aggressive spider guard passing attempts; opponent's posted arm is already extended)
@@ -338,7 +338,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding - Solo Movement** (Week 1-2)
 - Focus: Practice granby rolls, hip inversions, and rolling motions without a partner. Develop the rolling mechanics and body awareness needed for the technique. Work on hip mobility and inverted positioning.
 - Resistance: None
@@ -375,7 +375,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Scramble Position]]
 - [[Closed Guard]]
@@ -393,7 +393,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Omoplata]]
 - [[Omoplata from Guard]]
@@ -436,7 +436,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Rolling Omoplata represents an evolution in submission mechanics where we exploit transitional moments rather than static positions. The key to this technique is understanding that it's a momentum-based submission - you're converting kinetic energy from a scramble or failed technique into a shoulder lock. From a biomechanical perspective, the rolling motion allows you to attack the shoulder joint from an angle that bypasses many of the traditional omoplata defenses. The opponent's natural instinct is to defend against linear threats, but the rolling motion creates a rotational force vector on the shoulder that's much harder to counter. However, this same advantage creates significant safety concerns. The technique generates forces on the shoulder joint before your opponent may fully recognize they're in danger. In training, you must slow down the entry dramatically and focus on positional achievement rather than finishing. The rolling motion should be telegraphed and controlled, giving your partner time to recognize the threat and tap early. I emphasize to my students that this technique should only be attempted after mastering traditional omoplatas and developing excellent body control through inversion drills. The submission itself is secondary to the movement literacy required to execute it safely. When teaching this technique, I spend considerably more time on the release protocols and safety considerations than on the finishing mechanics, because the true skill is in recognizing when you have it and applying minimal pressure to get the tap.
 - **Gordon Ryan**: The Rolling Omoplata is one of those techniques that looks flashy but is actually incredibly practical in competition when you understand the right moments to use it. I hit this regularly in training and competition because people don't expect it during scrambles - they're focused on passing or defending sweeps, not protecting their arms. The key timing is when someone posts to defend your sweep or to establish base during a transition. That posted arm is gold if you can recognize it quickly. What makes this technique effective at the highest levels is that it works even when people know it's coming, because the scramble situation doesn't give them time to react perfectly. Unlike slow, methodical submissions where your opponent has time to think through their defenses, the rolling omoplata capitalizes on chaos and forces split-second decision making. In competition, I'm always looking for opportunities to chain this with other attacks. If they defend the rolling omoplata by pulling their arm back, I'm immediately looking for the triangle. If they try to roll through, I'm taking the back. The technique itself is just one part of a broader offensive system built around scramble situations. That said, there's a massive difference between how I apply this in competition versus training. In training, I slow everything down and give my partners time to tap. In competition, the application is faster, but I still maintain control throughout the movement. The biggest mistake I see people make is trying to practice this at competition speed in the training room - that's how training partners get injured. Develop the movement slowly, build the muscle memory, and save the explosive entries for competition where the stakes justify the risks.
 - **Eddie Bravo**: The Rolling Omoplata is pure 10th Planet DNA - it's all about staying dangerous during transitions and never giving your opponent a moment to relax. This technique embodies what we teach: when something fails, you don't retreat, you flow into the next attack. That failed sweep? That's just the setup for the rolling omoplata. They defended your spider guard attack? Roll into the omoplata and catch them by surprise. What I love about this submission is that it rewards flexibility, creativity, and the willingness to enter positions that most people avoid. You're going inverted, you're rolling while controlling an arm, you're putting yourself in what looks like a vulnerable position - but that's exactly where the magic happens. The traditional BJJ approach is position before submission, but techniques like the rolling omoplata show that there's this whole universe of submissions available during the transition between positions. We drill this constantly at 10th Planet because it builds comfort with inversion and scrambles. However - and this is critical - we also have a strong safety culture around dynamic submissions. Just because you can do something flashy doesn't mean you should crank it in training. The rolling omoplata can seriously hurt someone's shoulder if you're reckless, so we emphasize controlled entries and early tapping. I tell my students: be creative and aggressive with your entries, but respectful and controlled with your finishes. The goal is to make your training partners better, not to injure them. This technique also requires serious hip flexibility and body control, which is why we incorporate so much yoga and mobility work into our training. You can't force this technique if your body isn't prepared for it - you'll either fail to execute it or hurt yourself trying. Put in the mobility work, develop the movement through drilling, and this technique becomes a legitimate weapon in your arsenal.

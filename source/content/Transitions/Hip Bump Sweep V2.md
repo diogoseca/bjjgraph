@@ -8,7 +8,7 @@ description: "Master the Hip Bump Sweep from Closed Guard. Complete guide with s
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Hip Bump Sweep from Closed Guard. Complete guide with s
 
 
 
-> **Quick Answer**: Hip Bump Sweep V2 transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Hip Bump Sweep V2 transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Break opponent's posture completely before initiating the sweep
 - Create a significant angle by bumping your hips off the centerline
 - Control opponent's arm and head to eliminate their posting base
@@ -184,7 +184,7 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Closed guard fully established with ankles crossed behind opponent's back
 - Opponent's posture broken forward with head pulled down
 - Strong grip control on opponent's sleeve or wrist on the sweeping side
@@ -197,7 +197,7 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Break posture and establish grips**: From closed guard, use collar or head control to break opponent's posture forward. Simultaneously grip their right wrist or sleeve with your left hand. Pull opponent's head down toward your chest while maintaining tight guard closure. (Timing: Initial setup, no time pressure)
 2. **Open guard and post your right hand**: Release your ankle lock and bring your right leg out from around opponent's back. Plant your right hand on the mat approximately 12 inches from your hip at a 45-degree angle, creating a strong posting base. (Timing: Smooth transition, 1-2 seconds)
 3. **Sit up and create angle**: Using your posted right hand, sit up into your opponent while simultaneously rotating your hips to the left. Your chest should come up to meet opponent's right shoulder. Your left arm maintains control of their right wrist, pinning it to your chest. (Timing: Explosive sit-up, immediate)
@@ -210,7 +210,7 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent posts their right hand wide to prevent the sweep** (Effectiveness: High) - Your Response: Switch to triangle attack by bringing right leg over opponent's posted arm and across their back, or transition to armbar by sitting back and extending the posted arm
 - **Opponent pulls their arm free and bases with both hands** (Effectiveness: Medium) - Your Response: Immediately transition to kimura grip on the freed arm, or switch to scissor sweep by changing hip angle and using different leverage point
 - **Opponent drives their weight backward to counter the forward bump** (Effectiveness: Medium) - Your Response: Follow opponent's backward movement into pendulum sweep or flower sweep, using their momentum against them
@@ -219,28 +219,28 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweep without fully breaking opponent's posture
+## Common Mistakes
+- **Mistake**: Attempting sweep without fully breaking opponent's posture
   - **Consequence**: Opponent maintains strong base and easily defends the sweep attempt
   - **Correction**: Spend more time in setup phase pulling opponent's head down and eliminating their ability to posture up before initiating hip movement
-- **Error**: Posting hand placed too close to hip or at wrong angle
+- **Mistake**: Posting hand placed too close to hip or at wrong angle
   - **Consequence**: Insufficient leverage to generate lift; weak base leads to collapse during sweep
   - **Correction**: Place posting hand 12-15 inches from hip at 45-degree angle to create maximum leverage and stable base
-- **Error**: Releasing guard too early before establishing angle
+- **Mistake**: Releasing guard too early before establishing angle
   - **Consequence**: Opponent escapes hips backward, neutralizing the sweep attempt
   - **Correction**: Maintain closed guard until sitting up and establishing angle, only then opening guard to execute the bump
-- **Error**: Bumping straight up instead of at an angle
+- **Mistake**: Bumping straight up instead of at an angle
   - **Consequence**: Opponent simply posts with their free hand and maintains base
   - **Correction**: Drive hips up and laterally at 45-degree angle toward opponent's shoulder, creating rotational off-balancing
-- **Error**: Losing control of opponent's arm during execution
+- **Mistake**: Losing control of opponent's arm during execution
   - **Consequence**: Opponent posts with freed arm and easily prevents sweep
   - **Correction**: Maintain tight grip on wrist or sleeve throughout entire technique, pinning arm to your chest during hip bump
-- **Error**: Insufficient hip elevation during the bump
+- **Mistake**: Insufficient hip elevation during the bump
   - **Consequence**: Sweep lacks power to overcome opponent's base
   - **Correction**: Generate explosive hip drive by pushing hard off posted hand and using core muscles to elevate hips maximally
-- **Error**: Forgetting to drive head into opponent's shoulder
+- **Mistake**: Forgetting to drive head into opponent's shoulder
   - **Consequence**: Missing critical breaking of opponent's structure; sweep becomes arm-powered only
   - **Correction**: Drive forehead or temple into opponent's shoulder/armpit to disrupt their posture while hips bump
 
@@ -249,7 +249,7 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Drilling** - Perfect the movement pattern without resistance
 Partner holds broken posture position while you practice sitting up, posting, and executing hip bump motion. Focus on proper angle creation, hand placement, and hip elevation. Perform 10-15 repetitions per side per training session.
 (Resistance: None)
@@ -276,7 +276,7 @@ Use hip bump sweep during regular sparring and competition training. Focus on re
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Hip Bump to Triangle**: When opponent posts their right arm wide to defend the sweep, bring your right leg over their arm and across their back, locking up triangle position. This creates a powerful dilemma where defending the sweep opens the triangle. (When to use: When opponent strongly posts their arm wide during sweep attempt; works best when you have good triangle finishing mechanics)
 
 **Hip Bump to Armbar**: As opponent posts to defend sweep, maintain grip on their wrist and sit back while swinging your right leg over their head. Fall back to armbar position, extending the posted arm. This punishes the posting defense with immediate submission threat. (When to use: When opponent posts arm with elbow locked out; excellent for longer-limbed practitioners who excel at armbars)
@@ -316,7 +316,7 @@ Use hip bump sweep during regular sparring and competition training. Focus on re
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The hip bump sweep is generally a safe technique for both practitioners when executed with control. Key safety points include: ensure adequate mat space exists behind the opponent before initiating the sweep to prevent them landing on hard floor or obstacles; control the sweep's momentum to avoid slamming opponent unnecessarily; maintain awareness of your posting hand position to avoid finger injuries from poor hand placement; when drilling, start with slow execution before building to full speed; partners should communicate about resistance levels during training; be cautious of neck cranking if head control becomes too aggressive; when being swept, avoid posting with straight arms which can lead to shoulder or wrist injury - instead turn into the sweep and accept the position change. During initial learning phases, use crash pads or extra mats to build confidence in the falling mechanics.
 
@@ -324,7 +324,7 @@ The hip bump sweep is generally a safe technique for both practitioners when exe
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The hip bump sweep occupies a foundational position within the closed guard offensive system, serving as both a high-percentage sweep and a setup mechanism for multiple submission attacks. In the hierarchy of closed guard techniques, it represents one of the first sweeps taught to beginners due to its mechanical simplicity and clear leverage principles, yet remains effective at advanced levels when properly integrated with other attacks. The technique connects directly to triangle chokes, armbars, and kimuras through opponent defensive reactions, making it a hub technique in systematic closed guard offense. Within the broader positional landscape, successfully executing the hip bump transitions the practitioner from a defensive guard position to the dominant mount, representing a significant positional advancement worth 4 points in IBJJF rules. The sweep teaches essential concepts including posture breaking, angle creation, and using opponent reactions - principles that transfer to nearly all guard positions. It pairs naturally with other fundamental closed guard attacks, particularly the scissor sweep and pendulum sweep, creating a triangulated attack system where defending one technique opens the others. Advanced practitioners use the hip bump as a forcing move to create specific reactions they can exploit with pre-planned follow-up attacks, embodying the systematic approach to guard offense.
 
@@ -332,7 +332,7 @@ The hip bump sweep occupies a foundational position within the closed guard offe
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Scissor Sweep]] - Alternative sweep from same position - use when opponent's weight is distributed differently
 - [[Pendulum Sweep]] - Follow-up sweep when opponent defends hip bump by driving weight backward
@@ -352,7 +352,7 @@ The hip bump sweep occupies a foundational position within the closed guard offe
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The hip bump sweep represents a perfect example of using rotational mechanics to overcome linear structure. Many students make the critical error of attempting to lift the opponent straight upward, which allows them to post and maintain base with minimal effort. The key mechanical insight is understanding that by creating a lateral angle through your hip movement while simultaneously controlling one arm and the head, you generate a moment of force perpendicular to their base structure. This creates what I call 'structural collapse' - a situation where no amount of posting can prevent the sweep because the direction of force eliminates their posting options. When teaching this technique, I emphasize the connection between angle creation and arm control - these must happen simultaneously to create the geometric impossibility of defense. Furthermore, the hip bump serves as an entry point into understanding systematic guard offense, where the initial attack creates predictable defensive reactions that open subsequent techniques. Students must learn to recognize that in guard, you are not merely attempting individual techniques in isolation, but rather creating decision trees where every defensive option leads to another offensive opportunity. The hip bump to triangle to armbar sequence exemplifies this perfectly.
 - **Gordon Ryan**: In competition, the hip bump sweep is one of my highest percentage techniques from closed guard because it creates genuine problems that opponents cannot ignore. The beauty of this sweep is that it forces an immediate decision - post or get swept - and both options lead to offensive opportunities for me. When I execute the hip bump, I'm not really thinking about completing the sweep as much as I'm thinking about the triangle that opens when they defend. This mentality shift from 'I'm doing a sweep' to 'I'm creating a problem that will give me multiple attack options' is what separates beginner and advanced guard players. Against tough opponents who know the triangle is coming, I'll use the delayed hip bump variation where I start the motion, feel their defensive reaction, then immediately switch to pendulum or flower sweep using their counter-pressure. The timing component is critical in high-level matches - you need to hit the sweep when their weight commits forward, which often happens when they're attempting to break your guard open or establish grips. I also find that combining the hip bump with aggressive collar and sleeve grip fighting makes it significantly more effective because opponents are mentally occupied with the grip battle when the sweep comes. Don't sleep on this fundamental technique - it scores at black belt worlds regularly when executed with proper timing and integrated into a complete guard system.
 - **Eddie Bravo**: The hip bump is old school fundamental BJJ, but it's got some sick variations that people sleep on. In the 10th Planet system, we look at the hip bump as an entry into what we call 'mission control' or 'New York' positions when we add the leg configuration variations. But here's the key innovation most people miss - you can use the hip bump motion as a pump fake to set up completely different attacks. Like, you start the hip bump, opponent reacts by basing or pulling back, and boom - you're already transitioning to rubber guard or setting up the omoplata. It's all about creating that initial reaction. Another thing we do is combine the hip bump with overhook control instead of the traditional wrist control, which sets up the mounted gogoplata position if they defend correctly. In no-gi, the hip bump mechanics work even better in some ways because without the gi grips, opponents have to react more dramatically to defend, which opens bigger holes. The real innovation is understanding that the hip bump isn't just a sweep - it's a forcing mechanism that makes opponent's commit to defensive postures that you've already planned to exploit. Train it with the mindset that you want them to defend it, because that's when the real attack begins. That's next level guard playing right there.

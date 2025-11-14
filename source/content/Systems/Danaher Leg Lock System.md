@@ -149,7 +149,7 @@ description: "Master the Danaher Leg Lock System. Systematic framework for ashi-
 
 
 
-> **Quick Answer**: Danaher Leg Lock System is a advanced difficulty Submission Chain system. This systematic approach integrates 4 key components into a cohesive fighting framework.
+> Danaher Leg Lock System is a advanced difficulty Submission Chain system. Integrates 4 components.
 
 **System ID**: 
 **System Type**: Submission Chain
@@ -172,7 +172,7 @@ The system's effectiveness stems from its emphasis on mechanical hierarchy over 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Position Before Submission - Establish dominant leg entanglement before attempting finishes
 - Control Hierarchy - Recognize and advance through ashi-garami positional spectrum
 - Systematic Breaking - Use structured approach to compromise defensive structures
@@ -186,7 +186,7 @@ The system's effectiveness stems from its emphasis on mechanical hierarchy over 
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Ashi-Garami Positional Hierarchy** (Establish clear positional objectives and advancement pathways in leg entanglements)
 The foundation of the system is the classification of leg entanglements into a spectrum from outside ashi-garami (50-50), through standard ashi-garami, to inside ashi-garami (4-11 position), saddle/honey hole position, and finally inside sankaku. Each position offers progressively greater control and finishing potential. Understanding this hierarchy allows practitioners to recognize when they have sufficient control to finish versus when they must advance position first.
 
@@ -205,7 +205,7 @@ The system includes comprehensive transition sequences between different ashi-ga
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Conceptual Foundation**: Understand the positional hierarchy of ashi-garami variations and the fundamental principle of position-before-submission in leg entanglements
 Key points:
 - Study the spectrum from outside ashi to inside sankaku
@@ -408,7 +408,7 @@ The Danaher Leg Lock System requires progressive, systematic drilling that build
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The leg lock system represents the application of fundamental jiu-jitsu principles to a previously neglected area of the body. For decades, leg locks were treated as opportunistic attacks rather than positional systems, which fundamentally limited their effectiveness. By recognizing that leg entanglements could be classified into hierarchies just like upper body positions, we created a framework where position advancement, control maintenance, and systematic breaking replaced the previous emphasis on explosive finishing attempts. The key insight is that the legs can be controlled with the same systematic rigor as the upper body, creating positions from which submissions become inevitable rather than hopeful. When you establish inside ashi-garami with proper control, clear the inside heel exposure, straighten the leg, and achieve the bite point, the heel hook becomes a mechanical certainty rather than a gamble. This systematic approach, combined with comprehensive defensive training to ensure safety, has transformed leg attacks from a minor aspect of grappling into a complete positional system capable of dominating the highest levels of competition.
 - **Gordon Ryan**: The Danaher leg lock system gave me the framework to completely dominate the no-gi competition scene because it provided systematic answers to every defensive reaction. When opponents would defend the heel hook by hiding the inside heel, I had clear pathways to advance position or switch to toe holds. When they'd try to escape, the system taught me exactly how to maintain control and shut down their movement. What makes this system so effective in competition is that it forces opponents into no-win situations - they can defend the submission but lose position, or maintain position but expose themselves to finishes. I've won countless matches by simply establishing ashi-garami early and systematically improving my position until the finish became unavoidable. The hierarchy aspect is crucial because it tells you exactly when you have enough control to finish versus when you need to keep advancing. Against the best guys in the world, you can't just grab a leg and hope - you need systematic position improvement, which this system provides better than any other approach to leg locks.
 - **Eddie Bravo**: While the Danaher system is incredibly comprehensive and systematic, I've found ways to integrate leg lock entries from 10th Planet positions that create unique attacking opportunities. From lockdown, from rubber guard transitions, even from the truck position, you can access ashi-garami configurations that opponents don't expect because they're coming from unconventional entries. The beauty of understanding the systematic approach is that once you know the positional hierarchy and control requirements, you can create your own pathways to get there. I've been working on transitions from calf slicer positions to ashi-garami, from twister setups to saddle entries, looking for those creative pathways that catch people off guard. The systematic breaking mechanics and finishing principles absolutely apply, but the entries can be way more creative than traditional approaches. What's really changed the game is combining the systematic leg attack approach with 10th Planet's already strong lower body attack emphasis - you get the best of both worlds, creative entries from unique positions combined with technical finishing that actually works at the highest levels.

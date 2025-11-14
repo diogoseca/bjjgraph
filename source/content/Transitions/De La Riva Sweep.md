@@ -8,7 +8,7 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 
 
 
-> **Quick Answer**: De La Riva Sweep transitions from [[De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> De La Riva Sweep transitions from [[De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain strong De La Riva hook with foot positioned deep behind opponent's knee
 - Control opponent's sleeve on the same side as the hook to prevent posting
 - Use opposite leg to create pushing or framing pressure on opponent's hip or knee
@@ -184,7 +184,7 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - De La Riva Guard established with hook deep behind opponent's near leg
 - Strong sleeve grip on same side as De La Riva hook to prevent posting
 - Collar grip, belt grip, or pants grip with opposite hand for control
@@ -197,7 +197,7 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish De La Riva Guard**: From open guard, insert your right leg behind opponent's left leg with your foot hooking deep behind their knee. Your shin should be tight against the back of their leg. Simultaneously grab their left sleeve with your left hand and establish a collar or belt grip with your right hand. (Timing: Initial guard establishment phase)
 2. **Control opponent's posture**: Pull down on the collar or belt grip to break opponent's posture forward while maintaining tight sleeve control. Your left foot should be on their right hip creating a frame. This creates the foundational control structure necessary for the sweep. (Timing: As opponent attempts to establish passing pressure)
 3. **Off-balance opponent laterally**: Pull strongly with your left hand on their sleeve toward your left side while simultaneously extending your De La Riva hook. This combination creates a circular motion that compromises their base and shifts their weight onto their left side. (Timing: When opponent's weight shifts forward or they step with far leg)
@@ -210,7 +210,7 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent steps back with hooked leg to relieve pressure** (Effectiveness: High) - Your Response: Follow their movement by extending your body forward, transition to X-Guard or Single Leg X-Guard, or switch to alternative De La Riva attacks like the Kiss of the Dragon back take
 - **Opponent posts with free hand to block the sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with a triangle setup, switch to opposite side sweep, or transition to omoplata when they post
 - **Opponent jumps over the De La Riva hook to pass** (Effectiveness: Medium) - Your Response: Retract hook and transition to Reverse De La Riva Guard, or use their momentum to invert and take the back
@@ -219,25 +219,25 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: De La Riva hook positioned too shallow or not behind knee
+## Common Mistakes
+- **Mistake**: De La Riva hook positioned too shallow or not behind knee
   - **Consequence**: Opponent can easily remove the hook or step back without being swept, eliminating the primary lever for the technique
   - **Correction**: Ensure hook is inserted deep with foot behind opponent's knee, toes pointed and shin tight against back of their calf
-- **Error**: Releasing sleeve grip too early or maintaining weak grip control
+- **Mistake**: Releasing sleeve grip too early or maintaining weak grip control
   - **Consequence**: Opponent can post with free hand and prevent the sweep, or easily escape the sweeping motion
   - **Correction**: Maintain strong sleeve grip throughout entire sweep until establishing top position, consider using two-on-one grip if needed
-- **Error**: Failing to coordinate hook extension with grip pulling
+- **Mistake**: Failing to coordinate hook extension with grip pulling
   - **Consequence**: Sweep lacks power and opponent can maintain base, resulting in stalled position
   - **Correction**: Practice timing so hook extension and grip pulls happen simultaneously as one explosive movement
-- **Error**: Not using opposite leg to control or push opponent's far hip
+- **Mistake**: Not using opposite leg to control or push opponent's far hip
   - **Consequence**: Opponent can post wide with far leg or rotate away from sweep direction, maintaining base
   - **Correction**: Keep active pressure with left foot on opponent's hip or knee to prevent wide posting and control their rotation
-- **Error**: Attempting sweep when opponent's weight is too far back
+- **Mistake**: Attempting sweep when opponent's weight is too far back
   - **Consequence**: Sweep has no mechanical advantage and wastes energy, opponent easily maintains position
   - **Correction**: Wait for opponent to commit weight forward or create forward pressure with grips before initiating sweep
-- **Error**: Not following through by coming up to top position
+- **Mistake**: Not following through by coming up to top position
   - **Consequence**: Opponent recovers quickly even if briefly off-balanced, sweep scores no points
   - **Correction**: Immediately follow the sweeping motion by rising to knees and establishing top control, don't wait to see if opponent falls
 
@@ -246,7 +246,7 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Guard Establishment** - Developing proper De La Riva Guard structure and grip control
 Practice establishing the De La Riva hook position from various open guard scenarios. Drill grip fighting sequences to secure sleeve and collar controls. Work on maintaining the guard against light pressure without attempting sweeps yet.
 (Resistance: None)
@@ -277,7 +277,7 @@ Integrate multiple sweep variations, submission attacks, and back take options f
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Waiter Sweep**: Instead of sweeping laterally, cup opponent's far knee with free hand (like holding a tray) and elevate while extending De La Riva hook upward. Creates overhead sweeping motion that dumps opponent backward. (When to use: When opponent maintains upright posture and weight is centered or slightly back)
 
 **Balloon Sweep**: Both legs work together—De La Riva hook extends while opposite leg comes over opponent's back like a balloon inflating underneath them. Creates powerful upward and forward sweeping force. (When to use: When opponent is leaning forward with weight committed, particularly effective against pressure passers)
@@ -317,7 +317,7 @@ Integrate multiple sweep variations, submission attacks, and back take options f
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The De La Riva Sweep should be executed with controlled force to protect both practitioners from injury. When sweeping, be mindful of the rotational torque placed on the opponent's knee from the hook position—avoid jerking or explosive movements that could stress knee ligaments. Ensure training partners understand proper falling technique (breakfalls) before practicing at full speed. The bottom player should maintain awareness of their own knee and ankle positioning in the De La Riva hook to prevent hyperextension injuries. When practicing, start slowly and gradually increase speed as both partners develop familiarity with the technique. Communication is essential, particularly when partner is airborne during sweep completion. Practice on appropriate mat surfaces with adequate padding. If you experience knee or ankle discomfort while in De La Riva Guard, release the position immediately and assess before continuing.
 
@@ -325,7 +325,7 @@ The De La Riva Sweep should be executed with controlled force to protect both pr
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The De La Riva Sweep is a foundational technique within the broader De La Riva Guard system, one of the most sophisticated and widely-used open guard systems in modern Brazilian Jiu-Jitsu. This sweep serves as both a primary attacking option and a gateway to numerous other techniques including back takes, submissions, and alternative sweeps. Within the positional hierarchy, the De La Riva Guard represents an active bottom position that can neutralize opponent's passing attempts while creating offensive opportunities. The sweep's success often depends on integration with other De La Riva attacks such as the berimbolo, Kiss of the Dragon, waiter sweep, and omoplata, creating a web of interconnected threats that keep opponents defensive. Understanding when to commit to the sweep versus when to flow to alternative attacks is crucial for high-level De La Riva Guard play. The technique also connects to related guard systems including X-Guard, Single Leg X-Guard, and Reverse De La Riva Guard, allowing practitioners to transition between guards while maintaining offensive pressure. In competition contexts, the De La Riva Sweep is particularly valuable because it can score sweep points (2 points in IBJJF) while also potentially leading to more dominant positions for additional points.
 
@@ -333,7 +333,7 @@ The De La Riva Sweep is a foundational technique within the broader De La Riva G
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[De La Riva Guard]] - Starting position - foundational guard from which this sweep is executed
 - [[De La Riva Sweep Variations]] - Alternative techniques - related sweeping options from same guard position
@@ -353,7 +353,7 @@ The De La Riva Sweep is a foundational technique within the broader De La Riva G
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The De La Riva Sweep exemplifies fundamental biomechanical principles of leverage and base disruption that apply throughout grappling. The technique succeeds because it creates a multi-directional attack on the opponent's stability—the hook elevates one leg while grips pull their upper body in opposing directions, making it geometrically impossible to maintain balance. What separates elite De La Riva players from beginners is understanding that the sweep itself is often secondary to the positional control it creates. The mere threat of the sweep forces opponents into defensive postures that expose them to back takes, leg locks, and other attacks. Students must develop systematic understanding of how grip configurations affect sweeping angles and success rates. The two-on-one sleeve grip variant, for instance, dramatically increases sweep percentage but limits submission options, requiring intelligent decision-making based on opponent reactions. Training should emphasize sensitivity to weight distribution rather than memorizing fixed sequences—the ability to feel when opponent's base is compromised and capitalize immediately separates functional technique from theoretical knowledge.
 - **Gordon Ryan**: In high-level competition, the De La Riva Sweep is rarely executed in isolation—it functions as part of a systematic attack sequence that keeps opponents constantly defending. I use the sweep primarily as a forcing mechanism to create reactions that open up more dominant positions like the back or leg entanglements. When drilling this technique, focus obsessively on grip fighting because competition-level opponents will fight desperately to strip your sleeve control. I prefer the collar and sleeve configuration because it gives more postural control and makes the berimbolo transition seamless if the sweep fails. The key competitive insight is timing—attempting this sweep against a static opponent is low percentage, but catching them mid-step or as they try to pressure into you dramatically increases success. I often fake guard pull or other movements to draw them forward, then hit the sweep when their weight commits. Against world-class opponents, expect the sweep to be defended, so always have your Kiss of the Dragon back take or transition to single leg X ready as immediate follow-ups. The sweep scores points, but the back take finishes matches.
 - **Eddie Bravo**: The De La Riva Sweep becomes exponentially more dangerous when you integrate it with unconventional grips and angles that opponents don't typically train to defend. At 10th Planet, we emphasize the De La Riva system heavily, particularly in no-gi contexts where we adapt the mechanics using overhooks and underhooks instead of gi grips. One innovation that's highly effective is using the sweep to set up calf slicers and electric chair positions—when opponent defends by stepping back, instead of following with X-Guard, trap their leg and attack the knee line. The psychological warfare aspect is crucial: if you hit one De La Riva Sweep early in a match, opponents become paranoid and defensive, opening up entirely different attacks. I teach students to make the sweep look effortless through perfect timing and minimal energy expenditure—this creates mental pressure that compounds throughout the match. For MMA applications, the De La Riva structure translates surprisingly well despite no-gi limitations, particularly for creating sweeps against cage-pressed opponents. The hook position combined with strategic underhooks can replicate much of the gi functionality while opening up leg lock opportunities that gi rules often prohibit.

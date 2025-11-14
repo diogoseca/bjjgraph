@@ -8,7 +8,7 @@ description: "Learn Triangle to Omoplata transition in BJJ. Step-by-step executi
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Triangle to Omoplata transition in BJJ. Step-by-step executi
 
 
 
-> **Quick Answer**: Triangle to Omoplata transitions from [[Triangle Control]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Triangle to Omoplata transitions from [[Triangle Control]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Triangle to Omoplata transition is a fundamental submission chain that explo
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Use opponent's triangle defense as entry mechanism for omoplata
 - Maintain hip control throughout the transition to prevent escape
 - Release triangle legs at precise moment to capture shoulder joint
@@ -180,7 +180,7 @@ The Triangle to Omoplata transition is a fundamental submission chain that explo
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Triangle control established with opponent's arm trapped across body
 - Opponent begins defensive posture by stacking or driving forward
 - Your legs configured in figure-four around opponent's neck and shoulder
@@ -193,7 +193,7 @@ The Triangle to Omoplata transition is a fundamental submission chain that explo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Recognize triangle defense**: Identify opponent's defensive reaction—typically posturing up, stacking, or driving forward to relieve triangle pressure. This reaction creates the necessary space and positioning for the omoplata transition. Monitor opponent's weight distribution and arm position. (Timing: As opponent begins defensive movement)
 2. **Secure trapped arm control**: Tighten grip on opponent's trapped arm at the wrist or gi sleeve. This control prevents the arm from escaping during the transition and ensures the shoulder joint remains isolated. Pull the arm slightly across your body to maintain the angle needed for omoplata. (Timing: Before releasing triangle configuration)
 3. **Release triangle legs**: Unlock your figure-four leg configuration by releasing the ankle lock behind opponent's head. Simultaneously maintain hip pressure against opponent's shoulder to prevent escape. Keep your legs active and engaged rather than passively releasing. (Timing: As opponent's posture reaches maximum height)
@@ -206,7 +206,7 @@ The Triangle to Omoplata transition is a fundamental submission chain that explo
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent rolls forward to relieve shoulder pressure before omoplata is fully locked** (Effectiveness: High) - Your Response: Follow the roll and transition to armbar or back take position. Maintain arm control throughout the roll and be prepared to establish new attacking position when opponent completes the roll.
 - **Opponent pulls trapped arm free during the transition window** (Effectiveness: Medium) - Your Response: Immediately return to closed guard or transition to alternative guard position such as spider guard or collar sleeve guard. Maintain active guard retention by establishing new grips and controlling distance.
 - **Opponent drives weight backward to counter the omoplata rotation** (Effectiveness: Medium) - Your Response: Use the backward pressure to transition back to triangle position or switch to sweep mechanics by using the leg across their back to off-balance them. Maintain hip connection and be ready to capitalize on their weight shift.
@@ -215,22 +215,22 @@ The Triangle to Omoplata transition is a fundamental submission chain that explo
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing triangle legs too early before securing arm control
+## Common Mistakes
+- **Mistake**: Releasing triangle legs too early before securing arm control
   - **Consequence**: Opponent escapes completely by pulling trapped arm free and establishing distance or passing guard
   - **Correction**: Establish dominant wrist or sleeve control before releasing triangle configuration. Ensure opponent's arm is pinned across your body and cannot be retracted during transition window.
-- **Error**: Failing to swing leg completely over opponent's back
+- **Mistake**: Failing to swing leg completely over opponent's back
   - **Consequence**: Insufficient control of opponent's shoulder and torso, allowing them to posture up or roll out of position
   - **Correction**: Commit fully to the leg swing, ensuring your shin lands across opponent's shoulder blades with your foot hooking their far hip. Use your core strength to generate momentum for complete leg arc.
-- **Error**: Losing hip connection during transition phase
+- **Mistake**: Losing hip connection during transition phase
   - **Consequence**: Creates space for opponent to extract trapped arm or establish defensive posture against omoplata
   - **Correction**: Maintain continuous hip pressure throughout the entire transition. Your hips should stay glued to opponent's shoulder complex without creating gaps or allowing them to create distance.
-- **Error**: Attempting to finish omoplata from too far away from opponent's body
+- **Mistake**: Attempting to finish omoplata from too far away from opponent's body
   - **Consequence**: Reduced leverage on shoulder joint and increased opportunity for opponent to roll forward or escape laterally
   - **Correction**: Keep your body tight to opponent's trapped shoulder by pulling them close with belt or gi grips. Your hips should be directly against their shoulder with minimal space between your bodies.
-- **Error**: Not controlling opponent's torso with free hand during setup
+- **Mistake**: Not controlling opponent's torso with free hand during setup
   - **Consequence**: Opponent can rotate their body or shift weight to alleviate omoplata pressure before submission is locked
   - **Correction**: Use your free hand to grip opponent's belt, far side gi, or pants to control their torso rotation. This grip prevents them from turning into the omoplata and creates the necessary isolation of the shoulder joint.
 
@@ -239,7 +239,7 @@ The Triangle to Omoplata transition is a fundamental submission chain that explo
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Static Position Familiarization** - Understanding the geometric relationship between triangle and omoplata positions
 Begin in established triangle position with cooperative partner. Practice the transition slowly, focusing on arm control and leg positioning. Partner remains stationary while you drill the leg swing and hip positioning. Repeat 20-30 repetitions per training session.
 (Resistance: None)
@@ -266,7 +266,7 @@ Begin sparring from open guard positions and work to establish triangle, then tr
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Rolling Omoplata Finish**: When opponent successfully defends the initial omoplata by grabbing their own belt or gi, use a forward roll to break their grip and complete the shoulder lock from the opposite side. This variation adds dynamic movement and makes the submission more difficult to defend. (When to use: When opponent successfully establishes defensive grips or posture against standard omoplata finish)
 
 **Triangle to Omoplata Sweep**: If opponent successfully defends the omoplata submission by maintaining strong base and posture, transition to sweep mechanics by using your leg across their back to drive them forward while pulling on their belt. This creates an off-balancing effect that can lead to mount or side control positions. (When to use: When opponent is too defensive to submit but has committed their weight forward)
@@ -304,7 +304,7 @@ Begin sparring from open guard positions and work to establish triangle, then tr
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the triangle to omoplata transition, both training partners must maintain clear communication about pressure levels and tap immediately when shoulder discomfort occurs. The omoplata attacks the shoulder joint which is vulnerable to injury if excessive force is applied. Beginners should focus on position and control rather than finishing pressure until the mechanics are thoroughly understood. The person applying the technique should increase pressure gradually and release immediately upon feeling a tap. Practice should emphasize smooth transitions and control rather than explosive movements that could cause injury. Partners should agree on resistance levels appropriate for their skill level and injury history.
 
@@ -312,7 +312,7 @@ When practicing the triangle to omoplata transition, both training partners must
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The triangle to omoplata transition is a fundamental component of modern guard attack systems, particularly from closed guard, spider guard, and rubber guard positions. This technique chain demonstrates the principle of submission combinations where defending one attack opens the path to another, creating true offensive dilemmas. The transition is part of a broader guard philosophy emphasizing connected attacks rather than isolated techniques. It integrates seamlessly with other triangle follow-ups such as triangle to armbar and triangle to back take, forming a comprehensive guard finishing system. High-level practitioners use this transition as part of their core guard game, particularly in gi competition where the omoplata offers both submission and sweep opportunities. The technique also connects to the broader shoulder lock system including kimura and americana attacks, creating multiple attacking chains from similar positional setups.
 
@@ -320,7 +320,7 @@ The triangle to omoplata transition is a fundamental component of modern guard a
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Triangle Control]] - Starting position for the transition
 - [[Omoplata Control]] - Ending position and finish
@@ -340,7 +340,7 @@ The triangle to omoplata transition is a fundamental component of modern guard a
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The triangle to omoplata transition exemplifies fundamental principles of systematic submission attack systems: creating connected sequences where defensive actions against one submission naturally feed into setup for another. The biomechanics are elegant—the opponent's posturing escape from triangle, which relieves compressive pressure on the carotid arteries, simultaneously positions their shoulder joint in the precise vulnerable configuration for omoplata attack. This is not coincidence but rather geometric necessity. The key technical detail most practitioners miss is maintaining constant connection between their hips and the opponent's shoulder complex throughout the transition. Any gap creation allows the opponent to extract their arm or establish defensive posting. The timing of the triangle release must be precisely calibrated to the opponent's defensive movement—too early and the arm escapes, too late and the angle deteriorates. This transition should be trained as part of a comprehensive guard submission matrix where triangle, omoplata, armbar, and back take attacks flow seamlessly based on opponent reactions.
 - **Gordon Ryan**: In competition, the triangle to omoplata is one of my most reliable submission chains because it creates a genuine dilemma for the opponent. When I lock the triangle tight, their natural instinct is to posture hard and drive forward to create space. That's exactly what I want—their defensive pressure gives me the momentum and angle I need to transition seamlessly to omoplata. The high-percentage approach is not to force the omoplata prematurely, but to make the triangle legitimately threatening first. If they don't respect the triangle enough to posture aggressively, I'll finish the choke. Once they commit to the posturing defense, the omoplata becomes available and they're already moving into it. The key competition detail is grip fighting during the transition—I never release the wrist control until my leg is completely over their back. In no-gi, this chain requires slightly different mechanics since you can't rely on gi grips, but the core principle of capitalizing on their triangle defense remains identical. I've finished numerous high-level opponents with this exact sequence because it's nearly impossible to defend both submissions simultaneously.
 - **Eddie Bravo**: The triangle to omoplata is fundamental to the 10th Planet system, especially from Mission Control and New York positions in the rubber guard. What makes this transition so effective is that it's not really a separate technique—it's a natural evolution based on what the opponent gives you. In our system, we emphasize staying one step ahead of the opponent's escapes, and this transition perfectly embodies that philosophy. When they start to stack or posture to defend the triangle, you're already moving to omoplata before they realize what's happening. The key is not thinking of these as distinct positions but as points along a continuum of shoulder and neck attacks. We drill this sequence extensively because it teaches students to flow between positions rather than getting stuck on one technique. The rubber guard setup makes this transition especially powerful because your leg is already positioned to swing over the back—you're halfway to omoplata before you even release the triangle. This is also a great setup for the reverse omoplata variation where you roll through if they defend. The entire sequence teaches the fundamental 10th Planet concept of using the opponent's defense as your offense.

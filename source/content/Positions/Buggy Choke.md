@@ -13,10 +13,6 @@ description: "Master Buggy Choke position in BJJ. Strategic guide covering turtl
 
 
 
-> **Quick Overview**: The Buggy Choke position represents a sophisticated turtle attack system that bridges the gap between positional control and immediate submission threats. This specialized grip configuration emerged f...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Threading arm trades stability for submission
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Buggy Choke/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Buggy Choke/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Threading arm trades stability for submission
 
 
 
@@ -88,10 +72,13 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 
 <section id="bottom-summary" class="content-section">
 
-## Buggy Choke Bottom Perspective
+
+## Playing as Bottom
+
+[[Buggy Choke/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in buggy choke must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in buggy choke must focus on creating frames, protecting again
   - Success Rate: Beginner 20%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Remaining static in turtle hoping opponent will transition away rather than finish the choke**
@@ -158,16 +145,17 @@ The bottom player in buggy choke must focus on creating frames, protecting again
   - ✅ Correction: Drive head and shoulders up aggressively to maintain high turtle posture that creates distance from collar and preserves escape options
 
 
-👉 **[[Buggy Choke/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Buggy Choke Top Perspective
+
+## Playing as Top
+
+[[Buggy Choke/Top|→ Full Top Guide]]
 
 
-The top player in buggy choke balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -222,7 +210,7 @@ The top player in buggy choke balances control maintenance with submission attac
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Threading arm too shallow under armpit without reaching deep collar access**
@@ -253,8 +241,6 @@ The top player in buggy choke balances control maintenance with submission attac
   - Consequence: Choke becomes exhausting arm-strength contest, opponent defends more effectively, position becomes unsustainable over time
   - ✅ Correction: Use full body mechanics with chest pressure downward, hip weight controlling position, arms completing structure through leverage not strength
 
-
-👉 **[[Buggy Choke/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

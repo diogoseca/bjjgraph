@@ -8,7 +8,7 @@ description: "Learn Single Leg to Back Take in BJJ. Convert failed takedown to b
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Single Leg to Back Take in BJJ. Convert failed takedown to b
 
 
 
-> **Quick Answer**: Single Leg to Back Take transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Single Leg to Back Take transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Successful execution requires strong positional awareness, quick hip movement, a
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Recognize opponent's defensive rotation away from the single leg attack
 - Maintain constant pressure and connection to the captured leg throughout transition
 - Use opponent's turning momentum to facilitate the climb to their back
@@ -184,7 +184,7 @@ Successful execution requires strong positional awareness, quick hip movement, a
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Secure single leg control with head positioned on the outside
 - Opponent attempts to defend by turning away and posting their hands
 - Maintain grip on the captured leg while staying connected to opponent's hips
@@ -197,7 +197,7 @@ Successful execution requires strong positional awareness, quick hip movement, a
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure single leg position**: Establish a strong single leg control with your head on the outside of the opponent's leg. Your arms should be locked around their thigh, with your inside shoulder pressed tightly against their hip. Maintain a strong base with your knees wide and hips low to the mat. (Timing: Initial control phase)
 2. **Read opponent's defensive turn**: As your opponent attempts to defend the takedown, they will typically turn their hips away from you and post their far hand on the mat. This defensive reaction creates the opportunity for the back take. Stay alert and connected as they begin this rotation. (Timing: Recognition phase - 1-2 seconds after initial attack)
 3. **Release leg and insert near hook**: As the opponent commits to their turn, release your grip on their leg and immediately swing your inside leg (the leg closest to their hips) forward to insert the first hook. Your knee should slide between their legs as your foot hooks around their inner thigh. Keep your chest pressed against their back to maintain connection. (Timing: Immediate - as opponent begins rotation)
@@ -210,7 +210,7 @@ Successful execution requires strong positional awareness, quick hip movement, a
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sits back heavily into you before you establish hooks** (Effectiveness: High) - Your Response: Immediately transition to a modified back position or single leg X-guard. Use your near-side leg to create a frame against their hip and prevent them from fully sitting on you. Be prepared to sweep or stand up rather than forcing the back take.
 - **Opponent reaches back and grabs your head to prevent seat belt control** (Effectiveness: Medium) - Your Response: Use your free hand to break their grip while simultaneously establishing one hook. Focus on getting your chest onto their back rather than perfecting the grip immediately. Once you have position, you can address the grip fighting.
 - **Opponent rolls forward or granby rolls as you attempt to climb** (Effectiveness: Medium) - Your Response: Follow their roll by maintaining connection and adjusting your position. If they roll away, you may end up in a scramble position or turtle top where you can continue attacking. Don't release your connection during their defensive movement.
@@ -219,22 +219,22 @@ Successful execution requires strong positional awareness, quick hip movement, a
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting back take when opponent is still square and stable
+## Common Mistakes
+- **Mistake**: Attempting back take when opponent is still square and stable
   - **Consequence**: Opponent easily defends by sitting back or turning into you, and you lose your attacking position entirely
   - **Correction**: Wait for the opponent to commit to their defensive turn before releasing the leg. The back take only works when they create the angle through their defensive movement. Be patient and read their reactions.
-- **Error**: Releasing the leg too early before climbing motion begins
+- **Mistake**: Releasing the leg too early before climbing motion begins
   - **Consequence**: Opponent escapes the single leg completely and may establish top position or distance
   - **Correction**: Maintain leg control until the exact moment you begin your climb. The release and hook insertion should be one continuous motion, not separate actions with a gap between them.
-- **Error**: Failing to keep chest tight to opponent's back during transition
+- **Mistake**: Failing to keep chest tight to opponent's back during transition
   - **Consequence**: Opponent creates space and can sit back into guard or escape the position
   - **Correction**: Drive your chest forward and upward as you climb, staying glued to their back throughout. Think of your torso as being magnetically attached to their spine. Any separation gives them escape opportunities.
-- **Error**: Inserting hooks before establishing upper body control
+- **Mistake**: Inserting hooks before establishing upper body control
   - **Consequence**: Opponent can hand fight and prevent seat belt, then potentially escape even with hooks in
   - **Correction**: Prioritize getting your chest on their back and starting to establish seat belt control before worrying about the second hook. One hook with good upper body control is more secure than two hooks with poor control.
-- **Error**: Staying too high on opponent's back with hips elevated
+- **Mistake**: Staying too high on opponent's back with hips elevated
   - **Consequence**: Opponent can easily sit back and crush you or roll backwards to escape
   - **Correction**: Keep your hips low and close to their hips, not perched high on their upper back. Your weight should be distributed along their entire spine, making it difficult for them to sit or roll. Sit your hips slightly back to create a stable base.
 
@@ -243,7 +243,7 @@ Successful execution requires strong positional awareness, quick hip movement, a
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Recognition** - Learning to recognize the back take opportunity from single leg position
 Partner starts in single leg defense position (turned away, posted hand). Practice the climb to back without resistance. Focus on smooth transition from leg control to back attachment. Partner remains relatively static to allow repetition of movement pattern. Drill 20-30 repetitions per session.
 (Resistance: None)
@@ -274,7 +274,7 @@ Practice seamless transitions between traditional single leg finish, back take, 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Inside Single Leg to Back Take**: When your head is on the inside of the opponent's leg (between their legs), the back take requires different mechanics. As they turn away, you must circle to their back side while maintaining leg control, then climb up from behind rather than from the side. This version requires more footwork and repositioning but can be equally effective. (When to use: When you've secured an inside single leg position and opponent turns away to defend)
 
 **High Crotch to Back Variation**: From a high crotch position (similar to single leg but with head deeper across opponent's body), the back take uses the same principles but often allows for faster execution since you're already more perpendicular to their body. The transition to hooks can happen more quickly as your hips are already closer to their centerline. (When to use: When attacking from high crotch position against an opponent who turns away strongly)
@@ -314,7 +314,7 @@ Practice seamless transitions between traditional single leg finish, back take, 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the Single Leg to Back Take, controlled application is essential to prevent injury during the dynamic positional change. The practitioner must be aware of their partner's knees and ankles during the transition, as sudden weight shifts can stress these joints. Execute the technique smoothly rather than explosively during training to allow your partner time to post safely. Maintain awareness of the training space to ensure adequate room for the position change without colliding with walls or other practitioners. Both partners should communicate clearly, especially when first learning the technique, with the defensive partner tapping if they feel unstable or at risk. The climbing motion should be gradual during drilling to build coordination before adding speed. Partners should agree on resistance levels appropriate for their skill level and experience with the technique.
 
@@ -322,7 +322,7 @@ When practicing the Single Leg to Back Take, controlled application is essential
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Single Leg to Back Take represents a crucial link between standing wrestling and ground grappling systems. It exemplifies the concept of chain wrestling where defending one attack creates vulnerability to another. This technique fits into the broader single leg attack system, which includes the traditional single leg finish, ankle picks, and various trips. When the straight single leg is defended, the back take becomes a natural continuation rather than a separate technique. In the context of positional hierarchy, this transition is extremely valuable as it converts a relatively neutral wrestling position into back control, which is the most dominant position in BJJ scoring systems and provides the best submission opportunities. The technique also connects to the larger back attack system, leading to rear naked chokes, arm traps, and various control positions. For competitors, mastering this transition means your single leg attacks become more dangerous because opponents must defend both the takedown and the back take simultaneously. This creates a true dilemma where any defensive choice leaves them vulnerable to some form of attack. In modern no-gi and submission grappling, this transition has become increasingly important as wrestling-based attacks dominate the standup game.
 
@@ -330,7 +330,7 @@ The Single Leg to Back Take represents a crucial link between standing wrestling
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Single Leg Takedown]] - Primary attack that creates back take opportunity
 - [[Single Leg Entry]] - Initial setup for the position
@@ -348,7 +348,7 @@ The Single Leg to Back Take represents a crucial link between standing wrestling
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Single Leg to Back Take exemplifies a fundamental principle in combat sports: when your opponent successfully defends your primary attack, they often expose themselves to a secondary attack in the process. The biomechanics of defending a single leg naturally create a vulnerability to back exposure. When the opponent turns their hips away to prevent the takedown, they rotate their spine away from you, which is precisely the movement pattern that allows back attachment. The technical precision required is in recognizing the exact moment when their defensive turn commits them to a direction they cannot reverse. At that instant, you must seamlessly transition from leg control to back attachment without any pause or separation. The grip release must coincide exactly with your climbing motion—too early and they escape entirely, too late and you miss the timing window. Your first hook insertion is biomechanically connected to their hip rotation; you're essentially riding their defensive movement like a wave rather than fighting against it. The seat belt control you establish must be perfect immediately, as any delay in upper body control allows them to hand fight and potentially escape even with hooks. This technique demonstrates why systematic training must include recognizing defensive patterns and having prepared responses. The single leg becomes twice as dangerous when your opponent knows that defending it exposes them to back control.
 - **Gordon Ryan**: In high-level competition, the Single Leg to Back Take is one of the highest percentage transitions you can master because it capitalizes on the opponent's instinctive defensive reaction. Every wrestler and grappler who's defended single legs knows to turn away and post—it's so automatic that even world champions do it reflexively. That's what makes this technique so effective at the highest levels. I've hit this transition against elite opponents who know it's coming because their defensive programming is so ingrained they can't help but create the opportunity. The key in competition is commitment and timing. You can't hesitate for even a split second when you see them turn because elite opponents will recognize what you're doing and counter if you're slow. I drive my chest into their back hard and immediately start establishing my seat belt while my first hook is going in. I don't worry about perfect positioning initially—I just want to be attached to their back before they realize what happened. Once you have any kind of back attachment, you can improve your position, but if you wait to get perfect positioning before you commit, you'll miss the window entirely. In my matches, I also fake the single leg sometimes just to draw the defensive turn and then hit the back take, which shows how reliable this defensive reaction is. The other competition detail is being ready to abandon it instantly if they sit back or square up—don't force it once the opportunity closes because that's how you end up in bottom position.
 - **Eddie Bravo**: The Single Leg to Back Take is pure chain wrestling genius, man. It's like a beautiful trap where you set up the single leg knowing that their escape is actually giving you what you really want—their back. This is the kind of technique that shows why wrestling integration is so crucial in modern no-gi grappling. What I love about this move is that you can actually bait it by making your single leg look like it's failing, which draws them into turning away harder and faster, and boom—you're on their back before they know what hit them. In the 10th Planet system, we use this all the time because we're constantly attacking from standing in no-gi, and the single leg is such a fundamental entry. The variation I teach involves being ready to enter the truck position if their near leg stays elevated during the climb. Instead of just taking standard back control, you can thread your inside leg under their elevated leg and get into that crotch lock position, which opens up the whole twister system and all those crazy spinal attacks. The truck entry makes this technique even more dangerous because now they're worried about multiple bad outcomes. Another key element from our perspective is using this in combination with the rubber guard system—if you get them down but don't complete the back take, you can pull them into lockdown or mission control. It's all about having options that flow together. The drilling methodology for this should include lots of live wrestling scenarios where you're hitting actual single legs and reading real defensive reactions, not just static drilling. That's how you develop the timing and recognition that makes it work under pressure.

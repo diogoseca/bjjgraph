@@ -8,7 +8,7 @@ description: "Master the Kimura from Guard in BJJ. Complete guide with safety pr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Kimura from Guard in BJJ. Complete guide with safety pr
 
 
 
-> **Quick Answer**: Kimura from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kimura from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kimura from Guard Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - **Figure-Four Grip Integrity**: The thumb-to-thumb connection creates the mechanical lock; maintain this connection throughout the entire sequence without allowing gaps or looseness in the grip structure
 - **Hip Connection and Control**: Keep your hips close to opponent's body to prevent them from rolling or spinning out; distance equals escape opportunity in shoulder lock mechanics
 - **Elbow Isolation**: Pin opponent's elbow to your chest or body to create a fixed fulcrum point; the shoulder lock requires a stable pivot point to generate rotational pressure
@@ -225,7 +225,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish closed guard with legs locked around opponent's waist, creating fundamental control structure
 - Break opponent's posture forward or secure an underhook/overhook control position to access the target arm
 - Isolate one of opponent's arms by controlling the wrist while preventing them from establishing strong defensive frames
@@ -239,7 +239,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Control opponent's wrist and break posture**: From closed guard, use your right hand to grip opponent's left wrist (palm-to-palm or four-finger grip). Simultaneously pull their wrist across your body while using your legs to break their posture forward. This creates the initial off-balancing necessary for arm isolation. (Timing: 0-2 seconds - Initial control establishment) [Pressure: Moderate]
 2. **Thread your arm and establish overhook**: Thread your left arm over and around opponent's left arm, moving from outside to inside. Your left forearm should pass over their bicep and come underneath their forearm. This overhook position is crucial for controlling the arm's elevation and preventing early escape attempts. (Timing: 2-4 seconds - Arm threading phase) [Pressure: Light]
 3. **Secure figure-four grip configuration**: Grab your own right wrist with your left hand, creating the characteristic figure-four shape. Ensure the grip is tight with no gaps - your thumb should connect with your thumb or your fingers should overlap significantly. This grip creates the mechanical lock that generates shoulder pressure. (Timing: 4-6 seconds - Grip establishment) [Pressure: Firm]
@@ -252,7 +252,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Grabbing their own belt, gi, or pants to prevent figure-four completion** (Effectiveness: High) - Your Adjustment: Use your body weight to pry their defensive grip loose, or transition to triangle choke, omoplata, or hip bump sweep while maintaining wrist control. The grip itself weakens their base for sweeping.
 - **Rolling forward over their trapped shoulder to relieve pressure** (Effectiveness: Medium) - Your Adjustment: Follow the roll and transition to mounted Kimura or take the back during their roll attempt. Alternatively, extend your legs and maintain the angle to prevent the roll from completing, then reapply pressure.
 - **Posturing up and creating distance to pull the arm free** (Effectiveness: High) - Your Adjustment: Use your legs to pull them back down while maintaining the figure-four grip. If they create significant distance, transition to hip bump sweep or use the Kimura grip to off-balance them forward into alternative attacks.
@@ -262,28 +262,28 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting the finish without proper angle (remaining square to opponent) [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting the finish without proper angle (remaining square to opponent) [Low DANGER]
   - **Consequence**: Opponent easily rolls out or escapes by spinning their body; no effective shoulder pressure is created
   - **Correction**: Always hip escape to create 90-degree angle before applying rotational pressure. Your shoulders must be perpendicular to theirs.
-- **Error**: Releasing guard closure too early before securing proper controls [Low DANGER]
+- **Mistake**: Releasing guard closure too early before securing proper controls [Low DANGER]
   - **Consequence**: Opponent creates distance and pulls their arm free before figure-four is established
   - **Correction**: Maintain guard closure until figure-four grip is secure and hip position is established. Only open guard when all control points are in place.
-- **Error**: Jerking or spiking the submission with explosive, sudden force [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the submission with explosive, sudden force [CRITICAL DANGER]
   - **Consequence**: Catastrophic shoulder injury including rotator cuff tears, dislocations, or spiral humerus fractures
   - **Correction**: ALWAYS apply progressive, smooth pressure over 3-5 seconds minimum. Never use sudden jerking motions, especially in training.
-- **Error**: Allowing opponent's elbow to drift away from your centerline [Low DANGER]
+- **Mistake**: Allowing opponent's elbow to drift away from your centerline [Low DANGER]
   - **Consequence**: Loss of leverage and control; opponent can straighten their arm and escape the submission
   - **Correction**: Pin the elbow tight to your chest throughout the entire sequence. The elbow is your fixed fulcrum point for creating rotational pressure.
-- **Error**: Failing to control opponent's free arm during setup [Low DANGER]
+- **Mistake**: Failing to control opponent's free arm during setup [Low DANGER]
   - **Consequence**: Opponent uses free arm to establish frames, push your hips away, or defend their trapped arm
   - **Correction**: Use your legs to control their free arm or torso, preventing effective frames. Maintain constant pressure with your guard to limit their mobility.
-- **Error**: Continuing to apply pressure when feeling or hearing joint popping sounds [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure when feeling or hearing joint popping sounds [CRITICAL DANGER]
   - **Consequence**: Severe structural damage to shoulder complex, potential permanent injury to training partner
   - **Correction**: Immediately stop all pressure at first sign of unusual resistance, popping, or cracking. Release the submission and check with partner.
-- **Error**: Using Kimura grip without understanding transition options when finish is unavailable [Low DANGER]
+- **Mistake**: Using Kimura grip without understanding transition options when finish is unavailable [Low DANGER]
   - **Consequence**: Stalling in position without progressing, wasting energy, and allowing opponent to escape
   - **Correction**: Learn the Kimura trap system: transitions to sweeps, back takes, armbars, and triangles. The grip is a control position, not just a submission.
 
@@ -292,7 +292,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Hip Bump Sweep to Kimura**: Execute hip bump sweep motion; when opponent posts their arm to prevent the sweep, capture the posted arm with Kimura grip and finish from the top position (side control or mount). This combination integrates sweeping and submission into one fluid sequence. (When to use: When opponent has good posture and base, making direct Kimura difficult from bottom. The sweep attempt creates the arm isolation opportunity.)
 
 **Butterfly Guard Kimura**: From butterfly guard with underhook control, transition to Kimura grip when opponent attempts to defend the underhook. Use butterfly hooks to elevate and off-balance while applying the shoulder lock. This variation maintains more dynamic control than closed guard version. (When to use: In open guard situations where closed guard is not available, or when transitioning from butterfly sweeps that have been defended.)
@@ -337,7 +337,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Conceptual Learning)** (Week 1-2: 2-3 sessions)
 - Focus: Learn grip mechanics, body positioning, and angle creation without any resistance. Study anatomy of shoulder joint and injury mechanisms. Understand all safety protocols before any live practice.
 - Resistance: Zero resistance
@@ -374,7 +374,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Butterfly Guard]]
@@ -392,7 +392,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura Variations]]
@@ -435,7 +435,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Kimura from guard represents one of the most mechanically sound submissions in our arsenal due to its figure-four grip configuration, which creates a closed kinetic chain that maximizes force transmission to the shoulder joint while minimizing your energy expenditure. The critical element that most practitioners misunderstand is that the Kimura is fundamentally a control position first and a submission second - this conceptual reframing opens an entire subsystem of attacks including sweeps, back takes, and transitional submissions. When applying the finish, understand that you are creating external rotation of the glenohumeral joint past its natural range of motion, which stresses the posterior capsule and rotator cuff complex. The anatomy dictates that progressive application over 3-5 seconds is not merely about safety - it's about allowing the proprioceptive system to recognize the danger and signal submission before structural damage occurs. The perpendicular angle is biomechanically non-negotiable: without it, the opponent can simply follow the rotational force and escape. In training, I emphasize the Kimura trap philosophy where maintaining the grip while opponent defends becomes a platform for systematically attacking in multiple directions, making this one of the highest-percentage control positions in modern grappling.
 - **Gordon Ryan**: The Kimura from guard is something I use constantly in competition, but here's the key difference between training and competing with it: in the gym, you apply it slowly over several seconds and release immediately on the tap because you want training partners tomorrow. In competition, once I have the angle and the grip locked, I'm finishing it as quickly as possible because my opponent isn't going to tap until they absolutely have to - that's the reality of high-level competition. From closed guard specifically, I'm usually setting it up by threatening triangles or armbars first, which forces them to defend in ways that expose their arms. When they post or reach to break grips, that's when I'm attacking the Kimura. The biggest mistake I see is people trying to force the finish from bad angles without establishing proper control first - you need that perpendicular position or you're wasting energy. I also use the Kimura grip defensively in scrambles; if someone's trying to pass my guard aggressively and they reach, I'm grabbing that Kimura and either sweeping them or taking their back when they try to defend it. The submission itself is great, but honestly, the control position and all the transitions it opens up are what make it elite-level. Know when you have the finish and when you need to transition - that's what separates good grapplers from champions.
 - **Eddie Bravo**: The Kimura from guard is fundamental, man, but in the 10th Planet system we're constantly looking at how to integrate it with rubber guard, lockdown, and our other control positions to create that 'cooking' pressure where they're damned if they do, damned if they don't. From closed guard, traditional guys will hit the basic Kimura, but we're thinking about chaining it with the triangle, omoplata, and especially using it as a back take entry when they defend. The beauty of the Kimura grip is it's like this universal adaptor - you can plug it into almost any guard system and it works. When I'm teaching it, I'm big on safety culture because shoulder injuries will end someone's jiu-jitsu career, and we need training partners who can show up consistently. So we drill it slowly, we tap early, we communicate constantly about pressure levels. But innovatively, I'm always looking at unconventional entries - like hitting it from mission control in rubber guard, or using it as a sweep when they're trying to break lockdown. The Kimura isn't just a submission in our system; it's this control position that lets you create dilemmas and keep them constantly defending multiple threats. That's when jiu-jitsu becomes art - when you're not just hunting one finish, but creating this web of interconnected attacks where every defense opens up something else. Stay creative with it, stay safe with your training partners, and remember that control positions are more valuable than rushed submissions.

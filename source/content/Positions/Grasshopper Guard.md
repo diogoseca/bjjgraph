@@ -13,10 +13,6 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 
 
 
-> **Quick Overview**: Grasshopper Guard represents an unorthodox open guard position where the bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs to...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -64,31 +60,19 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Offensive/Controlling |
-| Risk Level | Medium to High | Medium |
-| Energy Cost | High | Low |
-| Time Sustainability | Short | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Offensive/Controlling |
+| **Risk Level** | Medium to High | Medium |
+| **Energy Cost** | High | Low |
+| **Time** | Short | Medium to Long |
 
-**What Makes This Position Unique:** Inverted posture for leg attacks and sweeps
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Grasshopper Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Grasshopper Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Inverted posture for leg attacks and sweeps
 
 
 
@@ -96,10 +80,13 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 <section id="bottom-summary" class="content-section">
 
-## Grasshopper Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Grasshopper Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in grasshopper guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -154,7 +141,7 @@ The bottom player in grasshopper guard controls the position with offensive atta
   - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Remaining static in inverted position without threatening attacks**
@@ -182,16 +169,17 @@ The bottom player in grasshopper guard controls the position with offensive atta
   - ✅ Correction: Keep chin tucked but eyes tracking opponent's hips and upper body - your peripheral vision should monitor both their base and your leg positioning
 
 
-👉 **[[Grasshopper Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Grasshopper Guard Top Perspective
+
+## Playing as Top
+
+[[Grasshopper Guard/Top|→ Full Top Guide]]
 
 
-The top player in grasshopper guard balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -243,7 +231,7 @@ The top player in grasshopper guard balances control maintenance with submission
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Driving forward with constant heavy pressure against inverted guard**
@@ -270,8 +258,6 @@ The top player in grasshopper guard balances control maintenance with submission
   - Consequence: Results in failed pass attempts where you end up in worse positions or with legs trapped in defensive guard structures
   - ✅ Correction: Establish leg control or clearance first through back step, leg drag, or sprawl, then advance to passing - sequence these actions deliberately
 
-
-👉 **[[Grasshopper Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

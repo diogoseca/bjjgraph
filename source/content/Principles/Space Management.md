@@ -8,7 +8,7 @@ description: "Master Space Management in BJJ. Learn frame construction, hip esca
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Space Management in BJJ. Learn frame construction, hip esca
 
 
 
-> **Quick Answer**: Space Management is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Space Management is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ Offensively, space management involves the systematic elimination of opponent op
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Frames use skeletal structure (bone alignment) rather than muscular force to manage space efficiently
 - Hip mobility and escape mechanics are essential for creating space when under pressure
 - Space creation must be accompanied by immediate positional improvement to prevent opponent recovery
@@ -185,7 +185,7 @@ Offensively, space management involves the systematic elimination of opponent op
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Frame Construction**: The ability to create effective barriers using arms, legs, and body positioning to manage distance. Proper frames utilize skeletal alignment to support pressure rather than relying on muscular strength, allowing for sustained defense against larger opponents. This includes understanding when to use stiff arms, bent arm frames, knee shields, and foot frames based on positional context.
 
 **Hip Escape Mechanics**: Technical proficiency in shrimping, bridging, and hip rotation to generate space when under control. Effective hip escapes combine precise timing with proper body mechanics to create maximum distance with minimum energy expenditure. This skill requires understanding the relationship between shoulder movement, hip rotation, and leg positioning during escape sequences.
@@ -208,7 +208,7 @@ Offensively, space management involves the systematic elimination of opponent op
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Frame Creation]]** (Prerequisite): Frame creation is the primary technical tool for implementing space management principles. Without proper frame construction using skeletal alignment, space management becomes entirely dependent on strength and athleticism rather than technique.
 - **[[Hip Escape Mechanics]]** (Complementary): Hip escapes work synergistically with space management by providing the movement mechanics needed to capitalize on created space. Frames create initial separation, hip escapes extend that separation, and the combination enables position recovery.
 - **[[Pressure Application]]** (Alternative): Pressure application is the offensive counterpart to defensive space management. Where space management focuses on creating and maintaining distance, pressure application systematically eliminates space to control opponents. Understanding both concepts creates a complete strategic framework.
@@ -227,7 +227,7 @@ Offensively, space management involves the systematic elimination of opponent op
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Creating frames against opponent's hips and shoulders to prevent submission attacks while generating hip escape space for elbow escape or bridge and roll. Space management here focuses on creating vertical distance to relieve chest pressure and horizontal space for hip movement.
 
 **Side Control**: Using near-side elbow frame against opponent's neck or shoulder and far-side hand against hip to create breathing room and prevent crossface. Hip escapes then capitalize on this space to recover guard or escape to turtle. Space management priorities shift based on whether opponent applies crossface or underhook control.
@@ -270,7 +270,7 @@ Offensively, space management involves the systematic elimination of opponent op
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current position and immediate submission threats**: Identify if position requires emergency space creation (immediate submission danger) or systematic space management (positional improvement). Prioritize survival threats first.
 2. **Identify opponent's pressure vectors and control points**: Determine where opponent is applying pressure (crossface, shoulder pressure, hip pressure, etc.) and which body parts they are controlling. This determines which frames and escapes will be most effective.
 3. **Construct appropriate frames based on position and pressure type**: Create frames using skeletal alignment against identified pressure points. Choose frame type (stiff arm, bent arm, knee shield, foot frame) based on position and available leverage points.
@@ -283,28 +283,28 @@ Offensively, space management involves the systematic elimination of opponent op
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Using muscular force instead of skeletal alignment for frames
+## Common Mistakes
+- **Mistake**: Using muscular force instead of skeletal alignment for frames
   - **Consequence**: Rapid arm fatigue leading to frame collapse and loss of space management capability. This makes practitioners vulnerable to being crushed and submitted once arms tire.
   - **Correction**: Focus on bone-on-bone frames with proper alignment. Keep elbows at appropriate angles (90-120 degrees) and use shoulder positioning to create structural support rather than pushing with arm muscles.
-- **Error**: Creating space without immediately capitalizing on it
+- **Mistake**: Creating space without immediately capitalizing on it
   - **Consequence**: Opponent quickly reclaims dominant position, negating the energy spent creating space. This leads to exhaustion from repeated escape attempts without positional progress.
   - **Correction**: Develop the habit of immediately inserting a knee, establishing a frame, or recovering guard as soon as space is created. Practice escape sequences that combine space creation with immediate guard recovery in a single flowing movement.
-- **Error**: Attempting hip escapes while fully flattened
+- **Mistake**: Attempting hip escapes while fully flattened
   - **Consequence**: Ineffective shrimping that creates minimal space and wastes significant energy. Flattened hip position prevents proper rotation and limits the distance that can be generated.
   - **Correction**: First create a small amount of space using frames and bridging to get onto one shoulder, then execute hip escapes from this angled position for maximum effectiveness. The sequence should be: frame, bridge to angle, then shrimp.
-- **Error**: Focusing solely on defensive space creation without offensive application
+- **Mistake**: Focusing solely on defensive space creation without offensive application
   - **Consequence**: Developing a one-dimensional game that lacks the ability to control and dominate opponents. This leads to excessive time spent defending without developing finishing capability.
   - **Correction**: Practice both sides of space management—creating space when defending and eliminating space when attacking. Understand that being able to compress opponent space makes you better at defending against compression.
-- **Error**: Using the same space management approach regardless of position
+- **Mistake**: Using the same space management approach regardless of position
   - **Consequence**: Ineffective or dangerous techniques applied in inappropriate contexts. For example, creating upward space from mount can lead to being armbarred, while creating space toward back control increases submission danger.
   - **Correction**: Study space management specific to each major position. Learn which directions are safe to create space in each position and which directions lead to worse positions or submissions. Context determines technique selection.
-- **Error**: Holding breath or breathing shallowly under pressure
+- **Mistake**: Holding breath or breathing shallowly under pressure
   - **Consequence**: Rapid energy depletion and panic responses that compromise technical execution. Lack of oxygen impairs decision-making and increases the likelihood of making positional mistakes.
   - **Correction**: Practice breathing drills under pressure. Focus on maintaining steady breathing even when uncomfortable. Use the rhythm of breathing to pace defensive movements and maintain composure under sustained pressure.
-- **Error**: Creating excessive space that allows opponent to disengage and re-engage with better grips
+- **Mistake**: Creating excessive space that allows opponent to disengage and re-engage with better grips
   - **Consequence**: Giving opponent the opportunity to reset with improved control points. Too much space allows them to establish dominant grips or switch to more advantageous positions before you can capitalize.
   - **Correction**: Create just enough space for the intended technique. Maintain some contact and control even while creating separation. The goal is controlled space management, not complete disengagement unless that is the specific tactical objective.
 
@@ -313,7 +313,7 @@ Offensively, space management involves the systematic elimination of opponent op
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Sparring with Space Focus** (Focus: Applying space management principles under realistic pressure with specific positions allowing focused practice of frame construction, hip escapes, and escape sequences.)
 Conduct positional sparring sessions (5-7 minute rounds) from disadvantageous positions (mount bottom, side control bottom, back control bottom) where the bottom person focuses exclusively on space management and escape rather than submissions. Top person applies realistic pressure. This develops space management under live resistance.
 
@@ -338,7 +338,7 @@ Practice from top positions focusing on eliminating opponent's space through pre
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can construct basic frames from common positions (mount bottom, side control bottom) but relies heavily on arm strength rather than skeletal alignment
 - Executes fundamental hip escapes (shrimp, bridge) with proper form when not under pressure, but technique deteriorates significantly when opponent applies realistic pressure
@@ -381,7 +381,7 @@ Practice from top positions focusing on eliminating opponent's space through pre
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Side Control]] (Position) - Primary position where space management principles are most critically applied defensively
 - [[Mount]] (Position) - High-priority defensive position requiring expert-level space management for survival and escape
@@ -401,7 +401,7 @@ Practice from top positions focusing on eliminating opponent's space through pre
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Space management is fundamentally about vector manipulation and structural efficiency. When we examine defensive situations, the untrained eye sees struggle and effort, but the systematic approach reveals a biomechanical problem with precise solutions. Your frames must function as architectural elements—compression members that transfer force through bone structure into the ground rather than tension members that tire your muscles. The direction of space creation is never arbitrary; it must follow the hierarchy of positions, always moving toward guard recovery or neutral rather than toward inferior positions. The most common error I observe is practitioners treating space management as a single skill, when in reality it is a complex integration of at least eight distinct component skills: pressure recognition, frame construction, hip mobility, timing awareness, directional understanding, energy conservation, breathing discipline, and immediate capitalization. Each must be developed systematically. Furthermore, offensive space denial is not simply the opposite of defensive space creation—it requires understanding control point hierarchy, pressure application vectors, and the systematic removal of defensive options. The practitioner who masters both sides of space management develops a complete positional game that functions across all scenarios.
 - **Gordon Ryan**: In competition, space management separates those who can survive against elite pressure from those who fold under it. When I'm passing someone's guard or holding them in side control, I'm constantly working to remove the space they need for their defensive techniques. I control their head to prevent them from turning into me, I control their hips to prevent them from creating the angle for their escapes, and I settle my weight in ways that make their frames collapse. On the defensive side, when someone has me in a bad position—which happens less often now but was critical in my development—I focus on never being completely flat and always maintaining at least one strong frame that gives me a structural anchor point. The key competition insight about space management is that you can't just create space randomly and hope for the best. You need to know exactly which space you're creating and what you're going to do the instant you create it. If you shrimp out from side control but don't immediately insert your knee shield or recover full guard, you've wasted energy and given your opponent a chance to reset with better control. In my guard passing, I use a lot of body lock passing and over-under passing specifically because these styles allow me to compress my opponent's space so effectively that they can't execute their defensive movements. I'm constantly removing the space they need for their escapes before they can even attempt them. This offensive application of space management has been crucial to my passing success against high-level competitors who have excellent defensive games.
 - **Eddie Bravo**: Space management in no-gi is a whole different animal because you don't have the gi grips to manage distance, so everything comes down to body positioning, frames, and understanding leverage points. In the 10th Planet system, we're huge on using the lockdown and rubber guard specifically because they're space management tools that control distance without relying on fabric. The lockdown, for example, lets you manage the space in your half guard by controlling your opponent's leg, which controls their hip, which controls how much pressure they can apply. From rubber guard, you're using your leg to manage the space at their shoulder and neck, which prevents them from posturing up and creating the space they need to pass or strike. What's crazy is that most people think space management is just defensive, but we've weaponized it offensively in positions like the truck and twister side control where we're creating specific spaces that force the opponent into submission positions. From the truck, I'm managing space to prevent them from rolling out while creating the specific angle I need for the twister. It's not just about creating any space—it's about creating the right space for your finishing techniques. In terms of training this, we do a ton of flow rolling and position-specific training where guys work from bad positions and focus entirely on space management without trying to submit. This builds the calmness and technical understanding you need when you're actually in trouble. The breathing aspect is huge too—if you panic and hold your breath when someone's crushing you, you're done. We teach guys to breathe steadily even when it's uncomfortable, which keeps them calm and allows them to think through their space management strategy rather than just exploding randomly and wasting energy.

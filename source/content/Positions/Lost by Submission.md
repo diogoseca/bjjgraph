@@ -8,7 +8,7 @@ description: "Terminal state in BJJ representing match loss via submission. Anal
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Terminal state in BJJ representing match loss via submission. Anal
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -165,9 +165,7 @@ description: "Terminal state in BJJ representing match loss via submission. Anal
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 0% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 0% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,7 +193,7 @@ Lost by Submission represents the terminal state in Brazilian Jiu-Jitsu where a 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Practitioner is caught in a completed submission hold with joint or airway compromise imminent or occurring
 - Defensive frames and escape paths have been eliminated or exhausted by the attacking practitioner
@@ -206,7 +204,7 @@ Lost by Submission represents the terminal state in Brazilian Jiu-Jitsu where a 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Defensive position compromised allowing submission entry
 - Failed to recognize submission danger early in attack sequence
@@ -281,7 +279,7 @@ Lost by Submission represents the terminal state in Brazilian Jiu-Jitsu where a 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Early Tap Recognition]]** → [[Guard Opening Sequence]]
 - **[[Referee Intervention]]** → [[Guard Opening Sequence]]
@@ -330,7 +328,7 @@ Lost by Submission represents the terminal state in Brazilian Jiu-Jitsu where a 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

@@ -8,7 +8,7 @@ description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide co
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide co
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide co
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 55% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent controls bottom player's foot and ankle with both hands in figure-four or cross-grip configuration, applying rotational pressure to the ankle joint with potential for immediate submission
 - Bottom player's endangered leg is extended or semi-extended with opponent's torso and chest applying pressure across the leg while maintaining toe hold grip structure
@@ -200,7 +198,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has successfully secured foot and ankle control with toe hold grip configuration
 - Bottom player's leg is trapped in some form of ashi garami or leg entanglement position
@@ -228,7 +226,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Saddle Defense]] → [[Ashi Garami]]
 
@@ -278,7 +276,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Toe Hold]]** → [[Won by Submission]] (Opponent Success: 75%)
 - **[[Toe Hold from Top]]** → [[Won by Submission]] (Opponent Success: 70%)
@@ -291,7 +289,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Ashi Garami Escape]]** → [[Open Guard]]
   - Opponent loosens toe hold grip to readjust or switch to heel hook
@@ -335,7 +333,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

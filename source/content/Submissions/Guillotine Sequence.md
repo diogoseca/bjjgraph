@@ -8,7 +8,7 @@ description: "Master the guillotine sequence in BJJ with systematic entry, contr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the guillotine sequence in BJJ with systematic entry, contr
 
 
 
-> **Quick Answer**: Guillotine Sequence is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea damage from improper hand placement - apply slowly over 3-5 seconds and release immediately upon tap.
+> Guillotine Sequence is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea damage from improper hand placement. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="safety-considerations" class="content-section">
 
-## Is Guillotine Sequence Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -216,7 +216,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Head control dominance - establishing and maintaining superior head positioning throughout the sequence
 - Grip versatility - seamlessly transitioning between standard, high elbow, arm-in, and ten-finger variations
 - Hip positioning - using hip pressure and body weight to enhance choking mechanics
@@ -230,7 +230,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Dominant head control with opponent's head secured under your chest or armpit
 - Proper hand positioning around neck with forearm blade across carotid arteries (not trachea)
 - Hip engagement creating downward pressure on opponent's head and neck
@@ -244,7 +244,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish front headlock control**: Secure dominant head position with opponent's head trapped under your chest. Your choking arm wraps around the neck while your non-choking hand controls the opponent's far shoulder or back. Keep your hips low and chest heavy to prevent them from standing or pulling their head free. This initial control is the foundation for the entire sequence. (Timing: 0-2 seconds) [Pressure: Moderate]
 2. **Choose appropriate guillotine variation**: Assess the position and select the optimal variation: standard guillotine with locked hands for standing or closed guard, high elbow guillotine for maximum squeeze when pulled to guard, arm-in guillotine if opponent's arm is trapped inside your grip, or ten-finger guillotine for quick finishing opportunities. Your selection depends on opponent's posture, available space, and defensive reactions. (Timing: 2-3 seconds) [Pressure: Light]
 3. **Secure choking grip**: For standard guillotine, your choking arm extends deep around the neck with the blade of your forearm (radius bone side) positioned across both carotid arteries, NOT the trachea. Lock your hands together using gable grip, S-grip, or palm-to-palm grip depending on flexibility and variation. Ensure your elbow is positioned on centerline of opponent's body. For high elbow variation, your choking elbow stays high near your own chest. For arm-in, trap their defensive arm inside your grip. (Timing: 3-4 seconds) [Pressure: Moderate]
@@ -258,7 +258,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Creating space by pushing hips away and establishing strong base** (Effectiveness: High) - Your Adjustment: Immediately pull opponent into closed guard or half guard, eliminating their ability to create distance. If standing, jump to guard or switch to D'arce/anaconda by stepping to the side.
 - **Hand fighting to break the choking grip or prevent hands from locking** (Effectiveness: Medium) - Your Adjustment: Switch to arm-in guillotine by trapping their defensive arm inside your grip. Alternatively, transition to D'arce or anaconda by adjusting your arm position and stepping to the choking side.
 - **Driving forward and establishing strong posture to pull head free** (Effectiveness: Medium) - Your Adjustment: Use their forward momentum to pull guard, simultaneously falling to your back while maintaining head control. As they drive in, your legs close around them and your hips thrust up to restore choking leverage.
@@ -268,25 +268,25 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Choking across the trachea instead of targeting carotid arteries [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Choking across the trachea instead of targeting carotid arteries [CRITICAL DANGER]
   - **Consequence**: Ineffective submission that causes unnecessary pain and potential trachea damage
   - **Correction**: Ensure the blade of your forearm (radius bone side) is positioned on the sides of the neck targeting both carotid arteries. Your forearm should be perpendicular to their spine, not parallel. The choke should feel like pressure on the sides of the neck, not crushing the windpipe.
-- **Error**: Allowing opponent to establish strong posture with head up
+- **Mistake**: Allowing opponent to establish strong posture with head up
   - **Consequence**: Complete loss of choking pressure and easy escape for opponent
   - **Correction**: Maintain constant downward pressure on opponent's head with your chest and shoulder. Your non-choking hand must control their far shoulder or back to prevent them from standing up. If they start to posture, immediately pull guard or transition to alternative attack.
-- **Error**: Locking hands too early before achieving proper depth around neck
+- **Mistake**: Locking hands too early before achieving proper depth around neck
   - **Consequence**: Shallow grip that opponent can easily defend and escape
   - **Correction**: Extend your choking arm as deep as possible around the neck before locking your hands. Your choking hand should reach to or past their far shoulder. Only lock the grip once you have maximum depth and proper forearm positioning across the carotids.
-- **Error**: Failing to use hip pressure to enhance choking mechanics
+- **Mistake**: Failing to use hip pressure to enhance choking mechanics
   - **Consequence**: Arm-only choke that fatigues quickly and lacks finishing power
   - **Correction**: Your hips must thrust forward and up while your arms pull back and up, creating a scissoring action. Whether standing, in guard, or from turtle, your hips are the primary source of choking pressure, not arm strength alone.
-- **Error**: Maintaining same guillotine variation despite opponent's effective defense
+- **Mistake**: Maintaining same guillotine variation despite opponent's effective defense
   - **Consequence**: Wasted energy and lost opportunity as opponent successfully defends
   - **Correction**: The guillotine sequence requires constant adaptation. If standard guillotine isn't working after 5-8 seconds of solid pressure, immediately switch to high elbow, arm-in, D'arce, anaconda, or back take. Flow within the sequence rather than forcing a single technique.
-- **Error**: Applying maximum pressure immediately without progressive build-up [CRITICAL DANGER]
+- **Mistake**: Applying maximum pressure immediately without progressive build-up [CRITICAL DANGER]
   - **Consequence**: Partner injury risk and inability to safely tap in time
   - **Correction**: Always apply choking pressure gradually over 3-5 seconds in training. Give your partner time to recognize the submission and tap safely. Competition pace is never appropriate in training, especially for neck submissions.
 
@@ -295,7 +295,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Standing Guillotine to Guard Pull**: From standing front headlock, secure deep guillotine grip and immediately sit to guard, pulling opponent into closed guard or half guard. As you sit, maintain head control and use the momentum of falling back to tighten the choke. Your legs close around opponent's body as you land, preventing them from creating space. (When to use: When opponent shoots for takedown, during scrambles from standing, or when you want to move the fight to the ground while maintaining offensive control)
 
 **High Elbow Guillotine from Closed Guard**: Pull opponent to closed guard with standard guillotine grip, then elevate your choking elbow high near your own chest while pulling opponent's head toward your non-choking hip. Your legs squeeze tightly around their body while your hips thrust up. This variation creates maximum squeeze and bypasses many standard defenses. (When to use: When opponent defends standard guillotine effectively, when you have excellent flexibility, or when in closed guard with good leg control)
@@ -337,7 +337,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Week 1-2)** (First 2 weeks of learning sequence)
 - Focus: Understanding all guillotine variations, proper grip mechanics, body positioning, and carotid vs. trachea anatomy. Study each variation individually with zero resistance partner.
 - Resistance: None
@@ -374,7 +374,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Closed Guard]]
@@ -392,7 +392,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[High Elbow Guillotine]]
@@ -435,7 +435,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The guillotine sequence exemplifies everything I teach about submission chains and systematic approaches to finishing. Most practitioners treat the guillotine as a single opportunistic move - they get the grip, pull guard, and either finish or fail. This is primitive thinking that wastes positional opportunities. A true sequence-based approach means you're never committed to one technique. When opponent defends standard guillotine by creating space, you flow to high elbow. When they hand-fight, you trap their arm in arm-in variation. When they turn into you, the D'arce is there. When they turn away, anaconda presents itself. The guillotine is not a technique - it's a positional system with multiple exits. From a safety perspective, understand that blood chokes targeting the carotid arteries are inherently safer than any form of trachea compression. Your forearm must be positioned perpendicular to their spine, blade across both sides of the neck. Progressively applied blood chokes give clear feedback and a safe tap window. Trachea chokes are barbaric and have no place in technical jiu-jitsu. Build your guillotine sequence as a system of responses, not a collection of disconnected moves.
 - **Gordon Ryan**: In competition, the guillotine sequence is one of my highest-percentage finishing systems because it works across so many positions and transitions. I've finished world-class opponents with guillotines from standing, from guard, during scrambles, and from turtle attacks. The key is understanding which variation gives you the highest finish percentage in each context. Standing guillotine needs immediate commitment - either finish it standing with explosive hips or pull guard immediately. In closed guard, high elbow guillotine is my preference because it creates maximum squeeze when combined with leg pressure. From turtle, arm-in guillotine is incredibly effective because opponents always give you an arm when defending. The most important competition distinction is knowing when to commit to the finish versus when to transition within the sequence. If I don't feel the choke tightening within 3-5 seconds of solid pressure, I'm already moving to D'arce, anaconda, or back take. Never waste energy forcing submissions that aren't there. In training, the standard is completely different - you must apply these submissions slowly and progressively. I've seen too many training room injuries from reckless guillotine application. Competition speed has no place in training. Build your sequence through thousands of safe repetitions, then when competition comes, you have the technical foundation to finish quickly when it matters.
 - **Eddie Bravo**: The guillotine sequence is one of the most versatile submission systems in all of grappling, and it integrates beautifully with 10th Planet methodology. From our rubber guard system, we can hit guillotines during transitions. From our truck system, front headlock attacks lead right into guillotine sequences. What I love about this sequence is how it rewards creativity and adaptation. Standard guillotine isn't working? Switch to ten-finger for a quick finish attempt. Opponent turns into you? D'arce is right there. Opponent turns away? Anaconda. They turtle up? Arm-in guillotine from top. It's like a choose-your-own-adventure submission system. In no-gi especially, the guillotine sequence becomes even more important because we don't have collar grips to fall back on. My students drill guillotine entries from every position - standing, guard pulls, scrambles, turtle attacks, half guard sweeps. The more entry points you develop, the more complete your sequence becomes. One safety thing I'm super strict about: never crank someone's neck in training. The guillotine should feel like pressure on the sides of the neck, never like you're trying to rip their head off. Slow, controlled, progressive pressure. We're building technique here, not trying to prove how tough we are. Safe training partners get better faster because they can train more frequently without injuries. That's how you build a real guillotine sequence - thousands of safe reps with people who trust you.

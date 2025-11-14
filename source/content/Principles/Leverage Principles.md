@@ -8,7 +8,7 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 
 
 
-> **Quick Answer**: Leverage Principles is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Leverage Principles is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Leverage Principles represent the fundamental biomechanical framework of using m
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Position body segments to create optimal fulcrum points for force multiplication
 - Maximize lever arm length on effort side while minimizing resistance arm length
 - Apply force perpendicular to lever arms for maximum rotational effectiveness
@@ -181,7 +181,7 @@ Leverage Principles represent the fundamental biomechanical framework of using m
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Fulcrum Identification and Creation**: The ability to recognize existing fulcrum points in positions and create new fulcrums through body positioning. This includes understanding how hips, shoulders, knees, and contact points serve as pivot points for rotational force application. Practitioners must develop sensitivity to identify where maximum mechanical advantage exists in any given position.
 
 **Lever Arm Ratio Calculation**: Intuitive understanding of how to maximize the distance from fulcrum to effort point while minimizing distance from fulcrum to resistance point. This skill involves constantly adjusting body positioning to create favorable mechanical advantage ratios, typically seeking 2:1 or greater lever arm advantages whenever possible.
@@ -204,7 +204,7 @@ Leverage Principles represent the fundamental biomechanical framework of using m
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Biomechanical Principles]]** (Prerequisite): Understanding fundamental biomechanics provides the foundation for applying leverage principles. Body mechanics, joint function, and force transmission must be understood before leverage optimization can occur.
 - **[[Maximum Efficiency Principle]]** (Complementary): Leverage principles directly support maximum efficiency by enabling technique effectiveness with minimal energy expenditure. Both concepts emphasize working smarter rather than harder through optimal mechanical positioning.
 - **[[Frame Management]]** (Extension): Frames are practical applications of leverage principles where limbs create lever systems to maintain distance or create space. Effective frame management requires understanding lever arm ratios and force vector optimization.
@@ -221,7 +221,7 @@ Leverage Principles represent the fundamental biomechanical framework of using m
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Hip positioning creates fulcrum against opponent's chest while upper body extends as lever arm for maximum pressure. Arms can serve as additional leverage points for isolating limbs or breaking posture, with shoulder pressure creating compound leverage systems.
 
 **Side Control**: Crossface creates lever system using shoulder as fulcrum against opponent's jaw while far side underhook extends lever arm. Hip pressure provides secondary leverage system pinning opponent's near hip, creating compound mechanical advantage preventing escape.
@@ -258,7 +258,7 @@ Leverage Principles represent the fundamental biomechanical framework of using m
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current position and identify available body contact points**: Survey all points where your body contacts opponent or mat. Recognize which contact points can serve as potential fulcrums versus which can extend as lever arms. Consider how current body positioning creates or prevents leverage opportunities.
 2. **Identify or create primary fulcrum point for intended technique**: Position body segment (hip, shoulder, knee, hand) to serve as stable pivot point. Ensure fulcrum placement creates favorable geometry for intended movement direction. Verify fulcrum stability through structural alignment and base.
 3. **Evaluate lever arm ratios on both sides of fulcrum**: Measure distance from fulcrum to effort application point versus fulcrum to resistance point. Adjust positioning to maximize effort lever arm length while minimizing resistance lever arm length. Seek minimum 2:1 advantage when possible.
@@ -271,28 +271,28 @@ Leverage Principles represent the fundamental biomechanical framework of using m
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Applying force through muscular strength rather than leveraging body weight through optimal positioning
+## Common Mistakes
+- **Mistake**: Applying force through muscular strength rather than leveraging body weight through optimal positioning
   - **Consequence**: Rapid fatigue, reduced technique effectiveness against larger opponents, inability to execute techniques consistently. Strength-based application allows strong opponents to simply resist through superior attributes.
   - **Correction**: Focus on positioning body weight to serve as effort force applied through proper fulcrum points and lever arms. Practice techniques emphasizing weight distribution over muscle engagement. Study how gravity and body mass can be directed through leverage angles.
-- **Error**: Positioning fulcrum too close to resistance point or too far from effort point
+- **Mistake**: Positioning fulcrum too close to resistance point or too far from effort point
   - **Consequence**: Unfavorable lever arm ratios drastically reduce mechanical advantage, making techniques require exponentially more force. Even perfect technique execution fails when leverage geometry is wrong, leading to confusion about technique validity.
   - **Correction**: Before applying force, consciously assess and adjust fulcrum positioning to maximize distance to effort point while minimizing distance to resistance. Use positional adjustments (hip movement, angle changes) to optimize lever arm ratios before committing to technique.
-- **Error**: Applying force at angles other than perpendicular to lever arm direction
+- **Mistake**: Applying force at angles other than perpendicular to lever arm direction
   - **Consequence**: Majority of applied force dissipates in non-productive directions, dramatically reducing rotational effectiveness. Force angle errors of even 30 degrees can reduce effectiveness by 50% or more, making techniques feel impossibly difficult.
   - **Correction**: Study perpendicular force application through drilling with attention to body angles. Learn to recognize proper force vector feel through repetition. Adjust entire body positioning to align force direction perpendicular to lever arms rather than just pushing harder.
-- **Error**: Creating slack or weak points in kinetic chain between effort and resistance
+- **Mistake**: Creating slack or weak points in kinetic chain between effort and resistance
   - **Consequence**: Force dissipates through collapsed body segments rather than transmitting to resistance point. Bent arms, disengaged core, or improper alignment prevent leverage systems from functioning regardless of correct fulcrum positioning.
   - **Correction**: Develop body awareness of structural integrity throughout leverage application. Engage core, maintain spinal alignment, and create rigid connections through proper muscle activation. Practice holds with focus on zero-slack transmission of force.
-- **Error**: Attempting to maintain failing leverage system instead of transitioning to new opportunities
+- **Mistake**: Attempting to maintain failing leverage system instead of transitioning to new opportunities
   - **Consequence**: Wasted energy fighting opponent's successful counter-leverage or positional improvements. Stubbornness about failed leverage leads to being stuck in deteriorating positions while better opportunities are missed.
   - **Correction**: Develop sensitivity to recognize when leverage systems are compromised. Practice flowing between multiple leverage setups in same position. Learn to abandon failing systems early and establish new mechanical advantages before position completely collapses.
-- **Error**: Ignoring opponent's leverage systems while focusing only on creating own advantages
+- **Mistake**: Ignoring opponent's leverage systems while focusing only on creating own advantages
   - **Consequence**: Opponent establishes superior mechanical advantage through better positioning, neutralizing or reversing your attempts. Failing to break their leverage before establishing yours often results in stalemates or position loss.
   - **Correction**: Train awareness of opponent's fulcrum points and lever arms simultaneously with your own. Learn to disrupt their leverage attempts through positioning that extends their lever arms or eliminates their fulcrums. Practice counter-leverage drilling.
-- **Error**: Over-complicating leverage systems by seeking too many compound levers simultaneously
+- **Mistake**: Over-complicating leverage systems by seeking too many compound levers simultaneously
   - **Consequence**: Loss of execution reliability as complex systems become difficult to maintain under resistance. Multiple leverage points can conflict with each other or become impossible to manage while opponent counters, leading to position collapse.
   - **Correction**: Start with simple, reliable single leverage systems and add complexity only when primary system is secure. Prioritize one strong leverage point over multiple weak ones. Build compound systems progressively rather than attempting all simultaneously.
 
@@ -301,7 +301,7 @@ Leverage Principles represent the fundamental biomechanical framework of using m
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Leverage Mapping** (Focus: Develops comprehensive understanding of leverage geometry across all positions. Builds intuitive recognition of mechanical advantage opportunities before movement initiation. Creates framework for analyzing new positions through leverage lens.)
 Systematic exploration of every major position to identify all available fulcrum points, optimal lever arm configurations, and force vector angles. Partners freeze in positions while identifying and discussing leverage opportunities. Create mental models of leverage systems across entire positional hierarchy.
 
@@ -326,7 +326,7 @@ Flow rolling with constraint that techniques must be abandoned immediately when 
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can identify obvious fulcrum points in static positions when prompted
 - Understands concept that techniques work through mechanical advantage but relies primarily on strength during execution
@@ -371,7 +371,7 @@ Flow rolling with constraint that techniques must be abandoned immediately when 
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Biomechanical Principles]] (Principle) - Foundational concept that explains the physics and body mechanics underlying leverage application in BJJ techniques
 - [[Maximum Efficiency Principle]] (Principle) - Complementary concept achieved through proper leverage application, enabling technique effectiveness with minimal energy expenditure
@@ -391,7 +391,7 @@ Flow rolling with constraint that techniques must be abandoned immediately when 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Leverage Principles represent the mathematical foundation of all effective Brazilian Jiu-Jitsu technique, transforming physical confrontation into applied physics where smaller practitioners routinely defeat larger opponents through superior understanding of mechanical advantage. I teach leverage as systematic frameworks of fulcrum positioning, lever arm ratio optimization, and force vector calculations that can be quantified and replicated across all positions. The beauty of leverage understanding is its universality—once students grasp fundamental principles, they can analyze any technique, any position, even novel situations, and determine optimal mechanical advantage approaches. This transforms BJJ from memorizing thousands of moves into understanding dozens of leverage principles that generate infinite applications. My approach emphasizes that technique superiority over strength isn't philosophical—it's mathematical. When lever arm ratios favor you 3:1 or 4:1, physics guarantees technique success regardless of opponent strength. Students who master leverage principles develop unshakeable confidence because they understand WHY techniques work, not just THAT they work, enabling adaptation and problem-solving rather than rote memorization.
 - **Gordon Ryan**: Leverage understanding separates elite competitors who can maintain devastating pace through multiple matches from strong athletes who exhaust themselves forcing techniques without mechanical advantage—I've built my entire game on maximizing leverage efficiency to control and submit opponents much larger than myself without burning energy unnecessarily. Every position I establish, I'm consciously optimizing fulcrum points and lever arms: heel hooks work because I position my hip as fulcrum creating massive mechanical advantage on their knee, back control dominates because hooks and seatbelt create compound leverage systems they cannot escape, passing succeeds when pressure angles utilize leverage to pin hips rather than muscling through guards. The practical reality in competition is that perfect leverage positioning allows me to control 230-pound opponents while feeling relaxed, but fighting the same person with poor leverage geometry would exhaust me in minutes even with superior technique knowledge. I've learned to recognize leverage opportunities instantly during scrambles—that split-second advantage in establishing superior fulcrum positioning often determines who secures dominant position. My advice to competitors is stop thinking about strength and start thinking about angles, because the person who consistently achieves better leverage geometry wins regardless of who's stronger or more athletic.
 - **Eddie Bravo**: Leverage principles remain constant even when positions get weird—that's what allowed me to develop entire systems like rubber guard and lockdown where unconventional body positioning creates unexpected mechanical advantages that opponents don't train to defend. Mission Control might look nothing like traditional closed guard, but the leverage fundamentals are identical: I'm creating fulcrum points that break posture and establish control through mechanical advantage rather than strength. Understanding fundamental leverage freed me to experiment creatively because I could evaluate whether novel positions created sufficient mechanical advantage before fully developing them—if the lever arm ratios and fulcrum positioning were solid, I knew the position would be effective even if nobody had done it before. The 10th Planet system proves that leverage principles transcend traditional position categories; electric chair works through the same hip fulcrum and leg lever mechanics as conventional techniques, just applied from unconventional entry angles. What's beautiful about truly understanding leverage is it enables innovation—you're not locked into positions others invented because you comprehend the mechanical principles that make ANY position effective. My students learn to see leverage opportunities everywhere, including positions that don't exist yet, because they understand physics doesn't care whether a position is orthodox or innovative, only whether the mechanical advantage mathematics work in your favor.

@@ -13,10 +13,6 @@ description: "Master kneebar control position in BJJ. Complete guide covering en
 
 
 
-> **Quick Overview**: Kneebar Control represents a critical leg entanglement position in Brazilian Jiu-Jitsu where the attacker has isolated one of the opponent's legs and established control for a potential kneebar finish...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -62,31 +58,19 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Offensive/Controlling |
-| Risk Level | Medium to High | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short to Medium | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Offensive/Controlling |
+| **Risk Level** | Medium to High | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Medium |
 
-**What Makes This Position Unique:** Isolated leg control for knee hyperextension
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Kneebar Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Kneebar Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Isolated leg control for knee hyperextension
 
 
 
@@ -94,10 +78,13 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 
 <section id="bottom-summary" class="content-section">
 
-## Kneebar Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Kneebar Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in kneebar control controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -152,7 +139,7 @@ The bottom player in kneebar control controls the position with offensive attack
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to finish kneebar before breaking opponent's defensive posture and straightening the leg**
@@ -184,16 +171,17 @@ The bottom player in kneebar control controls the position with offensive attack
   - ✅ Correction: Maintain visual contact with opponent's hips and upper body to read defensive reactions
 
 
-👉 **[[Kneebar Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Kneebar Control Top Perspective
+
+## Playing as Top
+
+[[Kneebar Control/Top|→ Full Top Guide]]
 
 
-The top player in kneebar control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -245,7 +233,7 @@ The top player in kneebar control balances control maintenance with submission a
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Committing weight fully to kneebar finish without securing positional control first, allowing opponent to explode into escape**
@@ -276,8 +264,6 @@ The top player in kneebar control balances control maintenance with submission a
   - Consequence: Opponent extracts leg easily or finish lacks sufficient leverage to create submission threat
   - ✅ Correction: Secure leg across torso with arms positioned near lower calf for optimal control and finishing power
 
-
-👉 **[[Kneebar Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

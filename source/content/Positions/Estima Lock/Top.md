@@ -8,7 +8,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 50%.
 
 ---
 
@@ -191,7 +191,7 @@ Success from the top position requires precise technical execution including pro
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner controls opponent's foot with both hands in figure-four configuration, securing the heel as a fixed point while the forearm positions across the top of the foot to create leverage for rotational pressure application
 - Opponent's leg is isolated and extended away from their body in inverted orientation with heel higher than toes, preventing them from recovering guard or establishing effective defensive frames
@@ -203,7 +203,7 @@ Success from the top position requires precise technical execution including pro
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful entry from 50-50 Guard, Single Leg X-Guard, or leg entanglement position
 - Isolation of opponent's foot away from their defensive posture
@@ -231,7 +231,7 @@ Success from the top position requires precise technical execution including pro
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Estima Lock]] → [[Won by Submission]]
 
@@ -281,7 +281,7 @@ Success from the top position requires precise technical execution including pro
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Foot Extraction]]** → [[Open Guard]] (Opponent Success: 40%)
 - **[[Rolling Escape]]** → [[Scramble Position]] (Opponent Success: 30%)
@@ -293,7 +293,7 @@ Success from the top position requires precise technical execution including pro
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Transition to Inside Ashi]]** → [[Inside Ashi-Garami]]
   - Opponent attempts to pull their foot out creating heel hook opportunity
@@ -333,7 +333,7 @@ Success from the top position requires precise technical execution including pro
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

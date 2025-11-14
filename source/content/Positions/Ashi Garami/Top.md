@@ -8,7 +8,7 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35%.
 
 ---
 
@@ -195,7 +195,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent controls at least one of your legs with their leg entanglement configuration
 - You maintain base through standing, kneeling, or seated posture rather than flat positioning
@@ -205,7 +205,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of leg lock submission mechanics and injury risks to recognize danger and tap appropriately
 - Fundamental leg lock defense principles including heel protection and inside space denial
@@ -229,7 +229,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Ashi Garami Escape]] → [[Standing Position]]
 
@@ -286,7 +286,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Opponent Success: 45%)
 - **[[Saddle Entry from Top]]** → [[Saddle]] (Opponent Success: 35%)
@@ -298,7 +298,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Counter Ashi Entry]]** → [[Outside Ashi-Garami]]
   - When opponent overcommits to advancement attempt, establish your own leg entanglement control
@@ -338,7 +338,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

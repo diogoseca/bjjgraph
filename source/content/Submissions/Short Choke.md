@@ -8,7 +8,7 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 
 
 
-> **Quick Answer**: Short Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Short Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="safety-considerations" class="content-section">
 
-## Is Short Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -214,7 +214,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Lapel positioning must be established before applying finishing pressure
 - Control opponent's near arm to prevent defensive framing
 - Maintain heavy chest pressure throughout setup and finish
@@ -228,7 +228,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Established top position control in side control or north-south
 - Opponent's near arm controlled or isolated to prevent framing
 - Access to your own lapel or opponent's collar/lapel
@@ -241,7 +241,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure dominant side control position**: Establish tight side control with your chest heavy on opponent's chest. Control their near arm using either an underhook or by pinning it to the mat with your hip. Position your head near their far shoulder while maintaining crossface pressure. Your hips should be low and heavy, preventing any bridging or turning attempts. (Timing: Take 5-10 seconds to establish solid control before proceeding) [Pressure: Firm]
 2. **Feed lapel behind opponent's neck**: Using your free hand (typically the hand nearest their legs), grip your own lapel at chest level or slightly lower. Maintain pressure with your chest and crossface while threading the lapel behind opponent's neck from the far side. The lapel should pass behind their neck like a scarf, with the material positioned against the side of their neck closest to you. This requires precise hand positioning and often involves slight adjustments to your body angle. (Timing: 3-5 seconds for lapel placement) [Pressure: Moderate]
 3. **Secure lapel grip on opposite side**: Once the lapel has been threaded behind their neck, reach under their head with your opposite hand and grip the lapel material. Your grip should be palm-down with fingers curled around the lapel fabric. The key is to have minimal slack in the material while maintaining top position control. Some practitioners prefer gripping their own gi material for additional control. (Timing: 2-3 seconds to establish secure grip) [Pressure: Moderate]
@@ -255,7 +255,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Tucking chin to chest to block lapel access** (Effectiveness: Medium) - Your Adjustment: Use crossface pressure to create slight gap, or transition to near-side collar grip variation. Patience is key - maintain pressure and wait for opponent to fatigue and create space.
 - **Framing with near arm against your hips** (Effectiveness: High) - Your Adjustment: Switch to Americana or Kimura attack on the framing arm, forcing them to retract. Once arm is controlled, return to Short Choke setup with better isolation.
 - **Bridging explosively to create space** (Effectiveness: Medium) - Your Adjustment: Allow slight bridge while maintaining grips, then ride their hips back to mat with increased pressure. Use their energy expenditure to tighten the choke during the descent.
@@ -265,25 +265,25 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying choking pressure before properly positioning the lapel behind the neck [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying choking pressure before properly positioning the lapel behind the neck [CRITICAL DANGER]
   - **Consequence**: Creates a crushing pressure on the trachea instead of blood choke on carotid arteries, causing pain rather than effective submission and potential injury
   - **Correction**: Take time to properly thread lapel behind neck, ensuring material sits on the side of the neck. Feel for the carotid pulse point with your hand before applying pressure.
-- **Error**: Losing top position control while focusing on lapel manipulation
+- **Mistake**: Losing top position control while focusing on lapel manipulation
   - **Consequence**: Opponent escapes to guard or worse position before choke can be finished
   - **Correction**: Maintain heavy chest pressure and crossface throughout entire setup. If you feel opponent creating space, pause lapel work and re-establish positional control first.
-- **Error**: Using excessive pulling strength rather than proper rotation mechanics
+- **Mistake**: Using excessive pulling strength rather than proper rotation mechanics
   - **Consequence**: Fatigues your arms, telegraphs the submission, and reduces effectiveness of the choke
   - **Correction**: Focus on wrist rotation and shoulder pressure rather than pulling the lapel. The choke should feel effortless when properly positioned.
-- **Error**: Allowing too much slack in the lapel material
+- **Mistake**: Allowing too much slack in the lapel material
   - **Consequence**: Opponent has time to defend, insert hands, or escape before choke takes effect
   - **Correction**: Before applying finishing pressure, ensure lapel is snug around neck with minimal slack. Take up all slack first, then apply rotational pressure.
-- **Error**: Positioning your head too high or too low relative to opponent
+- **Mistake**: Positioning your head too high or too low relative to opponent
   - **Consequence**: Reduces shoulder pressure and gives opponent ability to turn their head away from the choke
   - **Correction**: Keep your head near opponent's far shoulder, creating downward angle with your shoulder into their near-side jaw. This prevents head movement and increases choke effectiveness.
-- **Error**: Continuing to apply pressure after feeling tap signal [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after feeling tap signal [CRITICAL DANGER]
   - **Consequence**: Risk of causing unconsciousness or injury to training partner; builds dangerous training habits
   - **Correction**: Develop instant release reflex when feeling tap. Practice releasing immediately even in drilling scenarios to build muscle memory.
 
@@ -292,7 +292,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **North-South Short Choke**: Executed from north-south position using similar lapel threading mechanics but with your body perpendicular to opponent. Particularly effective when opponent defends the traditional north-south choke. (When to use: When transitioning from side control to north-south, or when opponent is successfully defending standard north-south attacks)
 
 **Reverse Short Choke (Paper Cutter variation)**: Instead of using your own lapel, grip opponent's far collar deep and apply pressure by driving your forearm across their neck while maintaining shoulder pressure. Creates similar carotid compression with different mechanics. (When to use: When opponent's defensive posture prevents access to your own lapel, or when their gi collar offers better gripping opportunities)
@@ -332,7 +332,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn proper lapel threading mechanics and body positioning without applying any choking pressure. Practice on compliant partners focusing solely on proper positioning.
 - Resistance: Zero resistance
@@ -369,7 +369,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[North-South]]
@@ -386,7 +386,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Ezekiel Choke]]
 - [[Ezekiel from Mount]]
@@ -429,7 +429,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Short Choke represents an excellent example of mechanical efficiency in submission grappling. What makes this technique particularly valuable from a systematic perspective is its economy of motion and low energy expenditure relative to its effectiveness. The biomechanics are straightforward: you are creating a lever system where the lapel acts as the primary compressive element, your shoulder provides secondary pressure, and your body weight maintains positional control. This creates a three-point pressure system that is extremely difficult to defend once properly established. The key technical detail that separates effective execution from ineffective attempts is the precise positioning of the lapel material on the lateral aspect of the neck rather than the anterior throat. When positioned correctly over the carotid triangle, the combination of circumferential pressure from the lapel and directional pressure from the shoulder creates complete vascular compression with minimal force application. This is superior to techniques requiring maximum muscular effort because it can be maintained indefinitely without fatigue, giving you patience to wait for the submission. From a safety perspective, practitioners must understand that blood chokes like the Short Choke are inherently safer than air chokes when applied correctly, but they also work faster, requiring vigilance in both the attacking and defending roles. The systematic application involves first establishing unassailable top position, then methodically removing defensive options, and finally applying the submission with controlled, progressive pressure. Never rush the finish - if the setup is correct, the submission is inevitable.
 - **Gordon Ryan**: In competition, the Short Choke is one of my favorite attacks from side control because it's sneaky as hell and most people don't see it coming until it's too late. The beauty of this choke is that you can disguise the setup within your normal pressure passing and top control - opponents think you're just maintaining position when you're actually setting up the finish. Here's the competition reality: you need to be so tight in side control that they literally can't create the frames to stop your lapel work. If there's any space, good opponents will shut this down immediately. I like to use the threat of the Americana or Kimura to force their defensive reactions, and when they pull their arm tight to their body to defend the joint lock, that's when I switch to the Short Choke. The timing is everything in competition - you've got to recognize that one-second window when their arm is controlled and their neck is exposed. In training versus competition, there's a huge difference in application speed. In the gym, I apply this very slowly and let people tap early. In competition, once I have the setup, I'm finishing fast because there's no second chances at that level. But you've got to drill thousands of reps at slow speed first to build the muscle memory for proper positioning. The biggest mistake I see competitors make is trying to muscle this choke - if you need to use a lot of strength, your positioning is wrong. When it's right, it feels effortless and they're tapping in three seconds. Also, this choke chains perfectly with mount transitions and back takes, so always think about the next position if they defend the initial attack.
 - **Eddie Bravo**: The Short Choke is old school brilliance that still works in modern grappling, and that tells you everything you need to know about its effectiveness. From a 10th Planet perspective, we don't train in the gi, but the no-gi versions of this concept - using your own arm or your opponent's trapped arm to create similar pressure - are equally devastating. What I love about this technique is the creativity it demands. You're essentially creating your own weapon out of the gi material, and that type of improvisation is what jiu-jitsu is all about. The lapel becomes an extension of your body, and once you understand that principle, you can apply it in countless situations. In terms of innovation, I've experimented with using the Short Choke concept from weird positions like the truck and twister control, where you can thread lapel material while controlling the back. It's not traditional, but it works if you understand the core mechanics of what creates the choke. The safety culture around this technique is super important - we never, ever spike chokes in training. I've seen too many close calls where people got too aggressive with lapel chokes and someone went out unexpectedly. In our gym, the rule is simple: apply slow, release fast, and if someone goes unconscious, that's an automatic reset and conversation about what went wrong in the safety protocol. The other innovation I bring to this technique is using it specifically to create reactions. Sometimes I'm not even trying to finish the Short Choke - I'm using it to force them to turn, which opens up the back or creates a scramble where my game is stronger. Every attack is also a setup for the next attack, and the Short Choke is perfect for that strategic approach.

@@ -8,7 +8,7 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
 
 
 
-> **Quick Answer**: Arm Drag to Back transitions from [[Butterfly Guard]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Arm Drag to Back transitions from [[Butterfly Guard]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Arm Drag to Back is a fundamental and highly effective technique for advanci
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control the opponent's wrist and triceps simultaneously for maximum leverage
 - Pull the arm across your body while rotating your hips away from the dragged arm
 - Maintain constant pressure throughout the drag to prevent opponent recovery
@@ -186,7 +186,7 @@ The Arm Drag to Back is a fundamental and highly effective technique for advanci
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish seated or butterfly guard position with opponent engaged
 - Control opponent's wrist with same-side grip (right hand to their right wrist)
 - Secure grip on opponent's triceps or lat with opposite hand
@@ -200,7 +200,7 @@ The Arm Drag to Back is a fundamental and highly effective technique for advanci
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish double grip control**: Secure a same-side wrist grip with your right hand on opponent's right wrist, palm facing down with four fingers wrapped around their wrist. Simultaneously grip their right triceps or lat with your left hand, creating a frame that will allow you to pull their arm across your body. Your grips should be tight but not telegraphing your intention to drag. (Timing: Setup phase - establish before opponent recognizes threat)
 2. **Pull arm across centerline**: Explosively pull the opponent's wrist across your body toward your left hip while your left hand pushes their triceps in the same direction. The motion should be diagonal, bringing their arm across their own centerline. This removes their posting base on that side and begins to turn their shoulders away from you. (Timing: Initiation - coordinate with opponent's forward pressure)
 3. **Hip escape and angle creation**: As you drag the arm, simultaneously hip escape away from the dragged arm (to your left if dragging their right arm). This creates the crucial angle that allows you to move perpendicular to their body rather than remaining directly in front of them. Your hips should move explosively, creating space between you and opponent. (Timing: Simultaneous with arm drag - critical for creating angle)
@@ -214,7 +214,7 @@ The Arm Drag to Back is a fundamental and highly effective technique for advanci
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent whizzers the dragged arm** (Effectiveness: High) - Your Response: Switch to a duck under, using their whizzer against them by diving under their arm to the opposite side back take. Alternatively, if they whizzer high, use it to elevate them with your butterfly hooks and sweep them.
 - **Opponent sprawls and posts far hand** (Effectiveness: Medium) - Your Response: Follow them to turtle position, maintain control of the dragged arm, and attack with either a clock choke, crucifix transition, or continue working to establish back control from turtle top.
 - **Opponent turns into you aggressively** (Effectiveness: Medium) - Your Response: Use their momentum against them - switch to a triangle setup as they turn into you, or establish closed guard and look for sweeps. Their aggressive turn often leaves their neck exposed.
@@ -224,28 +224,28 @@ The Arm Drag to Back is a fundamental and highly effective technique for advanci
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Dragging the arm without moving your hips
+## Common Mistakes
+- **Mistake**: Dragging the arm without moving your hips
   - **Consequence**: You remain directly in front of opponent with no angle, making it impossible to access their back. Opponent easily recovers position or counters.
   - **Correction**: Coordinate the arm drag with an explosive hip escape away from the dragged arm. The hip movement is equally important as the arm control - practice the movement in isolation until it becomes one fluid motion.
-- **Error**: Releasing arm control too early
+- **Mistake**: Releasing arm control too early
   - **Consequence**: Opponent recovers their arm and uses it to post, preventing you from completing the back take. They can turn into you or re-establish their guard.
   - **Correction**: Maintain wrist control throughout the entire rotation until you're behind them and establishing seat belt. Only release when your other hand has secured the underhook/over-shoulder grip.
-- **Error**: Dragging straight back instead of across body
+- **Mistake**: Dragging straight back instead of across body
   - **Consequence**: Creates a pulling contest rather than using proper mechanics. Opponent can resist with strength and doesn't get turned, preventing angle creation.
   - **Correction**: Pull the arm diagonally across your body toward your opposite hip. The drag should cross their centerline, which turns their shoulders and compromises their structure.
-- **Error**: Stopping movement after initial drag
+- **Mistake**: Stopping movement after initial drag
   - **Consequence**: Opponent has time to recover, post with other hand, or counter with whizzer. Momentum is lost and back take fails.
   - **Correction**: The arm drag must be one continuous flowing motion from grip establishment through back control. Practice moving in one explosive sequence without pausing between steps.
-- **Error**: Head position too far from opponent's body
+- **Mistake**: Head position too far from opponent's body
   - **Consequence**: Opponent can turn into you easily, eliminating your angle advantage. You may end up back in front of them or even in their guard.
   - **Correction**: Keep your head glued to their ribs/back throughout the rotation. Your head acts as a pressure point that prevents them from turning. Think of your head as another grip.
-- **Error**: Failing to use legs/hooks during transition
+- **Mistake**: Failing to use legs/hooks during transition
   - **Consequence**: Loss of leverage and elevation, making it easier for opponent to sprawl or sit. Back take becomes much more difficult without leg assistance.
   - **Correction**: If in butterfly, use your hooks to elevate and off-balance them as you drag. If seated, use your legs to help propel your body around theirs. Your legs should actively contribute to the rotation.
-- **Error**: Not circling far enough behind opponent
+- **Mistake**: Not circling far enough behind opponent
   - **Consequence**: You end up at their side rather than their back, giving them easy recovery options. They can turn into you or re-guard.
   - **Correction**: Continue your circular motion until your chest is completely behind their back, perpendicular to their spine. Don't settle for a side angle - complete the full rotation to their back.
 
@@ -254,7 +254,7 @@ The Arm Drag to Back is a fundamental and highly effective technique for advanci
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Isolated Movement Pattern** - Grip mechanics and hip escape coordination
 Partner remains static while you practice establishing grips, pulling arm across body, and hip escaping away from dragged arm. Focus on coordinating upper body drag with lower body hip escape as one motion. Practice from both seated and butterfly positions. Drill 20 repetitions each side, emphasizing smooth coordination. Partner provides light resistance to grips but doesn't actively counter.
 (Resistance: None)
@@ -285,7 +285,7 @@ Develop arm drag as part of larger attack system. Chain with other back takes, s
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standing Arm Drag to Back**: Executed from standing position, often in wrestling clinch or during takedown exchanges. Requires same arm drag mechanics but with explosive level change and circling motion. More common in no-gi and wrestling-based games. (When to use: Use during takedown exchanges, against opponent pressuring forward in standing position, or when you want to avoid pulling guard but still access dominant position.)
 
 **Collar Drag Variation (Gi)**: Instead of gripping wrist and triceps, control opponent's collar with both hands and drag the collar across your body. Creates similar angle but with different grip mechanics. Often more secure in gi due to collar grip strength. (When to use: Prefer this in gi when opponent is defending wrist control well. Collar provides stronger grip and more control over opponent's upper body rotation.)
@@ -330,7 +330,7 @@ Develop arm drag as part of larger attack system. Chain with other back takes, s
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The arm drag to back is generally a low-risk technique with minimal injury potential when practiced correctly. However, several safety considerations should be observed. When drilling, ensure controlled speed initially to prevent neck injuries - rapid rotation combined with resistance can cause partner's neck to torque unexpectedly. Start slow and gradually increase speed as both partners develop comfort with the movement. Be cautious with grip strength on wrist and triceps, particularly with smaller or beginner partners - overly aggressive gripping can cause hand and forearm injuries. When your partner is learning to counter the arm drag, communicate clearly about resistance levels to prevent sudden explosive counters that might cause injury. During the rotation phase, be aware of your training partner's knee and ankle position - awkward angles during the circular movement can stress these joints if they're not able to adjust properly. In competition or live sparring, be prepared for opponent to sit back suddenly to prevent back take, which can create collision risks. Always maintain awareness of training area boundaries to avoid rotating off the mat or into obstacles. For beginners, emphasize that speed comes after technical proficiency - rushing the technique before mastering mechanics often leads to loss of control and potential collision injuries.
 
@@ -338,7 +338,7 @@ The arm drag to back is generally a low-risk technique with minimal injury poten
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The arm drag to back is a fundamental transitional technique that bridges multiple areas of the BJJ positional hierarchy. From a systemic perspective, it represents one of the primary pathways from guard positions to the dominant back control position, bypassing the need to pass guard entirely. This makes it particularly valuable in the modern meta-game where guard passing can be extremely difficult against skilled opponents. The technique integrates seamlessly with guard retention strategies - when playing bottom position, the arm drag serves as both an offensive attack and a defensive re-guard mechanism. If opponent is passing, the arm drag can recover guard or even reverse the position entirely. From butterfly guard, the arm drag is part of the core attack system alongside butterfly sweeps and front headlock entries. In seated guard positions, it functions as the primary back-take mechanism and links closely with single leg X-guard entries. The arm drag also serves as a critical connector between wrestling and BJJ - it's one of the most effective ways to transition from standing exchanges to ground dominance. Advanced practitioners integrate the arm drag into complex attack chains: arm drag attempts can be combined with triangle setups (if opponent turns in), guillotine attacks (if they sprawl), or sweep opportunities (if they sit back). The technique's versatility means it should be drilled regularly regardless of your primary game style. It's equally effective in gi and no-gi, making it a fundamental skill for all grapplers. Understanding arm drag mechanics also improves your ability to defend it - the same principles that make it effective reveal its weaknesses and counter opportunities.
 
@@ -346,7 +346,7 @@ The arm drag to back is a fundamental transitional technique that bridges multip
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Arm Drag]] - Base technique - fundamental movement pattern this builds upon
 - [[Arm Drag Sweep]] - Alternative finish - sweep option when back take is defended
@@ -366,7 +366,7 @@ The arm drag to back is a fundamental transitional technique that bridges multip
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The arm drag represents a perfect exemplification of the principle of using opponent's limbs as handles to manipulate their entire body structure. When you control the arm, you're not just controlling that limb - you're controlling the entire quadrant of their body connected to that shoulder girdle. The biomechanical genius of the arm drag lies in its exploitation of human anatomy: by pulling the arm across the body's centerline, you create rotational force around the spine that the opponent cannot effectively resist without completely reconfiguring their base. The critical element that separates successful arm drags from failed attempts is the creation of angle through hip movement. Many practitioners make the error of pulling the arm while remaining directly in front of their opponent, which results in a static pulling contest. The hip escape component is not supplementary - it's fundamental. It transforms a linear pull into a rotational movement that bypasses the opponent's defensive structure entirely. Furthermore, the arm drag's effectiveness scales with technical proficiency rather than physical attributes. A smaller grappler who understands angle creation and continuous motion will consistently defeat a larger opponent who relies on strength to resist. In my systematic approach to back attacks, the arm drag serves as one of the primary entries, forming the foundation upon which we build more complex sequences. Master the fundamental arm drag mechanics, and you unlock access to the most dominant position in grappling.
 - **Gordon Ryan**: In high-level competition, the arm drag to back is one of my highest percentage techniques because it completely bypasses the guard passing battle, which has become incredibly sophisticated at the elite level. When I'm facing world-class guard players who can retain guard almost indefinitely, the arm drag allows me to skip that entire phase of positional advancement. The key to making it work against elite opposition is disguising your intention through grip fighting and creating the appearance of other threats. I'll often threaten guard passes or make them defend other attacks, and when their hands move to defend those threats, that's when the arm drag becomes available. Against someone like Lachlan Giles or Felipe Pena, you can't just reach for an arm drag - they'll see it coming. You have to create the opening through systematic pressure and threat diversification. One detail that dramatically improved my arm drag success was focusing on the continuous circular motion rather than thinking of it as distinct steps. From the moment I grip their arm to the moment I secure seat belt control, it's one flowing movement without pause. Any hesitation gives elite grapplers the split second they need to counter. I also place enormous emphasis on immediately securing the seat belt grip and getting hooks in, because at the highest level, that window of opportunity is incredibly brief. The arm drag gets you behind them, but if you don't immediately consolidate back control, they'll scramble out. In competition, I've finished matches within seconds of hitting a successful arm drag because the transition from back take to rear naked choke can be nearly instant if you're systematic about it.
 - **Eddie Bravo**: The arm drag is fundamental in the 10th Planet system because it embodies our philosophy of constant motion and creating angles rather than static position holding. What I love about the arm drag is its adaptability - you can hit it from standing, from guard, from turtle, from basically anywhere. In our no-gi system, we use the arm drag as a primary back take method from the rubber guard and half guard positions, but the principles remain the same regardless of where you initiate it. One variation we developed that's been super effective is combining the arm drag with the electric chair sweep from lockdown. When they defend the sweep by posting, that posted arm becomes the perfect arm drag opportunity, and you can transition from bottom lockdown directly to their back in one motion. It's beautiful when it flows together. What makes the arm drag especially powerful in 10th Planet methodology is how it chains with our submission system. From the back, we immediately look for the rear naked choke, but if they defend that, we have the twister, the back triangle, and various crank options. The arm drag isn't just a back take - it's the entry point to our entire back attack system. In terms of teaching the arm drag, I emphasize that the hip movement is actually more important than the arm control. You can have a death grip on their arm, but if your hips don't move, you're going nowhere. Conversely, if your hips are explosive and you understand the angle creation, even a loose grip can be enough because your body movement is doing most of the work. We drill this constantly with what we call flow drills - continuous arm drag attempts from various positions with the partner offering realistic but not full resistance, developing that muscle memory for the rotational movement pattern.

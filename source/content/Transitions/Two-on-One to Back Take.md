@@ -8,7 +8,7 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 
 
 
-> **Quick Answer**: Two-on-One to Back Take transitions from [[Clinch]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+> Two-on-One to Back Take transitions from [[Clinch]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish dominant two-on-one arm control with proper hand positioning
 - Break opponent's posture by pulling controlled arm across their centerline
 - Create angle off the line of attack to access opponent's side
@@ -180,7 +180,7 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Two-on-one grip established on opponent's arm (one hand on wrist, one on tricep or elbow)
 - Opponent standing or clinch position with upright posture
 - Angle created off centerline to prevent direct counter-wrestling
@@ -193,7 +193,7 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish two-on-one control**: Secure opponent's wrist with your lead hand using a pistol grip (thumb inside their wrist). Your trailing hand grabs their tricep just above the elbow or controls the elbow joint itself. Both grips work together to immobilize the entire arm structure. (Timing: Initial engagement or transition from collar tie)
 2. **Break posture and create angle**: Pull the controlled arm forcefully across the opponent's centerline while simultaneously stepping laterally off the line of attack. This pulling motion should stretch their arm and rotate their shoulders, compromising their base and preventing them from squaring their hips to you. (Timing: Immediately after securing grips)
 3. **Clear head position**: Drive your head past the controlled arm toward their far shoulder or place it tight against their near shoulder depending on your chosen pathway. This head pressure prevents them from turning into you while creating a barrier they cannot easily bypass. (Timing: As posture breaks and angle is created)
@@ -206,7 +206,7 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent pulls their controlled arm back forcefully to strip the grip** (Effectiveness: Medium) - Your Response: Follow their arm pull by stepping forward aggressively and transitioning to a front headlock position or arm drag, using their pulling energy to advance position
 - **Opponent turns into you while you attempt to access the back** (Effectiveness: High) - Your Response: Accept the turn and redirect to a body lock, collar tie, or clinch position, or chain to opposite-side back take attempt by switching your angle
 - **Opponent sprawls and drives their hips back to prevent back access** (Effectiveness: Medium) - Your Response: Follow their hips by maintaining grip and stepping forward, potentially transitioning to front headlock, or use their backward pressure to redirect to a duck-under on the opposite side
@@ -215,22 +215,22 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing the two-on-one grip too early before establishing back control
+## Common Mistakes
+- **Mistake**: Releasing the two-on-one grip too early before establishing back control
   - **Consequence**: Opponent immediately turns to face you, eliminating the positional advantage and potentially exposing you to counter-attacks
   - **Correction**: Maintain at least one grip on the controlled arm until your seat belt is fully locked across their chest, only then transition both hands to the back control configuration
-- **Error**: Stepping straight forward instead of creating an angle off centerline
+- **Mistake**: Stepping straight forward instead of creating an angle off centerline
   - **Consequence**: Opponent can easily square their hips to you and defend with their free arm, preventing back access completely
   - **Correction**: Always step laterally first to create 45-90 degree angle, forcing opponent to rotate their entire body structure if they want to face you
-- **Error**: Pulling the controlled arm too high or too low
+- **Mistake**: Pulling the controlled arm too high or too low
   - **Consequence**: High pulling allows opponent to roll forward or drop their weight; low pulling gives them space to turn in
   - **Correction**: Pull the controlled arm across their chest at sternum height, creating maximum structural disruption while maintaining control over their center of mass
-- **Error**: Failing to control opponent's head or shoulder during transition
+- **Mistake**: Failing to control opponent's head or shoulder during transition
   - **Consequence**: Opponent uses their free mobility to spin back toward you or escape laterally
   - **Correction**: Keep constant pressure with your head or shoulder against their back/shoulder throughout the entire transition, creating a physical barrier to rotation
-- **Error**: Attempting to force the back take when opponent's base is too strong
+- **Mistake**: Attempting to force the back take when opponent's base is too strong
   - **Consequence**: You overcommit and lose position, potentially getting countered with takedown or reversal
   - **Correction**: If initial back access is denied, immediately chain to alternative techniques like front headlock, arm drag, or re-attack the two-on-one from new angle based on their defensive reaction
 
@@ -239,7 +239,7 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Grip Fundamentals** - Establishing and maintaining two-on-one control
 Partner stands static while you practice securing proper hand positions (wrist and tricep grips), pulling across centerline, and maintaining control pressure. Focus on grip endurance and proper hand positioning without attempting full transition.
 (Resistance: None)
@@ -270,7 +270,7 @@ Incorporate into positional sparring from standing, then into full rolling. Focu
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Russian Tie to Mat Return**: Instead of taking the back standing, use two-on-one control to drive opponent's shoulders forward and downward, forcing them to post with their free hand. As they post, circle behind them and establish back control as they're driven to their knees or belly-down position. (When to use: When opponent has strong wrestling defense standing but you can break their posture forward; effective against opponents who refuse to engage standing)
 
 **Arm Drag Finish Variation**: From two-on-one control, release the tricep grip momentarily to post your hand on opponent's hip while violently pulling their wrist behind them (arm drag mechanics). This creates immediate access to back control with minimal transition time. (When to use: When opponent pulls their controlled arm back or tries to disengage; faster execution when timing is crucial)
@@ -308,7 +308,7 @@ Incorporate into positional sparring from standing, then into full rolling. Focu
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The two-on-one to back take is generally a low-risk technique when practiced properly, but several safety considerations apply. When drilling with partners, maintain controlled intensity during the grip-fighting phase to prevent wrist or elbow hyperextension from forceful arm pulling. Beginners should avoid explosive duck-under attempts that might result in neck strain or head collision with partner's hip. When the technique is completed and back control is established, the receiving partner should not attempt violent spinning escapes that could result in knee or ankle injuries from hook entanglement. During live training, both practitioners should be aware of mat boundaries when executing standing back takes to prevent out-of-bounds falls. Maintain awareness of partner's balance during the transition phase, especially when driving forward to break them down to the mat. Communication about intensity level is essential during initial learning phases.
 
@@ -316,7 +316,7 @@ The two-on-one to back take is generally a low-risk technique when practiced pro
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The two-on-one to back take serves as a critical bridge position in the standing phase of grappling, connecting wrestling-based control to Brazilian Jiu-Jitsu's positional hierarchy. From standing neutral positions, establishing two-on-one control represents your first significant positional advantage, creating immediate pathways to dominant positions including back control, front headlock, and various takedown entries. This technique integrates seamlessly with collar tie fighting, underhook battles, and general clinch work, providing a high-percentage option when direct takedowns are difficult. Once back control is established, you've achieved one of the most dominant positions in grappling with access to the highest-value submissions including rear naked choke, both-arm variations, and transition options to mount or other pins. The two-on-one also chains effectively with other standing attacks: if the back take is denied, you can flow to front headlock series, arm drag variations, or snap-down attacks, making it a versatile component of a complete standing game. Modern no-gi and MMA competition increasingly emphasizes this technique as wrestlers and grapplers recognize the value of controlling one arm to access superior positions without committing to potentially risky takedown attempts.
 
@@ -324,7 +324,7 @@ The two-on-one to back take serves as a critical bridge position in the standing
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Back Control]] - Primary ending position
 - [[Seat Belt Control Back]] - Specific back control configuration established
@@ -344,7 +344,7 @@ The two-on-one to back take serves as a critical bridge position in the standing
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The two-on-one represents one of the clearest examples of mechanical advantage in standing grappling. When you control a single arm with both of your hands, you create a 2-to-1 force advantage that cannot be equalized by your opponent's free arm—simple mathematics dictates they lose this battle. The genius of this position lies not merely in controlling an arm, but in what that control enables: their controlled arm cannot defend their back, cannot establish frames, cannot grip you, and cannot post for balance. You have effectively reduced a two-armed opponent into a one-armed opponent while creating clear geometric pathways to their back. The key technical detail most athletes miss is the directionality of the pull—pulling across the centerline at chest height creates maximum structural disruption by rotating their shoulders and compromising their base simultaneously. From the back position achieved through this transition, you enter what I consider the second-most dominant position in grappling, exceeded only by mount in pure control but superior in submission opportunities. The systematic approach demands you establish this control from neutral standing exchanges, use it to access the back, and then transition seamlessly into your back attack system. This is not merely a wrestling technique borrowed for jiu-jitsu; it is a fundamental positional progression that belongs in every grappler's systematic approach to standing exchanges.
 - **Gordon Ryan**: In competition, the two-on-one to back take is one of my highest-percentage techniques for accessing dominant position without risking a scramble or failed takedown attempt. Here's what makes it so effective at the elite level: when I get that two-on-one control, my opponent has maybe two seconds to defend before I'm on their back—it's that fast when executed with proper timing and aggressive intent. Most opponents try to pull their arm back, which is exactly what I want because I just follow forward into front headlock or complete the back take on the same side. The beautiful thing about this technique is the risk-reward profile is excellent: if it works, I get four points for the back take and immediate access to submission; if they defend well, I still maintain advantageous positions like front headlock or clinch control. I use this constantly in no-gi because the lack of collar grips makes the two-on-one even more dominant—without a gi, controlling one arm creates almost unstoppable offensive opportunities. My specific detail is the violence of the initial arm pull across their centerline; I'm not gently guiding their arm, I'm ripping it across their chest to destroy their structure immediately. Against other elite grapplers, this creates the split-second window I need to access their back before they can recover. The technique chains perfectly with my front headlock system and my standing back take game, making it a cornerstone of my standing approach in competition. When executed with proper intensity and timing, this technique has won me multiple matches at the highest levels against world-class opposition.
 - **Eddie Bravo**: The two-on-one to back take is absolutely fundamental in the 10th Planet system, especially for MMA applications where we can't rely on gi grips and need techniques that work in the chaos of real fighting. What I love about this technique is how it fits the whole 'create a dilemma' philosophy—when you get that Russian tie locked in, they're screwed either way they move. They pull back, you go forward with them. They try to square up, you take the back. They sprawl, you duck under. It's beautiful simplicity in action. We drill this constantly because it bridges perfectly between our standing game and our back attack system, which is massive in 10th Planet. One variation we use a lot is the snap-down combination when they defend the initial back take—instead of forcing it, we snap them down to front headlock and work our guillotine series or transition to Twister side control, which opens up the whole Twister system. The technique also sets up our truck entries if we take them down to turtle instead of directly to back control. In no-gi and MMA, controlling that one arm is like gold because modern fighters are so good at defending traditional takedowns, but this arm control creates immediate offensive opportunities without committing to a shot. We teach our students to hunt for this position from any standing exchange—whether it's cage work in MMA or standing guard pulls in competition. The innovation I always push is not just using it for back takes but as a control position that opens multiple attack trees depending on how they react. That's the 10th Planet way: nothing is just one technique, everything is a system within a system.

@@ -13,10 +13,6 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 
 
 
-> **Quick Overview**: K-Guard is a dynamic half guard variation characterized by an inverted butterfly hook configuration that creates a distinct 'K' shape with the legs. This position combines elements of deep half guard ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium to Long | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium to Long | Medium to Long |
 
-**What Makes This Position Unique:** Inverted hook trades static control for dynamics
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[K-Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[K-Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Inverted hook trades static control for dynamics
 
 
 
@@ -88,10 +72,13 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 
 <section id="bottom-summary" class="content-section">
 
-## K-Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[K-Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in k-guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -137,7 +124,7 @@ The bottom player in k-guard balances defensive frames with offensive opportunit
   - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing both hooks to become passive without active tension pulling or lifting opponent**
@@ -165,16 +152,17 @@ The bottom player in k-guard balances defensive frames with offensive opportunit
   - ✅ Correction: Fight for inside position with cross-face frame or matching underhook preventing opponent chest contact and maintaining distance control
 
 
-👉 **[[K-Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## K-Guard Top Perspective
+
+## Playing as Top
+
+[[K-Guard/Top|→ Full Top Guide]]
 
 
-The top player in k-guard balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -223,7 +211,7 @@ The top player in k-guard balances control maintenance with submission attacks, 
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Standing too upright and allowing bottom player to extend hooks and frames fully**
@@ -254,8 +242,6 @@ The top player in k-guard balances control maintenance with submission attacks, 
   - Consequence: Telegraphs passing intentions, allows bottom player to reinforce hook tension and frames, creates failed passing attempts
   - ✅ Correction: Use systematic approach to break grips, flatten hooks, and establish dominant angles before initiating pass
 
-
-👉 **[[K-Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

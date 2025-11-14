@@ -8,7 +8,7 @@ description: "Master body lock control from top position. Dominant standing cont
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master body lock control from top position. Dominant standing cont
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master body lock control from top position. Dominant standing cont
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 60% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 60%.
 
 ---
 
@@ -191,7 +191,7 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Both arms wrapped completely around opponent's torso with hands locked behind their back using gable grip, rear naked choke grip, or similar locked configuration that cannot easily be broken
 - Chest pressed firmly against opponent's back or upper torso, eliminating all space between bodies and preventing them from creating distance or turning to face you
@@ -204,7 +204,7 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful grip fighting exchange resulting in ability to penetrate both arms around opponent's torso
 - Close proximity to opponent with no defensive frames separating your bodies
@@ -232,7 +232,7 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Back Take Generic]] → [[Back Control]]
 
@@ -296,7 +296,7 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape and Frame Creation]]** → [[Clinch]] (Opponent Success: 30%)
 - **[[Whizzer]]** → [[Overhook Control]] (Opponent Success: 25%)
@@ -309,7 +309,7 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Follow to Closed Guard Top]]** → [[Closed Guard]]
   - Opponent sits to guard attempting to escape body lock pressure
@@ -351,7 +351,7 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

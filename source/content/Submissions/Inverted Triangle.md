@@ -8,7 +8,7 @@ description: "Master the Inverted Triangle submission in BJJ. Complete guide cov
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Inverted Triangle submission in BJJ. Complete guide cov
 
 
 
-> **Quick Answer**: Inverted Triangle is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Cervical spine compression from improper rotation during setup - apply slowly over 3-5 seconds and release immediately upon tap.
+> Inverted Triangle is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Cervical spine compression from improper rotation during setup. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="safety-considerations" class="content-section">
 
-## Is Inverted Triangle Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -218,7 +218,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Invert body orientation to create unconventional choking angles that bypass standard triangle defenses
 - Secure one arm across opponent's neck before establishing leg triangle to ensure proper choke mechanics
 - Use hip extension and rotation to generate compression rather than relying solely on leg squeeze
@@ -232,7 +232,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent's arm must be trapped across their own neck with your body controlling the shoulder
 - Your hips must be mobile enough to invert and rotate your lower body into position
 - Sufficient space to swing your legs around opponent's head without their posture preventing the movement
@@ -245,7 +245,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure Arm Across Neck**: From closed guard bottom or scramble position, use an overhook, kimura grip, or direct control to pull one of opponent's arms across their own neck. The bicep or forearm should be pressing against the side of their neck. Maintain tight control of this arm with both hands initially, preventing them from extracting it. This is the foundation of the entire submission. (Timing: 2-3 seconds to establish control) [Pressure: Moderate]
 2. **Break Down Opponent's Posture**: While controlling the trapped arm, use your legs and free hand to break opponent's posture forward and down. You need them close to your body with their head lower than their hips. Pull their shoulder down with the trapped arm while using your legs to prevent them from posting. This collapsed posture is essential for the next steps. (Timing: 1-2 seconds) [Pressure: Firm]
 3. **Swing Lead Leg Over Back of Neck**: Identify which leg will go over the back of opponent's neck (typically the leg on the same side as their trapped arm). Release your leg control and swing this leg up and over the back of their neck, placing your calf across the base of their skull. Your knee should be pointing toward the ceiling. Maintain arm control throughout this movement to prevent escape. (Timing: 1-2 seconds for leg placement) [Pressure: Light]
@@ -259,7 +259,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Grabbing your bottom leg and attempting to pass it over their head** (Effectiveness: High) - Your Adjustment: Immediately hook your bottom leg's foot behind their shoulder or under their armpit. Use this hook to break their posture down while maintaining the figure-four. If necessary, transition to standard triangle by inverting back.
 - **Turning into the choke to relieve pressure on carotid arteries** (Effectiveness: Medium) - Your Adjustment: Use your hands to control their head and prevent rotation. If they successfully turn, adjust your hip angle to follow their movement and maintain perpendicular pressure. Consider transitioning to armbar if they fully commit to turning.
 - **Standing up to create vertical distance and slam threat** (Effectiveness: High) - Your Adjustment: Immediately release the submission or accept a potential slam in competition. In training, do not allow them to lift you. Maintain connection and break their posture back down before they can fully stand.
@@ -269,28 +269,28 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying the choke before properly inverting body position [Low DANGER]
+## Common Mistakes
+- **Mistake**: Applying the choke before properly inverting body position [Low DANGER]
   - **Consequence**: Creates a weak standard triangle angle that opponent can easily defend with posture
   - **Correction**: Focus on establishing the inverted orientation first. Your body should be perpendicular or facing away before you apply finishing pressure. The inversion creates the mechanical advantage.
-- **Error**: Failing to secure the arm across opponent's neck before setting up legs [Low DANGER]
+- **Mistake**: Failing to secure the arm across opponent's neck before setting up legs [Low DANGER]
   - **Consequence**: Opponent can extract their arm and escape entirely, or the choke becomes ineffective without the arm creating pressure
   - **Correction**: Treat arm control as the primary objective. Use both hands if necessary to ensure the arm is pinned across the neck before attempting any leg movements.
-- **Error**: Squeezing with legs only without hip extension [Medium DANGER]
+- **Mistake**: Squeezing with legs only without hip extension [Medium DANGER]
   - **Consequence**: Creates muscle fatigue without effective choking pressure, allowing opponent to wait out your strength
   - **Correction**: The finish comes from hip extension and body angle, not leg strength. Extend your hips toward the ceiling while maintaining the figure-four. Think 'push away' not 'squeeze together'.
-- **Error**: Jerking or spiking the technique rapidly during setup or finish [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the technique rapidly during setup or finish [CRITICAL DANGER]
   - **Consequence**: Risk of cervical spine injury, neck strain, or loss of consciousness without warning signs for your partner
   - **Correction**: DANGER: Apply all movements slowly and progressively. Give your training partner 5-7 seconds minimum to recognize and tap to the pressure. Never snap into position.
-- **Error**: Releasing legs before releasing trapped arm during submission release [CRITICAL DANGER]
+- **Mistake**: Releasing legs before releasing trapped arm during submission release [CRITICAL DANGER]
   - **Consequence**: Trapped arm can torque awkwardly causing shoulder or elbow injury as legs release pressure
   - **Correction**: DANGER: Always release the figure-four first, then carefully guide the trapped arm free. Support your partner's neck if they were unconscious.
-- **Error**: Poor angle selection - body aligned with opponent instead of perpendicular [Low DANGER]
+- **Mistake**: Poor angle selection - body aligned with opponent instead of perpendicular [Low DANGER]
   - **Consequence**: Choke pressure is minimal and opponent can turn face-to-face and escape
   - **Correction**: After establishing the figure-four, actively rotate your hips and shoulders to face 90 degrees away from opponent. Your chest should face their side or back, not their face.
-- **Error**: Allowing opponent's free arm to create frames on your hips or legs [Medium DANGER]
+- **Mistake**: Allowing opponent's free arm to create frames on your hips or legs [Medium DANGER]
   - **Consequence**: They can prevent you from achieving optimal angle and may escape the position entirely
   - **Correction**: Use your hands actively to control opponent's free arm, head, or shoulder. Don't allow them free use of defensive frames.
 
@@ -299,7 +299,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Inverted Triangle from Failed Armbar**: When attempting an armbar from guard and opponent defends by pulling their arm free, immediately trap that defending arm across their neck and swing your legs to inverted triangle position. The momentum from the armbar attempt helps establish the angle. (When to use: Excellent chain submission when opponent successfully defends your armbar by pulling elbow back)
 
 **Inverted Triangle from Turtle Defense**: When opponent has you in turtle position and reaches under to control your far hip or opposite arm, trap their reaching arm and invert toward it, threading your legs over and under to establish the triangle while you're on your side or even your back. (When to use: Perfect counter when defending turtle position against aggressive opponents who over-commit with deep underhooks)
@@ -342,7 +342,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Mechanics (Weeks 1-2)** (First 2 weeks of training)
 - Focus: Understanding body positioning, angle mechanics, and safety protocols without resistance. Practice entry from static positions with compliant partner. Emphasis on slow, controlled movements and proper release procedures.
 - Resistance: Zero resistance
@@ -379,7 +379,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Turtle]]
@@ -397,7 +397,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Triangle from Closed Guard]]
@@ -438,7 +438,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The inverted triangle represents a fascinating biomechanical variation on the standard triangle choke that exploits perpendicular rather than frontal compression vectors. The mechanical superiority comes from the angle of force application - when you create pressure perpendicular to the carotid arteries rather than directly frontal, the opponent's natural defensive responses actually work against them. Their instinct to turn into you, which would relieve a standard triangle, tightens an inverted triangle. The key technical element that most practitioners miss is that this is fundamentally a hip extension finish, not a leg squeeze finish. Your legs create the structure and maintain the trapped arm position, but the actual arterial compression comes from extending your hips away from the opponent while maintaining the perpendicular angle. Safety considerations are paramount - this submission involves unusual neck rotation and compression simultaneously, so application must be progressive and controlled. In training, take a minimum of five to seven seconds to establish full pressure, giving your partner ample time to recognize the danger and tap. The release must be practiced as thoroughly as the submission itself, with the figure-four opening first before the trapped arm is released.
 - **Gordon Ryan**: Inverted triangle is one of those submissions that looks flashy but is actually incredibly high percentage once you understand when to hunt for it. In competition, I hit this most often when guys defend my armbar really well - they pull their elbow back hard, I trap that arm across their neck, and suddenly I'm in inverted triangle before they realize what happened. The angle is so unusual that even high-level black belts sometimes make the mistake of turning into it like they would a regular triangle. That's when you know you have it. The finish is all about hip pressure, not squeezing your legs until they cramp. Extend your hips hard toward the ceiling while keeping that perpendicular angle and the choke tightens itself. In training versus competition, there's a huge difference in how I apply this. Competition, I'm finishing fast and tight because that's the job. Training, I'm giving my partners way more time and applying it gradually because I need those same partners healthy tomorrow. This is especially important with inverted triangle because of the neck angle - you can seriously hurt someone if you spike it on hard. Build the reputation as someone who finishes clean but safe, and you'll always have good training partners willing to let you work your game.
 - **Eddie Bravo**: Inverted triangle is a staple of the 10th Planet system because it flows so naturally from rubber guard positions and scrambles. When you're in Mission Control or New York and the guy starts really fighting to get his arm free, that's your inverted triangle opportunity right there. The beauty of this submission is that it catches people who think they know triangle defense - all their posture and turn-in reactions that work against regular triangles actually help you finish the inverted variation. I teach my students to think of it as a backup plan that's actually better than the main plan sometimes. If your armbar fails, you've got inverted triangle. If they defend your omoplata, inverted triangle is there. It's like the submission that appears when other things don't work out. Now, safety-wise, this is one where you really need to respect your training partners. The neck is in a weird position and if you crank it too fast you can seriously mess someone up. In our gym, we drill the release just as much as the finish - open the legs first, guide the arm out carefully, support their neck. The goal is to be so dangerous with your submissions that everyone respects your game, but so safe in how you train them that everyone wants to roll with you. That combination is what creates a real black belt, not just collecting taps.

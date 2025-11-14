@@ -8,7 +8,7 @@ description: "Master the Twister submission in BJJ. Complete guide with safety p
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Twister submission in BJJ. Complete guide with safety p
 
 
 
-> **Quick Answer**: Twister is a spinal lock targeting the Cervical and thoracic spine, shoulder girdle. ⚠️ **SAFETY**: This technique can cause Cervical spine damage (neck injury) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Twister is a spinal lock targeting the Cervical and thoracic spine, shoulder girdle. ⚠️ **SAFETY**: This technique can cause Cervical spine damage (neck injury). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="safety-considerations" class="content-section">
 
-## Is Twister Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -217,7 +217,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Establish dominant Truck position before attempting - lower body must be completely controlled
 - Create opposing tension vectors - legs pull one direction while arms pull the opposite
 - Maintain perpendicular alignment between opponent's upper and lower body throughout
@@ -231,7 +231,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure Truck position with opponent belly-down and their legs controlled
 - Establish lockdown or body triangle on opponent's near leg to anchor lower body
 - Control opponent's far arm to prevent defensive frames
@@ -245,7 +245,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure Truck Position Foundation**: From back control or turtle position, transition to the Truck by controlling opponent's legs while they are belly-down. Establish a lockdown on their near leg by threading your inside leg through and hooking your feet together. Your opponent should be on their stomach with you perpendicular to their body, controlling their lower half completely. (Timing: 3-5 seconds to establish solid base) [Pressure: Moderate]
 2. **Isolate the Far Arm**: Reach across opponent's back and control their far arm at the wrist or triceps. Pull this arm across their back and maintain control. This prevents them from posting or creating defensive frames. Your opponent should now be belly-down with one arm trapped behind them and their legs locked in your control. (Timing: 2-3 seconds) [Pressure: Moderate]
 3. **Establish Head Control**: With your free hand, reach over opponent's far shoulder and cup under their chin or jaw (gable grip with your hands is ideal). Do not pull yet - simply establish the grip. Your body should be positioned perpendicular to their spine, with your chest near their ribs. (Timing: 2-3 seconds to secure grip) [Pressure: Light]
@@ -259,7 +259,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Turn into you to prevent perpendicular alignment** (Effectiveness: High) - Your Adjustment: Maintain lockdown pressure and use your free hand to post on their hip, preventing the turn. Re-establish perpendicular position before attempting the finish.
 - **Straighten the trapped leg to escape lockdown** (Effectiveness: High) - Your Adjustment: Switch to a body triangle if they begin escaping the lockdown. Maintain lower body control at all costs as it is essential for the submission.
 - **Tuck chin and hide neck to prevent head control** (Effectiveness: Medium) - Your Adjustment: Control the far shoulder instead of the head, or use a chin cup grip. Focus on shoulder control and create the twisting motion through the shoulder girdle rather than the neck.
@@ -269,28 +269,28 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Pulling the head straight back instead of creating rotational torque [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Pulling the head straight back instead of creating rotational torque [CRITICAL DANGER]
   - **Consequence**: Transforms into a neck crank rather than spinal lock, reduces effectiveness and increases danger
   - **Correction**: Focus on perpendicular alignment and opposing vectors - push lower body one direction while pulling upper body the opposite direction, creating a twisting motion
-- **Error**: Applying the submission too quickly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying the submission too quickly or explosively [CRITICAL DANGER]
   - **Consequence**: High risk of serious spinal injury to your partner
   - **Correction**: Always apply extremely slowly over 5-7 seconds minimum. This is not a submission to 'crank' - it requires progressive, controlled pressure
-- **Error**: Losing lockdown control and attempting to finish anyway
+- **Mistake**: Losing lockdown control and attempting to finish anyway
   - **Consequence**: Opponent can escape or turn into you, negating the submission entirely
   - **Correction**: Re-establish solid lower body control before attempting the finish. The Twister is impossible without anchoring their hips and legs.
-- **Error**: Not controlling the far arm adequately
+- **Mistake**: Not controlling the far arm adequately
   - **Consequence**: Opponent creates defensive frames and escapes or reduces submission pressure
   - **Correction**: Pull their far arm across their back and maintain tight wrist or triceps control throughout the sequence. Their arm should be trapped behind them.
-- **Error**: Poor perpendicular alignment with opponent's spine
+- **Mistake**: Poor perpendicular alignment with opponent's spine
   - **Consequence**: Reduced twisting pressure and easier escape for opponent
   - **Correction**: Position your body at 90 degrees to opponent's spine. Your chest should be near their ribs, not parallel to their body.
-- **Error**: Using only arm strength to pull the head [High DANGER]
+- **Mistake**: Using only arm strength to pull the head [High DANGER]
   - **Consequence**: Exhaustion and inability to finish, plus increased injury risk from sudden pulls
   - **Correction**: Use your entire body to create the twisting motion. Your legs push their lower body away while your torso rotation pulls their upper body.
-- **Error**: Not checking partner's flexibility or experience level [CRITICAL DANGER]
+- **Mistake**: Not checking partner's flexibility or experience level [CRITICAL DANGER]
   - **Consequence**: Potential injury to less flexible or inexperienced partners who don't recognize danger
   - **Correction**: Only practice Twister with experienced training partners who understand the position and will tap early. Discuss the technique before attempting.
 
@@ -299,7 +299,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Electric Chair to Twister Transition**: From the Electric Chair leg lock position, if opponent defends by turning away and going belly-down, transition directly to Truck position and then Twister. (When to use: When opponent is defending the Electric Chair by turning away from you rather than toward you)
 
 **Calf Slicer to Twister Chain**: Set up the Calf Slicer from Truck position, and when opponent turns belly-down to defend, maintain lower body control and transition to the Twister finish on the upper body. (When to use: When opponent is defending leg attacks from Truck by flattening out)
@@ -342,7 +342,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Demonstration Only)** (Week 1-2)
 - Focus: Learn Truck position mechanics, understand spinal lock theory, study video demonstrations. No live application. Partner drills for Truck entries only.
 - Resistance: None
@@ -379,7 +379,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Truck]]
 - [[Twister Control]]
@@ -396,7 +396,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Twister Finish]]
 - [[Calf Slicer from Truck]]
@@ -439,7 +439,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Twister represents one of the most mechanically sophisticated submissions in grappling, requiring precise understanding of spinal biomechanics and rotational force application. The key to the Twister is not brute strength but rather the creation of opposing force vectors that place the spine in a compromised position. From a systematic perspective, the Twister should never be viewed in isolation but rather as part of a comprehensive Truck position control system. The lower body must be completely immobilized through the lockdown mechanism before any attempt at the upper body finish. What separates effective Twister application from dangerous neck cranking is the angle of attack - you must maintain perpendicular alignment to the spine and create rotational torque, not simply pull the head backward. Safety-wise, this submission demands the highest level of control and communication because spinal structures have limited capacity for rotation and very little warning before catastrophic failure. In training, I insist on extremely slow application over 5-7 seconds minimum, with partners tapping at the first sign of discomfort rather than testing their limits. The Twister is a perfect example of why understanding the difference between training and competition application is paramount - what might be acceptable in a high-level competition is completely inappropriate for the training room.
 - **Gordon Ryan**: In competition, the Twister is a game-changer when you can actually hit it, but it's definitely a low-percentage finish compared to rear naked chokes or other back attacks. I've hit Twister in competition a few times, but more often I use the Truck position to set up calf slicers or transition to other back attacks. The thing about the Twister is that it requires a very specific set of circumstances - opponent has to be belly down, you need the lockdown locked in tight, and they can't be defending intelligently. In high-level no-gi, most guys know the position well enough to defend or escape before you can finish. That said, when it's there, it's absolutely devastating and forces an immediate tap. The key difference between training and competition is the application speed - in competition, once I have the position locked, I'm finishing in 2-3 seconds because I know my opponent knows when to tap. In training, it's a completely different story. I'm very cautious with the Twister in the training room because you can seriously hurt someone if you're not careful. I only practice it with high-level training partners who I trust completely and who understand the position. For anyone learning this technique, spend months mastering the Truck position and the lockdown before you even think about attempting the finish. And when you do practice the finish, go extremely slow and let your partner tap at like 30% pressure. There's no benefit to cranking someone's spine in training.
 - **Eddie Bravo**: The Twister is the crown jewel of the 10th Planet system and represents everything we're about - innovation, creativity, and developing techniques that work in real no-gi combat. I developed the Twister by studying wrestling's guillotine position and combining it with lockdown mechanics from half guard. The beauty of the Twister is that it's a submission most people have never seen, so when you hit it in competition, they're often confused about how to defend. But here's the thing that's absolutely critical - the Twister is an ADVANCED technique that requires serious respect and caution in training. I've seen too many people try to learn it too fast and either hurt their training partners or get hurt themselves. In the 10th Planet system, we don't even introduce the Twister until students have been training for at least a year and have mastered the Truck position and lockdown completely. When we do teach it, we spend weeks just working on the position without attempting the finish. The Twister should always be applied slowly in training - I tell my students to take 7-10 seconds to apply it and let their partner tap at the first sign of discomfort. The spine is not something to mess with. In competition, sure, you can be more aggressive, but in the training room, safety is paramount. We've built an entire system around the Truck position - Calf Slicers, Banana Splits, Electric Chair - and the Twister is just one option in that system. Don't get fixated on hitting the Twister and ignore all the other finishes available from Truck. And remember, the culture you create in your training room around submissions like this matters - if you're cranking Twisters in practice, you're going to hurt people and create a dangerous training environment.

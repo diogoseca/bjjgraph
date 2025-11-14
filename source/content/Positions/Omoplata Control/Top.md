@@ -8,7 +8,7 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 70% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 70%.
 
 ---
 
@@ -187,7 +187,7 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner's leg is positioned over the opponent's shoulder with the shin crossing their upper back, creating downward pressure on the shoulder capsule and trapping their arm extended
 - Opponent's trapped arm is isolated and extended away from their body with the shoulder joint in external rotation, creating mechanical disadvantage and submission pressure
@@ -201,7 +201,7 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful omoplata entry from closed guard, spider guard, or lasso guard position
 - Opponent's arm has been isolated and controlled with proper leg positioning established
@@ -229,7 +229,7 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Omoplata]] → [[Won by Submission]]
 
@@ -279,7 +279,7 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Forward Roll]]** → [[Turtle]] (Opponent Success: 35%)
 - **[[Posture Recovery]]** → [[Open Guard]] (Opponent Success: 30%)
@@ -291,7 +291,7 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Hip Adjustment to Finish]]** → [[Won by Submission]]
   - Opponent attempts to sit up and relieve shoulder pressure
@@ -333,7 +333,7 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

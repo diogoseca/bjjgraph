@@ -8,7 +8,7 @@ description: "Learn defensive awareness and tap protocols to prevent injury when
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Learn defensive awareness and tap protocols to prevent injury when
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Learn defensive awareness and tap protocols to prevent injury when
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 0% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 0% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,7 +197,7 @@ The tap signal itself—multiple rapid pats on opponent or mat, or verbal "tap" 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Submission is fully locked with escape mechanically impossible without opponent releasing pressure—joint is at structural limit or airway is completely controlled with no defensive space
 - Defender has lost all defensive frames and control points that would enable escape—hands cannot reach grip breaks, hips cannot create escape angles, body position is completely controlled
@@ -210,7 +208,7 @@ The tap signal itself—multiple rapid pats on opponent or mat, or verbal "tap" 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has achieved submission control position with proper mechanics established
 - All primary defensive escape windows have been missed or failed
@@ -236,7 +234,7 @@ The tap signal itself—multiple rapid pats on opponent or mat, or verbal "tap" 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Tap Out]] → [[Lost by Submission]]
 
@@ -293,7 +291,7 @@ The tap signal itself—multiple rapid pats on opponent or mat, or verbal "tap" 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Tap Signal]]** → [[Lost by Submission]] (Opponent Success: 100%)
 - **[[Verbal Tap]]** → [[Lost by Submission]] (Opponent Success: 100%)
@@ -304,7 +302,7 @@ The tap signal itself—multiple rapid pats on opponent or mat, or verbal "tap" 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Early Recognition]]** → [[Defensive Position]]
   - Feeling submission being set up before it is fully locked—escaping during setup phase
@@ -335,7 +333,7 @@ The tap signal itself—multiple rapid pats on opponent or mat, or verbal "tap" 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

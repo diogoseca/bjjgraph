@@ -8,7 +8,7 @@ description: "Learn Single Leg Finish in BJJ. Step-by-step takedown completion f
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Single Leg Finish in BJJ. Step-by-step takedown completion f
 
 
 
-> **Quick Answer**: Single Leg Finish transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+> Single Leg Finish transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Mastery of single leg finishes dramatically improves takedown success rates and 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Elevate the captured leg above opponent's hip level to disrupt balance
 - Create angle by stepping to the outside of the captured leg
 - Maintain tight connection between your shoulder and opponent's thigh
@@ -184,7 +184,7 @@ Mastery of single leg finishes dramatically improves takedown success rates and 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Secure control of opponent's leg with both arms wrapped around thigh
 - Head positioned on outside of opponent's hip (safe from guillotine)
 - Good posture with back straight and hips underneath body
@@ -197,7 +197,7 @@ Mastery of single leg finishes dramatically improves takedown success rates and 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure leg control**: Establish deep control around opponent's thigh with both arms, clasping hands behind their knee. Your shoulder should be tight against their hip with head positioned on the outside to avoid guillotine counters. Maintain strong posture with your back straight and hips underneath your center of gravity. (Timing: Initial capture phase - 1-2 seconds)
 2. **Elevate captured leg**: Drive upward with your legs while pulling the captured leg tight to your chest, lifting it above opponent's hip level. This elevation disrupts their base and prevents them from hopping to maintain balance. Keep constant upward pressure throughout the finish. (Timing: Continuous elevation - maintain throughout)
 3. **Create finishing angle**: Step your outside foot (the one closest to opponent's free leg) to a 45-degree angle away from their centerline. This lateral movement combined with elevation breaks their remaining base and prevents them from squaring up to defend. Your head should move around their hip as you angle off. (Timing: Simultaneous with elevation)
@@ -210,7 +210,7 @@ Mastery of single leg finishes dramatically improves takedown success rates and 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Whizzer overhook and limp leg defense** (Effectiveness: High) - Your Response: Switch to outside trip or dump finish by attacking the standing leg while maintaining elevation of captured leg. Use their whizzer as leverage to rotate them.
 - **Guillotine counter attack** (Effectiveness: Medium) - Your Response: Keep head position tight to outside of hip and maintain good posture. If they secure guillotine grip, complete finish quickly or transition to double leg by switching levels and driving forward.
 - **Hopping to maintain base** (Effectiveness: Medium) - Your Response: Increase elevation height and drive forward with each hop. Use their momentum against them by timing your angle change when they land on their hopping leg. Run the pipe to back control if they continue hopping.
@@ -219,25 +219,25 @@ Mastery of single leg finishes dramatically improves takedown success rates and 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Keeping head on inside of opponent's hip
+## Common Mistakes
+- **Mistake**: Keeping head on inside of opponent's hip
   - **Consequence**: Exposes neck to guillotine choke and allows opponent to sprawl effectively
   - **Correction**: Always position head on outside of captured leg with shoulder tight to opponent's hip. This creates safe angle and better leverage for finish.
-- **Error**: Failing to elevate leg high enough
+- **Mistake**: Failing to elevate leg high enough
   - **Consequence**: Opponent maintains base and can hop or post with free leg to defend
   - **Correction**: Lift captured leg above opponent's hip level using strong leg drive and tight pull to chest. Elevation must be maintained throughout entire finish.
-- **Error**: Driving straight forward without angle
+- **Mistake**: Driving straight forward without angle
   - **Consequence**: Opponent squares up and defends with whizzer or guillotine, maintaining balance
   - **Correction**: Step to 45-degree angle before driving. Lateral movement combined with forward pressure breaks their base and prevents defensive alignment.
-- **Error**: Releasing leg control too early during landing
+- **Mistake**: Releasing leg control too early during landing
   - **Consequence**: Opponent escapes to guard or scrambles to their knees immediately
   - **Correction**: Maintain leg control through the landing and into top position. Only release after establishing solid side control with crossface and hip control.
-- **Error**: Poor posture with rounded back
+- **Mistake**: Poor posture with rounded back
   - **Consequence**: Weak position vulnerable to sprawl defense and guillotine attacks
   - **Correction**: Keep back straight with chest up and hips underneath body. Good posture provides power for elevation and protects against counters.
-- **Error**: Uncontrolled or violent completion
+- **Mistake**: Uncontrolled or violent completion
   - **Consequence**: Partner injury from hard impact, loss of position during chaotic landing
   - **Correction**: Control opponent's descent using leg control and shoulder position. Technical finish is smooth and places you directly into dominant position.
 
@@ -246,7 +246,7 @@ Mastery of single leg finishes dramatically improves takedown success rates and 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Drilling** - Basic mechanics and partner safety
 Practice single leg finishes from static starting position with compliant partner. Focus on proper head position, elevation mechanics, and controlled landing. Partner offers no resistance. Emphasize smooth, safe completion with proper angle creation. Repeat 10-15 reps per side.
 (Resistance: None)
@@ -273,7 +273,7 @@ Practice single leg finishes in specific rule sets (IBJJF, submission-only, MMA)
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Dump finish**: Lift opponent's leg high while stepping your outside leg behind their standing leg. Pull their captured leg across your body while tripping their base leg, causing them to fall backward. Excellent when opponent has strong forward pressure or whizzer defense. (When to use: When opponent maintains strong posture and resists forward drive, or when they establish whizzer overhook.)
 
 **Run the pipe to back**: If opponent hops to maintain base, follow their movement while maintaining elevation. Circle behind them as they hop, eventually securing back control standing or taking them down to back mount. Particularly effective in no-gi where back control is highly valued. (When to use: When opponent successfully hops multiple times to defend, or when you want to prioritize back control over traditional takedown.)
@@ -313,7 +313,7 @@ Practice single leg finishes in specific rule sets (IBJJF, submission-only, MMA)
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing single leg finishes, controlled application is essential to prevent injury to both practitioners. The person executing the technique must guide their partner's landing smoothly to avoid hard impact with the mat, particularly protecting their head and shoulders from uncontrolled falls. Never spike or drive your partner straight down onto their head or neck. Maintain awareness of mat boundaries and ensure adequate space for the takedown execution. Partners should communicate throughout drilling, with the person being taken down tapping if they feel unsafe or out of control. Build speed and power progressively over training sessions rather than starting with explosive finishes. In live sparring, both practitioners should maintain awareness of their surroundings and other training pairs to avoid collisions.
 
@@ -321,7 +321,7 @@ When practicing single leg finishes, controlled application is essential to prev
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The single leg finish represents a critical junction point in the BJJ positional hierarchy, bridging the gap between standing grappling and dominant ground positions. After successfully establishing single leg control from standing or clinch positions, the finish determines whether you achieve takedown points and establish immediate offensive opportunities or allow your opponent to recover guard. The technique connects directly to wrestling fundamentals while incorporating BJJ-specific considerations for position quality and submission threats. From a successful single leg finish to side control, practitioners can immediately begin attacking with submissions like kimura, americana, or transition to mount and back control. Understanding single leg finishes also improves your takedown defense, as recognizing the mechanics allows you to better defend and counter. In competition contexts, clean single leg finishes score takedown points while establishing dominant position, often setting the tone for the entire match. The technique is equally valuable in gi and no-gi, self-defense scenarios, and MMA applications, making it a truly fundamental skill that every BJJ practitioner should master.
 
@@ -329,7 +329,7 @@ The single leg finish represents a critical junction point in the BJJ positional
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Single Leg Entry]] - Setup technique that establishes leg control before finish
 - [[Single Leg Takedown]] - Complete technique sequence including entry and finish
@@ -349,7 +349,7 @@ The single leg finish represents a critical junction point in the BJJ positional
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The single leg finish is fundamentally about mechanical advantage through elevation and angle creation. When you elevate the captured leg above the opponent's hip level, you create a situation where their remaining base becomes geometrically unstable - they simply cannot maintain balance on one leg when the other is lifted high enough. The critical error most practitioners make is driving forward without first establishing this elevation and the proper lateral angle. Think of it as a lever system where your shoulder is the fulcrum, their leg is the lever arm, and your legs provide the force. The angle you create by stepping to the outside determines the direction of force application - straight forward allows them to resist with their remaining base, but a 45-degree angle attacks the weakness in their structure. Your head position on the outside is not merely about guillotine defense; it positions your shoulder as the optimal fulcrum point and allows your spine alignment to transfer maximum force from your legs through their center of mass. Master these mechanical principles and the finish becomes nearly inevitable once you establish proper leg control.
 - **Gordon Ryan**: In competition, the single leg finish is my bread and butter takedown because it offers multiple high-percentage finishing options based on opponent reactions. The key is being able to chain finishes smoothly - if they defend the basic drive-through finish with a whizzer, I immediately switch to the dump or outside trip. If they start hopping, I run the pipe to the back where I want to be anyway. This is where competition experience pays off - you learn to read their weight distribution and defensive tendencies instantly. Against high-level guys, I almost never get the basic finish on the first attempt, but that doesn't matter because I've drilled the chains so much that their defense to finish one just sets up finish two. Also, in no-gi especially, I'm always thinking about the transition to back control during the finish. Even as I'm driving through to side control, if I feel them turning into me, I'm ready to capitalize and take the back instead. The other critical factor is timing - I hit single legs when they're moving or off-balance, never when they're perfectly set in their stance. Entries matter just as much as finishes.
 - **Eddie Bravo**: What I love about the single leg finish is how it flows into leg attack positions if you stay creative with it. Traditional guys finish to side control, which is cool, but I'm always thinking about how that captured leg can become an entry to outside ashi or even transitioning to leg entanglements during the scramble. If they're defending hard and we both go to the ground during the finish, that's actually an opportunity to establish leg control rather than just trying to force the traditional top position. Also, the dump finish is super underrated - it's such a satisfying way to finish when they give you that whizzer, using their own grip against them. In 10th Planet style, we also emphasize the run-the-pipe variation heavily because back control is our money position. If someone's hopping to defend, don't fight it - use that momentum to circle to their back. And here's a detail most people miss: as you're finishing, if you can trap their far arm with your free hand during the drive, you can land directly in a gift wrap position or crucifix setup from side control. Every finish should be thinking about the next position, not just completing the takedown. That's how you dominate matches from start to finish.

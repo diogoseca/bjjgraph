@@ -8,7 +8,7 @@ description: "Master the attacking perspective of straight ankle lock control. C
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master the attacking perspective of straight ankle lock control. C
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master the attacking perspective of straight ankle lock control. C
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -197,7 +195,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Attacker maintains perpendicular positioning relative to defender's body, with defender's trapped leg extended across attacker's hip line and attacker's torso angled at approximately 90 degrees to defender's centerline, creating optimal mechanical advantage for ankle pressure while maintaining balance and control
 - Defender's ankle is secured across attacker's hip with hands controlling the foot and heel, grip placement varies based on gi/no-gi but consistently positions the attacker's forearm against the Achilles tendon while the opposite hand cups the heel or tops of the foot, establishing submission leverage
@@ -208,7 +206,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful entry from standing guard, Single Leg X-Guard, or leg drag position
 - Initial control of opponent's ankle secured with at least one hand
@@ -237,7 +235,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Straight Ankle Lock]] → [[Won by Submission]]
 
@@ -308,7 +306,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Ashi Garami Escape]]** → [[Standing Position]] (Opponent Success: 45%)
 - **[[Hip Rotation Defense]]** → [[Defensive Position]] (Opponent Success: 40%)
@@ -322,7 +320,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
   - When defender rotates hip away to create space for knee extraction
@@ -371,7 +369,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

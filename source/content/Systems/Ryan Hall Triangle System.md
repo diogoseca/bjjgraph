@@ -151,7 +151,7 @@ description: "Master Ryan Hall's Triangle System. Comprehensive framework connec
 
 
 
-> **Quick Answer**: Ryan Hall Triangle System is a advanced difficulty Submission Chain system. This systematic approach integrates 6 key components into a cohesive fighting framework.
+> Ryan Hall Triangle System is a advanced difficulty Submission Chain system. Integrates 6 components.
 
 **System ID**: 
 **System Type**: Submission Chain
@@ -174,7 +174,7 @@ The system integrates seamlessly with modern guard play, particularly from close
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Triangle as control position - treat the triangle as a dominant control platform rather than just a submission attempt
 - Submission chain integration - every triangle attempt creates pathways to armbar, omoplata, and back take
 - Angle creation through hip movement - precise hip escapes and angle adjustments are fundamental to all finishes
@@ -188,7 +188,7 @@ The system integrates seamlessly with modern guard play, particularly from close
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Triangle Entry System** (Establish reliable pathways to triangle position from common guard scenarios)
 The entry system encompasses multiple pathways to triangle position from closed guard, open guard, and standing positions. Hall emphasizes controlling the arm across the body while breaking posture, using specific grip sequences that prevent opponent's escape before the legs are locked. The entry mechanics include hip escape timing, leg positioning sequences, and head control integration that create high-percentage triangle opportunities even against defensive opponents.
 
@@ -213,7 +213,7 @@ The actual triangle choke finish in Hall's system involves precise technical ele
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Development**: Master fundamental closed guard control and posture breaking mechanics. Develop the ability to consistently break opponent's posture while maintaining guard retention.
 Key points:
 - Establish strong closed guard with proper hip positioning
@@ -411,7 +411,7 @@ Hall's triangle system requires systematic drilling progressions that build from
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: Ryan Hall's triangle system exemplifies the systematic approach to submission grappling that I advocate. The triangle is treated not as an isolated technique but as a control position from which multiple submission pathways emerge based on opponent reactions. Hall's emphasis on precise angle creation through hip movement demonstrates understanding of biomechanical leverage principles. The system's structure—entry, control, transition, finish—reflects proper systematic development. What makes this approach superior is the recognition that forcing single submissions is less effective than creating genuine dilemmas where every defensive option opens new offensive pathways. The triangle-armbar-omoplata chain represents one of the highest-percentage submission sequences in jiu-jitsu because it exploits fundamental mechanical vulnerabilities in defensive postures. Hall's technical innovations in grip sequences and transitional mechanics show deep understanding of how to maximize efficiency while minimizing defensive opportunities. This system should be studied as a blueprint for how to develop any submission-based system around principles of positional control, mechanical advantage, and strategic pressure.
 - **Gordon Ryan**: I've used elements of Ryan Hall's triangle system extensively in competition, particularly the triangle-to-armbar transition which has been one of my highest-percentage finishes from guard. What makes Hall's approach competition-proven is the focus on control before submission—you're never forcing anything, just responding to what the opponent gives you. The triangle position becomes a dominant control where you can work methodically toward the finish while constantly threatening alternatives. In competition, this psychological pressure is massive because opponent knows every defensive movement potentially opens a different submission. The key to making this system work at the highest level is developing the sensitivity to recognize which submission pathway is available in real-time under pressure. Hall's drilling methodology builds this recognition through systematic exposure to defensive reactions. The finishing mechanics he teaches for the triangle choke itself are among the most refined I've encountered—the emphasis on incremental tightening rather than explosive force results in much higher tap rates. For modern no-gi competition, the triangle system remains highly relevant because it doesn't rely on gi grips and the mechanical principles transfer completely. I recommend this system particularly for guard players who want to develop a genuine submission threat that forces opponents to respect their guard game.
 - **Eddie Bravo**: Ryan Hall's triangle system shares some DNA with the 10th Planet approach, particularly the emphasis on chains and creating submission opportunities from control positions. Where Hall's system really shines is the technical precision in the transitions—he's broken down the mechanics of moving between triangle, armbar, and omoplata in a way that makes it accessible even to intermediate practitioners. In the 10th Planet system, we approach triangle from rubber guard positions like Mission Control and New York, which creates different angle opportunities but the underlying chain logic is similar. Hall's innovation with grip sequences and hip positioning has influenced how I teach triangle mechanics. The concept of treating triangle as a control platform rather than just a submission attempt aligns perfectly with our philosophy—you're looking to dominate position and create dilemmas, not just hunt for the tap. One thing I'd add to Hall's system from our perspective is more emphasis on the mounted triangle and reverse triangle variations, which open up additional creative pathways. The systematic drilling approach Hall advocates is crucial—you can't freestyle your way to mastering this system, you need structured practice progressions. For anyone serious about developing a world-class triangle game, Hall's system provides the technical framework, and then you can add your own creative variations and innovations on top of that foundation.

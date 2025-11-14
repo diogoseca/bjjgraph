@@ -8,7 +8,7 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -71,7 +71,7 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,9 +177,7 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 78% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 78% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -211,7 +209,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Chest-to-back connection maintained with one practitioner's torso pressed against opponent's back, hips positioned close to their hips to prevent space creation while maintaining control through constant forward pressure
 - At least one arm controlling opponent's upper body through seatbelt grip (one arm over shoulder, one under armpit), bodylock (both arms around waist), or collar ties, with hands locked or gripping securely to prevent separation
@@ -223,7 +221,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful establishment of rear control from standing position through sprawl, snap down, arm drag, or failed guard pull attempt
 - Opponent unable to face controlling practitioner or turn into them, typically due to superior grip control or positioning advantage
@@ -314,7 +312,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Hip Escape]]** → [[Standing Position]] (Success: 35%)
 - **[[Hand Fighting]]** → [[Clinch]] (Success: 40%)
@@ -374,7 +372,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

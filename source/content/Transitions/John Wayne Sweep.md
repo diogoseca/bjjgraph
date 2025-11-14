@@ -8,7 +8,7 @@ description: "Master the John Wayne Sweep from Butterfly Guard. High-reward tran
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the John Wayne Sweep from Butterfly Guard. High-reward tran
 
 
 
-> **Quick Answer**: John Wayne Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> John Wayne Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The John Wayne Sweep is a powerful offensive technique from butterfly guard that
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish dominant sleeve control before initiating sweep momentum
 - Create angular positioning to break opponent's base structure
 - Use butterfly hooks to elevate opponent's hips while controlling upper body
@@ -186,7 +186,7 @@ The John Wayne Sweep is a powerful offensive technique from butterfly guard that
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Active butterfly guard with both hooks inserted under opponent's thighs
 - Strong grip on opponent's sleeve or wrist (gi) or tricep control (no-gi)
 - Opponent applying forward pressure or attempting to establish underhooks
@@ -199,7 +199,7 @@ The John Wayne Sweep is a powerful offensive technique from butterfly guard that
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish sleeve control**: Secure a firm two-on-one grip on your opponent's lead sleeve, with one hand on the wrist and the other on the tricep or elbow. Pull this arm across your centerline to break their posting base and create an angle. In no-gi, establish a firm grip on the wrist and tricep.
 2. **Insert butterfly hooks**: Ensure both butterfly hooks are actively engaged under your opponent's thighs with your feet flexed and knees creating lifting pressure. Your hooks should be deep enough to control their hips but ready to extend for elevation. Keep your hips close to theirs to maximize leverage.
 3. **Create angular momentum**: While maintaining sleeve control, angle your body approximately 45 degrees toward the side of the controlled arm. This off-balances your opponent and positions your body for the rotational sweep. Your head should move toward the outside of their controlled arm.
@@ -213,7 +213,7 @@ The John Wayne Sweep is a powerful offensive technique from butterfly guard that
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent withdraws hips and creates distance when they feel the angle developing** (Effectiveness: High) - Your Response: Immediately transition to alternative butterfly sweep or switch to X-guard entry by following their backward movement and inserting your bottom hook behind their knee while keeping top hook active
 - **Opponent establishes strong underhook on the non-controlled side and drives forward with shoulder pressure** (Effectiveness: Medium) - Your Response: Use their forward pressure to execute a basic butterfly sweep to the underhook side, or transition to deep half guard by dropping under the underhook and establishing lockdown control
 - **Opponent posts free hand strongly and distributes weight over posted arm to prevent pistol break** (Effectiveness: Medium) - Your Response: Attack the posted arm with a kimura grip instead of breaking it, forcing them to defend the submission while you transition to a different sweep or back take opportunity
@@ -222,25 +222,25 @@ The John Wayne Sweep is a powerful offensive technique from butterfly guard that
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting the sweep without establishing proper sleeve control first
+## Common Mistakes
+- **Mistake**: Attempting the sweep without establishing proper sleeve control first
   - **Consequence**: Opponent easily posts their free arm and prevents the sweep, potentially passing your guard during the failed attempt
   - **Correction**: Always secure dominant two-on-one grip control before initiating any angular movement or elevation. The sleeve control is the foundation that makes the entire technique work
-- **Error**: Creating angle too early before opponent commits forward pressure
+- **Mistake**: Creating angle too early before opponent commits forward pressure
   - **Consequence**: Opponent recognizes the setup and simply withdraws their hips, nullifying the sweep opportunity and creating distance
   - **Correction**: Wait for opponent to apply forward pressure or reach for underhooks before creating your angle. Time the sweep with their commitment to moving forward
-- **Error**: Failing to break the posted hand and attempting sweep anyway
+- **Mistake**: Failing to break the posted hand and attempting sweep anyway
   - **Consequence**: Opponent maintains their base through the posted arm, resulting in incomplete sweep or getting stuck in a scramble position
   - **Correction**: Execute the pistol grip break decisively when opponent posts. If unable to break it, immediately attack with kimura or transition to different technique
-- **Error**: Extending butterfly hooks too early without rotational momentum
+- **Mistake**: Extending butterfly hooks too early without rotational momentum
   - **Consequence**: You lift opponent slightly but they land back in base, wasting energy and telegraphing future attempts
   - **Correction**: Coordinate hook extension with angular rotation and sleeve pull simultaneously. All three components must work together as one explosive movement
-- **Error**: Releasing sleeve control during the rotation phase
+- **Mistake**: Releasing sleeve control during the rotation phase
   - **Consequence**: Opponent regains posture mid-sweep and recovers their base or counters by taking top position
   - **Correction**: Maintain constant tension on controlled sleeve throughout entire sweep until you've established mount. The grip is your steering wheel
-- **Error**: Not following through to mount and stopping in half guard or scramble
+- **Mistake**: Not following through to mount and stopping in half guard or scramble
   - **Consequence**: Missing the opportunity to secure dominant position and allowing opponent to defend or re-guard
   - **Correction**: Commit fully to the sweep by continuing rotational momentum and immediately bringing knees up to establish mount as opponent lands
 
@@ -249,7 +249,7 @@ The John Wayne Sweep is a powerful offensive technique from butterfly guard that
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Grip Control Fundamentals** - Establishing and maintaining two-on-one sleeve control from butterfly guard
 Partner offers static butterfly guard position. Practice securing two-on-one grips on sleeve, breaking opponent's centerline, and creating angular positioning. Focus on grip strength and control rather than completing sweeps. Drill pistol grip break motion repetitively.
 (Resistance: None)
@@ -280,7 +280,7 @@ Free rolling with emphasis on using John Wayne Sweep as part of larger guard ret
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi John Wayne Sweep**: Executed with wrist and tricep control instead of sleeve grips. Requires stronger connection and faster execution due to reduced friction. Often combined with Russian tie control on the lead arm. (When to use: In no-gi grappling or MMA contexts where gi grips are unavailable. Particularly effective when opponent reaches for underhooks aggressively.)
 
 **John Wayne to Back Take**: If opponent posts strongly and prevents mount, maintain sleeve control and use momentum to take the back instead. Insert bottom hook as they rotate and establish seat belt control. (When to use: When opponent successfully posts during sweep but you've already committed to the rotation. Allows you to salvage offensive position rather than returning to guard.)
@@ -320,7 +320,7 @@ Free rolling with emphasis on using John Wayne Sweep as part of larger guard ret
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The John Wayne Sweep is generally a low-risk technique for both practitioners when executed properly. The primary safety concern is ensuring sufficient mat space for the rotation, as the sweep involves rotating opponent over your body with momentum. Practice initially on soft surfaces and ensure no obstacles are nearby. Partners should be aware of the incoming sweep to avoid reflexively posting with their arm at dangerous angles, which can cause wrist or shoulder injuries. When drilling, the bottom practitioner should control the speed of rotation initially to prevent unexpected impacts. Advanced practitioners should be mindful of their partner's flexibility limitations when pulling the controlled arm across centerline, as excessive force can strain the shoulder. In competition settings, be aware of mat boundaries to avoid rotating your opponent off the mat.
 
@@ -328,7 +328,7 @@ The John Wayne Sweep is generally a low-risk technique for both practitioners wh
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The John Wayne Sweep is a cornerstone technique within the offensive butterfly guard system and represents an evolution of traditional butterfly sweeping mechanics. It integrates seamlessly with the fundamental butterfly guard philosophy of using opponent's forward pressure against them while maintaining offensive initiative. The technique serves as a bridge between basic butterfly sweeps and more advanced guard systems like X-guard and single leg X-guard, as the setup positions and grip controls are similar. Within Marcelo Garcia's butterfly guard methodology, this sweep represents the creative grip fighting and angular attacks that make butterfly guard effective against larger opponents. The technique also connects to wrestling-inspired guard approaches where grips and angles substitute for pure strength. As part of a complete guard retention system, the John Wayne Sweep provides a high-reward option that directly threatens mount, one of the most dominant positions in BJJ, making it particularly valuable in competition settings where point-scoring is crucial.
 
@@ -336,7 +336,7 @@ The John Wayne Sweep is a cornerstone technique within the offensive butterfly g
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Butterfly Guard]] - Starting position - foundational position from which technique is executed
 - [[Butterfly Hook Control]] - Required control element - proper hook placement essential for sweep execution
@@ -356,7 +356,7 @@ The John Wayne Sweep is a cornerstone technique within the offensive butterfly g
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The John Wayne Sweep exemplifies a critical principle in guard work: the asymmetric control of opponent's upper body creates the conditions for lower body sweeping mechanics to succeed. By establishing two-on-one sleeve control, you create a mechanical advantage that prevents posting on one side while simultaneously creating angular momentum. The pistol grip break is not merely theatrical; it represents the systematic removal of your opponent's final base point before committing to the sweep. Biomechanically, this technique demonstrates how proper sequencing—grip control first, angle creation second, elevation third—transforms individual actions into an unstoppable chain of events. The most sophisticated practitioners understand that the John Wayne Sweep is fundamentally about creating a rotational axis through your opponent's body by controlling one arm while elevating their hips, making their body rotate around the fixed point of the controlled sleeve. This principle of fixing one point while moving another is universal across all effective sweeping mechanics.
 - **Gordon Ryan**: In competition, the John Wayne Sweep is one of my highest percentage attacks from butterfly guard because it combines multiple threats simultaneously—the sweep itself, the kimura on the posted arm, and the back take if they defend incorrectly. What makes it competition-viable is that it directly threatens mount, which is four points in IBJJF rules, making it a game-changing technique in terms of scoring. I prefer executing this sweep when my opponent is reaching for underhooks aggressively because their forward commitment makes the sweep nearly unstoppable. The key competitive adaptation is being ready to transition immediately—if the sweep is defended, I'm already moving to X-guard or attacking the posted arm with a kimura. Against elite opponents, I often fake the John Wayne to draw the hip withdrawal, then follow them into single leg X where I have systematic attacks. The modern metagame demands that every technique chains into others, and the John Wayne's grip configuration sets up numerous follow-up options regardless of defensive reactions.
 - **Eddie Bravo**: The John Wayne Sweep represents the perfect fusion of traditional butterfly guard mechanics with creative grip fighting that defines modern no-gi grappling. In 10th Planet system, we emphasize this sweep particularly in the transition from seated guard to butterfly when opponent pressures forward. The pistol motion isn't just functional—it's also psychological warfare that disrupts opponent's rhythm and creates openings. What makes this technique revolutionary is how it chains with our rubber guard and lockdown systems. If they defend by backing away, we follow into electric chair setups. If they drive forward with underhooks, we transition to mission control or New York entries. The no-gi variation requires explosive hip movement and tighter connections because you lack the gi friction, but this actually makes it more applicable to MMA contexts where my students need techniques that work in all grappling scenarios. The sweep also sets up our twister game beautifully—when opponent turtles to defend, you're already positioned for truck entries. It's all about creating dilemmas where every defensive choice opens a different offensive path.

@@ -8,7 +8,7 @@ description: "Dominant pinning position using perpendicular chest pressure to co
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Dominant pinning position using perpendicular chest pressure to co
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Dominant pinning position using perpendicular chest pressure to co
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 55% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 55%.
 
 ---
 
@@ -193,7 +193,7 @@ The key to maximizing North-South effectiveness is understanding the relationshi
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's torso is positioned perpendicular across bottom player's chest, with continuous downward pressure through the sternum. The chest-to-chest contact must remain constant to prevent the bottom player from creating escape angles or establishing defensive frames.
 - Top player's base is established through wide knee positioning on either side of the bottom player's head and shoulders, with feet providing secondary stability. This wide base creates a stable platform that resists bridging attempts while allowing weight to be concentrated through the chest.
@@ -204,7 +204,7 @@ The key to maximizing North-South effectiveness is understanding the relationshi
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Transition from side control, mount escape, or passing sequence has created perpendicular positioning
 - Bottom player's shoulders are flat on the mat with limited ability to create frames
@@ -230,7 +230,7 @@ The key to maximizing North-South effectiveness is understanding the relationshi
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Transition to Mount]] → [[Mount]]
 
@@ -294,7 +294,7 @@ The key to maximizing North-South effectiveness is understanding the relationshi
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Bridge and Turn to Turtle]]** → [[Turtle]]
 - **[[Explosive Bridge to Guard Recovery]]** → [[Open Guard]]
@@ -306,7 +306,7 @@ The key to maximizing North-South effectiveness is understanding the relationshi
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Follow to Mount]]** → [[Mount]]
   - When opponent attempts to bridge and turn but doesn't achieve full turtle position
@@ -341,7 +341,7 @@ The key to maximizing North-South effectiveness is understanding the relationshi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

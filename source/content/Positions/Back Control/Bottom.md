@@ -8,7 +8,7 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hip e
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hip e
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hip e
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 50% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Successful defense from back control requires understanding the hierarchy of con
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent's chest pressed against your back with constant forward pressure limiting your movement and preventing you from turning to face them
 - Opponent's legs wrapped around your waist with hooks inside your thighs or body triangle locked, controlling your hip movement and preventing rotation
@@ -203,7 +201,7 @@ Successful defense from back control requires understanding the hierarchy of con
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Position established after failed guard retention, mount escape, turtle defense, or takedown defense
 - Opponent has successfully established chest-to-back connection with at least one hook or body triangle control
@@ -231,7 +229,7 @@ Successful defense from back control requires understanding the hierarchy of con
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Back Escape Series]] → [[Half Guard]]
 
@@ -281,7 +279,7 @@ Successful defense from back control requires understanding the hierarchy of con
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Rear Naked Choke]]** → [[Lost by Submission]] (Opponent Success: 65%)
 - **[[Back Control to Crucifix]]** → [[Crucifix]] (Opponent Success: 55%)
@@ -295,7 +293,7 @@ Successful defense from back control requires understanding the hierarchy of con
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Counter to Mount Transition]]** → [[Half Guard]]
   - Opponent attempts to transition to mount and creates space during movement
@@ -337,7 +335,7 @@ Successful defense from back control requires understanding the hierarchy of con
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

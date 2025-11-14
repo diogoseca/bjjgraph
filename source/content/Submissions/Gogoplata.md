@@ -8,7 +8,7 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 
 
 
-> **Quick Answer**: Gogoplata is a shin choke targeting the Trachea and carotid arteries. ⚠️ **SAFETY**: This technique can cause Tracheal damage or crushing - apply slowly over 3-5 seconds and release immediately upon tap.
+> Gogoplata is a shin choke targeting the Trachea and carotid arteries. ⚠️ **SAFETY**: This technique can cause Tracheal damage or crushing. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="safety-considerations" class="content-section">
 
-## Is Gogoplata Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -223,7 +223,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - High guard control must be established before attempting the shin placement across the throat
 - Hip flexibility is essential - the ability to bring your shin across their throat while maintaining control
 - Breaking posture is critical - opponent's head must be pulled down and forward for the choke to work
@@ -237,7 +237,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish closed guard or high guard control with opponent in your guard
 - Break opponent's posture completely - their head must be pulled down low
 - Secure rubber guard position with one foot across opponent's back and behind their head
@@ -252,7 +252,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish high guard control**: From closed guard or open guard, establish a high guard position by climbing your legs up your opponent's back. Secure one foot across their back in rubber guard position, with your shin behind their head. Your other leg should maintain control around their body or be prepared to become the choking mechanism. (Timing: 0-2 seconds) [Pressure: Light]
 2. **Break opponent's posture completely**: Using your rubber guard control and both hands gripping behind opponent's head or controlling their arms, pull their head down aggressively until their face is close to your chest. Their posture must be completely broken - if they can maintain any upright posture, the submission will not work. (Timing: 2-4 seconds) [Pressure: Moderate]
 3. **Thread the choking leg across the throat**: From your high guard position, begin to thread your free leg (the one not in rubber guard) across the front of opponent's throat. Your shin bone should come across their trachea while your foot moves toward the opposite side of their neck. This requires significant hip flexibility and must be done while maintaining broken posture. (Timing: 4-7 seconds) [Pressure: Light]
@@ -266,7 +266,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Posture up aggressively to create space and prevent shin placement** (Effectiveness: High) - Your Adjustment: Anticipate the posture attempt and use your rubber guard leg to pull their head back down immediately. Secure head control with both hands before they can create significant space. If they succeed in posturing, abandon the submission and transition to triangle or omoplata.
 - **Turn head to the side to prevent shin from settling across throat** (Effectiveness: Medium) - Your Adjustment: Follow the direction of their head turn and adjust your shin angle accordingly. Use your hand grips to force their head back to center position. If they persist in turning, you can attack the exposed neck with an arm triangle or switch to a different submission.
 - **Push against your hips to create distance and remove choking pressure** (Effectiveness: Medium) - Your Adjustment: Squeeze your knees together to trap their arms and prevent effective pushing. Your non-choking leg should hook deeper over their back to maintain proximity. Pull their head more aggressively to counteract any distance they create.
@@ -275,28 +275,28 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting the gogoplata without sufficient hip flexibility [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Attempting the gogoplata without sufficient hip flexibility [Medium DANGER]
   - **Consequence**: Inability to bring shin across throat properly, leading to failed submission attempt and potential injury to your own hip or knee from forcing the position
   - **Correction**: Develop hip flexibility through dedicated stretching and yoga before attempting this technique. Practice the positioning slowly with a cooperative partner. If you cannot comfortably bring your shin across while maintaining guard, this submission may not be suitable for your body type.
-- **Error**: Failing to break opponent's posture before attempting shin placement [Low DANGER]
+- **Mistake**: Failing to break opponent's posture before attempting shin placement [Low DANGER]
   - **Consequence**: Opponent easily postures up and escapes, or they stack you and pass your guard while you're attempting the submission
   - **Correction**: Ensure opponent's posture is completely broken with their head pulled down low before initiating the shin thread. Use your rubber guard position and head control to maintain broken posture throughout the entire technique. Posture control is the foundation of this submission.
-- **Error**: Placing the calf muscle across the throat instead of the shin bone [Low DANGER]
+- **Mistake**: Placing the calf muscle across the throat instead of the shin bone [Low DANGER]
   - **Consequence**: Ineffective choking pressure due to soft tissue compression rather than hard bone pressure. Opponent can often resist or escape easily
   - **Correction**: Focus on positioning the blade of your shin bone (the hard front edge) directly across the trachea. Your foot should be positioned behind their head, not alongside it. The shin bone creates much more effective compression than the calf muscle.
-- **Error**: Applying pressure too quickly without allowing time for tap [CRITICAL DANGER]
+- **Mistake**: Applying pressure too quickly without allowing time for tap [CRITICAL DANGER]
   - **Consequence**: CRITICAL DANGER - rapid pressure on the trachea can cause serious injury including tracheal collapse, loss of consciousness, or permanent damage
   - **Correction**: ALWAYS apply pressure slowly and progressively over 5-7 seconds minimum. Watch for tap signals constantly. This is one of the most dangerous submissions due to direct tracheal pressure. In training, use minimal pressure - just enough for partner to feel the position. Never spike or jerk the submission.
-- **Error**: Losing control of opponent's head during the submission [Low DANGER]
+- **Mistake**: Losing control of opponent's head during the submission [Low DANGER]
   - **Consequence**: Opponent can posture up or turn their head to escape the choke. Without head control, the submission becomes ineffective
   - **Correction**: Maintain strong two-hand control on the back of opponent's head throughout the entire submission. Your hands should be pulling their head forward into your shin constantly. Never release head control until the tap occurs or you abandon the submission.
-- **Error**: Neglecting to control opponent's body with the non-choking leg [Medium DANGER]
+- **Mistake**: Neglecting to control opponent's body with the non-choking leg [Medium DANGER]
   - **Consequence**: Opponent can create distance, posture up, or escape the position entirely. Loss of overall positional control
   - **Correction**: Your non-choking leg (the rubber guard leg) should maintain active control by hooking over opponent's back or shoulder. This leg prevents them from creating space and maintains your high guard position. Both legs work together - one chokes, one controls.
-- **Error**: Attempting the submission when fatigued or with poor flexibility [High DANGER]
+- **Mistake**: Attempting the submission when fatigued or with poor flexibility [High DANGER]
   - **Consequence**: Increased risk of injury to yourself (hip, knee, or ankle) and inability to maintain proper control for safe execution
   - **Correction**: Only attempt gogoplata when you are fresh and your flexibility is optimal. This is not a submission to attempt when tired. If your flexibility is compromised due to fatigue, choose different submission options. Know your physical limitations and respect them.
 
@@ -305,7 +305,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Gogoplata from High Mount**: When you have secured high mount position, opponent's defensive posture often creates an opening for the gogoplata. Thread your shin across their throat from the top position, using your body weight to drive the pressure down rather than pulling their head up. This variation requires even more flexibility but can be highly effective against defensive opponents who tuck their elbows in mount. (When to use: When you have high mount and opponent is defending with elbows tight to their body, creating space near their neck. Particularly effective when opponent turns to their side attempting to escape mount.)
 
 **Gogoplata from Mission Control**: From Eddie Bravo's mission control position (a specific rubber guard configuration), the gogoplata becomes more accessible. With opponent's arm trapped and their posture already compromised, thread your shin across while maintaining the mission control structure. This setup provides better control and makes the shin placement easier due to the arm trap. (When to use: When you have successfully entered mission control in the 10th Planet system and opponent's posture is broken. This is often the highest-percentage gogoplata setup for practitioners of the rubber guard system.)
@@ -345,7 +345,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Flexibility Development** (Weeks 1-8 (prerequisite phase))
 - Focus: Develop the hip flexibility required for gogoplata through dedicated stretching, yoga, and mobility work. Focus on hip flexion, external rotation, and hamstring flexibility. Practice bringing your shin toward your opposite shoulder while maintaining guard position.
 - Resistance: None
@@ -382,7 +382,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Rubber Guard]]
 - [[Mission Control]]
@@ -396,7 +396,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Omoplata]]
@@ -437,7 +437,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The gogoplata represents an interesting case study in submission mechanics - it is one of the few submissions where the physical attributes of the practitioner (specifically flexibility) play a nearly deterministic role in whether the technique is even viable for them. From a systematic perspective, the gogoplata should be viewed not as a standalone technique but as the terminal point of a comprehensive rubber guard system. The mechanics are straightforward: you are using your shin bone as a lever against the trachea while pulling the opponent's head forward to create compression. However, the setup requires such specific positional prerequisites - broken posture, high guard control, and the hip flexibility to achieve the shin placement - that it becomes a low-percentage technique for most practitioners. The safety considerations cannot be overstated: this is a tracheal compression technique, not a blood choke, which means the injury potential is significantly higher. In training, I recommend treating the gogoplata with the same respect you would give to heel hooks - perfect technical execution, slow application, and immediate respect for the tap. For competition, the risk-reward calculation heavily depends on your flexibility and your opponent's defensive awareness. If you possess exceptional flexibility and have developed the necessary control through systematic rubber guard training, the gogoplata can be a legitimate finishing option. However, for most practitioners, the effort invested in developing gogoplata proficiency would likely yield better returns if invested in perfecting triangle chokes or omoplatas, which have similar setups but broader applicability and lower injury risk.
 - **Gordon Ryan**: I'll be completely honest - the gogoplata is not a high-percentage submission in modern no-gi grappling at the highest levels, and I rarely use it myself. The flexibility requirement immediately eliminates it as an option for a significant portion of grapplers, and even if you have the flexibility, the setup time and positional requirements make it less efficient than other submissions from the same positions. That said, I've seen it work at the highest levels when certain conditions align: your opponent is tired, their posture is completely broken, and they're not experienced with defending rubber guard attacks. In competition, I view the gogoplata more as a threat that opens up other submissions rather than as a primary finishing mechanism. When I establish rubber guard control and threaten gogoplata, opponents often react in ways that expose their arms for kimuras or their neck for triangles - submissions I consider much higher percentage. The gogoplata has shock value, especially against opponents who haven't trained extensively in 10th Planet-style systems, and that psychological element can be valuable. However, from a pure efficiency standpoint, I prefer submissions where I can rely primarily on technique and pressure rather than requiring exceptional flexibility. If you have the flexibility and enjoy the rubber guard game, developing a gogoplata can definitely add another dimension to your attack. Just understand that in training, you need to be extremely careful with the application - this is one of the few submissions where I've seen serious injuries occur from practitioners not respecting the tap or applying too much pressure too quickly. In competition, use it when the opportunity is perfect, but don't force it when better options exist.
 - **Eddie Bravo**: The gogoplata is the crown jewel of the rubber guard system, man. When people think 10th Planet, they think rubber guard, and when they think rubber guard at its highest level, gogoplata is right there. Now, here's the real talk - not everyone is built for the gogoplata. You need serious hip flexibility, and that's something you develop over months and years of dedicated work. But if you put in that time, if you develop the flexibility and really understand the rubber guard system, the gogoplata becomes this beautiful finishing option that most people just don't see coming. The key is mission control - when you've got someone in mission control, their arm is trapped, their posture is destroyed, and you're in the perfect position to thread that shin across. What makes the gogoplata special in the 10th Planet system is that it's part of a chain. You're attacking with triangles, omoplatas, invisible collar, and gogoplata all from similar positions, and your opponent doesn't know which one is coming. The gogoplata also has this mental warfare aspect - when someone knows you're hunting for it, they start defending in ways that open up everything else. But listen, safety is paramount with this one. This isn't like a rear naked choke where you can kind of go hard in training. The gogoplata attacks the trachea directly, and you can seriously hurt your training partner if you're not careful. In our gym, we drill this technique a lot, but we drill it with respect. Slow application, immediate tap respect, and we make sure people have the flexibility before they even attempt it in live rolling. The gogoplata is advanced - it's not for white belts, it's not for people who don't have the flexibility, and it's definitely not for people who don't understand the safety implications. But for those who put in the work and develop the skill, it's one of the most unique and effective submissions in jiu-jitsu. It represents the evolution of the art - using flexibility and unconventional positions to create finishes that the old-school guys never even imagined.

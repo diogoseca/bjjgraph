@@ -8,7 +8,7 @@ description: "Master toe hold variations in BJJ. Learn setups from 50-50, ashi g
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master toe hold variations in BJJ. Learn setups from 50-50, ashi g
 
 
 
-> **Quick Answer**: Toe Hold Variations is a leg lock targeting the Ankle and foot ligaments. ⚠️ **SAFETY**: This technique can cause Ankle ligament tears (deltoid, talofibular) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Toe Hold Variations is a leg lock targeting the Ankle and foot ligaments. ⚠️ **SAFETY**: This technique can cause Ankle ligament tears (deltoid, talofibular). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="safety-considerations" class="content-section">
 
-## Is Toe Hold Variations Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Secure leg entanglement before attempting finish - leg must be controlled at knee and hip level
 - Control the heel and ankle as one unit - cupping the heel prevents foot from rotating freely
 - Rotation comes from torso and shoulder movement, not just arm strength
@@ -225,7 +225,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish leg entanglement with opponent's leg controlled between your legs
 - Secure inside position with your knee or shin controlling opponent's thigh
 - Break opponent's defensive grips on their own foot or ankle
@@ -239,7 +239,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish leg entanglement control**: From 50-50 or ashi garami position, ensure opponent's leg is fully controlled between your legs with their knee trapped. Your outside leg should be over their thigh while your inside leg controls under their knee. Establish hip-to-hip connection to prevent them from creating distance. Your hips should be angled toward their trapped leg, not square to their body. (Timing: 2-3 seconds to establish control) [Pressure: Moderate]
 2. **Cup the heel and control the ankle**: Use your hand closest to their foot to cup their heel, wrapping your palm around the back of the heel with fingers pointing toward their toes. This hand maintains ankle alignment and prevents the foot from rotating independently. Your other hand will control the toes. Break any grips they have on their own foot by using your shoulder pressure or by controlling their wrist. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Grip the toes and ball of foot**: With your free hand, reach across and grip the ball of their foot, wrapping your fingers around their toes. Your thumb should be on the sole of their foot. This creates a figure-four-like structure with your arms. Ensure you have control of at least three toes for maximum leverage. Keep your elbows tight to your body to maintain structural strength. (Timing: 1-2 seconds) [Pressure: Light]
@@ -252,7 +252,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Grabbing their own foot with both hands to prevent rotation** (Effectiveness: High) - Your Adjustment: Use shoulder pressure against their arms while maintaining heel cup. Transition to standard toe hold by sliding your top arm under their knee for additional breaking pressure. Alternatively, switch to straight ankle lock if they expose it.
 - **Sitting up aggressively to address your upper body** (Effectiveness: High) - Your Adjustment: Use your free leg to push their chest back down or establish collar tie. Temporarily abandon the finish to reestablish positional dominance. Once they're controlled again, return to the submission. You can also transition to triangle or backtake from this defensive reaction.
 - **Rolling through in the direction of the rotation to relieve pressure** (Effectiveness: Medium) - Your Adjustment: Anticipate the roll and adjust your hip position to roll with them while maintaining controls. As they complete the roll, you'll often end up in top ashi or saddle position with the submission still available. Keep your grips throughout the roll.
@@ -262,28 +262,28 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Pulling the foot toward your body instead of rotating in place [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Pulling the foot toward your body instead of rotating in place [Medium DANGER]
   - **Consequence**: Converts the toe hold into a less effective ankle lock and allows opponent to turn into the pressure to escape
   - **Correction**: Focus on rotational movement only - the foot should stay at the same distance from your body throughout. Use your torso rotation, not arm pulling.
-- **Error**: Failing to cup the heel securely before rotating [High DANGER]
+- **Mistake**: Failing to cup the heel securely before rotating [High DANGER]
   - **Consequence**: Foot slips out of position or rotates independently, eliminating submission pressure and potentially causing injury from uncontrolled movement
   - **Correction**: Always establish heel cup first with palm wrapped around back of heel. Only begin rotation once this anchor point is secure.
-- **Error**: Applying explosive jerking motion to finish quickly [CRITICAL DANGER]
+- **Mistake**: Applying explosive jerking motion to finish quickly [CRITICAL DANGER]
   - **Consequence**: Can cause severe ankle ligament tears, foot fractures, or Achilles tendon rupture before opponent can tap
   - **Correction**: Apply all rotational pressure progressively over 3-5 seconds minimum in training. Even in competition, control the application to avoid injuring your opponent.
-- **Error**: Neglecting leg entanglement and focusing only on the foot [Low DANGER]
+- **Mistake**: Neglecting leg entanglement and focusing only on the foot [Low DANGER]
   - **Consequence**: Opponent easily extracts their leg or sits up to defend, losing the position entirely
   - **Correction**: Establish solid leg entanglement first - legs control legs, arms finish the submission. Never sacrifice positional control for submission attempts.
-- **Error**: Gripping only one or two toes instead of the ball of the foot [High DANGER]
+- **Mistake**: Gripping only one or two toes instead of the ball of the foot [High DANGER]
   - **Consequence**: Insufficient leverage for the rotation and individual toes can be injured without achieving submission
   - **Correction**: Wrap your hand around the ball of the foot, controlling at least three toes. Your grip should feel like you're holding a baseball, not individual fingers.
-- **Error**: Allowing too much space between your chest and their trapped leg [Medium DANGER]
+- **Mistake**: Allowing too much space between your chest and their trapped leg [Medium DANGER]
   - **Consequence**: Opponent sits up easily to defend or break your grips, negating the submission attempt
   - **Correction**: Keep your chest connection to their thigh throughout. Your upper body weight should make it difficult for them to sit up.
-- **Error**: Rotating the foot beyond safe training range during drilling [CRITICAL DANGER]
+- **Mistake**: Rotating the foot beyond safe training range during drilling [CRITICAL DANGER]
   - **Consequence**: Training partner suffers ankle injury even at slow speed due to accumulated rotational stress
   - **Correction**: In drilling, stop rotation as soon as any resistance is felt. The goal is position repetition, not testing partner's pain tolerance. Save finishing pressure for supervised sparring only.
 
@@ -292,7 +292,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Standard Toe Hold from 50-50**: Classic setup from 50-50 guard with both legs entangled symmetrically. Cup the heel with your bottom arm, grip toes with top arm, and rotate using shoulder turn. This is the fundamental variation and most commonly taught entry. (When to use: When you have established 50-50 and opponent is defending other leg attacks. Works well when opponent focuses on preventing heel hooks and neglects toe hold defense.)
 
 **Top Toe Hold from Outside Ashi**: From outside ashi position, establish toe hold grips while maintaining top control. Your outside leg stays heavy on their thigh while you rotate the foot. This variation offers better control than bottom positions and is harder to counter. (When to use: When you've achieved outside ashi from passing or transitions. Excellent when opponent is defending against straight ankle locks. Common in no-gi competition.)
@@ -339,7 +339,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Safety Education** (Week 1-2)
 - Focus: Learn foot anatomy, ankle ligament structure, injury mechanisms, and ethical responsibility. Study videos and demonstrations without applying pressure. Understand why toe holds are dangerous and how to train them safely.
 - Resistance: None
@@ -376,7 +376,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[50-50 Guard]]
 - [[Outside Ashi-Garami]]
@@ -394,7 +394,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Toe Hold]]
 - [[Toe Hold from 50-50]]
@@ -434,7 +434,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The toe hold represents a fascinating study in rotational joint mechanics applied to the ankle complex. What makes this submission particularly effective is the multi-planar nature of ankle joint vulnerability - we're not simply extending or flexing, but creating rotation that the ankle is biomechanically weak against. The key technical point that separates effective toe hold application from ineffective attempts is the concept of the heel cup as an anchor point. Without securing the heel, you're attempting to rotate the foot in space rather than rotate the foot around the fixed point of the ankle joint. This is why beginners often fail with toe holds - they grip the toes correctly but neglect the heel control, resulting in the foot simply spinning in their hands without generating joint pressure. From a systematic perspective, the toe hold should be understood as part of a larger leg entanglement attack system where it serves as an alternative attack angle when heel exposure is defended. The transition between inside heel hook, outside heel hook, straight ankle lock, and toe hold creates a true submission dilemma where defending one attack necessarily exposes another. In training progressions, I emphasize that students must develop toe hold sensitivity slowly and progressively because ankle ligaments provide very little warning before catastrophic failure - the margin between 'I feel pressure' and 'my ankle is severely injured' can be less than one second of additional rotation.
 - **Gordon Ryan**: In competition, toe holds are one of my favorite submissions because most people defend heel hooks obsessively but completely neglect toe hold defense until it's too late. The modern meta-game has everyone worried about inside heel hooks and saddle positions, which creates this massive blind spot for toe hold attacks, especially from 50-50 and outside ashi. My approach is to threaten the heel hook to get their hands fighting high on the leg, then quickly transition to toe hold when their foot is exposed and undefended. The beauty of the toe hold from a competition strategy perspective is that it finishes quickly - once you have the grips and start rotating, they have maybe 1-2 seconds to tap before real damage occurs, which doesn't give them time to work complex escapes. From outside ashi especially, the top toe hold is extremely high percentage because you have all the control advantages - your weight, your hip pressure, your ability to prevent the sit-up - while they're fighting from a position of weakness. The key difference between training and competition application is the speed: in training, I always apply it slowly over 3-5 seconds and tap people with control pressure, never pain. In competition, once my grips are set and I've confirmed they can't escape the position, I apply it much more quickly while still being controlled enough to stop if they tap. I've finished world-class black belts with toe holds from scrambles because they were so focused on preventing my heel hook entries that they completely forgot about toe hold defense. That's the lesson - never become so specialized in your defense that you create massive vulnerabilities elsewhere in the leg lock game.
 - **Eddie Bravo**: The toe hold is a perfect example of why leg locks are such a huge part of the evolution of jiu-jitsu - it's this devastating submission that works from so many different positions and creates all these opportunities for creative attacks. In the 10th Planet system, we look at toe holds not just as static submissions from established positions, but as dynamic attacks you can hit during transitions and scrambles. Some of my favorite toe hold setups come from weird inverted positions or from half guard when someone's trying to pass and their foot gets exposed. The thing people don't realize is that you can catch toe holds from positions where you'd never expect them - like from bottom side control if you can get your hands on their far foot, or from turtle if they make a mistake with their leg positioning. What I teach my guys is to always be aware of foot positioning during scrambles because toe hold opportunities appear and disappear in fractions of a second. The variation I really love is the belly-down toe hold when someone turtles during a leg entanglement exchange - they think they're safe because they turned away from you, but their foot is still there and you can sit to the outside and lock it up. In terms of training safety, toe holds are definitely one of those submissions where you need to build a serious culture of respect and communication because ankle injuries are no joke and they can end someone's training for months. I always tell people to tap early to toe holds in training, like way earlier than you would in competition, because there's no benefit to testing your ankle's breaking point when you're just trying to get better at jiu-jitsu. Save the toughness for competition. In the gym, tap fast, learn the position, and live to train another day with healthy ankles.

@@ -8,7 +8,7 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -189,7 +187,7 @@ The position excels as both a retention platform and an offensive launching poin
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner on their side with inside leg creating inverted hook across opponent's trapped leg, forming characteristic 'K' shape with knee pointing toward opponent's far hip while foot hooks behind near leg
 - Outside leg maintains active butterfly hook under opponent's free leg with foot positioned at hip level, creating elevation point and preventing opponent from settling weight
@@ -202,7 +200,7 @@ The position excels as both a retention platform and an offensive launching poin
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successfully entering half guard bottom position with trapped leg control
 - Ability to invert hips and create crossed-leg hook configuration
@@ -230,7 +228,7 @@ The position excels as both a retention platform and an offensive launching poin
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[X-Guard Sweep]] → [[X-Guard]]
 
@@ -287,7 +285,7 @@ The position excels as both a retention platform and an offensive launching poin
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 35%)
 - **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 40%)
@@ -300,7 +298,7 @@ The position excels as both a retention platform and an offensive launching poin
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Deep Half Entry]]** → [[Deep Half Guard]]
   - Opponent attempts to drive forward pressure to flatten hooks
@@ -344,7 +342,7 @@ The position excels as both a retention platform and an offensive launching poin
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

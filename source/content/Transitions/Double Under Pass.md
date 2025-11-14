@@ -8,7 +8,7 @@ description: "Master the Double Under Pass in BJJ. Control-based guard pass usin
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Double Under Pass in BJJ. Control-based guard pass usin
 
 
 
-> **Quick Answer**: Double Under Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Double Under Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish bilateral underhooks deep beneath opponent's legs before advancing
 - Maintain constant chest-to-chest pressure to limit opponent's hip mobility
 - Control opponent's upper body by driving their shoulders to the mat
@@ -190,7 +190,7 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent is in open guard (butterfly, de la riva, or seated guard variations)
 - Ability to break opponent's grips and frames on your upper body
 - Posture broken down with opponent's back approaching the mat
@@ -203,7 +203,7 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish first underhook**: From open guard top position, begin by breaking any grips the opponent has on your upper body using grip breaks or hand fighting. Drop your weight forward slightly and swim your first arm deep underneath one of the opponent's legs, achieving an underhook position with your elbow on the inside of their thigh. Your hand should reach across their body toward the opposite hip, establishing a deep hook that prevents them from easily extracting their leg. (Timing: Initial setup phase, no rush)
 2. **Establish second underhook**: With the first underhook secure, immediately work to establish the second underhook beneath the opponent's other leg. This requires you to drop your chest pressure onto their hips and legs while swimming your second arm underneath. Both hands should now be behind the opponent's body, with your forearms crossed or parallel beneath their legs. This bilateral underhook configuration is the foundation of the entire pass. (Timing: Quickly after first underhook, before opponent can frame)
 3. **Consolidate chest pressure**: Once both underhooks are established, drop your full chest weight onto the opponent's hips and thighs, driving them toward the mat. Your head should be positioned on one side of their body (typically the side you plan to pass toward), with your ear near their ribcage or shoulder area. Lock your hands together behind their back if possible, creating a tight grip that prevents separation. This pressure should be overwhelming and constant, making it extremely difficult for them to create space or move their hips. (Timing: Immediate consolidation after achieving double unders)
@@ -217,7 +217,7 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent frames on your head and neck to create distance** (Effectiveness: Medium) - Your Response: Drive through their frames by lowering your head position and increasing chest pressure while circling toward the side of the frame. Do not allow them to create vertical space—instead, keep your weight dropping down onto them continuously.
 - **Opponent grabs your belt or pants to prevent forward pressure** (Effectiveness: Medium) - Your Response: Circle your hips and use lateral movement to break the mechanical advantage of their grips. If they hold your belt, your lateral stepping will eventually force them to release or be pulled with you as you pass. Maintain underhook depth throughout.
 - **Opponent locks closed guard or half guard during the pass** (Effectiveness: High) - Your Response: If they achieve closed guard, you must break the guard before continuing. If they capture half guard, transition to a half guard passing sequence, maintaining your underhook control on the trapped leg side and working to clear the lockdown or hook.
@@ -227,25 +227,25 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Standing too upright during the pass attempt
+## Common Mistakes
+- **Mistake**: Standing too upright during the pass attempt
   - **Consequence**: Opponent can easily frame on your hips or shoulders to create distance, preventing you from establishing or maintaining the double under position
   - **Correction**: Keep your hips low and heavy throughout the entire passing sequence. Your chest should be driving downward onto the opponent's body, not allowing any vertical space that they could exploit with frames
-- **Error**: Establishing shallow underhooks that don't reach behind opponent's back
+- **Mistake**: Establishing shallow underhooks that don't reach behind opponent's back
   - **Consequence**: Opponent can extract their legs easily and recover guard, or they can use frames against your arms to create separation
   - **Correction**: Swim your underhooks deeply until your hands reach behind the opponent's back, ideally clasping together. Your elbows should be on the inside of their thighs with maximum depth achieved
-- **Error**: Moving too quickly or explosively during the lateral stepping phase
+- **Mistake**: Moving too quickly or explosively during the lateral stepping phase
   - **Consequence**: Creates scrambles where the opponent can use momentum to recover guard, potentially achieving closed guard or butterfly hooks during the transition
   - **Correction**: Use slow, controlled lateral steps while maintaining constant chest pressure. Speed is not the goal—control and sustained pressure are paramount. Take small steps and ensure pressure is maintained throughout
-- **Error**: Releasing underhook control too early before legs are fully cleared
+- **Mistake**: Releasing underhook control too early before legs are fully cleared
   - **Consequence**: Opponent immediately recovers guard by inserting hooks or framing, negating all the progress made during the pass attempt
   - **Correction**: Do not release your underhook grips until both legs are completely cleared and you are perpendicular to the opponent's body. Maintain control throughout the entire passing sequence
-- **Error**: Failing to control opponent's upper body with head pressure
+- **Mistake**: Failing to control opponent's upper body with head pressure
   - **Consequence**: Opponent sits up and creates frames on your head and shoulders, easily defending the pass and potentially sweeping
   - **Correction**: Use your head as an additional point of pressure, driving into the opponent's chest or shoulder to prevent them from sitting up. Your head position should be active, not passive
-- **Error**: Allowing space between your chest and opponent's body
+- **Mistake**: Allowing space between your chest and opponent's body
   - **Consequence**: Opponent uses this space to insert frames, recover guard, or create enough distance to stand up and disengage
   - **Correction**: Maintain constant chest-to-chest contact throughout the pass. Any space that develops should be immediately closed by dropping your weight and tightening your underhook control
 
@@ -254,7 +254,7 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Static Control (Week 1-2)** - Establishing and maintaining double under position
 Partner starts in open guard and allows you to establish both underhooks. Practice achieving deep underhook position, clasping hands behind their back, and maintaining heavy chest pressure for 30-60 seconds. Focus on feeling what proper pressure and control feels like without attempting the pass yet. Partner provides zero resistance initially, then light resistance by attempting to frame and create space.
 (Resistance: Light)
@@ -285,7 +285,7 @@ Incorporate the double under pass into your active passing game during live roll
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Headquarters to Double Under**: From headquarters position with one underhook already established, transition to double under by swimming the second arm underneath while maintaining heavy pressure. This is a common entry that builds on already established control. (When to use: When you've established headquarters control but opponent is effectively defending the knee slice or other headquarters-based passes)
 
 **Stack Double Under**: Instead of using lateral movement, drive directly forward to stack the opponent's hips over their shoulders while maintaining double under grips. This creates immense pressure and can force the legs to clear vertically rather than laterally. (When to use: Against opponents who are very flexible or who effectively defend lateral passing by turning to their side)
@@ -325,7 +325,7 @@ Incorporate the double under pass into your active passing game during live roll
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The double under pass is generally a safe technique for both practitioners when executed properly, but several safety considerations should be observed. When driving pressure onto the opponent, ensure you are using chest and shoulder pressure rather than driving your head into vulnerable areas like the neck or throat, which could cause injury. Be mindful of the opponent's spine and neck when stacking—avoid excessive forward pressure that hyperextends the cervical spine, particularly when using the stack variation. When training with less experienced partners, moderate your pressure to allow them to develop defensive capabilities without being overwhelmed. Always respect the tap if the pressure becomes uncomfortable or if breathing is compromised. For the person being passed, do not panic or use explosive bridging movements that could strain your own neck or spine—instead, focus on technical defensive responses. Both practitioners should communicate about pressure levels during training, especially when learning the technique, ensuring that the passer develops proper control without injuring their training partner.
 
@@ -333,7 +333,7 @@ The double under pass is generally a safe technique for both practitioners when 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The double under pass is a cornerstone technique within the pressure passing system and integrates seamlessly with several fundamental BJJ positions and concepts. It most commonly initiates from open guard top positions, particularly when the opponent is using butterfly guard, de la riva variations, or seated guard positions. The technique serves as an excellent complement to the headquarters passing system—many practitioners establish a single underhook in headquarters position and then transition to double under when appropriate. Once side control is achieved via the double under pass, the natural progressions include maintaining side control for submissions (kimura, americana, arm triangle), transitioning to mount, or advancing to knee on belly for increased control and submission opportunities. The pass also chains effectively with other pressure-based techniques like the smash pass, over-under pass, and bodylock pass, creating a comprehensive pressure passing system where if one technique is defended, another becomes available. Understanding the double under pass's position within this larger framework allows practitioners to develop a cohesive top game where pressure is constantly applied through multiple passing strategies. The technique also exemplifies the fundamental principle of position before submission, as it prioritizes overwhelming positional control before considering any offensive attacks.
 
@@ -341,7 +341,7 @@ The double under pass is a cornerstone technique within the pressure passing sys
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Headquarters Position]] - Common entry position with single underhook established
 - [[Over-Under Pass]] - Similar pressure passing technique with different grip configuration
@@ -361,7 +361,7 @@ The double under pass is a cornerstone technique within the pressure passing sys
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The double under pass represents fundamental principles of positional control applied to guard passing. When we examine this technique through a biomechanical lens, we see that the bilateral underhook configuration creates a control system where the opponent's defensive tools are systematically neutralized. Their legs, which normally provide both offensive and defensive capabilities in guard, are rendered ineffective because your underhooks control them from beneath—a position where they have minimal mechanical advantage. Your chest pressure, when applied correctly, creates a weight distribution that prevents hip movement, which is the foundation of all guard retention. The beauty of this pass lies not in athleticism or speed, but in the creation of a positional hierarchy where your control points dominate their defensive structure. This is pressure passing in its purest form—you create a position where time works in your favor because the opponent's energy expenditure to defend vastly exceeds your energy expenditure to maintain pressure. From a systematic perspective, this pass should be viewed as part of a larger passing framework where headquarters, knee slice, and stack passing all interconnect based on the opponent's defensive reactions.
 - **Gordon Ryan**: The double under pass is one of the highest percentage passes I use in competition because it's fundamentally sound and extremely difficult to defend when executed with proper pressure and timing. In high-level competition, this pass works because it doesn't give opponents the dynamic opportunities they're looking for—it forces them into a grinding, pressure-based defensive scenario where their athleticism and explosive reactions are largely neutralized. I typically enter this pass from headquarters position when I feel the opponent overcommitting to defending the knee slice. The key in competition is understanding that you don't need to rush the pass—if you have the position locked down with both underhooks and heavy pressure, you can take your time clearing the legs because the opponent has very limited options to escape or counter. I've finished this pass against world-class competitors because it's a technique where superior pressure and weight distribution overcome even exceptional guard retention skills. The most important competition detail is ensuring your underhooks are deep enough that you can weather any defensive storm the opponent creates. If your hooks are shallow, high-level guys will extract their legs immediately. But with deep hooks and relentless pressure, this pass becomes nearly unstoppable against any level of competition.
 - **Eddie Bravo**: While the double under pass is definitely more of a traditional, old-school technique, there are ways to make it work in modern no-gi grappling, especially when you adapt it with some creative elements. In 10th Planet, we look at the double under position as a control platform that can lead to multiple outcomes—not just side control. If you're passing someone's guard with double unders and they turn to their side to defend, that's a perfect opportunity to transition to the truck position or take the back instead of forcing the side control pass. We also combine the double under control with lockdown passing strategies when someone catches half guard during the pass attempt. The key innovation I'd suggest is thinking about the double under pass not as a single technique but as a control position that opens up multiple pathways—you can pass to side control, you can take the back, you can even transition to leg attacks if the opponent tries to invert or create distance. Don't be so married to the traditional completion that you miss creative opportunities. That said, the fundamental pressure principles are solid, and understanding how to apply crushing chest pressure is essential for any top player. Even in the rubberguard era, you still need to know how to pass with pressure when the situation calls for it.

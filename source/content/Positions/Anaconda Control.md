@@ -13,10 +13,6 @@ description: "Master Anaconda Control in BJJ. Complete guide covering offensive 
 
 
 
-> **Quick Overview**: Anaconda Control is a powerful submission control position in Brazilian Jiu-Jitsu where one practitioner has secured a front headlock variation with an arm-in configuration around the opponent's neck ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,31 +48,19 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive |
-| Risk Level | High | Low |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive |
+| **Risk Level** | High | Low |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Arm-in headlock trades base for submission
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Anaconda Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Anaconda Control/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Arm-in headlock trades base for submission
 
 
 
@@ -84,10 +68,13 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 <section id="bottom-summary" class="content-section">
 
-## Anaconda Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Anaconda Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in anaconda control must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -130,7 +117,7 @@ The bottom player in anaconda control must focus on creating frames, protecting 
   - Success Rate: Beginner 8%, Intermediate 22%, Advanced 38%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Failing to immediately address the choking arm with free hand, allowing opponent time to lock the position**
@@ -158,16 +145,17 @@ The bottom player in anaconda control must focus on creating frames, protecting 
   - ✅ Correction: Keep trapped arm bent and pulled close to body to minimize the space opponent can control with their lock
 
 
-👉 **[[Anaconda Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Anaconda Control Top Perspective
+
+## Playing as Top
+
+[[Anaconda Control/Top|→ Full Top Guide]]
 
 
-The top player in anaconda control enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -210,7 +198,7 @@ The top player in anaconda control enjoys offensive advantages with access to su
   - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Releasing chest pressure to adjust grip or position**
@@ -233,8 +221,6 @@ The top player in anaconda control enjoys offensive advantages with access to su
   - Consequence: Unable to execute roll-through finish, limiting submission options to standing choke which is less effective
   - ✅ Correction: Keep hips beside or slightly behind opponent's hips to maintain mobility for forward roll while maintaining upper body control
 
-
-👉 **[[Anaconda Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

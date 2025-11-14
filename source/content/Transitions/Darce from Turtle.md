@@ -8,7 +8,7 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
 
 
 
-> **Quick Answer**: Darce from Turtle transitions from [[Turtle]] to [[D'arce Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
+> Darce from Turtle transitions from [[Turtle]] to [[D'arce Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control opponent's far shoulder to prevent escape and create threading angle
 - Maintain chest-to-back pressure throughout the setup to flatten opponent
 - Thread choking arm deep across opponent's neck before securing grip
@@ -180,7 +180,7 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent must be in defensive turtle position with head down
 - You have established front headlock control or overhook control from turtle top
 - Opponent's far-side arm is exposed and vulnerable to attack
@@ -193,7 +193,7 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish front headlock control**: From turtle top position, secure front headlock control by wrapping your arm around opponent's neck. Your chest should be heavy on their back, flattening them and preventing them from sitting through to guard. Control their far shoulder with your free hand, using an overhook or grip on their lat muscle. Your weight distribution should be forward, making it difficult for them to move or escape. (Timing: Initial control phase - be patient and heavy)
 2. **Swim your choking arm across the neck**: Begin threading your choking arm (the arm that was controlling the neck) across opponent's throat and toward their far-side armpit. Your forearm should slide across the front of their neck with your bicep on one side of their neck and your forearm on the other. Keep your elbow tight and pointed downward as you swim through. The key is to get as deep as possible - your hand should emerge near their opposite lat muscle. (Timing: Execute when opponent is flat and unable to create space)
 3. **Trap the far-side arm**: As your choking arm threads through, ensure opponent's far-side arm becomes trapped between your bicep and their own neck. This is crucial - the Darce choke works by compressing one side of the neck with your arm and the other side with their own trapped shoulder. Use your free hand to guide their arm into the trap if necessary, or prevent them from pulling it free. (Timing: Simultaneous with threading - don't allow arm to escape)
@@ -206,7 +206,7 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sits through to guard before you can thread arm** (Effectiveness: High) - Your Response: Follow them to guard and transition to anaconda choke or guillotine. If they sit through quickly, use their momentum to take their back instead of forcing the Darce.
 - **Opponent pulls their far arm free during threading** (Effectiveness: High) - Your Response: Switch to front headlock series - guillotine, anaconda, or arm-in guillotine. Don't fight for the Darce if the arm escapes; transition immediately to prevent losing position.
 - **Opponent turns into you, facing guard** (Effectiveness: Medium) - Your Response: If grip is already secured, maintain the Darce and adjust to a front-facing finish. If not locked, transition to guillotine or use their turn to take mount position.
@@ -216,25 +216,25 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Threading arm too shallow across neck
+## Common Mistakes
+- **Mistake**: Threading arm too shallow across neck
   - **Consequence**: Insufficient depth prevents proper compression of carotids, allowing opponent to defend or escape
   - **Correction**: Ensure your hand emerges near opponent's far-side lat muscle. Your entire forearm should cross the front of their neck. Use your free hand to pull their head up slightly if needed to create threading space.
-- **Error**: Locking grip before arm is deep enough
+- **Mistake**: Locking grip before arm is deep enough
   - **Consequence**: Premature grip prevents achieving proper depth and gives opponent time to defend
   - **Correction**: Be patient with the threading process. Only lock your grip once your choking arm hand has emerged completely on the far side. It's better to take an extra second to get deep than to lock a shallow choke.
-- **Error**: Failing to trap opponent's far-side arm
+- **Mistake**: Failing to trap opponent's far-side arm
   - **Consequence**: Without the trapped arm, there's no compression on one side of the neck, making the choke ineffective
   - **Correction**: Actively guide opponent's far arm into the trap with your free hand. If they pull it free, immediately transition to a different submission rather than attempting a one-sided choke.
-- **Error**: Not adjusting body angle for finish
+- **Mistake**: Not adjusting body angle for finish
   - **Consequence**: Straight-on position provides insufficient shoulder pressure and allows opponent to defend
   - **Correction**: After locking grip, move your head to opponent's far hip and angle your body 90 degrees to their spine. This positioning is crucial for generating the shoulder pressure needed to finish.
-- **Error**: Pulling with arms only without shoulder drive
+- **Mistake**: Pulling with arms only without shoulder drive
   - **Consequence**: Arm strength alone is insufficient to finish the choke on a defending opponent
   - **Correction**: The finish comes from driving your shoulder into their neck while pulling your grips to your chest. Your shoulder does most of the work, not your arms. Think 'shoulder forward, elbows to ribs.'
-- **Error**: Rising up too high during setup
+- **Mistake**: Rising up too high during setup
   - **Consequence**: Creates space for opponent to sit through to guard or escape the position entirely
   - **Correction**: Maintain heavy chest pressure on opponent's back throughout the entire sequence. Your chest should never leave their back until the choke is fully locked. Think 'low and heavy' not 'high and light.'
 
@@ -243,7 +243,7 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Positional Understanding** - Entry mechanics and arm threading
 Begin with cooperative partner in turtle position. Practice the movement pattern of threading your arm across the neck 20-30 times per session, focusing on achieving maximum depth. Partner provides zero resistance. Emphasize feeling where your hand should emerge (near far-side lat). Work on maintaining chest pressure while threading. No finishing pressure - just setup repetitions.
 (Resistance: None)
@@ -270,7 +270,7 @@ Use in full resistance positional sparring (start in turtle top position) and re
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Short-arm Darce**: When you cannot get your arm fully across to the far side, establish a 'short' Darce by locking your grip closer to opponent's neck. This variation uses more compression and less arm entrapment, requiring additional shoulder pressure to be effective. (When to use: Against larger opponents or when opponent defends by pulling their head away, preventing deep threading)
 
 **Darce to Anaconda Switch**: If opponent defends the Darce by sitting through to guard, maintain your arm position but switch your grip to the anaconda configuration. Your original choking arm becomes the securing arm, and your free arm becomes the new choking arm threading under their neck. (When to use: When opponent sits through before you can secure the Darce grip, or when the far arm escapes the trap)
@@ -310,7 +310,7 @@ Use in full resistance positional sparring (start in turtle top position) and re
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Darce choke is a blood choke that restricts blood flow to the brain and must be practiced with extreme caution and respect. Apply pressure progressively and slowly, never explosively or with jerking motions. Both partners must have clear tap protocols established - verbal tap, physical tap with hand, and foot tap if hands are trapped. The person applying the choke must release IMMEDIATELY upon receiving any tap signal. During training progressions, build pressure over 3-5 seconds minimum to allow partner time to recognize danger and tap. Never 'spike' the pressure suddenly. Monitor your partner's face and body for signs of distress - if they cannot tap (rare but possible if both hands are trapped), look for color change, body going limp, or unusual sounds. In competition, referees will stop the match if they see signs of unconsciousness, but in training you are your partner's primary safety monitor. Common injuries from improper application include neck strain, carotid artery damage from excessive force, and unconsciousness if held too long. If training partner loses consciousness (goes limp, snoring sounds, unresponsive), release immediately, lay them flat, elevate legs slightly, and monitor breathing. They should regain consciousness within seconds. If not, seek immediate medical attention. Never practice finishing pressure on untrained partners or those who don't understand tap protocols.
 
@@ -318,7 +318,7 @@ The Darce choke is a blood choke that restricts blood flow to the brain and must
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Darce from turtle is a cornerstone technique in the modern front headlock submission system and represents one of the highest-percentage finishes from turtle top position. This technique integrates seamlessly into a comprehensive turtle top attack sequence that includes the anaconda choke, guillotine variations, clock choke, crucifix position, and back take options. The beauty of the Darce from this position is that it shares the same initial control (front headlock) as multiple other attacks, creating a submission dilemma for the defending opponent. If they defend the Darce by sitting through, you can transition to anaconda or guillotine. If they defend by pulling their far arm free, you can attack the back or switch to different submissions. The technique is particularly important in no-gi BJJ where the turtle position is common due to the difficulty of controlling opponents without gi grips. Understanding the Darce from turtle allows you to pressure opponents who use turtle as their primary defensive position, forcing them to either risk submission or abandon the turtle entirely. This technique also chains effectively with other positional transitions - a failed Darce attempt can lead to side control, mount, or back control, ensuring you maintain offensive advantage even if the submission doesn't finish. In the broader context of BJJ strategy, the Darce from turtle exemplifies the principle of attacking during opponent's defensive transitions, catching them when they feel safe but are actually vulnerable.
 
@@ -326,7 +326,7 @@ The Darce from turtle is a cornerstone technique in the modern front headlock su
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Darce Choke]] - Primary submission finish - main technique being set up
 - [[Anaconda from Turtle]] - Alternative - shares same initial control, used when far arm escapes
@@ -346,7 +346,7 @@ The Darce from turtle is a cornerstone technique in the modern front headlock su
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Darce choke from turtle position represents a perfect marriage of positional control and submission mechanics. The critical understanding here is that the turtle position, while appearing defensive, actually creates geometric vulnerabilities that the Darce exploits beautifully. When we examine the biomechanics, we see that the turtle creates an exposed neck and a far-side arm that can be trapped against that very neck - this is the foundation of the technique's effectiveness. The key technical detail most practitioners miss is the depth of the initial threading. Your choking arm must achieve complete penetration across the neck - I tell my students that if your hand cannot touch the opponent's far-side lat muscle, you haven't gone deep enough. This depth is non-negotiable because it determines whether you can create bilateral carotid compression. The finishing mechanics require precise understanding of leverage points: your shoulder drives into one side of the neck while their trapped arm and your forearm create pressure on the other side. The body angle adjustment - moving your head to their far hip - is what creates the mechanical advantage necessary to finish without relying on strength. This is a technique where technical precision matters far more than physical attributes.
 - **Gordon Ryan**: The Darce from turtle is one of my highest-percentage submissions in competition because most guys feel way too safe in turtle and don't see it coming until it's too late. In my matches, I use the threat of the Darce to force reactions - if they defend it by sitting through, I've got the anaconda or guillotine ready. If they defend by pulling their arm out, I'm taking the back. The key to hitting this at a high level is speed of execution combined with heavy pressure. You can't give them time to recognize what's happening. As soon as I get front headlock control on a turtled opponent, I'm already thinking Darce first. My setup is slightly different from the traditional approach - I like to use my free hand to pull their head up slightly as I thread, which creates just enough space to get really deep really fast. The finish is all about that shoulder drive - I'm not pulling with my arms, I'm driving my shoulder through their neck like I'm trying to touch my shoulder to my opposite hip. In competition, this works at every level because the turtle position is so common, especially in no-gi where people can't get collar grips to break you down. I've finished black belt world champions with this technique. The other huge advantage is that it chains perfectly with my other front headlock attacks, so opponents are stuck in a guessing game they can't win.
 - **Eddie Bravo**: The Darce from turtle is absolutely crucial in the 10th Planet system because we're attacking from turtle all the time in no-gi. What I love about this technique is how it fits into our submission chain philosophy - we're never committed to just one attack, we're flowing between several based on how they defend. From turtle top, we've got the Darce, the Twister, the Truck, back takes, and Crucifix options all available. The Darce is beautiful because it's so sneaky - people defend the back take and the Crucifix, but they forget about the neck. My variation involves using a lot of shoulder pressure early to flatten them out completely, which makes the threading way easier. I also teach what I call the 'swim and trap' method where you're actively using your free hand to guide their far arm into the trap as you thread - don't just hope it gets trapped, make it get trapped. One thing we emphasize in training is the transition game - if the Darce isn't there, we're immediately flowing to something else without hesitation. The standing finish variation is something we use a lot too - once you've got the grip locked, stand up with them and lift them off the mat. Their body weight helps finish the choke and it looks amazing. This technique embodies everything we believe in: aggressive submission hunting, technical innovation, and creating situations where the opponent has no good options.

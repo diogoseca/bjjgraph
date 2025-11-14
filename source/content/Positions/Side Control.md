@@ -13,10 +13,6 @@ description: "Master Side Control in BJJ with comprehensive guides covering subm
 
 
 
-> **Quick Overview**: Side Control (also known as side mount or cross-side) is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player lies perpendicularly across the opponen...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -44,7 +40,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -52,50 +48,13 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Side Control]] | High | Low | High | Low | Perpendicular alignment maximizes control |
-
 | [[Kesa Gatame]] | High | Medium | Medium | Medium | Perpendicular angle trades back exposure for arm |
-
 | [[Kuzure Kesa-Gatame]] | High | Low to Medium | High | Medium | Arm isolation for superior submission access |
-
 | [[Modified Scarf Hold]] | High | Low to Medium | High | Medium | Chest pressure trades mobility for control |
-
 | [[Reverse Kesa-Gatame]] | High | Medium | High | Medium | Reverse orientation eliminates defensive frames |
-
 | [[Reverse Scarf Hold]] | High | Medium | High | Medium | Reverse orientation creates unique control angles |
-
 | [[Scarf Hold Position]] | High | Low to Medium | Medium | Low | Perpendicular angle creates unique escapes |
-
 | [[Side Control Consolidation]] | High | Low | High | Medium | Transitional phase trading speed for quality |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Side Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Side Control/Top|Top Perspective]]** - Techniques and strategies
-
-
-### By Variation
-
-- **[[Kesa Gatame]]** - Traditional scarf hold with head control and far arm trapped
-
-- **[[Kuzure Kesa-Gatame]]** - Modified scarf hold with variations in arm control
-
-- **[[Modified Scarf Hold]]** - Adapted scarf position with enhanced mobility
-
-- **[[Reverse Kesa-Gatame]]** - Inverted scarf hold facing opponent's legs
-
-- **[[Reverse Scarf Hold]]** - Alternative reverse positioning with different control points
-
-- **[[Scarf Hold Position]]** - Classic scarf hold with traditional grips
-
-- **[[Side Control Consolidation]]** - Transition phase establishing dominant control
 
 
 
@@ -103,10 +62,13 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 <section id="bottom-summary" class="content-section">
 
-## Side Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Side Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in side control must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -155,7 +117,7 @@ The bottom player in side control must focus on creating frames, protecting agai
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting explosive escape movements without creating frames first**
@@ -183,16 +145,17 @@ The bottom player in side control must focus on creating frames, protecting agai
   - ✅ Correction: Maintain chin protection and neck defense throughout all escape sequences, survival takes priority over escape
 
 
-👉 **[[Side Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Side Control Top Perspective
+
+## Playing as Top
+
+[[Side Control/Top|→ Full Top Guide]]
 
 
-The top player in side control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -247,7 +210,7 @@ The top player in side control balances control maintenance with submission atta
   - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Positioning too high on opponent's chest without hip contact**
@@ -275,8 +238,6 @@ The top player in side control balances control maintenance with submission atta
   - ✅ Correction: Maintain positional control throughout submission attempts, return to solid side control if submission isn't immediately available
 
 
-👉 **[[Side Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -289,49 +250,49 @@ The top player in side control balances control maintenance with submission atta
 
 Traditional scarf hold with head control and far arm trapped
 
-[Explore Kesa Gatame →](side-control/kesa-gatame)
+[Explore Kesa Gatame →](./Kesa Gatame)
 
 
 ### [[Kuzure Kesa-Gatame]]
 
 Modified scarf hold with variations in arm control
 
-[Explore Kuzure Kesa-Gatame →](side-control/kuzure-kesa-gatame)
+[Explore Kuzure Kesa-Gatame →](./Kuzure Kesa-Gatame)
 
 
 ### [[Modified Scarf Hold]]
 
 Adapted scarf position with enhanced mobility
 
-[Explore Modified Scarf Hold →](side-control/modified-scarf-hold)
+[Explore Modified Scarf Hold →](./Modified Scarf Hold)
 
 
 ### [[Reverse Kesa-Gatame]]
 
 Inverted scarf hold facing opponent's legs
 
-[Explore Reverse Kesa-Gatame →](side-control/reverse-kesa-gatame)
+[Explore Reverse Kesa-Gatame →](./Reverse Kesa-Gatame)
 
 
 ### [[Reverse Scarf Hold]]
 
 Alternative reverse positioning with different control points
 
-[Explore Reverse Scarf Hold →](side-control/reverse-scarf-hold)
+[Explore Reverse Scarf Hold →](./Reverse Scarf Hold)
 
 
 ### [[Scarf Hold Position]]
 
 Classic scarf hold with traditional grips
 
-[Explore Scarf Hold Position →](side-control/scarf-hold-position)
+[Explore Scarf Hold Position →](./Scarf Hold Position)
 
 
 ### [[Side Control Consolidation]]
 
 Transition phase establishing dominant control
 
-[Explore Side Control Consolidation →](side-control/side-control-consolidation)
+[Explore Side Control Consolidation →](./Side Control Consolidation)
 
 
 

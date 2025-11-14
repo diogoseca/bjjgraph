@@ -13,10 +13,6 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
 
 
 
-> **Quick Overview**: Squid Guard is an advanced open guard position that combines elements of De La Riva Guard and Reverse De La Riva Guard with unique lapel control. The bottom player establishes a deep hook behind the o...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Defensive with offensive options |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Defensive with offensive options |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Medium |
 
-**What Makes This Position Unique:** Asymmetrical lapel control bypasses responses
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Squid Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Squid Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Asymmetrical lapel control bypasses responses
 
 
 
@@ -88,10 +72,13 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 
 <section id="bottom-summary" class="content-section">
 
-## Squid Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Squid Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in squid guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -143,7 +130,7 @@ The bottom player in squid guard controls the position with offensive attacks in
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing threading leg to become passive without maintaining constant tension**
@@ -171,16 +158,17 @@ The bottom player in squid guard controls the position with offensive attacks in
   - ✅ Correction: Maintain awareness of threading leg vulnerability and adjust position immediately if opponent shows leg lock threats, transitioning to safer guard variations
 
 
-👉 **[[Squid Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Squid Guard Top Perspective
+
+## Playing as Top
+
+[[Squid Guard/Top|→ Full Top Guide]]
 
 
-The top player in squid guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -223,7 +211,7 @@ The top player in squid guard manages the position strategically based on oppone
   - Success Rate: Beginner 48%, Intermediate 62%, Advanced 74%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing bottom player to achieve full inversion without postural response**
@@ -250,8 +238,6 @@ The top player in squid guard manages the position strategically based on oppone
   - Consequence: Energy expenditure and potential injury to joints stressed by lapel tension
   - ✅ Correction: Use methodical lapel clearing sequences combined with pressure and timing rather than pure strength
 
-
-👉 **[[Squid Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

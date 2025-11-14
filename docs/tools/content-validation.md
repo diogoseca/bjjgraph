@@ -112,7 +112,7 @@ python3 scripts/validate_content.py source/content/ --type Positions -v
    - Eddie Bravo (innovative/unorthodox)
    - Each 2-3 sentences
 
-6. **Common Errors** - Minimum 5 errors with corrections
+6. **Common Mistakes** - Minimum 5 errors with corrections
    - Format: Error → Consequence → Correction
    - Should include recognition tips
 
@@ -186,7 +186,7 @@ python3 scripts/validate_content.py source/content/ --type Positions -v
 
 6. **Expert Insights** - All three required
 
-7. **Common Errors** - Minimum 5 errors
+7. **Common Mistakes** - Minimum 5 errors
 
 8. **Knowledge Assessment Questions**
    - Minimum 5 questions covering:
@@ -273,7 +273,7 @@ python3 scripts/validate_content.py source/content/ --type Positions -v
 
 6. **Expert Insights** - All three required with safety emphasis
 
-7. **Common Errors**
+7. **Common Mistakes**
    - Minimum 5 errors
    - Must include dedicated safety errors with DANGER labels
 
@@ -479,7 +479,7 @@ FILES WITH ERRORS:
   ERROR: Missing required section: Offensive Transitions
   ERROR: Missing required section: Decision Tree
   ERROR: Missing required section: Expert Insights
-  ERROR: Missing required section: Common Errors
+  ERROR: Missing required section: Common Mistakes
 
 ✗ Mount.md
   Path: source/content/Positions/Mount.md

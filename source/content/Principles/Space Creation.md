@@ -8,7 +8,7 @@ description: "Master Space Creation in BJJ. Learn frame mechanics, hip escape pr
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Space Creation in BJJ. Learn frame mechanics, hip escape pr
 
 
 
-> **Quick Answer**: Space Creation is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Space Creation is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ The mastery of Space Creation fundamentally changes a practitioner's defensive c
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Frames must be established before hip movement can occur - structural integrity precedes mobility
 - Space is created in increments, not all at once - progressive distance generation is more effective than explosive attempts
 - The opponent's weight transitions and base adjustments create windows for space creation
@@ -185,7 +185,7 @@ The mastery of Space Creation fundamentally changes a practitioner's defensive c
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Frame Construction**: The ability to create rigid structural barriers using forearms, knees, and shins positioned at optimal angles against the opponent's body. Effective frames redirect force rather than absorb it, using bone-on-bone contact and angle management to prevent compression while conserving energy. Frame construction requires understanding which body parts to frame against and how to maintain structural integrity under pressure.
 
 **Hip Escape Mechanics (Shrimping)**: The fundamental movement pattern of using one leg as a post while driving the hips away from the opponent, creating lateral distance. Proper shrimping involves coordinating shoulder frames with hip movement, timing the escape during moments of reduced pressure, and maintaining the newly created space through immediate guard recovery or additional escapes. This is the primary engine for creating space in most bottom positions.
@@ -208,7 +208,7 @@ The mastery of Space Creation fundamentally changes a practitioner's defensive c
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Frame Creation]]** (Complementary): Frame Creation provides the structural component necessary for Space Creation to succeed. Frames create the initial separation point from which hips can escape, and Space Creation generates the distance that makes frames more effective.
 - **[[Hip Escape Mechanics]]** (Complementary): Hip Escape Mechanics is the primary engine for Space Creation in most positions. The coordinated movement of shoulders framing and hips escaping represents the fundamental execution of the Space Creation concept.
 - **[[Escape Hierarchy]]** (Extension): Space Creation is the first step in the Escape Hierarchy, representing the initial phase of any positional escape. Without successful space creation, progression through the escape hierarchy cannot occur.
@@ -227,7 +227,7 @@ The mastery of Space Creation fundamentally changes a practitioner's defensive c
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Space creation from bottom mount primarily uses bridging to elevate the opponent's hips combined with hip escape to create lateral distance. The bottom practitioner frames against the opponent's hips or chest while explosively bridging, then immediately shrimps to prevent the mount from being re-established. Multiple bridge-and-shrimp cycles are typically necessary.
 
 **Side Control**: From bottom side control, space creation relies heavily on shoulder frames against the opponent's neck and hip while shrimping the hips away. The practitioner creates initial breathing room by framing, then progressively escapes the hips to create enough distance to insert a knee shield or recover full guard. Timing the escape during the opponent's weight transitions is critical.
@@ -264,7 +264,7 @@ The mastery of Space Creation fundamentally changes a practitioner's defensive c
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current compression level and identify primary pressure points**: Mentally map where opponent's weight is concentrated and which body parts are preventing movement. Identify if you have breathing room or are completely flattened.
 2. **Determine which frames are immediately available**: Establish any frames possible with current position—forearms against neck/chest, knees against hips, feet against legs. Priority is creating initial structural barriers even if small.
 3. **Wait for or create a weight transition opportunity**: Either wait patiently for opponent to shift weight naturally, or create a reaction by threatening a grip, frame, or movement that forces them to adjust position.
@@ -277,28 +277,28 @@ The mastery of Space Creation fundamentally changes a practitioner's defensive c
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting to create space without first establishing frames
+## Common Mistakes
+- **Mistake**: Attempting to create space without first establishing frames
   - **Consequence**: Hip movement without frames results in the opponent simply following the movement while maintaining full compression. Energy is expended with no distance gained.
   - **Correction**: Always establish at least one structural frame before initiating hip escape. The frame creates a pivot point around which the hips can move and prevents opponent from maintaining contact during the escape.
-- **Error**: Using pure strength to push opponent away rather than using leverage and timing
+- **Mistake**: Using pure strength to push opponent away rather than using leverage and timing
   - **Consequence**: Strength-based space creation rapidly exhausts the defender and is easily countered by the opponent settling their weight. Once fatigued, the defender has no energy for subsequent escape attempts.
   - **Correction**: Focus on timing space creation during opponent weight shifts and using proper leverage through correct frame angles. Wait for the right moment rather than forcing the movement.
-- **Error**: Creating space but not immediately utilizing it
+- **Mistake**: Creating space but not immediately utilizing it
   - **Consequence**: Any space created is quickly recovered by the opponent who simply follows the hip movement or adjusts their pressure. The opportunity window closes within 1-2 seconds.
   - **Correction**: Have a clear plan for what to do with created space before initiating the movement. As soon as distance is generated, immediately insert knee, establish guard, or continue escape sequence.
-- **Error**: Attempting to create all necessary space in one explosive movement
+- **Mistake**: Attempting to create all necessary space in one explosive movement
   - **Consequence**: Large explosive movements are telegraphed and easily countered by the opponent. Additionally, they require significant energy and rarely generate sufficient space against aware opponents.
   - **Correction**: Create space progressively through multiple smaller movements. First create breathing room, then hip mobility, then escape paths. Each increment makes the next easier and more effective.
-- **Error**: Flat hips and poor hip positioning during shrimp attempts
+- **Mistake**: Flat hips and poor hip positioning during shrimp attempts
   - **Consequence**: Shrimping with flat hips generates minimal distance as there is no leverage from which to drive the movement. The escape becomes a weak sliding motion rather than powerful hip displacement.
   - **Correction**: Turn to the side (create hip angle) before shrimping. One shoulder should be significantly lower than the other, creating the angle from which powerful hip escape can be generated.
-- **Error**: Bridging without directional component toward opponent's weak side
+- **Mistake**: Bridging without directional component toward opponent's weak side
   - **Consequence**: Bridging straight up allows the opponent to simply settle back down in the same position. No positional advantage is gained despite energy expenditure.
   - **Correction**: Bridge at an angle toward the opponent's weak side (usually toward their head or toward the side where their base is narrower). The angular bridge disrupts their base and creates opportunity for escape.
-- **Error**: Giving up after first space creation attempt fails
+- **Mistake**: Giving up after first space creation attempt fails
   - **Consequence**: Single attempts rarely succeed against skilled opponents. Mental surrender after one failed attempt guarantees being held in inferior positions indefinitely.
   - **Correction**: Understand that multiple attempts are normal and necessary. Each attempt teaches information about opponent's reactions and creates small amounts of fatigue in their system. Persistence is key.
 
@@ -307,7 +307,7 @@ The mastery of Space Creation fundamentally changes a practitioner's defensive c
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Resistance Escape Drilling** (Focus: Building proper mechanics and timing sense before adding the complication of full resistance. Allows repetition volume necessary for motor pattern development.)
 Partner starts in controlling position with agreed resistance level (0-100%). Defender practices space creation techniques with partner gradually increasing resistance over weeks. Start with compliant partner, progress to 50% resistance, then 75%, finally full resistance.
 
@@ -332,7 +332,7 @@ Partner in top position is instructed to transition between different pressure a
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can execute basic shrimp and bridge movements in isolation without resistance
 - Understands the concept of framing but struggles to maintain frames under pressure
@@ -380,7 +380,7 @@ Partner in top position is instructed to transition between different pressure a
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Frame Creation]] (Principle) - Provides the structural foundation for space creation - frames create separation points from which hips can escape
 - [[Hip Escape Mechanics]] (Principle) - The primary engine for executing space creation in most bottom positions
@@ -400,7 +400,7 @@ Partner in top position is instructed to transition between different pressure a
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Space creation is not a technique—it is the fundamental mechanical principle underlying all escape science. The relationship is mathematical: compression eliminates options, space generates options. When we examine any escape sequence from any inferior position, we find that the first phase must always involve space generation through either bridging mechanics or hip displacement mechanics. The amateur makes the catastrophic error of attempting to execute complex escape movements from completely flattened positions where biomechanical space does not exist. The professional understands that space must be created first, often in multiple progressive stages, before the actual escape movement becomes mechanically possible. Frame construction creates the lever, hip movement creates the displacement, and timing ensures these movements occur when the opponent's pressure system is momentarily compromised. This is not optional technique—this is fundamental mechanical law. The practitioner who masters space creation under pressure has solved the most important problem in defensive jiu-jitsu: how to create opportunity from disadvantage.
 - **Gordon Ryan**: You cannot escape what you cannot move away from—that's basic. Space creation is the difference between being stuck under pressure for entire rounds versus flowing through positions and getting back to your game. What I've learned through competition is that you need to be creating space constantly, not waiting for the perfect moment. Every small adjustment the top guy makes, every grip change, every weight shift—that's when I'm shrimping an inch, framing a bit harder, making micro-adjustments that add up. By the time I'm ready to actually escape, I've already created most of the space I need through these continuous small movements. The guys who wait for one big explosive escape attempt get stuffed every time because it's too obvious. My approach is to make space creation a constant background process—always framing, always moving the hips slightly, always making the top position just a bit worse for my opponent. After thousands of rounds, I can create space even against the best pressure players in the world because I'm not trying to do it all at once. Progressive, relentless space creation beats explosive, one-time attempts every time in high-level competition.
 - **Eddie Bravo**: The beautiful thing about space creation is that it's where traditional technique meets street effectiveness—this concept works whether you're in the gi, no-gi, or in a real situation. What we emphasize in 10th Planet is that you need to be comfortable creating space from the worst positions possible, because that's what happens in real scenarios. We drill a lot of space creation from fully flattened positions, from back control with both hooks in, from mounted crucifix—positions where most people would tap to pressure alone. The key is understanding that you can create space even when it seems impossible by using explosive hip movement combined with precise framing. We also add a psychological element: the person who stays calm under pressure and keeps working for space will eventually find it, while the person who panics and stops moving is finished. I've seen smaller guys create space against much bigger opponents by using perfect timing and leverage rather than strength. The lockdown from half guard is one of our favorite tools because it creates space by controlling the opponent's leg, preventing them from bringing pressure effectively. Space creation isn't just about escaping—it's about never accepting a bad position as permanent.

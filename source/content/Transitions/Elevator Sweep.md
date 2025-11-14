@@ -8,7 +8,7 @@ description: "Master the Elevator Sweep from butterfly guard. Step-by-step execu
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Master the Elevator Sweep from butterfly guard. Step-by-step execu
 
 
 
-> **Quick Answer**: Elevator Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Elevator Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,7 +182,7 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain active butterfly hooks on both inner thighs for maximum elevation
 - Secure a strong overhook or underhook to control opponent's upper body
 - Keep your head close to opponent's chest to prevent them from posting
@@ -196,7 +196,7 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Butterfly guard established with both hooks inserted on opponent's inner thighs
 - Strong overhook secured on one side, controlling opponent's arm
 - Opponent's weight is forward or centered (not posting back)
@@ -209,7 +209,7 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish butterfly guard control**: Sit up in butterfly guard with both feet inserted as hooks on the inside of opponent's thighs, knees wide. Your back should be upright, not lying flat. Ensure hooks are deep enough that your feet can lift their hips. Keep your weight centered and mobile, ready to adjust. (Timing: Initial position - maintain continuous hook pressure)
 2. **Secure the overhook grip**: Swim your arm over one of opponent's arms to establish a deep overhook, controlling their shoulder and upper back. Your overhook hand should grip their lat or back of gi. Simultaneously, your other hand grips their opposite sleeve, collar, or establishes an underhook. Pull them close to break their posture and prevent posting. (Timing: Before initiating sweep - grip must be tight)
 3. **Position your head**: Bring your head tight to opponent's chest on the overhook side, with your ear against their sternum. This head position prevents them from creating space and posting with the overhooked arm. Keep your chin tucked to protect against guillotine counters. Your forehead should drive into their body. (Timing: Immediately after securing overhook)
@@ -224,7 +224,7 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent posts far arm to the mat to block the sweep** (Effectiveness: Medium) - Your Response: Switch to arm drag on the posting arm, transitioning to back take or alternative sweep direction. Alternatively, trap the posting arm with your leg and continue the elevator sweep.
 - **Opponent sprawls and bases back heavily, removing forward pressure** (Effectiveness: High) - Your Response: Immediately transition to shin-to-shin guard or single leg X guard as they sit back. You can also follow them backward into deep half guard or attempt a forward roll sweep if they overcommit backward.
 - **Opponent whizzers your overhook, preventing the sweep rotation** (Effectiveness: Medium) - Your Response: Use the whizzer against them by switching to a shoulder lock attack or rolling under for an electric chair position. The whizzer actually limits their mobility and creates submission opportunities.
@@ -234,28 +234,28 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Lying back flat instead of sitting upright during setup
+## Common Mistakes
+- **Mistake**: Lying back flat instead of sitting upright during setup
   - **Consequence**: Eliminates the ability to generate upward lifting power with hooks and makes it easy for opponent to stack you or pass around your guard
   - **Correction**: Maintain an upright seated posture throughout the technique. Your back should be at approximately 60-75 degrees from the mat, allowing your core and legs to work together for maximum lift. Think of sitting tall rather than lying back.
-- **Error**: Lifting with only one hook or uneven hook pressure
+- **Mistake**: Lifting with only one hook or uneven hook pressure
   - **Consequence**: Opponent can base out to the side with the weak hook, completely stopping the sweep and potentially passing your guard
   - **Correction**: Consciously engage both hooks equally and simultaneously. Practice the lifting motion in drilling to ensure both legs extend with equal force. Your hooks should feel symmetrical, like pistons firing together.
-- **Error**: Pulling with arms but not lifting with legs (or vice versa)
+- **Mistake**: Pulling with arms but not lifting with legs (or vice versa)
   - **Consequence**: Sweep lacks power and opponent can easily defend by posting or maintaining their base. Half-hearted attempts waste energy and telegraph your intentions
   - **Correction**: Coordinate the hook lift and arm pull as one unified explosive movement. Think of it as a simultaneous push-pull action - legs push up while arms pull down and rotate. Practice the timing until it becomes one smooth motion.
-- **Error**: Keeping head away from opponent's chest, creating space
+- **Mistake**: Keeping head away from opponent's chest, creating space
   - **Consequence**: Opponent can easily post with the overhooked arm, regain posture, and shut down the sweep before it begins. Space allows them to generate countering force
   - **Correction**: Drive your head tight into their chest on the overhook side immediately after securing the grip. Your ear should be against their sternum. This connection is non-negotiable - no space means no posting opportunity.
-- **Error**: Sweeping straight back instead of to the angle
+- **Mistake**: Sweeping straight back instead of to the angle
   - **Consequence**: Opponent has equal base in all directions and can easily defend the sweep. You're attacking their strongest defensive position rather than their weakness
   - **Correction**: Always create a 15-20 degree angle before lifting, sweeping toward the overhook side. This attacks the corner of their base where they're weakest. Practice identifying the angle in drilling until it becomes automatic.
-- **Error**: Not following through completely after opponent starts to fall
+- **Mistake**: Not following through completely after opponent starts to fall
   - **Consequence**: Opponent can recover half guard or prevent mount, turning your successful sweep into a scramble. You lose the positional advantage you've worked to create
   - **Correction**: Commit fully to the sweep - once opponent's weight tips, drive hard and follow their body all the way to the ground. Think 'finish the sweep' not just 'start the sweep.' Keep forward pressure until you're fully established in mount.
-- **Error**: Releasing hooks too early during the sweep
+- **Mistake**: Releasing hooks too early during the sweep
   - **Consequence**: Opponent can post or recover before being fully swept, resulting in a failed technique or scramble position
   - **Correction**: Maintain active hook pressure throughout the entire sweeping motion until opponent's back hits the mat. Only release hooks as you step into mount. The hooks are your primary lifting mechanism - keep them engaged until the job is complete.
 
@@ -264,7 +264,7 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Basic hook insertion, overhook control, and lifting motion
 Partner sits in your butterfly guard offering no resistance. Practice inserting hooks deeply, securing overhook, and executing the basic lifting motion without opposition. Focus on the feeling of both hooks lifting equally and the coordination of the pull. Perform 20-30 repetitions per training session, alternating sides. Partner provides feedback on hook depth and lifting power.
 (Resistance: None)
@@ -295,7 +295,7 @@ Develop a comprehensive butterfly guard game where elevator sweep works in combi
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double Underhook Elevator Sweep**: Instead of overhook, secure double underhooks on opponent's arms, controlling their upper body with both arms under theirs. Lift with hooks while driving forward and up with your chest and head, keeping their arms trapped. This variation offers more control but requires opponent to give up both underhooks. (When to use: When opponent overcommits to grips on your lapels or belt, leaving underhooks available. Particularly effective in gi when opponent is grip-heavy and less mobile.)
 
 **Single Hook Elevator Sweep**: Use only one hook (on the overhook side) for elevation while the other leg posts on the mat for base and drive. This creates a more angled, powerful sweep but requires precise timing. The posting leg drives hard while the hook lifts, creating a scissoring action that rotates opponent over. (When to use: When opponent has removed one of your hooks or when you need extra driving power against a larger opponent. Also useful when transitioning from other guard positions where only one hook is available.)
@@ -338,7 +338,7 @@ Develop a comprehensive butterfly guard game where elevator sweep works in combi
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The elevator sweep is generally a safe technique for both practitioners when executed properly, but several precautions should be observed. When drilling, the person being swept should be prepared to break fall appropriately, as the sweep can generate significant rotational force and speed. Beginners should start with slow, controlled repetitions to develop proper mechanics before adding explosive power. Partners should communicate about knee sensitivity, as the hooks can cause discomfort for those with knee issues - in such cases, reduce hook pressure or use alternative guards. When practicing the variation that lands in mount, the sweeping practitioner should control the landing to avoid dropping full body weight onto partner's ribs or torso. In live training, be mindful of your training partner's size - extremely large weight differentials may require modified application. If opponent attempts to guillotine during the sweep setup, immediately defend the neck before continuing the technique. Finally, when drilling the whizzer counter responses (shoulder locks), practice these slowly and tap early as shoulder submissions can occur quickly and cause injury if applied with full force.
 
@@ -346,7 +346,7 @@ The elevator sweep is generally a safe technique for both practitioners when exe
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The elevator sweep is a cornerstone technique within the butterfly guard system and serves as a central hub for numerous attacks and transitions. In the broader positional hierarchy, butterfly guard functions as a dynamic open guard position that bridges the gap between seated guards and more active scrambling positions. The elevator sweep specifically integrates with the guard retention and sweeping aspects of BJJ's defensive bottom game, providing a reliable method to reverse position when opponent is applying forward pressure.
 
@@ -360,7 +360,7 @@ From a strategic perspective, the elevator sweep forces opponents to make defens
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Basic Butterfly Sweep]] - Complementary technique - sweep to opposite side when elevator sweep is defended
 - [[Butterfly Sweep Variations]] - Technical family - shares core principles and setups
@@ -377,7 +377,7 @@ From a strategic perspective, the elevator sweep forces opponents to make defens
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The elevator sweep represents a perfect example of mechanical advantage overcoming strength and size disadvantages in grappling. The technique's power derives from the biomechanical principle of leverage combined with bilateral symmetry - both hooks working in concert create exponentially more force than either could produce alone. The critical element that most practitioners miss is the necessity of maintaining an upright posture throughout execution. When you sit upright, your core musculature can engage properly, your hooks can generate vertical force vectors, and your upper body grips can apply rotational torque efficiently. The moment you lie back, you sacrifice all three mechanical advantages and reduce the technique to arm strength alone, which is inevitably insufficient. Additionally, understand that the elevator sweep is not primarily about explosive power but about systematic removal of opponent's defensive structures - first you remove their posting ability through head position and overhook control, then you remove their base through angled attack, and finally you remove their remaining stability through coordinated lift and pull. Each element must be present and properly sequenced for optimal results. Study the technique as a system of controls and mechanical advantages rather than as a single explosive movement.
 - **Gordon Ryan**: In competition, the elevator sweep is one of my highest percentage butterfly guard attacks because it works against both passive and aggressive opponents. When opponents sit heavy in your guard trying to shut down your movement, the elevator sweep punishes that static defense with pure mechanical lifting power. When they're trying to pass actively, the sweep capitalizes on their forward pressure and momentum. The key to making this sweep work at the highest levels is understanding that it's rarely the first move - it's almost always set up by threatening something else first. I'll threaten an arm drag or guillotine to get them thinking about their arms and head, then when they react to those threats, the elevator sweep becomes wide open. Against elite grapplers, you also need to be prepared to chain multiple sweeps together. If they defend the elevator sweep well, I'm immediately flowing to basic butterfly sweep the other direction, or transitioning to single leg X-guard if they pull back. The other crucial detail is finishing position - I always aim to land in high mount or immediately transition to back control rather than settling for basic mount. The elevator sweep generates enough momentum and positional advantage that you should capitalize fully by securing the most dominant position possible. Don't waste a successful sweep by accepting a mediocre top position.
 - **Eddie Bravo**: The elevator sweep is sick from butterfly guard, but where it really gets interesting is when you start combining it with the 10th Planet system, particularly the lockdown and electric chair positions. When someone whizzers your overhook during the elevator sweep attempt - which happens all the time - that's actually a gift because now you can roll under into the electric chair and you've got them in a serious dilemma. Their whizzer becomes their prison. I also love hitting the elevator sweep as a transition from other positions, not just static butterfly guard. When you're coming up from deep half or transitioning from rubber guard, opponents aren't expecting the elevator sweep mechanics to suddenly appear, so they're not prepared to defend it. Another innovation we use is combining the elevator sweep with the twister side control system - when you complete the sweep, instead of going to mount, you immediately transition to twister side control where their near arm is trapped and you've got the truck position available. The beauty of the elevator sweep in the 10th Planet system is that it forces opponent to choose between getting swept and giving up the back or the electric chair, and all three outcomes are dominant positions for you. That's the kind of dilemma-based grappling that wins matches. Don't just do the elevator sweep the traditional way - experiment with how it connects to your entire submission system and guard game.

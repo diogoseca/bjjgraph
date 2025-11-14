@@ -143,7 +143,7 @@ description: "Master Caio Terra's guard retention framework with systematic hip 
 
 
 
-> **Quick Answer**: Caio Terra Guard Retention System is a intermediate difficulty Defense System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Caio Terra Guard Retention System is a intermediate difficulty Defense System system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Defense System
@@ -166,7 +166,7 @@ What distinguishes Terra's system from traditional guard retention is its emphas
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Hip movement is the foundation of all guard retention—constant motion prevents opponent consolidation
 - Frames must be dynamic and angle-based, not static strength-based structures
 - Connection breaking precedes position recovery—eliminate opponent grips before restructuring guard
@@ -180,7 +180,7 @@ What distinguishes Terra's system from traditional guard retention is its emphas
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Hip Escape Mechanics** (Generate separation and angles necessary for guard recovery while managing opponent pressure)
 Fundamental shrimping and hip movement patterns that create distance and prevent opponent consolidation. Terra's approach emphasizes small, continuous hip movements rather than large explosive escapes, maintaining connection control while gradually improving position. The system includes variations for different passing pressures and positions.
 
@@ -202,7 +202,7 @@ Last-resort techniques for preventing complete guard pass when primary retention
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Development**: Master fundamental hip escape mechanics through isolated drilling. Focus on shrimping patterns, hip elevation, and directional changes without opponent resistance. Develop muscle memory for continuous hip movement that becomes automatic under pressure.
 Key points:
 - Practice shrimping in both directions with equal proficiency
@@ -387,7 +387,7 @@ The Caio Terra guard retention system requires extensive solo drilling to build 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: Guard retention is not merely a defensive skill—it represents a fundamental domain of technical development that separates competent grapplers from elite competitors. The Caio Terra system exemplifies proper retention methodology by treating guard maintenance as an active, systematic skill rather than passive resistance. What makes this approach particularly effective is its emphasis on connection management and systematic recovery loops. Most athletes fail at guard retention because they react to passing attacks after they've already developed dangerous momentum. Terra's system teaches practitioners to identify and neutralize passing attempts during their setup phase, before the passer has established dominant connections. The hierarchy of connection breaking is especially crucial—understanding which grips pose immediate threats versus control grips allows for intelligent prioritization under pressure. The recovery loop concept transforms guard retention from random scrambling into predictable, trainable sequences that can be drilled until they become automatic. This systematic approach to a traditionally chaotic domain represents the highest level of technical refinement in guard work.
 - **Gordon Ryan**: In high-level competition, your ability to retain guard often determines match outcomes more than your offensive guard game. I've won countless matches simply because opponents couldn't pass my guard despite having superior passing systems. Terra's retention framework is competition-tested and addresses the passing styles you'll actually face at elite levels—knee cuts, toreandos, body locks, and stack passes. What's critical is the system's emphasis on continuous hip movement rather than static frames. Against world-class pressure passers, static defenses fail immediately. You need to be moving constantly, making micro-adjustments that prevent opponents from establishing the control necessary for passing sequences. The emergency guard replacement techniques are equally important—even the best retention fails sometimes, and having reliable backup options prevents catastrophic positional loss. In my training, I drill guard retention as extensively as passing because maintaining guard against elite opponents requires technical precision equal to any offensive skill. The system's integration of offensive threats during retention is particularly effective—threatening sweeps and submissions forces passers to respect your guard and slow their attacks, buying time for retention sequences to work.
 - **Eddie Bravo**: Traditional guard retention relies too heavily on strength and athleticism—Terra's system proves you can maintain guard through technical precision and systematic movement patterns. What I appreciate most is how the framework adapts to different guard styles. Whether you're playing rubber guard, butterfly, or traditional open guards, the retention principles remain constant: hip movement, frame management, connection breaking. The system's emphasis on recovery loops addresses a critical gap in most guard curricula—athletes learn guard positions and attacks but rarely drill the transitions back to guard when things go wrong. These loops are like having a reset button that works even when you're in trouble. The granby roll and inversion options are particularly valuable because they create completely different angles that disrupt linear passing attacks. In no-gi especially, where grips are harder to maintain, continuous hip movement becomes even more critical. I've integrated Terra's retention concepts into the 10th Planet system because they complement our dynamic guard game perfectly. When you're constantly moving and threatening positions, retention becomes easier because opponents can't commit fully to passing without risking sweeps and submissions.

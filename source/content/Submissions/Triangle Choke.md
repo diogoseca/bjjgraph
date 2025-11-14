@@ -8,7 +8,7 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
 
 
 
-> **Quick Answer**: Triangle Choke is a blood choke targeting the Carotid arteries and brachial plexus. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke - apply slowly over 3-5 seconds and release immediately upon tap.
+> Triangle Choke is a blood choke targeting the Carotid arteries and brachial plexus. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="safety-considerations" class="content-section">
 
-## Is Triangle Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -219,7 +219,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Angle creation is more important than leg strength - proper hip angle creates the choke, not squeezing
 - Control the posture by breaking down opponent's base before attempting triangle lock
 - Use opponent's trapped shoulder as a compression point against their own neck
@@ -233,7 +233,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent must be postured down with head and shoulders forward
 - One of opponent's arms must be isolated across their centerline
 - Sufficient hip mobility to throw leg over opponent's shoulder
@@ -246,7 +246,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Break posture and isolate arm**: From closed guard, establish strong collar and sleeve grips. Pull opponent forward while opening guard, forcing their weight onto their hands. Simultaneously pull one of their arms across their centerline using your sleeve grip, creating the fundamental triangle setup position. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Throw leg over shoulder**: Open your guard and immediately throw your leg (same side as the isolated arm) high over the opponent's shoulder. Your shin should land on the back of their neck, with your knee pointing toward the ceiling. The opponent's trapped arm should now be across their own body. (Timing: 0.5 seconds (must be quick)) [Pressure: Light]
 3. **Lock the triangle**: Pull your ankle (from the leg over the shoulder) behind your opposite knee to create the triangle lock. Do NOT cross your ankles—this is mechanically weaker. Your shin should be tight against one side of their neck while their own shoulder compresses the other side. (Timing: 1 second) [Pressure: Moderate]
@@ -260,7 +260,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Posture up aggressively before triangle is locked** (Effectiveness: High) - Your Adjustment: Pull down harder on collar/head while locking legs faster. If they escape, transition to omoplata or armbar from the same position.
 - **Stack you by driving forward and lifting your hips** (Effectiveness: Medium) - Your Adjustment: Cut angle further (more perpendicular), grab their far leg to prevent forward drive, or transition to armbar by swinging opposite leg over their head.
 - **Pull trapped arm free by yanking it back across centerline** (Effectiveness: Medium) - Your Adjustment: Immediately transition to armbar on the escaping arm, or switch to triangle on opposite side if you have time to reconfigure.
@@ -269,25 +269,25 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Crossing ankles instead of locking ankle behind knee [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Crossing ankles instead of locking ankle behind knee [Medium DANGER]
   - **Consequence**: Weak triangle that opponent can easily escape; ankles vulnerable to ankle locks in some rulesets
   - **Correction**: Always lock by placing ankle behind opposite knee, creating a proper mechanical triangle shape
-- **Error**: Failing to cut the angle (staying directly in front of opponent) [Low DANGER]
+- **Mistake**: Failing to cut the angle (staying directly in front of opponent) [Low DANGER]
   - **Consequence**: Opponent can posture up, stack you, or defend the choke with hand positioning
   - **Correction**: Immediately move hips 45 degrees perpendicular after locking triangle—this is non-negotiable for finishing
-- **Error**: Squeezing with legs only, without pulling head down [Low DANGER]
+- **Mistake**: Squeezing with legs only, without pulling head down [Low DANGER]
   - **Consequence**: Insufficient pressure on carotid arteries; choke takes too long or fails entirely
   - **Correction**: Always combine leg squeeze with pulling opponent's head down toward chest while lifting hips
-- **Error**: Allowing opponent's trapped arm to be on the outside of their body [Low DANGER]
+- **Mistake**: Allowing opponent's trapped arm to be on the outside of their body [Low DANGER]
   - **Consequence**: No compression on neck; choke is impossible in this configuration
   - **Correction**: Ensure trapped arm is pulled across opponent's centerline before throwing leg over shoulder
-- **Error**: Holding triangle after partner taps or goes limp [CRITICAL DANGER]
+- **Mistake**: Holding triangle after partner taps or goes limp [CRITICAL DANGER]
   - **Consequence**: Potential unconsciousness, brain damage, or death if held too long after blood flow stops
   - **Correction**: IMMEDIATELY release upon any tap signal or loss of resistance—this is the most critical safety rule
-- **Error**: Spiking or jerking the finish with sudden explosive pressure [CRITICAL DANGER]
+- **Mistake**: Spiking or jerking the finish with sudden explosive pressure [CRITICAL DANGER]
   - **Consequence**: Neck injury, loss of consciousness without time to tap, damaged trust with training partners
   - **Correction**: Apply finishing pressure progressively over 3-5 seconds, giving partner time to recognize and tap
 
@@ -296,7 +296,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Triangle from mount top position**: When opponent defends mount by bringing their arms up, trap one arm and throw leg over their shoulder, locking triangle while still in top position. Fall to side to finish. (When to use: When opponent uses arms to defend mount rather than turning to escape)
 
 **Triangle from spider guard**: From spider guard with one foot on bicep, kick that leg up and over opponent's shoulder while pulling their opposite arm across centerline, entering directly into triangle. (When to use: When opponent is standing and you have spider guard control established)
@@ -336,7 +336,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (2 weeks, 3-4 sessions per week)
 - Focus: Learn triangle mechanics with zero resistance. Practice locking configuration, cutting angle, and releasing safely. Emphasize SLOW application and immediate release on tap.
 - Resistance: None
@@ -373,7 +373,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Mount]]
@@ -387,7 +387,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Armbar from Guard]]
 - [[Omoplata]]
@@ -417,7 +417,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The triangle choke exemplifies mechanical efficiency in submission grappling—it's a leverage-based technique where proper positioning creates an inescapable structural trap regardless of strength differential. The key insight is understanding that the triangle functions through precise geometry: the angle of your hips relative to your opponent's torso determines whether you have a submission or merely a configuration. Most students make the mistake of trying to squeeze harder when they should be adjusting their angle. The opponent's own shoulder becomes the instrument of their demise, acting as a compression point against their carotid artery. When teaching the triangle, I emphasize that 90% of the finish comes from correct hip positioning and only 10% from leg squeeze. Furthermore, the triangle serves as an excellent gateway to understanding positional geometry—once students grasp the angular relationships in the triangle, they can apply these principles to other submissions and positions. From a safety perspective, the triangle's blood choke mechanism makes it particularly dangerous if held after a tap, as unconsciousness can occur within seconds once proper pressure is applied.
 - **Gordon Ryan**: In competition, the triangle is one of my highest-percentage submissions from guard, but there's a massive difference between how I finish it in training versus on the mat at ADCC. In training, I give my partners a full 3-5 seconds to recognize the danger and tap because we're there to learn and improve together—there's zero benefit to injuring your training partners, and doing so only reduces the quality of your future training sessions. In competition, however, I lock the triangle and finish as fast as biomechanically possible because my opponent is actively trying to prevent the submission until the last possible moment. The triangle's beauty lies in its speed of finish once properly locked—unlike joint locks that can take several seconds to create pain, a properly executed triangle can render someone unconscious in under five seconds. This is why I drill triangle entries thousands of times: the setup and lock must be so automatic that in competition, by the time my opponent realizes they're in danger, it's already too late to defend. My preferred entry is from butterfly guard or when opponents stand in my closed guard—the triangle punishes their decision to stand. But regardless of how you enter, the non-negotiables are: get the angle perpendicular, lock ankle behind knee (never cross ankles), control the head, and squeeze your knees together while pulling their head down. Competition or training, those mechanics don't change—only the speed of application changes.
 - **Eddie Bravo**: The triangle choke is foundational to the entire 10th Planet system because it's the gateway to our highest-level control positions like the rubber guard. From rubber guard, we have multiple triangle entries—New York, Meathook, and the classic Invisible Collar all set up triangle finishes, and if the triangle fails, we seamlessly flow to omoplata, gogoplata, or back takes. But here's the thing people miss about the triangle in the 10th Planet system: we're often setting it up from unorthodox positions where traditional gi grips don't exist. In no-gi, you can't rely on collar grips to break posture, so we use overhooks, head control, and rubber guard positions to manipulate our opponent into vulnerable positions. The triangle becomes even more versatile when you combine it with Eddie Bravo's lockdown from half guard—opponents defending the lockdown often post their hand in perfect triangle range. Regarding safety, I cannot stress this enough to our students: the triangle is a blood choke that works FAST once locked correctly. We've all seen people go out from triangles, and it's scary every time it happens. In 10th Planet gyms, we have a strict culture of tapping early and releasing immediately. If you feel a triangle locked and angled correctly, tap immediately—don't wait to see if you can defend it. And if you're applying it, the moment you feel that tap or see your partner's resistance fade, you release instantly. The ego-driven mentality of 'I'm going to hold this until they go completely limp' has no place in our training environment. We're here to get better and innovate new techniques, and that requires healthy, conscious training partners.

@@ -8,7 +8,7 @@ description: "Master Long Step Passing principles in BJJ. Learn deep step mechan
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Long Step Passing principles in BJJ. Learn deep step mechan
 
 
 
-> **Quick Answer**: Long Step Passing is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Long Step Passing is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Long Step Passing represents the strategic principle of advancing the lead leg d
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Advance lead leg deeply past opponent's hip line to establish dominant positional relationship
 - Pin opponent's mobility through coordinated hip and shoulder pressure before attempting final passing phases
 - Maintain low base with weight distributed to maximize pressure while preserving balance against defensive efforts
@@ -181,7 +181,7 @@ Long Step Passing represents the strategic principle of advancing the lead leg d
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Deep Step Mechanics**: The ability to advance the lead leg deeply past the opponent's hip line while maintaining balance and pressure. This involves proper weight distribution, base positioning, and timing to commit to deep position without being swept or off-balanced by defensive reactions.
 
 **Hip Line Domination**: Establishing and maintaining control over the critical hip line boundary that separates guard positions from passing positions. This skill involves recognizing when hip control is achieved and preventing opponent's hip escape attempts through proper weight placement and pressure angles.
@@ -204,7 +204,7 @@ Long Step Passing represents the strategic principle of advancing the lead leg d
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Pressure Passing Framework]]** (Prerequisite): Long step passing is a specific application of broader pressure passing principles, requiring fundamental understanding of pressure-based immobilization and systematic advancement before implementing deep step mechanics.
 - **[[Guard Passing Principles]]** (Prerequisite): Core guard passing concepts including posture control, hip line recognition, and passing progression provide the foundational framework upon which long step passing mechanics are built.
 - **[[Base Maintenance]]** (Complementary): Stable base structure is essential throughout long step sequences to prevent sweeps while applying pressure. These concepts work synergistically to enable effective pressure-based passing.
@@ -221,7 +221,7 @@ Long Step Passing represents the strategic principle of advancing the lead leg d
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Open Guard**: Long step mechanics are used to penetrate past various open guard configurations by stepping deeply into the space between opponent's legs, establishing hip control, and systematically advancing to passing positions while preventing reguard.
 
 **De La Riva Guard**: Deep step positioning is employed to clear the De La Riva hook by stepping past opponent's knee line and applying pressure that flattens the guard structure, making it difficult for opponent to maintain hook control or sweep.
@@ -254,7 +254,7 @@ Long Step Passing represents the strategic principle of advancing the lead leg d
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess opponent's guard structure and identify optimal entry point for deep step penetration**: Evaluate guard configuration, defensive grips, and hip mobility to determine timing and angle for initial long step commitment. Establish necessary grip control to prevent immediate defensive counters.
 2. **Execute deep step past opponent's hip line while maintaining base and balance**: Advance lead leg deeply into passing position with proper weight distribution and base structure. Commit fully to deep position rather than hesitant partial steps that allow opponent to maintain guard retention options.
 3. **Establish hip control through pressure and positioning before advancing further**: Apply hip pressure to pin opponent's mobility and consolidate control over hip line. Prevent opponent from creating space or angles for reguard by maintaining constant pressure and proper weight distribution.
@@ -267,31 +267,31 @@ Long Step Passing represents the strategic principle of advancing the lead leg d
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Executing shallow or hesitant steps that fail to penetrate past opponent's hip line
+## Common Mistakes
+- **Mistake**: Executing shallow or hesitant steps that fail to penetrate past opponent's hip line
   - **Consequence**: Opponent maintains hip mobility and guard retention options, easily preventing passing advancement or recovering full guard through reguard sequences.
   - **Correction**: Commit fully to deep step positioning, advancing lead leg well past opponent's hip rather than stopping at intermediate positions. Practice progressive depth in step until hip control is clearly established.
-- **Error**: Rushing through passing phases without consolidating control at each checkpoint
+- **Mistake**: Rushing through passing phases without consolidating control at each checkpoint
   - **Consequence**: Opponent finds opportunities to recover guard during transitions between passing phases, or successfully executes sweeps during moments of unstable positioning.
   - **Correction**: Adopt systematic approach that prioritizes control consolidation at each phase. Pause to establish stable pressure before advancing to next phase, ensuring opponent cannot exploit transitional moments.
-- **Error**: Failing to control opponent's near leg, allowing hip escape and reguard
+- **Mistake**: Failing to control opponent's near leg, allowing hip escape and reguard
   - **Consequence**: Opponent uses near leg to create space, escape hips, and recover guard position despite passer's initial penetration past hip line.
   - **Correction**: Develop multiple methods for near leg control including grips, hooks, and pressure-based trapping. Make near leg control a non-negotiable checkpoint before advancing past knee line.
-- **Error**: Maintaining high posture with elevated hips that reduces pressure effectiveness
+- **Mistake**: Maintaining high posture with elevated hips that reduces pressure effectiveness
   - **Consequence**: Insufficient pressure application allows opponent to maintain mobility and defensive capability, easily preventing passing advancement through hip movement and frame creation.
   - **Correction**: Lower hips and maintain pressure-oriented posture throughout passing sequence. Practice weight distribution patterns that maximize downward pressure while maintaining base stability.
-- **Error**: Neglecting upper body control while focusing exclusively on lower body positioning
+- **Mistake**: Neglecting upper body control while focusing exclusively on lower body positioning
   - **Consequence**: Opponent establishes defensive frames, controls passer's head, or creates angles through upper body manipulation despite passer's lower body positioning advantages.
   - **Correction**: Coordinate upper and lower body control throughout passing sequence. Establish grip control that prevents framing and controls opponent's upper body while executing lower body passing mechanics.
-- **Error**: Losing base structure while applying pressure, becoming vulnerable to sweeps
+- **Mistake**: Losing base structure while applying pressure, becoming vulnerable to sweeps
   - **Consequence**: Opponent capitalizes on passer's unstable base to execute sweeps or off-balancing techniques, reversing positional advantage despite passer's initial penetration.
   - **Correction**: Practice base maintenance drills specific to long step positions. Develop ability to apply forward pressure while maintaining wide base and stable weight distribution resistant to sweeping attempts.
-- **Error**: Allowing opponent to create angles or rotation that enables reguard
+- **Mistake**: Allowing opponent to create angles or rotation that enables reguard
   - **Consequence**: Opponent escapes hips to side or rotates body to create angles that restore guard position, negating passer's positional advancement and pressure application.
   - **Correction**: Maintain alignment that prevents opponent's hip escape and rotation. Use pressure vectors and positioning that pin opponent flat and prevent angular movement necessary for guard recovery.
-- **Error**: Transitioning to control positions prematurely before passing is fully completed
+- **Mistake**: Transitioning to control positions prematurely before passing is fully completed
   - **Consequence**: Opponent recovers guard during transition phase when passer releases passing grips to establish control position, forcing restart of entire passing sequence.
   - **Correction**: Ensure all passing checkpoints are achieved before initiating transition to control. Maintain passing pressure until body positioning clearly indicates guard has been fully cleared and control position is available.
 
@@ -300,7 +300,7 @@ Long Step Passing represents the strategic principle of advancing the lead leg d
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Depth Drilling** (Focus: Developing commitment to deep positioning and overcoming hesitation that prevents effective hip line penetration. Building confidence in deep step mechanics through progressive exposure.)
 Practice long step entry with progressively deeper step depth, focusing on achieving hip line penetration while maintaining balance and pressure. Begin with shallow steps and gradually increase depth until full hip control is consistently achieved.
 
@@ -325,7 +325,7 @@ Engage in live guard passing sparring with specific emphasis on long step method
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Executes basic long step entry with coaching but struggles with depth and commitment to deep positioning
 - Understands concept of hip control intellectually but inconsistently achieves it in practice
@@ -369,7 +369,7 @@ Engage in live guard passing sparring with specific emphasis on long step method
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Knee Slice Pass]] (Transition) - Knee slice passing incorporates long step mechanics in initial penetration phase, using deep step to establish angle and pressure for slice execution
 - [[Leg Drag Pass]] (Transition) - Leg drag passing shares deep penetration principles with long step but emphasizes lateral hip control rather than forward pressure application
@@ -389,7 +389,7 @@ Engage in live guard passing sparring with specific emphasis on long step method
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches long step passing as exemplary application of systematic pressure passing principles where deep positional commitment creates compound problems opponent must solve simultaneously. Emphasizes understanding the biomechanical relationship between deep step positioning and opponent's defensive options, particularly how hip line penetration limits guard retention pathways. Systematizes long step progression as multi-phase sequence: initial deep step with immediate pressure, hip control consolidation, progressive advancement past knee line, shoulder pressure establishment, and final side control completion. Focuses on maintaining technical soundness throughout sequence rather than rushing to completion, viewing long step as creating dominant position from which various finishing options emerge based on opponent's defensive choices. Particularly emphasizes the importance of near leg control as non-negotiable checkpoint, stating that advancement without near leg control invites defensive recovery regardless of other positional advantages. Teaches long step passing as fundamental skill for pressure-based guard passing systems, applicable across diverse guard configurations through consistent mechanical and conceptual framework.
 - **Gordon Ryan**: Views long step passing as essential skill for competitive success against opponents with strong guard retention requiring pressure-based approaches. Emphasizes importance of deep commitment rather than hesitant half-steps that allow opponent to maintain hip mobility and defensive options, stating that timidity in step depth is primary reason intermediate practitioners struggle with pressure passing despite understanding conceptual principles. Focuses on coordinating upper and lower body control to create comprehensive pressure preventing opponent from addressing all threats simultaneously, particularly emphasizing shoulder pressure as critical component often neglected by less experienced practitioners. Integrates long step passing within broader passing game seamlessly transitioning between long step and other methodologies based on opponent's defensive responses, demonstrating tactical flexibility that distinguishes elite performance from intermediate practitioners who commit rigidly to single passing approach. In competitive context, uses long step passing extensively against guard players who rely on hip mobility and reguard capabilities, finding it highly effective for controlling dynamic opponents who excel at guard retention through movement. Advocates for aggressive pressure application throughout sequence, maintaining constant forward pressure that prevents opponent from creating moments of relief necessary for defensive recovery.
 - **Eddie Bravo**: Has developed unique applications of long step mechanics within his 10th Planet system particularly for passing his own rubber guard and lockdown variations where deep penetration and pressure are essential for neutralizing unconventional guard structures. When teaching long step passing, emphasizes importance of understanding opponent's guard system to time deep step optimally when defensive structures are transitioning or vulnerable, stating that timing is often more important than pure pressure application in no-gi contexts where grips are less available. Advocates for creative upper body control patterns that complement deep step positioning including unconventional grips and pressure angles adapted from wrestling and modified for no-gi grappling contexts. Integrates long step passing with his twister side control system, demonstrating how deep positional commitment enables unique control and submission opportunities unavailable from more conservative passing positions, particularly highlighting how long step mechanics facilitate back exposure and truck position entries. In 10th Planet methodology, views long step passing as bridge between traditional pressure passing and modern no-gi approaches, maintaining pressure-based control philosophy while adapting mechanics for high-level competition without gi grips. Encourages students to experiment with long step variations that incorporate unconventional angles and pressure patterns, fostering innovative applications while maintaining core mechanical principles.

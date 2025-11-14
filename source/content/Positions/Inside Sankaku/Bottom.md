@@ -8,7 +8,7 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 40% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 40% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your leg is trapped in opponent's figure-four configuration with their outside leg crossed over their inside leg at your knee joint, severely limiting your leg mobility
 - Opponent maintains hip-to-hip connection with their hips positioned close to yours, preventing you from creating the distance needed for leg extraction
@@ -201,7 +199,7 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of leg entanglement escape theory and systematic defense protocols
 - Knowledge of inside heel hook mechanics to understand the submission threat being defended
@@ -230,7 +228,7 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Hip Escape to Guard Recovery]] → [[Open Guard]]
 
@@ -280,7 +278,7 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Inside Heel Hook Attack]]** → [[Lost by Submission]] (Opponent Success: 65%)
 - **[[Toe Hold Transition]]** → [[Lost by Submission]] (Opponent Success: 45%)
@@ -293,7 +291,7 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Counter Inside Sankaku Entry]]** → [[50-50 Guard]]
   - Opponent focuses too heavily on submission attempt without securing position
@@ -336,7 +334,7 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

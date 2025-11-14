@@ -8,7 +8,7 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player threads opponent's collar through their own legs creating direct connection from collar material through leg triangle to hips, establishing pulley-like mechanical advantage for posture breaking
 - Bottom player controls the fed-through collar with both hands using strategic grip placements on the gi material, maintaining constant tension to prevent opponent from extracting lapel from leg configuration
@@ -204,7 +202,7 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful lapel grip establishment and feed through own legs
 - Opponent in standing or combat base attempting to pass guard
@@ -232,7 +230,7 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Pendulum Sweep]] → [[Mount]]
 
@@ -296,7 +294,7 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 40%)
 - **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 35%)
@@ -309,7 +307,7 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Triangle Setup]]** → [[Triangle Control]]
   - Opponent postures up aggressively attempting to extract collar from leg configuration
@@ -356,7 +354,7 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

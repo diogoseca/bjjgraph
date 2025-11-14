@@ -8,7 +8,7 @@ description: "Master the Ezekiel Choke from Mount with comprehensive safety prot
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Ezekiel Choke from Mount with comprehensive safety prot
 
 
 
-> **Quick Answer**: Ezekiel from Mount is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Ezekiel from Mount is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="safety-considerations" class="content-section">
 
-## Is Ezekiel from Mount Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -223,7 +223,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Maintain solid mount position throughout the entire submission sequence - losing mount negates the control advantage
 - Create a blade with the forearm that crosses the throat at a 45-degree angle to maximize carotid compression
 - Use the gi sleeve grip as an anchor point to generate pulling force from the opposite side of the neck
@@ -237,7 +237,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure and stable mount position with weight distributed forward over opponent's chest
 - Opponent's arms must be controlled or neutralized to prevent effective hand fighting
 - Your gi sleeves must be accessible for gripping (not trapped under opponent's body)
@@ -251,7 +251,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish Dominant Mount**: Begin in a solid mount position with your weight distributed forward toward the opponent's head. Your knees should be tight to their sides, and your hips should be low and heavy on their chest. Keep your base wide enough for stability but narrow enough to maintain control. Position your head over their head to prevent bridging escapes. (Timing: Establish within first 2-3 seconds of achieving mount) [Pressure: Moderate]
 2. **Grip Your Own Sleeve**: Reach across your body with your right hand (or left, depending on preference) and grip deep into your opposite sleeve, ideally 4-6 inches above your wrist. The grip should be a thumb-in grip that creates a solid anchor point. This sleeve will become the fulcrum for your choke. Ensure the grip is secure before proceeding, as losing this grip during execution will compromise the entire technique. (Timing: 1-2 seconds for secure grip establishment) [Pressure: Firm]
 3. **Insert Choking Arm Across Throat**: Slide your sleeve-gripped hand (still holding your opposite sleeve) underneath the opponent's head, threading it across their throat from one side to the other. The blade of your forearm should make contact with one side of their neck at approximately a 45-degree angle. Your hand will emerge on the opposite side of their neck. Keep your elbow tight to your body to maintain structure and prevent the opponent from controlling this arm. (Timing: 2-3 seconds, moving smoothly to avoid alerting opponent) [Pressure: Light]
@@ -265,7 +265,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Framing against the choking arm to prevent insertion** (Effectiveness: High) - Your Adjustment: Use your free hand to clear their defensive frames by controlling their wrists or elbows. Alternatively, fake the Ezekiel entry to bait the frame, then attack with armbar or americana when their arms extend. Can also switch to opposite-side Ezekiel to circumvent the frame.
 - **Turning the head away from the choking arm** (Effectiveness: Medium) - Your Adjustment: Use your chest and shoulder to control their head position, preventing rotation. Drive your weight forward to pin their head in place. If they successfully turn, adjust your angle and pursue the choke from the new orientation, or transition to a mounted triangle or back take.
 - **Bridging explosively to create space or escape mount** (Effectiveness: Medium) - Your Adjustment: Keep your weight distributed forward with head over their head to minimize bridge effectiveness. Widen your base momentarily to absorb the bridge, then immediately return to tight mount. Post your free hand if necessary for balance while maintaining the sleeve grip for the choke.
@@ -275,28 +275,28 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying the choke with only arm strength instead of using body weight and structure [Low DANGER]
+## Common Mistakes
+- **Mistake**: Applying the choke with only arm strength instead of using body weight and structure [Low DANGER]
   - **Consequence**: Weak choke that burns out your arms and gives opponent time to escape or defend effectively
   - **Correction**: Drive your chest and shoulder into the choke while keeping elbows tight to your body. Use your entire upper body weight to create pressure, not just your biceps. The power comes from your posture and structure, not muscular force.
-- **Error**: Sitting up too high or back on the hips during the choke attempt [Medium DANGER]
+- **Mistake**: Sitting up too high or back on the hips during the choke attempt [Medium DANGER]
   - **Consequence**: Creates space for opponent to bridge, trap an arm, and execute sweep or escape. Loss of dominant position entirely.
   - **Correction**: Keep your weight distributed forward with your chest over the opponent's chest and head low. Your hips should be heavy on their torso, preventing any bridging motion. Stay compact and tight throughout the entire submission sequence.
-- **Error**: Failing to control the opponent's head position before or during the choke [Low DANGER]
+- **Mistake**: Failing to control the opponent's head position before or during the choke [Low DANGER]
   - **Consequence**: Opponent can turn their head to relieve pressure or create angles for escape. Reduces choke effectiveness significantly.
   - **Correction**: Use your chest, shoulder, and head position to pin their head in place. Your body weight should prevent them from turning in any direction. Drive forward to lock their head between your arms and chest.
-- **Error**: Gripping the sleeve too shallow or losing the sleeve grip during execution [Low DANGER]
+- **Mistake**: Gripping the sleeve too shallow or losing the sleeve grip during execution [Low DANGER]
   - **Consequence**: Loss of leverage and structural integrity in the choke. The submission becomes weak or impossible to finish.
   - **Correction**: Grip deep into your sleeve (4-6 inches above the wrist) with a thumb-in grip before starting the choke sequence. Maintain this grip throughout the entire technique. If you lose it, reset the position rather than trying to finish with a compromised grip.
-- **Error**: Using explosive or jerking motions to apply the choke [CRITICAL DANGER]
+- **Mistake**: Using explosive or jerking motions to apply the choke [CRITICAL DANGER]
   - **Consequence**: High risk of neck or trachea injury to training partner. Can cause loss of consciousness without warning. Violates training safety protocols.
   - **Correction**: Apply the choke with smooth, progressive pressure over 3-5 seconds minimum in training. Allow your partner time to recognize the danger and tap. Competition finishing speed is only appropriate in competition, never in training.
-- **Error**: Continuing to apply pressure after feeling a tap or seeing loss of resistance [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after feeling a tap or seeing loss of resistance [CRITICAL DANGER]
   - **Consequence**: Severe injury including unconsciousness, trachea damage, or prolonged oxygen deprivation. Potential permanent injury and violation of training partnership trust.
   - **Correction**: Release immediately upon any tap signal. If your partner goes limp or stops resisting, assume unconsciousness and release instantly. Monitor their breathing and consciousness. Never assume they're 'tough' and continue pressure.
-- **Error**: Placing the forearm blade directly on the trachea instead of targeting carotids [High DANGER]
+- **Mistake**: Placing the forearm blade directly on the trachea instead of targeting carotids [High DANGER]
   - **Consequence**: Painful air choke instead of blood choke, increased risk of trachea injury, partner may panic instead of tap calmly
   - **Correction**: Angle your forearm at 45 degrees across the neck so the blade contacts the side of the neck (carotid) rather than the front (trachea). The choke should compress both sides of the neck bilaterally for a clean blood choke that produces unconsciousness in 5-10 seconds without pain.
 
@@ -305,7 +305,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Reverse Ezekiel from Mount**: Instead of threading the arm under the head, this variation places the choking arm over the opponent's face and across the throat from above. The mechanics remain similar but the angle of attack is different, making it useful when the standard Ezekiel entry is defended. (When to use: Use when opponent successfully blocks the under-the-head entry or when you're in a higher mount position. Particularly effective against opponents who frame aggressively with their hands near their face.)
 
 **Ezekiel from High Mount**: Execute the Ezekiel while positioned very high on the opponent's chest with your knees near their armpits. This variation offers superior control and prevents escapes, though it requires more flexibility to reach around their head. The higher position makes the choke tighter and harder to defend. (When to use: Use when you've achieved a dominant high mount and the opponent is defensive. This position prevents bridge escapes and makes the choke nearly impossible to defend once locked in.)
@@ -350,7 +350,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Weeks 1-2)
 - Focus: Learn proper hand positioning, sleeve gripping mechanics, and basic body positioning without applying any choking pressure. Study anatomy of the neck and understand carotid vs trachea targeting. Shadow drill the movements in isolation.
 - Resistance: None
@@ -387,7 +387,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Mount]]
 - [[High Mount]]
@@ -405,7 +405,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Ezekiel Choke]]
 - [[Ezekiel Variations]]
@@ -448,7 +448,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Ezekiel choke from mount represents one of the most mechanically efficient submissions in grappling when properly understood. The genius of this technique lies in its use of your own gi as a fixed anchor point, creating a structural advantage that cannot be easily defeated by strength alone. The key mechanical insight is understanding that this is fundamentally a bilateral carotid compression accomplished through a scissoring action - your blade-side forearm remains relatively stationary while your pulling hand creates the dynamic force that closes the mechanism. Many practitioners make the critical error of trying to generate all the force with their arms, leading to weak chokes that can be defended. Instead, one must understand that the power comes from driving your entire upper body into the choke while maintaining structural integrity through tight elbows and forward weight distribution. The safety consideration here is paramount - because this choke can be applied through defensive frames and works even against a tucked chin, it can be deceptively fast and effective. In training, we must apply pressure progressively over several seconds to allow our partner adequate time to recognize the danger and tap. The biomechanical efficiency that makes this choke so effective also makes it potentially dangerous if applied with competition intensity in the training room. From a systematic perspective, the Ezekiel should never be viewed in isolation but rather as part of an integrated mount attacking system where the threat of the choke opens opportunities for arm attacks, and vice versa.
 - **Gordon Ryan**: In competition, the Ezekiel from mount is one of my highest-percentage finishes because it works against elite-level defense when other submissions might be blocked. Here's what makes it competition-viable: it doesn't require your opponent to make a mistake with their arm positioning like the armbar or americana does. Even when they're defending perfectly with tight elbows, the Ezekiel still attacks directly. The competitive application differs significantly from training - in competition, once I have both grips established and my positioning is correct, I can finish this choke in under two seconds with explosive pressure. That speed is absolutely critical at the highest levels where any hesitation gives elite opponents time to escape or counter. However, and this is crucial, that competition-speed application has no place in the training room. When I drill this with training partners, I'm applying maybe 60-70% pressure maximum and taking 4-5 seconds to finish, giving them plenty of time to tap. The distinction between training and competition application cannot be overstated with chokes. In competition, I'm also using the Ezekiel threat constantly to set up armbars - I'll threaten the Ezekiel, and when my opponent commits both hands to defend it, I immediately transition to isolate one of those arms for the finish. This creates a problem where they're forced to choose between defending the choke or protecting their arms, and either choice leads to a submission. The mount position itself is what makes this whole system work - if you can't maintain a dominant mount with forward pressure while attacking, none of these submissions will be successful against quality opponents.
 - **Eddie Bravo**: The Ezekiel is one of those old-school techniques that still works at the highest levels because the fundamental mechanics are sound, man. What I love about it is how it fits into the overall submission chain from mount - you can threaten it, transition to armbars when they defend, go back to the Ezekiel when they pull their arms back, and keep that cycle going until something finishes. In the 10th Planet system, we've adapted this for no-gi by using the one-armed variation or what we call the 'arm-in Ezekiel' where you thread your arm under their head but use your hand behind their neck instead of gripping a sleeve. It's not quite as powerful as the gi version, but it's still highly effective and catches people by surprise in no-gi competition. One thing I emphasize with all my students is developing a safety culture around chokes, especially the Ezekiel. Because it can be finished so quickly and works through their defenses, there's a real temptation to just crank it on in training, but that's how people get hurt. We drill it slowly, progressively, and always with clear communication. The other innovative aspect we explore is using the Ezekiel as a control position rather than just a finish - you can establish the grips and use that threat to control their movement and reactions, opening up other attacks. From high mount especially, the Ezekiel becomes this constant pressure that makes everything else work better. The key is staying creative with how you set it up - fake going for an americana, then switch to the Ezekiel when they defend. Or act like you're posting for base, then suddenly thread the arm under. That element of surprise combined with solid fundamentals is what makes techniques truly effective at the highest levels.

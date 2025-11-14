@@ -129,7 +129,7 @@ description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Comple
 
 
 
-> **Quick Answer**: Gordon Ryan Passing System is a advanced difficulty Passing System system. This systematic approach integrates 4 key components into a cohesive fighting framework.
+> Gordon Ryan Passing System is a advanced difficulty Passing System system. Integrates 4 components.
 
 **System ID**: 
 **System Type**: Passing System
@@ -152,7 +152,7 @@ What distinguishes this system is its adaptability to different guard types whil
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Pressure over speed - establish dominant control before initiating passing movements
 - Systematic removal of defensive frames through strategic grip placement and weight distribution
 - Body lock control as primary passing vehicle with multiple finish options
@@ -166,7 +166,7 @@ What distinguishes this system is its adaptability to different guard types whil
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Body Lock Passing** (Primary passing vehicle that provides maximum control while minimizing counterattack opportunities)
 The cornerstone of Ryan's passing system, body lock passing involves securing a tight body lock around the opponent's torso while passing their legs to the side. This control eliminates most defensive options and allows for methodical pressure application. The body lock can be established from standing, from combat base, or from top position, making it a versatile entry point for multiple passing sequences.
 
@@ -185,7 +185,7 @@ Headquarters position serves as the central hub of Ryan's passing system, provid
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Grip Establishment**: Begin every passing sequence by establishing dominant grips and removing opponent's primary defensive frames. Fight for collar ties, wrist control, or body lock grips before attempting to pass.
 Key points:
 - Never initiate passing movements without grip dominance
@@ -345,7 +345,7 @@ Development of this passing system requires extensive positional drilling with p
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: Gordon's passing system represents a synthesis of traditional pressure passing principles with modern no-gi specific adaptations. The brilliance lies in the systematic removal of defensive options through strategic control establishment. What separates elite passers from intermediate practitioners is not technical variety but rather the depth of understanding in each position. Gordon has developed an encyclopedic knowledge of defensive reactions from every guard type, allowing him to anticipate and neutralize defensive attempts before they fully develop. The body lock serves as the perfect vehicle for this approach because it simultaneously removes upper body frames while controlling hip mobility. The key insight is understanding that guard passing is fundamentally a problem of controlling enough points on the opponent's body that movement becomes impossible. Most passing failures occur from insufficient control establishment before attempting the pass itself. Gordon's methodology of establishing dominant grips, applying strategic pressure to remove frames, and only then initiating passing movements represents technically sound systematic thinking.
 - **Gordon Ryan**: My passing system is built on one fundamental truth - if you can't escape my pressure, you can't keep your guard. I developed this approach through thousands of rounds against world-class guard players who forced me to find solutions that work against the absolute best. The body lock pass became my primary weapon because it offers maximum control with minimum risk. When I lock my hands around your body, I'm not just controlling your torso - I'm eliminating your ability to create the angles and space you need for guard retention. The leg drag sequences evolved from studying how opponents defended my body lock attempts. When they try to prevent the body lock by controlling distance, they expose their legs to drag variations. When they defend the leg drag by squaring back up, they walk right into the over-under pressure pass. This isn't about being physically stronger than your opponent - it's about systematically removing every defensive option until the pass becomes inevitable. In competition, I don't chase fast passes or risky techniques. I establish control, apply pressure until you make a mistake, then capitalize on that mistake with precise technical execution. That's how you pass the guard of elite black belts consistently.
 - **Eddie Bravo**: Gordon's approach to passing demonstrates how traditional pressure passing concepts can be elevated through systematic thinking and competition testing. While my system emphasizes different passing entries and guard types, the underlying principle of establishing control before passing resonates deeply. What's innovative about Gordon's methodology is the seamless integration of multiple passing systems - body lock, leg drag, over-under - all flowing from the same control principles. In 10th Planet, we emphasize adaptability and creative problem-solving, and Gordon's system embodies those values while maintaining technical precision. The headquarters position he uses as a central hub is conceptually similar to how we use certain control positions as launching points for multiple techniques. Where Gordon's approach differs from traditional pressure passing is the incorporation of modern leg entanglement awareness - he's passing guards in an era where leg locks are prevalent, so his positioning accounts for those threats. The competition results speak for themselves - this systematic, pressure-based approach has proven devastatingly effective at the highest levels. Any serious competitor needs to understand these passing concepts, whether they adopt the entire system or integrate specific elements into their existing game.

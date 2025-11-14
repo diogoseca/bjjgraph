@@ -8,7 +8,7 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
 
 
 
-> **Quick Answer**: Side Control Escape transitions from [[Side Control]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Side Control Escape transitions from [[Side Control]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Side Control Escape is one of the most fundamental defensive techniques in B
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create strong defensive frames to prevent opponent's weight from settling
 - Protect the neck and prevent opponent from advancing to mount or taking back
 - Generate space through hip escape movements rather than pushing
@@ -180,7 +180,7 @@ The Side Control Escape is one of the most fundamental defensive techniques in B
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Strong frames established against opponent's hip and shoulder
 - Chin tucked to protect neck from crossface pressure
 - Bottom arm protecting near side to prevent arm trap
@@ -193,7 +193,7 @@ The Side Control Escape is one of the most fundamental defensive techniques in B
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish defensive frames**: Place bottom forearm against opponent's hip with elbow tight to your ribs, creating a rigid frame. Top hand frames against opponent's shoulder or neck, keeping elbow inside to prevent crossface. Both frames work together to create structural barriers preventing opponent's weight from crushing down onto your chest and face. (Timing: Immediately upon reaching side control bottom position)
 2. **Create initial space with bridge**: Bridge powerfully upward, driving your shoulder and hips toward the ceiling while pushing through both frames. This momentarily disrupts opponent's base and creates the first critical inches of space needed for hip movement. Time the bridge when opponent is adjusting their position or attempting to consolidate control. (Timing: When opponent shifts weight or adjusts grips)
 3. **Execute hip escape (shrimp)**: As you land from the bridge, immediately shrimp your hips away from opponent by pulling bottom knee toward chest and pushing off top foot. Slide your hips back 6-12 inches while maintaining strong frames to prevent opponent from following your movement. This creates the space needed to begin turning your hips. (Timing: Immediately following bridge, during brief moment of disruption)
@@ -206,7 +206,7 @@ The Side Control Escape is one of the most fundamental defensive techniques in B
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent applies heavy crossface to flatten you back down** (Effectiveness: High) - Your Response: Keep chin tucked tightly and use top arm frame to block the crossface path. If crossface connects, immediately hand fight to remove it while maintaining bottom frame. Consider switching to ghost escape or underhook variation.
 - **Opponent switches to knee on belly as you create space** (Effectiveness: Medium) - Your Response: Follow opponent's movement with your frames, pushing their knee away while shrimping in the direction of their posted leg. This often creates opportunity to recover guard or take their back as they transition.
 - **Opponent drives shoulder into your face and pins near arm** (Effectiveness: High) - Your Response: Accept the trapped arm temporarily and focus on creating space with far side shrimp. Use free hand to push off opponent's hip. Once space is created, extract trapped arm by lifting opponent's shoulder with bridge or using ghost escape mechanics.
@@ -215,25 +215,25 @@ The Side Control Escape is one of the most fundamental defensive techniques in B
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Trying to push opponent away using upper body strength
+## Common Mistakes
+- **Mistake**: Trying to push opponent away using upper body strength
   - **Consequence**: Exhausts energy rapidly without creating effective space, often resulting in arms becoming trapped and more dominant control for opponent
   - **Correction**: Use frames for structure and leverage, not pushing. Generate space through hip movement and bridges, using leg power rather than arm strength
-- **Error**: Forgetting to turn hips toward opponent
+- **Mistake**: Forgetting to turn hips toward opponent
   - **Consequence**: Remains flat on back even with space created, making guard recovery impossible and allowing opponent to easily resettle position
   - **Correction**: Always combine shrimp with hip rotation. Think of bringing knees between you and opponent, not just sliding hips away
-- **Error**: Exposing neck by looking away or turning head
+- **Mistake**: Exposing neck by looking away or turning head
   - **Consequence**: Invites crossface pressure, guillotine attacks, or opponent's transition to mount or back control
   - **Correction**: Keep chin tucked tightly to chest throughout escape. Look toward opponent, not away. Protect neck as first priority
-- **Error**: Attempting explosive single movement instead of systematic escape
+- **Mistake**: Attempting explosive single movement instead of systematic escape
   - **Consequence**: Creates brief space that opponent easily recovers, while burning significant energy and often resulting in worse position
   - **Correction**: Execute escape as connected sequence of movements. Each step builds on previous one. Maintain constant pressure through frames while systematically recovering position
-- **Error**: Abandoning frames to reach for underhook or other grips
+- **Mistake**: Abandoning frames to reach for underhook or other grips
   - **Consequence**: Allows opponent's weight to settle completely, making subsequent escape attempts much more difficult and risking submission
   - **Correction**: Maintain at least one strong frame at all times. Only transition frames when new structure is already in place. Never create vacuum of defensive structure
-- **Error**: Shrimping directly away from opponent in straight line
+- **Mistake**: Shrimping directly away from opponent in straight line
   - **Consequence**: Creates minimal angle change and allows opponent to easily follow hip movement, maintaining dominant position
   - **Correction**: Shrimp at angle, moving hips back and away while beginning rotation toward opponent. Create both distance and angle simultaneously
 
@@ -242,7 +242,7 @@ The Side Control Escape is one of the most fundamental defensive techniques in B
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Foundation Phase** - Frame mechanics and basic hip movement
 Practice establishing frames from side control bottom with no pressure. Partner maintains light position while you drill proper frame placement, bridge mechanics, and basic shrimping movement. Focus on technical precision of each component before combining them.
 (Resistance: None)
@@ -269,7 +269,7 @@ Execute escapes during positional sparring with partner using maximum effort to 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Ghost Escape Variation**: When opponent has strong crossface and trapped near arm, turn away from opponent instead of toward them. Create space with hip escape, then perform granby roll under opponent's base to recover guard on opposite side. (When to use: When near arm is deeply trapped and traditional escape is blocked by heavy crossface pressure)
 
 **Underhook Recovery**: Instead of framing against opponent's hip, feed bottom arm deep under opponent's far armpit to establish underhook. Use underhook to lift opponent's weight while shrimping hips out to create recovery space. (When to use: When opponent is sitting back slightly or has high posture, creating space for underhook entry)
@@ -309,7 +309,7 @@ Execute escapes during positional sparring with partner using maximum effort to 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing side control escapes, controlled application of pressure is essential to prevent injury to both training partners. The top player should apply steady pressure rather than explosive or dropping weight, as this can cause rib injuries or breathing difficulties for the bottom player. The bottom player must communicate immediately if pressure becomes painful or breathing is compromised. When executing bridges, ensure adequate mat space exists and be aware of training partners nearby to avoid collisions. Hip escape movements should be controlled, especially when training with newer practitioners, to prevent knee or hip strain. Never perform explosive, spastic movements when escaping as this increases injury risk and reduces technical development. Build tolerance to pressure gradually over time rather than immediately drilling under maximum pressure. Both partners should maintain constant awareness of the other's safety and be prepared to release pressure or pause the drill if any discomfort or safety concern arises.
 
@@ -317,7 +317,7 @@ When practicing side control escapes, controlled application of pressure is esse
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Side control escape represents a fundamental component of the defensive hierarchy in BJJ, serving as the primary recovery mechanism when guard passing has been completed. This technique connects directly to guard retention and guard recovery systems, as successful escape leads immediately into reestablishing guard position where offensive attacks can resume. The escape integrates with the broader positional hierarchy by preventing further positional degradation to mount, back control, or submission positions. When escape is not immediately available, the technique teaches patience and defensive framing that prevents opponent from advancing while creating opportunities for eventual recovery. Advanced practitioners chain side control escapes with other defensive techniques including mount escapes, back escapes, and turtle defense, creating comprehensive escape systems. The skill also develops critical attributes including pressure tolerance, hip mobility, framing mechanics, and positional awareness that transfer to all other areas of BJJ. Understanding this escape provides foundation for learning more complex guard recovery systems including deep half guard entries, wrestler's sit-up escapes, and technical stand-up sequences. The technique emphasizes the fundamental BJJ principle of using technique and leverage over strength, making it accessible to practitioners of all sizes while remaining effective at the highest competition levels.
 
@@ -325,7 +325,7 @@ Side control escape represents a fundamental component of the defensive hierarch
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Elbow Escape]] - Alternative escape method using similar mechanics
 - [[Shrimp Escape]] - Core movement pattern used within technique
@@ -345,7 +345,7 @@ Side control escape represents a fundamental component of the defensive hierarch
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The side control escape represents one of the most important technical sequences in all of grappling because it addresses a fundamental problem every practitioner faces - what to do when the opponent has achieved dominant position and is applying crushing pressure. The escape must be understood not as a single explosive movement but as a systematic sequence built on precise mechanical principles. The frames are not pushing tools but structural barriers that manage distance and prevent total weight settlement. The bridge creates temporary base disruption, and the hip escape capitalizes on this disruption before equilibrium is restored. Critical to success is the understanding that you must turn your hips toward the opponent - space creation alone is insufficient without proper angle generation. The knee insertion acts as a new frame that prevents position resquashing while establishing guard structure. Students must develop pressure tolerance through progressive exposure rather than attempting to escape all pressure immediately. The timing elements require sensitivity to opponent's weight distribution - escape attempts during stable opponent position typically fail, while movements during opponent's adjustments succeed. Train this escape daily until it becomes automatic response rather than consciously executed technique.
 - **Gordon Ryan**: In high-level competition, side control escape is absolutely critical because elite opponents will eventually pass your guard no matter how good your retention is. The key difference between good competitors and great ones is how quickly they can recover guard after it's been passed. I focus heavily on maintaining frames immediately when my guard gets passed - never let the position settle completely. The biggest mistake I see is people waiting too long to begin their escape, letting their opponent establish perfect control with crossface and underhook. You need to be working escape mechanics from the first second of side control. In competition, I'm constantly moving my hips and adjusting frames even under heavy pressure, looking for any moment when my opponent shifts weight to adjust their position. That's when you execute your escape. Against equally skilled opponents, the escape often takes multiple attempts - the first shrimp might only create an inch of space, but you maintain frames and immediately try again. Chain multiple escape attempts together rather than giving up after first attempt is defended. Also critical is immediately establishing offense once you recover guard - don't let them reset and pass again. The escape should flow directly into guard attacks to punish them for the passing attempt.
 - **Eddie Bravo**: Side control escape is where a lot of people get stuck because they're trying to use old-school methods against modern pressure passing. The traditional elbow escape works great when someone's giving you space, but against high-level pressure passers you need additional tools. I teach students to always be working toward the underhook while maintaining their frames - that underhook changes everything and opens up sweeps and back takes. The lockdown system also provides alternative escape routes when traditional methods are shut down. If you can get any part of lockdown structure established, you can start working electric chair and other sweeps even from bad position. Another key concept is using the opponent's pressure against them - when they're driving hard into you, that's actually the best time to change direction and come up on your side or even to your knees. Don't just accept being flat on your back. The ghost escape is crucial for no-gi when crossface is locked in - you have to be willing to turn away and granby roll under them. Practice these escapes regularly because your guard will get passed, especially in no-gi where everything moves faster. Having multiple escape pathways and the ability to chain them together is what separates good guard players from guys who just accept bad positions and get submitted.

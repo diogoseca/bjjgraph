@@ -8,7 +8,7 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 45% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent controls your head with one arm wrapped around the neck, typically in a front headlock configuration with their chest pressing down on the back of your head and neck, restricting upward movement and creating a heavy, oppressive weight that limits breathing and vision while establishing the foundation for submission mechanics
 - Your trapped arm is secured by opponent's control, either caught inside their grip or pinned between your bodies, eliminating the ability to post or create frames on that side while the opponent's body weight reinforces this arm isolation and creates leverage for potential choke finishes
@@ -200,7 +198,7 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Failed turtle defense allowing opponent to secure front headlock control with deep grip
 - Unsuccessful takedown attempt resulting in opponent securing head and arm control during scramble
@@ -228,7 +226,7 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Hip Escape]] → [[Turtle]]
 
@@ -278,7 +276,7 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Anaconda from Turtle]]** → [[Anaconda Control]] (Opponent Success: 65%)
 - **[[Darce Setup]]** → [[D'arce Control]] (Opponent Success: 60%)
@@ -292,7 +290,7 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Hip Escape]]** → [[Turtle]]
   - Opponent attempts to flatten you completely by driving weight forward
@@ -332,7 +330,7 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

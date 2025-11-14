@@ -8,7 +8,7 @@ description: "Master D'arce Control from bottom position in BJJ. Learn defensive
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master D'arce Control from bottom position in BJJ. Learn defensive
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master D'arce Control from bottom position in BJJ. Learn defensive
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 55% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ While extremely dangerous, D'arce Control Bottom is not an inescapable position.
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent has threaded their arm under defender's near-side arm and over the far shoulder with hands clasped together in D'arce grip configuration near defender's neck creating immediate submission threat
 - Defender's near-side arm is trapped against their own body typically pinned across their torso or neck by opponent's encircling arm creating the arm-in choke structure that enables effective strangulation
@@ -204,7 +202,7 @@ While extremely dangerous, D'arce Control Bottom is not an inescapable position.
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has successfully secured D'arce grip configuration with arm threaded under near arm
 - Defender's near-side arm is trapped in the choke structure
@@ -229,7 +227,7 @@ While extremely dangerous, D'arce Control Bottom is not an inescapable position.
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Arm Extraction]] → [[Turtle]]
 
@@ -279,7 +277,7 @@ While extremely dangerous, D'arce Control Bottom is not an inescapable position.
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Darce Choke]]** → [[Lost by Submission]] (Opponent Success: 70%)
 - **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 50%)
@@ -291,7 +289,7 @@ While extremely dangerous, D'arce Control Bottom is not an inescapable position.
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Hidden Arm Escape]]** → [[Turtle]]
   - Opponent attempts to flatten you to complete choke
@@ -331,7 +329,7 @@ While extremely dangerous, D'arce Control Bottom is not an inescapable position.
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

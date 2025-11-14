@@ -8,7 +8,7 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Practitioner's head and one arm are trapped inside opponent's closed triangle configuration with shin bone crossing behind neck, creating direct pressure on carotid arteries
 - Opponent's legs are locked in triangle position with one leg across shoulder and back of neck, other leg hooking behind knee to maintain structural integrity
@@ -204,7 +202,7 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Practitioner's head and arm caught inside opponent's triangle lock from above position
 - Opponent has achieved triangle leg configuration with locked position and active pressure
@@ -232,7 +230,7 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Stack Pass]] → [[Side Control]]
 
@@ -282,7 +280,7 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Triangle Choke]]** → [[Won by Submission]] (Opponent Success: 55%)
 - **[[Triangle to Armbar]]** → [[Armbar Control]] (Opponent Success: 40%)
@@ -294,7 +292,7 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Stack Defense]]** → [[Side Control]]
   - Opponent attempts to adjust angle by scooting hips laterally
@@ -329,7 +327,7 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

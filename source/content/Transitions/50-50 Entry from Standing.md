@@ -8,7 +8,7 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 
 
 
-> **Quick Answer**: 50-50 Entry from Standing transitions from [[Standing Position]] to [[50-50 Guard]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+> 50-50 Entry from Standing transitions from [[Standing Position]] to [[50-50 Guard]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control opponent's leg before committing to the entry
 - Maintain balance during the transition from standing to seated
 - Establish proper leg configuration immediately upon sitting
@@ -188,7 +188,7 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing position with both competitors on their feet
 - At least one grip established on opponent (collar, sleeve, or wrist control)
 - Appropriate distance to reach opponent's leg without overextending
@@ -201,7 +201,7 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grip control**: Begin by securing a controlling grip on your opponent's upper body, typically a collar tie or sleeve grip. This grip serves two purposes: it prevents your opponent from creating distance during your entry, and it helps control your descent to the mat. Keep your posture upright and maintain a comfortable fighting distance. (Timing: Pre-entry positioning phase)
 2. **Target the lead leg**: Identify your opponent's lead leg (the leg that is slightly forward or bearing more weight). Lower your level slightly by bending at the knees while maintaining your upper body grip. Begin to reach for their lead leg with your outside hand, aiming to secure a grip on their ankle or lower shin. This hand will guide their leg into the proper position as you enter. (Timing: Initial commitment phase, 0.5-1 seconds)
 3. **Drop to seated position**: Once you have secured the ankle or shin grip, quickly drop your hips to the mat in a controlled sitting motion. Your inside leg (the leg closest to your opponent) should extend and hook behind their knee, while your outside leg begins to thread inside their leg. Keep your upper body grip active to prevent them from backing away or creating distance. The descent should be smooth and controlled, not a sudden drop. (Timing: Entry phase, 1-1.5 seconds)
@@ -215,7 +215,7 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Sprawl and distance creation** (Effectiveness: High) - Your Response: Maintain your ankle/shin grip and use it to pull yourself into position even as they sprawl. If they create significant distance, abandon the 50-50 entry and transition to a single leg attack or standing reset.
 - **Immediate backward step and leg extraction** (Effectiveness: Medium) - Your Response: Use your upper body grip to prevent them from stepping back. If they begin to extract, follow them with your hips and try to establish a deep half guard or outside ashi garami instead.
 - **Forward pressure and knee slice attempt** (Effectiveness: Medium) - Your Response: Use your outside leg frame to create distance and prevent them from driving their knee across. Transition to X-Guard or single leg X if they commit too much forward pressure.
@@ -225,28 +225,28 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Entering without first establishing upper body control
+## Common Mistakes
+- **Mistake**: Entering without first establishing upper body control
   - **Consequence**: Opponent can easily sprawl away or create distance, preventing you from establishing the position
   - **Correction**: Always secure at least one controlling grip before dropping to your seat. This grip is your insurance against them escaping during the transition.
-- **Error**: Sitting too far from opponent
+- **Mistake**: Sitting too far from opponent
   - **Consequence**: Creates space that allows opponent to extract their leg or immediately pass to side control
   - **Correction**: Your hips should be close to your opponent's hips as you sit. Pull yourself in with your grips and leg hooks to eliminate space.
-- **Error**: Failing to establish outside leg frame quickly
+- **Mistake**: Failing to establish outside leg frame quickly
   - **Consequence**: Opponent can easily pass around your legs before the position is secured
   - **Correction**: Your outside leg must thread inside their thigh simultaneously with your sitting motion. This is the primary barrier to them passing.
-- **Error**: Lying flat on your back after entry
+- **Mistake**: Lying flat on your back after entry
   - **Consequence**: Gives opponent top position advantage and makes it easier for them to pressure pass or extract their leg
   - **Correction**: Maintain an upright or semi-reclined posture with your chest up. This gives you better control and attacking options.
-- **Error**: Crossing your feet or ankles
+- **Mistake**: Crossing your feet or ankles
   - **Consequence**: Weakens your position and can lead to ankle locks or make it easy for opponent to pass
   - **Correction**: Keep your feet separated and active. Your inside foot hooks behind their knee, your outside foot is on their hip - they should never cross.
-- **Error**: Neglecting upper body grips after establishing leg entanglement
+- **Mistake**: Neglecting upper body grips after establishing leg entanglement
   - **Consequence**: Opponent can posture up, create angles, and begin their passing or escape sequences
   - **Correction**: Immediately establish upper body control once your legs are positioned. This prevents them from creating the space they need to escape.
-- **Error**: Entering when opponent has strong backward momentum
+- **Mistake**: Entering when opponent has strong backward momentum
   - **Consequence**: You end up stretched out and unable to maintain the entanglement as they pull away
   - **Correction**: Time your entry when opponent is stationary or moving forward. If they're backing away, use different entries or create a situation that stops their backward movement first.
 
@@ -255,7 +255,7 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1 (Weeks 1-2): Static Entry Drilling** - Learning the basic mechanics without resistance
 Practice the entry from standing with a compliant partner. Focus on coordinating the sitting motion with the leg configuration. Partner should remain stationary and allow you to establish the position. Drill 10-15 repetitions per training session, alternating sides. Focus on smooth, controlled movement rather than speed.
 (Resistance: None)
@@ -286,7 +286,7 @@ Actively look for opportunities to enter 50-50 from standing during regular spar
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Shin-to-Shin 50-50 Entry**: Instead of grabbing the ankle, establish shin-to-shin position first, then sit to 50-50. This variant provides more control during the entry and makes it harder for opponent to sprawl away. (When to use: Against opponents who have excellent sprawl reactions or when you need more control before committing to the entry. Particularly effective in gi where you can combine shin-to-shin with collar grips.)
 
 **Outside Ashi to 50-50 Entry**: Enter to outside ashi garami first (with your outside leg hooking their leg), then invert your inside leg to establish the 50-50 configuration. Provides a safer entry path with less risk of being countered. (When to use: When opponent is backing away or creating distance. The outside ashi entry allows you to follow them more effectively, then transition to 50-50 once they're controlled.)
@@ -329,7 +329,7 @@ Actively look for opportunities to enter 50-50 from standing during regular spar
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The 50-50 Entry from Standing carries moderate injury risk, primarily to the knees and ankles during the sitting motion and entanglement phase. When practicing this technique, always ensure you have adequate mat space to sit without obstacles. Control your descent to the mat - dropping too quickly or from too high can cause knee or tailbone injuries. When your partner is learning to defend, they may attempt to remain standing while you pull them down, which can create dangerous torque on the entangled leg. Both partners should agree on whether to follow to the ground or to reset if the entry is defended. In competition scenarios, be aware of potential slam counters if you maintain the position while being lifted - it's safer to release and reset than to risk injury. During the learning phases, practice slowly and ensure both partners understand the mechanics before adding speed or resistance. The 50-50 position itself can place significant stress on the knee joint, so both participants should tap early to any leg lock threats and communicate clearly about their comfort level with the pressure being applied.
 
@@ -337,7 +337,7 @@ The 50-50 Entry from Standing carries moderate injury risk, primarily to the kne
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The 50-50 Entry from Standing represents a modern approach to establishing guard that bypasses many traditional guard pull sequences. This technique fits into the broader leg entanglement system that includes positions like outside ashi garami, inside ashi garami, single leg X, and X-guard. From 50-50, practitioners have access to a complete system of attacks and transitions: offensive options include inside heel hooks, toe holds, straight ankle locks, and transitions to more dominant leg entanglement positions like outside ashi or the saddle position. Defensively, the position's symmetry provides protection against your opponent's leg lock attacks while you work your offense.
 
@@ -347,7 +347,7 @@ Strategically, the 50-50 entry from standing is particularly valuable in no-gi c
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[50-50 Guard]] - Target position - the end state of this technique
 - [[Outside Ashi Entry]] - Alternative entry method to leg entanglement from standing
@@ -365,7 +365,7 @@ Strategically, the 50-50 entry from standing is particularly valuable in no-gi c
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The 50-50 guard entry from standing represents a sophisticated understanding of modern leg entanglement theory. What makes this entry particularly interesting from a systematic perspective is how it simultaneously addresses two fundamental problems in guard pulling: maintaining connection with your opponent during the transition and establishing immediate offensive threats upon landing. The symmetrical nature of the final position creates what I call a 'strategic stalemate' - both competitors have similar attacking and defensive options, which means victory goes to whoever has superior technical knowledge and execution within the position itself. When teaching this entry, I emphasize the critical importance of the outside leg frame - this single detail determines whether you achieve a controlled position or simply fall to your back beneath a standing opponent. The timing of threading this leg inside your opponent's thigh must be simultaneous with your sitting motion, not sequential. Students often make the mistake of sitting first and then trying to establish the leg configuration, which gives their opponent time to counter. From a biomechanical standpoint, the entry requires coordinating three separate actions: maintaining upper body connection, controlling the target leg, and configuring your own legs - all while managing your center of gravity during the descent to the mat. This level of coordination only comes through systematic drilling of the component parts before attempting the full technique under resistance.
 - **Gordon Ryan**: I use the 50-50 entry from standing constantly in competition because it puts me directly into a position where I have a massive advantage - most people don't understand 50-50 at a high level, so they're immediately uncomfortable and making mistakes. The key to making this entry work at the elite level is your grip fighting before you sit. You need to control their movement so they can't just back away when you drop. I like to use a collar tie or wrist control and actually pull them slightly forward as I sit, which makes it very hard for them to sprawl effectively. Once I'm in 50-50, I'm looking for the inside heel hook immediately, but I'm also constantly adjusting my position to break down their defensive structure. A lot of people think 50-50 is a stalling position, but that's only true if you don't know how to attack from it. When I enter from standing, I'm already thinking about my finishing sequence - usually I'm setting up to transition to outside ashi within 10-15 seconds if I don't get the immediate tap from 50-50. The standing entry is also great because it's hard to pin any negative points on you in most rulesets - you're pulling guard, but you're immediately establishing a complex entanglement that referees recognize as advancement. I've won multiple matches by entering 50-50 from standing in the first 30 seconds and finishing with a heel hook within the first minute. The entry is that effective when you understand the complete system.
 - **Eddie Bravo**: The 50-50 entry from standing is one of those techniques that shows how much the game has evolved beyond traditional positions. In 10th Planet, we look at leg entanglements as their own complete game, not just something you do occasionally. This entry is beautiful because it completely bypasses all the traditional guard passing scenarios - you're not in closed guard, you're not in half guard, you're in this weird position where both guys have the same theoretical opportunities but the person who pulled it knows the position better and has the advantage. What I love about teaching this is how it opens people's minds to non-traditional entries. We don't always have to do a traditional guard pull and then work to entangle the legs - we can create the entanglement during the pull itself. When I'm coaching someone on this entry, I tell them to think of it like setting a trap. Your opponent doesn't realize they're in danger until they're already entangled. The way I modify this for my students is to emphasize the importance of immediately attacking once you establish the position - don't just sit in 50-50 and wait, start threatening the heel hook or transition to saddle right away. That aggressive mentality is what makes the position work. The sitting entry also fits perfectly with our overall philosophy of being comfortable on your back and attacking from what traditionally might be considered defensive positions. In 10th Planet, there's no such thing as a purely defensive position if you know the right attacks.

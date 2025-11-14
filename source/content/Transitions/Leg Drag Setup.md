@@ -8,7 +8,7 @@ description: "Master the Leg Drag Setup from open guard. Learn grip sequences, a
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Leg Drag Setup from open guard. Learn grip sequences, a
 
 
 
-> **Quick Answer**: Leg Drag Setup transitions from [[Open Guard]] to [[Leg Drag Position]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Leg Drag Setup transitions from [[Open Guard]] to [[Leg Drag Position]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Leg Drag Setup is a fundamental entry sequence into one of modern Brazilian 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish dominant grip control before attempting to change angle
 - Control the opponent's far hip to prevent them from facing you
 - Use your body weight to pin the near leg while creating distance from the far leg
@@ -180,7 +180,7 @@ The Leg Drag Setup is a fundamental entry sequence into one of modern Brazilian 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent is in open guard with at least one leg extended
 - You have established at least one grip (pants, sleeve, or lapel)
 - Your posture is upright with good base
@@ -193,7 +193,7 @@ The Leg Drag Setup is a fundamental entry sequence into one of modern Brazilian 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish primary grips**: From standing or combat base, secure a grip on the opponent's far side pants (at the knee) with your near hand while controlling their same-side sleeve or collar with your other hand. In no-gi, control the far ankle with your near hand and establish an underhook or overhook with your far hand. These grips give you the leverage to begin manipulating their leg position. (Timing: Initial contact phase)
 2. **Create angle and pressure**: Step your near foot forward and slightly to the outside of the opponent's near leg while maintaining your grips. Drive your weight forward through your chest, forcing them onto their back if they're sitting up. This angle change is critical as it begins to isolate the near leg and prevents them from turning to face you directly. (Timing: As opponent extends legs or sits up)
 3. **Pin the near leg**: Using your near hip and leg, pin the opponent's near leg to the mat by driving your weight across it. Your shin should be across their thigh or your hip should be heavy on their knee. This immobilization prevents them from retracting the leg or creating a new guard frame. Maintain constant downward pressure through your core. (Timing: Immediately after angle change)
@@ -206,7 +206,7 @@ The Leg Drag Setup is a fundamental entry sequence into one of modern Brazilian 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent frames with far leg and pushes you away before you can pin near leg** (Effectiveness: High) - Your Response: Step around the frame rather than fighting through it, using your grip on the pants to pull their leg across while you change angle. Alternatively, switch to a different passing approach like toreando if they're committed to the frame.
 - **Opponent turns into you and recovers closed guard or half guard** (Effectiveness: High) - Your Response: Immediately establish far hip control earlier in the sequence and maintain heavy pressure through your chest to prevent the turn. If they start turning, abandon the leg drag and transition to knee slice or smash pass.
 - **Opponent grabs your far leg and threatens a single leg sweep** (Effectiveness: Medium) - Your Response: Widen your base and drop your hips while maintaining forward pressure. Use your far hip control to prevent them from getting underneath you. If needed, backstep to free your leg while maintaining the leg drag.
@@ -216,25 +216,25 @@ The Leg Drag Setup is a fundamental entry sequence into one of modern Brazilian 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Standing too upright during the setup phase
+## Common Mistakes
+- **Mistake**: Standing too upright during the setup phase
   - **Consequence**: Opponent can easily push you away with frames or attack your legs with sweeps
   - **Correction**: Keep your chest low and driving forward throughout the setup. Your head should be lower than your hips, creating constant forward pressure that makes framing ineffective.
-- **Error**: Attempting to drag the leg before pinning the near leg
+- **Mistake**: Attempting to drag the leg before pinning the near leg
   - **Consequence**: Opponent retains mobility and can easily turn into you or recover guard
   - **Correction**: Always pin the near leg first before attempting to drag the far leg. The near leg pin is your anchor point that prevents rotation.
-- **Error**: Failing to control the far hip
+- **Mistake**: Failing to control the far hip
   - **Consequence**: Opponent can turn toward you and escape or recover guard position
   - **Correction**: Establish far hip control as soon as the near leg is pinned. Your hand should be active on their hip, preventing any turning motion toward you.
-- **Error**: Using only arm strength to drag the leg
+- **Mistake**: Using only arm strength to drag the leg
   - **Consequence**: The technique becomes exhausting and ineffective against strong opponents
   - **Correction**: Use your entire body to create the drag motion. Your hips should move toward their far side while your grip guides the leg across. Let your body weight do the work.
-- **Error**: Losing forward pressure during the transition
+- **Mistake**: Losing forward pressure during the transition
   - **Consequence**: Opponent creates space and recovers their guard or initiates sweeps
   - **Correction**: Maintain constant chest pressure throughout every step of the sequence. Any moment you relieve pressure is an opportunity for them to escape.
-- **Error**: Committing to the leg drag when opponent has strong frames established
+- **Mistake**: Committing to the leg drag when opponent has strong frames established
   - **Consequence**: You waste energy fighting against their structure and may get swept
   - **Correction**: Recognize when the leg drag entry isn't available and immediately switch to an alternative passing approach. Don't force the technique against established defenses.
 
@@ -243,7 +243,7 @@ The Leg Drag Setup is a fundamental entry sequence into one of modern Brazilian 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip establishment and angle creation
 Practice establishing the grips from various open guard positions with a completely compliant partner. Focus on proper grip placement, angle changes, and maintaining posture. Drill the footwork patterns without resistance. Goal: 20 clean repetitions per side per session.
 (Resistance: None)
@@ -270,7 +270,7 @@ Use the leg drag setup exclusively during live rolling and competition-style spa
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Toreando to Leg Drag Setup**: Begin with a toreando pass movement, using both hands to control the pants and throwing the legs to one side. As the opponent recovers, immediately transition to the leg drag setup by pinning the near leg and establishing hip control. This combination pass is effective because the toreando creates the initial off-balancing that makes the leg drag entry easier. (When to use: Against opponents who are difficult to grip initially or who have strong frames)
 
 **Knee Slice Fake to Leg Drag**: Initiate a knee slice pass to draw the opponent's defensive reaction (typically an underhook or frame). When they commit to defending the knee slice, immediately switch to the leg drag setup on the opposite side. Their defensive commitment creates the opening for the leg drag. This requires excellent timing and the ability to switch directions fluidly. (When to use: Against opponents who have strong knee slice defense or predictable defensive patterns)
@@ -310,7 +310,7 @@ Use the leg drag setup exclusively during live rolling and competition-style spa
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The leg drag setup is generally a safe technique when practiced correctly, but several precautions should be observed. When pinning the opponent's near leg, avoid dropping all your weight directly onto their knee joint, as this can cause injury - instead, distribute pressure across their thigh. During the dragging motion, don't yank the leg explosively, especially in training; use smooth, controlled movements to prevent knee and hip strain. Be aware of the opponent's knee line and don't force their leg into positions that hyperextend the knee. If your partner taps or indicates discomfort during the setup, release immediately. When drilling, the bottom person should communicate if they feel unsafe pressure on their joints. Practitioners with knee injuries should exercise extra caution and may need to modify the technique or avoid having weight placed on the affected leg.
 
@@ -318,7 +318,7 @@ The leg drag setup is generally a safe technique when practiced correctly, but s
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The leg drag setup serves as a critical transitional technique connecting open guard passing to dominant control positions. It integrates into the broader BJJ system as one of the primary entries from various open guards (De La Riva, Reverse De La Riva, Spider Guard, Lasso Guard) into the leg drag family of passes. From the leg drag position established by this setup, you can progress to side control, mount, knee on belly, or back control. The setup also connects defensively - if countered, you can transition to knee slice, toreando, or over-under passes. In modern competition BJJ, the leg drag setup has become essential because it provides a reliable answer to guard retention systems that use distance management and frames. It's particularly important in no-gi grappling where the lack of gi grips makes other passing approaches less reliable.
 
@@ -326,7 +326,7 @@ The leg drag setup serves as a critical transitional technique connecting open g
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Leg Drag Pass]] - Follow-up - Primary progression from this setup
 - [[Leg Drag Position]] - Ending position - Where this setup leads
@@ -346,7 +346,7 @@ The leg drag setup serves as a critical transitional technique connecting open g
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The leg drag setup represents a fundamental principle of guard passing: creating perpendicular pressure angles that neutralize the opponent's strongest defensive mechanisms. When you face an opponent directly in guard, they can utilize their hip flexors, core muscles, and leg frames with maximum efficiency. The leg drag setup solves this problem by establishing a position where you are perpendicular to their hips rather than facing them head-on. This perpendicular relationship is biomechanically superior because it attacks the side of their body where they have minimal structural support. The critical technical element is the near leg pin combined with far hip control - these two control points create a mechanical system where rotation toward you becomes impossible. Most practitioners make the error of focusing exclusively on dragging the far leg while neglecting the near leg pin and hip control. This results in a technically incomplete setup where the opponent retains rotational freedom and can easily recover guard. To execute this setup at the highest level, you must understand that you're not simply moving their legs aside; you're creating a specific geometric relationship between your body and theirs that removes their defensive options while providing you with multiple attacking pathways.
 - **Gordon Ryan**: In competition, the leg drag setup is one of my highest percentage entries because it works against virtually every guard style if you time it correctly. The key competitive insight is that you don't wait for the perfect moment - you create it through pressure and grip fighting. I use constant forward pressure to force my opponents to extend their legs for framing, and that extension is exactly what gives me the opportunity to enter the leg drag setup. When they push, I'm already changing angle and pinning the near leg. One critical detail that most people miss: you have to make them uncomfortable before the setup even begins. If they're comfortable in their guard, they have the mental and physical space to defend everything. I stay heavy on my grips, I threaten multiple passing directions, and I make them carry my weight. When they're tired and defensive, the leg drag setup becomes much easier to execute. In my matches, I'll often fake a toreando pass or knee slice to get them to commit to a defensive reaction, then immediately hit the leg drag setup on the opposite side. The setup isn't a single technique - it's part of a passing system where everything connects. If they defend the leg drag, I have knee slice ready. If they defend knee slice, I come back to leg drag. This constant pressure and direction changing eventually breaks down even the best guard players.
 - **Eddie Bravo**: The leg drag setup is interesting because it's evolved so much with modern no-gi grappling. In 10th Planet, we use a lot of leg drag entries, but we've adapted them to work without the gi grips that traditional BJJ relies on. The key innovation is using your whole body as a grip - instead of just holding their pants, you're controlling their leg with your hip, your chest, and your entire structure. This makes it way harder for them to break free because they're not fighting a grip, they're fighting your body weight and position. One thing I've developed is using the leg drag setup as a counter to leg attacks. When someone tries to enter ashi garami or single leg X, that's actually a perfect moment to establish leg drag grips and pass. They're committed to controlling one of your legs, which means they've given you control of theirs. The no-gi leg drag setup also chains beautifully with calf slicers and electric chair setups because you already have the leg isolated. We drill a sequence where we enter leg drag, they defend, and we immediately transition to truck position and calf slicer. This makes the setup not just a passing technique but an entry into our entire leg attack system. The modern game requires you to think beyond just positions and passes - everything connects to everything else, and the leg drag setup is a perfect example of a technique that opens multiple attacking pathways.

@@ -13,10 +13,6 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 
 
 
-> **Quick Overview**: Piranha Guard is an advanced lapel-based guard system where the bottom player feeds the opponent's collar through their legs, creating a powerful control mechanism that generates exceptional posture-b...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Offensive/Controlling |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Offensive/Controlling |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Medium to Long |
 
-**What Makes This Position Unique:** Lapel-fed-through-legs creates powerful leverage
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Piranha Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Piranha Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Lapel-fed-through-legs creates powerful leverage
 
 
 
@@ -88,10 +72,13 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 <section id="bottom-summary" class="content-section">
 
-## Piranha Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Piranha Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in piranha guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -140,7 +127,7 @@ The bottom player in piranha guard controls the position with offensive attacks 
   - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Losing lapel tension and allowing opponent to easily extract collar from leg configuration**
@@ -172,16 +159,17 @@ The bottom player in piranha guard controls the position with offensive attacks 
   - ✅ Correction: Feed collar deep between legs until significant length passes through, ensuring grip points are far from opponent's body for maximum leverage advantage
 
 
-👉 **[[Piranha Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Piranha Guard Top Perspective
+
+## Playing as Top
+
+[[Piranha Guard/Top|→ Full Top Guide]]
 
 
-The top player in piranha guard balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -227,7 +215,7 @@ The top player in piranha guard balances control maintenance with submission att
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Ignoring lapel wrapped around neck or shoulders and continuing with passing attempts**
@@ -258,8 +246,6 @@ The top player in piranha guard balances control maintenance with submission att
   - Consequence: Bottom player sets defensive traps and sweep opportunities specifically for your predictable passing direction
   - ✅ Correction: Change passing directions and entry angles frequently, using feints and direction changes to keep bottom player reactive rather than proactive
 
-
-👉 **[[Piranha Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

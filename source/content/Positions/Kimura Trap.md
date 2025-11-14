@@ -13,10 +13,6 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 
 
 
-> **Quick Overview**: The Kimura Trap is a revolutionary position system in Brazilian Jiu-Jitsu that fundamentally challenges traditional notions of top and bottom control. At its core, the Kimura Trap uses a figure-four K...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -60,31 +56,19 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Low to Medium | Low |
-| Energy Cost | Medium | Low |
-| Time Sustainability | Medium to Long | Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Low to Medium | Low |
+| **Energy Cost** | Medium | Low |
+| **Time** | Medium to Long | Long |
 
-**What Makes This Position Unique:** Grip-based control inverts positional hierarchy
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Kimura Trap/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Kimura Trap/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Grip-based control inverts positional hierarchy
 
 
 
@@ -92,10 +76,13 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 <section id="bottom-summary" class="content-section">
 
-## Kimura Trap Bottom Perspective
+
+## Playing as Bottom
+
+[[Kimura Trap/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in kimura trap balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -144,7 +131,7 @@ The bottom player in kimura trap balances defensive frames with offensive opport
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Releasing Kimura grip prematurely when opponent defends or attempts to pull arm free**
@@ -172,16 +159,17 @@ The bottom player in kimura trap balances defensive frames with offensive opport
   - ✅ Correction: Synchronize Kimura grip pull direction with hip movement and leg drive, creating unified sweeping motion where all body parts work together
 
 
-👉 **[[Kimura Trap/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Kimura Trap Top Perspective
+
+## Playing as Top
+
+[[Kimura Trap/Top|→ Full Top Guide]]
 
 
-The top player in kimura trap balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -227,7 +215,7 @@ The top player in kimura trap balances control maintenance with submission attac
   - Success Rate: Beginner 48%, Intermediate 63%, Advanced 75%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Releasing positional control to pursue Kimura finish prematurely, allowing opponent to create escape space**
@@ -254,8 +242,6 @@ The top player in kimura trap balances control maintenance with submission attac
   - Consequence: Loss of arm control that could have been maintained during transition, reducing control density in new position
   - ✅ Correction: Keep Kimura grip intact during positional transitions when possible, creating sustained threat and control throughout position changes
 
-
-👉 **[[Kimura Trap/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

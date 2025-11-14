@@ -8,7 +8,7 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 
 
 
-> **Quick Answer**: Rear Naked Choke is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke - apply slowly over 3-5 seconds and release immediately upon tap.
+> Rear Naked Choke is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="safety-considerations" class="content-section">
 
-## Is Rear Naked Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -212,7 +212,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Forearm blade across carotid arteries, not windpipe
 - Elbow position in front of chin prevents escape
 - Back hand on bicep creates structural compression frame
@@ -226,7 +226,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure back control with both hooks in or body triangle established
 - Seat belt grip or harness control to prevent opponent turning into you
 - Opponent's posture broken with your chest tight to their back
@@ -239,7 +239,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish back control foundation**: From back control position, ensure you have both hooks in or a body triangle secured. Your chest should be tight to opponent's back. Establish seat belt control with one arm over the shoulder and one arm under the armpit. Your head should be beside their head, not directly behind where they can push it away. (Timing: Hold position until opponent settles) [Pressure: Moderate]
 2. **Hand fight and create entry angle**: Use your top hand (over the shoulder) to control opponent's hand or collar, preventing them from defending their neck. Slightly angle your body to the choking arm side. If opponent's chin is down, use your chest pressure and head position to create space. Post your choking arm's hand on their shoulder or chest initially to prevent them from tracking the danger. (Timing: 1-2 seconds of setup) [Pressure: Light]
 3. **Insert choking arm under chin**: Slide your choking arm under the chin, driving deep until your elbow is past the centerline of their chin. The blade of your forearm (thumb-side) should be across one carotid artery. Keep your hand open or in a loose fist initially. The deeper your elbow position in front of their chin, the more difficult the escape. Your forearm should not be on the trachea or windpipe - it must be on the sides of the neck. (Timing: Insert quickly but smoothly, 1-2 seconds) [Pressure: Light]
@@ -252,7 +252,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Tucking chin and defending neck with hands** (Effectiveness: High) - Your Adjustment: Don't force through chin. Instead, use your choking arm's hand to pull their defensive hand away, create a collar grip to pull them into you, or wait for them to tire from defending and attack when they adjust position. Alternatively, switch to short choke with hand behind head.
 - **Turning into you to escape back control** (Effectiveness: Medium) - Your Adjustment: Maintain seat belt control tightly. As they turn, follow their movement and maintain back pressure. If they succeed in turning, immediately transition to armbar from guard or triangle setup. Use your hooks to prevent the turn by pulling them back into you.
 - **Grabbing your choking arm with both hands and pulling down** (Effectiveness: Medium) - Your Adjustment: This defense exposes their neck more. As they pull your arm down and away, use this opportunity to get your elbow even deeper past their chin. Once your back hand secures the bicep grip, their pulling creates the choke structure for you. Simply finish by expanding chest.
@@ -262,28 +262,28 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Placing forearm across the windpipe/trachea instead of carotid arteries [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Placing forearm across the windpipe/trachea instead of carotid arteries [CRITICAL DANGER]
   - **Consequence**: Creates painful air choke instead of efficient blood choke. Partner struggles violently, takes much longer to tap, and creates risk of trachea injury. This is the most dangerous error.
   - **Correction**: Position the blade of your forearm (thumb-side) on the sides of the neck where you can feel the pulse. Your forearm should be angled at 45 degrees, not straight across. Elbow should be in front of chin, not under it. Practice slow application to ensure you feel the correct artery position.
-- **Error**: Inserting choking arm too shallow with elbow not past chin centerline
+- **Mistake**: Inserting choking arm too shallow with elbow not past chin centerline
   - **Consequence**: Opponent easily defends by tucking chin. You expend energy fighting against their neck muscles instead of structure. Choke is weak and easy to escape.
   - **Correction**: Drive your choking arm deep until your elbow is clearly past the center point of their chin. Your opponent should not be able to look toward your choking arm side. Think of your arm as sliding under their chin like a seatbelt, not just resting on top of their neck.
-- **Error**: Choking arm elbow flaring out to the side instead of pointing forward
+- **Mistake**: Choking arm elbow flaring out to the side instead of pointing forward
   - **Consequence**: Creates weak structure with gaps. Opponent can create space by pulling your arm, or they can turn into you. The choke loses effectiveness and becomes easy to defend.
   - **Correction**: Keep your choking elbow pointing forward toward where their chest is. Your entire forearm should be in contact with the side of their neck. Imagine trying to touch your elbows together behind their head when finishing.
-- **Error**: Not controlling opponent's hands before attempting insertion
+- **Mistake**: Not controlling opponent's hands before attempting insertion
   - **Consequence**: Opponent easily defends their neck with their hands. You telegraph the attempt and waste the back control opportunity. Opponent prepares defenses and becomes very difficult to submit.
   - **Correction**: Before attempting to insert your choking arm, control at least one of their hands with your seat belt grip. Pull their arm away from their neck using your top arm. Attack the neck only when their defensive hands are out of position or occupied.
-- **Error**: Losing hook control or body triangle while focusing on the choke [Medium DANGER]
+- **Mistake**: Losing hook control or body triangle while focusing on the choke [Medium DANGER]
   - **Consequence**: Opponent escapes back control by turning into you, or they improve position to side control or guard. You lose the dominant position even if the choke was close to finishing.
   - **Correction**: Maintain constant pressure with your hooks or body triangle throughout the entire choke sequence. Your lower body control is equally important as your upper body attack. If hooks start to slip, reset the position before attempting the finish.
-- **Error**: Jerking or spiking the choke with sudden force [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the choke with sudden force [CRITICAL DANGER]
   - **Consequence**: Causes neck injury, can damage carotid arteries, and violates training safety. Partner cannot safely tap before injury occurs. This can cause serious long-term damage and is unacceptable in training.
   - **Correction**: Apply all pressure progressively over minimum 3-5 seconds in training. Your partner should feel the pressure building and have ample time to recognize they need to tap. Smooth, gradual pressure is more effective and infinitely safer.
-- **Error**: Not expanding chest while constricting arms
+- **Mistake**: Not expanding chest while constricting arms
   - **Consequence**: Choke lacks finishing power. You rely only on arm strength which fatigues quickly and gives opponent time to escape. The mechanical advantage of the position is wasted.
   - **Correction**: As you bring your elbows together and squeeze, simultaneously expand your chest by taking a deep breath and arching your back slightly. This body movement creates far more pressure than arm strength alone. Think of spreading your shoulder blades apart while your arms squeeze.
 
@@ -292,7 +292,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Short Choke (Palm on Head)**: Instead of grabbing your bicep with the back hand, place your palm directly on the back of opponent's head. Your choking arm's hand grabs your own wrist behind their head. This variation is faster to apply and useful when opponent is defending their neck heavily with their hands. (When to use: Use when opponent has strong hand fighting and is preventing you from securing the bicep grip. Also effective in scrambles where you need to finish quickly before they escape back control.)
 
 **Body Triangle Rear Naked Choke**: Apply the same choke mechanics but with a body triangle instead of hooks for lower body control. Lock your foot behind your opposite knee across their stomach. The body triangle prevents hip escape and makes it impossible for opponent to turn into you while you work for the neck. (When to use: Use when opponent is aggressively defending hooks by clearing them, or when you have a size/flexibility advantage. Particularly effective when opponent is attempting to stand up or roll to escape.)
@@ -332,7 +332,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (First 2 weeks)
 - Focus: Learn proper anatomy, forearm positioning on carotid arteries vs windpipe, and all safety protocols. Practice grip sequences without any pressure application. Study tap protocols extensively.
 - Resistance: Zero resistance
@@ -369,7 +369,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Back Control]]
 - [[Turtle]]
@@ -385,7 +385,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke Back]]
 - [[Armbar from Back]]
@@ -428,7 +428,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Rear Naked Choke represents the pinnacle of positional dominance translated into submission mechanics. From a systematic perspective, the true power of the RNC lies not in the finishing squeeze, but in the positional hierarchy that precedes it. Back control, particularly with both hooks established, is the highest value position in our sport precisely because it offers the highest percentage submission - the rear naked choke - while simultaneously offering the opponent the fewest escape options and counter-attacks. When teaching this technique, I emphasize that the choke is really three separate systems working in concert: first, the lower body control system (hooks or body triangle) that anchors you to the opponent's back and prevents position improvement; second, the upper body control system (seat belt, harness, or gift wrap) that manages their defensive hands and prevents them from turning into you; and third, the choking mechanism itself. Students who focus only on the choke frequently lose the position. Those who maintain systematic control of all three elements achieve submission rates exceeding 70% at advanced levels. The mechanical principle is elegant - we're creating a frame around their neck using our forearm on one side and our bicep/back arm on the other, with their head trapped in between. The finish comes not from muscular effort but from structural expansion of your chest against the constriction of your arms. Most importantly, the choke must target the carotid arteries through compression, never the trachea. A properly applied blood choke causes unconsciousness through reduced cerebral blood flow in 6-10 seconds with minimal discomfort and maximum safety when released promptly. An improperly applied air choke to the trachea takes much longer, causes panic and violent resistance, and creates serious injury risk. This is not merely a technical distinction but a fundamental safety imperative that every practitioner must understand before attempting this submission. In training, we never exceed 50-70% of maximum pressure, and we always apply that pressure progressively over 3-5 seconds minimum, allowing our partner to recognize they are caught and tap safely. The goal in training is technical mastery and position recognition, not pain compliance or unconsciousness.
 - **Gordon Ryan**: The Rear Naked Choke is statistically the highest percentage submission finish in both gi and no-gi grappling at the highest levels of competition. In my own competition career, the RNC and its variations account for approximately 40% of my submission victories, which speaks to both its effectiveness and its versatility across different opponent types and styles. The key distinction between training and competition application is intensity and timing - in competition, once I establish the full structure with my elbow past their chin and both hands locked, I apply maximum pressure immediately because the match depends on it. However, in training, this same situation requires completely different behavior. I never apply more than 60-70% pressure in training, even in hard sparring, because my training partners' long-term health is more valuable than any single tap. The difference between a good RNC and a great one is the hand fighting and entry timing. Most people focus on the finish, but I focus on creating the situation where my opponent's defensive hands are out of position or occupied. I'll spend 30-45 seconds controlling the back, attacking submissions they have to defend (like the armbar from back), and waiting for the moment their neck defense lapses. That's when I insert deep and finish quickly. For the actual execution, the technical details matter enormously - your elbow must be past the centerline of their chin, your forearm blade must be on their carotid arteries (not windpipe), and your back hand must create a solid frame whether on your bicep or on the back of their head. The finish involves expanding my chest while bringing my elbows together, using whole-body structure rather than just arm strength. Against elite opponents, I often prefer the body triangle over hooks because it's more difficult to escape and allows me to focus 100% on upper body attacks without worrying about my hooks being cleared. In terms of training priorities, newer grapplers should drill the mechanics slowly for months before applying any real pressure. The Rear Naked Choke is one of the most dangerous submissions when applied improperly, and I've seen too many injuries from people jerking or spiking chokes in training. Build the skill through thousands of repetitions at light pressure first, and the finishing power will come naturally when you need it in competition.
 - **Eddie Bravo**: The Rear Naked Choke is fundamental in the 10th Planet system, but we approach it with some unique variations and setups that create higher percentage opportunities. One of the biggest problems people have with the RNC is that they telegraph the attack - the opponent sees it coming and gets their hands in defensive position immediately. In our system, we use a lot of misdirection and setup attacks. One of my favorite sequences is attacking the truck position or twister, which forces the opponent to defend their spine and legs, and then when they're focused on that threat, the neck becomes available for the RNC transition. Another variation we use extensively is the short choke, where your back hand goes directly on their head instead of gripping your bicep. This is faster to apply and particularly effective in scrambles or when opponent has strong hand fighting. The short choke sacrifices some structural strength for speed of application, but in no-gi contexts where things are slippery and dynamic, that trade-off is often worth it. From a safety culture perspective, the 10th Planet gyms have strict protocols around neck attacks. We teach everyone that in training, you're working position and technique, not trying to put people unconscious. Apply the choke slowly and progressively, give your training partner 3-5 seconds to recognize they're caught and tap, and release immediately on any tap signal. We also emphasize that you must feel for the carotid artery position - your forearm blade should be on the sides of the neck where you can feel the pulse, never across the windpipe. In the heat of training or competition, it's easy to get sloppy with positioning, but an air choke to the trachea is dangerous and unacceptable in our system. One innovation we've developed is using the RNC as a back control maintenance tool even when you don't have the finish yet. By threatening the choke constantly, you force the opponent to keep their hands up defending their neck, which prevents them from working effective escapes. This is psychological warfare combined with technical control. The threat of the submission is sometimes as valuable as the submission itself. Train this technique with respect for your partner's safety, master the fundamental mechanics before adding pressure, and remember that the back control position is what makes this choke so powerful - maintain that position at all costs and the submission opportunities will present themselves.

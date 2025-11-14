@@ -137,7 +137,7 @@ description: "Master 10th Planet No-Gi Guard System with rubber guard, lockdown,
 
 
 
-> **Quick Answer**: 10th Planet No-Gi Guard System is a advanced difficulty Guard System system. This systematic approach integrates 4 key components into a cohesive fighting framework.
+> 10th Planet No-Gi Guard System is a advanced difficulty Guard System system. Integrates 4 components.
 
 **System ID**: 
 **System Type**: Guard System
@@ -160,7 +160,7 @@ This system requires dedicated flexibility training and systematic drilling to m
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Flexibility and hip mobility enable unconventional control positions
 - Break posture through overhooks and leg control rather than gi grips
 - Create submission chains where defensive responses open new attacks
@@ -174,7 +174,7 @@ This system requires dedicated flexibility training and systematic drilling to m
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Rubber Guard Series** (Dominant closed guard control leading to high-percentage submissions)
 The rubber guard positions (Mission Control, New York, Meathook, Chill Dog, Carni) use the leg to control the opponent's posture while creating overhook control. This system breaks traditional posture recovery and opens pathways to triangles, omoplatas, and gogoplatas through systematic transitions.
 
@@ -193,7 +193,7 @@ Systematic stretching and mobility work targeting hip flexors, hamstrings, and s
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Building**: Develop fundamental flexibility and become comfortable in basic rubber guard and lockdown positions
 Key points:
 - Daily hip flexor and hamstring stretching
@@ -374,7 +374,7 @@ The 10th Planet system requires specialized drilling that emphasizes position fa
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: While the 10th Planet system appears unconventional, it demonstrates sound systematic principles when analyzed through a technical lens. The rubber guard series creates a hierarchy of control positions, each with specific submission pathways and defensive counters. What makes this system effective is not merely the exotic positions, but the systematic connections between positions that create genuine attacking dilemmas. The lockdown transforms what is traditionally a poor position (bottom half guard) into an offensive platform through mechanical leg control that prevents passing while enabling sweeps. The flexibility requirement should not be viewed as a limitation but rather as a strategic investment—opponents who lack similar flexibility cannot replicate these positions, providing asymmetric tactical advantages. The key to mastering this system lies in understanding the mechanical principles underlying each position rather than simply memorizing position names and sequences.
 - **Gordon Ryan**: In competition, the 10th Planet guard system provides significant advantages through opponent unfamiliarity and the creation of unusual submission angles. I've successfully integrated elements of the rubber guard into my no-gi game, particularly the overhook control and triangle setups from Mission Control. The lockdown from half guard is exceptionally effective for stalling and recovering when tired, while still threatening sweeps. However, practitioners must be selective about when to employ these positions—against knowledgeable opponents, pure 10th Planet positions can be countered with specific defensive strategies. The real value comes from blending 10th Planet concepts with traditional no-gi guard work, using the threat of rubber guard to set up more conventional attacks. The flexibility and hip mobility developed through 10th Planet training enhances all aspects of guard play, making it worthwhile even if you don't employ the positions in competition.
 - **Eddie Bravo**: This system represents my life's work in evolving no-gi guard play beyond what existed when I started training. The rubber guard was born from necessity—how do you control posture without a gi? The answer was to use your leg as the overhook. Mission Control creates better posture control than any gi grip because you're using your strongest weapons (legs) against their weakest (neck and arm). The lockdown revolutionized half guard play by turning a defensive position into an attacking position through that simple leg entanglement. The twister path came from studying wrestling scrambles and realizing there were submission opportunities everyone was missing. What makes this system effective isn't just the techniques—it's the philosophy of constant innovation and willingness to explore positions that feel wrong initially. Flexibility is the price of admission, but it's a small price for a guard game that works in MMA, no-gi competition, and creates submission opportunities opponents don't train to defend.

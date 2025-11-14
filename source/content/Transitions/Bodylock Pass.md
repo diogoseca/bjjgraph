@@ -8,7 +8,7 @@ description: "Master the Bodylock Pass in BJJ. Powerful pressure passing techniq
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Bodylock Pass in BJJ. Powerful pressure passing techniq
 
 
 
-> **Quick Answer**: Bodylock Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Bodylock Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Bodylock Pass is a fundamental pressure passing technique used to overcome t
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish tight bodylock grip before initiating pass to maximize control
 - Apply constant shoulder pressure to opponent's chest to restrict movement
 - Keep hips low and heavy to prevent opponent from recovering guard
@@ -180,7 +180,7 @@ The Bodylock Pass is a fundamental pressure passing technique used to overcome t
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Top position in half guard with opponent's leg trapped
 - Ability to secure bodylock grip around opponent's torso
 - Opponent's knee shield removed or controlled
@@ -193,7 +193,7 @@ The Bodylock Pass is a fundamental pressure passing technique used to overcome t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish bodylock grip**: From half guard top position, thread your arm under the opponent's far armpit and connect your hands behind their back in a tight bodylock configuration. Use a gable grip or S-grip depending on arm length and body proportions. Ensure the lock is high on their back, near the shoulder blades, to maximize control. (Timing: Initial setup phase)
 2. **Apply shoulder pressure**: Drive your shoulder into the opponent's sternum or upper chest, creating downward and forward pressure. Position your head on the far side of their body (opposite the trapped leg) to prevent them from turning into you. Your chest should be heavy on theirs, making it difficult for them to breathe or create space. (Timing: Continuous throughout pass)
 3. **Lower your hips**: Drop your hips toward the mat while maintaining the bodylock, creating a heavy, low base that makes it nearly impossible for the opponent to roll or sweep you. Your weight should be distributed through your chest and hips onto the opponent, not supported by your own base. (Timing: Before advancing position)
@@ -206,7 +206,7 @@ The Bodylock Pass is a fundamental pressure passing technique used to overcome t
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent frames against your hips and creates distance** (Effectiveness: Medium) - Your Response: Maintain bodylock grip and circle your hips away from their frames while keeping chest pressure constant. Use your head position to control their shoulder and prevent effective framing.
 - **Opponent secures deep underhook and attempts to come up on their side** (Effectiveness: High) - Your Response: Immediately sprawl your hips back and drive shoulder pressure downward to flatten them. Consider switching to a crossface grip temporarily to control their head and prevent them from building up to their knees.
 - **Opponent locks onto your ankle or pant leg to prevent leg extraction** (Effectiveness: Medium) - Your Response: Increase upper body pressure to occupy their attention and hands. Use small circular motions with your hips to create angles that make it harder for them to maintain the grip. Break the grip with your free hand if necessary.
@@ -215,22 +215,22 @@ The Bodylock Pass is a fundamental pressure passing technique used to overcome t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Bodylock grip too loose or positioned too low on the back
+## Common Mistakes
+- **Mistake**: Bodylock grip too loose or positioned too low on the back
   - **Consequence**: Opponent can create frames, turn into you, or escape their hips away from pressure
   - **Correction**: Ensure the bodylock is high and tight, with hands locked near shoulder blade level. Squeeze continuously and readjust grip if it begins to loosen.
-- **Error**: Lifting head up or looking forward instead of keeping it low
+- **Mistake**: Lifting head up or looking forward instead of keeping it low
   - **Consequence**: Reduces shoulder pressure and allows opponent to create space underneath your chest
   - **Correction**: Keep your head positioned on their far side with ear near their chest. Use your head as an additional control point to pin their shoulder.
-- **Error**: Rising up on toes too early in attempt to advance quickly
+- **Mistake**: Rising up on toes too early in attempt to advance quickly
   - **Consequence**: Creates space underneath your hips that opponent can exploit with shrimping or guard recovery
   - **Correction**: Stay heavy and low through the initial phases. Only rise up slightly when you have neutralized their frames and are ready for final leg extraction.
-- **Error**: Forcing leg extraction before establishing sufficient upper body control
+- **Mistake**: Forcing leg extraction before establishing sufficient upper body control
   - **Consequence**: Opponent can retain half guard, recover full guard, or sweep during your vulnerable transition
   - **Correction**: Patience is critical. Ensure opponent is completely flattened and controlled before attempting to free your leg. The pass happens in stages, not all at once.
-- **Error**: Releasing bodylock grip prematurely during transition to side control
+- **Mistake**: Releasing bodylock grip prematurely during transition to side control
   - **Consequence**: Opponent escapes during the moment of lost control and recovers guard position
   - **Correction**: Maintain bodylock until your knee is completely across their belly and you have established crossface or underhook. Only then transition your grips.
 
@@ -239,7 +239,7 @@ The Bodylock Pass is a fundamental pressure passing technique used to overcome t
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Control** - Bodylock grip establishment and pressure application
 Practice securing the bodylock grip from half guard top with minimal resistance. Focus on hand position, grip strength, and proper shoulder placement. Partner remains relatively static. Drill the feeling of heavy, low hips and chest pressure without attempting to pass.
 (Resistance: None)
@@ -266,7 +266,7 @@ Use the bodylock pass during competition-style positional sparring and full roll
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Knee Slide Bodylock Pass**: Instead of extracting your leg backward, drive your trapped knee forward and across the opponent's bottom leg in a knee slide motion while maintaining the bodylock. This creates a different angle of pressure and can be faster when opponent's half guard is shallow. (When to use: When opponent has a loose half guard or when you have superior hip mobility for the knee slide motion)
 
 **Bodylock to Mount Transition**: Rather than settling in side control, use the bodylock control to walk your knees higher up the opponent's body and transition directly to mount position. Requires exceptional balance and control but offers superior positional advantage. (When to use: When opponent is completely flattened and showing no effective resistance, or when you want to maximize positional points in competition)
@@ -304,7 +304,7 @@ Use the bodylock pass during competition-style positional sparring and full roll
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the bodylock pass, be mindful of the amount of pressure applied to your training partner's chest and ribs. Excessive or prolonged pressure can cause discomfort, difficulty breathing, or rib injuries, particularly with significant weight disparities. Apply pressure progressively and check in with your partner regularly during drilling. When being passed, tap early if you experience sharp pain in the ribs or difficulty breathing. As the passer, release pressure immediately if your partner taps or indicates discomfort. Start with lighter pressure during initial learning phases and gradually increase intensity only as both partners become comfortable with the technique and its sensations.
 
@@ -312,7 +312,7 @@ When practicing the bodylock pass, be mindful of the amount of pressure applied 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Bodylock Pass is a cornerstone technique in pressure-based passing systems and serves as a fundamental response to half guard positions. It integrates seamlessly with other half guard passing approaches, allowing you to switch between pressure passing, knee slice passing, and underhook-based passes depending on the opponent's defensive reactions. The bodylock control can be established from various entry points including failed knee slice attempts, transitions from combat base, or when opponents attempt to come up to their knees from half guard bottom. Once the pass is completed and side control achieved, the bodylock control often transitions naturally into submission attacks such as arm triangles, Darce chokes, or Kimuras. Understanding the bodylock pass also improves your defensive game, as you learn the key control points that must be defended when you are on bottom.
 
@@ -320,7 +320,7 @@ The Bodylock Pass is a cornerstone technique in pressure-based passing systems a
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Slice from Half]] - Alternative passing approach from same position
 - [[Underhook Pass]] - Complementary pass using different control strategy
@@ -338,7 +338,7 @@ The Bodylock Pass is a cornerstone technique in pressure-based passing systems a
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The bodylock pass represents a fundamental application of connection control theory in Brazilian Jiu-Jitsu. When we analyze passing mechanics, we observe that the most reliable passes maintain dominant connections while systematically breaking the opponent's defensive connections. The bodylock achieves this by creating what I call a 'control hierarchy' - your bodylock represents your strongest connection, while simultaneously preventing the opponent from establishing their primary defensive frames (underhooks, knee shields, crossfaces). The mechanical advantage is substantial: your arms encircle their torso, creating a closed kinetic chain that cannot be easily broken, while their defensive options require open kinetic chains that you can disrupt with pressure and positioning. The brilliance of this pass lies not in explosive athleticism but in methodical, progressive control advancement. Each micro-adjustment - the shoulder pressure, the hip lowering, the leg extraction - represents a calculated reduction in the opponent's defensive options. Students must understand that this is not a race to side control; it is a systematic dismantling of defensive structure. The bodylock pass teaches the essential principle that superior positional control removes the need for strength or speed. When executed with proper technique, even a smaller practitioner can nullify a larger opponent's advantages through structural dominance and pressure application.
 - **Gordon Ryan**: The bodylock pass is absolutely essential in high-level competition, especially in no-gi where it becomes even more dominant without gi grips to defend. In my experience competing at the highest levels, the bodylock pass is one of the most reliable ways to pass half guard because it takes away so many of the opponent's options simultaneously. The key thing people miss is that this isn't just about squeezing hard and hoping - it's about creating a pressure trap that forces your opponent into progressively worse positions. When I'm passing with the bodylock, I'm thinking several moves ahead: if they try to get an underhook, I already know I'm transitioning to a crossface; if they try to frame, I'm circling away from the frames while maintaining chest pressure. The pass works so well because you're not giving them anything to work with - no space, no grips, no frames. In competition, I've found that combining the bodylock pass with submission threats makes it even more effective. When they're worried about the arm triangle or D'arce choke, they make mistakes in their guard retention. Against elite opponents, you need to be patient with this pass. Don't rush the leg extraction - wait until they're completely flattened and hopeless, then the leg comes out easily. The other critical element is that you need to be comfortable being heavy. A lot of people apologize for their pressure, but in competition, that pressure is what wins matches.
 - **Eddie Bravo**: The bodylock pass is one of those traditional techniques that still works incredibly well, especially when you add some 10th Planet-style adaptations to it. What I love about the bodylock is that it completely shuts down a lot of the modern half guard games - all these knee shields and underhooks that people rely on become way less effective when you've got that crushing bodylock established. In the 10th Planet system, we sometimes use what we call the 'meat grinder' pressure with the bodylock, where you're not just static but you're actually making small, circular grinding movements with your shoulder and chest to break down their frames and create discomfort. This makes them want to escape, which actually helps you complete the pass. Another thing I teach is to think about the bodylock pass as a submission position itself - when you've got someone completely flattened with that bodylock, you're already setting up potential D'arces, anacondas, or arm triangles. The pass and the submission become interconnected, which is the whole philosophy behind creating systems rather than just isolated techniques. For guys training no-gi or MMA, the bodylock pass is even more valuable because without the gi grips to slow you down, you can really drive that pressure and make life miserable for the bottom person. I also like to drill this pass while the bottom guy is trying to get up to the old school sweep or electric chair - this teaches you to maintain control during dynamic movement, which is when most people lose the position.

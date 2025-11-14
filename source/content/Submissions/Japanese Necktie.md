@@ -8,7 +8,7 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 
 
 
-> **Quick Answer**: Japanese Necktie is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from bilateral carotid compression - apply slowly over 3-5 seconds and release immediately upon tap.
+> Japanese Necktie is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from bilateral carotid compression. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="safety-considerations" class="content-section">
 
-## Is Japanese Necktie Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -218,7 +218,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Trap opponent's near arm to use their shoulder as part of the choking mechanism
 - Create perpendicular angle with your body relative to opponent's spine
 - Drive shoulder pressure into the far side of opponent's neck while arm blocks near side
@@ -232,7 +232,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure front headlock control with opponent in turtle or bent-over position
 - Establish deep overhook on opponent's near arm, trapping it against their body
 - Achieve perpendicular body angle (your torso at 90 degrees to opponent's spine)
@@ -246,7 +246,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure Front Headlock with Arm Trap**: From front headlock position with opponent in turtle, swim your near arm deep around opponent's neck, achieving a front headlock grip. Simultaneously establish a deep overhook on their near arm with your far arm, pinching their arm tightly to their body. This trapped arm will become part of the choking mechanism. Your chest should be heavy on their shoulder, preventing them from sitting back or standing up. (Timing: 2-3 seconds to establish secure grips) [Pressure: Moderate]
 2. **Create Perpendicular Angle**: Begin rotating your body perpendicular to opponent's spine by stepping your far leg over their back and toward their far hip. As you rotate, maintain the tight overhook on their trapped arm while your choking arm stays deep around their neck. Your goal is to position your torso at approximately 90 degrees to their spine, with your hips facing their far side. This angle is critical for the choke's effectiveness. (Timing: 2-3 seconds for rotation) [Pressure: Moderate]
 3. **Lock the Grip Configuration**: With your choking arm deep around their neck, reach for your own leg (typically grabbing your shin or foot) or clasp your hands together in a gable grip behind their head. The exact grip varies by body type and flexibility, but the key is creating a closed loop that prevents your arm from sliding out. Some variations involve gripping your own lapel in gi, or grabbing your ankle in no-gi. Ensure the lock is tight before applying pressure. (Timing: 1-2 seconds to secure grip) [Pressure: Light]
@@ -260,7 +260,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Pulling trapped arm free to remove shoulder from choke** (Effectiveness: High) - Your Adjustment: Switch your overhook to an underhook on their far arm instead, or immediately transition to standard guillotine by releasing the trapped arm but maintaining neck control. Alternatively, pinch your elbow tighter to their body and use your bodyweight to prevent arm extraction.
 - **Rolling toward you to relieve neck pressure** (Effectiveness: Medium) - Your Adjustment: Follow their roll by rolling with them, maintaining the same perpendicular angle throughout the rotation. Often their roll actually tightens the choke as it loads more weight into the position. Keep your grips locked and your shoulder pressure consistent during the roll.
 - **Driving forward and standing up to create space** (Effectiveness: Medium) - Your Adjustment: If they begin standing, immediately jump guard by wrapping your legs around their waist, or drop your weight dramatically to prevent them achieving full standing position. You can also transition to a standing Japanese Necktie by maintaining grips while on your feet and using your legs to control their hips.
@@ -270,28 +270,28 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting to choke with arm strength instead of shoulder pressure and hip extension [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting to choke with arm strength instead of shoulder pressure and hip extension [Low DANGER]
   - **Consequence**: Choke fails to compress carotid arteries effectively, allows opponent to escape, causes fatigue in your arms
   - **Correction**: Focus on positioning your shoulder as the primary choking surface. Your arm serves mainly to control their head position. Generate pressure through hip extension and back arch, not bicep flexion.
-- **Error**: Failing to trap opponent's arm securely before rotating [Medium DANGER]
+- **Mistake**: Failing to trap opponent's arm securely before rotating [Medium DANGER]
   - **Consequence**: Opponent extracts their arm and easily escapes, or worse, takes your back as you overcommit to rotation
   - **Correction**: Establish a deep, tight overhook on their near arm before beginning your rotation. Their arm should be pinned to their body, unable to post or create frames. Test the trap by attempting small rotations before fully committing.
-- **Error**: Positioning at incorrect angle (too parallel or too perpendicular) [Low DANGER]
+- **Mistake**: Positioning at incorrect angle (too parallel or too perpendicular) [Low DANGER]
   - **Consequence**: Choke mechanics fail completely, leaving you vulnerable to opponent's counter-attacks and escapes
   - **Correction**: Your torso should be approximately 90 degrees to opponent's spine. If too parallel, your shoulder won't engage the neck properly. If too perpendicular (past 90 degrees), you lose leverage and they can easily turn into you.
-- **Error**: Maintaining choke after partner taps or goes limp [CRITICAL DANGER]
+- **Mistake**: Maintaining choke after partner taps or goes limp [CRITICAL DANGER]
   - **Consequence**: Serious injury including prolonged unconsciousness, brain damage from oxygen deprivation, or death in extreme cases
   - **Correction**: IMMEDIATELY release all grips and pressure the instant you feel a tap or notice your partner's resistance disappearing. Better to release too early than too late. Monitor your partner's consciousness throughout the application.
-- **Error**: Applying explosive, jerking pressure instead of gradual compression [CRITICAL DANGER]
+- **Mistake**: Applying explosive, jerking pressure instead of gradual compression [CRITICAL DANGER]
   - **Consequence**: Risk of trachea damage, neck injury, or causing partner to panic and sustain injury while attempting escape
   - **Correction**: In training, apply pressure gradually over 5-7 seconds. Use smooth, controlled hip extension. Save explosive application only for competition scenarios. Your training partner should have time to recognize the choke and tap safely.
-- **Error**: Raising your head higher than opponent's head during setup [Low DANGER]
+- **Mistake**: Raising your head higher than opponent's head during setup [Low DANGER]
   - **Consequence**: Opponent easily sits back or stands up, completely nullifying your position and potentially leading to you being guillotined
   - **Correction**: Keep your head lower than opponent's throughout the setup and finish. Drive your forehead into the mat or their far shoulder. This low head position prevents them from creating the space needed to escape.
-- **Error**: Losing the overhook during the rotation to perpendicular position [Medium DANGER]
+- **Mistake**: Losing the overhook during the rotation to perpendicular position [Medium DANGER]
   - **Consequence**: Choke becomes ineffective as opponent's shoulder is no longer part of the choking mechanism, easy escape follows
   - **Correction**: Maintain constant tension on the overhook throughout your entire rotation. Your overhook elbow should stay pinched to your ribs, keeping their arm trapped against their body. Practice the rotation slowly to develop the coordination needed.
 
@@ -300,7 +300,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Rolling Japanese Necktie**: After securing the initial position, instead of finishing with hip extension from the side, you roll over your far shoulder into an inverted position. This rolling motion often dramatically tightens the choke by changing the pressure angle on the carotid arteries. The inversion also uses gravity to load opponent's bodyweight into the choke, making it extremely effective against larger opponents with good base. (When to use: When opponent has excellent base and won't allow you to extend your hips effectively, or when the standard finish isn't generating sufficient pressure. Also effective when opponent is attempting to stand up from turtle position.)
 
 **Standing Japanese Necktie**: Applied from a standing front headlock position rather than with opponent in turtle. After securing the arm trap and choking grip while both competitors are standing, you can finish by sitting to your hip or dropping to your knees while maintaining the perpendicular angle. This variation is excellent for catching opponents during scrambles or failed shot attempts. (When to use: During scrambles when opponent is bent over but not in turtle position, after defending a takedown attempt, or when transitioning from standing clinch work. Particularly effective in no-gi where front headlock opportunities are abundant.)
@@ -343,7 +343,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding - Static Drilling** (Week 1-2)
 - Focus: Learn proper grip configuration, arm trap mechanics, and body positioning with zero resistance. Partner remains completely still in turtle position while you practice the entry, rotation, and grip lock. Focus on understanding the perpendicular angle requirement and where your shoulder should contact their neck. Practice release protocol repeatedly.
 - Resistance: None
@@ -380,7 +380,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Turtle]]
@@ -397,7 +397,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[Anaconda Choke]]
@@ -437,7 +437,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Japanese Necktie represents an elegant application of biomechanical principles where we transform the opponent's defensive structure into our offensive weapon. The genius of this technique lies in the fact that their own shoulder becomes the primary choking surface rather than your arms - this allows even smaller grapplers to generate tremendous pressure against larger opponents through proper body positioning and hip mechanics. The critical technical element is achieving and maintaining the perpendicular body angle throughout the finish sequence. Without this ninety-degree relationship between your torso and their spine, the shoulder cannot properly engage the carotid artery and the entire mechanism fails. When teaching this submission, I emphasize that the choking arm serves primarily as a control mechanism rather than the pressure source - students who understand this principle progress much faster than those who attempt to muscle the choke through arm strength. From a safety perspective, this is one of the most dangerous chokes in our arsenal due to its speed of onset once properly locked. The bilateral carotid compression can render opponents unconscious in under five seconds, making gradual pressure application and immediate tap recognition absolutely critical in training environments. The Japanese Necktie also provides an excellent case study in submission interconnectivity - it exists within a system of front headlock attacks including guillotine, anaconda, and darce variations. High-level practitioners don't hunt for a single submission but rather flow between these options based on opponent's defensive responses, creating a decision tree that becomes increasingly difficult to defend as the opponent reveals their defensive patterns.
 - **Gordon Ryan**: The Japanese Necktie is one of those submissions that looks complicated when you first see it but becomes incredibly high-percentage once you understand the key details. In competition, I've found it's most effective as a surprise attack during scrambles rather than a planned finish from static turtle position - when opponents are focused on defending guillotines and anacondas, the Japanese Necktie comes from a slightly different angle that catches them off guard. The arm trap is everything in this choke. If you don't secure that overhook deep and tight before you start rotating your body, you're wasting your time. I've seen guys try to force it without the proper trap and they just end up giving up position. Once you have the trap locked, the finish is actually pretty straightforward - just drive your shoulder into their neck and extend your hips. One thing I've learned through competition experience is that the rolling variation is often more effective than the standard side finish, especially against bigger guys with good base. When you roll over your shoulder into the inverted position, it uses gravity to load their weight into the choke and they have no base to defend with. I've finished multiple black belts with this variation who were defending the standard version successfully. In training versus competition, you have to make a clear distinction with this choke. In the training room, I apply it super slowly and tap my partners out gently - there's no benefit to choking your training partners unconscious and creating a culture where people are afraid to work with you. In competition though, once I feel that choke lock in, I'm finishing it as fast as possible because I know from experience it only takes a few seconds before they're going out. That's why it's crucial to have partners you trust who will tap early and whom you release immediately when they do.
 - **Eddie Bravo**: The Japanese Necktie is a perfect example of how the no-gi revolution has brought old judo techniques back to life with modern applications. This choke has been around forever in judo newaza, but it really found its home in no-gi grappling where the front headlock game is so dominant. At 10th Planet, we've developed some unique variations that fit into our system perfectly. One of my favorite setups is from the truck position - when you're attacking the twister or back take and the opponent starts to defend by tucking their head, you can transition directly into a Japanese Necktie by establishing that arm trap and rotating your body. It's unexpected and extremely effective because they're not thinking about neck attacks when they're worried about their back. The traditional finish is solid, but we've experimented with some more creative applications. We teach a version where instead of finishing on your side with legs extended, you actually invert yourself completely and finish almost upside down - it looks crazy but the pressure is insane because all your bodyweight drops into the choke. We've also found success combining it with lockdown control from half guard when opponents flatten themselves trying to pass - trap their near arm, lock the Japanese Necktie grip, and finish by bridging rather than extending. From a training safety perspective, this is one submission where I'm absolutely militant about controlled application. I've seen too many guys get choked out because someone got excited and cranked it too fast. At our gym, you apply this choke slow or you don't train with us anymore - it's that simple. The culture has to be that we're all here to get better, not to prove how tough we are by refusing to tap or how badass we are by choking people unconscious. That competitive ego shit has no place when we're dealing with techniques that can literally stop blood flow to someone's brain. Tap early, release immediately, and everyone goes home healthy to train another day. That's the only way this works long-term.

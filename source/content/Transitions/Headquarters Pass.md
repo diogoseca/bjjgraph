@@ -8,7 +8,7 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 
 
 
-> **Quick Answer**: Headquarters Pass transitions from [[Headquarters Position]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+> Headquarters Pass transitions from [[Headquarters Position]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish crossface control to prevent opponent's head movement and frame creation
 - Control the opponent's bottom leg (near leg) to prevent re-guard and deep half entries
 - Maintain constant shoulder pressure to flatten opponent and limit mobility
@@ -180,7 +180,7 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Passer has established top position in opponent's half guard
 - Crossface or underhook control secured to control opponent's upper body
 - Passer's trapped leg is creating pressure on opponent's bottom hip
@@ -193,7 +193,7 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish crossface control**: From top half guard, drive your shoulder across the opponent's face while securing an underhook or crossface grip. Your weight should be forward on your opponent's chest, preventing them from creating frames or sitting up. Keep your hips heavy and connected to their bottom hip. (Timing: Initial control phase)
 2. **Control the near leg**: Use your trapped leg to apply pressure on the opponent's bottom hip while simultaneously working to control their near leg (the leg closest to you). This can be done by cupping under their knee or using your free hand to control their thigh, preventing deep half guard entries. (Timing: Simultaneous with crossface establishment)
 3. **Establish headquarters position**: Position your free leg (the one not trapped) into a headquarters stance - knee up, foot planted near opponent's hip. Your shin may rest on their bottom thigh, creating a barrier. Your chest remains heavy on their chest with constant crossface pressure. This is the stable headquarters platform. (Timing: Hold this position for 1-2 seconds to assess)
@@ -206,7 +206,7 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent establishes strong underhook and drives into you** (Effectiveness: High) - Your Response: Circle your hips away from the underhook, maintain crossface pressure, and transition to a different passing angle or establish a whizzer control to neutralize the underhook
 - **Opponent recovers knee shield or frames against your hip** (Effectiveness: Medium) - Your Response: Use knee cut or long step variation to move around the frame, maintain shoulder pressure, and control the framing arm to prevent effective defensive structure
 - **Opponent attempts to sit up or create angle** (Effectiveness: Medium) - Your Response: Increase crossface pressure, drive your weight forward onto their chest, and stuff their head back to the mat while maintaining leg control
@@ -215,25 +215,25 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Failing to maintain constant crossface pressure
+## Common Mistakes
+- **Mistake**: Failing to maintain constant crossface pressure
   - **Consequence**: Opponent can create frames, sit up, or establish defensive posture that makes passing difficult
   - **Correction**: Keep your shoulder driving across their face throughout the entire sequence, never allowing space for them to turn into you
-- **Error**: Standing too upright in headquarters position
+- **Mistake**: Standing too upright in headquarters position
   - **Consequence**: Loss of control allows opponent to recover guard or create sweeping opportunities
   - **Correction**: Maintain forward weight distribution with chest pressure on opponent's torso while in headquarters stance
-- **Error**: Attempting to extract trapped leg before clearing far leg
+- **Mistake**: Attempting to extract trapped leg before clearing far leg
   - **Consequence**: Opponent can re-establish half guard or create knee shield frames that stall the pass
   - **Correction**: Always clear and control the far leg first, then extract your trapped leg with decisive movement
-- **Error**: Leaving space at the hips during transition
+- **Mistake**: Leaving space at the hips during transition
   - **Consequence**: Opponent can insert knee shield, recover full guard, or create re-guard opportunities
   - **Correction**: Keep hips tight and connected throughout the pass, especially during the critical leg extraction phase
-- **Error**: Allowing opponent to secure strong underhook
+- **Mistake**: Allowing opponent to secure strong underhook
   - **Consequence**: Opponent gains ability to come up to dogfight or sweep, neutralizing passing pressure
   - **Correction**: Fight aggressively for crossface and head control, use whizzer if underhook is established, or transition passing angle
-- **Error**: Rushing the headquarters position without establishing controls
+- **Mistake**: Rushing the headquarters position without establishing controls
   - **Consequence**: Poor control leads to easy guard retention or opponent's ability to create scrambles
   - **Correction**: Take time to establish proper crossface, leg control, and body position before attempting to advance
 
@@ -242,7 +242,7 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Position Establishment** - Learning to establish and maintain headquarters position
 Partner starts in half guard, you work solely on achieving headquarters position with proper crossface, near leg control, and shoulder pressure. Hold position for 10-15 seconds. Partner provides no resistance.
 (Resistance: None)
@@ -269,7 +269,7 @@ Execute headquarters pass during positional sparring and live rolling. Start fro
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Knee Slice Variation**: Instead of extracting your leg backward, drive your knee across opponent's thighs in a slicing motion while maintaining headquarters controls. This creates a different angle and can be effective against opponents defending the standard extraction. (When to use: When opponent is defending the leg extraction by gripping your ankle or creating frames that block backward movement)
 
 **Long Step Variation**: From headquarters, completely step your free leg over and past opponent's far leg, creating a long step position. Then extract your trapped leg and transition to side control from the opposite angle. (When to use: Effective when opponent has strong near leg control or is preventing standard headquarters mechanics with deep half threats)
@@ -307,7 +307,7 @@ Execute headquarters pass during positional sparring and live rolling. Start fro
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The headquarters pass is generally a safe technique for both practitioners when executed with proper control. The passer should be mindful of maintaining shoulder pressure without driving their shoulder point directly into the opponent's face or throat, which can cause discomfort or injury. When extracting the trapped leg, avoid explosive or jerking motions that could strain your own knee or the opponent's leg if they are holding tight grips. During training, both partners should communicate if grips or pressure become uncomfortable. The bottom player should tap if they feel their neck is being cranked or if they experience any joint discomfort from leg entanglement. Practice this technique progressively with cooperative partners before attempting it at full intensity to develop proper mechanics and avoid injury during the learning phase.
 
@@ -315,7 +315,7 @@ The headquarters pass is generally a safe technique for both practitioners when 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The headquarters pass is a fundamental component of modern half guard passing systems and serves as a central hub position from which multiple passing options emerge. This position fits into the broader guard passing hierarchy as a controlling platform that can be established from standard half guard top, knee shield situations, or even as a recovery position when other passes are being defended. From headquarters, the passer has access to knee slice variations, long step passes, backstep passes, and can transition to other controlling positions like over-under or double under passes. Defensively, understanding headquarters is crucial for half guard players, as this position represents the point where the guard player's retention strategies have been largely neutralized and they must work to recover frames, underhooks, or create scrambles before the pass is completed. The headquarters concept bridges traditional pressure passing and modern leg-based passing systems, making it essential knowledge for both gi and no-gi practitioners at all levels.
 
@@ -323,7 +323,7 @@ The headquarters pass is a fundamental component of modern half guard passing sy
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Slice Pass]] - Primary follow-up technique - knee slice is a common finishing option from headquarters
 - [[Long Step Pass]] - Alternative variation - used when standard headquarters mechanics are being defended
@@ -341,7 +341,7 @@ The headquarters pass is a fundamental component of modern half guard passing sy
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The headquarters position represents a systematic approach to solving the half guard problem. What makes this position so effective from a biomechanical perspective is the way it creates a hierarchy of controls - you control the opponent's head and shoulders with crossface pressure, which limits their ability to create the angles necessary for effective half guard retention. Simultaneously, you control their legs in a way that prevents both deep half guard entries and full guard recovery. This dual control creates what I call a 'control sandwich' where the opponent is compressed and immobilized between your upper body pressure and lower body leg control. The key is understanding that headquarters is not just a passing position, but a controlling platform from which you can assess the opponent's defensive reactions and choose your finishing sequence accordingly. Many grapplers rush through headquarters, but the position's true power lies in your ability to pause, maintain control, and then decisively execute your chosen passing variation based on the opponent's specific defensive structure.
 - **Gordon Ryan**: In competition, the headquarters position is one of the highest percentage passing platforms because it completely shuts down the modern half guard player's offense while setting up multiple finishing options. When I establish headquarters, my opponent has essentially lost - they just don't know it yet. The position neutralizes their ability to come up on the underhook, prevents them from getting to deep half, and stops them from creating the knee shield frames that modern half guard is built on. What I focus on in competition is getting to headquarters quickly and then being patient once I'm there. I'll hold that position, make my opponent carry my weight, tire them out, and wait for them to make a mistake or give me the reaction I want. Then I finish decisively with either knee slice or long step depending on how they're defending. The mental aspect is huge too - when your opponent realizes they're in headquarters and can't get out, you can feel their morale drop. That's when I know the pass is coming and I attack with full commitment.
 - **Eddie Bravo**: The headquarters position is interesting because it's one area where 10th Planet methodology and traditional passing concepts actually align pretty well. We use headquarters all the time, especially in no-gi where you can't rely on gi grips to pass half guard. What makes headquarters work in our system is that it's a pause point where you can catch your breath and reset while maintaining dominant control - that's crucial in the fast-paced scrambles that happen in 10th Planet style rolling. From headquarters, we have some unique variations like going to the Truck if they're defending really well, or using the Electric Chair threat to make them open up their legs. One thing I teach differently is using more of an underhook variation of headquarters because crossface can be harder to maintain against really flexible guys or when you're sweaty in no-gi. The underhook gives you that same shoulder pressure but with a grip that's harder to strip. And remember, if someone is beating your headquarters pass, you can always bail to the Twister side control or look for back takes - headquarters is a junction position that connects to a lot of different attacks in our system.

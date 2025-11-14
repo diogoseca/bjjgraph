@@ -8,7 +8,7 @@ description: "Master collar ties in BJJ and wrestling. Complete guide to establi
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -71,7 +71,7 @@ description: "Master collar ties in BJJ and wrestling. Complete guide to establi
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,9 +177,7 @@ description: "Master collar ties in BJJ and wrestling. Complete guide to establi
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -211,7 +209,7 @@ Mastering collar ties requires understanding the interplay between upper body co
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - At least one practitioner maintains hand control on opponent's head, neck, or collar area with active pressure downward
 - Both practitioners remain in upright athletic stance with weight distributed through bent knees and balls of feet for mobility
@@ -224,7 +222,7 @@ Mastering collar ties requires understanding the interplay between upper body co
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Athletic stance with bent knees, straight back, and head up maintaining good posture
 - Understanding of basic grip fighting concepts including hand placement, breaking grips, and establishing control
@@ -344,7 +342,7 @@ Mastering collar ties requires understanding the interplay between upper body co
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Sprawl]]** → [[Sprawl Defense]] (Success: 55%)
 - **[[Takedown Defense]]** → [[Standing Position]] (Success: 50%)
@@ -413,7 +411,7 @@ Mastering collar ties requires understanding the interplay between upper body co
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

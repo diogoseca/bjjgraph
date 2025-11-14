@@ -115,14 +115,14 @@ Many files lack:
 3. Offensive Transitions (min 3 with success rates)
 4. Decision Tree
 5. Expert Insights (all 3 experts)
-6. Common Errors
+6. Common Mistakes
 
 #### Transitions (Required)
 1. Visual Execution Sequence
 2. Execution Steps (min 6)
 3. Common Counters (min 3)
 4. Expert Insights (all 3 experts)
-5. Common Errors
+5. Common Mistakes
 6. Knowledge Assessment Questions (min 5)
 
 #### Submissions (Required)
@@ -130,7 +130,7 @@ Many files lack:
 2. Execution Steps (min 6)
 3. **Safety Considerations** (MANDATORY)
 4. Expert Insights (all 3 experts)
-5. Common Errors
+5. Common Mistakes
 
 #### Concepts (Recommended)
 1. Concept Properties

@@ -13,10 +13,6 @@ description: "Master the Mount position in BJJ. Learn control mechanics, submiss
 
 
 
-> **Quick Overview**: The Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, awarded 4 points in IBJJF competition. From this elevated position, the top practitioner sits astride the opp...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,7 +48,7 @@ The Mount position represents the pinnacle of positional dominance in Brazilian 
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -60,54 +56,14 @@ The Mount position represents the pinnacle of positional dominance in Brazilian 
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Mount]] | High | Low | High | Low | Highest points with control-submission balance |
-
 | [[High Mount]] | High | Low to Medium | High | Medium | Elevated knees maximize submission access |
-
 | [[Modified Mount]] | High | Low to Medium | High | Low | One leg posted for enhanced base stability |
-
 | [[S Mount]] | High | Low to Medium | High | Medium | Perpendicular body angle maximizes armbar leverage |
-
 | [[Technical Mount]] | High | Medium | High | Medium | Stepped leg creates armbar angle advantage |
-
 | [[Mounted Triangle]] | High | Medium to High | High | Medium | Mount pressure with triangle mechanics |
-
 | [[Mounted Crucifix]] | High | Low | High | Low | Mount stability with arm isolation control |
-
 | [[3-4 Mount]] | High | Low to Medium | High | Medium | Asymmetric leg configuration for submissions |
-
 | [[Mount Control]] | High | Low to Medium | High | Low | Elevated position maximizes submissions |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Mount/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Mount/Top|Top Perspective]]** - Techniques and strategies
-
-
-### By Variation
-
-- **[[High Mount]]** - Knees positioned near armpits for maximum submission control, reduced stability
-
-- **[[Modified Mount]]** - One leg posted out for stability while maintaining dominant position
-
-- **[[S Mount]]** - Asymmetric positioning with one leg extended for armbar setups
-
-- **[[Technical Mount]]** - One hook in while maintaining mount control, transitional to back control
-
-- **[[Mounted Triangle]]** - Triangle lock applied from mount position for hybrid control and submission
-
-- **[[Mounted Crucifix]]** - Arm isolation control from mount with both arms trapped
-
-- **[[3-4 Mount]]** - Modified position with one leg posted, one knee across body
-
-- **[[Mount Control]]** - Fundamental low mount position emphasizing stability and control
 
 
 
@@ -115,10 +71,13 @@ The Mount position represents the pinnacle of positional dominance in Brazilian 
 
 <section id="bottom-summary" class="content-section">
 
-## Mount Bottom Perspective
+
+## Playing as Bottom
+
+[[Mount/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in mount must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -167,7 +126,7 @@ The bottom player in mount must focus on creating frames, protecting against sub
   - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Lying completely flat on back with no defensive frames established**
@@ -199,16 +158,17 @@ The bottom player in mount must focus on creating frames, protecting against sub
   - ✅ Correction: Maintain composure, breathe, and execute systematic escape sequence
 
 
-👉 **[[Mount/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Mount Top Perspective
+
+## Playing as Top
+
+[[Mount/Top|→ Full Top Guide]]
 
 
-The top player in mount balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -263,7 +223,7 @@ The top player in mount balances control maintenance with submission attacks, de
   - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Sitting too high on opponent's chest without proper base control**
@@ -295,8 +255,6 @@ The top player in mount balances control maintenance with submission attacks, de
   - ✅ Correction: Immediately follow opponent's turn, inserting hooks for back control transition
 
 
-👉 **[[Mount/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -309,56 +267,56 @@ The top player in mount balances control maintenance with submission attacks, de
 
 Knees positioned near armpits for maximum submission control, reduced stability
 
-[Explore High Mount →](mount/high-mount)
+[Explore High Mount →](./High Mount)
 
 
 ### [[Modified Mount]]
 
 One leg posted out for stability while maintaining dominant position
 
-[Explore Modified Mount →](mount/modified-mount)
+[Explore Modified Mount →](./Modified Mount)
 
 
 ### [[S Mount]]
 
 Asymmetric positioning with one leg extended for armbar setups
 
-[Explore S Mount →](mount/s-mount)
+[Explore S Mount →](./S Mount)
 
 
 ### [[Technical Mount]]
 
 One hook in while maintaining mount control, transitional to back control
 
-[Explore Technical Mount →](mount/technical-mount)
+[Explore Technical Mount →](./Technical Mount)
 
 
 ### [[Mounted Triangle]]
 
 Triangle lock applied from mount position for hybrid control and submission
 
-[Explore Mounted Triangle →](mount/mounted-triangle)
+[Explore Mounted Triangle →](./Mounted Triangle)
 
 
 ### [[Mounted Crucifix]]
 
 Arm isolation control from mount with both arms trapped
 
-[Explore Mounted Crucifix →](mount/mounted-crucifix)
+[Explore Mounted Crucifix →](./Mounted Crucifix)
 
 
 ### [[3-4 Mount]]
 
 Modified position with one leg posted, one knee across body
 
-[Explore 3-4 Mount →](mount/3-4-mount)
+[Explore 3-4 Mount →](./3-4 Mount)
 
 
 ### [[Mount Control]]
 
 Fundamental low mount position emphasizing stability and control
 
-[Explore Mount Control →](mount/mount-control)
+[Explore Mount Control →](./Mount Control)
 
 
 

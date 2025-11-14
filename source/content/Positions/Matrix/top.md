@@ -8,7 +8,7 @@ description: "Defend against Matrix back take attempts from top position. Strate
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defend against Matrix back take attempts from top position. Strate
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Defend against Matrix back take attempts from top position. Strate
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50%.
 
 ---
 
@@ -199,7 +199,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Wide base with knees and hands positioned outside shoulder width creates lateral stability against rotational forces—narrow base allows bottom player's rotation to easily overcome top player's structure and complete the back take
 - Weight distribution actively adjusted in response to bottom player's hip movement prevents them from generating sufficient rotational momentum—static weight positioning allows bottom player to use that fixed point as leverage for their rotation
@@ -210,7 +210,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Top position relative to opponent (turtle top, passing position, or consolidated top control)
 - Awareness of opponent's Matrix proficiency and rotational attack tendencies
@@ -238,7 +238,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Sprawl Defense]] → [[Turtle]]
 
@@ -302,7 +302,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Matrix Back Take]]** → [[Back Control]] (Opponent Success: 45%)
 - **[[Rolling Back Take]]** → [[Back Control]] (Opponent Success: 40%)
@@ -315,7 +315,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Step]]** → [[Back Control]]
   - Opponent commits to Matrix rotation, exposing their back during the roll
@@ -357,7 +357,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

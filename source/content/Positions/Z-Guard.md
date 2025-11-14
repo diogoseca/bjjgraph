@@ -13,10 +13,6 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 
 
 
-> **Quick Overview**: Z-Guard represents an advanced evolution of knee shield half guard where the bottom player elevates the knee shield to target the opponent's shoulder or upper chest rather than the hip, creating a mor...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive |
-| Risk Level | Medium | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium to Long | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive |
+| **Risk Level** | Medium | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium to Long | Medium |
 
-**What Makes This Position Unique:** High knee shield targets shoulder for distance
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Z-Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Z-Guard/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** High knee shield targets shoulder for distance
 
 
 
@@ -88,10 +72,13 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 <section id="bottom-summary" class="content-section">
 
-## Z-Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Z-Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in z-guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -140,7 +127,7 @@ The bottom player in z-guard balances defensive frames with offensive opportunit
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing knee shield to collapse or lose tension against opponent's body**
@@ -172,16 +159,17 @@ The bottom player in z-guard balances defensive frames with offensive opportunit
   - ✅ Correction: Maintain active frame or grip on far side - control their sleeve, wrist, or collar to prevent circling; use far hand to create additional frames against their shoulder or to strip grips that threaten your position
 
 
-👉 **[[Z-Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Z-Guard Top Perspective
+
+## Playing as Top
+
+[[Z-Guard/Top|→ Full Top Guide]]
 
 
-The top player in z-guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -227,7 +215,7 @@ The top player in z-guard enjoys offensive advantages with access to submissions
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Standing too upright and allowing bottom player to extend knee shield fully**
@@ -254,8 +242,6 @@ The top player in z-guard enjoys offensive advantages with access to submissions
   - Consequence: Bottom player can create frames, establish grips, and defend passes more effectively
   - ✅ Correction: Secure crossface or underhook on the far side to limit bottom player's defensive capabilities
 
-
-👉 **[[Z-Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

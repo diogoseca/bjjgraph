@@ -8,7 +8,7 @@ description: "Master Rubber Guard bottom position with this complete guide to Ed
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Rubber Guard bottom position with this complete guide to Ed
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Rubber Guard bottom position with this complete guide to Ed
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Closed guard base maintained with one leg elevated high across opponent's back, shin positioned near or above shoulder line with foot secured by same-side hand creating locked configuration
 - Opponent's near-side arm trapped against practitioner's chest through leg pressure, preventing posture recovery and limiting posting ability while maintaining constant breaking pressure
@@ -197,7 +195,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Exceptional hip and hamstring flexibility to achieve high leg position
 - Strong closed guard fundamentals with understanding of posture control
@@ -223,7 +221,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Triangle Setup]] → [[Triangle Control]]
 
@@ -294,7 +292,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Posture Recovery]]** → [[Closed Guard]] (Opponent Success: 40%)
 - **[[Guard Opening Sequence]]** → [[Combat Base]] (Opponent Success: 35%)
@@ -306,7 +304,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Triangle Setup]]** → [[Triangle Control]]
   - Opponent attempts to pull trapped arm free creating space between arm and chest
@@ -346,7 +344,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

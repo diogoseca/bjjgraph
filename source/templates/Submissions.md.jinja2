@@ -8,7 +8,7 @@ description: "{{description}}"
 ---
 
 {# PostHog A/B Testing Metadata #}
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -178,11 +178,11 @@ description: "{{description}}"
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## Common Errors
+## Common Mistakes
 {% for error in common_errors -%}
-- **Error**: {{error.error}}{% if error.danger_level %} [{{error.danger_level}} DANGER]{% endif %}
+- **Mistake**: {{error.error}}{% if error.danger_level %} [{{error.danger_level}} DANGER]{% endif %}
   - **Consequence**: {{error.consequence}}
   - **Correction**: {{error.correction}}
 {% endfor %}

@@ -8,7 +8,7 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player on their side or back with one leg hooked around opponent's leg, creating entanglement that restricts top player's mobility and base while maintaining connection through constant pressure
 - Top player applying forward pressure attempting to flatten bottom player or free their trapped leg, typically with weight distributed toward bottom player's torso and attempting to establish dominant shoulder control
@@ -200,7 +198,7 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - One of opponent's legs controlled with your leg hook establishing initial control point
 - Defensive frame established with at least one arm preventing immediate flattening
@@ -228,7 +226,7 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Deep Half Entry]] → [[Deep Half Guard]]
 
@@ -292,7 +290,7 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 55%)
 - **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 50%)
@@ -305,7 +303,7 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Frame and Shrimp]]** → [[Half Guard]]
   - Opponent attempts to flatten with crossface pressure
@@ -347,7 +345,7 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master top underhook control in BJJ. Complete guide to offensive p
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master top underhook control in BJJ. Complete guide to offensive p
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master top underhook control in BJJ. Complete guide to offensive p
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 50%.
 
 ---
 
@@ -195,7 +195,7 @@ Modern pressure-passing systems have elevated top underhook control into sophist
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - The top practitioner's arm penetrates under the opponent's near arm from the outside, with the hand connecting to their far shoulder or driving past to establish deep control. This outside-to-inside penetration creates the pressure angle necessary to flatten the bottom player and restrict hip mobility.
 - The top practitioner maintains chest pressure driving toward the mat through the underhook connection, creating downward force that collapses the bottom player's defensive frames. This pressure vector prevents the bottom player from elevating their inside hip or creating space for guard recovery.
@@ -206,7 +206,7 @@ Modern pressure-passing systems have elevated top underhook control into sophist
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Top player has established position in or near opponent's guard or half guard
 - Top player has created angle or pressure opportunity to penetrate underhook from outside
@@ -233,7 +233,7 @@ Modern pressure-passing systems have elevated top underhook control into sophist
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Underhook Pass]] → [[Side Control]]
 
@@ -318,7 +318,7 @@ Modern pressure-passing systems have elevated top underhook control into sophist
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Underhook Sweep]]** → [[Side Control]] (Opponent Success: 40%)
 - **[[Old School Sweep]]** → [[Side Control]] (Opponent Success: 45%)
@@ -331,7 +331,7 @@ Modern pressure-passing systems have elevated top underhook control into sophist
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Kimura to Back Take]]** → [[Back Control]]
   - When bottom player establishes their own underhook and attempts to come up
@@ -373,7 +373,7 @@ Modern pressure-passing systems have elevated top underhook control into sophist
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

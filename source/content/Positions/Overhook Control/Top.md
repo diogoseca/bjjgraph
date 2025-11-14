@@ -8,7 +8,7 @@ description: "Master overhook control from top positions. Wrestling-based whizze
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master overhook control from top positions. Wrestling-based whizze
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master overhook control from top positions. Wrestling-based whizze
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 60% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 60%.
 
 ---
 
@@ -193,7 +193,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your arm wrapped over opponent's arm from above with armpit sealed tightly over their shoulder, creating a vice-like connection with no gap between your armpit and their shoulder joint
 - Your grip secured behind opponent's back, around their shoulder, or in figure-four configuration with hands clasped together for maximum control and submission setup capability
@@ -206,7 +206,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has extended arm reaching for underhook, posting on mat, attempting to push you away, or in compromised turtle position
 - You have angle and space to wrap your arm over theirs from superior position
@@ -234,7 +234,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Kimura]] → [[Kimura Control]]
 
@@ -305,7 +305,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Limp Arm Escape]]** → [[Standing Position]] (Opponent Success: 45%)
 - **[[Circle Away and Recompose]]** → [[Clinch]] (Opponent Success: 35%)
@@ -319,7 +319,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Kimura from Guard]]** → [[Kimura Control]]
   - Opponent attempts to pull arm back through overhook by jerking or using backward pressure
@@ -368,7 +368,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

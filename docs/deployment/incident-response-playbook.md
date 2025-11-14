@@ -804,7 +804,7 @@ git push origin main
 # - "Warning" (yellow) → Non-critical, should fix
 # - "Valid" (green) → All good
 
-# Common errors:
+# Common mistakes:
 # - Missing required fields
 # - Invalid property values
 # - Malformed JSON-LD

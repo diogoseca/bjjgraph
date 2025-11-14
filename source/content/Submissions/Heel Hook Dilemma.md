@@ -8,7 +8,7 @@ description: "Master the Heel Hook Dilemma in BJJ. Strategic finishing system fr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Heel Hook Dilemma in BJJ. Strategic finishing system fr
 
 
 
-> **Quick Answer**: Heel Hook Dilemma is a leg lock targeting the Knee joint, ankle joint, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause Lateral collateral ligament (LCL) tear - apply slowly over 3-5 seconds and release immediately upon tap.
+> Heel Hook Dilemma is a leg lock targeting the Knee joint, ankle joint, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause Lateral collateral ligament (LCL) tear. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="safety-considerations" class="content-section">
 
-## Is Heel Hook Dilemma Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -215,7 +215,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Create binary defensive choices where both options lead to submission
 - Maintain superior leg positioning throughout the attack sequence
 - Use hip extension and rotation as primary control mechanisms
@@ -229,7 +229,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Established leg entanglement position (saddle, inside ashi, or 50-50)
 - Opponent's heel secured in armpit or hip pocket
 - Control of opponent's knee line with your legs
@@ -243,7 +243,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish dominant leg entanglement**: Secure saddle position or inside ashi-garami with opponent's leg fully controlled between your legs. Your outside leg crosses over opponent's hip, inside leg controls behind their knee. Hip-to-hip connection is mandatory - no space between your hip and their trapped leg. Opponent's foot should be positioned near your opposite hip or secured in armpit. (Timing: Take 3-5 seconds to establish perfect positioning) [Pressure: Moderate]
 2. **Secure heel grip and establish primary threat**: Cup opponent's heel with your outside arm, fingers wrapping around heel with thumb on Achilles tendon. Palm should be on inside of heel. Elbow stays tight to ribs - never allow arm to extend away from body. Inside arm controls opponent's upper body or posts on mat for base. The heel grip itself creates the primary finishing threat. (Timing: 2-3 seconds for secure grip establishment) [Pressure: Light]
 3. **Extend hips to create initial pressure**: Drive your hips forward toward opponent while maintaining heel grip. This hip extension creates the first layer of the dilemma - opponent feels pressure building on knee joint. Do not rotate yet - pure extension first. This forces opponent to either accept the building pressure or attempt to create space by pushing your hips away or pulling their leg out. (Timing: Slow, progressive pressure over 4-5 seconds) [Pressure: Moderate]
@@ -256,7 +256,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Pushing your hips away to create space** (Effectiveness: Low) - Your Adjustment: Immediately transition to calf slicer as they extend their leg and post hands. Their space creation actually helps your calf compression by straightening their leg across your shin.
 - **Internally rotating trapped leg to reduce heel exposure** (Effectiveness: Low) - Your Adjustment: Follow the rotation and increase hip extension pressure. Internal rotation actually increases stress on knee joint when combined with your hip pressure. Consider switching to straight ankle lock if rotation is severe.
 - **Attacking your legs to force position abandonment** (Effectiveness: Medium) - Your Adjustment: Maintain superior position and use your free leg to block their leg attacks. Your control position gives you submission priority. Stay heavy on their hip and complete your attack faster than they can establish theirs.
@@ -266,25 +266,25 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying rotational pressure before establishing full positional control [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying rotational pressure before establishing full positional control [CRITICAL DANGER]
   - **Consequence**: Opponent escapes leg entanglement easily, potentially injuring themselves with partial control
   - **Correction**: Establish perfect saddle or ashi position first with hip-to-hip connection. Only add rotation after all positioning elements are secured.
-- **Error**: Extending arm away from body during heel grip [High DANGER]
+- **Mistake**: Extending arm away from body during heel grip [High DANGER]
   - **Consequence**: Loss of leverage and control, opponent can easily free their leg by creating space
   - **Correction**: Keep elbow tight to ribs throughout entire sequence. Heel should stay pinned to your hip or armpit - never allow extension.
-- **Error**: Abandoning leg entanglement to chase the finish [Medium DANGER]
+- **Mistake**: Abandoning leg entanglement to chase the finish [Medium DANGER]
   - **Consequence**: Complete position loss, opponent escapes and may pass guard
   - **Correction**: Maintain all leg controls even when transitioning between submissions. If you cannot finish while maintaining position, reset to dominant control and try again.
-- **Error**: Applying maximum pressure immediately without progressive building [CRITICAL DANGER]
+- **Mistake**: Applying maximum pressure immediately without progressive building [CRITICAL DANGER]
   - **Consequence**: Severe knee injury to training partner, potential joint destruction before tap is possible
   - **Correction**: In training, build pressure over minimum 5-7 seconds. Partner must have time to recognize danger and tap. This is not competition - safety is paramount.
-- **Error**: Focusing only on heel rotation without utilizing hip extension [Medium DANGER]
+- **Mistake**: Focusing only on heel rotation without utilizing hip extension [Medium DANGER]
   - **Consequence**: Reduced effectiveness, opponent can defend more easily by turning into rotation
   - **Correction**: Hip extension is the foundation of all leg lock pressure. Extend hips first, then add rotation. The combination creates unstoppable force.
-- **Error**: Controlling both of opponent's arms during application [CRITICAL DANGER]
+- **Mistake**: Controlling both of opponent's arms during application [CRITICAL DANGER]
   - **Consequence**: Partner cannot tap safely, extreme danger of injury
   - **Correction**: Always leave at least one arm free for tapping. If controlling upper body, use body weight or single arm control only. Never trap both arms.
 
@@ -293,7 +293,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Saddle to Heel Hook Dilemma**: From saddle position with both legs crossed over opponent's hip, establish heel control and create dilemma between heel hook and calf slicer. Most powerful variation due to superior positional control. (When to use: When you have dominant saddle position and opponent is defending by creating space or pushing your hips)
 
 **Inside Ashi to Heel Hook Dilemma**: From inside ashi-garami, use heel hook threat to force opponent to defend, then transition to kneebar or calf slicer based on their reaction. Less powerful than saddle but more accessible from various guards. (When to use: When transitioning from seated guards like De La Riva or single leg X-guard)
@@ -333,7 +333,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Study leg entanglement positions and understand heel hook mechanics without application. Learn anatomy of knee ligaments and injury mechanisms. Practice positional entries only.
 - Resistance: None
@@ -370,7 +370,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Saddle]]
 - [[Inside Ashi-Garami]]
@@ -387,7 +387,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Heel Hook]]
 - [[Inside Heel Hook]]
@@ -424,7 +424,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The heel hook dilemma represents the pinnacle of systematic submission grappling because it exploits a fundamental truth: every defensive action creates offensive opportunities if you understand the system deeply enough. When we developed the leg lock system, the breakthrough was recognizing that we could create positions where the opponent's most instinctive defenses would actually increase their danger rather than decrease it. The dilemma isn't just about having two submission options - it's about understanding the biomechanical relationship between those options and the opponent's defensive movements. Hip extension and rotation are not independent variables; they work synergistically when applied in the correct sequence. The defender cannot simultaneously prevent space creation and prevent rotation - these are mutually exclusive defensive goals. This is what makes the system so devastating at the highest levels of competition. However, this power demands absolute respect in training. The knee joint has four major ligaments, and the heel hook can damage all of them simultaneously. Application must be progressive and controlled, allowing your partner to recognize the danger and submit safely. In training, your goal is not to finish the submission but to establish the position so perfectly that the finish becomes inevitable. This distinction between training and competition application is not optional - it is mandatory for ethical practice.
 - **Gordon Ryan**: In competition, the heel hook dilemma is the highest percentage finishing system in modern grappling when you have the positional advantage. I've finished multiple world champions with this exact sequence because once you establish the saddle or inside ashi position correctly, they have no good options. Every movement they make to defend one submission opens the other. But here's what people miss when they try to copy this system: the dilemma only works if your positional control is absolutely perfect. If there's any space between your hip and their leg, if your heel control isn't locked in tight to your body, if you're not heavy on their hip - the whole system falls apart and they escape. In training, I use this position to develop perfect control, but I apply the finishes extremely slowly because I need my training partners healthy for the next session. The competitive application is violent and fast, but that's only appropriate when medals and money are on the line, and both competitors understand the rules and risks. Training application should take 5-7 seconds minimum of progressive pressure so your partner can tap safely. I've seen too many good grapplers injured by training partners who thought they were proving something by finishing fast in the gym. That's not toughness - that's stupidity. Save the killer instinct for competition.
 - **Eddie Bravo**: The heel hook dilemma is fascinating because it shows how the modern leg lock game evolved from position-based jiu-jitsu into something more like a chess puzzle where you're controlling your opponent's decision tree. At 10th Planet, we've integrated this dilemma principle into our entire system, not just leg locks. The idea that you can create positions where all of the opponent's options are bad options - that's applicable everywhere. But specifically with heel hooks, you've got to respect the damage potential. These are not like armbars where you get a little time before injury - heel hooks can explode knee joints instantly if applied wrong. In training, we have strict protocols: blue belt minimum for heel hook practice, verbal communication during application, and slow pressure buildup. The dilemma concept is incredible for competition where you're trying to force a tap, but in training, your job is to show your partner the position so clearly that they understand they need to tap. If you're injuring training partners with heel hooks, you're not a good training partner - you're a liability. The beauty of the system is that once you understand it, you don't need to apply maximum pressure to know it works. Perfect position plus the threat of the dilemma is enough in training. Save the actual finishing for competition against people who are trying to take your head off.

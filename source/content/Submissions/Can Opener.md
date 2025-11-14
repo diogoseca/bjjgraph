@@ -8,7 +8,7 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 
 
 
-> **Quick Answer**: Can Opener is a neck crank targeting the Cervical spine and neck muscles. ⚠️ **SAFETY**: This technique can cause Cervical spine compression - apply slowly over 3-5 seconds and release immediately upon tap.
+> Can Opener is a neck crank targeting the Cervical spine and neck muscles. ⚠️ **SAFETY**: This technique can cause Cervical spine compression. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="safety-considerations" class="content-section">
 
-## Is Can Opener Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -213,7 +213,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Neck compression creates intense discomfort forcing guard opening
 - Interlaced fingers behind head provide structural control
 - Forearm pressure against throat amplifies compression effect
@@ -227,7 +227,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent has you trapped in closed guard with legs locked
 - Your posture is compromised or broken down
 - You have achieved hand position behind opponent's head
@@ -241,7 +241,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish head control**: From within closed guard, swim both hands behind opponent's head while they attempt to break your posture. Focus on getting deep hand position near the base of their skull rather than shallow neck contact. This requires timing when opponent momentarily releases collar grips or attempts to adjust their guard. (Timing: Initial setup phase - 2-3 seconds) [Pressure: Light]
 2. **Interlace fingers**: Lock your fingers together behind opponent's head creating a strong structural frame with your arms. The finger interlace should be tight with palms pressing against the back of their skull. This grip must be secure as it provides the foundation for all subsequent pressure. Position your elbows to point outward creating a wide base. (Timing: Grip establishment - 1-2 seconds) [Pressure: Light]
 3. **Position forearms against neck**: Adjust your arm position so the bony portions of your forearms contact the sides and front of opponent's neck while your hands remain locked behind their head. The forearms should frame their neck creating a compression structure. Ensure your arms create an inverted V-shape that will drive downward pressure through the neck. (Timing: Structural positioning - 2-3 seconds) [Pressure: Light]
@@ -254,7 +254,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Strong collar and sleeve grips preventing hand positioning** (Effectiveness: High) - Your Adjustment: This is the primary and most effective defense. If opponent maintains proper grips, Can Opener setup becomes nearly impossible. Cannot effectively counter strong grip fighting.
 - **Breaking attacker's posture down to chest level** (Effectiveness: High) - Your Adjustment: When posture is fully broken, your arms cannot generate the mechanical advantage needed for compression. Opponent's defensive posture break neutralizes the technique completely.
 - **Opening guard immediately and transitioning to different guard** (Effectiveness: High) - Your Adjustment: Smart opponent opens guard voluntarily before pressure builds, moving to open guard, butterfly, or scrambling position. This achieves your goal of opening guard but maintains opponent's defensive control.
@@ -265,28 +265,28 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying rapid or jerking pressure to neck [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying rapid or jerking pressure to neck [CRITICAL DANGER]
   - **Consequence**: Immediate severe injury risk including cervical spine damage, muscle tears, or nerve impingement
   - **Correction**: If demonstrating for educational purposes only, apply pressure extremely slowly over 7-10 seconds with constant communication. Better solution: do not apply this technique at all.
-- **Error**: Using technique in competition or gym where it is banned [CRITICAL DANGER]
+- **Mistake**: Using technique in competition or gym where it is banned [CRITICAL DANGER]
   - **Consequence**: Disqualification, gym expulsion, legal liability for injuries, and damage to reputation as unsafe training partner
   - **Correction**: Always verify competition rules and gym policies. Use legal guard-breaking alternatives like standing guard breaks, knee slice pressures, or proper posture-based breaks.
-- **Error**: Continuing pressure after partner shows discomfort [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after partner shows discomfort [CRITICAL DANGER]
   - **Consequence**: Serious injury to training partner, breakdown of trust, and potential long-term cervical damage
   - **Correction**: Release immediately at first sign of discomfort or distress. Partner safety must always override technical objectives. Never test pain tolerance with neck attacks.
-- **Error**: Shallow hand position on top of head rather than base of skull [Medium DANGER]
+- **Mistake**: Shallow hand position on top of head rather than base of skull [Medium DANGER]
   - **Consequence**: Reduced effectiveness allowing easy escape through head movement, and potential for hands to slip causing uncontrolled pressure spikes
   - **Correction**: If demonstrating technique, ensure hands are positioned at skull base with secure interlaced grip. However, prioritize not using this technique over perfecting its mechanics.
-- **Error**: Using in training without explicit partner consent and communication [CRITICAL DANGER]
+- **Mistake**: Using in training without explicit partner consent and communication [CRITICAL DANGER]
   - **Consequence**: Violation of training partner trust, unexpected injury, and creation of unsafe training environment
   - **Correction**: If technique must be shown for educational awareness, obtain explicit verbal consent, agree on pressure limits, and maintain constant communication. Better approach: demonstrate on willing experienced partner or use verbal explanation only.
-- **Error**: Relying on Can Opener as primary guard breaking method [High DANGER]
+- **Mistake**: Relying on Can Opener as primary guard breaking method [High DANGER]
   - **Consequence**: Development of poor technical fundamentals, inability to break guards of skilled opponents, and reputation as unsafe or low-level grappler
   - **Correction**: Invest training time in proper guard breaking mechanics including standing breaks, toreando passing, pressure passing, and leg weave techniques that are legal, safe, and effective at all levels.
-- **Error**: Driving forearms into throat rather than neck sides [CRITICAL DANGER]
+- **Mistake**: Driving forearms into throat rather than neck sides [CRITICAL DANGER]
   - **Consequence**: Airway compression creating choking effect rather than neck crank, increased injury risk, and potential loss of consciousness
   - **Correction**: If demonstrating, ensure forearms contact neck sides and back rather than windpipe. However, recognize that any neck cranking carries significant risks regardless of precise positioning.
 
@@ -295,7 +295,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Single Arm Can Opener**: One arm behind head with forearm pressure while other arm posts for base. Less effective compression but more stable position. (When to use: When you cannot secure both hands behind head due to opponent's grip fighting. Still carries same safety risks and legal prohibitions as standard version.)
 
 **Can Opener from Half Guard**: Applied when trapped in opponent's half guard with similar mechanics but adjusted angles due to one leg being controlled. (When to use: When stuck in bottom half guard and seeking to create space. Even more dangerous due to restricted escape options for defender. Should be avoided.)
@@ -336,7 +336,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Theoretical Understanding Only** (1-2 sessions)
 - Focus: Learn what Can Opener is, why it is banned, and how to defend against setup attempts through verbal instruction and video analysis only
 - Resistance: None
@@ -373,7 +373,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Half Guard]]
@@ -386,7 +386,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[Darce Choke]]
@@ -422,7 +422,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Can Opener represents a fundamental misunderstanding of Brazilian Jiu-Jitsu's core principles - the technique sacrifices long-term technical development for short-term tactical gain while introducing unacceptable injury risks. From a biomechanical perspective, the cervical spine is designed for mobility and flexibility, not to withstand compression forces in the vectors this technique creates. The seven cervical vertebrae and their interconnecting discs can suffer permanent damage from forces well below what is required for other joint attacks. Systematically, there exist dozens of superior guard-breaking methods that develop proper passing mechanics, work against resistant opponents at all levels, and carry minimal injury risk. The standing guard break alone, properly executed with correct posture, hip control, and pressure direction, is infinitely more effective and develops fundamental passing skills that transfer across all positions. Students who rely on Can Opener techniques reveal gaps in their technical foundation - they lack the patience, pressure management, and systematic approach required for high-level guard passing. From a defensive perspective, understanding this attack is valuable only insofar as it teaches proper guard maintenance through grip fighting and posture breaking. The primary lesson is negative: recognition of what should be avoided rather than what should be developed. In any comprehensive training program, the Can Opener should be mentioned only as a cautionary example of techniques that violate safety principles while providing minimal technical value.
 - **Gordon Ryan**: In competition, you will never see high-level practitioners attempting Can Openers because it is both illegal and ineffective against anyone with proper guard retention fundamentals. The technique is banned in IBJJF, ADCC, and virtually all major grappling competitions precisely because the risk-reward ratio is completely skewed toward injury rather than technical success. From a competitive standpoint, any time invested learning offensive Can Opener mechanics is time wasted that should be spent developing legal passing techniques that actually work in matches. When I break closed guard, I use standing breaks with proper posture and pressure management, knee slice entries with hip pressure, or toreando passing with grip control - these methods work against world-class opposition and develop the fundamentals needed for complete passing systems. Defensively, the key is never allowing opponents to establish the hand position behind your head in the first place through aggressive collar and sleeve grip fighting. If someone attempts this technique in training, it immediately signals they lack proper technical education and you need to either educate them about safety standards or decline to train with them. The moment you feel neck pressure from this type of attack, open your guard immediately and reset - there is zero benefit to testing your pain tolerance with cervical spine compression. In my competition preparation, I focus on guard passing sequences that create legitimate passing opportunities through angle manipulation, pressure application, and technical precision rather than relying on techniques that attack structural vulnerabilities in dangerous ways. The distinction between training and competition is irrelevant here because the technique should not be used in either context.
 - **Eddie Bravo**: While 10th Planet system emphasizes innovation and exploring unconventional techniques, the Can Opener sits firmly in the category of attacks that violate our fundamental safety culture. We push boundaries with rubber guard, truck positions, and creative lockdown attacks, but everything we develop maintains the principle that training partners should be able to train hard consistently without catastrophic injury risks. The Can Opener fails this test completely because neck cranks can cause permanent damage before the defender recognizes they are in serious danger. From a practical standpoint, there are so many creative and effective ways to break closed guard that are both legal and safe - electric chair setups from lockdown, vaporizer entries, or rubber guard to mission control transitions all create guard-breaking opportunities while developing sophisticated position-specific skills. Innovation means finding new solutions within safety parameters, not reverting to crude force-based attacks that have been rejected by the broader grappling community for good reasons. Defensively, 10th Planet students learn aggressive rubber guard positioning and posture breaking specifically to prevent opponents from establishing the upright base and hand position required for Can Opener setups. If someone tries this technique against you, immediately open your guard and establish defensive frames - your ability to train tomorrow is more important than winning today's training exchange. In our competition team preparation, we emphasize techniques that work within rule sets while developing transferable skills. The Can Opener develops nothing except a reputation as an unsafe training partner. The creativity in our system comes from position development, transition mechanics, and submission chains, not from exploiting dangerous attacks that risk long-term injuries. Respect your training partners by choosing techniques that allow everyone to train hard while staying healthy for decades of mat time.

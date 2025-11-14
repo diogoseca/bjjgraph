@@ -8,7 +8,7 @@ description: "Master proactive reaction generation in BJJ. Learn threat presenta
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master proactive reaction generation in BJJ. Learn threat presenta
 
 
 
-> **Quick Answer**: Creating Reactions is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Creating Reactions is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Creating Reactions represents the proactive strategic skill of deliberately gene
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Effective reactions require sufficiently threatening stimuli that compel genuine defensive commitment
 - Threat intensity must be calibrated to generate reaction without over-committing attacker's position
 - Timing of stimulus presentation determines quality and predictability of defensive response
@@ -181,7 +181,7 @@ Creating Reactions represents the proactive strategic skill of deliberately gene
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Threat Recognition and Selection**: Ability to identify which attacks or grips will generate meaningful defensive responses in current position, understanding opponent's defensive priorities and selecting threats that compel reaction rather than being ignored or easily neutralized.
 
 **Calibrated Threat Presentation**: Technical execution of attacks at appropriate intensity level where threat appears genuine enough to force defensive commitment but maintains sufficient control to exploit the resulting reaction without overextending attacker's position.
@@ -204,7 +204,7 @@ Creating Reactions represents the proactive strategic skill of deliberately gene
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Action and Reaction]]** (Prerequisite): Understanding fundamental action-reaction principles provides the theoretical foundation for deliberately creating reactions, as Creating Reactions applies these principles proactively rather than reactively.
 - **[[Dilemma Creation]]** (Extension): Creating Reactions extends into Dilemma Creation when multiple threats force opponent into situations where all defensive options create exploitable vulnerabilities, representing advanced application of reaction generation.
 - **[[Offensive Combinations]]** (Complementary): Offensive combinations rely heavily on creating reactions as the mechanism connecting individual techniques into flowing sequences, with each technique generating reactions exploitable by subsequent attacks.
@@ -220,7 +220,7 @@ Creating Reactions represents the proactive strategic skill of deliberately gene
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Creating reactions from closed guard involves threatening submissions (triangle, armbar, omoplata) to force opponent into defensive postures that enable sweep entries, or presenting sweep threats that compel postural reactions exploitable through submissions.
 
 **Mount**: From mount, reaction creation typically involves threatening high mount advancement or collar attacks to force opponent into elbow escape attempts that expose armbar opportunities, or presenting armbar threats that generate defensive frames exploitable through transitions to technical mount or back control.
@@ -259,7 +259,7 @@ Creating Reactions represents the proactive strategic skill of deliberately gene
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current position and identify available threat options**: Catalog potential attacks (submissions, sweeps, transitions) credible from current position and grip configuration, considering which threats opponent is likely to recognize and respond to based on skill level and defensive awareness.
 2. **Evaluate opponent's defensive priorities and likely reactions**: Analyze opponent's previous defensive patterns, positional preferences, and apparent hierarchy of defensive concerns to predict which threats will generate strongest reactions and what form those defensive responses will likely take.
 3. **Select primary threat and secondary exploitation technique**: Choose initial attack that will compel defensive commitment while identifying the specific counter-technique that will exploit the predicted defensive reaction, ensuring both techniques are mechanically compatible from current position.
@@ -272,28 +272,28 @@ Creating Reactions represents the proactive strategic skill of deliberately gene
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Presenting threats with insufficient commitment to generate genuine defensive reactions
+## Common Mistakes
+- **Mistake**: Presenting threats with insufficient commitment to generate genuine defensive reactions
   - **Consequence**: Opponent ignores or easily neutralizes half-hearted attacks without committing to defensive movements, preventing practitioner from exploiting reactions and often resulting in loss of grips or positional deterioration.
   - **Correction**: Develop ability to present threats at threshold intensity where attack appears legitimate enough to compel defense but maintains sufficient control for redirection, practicing calibration through positional sparring with specific reaction-generation objectives.
-- **Error**: Over-committing to primary attack and losing ability to exploit resulting reactions
+- **Mistake**: Over-committing to primary attack and losing ability to exploit resulting reactions
   - **Consequence**: Full commitment to initial technique prevents transition to secondary attacks when opponent reacts defensively, resulting in failed initial attack without capitalizing on opponent's defensive movements and expended energy.
   - **Correction**: Train primary attacks with deliberate control maintenance, practicing transitions to secondary techniques before completing initial attacks, developing muscle memory for reaction exploitation rather than single-technique commitment.
-- **Error**: Failing to recognize moment of opponent's defensive commitment
+- **Mistake**: Failing to recognize moment of opponent's defensive commitment
   - **Consequence**: Missing optimal timing window for secondary attack execution results in attempting exploitation after opponent's defensive movement completes and position stabilizes, significantly reducing technique success probability.
   - **Correction**: Develop perceptual sensitivity to weight shifts, grip changes, and postural adjustments through drilling where partner signals moment of defensive commitment, gradually removing signals until practitioner recognizes reactions independently.
-- **Error**: Selecting incompatible primary and secondary technique combinations
+- **Mistake**: Selecting incompatible primary and secondary technique combinations
   - **Consequence**: Choosing threat and exploitation techniques that require conflicting grips or body positions creates mechanical delays in transition, allowing opponent to recover between defensive reaction and counter-attack execution.
   - **Correction**: Study and drill systematized attack combinations where primary and secondary techniques share compatible positioning requirements, ensuring smooth mechanical flow from threat presentation to reaction exploitation.
-- **Error**: Using predictable or repetitive threat patterns
+- **Mistake**: Using predictable or repetitive threat patterns
   - **Consequence**: Opponents adapt to consistent stimulus patterns by pre-positioning defenses or simply accepting primary attacks rather than reacting predictably, neutralizing reaction-generation effectiveness through pattern recognition.
   - **Correction**: Develop varied threat repertoire within each position, alternating between different stimulus types (submissions, sweeps, transitions) and maintaining unpredictability in threat selection while preserving reaction-generation principles.
-- **Error**: Continuing with predetermined secondary attack regardless of actual reaction
+- **Mistake**: Continuing with predetermined secondary attack regardless of actual reaction
   - **Consequence**: Rigidly executing planned exploitation technique even when opponent reacts differently than expected results in forced attacks against prepared defenses rather than genuinely exploiting opponent's committed movement.
   - **Correction**: Train adaptive reaction exploitation through drilling where partner varies defensive responses, developing ability to recognize actual reactions and select appropriate counter-techniques rather than executing predetermined sequences.
-- **Error**: Generating reactions without maintained positional control
+- **Mistake**: Generating reactions without maintained positional control
   - **Consequence**: Creating opponent movements from unstable positions can result in reactions that improve opponent's position rather than creating vulnerabilities, particularly when defensive movements break attacker's structural integrity.
   - **Correction**: Establish solid positional foundation before initiating reaction generation, ensuring structural control and base stability that enables redirection of opponent's defensive energy without self-destabilization.
 
@@ -302,7 +302,7 @@ Creating Reactions represents the proactive strategic skill of deliberately gene
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Primary-Secondary Drilling** (Focus: Building mechanical fluency in threat-to-exploitation sequences, developing muscle memory for specific reaction patterns, and establishing technical foundation for each primary-secondary combination before adding resistance or variability.)
 Structured drilling where practitioner presents specific primary threat and partner responds with designated defensive reaction, enabling practitioner to develop smooth transitions to predetermined secondary attacks without resistance.
 
@@ -327,7 +327,7 @@ Drilling sessions where practitioner establishes predictable threat patterns wit
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes reaction-generation concept but primarily attempts techniques against static positions without creating defensive movements
 - Can execute basic primary-secondary combinations in drilling when partner provides expected reactions with clear timing
@@ -366,7 +366,7 @@ Drilling sessions where practitioner establishes predictable threat patterns wit
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Action and Reaction]] (Principle) - Foundational principle underlying reaction creation through understanding of stimulus-response mechanics in grappling exchanges
 - [[Dilemma Creation]] (Principle) - Advanced extension where multiple simultaneous threats force opponent into situations where all defensive options create vulnerabilities
@@ -386,7 +386,7 @@ Drilling sessions where practitioner establishes predictable threat patterns wit
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches creating reactions as a foundational offensive principle where the majority of successful techniques result from exploiting opponent's defensive movements rather than attacking static positions. Emphasizes what he terms primary and secondary attacks where the stated attack (primary) serves primarily to generate defensive response exploitable by the true technique (secondary), treating reaction generation as the core offensive mechanism rather than auxiliary skill. Systematizes reaction-generation according to position and typical defensive responses, creating comprehensive attack systems where every position includes catalogued threats designed to generate specific exploitable reactions, enabling practitioners to maintain continuous offensive pressure through structured stimulus-response sequences. Views the development of reaction-generation ability as the critical transition from intermediate to advanced offensive capability, distinguishing practitioners who can attack only when opponent makes errors from those who can force errors through systematic threat presentation.
 - **Gordon Ryan**: Views creating reactions as the essential skill distinguishing elite offensive grapplers from intermediate practitioners who rely on opponent errors rather than forcing mistakes. Focuses extensively on what he calls forcing functions where specific actions compel opponent into limited defensive options all of which create exploitable vulnerabilities, essentially creating no-win scenarios through reaction generation. Emphasizes the importance of maintaining threatening pressure through continuous reaction generation even when individual techniques fail, creating psychological dominance where opponent remains perpetually defensive and unable to establish their own offensive sequences, which tactically controls match tempo and scoring opportunities regardless of immediate submission success. In competition analysis, attributes his dominant offensive performances to superior reaction-generation capability that forces opponents into defensive patterns even when they enter matches with defensive game plans, demonstrating how mastery of this concept enables offensive control against elite competition.
 - **Eddie Bravo**: Has developed extensive reaction-based offensive systems throughout his 10th Planet methodology, particularly evident in positions like Mission Control and Rubber Guard where virtually every technique serves dual purposes as both potential finish and reaction-generation mechanism. When teaching reaction creation, emphasizes the importance of what he calls commitment traps where threats are specifically designed to force opponent into defensive positions that actually worsen their situation, creating compound problems through single defensive responses. Advocates for unpredictable and creative threat generation that exploits opponent's uncertainty, using unorthodox attacks that generate hesitant or confused reactions with larger exploitation windows than responses to conventional threats, particularly effective against opponents unfamiliar with 10th Planet systems. Views reaction generation as the mechanism enabling smaller practitioners to control larger opponents through strategic exploitation of defensive energy rather than attempting to overcome size and strength advantages through direct force application.

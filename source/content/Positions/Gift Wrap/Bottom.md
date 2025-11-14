@@ -8,7 +8,7 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 45% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,7 +193,7 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - One arm is trapped across defender's own body, typically with attacker's arm threading under defender's armpit and controlling the wrist or forearm on the opposite side, creating a diagonal control line that immobilizes the limb
 - Attacker maintains back control position with hooks in or body triangle established, with their chest connected to defender's back and hips positioned directly behind defender's hips for maximum control leverage
@@ -206,7 +204,7 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Back control has been established with hooks or body triangle in place
 - One of defender's arms has been isolated and controlled across their body
@@ -234,7 +232,7 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Gift Wrap Arm Recovery]] → [[Back Control]]
 
@@ -291,7 +289,7 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Rear Naked Choke]]** → [[Lost by Submission]] (Opponent Success: 45%)
 - **[[Armbar on Free Arm]]** → [[Armbar Control]] (Opponent Success: 35%)
@@ -305,7 +303,7 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Immediate Chin Tuck Defense]]** → [[Defensive Position]]
   - Opponent attacks neck for rear naked choke
@@ -351,7 +349,7 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Ga
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Ga
 
 
 
-> **Quick Answer**: Foot Sweep Series transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Foot Sweep Series transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Mastering foot sweeps requires developing exceptional timing, balance, and sensi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Time sweeps with opponent's forward or lateral movement—never against static stance
 - Maintain strong upper body control through collar and sleeve grips to manipulate opponent's posture
 - Target the weight-bearing leg while opponent is in transition between steps
@@ -184,7 +184,7 @@ Mastering foot sweeps requires developing exceptional timing, balance, and sensi
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish fundamental grips: cross-collar grip with one hand and same-side sleeve grip with the other
 - Maintain proper standing posture with bent knees and hips, never standing upright or stiff
 - Position yourself at optimal distance—close enough to control but far enough to have sweep angle
@@ -198,7 +198,7 @@ Mastering foot sweeps requires developing exceptional timing, balance, and sensi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish dominant grips**: Secure a strong cross-collar grip with your right hand, fingers inside the collar at the back of opponent's neck. Your left hand controls opponent's right sleeve at the elbow or wrist level. Pull down slightly with collar grip and out with sleeve grip to break opponent's posture forward and create initial off-balance. (Timing: During initial grip exchange or after grip fighting sequence)
 2. **Create movement and read weight distribution**: Use your grips to create circular or forward-backward movement patterns. Pull opponent forward and slightly to their right side with your collar grip while simultaneously pulling their sleeve across their body. This movement causes opponent to step forward with their right leg to regain balance. Identify the moment when their weight commits to the advancing leg. (Timing: 1-2 seconds of grip manipulation)
 3. **Execute primary sweep (Deashi Harai example)**: As opponent's right foot makes contact with the mat during their forward step, immediately sweep your left foot across the mat surface in a sweeping arc that contacts the outside of their right ankle. Your sweeping foot should make contact just as their weight is transferring onto that leg but before it's fully planted. Simultaneously pull strongly with both grips—up and to your right with the collar, across and down with the sleeve—to lift and rotate opponent's upper body. (Timing: The moment opponent's foot touches down)
@@ -211,7 +211,7 @@ Mastering foot sweeps requires developing exceptional timing, balance, and sensi
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent widens base and drops weight to create stability** (Effectiveness: High) - Your Response: Switch to different sweep in series—if they defend Deashi Harai by widening stance, immediately attack with Kouchi Gari to inside of same leg or Kosoto Gari to rear
 - **Opponent times their step to avoid sweep and counters with their own technique** (Effectiveness: Medium) - Your Response: Use feint sweeps to draw reactions without committing fully, then attack when opponent overreacts or creates opening with their counter-movement
 - **Opponent establishes dominant grips and prevents your grip setup** (Effectiveness: High) - Your Response: Improve grip fighting skills and use hand fighting sequences to break opponent's grips before establishing your own, or adapt to different grip configurations
@@ -221,28 +221,28 @@ Mastering foot sweeps requires developing exceptional timing, balance, and sensi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweep against stationary opponent with balanced weight distribution
+## Common Mistakes
+- **Mistake**: Attempting sweep against stationary opponent with balanced weight distribution
   - **Consequence**: Sweep has no effect and you waste energy while potentially exposing yourself to counters
   - **Correction**: Only sweep when opponent is in motion—create movement with grips or wait for opponent to step naturally, targeting the weight-bearing leg during transition
-- **Error**: Sweeping too early before opponent's weight commits to target leg
+- **Mistake**: Sweeping too early before opponent's weight commits to target leg
   - **Consequence**: Opponent easily lifts targeted leg and avoids sweep, often countering with their own attack
   - **Correction**: Develop timing through repetition—sweep the instant the foot contacts mat but before weight fully settles, using grip feedback to feel weight transfer
-- **Error**: Using only leg action without coordinated upper body manipulation
+- **Mistake**: Using only leg action without coordinated upper body manipulation
   - **Consequence**: Sweep lacks power and opponent remains upright despite leg contact, making technique ineffective
   - **Correction**: Synchronize hand actions with foot sweep—pull and lift with grips in opposite direction of sweep to create rotational off-balance that multiplies sweeping force
-- **Error**: Sweeping with stiff leg or heel instead of using whole foot surface
+- **Mistake**: Sweeping with stiff leg or heel instead of using whole foot surface
   - **Consequence**: Poor contact with opponent's ankle results in glancing blow that doesn't disrupt their base
   - **Correction**: Use inside edge of foot blade (from ball to heel) making broad surface contact with opponent's ankle, sweeping through with hip rotation not just leg swing
-- **Error**: Failing to follow opponent to ground or losing grip connection during fall
+- **Mistake**: Failing to follow opponent to ground or losing grip connection during fall
   - **Consequence**: Opponent recovers guard or escapes to standing, negating successful sweep
   - **Correction**: Maintain at least collar grip throughout fall, stepping forward aggressively as opponent goes down, and immediately establishing chest pressure and crossface in side control
-- **Error**: Standing too upright with straight legs during sweep attempts
+- **Mistake**: Standing too upright with straight legs during sweep attempts
   - **Consequence**: Poor balance makes you vulnerable to counters and reduces power generation for sweeps
   - **Correction**: Maintain bent knees and hips throughout sequence, keeping center of gravity low and stable while generating upward lifting force with grips
-- **Error**: Telegraphing sweep attempt with obvious wind-up or preparation
+- **Mistake**: Telegraphing sweep attempt with obvious wind-up or preparation
   - **Consequence**: Opponent reads your intention and adjusts weight distribution or times counter-attack
   - **Correction**: Disguise sweeps within natural movement and grip fighting, making techniques appear as extensions of normal positioning rather than distinct attacks
 
@@ -251,7 +251,7 @@ Mastering foot sweeps requires developing exceptional timing, balance, and sensi
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Develop basic sweeping motion and grip coordination without resistance
 Practice individual sweep techniques (Deashi Harai, Kosoto Gari, Kouchi Gari) in uchi-komi format with compliant partner. Focus on proper foot placement, sweeping arc, and synchronizing hand actions with leg movement. Perform 20-30 repetitions per technique per training session, alternating sides. Partner provides minimal resistance, walking naturally forward to create timing opportunities.
 (Resistance: None)
@@ -282,7 +282,7 @@ Practice sweeps under competition rule sets (IBJJF, ADCC, etc.) with time limits
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Deashi Harai (Advancing Foot Sweep)**: Sweep opponent's foot forward as they step forward, using sweeping motion that drives their advancing foot further in direction of movement while pulling upper body opposite direction with grips. Most effective when opponent moves forward aggressively. (When to use: Against forward-pressing opponents or when you create forward movement with pulling actions)
 
 **Kosoto Gari (Small Outer Reap)**: Attack outside/rear of opponent's leg by placing your leg behind theirs and driving backward while pulling their upper body backward and down. Works like tripping opponent over your leg. More forceful than pure sweep. (When to use: When opponent's weight is settled back on rear leg or when they resist forward pulling by sitting back)
@@ -329,7 +329,7 @@ Practice sweeps under competition rule sets (IBJJF, ADCC, etc.) with time limits
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing foot sweeps, both partners must understand proper breakfall techniques to land safely. The person being swept should tuck their chin, round their back, and slap the mat with their arm to dissipate impact force. Begin all training with crash pads or soft mats until proper falling mechanics are developed. The person executing sweeps must maintain grip connection to control opponent's fall and prevent uncontrolled impact—never release grips mid-fall. Progress resistance gradually, as explosive sweeps on unprepared partners can cause ankle, knee, or impact injuries. In competition, be aware of mat boundaries and ensure adequate space exists for safe completion of the technique. Partners with ankle, knee, or lower back injuries should modify training or avoid foot sweep practice until cleared by medical professionals.
 
@@ -337,7 +337,7 @@ When practicing foot sweeps, both partners must understand proper breakfall tech
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Foot Sweep Series forms the foundation of a complete standing game that integrates seamlessly with other takedown systems and guard pulling strategies. In competition, foot sweeps serve multiple tactical purposes: they can be used aggressively to secure early takedowns and points, defensively to counter opponent's forward pressure, or strategically to create action and avoid stalling penalties. Foot sweeps chain naturally with other standing attacks—failed sweeps often create opportunities for single leg or double leg entries, body lock positions, or front headlock scenarios. The series also integrates with guard pulling by serving as threat that forces opponent to respect your standing game, making guard pulls more effective when opponent is defending sweep attempts. Defensively, understanding foot sweeps improves your takedown defense, as you learn to recognize weight distribution vulnerabilities and movement patterns that create sweep opportunities, allowing you to avoid these positions. Mastering this series develops essential attributes for all of BJJ: timing, balance, sensitivity to opponent's movement, and the ability to chain techniques based on reactions—skills that translate directly to ground fighting and submission chains.
 
@@ -345,7 +345,7 @@ The Foot Sweep Series forms the foundation of a complete standing game that inte
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Deashi Harai]] - Primary technique - advancing foot sweep
 - [[Kosoto Gari]] - Primary technique - small outer reap
@@ -368,7 +368,7 @@ The Foot Sweep Series forms the foundation of a complete standing game that inte
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The foot sweep series represents the most technically refined approach to standup grappling, derived from Judo's centuries of development in ashi-waza. What makes these techniques systematically superior to wrestling-based takedowns is their reliance on timing and leverage rather than explosive athleticism—attributes that remain effective as we age and that work against larger, stronger opponents. The key systematic principle underlying all foot sweeps is the concept of 'kuzushi' or off-balancing: you never sweep a balanced opponent, you create or exploit existing imbalance through precise manipulation of their upper body while simultaneously attacking the weight-bearing leg during transition moments. The most common error I observe is students attempting to make the leg sweep do all the work, when in reality the leg contact is merely the final element of a chain that begins with grip dominance, continues through posture manipulation, and culminates in targeting the compromised leg. Study the interconnection between all sweeps in the series—Deashi, Kosoto, Kouchi, Sasae—and you'll discover they form a complete system where each technique's defense creates the exact vulnerability that another technique exploits. This systematic approach to chaining techniques based on opponent reactions is the fundamental principle that separates effective grapplers from those who know isolated techniques but cannot apply them against resistance.
 - **Gordon Ryan**: In high-level competition, foot sweeps are absolutely critical for several strategic reasons that go beyond just scoring takedown points. First, they allow you to engage in standup exchanges without burning huge amounts of energy like you would wrestling—you can attempt multiple sweeps throughout a match without gassing out because they're technique-based not strength-based. Second, foot sweeps give you legitimate takedown threat which forces opponents to respect your standing game, making your guard pulls way more effective because they can't just stand comfortably waiting for you to pull. I use Kouchi Gari constantly because it works perfectly with my preferred collar tie and underhook positions, and when guys defend it by stepping back, I immediately hit them with Deashi Harai going the other direction. The competition meta has evolved where everyone pulls guard immediately, so having actually functional takedowns makes you extremely dangerous—opponents don't train takedown defense as much anymore because they're so focused on guard work. My advice is pick two or three sweeps that fit your grips and body type, drill them until the timing is completely automatic, and use them aggressively in the first thirty seconds of matches to establish dominance and score points. Even if you don't finish the sweep, attacking standup sets the pace and puts psychological pressure on opponents who wanted to control the standup phase. The transition to top position after the sweep is where most people fail in competition—you must follow them down aggressively and immediately establish heavy pressure and crossface, or they'll recover guard and you've wasted the sweep.
 - **Eddie Bravo**: Foot sweeps are criminally underutilized in modern no-gi and that's a huge opportunity for innovation. Everyone's focused on wrestling shots and guard pulls, but the timing-based nature of sweeps catches people completely off guard—literally. We've adapted several Judo sweeps for 10th Planet system by modifying the grips to work with collar ties, underhooks, and wrist control instead of gi grips, and they're devastatingly effective because nobody expects them. The key innovation is understanding that no-gi sweeps require slightly different timing—you can't feel weight distribution through gi grips, so you have to read it through body contact and visual cues. We drill sweeps constantly with our warm-up flows, having partners move in different patterns while we time the sweeps with their natural rhythm, almost like dancing. This develops the intuitive timing that makes sweeps work in live rolling without thinking. Another innovation we've developed is using failed sweep attempts to set up our rubber guard or lockdown entries—when you go for Kouchi Gari and they defend by sprawling back, you can immediately pull them into closed guard and attack. Or if they stuff your sweep by driving forward hard, you've got perfect double leg opportunity. The creative approach is viewing sweeps not as isolated techniques but as entries into your entire ground system. Don't just drill the sweep—drill sweep to top position to submission sequence, or sweep attempt to guard pull to guard attack. This systems-based thinking is how you make techniques like foot sweeps truly functional in real competition where nothing works in isolation and everything has to flow together into your personal game.

@@ -8,7 +8,7 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50%.
 
 ---
 
@@ -187,7 +187,7 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Chest positioned perpendicular to opponent's torso with direct contact across their upper body, creating maximum surface area for control and weight distribution
 - Opponent flat on their back with shoulders pinned to the mat, unable to turn into you or create significant angles for escape
@@ -199,7 +199,7 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful guard pass completion from any guard type
 - Understanding of weight distribution principles and pressure passing mechanics
@@ -227,7 +227,7 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Side Control to Mount]] → [[Mount]]
 
@@ -305,7 +305,7 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 35%)
 - **[[Frame and Shrimp]]** → [[Closed Guard]] (Opponent Success: 30%)
@@ -319,7 +319,7 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Transition to Mount]]** → [[Mount]]
   - Opponent attempts to frame and create space under your chest
@@ -370,7 +370,7 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master Guard Recovery principles in BJJ. Learn defensive framing, 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Guard Recovery principles in BJJ. Learn defensive framing, 
 
 
 
-> **Quick Answer**: Guard Recovery is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Guard Recovery is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ The principle of Guard Recovery is essential for developing complete defensive c
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Defensive framing creates and maintains critical space between your torso and opponent's chest, preventing consolidation of passing pressure
 - Hip mobility through shrimping, bridging, and turning generates the angular changes necessary for leg reinsertion and guard recovery
 - Progressive distance creation builds recovery opportunities incrementally rather than attempting explosive, all-or-nothing escapes
@@ -183,7 +183,7 @@ The principle of Guard Recovery is essential for developing complete defensive c
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Defensive Frame Construction**: The ability to create and maintain structural frames using forearms, hands, knees, and shins against opponent's shoulders, hips, and head to prevent chest-to-chest contact and preserve recovery space. This skill includes understanding frame angles, pressure distribution, and the timing of frame transitions as opponent's passing pressure shifts.
 
 **Hip Escape Mechanics**: Proficiency in shrimping movements that create perpendicular angles between your hips and opponent's pressure direction, generating space for leg reinsertion. This encompasses proper hip elevation, shoulder posting, and the coordination of upper and lower body movements to maximize displacement per repetition.
@@ -204,7 +204,7 @@ The principle of Guard Recovery is essential for developing complete defensive c
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Guard Retention Concepts]]** (Prerequisite): Guard Recovery builds upon Guard Retention foundations - recovery becomes necessary when retention protocols fail, making retention the first defensive layer and recovery the second
 - **[[Defensive Framing]]** (Complementary): Defensive Framing provides the structural mechanics that enable Guard Recovery - frames create the space within which recovery movements can occur effectively
 - **[[Hip Escape Mechanics]]** (Prerequisite): Hip Escape Mechanics form the biomechanical foundation of Guard Recovery - recovery sequences are essentially coordinated chains of hip escapes combined with leg reinsertion
@@ -223,7 +223,7 @@ The principle of Guard Recovery is essential for developing complete defensive c
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Open Guard**: When opponent initiates passing sequence and begins controlling legs or hips, Guard Recovery principles dictate maintaining frames, creating angles through shrimping, and working to recover specific open guard variations based on available space and opponent's pressure direction
 
 **Closed Guard**: After opponent breaks closed guard and begins advancing hips past your legs, recovery principles emphasize immediate frame establishment, hip mobility to prevent flattening, and systematic work to either reclosure guard or transition to high-percentage open guard structures
@@ -260,7 +260,7 @@ The principle of Guard Recovery is essential for developing complete defensive c
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Recognize guard compromise and passing initiation**: Immediately assess opponent's passing direction, which legs are being controlled, and what space remains available for defensive movement before guard is fully passed
 2. **Establish defensive frames appropriate to passing type**: Create frames using forearms against neck/shoulders for pressure passing, shin/knee frames for leg-based passing, or hand posts for distance-based passing to prevent chest-to-chest contact
 3. **Initiate hip mobility to create recovery angles**: Begin shrimping perpendicular to opponent's pressure direction, turning to maintain shoulders facing opponent, and elevating hips to prevent flattening while maintaining defensive frames
@@ -273,31 +273,31 @@ The principle of Guard Recovery is essential for developing complete defensive c
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Accepting flat-back position with shoulders pinned to mat
+## Common Mistakes
+- **Mistake**: Accepting flat-back position with shoulders pinned to mat
   - **Consequence**: Eliminates hip mobility necessary for all guard recovery movements, allows opponent to consolidate weight and pressure, making recovery nearly impossible regardless of strength or effort
   - **Correction**: Immediately turn to side and create perpendicular angle with shoulders facing opponent - this restores hip mobility and creates shrimping capability essential for all recovery sequences
-- **Error**: Abandoning defensive frames to grab for opponent's legs or body
+- **Mistake**: Abandoning defensive frames to grab for opponent's legs or body
   - **Consequence**: Allows opponent's chest to connect with your torso, eliminating the space that frames were creating and making leg reinsertion impossible due to chest-to-chest contact
   - **Correction**: Maintain frames as highest priority until new leg barriers are established - frames create space for recovery, not leg grabbing or gi grips
-- **Error**: Using random, explosive movements without systematic progression
+- **Mistake**: Using random, explosive movements without systematic progression
   - **Consequence**: Rapidly depletes energy reserves without creating meaningful recovery opportunities, often creating submission vulnerabilities through poor positioning during chaotic movement
   - **Correction**: Apply systematic recovery protocols (establish frame, create angle, insert leg, secure position) with each movement building toward specific recovery objective rather than desperate scrambling
-- **Error**: Attempting to recover the exact guard that was just passed
+- **Mistake**: Attempting to recover the exact guard that was just passed
   - **Consequence**: Wastes time and energy trying to rebuild a structure opponent has already demonstrated ability to defeat, allowing them to advance position while you chase unattainable recovery goal
   - **Correction**: Focus on establishing any functional guard structure rather than specific guard you lost - half guard recovery often easiest due to minimal space requirement
-- **Error**: Relying solely on upper body frames without hip movement
+- **Mistake**: Relying solely on upper body frames without hip movement
   - **Consequence**: Frames collapse under sustained pressure as arm strength depletes, fails to create angular changes necessary for leg reinsertion, and allows opponent to circle around static frames
   - **Correction**: Coordinate frames with continuous hip mobility - frames hold space while hips create angles and movement for leg reinsertion, never use frames alone
-- **Error**: Turning away from opponent or exposing back during recovery attempts
+- **Mistake**: Turning away from opponent or exposing back during recovery attempts
   - **Consequence**: Converts guard passing situation into back take opportunity for opponent, eliminating guard recovery options and creating worse positional outcome than accepting the pass
   - **Correction**: Always maintain shoulders and face oriented toward opponent during recovery - use granby rolls only when necessary and immediately return to guard-facing orientation
-- **Error**: Giving up recovery attempts to conserve energy or avoid exhaustion
+- **Mistake**: Giving up recovery attempts to conserve energy or avoid exhaustion
   - **Consequence**: Allows opponent to consolidate dominant positions leading to point deficits, submission vulnerabilities, and extended periods defending inferior positions
   - **Correction**: Recognize that maximum effort for 10-15 second recovery windows is more valuable than energy conservation - better to be exhausted in guard than fresh in opponent's side control
-- **Error**: Failing to protect against crossface during recovery movements
+- **Mistake**: Failing to protect against crossface during recovery movements
   - **Consequence**: Opponent's crossface control eliminates head mobility, prevents effective shrimping, and allows them to consolidate passing position despite your other defensive efforts
   - **Correction**: Maintain near-side arm frame to block crossface attempts while executing hip movements - head control prevention is equally important as hip mobility
 
@@ -306,7 +306,7 @@ The principle of Guard Recovery is essential for developing complete defensive c
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Sparring from Near-Passed Positions** (Focus: Developing practical timing, decision-making under pressure, and pattern recognition for real guard recovery scenarios rather than idealized drilling conditions)
 Start each round with guard partially compromised in various passing positions (one leg passed, opponent in headquarters, etc.) and work exclusively on guard recovery against progressively increasing resistance
 
@@ -331,7 +331,7 @@ Systematic study of guard recovery principles through instructional content from
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes when guard is being passed and attempts defensive response rather than passively accepting
 - Can establish basic defensive frames with forearms against opponent's shoulders or chest
@@ -376,7 +376,7 @@ Systematic study of guard recovery principles through instructional content from
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Guard Retention Concepts]] (Principle) - Prerequisite concept - guard recovery becomes necessary when retention fails, making retention the first defensive layer
 - [[Defensive Framing]] (Principle) - Complementary principle - provides structural mechanics that create space for recovery movements
@@ -396,7 +396,7 @@ Systematic study of guard recovery principles through instructional content from
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Guard recovery represents the critical defensive principle that separates practitioners who can maintain competitive viability under pressure from those who quickly concede dominant positions. The fundamental insight underlying effective guard recovery is understanding that positional defense operates in layers, not as a single threshold. When your primary guard structure fails, you do not immediately transition to opponent's dominant control - there exists a transitional zone where systematic defensive protocols can rebuild guard distance if applied correctly. The biomechanical key is maintaining hip mobility while denying chest-to-chest contact through frames. These two elements - mobile hips and effective frames - create the conditions necessary for leg reinsertion between bodies. Most practitioners fail at guard recovery because they violate one or both of these principles, either allowing themselves to be flattened which eliminates hip mobility, or abandoning frames prematurely to grab at opponent's legs which permits chest connection. The temporal aspect is equally critical - guard recovery windows are measured in seconds, requiring immediate recognition and decisive action. Train guard recovery as a distinct conceptual domain separate from both guard retention and positional escapes, focusing on the specific mechanical problems of rebuilding barriers between torsos while under forward pressure. Success in guard recovery correlates directly with competitive performance, as practitioners who cannot recover guard will spend match time defending inferior positions rather than implementing their offensive game plans.
 - **Gordon Ryan**: Guard recovery is the skill that makes or breaks competitive performances at the highest levels. The reality is that perfect guard retention is impossible against elite-level passing - everyone's guard gets compromised eventually, so the critical question becomes whether you can recover before the pass is consolidated. I approach guard recovery with a specific priority hierarchy: first, never let them flatten you because flat positioning eliminates all recovery options; second, maintain frames at all costs because frames create the space where recovery happens; third, work to get any leg between your body and theirs rather than trying to recover the perfect guard. Half guard recovery is my default target because it requires the least space and still provides excellent sweeping and back-taking opportunities. Against opponents like elite-level passers, I'm constantly cycling through guard recovery attempts, and I'm willing to expend maximum energy for those critical 10-15 second windows when recovery is possible. The mental component is huge - you have to maintain systematic thinking even when experiencing heavy pressure and fatigue, which requires specific training where you practice guard recovery under real match conditions rather than cooperative drilling. One technique insight that dramatically improved my recovery was learning to use opponent's momentum rather than fighting their pressure directly - if they're driving forward hard, that's actually creating opportunities for recovery if you can redirect rather than resist. The practical application is that I rarely get fully passed to side control anymore, converting most passing attempts into scrambles where I recover guard or create stand-up opportunities.
 - **Eddie Bravo**: Guard recovery is where the 10th Planet system offers some really unique solutions that work better than traditional approaches in many situations. The conventional wisdom is all about shrimping and framing to get back to closed or open guard, which is solid, but we've found that treating guard recovery positions as their own distinct guard systems with offensive options creates way better results. For example, when someone's halfway through passing your guard, instead of desperately trying to shrimp back to closed guard, we look for the lockdown even with one leg - if you can lock down their leg while they're trying to pass, you've immediately converted guard recovery into our entire half guard offensive system with electric chair, old school, and plan B options. The rubber guard entries from compromised positions are another innovation - when your guard is being passed and you're forced to use defensive frames, those frames can become invisible collar, mission control, or chill dog setups if you know how to transition from defense to offense. The key psychological shift is recognizing that guard recovery doesn't have to be purely defensive - some of my best submission setups come from positions where my opponent thinks they're passing but I'm actually setting up attacks. The granby roll is criminally underutilized in guard recovery - most people think it's just a wrestling move, but when timed correctly during guard recovery it can take you from almost passed all the way to attacking closed guard or even better positions. Train guard recovery with the mindset that these are attacking positions, not desperate survival situations, and you'll find way more success because you're staying creative and offensive rather than panicking. One drill I love is having someone try to pass slowly and methodically, which is actually harder to defend than aggressive passing because you can't rely on their mistakes - this builds the systematic approach you need against high-level opponents who won't give you recovery opportunities through sloppy technique.

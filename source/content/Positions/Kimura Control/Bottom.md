@@ -8,7 +8,7 @@ description: "Master Kimura Control from bottom in BJJ. Defensive position with 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Kimura Control from bottom in BJJ. Defensive position with 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Kimura Control from bottom in BJJ. Defensive position with 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ The beauty of Kimura Control Bottom lies in its dual nature: it simultaneously d
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner maintains Kimura grip on opponent's arm with wrist control and figure-four lock, creating a rigid connection that controls shoulder mobility and restricts opponent's posting ability while isolating the arm from generating effective pressure
 - Bottom practitioner's body is positioned on back or side with hips mobile enough to create angles and distance, preventing opponent from establishing stable chest-to-chest pressure or completing the pass while maintaining the structural integrity of the grip
@@ -203,7 +201,7 @@ The beauty of Kimura Control Bottom lies in its dual nature: it simultaneously d
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Kimura grip established with proper wrist control and figure-four configuration securing opponent's arm
 - Opponent engaged in passing attempt or pressure from top position creating control opportunity
@@ -231,7 +229,7 @@ The beauty of Kimura Control Bottom lies in its dual nature: it simultaneously d
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Kimura Sweep]] → [[Side Control]]
 
@@ -302,7 +300,7 @@ The beauty of Kimura Control Bottom lies in its dual nature: it simultaneously d
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Kimura Defense]]** → [[Side Control]] (Opponent Success: 45%)
 - **[[Rolling Kimura Escape]]** → [[Turtle]] (Opponent Success: 40%)
@@ -315,7 +313,7 @@ The beauty of Kimura Control Bottom lies in its dual nature: it simultaneously d
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Kimura Sweep]]** → [[Side Control]]
   - Opponent attempts to pass by driving forward with weight
@@ -364,7 +362,7 @@ The beauty of Kimura Control Bottom lies in its dual nature: it simultaneously d
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

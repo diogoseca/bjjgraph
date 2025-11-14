@@ -8,7 +8,7 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 
 
 
-> **Quick Answer**: Kosoto Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Kosoto Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Break opponent's balance to rear corner (45-degree angle)
 - Control opponent's upper body with strong collar and sleeve grips
 - Attack the weight-bearing leg at precisely the right moment
@@ -186,7 +186,7 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish strong collar grip with pulling hand
 - Control opponent's sleeve or tricep with opposite hand
 - Opponent's weight must be committed to rear leg
@@ -199,7 +199,7 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips**: Secure deep collar grip with your right hand, fingers inside opponent's collar at neck level. Left hand controls opponent's right sleeve at elbow or tricep. Grips must be tight enough to control movement but relaxed enough to allow explosive pulling action. (Timing: During initial clinch engagement)
 2. **Create initial off-balance**: Pull opponent forward and slightly to their right front corner using both grips. This creates initial reaction where opponent posts weight backward to resist. Watch for their weight to shift predominantly to their right leg - this is your attack signal. (Timing: 1-2 seconds after grip establishment)
 3. **Step to optimal angle**: Step your left foot forward and outside opponent's right foot, positioning yourself at approximately 45-degree angle to their body. Your left foot should be toe-to-toe with their right foot, creating the geometric foundation for the sweep. (Timing: As opponent's weight commits backward)
@@ -213,7 +213,7 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent steps back with attacked leg before sweep makes contact** (Effectiveness: High) - Your Response: Chain immediately to Kouchi Gari (attacking opposite leg) or Deashi Harai (pursuing their retreating foot). Maintain collar grip and continue off-balancing pattern.
 - **Opponent drives forward aggressively to counter backward pull** (Effectiveness: Medium) - Your Response: Switch to forward throw like Tai Otoshi or Uchi Mata, using their forward momentum against them. This is reactive rather than resistant - flow with their energy.
 - **Opponent widens stance and lowers center of gravity to create stable base** (Effectiveness: Medium) - Your Response: Create multiple off-balancing attempts in different directions to force weight shifts. Attack when they inevitably transfer weight to make adjustment. Alternatively, drop for single leg or ankle pick.
@@ -222,25 +222,25 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweep before opponent's weight is committed to rear leg
+## Common Mistakes
+- **Mistake**: Attempting sweep before opponent's weight is committed to rear leg
   - **Consequence**: Opponent easily steps out of technique and may counter with their own throw. You expend energy with zero result and telegraph future attempts.
   - **Correction**: Develop patience and sensitivity to weight distribution. Feel for the moment when opponent's heel is weighted. Practice static drilling where partner indicates when their weight is back.
-- **Error**: Sweeping too high on opponent's leg (mid-calf or knee instead of heel)
+- **Mistake**: Sweeping too high on opponent's leg (mid-calf or knee instead of heel)
   - **Consequence**: Technique loses mechanical advantage and becomes strength-based. Opponent can simply resist with leg strength, nullifying the sweep.
   - **Correction**: Focus sweep motion at heel specifically. Your foot should make contact with opponent's heel and Achilles area. Think of fishing hook catching low on the leg.
-- **Error**: Pulling with arms only, without full body commitment
+- **Mistake**: Pulling with arms only, without full body commitment
   - **Consequence**: Insufficient power generation leads to incomplete throw. Opponent may land in turtle or scramble position instead of flat on back.
   - **Correction**: Pull with entire body - chest drives forward, hips rotate, arms extend fully. Imagine trying to pull opponent through yourself rather than just yanking with biceps.
-- **Error**: Stopping forward pressure after initiating sweep
+- **Mistake**: Stopping forward pressure after initiating sweep
   - **Consequence**: Opponent has time to post hands and prevent full rotation to back. May result in neutral scramble rather than dominant position.
   - **Correction**: Maintain forward drive throughout entire technique. Your chest should be the last thing to stop moving. Follow opponent all the way to the mat.
-- **Error**: Poor foot positioning - sweeping leg not at correct angle to opponent
+- **Mistake**: Poor foot positioning - sweeping leg not at correct angle to opponent
   - **Consequence**: Sweep lacks power and direction. Opponent may spin out or even counter-throw due to your compromised base.
   - **Correction**: Step to 45-degree angle, positioning yourself perpendicular to opponent's intended fall line. Your base foot must be stable before executing sweep.
-- **Error**: Releasing grips too early during throw
+- **Mistake**: Releasing grips too early during throw
   - **Consequence**: Loss of control allows opponent to turtle or recover guard. You forfeit the positional advantage that should follow successful takedown.
   - **Correction**: Maintain collar grip throughout technique and into top position. Only release sleeve grip to post for base on the mat. Collar grip is your steering wheel.
 
@@ -249,7 +249,7 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Drilling** - Mechanical understanding and grip establishment
 Partner stands with weight deliberately on rear leg. Practice grip placement, foot positioning, and coordinated pull-sweep motion at slow speed. Focus on feeling the correct body mechanics. Partner should fall gently and reset. Perform 20-30 repetitions per training session, alternating sides.
 (Resistance: None)
@@ -280,7 +280,7 @@ Continually refine technique based on body type and competition experience. Deve
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi Kosoto Gari**: Without gi collar, control is established with overhook or underhook on one side and wrist control on opposite side. Pull motion comes from body lock or head control rather than lapel grip. Sweep motion remains identical. Requires closer range engagement than gi version. (When to use: No-gi competition, MMA, or when opponent has strong grip-breaking skills in gi)
 
 **Kosoto Gake (Hooking Variation)**: Instead of straight reap, your sweeping leg hooks behind opponent's heel and pulls forward while upper body pushes backward. Creates slightly different rotation angle. Often more effective against wider stances where traditional reap cannot reach heel effectively. (When to use: Against opponents with very wide base or when they defend traditional Kosoto Gari by stepping back)
@@ -323,7 +323,7 @@ Continually refine technique based on body type and competition experience. Deve
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing Kosoto Gari, both partners must maintain control throughout the falling motion to prevent injury. The person being thrown should practice proper ukemi (breakfall) by slapping the mat with their arm to dissipate impact force and protect their head. Never release grips completely during static drilling as this can cause uncontrolled falls. When drilling at speed, use crash mats or soft surfaces until breakfall mechanics are reflexive. Avoid practicing on hard surfaces until both partners have developed proper falling technique. If you feel yourself being thrown and cannot escape, do not attempt to post with extended arm as this can cause elbow, wrist, or shoulder injuries. Instead, tuck chin to chest and execute proper breakfall. Beginners should practice falling mechanics separately before integrating live throws.
 
@@ -331,7 +331,7 @@ When practicing Kosoto Gari, both partners must maintain control throughout the 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Kosoto Gari serves as a critical bridge between standing engagement and ground-based BJJ, functioning as both an offensive weapon and a defensive counter in the standing phase. In modern BJJ competition, where many matches begin standing, having reliable takedown skills prevents being forced into disadvantageous guard pulls. Kosoto Gari integrates seamlessly with guard-pulling strategies - if opponent defends the throw effectively, you can transition to seated guard, De La Riva Guard, or X-Guard entries. From the defensive perspective, Kosoto Gari is an excellent counter when opponent attempts forward throws, allowing you to redirect their aggression while maintaining top position priority. The technique creates immediate path to Side Control, which is a cornerstone position in positional hierarchy, leading to mount, back control, or submission attacks. For competitors focused on points-based strategy, Kosoto Gari offers takedown points plus immediate positional dominance. The throw also has significant psychological impact, as landing hard on the back from a throw can demoralize opponents and affect their willingness to engage standing in subsequent exchanges.
 
@@ -339,7 +339,7 @@ Kosoto Gari serves as a critical bridge between standing engagement and ground-b
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Osoto Gari]] - Complementary major outer reap - targets same leg with different angle
 - [[Kouchi Gari]] - Primary chain combination - attacks opposite leg when Kosoto Gari is defended
@@ -359,7 +359,7 @@ Kosoto Gari serves as a critical bridge between standing engagement and ground-b
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The elegance of Kosoto Gari lies in its perfect marriage of kuzushi and kake - off-balancing and execution. Most students fail to understand that the throw is won or lost in the initial off-balancing phase, not in the sweep itself. You must first create a mechanical situation where the opponent's weight is committed to the rear leg with no immediate escape. This requires understanding weight distribution as a dynamic system - you create forward pressure, opponent resists by posting weight backward, and you attack precisely at the moment of their committed resistance. The sweep is merely the mechanical exploitation of the off-balanced state you created. From a biomechanical perspective, Kosoto Gari utilizes a Type 1 lever system where your pulling hands create the fulcrum, their body is the resistance, and the sweep provides the effort force. Understanding this lever principle allows you to minimize strength requirements and maximize efficiency. The technique's true sophistication emerges when you chain it systematically with other attacks, creating a decision tree where every defensive response opens a new attacking pathway.
 - **Gordon Ryan**: In competition, Kosoto Gari is my go-to throw because it's low-risk and high-reward. Unlike explosive forward throws that can get you countered if you miss, Kosoto Gari keeps your base relatively safe while attacking theirs. I set it up through grip-fighting - I'm constantly fighting for that deep collar grip that gives me the pulling power I need. Against most opponents, I'll fake a few forward pressure attempts to get them posting weight backward, then hit the Kosoto Gari when they're defending the wrong attack. The key in high-level competition is disguising your intention - if they see the Kosoto Gari coming, they'll just step back and you'll look stupid chasing them around the mat. I chain it with Kouchi Gari to the opposite leg, so if they defend by stepping back with one leg, I'm already attacking the other. Once I land the throw, I'm immediately hunting for side control and looking for the transition to mount or taking the back. The points from the takedown mean nothing if you stall in a neutral scramble afterward. Follow through aggressively and your opponent is fighting from behind for the rest of the match.
 - **Eddie Bravo**: Kosoto Gari is sick because it works in both gi and no-gi, which most throws don't. In 10th Planet system, we use it constantly when guys try to snap us down or get aggressive with the clinch. The no-gi version requires you to get tight with underhooks or overhooks, but the sweeping motion is identical to the gi. What I love about this throw is you can hit it from the Twister position if you're standing - get that overhook control, pull them onto their heel, and sweep them to the mat where you can immediately start working your leg attacks or back takes. We also use it as a counter when guys shoot shitty singles - instead of sprawling, you can catch the overhook and Kosoto Gari them to their back while they're committed forward. It's all about being creative with traditional techniques. Don't just drill the basic judo version - experiment with different grips, different angles, and see how it fits into your personal game. Maybe you hit it from a weird Russian tie position, or off a collar drag attempt. The fundamental mechanics work, but how you get there should be unique to your style.

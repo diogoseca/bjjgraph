@@ -13,10 +13,6 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 
 
 
-> **Quick Overview**: Leg drag control represents a critical transitional position in Brazilian Jiu-Jitsu where the passer has successfully controlled one of the opponent's legs and achieved significant hip dominance. This...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -60,31 +56,19 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive |
-| Risk Level | High | Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive |
+| **Risk Level** | High | Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Hip control trades mount points for attacks
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Leg Drag Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Leg Drag Control/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Hip control trades mount points for attacks
 
 
 
@@ -92,10 +76,13 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 
 <section id="bottom-summary" class="content-section">
 
-## Leg Drag Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Leg Drag Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in leg drag control must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -144,7 +131,7 @@ The bottom player in leg drag control must focus on creating frames, protecting 
   - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Turning away from opponent to protect guard, exposing back**
@@ -172,16 +159,17 @@ The bottom player in leg drag control must focus on creating frames, protecting 
   - ✅ Correction: Free leg or accept turtle transition before attempting to sit up to guard
 
 
-👉 **[[Leg Drag Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Leg Drag Control Top Perspective
+
+## Playing as Top
+
+[[Leg Drag Control/Top|→ Full Top Guide]]
 
 
-The top player in leg drag control enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -236,7 +224,7 @@ The top player in leg drag control enjoys offensive advantages with access to su
   - Success Rate: Beginner 12%, Intermediate 30%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Staying static in leg drag control without threatening advancement**
@@ -263,8 +251,6 @@ The top player in leg drag control enjoys offensive advantages with access to su
   - Consequence: Fatigue sets in and opponent escapes during moment of weakness
   - ✅ Correction: Leg drag is transitional by nature—move decisively to consolidation within 3-5 seconds
 
-
-👉 **[[Leg Drag Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

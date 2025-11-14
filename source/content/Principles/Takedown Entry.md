@@ -8,7 +8,7 @@ description: "Master takedown entry mechanics in BJJ. Learn grip fighting, level
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master takedown entry mechanics in BJJ. Learn grip fighting, level
 
 
 
-> **Quick Answer**: Takedown Entry is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Takedown Entry is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ The systematic development of takedown entry skills follows a clear progression 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Distance management creates safety while enabling sudden closing for attacks
 - Grip fighting establishes control and creates openings for entries
 - Off-balancing through angles and pressure makes opponents vulnerable
@@ -185,7 +185,7 @@ The systematic development of takedown entry skills follows a clear progression 
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Distance Management**: The ability to control the fighting distance, maintaining safe range against opponent attacks while positioning to close distance explosively for your own entries. Includes footwork patterns, circling, and understanding critical distances for different takedown types.
 
 **Grip Fighting**: Systematic approach to establishing dominant grips while denying opponent grips, including grip breaks, grip fighting sequences, and understanding which grips facilitate specific takedown entries. Mastery includes both gi and no-gi grip fighting strategies.
@@ -208,7 +208,7 @@ The systematic development of takedown entry skills follows a clear progression 
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Off-Balancing]]** (Prerequisite): Off-balancing creates the vulnerability windows that make takedown entries successful by disrupting opponent base and defensive structure
 - **[[Grip Fighting]]** (Prerequisite): Dominant grips are essential for controlling distance, creating off-balance, and executing level changes without being countered
 - **[[Grip Fighting Strategies]]** (Complementary): Strategic grip fighting approaches directly feed into creating the conditions necessary for successful entries
@@ -230,7 +230,7 @@ The systematic development of takedown entry skills follows a clear progression 
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Standing Position**: Primary application context where all takedown entries begin, requiring distance management and grip establishment before committing to attacks
 
 **Clinch**: Close-range entries using upper body control, inside position, and off-balancing through body locks and underhooks before throwing or tripping
@@ -265,7 +265,7 @@ The systematic development of takedown entry skills follows a clear progression 
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess stance, distance, and opponent defensive tendencies**: Establish safe distance with good stance and posture, observe opponent's stance width, weight distribution, and grip fighting patterns to identify defensive habits
 2. **Determine primary entry type based on opponent vulnerabilities**: Select single leg, double leg, throw, or snap down based on opponent's stance, previous reactions, and rule set considerations
 3. **Execute grip fighting sequence to establish dominant grips**: Fight for grips that facilitate your chosen entry while denying opponent their preferred grips, using grip breaks and re-grips systematically
@@ -278,28 +278,28 @@ The systematic development of takedown entry skills follows a clear progression 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Telegraphing entries through obvious postural changes or predictable setups
+## Common Mistakes
+- **Mistake**: Telegraphing entries through obvious postural changes or predictable setups
   - **Consequence**: Opponent reads the entry attempt early and establishes defensive position before the attack reaches completion, leading to counters or stalemates
   - **Correction**: Maintain consistent posture until the moment of level change, use feints and varied setups to hide true intentions, and develop reactive entries that capitalize on opponent movements
-- **Error**: Attempting entries from poor distance without first controlling space
+- **Mistake**: Attempting entries from poor distance without first controlling space
   - **Consequence**: Reaching for entries from too far away eliminates explosiveness and gives opponent time to sprawl or counter, often resulting in front headlock or guillotine exposure
   - **Correction**: Use footwork and grip fighting to close distance before committing to level change, establish hand control first, and ensure you can reach target without lunging
-- **Error**: Neglecting grip fighting and attempting naked level changes
+- **Mistake**: Neglecting grip fighting and attempting naked level changes
   - **Consequence**: Opponent controls your head during level change attempts, easily countering with sprawl, front headlock, or guillotine attacks
   - **Correction**: Always establish some form of upper body control or grip dominance before dropping levels, use collar ties or wrist control to prevent opponent from controlling your head
-- **Error**: Poor level change mechanics with high hips or rounded back
+- **Mistake**: Poor level change mechanics with high hips or rounded back
   - **Consequence**: Weak penetration that lacks power, easy to sprawl against, and vulnerability to guillotines or front headlock due to head position
   - **Correction**: Practice proper level change mechanics with knees bent, back straight, head up, and hips driving forward with explosive power from legs
-- **Error**: Giving up after initial entry is defended without chaining attacks
+- **Mistake**: Giving up after initial entry is defended without chaining attacks
   - **Consequence**: Single attempt entries are easily defended by experienced opponents, leading to stalemates and missed opportunities when opponent is out of position
   - **Correction**: Develop chain wrestling mentality where defended entries immediately flow to secondary attacks, using opponent's defensive reaction to set up the next technique
-- **Error**: Forcing entries against well-established defensive positions
+- **Mistake**: Forcing entries against well-established defensive positions
   - **Consequence**: Wasted energy on low-percentage attempts that telegraph future attacks and allow opponent to establish patterns for countering your tendencies
   - **Correction**: Use feints, footwork, and pressure to break down defensive structure first, create actual openings through off-balancing before committing explosive energy
-- **Error**: Ignoring stance and base maintenance during entry attempts
+- **Mistake**: Ignoring stance and base maintenance during entry attempts
   - **Consequence**: Off-balance entries are easily countered with re-shots, snap downs, or simply pushing you over, especially against wrestlers with good counter-offense
   - **Correction**: Maintain your own base and stance integrity throughout the entry, keep weight distributed properly, and use proper footwork patterns rather than lunging off-balance
 
@@ -308,7 +308,7 @@ The systematic development of takedown entry skills follows a clear progression 
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Grip Fighting Drills** (Focus: Developing hand fighting skills, grip strength, and strategic understanding of which grips facilitate which entries)
 Isolated practice of grip fighting sequences, grip breaks, and establishing dominant grips against progressive resistance without completing takedowns
 
@@ -333,7 +333,7 @@ Full takedown sparring with mental focus on entry execution quality rather than 
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can execute basic level change mechanics with coaching but often telegraphs through postural changes
 - Attempts entries from poor distances, frequently reaching or lunging for attacks
@@ -381,7 +381,7 @@ Full takedown sparring with mental focus on entry execution quality rather than 
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Standing Position]] (Position) - Primary starting position for all takedown entries
 - [[Clinch]] (Position) - Close-range control position enabling upper body based entries
@@ -401,7 +401,7 @@ Full takedown sparring with mental focus on entry execution quality rather than 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The systematic approach to takedown entries begins with understanding that the entry is not merely the beginning of a technique, but rather the critical phase that determines success or failure of the entire exchange. Most practitioners focus excessively on the mechanical execution of the takedown finish while neglecting the sophisticated skill set required to reach a position where that finish becomes possible. The entry phase must address several discrete problems simultaneously: managing distance to prevent counters while enabling sudden closing, establishing grip configurations that facilitate your attacks while denying opponent offensive options, creating off-balance through angular pressure and misdirection, and executing level changes with proper timing and biomechanical efficiency. Each component must be developed as an isolated skill before integration into the complete system. The hallmark of advanced entry skills is the ability to create reactions through sustained pressure and feints that open specific vulnerability windows, then capitalize on these openings with practiced precision. Development follows a clear progression from mechanical competence in stance and movement, through tactical understanding of grip fighting and distance management, to strategic implementation of setup sequences and reactive entries that form a complete offensive system resistant to scouting and adaptation.
 - **Gordon Ryan**: In competition, I've learned that successful takedowns are won or lost in the entry phase long before the finish. My entire approach is built around making entries as high-percentage as possible through systematic grip fighting and pressure application. Against elite opponents, you cannot simply shoot a naked double leg and expect success—they will sprawl, guillotine, or counter before you reach their legs. Instead, I focus on establishing hand control first, typically through collar ties or wrist control that prevents them from controlling my head during the level change. I use sustained forward pressure to force defensive reactions, then capitalize on any moment when they push back or try to create space. My entry timing is usually reactive rather than proactive—I wait for them to make a grip change, take a step, or show a defensive lapse, then explode into the entry immediately when their base is compromised. The chain wrestling mentality is critical at high levels; if my initial entry is defended, I'm already flowing to the follow-up attack based on how they defended. Against guard pullers in no-gi, my entries focus more on staying heavy on the hands and forcing them to carry weight, making the guard pull itself a exhausting defensive option that creates opportunities when they fatigue. The key is making every entry attempt part of a larger strategic pressure campaign rather than isolated technique attempts.
 - **Eddie Bravo**: The traditional wrestling approach to entries gets turned on its head in no-gi jiu-jitsu because of the guillotine threat that dominates everything. You can't just drop your head and shoot doubles like it's a wrestling match—you'll get guillotined immediately by anyone with decent submission defense. My approach emphasizes upper body entries first, using snap downs, Russian ties, and arm drags to create front headlock positions or back exposure without putting your neck at risk. When we do use level change entries, it's with hand control established first and often from weird angles that guillotine attempts don't work well from. The other massive shift is using guard pulling as an entry strategy itself—instead of fighting for the takedown against someone with better wrestling, you can pull guard strategically to a position you've mastered like rubber guard or half guard, essentially using the 'entry' to your ground game rather than trying to force top position. Setup-wise, I'm all about the irregular rhythm and unorthodox looks—switching stances constantly, mixing in spinning attacks, using a lot of lateral movement to create angles. Traditional wrestlers hate this because it breaks their timing patterns and forces them to deal with entries from angles they haven't practiced defending thousands of times. The innovation space in entries comes from studying wrestling and judo foundations, then adapting them specifically for the submission grappling context where neck exposure is far more dangerous than in pure takedown sports.

@@ -8,7 +8,7 @@ description: "Master Creating Space in BJJ with coordinated frame and hip mechan
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Creating Space in BJJ with coordinated frame and hip mechan
 
 
 
-> **Quick Answer**: Creating Space is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Creating Space is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Creating Space represents the fundamental strategic principle of generating dist
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Coordinate frames and hip movement simultaneously to maximize space generation rather than sequential execution
 - Create space progressively through multiple smaller movements rather than single large attempts that opponent can easily counter
 - Time space creation attempts during opponent's pressure transitions rather than against static consolidated control
@@ -181,7 +181,7 @@ Creating Space represents the fundamental strategic principle of generating dist
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Frame Construction and Maintenance**: Ability to establish structural frames using skeletal alignment rather than muscular effort, creating barriers that prevent opponent's weight from settling while maintaining frames throughout movement sequences without collapse under pressure.
 
 **Hip Escape Mechanics**: Technical execution of shrimping movements that generate horizontal distance through coordinated hip rotation, shoulder alignment, and leg drive, creating space away from opponent's pressure while maintaining defensive posture and connection points.
@@ -204,7 +204,7 @@ Creating Space represents the fundamental strategic principle of generating dist
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Frame Creation]]** (Prerequisite): Frame creation provides the structural foundation enabling space generation, as proper frames create the barriers and leverage points necessary for effective space creation movements to succeed against opponent's pressure.
 - **[[Hip Escape Mechanics]]** (Complementary): Hip escape mechanics represent the primary movement pattern for horizontal space generation, working synergistically with frame maintenance to create the coordinated actions that generate and preserve defensive distance.
 - **[[Bridge and Shrimp]]** (Complementary): Bridge and shrimp movements are the foundational mechanical methods for creating space vertically and horizontally, combining to provide comprehensive space generation capabilities across different positional contexts.
@@ -220,7 +220,7 @@ Creating Space represents the fundamental strategic principle of generating dist
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Create vertical space through explosive hip bridges timed during opponent's base adjustments, followed by horizontal shrimping to escape hips from underneath mount pressure while maintaining elbow-knee defensive frames preventing reestablishment.
 
 **Side Control**: Generate horizontal space through progressive shrimping sequences coordinated with far-side frames preventing shoulder pressure, creating sufficient distance to insert knee shield or recover guard position during opponent's weight transitions.
@@ -251,7 +251,7 @@ Creating Space represents the fundamental strategic principle of generating dist
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current spatial deficit and opponent's primary pressure vectors**: Identify which body areas have insufficient space and determine direction of opponent's consolidating pressure to select appropriate space creation method
 2. **Establish protective frames preventing further spatial collapse**: Create skeletal frames using arms, legs, or both that halt opponent's pressure advancement before attempting space generation movements
 3. **Identify opponent's pressure transition windows or weight shifts**: Recognize moments when opponent adjusts position, changes grips, or redistributes weight creating brief opportunities for space creation attempts
@@ -264,28 +264,28 @@ Creating Space represents the fundamental strategic principle of generating dist
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting space creation through muscular effort against consolidated pressure
+## Common Mistakes
+- **Mistake**: Attempting space creation through muscular effort against consolidated pressure
   - **Consequence**: Rapid fatigue without generating meaningful space as opponent's settled weight cannot be displaced through strength alone, creating exhaustion that prevents subsequent escape attempts
   - **Correction**: Wait for opponent's pressure transitions or weight shifts before initiating space creation, using timing and technique rather than pure strength to generate distance during brief opportunity windows
-- **Error**: Executing hip movement without simultaneous frame maintenance
+- **Mistake**: Executing hip movement without simultaneous frame maintenance
   - **Consequence**: Generated space immediately recaptured as opponent's pressure follows hip movement without barriers preventing advance, resulting in wasted energy and unchanged positional status
   - **Correction**: Coordinate frames and hip escapes simultaneously ensuring skeletal structures maintain space as body creates it, preventing opponent from tracking movement and recapturing distance
-- **Error**: Pursuing complete space generation through single heroic effort
+- **Mistake**: Pursuing complete space generation through single heroic effort
   - **Consequence**: Predictable large movements easily countered by opponent who anticipates direction and prevents execution, often resulting in worse position as failed attempt creates vulnerabilities
   - **Correction**: Generate space progressively through multiple smaller coordinated movements that accumulate distance while maintaining defensive integrity throughout the sequential development process
-- **Error**: Creating space in suboptimal direction ignoring positional geometry
+- **Mistake**: Creating space in suboptimal direction ignoring positional geometry
   - **Consequence**: Generated space fails to enable desired technique as direction doesn't match escape requirements, wasting energy on distance that doesn't contribute to positional improvement
   - **Correction**: Assess which spatial direction serves escape objectives before initiating creation, selecting vertical, horizontal, or rotational space generation matching the specific positional needs and technical requirements
-- **Error**: Pausing between space creation and technique execution
+- **Mistake**: Pausing between space creation and technique execution
   - **Consequence**: Created space lost during hesitation as opponent uses pause to reestablish pressure and control, eliminating spatial advantage before technique can utilize it
   - **Correction**: Integrate space creation seamlessly with intended technique treating them as single coordinated action rather than separate phases, eliminating pause that permits opponent to recapture position
-- **Error**: Compromising defensive structure for quantity of space
+- **Mistake**: Compromising defensive structure for quantity of space
   - **Consequence**: Space generation creates submission vulnerabilities or worse positional exposures as defensive integrity sacrificed for distance that opponent then exploits through attacks on compromised areas
   - **Correction**: Maintain protective posture throughout space creation accepting smaller spatial gains that preserve defensive structure rather than pursuing maximum distance through compromising movements
-- **Error**: Failing to recognize when position requires multiple creation cycles
+- **Mistake**: Failing to recognize when position requires multiple creation cycles
   - **Consequence**: Abandoning escape attempt after single space creation proves insufficient rather than recognizing need for progressive development through repeated coordinated efforts
   - **Correction**: Accept that consolidated positions require multiple space creation cycles with reassessment between attempts, adjusting timing and method based on opponent's adaptations while maintaining systematic progressive approach
 
@@ -294,7 +294,7 @@ Creating Space represents the fundamental strategic principle of generating dist
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Resistance Space Development** (Focus: Technical precision in frame maintenance and hip escape coordination before introducing realistic pressure levels that test execution under difficulty)
 Partner begins with minimal pressure allowing focus on proper frame-hip coordination, gradually increasing resistance over weeks as mechanics improve, developing space creation capability under progressively realistic conditions.
 
@@ -319,7 +319,7 @@ From heavily consolidated positions, systematically create space through multipl
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Executes basic shrimping movements generating horizontal space from side control with cooperative resistance
 - Establishes simple arm frames preventing opponent's chest pressure from settling during static positions
@@ -361,7 +361,7 @@ From heavily consolidated positions, systematically create space through multipl
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Hip Escape Mechanics]] (Principle) - Primary movement pattern for horizontal space generation coordinated with frame maintenance
 - [[Frame Creation]] (Principle) - Foundational structure enabling space generation through barriers preventing pressure advancement
@@ -381,7 +381,7 @@ From heavily consolidated positions, systematically create space through multipl
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Creating space represents the fundamental biomechanical requirement underlying all defensive techniques, and I emphasize that technical knowledge without space creation capability remains purely theoretical rather than practically applicable under realistic conditions. The systematic development of space creation must progress from understanding proper frame construction using skeletal alignment rather than muscular effort, through coordinated frame-hip movement patterns that generate distance efficiently, to advanced timing recognition exploiting opponent's pressure transitions. The critical insight most practitioners miss is that space creation is not a strength-based endeavor but rather a technical timing-based skill requiring precise coordination between defensive structures and movement patterns. When teaching space creation, I focus extensively on the principle that frames and hip movement must occur simultaneously rather than sequentially, as sequential execution permits opponent to track and counter the movement before space materializes. The mastery of space creation distinguishes practitioners who can implement defensive techniques successfully against maximum resistance from those who understand escapes intellectually but fail under realistic pressure from larger, stronger opponents. Superior space creation capability derives from technical excellence in coordination, timing, and efficient movement rather than from physical attributes, making it accessible to practitioners of all sizes when developed systematically through proper progressive instruction.
 - **Gordon Ryan**: Creating space is an essential defensive skill that elite competitors execute unconsciously during escapes while less experienced practitioners often neglect it completely under pressure, defaulting instead to muscular resistance that accomplishes nothing except rapid exhaustion. The development of practical space creation capability requires training specifically under realistic pressure conditions including larger opponents providing maximum resistance, as compliant drilling creates false confidence that evaporates during actual competition. I focus particularly on progressive space development through multiple coordinated movements rather than attempting complete space generation through single large efforts that opponents easily anticipate and counter. The integration of space creation seamlessly with strategic defensive objectives demonstrates how proper space generation creates specific technical opportunities while inadequate space eliminates them regardless of technical knowledge. During extended competitive matches, space creation efficiency becomes a crucial advantage as movement economy determines sustainable defensive performance over time. The practical reality is that knowing escape techniques intellectually means nothing if you cannot create the necessary space for their execution, making space creation the actual limiting factor in defensive success for most intermediate competitors. Training space creation under fatigue conditions specifically prepares for late-match scenarios when technique must compensate for diminished physical capacity.
 - **Eddie Bravo**: Within the 10th Planet system, I've developed unique applications of space creation principles particularly for maintaining unconventional guard structures under pressure where traditional framing patterns prove insufficient for our specific positional requirements. When teaching space creation, I emphasize creative methods beyond conventional shrimping and bridging patterns, including using opponent's pressure against them through angle changes and rotational movements that generate space while improving position simultaneously. The integration of continuous space creation during active guard play rather than purely defensive applications during escapes represents a significant strategic shift, maintaining optimal distance that prevents opponent from settling into advantageous passing positions. Within lockdown and rubber guard systems specifically, proper space creation and maintenance enables the specific techniques these positions offer while inadequate space prevents their execution regardless of setup understanding. I focus extensively on developing space creation that functions within specific system contexts rather than generic application, as the spatial requirements for mission control differ significantly from traditional closed guard maintenance. The creative exploration of position-specific space creation methods often reveals innovative solutions invisible to practitioners trained exclusively in conventional approaches, particularly when dealing with opponents who understand and counter traditional space generation patterns effectively.

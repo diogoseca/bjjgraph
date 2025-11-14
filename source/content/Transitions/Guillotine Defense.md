@@ -8,7 +8,7 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
 
 
 
-> **Quick Answer**: Guillotine Defense transitions from [[Front Headlock]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Guillotine Defense transitions from [[Front Headlock]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jit
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Protect the neck immediately by creating chin-to-chest connection and hand frames
 - Alleviate choking pressure by addressing the fulcrum point (opponent's wrist/forearm)
 - Create space by stepping away from opponent's hips and maintaining proper distance
@@ -186,7 +186,7 @@ The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jit
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Recognition of guillotine threat before choke is fully locked (ideally)
 - Awareness of opponent's grip configuration (high elbow, arm-in, ten-finger, etc.)
 - Understanding of whether guillotine is from standing, guard, or half guard position
@@ -199,7 +199,7 @@ The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jit
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure chin protection**: Immediately tuck your chin to your chest and insert your near-side hand (same side as their choking arm) between your neck and their forearm. Create a protective frame by pressing your palm against their wrist or forearm, establishing a barrier between their choking pressure and your carotid arteries. This initial frame is critical for buying time to execute subsequent defensive steps. (Timing: Immediate reaction upon recognizing guillotine threat)
 2. **Address the fulcrum**: Use your framing hand to push down on opponent's wrist while simultaneously pulling your head backward and upward. The guillotine choke relies on a fulcrum point where their wrist contacts your neck - by controlling this point and changing the angle, you significantly reduce choking pressure. Focus on moving their wrist away from the center of your throat toward the side of your neck where the choke is less effective. (Timing: Within 1-2 seconds of initial frame)
 3. **Create hip distance**: Step your legs away from opponent's hips, creating maximum distance between your body and theirs. If standing, step backward while maintaining low posture. If on ground, extend your hips away and sprawl your legs back. This distance prevents them from using their hip as an additional fulcrum point and reduces their mechanical advantage significantly. Keep your weight on your toes if standing, ready to continue circling away. (Timing: Simultaneous with addressing the fulcrum)
@@ -213,7 +213,7 @@ The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jit
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent switches to high-elbow guillotine configuration mid-defense** (Effectiveness: High) - Your Response: Immediately adjust your frame to address the new fulcrum point at their elbow rather than wrist. Increase forward pressure and accelerate your circular motion toward the choking side. The high-elbow variation requires their arm to be more extended, which you can exploit by driving forward aggressively.
 - **Opponent pulls guard to secure guillotine from bottom** (Effectiveness: High) - Your Response: Do not follow them to the ground in their closed guard. Maintain standing posture, keep hips far away, and use gravity to your advantage by staying heavy on top. Stack them by driving your weight forward while maintaining your defensive frames. From here you can either continue the standing defense or carefully extract while preventing guard closure.
 - **Opponent transitions to arm-in guillotine trapping your defending arm** (Effectiveness: Medium) - Your Response: Recognize that arm-in guillotines change the defensive requirements. Focus on posture even more critically, keep your trapped elbow tight to your ribs, and drive your shoulder into their sternum. Circle away from the trapped arm side (opposite of standard defense direction). The arm-in variation is often less effective if you maintain rigid posture and don't allow them to break you down.
@@ -223,25 +223,25 @@ The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jit
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Pulling head straight back instead of addressing the fulcrum point
+## Common Mistakes
+- **Mistake**: Pulling head straight back instead of addressing the fulcrum point
   - **Consequence**: Actually tightens the choke by creating more pressure on the carotid arteries against opponent's forearm. This mistake causes many practitioners to tap when escape was still possible.
   - **Correction**: Push down on opponent's wrist/forearm while moving head at an angle - backward and to the side. Control the fulcrum point first, then extract the head using circular motion rather than straight pulling.
-- **Error**: Raising chin upward exposing more of the neck
+- **Mistake**: Raising chin upward exposing more of the neck
   - **Consequence**: Gives opponent access to deeper, tighter choke position. Transforms a defendable guillotine into a fight-ending submission within seconds.
   - **Correction**: Keep chin tucked to chest throughout entire defensive sequence. Think 'chin to chest' as a mantra. Only look up with your eyes, never by extending your neck.
-- **Error**: Jumping or pulling guard when opponent secures guillotine from standing
+- **Mistake**: Jumping or pulling guard when opponent secures guillotine from standing
   - **Consequence**: Voluntarily gives opponent their preferred position (guard with guillotine locked). Puts you in immediate danger of tapping with no escape route. This is one of the most common mistakes in competition.
   - **Correction**: Maintain standing base and use gravity to your advantage. Stay on top, create distance with hips, and defend from the superior position. Never give up top position when defending submissions.
-- **Error**: Using only explosive strength without technical precision
+- **Mistake**: Using only explosive strength without technical precision
   - **Consequence**: Wastes energy rapidly, doesn't address the actual mechanics of the choke, and often makes the position worse. Leads to exhaustion and forced tap even when escape was technically possible.
   - **Correction**: Execute defensive steps systematically and technically. Use strength to reinforce proper technique, not replace it. Controlled, precise movements are more effective than explosive thrashing.
-- **Error**: Ignoring opponent's free hand allowing grip adjustments
+- **Mistake**: Ignoring opponent's free hand allowing grip adjustments
   - **Consequence**: Opponent switches to more effective guillotine variations (high-elbow, arm-in, etc.) mid-escape, negating your defensive progress and forcing you to restart defense against a superior attack.
   - **Correction**: Always control opponent's non-choking hand with your far-side hand. Prevent grip changes by maintaining constant pressure on their free arm throughout the entire defensive sequence.
-- **Error**: Stopping defensive movement once initial pressure is relieved
+- **Mistake**: Stopping defensive movement once initial pressure is relieved
   - **Consequence**: Opponent re-establishes guillotine before you fully escape. Partial escapes often lead to re-attacks and eventual submission. Many practitioners stop defending too early.
   - **Correction**: Continue through all defensive steps until head is completely extracted and you've established dominant position. Don't stop until you're clearly safe and in top control.
 
@@ -250,7 +250,7 @@ The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jit
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Positional Awareness** - Recognition and framing fundamentals
 Partner applies guillotine at 30% pressure from various positions (standing, guard, half guard). Practice immediate chin tuck and hand frame insertion without any escape attempt. Focus solely on recognition speed and initial protective reaction. Hold defensive frame for 10 seconds, then reset. Goal is building muscle memory for immediate protective response.
 (Resistance: Light)
@@ -281,7 +281,7 @@ Full resistance guillotine defense during live rolling. Partner actively attempt
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standing Guillotine Defense**: Defense executed entirely from standing position without going to ground. Emphasizes maintaining base on feet, creating maximum hip distance by stepping backward, and using gravity to reduce opponent's leverage. Circle aggressively toward choking side while posting free hand on opponent's hip to prevent them pulling guard. (When to use: When opponent attacks guillotine from standing position in scramble or takedown attempt. Preferred variation when you have superior wrestling/takedown skills and want to maintain standing advantage.)
 
 **Guard-Based Guillotine Defense**: Defensive sequence when opponent has pulled guard with guillotine locked. Focus shifts to posture maintenance and stacking opponent's shoulders toward their hips. Drive weight forward through your trapped shoulder, keep hips far away, and work to open their guard while maintaining neck frames. Often involves clearing guard first before completing head extraction. (When to use: When opponent successfully pulls guard with guillotine secured. Essential variation for no-gi competition where guard pulls with guillotine are common defensive reactions to takedown attempts.)
@@ -323,7 +323,7 @@ Full resistance guillotine defense during live rolling. Partner actively attempt
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Guillotine defense carries inherent risks due to the nature of blood chokes affecting consciousness. Practitioners must tap immediately when defense is not working and consciousness begins fading - typically indicated by vision narrowing, hearing changes, or disorientation. Never sacrifice safety for ego when defending guillotines. Training partners must release pressure immediately upon tap signal. During progressive training phases, use agreed-upon pressure levels and provide verbal feedback about choking pressure. Neck cranking injuries are possible with violent guillotine attempts, so communicate clearly when opponent's technique is transitioning from choke to crank. Beginners should only practice against experienced partners who understand proper pressure application. Never practice full-pressure guillotine defenses without qualified supervision. Recognize that some guillotine positions are too deep to defend safely - tapping is always the correct decision when defense is failing. Long-term neck health requires respecting the submission and understanding when escape is no longer viable. Video analysis can help identify when you should have tapped earlier in training scenarios.
 
@@ -331,7 +331,7 @@ Guillotine defense carries inherent risks due to the nature of blood chokes affe
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Guillotine defense serves as a critical bridge technique connecting multiple positional scenarios throughout a match. The defensive sequence often begins from scrambles, failed takedown attempts, or transitions where opponent opportunistically secures front headlock control. Successful defense typically transitions to dominant top positions (side control, mount, or back control), making it both a defensive survival technique and an offensive position-gaining opportunity. Within the broader BJJ system, guillotine defense represents essential knowledge for anyone playing aggressive passing games, as passers frequently expose their necks when driving forward through guards. The technique integrates closely with front headlock escape systems, as guillotines are often the submission threat from front headlock positions. Understanding guillotine defense also informs your offensive guillotine game - knowing common defensive reactions allows you to counter them and improve finishing rates. In competition strategy, reliable guillotine defense enables more aggressive takedown attempts and guard passing without fear of the counter-attack. The position connects to wrestling-based systems where scrambles and front headlock situations occur frequently. For comprehensive defensive systems, guillotine defense pairs with triangle defense, armbar defense, and rear naked choke defense as the four most essential submission defenses to master early in training. Modern no-gi competition makes guillotine defense particularly critical, as statistical analysis shows guillotines among the top three most successful submissions at all belt levels in no-gi formats.
 
@@ -339,7 +339,7 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Guillotine Choke]] - Primary submission being defended - understanding offensive mechanics improves defensive success
 - [[Guillotine Variations]] - Different attacking variations require defensive adaptations
@@ -360,7 +360,7 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The guillotine choke represents one of jiu-jitsu's most interesting mechanical problems because its effectiveness relies entirely on the proper creation and maintenance of a fulcrum point against the neck. When we analyze guillotine defense from a systematic perspective, we must understand that the submission's power comes not from arm strength alone, but from the geometric relationship between the attacker's wrist, the defender's neck, and the attacker's hip position. The most common error in guillotine defense is treating it as a strength battle - attempting to simply pull the head out through brute force. This approach fails because you're fighting against mechanical leverage that vastly favors the attacker. Instead, effective defense requires disrupting the geometry of the choke by controlling the fulcrum point. When you push down on the opponent's wrist while simultaneously creating distance with your hips, you're not just reducing pressure - you're fundamentally changing the angle of force application against your neck. The choke requires a specific alignment to compress the carotid arteries; by controlling the wrist position and changing your body angle through circular movement, you make that alignment impossible to maintain. This is why we emphasize technical precision over explosive athleticism in guillotine defense - the solution is geometric, not strength-based.
 - **Gordon Ryan**: In competition, guillotines are one of the highest percentage submissions across all skill levels, which makes defense absolutely critical if you want to have an aggressive passing or takedown game. From my experience at the highest levels, the guillotine defense comes down to three things: immediate recognition, technical hand fighting, and refusing to give them the position they want. The moment someone gets their arm around my neck, I'm immediately addressing it - tucking my chin, getting my frame in, and creating distance with my hips. There's no waiting to see if it's tight or not. In ADCC and high-level no-gi, hesitation gets you tapped. The second key is hand fighting - I'm controlling their free hand the entire time because I know they want to adjust their grip to finish. If I let them switch to high-elbow or get a better configuration, my defense gets exponentially harder. Third, and this is crucial for competitors: never pull guard when someone has a guillotine on you from standing. I see this mistake constantly, even from good grapplers. They panic, pull guard, and basically give their opponent exactly what they wanted. Stay on top, use your weight, and make them work from the inferior position. When I defend guillotines, I'm not just trying to escape - I'm looking to end up in side control or mount. A successful defense should give you a positional advantage, not just survival.
 - **Eddie Bravo**: The guillotine is such a sick submission because it catches people in transitions, and that's where a lot of 10th Planet stuff lives - in those scrambles and weird positions. When I teach guillotine defense, I'm always emphasizing the mental game first. You've got to stay calm when someone locks that thing on because panic makes you do stupid stuff like pulling guard or yanking your head straight back, and both those reactions get you finished faster. What works in our system is addressing that choking arm immediately while creating maximum distance. We drill the hell out of the hip distance part because in no-gi, people are hitting guillotines from everywhere - failed takedowns, guard passes, even when you're trying to take the back. One thing we do different is we really focus on the circular motion part of the escape. It's not just creating space; it's moving in this arc toward their choking side while driving forward. That movement breaks their structure. Also, we always train both the standard defense and the arm-in defense separately because they're completely different animals. Arm-in guillotines require way more posture emphasis, and you're circling the opposite direction. We also look at the Von Flue counter opportunity - if you end up in side control and they're stubborn holding that guillotine, you might have a counter-choke available. The key is staying technical, staying calm, and understanding the mechanics of why the choke works so you can systematically break it down step by step.

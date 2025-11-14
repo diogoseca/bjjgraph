@@ -13,10 +13,6 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
 
 
 
-> **Quick Overview**: The Harness Position, also known as the Seat Belt or Seatbelt Control, is a fundamental back control configuration where the attacking practitioner secures one arm over the opponent's shoulder and the...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Strategically, the harness position serves as a transitional control point and a
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short to Medium | Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Long |
 
-**What Makes This Position Unique:** Seat belt grip prioritizes submission proximity
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Harness/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Harness/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Seat belt grip prioritizes submission proximity
 
 
 
@@ -88,10 +72,13 @@ Strategically, the harness position serves as a transitional control point and a
 
 <section id="bottom-summary" class="content-section">
 
-## Harness Bottom Perspective
+
+## Playing as Bottom
+
+[[Harness/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in harness must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in harness must focus on creating frames, protecting against s
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Reaching back or trying to grab opponent's head without controlling the choking arm first**
@@ -162,16 +149,17 @@ The bottom player in harness must focus on creating frames, protecting against s
   - ✅ Correction: Turn toward the under-hook side to disrupt opponent's alignment and create the most effective escape pathway
 
 
-👉 **[[Harness/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Harness Top Perspective
+
+## Playing as Top
+
+[[Harness/Top|→ Full Top Guide]]
 
 
-The top player in harness balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -220,7 +208,7 @@ The top player in harness balances control maintenance with submission attacks, 
   - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Crossing feet when both hooks are in**
@@ -251,8 +239,6 @@ The top player in harness balances control maintenance with submission attacks, 
   - Consequence: Gives opponent escape opportunities during transition, potentially losing a dominant 4-point position while attempting low-percentage submissions
   - ✅ Correction: First secure all control elements - both hooks in, tight seat belt grip, chest connection, proper head position - before initiating submission attacks
 
-
-👉 **[[Harness/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

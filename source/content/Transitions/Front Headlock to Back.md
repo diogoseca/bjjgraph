@@ -8,7 +8,7 @@ description: "Master Front Headlock to Back Take in BJJ. Complete guide from fro
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Front Headlock to Back Take in BJJ. Complete guide from fro
 
 
 
-> **Quick Answer**: Front Headlock to Back transitions from [[Front Headlock]] to [[Back Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
+> Front Headlock to Back transitions from [[Front Headlock]] to [[Back Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant downward pressure on opponent's head and neck throughout the transition
 - Use opponent's defensive turtle posture as the foundation for establishing back control
 - Progress systematically through control checkpoints rather than rushing to final position
@@ -184,7 +184,7 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Secure front headlock control with one arm around opponent's neck
 - Opponent in defensive turtle position or transitioning to turtle
 - Maintain head control with proper grip (gable grip, guillotine grip, or rear naked choke grip)
@@ -197,7 +197,7 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure front headlock control**: Establish a solid front headlock position with your choking arm wrapped around the opponent's neck. Your chest should be heavy on their upper back, and your hips should be loaded forward. Ensure your head is positioned on the opposite side of your choking arm to create proper angle and prevent opponent from rolling through. Your free hand should control their far arm or post on their hip for stability. (Timing: Initial control phase)
 2. **Circle toward choking arm side**: Begin circling your body toward the side of your choking arm while maintaining downward pressure on the opponent's head. This lateral movement creates the necessary angle to access their back. Take small shuffling steps with your feet while keeping your weight distributed forward. The opponent will typically follow this circle to maintain their base, inadvertently opening their back to your attack. (Timing: Continuous movement, 2-3 seconds)
 3. **Swim inside leg as first hook**: As you circle, bring your inside leg (the leg on the same side as your choking arm) underneath the opponent's near hip. Drive your knee forward and insert your foot as a hook on the inside of their thigh. Your shin should make contact with their inner thigh, and your foot should be active with toes flexed. Maintain head control throughout this insertion to prevent opponent from turning into you or escaping. (Timing: Mid-transition, coordinated with circling motion)
@@ -210,7 +210,7 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sits back into guard before hooks are established** (Effectiveness: High) - Your Response: Maintain front headlock control and use their backward movement to transition to guillotine choke or anaconda choke. Alternatively, step over into crucifix position if they expose their arm during the sit-back movement.
 - **Opponent rolls through the front headlock toward the choking arm** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining head control, transitioning to guillotine or anaconda choke during the roll. Use your body weight to control the direction of the roll and prevent them from coming on top. Land in closed guard with front headlock control maintained.
 - **Opponent stands up explosively before back control is established** (Effectiveness: Medium) - Your Response: Maintain front headlock grip and use their upward movement to establish standing back control or transition to standing guillotine. If one hook is already in, use it to climb onto their back in a standing position. Alternatively, use the standing position to set up takedown opportunities.
@@ -219,25 +219,25 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing front headlock control too early before hooks are established
+## Common Mistakes
+- **Mistake**: Releasing front headlock control too early before hooks are established
   - **Consequence**: Opponent escapes back to neutral position or reverses to top position, losing all positional advantage
   - **Correction**: Maintain front headlock grip until both hooks are securely in place and your chest is connected to opponent's back. Use the headlock as the anchor point for the entire transition.
-- **Error**: Attempting to insert both hooks simultaneously
+- **Mistake**: Attempting to insert both hooks simultaneously
   - **Consequence**: Opponent easily defends by sitting back or turning into you, resulting in failed transition and potential reversal
   - **Correction**: Insert hooks sequentially, establishing the first hook completely before attempting the second. The first hook provides the control necessary to safely establish the second.
-- **Error**: Insufficient circling motion toward choking arm side
+- **Mistake**: Insufficient circling motion toward choking arm side
   - **Consequence**: Unable to create proper angle for hook insertion, resulting in frontal wrestling position rather than back attack
   - **Correction**: Emphasize lateral circular movement with small shuffling steps. Your body should travel at least 90 degrees around the opponent before attempting first hook insertion.
-- **Error**: Weight distributed too far back on hips rather than forward
+- **Mistake**: Weight distributed too far back on hips rather than forward
   - **Consequence**: Opponent can easily stand up or roll through, escaping the front headlock control entirely
   - **Correction**: Keep weight loaded forward with chest pressure on opponent's upper back and shoulders. Hips should be thrust forward, not sitting back on heels.
-- **Error**: Loose or passive hooks after insertion
+- **Mistake**: Loose or passive hooks after insertion
   - **Consequence**: Opponent easily clears hooks and escapes to guard or reverses position
   - **Correction**: Immediately activate hooks after insertion with toes flexed and pulling motion toward centerline. Hooks should pull opponent backward into your control, not simply rest on their legs.
-- **Error**: Delaying seat belt grip establishment after releasing headlock
+- **Mistake**: Delaying seat belt grip establishment after releasing headlock
   - **Consequence**: Creates window for opponent to hand fight and establish defensive frames, making it difficult to secure back control
   - **Correction**: Transition from front headlock to seat belt control should be one continuous motion with no pause. Release headlock grip only as your arms move into harness position.
 
@@ -246,7 +246,7 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Positional Drilling** - Front headlock control and circling mechanics
 Partner starts in turtle position. Establish front headlock and practice circling motion toward choking arm side while maintaining downward pressure. Partner remains passive. Focus on footwork, weight distribution, and maintaining head control throughout circular movement. Complete 10 repetitions per side, alternating which arm is the choking arm.
 (Resistance: None)
@@ -277,7 +277,7 @@ Practice identifying front headlock opportunities during normal sparring, includ
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Inside Trip to Back Take**: Instead of purely circling to establish hooks, use an inside trip on opponent's near leg while circling. This destabilizes their base and makes hook insertion significantly easier. Your inside leg trips their near leg while you maintain front headlock control and continue circular motion. Particularly effective against opponents with strong turtle base who resist the circling motion. (When to use: When opponent maintains extremely strong base and resists circling motion, or when you need faster transition to back control)
 
 **Standing Front Headlock to Back Control**: Execute the transition from standing front headlock position rather than ground-based turtle attack. As opponent attempts to defend standing guillotine, use their defensive posture to climb onto their back while maintaining headlock control. Insert hooks while still upright, then drag opponent backward to seated or supine back control position. Common in no-gi and MMA contexts. (When to use: When opponent stands up from turtle or in standing front headlock scenarios, or when transitioning from failed takedown attempts)
@@ -315,7 +315,7 @@ Practice identifying front headlock opportunities during normal sparring, includ
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The front headlock to back take is generally a safe positional transition when practiced with proper control and awareness. Practitioners should maintain constant communication with training partners, especially during the early learning phases. The primary safety concern involves neck and spine safety during the front headlock control phase: excessive cranking or sudden jerking motions should be avoided, and pressure should be applied gradually and controlled. When the opponent attempts defensive rolls or explosive escapes, both practitioners must be aware of potential collision with the ground or mat boundaries. Partners should agree on intensity levels before drilling, particularly regarding how much resistance will be applied during the transition phases. As the technique often leads directly to back control and submission attempts (particularly the rear naked choke), practitioners should be well-versed in proper tapping protocols and immediately release all control when a tap is given. Beginners should work this transition under supervision to ensure proper mechanics and avoid developing bad habits that could lead to injury in live training.
 
@@ -323,7 +323,7 @@ The front headlock to back take is generally a safe positional transition when p
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The front headlock to back take serves as a critical connector in the overall BJJ positional hierarchy, bridging the gap between neutral or semi-dominant positions and the most dominant back control position. This technique represents the primary pathway for converting wrestling-based top control into BJJ's positional dominance structure. It integrates seamlessly with the broader front headlock system, which includes submissions (anaconda, darce, guillotine) and alternative positional advancements (crucifix, mount). The transition exemplifies the principle of systematic positional progression, requiring practitioners to move through defined control checkpoints rather than attempting to skip directly to final positions. Within competition strategy, this technique provides a reliable point-scoring sequence: establishing front headlock control, taking the back (4 points in IBJJF rules), and setting up back-attack submissions. The technique connects the standing game (via snap-downs and failed takedown defenses) to ground-based dominance, making it equally valuable for both gi and no-gi practitioners. Modern high-level grapplers often use this transition as the foundation for entire game plans, building offensive systems around front headlock control that seamlessly flow to back attacks and submissions.
 
@@ -331,7 +331,7 @@ The front headlock to back take serves as a critical connector in the overall BJ
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Snap Down to Front Headlock]] - Setup - Creates the initial front headlock position from standing
 - [[Turtle to Back Take]] - Alternative - Different approach to same objective from turtle position
@@ -349,7 +349,7 @@ The front headlock to back take serves as a critical connector in the overall BJ
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The front headlock to back take represents a perfect example of systematic positional progression through defined control checkpoints. The technique's effectiveness stems from its exploitation of geometric principles: by maintaining head control while circling toward the choking arm, you create an angle that makes back access inevitable if executed with proper mechanics. The critical understanding is that this is not a single explosive movement, but rather a systematic progression through stages—each stage providing the foundation for the next. The front headlock serves as your anchor throughout the transition, and you must maintain this anchor until alternative control structures (the hooks and seat belt) are fully established. Many practitioners fail this transition by releasing controls too early or attempting to skip intermediate positions. The shoulder-to-head connection must be maintained with constant pressure, preventing the opponent from creating space or changing levels. Your weight distribution is crucial: too far back and they stand, too far forward and they roll. The optimal distribution keeps them compressed in turtle while you systematically establish your back attack structure.
 - **Gordon Ryan**: In competition, the front headlock to back take is one of the highest-percentage transitions available because it combines wrestling control with BJJ positional dominance. I've used this transition to score countless back takes in ADCC and no-gi worlds because once you establish front headlock control on an opponent in turtle, they have very limited defensive options that don't play directly into your attack sequence. The key competitive insight is recognizing when opponents are most vulnerable: after failed takedown attempts, when defending guillotines, or when attempting to escape bottom positions. Your circling motion must be aggressive and continuous—any hesitation gives high-level opponents the window they need to stand or roll through. I always emphasize establishing the first hook deep and active immediately, using it as a control point to break down any remaining defensive structure before pursuing the second hook. Against elite competition, the transition from front headlock grip to seat belt must be instantaneous to prevent defensive hand fighting. This technique is particularly valuable in no-gi where grip limitations make other back takes less reliable.
 - **Eddie Bravo**: The front headlock to back take is fundamental in the 10th Planet system because it connects our wrestling-based top game directly to our back attack system, which we call the truck position and various modifications. What makes this transition beautiful is how it flows with the opponent's defensive energy rather than fighting against it. When they turtle to defend the guillotine or anaconda, they're literally giving you their back. The modification we emphasize is maintaining more of a spiral ride position during the transition, which gives you that extra control point through their far armpit. This prevents explosive athletes from standing up or rolling through during your back take. We also integrate the lockdown grip with one leg during the transition phase in certain situations, giving you a hybrid position between traditional back control and our lockdown system. The innovation here is recognizing that you don't always need both traditional hooks—sometimes one deep hook combined with alternative leg configurations provides superior control, especially against opponents who are familiar with standard back escape protocols. This transition also sets up our truck entries beautifully when opponents defend the standard back take.

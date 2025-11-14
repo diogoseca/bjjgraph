@@ -8,7 +8,7 @@ description: "{{ data.description }}"
 ---
 
 {# PostHog A/B Testing Metadata #}
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -31,7 +31,7 @@ description: "{{ data.description }}"
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -114,7 +114,7 @@ description: "{{ data.description }}"
   - defensive-responses: {{ priorities.get('defensive-responses', 'N/A') }}
   - counter-transitions: {{ priorities.get('counter-transitions', 'N/A') }}
   - decision-tree: {{ priorities.get('decision-tree', 'N/A') }}
-  - common-errors: {{ priorities.get('common-errors', 'N/A') }}
+  - common-mistakes: {{ priorities.get('common-mistakes', 'N/A') }}
   - training-drills: {{ priorities.get('training-drills', 'N/A') }}
   - optimal-submission-paths: {{ priorities.get('optimal-submission-paths', 'N/A') }}
   - position-metrics: {{ priorities.get('position-metrics', 'N/A') }}
@@ -234,7 +234,7 @@ description: "{{ data.description }}"
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

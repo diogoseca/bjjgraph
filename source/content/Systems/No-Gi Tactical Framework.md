@@ -151,7 +151,7 @@ description: "Complete strategic framework for no-gi grappling. Master body lock
 
 
 
-> **Quick Answer**: No-Gi Tactical Framework is a intermediate difficulty Competition Strategy system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> No-Gi Tactical Framework is a intermediate difficulty Competition Strategy system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Competition Strategy
@@ -170,7 +170,7 @@ The No-Gi Tactical Framework is a comprehensive strategic approach to Brazilian 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Control through body positioning and frames rather than gi grips
 - Maintain aggressive underhook and overhook battles in all positions
 - Prioritize back exposure and leg entanglement opportunities
@@ -184,7 +184,7 @@ The No-Gi Tactical Framework is a comprehensive strategic approach to Brazilian 
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Grip Fighting Without Fabric** (Establish control and dictate engagement without relying on gi fabric)
 In no-gi grappling, traditional collar and sleeve grips are replaced by wrist controls, underhooks, overhooks, and body locks. The grip fighting meta becomes centered around controlling the opponent's posture and limiting their ability to create frames. Practitioners must develop sensitivity to body lock opportunities, learn to fight for dominant head position, and understand when to abandon grip battles in favor of positional advancement. The reduced grip security means that static control is less viable, requiring constant pressure and readjustment to maintain dominant positions.
 
@@ -206,7 +206,7 @@ The reduced grip security in no-gi makes back control simultaneously more diffic
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Building**: Develop fundamental body awareness and control without gi grips
 Key points:
 - Practice maintaining base and posture without collar and sleeve grips
@@ -396,7 +396,7 @@ No-gi tactical development requires progressive drilling that builds from contro
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The fundamental difference between gi and no-gi grappling lies in the control hierarchy - where gi allows for grip-based static control, no-gi demands constant motion and pressure to maintain dominance. The tactical framework must recognize that position maintenance becomes exponentially more difficult without fabric manipulation, requiring practitioners to develop body-based controls through frames, underhooks, and body locks. The front headlock position emerges as perhaps the most critical control point in no-gi grappling because it combines submission threats, back exposure opportunities, and defensive utility against leg attacks. Modern no-gi also demands integration of leg entanglement systems not merely as supplementary techniques but as primary offensive weapons that create back exposure when opponents defend. The practitioner who understands these fundamental differences and builds position-specific systems accounting for reduced grip security will dominate those attempting to translate gi-based games without proper adaptation.
 - **Gordon Ryan**: In competition no-gi grappling, the game revolves around body lock battles, front headlock exchanges, and leg attack entries - everything else is secondary. When I approach no-gi matches, I'm constantly fighting for body lock position because it's the gateway to passes, back takes, and submission setups. The key tactical insight is recognizing that positions you can hold statically in the gi require constant pressure and readjustment in no-gi. I prioritize back attacks above all else because the positional dominance and submission rate from back control far exceeds other positions in no-gi. My leg attack game serves dual purposes: direct submissions when opponents don't defend properly, and back exposure when they do defend. The modern no-gi competitor must be comfortable in scrambles and transitions because the reduced grip security creates more dynamic exchanges. Train your body lock entries obsessively, develop an iron grip on the back, and integrate leg attacks as your primary guard-playing weapon.
 - **Eddie Bravo**: No-gi grappling represents the purest form of jiu-jitsu because it strips away the artificial handles provided by the gi and forces you to control through technique and body positioning. The 10th Planet system evolved specifically for no-gi contexts, emphasizing lockdown controls, rubber guard structures, and unique back take pathways that work without gi fabric. What's critical to understand is that no-gi demands more explosive athleticism and constant motion - you can't just grab a collar and park someone. The tactical framework needs to embrace creativity in transitions because standard gi-based sequences often fail when there's nothing to grip. I advocate for developing unconventional positions like the twister side control and truck because they create unique control points that don't rely on fabric. The leg attack revolution has proven what we've been saying for years - no-gi is its own art with its own meta-game, and trying to force gi techniques into no-gi contexts is strategically limiting.

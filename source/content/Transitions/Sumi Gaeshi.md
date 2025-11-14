@@ -8,7 +8,7 @@ description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, exe
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, exe
 
 
 
-> **Quick Answer**: Sumi Gaeshi transitions from [[Standing Position]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Sumi Gaeshi transitions from [[Standing Position]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create angular entry by stepping offline from opponent's centerline
 - Sacrifice your base completely when committing to the throw
 - Position lifting leg at opponent's hip or inner thigh, not knee
@@ -184,7 +184,7 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish strong grips on opponent (collar/sleeve, double underhooks, or belt grips)
 - Break opponent's posture forward or catch them leaning in
 - Create proper angle by stepping to the side (approximately 45 degrees)
@@ -197,7 +197,7 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips and break posture**: From standing, secure strong grips on your opponent's collar and sleeve (gi) or establish double underhooks (no-gi). Pull their upper body forward to break their posture and bring their weight toward you. Their chest should be leaning over their front foot. (Timing: Initial setup phase)
 2. **Create angle by stepping offline**: Step to the outside at approximately 45 degrees with your non-throwing leg. This lateral movement creates the angle necessary for the throw and positions you perpendicular to your opponent's forward momentum rather than directly in front of them. (Timing: As opponent steps forward or pressures in)
 3. **Position lifting leg at hip**: Raise your inside leg and place your foot firmly against your opponent's hip or inner thigh on the same side. The foot should be positioned high on the hip, not at the knee. Your toes should point slightly outward to create maximum leverage for the lifting motion. (Timing: Immediately after creating the angle)
@@ -210,7 +210,7 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls and widens base when they feel the angle creation** (Effectiveness: High) - Your Response: Switch to alternative sweep or takedown, or use their sprawl reaction to transition to single leg X-guard entry
 - **Opponent circles away from your lifting leg side** (Effectiveness: Medium) - Your Response: Follow their movement with your angle and re-establish the setup, or chain to opposite-side technique like ankle pick
 - **Opponent posts hand on mat during the throw** (Effectiveness: Medium) - Your Response: Continue rotation and attack the posted arm for kimura or use momentum to establish side control instead of mount
@@ -219,25 +219,25 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Placing lifting foot at opponent's knee instead of hip
+## Common Mistakes
+- **Mistake**: Placing lifting foot at opponent's knee instead of hip
   - **Consequence**: Insufficient leverage to complete the throw; opponent easily steps over or sprawls
   - **Correction**: Focus on foot placement at the hip crease or higher on the thigh. The higher the foot, the greater the leverage for the throw
-- **Error**: Failing to create proper angle before dropping
+- **Mistake**: Failing to create proper angle before dropping
   - **Consequence**: Opponent can easily base out or counter; technique becomes a weak pull guard
   - **Correction**: Commit to the lateral step that creates 45-degree angle. You should be perpendicular to their forward momentum
-- **Error**: Releasing grips during the throw
+- **Mistake**: Releasing grips during the throw
   - **Consequence**: Loss of control; opponent escapes to standing or lands in advantageous position
   - **Correction**: Maintain grip pressure throughout entire technique. Grips are what guide opponent over your center and allow you to follow
-- **Error**: Lifting straight up instead of circular motion
+- **Mistake**: Lifting straight up instead of circular motion
   - **Consequence**: Requires excessive strength; opponent can simply step forward over your leg
   - **Correction**: Execute circular arc with your lifting leg, combining upward and rotational motion. Think 'sweep overhead' not 'push up'
-- **Error**: Hesitating or dropping slowly to your back
+- **Mistake**: Hesitating or dropping slowly to your back
   - **Consequence**: Opponent has time to adjust base and counter; insufficient momentum generated
   - **Correction**: Commit fully and drop quickly. The speed of your sacrifice creates the momentum needed for the throw
-- **Error**: Not following through to top position
+- **Mistake**: Not following through to top position
   - **Consequence**: Land in bottom guard position instead of mount; waste the throwing opportunity
   - **Correction**: Continue your rotational motion by following opponent overhead. Keep grips and use momentum to come up on top
 
@@ -246,7 +246,7 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Body positioning and angle creation
 Practice the entry footwork and angle creation from standing position. Drill the dropping motion and leg placement without resistance. Partner holds grips but remains stationary. Focus on proper foot position at hip and clean backward fall.
 (Resistance: None)
@@ -273,7 +273,7 @@ Implement Sumi Gaeshi in live rolling and competition scenarios. Develop persona
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Butterfly Guard Sumi Gaeshi**: Execute the throw from seated butterfly guard position. Both hooks are in, grips established on upper body. Opponent stands or applies forward pressure. Drop to your back and use butterfly hook on throwing side as the lifting mechanism combined with second leg creating the angle. (When to use: When opponent stands in your butterfly guard or applies heavy forward pressure attempting to pass)
 
 **Tomoe Nage Hybrid**: Variation where lifting foot is placed on opponent's abdomen/belt line rather than hip. Creates more vertical throw trajectory. Particularly effective against bent-over posture or when opponent has strong hip positioning defense. (When to use: Against opponents who defend hip placement well or when working from lower grip positions)
@@ -313,7 +313,7 @@ Implement Sumi Gaeshi in live rolling and competition scenarios. Develop persona
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing Sumi Gaeshi, ensure adequate mat space exists behind you for the backward drop. The person being thrown must be comfortable with rotational breakfalls and overhead throws. Begin all training with slow, controlled repetitions with clear communication between partners. The thrower should maintain grip control throughout to guide the landing. Advanced practitioners must still exercise control to prevent dangerous spikes or uncontrolled landings. Avoid practicing on hard surfaces or when fatigued. Stop immediately if either partner experiences discomfort or uncertainty about the rotation.
 
@@ -321,7 +321,7 @@ When practicing Sumi Gaeshi, ensure adequate mat space exists behind you for the
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Sumi Gaeshi occupies a unique position in BJJ's tactical hierarchy, serving as both an offensive takedown and a defensive sweep. From standing, it provides an effective alternative to wrestling-based takedowns, particularly for practitioners who excel at guard play and sacrifice techniques. The throw integrates seamlessly with guard pulling strategies, as failed attempts naturally transition to butterfly or closed guard positions. From seated or butterfly guard, Sumi Gaeshi becomes a high-percentage sweep against opponents who stand or apply forward pressure. It connects to the broader family of sacrifice techniques including Tomoe Nage and Yoko Tomoe Nage, forming a system of related throws. Defensively, Sumi Gaeshi variations can counter single leg attacks and aggressive forward pressure. Modern competitors often use it as part of guard pull sequences, creating uncertainty about whether they're pulling guard or executing a throw.
 
@@ -329,7 +329,7 @@ Sumi Gaeshi occupies a unique position in BJJ's tactical hierarchy, serving as b
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Tomoe Nage]] - Related sacrifice throw with foot on abdomen rather than hip
 - [[Butterfly Sweep]] - Uses similar elevation mechanics from butterfly guard position
@@ -349,7 +349,7 @@ Sumi Gaeshi occupies a unique position in BJJ's tactical hierarchy, serving as b
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Sumi Gaeshi represents one of the most elegant applications of leverage and angular momentum in grappling. The technique's effectiveness stems from its ability to redirect force rather than oppose it directly. When executed with proper angle creation and foot placement at the hip, the mechanical advantage becomes so pronounced that size and strength disparities become largely irrelevant. The critical insight is understanding that this is fundamentally a circular throw, not a lifting motion. Your lifting leg creates an arc, while your grips pull opponent's upper body over your center of gravity. The timing must be precise: commit to the drop at the moment opponent's weight is forward on their lead foot. Hesitation destroys the technique. From a systems perspective, Sumi Gaeshi integrates beautifully with guard-based attacks, as any defensive reaction naturally places you in guard position with maintained grips. This makes it lower risk than conventional takedowns where failed attempts often result in scrambles or opponent's top position.
 - **Gordon Ryan**: I use Sumi Gaeshi primarily as a guard sweep rather than a standing takedown in competition. When guys stand in my butterfly guard, especially if they're trying to back step or disengage, Sumi Gaeshi is one of my highest percentage sweeps. The key is not telegraphing it. I'll threaten other attacks first, get them reacting, then hit the Sumi Gaeshi when their weight shifts forward. The timing is everything - you can't force it. Wait for them to give you their weight. From standing, I like it less because there's more risk if it fails, but it's money when someone's pressuring forward hard and you catch them overcommitted. The double underhook variation in no-gi is particularly high percentage because you have strong control and can feel their weight distribution clearly. After landing the throw, don't just sit in mount - immediately secure position, get underhooks, and start attacking. The throw itself is just the entry to your top game.
 - **Eddie Bravo**: Sumi Gaeshi fits perfectly into the 10th Planet system, especially from butterfly guard. We teach it early because it's one of those techniques that doesn't require you to be super athletic or strong - it's all about timing and angle. What I love about it is how it chains with other stuff. If they defend the Sumi Gaeshi, you can often hit the regular butterfly sweep on the other side, or if they really sprawl hard, transition to the truck or other back attacks. We also use it as a takedown counter when people shoot singles - the angle is already there, you just need to secure the overhook and execute. In no-gi, the double underhook version is crucial because it gives you that body control you lose without the gi grips. Practice it until the angle creation becomes automatic. Most people fail this technique because they drop straight back instead of creating that 45-degree angle first. Once you get the angle down, this becomes one of your go-to moves from butterfly and standing.

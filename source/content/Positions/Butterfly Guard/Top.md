@@ -8,7 +8,7 @@ description: "Navigate Butterfly Guard Top in BJJ. Strategic passing vs dynamic 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Navigate Butterfly Guard Top in BJJ. Strategic passing vs dynamic 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Navigate Butterfly Guard Top in BJJ. Strategic passing vs dynamic 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 25% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 25%.
 
 ---
 
@@ -193,7 +193,7 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent has both hooks inserted under your thighs with insteps or balls of feet making contact against your inner thighs, creating elevation threat
 - Opponent maintains seated upright position with active core, preventing you from applying effective downward pressure to flatten them
@@ -205,7 +205,7 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Strong base and balance fundamentals to resist off-balancing attempts and maintain stability under elevation pressure
 - Understanding of grip fighting principles to prevent opponent from establishing dominant upper body control
@@ -233,7 +233,7 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Butterfly Pass]] → [[Side Control]]
 
@@ -304,7 +304,7 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Butterfly Sweep]]** → [[Mount]] (Opponent Success: 55%)
 - **[[Elevator Sweep]]** → [[Mount]] (Opponent Success: 52%)
@@ -318,7 +318,7 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Butterfly Pass]]** → [[Side Control]]
   - Opponent commits to sweep attempt and temporarily loses base, creating passing window
@@ -365,7 +365,7 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master the Kimura shoulder lock in BJJ. Safety guide with setup, e
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Kimura shoulder lock in BJJ. Safety guide with setup, e
 
 
 
-> **Quick Answer**: Kimura is a shoulder lock targeting the Shoulder joint, rotator cuff, and shoulder capsule. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kimura is a shoulder lock targeting the Shoulder joint, rotator cuff, and shoulder capsule. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kimura Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -216,7 +216,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Figure-four grip integrity: Lock your own wrist with palm-to-palm contact, creating an unbreakable frame that cannot be hand-fought
 - Elbow isolation and pinning: Control opponent's elbow close to your body or pinned to the mat to prevent arm straightening escapes
 - Shoulder rotation mechanics: The submission comes from rotating the shoulder joint, not pulling the arm - move perpendicular to the arm
@@ -230,7 +230,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish dominant position with significant control (side control, mount, or guard with breaking posture)
 - Isolate one of opponent's arms away from their body or defending position
 - Secure proper figure-four grip with your palm against your own wrist (not grabbing your gi or their gi)
@@ -244,7 +244,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish control position and arm isolation**: From dominant position (side control, mount, or guard), identify the near arm you will attack. Control opponent's wrist with your same-side hand, preventing them from framing or defending. Use your body weight and positioning to prevent their escape while isolating this arm from their other defensive tools. (Timing: Take 2-3 seconds to establish solid control) [Pressure: Moderate]
 2. **Thread your other arm under opponent's isolated arm**: Slide your opposite hand under their tricep area, threading it through the space between their arm and body. Your hand should emerge on the far side of their arm, reaching toward where you will establish the grip. Keep their elbow close to your body during this threading motion to prevent them from straightening their arm as a defense. (Timing: 1-2 seconds for threading motion) [Pressure: Light]
 3. **Complete the figure-four grip**: Grab your own wrist with the hand that threaded under their arm, creating a figure-four configuration. The grip should be palm-to-palm or palm-to-wrist - never grip your own gi or their gi. Ensure the grip is tight and secure before applying any pressure. Their arm should be bent at approximately 90 degrees with their hand pointed toward their own head or shoulder. (Timing: 1-2 seconds to secure grip properly) [Pressure: Firm]
@@ -258,7 +258,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Grabbing own belt or gi pants to prevent rotation** (Effectiveness: High) - Your Adjustment: Do not fight the grip war. Instead, use the Kimura control to transition: roll them over for back take, switch to armbar by stepping over the head, or use it to advance position to mount. The belt grab prevents the finish but creates other opportunities.
 - **Straightening the arm completely to remove bend at elbow** (Effectiveness: High) - Your Adjustment: This defense defeats the Kimura mechanically. Prevent it by keeping their elbow pinned close to your body or the mat. If they succeed in straightening, transition to different attacks like wrist locks, or re-establish elbow bend by using your body weight to fold their arm.
 - **Rolling forward into the lock to relieve shoulder pressure** (Effectiveness: Medium) - Your Adjustment: Anticipate the roll and follow them through, maintaining the grip and control. Their roll often gives you their back - maintain the Kimura grip and establish back control with seat belt. Alternatively, use their momentum to sweep them if you're on bottom.
@@ -268,28 +268,28 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Yanking or spiking the submission quickly without progressive pressure [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Yanking or spiking the submission quickly without progressive pressure [CRITICAL DANGER]
   - **Consequence**: Severe shoulder injury to partner, potential rotator cuff tear or dislocation without time to tap
   - **Correction**: Always apply rotation slowly over 3-5 seconds minimum in training. The submission should feel like inevitable increasing pressure, not a sudden spike. Partner must have time to recognize danger and tap safely.
-- **Error**: Failing to control the elbow, allowing opponent to straighten arm [Low DANGER]
+- **Mistake**: Failing to control the elbow, allowing opponent to straighten arm [Low DANGER]
   - **Consequence**: Complete loss of submission leverage as the arm-straightening defense neutralizes the shoulder rotation
   - **Correction**: Pin the elbow tight to your body or to the mat using your chest. The elbow must remain bent and immobilized for the Kimura to function. Treat elbow control as equally important as the grip itself.
-- **Error**: Using incorrect grip: grabbing your own gi, their gi, or interlocking fingers [Low DANGER]
+- **Mistake**: Using incorrect grip: grabbing your own gi, their gi, or interlocking fingers [Low DANGER]
   - **Consequence**: Weak control that can be broken through hand fighting, loss of leverage and pressure
   - **Correction**: Always use palm-to-palm or palm-to-wrist grip on your own wrist. This creates a frame that cannot be broken by hand fighting. Practice the grip in isolation until it becomes automatic.
-- **Error**: Pulling the arm away from their body instead of rotating the shoulder [Medium DANGER]
+- **Mistake**: Pulling the arm away from their body instead of rotating the shoulder [Medium DANGER]
   - **Consequence**: Ineffective pressure on shoulder joint, easily defended, and potential for you to lose position
   - **Correction**: The submission comes from rotation perpendicular to their arm, not from pulling it. Keep their elbow close and rotate their hand toward their back or opposite hip. Think circular motion, not linear pulling.
-- **Error**: Losing hip connection, allowing opponent to create space and roll [Low DANGER]
+- **Mistake**: Losing hip connection, allowing opponent to create space and roll [Low DANGER]
   - **Consequence**: Opponent escapes via forward roll or creates enough space to remove your grips
   - **Correction**: Maintain constant hip pressure against opponent's body. Your weight should prevent them from creating the space needed to roll or escape. Keep your base wide and hips heavy throughout the finish.
-- **Error**: Applying submission while opponent cannot tap (both hands trapped) [CRITICAL DANGER]
+- **Mistake**: Applying submission while opponent cannot tap (both hands trapped) [CRITICAL DANGER]
   - **Consequence**: Partner suffers injury because they physically cannot signal submission even if they want to
   - **Correction**: Always ensure opponent has at least one hand free to tap before applying finishing pressure. This is a fundamental safety principle. If both arms are trapped, establish control but do not finish until they can tap.
-- **Error**: Forcing the finish against belt or gi grip defense [Low DANGER]
+- **Mistake**: Forcing the finish against belt or gi grip defense [Low DANGER]
   - **Consequence**: Frustration, wasted energy, and missed opportunities for better positions or transitions
   - **Correction**: Recognize when opponent has successfully defended the finish. Use the Kimura grip for control and transition to back takes, sweeps, or alternative submissions. The grip is valuable even without the finish.
 
@@ -298,7 +298,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Kimura from Closed Guard**: Opponent postures in your closed guard. Break their posture by pulling their head down and attacking the posting arm. Secure the Kimura grip and either finish by opening your guard and rotating, or use the grip to sweep them over your shoulder. (When to use: When opponent posts their hand on the mat or reaches for grips, exposing their arm)
 
 **Kimura from Side Control**: Classic position for Kimura. Opponent's near arm is isolated as they frame or attempt to escape. Slide your under-arm through, secure the grip, and rotate their hand toward their back while maintaining chest pressure. (When to use: Most common and highest percentage position when opponent frames with near arm)
@@ -354,7 +354,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Grip Mastery** (Weeks 1-2)
 - Focus: Learn proper figure-four grip, hand positioning, and basic body mechanics without any shoulder rotation. Practice threading the arm and establishing grips on compliant partners. Study shoulder anatomy and injury mechanisms. Understand all tap signals and release protocols.
 - Resistance: Zero resistance
@@ -391,7 +391,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[Mount]]
@@ -409,7 +409,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Armbar from Side Control]]
 - [[Armbar from Mount]]
@@ -452,7 +452,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Kimura represents one of the most mechanically sound joint locks in grappling because it leverages the figure-four grip structure to create overwhelming force multiplication against the shoulder joint's weakest plane of motion. The key to understanding the Kimura systematically is recognizing that it functions on three distinct levels: first as a submission that attacks the rotator cuff and shoulder capsule through internal rotation; second as a control position that dominates the opponent's upper body and posture through grip-based manipulation; and third as a transitional tool that creates pathways to superior positions, particularly back control. The most common error I observe is practitioners treating the Kimura purely as a submission when in reality, the grip itself provides such dominant control that the submission becomes almost secondary to the positional advantages it creates. From a safety perspective, the shoulder joint is particularly vulnerable to rotational stress, and the Kimura must be applied with progressive pressure over several seconds in training. The rotator cuff muscles tear easily under sudden load, and shoulder dislocations from improper application can require surgical intervention. I emphasize to my students that competition application differs dramatically from training application - in training, you must give your partner adequate time to recognize danger and tap, typically 3-5 seconds minimum of progressive rotation.
 - **Gordon Ryan**: The Kimura is one of my highest percentage techniques because it works at every level of competition and against every body type when executed with proper timing and pressure. What makes it so effective in competition is that opponents must respect the submission threat even if they're defending it successfully, which opens up back takes and position advancement. I use the Kimura grip constantly as a control position - even when I know I won't finish the submission, the grip allows me to manipulate my opponent's entire upper body and prevent their defensive frames. The key difference between training and competition is application speed: in competition, once I have the position secured, I'm finishing it as fast as technically possible to prevent escapes; in training, I'm applying it slowly over 3-5 seconds minimum because shoulder injuries end careers and I need healthy training partners. I've seen too many training room injuries from people spiking Kimuras, and it's completely unnecessary - if you have the position, you don't need to rush it in training. The belt grip defense is the most common at high levels, and when someone gets it, I immediately transition rather than fighting a grip war - usually I'll take their back or advance to mount using the Kimura control. The technique has won me matches at every level from purple belt to black belt worlds, which proves its effectiveness when you drill the entries, recognize the opportunities, and maintain relentless pressure once you have the grip.
 - **Eddie Bravo**: The Kimura is fundamental to the 10th Planet system because we've built entire positions around that grip structure - the Kimura Trap being the most obvious example where we create a control position specifically to hunt the Kimura while threatening sweeps and back takes simultaneously. What I love about the Kimura is its versatility in no-gi grappling where you don't have collar grips to rely on - the figure-four on the wrist gives you the same level of control that gi grips provide, making it essential for no-gi competition. We drill Kimuras from every position including inverted guard, rubber guard transitions, and truck positions where most people don't even look for it. The innovation in our system comes from recognizing that the Kimura grip can be established in scrambles and transitions, not just from static positions. Safety-wise, we're extremely careful with shoulder locks at 10th Planet because we've all had shoulder injuries and know how devastating they are. I tell students that in training, the Kimura should feel like slow, increasing pressure where your partner has time to tap three times over before anything bad happens. In competition, it's a different story - you secure it and finish it fast. But in the training room, we're building each other up, not tearing each other down, so slow, controlled application is non-negotiable. The creativity with Kimuras is endless - we're constantly finding new entries from positions like dogfight, lockdown, and even inverted positions. It's a submission that rewards innovation while still maintaining its effectiveness through fundamental mechanical principles.

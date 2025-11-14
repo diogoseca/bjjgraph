@@ -8,7 +8,7 @@ description: "Master mount escape decision-making in BJJ. Learn systematic frame
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master mount escape decision-making in BJJ. Learn systematic frame
 
 
 
-> **Quick Answer**: Mount Escape Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Mount Escape Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Mount Escape Hierarchy represents a systematic framework for prioritizing defens
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Prevent positional advancement before attempting escapes - stop transitions to high mount, S-mount, or technical mount as first priority
 - Establish defensive frames as foundation for all escape attempts - elbow-knee connection and frames create the structure necessary for movement
 - Prioritize escapes based on opponent's weight distribution and control points rather than personal preference
@@ -181,7 +181,7 @@ Mount Escape Hierarchy represents a systematic framework for prioritizing defens
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Positional Assessment Under Pressure**: The ability to rapidly evaluate which mount variation the opponent has achieved, their weight distribution, and which control points they have secured. This includes recognizing early warning signs of transitions to more dominant mount positions and understanding which defensive windows are currently available based on the opponent's positioning.
 
 **Frame Construction and Maintenance**: Creating and maintaining proper defensive frames using elbow-knee connections, forearm structures against the opponent's hips and torso, and the ability to preserve these frames even under heavy pressure. This includes understanding when to adjust frame angles and when to sacrifice one frame to establish another.
@@ -204,7 +204,7 @@ Mount Escape Hierarchy represents a systematic framework for prioritizing defens
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Escape Hierarchy]]** (Extension): Mount Escape Hierarchy represents a position-specific application of the broader Escape Hierarchy concept, focusing specifically on the unique challenges and options available when defending mount positions
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding the overall positional hierarchy is essential for recognizing why mount escapes must be prioritized and why preventing advancement to higher mount variations takes precedence over immediate escape attempts
 - **[[Frame Creation]]** (Prerequisite): Proper frame construction is the mechanical foundation upon which all mount escapes are built - without effective framing, escape attempts become purely strength-based and low-percentage
@@ -223,7 +223,7 @@ Mount Escape Hierarchy represents a systematic framework for prioritizing defens
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Primary application environment - hierarchy dictates whether to attempt bridge-and-roll, elbow escape, or frame-based recovery based on opponent's weight distribution and control security
 
 **High Mount**: Highest priority becomes preventing grapevine or arm isolation - hierarchy shifts to emphasize elbow protection and creating space to descend back to standard mount before attempting full escapes
@@ -254,7 +254,7 @@ Mount Escape Hierarchy represents a systematic framework for prioritizing defens
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess Current Mount Variation and Advancement Threats**: Immediately identify whether opponent has standard mount, high mount, S-mount, or technical mount. Recognize if they are actively transitioning to more dominant positions. If advancement is imminent, prioritize preventing that transition over attempting escapes from current position.
 2. **Evaluate Frame Integrity and Establish Defensive Structure**: Check if elbow-knee connection exists and if forearm frames against opponent's hips are established. If frames are compromised, prioritize frame recovery before attempting explosive escape movements. Use minor shrimps and adjustments to improve frame position without full escape commitment.
 3. **Identify Opponent's Weight Distribution and Base Strength**: Determine if opponent's weight is centered, shifted forward toward head, or back toward hips. Assess if their base is wide and stable or if weight is concentrated on specific points. This assessment determines which escape pathway has highest success probability.
@@ -267,28 +267,28 @@ Mount Escape Hierarchy represents a systematic framework for prioritizing defens
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting Same Escape Repeatedly Without Adjusting Based on Opponent's Defense
+## Common Mistakes
+- **Mistake**: Attempting Same Escape Repeatedly Without Adjusting Based on Opponent's Defense
   - **Consequence**: Wastes energy on low-percentage attempts that opponent has already demonstrated ability to defend, while missing opportunities to try alternative escapes that might be more effective against their specific defensive structure
   - **Correction**: After each failed escape attempt, reassess which aspect of the hierarchy has changed - has opponent's weight shifted, have new frames become available, are different escape windows now open? Adjust escape selection based on current reality rather than predetermined preference.
-- **Error**: Abandoning All Frames Simultaneously During Explosive Escape Attempts
+- **Mistake**: Abandoning All Frames Simultaneously During Explosive Escape Attempts
   - **Consequence**: Creates complete vulnerability if escape fails, allowing opponent to advance to high mount, S-mount, or secure submissions. Makes recovery extremely difficult and energy-expensive after the explosive attempt fails
   - **Correction**: Maintain at least one frame throughout all escape attempts, typically the frame furthest from the direction of escape movement. If attempting elbow escape to the right, maintain left forearm frame against opponent's right hip until new position is secured.
-- **Error**: Flat Hip Positioning Without Creating Any Angle During Defense
+- **Mistake**: Flat Hip Positioning Without Creating Any Angle During Defense
   - **Consequence**: Remaining completely flat makes all escapes exponentially harder by eliminating hip mobility and space creation. Allows opponent to distribute weight perfectly and maintain maximum control with minimal effort
   - **Correction**: Even under heavy pressure, work to create slight hip angles through micro-shrimps and small bridging movements. These minor adjustments accumulate to create escape opportunities and prevent opponent from achieving perfectly static control.
-- **Error**: Prioritizing Full Guard Recovery Over Accepting Half Guard or Turtle
+- **Mistake**: Prioritizing Full Guard Recovery Over Accepting Half Guard or Turtle
   - **Consequence**: Missing opportunities to escape to inferior but acceptable positions, leading to extended time under mount and increased submission risk. Exhausting energy trying to achieve perfect outcome when incremental improvement is available
   - **Correction**: Recognize half guard, quarter guard, and even turtle as valuable intermediate positions during mount escapes. Accept these positions when available, then work subsequent escapes from improved starting point rather than remaining under full mount indefinitely.
-- **Error**: Attempting Bridge-and-Roll Against Opponent With Wide Base and Low Weight
+- **Mistake**: Attempting Bridge-and-Roll Against Opponent With Wide Base and Low Weight
   - **Consequence**: Bridge-and-roll requires opponent's weight to be high and base to be narrow - attempting against wide, low base results in failed escape that leaves defender exhausted and potentially more vulnerable to attacks
   - **Correction**: Assess opponent's base width and weight distribution before selecting escape. Reserve bridge-and-roll for situations where opponent is reaching forward or has narrow base. Against wide base, prioritize elbow escape or frame-based recovery.
-- **Error**: Purely Defensive Mindset Without Integrating Any Offensive Threats
+- **Mistake**: Purely Defensive Mindset Without Integrating Any Offensive Threats
   - **Consequence**: Allows opponent to focus entirely on maintaining control and advancing position without any defensive concerns. Makes it easy for opponent to settle into perfect weight distribution and work toward submissions methodically
   - **Correction**: Integrate hand fighting, pushing on opponent's face, controlling their wrists, and creating minor offensive concerns even while defending. These actions limit opponent's ability to establish ideal control and create reactive movements that open escape windows.
-- **Error**: Failing to Recognize and Prevent Mount Advancement Early
+- **Mistake**: Failing to Recognize and Prevent Mount Advancement Early
   - **Consequence**: Allowing opponent to advance to high mount, S-mount, or technical mount before attempting prevention, making escapes significantly more difficult and energy-intensive from these superior positions
   - **Correction**: Develop early recognition of mount advancement patterns - opponent scooting hips forward, isolating arms, or establishing grapevines. React immediately to prevent these transitions rather than waiting until they are fully established.
 
@@ -297,7 +297,7 @@ Mount Escape Hierarchy represents a systematic framework for prioritizing defens
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Sparring from Mount with Timed Escape Goals** (Focus: Develops timing awareness, energy management, and realistic assessment of what constitutes progress during escapes. Builds understanding of hierarchical progression from worse to better positions.)
 Start under mount with specific time goals for achieving different levels of escape success. For example, establish frames within 10 seconds, create hip space within 30 seconds, achieve half guard within 60 seconds. Partner maintains mount but allows realistic defensive work.
 
@@ -322,7 +322,7 @@ Live sparring specifically restarted from mount position repeatedly, with defend
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes basic difference between standard mount and high mount positions
 - Can establish elbow-knee connection and basic forearm frames under moderate pressure
@@ -370,7 +370,7 @@ Live sparring specifically restarted from mount position repeatedly, with defend
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Escape Hierarchy]] (Principle) - Parent concept - Mount Escape Hierarchy is position-specific application of broader escape framework
 - [[Mount]] (Position) - Primary application position where hierarchy is most directly applied
@@ -390,7 +390,7 @@ Live sparring specifically restarted from mount position repeatedly, with defend
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The mount escape hierarchy is fundamentally about structural problem-solving rather than athletic scrambling. Most practitioners approach mount defense as a test of will and explosiveness, attempting whichever escape they prefer without systematic assessment of which escape has the highest probability of success given the current structural dynamics. This approach wastes energy and creates vulnerability. Instead, we must understand that different mount variations present different structural problems requiring different solutions. The hierarchy begins with prevention - stopping transitions to high mount, S-mount, or technical mount is always more efficient than escaping from those positions once established. Second priority is frame establishment, particularly the elbow-knee connection that creates the fundamental structure from which all escapes originate. Only after these foundational elements are addressed do we select specific escape pathways, and this selection must be based on the opponent's weight distribution, base structure, and control security. A systematic practitioner assesses these factors in real-time and selects the escape with the highest probability of success rather than defaulting to personal preference. This hierarchical thinking transforms mount defense from desperate struggle into calculated problem-solving, dramatically improving escape success rates while conserving energy for subsequent positions.
 - **Gordon Ryan**: In competition, mount escapes are about creating micro-spaces and exploiting weight shifts rather than explosive scrambling. The hierarchy I use prioritizes preventing the opponent from settling into their ideal control position before they fully establish it. Most people wait until mount is completely locked in, then try to explode out - this is the lowest percentage approach. Instead, I'm creating small frames and spaces from the moment the mount transition begins, never allowing the opponent to achieve perfect weight distribution. The decision framework is simple: if their weight is high, I'm immediately looking for trap-and-roll opportunities because their base is compromised. If their weight is centered and heavy, I accept that elbow escape through progressive hip movement is the most reliable path, and I commit to creating small spaces systematically rather than trying to generate large spaces explosively. What separates high-level mount defense from beginner defense is the ability to feel when the opponent's weight shifts even slightly - maybe they're reaching for a collar grip or adjusting their base - these micro-moments are when escape attempts have the highest success rate. The hierarchy also includes accepting intermediate positions like half guard or quarter guard as victories rather than failures. Getting to half guard from mount is progress, and trying to skip that step to achieve full closed guard often results in staying under mount longer or getting caught in submissions.
 - **Eddie Bravo**: In the 10th Planet system, we've developed mount escape approaches that integrate more dynamic movement and scramble creation than traditional systems. The hierarchy isn't just about which escape has the highest success rate in isolation - it's about which escape creates the most offensive opportunities even if the escape itself partially fails. For example, when attempting certain escape variations, we're simultaneously setting up leg entanglement positions or back attack opportunities that materialize if the opponent defends the initial escape aggressively. This creates multiple win conditions from the same movement sequence. The concept of 'active defense' is critical here - we're never purely defensive under mount. Even while working escapes, we're attacking grips, creating hand fighting situations, and threatening minor submissions that prevent the opponent from establishing their ideal control. This active approach forces opponents to make defensive decisions that open better escape windows. The hierarchy also includes unconventional options like inverting or creating scrambles that might look risky but can be higher percentage against certain opponent types, especially those who rely heavily on static control. Understanding when to deviate from traditional hierarchy based on opponent patterns and scrambling ability is an advanced application of the hierarchical thinking - you need to know the standard hierarchy deeply before you can intelligently break from it.

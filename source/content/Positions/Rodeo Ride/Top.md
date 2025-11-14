@@ -8,7 +8,7 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 45% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 45%.
 
 ---
 
@@ -191,7 +191,7 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner positioned on opponent's side or back with hips loaded on opponent's torso between their shoulder and hip, maintaining dynamic weight distribution that shifts responsively with opponent movement while preventing them from flattening completely or achieving standing position
 - Control established through asymmetric gripping pattern where top practitioner controls near-side arm (wrist, elbow, or shoulder control) while maintaining collar, neck control, or far-side grip to prevent opponent rotation and create attack opportunities
@@ -204,7 +204,7 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent must be in defensive turtle position with hands and knees on mat
 - Top practitioner must establish initial control over opponent's upper body, near arm, or collar
@@ -231,7 +231,7 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Turtle to Back Take]] → [[Back Control]]
 
@@ -309,7 +309,7 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Turtle to Guard]]** → [[Closed Guard]] (Opponent Success: 30%)
 - **[[Technical Stand-up]]** → [[Standing Position]] (Opponent Success: 25%)
@@ -323,7 +323,7 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Take Generic]]** → [[Back Control]]
   - Opponent attempts to sit back to guard or creates space between hips and mat
@@ -373,7 +373,7 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

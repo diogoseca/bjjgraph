@@ -137,7 +137,7 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
 
 
 
-> **Quick Answer**: Marcelo Garcia Guillotine System is a intermediate difficulty Submission Chain system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Marcelo Garcia Guillotine System is a intermediate difficulty Submission Chain system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Submission Chain
@@ -156,7 +156,7 @@ Marcelo Garcia's guillotine system represents one of the most refined and effect
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - High elbow positioning creates maximum choking pressure while preventing opponent's defensive hand insertion
 - Grip connection must be established before committing to the submission attempt
 - Hip positioning determines finishing success - closed guard, mount, or standing variations each require specific hip mechanics
@@ -170,7 +170,7 @@ Marcelo Garcia's guillotine system represents one of the most refined and effect
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **High Elbow Guillotine Grip** (Primary finishing grip that generates maximum choking pressure with minimal strength expenditure)
 The foundational grip positions the choking arm's elbow high on the opponent's shoulder line while the hands connect in front of the chest. This configuration maximizes pressure on the carotid arteries while creating a wedge that prevents defensive hand insertion. The non-choking hand reinforces the connection and allows for hip adjustments during the finish.
 
@@ -192,7 +192,7 @@ The guillotine grip from closed guard creates powerful sweep mechanics by combin
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Entry Recognition and Grip Establishment**: Develop recognition patterns for guillotine opportunities across positions - opponent shooting takedowns, lowering head during passing, or exposing neck in turtle. Practice establishing clean grip connection before committing bodyweight to the submission attempt.
 Key points:
 - Recognize head isolation moments in real-time rolling
@@ -363,7 +363,7 @@ The guillotine system requires isolation drilling of individual components befor
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The guillotine choke represents one of the most elegant examples of biomechanical efficiency in submission grappling when properly understood and applied. Marcelo Garcia's systematic approach demonstrates that the submission's effectiveness depends not on grip strength but on precise spatial relationships between your body and the opponent's head and neck. The critical insight is that the choking mechanism requires your arms to function as a wedge that progressively narrows the opponent's arterial blood flow while simultaneously preventing their defensive hand insertion. The high elbow position accomplishes both objectives - it creates maximum pressure on the carotid arteries through leverage multiplication while the elevated elbow blocks their defensive hand pathway. The system's integration of sweeps and back takes creates what I term 'offensive bifurcation points' - moments where the opponent must choose between defending submission or position, and either choice leads to advantage for the attacker. This systematic approach to creating dilemmas represents high-level strategic thinking that transcends individual technique application.
 - **Gordon Ryan**: Marcelo's guillotine system is one of the highest percentage submission frameworks in competition because it attacks opponents during their most vulnerable moments - when they're attempting takedowns, defending passes, or creating pressure. In my competitive experience, the key to making this system work at elite levels is aggressive entry timing combined with absolute conviction in your finishing mechanics. When you see the opportunity, you must commit immediately and completely - hesitation allows defensive responses to develop. The guard pull entry is particularly effective in no-gi competition because it converts opponent's forward momentum into choking pressure while establishing your preferred guard position simultaneously. From a competitive strategy standpoint, the guillotine threat fundamentally changes how opponents engage with you in standing exchanges - they become hesitant to shoot, they keep their heads more upright, and this defensive mindset opens other attacking opportunities. I've found that combining Marcelo's guillotine system with systematic leg attack entries creates an almost unsolvable problem for opponents because they must defend both upper and lower body submissions simultaneously.
 - **Eddie Bravo**: What makes Marcelo's guillotine game so dangerous is how he's weaponized it from every conceivable angle - standing, guard, turtle, half guard, everywhere. The innovation that really stands out is the seamless integration with sweep attacks from closed guard. In traditional BJJ, you either attack sweeps or submissions, but Marcelo showed that the guillotine grip actually enhances your sweep mechanics while the sweep attempts create better angles for finishing the choke. This bidirectional relationship is pure genius and reflects the kind of systems thinking we use in 10th Planet methodology. The arm-in variation is particularly nasty when opponent's are defending the standard high elbow - suddenly they're dealing with a completely different choking mechanism and their defensive responses that worked before are now useless. From a no-gi perspective, this system is essential because guillotines are available in almost every scramble situation. I've incorporated Marcelo's entry timing and grip mechanics into our curriculum because they represent the highest evolution of guillotine technique. The ability to threaten guillotines from so many positions forces opponents to completely change how they engage, which opens up our other attacks.

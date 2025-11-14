@@ -8,7 +8,7 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
 
 
 
-> **Quick Answer**: Back Step transitions from [[Outside Ashi-Garami]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Back Step transitions from [[Outside Ashi-Garami]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant forward chest pressure throughout the pass
 - Step the trapped leg backward and over opponent's body in one motion
 - Keep hips low and weight distributed to prevent opponent re-guarding
@@ -186,7 +186,7 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent has initiated or established outside ashi-garami position
 - Your trapped leg is controlled between opponent's legs
 - You have established grips on opponent's gi or body (no-gi)
@@ -199,7 +199,7 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish forward pressure**: Drive your chest forward and downward toward the opponent's upper body, creating heavy pressure that forces their shoulders toward the mat. This pressure is critical as it prevents them from sitting up and maintaining strong leg entanglement structure. Keep your weight distributed over your hands and chest, not sitting back on your hips. (Timing: Immediate upon recognizing leg entanglement entry)
 2. **Control near arm**: Secure a grip on the opponent's near side arm (the arm closest to your trapped leg) by grabbing the wrist or tricep. In gi, you can use sleeve grips. This arm control prevents them from posting and creating frames that would allow them to maintain distance and complete their leg entanglement or sit up for better attacking position. (Timing: Before initiating the back step movement)
 3. **Clear top leg**: Use your free hand to push or swim underneath the opponent's top leg that is crossing over your hip or thigh. Create enough space to allow your trapped leg to move freely. In some cases, you may need to use your hip movement to create this space rather than purely hand fighting. The goal is to reduce the opponent's control points from two legs to one. (Timing: As you prepare to extract trapped leg)
@@ -213,7 +213,7 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent locks tight heel hook configuration before back step** (Effectiveness: High) - Your Response: Abandon back step attempt and focus on immediate heel hook defense by hiding your heel, turning your knee inward, and hand fighting to strip their grips before attempting any passing movements
 - **Opponent sits up and maintains upper body posture during entry** (Effectiveness: High) - Your Response: Increase chest pressure by lowering your level and driving forward harder. Consider alternative passes like knee slice or leg weave if they successfully maintain upright posture and strong leg control
 - **Opponent transitions to inside ashi or 50-50 as you clear their top leg** (Effectiveness: Medium) - Your Response: Recognize the position change immediately and adjust your passing strategy. In inside ashi, the back step is still viable but requires more careful execution. In 50-50, consider alternative escapes and passes specific to that entanglement
@@ -223,22 +223,22 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Sitting back on hips instead of maintaining forward chest pressure
+## Common Mistakes
+- **Mistake**: Sitting back on hips instead of maintaining forward chest pressure
   - **Consequence**: Opponent easily sits up and maintains or strengthens their leg entanglement position, potentially transitioning to stronger attacking positions like honey hole or securing heel hook grips
   - **Correction**: Keep your chest driving forward and down throughout the entire sequence. Think about making your chest heavy on their upper body rather than fighting with your trapped leg. Your weight should be on your hands and chest, not your butt
-- **Error**: Taking small, hesitant back step that doesn't fully clear opponent's body
+- **Mistake**: Taking small, hesitant back step that doesn't fully clear opponent's body
   - **Consequence**: Opponent maintains partial leg control and easily recovers full guard or re-enters leg entanglement. Your leg gets stuck halfway and you end up in a vulnerable transitional position
   - **Correction**: Commit to a large, deliberate back step that brings your entire leg over their body in one motion. Your knee should end up near their far shoulder area. Think of stepping completely to the other side of their body, not just slightly behind you
-- **Error**: Failing to control opponent's near arm before stepping
+- **Mistake**: Failing to control opponent's near arm before stepping
   - **Consequence**: Opponent creates frames with their free arm, pushing your chest away and maintaining distance that allows them to keep strong leg control and prevent your pass
   - **Correction**: Always secure a grip on their near arm (wrist, sleeve, or tricep) before initiating your back step. This arm control is non-negotiable for successful execution of the technique
-- **Error**: Neglecting to clear opponent's top leg before back stepping
+- **Mistake**: Neglecting to clear opponent's top leg before back stepping
   - **Consequence**: Your trapped leg gets caught and stuck as you attempt to step over, leaving you in an awkward and vulnerable position where opponent can counter-attack or strengthen their leg entanglement
   - **Correction**: Take the time to properly clear their top leg with your hand or by creating space with hip movement. Rushing this step compromises the entire technique. A brief moment of proper clearing sets up a much more successful back step
-- **Error**: Insufficient shoulder pressure after completing back step
+- **Mistake**: Insufficient shoulder pressure after completing back step
   - **Consequence**: Opponent creates space, turns into you, and recovers guard position. You end up in a weak side control that they easily escape from using hip escape or elbow escape movements
   - **Correction**: As your leg clears over their body, immediately drive your shoulder into their chest with significant pressure. Your shoulder and chest should be crushing them flat to the mat as you establish your crossface and settle into consolidated side control
 
@@ -247,7 +247,7 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Fundamental Movement (Week 1-2)** - Back step movement pattern without resistance
 Partner establishes loose outside ashi-garami position. Practice the large circular back step movement over their body, focusing on proper foot placement and maintaining balance. Repeat 10-15 times per side, emphasizing smooth, committed movement. Partner provides no resistance but maintains structure to give you realistic spatial awareness.
 (Resistance: None)
@@ -274,7 +274,7 @@ Develop your passing system by chaining the back step with knee slice, leg drag,
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Back Step to Knee on Belly**: Instead of settling in side control, continue your forward momentum by bringing your back-stepping leg's knee directly onto the opponent's belly or solar plexus as you pass. This creates additional pressure and control while establishing a dominant point-scoring position. (When to use: When opponent has strong side control escape skills but weaker knee on belly defense. Also effective when you want to maintain more mobility and transition to mount or other positions rather than staying in side control.)
 
 **Back Step with Far Underhook**: As you execute the back step, immediately establish a deep underhook on the opponent's far side arm instead of relying primarily on crossface control. This underhook provides excellent control and sets up immediate submission opportunities like kimura or americana. (When to use: Against opponents who are skilled at using near arm frames to create space and escape side control. The underhook provides more secure control and limits their defensive options while opening offensive submission paths.)
@@ -312,7 +312,7 @@ Develop your passing system by chaining the back step with knee slice, leg drag,
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The back step is generally a safe technique when executed with proper control and awareness. However, practitioners must be extremely cautious about heel hook danger when working from leg entanglement positions. Never force a back step if the opponent has secured a tight heel hook configuration, as this can result in serious knee or ankle injuries. Always prioritize defending the submission before attempting any passing movements. When drilling, communicate clearly with your partner about resistance levels and stop immediately if either person feels vulnerable positioning. Start with slow, controlled repetitions and gradually increase speed and resistance as both partners become comfortable with the movements and safety protocols.
 
@@ -320,7 +320,7 @@ The back step is generally a safe technique when executed with proper control an
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The back step is an essential component of modern guard passing systems, particularly in no-gi and submission grappling contexts where leg entanglements are common. It fits into the larger framework of pressure passing by using aggressive forward movement to neutralize defensive positions. The back step connects directly to fundamental side control consolidation techniques and can be chained with knee slice passes, leg drags, and other pressure-based approaches. Understanding the back step is crucial for any practitioner who faces leg entanglement attacks, as it provides a reliable escape route that simultaneously neutralizes the attack and establishes dominant position. This technique exemplifies the principle that the best defense against leg attacks is often aggressive forward movement and pressure rather than passive defensive positioning.
 
@@ -328,7 +328,7 @@ The back step is an essential component of modern guard passing systems, particu
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Outside Ashi-Garami]] - Primary starting position
 - [[Side Control]] - Primary ending position
@@ -348,7 +348,7 @@ The back step is an essential component of modern guard passing systems, particu
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The back step represents a fundamental principle in guard passing that is often misunderstood: aggressive forward movement defeats defensive retention. When an opponent enters leg entanglement positions, the natural instinct is to pull away and create distance. This is precisely the wrong response. The back step succeeds because it violates the opponent's expectation by driving forward into pressure rather than retreating. The biomechanics are clear: when you step your trapped leg backward over their body while maintaining chest pressure, you create opposing forces that break their structural control. Their legs want to control your leg moving in one direction, but you're moving your entire body mass in the opposite direction with your chest. This mismatch in force vectors makes it nearly impossible for them to maintain control. The technique also demonstrates the importance of controlling intermediate positions. The near arm control is not optional; it's the linchpin that prevents them from creating the frames necessary to maintain distance. Without that arm control, you're attempting to pass against their full defensive structure. With it, you've removed a critical defensive component before your leg is ever in danger. Study the sequence carefully and understand that each step builds on the previous one, creating a systematic dismantling of their defensive structure.
 - **Gordon Ryan**: I use the back step constantly in competition, particularly against leg lock specialists who try to enter outside ashi or other entanglements. The key to making this work at the highest levels is commitment and timing. You cannot be hesitant. The moment you recognize they're entering leg entanglement position and you decide to back step, you must execute with full commitment and aggression. Half-measures get you stuck in transitional positions where they can counter-attack or strengthen their controls. In my experience, the biggest mistake competitors make is waiting too long to initiate the back step. They allow the opponent to fully establish their leg entanglement position with strong grips and structure before attempting the pass. By that point, the window of opportunity has closed and you're playing defense against heel hooks rather than passing. The optimal timing is early in their entry sequence, when they're still establishing their position and their controls are not yet locked in. I also emphasize the importance of the shoulder drive as you complete the step. That crushing shoulder pressure into their chest is what flattens them and prevents any guard recovery. Without it, you end up in a weak side control that they easily escape. Make them carry your full body weight on their chest as you establish your crossface and settle into dominant position. This isn't a technical position; it's a crushing, pressure-based position that breaks their will to continue fighting.
 - **Eddie Bravo**: The back step is interesting because it's one of those techniques that works in both gi and no-gi but has different flavors depending on the context. In 10th Planet system, we encounter leg entanglements constantly, so having a reliable counter like the back step is essential. What I tell my students is to think of the back step not just as an escape but as an offensive passing opportunity. You're not running away from the leg attack; you're turning it into your chance to pass and establish dominant position. The psychology of that mindset shift is huge. When you approach it as an offensive technique rather than a defensive escape, your whole energy and commitment level changes. One variation we work a lot is combining the back step with immediate submission attempts from side control. As you settle into position after the back step, you're already thinking about the far arm for kimura, the near arm for americana, or setting up chokes. The opponent is usually mentally recovering from having their guard passing attempt shut down, so there's a brief window where they're reactive rather than proactive. That's when you can catch them with submissions. We also practice the back step from inside ashi and other variations because in no-gi, positions flow and transition rapidly. You need to be able to recognize the back step opportunity from multiple leg entanglement contexts, not just the textbook outside ashi position. Train it live, train it under fatigue, and train it against people who are actively trying to heel hook you. That's when you'll really develop the timing and confidence to use it in competition.

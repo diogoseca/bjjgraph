@@ -13,10 +13,6 @@ description: "Master Russian Cowboy position in BJJ. Complete guide covering bac
 
 
 
-> **Quick Overview**: The Russian Cowboy is a highly effective back control variant commonly used in no-gi grappling and submission wrestling. This position features the top practitioner establishing control over the oppon...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium to Long |
 
-**What Makes This Position Unique:** Single-hook back control for truck transitions
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Russian Cowboy/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Russian Cowboy/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Single-hook back control for truck transitions
 
 
 
@@ -88,10 +72,13 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 <section id="bottom-summary" class="content-section">
 
-## Russian Cowboy Bottom Perspective
+
+## Playing as Bottom
+
+[[Russian Cowboy/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in russian cowboy must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in russian cowboy must focus on creating frames, protecting ag
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Rolling away from the hook in panic without establishing frames**
@@ -158,16 +145,17 @@ The bottom player in russian cowboy must focus on creating frames, protecting ag
   - ✅ Correction: Systematically address both upper body grips and leg hook position
 
 
-👉 **[[Russian Cowboy/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Russian Cowboy Top Perspective
+
+## Playing as Top
+
+[[Russian Cowboy/Top|→ Full Top Guide]]
 
 
-The top player in russian cowboy balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -216,7 +204,7 @@ The top player in russian cowboy balances control maintenance with submission at
   - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Losing chest-to-back connection while attempting to advance position**
@@ -243,8 +231,6 @@ The top player in russian cowboy balances control maintenance with submission at
   - Consequence: Excessive energy expenditure and inability to maintain position against resistance
   - ✅ Correction: Use the leg hook to create rotational torque and stretch opponent's body, combining upper and lower body control for mechanical advantage
 
-
-👉 **[[Russian Cowboy/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

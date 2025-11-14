@@ -13,10 +13,6 @@ description: "Master Double Unders position in BJJ. Strategic guide covering whe
 
 
 
-> **Quick Overview**: Double Unders Position is a critical control state in Brazilian Jiu-Jitsu where both practitioners are engaged in a bilateral underhook battle with dramatically different strategic objectives. From th...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Understanding double unders from both perspectives is essential for developing c
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium |
 
-**What Makes This Position Unique:** Bilateral underhook control for pressure
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Double Unders/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Double Unders/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Bilateral underhook control for pressure
 
 
 
@@ -88,10 +72,13 @@ Understanding double unders from both perspectives is essential for developing c
 
 <section id="bottom-summary" class="content-section">
 
-## Double Unders Bottom Perspective
+
+## Playing as Bottom
+
+[[Double Unders/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in double unders must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in double unders must focus on creating frames, protecting aga
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Accepting both underhooks passively without immediate frame creation response**
@@ -166,16 +153,17 @@ The bottom player in double unders must focus on creating frames, protecting aga
   - ✅ Correction: Keep head active and mobile - look away from pressure direction to maintain spinal extension and mobility options
 
 
-👉 **[[Double Unders/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Double Unders Top Perspective
+
+## Playing as Top
+
+[[Double Unders/Top|→ Full Top Guide]]
 
 
-The top player in double unders balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -218,7 +206,7 @@ The top player in double unders balances control maintenance with submission att
   - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing space between chest and opponent's legs, reducing forward pressure**
@@ -245,8 +233,6 @@ The top player in double unders balances control maintenance with submission att
   - Consequence: Opponent can rotate their body to escape or establish defensive frames with better leverage
   - ✅ Correction: Use head on opponent's chest for maximum pressure or on hip to block rotation and prepare for pass completion
 
-
-👉 **[[Double Unders/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 92% of the time and finish submissions in 85% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 92% of the time and finish submissions in 85%.
 
 ---
 
@@ -191,7 +191,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's legs trap opponent's near arm using figure-four or triangle configuration, with one leg over the shoulder and the other leg under the armpit creating constant inward pressure that prevents arm extraction and immobilizes the limb
 - Top player's hands control opponent's far arm through wrist grip, overhook, or kimura configuration, preventing the arm from defending the neck or creating frames while maintaining second point of control
@@ -204,7 +204,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful transition from back control with arm isolation achieved
 - Control of both opponent's arms established through leg triangle and hand control
@@ -232,7 +232,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Rear Naked Choke]] → [[Won by Submission]]
 
@@ -289,7 +289,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Arm Extraction]]** → [[Back Control]] (Opponent Success: 15%)
 - **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 10%)
@@ -301,7 +301,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Rear Naked Choke]]** → [[Won by Submission]]
   - Opponent attempts to free trapped arm by pulling
@@ -343,7 +343,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

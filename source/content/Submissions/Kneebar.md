@@ -8,7 +8,7 @@ description: "Master the Kneebar in BJJ. Complete guide with safety protocols, s
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Kneebar in BJJ. Complete guide with safety protocols, s
 
 
 
-> **Quick Answer**: Kneebar is a leg lock targeting the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kneebar is a leg lock targeting the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kneebar Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -209,7 +209,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Hip alignment with opponent's knee creates the fulcrum for hyperextension
 - Control the leg's rotation before attempting the finish to prevent escape
 - Posterior chain engagement (glutes and hamstrings) generates safe, controlled pressure
@@ -223,7 +223,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure leg entanglement position with opponent's leg controlled between your legs
 - Establish grip on opponent's leg (typically around ankle or lower shin)
 - Create angle that aligns your hips perpendicular to opponent's knee joint
@@ -237,7 +237,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure the leg entanglement**: From ashi garami or similar leg entanglement, ensure opponent's leg is trapped between your legs with your inside leg hooking behind their knee and your outside leg controlling across their hip or thigh. Your legs should create a scissor-like control that prevents the opponent from simply pulling their leg free. (Timing: Establish control before attempting finish) [Pressure: Moderate]
 2. **Grip the ankle and pull toward your chest**: Cup your hands around opponent's ankle or lower shin, creating a strong connection. Pull the leg tight to your chest, eliminating any space between your torso and their leg. This connection is critical - any gap allows the opponent to create defensive frames or rotate their leg to relieve pressure. Your elbows should squeeze together, trapping the leg securely. (Timing: Before applying hip pressure) [Pressure: Firm]
 3. **Adjust angle and hip position**: Scoot your hips toward opponent's body while maintaining the tight ankle grip. Your hips should be positioned so that your pubic bone or lower abdomen makes contact with the back of opponent's knee. The angle should be perpendicular to their leg - your spine should form roughly a 90-degree angle with their femur. This perpendicular alignment is essential for proper force application. (Timing: Positioning phase before pressure) [Pressure: Light]
@@ -250,7 +250,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Pulling knee inward (flexing knee joint)** (Effectiveness: High) - Your Adjustment: Maintain tight ankle-to-chest connection to prevent knee flexion. If they succeed in flexing, you must re-extend their leg by scooting hips closer and pulling harder on ankle before attempting finish. Consider transitioning to heel hook if they rotate leg inward.
 - **Rolling toward their trapped leg (rolling through)** (Effectiveness: Medium) - Your Adjustment: Anticipate the roll by maintaining heavy hip pressure and following their rotation. Stay connected to their leg throughout the roll. Many times their roll actually helps you establish a more dominant finishing position. Keep your outside leg posted to prevent them from completing a full rotation.
 - **Creating frame with free leg on your hip or face** (Effectiveness: High) - Your Adjustment: This is why clearing the free leg is critical. If they establish this frame before you finish, you must address it before continuing. Use your outside leg to trap theirs, or transition your position to remove the frame. Never ignore a strong hip frame as it prevents proper hip extension.
@@ -260,28 +260,28 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting to finish before establishing proper angle and control [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting to finish before establishing proper angle and control [Low DANGER]
   - **Consequence**: Opponent easily escapes, and you waste energy on ineffective pressure
   - **Correction**: Be patient with your positioning. Ensure your hips are perpendicular to their leg and all controls are tight before applying finishing pressure. The setup is more important than the finish.
-- **Error**: Allowing space between ankle and chest [Low DANGER]
+- **Mistake**: Allowing space between ankle and chest [Low DANGER]
   - **Consequence**: Opponent can flex their knee and rotate their leg to escape or relieve pressure
   - **Correction**: Maintain constant tension pulling the ankle to your chest throughout the entire sequence. Your elbows should squeeze together, and there should be no visible gap between their shin and your torso.
-- **Error**: Using explosive jerking motion instead of controlled pressure [CRITICAL DANGER]
+- **Mistake**: Using explosive jerking motion instead of controlled pressure [CRITICAL DANGER]
   - **Consequence**: Severe knee injury to training partner, unsafe training environment, potential ligament rupture before partner can tap
   - **Correction**: Always apply pressure progressively over 3-5 seconds minimum in training. Engage your posterior chain smoothly rather than explosively bridging. Your partner's safety depends on controlled application.
-- **Error**: Ignoring opponent's free leg [Medium DANGER]
+- **Mistake**: Ignoring opponent's free leg [Medium DANGER]
   - **Consequence**: Opponent creates defensive frames that prevent finish or allows them to extract trapped leg
   - **Correction**: Always address the free leg before committing to finish. Use your outside leg to control it, or position your body to neutralize its defensive capability. This is a prerequisite, not an optional detail.
-- **Error**: Finishing with hips parallel to opponent's leg rather than perpendicular [Medium DANGER]
+- **Mistake**: Finishing with hips parallel to opponent's leg rather than perpendicular [Medium DANGER]
   - **Consequence**: Poor leverage, ineffective pressure, increased risk of opponent's leg slipping out or rotating
   - **Correction**: Check your angle before applying pressure. Your spine should be roughly perpendicular to their femur. Scoot your hips toward them and adjust your angle until the alignment is correct. This geometric principle is non-negotiable.
-- **Error**: Releasing controls prematurely upon feeling tap [High DANGER]
+- **Mistake**: Releasing controls prematurely upon feeling tap [High DANGER]
   - **Consequence**: Loss of position, allows opponent to escape before acknowledging submission
   - **Correction**: Upon receiving tap, stop pressure immediately but maintain positional control while carefully releasing the leg. Follow the release protocol exactly - stop hip extension, lower hips, then allow them to extract their leg safely.
-- **Error**: Continuing to apply pressure after tap signal [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after tap signal [CRITICAL DANGER]
   - **Consequence**: Serious injury to training partner, broken trust, unsafe training environment, potential career-ending knee damage
   - **Correction**: Develop acute awareness of all tap signals - verbal, hand, foot, or distress sounds. The instant you perceive any tap signal, stop all pressure immediately. This is absolute and non-negotiable in training. There are no exceptions.
 
@@ -290,7 +290,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Kneebar from 50-50 Guard**: From 50-50 position where both legs are entangled, fall back while controlling opponent's ankle and apply kneebar. This variation requires clearing their attacking leg while securing yours. (When to use: When engaged in 50-50 and opponent is focused on their own leg attack. The mutual threat creates opportunities.)
 
 **Kneebar from Top Position**: From top positions like headquarters or top half guard, step over opponent's leg and sit back to kneebar position. This often surprises opponents who expect passing attacks, not leg locks. (When to use: When opponent is defending passes by keeping legs between you. The entry requires good timing to catch their leg before they retract it.)
@@ -335,7 +335,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (First 2 weeks of learning)
 - Focus: Learn proper positioning, angle, hip alignment, and safety protocols through demonstration and slow drilling without any resistance
 - Resistance: Zero resistance
@@ -372,7 +372,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Ashi Garami]]
 - [[Inside Ashi-Garami]]
@@ -390,7 +390,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Heel Hook]]
 - [[Straight Ankle Lock]]
@@ -433,7 +433,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The kneebar represents one of the purest applications of leverage principles in all of jiu-jitsu. When we analyze the mechanics, we see a simple lever system where your hips act as the fulcrum and opponent's femur becomes the lever arm. The key is understanding that maximum efficiency comes not from explosive force but from precise geometric alignment - your hips must be perpendicular to their leg, creating optimal force vector direction. What separates effective kneebar practitioners from ineffective ones is their ability to maintain connection throughout defensive movements. The ankle must stay welded to your chest - any separation and the opponent can flex their knee, defeating the hyperextension mechanism. From a systematic perspective, the kneebar exists within a broader leg lock ecosystem where it serves as both a finish and a transitional threat. When opponent defends the kneebar by rotating their leg, you have direct entries to heel hooks. When they try to extract by pulling their leg back, you have opportunities for transitional sweeps. The safety considerations cannot be overstated - knee injuries from improper kneebar application end careers and damage training relationships. Always apply pressure progressively, building over several seconds, which allows your partner to recognize danger and respond appropriately with a tap. The mark of a true expert is not the explosive finish, but the controlled application that respects both the technique's effectiveness and the training partner's physical safety.
 - **Gordon Ryan**: The kneebar is one of my highest percentage finishes in competition, but most people completely misunderstand how to make it work at elite levels. First, forget everything about just grabbing a leg and bridging - that works on beginners, not on competent opponents who understand leg lock defense. The real kneebar game is about creating dilemmas where defending the kneebar exposes them to other attacks. When I have someone in ashi garami and threaten the kneebar, their natural defense is to pull their knee toward their chest and rotate their leg. Perfect - that rotation is exactly what I need to switch to an inside heel hook. If they don't rotate and instead try to frame with their free leg, I can transition to their other leg or sweep them. The difference between training and competition is night and day. In training, I give my partners time to tap, building pressure slowly and stopping immediately on any tap signal. In competition, I still don't spike it explosively, but I apply it faster and more decisively - though still progressively enough to allow a tap. My kneebar finishes in ADCC and other major tournaments came from excellent position establishment first, then the finish. You can't force a kneebar from a bad position. Get your angle right, clear that free leg, secure the ankle to your chest with your arms locked, then use your entire posterior chain to create the extension. People who fail at kneebars are usually failing at the setup, not the finish. Master the control positions, understand the defensive reactions, and the submissions come naturally from there.
 - **Eddie Bravo**: The kneebar has always been one of my favorite submissions because it's got that beautiful simplicity to it while still having infinite variations and setups. In the 10th Planet system, we see kneebar opportunities everywhere - from lockdown when they're trying to break it down, from rubber guard when we transition to omoplata control and they defend wrong, from the truck position when we can't quite get the twister locked up. What makes the kneebar so effective in no-gi especially is that there's no gi material for them to grab to defend, so if you get that proper angle and connection, it's really hard to escape. One thing I emphasize with my students is creativity in the entries. Sure, you can hit a basic kneebar from ashi garami, but what about the rolling kneebar from standing? What about the flying kneebar entry? What about setting up the kneebar as a fake to get them defending so you can transition to the calf slicer or switch to their other leg? The innovation comes from seeing the position not as just one submission attempt, but as a whole universe of connected attacks. Safety-wise, though, we're super serious about this at 10th Planet. Leg locks can end careers if you're reckless, so we drill the hell out of controlled application. I want my guys to be dangerous on the mats in competition, but safe and trusted training partners in the gym. You build that reputation by always taking care of your partners, always giving them time to tap, always releasing immediately when they do. The kneebar is beautiful jiu-jitsu - respect it, train it smart, and it becomes one of your most reliable weapons.

@@ -13,10 +13,6 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 
 
 
-> **Quick Overview**: De La Riva Guard (DLR) is a sophisticated open guard variation where the bottom player hooks the opponent's lead leg with their outside foot while controlling the ankle or pant with their hand on the ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,7 +48,7 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -60,26 +56,7 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[De La Riva Guard]] | Medium | Medium | Medium | Medium | Dynamic hooks trade static frames for leverage |
-
 | [[Reverse De La Riva Guard]] | Medium | Medium | Medium | Medium | Inverted hook creates rotational off-balancing |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[De La Riva Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[De La Riva Guard/Top|Top Perspective]]** - Submissions and positional attacks
-
-
-### By Variation
-
-- **[[Reverse De La Riva Guard]]** - Opposite-side hook for alternative angles and sweep entries
 
 
 
@@ -87,10 +64,13 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 
 <section id="bottom-summary" class="content-section">
 
-## De La Riva Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[De La Riva Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in de la riva guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -135,7 +115,7 @@ The bottom player in de la riva guard controls the position with offensive attac
   - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing the De La Riva hook to go slack or releasing tension on the opponent's trapped leg**
@@ -159,16 +139,17 @@ The bottom player in de la riva guard controls the position with offensive attac
   - ✅ Correction: Keep your shoulders slightly elevated off the mat and maintain active hip movement to enable dynamic transitions
 
 
-👉 **[[De La Riva Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## De La Riva Guard Top Perspective
+
+## Playing as Top
+
+[[De La Riva Guard/Top|→ Full Top Guide]]
 
 
-The top player in de la riva guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -213,7 +194,7 @@ The top player in de la riva guard enjoys offensive advantages with access to su
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Leaning forward over opponent with poor posture and head position ahead of hips**
@@ -237,8 +218,6 @@ The top player in de la riva guard enjoys offensive advantages with access to su
   - ✅ Correction: Once you've chosen a passing direction, commit fully with explosive movement and proper grips. If you're going to pass right, drive hard right. If you're going to backstep, backstep decisively. Hesitation in the middle of a pass is when you're most vulnerable
 
 
-👉 **[[De La Riva Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -251,7 +230,7 @@ The top player in de la riva guard enjoys offensive advantages with access to su
 
 Opposite-side hook for alternative angles and sweep entries
 
-[Explore Reverse De La Riva Guard →](de-la-riva-guard/reverse-de-la-riva-guard)
+[Explore Reverse De La Riva Guard →](./Reverse De La Riva Guard)
 
 
 

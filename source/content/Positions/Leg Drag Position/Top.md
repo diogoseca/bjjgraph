@@ -8,7 +8,7 @@ description: "Control and finish the leg drag position with systematic passing s
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Control and finish the leg drag position with systematic passing s
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Control and finish the leg drag position with systematic passing s
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 40% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 40%.
 
 ---
 
@@ -195,7 +195,7 @@ Advanced applications of the leg drag involve chaining it with other positions a
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - One of the opponent's legs is controlled and dragged across their body, with your grip on their hip or knee preventing that leg from returning to a guard structure
 - Your chest or shoulder applies continuous downward pressure on the dragged leg, pinning their hip to the mat and restricting their ability to shrimp or create frames
@@ -206,7 +206,7 @@ Advanced applications of the leg drag involve chaining it with other positions a
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Initial leg control established from standing, headquarters, or guard passing entry
 - Opponent's guard structure has been disrupted
@@ -231,7 +231,7 @@ Advanced applications of the leg drag involve chaining it with other positions a
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Knee Slice Pass]] → [[Side Control]]
 
@@ -295,7 +295,7 @@ Advanced applications of the leg drag involve chaining it with other positions a
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]] (Opponent Success: 35%)
 - **[[Half Guard Recovery]]** → [[Knee Shield Half Guard]] (Opponent Success: 40%)
@@ -307,7 +307,7 @@ Advanced applications of the leg drag involve chaining it with other positions a
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Step to Back Take]]** → [[Back Control]]
   - When opponent turns away to escape chest pressure
@@ -347,7 +347,7 @@ Advanced applications of the leg drag involve chaining it with other positions a
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

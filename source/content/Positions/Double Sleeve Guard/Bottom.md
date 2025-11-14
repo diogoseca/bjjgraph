@@ -8,7 +8,7 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 60% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner controls both of opponent's sleeves with firm grips at or near the cuffs, maintaining constant tension to prevent opponent from breaking grips or establishing their own control
 - Bottom practitioner's hips are mobile and off the mat, with feet actively posted on opponent's hips, biceps, or shoulders to maintain distance and prevent opponent from closing the gap
@@ -200,7 +198,7 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent is in open guard top position on their knees or standing
 - Bottom practitioner has established grips on both of opponent's sleeves
@@ -228,7 +226,7 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Scissor Sweep]] → [[Mount]]
 
@@ -299,7 +297,7 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 45%)
 - **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 40%)
@@ -312,7 +310,7 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Lasso Guard Sweeps]]** → [[Lasso Guard]]
   - Opponent attempts to circle away from double sleeve control
@@ -358,7 +356,7 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

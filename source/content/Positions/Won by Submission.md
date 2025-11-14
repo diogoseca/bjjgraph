@@ -8,7 +8,7 @@ description: "Terminal state in BJJ where practitioner successfully forces oppon
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Terminal state in BJJ where practitioner successfully forces oppon
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -165,9 +165,7 @@ description: "Terminal state in BJJ where practitioner successfully forces oppon
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 0% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 0% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,7 +193,7 @@ Won by Submission represents the terminal state in Brazilian Jiu-Jitsu where a p
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Submission technique is fully locked in with proper mechanical advantage established through optimal joint angle or vascular/airway compression, leaving opponent with no viable defensive options remaining and creating immediate threat of injury or unconsciousness
 - Opponent has clearly indicated submission through recognized tap signal (hand tap on opponent/mat, verbal submission, or foot tap if hands immobilized), or referee has stopped match due to submission being complete with opponent unable to defend safely
@@ -206,7 +204,7 @@ Won by Submission represents the terminal state in Brazilian Jiu-Jitsu where a p
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful establishment of submission control position with proper mechanics and leverage
 - Opponent's defensive options have been systematically eliminated or bypassed through superior positioning
@@ -284,7 +282,7 @@ Won by Submission represents the terminal state in Brazilian Jiu-Jitsu where a p
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Acknowledge Submission]]** → [[Standing Position]]
 - **[[Reset to Starting Position]]** → [[Standing Position]]
@@ -329,7 +327,7 @@ Won by Submission represents the terminal state in Brazilian Jiu-Jitsu where a p
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

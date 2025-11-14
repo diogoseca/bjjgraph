@@ -8,7 +8,7 @@ description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execut
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execut
 
 
 
-> **Quick Answer**: Old School Sweep transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
+> Old School Sweep transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Old School Sweep is a fundamental half guard technique popularized by Eddie 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish deep underhook on the far side before initiating sweep mechanics
 - Create angle with body position to generate leverage advantage
 - Use opponent's forward pressure as the primary sweeping force
@@ -186,7 +186,7 @@ The Old School Sweep is a fundamental half guard technique popularized by Eddie 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Half guard position established with one leg trapped between yours
 - Deep underhook secured on opponent's far side
 - Opponent driving forward pressure into your guard
@@ -199,7 +199,7 @@ The Old School Sweep is a fundamental half guard technique popularized by Eddie 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure deep underhook**: From half guard bottom, thread your inside arm deep underneath opponent's far armpit, securing a strong underhook grip. Your hand should reach their far shoulder blade or lat muscle. Pull this underhook tight to your body, eliminating space between you and your opponent. (Timing: Initial setup - before opponent establishes heavy crossface pressure)
 2. **Post outside leg**: Extend your outside leg (the leg not trapping opponent's leg) and plant your foot flat on the mat behind you. Position this foot approximately 12-18 inches from your hips, creating a stable posting base. Your knee should point toward the ceiling, ready to drive. (Timing: Immediately after securing underhook)
 3. **Create angle and lift hips**: Bridge up onto your posted foot and shoulder, creating a 45-degree angle with your body relative to your opponent. As you lift your hips off the mat, simultaneously pull with your underhook to break opponent's base forward. Your head should drive into opponent's chest on the underhook side. (Timing: As opponent drives forward pressure)
@@ -213,7 +213,7 @@ The Old School Sweep is a fundamental half guard technique popularized by Eddie 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls hips back and away** (Effectiveness: High) - Your Response: Maintain underhook and transition to deep half guard or electric chair position, using their backward movement to enter these positions
 - **Opponent posts far hand to prevent being swept** (Effectiveness: Medium) - Your Response: Switch to attacking the posted arm with kimura grip or transition to back take as they expose their back defending the sweep
 - **Opponent applies heavy crossface pressure** (Effectiveness: High) - Your Response: Use lockdown to prevent forward progress, then work to remove crossface by framing and creating space before reattempting sweep
@@ -223,28 +223,28 @@ The Old School Sweep is a fundamental half guard technique popularized by Eddie 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweep without establishing deep underhook first
+## Common Mistakes
+- **Mistake**: Attempting sweep without establishing deep underhook first
   - **Consequence**: Opponent easily bases out and passes guard as you have no control of their upper body
   - **Correction**: Always secure deep underhook with hand reaching opponent's far shoulder blade before initiating any sweeping motion
-- **Error**: Posting foot too close to hips
+- **Mistake**: Posting foot too close to hips
   - **Consequence**: Insufficient leverage to generate sweeping force; weak bridge that opponent can easily counter
   - **Correction**: Post foot 12-18 inches from hips to create proper leverage angle and powerful drive
-- **Error**: Forgetting to control opponent's trapped leg
+- **Mistake**: Forgetting to control opponent's trapped leg
   - **Consequence**: Opponent posts their trapped leg out for base and prevents sweep
   - **Correction**: Use lockdown or leg entanglement to immobilize trapped leg throughout entire sweeping motion
-- **Error**: Failing to create proper angle with body
+- **Mistake**: Failing to create proper angle with body
   - **Consequence**: Sweep lacks power and opponent can simply sit into you to prevent being elevated
   - **Correction**: Bridge onto shoulder and create 45-degree angle before driving, ensuring your force vector pushes opponent backward not just upward
-- **Error**: Releasing underhook too early during sweep
+- **Mistake**: Releasing underhook too early during sweep
   - **Consequence**: Opponent can turn into you, recover guard, or establish top position despite being swept
   - **Correction**: Maintain tight underhook throughout entire sweep and into top position; only release when you have established secure control
-- **Error**: Insufficient follow-through to top position
+- **Mistake**: Insufficient follow-through to top position
   - **Consequence**: Opponent recovers half guard or full guard as you sweep but don't capitalize
   - **Correction**: Immediately follow opponent as they fall, driving your body weight into top position without hesitation
-- **Error**: Head positioning on wrong side
+- **Mistake**: Head positioning on wrong side
   - **Consequence**: Underhook becomes weak and sweep loses mechanical advantage
   - **Correction**: Keep head on same side as underhook, driving into opponent's chest for maximum pressure and control
 
@@ -253,7 +253,7 @@ The Old School Sweep is a fundamental half guard technique popularized by Eddie 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Foundational Mechanics** - Underhook establishment and posting mechanics
 Practice securing deep underhook from half guard against zero resistance. Drill posting foot placement and bridging motion separately. Partner allows sweep to completion, focusing on proper body angles and connection maintenance. Emphasis on feeling correct leverage positions.
 (Resistance: None)
@@ -284,7 +284,7 @@ Develop old school sweep against specific opponent reactions. Create personal va
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Lockdown Old School**: Establish lockdown on opponent's trapped leg before executing old school sweep. The lockdown prevents opponent from posting their trapped leg and adds control throughout the sweep. Common in 10th Planet system. (When to use: When opponent has strong base and tends to post trapped leg; provides maximum control during sweep execution)
 
 **Electric Chair to Old School**: From lockdown and electric chair position, if opponent defends the submission by pulling their leg free, immediately transition to old school sweep using existing underhook and angle. Natural flow from submission attempt to sweep. (When to use: When opponent successfully defends electric chair position; uses their defensive movement as setup for sweep)
@@ -329,7 +329,7 @@ Develop old school sweep against specific opponent reactions. Create personal va
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The old school sweep is generally a safe technique with minimal injury risk when practiced correctly. The primary safety concern is avoiding explosive execution against unprepared training partners, particularly beginners who may not know how to fall safely from the sweep. Always communicate with training partners when drilling and allow them to fall in a controlled manner initially. When posting your outside leg, ensure you don't hyperextend your knee by keeping slight bend in the joint. Avoid cranking the underhook aggressively as this can strain shoulder joints. For the person being swept, practice proper breakfall technique and avoid posting arms rigidly to prevent wrist or shoulder injuries. The lockdown component can place stress on opponent's knee if applied too aggressively, so build pressure gradually and release immediately if partner taps. As with all techniques, proper warm-up and progressive resistance training prevents injury while developing proficiency.
 
@@ -337,7 +337,7 @@ The old school sweep is generally a safe technique with minimal injury risk when
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The old school sweep is a cornerstone technique within the half guard bottom system, particularly the 10th Planet methodology. It integrates seamlessly with the lockdown position, creating offensive opportunities from what many consider a defensive position. The sweep connects directly to the electric chair submission system - when opponents defend the electric chair by pulling their leg free, you maintain your underhook and angle to immediately threaten the old school sweep. This creates a true dilemma where defending one attack opens the other. The technique also chains effectively with deep half guard entries, as the underhook and posting mechanics transition smoothly between positions. When opponents counter the old school by posting their far arm, you can attack with kimura locks or transition to back takes, further expanding your offensive system. The old school sweep teaches fundamental principles applicable throughout BJJ: using opponent's pressure against them, creating leverage with proper angles, and maintaining connection throughout transitions. These principles transfer to numerous other positions and techniques, making the old school sweep valuable beyond its immediate tactical application.
 
@@ -345,7 +345,7 @@ The old school sweep is a cornerstone technique within the half guard bottom sys
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Half Guard]] - Primary starting position - foundational position for technique execution
 - [[Lockdown]] - Enhanced control variation - lockdown controls trapped leg during sweep
@@ -365,7 +365,7 @@ The old school sweep is a cornerstone technique within the half guard bottom sys
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The old school sweep represents a perfect example of mechanical efficiency in Brazilian Jiu-Jitsu. What makes this technique particularly elegant from a biomechanical perspective is how it creates a three-point fulcrum system that multiplies your sweeping force. Your posted foot, your shoulder, and your head form a stable triangular base from which you can generate tremendous leverage. The deep underhook serves dual purposes: it controls opponent's upper body posture while simultaneously creating the lifting force necessary to elevate their hips off the mat. The critical element most practitioners miss is the importance of the 45-degree angle - this isn't arbitrary positioning but rather the optimal force vector for converting upward lifting into backward sweeping momentum. When executed with proper angle and connection, a smaller practitioner can sweep a significantly larger opponent because you're using their own forward pressure as the primary sweeping force. The technique also demonstrates the principle of position before submission - by establishing dominant underhook control first, you create a platform from which multiple attacks become available, not just the sweep itself.
 - **Gordon Ryan**: In competition, the old school sweep is one of my highest percentage techniques from half guard because it exploits the exact pressure that most skilled passers use against you. When someone is really trying to pass your half guard aggressively, they're driving forward with significant force - that's exactly when this sweep becomes nearly unstoppable. The key is recognizing the moment of commitment when they're pressuring into you but before they've established the crossface. I personally favor combining this with the lockdown because it prevents them from that last-second leg post that can kill the sweep. What separates this technique in high-level competition is the ability to chain it with other attacks - if they defend by posting the far arm, I'm immediately attacking that arm with a kimura or transitioning to the back. The old school teaches you to be comfortable fighting from half guard bottom, which is crucial because against elite opponents, you will end up there. Rather than just defending and trying to recover full guard, you're actively hunting for sweeps and submissions. My success rate with this technique improved dramatically when I focused on the follow-through - too many competitors complete the sweep but then lose the position. You need to be on top of them instantly, establishing control before they can recover.
 - **Eddie Bravo**: The old school sweep is absolutely fundamental to the entire 10th Planet half guard system and it's the perfect technique to demonstrate why the lockdown is so powerful. When you have someone in your lockdown and you've got that deep underhook, you're creating a position where they have to deal with multiple threats simultaneously - that's the essence of creating dilemmas. They know the electric chair is there, they're worried about you taking the back, and then boom - you hit them with the old school and they're on their back. What makes this sweep so beautiful is that it's almost counter-intuitive; most people think half guard is a defensive position where you're just trying to survive, but with the old school, you're actually hunting to sweep or submit from what they think is their dominant position. The innovation we brought to this technique was integrating it so tightly with the electric chair - when they defend one, they automatically give you the other. The lockdown also solves the biggest problem with the old school, which is them posting that trapped leg. With a tight lockdown, that leg isn't going anywhere, so their defensive options become way more limited. I tell my students that if you can master the old school sweep and the electric chair from lockdown half guard, you've got a legitimate guard game that works at the highest levels, no gi or gi. The whole philosophy is about being offensive from positions others view as defensive.

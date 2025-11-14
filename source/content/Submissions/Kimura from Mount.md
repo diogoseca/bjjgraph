@@ -8,7 +8,7 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 
 
 
-> **Quick Answer**: Kimura from Mount is a shoulder lock targeting the Shoulder joint (glenohumeral joint, rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kimura from Mount is a shoulder lock targeting the Shoulder joint (glenohumeral joint, rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kimura from Mount Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -212,7 +212,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Establish dominant mount control with heavy hip pressure before attempting the submission
 - Secure the figure-four grip with maximum distance between your hands to create leverage
 - Control the opponent's elbow position - keep it tight to their body during setup
@@ -226,7 +226,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish stable high mount or S-mount position with hips low and heavy
 - Control opponent's near arm by isolating it away from their body
 - Secure initial wrist control with your same-side hand (right hand to opponent's right wrist)
@@ -240,7 +240,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish Mount Control and Isolate the Arm**: From high mount, use your chest pressure and hip control to pin opponent flat. Bait or force their arm across their body by threatening attacks to the opposite side, or wait for them to frame against your chest. When the arm extends, immediately trap their wrist with your same-side hand (if attacking right arm, use your right hand). Pin their wrist to the mat or their chest to prevent retraction. (Timing: 2-3 seconds to establish position) [Pressure: Firm]
 2. **Feed the Wrist and Secure Figure-Four Grip**: While maintaining wrist control, thread your opposite hand (left hand for right arm attack) underneath their elbow and grip your own wrist, creating the figure-four configuration. Your grip should be as deep as possible on your wrist - the further from their arm you grip, the more leverage you create. Keep their elbow bent at approximately 90 degrees and tight to their torso during this transition. (Timing: 1-2 seconds for grip transition) [Pressure: Moderate]
 3. **Create Angle and Establish Base**: Shift your hips and upper body toward the trapped arm side, creating a perpendicular angle to their body. Your chest should now be oriented toward their head rather than directly down on their torso. Maintain one knee tight against their ribs on the trapped arm side while extending the other leg for base. This angle is critical - it aligns your body mechanics for optimal torque application. (Timing: 1-2 seconds for positional adjustment) [Pressure: Firm]
@@ -253,7 +253,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Grabbing their own gi pants or belt (defensive grip)** (Effectiveness: Medium) - Your Adjustment: Maintain pressure and use your bodyweight to break the grip by continuing the circular motion. Alternatively, post your hand on their head and use leverage to force their hand away from their body, then complete the arc toward their head.
 - **Rolling toward the trapped arm to relieve pressure** (Effectiveness: Low) - Your Adjustment: Follow the roll while maintaining figure-four grip. As they roll, transition your legs to take the back with seat belt control, or use the momentum to transition to a crucifix position. The Kimura grip remains secure throughout the transition.
 - **Bridging explosively to disrupt base and mount control** (Effectiveness: Medium) - Your Adjustment: Lower your hips and widen your base immediately when you feel the bridge. Post your head on the mat on the trapped arm side to prevent being swept. Keep the figure-four grip locked and maintain elbow height - even if mount is threatened, the submission pressure continues.
@@ -263,28 +263,28 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Releasing mount pressure while attempting the submission [Low DANGER]
+## Common Mistakes
+- **Mistake**: Releasing mount pressure while attempting the submission [Low DANGER]
   - **Consequence**: Opponent escapes mount position, or successfully bridges and reverses position before submission can be secured
   - **Correction**: Keep your hips heavy and low throughout the entire sequence. Your weight should constantly pressure down through your knees and hips into opponent's torso. Never sacrifice positional control for submission speed.
-- **Error**: Gripping too close to opponent's arm on the figure-four (hands too close together) [Low DANGER]
+- **Mistake**: Gripping too close to opponent's arm on the figure-four (hands too close together) [Low DANGER]
   - **Consequence**: Insufficient leverage to generate adequate shoulder torque - submission lacks power and opponent can easily defend
   - **Correction**: Grip your own wrist as far from opponent's arm as possible. Maximum distance between your hands creates maximum leverage. Extend your bottom arm fully when establishing the figure-four.
-- **Error**: Lifting straight up instead of rotating in circular arc toward head [Low DANGER]
+- **Mistake**: Lifting straight up instead of rotating in circular arc toward head [Low DANGER]
   - **Consequence**: Incorrect pressure angle fails to engage shoulder joint properly - submission feels weak and opponent can resist indefinitely
   - **Correction**: The motion must be circular and rotational, not linear. Move their hand in an arc toward their head while maintaining elbow height. Think of stirring a large pot rather than lifting a weight.
-- **Error**: Allowing opponent's hand to move away from their body [Low DANGER]
+- **Mistake**: Allowing opponent's hand to move away from their body [Low DANGER]
   - **Consequence**: Loss of mechanical advantage and submission pressure - arm position becomes too extended for effective shoulder lock
   - **Correction**: Keep their wrist pinned toward their body or chest throughout. The closer their hand stays to their torso, the more effective the rotational pressure on the shoulder joint.
-- **Error**: Failing to create proper perpendicular angle before applying pressure [Medium DANGER]
+- **Mistake**: Failing to create proper perpendicular angle before applying pressure [Medium DANGER]
   - **Consequence**: Poor body positioning reduces leverage and allows opponent to defend easily or escape mount
   - **Correction**: Before attempting the finish, ensure your chest is perpendicular to their body, oriented toward their head. This angle alignment is essential for generating proper torque while maintaining mount control.
-- **Error**: Applying explosive or jerking rotational pressure [CRITICAL DANGER]
+- **Mistake**: Applying explosive or jerking rotational pressure [CRITICAL DANGER]
   - **Consequence**: CRITICAL SAFETY VIOLATION: Can cause immediate rotator cuff tear, shoulder dislocation, or labrum damage without giving opponent time to tap safely
   - **Correction**: ALWAYS apply progressive, smooth pressure over 3-5 seconds minimum in training. The submission should build gradually, allowing clear opportunity to tap. Save competition speed for competition only.
-- **Error**: Continuing pressure after hearing popping or clicking sounds from shoulder [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after hearing popping or clicking sounds from shoulder [CRITICAL DANGER]
   - **Consequence**: CRITICAL SAFETY VIOLATION: Joint sounds indicate structural damage is occurring - continued pressure causes severe injury requiring surgery
   - **Correction**: IMMEDIATELY release all pressure at first sign of joint noise. Follow release protocol and check partner's shoulder health before resuming. Joint sounds are not normal and indicate injury in progress.
 
@@ -293,7 +293,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **S-Mount Kimura**: From S-mount position (one leg extended toward opponent's head), establish the figure-four grip and use the elevated hip position to increase downward pressure while rotating toward their head. The S-mount variation provides superior control and prevents rolling defenses more effectively than standard mount. (When to use: When opponent is defending aggressively and attempting to roll or bridge - S-mount provides maximum stability and control)
 
 **High Mount to Kimura Bait**: From high mount with your knees under opponent's armpits, threaten a cross collar choke or armbar to opposite side. When opponent frames or reaches across their body to defend, immediately transition to Kimura on the extended arm. The threat creates the opening. (When to use: Against defensive opponents who keep arms tight - use attacking threats to force arm extension)
@@ -336,7 +336,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Grip Mechanics** (1-2 weeks)
 - Focus: Learn figure-four grip configuration, proper hand placement distance, and mount control fundamentals without applying submission pressure. Practice grip transitions and body positioning from mount.
 - Resistance: None
@@ -373,7 +373,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Mount]]
 - [[High Mount]]
@@ -389,7 +389,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura Variations]]
@@ -429,7 +429,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Kimura from mount represents the perfect marriage of positional dominance and submission mechanics. The critical element that distinguishes high-level execution is understanding that the submission is not about strength but about angle creation and progressive pressure application. Your body must be perpendicular to the opponent's trapped arm, creating a biomechanical configuration where your entire torso can generate rotational force on their shoulder joint. The figure-four grip functions as a second-class lever system - the further your grip from their shoulder (the fulcrum), the more mechanical advantage you generate. Students often make the error of attempting the finish while their body remains square to the opponent. This alignment failure reduces the technique's effectiveness by approximately 60-70%. In training, the Kimura from mount should be practiced with methodical attention to shoulder joint safety - the rotator cuff complex is particularly vulnerable to injury when rotational force is applied explosively. The shoulder capsule will fail under sudden load before proprioceptive feedback can signal the brain to tap, making progressive pressure application not merely a courtesy but a fundamental technical requirement. From a systematic perspective, the Kimura from mount serves as an excellent hub technique connecting to back attacks, armbar transitions, and mount maintenance strategies.
 - **Gordon Ryan**: In competition, the Kimura from mount is one of my highest-percentage finishing positions because it combines two elements opponents struggle to defend simultaneously: overwhelming positional control and immediate submission threat. The key to making this submission work at the highest levels is understanding that you can't just muscle it - elite grapplers have strong shoulders and will resist pure strength applications. What works is creating a dilemma: I maintain heavy mount pressure that makes them uncomfortable and fatigued, then use attacking threats to the opposite side to force arm extension. When they frame or reach, I immediately transition to the Kimura grip. The most important detail for competition success is never sacrificing your mount position to chase the finish. If I have Kimura control from mount and they're defending well, I'm winning on points and position. I can be patient, maintain pressure, and wait for them to make an error or fatigue. Against tough opponents, I often use the Kimura threat to force reactions: when they defend the Kimura by rolling, I follow to take the back with the grip intact. When they straighten their arm to defend the rotation, I transition to the armbar. The Kimura from mount isn't just a submission - it's a control position that opens multiple pathways to victory. In training, unlike competition, I'm extremely careful about application speed because shoulder injuries can derail training camps and competition preparation for months.
 - **Eddie Bravo**: The Kimura from mount is a fundamental position, but at 10th Planet we look at it as part of a larger system of mount attacks rather than an isolated submission. What makes the technique powerful is that it's one piece of a puzzle: you threaten the opposite side with something - maybe an Ezekiel, maybe head control for a choke - and when they defend, boom, you transition to the Kimura. The mount is the perfect platform because they can't move, can't breathe well, and their defensive options are extremely limited. One innovation we emphasize is the connection between Kimura control and taking the back. When you have that figure-four grip locked from mount and they try to roll to defend, don't fight the roll - follow it and take the back. Now you have back control with a Kimura grip already established, which opens up a bunch of submissions and control options. The traditional BJJ approach sometimes gets too focused on the finish from one position, but we see it more fluidly: the grip, the control, the pressure, and the ability to follow their escape attempts and end up in an even better position. Safety-wise, this is not a submission to fuck around with in training. The shoulder joint is complex and injuries are serious - we always emphasize controlled application and early tapping in the gym. Save the fast, explosive finishes for competition. In the training room, technical precision and partner safety come first, because injured training partners can't help you improve.

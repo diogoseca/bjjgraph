@@ -8,7 +8,7 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 80% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 80% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ The biomechanics of triangle control favor the bottom practitioner significantly
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Both legs wrapped around opponent's neck and shoulder, with one leg crossed over the other behind opponent's neck, creating a closed triangle configuration that controls head position and restricts movement
 - One of opponent's arms trapped inside the triangle across their own neck, while the other arm remains outside, creating asymmetric pressure that amplifies the choking mechanism through their own trapped limb
@@ -204,7 +202,7 @@ The biomechanics of triangle control favor the bottom practitioner significantly
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful isolation of one of opponent's arms inside guard position using arm drag, overhook, or collar sleeve control
 - Breaking of opponent's posture to bring their head and shoulders forward, eliminating vertical base
@@ -232,7 +230,7 @@ The biomechanics of triangle control favor the bottom practitioner significantly
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Triangle Choke Front]] → [[Won by Submission]]
 
@@ -289,7 +287,7 @@ The biomechanics of triangle control favor the bottom practitioner significantly
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Triangle Escape]]** → [[Closed Guard]] (Opponent Success: 35%)
 - **[[Posture Recovery]]** → [[Closed Guard]] (Opponent Success: 25%)
@@ -302,7 +300,7 @@ The biomechanics of triangle control favor the bottom practitioner significantly
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Triangle to Armbar]]** → [[Armbar Control]]
   - Opponent attempts to posture up or pull trapped arm free
@@ -344,7 +342,7 @@ The biomechanics of triangle control favor the bottom practitioner significantly
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

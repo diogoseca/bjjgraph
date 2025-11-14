@@ -8,7 +8,7 @@ description: "Master Triangle from Mount in BJJ. Complete guide with safety prot
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Triangle from Mount in BJJ. Complete guide with safety prot
 
 
 
-> **Quick Answer**: Triangle from Mount is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Triangle from Mount is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="safety-considerations" class="content-section">
 
-## Is Triangle from Mount Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Opponent's defensive frames create the triangle entry opportunity
 - Hip mobility and angle adjustment are critical for finishing
 - Maintain mount control throughout the transition to prevent escape
@@ -225,7 +225,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Established mount position with weight distributed properly
 - Opponent creates frame or underhook on one side of body
 - One of opponent's arms is positioned across their centerline
@@ -238,7 +238,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Identify Triangle Opening**: From mount, recognize when opponent creates a frame with their arm across your body or establishes an underhook. This defensive structure positions their arm perfectly across their own centerline, creating the triangle opportunity. Common triggers include opponent pushing your hip, framing against your chest, or attempting to create space for an elbow escape. (Timing: Recognition phase - 1-2 seconds) [Pressure: Light]
 2. **Control the Head and Trap the Arm**: Use your same-side hand to control opponent's head, pulling it forward and toward the side where you'll swing your leg. Simultaneously use your opposite hand to secure their framing arm, ensuring it stays across their centerline. This double control prevents them from pulling their arm back out and sets up the proper angle for the triangle. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Swing Leg Over Shoulder**: Post your outside hand on the mat for base, then swing your leg (same side as trapped arm) over opponent's shoulder and behind their head. Your shin should land across the back of their neck with your knee pointed toward the ceiling. Maintain control of their head throughout this movement to prevent them from turning away or escaping their arm. (Timing: 1-2 seconds during transition) [Pressure: Light]
@@ -251,7 +251,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Posture up strongly to prevent head control** (Effectiveness: High) - Your Adjustment: If opponent postures before triangle is locked, maintain mount and transition to different attack like armbar or arm triangle. Don't force the triangle from poor position.
 - **Pull trapped arm back across centerline** (Effectiveness: High) - Your Adjustment: React immediately by using both hands to secure their wrist and elbow, pulling the arm deeper across their neck while simultaneously swinging your leg over faster. Speed is critical in this moment.
 - **Turn toward trapped arm side to escape** (Effectiveness: Medium) - Your Adjustment: Follow their turn by maintaining triangle lock and adjusting your angle. Their turn often tightens the choke. You can also transition to armbar on the free arm if triangle loosens.
@@ -261,28 +261,28 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Swinging leg over too early before arm is secured [Low DANGER]
+## Common Mistakes
+- **Mistake**: Swinging leg over too early before arm is secured [Low DANGER]
   - **Consequence**: Opponent easily pulls their arm out and may escape mount entirely
   - **Correction**: Always establish firm control of both their head and arm before initiating the leg swing. The setup takes priority over speed.
-- **Error**: Locking triangle without proper angle adjustment [Low DANGER]
+- **Mistake**: Locking triangle without proper angle adjustment [Low DANGER]
   - **Consequence**: Choke is ineffective and opponent can breathe normally despite locked triangle
   - **Correction**: After locking, immediately angle your hips 45 degrees to the side and pull head down. The angle creates the choking pressure, not just the locked legs.
-- **Error**: Failing to break opponent's posture before applying pressure [Low DANGER]
+- **Mistake**: Failing to break opponent's posture before applying pressure [Low DANGER]
   - **Consequence**: Opponent maintains strong posture and can escape or resist the choke indefinitely
   - **Correction**: Use both hands to pull head down aggressively while extending your hips. Posture must be broken for the choke to work effectively.
-- **Error**: Releasing mount control completely during transition [Medium DANGER]
+- **Mistake**: Releasing mount control completely during transition [Medium DANGER]
   - **Consequence**: Opponent escapes to better position and triangle opportunity is lost
   - **Correction**: Maintain weight distribution and control until triangle is fully locked. Don't abandon mount until the new control structure is established.
-- **Error**: Applying maximum pressure immediately without progression [CRITICAL DANGER]
+- **Mistake**: Applying maximum pressure immediately without progression [CRITICAL DANGER]
   - **Consequence**: Partner cannot tap safely and risks injury or unconsciousness
   - **Correction**: CRITICAL SAFETY ERROR - Always apply pressure progressively over 3-5 seconds in training, monitoring tap signals constantly. Blood chokes work fast - control your application speed.
-- **Error**: Holding the choke after tap signal or partner going limp [CRITICAL DANGER]
+- **Mistake**: Holding the choke after tap signal or partner going limp [CRITICAL DANGER]
   - **Consequence**: Severe injury risk including unconsciousness, potential brain damage from prolonged oxygen deprivation
   - **Correction**: CRITICAL SAFETY ERROR - Release immediately upon any tap signal or loss of resistance. Monitor partner for 10-15 seconds after release. Never test how long someone can last.
-- **Error**: Forcing triangle when opponent's arm position is not ideal [Low DANGER]
+- **Mistake**: Forcing triangle when opponent's arm position is not ideal [Low DANGER]
   - **Consequence**: Ineffective submission attempt that wastes energy and potentially loses mount
   - **Correction**: Be patient and wait for proper arm position. If setup isn't clean, maintain mount and look for different attacks. Quality over speed.
 
@@ -291,7 +291,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Gift Wrap to Triangle**: From mount with gift wrap control (opponent's arm trapped behind their back), swing your leg over and catch triangle as you transition. The gift wrap prevents their arm from posting, making the triangle entry smoother. (When to use: When opponent gives you gift wrap control from mount, or when transitioning from back control attempts)
 
 **Americana Fake to Triangle**: Threaten Americana submission from mount to force opponent to defend by pulling their arm across their body, then immediately capitalize by swinging leg over for triangle. The Americana threat creates the perfect arm position. (When to use: Against opponents who know to defend Americana by pulling arm to centerline - their defense sets up your triangle)
@@ -334,7 +334,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (2 weeks, 3-4 sessions per week)
 - Focus: Understanding anatomy, mechanics, and safety protocols without live application. Study the position from demonstration and slow-motion video. Practice leg positioning and angle concepts on grappling dummy or with partner offering zero resistance.
 - Resistance: Zero resistance
@@ -371,7 +371,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Mount]]
 - [[High Mount]]
@@ -386,7 +386,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Armbar from Mount]]
@@ -424,7 +424,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The triangle from mount represents a sophisticated understanding of positional hierarchy combined with submission mechanics. What makes this technique particularly valuable is that it maintains the essential principle of position before submission - even during the submission attempt, you retain superior position. The critical detail that most practitioners miss is the timing of the arm isolation relative to the leg swing. The arm must be secured across the centerline and controlled with both your head control and arm control before you initiate the leg movement. If you swing your leg prematurely, intelligent opponents will immediately recognize the threat and pull their arm back to safety. The angle adjustment after locking is not optional - it's the difference between a tight choke that finishes in seconds and a loose position that allows indefinite resistance. When teaching this technique, I emphasize the safety protocols extensively because the mounted position gives you tremendous leverage and the choke can work very quickly. Students must develop the discipline to apply progressive pressure in training, reserving explosive application for competition only. The triangle from mount also serves as an excellent diagnostic tool for understanding whether a student truly comprehends positional control versus submission hunting mentality.
 - **Gordon Ryan**: In competition, the triangle from mount is one of my highest percentage finishes because opponents are forced to make the defensive mistake that creates the opening. When someone is getting smashed in mount, they instinctively try to create frames and space, which positions their arm exactly where I need it for the triangle. The key difference between training and competition application is commitment - in competition, once I recognize the arm position is correct, I attack the triangle explosively because any hesitation allows them to retrieve the arm. However, in the training room, I deliberately slow down the finish to protect my partners. My approach differs from pure self-defense methodology because I'm optimizing for IBJJF and ADCC competition contexts where points and time matter. If I'm up on points with two minutes remaining and get mount, threatening the triangle serves a strategic purpose even if I don't finish it - it prevents them from mounting effective offense and forces increasingly desperate escape attempts. One tactical detail I use that's competition-specific: if the triangle isn't finishing immediately, I'll use it to take the back as they turn to defend, maintaining offensive pressure throughout. The mounted triangle fits perfectly into my systematic mount attack sequence because the same arm isolation that sets up the triangle also sets up armbars and arm triangles, creating true dilemmas for the opponent.
 - **Eddie Bravo**: The triangle from mount is beautiful because it shows how traditional positions can incorporate rubber guard concepts and 10th Planet innovations. While the standard mounted triangle is solid, I encourage students to explore variations that incorporate our system's emphasis on control and unusual angles. One innovation we use is combining the mounted triangle setup with our mission control concepts - using the overhook and head control to create even tighter arm isolation before swinging the leg over. From a no-gi perspective especially, the mounted triangle requires extra emphasis on grip fighting and head control since you don't have the gi grips to secure the arm position. In our competition training, we also explore the mounted gogoplata as a backup if the triangle angle isn't perfect, since the shin-across-throat position is already established. The safety culture we maintain at 10th Planet is non-negotiable - students learn that being a savage on the competition mat requires being a professional in the training room. We drill the progressive pressure application religiously because blood chokes are no joke, and developing that control under pressure is what separates good training partners from dangerous ones. I also encourage creativity in how you set up the triangle from mount - maybe use a rubber guard position momentarily to secure the arm, or incorporate zombie control concepts. The fundamentals must be rock solid first, but then innovation comes from understanding why the technique works and exploring new paths to the same finish.

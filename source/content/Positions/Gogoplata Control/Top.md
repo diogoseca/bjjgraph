@@ -8,7 +8,7 @@ description: "Master defending and escaping gogoplata control from top position 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master defending and escaping gogoplata control from top position 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master defending and escaping gogoplata control from top position 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 20% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 20%.
 
 ---
 
@@ -197,7 +197,7 @@ The position also provides important lessons about submission defense principles
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's head is trapped with bottom player's shin across throat creating direct pressure on trachea, while bottom player's foot is secured behind top player's head preventing conventional head extraction through backward movement
 - Top player maintains some base with hands posted on mat or controlling bottom player's hips, though posture is severely compromised by the shin-across-throat position and forward lean is unavoidable due to foot-behind-head configuration
@@ -208,7 +208,7 @@ The position also provides important lessons about submission defense principles
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has achieved high guard or rubber guard control with top player's posture broken
 - Bottom player possesses sufficient flexibility to thread leg across throat and secure foot behind head
@@ -236,7 +236,7 @@ The position also provides important lessons about submission defense principles
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Head Extraction to Posture]] → [[Closed Guard]]
 
@@ -286,7 +286,7 @@ The position also provides important lessons about submission defense principles
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Gogoplata Finish]]** → [[Lost by Submission]] (Opponent Success: 50%)
 - **[[Triangle Transition]]** → [[Triangle Control]] (Opponent Success: 65%)
@@ -299,7 +299,7 @@ The position also provides important lessons about submission defense principles
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Immediate Posture Recovery]]** → [[Closed Guard]]
   - Bottom player loses hip elevation allowing brief window for posture restoration
@@ -339,7 +339,7 @@ The position also provides important lessons about submission defense principles
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

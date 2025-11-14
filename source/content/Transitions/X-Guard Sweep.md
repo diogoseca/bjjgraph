@@ -8,7 +8,7 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
 
 
 
-> **Quick Answer**: X-Guard Sweep transitions from [[X-Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> X-Guard Sweep transitions from [[X-Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain strong connection between X-hook and opponent's far leg throughout the sweep
 - Use the bottom leg hook to elevate and destabilize opponent's base
 - Control opponent's near leg with top hook to prevent posting
@@ -180,7 +180,7 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established X-Guard position with both hooks in place
 - Strong connection between bottom leg (X-hook) and opponent's far leg
 - Top leg hook controlling opponent's near leg at the hip or thigh
@@ -194,7 +194,7 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure X-Guard position**: Establish complete X-Guard control with your bottom leg (X-hook) threaded across opponent's far leg, instep positioned behind their knee. Your top leg hooks their near leg at the hip level, controlling their base. Grip their ankle or pant leg with your same-side hand while your opposite hand controls their belt or gi material at the hip. (Timing: Before opponent establishes strong passing pressure)
 2. **Break opponent's posture and base**: Pull down on the ankle grip while simultaneously driving your X-hook upward into their far leg, lifting it off the ground. This removes one of their two primary base points. Your top hook simultaneously pulls their near leg toward you, preventing them from widening their base or stepping away to recover balance. (Timing: As opponent commits weight forward or attempts to pass)
 3. **Create elevation angle**: Drive your hips upward and toward the opponent's supporting leg while maintaining tension on all control points. Your X-hook should be lifting their far leg progressively higher, creating a diagonal elevation that compromises their center of gravity. Angle your body approximately 45 degrees relative to their centerline to maximize mechanical advantage. (Timing: Immediately after breaking their base)
@@ -207,7 +207,7 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent widens base and lowers hips to create heavy pressure downward** (Effectiveness: Medium) - Your Response: Switch to technical stand-up or transition to Single Leg X-Guard to attack from different angle. Alternatively, switch to opposite side X-Guard sweep if they overcommit to one direction.
 - **Opponent posts hand on mat to prevent completion of sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with armbar or triangle setup, or redirect sweep to opposite side, using their posting as a pivot point for rotational momentum.
 - **Opponent steps back with far leg to remove X-hook connection** (Effectiveness: High) - Your Response: Follow their backward movement by inverting or transitioning to Deep Half Guard. Can also transition to standard butterfly guard if they step completely back.
@@ -217,25 +217,25 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweep without sufficient elevation of opponent's far leg
+## Common Mistakes
+- **Mistake**: Attempting sweep without sufficient elevation of opponent's far leg
   - **Consequence**: Opponent maintains stable base and easily defends the sweep by posting or widening stance
   - **Correction**: Focus on lifting the X-hook leg higher before initiating rotational force. The far leg should be elevated well above the mat before committing to the sweep.
-- **Error**: Releasing grips too early during the sweep execution
+- **Mistake**: Releasing grips too early during the sweep execution
   - **Consequence**: Loss of control allows opponent to post hands, recover base, or scramble back to neutral position
   - **Correction**: Maintain all grips and hooks throughout the entire sweeping motion until opponent's back hits the mat. Only release control points once you're actively securing top position.
-- **Error**: Failing to follow opponent's falling trajectory after the sweep
+- **Mistake**: Failing to follow opponent's falling trajectory after the sweep
   - **Consequence**: Opponent recovers guard or creates scramble situation instead of giving up dominant position
   - **Correction**: Immediately follow the sweep by driving your body forward and upward, maintaining chest-to-chest pressure as opponent falls. Think of the sweep and position acquisition as one continuous motion.
-- **Error**: Using only rotational force without adequate upward elevation
+- **Mistake**: Using only rotational force without adequate upward elevation
   - **Consequence**: Sweep becomes a pushing motion that strong opponents can resist by lowering their center of gravity
   - **Correction**: Prioritize upward elevation with the X-hook first to compromise their base, then add rotational force. The combination of vertical and horizontal forces is what makes the sweep unstoppable.
-- **Error**: Positioning body directly underneath opponent instead of at an angle
+- **Mistake**: Positioning body directly underneath opponent instead of at an angle
   - **Consequence**: Reduced leverage and mechanical advantage, making sweep require significantly more strength
   - **Correction**: Angle your torso and hips approximately 45 degrees from opponent's centerline. This creates superior leverage and allows your body mechanics to do the work instead of relying on strength.
-- **Error**: Neglecting to control opponent's near leg with top hook
+- **Mistake**: Neglecting to control opponent's near leg with top hook
   - **Consequence**: Opponent steps away or widens base to defend sweep, or uses free leg to pass guard
   - **Correction**: Maintain constant tension with top hook throughout setup and execution. This hook is essential for removing opponent's ability to create a recovery base.
 
@@ -244,7 +244,7 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Learning proper X-Guard position and basic sweeping motion
 Partner starts standing in combat base. Practice entering X-Guard from butterfly guard or open guard. Focus on proper hook placement and elevation mechanics without resistance. Partner allows sweep to complete so you can feel the correct motion pattern.
 (Resistance: None)
@@ -275,7 +275,7 @@ Develop personal X-Guard attacking system integrating sweeps, submissions, and t
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **X-Guard Sweep to Back Take**: Instead of coming to mount or side control, maintain top hook on near leg and shoot your free leg over their back as they fall. Use the momentum of the sweep to establish seat belt control and secure back control position. (When to use: When opponent turns away during the sweep or when back control is more advantageous for your game plan than top position)
 
 **Technical Stand-Up X-Guard Sweep**: From X-Guard, use the hooks and grips to base on your free hand and come up to a technical stand-up position while maintaining leg control. From standing, execute the sweep with additional downward pressure from your elevated position. (When to use: Against particularly heavy or defensive opponents who are difficult to sweep from bottom position, or when you need to create more space)
@@ -318,7 +318,7 @@ Develop personal X-Guard attacking system integrating sweeps, submissions, and t
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The X-Guard Sweep is generally low-risk when practiced correctly, but practitioners should be aware of several safety factors. When falling after being swept, avoid posting with stiff arms as this can lead to wrist, elbow, or shoulder injuries. Instead, practice proper breakfall technique by slapping the mat with your arm and tucking your chin. The sweeping player must control the descent and avoid spiking the opponent or causing them to land on their head or neck. Release hooks if the sweep goes wrong to prevent knee or ankle torque. For the bottom player, be cautious of your own knee health by not forcing hooks into positions that create excessive twisting pressure on your knee joints. Start with slow, controlled repetitions and gradually increase speed as both partners develop familiarity with the movement patterns.
 
@@ -326,7 +326,7 @@ The X-Guard Sweep is generally low-risk when practiced correctly, but practition
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The X-Guard Sweep serves as the primary offensive weapon within the X-Guard attacking system and connects to multiple positions and techniques. It typically follows entries from butterfly guard, De La Riva guard, or single leg X-guard, representing a natural progression in the guard retention and attack hierarchy. When the sweep succeeds, it leads directly to dominant positions like mount, side control, knee on belly, or back control depending on how the opponent falls and defends. If the sweep is defended, it creates opportunities to transition to submissions (armbar, triangle, kneebar) or alternative sweeps and positions. The X-Guard Sweep integrates with the broader guard game by providing a high-percentage method to achieve top position against standing or combat base opponents. Understanding this sweep is essential for developing a complete bottom game, as it represents one of the most mechanically sound methods to off-balance and sweep an opponent who maintains an upright posture.
 
@@ -334,7 +334,7 @@ The X-Guard Sweep serves as the primary offensive weapon within the X-Guard atta
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[X-Guard]] - Starting Position
 - [[Single Leg X-Guard]] - Alternative Position
@@ -357,7 +357,7 @@ The X-Guard Sweep serves as the primary offensive weapon within the X-Guard atta
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The X-Guard Sweep exemplifies fundamental mechanical principles that govern all effective sweeping techniques in Brazilian Jiu-Jitsu. At its core, this sweep succeeds because it eliminates the opponent's ability to maintain a stable base through systematic removal of contact points with the ground. The X-hook creates elevation by lifting one leg completely away from the mat, while the top hook prevents compensatory base widening with the remaining leg. This creates what I call a 'base denial system' where the opponent cannot establish stability regardless of their strength or size. The brilliance of the position lies in its mechanical advantage - your entire body's leveraging power acts through two specific control points on their legs, creating a force multiplication effect that makes the sweep nearly unstoppable when executed with proper timing. Students must understand that this is not a strength-based technique but rather a leverage-based system where body positioning and angle of attack determine success far more than muscular power. The sweep should feel effortless when performed correctly because you're working with superior mechanical advantage.
 - **Gordon Ryan**: In high-level competition, the X-Guard Sweep is one of my highest percentage techniques for achieving top position against standing opponents. What makes it particularly effective at elite levels is that it attacks during the exact moment when opponents are most vulnerable - when they're attempting to pass or establish pressure from standing. I've found that most competitors underestimate the power of the X-Guard elevation until it's too late to defend. My preferred execution focuses on explosive commitment once I've established the position - there's no slow, gradual sweeping motion that gives them time to react. I create the elevation with my X-hook, then immediately drive the rotational force to complete the sweep before they can post or widen their base. The key competitive insight is understanding that modern guard passing involves a lot of standing pressure and movement, which actually makes the X-Guard Sweep more effective than ever. When opponents are moving and shifting their weight, they're constantly creating the exact timing windows you need to execute the sweep. I also use the threat of the sweep to set up leg attacks and back takes, making it a central component of my entire guard attacking system rather than an isolated technique.
 - **Eddie Bravo**: The X-Guard Sweep is beautiful because it's one of those techniques that works equally well in gi and no-gi, which makes it essential for the modern submission grappler. In the 10th Planet system, we view X-Guard as a transition hub rather than a static position - you're constantly flowing between X-Guard, single leg X, and technical stand-ups depending on what the opponent gives you. The sweep itself becomes even more powerful when you combine it with our lockdown and rubber guard concepts, creating multiple attacking layers. What I love teaching students is the psychological warfare aspect of X-Guard - once you sweep someone hard a few times from this position, they become paranoid about standing in your guard, which opens up all your other attacks. The no-gi variation requires you to be more aggressive and committed because you don't have gi grips to fall back on, but that actually makes your technique sharper. I encourage students to explore unorthodox grips and angles from X-Guard, like controlling the back of the knee instead of the ankle, or using overhooks instead of underhooks on the upper body. The fundamental sweeping mechanics remain the same, but these grip variations create confusion and prevent opponents from developing standardized defensive patterns against your X-Guard game.

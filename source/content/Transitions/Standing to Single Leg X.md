@@ -8,7 +8,7 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 
 
 
-> **Quick Answer**: Standing to Single Leg X transitions from [[Standing Position]] to [[Single Leg X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Standing to Single Leg X transitions from [[Standing Position]] to [[Single Leg X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Time entry when opponent steps forward or shifts weight
 - Maintain strong sleeve or wrist control throughout transition
 - Drop hips below opponent's knee line for proper positioning
@@ -180,7 +180,7 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing engagement with opponent in upright posture
 - Strong grip on opponent's sleeve, wrist, or collar
 - Opponent's weight distributed evenly or favoring one leg
@@ -193,7 +193,7 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grip control**: Secure a strong grip on opponent's sleeve or wrist with your same-side hand. In gi, collar grips also work effectively. This grip prevents opponent from sprawling backward and maintains connection throughout the entry. (Timing: Before initiating level change)
 2. **Drop level and step in**: Explosively drop your hips below the opponent's knee line while stepping your lead foot between their legs. Your chest should angle toward their thigh as you change levels, similar to a single leg takedown setup but with different finishing mechanics. (Timing: Execute when opponent steps forward or shifts weight)
 3. **Insert inside hook**: As you drop, immediately insert your inside leg (same side as grip) behind opponent's near knee. Your shin should slide across the back of their knee joint while your foot hooks around to their inner thigh. This hook is the foundation of Single Leg X control. (Timing: Simultaneously with level change)
@@ -206,7 +206,7 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls backward and extracts leg** (Effectiveness: High) - Your Response: Maintain grip tension and follow their backward motion. If leg escapes, immediately transition to De La Riva Guard or Reverse De La Riva Guard by adjusting hook placement. Don't release grips during their defensive movement.
 - **Opponent drives forward pressure and smashes hook** (Effectiveness: Medium) - Your Response: Use outside foot to create frame and prevent chest-to-chest contact. If pressure continues, invert under their hips and transition to X-Guard or Reverse X-Guard by adding second hook. Never allow flat back position under pressure.
 - **Opponent grips your pants/ankle and blocks hook insertion** (Effectiveness: Medium) - Your Response: If hook is denied, immediately convert to Ankle Pick Sweep or Tripod Sweep using the same grips and positioning. Alternatively, use outside foot to push hip and create space for hook re-entry. Multiple sweep threats prevent static defense.
@@ -215,22 +215,22 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing grip control during level change
+## Common Mistakes
+- **Mistake**: Releasing grip control during level change
   - **Consequence**: Opponent can sprawl backward or disengage completely, nullifying the entry attempt and creating scramble situation
   - **Correction**: Maintain constant tension on sleeve/wrist grip throughout entire movement. Grip should pull opponent forward as you drop, preventing backward escape.
-- **Error**: Not dropping hips low enough below opponent's knee
+- **Mistake**: Not dropping hips low enough below opponent's knee
   - **Consequence**: Insufficient depth allows opponent to drive forward pressure and smash you flat, eliminating guard position and leading to top control
   - **Correction**: Explosively drop hips until your buttocks are nearly touching the mat. Your shoulder should be at or below their knee level for proper positioning.
-- **Error**: Failing to establish outside foot frame on hip
+- **Mistake**: Failing to establish outside foot frame on hip
   - **Consequence**: Opponent can collapse forward into you, smashing the position and passing to side control or achieving leg drag position
   - **Correction**: Immediately place outside foot on hip bone or lower abdomen as you sit. This frame is non-negotiable for maintaining proper distance and sweep mechanics.
-- **Error**: Static positioning without immediate sweep attempt
+- **Mistake**: Static positioning without immediate sweep attempt
   - **Consequence**: Opponent stabilizes their base, grips your pants/belt, and begins methodical passing sequence. Static Single Leg X is easily defeated
   - **Correction**: Elevate and off-balance opponent within 1-2 seconds of establishing position. Constant movement prevents their defensive adjustments and maintains offensive initiative.
-- **Error**: Inside hook placed too high on thigh instead of knee
+- **Mistake**: Inside hook placed too high on thigh instead of knee
   - **Consequence**: Insufficient control of leg allows opponent to extract and pass. Hook must control knee joint for effective leverage and sweep mechanics
   - **Correction**: Insert shin directly across back of opponent's knee with foot hooking around inner thigh. Your shin should create 90-degree bend in their leg when you elevate.
 
@@ -239,7 +239,7 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Entry Drilling** - Fundamental positioning and body mechanics
 Partner stands stationary while you drill entry from standing. Focus on grip control, level change depth, hook insertion timing, and sitting to proper hip position. Repeat 20-30 repetitions per training session, emphasizing smooth movement flow and correct final position. Partner provides zero resistance.
 (Resistance: None)
@@ -270,7 +270,7 @@ Integrate Standing to Single Leg X with alternative entries (Ankle Pick Sweep, D
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Collar Drag to Single Leg X**: Instead of sleeve grip, establish strong collar grip (gi only) and drag opponent forward as you drop levels. The collar drag breaks their posture and pulls them off-balance, making the Single Leg X entry more secure. This variation is particularly effective against opponents who maintain rigid upright posture. (When to use: Against gi opponents with strong upright posture who resist forward breaking. Collar control prevents backward escape during entry.)
 
 **Ankle Pick to Single Leg X Conversion**: Begin with Ankle Pick entry by grabbing opponent's ankle and pulling upward while dropping level. If they defend the Ankle Pick by pulling leg back, immediately convert to Single Leg X by inserting inside hook behind their knee. The Ankle Pick threat disguises the Single Leg X entry and creates defensive dilemma. (When to use: When opponent expects traditional guard pulls and defends high. Ankle Pick attacks low leg, then Single Leg X capitalizes on their defensive reaction.)
@@ -310,7 +310,7 @@ Integrate Standing to Single Leg X with alternative entries (Ankle Pick Sweep, D
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Standing to Single Leg X transition is generally low-risk when executed properly, but several safety considerations must be observed. When dropping to the guard position, ensure adequate mat space and awareness of surroundings to prevent collision with walls, other training partners, or equipment. During initial learning phases, communicate with your partner about the entry timing to prevent unexpected drops that could cause awkward falls or knee impacts. For the partner being pulled into Single Leg X, maintain awareness of leg positioning to avoid twisting forces on the knee joint - if the bottom player's technique is incorrect or overly aggressive, verbally indicate discomfort immediately. When drilling sweep completions, both practitioners should control the descent to the mat rather than allowing hard slams. Partners with existing knee injuries should communicate limitations before drilling this position, as the leg control and elevation can stress knee ligaments if the injured leg is the trapped leg.
 
@@ -318,7 +318,7 @@ The Standing to Single Leg X transition is generally low-risk when executed prop
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Standing to Single Leg X transition occupies a critical position in modern BJJ guard pulling strategy, serving as a fundamental entry point to the entire leg entanglement system. This technique connects standing engagement directly to offensive guard positions, bypassing traditional seated guards and creating immediate sweep threats. From Single Leg X, practitioners can access the full spectrum of leg attack positions including X-Guard, Reverse X-Guard, Inside Ashi-Garami, and Outside Ashi-Garami through systematic transitions. The position integrates seamlessly with other standing guard entries such as De La Riva Guard pulls and Shin-to-Shin Guard establishment, creating multiple-threat combinations that prevent static defensive patterns. In competition sequences, this entry serves as both a primary guard pull option and a backup when traditional pulls are defended. The technique's importance has increased dramatically in modern no-gi grappling, where leg entanglements dominate competitive strategies. Understanding this transition is essential for developing coherent guard systems that flow from standing to ground positions with maintained offensive initiative.
 
@@ -326,7 +326,7 @@ The Standing to Single Leg X transition occupies a critical position in modern B
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Single Leg X-Guard]] - Ending position - complete position guide
 - [[X-Guard]] - Related position - transition option with second hook
@@ -349,7 +349,7 @@ The Standing to Single Leg X transition occupies a critical position in modern B
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Standing to Single Leg X entry represents a fundamental principle of modern guard pulling strategy: the conversion of standing engagement into immediate offensive advantage through biomechanical leverage. Traditional guard pulls often result in neutral positions where both athletes must fight for advantage, but Single Leg X creates instant asymmetry - you control one of their legs completely while maintaining distance management through your outside foot frame. The critical technical element that most practitioners miss is the depth of hip descent during entry. Your hips must drop below their knee level to establish proper positioning; insufficient depth allows forward pressure that destroys the guard structure. The inside hook functions as a fulcrum around their knee joint, and when combined with proper hip positioning and grip control, creates a simple machine where small movements generate large sweeping forces. Understand that this position exemplifies the concept of 'control before submission' - establish dominant structural position first, then attack. The immediate sweep attempt after entry prevents defensive stabilization and maintains offensive momentum, which is the hallmark of effective guard work.
 - **Gordon Ryan**: In competition, the Standing to Single Leg X pull is one of my highest-percentage entries because it creates problems for the top player immediately. Most opponents expect traditional guard pulls to seated positions, so dropping under their leg catches them in transition before they can establish defensive posture. The key to making this work at the highest level is understanding timing - you need to hit the entry as they step forward or shift weight, not when they're stationary with even weight distribution. I always think about this entry as part of a combination system. If they defend the Single Leg X pull by sprawling back, I'm already transitioning to Reverse De La Riva or standing back up for another entry. If they drive forward into it, I'm inverting under or converting to X-Guard with the second hook. The worst thing you can do is get stuck in static Single Leg X while they grip your pants and start passing - you have maybe two seconds to sweep or transition before you're defending. In no-gi especially, this entry opens up the entire leg entanglement game, which is where modern competition is won. Master this entry and you control how the match flows from standing to ground.
 - **Eddie Bravo**: The Standing to Single Leg X pull is crucial in the 10th Planet system because it gets you immediately into leg attack positions without playing traditional guards that rely on gi grips. In no-gi, controlling distance and creating sweep angles is everything, and Single Leg X gives you both instantly. What makes this entry special is how it combines takedown-style level changes with guard pulling mechanics - you're essentially shooting a single leg but converting to bottom position with control. The grip work here is critical in no-gi since you don't have cloth to hold. I prefer wrist control over sleeve grips because it translates to no-gi perfectly and gives you direct connection to their arm. Once you establish this position, you've got all the Eddie Bravo modification options - you can invert into Electric Chair territory, you can come up for the technical stand-up, or you can start working into the Honey Hole leg entanglement system. The beauty is that from Standing to Single Leg X, you're never just defending - you're constantly attacking with sweeps and leg locks. Train this entry until it's automatic because in no-gi competition, whoever establishes bottom position first with offensive advantage usually controls the entire guard passing exchange.

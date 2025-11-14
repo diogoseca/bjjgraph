@@ -8,7 +8,7 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 
 
 
-> **Quick Answer**: Anaconda from Turtle transitions from [[Turtle]] to [[Anaconda Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+> Anaconda from Turtle transitions from [[Turtle]] to [[Anaconda Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Thread far arm deep under neck with palm-down orientation toward near shoulder
 - Trap the near arm (not far arm) between your choking arm and their neck
 - Secure tight figure-four grip before initiating roll
@@ -186,7 +186,7 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Turtle top position established with chest pressure on opponent
 - Opponent's near-side arm accessible for trap
 - Control of opponent's near arm with your hand
@@ -200,7 +200,7 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish Position**: Secure turtle top position with chest pressure on opponent's back while controlling their near-side arm with your hand. Maintain tight top pressure to prevent them from standing or rolling before you're ready to attack. Your weight should be distributed forward to keep them flattened and unable to create defensive space.
 2. **Arm Threading**: Thread your far-side arm under opponent's neck toward their near shoulder, maintaining palm-down position throughout. Drive your arm deep until your wrist clears past their near shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be.
 3. **Trap Near Arm**: Ensure opponent's near arm is trapped between your choking arm and their neck - this is the critical element that distinguishes anaconda from D'arce. The near arm creates pressure on one carotid while your bicep targets the other side. Verify the arm is fully trapped before proceeding to next step.
@@ -214,7 +214,7 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Pull Arm In - opponent retracts near arm before trap is secured** (Effectiveness: High) - Your Response: Recognize early and transition to different attack from turtle top such as Darce (trap far arm instead), or pursue the arm as they pull it in and follow to back take position
 - **Base Out - opponent posts with free arm to prevent roll** (Effectiveness: Medium) - Your Response: Maintain pressure and grip, walk your body around their posted base to find new rolling angle, or transition to side control position while maintaining front headlock control and threatening guillotine
 - **Counter Roll - opponent rolls opposite direction to escape** (Effectiveness: Medium) - Your Response: Maintain grip and use their momentum to adjust to new angle, follow their roll while keeping figure-four locked, or release and scramble for dominant position if grip is compromised
@@ -224,25 +224,25 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Trapping far arm instead of near arm
+## Common Mistakes
+- **Mistake**: Trapping far arm instead of near arm
   - **Consequence**: Changes technique to D'arce instead of anaconda, requires different finishing angle and mechanics, cannot generate effective pressure even with correct roll
   - **Correction**: Identify which arm is closest to you (near arm) and trap that one specifically for anaconda mechanics. Near arm trap is what defines the anaconda. If you have far arm, commit to D'arce instead.
-- **Error**: Hesitating or delaying the roll after securing grip
+- **Mistake**: Hesitating or delaying the roll after securing grip
   - **Consequence**: Gives opponent time to base out with free arm and prevent roll completion, losing the momentum advantage that makes this technique effective
   - **Correction**: Commit immediately to roll once figure-four grip is locked tight. Speed and decisiveness are critical - the roll must happen within 1 second before they can react defensively.
-- **Error**: Rolling in wrong direction or insufficient roll momentum
+- **Mistake**: Rolling in wrong direction or insufficient roll momentum
   - **Consequence**: Incorrect angle prevents proper carotid compression, technique feels weak despite having proper arm trap and grip, opponent may escape during transition
   - **Correction**: Roll decisively to the side that brings opponent over their trapped arm. Commit fully to the rolling motion with momentum. Use your legs to generate explosive rotation.
-- **Error**: Not maintaining tight grip during roll transition
+- **Mistake**: Not maintaining tight grip during roll transition
   - **Consequence**: Loose grip allows opponent to create space and escape during the rolling motion when position is most vulnerable, complete loss of submission opportunity
   - **Correction**: Lock figure-four grip extremely tight before initiating roll. Maintain maximum tightness throughout entire rolling transition. Pull elbows together continuously.
-- **Error**: Threading arm too shallow, not reaching past near shoulder
+- **Mistake**: Threading arm too shallow, not reaching past near shoulder
   - **Consequence**: Insufficient arm depth means proper choking position is never achieved, cannot secure effective squeeze even after rolling, opponent easily escapes
   - **Correction**: Drive threading arm deep until wrist clearly clears opponent's near shoulder. Depth is essential for proper mechanics. If you cannot achieve depth, attack different technique.
-- **Error**: Failing to control near arm before threading
+- **Mistake**: Failing to control near arm before threading
   - **Consequence**: Opponent pulls arm free during setup, preventing trap and eliminating anaconda opportunity entirely
   - **Correction**: Establish control of near arm first with your hand, then thread your choking arm while maintaining that control. Arm must be secured before neck threading begins.
 
@@ -251,7 +251,7 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Solo Practice (Week 1-2)** - Rolling motion and arm threading mechanics
 Practice rolling motion with grappling dummy to develop coordination and muscle memory. Work arm threading depth and palm-down positioning without resistance. Focus on smooth, controlled rolls that end in proper finishing position. Develop comfort with the inverted positions created by rolling motion.
 (Resistance: None)
@@ -282,7 +282,7 @@ Work with advanced partners who defend with various reactions and counter-techni
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Gi Anaconda**: Can use gi grips for additional control though technique is primarily designed for no-gi. Collar grips can supplement the figure-four, and lapel can be used to enhance the choke. Sleeve control makes arm trapping easier. (When to use: In gi training when additional grip options are available to enhance control and finishing pressure)
 
 **No-Gi Standard**: Primary application relying entirely on arm trap and body mechanics. Pure figure-four grip without gi assists. This is the foundational version and most commonly used in submission grappling and MMA. (When to use: No-gi competition, submission grappling, MMA applications where gi grips are unavailable)
@@ -327,7 +327,7 @@ Work with advanced partners who defend with various reactions and counter-techni
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the anaconda from turtle, execute the rolling motion smoothly and controlled to prevent partner from landing awkwardly or being thrown with excessive force. Apply choking pressure gradually in training, never explosively or with full force. Monitor partner's response carefully and release immediately upon tap signal - do not hold chokes after submission. Ensure partner is prepared for the rolling motion before initiating and communicate during initial drilling phases. Be particularly mindful of neck safety during the roll transition, supporting partner's head and neck during the movement. In drilling, use progressive resistance to build coordination before attempting at full speed or with full resistance. Partners should communicate clearly about comfort level with rolling techniques and inversion. Never practice this technique on untrained partners who do not understand tap protocols. Be aware that bilateral chokes can cause unconsciousness rapidly - maintain awareness of partner's state throughout application.
 
@@ -335,7 +335,7 @@ When practicing the anaconda from turtle, execute the rolling motion smoothly an
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The anaconda from turtle is part of the front headlock family and represents a high-level submission setup from turtle top control. It connects to the broader turtle attack system where you have options including back takes, guillotines, D'arce chokes, and now the anaconda. The technique is particularly valuable because turtle is a common defensive position in both gi and no-gi grappling - opponents frequently turtle to defend guard passes or back attacks, making the anaconda readily available. It integrates with modern no-gi systems emphasizing front headlock control, submission wrestling, and dynamic transitions. The rolling element makes it especially effective in scramble situations where momentum can be used to your advantage. In competition, it serves as both a submission threat and position improvement tool - even if the choke doesn't finish, you often establish dominant side control or back position. The anaconda has become fundamental in 10th Planet Jiu-Jitsu and Eddie Bravo's system, as well as in submission grappling competitions like ADCC where turtle attacks are heavily rewarded. It fits within the broader front headlock series alongside guillotine, D'arce, Japanese necktie, and marce variations, creating a complete attacking system from this control position. Understanding anaconda mechanics also improves your overall front headlock game and teaches important principles about bilateral pressure, arm trapping, and dynamic movement.
 
@@ -343,7 +343,7 @@ The anaconda from turtle is part of the front headlock family and represents a h
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Darce from Turtle]] - Alternative - similar front headlock choke but traps far arm instead of near arm, different finishing mechanics
 - [[Guillotine from Turtle]] - Alternative - different choke option from turtle top position using neck control without arm trap
@@ -363,7 +363,7 @@ The anaconda from turtle is part of the front headlock family and represents a h
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The anaconda from turtle is technically similar to the D'arce but requires an additional element of rolling to secure the optimal finishing angle. The critical distinction is that you trap the near arm rather than the far arm, and the finish typically involves rolling to your side or back rather than staying on top. Thread your arm deep with palm down, ensuring the near arm is trapped between your choking arm and their neck. The rolling motion is not just a finishing detail - it's essential for creating the proper choking angle where your bicep compresses one carotid artery while their own trapped arm and shoulder compress the other. The biomechanics demand bilateral pressure, which only functions correctly after the roll inverts the position. Many practitioners fail this technique because they don't commit fully to the roll or they trap the wrong arm. Identify the near arm explicitly before beginning your attack sequence.
 - **Gordon Ryan**: The anaconda from turtle is one of my favorite techniques because it's unexpected and the roll momentum often secures the finish before they can defend properly. The key is committing to the roll once you have the grip - hesitation gives them time to base out and kill the whole technique. I thread the arm deep, lock that figure-four grip tight, and immediately roll to my side without any delay. Even if the choke doesn't finish right away, I've usually secured a dominant control position with multiple attacking options. It's a high-reward technique when executed with speed and confidence. In competition, I use it as both a submission threat and position advancement - the worst case scenario is I end up in side control with front headlock control, which is still excellent. The best case is a quick tap within seconds of hitting the roll. Practice this until the motion is completely automatic and you can execute it explosively.
 - **Eddie Bravo**: We use the anaconda constantly in our system, especially from turtle and during scrambles. The beautiful thing about the anaconda is the roll - it's dynamic, it's aggressive, and opponents don't see it coming until it's too late. Once you get comfortable with that gator roll motion, you can hit anacondas from all kinds of positions and situations. From turtle it's especially good because they're already in a compromised position and thinking about other defenses. Thread deep, trap that near arm - not the far one, that's a D'arce - and roll hard with commitment. The momentum does half the work for you. We drill this extensively because it teaches important principles about dynamic movement and using momentum in submissions. Don't be timid with the roll - commit to it fully. The anaconda is one of those techniques that separates people who just know moves from people who can actually finish in live situations.

@@ -8,7 +8,7 @@ description: "Master Triangle from Guard in BJJ. Complete safety guide covering 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Triangle from Guard in BJJ. Complete safety guide covering 
 
 
 
-> **Quick Answer**: Triangle from Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Triangle from Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="safety-considerations" class="content-section">
 
-## Is Triangle from Guard Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -210,7 +210,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Break opponent's posture before attempting triangle entry
 - Create proper angle (45 degrees) to maximize compression and prevent escape
 - Lock triangle deep with opponent's shoulder touching your hip
@@ -224,7 +224,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent's posture must be broken forward (head and shoulders pulled down)
 - Clear control of at least one sleeve or wrist to prevent posting
 - Sufficient hip mobility to bring leg over opponent's shoulder
@@ -237,7 +237,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Break Posture and Control Arm**: From closed guard, establish a strong collar grip with one hand and sleeve grip with the other. Break the opponent's posture by pulling down on the collar while simultaneously pulling one arm across your centerline. The opponent's elbow should cross your body's midline, creating the angle needed for triangle entry. Use your legs to squeeze and assist in breaking posture if needed. (Timing: 2-3 seconds of sustained pulling pressure) [Pressure: Moderate]
 2. **Create Angle and Swing Leg Over**: While maintaining the broken posture, use your hips to create a 45-degree angle to the side of the arm you're attacking. Open your guard and immediately swing your leg (same side as the attacking arm) high over the opponent's shoulder and behind their head. The back of your knee should touch the side of their neck. Keep the other leg active on their hip to prevent them from posturing up or passing. (Timing: 1-2 seconds - must be quick to prevent escape) [Pressure: Light]
 3. **Lock the Triangle Configuration**: Bring your opposite leg across to create the figure-four lock. Place your ankle behind the knee of the leg that's over their shoulder. Ensure the opponent's shoulder is pulled tight to your hip - this is critical as their own shoulder will be compressing one side of their neck. The trapped arm should be pulled across your body, keeping their elbow tight to your centerline. (Timing: 2-3 seconds to establish secure lock) [Pressure: Moderate]
@@ -250,7 +250,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Posturing up aggressively to create space** (Effectiveness: High) - Your Adjustment: Immediately pull head down with collar grip while using legs to squeeze and break posture. If they succeed in posturing, transition to armbar or omoplata rather than fighting to maintain compromised triangle.
 - **Stacking by driving forward and stacking your shoulders to mat** (Effectiveness: High) - Your Adjustment: Adjust angle more perpendicular to opponent's body (closer to 90 degrees). Use hands to push on their hip while simultaneously scooting your shoulders away from them. Can also transition to omoplata if stack becomes too severe.
 - **Pulling trapped arm out to create space in triangle** (Effectiveness: Medium) - Your Adjustment: Immediately switch to armbar on the escaping arm, or if they pull arm completely out, quickly reconfigure triangle on other arm. Maintain leg position around head while transitioning.
@@ -260,28 +260,28 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting triangle with opponent in strong posture [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting triangle with opponent in strong posture [Low DANGER]
   - **Consequence**: Opponent easily defends by maintaining base and preventing leg from getting over shoulder
   - **Correction**: Always break posture first with strong collar and sleeve grips. Be patient and wait for opponent's posture to break before attempting triangle entry.
-- **Error**: Locking triangle too high on opponent's head/face instead of neck [Low DANGER]
+- **Mistake**: Locking triangle too high on opponent's head/face instead of neck [Low DANGER]
   - **Consequence**: No pressure on carotid arteries, allows opponent to breathe and escape easily
   - **Correction**: Ensure triangle locks deep with leg positioned behind their neck, not on top of their head. Their shoulder should be pulled tight to your hip bone.
-- **Error**: Staying too square to opponent instead of creating angle [Medium DANGER]
+- **Mistake**: Staying too square to opponent instead of creating angle [Medium DANGER]
   - **Consequence**: Opponent can stack you, pressure your lower back, and escape more easily
   - **Correction**: Immediately create 45-degree angle after locking triangle. Scoot hips to the side of trapped arm and maintain this angle throughout finish.
-- **Error**: Not controlling the trapped arm properly [Low DANGER]
+- **Mistake**: Not controlling the trapped arm properly [Low DANGER]
   - **Consequence**: Opponent pulls arm free, creates space, and escapes the triangle
   - **Correction**: Keep opponent's arm pulled tight across your centerline throughout entire sequence. Can grip their wrist, triceps, or use head control to keep arm trapped.
-- **Error**: Jerking or spiking the choke with sudden violent pressure [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the choke with sudden violent pressure [CRITICAL DANGER]
   - **Consequence**: Risk of cervical spine injury, neck strain, or causing partner to panic
   - **Correction**: Apply pressure progressively over 3-5 seconds minimum. Squeeze smoothly and steadily while monitoring partner's reaction. This is a blood choke, not a neck crank.
-- **Error**: Maintaining triangle pressure after partner taps [CRITICAL DANGER]
+- **Mistake**: Maintaining triangle pressure after partner taps [CRITICAL DANGER]
   - **Consequence**: Risk of loss of consciousness, injury, and violation of training safety
   - **Correction**: Release immediately upon any tap signal. There is zero reason to maintain pressure after tap in training. Develop habit of instant release.
-- **Error**: Locking triangle before achieving proper angle and position [Low DANGER]
+- **Mistake**: Locking triangle before achieving proper angle and position [Low DANGER]
   - **Consequence**: Weak triangle that opponent easily escapes, wasted energy
   - **Correction**: Take time to establish proper angle, break posture, and position leg correctly before locking figure-four. Quality setup beats rushing to finish.
 
@@ -290,7 +290,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Triangle from Spider Guard**: From spider guard with foot on bicep and sleeve control, kick leg up and over opponent's shoulder while using other leg to off-balance them forward. Immediately retract to triangle lock. (When to use: When opponent is in strong posture and you can't break it from closed guard. Spider guard allows you to control distance and create angle for triangle entry.)
 
 **Triangle from Failed Armbar**: When opponent defends armbar by pulling arm out and stacking, immediately reconfigure legs into triangle position. Their defensive posture often creates perfect triangle opportunity. (When to use: Seamless transition when armbar is defended. Opponent's focus on defending armbar leaves them vulnerable to triangle.)
@@ -335,7 +335,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Static Drilling)** (Week 1-2)
 - Focus: Learn proper triangle mechanics with zero resistance. Partner remains completely stationary in broken posture while you practice leg positioning, angle creation, and locking mechanism. Emphasis on understanding the figure-four configuration and proper placement.
 - Resistance: Zero resistance
@@ -372,7 +372,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Open Guard]]
@@ -390,7 +390,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Triangle Choke Front]]
@@ -433,7 +433,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The triangle from guard represents one of the most elegant examples of using skeletal structure rather than muscular strength to create a submission. The beauty of the triangle lies in its geometric efficiency - once properly locked with the correct angle, even a much larger and stronger opponent cannot generate the force needed to escape because the mechanism doesn't rely on your strength squeezing their neck, but rather on your skeletal structure (locked legs) using their own shoulder to compress one carotid artery while your leg compresses the other. The critical technical detail that separates effective triangles from weak attempts is the depth of the lock and the angle of finish. Your leg must be positioned behind their neck with their shoulder pulled tight to your hip - this creates the necessary compression geometry. The 45-degree angle is not arbitrary; it's the optimal angle that prevents both the stacking defense and the posturing defense while maximizing pressure vectors. In training, develop the discipline to establish perfect position before applying pressure. A properly positioned triangle requires minimal squeezing force - if you're using maximum muscular effort to finish, your position is incorrect. The triangle also serves as an excellent laboratory for understanding submission chains, as the defensive patterns it creates (posturing, stacking, arm extraction) each open specific transitions to armbar or omoplata. This interconnection is fundamental to systematic guard work.
 - **Gordon Ryan**: In high-level competition, the triangle from guard is one of the highest percentage submissions because it simultaneously controls the opponent while attacking the finish, unlike many submissions where you must choose between control and finishing pressure. My approach to triangle differs between gi and no-gi contexts. In gi, I use collar and sleeve grips to break posture and create the initial angle before entry. In no-gi, I rely more on overhook control or wrist control combined with leg positioning to break posture. The key competition detail most people miss is that you must finish the triangle before the opponent establishes their stacking defense - this means your angle adjustment must be instantaneous, not gradual. I adjust angle while locking the triangle, not after. Against elite opposition, you have perhaps one second after locking before they begin their escape sequence. The other crucial competition element is recognizing when to abandon triangle and transition to armbar. If the opponent succeeds in any of three defensive actions - pulling the trapped arm free, establishing a severe stack, or posturing significantly - transition immediately rather than burning energy fighting for a compromised position. In my experience, the triangle-armbar combination from guard has the highest finishing rate at black belt because defending one opens the other. When training triangle specifically for competition application, practice transitioning at the first sign of effective defense rather than stubbornly maintaining position. This reactive transition capability is what separates competitors who finish from guard versus those who merely threaten.
 - **Eddie Bravo**: The triangle from guard is absolutely fundamental in the 10th Planet system, and we approach it with some key differences from traditional methodology. From rubber guard positions like Mission Control and New York, we have direct triangle setups that bypass the traditional posture-breaking requirement because rubber guard inherently keeps the opponent broken down. From Mission Control, the triangle is right there - you just transition your lockdown into triangle configuration while maintaining head control. What's critical in our approach is that we never stop moving. If the triangle isn't there, we flow to omoplata. If omoplata is defended, we return to triangle or go to gogoplata or baratoplata. This constant flow keeps the opponent defending rather than escaping. One innovation I emphasize is using the triangle as a control position rather than rushing to finish. Sometimes I'll lock triangle, control the position, work for better angle, threaten armbar, let them defend, then finish triangle when they're exhausted. The psychological component is huge - when someone is in your triangle, they know they're in trouble, and that panic creates opportunities. For no-gi application, the triangle becomes even more essential because you don't have gi grips to control posture, so the leg configuration itself must do that work. In training, I want people drilling triangle entries from every possible guard position - not just closed guard, but from half guard, spider, de la riva, everywhere. The more entry pathways you have, the more unpredictable you become. Safety-wise, the triangle is actually one of the safer submissions to train hard because it's a clean blood choke with clear tap signals, but you must develop the discipline to release instantly on tap - in training, ego has no place when someone's consciousness is at stake.

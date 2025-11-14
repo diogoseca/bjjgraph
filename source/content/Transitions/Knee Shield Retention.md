@@ -8,7 +8,7 @@ description: "Master Knee Shield Retention in BJJ. Essential defensive framework
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Knee Shield Retention in BJJ. Essential defensive framework
 
 
 
-> **Quick Answer**: Knee Shield Retention transitions from [[Knee Shield Half Guard]] to [[Knee Shield Half Guard]]. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.
+> Knee Shield Retention transitions from [[Knee Shield Half Guard]] to [[Knee Shield Half Guard]]. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Knee Shield Retention is the fundamental defensive framework for maintaining hal
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain active knee shield frame with top leg creating distance between hips
 - Control opponent's sleeve or wrist to prevent crossface and underhook establishment
 - Keep bottom leg locked around opponent's leg to prevent extraction
@@ -186,7 +186,7 @@ Knee Shield Retention is the fundamental defensive framework for maintaining hal
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Half guard established with one leg trapped between your legs
 - Top leg positioned with knee shield against opponent's chest or shoulder
 - Bottom leg locked around opponent's trapped leg with secure hook
@@ -199,7 +199,7 @@ Knee Shield Retention is the fundamental defensive framework for maintaining hal
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish knee shield structure**: Position your top leg with shin perpendicular to opponent's torso, creating a barrier between their chest and your hips. The foot of your shield leg should be active and engaged on their hip or thigh, ready to extend and create distance. Your knee should be at approximately shoulder height on their body. (Timing: Establish immediately when entering half guard or when opponent begins passing pressure)
 2. **Secure bottom leg lockdown**: Wrap your bottom leg around opponent's trapped leg with your foot hooking behind their knee or controlling their ankle. This creates the retention system that prevents leg extraction while your shield manages upper body pressure. Maintain constant tension on this connection. (Timing: Maintain throughout entire retention sequence)
 3. **Control opponent's arms**: Establish grip control on opponent's far sleeve or wrist with your bottom arm, preventing them from establishing an underhook or crossface. Your top arm creates an additional frame on their shoulder, bicep, or hip depending on their pressure angle. These grips work together with your shield to create a complete defensive structure. (Timing: Control arms before opponent can establish dominant grips)
@@ -213,7 +213,7 @@ Knee Shield Retention is the fundamental defensive framework for maintaining hal
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent establishes crossface and drives your shield down** (Effectiveness: High) - Your Response: Immediately shrimp your hips away to create angle while fighting to recover underhook or frame on their shoulder. If crossface is secured, transition to lockdown or deep half to escape the pressure rather than fighting uphill battle.
 - **Opponent secures underhook and drives chest-to-chest pressure** (Effectiveness: High) - Your Response: Use your shield to create immediate space while establishing whizzer control on their underhook arm. Hip escape to create angle and look for back take or transition to deep half guard where their underhook becomes less dangerous.
 - **Opponent steps over knee shield and establishes knee cut position** (Effectiveness: Medium) - Your Response: Immediately convert your shield leg to butterfly hook or Z-guard as they step through. Use your grips to prevent them from completing the pass while you work to recover full guard or enter into scramble position.
@@ -223,25 +223,25 @@ Knee Shield Retention is the fundamental defensive framework for maintaining hal
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Keeping knee shield static without adjusting angle as opponent moves
+## Common Mistakes
+- **Mistake**: Keeping knee shield static without adjusting angle as opponent moves
   - **Consequence**: Opponent easily circles around static shield or collapses it with angled pressure
   - **Correction**: Treat shield as dynamic barrier that must constantly redirect to match opponent's pressure angle. Your shield should move like a radar dish, always facing their upper body.
-- **Error**: Allowing body to flatten to back while maintaining shield
+- **Mistake**: Allowing body to flatten to back while maintaining shield
   - **Consequence**: Loss of hip mobility makes retention impossible as shield becomes easy to collapse
   - **Correction**: Priority one is staying on your side. If you must choose between maintaining perfect shield and staying on side, stay on side and rebuild shield from there.
-- **Error**: Gripping opponent's gi only without controlling limbs
+- **Mistake**: Gripping opponent's gi only without controlling limbs
   - **Consequence**: Opponent easily establishes crossface or underhook through fabric grips alone
   - **Correction**: Always control opponent's wrist, sleeve, or arm directly. Gi grips are supplementary to limb control, not a replacement.
-- **Error**: Pushing opponent away with shield while bottom leg goes loose
+- **Mistake**: Pushing opponent away with shield while bottom leg goes loose
   - **Consequence**: Opponent easily extracts trapped leg and completes pass despite shield
   - **Correction**: Bottom leg must maintain constant tension and control. The shield controls upper body but without bottom leg control, they simply step out of half guard.
-- **Error**: Using only leg pressure without hip movement
+- **Mistake**: Using only leg pressure without hip movement
   - **Consequence**: Static shield gets overwhelmed by opponent's weight and pressure over time
   - **Correction**: Combine shield pressure with active hip escapes and angle changes. Your hips must move to create angles that make their pressure less effective.
-- **Error**: Fighting to maintain shield when opponent has established dominant position
+- **Mistake**: Fighting to maintain shield when opponent has established dominant position
   - **Consequence**: Wastes energy fighting a losing battle instead of transitioning to better defensive position
   - **Correction**: Recognize when shield is compromised and immediately transition to lockdown, deep half, or other retention structure rather than stubbornly maintaining failing position.
 
@@ -250,7 +250,7 @@ Knee Shield Retention is the fundamental defensive framework for maintaining hal
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Structure** - Building proper knee shield frame and understanding positioning
 Partner establishes light pressure from top half guard while you focus solely on maintaining proper shield structure, staying on side, and keeping bottom leg locked. No passing attempts yet. Focus on feeling what correct positioning feels like.
 (Resistance: Light)
@@ -281,7 +281,7 @@ Use knee shield retention during regular sparring rounds, starting from half gua
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Low Shield Retention**: Position shield knee lower on opponent's torso, around solar plexus rather than chest. Creates less distance but makes it harder for opponent to step over shield. Shield foot posts on hip for added stability. (When to use: Against opponents who consistently step over high shields, or when you want to transition to deep half guard)
 
 **Reverse Shield Retention**: Use shield with foot on opponent's far hip rather than near hip, creating a diagonal barrier across their body. Requires strong underhook on near side to prevent them from driving through the angle. (When to use: When opponent has secured crossface and you need different angle to escape pressure, or as entry to dogfight position)
@@ -321,7 +321,7 @@ Use knee shield retention during regular sparring rounds, starting from half gua
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Knee shield retention is a relatively safe technique with minimal injury risk when practiced properly. The primary safety concern is avoiding knee hyperextension when opponent smashes down on your shield leg - always keep some bend in your knee and be ready to retract if heavy pressure comes down on top of your shin. For training partners working as the passer, avoid driving excessive weight onto the shield leg's knee joint, especially when the bottom player is new and may not have developed the muscular stability to support that pressure. When transitioning between positions, both partners should maintain control to avoid sudden weight shifts that could cause knee or ankle injuries. Practitioners with previous knee injuries should be especially cautious about maintaining proper angle on their shield leg and avoiding positions where the knee is exposed to lateral stress.
 
@@ -329,7 +329,7 @@ Knee shield retention is a relatively safe technique with minimal injury risk wh
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Knee Shield Retention serves as the central hub of modern half guard systems and is the primary defensive framework that connects to virtually all other half guard variations. From successful knee shield retention, you can transition offensively to Old School Sweep, Deep Half Guard, Z-Guard, or Dogfight Position depending on how opponent pressures. Defensively, when the shield is compromised, you can fall back to Lockdown, Quarter Guard, or Reverse Half Guard as secondary retention structures. The technique integrates with the broader guard retention system as one of the most mobile and aggressive retention platforms, positioned between fully open guards (like De La Riva or Butterfly) and more defensive half guard structures (like lockdown or quarter guard). Understanding knee shield retention is essential for modern BJJ because it represents the intersection of offensive and defensive half guard play - it's simultaneously a strong defensive position and a launching point for attacks.
 
@@ -337,7 +337,7 @@ Knee Shield Retention serves as the central hub of modern half guard systems and
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Shield Half Guard]] - Primary position where this technique is applied
 - [[Half Guard]] - Parent position family
@@ -360,7 +360,7 @@ Knee Shield Retention serves as the central hub of modern half guard systems and
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The knee shield in half guard represents a biomechanical solution to the fundamental problem of maintaining distance against an opponent who has already bypassed your legs to establish half guard. The genius of this position lies in understanding that the shield leg creates what I call 'controllable distance' - you can extend to create space or retract to transition, giving you dynamic control rather than static defense. The key mechanical insight is that your shield must always operate on a perpendicular axis to their pressure vector. When students fail at knee shield retention, it's almost always because they've allowed their shield to become parallel to the opponent's line of attack rather than perpendicular to it. The shield should function like a mobile gate that continuously adjusts its angle to intercept new lines of pressure. Furthermore, the connection between your bottom leg control and your shield creates a two-point control system where failure in either point cascades to failure in the other - this is why systematic drilling must address both components simultaneously. The most advanced application of knee shield retention comes from understanding it not as a defensive position, but as an offensive platform where you use the shield to create predictable reactions that lead directly to attacking sequences.
 - **Gordon Ryan**: In competition, knee shield retention is my go-to half guard structure because it keeps me in the fight when someone gets past my initial guard layers. The reality of high-level matches is that your opponent will eventually get to half guard, so having bulletproof retention here is non-negotiable. What makes knee shield better than other half guard structures is the combination of defensive security with immediate offensive options - I can defend the pass and attack the sweep or back take without having to make a big positional change. Against other elite grapplers, I focus heavily on the grip fighting aspect of knee shield retention. You can have the most beautiful shield structure, but if they get the crossface or deep underhook, it's over. I'm fighting for their sleeves and preventing those dominant grips before they even think about passing. The other competition-critical detail is knowing when to abandon the shield. If a guy like Nick Rodriguez or Felipe Pena gets crossface and starts smashing, I'm immediately transitioning to deep half or lockdown rather than wasting energy fighting uphill. In competition, every second and every bit of energy matters, so you have to be ruthless about recognizing when a position is lost and moving to your next defensive structure before they fully consolidate the pass.
 - **Eddie Bravo**: The knee shield changed everything for us at 10th Planet because it gave us a way to defend in half guard while staying mobile enough to attack. Before we systematized knee shield retention, guys would get stuck in lockdown just surviving, but the shield lets you be dynamic. What we found through thousands of rounds is that the shield works best when you think of it as a spring - you compress it when they drive in, then explode it back out to create sweep opportunities or entries to our signature positions like old school or electric chair. The Rubber Guard principles apply here too: create reactions and exploit them. When you push with your shield, they either drive harder (which sets up the sweep), pull back (which opens deep half), or circle around (which opens the back). Every response they make creates an opening. One thing we emphasize that traditional BJJ sometimes misses is the connection between your shield and your upper body control. We use a lot of collar ties, overhooks, and head control in combination with the shield because it creates that bent-over posture that makes their passing so much harder. The shield handles the distance, but the upper body control handles their posture, and together they make you really hard to pass. For 10th Planet guys, knee shield retention isn't a stalling position - it's an active hunting position where you're always looking for the next attack.

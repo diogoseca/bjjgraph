@@ -8,7 +8,7 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player has one arm wrapped around opponent's neck in front headlock position with hand clasped to create guillotine grip, applying pressure to the trachea or carotid arteries through arm and wrist position
 - Bottom player's hips are positioned underneath or slightly behind the opponent's center of gravity, with legs typically in guard position (closed, half, or butterfly) to control distance and prevent opponent from driving forward or extracting head
@@ -203,7 +201,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful guillotine grip establishment during opponent's shot, guard pass attempt, or scramble
 - Opponent's head positioned on one side of bottom player's body (typically between chest and hip)
@@ -232,7 +230,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Guillotine Choke]] → [[Won by Submission]]
 
@@ -303,7 +301,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Guillotine Defense]]** → [[Side Control]] (Opponent Success: 50%)
 - **[[Guillotine Counter]]** → [[Mount]] (Opponent Success: 35%)
@@ -317,7 +315,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Hip Bump Sweep]]** → [[Mount]]
   - Opponent drives weight forward to defend choke
@@ -366,7 +364,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

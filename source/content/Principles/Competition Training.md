@@ -8,7 +8,7 @@ description: "Master competition training in BJJ. Learn periodization, game plan
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master competition training in BJJ. Learn periodization, game plan
 
 
 
-> **Quick Answer**: Competition Training is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Competition Training is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Competition Training represents the systematic preparation methodology that tran
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Structure training in periodized cycles with distinct preparation phases building toward competition date
 - Progressively increase training intensity and competition simulation as event approaches
 - Focus on high-percentage techniques and strategic game plan rather than comprehensive repertoire
@@ -181,7 +181,7 @@ Competition Training represents the systematic preparation methodology that tran
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Periodization Planning**: The ability to structure training cycles with distinct phases (base building, intensification, competition simulation, taper) that progressively build competition-specific fitness and technical sharpness while managing fatigue accumulation and preventing overtraining through strategic volume and intensity manipulation.
 
 **Game Plan Development**: The capacity to identify and refine 3-5 high-percentage techniques in each major position that form a coherent strategic framework for competition, including primary attacks, backup options, and positional sequences that maximize scoring opportunities while minimizing defensive vulnerabilities.
@@ -204,7 +204,7 @@ Competition Training represents the systematic preparation methodology that tran
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Competition Mindset]]** (Complementary): Competition Training provides the physical preparation framework while Competition Mindset addresses the psychological readiness required for optimal performance under pressure, together forming complete competitive preparation.
 - **[[Match Strategy]]** (Extension): Competition Training develops the technical and physical capacity that Match Strategy then deploys tactically during actual competition, with training preparation enabling strategic execution.
 - **[[Game Planning]]** (Prerequisite): Effective Game Planning must occur before Competition Training implementation, as the strategic framework determines which techniques and positions receive training emphasis during competition preparation cycle.
@@ -221,7 +221,7 @@ Competition Training represents the systematic preparation methodology that tran
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Competition training emphasizes guard retention under scoring pressure, high-percentage sweep and submission chains that maximize point opportunities, and rule-specific attacking sequences that prevent stalling calls while maintaining offensive initiative.
 
 **Mount**: Training focuses on maintaining mount position to secure points while advancing toward higher-value positions or submissions, implementing control maintenance strategies that prevent escapes while satisfying referee activity requirements under specific rule sets.
@@ -252,7 +252,7 @@ Competition Training represents the systematic preparation methodology that tran
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Identify competition date and format (IBJJF, ADCC, submission-only, etc.)**: Establish timeline for periodization cycle and determine rule-specific technical emphases that will guide training preparation structure and strategic development throughout camp.
 2. **Assess current technical proficiency and competitive experience level**: Conduct honest evaluation of existing skills, identify high-percentage techniques versus training-only techniques, and determine realistic game plan scope based on competition timeline and technical readiness.
 3. **Develop strategic game plan with primary and backup techniques**: Select 3-5 reliable techniques in each major position that form coherent strategic framework, identify position preferences and avoidance positions, and establish clear decision trees for common competitive scenarios.
@@ -265,28 +265,28 @@ Competition Training represents the systematic preparation methodology that tran
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Training comprehensive technical repertoire instead of focusing on high-percentage game plan
+## Common Mistakes
+- **Mistake**: Training comprehensive technical repertoire instead of focusing on high-percentage game plan
   - **Consequence**: Dilutes training emphasis across too many techniques, prevents mastery of competition weapons, creates decision paralysis during matches, and reduces execution confidence under pressure.
   - **Correction**: Identify 3-5 most reliable techniques in each position based on training success rates, focus 80% of training on these core techniques, develop backup options only for primary technique failures, and accept strategic limitations in favor of technical mastery.
-- **Error**: Maintaining high training volume throughout preparation without implementing taper
+- **Mistake**: Maintaining high training volume throughout preparation without implementing taper
   - **Consequence**: Accumulates fatigue that impairs performance on competition day, reduces technical execution speed and decision-making clarity, increases injury risk, and prevents physical and mental freshness required for optimal performance.
   - **Correction**: Plan strategic taper reducing volume by 40-60% in final week while maintaining intensity, prioritize sleep and recovery, eliminate unnecessary training sessions, and trust preparation completed in previous weeks.
-- **Error**: Training without rule-specific enforcement and scoring acknowledgment
+- **Mistake**: Training without rule-specific enforcement and scoring acknowledgment
   - **Consequence**: Develops techniques and strategies that don't align with competition scoring systems, creates confusion about position values and tactical priorities, and fails to prepare for referee enforcement affecting match dynamics.
   - **Correction**: Implement exact rule enforcement during sparring, acknowledge points and position values during training, practice decision-making under specific rule constraints, and ensure strategic choices optimize scoring opportunities.
-- **Error**: Neglecting mental preparation and competition simulation training
+- **Mistake**: Neglecting mental preparation and competition simulation training
   - **Consequence**: Creates psychological unpreparedness for competition stress, increases performance anxiety from unfamiliar environment, impairs technical execution under pressure, and reduces ability to maintain focus during adversity.
   - **Correction**: Integrate daily visualization of successful performance, develop consistent pre-competition routines, practice breathing techniques for anxiety management, and conduct regular competition simulation with referee enforcement and time limits.
-- **Error**: Attempting to fix technical deficiencies during competition preparation phase
+- **Mistake**: Attempting to fix technical deficiencies during competition preparation phase
   - **Consequence**: Diverts training emphasis from sharpening existing strengths to addressing weaknesses, creates technical confusion close to competition, reduces confidence in primary techniques, and prevents adequate refinement of game plan execution.
   - **Correction**: Accept current technical limitations during competition camp, focus exclusively on refining existing high-percentage techniques, develop strategic approaches that minimize exposure to weak areas, and reserve technical gap filling for post-competition training cycles.
-- **Error**: Overemphasizing physical conditioning at expense of technical refinement
+- **Mistake**: Overemphasizing physical conditioning at expense of technical refinement
   - **Consequence**: Develops general fitness that doesn't translate to BJJ-specific performance demands, accumulates fatigue that impairs technical training quality, neglects skill refinement that determines competitive success, and misallocates limited preparation time.
   - **Correction**: Integrate conditioning within technical training through high-intensity positional sparring, use competition simulation for conditioning stimulus, maintain rather than build fitness during competition camp, and prioritize technical sharpness over general conditioning.
-- **Error**: Training in isolation without replicating competition intensity and resistance
+- **Mistake**: Training in isolation without replicating competition intensity and resistance
   - **Consequence**: Develops techniques that function in cooperative training but fail under competitive resistance, creates unrealistic confidence in technical abilities, prevents identification of execution problems, and fails to develop performance capacity under fatigue and pressure.
   - **Correction**: Progressively increase training intensity throughout preparation cycle, recruit training partners who provide competition-level resistance, implement regular hard sparring with rule enforcement, and ensure training difficulty matches or exceeds expected competition demands.
 
@@ -295,7 +295,7 @@ Competition Training represents the systematic preparation methodology that tran
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Periodized Competition Camp** (Focus: Systematic physical and technical peaking that optimizes performance readiness on competition day through strategic training stimulus progression and fatigue management.)
 8-12 week structured preparation cycle divided into base phase (weeks 1-4 emphasizing technical refinement and volume), intensification phase (weeks 5-8 emphasizing competition simulation and intensity), and taper phase (final 1-2 weeks emphasizing recovery and mental preparation) with progressive focus shift toward competition-specific demands.
 
@@ -320,7 +320,7 @@ Systematic review of personal training footage to identify technical execution p
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Participates in first competition with basic game plan consisting of 1-2 familiar techniques in each position
 - Experiences significant performance decline under competitive stress compared to training performance
@@ -365,7 +365,7 @@ Systematic review of personal training footage to identify technical execution p
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Competition Mindset]] (Principle) - Complementary psychological framework that addresses mental preparation while Competition Training focuses on physical and technical preparation
 - [[Match Strategy]] (Principle) - Tactical application during competition that deploys technical capacity developed through Competition Training preparation
@@ -383,7 +383,7 @@ Systematic review of personal training footage to identify technical execution p
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Competition preparation represents the scientific application of periodization principles borrowed from strength training and Olympic sport methodology, emphasizing systematic intensity progression and appropriate taper timing to optimize performance readiness. The concept of specificity of preparation is paramount—training stimulus must progressively converge toward exact demands of competition including rule sets, match duration, and strategic scenarios likely to occur, making the competitive environment familiar rather than novel. This specificity dramatically reduces competitive stress and performance anxiety by eliminating environmental novelty as a performance variable. The most critical element often overlooked is the taper phase where training volume reduces by 40-60% in the final week while maintaining intensity, allowing physical freshness and mental sharpness to peak precisely on competition day. Without proper tapering, accumulated fatigue impairs the technical execution speed and decision-making clarity that determine competitive success, regardless of preparation quality in preceding weeks.
 - **Gordon Ryan**: Competition training must focus relentlessly on maximizing high-percentage technique reliability and strategic clarity rather than comprehensive technical development or physical conditioning volume that dilutes preparation effectiveness. The concept of competition weapons is essential—identifying 3-5 elite techniques in each major position that function reliably at 80%+ success rate against skilled resistance, then dedicating 80% of training time to refining these core techniques rather than expanding repertoire. Mental preparation receives equal emphasis with physical training through detailed visualization of entire competition day from arrival through victory, rehearsing not just technical execution but psychological responses to adversity, fatigue, and pressure situations. The common error is maintaining excessive training volume throughout preparation rather than trusting previous work and prioritizing freshness—I implement aggressive training intensity throughout camp with minimal taper, believing maintained high intensity better simulates competition demands than reduced volume approaches, though this requires exceptional recovery capacity and experience managing fatigue.
 - **Eddie Bravo**: Competition preparation protocols must emphasize creativity and adaptability rather than rigid game plan execution, particularly valuable for submission-only formats where point-fighting strategies are irrelevant and finishing mentality is paramount. The concept of chaos drilling represents critical preparation element where training partners introduce unexpected techniques and unconventional positions, preparing competitors for novel situations requiring creative problem-solving rather than rehearsed responses. Mental fatigue simulation is equally critical as physical conditioning—psychological exhaustion is the primary performance limiter in long tournament days requiring multiple matches, making mental endurance training through extended high-pressure sparring sessions as important as physical conditioning. The innovation emphasis extends to competition preparation itself, experimenting with unconventional training methods including visualization under physical fatigue, training in competition venue environments when possible, and deliberate stress exposure to develop psychological resilience. Competition success often depends more on adaptability and mental toughness than technical preparation volume, making psychological preparation and creative problem-solving capacity the differentiating factors at high competitive levels.

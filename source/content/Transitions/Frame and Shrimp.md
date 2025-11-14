@@ -8,7 +8,7 @@ description: "Learn Frame and Shrimp escape in BJJ. Step-by-step execution from 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Frame and Shrimp escape in BJJ. Step-by-step execution from 
 
 
 
-> **Quick Answer**: Frame and Shrimp transitions from [[Side Control]] to [[Open Guard]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+> Frame and Shrimp transitions from [[Side Control]] to [[Open Guard]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Mastery of the frame and shrimp fundamentally changes a practitioner's ability t
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create structural frames using skeletal alignment rather than muscle strength
 - Hip movement creates angles and distance - never pull with arms alone
 - Shrimp away from pressure rather than directly into your opponent
@@ -184,7 +184,7 @@ Mastery of the frame and shrimp fundamentally changes a practitioner's ability t
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Bottom position under opponent's chest-to-chest pressure
 - Awareness of opponent's control points (crossface, underhook, etc.)
 - One or both hands available to establish frames
@@ -197,7 +197,7 @@ Mastery of the frame and shrimp fundamentally changes a practitioner's ability t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish primary frame**: Place your forearm across opponent's neck or chin, creating a stiff arm with elbow tight to your body. Your hand should be palm-down on their shoulder or collar, with your forearm acting as a barrier. Keep your elbow connected to your ribs to prevent arm isolation. The frame should use skeletal structure, not muscle tension. (Timing: Immediate upon recognizing pin position)
 2. **Create secondary frame**: Place your second hand on opponent's hip, near their belt line. This hand will push against their hip to create the initial separation. Your arm should be slightly bent with elbow protected. Both frames together create a cross-body barrier that prevents chest-to-chest pressure. (Timing: As soon as primary frame is secure)
 3. **Bridge to create initial space**: Drive through your feet to lift your hips slightly off the mat, creating just enough space to turn onto your side. This is a small, controlled bridge - not an explosive upa. Turn your body toward the opponent to create the angle needed for shrimping. Your shoulder should now be off the mat. (Timing: Coordinate with opponent's breathing or weight shift)
@@ -210,7 +210,7 @@ Mastery of the frame and shrimp fundamentally changes a practitioner's ability t
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives weight forward and crossfaces** (Effectiveness: High) - Your Response: Strengthen your primary frame by connecting elbow to ribs, turn your head away from crossface, and shrimp at an angle away from the pressure rather than straight back
 - **Opponent secures underhook and prevents hip movement** (Effectiveness: High) - Your Response: Fight the underhook by framing on the bicep, or accept it and shrimp in the opposite direction using their committed weight against them
 - **Opponent sprawls hips back to prevent knee insertion** (Effectiveness: Medium) - Your Response: Use multiple smaller shrimps instead of one large movement, creating cumulative space. Alternatively, switch to standing in base escape if distance becomes too great
@@ -220,25 +220,25 @@ Mastery of the frame and shrimp fundamentally changes a practitioner's ability t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Pushing with arms instead of creating structural frames
+## Common Mistakes
+- **Mistake**: Pushing with arms instead of creating structural frames
   - **Consequence**: Arm muscles fatigue quickly, frames collapse under pressure, opponent easily maintains position
   - **Correction**: Focus on skeletal alignment - think of your arm as a strut or post rather than a pushing mechanism. Connect elbow to body and let bone structure do the work
-- **Error**: Shrimping without first creating frames
+- **Mistake**: Shrimping without first creating frames
   - **Consequence**: Hip movement is ineffective as opponent's weight immediately fills the space created
   - **Correction**: Always establish strong frames before attempting to move hips. The frame holds the space while you shrimp
-- **Error**: Shrimping in wrong direction (toward opponent's hips)
+- **Mistake**: Shrimping in wrong direction (toward opponent's hips)
   - **Consequence**: Movement actually helps opponent establish mount or more dominant control
   - **Correction**: Always shrimp away from pressure and toward the direction your head is facing. If on right side, shrimp toward your left
-- **Error**: Using single large shrimp instead of multiple smaller movements
+- **Mistake**: Using single large shrimp instead of multiple smaller movements
   - **Consequence**: Telegraphed movement is easily countered, exhausts energy, creates opportunity for opponent to advance position
   - **Correction**: Execute 2-3 smaller shrimps in succession, maintaining frames throughout. Cumulative movement is harder to counter
-- **Error**: Failing to insert guard immediately after creating space
+- **Mistake**: Failing to insert guard immediately after creating space
   - **Consequence**: Opponent recovers position, all the work of creating space is wasted
   - **Correction**: The instant space appears, get your knee or leg between you and opponent. Think of escape as continuous chain of movements, not separate steps
-- **Error**: Keeping head flat on mat instead of turning on side
+- **Mistake**: Keeping head flat on mat instead of turning on side
   - **Consequence**: Creates flat back that's easy to pin, prevents effective hip movement
   - **Correction**: Turn onto your side with shoulder off mat before shrimping. Your body should form a 'C' shape, not lie flat
 
@@ -247,7 +247,7 @@ Mastery of the frame and shrimp fundamentally changes a practitioner's ability t
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Solo Drilling** - Movement mechanics and muscle memory
 Practice shrimping movements solo down the length of the mat. Focus on hip mobility, keeping shoulders relatively stationary, and creating proper 'C' shape with body. Add frame positioning while shrimping. 10 reps each direction at start and end of every training session.
 (Resistance: None)
@@ -274,7 +274,7 @@ Start in side control bottom, partner can advance position or attack submissions
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double Shrimp Escape**: Execute two shrimps in rapid succession - first to create initial space, second to insert knee more deeply. More effective against heavy pressure when single shrimp is insufficient. (When to use: When facing significantly larger opponents or very heavy pressure where single shrimp doesn't create adequate space)
 
 **Frame and Bridge Combination**: Alternate between bridging and shrimping rather than single sequence. Bridge to create space and turn opponent's weight, shrimp to claim the space, repeat. Creates cumulative movement that's harder to counter. (When to use: When opponent has very strong base and traditional frame-shrimp sequence is being shut down)
@@ -314,7 +314,7 @@ Start in side control bottom, partner can advance position or attack submissions
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The frame and shrimp is one of the safest techniques in BJJ when practiced correctly. Primary safety concerns involve proper frame placement - avoid pushing directly on throat or face, instead frame on chin, shoulder, or collar. When drilling with partners, the bottom person should communicate if pressure on neck becomes uncomfortable. Partners providing resistance should apply pressure gradually, allowing the person escaping to adjust frames and develop proper structure. Avoid explosive, uncontrolled movements that could injure your training partner or yourself. The person on top should not drive their weight directly onto their partner's face or neck. During progression training, increase resistance slowly over weeks to build both technical skill and physical conditioning safely. Be particularly mindful of your partner's neck safety when establishing frames under their chin. If training with significant size mismatches, the larger person should moderate their pressure appropriately. Solo shrimping drills should be performed on proper mats to avoid knee, hip, or elbow injuries from repetitive movement on hard surfaces.
 
@@ -322,7 +322,7 @@ The frame and shrimp is one of the safest techniques in BJJ when practiced corre
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The frame and shrimp is the foundational escape mechanism that connects all bottom positions to guard recovery in the BJJ positional hierarchy. It serves as the primary pathway from inferior positions (side control, mount, knee on belly, north-south, various pin positions) back to the relative safety of guard positions. This technique represents the first line of defense in the defensive hierarchy - before attempting more complex escapes or submissions from bottom, you must understand how to create and manage space using frames and hip movement. The frame and shrimp integrates with the guard retention system by teaching the fundamental space creation mechanics that underlie all guard recovery. It connects to the broader escape hierarchy as the most fundamental tool, with more advanced escapes like elbow escape, technical standup, and various sweeps building on these basic movement patterns. Understanding this technique is essential for developing a complete bottom game, as it teaches the critical skill of remaining calm under pressure and systematically working back to better positions. The mechanics transfer across gi and no-gi applications, making it universally applicable. In competition strategy, solid frame and shrimp skills allow practitioners to survive bad positions while minimizing point concessions, buying time to create escape opportunities. It also serves as the foundation for numerous submission escapes, as the same space-creation principles apply when defending attacks.
 
@@ -330,7 +330,7 @@ The frame and shrimp is the foundational escape mechanism that connects all bott
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Hip Escape]] - Alternative name/variation of the same fundamental movement pattern
 - [[Elbow Escape]] - Advanced variation incorporating knee insertion mechanics
@@ -351,7 +351,7 @@ The frame and shrimp is the foundational escape mechanism that connects all bott
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The frame and shrimp escape represents the most fundamental expression of space creation mechanics in ground fighting. What makes this technique so powerful is its reliance on biomechanical efficiency rather than attributes like strength or explosiveness. When you create a proper frame, you're not pushing with your muscles - you're creating a rigid structure using skeletal alignment that can withstand tremendous pressure with minimal energy expenditure. The elbow must be connected to the ribs, creating a triangulated structure that's inherently strong. The shrimping motion itself is a sophisticated application of angular movement - you're not moving directly away from your opponent, which they can easily follow, but rather creating angles that disrupt their base and control points simultaneously. This is why the technique remains effective even when your opponent knows it's coming. The critical insight is understanding that escape is a systematic process of attacking control points in sequence. First, you address the chest-to-chest pressure with your primary frame. Then you attack their hip positioning with your secondary frame. Only after disrupting these control points can the hip movement effectively create sustainable space. Most practitioners fail because they attempt to skip steps in this sequence, usually trying to shrimp without proper frames, which is mechanically futile. The frame and shrimp, properly executed, is effectively unstoppable against opponents who lack the technical knowledge to counter it systematically.
 - **Gordon Ryan**: In competition, the frame and shrimp is your insurance policy against losing matches from bottom positions. I've used these mechanics thousands of times against the highest level opponents in the world, and they remain effective because they're based on fundamental geometry and leverage, not tricks. The key competitive insight is that you can't just know the technique - you have to be able to execute it while defending submission attacks, under extreme time pressure, and while exhausted. This is why I drill these mechanics constantly, even as a black belt world champion. In matches, I focus on making my frames incredibly annoying and persistent. I'm not trying to explode out - I'm making my opponent work hard for every inch of control, forcing them to expend energy maintaining the position. This creates opportunities because they eventually make mistakes or create the space I need. The hip frame on their hips is particularly crucial in no-gi competition where there's less friction. I'm constantly fighting to keep that hand on their hip because once they clear it, they can consolidate control much more easily. Against elite opponents, I often have to chain multiple escape attempts together - frame and shrimp might create initial space, but they counter, so I immediately transition to a different angle or escape variation. The fundamental mechanics remain the same, but the application becomes a chess match of sequences and counter-sequences. What separates the best defensive players from mediocre ones isn't knowing fancier escapes - it's being absolutely relentless and technical with basic frame and shrimp mechanics.
 - **Eddie Bravo**: The frame and shrimp is essential, but in the 10th Planet system, we look at it as just the beginning of your defensive movement vocabulary, especially in no-gi where positions are more fluid. The traditional BJJ approach teaches frame and shrimp mainly to recover guard, but we see it as a gateway to multiple defensive options. Sometimes you shrimp not to recover guard, but to create the angle for a technical standup. Other times, that initial space from shrimping gives you the opportunity to enter into deep half guard or other positions that are harder for your opponent to control. What I emphasize to my students is the concept of chaining movements together rather than thinking of any single escape as the answer. You might frame and shrimp, they counter by driving their weight forward, so you immediately use that momentum to go into a different escape or even to attack with something like an omoplata from bottom. The creativity comes from understanding that the fundamental mechanics - creating frames, moving your hips, managing space - these apply in infinite situations. In no-gi specifically, the lack of gi grips means you have to be even more precise with your frames. I like to emphasize getting onto your side immediately and staying mobile rather than lying flat. That lateral position makes your frames more effective and sets up better angles for shrimping. Also, don't sleep on using your legs as secondary frames - you can often create additional barriers with knee shields or feet on hips while executing your shrimp. The biggest mistake I see is people giving up on the escape too early. You might need to shrimp three, four, five times before you create enough cumulative space. Each small movement is progress - stay calm, breathe, and keep working the technique systematically.

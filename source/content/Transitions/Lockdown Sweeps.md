@@ -8,7 +8,7 @@ description: "Master Lockdown Sweeps from half guard. Learn Electric Chair, Old 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Lockdown Sweeps from half guard. Learn Electric Chair, Old 
 
 
 
-> **Quick Answer**: Lockdown Sweeps transitions from [[Lockdown]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Lockdown Sweeps transitions from [[Lockdown]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The lockdown system excels in no-gi competition and MMA applications where tradi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Lock the opponent's leg with a tight figure-four grip using your legs before attempting any sweep
 - Use underhook control and head position to prevent opponent from flattening you or taking your back
 - Create extension in opponent's trapped leg by pushing your knees away while pulling with your feet
@@ -182,7 +182,7 @@ The lockdown system excels in no-gi competition and MMA applications where tradi
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Half guard bottom position established with one of opponent's legs between your legs
 - Figure-four lockdown secured with your bottom leg threading under opponent's ankle and top leg crossing over their thigh
 - Underhook established on the trapped leg side to prevent opponent from taking your back
@@ -195,7 +195,7 @@ The lockdown system excels in no-gi competition and MMA applications where tradi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure lockdown position**: From half guard bottom, thread your bottom leg (the leg on the inside) under the opponent's ankle and bring your top leg over their thigh. Lock your ankles together creating a figure-four configuration. Your bottom foot should hook behind their Achilles while your top shin applies pressure across their thigh. Squeeze your knees together to create immediate tension on their trapped leg. (Timing: Establish before opponent can consolidate passing pressure)
 2. **Establish underhook and prevent flattening**: Secure a deep underhook on the same side as your lockdown with your arm reaching around opponent's back and gripping their far lat or shoulder. Use this underhook to pull yourself onto your side and prevent being flattened to your back. Your free hand should frame against their neck or shoulder to maintain space and angle. Position your head under their chin or to the side of their head, never allowing them to achieve head control. (Timing: Maintain throughout the sweep sequence)
 3. **Extend opponent's trapped leg**: To create the mechanical disadvantage necessary for sweeps, extend the opponent's trapped leg by pushing your knees away from your body while simultaneously pulling with your locked feet. This stretches their leg straight and prevents them from maintaining a strong base. The extension should be progressive - start with moderate tension and increase as you feel their balance compromised. This extension is critical for all lockdown sweeps as it removes their primary posting base. (Timing: Gradually increase extension before initiating sweep direction)
@@ -209,7 +209,7 @@ The lockdown system excels in no-gi competition and MMA applications where tradi
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives forward with heavy chest pressure and establishes crossface control** (Effectiveness: High) - Your Response: Prevent by maintaining strong underhook and head position; if caught, release lockdown temporarily, shrimp to create angle, and re-establish lockdown with better positioning. Transition to deep half guard if pressure is overwhelming.
 - **Opponent steps free leg far back and sprawls weight onto hips to prevent extension** (Effectiveness: Medium) - Your Response: Switch to Whipover sweep by pulling opponent forward over your head, or transition to Old School by accepting the backward direction. Use opponent's backward pressure against them by rolling through.
 - **Opponent extracts trapped leg by forcing knee through your lockdown** (Effectiveness: Medium) - Your Response: Prevent by immediately tightening lockdown at first sign of extraction attempt. If leg begins to escape, transition to butterfly hooks, X-guard, or deep half guard before position is fully lost. Never fight a losing lockdown battle.
@@ -219,22 +219,22 @@ The lockdown system excels in no-gi competition and MMA applications where tradi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweeps without first extending opponent's trapped leg through lockdown
+## Common Mistakes
+- **Mistake**: Attempting sweeps without first extending opponent's trapped leg through lockdown
   - **Consequence**: Opponent maintains strong base with bent leg and easily defends sweep attempts while working to pass
   - **Correction**: Always establish full lockdown extension by pushing knees away and pulling with feet before initiating any sweep direction. Feel the opponent's leg straighten and their base weaken before committing to sweep.
-- **Error**: Allowing opponent to flatten you to your back before establishing underhook
+- **Mistake**: Allowing opponent to flatten you to your back before establishing underhook
   - **Consequence**: Loses sweeping leverage and creates back exposure vulnerability as opponent can move to quarter mount or take the back
   - **Correction**: Fight to stay on your side from the moment lockdown is secured. Use underhook immediately and frame with free hand to maintain perpendicular hip position. Being flat eliminates most lockdown sweep options.
-- **Error**: Releasing lockdown too early during sweep attempt to transition to next position
+- **Mistake**: Releasing lockdown too early during sweep attempt to transition to next position
   - **Consequence**: Opponent escapes their trapped leg, recovers base, and often passes guard as you lose your primary control mechanism
   - **Correction**: Maintain lockdown tension until sweep is completely finished and you have established clear top position advantage. Only release when opponent is fully swept and you are moving to dominant control.
-- **Error**: Committing to one sweep direction without reading opponent's weight distribution
+- **Mistake**: Committing to one sweep direction without reading opponent's weight distribution
   - **Consequence**: Sweeping against opponent's base results in failed attempt and wasted energy while opponent consolidates passing position
   - **Correction**: Feel where opponent's weight is distributed before selecting sweep direction. If weight is back, go Electric Chair; if centered, go Old School; if forward, go Whipover. Use their momentum and posting against them.
-- **Error**: Neglecting head position and allowing opponent crossface control
+- **Mistake**: Neglecting head position and allowing opponent crossface control
   - **Consequence**: Opponent controls your upper body, prevents underhook effectiveness, and can pass around lockdown or take your back
   - **Correction**: Always maintain head position to the side or under opponent's chin. Fight crossface attempts immediately with frames and head movement. Good head position is equally important as lockdown control.
 
@@ -243,7 +243,7 @@ The lockdown system excels in no-gi competition and MMA applications where tradi
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Lockdown Mechanics Foundation** - Establishing and maintaining lockdown position with proper leg configuration
 Partner starts in half guard top with minimal resistance. Practice securing lockdown figure-four, finding correct ankle and thigh placement, and creating extension by pushing knees away. Hold extended lockdown for 30-second intervals, then release and re-secure. Focus on maintaining position on your side with underhook, never allowing yourself to be flattened. Drill lockdown entry from various half guard positions including being flattened, having opponent standing, and transitioning from other guards.
 (Resistance: Light)
@@ -270,7 +270,7 @@ Full resistance positional sparring from half guard bottom with goal of securing
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Electric Chair Sweep**: Lifting sweep where you extend lockdown maximally while bridging hips up and rolling opponent backwards over their trapped leg. Typically leads to truck position or back control. Most effective when opponent posts their free leg far back and drives weight forward into you. (When to use: When opponent has weight driving forward and their free leg posted back for base. Creates back exposure and truck position opportunities.)
 
 **Old School Sweep**: Backward rolling sweep where you roll over your underhook-side shoulder while pulling opponent over you with lockdown tension. Your free hand posts on mat behind you to assist rolling motion. Typically finishes in side control or knee mount position with you on top. (When to use: When opponent maintains centered weight distribution and low posture. Works well in gi where you can grip opponent's pants or belt to assist rolling motion.)
@@ -309,7 +309,7 @@ Full resistance positional sparring from half guard bottom with goal of securing
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Lockdown sweeps are generally safe techniques with low injury risk when practiced properly. The primary safety concern is knee stress on the opponent's trapped leg - when securing the lockdown figure-four, avoid cranking or twisting motions that could damage the knee joint. Apply lockdown pressure progressively rather than explosively, especially with new training partners unfamiliar with the position. When executing Electric Chair sweeps, control the rolling motion to prevent partner from landing awkwardly on their neck or head. During Old School sweeps, ensure adequate mat space behind you before rolling backward to avoid collisions with walls or other practitioners. For the practitioner in lockdown bottom, protect your own neck during sweeps by keeping chin tucked and avoiding hyperextension. If training partner is significantly larger or stronger, use technique and timing rather than forcing sweeps through strength, as this can lead to muscle strains in the hips and lower back. Both partners should communicate about lockdown tightness - tapping is appropriate if knee pressure becomes uncomfortable. When drilling at high intensity, alternate between working sweeps and playing top position to prevent overuse injuries from repetitive motions. Overall, lockdown sweeps are suitable for practitioners of all levels when proper progression and partner awareness are maintained.
 
@@ -317,7 +317,7 @@ Lockdown sweeps are generally safe techniques with low injury risk when practice
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Lockdown Sweeps are fundamental components of the half guard bottom attacking system, particularly within the 10th Planet Jiu-Jitsu framework developed by Eddie Bravo. The lockdown position serves as a central hub from which multiple offensive sequences emerge, including not only sweeps but also transitions to deep half guard, dogfight position, electric chair submissions, and various back-take opportunities. Within the broader positional hierarchy, lockdown represents a specialized half guard variation that prioritizes leg control and sweeping mechanics over traditional underhook battles and guard retention frames. The position integrates seamlessly with other modern half guard systems - practitioners often flow between lockdown, deep half, and butterfly half guard based on opponent reactions and defensive strategies. From a competition strategy perspective, lockdown sweeps are particularly effective in no-gi formats where traditional gi grips are unavailable, providing reliable sweeping options that work well in IBJJF, ADCC, and submission-only rule sets. The system also translates effectively to MMA applications where controlling opponent's base while maintaining offensive threats is critical. Understanding lockdown as part of the complete guard system rather than an isolated position allows practitioners to use it as one tool among many, knowing when to enter lockdown, when to maintain it for sweeps, and when to transition to alternative positions. This integration with the broader half guard game creates a well-rounded bottom player capable of attacking from multiple configurations based on opponent's defensive strategies and positional responses.
 
@@ -325,7 +325,7 @@ Lockdown Sweeps are fundamental components of the half guard bottom attacking sy
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Old School Sweep]] - Primary technique variation - backward rolling sweep from lockdown position
 - [[Electric Chair Submission]] - Follow-up submission - can be entered directly from Electric Chair sweep variation
@@ -342,7 +342,7 @@ Lockdown Sweeps are fundamental components of the half guard bottom attacking sy
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The lockdown position represents a fascinating study in biomechanical leverage where we create a direct mechanical advantage by removing one of the opponent's primary bases while maintaining our own mobility. The figure-four leg configuration generates tension vectors that work in opposite directions - your bottom leg pulls their ankle toward you while your top leg pushes their thigh away, creating extension in their trapped leg that fundamentally compromises their ability to generate power or maintain base. What makes lockdown sweeps particularly effective from a systematic perspective is that they exploit the universal principle that a person cannot effectively defend against directional changes when one of their legs is fully extended and controlled. The key technical insight is that the lockdown itself doesn't sweep the opponent - rather, it creates the positional prerequisite that makes sweeping possible. The actual sweeping motion then becomes a matter of reading weight distribution and applying force in the direction where the opponent has the least structural support. This is why we see multiple sweep variations from the same lockdown position - each exploits a different defensive posture. The highest-percentage approach is to chain these sweeps together rather than committing to a single direction, using the opponent's defensive reaction to one sweep as the setup for the next. This creates what I term a 'sweeping dilemma' where every defensive choice opens a different offensive pathway, forcing the top player into increasingly compromised positions until the sweep becomes inevitable.
 - **Gordon Ryan**: In competition, lockdown sweeps are absolutely money, especially at the higher levels where people know how to defend traditional half guard passes. I've used lockdown extensively in both gi and no-gi competition because it gives me offensive opportunities even when I'm on bottom, which is critical for scoring and controlling the pace of the match. The biggest advantage is that once you lock it up, the top guy is basically stuck - he can't effectively pass and he's constantly defending sweeps, which means I'm controlling the action even from bottom position. Against high-level opponents who pressure pass really well, the lockdown neutralizes their passing pressure and forces them to fight on your terms. My go-to sequence is to threaten Electric Chair first because everyone knows it's coming, and when they defend by posting their leg back, I immediately switch to Old School or transition to deep half. The key to making lockdown work at the highest level is never getting stuck in one position - you have to constantly threaten, constantly move, constantly make them defend. If you just hold lockdown without attacking, even white belts will eventually figure out how to extract their leg. But if you're chaining Electric Chair to Old School to Whipover to deep half transitions, you're creating so many problems that eventually something hits. The other huge benefit is that lockdown works incredibly well in long matches - it's not particularly exhausting to maintain and it drains the top guy's gas tank way faster than it drains yours, which becomes a huge advantage in later rounds of tournaments.
 - **Eddie Bravo**: The lockdown is the cornerstone of the entire 10th Planet system because it completely flips the script on traditional jiu-jitsu hierarchy - suddenly the guy on bottom is the one attacking and the guy on top is defending, which is exactly the opposite of what they expect. When I developed the lockdown system in the late 90s and early 2000s, everyone said half guard was a defensive position, a place you get stuck when your guard gets passed. But I saw it differently - if you trap their leg with the lockdown, you take away their base and mobility, which means you control them even though you're on bottom. The genius of the lockdown sweeps is that they work together as a system, not as individual moves. You're not trying to hit one specific sweep - you're creating a game where every direction they try to defend opens up a different sweep. They stop the Electric Chair? Great, now they're perfectly set up for Old School. They stop Old School? Perfect, now Whipover is wide open. It's like a chess game where every move they make gives you new attacking opportunities. What people don't realize until they really study the system is that lockdown isn't just about sweeps - it's a gateway to the entire truck position game, to twister submissions, to banana splits, to deep half guard. The lockdown is the hub and all these other positions are spokes on the wheel. You can spend years just mastering all the options from lockdown and you'd have a complete competition game. The other beautiful thing is it works for everybody - big guys, small guys, gi, no-gi, MMA - because you're using leverage and mechanics, not strength or grips that depend on the gi. This is why you see lockdown at the highest levels of competition now, even in ADCC where it was considered too unorthodox twenty years ago.

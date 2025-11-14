@@ -137,7 +137,7 @@ description: "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's
 
 
 
-> **Quick Answer**: Lockdown to Electric Chair System is a intermediate difficulty Attack System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Lockdown to Electric Chair System is a intermediate difficulty Attack System system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Attack System
@@ -156,7 +156,7 @@ The Lockdown to Electric Chair System is a comprehensive half guard bottom frame
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Lockdown control as foundation - secure the figure-four leg trap before attempting sweeps or submissions
 - Constant hip pressure and movement - never remain static, always working angles and creating discomfort
 - Underhook battle dominance - prioritize securing and maintaining the underhook to control posture
@@ -170,7 +170,7 @@ The Lockdown to Electric Chair System is a comprehensive half guard bottom frame
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Lockdown Control** (Establish immobilizing control that enables all subsequent attacks)
 The foundational leg entanglement achieved by threading your bottom leg over opponent's trapped leg and hooking your top foot under your own ankle, creating a figure-four configuration that immobilizes their leg and disrupts their base. This control allows you to extend their leg, break their posture down, and prevent them from stepping over or extracting their leg from half guard. The lockdown transforms half guard from a transitional position into a dominant control platform.
 
@@ -192,7 +192,7 @@ An advanced submission progression from Electric Chair position when opponent de
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Establish Lockdown Control**: From half guard bottom position, thread your bottom leg over opponent's trapped leg and hook your top foot under your own ankle to create the lockdown figure-four. Immediately begin extending their leg by pushing your hips away while pulling with the lockdown.
 Key points:
 - Ensure deep lockdown with ankle hook positioned correctly
@@ -368,7 +368,7 @@ The Lockdown to Electric Chair System requires progressive drilling that builds 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The fundamental genius of the Lockdown to Electric Chair system lies in its systematic exploitation of opponent base disruption through asymmetric leg control. When we analyze the biomechanics, the lockdown achieves something quite remarkable: it transforms your opponent's leg from a mobile base element into a trapped lever that you control completely. The figure-four configuration creates a mechanical advantage where your two legs control their one leg with superior strength application. From this foundation of control, the Electric Chair position represents a logical progression—you're simply extending the principle of leg control to create pressure on the hip joint and inner thigh structures. What makes this system particularly effective from a systematic perspective is that it forces opponent into a genuine dilemma: defend the immediate pressure and expose sweeps, or maintain base and endure submission threats. The truly advanced practitioner understands that the lockdown isn't merely a holding position but rather a dynamic control platform from which multiple attack vectors emerge simultaneously, creating the exact type of decision-making pressure that breaks opponent's defensive structure.
 - **Gordon Ryan**: In competition, the lockdown system is incredibly effective because it completely neutralizes opponent's passing game while building up massive offensive pressure. I've used variations of this system extensively, particularly in no-gi where the lockdown control is even more dominant without gi grips to assist opponent's defense. The key competitive advantage is that you're forcing your opponent to work constantly just to maintain position while you're systematically setting up high-percentage attacks. When I'm locked down with a competent opponent who understands the Electric Chair mechanics, I know I'm in immediate danger—the pressure is real and the sweep threats are legitimate. From a competition strategy perspective, the lockdown is phenomenal for managing tough matches because it allows you to maintain guard while attacking simultaneously, which is crucial for point-based competition. The Old School sweep in particular has an extremely high success rate when combined with lockdown control because opponent literally cannot post with their trapped leg. What separates elite lockdown players from average ones is the ability to maintain constant pressure and immediately transition between attacks without giving opponent any recovery time. In my experience, opponents either tap to the Electric Chair pressure or get swept attempting to defend it—both outcomes are wins.
 - **Eddie Bravo**: The Lockdown to Electric Chair system is the foundation of everything we do at 10th Planet from half guard bottom, and it completely changed how the jiu-jitsu world thinks about half guard as an attacking position rather than just a defensive escape. Before we developed this system, half guard was considered a stalling position where you're trying to escape or sweep with low-percentage techniques. The lockdown changed everything by giving you a control position that's actually superior to many top positions because you control their base completely. The Electric Chair specifically is one of my proudest innovations because it creates legitimate finishing pressure in sub-only and EBI formats while also setting up unstoppable sweeps in point-based competition. What makes this system so effective is that it's based on creating maximum discomfort and pressure—when you have someone in a proper Electric Chair, they're in pain, their base is broken, and they're desperately trying to escape, which is exactly when you hit them with the Old School sweep or transition to the Truck. The beautiful thing about the lockdown is that it works for everyone—big guys, small guys, flexible people, inflexible people—because it's based on leverage and positioning rather than attributes. I've seen white belts submit brown belts with this system because the mechanics are so sound. The key is never being static, always maintaining that constant pressure and movement that makes opponent feel like they're drowning.

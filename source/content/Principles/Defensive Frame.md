@@ -8,7 +8,7 @@ description: "Master defensive framing in BJJ. Learn skeletal alignment, pressur
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master defensive framing in BJJ. Learn skeletal alignment, pressur
 
 
 
-> **Quick Answer**: Defensive Frame is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Defensive Frame is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Use skeletal structure rather than muscular strength to support opponent's weight
 - Position frames perpendicular to incoming pressure vectors for maximum efficiency
 - Create multiple frame points simultaneously to distribute pressure and prevent collapse
@@ -181,7 +181,7 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Skeletal Alignment**: The ability to position limbs so that bones bear loads rather than muscles, creating sustainable defensive structures. This involves understanding joint angles that maximize structural integrity and minimize energy expenditure while maintaining effective distance management.
 
 **Pressure Vector Recognition**: Identifying the direction and intensity of incoming pressure to position frames perpendicular to force application. This skill enables practitioners to anticipate pressure changes and adjust frame configuration proactively rather than reactively.
@@ -204,7 +204,7 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Frame Creation]]** (Complementary): Frame Creation focuses on establishing initial defensive structures, while Defensive Frame encompasses the entire lifecycle of frame maintenance, adjustment, and recovery across positional contexts.
 - **[[Space Management]]** (Prerequisite): Understanding space management principles is essential for effective defensive framing, as frames serve as the primary mechanism for controlling distance and preventing space closure in bottom positions.
 - **[[Hip Escape Mechanics]]** (Complementary): Hip escapes and defensive frames work synergistically - frames create the space that enables hip movement, while hip movement creates angles that make frames more effective and sustainable.
@@ -223,7 +223,7 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Side Control**: Frames are established using the near-side elbow and far-side hand against opponent's hip and shoulder to create space for hip escape. The frame prevents opponent from achieving chest-to-chest pressure while maintaining connection points that enable shrimping movement.
 
 **Mount**: Multiple frames using forearms against hips, shoulders, or neck prevent opponent from postural control and weight distribution. Frames must be adjusted as opponent shifts weight, with particular emphasis on preventing the transition to high mount or S-mount positions.
@@ -254,7 +254,7 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Recognize positional threat and incoming pressure vector**: Assess opponent's position, weight distribution, and likely pressure direction to determine required frame configuration and urgency of establishment.
 2. **Identify optimal frame placement points based on positional context**: Select anatomical targets (hips, shoulders, neck, knees) that provide maximum leverage and distance control for the specific defensive scenario.
 3. **Establish primary frames using skeletal alignment principles**: Position limbs with joints aligned to bear loads through bone structure rather than muscle tension, creating sustainable defensive barriers that can persist under pressure.
@@ -267,28 +267,28 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Using muscular tension rather than skeletal alignment to maintain frames
+## Common Mistakes
+- **Mistake**: Using muscular tension rather than skeletal alignment to maintain frames
   - **Consequence**: Rapid fatigue and frame collapse as muscles exhaust under sustained pressure, leading to progressive positional deterioration and eventual defensive failure.
   - **Correction**: Focus on positioning bones to bear loads with joints aligned in structurally sound configurations. Minimize muscle engagement by finding skeletal angles that naturally resist pressure direction.
-- **Error**: Overextending frames beyond effective control distance
+- **Mistake**: Overextending frames beyond effective control distance
   - **Consequence**: Loss of frame strength and stability as leverage decreases with distance, allowing opponent to collapse frames easily or work around them to achieve close proximity.
   - **Correction**: Maintain frames within the distance range where structural integrity and control remain strong. Keep elbows relatively close to body while still creating adequate separation.
-- **Error**: Establishing frames too late after opponent achieves crushing pressure
+- **Mistake**: Establishing frames too late after opponent achieves crushing pressure
   - **Consequence**: Attempting to create frames from underneath established weight is exponentially more difficult and energy-intensive, often resulting in immediate frame collapse and positional consolidation.
   - **Correction**: Develop anticipatory frame establishment, creating defensive structures early in positional transitions before opponent can settle weight and establish dominant proximity.
-- **Error**: Creating single-point frames without redundancy or backup structures
+- **Mistake**: Creating single-point frames without redundancy or backup structures
   - **Consequence**: When the single frame is compromised or collapsed, no secondary defensive structure exists, allowing opponent to immediately advance position or establish submission control.
   - **Correction**: Build multi-point frame systems where primary and secondary frames work together. If one frame fails, others maintain defensive integrity while the compromised frame is recovered.
-- **Error**: Maintaining static frames without adjusting to pressure changes
+- **Mistake**: Maintaining static frames without adjusting to pressure changes
   - **Consequence**: Opponent can systematically defeat static frames by changing pressure angles or intensity, eventually finding configurations where frames lose effectiveness and collapse.
   - **Correction**: Treat frames as dynamic defensive structures that must constantly adapt. Develop sensitivity to pressure changes and practice transitioning between frame configurations smoothly.
-- **Error**: Isolating frames from hip movement and core engagement
+- **Mistake**: Isolating frames from hip movement and core engagement
   - **Consequence**: Frames become purely reactive survival tools rather than active defensive structures that create escape opportunities, resulting in prolonged inferior positions without improvement.
   - **Correction**: Integrate frame maintenance with hip mobility and core stability. Use frames to create space that enables hip escapes, while hip movement creates angles that strengthen frame effectiveness.
-- **Error**: Fighting to maintain compromised frames instead of recovering or transitioning
+- **Mistake**: Fighting to maintain compromised frames instead of recovering or transitioning
   - **Consequence**: Wasting energy on losing battles with collapsed frames prevents establishing new defensive structures, accelerating fatigue and positional deterioration.
   - **Correction**: Recognize when frames are irretrievably compromised and immediately transition to alternative frame configurations or defensive positions rather than fighting lost causes.
 
@@ -297,7 +297,7 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Sparring with Frame Focus** (Focus: Developing automatic frame establishment responses and building endurance for sustained frame maintenance under realistic pressure and fatigue conditions.)
 Practice specific positional scenarios (mount bottom, side control bottom, etc.) with explicit emphasis on establishing and maintaining frames throughout the duration.
 
@@ -322,7 +322,7 @@ Systematically catalog and practice the optimal frame configurations for each ma
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Establishes basic frames in common positions but often uses muscular tension rather than skeletal alignment
 - Recognizes the need for frames after pressure is already established rather than anticipating positional threats
@@ -363,7 +363,7 @@ Systematically catalog and practice the optimal frame configurations for each ma
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Frame Creation]] (Principle) - Closely related concept focusing on initial frame establishment rather than comprehensive frame lifecycle management
 - [[Space Management]] (Principle) - Broader concept that frames serve as primary mechanism for implementing in defensive scenarios
@@ -383,7 +383,7 @@ Systematically catalog and practice the optimal frame configurations for each ma
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Defensive framing represents what I consider a biomechanical optimization problem where the objective is to create maximum resistance with minimum energy expenditure through proper skeletal alignment. The key insight is understanding that bones are designed to bear compressive loads while muscles are designed for dynamic movement - when we use muscles to resist static pressure, we create an unsustainable defensive structure that inevitably fails under extended duration. I emphasize what I term 'structural framing' where skeletal architecture bears opponent's weight rather than muscular tension, creating defensive barriers that can persist indefinitely without fatigue. This requires systematic understanding of joint angles and leverage mechanics - each position has optimal frame configurations that can be calculated and practiced until they become automatic responses. The most sophisticated practitioners understand frames not as isolated defensive tools but as integrated systems where primary and secondary frames work together, creating redundant defensive architecture that maintains integrity even when individual components are compromised.
 - **Gordon Ryan**: In competition, I've learned that defensive framing isn't about creating perfect static structures - it's about dynamic systems that constantly adapt to opponent's pressure changes. The difference between surviving bottom positions against elite opposition and getting smashed is understanding that frames must evolve in real-time as your opponent adjusts their attack angle and pressure intensity. I focus heavily on frame timing, establishing defensive structures early before my opponent can settle their weight and achieve crushing pressure. Once someone like Kaynan Duarte or Felipe Pena gets full pressure established, trying to create frames becomes exponentially harder and wastes enormous amounts of energy fighting losing battles. The other critical element is knowing when to abandon compromised frames rather than fighting to maintain them - if a frame is collapsing, immediately transition to alternative defensive structures instead of wasting energy on frames that are already defeated. This decision-making under pressure separates defensive specialists who can survive elite attacks from practitioners who get overwhelmed despite understanding frame theory.
 - **Eddie Bravo**: What's fascinating about defensive framing is how we've developed specialized frame configurations within the 10th Planet system that challenge conventional framing wisdom by using frames offensively rather than purely defensively. In our lockdown and rubber guard systems, frames don't just create space - they actively control opponent's posture and positioning to set up sweeps and submission attempts. I teach what I call 'active frames' that simultaneously defend position and create attacking opportunities, particularly in half guard where the knee shield frame isn't just preventing passes but also setting up the lockdown entry or electric chair setup. The conventional approach treats frames as survival tools, but we've found that the same structural principles that create defensive space can be weaponized to off-balance opponents and create submission entries. This requires rethinking frames not as static barriers but as dynamic control points that connect defensive structure with offensive opportunity - the frame that prevents the pass becomes the frame that enables the sweep, creating an integrated system where defense and offense flow seamlessly together.

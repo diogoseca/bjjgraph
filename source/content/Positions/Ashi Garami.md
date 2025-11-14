@@ -13,10 +13,6 @@ description: "Master Ashi Garami leg entanglements with control mechanics, hiera
 
 
 
-> **Quick Overview**: **Ashi Garami** (足絡み, Japanese for "leg entanglement") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom pos...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,7 +48,7 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -60,54 +56,14 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Ashi Garami]] | Medium | High | Medium | Medium | Horizontal control negates size through mechanics |
-
 | [[50-50 Guard]] | High | Medium to High | High | Medium | Equal entanglement with inside control advantage |
-
 | [[Backside 50-50]] | Medium to High | Medium | Medium | Medium | Back-facing orientation creates pressure asymmetry |
-
 | [[Cross Ashi-Garami]] | Medium | Medium | Medium | Medium | Crossed legs trade mobility for heel exposure |
-
 | [[Honey Hole]] | High | Medium | High | Medium | Inside leg triangle creates control asymmetry |
-
 | [[Inside Ashi-Garami]] | Medium | Medium | Medium | Medium | Inside leg across hip for superior heel control |
-
 | [[Outside Ashi-Garami]] | Medium | High | Medium | Medium | Outside leg angle enables direct heel hooks |
-
 | [[Saddle]] | High | Medium | High | Medium | Perpendicular entanglement submission dilemma |
-
 | [[Ushiro Ashi-Garami]] | High | Medium | Medium | Medium | Reverse entanglement with unique heel angles |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Ashi Garami/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Ashi Garami/Top|Top Perspective]]** - Techniques and strategies
-
-
-### By Variation
-
-- **[[50-50 Guard]]** - Bilateral leg entanglement with symmetrical control and mutual heel exposure
-
-- **[[Backside 50-50]]** - Reverse 50-50 position with back exposure and unique submission pathways
-
-- **[[Cross Ashi-Garami]]** - Cross-body leg control with superior heel isolation and submission mechanics
-
-- **[[Honey Hole]]** - Legacy name for Saddle position, apex of leg entanglement control hierarchy
-
-- **[[Inside Ashi-Garami]]** - Inside leg control with superior advancement pathways and control options
-
-- **[[Outside Ashi-Garami]]** - Standard outside leg entanglement, fundamental entry for leg lock system
-
-- **[[Saddle]]** - Ultimate leg control with maximum heel exposure and submission opportunities
-
-- **[[Ushiro Ashi-Garami]]** - Reverse leg entanglement with unique back-exposure and finishing angles
 
 
 
@@ -115,10 +71,13 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 
 <section id="bottom-summary" class="content-section">
 
-## Ashi Garami Bottom Perspective
+
+## Playing as Bottom
+
+[[Ashi Garami/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in ashi garami controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -163,7 +122,7 @@ The bottom player in ashi garami controls the position with offensive attacks in
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Forcing heel hook attempts from Outside Ashi without advancing to superior positions first**
@@ -187,16 +146,17 @@ The bottom player in ashi garami controls the position with offensive attacks in
   - ✅ Correction: Develop recognition of defensive triggers (heel exposure, inside space loss) that indicate need for positional abandon or escape
 
 
-👉 **[[Ashi Garami/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Ashi Garami Top Perspective
+
+## Playing as Top
+
+[[Ashi Garami/Top|→ Full Top Guide]]
 
 
-The top player in ashi garami manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -238,7 +198,7 @@ The top player in ashi garami manages the position strategically based on oppone
   - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Explosive ripping leg extraction attempts that expose heel during forceful movement**
@@ -262,8 +222,6 @@ The top player in ashi garami manages the position strategically based on oppone
   - ✅ Correction: Recognize and capitalize on neck exposure, passing opportunities, and counter-entanglement possibilities during opponent transitions
 
 
-👉 **[[Ashi Garami/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -276,56 +234,56 @@ The top player in ashi garami manages the position strategically based on oppone
 
 Bilateral leg entanglement with symmetrical control and mutual heel exposure
 
-[Explore 50-50 Guard →](ashi-garami/50-50-guard)
+[Explore 50-50 Guard →](./50-50 Guard)
 
 
 ### [[Backside 50-50]]
 
 Reverse 50-50 position with back exposure and unique submission pathways
 
-[Explore Backside 50-50 →](ashi-garami/backside-50-50)
+[Explore Backside 50-50 →](./Backside 50-50)
 
 
 ### [[Cross Ashi-Garami]]
 
 Cross-body leg control with superior heel isolation and submission mechanics
 
-[Explore Cross Ashi-Garami →](ashi-garami/cross-ashi-garami)
+[Explore Cross Ashi-Garami →](./Cross Ashi-Garami)
 
 
 ### [[Honey Hole]]
 
 Legacy name for Saddle position, apex of leg entanglement control hierarchy
 
-[Explore Honey Hole →](ashi-garami/honey-hole)
+[Explore Honey Hole →](./Honey Hole)
 
 
 ### [[Inside Ashi-Garami]]
 
 Inside leg control with superior advancement pathways and control options
 
-[Explore Inside Ashi-Garami →](ashi-garami/inside-ashi-garami)
+[Explore Inside Ashi-Garami →](./Inside Ashi-Garami)
 
 
 ### [[Outside Ashi-Garami]]
 
 Standard outside leg entanglement, fundamental entry for leg lock system
 
-[Explore Outside Ashi-Garami →](ashi-garami/outside-ashi-garami)
+[Explore Outside Ashi-Garami →](./Outside Ashi-Garami)
 
 
 ### [[Saddle]]
 
 Ultimate leg control with maximum heel exposure and submission opportunities
 
-[Explore Saddle →](ashi-garami/saddle)
+[Explore Saddle →](./Saddle)
 
 
 ### [[Ushiro Ashi-Garami]]
 
 Reverse leg entanglement with unique back-exposure and finishing angles
 
-[Explore Ushiro Ashi-Garami →](ashi-garami/ushiro-ashi-garami)
+[Explore Ushiro Ashi-Garami →](./Ushiro Ashi-Garami)
 
 
 

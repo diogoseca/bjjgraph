@@ -8,7 +8,7 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -71,7 +71,7 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,9 +177,7 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -209,7 +207,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Close-range upper body engagement with both practitioners upright or slightly bent at the waist, maintaining face-to-face or chest-to-chest proximity within arm's reach, creating a dynamic control environment where grip exchanges and positional adjustments occur continuously
 - Active grip fighting with hands and arms engaged in various control configurations such as underhooks, overhooks, collar ties, or body locks around the opponent's neck, shoulders, or torso, with constant hand fighting to establish and deny dominant grip positions
@@ -223,7 +221,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Strong neck and upper body development to maintain posture under pressure and resist opponent's attempts to control head position
 - Understanding of grip fighting mechanics and hand fighting sequences to establish dominant controls while denying opponent's grips
@@ -344,7 +342,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Sprawl Defense]]** → [[Front Headlock]] (Success: 60%)
 - **[[Takedown Defense]]** → [[Standing Position]] (Success: 55%)
@@ -414,7 +412,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

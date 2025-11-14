@@ -8,7 +8,7 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -71,7 +71,7 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,9 +177,7 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 75% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 75% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -207,7 +205,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Both practitioners maintain upright vertical posture with torsos elevated and feet as the only points of contact with the mat, creating a dynamic standing engagement
 - Weight distributed through both legs with active base, allowing for rapid directional changes and explosive movements in response to opponent actions
@@ -220,7 +218,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Fundamental understanding of proper stance mechanics with balanced weight distribution and athletic base
 - Basic grip fighting competency to establish and break grips effectively
@@ -362,7 +360,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Sprawl]]** → [[Front Headlock]] (Success: 50%)
 - **[[Sprawl Defense]]** → [[Turtle]] (Success: 45%)
@@ -433,7 +431,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

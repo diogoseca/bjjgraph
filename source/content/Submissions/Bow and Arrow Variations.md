@@ -8,7 +8,7 @@ description: "Master Bow and Arrow Choke variations in BJJ. Complete guide with 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Bow and Arrow Choke variations in BJJ. Complete guide with 
 
 
 
-> **Quick Answer**: Bow and Arrow Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Bow and Arrow Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="safety-considerations" class="content-section">
 
-## Is Bow and Arrow Variations Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -210,7 +210,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Maintain back control with seat belt or harness grip throughout the submission sequence
 - Establish deep collar grip before committing to the finishing mechanics
 - Use leg extension to create bow-and-arrow tension that prevents escape while amplifying choke pressure
@@ -224,7 +224,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish secure back control with hooks in or body triangle locked
 - Achieve seat belt grip or harness control with at least one arm trapped
 - Obtain deep collar grip with four fingers inside the collar near the opponent's neck
@@ -238,7 +238,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure Deep Collar Grip**: From back control with seat belt grip, release your choking-side hand and immediately feed it deep into the opponent's collar on the same side. Drive four fingers inside the collar as close to their neck as possible, with your thumb outside. Your knuckles should be touching their neck for maximum depth. This grip is the foundation of all variations. (Timing: 2-3 seconds) [Pressure: Light]
 2. **Control the Far Shoulder**: With your non-choking hand, maintain a tight grip on the opponent's far shoulder, tricep, or far-side collar. This prevents them from turning into you or using their arms to defend the choke. Keep this control tight throughout the entire sequence - any looseness here allows defensive hand fighting that can defeat the submission. (Timing: Continuous) [Pressure: Firm]
 3. **Initiate Hip Rotation**: Begin rotating your hips away from the opponent while maintaining your collar grip. Swing your top leg over their body toward their far hip, preparing to establish the bow-and-arrow position. Keep your chest connected to their back during this rotation to prevent them from following your movement and escaping back control. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -251,7 +251,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent tucks their chin to block collar access** (Effectiveness: High) - Your Adjustment: Switch to cross-collar variation by feeding your hand to the far side collar, or use the opponent's chin-tuck as an anchor point and apply pressure through their jaw (air choke variation). Alternatively, wait for them to breathe or adjust, then attack when the chin lifts.
 - **Opponent grabs your choking arm with both hands to strip the grip** (Effectiveness: Medium) - Your Adjustment: Use your non-choking hand to control their far arm and prevent two-on-one grip fighting. If they establish two-on-one, transition to rolling variation by continuing your rotation to invert their defensive position, or switch to alternative submission like armbar or triangle from back.
 - **Opponent turns into you to face guard and escape back control** (Effectiveness: Medium) - Your Adjustment: Maintain your collar grip and follow their rotation, transitioning to closed guard or mount with the collar already secured. Use the maintained collar grip to set up loop choke, cross collar choke, or baseball bat choke from the new position.
@@ -261,28 +261,28 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Releasing back control hooks before securing the collar grip [Low DANGER]
+## Common Mistakes
+- **Mistake**: Releasing back control hooks before securing the collar grip [Low DANGER]
   - **Consequence**: Opponent escapes to guard or side control before you can establish the submission
   - **Correction**: Always establish deep collar grip FIRST while maintaining hooks or body triangle. Only transition your legs to bow-and-arrow position after the collar is secured and controlled.
-- **Error**: Shallow collar grip with only two fingers or thumb inside [Low DANGER]
+- **Mistake**: Shallow collar grip with only two fingers or thumb inside [Low DANGER]
   - **Consequence**: Choke lacks depth and power, allowing opponent to defend by tucking chin or turning
   - **Correction**: Feed all four fingers deep into the collar until your knuckles touch the opponent's neck. The thumb stays outside for maximum leverage. Spend extra time getting depth - a deep grip finishes quickly, a shallow grip fails.
-- **Error**: Failing to control opponent's far shoulder during setup [Medium DANGER]
+- **Mistake**: Failing to control opponent's far shoulder during setup [Medium DANGER]
   - **Consequence**: Opponent uses free arms to strip your collar grip or turn into you, defeating the submission
   - **Correction**: Maintain constant control of the far shoulder, tricep, or collar throughout the entire sequence. This second point of control is non-negotiable - two points of control prevent defensive movement.
-- **Error**: Applying only collar pull without leg extension or vice versa [Low DANGER]
+- **Mistake**: Applying only collar pull without leg extension or vice versa [Low DANGER]
   - **Consequence**: Submission lacks the compound pressure that makes bow-and-arrow effective, allowing easy escape
   - **Correction**: Coordinate your movements: pull collar and extend leg simultaneously. The power comes from the combination creating opposing forces. Practice the timing slowly until the coordination becomes automatic.
-- **Error**: Jerking or yanking the collar with sudden explosive force [CRITICAL DANGER]
+- **Mistake**: Jerking or yanking the collar with sudden explosive force [CRITICAL DANGER]
   - **Consequence**: Risk of neck injury, tracheal damage, or partner losing consciousness without ability to tap
   - **Correction**: ALWAYS apply pressure progressively over 3-5 seconds. The blood choke works through steady compression, not explosive force. In training, prioritize control over speed - your partner's safety depends on your discipline.
-- **Error**: Positioning your leg too high on opponent's body instead of their hip [High DANGER]
+- **Mistake**: Positioning your leg too high on opponent's body instead of their hip [High DANGER]
   - **Consequence**: Creates painful rib pressure and potential rib injury without effective choke pressure
   - **Correction**: Target your leg extension against the opponent's hip or upper thigh, not their ribs or torso. The hip is the structural pivot point - pushing here creates the bow effect safely.
-- **Error**: Continuing to apply pressure after partner taps or goes limp [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or goes limp [CRITICAL DANGER]
   - **Consequence**: Serious injury including unconsciousness, potential brain damage from prolonged blood restriction
   - **Correction**: Release IMMEDIATELY upon any tap signal or if partner's body goes limp. Check their consciousness and neck mobility before continuing. If partner loses consciousness, position them safely and alert instructor immediately.
 
@@ -291,7 +291,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Cross-Collar Bow and Arrow**: Instead of gripping the same-side collar, feed your choking hand across to the far-side collar for a deeper, more powerful grip. This variation requires more initial setup time but creates a more acute choking angle that's harder to defend. The cross-collar grip also provides better control if the opponent attempts to turn into you. (When to use: Use when opponent is effectively defending the standard same-side collar grip by tucking their chin or controlling your wrist. Also preferred against larger opponents where deeper penetration is needed for effectiveness.)
 
 **Single-Collar Variation with Lapel Feed**: Establish the collar grip, then use your non-choking hand to feed the opposite lapel across the opponent's neck, creating a double-collar compression. This variation combines collar choke mechanics with bow-and-arrow positioning, often catching opponents who defend the standard setup. (When to use: Use when you have dominant back control and the opponent's gi provides loose lapels for feeding. Particularly effective in gi competition when standard bow-and-arrow setups are well-scouted.)
@@ -338,7 +338,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (1-2 weeks)
 - Focus: Learn the mechanics of each variation without resistance. Practice collar grip depth, leg positioning, and coordination of pulling and extending movements. Study the anatomical targets and understand why each component works.
 - Resistance: Zero resistance
@@ -375,7 +375,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Back Control]]
 - [[Seat Belt Control Back]]
@@ -391,7 +391,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Bow and Arrow Choke]]
 - [[Rear Naked Choke]]
@@ -431,7 +431,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The bow and arrow choke variations represent a systematic approach to back attack finishing that accounts for the full spectrum of defensive responses. The fundamental principle is the creation of opposing forces - your collar control creates directional pull while your leg extension creates directional push, and the opponent's body becomes trapped between these forces with their neck compressed by the tightening collar. What distinguishes the variations is their adaptability to different grip scenarios and defensive patterns. The cross-collar variation provides deeper penetration when standard grips are defended. The rolling variation converts the opponent's primary defensive movement - turning into you - into your finishing opportunity. The body triangle variation provides more stable control during the extended setup time required for proper collar depth. From a safety perspective, these are blood chokes targeting the carotid arteries, which means they work through pressure restriction rather than pain compliance. This makes progressive application absolutely critical in training - your partner will lose consciousness before experiencing significant pain if you apply too quickly. Train these variations slowly and deliberately, focusing on the systematic progression from back control to collar grip to leg positioning to coordinated extension. The technique should feel smooth and inevitable, not forced or explosive.
 - **Gordon Ryan**: In competition, bow and arrow variations are high-percentage finishes when you've already established dominant back control, but the key is understanding which variation matches the specific defensive response you're facing. I've finished dozens of matches with these techniques because I recognize the patterns - when they tuck their chin hard, I switch to cross-collar. When they turn aggressively, I use the rolling variation and finish on top. When they're defending well with hand fighting, I transition through gift wrap first to compromise their arm position. The mistake most people make is committing to one variation and forcing it regardless of what the opponent gives them. In training, you need to develop the variation arsenal so you can flow between options based on real-time feedback. That said, training application versus competition application are completely different. In training, I apply these slowly and progressively because my training partners need to be healthy for tomorrow's session. In competition, once I have the position secured and the collar deep, I'm finishing quickly because there's no reason to give high-level opponents time to defend. But you develop that competition intensity through thousands of slow training repetitions where safety is the priority. Don't try to prove toughness by cranking submissions in the training room - that just gets people injured and reduces your available training partners.
 - **Eddie Bravo**: The bow and arrow is a classic gi technique, but what people don't realize is how well the mechanical principles transfer to modern no-gi systems when you use the collar as an analogy for other control points. At 10th Planet, we look at the bow and arrow variations as a template for creating extension-based submissions where you're stretching the opponent between two opposing forces. The gift wrap to bow-and-arrow variation is particularly valuable because the gift wrap itself is already a strong control position we use extensively in no-gi, so adding the gi collar finish creates a seamless transition between systems. The rolling variation also connects to our Twister system philosophy - using the opponent's defensive momentum to set up the finish rather than fighting against their strength. From a safety perspective, these collar chokes require serious respect and awareness. In gi training, it's easy to underestimate how quickly a properly applied blood choke works. I've seen too many people hold chokes too long because they didn't realize their partner had already gone out. The rule is simple: the instant you feel the tap or they go limp, you release immediately. No exceptions, no ego, no proving points. Training is about building skills and relationships with your teammates. Competition is where you go hard. Keep those contexts separate and everyone stays healthy and improves faster.

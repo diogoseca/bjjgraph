@@ -8,7 +8,7 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
 
 
 
-> **Quick Answer**: Double Leg Setup transitions from [[Standing Position]] to [[Double Leg Entry]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Double Leg Setup transitions from [[Standing Position]] to [[Double Leg Entry]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control distance through grip fighting and footwork before committing to the entry
 - Use level changes and upper body movement to disguise your intentions and create reactions
 - Establish collar ties or wrist control to prevent opponent from creating defensive frames
@@ -192,7 +192,7 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Neutral standing position with balanced stance and weight distribution
 - Adequate distance management to prevent opponent from immediately sprawling or clinching
 - At least one grip established (collar tie, wrist control, or sleeve grip)
@@ -205,7 +205,7 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grip control**: Secure a collar tie with your lead hand, placing it behind opponent's neck with fingers interlaced. Simultaneously control their wrist or sleeve with your rear hand, creating a connected grip system that limits their defensive options and allows you to manipulate their posture. (Timing: Initial contact phase)
 2. **Create distance and angle**: Step your lead foot to the outside of opponent's lead foot, approximately 45 degrees off their centerline. This lateral positioning creates an angle that opens up the shooting lane while making it difficult for them to sprawl directly backward over your entry. (Timing: Setup positioning)
 3. **Execute upper body feint**: Push or pull with your collar tie to create a reactive response from your opponent. A forward push often causes them to push back, while a pull creates forward momentum. These reactions momentarily compromise their defensive readiness and weight distribution. (Timing: Reaction creation phase)
@@ -220,7 +220,7 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Sprawl defense with hips driven backward** (Effectiveness: High) - Your Response: Immediately transition to single leg position by releasing one leg and circling to the side, or convert to a body lock if they sprawl without creating distance
 - **Guillotine choke attempt as you shoot** (Effectiveness: High) - Your Response: Keep your head tight to their hip rather than floating in front, drive through to complete the takedown which often breaks the guillotine grip, or bail out by pulling your head free and resetting to standing
 - **Whizzer overhook on your shooting arm** (Effectiveness: Medium) - Your Response: Continue driving forward while switching to single leg grip on the non-whizzered side, or use the whizzer as a pivot point to circle behind for back access
@@ -230,25 +230,25 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Telegraphing the shot by dropping level too early or too obviously
+## Common Mistakes
+- **Mistake**: Telegraphing the shot by dropping level too early or too obviously
   - **Consequence**: Opponent recognizes the attack and sprawls before you can complete penetration, leaving you exposed in a poor position
   - **Correction**: Maintain upright posture until the moment of attack, using subtle level changes disguised within normal movement patterns
-- **Error**: Shooting from too far away without closing distance first
+- **Mistake**: Shooting from too far away without closing distance first
   - **Consequence**: Insufficient penetration depth allows opponent to easily sprawl or step back, wasting energy on a failed attempt
   - **Correction**: Use grip fighting and footwork to establish proper range, ensuring your penetration step lands deep between their legs
-- **Error**: Leading with your head instead of your hips
+- **Mistake**: Leading with your head instead of your hips
   - **Consequence**: Head floats in guillotine range while hips stay too high, making the shot weak and vulnerable to front headlock attacks
   - **Correction**: Drive hips forward first while keeping head tight to their hip, creating a low, powerful entry angle
-- **Error**: Looking down at the mat during entry
+- **Mistake**: Looking down at the mat during entry
   - **Consequence**: Loss of postural integrity and awareness, making it impossible to react to opponent's defensive movements or counters
   - **Correction**: Keep your eyes on opponent's hips or chest, maintaining awareness of their weight distribution and counter-attack attempts
-- **Error**: Failing to establish any grips before shooting
+- **Mistake**: Failing to establish any grips before shooting
   - **Consequence**: Opponent can easily create distance, frame against your head, or move laterally away from your attack line
   - **Correction**: Always establish at least wrist or collar tie control before committing to the entry, using grips to break posture and limit mobility
-- **Error**: Shooting in a straight line without creating angles
+- **Mistake**: Shooting in a straight line without creating angles
   - **Consequence**: Predictable attack allows opponent to sprawl directly backward over your entry, their strongest defensive response
   - **Correction**: Step at 45-degree angles to create lateral positioning, forcing opponent to adjust their base before sprawling
 
@@ -257,7 +257,7 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Technical Foundation** - Grip fighting and distance management fundamentals
 Practice establishing collar ties and wrist control from neutral standing position. Work on footwork patterns that create angles without committing to shots. Drill level changes in isolation, focusing on smooth hip movement while maintaining upright back position. Partner remains completely static to allow focus on technical positioning.
 (Resistance: None)
@@ -284,7 +284,7 @@ Engage in full-intensity standing-only rounds where both partners attempt takedo
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Snap Down to Double Leg Setup**: Use a collar tie to snap opponent's head and upper body downward, forcing them to post their hands on the mat. As they attempt to stand back up, their hips rise and weight shifts forward, creating an ideal moment to shoot underneath their elevated stance. This variant works exceptionally well against opponents with strong sprawl defense because their defensive mechanism (posting hands) actually creates the setup opportunity. (When to use: Against opponents who maintain extremely low postures or who have excellent sprawl timing, making traditional setups difficult)
 
 **Fake Single to Double Leg Setup**: Initiate the entry as if shooting a single leg, causing opponent to defend by pulling the attacked leg back and shifting weight to their rear leg. Immediately transition to attacking both legs with a double leg grip, capitalizing on their compromised base and defensive commitment to the wrong attack. The fake single draws their attention and defense to one side before attacking their entire structure. (When to use: When opponent shows pattern recognition and consistent defensive responses to single leg attempts)
@@ -324,7 +324,7 @@ Engage in full-intensity standing-only rounds where both partners attempt takedo
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Controlled application of the double leg setup is essential to prevent partner injuries during drilling and sparring. The primary safety concern involves protecting partner from dangerous falls, particularly onto their head, neck, or shoulders. When practicing setup entries, maintain awareness of driving speed and power, gradually building intensity rather than immediately using explosive movements with new partners. Ensure adequate mat space exists for forward movement and potential sprawl reactions to prevent collisions with walls or other training pairs. During the penetration phase, keep your head positioned tight to partner's hip rather than driving upward into their face or jaw. When transitioning from setup to finish, control their descent to the mat rather than allowing uncontrolled falls that could result in neck compression or shoulder injuries. Practice on appropriate matting that provides sufficient cushioning for takedown impacts. In drilling scenarios, agree upon resistance levels beforehand and respect tap signals if partner feels unstable or unsafe during any phase of the technique. Build progressive resistance over weeks and months rather than immediately training at competition intensity, allowing both partners to develop the technical proficiency and body awareness needed for safe execution.
 
@@ -332,7 +332,7 @@ Controlled application of the double leg setup is essential to prevent partner i
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Double Leg Setup serves as a critical bridge technique in the standing phase of Brazilian Jiu-Jitsu, connecting neutral standing positions to dominant top control positions such as side control, mount, or knee on belly. Within the larger BJJ positional hierarchy, this setup represents the offensive initiative in the standing exchange, determining whether the match will be fought from standing or ground positions. The technique integrates closely with guard pulling strategies, as practitioners must decide moment-to-moment whether to pursue takedowns or pull guard based on setup success rates, opponent defensive patterns, and overall match strategy. Failed double leg setups often transition naturally into front headlock positions, guillotine opportunities, or scrambles where both competitors vie for top position, making the setup phase a critical decision point that shapes subsequent positional exchanges. In competition contexts, the double leg setup becomes part of a comprehensive takedown system that includes single legs, high crotches, body locks, and snap downs, with each technique setting up the others through defensive reactions and pattern recognition. Understanding how the double leg setup connects to these related positions and techniques allows practitioners to develop systematic approaches rather than isolated technique collections, creating a cohesive standing game that integrates seamlessly with their ground-based skills.
 
@@ -340,7 +340,7 @@ The Double Leg Setup serves as a critical bridge technique in the standing phase
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Double Leg Entry]] - Direct follow-up - completion of penetration phase
 - [[Double Leg Finish]] - Finishing sequence after setup and entry phases
@@ -360,7 +360,7 @@ The Double Leg Setup serves as a critical bridge technique in the standing phase
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The double leg setup represents a fundamental study in mechanical efficiency and tactical preparation. The amateur approach involves explosive athletic attempts with minimal strategic foundation, while the systematic approach recognizes that the setup phase is where matches are won or lost. Consider the biomechanical reality: a successful double leg requires you to lower your center of gravity below your opponent's hips while simultaneously moving forward into their base - these are opposing mechanical demands that cannot be achieved simultaneously without prior preparation. The grip fighting phase serves to break their postural integrity, the feinting creates reactive weight shifts, and the angle creation removes their strongest defensive alignment. Only after these preparatory elements are established does the explosive level change and penetration become mechanically viable. Students must understand that each component of the setup serves a specific function in the overall mechanical sequence, and removing any element significantly decreases success probability. The setup is not a formality before the real technique - it IS the technique, with the finish being merely the completion of properly executed preparation.
 - **Gordon Ryan**: In high-level competition, the double leg setup is less about physical explosiveness and more about creating decision-making dilemmas that force errors. When I'm setting up double legs against world-class opposition, I'm not relying on being faster or more athletic - I'm manipulating their defensive priorities through chains of attacks. I'll threaten a snap down which makes them pull back, then shoot as they're pulling. Or I'll fake a single leg to one side, causing them to defend that leg, then attack both legs as they shift weight. The key insight is that you can't just shoot a naked double leg against good opponents - you need to earn the setup through tactical pressure and pattern recognition. I pay close attention to how they defend my initial attempts, then use that information to set up subsequent attacks. If they sprawl hard, I'm ready to convert to single leg or bodylock. If they guillotine, I keep my head position tighter and drive harder. The setup becomes a conversation where I'm constantly asking questions with my attacks and adjusting based on their answers, eventually finding the combination they can't defend.
 - **Eddie Bravo**: The beautiful thing about double leg setups in the modern game is how they integrate with guard pulling strategies to create a complete standing system. In 10th Planet competition approaches, we're not purely committed to takedowns or purely committed to guard pulls - we flow between them based on what opponent gives us. I'll initiate a double leg setup with solid collar tie and angle work, but if I feel them sprawling hard or threatening guillotines, I'm comfortable immediately transitioning to a guard pull where I maintain leg control from the shot and establish rubber guard or lockdown positions. This fluidity makes the setup extremely safe because you're never fully committed to a potentially dangerous position - you always have the guard pull escape hatch. Conversely, the threat of guard pulling actually improves your takedown success rate because opponent can't fully commit to sprawl defense without risking you pulling them into your guard game. This creates a constant dilemma where they can't defend everything simultaneously. The setup becomes less about perfecting one technique and more about creating strategic ambiguity where you maintain multiple offensive options throughout the exchange.

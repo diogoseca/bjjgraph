@@ -8,7 +8,7 @@ description: "Master Omoplata variations in BJJ. Complete guide covering standar
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Master Omoplata variations in BJJ. Complete guide covering standar
 
 
 
-> **Quick Answer**: Omoplata Variations is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Omoplata Variations is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -180,7 +180,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="safety-considerations" class="content-section">
 
-## Is Omoplata Variations Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -222,7 +222,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Hip pressure controls shoulder rotation - your hip against their shoulder is the primary control mechanism
 - Leg configuration determines variation - standard, rolling, baratoplata, and tarikoplata all use different leg positions
 - Sweeps and submissions are interchangeable - every omoplata setup creates sweep opportunities if the submission fails
@@ -236,7 +236,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent's posture must be broken forward with their weight committed
 - Control of opponent's trapped arm (sleeve grip in gi, wrist control no-gi)
 - Hip mobility to thread leg over opponent's shoulder and behind head
@@ -250,7 +250,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Break posture and secure grips**: From closed guard or open guard, break opponent's posture by pulling their head and upper body forward. Secure a strong grip on the arm you intend to attack (sleeve grip in gi, wrist control no-gi). Establish a secondary control point such as collar grip or head control to prevent them from posturing back up. (Timing: 2-3 seconds to establish controls) [Pressure: Moderate]
 2. **Create angle and swing leg over**: Pivot your hips approximately 90 degrees toward the trapped arm side, creating a perpendicular angle to your opponent's body. Swing your same-side leg (the leg on the side of the trapped arm) over their shoulder and behind their head. Your shin should cross their upper back with your foot positioned near their opposite shoulder blade. (Timing: 1-2 seconds for hip rotation and leg swing) [Pressure: Light]
 3. **Secure the triangle lock**: Bring your opposite leg over your shin to create a figure-four leg lock around their head and trapped arm. Lock your foot in the crook of your opposite knee or over your own shin, depending on the variation. This triangle configuration secures the position and prevents them from removing their arm from the entanglement. (Timing: 1-2 seconds to lock legs) [Pressure: Moderate]
@@ -265,7 +265,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Rolling forward to escape the shoulder lock** (Effectiveness: High) - Your Adjustment: Follow their roll by maintaining wrist control and either finishing the omoplata in the new position or transitioning to the back as they expose it during the roll. Use their momentum to assist your back take by throwing your legs over as they complete the forward roll.
 - **Grabbing your legs to prevent hip rotation** (Effectiveness: Medium) - Your Adjustment: Switch to rolling omoplata by releasing the triangle lock and executing a forward roll, breaking their grip in the process. Alternatively, transition to a sweep by using their grip commitment against them and elevating them forward over your hips.
 - **Posturing up forcefully to stack you** (Effectiveness: Medium) - Your Adjustment: Accept the stack pressure temporarily while maintaining arm control. As they drive forward, use the momentum to transition to triangle choke or armbar by adjusting your leg position. Their forward pressure creates the perfect angle for these alternative submissions.
@@ -275,28 +275,28 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting omoplata from square-on position without angle [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting omoplata from square-on position without angle [Low DANGER]
   - **Consequence**: Opponent easily postures up and escapes; no leverage on shoulder joint; failure to complete the submission
   - **Correction**: Always create a 90-degree perpendicular angle with your hips before swinging your leg over. The angle is what creates the leverage and prevents them from using their base to posture out.
-- **Error**: Jerking or spiking the shoulder rotation quickly [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the shoulder rotation quickly [CRITICAL DANGER]
   - **Consequence**: CRITICAL INJURY RISK - rotator cuff tears, labral damage, AC joint separation
   - **Correction**: Apply all shoulder pressure slowly and progressively over 3-5 seconds minimum. The omoplata should build pressure gradually, giving your partner clear time to recognize and tap to the submission.
-- **Error**: Losing control of the trapped arm during setup [Low DANGER]
+- **Mistake**: Losing control of the trapped arm during setup [Low DANGER]
   - **Consequence**: Opponent extracts their arm before triangle lock is secured; position lost; must restart attack sequence
   - **Correction**: Maintain constant wrist or sleeve control from initial posture break through final leg triangle. The arm control is more important than leg position - never release it to adjust other grips.
-- **Error**: Failing to sit up and establish posting base [Low DANGER]
+- **Mistake**: Failing to sit up and establish posting base [Low DANGER]
   - **Consequence**: No rotational pressure on shoulder; opponent easily defends or escapes; submission has no finishing threat
   - **Correction**: After securing the triangle lock, immediately sit up on your outside arm creating an elevated base. Your hips should be off the mat with your torso upright. This position is essential for generating the rotation that attacks the shoulder.
-- **Error**: Triangle lock too loose or incorrectly configured [Medium DANGER]
+- **Mistake**: Triangle lock too loose or incorrectly configured [Medium DANGER]
   - **Consequence**: Opponent pulls arm free; head escapes the leg control; entire position breaks down
   - **Correction**: Ensure your figure-four leg lock is tight with your top leg's foot secured in the crook of your bottom leg's knee. Squeeze your legs together and pull the triangle tight to your body before attempting to finish.
-- **Error**: Combining omoplata with neck cranking pressure [CRITICAL DANGER]
+- **Mistake**: Combining omoplata with neck cranking pressure [CRITICAL DANGER]
   - **Consequence**: INJURY RISK - cervical spine strain, potential neck injury, violation of training safety protocols
   - **Correction**: All pressure should be directed at the shoulder joint through hip rotation, not through cranking the neck with your legs. Keep your leg hook behind the head light - it's for control only, not for generating submission pressure.
-- **Error**: Ignoring sweep opportunities when submission is defended [Low DANGER]
+- **Mistake**: Ignoring sweep opportunities when submission is defended [Low DANGER]
   - **Consequence**: Missing high-percentage scoring opportunities; staying in bottom position unnecessarily; failing to capitalize on positional commitments
   - **Correction**: Recognize that omoplata creates excellent sweep mechanics. If the submission is defended, immediately transition to the sweep by elevating opponent's trapped arm side and using your leg leverage to roll them over.
 
@@ -305,7 +305,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Standard Omoplata from Closed Guard**: Classic entry from closed guard using collar and sleeve control. Break posture, create angle, swing leg over shoulder, lock triangle, sit up and finish with hip rotation. The foundational variation that all others build upon. (When to use: Against opponents who maintain heavy top pressure in closed guard and commit their weight forward. Works best in gi with collar and sleeve grips for maximum control.)
 
 **Rolling Omoplata**: Dynamic variation executed by forward rolling over your shoulder on the trapped arm side when opponent defends with grip fighting. Maintains wrist control throughout the roll and re-establishes omoplata position after breaking defensive grips. Highly effective in no-gi where grip fighting prevents standard finish. (When to use: When opponent secures strong grips on your legs preventing hip rotation. Also effective as a surprise attack to bypass initial defensive reactions.)
@@ -355,7 +355,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn the mechanical principles of each omoplata variation without resistance. Study the anatomy of the shoulder joint, understand the angle creation requirements, and practice the leg configurations for standard, rolling, baratoplata, and tarikoplata variations. Emphasis on recognizing the setup cues and understanding which variation suits which defensive response.
 - Resistance: None
@@ -392,7 +392,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Spider Guard]]
@@ -410,7 +410,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Omoplata]]
 - [[Omoplata from Guard]]
@@ -451,7 +451,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The omoplata family represents a perfect case study in systematic submission design because it exemplifies the principle of creating multiple offensive threats from a single positional framework. The standard omoplata, rolling omoplata, baratoplata, and tarikoplata variations all share the fundamental mechanic of shoulder joint isolation through hip pressure and leg entanglement, but they attack from different angles and solve different defensive problems. What makes omoplata truly sophisticated is understanding that the submission itself is often less valuable than the positional control and transition opportunities it creates. When you establish omoplata configuration, your opponent faces a true dilemma: defend the shoulder lock and give up the sweep, defend the sweep and expose the back, or defend both and succumb to the submission. This multi-layered threat structure is what transforms technique into system. From a safety perspective, the omoplata demands exceptional care because shoulder injuries heal slowly and often require surgical intervention. The rotator cuff and shoulder capsule cannot sustain the same pressure tolerance as larger joints. Every application in training must be progressive over 3-5 seconds minimum, with clear communication and immediate release upon tap. The shoulder joint's vulnerability makes omoplata an excellent teaching tool for developing submission control and partner awareness.
 - **Gordon Ryan**: In high-level competition, I've found that omoplata works best as a positional control platform rather than a pure finishing technique, though the finish is absolutely there against opponents who don't respect it. The reason omoplata is so effective at the highest levels isn't the submission rate - it's the back-take rate. When you lock up a tight omoplata configuration, your opponent has two choices: stay there and get submitted, or roll forward to escape. If they roll forward, I'm following them and taking the back, which is often better than the submission itself. The rolling omoplata variation is particularly effective in no-gi because grip-fighting prevents the standard finish, so the dynamic roll breaks their defensive structure and resets the position in your favor. In training versus competition, there's a massive difference in application speed. In competition, I finish omoplata quickly because I need the points or submission before time runs out. In training, I never apply that speed because shoulder injuries take training partners off the mat for months. The same position that takes five seconds to develop in training might take one second in competition. Understanding this distinction is critical - train slow, compete fast, and always prioritize your training partners' safety because you need them healthy to help you improve.
 - **Eddie Bravo**: The 10th Planet system uses omoplata as one of the primary attacks from rubber guard positions because the overhook control and leg configurations create perfect setup angles. What most people don't understand is that omoplata variations like baratoplata and tarikoplata aren't just fancy alternatives - they solve specific defensive problems that shut down the standard finish. When someone defends omoplata by turning into you or grabbing your legs, the baratoplata gives you a completely different angle of attack that bypasses their defense. The tarikoplata from Mission Control is even more unconventional because you're attacking the shoulder while controlling the opposite side of their body, creating confusion about which arm is actually in danger. Innovation in omoplata comes from recognizing that the same fundamental principle - shoulder isolation through leg control - can be applied from infinite angles and positions. In training, we emphasize that omoplata should flow smoothly into sweeps and back takes rather than forcing the finish. Some of the best omoplata practitioners rarely finish it - they use it to set up everything else. Safety-wise, omoplata is one of those submissions where ego can cause serious injuries. Guys try to muscle out of it or refuse to tap, and then they're out for six months with rotator cuff surgery. We drill a strong safety culture around shoulder locks - slow application, early tapping, and absolute respect for your training partner's physical limits.

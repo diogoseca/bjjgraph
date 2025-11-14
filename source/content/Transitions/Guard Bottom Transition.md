@@ -8,7 +8,7 @@ description: "Learn Guard Bottom Transition in BJJ. Master proper guard pulling 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Guard Bottom Transition in BJJ. Master proper guard pulling 
 
 
 
-> **Quick Answer**: Guard Bottom Transition transitions from [[Standing Position]] to [[Open Guard]]. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.
+> Guard Bottom Transition transitions from [[Standing Position]] to [[Open Guard]]. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Guard Bottom Transition, commonly known as pulling guard, is a fundamental B
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain grip control throughout the sitting motion to prevent opponent from establishing dominant position
 - Sit with your hips directed toward opponent while creating proper distance with feet and legs
 - Establish immediate guard retention framework with active foot placement on hips, knees, or ankles
@@ -186,7 +186,7 @@ The Guard Bottom Transition, commonly known as pulling guard, is a fundamental B
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established grip configuration (collar, sleeve, wrist, or two-on-one control)
 - Adequate space behind you to sit safely without mat hazards
 - Opponent engaged within pulling distance (close enough to maintain grips)
@@ -199,7 +199,7 @@ The Guard Bottom Transition, commonly known as pulling guard, is a fundamental B
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips**: From standing position, establish your preferred grip configuration on the opponent. Common options include collar and sleeve (cross or same-side), double sleeve, collar and wrist, or two-on-one arm control. Ensure grips are secure before committing to the pull. (Timing: Take 1-2 seconds to establish solid grips)
 2. **Close distance**: Step closer to opponent while maintaining upright posture. Your feet should be positioned so that when you sit, you'll be at optimal guard range. Distance should allow your legs to reach opponent's hips or thighs when extended. (Timing: Smooth step forward, coordinated with grip establishment)
 3. **Drop hips backward**: Initiate the sit by bending your knees and dropping your hips straight down and slightly back. Keep your chest upright initially to maintain control of your grips and prevent opponent from falling forward onto you with their full weight. (Timing: Controlled descent over 0.5-1 second)
@@ -213,7 +213,7 @@ The Guard Bottom Transition, commonly known as pulling guard, is a fundamental B
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives forward immediately as you sit, attempting to establish smash passing position** (Effectiveness: High) - Your Response: Use strong foot frames on hips to create distance, or transition to butterfly hooks to redirect their pressure. Shrimp hips to side to create angle and prevent them from settling their weight.
 - **Opponent breaks grips during the sitting motion and disengages completely** (Effectiveness: Medium) - Your Response: If grips are broken, establish foot-only guards like seated guard or de la riva variants. Use feet to control distance while working to re-establish upper body grips. Prevent them from circling to advantageous passing angle.
 - **Opponent follows you down aggressively and attempts to jump over guard immediately** (Effectiveness: Medium) - Your Response: Recognize early jumping motion and pull opponent into closed guard or use their momentum to off-balance them with butterfly hooks. Advanced option is to invert under their jump and attack back position.
@@ -222,22 +222,22 @@ The Guard Bottom Transition, commonly known as pulling guard, is a fundamental B
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Sitting too far from opponent, creating excessive distance
+## Common Mistakes
+- **Mistake**: Sitting too far from opponent, creating excessive distance
   - **Consequence**: Opponent easily circles around guard or disengages completely, negating your guard establishment. You end up chasing with poor guard retention angles.
   - **Correction**: Step closer before sitting and ensure grips are tight. Your extended legs should comfortably reach opponent's hips or upper body when sitting at proper distance.
-- **Error**: Flopping backward with no control during the sit
+- **Mistake**: Flopping backward with no control during the sit
   - **Consequence**: Opponent drives forward into advantageous smash passing position. You land flat on your back with no defensive structure, giving away dominant position immediately.
   - **Correction**: Sit with control by keeping core engaged and chest somewhat upright initially. Lower yourself smoothly rather than falling backward. Think of sitting in a chair, not falling off a cliff.
-- **Error**: Failing to establish immediate foot frames after sitting
+- **Mistake**: Failing to establish immediate foot frames after sitting
   - **Consequence**: Opponent's weight settles on your legs or hips unopposed, establishing strong passing pressure before you can create proper guard structure.
   - **Correction**: Place feet on opponent's hips, biceps, or in gi grips immediately as buttocks contact mat. No delay between sitting and establishing foot frames. Practice this timing in drilling.
-- **Error**: Pulling with weak or no grips on opponent
+- **Mistake**: Pulling with weak or no grips on opponent
   - **Consequence**: Opponent easily disengages and either circles to advantageous angle or resets to standing where they can score takedown points on subsequent engagement.
   - **Correction**: Never pull guard without solid grips established first. Collar, sleeve, wrist, or two-on-one control must be secure before committing to sitting. If grips are broken during pull, immediately work to re-establish.
-- **Error**: Landing with legs too close to body (knees bent excessively)
+- **Mistake**: Landing with legs too close to body (knees bent excessively)
   - **Consequence**: Opponent immediately steps over your guard or drives knees through your legs, achieving passing position. No distance management equals no guard.
   - **Correction**: Extend legs actively after sitting to create proper distance. Your knees should have some bend for mobility, but legs must be extended enough to keep opponent's hips away from yours.
 
@@ -246,7 +246,7 @@ The Guard Bottom Transition, commonly known as pulling guard, is a fundamental B
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Sitting Mechanics** - Controlled sitting motion and landing safely
 Practice sitting from standing with no partner, focusing on smooth hip descent and controlled landing. Progress to sitting while partner holds extended arms (posts) to maintain distance reference. Emphasis on not flopping backward and maintaining upright torso initially.
 (Resistance: None)
@@ -277,7 +277,7 @@ Integrate guard pulling with standing game - use threat of pull to set up takedo
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Closed Guard Pull**: Instead of establishing open guard, close legs immediately around opponent's waist after sitting. Requires very close distance and strong grip control to prevent opponent from posturing away as you sit. (When to use: When opponent is very close and you have dominant upper body control (two-on-one, strong collar grips). Preferred in gi when you want immediate closed guard control.)
 
 **Butterfly Guard Pull with Hooks**: As you sit, establish butterfly hooks immediately by placing both feet inside opponent's thighs. Requires precise distance - close enough for hooks but far enough to prevent smash passing. (When to use: When you have strong overhook or underhook control from standing. Excellent for transitioning immediately to butterfly sweep attacks. Common in no-gi grappling.)
@@ -321,7 +321,7 @@ Integrate guard pulling with standing game - use threat of pull to set up takedo
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When pulling guard, controlled application is essential to prevent injury. Sit with control rather than flopping backward to avoid jarring your tailbone, spine, or head against the mat. Ensure adequate space behind you before pulling to prevent collision with walls, other grapplers, or mat edges. Maintain grips on your partner to prevent them from falling awkwardly or landing with their full weight in a dangerous manner. Practice the sitting motion slowly and progressively before adding speed or resistance. In training, communicate with your partner about guard pulling to prevent surprise reactions that could lead to collision injuries. Be especially careful on hard or thin mats where impact forces are greater. If you have existing back, tailbone, or hip injuries, consult with medical professionals before practicing guard pulling extensively.
 
@@ -329,7 +329,7 @@ When pulling guard, controlled application is essential to prevent injury. Sit w
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Guard Bottom Transition serves as the fundamental entry point into the entire open guard system in Brazilian Jiu-Jitsu. Rather than engaging in takedown exchanges, pulling guard allows immediate implementation of sweeps, submissions, and control strategies from bottom position. This transition connects the standing phase to positions like Butterfly Guard, Spider Guard, De La Riva Guard, Seated Guard, X-Guard, Single Leg X-Guard, and Closed Guard depending on grip configuration and opponent's posture. In modern sport BJJ, guard pulling is a core strategic tool that enables grapplers to play to their strengths rather than being forced into wrestling exchanges. The transition integrates with the broader positional hierarchy by allowing practitioners to voluntarily move to guard bottom (a neutral to slightly disadvantageous position in pure positional terms) but one that offers extensive attacking opportunities in BJJ's technical framework. Guard pulling also connects to the guard retention system, as proper execution of the pull sets up strong initial guard structure that makes retention easier against passing attempts.
 
@@ -337,7 +337,7 @@ The Guard Bottom Transition serves as the fundamental entry point into the entir
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Closed Guard]] - Direct destination - one possible guard system to establish after pulling
 - [[Open Guard]] - Primary destination - most common guard type established from pull
@@ -359,7 +359,7 @@ The Guard Bottom Transition serves as the fundamental entry point into the entir
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The guard pull is fundamentally a strategic decision to engage in bottom position combat rather than standing position combat. From a systematic perspective, pulling guard is not a concession of position but rather a deliberate choice to implement your guard system where you have prepared extensive attacking sequences. The critical element that most practitioners misunderstand is that the pull itself is not a single technique but rather the entry mechanism into an entire subsystem of positions. The biomechanical principle underlying effective guard pulling centers on the concept of distance management through lever arm advantage. Your legs, being longer than your torso, create natural frames that can control opponent's hips and upper body if proper distance is maintained. The sitting motion must be executed with control and precision, as flopping backward surrenders this distance advantage and allows opponent to collapse the space between their hips and yours. When properly executed with strong grips and immediate foot frame establishment, the guard pull positions you to begin implementing your attacking system within one to two seconds of sitting. This rapid transition from standing to attacking bottom position is what makes guard pulling strategically viable in modern competition, where the rules do not penalize voluntary guard establishment and the technical development of guard systems has reached sophisticated levels.
 - **Gordon Ryan**: In competition, pulling guard is one of the highest percentage ways to get the match to the position where you want to fight. If you've spent years developing your guard game and your opponent wants to wrestle, why would you engage in their game? Pull guard, establish your system, and start attacking immediately. The key to making guard pulling work at the highest levels is understanding that it's not passive - you're pulling into an active attacking position. When I pull guard, I'm already thinking about my first sweep or submission attempt before my butt hits the mat. The grips I establish standing are directly connected to the guard system I'm entering. If I have collar and sleeve, I'm likely pulling to spider or lasso. If I have sleeve and pants, maybe de la riva or single leg x. The worst thing you can do is pull guard and then figure out what to do next - that delay lets your opponent establish their passing grips and pressure. Against high-level opponents who are ready for the pull, you need to pull at a moment when they're off-balance or their weight is shifting. If they're squared up and expecting it, they can drive forward hard and make your life difficult. But if you pull as they step or adjust, you can use their momentum against them. Also, don't be predictable - sometimes threaten the pull to set up takedowns, sometimes actually pull. Keep them guessing so they can't prepare the perfect counter.
 - **Eddie Bravo**: Guard pulling gets a bad rap from traditional martial artists who think it's not 'real fighting', but in the context of sport jiu-jitsu and submission grappling, it's one of the smartest tactical decisions you can make. Why bang heads with a wrestler when you can pull them into your web and attack from bottom? At 10th Planet, we've built entire systems around pulling to specific guards - pulling to lockdown half guard, pulling to rubber guard from closed, pulling to mission control. The pull itself needs to be aggressive and committed. A lot of people pull guard hesitantly and end up in a weak position getting smashed. When you pull, you're not retreating - you're establishing your attacking platform. Grab what you need, sit your ass down with authority, and immediately start working your system. One thing we emphasize is pulling to positions that create dilemmas for the opponent. Don't just pull to a basic open guard where they have clear passing pathways. Pull to rubber guard where they have to deal with mission control and gogoplata threats. Pull to lockdown where you control their leg and they can't just walk around. Make them solve problems from the moment you hit the mat. And practice your pulls in live training regularly - don't just drill them. You need to develop the timing and feel for when to pull based on opponent's weight distribution and reactions. The pull is an art form when done right, setting up your entire bottom game.

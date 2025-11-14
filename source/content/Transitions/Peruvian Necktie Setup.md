@@ -8,7 +8,7 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 
 
 
-> **Quick Answer**: Peruvian Necktie Setup transitions from [[Front Headlock]] to [[Peruvian Necktie]]. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
+> Peruvian Necktie Setup transitions from [[Front Headlock]] to [[Peruvian Necktie]]. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish dominant front headlock control before attempting the setup
 - Use opponent's defensive turtle posture to create space for body insertion
 - Secure deep overhook grip on near arm to prevent escape
@@ -186,7 +186,7 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Front headlock position established with head control
 - Opponent in defensive turtle or failed single leg position
 - Deep overhook secured on opponent's near arm
@@ -199,7 +199,7 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish front headlock control**: From standing or scramble position, secure a tight front headlock with your arm wrapped around opponent's head and neck. Your chest should be heavy on their upper back, forcing their head down. Grip your hands together in a gable grip or secure a deep overhook on their near arm. (Timing: Control must be established before opponent can posture up)
 2. **Secure deep overhook**: Release the gable grip and thread your near arm deep underneath opponent's armpit, securing a tight overhook. Your hand should reach across their back, gripping their far lat or shoulder. This overhook prevents them from pulling their arm free and creates the structural foundation for the choke. (Timing: Transition smoothly from gable grip to overhook before opponent recognizes the setup)
 3. **Drop to outside hip**: While maintaining head and overhook control, drop your weight to your outside hip (same side as the overhook). Your free hand maintains pressure on opponent's head, keeping it trapped. Position your body at approximately 90 degrees to opponent's body alignment. (Timing: Drop weight suddenly to prevent opponent from following you down)
@@ -213,7 +213,7 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent pulls trapped arm free before overhook is secured** (Effectiveness: High) - Your Response: Immediately switch to traditional front headlock attacks like anaconda or guillotine, or re-establish gable grip and work for back take
 - **Opponent postures up and sprawls backward before leg can thread through** (Effectiveness: High) - Your Response: Follow opponent's backward movement, maintain head control, and transition to standing guillotine or snap them back down to turtle
 - **Opponent rolls through toward your legs as you invert** (Effectiveness: Medium) - Your Response: Use their rolling momentum to establish back control or transition to mounted triangle position
@@ -223,25 +223,25 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting setup without secure overhook control
+## Common Mistakes
+- **Mistake**: Attempting setup without secure overhook control
   - **Consequence**: Opponent easily pulls their arm free and escapes to neutral position or top control
   - **Correction**: Always establish and test the overhook's tightness before dropping to hip and beginning leg thread
-- **Error**: Threading leg too slowly or hesitantly
+- **Mistake**: Threading leg too slowly or hesitantly
   - **Consequence**: Opponent recognizes the setup and sprawls backward or turns into you, shutting down the entry
   - **Correction**: Commit fully to the leg thread once initiated - move with speed and confidence to complete the insertion before opponent reacts
-- **Error**: Releasing head pressure during transition
+- **Mistake**: Releasing head pressure during transition
   - **Consequence**: Opponent postures up and escapes the front headlock control entirely
   - **Correction**: Maintain constant downward pressure on opponent's head throughout entire sequence, using your body weight and arm strength simultaneously
-- **Error**: Failing to lock leg triangle tightly
+- **Mistake**: Failing to lock leg triangle tightly
   - **Consequence**: Opponent rolls through your legs or backs out of the position completely
   - **Correction**: Squeeze knees together and flex your locked ankle to create maximum tightness in the triangle configuration
-- **Error**: Positioning too far from opponent's body when inverting
+- **Mistake**: Positioning too far from opponent's body when inverting
   - **Consequence**: Creates space for opponent to escape or reduces choking pressure significantly
   - **Correction**: Keep opponent pulled tight to your chest throughout the setup - there should be no gap between your bodies
-- **Error**: Incorrect shoulder placement for choking mechanism
+- **Mistake**: Incorrect shoulder placement for choking mechanism
   - **Consequence**: Choke lacks effectiveness despite position being achieved
   - **Correction**: Ensure opponent's shoulder blade is wedged tightly against their own neck, creating the fulcrum that makes the choke work
 
@@ -250,7 +250,7 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamentals** - Front headlock control and overhook establishment
 Practice securing tight front headlock control from various entries (failed shots, turtle, scrambles). Drill transitioning from gable grip to deep overhook while maintaining head control. Partner offers no resistance. Focus on grip placement and body positioning.
 (Resistance: None)
@@ -281,7 +281,7 @@ Refine setup timing for competition scenarios. Develop multiple entry pathways (
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standing Peruvian Necktie entry**: Execute the setup from standing position by dropping suddenly to hip while opponent is in front headlock. Thread leg while opponent's weight is still high. More explosive entry but requires faster execution. (When to use: When opponent is defending single leg or in standing front headlock position, particularly effective against wrestlers)
 
 **No-gi Peruvian Necktie with gable grip**: Instead of overhook, maintain tight gable grip throughout setup. Use grip pressure to control head while threading leg. Requires stronger squeeze but can be more secure in no-gi environments. (When to use: In no-gi competition when overhook grip is too slippery, or when opponent is extremely skilled at clearing overhooks)
@@ -321,7 +321,7 @@ Refine setup timing for competition scenarios. Develop multiple entry pathways (
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Peruvian Necktie is a blood choke that can cause unconsciousness rapidly if applied with full force. Practice this technique with controlled pressure and clear communication with training partners. Always tap immediately when caught in this position as the choking mechanism tightens quickly due to the shoulder fulcrum. When applying the technique, release pressure immediately upon feeling a tap or verbal submission. During drilling phases, focus on position achievement rather than finishing the choke. Be especially cautious during the inversion phase as rapid movements can strain neck muscles or cause dizziness. Partners with neck injuries should avoid this technique entirely. The leg threading motion can also create torque on the knee if executed incorrectly, so maintain proper leg alignment throughout. Always practice under qualified supervision, particularly during initial learning phases.
 
@@ -329,7 +329,7 @@ The Peruvian Necktie is a blood choke that can cause unconsciousness rapidly if 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Peruvian Necktie Setup represents an advanced branch of the front headlock submission system, complementing traditional attacks like the anaconda choke, darce choke, and guillotine. Within the overall BJJ hierarchy, this setup emerges most frequently from scramble positions, failed takedown attempts, and turtle defense scenarios. It serves as a valuable addition to any practitioner's front headlock game because it attacks from a different angle than conventional front headlock submissions, creating additional layers to the positional threat matrix. When opponent becomes proficient at defending anacondas and darces, the Peruvian Necktie provides an alternative finish that exploits different defensive reactions. This technique integrates particularly well with wrestling-based BJJ games, as it capitalizes on the same front headlock control that wrestlers naturally establish. The position also connects to the broader submission hunting strategy where practitioners create multiple threat sequences from dominant positions, forcing opponents into defensive dilemmas. Advanced competitors use this setup as part of a comprehensive front headlock system that includes back takes, arm-in guillotines, and position advances, with each attack flowing seamlessly into the next based on opponent's defensive responses.
 
@@ -337,7 +337,7 @@ The Peruvian Necktie Setup represents an advanced branch of the front headlock s
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Front Headlock]] - Starting position - primary control position for entry
 - [[Front Headlock to Anaconda]] - Alternative finish - complementary technique from same starting position
@@ -357,7 +357,7 @@ The Peruvian Necktie Setup represents an advanced branch of the front headlock s
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Peruvian Necktie represents a fascinating biomechanical puzzle where we utilize the opponent's own skeletal structure as the primary weapon against them. The effectiveness of this technique stems from the geometric relationship between the shoulder girdle and cervical spine - when properly positioned, the scapula becomes an immovable fulcrum that concentrates choking pressure on the carotid arteries with remarkable efficiency. The critical technical element that most practitioners miss is the requirement for complete body insertion underneath the opponent's torso. Half-committed entries result in positional instability and easy escapes. The setup demands simultaneous control of multiple vectors: downward pressure on the head preventing posture recovery, lateral control via the overhook preventing arm extraction, and inferior body positioning creating the inversion angle. When these vectors converge with proper timing, the technique becomes remarkably high-percentage despite its apparent complexity. Study the relationship between your hip position and the angle of leg insertion - this geometric consideration determines whether the position feels tight and controlled or loose and escapable.
 - **Gordon Ryan**: In competition, the Peruvian Necktie setup is one of my favorite front headlock finishes because most people don't see it coming and have limited defensive experience against it. The key to hitting this at high levels is making opponent think you're going for an anaconda or darce, then switching to the Peruvian at the last second when they commit to defending the wrong attack. I use a really tight overhook and make them feel heavy pressure like an anaconda is coming, then suddenly drop to my hip and thread the leg through before they can adjust. The timing window is small - you need to be explosive when you see them stuck in turtle with forward weight. Most people try to set this up too slowly and methodically, but in a real match, you have maybe two seconds to complete the entry before they counter. I also use this as a backup when my darce grip isn't quite deep enough - instead of forcing a suboptimal darce, I'll switch to the Peruvian which requires less grip depth but more body positioning skill. Once you get good at reading when opponent is vulnerable to it, you'll start seeing opportunities everywhere in scrambles.
 - **Eddie Bravo**: The Peruvian Necktie is straight-up one of the most innovative submissions to come out of the no-gi evolution, and it fits perfectly into the 10th Planet philosophy of using flexibility and unconventional body positioning to create submissions opponent doesn't expect. What I love about this setup is how it completely inverts the traditional concept of top and bottom - you're literally putting yourself underneath your opponent but maintaining total offensive control. It's mind-bending for people who think in terms of conventional position hierarchy. The technique requires serious flexibility to thread your body underneath smoothly, which is why we emphasize stretching and mobility work so heavily in our system. When teaching this, I focus on making students comfortable with the inversion feeling - a lot of people freak out when they start going upside down, but you need to stay calm and trust your grips. The setup also works beautifully as part of a truck system entry. If they defend the truck, you can often catch the Peruvian as they try to roll away. I've developed some sick variations where you can fake the electric chair from lockdown and then transition to the Peruvian when they defend. It's all about creating movement puzzles opponent can't solve because they've never seen the positions before.

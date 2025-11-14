@@ -8,7 +8,7 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 35%.
 
 ---
 
@@ -201,7 +201,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains upright posture with hips back and chest elevated, preventing the bottom player's collar grip from pulling them forward into broken posture where their base becomes compromised and sweep vulnerabilities increase dramatically
 - Top player distributes weight between both legs and both hands when posted, never allowing weight to shift entirely onto the leg on the sleeved-arm side where posting is prevented, ensuring stable base regardless of pulling direction
@@ -212,7 +212,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has established collar sleeve guard grips or is attempting to establish them
 - You are in kneeling or standing position facing opponent's guard
@@ -240,7 +240,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Toreando Pass]] → [[Side Control]]
 
@@ -304,7 +304,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Pendulum Sweep]]** → [[Mount]]
 - **[[Triangle Setup]]** → [[Triangle Control]]
@@ -317,7 +317,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Knee Slice Pass]]** → [[Side Control]]
   - Opponent commits to pendulum sweep and extends legs
@@ -362,7 +362,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 40% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 40%.
 
 ---
 
@@ -187,7 +187,7 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains upright posture with hips elevated above opponent's guard structure, preventing forward collapse while managing distance through strategic positioning and grip control with spine alignment and base distribution
 - Bottom player's legs remain open and active, creating frames and barriers between their body and the top player's advancement attempts, utilizing hooks, grips, and positioning to maintain guard integrity and offensive threats
@@ -199,7 +199,7 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of various guard types and their specific characteristics (Spider, De La Riva, Lasso, X-Guard, Butterfly, etc.)
 - Fundamental base and balance principles to maintain stability against sweeps and off-balancing attempts
@@ -228,7 +228,7 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Toreando Pass]] → [[Side Control]]
 
@@ -306,7 +306,7 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[De La Riva Sweep Variations]]** → [[De La Riva Guard]] (Opponent Success: 45%)
 - **[[Butterfly Sweep]]** → [[Butterfly Guard]] (Opponent Success: 42%)
@@ -320,7 +320,7 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Headquarters Pass]]** → [[Headquarters Position]]
   - Opponent attempts to recover guard with leg frames
@@ -369,7 +369,7 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

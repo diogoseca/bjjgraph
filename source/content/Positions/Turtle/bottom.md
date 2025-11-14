@@ -8,7 +8,7 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 60% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensi
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner positioned on hands and knees with weight distributed across four points of contact, creating a stable base with rounded back to protect against submissions while maintaining mobility for dynamic movement
 - Head tucked defensively with chin to chest, elbows tight to ribs and knees to prevent underhook penetration and maintain structural integrity against back takes, creating a tight defensive shell
@@ -199,7 +197,7 @@ Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensi
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Guard has been passed or is in process of being passed
 - Ability to maintain rounded defensive posture with chin tucked
@@ -227,7 +225,7 @@ Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensi
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Granby Roll]] → [[Closed Guard]]
 
@@ -277,7 +275,7 @@ Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensi
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Turtle to Back Control]]** → [[Back Control]] (Opponent Success: 65%)
 - **[[Front Headlock to Anaconda]]** → [[Anaconda Control]] (Opponent Success: 40%)
@@ -290,7 +288,7 @@ Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensi
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Elbow Escape to Guard]]** → [[Closed Guard]]
   - Opponent attempts to flatten turtle by extending your far arm
@@ -337,7 +335,7 @@ Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

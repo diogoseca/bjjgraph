@@ -8,7 +8,7 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player maintains closed guard with legs locked around opponent's waist, with ankles crossed behind opponent's back and heels pulling toward their own glutes to maintain tension
 - Bottom player controls opponent's arm with overhook, wrapping their arm over and around opponent's arm with hand gripping opponent's lat, shoulder blade, or back to create strong frame and prevent posting
@@ -203,7 +201,7 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Established guard position with legs locked around opponent's waist
 - Successful overhook control obtained on one of opponent's arms
@@ -232,7 +230,7 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Overhook Sweep]] → [[Mount Top]]
 
@@ -296,7 +294,7 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Posture Recovery]]** → [[Closed Guard]]
 - **[[Arm Extraction]]** → [[Closed Guard]]
@@ -308,7 +306,7 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Triangle Setup]]** → [[Triangle Control]]
   - Opponent attempts to pull arm free from overhook
@@ -350,7 +348,7 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

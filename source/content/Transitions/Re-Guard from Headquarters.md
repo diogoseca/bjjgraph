@@ -8,7 +8,7 @@ description: "Master re-guard recovery from Headquarters position. Learn systema
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master re-guard recovery from Headquarters position. Learn systema
 
 
 
-> **Quick Answer**: Re-Guard from Headquarters transitions from [[Headquarters Position]] to [[Guard Recovery]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Re-Guard from Headquarters transitions from [[Headquarters Position]] to [[Guard Recovery]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish immediate frames on opponent's hips and shoulders to prevent consolidation
 - Create distance through hip escape mechanics before attempting leg recovery
 - Use angle creation to generate space for leg insertion
@@ -184,7 +184,7 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent has established Headquarters position with legs cleared to one side
 - You maintain at least one frame preventing complete consolidation
 - Hip mobility is available for shrimping movement
@@ -197,7 +197,7 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish defensive frames**: Immediately create frames with your hands on opponent's hips, shoulders, or biceps. The near-side hand typically frames on the hip while the far-side hand pushes on the shoulder or cross-faces. These frames prevent your opponent from settling their weight and consolidating the pass. Keep your elbows tight to your body while maintaining active pressure through your frames to create the maximum distance possible. (Timing: Immediate as Headquarters position is recognized)
 2. **Create angle with hip escape**: Execute a strong hip escape (shrimp) away from your opponent, using your frames to maintain distance. Plant your near-side foot on the mat and drive your hips away at a 45-degree angle. This movement creates the critical space needed for leg recovery while also creating an angle that makes it more difficult for your opponent to pressure directly into you. The quality of this shrimp determines the success of the entire sequence. (Timing: Immediately after establishing frames)
 3. **Recover near-side knee**: As you create space with the hip escape, immediately pull your near-side knee through the gap between you and your opponent. This knee should come to your chest in a defensive posture. Use your frames actively to prevent your opponent from closing the distance while your leg recovers. The near-side knee is recovered first because it's closer and easier to insert into the space you've created. (Timing: During the hip escape movement)
@@ -210,7 +210,7 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives forward pressure during hip escape attempt** (Effectiveness: High) - Your Response: Switch to a second shrimp in the opposite direction or transition to a granby roll to create different angles. If forward pressure is overwhelming, accept half guard recovery instead of full guard and work from that position.
 - **Opponent controls your near-side leg to prevent knee recovery** (Effectiveness: High) - Your Response: Immediately switch to recovering the far-side leg first, or use a pumping motion with your leg to break their grip. You can also chain hip escapes to create different angles where leg recovery becomes possible.
 - **Opponent collapses your frames by driving their weight through them** (Effectiveness: Medium) - Your Response: Don't fight strength with strength. Instead, use the direction of their pressure to facilitate a larger hip escape or to rotate to turtle position. Redirect their force rather than opposing it directly.
@@ -220,28 +220,28 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to recover legs without first creating distance with frames and hip escapes
+## Common Mistakes
+- **Mistake**: Attempting to recover legs without first creating distance with frames and hip escapes
   - **Consequence**: Opponent easily consolidates the pass and establishes side control or mount as you're trying to move your legs without space to do so
   - **Correction**: Always establish frames first, then create distance with hip escapes before attempting any leg recovery. Space must be created before legs can be inserted.
-- **Error**: Using weak, bent-arm frames that collapse under pressure
+- **Mistake**: Using weak, bent-arm frames that collapse under pressure
   - **Consequence**: Opponent drives through your frames easily and consolidates their position before you can execute hip escapes
   - **Correction**: Maintain structural frames with extended arms, keeping elbows away from your body. Think of your arms as poles creating distance, not springs that compress under load.
-- **Error**: Trying to recover both legs simultaneously
+- **Mistake**: Trying to recover both legs simultaneously
   - **Consequence**: Neither leg successfully recovers and you end up in a worse position with less defensive structure
   - **Correction**: Recover legs systematically, starting with the near-side leg to establish initial guard structure, then bringing the far-side leg around. Sequential recovery is more reliable than simultaneous attempts.
-- **Error**: Remaining flat on your back during the recovery sequence
+- **Mistake**: Remaining flat on your back during the recovery sequence
   - **Consequence**: Poor hip mobility limits your ability to create angles and space, making leg recovery nearly impossible against good opponents
   - **Correction**: Get on your side immediately and maintain this position throughout the recovery. Being on your side gives you exponentially more hip mobility and makes frames more effective.
-- **Error**: Giving up after the first recovery attempt fails
+- **Mistake**: Giving up after the first recovery attempt fails
   - **Consequence**: Accepting the pass and ending up in an inferior position when multiple recovery attempts were still viable
   - **Correction**: Chain multiple recovery attempts together. If the first shrimp doesn't work, immediately do another in a different direction. Persistence and variation are key to successful guard recovery.
-- **Error**: Failing to control distance with frames while recovering legs
+- **Mistake**: Failing to control distance with frames while recovering legs
   - **Consequence**: Opponent closes the distance and secures the pass even as you're recovering your legs because there's no space to insert them
   - **Correction**: Maintain active frames throughout the entire sequence. Your hands must constantly work to create and maintain the distance your legs need to recover through.
-- **Error**: Using only shrimping without creating angles
+- **Mistake**: Using only shrimping without creating angles
   - **Consequence**: Shrimping straight back creates a predictable escape line that opponent can follow, eventually pinning you against the mat edge
   - **Correction**: Shrimp at angles, creating a 'J' or 'L' shape with your movement rather than a straight line. Angles make it harder for opponent to follow and create more recovery options.
 
@@ -250,7 +250,7 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Foundational Mechanics** - Learning proper framing and hip escape mechanics without resistance
 Partner starts in Headquarters position with light control. Practice establishing frames, executing clean hip escapes, and recovering near-side leg without opposition. Focus on proper form: structural frames, complete hip escapes that create visible distance, and smooth leg recovery. Repeat 10-15 times per training session until movements become automatic. Partner should maintain position without actively preventing your recovery, allowing you to develop proper motor patterns.
 (Resistance: None)
@@ -281,7 +281,7 @@ Develop advanced timing to recover guard even against expert passers. Use feints
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Granby Roll Recovery**: Instead of traditional shrimping, execute a granby roll (shoulder roll) to create a large angle change and space for leg recovery. This is particularly effective when opponent is driving heavy forward pressure that makes shrimping difficult. (When to use: When opponent has strong forward pressure and traditional shrimping is being shut down. Also effective against larger, heavier opponents where creating space through standard frames is challenging.)
 
 **Butterfly Hook Insertion Recovery**: Rather than recovering to knee shield or closed guard, immediately insert a butterfly hook under the opponent's leg as you create space with the hip escape. This often leads directly to butterfly guard and provides immediate sweeping opportunities. (When to use: When opponent's posture is relatively low and forward, creating space underneath their body. Particularly effective in no-gi where butterfly guard is often more accessible than closed guard.)
@@ -323,7 +323,7 @@ Develop advanced timing to recover guard even against expert passers. Use feints
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Guard recovery from Headquarters is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety concern is avoiding overexertion during resistance training, particularly in the hip and lower back regions which can be strained by explosive shrimping movements. When drilling, start with slow, controlled movements to build proper motor patterns before adding speed and resistance. Partners should communicate clearly about resistance levels and stop immediately if either person experiences joint discomfort, particularly in the knees during leg recovery movements. Avoid practicing this technique when fatigued to the point where form breaks down, as poor mechanics during explosive hip movements can lead to lower back strain. During training progressions, increase resistance gradually over weeks rather than jumping to full resistance immediately, allowing connective tissues to adapt to the forces involved.
 
@@ -331,7 +331,7 @@ Guard recovery from Headquarters is generally a low-risk technique with minimal 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Re-guarding from Headquarters position is a crucial component of a complete guard retention system and defensive hierarchy. In the broader positional framework, this technique represents your last line of defense before accepting inferior positions like side control or mount. It integrates with guard retention concepts by being the recovery mechanism when primary guard retention has failed but the pass hasn't been completed. This technique chains naturally with other defensive positions: if Headquarters recovery fails, you can transition to turtle position, attempt technical standup, or accept half guard as a fallback position. The ability to recover from Headquarters directly influences your confidence in playing aggressive guard variations, knowing you have effective recovery mechanisms when passes are initiated. In competition strategy, strong Headquarters recovery allows you to take more risks with guard attacks because you can defend deep into the passing sequence. This technique also connects with sweep mechanics, as successful guard recovery from Headquarters often creates immediate off-balancing opportunities that can be exploited for sweeps, turning defense directly into offense.
 
@@ -339,7 +339,7 @@ Re-guarding from Headquarters position is a crucial component of a complete guar
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Guard Recovery]] - Parent concept - broader category of defensive techniques this belongs to
 - [[Hip Escape]] - Foundational technique - core movement mechanic used throughout this sequence
@@ -362,7 +362,7 @@ Re-guarding from Headquarters position is a crucial component of a complete guar
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The re-guard from Headquarters position exemplifies the critical importance of understanding the hierarchy of defensive actions in Brazilian Jiu-Jitsu. Guard recovery is not a single technique but rather a systematic sequence of mechanical objectives executed in specific order: establish distance-creating frames, generate space through hip escape mechanics, recover leg positioning, and reconstitute guard structure. Each step builds upon the previous one, and attempting to skip steps virtually guarantees failure. The biomechanical principle at work is that frames without movement create static resistance that can be overwhelmed, while movement without frames creates space that immediately collapses. Only the combination of structural frames and dynamic hip movement creates sustainable space for leg recovery. Furthermore, understanding that Headquarters represents a transitional position—neither fully passed nor retained guard—means you must act with urgency. The window for successful recovery closes rapidly as opponent consolidates control. Your defensive intensity must be highest during these transitional moments, not after position is established. This represents a fundamental shift in defensive thinking: proactive recovery during transition rather than reactive escape after consolidation.
 - **Gordon Ryan**: In high-level competition, the ability to recover guard from Headquarters position is what separates competitors who can maintain their game plan from those who get ground down by superior passers. I've developed specific guard recovery sequences from Headquarters that I use against the world's best passers, and the key is understanding that you cannot wait for the perfect moment—you must create constant recovery pressure through chained attempts. When someone is passing my guard and reaches Headquarters, I immediately begin a sequence of 2-3 recovery attempts, each one setting up the next. If my first shrimp doesn't create enough space, I'm already transitioning to a different angle for my second attempt. If direct guard recovery is being shut down, I'm already transitioning to deep half or single leg X rather than fighting a losing battle. The competitive reality is that against elite passers, single-attempt success rates are maybe 30-40%, but chained attempts with good transitions to backup positions push your overall defensive success rate to 70-80%. Another critical competition detail: energy management during guard recovery is crucial. You must recover guard efficiently because exhausting yourself in desperate recovery attempts is exactly what high-level passers want. Use their pressure to assist your movements rather than fighting strength with strength.
 - **Eddie Bravo**: The re-guard from Headquarters is where traditional guard recovery meets 10th Planet's systematic approach to defensive innovation, and there are specific variations that dramatically increase your success rate that most people don't explore. One of the most effective adaptations is using the electricity movement—a rapid, vibrating shrimp sequence that creates erratic movement your opponent can't predict or follow. Instead of one big shrimp, do 3-4 small, explosive shrimps in varying directions, creating space through unpredictability rather than power. Another crucial innovation is immediately transitioning to rubber guard or mission control variations when recovering to closed guard, because if you just recover to standard closed guard, a good passer will immediately restart their passing sequence. But if you recover directly into rubber guard with a high guard and overhook control, you've not only defended the pass but immediately put them into a defensive situation. In no-gi situations, the Headquarters position is even more common because there are no gi grips to slow down the passing transition, so your recovery must be more aggressive and dynamic. I teach my students to think of guard recovery from Headquarters as an attacking sequence, not a defensive one—you're not just trying to not get passed, you're trying to recover to guard and immediately threaten. That mindset shift makes your recovery more successful because you're creating offensive threats that force your opponent to pause their passing pressure.

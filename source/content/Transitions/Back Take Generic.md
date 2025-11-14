@@ -8,7 +8,7 @@ description: "Master back take transitions in BJJ. Learn multiple paths to back 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master back take transitions in BJJ. Learn multiple paths to back 
 
 
 
-> **Quick Answer**: Back Take Generic transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+> Back Take Generic transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Back take transitions represent some of the most valuable positional advancement
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Angle creation is essential - never attack the back directly from square alignment
 - Control one shoulder while attacking around the opposite side
 - Maintain constant forward pressure to prevent opponent from turning into you
@@ -186,7 +186,7 @@ Back take transitions represent some of the most valuable positional advancement
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Clear angle of attack established relative to opponent's centerline
 - At least one point of upper body control (collar, wrist, or shoulder grip)
 - Opponent's base compromised or weight distributed unevenly
@@ -199,7 +199,7 @@ Back take transitions represent some of the most valuable positional advancement
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish dominant angle**: Create a minimum 45-degree angle relative to your opponent's centerline by moving your hips laterally while maintaining chest contact. From turtle, this means getting perpendicular to their spine. From standing, this means circling to their back corner. The angle prevents them from turning into you effectively. (Timing: Initial setup phase)
 2. **Secure first control point**: Grip the far shoulder, establish an overhook, or secure a collar grip on the opposite side from your angle of attack. This control point serves as your anchor and prevents the opponent from rotating away. The grip should be firm but not energy-depleting, as you'll maintain it throughout the transition. (Timing: Before committing to back exposure)
 3. **Create hip clearance**: Use your free hand to clear the opponent's near-side elbow away from their ribs, creating space for your first hook. This can be accomplished with hand fighting, a knee slide, or by driving your shoulder into their armpit to collapse their defensive frame. The goal is opening the door for hook insertion. (Timing: As opponent reacts to your angle)
@@ -213,7 +213,7 @@ Back take transitions represent some of the most valuable positional advancement
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent turns into you aggressively before first hook is established** (Effectiveness: High) - Your Response: Flow with their turn and transition to front headlock position or guillotine control rather than forcing the back take against their rotation. You can often circle back to the back take from the front headlock.
 - **Opponent sits to their hip and traps your first hook in half guard** (Effectiveness: Medium) - Your Response: Keep your seat belt control and work for the crucifix position instead. Alternatively, use your trapped hook as a butterfly hook to elevate and complete the back take from the sweep.
 - **Opponent hand fights your seat belt grip aggressively** (Effectiveness: Medium) - Your Response: Switch to temporary harness or gift wrap control while they're focused on breaking your grip. Often their hand fighting opens up the second hook opportunity. Re-establish seat belt once both hooks are secured.
@@ -223,25 +223,25 @@ Back take transitions represent some of the most valuable positional advancement
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attacking the back from directly behind without establishing an angle first
+## Common Mistakes
+- **Mistake**: Attacking the back from directly behind without establishing an angle first
   - **Consequence**: Opponent can simply turn into you, neutralizing your back take attempt and potentially reversing position or achieving guard
   - **Correction**: Always circle to a corner first (minimum 45-degree angle). Attack the back diagonally, never directly from behind. Think of it as attacking around their defense, not through it.
-- **Error**: Inserting the first hook without upper body control established
+- **Mistake**: Inserting the first hook without upper body control established
   - **Consequence**: Opponent rotates into your guard or escapes to a neutral position before you can secure the second hook. The back take fails at the midpoint.
   - **Correction**: Establish seat belt, overhook, or collar grip before committing your first hook. Upper body control must precede lower body positioning. The sequence is: angle, grip, hook, not angle, hook, grip.
-- **Error**: Being too slow or hesitant when inserting hooks
+- **Mistake**: Being too slow or hesitant when inserting hooks
   - **Consequence**: Opponent has time to tighten their defensive posture, close their elbows to their ribs, and prevent hook insertion entirely
   - **Correction**: Once the angle and grip are established, attack the hooks explosively. The transition from first control point to both hooks secured should take 2-3 seconds maximum. Practice the tempo in drilling.
-- **Error**: Crossing your feet after establishing hooks
+- **Mistake**: Crossing your feet after establishing hooks
   - **Consequence**: Opponent can attack a straight ankle lock on your crossed ankles, potentially forcing you to abandon back control or risk injury
   - **Correction**: Keep your feet uncrossed with insteps controlling their inner thighs. Use inside heel position to maintain hook depth without crossing ankles. This is a fundamental safety principle in back control.
-- **Error**: Allowing space between your chest and opponent's back
+- **Mistake**: Allowing space between your chest and opponent's back
   - **Consequence**: Opponent can shrimp away, create frames, and begin escaping before your position is consolidated. Back control becomes unstable and short-lived.
   - **Correction**: Maintain constant chest pressure on their upper back. Your chest should feel 'glued' to them. When they lean forward, follow with your chest. When they lean back, maintain the pressure. Zero space equals zero escape opportunities.
-- **Error**: Attempting the same back take entry repeatedly despite it being defended
+- **Mistake**: Attempting the same back take entry repeatedly despite it being defended
   - **Consequence**: Opponent reads your pattern, prepares the counter, and potentially reverses position when you become predictable
   - **Correction**: Develop multiple back take pathways from your common positions. If the arm drag is defended, try the chair sit. If that's defended, try the back step. Chain entries together and use opponent's defensive reactions to guide your selection.
 
@@ -250,7 +250,7 @@ Back take transitions represent some of the most valuable positional advancement
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Pathways** - Learn basic back take entries from turtle and side control
 Master the arm drag to back take and the basic turtle back take with seat belt control. Drill these entries 20-30 repetitions per session. Focus on the angle creation and first hook insertion timing. Partner provides light resistance only to positioning, not actively defending.
 (Resistance: Light)
@@ -281,7 +281,7 @@ Ensure every position in your game has at least two viable back take options. Bu
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Arm Drag to Back**: Control opponent's wrist and pull it across their centerline while circling behind them. Most common from standing, seated guard, or butterfly guard. Works best when opponent is reaching or posting. (When to use: When opponent extends their arm for grips or posts during guard passing attempts)
 
 **Chair Sit to Back**: From deep half guard or leg entanglement positions, sit up behind opponent while maintaining leg control, then swim for back control. The sitting motion creates the angle automatically. (When to use: From deep half guard when opponent is defending the sweep by keeping weight low and forward)
@@ -327,7 +327,7 @@ Ensure every position in your game has at least two viable back take options. Bu
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing back take transitions, never cross your feet after establishing hooks, as this creates a straight ankle lock vulnerability that can result in serious ankle or Achilles injury. During drilling, agree on resistance levels beforehand and increase gradually over weeks rather than starting with explosive movements. When your partner achieves back control on you during practice, tap early to choke attempts rather than fighting them to unconsciousness - protecting your training partner's development is more important than your ego. The back take involves dynamic movement and potential for awkward falls, so ensure adequate mat space and avoid training near walls or obstacles. Beginners should focus on technical precision rather than speed during the first month of practice. When working back takes from standing positions, both partners should be aware of takedown safety principles and know how to breakfall properly.
 
@@ -335,7 +335,7 @@ When practicing back take transitions, never cross your feet after establishing 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The back take represents the ultimate positional objective from nearly every position in Brazilian Jiu-Jitsu, serving as the connection point between offensive and defensive situations. From bottom guard positions (closed guard, open guard variations, half guard), the back take provides a path to complete reversal and dominance. From turtle, it's the most common attacking goal for the top player. From side control and mount top positions, the back take constitutes positional advancement toward match-ending submissions. The systematic BJJ player develops reliable back take pathways from every position they commonly encounter. For example, from bottom half guard, the deep half chair sit to back should be automatic. From standing, the arm drag or single leg to back take becomes the primary strategy when takedowns are defended. Back take success fundamentally depends on understanding the broader positional game - you must first achieve the prerequisite position (turtle top, side control, dominant guard) before the back take becomes available. Champions like Gordon Ryan and Garry Tonon have built entire competitive systems around funneling opponents into positions where back takes become inevitable, demonstrating that back take integration extends beyond the transition itself to encompass the entire strategic approach to the match.
 
@@ -343,7 +343,7 @@ The back take represents the ultimate positional objective from nearly every pos
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Back Control]] - Target position
 - [[Seat Belt Control Back]] - Primary control mechanism
@@ -366,7 +366,7 @@ The back take represents the ultimate positional objective from nearly every pos
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The back take is not a single technique but rather a systematic understanding of angular geometry and control hierarchies. Every back take succeeds or fails based on the same fundamental principle: controlling the far shoulder while attacking around the near side. The biomechanics of the human spine dictate that rotation toward the back corner is severely limited compared to forward rotation, which is why the angle is non-negotiable. Students often fail back takes not because they don't know the technique, but because they don't understand the invisible architecture of control points that must be established sequentially. The seat belt grip is the cornerstone of this architecture - without it, you have no back take, regardless of how perfect your angle or hook insertion might be. I teach my students to think of the back take as a five-stage process: angle creation, first control point, first hook, upper body consolidation, second hook completion. Each stage has specific failure points and contingencies. When you understand the system rather than memorizing individual techniques, you can attack the back from any position because the underlying principles remain constant. The back take is where positional chess meets physics, and the player who understands both dimensions will consistently achieve the dominant position.
 - **Gordon Ryan**: In competition, the back take is my primary strategic objective from almost every position because it offers the best combination of points and finishing opportunities. I've built my entire no-gi game around creating back take opportunities from leg entanglements, front headlock, and guard passing positions. The single most important factor in high-percentage back takes is recognizing the exact moment when your opponent is most vulnerable - typically during transitions or when they're defending another attack. I often threaten a leg lock or front headlock submission specifically to create the defensive reaction that opens the back take. Against elite opponents, you rarely get clean back takes from static positions; instead, you must engineer scrambles where your systematic back take game is superior to their defensive game. My advice for competitors is to develop three reliable back take entries from your best positions and drill them until they're completely automatic. In matches, I average 60-70% success rate on back take attempts because I've refined my entries to the point where I only attack when the geometry is perfect. The back is where I finish most of my matches, so every position I play has a direct path to back control built into its structure.
 - **Eddie Bravo**: The back take is where traditional jiu-jitsu and the evolution of the game intersect in really interesting ways. At 10th Planet, we've developed some unconventional pathways to back control that exploit modern defensive patterns you see in no-gi competition. The truck position, for example, gives you back exposure with unique submission opportunities that most traditional back take systems don't account for. What I love about back takes is that they reward creativity and timing over pure strength - a smaller, technical player can consistently take the back on larger opponents if they understand leverage and angles. One thing I emphasize that differs from traditional approaches is using leg entanglement positions as back take setups. When you're threatening someone's legs, their upper body becomes much more accessible because they're focused on defending the leg attacks. The crab ride, for instance, came from experimenting with maintaining back exposure during scrambles rather than always seeking the traditional hooks-in position. My students learn to see back control as a spectrum rather than a binary state - sometimes you have partial back control or back exposure that's sufficient for submissions even without both hooks. The key is staying creative and adapting your back take game to modern defensive strategies rather than rigidly adhering to techniques that worked twenty years ago but now have well-established counters.

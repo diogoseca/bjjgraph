@@ -8,7 +8,7 @@ description: "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative t
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative t
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative t
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 55% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -193,7 +191,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Practitioner on hands and knees with head protected between shoulders, elbows tight to body creating compact defensive frame that denies opponent easy access to neck and back while maintaining awareness through peripheral vision
 - Hips remain highly mobile and active, constantly shifting weight between knees in circular and rotational patterns to prevent opponent from establishing heavy pressure or securing hooks for back control
@@ -206,7 +204,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has achieved top turtle position or is attacking from front headlock
 - Guard has been passed or practitioner is recovering from failed takedown attempt
@@ -234,7 +232,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Turtle to Guard]] → [[Closed Guard]]
 
@@ -284,7 +282,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Turtle to Back Take]]** → [[Back Control]] (Opponent Success: 55%)
 - **[[Crucifix from Turtle]]** → [[Crucifix]] (Opponent Success: 35%)
@@ -297,7 +295,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Hip Escape]]** → [[Closed Guard]]
   - Opponent attempts to flatten turtle with chest pressure
@@ -339,7 +337,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

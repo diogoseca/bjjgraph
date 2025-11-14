@@ -8,7 +8,7 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
 
 
 
-> **Quick Answer**: Grip Break transitions from [[Open Guard]] to [[Open Guard]]. Success rates: Beginner 60%, Intermediate 75%, Advanced 90%.
+> Grip Break transitions from [[Open Guard]] to [[Open Guard]]. Success rates: Beginner 60%, Intermediate 75%, Advanced 90%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Use two hands against one whenever possible to create mechanical advantage
 - Break grips in the direction that weakens the grip structure (push thumbs, pull fingers)
 - Establish your own grips immediately after breaking opponent's grips
@@ -184,7 +184,7 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Identify which grips pose the greatest positional threat
 - Establish base or frame to prevent immediate advancement while breaking
 - Create proper angle to access the grip with both hands
@@ -197,7 +197,7 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Identify priority grip**: Assess which of your opponent's grips poses the greatest immediate threat to your position. Collar grips typically threaten posture control and chokes, sleeve grips limit your arm mobility and framing ability, and pant grips control your hip movement and leg positioning. Prioritize breaking grips that directly prevent your intended technique or allow opponent advancement. (Timing: Immediately upon opponent establishing grip)
 2. **Establish two-on-one control**: Bring both of your hands to control the single gripping hand of your opponent. Your first hand should grip their wrist while your second hand grips their sleeve or gi material near the elbow. This creates a fundamental mechanical advantage where you're using two limbs against their one, making the break significantly easier and more reliable. (Timing: Before opponent consolidates their grip into a strong control position)
 3. **Create breaking angle**: Adjust your body position to create the optimal angle for breaking the specific grip. For collar grips, this often means creating space by framing with your legs or hips. For sleeve grips, angle your body to add rotational force to the break. The key is to position yourself so you're breaking in the direction that naturally opens the grip rather than fighting against the strongest part of their grip structure. (Timing: Simultaneous with establishing two-on-one control)
@@ -210,7 +210,7 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent switches to alternative grip before break is complete** (Effectiveness: High) - Your Response: Track their switching hand and immediately address the new grip threat. Often you can continue breaking the original grip while using hip movement or frames to prevent the new grip from being established. Anticipate common switching patterns and pre-emptively block those gripping attempts.
 - **Opponent uses their other hand to reinforce the grip being broken** (Effectiveness: Medium) - Your Response: Recognize that a two-handed grip from your opponent is less mobile and limits their other options. Continue breaking while using leg frames or hip movement to create angles that make the double-handed grip untenable. Sometimes allowing a temporary double-handed grip actually limits their ability to advance or attack.
 - **Opponent advances position while you focus on grip breaking** (Effectiveness: High) - Your Response: Always maintain frames and hip position while breaking grips. If you must choose between breaking a grip and preventing positional advancement, preventing the pass takes priority. Sometimes creating distance to reset is better than winning a grip battle while being passed.
@@ -219,25 +219,25 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Using only one hand to break a grip while opponent has one hand gripping
+## Common Mistakes
+- **Mistake**: Using only one hand to break a grip while opponent has one hand gripping
   - **Consequence**: Creates an equal strength battle that heavily favors the person with the established grip, resulting in wasted energy and low success rate
   - **Correction**: Always use two-on-one whenever possible. If you cannot bring both hands to bear, use frames, angles, and movement rather than direct strength contests.
-- **Error**: Pulling straight away from the grip without creating angles
+- **Mistake**: Pulling straight away from the grip without creating angles
   - **Consequence**: Plays into the strongest part of their grip structure, making breaks nearly impossible and exhausting your arms
   - **Correction**: Break grips in circular or diagonal motions, attacking the thumb or finger side rather than pulling directly against the palm. Use body rotation and hip movement to add power.
-- **Error**: Breaking grips without immediately establishing your own grips or creating distance
+- **Mistake**: Breaking grips without immediately establishing your own grips or creating distance
   - **Consequence**: Opponent immediately re-grips, negating all the work of the initial break and creating a repetitive cycle
   - **Correction**: Have a plan for the moment the grip breaks. Either establish your own dominant grips, create distance with frames, or initiate an offensive technique immediately.
-- **Error**: Focusing on breaking non-threatening grips while ignoring dangerous ones
+- **Mistake**: Focusing on breaking non-threatening grips while ignoring dangerous ones
   - **Consequence**: Wastes time and energy on low-priority grips while opponent uses their dangerous grips to advance position or attack
   - **Correction**: Develop grip priority hierarchy based on your position and intended technique. Break grips that directly prevent your goals or enable opponent's most dangerous attacks first.
-- **Error**: Neglecting base and position while engaged in grip fighting
+- **Mistake**: Neglecting base and position while engaged in grip fighting
   - **Consequence**: Successfully break grips but get swept or passed because your base was compromised during the breaking motion
   - **Correction**: Maintain strong frames, active hips, and base throughout all grip breaking sequences. If breaking a grip requires compromising your position, reassess the approach.
-- **Error**: Using slow, grinding force instead of sharp, explosive breaks
+- **Mistake**: Using slow, grinding force instead of sharp, explosive breaks
   - **Consequence**: Gives opponent time to adjust, reinforce, or switch grips, while exhausting your grip strength unnecessarily
   - **Correction**: Execute grip breaks with sudden, explosive force once your angle and two-on-one control are established. The break should be decisive, not gradual.
 
@@ -246,7 +246,7 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Learn basic grip breaking mechanics on stationary partner
 Practice breaking collar grips, sleeve grips, and pant grips with a cooperative partner who maintains the grip but doesn't resist the break. Focus on proper hand placement, two-on-one control, and breaking in the correct direction. Drill each type of grip break 20-30 repetitions per session until the movements become automatic.
 (Resistance: None)
@@ -269,7 +269,7 @@ Full-resistance positional sparring where successful grip fighting directly dete
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Two-Hand Collar Strip**: When opponent has a deep same-side collar grip, place both hands on their gripping hand and push forcefully down and across your body while turning your shoulders away from the grip. Often used when standing in closed guard or defending guard passes. (When to use: Against deep collar grips that threaten chokes or strong posture control, particularly in gi grappling)
 
 **Thumb Push Sleeve Break**: For standard sleeve grips, place both thumbs on the back of their hand near their thumb and push sharply toward their thumb while circling your arm away. This attacks the weakest part of the grip structure and is extremely high-percentage when executed with proper timing. (When to use: Against standard sleeve grips in spider guard, lasso guard, or any situation where opponent controls your sleeve)
@@ -314,7 +314,7 @@ Full-resistance positional sparring where successful grip fighting directly dete
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Grip breaking is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety consideration is controlling the force applied during training to avoid injuring your partner's fingers or thumb. When breaking grips, apply controlled progressive force rather than explosive jerking motions during cooperative drilling. Communicate with your partner about grip strength and breaking intensity, especially when drilling with partners who have previous finger or hand injuries. During live training, explosive grip breaks are appropriate, but be mindful not to intentionally target fingers with bending or twisting motions that could cause sprains or dislocations. Maintain awareness of your surroundings during grip fighting exchanges, as the dynamic hand fighting can sometimes cause practitioners to lose balance or move unexpectedly. Partners should tap or release grips if they feel any sharp pain in their fingers or wrists during drilling.
 
@@ -322,7 +322,7 @@ Grip breaking is generally a low-risk technique with minimal injury potential wh
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Grip breaking is fundamentally integrated into every aspect of guard play, guard passing, and standing exchanges in Brazilian Jiu-Jitsu. From the guard bottom position, breaking your opponent's grips is essential for maintaining guard retention, preventing passes, and creating opportunities for sweeps and submissions. The ability to systematically deny your opponent's collar, sleeve, and pant grips while establishing your own determines whether you can effectively play spider guard, lasso guard, De La Riva guard, or any other modern guard system. From the guard top position, breaking the guard player's grips is the first step in most passing sequences, as dominant grips from bottom can shut down passing attempts before they begin. In standing exchanges and takedown scenarios, grip fighting determines who controls the clinch and dictates the pace of engagement. Advanced practitioners view every positional exchange as fundamentally a grip fighting battle where the winner of the grip exchange typically wins the positional exchange. This makes grip breaking not just a technique but a core skill that permeates every aspect of Brazilian Jiu-Jitsu.
 
@@ -330,7 +330,7 @@ Grip breaking is fundamentally integrated into every aspect of guard play, guard
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Collar Drag]] - Follow-up technique after breaking collar grips to establish dominant grip
 - [[Arm Drag]] - Follow-up technique after breaking sleeve grips to create back exposure
@@ -348,7 +348,7 @@ Grip breaking is fundamentally integrated into every aspect of guard play, guard
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Grip fighting is the hidden battle that determines every outcome in Brazilian Jiu-Jitsu, yet it receives far less attention than it deserves in most training programs. The fundamental principle of effective grip breaking is understanding that you are not fighting strength against strength, but rather attacking the structural weaknesses inherent in the human grip. The thumb is always the weakest point, the fingers open more easily than the palm closes, and two limbs properly coordinated will always defeat one limb regardless of relative strength. When you break a grip, you must immediately capitalize on the momentary tactical advantage created, either by establishing your own superior grips or by creating distance that prevents re-gripping. The practitioner who can maintain grip dominance for extended periods effectively controls the entire tactical engagement, dictating when exchanges begin and end, and determining which techniques are available to both competitors.
 - **Gordon Ryan**: In high-level competition, I've found that grip fighting is where most matches are actually won or lost, though casual observers watching the match might not realize it. When I'm passing someone's guard, I'm not thinking about my passing technique until after I've won the grip fighting exchange and denied them their preferred grips. Similarly, when I'm playing guard, maintaining my grips while systematically breaking my opponent's grips is what allows me to execute my attacks. The key insight that elevated my grip fighting was understanding that it's not about individual grip breaks, but about chains of grip fighting sequences where you're constantly breaking their grips, establishing your own, and preventing re-grips through sustained hand activity. Against elite opponents, you need to approach grip fighting with the same technical precision and strategic planning that you'd apply to any submission sequence, because that's truly what determines who controls the match.
 - **Eddie Bravo**: Traditional grip breaking approaches work, but I've always been interested in using unconventional methods that people don't expect, especially in no-gi where the grip fighting dynamics are completely different. One of the most effective principles I teach is using your legs and hips to break grips rather than relying purely on your hands, because your lower body is significantly stronger and creates angles that are harder to defend. From positions like rubber guard or mission control, you can use leg frames to strip grips while simultaneously establishing superior control positions. The 10th Planet system emphasizes creating situations where your opponent's grips become liabilities rather than assets, forcing them to release grips to defend more immediate threats. When you combine grip breaking with constant misdirection, feints, and unexpected angles, you create a grip fighting game that's extremely difficult to predict or counter, which is exactly what you want in both competition and street scenarios.

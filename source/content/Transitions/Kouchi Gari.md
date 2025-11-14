@@ -8,7 +8,7 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
 
 
 
-> **Quick Answer**: Kouchi Gari transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Kouchi Gari transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Kouchi Gari (small inner reap) is a fundamental judo technique that has become e
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Off-balance opponent diagonally backward before attempting the reap
 - Target the ankle and lower calf, not the thigh
 - Maintain upper body control throughout the entire movement
@@ -180,7 +180,7 @@ Kouchi Gari (small inner reap) is a fundamental judo technique that has become e
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish collar and sleeve grips or equivalent no-gi control
 - Position yourself at an angle to your opponent, not square
 - Break opponent's upright posture with forward pressure
@@ -193,7 +193,7 @@ Kouchi Gari (small inner reap) is a fundamental judo technique that has become e
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips and angle**: Secure a high collar grip with your right hand and sleeve/wrist control with your left (or equivalent no-gi grips on neck and arm). Position your body at roughly a 45-degree angle to your opponent rather than standing square to them. (Timing: During initial grip fighting when opponent is settling into stance)
 2. **Break opponent's posture**: Pull your opponent's upper body forward and slightly downward with your collar grip while simultaneously pulling their arm across their body. This creates the initial off-balance and prevents them from maintaining strong upright posture. (Timing: As soon as grips are secured)
 3. **Create diagonal off-balance**: Push and pull in opposite directions with your hands to turn your opponent's shoulders and hips. Pull the collar grip backward and to your left while pushing the sleeve grip forward and to your right, creating a diagonal off-balance toward their rear corner. (Timing: Immediately following posture break)
@@ -206,7 +206,7 @@ Kouchi Gari (small inner reap) is a fundamental judo technique that has become e
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent steps back aggressively with targeted leg** (Effectiveness: Medium) - Your Response: Follow their backward step and switch to Osoto Gari or Kouchi Makikomi (wrapping variation), using their momentum against them
 - **Opponent widens stance and lowers hips defensively** (Effectiveness: High) - Your Response: Abandon Kouchi Gari and transition to Uchi Mata or knee tap, attacking the opposite side or switching levels
 - **Opponent hops on base leg to maintain balance** (Effectiveness: Medium) - Your Response: Chain into Kosoto Gari or Deashi Harai, attacking the hopping leg as they're airborne and vulnerable
@@ -215,22 +215,22 @@ Kouchi Gari (small inner reap) is a fundamental judo technique that has become e
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to lift or sweep with only the reaping leg
+## Common Mistakes
+- **Mistake**: Attempting to lift or sweep with only the reaping leg
   - **Consequence**: Opponent easily hops over the attack or posts their leg back, completely nullifying the technique and potentially exposing you to counters
   - **Correction**: Focus on upper body off-balancing first; the reap simply removes the base from an already off-balanced opponent. Your hands do 70% of the work.
-- **Error**: Reaping too high on the leg (at the knee or thigh)
+- **Mistake**: Reaping too high on the leg (at the knee or thigh)
   - **Consequence**: The technique becomes a weak Ouchi Gari attempt that lacks power and allows opponent to easily counter or step out
   - **Correction**: Target the lower calf and ankle specifically. The technique name literally means 'small' inner reap—keep the contact point low.
-- **Error**: Standing too far away when executing the reap
+- **Mistake**: Standing too far away when executing the reap
   - **Consequence**: Loss of upper body control and leverage, making it easy for opponent to maintain balance and counter with their own throws
   - **Correction**: Step deep with your base leg so your hips are close to your opponent's hips. You should feel chest-to-chest contact.
-- **Error**: Pulling straight backward instead of diagonally
+- **Mistake**: Pulling straight backward instead of diagonally
   - **Consequence**: Opponent can simply step back with their free leg to recover balance, or worse, counter with their own forward throw
   - **Correction**: Off-balance must be diagonal toward the rear corner, not straight back. This removes both potential posting points.
-- **Error**: Failing to follow opponent to the ground
+- **Mistake**: Failing to follow opponent to the ground
   - **Consequence**: Even if the takedown succeeds, you end up standing while opponent is on the ground, giving up position and potentially allowing them to recover guard
   - **Correction**: Your momentum should naturally carry you forward into side control. Keep grips throughout and land with your chest on their chest.
 
@@ -239,7 +239,7 @@ Kouchi Gari (small inner reap) is a fundamental judo technique that has become e
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static drilling** - Footwork and timing fundamentals
 Practice the reaping motion and off-balancing with a cooperative partner who provides light resistance. Focus on proper foot placement, angle creation, and the diagonal off-balance direction. Drill 20-30 repetitions per session, alternating sides.
 (Resistance: None)
@@ -262,7 +262,7 @@ Incorporate Kouchi Gari into regular stand-up sparring and competition training.
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Kouchi Makikomi (Wrapping variation)**: Instead of reaping and driving forward, you wrap your reaping leg around opponent's leg while turning and dropping to the mat, creating a sacrifice throw variation that's highly effective in no-gi. (When to use: When opponent defends by stepping back aggressively or when you want to guarantee the takedown even if it means sacrificing top position temporarily)
 
 **No-gi bodylock Kouchi Gari**: Establish bodylock control (over-under) instead of traditional grips, then execute the reap while driving forward with the locked hands behind opponent's back. Provides excellent control and finishing power. (When to use: In no-gi situations where collar grips aren't available, or when opponent is defending grip fighting effectively)
@@ -300,7 +300,7 @@ Incorporate Kouchi Gari into regular stand-up sparring and competition training.
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Kouchi Gari is one of the safer takedown techniques when executed properly, as the falling direction is controlled and predictable. However, training partners should be aware of proper breakfall techniques, particularly falling backward with the chin tucked to avoid head impact. When drilling, ensure mat space is clear of obstacles and other rolling pairs. The person executing the technique should maintain grips and control throughout the fall to prevent the partner from landing awkwardly on their shoulder or neck. In competition or live sparring, be mindful of the edge of the mat area, as the backward motion can carry both practitioners out of bounds. For older practitioners or those with knee issues, the reaping motion should be executed smoothly rather than explosively to avoid strain on the base leg's knee joint.
 
@@ -308,7 +308,7 @@ Kouchi Gari is one of the safer takedown techniques when executed properly, as t
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Kouchi Gari serves as a critical bridge between standing and ground positions in modern BJJ. From the standing clinch position, successful execution typically leads directly to side control or knee on belly, establishing immediate top pressure. When defended, Kouchi Gari naturally chains into other standing techniques like Osoto Gari, Deashi Harai, or transitions to front headlock position if opponent sprawls. The technique is particularly valuable for guard players who want to maintain standing rather than pulling guard, as it allows you to dictate the terms of engagement. In the modern competitive landscape, Kouchi Gari has become essential for BJJ practitioners who cross-train in judo or wrestling, providing a reliable answer to aggressive opponents who pressure forward in the standing phase.
 
@@ -316,7 +316,7 @@ Kouchi Gari serves as a critical bridge between standing and ground positions in
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Osoto Gari]] - Primary follow-up technique when Kouchi Gari is defended by stepping back
 - [[Ouchi Gari]] - Related inner reaping technique, larger and more powerful variation
@@ -334,7 +334,7 @@ Kouchi Gari serves as a critical bridge between standing and ground positions in
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Kouchi Gari represents the perfect embodiment of judo's principle of maximum efficiency with minimum effort. The technique succeeds not through muscular power but through precise timing and exploitation of biomechanical weakness. When your opponent's weight is committed to their rear leg—even for a fraction of a second—that leg cannot move to recover balance. Your reaping action doesn't need to be powerful; it simply needs to be present at the exact moment their weight loads that foot. The upper body mechanics are paramount: you must create a genuine off-balance through opposing forces in your grip work before the leg action has any value whatsoever. Students often fail with this technique because they attempt to sweep the leg of a balanced opponent, which is biomechanically impossible. Study the timing of weight transfer in your opponent's stepping pattern, and you'll find Kouchi Gari becomes almost effortless when executed at the proper moment.
 - **Gordon Ryan**: In competition, I use Kouchi Gari primarily as a setup technique rather than expecting it to finish as a standalone throw. The real value is in how opponents react to it—when they feel that reap coming, they either step back hard, widen their stance, or hop on the base leg. All three reactions open them up to something else. If they step back, I'm hitting Osoto Gari immediately. If they widen, I'm going Uchi Mata or dropping for a single leg. The threat of Kouchi Gari controls their movement and makes them predictable. That said, when you catch someone mid-step or when they're backing away from you, it's money—they go down hard and you land right in side control. I hit it most often in no-gi with bodylock control because the grips are more secure and they can't grip fight their way out of the setup. Train it as part of combinations, not as an isolated technique, and your success rate will skyrocket.
 - **Eddie Bravo**: What I love about Kouchi Gari is how sneaky it is, man. It's not this big telegraphed move—it's subtle, quick, and most people don't even see it coming. In 10th Planet, we use it a lot when we're working our clinch game before pulling guard or going to the ground. The thing is, you don't always need to finish the throw to get what you want. Sometimes I'll fake the Kouchi Gari just to get them moving backward, then I'll pull them into my guard or hit them with something else. It works great in the cage too because guys are so focused on defending big takedowns that this little ankle reap catches them sleeping. One thing I teach is the sacrifice variation where you wrap and roll—it's lower risk and guarantees you get to the ground even if you don't get the perfect top position. Don't sleep on the old judo techniques; they work in every grappling context when you understand the principles.

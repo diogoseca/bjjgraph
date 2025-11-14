@@ -8,7 +8,7 @@ description: "Master sprawl defense mechanics in Brazilian Jiu-Jitsu. Learn take
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master sprawl defense mechanics in Brazilian Jiu-Jitsu. Learn take
 
 
 
-> **Quick Answer**: Sprawl Defense is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Sprawl Defense is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ Mastery of sprawl defense requires understanding weight distribution, hip mobili
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Hip retraction and explosive backward movement to create distance from penetration step
 - Downward pressure through chest and hands to flatten opponent's level change
 - Weight distribution shift to opponent's shoulders while keeping hips elevated
@@ -185,7 +185,7 @@ Mastery of sprawl defense requires understanding weight distribution, hip mobili
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Hip Retraction Mechanics**: The ability to explosively throw hips backward while maintaining upper body connection creates the fundamental sprawl movement. This requires hip mobility, core strength, and the coordination to keep hands engaged with opponent while hips retreat to maximum extension.
 
 **Downward Pressure Application**: Driving weight through the chest and hands onto opponent's shoulders and upper back flattens their posture and prevents forward drive. This pressure must be distributed effectively to control opponent's head position while maintaining your own base and balance throughout the defensive sequence.
@@ -208,7 +208,7 @@ Mastery of sprawl defense requires understanding weight distribution, hip mobili
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Takedown Entry]]** (Prerequisite): Understanding offensive takedown mechanics and entries provides the knowledge necessary to recognize and time sprawl defenses effectively against single-leg, double-leg, and other penetration-based attacks.
 - **[[Base Maintenance]]** (Complementary): Maintaining stable base through proper foot positioning and weight distribution during the sprawl ensures defensive effectiveness while preventing opponent from destabilizing or sweeping during the exchange.
 - **[[Grip Fighting]]** (Prerequisite): Effective grip fighting prevents opponent from achieving clean grips necessary for high-percentage takedown attempts, reducing the frequency and urgency of sprawl defense requirements.
@@ -227,7 +227,7 @@ Mastery of sprawl defense requires understanding weight distribution, hip mobili
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Standing Position**: Sprawl defense serves as primary takedown defense against wrestlers and MMA-style grapplers, with emphasis on guillotine and darce counter-attacks immediately following successful sprawl.
 
 **Standing Guard**: Sprawl timing prevents opponent from pulling guard effectively, forcing them to work from less favorable positions or commit to alternative entries that create counter-offensive opportunities.
@@ -262,7 +262,7 @@ Mastery of sprawl defense requires understanding weight distribution, hip mobili
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Is opponent initiating level change or penetration step?**: Recognize postural changes, hand positioning shifts, or weight distribution changes that indicate takedown attempt initiation. If yes, prepare sprawl response. If no, maintain grip fighting and distance management.
 2. **Has opponent committed to forward penetration?**: Assess depth of opponent's level change and forward drive commitment. If fully committed, execute full sprawl with maximum hip retraction. If feinting or partial commitment, use lighter defensive reaction to conserve energy.
 3. **Are your hips successfully behind opponent's head/shoulders?**: Verify hip position relative to opponent's upper body. If hips are back, begin downward pressure application. If hips are still forward, continue hip retraction before applying pressure to avoid being driven forward.
@@ -275,31 +275,31 @@ Mastery of sprawl defense requires understanding weight distribution, hip mobili
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Sprawling without first achieving hip retraction behind opponent's head
+## Common Mistakes
+- **Mistake**: Sprawling without first achieving hip retraction behind opponent's head
   - **Consequence**: Weight applies forward onto opponent's back rather than downward onto shoulders, allowing them to continue driving forward and potentially completing the takedown despite sprawl attempt.
   - **Correction**: Focus on explosive hip movement backward FIRST, ensuring hips clear opponent's head position before applying downward pressure through chest and hands onto their shoulders.
-- **Error**: Keeping weight on feet instead of shifting onto opponent during sprawl
+- **Mistake**: Keeping weight on feet instead of shifting onto opponent during sprawl
   - **Consequence**: Insufficient pressure allows opponent to maintain posture and continue driving forward, making sprawl ineffective and wasting energy without stopping the takedown attempt.
   - **Correction**: Transfer majority of bodyweight onto opponent's shoulders through chest and hands while maintaining just enough weight on toes to control direction and prevent being rolled.
-- **Error**: Neglecting hand fighting before opponent secures grips
+- **Mistake**: Neglecting hand fighting before opponent secures grips
   - **Consequence**: Allows opponent to achieve deep grips on legs or body lock before sprawl, making defensive response less effective and increasing likelihood of takedown completion.
   - **Correction**: Prioritize hand fighting to prevent grip acquisition in first place, using collar ties, wrist control, and frames to disrupt opponent's ability to secure controlling grips.
-- **Error**: Sprawling too early on feints or non-committed attacks
+- **Mistake**: Sprawling too early on feints or non-committed attacks
   - **Consequence**: Wastes energy responding to fake attempts and creates timing windows for opponent to attack when you're recovering from premature sprawl, exploiting defensive overcommitment.
   - **Correction**: Develop penetration step recognition to distinguish committed attacks from feints, using lighter defensive reactions for uncertain threats and reserving full sprawl for confirmed takedown attempts.
-- **Error**: Failing to circle away after successful sprawl defense
+- **Mistake**: Failing to circle away after successful sprawl defense
   - **Consequence**: Remaining stationary allows opponent to immediately re-attack same position or transition to alternative takedown attempts without having to reset grips or distance.
   - **Correction**: After sprawl defense or counter-attack, actively circle away from opponent's power side while resetting grip fighting and distance to force them to work for new entries.
-- **Error**: Ignoring counter-offensive opportunities from sprawl position
+- **Mistake**: Ignoring counter-offensive opportunities from sprawl position
   - **Consequence**: Purely defensive mindset misses guillotine, front headlock, anaconda, darce, and back take opportunities that arise naturally from successful sprawl execution.
   - **Correction**: Train sprawl defense with immediate counter-offense integration, always looking for neck attacks or back takes as opponent becomes flattened from your defensive pressure.
-- **Error**: Maintaining sprawl position too long without transitioning
+- **Mistake**: Maintaining sprawl position too long without transitioning
   - **Consequence**: Static sprawl position becomes energy drain without advancing position or securing attacks, allowing opponent time to recover posture or escape to reset.
   - **Correction**: Use sprawl as transitional position only—quickly assess available counter-offense or positional advancement, commit to one within 2-3 seconds of achieving sprawl control.
-- **Error**: Bringing knees to mat during sprawl execution
+- **Mistake**: Bringing knees to mat during sprawl execution
   - **Consequence**: Creates wrestling-style sprawl position that's vulnerable to BJJ-specific attacks and allows opponent to potentially recover position or sweep when you lack mobility.
   - **Correction**: Maintain weight on toes throughout sprawl, preserving mobility and ability to quickly transition to submissions or positional dominance without getting stuck in static position.
 
@@ -308,7 +308,7 @@ Mastery of sprawl defense requires understanding weight distribution, hip mobili
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Isolated Sprawl Drilling** (Focus: Developing muscle memory for explosive hip movement and proper weight distribution without counter-offensive complications)
 Partner executes single-leg or double-leg penetration steps at varying speeds while you practice sprawl mechanics, focusing on hip retraction timing, pressure application, and base maintenance.
 
@@ -333,7 +333,7 @@ Start with you in sprawl position on flattened opponent, they work to escape or 
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Successfully executes sprawl mechanics when opponent telegraphs takedown attempt clearly with slow penetration step
 - Can throw hips back and apply some downward pressure but timing is often late or weight distribution is incomplete
@@ -375,7 +375,7 @@ Start with you in sprawl position on flattened opponent, they work to escape or 
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Guillotine Choke]] (Submission) - Primary counter-offensive submission from sprawl position when opponent's head is across body
 - [[Darce Choke]] (Submission) - Counter-offensive submission from sprawl when opponent's head is on same side as attacking arm
@@ -395,7 +395,7 @@ Start with you in sprawl position on flattened opponent, they work to escape or 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The sprawl represents one of the most important defensive movements in all of grappling because it simultaneously accomplishes multiple strategic objectives that would otherwise require separate techniques. First, the explosive hip retraction creates distance that neutralizes the opponent's forward penetration—the fundamental requirement of all takedown attempts. Second, the transfer of bodyweight onto the opponent's shoulders creates downward pressure that flattens their posture and eliminates the structural support necessary for them to continue driving forward. Third, and most importantly from a BJJ perspective, the sprawl position creates an immediate opportunity for counter-offensive attacks to the neck and back. Unlike pure wrestling where the sprawl may be purely defensive, in BJJ we must train students to view the sprawl as the setup for guillotines, darces, anacondas, and back takes. The timing of the sprawl is everything—too early and you waste energy responding to feints, too late and the opponent has already achieved the grips and penetration necessary to complete the takedown regardless of your defensive response. I teach students to recognize the penetration step itself as the trigger for the sprawl, not the level change which comes before it. This precise timing, combined with proper weight distribution and immediate offensive transitioning, transforms takedown defense from a desperate scramble into a controlled counter-attack sequence.
 - **Gordon Ryan**: In competition, sprawl defense is absolutely critical because you can't pull guard against everyone and expect to win matches consistently at the highest levels. I've faced countless wrestlers and MMA guys who are looking to take me down, and the sprawl has to be automatic and explosive to stop them. But here's what most people miss—the sprawl isn't just defense, it's one of my best setups for guillotines and front headlock attacks. When someone shoots on me, I'm thinking about the submission I'm about to get, not just about stopping the takedown. The key is timing your sprawl so you catch them when they're committed but before they've locked their hands or gotten deep on the legs. That split second is everything in competition. If you sprawl too early, they just reset and shoot again when you're tired. If you sprawl too late, they've already got your legs and you're fighting from a bad position. I also use hand fighting a lot before they even shoot—keeping strong collar ties and controlling wrists so they can't get clean entries. When the sprawl does come, it needs to be violent and immediately transition to offense. I'm not sitting in sprawl position grinding it out, I'm hitting the sprawl and immediately looking for the guillotine or spinning to the back. That's how you turn defense into points and submissions in competition.
 - **Eddie Bravo**: The sprawl is fundamental but we approach it differently in the 10th Planet system because we're always thinking about how to create unorthodox angles and opportunities. Yeah, you need the basic sprawl mechanics to stop wrestlers from taking you down, but once you've got them flattened, that's where the creative stuff starts. We're looking at darces and anacondas immediately, not just basic guillotines. The thing about sprawl defense is it puts you in this perfect position where you can attack the neck from different angles depending on which side their head is on and how they're defending. If they turtle up after you sprawl, now you're in prime position for the truck or twister setups. If they try to stand back up, that's when you can catch them with the submission as they're transitioning. I also teach guys to use the sprawl as a way to tire opponents out—make them shoot, make them carry your weight, then transition before they can recover. It's about using your opponent's energy against them. The sprawl position also sets up some unique 10th Planet-specific stuff like the stoner control or transitioning to the dogfight position if they're defending well. Most importantly, we train it with immediate offensive flow so guys never get stuck in static sprawl position just holding. Sprawl, attack, transition—that's the sequence that makes it work in real competition against high-level guys who know how to wrestle.

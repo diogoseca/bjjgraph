@@ -8,7 +8,7 @@ description: "Master overhook control from bottom positions. Guard-based whizzer
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master overhook control from bottom positions. Guard-based whizzer
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master overhook control from bottom positions. Guard-based whizzer
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 66% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 66% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -193,7 +191,7 @@ Modern guard players have integrated overhook control into systematic approaches
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your arm wrapped over opponent's arm from above with armpit sealed tightly against their shoulder, maintaining the seal even as they attempt to pull free or change angles
 - Your grip secured behind opponent's back, around their shoulder blade, or in figure-four configuration with your hands clasped, adjusted based on their posture and passing attempts
@@ -206,7 +204,7 @@ Modern guard players have integrated overhook control into systematic approaches
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has extended arm into your guard attempting underhook, crossface, or passing grip establishment
 - You have sufficient space and angle to wrap your arm over theirs from above position
@@ -234,7 +232,7 @@ Modern guard players have integrated overhook control into systematic approaches
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Arm Drag to Back]] → [[Back Control]]
 
@@ -298,7 +296,7 @@ Modern guard players have integrated overhook control into systematic approaches
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 35%)
 - **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 28%)
@@ -311,7 +309,7 @@ Modern guard players have integrated overhook control into systematic approaches
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Arm Drag]]** → [[Back Control]]
   - Opponent attempts to pull their arm back through overhook control
@@ -353,7 +351,7 @@ Modern guard players have integrated overhook control into systematic approaches
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 
 
 
-> **Quick Answer**: Flying Armbar is a arm lock targeting the Elbow joint and shoulder. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or ligament tears (opponent) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Flying Armbar is a arm lock targeting the Elbow joint and shoulder. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or ligament tears (opponent). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="safety-considerations" class="content-section">
 
-## Is Flying Armbar Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -222,7 +222,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Timing and opponent reaction: Success depends on reading opponent's base and timing your jump when they're extended or off-balance
 - Arm isolation before flight: Secure sleeve and wrist control before initiating the jumping motion to ensure proper arm capture
 - Hip placement is critical: Your hips must land across opponent's chest/shoulder line to create proper breaking angle
@@ -236,7 +236,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Strong sleeve and wrist control (preferably two-on-one grip) to prevent opponent pulling arm free during jump
 - Opponent standing in your guard or attempting to stand from guard
 - Sufficient space and clear mat area to safely execute aerial technique
@@ -251,7 +251,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish two-on-one grip control**: From guard bottom position with opponent standing or posting, secure a strong two-on-one grip on their arm. One hand controls the wrist, the other grips the sleeve above the elbow. Pull the arm across your centerline to begin isolating it from their body. Ensure this grip is tight and your elbows are pulled to your ribs to maximize control before any dynamic movement. (Timing: 2-3 seconds of solid grip establishment) [Pressure: Firm]
 2. **Break opponent's posture and create extension**: While maintaining grip control, use your legs to push against opponent's hips or knees to create distance and force them to extend forward to maintain balance. This extension is critical - you want their arm reaching forward and their base compromised. Their weight should shift slightly forward as they try to stabilize. This creates the window for your entry. (Timing: 1-2 seconds of posture disruption) [Pressure: Moderate]
 3. **Initiate jumping motion**: Explosively swing your hips up and toward the controlled arm while maintaining your two-on-one grip. Your body should rotate 90-180 degrees as you elevate. The jumping motion is more of a swing than a vertical jump - think of swinging your legs up and around their arm rather than jumping straight up. Your head should pass close to their hip on the same side as the controlled arm. (Timing: Explosive 1-second movement) [Pressure: Maximum]
@@ -265,7 +265,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Pulling arm back and stepping away when they feel the grip** (Effectiveness: High) - Your Adjustment: Maintain grip and follow their movement, using their backward motion to help your jumping entry. If they fully retract arm, abandon technique and return to guard.
 - **Sprawling back and lowering hips to avoid the jump** (Effectiveness: High) - Your Adjustment: Do not attempt the flying armbar if opponent sprawls - this is the primary defensive response. Instead, transition to standard guard or sweep attempts.
 - **Stacking you forward during your aerial rotation** (Effectiveness: Medium) - Your Adjustment: If stacked during flight, release the submission attempt and establish guard. Never fight from inferior stacked position with joint lock - injury risk is too high.
@@ -275,28 +275,28 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Jumping without secure grip control on opponent's arm [High DANGER]
+## Common Mistakes
+- **Mistake**: Jumping without secure grip control on opponent's arm [High DANGER]
   - **Consequence**: Arm slips free during aerial rotation, resulting in failed technique and vulnerable position upon landing
   - **Correction**: Always establish strong two-on-one control before any jumping motion. Test the grip by pulling - if arm moves easily, grip is insufficient for aerial technique.
-- **Error**: Landing with excessive force or spiking onto opponent's arm [CRITICAL DANGER]
+- **Mistake**: Landing with excessive force or spiking onto opponent's arm [CRITICAL DANGER]
   - **Consequence**: Immediate elbow injury to training partner, catastrophic joint damage possible
   - **Correction**: In training, control your descent and allow partner to base with free hand. Think 'land gently' not 'slam down'. This is absolute priority over securing the submission.
-- **Error**: Poor breakfall technique resulting in neck/spine compression [CRITICAL DANGER]
+- **Mistake**: Poor breakfall technique resulting in neck/spine compression [CRITICAL DANGER]
   - **Consequence**: Serious injury to yourself including neck strain, spine compression, or head impact
   - **Correction**: Practice breakfalls extensively before attempting flying submissions. Land on shoulder blades with chin tucked, never flat on your back or neck. Consider using crash pads during initial learning.
-- **Error**: Attempting technique when opponent is too close or not extended [High DANGER]
+- **Mistake**: Attempting technique when opponent is too close or not extended [High DANGER]
   - **Consequence**: Insufficient space to complete rotation, awkward landing, potential injury to both practitioners
   - **Correction**: Only attempt when opponent is standing with arm extended. Create distance first by pushing with your feet. If they're too close, use different attacks.
-- **Error**: Not committing fully to the rotation [Medium DANGER]
+- **Mistake**: Not committing fully to the rotation [Medium DANGER]
   - **Consequence**: Incomplete technique leaves you in poor position, potential for awkward falls or failed entry
   - **Correction**: Once initiated, commit completely to the rotation. Half-attempts are more dangerous than full commitment. If you hesitate mid-jump, abort and return to guard.
-- **Error**: Failing to secure leg position before landing [Low DANGER]
+- **Mistake**: Failing to secure leg position before landing [Low DANGER]
   - **Consequence**: Opponent easily escapes armbar, you land in poor position without control
   - **Correction**: Thread top leg across face and bottom leg under armpit while still airborne. This must be simultaneous with the jump, not after landing. Practice the coordination slowly first.
-- **Error**: Pulling opponent down violently during landing [CRITICAL DANGER]
+- **Mistake**: Pulling opponent down violently during landing [CRITICAL DANGER]
   - **Consequence**: Both practitioners land dangerously, high injury risk from uncontrolled falls
   - **Correction**: Your landing should not drag opponent down. They should maintain base with free hand. If you feel yourself pulling them off balance, release the grip and prioritize safe landing.
 
@@ -305,7 +305,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Flying Armbar from Closed Guard Break**: When opponent stands to break your closed guard, use their standing motion as the setup. As they rise and begin to open your guard, secure two-on-one control and initiate the flying entry before they fully establish standing base. The transition from closed guard to flying armbar is fluid and uses their upward momentum. (When to use: When opponent is predictable in their guard breaking method and consistently stands with arms extended. Works best against opponents who stand but remain bent at waist.)
 
 **Flying Armbar from Failed Guard Pull**: If you attempt a guard pull and opponent remains standing, immediately chain into flying armbar. From your seated guard position, secure sleeve control as they stand, then execute the flying entry using their stable standing base. This variation requires less jumping force since you're already partially elevated. (When to use: In sport jiu-jitsu when guard pulls are common. Creates attacking opportunity from what would otherwise be neutral position. Excellent surprise technique in competition.)
@@ -345,7 +345,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Static Drilling)** (Week 1-2)
 - Focus: Learn proper grip configurations, leg positioning, and breakfall mechanics without any jumping. Practice the ending position (standard armbar from guard) extensively. Study video footage of proper execution. Understand all safety protocols before any dynamic movement.
 - Resistance: None
@@ -382,7 +382,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Open Guard]]
@@ -400,7 +400,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Armbar from Guard]]
 - [[Triangle from Guard]]
@@ -443,7 +443,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The flying armbar represents the intersection of systematic technique and explosive athleticism, but it must never compromise the fundamental safety principles that govern all arm lock applications. From a systematic perspective, this technique is essentially a standard armbar preceded by an aerial entry - the mechanics of the finish itself remain identical to ground-based variations. The critical distinction lies in the momentum and impact created by the jumping entry, which loads the elbow joint with force even before conscious finishing pressure is applied. This is why training protocols must emphasize slow, controlled application despite the dynamic entry. When teaching this technique, I insist students master static armbar variations for at least six months before attempting aerial entries, and even then only under close supervision with appropriate safety measures including crash pads and size-matched partners. The success rate differential between skill levels reflects not just technical proficiency but also the athletic requirements and risk assessment capabilities that develop with experience. For systematic development, practitioners should view this as an advanced supplement to a complete armbar system, not a primary attacking tool.
 - **Gordon Ryan**: In competition, the flying armbar is a calculated risk that can deliver spectacular finishes, but the risk-reward analysis is vastly different from training applications. I've hit flying armbars in high-level competition, and I've also had attempts stuffed that cost me position - the key is recognizing the exact moment when your opponent's base is compromised and their arm is extended, then committing fully without hesitation. In training versus competition, the pressure application must be completely different. During training, I apply finishing pressure over 5-7 seconds minimum and stop at the slightest resistance because preserving my training partners is essential for long-term development. In competition, once position is secured, I finish much more quickly because my opponent isn't tapping to protect me - they're defending as long as physically possible. The technique works best against opponents who stand predictably in your guard with extended arms, particularly wrestlers who aren't accustomed to guard-based aerial attacks. Against elite guard passers who maintain tight arm positioning and good base, the success rate drops dramatically, which explains why you see this more in lower-level competition than at black belt worlds. My advice: develop this as part of your offensive arsenal but don't rely on it as a primary weapon. Have your fundamental armbars from guard, mount, and back control at a world-class level first, then add flying variations as high-percentage surprise attacks when specific opportunities present themselves.
 - **Eddie Bravo**: The flying armbar embodies the 10th Planet philosophy of aggressive, dynamic attacks that keep opponents guessing and create exciting competition moments. We've developed specific setups from rubber guard and mission control that make the aerial entry more controlled and higher percentage than traditional approaches. The key innovation in our system is using the lockdown or rubber guard to break opponent's posture before initiating the jump, which ensures their arm is already compromised when you go airborne. That said, this technique demands exceptional safety culture in the training room - at 10th Planet, we have strict protocols that include mandatory crash pad usage during learning phases, required instructor supervision for the first 50 repetitions, and absolute prohibition of the technique for students under blue belt. The creativity comes in the entries and combinations, not in the safety measures. I've seen too many gyms where students attempt flying submissions without proper progression, leading to injuries that could end careers. When practiced correctly with proper safety emphasis, the flying armbar develops timing, coordination, and the aggressive mindset needed for modern competition, but it should enhance your ground game, not replace fundamental technique development. We teach it as part of a comprehensive submission system that includes safer alternatives for every position, ensuring students always have options that don't require aerial acrobatics to be effective.

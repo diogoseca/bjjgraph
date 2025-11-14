@@ -8,7 +8,7 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner controls opponent's arm in shoulder lock configuration with figure-four grip or similar shoulder manipulation, creating constant submission threat while maintaining positional control through integrated joint lock and guard retention mechanics
 - Bottom practitioner maintains active guard structure with legs positioned to create distance frames that prevent passing attempts, using hip movement and leg engagement to generate sweeping leverage while simultaneously reinforcing shoulder lock control
@@ -199,7 +197,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful grip establishment on opponent's arm with shoulder lock configuration
 - Opponent positioned in standing or combat base within guard range
@@ -226,7 +224,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Williams Shoulder Lock]] → [[Won by Submission]]
 
@@ -283,7 +281,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Arm Extraction]]** → [[Open Guard]] (Opponent Success: 40%)
 - **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 35%)
@@ -295,7 +293,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Rolling Armbar]]** → [[Armbar Control]]
   - Opponent attempts to yank arm free aggressively
@@ -335,7 +333,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

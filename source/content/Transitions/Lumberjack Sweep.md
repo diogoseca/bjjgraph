@@ -8,7 +8,7 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 
 
 
-> **Quick Answer**: Lumberjack Sweep transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Lumberjack Sweep transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish and maintain deep underhook control on the opponent's far side
 - Create angle by turning your body toward the underhook side
 - Use your trapped leg to control opponent's base and prevent posting
@@ -179,7 +179,7 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Half guard bottom position with one leg controlling opponent's leg
 - Deep underhook established on opponent's far side armpit
 - Opponent's weight committed forward without strong crossface
@@ -192,7 +192,7 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish underhook control**: From half guard bottom, swim your inside arm deep under opponent's armpit on the far side. Your hand should emerge near their far shoulder blade. Simultaneously cup your free hand around their near side wrist or grab their belt to prevent posting. Keep your head pressed against their ribs on the underhook side to block crossface attempts. (Timing: Execute immediately when opponent lacks crossface control)
 2. **Create angle and hip out**: Turn your entire body toward the underhook side, creating a 45-degree angle relative to your opponent. Hip out away from them by pushing with your outside leg and pulling with your inside hook. This angle is critical as it positions your hips beneath theirs and sets up the sweeping leverage. Your shoulders should now be perpendicular to theirs. (Timing: Movement should be one fluid motion with underhook establishment)
 3. **Secure opponent's base leg**: Your inside leg (the one in half guard) should hook deep around opponent's trapped leg, with your foot positioned behind their knee. Squeeze your knees together to control their leg completely. Your outside leg posts on the mat for base. This prevents them from extracting their leg or posting to defend the sweep. (Timing: Maintain constant squeeze throughout sweep execution)
@@ -205,7 +205,7 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent establishes strong crossface and flattens you** (Effectiveness: High) - Your Response: Abandon sweep and transition to deep half guard or electric chair position. Use your underhook to swim back to deep half, or switch to attacking the far knee for old school sweep variation.
 - **Opponent posts their free hand on the mat to block the sweep** (Effectiveness: Medium) - Your Response: Use your free hand to strip their posting arm while continuing sweeping pressure. Alternatively, transition to kimura attack on the posted arm, or switch to waiter sweep if they overextend their post.
 - **Opponent extracts their trapped leg and passes** (Effectiveness: High) - Your Response: If leg begins extracting, immediately switch to butterfly hook or transition to single leg x-guard. Use your underhook to prevent them from establishing side control and create frames to recover full guard.
@@ -214,25 +214,25 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweep without proper angle
+## Common Mistakes
+- **Mistake**: Attempting sweep without proper angle
   - **Consequence**: Opponent easily bases out and passes guard, as you lack the leverage to generate sweeping force
   - **Correction**: Always establish 45-degree angle by hipping out before initiating sweep. Your shoulders should be perpendicular to opponent's before you attempt to sweep.
-- **Error**: Shallow underhook that doesn't reach opponent's far shoulder
+- **Mistake**: Shallow underhook that doesn't reach opponent's far shoulder
   - **Consequence**: Opponent easily strips the underhook or establishes crossface, shutting down the sweep entirely
   - **Correction**: Swim your underhook deep until your hand emerges at their far shoulder blade. Keep constant upward pressure to maintain depth and prevent them from breaking it.
-- **Error**: Releasing leg control too early in the sweep
+- **Mistake**: Releasing leg control too early in the sweep
   - **Consequence**: Opponent posts their leg and blocks the sweep, or extracts and passes to side control
   - **Correction**: Maintain tight squeeze on trapped leg throughout entire sweep sequence. Only release when you've established top position and they cannot recover.
-- **Error**: Static execution without using opponent's momentum
+- **Mistake**: Static execution without using opponent's momentum
   - **Consequence**: Sweep requires excessive strength and is easily defended by athletic opponents
   - **Correction**: Time the sweep for when opponent pressures forward or shifts weight. Use their momentum against them by redirecting rather than overpowering.
-- **Error**: Failing to control opponent's free arm
+- **Mistake**: Failing to control opponent's free arm
   - **Consequence**: Opponent posts and stops the sweep, maintaining top position
   - **Correction**: Always control their near wrist or belt with your free hand. Strip any posting attempts aggressively while maintaining sweep pressure.
-- **Error**: Not maintaining connection during rotation
+- **Mistake**: Not maintaining connection during rotation
   - **Consequence**: Opponent escapes mid-sweep and recovers guard or establishes turtle
   - **Correction**: Keep your underhook locked tight and your body connected throughout. Think of sweeping them with you, not throwing them away from you.
 
@@ -241,7 +241,7 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Foundation and Positioning** - Underhook establishment and angle creation
 Practice establishing deep underhook from various half guard positions. Drill the hip out movement to create proper angle repeatedly. Partner remains passive, allowing you to feel correct positioning. Focus on achieving 45-degree angle and deep underhook connection before attempting any sweeping motion.
 (Resistance: None)
@@ -272,7 +272,7 @@ Experiment with grip variations, timing adjustments, and combinations with submi
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Lumberjack to Electric Chair**: If opponent defends the sweep by posting or sprawling back, transition directly into electric chair position by releasing your lockdown and threading your leg over their trapped leg. Maintain your underhook throughout and elevate their leg for the submission or sweep. (When to use: When opponent successfully defends initial sweep attempt by pulling weight back or posting strongly. Particularly effective in no-gi where electric chair is legal.)
 
 **Lumberjack with Whip Up Variation**: Instead of rolling opponent over, use the underhook to whip them up and over your shoulder while simultaneously extending your legs. This creates more airborne elevation and can catch opponents off-guard who are familiar with standard lumberjack sweep. (When to use: Against lighter opponents or when you have exceptional underhook control. Works well when opponent is defending traditional lumberjack sweep mechanics.)
@@ -312,7 +312,7 @@ Experiment with grip variations, timing adjustments, and combinations with submi
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the lumberjack sweep, execute the technique with control to avoid dropping your partner unexpectedly or causing them to land awkwardly. The sweeping motion should be smooth and controlled, especially during initial drilling phases. Partners should communicate if they feel uncomfortable with the speed or force of the sweep. Be particularly careful when transitioning to top position to avoid driving your knee into your partner's ribs or landing with full body weight on them. If you're being swept, don't post your arm rigidly to block the sweep as this can result in shoulder or wrist injuries; instead, learn to roll with the momentum and turtle if necessary. When drilling, start with slow, cooperative repetitions and gradually increase resistance as both partners become comfortable with the mechanics. Ensure adequate mat space around you as the sweep creates rotational movement that can carry both practitioners several feet from the starting position.
 
@@ -320,7 +320,7 @@ When practicing the lumberjack sweep, execute the technique with control to avoi
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The lumberjack sweep is a cornerstone technique of modern half guard bottom systems, serving as a primary sweeping option that integrates seamlessly with other half guard attacks. Within the positional hierarchy, half guard represents a defensive position where the bottom player is trying to recover full guard or sweep to top position. The lumberjack sweep provides a reliable sweeping mechanism that works particularly well against forward pressure, complementing other half guard sweeps like the old school sweep (which works against upright posture) and deep half sweeps (which work when opponent is more defensive). This technique connects to the broader BJJ system by providing a transition from bottom position to top position, directly improving positional standing and earning sweep points in competition. The lumberjack sweep also chains naturally with submission attacks, particularly the kimura (when opponent posts to defend), creating a powerful sweep-or-submit dilemma. Advanced practitioners integrate this sweep into a comprehensive half guard game where the threat of the lumberjack sweep forces opponents to defend in ways that open other attacks, effectively creating a system where each technique supports and enables the others.
 
@@ -328,7 +328,7 @@ The lumberjack sweep is a cornerstone technique of modern half guard bottom syst
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Half Guard]] - Primary starting position for this technique
 - [[Deep Half Guard]] - Alternative position when lumberjack sweep is defended with crossface
@@ -349,7 +349,7 @@ The lumberjack sweep is a cornerstone technique of modern half guard bottom syst
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The lumberjack sweep exemplifies the fundamental principle of using leverage to overcome positional disadvantage in Brazilian jiu-jitsu. What makes this technique systematically sound is its reliance on mechanical advantage rather than raw strength - by creating the proper angle and establishing deep underhook control, you position your hips beneath the opponent's center of gravity, allowing you to generate rotational force that exceeds what their base can resist. The critical detail that separates effective execution from failed attempts is the 45-degree angle created by hipping out; this angle transforms what would be a vertical lifting motion requiring tremendous strength into a rotational sweep that uses the opponent's forward momentum against them. From a biomechanical perspective, the lumberjack sweep creates a lever system where your underhook serves as the fulcrum, your hip extension provides the effort force, and the opponent's body represents the load being moved. Understanding this mechanical relationship allows you to troubleshoot failures - if the sweep doesn't work, you've likely failed to establish proper angle, lost underhook depth, or attempted the technique when the opponent's base was too wide. The beauty of this sweep within a systematic half guard approach is that it creates defensive dilemmas for the opponent: defend the underhook aggressively and you open deep half entries; establish crossface and you create kimura opportunities; post your hand and you expose it to arm attacks. This interconnectedness is what transforms isolated techniques into comprehensive positional systems.
 - **Gordon Ryan**: In competition, the lumberjack sweep is one of my highest-percentage techniques from half guard bottom, particularly in no-gi where the underhook is easier to establish and maintain without gi grips interfering. What makes this sweep so effective at the highest levels is its ability to work against pressure passing, which is how most elite grapplers try to pass half guard. When someone is driving forward trying to flatten you and establish crossface, that forward pressure becomes the fuel for your sweep - you're essentially redirecting their energy rather than creating it yourself. The key to making this work against world-class opposition is speed of execution and commitment to the angle. You cannot establish the underhook and then slowly work to create your angle; by that time, they've countered with crossface or adjusted their base. Instead, the underhook and angle creation must happen simultaneously in one explosive movement, giving them no time to react. I've successfully swept multiple ADCC champions with this technique because even when they know it's coming, the mechanical advantage is so strong that defending it requires them to completely change their passing approach. Another competition-specific detail: always control their near wrist or belt before initiating the sweep. Against high-level opponents, if you don't control that posting arm, they will base out every single time. In my matches, I often use the threat of the lumberjack sweep to force opponents into defensive reactions that open other attacks - if they defend the underhook too aggressively, I transition to deep half; if they post to block the sweep, I attack kimura. The sweep itself becomes more effective when integrated into a complete attacking system rather than used in isolation.
 - **Eddie Bravo**: The lumberjack sweep is fundamental to the entire 10th Planet half guard system, and we've developed several innovations that make it even more effective in no-gi competition. The traditional version works great, but when you add the lockdown - our signature leg control where you grapevine their trapped leg - the sweep becomes exponentially more powerful because they literally cannot extract their leg or establish proper base. We call our variation the 'lockdown lumberjack' and it's one of the first techniques we teach to students developing their half guard game. The lockdown not only prevents their escape but also breaks down their posture, making it easier to establish that crucial underhook. What's really interesting is how this sweep chains into the electric chair submission - if they defend the sweep by pulling their weight back or posting, you're already in perfect position to transition into the electric chair by threading your leg over. This creates what we call a 'sweep or submit' situation where they're screwed either way. In the 10th Planet system, we emphasize that the lumberjack sweep shouldn't be viewed as a single technique but rather as an entry point into multiple attacking sequences. From the lockdown with underhook position, you can hit lumberjack sweep, electric chair, old school sweep, or transition to deep half - the opponent has to defend everything simultaneously, which is overwhelming. Another innovation we've added is using the 'whip up' variation where instead of rolling them over, you explosively whip them up and over your shoulder, which creates more dramatic elevation and can catch even experienced grapplers by surprise. The beautiful thing about this sweep is that it works at all levels from beginner to world championship, and it embodies our philosophy of creating systematic attacks from bottom positions that force opponents into no-win situations.

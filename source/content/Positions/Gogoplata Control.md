@@ -13,10 +13,6 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 
 
 
-> **Quick Overview**: Gogoplata Control represents one of Brazilian Jiu-Jitsu's most technically demanding and strategically unique control positions. This position establishes a shin-across-throat configuration that creat...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -64,31 +60,19 @@ The position also demonstrates important principles about submission-based contr
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive/Controlling | Defensive |
-| Risk Level | Medium to High | High |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short to Medium | Short |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | Medium to High | High |
+| **Energy Cost** | High | Medium |
+| **Time** | Short to Medium | Short |
 
-**What Makes This Position Unique:** Shin pressure creates immediate submission threat
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Gogoplata Control/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Gogoplata Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Shin pressure creates immediate submission threat
 
 
 
@@ -96,10 +80,13 @@ The position also demonstrates important principles about submission-based contr
 
 <section id="bottom-summary" class="content-section">
 
-## Gogoplata Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Gogoplata Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in gogoplata control navigates both offensive and defensive opportunities based on opponent's actions.
+Read and react based on their actions.
 
 
 ### Key Principles
@@ -148,7 +135,7 @@ The bottom player in gogoplata control navigates both offensive and defensive op
   - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting gogoplata without sufficient hip flexibility or hamstring mobility**
@@ -176,16 +163,17 @@ The bottom player in gogoplata control navigates both offensive and defensive op
   - ✅ Correction: Build through proper progression: closed guard → rubber guard → mission control → gogoplata; ensure each control is solid before advancing
 
 
-👉 **[[Gogoplata Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Gogoplata Control Top Perspective
+
+## Playing as Top
+
+[[Gogoplata Control/Top|→ Full Top Guide]]
 
 
-The top player in gogoplata control manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -228,7 +216,7 @@ The top player in gogoplata control manages the position strategically based on 
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pulling head straight backward away from bottom player to escape shin pressure**
@@ -255,8 +243,6 @@ The top player in gogoplata control manages the position strategically based on 
   - Consequence: Turning into the shin creates omoplata position giving bottom player alternative submission while maintaining control
   - ✅ Correction: If turning, turn away from choking leg while maintaining awareness of back exposure; better to work on systematic head extraction than turning into additional threats
 
-
-👉 **[[Gogoplata Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

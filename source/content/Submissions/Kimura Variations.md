@@ -8,7 +8,7 @@ description: "Master Kimura variations in BJJ. Complete guide covering setups fr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Kimura variations in BJJ. Complete guide covering setups fr
 
 
 
-> **Quick Answer**: Kimura Variations is a shoulder lock targeting the Shoulder joint (glenohumeral), rotator cuff, and supporting ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kimura Variations is a shoulder lock targeting the Shoulder joint (glenohumeral), rotator cuff, and supporting ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kimura Variations Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -214,7 +214,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - **Figure-four grip integrity** - Maintain tight wrist-to-wrist connection with elbows close together to prevent grip breaks and maximize rotational control
 - **Elbow isolation against body** - Pin opponent's elbow to your torso, hip, or ribs to create the fulcrum point that makes shoulder rotation effective
 - **Lift and rotate simultaneously** - Apply pressure by elevating the elbow while rotating the hand backward, creating compound stress on the shoulder joint
@@ -228,7 +228,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure figure-four grip on opponent's wrist with your wrist (palm-to-palm or palm-to-back-of-hand depending on variation)
 - Establish control of opponent's elbow positioning against your body or between your arms
 - Create sufficient angle relative to opponent's shoulder line to generate rotational leverage
@@ -242,7 +242,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish positional control and isolate target arm**: From your chosen position, use appropriate grips and body positioning to separate one of opponent's arms from their defensive structure. From guard, this often means breaking posture and controlling their wrist. From top positions, it requires breaking their frames and capturing an arm as they attempt to create space. From turtle or standing, it involves controlling their arm during movement transitions. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Secure the figure-four wrist grip**: With their arm isolated, reach over and grip their wrist with your same-side hand (right hand on their right wrist or left on their left). Thread your opposite hand underneath their forearm and grab your own wrist, forming the characteristic figure-four shape. Keep your elbows tight together to prevent them from breaking the grip by pulling their elbow back. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Pin the elbow against your body**: Bring their elbow tight to your torso, hip, or side of your ribcage depending on the position. This creates the fulcrum point for the shoulder lock. From guard bottom, pin their elbow to your ribs and chest. From side control or mount, pin it to your hip or lower abdomen. From turtle attacks, pin it against your side or hip. The elbow must stay connected to your body throughout the finish. (Timing: 1 second) [Pressure: Firm]
@@ -255,7 +255,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Rolling forward toward the submission to relieve shoulder pressure** (Effectiveness: High) - Your Adjustment: Anticipate the roll and maintain figure-four grip while following their rotation, often transitioning to back control or mount as they complete the roll. Keep the Kimura grip active to control their posture in the new position.
 - **Pulling their elbow back toward their body to break the grip or reduce isolation** (Effectiveness: Medium) - Your Adjustment: Squeeze your elbows together tightly to maintain grip integrity, and use your body weight to keep their elbow pinned. If they succeed in reducing the angle, transition to a sweep, back take, or use the Kimura grip as a control position to advance.
 - **Standing up to create space and change the geometry of the submission** (Effectiveness: High) - Your Adjustment: From guard positions, immediately adjust your leg positioning to prevent the stand-up or follow them up while maintaining the grip, transitioning to standing Kimura variations or back takes. Use their standing momentum against them.
@@ -265,28 +265,28 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying explosive rotational force to finish quickly [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying explosive rotational force to finish quickly [CRITICAL DANGER]
   - **Consequence**: Causes catastrophic shoulder injuries including rotator cuff tears and dislocations, potentially ending training partner's career
   - **Correction**: Always apply pressure slowly and progressively over 4-6 seconds minimum. Focus on position and control first, submission second. Training partners' long-term health is more important than getting the tap.
-- **Error**: Failing to secure the elbow pin before rotating
+- **Mistake**: Failing to secure the elbow pin before rotating
   - **Consequence**: Opponent easily escapes by pulling their elbow away, or you lose control of the position entirely
   - **Correction**: Always establish the elbow connection to your body before adding rotational pressure. The elbow pin is the fulcrum - without it, there's no effective leverage on the shoulder.
-- **Error**: Neglecting to control opponent's hips and rotational escape routes
+- **Mistake**: Neglecting to control opponent's hips and rotational escape routes
   - **Consequence**: Opponent rolls toward the submission to escape, or stands up to relieve pressure and nullify the attack
   - **Correction**: Use your legs, weight distribution, or free arm to control their hip movement before finishing. Position your body to block rolling and standing escapes. Control first, submit second.
-- **Error**: Allowing elbows to separate during the figure-four grip
+- **Mistake**: Allowing elbows to separate during the figure-four grip
   - **Consequence**: Opponent breaks your grip by pulling their elbow back, completely escaping the submission attempt
   - **Correction**: Keep your elbows squeezed tightly together throughout the entire sequence. Think of your arms as a single unit wrapped around theirs, not two separate limbs.
-- **Error**: Continuing pressure after hearing or feeling structural 'pop' sounds from the shoulder [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after hearing or feeling structural 'pop' sounds from the shoulder [CRITICAL DANGER]
   - **Consequence**: Causes severe ligament or tendon damage, potentially requiring surgical repair and months of recovery
   - **Correction**: Immediately release all pressure if you feel or hear any popping, cracking, or grinding from the shoulder joint. These sounds indicate structural damage is occurring. Check with partner before continuing.
-- **Error**: Positioning your body at poor angles that give opponent easy escape paths
+- **Mistake**: Positioning your body at poor angles that give opponent easy escape paths
   - **Consequence**: Opponent simply walks around your body or rolls away because you're not blocking their movement
   - **Correction**: Angle your body 45-90 degrees to their shoulder line depending on position. Use your torso, legs, and free arm to wall off common escape directions. Your body should create barriers to their movement.
-- **Error**: Abandoning the Kimura grip too early when opponent defends effectively
+- **Mistake**: Abandoning the Kimura grip too early when opponent defends effectively
   - **Consequence**: You lose a powerful control position that could lead to sweeps, back takes, or positional advancement
   - **Correction**: Recognize that the Kimura grip is valuable even when the submission isn't immediately available. Use it to control posture, prevent guard passing, set up sweeps, or transition to other attacks. It's a system, not just a submission.
 
@@ -295,7 +295,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Kimura from Closed Guard Bottom**: Classic bottom position setup where you break opponent's posture, isolate one arm by overhooking or catching it extended, then apply figure-four grip while using your legs to control their hips and prevent rolling escapes. Can finish directly or sweep when they defend. (When to use: When opponent is postured in your closed guard or attempting to pass. Particularly effective when they post a hand on the mat or extend an arm to create space.)
 
 **Kimura from Side Control Top**: Top position attack where you isolate the far arm as opponent frames against your chest, establish figure-four grip, then pin their elbow to your hip while posting on your outside leg for base. Finish by lifting elbow and rotating hand toward their back. (When to use: When opponent is framing with their far arm to create space for escape. Excellent when transitioning from side control to other positions as opponent moves.)
@@ -346,7 +346,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Grip Mechanics (Weeks 1-2)** (First 2 weeks)
 - Focus: Learn figure-four grip formation, elbow pinning mechanics, and body positioning for each major variation. Practice grip security drills and understand leverage principles. Study anatomy of shoulder joint and injury mechanisms.
 - Resistance: Zero resistance
@@ -383,7 +383,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Side Control]]
@@ -401,7 +401,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura from Guard]]
@@ -444,7 +444,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The **Kimura** represents one of grappling's most versatile control mechanisms because it functions effectively across the entire positional spectrum - there is no position in jiu-jitsu where a Kimura grip cannot provide some tactical advantage. The fundamental mechanical principle is simple: you create a figure-four configuration that isolates the opponent's arm while establishing a fulcrum point at their elbow, then apply rotational force through their shoulder's weakest plane of motion. However, understanding the submission mechanics is merely the beginning - the true value lies in recognizing the **Kimura as a systemic tool** rather than an isolated technique. When opponent defends by rolling forward, you maintain the grip and secure back control. When they defend by standing, you follow them up and control their posture. When they defend by pulling their elbow free, you transition to sweeps or alternative submissions. The figure-four grip itself becomes a control position that opens multiple offensive pathways regardless of whether the submission finish is immediately available. From a safety perspective, the shoulder joint's complexity demands respect - the glenohumeral joint sacrifices stability for mobility, making it particularly vulnerable to rotational forces. Always apply pressure progressively and systematically, building through positional control first, then leverage establishment, and only then careful rotation. The submission should feel inevitable to your opponent, not explosive. Study each positional variation independently - the Kimura from guard requires entirely different setup and control mechanics than the Kimura from side control or turtle. Master the system, not just the submission.
 - **Gordon Ryan**: The **Kimura** is one of my highest-percentage submissions in both training and competition because it attacks from positions where I'm already dominant and it creates multiple offensive pathways simultaneously. In modern no-gi grappling especially, the Kimura grip is absolutely essential for controlling opponent's upper body and preventing them from standing or creating scrambles. What makes it competition-proven is that even world-class grapplers struggle to defend it effectively once you establish proper control - they can delay the finish, but the grip itself restricts their options so severely that you maintain offensive initiative. From **side control**, I use the Kimura constantly when opponent frames with their far arm - it's one of the most reliable ways to break their defensive structure and advance to mount or back control. From **turtle**, the Kimura shuts down their ability to stand or granby roll, and you can often finish it directly or flip them over into a dominant pin. The key competition insight is understanding **when to finish versus when to use the grip for control** - if I feel them defending strongly, I immediately start thinking about back takes or positional advancement rather than forcing a low-percentage finish. In training, I'm extremely careful with application speed because shoulder injuries can end careers and I need healthy training partners. In competition, I still apply progressive pressure but I'm willing to increase intensity more quickly when the stakes justify it. The difference between training and competition application speed must be crystal clear in your mind - training partners' long-term health is more valuable than any tap. One critical detail: **keep your elbows pinched together** throughout the entire sequence or strong grapplers will break your grip by pulling their elbow back. The Kimura system, particularly combined with front headlock entries and turtle attacks, forms the backbone of my top game control across all my matches.
 - **Eddie Bravo**: The **Kimura** is fundamental to the entire 10th Planet system because we built multiple guard positions and transition sequences around the figure-four grip control - it's not just a submission, it's a **positional control mechanism** that opens creative pathways most people don't even see. From **Lockdown half guard**, we use the Kimura grip to off-balance opponent and set up **Electric Chair** submissions or sweeps to **Deep Half** entries. The beauty is that when you establish that grip from bottom positions, opponent is basically screwed - they can't pass effectively because their arm is controlled, and if they try to defend by rolling or pulling away, you follow them and improve your position. In no-gi especially, the Kimura becomes even more powerful because there's no gi grips for opponent to establish defensive frames. One of my favorite innovations is the **Stoner Control** position where you maintain the Kimura grip while controlling opponent's head and posture - from there you can attack with the submission, transition to back control, or set up other techniques like the **Vaporizer**. The creativity comes from recognizing that the figure-four grip works from positions most people don't traditionally attack Kimuras from - inverted positions, **Rubber Guard** variations, even during transitions and scrambles. Safety-wise, you've got to be really careful with training partners because the shoulder is fragile and people's flexibility varies wildly - some people tap early, others are super flexible and can handle more rotation before they're in danger. Establish clear communication with your regular training partners about their shoulder mobility and always build pressure slowly. The Kimura should feel like a chess position where opponent keeps losing pieces no matter what move they make - that's the system mentality. We've had decades to develop creative entries and transitions around this grip at 10th Planet, and it remains one of the most reliable tools in the entire grappling arsenal.

@@ -8,7 +8,7 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -71,7 +71,7 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,9 +177,7 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -207,7 +205,7 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - At least one practitioner has established leg control through entanglement configuration (wrapping, hooking, or triangling around opponent's leg or legs)
 - Both practitioners' lower bodies are engaged with varying degrees of control and exposure, creating bilateral threat potential
@@ -220,7 +218,7 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of basic leg lock mechanics and safety protocols for training heel hooks and other lower body submissions
 - Successful entry from standing exchanges, guard passing sequences, or guard playing positions
@@ -333,7 +331,7 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Ashi Garami Escape]]** → [[Open Guard]] (Success: 35%)
 - **[[Saddle Defense]]** → [[Headquarters Position]] (Success: 30%)
@@ -403,7 +401,7 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

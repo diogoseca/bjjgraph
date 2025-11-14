@@ -13,10 +13,6 @@ description: "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sw
 
 
 
-> **Quick Overview**: Butterfly Guard is a dynamic open guard variation where the bottom player inserts hooks (feet) under the opponent's thighs while sitting up, creating powerful leverage for sweeps and upper body contro...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,7 +52,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -64,30 +60,8 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Butterfly Guard]] | Medium | Medium | Medium | Medium | Explosive elevation over defensive stability |
-
 | [[Butterfly Hook Control]] | Medium | Medium to High | Medium | Medium | Active elevation hooks create instability |
-
 | [[Half Butterfly]] | Medium | Medium | Medium | Medium | Butterfly hook adds elevation to half guard |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Butterfly Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Butterfly Guard/Top|Top Perspective]]** - Techniques and strategies
-
-
-### By Variation
-
-- **[[Butterfly Hook Control]]** - Standard butterfly guard with both hooks inserted and upright seated posture
-
-- **[[Half Butterfly]]** - Asymmetric variation with one butterfly hook and one leg configuration
 
 
 
@@ -95,10 +69,13 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 <section id="bottom-summary" class="content-section">
 
-## Butterfly Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Butterfly Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in butterfly guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -153,7 +130,7 @@ The bottom player in butterfly guard controls the position with offensive attack
   - Success Rate: Beginner 44%, Intermediate 59%, Advanced 74%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Lying flat on back instead of maintaining upright seated posture with active core**
@@ -185,16 +162,17 @@ The bottom player in butterfly guard controls the position with offensive attack
   - ✅ Correction: Keep hooks independent with feet under opponent's thighs, never crossing ankles; maintain hook separation for maximum elevation
 
 
-👉 **[[Butterfly Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Butterfly Guard Top Perspective
+
+## Playing as Top
+
+[[Butterfly Guard/Top|→ Full Top Guide]]
 
 
-The top player in butterfly guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -246,7 +224,7 @@ The top player in butterfly guard manages the position strategically based on op
   - Success Rate: Beginner 37%, Intermediate 52%, Advanced 67%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Committing too much weight forward into opponent's hooks and upper body control**
@@ -278,8 +256,6 @@ The top player in butterfly guard manages the position strategically based on op
   - ✅ Correction: Employ technical passing sequences that specifically address butterfly guard mechanics rather than generic pressure approaches
 
 
-👉 **[[Butterfly Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -292,14 +268,14 @@ The top player in butterfly guard manages the position strategically based on op
 
 Standard butterfly guard with both hooks inserted and upright seated posture
 
-[Explore Butterfly Hook Control →](butterfly-guard/butterfly-hook-control)
+[Explore Butterfly Hook Control →](./Butterfly Hook Control)
 
 
 ### [[Half Butterfly]]
 
 Asymmetric variation with one butterfly hook and one leg configuration
 
-[Explore Half Butterfly →](butterfly-guard/half-butterfly)
+[Explore Half Butterfly →](./Half Butterfly)
 
 
 

@@ -119,13 +119,13 @@ While BJJ includes dozens of positions, five fundamental positions form the core
 - **Primary goal**: Control posture, attempt sweeps and submissions
 - **Key techniques**: [[Hip Bump Sweep]], [[Scissor Sweep]], [[Triangle Choke]], [[Armbar from Closed Guard]]
 - **Success rates**: Beginners achieve sweeps 35-40%, intermediates 50-55%, advanced 65-70%
-- **Common errors**: Flat guard (no hip control), allowing strong posture, passive control
+- **Common mistakes**: Flat guard (no hip control), allowing strong posture, passive control
 
 **Top Perspective (Passing the guard)**:
 - **Primary goal**: Maintain strong posture, open guard, initiate passing sequences
 - **Key techniques**: [[Closed Guard Top]] posture maintenance, standing guard break, pressure passing
 - **Success rates**: Beginners pass 25-30%, intermediates 40-45%, advanced 60-65%
-- **Common errors**: Leaning forward (broken posture), arms extended, narrow base
+- **Common mistakes**: Leaning forward (broken posture), arms extended, narrow base
 
 The closed guard teaches fundamental concepts: posture management, hip movement, angle creation, and transition timing. Both perspectives are equally important - you must understand how to attack from bottom and defend from top.
 
@@ -137,13 +137,13 @@ The closed guard teaches fundamental concepts: posture management, hip movement,
 - **Primary goal**: Maintain position, attack with submissions
 - **Key techniques**: [[Armbar from Mount]], [[Ezekiel Choke]], [[Americana]], high mount transitions
 - **Success rates**: Beginners maintain 45-50%, intermediates 65-70%, advanced 80-85%
-- **Common errors**: Too high (easier to bump), hands on ground (armbars), rigid hips
+- **Common mistakes**: Too high (easier to bump), hands on ground (armbars), rigid hips
 
 **Bottom Perspective (Escaping mount)**:
 - **Primary goal**: Create frames, hip escape, recover guard
 - **Key techniques**: Bridge and roll, elbow-knee escape, trap and roll
 - **Success rates**: Beginners escape 20-25%, intermediates 35-40%, advanced 55-60%
-- **Common errors**: Flat back, reaching up, bridging without trap, panicking
+- **Common mistakes**: Flat back, reaching up, bridging without trap, panicking
 
 Mount teaches [[Positional Hierarchy]] clearly - top position is overwhelmingly advantageous. Learning to maintain mount develops pressure skills, while learning to escape mount develops framing and hip movement fundamentals that apply to all bottom positions.
 
@@ -155,13 +155,13 @@ Mount teaches [[Positional Hierarchy]] clearly - top position is overwhelmingly 
 - **Primary goal**: Pin opponent, advance to mount or back, attempt submissions
 - **Key techniques**: [[Side Control to Mount]], [[Kimura from Side Control]], [[North-South Control]] transition
 - **Success rates**: Beginners maintain 40-45%, intermediates 60-65%, advanced 75-80%
-- **Common errors**: Weight too high, space under chest, same-side base
+- **Common mistakes**: Weight too high, space under chest, same-side base
 
 **Bottom Perspective (Escaping side control)**:
 - **Primary goal**: Create frames, recover guard or escape to standing
 - **Key techniques**: [[Hip Escape]], shrimp to guard, turning to turtle
 - **Success rates**: Beginners escape 15-20%, intermediates 30-35%, advanced 50-55%
-- **Common errors**: Flat on back, no frames, turning wrong direction, late reaction
+- **Common mistakes**: Flat on back, no frames, turning wrong direction, late reaction
 
 Side control teaches pin mechanics, pressure application, and the importance of proactive defense. The [[Side Control Defensive Framework]] developed here applies to all pinning positions.
 
@@ -173,13 +173,13 @@ Side control teaches pin mechanics, pressure application, and the importance of 
 - **Primary goal**: Control with hooks and seatbelt, attack rear naked choke
 - **Key techniques**: [[Rear Naked Choke]], [[Bow and Arrow Choke]], [[Back Triangle]]
 - **Success rates**: Beginners finish 55-60%, intermediates 70-75%, advanced 85-90%
-- **Common errors**: Crossing feet (ankle locks), losing seatbelt, chasing hands
+- **Common mistakes**: Crossing feet (ankle locks), losing seatbelt, chasing hands
 
 **Bottom Perspective (Defending back control)**:
 - **Primary goal**: Defend neck, escape hooks, recover guard or reverse
 - **Key techniques**: Hand fighting, turning in, hip escape to guard
 - **Success rates**: Beginners escape 10-15%, intermediates 20-25%, advanced 35-40%
-- **Common errors**: Exposing neck, flattening out, grabbing at arms, panicking
+- **Common mistakes**: Exposing neck, flattening out, grabbing at arms, panicking
 
 Back control teaches the ultimate expression of [[Control Maintenance]] - maintaining a position where opponent cannot effectively resist. It also teaches the critical importance of neck defense and systematic escape protocols.
 

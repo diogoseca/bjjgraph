@@ -13,10 +13,6 @@ description: "Master the Americana shoulder lock in BJJ. Complete strategic guid
 
 
 
-> **Quick Overview**: Americana Control represents a dominant shoulder lock position in Brazilian Jiu-Jitsu where the attacker secures a figure-four grip on the opponent's arm, controlling the wrist with one hand while app...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -48,31 +44,19 @@ Americana Control represents a dominant shoulder lock position in Brazilian Jiu-
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive |
-| Risk Level | High | Low |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Short |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive |
+| **Risk Level** | High | Low |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Short |
 
-**What Makes This Position Unique:** Figure-four grip creates submission threat
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Americana Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Americana Control/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Figure-four grip creates submission threat
 
 
 
@@ -80,10 +64,13 @@ Americana Control represents a dominant shoulder lock position in Brazilian Jiu-
 
 <section id="bottom-summary" class="content-section">
 
-## Americana Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Americana Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in americana control must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -124,7 +111,7 @@ The bottom player in americana control must focus on creating frames, protecting
   - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to muscle out of locked Americana**
@@ -148,16 +135,17 @@ The bottom player in americana control must focus on creating frames, protecting
   - ✅ Correction: Tap the moment you feel shoulder joint reaching its limit
 
 
-👉 **[[Americana Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Americana Control Top Perspective
+
+## Playing as Top
+
+[[Americana Control/Top|→ Full Top Guide]]
 
 
-The top player in americana control enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -198,7 +186,7 @@ The top player in americana control enjoys offensive advantages with access to s
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting Americana without proper arm isolation**
@@ -221,8 +209,6 @@ The top player in americana control enjoys offensive advantages with access to s
   - Consequence: Weak control allows opponent to escape figure-four
   - ✅ Correction: Grip wrist with thumb pointing toward opponent's fingers for maximum control
 
-
-👉 **[[Americana Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

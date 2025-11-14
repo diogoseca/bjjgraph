@@ -1876,7 +1876,7 @@ Master all BJJ transitions and techniques. Complete guide to sweeps, passes, tak
 - **Total Transitions**: 226
 - **Items with complete content**: 226
 - **Items needing JSON updates**: 0
-- **Last Updated**: November 12, 2025
+- **Last Updated**: November 14, 2025
 
 ---
 

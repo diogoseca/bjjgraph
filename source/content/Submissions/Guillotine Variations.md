@@ -8,7 +8,7 @@ description: "Master guillotine variations in BJJ. Complete guide covering high 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master guillotine variations in BJJ. Complete guide covering high 
 
 
 
-> **Quick Answer**: Guillotine Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea crush and airway damage - apply slowly over 3-5 seconds and release immediately upon tap.
+> Guillotine Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea crush and airway damage. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="safety-considerations" class="content-section">
 
-## Is Guillotine Variations Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -216,7 +216,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Grip variation selection based on opponent's defensive posture and body position
 - Control of opponent's head and posture before attempting the finish
 - Hip positioning creates the lever arm that generates choking pressure
@@ -230,7 +230,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Control of opponent's head through front headlock position or guard control
 - Opponent's posture broken forward with head positioned below their hips
 - Deep collar tie or head control preventing opponent from posturing up
@@ -245,7 +245,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish front headlock control and break opponent's posture**: From standing, guard, or scramble position, secure a strong collar tie or head control that breaks opponent's posture forward. Your goal is to get their head below hip level while controlling their movement. Use your free hand to control their far shoulder or establish an overhook preventing them from circling away. This positional control is critical before attempting any guillotine variation. (Timing: Take 2-3 seconds to establish solid positional control) [Pressure: Moderate]
 2. **Thread choking arm deep around opponent's neck**: Slide your choking arm around opponent's neck, aiming to get the blade of your wrist as deep as possible against the far side of their neck. The depth of this initial threading determines the effectiveness of all guillotine variations. Your elbow should be positioned on the near side of their neck, creating the choking mechanism. Maintain downward pressure on their head with your non-choking hand to prevent them from pulling their head free during this threading motion. (Timing: 1-2 seconds for deep threading) [Pressure: Light]
 3. **Select and establish grip variation based on position and opponent's defense**: Choose your grip variation based on the tactical situation: High elbow guillotine (palm-to-palm grip with high elbow) for maximum shoulder pressure when opponent's chin is up; Arm-in guillotine when opponent gets their defensive hand inside; Chin strap when opponent tucks chin defensively; Ten finger guillotine (gable grip) for maximum squeeze with shorter arms. Each grip fundamentally changes the finishing mechanics, so this selection point is critical for success. (Timing: 1 second for grip transition) [Pressure: Light]
@@ -259,7 +259,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Tucking chin to chest to block arm from going under** (Effectiveness: High) - Your Adjustment: Switch to chin strap variation which specifically addresses the tucked chin defense, or use your free hand to peel opponent's chin up before completing the choke
 - **Getting defensive hand inside to create space at neck** (Effectiveness: High) - Your Adjustment: Transition to arm-in guillotine variation which incorporates their defensive arm as part of the choking mechanism, turning their defense into your advantage
 - **Driving forward and establishing strong base to posture out** (Effectiveness: Medium) - Your Adjustment: If in guard, extend hips more aggressively and use legs to break their base; if standing, transition to guard or sacrifice position while maintaining head control throughout
@@ -269,28 +269,28 @@ The guillotine choke represents one of the most versatile submission families in
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Using only arm strength without engaging hips for leverage [Low DANGER]
+## Common Mistakes
+- **Mistake**: Using only arm strength without engaging hips for leverage [Low DANGER]
   - **Consequence**: Choke feels tight but doesn't finish, wasted energy, opponent easily defends by posturing
   - **Correction**: Focus on hip extension as the primary pressure source; your arms hold the position while your hips create the actual choking force through leverage
-- **Error**: Shallow arm position around neck without deep threading [Low DANGER]
+- **Mistake**: Shallow arm position around neck without deep threading [Low DANGER]
   - **Consequence**: Choke has no effectiveness, opponent easily pulls head free, you lose dominant position
   - **Correction**: Ensure blade of wrist is positioned deep on far side of opponent's neck before attempting finish; take extra time during setup to achieve proper depth
-- **Error**: Jerking or spiking opponent's head downward during finish [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking opponent's head downward during finish [CRITICAL DANGER]
   - **Consequence**: CRITICAL SAFETY VIOLATION: Risk of cervical spine injury, trachea damage, immediate training partner injury
   - **Correction**: Apply all pressure progressively over minimum 3-5 seconds; focus on smooth hip extension and controlled squeeze, never sudden jerking motions
-- **Error**: Not controlling opponent's far shoulder allowing them to circle away [Low DANGER]
+- **Mistake**: Not controlling opponent's far shoulder allowing them to circle away [Low DANGER]
   - **Consequence**: Opponent escapes to side control or takes your back, you lose submission opportunity and superior position
   - **Correction**: Maintain strong connection between your chest and opponent's trapped shoulder throughout; use free hand to control far shoulder or establish overhook
-- **Error**: Continuing to apply pressure after opponent taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after opponent taps or shows distress [CRITICAL DANGER]
   - **Consequence**: CRITICAL SAFETY VIOLATION: Risk of unconsciousness, trachea crush, airway damage, potential permanent injury to training partner
   - **Correction**: Develop immediate tap recognition and release protocol; safety is always more important than finishing the submission; release completely within 1 second of tap signal
-- **Error**: Choosing wrong variation for opponent's defensive posture [Low DANGER]
+- **Mistake**: Choosing wrong variation for opponent's defensive posture [Low DANGER]
   - **Consequence**: Wasted energy on low-percentage finish, opponent defends easily, loss of position
   - **Correction**: Read opponent's defense: chin up = high elbow variation, chin tucked = chin strap, hand inside = arm-in variation; adapt grip selection to tactical situation
-- **Error**: Releasing head control to adjust grip during finish sequence [Medium DANGER]
+- **Mistake**: Releasing head control to adjust grip during finish sequence [Medium DANGER]
   - **Consequence**: Opponent postures out and escapes, you lose submission and often lose positional control
   - **Correction**: Establish your grip variation completely before committing to finish; once finishing sequence begins, maintain all controls without adjustment
 
@@ -299,7 +299,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **High Elbow Guillotine**: Palm-to-palm grip with choking elbow raised high, creating maximum shoulder pressure and optimal choking angle. The high elbow position allows you to squeeze your shoulder to your ear, dramatically increasing pressure on the carotid arteries. Most effective when opponent's chin is up and accessible. (When to use: When opponent maintains upright posture with chin exposed; most effective from closed guard with strong hip extension capability)
 
 **Arm-In Guillotine**: Opponent's defensive arm is trapped inside the choke, pulled across their own neck as part of the choking mechanism. This variation turns opponent's primary defense into your advantage, and can be finished from standing, guard, or half guard positions. Requires less perfect technique to finish due to the trapped arm's contribution. (When to use: When opponent gets their defensive hand inside during your setup; excellent for no-gi where grips are less secure; highly effective in MMA contexts)
@@ -344,7 +344,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Variation Recognition** (Week 1-2)
 - Focus: Study each guillotine variation's grip mechanics, understand when each variation is appropriate based on opponent's defense, practice arm threading depth without applying any pressure, learn to recognize defensive patterns that indicate variation selection
 - Resistance: None
@@ -381,7 +381,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Front Headlock]]
@@ -399,7 +399,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[High Elbow Guillotine]]
@@ -442,7 +442,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The guillotine choke family represents a perfect example of how grip variation fundamentally alters submission mechanics. Most practitioners treat the guillotine as a single technique when in reality it's a system of at least five distinct submissions, each with different biomechanical properties and tactical applications. The high elbow variation maximizes shoulder pressure and attacks the carotid arteries at an optimal angle, making it superior when opponent's chin is exposed. The arm-in configuration transforms opponent's primary defense—getting their hand inside—into your advantage by incorporating their arm into the choking mechanism. The chin strap variation specifically addresses the tucked chin defense through controlled manipulation of opponent's head position. What separates elite guillotine practitioners from beginners is not strength or speed but rather the ability to read opponent's defensive posture and select the appropriate variation instantaneously. Furthermore, the safety considerations with guillotines are paramount because these chokes compress both the carotid arteries and the trachea simultaneously. Training partners must develop exceptional sensitivity to tap signals and maintain progressive application speed, never jerking or spiking the choke, as tracheal damage can be permanent and cervical spine injuries are a genuine risk with improper application. The guillotine system exemplifies how technical knowledge and variation mastery create reliable submission success across all positions and competitive contexts.
 - **Gordon Ryan**: In competition, guillotine variations are my highest percentage submission from standing and scramble positions because they require minimal positional dominance to finish—you only need head control and proper grip selection. I've won multiple ADCC and no-gi world championship matches with guillotines because they're incredibly difficult to defend once you understand variation selection. Here's the competition reality: if opponent's chin is up, I immediately go high elbow guillotine because the shoulder pressure finishes in 2-3 seconds under competition intensity. If they get their hand inside during my setup, I don't fight it—I switch to arm-in guillotine and use their defensive arm against them. If they turtle and tuck their chin, chin strap variation opens up their neck. The key competitive advantage is recognizing which variation to use before you commit to the finish, because switching grips mid-sequence gives opponent time to defend. However, I want to be absolutely clear about the difference between competition application and training application: in competition, I finish guillotines explosively in 2-3 seconds because the stakes demand it. In training, I take 5-7 seconds minimum and never spike or jerk the choke because injuring training partners is counterproductive and unethical. The guillotine can cause serious neck and trachea injuries if applied recklessly, so training requires controlled progressive pressure even though competition requires explosive finishing. Master all five major variations—high elbow, arm-in, chin strap, ten finger, and marce—and you'll have guillotine options from every position including standing, guard, half guard, and scrambles. This versatility makes guillotines one of the most reliable submission systems for both gi and no-gi competition.
 - **Eddie Bravo**: The guillotine has been a foundational submission in the 10th Planet system since day one because it works from everywhere—standing, guard, half guard, rubber guard transitions, everywhere. What I've innovated is chaining guillotine variations with other front headlock attacks to create submission sequences that are almost impossible to defend completely. If opponent defends the standard guillotine by tucking their chin, I immediately switch to chin strap variation. If they defend chin strap by pulling their head back, I transition to darce or anaconda. If they defend those by turning away, I take their back. This systematic approach to variation chaining creates what I call 'submission flow' where you're never stuck on one technique. One huge innovation we use is combining guillotine variations with rubber guard control—the 'New York' position in rubber guard sets up devastating guillotines because you control their posture completely. Another game-changer is using guillotine threats to set up completely different submissions: threaten the guillotine hard, they defend by posturing and creating space, you immediately switch to triangle or omoplata. But here's what's absolutely critical and non-negotiable in our training culture: safety with guillotines is paramount because these chokes can seriously injure the trachea and neck. We drill slow, we communicate constantly with training partners, and we never use competition speed during practice. I've seen too many people get injured from guillotines applied too fast or with jerking motions. The tap signal must be respected instantly, and the person applying the choke must develop sensitivity to their partner's distress signals beyond just the tap. Creative variation and flow are important, but they mean nothing if you're injuring your training partners. Master the variations, chain them together creatively, but always prioritize your partner's safety above finishing the submission in training contexts.

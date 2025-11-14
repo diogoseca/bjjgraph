@@ -137,7 +137,7 @@ description: "Master the 10th Planet Rubber Guard System. Eddie Bravo's revoluti
 
 
 
-> **Quick Answer**: 10th Planet Rubber Guard System is a advanced difficulty Guard System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
+> 10th Planet Rubber Guard System is a advanced difficulty Guard System system. Integrates 6 components.
 
 **System ID**: 
 **System Type**: Guard System
@@ -156,7 +156,7 @@ The 10th Planet Rubber Guard System represents one of the most innovative and co
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Use leg flexibility to replace traditional gi grips in no-gi scenarios
 - Break and maintain broken posture through leg-based controls
 - Create submission chains where defensive responses open new attacks
@@ -170,7 +170,7 @@ The 10th Planet Rubber Guard System represents one of the most innovative and co
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Mission Control** (Establish primary control and posture break)
 The foundational control position where your shin is across the opponent's back with your foot hooked behind their head, breaking their posture forward. This position allows you to control their upper body while freeing both hands to attack or establish further controls. From Mission Control, you can transition to various submission attacks or advance to tighter control positions like New York.
 
@@ -195,7 +195,7 @@ The systematic connection of submission attempts where defending one attack dire
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Entry and Initial Control**: From closed guard, establish high guard by walking your hips up the opponent's torso while breaking their posture forward. Secure an overhook on one arm and begin raising your opposite leg toward their head.
 Key points:
 - Break posture before attempting leg placement
@@ -371,7 +371,7 @@ Begin with positional isolation drilling, spending dedicated time on each contro
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The Rubber Guard system represents a fascinating case study in biomechanical innovation within Brazilian Jiu-Jitsu. While it diverges significantly from traditional guard frameworks, its underlying principles remain sound: establish control, break opponent structure, and create offensive opportunities. The system's genius lies in using the leg as a multipurpose tool—simultaneously breaking posture, controlling position, and freeing the hands for attacks. However, the system's effectiveness is heavily dependent on individual physical attributes, particularly hip flexibility and leg length relative to torso length. For practitioners who possess the requisite physical tools, it offers legitimate pathways to submissions and positions that are difficult to defend using conventional methods. The submission chain structure mirrors the defensive dilemma concept found in all high-level attacking systems: each defensive option opens a new attack, creating a perpetual offensive cycle. The critical limitation is that unlike systems built around fundamental mechanical advantages, the Rubber Guard requires specific physical attributes that not all practitioners possess. Therefore, while it deserves study and can be devastatingly effective for suited practitioners, it should be viewed as a specialized tool rather than a universal solution.
 - **Gordon Ryan**: The Rubber Guard has proven effectiveness at the highest levels of no-gi competition, but its application requires honest assessment of your physical capabilities and strategic context. In my experience, the system works best as a supplementary guard option rather than a primary framework. The positions create legitimate control and submission threats, particularly against opponents unfamiliar with the specific defensive requirements. The Triangle and Omoplata chains from Rubber Guard positions have secured numerous high-level victories. However, the energy expenditure required to maintain these positions, especially Mission Control and New York against explosive athletes, can be prohibitive in longer matches or when facing multiple opponents in tournament formats. The system's requirement for broken posture means it's most effective when you can force the opponent to engage in your guard rather than allowing them to establish distance and select their passing approach. Modern guard passing strategies that emphasize distance management and leg attacks can neutralize Rubber Guard entries. My recommendation is to develop competency in the system's core positions and understand the submission chains, but maintain a broader guard game that includes more universally applicable options. Use Rubber Guard opportunistically when opponent posture and your energy levels align favorably.
 - **Eddie Bravo**: The Rubber Guard system was born from the specific problem of controlling opponents in no-gi situations where traditional gi-based guards lose their effectiveness. When you can't grab collars or sleeves, you need alternative control mechanisms, and your legs are the strongest tools available. The beauty of this system is that it's completely counterintuitive to traditional Jiu-Jitsu thinking—you're using positions that would be considered disadvantageous in gi competition and transforming them into offensive weapons. Mission Control isn't just a position; it's a philosophy of aggressive guard play where you're constantly threatening submissions rather than waiting to react to opponent actions. The named positions serve as landmarks in a complex system, making it teachable and allowing practitioners to communicate about technique precisely. Every position flows into multiple others, creating a web of options rather than linear progressions. The flexibility requirements are real, but they're achievable with dedicated training—I've seen practitioners who started with limited flexibility develop the necessary range through consistent work. The key is understanding that this system rewards commitment and specialization. You can't dabble in Rubber Guard; you need to live in these positions until they feel more natural than traditional guards. When you reach that level, you possess offensive capabilities that most opponents have never encountered and don't know how to defend effectively.

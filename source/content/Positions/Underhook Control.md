@@ -13,10 +13,6 @@ description: "Master underhook control in BJJ. Strategic guide covering bottom d
 
 
 
-> **Quick Overview**: Underhook control represents one of the most fundamental positional battles in Brazilian Jiu-Jitsu, occurring across multiple positions including half guard, side control transitions, and scramble sit...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -62,31 +58,19 @@ Modern Brazilian Jiu-Jitsu has elevated underhook control from a fundamental con
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Medium to Long |
 
-**What Makes This Position Unique:** Inside control trades defense for sweep access
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Underhook Control/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Underhook Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Inside control trades defense for sweep access
 
 
 
@@ -94,10 +78,13 @@ Modern Brazilian Jiu-Jitsu has elevated underhook control from a fundamental con
 
 <section id="bottom-summary" class="content-section">
 
-## Underhook Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Underhook Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in underhook control balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -152,7 +139,7 @@ The bottom player in underhook control balances defensive frames with offensive 
   - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Maintaining shallow underhook that only reaches opponent's bicep or elbow area**
@@ -180,16 +167,17 @@ The bottom player in underhook control balances defensive frames with offensive 
   - ✅ Correction: Coordinate underhook control with butterfly hooks, lockdown, or knee shield positioning. Effective bottom control requires upper and lower body integration
 
 
-👉 **[[Underhook Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Underhook Control Top Perspective
+
+## Playing as Top
+
+[[Underhook Control/Top|→ Full Top Guide]]
 
 
-The top player in underhook control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -247,7 +235,7 @@ The top player in underhook control balances control maintenance with submission
   - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pulling upward on the underhook instead of driving downward pressure**
@@ -274,8 +262,6 @@ The top player in underhook control balances control maintenance with submission
   - Consequence: Bottom player uses far leg to create leverage for sweeps, especially old school or hook sweeps that exploit your weight commitment to upper body
   - ✅ Correction: Coordinate underhook control with leg control strategies. Use your free hand to post on their far knee or hip, preventing leverage for sweeps while underhook controls upper body
 
-
-👉 **[[Underhook Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

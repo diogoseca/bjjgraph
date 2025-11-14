@@ -8,7 +8,7 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Hips positioned flat on the mat with buttocks making full contact with ground, providing stable seated base from which to move
 - Hands posted behind torso approximately shoulder-width apart, fingers pointing away from body, elbows slightly bent to create spring-like structural support
@@ -204,7 +202,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent standing or on knees with some distance from your torso
 - Ability to post hands behind body for base support
@@ -231,7 +229,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Technical Stand-up]] → [[Standing Position]]
 
@@ -295,7 +293,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 45%)
 - **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 40%)
@@ -309,7 +307,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Technical Stand-up]]** → [[Standing Position]]
   - Opponent attempts to establish grips while standing
@@ -357,7 +355,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

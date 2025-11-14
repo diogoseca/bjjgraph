@@ -8,7 +8,7 @@ description: "Master Arm in Guillotine in BJJ. High-percentage front headlock ch
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Arm in Guillotine in BJJ. High-percentage front headlock ch
 
 
 
-> **Quick Answer**: Arm in Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Arm in Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="safety-considerations" class="content-section">
 
-## Is Arm in Guillotine Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -217,7 +217,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - **Arm Trapping** - Secure opponent's arm inside the choke configuration before applying pressure, preventing defensive hand fighting
 - **Wrist-to-Wrist Connection** - Create maximum choking surface area by connecting your wrist to your opposite wrist, not grabbing your own gi or hand
 - **Hip Extension** - Drive hips forward and chest up to create choking pressure through body positioning rather than pure arm strength
@@ -230,7 +230,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent's head must be below your centerline with their posture broken
 - One of opponent's arms must be committed inside (attempting underhook, posting, or defensive frame)
 - Your choking arm must achieve deep penetration around opponent's neck
@@ -243,7 +243,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure Front Headlock Control**: Establish dominant front headlock position with your head tight to opponent's far shoulder. Your choking arm should be threatening the neck while your opposite hand controls their far arm or shoulder. Break their posture by pulling down and driving your weight through their head and shoulders. (Timing: Initial setup: 1-2 seconds) [Pressure: Moderate]
 2. **Identify and Trap the Arm**: Recognize when opponent commits an arm inside your control space - this typically occurs when they attempt an underhook, post their hand on your hip, or frame against your body. As they commit this arm, immediately adjust your choking arm to ensure their arm becomes trapped between your forearm and their own neck. Your forearm should be across the front of their throat with their arm pinned inside. (Timing: Opportunistic timing: 0.5-1 second window) [Pressure: Light]
 3. **Achieve Deep Neck Penetration**: Drive your choking arm deeper around the opponent's neck, aiming to get your wrist past the centerline of their throat. The blade of your forearm (thumb-side) should be positioned directly across their trachea and carotid arteries. Ensure the trapped arm remains secured inside - if it starts to slip out, adjust your angle and re-secure it before proceeding. (Timing: 1-2 seconds for optimal depth) [Pressure: Moderate]
@@ -257,7 +257,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent attempts to pull trapped arm out** (Effectiveness: Medium) - Your Adjustment: Increase hip extension pressure while simultaneously turning your choking shoulder down toward their head. This creates additional torque on the trapped arm and makes extraction nearly impossible while maintaining choke pressure.
 - **Opponent drives forward to stack and create space** (Effectiveness: Medium) - Your Adjustment: If standing, sprawl harder and sit to your hip pulling them into guard. If already in guard, open guard and place butterfly hooks or shin on biceps to off-balance them, then re-close guard at a higher angle on their back.
 - **Opponent turns toward choking arm to alleviate pressure** (Effectiveness: High) - Your Adjustment: This is a dangerous escape. Counter by immediately elevating your choking elbow while driving your opposite shoulder into their back. Follow their rotation if necessary, potentially transitioning to anaconda or darce position while maintaining neck control.
@@ -267,28 +267,28 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Releasing pressure immediately when opponent taps [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Releasing pressure immediately when opponent taps [Medium DANGER]
   - **Consequence**: While this seems correct, jerking away too quickly can cause whiplash or neck injury
   - **Correction**: Release pressure smoothly over 1-2 seconds, maintaining control but removing choking force. Guide their head down gently rather than letting it drop.
-- **Error**: Allowing the trapped arm to slip out during setup
+- **Mistake**: Allowing the trapped arm to slip out during setup
   - **Consequence**: Converts to standard guillotine which may be easier to escape, losing the control advantage
   - **Correction**: Maintain constant awareness of trapped arm position. If it begins sliding out, immediately adjust your angle or re-trap it before continuing the finish sequence.
-- **Error**: Gripping your own wrist or hand instead of wrist-to-wrist connection
+- **Mistake**: Gripping your own wrist or hand instead of wrist-to-wrist connection
   - **Consequence**: Creates larger choking circle with less pressure, significantly reducing effectiveness and increasing opponent's escape opportunities
   - **Correction**: Practice the wrist-to-wrist grip specifically. Your wrists should lock together with palms facing each other, creating the smallest possible diameter around opponent's neck.
-- **Error**: Using pure arm strength instead of hip extension [Medium DANGER]
+- **Mistake**: Using pure arm strength instead of hip extension [Medium DANGER]
   - **Consequence**: Rapid fatigue, reduced pressure, and increased risk of shoulder or elbow injury to yourself
   - **Correction**: Focus on positioning your body correctly first. The choke should feel easy if your hips are extended and chest is up. If you're muscling it, your position is wrong.
-- **Error**: Cranking the neck or applying sudden jerking motions [CRITICAL DANGER]
+- **Mistake**: Cranking the neck or applying sudden jerking motions [CRITICAL DANGER]
   - **Consequence**: Severe cervical spine injury, muscle tears, or nerve damage to training partner
   - **Correction**: Always apply smooth, progressive pressure. The finish should take 3-5 seconds minimum from first pressure to tap. Never spike or jerk the submission.
-- **Error**: Letting opponent's head slide up and out over your shoulder [Low DANGER]
+- **Mistake**: Letting opponent's head slide up and out over your shoulder [Low DANGER]
   - **Consequence**: Complete loss of submission as opponent escapes head and arm simultaneously
   - **Correction**: Keep your head pressure tight to opponent's far shoulder throughout. Your ear should be touching their back/shoulder blade, preventing head extraction.
-- **Error**: Continuing to apply pressure after partner goes limp or unconscious [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner goes limp or unconscious [CRITICAL DANGER]
   - **Consequence**: Brain damage, stroke, or death from prolonged oxygen deprivation
   - **Correction**: IMMEDIATELY release all pressure the instant you feel partner go limp or notice color change in face. Check breathing and consciousness. Seek medical attention if unconsciousness occurred.
 
@@ -297,7 +297,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Arm-in Guillotine from Failed Takedown Defense**: When opponent shoots for a takedown but you sprawl successfully, their head is down and one arm is typically committed underneath. As you sprawl, immediately lock the guillotine with their reaching arm trapped inside, then sit to guard pulling them into the finish. (When to use: During scrambles when defending takedowns, particularly against single legs and double legs where opponent overcommits)
 
 **Standing Arm-in Guillotine Jump to Guard**: From standing clinch or front headlock, when opponent reaches for underhook or posts on your hip, immediately secure the arm-in guillotine grip and jump to closed guard in one motion. This variation maximizes pressure through the momentum of jumping while securing optimal finishing position. (When to use: When you have strong guillotine control standing and opponent is actively trying to establish underhooks or inside position)
@@ -340,7 +340,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Safety Education** (Week 1-2)
 - Focus: Learn proper positioning, grip mechanics, and comprehensive safety protocols without applying any choking pressure. Study anatomy of neck structures and injury mechanisms. Practice entry setups and trapped arm recognition from static positions.
 - Resistance: None
@@ -377,7 +377,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Closed Guard]]
@@ -395,7 +395,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[High Elbow Guillotine]]
@@ -438,7 +438,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The arm-in guillotine represents a fascinating study in mechanical efficiency and control hierarchy. When we analyze the submission from a systematic perspective, we observe that the trapped arm serves dual purposes: it prevents defensive hand fighting while simultaneously creating structural rigidity in the choking mechanism itself. The opponent's own arm becomes part of the submission apparatus, which is mechanically brilliant. The key technical detail that most practitioners miss is the wrist-to-wrist connection point - this must be established on the far side of the opponent's neck to create the smallest possible diameter. Think of it as creating a noose that tightens as you extend your hips. The hip extension is not optional; it's the primary pressure generator. Your arms are merely maintaining the structural connection while your hips and core do the actual work of finishing. When teaching this submission, I emphasize the concept of 'progressive pressure mapping' - students must learn to calibrate their pressure application over time, understanding that the finish should take 3-5 seconds minimum in training. This slow application is not only safer but actually more effective, as it prevents the desperate explosive escapes that rushed attacks often trigger. The arm-in guillotine also provides an excellent case study in decision-tree thinking: if the trapped arm begins to escape, you must immediately decide whether to increase pressure to re-secure it, transition to standard guillotine, or abandon for anaconda/darce variations. Hesitation in this decision point leads to lost position.
 - **Gordon Ryan**: In competition, the arm-in guillotine is one of my highest-percentage submissions from scrambles and front headlock positions. What makes it so effective at the elite level is that even world-class grapplers will sometimes post or reach for underhooks without properly protecting their neck, especially when they're tired or desperate to escape a bad position. The key difference between training and competition application is speed and commitment - in competition, once I feel that arm trapped and my wrist connection established, I'm immediately extending my hips and finishing. There's no gradual increase; it's zero to one hundred. However, in training, I always apply this submission slowly and with control because I need healthy training partners. I've tapped multiple ADCC and World Championship level opponents with the arm-in guillotine, and the common factor is always the same: they committed an arm inside while their head was down and I capitalized immediately. Against high-level opposition, you often only get one chance at a submission, so your setup has to be perfect. I prefer to jump to closed guard when finishing this from standing because it gives me maximum control and prevents them from rolling or scrambling out. One advanced detail: when I feel them starting to defend by pulling the trapped arm out, I immediately increase my hip extension while turning my choking shoulder down toward their head. This creates a 'corkscrew' effect that makes arm extraction almost impossible while maintaining heavy choke pressure. The arm-in guillotine is also excellent for chaining - if it fails, I'm usually in great position to transition to anaconda, darce, or take the back.
 - **Eddie Bravo**: The arm-in guillotine is absolutely crucial in the 10th Planet system because it fits perfectly with our philosophy of capitalizing on scrambles and transitions. We teach students to actively create situations where opponents will post or reach for underhooks, essentially baiting them into the arm-in trap. From lockdown, when the opponent tries to swim their arm under for the underhook, we immediately transition to the electric chair sweep, but if that fails, the arm-in guillotine becomes a primary backup plan. The beauty of this submission is its versatility - you can hit it from so many different positions and transitions. One variation we really emphasize is the standing arm-in guillotine jumped to closed guard in one explosive motion. This requires serious timing and commitment, but when executed correctly, it's virtually impossible to defend. We also work a lot on the 'high guard' variation where you bring your legs extremely high on the opponent's back while maintaining the choke - this creates incredible finishing pressure and prevents them from posturing at all. Safety-wise, in our training culture, we're very serious about controlled application of all neck submissions. The arm-in guillotine can put people to sleep very quickly if applied with full force, so we drill the hell out of it at slow speed before ever going hard. Students learn to feel the difference between a tight choke and a loose one, and they learn to tap early when caught. We've developed a whole series of drills specifically for building guillotine awareness and defense, which actually makes our offensive guillotine game even better. The more you understand the escapes, the better you can shut them down. One unconventional detail we teach: if you're struggling to finish and the opponent is defending well, sometimes switching from wrist-to-wrist connection to a gable grip can create a different pressure angle that breaks through their defense. It's not textbook, but it works.

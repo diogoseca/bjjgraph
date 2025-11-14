@@ -13,10 +13,6 @@ description: "Master Crab Ride position in BJJ. Strategic guide covering turtle 
 
 
 
-> **Quick Overview**: Crab Ride is a highly effective transitional position from turtle where the top practitioner establishes a dominant perpendicular control position alongside the opponent's torso. This position serves ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium to Long |
 
-**What Makes This Position Unique:** Perpendicular angle maximizes control leverage
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Crab Ride/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Crab Ride/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Perpendicular angle maximizes control leverage
 
 
 
@@ -88,10 +72,13 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 
 <section id="bottom-summary" class="content-section">
 
-## Crab Ride Bottom Perspective
+
+## Playing as Bottom
+
+[[Crab Ride/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in crab ride must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in crab ride must focus on creating frames, protecting against
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Staying static in turtle position without addressing the hook**
@@ -162,16 +149,17 @@ The bottom player in crab ride must focus on creating frames, protecting against
   - ✅ Correction: Continue fighting through the position with persistent explosive movements and technical escapes until fully controlled
 
 
-👉 **[[Crab Ride/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Crab Ride Top Perspective
+
+## Playing as Top
+
+[[Crab Ride/Top|→ Full Top Guide]]
 
 
-The top player in crab ride balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -220,7 +208,7 @@ The top player in crab ride balances control maintenance with submission attacks
   - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Positioning too far forward over opponent's shoulders instead of staying perpendicular to the spine**
@@ -247,8 +235,6 @@ The top player in crab ride balances control maintenance with submission attacks
   - Consequence: Allows opponent time to strengthen their defensive turtle posture, plan escapes, and potentially create scrambling opportunities
   - ✅ Correction: Constantly threaten back takes, submissions, and positional advances to keep opponent reactive and defensive, never allowing them to settle into stable turtle
 
-
-👉 **[[Crab Ride/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

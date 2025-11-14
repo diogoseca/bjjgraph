@@ -13,10 +13,6 @@ description: "Master the leg drag position in BJJ with comprehensive coverage of
 
 
 
-> **Quick Overview**: The leg drag position is one of the most versatile and effective passing positions in modern Brazilian Jiu-Jitsu. It represents a critical transitional state where the top practitioner has successfull...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -60,31 +56,19 @@ Historically, the leg drag evolved from traditional gi passing but has found eve
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive |
-| Risk Level | High | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Hip control removes guard retention options
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Leg Drag Position/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Leg Drag Position/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Hip control removes guard retention options
 
 
 
@@ -92,10 +76,13 @@ Historically, the leg drag evolved from traditional gi passing but has found eve
 
 <section id="bottom-summary" class="content-section">
 
-## Leg Drag Position Bottom Perspective
+
+## Playing as Bottom
+
+[[Leg Drag Position/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in leg drag position must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in leg drag position must focus on creating frames, protecting
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Turning away from opponent to escape pressure**
@@ -158,16 +145,17 @@ The bottom player in leg drag position must focus on creating frames, protecting
   - ✅ Correction: Use free leg actively for butterfly hooks or frames, never static posting
 
 
-👉 **[[Leg Drag Position/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Leg Drag Position Top Perspective
+
+## Playing as Top
+
+[[Leg Drag Position/Top|→ Full Top Guide]]
 
 
-The top player in leg drag position enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -214,7 +202,7 @@ The top player in leg drag position enjoys offensive advantages with access to s
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Overcommitting weight to chest pressure without controlling far hip**
@@ -241,8 +229,6 @@ The top player in leg drag position enjoys offensive advantages with access to s
   - Consequence: Wastes energy while opponent finds escape timing
   - ✅ Correction: Use leg drag as transitional position, immediately progress to pass or back take
 
-
-👉 **[[Leg Drag Position/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

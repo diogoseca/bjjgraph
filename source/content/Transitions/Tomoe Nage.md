@@ -8,7 +8,7 @@ description: "Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing 
 
 
 
-> **Quick Answer**: Tomoe Nage transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Tomoe Nage transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Sacrifice your base to off-balance opponent using their forward momentum
 - Place foot on hip or lower abdomen to create fulcrum for throw
 - Maintain strong grip control throughout the throwing motion
@@ -186,7 +186,7 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing position with opponent at similar or slightly forward posture
 - Strong collar and sleeve grips established (gi) or body lock control (no-gi)
 - Opponent's weight committed slightly forward or neutral stance
@@ -199,7 +199,7 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips**: Secure a strong same-side collar grip with your right hand and control the opponent's sleeve with your left hand. Pull down on the collar while pulling the sleeve across their centerline to break their posture forward and compromise their base. (Timing: Initial setup phase)
 2. **Break opponent's balance forward**: Use your grips to pull the opponent's upper body forward and slightly down, forcing them to step toward you or lean into your pull. This forward momentum is critical for the throw's success and prevents them from sprawling backward defensively. (Timing: As opponent steps or leans forward)
 3. **Drop to your back**: Sit straight back toward the ground while maintaining strong grip tension. Do not sit down gradually - commit to a controlled fall directly backward with your hips dropping below your shoulders. Keep your head tucked to protect your neck and maintain visual contact with opponent. (Timing: Immediately after forward momentum established)
@@ -213,7 +213,7 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls backward as you drop, preventing foot placement** (Effectiveness: High) - Your Response: Transition to seated guard or shin-to-shin guard entry, using your grips to off-balance them forward into your guard. Alternative: switch to a different guard pull variation like butterfly guard.
 - **Opponent posts hands on your hips to prevent being thrown** (Effectiveness: Medium) - Your Response: Use the momentum to transition to butterfly guard or X-guard, sweeping in the opposite direction. Their posted hands create opportunities for arm drags or overhook controls.
 - **Opponent releases grips and jumps over you to side control** (Effectiveness: Medium) - Your Response: Maintain at least one grip control and turn to your side immediately, using your bottom leg to create a knee shield while recovering guard. Do not allow them to settle their weight on your chest.
@@ -223,28 +223,28 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Sitting down gradually instead of dropping straight back
+## Common Mistakes
+- **Mistake**: Sitting down gradually instead of dropping straight back
   - **Consequence**: Insufficient momentum to lift opponent, resulting in them landing in top position with no guard established
   - **Correction**: Commit fully to falling backward in one motion. The drop should be quick and decisive, not a controlled sitting motion. Practice the falling motion separately to build confidence.
-- **Error**: Placing foot on opponent's thigh instead of hip/abdomen
+- **Mistake**: Placing foot on opponent's thigh instead of hip/abdomen
   - **Consequence**: Loss of leverage for the throw, allowing opponent to easily sprawl or pass guard
   - **Correction**: Aim for the hip bone or lower abdomen as your fulcrum point. The foot should be placed high enough to create an effective lever arm for lifting their entire body.
-- **Error**: Breaking grips or loosening grip tension during execution
+- **Mistake**: Breaking grips or loosening grip tension during execution
   - **Consequence**: Opponent escapes the throw and achieves top position without guard retention
   - **Correction**: Maintain maximum grip strength throughout the entire technique. The grips are what control the opponent during their flight and ensure guard retention upon landing.
-- **Error**: Extending leg before opponent's weight is fully committed forward
+- **Mistake**: Extending leg before opponent's weight is fully committed forward
   - **Consequence**: Opponent easily sprawls backward, and you end up on your back with them standing
   - **Correction**: Wait for the opponent to commit their weight forward over your centerline before initiating the leg extension. Timing is more critical than speed or strength.
-- **Error**: Failing to tuck chin and protect neck during fall
+- **Mistake**: Failing to tuck chin and protect neck during fall
   - **Consequence**: Risk of neck injury from improper landing or head contact with mat
   - **Correction**: Keep your chin tucked to your chest throughout the backward fall. Practice breakfall mechanics separately to develop proper falling technique.
-- **Error**: Not following the opponent's flight path with your body
+- **Mistake**: Not following the opponent's flight path with your body
   - **Consequence**: Loss of position control, allowing opponent to land outside your guard or scramble away
   - **Correction**: Rotate your hips and upper body to track the opponent's movement through the throw. Your body should create a smooth arc that ends with them in your guard.
-- **Error**: Using only leg strength without coordinated pulling motion
+- **Mistake**: Using only leg strength without coordinated pulling motion
   - **Consequence**: Incomplete throw that leaves opponent in half guard or side control top position
   - **Correction**: The throw requires simultaneous leg extension and powerful pulling on your grips. The arms and legs must work together to create the circular throwing motion.
 
@@ -253,7 +253,7 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Movement Pattern Development** - Solo drilling of backward fall and foot placement mechanics
 Practice falling straight backward from standing position while maintaining proper breakfall form. Add foot placement drill where you place foot on a pad or training partner's hip while falling. Focus on protecting the neck and creating the circular motion pattern without a resisting opponent.
 (Resistance: None)
@@ -284,7 +284,7 @@ Develop no-gi variations using body lock controls instead of gi grips. Practice 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Sumi Gaeshi (Corner Throw)**: Similar sacrifice throw but with foot placement on the inside of opponent's thigh rather than hip/abdomen. Creates more of a sideways throwing motion and often results in side-by-side landing positions. More commonly used in judo competition. (When to use: When opponent has extremely wide stance preventing hip placement, or when you want to create scramble situations rather than direct guard retention)
 
 **No-Gi Tomoe Nage with Body Lock**: Adaptation for no-gi grappling using over-under body lock or collar tie controls instead of sleeve and collar grips. Requires closer range and more reliance on foot placement timing. Often transitions to leg entanglement positions. (When to use: No-gi competition, MMA scenarios, or when gi grips are not available or secure)
@@ -329,7 +329,7 @@ Develop no-gi variations using body lock controls instead of gi grips. Practice 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Tomoe Nage requires significant attention to safety due to its dynamic sacrifice nature and the risk of both practitioners landing awkwardly. Always practice on appropriate matting with sufficient space. Develop proper breakfall mechanics before attempting the full technique - your ability to fall safely is as important as executing the throw itself. When throwing a partner, ensure you control their trajectory to prevent them from landing on their head or neck. Start all training at slow speed with cooperative partners to establish proper body mechanics and spatial awareness. Be particularly cautious about foot placement on the opponent's body - avoid the groin and ensure your foot is secure before committing to the throw. In competition, be aware of boundary lines to prevent throwing opponents off the mat. Never practice this technique with significant size mismatches until both practitioners are experienced with the mechanics.
 
@@ -337,7 +337,7 @@ Tomoe Nage requires significant attention to safety due to its dynamic sacrifice
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Tomoe Nage functions as a critical bridge between standing positions and guard-based games in Brazilian Jiu-Jitsu. It integrates into the broader standing grappling game as both an offensive takedown option and a guard pulling method, making it particularly valuable for competitors who prefer bottom positions but want to maintain attacking pressure from standing. The technique connects directly to the closed guard system, but modern applications extend to butterfly guard, X-guard, and leg entanglement positions depending on how the throw completes. Within the context of guard retention, Tomoe Nage represents a proactive entry that puts immediate pressure on the opponent rather than passive guard sitting. It fits into grip fighting sequences from standing, often following collar drag attempts or failed single-leg entries. The technique also integrates with the broader sacrifice throw family including Sumi Gaeshi and Yoko Tomoe Nage, giving practitioners multiple options from similar setups based on opponent reactions and positioning.
 
@@ -345,7 +345,7 @@ Tomoe Nage functions as a critical bridge between standing positions and guard-b
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Sumi Gaeshi]] - Alternative - Corner throw variation with inside leg placement
 - [[Closed Guard]] - Follow-up - Primary landing position after successful throw
@@ -366,7 +366,7 @@ Tomoe Nage functions as a critical bridge between standing positions and guard-b
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Tomoe Nage represents a sophisticated application of leverage principles where you deliberately sacrifice positional stability to create a mechanical advantage through precise fulcrum placement and circular motion dynamics. The technique's effectiveness stems from converting the opponent's forward momentum into rotational energy around the axis created by your foot placement on their center of mass. What distinguishes successful execution from failure is the practitioner's ability to create a single unified kinetic chain from grips through core through leg extension - any break in this chain results in insufficient force transmission to complete the throw. From a systematic perspective, Tomoe Nage should be viewed as one option within a standing-to-guard transition system rather than an isolated technique. The setup phase, particularly the grip fighting and forward momentum creation, is identical to several other guard pull variations, meaning opponents cannot easily distinguish which entry you'll use until the commitment phase. This ambiguity is tactically valuable. Technically, the most common failure point is practitioners attempting to use only leg strength to lift the opponent rather than understanding that the legs serve primarily as a guide for the throwing arc while the pulling force on the grips provides the actual momentum. The physics demands that both upper and lower body work in perfect synchronization to achieve the parabolic flight path that deposits the opponent into your guard control.
 - **Gordon Ryan**: In high-level competition, Tomoe Nage is one of the few guard pulls that can actually score points in your favor under most rulesets while getting you to your preferred position. I've seen it work at the highest levels, especially when you have dominant grips and your opponent is pressuring forward trying to get their own grips. The key from a competition perspective is that you need to be genuinely threatening with it - if you're just using it as a lazy guard pull, good opponents will shut it down immediately. What I focus on is the grip fighting sequence that leads to the throw. If you can break their posture first with a strong collar grip and get them moving forward, even slightly, the throw becomes very high percentage. The modern game has also evolved where you don't always need to land in traditional closed guard - a lot of guys now are using Tomoe Nage to create scrambles or go directly to leg entanglements, which can be even more threatening. Against defensive opponents who just want to stay at range and avoid engagement, this technique forces them to either commit forward or concede grips, both of which benefit you. The biggest mistake I see is people trying to force it when the opponent's base is too far back - you'll just end up on your back with them standing over you, which is terrible. Wait for the right moment when their weight is committed forward, then explode into the execution. It's all about timing and recognizing that window of opportunity.
 - **Eddie Bravo**: Tomoe Nage is sick because it looks flashy as hell but it's actually super functional, especially in the modern no-gi game where people are getting really good at defending traditional guard pulls. In 10th Planet, we use it as part of the whole standing-to-guard transition system, but we've adapted it heavily for no-gi situations. Instead of relying on collar and sleeve grips, we're using body locks, collar ties, and even Russian tie setups to create the same forward momentum and then hitting the throw. One thing that's key is understanding that you can use this to go directly to rubber guard if you time it right - as they're coming over, you can catch that high guard position and immediately go to mission control or new york. The sacrifice throw mindset is huge in our system because we're not trying to stay on top and grind out points, we want to create chaos and submission opportunities, and Tomoe Nage definitely creates that scramble energy. What's really cool is using it as a bait technique - threaten the throw to get them defending backward, then switch to a different guard pull or even a single leg. Keep them guessing. The no-gi version requires even better timing because you don't have the gi grips to control their fall, so you need to be ready to transition immediately to whatever position presents itself. Sometimes you get closed guard, sometimes butterfly, sometimes you end up in weird leg entanglement positions - embrace the chaos and be ready to adapt. That's where the real innovation happens.

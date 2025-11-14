@@ -8,7 +8,7 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 48% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 48%.
 
 ---
 
@@ -189,7 +189,7 @@ De La Riva guard is one of the most popular and effective open guards in modern 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player has DLR hook active behind top player's leg, creating off-balancing leverage with their shin or foot pressuring behind the knee or thigh, establishing the fundamental mechanical disadvantage for the top player
 - Bottom player maintains distance control through legs or grips, typically controlling the top player's ankle, pants, or belt with their hands while their free leg creates frames or distance management, preventing immediate passing pressure
@@ -199,7 +199,7 @@ De La Riva guard is one of the most popular and effective open guards in modern 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of DLR guard mechanics and sweep threats including berimbolo, waiter sweep, and forward sweeps that exploit the hook's off-balancing power
 - Good base and balance to resist off-balancing, particularly against forward pressure from the DLR hook combined with ankle grip pulling force
@@ -223,7 +223,7 @@ De La Riva guard is one of the most popular and effective open guards in modern 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Toreando Pass]] → [[Side Control]]
 
@@ -287,7 +287,7 @@ De La Riva guard is one of the most popular and effective open guards in modern 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[De La Riva Sweep]]** → [[Mount Top]] (Opponent Success: 45%)
 - **[[Berimbolo Entry]]** → [[Back Control]] (Opponent Success: 35%)
@@ -299,7 +299,7 @@ De La Riva guard is one of the most popular and effective open guards in modern 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Leg Drag Setup]]** → [[Leg Drag Position]]
   - Bottom player attempts to square hips or recover DLR hook after initial removal
@@ -334,7 +334,7 @@ De La Riva guard is one of the most popular and effective open guards in modern 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

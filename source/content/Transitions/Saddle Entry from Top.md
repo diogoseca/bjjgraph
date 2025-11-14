@@ -8,7 +8,7 @@ description: "Master the Saddle Entry from Top in BJJ. Step-by-step leg entangle
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Saddle Entry from Top in BJJ. Step-by-step leg entangle
 
 
 
-> **Quick Answer**: Saddle Entry from Top transitions from [[Headquarters Position]] to [[Saddle]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
+> Saddle Entry from Top transitions from [[Headquarters Position]] to [[Saddle]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control the opponent's near leg before attempting entry
 - Step over with correct leg to create proper entanglement angle
 - Maintain connection throughout the transition to prevent scrambles
@@ -190,7 +190,7 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Top position with at least one leg accessible (passing position, headquarters, or open guard top)
 - Opponent's near leg extended or exposed
 - Control of opponent's near leg with hands (ankle, knee, or pants grip)
@@ -203,7 +203,7 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure near leg control**: From top position (headquarters, knee slice, or passing position), establish control of the opponent's near leg using both hands. Grip the ankle with your near hand and control the knee or thigh with your far hand. This prevents the opponent from retracting their leg and creates the foundation for entry. (Timing: Establish control when opponent extends leg defensively or during guard recovery)
 2. **Create entry angle**: Step your outside leg (the leg furthest from opponent's hips) toward the opponent's hip line while maintaining leg control. Position your foot near their hip or on the mat beside their hip. This creates the proper angle for stepping over and prevents the opponent from rotating away. (Timing: Execute immediately after securing leg control)
 3. **Step over controlled leg**: Bring your inside leg (nearest to opponent's legs) over the opponent's controlled leg. Your inside knee should clear their leg and land on the opposite side. Maintain constant pressure on their leg throughout this movement to prevent escape. Keep your weight distributed to avoid being swept. (Timing: Smooth, controlled movement coordinated with hip positioning)
@@ -217,7 +217,7 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent retracts near leg immediately upon contact** (Effectiveness: High) - Your Response: Follow their leg retraction and switch to alternative passing position or pursue different leg entanglement entries such as Outside Ashi or 50-50. Can also use their retraction to advance to better passing position.
 - **Opponent brings far leg over to clear knee line and prevent entanglement** (Effectiveness: High) - Your Response: Capture the incoming far leg with your outside arm and transition to X-Guard entry or Single Leg X position. Alternatively, use the moment they lift their far leg to advance into mount or side control if they overcommit to the defense.
 - **Opponent sits up aggressively during step-over to attack upper body** (Effectiveness: Medium) - Your Response: Maintain connection to their controlled leg and use their forward momentum to facilitate the entry. Can also abandon saddle entry temporarily to address upper body control, then return to leg entanglement from improved position.
@@ -227,28 +227,28 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Stepping over with the wrong leg (inside leg first instead of positioning outside leg)
+## Common Mistakes
+- **Mistake**: Stepping over with the wrong leg (inside leg first instead of positioning outside leg)
   - **Consequence**: Creates poor angle for saddle entry and leaves you vulnerable to sweeps or loss of position. The entanglement cannot be completed correctly.
   - **Correction**: Always step your outside leg toward opponent's hip first to create proper angle, then thread inside leg over and under their controlled leg. Practice the footwork pattern in isolation.
-- **Error**: Releasing leg control during the step-over transition
+- **Mistake**: Releasing leg control during the step-over transition
   - **Consequence**: Opponent immediately retracts their leg and escapes the entry, often leaving you in vulnerable scramble position or losing top position entirely.
   - **Correction**: Maintain constant hand control on opponent's leg throughout entire entry sequence. Your grips should only release once your legs have secured the saddle configuration.
-- **Error**: Failing to control opponent's far leg after securing saddle
+- **Mistake**: Failing to control opponent's far leg after securing saddle
   - **Consequence**: Opponent squares their hips and clears their knee line, leading to easy escape from saddle or transition to better defensive position.
   - **Correction**: Immediately secure opponent's far leg with outside arm upon completing saddle entry. Pin it to your chest or control the knee to prevent hip squaring.
-- **Error**: Entering saddle while too high on opponent's leg (near ankle rather than thigh)
+- **Mistake**: Entering saddle while too high on opponent's leg (near ankle rather than thigh)
   - **Consequence**: Creates weak control position with easy foot extraction for opponent. Saddle configuration lacks mechanical advantage and submissions are difficult to finish.
   - **Correction**: Ensure your inside thigh is positioned high on opponent's inner thigh before locking feet. The saddle should trap their leg from hip to knee, not just the lower leg.
-- **Error**: Rushing the entry without establishing proper angle first
+- **Mistake**: Rushing the entry without establishing proper angle first
   - **Consequence**: Poor saddle configuration that leaves gaps for escape, allows opponent to maintain offensive capabilities, or results in being swept during entry attempt.
   - **Correction**: Take time to position properly before committing to step-over. Quality of position matters more than speed of entry. Establish outside leg position first.
-- **Error**: Failing to rotate body to face opponent's leg after entry
+- **Mistake**: Failing to rotate body to face opponent's leg after entry
   - **Consequence**: Maintains chest-to-chest orientation which gives opponent upper body control and paths to escape. Cannot effectively attack submissions without proper orientation.
   - **Correction**: Once saddle is secured, immediately rotate your upper body to face opponent's trapped leg. Your chest should face their knee, not their face.
-- **Error**: Locking feet before fully threading inside leg under opponent's leg
+- **Mistake**: Locking feet before fully threading inside leg under opponent's leg
   - **Consequence**: Creates shallow saddle position that is easier to escape and provides less control. Submissions from this configuration are much less effective.
   - **Correction**: Ensure inside thigh is completely under opponent's leg before locking feet. The triangle of your legs should be tight and high on their leg.
 
@@ -257,7 +257,7 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Isolated Movement Pattern (Weeks 1-2)** - Learning the footwork and leg threading mechanics without resistance
 Practice the step-over and leg threading motion repeatedly with compliant partner who maintains static position. Focus on smooth execution and correct leg positioning. Drill from various top positions (headquarters, knee slice, float passing). Emphasize proper angle creation before committing to entry.
 (Resistance: None)
@@ -288,7 +288,7 @@ Test entry against various body types and defensive styles. Analyze competition 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Headquarters Saddle Entry**: Entry executed from headquarters passing position where you already have opponent's near leg controlled between your legs. This variation emphasizes the step-over from an established passing position and is commonly used when opponent attempts to recover full guard. (When to use: When passing opponent's guard and they extend their leg to create frames or attempt guard recovery)
 
 **Knee Slice to Saddle Transition**: Entry from knee slice passing position where you abandon the pass to capture opponent's bottom leg in saddle configuration. Uses the pressure and angle from knee slice to facilitate quick saddle entry when opponent defends the pass by turning away. (When to use: When opponent turns away during knee slice pass attempt, exposing their bottom leg)
@@ -333,7 +333,7 @@ Test entry against various body types and defensive styles. Analyze competition 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing saddle entries, ensure controlled execution with clear communication between partners regarding resistance levels. The saddle position leads directly to inside heel hooks which can cause severe knee injuries if applied without control. During drilling, establish tap-early protocols and never apply sudden explosive force to leg locks. Partners should understand proper tapping procedures and recognize when they are caught in vulnerable positions. Instructors should ensure students have adequate experience with positional control before progressing to submission applications from saddle. Always practice on mats with sufficient padding, and beginners should master the entry mechanics with zero resistance before adding any defensive pressure. Avoid practicing this technique if either partner has existing knee or hip injuries without medical clearance. The rotation into saddle can place stress on the practitioner's own knees, so execute entries smoothly rather than explosively to protect your own joints.
 
@@ -341,7 +341,7 @@ When practicing saddle entries, ensure controlled execution with clear communica
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Saddle Entry from Top serves as a critical bridge between traditional passing positions and modern leg entanglement systems. This technique represents the intersection of pressure passing and submission-focused grappling, allowing practitioners to threaten both passing completion and immediate leg attacks. Within the broader BJJ positional hierarchy, saddle entry from top has revolutionized how top players approach guard passing—no longer must the top player fully pass to access dominant positions, as the saddle itself provides immediate submission threats and positional control.
 
@@ -351,7 +351,7 @@ This entry integrates seamlessly with headquarters position, knee slice passing,
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Saddle]] - Destination position - where this entry leads
 - [[Inside Heel Hook]] - Primary submission from ending position
@@ -371,7 +371,7 @@ This entry integrates seamlessly with headquarters position, knee slice passing,
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The saddle entry from top position represents a fundamental understanding of how leg entanglement systems integrate with passing mechanics. The critical element most practitioners miss is that this is not a separate technique from passing—it IS passing, just to a different destination. The geometry of the saddle entry requires precise leg positioning: your outside leg creates the angle while your inside leg performs the actual entanglement. This is not a scramble position; it should be entered with the same systematic precision as entering side control. The control hierarchy is absolute: first control the near leg with your hands, then establish your outside leg position for angle, then thread your inside leg for entanglement, and finally secure the configuration with your feet locked. Each step must be completed before progressing to the next. The common error of rushing this sequence results in poor entries that are easily escaped. When executed with proper mechanics, the saddle entry from top provides one of the highest-percentage paths to leg lock submissions in modern grappling. The position's effectiveness stems from the opponent's hip being controlled in three dimensions simultaneously—your inside thigh prevents internal rotation, your outside thigh prevents external rotation, and your locked feet prevent extension. This tri-directional control is why the saddle position is so dominant and why proper entry mechanics are essential to achieving it.
 - **Gordon Ryan**: In competition, the saddle entry from top is one of my highest-percentage techniques because it puts opponents in an immediate dilemma: defend the pass or defend their leg. They can't do both effectively. I use this entry constantly when passing because modern guard players are trained to defend traditional passing positions, but many still don't properly defend leg entanglement entries. The key to making this work at the highest levels is disguising your intention—I'll threaten a knee slice or headquarters pass, and when they commit to defending that pass, their leg becomes exposed for saddle entry. Timing is everything. You want to catch their leg when it's extended during their defensive movements, not when they're tight and compact. Against high-level opponents, I'll often use failed passing attempts to set up the saddle entry, letting them feel like they're successfully defending until I switch to the leg entanglement. The reality is that once you're in the saddle with proper control, the inside heel hook finish is extremely high percentage. I've won numerous matches by submission from this position, and the entry from top is how I get there most often. Train this entry until it's automatic, because in competition you'll have split seconds to recognize and capitalize on the opening. The difference between good and great leg lockers is often their ability to enter the position efficiently from top.
 - **Eddie Bravo**: The saddle entry from top is a game-changer for 10th Planet practitioners because it fits perfectly with our pressure-heavy passing styles and no-gi focus. What I love about this entry is how it creates chaos for traditional guard players who aren't comfortable with leg entanglements. We teach our students to think of this as a passing position itself, not just a submission hunt. From the saddle, you have multiple attack paths—inside heel hooks, toe holds, transitions to the truck position, or even coming back on top if needed. The key innovation we've added is using the entry as part of combination attacks. For example, if they defend the saddle entry hard, that defense often opens up the back take or traditional passing completion. It's beautiful jiu-jitsu because you're creating multiple dilemmas simultaneously. I also emphasize getting students comfortable entering saddle from weird scramble positions, not just clean passing scenarios. In 10th Planet competition style, things get messy, and being able to recognize saddle entry opportunities during transitions and scrambles is crucial. We drill this from standing, from failed guard pulls, from turtle—anywhere the legs get exposed. The modern game has shifted toward leg locks being primary attacks rather than secondary options, and this entry is a big reason why. Master this entry and you'll see your submission rate skyrocket, guaranteed.

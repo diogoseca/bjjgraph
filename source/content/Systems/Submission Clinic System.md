@@ -151,7 +151,7 @@ description: "Master systematic submission hunting from dominant positions in BJ
 
 
 
-> **Quick Answer**: Submission Clinic System is a advanced difficulty Attack System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
+> Submission Clinic System is a advanced difficulty Attack System system. Integrates 6 components.
 
 **System ID**: 
 **System Type**: Attack System
@@ -174,7 +174,7 @@ The Submission Clinic System is particularly effective in competition and high-l
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Position before submission - establish dominant control before hunting finishes
 - Create submission chains - every defense opens a new attack
 - Maintain connection points - never sacrifice control for a low-percentage finish
@@ -189,7 +189,7 @@ The Submission Clinic System is particularly effective in competition and high-l
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Mount Attack Series** (Establish primary attacking position with maximum control and submission options)
 From high mount and S-mount positions, create armbar, triangle, and collar choke threats. The mount provides the most stable platform for submission attacks due to the weight distribution and control points available. Key is maintaining hip pressure while attacking upper body submissions, using the threat of one submission to open others.
 
@@ -214,7 +214,7 @@ From crucifix position or gift wrap control, isolate both arms to attack rear na
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Position Establishment**: Begin by achieving a dominant position (mount, back control, or side control) with proper connection points and weight distribution. Do not rush to submissions before establishing stable control.
 Key points:
 - Secure at least three points of contact with opponent
@@ -418,7 +418,7 @@ The Submission Clinic System requires extensive positional drilling combined wit
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The Submission Clinic System represents the highest expression of systematic attack methodology in Brazilian Jiu-Jitsu. It is not enough to know individual submissions - you must understand how each technique connects to every other technique through the opponent's defensive reactions. The true brilliance of this system lies in its self-reinforcing nature: every defensive movement your opponent makes provides you with information and opportunity. When they defend the armbar, they create the triangle. When they defend the triangle, they expose the omoplata. When they defend the omoplata, they give you the sweep or back take. This is not random chaos - it is a carefully structured decision tree where every branch leads to your victory. The key is patience and systematic pressure. Do not rush. Let the position mature, let their defensive resources deplete, and let the submission present itself naturally through their exhaustion and errors.
 - **Gordon Ryan**: In competition, the Submission Clinic System is what separates guys who get submissions from guys who hunt submissions but never finish. I've tapped world champions using exactly this approach - establish dominant position, start the submission chain, and just keep the pressure coming until they make a mistake. The mental warfare aspect is huge. When your opponent realizes that every defense just opens another attack, they start to break mentally before they break physically. I specifically focus on the mount and back attack series because these positions offer the highest finish rates under ADCC and IBJJF rules. From mount, I'm threatening armbar, triangle, and collar chokes simultaneously. They can't defend all three, so I just wait for them to pick their poison. From the back, I'm constantly switching between RNC, armbar from back, and the mounted triangle transition. Even elite-level guys start making desperate moves after two minutes of this pressure, and that's when I finish them.
 - **Eddie Bravo**: The Submission Clinic System is fundamentally about creative problem-solving in real time. While the traditional approach focuses on predetermined chains, I teach my students to feel the position and adapt. From rubber guard, I'm setting up omoplata, triangle, and gogoplata all at the same time - it's a submission clinic from the bottom. The beauty of this system is it works with any position you're comfortable in. If you love lockdown half guard, you can create your own clinic with electric chair, sweep, and back take threats. The key innovation is making submission attempts improve your position rather than risk it. Every failed omoplata should give you the sweep. Every defended triangle should give you the armbar or back. This is next-level stuff because you're literally using their defense as your offense. It's like playing chess where every move they make is exactly what you wanted them to do. Keep them guessing, keep them defending, and eventually their whole game falls apart.

@@ -8,7 +8,7 @@ description: "Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps fro
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps fro
 
 
 
-> **Quick Answer**: Lasso Guard Sweeps transitions from [[Lasso Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Lasso Guard Sweeps transitions from [[Lasso Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Lasso Guard sweeps represent a sophisticated set of techniques that leverage the
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain deep lasso control with shin pressure across opponent's tricep
 - Control opposite leg to prevent posting and base recovery
 - Create angles by rotating hips away from lasso side
@@ -180,7 +180,7 @@ Lasso Guard sweeps represent a sophisticated set of techniques that leverage the
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Deep lasso established with shin across opponent's tricep
 - Strong grip on opponent's sleeve on lasso side
 - Control of opponent's opposite leg (pant grip or hook)
@@ -193,7 +193,7 @@ Lasso Guard sweeps represent a sophisticated set of techniques that leverage the
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish deep lasso control**: Thread your leg deeply over opponent's arm, ensuring your shin is positioned across their tricep with your foot emerging behind their back. Pull their sleeve to deepen the lasso while keeping your knee tight to their shoulder. (Timing: Before initiating sweep sequence)
 2. **Secure opposite leg control**: Grip opponent's opposite pant leg at the knee or establish a butterfly hook. This control is critical for preventing them from posting and maintaining base during the sweep. Your free leg should be active and mobile. (Timing: Simultaneously with lasso establishment)
 3. **Create angular pressure**: Rotate your hips away from the lasso side while pulling the lasso arm across your body. This creates a diagonal line of force that compromises their base. Your shoulders should move toward the mat on the non-lasso side. (Timing: As opponent's weight shifts forward)
@@ -206,7 +206,7 @@ Lasso Guard sweeps represent a sophisticated set of techniques that leverage the
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent posts far leg wide to establish base** (Effectiveness: High) - Your Response: Switch to opposite side sweep by releasing lasso temporarily, transitioning to X-guard or single leg X to attack the posted leg
 - **Opponent stacks and applies heavy pressure to flatten lasso** (Effectiveness: High) - Your Response: Transition to inverted lasso or omoplata as they commit forward, or frame and re-establish distance with technical stand-up
 - **Opponent extracts arm by standing tall and pulling elbow back** (Effectiveness: Medium) - Your Response: Maintain sleeve grip and transition to spider guard or De La Riva as they create distance, following their movement
@@ -215,25 +215,25 @@ Lasso Guard sweeps represent a sophisticated set of techniques that leverage the
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Lasso too shallow with shin only on forearm
+## Common Mistakes
+- **Mistake**: Lasso too shallow with shin only on forearm
   - **Consequence**: Opponent easily extracts arm and passes guard with minimal resistance
   - **Correction**: Thread leg deeper until shin crosses tricep and foot emerges behind opponent's back, pull sleeve to maximize depth
-- **Error**: Neglecting opposite leg control during sweep
+- **Mistake**: Neglecting opposite leg control during sweep
   - **Consequence**: Opponent posts strong base and prevents sweep completion despite good lasso control
   - **Correction**: Always establish pant grip or hook on opposite leg before initiating sweep, control both sides
-- **Error**: Pulling opponent directly toward you instead of at angle
+- **Mistake**: Pulling opponent directly toward you instead of at angle
   - **Consequence**: Opponent maintains base by posting on knees, sweep fails despite proper mechanics
   - **Correction**: Create diagonal pulling angle by rotating hips away from lasso side before extending leg
-- **Error**: Releasing lasso control too early in sweep
+- **Mistake**: Releasing lasso control too early in sweep
   - **Consequence**: Opponent recovers base mid-sweep and re-establishes guard passing position
   - **Correction**: Maintain lasso until opponent's upper body is past point of no return, only then release to follow
-- **Error**: Static lasso without active adjustments
+- **Mistake**: Static lasso without active adjustments
   - **Consequence**: Opponent methodically extracts arm and advances position while you remain passive
   - **Correction**: Constantly adjust lasso depth, change grips, and threaten sweeps to keep opponent reactive
-- **Error**: Forgetting to follow through to top position
+- **Mistake**: Forgetting to follow through to top position
   - **Consequence**: Successful off-balance but opponent recovers guard as you fail to capitalize
   - **Correction**: Immediately come up on swept opponent, establish mount or side control before they recover
 
@@ -242,7 +242,7 @@ Lasso Guard sweeps represent a sophisticated set of techniques that leverage the
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Lasso Mechanics** - Establishing and maintaining lasso control
 Drill deep lasso threading from various open guard positions. Practice maintaining lasso while opponent attempts gentle extraction. Focus on proper shin placement across tricep and maintaining distance control. Partner provides minimal resistance.
 (Resistance: None)
@@ -273,7 +273,7 @@ Experiment with inverted lasso, reverse lasso, and hybrid positions. Analyze vid
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Inverted Lasso Sweep**: Invert underneath opponent while maintaining lasso control, using inverted position to create powerful angular leverage for the sweep. Your non-lasso leg establishes De La Riva hook or X-guard position. (When to use: When opponent attempts to stack or pressure you heavily from standing position)
 
 **Reverse Lasso to Mount**: Establish lasso with opposite leg configuration (threading under instead of over) and sweep directly to mount by controlling near side while extending the lasso leg toward far corner. (When to use: Against opponents who defend traditional lasso by keeping elbow tight to body)
@@ -313,7 +313,7 @@ Experiment with inverted lasso, reverse lasso, and hybrid positions. Analyze vid
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Practice lasso sweeps with controlled speed and clear communication with training partners. The lasso position places significant rotational pressure on the shoulder joint, so partners should tap immediately if they feel strain when the arm is controlled. Avoid spiking opponents on their head during explosive sweeps by controlling their descent. When drilling, ensure adequate mat space to prevent sweeps from driving partners into walls or other grapplers. Beginners should master the basic lasso position before attempting dynamic sweeps to prevent awkward falls. Always release lasso control if your partner taps or signals discomfort.
 
@@ -321,7 +321,7 @@ Practice lasso sweeps with controlled speed and clear communication with trainin
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Lasso Guard sweeps form a critical component of modern open guard systems, particularly in gi-based Brazilian Jiu-Jitsu. The position integrates seamlessly with spider guard, De La Riva guard, and X-guard variations, creating a web of interconnected guards that respond to opponent movement. When lasso sweeps are successful, they typically lead to mount or side control positions, establishing dominant top control. When defended, the lasso naturally transitions to submission attacks like triangle chokes, omoplatas, or armbars, making it a dangerous platform regardless of opponent response. The lasso sweep system teaches fundamental principles of leverage, angle creation, and grip fighting that apply across all aspects of guard play. Mastery of lasso sweeps significantly improves overall guard retention and attacking ability.
 
@@ -329,7 +329,7 @@ Lasso Guard sweeps form a critical component of modern open guard systems, parti
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Lasso Guard]] - Starting position
 - [[Mount]] - Common ending position
@@ -349,7 +349,7 @@ Lasso Guard sweeps form a critical component of modern open guard systems, parti
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The lasso guard sweep represents a perfect illustration of leverage mechanics in Brazilian Jiu-Jitsu. By isolating one arm and controlling the diagonal opposite leg, you create what I call a 'control diamond' that encompasses all of the opponent's primary base points. The lasso configuration forces the opponent into a mechanically disadvantaged position where their strength becomes largely irrelevant. The key technical element that most practitioners miss is the necessity of creating angular force rather than linear pulling. When you pull directly toward yourself, the opponent can resist with their core strength and posting ability. However, when you create a 45-degree angle by rotating your hips away from the lasso side, you target what I call the 'geometric weak point' between their base supports. This transforms a strength-based struggle into a technical problem they cannot solve with athleticism alone. The integration of the lasso sweep into a broader guard retention system exemplifies the systematic approach to jiu-jitsu, where each position connects to multiple others through logical transitions based on opponent reactions.
 - **Gordon Ryan**: In competition, lasso sweeps are high-percentage techniques when you understand the timing and can chain them together rapidly. I use the lasso primarily as a setup for other attacks rather than relying solely on the sweep itself. When opponents defend the sweep by establishing wide base, I'm already transitioning to triangle, omoplata, or inverting to attack their legs. The reality of modern competition is that elite opponents will defend your primary lasso sweep, so you need to have two or three backup options that flow naturally from the same grip configuration. I've had tremendous success using the lasso to create sweep-submission dilemmas where the opponent must choose between being swept or defending a submission attack. My preference is the lasso to triangle combination because it keeps constant offensive pressure regardless of their defense. Against leg lock players, be cautious with inverted lasso variations as they can expose your legs to counters. In ADCC-style no-gi competition, the lasso obviously doesn't exist, which is why my guard system emphasizes positions that work in both gi and no-gi contexts.
 - **Eddie Bravo**: The lasso guard is sick for creating chaos and off-balancing opponents, but you've got to make it dynamic and unpredictable. In the 10th Planet system, we look at the lasso as one tool in the rubber guard family where arm control is paramount. What I teach my guys is to never stay static in the lasso—you should constantly be threatening different attacks to keep opponents guessing. We combine traditional lasso sweeps with our lockdown system when we get to half guard, creating this hybrid control that's really difficult to deal with. One variation I love is what we call the 'electric lasso' where you establish lasso control and immediately start working toward the opponent's back instead of just going for the sweep. The inverted lasso is absolutely crucial in modern jiu-jitsu because it lets you attack the legs while maintaining upper body control. I've also developed sequences where you use the lasso to set up the truck position, which opens up the whole twister game. The key innovation is seeing the lasso not as a position to hold, but as a transitional control point that leads to more dangerous attacks. Don't be afraid to experiment with different lasso grips and leg configurations—some of the sickest sweeps come from unconventional lasso variations.

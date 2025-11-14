@@ -8,7 +8,7 @@ description: "Master guard retention fundamentals in BJJ. Learn frame management
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master guard retention fundamentals in BJJ. Learn frame management
 
 
 
-> **Quick Answer**: Guard Retention is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Guard Retention is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Guard Retention is the fundamental defensive principle governing the ability to 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Maintain constant hip mobility through shrimping, bridging, and rotation to prevent opponent from pinning hips to mat
 - Create and reset defensive frames using legs, hands, and forearms to manage distance and prevent chest-to-chest contact
 - Keep at least one connection point (hook, grip, frame) to opponent to enable guard recovery and maintain defensive structure
@@ -179,7 +179,7 @@ Guard Retention is the fundamental defensive principle governing the ability to 
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Shrimping Mechanics**: The fundamental hip escape movement that creates lateral distance from opponent's pressure. Involves explosive hip drive off the mat while maintaining shoulder connection, creating angles that disrupt opponent's passing lines and generate space for guard recovery.
 
 **Frame Construction**: Building defensive barriers using hands on hips/biceps, forearms on shoulders, shins across torso, or feet on hips to manage distance. Frames must be dynamic and adjustable rather than static, maintaining bend to absorb pressure while preventing collapse.
@@ -202,7 +202,7 @@ Guard Retention is the fundamental defensive principle governing the ability to 
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Frame Management]]** (Prerequisite): Proper frame construction and maintenance is prerequisite skill for guard retention, as frames provide the distance management foundation that makes hip mobility effective.
 - **[[Hip Escape Mechanics]]** (Prerequisite): Fundamental shrimping and hip escape movements must be developed before sophisticated guard retention is possible, as these movements generate the space needed for all retention sequences.
 - **[[Space Management]]** (Complementary): Space management and guard retention work together as complementary principles, with space management providing the conceptual framework that guard retention techniques implement.
@@ -221,7 +221,7 @@ Guard Retention is the fundamental defensive principle governing the ability to 
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Retention principles apply when opponent breaks closed guard posture, requiring immediate frame reset and hip adjustment to prevent pass or to recover closed structure before full opening occurs.
 
 **Open Guard**: Primary application context where retention is continuously tested as opponent navigates leg positioning and frames. Requires constant hip mobility and frame resets to maintain guard structure.
@@ -260,7 +260,7 @@ Guard Retention is the fundamental defensive principle governing the ability to 
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Recognize passing threat type (pressure pass, speed pass, long step, etc.)**: Identify opponent's passing strategy based on their grips, posture, and initial movement direction to select appropriate retention response
 2. **Assess current guard structure integrity (fully intact, partially compromised, or broken)**: Determine urgency of retention response - fully intact allows offensive options, compromised requires immediate retention, broken demands aggressive recovery
 3. **Evaluate hip mobility status (free to move, partially restricted, or pinned)**: If hips are mobile, use shrimping and bridging. If restricted, establish frames first. If pinned, create space explosively through bridge or technical standup
@@ -273,28 +273,28 @@ Guard Retention is the fundamental defensive principle governing the ability to 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Allowing both shoulders and hips to flatten simultaneously against the mat
+## Common Mistakes
+- **Mistake**: Allowing both shoulders and hips to flatten simultaneously against the mat
   - **Consequence**: Complete loss of mobility eliminates ability to generate shrimping or bridging movements, making pass inevitable once this flattened state occurs
   - **Correction**: Always maintain at least one dimension of movement by keeping shoulders connected while hips are mobile, or maintaining hip bridge while shoulders adjust positioning
-- **Error**: Relying exclusively on grip strength without moving hips during retention
+- **Mistake**: Relying exclusively on grip strength without moving hips during retention
   - **Consequence**: Opponent breaks grips through superior leverage or waits for arm fatigue, then passes easily through static positioning once grips fail
   - **Correction**: Use grips to control opponent's posture and create opportunities for hip movement, treating grips as tools for positioning rather than primary defense
-- **Error**: Defending single guard configuration stubbornly instead of adapting to passing direction
+- **Mistake**: Defending single guard configuration stubbornly instead of adapting to passing direction
   - **Consequence**: Opponent exploits specific weaknesses of that guard structure and passes through well-prepared path while practitioner refuses to adjust
   - **Correction**: Flow fluidly between guard types based on opponent's passing direction, treating guard as dynamic defensive system rather than rigid position
-- **Error**: Waiting until guard is completely broken before attempting recovery movements
+- **Mistake**: Waiting until guard is completely broken before attempting recovery movements
   - **Consequence**: Opponent achieves sufficient control that recovery becomes exponentially more difficult or impossible, requiring escape from inferior position
   - **Correction**: Begin recovery movements at first sign of guard structure being threatened, using anticipation and early intervention rather than reactive responses
-- **Error**: Crossing ankles or locking feet in positions vulnerable to leg attacks
+- **Mistake**: Crossing ankles or locking feet in positions vulnerable to leg attacks
   - **Consequence**: Severely limited hip mobility combined with exposure to ankle locks and foot locks, plus reduced ability to make quick positional adjustments
   - **Correction**: Keep legs independent and mobile unless in position specifically requiring foot connection (closed guard, body triangle), maintaining separation otherwise
-- **Error**: Creating rigid, fully-extended arm frames that cannot adjust to pressure
+- **Mistake**: Creating rigid, fully-extended arm frames that cannot adjust to pressure
   - **Consequence**: Opponent redirects around static frames or collapses them through superior weight and pressure application, defeating frames through rigidity
   - **Correction**: Maintain bent arm frames with active extension capacity, allowing dynamic adjustment as opponent changes angles while preserving frame integrity
-- **Error**: Breaking visual contact with opponent during retention scrambles
+- **Mistake**: Breaking visual contact with opponent during retention scrambles
   - **Consequence**: Loss of critical information about opponent's weight distribution and passing direction leads to mistimed defenses and poor reaction choices
   - **Correction**: Maintain consistent visual contact with opponent's hips and shoulders to read passing intentions, time escapes properly, and anticipate weight shifts
 
@@ -303,7 +303,7 @@ Guard Retention is the fundamental defensive principle governing the ability to 
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Resistance Retention** (Focus: Building retention effectiveness under increasing pressure while maintaining technical precision before adding speed)
 Partner applies gradually increasing passing pressure starting at 50% and building to 100% over round duration. Practitioner focuses on maintaining retention techniques while resistance increases, identifying which methods remain effective at each intensity level.
 
@@ -328,7 +328,7 @@ Practice retention with artificial limitations (one hand only, no grips allowed,
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can perform basic shrimping movement to create lateral distance from opponent's pressure
 - Establishes simple frames using hands on hips or forearms on shoulders to maintain distance
@@ -373,7 +373,7 @@ Practice retention with artificial limitations (one hand only, no grips allowed,
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Frame Management]] (Principle) - Core technical component providing distance management foundation for retention effectiveness
 - [[Hip Escape Mechanics]] (Principle) - Fundamental movement pattern that generates space and enables all retention sequences
@@ -393,7 +393,7 @@ Practice retention with artificial limitations (one hand only, no grips allowed,
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Guard retention represents not merely a defensive skill but the fundamental principle of controlling spatial relationships in bottom positions. The biomechanical foundation lies in creating what I term 'hierarchical defensive barriers' - systematically arranged frames that force the opponent to solve multiple spatial problems sequentially rather than simultaneously. The first barrier consists of leg-based frames (feet on hips, shin shields), followed by intermediate barriers (knee frames, butterfly hooks), and finally proximal barriers (hand frames, underhooks) as last resort. Each barrier provides time for hip escape movements that reset the defensive sequence before the opponent can consolidate position. The critical systematic error I observe is practitioners treating guard retention as reactive scrambling rather than proactive spatial control. Your defensive structure should create geometric impossibilities for the opponent - angles and distances that make chest-to-chest alignment fundamentally unachievable without solving your defensive puzzle first. The sophistication of your retention is measured not by the number of techniques you know, but by your ability to create problems faster than your opponent can solve them. When you force them to address multiple spatial challenges simultaneously, their passing efficiency drops dramatically and your retention effectiveness increases exponentially. This transforms guard retention from desperate defense into systematic spatial dominance.
 - **Gordon Ryan**: In elite competition, guard retention is the skill that separates world champions from everyone else, period. I've passed the guards of multiple black belt world champions, and without exception, the hardest people to pass are those who never let you settle into your passing rhythm - they create constant movement and adjustment requirements that prevent you from executing your planned sequences. The key mental shift is being comfortable in chaos - you must embrace those scramble positions where your guard is partially broken and most people panic. That's actually where I do my best work because I'm not trying to maintain perfect technical position, I'm solving the immediate problem in front of me. When someone drives a knee cut through my guard, I'm not thinking 'my guard is broken' - I'm thinking 'perfect opportunity to trap that knee and enter deep half' or 'excellent angle for granby to back take.' The specific techniques matter far less than your ability to stay calm, keep creating frames, and maintain constant movement when things get chaotic. My guard retention improved exponentially when I stopped pursuing perfect guard structure and started focusing exclusively on preventing stable hip control. Even if opponents get past my legs temporarily, if I maintain hip mobility and create frames, I can usually recover. The other absolutely critical element, especially in no-gi, is grip fighting during the retention phase - breaking their grips while they're passing forces them to reset, buying the time I need to recover position. Physical conditioning cannot be overstated either - your retention must remain sharp into championship rounds when fatigue sets in, because that's when most passes occur.
 - **Eddie Bravo**: Guard retention is where 10th Planet's philosophy about being comfortable in chaos really shines. Traditional BJJ teaches you to establish perfect guard structure and defend it like a fortress, but that's unrealistic against skilled passers who've trained specifically to break that structure. Instead, we emphasize what I call 'flow retention' - constantly moving between different guard configurations based on where the opponent applies pressure, never marrying yourself to one guard type. If they pressure my right leg, I might switch to reverse De La Riva on the left. If they counter that, boom, I'm inverting or hitting a granby. You're using whatever tools are available in that moment rather than stubbornly defending one position. We also spend massive amounts of time on the 'almost passed' positions that most schools ignore - like when you've still got one butterfly hook in but they've got an underhook and they're driving toward side control. That's not the end of retention, that's just a different phase requiring different tools. The lockdown system came directly from this philosophy - creating retention mechanisms so different from traditional guards that most passers don't have prepared responses. But beyond specific techniques, the real innovation is mental - teaching students that guard retention is actually fun, it's a complex puzzle to solve, not a desperate scramble to survive. Once you internalize that mindset shift, your retention improves dramatically because you're not panicking, you're problem-solving. Also, don't be afraid to temporarily give up traditional guard structure - going to turtle, inverting, or even standing up - if it means maintaining offensive options and preventing the pass. Guard retention isn't about perfectly maintaining one position, it's about preventing the opponent from achieving dominant control while you maintain your ability to attack.

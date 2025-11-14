@@ -13,10 +13,6 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 
 
 
-> **Quick Overview**: Omoplata Control represents a sophisticated transitional position in Brazilian Jiu-Jitsu where the practitioner uses their legs to isolate and control the opponent's shoulder joint while creating mult...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,31 +48,19 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Offensive/Controlling |
-| Risk Level | Medium | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short to Medium | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Offensive/Controlling |
+| **Risk Level** | Medium | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Medium to Long |
 
-**What Makes This Position Unique:** Shoulder isolation enables sweep options
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Omoplata Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Omoplata Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Shoulder isolation enables sweep options
 
 
 
@@ -84,10 +68,13 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 <section id="bottom-summary" class="content-section">
 
-## Omoplata Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Omoplata Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in omoplata control controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -130,7 +117,7 @@ The bottom player in omoplata control controls the position with offensive attac
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing too much space between hips and opponent's trapped shoulder**
@@ -154,16 +141,17 @@ The bottom player in omoplata control controls the position with offensive attac
   - ✅ Correction: Maintain constant active pressure with the shin across the upper back, pulling the knee down toward the mat to keep opponent's posture broken
 
 
-👉 **[[Omoplata Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Omoplata Control Top Perspective
+
+## Playing as Top
+
+[[Omoplata Control/Top|→ Full Top Guide]]
 
 
-The top player in omoplata control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -206,7 +194,7 @@ The top player in omoplata control balances control maintenance with submission 
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing too much space between hips and opponent's shoulder during control phase**
@@ -233,8 +221,6 @@ The top player in omoplata control balances control maintenance with submission 
   - Consequence: Opponent finds gaps in your control and successfully escapes or neutralizes the submission threat
   - ✅ Correction: Continuously adjust hip angle, leg pressure, and grip positioning in response to opponent's movements, staying one step ahead of their defensive strategy
 
-
-👉 **[[Omoplata Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

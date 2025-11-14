@@ -8,7 +8,7 @@ description: "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard sy
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard sy
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard sy
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent's lapel extracted and woven under their own leg (typically near-side leg), creating the foundational control mechanism with lapel passing from outside to inside under their thigh
 - Lapel wrapped tightly around your shin or foot with constant tension maintained through pulling grip, creating locked connection that restricts opponent's leg movement and prevents backward escape
@@ -201,7 +199,7 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent wearing gi with accessible lapel that can be extracted and controlled
 - Open guard position established with sufficient space to access and manipulate opponent's lapel
@@ -230,7 +228,7 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Omoplata Sweep]] → [[Mount]]
 
@@ -294,7 +292,7 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Lasso Guard Pass]]** → [[Side Control]] (Opponent Success: 30%)
 - **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 25%)
@@ -308,7 +306,7 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Triangle Setup]]** → [[Triangle Control]]
   - Opponent attempts to posture up and break lapel grip
@@ -352,7 +350,7 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

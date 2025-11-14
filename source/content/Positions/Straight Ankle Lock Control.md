@@ -13,10 +13,6 @@ description: "Master straight ankle lock control in BJJ. Complete strategic guid
 
 
 
-> **Quick Overview**: The straight ankle lock control position represents one of the most fundamental leg entanglement positions in Brazilian Jiu-Jitsu, serving as both an entry-level foot lock control and a tactical hub f...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -64,31 +60,19 @@ The position also serves an important pedagogical function in teaching fundament
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Defensive |
-| Risk Level | Medium to High | Medium to High |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short to Medium | Short |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Defensive |
+| **Risk Level** | Medium to High | Medium to High |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Short |
 
-**What Makes This Position Unique:** Static ankle control for submission leverage
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Straight Ankle Lock Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Straight Ankle Lock Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Static ankle control for submission leverage
 
 
 
@@ -96,10 +80,13 @@ The position also serves an important pedagogical function in teaching fundament
 
 <section id="bottom-summary" class="content-section">
 
-## Straight Ankle Lock Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Straight Ankle Lock Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in straight ankle lock control controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -151,7 +138,7 @@ The bottom player in straight ankle lock control controls the position with offe
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to finish ankle lock immediately without establishing secure control position**
@@ -179,16 +166,17 @@ The bottom player in straight ankle lock control controls the position with offe
   - ✅ Correction: Maintain active upper body posture with free arm posting or framing to prevent defender from establishing controlling grips on head, collar, or upper torso
 
 
-👉 **[[Straight Ankle Lock Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Straight Ankle Lock Control Top Perspective
+
+## Playing as Top
+
+[[Straight Ankle Lock Control/Top|→ Full Top Guide]]
 
 
-The top player in straight ankle lock control manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -234,7 +222,7 @@ The top player in straight ankle lock control manages the position strategically
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Panicking and making explosive uncontrolled movements attempting to rip foot out of control**
@@ -261,8 +249,6 @@ The top player in straight ankle lock control manages the position strategically
   - Consequence: Time strongly favors attacker in this position as every passing second allows improved control, tighter grips, and clearer transition opportunities while defender's options narrow
   - ✅ Correction: Implement immediate aggressive escape sequences the moment ankle control is recognized, understanding that rapid decisive action dramatically improves escape probability compared to passive waiting
 
-
-👉 **[[Straight Ankle Lock Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 55% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -197,7 +195,7 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your head and neck are controlled by opponent's arm(s), with opponent's chest driving downward pressure into your upper back and shoulders, creating bent-over posture that limits your mobility and vision while exposing you to multiple submission threats
 - Your torso is bent forward at the waist, typically with your hands and knees on the mat or attempting to stand with compromised posture, while opponent maintains superior position above and around your head with ability to sprawl their hips back or step around to different angles
@@ -208,7 +206,7 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has secured head control with at least one arm wrapped around your head/neck
 - Your posture is compromised into a bent-forward position (hands and knees, bent at waist, or failing takedown)
@@ -234,7 +232,7 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Technical Standup]] → [[Standing Position]]
 
@@ -284,7 +282,7 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Guillotine Choke]]** → [[Lost by Submission]] (Opponent Success: 45%)
 - **[[Anaconda Choke]]** → [[Lost by Submission]] (Opponent Success: 40%)
@@ -298,7 +296,7 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Chin Tuck Defense]]** → [[Front Headlock Bottom]]
   - Opponent attempts to extend neck for guillotine or crank - tuck chin hard to chest and grab their wrist
@@ -338,7 +336,7 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

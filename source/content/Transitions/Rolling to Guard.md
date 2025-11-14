@@ -8,7 +8,7 @@ description: "Master Rolling to Guard in BJJ. Dynamic defensive recovery from bo
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Rolling to Guard in BJJ. Dynamic defensive recovery from bo
 
 
 
-> **Quick Answer**: Rolling to Guard transitions from [[Defensive Position]] to [[Closed Guard]]. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%.
+> Rolling to Guard transitions from [[Defensive Position]] to [[Closed Guard]]. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Rolling to Guard is a fundamental defensive recovery technique that allows a pra
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create initial space with frames before committing to the roll
 - Use momentum and hip rotation rather than muscular force
 - Maintain awareness of opponent's position throughout the movement
@@ -186,7 +186,7 @@ Rolling to Guard is a fundamental defensive recovery technique that allows a pra
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent attempting to establish or maintain top control
 - Space created through frames on opponent's hips or shoulders
 - Body positioned on side rather than flat on back
@@ -199,7 +199,7 @@ Rolling to Guard is a fundamental defensive recovery technique that allows a pra
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish frames**: Create initial space by placing frames on opponent's hips, shoulders, or biceps. Push away to generate enough distance for the rolling motion to begin. Your frames should be strong but not rigid, allowing you to feel opponent's pressure and reactions. (Timing: Immediately when opponent attempts to close distance)
 2. **Turn to side**: Rotate your body onto your side, positioning your shoulder toward the mat. This creates the initial angle necessary for the roll and prevents you from being flattened. Your bottom arm should be ready to post on the mat for support. (Timing: As frames create initial space)
 3. **Tuck chin and initiate roll**: Tuck your chin to your chest to protect your neck and initiate the backward roll by driving off your shoulder. Your head should never touch the mat directly - the roll should go across the upper back and shoulders. Begin rotating your hips backward and overhead. (Timing: When opponent's pressure shifts or weight commits forward)
@@ -213,7 +213,7 @@ Rolling to Guard is a fundamental defensive recovery technique that allows a pra
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent follows the roll and maintains top pressure** (Effectiveness: High) - Your Response: Change direction mid-roll or transition to turtle position instead, then work turtle escapes or re-guard from there
 - **Opponent grabs legs during roll to prevent guard establishment** (Effectiveness: Medium) - Your Response: Kick legs away explosively or use momentum to complete the roll and immediately create distance with kicks and frames
 - **Opponent uses your roll to take back control** (Effectiveness: Medium) - Your Response: Adjust rolling direction to face opponent, or abort roll and transition to defensive turtle with chin tucked and hands protecting neck
@@ -222,25 +222,25 @@ Rolling to Guard is a fundamental defensive recovery technique that allows a pra
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rolling straight back instead of at an angle
+## Common Mistakes
+- **Mistake**: Rolling straight back instead of at an angle
   - **Consequence**: Opponent easily follows and maintains control, or you expose your back
   - **Correction**: Roll at 45-degree angle toward your shoulder, creating separation from opponent's center line
-- **Error**: Failing to protect neck during roll
+- **Mistake**: Failing to protect neck during roll
   - **Consequence**: Risk of neck injury, strained cervical spine, or opponent capitalizing on exposed neck
   - **Correction**: Keep chin tucked tightly to chest throughout entire rolling motion, never let head contact mat
-- **Error**: Rolling without creating initial space
+- **Mistake**: Rolling without creating initial space
   - **Consequence**: Insufficient room to complete rotation, opponent easily follows and smashes
   - **Correction**: Use frames to push opponent away 6-12 inches before initiating roll, time the movement when opponent shifts weight
-- **Error**: Stopping movement after completing roll
+- **Mistake**: Stopping movement after completing roll
   - **Consequence**: Opponent recovers position and passes guard before you establish control
   - **Correction**: Immediately establish guard structure with legs and secure grips, maintain continuous defensive activity
-- **Error**: Rolling too slowly or tentatively
+- **Mistake**: Rolling too slowly or tentatively
   - **Consequence**: Opponent has time to counter, adjust position, or follow your movement
   - **Correction**: Commit fully to the roll once initiated, use explosive hip drive to generate momentum
-- **Error**: Poor awareness of opponent position during roll
+- **Mistake**: Poor awareness of opponent position during roll
   - **Consequence**: Emerging with back to opponent or in vulnerable position
   - **Correction**: Keep eyes tracking opponent throughout movement, adjust roll direction as needed to face them
 
@@ -249,7 +249,7 @@ Rolling to Guard is a fundamental defensive recovery technique that allows a pra
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Solo Drilling** - Building basic rolling mechanics and body awareness
 Practice backward rolls without partner, focusing on smooth motion, neck protection, and controlled rotation. Start from seated position, progress to rolls from knees, then from standing. Emphasize chin tuck and shoulder positioning. Perform 20-30 repetitions daily.
 (Resistance: None)
@@ -276,7 +276,7 @@ Incorporate rolling to guard into full sparring rounds, using it reactively base
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Granby Roll to Guard**: More dynamic rolling variation where practitioner rolls over shoulder and uses momentum to come up to seated or standing guard position (When to use: Against less experienced opponents or when you have significant space and mobility, particularly effective for creating scrambles)
 
 **Roll to Turtle to Guard**: Rolling into turtle position first, then using turtle mechanics to recover guard rather than attempting direct guard establishment (When to use: When opponent has strong passing pressure or when direct guard recovery is being denied, provides intermediate defensive layer)
@@ -316,7 +316,7 @@ Incorporate rolling to guard into full sparring rounds, using it reactively base
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing rolling to guard, controlled execution is paramount to prevent neck and spine injuries. Always tuck your chin tightly to your chest and ensure the roll occurs across the upper back and shoulders, never directly on the head or neck. Begin practice on soft surfaces and progress gradually to standard mats. Avoid explosive or uncontrolled rolling during initial learning phases, building speed only as mechanics become consistent. Be aware of training partners during the dynamic movement and ensure adequate space for the roll. Partners should provide progressive resistance rather than attempting to spike or compress during the learning phase. Stop immediately if any neck discomfort occurs. Practitioners with existing neck or back injuries should consult medical professionals before practicing this technique.
 
@@ -324,7 +324,7 @@ When practicing rolling to guard, controlled execution is paramount to prevent n
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Rolling to guard serves as a critical link in the defensive hierarchy, connecting inferior bottom positions back to the guard-based game. Within the BJJ positional system, this technique represents the final line of defense before positions like turtle or back control are established. It integrates seamlessly with guard retention concepts, allowing practitioners to recover from failed guard retention attempts or passing scenarios. The technique connects to multiple guard variations - closed guard, open guard, butterfly guard, and seated guard - depending on the distance and positioning after the roll. It's particularly important in the guard recovery system, working in conjunction with technical standup, shrimping escapes, and turtle transitions. For competition strategy, rolling to guard prevents the point loss associated with allowing the pass to complete, and creates opportunities to immediately enter into sweeping or submission attacks from the recovered guard position.
 
@@ -332,7 +332,7 @@ Rolling to guard serves as a critical link in the defensive hierarchy, connectin
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Granby Roll]] - Advanced variation with similar mechanics
 - [[Granby to Closed Guard]] - Direct technical progression
@@ -352,7 +352,7 @@ Rolling to guard serves as a critical link in the defensive hierarchy, connectin
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The rolling to guard movement represents a fundamental application of rotational mechanics in defensive grappling. What makes this technique systematically valuable is its ability to convert linear pressure into rotational escape - you're essentially using the spherical nature of the human body to create a mechanical advantage against an opponent applying downward force. The key technical detail that separates effective from ineffective execution is the relationship between your center of mass and your opponent's center of mass during the rotation. You must create sufficient displacement before initiating the roll, otherwise the opponent's mass simply follows yours through the rotation maintaining the same relative position. The chin tuck is not merely a safety consideration - it's a biomechanical necessity that creates the proper rolling surface across the scapular region where your skeletal structure can safely support the rotational load. Train this movement with emphasis on the setup phase: the frames that create space are more important than the roll itself.
 - **Gordon Ryan**: In competition, rolling to guard is one of those movements that looks desperate but is actually a high-percentage defensive technique when executed with proper timing. I use this constantly when opponents are trying to consolidate passing positions or when I'm working my guard retention game against aggressive passers. The biggest mistake I see is people trying to roll when they're already flattened out - you need to stay on your side and create that initial angle or the opponent just rides you through the movement. What I focus on is making the roll explosive enough that even if the opponent follows, I'm creating a scramble situation where I can establish my guard structure before they can settle. Against elite level competition, you can't just roll and hope - you need to immediately be working grips, breaking posture, and establishing your guard game. I'll often roll to butterfly guard specifically because it gives me immediate sweeping options rather than having to work from a more static closed guard position.
 - **Eddie Bravo**: The roll to guard is fundamental in the 10th Planet system because we're always working from dynamic, movement-based positions rather than static guards. What people don't realize is that the roll itself can be an offensive weapon, not just a defensive escape. When you roll to guard properly, you're not just recovering position - you're creating momentum and angles that set up immediate attacks. I teach students to think of the roll as entry into lockdown, rubber guard, or even our spiral guard positions. The conventional approach treats it as pure defense, but if you add a gi or no-gi grip strategy to the movement, you can actually be setting up submissions or sweeps as you complete the roll. The key innovation we bring is using the rolling motion to create unconventional angles - don't just roll straight back like everyone expects, add spiral rotation or change the angle mid-movement to create confusion and openings for attacks.

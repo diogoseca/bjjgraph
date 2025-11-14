@@ -8,7 +8,7 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 65% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 65%.
 
 ---
 
@@ -187,7 +187,7 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent's leg is trapped in your figure-four configuration created by your legs, with your outside leg crossing over your inside leg to secure the entanglement at the knee joint
 - Your legs form a tight triangle around opponent's trapped leg, with your feet positioned to control the knee line and prevent rotational escape movements
@@ -201,7 +201,7 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of basic leg entanglement theory and systematic progression
 - Knowledge of proper hip positioning and maintenance of connection in leg attacks
@@ -230,7 +230,7 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Inside Heel Hook]] → [[Won by Submission]]
 
@@ -308,7 +308,7 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Open Guard]] (Opponent Success: 35%)
 - **[[Granby Roll]]** → [[Turtle]] (Opponent Success: 25%)
@@ -322,7 +322,7 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Hip Pressure and Angle Adjustment]]** → [[Inside Sankaku]]
   - Opponent attempts to create space by extending hips away
@@ -377,7 +377,7 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

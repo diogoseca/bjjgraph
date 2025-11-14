@@ -8,7 +8,7 @@ description: "Master the Arm Drag in BJJ. Complete guide from setup to back cont
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Arm Drag in BJJ. Complete guide from setup to back cont
 
 
 
-> **Quick Answer**: Arm Drag transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Arm Drag transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Mastery of the Arm Drag opens entire systematic approaches to grappling, as it s
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control both the wrist and tricep to prevent opponent's defensive reactions
 - Pull the arm across opponent's centerline to create angular advantage
 - Move your body behind opponent's shoulder line simultaneously with the drag
@@ -184,7 +184,7 @@ Mastery of the Arm Drag opens entire systematic approaches to grappling, as it s
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established grip on opponent's wrist with firm control
 - Secondary grip on opponent's tricep or upper arm
 - Ability to create initial angle or movement
@@ -197,7 +197,7 @@ Mastery of the Arm Drag opens entire systematic approaches to grappling, as it s
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish double grip control**: Secure a firm grip on opponent's wrist with your lead hand using a pistol grip (thumb inside their palm). Simultaneously grab their tricep or upper arm with your trailing hand, creating a frame that controls their entire arm structure. Your grips should be tight enough to prevent them from retracting their arm but relaxed enough to allow fluid movement. (Timing: Grip during opponent's forward pressure or hand fighting)
 2. **Pull arm across centerline**: Execute a strong pulling motion with both hands, dragging opponent's arm across their body's centerline and past their opposite shoulder. The wrist hand pulls in a circular arc while the tricep hand pushes slightly, creating a levering action. This motion should be explosive but controlled, disrupting their base and blocking their near-side defensive frames. (Timing: Pull as opponent commits weight forward or extends arm)
 3. **Step behind shoulder line**: As you pull their arm across, immediately step your outside foot past their shoulder line, positioning your body at approximately 45 degrees to their back. Your hips should drive forward and around simultaneously with the arm drag, creating momentum that compounds the positional advantage. Keep your chest low and connected to their trapped arm. (Timing: Step during the pulling motion, not after)
@@ -210,7 +210,7 @@ Mastery of the Arm Drag opens entire systematic approaches to grappling, as it s
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent retracts arm immediately when feeling initial grip** (Effectiveness: Medium) - Your Response: Anticipate the retraction and use it to pull yourself forward into their space, converting to different attacks like single leg or front headlock. Alternatively, maintain grips and follow their retraction to stay connected for re-attack.
 - **Opponent whizzers over your dragging arm to prevent back take** (Effectiveness: High) - Your Response: Accept the whizzer and transition to alternative positions like inside trip, or guard pull. The whizzer blocks the back take but opens other opportunities if you maintain connection and pressure.
 - **Opponent posts far hand and squares up to prevent angle** (Effectiveness: Medium) - Your Response: Attack the posted arm with Kimura grip or arm drag that side as well. Alternatively, use their posting as an opportunity to redirect your movement to their other side or enter on a different angle.
@@ -219,25 +219,25 @@ Mastery of the Arm Drag opens entire systematic approaches to grappling, as it s
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Pulling arm drag without simultaneous footwork
+## Common Mistakes
+- **Mistake**: Pulling arm drag without simultaneous footwork
   - **Consequence**: Opponent maintains position as you create space without gaining angle. The arm drag becomes ineffective if you don't move your body behind them.
   - **Correction**: Practice coordinating the arm pull with immediate foot movement. Your feet and hands must move together, not sequentially. Drill this timing until it becomes automatic.
-- **Error**: Keeping head too high during execution
+- **Mistake**: Keeping head too high during execution
   - **Consequence**: Opponent can secure guillotine or front headlock when your head is elevated. This is especially dangerous when arm dragging from standing.
   - **Correction**: Keep your head level with or below opponent's shoulder throughout the technique. Your forehead should nearly touch their shoulder blade as you circle behind them.
-- **Error**: Releasing grips too early before securing new control
+- **Mistake**: Releasing grips too early before securing new control
   - **Consequence**: Opponent escapes and recovers their defensive structure. The momentary disconnection allows them to turn into you and nullify your advantage.
   - **Correction**: Maintain at least one grip until you establish back control or alternative dominant position. Transition grips smoothly rather than releasing completely.
-- **Error**: Pulling arm straight back instead of across centerline
+- **Mistake**: Pulling arm straight back instead of across centerline
   - **Consequence**: Minimal disruption to opponent's base and posture. They can easily resist or counter when you pull in the wrong direction.
   - **Correction**: Focus on the circular, across-the-body path of the arm drag. The motion should redirect their arm past their opposite shoulder, creating maximum structural disruption.
-- **Error**: Failing to secure first hook immediately after drag
+- **Mistake**: Failing to secure first hook immediately after drag
   - **Consequence**: Opponent can turn into you and recover guard or neutral position. Without the hook, they have too much mobility to escape.
   - **Correction**: Drill the transition from arm drag to first hook as one continuous motion. The hook should be established within 1-2 seconds of completing the drag.
-- **Error**: Using arm drag from positions where opponent has superior base
+- **Mistake**: Using arm drag from positions where opponent has superior base
   - **Consequence**: Low success rate and wasted energy. Arm drags work best when opponent is mobile or off-balance, not when they're heavily rooted.
   - **Correction**: Set up arm drags with initial movements that disturb opponent's base first (snaps, pushes, pulls). Create the opportunity rather than forcing the technique against stable structure.
 
@@ -246,7 +246,7 @@ Mastery of the Arm Drag opens entire systematic approaches to grappling, as it s
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip establishment and basic pulling motion
 Practice establishing proper grips on static opponent. Drill the arm drag motion slowly, focusing on pulling across centerline and stepping behind shoulder line. Partner offers no resistance. Emphasize proper hand placement and body positioning.
 (Resistance: None)
@@ -277,7 +277,7 @@ Develop chains of techniques that begin with or complement arm drags. Study high
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Seated Guard Arm Drag**: Executed from seated guard position with feet on opponent's hips or knees. Pull their arm across while scooting your hips behind them to secure back control from bottom position. (When to use: When playing open guard variations or when opponent is standing in your guard. Particularly effective in no-gi where grip fighting is constant.)
 
 **Butterfly Guard Arm Drag**: Use butterfly hooks for elevation while executing arm drag. The lifting motion with hooks combines with arm drag to create enhanced off-balancing effect before taking back. (When to use: From butterfly guard when opponent drives forward. The hooks provide additional mechanical advantage and prevent them from sprawling away.)
@@ -319,7 +319,7 @@ Develop chains of techniques that begin with or complement arm drags. Study high
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The arm drag is generally a safe technique with low injury risk when executed properly. Primary safety concerns involve preventing guillotine exposure by maintaining proper head position below opponent's shoulder line throughout the technique. When drilling, start with slow, controlled repetitions to develop muscle memory before increasing speed. Partners should communicate clearly when practicing, especially during the transition to back control where hooks can accidentally strike sensitive areas. In gi training, be mindful of finger injuries when establishing grips - avoid hooking individual fingers inside sleeves. During competition or intense training, avoid over-committing to failed arm drags as this can expose you to counters or leave you off-balance. For beginners, practice establishing positional control after the drag before attempting immediate submissions to build systematic understanding and prevent rushing into vulnerable positions.
 
@@ -327,7 +327,7 @@ The arm drag is generally a safe technique with low injury risk when executed pr
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The arm drag serves as a fundamental connector between numerous positions in the BJJ state machine, functioning as both an entry and transition technique across the entire system. From standing positions, it creates pathways to back control, single leg takedowns, or front headlock scenarios. From bottom positions (seated guard, butterfly guard, closed guard), it provides the primary mechanism for reversing the position and securing top control or back mount. The technique integrates seamlessly with guard retention systems, serving as a counter to guard passing attempts where you can arm drag the passing arm and recover position. In the overall BJJ hierarchy, the arm drag represents a critical skill for any guard player or wrestler-based style, as it provides the angle creation necessary for most back takes and many sweeps. Mastery of the arm drag enables entire systematic approaches to competition, particularly in no-gi grappling where grip fighting and back takes dominate modern meta-games. Advanced practitioners build complete offensive systems where every guard position includes arm drag variations as primary attacking options, creating constant threats that opponents must defend while opening opportunities for alternative attacks.
 
@@ -335,7 +335,7 @@ The arm drag serves as a fundamental connector between numerous positions in the
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Back Control]] - Primary destination - arm drag's most common finishing position
 - [[Butterfly Guard]] - Starting position variant - arm drag from butterfly is common guard attack
@@ -352,7 +352,7 @@ The arm drag serves as a fundamental connector between numerous positions in the
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The arm drag is fundamentally a redirection of your opponent's structural support system. When properly executed, you're not merely pulling an arm - you're systematically dismantling their ability to maintain defensive frames and base. The key insight is understanding that the arm drag creates what I call a 'structural void' on one side of their body. By pulling their arm across their centerline, you remove the support structure on that side while simultaneously positioning yourself in the space where that support previously existed. This is why timing the footwork with the hand movement is absolutely critical - you must occupy that void before they can recover their structure. The most common error I see is students treating the arm drag as purely an upper body technique when it's actually a full-body redirection of force vectors. Your hips must move faster than their ability to turn and reestablish frames. Master this principle and the arm drag becomes not just a single technique but a systematic approach to creating angles throughout your entire game.
 - **Gordon Ryan**: In competition, the arm drag is my primary back take entry from standing and guard positions because it works at the highest levels when executed with proper timing and conviction. The secret most people miss is that the arm drag isn't about strength - it's about exploiting the exact moment when your opponent extends their arm or shifts their weight forward. I'm constantly creating situations where they must extend: pushing them away so they push back, pulling them forward so they post, or attacking their legs so they sprawl and post. Once they extend, I have maybe a half-second window to secure my grips and execute before they retract. Against high-level opponents, I often chain multiple arm drag attempts, using their defense to one side to set up the drag to the other side. The finish rate isn't what matters - it's the accumulation of dominant positions I gain from each attempt. Even when they defend the back take, I'm often getting side control, front headlock, or single leg opportunities. My entire no-gi game is built around variations of the arm drag from different guards because it's the highest-percentage method I've found for getting behind someone in modern grappling.
 - **Eddie Bravo**: The arm drag is one of those techniques that looks simple but opens up entire dimensions of movement when you really explore it. At 10th Planet, we've developed specific arm drag systems from rubber guard, lockdown, and truck positions that most traditional BJJ guys aren't familiar with. What I love about arm drags is they work regardless of whether you're bigger, smaller, stronger, or weaker than your opponent - it's pure leverage and timing. We teach our students to think of arm drags not as a destination but as a way of moving through positions fluidly. From rubber guard, we use arm drags to transition to omoplata, triangle, or back takes. From lockdown, we arm drag to electric chair or truck positions. The key innovation in our system is combining arm drags with unconventional positions where opponents don't expect them. Most people only drill arm drags from traditional positions, but once you start hitting them from weird angles or inverted positions, it becomes this creative, flowing movement that keeps opponents completely off-balance. The rubber guard to arm drag to back take sequence is probably one of the highest-percentage finishes we have against people who don't train in our system regularly.

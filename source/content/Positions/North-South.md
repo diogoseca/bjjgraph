@@ -13,10 +13,6 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 
 
 
-> **Quick Overview**: North-South position represents one of the most controlling pin positions in Brazilian Jiu-Jitsu, characterized by perpendicular body alignment where the top player's chest covers the bottom player's ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -60,31 +56,19 @@ The position demands different strategic approaches based on whether you're esta
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low |
-| Energy Cost | High | Low |
-| Time Sustainability | Short | Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low |
+| **Energy Cost** | High | Low |
+| **Time** | Short | Long |
 
-**What Makes This Position Unique:** Perpendicular alignment maximizes pressure
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[North-South/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[North-South/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Perpendicular alignment maximizes pressure
 
 
 
@@ -92,10 +76,13 @@ The position demands different strategic approaches based on whether you're esta
 
 <section id="bottom-summary" class="content-section">
 
-## North-South Bottom Perspective
+
+## Playing as Bottom
+
+[[North-South/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in north-south must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -144,7 +131,7 @@ The bottom player in north-south must focus on creating frames, protecting again
   - Success Rate: Beginner 5%, Intermediate 15%, Advanced 30%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting explosive full-body scrambles under heavy pressure**
@@ -176,16 +163,17 @@ The bottom player in north-south must focus on creating frames, protecting again
   - ✅ Correction: Keep near arm tight to body or establish cross-face frame while escaping to prevent arm isolation
 
 
-👉 **[[North-South/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## North-South Top Perspective
+
+## Playing as Top
+
+[[North-South/Top|→ Full Top Guide]]
 
 
-The top player in north-south balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -240,7 +228,7 @@ The top player in north-south balances control maintenance with submission attac
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Sitting weight back toward opponent's hips instead of forward over chest**
@@ -271,8 +259,6 @@ The top player in north-south balances control maintenance with submission attac
   - Consequence: Makes position vulnerable to bridge and roll escapes, reduces stability during opponent's explosive movements
   - ✅ Correction: Widen base and lower hips immediately when sensing escape attempts, use sprawl-like posture to prevent rolls
 
-
-👉 **[[North-South/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

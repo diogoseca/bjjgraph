@@ -8,7 +8,7 @@ description: "Master psychological preparation and mental skills for peak compet
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master psychological preparation and mental skills for peak compet
 
 
 
-> **Quick Answer**: Competition Mindset is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Competition Mindset is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Develop psychological skills systematically through deliberate practice rather than assuming mental toughness develops automatically through experience
 - Recognize optimal competition arousal level varies individually and must be calibrated to personal performance patterns
 - Structure pre-competition routines to create consistent psychological preparation and reduce anxiety through predictability
@@ -181,7 +181,7 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Pre-Competition Arousal Regulation**: The ability to recognize and adjust physiological and psychological arousal levels before matches to reach optimal competitive state. This includes managing nervous energy, controlling breathing patterns, and using visualization or physical warm-up protocols to calibrate intensity levels appropriate for peak performance without excessive anxiety or insufficient activation.
 
 **In-Competition Attention Control**: The capacity to maintain focus on relevant tactical and technical cues during matches while filtering out distractions, negative thoughts, and outcome concerns. This skill involves directing attention to controllable execution elements, reading opponent patterns, and maintaining present-moment awareness rather than dwelling on past mistakes or future consequences.
@@ -204,7 +204,7 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Match Strategy]]** (Complementary): Competition mindset enables effective execution of match strategy by providing the psychological stability and decision-making capacity necessary to implement tactical plans under pressure, while match strategy provides the cognitive framework that focuses mental energy productively during competition.
 - **[[Game Planning]]** (Prerequisite): Effective game planning creates the tactical foundation that competition mindset implements during matches. The psychological confidence derived from thorough game planning reduces anxiety and provides clear decision-making frameworks that prevent mental paralysis under pressure.
 - **[[Energy Management System]]** (Complementary): Competition mindset influences energy management through psychological regulation of intensity levels and pacing decisions, while effective energy management supports sustained mental performance by preventing physical fatigue that degrades cognitive function and emotional control during matches.
@@ -223,7 +223,7 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Competition mindset enables maintaining offensive initiative from closed guard despite psychological pressure to play defensively when behind on points, supporting aggressive sweep and submission attempts rather than passive position holding driven by fear of losing position.
 
 **Mount**: Strong competition mindset prevents premature submission attempts from mount driven by anxiety about time running out, supporting patient control consolidation and systematic attack sequences that maximize finishing probability rather than desperate low-percentage attempts.
@@ -264,7 +264,7 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Pre-Competition State Assessment**: Evaluate current arousal level and psychological state several hours before competition, identifying whether activation is too low (lethargic, unmotivated), optimal (energized but controlled), or too high (anxious, scattered). Implement appropriate adjustment protocols such as energizing activities if under-aroused or calming techniques if over-aroused to reach optimal competitive state.
 2. **Routine Execution Check**: Systematically execute pre-competition routine including physical warm-up, tactical review, visualization, and mental preparation protocols developed in training. Use routine consistency to create psychological stability and familiar preparation pattern regardless of competition environment or circumstances, reducing uncertainty-driven anxiety.
 3. **Match Beginning Focus Establishment**: As match begins, direct attention immediately to first tactical objective from game plan (grip fighting, takedown attempt, guard pull) rather than outcome concerns or opponent's reputation. Establish process focus on technical execution and tactical implementation that channels nervous energy productively into competitive action.
@@ -277,25 +277,25 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Assuming competition mindset develops automatically through repeated competition exposure without systematic mental skills training
+## Common Mistakes
+- **Mistake**: Assuming competition mindset develops automatically through repeated competition exposure without systematic mental skills training
   - **Consequence**: Practitioners experience same psychological difficulties repeatedly across multiple competitions without improvement, as exposure alone does not develop emotional regulation and cognitive skills required for optimal performance under pressure
   - **Correction**: Implement deliberate mental skills training including visualization, arousal regulation techniques, adversity response protocols, and attention control exercises integrated into regular training schedule, treating psychological preparation as trainable capability requiring systematic development like physical or technical preparation
-- **Error**: Attempting to eliminate pre-competition nervousness completely rather than channeling nervous energy productively
+- **Mistake**: Attempting to eliminate pre-competition nervousness completely rather than channeling nervous energy productively
   - **Consequence**: Creates additional anxiety about experiencing anxiety, compounding psychological pressure through meta-anxiety about mental state, while missing opportunity to use natural arousal response as performance enhancer when properly directed
   - **Correction**: Reframe pre-competition nervousness as normal and potentially beneficial activation response, developing skills to channel nervous energy into focus and intensity rather than attempting complete elimination of arousal that may result in under-activation and poor performance
-- **Error**: Focusing predominantly on outcome goals (winning, medal placement) rather than process goals (technical execution, tactical implementation) during competition
+- **Mistake**: Focusing predominantly on outcome goals (winning, medal placement) rather than process goals (technical execution, tactical implementation) during competition
   - **Consequence**: Creates outcome-dependent anxiety that degrades performance by directing attention to uncontrollable results rather than controllable execution, increasing pressure proportionally to perceived importance of outcome and making performance quality paradoxically worse in most important competitions
   - **Correction**: Develop and practice process-focused attention during competition, directing mental energy to specific technical objectives, tactical execution elements, and controllable performance factors rather than winning or losing, allowing optimal performance to emerge from quality execution rather than outcome pressure
-- **Error**: Using identical psychological approach for all competitions regardless of individual arousal patterns, competition importance, or specific psychological challenges
+- **Mistake**: Using identical psychological approach for all competitions regardless of individual arousal patterns, competition importance, or specific psychological challenges
   - **Consequence**: Mental preparation becomes ineffective one-size-fits-all approach that may work for some competition contexts but fails in others, missing opportunity to calibrate psychological preparation to specific individual needs and situational demands
   - **Correction**: Develop individualized mental preparation protocols based on personal arousal patterns, psychological strengths and vulnerabilities, and specific competition context, adjusting pre-competition routines, intensity management, and focus strategies to match both personal patterns and situational requirements
-- **Error**: Avoiding pressure situations in training to prevent psychological discomfort, limiting exposure to competitive stress before actual competition
+- **Mistake**: Avoiding pressure situations in training to prevent psychological discomfort, limiting exposure to competitive stress before actual competition
   - **Consequence**: Insufficient development of adversity response patterns and decision-making under pressure, resulting in poor psychological performance when first encountering competitive stress during actual competitions where stakes are highest and pressure is most intense
   - **Correction**: Systematically incorporate pressure situations into training through hard sparring, positional sparring with consequences, competition simulation, and deliberately difficult training scenarios that develop adversity response capabilities and psychological resilience before competitive contexts
-- **Error**: Treating post-competition analysis as purely technical review while ignoring psychological performance assessment and mental skills development
+- **Mistake**: Treating post-competition analysis as purely technical review while ignoring psychological performance assessment and mental skills development
   - **Consequence**: Misses critical opportunity to learn from psychological challenges encountered during competition, identify mental skills requiring development, and refine mental preparation protocols based on actual competitive experience and performance data
   - **Correction**: Include systematic psychological performance review in post-competition analysis examining arousal management, attention control, adversity response, decision-making quality, and overall mental state, using insights to identify specific mental skills requiring additional training and adjust preparation protocols for future competitions
 
@@ -304,7 +304,7 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Competition Simulation Training** (Focus: Developing adversity response patterns, decision-making under pressure, and intensity management through repeated exposure to competition-like stress in training context where stakes are lower and learning opportunities are maximized through repetition and controlled progression.)
 Structured training sessions designed to replicate psychological and physical demands of competition through timed rounds, scoring systems, consequences for losses, and external pressure elements creating stress approximating competitive environment.
 
@@ -329,7 +329,7 @@ Structured review process after training sessions examining both technical execu
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Experiences significant anxiety before and during competitions that noticeably degrades technical performance quality compared to training environment
 - Demonstrates outcome-focused attention during matches with frequent concern about winning or losing rather than process-focused execution of techniques
@@ -368,7 +368,7 @@ Structured review process after training sessions examining both technical execu
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Match Strategy]] (Principle) - Competition mindset provides the psychological foundation necessary to execute match strategy effectively under pressure
 - [[Game Planning]] (Principle) - Thorough game planning reduces competition anxiety by providing clear tactical frameworks and decision-making structures
@@ -388,7 +388,7 @@ Structured review process after training sessions examining both technical execu
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches competition mindset from systematic skill development perspective, treating psychological preparation as trainable capability rather than innate quality. Emphasizes what he terms 'process orientation' where competitors focus attention on tactical execution and technical details rather than outcome concerns about winning or losing. Particularly advocates for extensive exposure to competitive pressure in training through hard sparring and competition simulation, viewing pressure experience as essential for developing psychological resilience rather than relying on theoretical mental training alone. Systematically identifies common psychological failure patterns including outcome-focused anxiety, adversity-triggered resignation, and intensity mismanagement, then develops specific mental protocols addressing each vulnerability. Views competition mindset as force multiplier that determines whether technical and physical preparation manifests under pressure or remains inaccessible due to psychological interference. Emphasizes that elite competitors distinguish themselves not primarily through superior techniques but through superior ability to execute techniques under psychological pressure when opponents cannot.
 - **Gordon Ryan**: Views competition mindset as competitive weapon that enables aggressive tactical approaches and sustained intensity throughout matches while opponents crack under pressure. Focuses heavily on what he terms 'competitive confidence' rooted in extensive preparation creating justified belief in superior conditioning, technique, and tactical preparation. Emphasizes importance of developing comfort with discomfort through brutal training protocols that make competitions feel psychologically manageable by comparison, creating psychological advantage when opponents face unfamiliar intensity levels. Advocates for constructive use of competitive anger and aggression as performance enhancers when properly channeled rather than viewing these emotions as purely negative factors requiring suppression. Particularly emphasizes pre-competition certainty developed through preparation quality, entering competitions with conviction that victory is inevitable result of superior preparation rather than hopeful possibility. Views psychological collapse of opponents under pressure as predictable and exploitable phenomenon, deliberately increasing pressure when sensing opponent psychological vulnerability. Treats mental preparation as strategic advantage allowing tactical risk-taking that would be reckless without psychological foundation supporting aggressive execution.
 - **Eddie Bravo**: Approaches competition mindset with emphasis on authenticity and self-awareness rather than adopting generic mental approaches that may not match individual personality. When teaching mental preparation, emphasizes importance of understanding personal arousal patterns and anxiety responses, then developing individualized strategies rather than universal protocols that work for some but not others. Particularly interested in managing catastrophic thinking and worst-case scenario anxiety through rational analysis of actual consequences, helping competitors recognize that even worst competition outcomes are manageable and temporary rather than catastrophic as anxiety suggests. Views pre-competition nervousness as normal response that can be channeled productively rather than problem requiring elimination, reframing nervous energy as activation supporting performance rather than obstacle to overcome. Advocates for psychological preparation that embraces individual personality rather than forcing conformity to idealized competitor archetype, recognizing some athletes perform better with certain anxiety levels while others require different arousal states. Emphasizes learning from competition experience without harsh self-judgment, viewing losses and difficulties as information sources rather than personal failures, creating sustainable long-term relationship with competition rather than psychologically damaging approach that leads to burnout or competition avoidance.

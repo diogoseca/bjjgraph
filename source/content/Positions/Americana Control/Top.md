@@ -8,7 +8,7 @@ description: "Master Americana finishing techniques from top. Complete offensive
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Americana finishing techniques from top. Complete offensive
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Americana finishing techniques from top. Complete offensive
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75%.
 
 ---
 
@@ -187,7 +187,7 @@ Attacking with the Americana from top position provides a high-percentage submis
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player controls bottom player's arm in figure-four configuration with wrist grip established and own wrist secured to create closed loop of control
 - Top player maintains pressure on bottom player's shoulder and torso through strategic weight distribution, preventing bridge escape while maintaining submission angle
@@ -198,7 +198,7 @@ Attacking with the Americana from top position provides a high-percentage submis
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Ability to isolate opponent's arm from dominant top positions
 - Understanding of figure-four grip mechanics
@@ -225,7 +225,7 @@ Attacking with the Americana from top position provides a high-percentage submis
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Americana Finish]] → [[Won by Submission]]
 
@@ -275,7 +275,7 @@ Attacking with the Americana from top position provides a high-percentage submis
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hand Fight and Bridge]]** → [[Mount]] (Opponent Success: 35%)
 - **[[Roll to Turtle]]** → [[Turtle]] (Opponent Success: 25%)
@@ -286,7 +286,7 @@ Attacking with the Americana from top position provides a high-percentage submis
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Adjust Angle for Deeper Lock]]** → [[Americana Control]]
   - When opponent attempts to hand fight, adjust body angle to increase shoulder pressure
@@ -321,7 +321,7 @@ Attacking with the Americana from top position provides a high-percentage submis
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

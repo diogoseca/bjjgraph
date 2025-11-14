@@ -8,7 +8,7 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 
 
 
-> **Quick Answer**: Brabo Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Brabo Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="safety-considerations" class="content-section">
 
-## Is Brabo Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Head and arm control from front headlock establishes submission opportunity
 - Deep arm insertion under near arm creates choking surface across carotid arteries
 - Bicep grip completion locks the choke mechanism in place
@@ -225,7 +225,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish dominant front headlock position with head control
 - Opponent's near arm must be controlled or positioned for arm threading
 - Your chest must be heavy on opponent's upper back to prevent posture recovery
@@ -239,7 +239,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure dominant front headlock position**: From standing or ground front headlock, establish strong head control with your primary arm wrapped around opponent's head. Your chest should be heavy on their upper back, preventing them from posturing up. Control their posture by pulling their head toward your hip while maintaining shoulder pressure downward. Ensure your weight is distributed to prevent opponent from rolling or scrambling away. (Timing: Establish control before attempting arm insertion - 2-3 seconds of stable position) [Pressure: Firm]
 2. **Thread choking arm under opponent's near arm**: Identify the opponent's near arm (same side as their controlled head). Slide your free arm under their armpit, driving deep across their neck. Your forearm should cross the front of their throat with the blade of your forearm (pinky side) positioned against the near-side carotid artery. Keep your elbow tight and continue threading until your hand emerges on the far side of their neck. This deep insertion is critical for effectiveness. (Timing: Smooth insertion over 2-3 seconds - do not rush or force) [Pressure: Moderate]
 3. **Secure bicep grip to lock the choke**: Once your choking arm is fully threaded, reach your choking hand to grip your own bicep of the head-control arm. This creates a closed circuit where your arms form a tight loop around opponent's neck and trapped arm. Alternatively, you can grip your own wrist for a tighter lock. The grip completion transforms separate controls into a unified choking mechanism. Ensure the grip is deep and secure before applying pressure. (Timing: Grip must be secured before pressure application - 1-2 seconds) [Pressure: Light]
@@ -252,7 +252,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Hand fighting to prevent arm insertion under armpit** (Effectiveness: High) - Your Adjustment: Use head control to break opponent's posture downward, creating space. Alternatively, fake the insertion to elicit a reaction, then thread when they adjust. Use your free hand to clear their defensive hand before threading.
 - **Tucking chin and pulling head away from your hip** (Effectiveness: Medium) - Your Adjustment: Increase shoulder pressure on their upper back to prevent posture recovery. Circle away from their head movement while maintaining front headlock control. Consider transitioning to Anaconda choke if angle changes significantly.
 - **Rolling toward you to relieve pressure and escape** (Effectiveness: Medium) - Your Adjustment: Follow the roll while maintaining grip and chest pressure. Land in modified mount or side control position with choke still locked. Use the momentum of their roll to tighten the choke further.
@@ -262,28 +262,28 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Threading arm too shallow, failing to reach deep across neck [High DANGER]
+## Common Mistakes
+- **Mistake**: Threading arm too shallow, failing to reach deep across neck [High DANGER]
   - **Consequence**: Choke pressure focuses on trachea (painful air choke) rather than carotids (effective blood choke), giving opponent time to escape
   - **Correction**: Drive elbow deep through the armpit until your hand emerges past far side of neck. Your forearm should bisect their neck completely, with wrist visible on far side.
-- **Error**: Applying sudden jerking pressure instead of progressive compression [CRITICAL DANGER]
+- **Mistake**: Applying sudden jerking pressure instead of progressive compression [CRITICAL DANGER]
   - **Consequence**: Risk of neck injury, trachea damage, or causing panic in training partner
   - **Correction**: Build pressure gradually over 3-5 seconds in training. Smooth, progressive compression is both safer and more effective than explosive pressure.
-- **Error**: Poor angle - body positioned parallel to opponent instead of perpendicular
+- **Mistake**: Poor angle - body positioned parallel to opponent instead of perpendicular
   - **Consequence**: Lost mechanical advantage, weak choking pressure, easy escape for opponent
   - **Correction**: Rotate body perpendicular to opponent's spine with your chest across their back. Your shoulder should drive into side of their neck, not the back of their head.
-- **Error**: Losing head control while attempting arm thread [Medium DANGER]
+- **Mistake**: Losing head control while attempting arm thread [Medium DANGER]
   - **Consequence**: Opponent postures up and escapes front headlock entirely, nullifying submission attempt
   - **Correction**: Maintain constant downward pressure with head-control arm throughout threading process. Your chest stays heavy on their back - never lift weight to thread arm.
-- **Error**: Gripping too high on own arm instead of deep bicep grip [Low DANGER]
+- **Mistake**: Gripping too high on own arm instead of deep bicep grip [Low DANGER]
   - **Consequence**: Loose circuit allows neck escape space, opponent can turn head and relieve pressure
   - **Correction**: Grip as deep as possible on your own bicep, pulling elbows together to eliminate space. Tight grip = tight choke.
-- **Error**: Continuing pressure after tap signal or loss of resistance [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after tap signal or loss of resistance [CRITICAL DANGER]
   - **Consequence**: Potential unconsciousness, serious injury, loss of training partner trust
   - **Correction**: Release immediately upon ANY tap signal or if opponent's body goes limp. Always err on side of early release in training.
-- **Error**: Raising hips too high during finish, allowing opponent to escape underneath [Low DANGER]
+- **Mistake**: Raising hips too high during finish, allowing opponent to escape underneath [Low DANGER]
   - **Consequence**: Opponent slips out the back door and escapes to guard or reverses position
   - **Correction**: Keep hips low throughout finish. Weight should be distributed with chest on opponent's back and hips controlling their hip movement.
 
@@ -292,7 +292,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Brabo Choke from Turtle**: When opponent turtles, establish front headlock control and thread arm under their near arm before they can strengthen defensive posture. The turtle position provides excellent setup opportunity. (When to use: Opponent turtles to defend guard pass or takedown; very common in competition)
 
 **Rolling Brabo from Failed Shot**: After failed takedown attempt when you're stuck in front headlock, thread the Brabo and use opponent's forward pressure to roll them over you, landing in top position with choke locked. (When to use: Your takedown is defended and opponent has strong sprawl pressure)
@@ -337,7 +337,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Solo and Demonstration)** (Week 1-2)
 - Focus: Understanding anatomy, proper arm threading mechanics, and grip positions without live partner. Practice on grappling dummy if available. Study video and receive detailed instruction on carotid vs trachea targeting.
 - Resistance: None
@@ -374,7 +374,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Turtle]]
@@ -390,7 +390,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Darce Choke]]
 - [[Anaconda Choke]]
@@ -428,7 +428,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Brabo Choke represents a critical component of the front headlock submission system. What makes this technique particularly valuable is the mechanical advantage created by the opponent's own trapped arm working against them - they literally cannot defend without first escaping the structural control, which is precisely what the choke prevents. The key technical detail that most practitioners miss is the necessity of achieving a perpendicular body angle to the opponent's spine. This isn't merely positional preference - it's biomechanical requirement for efficient carotid compression. When your shoulder drives into the side of their neck while your forearm compresses from the anterior position, you create a scissoring effect that simultaneously attacks both carotid arteries. The progressive pressure application in training serves dual purposes: it allows your partner safety to recognize entrapment and tap, while also teaching you to feel the proper mechanics of the finish rather than relying on explosive, sloppy pressure. From a systematic perspective, the Brabo should never be trained in isolation but rather as one component of the complete front headlock system, chaining seamlessly with Anaconda variations, standard guillotine, and arm-in guillotine options to create a decision tree that overwhelms opponent defensive capacity.
 - **Gordon Ryan**: The Brabo is one of my highest percentage finishes from turtle and front headlock positions because of how it capitalizes on opponent mistakes during scrambles. In competition, when guys are fighting hard to prevent guard passes or recover from takedown attempts, they create the exact defensive posture - tight elbows, head down - that opens the Brabo entry. Here's what makes it different from sport to training: in competition, once I have the grip completed and angle set, I'm finishing fast - maybe 2-3 seconds of pressure maximum. In training, I'm taking 5+ seconds minimum and releasing the instant I feel the tap. That distinction is crucial because blood chokes work terrifyingly fast when applied correctly, and there's no place for ego in the training room. The technique detail I focus on is grip depth - I want my hand past the far side of their neck, not just touching it. Shallow grip equals weak choke that gets defended; deep grip equals instant tap when I adjust the angle. I'll often fake the Brabo entry to get them defending it, then switch to Anaconda when they adjust, or vice versa. The combination of both threats from front headlock is what makes the position so dominant in modern competition. Also worth noting: this is not a technique to use on training partners who don't understand it yet. You need partners who recognize when they're caught and tap intelligently, because the finish happens faster than most submissions.
 - **Eddie Bravo**: The Brabo is beautiful because it works equally well in gi and no-gi, and it's one of those submissions where the scramble is your friend. At 10th Planet we emphasize attacking from chaos, and the Brabo shows up naturally when things get messy - failed shots, turtle attacks, guard passing scrambles - all create opportunities. What I really love about this choke is how it chains with other front headlock attacks to create that Danaher-style decision tree. Threaten the guillotine, they defend, switch to Brabo. They defend the Brabo arm insertion, flip to Anaconda. They defend everything, you've got front headlock control for back takes. The key innovation I teach is using the rolling Brabo variation when someone sprawls hard on your takedown - instead of fighting the pressure, thread the Brabo and use their own forward pressure to roll them right over you. You land in top position with the choke locked. It's pure jiu jitsu - using their energy against them. Safety-wise though, this is one where you need to be extra careful. Blood chokes don't give you much warning before you're going out, so in the training room we have a hard rule: tap early on neck attacks, release instantly when partner taps, no exceptions. We're trying to build careers, not win training rounds. The Brabo is too effective to be careless with - respect the technique, respect your training partners, and it becomes one of the most reliable finishes in your arsenal.

@@ -8,7 +8,7 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 
 
 
-> **Quick Answer**: Energy Conservation is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Energy Conservation is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu tha
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Strategic resource allocation throughout match duration
 - Efficient movement patterns that minimize wasted energy
 - Selective resistance based on positional hierarchy
@@ -180,7 +180,7 @@ Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu tha
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Efficient Base Mechanics**: Maintaining stable positions using skeletal structure and leverage rather than muscular effort, allowing prolonged defensive holds without excessive energy expenditure through proper weight distribution and frame positioning.
 
 **Selective Engagement**: Recognizing which battles are worth fighting based on positional value and match context, conceding low-value positions to preserve energy for defending or attacking from positions with greater strategic importance.
@@ -201,7 +201,7 @@ Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu tha
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Maximum Efficiency Principle]]** (Complementary): Energy conservation implements maximum efficiency through strategic resource allocation and movement economy
 - **[[Position-Over-Submission Approach]]** (Complementary): Positional control requires less energy than constant submission attempts, supporting conservative energy expenditure
 - **[[Defensive Strategy]]** (Complementary): Defensive frameworks often emphasize energy conservation through efficient escapes and selective resistance patterns
@@ -220,7 +220,7 @@ Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu tha
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Use leg squeeze and posture breaking intermittently rather than constantly, conserving hip flexor and core energy while maintaining control
 
 **Side Control**: When bottom, frame efficiently and wait for escape opportunities rather than explosive scrambling; when top, use weight distribution not muscle
@@ -257,7 +257,7 @@ Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu tha
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current positional value and match context**: Determine whether current position warrants high-energy defense or acceptance of transition to less critical position
 2. **Evaluate personal energy reserves relative to match remaining time**: Make strategic decision about energy allocation based on remaining duration and current physical state
 3. **Identify opponent energy state through breathing, movement quality, and grip strength**: Adjust pace and pressure to exploit opponent fatigue or conserve energy against fresh opponent
@@ -270,25 +270,25 @@ Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu tha
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Constant high-intensity effort regardless of positional importance
+## Common Mistakes
+- **Mistake**: Constant high-intensity effort regardless of positional importance
   - **Consequence**: Premature exhaustion leading to technical degradation and defensive vulnerabilities in critical match moments
   - **Correction**: Develop positional hierarchy awareness and reserve explosive efforts for positions with significant strategic value or decisive submission opportunities
-- **Error**: Explosive escape attempts without proper setup or timing
+- **Mistake**: Explosive escape attempts without proper setup or timing
   - **Consequence**: Wasted energy on low-probability escapes while failing to create actual positional improvements or ending in worse positions
   - **Correction**: Wait for optimal escape timing when opponent weight shifts or makes positional errors rather than forcing constant escape attempts
-- **Error**: Muscular resistance against superior positional pressure
+- **Mistake**: Muscular resistance against superior positional pressure
   - **Consequence**: Rapid energy depletion fighting unwinnable battles while opponent maintains control using structural advantages and weight
   - **Correction**: Use frame-based structural defense and accept temporary positional disadvantages to preserve energy for better escape opportunities
-- **Error**: Breath-holding during defensive exchanges or submission escapes
+- **Mistake**: Breath-holding during defensive exchanges or submission escapes
   - **Consequence**: Oxygen debt accumulation causing rapid fatigue, reduced cognitive function, and panic responses under continued pressure
   - **Correction**: Maintain conscious breathing awareness during all exchanges and prioritize breathing even while defending difficult positions
-- **Error**: Failing to recognize recovery opportunities in neutral positions
+- **Mistake**: Failing to recognize recovery opportunities in neutral positions
   - **Consequence**: Continuous high-intensity engagement without energy restoration leading to progressive performance degradation throughout match
   - **Correction**: Actively seek stable positions allowing partial recovery such as closed guard or turtle when energy levels are depleted
-- **Error**: Matching opponent's pace regardless of energy state or strategic position
+- **Mistake**: Matching opponent's pace regardless of energy state or strategic position
   - **Consequence**: Loss of strategic control over match tempo and energy expenditure rates, allowing opponent to dictate engagement intensity
   - **Correction**: Implement deliberate pace control through guard pulling, stalling in advantageous positions, and selective engagement
 
@@ -297,7 +297,7 @@ Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu tha
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Flow Rolling with Energy Awareness** (Focus: Developing conscious awareness of energy use patterns and efficient movement pathways through low-intensity technical practice)
 Practice rolling at reduced intensity while maintaining technical quality, focusing on movement efficiency and identifying unnecessary energy expenditure patterns
 
@@ -319,7 +319,7 @@ Regular practice against larger or stronger opponents requiring technical effici
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Frequently exhausted after 3-5 minute rounds with significant technical degradation
 - Constant high-intensity effort regardless of position or strategic value
@@ -360,7 +360,7 @@ Regular practice against larger or stronger opponents requiring technical effici
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Maximum Efficiency Principle]] (Principle) - Complementary principle focusing on technical efficiency supporting energy conservation
 - [[Pacing]] (Principle) - Direct extension implementing energy conservation through tempo control
@@ -380,7 +380,7 @@ Regular practice against larger or stronger opponents requiring technical effici
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Energy conservation represents a fundamental strategic component of high-level competition. The practitioner must understand that Brazilian Jiu-Jitsu at elite levels is fundamentally a war of attrition where the individual who can maintain technical proficiency deepest into the match often prevails. This requires sophisticated understanding of positional hierarchy and strategic importance, allowing practitioners to make rational decisions about energy allocation. You must resist in proportion to threat level and positional value, not emotional responses to being controlled. The mechanically efficient athlete using skeletal structures and leverage rather than muscular force can outlast even physically superior opponents through superior resource management and movement economy.
 - **Gordon Ryan**: In competition, I'm constantly thinking about energy management and when to turn up the pressure versus when to coast. Early in matches I maintain technical control without unnecessary explosiveness, especially if I secure early advantages. This allows me to maintain peak performance in final minutes when opponents are exhausted and making mistakes. I've won numerous matches in the final minute against fatigued opponents who used excessive energy earlier. The key is being comfortable in bad positions without panicking—you can survive bad spots using frames and structure without blowing your gas tank. When I sense opponent fatigue through slower movements or heavy breathing, I increase pace and pressure to exploit their depleted state. It's a huge competitive advantage.
 - **Eddie Bravo**: Energy conservation is essential for the 10th Planet system because our game involves dynamic transitions and explosive submission attacks that require burst energy. We emphasize positions like lockdown and rubber guard that allow recovery while maintaining control—you can breathe and recover in Mission Control while opponent is stuck defending. The key is learning when to explode and when to chill. If you're constantly going 100 percent, you'll gas out before getting to your best positions. We teach students to recognize recovery moments within our system, using leg positions that control opponent while allowing breathing. This conservation allows explosive attacks on high-percentage submission opportunities when they appear, rather than constant scrambling that depletes energy without positional improvement.

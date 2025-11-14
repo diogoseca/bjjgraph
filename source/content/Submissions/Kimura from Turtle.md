@@ -8,7 +8,7 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 
 
 
-> **Quick Answer**: Kimura from Turtle is a shoulder lock targeting the Shoulder joint, rotator cuff, and associated ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kimura from Turtle is a shoulder lock targeting the Shoulder joint, rotator cuff, and associated ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kimura from Turtle Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -220,7 +220,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Establish firm figure-four grip with proper hand positioning before applying any rotational pressure
 - Control opponent's posture and prevent forward movement using body weight and hip pressure
 - Create the proper angle by positioning perpendicular or slightly past perpendicular to opponent's body
@@ -234,7 +234,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent is in defensive turtle position with weight distributed on hands and knees
 - You have established top control with at least one hand controlling near the opponent's head or shoulders
 - Opponent's arm is exposed and accessible, ideally with elbow away from body or reaching forward
@@ -248,7 +248,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure initial arm control**: From top turtle position, identify the exposed arm (typically the arm furthest from you or posting forward). Use your near hand to control the opponent's wrist or tricep area. Apply downward pressure to prevent them from pulling the arm back to their body. Position your body at approximately 45-90 degrees to their torso to create the proper attacking angle. (Timing: Establish control before opponent recognizes the threat) [Pressure: Moderate]
 2. **Thread your attacking arm**: Thread your attacking arm (same side as their exposed arm) underneath their arm, moving from outside to inside. Your forearm should pass under their tricep/elbow area. Keep your elbow tight and maintain constant contact with their arm. Your hand should emerge on the inside of their arm, near their head. Maintain hip pressure on their back to prevent them from sitting back or rolling away. (Timing: Quick insertion while maintaining control) [Pressure: Moderate]
 3. **Establish figure-four grip**: With your threading arm now under their arm, reach across and grab your own wrist with your opposite hand, creating the characteristic figure-four configuration. The opponent's wrist should be controlled with your initial controlling hand. Ensure the grip is tight and positioned with your forearm across the back of their shoulder. Your elbows should be close together, creating a solid structural frame. The opponent's arm should be bent at approximately 90 degrees or slightly more. (Timing: Secure grip before applying rotational pressure) [Pressure: Firm]
@@ -262,7 +262,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Pulling trapped arm back to body and tucking elbow tight** (Effectiveness: High) - Your Adjustment: Before they can fully retract the arm, use your body weight to drive into their shoulder and control their posture. Move your hips forward to cut off the angle of escape. If needed, use your legs to hook their far leg and prevent them from sitting back. Alternatively, abandon the submission and transition to back control or another dominant position while maintaining the Kimura grip for control.
 - **Rolling forward or to the side with the Kimura direction** (Effectiveness: Medium) - Your Adjustment: Follow the roll while maintaining the figure-four grip and keeping your chest connected to their shoulder. As they roll, use the momentum to establish mount or side control position. The Kimura grip remains intact and can be used to control them in the new position. Some practitioners intentionally use the Kimura to initiate this roll, accepting the positional advancement even if the submission doesn't finish.
 - **Standing up or attempting to posture up from turtle** (Effectiveness: Medium) - Your Adjustment: Use the Kimura grip to prevent them from fully standing. Pull their trapped arm down and across their body while driving your weight into their shoulder. This typically forces them back to the mat or allows you to take their back as they attempt to stand. If they do achieve standing position, you can use the Kimura grip to execute a standing Kimura or transition to other takedown opportunities.
@@ -272,31 +272,31 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying explosive rotational pressure or jerking the arm suddenly [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying explosive rotational pressure or jerking the arm suddenly [CRITICAL DANGER]
   - **Consequence**: Severe injury risk including rotator cuff tears, shoulder dislocation, and potential permanent damage to the shoulder joint
   - **Correction**: Always apply rotational pressure slowly and progressively over minimum 3-5 seconds in training. The submission should feel like a continuous, controlled pressure increase. Focus on structural control and positioning rather than speed of application. Remember that in training, your partner's safety is paramount.
-- **Error**: Failing to control opponent's posture and base before attempting submission
+- **Mistake**: Failing to control opponent's posture and base before attempting submission
   - **Consequence**: Opponent easily escapes by rolling forward, standing up, or pulling arm back to safety, wasting the attacking opportunity
   - **Correction**: Always establish dominant positional control first. Use your body weight, hip pressure, and leg positioning to break their base and control their movement before applying rotational pressure. The position should feel secure and stable before attempting the finish.
-- **Error**: Creating space between your chest and opponent's shoulder during execution
+- **Mistake**: Creating space between your chest and opponent's shoulder during execution
   - **Consequence**: Opponent can use the space to relieve pressure, turn into you, or escape the submission entirely
   - **Correction**: Maintain constant chest-to-shoulder contact throughout the entire sequence. Your chest should be glued to their shoulder blade. Any space creation gives them defensive options. Think of your upper body as attached to their shoulder, moving as one unit.
-- **Error**: Allowing opponent's elbow to move away from your body during rotation
+- **Mistake**: Allowing opponent's elbow to move away from your body during rotation
   - **Consequence**: Loss of leverage and structural integrity, making the submission weak and easily defendable
   - **Correction**: Keep the opponent's elbow pinned tight to your ribcage throughout the entire submission. The elbow should never float away from your body. Squeeze your arm tight to your side while rotating. This connection is critical for maintaining leverage and preventing escape.
-- **Error**: Positioning your body directly behind opponent rather than at proper angle
+- **Mistake**: Positioning your body directly behind opponent rather than at proper angle
   - **Consequence**: Poor leverage, difficulty establishing the figure-four grip, and inability to prevent forward rolls or escapes
   - **Correction**: Position your body at 45-90 degrees perpendicular to the opponent's torso. This angle allows better access to the arm, superior leverage for the submission, and better ability to control their movement. The perpendicular positioning is crucial for both the setup and finish phases.
-- **Error**: Continuing to apply pressure after partner begins to tap or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner begins to tap or shows distress [CRITICAL DANGER]
   - **Consequence**: Serious injury to training partner, violation of training safety protocols, potential permanent damage to shoulder complex
   - **Correction**: Develop heightened awareness for tap signals (verbal, hand, foot, or any distress signal). Release immediately upon any indication of submission. In training, err on the side of caution - if there's any question about whether partner is tapping, stop and ask. Safety must always be the top priority in submission training.
-- **Error**: Gripping with fingers interlaced rather than proper wrist-to-wrist figure-four
+- **Mistake**: Gripping with fingers interlaced rather than proper wrist-to-wrist figure-four
   - **Consequence**: Weak grip that can be broken, reduced structural integrity, and potential finger injury
   - **Correction**: Establish a proper figure-four grip by grasping your own wrist with your opposite hand. Your grip hand should wrap around your wrist, not interlace fingers. This creates a much stronger, more secure connection that cannot be broken and provides superior structural integrity for the submission.
-- **Error**: Forcing the submission when opponent has already secured defensive grips [High DANGER]
+- **Mistake**: Forcing the submission when opponent has already secured defensive grips [High DANGER]
   - **Consequence**: Potential injury to opponent if you overcome their grip through excessive force, or wasted energy with low success probability
   - **Correction**: If opponent secures a strong defensive grip (grabbing their own gi/belt), recognize this as a defensive success and either work methodically to break the grip, or transition to a different attack while maintaining positional dominance. Never use excessive force to break through defensive grips, as this increases injury risk significantly.
 
@@ -305,7 +305,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Rolling Kimura from Turtle**: Instead of finishing the Kimura from top position, use the figure-four grip to initiate a forward roll, taking the opponent with you. As you roll, you transition through guard or sweep positions, often ending in mount or side control with the Kimura grip still secured. This variation is excellent when the opponent is defending the submission by keeping their base strong. (When to use: When opponent has strong defensive posture and won't give up the submission from top turtle; when you want to secure dominant position while maintaining submission threat)
 
 **Kimura from Front Headlock Position**: When opponent is in turtle and you control the front headlock position, their far arm often posts forward for base. Thread your arm under this posted arm to establish the Kimura grip. This variation often involves more of a sideways angle and can transition easily to back takes or continued front headlock attacks. (When to use: When controlling front headlock and opponent posts far arm forward; when transitioning from failed choke attempts in front headlock position)
@@ -345,7 +345,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Safety Education** (Week 1-2, multiple dedicated sessions)
 - Focus: Learn proper grip mechanics, body positioning, and comprehensive safety protocols before any live application. Study shoulder anatomy, understand injury mechanisms, and memorize release protocols. Practice grip establishment and angle creation on compliant partners with zero submission pressure.
 - Resistance: Zero resistance
@@ -382,7 +382,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Turtle]]
 - [[Front Headlock]]
@@ -398,7 +398,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura Variations]]
@@ -441,7 +441,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Kimura from turtle represents a perfect example of the dual nature of submissions in our systematic approach - they function simultaneously as finishing mechanisms and as powerful control positions that enable positional advancement. From a biomechanical perspective, the turtle position creates unique structural vulnerabilities because the defensive athlete must distribute weight across four points of contact while maintaining arm positioning that inevitably exposes submission opportunities. The Kimura specifically exploits the shoulder's inherent structural weakness when the arm is isolated and rotated beyond its natural range of motion. What makes this position particularly valuable in our system is that the figure-four grip gives you enormous control over the opponent's upper body, allowing you to dictate whether you finish the submission or use the grip to break down the turtle structure and access the back. In training, you must be exceptionally careful with shoulder locks because the rotator cuff complex can be damaged before the athlete feels sufficient pain to tap - this is why we mandate slow, progressive application and immediate release protocols. The safety consideration is not optional, it is fundamental to ethical training. The technical key is maintaining chest-to-shoulder contact throughout the sequence, as any space creation allows the opponent to relieve pressure or escape entirely.
 - **Gordon Ryan**: The Kimura from turtle is one of my highest-percentage attacks when opponents try to stall in turtle position, especially in no-gi where the turtle is a common defensive refuge. In competition, I use this primarily as a position-breaking tool rather than always hunting for the tap - the threat of the Kimura forces opponents to react, and their reactions open up back takes, which score points and lead to the rear naked choke. The key difference between my competition application and training application is intensity and speed, but even in competition I maintain structural control and progressive pressure - I never spike submissions because that's both dangerous and often less effective than controlled pressure. When training this technique, you need to develop the sensitivity to feel when your partner is in danger well before they tap. I've trained with this submission for thousands of hours, and I can tell you that shoulder injuries are career-altering, so taking your time in training is not being soft, it's being professional. The rolling Kimura variation is particularly useful when opponents have strong turtle defense - you accept the positional advancement to mount or side control while keeping the submission grip, giving you multiple attacking options. Focus on using the Kimura grip to dominate position first, submission second. That mentality keeps you safe in training while building a more complete attacking system.
 - **Eddie Bravo**: The Kimura from turtle is a fundamental attack in our system, but we approach it with some unique variations that make it even more dangerous. One thing we emphasize in 10th Planet is the connection between the Kimura and our truck position - if you have the Kimura from turtle and they defend well, you can often transition into the truck system which opens up twister and calf slicer attacks. The creativity comes from not seeing the Kimura as just one technique, but as a gateway into an entire network of control positions and submissions. We also work a lot on the rolling Kimura variation because it fits our philosophy of constant movement and creating scrambles where our systematic approach gives us advantages. But here's something that's absolutely non-negotiable in our training culture: safety on shoulder locks. I've seen too many people hurt in training from careless shoulder lock applications, and that's completely unacceptable. We drill safety protocols constantly - slow application, immediate release, checking in with partners about shoulder health, never training this on someone with a pre-existing shoulder issue. The innovation and creativity we're known for is built on a foundation of training partners who can train consistently without injuries, and that requires religious adherence to safety standards. When you're working this technique, think about control and connection first, submission second. The Kimura grip from turtle gives you so much control that you can use it to create the scrambles and transitions that define modern jiu-jitsu.

@@ -143,7 +143,7 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
 
 
 
-> **Quick Answer**: Marcelo Garcia X-Guard System is a advanced difficulty Guard System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
+> Marcelo Garcia X-Guard System is a advanced difficulty Guard System system. Integrates 6 components.
 
 **System ID**: 
 **System Type**: Guard System
@@ -162,7 +162,7 @@ Marcelo Garcia's X-Guard System represents one of the most dominant guard framew
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Elevation and off-balancing through precise leg hook positioning
 - Multiple entry pathways from standing, seated, and butterfly guard
 - Seamless connection between sweeps, back takes, and submissions
@@ -176,7 +176,7 @@ Marcelo Garcia's X-Guard System represents one of the most dominant guard framew
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Entry System** (Establish X-Guard position from any common guard or standing scenario)
 Multiple high-percentage pathways into X-Guard from various positions including butterfly guard, seated guard, and standing positions. Each entry is designed to work against specific opponent postures and reactions, creating a comprehensive net that makes X-Guard acquisition inevitable. The system includes both proactive entries from neutral positions and reactive entries from failed guard passes or standing exchanges.
 
@@ -201,7 +201,7 @@ Defensive protocols for maintaining X-Guard structure when opponents attempt to 
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Building**: Master basic X-Guard structure and hook positioning through isolated drilling. Focus on achieving proper elevation and understanding the mechanical relationship between top and bottom hooks.
 Key points:
 - Establish correct leg hook depths and angles
@@ -385,7 +385,7 @@ Marcelo Garcia's X-Guard system requires structured drilling that progresses fro
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The X-Guard represents a sophisticated application of mechanical advantage where leg positioning creates leverage that overcomes strength disparities. The genius of Marcelo Garcia's system lies in its systematic approach to creating interconnected attack sequences - every defensive response from the opponent opens a new attacking window, whether sweep, back take, or submission. The key technical element is understanding that the bottom hook doesn't just control the near leg; it fundamentally disrupts the opponent's base structure while the top hook creates elevation. This dual-function control system allows smaller practitioners to generate sweeping power against significantly larger opponents. Most practitioners fail with X-Guard because they treat it as a single technique rather than a position within a larger systematic framework. The proper approach is to develop multiple entry pathways, understand the hierarchy of attacks based on opponent reactions, and build recovery sequences that maintain guard retention when X-Guard integrity is threatened. Competition analysis shows that X-Guard specialists who understand these systematic connections achieve sweep success rates exceeding 70%, while those using X-Guard in isolation rarely exceed 40%. The difference is systematic integration, not individual technique quality.
 - **Gordon Ryan**: X-Guard became one of my most reliable competition weapons because it works at the highest levels against world-class opponents who know it's coming. The competition reality is that you need entries from everywhere - butterfly, seated, failed takedowns, even from bottom of half guard when you can get underneath. I use X-Guard differently than traditional players because I'm always thinking about the back take. Against elite grapplers, sweeps get defended, but when they defend the sweep by lowering their hips or widening their base, they expose their back. That's where the real power of the system lives. My approach is to threaten sweeps aggressively enough that opponents have to react, then capitalize on those reactions with back takes that lead to strangles. The technical detail that changed my X-Guard game was understanding hook depth - shallow hooks get stripped easily, but too deep and you lose sweeping angles. The sweet spot is where your heel is behind their hip but your knee can still create that critical elevation angle. In competition, I prioritize entries from butterfly guard because they're the hardest to defend when you understand the timing. Most people try to establish X-Guard too slowly; you need explosive hip movement to get underneath before the opponent recognizes what's happening. Once you're there, make them defend continuous attacks until they make the mistake that gives you their back.
 - **Eddie Bravo**: What makes Marcelo's X-Guard system so deadly is that it works in both gi and no-gi, which tells you the mechanics are pure - it's not dependent on grips, it's all about leg positioning and weight distribution. In the 10th Planet system, we integrate X-Guard with lockdown and rubber guard concepts, creating entries that traditional players don't expect. One innovation that works incredibly well is using X-Guard as a recovery position when you're getting passed from half guard - as they flatten you out, you can often sneak underneath and establish X-Guard hooks, completely reversing the momentum. The beauty of X-Guard for smaller guys is that you can use it to stand up while maintaining control, which creates automatic sweeps because the opponent either comes with you (sweep) or lets go (you stand up freely). I teach students to think of X-Guard as a launching pad rather than a holding position - you don't stay there, you explode from there. The submission connections are underutilized by most practitioners. When someone defends your sweep by posting their hands or lowering their head, that's a guillotine waiting to happen. Triangle opportunities appear when they post hands to prevent the sweep. The key is being creative with how you combine the traditional Marcelo entries with modern leg attack systems - X-Guard to outside ashi transitions are incredibly effective against opponents who don't expect leg locks from what they perceive as a sweeping position.

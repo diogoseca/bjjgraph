@@ -8,7 +8,7 @@ description: "Master top overhook control clinch in BJJ. Dominant standing contr
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master top overhook control clinch in BJJ. Dominant standing contr
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master top overhook control clinch in BJJ. Dominant standing contr
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50%.
 
 ---
 
@@ -191,7 +191,7 @@ Strategically, Overhook Control Clinch Top serves as a critical junction point i
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Practitioner maintains overhook control on opponent's arm with the hooking arm wrapped over opponent's shoulder and securing deep around the tricep or elbow, creating mechanical leverage that prevents opponent from establishing inside control or proper defensive frames
 - Practitioner's head is positioned on the overhook side, pressing into opponent's shoulder or neck area, applying constant forward pressure that breaks opponent's posture and prevents them from establishing neutral stance or creating separation
@@ -204,7 +204,7 @@ Strategically, Overhook Control Clinch Top serves as a critical junction point i
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful grip establishment in standing position with ability to secure overhook before opponent can establish double underhooks
 - Head position advantage on overhook side with forward pressure preventing opponent from creating space
@@ -232,7 +232,7 @@ Strategically, Overhook Control Clinch Top serves as a critical junction point i
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Snap Down to Front Headlock]] → [[Front Headlock]]
 
@@ -303,7 +303,7 @@ Strategically, Overhook Control Clinch Top serves as a critical junction point i
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Underhook Escape]]** → [[Underhook Control]] (Opponent Success: 40%)
 - **[[Frame and Create Space]]** → [[Standing Position]] (Opponent Success: 35%)
@@ -317,7 +317,7 @@ Strategically, Overhook Control Clinch Top serves as a critical junction point i
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Re-snap to Front Headlock]]** → [[Front Headlock]]
   - Opponent attempts to posture up or create space
@@ -368,7 +368,7 @@ Strategically, Overhook Control Clinch Top serves as a critical junction point i
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 
 
 
-> **Quick Answer**: Armbar from Guard is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension - apply slowly over 3-5 seconds and release immediately upon tap.
+> Armbar from Guard is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="safety-considerations" class="content-section">
 
-## Is Armbar from Guard Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Break posture first—opponent cannot defend armbar effectively from broken posture
 - Control the head and shoulder line to prevent posture recovery
 - Isolate the attacking arm by securing it across your centerline
@@ -225,7 +225,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent's posture must be broken—head pulled down and forward pressure eliminated
 - Secure strong grip control on opponent's arm (typically cross-collar grip or sleeve grip)
 - Opponent's trapped arm must be isolated across your centerline
@@ -239,7 +239,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Break posture and secure arm control**: From closed guard, use your legs to break opponent's posture by pulling their head down toward you. Simultaneously secure a cross-collar grip with your right hand (if attacking their left arm) or establish a strong sleeve grip. Your goal is to bring their head down while maintaining control of the attacking arm. (Timing: Initial setup - maintain until posture is broken) [Pressure: Moderate]
 2. **Isolate and trap the attacking arm**: Pull the attacking arm across your centerline using your sleeve or collar grip. Your free hand should overhook their arm and grip your own thigh or shin to lock it in place. This isolation prevents them from pulling their arm back to safety. The arm should be positioned with their thumb pointing up, setting up proper elbow alignment. (Timing: 1-2 seconds - secure before creating angle) [Pressure: Firm]
 3. **Create angle and position attacking leg**: Open your guard and immediately place your left leg (opposite side to attacking arm) across the back of opponent's head and neck. Simultaneously shift your hips out at approximately 45-90 degrees to create the perpendicular angle. This leg prevents them from posturing up and escapes, while the angle gives you mechanical advantage. (Timing: Explosive transition - 1 second) [Pressure: Moderate]
@@ -252,7 +252,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent postures up and keeps strong arm frame** (Effectiveness: High) - Your Adjustment: Cannot finish armbar if posture is intact. Reset by using closed guard to break posture, threatening with collar chokes, or transitioning to triangle or omoplata to force defensive reactions.
 - **Opponent pulls elbow back toward their body before you establish angle** (Effectiveness: High) - Your Adjustment: Maintain overhook grip on their arm and use your legs to prevent posture recovery. Consider switching to omoplata or triangle as they defend the arm, or use the pulling motion to sweep them forward.
 - **Opponent stacks you by driving forward and standing up** (Effectiveness: Medium) - Your Adjustment: Immediately shift angle further (toward their back) to prevent stacking pressure. If they complete the stack, transition to omoplata sweep or release and reguard rather than fighting from compromised position.
@@ -262,28 +262,28 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting armbar without first breaking opponent's posture [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting armbar without first breaking opponent's posture [Low DANGER]
   - **Consequence**: Opponent easily defends by maintaining base and pulling their arm free, often leading to passing your guard
   - **Correction**: Always establish posture control first using closed guard, collar grips, or leg pressure before isolating the arm
-- **Error**: Letting hips drop to mat during finish [Low DANGER]
+- **Mistake**: Letting hips drop to mat during finish [Low DANGER]
   - **Consequence**: Drastically reduces leverage and allows opponent to escape or stack you
   - **Correction**: Maintain elevated hips throughout finish—actively drive hips up toward ceiling while squeezing knees
-- **Error**: Yanking or jerking the arm instead of using progressive hip extension [CRITICAL DANGER]
+- **Mistake**: Yanking or jerking the arm instead of using progressive hip extension [CRITICAL DANGER]
   - **Consequence**: SERIOUS INJURY RISK: Can cause sudden ligament tears or elbow dislocation before partner can tap
   - **Correction**: Apply smooth, progressive pressure using hip extension only—no pulling or spiking motions
-- **Error**: Failing to control opponent's head with leg [Low DANGER]
+- **Mistake**: Failing to control opponent's head with leg [Low DANGER]
   - **Consequence**: Opponent sits up, postures, and escapes or passes to side control
   - **Correction**: Always pin head with leg before committing to full rotation—this leg acts as a base and prevents posture recovery
-- **Error**: Not creating sufficient angle before attempting armbar [Low DANGER]
+- **Mistake**: Not creating sufficient angle before attempting armbar [Low DANGER]
   - **Consequence**: Weak leverage allows opponent to defend easily and potentially pass guard
   - **Correction**: Hips must be perpendicular (90 degrees) to opponent's torso for maximum leverage and control
-- **Error**: Releasing grip on arm during transition [Medium DANGER]
+- **Mistake**: Releasing grip on arm during transition [Medium DANGER]
   - **Consequence**: Opponent immediately pulls arm to safety and escapes the submission entirely
   - **Correction**: Maintain continuous two-handed control on the attacking arm from initial break until submission completion
-- **Error**: Continuing to apply pressure after opponent taps [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after opponent taps [CRITICAL DANGER]
   - **Consequence**: SERIOUS INJURY: Unnecessary elbow damage, potential surgery, and loss of training partner trust
   - **Correction**: Release ALL pressure immediately at first tap signal—this is non-negotiable safety protocol
 
@@ -292,7 +292,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Triangle to Armbar Transition**: When opponent defends triangle by pulling their trapped arm out, immediately transition to armbar on the extended arm. This is one of the highest-percentage armbar entries because opponent creates the isolation for you. (When to use: When triangle is defended by arm extraction or when opponent's posture prevents triangle finish)
 
 **Omoplata to Armbar Roll**: From omoplata position, if opponent rolls forward to escape, follow their roll and transition to armbar on the same arm. Natural progression as opponent's defensive movement sets up the angle. (When to use: When opponent uses forward roll defense against omoplata)
@@ -334,7 +334,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Solo and Demonstration)** (Week 1-2)
 - Focus: Learn proper positioning, angle creation, and hip mechanics without resistance. Practice solo drills for hip movement and leg positioning. Study anatomy of elbow joint to understand injury mechanisms.
 - Resistance: None
@@ -371,7 +371,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Open Guard]]
@@ -389,7 +389,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Triangle from Guard]]
@@ -432,7 +432,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The armbar from guard is the foundation upon which all guard submission systems are built. It teaches you the essential mechanical principles of joint attacks: isolation, angle creation, and leverage optimization. When I teach armbar from guard, I emphasize that success comes not from strength or speed, but from precise positioning and control of distance. Your hips must be tight to opponent's shoulder—imagine your tailbone touching their shoulder blade—because every inch of separation represents a massive loss of mechanical advantage. The most critical and often overlooked detail is the timing of your rotation. You must establish leg control over the head before you commit to full rotation, otherwise you give opponent the opportunity to posture and escape. In training, I insist students practice the finish with extreme control, applying pressure over 3-5 seconds minimum. This builds the neural pathway for control rather than explosiveness, which is essential for both safety and technical development. The armbar from guard should never be viewed in isolation—it exists within the triangle-armbar-omoplata triumvirate that forms the core of modern guard offense.
 - **Gordon Ryan**: In competition, the armbar from guard is one of the highest-percentage submissions at all levels, but the way I approach it differs significantly from how I train it in the academy. In training, I'm obsessive about slow, controlled finishing—I want my partners healthy and able to train tomorrow. But in competition, the entry must be explosive and decisive because hesitation allows elite opponents to defend. Here's what separates good armbar practitioners from great ones: the ability to chain it seamlessly with triangle and omoplata threats. I never go for armbar in isolation—I'm showing triangle to force arm defenses, then attacking the extended arm, or threatening armbar to set up triangle when they pull the arm back. The key competitive detail that many miss is hand fighting. If you cannot establish dominant grips on the arm, the armbar will fail at the highest levels. I grip fight constantly from guard, always working to secure my preferred grips while denying opponent's grips. Once I have the arm isolated with proper grips, the finish is almost inevitable if my positioning is correct. One more critical point: in training, tap early to armbars. Your elbow is not something to be tough about—ligament damage will cost you months of training and development.
 - **Eddie Bravo**: The armbar from guard is fundamental, but at 10th Planet we've found some interesting wrinkles that increase the success rate, especially in no-gi where traditional grips aren't available. From positions like Mission Control in the rubber guard system, you already have superior head and arm control, making the armbar entry much more secure than from standard closed guard. The key innovation we emphasize is using overhook control to set up the opposite arm armbar—most people attack the overhooked arm, but the free arm is often more vulnerable because opponent doesn't expect it. Safety-wise, I'm super strict in my academy about controlled finishing on all joint locks. We've had too many injuries in the BJJ community from people cranking armbars at full speed in training, and it's completely unnecessary. The armbar is devastating enough with proper technique—you don't need explosive finishing to make it work. I teach my students to think of the armbar as part of a puzzle rather than a standalone technique. It connects to everything: triangles, omoplatas, sweeps, even rubber guard positions like the meathook can transition into armbar. The variety of entries keeps opponents guessing and dramatically increases your finishing rate because they don't know which submission is actually coming.

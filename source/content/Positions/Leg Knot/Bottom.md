@@ -8,7 +8,7 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 50% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player's leg is entangled with top player's legs in a knotted configuration, with the trapped leg positioned between or around the opponent's legs creating systematic control
 - Top player maintains some form of leg control on the bottom player's trapped leg, typically controlling the foot, ankle, or lower leg with hands or leg positioning while threatening submissions
@@ -204,7 +202,7 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has initiated leg entanglement but not achieved dominant position
 - Bottom player's leg is controlled but not yet in final submission configuration
@@ -232,7 +230,7 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Reverse the entanglement to Outside Ashi]] → [[Outside Ashi-Garami]]
 
@@ -282,7 +280,7 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Opponent consolidates to Saddle Position]]** → [[Saddle]] (Opponent Success: 40%)
 - **[[Opponent transitions to Inside Ashi-Garami]]** → [[Inside Ashi-Garami]] (Opponent Success: 35%)
@@ -296,7 +294,7 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Hip escape when opponent overcommits forward]]** → [[Half Guard]]
   - Opponent drives forward aggressively for submission, creating space behind their hips
@@ -343,7 +341,7 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

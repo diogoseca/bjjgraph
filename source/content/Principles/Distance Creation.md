@@ -8,7 +8,7 @@ description: "Master distance creation in BJJ with progressive spatial separatio
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master distance creation in BJJ with progressive spatial separatio
 
 
 
-> **Quick Answer**: Distance Creation is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Distance Creation is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Distance Creation represents the fundamental strategic principle of generating a
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Recognize spatial requirements for defensive objectives before initiating distance creation
 - Create distance progressively through coordinated frame and hip movement rather than single explosive efforts
 - Establish frames first to prevent opponent from following and closing distance immediately
@@ -181,7 +181,7 @@ Distance Creation represents the fundamental strategic principle of generating a
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Frame Establishment**: The ability to create structural barriers using arms, legs, and body positioning that prevent opponent from closing distance. Frames must be placed on opponent's skeletal structure (hips, shoulders, head) rather than muscular areas to maximize mechanical advantage and energy efficiency.
 
 **Hip Escape Mechanics**: Technical execution of shrimping movements that generate lateral and rotational distance from opponent's control. Proper hip escape involves posting, bridging slightly to create space underneath, then scooting hips away while maintaining frame pressure to prevent opponent from following.
@@ -204,7 +204,7 @@ Distance Creation represents the fundamental strategic principle of generating a
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Frame Creation]]** (Prerequisite): Effective frames must be established before distance creation can occur, as frames prevent opponent from immediately following and closing any generated space
 - **[[Hip Escape Mechanics]]** (Complementary): Hip movement techniques provide the mechanical means to convert frame establishment into actual spatial separation from opponent's control
 - **[[Escape Fundamentals]]** (Extension): Distance creation serves as the foundational principle underlying all escape techniques, which require generated space for execution
@@ -220,7 +220,7 @@ Distance Creation represents the fundamental strategic principle of generating a
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Creating distance from mount involves establishing frames on hips and head to prevent chest-to-chest contact, then using hip escape mechanics to generate lateral space for inserting knee shield or recovering guard. Distance must be created progressively through multiple small shrimps rather than single large movements.
 
 **Side Control**: Distance creation from side control requires framing on hip and near shoulder to create initial separation, then coordinating hip escape with frame pressure to generate enough space for inserting knee shield. The concept emphasizes creating distance incrementally while preventing opponent from transitioning to mount or knee on belly.
@@ -257,7 +257,7 @@ Distance Creation represents the fundamental strategic principle of generating a
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess immediate defensive priority**: Determine whether immediate threat is submission (requiring targeted distance at specific joint) or positional pressure (requiring gross movement space). Submission threats demand immediate local distance creation, while positional escapes allow for progressive distance building.
 2. **Identify optimal frame placement points**: Locate skeletal structures (hips, shoulders, head, knees) on opponent's body where frames can be established with maximum mechanical advantage. Avoid placing frames on muscular areas or joints that allow opponent to easily collapse frames.
 3. **Establish initial frames before movement**: Create structural barriers that will prevent opponent from immediately following when distance is generated. Frames must be set with proper angle and extension before initiating hip movement to ensure created space is preserved.
@@ -270,28 +270,28 @@ Distance Creation represents the fundamental strategic principle of generating a
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting to create distance without first establishing frames
+## Common Mistakes
+- **Mistake**: Attempting to create distance without first establishing frames
   - **Consequence**: Opponent immediately follows hip movement and closes any generated space, wasting energy and failing to improve defensive position
   - **Correction**: Always establish structural frames on opponent's skeletal landmarks before initiating hip escape movements. Frames create the barrier preventing opponent from following as distance is generated.
-- **Error**: Creating distance against full pressure instead of waiting for weight shifts
+- **Mistake**: Creating distance against full pressure instead of waiting for weight shifts
   - **Consequence**: Massive energy expenditure with minimal distance generation, leading to exhaustion and eventual submission or positional consolidation by opponent
   - **Correction**: Develop patience to recognize when opponent is light or shifting weight, creating windows for efficient distance generation. Small movements during optimal timing create more distance than explosive efforts against full pressure.
-- **Error**: Attempting single large explosive escape instead of progressive distance building
+- **Mistake**: Attempting single large explosive escape instead of progressive distance building
   - **Consequence**: Telegraphed movements allow opponent to anticipate and counter, while all-or-nothing approach leaves no backup options if initial escape fails
   - **Correction**: Build distance incrementally through multiple small hip escapes and frame adjustments. Progressive approach is harder to counter, conserves energy, and provides multiple opportunities to adjust if opponent defends.
-- **Error**: Creating maximum distance instead of functional distance for specific defensive need
+- **Mistake**: Creating maximum distance instead of functional distance for specific defensive need
   - **Consequence**: Wasted energy creating more space than necessary, or creating distance in wrong areas while leaving vulnerable areas under close control
   - **Correction**: Understand how much distance is required for specific defensive objective. Submission defense may require only inches of space at threatened joint, while guard recovery requires larger gross movement distance.
-- **Error**: Failing to maintain distance after creation
+- **Mistake**: Failing to maintain distance after creation
   - **Consequence**: Opponent immediately recloses space, negating all energy and effort spent creating distance and often resulting in worse position than before escape attempt
   - **Correction**: Distance preservation requires constant frame pressure and defensive awareness. After generating space, immediately insert defensive barriers (frames, knee shield) to prevent opponent from closing distance.
-- **Error**: Placing frames on muscular areas or unstable points
+- **Mistake**: Placing frames on muscular areas or unstable points
   - **Consequence**: Frames collapse under pressure or opponent easily moves around ineffective frame placement, failing to prevent space closure
   - **Correction**: Frame against opponent's skeletal structure (hip bones, shoulders, head) where mechanical advantage is maximized and opponent cannot easily collapse or circumvent frame pressure.
-- **Error**: Creating distance without converting to defensive improvement
+- **Mistake**: Creating distance without converting to defensive improvement
   - **Consequence**: Generated space is wasted as opponent simply maintains position at new distance without defender gaining any actual defensive advantage
   - **Correction**: Distance creation must be immediately followed by insertion of defensive tools (knee shield, guard recovery, submission defense) that convert space into actual positional improvement.
 
@@ -300,7 +300,7 @@ Distance Creation represents the fundamental strategic principle of generating a
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Resistance Distance Drills** (Focus: Developing efficient distance creation mechanics under progressively realistic pressure levels while maintaining proper frame placement and hip escape technique)
 Partner provides increasing levels of pressure while practitioner focuses on creating distance through proper frame and hip mechanics. Begin with compliant pressure and gradually increase resistance as mechanics improve.
 
@@ -325,7 +325,7 @@ Partner establishes submission setups (armbar, triangle, kimura) and practitione
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes need for distance when under heavy pressure but struggles with timing and execution mechanics
 - Creates distance through explosive, inefficient movements that waste energy and telegraph intentions to opponent
@@ -367,7 +367,7 @@ Partner establishes submission setups (armbar, triangle, kimura) and practitione
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Frame Creation]] (Principle) - Prerequisite skill for preventing opponent from following during distance generation
 - [[Hip Escape Mechanics]] (Principle) - Core mechanical technique for converting frame establishment into actual spatial separation
@@ -387,7 +387,7 @@ Partner establishes submission setups (armbar, triangle, kimura) and practitione
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Distance creation represents the foundational principle underlying all defensive technique in Brazilian Jiu-Jitsu. What separates effective defensive players from those who get crushed is not superior strength or athleticism, but rather superior understanding of spatial requirements for defensive objectives. I teach what I term 'spatial hierarchy' where practitioners must recognize that different defensive objectives require different amounts and types of distance. Submission defense may require only two inches of space at a specific joint to prevent finishing mechanics, while positional escape might require six to twelve inches of gross movement space for hip insertion or guard recovery. The critical error most practitioners make is attempting to create maximum distance in all scenarios, wasting enormous energy creating space they don't need while failing to create necessary distance where it matters most. Distance creation must be systematized into clear phases: first, establish frames that will prevent opponent from following when distance is generated. Second, recognize optimal timing windows when opponent's weight shifts or pressure decreases. Third, create initial separation through coordinated frame pressure and hip escape mechanics. Fourth, maintain created distance through active frame maintenance and defensive positioning. Finally, convert generated space into actual defensive improvement through technique execution. Every escape technique in our curriculum begins with creating adequate space for that technique's execution—attempting techniques without first generating necessary distance is the primary cause of defensive failure.
 - **Gordon Ryan**: In high-level competition, distance management is a continuous battle that separates elite defensive players from those who get dominated in inferior positions. What I've learned through thousands of matches is that distance creation must be aggressive and proactive rather than reactive. By the time you feel completely crushed and can't move, you've already lost the distance battle—elite opponents will never give you opportunities to create space once they've consolidated heavy pressure. The key is what I call 'preemptive distancing' where you're constantly creating and maintaining space before opponent can settle their full weight and eliminate your movement opportunities. This requires understanding that small distances created early are worth far more than large distances attempted late. When I'm in bottom positions, I'm thinking about distance in every moment—not just when I decide to escape, but continuously maintaining optimal defensive spacing that prevents opponent from consolidating while preserving my energy. The other critical competitive insight is recognizing when to abandon distance creation attempts in one area to focus on more critical areas. If opponent is threatening an armbar, creating distance at my shoulder or hip means nothing—I need distance at my elbow joint. This selective application of distance creation, focusing efforts where they provide actual defensive value rather than creating random space, is what allows me to defend effectively against world-class attacks while conserving energy for eventual escapes and reversals.
 - **Eddie Bravo**: The conventional approach to distance creation emphasizes maximum separation as always optimal, but our system has developed more nuanced understanding of distance management that sometimes challenges this assumption. What we've discovered, particularly in positions like lockdown half guard, is that creating too much distance can actually eliminate offensive opportunities while not providing significant additional defensive benefit. I teach 'functional distance' where the objective is creating enough space for specific technical applications rather than maximum separation. Sometimes maintaining close-range connection while controlling opponent's posture and preventing their most dangerous attacks is superior strategy to creating large distance that allows opponent to disengage and reset to more advantageous positions. That said, distance creation remains absolutely fundamental for defensive survival, particularly in traditional inferior positions like mount and side control. Where our approach differs is in the execution mechanics—we emphasize creating distance through unconventional angles and movements that opponents don't typically expect or defend. The electric chair position, for example, creates distance through a completely different mechanical pathway than traditional hip escapes, using leg entanglement and torso rotation rather than just shrimping movements. This diversity in distance creation methods makes our defensive game less predictable and harder to shut down, as opponents who've trained to prevent traditional shrimping distance creation often struggle against alternative spatial management approaches. The key insight is that distance creation is concept, not single technique—understanding the principle allows you to create space through whatever mechanical means are available in specific positions.

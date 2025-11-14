@@ -13,10 +13,6 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 
 
 
-> **Quick Overview**: Feet on Hips Guard represents one of the most fundamental distance management positions in Brazilian Jiu-Jitsu, where the guard player places both feet on the opponent's hip bones to create controllab...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,31 +54,19 @@ The position excels against standing and combat base opponents, using leg extens
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive |
-| Risk Level | Low to Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium to Long | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive |
+| **Risk Level** | Low to Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium to Long | Medium to Long |
 
-**What Makes This Position Unique:** Leg frames maximize mobility and transitions
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Feet on Hips Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Feet on Hips Guard/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Leg frames maximize mobility and transitions
 
 
 
@@ -90,10 +74,13 @@ The position excels against standing and combat base opponents, using leg extens
 
 <section id="bottom-summary" class="content-section">
 
-## Feet on Hips Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Feet on Hips Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in feet on hips guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -145,7 +132,7 @@ The bottom player in feet on hips guard balances defensive frames with offensive
   - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Placing feet on opponent's thighs instead of hip bones**
@@ -177,16 +164,17 @@ The bottom player in feet on hips guard balances defensive frames with offensive
   - ✅ Correction: Synchronize pushing and pulling forces through simultaneous leg extension and grip manipulation to break opponent's base
 
 
-👉 **[[Feet on Hips Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Feet on Hips Guard Top Perspective
+
+## Playing as Top
+
+[[Feet on Hips Guard/Top|→ Full Top Guide]]
 
 
-The top player in feet on hips guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -232,7 +220,7 @@ The top player in feet on hips guard enjoys offensive advantages with access to 
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to pass without controlling the knees first**
@@ -263,8 +251,6 @@ The top player in feet on hips guard enjoys offensive advantages with access to 
   - Consequence: Energy depletion and exposure to submissions when frames eventually collapse you forward
   - ✅ Correction: Use grip control and angle changes to systematically dismantle frames rather than forcing through
 
-
-👉 **[[Feet on Hips Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

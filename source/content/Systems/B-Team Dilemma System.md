@@ -145,7 +145,7 @@ description: "Master B-Team Dilemma System in BJJ. Craig Jones's strategic frame
 
 
 
-> **Quick Answer**: B-Team Dilemma System is a advanced difficulty Attack System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
+> B-Team Dilemma System is a advanced difficulty Attack System system. Integrates 6 components.
 
 **System ID**: 
 **System Type**: Attack System
@@ -168,7 +168,7 @@ The B-Team approach differs from traditional submission hunting by prioritizing 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Every defensive reaction opens a different offensive opportunity
 - Position chains create cumulative pressure that compounds over time
 - Submission threats control opponent movement and decision-making
@@ -182,7 +182,7 @@ The B-Team approach differs from traditional submission hunting by prioritizing 
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Leg Entanglement Entry System** (Establish initial control and create first dilemma between defending leg attacks or protecting the back)
 Systematic approach to entering ashi garami positions from standing, passing, and guard scenarios. Emphasizes grip control and hip positioning to secure dominant leg entanglements while maintaining back exposure opportunities. The entry system prioritizes outside ashi and saddle positions that create immediate finishing threats while setting up transitional chains.
 
@@ -207,7 +207,7 @@ Offensive methodology for 50-50 guard that treats it as an attacking position ra
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Entry and Initial Engagement**: Establish first positional control through leg entanglement entries or front headlock positions. Focus on securing grips and angles that create immediate submission threats while maintaining back exposure opportunities.
 Key points:
 - Enter outside ashi from standing or passing scenarios
@@ -382,7 +382,7 @@ The B-Team Dilemma System requires specialized drilling that emphasizes transiti
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The B-Team Dilemma System represents a sophisticated evolution of systematic offensive grappling that moves beyond isolated technique mastery into true strategic integration. What makes this system particularly effective is its recognition that elite defensive skills have evolved to neutralize singular attacks, necessitating a shift toward position chains that compound pressure through successive defensive reactions. The mathematical elegance lies in creating scenarios where each defensive option leads to quantifiable positional degradation—opponent must choose which submission or control position they will enter, but cannot avoid entering one. From a systematic perspective, the key innovation is treating transitions not as backup plans but as primary offensive weapons. The leg entanglement to back control loop creates a perpetual motion engine of offense where defensive success in one domain merely redirects pressure into another domain. This forces opponents to defend multiple skill sets simultaneously—leg lock defense, back escape, and transition recognition—which exponentially increases cognitive load under competition stress. The system's effectiveness scales with practitioner skill level because more refined technical execution in each component position creates tighter dilemma loops that reduce defensive windows. For implementation, focus must be on developing seamless transition mechanics where position changes occur during opponent's defensive movements rather than static moments. This timing precision transforms the system from a collection of techniques into a true strategic framework that dictates engagement parameters and controls match tempo.
 - **Gordon Ryan**: The B-Team Dilemma System is competition-proven devastation when applied correctly, and I've seen firsthand how it breaks even world-class opponents through cumulative pressure rather than explosive single attacks. The genius is forcing opponents to pick their poison—defend the heel hook and give up the back, defend the back and return to leg entanglements. After two or three cycles, you can see the mental defeat set in because they realize there's no escape, only choosing which submission they'll eventually face. In competition application, the system's strength is controlling engagement pace and dictating positional exchanges, which is critical against opponents who excel at defensive stalling. You're never waiting for opportunities because the system creates them through forced reactions. The key to high-level success is making every transition attempt look identical to submission attempts—opponent can't differentiate between genuine finishing attack and transition setup, so they defend everything with maximum urgency, which accelerates fatigue accumulation. Against elite competition, I've found the leg-to-back transition is highest percentage when timed during opponent's heel exposure defensive turn, while the back-to-leg return works best when opponent fights your choking hand and creates space with hip movement. The system also provides mental fortitude because you're never losing position, just changing which attack you're applying. Even when opponent escapes one position, you're immediately attacking from the next, which maintains offensive initiative that's essential for winning referee decisions and creating submission opportunities in final minutes when opponent's defensive discipline degrades under accumulated exhaustion.
 - **Eddie Bravo**: The B-Team Dilemma System is the evolution of offensive grappling that proves innovation beats tradition when you systematically connect positions most people treat as separate games. Craig and the B-Team crew figured out what we've been preaching for years—create endless loops where opponent is always defending something, always making decisions under pressure, always one step behind. The beautiful chaos of this system is it mirrors 10th Planet philosophy of never accepting neutral positions and always attacking, but applies it specifically to leg locks and back attacks which are the highest percentage finishes in modern no-gi. What I love about the dilemma approach is it weaponizes opponent's defensive knowledge against them—the better they understand leg lock defense, the more predictably they'll turn away and expose the back. Against high-level competition, this predictability is gold because you can set traps based on how you know they'll defend. The system also validates our approach of drilling position chains rather than static positions, because the magic happens during transitions when opponent is moving and vulnerable. For implementation, especially for competitors coming from traditional guard-passing games, the mental shift required is understanding that leg entanglements are control positions equal to mount or back control, not just submission opportunities. Once you internalize that outside ashi is as dominant as mount when applied correctly, the entire system unlocks because you stop abandoning positions prematurely and start building the pressure cycles that make dilemma creation effective. This is next-level offensive thinking that's changing competition meta and proving systematic innovation creates championship-level results.

@@ -13,10 +13,6 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
 
 
 
-> **Quick Overview**: Half Guard represents one of the most strategically complex positions in Brazilian Jiu-Jitsu, existing at the critical intersection between guard retention and being passed. This position is character...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -54,7 +50,7 @@ Success in Half Guard demands understanding the fundamental asymmetry that defin
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -62,62 +58,16 @@ Success in Half Guard demands understanding the fundamental asymmetry that defin
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Half Guard]] | Medium | Medium | Medium | Medium | Asymmetric leg trap for dynamic offense |
-
 | [[Deep Half Guard]] | Medium | Medium | Medium | Medium | Inverted leverage trades exposure for sweeps |
-
 | [[Knee Shield Half Guard]] | Low to Medium | Medium | Medium | Medium | Knee shield barrier prevents pressure contact |
-
 | [[Lockdown]] | Low to Medium | Medium to High | Medium | Medium | Leg triangle trades mobility for sweeps |
-
 | [[Butterfly Half Guard]] | Medium | Medium to High | Medium | Medium | Butterfly hook elevation with half guard control |
-
 | [[Z-Lock Half Guard]] | Medium | Low to Medium | Medium | Medium | Z-configuration for dynamic mobility attacks |
-
 | [[Flattened Half Guard]] | High | Low to Medium | High | Medium | Minimal frames trades mobility for survival |
-
 | [[Reverse Half Guard]] | Medium | Medium | Medium | Medium | Inverted orientation creates unique sweep angles |
-
 | [[Pocket Half Guard]] | Low to Medium | Low | Medium | Medium | Deep underhook creates sweep/pass dilemma |
-
 | [[Old School]] | Medium | Medium | Medium | Medium | Lockdown creates sweep leverage vs pressure |
-
 | [[Electric Chair]] | Medium | High | Medium | High | Lockdown leverages sweep and submission threat |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Half Guard/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Half Guard/Top|Top Perspective]]** - Submissions and positional attacks
-
-
-### By Variation
-
-- **[[Deep Half Guard]]** - Advanced variation with head underneath for superior sweeping mechanics
-
-- **[[Knee Shield Half Guard]]** - Defensive variation using shin across body for distance management
-
-- **[[Lockdown]]** - 10th Planet variation using leg entanglement for posture control
-
-- **[[Butterfly Half Guard]]** - Hybrid position combining butterfly hook with half guard structure
-
-- **[[Z-Lock Half Guard]]** - Knee shield variation with specific shin positioning across hip
-
-- **[[Flattened Half Guard]]** - Compromised bottom position with back flat requiring recovery
-
-- **[[Reverse Half Guard]]** - Inverted variation with reversed leg entanglement orientation
-
-- **[[Pocket Half Guard]]** - Tight variation with deep underhook and close-range control
-
-- **[[Old School]]** - Classic position with arm trapped preparing for sweep to mount
-
-- **[[Electric Chair]]** - Lockdown submission position targeting hip and groin
 
 
 
@@ -125,10 +75,13 @@ Success in Half Guard demands understanding the fundamental asymmetry that defin
 
 <section id="bottom-summary" class="content-section">
 
-## Half Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Half Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in half guard must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -177,7 +130,7 @@ The bottom player in half guard must focus on creating frames, protecting agains
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Remaining flat on back instead of maintaining side angle**
@@ -201,16 +154,17 @@ The bottom player in half guard must focus on creating frames, protecting agains
   - ✅ Correction: Maintain constant offensive threats through sweep attempts and back take entries - force opponent into defensive reactions that create sweep opportunities
 
 
-👉 **[[Half Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Half Guard Top Perspective
+
+## Playing as Top
+
+[[Half Guard/Top|→ Full Top Guide]]
 
 
-The top player in half guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -259,7 +213,7 @@ The top player in half guard enjoys offensive advantages with access to submissi
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Poor weight distribution - keeping weight on hands or knees rather than hips and chest**
@@ -283,8 +237,6 @@ The top player in half guard enjoys offensive advantages with access to submissi
   - ✅ Correction: Maintain constant forward pressure with chest and hips driving into opponent while controlling their ability to create distance or angles
 
 
-👉 **[[Half Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -297,70 +249,70 @@ The top player in half guard enjoys offensive advantages with access to submissi
 
 Advanced variation with head underneath for superior sweeping mechanics
 
-[Explore Deep Half Guard →](half-guard/deep-half-guard)
+[Explore Deep Half Guard →](./Deep Half Guard)
 
 
 ### [[Knee Shield Half Guard]]
 
 Defensive variation using shin across body for distance management
 
-[Explore Knee Shield Half Guard →](half-guard/knee-shield-half-guard)
+[Explore Knee Shield Half Guard →](./Knee Shield Half Guard)
 
 
 ### [[Lockdown]]
 
 10th Planet variation using leg entanglement for posture control
 
-[Explore Lockdown →](half-guard/lockdown)
+[Explore Lockdown →](./Lockdown)
 
 
 ### [[Butterfly Half Guard]]
 
 Hybrid position combining butterfly hook with half guard structure
 
-[Explore Butterfly Half Guard →](half-guard/butterfly-half-guard)
+[Explore Butterfly Half Guard →](./Butterfly Half Guard)
 
 
 ### [[Z-Lock Half Guard]]
 
 Knee shield variation with specific shin positioning across hip
 
-[Explore Z-Lock Half Guard →](half-guard/z-lock-half-guard)
+[Explore Z-Lock Half Guard →](./Z-Lock Half Guard)
 
 
 ### [[Flattened Half Guard]]
 
 Compromised bottom position with back flat requiring recovery
 
-[Explore Flattened Half Guard →](half-guard/flattened-half-guard)
+[Explore Flattened Half Guard →](./Flattened Half Guard)
 
 
 ### [[Reverse Half Guard]]
 
 Inverted variation with reversed leg entanglement orientation
 
-[Explore Reverse Half Guard →](half-guard/reverse-half-guard)
+[Explore Reverse Half Guard →](./Reverse Half Guard)
 
 
 ### [[Pocket Half Guard]]
 
 Tight variation with deep underhook and close-range control
 
-[Explore Pocket Half Guard →](half-guard/pocket-half-guard)
+[Explore Pocket Half Guard →](./Pocket Half Guard)
 
 
 ### [[Old School]]
 
 Classic position with arm trapped preparing for sweep to mount
 
-[Explore Old School →](half-guard/old-school)
+[Explore Old School →](./Old School)
 
 
 ### [[Electric Chair]]
 
 Lockdown submission position targeting hip and groin
 
-[Explore Electric Chair →](half-guard/electric-chair)
+[Explore Electric Chair →](./Electric Chair)
 
 
 

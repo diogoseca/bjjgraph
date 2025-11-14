@@ -8,7 +8,7 @@ description: "Master Re-Guard recovery in BJJ. Complete step-by-step execution f
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Re-Guard recovery in BJJ. Complete step-by-step execution f
 
 
 
-> **Quick Answer**: Re-Guard transitions from [[Defensive Position]] to [[Open Guard]]. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
+> Re-Guard transitions from [[Defensive Position]] to [[Open Guard]]. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Re-guarding is the fundamental defensive skill of recovering guard from inferior
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create space through framing and hip escape mechanics before attempting guard recovery
 - Establish at least one point of control (sleeve, collar, or leg engagement) before full re-guard
 - Use opponent's forward pressure and momentum to facilitate guard re-entry
@@ -180,7 +180,7 @@ Re-guarding is the fundamental defensive skill of recovering guard from inferior
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Bottom position with opponent applying top pressure or attempting to pass
 - Ability to create at least minimal space between your hips and opponent's control
 - At least one arm free to establish frames or grips
@@ -193,7 +193,7 @@ Re-guarding is the fundamental defensive skill of recovering guard from inferior
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish defensive frames**: Create strong frames using forearms against opponent's shoulders, hips, or biceps to prevent further advancement. Keep elbows tight to body, frames angled at 45 degrees to maximize structural strength. This initial framing creates the foundation for all subsequent movement. (Timing: Immediately upon recognizing guard pass progression)
 2. **Generate space with hip escape**: Bridge slightly to create upward pressure, then explosively shrimp your hips away from opponent while maintaining frames. Move hips at a 45-degree angle backward and away, creating 6-12 inches of separation. Keep shoulders on mat to maintain base and prevent being flattened. (Timing: During opponent's weight shift or adjustment)
 3. **Insert knee shield or hook**: As space opens, quickly insert your near-side knee between your body and opponent's chest, establishing a knee shield. Alternatively, insert butterfly hook or de la riva hook depending on available space and opponent's position. The leg insertion is the critical moment of re-guard initiation. (Timing: Immediately following hip escape while space exists)
@@ -206,7 +206,7 @@ Re-guarding is the fundamental defensive skill of recovering guard from inferior
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives forward with heavy crossface pressure to flatten you** (Effectiveness: High) - Your Response: Switch to Granby roll or inversion to use their forward pressure against them, rotating underneath to recover guard from different angle
 - **Opponent controls your far hip to prevent hip escape** (Effectiveness: High) - Your Response: Use near-side elbow frame to create space, then execute smaller, repeated shrimps instead of one large movement, gradually building distance
 - **Opponent switches to opposite side as you attempt to recover** (Effectiveness: Medium) - Your Response: Follow with your frames and immediately insert butterfly hooks in center, using their lateral movement to establish seated guard or X-Guard
@@ -216,25 +216,25 @@ Re-guarding is the fundamental defensive skill of recovering guard from inferior
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to recover guard without first creating space through frames and hip movement
+## Common Mistakes
+- **Mistake**: Attempting to recover guard without first creating space through frames and hip movement
   - **Consequence**: Opponent easily maintains top position, may advance to more dominant control or submission
   - **Correction**: Always establish frames first, create space through bridge and shrimp, then insert legs—never skip the framing phase
-- **Error**: Using only arms to push opponent away without hip movement
+- **Mistake**: Using only arms to push opponent away without hip movement
   - **Consequence**: Arms fatigue quickly, opponent drives through weak arm frames, position deteriorates
   - **Correction**: Coordinate arm frames with explosive hip escapes—frames create space, hips move body, not arms alone
-- **Error**: Turning away from opponent or exposing back during recovery
+- **Mistake**: Turning away from opponent or exposing back during recovery
   - **Consequence**: Opponent takes back control, securing dominant position and potential submission
   - **Correction**: Always face opponent during re-guard, keep chest and head toward them, use rotation only when executing specific techniques like Granby roll
-- **Error**: Attempting single large hip escape instead of multiple smaller movements
+- **Mistake**: Attempting single large hip escape instead of multiple smaller movements
   - **Consequence**: Opponent anticipates and counters single movement, may use momentum to advance position
   - **Correction**: Chain 2-3 smaller shrimps together, making each movement less predictable and harder to counter
-- **Error**: Recovering to static, flat guard without establishing control or movement
+- **Mistake**: Recovering to static, flat guard without establishing control or movement
   - **Consequence**: Opponent immediately re-passes guard, no actual improvement in position achieved
   - **Correction**: Ensure guard recovery includes active grips, mobile hips, and immediate transition to offensive guard game
-- **Error**: Neglecting to protect against crossface during recovery
+- **Mistake**: Neglecting to protect against crossface during recovery
   - **Consequence**: Opponent establishes dominant head control, flattens you out, prevents effective guard recovery
   - **Correction**: Always maintain near-side arm frame to block crossface path, keep elbow tight to prevent opponent's head from crossing centerline
 
@@ -243,7 +243,7 @@ Re-guarding is the fundamental defensive skill of recovering guard from inferior
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Movements** - Master basic framing and hip escape mechanics in isolation
 Practice solo shrimping drills, bridge and shrimp combinations, and frame positioning against wall or stationary partner. Focus on explosive hip movement and proper frame angles. Develop muscle memory for fundamental movement patterns.
 (Resistance: None)
@@ -270,7 +270,7 @@ Implement re-guard techniques during regular sparring. Identify personal prefere
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Granby Roll Re-Guard**: When opponent drives heavy forward pressure, use shoulder roll/Granby roll to rotate underneath, using their momentum to facilitate guard recovery through inversion and rotation. (When to use: Against heavy forward pressure, when traditional hip escape is blocked, or when opponent has strong crossface control)
 
 **Butterfly Hook Re-Guard**: Insert both butterfly hooks simultaneously while creating frames, then use hook elevation to off-balance opponent and complete guard recovery with superior positioning for sweeps. (When to use: When opponent's base is narrow, when you have good hip mobility, or when transitioning from turtle position)
@@ -310,7 +310,7 @@ Implement re-guard techniques during regular sparring. Identify personal prefere
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing re-guard techniques, maintain awareness of your training partner's weight distribution to avoid accidental knee or elbow strikes during explosive hip movements. Ensure adequate mat space around you as shrimping and rolling movements can cover significant distance. Start with controlled, slower movements when learning to prevent muscle strains in hip flexors and core muscles. When partner is applying pressure, communicate clearly if pressure becomes excessive on ribs or chest. Avoid driving frames directly into partner's throat or face—aim for shoulders and chest. Build explosive power gradually over weeks to prevent lower back strain from rapid bridging and shrimping movements. In live training, tap early if caught in submissions during re-guard attempts rather than fighting through dangerous positions.
 
@@ -318,7 +318,7 @@ When practicing re-guard techniques, maintain awareness of your training partner
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Re-guarding represents a critical defensive skill that integrates throughout the entire BJJ positional hierarchy. It serves as the primary recovery mechanism when guard passing attacks succeed or progress significantly. The technique connects inferior positions (side control, mount, turtle) back to the guard system, which is the foundation of bottom game offense. Mastery of re-guard directly impacts survival rates in competition and training, as it prevents opponents from consolidating dominant positions and accumulating points. The technique also serves as a gateway to offensive opportunities—many sweeps and submissions become available immediately upon guard recovery. Re-guard chains naturally with other defensive fundamentals like mount escapes, side control escapes, and back escapes, forming a comprehensive defensive system. Advanced practitioners use re-guard attempts to bait opponent reactions, setting up specific guard variations or submissions. The technique's effectiveness increases exponentially when combined with proper guard retention concepts, creating a defensive loop that frustrates opponent's passing attempts.
 
@@ -326,7 +326,7 @@ Re-guarding represents a critical defensive skill that integrates throughout the
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Guard Recovery]] - Core principle underlying technique
 - [[Hip Escape]] - Fundamental movement mechanic
@@ -349,7 +349,7 @@ Re-guarding represents a critical defensive skill that integrates throughout the
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The re-guard is fundamentally about understanding spatial relationships and creating geometric advantages from disadvantaged positions. When your guard is passed or passing, you exist in a state of negative spatial control—the opponent occupies the space your legs should control. The solution is systematic space creation through framing and hip displacement. Frames must be understood not as pushing tools but as distance management instruments that create and maintain the critical 6-12 inches of space necessary for leg insertion. The hip escape is the primary space-generating mechanism, but it must be executed with precise timing relative to opponent's weight distribution. When opponent's weight is forward and heavy, your escape angle should be 45 degrees backward; when their weight is distributed evenly, your angle should be more lateral. The leg insertion represents the transition from defensive space creation to offensive position establishment. This is why I emphasize inserting legs with immediate grip control—space without control is temporary, but space plus control becomes sustainable position. The re-guard exemplifies the principle that defense in jiu-jitsu is not passive survival but active position recovery.
 - **Gordon Ryan**: In competition, your ability to re-guard directly correlates with your survival rate and point differential. I've had countless matches where opponents passed my guard but I immediately recovered, preventing them from scoring or establishing control time. The key is never accepting bottom position—the moment you feel guard passing succeeding, you should already be executing your first hip escape. I focus heavily on the transition from defensive frames to offensive grips because this is where most people fail. They create space but don't capitalize with control, so opponent just re-passes immediately. My preferred re-guard sequence always includes butterfly hooks because they give immediate sweep opportunities. Against elite competition, you can't just recover guard and reset—you need to recover and immediately attack. I also prioritize re-guarding to specific guard types based on opponent's game. Against leg lockers, I re-guard to closed guard or standing. Against pressure passers, I re-guard to butterfly or de la riva where I have distance and mobility. The re-guard isn't just technical execution; it's strategic positioning based on the match situation and opponent's strengths.
 - **Eddie Bravo**: Re-guarding is where a lot of traditional techniques fail under real pressure because people try to be too technical and methodical when they need to be explosive and creative. In 10th Planet system, we emphasize the Granby roll as a primary re-guard tool because it uses opponent's forward pressure against them—the harder they drive, the easier the roll. We also integrate a lot of inversion-based recoveries where you're going inverted or even temporarily exposing your back to create angles they can't follow. The lockdown becomes crucial in our re-guard system because even if you can only get one hook, you can establish lockdown from half-guard and completely change the dynamic. I tell my students to think of re-guard like escaping from a street fight pin—you need to move explosively, create chaos if necessary, and use any angle available. The traditional push-and-shrimp works, but against modern pressure passing and leg attacks, you need more tools. We drill a lot of combinations where if one re-guard attempt is stuffed, you immediately flow to another—maybe start with butterfly, if that's blocked go inverted to de la riva, if that's blocked come up on a technical stand-up. The guard recovery should be a constant flow of different looks until something works.

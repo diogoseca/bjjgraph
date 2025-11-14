@@ -13,10 +13,6 @@ description: "Master Kimura Control in BJJ. Strategic guide covering grip mechan
 
 
 
-> **Quick Overview**: Kimura Control is a fundamental control position in Brazilian Jiu-Jitsu built around the Kimura grip—a figure-four configuration where one hand controls the opponent's wrist while the other arm thread...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ What distinguishes Kimura Control from other grip-based positions is its dual-pu
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium | Low |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium | Low |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Medium to Long |
 
-**What Makes This Position Unique:** Figure-four grip creates asymmetric control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Kimura Control/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Kimura Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Figure-four grip creates asymmetric control
 
 
 
@@ -88,10 +72,13 @@ What distinguishes Kimura Control from other grip-based positions is its dual-pu
 
 <section id="bottom-summary" class="content-section">
 
-## Kimura Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Kimura Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in kimura control balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -143,7 +130,7 @@ The bottom player in kimura control balances defensive frames with offensive opp
   - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Releasing or loosening Kimura grip under pressure to adjust position**
@@ -171,16 +158,17 @@ The bottom player in kimura control balances defensive frames with offensive opp
   - ✅ Correction: Recognize Kimura control creates multiple pathways—when opponent defends submission by posting or changing base, immediately capitalize with sweeps to top position
 
 
-👉 **[[Kimura Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Kimura Control Top Perspective
+
+## Playing as Top
+
+[[Kimura Control/Top|→ Full Top Guide]]
 
 
-The top player in kimura control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -232,7 +220,7 @@ The top player in kimura control balances control maintenance with submission at
   - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing opponent to create space by elevating hips while maintaining grip**
@@ -259,8 +247,6 @@ The top player in kimura control balances control maintenance with submission at
   - Consequence: Risk of injury to training partner and development of poor technical habits that won't work against skilled opponents with good defense
   - ✅ Correction: Apply progressive pressure to test opponent's defense, waiting for them to give the submission through defensive movement rather than forcing through structure
 
-
-👉 **[[Kimura Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

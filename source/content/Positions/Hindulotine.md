@@ -13,10 +13,6 @@ description: "Master the Hindulotine position in BJJ. High-pressure guillotine v
 
 
 
-> **Quick Overview**: The Hindulotine is a specialized guillotine variation that combines elements of traditional guillotine mechanics with unique body positioning that creates exceptional pressure on the opponent's neck a...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,31 +54,19 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Offensive/Controlling |
-| Risk Level | Medium | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short to Medium | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Offensive/Controlling |
+| **Risk Level** | Medium | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Medium |
 
-**What Makes This Position Unique:** Rotational torque replaces linear pulling
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Hindulotine/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Hindulotine/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Rotational torque replaces linear pulling
 
 
 
@@ -90,10 +74,13 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 <section id="bottom-summary" class="content-section">
 
-## Hindulotine Bottom Perspective
+
+## Playing as Bottom
+
+[[Hindulotine/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in hindulotine controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -142,7 +129,7 @@ The bottom player in hindulotine controls the position with offensive attacks in
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pulling straight back on the guillotine grip using only arm strength instead of creating rotational pressure through hip positioning**
@@ -166,16 +153,17 @@ The bottom player in hindulotine controls the position with offensive attacks in
   - ✅ Correction: Keep your body tight to opponent's and use your legs to control their near arm, preventing the establishment of defensive frames
 
 
-👉 **[[Hindulotine/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Hindulotine Top Perspective
+
+## Playing as Top
+
+[[Hindulotine/Top|→ Full Top Guide]]
 
 
-The top player in hindulotine balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -224,7 +212,7 @@ The top player in hindulotine balances control maintenance with submission attac
   - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Hanging on opponent with straight arms instead of using hip angle and body weight to create pressure**
@@ -247,8 +235,6 @@ The top player in hindulotine balances control maintenance with submission attac
   - Consequence: Opponent adapts to the static pressure and finds defensive positions that neutralize the submission threat
   - ✅ Correction: Continuously make small adjustments to hip angle, weight distribution, and grip position to prevent opponent from settling into comfortable defensive posture
 
-
-👉 **[[Hindulotine/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

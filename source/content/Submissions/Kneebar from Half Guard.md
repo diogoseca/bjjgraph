@@ -8,7 +8,7 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 
 
 
-> **Quick Answer**: Kneebar from Half Guard is a leg lock targeting the Knee joint and posterior cruciate ligament. ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kneebar from Half Guard is a leg lock targeting the Knee joint and posterior cruciate ligament. ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kneebar from Half Guard Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -208,7 +208,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Hip control prevents opponent rotation and escape—secure the hip before attacking the leg
 - Leg isolation through half guard structure—use your existing leg entanglement as foundation
 - Extension angle across the knee joint must be perpendicular to create proper leverage
@@ -222,7 +222,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Established half guard position with opponent's leg controlled between your legs
 - Opponent committed forward with weight on their trapped leg side
 - Control of opponent's near side arm or underhook to prevent posting
@@ -234,7 +234,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure underhook and create off-balancing angle**: From bottom half guard, establish a deep underhook on the trapped leg side. Drive your underhook hand toward the opponent's far shoulder while using your bottom leg hook to elevate their trapped leg. This off-balances them forward and loads their weight onto their hands, preventing them from sitting back to defend the leg attack. Your free hand should control their wrist or tricep to prevent them from posting and creating base. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Transition hips to perpendicular angle**: Shrimp your hips out toward the trapped leg side while maintaining your leg entanglement. Your goal is to create a 90-degree angle between your torso and the opponent's body. As you shrimp, begin to swing your top leg (the leg not in the half guard lockdown) over the opponent's back or shoulder. This rotation is critical—you must achieve perpendicular alignment to create proper kneebar mechanics. Keep the bottom leg (half guard hook) tight to prevent them from pulling their leg free during the transition. (Timing: 2-3 seconds) [Pressure: Moderate]
 3. **Establish leg isolation with both legs**: Complete your hip rotation so your body is perpendicular to your opponent. Your bottom leg (the original half guard hook) should now be positioned behind their knee, while your top leg swings over their hip or back to prevent them from rolling forward or standing. Create a figure-four position with your legs if possible—bottom leg behind their knee, top leg crossed over, locking at the ankles. This isolation is crucial: their trapped leg should be completely immobilized between your legs with no ability to rotate or pull free. (Timing: 1-2 seconds) [Pressure: Firm]
@@ -247,7 +247,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent rotates their knee inward (heel toward you) to relieve pressure** (Effectiveness: High) - Your Adjustment: Immediately use your hands to grab their foot and rotate it back outward (toes away from you). You can also transition to a toe hold by catching their foot as they rotate. Maintain tight leg control to prevent full rotation.
 - **Opponent sits back and pulls their leg toward their chest** (Effectiveness: Medium) - Your Adjustment: Follow their movement by crunching forward and maintaining chest-to-thigh connection. Don't allow space to open. Use your leg hooks to prevent them from fully retracting the leg. If they successfully create space, you may need to transition to a different leg entanglement like 50-50 or Ashi Garami.
 - **Opponent rolls forward over their trapped leg to escape** (Effectiveness: Medium) - Your Adjustment: Anticipate this by maintaining strong top leg control over their hip/back. If they begin to roll, you can either finish the kneebar during their roll (they're adding force to the submission) or transition to the truck position as they rotate, maintaining leg control throughout.
@@ -257,28 +257,28 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attacking the leg before controlling the hip [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attacking the leg before controlling the hip [Low DANGER]
   - **Consequence**: Opponent easily rotates their body to escape, spinning into top position or extracting their leg completely
   - **Correction**: Always establish hip control first—cup the hip or belt with your hands before initiating the finish. The hip control prevents rotation, which is the primary escape mechanism.
-- **Error**: Pulling the leg down with arms instead of driving hips up [Medium DANGER]
+- **Mistake**: Pulling the leg down with arms instead of driving hips up [Medium DANGER]
   - **Consequence**: Insufficient pressure on the knee joint, wasted energy, and increased injury risk from improper mechanics
   - **Correction**: The submission comes from hip extension (arching your back), not arm strength. Your arms hold position while your hips create the force. Think 'push hips to ceiling' not 'pull leg to floor.'
-- **Error**: Allowing the knee joint to slip off your centerline [Low DANGER]
+- **Mistake**: Allowing the knee joint to slip off your centerline [Low DANGER]
   - **Consequence**: Loss of the fulcrum point, failed submission, and potential for opponent to escape or counter
   - **Correction**: Keep the back of their knee pinned to your torso centerline throughout the finish. Adjust your body position, not just their leg position, to maintain alignment.
-- **Error**: Jerking or spiking the submission rapidly in training [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the submission rapidly in training [CRITICAL DANGER]
   - **Consequence**: High risk of severe knee injury including PCL tears, meniscus damage, or patellar tendon rupture requiring surgery
   - **Correction**: ALWAYS apply progressive pressure over 3-5 seconds minimum in training. Save explosive finishes for competition only. Your training partner's safety is more important than the tap.
-- **Error**: Failing to secure leg isolation before finishing [Low DANGER]
+- **Mistake**: Failing to secure leg isolation before finishing [Low DANGER]
   - **Consequence**: Opponent easily extracts their leg, passes your guard, or counters with their own submission
   - **Correction**: Establish complete leg control with both of your legs (figure-four if possible) before attempting the finish. Their leg should have zero mobility before you apply pressure.
-- **Error**: Losing connection during transition from half guard to kneebar position [Low DANGER]
+- **Mistake**: Losing connection during transition from half guard to kneebar position [Low DANGER]
   - **Consequence**: Opponent pulls their leg free during the transition, passes to dominant position
   - **Correction**: Maintain constant tension with your bottom leg hook throughout the entire hip rotation. Never release the half guard until your perpendicular position is fully established and your top leg is in place.
-- **Error**: Attempting kneebar when opponent has strong whizzer or overhook [Medium DANGER]
+- **Mistake**: Attempting kneebar when opponent has strong whizzer or overhook [Medium DANGER]
   - **Consequence**: Opponent uses the overhook to roll you into bad position, or uses it to base and stand up
   - **Correction**: Before transitioning to kneebar, strip the whizzer/overhook or use it against them by rolling them forward. Never attempt this submission when opponent has strong upper body control.
 
@@ -287,7 +287,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Kneebar from Lockdown Half Guard**: From lockdown position (bottom foot hooked over opponent's ankle), the leg entanglement provides even stronger control during the transition. Use the lockdown to stretch their leg and prevent them from sitting back as you rotate into the kneebar position. The lockdown can be maintained through the initial rotation, then opened to complete the submission. (When to use: When opponent is driving hard into your half guard and you have deep lockdown control established)
 
 **Kneebar off Failed Old School Sweep**: When attempting the old school sweep from half guard, if the opponent bases hard with their free leg and blocks the sweep, transition directly to the kneebar. You're already in the perpendicular position with your leg over their back—simply adjust to capture their trapped leg and finish the kneebar instead of completing the sweep. (When to use: When opponent defends old school sweep by posting their far leg and creating strong base)
@@ -325,7 +325,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (2 weeks)
 - Focus: Learn the positional mechanics, hip rotation, leg isolation, and proper fulcrum point placement without any submission pressure. Practice the transition from half guard to kneebar position repeatedly.
 - Resistance: Zero resistance
@@ -362,7 +362,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Half Guard]]
 - [[Knee Shield Half Guard]]
@@ -376,7 +376,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kneebar]]
 - [[Kneebar Finish]]
@@ -413,7 +413,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The kneebar from half guard represents a perfect marriage of position and submission—you are using the inherent structure of the half guard leg entanglement as the foundation for a submission attack rather than merely as a guard retention position. The critical insight is that half guard bottom is fundamentally a leg entanglement position, and any leg entanglement can potentially transition to a leg lock. The most common error I observe is practitioners attacking the leg without first solving the hip rotation problem—the opponent can always defend a leg lock through rotation if their hip is not controlled. Establish your perpendicular angle, secure hip control with your hands, create the proper fulcrum point with their knee on your centerline, and only then initiate hip extension. The submission is a mathematical certainty when these positional requirements are met. From a training perspective, this technique requires slower, more controlled application than joint locks on the upper body due to the knee's vulnerability and delayed pain response—injury can occur before the neural feedback allows for tapping, making progressive pressure application a moral imperative, not merely a training suggestion.
 - **Gordon Ryan**: This is one of the highest percentage leg attacks from bottom position in modern no-gi grappling, and I've finished multiple ADCC and world championship matches with kneebars from half guard. The key tactical advantage is that your opponent doesn't expect leg attacks from bottom half—they're focused on passing your guard and controlling your upper body, which creates the perfect opportunity to attack their trapped leg. When I'm in bottom half guard, I'm constantly evaluating whether to sweep, take the back, or attack the leg, and the kneebar becomes available the moment they commit their weight forward with their head down. The transition must be explosive and decisive—you can't slowly work into this position because they'll recognize the danger and extract their leg. However, once I achieve the perpendicular position with hip control established, I apply the finish progressively even in competition, because knee injuries end careers. In training, I apply this slower than any other submission because I need training partners long-term. The distinction between competition and training application speed is critical: in competition, I finish in 1-2 seconds once position is locked; in training, I take 5 seconds minimum regardless of who I'm rolling with. Your training partners' knees are worth more than the tap.
 - **Eddie Bravo**: The kneebar from lockdown half guard is a fundamental component of the 10th Planet half guard system, and we've been developing this attack for over 20 years. The lockdown position gives you superior control during the transition because your foot hook on their ankle prevents them from sitting back or posturing up—their leg is literally stretched and immobilized. From lockdown, you can create the perfect storm: electric chair sweep threatens one direction, old school sweep threatens another direction, and the kneebar becomes available when they defend either sweep by basing hard. This creates a true multi-directional attack system where they can't defend everything simultaneously. One innovation we emphasize is using the lockdown tension to compromise their leg structure before you even transition to the kneebar—stretch their leg with the lockdown, make them uncomfortable, and then when you release and rotate, their leg is already compromised and easier to finish. In terms of safety culture, we take kneebars seriously at 10th Planet—everyone learns the injury risks, everyone practices slow application, and everyone taps early. We want innovators and risk-takers in our training room, but we also want everyone walking out healthy. The creativity in jiu-jitsu comes from training consistently over decades, and you can't do that if you're injured, so we build a culture where slow submission application and early tapping is seen as mature and intelligent, not weak.

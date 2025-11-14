@@ -8,7 +8,7 @@ description: "Master Top Half Guard control in BJJ. Learn pressure distribution,
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Top Half Guard control in BJJ. Learn pressure distribution,
 
 
 
-> **Quick Answer**: Top Half Guard is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Top Half Guard is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Establish and maintain cross-face control to limit opponent's upper body mobility
 - Create controlled pressure that limits hip mobility without overcommitting
 - Maintain connection points that neutralize the opponent's primary defensive frames
@@ -181,7 +181,7 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Crossface Control Establishment**: The ability to establish and maintain dominant head control through effective crossface positioning. This involves understanding proper shoulder placement, head control mechanics, and the relationship between head position and opponent mobility. Mastery includes recognizing when to transition between forearm crossface, shoulder pressure, and underhook-based head control.
 
 **Pressure Distribution Management**: The skill of distributing body weight effectively to control the opponent's hips while maintaining base and mobility. This requires understanding how to create crushing pressure without sacrificing the ability to adjust to defensive movements, and recognizing the difference between static heavy pressure and dynamic controlled pressure.
@@ -204,7 +204,7 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Pressure Application]]** (Prerequisite): Fundamental understanding of pressure mechanics is essential before developing top half guard mastery, as proper pressure distribution forms the foundation of all control and passing strategies from this position.
 - **[[Control Point Hierarchy]]** (Complementary): Understanding control point prioritization directly enhances top half guard effectiveness by providing a systematic framework for deciding which connections to establish and maintain based on opponent defensive structure.
 - **[[Guard Passing Principles]]** (Extension): Top half guard serves as a specific application domain where general guard passing principles are refined and adapted to the unique constraints of half guard configurations.
@@ -221,7 +221,7 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Half Guard**: Direct application domain where all top half guard principles manifest. Pressure distribution, crossface control, and passing sequence selection determine success in converting control to passed position.
 
 **Knee Shield Half Guard**: Requires specialized frame negation strategies and pressure angle adjustments. Top half guard concepts guide the systematic collapse of knee shield through proper shoulder positioning and hip pressure application.
@@ -252,7 +252,7 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Initial position assessment upon entering top half guard**: Evaluate opponent's leg configuration (standard, lockdown, knee shield, deep half) and upper body defensive structure (underhook position, frame placement, head position) to determine primary control objectives and passing approach selection.
 2. **Head control establishment priority**: Immediately establish crossface or alternative head control based on opponent's defensive posture. If opponent has strong neck position, transition to shoulder pressure or underhook-based control while preventing opponent's underhook establishment.
 3. **Underhook battle engagement decision**: Assess whether fighting for underhook advances control objectives or creates unnecessary risk. If opponent has deep underhook, prioritize crossface and base strengthening over underhook recovery. If underhook is shallow, systematically strip it while maintaining pressure.
@@ -265,28 +265,28 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Overcommitting to underhook battle at expense of head control
+## Common Mistakes
+- **Mistake**: Overcommitting to underhook battle at expense of head control
   - **Consequence**: Allows opponent to establish strong neck and head position, creating platform for effective frames and sweep attempts. Loss of head control fundamentally undermines all subsequent passing efforts.
   - **Correction**: Prioritize crossface establishment first, only engaging underhook battle after securing dominant head position. Accept opponent's underhook temporarily if necessary to maintain superior head control, then systematically strip underhook from position of upper body dominance.
-- **Error**: Applying maximum pressure immediately without establishing proper control points
+- **Mistake**: Applying maximum pressure immediately without establishing proper control points
   - **Consequence**: Creates unstable base vulnerable to opponent's sweep attempts while providing opponent with clear pressure vector to frame against. Heavy pressure without control points telegraphs intentions and allows opponent to time defensive reactions.
   - **Correction**: Establish control hierarchy systematically: head control first, then hip control, then pressure application. Build pressure gradually as control points are secured, using controlled pressure that can be adjusted rather than maximum static weight.
-- **Error**: Maintaining narrow base to maximize pressure
+- **Mistake**: Maintaining narrow base to maximize pressure
   - **Consequence**: Creates vulnerability to underhook-based sweeps, whip-overs from lockdown, and technical standup attempts. Narrow base sacrifices stability for pressure, fundamentally undermining control security.
   - **Correction**: Widen base appropriately based on opponent's defensive structure. Against lockdown or strong underhook, prioritize base width over maximum pressure. Understand that controlled pressure from stable base is more effective than maximum pressure from compromised base.
-- **Error**: Forcing single passing approach regardless of opponent defensive adaptation
+- **Mistake**: Forcing single passing approach regardless of opponent defensive adaptation
   - **Consequence**: Becomes predictable and allows opponent to optimize defensive structure against known attack. Creates stalemates where neither player can advance position effectively.
   - **Correction**: Develop multiple passing pathways and switch between approaches based on opponent's defensive reactions. Use failed passing attempts as reconnaissance to identify defensive weaknesses, then attack alternative angles.
-- **Error**: Neglecting to control opponent's bottom arm and allowing strong frames
+- **Mistake**: Neglecting to control opponent's bottom arm and allowing strong frames
   - **Consequence**: Permits opponent to create space through effective framing, preventing pressure consolidation and maintaining escape opportunities. Strong frames fundamentally prevent passing progression regardless of other control elements.
   - **Correction**: Systematically address opponent's framing structures before initiating passing sequences. Pin bottom arm using crossface pressure, trap it with body weight, or control the elbow to collapse frame structure. Only advance to passing when frames are neutralized.
-- **Error**: Failing to adjust pressure angle based on opponent's hip position
+- **Mistake**: Failing to adjust pressure angle based on opponent's hip position
   - **Consequence**: Allows opponent to create angles for hip escapes, retain guard, or reverse position. Improper pressure angles can actually assist opponent's defensive movements rather than suppress them.
   - **Correction**: Continuously adjust chest and shoulder pressure direction based on opponent's hip orientation. Drive pressure perpendicular to opponent's spine to maximize hip immobilization. Recognize that pressure angle matters more than pressure magnitude.
-- **Error**: Initiating passing movements before opponent is sufficiently controlled
+- **Mistake**: Initiating passing movements before opponent is sufficiently controlled
   - **Consequence**: Creates windows of vulnerability during passing transitions where opponent can re-guard, sweep, or reverse position. Premature passing attempts sacrifice established control for low-probability advancement.
   - **Correction**: Establish clear control checkpoints before initiating passing: secure head control, neutralize primary frames, limit hip mobility, establish stable base. Only advance to dynamic passing movements after all checkpoints are satisfied. Accept longer control phases to ensure higher passing success rates.
 
@@ -295,7 +295,7 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Pressure Development Drilling** (Focus: Develops pressure distribution awareness, base maintenance under resistance, and the ability to maintain crushing pressure without sacrificing positional stability or mobility.)
 Partner drilling focused on systematically building pressure application while maintaining control. Start with static control positions and gradually add opponent resistance, developing the ability to maintain pressure while adjusting to defensive movements.
 
@@ -320,7 +320,7 @@ Live training where top player must maintain control and pass using only specifi
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can establish basic crossface control and maintain heavy pressure on opponent in standard half guard
 - Recognizes difference between standard half guard, knee shield, and lockdown configurations
@@ -362,7 +362,7 @@ Live training where top player must maintain control and pass using only specifi
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Half Guard]] (Position) - Primary position where this concept is applied, serving as the main laboratory for developing and refining top half guard control and passing principles
 - [[Knee Shield Half Guard]] (Position) - Common defensive variation requiring specialized application of top half guard principles, particularly frame negation and pressure angle adjustment
@@ -382,7 +382,7 @@ Live training where top player must maintain control and pass using only specifi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Top half guard represents one of the most important positions in all of grappling for developing fundamental understanding of pressure-passing mechanics and control hierarchies. The position provides immediate tactile feedback about the effectiveness of your pressure distribution, base structure, and connection management in ways that other positions often obscure. I teach students to view top half guard not as a single position but as a family of related control problems, each requiring systematic solutions based on the opponent's defensive configuration. The critical insight is understanding that head control must precede all other control objectives - without dominant head position, you are fighting the entire battle from a position of structural disadvantage. From there, the chess match becomes about creating what I call a 'control cascade' where each successfully established connection limits the opponent's defensive options, systematically funneling them toward predictable reactions that open specific passing lanes. Students must learn to sequence their control establishment and passing attempts based on clear decision trees rather than relying on strength or athleticism.
 - **Gordon Ryan**: In competition, top half guard is where I create the dilemmas that force my opponents into making predictable defensive choices, each of which I've prepared specific counters for. The key isn't having one perfect passing technique - it's about understanding how to make every defensive option available to my opponent lead to a passing opportunity. When I'm in top half guard, I'm not thinking about passing immediately; I'm thinking about what defensive structure my opponent is showing me and what that structure prevents them from doing. If they're committed to preventing the knee slice, they've opened themselves to the long step. If they're defending the underhook battle heavily, they've weakened their frame structure. The beautiful thing about top half guard is that it's fundamentally a position where the bottom player must make constant defensive decisions, and decision-making under pressure leads to mistakes. I spend significant training time developing the ability to maintain crushing pressure for extended periods because I know that pressure over time creates defensive errors that momentary explosive passing attempts never would. My passing success rate in competition from top half guard is so high because I've removed the element of chance - I've systematically mapped every defensive configuration to specific passing responses.
 - **Eddie Bravo**: Teaching top half guard concepts within the 10th Planet system has given me unique insights because I've had to develop approaches specifically designed to counter my own lockdown and electric chair systems that my students use against me constantly. What I've learned is that top half guard mastery requires you to be completely comfortable with apparent stalemate positions - you have to embrace being stuck in a control battle and trust that proper pressure and positioning will eventually create passing opportunities. The biggest mistake I see is people trying to force passes before they've established dominant control, particularly against lockdown or knee shield configurations. Against the lockdown specifically, base width becomes absolutely critical - if your base is too narrow, the whip-over becomes available and you're getting swept. But if you widen your base properly and maintain shoulder pressure, the lockdown actually limits the bottom player's ability to create angles for other attacks. I tell my guys that top half guard is like a slow-motion chess match played with pressure and base adjustments. You're making micro-adjustments constantly based on what the bottom player shows you, and you have to develop the patience to let those adjustments accumulate rather than trying to explode into passing attempts before the position is ready. The submissions from top half guard - particularly kimuras and guillotines - aren't just finishes, they're tools for creating the positional reactions that open passing lanes.

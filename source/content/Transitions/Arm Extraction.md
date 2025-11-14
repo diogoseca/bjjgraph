@@ -8,7 +8,7 @@ description: "Master Arm Extraction escape from Side Control. Learn systematic a
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Arm Extraction escape from Side Control. Learn systematic a
 
 
 
-> **Quick Answer**: Arm Extraction transitions from [[Side Control]] to [[Guard Recovery]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Arm Extraction transitions from [[Side Control]] to [[Guard Recovery]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ This escape is particularly effective against pressure-based top players who pri
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish defensive frames immediately to prevent opponent from settling weight
 - Create separation at the shoulder level before attempting hip escape
 - Use small, incremental movements rather than explosive attempts
@@ -184,7 +184,7 @@ This escape is particularly effective against pressure-based top players who pri
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Bottom position in side control with opponent maintaining chest pressure
 - Ability to create minimal space between bodies (even just breathing room)
 - At least one arm not completely trapped under opponent's weight
@@ -197,7 +197,7 @@ This escape is particularly effective against pressure-based top players who pri
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish defensive frames**: From bottom side control, immediately establish frames using the near-side arm against opponent's hip or shoulder. Place the far-side hand on the opponent's near-side shoulder or bicep. Create maximum distance between your shoulder and the mat by using these frames to prevent opponent from settling their full weight. Your elbows should be tight to your body, creating a structural frame rather than extended arms that can be collapsed. (Timing: Immediately upon being taken to side control)
 2. **Identify the trapped arm**: Determine which arm is most compromised—typically the arm caught in an underhook or trapped by a crossface. This is your primary extraction target. The trapped arm is usually on the side where opponent's chest makes contact with yours. Assess whether you're dealing with an underhook (opponent's arm under yours) or crossface (opponent's arm across your face). This determines your extraction angle. (Timing: During initial defensive assessment)
 3. **Create shoulder rotation space**: Using your frames, push and create a small gap between your shoulder and the mat. Simultaneously turn your shoulders toward the opponent, rotating your trapped-side shoulder upward and away from the mat. This rotation is subtle—only 2-3 inches of movement—but critical for creating extraction space. Maintain constant frame pressure throughout this rotation to prevent opponent from following your movement and closing the gap. (Timing: As opponent commits pressure forward)
@@ -210,7 +210,7 @@ This escape is particularly effective against pressure-based top players who pri
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent increases chest pressure and follows your shoulder rotation** (Effectiveness: High) - Your Response: Switch to a different escape pathway—either bridge and roll escape or knee-elbow escape. Alternatively, pause the extraction attempt, re-establish frames, and wait for opponent to shift their weight before attempting again. Do not fight against heavy forward pressure; instead, redirect it or wait for the opportunity.
 - **Opponent switches to north-south position to counter the escape** (Effectiveness: Medium) - Your Response: This is actually favorable—north-south offers different escape opportunities with less control. Immediately work for elbow-knee connection and shrimp to re-guard, or execute the hitchhiker escape specific to north-south position. The transition to north-south indicates your frames are working.
 - **Opponent establishes a far-side underhook and prevents shoulder rotation** (Effectiveness: High) - Your Response: Address the underhook first by swimming your arm inside and establishing an overhook or by using your near-side frame to strip the underhook. Alternatively, switch to attacking the opposite side or utilize the bridge and roll escape which is specifically designed to counter underhook control.
@@ -219,25 +219,25 @@ This escape is particularly effective against pressure-based top players who pri
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to extract the arm with explosive pulling motion
+## Common Mistakes
+- **Mistake**: Attempting to extract the arm with explosive pulling motion
   - **Consequence**: Opponent easily counters by increasing pressure and driving forward, potentially transitioning to mount or establishing submission attacks
   - **Correction**: Use gradual, technical movement focusing on rotation and proper angles. The extraction should feel like threading a needle, not forcing a door open. Small, controlled movements are far more effective than explosive attempts.
-- **Error**: Releasing frames before the guard is fully established
+- **Mistake**: Releasing frames before the guard is fully established
   - **Consequence**: Opponent immediately re-establishes side control, often with better control than before
   - **Correction**: Maintain frames throughout the entire escape sequence. Only release defensive frames once your guard is completely closed or your knee shield is secured with proper grips established.
-- **Error**: Turning away from opponent (turning to turtle) during arm extraction
+- **Mistake**: Turning away from opponent (turning to turtle) during arm extraction
   - **Consequence**: Gives up the back or allows opponent to establish rear mount position
   - **Correction**: Always turn toward opponent, not away. Your chest should face your opponent throughout the escape. If you must turn to turtle, this requires a completely different escape sequence and should be an intentional strategic choice.
-- **Error**: Flat back position with shoulders on the mat
+- **Mistake**: Flat back position with shoulders on the mat
   - **Consequence**: Makes shoulder rotation impossible and allows opponent to settle full weight, eliminating any space for arm extraction
   - **Correction**: Immediately turn slightly on your side, getting your shoulder off the mat. Even being 10-15 degrees off your back creates the necessary space for the technique to function. Use your frames to maintain this angle.
-- **Error**: Extracting the wrong arm first
+- **Mistake**: Extracting the wrong arm first
   - **Consequence**: Wasted energy and time working on the less compromised arm while the critical control point remains intact
   - **Correction**: Always identify and extract the arm that is most controlling your position—typically the arm caught in the underhook or crossface. This is your primary obstacle. The other arm can often frame effectively even while trapped.
-- **Error**: Attempting the escape without establishing frames first
+- **Mistake**: Attempting the escape without establishing frames first
   - **Consequence**: No structure to create the necessary space, leading to failed escape attempts and potential submission exposure
   - **Correction**: Frames must be established before any escape attempt. This is non-negotiable. Proper frames create the foundation for all defensive movements from bottom positions. Take the time to establish solid frames before initiating the arm extraction sequence.
 
@@ -246,7 +246,7 @@ This escape is particularly effective against pressure-based top players who pri
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Frame Establishment and Shoulder Rotation** - Developing proper defensive frames and understanding shoulder rotation mechanics
 Partner begins in side control with moderate pressure. Bottom person practices establishing frames and creating shoulder rotation without attempting full extraction. Focus on maintaining elbow-knee connection and turning shoulders toward opponent. Partner provides steady pressure but does not actively counter. Drill 10 repetitions per side, holding each frame position for 5 seconds.
 (Resistance: Light)
@@ -277,7 +277,7 @@ Practice flowing between arm extraction and other side control escapes (bridge a
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Near-side Arm Extraction**: Instead of extracting the far-side trapped arm, this variation focuses on extracting the near-side arm that's framing against opponent's hip. This creates space for a knee insertion on the near side, leading to a knee shield or butterfly guard recovery. The mechanics are similar but the extraction angle differs—pulling the elbow up and across rather than threading through the chest. (When to use: When opponent has secured a strong far-side underhook and crossface, making far-side extraction impossible. Also effective when opponent is transitioning toward mount, as the near-side extraction can prevent the leg from stepping over.)
 
 **Two-Stage Extraction (Gradual Progressive Extraction)**: This variation breaks the arm extraction into two distinct movements separated by a pause. First stage: rotate shoulder and extract elbow only, establishing it in a bent-arm frame position across your chest. Pause and secure this position. Second stage: complete the extraction by bringing the hand to opposite shoulder. This version is more technical and energy-efficient but slower. (When to use: Against extremely heavy pressure opponents or when you're fatigued and cannot execute the full extraction in one movement. Also useful when opponent is very experienced and counters single-motion extractions—the pause disguises your intention and creates uncertainty.)
@@ -317,7 +317,7 @@ Practice flowing between arm extraction and other side control escapes (bridge a
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Arm extraction is a low-risk defensive technique with minimal injury potential when performed correctly. The primary safety concern is avoiding turning away from opponent (turning to turtle), which can result in giving up back control or rear mount position—significantly worse positions than side control. Always turn toward opponent during the escape. When drilling, the top partner should provide appropriate resistance levels matching the training phase—excessive pressure during initial learning phases can create bad habits and potential joint strain. Bottom partner should tap immediately if any submission threats develop during escape attempts. Avoid explosive, jerky movements during arm extraction as these can strain shoulder joints and are also technically inefficient. The technique should feel smooth and controlled, not forced. When learning, ensure adequate mat space around drilling pairs as the guard recovery phase involves leg movements that could accidentally strike nearby practitioners.
 
@@ -325,7 +325,7 @@ Arm extraction is a low-risk defensive technique with minimal injury potential w
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Arm extraction serves as a critical defensive connector in the BJJ positional hierarchy, specifically bridging the gap between bottom side control (a disadvantageous position worth -3 or -4 points in competition) and guard positions (neutral to slightly advantageous positions). This technique is part of the comprehensive side control escape system, working alongside bridge and roll escape, elbow-knee escape, and ghost escape. Each escape addresses different opponent configurations and pressure patterns. Arm extraction specifically excels against chest-pressure-focused control where opponent prioritizes upper body connection over hip control. The technique integrates with guard retention systems by providing the initial space creation needed to re-establish guard structures. Once guard is recovered via arm extraction, practitioners immediately transition to their preferred guard system—closed guard, knee shield, butterfly guard, or deep half guard. Understanding when to use arm extraction versus other side control escapes is essential for developing adaptive defensive capabilities. In competition strategy, successful arm extraction negates opponent's point-scoring position and resets the positional exchange to neutral, while also demonstrating defensive maturity that judges favor in close matches.
 
@@ -333,7 +333,7 @@ Arm extraction serves as a critical defensive connector in the BJJ positional hi
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Side Control Escape]] - Parent category—arm extraction is one specific method within the broader side control escape system
 - [[Elbow Escape]] - Alternative escape technique from side control focusing on elbow-knee connection and hip escape
@@ -351,7 +351,7 @@ Arm extraction serves as a critical defensive connector in the BJJ positional hi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The arm extraction escape represents a fundamental principle in defensive grappling: systematic dismantling of opponent's control mechanisms in order of priority. The trapped arm under crossface or underhook control is not merely uncomfortable—it is the mechanical lynchpin of their entire pinning structure. By extracting this arm, you eliminate their ability to control your shoulder rotation, which in turn enables hip escape and guard recovery. The technique's elegance lies in its incremental approach. Rather than explosive, all-or-nothing escape attempts that often fail against skilled opponents, arm extraction uses small, technically precise movements to progressively degrade the opponent's control. The shoulder rotation phase—often only 2-3 inches of movement—creates just enough space for the elbow to begin its extraction path. This is pure leverage mechanics: you're using rotational force where opponent is applying linear pressure, creating a mechanical advantage. Students must understand that frames are not passive structures but active tools for maintaining the space you create. The moment you release a frame before your guard is established, you've surrendered the space you fought to create. This is perhaps the most common technical error I observe: premature frame release. The extraction must be viewed as a complete sequence with no shortcuts.
 - **Gordon Ryan**: In high-level competition, side control escapes often determine match outcomes more than attacks from advantageous positions. Everyone at the elite level can attack from top positions—it's surviving bad positions that separates champions from competitors. I've won multiple ADCC and No-Gi Worlds matches specifically because my arm extraction fundamentals allowed me to neutralize superior wrestlers who put me in bottom side control. The key competitive application is timing recognition: you must hit the extraction during the brief window when opponent is settling their weight but hasn't yet established their full control structure. If you wait until they're fully settled, the technique's success rate drops dramatically. I prefer the variation leading to butterfly guard in no-gi, as it immediately creates sweep threats that force opponent into defensive mode rather than allowing them to attempt to re-pass. The psychological aspect is also critical—when you successfully extract and recover guard multiple times, opponents begin to hesitate in their passing attempts, fearing the scramble. This hesitation is exactly the opening you need to launch your own attacks. In my matches, I've noticed that drilling arm extraction with specific focus on the two-stage progressive version has the highest success rate under maximum pressure. The pause between elbow extraction and final hand positioning creates a micro-reset that disguises your full intentions.
 - **Eddie Bravo**: The arm extraction is fundamental 10th Planet system mechanics because it creates the space necessary for all our guard recovery pathways—whether you're going to lockdown, butterfly, or rubber guard. What makes this technique especially powerful in our system is how we chain it with our other defensive concepts. If the extraction gets countered, we immediately flow to either electric chair entries from the partial extraction position, or we use the opponent's counter-pressure to hit the twister side control position. Everything connects. The beauty of arm extraction in no-gi is that it's one of the few escapes that doesn't rely on gi grips—it's pure body mechanics and frame structure. I teach my students to view the extracted arm not just as an escape tool but as the foundation for immediate offensive transition. The moment that arm clears and establishes the frame, you should already be thinking about your next attack sequence. We drill a specific variation where you extract the arm and immediately overhook opponent's arm while inserting the lockdown—this creates instant electric chair setups. The key innovation in our approach is treating the arm extraction as both defensive and offensive simultaneously. Most people view escapes as purely defensive survival tactics, but we see them as position chains leading to attacks. Your mindset should be: extract, recover guard, attack—all as one continuous flow.

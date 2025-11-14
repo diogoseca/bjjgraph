@@ -8,7 +8,7 @@ description: "Master Spider Guard variations in BJJ. Learn sleeve control mechan
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Spider Guard variations in BJJ. Learn sleeve control mechan
 
 
 
-> **Quick Answer**: Spider Guard Variations transitions from [[Spider Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Spider Guard Variations transitions from [[Spider Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Spider Guard variations represent a comprehensive system of distance management 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant sleeve control with strong grip fundamentals
 - Use feet on biceps to control distance and prevent forward pressure
 - Create angles with hip movement to off-balance opponent
@@ -180,7 +180,7 @@ Spider Guard variations represent a comprehensive system of distance management 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Open guard established with opponent on knees or standing
 - Strong sleeve grips secured on both arms
 - At least one foot positioned on opponent's bicep
@@ -193,7 +193,7 @@ Spider Guard variations represent a comprehensive system of distance management 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish sleeve control**: From open guard, secure deep four-finger grips on both of your opponent's sleeves at the wrists. Pull their hands toward your hips to straighten their arms and prevent them from getting heavy grips on your legs or collar. (Timing: As opponent opens your closed guard or as you open to transition)
 2. **Place feet on biceps**: Lift your hips off the mat and place the balls of both feet on your opponent's biceps, creating a pushing frame. Keep your knees slightly bent to maintain spring-loaded pressure that prevents them from driving forward into your guard. (Timing: Immediately after securing sleeve grips)
 3. **Create distance and posture**: Extend your legs to push your opponent's arms away while maintaining strong sleeve grips. This creates maximum distance and forces them into an extended posture where their base is compromised. Your arms should be pulling while your legs push, creating opposing forces. (Timing: Once both feet are established on biceps)
@@ -206,7 +206,7 @@ Spider Guard variations represent a comprehensive system of distance management 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent stands tall and backs away to break grips** (Effectiveness: Medium) - Your Response: Follow their movement with your hips, extend legs fully to maintain distance, and transition to standing spider guard or single leg X-guard entry before grips break
 - **Opponent drops low and drives elbows to mat to collapse spider** (Effectiveness: High) - Your Response: Immediately transition to lasso guard on one side for retention, use free leg for hip control, or switch to collar sleeve guard to maintain frames while adjusting position
 - **Opponent grabs your pants/belt and establishes heavy grips** (Effectiveness: Medium) - Your Response: Use foot on bicep to push that arm away and break their grip, kick free leg to prevent being controlled, and shrimp to create angle that makes their grips less effective
@@ -216,25 +216,25 @@ Spider Guard variations represent a comprehensive system of distance management 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Allowing opponent to control your knees or hips while maintaining spider
+## Common Mistakes
+- **Mistake**: Allowing opponent to control your knees or hips while maintaining spider
   - **Consequence**: They establish passing pressure and can drive through your guard despite sleeve control
   - **Correction**: Prioritize keeping their hands away from your legs; if they grab, immediately kick that leg free and use spider pressure to off-balance them before re-establishing frames
-- **Error**: Keeping legs fully extended constantly without adjusting
+- **Mistake**: Keeping legs fully extended constantly without adjusting
   - **Consequence**: Legs fatigue quickly and you lose the spring-loaded pressure needed for sweeps and retention
   - **Correction**: Maintain slight knee bend to preserve leg strength; extend explosively for sweeps and attacks rather than maintaining maximum extension continuously
-- **Error**: Failing to adjust hip position as opponent moves
+- **Mistake**: Failing to adjust hip position as opponent moves
   - **Consequence**: Opponent creates angles and passes around your guard while you remain stationary
   - **Correction**: Your hips must move with your opponent's movement; stay square to them by scooting and rotating your hips, treating spider guard as a mobile rather than static position
-- **Error**: Gripping too shallow on sleeves (near elbows)
+- **Mistake**: Gripping too shallow on sleeves (near elbows)
   - **Consequence**: Opponent easily strips your grips and establishes passing controls
   - **Correction**: Secure deep four-finger grips at the wrists; if grips start slipping, re-grip immediately before continuing attacks or transitions
-- **Error**: Attacking without setting up proper off-balancing first
+- **Mistake**: Attacking without setting up proper off-balancing first
   - **Consequence**: Sweeps fail because opponent's base is strong and weight is centered
   - **Correction**: Use pushing and pulling motions to rock opponent's weight forward and backward; only initiate sweeps when you feel their weight commit in the direction of your attack
-- **Error**: Neglecting to transition between variations based on opponent's defense
+- **Mistake**: Neglecting to transition between variations based on opponent's defense
   - **Consequence**: You become predictable and opponent develops specific counters to your single variation
   - **Correction**: Flow between double spider, collar sleeve, lasso, and single spider based on opponent's reactions; use their defensive commitments to set up the next variation
 
@@ -243,7 +243,7 @@ Spider Guard variations represent a comprehensive system of distance management 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip establishment and basic distance control
 Drill establishing spider guard from closed guard break and open guard scenarios. Focus on securing proper wrist grips and placing feet on biceps with good pressure. Partner remains passive while you practice extending and retracting legs while maintaining sleeve control. Emphasis on feeling the push-pull relationship between hands and feet.
 (Resistance: None)
@@ -274,7 +274,7 @@ Free rolling with emphasis on entering spider guard from different scenarios, ma
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Collar Sleeve Spider**: One hand controls collar while other maintains sleeve grip, one foot on bicep and one on hip. Creates stronger off-balancing for triangles and omoplatas while maintaining some distance control. (When to use: Against opponents who maintain very upright posture; when setting up triangle attacks; against larger opponents where full spider distance is harder to maintain)
 
 **Lasso Spider**: Thread one leg deep around opponent's arm and control their back with foot on hip, other leg maintains bicep pressure. Creates extremely strong immobilization of one arm while setting up powerful sweeps and back takes. (When to use: Against opponents trying to pressure pass; when you need to completely shut down one arm; for setting up omoplata transitions; against aggressive passers)
@@ -316,7 +316,7 @@ Free rolling with emphasis on entering spider guard from different scenarios, ma
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Spider guard places significant stress on finger joints and grip strength, so warm up hands thoroughly and develop grip strength progressively. Avoid maintaining maximum leg extension continuously as this can fatigue hip flexors and lower back; instead use dynamic extension for attacks. When drilling with partners, communicate about grip intensity to prevent finger injuries. Be cautious when inverting from spider guard as this can strain neck and shoulders if done without proper preparation. If you feel sharp pain in fingers, release grips immediately to prevent tendon damage. Partners should avoid yanking arms violently to break spider grips as this can injure both parties' fingers and wrists.
 
@@ -324,7 +324,7 @@ Spider guard places significant stress on finger joints and grip strength, so wa
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Spider guard variations serve as a central hub in modern open guard systems, providing a platform that connects to most other guards and positions. From spider, you can easily transition to De La Riva, reverse De La Riva, X-guard, single leg X, lasso guard, collar sleeve guard, and seated guard based on opponent's reactions. This makes spider guard an essential position for building a comprehensive guard game. The sleeve control established in spider translates directly to standing guard scenarios, making it valuable for guard pulling strategies. Many high-level competitors use spider guard as their primary distance management tool before transitioning to their specialized guards (leg entanglements, 50/50, deep half). Understanding spider guard variations gives you the ability to control the pace of engagement and force opponents into uncomfortable positions while setting up your preferred attacks.
 
@@ -332,7 +332,7 @@ Spider guard variations serve as a central hub in modern open guard systems, pro
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Spider Guard]] - Base position
 - [[Lasso Guard]] - Primary variation
@@ -355,7 +355,7 @@ Spider guard variations serve as a central hub in modern open guard systems, pro
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Spider guard represents a masterclass in the principle of using multiple points of control to create a mechanical advantage. The genius of the position lies in its use of opposing vectors - your hands pulling while your feet push - to create a force couple that disrupts your opponent's structure. What makes spider guard variations so effective from a systematic perspective is that each variation addresses specific defensive strategies while maintaining the core mechanical principles. The transition from double spider to collar sleeve to lasso isn't random; it's a systematic response to your opponent's postural changes and grip fighting. When teaching spider guard, I emphasize that students must understand the biomechanical why behind each variation. Double spider maximizes distance but requires significant energy; collar sleeve sacrifices some distance for stronger off-balancing toward triangles; lasso immobilizes one arm completely but reduces mobility. Each choice has trade-offs, and intelligent guard players select variations based on their opponent's body type, passing style, and defensive tendencies. The mark of mastery in spider guard isn't executing perfect technique in isolation, but rather making correct variation selections based on constantly changing tactical requirements.
 - **Gordon Ryan**: In competition, spider guard variations are absolutely essential for controlling aggressive passers and setting up high-percentage attacks. What I love about spider is that it gives me complete control over the engagement distance - they can't pressure me effectively because I'm controlling their arms and keeping them at the end of my legs. My go-to sequence is using double spider to frustrate their initial passing attempts, then transitioning to collar sleeve when I'm ready to attack triangles, which is one of my highest percentage submissions. The key to making spider guard work at the highest levels is understanding that it's not just about holding the position - it's about creating constant dilemmas for your opponent. When they try to strip my grips, I'm already transitioning to lasso or single spider. When they back away, I'm following with my hips and entering leg entanglements. You have to be one step ahead of their defensive reactions. I also use spider guard extensively in my guard pulling game because the sleeve grips give me immediate control after pulling, preventing them from establishing passing pressure during that vulnerable transition. Against high-level opponents, I'll often mix spider with De La Riva and reverse De La Riva to create a guard system they can't prepare for.
 - **Eddie Bravo**: Spider guard variations are crucial in the 10th Planet system even though we're primarily no-gi, because understanding the principles of distance management and limb control translates directly to our open guard concepts. When we do train in the gi, spider guard is one of the positions where having flexibility and creativity really pays off. I teach my students to think of spider guard as a launching pad for inverted attacks and unconventional sweeps that opponents don't see coming. The lasso variation in particular opens up the entire omoplata game, which connects to our rubber guard system philosophies about shoulder manipulation and back takes. What's interesting is that spider guard principles - controlling distance with legs while manipulating grips with hands - directly inform how we approach certain no-gi positions like butterfly guard with overhooks or collar ties. The biomechanics are similar even without the gi grips. My students learn to flow between spider variations rapidly, using opponent's grip-stripping attempts to set up inverted guards or rolling attacks. We also emphasize the triangle game from spider because it fits our submission-first philosophy. Don't just use spider to sweep; use it to create submission opportunities that lead to dominant positions.

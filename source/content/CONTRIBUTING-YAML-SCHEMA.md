@@ -351,7 +351,7 @@ description: "Understand Concept Name in BJJ. Fundamental principle applicable a
 - Component Skills (sub-skills breakdown)
 - Concept Relationships (links to related principles)
 - Expert Insights (Danaher, Gordon Ryan, Eddie Bravo)
-- Common Errors (mistakes and corrections)
+- Common Mistakes (mistakes and corrections)
 - Training Approaches (how to develop the skill)
 
 ### Complete Example
@@ -823,7 +823,7 @@ This means you're using the old path format. Change it to just:
    - Focus on different aspects (technical, competitive, innovative)
    - Write as if quoting the expert (third person)
 
-4. **Common Errors Section**
+4. **Common Mistakes Section**
    - Minimum 3 errors per page
    - Format: Error → Consequence → Correction
    - Include recognition tips

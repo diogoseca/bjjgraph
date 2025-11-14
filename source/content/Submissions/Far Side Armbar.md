@@ -8,7 +8,7 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 
 
 
-> **Quick Answer**: Far Side Armbar is a arm lock targeting the Elbow joint (hyperextension). ⚠️ **SAFETY**: This technique can cause Elbow hyperextension (ligament damage) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Far Side Armbar is a arm lock targeting the Elbow joint (hyperextension). ⚠️ **SAFETY**: This technique can cause Elbow hyperextension (ligament damage). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="safety-considerations" class="content-section">
 
-## Is Far Side Armbar Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -219,7 +219,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Isolate the far arm by controlling the wrist and preventing hand clasping
 - Create the proper angle by positioning your hips perpendicular to opponent's shoulder
 - Secure the arm across your chest/body before committing to the finish
@@ -233,7 +233,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Dominant top position (side control, mount, north-south, or knee on belly)
 - Control of opponent's far wrist or forearm
 - Opponent's arm extended or creating a defensive frame
@@ -246,7 +246,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure far arm control**: From side control or mount, identify the opponent's far arm (furthest from you). Grip the wrist firmly with your near hand, or cup behind the elbow if they're framing. Your goal is to prevent them from pulling their arm back or clasping their hands together for defense. (Timing: 0-2 seconds) [Pressure: Firm]
 2. **Break opponent's defensive structure**: Drive your weight forward and down to extend the opponent's arm fully. If they're framing against your neck or shoulder, use your free hand to swim under their arm or peel it across your body. The arm should be straightened and pulled across your chest at approximately shoulder height. (Timing: 2-3 seconds) [Pressure: Firm]
 3. **Trap the arm to your body**: Once the arm is extended, clamp it tightly to your chest by squeezing your elbow to your ribs. The opponent's arm should be positioned so their thumb points up and their tricep presses against your sternum. This grip prevents them from bending their arm to escape. (Timing: 1 second) [Pressure: Firm]
@@ -260,7 +260,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Clasping hands together (prayer defense)** (Effectiveness: High) - Your Adjustment: Attack the grip by peeling fingers, using your legs to torque their body, or transitioning to kimura/americana on the near arm before returning to far side armbar
 - **Turning toward you to hide the arm** (Effectiveness: Medium) - Your Adjustment: Use your legs and hips to prevent the turn, or allow the turn and transition to back control or alternative submissions like the crucifix
 - **Pulling the arm back toward their body** (Effectiveness: Medium) - Your Adjustment: Maintain firm grip on the wrist and use your body weight to keep the arm extended; if they succeed in bending it, transition to mounted position or other attacks
@@ -270,28 +270,28 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Releasing chest pressure on the arm too early [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Releasing chest pressure on the arm too early [Medium DANGER]
   - **Consequence**: Opponent can bend their arm and escape before you establish full control
   - **Correction**: Maintain tight chest-to-arm connection throughout the entire setup; never let their arm bend until the submission is fully locked
-- **Error**: Applying sudden jerking or spiking motion to finish [CRITICAL DANGER]
+- **Mistake**: Applying sudden jerking or spiking motion to finish [CRITICAL DANGER]
   - **Consequence**: HIGH RISK of elbow dislocation, ligament rupture, or severe hyperextension injury
   - **Correction**: Always apply pressure progressively over 3-5 seconds minimum; use smooth hip extension rather than explosive yanking
-- **Error**: Poor hip positioning (not perpendicular to opponent) [Low DANGER]
+- **Mistake**: Poor hip positioning (not perpendicular to opponent) [Low DANGER]
   - **Consequence**: Weak leverage and easy escape for opponent; submission lacks finishing power
   - **Correction**: Ensure your hips are positioned near opponent's head with your body forming a clear 'T' shape; adjust before applying pressure
-- **Error**: Failing to control opponent's head or near arm [Medium DANGER]
+- **Mistake**: Failing to control opponent's head or near arm [Medium DANGER]
   - **Consequence**: Opponent can turn into you and escape, or use near arm to defend
   - **Correction**: Use your legs to control the head, or trap their near arm with your leg/body weight before committing to the finish
-- **Error**: Incorrect thumb position (thumb pointing toward opponent's head) [Medium DANGER]
+- **Mistake**: Incorrect thumb position (thumb pointing toward opponent's head) [Medium DANGER]
   - **Consequence**: Allows opponent to hitchhiker escape by rotating their thumb toward their head
   - **Correction**: Ensure opponent's thumb points toward their feet; this prevents rotation and strengthens the lock
-- **Error**: Using arm strength instead of hip drive [Low DANGER]
+- **Mistake**: Using arm strength instead of hip drive [Low DANGER]
   - **Consequence**: Weak submission that tires you out; opponent can resist and escape
   - **Correction**: Focus on hip extension and body positioning; your hips should do the work, not your arms pulling
-- **Error**: Not allowing partner to tap safely in training [CRITICAL DANGER]
+- **Mistake**: Not allowing partner to tap safely in training [CRITICAL DANGER]
   - **Consequence**: Partner injury, loss of training partners, unsafe training environment
   - **Correction**: Always ensure at least one of partner's hands is free to tap; apply pressure slowly; release immediately upon tap signal
 
@@ -300,7 +300,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Far Side Armbar from Side Control**: Classic entry where you control opponent from side control, isolate their far arm as they frame, then rotate your hips toward their head while trapping the arm to your chest. (When to use: When opponent is defending tightly in side control and using their far arm to create frames or distance)
 
 **Far Side Armbar from Mount**: From high mount, bait opponent to push with their far arm, catch it, then lean back and rotate your hips to apply the armbar without dismounting fully. (When to use: When mounted opponent tries to push you away or create frames with extended arms)
@@ -345,7 +345,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (First 2 weeks of learning)
 - Focus: Learn arm isolation, grip control, and basic positioning without any resistance. Practice hip rotation and angle creation in isolation.
 - Resistance: Zero resistance
@@ -382,7 +382,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[Mount]]
@@ -398,7 +398,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Armbar from Mount]]
 - [[Armbar from Side Control]]
@@ -439,7 +439,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The far side armbar represents one of the most mechanically sound submissions in jiu-jitsu due to its fundamental reliance on proper leverage and body positioning rather than athletic attributes. What makes this technique particularly systematic is the clear checkpoint progression: first, you must establish arm isolation and prevent defensive hand clasping; second, you must achieve perpendicular hip alignment to create optimal leverage angles; third, you must secure the arm to your torso to prevent escape through arm bending; and finally, you apply controlled hip extension to generate breaking force. Each checkpoint must be satisfied before progressing to the next, creating a methodical pathway to the finish. The far side armbar also exemplifies the principle of attacking the frame—the very structure the opponent uses to defend becomes their vulnerability when properly isolated and controlled. From a safety perspective in training, the slow and progressive application of pressure is non-negotiable; the elbow joint has limited capacity for hyperextension, and sudden force can cause catastrophic ligament damage. Students must develop the patience and technical precision to control each phase of the submission, understanding that in training, the demonstration of control is more valuable than the finish itself.
 - **Gordon Ryan**: In competition, the far side armbar is one of my highest-percentage finishes from top positions because it directly attacks the defensive frames that opponents instinctively create when under control. The key to making this submission work at the highest levels is understanding the difference between training application and competition application—in training, you apply this submission over 3-5 seconds with progressive pressure to protect your partners; in competition, the application is much faster, but still controlled and technical. What separates elite execution from beginner attempts is the grip fighting and arm isolation phase. Against high-level opponents, you cannot simply grab the arm and expect it to stay extended; you must use weight distribution, angle creation, and often feints to other submissions to create the opening for arm isolation. I often threaten kimuras or americanas on the near arm to force opponents to defend, which naturally extends their far arm into the perfect position for the armbar. The finish itself should feel effortless if your positioning is correct—if you're muscling the armbar with arm strength, your angle is wrong. The competition mindset is to be decisive once you secure the position: control the wrist, adjust your hips quickly, and extend through your hips with authority. But never forget that your training partners are not your competition opponents; protect them so they can help you improve every day.
 - **Eddie Bravo**: The far side armbar is a beautiful technique because it works in both gi and no-gi, which is rare for a lot of traditional jiu-jitsu submissions that rely heavily on fabric grips. In the 10th Planet system, we emphasize the belly-down variation of the far side armbar because it provides superior control in no-gi situations where the opponent is slippery with sweat. When you rotate to your stomach while maintaining the arm isolation, you can use your entire body weight to apply shoulder pressure while still hyperextending the elbow—it's extremely difficult to escape and doesn't require you to sit back and risk losing the position. The setup we use often comes from the truck position or when we're transitioning through various top positions, catching the arm as opponents try to create frames or push us away. One of the most innovative applications is combining the far side armbar threat with lockdown controls and electric chair setups—when opponents defend the lower body attacks, their arms become extended and vulnerable. Safety-wise, especially when teaching this to newer students, I emphasize the importance of building a training culture where everyone understands that tapping is not losing, it's learning. The far side armbar can come on very suddenly if the setup is clean, so both the person applying it and the person defending it need to have that mutual respect and communication. In our gym, we practice these submissions thousands of times at slow speed before we ever try them at competition pace, and that foundation of safety allows us to innovate and experiment without injuring each other.

@@ -8,7 +8,7 @@ description: "Defend and escape Buggy Choke attacks from turtle. Complete defens
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defend and escape Buggy Choke attacks from turtle. Complete defens
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Defend and escape Buggy Choke attacks from turtle. Complete defens
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 50% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player remains in turtle structure with hands and knees on mat, attempting to maintain base while opponent applies perpendicular pressure and collar/neck control from top position
 - Top player's arm threads under bottom player's near armpit reaching across toward far collar or neck, creating primary choking mechanism that bottom player must prevent from deepening
@@ -204,7 +202,7 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has entered turtle position from guard passing sequence, scramble, or deliberate defensive choice
 - Top player has established dominant turtle top position with ability to attack neck and collar areas
@@ -232,7 +230,7 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Sit to Half Guard]] → [[Half Guard]]
 
@@ -282,7 +280,7 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Accept Back Control]]** → [[Back Control]] (Opponent Success: 60%)
 - **[[Get Choked]]** → [[Lost by Submission]] (Opponent Success: 70%)
@@ -295,7 +293,7 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Strip Grips Early]]** → [[Turtle]]
   - Opponent attempts initial threading before securing second grip
@@ -339,7 +337,7 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

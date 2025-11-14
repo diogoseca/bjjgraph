@@ -8,7 +8,7 @@ description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution fr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution fr
 
 
 
-> **Quick Answer**: Front Headlock to Anaconda transitions from [[Front Headlock]] to [[Anaconda Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 68%.
+> Front Headlock to Anaconda transitions from [[Front Headlock]] to [[Anaconda Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 68%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish deep head control with shoulder driving opponent's head down and to the side
 - Thread choking arm deeply across opponent's neck, ensuring elbow passes beyond far shoulder
 - Secure figure-four grip before initiating roll, with palm-to-palm or Gable grip configuration
@@ -190,7 +190,7 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Front headlock control established with opponent in turtle, kneeling, or standing bent-over position
 - Your chest must be heavy on opponent's shoulders, preventing them from standing or turning
 - Opponent's head is controlled and pulled toward your hip, breaking their defensive structure
@@ -203,7 +203,7 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish front headlock control**: From opponent's turtle or standing bent-over position, secure front headlock by wrapping your arm around their head and neck. Drive your shoulder into the side of their head, forcing it down and to the side. Your chest should be heavy on their upper back and shoulders, preventing upward movement. Control their posture by pulling their head toward your hip while maintaining downward pressure. (Timing: Initial control phase - establish before opponent recovers posture)
 2. **Thread choking arm across neck**: Release your headlock grip and immediately thread your choking-side arm (same side as their trapped head) deep across their neck. Your forearm should cross their throat with your elbow traveling past their far shoulder. Drive your shoulder forward to help your arm slide deeper, ensuring maximum depth of penetration. Your bicep should be on one side of their neck and your forearm on the other, creating the choking mechanism. (Timing: Quick transition - thread arm before opponent recognizes the setup)
 3. **Trap opponent's near arm**: As you thread your choking arm, use your body weight and positioning to trap their near arm (the arm closest to you). Either scoop their arm with your threading motion, capturing it within your choking arm's embrace, or pin it to their body with your chest and shoulder. This trapped arm is critical—it prevents them from posting during the roll and creates the characteristic 'anaconda' position where their own arm contributes to the choke. (Timing: Simultaneous with arm threading - capture before they pull arm free)
@@ -217,7 +217,7 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent turns toward you and steps over your head to escape the roll** (Effectiveness: High) - Your Response: Prevent by keeping chest heavy on their shoulders and controlling their hips during setup phase. If they begin stepping over, quickly transition to Darce choke or abandon the roll and take back control instead.
 - **Opponent keeps their near arm tight to their body, preventing you from trapping it** (Effectiveness: High) - Your Response: Use your chest pressure to pry their arm away from their body, or switch to alternative attacks like guillotine or Darce choke that don't require the trapped arm. You can also wait for them to post or move, creating opportunity to capture the arm.
 - **Opponent stands up explosively before you can secure the figure-four grip** (Effectiveness: Medium) - Your Response: Maintain head control and immediately snap them back down, or transition to standing front headlock attacks. If they fully stand, switch to takedown mode or guillotine attack rather than forcing the anaconda.
@@ -227,28 +227,28 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Threading arm too shallow across neck, with elbow not passing far shoulder
+## Common Mistakes
+- **Mistake**: Threading arm too shallow across neck, with elbow not passing far shoulder
   - **Consequence**: Creates weak choking angle that opponent can easily defend by tucking chin or turning into you, often resulting in lost position entirely
   - **Correction**: Drive shoulder forward aggressively during threading phase, aiming for maximum depth. Your elbow should clearly pass their far shoulder before securing grip. Practice threading motion slowly in drilling to develop proper depth awareness.
-- **Error**: Failing to trap opponent's near arm before rolling
+- **Mistake**: Failing to trap opponent's near arm before rolling
   - **Consequence**: Opponent posts with free arm during roll, preventing completion of technique and often allowing them to establish top position or escape entirely
   - **Correction**: Make arm trapping a conscious priority during setup phase. Use your chest and threading arm to scoop and control their near arm. Verify arm is secured before committing to roll.
-- **Error**: Rolling toward non-choking-arm side (wrong direction)
+- **Mistake**: Rolling toward non-choking-arm side (wrong direction)
   - **Consequence**: Completely neutralizes choking pressure and gives opponent easy escape path, often resulting in you giving up position or being reversed
   - **Correction**: Remember the rule: always roll toward your choking arm. Visualize the direction before rolling. In drilling, have partner remind you of correct rolling direction until it becomes automatic.
-- **Error**: Securing weak or loose figure-four grip before rolling
+- **Mistake**: Securing weak or loose figure-four grip before rolling
   - **Consequence**: Grip breaks during roll, losing control of opponent and allowing easy escape. May also result in injury if arm slips during rolling momentum
   - **Correction**: Take extra moment to ensure grip is locked tight before initiating roll. Test grip security by giving small tug. Use strongest grip variation for your body type (Gable, wrist, or bicep grip).
-- **Error**: Insufficient shoulder pressure during setup and finish
+- **Mistake**: Insufficient shoulder pressure during setup and finish
   - **Consequence**: Opponent maintains too much mobility, can turn or create space, significantly reducing choking effectiveness and allowing defensive escapes
   - **Correction**: Drive shoulder into their head continuously from initial control through finish. Think 'shoulder through their head' rather than just around it. Maintain pressure even while threading arm and rolling.
-- **Error**: Rolling too fast or out of control, losing technical precision
+- **Mistake**: Rolling too fast or out of control, losing technical precision
   - **Consequence**: Improper body positioning post-roll, loosened grip, potential injury to either partner from uncontrolled impact, and lost submission opportunity
   - **Correction**: Practice rolling motion slowly with cooperative partner, focusing on smooth controlled rotation. Build speed gradually. Use your non-choking leg to drive the roll rather than wild momentum.
-- **Error**: Neglecting leg control after completing roll
+- **Mistake**: Neglecting leg control after completing roll
   - **Consequence**: Opponent uses leg mobility to create angles, push away with hips, or roll through your position, escaping the submission
   - **Correction**: Immediately after roll completion, use your legs to hook opponent's hips or grapevine their legs. This connection is critical for maintaining tight control and preventing space creation during finish.
 
@@ -257,7 +257,7 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Foundational Mechanics** - Arm threading depth and figure-four grip acquisition
 Partner assumes static turtle position. Practice threading choking arm deeply across neck with proper shoulder pressure, then securing various figure-four grip options (Gable, wrist, bicep). Focus on depth awareness and grip security without rolling. Repeat 10-15 times per side until threading motion feels natural and grips are consistently solid.
 (Resistance: None)
@@ -288,7 +288,7 @@ Practice technique against fresh, fully-resisting opponents in competition-style
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standing Anaconda from Snapdown**: Execute anaconda setup and roll while both practitioners are still in standing position. After snapping opponent's head down and threading arm, roll immediately without waiting for them to establish turtle. Creates explosive surprise factor. (When to use: When opponent has strong turtle defense or when you want to capitalize on momentum from successful snapdown. Common in wrestling-based grappling and MMA.)
 
 **Anaconda to Darce Switch**: If opponent successfully defends anaconda by pulling near arm free or creating space, immediately reconfigure arm position to transition to Darce choke without releasing head control. Requires sliding choking arm to outside of their shoulder. (When to use: When anaconda setup is defended but you still have strong front headlock control. Maintains attacking pressure and prevents opponent from escaping the control position.)
@@ -328,7 +328,7 @@ Practice technique against fresh, fully-resisting opponents in competition-style
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 ⚠️ CRITICAL SAFETY NOTICE: The anaconda choke is a blood choke that can cause unconsciousness in 3-8 seconds if applied with full force. During training, apply pressure gradually over 3-5 seconds minimum to allow partner adequate time to recognize the submission and tap. Monitor partner continuously throughout application and release IMMEDIATELY upon any tap signal (hand, foot, verbal, or loss of resistance). Before rolling, ensure adequate mat space in all directions to avoid rolling partner into obstacles, walls, or off the mat. The rolling motion can disorient both practitioners—maintain awareness of surroundings throughout execution. When practicing as the person being choked, tap early and clearly at the first sign of pressure or discomfort. Do not attempt to 'tough it out' or test your limits with chokes—this serves no training purpose and risks injury. If applying choke causes partner's face to rapidly change color or they make unusual sounds, release immediately even without a tap. Both partners share responsibility for safe training: the person applying must control pressure and release quickly, while the person receiving must tap appropriately and communicate any concerns. Never hold a choke after resistance stops. In competition, judges and referees monitor choke safety, but in training you are your partner's primary safety monitor.
 
@@ -336,7 +336,7 @@ Practice technique against fresh, fully-resisting opponents in competition-style
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Front Headlock to Anaconda transition represents a critical component of the comprehensive front headlock attacking system. This position—the front headlock—serves as one of the most dominant control positions in grappling because it offers simultaneous access to multiple high-percentage submissions (anaconda, Darce, guillotine) and positional advances (back take, mount). The anaconda specifically excels when the opponent adopts a defensive turtle posture, making it an essential tool for punishing this common defensive position.
 
@@ -348,7 +348,7 @@ The technique integrates seamlessly with wrestling-based takedown systems, where
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Front Headlock]] - Starting position - primary control position from which technique is initiated
 - [[Anaconda Control]] - Ending position - final submission control after successful roll
@@ -369,7 +369,7 @@ The technique integrates seamlessly with wrestling-based takedown systems, where
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The front headlock to anaconda represents one of the most biomechanically sound submissions in grappling when we analyze the force vectors and anatomical vulnerabilities being exploited. The critical element most practitioners fail to understand is that the anaconda is not primarily an arm choke—it is a blood choke that uses the opponent's trapped arm as a secondary pressure point to enhance the primary carotid compression. The rolling motion serves a specific biomechanical function: it converts linear pulling force into rotational spiral force, which dramatically increases the pressure while simultaneously eliminating the space opponent needs for defensive frames. When teaching this technique, I emphasize that the depth of initial arm threading determines everything downstream. A shallow thread creates a weak angle that even a technically inferior opponent can defend through simple chin tuck or rotation. Deep threading—where your elbow clearly passes their far shoulder—creates an inescapable geometry where their own shoulder structure works against them. The figure-four grip should be viewed as creating a closed hydraulic system around the neck: when you squeeze your elbows together, the pressure has nowhere to dissipate except into the carotid artery. This is why grip security before rolling is non-negotiable—any looseness in the system allows pressure escape and technique failure.
 - **Gordon Ryan**: In high-level competition, the anaconda from front headlock is one of my highest-percentage submissions because it capitalizes on the exact defensive posture most opponents adopt when trying to avoid back exposure. When I snap someone down or they turtle defensively, they're essentially choosing between two terrible options: give me their back or give me the anaconda setup. I force this choice deliberately through my front headlock pressure and threatening. The competitive application of this technique requires understanding that you have a very narrow timing window between when you establish front headlock control and when the opponent begins their escape or counter-attack sequence. This is why I thread the arm and secure the grip almost simultaneously—there's no time for a multi-step process against elite opponents. The rolling phase is where most people fail in competition: they roll too slowly, giving the opponent time to base out or step over. I explode into the roll using my non-choking leg to generate power, and I'm already squeezing before we land in bottom position. The finish requires understanding that different body types require different pressure angles—bigger opponents need more shoulder drive and less arm squeeze, while smaller faster opponents need tighter elbow connection and quick adjustments to prevent them from scrambling out. In my competition preparation, I drill the decision tree constantly: if they defend anaconda by freeing the arm, immediate Darce transition; if they stand, guillotine or back take; if they roll through, maintain the squeeze and adjust position rather than releasing.
 - **Eddie Bravo**: The anaconda is one of those techniques that looks simple but has insane depth when you start exploring the details and variations. From a 10th Planet perspective, we've developed some sick modifications that make this choke even more dangerous, especially in no-gi where traditional grips aren't available. One key innovation we teach is using the anaconda threat to set up other attacks—we call this 'choke farming' where you threaten the anaconda knowing they'll defend in a specific way, which opens up your real target like the back take or Darce. The rolling motion is where you can get really creative: instead of the traditional roll, sometimes we'll do a forward roll or even a sideways roll depending on their base and how they're defending. What's crucial and often missed is the importance of that initial shoulder pressure in the front headlock—if you're not driving them down and controlling their head angle, they'll have too much mobility to defend effectively. We also explore the anaconda from unconventional positions like reverse mount or when you're coming up from bottom turtle, which creates surprise factor in competition or sparring. The training methodology I advocate is drilling the choke from every possible front headlock scenario: standing, kneeling, opponent posted, opponent moving—because in real rolls, you're never getting the textbook perfect setup. Develop the adaptability to recognize the anaconda opportunity even when it's not obvious. And here's a pro tip: when you're finishing, think about making your body into a bow—arch your back and expand your chest rather than just squeezing with arms. This body structure creates way more sustained pressure with less energy expenditure.

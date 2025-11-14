@@ -8,7 +8,7 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 
 
 
-> **Quick Answer**: Triangle Choke Side is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Triangle Choke Side is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing unconsciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="safety-considerations" class="content-section">
 
-## Is Triangle Choke Side Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -223,7 +223,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Angle perpendicular to opponent's body - side triangle requires 90-degree body positioning relative to opponent's torso, not the parallel alignment of traditional triangles
 - Trap one arm across opponent's neck - the isolated arm must cross their own centerline to create the choking wedge against their carotid artery
 - Figure-four leg configuration - same locking mechanism as traditional triangle with one leg across the back of neck and the other locked behind the knee
@@ -237,7 +237,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Dominant top position with opponent on their back or side (side control, north-south, or transitional scramble position)
 - One of opponent's arms isolated and positioned across their own neck or centerline (often from defensive framing attempts)
 - Sufficient mobility to swing legs into triangle configuration without losing positional control
@@ -250,7 +250,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Isolate and trap opponent's near arm**: From side control or north-south position, use your upper body control to guide opponent's near-side arm across their own neck and centerline. This is often accomplished by pressuring their far shoulder, causing them to frame with their near arm, or by directly controlling their wrist and threading it across. The arm must cross past their centerline to create the choking angle. (Timing: 1-2 seconds - requires reading opponent's defensive reactions) [Pressure: Moderate]
 2. **Secure trapped arm position with chest pressure**: Once the arm is isolated across their neck, use your chest or shoulder pressure to pin it in place temporarily while you transition your legs. Your upper body should maintain enough pressure to prevent them from pulling the arm back, but not so much that you cannot move your hips freely. This is a critical transition moment where balance is essential. (Timing: 1 second) [Pressure: Firm]
 3. **Swing near leg over opponent's head and neck**: From your side control or north-south position, swing your near-side leg (the leg closest to opponent's head) over their head and across the back of their neck. Your shin should make contact with the back of their neck while your knee is positioned near their far shoulder. This requires lifting your hips and potentially using your hands on the mat for base during the transition. (Timing: 1-2 seconds - dynamic movement requiring coordination) [Pressure: Light]
@@ -264,7 +264,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Pulling trapped arm back across centerline** (Effectiveness: High) - Your Adjustment: Immediately increase chest pressure on their shoulder and use your hand to control their wrist, preventing the arm from escaping. If they succeed in extracting the arm, transition to alternative attacks like kimura or armbar rather than forcing a compromised triangle.
 - **Inserting free hand into triangle to create space** (Effectiveness: High) - Your Adjustment: Control the free arm before they can insert it - grab their wrist and extend it away from their body, or pin it to the mat. If the hand is already inserted, you may need to break your lock temporarily, reposition, and re-secure the triangle with better arm control.
 - **Turning into you to relieve neck pressure** (Effectiveness: Medium) - Your Adjustment: Adjust your angle dynamically - as they turn, you must turn with them to maintain perpendicular positioning. Use your locked legs to follow their movement and maintain back-of-neck pressure. Sometimes their turn actually improves your angle if you move with them correctly.
@@ -274,28 +274,28 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying triangle from parallel position instead of perpendicular angle [Low DANGER]
+## Common Mistakes
+- **Mistake**: Applying triangle from parallel position instead of perpendicular angle [Low DANGER]
   - **Consequence**: Choke fails because pressure is distributed incorrectly, and opponent can easily posture or turn to escape. Parallel positioning mimics bottom triangle mechanics which don't work from top positions.
   - **Correction**: Always ensure your body is 90 degrees to opponent's torso with hips high and positioned toward their head. Think of making a 'T' shape with your bodies. Reposition before attempting to finish if angle is wrong.
-- **Error**: Locking triangle before properly securing trapped arm position [Low DANGER]
+- **Mistake**: Locking triangle before properly securing trapped arm position [Low DANGER]
   - **Consequence**: Opponent pulls their arm out during the lock transition, eliminating the choking mechanism entirely. Triangle without the trapped arm is ineffective and easily escaped.
   - **Correction**: Use upper body pressure and grips to fully secure the arm across their neck before committing to the leg swing. Patience in the setup phase is critical - don't rush to lock the triangle.
-- **Error**: Failing to control opponent's free arm during finish [Low DANGER]
+- **Mistake**: Failing to control opponent's free arm during finish [Low DANGER]
   - **Consequence**: Opponent inserts free hand into triangle, creates space, or uses it to frame and escape. Free arm gives them multiple defensive options that compromise the submission.
   - **Correction**: Dedicate one or both hands to controlling the free arm throughout the finishing sequence - grab wrist, pin to mat, or hug to your body. Never leave their free hand uncontrolled during the finish.
-- **Error**: CRITICAL: Cranking or spiking the neck with sudden jerking motions [CRITICAL DANGER]
+- **Mistake**: CRITICAL: Cranking or spiking the neck with sudden jerking motions [CRITICAL DANGER]
   - **Consequence**: Severe risk of neck injury, whiplash, cervical strain, or even vertebral damage. Partner may suffer long-term neck problems or be unable to continue training.
   - **Correction**: ALWAYS apply progressive, controlled pressure over minimum 3-5 seconds in training. Squeeze gradually and watch for tap continuously. Think 'squeeze and hold' not 'crank and jerk.' Safety must override finishing urgency.
-- **Error**: Squeezing only with calf muscles instead of full knee compression [Low DANGER]
+- **Mistake**: Squeezing only with calf muscles instead of full knee compression [Low DANGER]
   - **Consequence**: Choke is weak and ineffective because calf squeeze creates linear pressure rather than circumferential compression. Opponent can withstand the pressure and escape easily.
   - **Correction**: Focus on bringing your knees toward each other (adduction) while maintaining the locked figure-four. The squeezing motion should come from your thighs and hips, creating circular compression around the neck.
-- **Error**: Losing perpendicular angle during opponent's defensive movements [Medium DANGER]
+- **Mistake**: Losing perpendicular angle during opponent's defensive movements [Medium DANGER]
   - **Consequence**: Choke weakens or fails as pressure shifts away from optimal angle. Opponent gains opportunity to escape or reverse position.
   - **Correction**: Maintain active hip movement to track opponent's defensive adjustments. As they turn or bridge, you must turn with them to preserve 90-degree angle. Think of your hips as being 'glued' to their head position.
-- **Error**: CRITICAL: Continuing pressure after tap signal or signs of unconsciousness [CRITICAL DANGER]
+- **Mistake**: CRITICAL: Continuing pressure after tap signal or signs of unconsciousness [CRITICAL DANGER]
   - **Consequence**: Extreme danger of causing unconsciousness, concussion, or permanent neurological damage. This is a serious safety violation that can end training partnerships and result in serious injury.
   - **Correction**: Develop hyper-awareness of tap signals - verbal, physical, or changes in partner resistance. Release IMMEDIATELY at first sign of tap. If partner goes limp or stops resisting suddenly, assume unconsciousness and release instantly. Safety is absolute priority.
 
@@ -304,7 +304,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **North-South Triangle**: Applied from north-south position when opponent turns their head to one side, creating opportunity to trap their arm and swing legs over from a 180-degree position rather than side control. This variation requires more dynamic movement but catches opponents who defend traditional north-south attacks. (When to use: When you have north-south control and opponent is actively turning their head or framing with their near arm, creating the arm isolation opportunity. Particularly effective against opponents who are comfortable defending standard north-south kimura or choke attacks.)
 
 **Scramble Triangle from Failed Guard Pass**: Opportunistic application when your guard pass attempt is being defended but opponent's defensive frames create an arm across their body. As the position becomes dynamic and both players are transitioning, recognize the trapped arm and capitalize with triangle entry even from non-standard angles. (When to use: During dynamic scrambles or transitions when opponent's defensive reactions (pushing your hips, framing on your shoulder) naturally position their arm across their centerline. Requires excellent situational awareness and ability to capitalize on fleeting opportunities.)
@@ -345,7 +345,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Phase 1: Technical Understanding and Mechanics** (Week 1-2)
 - Focus: Learn the conceptual difference between bottom and side triangles, understand perpendicular angle requirements, and practice arm isolation setups from side control and north-south. Focus on recognition of when opponent's defensive frames create the trapped arm opportunity.
 - Resistance: Zero resistance
@@ -382,7 +382,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[North-South]]
@@ -394,7 +394,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Triangle Choke Front]]
@@ -428,7 +428,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The side triangle represents one of the most sophisticated applications of triangle choke theory because it requires the practitioner to understand that the choking mechanism is not position-dependent but angle-dependent. Many students mistakenly believe triangles can only be applied from bottom positions, but the fundamental principle is creating a triangle shape with your legs around the opponent's neck and one arm. From top positions, this requires perpendicular body alignment rather than parallel alignment. The critical technical insight is that the trapped arm must function as a wedge - your job is not to choke them with your legs alone, but to use your legs to drive their own arm into their carotid artery. This is why arm position is non-negotiable before locking. From a safety perspective, I emphasize to all students that blood chokes are extraordinarily effective and dangerous - they can render someone unconscious in seconds, far faster than joint locks allow for tapping. Therefore, in training, we must apply them with extreme deliberation and progressive pressure, always maintaining awareness of our partner's tap signals and physiological responses.
 - **Gordon Ryan**: Side triangles are a secret weapon in my competition game because most opponents don't expect triangles from top positions - their defensive patterns are calibrated for traditional pressure passing attacks, arm triangles, or north-south kimuras. When I feel them frame with that near arm during my passing or side control, I immediately recognize it as a side triangle opportunity. The key competitive insight is that you need to be decisive when the opportunity appears - hesitation allows them to retract the arm - but that decisiveness must be in recognition and entry, not in finishing pressure. In competition, I finish as quickly as mechanically effective, but in training, I make a clear distinction: I enter with the same speed and decisiveness I would use in ADCC, but I apply the finishing pressure over 5-7 seconds minimum, watching my training partner continuously for tap signals. This dual-speed approach - fast entry, slow finish - allows me to develop the timing and recognition necessary for competition while maintaining training partner safety. I've seen too many training room injuries from guys who think they need to finish their training partners like it's the finals of Worlds. Save that intensity for competition; in the training room, your partner's long-term health is more important than your ego.
 - **Eddie Bravo**: The side triangle is one of those techniques that shows how traditional and modern jiu-jitsu can blend beautifully. At 10th Planet, we're always looking for unconventional attacks, and the side triangle fits that philosophy perfectly - most people don't see it coming from top positions because they're worried about getting smashed or choked with traditional side control attacks. I teach my students to recognize the setup when the opponent makes that classic defensive mistake of pushing your shoulder or creating frames that extend their arm across their body. That's your invitation to the side triangle party. But here's where I get serious with my students: innovation and creativity in jiu-jitsu must always be balanced with safety culture. Blood chokes are not toys - they are incredibly effective techniques that can put someone to sleep in seconds if you're not careful. At our gym, we have a zero-tolerance policy for reckless application of chokes. Everyone knows that progressive pressure, early taps, and immediate release are non-negotiable parts of our training culture. You can be creative and aggressive in your technique selection and entries, but the finishing phase must always be controlled and safe. That's how we've built a reputation for dynamic, effective jiu-jitsu while maintaining one of the safest training environments in the sport.

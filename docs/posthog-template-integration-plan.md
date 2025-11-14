@@ -79,14 +79,14 @@ description: "{{description}}"
 ```
 state-properties, overview, state-invariants, prerequisites, key-principles,
 offensive-transitions, defensive-responses, counter-transitions, decision-tree,
-common-errors, training-drills, optimal-submission-paths, position-metrics,
+common-mistakes, training-drills, optimal-submission-paths, position-metrics,
 expert-insights, related-content
 ```
 
 **Submissions (14 sections)**:
 ```
 overview, safety-considerations, key-principles, setup-requirements, execution-steps,
-opponent-defense-patterns, common-errors, variations-and-setups, knowledge-assessment,
+opponent-defense-patterns, common-mistakes, variations-and-setups, knowledge-assessment,
 training-progressions-and-safety-protocols, from-positions, related-submissions,
 related-content, expert-insights
 ```
@@ -94,14 +94,14 @@ related-content, expert-insights
 **Transitions (13 sections)**:
 ```
 overview, key-principles, setup-requirements, execution-steps, common-counters,
-common-errors, training-progressions, variants-and-adaptations, knowledge-assessment,
+common-mistakes, training-progressions, variants-and-adaptations, knowledge-assessment,
 safety-considerations, position-integration, related-content, expert-insights
 ```
 
 **Principles (11 sections)**:
 ```
 overview, key-principles, component-skills, principle-relationships,
-application-contexts, decision-framework, common-errors, training-approaches,
+application-contexts, decision-framework, common-mistakes, training-approaches,
 developmental-metrics, related-content, expert-insights
 ```
 
@@ -129,7 +129,7 @@ description: "{{description}}"
 ---
 
 {# PostHog A/B Testing Metadata #}
-<body data-content-type="positions" data-sections='["state-properties","overview","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 # {{name}}
 ```
@@ -144,22 +144,22 @@ description: "{{description}}"
 
 **Positions (SINGLE/BOTTOM/TOP)**:
 ```html
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 ```
 
 **Submissions**:
 ```html
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 ```
 
 **Transitions**:
 ```html
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 ```
 
 **Principles**:
 ```html
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 ```
 
 **Systems**:
@@ -315,7 +315,7 @@ const CONTENT_SECTIONS: Record<string, string[]> = {
     // Existing 15 sections for SINGLE/BOTTOM/TOP pages
     'state-properties', 'overview', 'state-invariants', 'prerequisites',
     'key-principles', 'offensive-transitions', 'defensive-responses',
-    'counter-transitions', 'decision-tree', 'common-errors',
+    'counter-transitions', 'decision-tree', 'common-mistakes',
     'training-drills', 'optimal-submission-paths', 'position-metrics',
     'expert-insights', 'related-content'
   ],

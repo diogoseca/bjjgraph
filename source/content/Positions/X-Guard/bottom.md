@@ -8,7 +8,7 @@ description: "Master X-Guard Bottom in BJJ. Comprehensive guide covering sweeps,
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master X-Guard Bottom in BJJ. Comprehensive guide covering sweeps,
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master X-Guard Bottom in BJJ. Comprehensive guide covering sweeps,
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner's inside leg hooks deeply behind opponent's near knee with foot positioned past the knee joint
 - Bottom practitioner's outside leg extends across opponent's hip or belt line creating distance control barrier
@@ -200,7 +198,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent is standing or in combat base position
 - Bottom practitioner has isolated one of opponent's legs
@@ -228,7 +226,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[X-Guard Sweep]] → [[Mount]]
 
@@ -285,7 +283,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 25%)
 - **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Opponent Success: 30%)
@@ -298,7 +296,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
   - Opponent attempts to backstep or extract their trapped leg
@@ -340,7 +338,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

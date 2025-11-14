@@ -8,7 +8,7 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 
 
 
-> **Quick Answer**: Kimura from Half Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kimura from Half Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kimura from Half Guard Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -209,7 +209,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - **Control before submission** - Establish figure-four grip and positional control before applying rotational pressure
 - **Hip connection** - Maintain hip-to-hip connection to prevent opponent from rolling forward and escaping
 - **Elbow isolation** - Keep opponent's elbow tight to their body and away from mat to prevent posting
@@ -223,7 +223,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish underhook on opponent's arm from bottom half guard position
 - Opponent commits weight forward or attempts to flatten you out
 - Secure wrist control with your free hand (2-on-1 grip configuration)
@@ -237,7 +237,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish Underhook and Wrist Control**: From bottom half guard, establish a deep underhook on opponent's far arm while they attempt to crossface or consolidate top position. With your free hand, grip their wrist of the underhook arm (creating 2-on-1 control). This initial control prevents them from withdrawing the arm and sets up the figure-four entry. Keep your head tight to their chest to prevent them from driving forward with shoulder pressure. (Timing: Initial setup phase) [Pressure: Moderate]
 2. **Create Space and Swim Figure-Four**: Create a small frame with your underhook side elbow against their hip while pulling their wrist across your centerline. This generates the space needed to swim your underhook hand through and grab your own wrist, completing the figure-four grip. The opponent's arm should form roughly a 90-degree angle at the elbow. Ensure their elbow stays tight to their body (not posting on mat) which maintains vulnerability. (Timing: 2-3 seconds) [Pressure: Moderate]
 3. **Secure Figure-Four and Hip Connection**: Lock in the figure-four grip configuration with your palm-to-palm or wrist-to-wrist connection. Simultaneously close distance and reconnect your chest to their chest, eliminating space they could use to roll forward. Your half guard legs should be actively controlling their trapped leg. This hip-to-hip connection is critical - without it, they can granby roll forward and escape before you can apply pressure. (Timing: 1-2 seconds) [Pressure: Firm]
@@ -250,7 +250,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent grabs their own belt or gi pants to prevent figure-four completion** (Effectiveness: High) - Your Adjustment: Control their wrist first with both hands, break the defensive grip by extending their arm away from their body, then quickly swim your figure-four through before they can re-grip
 - **Opponent rolls forward over their trapped shoulder to escape rotational pressure** (Effectiveness: Medium) - Your Adjustment: Maintain figure-four grip throughout their roll, release half guard, and follow them to their back. You'll arrive in turtle or back control with Kimura grip still intact. This often leads to the back take or armbar transition
 - **Opponent posts free hand on mat and drives weight through it to prevent rotation** (Effectiveness: Low) - Your Adjustment: Use their posted hand as a pivot point to execute the Kimura sweep. Hip escape to create angle, use your legs to elevate their trapped side, and sweep them over their posted arm to achieve top position while maintaining the Kimura grip
@@ -260,25 +260,25 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying sudden or jerking rotation to the shoulder joint [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying sudden or jerking rotation to the shoulder joint [CRITICAL DANGER]
   - **Consequence**: High risk of causing rotator cuff tear, shoulder dislocation, or labral damage. This is the most dangerous error in Kimura execution
   - **Correction**: Always apply rotation progressively over 3-5 seconds minimum in training. Smoothly increase pressure and monitor partner's reactions. In competition, faster application is acceptable but never jerking motions
-- **Error**: Losing hip connection while attempting the submission [Medium DANGER]
+- **Mistake**: Losing hip connection while attempting the submission [Medium DANGER]
   - **Consequence**: Opponent can granby roll forward over their shoulder, escaping the submission and potentially reversing position
   - **Correction**: Maintain chest-to-chest connection after securing figure-four. If they create space, close it immediately before applying rotational pressure. Your hips should follow their movement throughout the technique
-- **Error**: Attempting to finish the Kimura without proper figure-four grip security [Low DANGER]
+- **Mistake**: Attempting to finish the Kimura without proper figure-four grip security [Low DANGER]
   - **Consequence**: Opponent can slip their arm free, and you lose the submission opportunity while exhausting energy. Creates false sense of control
   - **Correction**: Never rush the figure-four completion. Ensure palm-to-palm or wrist-to-wrist connection is solid before advancing to rotation phase. If grip feels loose, reset and secure it properly
-- **Error**: Allowing opponent's elbow to touch the mat during setup [Medium DANGER]
+- **Mistake**: Allowing opponent's elbow to touch the mat during setup [Medium DANGER]
   - **Consequence**: Opponent gains a posting base that eliminates shoulder vulnerability. They can use the posted elbow to prevent rotation and escape the submission attempt
   - **Correction**: Keep their elbow elevated and close to their ribs throughout the entire sequence. If their elbow touches mat, adjust your angle or use frames to lift it back up before continuing
-- **Error**: Releasing half guard control too early in the sequence [Low DANGER]
+- **Mistake**: Releasing half guard control too early in the sequence [Low DANGER]
   - **Consequence**: Opponent can pull their trapped leg free and use mobility to escape the submission or pass your guard completely
   - **Correction**: Maintain half guard lock until you've established solid figure-four grip and begun rotation. Only release half guard when transitioning to sweep or back take based on their defensive reaction
-- **Error**: Forcing the submission when opponent is defending correctly [Medium DANGER]
+- **Mistake**: Forcing the submission when opponent is defending correctly [Medium DANGER]
   - **Consequence**: Wastes energy, creates stalemate, and ignores available transition opportunities. In training, risks injury if you force too hard
   - **Correction**: The Kimura from half guard is a branching system. If submission is defended, flow to the sweep, back take, or armbar based on their specific defense. Don't fixate on one finish
 
@@ -287,7 +287,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Kimura Sweep to Top Position**: When opponent posts their free hand to defend the submission, use that post as a pivot point. Hip escape to create angle, use your legs to lift their trapped side, and sweep them over their posted arm. Maintain figure-four grip throughout the sweep and establish top control (side control or modified mount) with Kimura still locked (When to use: When opponent extends their free arm to post and prevent shoulder rotation. Most common defensive response from experienced grapplers)
 
 **Kimura to Back Take Transition**: As opponent turns into the Kimura grip to relieve shoulder pressure, release your half guard and establish your bottom hook. Secure seat belt grip while maintaining the Kimura with your other arm. This creates a powerful control position where you can finish the back take or transition to crucifix (When to use: When opponent turns their chest toward you to defend rotational pressure. Common response from defensive-minded competitors)
@@ -327,7 +327,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn figure-four grip mechanics, body positioning, and basic shoulder rotation theory. Study anatomy of shoulder joint and injury mechanisms. Practice grip configuration without applying pressure
 - Resistance: None
@@ -364,7 +364,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Half Guard]]
 - [[Knee Shield Half Guard]]
@@ -380,7 +380,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura Variations]]
@@ -423,7 +423,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Kimura from half guard represents one of the most sophisticated applications of dilemma-based grappling in modern Brazilian Jiu-Jitsu. What makes this particular variation so powerful is not merely the submission itself, but rather the systematic branching structure it creates. From a single initial control position - the figure-four grip on the opponent's arm from bottom half guard - you generate three distinct offensive pathways: the submission finish through shoulder rotation, the sweep to top position when they post defensively, and the back take when they turn to relieve rotational pressure. Each defensive option they choose opens a different avenue of attack. The key to mastering this system is understanding that you're not hunting for a single technique, but rather creating a position where the opponent has no good defensive option. Every choice they make leads to positional or submission disadvantage. From a safety perspective in training, the shoulder joint's vulnerability to rotational stress demands extremely progressive application - never less than three to five seconds from initial pressure to finish. The rotator cuff and labrum can be catastrophically damaged by explosive application, making smooth, controlled pressure both a technical and ethical imperative.
 - **Gordon Ryan**: In competition, the Kimura from bottom half guard is one of my highest percentage attacks because it creates immediate scoring opportunities regardless of how the opponent defends. If they defend the submission correctly, I'm sweeping them and taking top position for points. If they make a mistake in their defense, I'm taking their back for more points or finishing the submission outright. The key difference between training and competition application is the speed of progression - in competition, I'm applying pressure much faster because the opponent is prepared and expecting it, but I'm never using jerking or explosive movements because those are actually less effective and easier to defend. The smooth, progressive application works better even at higher speeds. From a strategic perspective, I use the Kimura threat to force reactions: aggressive opponents who drive into me expose their backs, defensive opponents who pull away give me the sweep, and opponents who try to muscle through it often tap to the shoulder lock. The setup requires excellent wrist control from the initial underhook battle - if you lose wrist control, they'll pull their arm free before you can establish the figure-four. Most people make the mistake of rushing the grip configuration; I take the time to secure it perfectly even in competition because a loose figure-four means they'll escape and you've wasted energy. The hip connection is also non-negotiable - maintain chest-to-chest contact or they'll granby roll over their shoulder and escape every time.
 - **Eddie Bravo**: The Kimura from half guard is fundamental to the entire 10th Planet system, especially when integrated with the lockdown and electric chair sequences. What most people don't realize is that the Kimura grip itself is a control position, not just a submission setup. Once you have that figure-four locked in from bottom half guard, you're controlling their entire upper body structure and can use it to set up a crazy amount of options. In our system, we use the Kimura grip to enter the truck position, set up the twister, hit the electric chair, and obviously go to the back or finish the shoulder lock itself. The rolling Kimura entry is huge for us - when they're postured up and defensive in your half guard, the forward roll generates momentum that helps you establish the grip even against stronger opponents. One thing I always emphasize with students is the safety aspect in training - the shoulder is delicate, and we've all seen people get hurt from aggressive Kimura applications. In the 10th Planet academy, we have a culture of tapping early to shoulder locks and applying them slowly in training. Save the fast applications for competition. The other key detail is staying connected with your hips - if you let them create space, they're gonna granby out of there, and you just burned all that energy for nothing. Keep your chest on their chest, control that wrist, and you've got options for days. The beauty of half guard is it's this neutral position where both people feel like they have a chance, and that's when they make mistakes - the Kimura is how you capitalize on those mistakes systematically.

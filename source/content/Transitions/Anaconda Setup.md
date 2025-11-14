@@ -8,7 +8,7 @@ description: "Master Anaconda Setup from turtle with arm threading, grip mechani
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Anaconda Setup from turtle with arm threading, grip mechani
 
 
 
-> **Quick Answer**: Anaconda Setup transitions from [[Turtle]] to [[Anaconda Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
+> Anaconda Setup transitions from [[Turtle]] to [[Anaconda Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Secure tight front headlock control before attempting arm capture
 - Drive opponent's weight forward onto their trapped arm to prevent defensive posting
 - Thread choking arm deeply under the neck, aiming for the far shoulder
@@ -190,7 +190,7 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in defensive turtle position with weight distributed on hands and knees
 - You have established front headlock control with at least one hand behind opponent's head
 - Opponent's near-side arm is accessible and not completely tucked to their body
@@ -203,7 +203,7 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish front headlock control**: From a position perpendicular to your opponent's turtle, secure your near-side arm around their head with your palm on the back of their skull. Your chest should be heavy on their upper back/neck area. Your opposite hand should be controlling their near wrist or posted on the mat for base. Keep your hips low and weight driving downward. (Timing: Initial control phase)
 2. **Break opponent's posting arm**: Use your free hand to pull the opponent's near-side arm away from their base, typically by gripping their wrist or tricep and pulling it across their body. Simultaneously drive your shoulder pressure into their head to force their weight onto their far arm. This creates a moment where they cannot post with the near arm. (Timing: As opponent attempts to base out)
 3. **Thread the choking arm**: Release your headlock grip and immediately shoot your arm under the opponent's neck, driving deep until your hand reaches past their far shoulder. Your palm should be facing down/away from you. Think of threading a needle - your arm goes under their neck, around their trapped arm (which is pinned against their own neck), reaching for their opposite shoulder blade. (Timing: Immediately after breaking their base)
@@ -217,7 +217,7 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sits back to guard before arm threading** (Effectiveness: High) - Your Response: Follow them back while maintaining head control, transitioning to guillotine attack or passing to side control by driving forward and circling to their back
 - **Opponent rolls through toward the choking arm side** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your grip, allowing them to give you their back or mounting them as they complete the roll. The anaconda grip transitions well to mounted position.
 - **Opponent grabs your leg for single leg defense** (Effectiveness: Medium) - Your Response: Sprawl your hips back while maintaining the anaconda grip, using your free leg to whizzer their head or establish a front headlock ride. Alternatively, limp-leg out of the single leg attempt.
@@ -227,28 +227,28 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Threading the choking arm too shallow under the neck
+## Common Mistakes
+- **Mistake**: Threading the choking arm too shallow under the neck
   - **Consequence**: Opponent easily extracts their trapped arm and escapes, or the choke lacks the necessary depth to finish effectively
   - **Correction**: Drive your arm as deep as possible - aim to touch their far shoulder blade with your fingertips. Use your opposite hand to help guide your choking arm deeper before securing the grip.
-- **Error**: Failing to control the opponent's weight distribution before arm threading
+- **Mistake**: Failing to control the opponent's weight distribution before arm threading
   - **Consequence**: Opponent maintains base on their posting arm and easily defends by sitting back or turning into you
   - **Correction**: Always break the near-side posting arm first by pulling it across their body while driving shoulder pressure into their head. Create a moment of instability before threading.
-- **Error**: Standing up too high or maintaining hips too elevated
+- **Mistake**: Standing up too high or maintaining hips too elevated
   - **Consequence**: Opponent rolls through easily or secures a single leg on your standing leg, completely reversing the position
   - **Correction**: Keep your hips low throughout the entire setup. Your center of gravity should be lower than your opponent's to maintain control and prevent rolls or leg attacks.
-- **Error**: Locking the grip too far from your own body
+- **Mistake**: Locking the grip too far from your own body
   - **Consequence**: Creates space for the opponent to turn into you or extract their arm, significantly weakening the choke's potential
   - **Correction**: Secure your gable grip or S-grip tight to your own chest/sternum. Your elbows should be pulling inward, not extended away from your body.
-- **Error**: Rushing to finish the choke before establishing proper control
+- **Mistake**: Rushing to finish the choke before establishing proper control
   - **Consequence**: Opponent escapes during the transition or you lose the position entirely trying to force a premature finish
   - **Correction**: Be patient - secure the grip fully, establish a controlling position (side control or mounted), and only then apply finishing pressure. Control before submission.
-- **Error**: Not trapping the opponent's arm deeply enough against their neck
+- **Mistake**: Not trapping the opponent's arm deeply enough against their neck
   - **Consequence**: The choke becomes a neck crank or the opponent can extract their arm and defend, reducing effectiveness significantly
   - **Correction**: Ensure their tricep/upper arm is pinned against the side of their own neck by the crook of your elbow. Adjust depth and angle until you feel their arm cannot move.
-- **Error**: Allowing space between your chest and the opponent's upper back
+- **Mistake**: Allowing space between your chest and the opponent's upper back
   - **Consequence**: Opponent can create frames, turn into you, or sit back to guard position, escaping the front headlock entirely
   - **Correction**: Maintain constant heavy chest pressure on their upper back/neck throughout the entire sequence. Your weight should be oppressive and make them carry your body weight.
 
@@ -257,7 +257,7 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Positioning** - Front headlock control and arm threading mechanics
 Partner starts in static turtle position. Practice establishing front headlock control, breaking the posting arm, and threading your choking arm deeply under the neck. Focus on getting your hand to their far shoulder consistently. Partner provides zero resistance. Drill 10 repetitions per side daily.
 (Resistance: None)
@@ -288,7 +288,7 @@ Develop your preferred grips (gable vs S-grip), finishing positions (from setup,
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Marce Choke Setup**: A variation where instead of threading under the neck from the near side (anaconda), you thread from the far side and trap the far arm. The grip and finish are similar but the arm threading direction is reversed. This becomes available when the opponent tucks their near arm very tight to their body. (When to use: When opponent defends the traditional anaconda by keeping their near arm tucked close to their ribs, making it impossible to trap. The Marce offers an alternative attack from the same front headlock position.)
 
 **Anaconda Setup from Failed Guillotine**: When your guillotine attempt fails because the opponent gets their near arm inside, you can transition directly to the anaconda by adjusting your choking arm position. Your arm is already under their neck - simply redirect it to capture their now-trapped arm and secure the anaconda grip configuration. (When to use: In scrambles where you secure a guillotine but the opponent successfully blocks by getting their arm inside. Rather than abandoning the attack, flow into the anaconda setup.)
@@ -328,7 +328,7 @@ Develop your preferred grips (gable vs S-grip), finishing positions (from setup,
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The anaconda setup itself is relatively safe compared to the finishing mechanics of the choke. However, practitioners should be aware of several safety considerations. When drilling, ensure your partner can tap easily with their free hand - never trap both arms during training. Be mindful of neck cranking pressure when securing the position; the goal is a blood choke, not a neck crank. Partners with neck injuries should communicate this before drilling front headlock positions. When your opponent rolls through during the setup, control the speed of the roll to prevent neck strain or whiplash-type movements. In live training, if you feel excessive pressure on your neck rather than the carotid arteries, tap immediately and communicate this to your partner. The setup phase allows more time for communication than the finish, so use this time to ensure proper technique that targets the blood flow rather than the cervical spine. Beginners should focus on control and positioning rather than speed and power when learning this setup to develop safe habits that carry over to advanced training.
 
@@ -336,7 +336,7 @@ The anaconda setup itself is relatively safe compared to the finishing mechanics
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The anaconda setup is a fundamental component of the modern front headlock system and represents one of the highest-percentage attacks from turtle position. It fits into the larger grappling system as a primary option whenever you establish front headlock control, particularly when the opponent turtles defensively. The technique chains naturally with other front headlock attacks - if the opponent defends the anaconda by tucking their near arm, you can switch to D'arce; if they pull their head out, transition to guillotine. From a positional hierarchy perspective, the anaconda setup allows you to maintain or improve position while threatening submission. Even if the choke doesn't finish immediately, you can transition to side control or mount while keeping the submission locked, exemplifying position-before-submission principles. In no-gi competition, the front headlock position and anaconda setup have become essential skills at all belt levels, as the position frequently occurs during scrambles, failed takedown attempts, and guard passing sequences. The setup also integrates well with wrestling-based games, as it capitalizes on the turtle position that wrestlers naturally adopt when defending. Understanding this technique's place in your overall game allows you to create systematic pathways from standing exchanges through ground control to submission finishes.
 
@@ -344,7 +344,7 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Anaconda Choke]] - Natural follow-up finish from this setup position
 - [[Darce Choke]] - Alternative attack when near arm is tucked defensively
@@ -362,7 +362,7 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The anaconda choke setup represents a perfect example of creating control before seeking the finish - a fundamental principle in all submission grappling. The biomechanics of the setup require you to understand that the effectiveness of the choke comes not from muscular strength but from the precise configuration of your opponent's own arm against their carotid arteries. When threading your arm, think of it as creating a frame - your radius and ulna bones become the rigid structure, while your opponent's trapped arm provides the pressure point against their own neck. The depth of your arm threading is paramount; anything less than reaching their far shoulder blade indicates insufficient penetration. Notice how the setup exploits a fundamental defensive error: the opponent believes the turtle position provides safety, but in reality, it exposes the neck while limiting their own mobility. The key technical detail most practitioners miss is the direction of force - you're not pulling your hands toward yourself to finish, you're expanding your chest while driving your shoulder into their head, creating a vice-like pressure that makes the choke inevitable. From a systematic perspective, this technique should be the cornerstone of your front headlock attacks, as it has the highest finishing percentage when executed with proper depth and control. The transition from setup to finish should be viewed as a single flowing movement rather than discrete steps, with each phase naturally creating the conditions necessary for the next phase.
 - **Gordon Ryan**: In competition, the anaconda setup is one of my highest-percentage attacks from turtle because most opponents don't defend it correctly until it's too late. The biggest mistake I see at all levels is people trying to be too gentle or technical with the setup - you need to be aggressive and commit fully to threading that arm deep. When I'm setting up the anaconda, I'm not thinking about the choke yet; I'm thinking about completely immobilizing my opponent's defensive structure first. That means heavy chest pressure, breaking their posting arm decisively, and threading so deep that my hand is practically touching their opposite shoulder blade. Against high-level opponents, I've learned that the setup itself creates opportunities even if they defend the choke - they might roll through and give up their back, or flatten out and give me the mount. The key is maintaining the grip through these transitions because you can often finish the choke from mounted or back control positions where they have even fewer defensive options. One competition-specific detail: when you secure the anaconda grip, immediately start walking your body toward a more controlling position rather than trying to finish from the initial turtle position. This prevents referee standups and gives you multiple attacking options. The technique works exceptionally well in no-gi because there are no gi grips for your opponent to grab and defend with - they're fighting against your body mechanics with very limited tools. If I had to choose one submission setup to master for no-gi competition, this would be in my top three because of its versatility and high success rate across all skill levels.
 - **Eddie Bravo**: The anaconda setup is beautiful because it's one of those techniques that looks complex but is actually based on very simple mechanics once you understand the core concept - you're creating a noose with your own arm and their arm working together. In the 10th Planet system, we approach this setup a bit differently than traditional schools because we emphasize the scramble game and creating opportunities in transition. I teach my students to look for the anaconda not just from static turtle position but any time someone's in that bent-over posture - failed takedown attempts, during guard passes, even sometimes from standing positions. The key innovation we've added is understanding that you don't always need the perfect setup; sometimes you lock the grip first and work to improve your position after. This is especially effective in MMA contexts where the opponent might be focused on striking defense or cage positioning rather than grappling defense. One thing I really emphasize is the importance of the gable grip versus the S-grip - I prefer the gable grip because it's tighter to your chest and harder for the opponent to break, but some of my guys prefer the S-grip for the quick lock and finishing mechanics. Experiment and find what works for your body type. The anaconda also chains beautifully with the twister system - if they defend by rolling through, you can often catch them in truck position and attack the twister or other leg attacks. Don't think of this as just a submission setup; think of it as a control position that opens up multiple attacking pathways. The creativity comes in recognizing unconventional entries and being willing to hunt for this setup in positions where your opponent doesn't expect it.

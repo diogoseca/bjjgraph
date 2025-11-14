@@ -8,7 +8,7 @@ description: "Master Clock Choke from turtle/back in BJJ. Blood choke with gi la
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Clock Choke from turtle/back in BJJ. Blood choke with gi la
 
 
 
-> **Quick Answer**: Clock Choke is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Clock Choke is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="safety-considerations" class="content-section">
 
-## Is Clock Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -206,7 +206,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Control the near side collar deep with full grip before initiating the choke
 - Walk your feet in a circular path around opponent's head to create rotational pressure
 - Keep your hips close to opponent's body to prevent escape and maintain pressure
@@ -220,7 +220,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent is in turtle position or transitioning from guard recovery
 - You have secure control of opponent's near side collar, fed deep across their neck
 - Your opposite arm controls opponent's far side or controls their hip to prevent rolling
@@ -233,7 +233,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish collar grip**: From turtle position or while opponent is defending back control, feed your hand deep into opponent's near side collar, getting at least four fingers inside. Your grip should be palm-down with the blade of your forearm positioned against the side of their neck. This initial grip is crucial - without depth, the choke will not be effective regardless of your subsequent positioning. (Timing: 2-3 seconds to establish proper depth) [Pressure: Light]
 2. **Control far side**: With your free hand, reach over opponent's back and establish control of their far side hip, belt, or far side collar. This control prevents them from rolling away from you during the choke sequence. Maintain heavy chest pressure on their back. Your body weight should be distributed to make escape difficult while maintaining your own base. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Begin walking motion**: Start walking your feet in a circular path around opponent's head, moving in the direction of your choking arm (if gripping right collar, walk clockwise). Keep your steps small and controlled, maintaining constant pressure throughout. Your hips should stay low and close to opponent's body. Think of your body as a lever rotating around your collar grip as the pivot point. (Timing: 2-4 seconds for initial quarter circle) [Pressure: Moderate]
@@ -246,7 +246,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent tucks their chin tightly to block collar access** (Effectiveness: High) - Your Adjustment: Use your free hand to grip under opponent's chin or use collar grips to peel their chin up before feeding your primary choking hand deeper. Alternatively, wait for movement when they attempt to advance from turtle - defensive postures naturally open briefly during transitions.
 - **Opponent rolls forward (granby roll) toward your choking arm to relieve pressure** (Effectiveness: Medium) - Your Adjustment: Follow the roll by continuing your circular motion, staying connected to opponent's body. Often the roll actually helps complete your walking motion. Maintain your collar grip and chest connection throughout. You may need to post with your free hand to avoid being reversed.
 - **Opponent posts with their far arm and pushes into you to prevent rotation** (Effectiveness: Medium) - Your Adjustment: Use your free hand to strip opponent's posting arm or control their far hip more aggressively. Alternatively, momentarily release hip pressure to allow opponent to turn slightly, then re-establish control once you have better angle. Sometimes stepping over opponent's arm can eliminate the post.
@@ -256,25 +256,25 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Insufficient collar grip depth before beginning the walking motion [Low DANGER]
+## Common Mistakes
+- **Mistake**: Insufficient collar grip depth before beginning the walking motion [Low DANGER]
   - **Consequence**: The choke has no structural foundation and opponent can easily defend or escape regardless of your body positioning
   - **Correction**: Always prioritize getting a deep four-finger collar grip before attempting to walk. Your hand should be fed so deep that your forearm is across the side of opponent's neck. If you cannot achieve this depth, use collar grips or hand fighting to create the opening.
-- **Error**: Walking too quickly or taking large steps around opponent's head [Low DANGER]
+- **Mistake**: Walking too quickly or taking large steps around opponent's head [Low DANGER]
   - **Consequence**: You lose base and balance, allowing opponent to counter-sweep or escape. Rapid movement also prevents smooth pressure application.
   - **Correction**: Take small, controlled steps maintaining constant contact with opponent's body. Your movement should be smooth and deliberate, like a controlled rotation rather than scrambling. Keep your center of gravity low and over opponent throughout the motion.
-- **Error**: Failing to control opponent's far side during the rotation [Low DANGER]
+- **Mistake**: Failing to control opponent's far side during the rotation [Low DANGER]
   - **Consequence**: Opponent can roll away from the pressure, escaping the submission entirely and potentially sweeping you in the process
   - **Correction**: Always maintain control of opponent's far hip, belt, or far collar with your free hand. This connection is crucial for preventing the roll escape. Your chest pressure on their back also helps prevent rolling.
-- **Error**: Lifting your chest away from opponent's head during the finish [Medium DANGER]
+- **Mistake**: Lifting your chest away from opponent's head during the finish [Medium DANGER]
   - **Consequence**: You lose critical pressure that seals the choke, allowing opponent to turn their head and relieve arterial compression
   - **Correction**: Keep your chest heavy and connected to the back of opponent's head throughout the entire sequence, especially during the finish. Your chest and body weight are essential components of the choking mechanism, not just the collar grip.
-- **Error**: Applying the choke explosively or cranking the neck violently [CRITICAL DANGER]
+- **Mistake**: Applying the choke explosively or cranking the neck violently [CRITICAL DANGER]
   - **Consequence**: Risk of serious neck injury, particularly to cervical spine from excessive rotational force. This is especially dangerous in training contexts.
   - **Correction**: ALWAYS apply the Clock Choke progressively and smoothly. The submission should tighten gradually as you walk and adjust position. In training, give partner minimum 3-5 seconds to recognize and tap to the choke. Never spike or jerk the position.
-- **Error**: Continuing pressure after partner has tapped or shown distress signals [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after partner has tapped or shown distress signals [CRITICAL DANGER]
   - **Consequence**: Can cause loss of consciousness, potential brain damage from prolonged blood flow restriction, or serious neck injury
   - **Correction**: Release immediately upon any tap signal - hand tap, foot tap, verbal tap, or distress movements. Develop the habit of immediately releasing the collar grip and moving your weight off partner the instant you feel or hear a tap. In competition this is your responsibility even with a referee present.
 
@@ -283,7 +283,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Clock Choke from Back Control**: When opponent is defending back control with strong hand fighting preventing the second hook, you can transition to the Clock Choke. Feed your choking hand deep into the collar from your seatbelt control position, then begin the walking motion even while maintaining one hook. This variation is effective when traditional back takes are well defended. (When to use: When opponent has strong back defense preventing second hook insertion or when they are successfully preventing the rear naked choke)
 
 **Rolling Clock Choke**: As you establish the collar grip from turtle, instead of walking around opponent, you roll over your shoulder in the direction of the choke. This creates instant rotational pressure and can surprise opponents who are preparing to defend the traditional walking version. As you complete the roll, you end up on your back with opponent stacked on top of you, but with the choke fully locked. (When to use: When you have limited space to walk or when opponent is very heavy and difficult to walk around; also effective when they are bracing hard against the traditional setup)
@@ -323,7 +323,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Phase 1: Technical Understanding and Collar Grips** (Week 1-2, 10-15 minutes per session)
 - Focus: Learn proper collar grip depth and feeding technique from turtle position. Practice establishing deep four-finger grip without any choking pressure. Partner remains completely static in turtle position. Emphasis on hand positioning, grip mechanics, and understanding the geometry of the collar path across the neck.
 - Resistance: Zero resistance
@@ -360,7 +360,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Turtle]]
 - [[Back Control]]
@@ -376,7 +376,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Rear Naked Choke]]
 - [[Bow and Arrow Choke]]
@@ -416,7 +416,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Clock Choke represents an excellent example of using rotational mechanics to amplify pressure without requiring significant upper body strength. The fundamental principle here is that you're creating a closed system where the opponent's own body structure - specifically their shoulder - acts as the secondary pressure point. Your collar grip and body rotation generate tension in the gi material while simultaneously driving that shoulder into their neck. This triangulated pressure is what makes it so effective. From a technical standpoint, the depth of your initial collar grip determines everything - without proper depth, all subsequent actions are meaningless. Most practitioners fail this technique not because of poor walking mechanics, but because they begin with insufficient collar penetration. The walking motion should be smooth and controlled, using small steps that maintain constant pressure while preserving your base. Your center of gravity must stay over the opponent throughout the rotation. Pay particular attention to keeping your chest heavy on the back of their head - this pressure seals the choke and prevents them from turning to relieve the arterial compression. The Clock Choke also teaches important principles about submission timing: you must be patient enough to establish proper position before attempting the finish. In training, apply this progressively over 3-5 seconds minimum to allow your partner decision-making time. The submission is highly effective precisely because it attacks the carotid arteries through mechanical advantage rather than muscular force.
 - **Gordon Ryan**: I love the Clock Choke because it gives me a high-percentage finish when guys are really good at defending their back. In competition, everyone at the highest levels has been rear-naked-choked thousands of times - their hand fighting and chin defense are automatic. The Clock Choke punishes that defensive turtle posture they take when defending back takes. What makes it competition-viable is that once you get that collar grip deep, their defense options become very limited. They can try to roll, but if you stay connected, the roll actually helps complete your walking motion and can tighten the choke. The key is not rushing it - even in competition with limited time, taking 2-3 seconds to establish proper positioning will finish faster than scrambling with poor setup. I use it most often when I've got one hook in and they're successfully preventing my second hook through hand fighting. Instead of fighting their grips, I transition to the collar, start walking, and finish before they realize they've given up the submission defense to prevent the back take. In training, you need to be especially careful with this one because it comes on quickly once properly positioned. I've had training partners go out because they're so focused on defending they don't recognize the choke is fully locked. Good partners are hard to find, so protect them by applying slowly and progressively, even when drilling. In competition, I'm finishing as soon as it's locked, but training is different - the 3-5 second progressive application isn't just for their safety, it's so they can learn the defensive windows and you can develop precise control.
 - **Eddie Bravo**: The Clock Choke is one of those techniques that works perfectly in gi but also teaches you principles about rotational pressure you can apply elsewhere. We play with this from the Truck position a lot because the mechanics are similar - you're rotating around their head to create pressure. What I love about it is that it's not a strength move at all. Small guys can absolutely destroy bigger opponents with this if they understand the geometry. The collar grip is everything - you need to feed that hand so deep it feels like you're reaching for their far shoulder. Once you have that depth, the walking motion is almost casual. You're not sprinting around their head, you're taking controlled steps while staying heavy on their back. One variation we mess with is the rolling version where instead of walking, you roll over your shoulder. It's faster and can surprise people, but requires more timing. The Clock Choke also connects well with our other turtle attacks. If they defend the Twister setup, the collar might be there. If they defend the Clock Choke by rolling, you might get the Twister. It's all about creating those dilemmas. Safety-wise, this is a choke that can put people out fast because of how it hits both arteries, so in the gym we're super careful with it. Our culture is about pushing boundaries with techniques but never with safety. The 10th Planet gyms train this choke with a lot of respect - we do it slowly, we tap early, and we make sure everyone understands the injury risks before we even start practicing it. That safety culture lets us explore aggressive techniques without hurting our team.

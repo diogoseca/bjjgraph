@@ -137,7 +137,7 @@ description: "Master self-defense applications of BJJ with systematic framework 
 
 
 
-> **Quick Answer**: Self-Defense Application Framework is a intermediate difficulty Training Methodology system. This systematic approach integrates 4 key components into a cohesive fighting framework.
+> Self-Defense Application Framework is a intermediate difficulty Training Methodology system. Integrates 4 components.
 
 **System ID**: 
 **System Type**: Training Methodology
@@ -156,7 +156,7 @@ The Self-Defense Application Framework provides a systematic approach to transla
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Avoidance and de-escalation are the primary self-defense techniques - physical engagement is the last resort
 - Striking defense and clinch control take priority over sport guard positions
 - Positional hierarchy shifts dramatically - standing position is superior to ground fighting in self-defense
@@ -171,7 +171,7 @@ The Self-Defense Application Framework provides a systematic approach to transla
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Pre-Fight Awareness and De-Escalation** (Avoid physical confrontation entirely through awareness and de-escalation)
 Situational awareness and verbal de-escalation skills form the foundation of self-defense. This includes recognizing pre-attack indicators, maintaining safe distances, using confident body language, and employing verbal strategies to avoid physical confrontation. Understanding the pre-fight interview process that attackers use and developing appropriate responses. Awareness of environmental escape routes and potential hazards. Recognition of asocial vs social violence and appropriate responses to each.
 
@@ -190,7 +190,7 @@ Understanding use of force laws, reasonable force doctrine, duty to retreat cons
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Awareness and Prevention Foundation**: Develop situational awareness skills, recognition of pre-attack indicators, and verbal de-escalation strategies. Learn to identify potentially dangerous situations and avoid them. Study the pre-fight interview and appropriate responses. Understand legal framework for self-defense in your jurisdiction.
 Key points:
 - Practice environmental scanning and threat assessment
@@ -377,7 +377,7 @@ Self-defense training requires a fundamentally different approach than sport BJJ
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The systematic approach to self-defense requires understanding that sport jiu-jitsu provides an excellent technical foundation, but the tactical application must be fundamentally different. In competition, we seek dominant positions and work methodically towards submission. In self-defense, the entire positional hierarchy shifts - standing position becomes vastly superior to any ground position due to mobility, awareness, and escape options. The guard positions we prize in sport become dangerous liabilities when strikes and multiple attackers are possible. My approach emphasizes rapid decisiveness - if engagement is necessary, we must move quickly to dominant control positions that allow awareness of surroundings and rapid escape. The technical precision we develop in sport training serves us well, but we must modify our tactical priorities completely. Training must include legal education as rigorously as technical education - understanding when force is justified and how to articulate that justification is as important as the techniques themselves. The self-defense practitioner must be able to explain their actions in legally defensible terms, which requires different cognitive preparation than sport competition.
 - **Gordon Ryan**: From a competition standpoint, I've developed dominance in sport jiu-jitsu, but I'm very aware that translating that to self-defense requires significant tactical adjustments. In ADCC or superfight competition, I'm comfortable engaging from any position because I know there are no strikes, no weapons, no additional attackers, and no legal consequences beyond the match result. Self-defense completely changes those variables. The techniques that make me successful in competition - pulling guard, working from bottom, complex leg entanglements - would be tactically inappropriate for a street confrontation. If I needed to use jiu-jitsu for actual self-defense, my approach would be simple and decisive: avoid the fight if at all possible through awareness and de-escalation, but if forced to engage, I'd prioritize remaining standing, closing distance safely, establishing dominant clinch control, and if it goes to ground, immediately taking top position and either controlling or escaping. The elaborate technical sequences we use in competition don't have a place in self-defense - you need gross motor, high-percentage techniques that work under extreme stress when your fine motor skills are compromised by adrenaline. The confidence sport training gives you is valuable, but you need specific self-defense training to apply it appropriately.
 - **Eddie Bravo**: The 10th Planet system emerged partly from thinking about real-world application of jiu-jitsu, especially in the context of MMA where striking is present. That same mindset applies to self-defense, but with even more emphasis on awareness, escape, and legal considerations. In self-defense, I teach students to think first about avoidance - don't be there, don't engage, de-escalate and leave. But if you're forced to defend yourself, your jiu-jitsu gives you massive advantages if you use it intelligently. The key is adapting your sport game for striking threats and environmental reality. Things like the rubber guard that work great in sport MMA have to be reconsidered for street self-defense where multiple attackers or weapons might be present. I emphasize simple, explosive techniques - clinch control, takedowns that keep your head protected, top control positions, and rapid submissions or escapes. The lockdown system and truck position need tactical modification for self-defense context. Most importantly, train with intensity and stress so you know your techniques work when you're scared and your heart is pounding. And study the legal aspects - knowing when you're legally justified to use force and being able to articulate that is critical. Your jiu-jitsu should make you more capable and more confident, but also more humble about the risks of physical confrontation and more committed to avoiding it whenever possible.

@@ -13,10 +13,6 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 
 
 
-> **Quick Overview**: The Aoki Lock position represents an advanced submission control state named after Japanese MMA fighter Shinya Aoki, characterized by leg entanglement control combined with shoulder lock pressure. Thi...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ This position appears most commonly in no-gi competition, submission-only format
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Leg entanglement isolates shoulder joint
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Aoki Lock/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Aoki Lock/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Leg entanglement isolates shoulder joint
 
 
 
@@ -88,10 +72,13 @@ This position appears most commonly in no-gi competition, submission-only format
 
 <section id="bottom-summary" class="content-section">
 
-## Aoki Lock Bottom Perspective
+
+## Playing as Bottom
+
+[[Aoki Lock/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in aoki lock must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in aoki lock must focus on creating frames, protecting against
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Rolling away from trapped arm direction against the pressure**
@@ -158,16 +145,17 @@ The bottom player in aoki lock must focus on creating frames, protecting against
   - ✅ Correction: Immediately engage free hand in attacking opponent's posted leg or controlling their hip to create angles
 
 
-👉 **[[Aoki Lock/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Aoki Lock Top Perspective
+
+## Playing as Top
+
+[[Aoki Lock/Top|→ Full Top Guide]]
 
 
-The top player in aoki lock balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -210,7 +198,7 @@ The top player in aoki lock balances control maintenance with submission attacks
   - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Posting too far from opponent with free leg reducing hip pressure on shoulder**
@@ -241,8 +229,6 @@ The top player in aoki lock balances control maintenance with submission attacks
   - Consequence: Waste energy on low-percentage finish while missing high-percentage transition opportunities
   - ✅ Correction: Recognize when opponent's defense is strong and transition to back control, truck, or crucifix
 
-
-👉 **[[Aoki Lock/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 60% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ This position commonly arises when defending turtle position, during scrambles f
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your shoulder is trapped by opponent's leg entanglement with thigh over shoulder and shin controlling upper arm
 - Opponent maintains hip pressure directed into your shoulder joint creating rotational stress on shoulder capsule
@@ -204,7 +202,7 @@ This position commonly arises when defending turtle position, during scrambles f
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has secured leg entanglement over your shoulder and upper arm
 - Your shoulder is under rotational pressure from opponent's hip positioning
@@ -232,7 +230,7 @@ This position commonly arises when defending turtle position, during scrambles f
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Rolling Escape to Guard]] → [[Closed Guard]]
 
@@ -282,7 +280,7 @@ This position commonly arises when defending turtle position, during scrambles f
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Increased Hip Pressure]]** → [[Won by Submission]] (Opponent Success: 60%)
 - **[[Leg Entanglement Tightening]]** → [[Aoki Lock]] (Opponent Success: 55%)
@@ -294,7 +292,7 @@ This position commonly arises when defending turtle position, during scrambles f
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Rolling Escape When Pressure Increases]]** → [[Closed Guard]]
   - Opponent drives hip pressure forward creating momentum you can roll with
@@ -329,7 +327,7 @@ This position commonly arises when defending turtle position, during scrambles f
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

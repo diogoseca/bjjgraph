@@ -8,7 +8,7 @@ description: "Learn Transition to Omoplata in BJJ. Complete guide to entering om
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Transition to Omoplata in BJJ. Complete guide to entering om
 
 
 
-> **Quick Answer**: Transition to Omoplata transitions from [[Closed Guard]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+> Transition to Omoplata transitions from [[Closed Guard]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control opponent's arm at the shoulder before initiating rotation
 - Use hip movement to create proper angle for leg threading
 - Maintain constant shoulder pressure throughout the transition
@@ -186,7 +186,7 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Guard position established with opponent in front
 - Control of opponent's arm (sleeve, wrist, or overhook)
 - Opponent's posture broken or compromised
@@ -199,7 +199,7 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish arm control**: Secure control of opponent's arm using overhook, sleeve grip, or wrist control. Break their posture forward and prevent them from posting their free hand on the mat. The controlled arm should be isolated and pulled across your centerline. (Timing: Initial setup phase)
 2. **Create angle with hip escape**: Perform a hip escape movement to create approximately 45-degree angle to your opponent's body. This angle is crucial for threading your leg over their shoulder. Your hips should be perpendicular to their torso while maintaining arm control. (Timing: As opponent attempts to establish base)
 3. **Thread leg over shoulder**: Swing your near-side leg over the opponent's shoulder, placing your hamstring across the back of their neck and shoulder. Your shin should be pressing against their head, creating downward pressure. Keep your leg tight to their body throughout this movement. (Timing: Immediately after creating angle)
@@ -213,7 +213,7 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent rolls forward to escape shoulder pressure** (Effectiveness: High) - Your Response: Follow their roll and take back control, securing seat belt grip as they give up their back. Alternatively, use their momentum to complete a sweep to mount position.
 - **Opponent withdraws their arm before leg is secured** (Effectiveness: High) - Your Response: Immediately transition to triangle setup by bringing your other leg across their face, or switch to arm drag and take their back. Their withdrawal creates space for alternative attacks.
 - **Opponent maintains strong posture and prevents angle creation** (Effectiveness: Medium) - Your Response: Use grip breaks and hip bump movements to disrupt their base, then reestablish angle. Consider alternative attacks like hip bump sweep or kimura to force defensive reactions.
@@ -223,25 +223,25 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Threading leg over shoulder without proper angle
+## Common Mistakes
+- **Mistake**: Threading leg over shoulder without proper angle
   - **Consequence**: Opponent can easily stack you and pass guard, or simply withdraw their arm and escape. Your leg positioning becomes weak and unstable.
   - **Correction**: Always create 45-degree hip angle before attempting to thread leg. Your hips should be perpendicular to opponent's torso, not parallel. Practice the hip escape movement in isolation.
-- **Error**: Releasing arm control during leg threading
+- **Mistake**: Releasing arm control during leg threading
   - **Consequence**: Opponent immediately withdraws their arm and passes guard, completely negating the attack. You lose both submission and positional control.
   - **Correction**: Maintain continuous arm control throughout the entire transition. Use overhook or wrist grip and never let go until leg position is fully secured. Your grip is the anchor of the technique.
-- **Error**: Failing to break opponent's base before rotating
+- **Mistake**: Failing to break opponent's base before rotating
   - **Consequence**: Opponent maintains stable posture and can defend the shoulder lock easily. The technique becomes a strength battle rather than technical execution.
   - **Correction**: Use sweeping motion with free leg to attack their posting hand or far knee. Break their base first, then rotate. Time your hip rotation with their loss of balance.
-- **Error**: Not sitting up fully in final position
+- **Mistake**: Not sitting up fully in final position
   - **Consequence**: Insufficient shoulder pressure allows opponent to roll forward and escape, or simply tough out the submission without tapping. Your control is incomplete.
   - **Correction**: Bring your chest completely over their back and sit up tall. Your torso weight should create constant downward pressure on their shoulder. Maintain chest-to-back connection throughout.
-- **Error**: Crossing legs too loosely around opponent's arm
+- **Mistake**: Crossing legs too loosely around opponent's arm
   - **Consequence**: Their arm can slip out of the lock, defeating the entire technique. You lose both submission opportunity and positional advantage.
   - **Correction**: Create tight figure-four lock with your legs, ensuring their arm is trapped between your legs with no space. Your bottom leg acts as a wedge while top leg controls their head.
-- **Error**: Attempting omoplata without hip mobility
+- **Mistake**: Attempting omoplata without hip mobility
   - **Consequence**: Cannot achieve proper angles or leg positioning, making the technique biomechanically impossible to execute. You telegraph your intentions without threat.
   - **Correction**: Develop hip flexibility through dedicated stretching routines. Practice hip escape drills and leg threading movements without resistance first. Build mobility progressively.
 
@@ -250,7 +250,7 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Movement Fundamentals (Weeks 1-2)** - Hip escape mechanics and leg threading
 Practice hip escape movements and threading leg over stationary partner's shoulder from closed guard. Partner remains completely static. Focus on creating proper angle and smooth leg positioning without resistance. Drill 20 repetitions per training session, alternating sides.
 (Resistance: None)
@@ -281,7 +281,7 @@ Attempt omoplata transitions during normal rolling without pre-arrangement. Focu
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Spider Guard Omoplata Entry**: From spider guard with feet on biceps, break opponent's posture and swing one leg over their shoulder while maintaining foot pressure with the other. The spider guard grips provide excellent arm control and make it difficult for opponent to withdraw. This variation is particularly effective in gi training. (When to use: When opponent is defending in spider guard and reaching forward with their arms, or when they attempt to stand and break spider guard grips.)
 
 **Triangle Defense to Omoplata**: When opponent defends triangle choke by hiding their arm and creating posture, transition directly to omoplata by rotating hips and threading leg over their shoulder. This is one of the highest percentage entries as opponent's defensive position naturally sets up the omoplata angle. (When to use: When triangle attack is defended and opponent tucks their arm tight to their body, or when they attempt to stack and pass during triangle defense.)
@@ -324,7 +324,7 @@ Attempt omoplata transitions during normal rolling without pre-arrangement. Focu
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The omoplata primarily attacks the shoulder joint through rotational pressure, which can cause serious injury if applied suddenly or without control. When training, apply pressure gradually and communicate clearly with your partner. Tap early when caught in omoplata as shoulder injuries can have long recovery times and may require surgery in severe cases. Practitioners should develop hip mobility gradually to avoid forcing the technique with inadequate flexibility, which leads to poor technique and potential injury to both partners. Never spike or drive the opponent's head into the mat during the transition, as this can cause neck injuries. Focus on controlled rotation and proper positioning rather than explosive force. Beginners should practice the movement patterns extensively before attempting submissions during live training.
 
@@ -332,7 +332,7 @@ The omoplata primarily attacks the shoulder joint through rotational pressure, w
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The omoplata transition is a cornerstone technique in modern guard systems, integrating seamlessly with closed guard, spider guard, rubber guard, and various open guard configurations. It serves as a critical link in submission chains, particularly connecting with triangle chokes, armbars, and sweep attacks. In systematic guard play, omoplata functions as both a primary attack and a transitional position, creating pathways to back control and mount positions when the submission itself is defended. The technique exemplifies the principle of creating offensive dilemmas, where the opponent's defensive choices all lead to disadvantageous positions. In 10th Planet systems, omoplata connects with the dead orchard sequence and rubber guard attacks. In traditional gi systems, it pairs with spider guard and lasso guard attacks. Understanding omoplata transitions is essential for developing a comprehensive guard game at intermediate and advanced levels, as it provides both submission threats and positional advancement opportunities.
 
@@ -340,7 +340,7 @@ The omoplata transition is a cornerstone technique in modern guard systems, inte
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Omoplata Control]] - Direct result - ending position of this transition
 - [[Triangle Control]] - Alternative attack - defenses create reciprocal entries
@@ -361,7 +361,7 @@ The omoplata transition is a cornerstone technique in modern guard systems, inte
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The omoplata represents a masterclass in biomechanical efficiency and positional dominance through leg-based control systems. What makes this transition particularly sophisticated is its ability to create what I call 'mechanical inevitability' - once proper angle and leg positioning are established, the opponent faces insurmountable structural disadvantages regardless of their strength or determination. The key insight is understanding that omoplata is not primarily a submission attack but rather a control position that happens to include submission potential. The rotational pressure on the shoulder joint combined with base destruction creates a position where the opponent must choose between three equally bad options: accept the shoulder lock, give up their back, or accept a sweep to inferior position. This exemplifies perfect strategic design - every defensive option leads to positional loss. Students must understand that the transition phase is where most failures occur, specifically in maintaining arm control while creating hip angle. The technique demands precise sequencing: angle creation must precede leg threading, which must precede base breaking. Reversing this order or attempting simultaneous execution results in predictable failure. From a teaching perspective, I emphasize that omoplata mastery requires extensive hip mobility development, and practitioners should not attempt advanced entries until fundamental movement patterns are established through progressive drilling protocols.
 - **Gordon Ryan**: In high-level competition, the omoplata transition is one of my highest percentage attacks because it creates immediate consequences for my opponent regardless of how they defend. What I've learned through thousands of matches is that the threat of omoplata is often more valuable than the submission itself - it forces opponents into defensive positions that open up my entire offensive system. The key to making omoplata work at elite levels is understanding timing and reactions. I'm never just attacking omoplata in isolation; I'm using it as part of a sequence that includes triangle, armbar, and sweep threats. When opponents defend my triangle by hiding their arm, they're literally giving me the omoplata entry. When they defend omoplata by pulling their arm out, I immediately attack triangle or take their back. This reactive chain is what makes guard work at the highest levels. In my game, I particularly favor the spider guard entry because it gives me maximum control and prevents the explosive escapes that athletic opponents rely on. The feet-on-biceps control means I can maintain dominant grips even as I rotate for omoplata, which is crucial when facing world-class defense. One competition insight: omoplata becomes exponentially more dangerous in the final minutes of matches when opponents are fatigued, because the technique requires them to support their own body weight in compromised positions. I've finished numerous high-level opponents with omoplata late in matches specifically because their defensive structure collapsed under fatigue. Train this transition until it's completely automatic, because in competition you need to execute it without thinking while managing everything else happening in the match.
 - **Eddie Bravo**: The omoplata is the cornerstone of the entire 10th Planet system, and the transition into it is where the magic happens, man. What people don't understand is that omoplata isn't just a submission - it's a whole game, a whole philosophy of control and attack. In our system, we're constantly working rubber guard to omoplata sequences, particularly from Mission Control and New York positions. The beauty of omoplata from rubber guard is that you've got insane posture control with your high guard, so when you transition to omoplata, they literally can't defend because their structure is already broken. It's like you're attacking from a position of total dominance. One thing I always teach is that omoplata should lead somewhere else - it's a gateway technique. In our dead orchard system, omoplata connects to gogoplata, to back takes, to sweeps, creating this web of attacks where the opponent is always wrong. They defend one thing, they give up another. That's the 10th Planet philosophy right there. The key innovation we've brought to omoplata is the emphasis on maintaining control throughout the transition rather than rushing to the finish. A lot of traditional approaches try to go straight for the submission, but we're focusing on establishing position first, then we have all day to attack. Another crucial element is developing the flexibility to hit omoplata from anywhere - closed guard, spider guard, even from bottom side control with the jailbreak escape. Hip mobility is non-negotiable if you want to have a dangerous omoplata game. We incorporate specific flexibility training into our warm-ups because without that mobility, you're just not going to be able to create the angles needed for modern omoplata attacks. The transition itself should feel smooth and natural, almost like you're flowing into it rather than forcing it. When you see high-level 10th Planet guys hit omoplata, it looks effortless because they've drilled the transition ten thousand times until it's completely internalized.

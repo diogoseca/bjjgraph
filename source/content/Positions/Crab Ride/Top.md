@@ -8,7 +8,7 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 65% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 65%.
 
 ---
 
@@ -191,7 +191,7 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner positioned on the side of opponent's turtle with hips oriented perpendicular to opponent's spine, maintaining lateral control rather than directly on top
 - One leg (typically near leg) hooks under opponent's hip or thigh with foot positioned inside opponent's legs, creating an anchor point for control and preventing forward movement
@@ -204,7 +204,7 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent in bottom turtle position with defensive posture
 - Ability to establish side control relative to opponent's turtle
@@ -231,7 +231,7 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Crab Ride to Back]] → [[Back Control]]
 
@@ -295,7 +295,7 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Turtle to Guard]]** → [[Open Guard]] (Opponent Success: 35%)
 - **[[Turtle to Standing]]** → [[Standing Position]] (Opponent Success: 25%)
@@ -307,7 +307,7 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Crab Ride to Back]]** → [[Back Control]]
   - Opponent attempts to turn into you or sit through
@@ -356,7 +356,7 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

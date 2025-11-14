@@ -137,7 +137,7 @@ description: "Master BJJ competition scoring with comprehensive tactical framewo
 
 
 
-> **Quick Answer**: Competition Scoring Strategy is a intermediate difficulty Competition Strategy system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Competition Scoring Strategy is a intermediate difficulty Competition Strategy system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Competition Strategy
@@ -156,7 +156,7 @@ Competition Scoring Strategy is a comprehensive tactical framework designed to m
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Position before submission - secure dominant positions systematically before hunting finishes
 - Point optimization - maximize scoring opportunities through efficient position transitions
 - Risk-reward calculation - evaluate potential point gain against submission or sweep danger
@@ -171,7 +171,7 @@ Competition Scoring Strategy is a comprehensive tactical framework designed to m
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Positional Hierarchy Optimization** (Maximize point accumulation through systematic position advancement)
 Understanding the point value system creates the foundation for strategic decision-making. Mount and back control both award 4 points, representing the highest-value positions in IBJJF competition. Side control, knee on belly, and guard passing all score 3 points, forming the mid-tier positional targets. Sweep and takedown positions award 2 points, representing transitional advantages. Advanced competitors develop position chains that maximize point accumulation - for example, passing guard (3 points), transitioning to knee on belly (3 points), then mounting (4 points) generates 10 total points in a single sequence. This hierarchical understanding informs every tactical decision during competition.
 
@@ -193,7 +193,7 @@ In closely contested matches, advantage points determine winners. Understanding 
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Pre-Competition Preparation**: Comprehensive opponent research and game plan development form the foundation of competition scoring strategy. Study available footage of opponents to identify their preferred positions, common opening strategies, and defensive weaknesses. Develop primary and secondary game plans based on this intelligence, including specific position targets and point-scoring sequences.
 Key points:
 - Review opponent match footage for position preferences and tendencies
@@ -375,7 +375,7 @@ Competition scoring strategy development requires specific drilling protocols th
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The fundamental error in competition strategy is treating matches as random exchanges of techniques rather than systematic progressions toward specific positional goals. Competition success requires mathematical understanding of the scoring system combined with positional hierarchy mastery. Every action should serve the strategic objective of either accumulating points through position advancement or preventing opponent point accumulation through position denial. The competitor who better understands the relationship between energy expenditure, time remaining, current score, and required tactical adjustments will consistently outperform opponents with superior technique but inferior strategic thinking. Develop position chains that create multiple scoring opportunities from single entries - the ability to pass guard, transition to knee on belly, and advance to mount in one continuous sequence represents systematic efficiency that opponents cannot defend indefinitely. When facing point deficits, emotional decision-making must be replaced with calculated risk escalation based on precise time and point calculations. The final minute of competition reveals true strategic maturity as athletes must execute score-appropriate tactics under maximum pressure while maintaining technical precision.
 - **Gordon Ryan**: In modern high-level competition, pure submission hunting without scoring awareness gets you losing decisions. I built my competitive dominance on systematic point accumulation that forces opponents into defensive positions where I can hunt submissions from advantage. The first minute determines everything - if you can establish an early lead through takedown or sweep, you control the entire match narrative and force opponents to take risks trying to recover. My competition approach prioritizes passing guard to establish 3-point leads, then using that lead to force opponents into desperate recovery attempts that open back take opportunities for 4 more points. When ahead, I use position control and submission threats to drain clock while making referees think I'm being offensive. The key insight is that point leads create psychological pressure that degrades opponent technical execution - they start rushing, making mistakes, and opening the submission finishes. Late in matches, I'm calculating exact advantage counts and pursuing specific near-submissions that generate advantages without risking my position. Understanding that triangle attempts from guard generate advantages even when defended means I can pursue them strategically when I need tiebreakers. Competition success isn't about having more techniques than opponents; it's about better understanding scoring systems and using that knowledge to control match outcomes.
 - **Eddie Bravo**: The traditional point-fighting approach creates boring matches and doesn't reflect real jiu-jitsu effectiveness, which is why I pioneered the submission-only format that eliminates gaming the scoring system. But if you're competing in point-based tournaments, you need to understand position is primarily about creating submission opportunities, not just accumulating scores. My competition students learn to use positions like rubber guard and lockdown not just for sweeps and points but to create submission chains that generate advantages even in stalling positions. The mistake competitors make is separating their point strategy from their submission game - they become point fighters who can't finish or submission hunters who lose decisions. Integration is key: every position advancement should maintain or increase submission threat level. When I'm coaching competition, I'm calling for rubber guard to triangle attempts that generate advantages, then using those defensive reactions to set up sweeps for 2 points, then transitioning to the truck for back control scoring. The 10th Planet system succeeds in competition because it creates constant submission threats that generate advantages and force opponents into defensive positions that can be swept for points. Don't just hunt positions for scores - hunt positions that create submission dilemmas that generate both advantages and point opportunities through opponent defensive reactions.

@@ -8,7 +8,7 @@ description: "Master the High Crotch takedown in BJJ. Complete step-by-step exec
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the High Crotch takedown in BJJ. Complete step-by-step exec
 
 
 
-> **Quick Answer**: High Crotch transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> High Crotch transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Deep penetration step with lead leg between opponent's feet
 - High shoulder placement into opponent's hip/lower abdomen for maximum control
 - Head position on outside of captured leg to prevent guillotine exposure
@@ -184,7 +184,7 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing engagement with opponent at arm's length or closer
 - Ability to close distance without telegraphing intention
 - Grip fighting control or hand fighting advantage to create opening
@@ -198,7 +198,7 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Create opening with grip fighting**: Engage in hand fighting or collar ties to create the opening for your attack. Use feints, pushes, or pulls to get the opponent to react and shift their weight. Look for the moment when their lead leg is slightly forward or their weight is distributed between both feet. Your grip fighting should disguise the impending level change and prevent them from establishing dominant grips that could stop your penetration. (Timing: 1-3 seconds of active hand fighting)
 2. **Execute penetration step**: Explosively drop your level by bending at the knees and hips while simultaneously stepping your lead foot deep between the opponent's legs. Your penetration step should place your foot at least even with their back foot, ideally slightly past it. Keep your back straight and head up as you change levels - avoid simply bending at the waist which telegraphs the shot and compromises your posture. This step must be fast and deep to prevent defensive reactions. (Timing: Explosive - less than 0.5 seconds)
 3. **Secure the leg and establish high shoulder position**: As you penetrate, wrap both arms around the opponent's near leg, clasping your hands together behind their thigh. Simultaneously drive your shoulder into their lower abdomen or hip area - this high shoulder placement is what distinguishes the high crotch from other single-leg attacks. Your head should be positioned on the outside of their captured leg, pressed against their hip, which both controls their movement and protects you from front headlock attacks. Lock your grip tightly with your arms forming a complete circle around their leg. (Timing: Immediate upon penetration)
@@ -211,7 +211,7 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Sprawl defense with hips back and weight down** (Effectiveness: High) - Your Response: Adjust to a low single leg variation or transition to a different takedown. If they sprawl hard, you can run around to their back by circling to the outside of the captured leg while keeping your grip tight. Alternatively, elevate the captured leg higher and switch to a double leg finish by capturing both legs.
 - **Guillotine choke attempt as you shoot** (Effectiveness: Medium) - Your Response: Maintain proper head position on the outside of their captured leg throughout the technique. If they start to secure a guillotine grip, immediately adjust your head position lower and tighter to their hip, making it difficult for them to get under your chin. Continue driving forward aggressively to complete the takedown before they can lock in the choke, as completing the takedown typically breaks their grip structure.
 - **Whizzer overhook on your near arm** (Effectiveness: Medium) - Your Response: If they secure a whizzer, don't fight it directly. Instead, use it to your advantage by continuing to drive forward and slightly in the direction of the whizzer. You can transition to running the pipe finish or switch to a fireman's carry by ducking under their whizzer arm. Another option is to release the whizzer side temporarily and transition to a low single leg finish on the same leg.
@@ -220,22 +220,22 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Shallow penetration step that doesn't get deep enough between opponent's legs
+## Common Mistakes
+- **Mistake**: Shallow penetration step that doesn't get deep enough between opponent's legs
   - **Consequence**: Opponent easily sprawls back or steps away, completely stuffing the takedown attempt and potentially exposing you to front headlock control or guillotine attacks
   - **Correction**: Commit fully to the penetration step by explosively driving your lead foot at least even with their back foot. Practice penetration step drills to develop the explosive power and confidence needed for deep entries. Ensure your level change is achieved through knee and hip flexion rather than just bending at the waist.
-- **Error**: Placing shoulder too low on the thigh instead of high into the hip
+- **Mistake**: Placing shoulder too low on the thigh instead of high into the hip
   - **Consequence**: Loss of hip control allows opponent to easily circle away or defend with sprawl. The lower shoulder position also makes it easier for them to attack with guillotines and reduces your driving power
   - **Correction**: Focus on driving your shoulder into their lower abdomen or hip crease, not their thigh. Imagine trying to get your shoulder as high as possible while still maintaining the leg grip. This high position gives you leverage over their entire body rather than just controlling one limb.
-- **Error**: Head positioned inside or in front of opponent's body
+- **Mistake**: Head positioned inside or in front of opponent's body
   - **Consequence**: Maximum exposure to guillotine chokes and front headlock controls. This head position also compromises your ability to drive effectively and makes the technique much more dangerous to attempt
   - **Correction**: Always keep your head on the outside of the captured leg, pressed tightly against their hip. Your ear should be touching their hip bone. This outside head position is non-negotiable for safe execution of the high crotch. Drill this head position repeatedly until it becomes automatic.
-- **Error**: Static positioning after initial setup without continuous forward drive
+- **Mistake**: Static positioning after initial setup without continuous forward drive
   - **Consequence**: Opponent has time to establish defensive grips, sprawl effectively, or set up counters like guillotines or kimuras. Static positions in wrestling give all the advantage to the defender
   - **Correction**: Maintain constant forward and upward pressure throughout the entire technique. From the moment you secure the leg until the opponent hits the mat, you should be generating continuous drive through your legs and shoulder. Think of it as a single flowing motion rather than a series of distinct steps.
-- **Error**: Poor grip security with hands not fully locked or arms separating
+- **Mistake**: Poor grip security with hands not fully locked or arms separating
   - **Consequence**: Opponent can easily strip your grip and escape the leg, or use their hands to push your arms apart and create space to defend or counter-attack
   - **Correction**: Lock your hands together immediately upon securing the leg using a strong grip configuration like a gable grip or S-grip. Keep your elbows tight to your body and think about creating a complete circle around their leg that cannot be broken. Strengthen your grip through specific grip training exercises.
 
@@ -244,7 +244,7 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Penetration step and body positioning
 Practice penetration step drills without a partner, focusing on explosive level change while maintaining upright posture. Work on stepping deep between imaginary opponent's legs. Then progress to cooperative partner drills where partner allows you to execute the technique slowly, emphasizing proper shoulder placement, head position on outside, and grip security. Repeat 20-30 times per session with no resistance.
 (Resistance: None)
@@ -271,7 +271,7 @@ Develop proficiency in all finishing variations (run the pipe, lift and return, 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **High Crotch from Collar Tie**: Establish a strong collar tie control on opponent's neck before executing the high crotch. Use the collar tie to pull them forward and off-balance while simultaneously penetrating with your step. The collar tie disrupts their posture and makes it harder for them to sprawl effectively. (When to use: When opponent is defending with stiff arms or trying to maintain distance. The collar tie gives you control over their head and posture before committing to the shot.)
 
 **High Crotch to Back Take**: Instead of finishing the takedown to top position, use the high crotch setup to run around to the opponent's back. As they defend the takedown by sprawling or stepping back, maintain your leg grip while circling to the outside. Transition to a standing back control or bring them down to mat with back mount. (When to use: Against opponents who defend strongly against forward takedown finishes or when back points/submission opportunities are more valuable than takedown points.)
@@ -311,7 +311,7 @@ Develop proficiency in all finishing variations (run the pipe, lift and return, 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the high crotch, execute all training repetitions with control to protect both yourself and your training partner. The most significant safety consideration is protecting your neck during the penetration step - maintain proper outside head position at all times to avoid guillotine exposure. When finishing with lift and return variations, ensure you're on proper mats and control the opponent's landing to prevent head or neck injuries. Practice releases so training partners can safely exit the position if needed. During live training, tap early if caught in a guillotine during a failed high crotch attempt rather than fighting through submission danger. For the training partner, avoid cranking guillotines or kimuras immediately when defending high crotch attempts - give your partner time to adjust position or release. Both parties should communicate about intensity levels, especially when drilling finishing variations that involve lifting or slamming. Always warm up properly before practicing explosive penetration steps to prevent knee and hip injuries.
 
@@ -319,7 +319,7 @@ When practicing the high crotch, execute all training repetitions with control t
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The high crotch is a foundational wrestling-based takedown that has become integral to modern Brazilian Jiu-Jitsu standing exchanges. It fits into the broader BJJ system as a primary takedown option that leads directly to dominant top positions like side control or mount when finished successfully. The technique is particularly valuable because it allows grapplers to engage standing opponents while maintaining relatively safe positioning - the outside head position minimizes submission risks that plague other takedown attempts. Within a complete BJJ game, the high crotch serves multiple strategic functions: it scores takedown points in competition, establishes top position to begin passing sequences, and creates psychological pressure that makes opponents more susceptible to guard pulls or other attacks. The high crotch also integrates seamlessly with guard play - a failed high crotch can be immediately converted to a guard pull, making it a low-risk option compared to other takedown attempts. Advanced practitioners use the high crotch as part of combination wrestling sequences, flowing between single legs, double legs, and upper body throws based on defensive reactions. The technique's compatibility with both gi and no-gi makes it especially valuable for grapplers competing in multiple formats. Understanding the high crotch and its relationship to other standing techniques is essential for developing a well-rounded BJJ game that doesn't rely solely on pulling guard.
 
@@ -327,7 +327,7 @@ The high crotch is a foundational wrestling-based takedown that has become integ
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Single Leg Takedown]] - Alternative - targets same leg with different grip and finish mechanics
 - [[Double Leg Entry]] - Follow-up - common transition when opponent squares hips to defend high crotch
@@ -344,7 +344,7 @@ The high crotch is a foundational wrestling-based takedown that has become integ
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The high crotch represents a perfect example of mechanical advantage through superior positioning in the context of takedown mechanics. What makes this technique systematically superior to many single leg variations is the high shoulder placement into the opponent's hip structure, which gives you control over their center of mass rather than merely controlling an isolated limb. When you place your shoulder high into their hip or lower abdomen, you create a lever system where your entire body weight and leg drive can be directed through their weakest structural point - the connection between their upper and lower body. The outside head position is not merely a safety consideration; it is biomechanically essential because it allows your spine to remain aligned with your direction of force, creating what we call a 'power line' from your feet through your hips, shoulders, and into the opponent. The penetration step must achieve depth because shallow penetration allows the opponent to simply redistribute their weight backward, but deep penetration places you underneath their center of gravity where they cannot effectively use their weight against you. Study the technique as a complete system: setup through grip fighting creates the opening, penetration establishes position, high shoulder creates mechanical control, continuous drive prevents defensive recovery, and finishing variations adapt to opponent's defensive structure. Each element depends on the others - remove one and the entire system degrades significantly.
 - **Gordon Ryan**: The high crotch is one of my absolute highest percentage takedowns in competition, especially in no-gi where it's harder for opponents to control your movement with grips. What I've found through countless competition rounds is that the high crotch works when other takedowns fail because it allows you to maintain such an aggressive forward posture - you're never really in danger of being guillotined if your head stays outside, and you can drive through people who would otherwise stuff your shots. The key to making it work at the highest levels is understanding that you're attacking their balance and posture, not just grabbing their leg. I'm always thinking about driving my shoulder through their hip to break their posture backward while simultaneously elevating that captured leg - when you get both mechanics working together, even much larger opponents go down. In competition, I'll often use the threat of the high crotch to set up other attacks or make my guard pulls more effective because opponents have to respect that I can take them down. My favorite setup is to get a collar tie or two-on-one grip control first, use that to break their posture slightly forward, then explode into the high crotch when their weight shifts. The run the pipe finish is my go-to because it's lowest risk - you just keep driving forward until they fall, maintaining dominant position the whole time. Don't overthink it in competition; execute with full commitment and continuous forward pressure.
 - **Eddie Bravo**: The high crotch is crucial in the 10th Planet system because it gives you that wrestling base you need when someone's trying to shut down your guard game or you're in a ruleset where you need to actually take people down. What I love about this technique is how it naturally flows with our whole combat jiu-jitsu philosophy - you can threaten it to make people react, use those reactions to enter into your rubber guard or lockdown game, or actually finish it when you need those takedown points. We drill a specific variation where you use the high crotch entry but if they defend hard, you immediately transition to the truck position instead of forcing the forward finish - that's the kind of creative adaptation that makes techniques work in real scenarios. The way we teach it at 10th Planet, you're always thinking about the technique as one option in a flow rather than an isolated move. Your opponent sprawls? Cool, duck under to the back. They whizzer? Perfect, that sets up the transition to fireman's carry or you can use it to help you run the pipe. They try to guillotine? Their mistake - your head position should make that impossible if you're doing it right. We also emphasize that in a street fight or MMA context, the high crotch is safer than a double leg because your head isn't as exposed to punches and you can see what's coming. Train it as part of your overall no-gi game, not just as a standalone wrestling move, and you'll find opportunities to hit it that other people miss completely.

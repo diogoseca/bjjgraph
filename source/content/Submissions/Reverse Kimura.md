@@ -8,7 +8,7 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 
 
 
-> **Quick Answer**: Reverse Kimura is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear - apply slowly over 3-5 seconds and release immediately upon tap.
+> Reverse Kimura is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="safety-considerations" class="content-section">
 
-## Is Reverse Kimura Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -212,7 +212,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Grip reversal provides different leverage angle and control compared to standard Kimura
 - Wrist control must be secured before initiating shoulder rotation to prevent slippage
 - The reversed grip naturally drives the shoulder into internal rotation creating submission pressure
@@ -226,7 +226,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure control of opponent's wrist with your hand that will form the reverse grip
 - Your other arm must trap or control the opponent's elbow preventing defensive straightening
 - Establish superior body position—typically standing over opponent in turtle or front headlock
@@ -240,7 +240,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish wrist control and arm isolation**: From your starting position (standing, front headlock, or scramble), secure a firm grip on your opponent's wrist with one hand. Simultaneously use your other arm to trap their elbow or upper arm. This two-point control prevents them from straightening the arm or pulling it away. Your grip should be strong but not death-gripping—you need to be able to transition to the reverse Kimura grip smoothly. Position yourself so that your opponent's arm is somewhat bent and vulnerable to rotational attack. (Timing: Initial control phase, 1-2 seconds) [Pressure: Moderate]
 2. **Thread arm through for reverse grip**: Thread your controlling arm through the space between your opponent's arm and their body, positioning your hand to grab your own wrist on the opposite side of their arm. This creates the reverse figure-four configuration. The key difference from standard Kimura is that your grabbing hand reaches in front of their arm rather than behind it. This grip reversal changes the leverage angle and often provides tighter control. Ensure the grip is deep and secure before proceeding—a shallow grip will slip under pressure. (Timing: Grip transition, 1-2 seconds) [Pressure: Moderate]
 3. **Establish body position and angle**: With the reverse Kimura grip secured, adjust your body position to create the optimal angle for shoulder rotation. If standing, maintain a strong base with your weight distributed properly. If from front headlock, ensure your chest pressure controls their head and prevents forward movement. Your hips should be positioned to allow you to rotate their shoulder without forcing your own body into awkward positions. The angle should feel natural—if you have to contort yourself, adjust your position before applying pressure. (Timing: Position optimization, 1-2 seconds) [Pressure: Moderate]
@@ -253,7 +253,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Straightening the trapped arm aggressively** (Effectiveness: Medium) - Your Adjustment: Maintain elbow control and use your body weight to prevent full extension. If they succeed in straightening, transition to other attacks like front headlock chokes or re-establish the grip from a different angle.
 - **Turning into the lock to relieve shoulder pressure** (Effectiveness: High) - Your Adjustment: Follow their rotation and transition to back take. The reverse Kimura naturally leads to back exposure when opponents rotate to defend. Maintain your grip and use it to control their movement as you establish hooks or body lock.
 - **Grabbing their own gi, belt, or body to create a defensive frame** (Effectiveness: Medium) - Your Adjustment: In no-gi this defense is less effective. In gi, you may need to break the grip by increasing rotational pressure or by using your free hand to strip their defensive grip. Alternatively, use the control to transition to other positions.
@@ -263,28 +263,28 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying rotational pressure too quickly or explosively [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying rotational pressure too quickly or explosively [CRITICAL DANGER]
   - **Consequence**: Immediate shoulder injury, torn rotator cuff, or dislocation
   - **Correction**: Always apply pressure slowly and progressively over 4-6 seconds minimum in training. Feel for increasing resistance and stop well before the breaking point. Save explosive applications only for competition if necessary.
-- **Error**: Shallow or incomplete reverse grip allowing slippage
+- **Mistake**: Shallow or incomplete reverse grip allowing slippage
   - **Consequence**: Loss of control, submission escapes, and wasted energy re-establishing grip
   - **Correction**: Ensure your hand reaches fully through the space and grabs your wrist with a deep, secure grip. Your forearm should be tight against their arm creating the figure-four lock. Test the grip before applying rotational pressure.
-- **Error**: Poor body positioning creating awkward angles
+- **Mistake**: Poor body positioning creating awkward angles
   - **Consequence**: Ineffective submission pressure, wasted strength, and vulnerability to counter attacks
   - **Correction**: Adjust your body angle before applying pressure. Your hips and shoulders should be positioned to allow natural rotation. If the movement feels forced or awkward, reposition before continuing.
-- **Error**: Neglecting control of opponent's head or body with free hand
+- **Mistake**: Neglecting control of opponent's head or body with free hand
   - **Consequence**: Opponent escapes by turning into lock, scrambling away, or countering position
   - **Correction**: Your free hand must always maintain control. From standing, control the head with your free arm. From ground positions, use body weight and positioning to prevent movement. Never focus solely on the arm lock.
-- **Error**: Continuing rotation past 90 degrees in training [CRITICAL DANGER]
+- **Mistake**: Continuing rotation past 90 degrees in training [CRITICAL DANGER]
   - **Consequence**: Serious injury even if partner cannot tap in time due to rapid progression
   - **Correction**: In training, stop rotation at approximately 45-60 degrees and wait for tap. The submission can complete very suddenly with the reverse grip angle, so conservative stopping points are essential for safety.
-- **Error**: Failing to maintain base when applying from standing
+- **Mistake**: Failing to maintain base when applying from standing
   - **Consequence**: Both practitioners fall uncontrollably creating injury risk beyond the submission itself
   - **Correction**: Keep feet in strong athletic stance, maintain balance throughout application, and control the descent if bringing opponent to ground. Never sacrifice your base for additional submission pressure from standing.
-- **Error**: Forcing the technique against stronger defensive grips
+- **Mistake**: Forcing the technique against stronger defensive grips
   - **Consequence**: Muscle strain, ineffective technique, and missed opportunity for transitions
   - **Correction**: If opponent establishes strong defensive grip, use the control to transition rather than forcing through. The reverse Kimura provides excellent positional control even if the finish isn't immediately available.
 
@@ -293,7 +293,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Reverse Kimura from Front Headlock**: When controlling opponent in turtle or front headlock position, isolate the far arm and establish reverse Kimura grip. Use your head pressure and body weight to prevent forward movement while rotating the shoulder. This setup is extremely common in wrestling-based grappling. (When to use: When opponent turtles or you establish front headlock control during scrambles)
 
 **Reverse Kimura to Back Take Transition**: As opponent defends by turning into the lock to relieve shoulder pressure, maintain your grip and follow their rotation to take the back. The reverse Kimura naturally creates back exposure during defensive movements. Use the grip to control their rotation and establish hooks as you transition. (When to use: When opponent successfully defends the submission by rotating toward you)
@@ -336,7 +336,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn reverse grip mechanics, body positioning, and safety protocols without partner resistance. Study the differences between standard and reverse Kimura grips. Practice grip entries from multiple starting positions with compliant partner.
 - Resistance: Zero resistance
@@ -373,7 +373,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Standing Position]]
 - [[Front Headlock]]
@@ -388,7 +388,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura from Standing]]
@@ -425,7 +425,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Reverse Kimura represents an important variation in shoulder lock methodology because it provides mechanical advantages in specific positional contexts where standard Kimura grips are not feasible. The critical distinction lies in the grip configuration—by reversing the figure-four to position your forearm in front rather than behind the opponent's arm, you create a different vector of force that excels in dynamic situations and standing exchanges. From a safety perspective, this variation requires even more conservative application than standard Kimura because the reversed leverage angle can cause the shoulder joint to reach its breaking point more rapidly. The anatomical target remains identical—internal rotation of the humerus creating stress on the rotator cuff and shoulder capsule—but the mechanical advantage changes significantly. Train this technique with exceptional care, always prioritizing progressive pressure over 5-6 seconds minimum and stopping well before the finish point in training environments. The reverse Kimura also creates superior transitional opportunities to back position, as the opponent's defensive rotation naturally exposes their back, making this technique valuable both as a submission and as a positional control mechanism.
 - **Gordon Ryan**: In competition, the Reverse Kimura is one of my highest percentage attacks from front headlock and scramble situations because opponents simply don't expect the grip reversal and the control it provides. The key to making this work at the highest levels is understanding that it's primarily a control position that creates submission opportunities rather than a pure submission technique. When I establish the reverse grip from standing or front headlock, I'm not always looking to finish the shoulder lock—I'm controlling their arm to prevent defensive hand fighting while setting up back takes, mat returns, or other attacks. The submission itself is always there as a finishing option, but the real value is the positional dominance it creates. Against elite opponents, they will defend by rotating into the lock, and this is exactly what I want because it gives me easy back exposure. The timing distinction between training and competition is crucial—in training, I apply this extremely slowly and tap my partners early because shoulder injuries end training partnerships. In competition, I can be more aggressive but still respect the tap immediately. This technique has won me matches at the highest levels precisely because it works in the chaotic wrestling exchanges where traditional submission entries aren't available.
 - **Eddie Bravo**: The Reverse Kimura is a perfect example of how grip variations create entirely new submission systems. In the 10th Planet system, we emphasize adaptability and unconventional approaches, and the reverse grip configuration fits perfectly into that philosophy. What makes this technique so powerful is that most people train extensively to defend standard Kimuras, but the reversed grip creates different defensive requirements and opens up different transitions. From our system perspective, the Reverse Kimura integrates beautifully with our emphasis on back attacks and submission chains—when opponents defend, you're already in perfect position to attack the back or transition to other upper body submissions. The no-gi context where we primarily train makes this technique especially valuable because you don't have gi grips to rely on, so grip variations become crucial. Safety-wise, my approach has always been that we train hard but smart—this means drilling this technique slowly until the mechanics are perfect, always communicating with your partner, and saving the aggressive applications for competition. The reverse Kimura also works incredibly well in MMA contexts where the standing exchanges and scrambles create constant opportunities for this grip, and the threat of the submission opens up striking opportunities and cage control positions.

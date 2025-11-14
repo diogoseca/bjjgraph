@@ -8,7 +8,7 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -71,7 +71,7 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,9 +177,7 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -211,7 +209,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - One knee posted on the mat with foot extended back, creating a stable triangular base point that distributes weight efficiently through the shin and kneecap
 - Opposite foot planted flat on the mat with knee raised above hip line, positioned near opponent's hip to control distance and create forward mobility for passing sequences
@@ -225,7 +223,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successfully opened opponent's closed guard or entered open guard position
 - Established initial grip control on opponent's legs, hips, or gi to manage distance
@@ -317,7 +315,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[De La Riva Hook]]** → [[De La Riva Guard]] (Success: 40%)
 - **[[X-Guard Entry]]** → [[X-Guard]] (Success: 35%)
@@ -381,7 +379,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

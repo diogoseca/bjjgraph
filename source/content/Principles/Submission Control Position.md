@@ -8,7 +8,7 @@ description: "Master submission control positioning in BJJ. Learn control mainte
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master submission control positioning in BJJ. Learn control mainte
 
 
 
-> **Quick Answer**: Submission Control Position is a high complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.
+> Submission Control Position is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Submission Control Position represents the critical phase between achieving a su
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Maintain position security before increasing submission pressure
 - Control the opponent's escape routes through strategic weight distribution
 - Establish multiple control points to prevent explosive escape attempts
@@ -180,7 +180,7 @@ Submission Control Position represents the critical phase between achieving a su
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Weight Distribution Management**: The ability to distribute body weight strategically to pin specific body parts while maintaining mobility to adjust to defensive movements. Effective weight distribution prevents shrimping, bridging, and rolling escapes while allowing the attacker to maintain base and respond to counters without compromising the submission setup or losing dominant position.
 
 **Multi-Point Connection Control**: Establishing and maintaining contact through multiple body parts simultaneously to create a control web that restricts opponent movement. This includes using knees, hips, chest, and head positioning in conjunction with grips to create a control system where losing one connection point doesn't compromise overall positional dominance during submission attempts.
@@ -199,7 +199,7 @@ Submission Control Position represents the critical phase between achieving a su
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Control Maintenance]]** (Prerequisite): General control maintenance principles must be understood before applying them specifically to submission positions
 - **[[Position-Over-Submission Approach]]** (Prerequisite): The positional hierarchy mindset establishes the foundation for knowing when to maintain position versus pursuing submissions
 - **[[Submission Chains]]** (Complementary): Effective submission chains require maintaining control while transitioning between attacks
@@ -218,7 +218,7 @@ Submission Control Position represents the critical phase between achieving a su
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Armbar Control**: Maintain hip pressure on opponent's shoulder, control the wrist with both hands, use legs to pin the head and control the far arm while preventing hitchhiker and rolling escapes
 
 **Triangle Control**: Lock the triangle position before applying finishing pressure, control posture by breaking down the head, angle the body to prevent stacking, secure the arm across while maintaining leg lock integrity
@@ -261,7 +261,7 @@ Submission Control Position represents the critical phase between achieving a su
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess if positional control is sufficient to pursue submission**: Verify that you have established dominant position with multiple control points before transitioning focus from position to submission - if positional control is questionable, prioritize consolidating position over attacking
 2. **Identify primary escape routes available to opponent**: Recognize the most common and highest-percentage escapes from current submission position and systematically block these pathways using grips, body positioning, and weight distribution before increasing submission pressure
 3. **Establish submission-specific control requirements**: Secure the unique control points required for the specific submission being attempted - each submission has distinct control needs that must be met before applying finishing force
@@ -274,28 +274,28 @@ Submission Control Position represents the critical phase between achieving a su
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Rushing to finish submissions before establishing sufficient positional control
+## Common Mistakes
+- **Mistake**: Rushing to finish submissions before establishing sufficient positional control
   - **Consequence**: Opponent escapes the submission and often reverses position or returns to neutral because the attacker sacrificed positional stability for premature finishing attempts
   - **Correction**: Adopt a position-first mentality where control is systematically established and improved before increasing submission pressure - use checkpoint system to verify control requirements are met before committing to finish
-- **Error**: Maintaining static control without adjusting to opponent's defensive movements
+- **Mistake**: Maintaining static control without adjusting to opponent's defensive movements
   - **Consequence**: Opponent systematically improves their position through small incremental movements that eventually create escape opportunities because the attacker failed to respond to defensive adjustments
   - **Correction**: Develop constant tactile awareness of opponent movement and proactively adjust control points in response to defensive efforts - treat submission control as dynamic rather than static positioning
-- **Error**: Focusing exclusively on grips while neglecting body positioning and weight distribution
+- **Mistake**: Focusing exclusively on grips while neglecting body positioning and weight distribution
   - **Consequence**: Strong grips become ineffective as opponent uses leverage and movement to overcome grip strength through superior positioning and body mechanics
   - **Correction**: Use body positioning and weight distribution as primary control mechanisms with grips serving as supplementary control - position your body to make escapes mechanically difficult regardless of grip strength
-- **Error**: Abandoning base and stability to increase submission pressure
+- **Mistake**: Abandoning base and stability to increase submission pressure
   - **Consequence**: Opponent successfully counters or escapes by attacking the weakened base, often achieving sweeps or reversals when the attacker becomes unbalanced during aggressive submission attempts
   - **Correction**: Maintain structural integrity and base throughout submission sequences - if increasing submission pressure compromises balance or base, the control position is insufficient and must be improved first
-- **Error**: Failing to block high-percentage escapes before attacking submissions
+- **Mistake**: Failing to block high-percentage escapes before attacking submissions
   - **Consequence**: Opponents consistently escape using predictable methods because the attacker neglected to address common defensive pathways before committing to the submission
   - **Correction**: Study common escapes from each submission and systematically eliminate these options through positioning and control before applying finishing pressure - use escape hierarchy knowledge to prioritize which routes to block first
-- **Error**: Applying maximum submission force immediately upon achieving setup
+- **Mistake**: Applying maximum submission force immediately upon achieving setup
   - **Consequence**: Opponent has opportunity to defend and escape while submission is not fully locked because the attacker rushed the finish without perfecting control and positioning
   - **Correction**: Use graduated pressure approach where initial submission pressure is moderate, allowing time to read defensive reactions, improve control, and adjust positioning before committing full force to the finish
-- **Error**: Holding onto failed submission attempts instead of transitioning to better attacks
+- **Mistake**: Holding onto failed submission attempts instead of transitioning to better attacks
   - **Consequence**: Energy depletion and eventual position loss as opponent successfully defends and begins to improve their situation while attacker remains committed to a low-percentage finishing attempt
   - **Correction**: Develop submission awareness to recognize when attacks are no longer viable and immediately transition to alternative submissions or return to positional control - use submission chains to maintain offensive pressure while abandoning defended attacks
 
@@ -304,7 +304,7 @@ Submission Control Position represents the critical phase between achieving a su
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Submission Sparring** (Focus: Developing the habit of prioritizing positional control throughout submission sequences and recognizing when to abandon attempts that compromise position)
 Start in submission setup positions with the rule that the attacker must maintain or improve position while pursuing the finish - any position loss results in restart
 
@@ -326,7 +326,7 @@ Practice flowing between related submissions with emphasis on maintaining consis
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Rushes to apply submission pressure immediately upon achieving setup position without establishing control
 - Loses position frequently when attempting submissions due to inadequate control point establishment
@@ -371,7 +371,7 @@ Practice flowing between related submissions with emphasis on maintaining consis
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Armbar Control]] (Position) - Specific application of submission control principles to armbar positions
 - [[Triangle Control]] (Position) - Specific application of submission control principles to triangle choke positions
@@ -390,7 +390,7 @@ Practice flowing between related submissions with emphasis on maintaining consis
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The critical error most athletes make in submission grappling is confusing submission setup with submission control. Achieving the initial configuration for a submission represents perhaps thirty percent of the work required to finish - the remaining seventy percent involves systematically eliminating defensive options through precise control before applying finishing mechanics. Each submission has specific control requirements that must be met before finishing becomes viable. In the case of the armbar, you must control the wrist with both hands, establish hip pressure on the shoulder to prevent the hitchhiker escape, use your legs to pin the head and trap the far arm, and only then begin hip extension for the finish. Attempting to extend the hip before these control points are established results in predictable escapes. The principle extends across all submissions: identify the control requirements, establish them systematically, verify their quality, and only then pursue the finish. This approach transforms submission success from hope-based to mechanical certainty.
 - **Gordon Ryan**: In competition, finishing submissions consistently comes down to one thing: never giving up position to hunt for the tap. I've seen countless matches where someone has dominant position, goes for a submission without proper control, and ends up in a worse position or even losing the match. My approach is simple: establish control so completely that the opponent has zero escape options before I even think about finishing. When I have someone in the saddle for a heel hook, I make sure the leg is fully entangled, my hip position prevents them from sitting up, and I have upper body control before I touch the heel. That's why my finish rate is so high - I'm not gambling on catching something, I'm systematically removing every defensive option first. The best part is when they know what's coming and still can't stop it because the control is perfect. Position and control first, submission second - that's non-negotiable.
 - **Eddie Bravo**: The rubber guard system taught me that control during submissions is about creating positions where your opponent literally cannot move effectively. When I lock up the rubber guard and go for the omoplata, I'm not just holding the arm - I'm using my leg over the shoulder to control their entire upper body while my hips are positioned to prevent them from rolling forward. The whole 10th Planet submission system is built around this: create crazy control scenarios that people don't train to escape from because the control is so unconventional. The twister is the perfect example - by the time you've established twister control with the body triangle, the lockdown, and the arm control, they're not escaping. The submission becomes inevitable because the control position is so dominant. That's the secret: don't look for submissions, create positions where submissions become unavoidable because the control is so overwhelming they can't defend properly. Make them play your weird game where your control system dominates.

@@ -8,7 +8,7 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 15% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 15%.
 
 ---
 
@@ -191,7 +191,7 @@ The position is particularly valuable in competition settings where maintaining 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains upright standing posture with feet on the mat, hips elevated above opponent's guard with weight distributed through legs and feet for mobility and base stability
 - Bottom player on their back with at least one point of connection to top player through grips, hooks, or frames attempting to control distance and prevent passing sequences
@@ -203,7 +203,7 @@ The position is particularly valuable in competition settings where maintaining 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has established open guard from bottom position
 - Top player has achieved standing posture with both feet on mat
@@ -230,7 +230,7 @@ The position is particularly valuable in competition settings where maintaining 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Toreando Pass]] → [[Side Control]]
 
@@ -294,7 +294,7 @@ The position is particularly valuable in competition settings where maintaining 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Opponent Success: 40%)
 - **[[Butterfly Sweep]]** → [[Butterfly Guard]] (Opponent Success: 35%)
@@ -309,7 +309,7 @@ The position is particularly valuable in competition settings where maintaining 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Sprawl Defense]]** → [[Front Headlock]]
   - Opponent attempts single leg entry from guard
@@ -358,7 +358,7 @@ The position is particularly valuable in competition settings where maintaining 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

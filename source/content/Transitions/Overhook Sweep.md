@@ -8,7 +8,7 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Step-by-step e
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Step-by-step e
 
 
 
-> **Quick Answer**: Overhook Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+> Overhook Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Overhook Sweep is a fundamental attacking technique from closed guard that c
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish a strong overhook control before attempting the sweep
 - Break opponent's posture by pulling them forward and down
 - Create an angle by shifting your hips away from the overhooked side
@@ -180,7 +180,7 @@ The Overhook Sweep is a fundamental attacking technique from closed guard that c
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Closed guard established with ankles crossed behind opponent's back
 - Overhook secured on one of opponent's arms (preferably when they post)
 - Opposite hand controlling opponent's collar, sleeve, or head
@@ -193,7 +193,7 @@ The Overhook Sweep is a fundamental attacking technique from closed guard that c
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure the overhook**: When opponent posts their hand on the mat or extends their arm, thread your arm over their tricep and lock it against your body. Pull their arm tight to your chest, eliminating space between their arm and your torso. Your forearm should be across their tricep with your hand gripping their lat or back. (Timing: Immediately when opponent posts hand)
 2. **Control the opposite side**: With your free hand, grip the opponent's collar near their neck, grab their opposite sleeve at the wrist, or cup behind their head. This control prevents them from posturing up and keeps them broken down into your guard. Maintain constant pulling pressure with this grip. (Timing: Simultaneous with overhook establishment)
 3. **Create the angle**: Shift your hips away from the side of the overhook, creating approximately 45 degrees of angle. Your head should move away from the trapped arm while your hips angle toward it. This positioning is critical - it allows you to sweep perpendicular to their base rather than trying to lift them straight up. (Timing: After securing both grips)
@@ -206,7 +206,7 @@ The Overhook Sweep is a fundamental attacking technique from closed guard that c
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent yanks trapped arm free** (Effectiveness: Medium) - Your Response: Immediately transition to hip bump sweep or switch to kimura attack if they pull arm back aggressively
 - **Opponent bases wide with free hand** (Effectiveness: Low) - Your Response: Use their wide base against them by switching angle and attacking toward the posted hand side with a hip bump or scissor sweep
 - **Opponent postures up forcefully** (Effectiveness: Medium) - Your Response: Maintain overhook and transition to triangle or omoplata as they create distance
@@ -215,22 +215,22 @@ The Overhook Sweep is a fundamental attacking technique from closed guard that c
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweep without proper angle
+## Common Mistakes
+- **Mistake**: Attempting sweep without proper angle
   - **Consequence**: Opponent maintains base and you waste energy trying to lift them straight up
   - **Correction**: Always create 45-degree angle before initiating sweep - this is non-negotiable for success
-- **Error**: Releasing overhook too early during sweep
+- **Mistake**: Releasing overhook too early during sweep
   - **Consequence**: Opponent escapes and may pass your guard or establish top position
   - **Correction**: Maintain overhook control until you have fully established mount position
-- **Error**: Failing to break posture before sweep attempt
+- **Mistake**: Failing to break posture before sweep attempt
   - **Consequence**: Opponent's strong posture makes them too heavy to sweep efficiently
   - **Correction**: Pull opponent down with collar/head control and ensure their chest is close to yours before sweeping
-- **Error**: Not using leg leverage effectively
+- **Mistake**: Not using leg leverage effectively
   - **Consequence**: Relying only on arm strength makes sweep weak and easy to defend
   - **Correction**: Remember the outside leg over their back and inside foot pushing creates the actual sweeping power
-- **Error**: Opening guard too early
+- **Mistake**: Opening guard too early
   - **Consequence**: Opponent feels the sweep coming and adjusts base before you can execute
   - **Correction**: Keep ankles crossed until you have established your angle and are ready to sweep immediately
 
@@ -239,7 +239,7 @@ The Overhook Sweep is a fundamental attacking technique from closed guard that c
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Overhook control and angle creation
 Practice securing the overhook from closed guard with compliant partner. Focus on proper grip, angle creation, and hip movement. Partner remains static while you drill the positioning elements.
 (Resistance: None)
@@ -266,7 +266,7 @@ Chain overhook sweep with triangle, kimura, hip bump, and omoplata. Use each tec
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi Overhook Sweep**: Instead of collar grip, use your free hand to control opponent's head or opposite shoulder. The overhook becomes even more critical since you lack gi grips. Focus on tight body connection and may need to secure the overhook deeper. (When to use: When training or competing in no-gi contexts)
 
 **Flower Sweep Combination**: If opponent posts their free hand wide to prevent the overhook sweep, transition to flower sweep by grabbing their posted hand and sweeping in the opposite direction. The overhook acts as an anchor point for this combination. (When to use: When opponent bases out strongly with their free hand)
@@ -306,7 +306,7 @@ Chain overhook sweep with triangle, kimura, hip bump, and omoplata. Use each tec
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The overhook sweep is one of the safer techniques in Brazilian Jiu-Jitsu when executed properly. The primary safety concern is ensuring controlled execution to prevent both practitioners from being injured during the rolling motion. When drilling, start slowly to develop proper mechanics before adding speed and power. Be mindful of your training partner's neck during the sweep - maintain control but avoid cranking or applying sudden jerking motions to their trapped arm that could stress their shoulder. When being swept, resist the urge to post with your free arm at an awkward angle, as this can lead to wrist or shoulder injuries. Instead, tuck your chin and accept the sweep, rolling through smoothly. As the person executing the sweep, control the descent into mount rather than driving your partner's head into the mat. Practice on proper mats with adequate padding, and communicate with your training partner about pace and intensity, especially when first learning the technique.
 
@@ -314,7 +314,7 @@ The overhook sweep is one of the safer techniques in Brazilian Jiu-Jitsu when ex
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The overhook sweep is a cornerstone technique within the closed guard bottom attacking system and connects to numerous other positions and techniques in the BJJ hierarchy. From closed guard bottom, this sweep provides a reliable path to mount top, one of the most dominant positions in the sport. The overhook itself serves as a control position that can branch into multiple attacks - if the sweep is defended, the overhook naturally transitions to kimura attacks, triangle setups, or omoplata entries. This makes it a critical component of a complete closed guard game. The technique teaches fundamental principles that apply across many positions: using opponent's posting motions against them, creating angles before sweeping, and maintaining control during transitions. Competition strategists often use the overhook sweep as an anchor technique - it's high percentage enough to attempt regularly, yet threatening it forces opponents into defensive reactions that open other attacks. In the broader context of guard retention and advancement, the overhook sweep represents an efficient method of improving position while maintaining offensive initiative, embodying the principle that effective BJJ involves position advancement before submission hunting.
 
@@ -322,7 +322,7 @@ The overhook sweep is a cornerstone technique within the closed guard bottom att
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Hip Bump Sweep]] - Alternative sweep when overhook is defended or not available
 - [[Scissor Sweep]] - Complementary sweep attacking opposite angle from closed guard
@@ -340,7 +340,7 @@ The overhook sweep is a cornerstone technique within the closed guard bottom att
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The overhook sweep exemplifies the biomechanical principle of perpendicular force application against an opponent's base. When you create the 45-degree angle before initiating the sweep, you fundamentally alter the vector of forces required to off-balance your opponent. Instead of lifting their entire body weight against gravity, you're redirecting their mass horizontally around a pivot point created by their trapped arm. The critical element that most practitioners overlook is the timing of the guard opening - this must be coordinated precisely with the angle creation and initial off-balancing movement. The overhook itself creates what I call a 'positional anchor' - a fixed point of control that allows all other movements to be leveraged against it. When executed with proper technical precision, the sweep becomes nearly unavoidable because the opponent's own posting motion creates the exact mechanical disadvantage needed for the technique to succeed. This is efficiency in its purest form - using the opponent's defensive structure against them.
 - **Gordon Ryan**: In competition, the overhook sweep is one of my highest-percentage attacks from closed guard because it works against virtually any opponent regardless of size or strength. The key to making it work at the highest levels is disguising the setup within your overall guard game. I'll threaten triangles and armbars specifically to force my opponent to post their hands, creating the overhook opportunity. Once I have the overhook secured, I never give it up easily - it's a position of significant control that I can use to attack multiple submissions or sweeps. Against strong, athletic opponents who might initially resist the sweep, I've found that maintaining the overhook while sitting up with them often leads to either completing the sweep in a different plane or transitioning directly to the back. The beautiful thing about this technique is that it scales perfectly from day one white belts to black belt world championship matches - the fundamental mechanics remain the same, but the setups and combinations become more sophisticated with experience.
 - **Eddie Bravo**: From a 10th Planet perspective, the overhook sweep is the perfect entry point for teaching new students about creating and exploiting dilemmas in BJJ. When you secure that overhook in closed guard, your opponent faces a terrible choice - if they try to pull their arm free, you can attack with kimuras or triangles; if they leave it trapped and try to posture up, you sweep them. This is the essence of creating no-win situations. In no-gi specifically, I teach students to think of the overhook as a temporary control position that you're constantly flowing through. You might hit the sweep clean, or you might use the overhook as a transition point to rubber guard, truck position, or back takes. The traditional overhook sweep is solid, but I encourage my students to explore the chaotic possibilities that emerge when opponents defend it desperately. That's when the really creative stuff happens - maybe you end up in a weird lockdown variation, or you transition to a calf slicer because they turned the wrong way trying to escape. Keep the overhook as your anchor point and let the positions flow naturally from there.

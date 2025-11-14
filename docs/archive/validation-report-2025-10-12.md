@@ -197,7 +197,7 @@
 **ACTION REQUIRED:** Add expert insights to enhance content authority
 
 ### 5. MISSING COMMON ERRORS SECTIONS: 18 submission files
-⚠ Common Errors section helps users avoid mistakes
+⚠ Common Mistakes section helps users avoid mistakes
 
 **ACTION REQUIRED:** Document common mistakes for each submission
 
@@ -376,7 +376,7 @@
    - Include precise positioning
    - Add common variations
 
-4. **Add Common Errors Sections (18 submission files)**
+4. **Add Common Mistakes Sections (18 submission files)**
    - Document 3-5 common mistakes
    - Explain why they occur
    - Provide corrections

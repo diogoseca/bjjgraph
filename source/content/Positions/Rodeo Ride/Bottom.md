@@ -8,7 +8,7 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 50% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner in turtle position with hands and knees on mat, attempting to maintain protective posture with elbows tucked close to body and head protected while bearing top practitioner's dynamic pressure across back and shoulders
 - Top practitioner's hips loaded on bottom practitioner's back or side torso, with chest making contact with shoulder area and one leg posted for base while other applies pressure to hip or thigh, creating asymmetric weight distribution
@@ -204,7 +202,7 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom practitioner has entered turtle position from guard, takedown defense, or scramble situation
 - Top practitioner has established initial control over bottom practitioner's upper body or near arm
@@ -231,7 +229,7 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Turtle to Guard]] → [[Closed Guard]]
 
@@ -288,7 +286,7 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Turtle to Back Take]]** → [[Back Control]] (Opponent Success: 65%)
 - **[[Clock Choke]]** → [[Won by Submission]] (Opponent Success: 35%)
@@ -302,7 +300,7 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Guard Recovery]]** → [[Half Guard]]
   - Top practitioner shifts weight forward attempting back control
@@ -342,7 +340,7 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

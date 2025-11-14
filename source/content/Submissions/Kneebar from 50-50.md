@@ -8,7 +8,7 @@ description: "Master Kneebar from 50-50 Guard in BJJ. Complete guide with safety
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Kneebar from 50-50 Guard in BJJ. Complete guide with safety
 
 
 
-> **Quick Answer**: Kneebar from 50-50 is a leg lock targeting the Knee joint (hyperextension of knee ligaments). ⚠️ **SAFETY**: This technique can cause MCL/LCL ligament tear - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kneebar from 50-50 is a leg lock targeting the Knee joint (hyperextension of knee ligaments). ⚠️ **SAFETY**: This technique can cause MCL/LCL ligament tear. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kneebar from 50-50 Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -222,7 +222,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Hip alignment: Your hip must be positioned directly across opponent's knee joint as the fulcrum point
 - Foot control: Secure opponent's foot tightly in armpit to prevent rotation and escape
 - Knee isolation: Use your legs to trap opponent's thigh and prevent their hip movement
@@ -236,7 +236,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish 50-50 Guard with both legs entangled and inside position on target leg
 - Control opponent's foot securely in your armpit with their toes pointing toward your back
 - Position your hip directly across opponent's knee joint creating proper fulcrum
@@ -250,7 +250,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish inside 50-50 position**: From 50-50 Guard, ensure your inside leg is deeper than opponent's. Your inside leg should be positioned with your foot behind their far hip while your outside leg wraps over their near thigh. This inside position is critical—if opponent has deeper inside position, you must address this first before attempting the kneebar. (Timing: Initial setup phase) [Pressure: Light]
 2. **Isolate and secure the target leg**: Reach across and grab opponent's foot (the leg you're entangling), pulling it tightly into your armpit. Their toes should point toward your back. Clamp your elbow and arm tightly around their foot, treating it like a seatbelt grip. This foot control is non-negotiable—if you lose this connection, the submission fails. (Timing: 2-3 seconds) [Pressure: Firm]
 3. **Position hip across knee joint**: Adjust your body angle so your hip bone is positioned directly across opponent's knee joint. Think of your hip as the fulcrum of a lever system. Scoot your hips closer to their knee, eliminating all space. Your body should be roughly perpendicular to opponent's trapped leg. This positioning determines the efficiency of your leverage. (Timing: 2-3 seconds positioning) [Pressure: Moderate]
@@ -264,7 +264,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent sits up and faces you, establishing cross-face or grip fighting** (Effectiveness: High) - Your Adjustment: Before they can establish upper body control, use your grip on their belt/pants to pull them back down to the mat. Alternatively, transition to inside heel hook if their rotation creates the angle. Never allow them to square up to you.
 - **Opponent straightens their trapped leg explosively, trying to clear knee line** (Effectiveness: Medium) - Your Adjustment: Immediately pull their foot deeper into your armpit and redirect your hips to stay across the knee joint. If they succeed in straightening completely, transition to outside ashi or straight ankle lock rather than losing position entirely.
 - **Opponent attacks your exposed leg with counter kneebar or heel hook** (Effectiveness: High) - Your Adjustment: This is the primary danger of 50-50. If opponent establishes control on your foot, you must simultaneously finish your attack quickly (competition) or release and defend (training). Never ignore counter-attacks to your own leg. Consider preemptively hiding your heel by turning it away.
@@ -274,28 +274,28 @@ This submission represents a critical component of modern leg lock systems and i
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Failing to control opponent's foot in armpit, allowing it to slip free [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Failing to control opponent's foot in armpit, allowing it to slip free [Medium DANGER]
   - **Consequence**: Opponent easily rotates their knee and escapes, potentially reversing position or counter-attacking your leg
   - **Correction**: Treat the foot like a seatbelt—clamp your elbow and forearm tightly around it with toes pointing to your back. Practice this grip in isolation until it becomes automatic. Your arm and elbow should be glued to your ribs.
-- **Error**: Positioning hip too high (across opponent's thigh) or too low (across their shin) [Low DANGER]
+- **Mistake**: Positioning hip too high (across opponent's thigh) or too low (across their shin) [Low DANGER]
   - **Consequence**: Loss of mechanical advantage results in weak submission that won't finish even with full hip extension
   - **Correction**: Your hip bone must sit directly across the joint line of opponent's knee. Spend time in drilling finding this precise position. It should feel like your hip is nestled into the back of their knee.
-- **Error**: Applying explosive or jerking motion to finish submission quickly [CRITICAL DANGER]
+- **Mistake**: Applying explosive or jerking motion to finish submission quickly [CRITICAL DANGER]
   - **Consequence**: SEVERE knee ligament damage, potential career-ending injury to training partner, immediate ejection from most academies
   - **Correction**: ALWAYS apply progressive pressure over minimum 5-7 seconds in training. Think 'slow and steady' not 'explosive and fast'. Competition and training have different safety standards—never compromise partner safety.
-- **Error**: Neglecting to defend your own exposed leg in 50-50 while attacking [High DANGER]
+- **Mistake**: Neglecting to defend your own exposed leg in 50-50 while attacking [High DANGER]
   - **Consequence**: Opponent counter-attacks your knee or heel, potentially injuring you or forcing you to abandon your submission
   - **Correction**: Maintain defensive awareness throughout the attack sequence. Keep your heel hidden (turned away) and monitor opponent's hand position on your foot. If they establish control, immediately assess whether to finish fast or release and defend.
-- **Error**: Losing leg entanglement by not squeezing legs together tightly [Medium DANGER]
+- **Mistake**: Losing leg entanglement by not squeezing legs together tightly [Medium DANGER]
   - **Consequence**: Opponent creates space and easily extracts their leg, escaping to a dominant position or standing
   - **Correction**: Your legs should function as a single unit, squeezing continuously throughout the submission. Your top leg pins their thigh down while inside leg hooks deep. There should be zero space in the entanglement.
-- **Error**: Allowing opponent to sit up and establish upper body control or cross-face [Medium DANGER]
+- **Mistake**: Allowing opponent to sit up and establish upper body control or cross-face [Medium DANGER]
   - **Consequence**: Complete loss of submission and position, opponent can pass your guard or escape the leg entanglement
   - **Correction**: Establish and maintain grip control on opponent's belt, hip, or far leg to keep them flat on their back. Your free hand is not for posting—it's for control. Keep them flat and unable to face you.
-- **Error**: Continuing to apply pressure after feeling resistance or through opponent's stubbornness not to tap [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after feeling resistance or through opponent's stubbornness not to tap [CRITICAL DANGER]
   - **Consequence**: Training partner suffers serious knee injury, destroyed training relationship, potential legal liability
   - **Correction**: In training, if 5 seconds of proper technique produces no tap, release and discuss with partner. Never 'teach them a lesson' by forcing through. Competition and training have different standards. Partner safety is non-negotiable.
 
@@ -304,7 +304,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Belly-down kneebar from 50-50**: Instead of staying on your side, rotate your entire body belly-down while maintaining foot control and hip position. This variation offers superior finishing mechanics and makes it much harder for opponent to counter-attack your leg. (When to use: When opponent is defending well from standard side position, or when you want maximum finishing power in competition. The belly-down variation is considered the highest percentage finish from 50-50.)
 
 **Kneebar entry from 50-50 guard pass attempt**: As opponent attempts to pass your 50-50 guard by extracting their leg, use their movement to transition directly into the kneebar. Capture their escaping leg, secure the foot in your armpit during their extraction attempt, and establish the finish before they realize the position changed. (When to use: Reactionary technique when opponent is actively trying to escape 50-50. Their leg extraction gives you the opportunity to isolate and attack it. This is a common competition sequence.)
@@ -347,7 +347,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Phase 1: Conceptual Understanding** (Week 1-2 (2-3 sessions))
 - Focus: Learn kneebar mechanics on grappling dummy or compliant partner. Study anatomy of knee joint, understand lever system (hip as fulcrum), and practice foot control grip without any finishing pressure. Watch instructional videos and review common injuries.
 - Resistance: Zero resistance
@@ -384,7 +384,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[50-50 Guard]]
 - [[Inside Ashi-Garami]]
@@ -400,7 +400,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kneebar]]
 - [[Kneebar Finish]]
@@ -439,7 +439,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The kneebar from 50-50 represents a perfect example of mechanical efficiency in submission grappling. The beauty of this submission lies in its lever system—your hip functions as a fulcrum placed directly across the opponent's knee joint, and hip extension creates tremendous force multiplication. The critical technical element that most practitioners miss is the precise positioning of the hip across the joint line. Too high on the thigh or too low on the shin dramatically reduces your mechanical advantage. In training, we must emphasize progressive pressure application with minimum 5-7 second loading time. The knee ligaments—particularly the ACL, MCL, LCL, and PCL—are not elastic like muscles. Once torn, they require surgical reconstruction and 9-12 months of rehabilitation. This is why we drill immediate release protocols repeatedly until they become reflexive. The 50-50 position also presents an important strategic element: positional control must precede submission attempts. Students often become so focused on finishing the kneebar that they neglect their own leg defense, allowing opponents to counter-attack. A true systematic approach requires maintaining defensive awareness throughout the offensive sequence.
 - **Gordon Ryan**: I've finished more knees from 50-50 in competition than probably any other leg lock position, and the key is understanding the difference between training and competition application. In the training room, you have the luxury of time—take 5-7 seconds, apply progressive pressure, and prioritize partner safety because you need training partners for years to come. In competition, it's a different game. When I secure that foot in my armpit and my hip is across their knee, I'm extending my hips with competition intensity—2-3 seconds maximum. I've seen too many guys wait too long in competition and their opponent escapes. The reality is that most people won't tap until they feel significant pressure, and in competition, you can't give them time to work their escape. That said, the technical setup must be perfect regardless of context: foot control like a seatbelt, hip across the joint, legs locked tight, opponent kept flat. Without these elements, it doesn't matter how fast you extend your hips—it won't finish. One thing I've learned is that the belly-down variation is much higher percentage than staying on your side. When you rotate belly-down, your finishing mechanics are superior and they can't counter-attack your leg effectively. In modern no-gi competition where heel hooks are legal, the 50-50 kneebar also sets up heel hook transitions beautifully—when they defend the kneebar by turning their knee, they often expose their heel.
 - **Eddie Bravo**: The 50-50 kneebar is interesting because it completely changes depending on whether heel hooks are legal in your rule set. In rule sets without heel hooks, the kneebar becomes your primary finish and you can really commit to it. In our system, we look at 50-50 as a transitional position more than a finishing position—we're usually trying to get to the truck or move to a more dominant leg entanglement. That said, when the kneebar is there, it's money. One thing we emphasize at 10th Planet is the importance of creating a submission dilemma. From 50-50, you're not just attacking one leg—you're threatening multiple attacks and making them guess. Kneebar on one leg, transition to kneebar on the other leg, sweep to the truck, or if heel hooks are legal, transition to inside or outside heel hooks. The opponent is dealing with multiple problems simultaneously, and that's when mistakes happen. Safety-wise, we've always been big on tap early, tap often culture. I've seen too many tough guys try to fight through submissions and end up with permanent injuries. In training, there's zero glory in fighting through a kneebar—you're just setting yourself up for knee surgery. We teach our students that tapping is not losing in training, it's learning. In competition, that's when you test your limits, but even then, know when you're beaten. Your training partners and your knees will thank you for having a healthy tap reflex.

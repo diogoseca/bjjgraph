@@ -8,7 +8,7 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 35%.
 
 ---
 
@@ -191,7 +191,7 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains upper body connection with chest-to-chest pressure or heavy cross-face control preventing bottom player from creating adequate defensive frames or sitting up to recover guard
 - Bottom player's legs are extended away from their torso in a 'jailbreak' configuration with one or both legs attempting to create distance and block the pass through extension
@@ -204,7 +204,7 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Top player has passed beyond the initial half guard frames and knee shield defenses
 - Bottom player has extended legs to create distance in defensive jailbreak motion
@@ -232,7 +232,7 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Leg Weave Pass]] → [[Side Control]]
 
@@ -296,7 +296,7 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Lockdown Sweeps]]** → [[Lockdown]] (Opponent Success: 40%)
 - **[[Deep Half Entry]]** → [[Deep Half Guard]] (Opponent Success: 45%)
@@ -309,7 +309,7 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Pressure Pass]]** → [[Side Control]]
   - Bottom player attempts to create space by extending legs further
@@ -358,7 +358,7 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

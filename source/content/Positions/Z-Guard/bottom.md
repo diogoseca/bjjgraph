@@ -8,7 +8,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Inside leg (same side as trapped leg) wraps around opponent's thigh, securing half guard control with the foot locked behind opponent's knee or calf, preventing leg extraction
 - Outside leg creates active knee shield with knee pressed into opponent's shoulder, collarbone, or upper chest area, shin angled upward at approximately 45 degrees, creating maximum distance and preventing opponent from settling weight
@@ -205,7 +203,7 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent in top half guard position attempting to pass or establish control
 - Bottom player has secured half guard control with inside leg wrapped around opponent's leg
@@ -233,7 +231,7 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Old School Sweep]] → [[Half Guard]]
 
@@ -297,7 +295,7 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 45%)
 - **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 40%)
@@ -312,7 +310,7 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Deep Half Entry]]** → [[Deep Half Guard]]
   - Opponent drives forward pressure attempting to flatten knee shield
@@ -362,7 +360,7 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

@@ -13,10 +13,6 @@ description: "Master Game Over position in BJJ. Strategic guide covering when to
 
 
 
-> **Quick Overview**: Game Over represents the terminal state in Brazilian Jiu-Jitsu where a match concludes through submission. This unique position exists outside the traditional positional hierarchy, representing the ul...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -64,31 +60,19 @@ Game Over also represents different tactical significance across rule sets. In I
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive |
-| Risk Level | High | Low |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Short |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive |
+| **Risk Level** | High | Low |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Short |
 
-**What Makes This Position Unique:** Terminal state requiring full submission
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Game Over/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Game Over/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Terminal state requiring full submission
 
 
 
@@ -96,10 +80,13 @@ Game Over also represents different tactical significance across rule sets. In I
 
 <section id="bottom-summary" class="content-section">
 
-## Game Over Bottom Perspective
+
+## Playing as Bottom
+
+[[Game Over/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in game over must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -145,7 +132,7 @@ The bottom player in game over must focus on creating frames, protecting against
   - Success Rate: Beginner 5%, Intermediate 15%, Advanced 25%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Waiting too long to tap out of competitive pride or ego**
@@ -173,16 +160,17 @@ The bottom player in game over must focus on creating frames, protecting against
   - ✅ Correction: Establish clear agreements with training partners about submission application speed and tap response time
 
 
-👉 **[[Game Over/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Game Over Top Perspective
+
+## Playing as Top
+
+[[Game Over/Top|→ Full Top Guide]]
 
 
-The top player in game over enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -243,7 +231,7 @@ The top player in game over enjoys offensive advantages with access to submissio
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting submissions from poor positions without establishing control first**
@@ -274,8 +262,6 @@ The top player in game over enjoys offensive advantages with access to submissio
   - Consequence: Wasted energy and lost positions from over-commitment to defended submissions
   - ✅ Correction: Assess opponent's defensive position continuously—if submission is well-defended, transition to alternative attack or consolidate position
 
-
-👉 **[[Game Over/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

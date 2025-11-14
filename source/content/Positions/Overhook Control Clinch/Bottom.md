@@ -8,7 +8,7 @@ description: "Master bottom overhook control clinch in BJJ. Defensive strategies
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master bottom overhook control clinch in BJJ. Defensive strategies
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master bottom overhook control clinch in BJJ. Defensive strategies
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 60% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ The key to surviving and thriving in this disadvantaged position is maintaining 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent has secured an overhook grip on one of your arms, controlling it tightly to their body with their forearm wrapped around your upper arm and shoulder, restricting your ability to retract or extend that limb
 - Both practitioners are standing with weight distributed on both feet, maintaining upright or slightly bent posture with heads and shoulders in close proximity, creating clinch engagement distance
@@ -204,7 +202,7 @@ The key to surviving and thriving in this disadvantaged position is maintaining 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Standing engagement initiated with opponent in clinch range
 - Opponent successfully secured overhook grip on one arm during grip exchange
@@ -232,7 +230,7 @@ The key to surviving and thriving in this disadvantaged position is maintaining 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Arm Drag]] → [[Back Control]]
 
@@ -282,7 +280,7 @@ The key to surviving and thriving in this disadvantaged position is maintaining 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Double Leg Entry]]** → [[Side Control]] (Opponent Success: 55%)
 - **[[Single Leg Entry]]** → [[Side Control]] (Opponent Success: 50%)
@@ -295,7 +293,7 @@ The key to surviving and thriving in this disadvantaged position is maintaining 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Sprawl Defense]]** → [[Front Headlock]]
   - Opponent shoots for legs or drops level for takedown
@@ -337,7 +335,7 @@ The key to surviving and thriving in this disadvantaged position is maintaining 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

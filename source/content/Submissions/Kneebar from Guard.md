@@ -8,7 +8,7 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 
 
 
-> **Quick Answer**: Kneebar from Guard is a leg lock targeting the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear or rupture - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kneebar from Guard is a leg lock targeting the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear or rupture. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kneebar from Guard Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -212,7 +212,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Hip positioning is critical - your hips must be perpendicular to opponent's leg for maximum leverage
 - Control the heel tightly to your body - any space allows escape and reduces submission pressure
 - Break opponent's defensive grip structure before attempting leg isolation
@@ -226,7 +226,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent is posturing forward or attempting to pass your guard
 - You have established initial grip control on opponent's pants or ankle
 - Opponent's weight is distributed forward, making them susceptible to being pulled down
@@ -239,7 +239,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish grip control and break posture**: From closed guard or open guard, secure a grip on opponent's ankle or pants near their knee. Simultaneously pull them forward to break their posture, preventing them from sitting back and creating the forward momentum needed for the kneebar entry. Your opposite hand should control their same-side sleeve or collar to prevent them from posting. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Open guard and pivot hips perpendicular**: Open your closed guard if applicable and immediately pivot your hips 90 degrees so your body becomes perpendicular to opponent's trapped leg. This is the most critical positional element - your spine should form a 'T' shape with their leg. Thread your inside leg across their trapped thigh to begin isolation. (Timing: 1 second - this must be explosive) [Pressure: Light]
 3. **Isolate the leg and establish leg triangle**: Wrap your inside leg around opponent's trapped thigh and lock a figure-four position with your outside leg hooking behind your ankle. This leg triangle prevents them from extracting their leg. Simultaneously, your arms must control their heel, pulling it tightly to your chest with their toes pointing away from you. Your outside arm typically secures the heel while your inside arm reinforces. (Timing: 2-3 seconds) [Pressure: Firm]
@@ -252,7 +252,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Sitting up immediately to face you and strip heel control** (Effectiveness: High) - Your Adjustment: Use your free leg to push their shoulder or chest forcefully, preventing them from achieving upright posture. If they do sit up, transition to X-Guard or Single Leg X-Guard sweep rather than forcing the finish.
 - **Grabbing their own knee or shin to prevent leg isolation** (Effectiveness: High) - Your Adjustment: Use two-on-one grip breaking - both your hands should attack their weakest grip point (usually their fingers). Alternatively, threaten a sweep or back take to force them to release the defensive grip and post.
 - **Stepping over your head with their free leg to establish a defensive hook** (Effectiveness: Medium) - Your Adjustment: Angle your body further away from their free leg as you enter. If they do step over, you may need to transition to a different leg entanglement or sweep rather than forcing the kneebar finish.
@@ -262,28 +262,28 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Failing to establish perpendicular hip positioning before attempting the finish [Low DANGER]
+## Common Mistakes
+- **Mistake**: Failing to establish perpendicular hip positioning before attempting the finish [Low DANGER]
   - **Consequence**: Opponent easily escapes by simply sitting up or pulling their leg out, and you lose all control
   - **Correction**: Prioritize the 90-degree hip angle - your body must form a 'T' with their leg. Scoot your hips perpendicular before even thinking about finishing pressure.
-- **Error**: Allowing space between opponent's heel and your chest/armpit [Low DANGER]
+- **Mistake**: Allowing space between opponent's heel and your chest/armpit [Low DANGER]
   - **Consequence**: Opponent can slip their heel free and extract their leg completely, escaping the submission
   - **Correction**: Pull the heel as tightly as possible to your body - imagine you're trying to make their heel touch your opposite shoulder. Use a prayer grip with both hands for maximum heel security.
-- **Error**: Applying pressure by arching the back instead of extending the hips [Medium DANGER]
+- **Mistake**: Applying pressure by arching the back instead of extending the hips [Medium DANGER]
   - **Consequence**: Minimal pressure on opponent's knee, potential lower back injury to yourself, and easy escape for opponent
   - **Correction**: Think 'hip thrust' not 'back arch'. Engage your glutes and drive your hips upward toward the ceiling while keeping your core tight. The power source is hip extension.
-- **Error**: Jerking or spiking the submission with sudden explosive pressure [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the submission with sudden explosive pressure [CRITICAL DANGER]
   - **Consequence**: IMMEDIATE SEVERE KNEE INJURY to training partner - PCL tear, MCL rupture, or meniscus damage requiring surgery
   - **Correction**: ALWAYS apply progressive pressure over minimum 5-7 seconds in training. The submission should feel like slowly increasing tension, never a sudden spike. Your partner must have time to recognize the danger and tap.
-- **Error**: Neglecting upper body control with your free leg [Medium DANGER]
+- **Mistake**: Neglecting upper body control with your free leg [Medium DANGER]
   - **Consequence**: Opponent sits up, faces you, and easily strips your heel control or passes your guard entirely
   - **Correction**: As soon as you establish the leg triangle, your free leg must push against their shoulder, chest, or hips. This leg acts as a stiff arm preventing them from closing distance.
-- **Error**: Attempting the kneebar when opponent has strong defensive grips locked on their own leg [Low DANGER]
+- **Mistake**: Attempting the kneebar when opponent has strong defensive grips locked on their own leg [Low DANGER]
   - **Consequence**: Wasted energy fighting their grip, allowing them to defend the kneebar and potentially pass your guard during the struggle
   - **Correction**: Break their defensive grips BEFORE fully committing to the kneebar entry. Use two-on-one grip breaks, or threaten sweeps/back takes to force them to release and post their hands.
-- **Error**: Allowing opponent's heel to rotate or turn out during application [CRITICAL DANGER]
+- **Mistake**: Allowing opponent's heel to rotate or turn out during application [CRITICAL DANGER]
   - **Consequence**: CRITICAL DANGER - adds rotational torque to knee joint, exponentially increasing injury risk and potentially causing ACL tear in addition to PCL damage
   - **Correction**: Control the heel position rigidly - their toes must point straight away from you throughout the entire submission. Any rotation must be prevented by tight control with both arms. If the heel starts to rotate, release pressure immediately.
 
@@ -292,7 +292,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Kneebar from Butterfly Guard**: From butterfly guard with hooks established, use your butterfly hook to elevate opponent and simultaneously pivot your hips perpendicular. Your butterfly hook becomes the leg that creates the leg triangle, while your opposite leg controls upper body. This entry is particularly fast and catches opponents by surprise. (When to use: When opponent is driving forward with pressure in butterfly guard, or when you have strong butterfly hook control and want to attack before they establish passing grips.)
 
 **Kneebar from De La Riva Guard**: From De La Riva guard, use your DLR hook to off-balance opponent forward while your opposite leg threads across their trapped thigh. This creates an immediate leg triangle position. Your DLR hook can remain in place initially to aid control, then transition to upper body control once the kneebar is secured. (When to use: Excellent when opponent is attempting to backstep out of De La Riva guard - their weight shift forward creates perfect entry timing. Also effective when transitioning from failed DLR sweeps.)
@@ -335,7 +335,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Positional Drilling** (Weeks 1-3)
 - Focus: Learn proper entry mechanics, perpendicular hip positioning, leg triangle configuration, and heel control without any finishing pressure. Partner remains completely passive allowing you to achieve perfect position repeatedly.
 - Resistance: Zero resistance
@@ -372,7 +372,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Butterfly Guard]]
@@ -390,7 +390,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kneebar Finish]]
 - [[Kneebar Variations]]
@@ -429,7 +429,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The kneebar from guard represents a critical evolution in bottom position philosophy - the guard player is no longer purely defensive or sweep-focused, but becomes an immediate submission threat. The key to successful kneebar application from guard lies in understanding perpendicular mechanics and heel control as absolute prerequisites before any finishing pressure. Most practitioners fail because they attempt to finish from poor positional alignment, which is biomechanically impossible regardless of strength or technique. The proper sequence is invariant: first achieve perfect perpendicular hip positioning creating the 'T' configuration, second establish unbreakable heel control with the heel locked to your chest, third create leg triangle preventing leg extraction, and only fourth apply progressive hip extension pressure. Each element must be secured before progressing to the next - attempting to skip steps results in consistent failure. From a safety perspective, the kneebar is among the most dangerous submissions because the knee joint has minimal capacity to absorb hyperextension force before structural damage occurs. Unlike shoulder locks where there is more anatomical resilience, the knee's ligamentous structure tears rapidly under hyperextension. This demands absolute control and progressive pressure application in training, with both partners understanding that the submission success relies on position quality, never on explosive force.
 - **Gordon Ryan**: In competition, the kneebar from guard is one of my highest-percentage submissions because opponents simply don't expect the guard player to attack legs so aggressively - they're conditioned to defend upper body attacks and worry about being swept. The moment they start pressuring forward to pass, they're walking into the kneebar entry. The critical distinction between training and competition is pressure application speed. In training, I always give my partners 5-7 seconds to tap because I need healthy training partners and knee injuries are career-threatening. In competition, once I achieve that perpendicular position with the heel controlled, I'm finishing in under 2 seconds because my opponent will fight it and I cannot give them time to escape. The entry speed is identical in both contexts - explosive and immediate - but the finishing pressure differs drastically. My advice for developing this submission competitively is to become absolutely ruthless about position quality recognition. If your hips aren't perfectly perpendicular and the heel isn't locked tight, don't waste energy trying to finish - immediately transition to X-Guard sweeps or back takes. The kneebar finishes itself when position is perfect; forcing it from imperfect position just burns your arms out and gives opponent time to pass. Also, train the kneebar extensively from butterfly guard specifically - it's the fastest entry and catches even experienced opponents by surprise because the setup looks identical to butterfly sweep attempts.
 - **Eddie Bravo**: The kneebar from guard fits perfectly into 10th Planet methodology because it creates multi-directional threats that keep opponents frozen and unable to commit to passing. From positions like Lockdown or Rubber Guard, I can threaten Electric Chair sweeps, back takes, triangle chokes, AND kneebars all from similar setups - opponent has no idea which attack is coming until it's too late. The beauty of the kneebar from guard is that it punishes the exact pressure and forward movement that many traditional guard passers rely on. They drive forward trying to smash and pass, and suddenly their leg is isolated and they're in deep trouble. One innovation we emphasize at 10th Planet is combining the kneebar threat with twisting motions and unconventional angles - rolling kneebars, inverted entries, transitions from Truck position back to guard kneebar. These unorthodox entries catch opponents completely off-guard because they're not drilling defenses to attacks they don't commonly see. However, and this is critical, we have an extremely strict safety culture around leg locks in training. Every 10th Planet school emphasizes that kneebars must be applied slowly in training with constant communication. We've seen too many careers ended by training injuries from explosive leg lock application. In our system, you build the position perfectly, announce 'I got the kneebar' so your partner knows, and then apply pressure over 5-7 seconds minimum. Tapping to leg locks early isn't weakness - it's intelligence and longevity. Save the explosive finishes for competition where the stakes justify the risk.

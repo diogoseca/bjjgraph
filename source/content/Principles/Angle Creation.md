@@ -8,7 +8,7 @@ description: "Master Angle Creation in BJJ. Learn strategic principles of genera
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Angle Creation in BJJ. Learn strategic principles of genera
 
 
 
-> **Quick Answer**: Angle Creation is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Angle Creation is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Move perpendicular to opponent's pressure rather than directly against it for maximum efficiency
 - Create angles to expose opponent's structural vulnerabilities and weak defensive zones
 - Use hip movement as primary mechanism for generating significant angular changes
@@ -181,7 +181,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Hip Escape Mechanics**: Fundamental ability to use shrimping movements to create lateral displacement and angular separation from opponent's centerline. This involves coordinating bridge, turn, and push mechanics to generate space while maintaining defensive frames.
 
 **Grip-Based Angle Maintenance**: Skill of establishing and maintaining grips that prevent opponent from following angular movements and realigning their position. Requires understanding which grips anchor opponent in place while allowing practitioner mobility.
@@ -204,7 +204,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Hip Movement]]** (Prerequisite): Hip mobility and control serve as foundational physical capability required for angle creation. Without efficient hip movement mechanics, generating significant angles becomes impossible.
 - **[[Off-Balancing]]** (Complementary): Angle creation and off-balancing work synergistically—angles compromise opponent's base making them easier to off-balance, while off-balancing creates opportunities for angular movements.
 - **[[Creating Reactions]]** (Extension): Advanced angle creation intentionally provokes opponent reactions that open additional angular opportunities, creating cascading advantages from initial angular displacement.
@@ -223,7 +223,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Create angles by hip escaping laterally while maintaining closed guard, positioning body perpendicular to opponent to set up triangles, armbars, or sweeps. Angular displacement opens attack lanes while compromising opponent's posture.
 
 **Half Guard**: Generate angles by getting on side and creating perpendicular alignment to opponent's pressure, enabling underhook access, back takes, or sweep entries. Angles neutralize opponent's crossface and shoulder pressure.
@@ -254,7 +254,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Identify opponent's current alignment and pressure direction**: Assess which direction opponent's force is oriented and where their body centerline is positioned relative to yours
 2. **Determine optimal angular direction for current position**: Select angular movement that is perpendicular or diagonal to opponent's pressure while advancing position-specific objectives
 3. **Establish grips or frames that anchor opponent**: Secure control points that prevent opponent from following your angular movement and maintaining alignment with your body
@@ -267,25 +267,25 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Creating angles without anchoring grips, allowing opponent to easily follow and maintain alignment
+## Common Mistakes
+- **Mistake**: Creating angles without anchoring grips, allowing opponent to easily follow and maintain alignment
   - **Consequence**: Opponent simply rotates or repositions to match angular changes, nullifying any advantage created and wasting energy
   - **Correction**: Always establish grips or frames that pin opponent in place before initiating angular movements, preventing their ability to track your position
-- **Error**: Moving in small incremental angles without commitment or exploitation
+- **Mistake**: Moving in small incremental angles without commitment or exploitation
   - **Consequence**: Opponent recognizes angular threat and preemptively adjusts base or position, closing window for effective angle utilization
   - **Correction**: Make decisive angular movements and immediately attack or advance—hesitation between creation and exploitation allows opponent defensive adjustment
-- **Error**: Creating angles directly into opponent's strength or prepared defenses
+- **Mistake**: Creating angles directly into opponent's strength or prepared defenses
   - **Consequence**: Movement directly toward opponent's posted hand, strong side, or anticipated defensive position wastes the mechanical advantage angles should provide
   - **Correction**: Analyze opponent's structure to identify weak defensive zones and create angles specifically toward those vulnerabilities
-- **Error**: Neglecting base maintenance during angular movements
+- **Mistake**: Neglecting base maintenance during angular movements
   - **Consequence**: Loss of own balance while creating angles leads to sweeps or positional reversals, particularly when opponent recognizes and counters movement
   - **Correction**: Maintain stable base throughout angular adjustments, using grounded points of contact and frames to ensure movement doesn't compromise defensive structure
-- **Error**: Attempting large angular changes when opponent has stable base and good alignment
+- **Mistake**: Attempting large angular changes when opponent has stable base and good alignment
   - **Consequence**: Strong opponent resistance prevents significant movement, expending high energy for minimal positional gain
   - **Correction**: Time angular movements for moments when opponent's base is compromised—during transitions, weight shifts, or when they commit to actions
-- **Error**: Creating angles only with upper body while hips remain stationary
+- **Mistake**: Creating angles only with upper body while hips remain stationary
   - **Consequence**: Superficial angular positioning that doesn't fundamentally change structural dynamics or create meaningful offensive opportunities
   - **Correction**: Drive angular changes primarily through hip movement and lower body displacement, with upper body following to maintain connection
 
@@ -294,7 +294,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Isolation Drilling: Hip Escape Mechanics** (Focus: Building efficient hip movement patterns and understanding of body mechanics that generate significant angles with minimal energy expenditure)
 Partner holds specific positions while practitioner focuses exclusively on creating maximum angular displacement through various hip escape variations, developing fundamental movement quality
 
@@ -319,7 +319,7 @@ Full-intensity sparring with coaching feedback specifically highlighting success
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Executes basic hip escapes and shrimping movements in isolation drills with proper form
 - Recognizes concept of moving perpendicular to pressure when explained, though application remains inconsistent
@@ -357,7 +357,7 @@ Full-intensity sparring with coaching feedback specifically highlighting success
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Hip Movement]] (Principle) - Fundamental physical capability enabling angle creation through hip escape mechanics
 - [[Off-Balancing]] (Principle) - Complementary concept that works synergistically with angles to compromise opponent structure
@@ -377,7 +377,7 @@ Full-intensity sparring with coaching feedback specifically highlighting success
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Angle creation represents mathematical optimization problem where optimal angles exist for every position and technique based on biomechanical principles. Most effective attacks require 45-90 degree angles relative to opponent's centerline for maximum mechanical advantage. Progressive angle accumulation demonstrates how small angular gains compound into dominant positions through sequential movements—each 15-degree adjustment creates exponential rather than linear advantage. Understanding why angles work through leverage analysis and structural mechanics enables practitioners to identify optimal angular directions in unfamiliar positions rather than memorizing position-specific solutions. Angle creation functions as force multiplication mechanism allowing smaller practitioners to control larger opponents by attacking structural vulnerabilities perpendicular to opponent's strongest defensive alignments. The systematic study of angles reveals that most technique failures result not from execution errors but from poor angular positioning during setup phase.
 - **Gordon Ryan**: Competition success depends on aggressive continuous angle creation that gives opponent no time to establish aligned defensive positions. Creating angles during opponent's movement and reactions rather than static positions determines who controls pace and positioning. Most critical aspect is combining angle creation with immediate offensive action—creating angle without exploiting it wastes advantage and allows opponent realignment. In high-level matches, ability to create and maintain angles under pressure while opponent actively fights to maintain alignment determines position battles and ultimately match outcomes. Defensive angle recognition equally important—recognizing when opponent creates angles allows preemptive base adjustments that shut down their offensive sequences. Training must emphasize dynamic angle maintenance through opponent's defensive efforts rather than single repositioning, developing capacity to chain angular adjustments that progressively dominate opponent's structure despite their counters.
 - **Eddie Bravo**: 10th Planet system integrates extreme angle creation through positions like Twister Side Control, Truck, and various rubber guard configurations that create unconventional angles opponent hasn't trained specifically to defend. Angle stacking where multiple angular positions layer simultaneously overwhelms opponent's capacity to address all structural vulnerabilities created—they can't defend everything when attacked from compound angles. Inversions and unusual body positioning represent underutilized angle creation methods in traditional systems—going upside down or backwards creates angular problems opponent's practiced responses don't address. Unconventional angles work even when opponent understands fundamental escapes because their specific training hasn't covered these angular approaches. Creativity in angle creation means finding novel angular approaches to familiar positions that force opponent into unfamiliar defensive scenarios where their automatic responses fail. When opponent expects linear pressure or standard angles, introducing perpendicular or inverted angles creates momentary confusion that opens offensive windows.

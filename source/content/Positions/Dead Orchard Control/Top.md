@@ -8,7 +8,7 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70%.
 
 ---
 
@@ -187,7 +187,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Deep anaconda grip secured around opponent's neck and nearside arm with gable or S-grip configuration, creating circular compression on carotid arteries and restricting opponent's movement while establishing submission mechanics
 - Top practitioner's shoulder driving into opponent's trapped shoulder, creating downward pressure that prevents posture recovery and maintains submission angle while systematically breaking down defensive structure
@@ -200,7 +200,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful front headlock control establishment with opponent's posture broken down
 - Deep underhook secured on opponent's nearside arm with hand positioned past opponent's far shoulder
@@ -228,7 +228,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Anaconda Choke]] → [[Won by Submission]]
 
@@ -278,7 +278,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 25%)
 - **[[Arm Extraction]]** → [[Front Headlock]] (Opponent Success: 30%)
@@ -290,7 +290,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Transition to Mount]]** → [[Mount]]
   - Opponent attempts to turn away from pressure
@@ -337,7 +337,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

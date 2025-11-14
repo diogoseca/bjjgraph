@@ -13,10 +13,6 @@ description: "Master back control in BJJ with comprehensive guide covering hooks
 
 
 
-> **Quick Overview**: Back Control is widely considered the most dominant position in Brazilian Jiu-Jitsu. The practitioner controls the opponent from behind, with their chest against the opponent's back, legs wrapped arou...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,7 +48,7 @@ From back control, the top practitioner maintains a significant positional advan
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -60,34 +56,9 @@ From back control, the top practitioner maintains a significant positional advan
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Back Control]] | High | Low | High | Medium | Maximum submission threat with minimal risk |
-
 | [[Seat Belt Control Back]] | High | Low | Medium | Medium | Diagonal over-under grip prevents rotation |
-
 | [[Body Triangle]] | Low to Medium | High | Low | High | Figure-four lock trades mobility for control |
-
 | [[Standing Back Control]] | High | Medium | High | Medium | Vertical stance trades stability for takedowns |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Back Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Back Control/Top|Top Perspective]]** - Techniques and strategies
-
-
-### By Variation
-
-- **[[Seat Belt Control Back]]** - Specific harness grip variation for upper body control
-
-- **[[Body Triangle]]** - Back control with legs locked in body triangle configuration
-
-- **[[Standing Back Control]]** - Back control maintained in standing position
 
 
 
@@ -95,10 +66,13 @@ From back control, the top practitioner maintains a significant positional advan
 
 <section id="bottom-summary" class="content-section">
 
-## Back Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Back Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in back control must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -141,7 +115,7 @@ The bottom player in back control must focus on creating frames, protecting agai
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting explosive escape movements before securing neck defense and hand fighting position**
@@ -169,16 +143,17 @@ The bottom player in back control must focus on creating frames, protecting agai
   - ✅ Correction: Maintain hand fighting and defensive effort until submission is actually completed or referee stops match; never give up position
 
 
-👉 **[[Back Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Back Control Top Perspective
+
+## Playing as Top
+
+[[Back Control/Top|→ Full Top Guide]]
 
 
-The top player in back control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -227,7 +202,7 @@ The top player in back control balances control maintenance with submission atta
   - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Losing chest-to-back connection by leaning back or sitting up too high above opponent**
@@ -255,8 +230,6 @@ The top player in back control balances control maintenance with submission atta
   - ✅ Correction: Follow position-before-submission principle rigorously: secure dominant control with hooks and harness before attacking for finish
 
 
-👉 **[[Back Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -269,21 +242,21 @@ The top player in back control balances control maintenance with submission atta
 
 Specific harness grip variation for upper body control
 
-[Explore Seat Belt Control Back →](back-control/seat-belt-control-back)
+[Explore Seat Belt Control Back →](./Seat Belt Control Back)
 
 
 ### [[Body Triangle]]
 
 Back control with legs locked in body triangle configuration
 
-[Explore Body Triangle →](back-control/body-triangle)
+[Explore Body Triangle →](./Body Triangle)
 
 
 ### [[Standing Back Control]]
 
 Back control maintained in standing position
 
-[Explore Standing Back Control →](back-control/standing-back-control)
+[Explore Standing Back Control →](./Standing Back Control)
 
 
 

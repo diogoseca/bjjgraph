@@ -8,7 +8,7 @@ description: "Master match preparation in BJJ. Learn systematic preparation prot
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master match preparation in BJJ. Learn systematic preparation prot
 
 
 
-> **Quick Answer**: Match Preparation is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Match Preparation is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Match Preparation represents the comprehensive process of readying technical, ph
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Structure preparation timeline systematically managing physical, technical, tactical, and psychological readiness across weeks, days, and hours before competition
 - Conduct strategic opponent analysis when possible to inform tactical planning and technical emphasis decisions
 - Balance peak physical condition with avoided overtraining ensuring competition-day freshness rather than residual training fatigue
@@ -181,7 +181,7 @@ Match Preparation represents the comprehensive process of readying technical, ph
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Timeline Management**: The ability to structure preparation activities across appropriate timeframes, coordinating training load management, technical refinement, tactical rehearsal, and mental preparation so each element peaks at competition time rather than prematurely or insufficiently. Requires understanding periodization principles and individual recovery patterns.
 
 **Strategic Analysis**: The capacity to analyze opponent tendencies, competition format requirements, and rule set implications to inform preparation emphasis and tactical planning. Involves video analysis when available, pattern recognition from previous performances, and understanding competitive meta-game trends to anticipate likely scenarios.
@@ -204,7 +204,7 @@ Match Preparation represents the comprehensive process of readying technical, ph
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Competition Mindset]]** (Prerequisite): Competitive psychological framework must be established before effective match preparation possible, as preparation activities require competitive mentality to execute appropriately and interpret correctly relative to competition demands.
 - **[[Competition Training]]** (Prerequisite): Extended training cycle developing competitive capabilities provides foundation that match preparation optimizes, as preparation cannot create abilities but rather brings existing capacities to peak readiness for specific competitive challenge.
 - **[[Game Planning]]** (Complementary): Strategic tactical planning works synergistically with match preparation as game plans inform preparation emphasis while preparation constraints shape realistic game plan development, creating integrated approach to competitive readiness.
@@ -221,7 +221,7 @@ Match Preparation represents the comprehensive process of readying technical, ph
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Match preparation determines which guard game variations receive emphasis based on opponent's known passing preferences, rule set requirements, and competition format, with final training week featuring extensive tactical rehearsal of preferred attack sequences and counter-passing responses from this position.
 
 **Mount**: Pre-competition preparation includes specific drilling of mount consolidation against anticipated opponent defensive patterns, submission sequences appropriate to rule set and opponent vulnerabilities, and position maintenance against specific escape attempts identified through opponent analysis.
@@ -256,7 +256,7 @@ Match Preparation represents the comprehensive process of readying technical, ph
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Determine preparation timeline based on competition importance and current readiness level**: Assess weeks until competition, current physical condition, technical proficiency gaps, and competition significance to establish appropriate preparation intensity and structure, with major competitions requiring 8-12 week camps while smaller events may need only 2-4 weeks focused preparation.
 2. **Conduct opponent analysis if specific opponent known or meta-game analysis if opponent unknown**: Review available video footage, competitive history, and technical tendencies to identify opponent patterns, preferred positions, submission threats, and defensive vulnerabilities, or analyze competition meta-game trends and common styles at expected competitive level to inform general tactical preparation.
 3. **Establish game plan emphasizing positions and techniques compatible with athlete strengths versus opponent weaknesses**: Develop primary tactical approach featuring athlete's highest-percentage positions and transitions while targeting identified opponent vulnerabilities, including backup plans for likely defensive responses and contingency approaches if primary game plan encounters unexpected resistance.
@@ -269,25 +269,25 @@ Match Preparation represents the comprehensive process of readying technical, ph
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Overtraining in final week before competition attempting to add last-minute improvements
+## Common Mistakes
+- **Mistake**: Overtraining in final week before competition attempting to add last-minute improvements
   - **Consequence**: Accumulated fatigue reduces competition-day performance capacity, diminishes recovery ability, and creates staleness rather than sharpness, as body cannot recover from intense training in insufficient time before competition.
   - **Correction**: Reduce training volume and intensity 7-10 days before competition focusing on tactical rehearsal at moderate intensity rather than physical development, prioritizing rest and recovery to ensure freshness over attempting marginal skill improvements that cannot consolidate in limited timeframe.
-- **Error**: Excessive weight cutting compromising strength, endurance, and cognitive function for competition
+- **Mistake**: Excessive weight cutting compromising strength, endurance, and cognitive function for competition
   - **Consequence**: Severe dehydration and energy depletion reduce athletic performance, impair decision-making capacity, and increase injury risk, often negating competitive advantages gained from competing at lower weight class.
   - **Correction**: Maintain competition weight within 5-7% of natural weight requiring minimal cutting, execute gradual weight reduction over weeks rather than days, and prioritize rehydration and refueling between weigh-in and competition ensuring performance capacity restored.
-- **Error**: Abandoning prepared game plan immediately when encountering unexpected resistance
+- **Mistake**: Abandoning prepared game plan immediately when encountering unexpected resistance
   - **Consequence**: Premature tactical abandonment prevents game plan from developing through initial exchanges, creates reactive rather than proactive approach, and wastes preparation investment as athlete defaults to improvisation instead of executing rehearsed tactics.
   - **Correction**: Commit to prepared approach through multiple execution attempts allowing game plan opportunity to succeed, only transitioning to backup tactics after primary approach clearly ineffective, maintaining strategic framework rather than abandoning preparation at first obstacle.
-- **Error**: Neglecting mental preparation focusing exclusively on physical and technical readiness
+- **Mistake**: Neglecting mental preparation focusing exclusively on physical and technical readiness
   - **Consequence**: Anxiety, performance pressure, and competitive stress overwhelm athlete despite physical capability, as psychological unreadiness creates mental interference preventing technical execution and tactical decision-making under competitive conditions.
   - **Correction**: Integrate systematic mental preparation throughout training camp including visualization, anxiety management techniques, and competitive scenario rehearsal, establishing psychological protocols alongside physical training rather than addressing mental game only immediately before competition.
-- **Error**: Training exclusively with compliant partners never experiencing realistic competitive resistance
+- **Mistake**: Training exclusively with compliant partners never experiencing realistic competitive resistance
   - **Consequence**: Technical execution and tactical planning developed under cooperative conditions fail when encountering genuine competitive resistance, as athlete never experiences full-intensity opposition during preparation creating false confidence and unrealistic expectations.
   - **Correction**: Include regular training rounds against maximally-resistant training partners who actively attempt to defeat game plan approaches, creating realistic competitive simulation that tests tactical viability and develops ability to execute techniques against genuine opposition.
-- **Error**: Changing fundamental techniques or game plan approaches during final preparation phase
+- **Mistake**: Changing fundamental techniques or game plan approaches during final preparation phase
   - **Consequence**: Insufficient time exists to consolidate new approaches creating confusion and uncertainty rather than confidence, as athlete enters competition with unrefined techniques and untested tactics that cannot function reliably under pressure.
   - **Correction**: Commit to existing technical approach and tactical framework at least 3-4 weeks before competition, using final preparation phase exclusively for refinement and rehearsal of established game plan rather than introducing new elements that cannot consolidate in available time.
 
@@ -296,7 +296,7 @@ Match Preparation represents the comprehensive process of readying technical, ph
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Periodized Training Camp** (Focus: Long-term preparation structure for major competitions requiring comprehensive physical, technical, and tactical development coordinated with systematic peaking timeline.)
 Structured 8-12 week preparation cycle progressing from general development through specific preparation to competition taper, managing training volume and intensity to peak physical and technical readiness at competition date while avoiding overtraining and accumulated fatigue.
 
@@ -321,7 +321,7 @@ Repeated practice of specific warm-up sequence, timing protocols, and psychologi
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Inconsistent training attendance in weeks before competition creating gaps in preparation continuity and preventing systematic readiness development
 - Excessive nervousness and anxiety on competition day indicating insufficient mental preparation and unfamiliarity with competitive stress management
@@ -356,7 +356,7 @@ Repeated practice of specific warm-up sequence, timing protocols, and psychologi
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Competition Mindset]] (Principle) - Essential prerequisite establishing competitive psychological framework that enables effective preparation activities and appropriate interpretation of training relative to competition demands
 - [[Competition Training]] (Principle) - Extended training foundation that match preparation optimizes, as preparation cannot create capabilities but brings existing skills to peak readiness for specific competitive challenge
@@ -374,7 +374,7 @@ Repeated practice of specific warm-up sequence, timing protocols, and psychologi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches match preparation from systematic optimization perspective, emphasizing that preparation must address all performance dimensions rather than focusing exclusively on technical or physical readiness, as comprehensive preparation requires integration of physical peaking, technical refinement, tactical planning, and psychological readiness into unified coherent approach. Systematically structures preparation timelines managing training load, technical emphasis, tactical rehearsal, and mental preparation across appropriate timeframes ensuring each element peaks appropriately rather than prematurely or insufficiently, recognizing that different preparation components require different development timelines. Particularly emphasizes importance of tactical rehearsal through specific scenario drilling rather than general sparring in final preparation phase, creating automatic execution patterns for likely match situations through high-repetition practice of prepared game plan sequences under simulated competitive conditions. Advocates for detailed opponent analysis when possible to inform preparation specificity, but also emphasizes developing robust general tactical approach that functions effectively against unknown opponents, as over-specialization to specific opponent can create vulnerability when match conditions differ from anticipated scenarios.
 - **Gordon Ryan**: Views match preparation as competitive advantage that enables consistent high-level performance regardless of circumstances through reliable preparation protocols, having demonstrated exceptional competitive consistency across career through systematic preparation approach addressing all readiness dimensions comprehensively. Focuses heavily on physical preparation ensuring superior conditioning creates performance advantage as matches progress, viewing physical readiness as foundation enabling tactical execution under pressure when fatigue would otherwise compromise technical precision and decision-making capacity. Emphasizes what he terms over-preparation where technical and tactical rehearsal creates confidence and automatic execution even in high-pressure competitive moments, believing that extensive scenario drilling under realistic resistance develops execution reliability that functions when competitive stress would otherwise create hesitation or technical breakdown. Particularly advocates for brutal training camp approaches in final preparation phase that simulate competition stress while carefully managing accumulated fatigue to ensure competition-day freshness, maintaining that preparation must test tactical approaches against genuine resistance rather than compliant cooperation to validate game plan viability before competition.
 - **Eddie Bravo**: Approaches match preparation with emphasis on anxiety management and psychological readiness, having experienced performance anxiety personally throughout competitive career and developing preparation protocols specifically designed to manage competitive stress and establish optimal mental state for performance. When teaching preparation protocols, emphasizes importance of establishing consistent pre-competition routines that reduce anxiety through predictability and create optimal psychological state, recognizing that competitive stress often undermines technical capability in under-prepared athletes who lack systematic psychological readiness approaches. Particularly interested in strategic planning that creates clear tactical approach reducing decision-making burden under pressure, viewing tactical clarity as anxiety management tool as much as performance optimization since well-defined game plans provide psychological security when competitive uncertainty would otherwise create mental interference. Advocates for individualized preparation approaches recognizing that optimal preparation protocols vary significantly based on personal psychology and preparation patterns, as what works for one athlete may create counterproductive stress or insufficient readiness for another requiring personalized preparation framework development.

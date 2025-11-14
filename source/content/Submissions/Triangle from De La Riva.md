@@ -8,7 +8,7 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
 
 
 
-> **Quick Answer**: Triangle from De La Riva is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine compression - apply slowly over 3-5 seconds and release immediately upon tap.
+> Triangle from De La Riva is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine compression. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="safety-considerations" class="content-section">
 
-## Is Triangle from De La Riva Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -206,7 +206,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Use De La Riva hook to off-balance opponent forward while controlling posture with opposite leg
 - Break opponent's defensive grips before attempting triangle transition
 - Pivot on the De La Riva hook to create angular entry for triangle lock
@@ -220,7 +220,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Established De La Riva guard with hook secured behind opponent's knee
 - Collar and sleeve grip control or equivalent no-gi grip configuration
 - Opponent's weight shifted forward or posture broken down
@@ -233,7 +233,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish dominant De La Riva control**: Secure classic De La Riva position with hook deep behind opponent's knee, opposite foot on hip or bicep, and strong collar-sleeve grips. Break opponent's posture forward using collar grip while preventing them from standing tall. This foundational control is essential before attempting any offensive transition. (Timing: Initial position establishment - hold until opponent commits weight forward) [Pressure: Moderate]
 2. **Break opponent's defensive grips and posture**: Use collar grip to pull opponent's head down while simultaneously pushing their far arm across your centerline with your sleeve grip. The De La Riva hook prevents them from stepping back to recover posture. This creates the broken posture necessary for triangle entry and begins isolating one arm. (Timing: 1-2 seconds as opponent attempts to maintain base) [Pressure: Firm]
 3. **Pivot on De La Riva hook and swim leg over shoulder**: Maintain the De La Riva hook as a pivot point while releasing the hip control with your opposite leg. Swing this free leg high and over the opponent's shoulder on the side of your collar grip. The De La Riva hook prevents them from backing away during this transition. Aim to place your shin across the back of their neck. (Timing: Quick transition - 0.5-1 second window as opponent is off-balanced) [Pressure: Light]
@@ -246,7 +246,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Standing up to prevent triangle lock** (Effectiveness: High) - Your Adjustment: Maintain De La Riva hook longer to prevent standing, or transition to omoplata/sweep if they commit fully to standing posture
 - **Stacking pressure to compress your guard** (Effectiveness: Medium) - Your Adjustment: Shrimp hips away from stack direction, maintain angle perpendicular to their body, and use grips behind head to prevent them from driving chest into your knees
 - **Hiding arm inside to prevent triangle lock** (Effectiveness: High) - Your Adjustment: Attack omoplata or triangle variation, or use leg over shoulder position to transition to back take if arm remains defended
@@ -255,25 +255,25 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Releasing De La Riva hook too early in transition [Low DANGER]
+## Common Mistakes
+- **Mistake**: Releasing De La Riva hook too early in transition [Low DANGER]
   - **Consequence**: Opponent backs away or stands up before triangle can be locked
   - **Correction**: Maintain De La Riva hook until your opposite leg has fully cleared their shoulder and is positioned across back of neck
-- **Error**: Locking triangle with knee on top of shoulder instead of behind head [Low DANGER]
+- **Mistake**: Locking triangle with knee on top of shoulder instead of behind head [Low DANGER]
   - **Consequence**: Triangle is loose and easily defended, providing no choking pressure
   - **Correction**: Ensure shin crosses high on opponent's back with knee positioned behind their head in the 'high triangle' configuration
-- **Error**: Failing to control trapped arm across opponent's body [Low DANGER]
+- **Mistake**: Failing to control trapped arm across opponent's body [Low DANGER]
   - **Consequence**: Opponent can use free arm to create space and defend their neck
   - **Correction**: Immediately after locking triangle, secure trapped arm with grip and pull it across their centerline
-- **Error**: Remaining parallel with opponent instead of creating angle [Low DANGER]
+- **Mistake**: Remaining parallel with opponent instead of creating angle [Low DANGER]
   - **Consequence**: No effective choking pressure despite locked triangle
   - **Correction**: Rotate hips to create perpendicular angle - your spine should be roughly 90 degrees to theirs
-- **Error**: Applying explosive jerking pressure to finish choke [CRITICAL DANGER]
+- **Mistake**: Applying explosive jerking pressure to finish choke [CRITICAL DANGER]
   - **Consequence**: Risk of neck injury, loss of control, and dangerous training environment
   - **Correction**: Apply progressive, steady pressure over 3-5 seconds, monitoring partner constantly for tap signals
-- **Error**: Holding choke after tap or after partner goes unconscious [CRITICAL DANGER]
+- **Mistake**: Holding choke after tap or after partner goes unconscious [CRITICAL DANGER]
   - **Consequence**: Serious injury including brain damage from prolonged oxygen deprivation
   - **Correction**: Release immediately upon any tap signal or if partner's body goes limp - never test your partner's toughness
 
@@ -282,7 +282,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Triangle to Omoplata Switch**: If opponent successfully defends triangle by hiding arm or posturing, use the leg-over-shoulder position to transition directly to omoplata by bringing free leg over their back (When to use: When opponent keeps trapped arm inside or successfully postures up from triangle attempt)
 
 **Inverted Triangle from De La Riva**: Instead of standard triangle, rotate underneath opponent and lock inverted triangle, particularly effective when opponent is defending standard triangle entry (When to use: Against opponent who maintains strong upright posture or when standard triangle angle is blocked)
@@ -320,7 +320,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (First 2 weeks)
 - Focus: Learn proper De La Riva guard mechanics, triangle entry mechanics, and safety protocols without any resistance. Study the transition from linear guard position to circular triangle configuration.
 - Resistance: None
@@ -357,7 +357,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[De La Riva Guard]]
 - [[Reverse De La Riva Guard]]
@@ -372,7 +372,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Triangle from Guard]]
@@ -410,7 +410,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The triangle from De La Riva represents a sophisticated understanding of guard mechanics and submission geometry. The key insight is recognizing the De La Riva hook not as an obstacle to be abandoned, but as a mechanical pivot that enables the rotational entry into triangle position. Most athletes fail this technique because they release the hook prematurely, allowing the opponent to create distance. The biomechanical principle is simple: the hook anchors one leg while the opposite leg creates a pendulum swing over the shoulder. This is pure lever mechanics - the longer you maintain the fulcrum, the more powerful your lever action becomes. Additionally, understand that the triangle from this position requires exceptional hip flexibility and timing awareness. The window of opportunity is narrow because the opponent's defensive posture is naturally stronger in De La Riva than in closed guard. Your collar grip must break their posture forward while your De La Riva hook prevents backward escape - creating the momentary collapse in their structure necessary for successful entry. The finish demands the same geometric precision as any triangle: perpendicular body angle, high knee position behind the head, and trapped arm control. Without these elements, you have only positional control, not a submission threat. Train the transition timing separate from the finishing mechanics until both become second nature.
 - **Gordon Ryan**: In competition, I see the De La Riva triangle as a high-level threat that separates elite guard players from intermediate practitioners. The reality is most people can't hit this consistently under pressure because they lack the necessary timing and sensitivity to their opponent's weight distribution. When I'm attacking this, I'm not just thinking about the triangle - I'm thinking about creating a dilemma where every defensive option opens a different attack. If they stand to defend the triangle, I have sweeps. If they drive pressure forward, the triangle is there. If they hide the arm, omoplata becomes available. This is Craig Jones's dilemma principle applied perfectly. The key difference between training and competition is that in competition, opponents defend before you attack. They won't give you clean entries, so you must use the threat of sweeps and back takes to create the opening for the triangle. I also prefer to grip the far sleeve instead of just collar when setting this up - it gives me more control over their arm positioning and makes the triangle entry cleaner. One technical detail that matters: don't try to lock the triangle immediately when your leg goes over. First secure the position with your shin across their back, control their posture, then lock. Rushing the lock gives them time to defend. The difference between 60% success rate and 80% success rate is this patience in the transition phase.
 - **Eddie Bravo**: The triangle from De La Riva is sick when you understand it's not just one technique - it's a whole game within your guard system. At 10th Planet, we teach De La Riva as part of our no-gi guard system, but the triangle mechanics apply perfectly in gi too. The beautiful thing about this position is how it connects to everything else we do. If the triangle gets defended, boom, you're already in position for the omoplata. If they defend that, you can invert under for back control or attack the vaporizer. It's all connected, man. One thing I emphasize that's different from traditional teaching: use your De La Riva hook aggressively to off-balance them forward as you swing the leg over. Don't just pivot - kick their base out while you transition. This creates a much higher percentage entry because they're dealing with balance issues while you're attacking. Also, in no-gi especially, you need to be creative with your grip fighting since you don't have the collar. I grab behind the head, trap their arm with my opposite hand, and use that control to break their posture before entering. The triangle from De La Riva is also perfect for setting up the truck position if they try to defend by turning away - and the truck opens up the whole leg attack and twister game. So really, this isn't just a submission, it's a gateway to your entire attack system from open guard. Train it with that mindset and your success rate will skyrocket.

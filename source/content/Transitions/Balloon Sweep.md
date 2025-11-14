@@ -8,7 +8,7 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 
 
 
-> **Quick Answer**: Balloon Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Balloon Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Balloon Sweep is a dynamic and versatile sweep that combines elements of but
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain strong upper body control throughout the sweep
 - Use explosive hip extension to create vertical lift
 - Time the sweep to coincide with opponent's forward pressure
@@ -180,7 +180,7 @@ The Balloon Sweep is a dynamic and versatile sweep that combines elements of but
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Closed guard established with opponent's posture broken forward
 - Strong grip on opponent's collar or back of neck with one hand
 - Control of opponent's sleeve or tricep with other hand
@@ -194,7 +194,7 @@ The Balloon Sweep is a dynamic and versatile sweep that combines elements of but
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish upper body control**: Secure a strong grip on the back of opponent's collar or neck with your dominant hand while controlling their sleeve or tricep with your other hand. Break their posture forward so their weight is over their hands and their head is near your chest. This control prevents them from posting wide during the sweep. (Timing: Setup phase - establish before initiating sweep)
 2. **Open guard and create angle**: Open your closed guard by uncrossing your ankles. Simultaneously shift your hips at a 45-degree angle to the side opposite your collar grip. This angular position creates the rotational axis for the sweep and prevents opponent from simply posting their leg to defend. (Timing: Pre-sweep positioning - smooth transition)
 3. **Insert butterfly hook or posting foot**: Insert your inside foot (same side as your collar grip) as a butterfly hook under opponent's thigh, or alternatively place it as a posting foot on their hip. Your outside leg should remain active, with your knee drawn toward your chest and your foot ready to assist with lift or control. (Timing: Preparation phase - quick insertion)
@@ -207,7 +207,7 @@ The Balloon Sweep is a dynamic and versatile sweep that combines elements of but
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent posts their far leg wide to create a wide base** (Effectiveness: High) - Your Response: Switch to attacking the posted leg with a different sweep angle, or transition to alternative sweeps like Hip Bump or Scissor Sweep that exploit their wide base
 - **Opponent pulls their hips back and stands up to relieve pressure** (Effectiveness: Medium) - Your Response: Follow their backward movement by sitting up and transitioning to technical standup or single leg attack, or re-establish closed guard if they remain in range
 - **Opponent drives forward hard to flatten you out** (Effectiveness: Medium) - Your Response: Use their forward pressure to enhance the sweep by maintaining the lift and using their momentum against them, or transition to Pendulum Sweep if they over-commit
@@ -216,25 +216,25 @@ The Balloon Sweep is a dynamic and versatile sweep that combines elements of but
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweep without proper upper body control
+## Common Mistakes
+- **Mistake**: Attempting sweep without proper upper body control
   - **Consequence**: Opponent easily posts their arms or pulls their hips back, completely shutting down the sweep and potentially passing your guard
   - **Correction**: Always establish strong collar and sleeve control first, ensuring opponent's posture is broken and their weight is forward before initiating the lift
-- **Error**: Lifting too early before opponent's weight is loaded
+- **Mistake**: Lifting too early before opponent's weight is loaded
   - **Consequence**: Sweep has no power and opponent simply steps over or backs away, wasting energy and telegraphing your intention
   - **Correction**: Wait until you feel opponent's weight compressed onto your butterfly hook or posting foot. The loading phase is critical for generating power
-- **Error**: Using only leg power without coordinating upper body pull
+- **Mistake**: Using only leg power without coordinating upper body pull
   - **Consequence**: Opponent maintains upright posture and can easily post or counter, resulting in failed sweep or even guard pass
   - **Correction**: Synchronize the upward lift from your legs with a strong downward pull on the collar. Both directions of force must work together
-- **Error**: Failing to create proper angle before initiating sweep
+- **Mistake**: Failing to create proper angle before initiating sweep
   - **Consequence**: Opponent simply posts their far leg, creating a stable base that cannot be swept with forward momentum alone
   - **Correction**: Always angle your hips 45 degrees to create the rotational axis. The sweep should move them over a diagonal line, not straight back
-- **Error**: Releasing upper body control during the sweep transition
+- **Mistake**: Releasing upper body control during the sweep transition
   - **Consequence**: Opponent escapes to side or turtles instead of ending in mount, losing position advantage
   - **Correction**: Maintain collar and sleeve grips throughout entire sweep and into mount transition. Only release once mount is fully established
-- **Error**: Not following through with hip movement after initial lift
+- **Mistake**: Not following through with hip movement after initial lift
   - **Consequence**: Opponent lands in half guard or scramble position instead of being fully swept to mount
   - **Correction**: Continue rotating your hips and sitting up to follow the sweep motion through to completion. Think of it as a continuous circular motion
 
@@ -243,7 +243,7 @@ The Balloon Sweep is a dynamic and versatile sweep that combines elements of but
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Basic movement pattern and coordination
 Practice the lifting motion from closed guard with partner in defensive posture only. Focus on feeling the compression and explosive extension. Partner remains static to allow development of proper mechanics. Drill 20 repetitions per side.
 (Resistance: None)
@@ -270,7 +270,7 @@ Develop variations for different opponent body types and defensive strategies. P
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double Balloon Sweep**: Both feet inserted as butterfly hooks under both thighs for maximum lifting power. Creates symmetrical lift that is harder to defend with posting. (When to use: Against opponents with strong posting defense or when they maintain very tight inside control position)
 
 **Balloon to Back Take**: If opponent successfully posts to defend the sweep, immediately transition to taking their back by following their rotation and securing seat belt control. (When to use: When opponent posts their far leg but exposes their back in the process)
@@ -310,7 +310,7 @@ Develop variations for different opponent body types and defensive strategies. P
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the Balloon Sweep, ensure controlled execution to avoid slamming your partner, especially during the explosive lifting phase. Partners should practice proper breakfall techniques to safely absorb the sweep. During drilling, maintain awareness of other training partners to avoid collisions as the sweep involves rotational movement. Progress resistance levels gradually to prevent injuries from mistimed explosive movements. Ensure adequate mat space for the sweep's rotational arc. Partners with back, neck, or shoulder injuries should communicate limitations before drilling.
 
@@ -318,7 +318,7 @@ When practicing the Balloon Sweep, ensure controlled execution to avoid slamming
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Balloon Sweep is a fundamental component of closed guard offense that bridges traditional guard sweeps with modern butterfly guard mechanics. It fits into the guard attack system as a high-percentage option when opponents maintain strong posture and resist lateral sweeps. The technique chains naturally with Hip Bump Sweep, Scissor Sweep, and Pendulum Sweep to create a comprehensive guard sweeping system. From the BJJ positional hierarchy perspective, the Balloon Sweep represents an efficient path from the neutral Closed Guard position to the dominant Mount position, bypassing intermediary positions. It integrates particularly well with submission attacks from closed guard, as failed submission attempts often leave opponents in ideal positions for Balloon Sweep setups. The sweep also serves as an entry point to butterfly guard mechanics, teaching practitioners the fundamental lifting and off-balancing principles that apply to butterfly guard and X-guard positions.
 
@@ -326,7 +326,7 @@ The Balloon Sweep is a fundamental component of closed guard offense that bridge
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Hip Bump Sweep]] - Alternative - attacks similar forward posture with different angle
 - [[Scissor Sweep]] - Follow-up - chain when opponent defends with wide base
@@ -346,7 +346,7 @@ The Balloon Sweep is a fundamental component of closed guard offense that bridge
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Balloon Sweep represents an excellent example of biomechanical efficiency in Brazilian Jiu-Jitsu. The technique leverages the principle of creating vertical displacement before rotational movement, which is far more difficult for an opponent to defend than purely lateral sweeping motions. From a systematic perspective, the sweep requires three critical mechanical elements working in perfect synchronization: upper body control to prevent posting, hip positioning to create the proper rotational axis, and explosive leg extension to generate vertical lift. The genius of this technique lies in how it exploits the fundamental weakness in human base - we are far more stable against lateral forces than vertical displacement. When you compress the opponent's weight onto a small surface area (your butterfly hook or posting foot) and then explosively extend, you create a moment of weightlessness where their defensive posting becomes ineffective. This is pure physics applied to grappling. The key is understanding that the power comes not from muscular strength but from the stored elastic energy created during the compression phase, combined with the mechanical advantage of your skeletal structure working as a lever system.
 - **Gordon Ryan**: In competition, the Balloon Sweep is one of my go-to attacks from closed guard because it works at the highest levels against world-class opponents who know it's coming. The reason it remains effective is that it capitalizes on an unavoidable dilemma - to maintain strong top pressure and passing position, opponents must keep their weight forward, but this forward weight is exactly what makes them vulnerable to the sweep. I use it extensively because it leads directly to mount, which is worth 4 points in IBJJF competition, and it bypasses all the intermediary positions where technical opponents can create problems. The key to making it work at elite levels is perfect timing and disguising the setup within your other guard attacks. I often set it up by attacking triangles or kimuras first, which forces opponents to posture and defend, then immediately hit the Balloon Sweep when they relax their defensive posture. The sweep also works exceptionally well in no-gi with proper adaptations using overhooks instead of collar grips. Against heavy pressure passers who try to smash through your guard, the Balloon Sweep becomes even more effective because you're using their own pressure and forward momentum against them.
 - **Eddie Bravo**: The Balloon Sweep is beautiful because it embodies the chaos and unpredictability that makes jiu-jitsu an art form. In the 10th Planet system, we use this sweep as a transitional bridge between high guard attacks and our rubber guard system. What I love about it is how it creates scrambles that favor the bottom player - even if you don't complete the sweep perfectly, you're usually ending up in advantageous positions like quarter guard, dogfight, or even the truck position. We modify the traditional Balloon Sweep by incorporating lockdown mechanics when possible, which adds extra control and prevents the opponent from basing out. The technique also sets up perfectly for taking the back, which is our primary goal in the 10th Planet system. Instead of always going for mount, we teach students to read the opponent's defensive reaction - if they turn to avoid being swept, you've got a free back take opportunity. The no-gi adaptation is crucial for MMA application, where we replace gi grips with head control and overhooks. In the cage, the Balloon Sweep becomes even more powerful because opponents can't base on their hands as effectively on the canvas, and the sweep often leads directly to ground and pound positions.

@@ -103,7 +103,7 @@ The bot uses a three-tier priority system:
   - Example fix: Expand from 3 vague steps to 6+ detailed steps
 
 **🟡 MEDIUM PRIORITY (Enhance Second):**
-- **Common Errors Format**
+- **Common Mistakes Format**
   - Trigger: Fewer than 5 errors, missing ⚠️ DANGER labels
   - Impact: Learning quality and safety awareness
   - Example fix: Upgrade from 3 generic errors to 5-10 detailed with consequences/corrections
@@ -172,7 +172,7 @@ state_machine:  # ✅ Present
 **Content Quality:**
 - [ ] Visual descriptions are detailed (200+ characters, 4+ sentences)
 - [ ] Expert insights are specific, not generic
-- [ ] Common errors include consequences + corrections
+- [ ] Common mistakes include consequences + corrections
 - [ ] Success rates follow proper ordering
 - [ ] Decision trees have clear logic
 - [ ] Wikilinks point to existing files
@@ -268,7 +268,7 @@ Please fix these issues."
 - Visual descriptions: +63 files need improvement
 - Safety sections: +18 submissions need completion
 - Execution steps: +14 submissions need expansion
-- Common errors: +18 files need format upgrade
+- Common mistakes: +18 files need format upgrade
 
 **Cost (Claude Sonnet 4.5):**
 - Per file: ~50K tokens input + ~15K tokens output = 65K tokens
@@ -362,7 +362,7 @@ VALIDATION RESULTS
 
 ⚠️  WARNINGS (234):
   - Half Guard.md: Broken wikilink: [[Deep Half Guard]]
-  - Triangle.md: Missing section: ## Common Errors
+  - Triangle.md: Missing section: ## Common Mistakes
   - Mount.md: Unusual success rate progression: 70% → 60% → 80%
   - Closed Guard.md: Visual description too short (150 chars, need 200+)
   - Armbar.md: Expert insight too short for Danaher (1 sentence, need 2+)

@@ -8,7 +8,7 @@ description: "Master Progressive Resistance Training in BJJ. Learn systematic sk
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Progressive Resistance Training in BJJ. Learn systematic sk
 
 
 
-> **Quick Answer**: Progressive Resistance Training is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.
+> Progressive Resistance Training is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Expert.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ Progressive Resistance Training is not merely about making training harder over 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Begin technical training with minimal resistance to establish correct movement patterns and positional understanding
 - Incrementally increase resistance as competency develops, ensuring each progression challenges but doesn't overwhelm current skill level
 - Match resistance levels to specific learning objectives - some techniques require cooperative drilling while others benefit from early resistance
@@ -185,7 +185,7 @@ Progressive Resistance Training is not merely about making training harder over 
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Resistance Calibration**: The ability to accurately gauge appropriate resistance levels for specific techniques and training partners. This involves understanding when to increase challenge, when to maintain current levels for refinement, and when to reduce resistance for technical correction. Skilled practitioners develop intuition for the optimal resistance curve that maximizes learning without creating bad habits or injury risk.
 
 **Cooperative Drilling Protocols**: Structured methods for practicing techniques with compliant partners who provide appropriate feedback and resistance. This includes understanding proper partner behavior during technical repetition, how to provide tactile feedback, when to introduce defensive reactions, and how to maintain training flow while allowing skill development.
@@ -208,7 +208,7 @@ Progressive Resistance Training is not merely about making training harder over 
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Drilling Methodology]]** (Complementary): Drilling Methodology provides the technical framework for repetition and movement pattern establishment, while Progressive Resistance Training determines when and how to add challenge to those drilled movements.
 - **[[Positional Sparring]]** (Extension): Positional Sparring is a direct application of Progressive Resistance Training principles, using controlled starting positions and scenarios to bridge the gap between drilling and free rolling.
 - **[[Energy Management System]]** (Complementary): As resistance increases, energy management becomes more critical. Understanding how to conserve energy under pressure is developed through progressive resistance exposure.
@@ -227,7 +227,7 @@ Progressive Resistance Training is not merely about making training harder over 
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Begin mount control training with cooperative partners who allow positional establishment, then progressively introduce defensive frames, bridging attempts, and full escape efforts as control mechanics become refined.
 
 **Closed Guard**: Start closed guard training with partners who maintain posture but don't actively defend, allowing sweep and submission setups to be practiced. Gradually add posture breaking resistance, grip fighting, and active defensive responses.
@@ -264,7 +264,7 @@ Progressive Resistance Training is not merely about making training harder over 
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current technical competency level for the target technique or position**: If technique is new or movement patterns are inconsistent, begin with solo drilling or highly cooperative partner work with minimal resistance to establish correct mechanics.
 2. **Determine if fundamental movement patterns are established and can be executed smoothly without conscious thought**: If movements are becoming automatic, introduce light resistance where partner provides feedback but doesn't prevent technique completion, allowing refinement under mild pressure.
 3. **Evaluate if technique remains effective when partner provides moderate defensive resistance or counter-movements**: If technique quality degrades significantly under moderate resistance, reduce resistance temporarily to identify and correct technical flaws before progressing further.
@@ -277,28 +277,28 @@ Progressive Resistance Training is not merely about making training harder over 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Adding resistance too quickly before movement patterns are established
+## Common Mistakes
+- **Mistake**: Adding resistance too quickly before movement patterns are established
   - **Consequence**: Creates compensatory movement patterns where strength and speed mask technical deficiencies, building bad habits that become increasingly difficult to correct as they become ingrained.
   - **Correction**: Spend more time in cooperative drilling phases, ensuring movements can be performed smoothly and correctly before partner introduces any resistance. Use video review to confirm technical accuracy.
-- **Error**: Maintaining the same resistance level for too long after competency is achieved
+- **Mistake**: Maintaining the same resistance level for too long after competency is achieved
   - **Consequence**: Creates false sense of technical proficiency that doesn't translate to live rolling. Techniques that work in cooperative drilling fail under realistic resistance, causing frustration and confusion.
   - **Correction**: Establish clear progression benchmarks (time-based, repetition-based, or competency-based) that trigger resistance increases. Regularly test techniques in positional sparring to ensure they're developing functional application ability.
-- **Error**: Using excessive resistance during early learning phases of complex techniques
+- **Mistake**: Using excessive resistance during early learning phases of complex techniques
   - **Consequence**: Prevents proper technical understanding from developing, forces reliance on physical attributes, increases injury risk, and can create psychological aversion to attempting the technique in live situations.
   - **Correction**: Reserve high resistance training for fundamental positions and simple techniques. For complex movements, extend cooperative training periods and use incremental resistance increases measured in weeks or months, not days.
-- **Error**: Failing to reduce resistance when technical breakdown occurs under pressure
+- **Mistake**: Failing to reduce resistance when technical breakdown occurs under pressure
   - **Consequence**: Reinforces incorrect movement patterns as the practitioner repeatedly fails to execute properly, creating neurological pathways for the incorrect technique that interfere with later correction attempts.
   - **Correction**: When technique consistently fails under a given resistance level, immediately reduce resistance to the highest level where technique succeeds, identify specific points of breakdown, and correct them before progressing again.
-- **Error**: Applying the same resistance progression curve to all techniques and positions
+- **Mistake**: Applying the same resistance progression curve to all techniques and positions
   - **Consequence**: Some techniques require longer cooperative phases while others benefit from early resistance. Mismatched progression curves lead to suboptimal learning outcomes and extended development timelines.
   - **Correction**: Categorize techniques by complexity and learning requirements. Simple defensive positions may benefit from early high resistance to build toughness, while complex offensive sequences require extended cooperative training before resistance introduction.
-- **Error**: Neglecting to incorporate recovery periods with reduced resistance after intensive training blocks
+- **Mistake**: Neglecting to incorporate recovery periods with reduced resistance after intensive training blocks
   - **Consequence**: Physical and mental fatigue accumulates, leading to overtraining symptoms, increased injury risk, technical regression, and plateaued or reversed progress despite continued effort.
   - **Correction**: Implement deliberate deload weeks every 4-6 weeks where resistance levels are reduced, volume is decreased, and emphasis shifts to technical refinement and movement quality rather than intensity.
-- **Error**: Focusing exclusively on free rolling as the primary training modality
+- **Mistake**: Focusing exclusively on free rolling as the primary training modality
   - **Consequence**: Limits technical development to existing skill set, prevents introduction of new techniques that can't survive immediate full resistance, creates training injuries, and leads to plateau in advancement.
   - **Correction**: Allocate training time across the full resistance spectrum: 40% cooperative drilling and technical work, 30% positional sparring, 30% free rolling. Adjust percentages based on training phase and individual needs.
 
@@ -307,7 +307,7 @@ Progressive Resistance Training is not merely about making training harder over 
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Staged Positional Development** (Focus: Ensures complete technical development before facing full resistance by building competency layer by layer with clear progression criteria between stages.)
 Systematic progression through defined resistance stages for specific positions: Stage 1 (solo movement), Stage 2 (cooperative drilling), Stage 3 (light resistance), Stage 4 (moderate resistance), Stage 5 (positional sparring), Stage 6 (free rolling integration).
 
@@ -332,7 +332,7 @@ When technique fails under a given resistance level, immediately reducing resist
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Requires extensive cooperative drilling to learn basic positions and movements, needs partner to remain relatively passive during technique practice
 - Shows significant technical breakdown when any resistance is introduced, often abandoning proper mechanics in favor of strength or explosive movements
@@ -367,7 +367,7 @@ When technique fails under a given resistance level, immediately reducing resist
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Drilling Methodology]] (Principle) - Provides technical repetition framework that progressive resistance training builds upon with increasing challenge levels
 - [[Positional Sparring]] (Principle) - Direct application of progressive resistance principles using controlled starting positions and scenarios
@@ -387,7 +387,7 @@ When technique fails under a given resistance level, immediately reducing resist
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Progressive resistance is not simply a training method—it is the fundamental principle underlying all motor learning in complex domains. The nervous system requires graduated exposure to increasing levels of challenge to develop robust motor patterns that function under stress. When we introduce full resistance prematurely, we force the student's nervous system to solve problems with whatever tools are immediately available, which invariably means relying on strength, speed, and aggression rather than technique. This creates what I call 'athletic compensation patterns'—movements that work temporarily due to physical advantages but fail when those advantages diminish or when facing equally athletic opponents. The solution is systematic progression where each resistance level is maintained until the movement patterns become automatic at that level, typically requiring hundreds of repetitions under consistent conditions. Only then can we introduce the next resistance increment without risking compensatory pattern development. This is why my teaching methodology emphasizes extensive cooperative drilling—we are programming the nervous system with correct patterns that will later be stress-tested, not hoping that correct patterns emerge spontaneously under stress.
 - **Gordon Ryan**: Most people completely misunderstand progressive resistance—they think it means going light until you feel ready, then jumping into hard rolling. That's not how champions are built. For me, progressive resistance means intelligently targeting which aspects of your game get resistance and when. My guard retention needed to be tested with maximum resistance from day one because you can't fake good defense—either you can handle pressure or you can't. But my leg attacks required months of cooperative training because the mechanics are so precise that any resistance would force bad habits. Here's the key: categorize your techniques into 'must work under fire' basics and 'needs refinement first' advanced moves. Your bread-and-butter positions should be tested constantly with hard resistance, forcing you to develop toughness and real-world functionality. Your new techniques or complex sequences need a protected environment where you can perfect them without the pressure to make them work immediately. When I'm learning something new, I'll drill it cooperatively for weeks, then slowly introduce it in positional sparring where I control the variables, and only then test it in live situations. But my passing, my top pressure, my back control—those get tested hard every session because they have to work under any conditions. That's how you build a competition-ready game.
 - **Eddie Bravo**: The traditional BJJ approach to progressive resistance is broken, man. They have you drilling techniques a thousand times with zero resistance, then they throw you into the shark tank and wonder why nothing works. That's a massive gap that creates students who can demonstrate beautiful technique on compliant partners but freeze when things get real. At 10th Planet, we use what I call 'intelligent chaos'—we introduce resistance way earlier than traditional schools, but it's controlled, variable resistance that keeps you problem-solving. Instead of perfect repetitions with zero resistance, we do imperfect repetitions with unpredictable resistance. Your partner might defend 30% this rep, 60% the next rep, then go dead again, so your nervous system never settles into mindless repetition. This forces you to stay engaged, adapt in real-time, and develop the ability to feel what's happening rather than just executing a memorized sequence. For us, the progression isn't about gradually increasing resistance linearly—it's about introducing variability and unpredictability progressively. Week one might be low resistance but with random defensive reactions. Week two adds strength to those reactions. Week three adds speed. Week four combines everything plus positional escapes. This creates practitioners who are comfortable with chaos from the beginning, who can adapt and flow with whatever resistance comes their way. The rubber guard system, the lockdown series—these couldn't exist if we trained the traditional way. We needed controlled chaos training to develop unconventional positions that work under real pressure.

@@ -8,7 +8,7 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 50%.
 
 ---
 
@@ -187,7 +187,7 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains standing or combat base posture with weight distributed to prevent being swept while working to clear or neutralize the bottom player's shin connection through systematic leg movements and pressure application
 - Bottom player's shin maintains contact across top player's same-side shin, creating perpendicular connection that must be addressed before safe forward pressure can be applied, requiring top player to choose between clearing, circling, or accepting transitional positions
@@ -200,7 +200,7 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of fundamental open guard passing concepts and principles of pressure distribution
 - Recognition of shin-to-shin guard structure and its primary attack vectors (single leg X, X-guard, sweeps)
@@ -229,7 +229,7 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Knee Slice Pass]] → [[Headquarters Position]]
 
@@ -293,7 +293,7 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Opponent Success: 45%)
 - **[[X-Guard Sweep]]** → [[X-Guard]] (Opponent Success: 40%)
@@ -306,7 +306,7 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Knee Slice Pass]]** → [[Headquarters Position]]
   - Successfully clear shin connection and establish upper body control, opponent's guard is opened
@@ -355,7 +355,7 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

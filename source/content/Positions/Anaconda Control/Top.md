@@ -8,7 +8,7 @@ description: "Master offensive control from Anaconda Control Top position. Learn
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master offensive control from Anaconda Control Top position. Learn
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master offensive control from Anaconda Control Top position. Learn
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 80% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 80%.
 
 ---
 
@@ -191,7 +191,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's arm threaded under opponent's near arm and around the neck, with hands clasped together on the far side creating the characteristic anaconda configuration
 - Top player's chest pressure directed downward onto opponent's trapped shoulder and upper back, preventing upward movement and escape
@@ -204,7 +204,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful front headlock control or turtle attack positioning established
 - Opponent's near arm exposed and accessible for arm-in grip configuration
@@ -233,7 +233,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Anaconda Choke]] → [[Lost by Submission]]
 
@@ -283,7 +283,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 30%)
 - **[[Guard Recovery]]** → [[Half Guard]] (Opponent Success: 25%)
@@ -295,7 +295,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Anaconda from Turtle]]** → [[Side Control]]
   - Opponent attempts to roll away from pressure
@@ -335,7 +335,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

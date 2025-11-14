@@ -13,10 +13,6 @@ description: "Master Stoner Control in BJJ. Advanced 10th Planet position with r
 
 
 
-> **Quick Overview**: Stoner Control is an advanced control position from the 10th Planet Jiu-Jitsu system that exists in two distinct variations: a rubber guard variant emphasizing posture breaking and submission setups, ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ The lockdown half guard variation combines the mechanical control of the 10th Pl
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Defensive |
-| Risk Level | Low to Medium | Medium to High |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Defensive |
+| **Risk Level** | Low to Medium | Medium to High |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Short to Medium |
 
-**What Makes This Position Unique:** Deep overhook with leg control to freeze mobility
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Stoner Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Stoner Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Deep overhook with leg control to freeze mobility
 
 
 
@@ -88,10 +72,13 @@ The lockdown half guard variation combines the mechanical control of the 10th Pl
 
 <section id="bottom-summary" class="content-section">
 
-## Stoner Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Stoner Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in stoner control controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -144,7 +131,7 @@ The bottom player in stoner control controls the position with offensive attacks
   - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing leg control to release or drop below effective control position**
@@ -168,16 +155,17 @@ The bottom player in stoner control controls the position with offensive attacks
   - ✅ Correction: Develop flexibility gradually through consistent stretching, master prerequisite positions like Mission Control before attempting advanced variations
 
 
-👉 **[[Stoner Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Stoner Control Top Perspective
+
+## Playing as Top
+
+[[Stoner Control/Top|→ Full Top Guide]]
 
 
-The top player in stoner control manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -220,7 +208,7 @@ The top player in stoner control manages the position strategically based on opp
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Posting aggressively with free hand near bottom player's hips attempting to create base**
@@ -243,8 +231,6 @@ The top player in stoner control manages the position strategically based on opp
   - Consequence: Bottom player has time to perfect control and set up submissions methodically, increasing finish probability over time
   - ✅ Correction: Work actively on systematic escapes using proper timing and technique, creating movement that prevents bottom player from settling control
 
-
-👉 **[[Stoner Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

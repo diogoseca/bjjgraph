@@ -151,7 +151,7 @@ description: "Master BJJ teaching with systematic instruction framework. Progres
 
 
 
-> **Quick Answer**: Teaching Methodology Framework is a advanced difficulty Training Methodology system. This systematic approach integrates 4 key components into a cohesive fighting framework.
+> Teaching Methodology Framework is a advanced difficulty Training Methodology system. Integrates 4 components.
 
 **System ID**: 
 **System Type**: Training Methodology
@@ -170,7 +170,7 @@ The Teaching Methodology Framework represents a comprehensive systematic approac
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Position before submission - establish and maintain dominant positions before attempting finishes
 - Progressive resistance - gradually increase opponent resistance as student competence develops
 - Conceptual understanding before technical execution - explain the 'why' before the 'how'
@@ -185,7 +185,7 @@ The Teaching Methodology Framework represents a comprehensive systematic approac
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Positional Hierarchy Curriculum** (Provides systematic roadmap for skill development that mirrors actual fighting priorities)
 A structured curriculum organized around the positional hierarchy, progressing from most fundamental defensive positions (bottom mount, bottom side control) through neutral positions (standing, closed guard) to offensive dominant positions (top mount, back control). Each position is taught with clear entry mechanics, control maintenance principles, primary escape or submission paths, and common errors. Students master defensive survival before offensive techniques, ensuring they can protect themselves before learning to attack. This hierarchical approach creates logical progression and prevents students from developing incomplete games with positional gaps.
 
@@ -204,7 +204,7 @@ Structured positional sparring exercises where students begin from specific posi
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Assessment and Goal Setting**: Begin by assessing student's current skill level, learning style, physical capabilities, and training goals. Conduct structured evaluation including positional sparring from key positions, technical demonstrations of fundamental movements, and discussion of prior training experience. Identify specific gaps in positional hierarchy understanding and technical execution.
 Key points:
 - Evaluate comfort level and technical proficiency in all major positions
@@ -399,7 +399,7 @@ The drilling methodology follows a strict progressive resistance protocol that p
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The fundamental error in most Brazilian Jiu-Jitsu instruction is the presentation of techniques as isolated movements rather than as elements within interconnected systems built upon universal mechanical principles. Effective pedagogy requires systematic progression that mirrors the actual priorities of combat - first, we teach survival skills from the worst positions because these represent the most immediate threats to safety and success. Only after establishing defensive competence do we progress to neutral positions and eventually offensive techniques. This hierarchical approach ensures students can always protect themselves while progressively developing offensive capabilities. Furthermore, the introduction of resistance must be carefully controlled and progressive - premature exposure to full resistance forces students to rely on athleticism and aggression rather than developing technical precision. The drilling protocol must move systematically from static positioning through cooperative movement to gradually increasing resistance levels, with clear criteria for advancement at each stage. The goal is not simply to teach techniques, but to develop problem-solving ability through deep conceptual understanding of mechanical principles that transcend specific positions.
 - **Gordon Ryan**: From a competition standpoint, the teaching methodology needs to produce students who can actually execute techniques under maximum resistance from skilled opponents who know what's coming. I see too many schools teaching fancy techniques without building the foundational pressure, control, and positional hierarchy understanding that makes techniques work against real resistance. The methodology I advocate emphasizes proven high-percentage techniques drilled extensively with progressive resistance until they become automatic responses. Students need to develop the ability to maintain dominant positions against explosive escape attempts before worrying about complex submission chains. The positional sparring component is absolutely critical - starting every round from neutral standing position wastes enormous amounts of training time on low-percentage scrambles. Instead, repeatedly practice the positions that actually matter in competition: passing guard, maintaining mount, escaping bad positions, finishing from back control. The drilling should simulate competition conditions with time limits, scoring, and realistic resistance levels. Students who train this way develop games that actually function under pressure rather than techniques that only work on cooperative partners.
 - **Eddie Bravo**: The traditional approach to teaching BJJ is too rigid and doesn't account for the reality that different students learn in completely different ways and have vastly different physical attributes. The methodology needs to provide fundamental frameworks while allowing individual expression and innovation. I emphasize creating problem-solvers who can adapt techniques to their specific body types and develop their own unique approaches. The progressive resistance protocol is crucial, but we need to also encourage controlled experimentation where students try new things and occasionally fail in safe training environments. The positional hierarchy concept is valuable for beginners, but as students progress, we should introduce them to positions outside the traditional framework - rubber guard, lockdown, truck position - that provide different strategic options. The key is systematic instruction in fundamentals combined with permission to explore creative variations. Students shouldn't just memorize the instructor's game; they should develop their own personal style built on solid foundational principles. The methodology should produce independent thinkers who can solve novel problems, not just technicians who replicate demonstrated sequences.

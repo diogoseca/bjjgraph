@@ -8,7 +8,7 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 90% of the time and finish submissions in 72% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 90% of the time and finish submissions in 72%.
 
 ---
 
@@ -193,7 +193,7 @@ Strategically, the position is valued for its control density—the top player c
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Practitioner maintains Kimura grip on opponent's arm with figure-four configuration, ensuring deep grip placement near opponent's elbow while using body weight and positioning to prevent opponent from rolling out or extracting the trapped arm through proper angle and pressure application
 - Practitioner positioned on top with chest or shoulder pressure controlling opponent's upper body, using weight distribution across opponent's torso and strategic base positioning that prevents bottom player from creating space or establishing effective frames while maintaining mobility for positional transitions
@@ -205,7 +205,7 @@ Strategically, the position is valued for its control density—the top player c
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Practitioner has achieved top position in side control, north-south, half guard, or opponent is in turtle position exposing arm
 - Opponent's arm is accessible and extended sufficiently to thread practitioner's arm underneath and establish Kimura grip configuration
@@ -232,7 +232,7 @@ Strategically, the position is valued for its control density—the top player c
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Kimura from Side Control]] → [[Won by Submission]]
 
@@ -289,7 +289,7 @@ Strategically, the position is valued for its control density—the top player c
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Kimura Defense]]** → [[Side Control]] (Opponent Success: 35%)
 - **[[Rolling Kimura Escape]]** → [[Guard Opening Sequence]] (Opponent Success: 25%)
@@ -302,7 +302,7 @@ Strategically, the position is valued for its control density—the top player c
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Kimura from North-South]]** → [[Won by Submission]]
   - Opponent attempts to turn into grip or bridge, exposing finishing angle
@@ -342,7 +342,7 @@ Strategically, the position is valued for its control density—the top player c
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

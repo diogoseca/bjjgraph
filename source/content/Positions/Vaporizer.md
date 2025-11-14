@@ -13,10 +13,6 @@ description: "Master Vaporizer position in BJJ. 10th Planet innovation for lockd
 
 
 
-> **Quick Overview**: The Vaporizer is an advanced controlling position within the 10th Planet system, representing a strategic extension of the lockdown half guard. This position is characterized by establishing a deep lo...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -54,31 +50,19 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive/Controlling | Defensive with offensive options |
-| Risk Level | Medium | High |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive/Controlling | Defensive with offensive options |
+| **Risk Level** | Medium | High |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Short to Medium |
 
-**What Makes This Position Unique:** Lockdown whip-up trades stability for leverage
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Vaporizer/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Vaporizer/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Lockdown whip-up trades stability for leverage
 
 
 
@@ -86,10 +70,13 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 <section id="bottom-summary" class="content-section">
 
-## Vaporizer Bottom Perspective
+
+## Playing as Bottom
+
+[[Vaporizer/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in vaporizer navigates both offensive and defensive opportunities based on opponent's actions.
+Read and react based on their actions.
 
 
 ### Key Principles
@@ -132,7 +119,7 @@ The bottom player in vaporizer navigates both offensive and defensive opportunit
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Failing to maintain constant lockdown pressure and allowing opponent's leg to relax**
@@ -160,16 +147,17 @@ The bottom player in vaporizer navigates both offensive and defensive opportunit
   - ✅ Correction: Use feints and multi-attack sequences, transitioning between threats based on how opponent defends each attempt
 
 
-👉 **[[Vaporizer/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Vaporizer Top Perspective
+
+## Playing as Top
+
+[[Vaporizer/Top|→ Full Top Guide]]
 
 
-The top player in vaporizer manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -212,7 +200,7 @@ The top player in vaporizer manages the position strategically based on opponent
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to pull trapped leg free with explosive force instead of systematic clearing technique**
@@ -243,8 +231,6 @@ The top player in vaporizer manages the position strategically based on opponent
   - Consequence: Creates perfect leverage point for Old School sweep completion or allows easy transition to Truck position
   - ✅ Correction: Post hands wide and maintain them positioned to support lateral stability without giving opponent leverage points for sweeps
 
-
-👉 **[[Vaporizer/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master defensive technique in BJJ with systematic protection metho
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master defensive technique in BJJ with systematic protection metho
 
 
 
-> **Quick Answer**: Defense Technique is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Defense Technique is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Defense Technique represents the systematic application of mechanical principles
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Establish and maintain defensive structure through frames and proper body alignment
 - Create and preserve space between your vital targets and opponent's attacking structures
 - Time defensive responses to exploit windows when opponent's pressure or control is reduced
@@ -181,7 +181,7 @@ Defense Technique represents the systematic application of mechanical principles
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Frame Construction and Maintenance**: The ability to create and maintain effective frames using forearms, shins, and knees to prevent opponent's weight and pressure from reaching your body. This includes understanding proper frame angles, when to extend versus retract frames, and how to maintain frame integrity under dynamic pressure while conserving energy.
 
 **Hip Escape Mechanics**: The technical execution of hip movement patterns that create distance from opponent attacks and enable position recovery. This encompasses shrimping, bridging, hip switching, and the ability to chain these movements together to systematically improve position while maintaining defensive structure.
@@ -204,7 +204,7 @@ Defense Technique represents the systematic application of mechanical principles
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Escape Fundamentals]]** (Prerequisite): Escape Fundamentals provide the basic movement patterns and mechanical principles that defense technique builds upon, including shrimping, bridging, and basic framing concepts that must be understood before sophisticated defensive systems can be implemented.
 - **[[Defensive Strategy]]** (Complementary): Defensive Strategy provides the overarching tactical framework and decision-making hierarchy that guides when and how specific defense techniques should be applied, working together to create comprehensive defensive capability.
 - **[[Frame Management]]** (Complementary): Frame Management is a critical component skill within defense technique that focuses specifically on creating and maintaining structural barriers between practitioner and opponent, enabling space creation and position recovery.
@@ -223,7 +223,7 @@ Defense Technique represents the systematic application of mechanical principles
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Defense technique manifests through systematic hip escape sequences combined with elbow-knee frames to prevent chest-to-chest contact, creating space for guard recovery while simultaneously defending against armbar and choke attempts through proper arm positioning and bridging mechanics.
 
 **Side Control**: Defensive principles are applied through near-side frame construction to prevent opponent's chest pressure from settling, combined with hip escape movements to create space and recover guard, while maintaining awareness of submission threats from this dominant position.
@@ -260,7 +260,7 @@ Defense Technique represents the systematic application of mechanical principles
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess immediate threat hierarchy (submission vs pin vs transition)**: Identify whether current most urgent threat is submission attempt, positional pin that needs addressing, or opponent transition to worse position. Prioritize submission defense if submission is being actively attacked, otherwise address positional concerns.
 2. **Establish or maintain defensive structure**: Create or restore appropriate frames for current position (forearm frames in mount/side control, hand fighting for back defense, etc.). Ensure frames are properly angled and positioned to prevent opponent pressure from reaching body while maintaining breathing space.
 3. **Determine if space creation is required**: Evaluate whether current space is sufficient for defensive movement or if additional space must be created through hip escapes, bridges, or other movements. If opponent has achieved tight control, space creation becomes immediate priority before attempting escapes.
@@ -273,28 +273,28 @@ Defense Technique represents the systematic application of mechanical principles
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting to defend through muscular strength and resistance rather than technical positioning
+## Common Mistakes
+- **Mistake**: Attempting to defend through muscular strength and resistance rather than technical positioning
   - **Consequence**: Rapid energy depletion leads to exhaustion, making escape attempts progressively weaker and less effective, ultimately resulting in submission or complete positional dominance by opponent who conserves energy
   - **Correction**: Focus on mechanical efficiency through proper frame angles, hip positioning, and timing rather than pushing against opponent's pressure. Use opponent's movements and weight shifts as opportunities for technical escapes rather than trying to create opportunities through strength.
-- **Error**: Panicking and abandoning technical defense when pressure increases
+- **Mistake**: Panicking and abandoning technical defense when pressure increases
   - **Consequence**: Explosive, uncontrolled movements expose limbs to submissions, burn energy rapidly, and often worsen position by creating opportunities for opponent to advance position or secure submissions
   - **Correction**: Maintain breathing control and mental composure even under extreme pressure. Trust in defensive systems and continue executing technical solutions methodically. Remember that most positions can be escaped with proper technique even against significant pressure.
-- **Error**: Focusing entirely on position improvement while ignoring submission threats
+- **Mistake**: Focusing entirely on position improvement while ignoring submission threats
   - **Consequence**: Getting submitted while attempting positional escapes because submission defense was not prioritized appropriately, particularly common when attempting hip escapes from mount while opponent establishes armbar or choke grips
   - **Correction**: Always address immediate submission threats before attempting positional improvements. Understand the hierarchy of threats for each position and ensure submissions are defended first, then work on pin escapes and guard recovery in proper sequence.
-- **Error**: Giving up underhooks, inside position, or other critical controls prematurely
+- **Mistake**: Giving up underhooks, inside position, or other critical controls prematurely
   - **Consequence**: Allowing opponent to establish dominant grips and positions that make subsequent defensive attempts significantly more difficult or impossible, particularly evident in back defense where giving up inside position enables collar grips
   - **Correction**: Fight to maintain critical defensive controls even when in inferior positions. Understand which grips and positions are essential for maintaining defensive capability and prioritize protecting these even while executing other defensive movements.
-- **Error**: Attempting complex or low-percentage escapes instead of fundamental high-percentage techniques
+- **Mistake**: Attempting complex or low-percentage escapes instead of fundamental high-percentage techniques
   - **Consequence**: Wasting energy and time on escapes that rarely work, especially under pressure, while simple fundamental escapes remain available but unexploited. Often leads to worsening position when complex attempts fail
   - **Correction**: Prioritize fundamental, high-percentage defensive techniques that work reliably even against skilled opponents. Reserve complex or creative defenses for specific situations where fundamental approaches have been thoroughly shut down.
-- **Error**: Failing to chain defensive techniques when initial escape attempts are blocked
+- **Mistake**: Failing to chain defensive techniques when initial escape attempts are blocked
   - **Consequence**: Stopping defensive progress when one escape is countered, allowing opponent to consolidate improved position rather than immediately transitioning to alternative defensive sequences
   - **Correction**: Develop systematic defensive chains where blocked escapes immediately trigger alternative defensive techniques. Maintain continuous defensive pressure through chained movements rather than discrete, isolated escape attempts that allow opponent recovery time.
-- **Error**: Turning away from opponent or exposing back during escape attempts
+- **Mistake**: Turning away from opponent or exposing back during escape attempts
   - **Consequence**: Converting bad positions into worse positions by giving up back exposure, particularly when attempting to escape mount or side control by turning away from opponent's pressure
   - **Correction**: Maintain orientation toward opponent during defensive sequences. Understand which escape directions preserve defensive structure and which create worse positions. Generally face opponent even when uncomfortable rather than exposing back.
 
@@ -303,7 +303,7 @@ Defense Technique represents the systematic application of mechanical principles
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Sparring from Inferior Positions** (Focus: Develops comfort and technical proficiency in worst-case scenarios, builds mental resilience under pressure, and allows high-volume repetition of defensive sequences without requiring full sparring rounds.)
 Systematic practice where one partner begins in dominant position (mount, side control, back control) while other partner works exclusively on defensive technique and escape, resetting to starting position after successful escape or submission. Partner in top position works to maintain and advance while bottom partner focuses purely on defense and recovery.
 
@@ -328,7 +328,7 @@ Specific drilling where partner in top position works to collapse defender's fra
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Demonstrates basic shrimping and bridging movements in isolation but struggles to apply them effectively under pressure or in live situations
 - Recognizes major submission threats but often reacts after submissions are already deeply set rather than defending early through positioning
@@ -370,7 +370,7 @@ Specific drilling where partner in top position works to collapse defender's fra
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Defensive Strategy]] (Principle) - Provides the strategic framework and decision-making hierarchy that guides application of defense technique across different scenarios and positions
 - [[Escape Fundamentals]] (Principle) - Foundational movement patterns and mechanical principles that defense technique builds upon
@@ -390,7 +390,7 @@ Specific drilling where partner in top position works to collapse defender's fra
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Defense technique must be understood as a systematic hierarchy where practitioners address threats in proper sequence rather than attempting to solve all problems simultaneously. The most immediate threat receives attention first - if a submission is being actively attacked, that submission must be defended before any positional improvement is attempted. If position is poor but no immediate submission threat exists, positional escape becomes the priority. This hierarchical thinking prevents the common error of getting submitted while attempting escapes. I emphasize that effective defense requires understanding both the mechanical principles of escape movements - the biomechanics of hip escapes, bridges, and frames - and the strategic timing that makes these movements effective. Defense is not desperate survival but controlled technical application executed with proper sequencing. The defensive mindset must combine realistic assessment of current danger with unwavering belief in defensive systems - acknowledge the severity of position while maintaining complete confidence that technical solutions exist and will work if executed properly.
 - **Gordon Ryan**: In elite competition, defensive ability often determines match outcomes more than offensive capability because everyone at the highest level has strong attacks. Your defense needs to be absolutely world-class to survive against the best. I've survived extremely dangerous positions against world champions because I remained completely calm and technical even under maximum pressure. The key insight is what I call 'offensive defense' - your defensive technique should create immediate opportunities for counter-attacks rather than purely protective responses. When I'm escaping mount, I'm already thinking about the sweep or guard recovery that leads to my attack. I never just survive - I survive with purpose toward returning to offensive capability. Against world-class opponents, you cannot afford complex defenses that require perfect execution. Your defensive systems must be high-percentage techniques that work consistently even when you're exhausted, under extreme pressure, and facing sophisticated attacks. I focus on defenses that have proven themselves in the highest level competition rather than techniques that only work in training.
 - **Eddie Bravo**: Defense technique in the 10th Planet system emphasizes maintaining offensive threat even from inferior positions, which fundamentally changes the defensive dynamic. Traditional defense often becomes purely protective, but we've developed systems like the lockdown from half guard bottom that simultaneously defend against passing while creating submission and sweep opportunities. This forces opponents to respect our offensive capability even when they have positional advantage, which limits their attacking options and makes defense more effective. When teaching defense from positions like turtle, I emphasize creative defensive options that opponents may not anticipate - the standard defensive responses are so well-known that high-level opponents have developed specific counters. By introducing innovative defensive techniques that don't appear in traditional curriculum, we create defensive solutions that work through unpredictability as much as mechanical soundness. The rubber guard system exemplifies this - it's a defensive framework from bottom that creates such strong offensive threats that opponents often abandon their passing or attacking attempts to deal with submission dangers.

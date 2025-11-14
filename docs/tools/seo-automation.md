@@ -714,7 +714,7 @@ Check script output for:
 }
 ```
 
-**When to use**: Pages with Knowledge Assessment or Common Errors sections
+**When to use**: Pages with Knowledge Assessment or Common Mistakes sections
 
 **Requirements**:
 - Minimum 3 Q&A pairs

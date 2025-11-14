@@ -8,7 +8,7 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 50%.
 
 ---
 
@@ -191,7 +191,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner sits on opponent's torso/chest with hips positioned on sternum or upper abdomen, weight distributed through buttocks and lower back onto opponent's ribcage, facing away from opponent's head toward their feet
 - Both knees on the mat on either side of opponent's torso, with feet positioned near or past opponent's shoulders, creating wide base for balance despite backward orientation
@@ -203,7 +203,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent must be on their back with shoulders to the mat
 - Top practitioner must have achieved mount orientation (sitting on torso) facing away from head
@@ -231,7 +231,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Transition to Mount]] → [[Mount]]
 
@@ -281,7 +281,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Bridge and Roll]]** → [[Open Guard]] (Opponent Success: 45%)
 - **[[Upa Escape]]** → [[Half Guard]] (Opponent Success: 40%)
@@ -294,7 +294,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Side Control to Mount]]** → [[Mount]]
   - Opponent attempts to bridge or buck upward
@@ -336,7 +336,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master De La Riva Sweep Variations in BJJ. Complete guide covering
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master De La Riva Sweep Variations in BJJ. Complete guide covering
 
 
 
-> **Quick Answer**: De La Riva Sweep Variations transitions from [[De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
+> De La Riva Sweep Variations transitions from [[De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The De La Riva Sweep Variations represent a comprehensive system of sweeps from 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain active DLR hook pressure constantly to disrupt opponent's base and prevent them from settling into stable posture
 - Control distance with your outside leg on hip or bicep - this prevents opponent from closing distance and smashing through
 - Use grip fighting to control opponent's sleeve and pant leg, breaking their posting ability and creating sweep opportunities
@@ -186,7 +186,7 @@ The De La Riva Sweep Variations represent a comprehensive system of sweeps from 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - De La Riva guard established with inside leg hooking around opponent's near leg, foot positioned behind their knee
 - Outside leg actively framing on opponent's hip, bicep, or knee to control distance and prevent forward pressure
 - Strong grip control on opponent's sleeve (same-side as your DLR hook) to prevent posting and control their upper body
@@ -199,7 +199,7 @@ The De La Riva Sweep Variations represent a comprehensive system of sweeps from 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish DLR control**: Secure the De La Riva guard position by threading your inside leg deep around opponent's near leg, hooking your foot behind their knee. Your outside leg should be active on their hip or bicep. Establish strong grips on their same-side sleeve and opposite pant leg at the ankle. Your hips should be slightly angled, not flat on your back. (Timing: Initial guard establishment phase)
 2. **Break opponent's posture and base**: Pull sharply on the sleeve grip while simultaneously pushing with your outside leg on their hip. This creates a diagonal force that breaks their upright posture. Simultaneously, use your DLR hook to lift and extend their trapped leg, removing their base on that side. Their weight should shift forward and to the side. (Timing: As opponent attempts to stabilize)
 3. **Create sweeping angle**: Rotate your hips and shoulders in the direction of the sweep (typically toward your DLR hook side). This rotation amplifies the off-balancing force and positions your body to follow through. Your outside leg transitions from hip to potentially bicep control, preventing them from posting their arm to that side. (Timing: Immediately after posture break)
@@ -213,7 +213,7 @@ The De La Riva Sweep Variations represent a comprehensive system of sweeps from 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent establishes heavy crossface and drives forward pressure, flattening your guard** (Effectiveness: High) - Your Response: Switch to Reverse De La Riva Guard or transition to Deep Half Guard before they can fully smash through. Use your outside leg to create frames and prevent complete flattening.
 - **Opponent strips your pant grip and controls your outside leg, neutralizing your distance control** (Effectiveness: High) - Your Response: Immediately switch to collar grip or underhook to maintain upper body control. Transition to Berimbolo Entry or kiss of the dragon if they compromise your leg control.
 - **Opponent backs their hips away and stands tall, removing pressure from your DLR hook** (Effectiveness: Medium) - Your Response: Follow their movement by sitting up and transitioning to Single Leg X-Guard or standing up to prevent them from disengaging completely. Use your grips to prevent clean separation.
@@ -223,28 +223,28 @@ The De La Riva Sweep Variations represent a comprehensive system of sweeps from 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Allowing DLR hook to become passive or loose, losing control of opponent's trapped leg
+## Common Mistakes
+- **Mistake**: Allowing DLR hook to become passive or loose, losing control of opponent's trapped leg
   - **Consequence**: Opponent easily removes their leg from your hook and passes to dominant position, negating your entire guard structure
   - **Correction**: Maintain constant tension in your DLR hook, actively pulling their leg across your body and keeping your foot flexed behind their knee. Your hook should feel alive and engaged, not just resting in position.
-- **Error**: Neglecting outside leg pressure on hip or bicep, allowing opponent to close distance
+- **Mistake**: Neglecting outside leg pressure on hip or bicep, allowing opponent to close distance
   - **Consequence**: Opponent smashes through your guard with forward pressure, making sweeps impossible and leading to guard pass
   - **Correction**: Keep outside leg active and pushing throughout, adjusting from hip to bicep to knee based on their posture. This leg is your primary distance manager.
-- **Error**: Gripping too high on the pant leg (at knee instead of ankle), reducing leverage on the sweep
+- **Mistake**: Gripping too high on the pant leg (at knee instead of ankle), reducing leverage on the sweep
   - **Consequence**: Insufficient control of opponent's leg makes sweep attempts weak and easily defended, wasting energy on low-percentage attacks
   - **Correction**: Grip lower on the pant at the ankle or Achilles area for maximum leverage. This lower grip gives you mechanical advantage to manipulate their leg.
-- **Error**: Sweeping with upper body strength alone, without using hip rotation and leg extension
+- **Mistake**: Sweeping with upper body strength alone, without using hip rotation and leg extension
   - **Consequence**: Sweep lacks power and timing, fails against any resistance, and exhausts your arms quickly against competent opponents
   - **Correction**: Initiate sweep with hip rotation and DLR hook extension, using grips to guide rather than force. Your legs and hips generate the sweeping power, not your arms.
-- **Error**: Attempting sweep while flat on back without creating angle or rotation
+- **Mistake**: Attempting sweep while flat on back without creating angle or rotation
   - **Consequence**: Sweep has no leverage or momentum, opponent easily bases out and maintains top position or passes your guard
   - **Correction**: Always create angle by rotating hips and shoulders before executing sweep. The angle is what creates the off-balancing force - sweeps fail without proper angles.
-- **Error**: Releasing grips or DLR hook too early during sweep execution
+- **Mistake**: Releasing grips or DLR hook too early during sweep execution
   - **Consequence**: Opponent scrambles free mid-sweep, recovers guard, and potentially counter-attacks or passes your guard
   - **Correction**: Maintain all controls until sweep is completely finished and you've established solid top position. Control through the entire rotation.
-- **Error**: Failing to chain sweep attempts when first option is defended
+- **Mistake**: Failing to chain sweep attempts when first option is defended
   - **Consequence**: Single sweep attempts become predictable, opponent develops defensive timing, and your attack success rate drops dramatically
   - **Correction**: Develop sweep combinations - when one sweep is defended, immediately flow to connected option based on their defensive reaction. DLR is a system, not isolated techniques.
 
@@ -253,7 +253,7 @@ The De La Riva Sweep Variations represent a comprehensive system of sweeps from 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: DLR Guard Fundamentals** - Establishing and maintaining basic DLR guard structure with proper hook and grips
 Partner gives light resistance while you practice entering DLR from various guards, maintaining hook pressure, establishing grips, and controlling distance with your outside leg. Focus on guard retention against slow, predictable passing attempts. Drill transitioning between DLR and connected guards like Reverse De La Riva Guard and X-Guard.
 (Resistance: Light)
@@ -284,7 +284,7 @@ Study high-level competitors using DLR guard systems. Experiment with advanced v
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Classic DLR Sweep to Side Control**: Pull opponent's pant grip toward you while extending your DLR hook forcefully away, sweeping their leg out from under them. As they fall, rotate your body over and establish side control on the sweep side. (When to use: Most effective when opponent has upright posture with weight distributed evenly. Works well against opponents trying to establish grips or preparing to stand and pass.)
 
 **Waiter Sweep**: Rotate your body underneath opponent while maintaining DLR hook and grips, using your DLR hook to elevate their leg like a waiter carrying a tray. Come up to top position as they're forced to roll over your rotation. (When to use: Ideal when opponent is leaning forward with pressure. Their forward momentum helps complete the rotation. Especially effective in gi with strong collar and sleeve grips.)
@@ -328,7 +328,7 @@ Study high-level competitors using DLR guard systems. Experiment with advanced v
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing De La Riva sweeps, controlled application is essential to prevent knee strain on the hooking leg. The DLR hook creates rotational force on your own knee joint, so practitioners must build tolerance gradually through proper progression. Avoid explosive lateral forces that could injure opponent's trapped leg, especially when practicing new variations at speed. Ensure adequate mat space for full sweep rotations and be mindful of training area boundaries to prevent partners from being swept into walls or other obstacles. When executing the sweep, control opponent's descent to prevent hard landings that could cause shoulder, head, or back injuries. Both partners should tap immediately if knee pressure becomes uncomfortable during the hook application. Practice with gradually increasing resistance rather than starting with full competition-level intensity, allowing both partners to develop proper mechanics and sensitivity to potential injury points.
 
@@ -336,7 +336,7 @@ When practicing De La Riva sweeps, controlled application is essential to preven
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The De La Riva Sweep Variations represent a cornerstone of modern open guard systems, connecting seamlessly with numerous related positions and techniques. From the DLR guard, practitioners can transition to X-Guard, Single Leg X-Guard, Reverse De La Riva Guard, and Deep Half Guard based on opponent reactions and defensive postures. The DLR system also provides natural entries to advanced techniques like the Berimbolo Entry, kiss of the dragon, and Crab Ride, making it a hub position for modern competition BJJ. When sweeps are defended, the same control structure allows immediate transitions to submission attacks including Triangle Choke, Omoplata, and Kneebar. The ability to flow between DLR sweeps and these connected positions creates a comprehensive guard system where defending one attack consistently opens others. Understanding DLR as a systematic position rather than isolated sweeps transforms it from a collection of techniques into a complete game plan that works across all skill levels and rule sets.
 
@@ -344,7 +344,7 @@ The De La Riva Sweep Variations represent a cornerstone of modern open guard sys
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[De La Riva Sweep]] - Core technique - fundamental DLR sweep from which variations derive
 - [[X-Guard Sweep]] - Connected position - natural transition when DLR sweeps are defended
@@ -362,7 +362,7 @@ The De La Riva Sweep Variations represent a cornerstone of modern open guard sys
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The De La Riva guard system exemplifies the principle of creating mechanical dilemmas through asymmetric control structures. What makes DLR sweeps so effective is the combination of your inside leg controlling their near leg below their center of gravity while your outside leg manages distance above their center of gravity. This creates a lever system where small adjustments in angle and pressure generate significant off-balancing forces. The key technical element that most practitioners miss is the importance of active hook pressure - your DLR hook must constantly pull their leg across their body, not simply rest in position. This active pulling creates constant instability in their base that makes sweep timing much more forgiving. When teaching DLR sweeps, I emphasize understanding the biomechanical relationship between your grips, your hook pressure, and your outside leg position. These three elements work together as a unified system - weakness in any one element compromises the entire structure. The highest-level application involves using your DLR control to create movement in your opponent, then timing your sweep to coincide with their reactive weight shifts. This transforms the technique from a strength-based attack into a leverage-based systematic approach that works reliably across size and strength differentials.
 - **Gordon Ryan**: In competition, De La Riva sweeps are incredibly high-percentage techniques when you understand grip fighting and timing. The biggest difference between mediocre DLR players and elite competitors is their ability to establish and maintain their preferred grips under pressure while preventing opponent from getting their defensive grips. I focus heavily on the pant grip at the ankle because it gives maximum control of their leg and prevents them from stripping it easily. When executing sweeps, I never try to muscle through - instead, I wait for opponent to make small adjustments in their base or shift their weight, then time my sweep to exploit that moment of instability. My preferred variation is the waiter sweep because it works exceptionally well in gi competition and creates immediate scrambles that favor the aggressive guard player. What makes my DLR game effective is that I don't just attack sweeps - I'm constantly threatening triangles, omoplatas, and transitions to other guards, which makes my sweep attempts much harder to defend because opponent has to worry about multiple threats simultaneously. If the sweep doesn't work immediately, I flow directly to berimbolo or X-guard rather than trying to force the same sweep repeatedly. Competition success with DLR requires understanding it as a complete system where sweeps, submissions, and position transitions all work together to create offensive momentum.
 - **Eddie Bravo**: The De La Riva system is incredibly powerful, but in no-gi you have to adapt the mechanics since you can't rely on pant and sleeve grips. In 10th Planet, we use DLR concepts but with underhooks and overhooks replacing traditional gi grips, and we focus more on transitioning to legs and back attacks rather than traditional sweeps. What I love about DLR is how it creates angles and forces opponent to react - that's the foundation of our whole system. When we drill DLR, we emphasize the connection to berimbolo, crab ride, and back takes because those positions translate better to no-gi competition and MMA contexts. The hook mechanics are the same whether gi or no-gi - you're still controlling their leg and creating off-balancing forces - but the grip strategies change completely. In no-gi, I teach getting an overhook on the far arm or an underhook on the near side instead of pant grips, and using your outside leg more aggressively to hook under their far leg toward X-guard transitions. The waiter sweep still works great in no-gi if you have good upper body control. Innovation with DLR means understanding the core principles - asymmetric leg control and distance management - then adapting the specific grips and transitions to whatever rule set you're competing in. Don't get locked into thinking DLR only works one way; the position is way more versatile than people realize.

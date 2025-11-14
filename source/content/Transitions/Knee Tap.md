@@ -8,7 +8,7 @@ description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique fro
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique fro
 
 
 
-> **Quick Answer**: Knee Tap transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Knee Tap transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control opponent's upper body before attacking the knee to prevent defensive reactions
 - Time the attack when opponent's weight is forward on the targeted leg
 - Create angle by stepping outside opponent's stance to access the knee
@@ -180,7 +180,7 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish collar tie or head control to manage opponent's posture
 - Create angle by circling or stepping to outside of opponent's lead leg
 - Opponent's weight distributed forward onto their front leg
@@ -193,7 +193,7 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish upper body control**: Secure a collar tie with your lead hand on the back of opponent's neck while your rear hand controls their tricep or elbow. Maintain upright posture to avoid telegraphing the takedown. Keep your head position high and outside to prevent guillotine exposure. (Timing: During initial standup engagement or grip fighting exchange)
 2. **Create angle and close distance**: Step your lead foot outside opponent's lead foot, creating approximately 45-degree angle to their stance. Simultaneously pull their upper body forward and slightly off-balance using your collar tie. This positions you to attack the near knee while compromising their defensive structure. (Timing: Execute as opponent steps forward or shifts weight onto front leg)
 3. **Drop level and penetrate**: Explosively drop your level by bending at the knees and hips while maintaining spine angle. Your rear hand releases the tricep control and shoots toward opponent's near knee. Keep your head tight to their ribs with eyes looking up to maintain safe posture and prevent guillotine vulnerability. (Timing: Immediate explosive movement once angle is established)
@@ -206,7 +206,7 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Sprawl defense - opponent shoots hips back and sprawls weight down** (Effectiveness: High) - Your Response: Immediately switch to single leg finish by securing the ankle and driving forward, or transition to double leg by changing levels and attacking both legs
 - **Guillotine attempt - opponent secures front headlock and attempts choke** (Effectiveness: Medium) - Your Response: Keep head position high and outside throughout entry, if caught bail out by stepping back and clearing the head, or counter with kimura grip on choking arm
 - **Whizzer defense - opponent secures overhook on your shooting arm** (Effectiveness: Medium) - Your Response: Use the whizzer as leverage by lifting their arm while continuing to drive the knee tap, or abandon and transition to outside single leg position
@@ -216,25 +216,25 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Reaching for the knee before establishing upper body control
+## Common Mistakes
+- **Mistake**: Reaching for the knee before establishing upper body control
   - **Consequence**: Opponent easily defends by sprawling or countering with guillotine since you have no control of their upper body movement
   - **Correction**: Always secure collar tie or head control first, then create angle, then attack the knee in proper sequence
-- **Error**: Dropping head too low during penetration step
+- **Mistake**: Dropping head too low during penetration step
   - **Consequence**: Exposes neck to guillotine choke and reduces visibility of opponent's defensive reactions
   - **Correction**: Keep head tight to opponent's ribs with eyes looking forward, maintaining spine angle rather than rounding forward
-- **Error**: Failing to create proper angle before attacking
+- **Mistake**: Failing to create proper angle before attacking
   - **Consequence**: Opponent easily defends by simply stepping back since you're attacking from directly in front with no angle advantage
   - **Correction**: Step outside their lead leg to create 45-degree angle before initiating level change, positioning yourself to access the knee from the side
-- **Error**: Pulling the knee without coordinating upper body control
+- **Mistake**: Pulling the knee without coordinating upper body control
   - **Consequence**: Opponent simply posts their hand and bases out since you're only attacking half their structure
   - **Correction**: Simultaneously pull head down while sweeping knee up, creating see-saw effect that removes all posting options
-- **Error**: Stopping after completing the takedown without securing position
+- **Mistake**: Stopping after completing the takedown without securing position
   - **Consequence**: Opponent scrambles back to guard or turtle, negating your positional advantage from the successful takedown
   - **Correction**: Immediately flow into side control consolidation with cross-face and hip control, treating takedown completion as beginning of position not end of sequence
-- **Error**: Gripping too high on the leg near the hip instead of the knee
+- **Mistake**: Gripping too high on the leg near the hip instead of the knee
   - **Consequence**: Reduces mechanical leverage significantly and allows opponent to easily post and recover base
   - **Correction**: Grip specifically behind the knee joint where maximum leverage exists, cupping the back of the knee with fingers wrapping around hamstring
 
@@ -243,7 +243,7 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Isolated Mechanics** - Master individual components without resistance
 Drill stance, angle creation, and level change separately. Practice collar tie control and grip placement on stationary partner. Perform slow-motion repetitions focusing on head position and posture maintenance. Partner remains completely static while you work entries.
 (Resistance: None)
@@ -270,7 +270,7 @@ Develop automatic transitions when knee tap is defended. Practice knee tap to si
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Outside Knee Tap**: Attack the far knee instead of near knee by creating opposite angle. Circle to outside of opponent's stance and cup far knee while controlling near side collar tie. Requires deeper penetration but offers element of surprise. (When to use: When opponent defends inside knee tap by stepping back, or when you have dominant outside angle established)
 
 **Ankle Pick to Knee Tap**: Initial ankle pick attempt draws opponent's defensive reaction downward, creating opportunity to switch to knee tap on same leg. Begin with ankle pick grip then slide hand up to knee while opponent is focused on defending lower attack. (When to use: Against opponents who are experienced at defending ankle picks or who keep hands low expecting leg attack)
@@ -310,7 +310,7 @@ Develop automatic transitions when knee tap is defended. Practice knee tap to si
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The knee tap is relatively safe compared to other takedowns as it doesn't involve high amplitude throws or dangerous falling angles. Primary safety concern is avoiding guillotine exposure by keeping head position high and outside throughout entry. When drilling, the person being taken down should practice breakfalling by turning toward the attacking side and slapping the mat. Avoid jerking the knee violently during practice - use controlled pulling motion to protect your partner's knee joint. In live training, be aware of cage or wall proximity to prevent partner from impacting hard surfaces during the fall. For those with knee injuries, communicate clearly with partners before drilling this technique as the knee manipulation can aggravate existing conditions. Always release knee grip immediately upon completion in training to avoid unnecessary joint stress.
 
@@ -318,7 +318,7 @@ The knee tap is relatively safe compared to other takedowns as it doesn't involv
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The knee tap serves as a critical bridge technique in the standing-to-ground transition game. It works as a primary attack from standing clinch positions and as a secondary option when other takedown attempts are defended. The technique chains naturally with single leg attacks, double leg entries, and ankle picks, creating a comprehensive lower body attack system. After successful completion, the direct transition to side control positions you perfectly for beginning your top game pressure passing sequences or submission attacks. For guard pullers, the knee tap provides an essential backup option when opponents refuse engagement, allowing you to force top position rather than conceding bottom. The technique integrates into takedown defense training as a counter option when sprawling on opponent's shots - you can often catch their knee while defending. Modern no-gi competition increasingly features knee tap exchanges during scrambles, making it essential for intermediate to advanced practitioners regardless of their preferred ground game style.
 
@@ -326,7 +326,7 @@ The knee tap serves as a critical bridge technique in the standing-to-ground tra
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Single Leg Takedown]] - Alternative - Similar mechanics with deeper penetration
 - [[Ankle Pick]] - Variation - Lower attack on same leg structure
@@ -346,7 +346,7 @@ The knee tap serves as a critical bridge technique in the standing-to-ground tra
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The knee tap represents pure mechanical efficiency in takedown theory. What makes this technique so fundamentally sound is the biomechanical principle of removing support while simultaneously creating downward pressure. The human body maintains standing position through a tripod of two legs and various hand posting options. By controlling the upper body and removing one leg, you eliminate more than half their support structure in a single coordinated action. The key technical detail most practitioners miss is the timing of when to initiate the knee attack - it must occur precisely when their weight commits forward onto that leg. If you attack when weight is on the rear leg, you're fighting against their structure rather than using it. The angle creation before entry is not merely tactical preference but geometric necessity - attacking from 45 degrees outside allows your pulling force on the knee to work with gravity rather than against it. Students should understand this is not a strength-based technique but a timing and angle-based mechanical advantage that works across all size differentials when executed with proper structural understanding.
 - **Gordon Ryan**: In high-level no-gi competition, the knee tap has become essential because it works in the modern handfighting meta where everyone is defending singles and doubles aggressively. What I love about this technique is you can hit it off so many different setups - collar drags, snap downs, or even fake guard pulls. The competition application is all about setting it up with multiple feints so they don't see it coming. I'll threaten ankle picks to get them defending low, then come over the top with the knee tap. Or I'll fake the single leg entry and when they sprawl, their weight comes forward perfectly onto the front leg for the knee tap finish. The transition to side control is crucial - in competition you need to score the takedown then immediately start your passing or submission game. Don't celebrate the takedown; that's when they recover guard. I drill the knee tap to cross-face to knee slice as one continuous sequence because in matches you have maybe two seconds before they start defensive frames. The other huge advantage is it's relatively low-risk for guillotine compared to other shots if you keep your head position tight to their ribs and never drop below their hips.
 - **Eddie Bravo**: The knee tap is one of those techniques that looks simple but has infinite setups and variations when you start getting creative with it. In 10th Planet system, we love using it off our collar drag series because the drag naturally creates that angle and off-balance you need. What's really sick is combining it with our guard pulling game - you can fake the guard pull, they resist by pulling back, and boom their weight shifts perfectly for the knee tap. We also work it heavily from the clinch using our claw grip variations on the back of the head. The thing most people sleep on is using the knee tap as a counter when someone shoots on you - as you sprawl, you can often catch their knee and finish the tap while they're extended. For no-gi especially, I teach students to think of the knee tap not as a single technique but as a position you can access from anywhere in the standup game. One variation we drill constantly is the snap down to knee tap where you break their posture hard, they post their hands, and their front leg becomes completely isolated and weighted. When you start seeing those setups in real-time during rolls, the technique becomes unstoppable because they're not defending the knee tap specifically, they're reacting to your previous attack and walking right into it.

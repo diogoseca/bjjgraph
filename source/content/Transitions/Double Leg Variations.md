@@ -8,7 +8,7 @@ description: "Learn Double Leg Variations in BJJ. Step-by-step execution from St
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Double Leg Variations in BJJ. Step-by-step execution from St
 
 
 
-> **Quick Answer**: Double Leg Variations transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+> Double Leg Variations transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Double Leg Takedown represents one of the most fundamental and highest-perce
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Level change must be explosive and committed to penetrate opponent's defense
 - Head placement on the side (preferably chest) drives opponent's upper body and controls their balance
 - Hip pressure forward is essential—drive through opponent, not just into them
@@ -180,7 +180,7 @@ The Double Leg Takedown represents one of the most fundamental and highest-perce
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Neutral standing position with proper distance management (just outside striking range)
 - Opponent's weight distributed evenly or slightly forward on their feet
 - Clear path to penetrate—no barriers blocking access to opponent's legs
@@ -193,7 +193,7 @@ The Double Leg Takedown represents one of the most fundamental and highest-perce
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Setup and distance management**: Establish proper range control through grip fighting or hand positioning. Use collar ties, underhooks, or circling movement to maintain offensive distance where you can penetrate but opponent cannot easily defend. Create a threatening posture that keeps opponent guessing about your timing. (Timing: Pre-attack positioning phase—no rush)
 2. **Explosive level change**: Drop your hips explosively while maintaining upright shoulders. Bend deeply at the knees while keeping your back relatively straight. The level change should be sudden and committed—hesitation allows opponent to react and sprawl. Your head should remain up with eyes on opponent's chest throughout the drop. (Timing: Single explosive motion—0.5 seconds maximum)
 3. **Penetration step**: Step your lead foot (typically same side as your head placement) deep between opponent's legs. Your knee should nearly touch the mat between their feet. This deep penetration is critical—shallow penetration allows easy sprawl defense. Your trailing leg should follow immediately to maintain base. (Timing: Coordinated with level change—simultaneous motion)
@@ -206,7 +206,7 @@ The Double Leg Takedown represents one of the most fundamental and highest-perce
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Sprawl defense with hip extension** (Effectiveness: High) - Your Response: Switch to single leg by releasing one leg and circling to the side, or drive harder forward before they can fully extend hips backward
 - **Whizzer overhook to prevent grip connection** (Effectiveness: Medium) - Your Response: Continue penetrating while securing far leg grip, then use head pressure to break whizzer and complete double leg or transition to high crotch
 - **Crossface to turn your head away** (Effectiveness: Medium) - Your Response: Keep driving forward with hip pressure while working to regain head position on their chest, or adapt to single leg finish
@@ -216,25 +216,25 @@ The Double Leg Takedown represents one of the most fundamental and highest-perce
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Dropping head down instead of keeping it up during level change
+## Common Mistakes
+- **Mistake**: Dropping head down instead of keeping it up during level change
   - **Consequence**: Telegraphs the takedown attempt, allows opponent to sprawl or guillotine, and compromises your posture
   - **Correction**: Maintain head position looking at opponent's chest while dropping hips—lead with hips, not head
-- **Error**: Shallow penetration step that doesn't get between opponent's legs
+- **Mistake**: Shallow penetration step that doesn't get between opponent's legs
   - **Consequence**: Easy sprawl defense, difficulty completing the takedown, vulnerability to front headlock control
   - **Correction**: Commit to deep penetration with lead knee nearly touching mat between opponent's feet
-- **Error**: Standing too upright during finish instead of maintaining hip pressure
+- **Mistake**: Standing too upright during finish instead of maintaining hip pressure
   - **Consequence**: Opponent easily pushes down on your shoulders and escapes, or counters with guillotine
   - **Correction**: Keep hips driving forward and chest tight to opponent's thighs throughout the finish
-- **Error**: Gripping too high on opponent's body (waist instead of legs)
+- **Mistake**: Gripping too high on opponent's body (waist instead of legs)
   - **Consequence**: No control of opponent's base, easy defense by sitting hips back
   - **Correction**: Hands must connect behind knees or thighs—this is what makes it a leg attack
-- **Error**: Static feet during finish without active steps
+- **Mistake**: Static feet during finish without active steps
   - **Consequence**: Loss of balance, stalled position, opponent recovers guard or escapes
   - **Correction**: Maintain small active steps throughout the finish to generate continuous forward momentum
-- **Error**: Attempting double leg from too far away
+- **Mistake**: Attempting double leg from too far away
   - **Consequence**: Opponent has excessive time to react and defend, exhausting and ineffective attack
   - **Correction**: Close distance first through grip fighting or movement before initiating level change
 
@@ -243,7 +243,7 @@ The Double Leg Takedown represents one of the most fundamental and highest-perce
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental mechanics** - Perfect level change, penetration step, and head placement without resistance
 Partner stands passively while you drill proper form—explosive level change, deep penetration step, head to chest, hands behind knees. Focus on body mechanics and muscle memory. Perform 20-30 repetitions daily.
 (Resistance: None)
@@ -274,7 +274,7 @@ Develop instinctive recognition of which finish variation will work based on opp
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Traditional side dump finish**: After lifting opponent's legs, step laterally to either side (typically the side your head is on) while rotating your torso. Use this lateral movement combined with forward pressure to dump opponent to the mat on their side or back. Immediately follow to establish side control or knee on belly. (When to use: When opponent is lighter or their weight is distributed evenly—allows you to use rotational mechanics rather than pure forward drive)
 
 **High-crotch double leg variation**: Instead of gripping behind both knees, one arm reaches high between opponent's legs (attacking the crotch area) while the other arm controls behind the knee. This provides more lifting power and works well against taller opponents or when whizzer defense prevents clean double leg grip. (When to use: Against taller opponents, when whizzer is preventing double leg completion, or when you need maximum lifting leverage)
@@ -316,7 +316,7 @@ Develop instinctive recognition of which finish variation will work based on opp
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing double leg variations, controlled application is essential to prevent injury during the finish phase. Both partners must be aware of proper falling mechanics—the person being taken down should not post their arms to catch their fall, as this can lead to wrist, elbow, or shoulder injuries. Instead, they should tuck their chin and distribute impact across their back. The person executing the takedown must control the descent and avoid slamming or dropping their partner, especially on hard surfaces. Beginners should practice on adequate matting with crash pad areas if available. During the penetration step, both knees can experience stress, so practitioners should ensure proper warm-up and avoid repeated explosive entries on the same knee without rest. When defending against double legs in training, avoid violent sprawl reactions that can cause neck or back strain. Progressive resistance training allows both partners to develop proper mechanics safely before advancing to full-speed, full-resistance execution. In competition scenarios, awareness of mat boundaries prevents dangerous takedowns near the edge where falls can occur off the mat surface.
 
@@ -324,7 +324,7 @@ When practicing double leg variations, controlled application is essential to pr
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Double Leg Takedown serves as a primary entry technique in the standing phase of BJJ, directly connecting neutral standing engagement to dominant top positions. Within the positional hierarchy, successful double leg execution establishes immediate top control—typically Side Control, Mount, or direct guard passing positions like Headquarters Position. This takedown is fundamental to the offensive standing game, working in concert with other takedown systems like Single Leg variations, Body Lock passes, and Snap Down entries to create a complete standing attack system. The double leg's highest-percentage finish leads to Side Control, where practitioners can immediately begin their top game progression through mount transitions, submission attacks, or positional control. Understanding the double leg's position within the larger BJJ system reveals its strategic importance: controlling where the fight takes place (standing vs. ground) and establishing favorable position from the opening exchange. Advanced practitioners chain double leg attempts with guard pulling options, creating dilemmas where opponents defending the takedown become vulnerable to guard establishment, while those defending guard pulls expose themselves to explosive double leg entries. This technique also integrates with Front Headlock when partially defended, offering seamless transitions to alternative attacks rather than abandoned techniques. The double leg's finish variations (dump, mat return, running) each lead to different top positions, allowing strategic selection based on desired outcomes—side control for control-oriented strategies, direct passes for point accumulation, or immediate mount attacks for submission-focused approaches.
 
@@ -332,7 +332,7 @@ The Double Leg Takedown serves as a primary entry technique in the standing phas
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Single Leg Takedown]] - Alternative—when double leg is defended, switch to single leg attack
 - [[High Crotch]] - Variation—modified grip structure for different angles and body types
@@ -352,7 +352,7 @@ The Double Leg Takedown serves as a primary entry technique in the standing phas
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The double leg takedown represents a biomechanical masterpiece when executed with proper understanding of leverage, penetration, and force vectors. The critical element most practitioners misunderstand is the relationship between penetration depth and takedown success probability. Shallow penetration creates a vertical force vector that opponents easily defend by extending their hips backward—the sprawl. Deep penetration between the legs creates a horizontal force vector directly under their center of gravity, making defensive hip extension mechanically inefficient. Your lead knee should nearly touch the mat between their feet—anything less represents compromised penetration. The finish phase requires understanding opponent weight distribution: if their weight shifts backward during your attack, the running finish maintains forward pressure most efficiently; if their weight remains centered or forward, the traditional dump exploits rotational mechanics for faster completion. The double leg's integration with your broader standing system requires developing entries from multiple grips and positions—collar ties, underhooks, and reactive entries when opponents initiate their own attacks. Superior practitioners don't simply attempt double legs randomly; they create situations through grip fighting and movement where the double leg becomes the highest-percentage response to opponent positioning and weight distribution.
 - **Gordon Ryan**: In high-level no-gi competition, the double leg remains one of my highest-percentage takedowns because it works against defensive wrestlers and guard pullers equally well. The key is making your entry unpredictable through varied setups—sometimes I'll snap their head down first to get them reaching, then explode to the legs when their hands are out of position. Other times I'll fake a single leg to get them defending one side, then switch to the double when they overcommit. What separates competition-effective double legs from practice room techniques is the willingness to commit fully to the penetration—you cannot hesitate or slow down during the level change, because elite opponents will sprawl immediately. I prefer the running finish against other high-level grapplers because it conserves energy and keeps constant pressure without requiring a full lift, which can be exhausting in a long match. Against guard pullers, I've developed a specific variation where I anticipate their pull and use my double leg penetration to drive through into an immediate pass rather than allowing them to establish guard. This requires timing your entry to coincide with their sitting motion, turning their guard pull into your passing opportunity. The double leg also sets up my entire front headlock system—if they defend well and I can't complete it, I'm already in perfect position for darce, anaconda, or guillotine attacks.
 - **Eddie Bravo**: The double leg is fundamental, but in my system we've adapted it specifically for no-gi situations where traditional wrestling entries don't work as well without collar grips. We use what I call the 'chaos entry'—instead of the standard level change, you create scramble situations through snap downs, foot sweeps, or pushing them off-balance, then explode to the double leg when they're recovering. This unpredictability makes it harder for them to time their sprawl. One variation we use heavily at 10th Planet is the double leg to truck position—instead of finishing in side control, you maintain your grip behind their legs but roll them over your shoulder into truck position, setting up twister and back take options. This works especially well against guys who turtle up to defend the takedown. We also chain the double leg with our guard pulling game in a specific way: I'll threaten the double leg early in the match to make them defensive and hesitant about their movement, which makes them easier to pull into rubber guard or lockdown positions later because they're worried about another takedown. The double leg isn't just about getting the takedown—it's about controlling the mental warfare of the standing phase. If they're worried about your double leg, they fight differently in every other position. We drill specific scenarios where the double leg gets partially defended but we've already planned the next three moves: whizzer defense leads to high crotch switch, sprawl defense leads to front headlock game, guillotine attempt leads to guard pass sequence. That's 10th Planet approach—never waste energy on a single technique; every technique is part of a larger system.

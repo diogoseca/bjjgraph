@@ -8,7 +8,7 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 94% of the time and finish submissions in 73% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 94% of the time and finish submissions in 73%.
 
 ---
 
@@ -189,7 +189,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your shoulder driven deeply into opponent's jaw/chin area with sustained pressure directed at an angle toward their far shoulder, creating significant discomfort and limiting head rotation completely
 - Your chest positioned perpendicular to opponent's torso with weight distributed efficiently through shoulder blade and connected hips, pinning their near shoulder flat to the mat
@@ -202,7 +202,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful establishment of side control from guard pass, scramble, or transition
 - Opponent positioned flat on back with chest facing upward
@@ -231,7 +231,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Kimura from Side Control]] → [[Kimura Control]]
 
@@ -302,7 +302,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Shrimp Escape]]** → [[Half Guard]] (Opponent Success: 22%)
 - **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 27%)
@@ -317,7 +317,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Kimura from Side Control]]** → [[Kimura Control]]
   - Opponent attempts to create frames or push away with near-side arm to relieve shoulder pressure
@@ -368,7 +368,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

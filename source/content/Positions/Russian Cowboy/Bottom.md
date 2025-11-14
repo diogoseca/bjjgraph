@@ -8,7 +8,7 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 60% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner has their back exposed to opponent with chest-to-back contact established, creating vulnerability to choke attacks and limiting defensive options
 - Opponent has established a single leg hook under the bottom practitioner's near-side leg, creating rotational control that prevents simple hip escapes
@@ -204,7 +202,7 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has established back exposure from turtle, failed guard retention, or scramble situation
 - Single leg hook has been inserted under near-side leg creating rotational control
@@ -232,7 +230,7 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Granby Roll]] → [[Open Guard]]
 
@@ -282,7 +280,7 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Truck Entry]]** → [[Truck]] (Opponent Success: 70%)
 - **[[Back Control to Crucifix]]** → [[Crucifix]] (Opponent Success: 60%)
@@ -294,7 +292,7 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Frame and Turn In]]** → [[Half Guard]]
   - Create strong frame against opponent's chest when they attempt to flatten you
@@ -334,7 +332,7 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

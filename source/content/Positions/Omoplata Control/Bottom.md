@@ -8,7 +8,7 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 80% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 80% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner's leg is threaded over opponent's trapped shoulder with the shin crossing the upper back, creating a lever against the shoulder joint while the knee applies downward pressure
 - Trapped arm is isolated and extended away from opponent's body with limited defensive mobility, positioned between the bottom practitioner's legs with the shoulder joint vulnerable to rotation
@@ -199,7 +197,7 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful entry from closed guard, spider guard, or open guard using omoplata setup
 - Isolation of opponent's arm with leg control established over the shoulder
@@ -227,7 +225,7 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Omoplata]] → [[Won by Submission]]
 
@@ -277,7 +275,7 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Triangle Escape]]** → [[Open Guard]] (Opponent Success: 35%)
 - **[[Rolling Kimura Escape]]** → [[Turtle]] (Opponent Success: 40%)
@@ -289,7 +287,7 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Omoplata Sweep]]** → [[Side Control]]
   - Opponent attempts to roll forward to escape shoulder pressure
@@ -324,7 +322,7 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

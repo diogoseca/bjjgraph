@@ -8,7 +8,7 @@ description: "Master the Knee Cut Pass in BJJ. Step-by-step execution from Half 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Knee Cut Pass in BJJ. Step-by-step execution from Half 
 
 
 
-> **Quick Answer**: Knee Cut transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Knee Cut transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant forward pressure throughout the entire passing sequence
 - Cut the knee across opponent's thigh at a 45-degree angle, not straight forward
 - Keep chest-to-chest connection to prevent opponent from creating space
@@ -180,7 +180,7 @@ The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish grips on opponent's collar and pants or sleeve
 - Break opponent's closed guard or establish open guard position
 - Create enough space to position your knee between opponent's legs
@@ -193,7 +193,7 @@ The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips and posture**: From Half Guard or open guard position, establish a strong collar grip with your lead hand and control the opponent's far hip or pants with your other hand. Maintain upright posture with your head up and chest forward to prevent opponent from breaking you down. (Timing: Before initiating any forward movement)
 2. **Insert cutting knee**: Drive your lead knee forward and across the opponent's bottom thigh, positioning it at a 45-degree angle. The knee should cut diagonally toward the mat, not straight forward. Your shin creates a wedge that separates their legs and prevents guard recovery. (Timing: As opponent's guard opens or when you create space)
 3. **Apply shoulder pressure**: Immediately drive your shoulder into the opponent's chin or upper chest while maintaining your collar grip. This pressure prevents them from sitting up or turning into you. Your chest should be heavy and connected to their torso throughout the pass. (Timing: Simultaneously with knee insertion)
@@ -206,7 +206,7 @@ The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent frames on your shoulder and creates distance with stiff arms** (Effectiveness: High) - Your Response: Switch to Long Step Pass by stepping your back leg around their guard and attacking the opposite side, or drop your weight suddenly to collapse their frames before continuing the cut
 - **Opponent underhooks your cutting leg and locks it in place** (Effectiveness: High) - Your Response: Immediately switch to Double Under Pass or back step to take the back if they commit heavily to the underhook. Alternatively, elevate their hips and switch to Stack Pass
 - **Opponent shrimps away and recovers guard using hip escape** (Effectiveness: Medium) - Your Response: Maintain hip control pressure and follow their movement, or switch to Leg Drag Pass by redirecting their legs to the opposite side as they shrimp
@@ -216,25 +216,25 @@ The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Cutting the knee straight forward instead of at a diagonal angle
+## Common Mistakes
+- **Mistake**: Cutting the knee straight forward instead of at a diagonal angle
   - **Consequence**: Creates space underneath for opponent to retain guard or recover, and reduces the effectiveness of the wedge that separates their legs
   - **Correction**: Aim your knee at a 45-degree angle toward the mat on the opposite side of their body. The direction should be diagonal, not linear.
-- **Error**: Failing to maintain constant shoulder pressure during the pass
+- **Mistake**: Failing to maintain constant shoulder pressure during the pass
   - **Consequence**: Allows opponent to sit up, establish frames, or turn into you to recover guard or initiate sweeps
   - **Correction**: Keep your chest heavy and connected throughout the entire sequence. Your shoulder should be driving into their chin/chest from start to finish.
-- **Error**: Neglecting to control the far hip
+- **Mistake**: Neglecting to control the far hip
   - **Consequence**: Opponent easily escapes by shrimping away from the pressure, creating space to recover guard
   - **Correction**: Prioritize pinning the far hip to the mat with firm, constant pressure. This is equally important as the knee cut itself.
-- **Error**: Rising too high on your base during the pass
+- **Mistake**: Rising too high on your base during the pass
   - **Consequence**: Creates space underneath your hips that opponent can exploit to insert hooks or frames for guard recovery
   - **Correction**: Keep your hips progressively lower as you advance through the pass. By the time you complete it, your hips should be nearly on the mat.
-- **Error**: Rushing the pass without establishing proper grips first
+- **Mistake**: Rushing the pass without establishing proper grips first
   - **Consequence**: Opponent easily defends with frames or redirects you into inferior positions
   - **Correction**: Take time to establish dominant grips and posture before initiating the cutting motion. A well-prepared pass is much more effective than a rushed attempt.
-- **Error**: Allowing opponent to establish underhook on cutting leg side
+- **Mistake**: Allowing opponent to establish underhook on cutting leg side
   - **Consequence**: Gives opponent powerful leverage to prevent the pass or sweep you
   - **Correction**: Keep your cutting-side elbow tight to your ribs and maintain inside control. If they get the underhook, immediately address it before continuing.
 
@@ -243,7 +243,7 @@ The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Learn proper knee cutting angle and hip control
 Practice the basic cutting motion with compliant partner. Focus on the diagonal angle of the knee, maintaining shoulder pressure, and controlling the far hip. Drill slowly with no resistance to build muscle memory for proper mechanics.
 (Resistance: None)
@@ -274,7 +274,7 @@ Use knee cut pass against fully resisting opponents in live training. Start from
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Knee Cut with Crossface**: Instead of collar grip, use a strong crossface with your forearm across opponent's face. This variation provides even more control of their upper body and prevents them from turning into you effectively. (When to use: When opponent is particularly mobile and attempting to sit up or turn into you repeatedly. Also effective in no-gi where collar grips are unavailable.)
 
 **Knee Cut with Underhook**: Secure an underhook on the far side instead of hip control. This variation allows you to elevate opponent's far shoulder, further preventing guard recovery and creating a more direct path to side control or mount. (When to use: When opponent's far arm is extended or available. Particularly effective against opponents who use butterfly hooks or attempt to create distance.)
@@ -319,7 +319,7 @@ Use knee cut pass against fully resisting opponents in live training. Start from
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The knee cut pass is generally a safe technique for both practitioners when executed properly. However, care should be taken to avoid driving excessive pressure into the opponent's jaw or throat with your shoulder—aim for the chest or chin area with controlled pressure. When drilling, partners should communicate about pressure intensity to build tolerance gradually. The cutting knee should move smoothly across the thigh, not with sudden jerking motions that could strain the knee joint. Additionally, when defending against the knee cut, avoid inverting or twisting the spine excessively, as this can lead to back injuries. Instead, focus on frames, hip escapes, and guard retention fundamentals.
 
@@ -327,7 +327,7 @@ The knee cut pass is generally a safe technique for both practitioners when exec
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The knee cut pass is a cornerstone technique of modern BJJ guard passing systems and integrates seamlessly with multiple passing strategies. It serves as the primary pressure pass from half guard positions and works effectively against butterfly guard, de la riva guard, and various open guard configurations. The pass chains naturally into side control, knee on belly, or mount depending on opponent reactions. Within a larger passing system, the knee cut creates a foundation for pass chaining—when defended, it opens opportunities for toreando passes, leg drags, long step passes, and body lock passes. The technique also integrates with the headquarters position, where the passer maintains the cutting knee position to control the guard while setting up multiple passing options. Defensively, understanding the knee cut is essential for developing effective guard retention, as it represents one of the highest-percentage attacks guard players must defend against regularly.
 
@@ -335,7 +335,7 @@ The knee cut pass is a cornerstone technique of modern BJJ guard passing systems
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Half Guard Pass]] - Primary application context
 - [[Long Step Pass]] - Chain passing alternative
@@ -355,7 +355,7 @@ The knee cut pass is a cornerstone technique of modern BJJ guard passing systems
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The knee cut pass represents one of the most biomechanically sound guard passing techniques in our sport. What makes this pass so effective is the creation of a diagonal line of force that simultaneously controls both the opponent's upper and lower body in opposite directions. The cutting knee creates a progressive wedge that eliminates space for defensive frames or guard hooks as it advances across the opponent's thigh. The key technical detail most practitioners miss is the angle—the knee must cut at approximately 45 degrees toward the mat, not straight forward. This diagonal angle maximizes the wedge effect while minimizing the space underneath your hips that opponents can exploit. The shoulder pressure serves a dual purpose: it prevents the opponent from sitting up or creating defensive frames, while also driving their weight away from the direction they need to escape. When executed with proper mechanics, the knee cut pass creates a situation where the opponent's defensive options are systematically eliminated through superior positioning and pressure distribution. This pass integrates perfectly into larger passing systems because the defensive reactions it creates—frames, underhooks, shrimping—all open specific vulnerabilities that can be exploited with complementary passing techniques.
 - **Gordon Ryan**: The knee cut is probably my highest-percentage guard pass in competition because it combines pressure, control, and versatility better than almost any other passing technique. What I've found through hundreds of competition matches is that the key to a successful knee cut isn't just the cutting motion itself—it's the grip fighting and pressure you establish before you even start cutting. If you win the grip battle and establish dominant collar and hip control first, the actual pass becomes much easier because the opponent is already defending from a disadvantaged position. I use the knee cut as the centerpiece of my passing system because it chains so well with everything else. If someone frames hard against my knee cut, I immediately switch to long step or toreado. If they underhook my cutting leg, I can backstep to the back or transition to a double under pass. The threat of the knee cut creates reactions, and those reactions open up other passes. In no-gi especially, the crossface variation of the knee cut is incredibly powerful because you can use your forearm to control their head while cutting, making it nearly impossible for them to turn into you. The biggest mistake I see competitors make is trying to force the knee cut when it's defended—at the highest levels, you have to be willing to switch passes instantly based on their defensive reactions.
 - **Eddie Bravo**: The knee cut pass is fundamental, but where it gets really interesting is when you start playing with the angles and entries that people don't expect. In the 10th Planet system, we use variations of the knee cut from unconventional positions—like entering it from the truck position or using it as a counter to lockdown when someone tries to hold you in half guard. One variation I love is the reverse knee cut, where you cut under their top leg instead of over their bottom leg. This completely changes the angle and catches people off guard who are prepared for the standard knee cut defense. We also combine the knee cut with calf slicing pressure when in no-gi, where as you cut the knee across, you can attack their trapped leg with a calf slicer if they refuse to let you pass. The key innovation we bring to the knee cut is treating it less as a single technique and more as a position where multiple attacks are available—you can pass, you can attack the leg, you can transition to the truck, or you can bait reactions and use their defense against them. The traditional knee cut is great, but when you add the 10th Planet mindset of constant innovation and attacking from unexpected angles, it becomes even more dangerous. Don't just drill the standard version—experiment with different grips, different angles, and different entries to develop your own unique style of knee cutting.

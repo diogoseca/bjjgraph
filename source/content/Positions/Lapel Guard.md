@@ -13,10 +13,6 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 
 
 
-> **Quick Overview**: Lapel guard represents a modern evolution in gi-based Brazilian Jiu-Jitsu guard play, utilizing the opponent's lapel fabric to create powerful control systems that transcend traditional grip fighting....
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -62,31 +58,19 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Neutral |
-| Risk Level | Low to Medium | Medium |
-| Energy Cost | Low | Medium |
-| Time Sustainability | Long | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Neutral |
+| **Risk Level** | Low to Medium | Medium |
+| **Energy Cost** | Low | Medium |
+| **Time** | Long | Medium |
 
-**What Makes This Position Unique:** Gi fabric becomes control extension point
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Lapel Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Lapel Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Gi fabric becomes control extension point
 
 
 
@@ -94,10 +78,13 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 
 <section id="bottom-summary" class="content-section">
 
-## Lapel Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Lapel Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in lapel guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -152,7 +139,7 @@ The bottom player in lapel guard controls the position with offensive attacks in
   - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Relying exclusively on lapel grip without maintaining leg frames or hip mobility**
@@ -180,16 +167,17 @@ The bottom player in lapel guard controls the position with offensive attacks in
   - ✅ Correction: Balance lapel guard development with no-gi alternatives like butterfly, X-guard, or leg entanglements for complete guard game
 
 
-👉 **[[Lapel Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Lapel Guard Top Perspective
+
+## Playing as Top
+
+[[Lapel Guard/Top|→ Full Top Guide]]
 
 
-The top player in lapel guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -238,7 +226,7 @@ The top player in lapel guard manages the position strategically based on oppone
   - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting standard pressure passing without addressing lapel configuration**
@@ -265,8 +253,6 @@ The top player in lapel guard manages the position strategically based on oppone
   - Consequence: Creates distance but resets exchange without progress, essentially stalling rather than advancing position
   - ✅ Correction: Clear lapel configuration while simultaneously advancing passing position—solve problem and make progress in single action
 
-
-👉 **[[Lapel Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

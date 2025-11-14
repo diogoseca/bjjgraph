@@ -8,7 +8,7 @@ description: "Master the Switch to Triangle in BJJ. Learn when and how to transi
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Switch to Triangle in BJJ. Learn when and how to transi
 
 
 
-> **Quick Answer**: Switch to Triangle transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Switch to Triangle transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Switch to Triangle represents a fundamental submission chain concept in Braz
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create multiple threats to overwhelm opponent's defense
 - Use opponent's defensive reactions as entry points for new attacks
 - Maintain continuous offensive pressure through submission chains
@@ -186,7 +186,7 @@ The Switch to Triangle represents a fundamental submission chain concept in Braz
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Active closed guard position with broken posture
 - Opponent defending or escaping from initial attack (armbar, kimura, omoplata)
 - Control of at least one arm (sleeve grip, wrist control, or overhook)
@@ -199,7 +199,7 @@ The Switch to Triangle represents a fundamental submission chain concept in Braz
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Recognize defensive reaction**: As opponent defends initial attack (typically by pulling arm free from armbar or resisting kimura), immediately identify the opening created by their defensive movement. Their focus on escaping the current submission creates a momentary lapse in posture control and positioning awareness. (Timing: Instant recognition as opponent begins defensive motion)
 2. **Secure control point**: Establish a critical control point during the transition - typically an overhook on the defending arm, head control with your hand behind their skull, or a strong collar grip. This control prevents the opponent from posturing up and provides the anchor point for your triangle entry. (Timing: Simultaneous with defensive recognition)
 3. **Create angle**: Shift your hips significantly to one side (typically 45-90 degrees off centerline) to create the necessary angle for triangle entry. This hip movement positions your body perpendicular to your opponent's torso, allowing your leg to come across their shoulder and neck effectively. (Timing: 0.5-1 second window as opponent focuses on arm defense)
@@ -213,7 +213,7 @@ The Switch to Triangle represents a fundamental submission chain concept in Braz
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent postures up aggressively during transition** (Effectiveness: High) - Your Response: Maintain strong overhook or head control, use your legs to break posture back down, and if necessary, switch to overhook guard or omoplata rather than forcing the triangle from a compromised position
 - **Opponent stacks your hips and passes guard** (Effectiveness: Medium) - Your Response: Never allow your back to be flat on the mat - keep your shoulders off the ground by posting on your elbow, create frames to prevent the stack, and be ready to abandon the triangle and recover guard if the position becomes too disadvantageous
 - **Opponent grabs your leg and prevents it from crossing their neck** (Effectiveness: Medium) - Your Response: Use your free leg to kick away their grip, swim your leg over rather than trying to force it through, or switch to alternative attacks like armbar or omoplata if the triangle entry is denied
@@ -222,25 +222,25 @@ The Switch to Triangle represents a fundamental submission chain concept in Braz
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting triangle without establishing proper angle first
+## Common Mistakes
+- **Mistake**: Attempting triangle without establishing proper angle first
   - **Consequence**: Opponent easily defends by maintaining center position and posturing up, or they pass guard while you're trying to lock the triangle
   - **Correction**: Always create a significant angle (45-90 degrees) before throwing your leg over - the angle is what makes the triangle work, not just the leg configuration
-- **Error**: Releasing all control during the transition
+- **Mistake**: Releasing all control during the transition
   - **Consequence**: Opponent escapes completely or establishes dominant posture, making triangle entry impossible
   - **Correction**: Maintain continuous control throughout the transition - never have a moment where you're not controlling their posture, head, arm, or position
-- **Error**: Throwing leg across too low on opponent's back
+- **Mistake**: Throwing leg across too low on opponent's back
   - **Consequence**: Triangle lacks proper depth and angle, allowing opponent to easily escape or defend the submission
   - **Correction**: Ensure your leg crosses high on the back of their neck and shoulder, not across their mid-back or lower - the higher position creates better leverage and control
-- **Error**: Locking triangle before achieving proper angle and depth
+- **Mistake**: Locking triangle before achieving proper angle and depth
   - **Consequence**: Weak triangle that opponent can defend indefinitely or escape, wasting energy and losing the position
   - **Correction**: Take the extra second to get perfect positioning before locking - a properly positioned triangle finishes quickly, while a rushed triangle may never finish
-- **Error**: Keeping hips flat on mat during finish
+- **Mistake**: Keeping hips flat on mat during finish
   - **Consequence**: Minimal compression on opponent's neck, allowing them to survive and eventually escape the submission
   - **Correction**: Cut the angle sharply, get perpendicular to opponent's body, and keep your shoulders off the mat by posting on your elbow - this creates maximum leverage and pressure
-- **Error**: Crossing ankles too far from opponent's neck
+- **Mistake**: Crossing ankles too far from opponent's neck
   - **Consequence**: Large gap in the triangle allows opponent to breathe, relieve pressure, and work escapes
   - **Correction**: Lock your figure-four as close to their neck as possible - you should barely be able to fit your ankle behind your knee, creating a tight, suffocating configuration
 
@@ -249,7 +249,7 @@ The Switch to Triangle represents a fundamental submission chain concept in Braz
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Isolation Drilling** - Solo movement and partner-assisted positioning
 Practice the hip angle creation and leg throw in isolation without resistance. Partner holds position while you work through the mechanical steps of switching from various guard attacks to triangle position. Focus on smooth, efficient movement and proper body positioning.
 (Resistance: None)
@@ -280,7 +280,7 @@ Explore switching to triangle from increasingly diverse positions - failed sweep
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Armbar to Triangle Switch**: The most common application where opponent defends armbar by pulling their arm free or grabbing their hands together. As they pull the arm back, immediately switch your hips, throw your leg over their neck, and transition into triangle with their arm now trapped across their own throat. (When to use: When opponent successfully defends armbar by reclaiming their arm or establishing grip fighting defense)
 
 **Kimura to Triangle Switch**: When opponent defends kimura by pulling their arm free or turning into the grip, release the kimura control and use your grips to pull them forward while switching to triangle. The overhook you have from the kimura grip provides excellent control during the transition. (When to use: When opponent escapes kimura grip or successfully defends the shoulder lock by turning their elbow down)
@@ -322,7 +322,7 @@ Explore switching to triangle from increasingly diverse positions - failed sweep
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The switch to triangle transition is relatively safe when practiced properly, but practitioners should be aware of several safety considerations. When drilling with partners, communicate clearly about resistance levels and tap early if the triangle becomes tight - ego-driven resistance to triangles in training leads to unnecessary injuries and unconsciousness. Pay attention to neck and spine positioning during the transition, especially when creating angles, as aggressive or jerky movements can strain neck muscles. If you're the person being triangled, tap promptly when pressure is applied and never try to 'tough out' a properly locked triangle, as blood chokes can cause unconsciousness in 3-5 seconds. For the person applying the triangle, release immediately upon feeling a tap and avoid 'riding out' submissions in training. During the transition phase, be mindful of your partner's fingers and toes as you move your legs, as limbs can get caught and injured. Advanced practitioners working explosive entries should ensure their training partners are adequately warmed up and prepared for dynamic movement. Those with neck, shoulder, or hip injuries should consult with medical professionals before drilling this technique extensively, as it requires significant mobility and places stress on these areas.
 
@@ -330,7 +330,7 @@ The switch to triangle transition is relatively safe when practiced properly, bu
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The switch to triangle is a cornerstone transition in the closed guard offensive system, connecting virtually every major attack from bottom position into a unified submission chain. In the context of position hierarchy, this transition represents the evolution from attempting individual submissions to employing a systematic, chain-based approach where attacks flow seamlessly into one another. The triangle itself is one of the highest-percentage submissions from guard, and learning to switch into it from other attacks multiplies the effectiveness of your entire guard game. This transition integrates with armbar systems, kimura systems, collar choke systems, and sweep systems, making it a central hub in the closed guard decision tree. Many BJJ systems built around closed guard - including the classic Brazilian approach, the 10th Planet rubber guard system, and modern competition-oriented guards - all emphasize the switch to triangle as a fundamental chain. Understanding this transition also develops the broader skill of recognizing and capitalizing on opponent defensive reactions, which applies throughout BJJ from beginner to black belt levels. The switch to triangle teaches practitioners to think beyond individual techniques and understand positions as connected systems where one attack failing creates opportunities for others to succeed.
 
@@ -338,7 +338,7 @@ The switch to triangle is a cornerstone transition in the closed guard offensive
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Triangle Choke]] - Primary destination submission for this transition
 - [[Triangle from Closed Guard]] - Specific application context for this technique
@@ -360,7 +360,7 @@ The switch to triangle is a cornerstone transition in the closed guard offensive
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The switch to triangle represents a fundamental principle in submission grappling that I emphasize across all positional contexts - the concept of submission chains and creating offensive dilemmas for your opponent. When we analyze this transition from a systematic perspective, we see that it exploits a critical vulnerability in human defensive psychology: people can only consciously focus on defending one threat at a time. When your opponent invests their mental and physical resources into defending an armbar or kimura, they create predictable defensive patterns that inherently open other submissions. The triangle switch is particularly effective because the defensive movements required to escape an armbar - pulling the arm back, establishing grips, maintaining connection between hands - are precisely the movements that create optimal triangle entry conditions. From a biomechanical standpoint, the switch requires mastering the critical element of angle creation, which is not merely turning your hips but establishing a geometric relationship where your femoral artery aligns with their carotid artery at perpendicular angles. This perpendicular relationship is what generates the compression mechanics necessary for efficient strangulation. When teaching this transition, I emphasize that students must develop the sensitivity to recognize the exact moment when opponent defensive commitment creates the opening - too early and the opening hasn't manifested, too late and they've already escaped the danger zone. This transition should never be thought of as a separate technique but rather as one expression of a universal principle: every defense creates an offense, and skilled grapplers exploit these created opportunities with ruthless efficiency.
 - **Gordon Ryan**: In competition, the switch to triangle is one of the highest-percentage techniques I use from closed guard because it's built on reading and exploiting opponent reactions rather than forcing techniques against resistance. When I'm fighting at the highest levels, nobody gives me easy submissions - they defend everything competently and aggressively. That's where the triangle switch becomes invaluable, because I'm not trying to finish one specific submission, I'm creating a problem set where any defensive choice they make opens something else. My favorite setup is the armbar to triangle switch because everyone at high levels knows they need to defend armbars, and their defensive patterns are predictable: they pull the arm back and try to stack. The moment I feel that pull, I'm already switching my hips and throwing the triangle - I'm not waiting to see if the armbar works, I'm using it as bait. The key competitive detail that most people miss is that you need to maintain constant forward pressure on their posture throughout the entire chain. If you let them posture up even momentarily during the switch, you lose the position. I use collar grips in gi and overhooks in no-gi to ensure they can never get their posture back, even during the transition. Another competition-proven detail: I lock the triangle immediately when my leg crosses, even if it's not perfect yet, because preventing escape is more important than getting the perfect position initially. Once it's locked, I can adjust and tighten, but if I wait too long trying to get it perfect before locking, they escape. The triangle switch is also valuable because it works at every skill level - I hit it on white belts and I hit it on world champions, because defensive reactions to armbars are universal.
 - **Eddie Bravo**: The switch to triangle is fundamental to the entire 10th Planet system, especially from rubber guard positions where we're constantly flowing between different submissions based on how opponents react. What most people don't understand about the triangle switch is that it's not just a backup plan when something fails - it's an intentional trap where you're deliberately attacking one thing to create the opening for another. In our system, we use positions like Mission Control and New York specifically to set up these switches, because we've got the angle and control built in already. From Mission Control, I might go for the Omoplata first, knowing that when they defend by pulling their arm out, the triangle is right there waiting. The beauty of the rubber guard approach is that we're already at the angle we need for triangle, so the switch is faster and more efficient than from traditional closed guard. One thing I teach that's different from traditional approaches is using the leg that's already over their back as a primary control point during the switch - most people focus too much on their arms for control, but if you've got your leg over their back creating downward pressure on their posture, they can't escape even if your hand grips aren't perfect. We also drill the triangle switch as part of our combat base sequences, where we're constantly moving between Omoplata, triangle, and gogoplata based on how they defend. The key innovation in our approach is treating submissions as a flow rather than individual techniques - you're never committed to finishing one specific thing, you're committed to the system of attacks where anything they do to defend one thing opens something else. The triangle switch embodies this philosophy perfectly, and it's one of the first chain concepts we teach to show people how submissions connect and create inescapable traps.

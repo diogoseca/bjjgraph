@@ -8,7 +8,7 @@ description: "Master the Knee Slice with Underhook pass in BJJ. High-percentage 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Knee Slice with Underhook pass in BJJ. High-percentage 
 
 
 
-> **Quick Answer**: Knee Slice with Underhook transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Knee Slice with Underhook transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ The technique exemplifies core guard passing principles: control before movement
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Secure underhook control before initiating the slice to prevent defensive recovery
 - Maintain constant forward pressure throughout the pass to flatten opponent
 - Use the knee as a wedge to separate and clear the half guard hook
@@ -184,7 +184,7 @@ The technique exemplifies core guard passing principles: control before movement
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Top position in opponent's half guard with at least one leg trapped
 - Established underhook on the near side with deep penetration
 - Free leg positioned to begin knee slice motion across opponent's thigh
@@ -197,7 +197,7 @@ The technique exemplifies core guard passing principles: control before movement
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish underhook control**: From top half guard, drive your near-side arm deep under opponent's armpit, achieving an underhook. Your hand should reach toward their far shoulder, creating maximum depth. Simultaneously use your opposite hand to establish a crossface or control their far-side arm, preventing them from framing. (Timing: Before any passing motion begins)
 2. **Position the slicing knee**: Place the knee of your free leg on the mat at a 45-degree angle, positioned near opponent's trapped knee. Your shin should be angled to cut across their thigh line. Keep your toes flexed and base positioned for drive-forward power. Your trapped leg should be working to extract from the half guard hook. (Timing: As you secure underhook depth)
 3. **Drive forward and flatten**: Using the underhook, drive your chest forward and down onto opponent's upper body, flattening them to the mat. Your weight should be distributed through your chest and the underhook-side shoulder. This forward pressure is critical - it prevents them from coming to their side or creating defensive frames. Keep your hips close to theirs. (Timing: Before beginning the slice motion)
@@ -210,7 +210,7 @@ The technique exemplifies core guard passing principles: control before movement
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent obtains underhook on same side, creating a battle for underhook control** (Effectiveness: High) - Your Response: If you lose the underhook battle, immediately switch to a different passing strategy like the long step pass or knee cut. Alternatively, establish a whizzer over their underhook and transition to a different angle of attack. Never fight a losing underhook battle - adapt and change angles.
 - **Bottom player turns to their knees and comes up on the underhook, recovering to dogfight or attempting a sweep** (Effectiveness: High) - Your Response: Prevent this by maintaining strong forward chest pressure before beginning the slice. If they start coming up, abandon the slice temporarily, drive them back down with shoulder pressure, then re-initiate. You can also transition to front headlock control if they fully commit to coming up.
 - **Opponent inserts their far-side knee shield or frames with their bottom leg to prevent the slice from completing** (Effectiveness: Medium) - Your Response: Address the knee shield by using your crossface hand to push their knee down and away, or transition to a knee cut angle instead. If the frame is strong, lift your slicing knee slightly to step over their defensive leg rather than fighting through it directly.
@@ -220,25 +220,25 @@ The technique exemplifies core guard passing principles: control before movement
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to slice before establishing sufficient underhook depth
+## Common Mistakes
+- **Mistake**: Attempting to slice before establishing sufficient underhook depth
   - **Consequence**: Opponent easily comes to their side, recovers guard, or sweeps you. The underhook is the foundation that makes everything else work.
   - **Correction**: Prioritize getting a deep underhook before any passing motion. Your hand should reach toward their far shoulder. Spend time in position securing this control rather than rushing the pass. Good underhook equals easy pass.
-- **Error**: Slicing straight down with the knee rather than at a diagonal angle across the thigh
+- **Mistake**: Slicing straight down with the knee rather than at a diagonal angle across the thigh
   - **Consequence**: The knee fails to separate the legs effectively, gets caught in the half guard, or creates no forward progress. Downward pressure alone does not clear the hook.
   - **Correction**: Think of the motion as cutting across their thigh from hip to far side, like a scissor blade. The knee travels laterally across their leg while maintaining downward pressure. The angle is approximately 45 degrees from their hip line.
-- **Error**: Keeping hips too far from opponent's body during the pass
+- **Mistake**: Keeping hips too far from opponent's body during the pass
   - **Consequence**: Creates space that allows opponent to insert frames, recover guard, or turn into you. Distance equals defense for the bottom player.
   - **Correction**: Maintain hip-to-hip contact throughout the pass. Your hips should be tight to theirs as you slice. Think 'chest to chest, hip to hip' - connection eliminates space and defensive opportunities.
-- **Error**: Failing to maintain forward pressure with the chest while slicing
+- **Mistake**: Failing to maintain forward pressure with the chest while slicing
   - **Consequence**: Opponent comes to their side, establishes frames, or creates space to recover guard. The pass becomes a battle rather than a systematic progression.
   - **Correction**: Your chest and shoulder on the underhook side should be driving constantly forward and downward throughout the entire sequence. This pressure should never decrease, even momentarily. If they can create vertical space, you're not pressuring enough.
-- **Error**: Not controlling opponent's far shoulder or establishing crossface
+- **Mistake**: Not controlling opponent's far shoulder or establishing crossface
   - **Consequence**: Opponent frames against your neck or face, creates distance, or turns away from the pass. Lack of upper body control gives them too many defensive options.
   - **Correction**: Always have either a strong crossface or control of their far arm/shoulder before beginning the slice. This second point of control, combined with the underhook, creates the systematic dominance needed for high-percentage passing.
-- **Error**: Rushing to side control before fully clearing the legs
+- **Mistake**: Rushing to side control before fully clearing the legs
   - **Consequence**: Opponent retains a hook or leg entanglement, re-establishes half guard, or catches you in a scramble. Premature advancement loses the position.
   - **Correction**: Complete each stage of the pass before moving to the next. Ensure both your legs have fully cleared their legs before settling into side control. Take one extra second to confirm complete clearance - it prevents having to restart the entire pass.
 
@@ -247,7 +247,7 @@ The technique exemplifies core guard passing principles: control before movement
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Positional Drilling** - Underhook mechanics and body positioning
 Start from top half guard with underhook already established. Partner provides zero resistance. Focus purely on the mechanics: forward pressure, knee positioning, slicing angle, and clearing the hook. Perform 20 repetitions per side per training session. Emphasize the feeling of proper pressure distribution and the correct cutting angle.
 (Resistance: None)
@@ -278,7 +278,7 @@ Teach the technique to lower belts to deepen understanding. Continue to refine d
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Low Knee Slice with Underhook**: Instead of slicing at mid-thigh level, bring your knee low near their bottom knee/calf area and slice from there. This variation works well against opponents with strong lockdown or deep half guard threats. (When to use: When opponent is attempting to dive under for deep half guard or has a threatening lockdown. The lower slice angle prevents them from capturing your leg for these positions.)
 
 **High Step Knee Slice**: After establishing the underhook, step your slicing leg completely over their trapped leg in one motion rather than slicing through. This creates a similar end position but with a different mechanical pathway. (When to use: When opponent has a very tight half guard hook that would be difficult to slice through, or when they're inverting. The step-over motion bypasses the trapped leg entirely.)
@@ -318,7 +318,7 @@ Teach the technique to lower belts to deepen understanding. Continue to refine d
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The knee slice with underhook is a relatively safe technique compared to submissions or more explosive passes, but practitioners should be mindful of several safety considerations. When executing the slice, avoid driving your knee aggressively into opponent's thigh in a way that could cause bruising or impact injury - maintain constant contact but don't spike the knee downward with force. The crossface should be applied with the blade of your forearm across their jaw/neck area, never with sharp elbow or forearm bone pressure that could cause neck injury. When drilling with newer partners, use controlled pressure rather than maximum force, as heavy chest pressure can be uncomfortable and potentially restrict breathing if applied incorrectly. Partners on bottom should tap if they feel unsafe or unable to breathe, and top players must respond immediately to any tap. Avoid cranking the underhook upward in a way that hyperextends the shoulder - the underhook is for positional control, not a submission. When training with significant size or strength disparities, the larger/stronger player should modify their pressure to allow the technique to work based on position rather than pure force, which develops better technical proficiency and keeps training partners safe.
 
@@ -326,7 +326,7 @@ The knee slice with underhook is a relatively safe technique compared to submiss
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The knee slice with underhook is a cornerstone technique in modern guard passing systems and serves as a primary method of advancing from half guard to dominant top positions. Within the context of a complete passing game, it functions as one of several interconnected options when facing half guard, creating pressure-passing sequences when combined with techniques like the long step pass, crossface pass, and smash pass. The underhook control established in this technique can also transition to alternative positions - if the pass is defended, the underhook provides the foundation for taking the back, establishing a dogfight position, or transitioning to other guard passing angles. The technique integrates seamlessly into both gi and no-gi grappling, though grip configurations differ slightly. From a conceptual standpoint, this pass teaches fundamental principles that apply throughout BJJ: establishing dominant controls before advancing position, maintaining constant forward pressure, and systematically removing opponent's defensive tools. Many high-level competitors build entire passing systems around variations of the knee slice with underhook, using it as the technical foundation that other passes branch from. Understanding this technique deeply improves overall passing ability because it teaches the relationship between upper body control and lower body clearing - a principle that applies to virtually all guard passes.
 
@@ -334,7 +334,7 @@ The knee slice with underhook is a cornerstone technique in modern guard passing
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Slice Pass]] - Base technique without underhook emphasis
 - [[Knee Slice from Half]] - Direct variation of same position
@@ -357,7 +357,7 @@ The knee slice with underhook is a cornerstone technique in modern guard passing
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The knee slice with underhook represents one of the most mechanically sound approaches to passing half guard because it systematically removes the opponent's defensive hierarchy. In any guard passing situation, your primary concern should be establishing dominant grips and positions before attempting to advance - this technique exemplifies that principle perfectly. The underhook eliminates approximately seventy percent of the bottom player's effective defensive options by preventing them from coming to their side and establishing their own underhook or frames. Once this control is secured, the slicing motion of the knee acts as a mechanical wedge that progressively separates their legs while your chest pressure prevents vertical escape. The beauty of this technique lies in its scalability - the same mechanical principles work at beginner level and world championship level, though the details and pressure become more refined with experience. When teaching this pass, I emphasize that the underhook is not simply a grip but a positional checkpoint that must be achieved before any passing motion begins. Students who rush past this checkpoint invariably struggle with the technique, while those who prioritize the underhook find the pass becomes almost effortless once proper positioning is achieved.
 - **Gordon Ryan**: The knee slice with underhook is one of my highest-percentage passes in both gi and no-gi competition because it's incredibly difficult to defend when executed with proper pressure and timing. What makes this technique so effective at the elite level is that it puts the opponent in a constant state of defensive crisis - they're simultaneously dealing with upper body control from the underhook and crossface while their legs are being systematically cleared. I've finished matches at ADCC and other major competitions using variations of this pass because it works against the best guard players in the world when you commit fully to the pressure. The key detail that separates beginner and advanced execution is the chest pressure component - you need to make the opponent feel like they're being crushed, not just passed. If they can breathe comfortably and move freely, you're not applying enough forward pressure. I also like to chain this with the long step pass, so if they manage to defend the slice by turning into me, I'm already positioned to attack the other side. The underhook-to-pass connection is fundamental to modern guard passing at the highest level, and this technique is the clearest expression of that principle. When drilling, focus on making the position feel hopeless for your partner - that's the level of control you need in competition.
 - **Eddie Bravo**: While the knee slice with underhook is definitely more of a traditional pressure passing technique than what we typically emphasize in 10th Planet, I respect its effectiveness and teach variations of it to my students, especially for no-gi competition. What I find interesting about this pass is how it creates opportunities for submission chains if the opponent defends in certain ways - if they try to come up on the underhook, you're in perfect position for a guillotine or darce choke. If they turn away, you can sometimes catch them with an arm triangle or take their back. So while the pass itself is straightforward, the strategic implications are deeper than they appear. One modification I like is to combine the knee slice mechanics with more dynamic movement - instead of purely pressure-based execution, sometimes exploding through the slice creates a different timing that catches guard players off-guard, especially those used to defending slow, methodical pressure passing. The underhook control is universally valuable regardless of your stylistic preferences. In our system, we might flow between rubber guard attacks, lockdown, and other half guard variations, but understanding how to pass half guard with an underhook makes you a more complete grappler. It's one of those techniques that every serious competitor should have in their arsenal, even if it's not their primary strategy.

@@ -8,7 +8,7 @@ description: "Master the Side Control to Mount transition in BJJ. Step-by-step e
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Side Control to Mount transition in BJJ. Step-by-step e
 
 
 
-> **Quick Answer**: Side Control to Mount transitions from [[Side Control]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Side Control to Mount transitions from [[Side Control]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Side Control to Mount transition is a fundamental positional advancement tha
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant chest-to-chest pressure throughout the transition to prevent defensive frames
 - Isolate and control the near-side arm before attempting to mount to eliminate primary defensive barrier
 - Use incremental weight shifts rather than single explosive movements to maintain balance and control
@@ -180,7 +180,7 @@ The Side Control to Mount transition is a fundamental positional advancement tha
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established side control position with chest pressure on opponent
 - Control of opponent's near-side arm (isolated, pinned, or trapped)
 - Head position controlling opponent's head or upper body
@@ -194,7 +194,7 @@ The Side Control to Mount transition is a fundamental positional advancement tha
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Isolate near-side arm**: From side control, use your chest pressure and cross-face to pin the opponent's near-side arm to their body. Your weight should be distributed primarily through your chest and shoulder, making it difficult for them to create frames. Control their near wrist with your hand or trap their arm between your body and theirs. (Timing: Maintain pressure for 2-3 seconds to ensure arm is fully controlled)
 2. **Secure far-side control**: Reach your free hand (usually the one not controlling the head) under the opponent's far-side armpit or around their back, establishing a deep grip on their far shoulder or lat. This grip prevents them from bridging effectively and gives you a steering wheel for the transition. Your cross-face should maintain head control throughout. (Timing: Establish grip before shifting weight)
 3. **Create space with knee slide**: Begin sliding your near-side knee (the one closest to opponent's legs) across their belly toward their far hip. Keep your knee tight to their body to prevent them from inserting a knee shield. Your shin should act as a wedge, gradually creating space while maintaining downward pressure. Your weight shifts slightly toward your hands to allow the knee movement. (Timing: Slow, controlled movement over 1-2 seconds)
@@ -207,7 +207,7 @@ The Side Control to Mount transition is a fundamental positional advancement tha
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Bridge and turn into opponent to create space** (Effectiveness: High) - Your Response: Drop your weight lower and wider, posting your far hand on the mat. Use your cross-face to redirect their bridge away from your base. Immediately walk your knees higher toward their armpits after their bridge attempt exhausts.
 - **Insert knee shield or recover half guard during transition** (Effectiveness: High) - Your Response: Keep your transitioning knee extremely tight to their body as it crosses. If they begin inserting their knee, pause the mount attempt and address the half guard immediately—either by clearing the knee with your hand or switching to a different passing approach.
 - **Frame against neck and hip to create distance** (Effectiveness: Medium) - Your Response: Circle your head away from the neck frame while maintaining chest pressure. Use your grips to pull their body toward you, countering their extension. Adjust your angle to make their frames less effective, attacking from a more perpendicular position.
@@ -217,25 +217,25 @@ The Side Control to Mount transition is a fundamental positional advancement tha
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rushing the transition without properly isolating the near-side arm
+## Common Mistakes
+- **Mistake**: Rushing the transition without properly isolating the near-side arm
   - **Consequence**: Opponent easily frames and prevents mount, potentially creating enough space to escape side control entirely
   - **Correction**: Take time to fully control the near-side arm before beginning the transition. Ensure it is pinned, trapped, or so compromised that it cannot create an effective frame
-- **Error**: Rising too high during the knee slide, creating space underneath
+- **Mistake**: Rising too high during the knee slide, creating space underneath
   - **Consequence**: Opponent shrimps out or recovers guard as weight is removed from their body
   - **Correction**: Keep your chest pressure constant throughout the transition. Your knee should slide across while your upper body maintains downward pressure on their torso
-- **Error**: Stepping over too far from the opponent's body
+- **Mistake**: Stepping over too far from the opponent's body
   - **Consequence**: Opponent easily bridges and rolls you over, or escapes to their side
   - **Correction**: Keep the step-over tight and controlled, with your weight centered over their torso. Your knee should be touching their side throughout the movement
-- **Error**: Neglecting to control the far-side shoulder/lat during transition
+- **Mistake**: Neglecting to control the far-side shoulder/lat during transition
   - **Consequence**: Opponent bridges explosively in that direction, potentially reversing position
   - **Correction**: Always establish a deep far-side grip before shifting your weight. This grip acts as a steering wheel to control their bridge direction
-- **Error**: Leaving the transitioning leg too far from opponent's body
+- **Mistake**: Leaving the transitioning leg too far from opponent's body
   - **Consequence**: Opponent inserts knee shield and recovers half guard easily
   - **Correction**: Keep your knee and shin pressed tight to their torso as you slide across. Your leg should act as a wedge, maintaining contact throughout the movement
-- **Error**: Posting on hands with locked elbows, making base too high and narrow
+- **Mistake**: Posting on hands with locked elbows, making base too high and narrow
   - **Consequence**: Opponent bridges and rolls you more easily due to poor base structure
   - **Correction**: Keep your base wide with elbows slightly bent. Distribute weight through your chest and knees, using hands primarily for balance rather than weight support
 
@@ -244,7 +244,7 @@ The Side Control to Mount transition is a fundamental positional advancement tha
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Positional Drilling** - Isolating individual components of the transition
 Practice each step of the transition separately with zero resistance. Focus on proper weight distribution, knee slide mechanics, and grip establishment. Partner provides stable base without defending. Emphasize feeling the correct weight placement at each stage.
 (Resistance: None)
@@ -271,7 +271,7 @@ Implement the transition during free rolling, focusing on recognizing optimal ti
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Gift Wrap to Mount**: Instead of traditional cross-face, establish gift wrap control on near-side arm by threading your arm through and grabbing your own wrist or gi. This completely immobilizes their near arm, making the transition significantly easier. Particularly effective in gi grappling. (When to use: When opponent has strong frames and you need absolute control of near-side arm. Excellent against flexible opponents who can create space with traditional controls.)
 
 **Knee on Belly to Mount**: Transition through knee on belly position rather than directly from side control. Place knee on belly, establish grips, then slide directly into mount. This variation uses opponent's reaction to knee pressure to facilitate the mount. (When to use: When opponent is very defensive from side control and difficult to mount directly. The knee on belly creates discomfort that often causes defensive reactions that open mount opportunities.)
@@ -311,7 +311,7 @@ Implement the transition during free rolling, focusing on recognizing optimal ti
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Practice this transition with controlled movement, especially during the step-over phase where balance is most compromised. Begin with cooperative drilling to develop proper mechanics before adding resistance. When receiving the technique, avoid explosive bridging attempts that could injure your neck or spine—tap if you feel your neck is compressed or twisted. For practitioners with knee issues, be cautious with the knee slide motion and communicate any discomfort to your partner. The cross-face pressure should be firm but controlled—excessive neck cranking can cause injury. When learning, use slower movements and clear communication to ensure both partners understand each phase of the transition. More advanced practitioners should be mindful of weight distribution to avoid unnecessary pressure on training partners, especially those with rib or chest injuries.
 
@@ -319,7 +319,7 @@ Practice this transition with controlled movement, especially during the step-ov
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Side Control to Mount transition is a cornerstone of positional grappling strategy, representing a critical link in the chain of top control positions. Side control is often achieved through guard passing or scrambles, making this transition essential for capitalizing on positional advantages. Mount provides significantly more submission opportunities (armbars, collar chokes, arm triangles) and better control than side control, making this advancement a high priority in positional strategy. This transition integrates with the overall top game by connecting with other control positions: if the mount is defended, you can flow to knee on belly, north-south, or maintain side control while attacking different angles. The technique exemplifies the positional hierarchy in BJJ, where systematically advancing from guard pass to side control to mount creates increasingly dominant positions. Understanding this transition is fundamental to developing a coherent attacking game from top position and is essential for competition success under IBJJF rules where positional points reward this exact progression (pass = 3 points, mount = 4 points).
 
@@ -327,7 +327,7 @@ The Side Control to Mount transition is a cornerstone of positional grappling st
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Mount]] - Ending position - Final destination of this transition
 - [[Side Control]] - Starting position - Where transition begins
@@ -350,7 +350,7 @@ The Side Control to Mount transition is a cornerstone of positional grappling st
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The side control to mount transition exemplifies the fundamental principle of mount by increments, where weight is systematically shifted between control points rather than attempting a single dramatic movement. The key is understanding that each defensive barrier must be eliminated in sequence—first the near-side arm through isolation, then the hip through knee placement, and finally any remaining frames through proper weight distribution. The transition should feel like a seamless flow where pressure never decreases, only redirects. I emphasize to my students that this isn't about speed or athleticism; it's about creating a progression where each micro-adjustment makes the next step inevitable. The far-side grip is particularly crucial—it acts as your steering mechanism, allowing you to feel and redirect any bridging attempts before they develop full power. When executed with proper mechanics, this transition should feel effortless, as if you're simply falling into mount rather than forcing your way there. This is positional chess at its finest, where systematic pressure creates positional dominance.
 - **Gordon Ryan**: In competition, the side control to mount transition is absolutely critical for maximizing points and finishing matches. I approach this transition with a focus on eliminating each defensive barrier in sequence, never rushing but also never giving my opponent time to establish strong frames. The key detail that changed my mount success rate was learning to time the transition with my opponent's breathing and defensive adjustments—when they exhale or shift their frames to defend something else, that's when I move. I also use a lot of misdirection: threatening the far-side kimura or north-south transition to get reactions that make the mount easier. Against high-level opponents, I'll often transition through knee on belly first because the discomfort forces defensive reactions that open up the mount. The weight distribution is everything—keeping your chest pressure constant while your legs move is what separates successful transitions from failed attempts. In my matches, I'm always thinking about the mount as the platform for finishing submissions, so securing this transition efficiently is essential for ending matches quickly and conservatively managing energy for tournament performance.
 - **Eddie Bravo**: The traditional side control to mount transition is solid, but we've developed some sick variations in 10th Planet that work especially well in no-gi situations where you don't have collar grips to rely on. The key adaptation is using more aggressive underhooks and overhooks to control the opponent's upper body since you can't rely on gi grips. We also emphasize the gift wrap control heavily—getting that near arm completely immobilized makes the mount basically unstoppable. One thing I teach is to think about creating discomfort before advancing position; if you make them uncomfortable in side control with strategic pressure points, they'll start defending the wrong things and give you the mount. We also use a lot more dynamic entries, sometimes bouncing between knee on belly and side control to create movement that opens up mount opportunities. The body triangle from mount is where we really shine though—once you get mount in no-gi, immediately thinking about leg positioning for back takes or body triangles is where the 10th Planet system really starts to flow. Don't just think about getting to mount, think about what mount position sets up your next attack best.

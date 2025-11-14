@@ -8,7 +8,7 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 
 
 
-> **Quick Answer**: Omoplata from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain - apply slowly over 3-5 seconds and release immediately upon tap.
+> Omoplata from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="safety-considerations" class="content-section">
 
-## Is Omoplata from Guard Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -215,7 +215,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Hip mobility and angle creation are essential - the attack begins with establishing perpendicular angle to opponent
 - Leg threading and triangling creates the control system that prevents escape before finishing pressure
 - The finish comes from hip extension forward, not from pulling or twisting the arm
@@ -229,7 +229,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish closed guard or open guard with at least one sleeve grip and posture control
 - Break opponent's posture forward to prevent them from stacking or posturing out
 - Control opponent's arm with same-side grip (right hand controls their right arm for right-side Omoplata)
@@ -243,7 +243,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish initial control and break posture**: From closed guard or open guard, secure a same-side sleeve grip (right hand to opponent's right wrist) and use your legs or opposite hand to break their posture forward. Pull their head down or use your legs to prevent them from sitting back. The goal is to get their weight forward and their arm isolated. (Timing: 2-3 seconds to establish solid control) [Pressure: Moderate]
 2. **Swim arm under for overhook control**: Release or adjust your gripping hand and swim your same-side arm underneath their controlled arm to establish a deep overhook. Your armpit should be tight to their tricep with your hand reaching toward their opposite lat or belt. This overhook prevents them from extracting their arm during the leg swing. (Timing: 1-2 seconds, must be quick before they posture) [Pressure: Firm]
 3. **Create angle and swing leg over shoulder**: Shift your hips significantly to the side opposite the controlled arm (if controlling their right arm, shift hips to your left). Open your guard and swing your same-side leg (right leg for right-side Omoplata) over their shoulder and neck, with your calf landing across their upper back. Keep your overhook tight as you swing to prevent arm extraction. (Timing: One fluid motion, 2-3 seconds) [Pressure: Light]
@@ -257,7 +257,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Rolling forward over their trapped shoulder to relieve pressure** (Effectiveness: High) - Your Adjustment: Recognize the roll early and ride with them while maintaining leg triangle and hip connection. As they roll, immediately take mount position or transition to their back. The roll attempt is actually a sweep opportunity - use your momentum to secure top position.
 - **Stacking you by driving weight forward and up before you establish position** (Effectiveness: High) - Your Adjustment: Before they can stack, immediately shift your hips further to the side and use your bottom leg to push their hip away, creating space. Alternatively, switch to Triangle Choke by bringing your top leg across to their opposite shoulder, or transition to Armbar by extending their arm.
 - **Extracting the trapped arm by pulling elbow back before leg triangle is secured** (Effectiveness: Medium) - Your Adjustment: Tighten your overhook grip immediately and use your leg swing to trap their arm before they can extract. If they begin extracting, quickly transition to Triangle by adjusting your leg position, or pursue a back take as they turn away from the pressure.
@@ -267,28 +267,28 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting to finish by lifting hips upward instead of extending forward [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting to finish by lifting hips upward instead of extending forward [Low DANGER]
   - **Consequence**: This reduces pressure on the shoulder, allows opponent to roll or escape, and can hyperextend your own lower back
   - **Correction**: Focus on pushing your hips horizontally toward opponent's head while keeping your chest low. Think of extending through them rather than lifting above them. Your hips should move in the same direction as their arm.
-- **Error**: Failing to establish hip connection to opponent's back before attempting finish [Low DANGER]
+- **Mistake**: Failing to establish hip connection to opponent's back before attempting finish [Low DANGER]
   - **Consequence**: Opponent easily rolls forward to escape, and you lose position without securing sweep or submission
   - **Correction**: Before extending hips, ensure your glutes and lower back are flush against their back with zero space. Walk your hips closer if needed. This connection is mandatory for both finishing and preventing the roll escape.
-- **Error**: Not controlling opponent's far arm during the finish sequence [Low DANGER]
+- **Mistake**: Not controlling opponent's far arm during the finish sequence [Low DANGER]
   - **Consequence**: They post their hand and create base, preventing the finish and potentially escaping by standing or rolling backward
   - **Correction**: Your free hand must actively control their far wrist, grab their far hip, or control their belt throughout the finish. Never allow both their arms to be free to post. This control is what prevents their escape options.
-- **Error**: Losing the overhook grip during leg swing, allowing arm extraction [Medium DANGER]
+- **Mistake**: Losing the overhook grip during leg swing, allowing arm extraction [Medium DANGER]
   - **Consequence**: Opponent pulls their arm free before position is established, escaping the submission entirely and often passing your guard
   - **Correction**: Maintain tight overhook with your armpit sealed to their tricep throughout the entire leg swing. Only release the overhook once your leg triangle is fully locked and their arm is secured. The overhook is your insurance during the transition.
-- **Error**: Swinging leg too high over opponent's head instead of across shoulder [Low DANGER]
+- **Mistake**: Swinging leg too high over opponent's head instead of across shoulder [Low DANGER]
   - **Consequence**: You lose balance, cannot establish proper angle, and your leg position is too high to create effective shoulder pressure
   - **Correction**: Your leg should swing over the meat of their shoulder with your calf across their upper back, not over their head. The contact point is their shoulder, not their neck. This lower position gives you better leverage and control.
-- **Error**: Applying explosive or jerking motion during the finish in training [CRITICAL DANGER]
+- **Mistake**: Applying explosive or jerking motion during the finish in training [CRITICAL DANGER]
   - **Consequence**: SEVERE RISK: Immediate rotator cuff tear, shoulder dislocation, or labrum damage without warning
   - **Correction**: CRITICAL SAFETY: Apply pressure slowly over 3-5 seconds minimum. Extend hips in smooth, controlled motion and stop immediately at first resistance. In training, apply only enough pressure for partner to recognize the position - never finish fully. Competition finishing speed is never appropriate for training.
-- **Error**: Not recognizing opponent's defensive roll and attempting to force finish [Low DANGER]
+- **Mistake**: Not recognizing opponent's defensive roll and attempting to force finish [Low DANGER]
   - **Consequence**: Missing the sweep opportunity and potentially allowing opponent to escape back to guard or gain top position
   - **Correction**: When you feel opponent's weight shifting forward to roll, immediately ride the motion while maintaining your leg triangle. Let them roll and follow to mount or back position. The Omoplata sweep is often higher percentage than the submission finish.
 
@@ -297,7 +297,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Omoplata from Spider Guard**: From Spider Guard with both feet on opponent's biceps, control one sleeve and swing your same-side leg over their shoulder while using the opposite foot to push their hip back. This creates immediate angle and prevents stacking defense. (When to use: Ideal when opponent is pressuring forward in Spider Guard or when you have strong foot-on-bicep control. The bicep control makes the leg swing easier and prevents early arm extraction.)
 
 **Omoplata from Triangle Threat**: When attempting Triangle Choke and opponent defends by keeping good posture, swim your leg over their shoulder on the trapped arm side and transition to Omoplata. Your existing arm control and angle from the Triangle setup makes this transition natural. (When to use: Perfect when opponent successfully defends your Triangle by posturing or when they stack your Triangle attempt. The Triangle control has already broken their posture and isolated the arm.)
@@ -345,7 +345,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Entry Mechanics** (Weeks 1-2, 10-15 repetitions per session)
 - Focus: Learn the entry mechanics, leg swing technique, and establishing the position without applying any finishing pressure. Partner remains stationary with zero resistance. Focus on hip angle creation, overhook maintenance, and leg triangle formation.
 - Resistance: Zero resistance
@@ -382,7 +382,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Open Guard]]
@@ -400,7 +400,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Omoplata]]
 - [[Omoplata Variations]]
@@ -443,7 +443,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Omoplata represents a fascinating study in mechanical advantage and position-based submission offense. Unlike submissions that rely purely on strength or speed, the Omoplata creates a geometric trap where the legs - your strongest muscle group - control the opponent's arm while the hips generate rotational force against the shoulder joint's weakest plane of movement. What makes this submission particularly valuable from a systematic standpoint is its function as a position rather than merely a finishing hold. The Omoplata creates what I call a 'decision point' - opponent must choose between accepting the shoulder lock submission, rolling forward and conceding a sweep to mount, or turning away and exposing their back. All three outcomes favor you, which is the hallmark of high-level positional play. From a safety perspective, the Omoplata demands exceptional control and slow application because the shoulder joint is vulnerable to rotational damage. Training partners must apply the finish over a minimum of 3-5 seconds with progressive pressure, and stop at the first sign of resistance. The submission should be felt gradually, never suddenly. This controlled application is not just about safety - it teaches you to understand the mechanics of shoulder rotation and develop sensitivity to your opponent's reactions, which is essential for recognizing when to transition to sweeps or back takes rather than forcing a low-percentage finish.
 - **Gordon Ryan**: In competition, I use the Omoplata more as a sweeping position and back-take opportunity than as a submission finish, and there's good reason for that. While the Omoplata can finish matches, most high-level opponents will defend by rolling or turning, which gives me either mount or back position - both of which score and set up higher-percentage submissions. The key to making the Omoplata work at elite levels is speed and timing on the entry. You need to establish your leg triangle and hip connection before opponent can stack you or extract their arm, which means the setup must be explosive and well-timed, even though the finish must be controlled. I like setting up the Omoplata from Spider Guard because the foot-on-bicep control makes the leg swing much easier and prevents them from pulling their arm out during transition. One critical detail people miss: you have to control their far arm or hip with your free hand. Without that control, they can post and prevent the finish even if your leg triangle is perfect. In training, the distinction between competition application and training application is crucial for safety - I never finish Omoplatas hard in training because shoulder injuries will take your partners off the mats for months. In competition, I apply more pressure and finish faster, but even then it's controlled and progressive. The goal is the tap, not the injury. Save your training partners' shoulders so they can help you improve your game long-term.
 - **Eddie Bravo**: The Omoplata is one of the cornerstones of the Rubber Guard system and the 10th Planet approach to guard playing, and it's all about creating angles and using your legs to attack. From positions like Mission Control or New York in the Rubber Guard, the Omoplata entry becomes way easier because you already have the angle created and their posture broken. I teach students to think of the Omoplata not as a single submission but as a position that opens up a whole world of attacks - you've got the sweep when they roll, the back take when they turn, or you can transition to Triangle or Armbar if they defend in certain ways. The versatility is what makes it so dangerous. One thing I emphasize heavily is drilling the entry until it's reflexive. The leg swing and overhook grip have to be one smooth motion - if you hesitate or do it in stages, they'll escape. For safety in training, we have a strict rule: no fast finishes on Omoplatas. I've seen too many people get their shoulders torn up by overeager training partners cranking submissions. The Omoplata finish requires slow, controlled hip extension over several seconds, and you stop at light pressure in training. That's non-negotiable. The position teaches you so much about hip movement, angle creation, and using your legs for control that it's worth drilling constantly even if you rarely finish it in competition. Plus, when you get good at the Omoplata, your whole guard game levels up because you understand how to create angles and attack from bottom positions.

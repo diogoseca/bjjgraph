@@ -8,7 +8,7 @@ description: "Master Dilemma Creation in BJJ. Learn simultaneous multi-threat co
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Dilemma Creation in BJJ. Learn simultaneous multi-threat co
 
 
 
-> **Quick Answer**: Dilemma Creation is a high complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.
+> Dilemma Creation is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Dilemma Creation represents the advanced strategic principle of simultaneously p
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Effective dilemmas require multiple simultaneous threats that cannot be defended together
 - Defensive choices must be genuinely binary with clear commitment requirements
 - Each defensive option must lead to a different but equally developed attacking sequence
@@ -181,7 +181,7 @@ Dilemma Creation represents the advanced strategic principle of simultaneously p
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Threat Recognition and Simultaneous Development**: Ability to identify which threats can coexist from a given position and develop them simultaneously without compromising either option. Requires understanding of mechanical compatibility between attacks and positional prerequisites that allow multiple threats to remain viable concurrently.
 
 **Defensive Pattern Analysis**: Capacity to recognize opponent's defensive tendencies and predict which option they will choose when presented with binary threats. Includes reading body mechanics, recognizing trained defensive patterns, and exploiting defensive habits through strategic threat presentation.
@@ -204,7 +204,7 @@ Dilemma Creation represents the advanced strategic principle of simultaneously p
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Creating Reactions]]** (Prerequisite): Simple action-reaction exploitation forms the foundation for understanding how defensive commitments create vulnerabilities, which is then scaled up to simultaneous multi-threat dilemma structures
 - **[[Submission Chains]]** (Complementary): Submission chains provide the technical sequences that comprise each branch of the dilemma structure, with dilemma creation providing the strategic framework for presenting multiple chains simultaneously
 - **[[System Building]]** (Extension): Dilemma creation represents advanced system building where complete positional systems are constructed around forcing binary choices with developed attack sequences for each defensive option
@@ -220,7 +220,7 @@ Dilemma Creation represents the advanced strategic principle of simultaneously p
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Triangle-armbar-omoplata system creates classic dilemma where opponent must choose between defending triangle (exposing arm) or defending armbar (exposing shoulder), with each defensive commitment leading to different but equally developed submission sequence
 
 **Back Control**: Rear naked choke-armbar dilemma forces opponent to choose between defending neck (exposing arms) or defending arms (exposing neck), with hand fighting creating continuous binary choices where each defensive hand placement opens alternative attack
@@ -259,7 +259,7 @@ Dilemma Creation represents the advanced strategic principle of simultaneously p
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess if current position provides sufficient control for dilemma construction**: Evaluate whether position allows maintenance of multiple simultaneous threats without compromising control; if insufficient control, prioritize positional improvement before attempting dilemma-based attacks
 2. **Identify compatible simultaneous threats available from position**: Determine which attacks can coexist mechanically from current position without compromising each other's effectiveness; select threats that target different defensive requirements forcing genuine binary choice
 3. **Develop both threat options to equal readiness**: Establish mechanical prerequisites for both attacks simultaneously, ensuring neither is telegraphed as primary threat; maintain genuine dual-threat pressure preventing opponent from specializing defense on single option
@@ -272,31 +272,31 @@ Dilemma Creation represents the advanced strategic principle of simultaneously p
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Developing one threat significantly more than the other, creating false dilemma
+## Common Mistakes
+- **Mistake**: Developing one threat significantly more than the other, creating false dilemma
   - **Consequence**: Opponent recognizes primary threat through telegraphing and can specialize entire defense on stopping that option, negating the dilemma structure and allowing effective single-focus defense
   - **Correction**: Develop both threats to equal readiness with equal mechanical prerequisites established; practice both branches of dilemma equally in training until neither appears as obvious primary option
-- **Error**: Attempting dilemma construction from insufficient control positions
+- **Mistake**: Attempting dilemma construction from insufficient control positions
   - **Consequence**: Opponent escapes or reverses position during multi-threat development because control wasn't sufficient to maintain dual threats through defensive movements; results in losing dominant position entirely
   - **Correction**: Only attempt dilemma-based attacks from positions with strong established control; when control is marginal, prioritize single high-percentage attacks or positional improvement before constructing complex dilemma structures
-- **Error**: Failing to prepare complete sequences for each defensive option
+- **Mistake**: Failing to prepare complete sequences for each defensive option
   - **Consequence**: When opponent chooses the less-developed branch, practitioner has no prepared response and loses offensive momentum; partial dilemmas allow opponent to successfully defend through specialization on under-developed branch
   - **Correction**: Drill complete sequences for every possible defensive response including tertiary and quaternary options; ensure every branch of dilemma tree is equally developed with prepared responses extending several moves deep
-- **Error**: Forcing commitment prematurely before both threats are fully established
+- **Mistake**: Forcing commitment prematurely before both threats are fully established
   - **Consequence**: Opponent can defend both options simultaneously because mechanical prerequisites weren't completed; results in stalled offense with no clear attacking pathway forward
   - **Correction**: Patiently develop both threats to full mechanical readiness before forcing defensive commitment; allow time for proper setup even if it means slower attack execution
-- **Error**: Abandoning positional control to pursue submission finish
+- **Mistake**: Abandoning positional control to pursue submission finish
   - **Consequence**: Opponent escapes dominant position during rushed submission attempt, resulting in neutral position or reversal despite having created effective dilemma structure initially
   - **Correction**: Maintain strict adherence to position-before-submission hierarchy; if submission isn't immediately available, maintain dominant position and reconstruct dilemma rather than forcing low-percentage finish
-- **Error**: Using incompatible threats that don't create genuine binary choice
+- **Mistake**: Using incompatible threats that don't create genuine binary choice
   - **Consequence**: Opponent can defend both options simultaneously because defensive requirements aren't mutually exclusive; results in ineffective dilemma that opponent nullifies with single defensive action
   - **Correction**: Select only genuinely incompatible threats where defensive commitment to one necessarily exposes the other; test dilemma structures in training to verify that successful defense of both simultaneously is biomechanically impossible
-- **Error**: Failing to recognize opponent's defensive commitment, hesitating between options
+- **Mistake**: Failing to recognize opponent's defensive commitment, hesitating between options
   - **Consequence**: Window for exploiting defensive commitment closes while practitioner deliberates which branch to pursue; hesitation allows opponent to recover and defend both options again
   - **Correction**: Develop automatic recognition patterns through repetitive drilling; when defensive commitment is recognized, immediately execute corresponding sequence without conscious deliberation
-- **Error**: Neglecting counter-attack coverage within dilemma branches
+- **Mistake**: Neglecting counter-attack coverage within dilemma branches
   - **Consequence**: Opponent's defensive movements create legitimate counter-attacking opportunities that practitioner hasn't prepared for; results in defensive success for opponent despite being caught in structural dilemma
   - **Correction**: Drill each dilemma branch with resistant partners attempting maximum counter-attacks; develop prepared responses to neutralize every possible counter-offensive within each branch sequence
 
@@ -305,7 +305,7 @@ Dilemma Creation represents the advanced strategic principle of simultaneously p
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Systematic Branch Drilling** (Focus: Developing automatic execution of complete dilemma trees without conscious decision-making, building muscle memory for all branches until responses become reflexive)
 Methodically drill each branch of a dilemma system with partner playing specific defensive roles, practicing complete sequences from initial threat presentation through finish for every possible defensive option
 
@@ -330,7 +330,7 @@ Conduct specific sparring rounds where practitioner only attempts finishes throu
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can identify and name basic dilemma structures like triangle-armbar-omoplata system when demonstrated
 - Understands concept that some defensive actions necessarily expose alternative vulnerabilities
@@ -370,7 +370,7 @@ Conduct specific sparring rounds where practitioner only attempts finishes throu
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Creating Reactions]] (Principle) - Foundation concept demonstrating single action-reaction sequences that dilemma creation expands into simultaneous multi-threat structures
 - [[Submission Chains]] (Principle) - Provides technical submission sequences that comprise individual branches within dilemma frameworks
@@ -390,7 +390,7 @@ Conduct specific sparring rounds where practitioner only attempts finishes throu
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches dilemma creation as the fundamental architecture of effective attacking systems, emphasizing that virtually all of his positional systems are built around forcing opponent into binary or limited choices where every option leads to different but equally developed attack sequences. Focuses extensively on what he terms 'attack systems' rather than individual techniques, where practitioners learn comprehensive decision trees with pre-planned responses to every possible defensive variation. Systematizes dilemma construction according to position, creating formalized attack sequences like his famous triangle-armbar-omoplata system from guard or rear naked choke-armbar system from back control, where the structure guarantees attacking progress regardless of defensive choices. Emphasizes that true mastery requires equal development of all branches in the dilemma tree, preventing opponent from identifying and specializing in defending a preferred branch. Teaches that the psychological advantage of effective dilemmas is as important as the mechanical advantage, as opponents who recognize they're in no-win scenarios often make progressively worse decisions under the mental pressure of unavoidable threat.
 - **Gordon Ryan**: Views dilemma creation as the essential mechanism for finishing elite-level opponents who rarely make defensive errors, emphasizing that his competitive success derives largely from forcing opponents into no-win scenarios through systematic dilemma-based attacks. Focuses on what he calls 'system-based finishing' where individual technique success matters less than the overall structural framework that guarantees eventual finishing opportunity through progressive dilemma sequences. Particularly emphasizes the psychological impact of effective dilemmas, noting that opponents who recognize they're in no-win scenarios often make progressively worse defensive decisions under psychological pressure, leading to mistakes they wouldn't make against single-threat attacks. Has developed extensive competition-tested dilemma systems from dominant positions, particularly his back attack system and leg lock sequences, which demonstrate remarkably high finishing rates through comprehensive option coverage. Advocates studying opponent's defensive patterns before matches to predict which branches of dilemma they'll choose, allowing pre-planned exploitation of their defensive tendencies. Notes that even when opponents understand the dilemma structure intellectually, proper execution forces them into losing choices regardless of their knowledge.
 - **Eddie Bravo**: Has constructed entire positional systems explicitly around dilemma creation, most notably his rubber guard system where virtually every position creates multiple simultaneous threats forcing opponent into binary defensive choices. When teaching dilemma concepts, emphasizes the importance of what he calls 'the invisible storm' where opponent faces so many threats simultaneously that cognitive overload degrades defensive decision-making quality beyond just the structural dilemma. Advocates for creative and unorthodox dilemma construction that exploits opponent's unfamiliarity, creating situations where defensive choices are unclear due to novelty rather than clearly structured binary options, which can be even more effective through confusion and hesitation. Particularly emphasizes lockdown-based dilemmas from half guard and rubber guard-based dilemmas from closed guard, both featuring extensive branching sequences covering numerous defensive variations. Views dilemma creation as fundamentally about controlling opponent's decision-making process rather than just their body, forcing them to make choices under time pressure and incomplete information. Notes that unconventional dilemma structures are often more effective than classical ones because opponents haven't drilled defenses and don't recognize the dilemma structure until they're already trapped.

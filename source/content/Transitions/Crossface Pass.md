@@ -8,7 +8,7 @@ description: "Learn Crossface Pass in BJJ. Step-by-step execution from half guar
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Crossface Pass in BJJ. Step-by-step execution from half guar
 
 
 
-> **Quick Answer**: Crossface Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Crossface Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Crossface Pass is a fundamental pressure-passing technique used to pass the 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish strong crossface connection with forearm across opponent's jaw and neck
 - Drive shoulder pressure downward to flatten opponent and prevent hip mobility
 - Control opponent's far arm to prevent effective framing and underhook recovery
@@ -180,7 +180,7 @@ The Crossface Pass is a fundamental pressure-passing technique used to pass the 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Top position in opponent's half guard with one leg trapped between opponent's legs
 - Opponent is on their side or attempting to work underhook battle
 - Ability to establish initial crossface connection before opponent secures deep underhook
@@ -193,7 +193,7 @@ The Crossface Pass is a fundamental pressure-passing technique used to pass the 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish crossface**: Drive your forearm across the opponent's face and neck, positioning the blade of your forearm firmly against their jaw. Your hand should reach toward their far shoulder. Simultaneously, position your head on the opposite side from your trapped leg, creating a wedge that prevents them from turning into you. (Timing: Immediately upon recognizing half guard position)
 2. **Apply shoulder pressure**: Drop your shoulder weight directly onto the opponent's face and neck, driving downward and slightly forward. This pressure should flatten them to their back and make it difficult for them to breathe or frame effectively. Keep your chest heavy and connected to their upper body throughout. (Timing: Continuous throughout the pass)
 3. **Control far arm**: With your free hand, either underhook the opponent's far arm (the arm away from your trapped leg) or pin it to the mat. This prevents them from creating frames or establishing defensive grips. If they're attempting to push your head away, swim your free arm over their arm and secure the underhook position. (Timing: As opponent attempts to create defensive frames)
@@ -206,7 +206,7 @@ The Crossface Pass is a fundamental pressure-passing technique used to pass the 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Deep underhook and hip escape** (Effectiveness: High) - Your Response: Beat them to the underhook position by establishing crossface earlier in the sequence. If they get the deep underhook, switch to alternate passing strategies like the knee slice or backstep. Maintain heavy shoulder pressure to limit their hip mobility even with the underhook.
 - **Electric chair sweep setup (lockdown to crotch lift)** (Effectiveness: Medium) - Your Response: Keep your hips low and weight forward to prevent them from getting under your center of gravity. If you feel them locking down your leg, immediately posture up and address the lockdown before continuing with the crossface pass. Consider switching to a leg weave or smash pass approach.
 - **Frame on face to create distance** (Effectiveness: Medium) - Your Response: Swim your free arm over their framing arm to establish underhook control. Alternatively, use your free hand to strip their frame by grabbing their wrist and pulling it across their body. Increase shoulder pressure to make their frame ineffective, driving through their defensive structure.
@@ -216,25 +216,25 @@ The Crossface Pass is a fundamental pressure-passing technique used to pass the 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Insufficient crossface pressure
+## Common Mistakes
+- **Mistake**: Insufficient crossface pressure
   - **Consequence**: Opponent can turn into you, recover full guard, or create effective frames to prevent the pass
   - **Correction**: Drive your shoulder weight downward, not just across. Think of making your shoulder heavy like a bag of cement on their face. Your forearm should be tight across their jaw with continuous pressure throughout the movement.
-- **Error**: Attempting to extract leg before securing upper body control
+- **Mistake**: Attempting to extract leg before securing upper body control
   - **Consequence**: Opponent uses the space created to recover guard, execute sweeps, or escape position
   - **Correction**: Always establish dominant crossface and far arm control first. Only begin leg extraction once opponent is flattened and their frames are neutralized. Upper body control precedes lower body advancement.
-- **Error**: Weight too far back on hips
+- **Mistake**: Weight too far back on hips
   - **Consequence**: Easy for opponent to sweep or recover guard as your weight is not pinning them down
   - **Correction**: Keep your chest heavy and weight forward over the opponent. Your hips should be low but your upper body pressure must be constant. Think of crushing forward, not sitting back.
-- **Error**: Pulling trapped leg straight back instead of using circular motion
+- **Mistake**: Pulling trapped leg straight back instead of using circular motion
   - **Consequence**: Creates stronger lock from opponent's legs, making extraction difficult or impossible
   - **Correction**: Extract your leg in a circular arc, knee moving up and back, then down and out. This follows the natural anatomy of their leg lock and makes it mechanically difficult to maintain their grip.
-- **Error**: Losing crossface connection during leg extraction
+- **Mistake**: Losing crossface connection during leg extraction
   - **Consequence**: Opponent immediately turns into you and recovers full guard or reverses position
   - **Correction**: Maintain crossface pressure as your primary control point throughout entire technique. Even as you focus on leg extraction, never release or lighten the shoulder pressure on their face and neck.
-- **Error**: High hips during pass completion
+- **Mistake**: High hips during pass completion
   - **Consequence**: Opponent can bridge, shrimp, or reguard easily when your weight is not controlling them
   - **Correction**: Drop your hips to the mat immediately as your leg clears. Your hips should be low and your chest should be heavy on them before they can react. Think of melting your weight onto them as you complete the pass.
 
@@ -243,7 +243,7 @@ The Crossface Pass is a fundamental pressure-passing technique used to pass the 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Positional Familiarization (Week 1-2)** - Understanding crossface mechanics and weight distribution
 Partner starts in half guard with light resistance. Practice establishing crossface position, proper shoulder pressure angle, and maintaining heavy weight while partner gives feedback on pressure points. Focus on feeling the correct body positioning and weight distribution without attempting full pass.
 (Resistance: None)
@@ -274,7 +274,7 @@ Practice transitioning between crossface pass and other half guard passes (knee 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Crossface to Knee Slice Combination**: Establish crossface as normal, but if opponent gets deep underhook, immediately transition to knee slice pass by cutting your knee across their bottom leg while maintaining head control. This prevents them from capitalizing on their underhook advantage. (When to use: When opponent secures deep underhook before you can control far arm)
 
 **Over-Under Crossface Variation**: Instead of controlling far arm with underhook, drive your free arm under their far leg (over-under position) while maintaining crossface with other arm. This creates different leverage and prevents them from shrimping away as you extract your trapped leg. (When to use: Against opponents who are very good at hand fighting and preventing far arm control)
@@ -314,7 +314,7 @@ Practice transitioning between crossface pass and other half guard passes (knee 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the crossface pass, apply shoulder and forearm pressure progressively to allow your partner to adjust to the sensation and tap if uncomfortable. The crossface creates significant pressure on the neck and jaw, so avoid sudden jerking movements that could cause neck injury. Partners should communicate clearly if the pressure becomes excessive or causes pain beyond normal discomfort. When drilling, the bottom person should tap if they experience sharp neck pain, difficulty breathing, or jaw discomfort. The top person must release pressure immediately upon feeling a tap. Ensure adequate mat space during practice as the technique involves significant movement and weight shifting. Build up to full pressure gradually over multiple training sessions rather than applying maximum force from the beginning. Partners with neck injuries or jaw problems should consult with instructors before practicing this technique.
 
@@ -322,7 +322,7 @@ When practicing the crossface pass, apply shoulder and forearm pressure progress
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Crossface Pass is a fundamental component of the half guard passing system and represents a core pressure-passing methodology. It integrates naturally with other half guard attacks such as the Knee Slice Pass, Underhook Pass, and Smash Pass, allowing practitioners to create passing combinations based on opponent reactions. When the opponent defends the crossface by getting deep underhook, the passer can transition to knee slice or backstep passes. If they establish knee shield, the passer can switch to knee cut or long step passing approaches. The crossface position also sets up submission attacks including Kimura, Darce Choke, and Arm Triangle, making it both a passing position and a submission threat platform. This technique teaches essential principles of pressure passing, weight distribution, and upper-body control that apply across many guard passing situations. The crossface pass is particularly effective in no-gi situations and MMA contexts where gi grips are unavailable, making it a critical technique for well-rounded grapplers. Understanding this pass provides the foundation for developing a comprehensive half guard top game and pressure-based passing system.
 
@@ -330,7 +330,7 @@ The Crossface Pass is a fundamental component of the half guard passing system a
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Slice Pass]] - Alternative - Use when opponent gets deep underhook and prevents crossface effectiveness
 - [[Smash Pass]] - Complementary - Similar pressure-based approach with different leg extraction mechanics
@@ -350,7 +350,7 @@ The Crossface Pass is a fundamental component of the half guard passing system a
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The crossface pass represents a fundamental application of superior positional control through head dominance. In grappling, controlling the head provides control of the entire body - this is a biomechanical certainty. The crossface creates a mechanical wedge that restricts the opponent's ability to generate hip movement, which is essential for guard retention. The key technical detail most practitioners miss is the angle of shoulder pressure - it must be directed downward and forward, not merely across. This downward vector prevents the opponent from turning into you and creates the flattening effect necessary for safe leg extraction. The timing of far arm control is critical: secure it before the opponent can establish deep underhook, as the underhook battle becomes significantly more difficult once they have deep connection. Practice the weight distribution carefully - your hips should be mobile for leg extraction, but your upper body pressure must remain constant and heavy throughout the entire sequence.
 - **Gordon Ryan**: The crossface pass is one of my highest percentage techniques in competition because it's incredibly difficult to defend once properly established. The secret to making it work at the highest levels is being proactive with the crossface - you need to get it before they get their underhook, not after. I look to establish the crossface immediately when I'm in their half guard, sometimes even sacrificing other grips to secure it. Once you have the crossface locked in with heavy shoulder pressure, they're in survival mode and their offensive options are severely limited. In my matches, I've found that combining the crossface with a trapped arm variation dramatically increases the success rate - when you can pin their near arm while maintaining the crossface, they have almost zero defensive tools available. The pass becomes a matter of technical extraction rather than a battle. Don't be afraid to take your time once the position is secured - maintaining heavy pressure and systematically extracting your leg is better than rushing and losing the dominant position.
 - **Eddie Bravo**: The crossface pass is solid fundamental technique, but we've developed some interesting variations in the 10th Planet system that address specific problems. One issue with the traditional crossface is that good half guard players will be looking for that deep underhook the second you start pressuring, so we've worked on combining the crossface pressure with quick transitions to other passes when they defend correctly. The key innovation we use is the crossface to lockdown counter - if someone starts to lockdown your leg, instead of fighting it, we immediately posture up and transition to either a leg weave pass or we use the lockdown tension against them by driving our knee through for a smash pass. Another thing we've found effective is using the crossface as a setup for the truck position - if they're defending the pass well, you can sometimes spiral around their legs and take the back door entry to the truck. The crossface creates such a strong control position that it opens up multiple attacking options beyond just the pass itself, which is how we like to approach all positions in our system.

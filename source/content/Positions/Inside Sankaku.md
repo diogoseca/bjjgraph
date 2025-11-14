@@ -13,10 +13,6 @@ description: "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering
 
 
 
-> **Quick Overview**: Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg entanglement position where the opponent's leg is trapped in a figure-four configuration that exposes the inside of their he...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,31 +48,19 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium |
 
-**What Makes This Position Unique:** Hip entanglement with superior control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Inside Sankaku/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Inside Sankaku/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Hip entanglement with superior control
 
 
 
@@ -84,10 +68,13 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 
 <section id="bottom-summary" class="content-section">
 
-## Inside Sankaku Bottom Perspective
+
+## Playing as Bottom
+
+[[Inside Sankaku/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in inside sankaku must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -130,7 +117,7 @@ The bottom player in inside sankaku must focus on creating frames, protecting ag
   - Success Rate: Beginner 10%, Intermediate 18%, Advanced 30%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Turning into opponent trying to pass knee line**
@@ -158,16 +145,17 @@ The bottom player in inside sankaku must focus on creating frames, protecting ag
   - ✅ Correction: Stay calm, follow systematic escape protocols, tap when necessary
 
 
-👉 **[[Inside Sankaku/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Inside Sankaku Top Perspective
+
+## Playing as Top
+
+[[Inside Sankaku/Top|→ Full Top Guide]]
 
 
-The top player in inside sankaku balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -222,7 +210,7 @@ The top player in inside sankaku balances control maintenance with submission at
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Poor hip connection - maintaining too much distance from opponent's hips**
@@ -253,8 +241,6 @@ The top player in inside sankaku balances control maintenance with submission at
   - Consequence: Ineffective submission attempts with poor mechanical advantage, wasted energy, and potential loss of position
   - ✅ Correction: Verify heel position (heel toward your centerline equals inside heel hook), understand the mechanical difference, and attack only when proper angle is established
 
-
-👉 **[[Inside Sankaku/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

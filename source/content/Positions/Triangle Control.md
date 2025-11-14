@@ -13,10 +13,6 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 
 
 
-> **Quick Overview**: Triangle Control represents one of the most powerful submission positions in Brazilian Jiu-Jitsu, where the practitioner has locked their legs around the opponent's neck and one arm, creating an immin...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,7 +48,7 @@ The biomechanics of triangle control favor the attacking practitioner significan
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -60,26 +56,7 @@ The biomechanics of triangle control favor the attacking practitioner significan
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Triangle Control]] | Medium | High | Medium | High | High-reward submission trading stability |
-
 | [[Rear Triangle]] | High | Low | High | Medium | Triangle legs free hands for attacks |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Triangle Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Triangle Control/Top|Top Perspective]]** - Techniques and strategies
-
-
-### By Variation
-
-- **[[Rear Triangle]]** - Triangle applied from back control position
 
 
 
@@ -87,10 +64,13 @@ The biomechanics of triangle control favor the attacking practitioner significan
 
 <section id="bottom-summary" class="content-section">
 
-## Triangle Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Triangle Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in triangle control controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -136,7 +116,7 @@ The bottom player in triangle control controls the position with offensive attac
   - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Crossing legs too low on opponent's back instead of high behind the neck**
@@ -164,16 +144,17 @@ The bottom player in triangle control controls the position with offensive attac
   - ✅ Correction: Elevate hips off ground, using shoulder and upper back as base point while extending legs for maximum compression
 
 
-👉 **[[Triangle Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Triangle Control Top Perspective
+
+## Playing as Top
+
+[[Triangle Control/Top|→ Full Top Guide]]
 
 
-The top player in triangle control manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -216,7 +197,7 @@ The top player in triangle control manages the position strategically based on o
   - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pulling the trapped arm out explosively without addressing posture and hip position first**
@@ -248,8 +229,6 @@ The top player in triangle control manages the position strategically based on o
   - ✅ Correction: Understand the difference between a training tap (preventing injury) and competitive survival—practice staying calm under pressure and working through complete escape sequences
 
 
-👉 **[[Triangle Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -262,7 +241,7 @@ The top player in triangle control manages the position strategically based on o
 
 Triangle applied from back control position
 
-[Explore Rear Triangle →](triangle-control/rear-triangle)
+[Explore Rear Triangle →](./Rear Triangle)
 
 
 

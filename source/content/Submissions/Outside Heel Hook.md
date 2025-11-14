@@ -8,7 +8,7 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 
 
 
-> **Quick Answer**: Outside Heel Hook is a leg lock targeting the Knee joint, ankle joint, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause ACL tear (anterior cruciate ligament rupture) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Outside Heel Hook is a leg lock targeting the Knee joint, ankle joint, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause ACL tear (anterior cruciate ligament rupture). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="safety-considerations" class="content-section">
 
-## Is Outside Heel Hook Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -217,7 +217,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Control the hip to prevent rotation and escape before attacking the heel
 - Cup the heel with arms in figure-four configuration to maximize rotational control
 - Extend hips to create initial tension and straighten the leg
@@ -231,7 +231,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure outside ashi-garami or similar outside leg entanglement position with opponent's leg trapped
 - Control opponent's hip with your inside leg to prevent them rotating their knee line toward you
 - Break opponent's defensive grips on your legs or clothing
@@ -245,7 +245,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish outside ashi-garami position**: Secure outside ashi-garami with your inside leg hooking over opponent's hip and your outside leg controlling their trapped leg from the outside. Your inside leg should prevent them from rotating their knee line toward you, which is their primary defense. Ensure you have broken their grips on your legs and that your position is stable before proceeding to heel control. (Timing: Control phase - no submission pressure yet) [Pressure: Light]
 2. **Cup the heel with both hands**: Reach over the top of opponent's foot and cup their heel with both hands, creating a figure-four grip or similar secure configuration. Your forearm should run along the bottom of their foot with the heel secured in the crook of your elbow. The grip should be firm but the focus is on control, not pressure. Ensure the blade of the forearm is positioned across the Achilles tendon area for maximum control. (Timing: Setup phase - establishing control) [Pressure: Moderate]
 3. **Extend hips to create leg straightness**: Push your hips forward toward your opponent while maintaining heel control, creating extension in their trapped leg. This removes slack from the system and begins to load tension into the knee joint. The leg should become relatively straight but not hyperextended. Your inside leg must maintain constant pressure on their hip to prevent defensive rotation. This extension is crucial for the submission to function properly. (Timing: Tension creation - 2-3 seconds) [Pressure: Moderate]
@@ -258,7 +258,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Rotating knee line inward toward attacker to reduce torque** (Effectiveness: High) - Your Adjustment: Use your inside leg to block their hip and prevent rotation. Increase hip extension to straighten the leg further, making rotation more difficult. Adjust your angle to stay perpendicular to their leg alignment.
 - **Grabbing attacker's legs or pants to prevent position consolidation** (Effectiveness: High) - Your Adjustment: Break grips systematically before attempting the submission. Use your free hand to strip grips while maintaining leg control. Don't rush to the finish until grips are cleared and position is secure.
 - **Rolling toward the attacked leg to relieve pressure** (Effectiveness: Medium) - Your Adjustment: Follow their roll while maintaining heel control and leg entanglement. Your body should rotate with them. Often the roll exposes their back or creates transition opportunities to back control. Don't release the heel during the roll.
@@ -268,28 +268,28 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying sudden or jerking rotation to the heel [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying sudden or jerking rotation to the heel [CRITICAL DANGER]
   - **Consequence**: Catastrophic knee injury to training partner with permanent damage
   - **Correction**: Always apply rotation slowly and progressively over 5-7 seconds minimum in training. Feel for resistance and watch partner for tap signals. Speed in training is never acceptable for heel hooks.
-- **Error**: Attempting submission before securing positional control [CRITICAL DANGER]
+- **Mistake**: Attempting submission before securing positional control [CRITICAL DANGER]
   - **Consequence**: Partner escapes easily and position is lost, or partial pressure applied incorrectly causing injury without proper control
   - **Correction**: Establish outside ashi-garami fully, break all grips, and secure heel control before applying any rotational pressure. Position before submission always.
-- **Error**: Failing to control opponent's hip with inside leg [High DANGER]
+- **Mistake**: Failing to control opponent's hip with inside leg [High DANGER]
   - **Consequence**: Opponent rotates knee line inward, escaping the submission and potentially reversing position
   - **Correction**: Keep constant pressure with inside leg across opponent's hip and lower abdomen. This prevents their primary defensive rotation and maintains outside positioning.
-- **Error**: Insufficient hip extension before rotation [Medium DANGER]
+- **Mistake**: Insufficient hip extension before rotation [Medium DANGER]
   - **Consequence**: Slack in the system reduces submission effectiveness and allows opponent to escape or defend
   - **Correction**: Push hips forward to create full leg extension before rotating heel. The leg should be relatively straight to maximize torque on the knee joint.
-- **Error**: Cupping the heel loosely or with improper grip configuration [High DANGER]
+- **Mistake**: Cupping the heel loosely or with improper grip configuration [High DANGER]
   - **Consequence**: Heel slips during rotation, losing submission and potentially injuring ankle instead of controlling knee
   - **Correction**: Secure heel deep in the crook of your elbow with figure-four or locked hands. Forearm should be blade-edge across Achilles. Test grip security before applying pressure.
-- **Error**: Looking away from partner during finish [CRITICAL DANGER]
+- **Mistake**: Looking away from partner during finish [CRITICAL DANGER]
   - **Consequence**: Missing tap signals leading to serious injury
   - **Correction**: Maintain visual contact with training partner throughout the submission. Watch their face and hands for any tap signal. Never turn away during application.
-- **Error**: Rotating toward inside instead of outside [Medium DANGER]
+- **Mistake**: Rotating toward inside instead of outside [Medium DANGER]
   - **Consequence**: Wrong submission mechanics - either no pressure or straight ankle lock pressure instead of heel hook
   - **Correction**: Rotate heel away from opponent's centerline (outside rotation). Remember 'outside heel hook' means rotating the heel to the outside. Inside rotation is a different attack.
 
@@ -298,7 +298,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Outside heel hook from 50-50 guard**: From 50-50 guard position where legs are mirrored, transition to outside control by freeing your inside leg and establishing it over opponent's hip. This creates the outside ashi position from 50-50, allowing the standard outside heel hook attack. Often used when inside heel hook attempts from 50-50 are defended. (When to use: When opponent successfully defends inside heel hook from 50-50 by controlling your legs, or when you achieve 50-50 but have better outside positioning available)
 
 **Outside heel hook from backside 50-50**: From backside 50-50 (back-to-back leg entanglement), you have natural outside control of opponent's leg. Establish heel control while maintaining back-to-back positioning. The mechanics are similar but your body is facing away from opponent. This variation is common in scrambles and transitions. (When to use: During scrambles from leg entanglements, or when opponent forces backside 50-50 during leg lock exchanges)
@@ -341,7 +341,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-4)** (1 month minimum)
 - Focus: Study mechanics, anatomy, and injury mechanisms without live practice. Watch instructional content, understand knee anatomy, and practice grip configurations on compliant partners without any pressure. Understand the difference between outside and inside heel hooks. Learn tap signals and release protocols.
 - Resistance: None
@@ -378,7 +378,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Outside Ashi-Garami]]
 - [[Cross Ashi-Garami]]
@@ -393,7 +393,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Inside Heel Hook]]
 - [[Heel Hook]]
@@ -430,7 +430,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The outside heel hook represents the logical completion of the leg entanglement system when you have secured outside positional control. What makes this submission particularly effective - and dangerous - is the mechanical advantage created by opposing forces: your hip extension straightening the leg while your arms rotate the foot in the opposite direction, with the knee joint as the unfortunate fulcrum. The key technical detail that separates novice from expert application is understanding that the submission requires complete elimination of defensive rotation before applying finishing pressure. Your inside leg across the opponent's hip is not merely a control point - it is the critical blocker that prevents their only high-percentage escape, which is rotating their knee line toward you to relieve torsional stress. From a systematic perspective, the outside heel hook should be viewed as one node in a network of leg attacks, particularly in relationship to its inside counterpart. When training this technique, recognize that the speed at which ligamentous damage occurs in heel hooks far exceeds other submissions - there is minimal sensory warning before structural failure. Therefore, application in training must be glacially slow, progressive, and coupled with heightened awareness of partner communication. The outside heel hook is not simply a technique; it is a responsibility that requires maturity, control, and deep respect for the vulnerability you are exploiting in your training partner's anatomy.
 - **Gordon Ryan**: The outside heel hook is one of the highest percentage finishes in modern no-gi competition, and understanding when to use outside versus inside positioning is crucial for competitive success. In my experience, the outside heel hook is often more available from scrambles and transitions because opponents are conditioned to defend inside ashi and inside heel hooks more heavily - they've seen more of them, they fear them more, and their defensive habits are built around preventing inside control. This creates opportunities for outside attacks. The key to hitting this in competition is speed of establishment - you need to recognize the outside position is available, secure it before they understand what's happening, and move immediately through your control checkpoints: break grips, establish inside leg on hip, cup heel, extend, finish. In training versus competition, there must be a stark distinction in your application speed. In the training room, you're building technical precision and partnership trust with slow, controlled applications. In competition, once you have established full control, the finish can be quick because you've earned that position through technical superiority. However, you must still be precise - jerky or panicked movements reduce effectiveness even in competition. The submission works through systematic accumulation of control points followed by committed finishing mechanics. One critical competitive detail: if your opponent begins to escape or compromise your position, it's almost always better to transition to another attack or position rather than forcing a compromised heel hook. A heel hook from imperfect position is both less effective and more dangerous.
 - **Eddie Bravo**: The outside heel hook fits perfectly into the leg lock revolution that's transformed modern jiu-jitsu, and from a 10th Planet perspective, it's about being comfortable in chaos and scrambles where these positions appear. A lot of traditional gi training doesn't prepare people for the speed and fluidity of leg entanglements in no-gi, which is why you see so many injuries when people transition to submission-only formats without proper preparation. The innovative aspect of the outside heel hook isn't the mechanics - it's understanding how it chains with other attacks and positions. When I'm teaching this, I emphasize that you're never just doing one thing in a leg entanglement; you're creating a decision tree where every defensive movement opens something else. They defend the outside heel hook by rotating inward? That opens the electric chair sweep or calf slicer. They try to stand? Single leg X-guard is right there. The creativity comes in recognizing these connections and being comfortable transitioning between them. But here's the critical safety element that can't be compromised: no matter how innovative or unorthodox your entries and setups are, the finishing mechanics and training protocols must be conservative and controlled. We've built a strong safety culture around heel hooks at 10th Planet specifically because we train them regularly - everyone understands the tap-early mentality, the slow application in training, and the mutual respect required. You can be innovative in how you enter the position, creative in how you set up the opportunities, but you must be traditional and cautious in how you finish in the training room. That's not optional - that's the price of admission for practicing these techniques.

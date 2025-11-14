@@ -8,7 +8,7 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 
 
 
-> **Quick Answer**: 100% Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 20%, Intermediate 40%, Advanced 60%.
+> 100% Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 20%, Intermediate 40%, Advanced 60%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Isolate opponent's arm across your body to create sweeping leverage and limit their defensive options
 - Break opponent's posture effectively before initiating sweep to disrupt balance
 - Create optimal angle through hip shift to the side of trapped arm for maximum leverage
@@ -192,7 +192,7 @@ The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Closed guard established with legs locked around opponent's waist
 - Control opponent's wrists or sleeves to limit their actions and prevent strikes
 - Maintain tight guard with knees squeezed to keep opponent's posture under control
@@ -205,7 +205,7 @@ The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish Closed Guard Control**: Start in Closed Guard with your legs locked around the opponent's waist, facing them as they posture up or attempt to break your guard. Your hands control their wrists or sleeves to prevent strikes or grip breaks, while maintaining a tight guard to keep their posture under control, and your feet locked securely behind their back to trap them in place.
 2. **Secure Grip Control**: Control the opponent's wrists or sleeves using both hands to limit their actions. Keep your hands actively gripping to prevent them from establishing strong posture or creating space. This grip control is essential for setting up the arm trap in the next steps and preventing them from posting their hands to defend.
 3. **Break Opponent's Posture**: Maintain a tight guard by squeezing your knees together to break the opponent's posture. Pull them down using your legs and core, ensuring your head is positioned defensively to avoid being easily stacked. Keep strong tension in your closed guard to limit their movement and prepare for the arm isolation.
@@ -222,7 +222,7 @@ The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Posture Recovery - opponent regains upright posture before arm trap is secured** (Effectiveness: High) - Your Response: If they recover posture early, maintain arm trap and chain to another closed guard attack like triangle or omoplata. You can also wait for them to lean forward again before re-attempting the sweep, or use their upright posture to attack with armbar.
 - **Arm Freeing - opponent pulls trapped arm free from control with strong grip break** (Effectiveness: Medium) - Your Response: If they free their arm, immediately transition to two-on-one control on their remaining arm or switch to a different guard attack like Hip Bump Sweep or Scissor Sweep. Use their arm freeing motion as an opportunity to set up a different sweep or submission.
 - **Base Widening - opponent lowers center of gravity and widens base to resist roll** (Effectiveness: Medium) - Your Response: If they widen their base, adjust your hip angle more aggressively to create additional leverage or use their lowered posture to transition to other attacks like kimura or guillotine. Their defensive base widening often opens up submission opportunities.
@@ -231,22 +231,22 @@ The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Ineffective arm trap or control - failing to secure strong grip on opponent's arm
+## Common Mistakes
+- **Mistake**: Ineffective arm trap or control - failing to secure strong grip on opponent's arm
   - **Consequence**: Opponent easily frees arm or maintains balance, allowing them to defend or posture up and counter the sweep attempt
   - **Correction**: Secure a strong overhook or grip and pull the arm tightly across your body with active pressure. The arm should be trapped against your torso, not just loosely controlled. Maintain constant tension on the trapped arm throughout the entire movement.
-- **Error**: Poor hip angle or insufficient shift - not creating enough lateral movement
+- **Mistake**: Poor hip angle or insufficient shift - not creating enough lateral movement
   - **Consequence**: Reduces leverage for the sweep, making the rolling action difficult or impossible. Opponent resists with their base easily.
   - **Correction**: Shift your hips significantly to the side of the trapped arm to create the optimal angle (approximately 45 degrees or more). The hip movement should be pronounced and committed, creating a clear angle that allows you to roll them over the fulcrum of their trapped shoulder.
-- **Error**: Lack of posture breaking before sweep - attempting sweep while opponent maintains upright posture
+- **Mistake**: Lack of posture breaking before sweep - attempting sweep while opponent maintains upright posture
   - **Consequence**: Allows opponent to maintain balance and stability, making the sweep impossible to complete. They can easily counter with posture recovery or pass your guard.
   - **Correction**: Pull the opponent down with your legs and core to disrupt their posture first before attempting the sweep. Their upper body should be leaning forward and off-balance before you initiate hip movement. Never attempt this sweep against a fully postured opponent.
-- **Error**: Weak planted foot position - not establishing solid base with the free leg
+- **Mistake**: Weak planted foot position - not establishing solid base with the free leg
   - **Consequence**: Insufficient power generation for the hip drive, resulting in a slow or failed sweep that the opponent can easily defend.
   - **Correction**: Plant your foot firmly on the mat close to your hip with proper position for maximum push-off power. The planted leg should be positioned to drive your hips explosively upward and to the side. Your foot placement is critical for generating the necessary force.
-- **Error**: Hesitation during execution - pausing between setup and sweep completion
+- **Mistake**: Hesitation during execution - pausing between setup and sweep completion
   - **Consequence**: Gives opponent time to recognize the attack and recover their base or free their trapped arm, negating all your setup work.
   - **Correction**: Execute the sweep as one continuous fluid motion from arm trap through hip drive to completion. Once you commit to the sweep, follow through without pausing. The entire technique should flow seamlessly from posture break to sweep completion in 2-3 seconds.
 
@@ -255,7 +255,7 @@ The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Solo Drilling Phase** - Hip shift and arm trap mechanics without partner
 Practice hip shift movements and arm trap positioning without a partner to develop muscle memory. Focus on the mechanics of creating the proper angle and understanding the body movements required. Use a grappling dummy if available to simulate arm control and practice the rolling motion.
 (Resistance: None)
@@ -286,7 +286,7 @@ Apply the 100% Sweep in full sparring and competition simulation rounds. Focus o
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standard 100% Sweep with Gi Grips**: Classic closed guard sweep with arm trap across body using traditional gi grips on sleeve and collar. Uses the gi fabric for enhanced control and tighter arm isolation before executing hip shift. (When to use: Standard gi training and competition when opponent postures up or attempts to break guard with hands on your chest or collar)
 
 **Overhook Variation**: Using a deep overhook instead of wrist or sleeve control for tighter arm isolation. The overhook provides more secure arm control but requires closer range and prevents opponent from posting their hand. (When to use: When opponent has strong grips or when you can secure a deep overhook during guard breaks. Particularly effective when opponent tries to stand or create distance.)
@@ -328,7 +328,7 @@ Apply the 100% Sweep in full sparring and competition simulation rounds. Focus o
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the 100% Sweep, execute with control to avoid injuring your partner when they fall. The sweep can result in a hard landing if done too explosively, particularly in beginner settings where partners may not know how to breakfall properly. Be prepared to adjust if the sweep fails or your opponent counters, as forcing a failed sweep can leave you vulnerable to guard passing or strikes in MMA contexts. Ensure your training partner is ready for the dynamic guard movement and understands how to fall safely by tucking their chin and using breakfall techniques. Always practice in a controlled environment with proper mats to prevent injury from falls. When learning the technique, use slower speeds and progressive resistance to develop proper mechanics before attempting at full intensity. In competition, be aware of the rules regarding slamming, as following through too aggressively on the sweep could be interpreted as a slam in some rule sets.
 
@@ -336,7 +336,7 @@ When practicing the 100% Sweep, execute with control to avoid injuring your part
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The 100% Sweep is a crucial component of an advanced closed guard attack system, fitting into the broader closed guard framework alongside other sweeps and submissions. It works particularly well in combination with Hip Bump Sweep, Scissor Sweep, and triangle attacks, creating multi-faceted dilemmas for opponents. From Closed Guard, if the opponent defends the 100% Sweep by recovering posture, you can transition to triangle or armbar attacks. If they defend by widening their base, you can switch to other sweep variations or guillotine attempts. The technique integrates into competition strategy as a high-percentage move for scoring sweep points (2 points in IBJJF rules) and can lead directly to mount (4 additional points) for a total of 6 points in one sequence. Understanding the 100% Sweep also teaches fundamental principles of limb isolation and angle creation that apply to many other advanced guard techniques including omoplata sweeps and other arm-trap based attacks. It represents an evolution from basic closed guard sweeps toward more sophisticated control-based attacks that rely on precise positioning rather than pure athleticism.
 
@@ -344,7 +344,7 @@ The 100% Sweep is a crucial component of an advanced closed guard attack system,
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Omoplata Sweep]] - Alternative attack from similar arm trap position in closed guard
 - [[Muscle Sweep]] - Follow-up option if 100% Sweep is defended but arm control maintained
@@ -362,7 +362,7 @@ The 100% Sweep is a crucial component of an advanced closed guard attack system,
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The 100% Sweep is an advanced closed guard technique that exemplifies the principle of isolating a limb to create sweeping leverage through precise biomechanical advantage. The key is in trapping the arm across the body and using precise hip movement to off-balance the opponent, demonstrating how positional control can overcome strength and athleticism. This sweep teaches critical principles of limb isolation and angle creation that are essential for sophisticated guard systems at the highest levels of competition. The biomechanics rely on creating a fulcrum with the trapped arm while your hip shift generates the rotational force needed to roll the opponent over their shoulder. Understanding this principle allows you to apply similar mechanics to numerous other sweeping situations throughout Brazilian Jiu-Jitsu, including omoplata sweeps, flower sweeps, and other arm-trap based techniques. The technique also demonstrates the importance of breaking posture before attempting dynamic movements - without proper posture disruption, even perfect mechanics will fail against a balanced opponent.
 - **Gordon Ryan**: In competition, the 100% Sweep is a high-percentage move from closed guard, especially against opponents who posture aggressively or try to stand up to break the guard. I focus on securing the arm trap tight against my body and exploding through the hip shift to ensure they roll over cleanly without giving them time to recover their base. This technique shows how advanced guard sweeps can be adapted into dominant attacks from the bottom that score points while advancing position dramatically. When I hit this sweep in competition, I immediately look to consolidate to mount or take the back if they turn away during the roll. The success rate is particularly high when combined with threats of triangle or armbar, forcing opponents to defend multiple attacks simultaneously and creating openings for the sweep. It's become a staple in my closed guard game because it scores points while advancing position dramatically - you can get 6 points in one sequence if you land directly in mount. The key is making them think you're setting up a submission so they defend high, then attacking their base with the sweep.
 - **Eddie Bravo**: The 100% Sweep is a slick advanced sweep that blends classic closed guard concepts with modern control principles, offering a reliable way to reverse position when opponents try to break your guard aggressively. It's a great move for grapplers who like to isolate limbs and create dynamic sweeps, often chaining into submissions or back takes depending on how they defend. This sweep integrates well with systems that prioritize fluid transitions and off-balancing from the guard rather than static control. In the 10th Planet system, we use similar principles but often adapt the technique for no-gi by focusing on underhook or wrist control instead of sleeve grips, and we're more likely to chain it with rubber guard attacks or triangle setups. The hip movement and angle creation remain the same, showing how traditional techniques can be innovated for modern grappling contexts. I love teaching this because it demonstrates that you don't need to muscle people - proper leverage, timing, and creating the right angle are everything. When you get that arm trapped and your hip angle is perfect, even big strong guys are going over whether they like it or not.

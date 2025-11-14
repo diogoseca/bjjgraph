@@ -8,7 +8,7 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 60% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner is on their back with at least one foot actively placed against opponent's bicep, arm, or hip creating extension and distance control through the leg
 - Strong grip control on opponent's sleeves (double sleeve grip) or collar and sleeve combination, with grips maintained at or above opponent's elbows for maximum control leverage
@@ -199,7 +197,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent in standing or combat base position within guard range
 - Successful establishment of sleeve grip controls on opponent's arms
@@ -227,7 +225,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Triangle Setup]] → [[Triangle Control]]
 
@@ -291,7 +289,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Spider Guard Pass]]** → [[Side Control]] (Opponent Success: 40%)
 - **[[Knee Cut Pass]]** → [[Side Control]] (Opponent Success: 45%)
@@ -304,7 +302,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Lasso Guard Sweeps]]** → [[Side Control]]
   - Opponent attempts to stack or step around guard
@@ -346,7 +344,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

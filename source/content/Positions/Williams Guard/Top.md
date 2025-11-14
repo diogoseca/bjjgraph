@@ -8,7 +8,7 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 15% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 15%.
 
 ---
 
@@ -187,7 +187,7 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner's arm is controlled in shoulder lock configuration by bottom player, with figure-four grip or similar shoulder manipulation creating constant submission threat that must be actively defended through proper joint alignment and positioning
 - Top practitioner maintains posture and base with free arm and legs while working to prevent bottom player from completing shoulder lock submission or transitioning to more dominant attacking positions such as omoplata or back control
@@ -199,7 +199,7 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has established shoulder lock grip configuration on your arm
 - You are positioned in combat base, standing, or transitional passing position within guard range
@@ -226,7 +226,7 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Arm Extraction]] → [[Combat Base]]
 
@@ -276,7 +276,7 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Williams Shoulder Lock]]** → [[Lost by Submission]] (Opponent Success: 45%)
 - **[[Omoplata Sweep]]** → [[Mount]] (Opponent Success: 50%)
@@ -289,7 +289,7 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Stack Pass]]** → [[Side Control]]
   - Opponent commits heavily to shoulder lock finish and loses leg frame pressure
@@ -329,7 +329,7 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

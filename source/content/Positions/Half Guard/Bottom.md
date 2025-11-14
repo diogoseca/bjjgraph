@@ -8,7 +8,7 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Success in Half Guard Bottom requires mastering the fundamental battle for upper
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player's legs trap one of top player's legs at or below the knee, creating the fundamental half guard entanglement with the trapped leg serving as primary control point
 - Bottom player maintains connection to top player through frames, underhooks, or grips while positioned on their side or back with shoulders angled toward top player
@@ -204,7 +202,7 @@ Success in Half Guard Bottom requires mastering the fundamental battle for upper
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - One of top player's legs successfully trapped between bottom player's legs at knee or thigh level
 - Bottom player on side or back with sufficient mobility to create angles and prevent complete flattening
@@ -232,7 +230,7 @@ Success in Half Guard Bottom requires mastering the fundamental battle for upper
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Underhook Sweep from Half]] → [[Side Control]]
 
@@ -296,7 +294,7 @@ Success in Half Guard Bottom requires mastering the fundamental battle for upper
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 45%)
 - **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 50%)
@@ -309,7 +307,7 @@ Success in Half Guard Bottom requires mastering the fundamental battle for upper
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Re-Guard]]** → [[Closed Guard]]
   - Opponent attempts knee slice pass - recover full guard by inserting knee shield and framing
@@ -359,7 +357,7 @@ Success in Half Guard Bottom requires mastering the fundamental battle for upper
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mo
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mo
 
 
 
-> **Quick Answer**: Uchi Mata transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Uchi Mata transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Break opponent's posture and balance before attempting the throw
 - Use rotational hip movement to generate throwing power
 - Sweep the supporting leg with your inner thigh while they're off-balance
@@ -185,7 +185,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established clinch position with appropriate grips (collar and sleeve, or over-under)
 - Opponent standing relatively upright with weight distributed
 - Sufficient space to execute rotational movement
@@ -198,7 +198,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish dominant grips**: Secure a high collar grip with your right hand (for right-sided throw) and control the left sleeve or tricep. In no-gi, establish an over-under or underhook position. Your grips should be strong enough to control your opponent's upper body throughout the throw. (Timing: Before initiating movement)
 2. **Break opponent's posture**: Pull downward and forward with your collar grip while simultaneously pushing or pulling with your sleeve hand to break your opponent's upright posture. They should feel slightly off-balance forward and to their left side. This is the critical kuzushi phase that makes the throw possible. (Timing: 1-2 seconds before entry)
 3. **Step in with entry foot**: Step your right foot deep between your opponent's legs, placing it slightly to the outside of their right foot. Your foot should point in the direction you're throwing (toward their left side). This step should be explosive and committed, bringing your hip in close contact with their hip. (Timing: Immediately after kuzushi)
@@ -212,7 +212,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls their hips back to prevent hip contact** (Effectiveness: High) - Your Response: Chain to different throw such as Osoto Gari or adapt to Kouchi Gari. If they over-sprawl, switch to front headlock position or single leg attack.
 - **Opponent posts their free leg wide to maintain base** (Effectiveness: Medium) - Your Response: Continue rotation and adapt to a different angle, or switch to Harai Goshi by hooking their posted leg. Alternatively, drive them backward into a different throwing direction.
 - **Opponent grips your belt or pants to prevent rotation** (Effectiveness: Medium) - Your Response: Use their grip as an anchor point and increase your rotational speed. Break their posture more aggressively before entering. In no-gi, this counter is less effective.
@@ -221,25 +221,25 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Insufficient kuzushi before attempting throw
+## Common Mistakes
+- **Mistake**: Insufficient kuzushi before attempting throw
   - **Consequence**: Opponent maintains their balance and base, making the throw impossible to complete. You expend energy without achieving the takedown and may expose yourself to counter-attacks.
   - **Correction**: Always break your opponent's posture first with deliberate pulling and pushing actions. Wait for them to feel off-balance before stepping in. Practice kuzushi drills separately to develop this sensitivity.
-- **Error**: Stepping too shallow with entry foot
+- **Mistake**: Stepping too shallow with entry foot
   - **Consequence**: Your hip doesn't make proper contact with their hip, eliminating the leverage point needed for the throw. The technique becomes a weak pulling motion instead of a powerful hip throw.
   - **Correction**: Step deep between their legs, almost to the point where your right foot is outside their right foot. Your hip should collide with theirs. Drill the entry step repeatedly to develop muscle memory.
-- **Error**: Sweeping with the outer thigh instead of inner thigh
+- **Mistake**: Sweeping with the outer thigh instead of inner thigh
   - **Consequence**: This transforms the technique into a different throw (Harai Goshi) that requires different body mechanics. The technique loses effectiveness and may fail completely.
   - **Correction**: Focus on lifting your knee high and sweeping backward with the inside of your thigh. The contact point should be the meaty part of your inner thigh against their inner thigh, not your outer thigh against their outer thigh.
-- **Error**: Poor grip maintenance during rotation
+- **Mistake**: Poor grip maintenance during rotation
   - **Consequence**: Opponent escapes mid-throw and you lose control of the position. You may end up in an inferior position or with your back exposed.
   - **Correction**: Maintain death grips throughout the entire throw. Your collar grip should pull them forward and down, while your sleeve grip controls their arm. Practice grip endurance training.
-- **Error**: Not committing fully to the rotation
+- **Mistake**: Not committing fully to the rotation
   - **Consequence**: Half-hearted rotation results in an incomplete throw where opponent lands on their side or feet instead of their back. You waste energy and gain no positional advantage.
   - **Correction**: Once you've entered, commit 100% to the rotational movement. Turn your head and shoulders in the throwing direction. Think of spinning your entire body clockwise (for right-sided throw). The throw requires full commitment.
-- **Error**: Failing to control the descent and landing
+- **Mistake**: Failing to control the descent and landing
   - **Consequence**: Even if the throw succeeds, opponent may escape during landing or you may lose positional control, negating the advantage gained from the takedown.
   - **Correction**: Maintain your grips throughout the landing and follow your opponent's body down. Position yourself to land in side control or north-south immediately. Practice throw-to-pin transitions.
 
@@ -248,7 +248,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Entry mechanics** - Master the stepping and hip placement without resistance
 Practice the entry step repeatedly with a compliant partner. Focus on stepping deep, making hip contact, and proper foot placement. Drill kuzushi separately. Execute 20-30 entries per session without completing the throw. Partner should provide feedback on hip contact and positioning.
 (Resistance: None)
@@ -279,7 +279,7 @@ Continuously refine mechanics based on success rate in live training. Develop se
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Ashi Uchi Mata (foot sweep variation)**: Instead of sweeping with the inner thigh, use your foot to hook and sweep their supporting leg. This variation requires less hip contact and can be executed from greater distance. (When to use: Against opponents who prevent close hip contact or in no-gi situations where maintaining distance is preferable. Effective when opponent is moving backward.)
 
 **Hane Uchi Mata (spring throw)**: A more dynamic version where you spring off your support leg to generate additional upward lift. The sweeping leg action is more of a spring motion than a sweep. (When to use: Against shorter opponents or when you need maximum elevation to complete the throw. Requires excellent timing and athleticism but generates spectacular results.)
@@ -321,7 +321,7 @@ Continuously refine mechanics based on success rate in live training. Develop se
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Uchi Mata is a high-impact throwing technique that requires proper safety protocols during training. Both partners must be competent in breakfalls (ukemi) before practicing this throw with any speed or power. The person being thrown should keep their chin tucked and slap the mat with their arm to dissipate impact force. Never practice on hard surfaces without proper mats (minimum 1.5 inch thickness recommended). When first learning, use crash pads or stacked mats for extra cushioning. The thrower must control the descent and not release grips until the throw is complete, as releasing mid-air can cause the opponent to land awkwardly on their head or neck. Start all training at slow speed with cooperative partners and gradually increase resistance over weeks. Avoid practicing throws when fatigued, as this leads to poor technique and increased injury risk. If you have pre-existing knee, hip, or ankle injuries, consult with a sports medicine professional before training Uchi Mata, as the rotational forces place significant stress on these joints. During competition, ensure proper warm-up and understand the rules regarding slamming versus controlled throws.
 
@@ -329,7 +329,7 @@ Uchi Mata is a high-impact throwing technique that requires proper safety protoc
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Uchi Mata serves as a fundamental cornerstone of an effective standing game in Brazilian Jiu-Jitsu, bridging the gap between traditional judo-based throwing systems and modern BJJ positional strategies. Unlike guard pulls that concede top position, Uchi Mata allows you to dictate where the match takes place by forcefully putting your opponent on their back while you land in a dominant position. This technique integrates seamlessly into the BJJ positional hierarchy because successful execution typically results in side control or mount, the two highest-value positions in sport BJJ. Within a complete grappling system, Uchi Mata works best when chained with complementary throws: use it in combination with Osoto Gari, Kouchi Gari, and Tai Otoshi to create a diverse standing attack system where each throw sets up another. The technique also serves as an excellent counter to opponents who attempt to pull guard, as you can catch them mid-motion and complete the throw while they're off-balance. Modern competitors like Travis Stevens and Kayla Harrison have demonstrated how judo-based throws like Uchi Mata can be adapted to BJJ rules while maintaining effectiveness. The position is particularly valuable in competition formats that reward takedowns heavily (IBJJF awards 2 points) and allows you to begin the match in a position where you're actively working toward a submission rather than playing defensively from bottom.
 
@@ -337,7 +337,7 @@ Uchi Mata serves as a fundamental cornerstone of an effective standing game in B
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Osoto Gari]] - Combination attack - fake Uchi Mata to draw forward defense, then execute Osoto Gari
 - [[Harai Goshi]] - Similar throw family - alternative when hip positioning differs
@@ -357,7 +357,7 @@ Uchi Mata serves as a fundamental cornerstone of an effective standing game in B
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Uchi Mata represents one of the most biomechanically efficient throwing techniques in all of grappling because it exploits the fundamental weakness of human bipedal structure: our reliance on single-leg support during movement. When properly executed, Uchi Mata creates a situation where the opponent's entire body weight is concentrated on one supporting leg, which you then remove from under them while simultaneously rotating their upper body over your hip. The beauty of this technique lies in its use of rotational momentum rather than pure strength - you're not lifting your opponent through muscular effort alone, but rather redirecting their mass through space using angular velocity. The critical insight is that Uchi Mata is actually two simultaneous actions: the hip becomes a fulcrum point while your sweeping leg removes their base, creating a lever system where even a smaller practitioner can throw a significantly larger opponent. What separates elite execution from mediocre attempts is the precision of your entry angle and the timing of your leg sweep relative to your hip rotation. These elements must be synchronized with millisecond precision, which is why Uchi Mata requires extensive repetition to develop the necessary neuromuscular patterns. From a systems perspective, Uchi Mata should never be trained in isolation but always as part of a throwing system where it serves as both a primary attack and a setup for complementary techniques that capitalize on different defensive reactions.
 - **Gordon Ryan**: In high-level competition, Uchi Mata is one of the most reliable throwing techniques because it's extremely difficult to counter once you've established proper grips and positioning. I've used variations of this throw successfully against world-class opponents because it generates so much force that even if they partially defend it, you often end up in a scramble position that favors you. The key difference between drilling Uchi Mata and using it in competition is the grip fighting that precedes the throw - you're not going to get your ideal grips easily against someone who knows what's coming. I typically use Uchi Mata as part of a sequence: threaten with a different throw to force a defensive reaction, then capitalize on their movement by hitting the Uchi Mata when they're already off-balance. The mistake I see most competitors make is trying to force the throw even when the setup isn't there. Against elite grapplers, you might only get one or two clean opportunities per match, so you need to recognize the opening instantly and commit fully. I also find that Uchi Mata pairs exceptionally well with no-gi grappling because the body mechanics don't rely on gi grips - I've had great success using it in ADCC with underhook configurations. The other competition advantage is that even a partially successful Uchi Mata often results in a scramble where your opponent is on their back or side, giving you immediate top position to work from. If you're serious about developing a takedown game that works at the highest levels, Uchi Mata should be one of your core techniques because it has such a high success rate when properly executed and integrated into your system.
 - **Eddie Bravo**: Uchi Mata is old-school judo excellence that absolutely has a place in modern no-gi grappling, but you need to adapt it for the unique situations we face in submission-only and MMA contexts. In 10th Planet, we work Uchi Mata variations from the clinch, especially when we have an underhook or over-under position, because the rotational mechanics work perfectly without gi grips. The cool thing about Uchi Mata is that even if you don't complete the throw perfectly, the explosive rotation and off-balancing often creates openings for other attacks - maybe you transition to front headlock, maybe you get a body lock, or maybe you end up in a weird scramble where your opponent's back is exposed. I teach my students to think of throws like Uchi Mata not as isolated techniques but as entries into our ground systems. If you land the throw and get side control, that's awesome, but the real skill is being able to chain immediately into your submission sequences or back take options. One innovation we've been developing is using Uchi Mata-style mechanics from unconventional positions - like when you're in a standing front headlock and you want to throw them while maintaining the headlock control. The inner thigh sweep motion is incredibly versatile. Another thing: don't sleep on Uchi Mata as a defense against leg lock entries. If someone shoots in for your legs and you time it right, you can catch them mid-shot and throw them with a modified Uchi Mata while they're committed to the attack. That's the creative application of fundamentals that separates good grapplers from innovators.

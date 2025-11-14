@@ -167,11 +167,11 @@ Each insight: 2-3 sentences with distinct perspective
 
 ### Required Sections by Content Type
 
-**Positions (S###):** State Description, Visual Description (4-8 sentences), Key Principles (5-7), Offensive Transitions (min 6), Defensive Responses (min 4), Decision Tree (min 3 conditions), Expert Insights (all 3), Common Errors (min 5), Training Drills (min 3), Related Positions (min 3)
+**Positions (S###):** State Description, Visual Description (4-8 sentences), Key Principles (5-7), Offensive Transitions (min 6), Defensive Responses (min 4), Decision Tree (min 3 conditions), Expert Insights (all 3), Common Mistakes (min 5), Training Drills (min 3), Related Positions (min 3)
 
-**Transitions (T###):** Overview & Properties, Visual Execution Sequence, Setup Requirements (min 6), Execution Steps (min 6), Common Counters (min 3), Physical Requirements, Expert Insights (all 3), Common Errors (min 5), Variations & Setups (min 2), Knowledge Assessment (min 5 questions)
+**Transitions (T###):** Overview & Properties, Visual Execution Sequence, Setup Requirements (min 6), Execution Steps (min 6), Common Counters (min 3), Physical Requirements, Expert Insights (all 3), Common Mistakes (min 5), Variations & Setups (min 2), Knowledge Assessment (min 5 questions)
 
-**Submissions (SUB###):** Safety Notice (mandatory), Overview & Properties, Visual Finishing Sequence, Setup Requirements (min 6), Execution Steps (min 6), Anatomical Targeting & Injury Awareness, Training Progressions (6 phases), Expert Insights (all 3 with safety emphasis), Common Errors (min 5 + safety errors), Knowledge Assessment (min 6 questions including safety)
+**Submissions (SUB###):** Safety Notice (mandatory), Overview & Properties, Visual Finishing Sequence, Setup Requirements (min 6), Execution Steps (min 6), Anatomical Targeting & Injury Awareness, Training Progressions (6 phases), Expert Insights (all 3 with safety emphasis), Common Mistakes (min 5 + safety errors), Knowledge Assessment (min 6 questions including safety)
 
 ### Content IDs
 
@@ -229,7 +229,7 @@ Schema markup is **generated automatically** by Jinja2 templates during build, n
 
 **Schema Types Generated:**
 - **HowTo Schema:** Position and transition pages (step-by-step techniques)
-- **FAQ Schema:** Common errors converted to Q&A format
+- **FAQ Schema:** Common mistakes converted to Q&A format
 - **BreadcrumbList:** Navigation hierarchy (Home → Category → Page)
 - **WebPage:** Page metadata and site relationship
 

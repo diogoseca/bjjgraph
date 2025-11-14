@@ -8,7 +8,7 @@ description: "Master systematic attack chains in BJJ. Learn reaction-based combi
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master systematic attack chains in BJJ. Learn reaction-based combi
 
 
 
-> **Quick Answer**: Offensive Combinations is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Offensive Combinations is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Offensive Combinations represent the sophisticated tactical framework of linking
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Structure attacks around opponent's defensive responses creating deliberate reaction chains
 - Maintain offensive pressure throughout combination preventing defensive recovery or reset
 - Integrate positional improvements with submission threats creating multi-dimensional pressure
@@ -181,7 +181,7 @@ Offensive Combinations represent the sophisticated tactical framework of linking
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Reaction Recognition**: The ability to identify opponent's defensive patterns and predict which defensive responses will follow specific attacking actions, enabling selection of appropriate follow-up techniques before opponent commits to defensive movement.
 
 **Seamless Transitioning**: Maintaining offensive pressure and control through technical transitions between attacks, eliminating recovery windows where opponent can reset position or escape systematic pressure being applied.
@@ -204,7 +204,7 @@ Offensive Combinations represent the sophisticated tactical framework of linking
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Submission Chains]]** (Prerequisite): Understanding fundamental submission chains provides the mechanical foundation upon which sophisticated offensive combinations build, as combination effectiveness depends on fluid execution of connected submission attempts.
 - **[[Action and Reaction]]** (Prerequisite): The principle of creating and exploiting reactions forms the theoretical basis for offensive combinations, as combinations fundamentally structure attacks around predicted defensive responses to initial threatening actions.
 - **[[Dilemma Creation]]** (Complementary): Offensive combinations operationalize dilemma creation by presenting connected threats where defending against one attack necessarily exposes vulnerabilities to alternatives, making these concepts mutually reinforcing in application.
@@ -220,7 +220,7 @@ Offensive Combinations represent the sophisticated tactical framework of linking
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Classic triangle-armbar-omoplata combination from mount where each submission attempt creates specific defensive reactions that expose subsequent attacks, with high mount variations enabling seamless transitions between finishing threats.
 
 **Back Control**: Rear naked choke combinations with armbar and triangle alternatives where defending the primary choke opens arm isolation opportunities, and hand fighting creates structural compromises enabling alternative submissions.
@@ -257,7 +257,7 @@ Offensive Combinations represent the sophisticated tactical framework of linking
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess opponent's defensive tendencies and skill level**: Observe how opponent typically responds to specific attacking threats, identifying patterns that indicate which combination entries will generate most predictable defensive reactions for systematic exploitation.
 2. **Select primary attack path based on positional control and opponent vulnerabilities**: Choose initial attacking sequence aligned with current position advantages and opponent defensive weaknesses, establishing combination foundation that creates branching opportunities based on expected responses.
 3. **Execute initial attack with sufficient commitment to generate genuine reaction**: Apply first technique with adequate pressure and technical precision to force opponent into defensive response while maintaining tactical readiness to transition based on how defense manifests.
@@ -270,25 +270,25 @@ Offensive Combinations represent the sophisticated tactical framework of linking
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Executing techniques in predetermined rigid sequences without reading opponent responses
+## Common Mistakes
+- **Mistake**: Executing techniques in predetermined rigid sequences without reading opponent responses
   - **Consequence**: Combinations become predictable and ineffective as opponent learns sequence patterns, while missing optimal attacking opportunities that defensive reactions actually present during live execution.
   - **Correction**: Develop adaptive combination execution where technique selection branches based on opponent's actual defensive responses rather than following memorized sequences, creating responsive rather than robotic offensive application.
-- **Error**: Releasing pressure during transitions between combination elements
+- **Mistake**: Releasing pressure during transitions between combination elements
   - **Consequence**: Opponent gains recovery windows to reset defensive structure or escape systematic pressure, transforming what should be continuous offensive cycles into disconnected individual technique attempts.
   - **Correction**: Maintain constant physical and psychological pressure throughout all transitional moments, ensuring opponent remains in reactive defensive mode without opportunities to establish stable defensive positions between attacks.
-- **Error**: Attempting combinations from insufficient positional control foundations
+- **Mistake**: Attempting combinations from insufficient positional control foundations
   - **Consequence**: Combination attempts become low-percentage scrambles rather than systematic attacks, as inadequate position doesn't provide stability necessary for fluid transitions between offensive techniques.
   - **Correction**: Establish dominant positional control before initiating combination sequences, ensuring foundational position provides stability required for seamless transitions while maintaining offensive pressure throughout attack chains.
-- **Error**: Using insufficient commitment on initial attacks to generate genuine reactions
+- **Mistake**: Using insufficient commitment on initial attacks to generate genuine reactions
   - **Consequence**: Opponent doesn't respond defensively to half-hearted initial attempts, eliminating the reaction-based vulnerabilities that subsequent combination techniques are designed to exploit.
   - **Correction**: Execute initial attacks with adequate commitment and technical precision to force genuine defensive responses while maintaining tactical awareness necessary to exploit the vulnerabilities these responses create.
-- **Error**: Continuing combinations past optimal finishing opportunities
+- **Mistake**: Continuing combinations past optimal finishing opportunities
   - **Consequence**: Missing high-percentage submission opportunities by unnecessarily extending combination flow, allowing opponent recovery time when committed finishing attempt would have succeeded.
   - **Correction**: Develop recognition of when accumulated defensive compromises create finishing windows worthy of full commitment, balancing systematic pressure maintenance with decisive finishing when opportunities emerge.
-- **Error**: Building combinations exclusively around submission attempts without positional integration
+- **Mistake**: Building combinations exclusively around submission attempts without positional integration
   - **Consequence**: Creates one-dimensional offensive approach where failed submissions leave practitioner without positional improvements, reducing overall effectiveness compared to systems integrating positional advances with submission threats.
   - **Correction**: Structure combinations to include both submission attempts and positional improvements where each element supports the other, creating self-reinforcing offensive cycles where any path produces tactical advantages.
 
@@ -297,7 +297,7 @@ Offensive Combinations represent the sophisticated tactical framework of linking
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Combination Drilling** (Focus: Building foundational combination patterns from dominant positions with emphasis on seamless transitions and pressure maintenance throughout offensive sequences.)
 Systematic practice of position-specific combination sequences with progressive resistance, developing unconscious transitional fluidity while establishing muscle memory for common defensive response patterns and appropriate technical reactions.
 
@@ -322,7 +322,7 @@ Long-term focus on building comprehensive position-specific offensive systems wi
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Executes basic two-technique combinations from stable positions with adequate technical precision when opponent provides expected defensive responses
 - Maintains offensive pressure through single transition between connected techniques without releasing control or allowing defensive recovery
@@ -356,7 +356,7 @@ Long-term focus on building comprehensive position-specific offensive systems wi
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Submission Chains]] (Principle) - Foundation for combination development providing mechanical connections between related submissions
 - [[Triangle to Armbar]] (Transition) - Classic combination transition demonstrating reaction-based technical linking
@@ -377,7 +377,7 @@ Long-term focus on building comprehensive position-specific offensive systems wi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches offensive combinations through systematic analysis of biomechanical connections between techniques, developing what he terms attacking systems where each submission relates mechanically to alternatives creating comprehensive offensive frameworks. Emphasizes importance of understanding why combinations work at mechanical level—how defensive reactions to one technique create specific vulnerabilities for connected attacks—enabling practitioners to recognize combination opportunities during live situations rather than merely executing memorized sequences. Systematizes combination development through hierarchical structures where fundamental submission chains like triangle-armbar-omoplata and kimura-americana-straight armbar form foundation upon which position-specific variations build. Views offensive combinations not as separate from positional control but as integrated systems where dominant positions exist specifically to enable systematic attacking combinations, making positional dominance and submission offense mutually reinforcing rather than competing tactical priorities.
 - **Gordon Ryan**: Views offensive combinations as primary competitive weapons that convert positional advantages into concrete victories through systematic pressure. Focuses on developing what he describes as finishing systems where entire training camps structure around specific combination paths from signature positions, creating unconscious execution capability under maximum competition pressure. Emphasizes importance of opponent-specific combination selection where pre-competition analysis identifies defensive patterns suggesting which combination entries will prove most effective against particular opponents. In his approach, elite offensive performance derives not from vast technique repertoire but from extreme depth in core combination systems, creating situations where even when opponents know combination is coming, the systematic pressure and seamless transitions make defense practically impossible despite theoretical knowledge. Demonstrates this philosophy through competition performances where signature combinations finish opponents repeatedly despite complete familiarity with attacking sequences.
 - **Eddie Bravo**: Has developed signature offensive combinations within 10th Planet system that often link unconventional positions and submission paths not commonly emphasized in traditional BJJ. Teaches combination concept he calls the web where each position has multiple interconnected attacking paths creating dense offensive networks rather than linear combination sequences. Advocates for developing creative combination paths that opponents haven't extensively trained against, creating effectiveness through novelty alongside mechanical soundness. Views offensive combinations as areas where innovation can create competitive advantages, encouraging students to experiment with non-traditional technique linking while respecting fundamental principles of pressure maintenance and reaction exploitation. Rubber guard system exemplifies this philosophy with combinations connecting triangle, omoplata, gogoplata, and various chokes through unique structural pathways that generate success partially through opponents' unfamiliarity with defensive requirements.

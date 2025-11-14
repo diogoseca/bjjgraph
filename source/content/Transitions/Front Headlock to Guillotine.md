@@ -8,7 +8,7 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 
 
 
-> **Quick Answer**: Front Headlock to Guillotine transitions from [[Front Headlock]] to [[Guillotine Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Front Headlock to Guillotine transitions from [[Front Headlock]] to [[Guillotine Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant downward pressure on the opponent's head throughout the transition to prevent them from posturing up
 - Secure deep hand positioning under the chin before committing to the guillotine grip to ensure maximum choking efficiency
 - Control the opponent's far shoulder with your non-choking arm to prevent them from turning away or escaping laterally
@@ -184,7 +184,7 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Dominant front headlock position established with head controlled and pulled down
 - One arm wrapped around the opponent's neck with hand gripping their far shoulder or tricep
 - Opponent's posture broken with their head below their hips
@@ -198,7 +198,7 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure front headlock control**: Establish a tight front headlock by wrapping your arm around the opponent's neck with your hand gripping their far shoulder or tricep. Your chest should be heavy on the back of their head, forcing their posture down. Keep your hips close to their head and your knees bent for mobility. Your free hand can post on the mat or control their near arm to prevent defensive reactions. (Timing: Initial control position - maintain until opponent shows movement)
 2. **Identify the transition moment**: Wait for the opponent to attempt an escape by either trying to stand up, driving forward to pass, or pulling their head backward. These movements create the perfect moment for the transition as they are actively working against your control, making them vulnerable to the grip change. You'll feel them start to extend their neck or create upward pressure - this is your cue to act. (Timing: React immediately when opponent initiates escape movement)
 3. **Slide choking arm deep**: As the opponent moves, quickly slide your choking arm deeper around their neck, bringing your wrist and forearm past their trachea to the far side of their neck. Your goal is to get your wrist bone positioned under their chin rather than across their throat. Drive your shoulder forward and down while pulling their head into your chest to maintain control during this adjustment. This depth is critical for the effectiveness of the guillotine. (Timing: Execute quickly during opponent's movement - 0.5 to 1 second window)
@@ -211,7 +211,7 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent tucks chin and creates a defensive frame with their hands between their neck and your arm** (Effectiveness: High) - Your Response: If they establish a strong chin tuck before your grip, transition to a darce or anaconda choke instead, or use the front headlock to take the back. Don't force a shallow guillotine as it wastes energy and allows them to escape. You can also use short chops with your forearm to create openings to deepen your grip.
 - **Opponent postures up strongly and creates distance by pushing on your hips or extending their spine** (Effectiveness: High) - Your Response: If they successfully posture before you secure the grip, maintain the front headlock and wait for another opportunity. Follow their movement by circling your hips and maintaining head control. You can also transition to a snap down or use the front headlock to set up a darce or anaconda choke as they attempt to escape.
 - **Opponent turns into you and secures an underhook, beginning to pass to half guard or side control** (Effectiveness: Medium) - Your Response: If they start to turn in, you must decide quickly whether to abandon the guillotine and transition to a darce choke, or commit fully by jumping to closed guard and pulling them into you before they can complete the turn. The darce is often the higher percentage option when they turn in early. Alternatively, use their turning momentum to roll them over for a guillotine from top position.
@@ -220,22 +220,22 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting the guillotine with insufficient arm depth, choking across the throat rather than under the chin
+## Common Mistakes
+- **Mistake**: Attempting the guillotine with insufficient arm depth, choking across the throat rather than under the chin
   - **Consequence**: Results in a weak choke that opponent can defend by tucking chin, causes injury risk to trachea, and wastes energy without securing the submission
   - **Correction**: Focus on sliding your wrist and forearm completely past their throat to the far side of their neck before establishing the grip. Your wrist bone should be under their chin, not across their windpipe. Take the extra half-second to achieve proper depth even if it means slightly releasing pressure momentarily.
-- **Error**: Releasing head control prematurely during the grip transition, allowing opponent to posture up
+- **Mistake**: Releasing head control prematurely during the grip transition, allowing opponent to posture up
   - **Consequence**: Opponent escapes the position entirely, stands up, or passes your guard before you can establish the guillotine control
   - **Correction**: Maintain chest pressure on their head throughout the entire transition. Your chest and shoulder should be heavy on the back of their head even as your arms are adjusting positions. Think of the transition as one continuous motion rather than separate steps.
-- **Error**: Failing to pull guard or adjust body position, attempting to finish from standing without proper leverage
+- **Mistake**: Failing to pull guard or adjust body position, attempting to finish from standing without proper leverage
   - **Consequence**: Opponent can easily defend by gripping their own leg, turning away, or simply standing up into your guard with good posture
   - **Correction**: As soon as the guillotine grip is secured, make a decisive choice: pull guard immediately, jump to closed guard, or maintain standing position but ensure your hips are forward and under their chest. The worst position is a half-committed stance where you're neither standing nor guarding effectively.
-- **Error**: Creating space between your chest and the opponent during the finishing squeeze
+- **Mistake**: Creating space between your chest and the opponent during the finishing squeeze
   - **Consequence**: Reduces choking pressure significantly and allows opponent to create defensive frames, turn away, or escape the position entirely
   - **Correction**: Pull the opponent's body tight into yours throughout the finish. There should be no space between your chest and their upper body. Think of the finish as pulling them into you while simultaneously squeezing and lifting, not just using arm strength alone.
-- **Error**: Allowing elbows to flare out wide during the grip or finishing attempt
+- **Mistake**: Allowing elbows to flare out wide during the grip or finishing attempt
   - **Consequence**: Opponent can swim their arms inside your control, establish underhooks, or turn into you to escape or counter with a pass
   - **Correction**: Keep your elbows glued to your ribcage throughout the entire technique. Your arms should form a tight frame that the opponent cannot penetrate. This also increases the mechanical advantage of the choke by creating better leverage angles.
 
@@ -244,7 +244,7 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip positioning and basic transition movement
 Start with stationary drilling from established front headlock position. Partner remains still while you practice sliding your arm deep and establishing the guillotine grip. Focus on getting your wrist bone past their throat and under their chin consistently. Drill the motion of pulling guard or jumping to closed guard separately. Aim for 20-30 repetitions per session to build muscle memory for proper arm depth.
 (Resistance: None)
@@ -275,7 +275,7 @@ Experiment with different grip variations (arm-in guillotine, high-elbow, ten-fi
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Arm-In Guillotine**: When the opponent's arm gets trapped inside the guillotine position (between their neck and your body), adjust your grip to account for this by positioning your choking arm higher on their neck and squeezing their own arm into their carotid artery. This variation is actually more effective than the standard guillotine in many situations as it creates additional pressure from their own shoulder. (When to use: Use when opponent successfully gets an underhook or their arm becomes trapped during the transition. This often happens when they're turning into you or attempting to pass. The arm-in variation is particularly effective in no-gi and when opponent is very defensive with their chin.)
 
 **High Elbow Guillotine**: Instead of keeping elbows tight to the body, raise your choking-side elbow high while maintaining the grip. This changes the angle of pressure to attack the arteries more directly rather than crushing the trachea. The high elbow creates a different leverage angle that many opponents aren't prepared to defend. Finish by pulling your high elbow toward your opposite hip while pulling their head down. (When to use: Effective when opponent has a very strong chin defense or thick neck that makes traditional guillotine difficult. Also works well from standing position where you have room to elevate the elbow. Popular in no-gi grappling and particularly effective against wrestlers who are used to defending standard guillotines.)
@@ -317,7 +317,7 @@ Experiment with different grip variations (arm-in guillotine, high-elbow, ten-fi
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the Front Headlock to Guillotine transition, both partners must maintain clear communication and respect tap signals immediately. The guillotine choke can cause loss of consciousness within 4-6 seconds when properly applied, so practitioners should tap early rather than risk injury. When drilling, apply pressure gradually and progressively, never jerking or slamming the choke on suddenly. Partners should be especially careful during the transition phase when the practitioner is adjusting their grip, as this is when the opponent's neck is most vulnerable to awkward pressure or cranking. Beginners should practice with very light pressure, focusing on positioning and mechanics rather than finishing the choke. When the choking partner feels a tap, they should release immediately and create space. The person being choked should tap on their partner's body, the mat, or verbally if their arms are controlled. Never attempt this technique with full force on training partners who are significantly smaller or less experienced, and always err on the side of caution when practicing. In competition scenarios, recognize that your opponent may not tap until unconsciousness is imminent, so be prepared to hold the position consistently but also to recognize when to release if a referee intervenes. Avoid practicing this technique when fatigued, as tired athletes are more likely to apply dangerous pressure or fail to recognize a tap in time.
 
@@ -325,7 +325,7 @@ When practicing the Front Headlock to Guillotine transition, both partners must 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Front Headlock to Guillotine transition is a cornerstone technique within the broader front headlock system, which represents one of the most versatile and effective positional frameworks in modern Brazilian Jiu-Jitsu. This transition connects the dominant front headlock control position to a high-percentage submission finish, but it also serves as a gateway to multiple other attacks including the darce choke, anaconda choke, and various back takes. Within the positional hierarchy, the front headlock sits between neutral/scramble positions and dominant submission positions, making it a critical transitional zone where matches are often won or lost.
 
@@ -337,7 +337,7 @@ From a strategic perspective, this transition exemplifies the principle of submi
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Front Headlock]] - Starting Position - the control position from which this transition begins
 - [[Guillotine Control]] - Ending Position - the submission control position achieved by this transition
@@ -360,7 +360,7 @@ From a strategic perspective, this transition exemplifies the principle of submi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The front headlock to guillotine transition represents a fundamental conversion from control to submission that every grappler must master. The critical detail that separates effective practitioners from ineffective ones is the depth of arm penetration during the transition. Your forearm must travel completely past the opponent's trachea to position the wrist bone under their chin - this is not negotiable. I emphasize to my students that the transition occurs in the moment of opponent movement, specifically when they attempt to stand or drive forward. Their movement creates the window of opportunity where defensive awareness is divided and neck position is vulnerable. The mechanical finish of the guillotine involves creating a scissoring action between your arms and hips - your arms pull the head down while your hips extend forward, creating opposing vectors of force that maximize pressure on the carotid arteries. Most practitioners fail because they rely purely on arm strength rather than understanding these mechanical principles. The guillotine exists within a larger system of front headlock attacks, and your opponent must respect all available options - the darce, anaconda, and back take - or they will be submitted. This creates what I call a 'submission trap' where defending one option opens another, giving the skilled practitioner multiple pathways to victory.
 - **Gordon Ryan**: In competition, the front headlock to guillotine is one of the highest percentage submissions available, but only if you commit to it completely and execute the details correctly. I've won numerous matches with this technique because opponents either don't respect the threat or they defend incorrectly. The key detail I've found through competition experience is that you must pull guard immediately when you secure the grip - standing guillotines work sometimes, but closed guard guillotines are far more reliable because opponent can't create the distance needed to escape. When I transition, I'm looking for opponent to make any forward movement or attempt to stand, and the moment they do, I'm sliding my arm deep and sitting back to closed guard in one motion. If they defend by turning into me, I don't waste energy forcing a guillotine that won't work - I immediately transition to darce or anaconda. This is crucial in competition where energy management matters. The other detail that improved my finish rate significantly is keeping my elbows absolutely glued to my ribcage throughout the finish. When elbows flare out, opponent can swim their arms inside and start to escape. Tight elbows create a frame they cannot penetrate. I also emphasize to training partners that the finish should be progressive - start at maybe sixty percent pressure and increase gradually rather than exploding to one hundred percent immediately. This gives you time to feel their defensive reactions and adjust, rather than burning out your arms in the first three seconds.
 - **Eddie Bravo**: The guillotine from front headlock is a bread and butter move in 10th Planet system because it works in both gi and no-gi, and it sets up perfectly from wrestling exchanges and scrambles where we operate. The variation I teach differs slightly from traditional approaches - we emphasize the arm-in guillotine as the primary attack rather than treating it as a backup option. When someone's arm gets trapped, that's actually the ideal scenario because their own shoulder creates additional pressure on their carotid artery. The way we enter it from front headlock is to anticipate that their arm will be inside, and we position our attack accordingly from the beginning. We also chain the guillotine with the twister and other truck position attacks because they all start from similar front headlock or turtle attack positions. One detail that's crucial but often overlooked is the angle of your body when you pull guard - you don't want to fall straight back, you want to fall slightly to the side so that your body weight helps crank their neck at an angle. This creates additional pressure and makes it harder for them to turn into you. We drill this transition constantly in our fundamentals classes because it appears in so many situations - failed takedown attempts, turtle defense, guard recovery scrambles. The modern game is full of these wrestling-style exchanges where the guillotine becomes available, so having a tight front headlock to guillotine transition is absolutely essential. I also tell students to not be afraid of the standing guillotine with legs wrapped - if you have good conditioning and core strength, hanging on opponent's neck with your full bodyweight creates incredible pressure that's very difficult to defend.

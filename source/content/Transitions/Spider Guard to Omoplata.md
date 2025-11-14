@@ -8,7 +8,7 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
 
 
 
-> **Quick Answer**: Spider Guard to Omoplata transitions from [[Spider Guard]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+> Spider Guard to Omoplata transitions from [[Spider Guard]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Spider Guard to Omoplata is a fundamental attacking transition that combines
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain strong sleeve control throughout the transition
 - Use foot pressure on biceps to break opponent's posture and create angle
 - Time the leg swing when opponent commits weight forward or tries to stand
@@ -186,7 +186,7 @@ The Spider Guard to Omoplata is a fundamental attacking transition that combines
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Spider guard established with both feet on biceps and sleeve grips
 - Opponent's posture compromised forward or attempting to stand
 - Strong grip on opponent's sleeve on the attacking side
@@ -198,7 +198,7 @@ The Spider Guard to Omoplata is a fundamental attacking transition that combines
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish spider guard control**: From spider guard, secure both sleeves with deep grips, placing both feet on opponent's biceps. Apply constant pressure outward with your legs to extend their arms and compromise their posture. (Timing: Setup phase - establish stable control)
 2. **Identify attacking side**: Choose the side where opponent's weight is more committed forward or where their arm is more extended. Strengthen your grip on that sleeve while maintaining foot pressure on that bicep to prevent arm withdrawal. (Timing: Recognition phase - read opponent's position)
 3. **Remove opposite foot**: Take your foot off the non-attacking side bicep and place it on the mat or opponent's hip for base. This allows you to generate rotational momentum while maintaining control of the attacking side. (Timing: Preparation - create mobility)
@@ -212,7 +212,7 @@ The Spider Guard to Omoplata is a fundamental attacking transition that combines
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent stacks by driving weight forward and stepping around** (Effectiveness: High) - Your Response: As they stack, immediately transition to triangle by bringing your bottom leg up and over their back, or roll backward into a sweep. Don't try to force the omoplata against a committed stack.
 - **Opponent pulls their trapped arm free during leg swing** (Effectiveness: Medium) - Your Response: If you feel the arm escaping, immediately adjust to triangle setup or hip bump sweep. Maintain your sleeve grip on the other arm to retain guard control and prevent them from achieving dominant position.
 - **Opponent stands up explosively as you attack** (Effectiveness: Medium) - Your Response: If they stand, use your leg over their shoulder to pull them back down while simultaneously sweeping their far leg with your bottom leg. This creates a powerful sweep opportunity to reverse position.
@@ -221,22 +221,22 @@ The Spider Guard to Omoplata is a fundamental attacking transition that combines
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing sleeve grip too early during transition
+## Common Mistakes
+- **Mistake**: Releasing sleeve grip too early during transition
   - **Consequence**: Opponent can pull their arm free and escape the entire position, often passing your guard in the process
   - **Correction**: Maintain death grip on the sleeve throughout the entire movement. Only release when you have secured the omoplata position completely with your legs and body weight.
-- **Error**: Swinging leg too slowly or tentatively
+- **Mistake**: Swinging leg too slowly or tentatively
   - **Consequence**: Opponent recognizes the attack and can easily counter by backing away or stacking before you establish position
   - **Correction**: The leg swing must be explosive and committed. Use your grounded foot to generate power and swing your leg decisively over their shoulder in one fluid motion.
-- **Error**: Failing to sit up immediately after leg crosses
+- **Mistake**: Failing to sit up immediately after leg crosses
   - **Consequence**: Opponent maintains upright posture and can easily escape or counter-attack with guard pass
   - **Correction**: Sit up explosively as soon as your leg crosses their shoulder. Your chest must come to their back immediately to break their posture and establish control.
-- **Error**: Not controlling opponent's hips with bottom leg
+- **Mistake**: Not controlling opponent's hips with bottom leg
   - **Consequence**: Opponent can easily roll forward and escape the shoulder lock entirely
   - **Correction**: Your bottom leg should hook around their far hip or thread under their body to prevent forward rolling escapes. This hip control is essential for maintaining the position.
-- **Error**: Attacking when opponent's base is too wide or posture too strong
+- **Mistake**: Attacking when opponent's base is too wide or posture too strong
   - **Consequence**: Technique fails completely as opponent has stable platform to resist and counter
   - **Correction**: Wait for opponent to commit weight forward, attempt to stand, or have compromised base before initiating. Use spider guard pressure to create these opportunities rather than forcing the attack.
 
@@ -245,7 +245,7 @@ The Spider Guard to Omoplata is a fundamental attacking transition that combines
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Movement Pattern** - Master the leg swing and sit-up motion without resistance
 Partner holds still in spider guard position while you practice swinging your leg over their shoulder and sitting up. Focus on smooth, explosive movement and maintaining sleeve control throughout. Repeat 20-30 times per training session.
 (Resistance: None)
@@ -272,7 +272,7 @@ Practice the entire sequence from guard establishment through finish during full
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Omoplata from Lasso Guard**: Instead of both feet on biceps, use one lasso hook around the arm while the other foot controls the bicep. The lasso provides even stronger control of the attacking-side arm, making the transition more secure but slightly slower. (When to use: When opponent is very defensive with their arms and you need maximum control during the transition. Especially effective in gi.)
 
 **Rolling Omoplata Entry**: If opponent's posture is very low and forward, instead of sitting up, you can roll backward over your shoulder while maintaining the leg position, using momentum to come up into the omoplata from the opposite angle. (When to use: When opponent is extremely heavy on top and sitting up directly would be too difficult. Also works well as a surprise attack from defensive positions.)
@@ -310,7 +310,7 @@ Practice the entire sequence from guard establishment through finish during full
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When training the spider guard to omoplata transition, both partners must exercise control to prevent shoulder injuries. The person executing the technique should apply pressure gradually and stop immediately if the partner taps or shows discomfort. The omoplata attacks the shoulder joint, which is vulnerable to dislocation and rotator cuff injuries if excessive force is applied suddenly. During drilling, focus on position control rather than finishing the submission until you have developed sensitivity to the technique. Partners defending should tap early and not attempt to power through the shoulder pressure, as this significantly increases injury risk. When practicing the leg swing, be mindful of your partner's neck and avoid dropping your full weight suddenly onto their upper back.
 
@@ -318,7 +318,7 @@ When training the spider guard to omoplata transition, both partners must exerci
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Spider Guard to Omoplata serves as a fundamental attack in modern guard systems, particularly in gi grappling. It exemplifies the principle of chaining sweeps and submissions together, where the threat of the omoplata forces defensive reactions that open up other attacks. This technique integrates seamlessly with spider guard sweeps like the triangle setup and scissor sweep, creating a multi-layered attacking system where each defense opens another attack. Understanding this transition is essential for developing a complete spider guard game, as it forces opponents to respect your attacks and creates opportunities for other techniques. The omoplata itself can lead to further transitions including back takes, sweeps, and triangle chokes, making it a gateway position rather than just a submission finish.
 
@@ -326,7 +326,7 @@ The Spider Guard to Omoplata serves as a fundamental attack in modern guard syst
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Spider Guard]] - Starting position - foundational guard position
 - [[Omoplata Control]] - Ending position - shoulder lock control position
@@ -346,7 +346,7 @@ The Spider Guard to Omoplata serves as a fundamental attack in modern guard syst
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The spider guard to omoplata represents a fundamental principle of positional attack sequences: using opponent defensive reactions to create offensive opportunities. When you establish spider guard with proper sleeve and bicep control, you create a mechanical disadvantage for your opponent - they must either accept being swept or commit their weight forward to establish posture. The omoplata attacks precisely this forward weight commitment. The key technical element is understanding that the leg swing over the shoulder is not merely a position change, but a lever manipulation. Your shin across their back creates a fulcrum point, while your sleeve control and hip movement provide the force to rotate their shoulder beyond its safe range. Master practitioners recognize that the omoplata itself is often secondary to the positional dominance it creates - from omoplata control, you can access back takes, sweeps, and triangle variations, making it a true hub position in guard attack systems. The timing of when to attack is biomechanically determined: attack when their base is narrow and weight is forward, never when they have established a wide stable base.
 - **Gordon Ryan**: In competition, the spider guard to omoplata works best as part of a multi-attack sequence rather than as an isolated technique. I use spider guard primarily to create reactions - if they stay defensive and resist breaking grips, I sweep them; if they drive forward aggressively to break my guard, that's when the omoplata is highest percentage. The key is making them uncomfortable enough with your spider guard pressure that they commit to an action, then capitalizing on that commitment. When executing the transition, speed and commitment are everything. Hesitation gets you stacked or passed. I swing my leg over explosively and sit up immediately - this gives them no time to recognize and counter. In high-level competition, opponents will often defend by rolling forward, which is actually advantageous if you're prepared - I follow the roll and either take the back or complete the sweep. The omoplata finish itself rarely works against elite opponents, but the control position opens up back takes and triangle attacks that do work. Train this transition with the mindset that it's part of a system, not a single technique, and always have your next two attacks planned based on their defensive reaction.
 - **Eddie Bravo**: From a 10th Planet perspective, the spider guard to omoplata is interesting because it shows how traditional gi techniques can inform no-gi concepts, even though we don't use spider guard in the same way. The underlying principle - using leverage to manipulate the shoulder while controlling their arm - is universal. In our system, we achieve similar results from rubber guard positions where we can control the head and arm to set up omoplatas, but the spider guard version shows why sleeve control is so powerful in gi. The explosion and commitment required for this transition perfectly demonstrates what I teach about attacking from guard: you have to make the opponent respect multiple threats simultaneously. If they only worry about the omoplata, they'll defend it easily. But if they're also concerned about triangles, sweeps, and armbars from your spider guard, the omoplata becomes much more available. The sit-up motion when your leg crosses over is critical - this is pure explosive power and timing, which translates directly to no-gi. In training, I emphasize chaining this with triangle attacks because the defensive movements are opposite, creating perfect dilemma situations where defending one opens the other.

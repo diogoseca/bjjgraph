@@ -8,7 +8,7 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,7 +193,7 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom practitioner maintains at least one leg entangled with opponent's leg, with the inside or outside leg hooking behind the opponent's knee or across their thigh to prevent leg extraction and maintain positional connection throughout control phase
 - Arms secure opponent's leg across the torso in figure-four, gable grip, or over-under configuration, with hands positioned near the ankle or lower calf, maintaining constant pulling pressure toward the chest to prevent opponent from posturing away
@@ -206,7 +204,7 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent's leg has been isolated through guard pulling, scramble, or purposeful leg entanglement entry
 - Bottom practitioner has established arm control around opponent's leg with secure grip configuration
@@ -234,7 +232,7 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Kneebar Finish]] → [[Won by Submission]]
 
@@ -312,7 +310,7 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Ashi Garami Escape]]** → [[Standing Position]] (Opponent Success: 45%)
 - **[[Leg Extraction]]** → [[Open Guard]] (Opponent Success: 40%)
@@ -326,7 +324,7 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Heel Hook]]** → [[Won by Submission]]
   - Opponent exposes heel while attempting to clear knee line during escape
@@ -375,7 +373,7 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

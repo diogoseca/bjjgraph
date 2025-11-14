@@ -13,10 +13,6 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 
 
 
-> **Quick Overview**: Inverted Guard is a modern guard position where the practitioner turns upside-down, with their back facing the ground and legs positioned upward toward the opponent. This position creates unique angle...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,31 +48,19 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short to Medium | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Medium |
 
-**What Makes This Position Unique:** Upside-down mobility for dynamic angles
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Inverted Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Inverted Guard/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Upside-down mobility for dynamic angles
 
 
 
@@ -84,10 +68,13 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 
 <section id="bottom-summary" class="content-section">
 
-## Inverted Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Inverted Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in inverted guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -142,7 +129,7 @@ The bottom player in inverted guard balances defensive frames with offensive opp
   - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Insufficient shoulder pressure with weight on neck instead of shoulder blades**
@@ -174,16 +161,17 @@ The bottom player in inverted guard balances defensive frames with offensive opp
   - ✅ Correction: Establish strategic grips on sleeves, collar, or pants that enable rotational movement and prevent opponent from consolidating passing position
 
 
-👉 **[[Inverted Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Inverted Guard Top Perspective
+
+## Playing as Top
+
+[[Inverted Guard/Top|→ Full Top Guide]]
 
 
-The top player in inverted guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -232,7 +220,7 @@ The top player in inverted guard enjoys offensive advantages with access to subm
   - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Overcommitting weight forward into berimbolo sequence without proper base**
@@ -263,8 +251,6 @@ The top player in inverted guard enjoys offensive advantages with access to subm
   - Consequence: Stalemate situation where opponent conserves energy while you expend effort attempting to pass
   - ✅ Correction: Force opponent to abandon inverted position through sustained pressure, grip controls, and strategic positioning that eliminates their transitional options
 
-
-👉 **[[Inverted Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

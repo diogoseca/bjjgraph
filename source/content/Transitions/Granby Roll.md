@@ -8,7 +8,7 @@ description: "Master the Granby Roll escape technique in BJJ. Essential defensiv
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Granby Roll escape technique in BJJ. Essential defensiv
 
 
 
-> **Quick Answer**: Granby Roll transitions from [[Turtle]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Granby Roll transitions from [[Turtle]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Granby Roll is a fundamental defensive movement technique that allows a prac
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Roll over the shoulder closest to open space, never into your opponent's control
 - Maintain shoulder blade contact with the mat throughout the roll to protect the neck
 - Generate explosive hip extension and leg drive to complete the rotation
@@ -186,7 +186,7 @@ The Granby Roll is a fundamental defensive movement technique that allows a prac
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent attempting to establish back control from turtle position
 - Space available on one side to roll into (not trapped against the wall)
 - Opponent's weight shifted forward or grips not fully established
@@ -199,7 +199,7 @@ The Granby Roll is a fundamental defensive movement technique that allows a prac
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Identify escape direction**: From turtle position, quickly assess which side has more open space and where your opponent's weight is distributed. The optimal direction is typically away from where their chest is pressuring and toward the side where their grips are weakest. Look for the shoulder you will roll over. (Timing: Immediately when sensing back take attempt)
 2. **Tuck chin and position shoulder**: Tuck your chin tightly to your chest and angle the shoulder on your escape side downward toward the mat. Your ear should nearly touch your shoulder. This protects your neck and creates the proper angle for the roll. Keep your elbows tight to your ribs to prevent arm drags or kimura attacks. (Timing: Before initiating the roll)
 3. **Post opposite hand**: The hand opposite to your rolling direction posts firmly on the mat near your hip to provide base and prevent being flattened. This hand acts as a pivot point and helps generate rotational force. Keep this arm strong but ready to release as you commit to the roll. (Timing: Simultaneously with shoulder positioning)
@@ -213,7 +213,7 @@ The Granby Roll is a fundamental defensive movement technique that allows a prac
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent follows the roll and maintains back pressure** (Effectiveness: High) - Your Response: Chain into a second Granby Roll in the opposite direction, or transition to a sit-out and turn to face them. Use the momentum they give you by following to create additional rotation and scrambling opportunities.
 - **Opponent sprawls and flattens you mid-roll** (Effectiveness: High) - Your Response: Abandon the roll and immediately shrimp away to create space, then attempt a technical stand-up or different escape. Do not force the roll when flattened as this exposes your back completely.
 - **Opponent secures seat belt grip during the roll** (Effectiveness: Medium) - Your Response: Continue the roll but fight the choking hand immediately upon completing rotation. Use your completed guard position to strip grips and prevent the rear naked choke while establishing defensive frames.
@@ -223,25 +223,25 @@ The Granby Roll is a fundamental defensive movement technique that allows a prac
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rolling directly over the neck instead of shoulder blade
+## Common Mistakes
+- **Mistake**: Rolling directly over the neck instead of shoulder blade
   - **Consequence**: Severe risk of neck injury, stinger nerve damage, or cervical spine compression. The technique fails and you may be temporarily unable to defend.
   - **Correction**: Always tuck chin completely and ensure shoulder blade makes first contact with mat. Practice the movement slowly to build muscle memory for proper shoulder positioning. Your ear should nearly touch your shoulder throughout the roll.
-- **Error**: Rolling into opponent's control rather than open space
+- **Mistake**: Rolling into opponent's control rather than open space
   - **Consequence**: Opponent easily establishes mount, back control, or submission as you roll directly into their position. You give them the position you were trying to escape.
   - **Correction**: Always identify the open space before initiating. Roll toward the side where opponent has less control and away from their chest pressure. Develop spatial awareness through drilling with eyes closed.
-- **Error**: Insufficient hip drive and leg extension
+- **Mistake**: Insufficient hip drive and leg extension
   - **Consequence**: The roll lacks momentum and stalls halfway, leaving you inverted and vulnerable. Opponent can easily flatten you or take the back during the incomplete movement.
   - **Correction**: Generate explosive power from the legs as if performing a bridge or hip thrust. The movement should be violent and committed, not tentative. Practice with a partner holding your ankles to build the necessary leg drive.
-- **Error**: Extending elbows away from body during the roll
+- **Mistake**: Extending elbows away from body during the roll
   - **Consequence**: Arms become isolated for kimura, arm drag, or armbar attacks. Opponent can control your arms and prevent the escape completely.
   - **Correction**: Keep elbows glued to ribs throughout entire movement. Imagine holding a ball against your chest that cannot drop. If arms must be used for posting, retract them immediately as you commit to the roll.
-- **Error**: Failing to establish guard immediately after completing roll
+- **Mistake**: Failing to establish guard immediately after completing roll
   - **Consequence**: Opponent passes directly into side control or mount as you lie on your back. The escape succeeds but you end in an equally bad position.
   - **Correction**: The Granby Roll must chain immediately into guard recovery. As your hips hit the mat, legs should already be extending toward opponent for frames. Practice the complete sequence: roll to guard, not just roll to back.
-- **Error**: Telegraphing the movement with obvious weight shifts
+- **Mistake**: Telegraphing the movement with obvious weight shifts
   - **Consequence**: Opponent anticipates the roll and times their counter perfectly, often securing back control or submissions during your attempt.
   - **Correction**: Develop the ability to explode into the Granby Roll from a static position without loading or shifting weight first. The movement should appear sudden and unpredictable. Practice explosive entries from neutral turtle position.
 
@@ -250,7 +250,7 @@ The Granby Roll is a fundamental defensive movement technique that allows a prac
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Solo Movement Pattern** - Develop proper shoulder roll mechanics and spatial awareness
 Practice solo Granby Rolls focusing exclusively on rolling over the shoulder blade, not the neck. Start from hands and knees, tuck chin, and roll to back position. Perform 20 repetitions per training session, alternating directions. Focus on smooth rotation and maintaining shoulder contact with mat. No partner resistance.
 (Resistance: None)
@@ -281,7 +281,7 @@ Dedicated flexibility work for spine and shoulders including yoga, gymnastic bri
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double Granby Roll (Chain Roll)**: Execute two consecutive Granby Rolls in opposite directions when opponent follows the first roll. The second roll uses their forward momentum against them and often creates a significant scramble or allows you to come on top. (When to use: When opponent aggressively follows your first Granby Roll and drives their weight forward. Common in no-gi when opponents pursue back control relentlessly.)
 
 **Granby Roll to Single Leg X**: As you complete the Granby Roll, instead of establishing traditional guard, immediately hook one of opponent's legs and establish Single Leg X Guard. This offensive variation uses the roll to enter directly into a sweep position. (When to use: Against opponents who back away after you Granby Roll, leaving one leg extended. Particularly effective in no-gi where leg entanglements are common.)
@@ -323,7 +323,7 @@ Dedicated flexibility work for spine and shoulders including yoga, gymnastic bri
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Granby Roll carries inherent risk of neck injury if executed improperly. Always ensure you roll over the shoulder blade and upper back, never over the neck or cervical spine. Practitioners should develop adequate flexibility in the spine and shoulders before attempting this technique at full speed or under resistance. Start with slow, controlled solo drilling to establish proper mechanics. If you feel any pain in the neck during the roll, stop immediately and reassess your technique. The roll should be practiced on appropriate mats with sufficient padding. Beginners should work with experienced instructors to ensure proper progression and avoid developing dangerous habits. Never force the technique when your opponent has you flattened or when proper space is not available. The explosive nature of the movement can also cause shoulder injuries if the shoulder is not properly positioned. Athletes with existing neck, shoulder, or spine injuries should consult medical professionals before incorporating Granby Rolls into their training. Always maintain awareness of your training partners' positions to avoid rolling into them or causing collisions.
 
@@ -331,7 +331,7 @@ The Granby Roll carries inherent risk of neck injury if executed improperly. Alw
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Granby Roll serves as a critical escape mechanism within the defensive hierarchy of Brazilian Jiu-Jitsu, particularly from turtle position and bottom positions where back exposure is imminent. In the positional framework, turtle is considered a neutral but vulnerable position where the primary defensive goal is preventing back control while working toward guard recovery. The Granby Roll directly addresses this by providing an explosive, dynamic path from turtle to guard that bypasses the typical slow methodical escapes. Within modern no-gi systems, especially those influenced by wrestling, the Granby Roll has evolved from a pure escape into a transitional movement that can lead to offensive positions like inverted guards, Single Leg X, or Deep Half Guard. It fits into the broader category of inversion-based guard retention and recovery techniques that have become essential in contemporary grappling. The technique also chains naturally with other turtle escapes like the sit-out, stand-up, and forward roll, creating a complete defensive system. Advanced practitioners integrate the Granby Roll into their guard retention, using it when opponents pass their legs or when they need to create distance and reset. The movement represents a shift from static positional defense to dynamic, movement-based defense that characterizes modern grappling evolution. Understanding when to use the Granby Roll versus other escapes is critical: it excels when space is available and opponent's grips are loose, but fails when you're flattened or trapped against boundaries.
 
@@ -339,7 +339,7 @@ The Granby Roll serves as a critical escape mechanism within the defensive hiera
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Turtle]] - Primary starting position
 - [[Closed Guard]] - Primary ending position
@@ -362,7 +362,7 @@ The Granby Roll serves as a critical escape mechanism within the defensive hiera
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Granby Roll represents a biomechanically efficient solution to the fundamental problem of back exposure from turtle position. The technique succeeds because it creates a geometric reorientation that is difficult for the opponent to follow while maintaining control. The key mechanical principle is the transfer of linear pressure into rotational momentum—when your opponent drives forward to take your back, you redirect that force into your shoulder roll, using their energy against them. The shoulder blade contact is non-negotiable from both safety and mechanical perspectives; the scapula provides the necessary surface area and structural support to bear weight during inversion. Students must understand that the Granby Roll is not merely an escape but a positional reset that should terminate in a superior guard structure, not simply lying on your back. The movement requires precise timing to exploit the moment when opponent's grips are transitioning or their weight shifts forward. Without this timing component, you're simply rolling into a controlled position. The athletic prerequisites—flexibility, explosive power, and spatial awareness—cannot be neglected. A poorly executed Granby Roll due to physical limitations is worse than remaining in turtle and using more conservative escapes.
 - **Gordon Ryan**: I rely on the Granby Roll as a high-percentage escape from turtle and as a guard retention tool when opponents are passing. The movement is absolutely essential in modern no-gi competition where opponents are constantly working toward the back. What makes it effective at the highest level is the ability to chain multiple Granby Rolls together—if they follow the first one, you can immediately reverse direction and usually create a significant scramble that favors the person initiating movement. I've finished matches by Granby Rolling away from back attacks and immediately coming up on a single leg or entering leg entanglements. The key competitive insight is that the Granby Roll works best when combined with other escapes in an unpredictable pattern. If you only Granby Roll, elite opponents will time it and counter. But if you mix it with sit-outs, stand-ups, and forward rolls, the Granby becomes much more effective because they can't predict which direction you'll move. In competition, I use the Granby Roll most often when I feel my opponent committing too much weight forward to secure back control—that forward pressure gives me the momentum I need to complete the rotation. The technique also has offensive applications: I'll intentionally give up turtle knowing I can Granby Roll into advantageous guards or leg positions. It's not just defense; it's a tactical weapon.
 - **Eddie Bravo**: In the 10th Planet system, the Granby Roll is a cornerstone of our defensive inversion game and fits perfectly with our philosophy of constant movement and position flow. We teach it early because it develops the kind of dynamic, unconventional movement patterns that define our approach to no-gi grappling. What's beautiful about the Granby Roll is how it chains into our inverted guard systems—you're not just escaping, you're potentially entering Rubber Guard, Lockdown, or leg attack positions depending on how your opponent reacts. We drill Granby Rolls extensively because they develop attributes that transfer to everything else: comfort with inversion, explosive hip movement, and the ability to scramble effectively. I've seen students use Granby Rolls to escape from positions that traditional BJJ might consider hopeless. The technique also exemplifies our approach to defense: don't just survive, move into positions where you can attack. When you Granby Roll, you're not just getting to guard, you're potentially setting up sweeps, submissions, or transitions to more dominant positions. The key innovation from our perspective is using the Granby Roll offensively—if someone's in your guard and you want to invert underneath them or change angles dramatically, the Granby Roll mechanics apply. It's movement vocabulary that opens up entirely new possibilities in grappling exchanges.

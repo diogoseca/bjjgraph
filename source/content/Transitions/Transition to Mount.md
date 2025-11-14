@@ -8,7 +8,7 @@ description: "Master the fundamental transition from side control to mount in BJ
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the fundamental transition from side control to mount in BJ
 
 
 
-> **Quick Answer**: Transition to Mount transitions from [[Side Control]] to [[Mount]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Transition to Mount transitions from [[Side Control]] to [[Mount]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The transition to mount from side control represents one of the most fundamental
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain heavy shoulder pressure throughout the transition to prevent opponent creating space
 - Control the near-side arm to eliminate framing opportunities during the step-over
 - Keep hips low and connected to opponent's body during the entire movement sequence
@@ -180,7 +180,7 @@ The transition to mount from side control represents one of the most fundamental
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Solid side control established with chest-to-chest connection and shoulder pressure
 - Control of opponent's near-side arm through underhook, crossface, or grip control
 - Opponent's far-side arm neutralized or controlled to prevent framing
@@ -193,7 +193,7 @@ The transition to mount from side control represents one of the most fundamental
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish dominant side control**: Begin from a tight side control position with heavy chest pressure on opponent's sternum, crossface controlling the head, and near-side underhook securing the arm. Your hips should be tight to opponent's side with knees providing mobile base. Ensure opponent cannot create frames or space before initiating the transition. (Timing: Take 2-3 seconds to consolidate control and feel opponent's defensive structure)
 2. **Isolate near-side arm**: Secure opponent's near-side arm by either maintaining the underhook deep, trapping it with your knee, or using a grip on their wrist or gi material. This arm must be neutralized as it's the primary defensive frame that can block your leg from stepping over. Your crossface should maintain constant pressure on opponent's far cheek, turning their head away. (Timing: Coordinate arm control with maintaining shoulder pressure)
 3. **Create angle and posting base**: Shift your hips slightly toward opponent's head while maintaining chest pressure, creating a 30-45 degree angle. Post your far-side hand on the mat near opponent's far hip or on their belt/gi for base and control. This posting hand will support your weight during the leg step-over and help control opponent's hip from escaping. (Timing: Movement should be smooth without releasing pressure)
@@ -206,7 +206,7 @@ The transition to mount from side control represents one of the most fundamental
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent turns away from you (turning to turtle) as you attempt to step over** (Effectiveness: Medium) - Your Response: Follow their turn and take the back instead of forcing mount. This is often a better outcome than mount. Alternatively, use gift wrap control to prevent the turn and force them back flat before completing mount transition.
 - **Opponent bridges explosively just as you step your leg over, creating space** (Effectiveness: High) - Your Response: Base out wide with your stepping leg and maintain crossface pressure to ride out the bridge. Wait for them to come back down flat, then complete the mount transition. Never fight directly against a strong bridge - use timing instead.
 - **Opponent uses far-side underhook and near-side frame to create distance and prevent step-over** (Effectiveness: High) - Your Response: Address the underhook first by swimming your arm through or switching to north-south control. Then return to side control with better arm isolation before attempting mount transition again. Do not force the transition against strong frames.
@@ -216,28 +216,28 @@ The transition to mount from side control represents one of the most fundamental
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Stepping over too early before isolating opponent's near-side arm and frames
+## Common Mistakes
+- **Mistake**: Stepping over too early before isolating opponent's near-side arm and frames
   - **Consequence**: Opponent easily blocks your leg with their arm, preventing the transition and potentially allowing them to recover guard or create scramble situations
   - **Correction**: Always secure and neutralize the near-side arm first through underhook, wrist control, or trapping with your knee. Only step over when you feel their defensive structure is compromised and frames are eliminated.
-- **Error**: Releasing shoulder pressure and lifting chest off opponent during the step-over movement
+- **Mistake**: Releasing shoulder pressure and lifting chest off opponent during the step-over movement
   - **Consequence**: Creates space for opponent to turn away to turtle, establish frames, or explosively bridge and escape from under you before mount is established
   - **Correction**: Maintain constant heavy chest pressure throughout the entire transition. Your shoulder should stay connected to opponent's sternum even as your leg steps over. Think of dragging your chest across their body.
-- **Error**: Stepping the leg over in a narrow arc directly over opponent's body instead of wide clearing motion
+- **Mistake**: Stepping the leg over in a narrow arc directly over opponent's body instead of wide clearing motion
   - **Consequence**: Your leg gets caught on opponent's frames or arm, preventing completion of the transition and leaving you in an awkward vulnerable position straddling their side
   - **Correction**: Step your leg in a wide arc going up and over opponent's potential frames. Think of stepping your knee toward their far shoulder rather than straight across their chest.
-- **Error**: Bringing the second leg over too slowly, allowing opponent time to insert their knee shield
+- **Mistake**: Bringing the second leg over too slowly, allowing opponent time to insert their knee shield
   - **Consequence**: Opponent catches half guard instead of you achieving full mount, significantly reducing your positional advantage and forcing you to pass from top half guard
   - **Correction**: Once your first leg clears to the opposite side, immediately bring your second leg over in one continuous motion. Do not pause or settle in a partial mount position.
-- **Error**: Sitting too upright or too far back on opponent's stomach instead of hips during mount establishment
+- **Mistake**: Sitting too upright or too far back on opponent's stomach instead of hips during mount establishment
   - **Consequence**: Weight distribution is wrong making you vulnerable to bridge-and-roll escapes or explosive hip escapes. Opponent can more easily create frames and movement
   - **Correction**: Establish mount with your weight distributed across opponent's lower chest and upper hips. Knees should be tight to their sides with your posture slightly forward, not sitting completely upright until control is consolidated.
-- **Error**: Neglecting to control opponent's head with crossface during the entire transition sequence
+- **Mistake**: Neglecting to control opponent's head with crossface during the entire transition sequence
   - **Consequence**: Opponent can look toward you and turn into your transition, potentially recovering guard, or turn away and escape to turtle position before you complete mount
   - **Correction**: Maintain consistent crossface pressure throughout the transition, keeping opponent's head turned away from the direction you're moving. This prevents them from following your movement with their body.
-- **Error**: Attempting the transition when opponent has strong frames established on both sides of their body
+- **Mistake**: Attempting the transition when opponent has strong frames established on both sides of their body
   - **Consequence**: The transition fails completely as you cannot step your leg over their defensive structure, wasting energy and potentially allowing opponent to capitalize on your failed attempt
   - **Correction**: Only attempt this transition when frames are compromised. If opponent has strong frames, work to collapse them first through pressure, grips, or movement that forces them to react and abandon their frames.
 
@@ -246,7 +246,7 @@ The transition to mount from side control represents one of the most fundamental
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Movement Pattern** - Basic step-over mechanics and maintaining pressure
 Practice the step-over motion from side control to mount with completely compliant partner offering zero resistance. Focus exclusively on maintaining chest pressure throughout the movement and proper knee positioning. Drill 20-30 repetitions per session, emphasizing smooth weight transfer and continuous connection. Partner should lie completely flat and relaxed.
 (Resistance: None)
@@ -273,7 +273,7 @@ Apply the transition in regular sparring against various body types and skill le
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Gift Wrap Control Transition**: Instead of traditional underhook, use gift wrap control where you thread your arm under opponent's near arm and grab their far shoulder. This creates exceptional control of their upper body and prevents them turning away as you step over to mount. The gift wrap makes it nearly impossible for opponent to create frames or turn, giving you a very high-percentage transition. (When to use: Use when opponent is defensive and trying to turn away from side control, or when they have strong far-side frames you need to neutralize. Particularly effective in gi where you can grip their far collar through the gift wrap.)
 
 **Knee-on-Belly Step-Through to Mount**: From knee-on-belly position, use opponent's defensive reaction (turning away or pushing the knee) to step through to mount. Your knee-on-belly leg becomes the first leg over their body, and you bring your far leg over to complete mount. This creates a different angle and timing than traditional side control to mount transition. (When to use: Excellent when opponent is defending side control well but you can achieve knee-on-belly. Also useful when opponent is particularly good at preventing traditional side-to-mount but reacts predictably to knee-on-belly pressure by turning into you.)
@@ -316,7 +316,7 @@ Apply the transition in regular sparring against various body types and skill le
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The transition to mount is generally one of the safest fundamental transitions in BJJ with minimal injury risk when executed properly. The primary safety concern is maintaining control throughout the movement to avoid accidentally posting weight on opponent's face or neck with your knee during the step-over. Keep your stepping leg trajectory wide and high to clear over their head and chest area. Partners should communicate if they feel excessive pressure on ribs or sternum during the consolidation phase, especially with significant weight differences. When drilling, the bottom partner should not bridge at full explosive force during early learning stages as this can cause the top partner to lose balance and fall awkwardly. As resistance increases, both partners should maintain awareness of mat space to avoid transitioning near walls or other practitioners. For competitors with knee injuries, the torque on the stepping knee during the wide arc motion may require modification or temporary avoidance. Overall, this is considered a fundamental low-risk transition appropriate for all skill levels including beginners when taught with proper progression.
 
@@ -324,7 +324,7 @@ The transition to mount is generally one of the safest fundamental transitions i
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The transition to mount from side control represents a critical component of the positional hierarchy system in Brazilian Jiu-Jitsu. Side control (4 points in IBJJF rules) to mount (additional 4 points, total 8) is one of the most common scoring sequences in competition and represents clear positional advancement on the dominance spectrum. This transition integrates into the systematic top game approach where practitioners work progressively through the positional hierarchy: takedown → side control → mount → back control or submission. The ability to reliably transition to mount from side control forces opponents to defend the advancement, often creating opportunities for submissions from side control itself (kimura, americana, armbar) as they commit to preventing the mount. Advanced practitioners use the threat of mount to create submission opportunities, and use submission threats to create mount opportunities, establishing a chicken-and-egg dilemma that defines high-level top control. This transition also connects to the knee-on-belly system (can transition through KOB to mount) and the north-south system (can transition from NS to mount). Understanding this transition's role in the larger positional chess game separates systematic practitioners from those who only know isolated techniques.
 
@@ -332,7 +332,7 @@ The transition to mount from side control represents a critical component of the
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Side Control]] - Starting position - must be established before transition
 - [[Mount]] - Ending position - destination of the transition
@@ -355,7 +355,7 @@ The transition to mount from side control represents a critical component of the
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The transition from side control to mount is fundamentally about controlling the angle of your opponent's defensive structure and timing your movement when that structure is compromised. Most students make the error of viewing this as a simple step-over motion, when in reality it's a systematic collapse of opponent's frames followed by positional advancement. The key mechanical principle is maintaining what I call 'constant connection pressure' - your chest must never lose contact with opponent's sternum throughout the entire transition. The moment you create space, you've given intelligent opponents the resource they need most: time and distance to recover defensive positioning. Pay attention to the near-side arm control - this isn't just about trapping the arm, it's about removing their primary tool for creating the distance that prevents your leg from clearing over their body. The step-over motion itself should follow a parabolic arc, not a straight line, because you're navigating around their potential defensive barriers. When drilling this transition, students should focus on the seamlessness of the movement - there should be no discernible pause between side control pressure and mount pressure. The opponent should feel continuously controlled throughout, with no moment where they sense an opportunity for escape or recovery. Advanced practitioners understand this transition creates a decision tree: if opponent accepts mount, you've advanced position; if they turn away to prevent mount, you've created back-take opportunities; if they bridge during the transition, you've identified their timing and can counter in subsequent attempts. This is systematic positional jiu-jitsu at its most fundamental level.
 - **Gordon Ryan**: In competition, the side control to mount transition is one of my highest-percentage moves because it's so fundamental that people underestimate it, but when you do it with proper timing and pressure, it's nearly impossible to stop. The key thing I focus on is not telegraphing the transition - I don't want my opponent to know I'm going for mount until my leg is already stepping over. I achieve this by maintaining the exact same pressure and connection whether I'm settling in side control or transitioning to mount. Most people change their pressure or shift their weight before stepping over, which alerts the bottom person to defend. I keep my crossface extremely heavy and my chest pressure constant, then I time the step-over for the exact moment when they're thinking about something else - defending a kimura threat, dealing with my shoulder pressure, or recovering from a failed bridge attempt. The near-side arm control is non-negotiable for me - I either trap it deep with an underhook, pin it with my knee, or use a gift wrap. Without controlling that arm, you're gambling, and gambling doesn't win ADCC gold medals. I also pay attention to opponent's far arm - if they get an underhook on my far side, the mount transition becomes much lower percentage, so I address that first. When I step over, I do it fast and I do it wide, clearing any potential blocks. If I sense strong resistance or framing, I immediately abandon mount and attack knee-on-belly or north-south instead - there's no point forcing a transition that's not there when you have other dominant options available. The mount itself is just the beginning - once I get there, I'm already thinking about which submission I'm setting up based on how they defended the transition.
 - **Eddie Bravo**: From a 10th Planet perspective, the transition to mount is interesting because we see it as a gateway position rather than a destination. Yeah, you want to get to mount, but what we're really after is creating the reactions that open up other positions - specifically back takes and submissions. When I'm teaching this transition, I emphasize using the threat of mount to make people turn away, because that turn is where the magic happens. If they let you get mount, cool, you got mount. But if they're smart and they start turning to prevent the mount, now you're in position for back takes, trucks, and all the fun stuff. The traditional side-to-mount is solid, but we also work a lot on the gift wrap variation because it gives you so much upper body control that people literally can't do anything except either accept mount or give up their back - it's a beautiful dilemma. The timing element is crucial - you don't want to force mount when they're super defensive with strong frames, you want to wait for the moment when they're making a move, when they're trying to do something, because that's when their structure is compromised. We also drill this transition in a more dynamic flow where we're constantly moving between side control, knee-on-belly, north-south, and mount, because that's how it actually happens in rolling - it's not just a static side-to-mount, it's part of a continuous flow of top control. One thing I tell my students is don't be precious about getting to mount - if the path is blocked, go somewhere else that's also dominant. Jiu-jitsu is about being water, not being a battering ram. But when you do get that mount, make it count immediately - attack something, create pressure, don't just sit there congratulating yourself for advancing position while they're already working their escape.

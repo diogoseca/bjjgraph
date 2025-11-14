@@ -13,10 +13,6 @@ description: "Master Estima Lock position in BJJ. Strategic guide covering inver
 
 
 
-> **Quick Overview**: The Estima Lock Position represents a sophisticated leg entanglement scenario where one practitioner secures control of their opponent's foot in an inverted orientation, creating a specialized footloc...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ From the top attacking perspective, the position offers significant control adva
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Inverted foot control creates ankle torque
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Estima Lock/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Estima Lock/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Inverted foot control creates ankle torque
 
 
 
@@ -88,10 +72,13 @@ From the top attacking perspective, the position offers significant control adva
 
 <section id="bottom-summary" class="content-section">
 
-## Estima Lock Bottom Perspective
+
+## Playing as Bottom
+
+[[Estima Lock/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in estima lock must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in estima lock must focus on creating frames, protecting again
   - Success Rate: Beginner 10%, Intermediate 18%, Advanced 30%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Straightening the trapped leg completely and pushing directly into the lock**
@@ -162,16 +149,17 @@ The bottom player in estima lock must focus on creating frames, protecting again
   - ✅ Correction: Maintain active upper body with posting hands, turning shoulders toward trapped leg, and keeping hips mobile to preserve escape angles
 
 
-👉 **[[Estima Lock/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Estima Lock Top Perspective
+
+## Playing as Top
+
+[[Estima Lock/Top|→ Full Top Guide]]
 
 
-The top player in estima lock balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -214,7 +202,7 @@ The top player in estima lock balances control maintenance with submission attac
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Releasing control with one hand too early to increase pressure**
@@ -241,8 +229,6 @@ The top player in estima lock balances control maintenance with submission attac
   - Consequence: Stalled position with no submission threat and wasted energy maintaining ineffective control
   - ✅ Correction: Be prepared to transition to alternative attacks like toe hold, straight ankle lock, or ashi garami when the opponent adjusts their defensive positioning
 
-
-👉 **[[Estima Lock/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

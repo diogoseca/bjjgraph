@@ -13,10 +13,6 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
 
 
 
-> **Quick Overview**: Leg Weave is a sophisticated guard passing position where one player threads their leg between the opponent's legs to establish control and disrupt defensive structures. This position represents a cri...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium |
 
-**What Makes This Position Unique:** Threading leg trades mobility for passing power
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Leg Weave/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Leg Weave/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Threading leg trades mobility for passing power
 
 
 
@@ -88,10 +72,13 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 
 <section id="bottom-summary" class="content-section">
 
-## Leg Weave Bottom Perspective
+
+## Playing as Bottom
+
+[[Leg Weave/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in leg weave must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -137,7 +124,7 @@ The bottom player in leg weave must focus on creating frames, protecting against
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing top player to establish deep crossface without fighting for frames**
@@ -161,16 +148,17 @@ The bottom player in leg weave must focus on creating frames, protecting against
   - ✅ Correction: Coordinate frame pressure with hip movement and leg engagement. Use shrimping motion to create angle that makes frames more effective. Engage core and legs to support arm frames rather than isolated upper body pushing.
 
 
-👉 **[[Leg Weave/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Leg Weave Top Perspective
+
+## Playing as Top
+
+[[Leg Weave/Top|→ Full Top Guide]]
 
 
-The top player in leg weave balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -219,7 +207,7 @@ The top player in leg weave balances control maintenance with submission attacks
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Threading leg too shallow between opponent's legs without deep penetration**
@@ -242,8 +230,6 @@ The top player in leg weave balances control maintenance with submission attacks
   - Consequence: Bottom player adjusts to the position and finds defensive solutions or escape routes
   - ✅ Correction: Continuously threaten multiple passing directions (knee slice, leg drag, smash pass) to create dilemmas and prevent the bottom player from settling into defensive postures
 
-
-👉 **[[Leg Weave/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

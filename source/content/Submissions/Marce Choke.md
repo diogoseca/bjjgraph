@@ -8,7 +8,7 @@ description: "Master the Marce Choke in BJJ - powerful lapel choke from top posi
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Marce Choke in BJJ - powerful lapel choke from top posi
 
 
 
-> **Quick Answer**: Marce Choke is a lapel choke targeting the Carotid arteries and trachea via lapel compression. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Marce Choke is a lapel choke targeting the Carotid arteries and trachea via lapel compression. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="safety-considerations" class="content-section">
 
-## Is Marce Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -209,7 +209,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Lapel control must be established before attempting the choke to ensure proper setup
 - Body weight drives the choking pressure, not just arm strength
 - The lapel creates a noose effect that tightens as you apply pressure
@@ -223,7 +223,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure dominant top position with chest pressure on opponent
 - Control opponent's near-side arm to prevent defensive frames
 - Access to opponent's far lapel with sufficient material to feed
@@ -236,7 +236,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure side control position**: Establish tight side control with your chest heavy on the opponent's chest. Control their near arm by pinning it to their body or trapping it with your hip. Your head should be positioned on the far side of their head to prevent them from turning into you. Maintain strong shoulder pressure into their face or neck to keep them flat. (Timing: Take 2-3 seconds to ensure solid control) [Pressure: Firm]
 2. **Access the far lapel**: Using your hand closest to their head (typically your right hand if you're on their right side), reach across their neck and grip their far lapel deep - your grip should be at least 4-6 inches past their shoulder to ensure sufficient material. Your four fingers should go inside the lapel, thumb outside. The deeper your initial grip, the more effective the choke will be. (Timing: 1-2 seconds while maintaining pressure) [Pressure: Light]
 3. **Feed the lapel across the neck**: Pull the lapel across the opponent's throat toward their opposite shoulder, creating a diagonal line across their neck. The material should be tight against their neck, particularly targeting the carotid arteries on both sides. Ensure the lapel goes under their chin, not over it. As you feed, maintain your chest pressure to prevent them from turning or creating space. (Timing: 2-3 seconds with controlled movement) [Pressure: Moderate]
@@ -249,7 +249,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Frames against your chest to create space** (Effectiveness: Medium) - Your Adjustment: Transition to north-south or modified mount to remove their framing angles, maintaining lapel grip throughout. Use your head to control their frames.
 - **Turns into you to escape side control** (Effectiveness: High) - Your Adjustment: This is their best defense - prevent it by controlling their near arm and maintaining heavy shoulder pressure. If they start turning, you may need to transition to the back or abandon this submission for a different attack.
 - **Grabs your choking arm with both hands** (Effectiveness: Low) - Your Adjustment: Your lapel grip is extremely difficult to break once established. Simply maintain the grip and continue applying pressure with your body weight. Their grip strength will fade as the choke tightens.
@@ -259,25 +259,25 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Failing to feed the lapel deep enough across the neck [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Failing to feed the lapel deep enough across the neck [Medium DANGER]
   - **Consequence**: The choke targets the front of the throat instead of the carotid arteries, making it painful but not a true blood choke, giving the opponent time to escape
   - **Correction**: Always feed the lapel at least 4-6 inches past their shoulder. The material should reach toward their opposite armpit. A shallow grip will never finish the submission.
-- **Error**: Releasing chest pressure while setting up the lapel [Low DANGER]
+- **Mistake**: Releasing chest pressure while setting up the lapel [Low DANGER]
   - **Consequence**: Opponent gains space to turn, escape, or defend the choke effectively
   - **Correction**: Maintain constant chest pressure throughout the entire setup. Use your weight to keep them pinned flat while your hands work the lapel. Never sacrifice positional control for the submission.
-- **Error**: Relying solely on arm strength instead of body weight [Low DANGER]
+- **Mistake**: Relying solely on arm strength instead of body weight [Low DANGER]
   - **Consequence**: The choke lacks power and your arms fatigue quickly, allowing the opponent to outlast your attempt
   - **Correction**: Your arms simply maintain the lapel position - your chest and body weight create the actual choking pressure. Think of driving your chest through their neck, not pulling with your arms.
-- **Error**: Applying excessive pressure too quickly in training [CRITICAL DANGER]
+- **Mistake**: Applying excessive pressure too quickly in training [CRITICAL DANGER]
   - **Consequence**: Risk of causing unconsciousness before partner can tap, potential injury, and breakdown of training trust
   - **Correction**: Always apply progressive pressure in training, taking 3-5 seconds minimum. Give your partner clear opportunity to recognize the danger and tap. Save competition-speed application for competition only.
-- **Error**: Failing to control the near-side arm during setup [Medium DANGER]
+- **Mistake**: Failing to control the near-side arm during setup [Medium DANGER]
   - **Consequence**: Opponent creates effective frames that prevent you from establishing the choke or escape the position entirely
   - **Correction**: Pin or trap their near arm before attempting to access the lapel. Use your hip, knee, or own arm to neutralize their defensive frames. Never give them free use of the near arm.
-- **Error**: Continuing to apply pressure after tap or loss of consciousness [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after tap or loss of consciousness [CRITICAL DANGER]
   - **Consequence**: Serious injury including brain damage from prolonged oxygen deprivation, potential death, and criminal liability
   - **Correction**: Release immediately upon any tap signal. If opponent goes limp or unresponsive, release instantly and check their condition. This is non-negotiable in training.
 
@@ -286,7 +286,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **North-South Marce Choke**: From north-south position, feed the far lapel across their neck and drive your chest straight down into their face while maintaining the lapel grip. This variation often provides better leverage and makes it harder for the opponent to turn into you. (When to use: When opponent is defending well from side control or when you naturally transition to north-south during scrambles. Particularly effective against opponents who are good at recovering guard from side control.)
 
 **Marce Choke from Knee on Belly**: Establish knee on belly position, then reach across to grip the far lapel. Feed it across their neck, then transition your knee to the mat and drive your chest down to finish. The knee on belly provides excellent control during the setup phase. (When to use: Against opponents who react strongly to side control pressure by trying to turn in. Knee on belly gives you more mobility to follow their movement while setting up the choke.)
@@ -324,7 +324,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn the mechanics of lapel feeding, body positioning, and anatomical targets. Practice on a cooperative partner who maintains side control bottom position. Focus entirely on the setup without applying any choking pressure.
 - Resistance: Zero resistance
@@ -361,7 +361,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[North-South]]
@@ -375,7 +375,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Loop Choke]]
 - [[Cross Collar Choke]]
@@ -410,7 +410,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Marce Choke represents an excellent example of using the gi as a mechanical force multiplier rather than relying on pure physical strength. The fundamental principle here is creating a ligature around the opponent's neck and using your body weight - not arm strength - to constrict that ligature around the carotid arteries. What makes this technique systematically sound is that once the lapel is properly fed deep across the neck, the opponent's defensive options become severely limited because their own gi material is working against them. From a biomechanical perspective, the perpendicular pressure created by driving your chest down while maintaining the lapel grip creates opposing vectors of force that tighten the noose effect exponentially. Safety-wise, this is a clean blood choke when executed properly, meaning it should target the carotid arteries exclusively, not the trachea. Always ensure the lapel is positioned on the sides of the neck, not across the front of the throat. In training, apply progressive pressure over 3-5 seconds minimum to allow your partner adequate time to recognize the danger and tap. The Marce Choke should be practiced with the understanding that we're simulating a fight-ending technique, not actually trying to render our training partners unconscious.
 - **Gordon Ryan**: The Marce Choke is one of my favorite gi submissions from top position because it's extremely high-percentage once you understand the setup, and it's very difficult to defend when applied correctly. In competition, I've found that most opponents don't even realize they're in danger until the choke is already locked in, which is why the setup phase is so critical. The key to hitting this in competition is to establish absolutely dominant side control first - never sacrifice your position trying to rush the lapel grip. I control the near arm completely, usually pinning it to their body with my hip, before I even think about reaching for the lapel. When you feed the lapel, feed it deep - I'm talking 6+ inches past their shoulder. Half the guys who fail with this choke don't feed deep enough and end up with a shitty throat crank instead of a clean blood choke. In training versus competition, there's a massive difference in application speed. In training, I give my partners time to feel the choke developing and tap early. In competition, once that lapel is fed and my chest drives down, I'm finishing in 2-3 seconds maximum. But here's the critical thing - even in competition, I'm monitoring for the tap constantly because this choke can put people out quickly. The moment I feel the tap, I release immediately. That's not just safety, that's professionalism.
 - **Eddie Bravo**: The Marce Choke is interesting because it's one of those gi techniques that really shows the power of using your opponent's clothes against them - it's a uniqueness of gi training that creates entirely different submission mechanics than no-gi. What I appreciate about this choke is that it's less about having perfect technique and more about understanding the concept: wrap their lapel around their neck and use your body weight to make them go to sleep. Once you understand that concept, you can hit variations of this from all kinds of positions. I've experimented with setting it up from weird angles, like when transitioning from knee on belly or even from a modified mount position. The 10th Planet system is primarily no-gi, but when my students do train in the gi, I encourage them to explore these lapel chokes because they teach fundamental lessons about leverage and mechanical advantage that apply to no-gi chokes too. Safety-wise, and this is critical especially for newer students, you've got to understand that blood chokes work fast - we're talking seconds, not minutes. That means in training, you apply pressure slowly and progressively, and you tap as soon as you feel the choke tightening on your neck. There's zero shame in tapping early - that's how you keep training day after day without injuries. The gym culture has to support early tapping, especially on chokes, because the alternative is people getting hurt or worse. When teaching this technique, I always emphasize the release protocol first before even showing how to apply pressure, because that's how you build trust and maintain a safe training environment where people can actually learn.

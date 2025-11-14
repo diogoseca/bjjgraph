@@ -8,7 +8,7 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70%.
 
 ---
 
@@ -191,7 +191,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner controls opponent's isolated arm with both hands gripping the wrist, forearm, or controlling above and below the elbow joint, maintaining constant tension and preventing arm retraction
 - Top practitioner's hips positioned perpendicular or near-perpendicular to opponent's shoulder, creating the angle necessary for proper leverage and extension across the elbow joint with body weight distribution through the hips
@@ -204,7 +204,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful isolation of one of opponent's arms from a controlling position such as mount, guard, side control, or back control
 - Establishment of secure grips on the isolated arm, preferably controlling both above and below the elbow joint or securing a firm two-handed wrist control
@@ -232,7 +232,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Armbar Finish]] → [[Won by Submission]]
 
@@ -282,7 +282,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Armbar Defense]]** → [[Closed Guard]] (Opponent Success: 35%)
 - **[[Hip Escape]]** → [[Closed Guard]] (Opponent Success: 30%)
@@ -294,7 +294,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Triangle Setup]]** → [[Triangle Control]]
   - Opponent attempts to stack or posture up to defend armbar
@@ -340,7 +340,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

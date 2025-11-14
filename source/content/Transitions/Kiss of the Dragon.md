@@ -8,7 +8,7 @@ description: "Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to
 
 
 
-> **Quick Answer**: Kiss of the Dragon transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
+> Kiss of the Dragon transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Kiss of the Dragon is an advanced rolling back take technique that allows th
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant connection to opponent's hips throughout the roll
 - Forward roll must be tight and controlled to emerge in proper position
 - Timing the entry when opponent commits weight forward into turtle
@@ -186,7 +186,7 @@ The Kiss of the Dragon is an advanced rolling back take technique that allows th
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in turtle position with weight distributed forward
 - Strong grip on opponent's belt, back of pants, or hip control established
 - Top position with ability to get head lower than opponent's hips
@@ -199,7 +199,7 @@ The Kiss of the Dragon is an advanced rolling back take technique that allows th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish hip control from top turtle**: From top turtle position, secure a firm grip on opponent's belt or the back of their pants at the hip level. This grip serves as your anchor point throughout the entire technique. Position yourself slightly to one side of the turtle position rather than directly behind, as this creates the angle needed for entry. (Timing: When opponent settles into defensive turtle structure)
 2. **Drop head below opponent's hips**: Lower your head and shoulders beneath the level of your opponent's hips while maintaining your grip. This positioning is critical as it creates the proper axis for your forward roll. Your forehead should be pointing toward the mat, and your spine should begin to round in preparation for the somersault motion. (Timing: As opponent's weight shifts forward or they brace against traditional back attacks)
 3. **Initiate forward roll under opponent**: Execute a tight forward somersault while pulling on the hip grip to maintain connection. Tuck your chin to your chest and roll over your shoulder, directing your momentum to pass underneath the opponent's center of gravity. The roll should be compact and controlled, with your body staying connected to the opponent's hips throughout the rotation. (Timing: Explosive initiation once head is properly positioned)
@@ -213,7 +213,7 @@ The Kiss of the Dragon is an advanced rolling back take technique that allows th
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent follows your roll by turning with you** (Effectiveness: Medium) - Your Response: Break your roll mid-rotation and transition to a leg entanglement or guard recovery rather than completing the full somersault. Alternatively, accelerate your roll and grip adjustment to complete the technique before they can fully track your movement.
 - **Opponent sprawls weight back to prevent you from getting under** (Effectiveness: High) - Your Response: Abandon the technique and transition to traditional back take methods like the crab ride or cross body ride. The Kiss of the Dragon requires forward weight commitment from the opponent, so adjust your strategy when they shift their weight backward.
 - **Opponent sits to guard as you roll** (Effectiveness: Medium) - Your Response: Continue your roll and establish a leg entanglement position such as ashi garami or X-guard, using your momentum to sweep or enter into a leg attack system. Your rolling motion naturally positions you for lower body attacks if back control becomes unavailable.
@@ -222,25 +222,25 @@ The Kiss of the Dragon is an advanced rolling back take technique that allows th
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rolling too far away from opponent without maintaining connection
+## Common Mistakes
+- **Mistake**: Rolling too far away from opponent without maintaining connection
   - **Consequence**: You complete the somersault but emerge too far from the opponent's back, giving them time to turn and face you or escape entirely
   - **Correction**: Maintain constant tension on your hip grip throughout the roll, actively pulling yourself into the opponent rather than simply rolling in space. The grip should draw you along a tight arc around their body.
-- **Error**: Attempting technique when opponent's weight is posted back
+- **Mistake**: Attempting technique when opponent's weight is posted back
   - **Consequence**: Unable to get head and shoulders under opponent's hips, resulting in incomplete roll or getting crushed as opponent drives forward
   - **Correction**: Only attempt Kiss of the Dragon when opponent has committed weight forward into defensive turtle. Create this condition by threatening traditional back takes to draw their defensive weight forward.
-- **Error**: Rolling with flat back instead of rounded spine
+- **Mistake**: Rolling with flat back instead of rounded spine
   - **Consequence**: Painful impact on spine, slower rotation, and loss of control during the technique, potentially resulting in neck or back injury
   - **Correction**: Tuck chin to chest and maintain rounded spine throughout the roll. Think of making your back into a wheel shape that rolls smoothly. Practice the rolling motion in isolation before adding opponent resistance.
-- **Error**: Failing to establish seatbelt immediately upon completing roll
+- **Mistake**: Failing to establish seatbelt immediately upon completing roll
   - **Consequence**: Opponent turns into you and escapes to guard or reverses position before you can secure back control
   - **Correction**: Have a clear mental sequence: as soon as you emerge from the roll, your hands should be reaching for seatbelt position. The hip grip must transition to upper body control within one second of completing the rotation.
-- **Error**: Initiating roll from directly behind opponent instead of at an angle
+- **Mistake**: Initiating roll from directly behind opponent instead of at an angle
   - **Consequence**: Roll trajectory takes you past the opponent or results in incomplete rotation that leaves you in poor position
   - **Correction**: Position yourself at a 45-degree angle to one side of the turtle before initiating. This angle allows your roll to arc properly around the opponent's body rather than straight past them.
-- **Error**: Using too slow or too fast rolling speed
+- **Mistake**: Using too slow or too fast rolling speed
   - **Consequence**: Too slow allows opponent to track and counter your movement; too fast causes you to overshoot position and lose connection
   - **Correction**: Roll speed should be controlled and deliberate—fast enough to prevent reaction but smooth enough to maintain connection. Practice with a metronome or count to develop consistent timing.
 
@@ -249,7 +249,7 @@ The Kiss of the Dragon is an advanced rolling back take technique that allows th
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Rolling Mechanics** - Master the forward roll motion without opponent
 Practice forward rolls in isolation, focusing on tucked chin, rounded spine, and smooth rotation. Start from kneeling position and gradually add speed. Perform 20-30 repetitions to build muscle memory and comfort with inversion.
 (Resistance: None)
@@ -280,7 +280,7 @@ Use Kiss of the Dragon during normal training rolls when opponent assumes turtle
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi Kiss of the Dragon**: Without belt or gi pants to grip, establish control by cupping underneath the opponent's hips with both hands or gripping the back of their thighs. The rolling motion remains the same but requires stronger arm engagement to maintain connection without fabric grips. Often combined with a front headlock position before initiating the roll. (When to use: No-gi competition or training when traditional gi grips are unavailable)
 
 **Single Arm Kiss of the Dragon**: Execute the technique with only one hand maintaining hip contact while the other arm threads under the opponent's body to establish seatbelt during the roll. This variant reduces grip dependence but requires more precise timing and body positioning. The free arm can pre-emptively position for back control, making the finishing position faster to secure. (When to use: When opponent's hand fighting prevents two-handed hip grip or when transitioning from front headlock control)
@@ -323,7 +323,7 @@ Use Kiss of the Dragon during normal training rolls when opponent assumes turtle
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Kiss of the Dragon involves spinal inversion and rolling while attached to an opponent, creating specific safety concerns. Practitioners must have competent forward rolling ability before attempting this technique with a partner to prevent neck and spine injuries. Always tuck the chin tightly to the chest and maintain a rounded spine throughout the roll—rolling with a flat back can cause serious injury. Start training at slow speed with lightweight partners and progress gradually to full resistance. Be aware of mat space and obstacles before initiating the roll. If you feel your grip breaking during the rotation, release completely rather than attempting to hold on, as this can cause you to land awkwardly. Partners should not drive forward into someone executing this technique, as it can cause the rolling practitioner to spike onto their head or neck. Individuals with existing neck, spine, or shoulder injuries should consult medical professionals before training this technique.
 
@@ -331,7 +331,7 @@ The Kiss of the Dragon involves spinal inversion and rolling while attached to a
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Kiss of the Dragon is a specialized back take technique that fits within the turtle top position control system. It serves as an advanced alternative to traditional back attacks like the crab ride, seatbelt back take, or clock choke when those options are defended. The technique is particularly valuable in no-gi grappling where turtle escapes are more common due to the absence of gi grips that control posture. In the broader positional hierarchy, successful execution elevates you from the turtle top position (typically worth 2-3 points) to back control (4 points in IBJJF rules), representing one of the highest-value position transitions available. The Kiss of the Dragon complements other turtle attacks by providing a completely different attack vector—while most turtle attacks work from the side or above, this technique attacks from underneath, creating a three-dimensional threat system that is difficult to defend comprehensively. Within modern leg lock systems, the Kiss of the Dragon to Truck variation has become increasingly important, providing a bridge between traditional positional grappling and modern leg entanglement approaches.
 
@@ -339,7 +339,7 @@ The Kiss of the Dragon is a specialized back take technique that fits within the
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Turtle]] - Starting Position
 - [[Back Control]] - Primary Ending Position
@@ -360,7 +360,7 @@ The Kiss of the Dragon is a specialized back take technique that fits within the
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Kiss of the Dragon represents a sophisticated solution to the fundamental problem of the turtle position's defensive structure. Traditional back take methods from turtle require you to overcome sequential defensive barriers—first breaking down the defensive posture, then inserting hooks while managing hand fighting, and finally establishing control. Each stage presents opportunities for the defender to escape or counter. The genius of the Kiss of the Dragon lies in its circumvention of this entire sequence through geometric repositioning. By rolling underneath and around the turtle position, you literally bypass every defensive layer simultaneously. The technique exploits a blind spot in most turtle defense systems, which are designed to address threats coming from above and the sides but not from below. Biomechanically, the forward roll while maintaining hip connection creates a pendulum effect where your body weight and momentum work together to arrive at the back position with significant control already established. The key technical detail that separates successful execution from failure is the maintenance of constant tension on your hip grip—this grip must actively draw you into the opponent throughout the rotation, not simply hold onto them passively. When students struggle with this technique, it is almost always because they roll through space independently of their opponent rather than using the grip to control their rolling trajectory around the opponent's body.
 - **Gordon Ryan**: In high-level competition, the Kiss of the Dragon is one of the few turtle attacks that remains highly effective even against world-class defensive players. Most traditional back takes from turtle have been so thoroughly systematized and defended that they primarily work through cumulative pressure over time rather than as single decisive techniques. The Kiss of the Dragon is different because it's simply very difficult to defend once initiated—by the time your opponent recognizes what's happening, you're already inverted and coming around their back. I use this technique frequently in competition, particularly in no-gi where turtle positions occur commonly during scrambles. The timing that matters most is recognizing when your opponent has committed their defensive structure forward—this usually happens when they're focused on preventing you from getting a front headlock or when they're defending traditional back take grips. That moment of forward commitment is your window. One competition-specific detail: don't get greedy trying to establish perfect back control immediately. If you can secure seatbelt control and one hook, take it and work from there. Waiting for the perfect double-hook back mount gives your opponent time to turn into you or sit to guard. In my experience, the single biggest predictor of success is how quickly you transition from hip grip to seatbelt—this should be one fluid motion with no pause. I also like the variation to truck position in submission-only competition because it keeps my opponent guessing about whether I'm attacking the back or the legs, and that uncertainty itself becomes a weapon.
 - **Eddie Bravo**: The Kiss of the Dragon is straight-up one of the most visually impressive techniques in jiu-jitsu, and what people don't realize is that it fits perfectly into the 10th Planet turtle attack system. We've always emphasized attacking turtle with creativity and multiple vectors of attack—the standard back takes, the truck entries, the twister setups—and the Kiss of the Dragon adds another dimension that most people don't see coming. What makes it special for our system is that it works incredibly well when you're already threatening the truck. If you're known for going to truck from turtle, your opponent's defensive focus is on protecting their lower body and preventing you from controlling their legs. That's exactly when you hit them with the Kiss of the Dragon coming from the opposite direction. The psychological element is huge here—people defend what they expect, and nobody expects you to roll underneath them. In terms of technique refinement, I've found that the no-gi version actually works better than gi because you can use wrestling-style body lock grips that are harder to break than gi grips. Cup your hands together behind their hips or even around their waist if you can get it, and that connection is incredibly strong through the roll. For students learning this, I always emphasize making your body into a tight ball during the roll—the tighter and more compact you are, the faster you rotate and the less time your opponent has to react. This isn't a move you want to do slowly and methodically; it works best when executed explosively with full commitment. If you hesitate halfway through or try to adjust mid-roll, you'll end up in no-man's land getting smashed.

@@ -8,7 +8,7 @@ description: "Master the Mount to Armbar transition in BJJ. Complete step-by-ste
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Mount to Armbar transition in BJJ. Complete step-by-ste
 
 
 
-> **Quick Answer**: Mount to Armbar transitions from [[Mount]] to [[Armbar Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Mount to Armbar transitions from [[Mount]] to [[Armbar Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain heavy chest pressure throughout the transition to prevent opponent escape
 - Control opponent's arm before initiating the pivot to prevent defensive withdrawal
 - Keep hips tight to opponent's shoulder during leg swing to eliminate escape space
@@ -186,7 +186,7 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish secure Mount position with proper weight distribution
 - Opponent must be framing against your chest or attempting to push you away
 - Control of opponent's near-side arm through grip or pressure
@@ -200,7 +200,7 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish high mount control**: From Mount, walk your knees forward toward the opponent's armpits to establish high mount position. Drive your chest forward and down, forcing your opponent to frame against your chest with their arms. This defensive reaction creates the opportunity for the armbar attack. Keep your hips heavy and maintain connection through your chest. (Timing: Establish position before opponent can create significant frames)
 2. **Isolate the target arm**: As opponent pushes against your chest, choose one arm to attack (typically the arm on the side you feel most stable). Pin this arm to your chest by hugging it with your same-side arm, or grab their wrist with your opposite hand and pull it across your centerline. Ensure their elbow is above your belt line for proper armbar alignment. (Timing: Capture arm immediately when opponent extends it to frame)
 3. **Control the opposite arm**: With your free hand, post on the mat near opponent's opposite shoulder or control their free arm by pinning it to the mat. This prevents them from turning into you or using that arm to defend the armbar. This control is critical for preventing the hitchhiker escape. (Timing: Simultaneous with arm isolation)
@@ -214,7 +214,7 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent pulls elbow back and defends hand as you pivot** (Effectiveness: High) - Your Response: Switch to triangle choke by bringing your leg over their shoulder and across their back, or transition to gift wrap position and attack the opposite arm or take the back
 - **Opponent turns into you during the leg slide (hitchhiker escape)** (Effectiveness: Medium) - Your Response: Maintain arm control and transition to triangle position, or use their turn to establish back control with the harness grip
 - **Opponent stacks you during the transition by driving forward** (Effectiveness: Medium) - Your Response: Use the stack pressure to help you complete the rotation, or abandon the armbar and recover mount position by posting on your elbow and replacing your hooks
@@ -223,22 +223,22 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Stepping over opponent's head instead of sliding the leg across
+## Common Mistakes
+- **Mistake**: Stepping over opponent's head instead of sliding the leg across
   - **Consequence**: Creates space for opponent to escape, allows them to turn and create defensive frames, significantly reduces control during the transition
   - **Correction**: Keep your knee bent and slide the leg across the face while maintaining hip pressure. Think of painting across their face with your shin rather than clearing a hurdle.
-- **Error**: Releasing mount pressure before securing arm control
+- **Mistake**: Releasing mount pressure before securing arm control
   - **Consequence**: Opponent can bridge and roll, escape to guard, or withdraw their arms defensively before you can attack
   - **Correction**: Maintain heavy chest pressure throughout the initial phase. Only begin the pivot once the target arm is completely secured and controlled.
-- **Error**: Failing to control the opposite arm during transition
+- **Mistake**: Failing to control the opposite arm during transition
   - **Consequence**: Opponent can use free arm to push on your hip and turn into you, executing the hitchhiker escape and potentially reversing position
   - **Correction**: Always post on or pin the opposite arm before pivoting. This arm control is equally important as controlling the attack arm.
-- **Error**: Sitting back too early before leg is fully across face
+- **Mistake**: Sitting back too early before leg is fully across face
   - **Consequence**: Creates space between your hips and opponent's shoulder, allowing them to pull their elbow free and escape the submission
   - **Correction**: Ensure your leg is completely across their face with your knee bent and hip tight to their shoulder before initiating the sit-back.
-- **Error**: Allowing hips to float away from opponent's shoulder
+- **Mistake**: Allowing hips to float away from opponent's shoulder
   - **Consequence**: Gives opponent space to turn and escape, reduces finishing leverage on the armbar, makes the submission escapable even from finished position
   - **Correction**: Drive your hips down into opponent's shoulder throughout the entire technique. Your hips should never lose contact with their body.
 
@@ -247,7 +247,7 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Isolated Movement Pattern** - Learn the basic movement pattern without resistance
 Partner lies in bottom mount position and extends arms in a static frame. Practice the pivot, leg slide, and sit-back motion repeatedly, focusing on maintaining continuous control. Emphasis on smooth weight transfer and hip connection throughout the movement. Perform 20-30 repetitions per training session.
 (Resistance: None)
@@ -274,7 +274,7 @@ Integrate the Mount to Armbar into a complete attack system including transition
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **S-Mount Armbar**: Instead of standard high mount, establish S-mount position first by bringing one leg up high near opponent's head and the other leg wide for base. This creates a stronger attacking angle and makes the armbar finish more secure. (When to use: Against experienced opponents who defend the standard mount armbar well, or when you need maximum control and finishing power)
 
 **Technical Mount Armbar**: From technical mount position with one leg across opponent's body, use the elevated position to attack the far arm. This variation provides excellent control and eliminates several common escapes. (When to use: When opponent is turning to their side in mount defense, or when transitioning from back control attempts)
@@ -312,7 +312,7 @@ Integrate the Mount to Armbar into a complete attack system including transition
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Mount to Armbar transition is generally safe when practiced with control and awareness. However, several safety considerations must be observed. When drilling, the top person should never drop their full weight suddenly onto the arm - the sit-back should be controlled and progressive. During the transition, be aware of your partner's neck position when sliding your leg across their face, avoiding excessive pressure that could cause neck strain. When finishing the armbar, apply pressure gradually and stop immediately upon the tap. The bottom person should tap early and often during drilling to prevent elbow hyperextension. Never attempt to escape an established armbar by rolling or standing - this risks serious elbow injury. When learning the technique, use increased communication with your partner about pressure levels, and always start with zero resistance before progressing to live drilling. Instructors should emphasize tap safety and ensure students understand that protecting training partners is paramount to effective learning.
 
@@ -320,7 +320,7 @@ The Mount to Armbar transition is generally safe when practiced with control and
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Mount to Armbar serves as the cornerstone of the mount attack system, functioning as the primary submission threat that opens pathways to all other mount attacks. Within the positional hierarchy of BJJ, mount represents one of the most dominant positions, and the armbar is the fundamental submission from this position that every practitioner learns first. This technique integrates seamlessly with the mount maintenance system - the same chest pressure and weight distribution that maintains mount also forces the defensive frames that create armbar opportunities. The Mount to Armbar connects directly to submission chains: when defended, it flows naturally into triangle choke, Americana attacks, or back takes. It also serves as a teaching vehicle for essential principles including position before submission, weight distribution, and creating attacking dilemmas for opponents. In competition strategy, threatening the Mount to Armbar forces opponents into defensive postures that prevent their own escapes, effectively using the attack to maintain position even when the submission itself isn't finished. The technique's integration extends to other positional systems as well - the same armbar mechanics apply from guard, side control, and back control, making it a universal submission that reinforces learning across multiple positions.
 
@@ -328,7 +328,7 @@ The Mount to Armbar serves as the cornerstone of the mount attack system, functi
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Triangle from Mount]] - Alternative submission when armbar is defended by elbow withdrawal
 - [[Americana from Mount]] - Alternative attack targeting bent-arm defense of the armbar
@@ -346,7 +346,7 @@ The Mount to Armbar serves as the cornerstone of the mount attack system, functi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Mount to Armbar represents one of the most mechanically sound submissions in all of grappling when executed with proper understanding of biomechanical principles. The critical insight that separates successful execution from failure is the recognition that this technique is fundamentally about weight transfer and positional control rather than simply attacking an arm. Your body weight must remain constantly connected to the opponent throughout the transition - the moment you allow space to develop between your hips and their shoulder, you have created an escape pathway. The pivot is not a rotation around a vertical axis but rather a weight shift where your mass moves smoothly from one configuration to another without ever lifting off the opponent. Consider the geometry: when you slide your leg across the face rather than stepping over, you maintain a triangular base of support that prevents the opponent from creating any angular momentum. This is pure physics applied to combat. Furthermore, understand that the arm control precedes the position change - never initiate movement before securing the structural control that makes the position change safe and effective. The Mount to Armbar should be thought of as position-to-position movement where both positions are dominant, not as an abandonment of position for submission. This conceptual framework ensures you maintain control throughout and can recover to mount if the submission is defended.
 - **Gordon Ryan**: In competition, the Mount to Armbar is my highest-percentage submission from top position because it exploits the most common defensive error opponents make under pressure - framing with straight arms. When I'm in mount, I'm actively hunting for these frames by driving chest pressure forward and creating urgency through my weight distribution. The moment someone extends their arms to push me away, they've given me the submission. The key competitive insight is that you don't wait for the perfect setup - you create it through pressure that forces defensive reactions. I make my mount so uncomfortable that framing becomes their only option. When executing, my focus is on the transition speed and the tightness of my hip position. In competition, you get one chance - if you're slow or create space during the pivot, experienced opponents will pull their elbow and turn into you. I've finished world-class black belts with this armbar because I make the transition explosive while maintaining constant pressure. The leg doesn't slide gently across the face - it drives across with authority while my hips stay glued to their shoulder. Also critical: I control their opposite arm religiously. The hitchhiker escape has saved many opponents, so I post heavy on that far arm or pin it to the mat. In competition, the Mount to Armbar is not a technique you hit in isolation - it's the foundation threat that opens everything else. When they defend it, I'm already transitioning to triangle or taking the back. The submission itself is secondary to the control and attacking system it represents.
 - **Eddie Bravo**: The Mount to Armbar is fundamental, but at 10th Planet we've evolved it to integrate with our rubber guard and twister systems in ways that create unprecedented attacking options. The traditional version works, but we've found that combining it with gift wrap control first gives you way more security and eliminates most escapes before they can happen. From mount, when they frame, we thread our arm through for the gift wrap, lock down that position, and then the armbar becomes unstoppable because they literally can't defend both sides. This is the dilemma concept - create positions where every defensive option is wrong. Another innovation we use is the S-mount variation which I learned from the Machado brothers and refined through years of no-gi competition. Getting that high leg position near their head before attacking makes the finish way tighter and prevents the stack defense that kills a lot of armbars. For no-gi specifically, the Mount to Armbar requires faster execution because there's no gi to grab and slow people down - your arm control has to be grip-based, usually wrist control or overhooking their arm. We drill what we call the 'mount attack flow' where you're seamlessly moving between armbar, triangle, and back attacks based on their defensive reactions, never stopping, always attacking. The armbar is just one point in that continuous attacking sequence. And here's something a lot of people miss: the Mount to Armbar teaches you how to break people's defensive structure from top position, which is a skill that translates to literally every other submission system we use. Master this transition and you've learned principles that apply everywhere.

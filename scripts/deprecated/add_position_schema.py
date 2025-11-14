@@ -35,8 +35,8 @@ def extract_common_errors(content):
     """Extract common errors for FAQ schema."""
     faqs = []
 
-    # Find the Common Errors section
-    section_match = re.search(r'## Common Errors(.*?)(?=##|$)', content, re.DOTALL)
+    # Find the Common Mistakes section
+    section_match = re.search(r'## Common Mistakes(.*?)(?=##|$)', content, re.DOTALL)
     if section_match:
         section_text = section_match.group(1)
 

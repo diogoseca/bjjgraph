@@ -8,7 +8,7 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 
 
 
-> **Quick Answer**: Aoki Lock is a leg compression targeting the Shin and ankle compression. ⚠️ **SAFETY**: This technique can cause Severe plantar fascia strain or tear - apply slowly over 3-5 seconds and release immediately upon tap.
+> Aoki Lock is a leg compression targeting the Shin and ankle compression. ⚠️ **SAFETY**: This technique can cause Severe plantar fascia strain or tear. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="safety-considerations" class="content-section">
 
-## Is Aoki Lock Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -219,7 +219,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Figure-four leg configuration creates mechanical advantage for compression
 - Hip positioning and angle determine effectiveness of plantar flexion force
 - Squeezing pressure must be distributed across entire lower leg structure
@@ -233,7 +233,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure ashi garami position with inside heel hook control established
 - Opponent's trapped leg must have limited mobility and rotation
 - Your inside leg must be free to weave through for figure-four
@@ -247,7 +247,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish ashi garami control**: Begin from inside ashi garami position with your outside leg hooking over opponent's trapped leg and your inside leg positioned underneath. Your outside arm should control their knee or ankle while your inside arm prepares to manipulate their foot. Ensure your hips are close to their hips to limit their mobility and prevent them from pulling their leg free. (Timing: 2-3 seconds for initial control establishment) [Pressure: Light]
 2. **Thread inside leg for figure-four**: Begin weaving your inside leg (the leg that was underneath) through the gap between your outside leg and opponent's trapped leg. Your inside foot will need to cross over your own outside leg to create the figure-four configuration. This requires hip flexibility and precise leg positioning. Keep your outside leg hook tight to maintain the ashi garami frame while threading. (Timing: 3-4 seconds to properly position legs) [Pressure: Light]
 3. **Secure opponent's foot in the trap**: Use your hands to guide opponent's foot into position between your legs, placing their heel or ankle into the space created by your figure-four. The exact placement depends on your leg length and their leg length - experiment to find the tightest configuration. Their foot should be trapped between your crossed legs in a way that when you squeeze, it forces extreme plantar flexion (toes pointing). (Timing: 2-3 seconds for foot positioning) [Pressure: Moderate]
@@ -261,7 +261,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Rapidly pulling trapped leg free before figure-four is completed** (Effectiveness: High) - Your Adjustment: Maintain tight ashi garami control with outside leg hook and use upper body grips to control their knee, preventing leg extraction. Transition to traditional heel hook or kneebar if they create distance.
 - **Rotating the trapped leg externally to prevent foot entrapment** (Effectiveness: Medium) - Your Adjustment: Counter rotation by adjusting your hip angle and using your hands to control their foot positioning. If rotation persists, switch to inside heel hook which works with the rotation direction.
 - **Sitting up aggressively to create pressure on your legs and break the figure-four** (Effectiveness: Medium) - Your Adjustment: Use your upper body to push their shoulders back down, or accept the sit-up and transition to 50-50 position where you can reestablish the lock from a different angle. Maintain leg entanglement throughout.
@@ -271,28 +271,28 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying compression too quickly without proper setup [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying compression too quickly without proper setup [CRITICAL DANGER]
   - **Consequence**: Opponent escapes easily and you lose position, or worse, you cause injury before they can tap
   - **Correction**: Take time to fully secure the figure-four and foot positioning before applying any squeezing pressure. Build pressure gradually over 5-7 seconds minimum.
-- **Error**: Failing to maintain ashi garami control with outside leg
+- **Mistake**: Failing to maintain ashi garami control with outside leg
   - **Consequence**: Opponent extracts their leg and escapes before submission is secured
   - **Correction**: Keep your outside leg hook tight throughout the entire setup and finishing sequence. This is your primary position control mechanism.
-- **Error**: Incorrect figure-four placement creating ineffective lock
+- **Mistake**: Incorrect figure-four placement creating ineffective lock
   - **Consequence**: No compression force is generated and opponent easily defends or escapes
   - **Correction**: Experiment with exact foot placement in training to find optimal position based on your and opponent's leg lengths. The lock should feel secure before squeezing.
-- **Error**: Neglecting hip positioning and relying only on leg squeeze
+- **Mistake**: Neglecting hip positioning and relying only on leg squeeze
   - **Consequence**: Minimal submission pressure generated, easy defense for opponent
   - **Correction**: Hip extension and angle create the opposing force that makes compression effective. Focus on hip positioning as much as leg configuration.
-- **Error**: Releasing ashi garami control to focus on finishing
+- **Mistake**: Releasing ashi garami control to focus on finishing
   - **Consequence**: Opponent escapes to top position or passes your guard
   - **Correction**: Maintain all positional controls while finishing. If you cannot secure the submission while maintaining position, return to control and reset.
-- **Error**: Continuing to apply pressure after tap is given [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after tap is given [CRITICAL DANGER]
   - **Consequence**: Serious injury to training partner including ligament tears, tendon damage, or fractures
   - **Correction**: Develop immediate release reflexes. The moment you feel or hear a tap, release all pressure instantly. Practice release protocol repeatedly.
-- **Error**: Using jerking or spiking motion to apply compression [CRITICAL DANGER]
+- **Mistake**: Using jerking or spiking motion to apply compression [CRITICAL DANGER]
   - **Consequence**: Sudden injury before opponent can tap, damage to ankle, achilles, or shin structures
   - **Correction**: All pressure must be applied smoothly and progressively. Never jerk or spike leg locks. Build pressure gradually allowing time for tap.
 
@@ -301,7 +301,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **50-50 Aoki Lock**: From 50-50 position, establish the figure-four trap on opponent's leg while they are also attempting leg attacks. This variation works well when traditional heel hooks are being defended, as the Aoki Lock mechanics differ enough to catch opponents by surprise. (When to use: When in 50-50 stalemate and opponent is defending traditional heel hook attacks effectively. Also useful when both competitors have strong heel hook defense.)
 
 **Aoki Lock from Butterfly Ashi**: From butterfly ashi position with your inside leg butterfly hooking, transition the butterfly hook into the figure-four configuration for the Aoki Lock. This variation flows naturally from certain guard passing attempts by opponent. (When to use: When opponent attempts to pass butterfly ashi and you want to counter with immediate leg attack. The butterfly hook position sets up the figure-four nicely.)
@@ -344,7 +344,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn figure-four mechanics, foot positioning, and ashi garami control without any compression. Study anatomy of lower leg structures at risk. Practice entry and exit transitions slowly. Understand safety protocols and release procedures thoroughly.
 - Resistance: None
@@ -381,7 +381,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Ashi Garami]]
 - [[Inside Ashi-Garami]]
@@ -397,7 +397,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kneebar]]
 - [[Inside Heel Hook]]
@@ -433,7 +433,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Aoki Lock represents an important evolution in our understanding of leg attack mechanics, moving beyond isolated joint attacks to combined compression and joint stress systems. From a biomechanical perspective, what makes this submission particularly effective is the distribution of force across multiple structures simultaneously - the plantar fascia, ankle ligaments, and calf musculature all experience stress concurrently, making it extremely difficult for opponents to defend using traditional leg lock defensive postures. The figure-four configuration is mechanically superior because it creates a closed kinetic chain that prevents force dissipation, allowing even smaller practitioners to generate tremendous compression force against larger opponents. However, this same mechanical efficiency creates serious safety considerations. The distributed nature of the stress means opponents may not recognize the danger until multiple structures are already at risk, and the rapid onset of pain can lead to delayed tapping. When teaching this technique, I emphasize that the setup phase must be deliberate and controlled, with pressure application occurring over a minimum of 5-7 seconds in training. The achilles tendon is particularly vulnerable in this configuration, and sudden application can cause ruptures that require surgical intervention and months of recovery. Train this submission with the understanding that it can cause permanent injury if applied recklessly, and develop the discipline to release instantly upon tap regardless of competitive circumstances.
 - **Gordon Ryan**: The Aoki Lock is one of those submissions that creates a massive competitive advantage because most people don't train it seriously or understand its mechanics until they get caught by it in competition. When I'm in ashi garami or 50-50 and my opponent is doing a good job defending traditional heel hooks by keeping their knee close to my hip and preventing rotation, the Aoki Lock becomes incredibly high-percentage because the defensive positioning that stops heel hooks actually sets it up perfectly. The key difference between training and competition application is recognition speed and pressure buildup - in training, you're looking to demonstrate control and allow your partner to tap safely, so you might take 10-15 seconds from entry to full pressure. In competition, once I have the figure-four locked and positioned correctly, I'm building pressure much more aggressively, though still progressively enough that my opponent has time to make the decision to tap. What makes this dangerous in competition is that many opponents don't recognize what's happening until the pressure is already intense, because it feels different from heel hooks or kneebars they've trained extensively. That's why in training, I always tell my partners verbally what I'm doing when I set this up - 'Aoki Lock coming' - so they know to tap early. The injury potential is real, particularly to the achilles and plantar fascia, and I've seen guys get hurt because they tried to tough it out thinking it was just discomfort rather than structural damage building. When you apply this in competition, you need to be prepared to release immediately if you feel the tap, because the structures under stress can fail suddenly rather than gradually.
 - **Eddie Bravo**: The Aoki Lock is a perfect example of why we're always looking for unorthodox attacks that exploit mechanical principles people aren't familiar with defending. Shinya Aoki used this to tap multiple high-level opponents who had never encountered the specific compression and plantar flexion mechanics, and it works for the same reason a lot of 10th Planet techniques work - it attacks from angles and with mechanics that aren't part of standard defensive training. What I love about this submission is how well it integrates into modern leg entanglement systems while being different enough from heel hooks and kneebars that it creates genuine confusion and delayed recognition. When we teach this at 10th Planet, we spend a lot of time on the figure-four configuration and how your leg flexibility directly impacts your finishing ability - if you can't get your legs into the right position to create that closed-loop squeeze, you're not going to finish the technique regardless of how good your ashi garami control is. That's why we incorporate specific hip flexibility and leg dexterity drills for students who want to add this to their game. From a safety perspective, this is one where the ego can get people seriously hurt because the pain builds in a weird way that doesn't feel like immediate joint destruction the way a heel hook does, so people think they can tough it out and then suddenly they're dealing with achilles or plantar fascia damage that takes months to heal. We have a strict culture at 10th Planet about tapping to leg locks early and often in training, because we'd rather have students who can train consistently than students who get one good submission and then can't train for three months because they didn't tap. When drilling this, focus on the position and mechanics first, and only add pressure once you've got hundreds of reps of the movement pattern ingrained. The finish will be there when you need it, but the safety habits have to be automatic or someone's going to get hurt.

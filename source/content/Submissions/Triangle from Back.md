@@ -8,7 +8,7 @@ description: "Master Triangle from Back in BJJ. Complete guide with safety proto
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Master Triangle from Back in BJJ. Complete guide with safety proto
 
 
 
-> **Quick Answer**: Triangle from Back is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Triangle from Back is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -184,7 +184,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="safety-considerations" class="content-section">
 
-## Is Triangle from Back Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -225,7 +225,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Maintain back control throughout the transition - never sacrifice positional dominance for submission attempt
 - Angle your body perpendicular to opponent's spine to create proper triangle geometry
 - Lock triangle on same side as your choking arm to maximize compression
@@ -239,7 +239,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Established back control with hooks in or body triangle already secured
 - Opponent defending rear naked choke effectively (chin down, hands protecting neck)
 - Sufficient flexibility to bring your leg over opponent's shoulder while maintaining back control
@@ -252,7 +252,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure traditional back control foundation**: Begin from standard back control with both hooks in or body triangle secured. Establish seat belt grip (one arm over shoulder, one under armpit) and ensure your chest is tight to opponent's back. Your goal is complete positional dominance before attempting the triangle transition. (Timing: Maintain for 5-10 seconds minimum) [Pressure: Firm]
 2. **Bait and assess rear naked choke defense**: Attempt a traditional rear naked choke setup by bringing your choking arm across opponent's throat. Observe their defensive reaction - most will tuck their chin hard and grab your choking arm with both hands. This defensive commitment creates the opening for triangle transition. (Timing: 3-5 seconds to assess defense pattern) [Pressure: Light]
 3. **Trap defensive arm on choking side**: With your non-choking hand, swim over the top and grab opponent's wrist or forearm on the same side as your choking arm. Pull this arm tightly across their body, isolating it. This trapped arm will become part of the triangle choke structure. (Timing: 2-3 seconds) [Pressure: Firm]
@@ -267,7 +267,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Grabbing your ankle to prevent triangle lock completion** (Effectiveness: High) - Your Adjustment: Use your free hand to break their grip while simultaneously using your locking leg to kick through their grip. Alternatively, threaten armbar on the grabbing arm to force them to release.
 - **Turning into you to alleviate triangle pressure and escape back control** (Effectiveness: Medium) - Your Adjustment: Use your top hook and upper body control to prevent rotation. If they commit to turning, transition to mounted triangle or traditional front triangle position.
 - **Posturing up and creating space between their neck and your shin** (Effectiveness: Medium) - Your Adjustment: Pull their head down forcefully with your choking arm while extending your hips. Use your free hand to control their far shoulder and prevent posturing.
@@ -276,25 +276,25 @@ The triangle from back also serves as a critical component of modern back attack
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Losing back control entirely during triangle transition [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Losing back control entirely during triangle transition [Medium DANGER]
   - **Consequence**: Opponent escapes to neutral or advantageous position, negating all positional work
   - **Correction**: Maintain at least one hook and upper body control throughout transition. If you can't secure triangle while keeping back control, abandon the attempt and return to standard back attacks.
-- **Error**: Applying triangle with wrong leg (crossing over opposite shoulder from trapped arm) [Low DANGER]
+- **Mistake**: Applying triangle with wrong leg (crossing over opposite shoulder from trapped arm) [Low DANGER]
   - **Consequence**: Triangle geometry fails, no choking pressure achieved, opponent can easily defend or escape
   - **Correction**: Always bring your leg over the shoulder on the SAME side as the trapped arm. The triangle should incorporate their arm into the choke structure.
-- **Error**: Using only calf squeeze without hip extension [Low DANGER]
+- **Mistake**: Using only calf squeeze without hip extension [Low DANGER]
   - **Consequence**: Ineffective choke that relies on pain rather than blood flow restriction, easy to defend
   - **Correction**: The finishing pressure comes from pulling knees together WHILE extending hips. Think of it as making your legs straighter while simultaneously closing the triangle.
-- **Error**: Failing to create perpendicular angle to opponent's body [Low DANGER]
+- **Mistake**: Failing to create perpendicular angle to opponent's body [Low DANGER]
   - **Consequence**: Poor triangle geometry, minimal carotid compression, opponent can defend with posture
   - **Correction**: Your torso should form a T or L shape with opponent's spine. Slide your entire body to the side to create this angle before locking the triangle.
-- **Error**: Applying explosive, jerking motion to finish the choke [CRITICAL DANGER]
+- **Mistake**: Applying explosive, jerking motion to finish the choke [CRITICAL DANGER]
   - **Consequence**: High risk of neck injury, trachea damage, or loss of consciousness without tap opportunity
   - **Correction**: SLOW, progressive pressure over 5-7 seconds minimum. The choke should tighten gradually, giving partner ample opportunity to recognize pressure and tap.
-- **Error**: Continuing to squeeze after opponent taps or goes limp [CRITICAL DANGER]
+- **Mistake**: Continuing to squeeze after opponent taps or goes limp [CRITICAL DANGER]
   - **Consequence**: Severe injury risk including brain damage from prolonged blood restriction
   - **Correction**: Immediately release all pressure upon ANY tap signal. If opponent goes limp without tapping, release instantly and begin recovery protocol.
 
@@ -303,7 +303,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Triangle from Body Triangle Back Control**: When already in body triangle configuration, transition directly to triangle choke by opening the body triangle and threading your leg over the shoulder. This variation is faster and maintains more control throughout. (When to use: When you have body triangle established and opponent is defending neck effectively)
 
 **Triangle from Gift Wrap Position**: From gift wrap back control where opponent's arm is already isolated, transition to triangle is cleaner as one arm is pre-trapped. Simply remove bottom hook and bring leg over shoulder on trapped arm side. (When to use: When you've secured gift wrap and opponent is blocking rear naked choke attempts)
@@ -343,7 +343,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Positional Drilling)** (Weeks 1-2)
 - Focus: Learn the transition mechanics from back control to triangle position without any pressure. Focus on maintaining back control throughout transition, creating perpendicular angle, and achieving proper triangle lock. Practice entry and exit repeatedly.
 - Resistance: Zero resistance
@@ -380,7 +380,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Back Control]]
 - [[Body Triangle]]
@@ -396,7 +396,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Rear Naked Choke]]
 - [[Triangle Choke]]
@@ -439,7 +439,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The triangle from back represents a sophisticated evolution in our understanding of back control submission systems. Traditionally, grapplers viewed back control through the narrow lens of the rear naked choke as the primary, often singular, finishing mechanism. However, modern high-level competition has shown us that skilled opponents can defend the rear naked choke effectively through proper chin position and hand fighting. The triangle from back addresses this defensive adaptation by attacking the neck through an entirely different mechanical pathway - using leg configuration rather than arm-based choking. What makes this submission particularly valuable from a systematic perspective is that it creates a genuine dilemma for the defending opponent: defend the rear naked choke and expose yourself to the triangle, or defend the triangle and expose your neck to traditional back attacks. The key is maintaining what I call 'positional supremacy' throughout the transition - you must never sacrifice back control in pursuit of the triangle. If the triangle attempt compromises your back position, you've made a tactical error. The submission should emerge naturally from your opponent's defensive commitments, not from your forcing a technique that isn't available. From a safety standpoint, the triangle from back requires exceptional control and awareness because of the powerful leg-based pressure combined with the positional control of back mount. The potential for rapid unconsciousness is significant, making progressive pressure application and clear communication absolutely essential in training environments.
 - **Gordon Ryan**: Triangle from back is one of those submissions that separates hobbyists from serious competitors - it requires real technical sophistication and body awareness to pull off under pressure. In competition, I'm always looking for ways to finish from back because you're burning energy and risking the opponent escaping if you just hold the position. The beauty of the triangle is that it catches guys who think they've got the RNC defended. They're so focused on keeping their chin down and grabbing your choking arm that they completely forget about their legs. Here's the real key though - you need to bait the defense first. If I just attack the triangle randomly, good opponents will see it coming. But if I make a committed rear naked choke attempt, get them really focused on defending that, then switch to triangle, their defense is already committed to the wrong threat. In training versus competition, there's a massive difference in how I finish this. In the gym, I'll get to the position and just hold it with light pressure so my partner can work their defense. But in a match, once I lock that triangle, I'm finishing fast because I know my opponent won't tap until they absolutely have to. That's the competition mindset - you assume they'll defend to the last second. One more thing - flexibility matters here more than people think. If you can't get your leg over their shoulder smoothly while maintaining back control, you'll give up the position trying to force it. I spent months working on my hip flexibility specifically for this technique.
 - **Eddie Bravo**: Dude, the triangle from back is straight 10th Planet philosophy - we're always looking for ways to use our legs for submissions while keeping our hands free for control. The traditional RNC is great, but what happens when a guy knows what he's doing and locks down that defense? You're stuck. But if you can bring your leg game into back control, now you've got this whole other dimension of attacks. Here's where it gets creative - we don't just hit the standard triangle from back. We'll use it as part of a bigger system where we're threatening it from body triangle, from the truck, from gift wrap, all these different back control variations. The opponent doesn't know which version of triangle is coming, and that uncertainty is what creates the opening. In the 10th Planet system, we emphasize the transition more than the finish. If you can transition smoothly from hooks in to triangle position without losing any control, you're doing it right. If it feels forced or you're struggling, you're doing it wrong. One thing I always tell my guys - don't be married to the finish. If the triangle isn't there, switch back to the armbar, to the RNC, to whatever's available. The triangle is just one tool in the back attack toolbox. And for safety in training, man, we're super serious about this. Blood chokes are no joke. We've got a whole culture around tapping early and finishing slowly because we want everybody training for decades, not getting brain damage in the gym trying to prove they're tough.

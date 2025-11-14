@@ -8,7 +8,7 @@ description: "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Contr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Contr
 
 
 
-> **Quick Answer**: Shrimp Escape transitions from [[Side Control]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
+> Shrimp Escape transitions from [[Side Control]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create initial space through frames before attempting the hip movement
 - Bridge slightly to unweight the hips before executing the shrimp
 - Push explosively with the far leg while pulling the near leg toward your body
@@ -180,7 +180,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Bottom player is trapped in side control with opponent's chest pressure
 - Near side arm is free enough to establish an elbow frame against opponent's hip or shoulder
 - Far side arm can post against opponent's neck, shoulder, or cross-face arm
@@ -193,7 +193,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish defensive frames**: Create a strong elbow frame with your near-side arm against opponent's hip or shoulder, while your far-side arm frames against their neck or cross-face arm. These frames are critical to maintain distance and prevent further pressure advancement. Your near elbow should be tight to your body, forearm vertical, creating a wedge that keeps opponent's chest from crushing down onto yours. (Timing: Immediate upon being controlled in side control)
 2. **Bridge slightly to unweight hips**: Drive through both feet to create a small bridge, lifting your hips 2-4 inches off the mat. This micro-bridge momentarily unweights your hips and creates the mobility needed for the upcoming escape movement. Do not bridge too high or hold the bridge too long, as this can give opponent opportunity to take mount. The bridge should be quick and subtle. (Timing: Coordinate with opponent's breathing or weight shift)
 3. **Turn onto your hip**: As you come down from the bridge, turn your body to face your opponent, rotating onto your near-side hip. Your shoulders should now be perpendicular to the mat rather than flat. This hip rotation is the beginning of the shrimping motion and sets up the directional escape vector. (Timing: Immediately following the bridge, in one fluid motion)
@@ -206,7 +206,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives heavy shoulder pressure into your frames, collapsing your defensive structure** (Effectiveness: High) - Your Response: Switch to alternative frame angles, use elbow-to-knee connection for additional structural support, or time your escape for when opponent shifts weight to advance position
 - **Opponent follows your hip movement, maintaining connection and pressure throughout your shrimp** (Effectiveness: High) - Your Response: Chain multiple shrimps together, create angle changes between repetitions, or switch to alternative escapes like the elbow escape or bridge-and-roll when opponent commits to following
 - **Opponent blocks your knee insertion by driving their hip down as you create space** (Effectiveness: Medium) - Your Response: Use your frames to create a brief posting moment, shrimp again to create additional space, or switch to recovering to turtle position by continuing your rotation
@@ -215,25 +215,25 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to shrimp without first establishing proper frames
+## Common Mistakes
+- **Mistake**: Attempting to shrimp without first establishing proper frames
   - **Consequence**: Opponent easily follows your movement and re-establishes or worsens their position, potentially advancing to mount or knee-on-belly
   - **Correction**: Always establish strong frames before initiating the hip escape. Frames create the structure that prevents opponent advancement during your movement
-- **Error**: Shrimping in a straight line directly away from opponent
+- **Mistake**: Shrimping in a straight line directly away from opponent
   - **Consequence**: Creates minimal functional space and makes it easy for opponent to follow and maintain pressure
   - **Correction**: Shrimp at an angle, moving your hips in an arc rather than straight back. Angular movement creates more effective space and makes it harder for opponent to track
-- **Error**: Failing to bridge before executing the shrimp
+- **Mistake**: Failing to bridge before executing the shrimp
   - **Consequence**: Hips remain weighted and stuck to the mat, resulting in weak, ineffective movement with minimal space creation
   - **Correction**: Always include the micro-bridge to unweight your hips before the shrimp. This small bridge is essential for hip mobility
-- **Error**: Executing only one shrimp and stopping, even when insufficient space is created
+- **Mistake**: Executing only one shrimp and stopping, even when insufficient space is created
   - **Consequence**: Opponent easily recovers their position and may advance before you can establish guard
   - **Correction**: Chain 2-3 shrimps together in rapid succession if needed. Most successful escapes require multiple repetitions to create adequate space
-- **Error**: Dropping frames immediately after creating space
+- **Mistake**: Dropping frames immediately after creating space
   - **Consequence**: Opponent drives back into the space you created, nullifying your escape attempt
   - **Correction**: Maintain active frames throughout the entire escape sequence until your guard is fully established and secure
-- **Error**: Using only leg power without proper hip rotation
+- **Mistake**: Using only leg power without proper hip rotation
   - **Consequence**: Movement is linear and weak, burning energy without creating functional escaping space
   - **Correction**: Focus on the hip rotation and turning onto your side first. The shrimp is a hip movement enhanced by leg drive, not purely a leg push
 
@@ -242,7 +242,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Solo Movement Drilling** - Develop proper shrimping mechanics without resistance
 Practice shrimping movements solo across the mat, focusing on hip rotation, bridge timing, and coordination. Perform 3-5 sets of continuous shrimping across the mat length. Emphasize quality of movement over speed. Video yourself to check that hips are moving in an arc and shoulders remain turned.
 (Resistance: None)
@@ -269,7 +269,7 @@ Positional sparring from side control with full resistance. Bottom player's goal
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Ghost Escape**: When opponent has secured deep cross-face or underhook controls, the ghost escape involves turning away from opponent (facing down) while shrimping, using the rotation to slip out from under their grips. The bottom player turns their back momentarily, uses the shrimp motion to slide out, then immediately recovers to turtle or guard. (When to use: When opponent has dominant head and arm control making traditional frames impossible)
 
 **Running Man Escape**: A more dynamic variation involving alternating leg movements similar to running in place while on your side. Each leg pumps in sequence, creating continuous micro-adjustments that prevent opponent from settling their weight. This is combined with standard shrimp mechanics but adds rhythmic leg movement. (When to use: Against opponents who are skilled at following shrimp movements and maintaining pressure)
@@ -309,7 +309,7 @@ Positional sparring from side control with full resistance. Bottom player's goal
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing shrimp escapes, controlled application is essential to develop proper mechanics safely. Begin with cooperative partners who allow the technique to complete, gradually building up resistance over weeks of training. Ensure adequate mat space as shrimping can move you across the mat quickly—be aware of mat boundaries and other training pairs to avoid collisions. When drilling, the top partner should allow the escape to complete and avoid sudden weight drops or aggressive pressure that could injure the bottom player's ribs or prevent proper breathing. Build up explosiveness gradually, starting with slow technical repetitions before adding speed and power. The bridging motion should be controlled to protect your neck and spine—avoid over-bridging or jerky movements. As bottom player, if you cannot breathe properly under pressure, tap immediately and reset. As top player, check in regularly with your partner about pressure levels, especially during the learning phase. Practice on proper BJJ mats with adequate padding to protect hips and shoulders during the repetitive movements.
 
@@ -317,7 +317,7 @@ When practicing shrimp escapes, controlled application is essential to develop p
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The shrimp escape is the foundational defensive technique that connects multiple positions within the BJJ positional hierarchy. From bottom side control (a highly disadvantageous position worth -4 points in IBJJF competition), the shrimp escape allows recovery to guard positions (neutral to slightly advantageous). This escape is not merely a single technique but represents a fundamental movement principle that appears throughout defensive jiu-jitsu. The hip escape mechanism learned in the shrimp transfers directly to mount escapes (upa escape and elbow escape both incorporate shrimping elements), back escape scenarios (using shrimp motion to clear the bottom hook), and guard retention situations (shrimping to maintain distance and prevent guard passing). Within your defensive hierarchy, the shrimp escape from side control is a primary response that should be attempted before more desperate measures like turtling or giving up back control. The technique also integrates with offensive guard play—the same hip mobility and space creation mechanics used in the shrimp escape translate to guard attacks, sweeps, and submission setups where creating angles and space is essential. Mastery of shrimping fundamentally improves your entire bottom game, making it one of the highest-value techniques to drill regularly throughout your BJJ journey from white belt through black belt.
 
@@ -325,7 +325,7 @@ The shrimp escape is the foundational defensive technique that connects multiple
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Hip Escape]] - Alternative name for the same fundamental movement pattern
 - [[Elbow Escape]] - Complementary escape using similar hip mechanics from mount position
@@ -345,7 +345,7 @@ The shrimp escape is the foundational defensive technique that connects multiple
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The shrimp escape represents one of the most mechanically efficient movements in all of grappling, utilizing the principle of angular escape vectors to defeat linear pressure. Understanding the biomechanics reveals why this technique is so fundamental: when opponent applies downward and forward pressure from side control, they create a force vector that pins your shoulders and hips. The bridge creates vertical lift that momentarily disrupts this vector, while the shrimp creates horizontal and lateral movement perpendicular to their pressure line. This combination of vertical and lateral movement creates a diagonal escape vector that is mechanically difficult for opponent to counter. The frames serve as dynamic barriers that maintain the space your hip movement creates—they are not static structures but active tools that adjust angle and pressure throughout the escape sequence. The most sophisticated application of the shrimp involves understanding that it is not a single explosive movement but rather a systematic sequence: establish structure with frames, create mobility with the bridge, generate space with the shrimp, and secure the position with guard recovery. Each phase must be executed with technical precision for the system to function optimally against skilled opponents.
 - **Gordon Ryan**: In competition, the shrimp escape is one of the highest-percentage techniques for surviving bottom side control, but timing is everything. I've used this escape countless times against world-class opponents, and what separates success from failure is recognizing the exact moment when opponent's pressure transitions or their weight shifts. You cannot just randomly shrimp against elite players—they will follow and crush you. Instead, you must create the timing window through your frames. I use my frames aggressively to push and create reactions, then capitalize on their counter-pressure to execute the shrimp in the opposite direction. Against heavy pressure passers, I often chain 3-4 shrimps rapidly rather than attempting one perfect escape, because continuous movement prevents them from settling their weight effectively. The knee insertion phase is critical in high-level competition: your knee must enter like a wedge, not tentatively, and you must immediately establish gripping controls on their sleeves or collar to prevent them from smashing your guard. In no-gi, where frames are harder to maintain without fabric grips, I rely more on elbow-to-knee connection and explosive shrimp chains. This is not a technique you learn once—I still drill shrimping movements regularly because the quality of your hip escape directly correlates with your survival rate in bottom positions.
 - **Eddie Bravo**: The shrimp escape is fundamental, but at 10th Planet we've developed variations that make it more effective in no-gi and against modern top pressure. Traditional shrimping sometimes fails against heavy shoulder pressure because you're fighting directly against their strong pressure vector. What we've found is that adding rotational elements—like the ghost escape where you turn away first—can create angles that completely neutralize their pressure. The key innovation is understanding that you don't always have to shrimp away from opponent; sometimes shrimping toward them while rotating creates unexpected space. We also emphasize the 'running man' variation where your legs are constantly pumping in a running motion while on your side, making it nearly impossible for opponent to settle and predict your movement. In terms of training methodology, we drill shrimping from bottom positions during every warmup, but we add musical rhythm and flow to the movement rather than treating it as a static drill. This develops the unconscious competency needed to hit shrimps during live rolling when your conscious mind is focused on strategy rather than mechanics. The shrimp is also the foundation for our lockdown escapes and half guard recoveries, so mastering the hip movement pattern unlocks multiple areas of the 10th Planet system.

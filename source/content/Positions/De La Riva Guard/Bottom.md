@@ -8,7 +8,7 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ De La Riva Guard Bottom has become fundamental to competitive BJJ, particularly 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player's outside leg threaded around opponent's near leg with foot hooking behind their knee, creating the signature De La Riva hook that controls their base and prevents forward pressure
 - Bottom player controlling opponent's opposite sleeve or collar with a cross grip, creating a diagonal control system that disrupts their posture and enables angular attacks
@@ -201,7 +199,7 @@ De La Riva Guard Bottom has become fundamental to competitive BJJ, particularly 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent in open guard passing position on their knees or in combat base
 - Bottom player has established the De La Riva hook around opponent's near leg
@@ -225,7 +223,7 @@ De La Riva Guard Bottom has become fundamental to competitive BJJ, particularly 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[De La Riva Sweep]] → [[Mount Top]]
 
@@ -289,7 +287,7 @@ De La Riva Guard Bottom has become fundamental to competitive BJJ, particularly 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Knee Cut Pass]]** → [[Side Control]] (Opponent Success: 40%)
 - **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 35%)
@@ -301,7 +299,7 @@ De La Riva Guard Bottom has become fundamental to competitive BJJ, particularly 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Re-Guard]]** → [[De La Riva Guard]]
   - Opponent attempts to clear the De La Riva hook by stepping back
@@ -336,7 +334,7 @@ De La Riva Guard Bottom has become fundamental to competitive BJJ, particularly 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

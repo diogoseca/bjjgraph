@@ -8,7 +8,7 @@ description: "Master the Banana Split submission in BJJ. Complete guide covering
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Banana Split submission in BJJ. Complete guide covering
 
 
 
-> **Quick Answer**: Banana Split is a groin stretch targeting the Hip adductors, groin, and lower back. ⚠️ **SAFETY**: This technique can cause Groin muscle tear or strain - apply slowly over 3-5 seconds and release immediately upon tap.
+> Banana Split is a groin stretch targeting the Hip adductors, groin, and lower back. ⚠️ **SAFETY**: This technique can cause Groin muscle tear or strain. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="safety-considerations" class="content-section">
 
-## Is Banana Split Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Control opponent's upper body to prevent escape while splitting legs
 - Create opposing forces between leg control and upper body control
 - Maintain stable base on bottom to generate splitting pressure
@@ -225,7 +225,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish deep half guard position with leg trapped
 - Secure lockdown or similar leg control on one leg
 - Isolate opponent's far leg to prevent base recovery
@@ -239,7 +239,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish Deep Half Control**: From deep half guard, secure your lockdown on the near leg while maintaining your shoulder underneath opponent's hips. Your head should be on the far side, creating the foundation for the split. Ensure your lockdown is tight and opponent's weight is loaded onto your structure. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Isolate the Far Leg**: Reach across with your far hand to grab opponent's far ankle, knee, or lower thigh. Some variations involve using your own far leg to hook their far leg. The goal is to prevent them from posting or establishing a wide base. This isolation is critical for the splitting mechanics to function. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Create the Splitting Angle**: While maintaining lockdown control on the near leg, begin to pull the far leg toward you and away from their body. Simultaneously, use your lockdown to push the near leg in the opposite direction. Your body position should create a wedge that forces their legs apart. Maintain shoulder pressure under their hips to prevent them from rolling forward. (Timing: 3-4 seconds) [Pressure: Moderate]
@@ -252,7 +252,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Drive forward with pressure to collapse bottom player** (Effectiveness: Medium) - Your Adjustment: Maintain strong shoulder frame under hips and increase upper body control. Use your lockdown to prevent forward movement and redirect their pressure sideways.
 - **Attempt to free the trapped leg by pulling knee toward chest** (Effectiveness: High) - Your Adjustment: Tighten lockdown immediately and establish secondary control on the far leg before they create defensive structure. If they escape the lockdown, transition to electric chair or other attacks.
 - **Roll forward or cartwheel over to escape leg control** (Effectiveness: Medium) - Your Adjustment: Use upper body control to prevent the roll. If they commit to the roll, you may be able to transition to back control or other advantageous positions. Don't release the far leg prematurely.
@@ -261,25 +261,25 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying splitting pressure too quickly or explosively [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying splitting pressure too quickly or explosively [CRITICAL DANGER]
   - **Consequence**: High risk of causing groin muscle tears or severe strains before partner can tap
   - **Correction**: Always apply pressure progressively over minimum 5 seconds. The banana split should feel like slowly increasing discomfort, not sudden pain. Communication with training partners is essential.
-- **Error**: Failing to control opponent's upper body [Medium DANGER]
+- **Mistake**: Failing to control opponent's upper body [Medium DANGER]
   - **Consequence**: Opponent drives forward with pressure and collapses your structure, escaping the position
   - **Correction**: Establish upper body control (underhook, belt grip, or body lock) before fully committing to the leg split. Your shoulder frame under their hips must remain strong throughout.
-- **Error**: Losing lockdown control on the near leg [Medium DANGER]
+- **Mistake**: Losing lockdown control on the near leg [Medium DANGER]
   - **Consequence**: Opponent frees their leg and escapes, potentially passing to dominant position
   - **Correction**: Maintain constant tension on the lockdown throughout the entire sequence. If lockdown loosens, re-tighten before continuing with far leg isolation. The near leg control is your foundation.
-- **Error**: Releasing far leg grip prematurely [Low DANGER]
+- **Mistake**: Releasing far leg grip prematurely [Low DANGER]
   - **Consequence**: Opponent recovers base and escapes the submission setup
   - **Correction**: Commit to the far leg control once established. Use multiple grip options (ankle, knee, thigh) and be prepared to adjust if they defend. Don't release until you're transitioning to another attack.
-- **Error**: Not accounting for opponent's flexibility level [High DANGER]
+- **Mistake**: Not accounting for opponent's flexibility level [High DANGER]
   - **Consequence**: Either ineffective submission on flexible opponents or injury to inflexible ones
   - **Correction**: Assess partner's flexibility during rolling. More flexible opponents may require additional control points or combination attacks. Less flexible partners require extra caution and slower pressure application.
-- **Error**: Poor hip positioning and insufficient wedge angle [Low DANGER]
+- **Mistake**: Poor hip positioning and insufficient wedge angle [Low DANGER]
   - **Consequence**: Unable to generate splitting pressure despite having leg controls
   - **Correction**: Focus on hip extension and creating the wedge with your torso. Your body should form the splitting force between the two legs. Practice the mechanics without full pressure first.
 
@@ -288,7 +288,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Lockdown Banana Split**: Classic entry from lockdown position where you establish the lockdown first, then isolate the far leg. This is the most common variation taught in 10th Planet system. The lockdown provides excellent control of the near leg while you work to trap the far leg. (When to use: When opponent is heavily pressuring from top half guard and you have time to establish lockdown. Most effective against opponents who maintain narrow base.)
 
 **Electric Chair to Banana Split Transition**: Begin with electric chair setup (lockdown with far leg controlled) but instead of rolling for the crotch ripper finish, maintain bottom position and split the legs. This creates multiple submission threats that are difficult to defend simultaneously. (When to use: When opponent defends the electric chair sweep by preventing the roll. The banana split becomes the backup attack from the same position.)
@@ -331,7 +331,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn the mechanical structure of the banana split without applying finishing pressure. Understand positioning, leg controls, and the splitting mechanics. Study anatomy of hip adductors and groin to understand injury risks.
 - Resistance: None
@@ -368,7 +368,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Deep Half Guard]]
 - [[Lockdown]]
@@ -384,7 +384,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Electric Chair Submission]]
 - [[Calf Slicer from Truck]]
@@ -423,7 +423,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The banana split represents an interesting category of submission that targets structural flexibility limitations rather than pure joint mechanics. From a biomechanical perspective, the submission creates opposing forces on the hip joints that exceed the opponent's range of motion in hip abduction. The key to effective application lies in establishing multiple points of control - the lockdown controls one leg, your grip controls the far leg, and your upper body control prevents forward escape. The submission force comes from using your torso as a wedge between their legs while maintaining these three control points. What makes this submission particularly noteworthy is its reliance on individual variation in flexibility - an opponent with extensive hip mobility may feel minimal pressure while someone with tight adductors will tap very quickly. This requires you to calibrate your pressure based on the individual. From a safety perspective, the muscles being stressed (hip adductors and groin complex) are prone to tears under sudden force, necessitating extremely gradual pressure application in training. The banana split also serves an important tactical function beyond just finishing - it creates such discomfort that opponents often make defensive errors that open other attacks. In a systematic approach to half guard bottom, the banana split represents one branch in a decision tree of attacks, most effective when combined with electric chair threats and back take attempts.
 - **Gordon Ryan**: The banana split is one of those submissions that works way better in training than competition at the highest levels, primarily because flexible competitors won't feel it and inflexible ones know to defend it early. That said, it's incredibly valuable as a threat that forces reactions. In training, I use the banana split position more as a control position that creates offensive opportunities rather than hunting for the tap. When you establish those leg controls from deep half, your opponent has to deal with multiple threats - the banana split, the electric chair sweep, potential back exposure if they try to roll away. This creates the dilemma that opens up actual finishing opportunities. In competition, I've seen the banana split work best against opponents who are already tired and their defensive reactions slow down. The other key application is using it to force a scramble when you're behind on points - people will do crazy things to avoid the discomfort of that leg split, and in the scramble you can sometimes recover guard or take the back. From a training perspective, you need to be very careful with this one - I've seen too many groin injuries from people who apply it too fast or don't account for their partner's flexibility. The distinction between training and competition application is huge here. In competition, you might hold the position for extended time to break them down. In training, you should tap your partner way before that point. The banana split fits into a modern half guard bottom system where you're creating multiple threats from lockdown - you're never just hunting one submission, you're using the position to force defensive errors.
 - **Eddie Bravo**: The banana split is one of the signature attacks from our lockdown system and it perfectly represents the 10th Planet philosophy - it's unconventional, it's uncomfortable, and it forces people into positions they don't train. We developed this as part of the electric chair series, and what's beautiful about it is how it fits into the whole lockdown ecosystem. You've got the lockdown controlling one leg, you're hunting for that far leg, and suddenly you've got multiple attacks - electric chair, banana split, old school sweep, back take. The opponent doesn't know what's coming and that uncertainty is what creates opportunities. The banana split specifically is nasty because it attacks flexibility, and let's be honest, not everyone is doing yoga every day. What I love about teaching this submission is that it forces students to think about control systems and combinations rather than just individual techniques. You're never going for just the banana split - you're creating a situation where they have to defend multiple things and eventually something opens up. Safety-wise, this is one where our culture of tapping early is super important. We train this a lot because it's part of our core system, but we also have very clear protocols about pressure application. When you're in the position, you can feel your partner's flexibility level immediately, and you have to adjust. Some guys you can barely split at all, others will tap to light pressure. That individual variation makes it a thinking person's submission. The banana split also represents the creative evolution of half guard - when everyone was just trying to sweep from half guard, we were asking what if we attacked from bottom instead? What if we used the lockdown not just for control but as a launching point for attacks? That mindset shift is what led to the whole electric chair and banana split series.

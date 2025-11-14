@@ -8,7 +8,7 @@ description: "Master the Twister finishing sequence in BJJ. Complete guide with 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Twister finishing sequence in BJJ. Complete guide with 
 
 
 
-> **Quick Answer**: Twister Finish is a spinal lock targeting the Cervical and thoracic spine, shoulder girdle. ⚠️ **SAFETY**: This technique can cause Cervical spine strain or herniation - apply slowly over 3-5 seconds and release immediately upon tap.
+> Twister Finish is a spinal lock targeting the Cervical and thoracic spine, shoulder girdle. ⚠️ **SAFETY**: This technique can cause Cervical spine strain or herniation. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="safety-considerations" class="content-section">
 
-## Is Twister Finish Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -212,7 +212,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Opposed rotational forces - lower body locked in opposite direction from upper body creates spinal compression
 - Progressive pressure application - build submission slowly over 5-7 seconds minimum, never spike
 - Body positioning eliminates escape routes - Truck position must be established and maintained throughout
@@ -226,7 +226,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure Truck position with opponent on their side, your body perpendicular
 - Establish figure-four leg lock controlling opponent's hips with your leg triangle secured
 - Achieve back exposure with opponent's far shoulder accessible to your arms
@@ -240,7 +240,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure the Truck position foundation**: From back control or crab ride, establish the Truck by getting perpendicular to opponent's body with your legs creating a figure-four lock around their hips. Your bottom leg threads under their near leg while your top leg crosses over their body, locking at the ankle or shin. Ensure opponent is on their side facing away from the direction you'll create the twist. Your body should be chest-to-back with their spine, creating immense control. (Timing: Take 3-5 seconds to establish position securely) [Pressure: Moderate]
 2. **Isolate the far shoulder and arm**: Reach over the opponent's body with your top arm and secure their far arm at the wrist or forearm. Pull this arm across their body toward you, exposing the shoulder blade and creating the initial rotation. The key is to bring their arm high across their chest, almost like they're reaching for their opposite shoulder. This arm control prevents them from defending the neck and begins the rotational pressure on the shoulder girdle. (Timing: 2-3 seconds with controlled movement) [Pressure: Light]
 3. **Establish head and neck control**: Your bottom arm snakes under the opponent's head, either cupping the chin or wrapping around the neck and head together. This creates a handle for the upper body rotation. Your hand should connect with your own chest or shoulder to create a tight loop. Be extremely careful not to compress the trachea - the pressure should be on the head and shoulder, not the throat. This control point is what creates the opposed rotation against the locked hips. (Timing: 3-4 seconds ensuring proper position) [Pressure: Light]
@@ -253,7 +253,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent attempts to turn into you to relieve the twist** (Effectiveness: Medium) - Your Adjustment: Use your chest pressure and leg control to prevent the turn. Drive your hips into their locked legs while your chest blocks their upper body rotation. If they succeed in turning slightly, readjust your arm position to maintain shoulder control.
 - **Opponent grabs their own leg to prevent the figure-four lock** (Effectiveness: High) - Your Adjustment: This defense is most effective before you complete the Truck. If they grab their leg, you must address this before attempting the Twister. Use hand fighting to break the grip, or transition to alternative back attacks like the rear naked choke.
 - **Opponent attempts to straighten their body and create distance** (Effectiveness: Medium) - Your Adjustment: Tighten your leg lock and drive your chest into their back to collapse the space. If they create significant distance, you may need to reset the Truck position before attempting the finish.
@@ -263,25 +263,25 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying the twist too quickly or jerking the submission [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying the twist too quickly or jerking the submission [CRITICAL DANGER]
   - **Consequence**: Severe risk of spinal injury to partner, immediate cervical damage possible
   - **Correction**: Always apply pressure progressively over 5-7 seconds minimum. Smooth, continuous pressure allows partner to tap safely before injury occurs.
-- **Error**: Attempting the submission without secure Truck position [Medium DANGER]
+- **Mistake**: Attempting the submission without secure Truck position [Medium DANGER]
   - **Consequence**: Submission fails, opponent escapes easily, you lose positional control
   - **Correction**: Ensure your figure-four leg lock is completely secured and opponent's hips are fully controlled before attempting any twist. Spend time developing the Truck before finishing.
-- **Error**: Focusing pressure on the neck instead of the shoulder and spine [High DANGER]
+- **Mistake**: Focusing pressure on the neck instead of the shoulder and spine [High DANGER]
   - **Consequence**: Ineffective submission that becomes a neck crank, increased injury risk, reduced mechanical advantage
   - **Correction**: Control the head as a steering wheel but create pressure through shoulder rotation. The opponent's far shoulder should be pulled dramatically across their body, creating the spinal twist.
-- **Error**: Releasing leg control prematurely while maintaining upper body pressure [Low DANGER]
+- **Mistake**: Releasing leg control prematurely while maintaining upper body pressure [Low DANGER]
   - **Consequence**: Opponent can relieve all pressure by following the rotation with their hips, submission fails
   - **Correction**: Maintain the figure-four leg lock throughout the entire submission. The locked hips are what creates the opposed rotational force. Only release legs AFTER releasing upper body when the tap comes.
-- **Error**: Using this submission on inexperienced training partners [CRITICAL DANGER]
+- **Mistake**: Using this submission on inexperienced training partners [CRITICAL DANGER]
   - **Consequence**: Partner may not recognize danger or tap appropriately, severe injury risk, breakdown of training trust
   - **Correction**: Only attempt the Twister with experienced grapplers who understand the submission and will tap early. Discuss the submission before attempting it for the first time with any partner.
-- **Error**: Insufficient body positioning - being too high or too low on opponent's back [Medium DANGER]
+- **Mistake**: Insufficient body positioning - being too high or too low on opponent's back [Medium DANGER]
   - **Consequence**: Poor leverage, ineffective twist, opponent can turn into or away from you to escape
   - **Correction**: Your chest should be centered on their mid-back, creating a fulcrum point. Adjust up or down until you feel maximum control over their body rotation.
 
@@ -290,7 +290,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Twister from Crab Ride**: Entry variation beginning from crab ride position instead of traditional back control. Hook the opponent's leg with your bottom leg while riding their back, then swing your top leg over to establish the Truck. This allows you to hit the Twister from scrambles where you have back exposure but not full back control. (When to use: When opponent is defending traditional back control but gives up leg control during scrambles. Excellent in no-gi where back control can be fleeting.)
 
 **Twister from Lockdown Half Guard**: The classic 10th Planet entry starting from lockdown half guard. Use the Old School sweep setup to create back exposure, then roll through to establish the Truck position. This is Eddie Bravo's signature Twister entry and represents the systematic approach to the submission. (When to use: From bottom half guard when you have the lockdown secured. Particularly effective against opponents who try to smash through your half guard with forward pressure.)
@@ -328,7 +328,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (No Contact)** (Week 1-2)
 - Focus: Study the Truck position mechanics, understand opposed rotational forces, learn spinal anatomy, review video instruction from qualified sources. Practice solo movement drills for getting to the Truck from various positions. Understand the safety requirements and injury risks thoroughly before any partner practice.
 - Resistance: None
@@ -365,7 +365,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Truck]]
 - [[Twister Control]]
@@ -381,7 +381,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Calf Slicer from Truck]]
 - [[Banana Split]]
@@ -417,7 +417,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Twister represents an interesting case study in submission mechanics - it's one of the few submissions in Brazilian Jiu-Jitsu that targets the spine rather than a limb or the neck independently. The mechanical efficiency comes from the creation of opposed rotational forces, where the lower body is anchored through leg entanglement while the upper body is rotated in the opposite direction. This creates what we might call a 'torque differential' across the spinal column, specifically targeting the thoracic vertebrae. From a systematic perspective, the Twister cannot be viewed as an isolated technique but rather as the culmination of a positional hierarchy beginning with back control, progressing through the truck position, and ending with the submission itself. The safety considerations are paramount - the spine's proximity to the spinal cord means that injury here carries catastrophic potential. Therefore, in training, we must treat this submission with extreme respect, applying pressure over a minimum of five to seven seconds and never, under any circumstances, jerking or spiking the finish. The technique's effectiveness in competition is limited not by mechanical inefficiency but by the difficulty of securing the prerequisite positions against elite opposition and by various rule restrictions. For instructional purposes, I emphasize the Twister as an advanced teaching tool that develops understanding of spinal mechanics and rotational control, rather than as a high-percentage finishing option for competition.
 - **Gordon Ryan**: The Twister is one of those submissions that looks way more spectacular than it actually is in competition. I've hit it a few times in training, but in high-level no-gi competition, you're almost never going to catch someone in a position this complicated. The amount of control you need to lock up the truck and then finish the Twister is massive - if you have that much control, you can probably just take the back and get the choke, which is higher percentage and works under any ruleset. That said, the positions you learn getting to the Twister - the truck, the crab ride, the leg entanglement game - those are absolutely legit and useful. I use truck position entries all the time to threaten the back or to attack legs. The key difference between training and competition is that in training, you can play around with these complex positions and really develop the control. In competition, you need to be efficient and go for the highest percentage finish. If I get to someone's back, I'm going for the rear naked choke ninety-nine times out of a hundred because it works under ADCC rules, IBJJF rules, submission-only, whatever. The Twister is illegal in most gi competitions and even in a lot of no-gi formats. But here's the thing - training the Twister makes you better at back control, better at understanding body mechanics, and way more comfortable in scrambles. So I tell people: learn it, drill it slowly and safely with experienced partners, understand the mechanics, but don't build your competition game around it. Use the positional understanding it gives you to improve your back attacks and your overall control game.
 - **Eddie Bravo**: The Twister is the submission that put 10th Planet Jiu-Jitsu on the map, and I'm incredibly proud of it, but I'm also incredibly respectful of it. This is not a submission you fuck around with - it attacks the spine, and that's serious business. When I first started developing the Twister back in the day, it came from my background in wrestling and my obsession with leg rides and back control. I was watching wrestling matches and seeing these positions where guys had incredible control, and I thought, 'How can we weaponize this for submission grappling?' The Twister was the answer. But here's the thing nobody talks about enough - this submission is as much about the journey as the destination. The whole system leading to the Twister - the lockdown, the Old School sweep, the truck position - that's where the real innovation lives. Yeah, you can finish the Twister, and it's devastating when you do, but the positions you learn getting there make your entire back attack game next level. In the 10th Planet system, we teach the Twister methodically and we emphasize safety constantly. You do not practice this on white belts, you do not go fast, and you tap your partner, not the other way around. When I show this technique, I'm always conscious that I'm demonstrating something that can really hurt somebody if they're careless. The beauty of the Twister is that it requires you to be creative, to think outside the box, to use your whole body in this coordinated way that's almost like a puzzle. It's not brute strength - it's technique, timing, and understanding of body mechanics. For me, the Twister represents what 10th Planet is all about: innovation, systematic thinking, and respect for the art and your training partners.

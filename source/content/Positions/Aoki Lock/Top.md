@@ -8,7 +8,7 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75%.
 
 ---
 
@@ -191,7 +191,7 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's legs are entangled with opponent's trapped arm with thigh positioned over shoulder and shin controlling upper arm
 - Opponent is typically on side or stomach with trapped shoulder isolated and unable to rotate freely
@@ -205,7 +205,7 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful entry from front headlock, turtle, or guard passing position with arm isolated
 - Control of opponent's shoulder with legs positioned for entanglement
@@ -233,7 +233,7 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Aoki Lock Finish]] → [[Won by Submission]]
 
@@ -283,7 +283,7 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Roll Through Escape]]** → [[Turtle]] (Opponent Success: 25%)
 - **[[Arm Extraction]]** → [[Open Guard]] (Opponent Success: 20%)
@@ -295,7 +295,7 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Take from Roll Attempt]]** → [[Back Control]]
   - Opponent attempts to roll forward through the position creating momentum you follow
@@ -337,7 +337,7 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

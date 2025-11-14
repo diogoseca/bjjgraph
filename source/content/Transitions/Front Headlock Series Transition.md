@@ -8,7 +8,7 @@ description: "Master Front Headlock Series in BJJ. Complete guide to control and
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Front Headlock Series in BJJ. Complete guide to control and
 
 
 
-> **Quick Answer**: Front Headlock Series Transition transitions from [[Front Headlock]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
+> Front Headlock Series Transition transitions from [[Front Headlock]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Developed and refined by high-level competitors including Marcelo Garcia, John D
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant head control with tight connection between forearm and opponent's neck
 - Control the near arm to prevent opponent's defensive framing and escape attempts
 - Keep weight distributed forward to prevent opponent from coming up to knees
@@ -184,7 +184,7 @@ Developed and refined by high-level competitors including Marcelo Garcia, John D
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in turtle position or bent forward from failed takedown attempt
 - Clear access to opponent's head and near-side arm
 - Proper base established with feet positioned to control opponent's movement
@@ -198,7 +198,7 @@ Developed and refined by high-level competitors including Marcelo Garcia, John D
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish front headlock control**: As opponent assumes turtle position or bends forward, immediately secure head control by threading your arm around their neck with your forearm positioned across the front of their throat. Your bicep should be on one side of their neck and your forearm on the other, creating a vice-like grip. Simultaneously control their near arm by either overhooking it or pinning it to their body. (Timing: Immediate as opportunity presents)
 2. **Secure proper angle and base**: Position your body at roughly a 45-degree angle to your opponent's body—never directly behind them where they can back into you. Establish a wide, stable base with your feet, keeping your weight forward over their shoulders. Your chest should be heavy on their upper back, preventing them from elevating their posture. Lock your hands in your preferred grip (gable grip, palm-to-palm, or guillotine grip). (Timing: Within 1-2 seconds of initial control)
 3. **Apply initial control pressure**: Drive your weight downward through your chest into their shoulders while maintaining the headlock. Your forearm should create light pressure across their throat (not yet choking), and your near-arm control should prevent them from posting or framing. This pressure keeps them defensive and prevents immediate escape attempts while you assess their reactions. (Timing: Continuous throughout control phase)
@@ -211,7 +211,7 @@ Developed and refined by high-level competitors including Marcelo Garcia, John D
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent tucks chin and blocks choking arm** (Effectiveness: Medium) - Your Response: Transition from choke attempt to position advancement—use their defensive posture to take the back or transition to alternative choke (anaconda to darce, guillotine to anaconda, etc.)
 - **Opponent rolls forward attempting granby escape** (Effectiveness: Low) - Your Response: Maintain headlock grip and follow their roll, landing in mounted guillotine position or using momentum to take the back during the roll
 - **Opponent posts with far arm and attempts to come up** (Effectiveness: Medium) - Your Response: Increase downward pressure through chest, circle to cut off the angle of their base, or use their upward movement to sink guillotine deeper and pull guard
@@ -221,28 +221,28 @@ Developed and refined by high-level competitors including Marcelo Garcia, John D
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing head control during transitions between techniques
+## Common Mistakes
+- **Mistake**: Releasing head control during transitions between techniques
   - **Consequence**: Opponent escapes entirely, returning to neutral or advantageous position
   - **Correction**: Maintain constant connection with opponent's head throughout all transitions—grips may change, but control never fully releases until submission or back control is secured
-- **Error**: Positioning body directly behind opponent instead of at an angle
+- **Mistake**: Positioning body directly behind opponent instead of at an angle
   - **Consequence**: Opponent can drive backward into you, stand up, or use their hips to create escape space
   - **Correction**: Always maintain 30-45 degree angle to opponent's centerline, keeping your hips offset to one side while controlling their head and near arm
-- **Error**: Focusing solely on submission without recognizing positional opportunities
+- **Mistake**: Focusing solely on submission without recognizing positional opportunities
   - **Consequence**: Missing high-percentage back take or mount opportunities while forcing low-percentage chokes
   - **Correction**: Develop the mindset that front headlock is primarily a control position that offers both submission and positional advancement—be willing to take the back or mount when available
-- **Error**: Insufficient control of opponent's near arm
+- **Mistake**: Insufficient control of opponent's near arm
   - **Consequence**: Opponent creates frames, posts to stand, or uses the free arm to defend neck and escape
   - **Correction**: Always control the near arm through overhook, pinning it to their body, or trapping it with your weight—never allow it to be free for posting or framing
-- **Error**: Applying maximum choking pressure immediately without securing position
+- **Mistake**: Applying maximum choking pressure immediately without securing position
   - **Consequence**: Opponent's survival instinct activates explosive escape attempts before you have solid control, resulting in scrambles
   - **Correction**: Establish secure control first with moderate pressure, then progressively increase pressure as you refine position and narrow escape options
-- **Error**: Failing to adjust base when opponent moves
+- **Mistake**: Failing to adjust base when opponent moves
   - **Consequence**: Loss of balance, weakened control, and potential reversal as opponent exploits your poor positioning
   - **Correction**: Develop mobile base—constantly adjust feet and weight distribution to maintain forward pressure regardless of opponent's movement
-- **Error**: Committing to single technique without adapting to opponent's defense
+- **Mistake**: Committing to single technique without adapting to opponent's defense
   - **Consequence**: Wasting energy on defended technique while missing openings for alternative attacks in the series
   - **Correction**: Train the entire series as a flowing system—develop sensitivity to recognize when one technique is defended and immediately flow to the next logical option
 
@@ -251,7 +251,7 @@ Developed and refined by high-level competitors including Marcelo Garcia, John D
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Control Foundation (Weeks 1-2)** - Establishing and maintaining front headlock control position
 Partner starts in turtle position. Practice obtaining head control, securing near arm, and establishing proper angle and base. Hold position for 30-60 seconds while partner remains relatively stationary. Focus on grip strength, weight distribution, and maintaining connection.
 (Resistance: Light)
@@ -282,7 +282,7 @@ Actively seek front headlock opportunities during free training. Work on obtaini
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standing Front Headlock Series**: Executed from standing position after sprawl or failed takedown, utilizing guillotine pull to guard, snap down control, or guillotine from standing as primary options (When to use: When opponent shoots takedown and you successfully sprawl, or when opponent is bent over from standing clinch position)
 
 **Side Front Headlock (Modified Kesa Gatame)**: Front headlock control from side position rather than top-turtle, often transitioning from failed guard pass or side control with head control emphasized (When to use: When opponent turns away from side control or when transitioning from headquarters position with head available)
@@ -322,7 +322,7 @@ Actively seek front headlock opportunities during free training. Work on obtaini
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the front headlock series, controlled application is essential to prevent neck injuries. The neck is extremely vulnerable in this position, and excessive cranking or sudden pressure can cause serious injury. Always apply chokes progressively over 3-5 seconds minimum, never explosively. During drilling, both partners must communicate—the person applying should start with light pressure and gradually increase, while the defensive partner should tap early and clearly. Be especially cautious with the anaconda and darce variations, as they can create significant pressure on the cervical spine. Never practice these techniques without proper instruction and supervision. When partner taps, release immediately—continuing pressure after a tap can cause injury and erodes trust. Practice on appropriate surfaces (mats, never hard floors) and be aware of mat boundaries during dynamic transitions. Beginners should focus on control and position before attempting submissions from this series.
 
@@ -330,7 +330,7 @@ When practicing the front headlock series, controlled application is essential t
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The front headlock series occupies a unique position in the BJJ hierarchy as both a control position and a submission hub. It typically arises from the turtle position (when opponent goes defensive), failed takedown attempts (after successful sprawl), or as a transition during guard passing sequences. The position serves as a bridge between standing/wrestling positions and ground control, making it essential for both takedown defense and ground strategy. Within the positional hierarchy, front headlock sits at a crucial decision point—it can lead to dominant positions (back control, mount, side control) or direct submissions (guillotine, anaconda, darce), making it one of the most versatile control positions in the sport. Mastery of this series significantly impacts your entire game, as it provides high-percentage options from common scenarios that occur in both training and competition. The position integrates seamlessly with wrestling-based BJJ approaches, no-gi systems, and modern submission grappling strategies. Understanding when to pursue submission versus positional advancement from front headlock is a mark of strategic maturity in BJJ.
 
@@ -338,7 +338,7 @@ The front headlock series occupies a unique position in the BJJ hierarchy as bot
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Front Headlock to Guillotine]] - Primary submission option from series
 - [[Front Headlock to Anaconda]] - Alternative submission when opponent turns into you
@@ -358,7 +358,7 @@ The front headlock series occupies a unique position in the BJJ hierarchy as bot
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The front headlock series represents a perfect example of systematic position-based submission grappling. What makes this series so effective is not any individual technique, but the interconnected nature of the attacks that create what I call a 'submission ecosystem.' Each defensive response from your opponent doesn't lead to escape—it leads to a different branch of your offensive system. The key to mastering this series is understanding the biomechanical principles underlying each technique and the strategic decision-making process that determines which path to follow. Your choking arm's position relative to the carotid arteries, your angle relative to their spine, your weight distribution over their shoulder girdle—these are not random details but precise mechanical requirements that determine success or failure. Train this series with the understanding that front headlock is fundamentally a control position that happens to offer multiple high-percentage submissions, not primarily a submission position. This mindset shift—position before submission—is what separates systematic grapplers from opportunistic ones.
 - **Gordon Ryan**: Front headlock is probably the highest percentage control position in no-gi grappling when you really understand the whole system. In competition, I actively seek this position because it puts enormous pressure on my opponent with minimal energy expenditure from me. The beautiful thing about the series is that your opponent has to make choices under pressure, and every choice has consequences. They defend the guillotine, I take the anaconda. They block the anaconda, the darce is there. They turtle up tight protecting everything, I take the back. I've finished numerous matches from this position because opponents simply don't have good answers for the entire series. The key in competition is not just knowing the techniques but developing the mat sense to recognize which one is available in real-time. Against high-level opponents, you might flow through three or four options in fifteen seconds before finding the finish. That fluidity only comes from drilling the transitions between techniques, not just the techniques themselves. Also, don't underestimate the psychological factor—when your opponent knows you have a dangerous front headlock game, they'll avoid giving you turtle entirely, which opens other opportunities in your overall strategy.
 - **Eddie Bravo**: The front headlock series is where wrestling meets submission grappling in the most beautiful way, man. What I love about this position is the chaos factor—it's dynamic, it's scramble-heavy, and it rewards creativity and unconventional attacks. In the 10th Planet system, we've developed some unique entries and variations from front headlock, including transitions to the truck position and twister setups that most traditional players don't see coming. The standard series—guillotine, anaconda, darce, back take—is absolutely essential and works at all levels, but there's so much room for innovation here. One concept we emphasize is using the front headlock as a transitional hub rather than a static position. You're constantly moving, constantly creating angles, constantly forcing reactions. The opponent never gets comfortable because the position is inherently unstable for them. Also, in no-gi especially, the front headlock is your best friend after a sprawl. When someone shoots and you sprawl, that immediate transition to front headlock control gives you multiple high-percentage finishing options. We drill this transition religiously because it comes up in every single roll and every competition match. Master the front headlock series and you've got a complete attacking system from one of the most common positions in grappling.

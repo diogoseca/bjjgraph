@@ -8,7 +8,7 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 
 
 
-> **Quick Answer**: Paper Cutter Choke is a blood choke targeting the Carotid arteries (bilateral compression). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression - apply slowly over 3-5 seconds and release immediately upon tap.
+> Paper Cutter Choke is a blood choke targeting the Carotid arteries (bilateral compression). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="safety-considerations" class="content-section">
 
-## Is Paper Cutter Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Deep collar grip is essential—the four fingers must be inside the collar at least to the second knuckle for effective compression
 - The choking force comes from pulling the collar while driving the forearm across the neck, creating a scissoring action on both carotid arteries
 - Head control with the non-choking hand prevents escape and maintains proper angle for maximum pressure
@@ -225,7 +225,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish dominant side control with chest pressure and hip connection to prevent escape
 - Control opponent's near arm, either by trapping it or using underhook to prevent them from framing against your neck
 - Secure deep collar grip with choking hand—fingers must reach past the back of the neck for proper leverage
@@ -239,7 +239,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish Side Control Dominance**: From standard side control, flatten opponent fully and establish chest-to-chest pressure. Your weight should be distributed across their torso, making it difficult for them to bridge or shrimp. Control the near arm with an underhook or by pinning it to their body. Your head should be positioned on the far side of their head, preventing them from turning into you. (Timing: Take 3-5 seconds to establish solid control before attacking) [Pressure: Firm]
 2. **Insert Collar Grip**: Slide your choking hand (typically your bottom hand when in side control) deep into the opponent's far collar. Your four fingers should penetrate at least to the second knuckle, ideally reaching all the way to the back of their neck. Your thumb stays outside the collar. The deeper the grip, the more effective the choke. Use your non-choking hand to pull their collar away from their neck slightly to create space for insertion. (Timing: 2-3 seconds to work the grip deep) [Pressure: Light]
 3. **Secure Head Control**: With your non-choking hand, reach around and cup the back of opponent's head or grab their far collar for additional control. This hand serves two purposes: it prevents them from turning their head away from the choke, and it can assist in pulling their head toward your choking arm. Your elbow should stay tight to their head, blocking any escape attempts. (Timing: 1-2 seconds simultaneous with collar grip) [Pressure: Moderate]
@@ -252,7 +252,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent frames against your neck with near arm to create space** (Effectiveness: High) - Your Adjustment: Trap their framing arm by switching your underhook to an overhook, or use your weight to collapse the frame before they can extend it. Alternatively, transition to modified scarf hold where their arm is controlled differently.
 - **Opponent turns their chin down and toward you to block collar access** (Effectiveness: High) - Your Adjustment: Use your non-choking hand to pull their chin away and create opening for collar grip, or transition to a cross collar choke variation. Can also use shoulder pressure against their jaw to force head position. Be patient and wait for them to relax their defense.
 - **Opponent bridges explosively to create space before you secure the angle** (Effectiveness: Medium) - Your Adjustment: Base out wide with your legs to prevent being rolled, and use your hips to counter their bridge. If they create space, follow their movement and maintain chest pressure. Consider transitioning to north-south or mount if they bridge repeatedly.
@@ -262,28 +262,28 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Gripping the collar too shallow, with only fingertips inside [Low DANGER]
+## Common Mistakes
+- **Mistake**: Gripping the collar too shallow, with only fingertips inside [Low DANGER]
   - **Consequence**: Insufficient leverage to compress carotid arteries; opponent can easily defend and escape; wasted energy with no threat
   - **Correction**: Take time to work your hand deep into the collar before committing to the finish. Your four fingers should be at least to the second knuckle, ideally reaching all the way behind their neck. Use your non-choking hand to create space in the collar if needed.
-- **Error**: Applying pressure too quickly without proper setup [CRITICAL DANGER]
+- **Mistake**: Applying pressure too quickly without proper setup [CRITICAL DANGER]
   - **Consequence**: Partner cannot tap in time; risk of unconsciousness or injury; creates unsafe training environment
   - **Correction**: Apply the choke progressively over 3-5 seconds in training. Your partner should feel the danger building and have ample time to recognize the threat and tap. Save competition-speed finishes for competition only.
-- **Error**: Positioning forearm across the trachea instead of carotid arteries [CRITICAL DANGER]
+- **Mistake**: Positioning forearm across the trachea instead of carotid arteries [CRITICAL DANGER]
   - **Consequence**: Creates air choke instead of blood choke; causes unnecessary pain and potential trachea damage; less effective and more dangerous
   - **Correction**: Ensure your forearm blade is positioned on the side of the neck, not across the front of the throat. The pressure should be lateral (scissoring from both sides) rather than frontal. If opponent is coughing or their face is turning purple without loss of consciousness, adjust your angle immediately.
-- **Error**: Failing to control opponent's head with non-choking hand
+- **Mistake**: Failing to control opponent's head with non-choking hand
   - **Consequence**: Opponent can turn their head away from the choke and escape; wasted energy; loss of position control
   - **Correction**: Your non-choking hand must actively control their head throughout the submission. Cup the back of their head, grab their far collar, or use your forearm across their face. This hand prevents escape and maintains proper angle for the choke.
-- **Error**: Lifting your chest off opponent to reach for the collar grip
+- **Mistake**: Lifting your chest off opponent to reach for the collar grip
   - **Consequence**: Creates space for opponent to escape side control; allows them to frame and shrimp away; loss of dominant position
   - **Correction**: Maintain heavy chest pressure throughout the setup. Work your collar grip patiently without relieving pressure on their torso. If you must create slight space to insert your hand, do so momentarily and immediately return to chest-to-chest connection.
-- **Error**: Attempting the choke from poor angle without adjusting hips
+- **Mistake**: Attempting the choke from poor angle without adjusting hips
   - **Consequence**: Insufficient pressure on carotid arteries; opponent can defend easily; telegraphs your intention without threat
   - **Correction**: Shift your hips toward opponent's head to create the proper 45-degree angle before finishing. Your forearm must cut across their neck at the correct diagonal for the scissoring action to work. Take the time to adjust your position before pulling the collar.
-- **Error**: Continuing to apply pressure after partner goes limp or unresponsive [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner goes limp or unresponsive [CRITICAL DANGER]
   - **Consequence**: Severe neurological damage possible; brain damage from extended oxygen deprivation; potential death; permanent injury to training partner
   - **Correction**: Develop sensitivity to your partner's responsiveness. If they stop defending with their hands, go limp, or become unresponsive, release immediately. In training, never hold a blood choke beyond the tap. Your partner's safety is always the first priority.
 
@@ -292,7 +292,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Paper Cutter from North-South**: Instead of side control, establish the collar grip from north-south position. Your body is perpendicular to opponent's, with your head near their hips. Feed your hand deep into their far collar from this angle, then drive your shoulder forward and pull the collar while maintaining north-south pressure. This variation is particularly effective when transitioning from failed mount attacks. (When to use: When opponent is defending side control effectively but you can transition to north-south; when they turn into you from bottom side control)
 
 **Paper Cutter from Turtle**: As opponent assumes turtle position, establish a seatbelt or harness grip with your choking hand deep in their far collar. Drive your chest onto their back for pressure, then use your non-choking hand to pull their head back slightly while you pull the collar and drive your forearm across their neck. Can finish from the back or by rolling them to their side. (When to use: When opponent turtles to defend bottom position; when attacking turtle position and opponent defends back take attempts)
@@ -332,7 +332,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn proper collar grip depth, body angle, and pressure points without any finishing pressure. Partner remains completely passive. Study anatomy of carotid compression versus trachea compression. Practice tap signals and release protocol repeatedly.
 - Resistance: Zero resistance
@@ -369,7 +369,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[North-South]]
@@ -384,7 +384,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Cross Collar Choke]]
 - [[Arm Triangle]]
@@ -423,7 +423,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Paper Cutter Choke exemplifies the principle of mechanical efficiency over raw strength in submission grappling. What makes this technique particularly effective is the biomechanical leverage created by the scissoring action between your forearm and the collar grip. When executed with proper depth and angle, the choke requires minimal force because you're using your entire body structure—chest pressure, hip position, shoulder drive—to create the constriction rather than relying on grip strength alone. The critical technical detail that most practitioners miss is the importance of the initial collar grip depth. If your fingers penetrate only superficially, you're attempting to create pressure through the strength of your fingers, which is inherently weak and easily defended. However, when you work your hand deep until your knuckles pass the back of their neck, you've now engaged your entire arm structure in the pulling motion, multiplying your effective force by a factor of ten or more. From a safety perspective, this is a blood choke that should never target the trachea. The proper application compresses both carotid arteries simultaneously through lateral pressure, causing rapid but safe loss of consciousness when not defended. In training, the application must be progressive, allowing your partner ample time to recognize the danger and tap. The mark of a skilled practitioner is not how fast they can finish submissions, but how precisely they can apply them with complete control and immediate release capability.
 - **Gordon Ryan**: In competition, the Paper Cutter Choke is one of my highest percentage finishes from side control because it doesn't require complex transitions or risk of position loss. When I'm in side control and my opponent is defending the typical submissions like kimura or arm triangle, the paper cutter is always available because they usually don't see it coming until it's too late. The key to making this work at the highest level is understanding that the setup happens during the position establishment, not as a separate attack. When I secure side control, I'm already thinking about my collar grip—I use my chest pressure and head position to hide the hand feeding into their collar. By the time they recognize what's happening, my hand is already deep and the choke is essentially finished. One thing that separates this submission at the black belt level versus lower belts is the timing of the finish. Against elite opponents, you get one chance to finish before they escape side control, so you cannot slowly work the grip and telegraph your intention. You must establish the grip efficiently while maintaining dominant pressure, then commit to the finish decisively. In training versus competition, my approach differs significantly. In training, I apply this choke slowly and progressively, giving my partners time to tap and building the trust necessary for productive training. In competition, once I have the proper depth and angle, the finish is immediate. However, I'm also much more selective about when I commit to the paper cutter in competition—I only attack when I have the perfect setup, whereas in training I'll work it from suboptimal positions to develop my technical understanding. This submission has won me multiple major titles, and it's a core part of my side control attack system precisely because it's low-risk, high-reward, and available against opponents who successfully defend other common attacks.
 - **Eddie Bravo**: The Paper Cutter is classic old-school BJJ effectiveness, and while I love innovation and unusual techniques, there's something beautiful about how this choke has remained effective for decades. What I teach my students is to think about the paper cutter not as a single isolated attack, but as part of a web of interconnected submissions from side control. When someone defends the paper cutter by turning into you, you can transition to a darce or anaconda. When they turn away, you can take their back or move to north-south. When they fight your collar grip with both hands, their arms are occupied and you can attack with arm triangle or kimura. This is the 10th Planet philosophy—create problems that have no good solution for your opponent. From a training culture perspective, the paper cutter is also an important technique for teaching respect for submissions and tap-early mentality. It's a choke that can put someone unconscious very quickly when applied correctly, so it demands that both training partners have high awareness and good communication. In our gym, we emphasize that tapping to a well-executed technique isn't losing—it's learning. The paper cutter teaches this lesson because once it's locked in deep, there often isn't an escape, so you tap and then analyze what defensive mistake you made that allowed the collar grip or the angle. Over time, this builds both offensive skill in applying the submission and defensive awareness in preventing it. The variation I particularly like is the paper cutter from turtle position, which integrates well with our truck system. When someone turtles to defend the twister or other back attacks, the paper cutter becomes available as you transition around their body, and it's often completely unexpected in that context. So while this technique is traditional, it has endless potential for creative application within modern systems.

@@ -8,7 +8,7 @@ description: "Master defensive strategies from top of straight ankle lock contro
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master defensive strategies from top of straight ankle lock contro
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master defensive strategies from top of straight ankle lock contro
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 55% of the time and finish submissions in 20% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 55% of the time and finish submissions in 20%.
 
 ---
 
@@ -197,7 +197,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Defender's ankle is controlled by attacker's hands with varying grip configurations, defender must constantly assess grip security and identify which specific grip pattern attacker has established to choose appropriate escape sequence based on grip vulnerabilities
 - Defender's trapped leg is targeted by attacker's leg wrapping attempts that seek to prevent hip rotation and facilitate control, defender must actively prevent attacker from completing leg triangle or achieving inside position that eliminates escape options
@@ -208,7 +208,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Attacker has secured initial ankle control from standing guard, leg drag, or guard passing sequence
 - Defender's leg is extended or extending across attacker's hip line
@@ -237,7 +237,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Ashi Garami Escape]] → [[Standing Position]]
 
@@ -294,7 +294,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Opponent Success: 60%)
 - **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Opponent Success: 55%)
@@ -307,7 +307,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Ashi Garami Escape]]** → [[Standing Position]]
   - When attacker's leg control is incomplete or grip security is temporarily compromised
@@ -354,7 +354,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple gu
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple gu
 
 
 
-> **Quick Answer**: Rolling Guard Pull transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Rolling Guard Pull transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ Mastery of the rolling guard pull requires excellent body awareness, timing, and
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain forward momentum before initiating the roll to create rotational energy
 - Use opponent's reactive pressure to complete the rotation and establish guard
 - Keep head tucked and spine curved throughout the roll to protect the neck
@@ -190,7 +190,7 @@ Mastery of the rolling guard pull requires excellent body awareness, timing, and
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing position with at least one grip established (sleeve, collar, or belt)
 - Adequate space to execute rolling motion without obstruction
 - Opponent engaged and applying forward pressure or weight
@@ -203,7 +203,7 @@ Mastery of the rolling guard pull requires excellent body awareness, timing, and
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish primary grip**: Secure a strong grip on the opponent's sleeve, collar, or belt with your lead hand. This grip will serve as your anchor point throughout the rolling motion and help you pull the opponent into your guard. Position your body at a slight angle to create space for the rolling motion. (Timing: During initial engagement)
 2. **Create forward momentum**: Step forward with your lead foot while pulling the opponent slightly toward you with your grip. This creates the forward momentum necessary for a smooth roll. Your body should be moving toward the opponent as you begin to lower your center of gravity. (Timing: 1-2 seconds before initiating roll)
 3. **Drop hips and initiate roll**: Lower your hips rapidly by bending your knees and sitting back onto your rear while maintaining your grip. As your hips drop, tuck your chin to your chest and round your spine into a ball position. Begin the backward roll by allowing your momentum to carry your hips over your shoulders. (Timing: Immediate transition from forward step)
@@ -217,7 +217,7 @@ Mastery of the rolling guard pull requires excellent body awareness, timing, and
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent steps back and disengages as you initiate the roll** (Effectiveness: High) - Your Response: Maintain strong grip control throughout the movement and pull them forward as you roll. If they successfully disengage, immediately technical stand up or transition to seated guard and pursue with shin-to-shin or De La Riva entries.
 - **Opponent sprawls and applies heavy chest pressure during the roll** (Effectiveness: Medium) - Your Response: Use the opponent's forward pressure to complete your roll faster and come up on your side. Immediately establish a deep De La Riva hook or transition to a seated guard position where you can manage the pressure more effectively.
 - **Opponent releases grips and begins immediate guard pass as you roll** (Effectiveness: High) - Your Response: Focus on leg positioning and frames immediately upon completing the roll. Establish feet on hips or hooks quickly to create distance and prevent the pass. Be prepared to invert or re-guard if they achieve initial passing position.
@@ -226,25 +226,25 @@ Mastery of the rolling guard pull requires excellent body awareness, timing, and
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rolling without establishing proper grip control first
+## Common Mistakes
+- **Mistake**: Rolling without establishing proper grip control first
   - **Consequence**: Opponent easily disengages and escapes guard establishment, leaving you on your back in a vulnerable position
   - **Correction**: Always secure at least one strong grip (preferably two) before initiating the roll. The grip should be tight enough that the opponent cannot simply step away as you roll.
-- **Error**: Failing to tuck the chin and protect the neck during the roll
+- **Mistake**: Failing to tuck the chin and protect the neck during the roll
   - **Consequence**: Risk of neck injury and potential for opponent to apply pressure to the head during the vulnerable rolling phase
   - **Correction**: Keep chin tucked tightly to chest throughout the entire rolling motion. Practice the roll slowly at first to develop muscle memory for proper neck positioning.
-- **Error**: Insufficient forward momentum before initiating the roll
+- **Mistake**: Insufficient forward momentum before initiating the roll
   - **Consequence**: Incomplete rotation that leaves you stuck in an awkward position or unable to establish guard effectively
   - **Correction**: Take a committed step forward and create genuine forward momentum before sitting back into the roll. The momentum should naturally carry you through the rotation.
-- **Error**: Releasing grips during the rolling motion
+- **Mistake**: Releasing grips during the rolling motion
   - **Consequence**: Opponent escapes completely and you end up on your back without guard established
   - **Correction**: Maintain at least one grip throughout the entire technique. If you must release one grip for balance, keep the other firmly secured.
-- **Error**: Landing flat on back without immediate leg engagement
+- **Mistake**: Landing flat on back without immediate leg engagement
   - **Consequence**: Opponent begins guard pass immediately with no defensive structures in place
   - **Correction**: As soon as the roll completes, your legs should already be moving to establish hooks, frames, or guard retention. There should be no dead time between completing the roll and engaging with legs.
-- **Error**: Rolling too slowly or telegraphing the movement
+- **Mistake**: Rolling too slowly or telegraphing the movement
   - **Consequence**: Opponent reads the technique and counters before you complete the roll
   - **Correction**: Execute the roll with commitment and speed. The transition from standing to rolling should be explosive and catch the opponent mid-reaction.
 
@@ -253,7 +253,7 @@ Mastery of the rolling guard pull requires excellent body awareness, timing, and
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Solo Rolling Mechanics** - Develop smooth rolling technique without a partner
 Practice backward rolls from standing position, focusing on tucking the chin, rounding the spine, and completing smooth rotations. Start from kneeling, progress to crouching, then finally from standing. Work on rolling both directions (over both shoulders) to develop ambidextrous capability.
 (Resistance: None)
@@ -284,7 +284,7 @@ Master the ability to transition to different guard types based on opponent's re
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Rolling to De La Riva Guard**: As you complete the roll, instead of closing guard, establish a De La Riva hook on the opponent's lead leg while maintaining collar or sleeve control. This is ideal when the opponent maintains a staggered stance. (When to use: When opponent has one leg forward in combat base or is attempting to circle away from the rolling motion)
 
 **Rolling to X-Guard Entry**: Complete the roll and immediately elevate the opponent by placing both feet on their hips or thighs, then transition to X-guard by securing one leg while using the other to off-balance them. This creates immediate sweeping opportunities. (When to use: When opponent is squared up and applying forward pressure during or after the roll)
@@ -326,7 +326,7 @@ Master the ability to transition to different guard types based on opponent's re
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The rolling guard pull requires proper neck protection throughout the movement. Always tuck your chin tightly to your chest and roll over your shoulder blade rather than directly over your spine or head. Practitioners with neck, shoulder, or back injuries should consult with medical professionals before attempting this technique. When learning, practice on appropriate matting that provides adequate cushioning, and progress slowly from kneeling to standing positions. Never execute this technique near the edge of the mat or in areas with obstacles. Partners should be aware that this is a dynamic movement and should not apply heavy downward pressure during the opponent's roll. Beginners should master basic backward rolling mechanics through solo drills before attempting with a partner. If you feel any sharp pain in your neck, shoulders, or spine during execution, stop immediately and reassess your technique. The rolling motion should be smooth and controlled - never forced or jerky. Regular neck strengthening exercises can help reduce injury risk for practitioners who frequently use rolling entries.
 
@@ -334,7 +334,7 @@ The rolling guard pull requires proper neck protection throughout the movement. 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The rolling guard pull serves as a dynamic entry point to establish guard positions from standing, making it a crucial technique for guard players who want to dictate where the match takes place. This technique integrates into the broader BJJ system as a bridge between standing position and ground fighting, bypassing traditional takedown exchanges in favor of immediate guard establishment. Once guard is established through the roll, practitioners can flow into their preferred guard systems: closed guard for fundamental attacks, De La Riva for leg drag defense and back takes, X-guard for sweeps, or single leg X for leg locks.
 
@@ -346,7 +346,7 @@ This technique also connects to scramble situations and guard recovery sequences
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Closed Guard]] - Primary ending position from rolling guard pull when opponent is square
 - [[De La Riva Guard]] - Alternative ending position when opponent has staggered stance
@@ -366,7 +366,7 @@ This technique also connects to scramble situations and guard recovery sequences
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The rolling guard pull represents a biomechanically efficient method of transitioning from standing to guard by utilizing rotational momentum rather than relying solely on muscular strength to pull the opponent down. The key mechanical principle here is conservation of angular momentum - when you initiate forward movement and then convert it into rotational energy through the roll, you create a dynamic system that is difficult for the opponent to counter effectively. The most critical aspect is the timing of grip establishment relative to the initiation of the roll. If grips are secured too early, the opponent can read your intention and disengage. If grips are secured too late, you roll without anchor points and end up isolated. The optimal window is to establish grips during your forward step, using that same motion to disguise your rolling intention. From a systematic perspective, the rolling guard pull should be viewed as one tool in a broader guard establishment framework, chainable with other entries based on opponent reactions.
 - **Gordon Ryan**: In competition, the rolling guard pull is one of my favorite techniques for establishing guard against wrestlers or opponents who want to maintain top position. The reason it works so well at the highest levels is that it bypasses the entire grip fighting and stance battle that typically precedes guard pulling - you're creating movement and action that forces immediate reactions. When I execute this technique, I'm already thinking two steps ahead: if the roll is successful, which guard position gives me the highest percentage sweeps against this specific opponent? If they counter by backing away, how do I immediately re-engage without giving up positioning or points? The competition meta has evolved to where referees are very strict about guard pulling without engagement, so the rolling guard pull satisfies that requirement by creating genuine action and momentum. My success rate with this technique improved dramatically when I stopped thinking of it as just a guard pull and started viewing it as an attacking sequence where the guard establishment is step one of a sweep or submission chain.
 - **Eddie Bravo**: The rolling guard pull is beautiful because it's pure flow and movement - you're not fighting against the opponent's strength or getting stuck in static positions. In the 10th Planet system, we use rolling entries constantly to access positions like the Lockdown, Rubber Guard, or to set up inversions and berimbolos. The key innovation we've added is using the rolling momentum to immediately establish control positions that lead to our specialized techniques. For example, rolling to guard and immediately establishing the Lockdown half guard, or rolling and using the momentum to invert and attack the back. What makes this technique so effective is that most traditional jiu-jitsu training doesn't emphasize dynamic rolling entries - people are used to static guard pulls where you sit and pull on the pants. When you hit them with a rolling entry, their muscle memory doesn't have a pre-programmed response. I teach my students to make the roll explosive and committed - half-speed rolling guard pulls get stuffed every time. You need to sell it like you're doing a breakdancing move, full commitment, and then immediately attack from whatever guard position you land in.

@@ -63,7 +63,7 @@ Updated the bot's priority detection system to emphasize production quality:
 
 #### 🟡 MEDIUM PRIORITY (Enhance Second)
 1. **AI Search Optimization**: Improve heading clarity, front-load key facts, use direct language
-2. **Common Errors Format**: 5-10 errors with ⚠️ DANGER labels
+2. **Common Mistakes Format**: 5-10 errors with ⚠️ DANGER labels
 3. **Expert Insights**: All three perspectives (Danaher, Gordon Ryan, Eddie Bravo)
 4. **FAQ Section**: Minimum 5 Q&A pairs with natural language questions
 5. **Short Sections**: Concise paragraphs (2-4 sentences), no text walls

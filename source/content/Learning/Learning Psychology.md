@@ -61,7 +61,7 @@ Learning Psychology in BJJ explores the cognitive processes underlying skill acq
 
 - **Eddie Bravo**: Approaches learning through conceptual innovation and creative problem-solving. Emphasizes the value of developing personalized understanding and adaptation of techniques to individual attributes. Particularly focuses on naming techniques and creating clear verbal/conceptual hooks to enhance learning and recall during application.
 
-## Common Errors
+## Common Mistakes
 - **Passive Observation** → Limited skill development despite extensive watching
 - **Overloaded Working Memory** → Attempting to learn too many details simultaneously
 - **Isolated Technique Collection** → Accumulating disconnected techniques without conceptual integration

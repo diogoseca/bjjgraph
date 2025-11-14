@@ -8,7 +8,7 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
 
 
 
-> **Quick Answer**: Deashi Harai transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Deashi Harai transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,7 +182,7 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Execute the sweep when opponent's weight commits forward onto their lead leg
 - Maintain strong grip control to direct opponent's upper body backward while sweeping their base
 - Use minimal force on the sweeping action—timing and placement matter more than power
@@ -196,7 +196,7 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish standard grips: one hand controlling opponent's sleeve, other hand on collar or lapel
 - Maintain upright posture with stable base and centered weight distribution
 - Position yourself at approximately 45-degree angle to opponent's stance
@@ -209,7 +209,7 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish and test grips**: Secure a same-side sleeve grip with your lead hand and a collar or lapel grip with your rear hand. Apply light pulling pressure to test opponent's reaction and weight distribution. Your sleeve grip should be firm but not telegraphing, positioned near the elbow or mid-forearm for maximum control. (Timing: Initial engagement phase)
 2. **Create forward movement**: Use subtle pulling motions with both grips to encourage your opponent to step forward with their lead leg. This can be achieved through small circular movements or by taking a slight backstep yourself, inviting them to pursue. The goal is to get them to commit weight onto their advancing foot without making your intention obvious. (Timing: Setup phase, 1-2 seconds)
 3. **Position for sweep angle**: As opponent steps forward, pivot slightly on your rear foot to create a 45-degree angle to their centerline. Your body should be positioned so your sweeping leg (typically the leg on the same side as your collar grip) has a clear path to their advancing ankle. Maintain upright posture throughout this adjustment. (Timing: As opponent commits weight forward)
@@ -224,7 +224,7 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent pulls their lead leg back as you attempt sweep** (Effectiveness: High) - Your Response: Immediately transition to alternative foot sweep (Kosoto Gari or Kouchi Gari) on their now-weighted rear leg, or follow their backward movement with forward pressure to break their balance backward
 - **Opponent sprawls and drops weight down as they feel sweep** (Effectiveness: Medium) - Your Response: Abandon the sweep and immediately transition to front headlock position, using their lowered posture to secure guillotine control or snap them down to turtle position
 - **Opponent steps through with opposite leg to recover base** (Effectiveness: Medium) - Your Response: Maintain grip control and either execute a second sweep on the recovery leg (Deashi Harai on opposite side) or use their forward momentum to pull them into closed guard
@@ -234,28 +234,28 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Sweeping too hard or kicking through opponent's leg with excessive force
+## Common Mistakes
+- **Mistake**: Sweeping too hard or kicking through opponent's leg with excessive force
   - **Consequence**: Telegraphs your intention, allows opponent to adjust their base, and can result in you losing your own balance or getting countered
   - **Correction**: Focus on timing over power—the sweep should be a light brushing motion that catches the ankle just as weight transfers onto it. Think of removing a support rather than knocking it away
-- **Error**: Attempting sweep when opponent's weight is not committed forward
+- **Mistake**: Attempting sweep when opponent's weight is not committed forward
   - **Consequence**: Sweep has no effect as their leg is already light and mobile, wasting energy and exposing your intention for future attempts
   - **Correction**: Be patient and create the weight transfer through grip manipulation—pull them forward slightly or take a backstep to invite their advance, then sweep as their foot plants
-- **Error**: Poor upper body control during sweep execution
+- **Mistake**: Poor upper body control during sweep execution
   - **Consequence**: Opponent can post with their hands, recover balance mid-throw, or even counter-attack effectively
   - **Correction**: Your grips must actively lift and pull backward throughout the sweep—the upper body control is what prevents them from adjusting once their leg is swept
-- **Error**: Standing too far away or too close during setup
+- **Mistake**: Standing too far away or too close during setup
   - **Consequence**: Incorrect distance makes the sweeping angle impossible or causes you to overreach and lose balance during execution
   - **Correction**: Maintain optimal distance where your sweeping leg can reach their ankle with a comfortable arc motion while keeping your support leg stable—approximately one step away
-- **Error**: Failing to follow opponent to ground or releasing grips after throw
+- **Mistake**: Failing to follow opponent to ground or releasing grips after throw
   - **Consequence**: Opponent can recover quickly, potentially pulling guard or scrambling back to feet, negating your successful takedown
   - **Correction**: Maintain grip connection throughout the entire technique and actively follow them down, using your grips to guide yourself into side control or other dominant position
-- **Error**: Sweeping with toes instead of sole or edge of foot
+- **Mistake**: Sweeping with toes instead of sole or edge of foot
   - **Consequence**: Creates point contact instead of surface contact, making sweep less effective and potentially injuring your toes
   - **Correction**: Use the sole or inside edge of your foot to make broad contact with opponent's ankle/lower shin—this provides better control and more effective base removal
-- **Error**: Leaning or falling backward during sweep execution
+- **Mistake**: Leaning or falling backward during sweep execution
   - **Consequence**: Compromises your own base, makes it impossible to follow through to top position, and creates counter-throw opportunities
   - **Correction**: Maintain upright posture throughout the technique—your grips should pull them backward while you remain balanced and ready to advance forward into top position
 
@@ -264,7 +264,7 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Drilling** - Basic mechanics and foot placement
 Partner stands in static position while you practice grip establishment, footwork pattern, and sweeping motion. Focus on finding correct angle, proper foot contact point, and coordination between upper and lower body. Repeat 20-30 repetitions per training session, alternating sides.
 (Resistance: None)
@@ -291,7 +291,7 @@ Integrate Deashi Harai into your overall standup strategy, using it as part of c
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi Deashi Harai**: Executed with overhook and underhook controls or collar ties instead of gi grips. Requires closer distance and more reliance on head position and underhook control to create the backward breaking of balance. The sweeping mechanics remain identical, but upper body control is achieved through wrestling-style ties. (When to use: In no-gi training, MMA contexts, or when opponent has strong grip-breaking skills in gi)
 
 **Deashi Harai into Guard Pull**: Rather than following opponent to establish top position, use the off-balancing effect to facilitate a controlled guard pull. As you sweep their leg and break their balance backward, sit to your guard position while maintaining sleeve control. This creates immediate attacking opportunities from guard. (When to use: When you prefer guard play over top position, or when opponent's takedown defense makes completing the throw to top position difficult)
@@ -331,7 +331,7 @@ Integrate Deashi Harai into your overall standup strategy, using it as part of c
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Deashi Harai is generally one of the safer takedown techniques for both the thrower and the person being thrown, but several safety considerations remain important. First, maintain grip connection throughout the entire technique to control the speed and direction of your partner's fall—never execute the sweep and then release grips, as this can result in uncontrolled backward falls that risk head injury. Second, ensure adequate mat space behind the opponent before attempting the technique in training. Third, both practitioners should have basic understanding of breakfall techniques (ukemi), particularly the backward breakfall, as this is the primary falling pattern from this throw. When first learning, practice on soft mats or crash pads until the mechanics are reliable. For the person being thrown, resist the urge to post backward with your hands during the fall, as this can result in wrist or elbow injuries—instead, execute proper breakfall by slapping the mat with your arms. Finally, when drilling with newer partners, control the speed and force of the throw to match their skill level and falling ability.
 
@@ -339,7 +339,7 @@ Deashi Harai is generally one of the safer takedown techniques for both the thro
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Deashi Harai serves as a fundamental component of a complete BJJ standup system, bridging the gap between pure Judo throwing techniques and the ground-focused strategy of Brazilian Jiu-Jitsu. Unlike more physically demanding throws, Deashi Harai's minimal strength requirement makes it accessible across all body types and ages, fitting perfectly into BJJ's emphasis on technique over athleticism. The technique integrates seamlessly with guard pulling strategies—practitioners can use the threat of Deashi Harai to create defensive reactions that make guard pulls more successful, or execute the sweep partially to facilitate controlled guard entries. In the broader context of position hierarchy, Deashi Harai represents an offensive takedown option that scores points in competition while establishing the top position that BJJ strategy prioritizes. The technique chains naturally with other foot sweeps (Kosoto Gari, Kouchi Gari, Sasae Tsurikomi Ashi) creating a comprehensive ashi-waza (foot technique) system where each technique sets up the others. Additionally, failed Deashi Harai attempts often create opportunities for front headlock positions, arm drags, or snap-downs, meaning it remains productive even when not completed successfully. For practitioners building a complete game, Deashi Harai fills the critical niche of a high-percentage, low-risk takedown that doesn't require extensive Judo background or exceptional athletic ability to execute effectively.
 
@@ -347,7 +347,7 @@ Deashi Harai serves as a fundamental component of a complete BJJ standup system,
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Kosoto Gari]] - Alternative sweep targeting rear leg when Deashi Harai is defended
 - [[Kouchi Gari]] - Combination technique that works inside while Deashi Harai works outside
@@ -367,7 +367,7 @@ Deashi Harai serves as a fundamental component of a complete BJJ standup system,
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Deashi Harai represents one of the purest expressions of timing-based technique in all of grappling. The mechanical principle is elegantly simple: you remove the supporting base at the precise moment maximum weight commits to it, creating an irrecoverable loss of balance. What makes this technique particularly valuable for BJJ practitioners is that it requires zero strength advantage—a smaller, weaker practitioner can execute it against larger opponents with perfect effectiveness if the timing is precise. The key technical detail that most people miss is the coordination between the upper body pulling action and the lower body sweeping action. These must occur in perfect synchronization, creating what I call a 'three-point structural disruption': the collar grip lifts, the sleeve grip rotates, and the sweeping foot removes base, all at the same instant. When these three actions converge with proper timing against an opponent whose weight is committed, success is virtually guaranteed regardless of strength differentials. From a systematic perspective, Deashi Harai should be trained as part of a comprehensive ashi-waza system where each foot sweep sets up the others based on opponent's defensive reactions.
 - **Gordon Ryan**: In competition, Deashi Harai is one of my go-to techniques for scoring takedown points without expending significant energy or taking major risks. The beautiful thing about it is that even a failed attempt doesn't put you in a bad position—you're not committed with your hips like in a throw, so if they defend, you're still in a good place to either try again or switch to something else. I use it particularly against opponents who like to pressure forward aggressively, because they're essentially giving me the exact weight transfer I need for the sweep to work. The timing feels almost automatic once you've drilled it enough—you can feel their weight shift forward and your body just reacts with the sweep. One adaptation I've made for no-gi is using overhook control combined with the sweep, which works exceptionally well because people post less effectively without gi grips. In my competition strategy, I view Deashi Harai as a 'penalty-free' attacking option—high success rate when timed correctly, minimal consequence when defended, and it chains perfectly into my other standup attacks. For anyone serious about competition BJJ, having at least one reliable foot sweep in your arsenal is essential, and Deashi Harai is the perfect choice because it doesn't require years of Judo training to become effective.
 - **Eddie Bravo**: What I love about Deashi Harai for the 10th Planet system is that it's one of those old-school Judo techniques that translates perfectly to no-gi and even MMA contexts with almost no modification. We teach it using wrestling ties and underhooks instead of gi grips, and it works just as well—sometimes even better because people aren't expecting traditional ashi-waza in no-gi environments. The creativity comes in how you set it up and what you transition to afterward. I've had students use Deashi Harai to create off-balancing effects that make their Rubber Guard entries way smoother, or use it to set up the Twister Side Control entry by sweeping the leg and following through with a specific grip configuration. The no-gi version with the overhook is particularly nasty because you can use head control to break their posture while sweeping, creating this double-impact effect. We also drill it as a counter to failed shot attempts—when someone shoots and you sprawl, as they stand back up there's often a perfect moment to catch them with Deashi Harai since their weight is transitioning forward. From an innovation standpoint, don't just think of it as a standalone throw—think of it as a off-balancing tool that creates opportunities for your entire ground game. The amount of times I've seen someone use a foot sweep to facilitate a guard pull or create the angle for a better takedown is endless. It's all about being creative with these traditional techniques and adapting them to modern grappling contexts.

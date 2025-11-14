@@ -8,7 +8,7 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 80% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 80%.
 
 ---
 
@@ -191,7 +191,7 @@ From a technical perspective, the buggy choke teaches important principles about
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's arm is threaded deep under opponent's near armpit with hand reaching across to far-side collar or neck area in palm-up orientation, establishing primary choking mechanism and postural control
 - Top player's opposite hand secures opponent's far-side collar in gi or connects to choking arm in no-gi, completing the grip structure that enables both choking pressure and positional dominance
@@ -204,7 +204,7 @@ From a technical perspective, the buggy choke teaches important principles about
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent is in defensive turtle position with sufficient postural breakdown to allow arm threading
 - Top player has established dominant turtle top control with ability to attack neck and collar areas
@@ -232,7 +232,7 @@ From a technical perspective, the buggy choke teaches important principles about
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Finish Buggy Choke]] → [[Won by Submission]]
 
@@ -310,7 +310,7 @@ From a technical perspective, the buggy choke teaches important principles about
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Opponent Strips Grips]]** → [[Turtle]] (Opponent Success: 30%)
 - **[[Opponent Sits to Guard]]** → [[Half Guard]] (Opponent Success: 25%)
@@ -323,7 +323,7 @@ From a technical perspective, the buggy choke teaches important principles about
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Finish Choke Immediately]]** → [[Won by Submission]]
   - Opponent remains static or grip fights without movement, exposing neck further
@@ -376,7 +376,7 @@ From a technical perspective, the buggy choke teaches important principles about
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

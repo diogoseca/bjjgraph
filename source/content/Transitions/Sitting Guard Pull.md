@@ -8,7 +8,7 @@ description: "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Stand
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Stand
 
 
 
-> **Quick Answer**: Sitting Guard Pull transitions from [[Standing Position]] to [[Seated Guard]]. Success rates: Beginner 70%, Intermediate 85%, Advanced 95%.
+> Sitting Guard Pull transitions from [[Standing Position]] to [[Seated Guard]]. Success rates: Beginner 70%, Intermediate 85%, Advanced 95%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain grip control throughout the entire transition to prevent opponent from disengaging
 - Sit with controlled descent to protect tailbone and maintain balance
 - Keep feet active and mobile immediately upon sitting to establish guard structure
@@ -180,7 +180,7 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing neutral position with both practitioners upright
 - At least one grip established (collar, sleeve, or wrist control)
 - Appropriate distance maintained (close enough to control, far enough to sit safely)
@@ -193,7 +193,7 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish primary grips**: From standing position, secure your preferred grip configuration. In gi, this typically involves a same-side collar grip with one hand and opposite sleeve or wrist control with the other. In no-gi, establish wrist control or an overhook/underhook position. The grip must be firm enough to maintain connection throughout the sitting motion. (Timing: Before any weight shift)
 2. **Create angle and assess space**: Angle your body slightly to one side (typically the side of your collar grip) rather than facing directly forward. Quickly assess the mat space behind you to ensure safe sitting room. This angle creates better access to specific guard types and prevents sitting directly backward which can strain the lower back. (Timing: Simultaneous with grip establishment)
 3. **Begin controlled descent**: Bend your knees and lower your hips in a controlled sitting motion, maintaining tension in your grips throughout. Your weight should transfer smoothly from standing to sitting, not dropping or falling. Keep your core engaged and your upper body slightly forward-leaning to maintain balance and prevent falling backward onto your tailbone. (Timing: 1-2 seconds for full descent)
@@ -206,7 +206,7 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent immediately backs away to break grips and disengage** (Effectiveness: Medium) - Your Response: Maintain grip tension during your sit and use active foot placement (feet on hips or aggressive hook insertion) to prevent complete disengagement. If they break grips, immediately stand back up or use technical standup rather than remaining in vulnerable seated position without connection.
 - **Opponent steps back and circles to initiate standing pass or force guard opening** (Effectiveness: Medium) - Your Response: Use your grips to pull opponent back into engagement range while using your feet to maintain distance control. Pivot on your hips to track opponent's movement and prevent them from establishing advantageous passing angle. Consider standing back up if they successfully create too much distance.
 - **Opponent immediately drives forward for smash pass or headquarters position** (Effectiveness: High) - Your Response: Create strong frames with both legs (feet on hips or knees) the instant you sit to establish minimum distance. Use your grips to break their posture and disrupt their forward pressure. If they successfully close distance, immediately transition to retention tactics such as hip escaping or inverting to prevent being flattened.
@@ -215,25 +215,25 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Sitting without establishing grips first
+## Common Mistakes
+- **Mistake**: Sitting without establishing grips first
   - **Consequence**: Opponent can immediately disengage, back away, or circle freely, leaving you sitting alone without connection or control
   - **Correction**: Always secure at least one grip before initiating your sit. The sequence is grip first, then sit - never sit and hope to grip afterward.
-- **Error**: Sitting straight backward instead of at an angle
+- **Mistake**: Sitting straight backward instead of at an angle
   - **Consequence**: Creates strain on lower back, makes it harder to establish specific guard types, and provides less angular control of opponent
   - **Correction**: Angle your body 20-30 degrees to one side as you sit, directing your descent slightly toward your grip-side shoulder rather than directly backward.
-- **Error**: Dropping heavily or falling onto tailbone
+- **Mistake**: Dropping heavily or falling onto tailbone
   - **Consequence**: Risk of tailbone injury, lower back pain, and loss of control during transition. Heavy landing disrupts rhythm and makes it harder to establish active guard
   - **Correction**: Control your descent with engaged core and leg muscles. Lower yourself smoothly rather than dropping. Think 'sitting down' not 'falling down'.
-- **Error**: Keeping feet static on mat after sitting
+- **Mistake**: Keeping feet static on mat after sitting
   - **Consequence**: Opponent can easily control your feet, pin them to the mat, or initiate passing sequence while your feet are immobile and non-threatening
   - **Correction**: Keep feet mobile and active immediately upon sitting. Establish frames, hooks, or controlling positions rather than letting feet rest passively on the mat.
-- **Error**: Releasing grips during or immediately after the sit
+- **Mistake**: Releasing grips during or immediately after the sit
   - **Consequence**: Opponent gains complete freedom to disengage, pass, or establish their preferred position without any controlling factors
   - **Correction**: Maintain grip tension throughout the entire sitting motion and into guard establishment. Your grips are your connection and control - never voluntarily release them without a specific tactical reason.
-- **Error**: Sitting too far away from opponent
+- **Mistake**: Sitting too far away from opponent
   - **Consequence**: Unable to establish guard structure as opponent is out of range for foot placement or hook insertion, leaving you sitting alone
   - **Correction**: Ensure proper distance before sitting - close enough that your legs can reach opponent's hips or knees when you complete the sit. Use your grips to maintain this critical distance.
 
@@ -242,7 +242,7 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Fundamental Mechanics (Week 1-2)** - Solo drilling the sitting motion with proper form
 Practice controlled sitting motion without a partner, focusing on smooth descent, proper landing position, and immediate foot activation. Drill 20-30 repetitions focusing on form, not speed. Emphasize landing softly on glutes with knees bent and feet ready. Practice from various starting positions and angles.
 (Resistance: None)
@@ -273,7 +273,7 @@ Integrate sitting guard pull into your complete guard system. Practice flowing b
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Butterfly Guard Pull**: Sit directly to butterfly guard by inserting both hooks inside opponent's thighs as you sit, with overhook or collar tie grips controlling upper body. This version emphasizes immediate sweeping opportunities. (When to use: When opponent is more upright and you want immediate offensive butterfly guard position with active hooks for sweeps.)
 
 **De La Riva Entry Pull**: As you sit, immediately establish De La Riva hook with your outside leg while placing opposite foot on hip, combined with same-side collar and cross-sleeve grips. Creates immediate DLR guard structure. (When to use: Against opponents who tend to stand and pass, particularly effective in gi when you want to establish classic De La Riva control immediately.)
@@ -313,7 +313,7 @@ Integrate sitting guard pull into your complete guard system. Practice flowing b
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The sitting guard pull is one of the safest guard pull variations when executed with proper technique. The primary safety concern is protecting the tailbone and lower back during the sitting motion - always control your descent rather than dropping or falling heavily. Practice on appropriate matting with adequate padding, especially during initial learning phases. When training, ensure sufficient space behind you before sitting to avoid collisions with walls, other practitioners, or mat edges. Partners should maintain appropriate distance and avoid driving weight onto you during your sitting motion. Progress gradually from static drilling to dynamic resistance to minimize risk of awkward falls or unexpected impacts. In competition scenarios, be aware of mat boundaries and adjust your positioning accordingly. The sitting motion should be smooth and controlled - any heavy impact or jarring sensation indicates improper technique that should be corrected before continuing.
 
@@ -321,7 +321,7 @@ The sitting guard pull is one of the safest guard pull variations when executed 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The sitting guard pull serves as the primary bridge between standing neutral position and the vast landscape of open guard systems in Brazilian Jiu-Jitsu. This technique is the foundational entry point for practitioners who favor guard-based strategies, providing reliable access to butterfly guard, De La Riva, seated guard, shin-to-shin, and numerous other open guard configurations. Within the BJJ positional hierarchy, the sitting guard pull represents a deliberate tactical choice to engage from bottom position rather than pursuing takedowns or remaining in standing exchanges. It integrates seamlessly with guard retention concepts, as the skills developed for safe sitting translate directly to guard recovery situations where you must re-establish seated position after partial passes. The technique connects to the broader system of guard establishment, functioning alongside jumping guard, pulling to closed guard, and rolling guard pulls as part of a complete guard entry repertoire. Advanced practitioners use the sitting guard pull not just as an isolated technique but as a platform for immediate offensive action, flowing directly from the sit into sweeps, submissions, or advanced guard transitions. Understanding the sitting guard pull's role in the overall game enhances strategic decision-making about when to pull guard versus pursue top position, and which specific guard type to establish based on opponent tendencies and your own strengths.
 
@@ -329,7 +329,7 @@ The sitting guard pull serves as the primary bridge between standing neutral pos
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Seated Guard]] - Primary ending position - the sitting guard pull establishes seated guard configuration
 - [[Butterfly Guard]] - Common variation - sitting directly to butterfly guard with hooks inserted
@@ -349,7 +349,7 @@ The sitting guard pull serves as the primary bridge between standing neutral pos
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The sitting guard pull represents an exercise in controlled positional transfer - we are deliberately choosing to occupy bottom position while maintaining maximum control throughout the transition. The key to successful execution lies in understanding that this is not a single discrete action but rather a continuous flow of connected elements: grip establishment, weight transfer, spatial positioning, and immediate guard structure completion. From a biomechanical perspective, the sitting motion must preserve tension in your grip connections while managing your own center of gravity descent - any loss of tension creates an opportunity for opponent disengagement. The feet must activate immediately upon sitting because the guard itself is defined not by where your hips are positioned but by how your legs control distance and create offensive threats. Study the relationship between your grip configuration and your intended final guard position - collar and sleeve naturally facilitate different guard types than wrist control or underhooks. The sitting guard pull's high success rate stems from its mechanical simplicity and low dependency on opponent reaction, making it the most reliable entry point to guard-based strategies.
 - **Gordon Ryan**: In competition, the sitting guard pull is your workhorse technique for getting to your guard game when you don't want to engage in extended grip fighting exchanges or risk takedown attempts. I use this constantly because it's reliable, safe, and immediately puts me in my preferred bottom positions where I have highly developed attacking systems. The critical factor is maintaining your grips throughout the sit - without grips, you're just sitting on the mat alone which is worthless. I typically establish my primary guard-playing grips (usually collar and cross-sleeve in gi, or wrist control in no-gi) and then sit with clear intention about which specific guard I'm entering. Against opponents who like to back away, I'll aggressively insert hooks or establish foot-on-hip frames as I'm sitting to prevent disengagement. Against forward-pressure passers, I create strong frames immediately and use my grips to break their posture. The sitting pull should flow directly into your first attacking sequence - whether that's a sweep setup, submission entry, or guard advancement. Don't just sit and wait; sit with offensive purpose.
 - **Eddie Bravo**: The sitting guard pull is fundamental in 10th Planet system because it's how we reliably get to our preferred no-gi open guard positions - whether that's butterfly, seated guard, or entries into our rubber guard system. What I emphasize is making the sit active and purposeful, not passive. You're not sitting to rest or stall; you're sitting to immediately attack. From the sitting position, we have instant access to techniques like the electric chair setup, deep half guard entries, or transitions into our lockdown system if they try to pressure pass. The key is keeping your feet extremely active - in no-gi especially, static feet get controlled and passed easily. I teach students to think of the sitting guard pull as the beginning of an offensive sequence, not an ending position. Grip fight standing, secure your controls, sit with intention, immediately threaten with sweeps or submissions. One thing people mess up is sitting too far away - you need to be close enough that your feet can reach their hips or legs instantly. Distance management during the sit is everything in making this technique effective for launching your guard game.

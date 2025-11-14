@@ -13,10 +13,6 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 
 
 
-> **Quick Overview**: Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ This position appears across all levels of competition and training, making prof
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Limb isolation through multi-point control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Armbar Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Armbar Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Limb isolation through multi-point control
 
 
 
@@ -88,10 +72,13 @@ This position appears across all levels of competition and training, making prof
 
 <section id="bottom-summary" class="content-section">
 
-## Armbar Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Armbar Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in armbar control must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in armbar control must focus on creating frames, protecting ag
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Straightening the attacked arm in attempt to pull out**
@@ -162,16 +149,17 @@ The bottom player in armbar control must focus on creating frames, protecting ag
   - ✅ Correction: Maintain composure, systematically work through defensive sequence, tap only when joint is actually compromised
 
 
-👉 **[[Armbar Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Armbar Control Top Perspective
+
+## Playing as Top
+
+[[Armbar Control/Top|→ Full Top Guide]]
 
 
-The top player in armbar control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -214,7 +202,7 @@ The top player in armbar control balances control maintenance with submission at
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing hips to drift away from opponent's shoulder, creating distance between the hip and shoulder connection point**
@@ -245,8 +233,6 @@ The top player in armbar control balances control maintenance with submission at
   - Consequence: Severe reduction in leverage, increased vulnerability to opponent's defensive stacking, and potential loss of the isolated arm entirely as angles deteriorate
   - ✅ Correction: Maintain 90-degree angle between your spine and opponent's body throughout the entire sequence, checking body orientation constantly and readjusting if parallel alignment begins to develop
 
-
-👉 **[[Armbar Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

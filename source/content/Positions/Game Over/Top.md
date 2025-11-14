@@ -8,7 +8,7 @@ description: "Master submission completion and control to finish matches. Compre
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master submission completion and control to finish matches. Compre
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master submission completion and control to finish matches. Compre
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 100% of the time and finish submissions in 100% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 100% of the time and finish submissions in 100%.
 
 ---
 
@@ -199,7 +199,7 @@ Strategically, the threat of Game Over Top influences every decision in BJJ. Pra
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Submission control is fully established with opponent unable to create defensive space—joint is at mechanical limit or strangulation is cutting off blood flow with no escape angle available
 - Attacker maintains body position that prevents opponent from relieving submission pressure through movement—hips are controlled, posture is broken, or limbs are isolated beyond defensive recovery
@@ -210,7 +210,7 @@ Strategically, the threat of Game Over Top influences every decision in BJJ. Pra
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Dominant positional control established preventing opponent escape movements
 - Submission setup completed with proper grips, angles, and body positioning in place
@@ -236,7 +236,7 @@ Strategically, the threat of Game Over Top influences every decision in BJJ. Pra
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Rear Naked Choke]] → [[Won by Submission]]
 
@@ -328,7 +328,7 @@ Strategically, the threat of Game Over Top influences every decision in BJJ. Pra
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Submission Defense]]** → [[Defensive Position]] (Opponent Success: 30%)
 - **[[Positional Escape]]** → [[Scramble Position]] (Opponent Success: 25%)
@@ -340,7 +340,7 @@ Strategically, the threat of Game Over Top influences every decision in BJJ. Pra
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Submission Chains]]** → [[Won by Submission]]
   - Opponent defends first submission attempt creating vulnerability to secondary attack
@@ -387,7 +387,7 @@ Strategically, the threat of Game Over Top influences every decision in BJJ. Pra
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

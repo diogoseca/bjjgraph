@@ -8,7 +8,7 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 
 
 
-> **Quick Answer**: Kosoto Gake transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.
+> Kosoto Gake transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Break opponent's base by attacking their weighted rear leg
 - Coordinate upper body pull with leg reap timing
 - Maintain close distance throughout the throw
@@ -180,7 +180,7 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish strong collar and sleeve grips in gi, or collar tie and underhook in no-gi
 - Close the distance to eliminate space between you and opponent
 - Identify opponent's weight distribution on their rear leg
@@ -193,7 +193,7 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips and close distance**: Secure a dominant collar grip with your lead hand and sleeve or elbow control with your rear hand in gi (or collar tie and underhook in no-gi). Step in close to eliminate space between your chest and opponent's upper body, positioning yourself at a 45-degree angle to their stance. (Timing: Initial setup phase)
 2. **Break opponent's posture**: Pull your opponent's upper body backward and slightly downward using your collar grip, forcing them to shift their weight onto their rear leg. Their natural reaction is to resist by pushing back or stepping backward, which loads their rear leg perfectly for the reap. (Timing: As opponent resists forward pressure)
 3. **Position your reaping leg**: Step your rear leg (same side as your collar grip) behind opponent's weighted rear leg. Your calf should make contact with the back of their calf/Achilles area. Keep your knee slightly bent and your weight balanced on your supporting leg. (Timing: Immediately after breaking posture)
@@ -206,7 +206,7 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent steps back with their rear leg to avoid having weight on it** (Effectiveness: High) - Your Response: Follow their backward movement and switch to Kosoto Gari (attacking their front leg instead) or chain to Osoto Gari if they overcommit to backward motion
 - **Opponent sprawls and drops their hips backward when they feel the reap** (Effectiveness: Medium) - Your Response: Maintain upper body control and transition to Front Headlock position, using their sprawl momentum to secure the dominant position on the ground
 - **Opponent turns in and attacks with their own throw or guillotine** (Effectiveness: Medium) - Your Response: Immediately release the attempted throw, establish strong posture, and defend the submission or counter-throw by creating distance with your hips
@@ -215,25 +215,25 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting the reap from too far away without closing distance first
+## Common Mistakes
+- **Mistake**: Attempting the reap from too far away without closing distance first
   - **Consequence**: Opponent easily steps away or counters, and you lose balance reaching for the reap
   - **Correction**: Always establish close chest-to-chest contact before attempting the reap, making distance management the priority in your setup
-- **Error**: Using a kicking motion instead of a sweeping/reaping motion with the leg
+- **Mistake**: Using a kicking motion instead of a sweeping/reaping motion with the leg
   - **Consequence**: Telegraphs the technique, allows opponent to defend easily, and reduces control during the throw
   - **Correction**: Focus on a smooth sweeping motion with constant pressure through the back of opponent's leg, maintaining contact throughout
-- **Error**: Failing to pull opponent's upper body backward simultaneously with the reap
+- **Mistake**: Failing to pull opponent's upper body backward simultaneously with the reap
   - **Consequence**: Opponent maintains upright posture and balance, the reap alone is insufficient to complete the throw
   - **Correction**: Coordinate upper body pulling with leg reaping in one unified motion, treating it as a whole-body technique rather than just a leg attack
-- **Error**: Standing upright during the throw instead of following opponent to the ground
+- **Mistake**: Standing upright during the throw instead of following opponent to the ground
   - **Consequence**: Opponent falls but you remain standing, losing the opportunity to establish immediate top control
   - **Correction**: Lower your center of gravity and follow opponent's falling trajectory with your chest, landing in side control as they hit the mat
-- **Error**: Targeting the opponent's front leg instead of their weighted rear leg
+- **Mistake**: Targeting the opponent's front leg instead of their weighted rear leg
   - **Consequence**: Attacking the unweighted leg makes the throw ineffective and easy to defend
   - **Correction**: Identify weight distribution first and always attack the leg bearing the majority of opponent's weight
-- **Error**: Failing to maintain grips throughout the throw execution
+- **Mistake**: Failing to maintain grips throughout the throw execution
   - **Consequence**: Lose control during the throw, allowing opponent to scramble or counter
   - **Correction**: Maintain strong grips from initial setup through landing in top position, using them to control opponent's posture and prevent escape
 
@@ -242,7 +242,7 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static drilling** - Basic movement pattern and coordination
 Practice the reaping motion and upper body pull separately, then combine them with a completely compliant partner. Focus on grip positioning, distance management, and the feeling of sweeping through opponent's leg. Repeat 10-15 repetitions per side.
 (Resistance: None)
@@ -265,7 +265,7 @@ Attempt Kosoto Gake during regular standup sparring with full resistance. Focus 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi Kosoto Gake**: Executed with collar tie and underhook instead of gi grips. The collar tie replaces the lapel grip for pulling opponent backward, while the underhook provides control of their posture. Slightly more difficult due to reduced grip security, but highly effective in no-gi and MMA contexts. (When to use: No-gi competition, MMA, or when opponent has broken your gi grips)
 
 **Kosoto Gake to Mount**: Instead of landing in side control, follow through by stepping over opponent's body during the throw to land directly in mount position. Requires faster hip rotation and more aggressive forward pressure during execution. (When to use: When you want to maximize scoring position or opponent is smaller and you have clear size advantage)
@@ -303,7 +303,7 @@ Attempt Kosoto Gake during regular standup sparring with full resistance. Focus 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Kosoto Gake is generally one of the safest takedowns to practice and execute. The primary safety concerns involve controlled landing for both participants. The person being thrown should practice breakfall technique (slapping the mat with their arm to disperse impact) to prevent head or shoulder injury. The thrower must be careful not to land with excessive weight directly on opponent's ribs or head, instead distributing pressure across the torso. When drilling at beginner levels, both partners should practice on soft mats and communicate about execution speed. In competition, be aware that aggressive execution can result in the thrown person's head impacting the mat if their posture is severely broken—control the upper body pull to ensure safe landing.
 
@@ -311,7 +311,7 @@ Kosoto Gake is generally one of the safest takedowns to practice and execute. Th
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Kosoto Gake occupies a critical role in the BJJ standing game as a fundamental, high-percentage entry to groundwork. It integrates seamlessly with the broader takedown system, particularly as a chain option from failed single leg or double leg attempts, or as a counter when opponent defends other throws by moving backward. The technique serves as an excellent bridge between judo-style standup and BJJ groundwork because it naturally transitions into side control with maintained grips and pressure. In the larger positional hierarchy, Kosoto Gake is often taught as part of the beginner curriculum alongside basic guard pulls and single leg entries because of its relatively simple mechanics and high success rate. Advanced practitioners use it within combination attacks, setting up opponent's defensive reactions to create openings for other techniques.
 
@@ -319,7 +319,7 @@ Kosoto Gake occupies a critical role in the BJJ standing game as a fundamental, 
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Osoto Gari]] - Alternative major outer reap targeting same leg with more power
 - [[Kosoto Gari]] - Combination technique targeting opponent's front leg when they defend
@@ -339,7 +339,7 @@ Kosoto Gake occupies a critical role in the BJJ standing game as a fundamental, 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Kosoto Gake exemplifies the fundamental principle of attacking an opponent's base by removing support structure at the precise moment their center of gravity is displaced. The biomechanical efficiency of this throw comes from the force couple created between upper body pulling and lower body reaping—two opposing forces that create rotational momentum around opponent's center of mass. What makes Kosoto Gake particularly valuable in the BJJ context is the seamless transition from vertical to horizontal control. Unlike explosive throws that create separation during execution, Kosoto Gake maintains close contact throughout, allowing you to follow opponent to the mat with immediate dominant position. The technique demonstrates that off-balancing (kuzushi in judo terminology) is more important than strength or speed—properly timed execution against a balanced opponent is infinitely more effective than powerful execution against a well-balanced opponent. When teaching this throw, I emphasize that students must develop sensitivity to weight distribution, recognizing the subtle postural cues that indicate which leg bears opponent's weight. This diagnostic skill—reading opponent's base and balance—is what separates functional takedown ability from mere knowledge of throw mechanics.
 - **Gordon Ryan**: In competition, Kosoto Gake is one of my highest percentage standing techniques because it scores takedown points while immediately establishing a scoring position with minimal risk of being countered. The beauty of this throw from a strategic standpoint is that it punishes the defensive stance most competitors adopt—weight shifted backward to defend single and double leg attacks. When opponents are defending aggressive wrestling attacks, they naturally load their rear leg, creating the perfect setup for Kosoto Gake. I've successfully used this in ADCC and IBJJF competition because it requires minimal athletic commitment compared to blast double legs or flying techniques, meaning I can attempt it without exhausting myself if it fails. The key competitive adaptation I've developed is using feints—threatening other takedowns to create the backward weight shift, then capitalizing with the reap. Against elite opponents who recognize the setup, I chain Kosoto Gake attempts into ankle picks or single legs, creating a takedown system where defending one attack opens vulnerability to another. In no-gi especially, the collar tie to underhook version is incredibly reliable because you maintain strong control even if the initial throw attempt doesn't land perfectly—you can scramble into front headlock or keep working for the takedown without giving up position.
 - **Eddie Bravo**: Kosoto Gake fits perfectly into the 10th Planet game plan because it's a low-risk entry to our groundwork system that doesn't require explosive athleticism or traditional judo training. What I love about this throw is that you can hit it from the same collar tie and underhook control we use for everything else—it's not a separate specialized grip that requires different setups. The technique works beautifully in the transition game, especially when you're working for takedowns but your opponent is defending by backing up or sprawling. Instead of fighting through their defensive structure, you use their backward momentum against them with the reap. I teach my students to think of Kosoto Gake as part of a flow rather than an isolated technique—if they defend the throw, you're already in position for front headlock attacks, guillotines, or Darce setups. The innovation I've brought to this technique is emphasizing the immediate transition to submission hunting rather than just settling for side control. When you land the throw, you already have the collar tie in position to threaten a guillotine or Darce, which keeps opponent thinking about submission defense instead of escaping position. This creates the dilemma-based game plan that makes 10th Planet so effective—opponent has to choose between defending position or defending the submission, and either choice opens up the other.

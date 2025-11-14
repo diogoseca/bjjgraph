@@ -8,7 +8,7 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 
 
 
-> **Quick Answer**: Guard Opening Sequence transitions from [[Closed Guard]] to [[Open Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
+> Guard Opening Sequence transitions from [[Closed Guard]] to [[Open Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Guard Opening Sequence represents the systematic approach to breaking closed gua
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish strong posture before attempting to open the guard - broken posture makes opening impossible
 - Control opponent's hips through strategic gripping to prevent re-closing of guard
 - Create distance systematically through standing or combat base mechanics
@@ -186,7 +186,7 @@ Guard Opening Sequence represents the systematic approach to breaking closed gua
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Strong defensive posture with spine straight and head up
 - Secure grips on opponent's pants, belt, or collar to control distance
 - Broken or controlled opponent grips to prevent posture breaking
@@ -199,7 +199,7 @@ Guard Opening Sequence represents the systematic approach to breaking closed gua
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish posture**: Begin from closed guard top position. Create a strong defensive frame by straightening your spine, lifting your head, and creating distance with your hips. Your elbows should be inside their knees, forearms driving into their hips or controlling their belt. This posture is non-negotiable - without it, the guard cannot be safely opened. (Timing: First priority - establish before any opening attempt)
 2. **Break opponent's grips**: Systematically remove the opponent's grip connections on your collar, sleeves, or head. Use circular motions to break collar grips by rotating your shoulders. For sleeve grips, push their grip toward their thumb (weakest point) while pulling your elbow back. Prevent them from re-establishing grips by maintaining proper distance and hand positioning. (Timing: 2-3 seconds of focused grip fighting)
 3. **Establish control grips**: Secure your own grips to control the opponent's position. Common options include: both hands on the pants near the knees (most common), one hand on belt with other on knee, or cross-collar grip with knee control. These grips prevent the opponent from following you as you create distance and control their hip movement. (Timing: Immediately after breaking their grips)
@@ -213,7 +213,7 @@ Guard Opening Sequence represents the systematic approach to breaking closed gua
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent breaks your posture forward with collar and sleeve grips** (Effectiveness: High) - Your Response: Do not fight strength with strength. Instead, walk your hands forward on their hips or belt while keeping your elbows tight, then explosively sit back and re-establish posture. Alternatively, hug their head and shoulder tightly, stand up while maintaining the hug, then create distance.
 - **Opponent elevates hips and threatens triangle or omoplata** (Effectiveness: High) - Your Response: Immediately posture up and drive your elbows to the inside of their knees. Control their hips with heavy downward pressure through your grips. If they have already started triangle mechanics, pull your trapped arm out by driving your same-side knee into their hip while turning toward the trapped arm.
 - **Opponent hooks your leg for sweep during standing** (Effectiveness: Medium) - Your Response: Shift your weight to the hooked leg side and base out with your hands if necessary. Do not try to stand on the hooked leg. Instead, step the free leg out wide for balance, strip the hook with your grip, then continue the opening sequence.
@@ -223,25 +223,25 @@ Guard Opening Sequence represents the systematic approach to breaking closed gua
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to open the guard with broken or compromised posture
+## Common Mistakes
+- **Mistake**: Attempting to open the guard with broken or compromised posture
   - **Consequence**: Opponent easily sweeps, transitions to triangle, or pulls you back down into bad positions. This is the most common and dangerous error.
   - **Correction**: Never compromise posture. If your posture breaks, stop all opening attempts immediately and focus solely on regaining posture. Only attempt opening mechanics once spine is straight and head is up.
-- **Error**: Using pure arm strength to force the guard open
+- **Mistake**: Using pure arm strength to force the guard open
   - **Consequence**: Exhaustion without success, potential injury to shoulders or back, easy grip breaks by opponent, and vulnerability to sweeps.
   - **Correction**: Use leverage through hip movement and leg drive. Your hips and legs are far stronger than your arms. The opening should feel mechanical and controlled, not like a strength battle.
-- **Error**: Failing to control opponent's hips during opening
+- **Mistake**: Failing to control opponent's hips during opening
   - **Consequence**: Opponent easily re-closes guard or immediately establishes dominant open guard retention position, nullifying all opening efforts.
   - **Correction**: Maintain constant grip control on the pants near the knees, belt, or hips. As the guard opens, immediately use these grips to control leg position and prevent re-closing.
-- **Error**: Standing up without proper base or too close to opponent
+- **Mistake**: Standing up without proper base or too close to opponent
   - **Consequence**: Easy sweep opportunities for opponent, particularly elevator sweep, balloon sweep, or scissor sweep variations.
   - **Correction**: When standing, ensure your feet are positioned outside and slightly back from their hips. Maintain low, athletic posture initially, then gradually stand upright while maintaining grip control.
-- **Error**: Pausing or hesitating after successfully opening the guard
+- **Mistake**: Pausing or hesitating after successfully opening the guard
   - **Consequence**: Opponent immediately recovers to closed guard or establishes strong open guard structure with hooks, grips, and frames.
   - **Correction**: The opening and passing should be one continuous movement. Have your passing plan ready before opening. As the ankles unlock, immediately transition to knee slice, toreando, or your chosen pass.
-- **Error**: Ignoring opponent's grip fighting during the opening
+- **Mistake**: Ignoring opponent's grip fighting during the opening
   - **Consequence**: Opponent controls your posture, head, or sleeves, making opening impossible and setting up their own attacks.
   - **Correction**: Grip fighting is continuous throughout the sequence. Constantly monitor and break their grips while establishing your own. Use one hand to strip grips while the other maintains control.
 
@@ -250,7 +250,7 @@ Guard Opening Sequence represents the systematic approach to breaking closed gua
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Posture and Base Fundamentals** - Establishing and maintaining proper posture in closed guard
 Partner allows you to establish posture but provides resistance when you try to open. Focus entirely on creating strong spine position, base, and grip control. Practice standing up from closed guard with proper mechanics. No actual opening yet.
 (Resistance: Light)
@@ -281,7 +281,7 @@ Practice against specialized closed guard styles: collar and sleeve guard, overh
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standing Guard Break**: The most common and highest percentage method. Stand fully upright with both feet planted outside opponent's hips, control both pants near the knees, drive hips forward while pulling their knees toward you. This creates maximum leverage and distance. (When to use: Against most opponents, especially those with strong closed guard attacks. Essential in competition due to high success rate. Best when opponent is not actively threatening sweeps.)
 
 **Combat Base Opening**: Maintain one knee down (combat base position), drive the posted knee into opponent's inner thigh while sitting hips back. Control their legs with strategic grips. More defensive but lower success rate. (When to use: When opponent is very sweep-oriented or has dangerous triangle setups. Also useful when conserving energy or when ring positioning prevents standing. Good for beginners developing base.)
@@ -323,7 +323,7 @@ Practice against specialized closed guard styles: collar and sleeve guard, overh
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Guard opening requires careful attention to safety for both practitioners. The person opening must avoid using explosive or jerking movements that could injure the opponent's knees, hips, or ankles - apply pressure gradually and release immediately if partner taps. Never twist the legs during opening. The person in guard must unlock ankles when proper opening pressure is applied to prevent knee or ankle injuries. Both practitioners should communicate clearly, especially during learning phases. Avoid cranking or forcing the opening with pure strength. When standing, be aware of your partner's hips leaving the mat to prevent dropping them dangerously. Practice on appropriate mat surfaces to prevent injury if balance is lost during standing breaks. Partners should start with cooperative drilling before progressing to resistance.
 
@@ -331,7 +331,7 @@ Guard opening requires careful attention to safety for both practitioners. The p
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Guard Opening Sequence serves as the critical gateway from closed guard top to all open guard passing positions. It is the first step in any guard passing system - no pass can occur without first opening the closed guard. This technique integrates directly into comprehensive passing strategies: once the guard opens, you immediately transition to knee slice, toreando, leg drag, long step, or pressure passing depending on your system and the opponent's reactions. The opening sequence also connects to grip fighting and posture maintenance concepts that apply throughout guard passing. Defensive integration includes recognizing and defending sweeps during opening, maintaining base, and preventing submission setups. Understanding proper opening mechanics prevents injuries and builds the foundation for advanced guard passing studies. The technique emphasizes the principle that guard passing is systematic - each step builds upon the previous, and skipping the proper opening leads to failure in later passing attempts.
 
@@ -339,7 +339,7 @@ Guard Opening Sequence serves as the critical gateway from closed guard top to a
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Closed Guard]] - Starting position for guard opening sequence
 - [[Open Guard]] - Resulting position after successful guard opening
@@ -359,7 +359,7 @@ Guard Opening Sequence serves as the critical gateway from closed guard top to a
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Opening the closed guard is fundamentally about establishing superior posture and systematically removing the opponent's control points. The sequence begins with standing posture or strong base in combat position, followed by strategic grip breaking and pressure application to force the guard open. The critical insight is that the guard opening and the pass are not separate techniques but one continuous action. Most students make the error of opening the guard and then pausing to think about which pass to use - this gives the opponent time to recover or establish frames. Instead, you must have your passing strategy determined before you even open the guard. The opening mechanics should flow directly into the passing mechanics in one unbroken sequence. Additionally, understanding that leverage through hip and leg movement is far superior to arm strength cannot be overstated - the closed guard cannot be muscled open reliably, but with proper mechanics it opens relatively easily even against much stronger opponents.
 - **Gordon Ryan**: In competition, I focus on standing guard breaks because they're high percentage and force my opponent to react rather than attack. The key is standing with perfect timing and immediately establishing dominant grips on their pants. When I stand, I'm already thinking three moves ahead - I know if they defend in a certain way, I'm going to knee slice, and if they defend another way, I'm going toreando. The standing break also creates psychological pressure because it shows you're not afraid of their guard and you're taking the initiative. One thing I've learned from thousands of matches is that you absolutely cannot hesitate after opening the guard. The moment their ankles unlock, I'm already pressuring into my pass. That split second of hesitation is what allows elite guard players to recover their structure. Also, don't be afraid to stand even against good closed guard players - just make sure your base is solid and your grips are strong before you commit to standing fully upright.
 - **Eddie Bravo**: The key to opening any guard is understanding the concept of creating space and using leverage rather than strength. Whether you're standing or using the combat base method, you need to be systematic and patient. Break the grips first - never try to open with their grips still on. Then establish your own grips that control their hips and legs. For the standing break, I like to really emphasize getting your feet positioned correctly, outside their hips and slightly back, before you stand all the way up. A lot of people stand too close and get swept immediately. Once you're standing, it's all about the hip drive forward while pulling their knees - this creates a mechanical advantage that doesn't require massive strength. In no-gi, the headquarters position for opening can be really effective because you can get that shin wedge between their legs. But remember, opening the guard is just step one - you better have your passing game ready to go because good guard players will recover faster than you think.

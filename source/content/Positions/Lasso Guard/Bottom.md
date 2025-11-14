@@ -8,7 +8,7 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,7 +197,7 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your shin must be threaded across the opponent's arm between their elbow and shoulder, creating the characteristic lasso control
 - You maintain a tight sleeve grip on the lassoed arm with your hand on the same side as your lasso leg
@@ -211,7 +209,7 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Solid understanding of open guard fundamentals including hip movement, distance management, and grip fighting principles
 - Developed grip strength and endurance to maintain extended sleeve control against breaking attempts
@@ -238,7 +236,7 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Lasso Guard Sweeps]] → [[Mount]]
 
@@ -302,7 +300,7 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Lasso Guard Pass]]** → [[Side Control]] (Opponent Success: 45%)
 - **[[Stack Pass]]** → [[Side Control]] (Opponent Success: 40%)
@@ -315,7 +313,7 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Lasso Guard Variations]]** → [[Inverted Lasso Guard]]
   - When opponent begins to step over the lasso leg, invert underneath to recover the position or transition to berimbolo
@@ -360,7 +358,7 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

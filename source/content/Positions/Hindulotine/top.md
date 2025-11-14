@@ -8,7 +8,7 @@ description: "Offensive guillotine variation from top position using body weight
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Offensive guillotine variation from top position using body weight
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Offensive guillotine variation from top position using body weight
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75%.
 
 ---
 
@@ -193,7 +193,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your guillotine grip is secured around opponent's neck with your arm wrapped under their chin and hands locked, creating direct choking pressure while you maintain top position with their head controlled below your center of gravity, allowing gravity to assist your submission pressure
 - Your hips and legs are positioned to control opponent's ability to stand, roll, or achieve angles that would relieve neck pressure, typically with at least one leg base wide for stability while the other may be used for control or to create angling pressure
@@ -206,7 +206,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful control of opponent's head from front headlock, sprawl defense, or while attacking turtle position
 - Ability to establish guillotine grip before opponent can achieve defensive posture, stand up, or extract their head
@@ -234,7 +234,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Guillotine Choke]] → [[Won by Submission]]
 
@@ -298,7 +298,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Stand Up Escape]]** → [[Standing Position]] (Opponent Success: 35%)
 - **[[Roll Through Escape]]** → [[Closed Guard]] (Opponent Success: 30%)
@@ -311,7 +311,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Take]]** → [[Back Control]]
   - Opponent turns away to relieve neck pressure and exposes back
@@ -355,7 +355,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

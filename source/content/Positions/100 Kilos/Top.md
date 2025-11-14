@@ -8,7 +8,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 50%.
 
 ---
 
@@ -187,7 +187,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Chest positioned directly on opponent's sternum and upper ribs with full body weight distributed through torso, creating maximum downward crushing pressure that restricts respiratory expansion
 - Head positioned alongside or past opponent's head on mat, with shoulder driving into their jaw or neck area, further limiting head movement and creating additional pressure
@@ -198,7 +198,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful transition from side control, knee on belly, or other top position where opponent's upper body is accessible
 - Opponent's defensive frames broken or bypassed, allowing direct chest-to-chest contact
@@ -224,7 +224,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Transition to Mount]] → [[Mount]]
 
@@ -281,7 +281,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Side Control]] (Opponent Success: 25%)
 - **[[Bridge and Roll]]** → [[Mount]] (Opponent Success: 15%)
@@ -294,7 +294,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Transition to Mount]]** → [[Mount]]
   - Opponent attempts to shrimp away from pressure
@@ -336,7 +336,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

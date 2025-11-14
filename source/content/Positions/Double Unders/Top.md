@@ -8,7 +8,7 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 45% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 45%.
 
 ---
 
@@ -189,7 +189,7 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Both arms positioned under opponent's legs with hands meeting behind their back or gripping the belt/pants, creating a tight control loop that restricts hip movement and leg separation
 - Chest making heavy contact with opponent's thighs or knees, driving forward pressure that stacks their weight onto their shoulders and upper back while limiting their ability to create space
@@ -201,7 +201,7 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful engagement with opponent's open guard (butterfly, seated, half guard variations)
 - Control of opponent's legs with both arms positioned underneath
@@ -229,7 +229,7 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Double Under Pass]] → [[Side Control]]
 
@@ -279,7 +279,7 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 25%)
 - **[[Frame and Shrimp]]** → [[Open Guard]] (Opponent Success: 30%)
@@ -292,7 +292,7 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Smash Pass]]** → [[Side Control]]
   - Opponent attempts to hip escape to recover guard position
@@ -334,7 +334,7 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

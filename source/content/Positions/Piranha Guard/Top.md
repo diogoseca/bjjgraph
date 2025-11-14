@@ -8,7 +8,7 @@ description: "Master Piranha Guard Top in BJJ. Complete guide covering passing s
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Piranha Guard Top in BJJ. Complete guide covering passing s
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Piranha Guard Top in BJJ. Complete guide covering passing s
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 15% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 15%.
 
 ---
 
@@ -189,7 +189,7 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains standing or combat base posture with hands engaged in active grip fighting against the bottom player's lapel controls, preventing full extension of lapel wraps around the body or neck area
 - Bottom player is on their back with at least one leg extended or creating frames using the lapel configuration, with your collar threaded through their legs creating control points that limit your movement options
@@ -202,7 +202,7 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has established Piranha Guard with lapel threaded through their legs
 - Top player is standing or in combat base position with collar compromised
@@ -230,7 +230,7 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Toreando Pass]] → [[Side Control]]
 
@@ -287,7 +287,7 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Pendulum Sweep]]** → [[Mount]] (Opponent Success: 40%)
 - **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 30%)
@@ -300,7 +300,7 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Grip Break to Toreando]]** → [[Side Control]]
   - Bottom player attempts to reinforce lapel grips or improve configuration
@@ -347,7 +347,7 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

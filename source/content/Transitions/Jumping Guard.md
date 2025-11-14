@@ -8,7 +8,7 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
 
 
 
-> **Quick Answer**: Jumping Guard transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+> Jumping Guard transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Jumping Guard is a dynamic and aggressive guard pull technique that involves lit
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish grip control before jumping to ensure secure connection
 - Time the jump when opponent's weight is slightly forward or neutral
 - Commit fully to the movement - hesitation leads to failed attempts
@@ -180,7 +180,7 @@ Jumping Guard is a dynamic and aggressive guard pull technique that involves lit
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing position with at least one strong grip established (collar or sleeve preferred)
 - Opponent standing upright or slightly forward, not heavily postured back
 - Sufficient distance to generate jumping momentum (approximately arm's length)
@@ -193,7 +193,7 @@ Jumping Guard is a dynamic and aggressive guard pull technique that involves lit
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grip control**: Secure a strong collar grip with your dominant hand and control the opponent's sleeve or wrist with your other hand. The collar grip should be deep enough to prevent easy breaking. This grip foundation is essential for maintaining connection during the jump and preventing opponent from creating distance. (Timing: During initial standing engagement, before opponent establishes defensive grips)
 2. **Close distance strategically**: Step forward with your lead foot to reduce the gap between you and your opponent to approximately one foot. This shortened distance allows for explosive jumping while maintaining grip integrity. Avoid telegraphing your intention by maintaining normal posture and grip fighting rhythm. (Timing: Immediately before commitment, when opponent's attention is on grip fighting)
 3. **Generate upward and forward momentum**: Explosively push off both feet simultaneously, driving your hips forward and upward toward your opponent's center mass. The trajectory should be slightly upward first, then forward, to avoid pulling opponent's weight down on top of you. Use your collar grip to pull yourself closer while jumping. (Timing: Execute when opponent shifts weight forward or is momentarily static)
@@ -206,7 +206,7 @@ Jumping Guard is a dynamic and aggressive guard pull technique that involves lit
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls backward and drives hips away while you're mid-jump** (Effectiveness: High) - Your Response: If opponent begins sprawling, immediately adjust by opening your guard and transitioning to butterfly hooks or De La Riva hooks as you descend. Alternatively, maintain upper body grips and use momentum to establish seated guard rather than forcing closed guard.
 - **Opponent catches you mid-jump and attempts to slam (in rulesets where legal)** (Effectiveness: High) - Your Response: Immediately release closed guard and post hands on mat to protect yourself. In competition contexts with slam penalties, maintain closed guard and accept the referee intervention. In no-penalty contexts, opening guard and transitioning to a safer position is essential for safety.
 - **Opponent uses your jumping momentum to initiate immediate guard pass by driving forward** (Effectiveness: Medium) - Your Response: As opponent drives forward, use your leg position to redirect their momentum by opening your guard and establishing butterfly hooks or overhooks. The key is not fighting their forward pressure but redirecting it laterally while maintaining upper body control.
@@ -216,25 +216,25 @@ Jumping Guard is a dynamic and aggressive guard pull technique that involves lit
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Jumping without establishing proper grip control first
+## Common Mistakes
+- **Mistake**: Jumping without establishing proper grip control first
   - **Consequence**: Opponent easily creates distance during your jump, causing you to fall to the mat without securing guard, leaving you in vulnerable bottom position with no control
   - **Correction**: Always establish at least one strong grip (preferably collar) before committing to the jump. Practice grip fighting sequences that flow into jumping guard rather than treating it as an isolated technique.
-- **Error**: Telegraphing the jump with obvious body language or preparation movements
+- **Mistake**: Telegraphing the jump with obvious body language or preparation movements
   - **Consequence**: Opponent anticipates your intention and sprawls backward or creates distance before you can execute, resulting in failed attempt and wasted energy
   - **Correction**: Maintain normal grip fighting posture and rhythm until the moment of execution. The jump should appear sudden and unexpected. Practice disguising the setup within normal standing exchanges.
-- **Error**: Jumping with trajectory too forward and not enough upward momentum
+- **Mistake**: Jumping with trajectory too forward and not enough upward momentum
   - **Consequence**: Your weight pulls opponent down on top of you, giving them immediate top pressure advantage and often resulting in opponent passing your guard during the scramble
   - **Correction**: Focus on jumping UP first, then forward. The initial trajectory should be approximately 45 degrees upward. This prevents pulling opponent's weight onto you and allows proper guard establishment.
-- **Error**: Failing to lock closed guard immediately upon contact
+- **Mistake**: Failing to lock closed guard immediately upon contact
   - **Consequence**: Opponent sprawls or steps back during the delay, escaping your leg entanglement and leaving you in bottom position without guard control
   - **Correction**: Train the leg wrap as a reflexive action simultaneous with hip contact. Practice the jumping motion repeatedly with focus on instant ankle locking. The guard closure should be one fluid motion with the jump.
-- **Error**: Attempting jumping guard when already off-balance or moving backward
+- **Mistake**: Attempting jumping guard when already off-balance or moving backward
   - **Consequence**: Lack of proper momentum generation results in weak jump that doesn't fully close distance, creating easy passing opportunities for opponent or causing you to fall poorly
   - **Correction**: Execute jumping guard only from balanced, stable stance with feet under your hips. If you're moving backward or laterally, reset your position before attempting the technique. Proper athletic stance is prerequisite.
-- **Error**: Using jumping guard indiscriminately without considering opponent's size, strength, or experience
+- **Mistake**: Using jumping guard indiscriminately without considering opponent's size, strength, or experience
   - **Consequence**: Against significantly larger or more skilled opponents, jumping guard often results in immediate passing, heavy top pressure, or potential injury from slams or awkward landings
   - **Correction**: Assess opponent characteristics before selecting jumping guard. Against larger opponents, favor more controlled guard pulls. Reserve jumping guard for situations where your athleticism and timing advantages are clear, or when opponent's defensive posture creates specific opening.
 
@@ -243,7 +243,7 @@ Jumping Guard is a dynamic and aggressive guard pull technique that involves lit
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Static Entry (Weeks 1-2)** - Grip control and leg wrapping mechanics without jumping
 Partner stands stationary while you practice establishing grips, stepping close, and wrapping legs around their torso from very short distance (6 inches). Focus entirely on proper leg positioning, ankle locking, and closed guard securing. No actual jumping yet - simply step in and wrap.
 (Resistance: None)
@@ -274,7 +274,7 @@ Attempt jumping guard during regular positional sparring and rolling sessions wh
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double Sleeve Jumping Guard**: Instead of collar and sleeve grips, establish control of both opponent's sleeves before jumping. This grip configuration provides excellent upper body control and prevents opponent from pushing your hips away during entry. Upon landing in closed guard, you have immediate access to sleeve-based attacks including overhead sweeps and omoplata entries. (When to use: Against opponents with strong collar grip defenses or when you want to prioritize immediate offensive attacks from closed guard. Particularly effective in gi competition when opponent wears thick gi material providing strong sleeve grips.)
 
 **Butterfly Guard Jump Entry**: Instead of committing fully to closed guard, jump with the intention of establishing butterfly hooks as you make contact. Your feet position on opponent's inner thighs rather than crossing behind their back. This variation is lower commitment and provides easier transitions to sweeps or alternative guards if the initial entry is defended. (When to use: Against opponents who sprawl effectively against closed guard jumps, or when you want faster access to sweeping opportunities. This variation is generally safer as it doesn't fully commit your leg position, allowing quicker adjustments.)
@@ -314,7 +314,7 @@ Attempt jumping guard during regular positional sparring and rolling sessions wh
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Jumping guard carries inherent injury risks that practitioners must understand before attempting. Primary safety concerns include knee ligament damage if legs are caught awkwardly during opponent's defensive sprawl, lower back injury from poor landing mechanics, head and neck injury if you fall backward without proper breakfall technique, and catastrophic injury from slams in rulesets where they're legal or not adequately penalized. To train safely: always progress through the six-phase training progression outlined above rather than attempting full technique prematurely; ensure training partners understand their role as defensive participant and agree on resistance levels; train on appropriate surfaces (mats with sufficient padding, never hard floors); understand your competition ruleset regarding guard jumps and slams; develop excellent breakfall skills before attempting jumping guard; never attempt jumping guard when fatigued as this increases error probability; and maintain awareness of size and strength differentials with training partners. If you're significantly smaller than opponent, jumping guard requires even more precise technique as failed attempts result in being under heavy top pressure. If you experience any knee, back, or neck pain during jumping guard training, stop immediately and consult with qualified instructor and medical professional before continuing. Competitive use of jumping guard should only occur after hundreds of successful repetitions in training with progressive resistance.
 
@@ -322,7 +322,7 @@ Jumping guard carries inherent injury risks that practitioners must understand b
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Jumping Guard serves as a dynamic entry point to the closed guard system within the broader BJJ positional framework. Unlike traditional guard pulls that emphasize control and retention from first contact, jumping guard represents the aggressive, commitment-based approach to guard engagement. Within your standing-to-guard game, jumping guard should be one option among several guard pull variations, deployed strategically based on opponent characteristics and match situation rather than as your default guard entry. Once closed guard is established via jumping entry, you transition into standard closed guard offensive system including hip bump sweeps, kimura attacks, triangle and armbar setups, and sweep chains. The technique integrates with your overall competition strategy as a tool for creating tempo changes, disrupting opponent rhythm, and forcing engagement when opponent maintains excessive distance. Many high-level practitioners reserve jumping guard for specific opponents whose defensive posture or movement patterns create optimal timing windows. The technique also connects to the broader system of guard retention, as training jumping guard improves your ability to establish guards during scrambles when proper positioning is lost. From technical progression standpoint, jumping guard represents an advanced application of fundamental concepts: distance management, grip fighting, explosive movement, and guard establishment under adversity. Mastery of jumping guard requires solid foundation in traditional guard work, as the position you establish after jumping (closed guard) must be strong enough to hold against opponent who will be immediately motivated to escape and pass after defending your dynamic entry.
 
@@ -330,7 +330,7 @@ Jumping Guard serves as a dynamic entry point to the closed guard system within 
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Guard Pull]] - Alternative - Traditional controlled guard entry method, lower risk
 - [[Closed Guard]] - Destination - Primary position established by successful jumping guard
@@ -350,7 +350,7 @@ Jumping Guard serves as a dynamic entry point to the closed guard system within 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The jumping guard represents a fascinating intersection of biomechanical commitment and tactical risk-assessment in Brazilian Jiu-Jitsu. From systematic analysis perspective, this technique violates several fundamental principles we typically emphasize: it sacrifices positional control for dynamic entry, it commits your full body weight before establishing secure connection points, and it provides opponent with immediate opportunity to establish top pressure if execution fails. However, the technique persists in high-level competition because it solves a specific tactical problem: opponent who refuses engagement through distance maintenance. The biomechanics of successful jumping guard require understanding vector management - your jumping trajectory must be precisely upward before forward to prevent pulling opponent's mass onto you. The grip control established pre-jump serves as your insurance policy, maintaining connection if your leg wrapping is incomplete. When teaching jumping guard, I emphasize that it must be understood as a tool within broader strategic framework, not as primary guard entry method. The practitioner who develops excellent jumping guard typically possesses superior athletic attributes and understands when their physical advantages create scenarios where aggressive commitment is statistically favorable. The key intellectual component is learning to recognize the narrow timing windows where opponent's stance, weight distribution, and grip positioning create optimal jumping opportunities. This requires thousands of repetitions developing what appears to be instinct but is actually highly refined pattern recognition. The jumping guard specialist has unconsciously catalogued dozens of opponent behavioral patterns that telegraph momentary vulnerability to explosive guard jumping.
 - **Gordon Ryan**: I've used jumping guard strategically throughout my competition career, and the reality is that it's a high-level tool that most people use incorrectly. The fundamental mistake recreational grapplers make with jumping guard is treating it like a desperation move when they can't establish their guard normally. That's backwards. Jumping guard should be deployed from position of strength, when you've identified a specific timing window in opponent's defensive structure. In my matches, I've used jumping guard primarily against opponents who maintain excessive distance and have heavy hands-forward posture that makes traditional guard pulls difficult. The key to competitive jumping guard is the grip setup - I'm looking for deep collar control and wrist control where opponent can't easily extract their arms. Once those grips are locked, the actual jump becomes relatively safe because I've already won the grip fighting battle. The other critical element that separates successful jumping guard at high levels is having immediate follow-up attacks programmed. If I jump to closed guard, I'm not just establishing position - I'm immediately breaking posture and attacking either hip bump sweep into mount or setting up triangle/armbar threats. The opponent should feel continuous offensive pressure from the moment I land. Regarding training methodology, I recommend athletes spend significant time on the failed attempt scenarios. Practice what happens when opponent sprawls, when they create distance, when your grip breaks mid-jump. The practitioner who can seamlessly transition from failed jumping guard into butterfly hooks or De La Riva positioning hasn't really failed - they've just taken a different path to their guard establishment. At competition level, jumping guard is ultimately about controlling engagement tempo and forcing opponent into your preferred range and pace.
 - **Eddie Bravo**: Jumping guard is one of those techniques that embodies the aggressive, commitment-based approach we emphasize in 10th Planet methodology. From no-gi perspective, jumping guard becomes even more high-risk because you don't have gi grips to maintain connection, so your entire technique relies on body mechanics, timing, and having the balls to fully commit. I've always taught my students that jumping guard works best when you approach it with specific strategic intent - you're not just jumping to establish guard, you're jumping to immediately attack. In our system, we often combine jumping guard with rubber guard entries, where the moment you land in closed guard, you're already breaking posture and establishing mission control or New York positions. The athletic, explosive nature of jumping guard fits perfectly with the overall 10th Planet philosophy of creating dilemmas and forcing opponent into reactive mode. One variation we've developed that works particularly well in no-gi competition is what I call the momentum jump - instead of jumping to static closed guard, you use the jumping momentum to immediately off-balance opponent and transition into sweep or back take opportunities. The opponent expects to defend your guard establishment, but you're already attacking the sweep before they stabilize. This kind of innovation is what separates jumping guard as just a technique versus jumping guard as part of comprehensive offensive system. The other aspect that's often overlooked is the psychological component - jumping guard immediately establishes aggressive tone for the match and can rattle opponent who expected more methodical engagement. In submission-only formats where we can take more risks, jumping guard becomes even more viable because there's no points lost for failed attempt, only opportunity cost. My advice for anyone developing jumping guard game is to make it one component of multifaceted standing-to-guard attack system, not your only trick.

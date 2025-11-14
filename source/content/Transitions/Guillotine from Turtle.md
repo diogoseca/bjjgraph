@@ -8,7 +8,7 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
 
 
 
-> **Quick Answer**: Guillotine from Turtle transitions from [[Turtle]] to [[Guillotine Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Guillotine from Turtle transitions from [[Turtle]] to [[Guillotine Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Guillotine from Turtle is a high-percentage submission attack that capitaliz
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish front headlock control before attempting the choke
 - Control opponent's far shoulder to prevent their escape rotation
 - Choose between standing finish and guard pull based on opponent's defensive reaction
@@ -180,7 +180,7 @@ The Guillotine from Turtle is a high-percentage submission attack that capitaliz
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in bottom turtle with head accessible
 - Top position established with control over opponent's upper body
 - Ability to access opponent's neck without exposing your own position
@@ -193,7 +193,7 @@ The Guillotine from Turtle is a high-percentage submission attack that capitaliz
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish front headlock position**: From turtle top, drive your chest into opponent's upper back while wrapping your arm around their neck. Your armpit should be tight to the side of their head, with your forearm crossing under their chin. Simultaneously control their far shoulder with your free hand to prevent rotation escape. (Timing: Execute as opponent settles into defensive turtle, before they can establish strong base)
 2. **Secure guillotine grip**: Thread your choking arm deeper until your wrist reaches the opposite side of their neck. With your free hand, grab your choking wrist using either a palm-to-palm grip (high elbow style) or a gable grip (arm-in variation). Your shoulder should be pressing down on the back of their neck, creating immediate discomfort. (Timing: Lock grip before opponent can posture or turn into you)
 3. **Break opponent's base**: Drive your chest forward and down into opponent's upper back while pulling up slightly with your grip. This forward pressure breaks their posted hands and forces their weight onto their forehead. Your hips should move forward, making it impossible for them to maintain stable base or stand to their feet. (Timing: Continuous pressure until opponent's arms buckle)
@@ -206,7 +206,7 @@ The Guillotine from Turtle is a high-percentage submission attack that capitaliz
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent tucks chin and turns into you** (Effectiveness: Medium) - Your Response: Switch to high elbow guillotine variation, using opponent's turn to deepen your grip. Alternatively transition to anaconda or darce choke as they expose their shoulder.
 - **Opponent posts hand on your hip and extends to create space** (Effectiveness: High) - Your Response: Use your free hand to control their posting arm, stripping it away while driving your chest pressure forward. Alternatively, transition to arm-in guillotine if their arm becomes trapped.
 - **Opponent rolls forward (granby roll escape)** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining grip, ending in top position with guillotine locked. Use their momentum to improve your finishing angle. Don't resist the roll, flow with it.
@@ -216,28 +216,28 @@ The Guillotine from Turtle is a high-percentage submission attack that capitaliz
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting guillotine without proper front headlock control first
+## Common Mistakes
+- **Mistake**: Attempting guillotine without proper front headlock control first
   - **Consequence**: Opponent easily defends by tucking chin or turning away, eliminating submission threat entirely
   - **Correction**: Establish dominant front headlock position with shoulder pressure before threading arm for choke. Control is primary, submission is secondary.
-- **Error**: Gripping too shallow around opponent's face instead of deep under chin
+- **Mistake**: Gripping too shallow around opponent's face instead of deep under chin
   - **Consequence**: Choke becomes a crank with low finish rate and high injury risk, opponent can escape by turning
   - **Correction**: Ensure your wrist reaches opposite side of neck before locking grip. If you can't get deep, transition to different attack rather than forcing poor position.
-- **Error**: Failing to break opponent's base before attempting finish
+- **Mistake**: Failing to break opponent's base before attempting finish
   - **Consequence**: Opponent maintains strong posting position and easily defends or escapes the submission
   - **Correction**: Use chest and hip pressure to collapse opponent's posted hands before committing to standing or guard pull finish.
-- **Error**: Standing too early before grip is secure
+- **Mistake**: Standing too early before grip is secure
   - **Consequence**: Opponent escapes as you stand, potentially reversing position or exposing your legs to attacks
   - **Correction**: Lock grip completely and break opponent's base first. Only stand when you feel their weight on their forehead and your grip is unbreakable.
-- **Error**: Neglecting to control opponent's far shoulder during setup
+- **Mistake**: Neglecting to control opponent's far shoulder during setup
   - **Consequence**: Opponent rotates away from your choke, escaping to their guard or standing position
   - **Correction**: Always control far shoulder with your non-choking hand until grip is secured. This prevents rotation escape and keeps opponent in danger zone.
-- **Error**: Pulling guard without proper angle or hip positioning
+- **Mistake**: Pulling guard without proper angle or hip positioning
   - **Consequence**: Opponent postures easily in your guard, passes, or escapes the choke entirely
   - **Correction**: When pulling guard, immediately angle 45 degrees away from choking arm and crunch your abs. Use active legs to break opponent's posture.
-- **Error**: Applying too much arm strength without using full body mechanics
+- **Mistake**: Applying too much arm strength without using full body mechanics
   - **Consequence**: Choke is weak and opponent survives through toughness, your arms fatigue quickly
   - **Correction**: Use hip thrust, shoulder pressure, and core contraction in addition to arm squeeze. Guillotine is a full-body submission, not just an arm choke.
 
@@ -246,7 +246,7 @@ The Guillotine from Turtle is a high-percentage submission attack that capitaliz
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Front headlock control and grip acquisition from turtle
 Partner starts in turtle, you practice establishing front headlock position and threading arm for guillotine grip. Partner remains stationary. Focus on getting wrist to opposite side of neck and locking grip cleanly. Drill minimum 20 repetitions per training session, alternating sides.
 (Resistance: None)
@@ -277,7 +277,7 @@ Apply technique during normal sparring when opportunities arise. Start from turt
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **High Elbow Guillotine from Turtle**: Instead of traditional grip, use high elbow configuration with palm-to-palm or four-finger grip. Your elbow points toward ceiling while choking forearm drives across throat. More effective against opponents who tuck chin and turn into you. (When to use: When opponent has strong chin tuck defense or you have longer arms that benefit from high elbow mechanics)
 
 **Arm-In Guillotine from Turtle**: Trap opponent's near arm inside your guillotine grip, creating arm-in variation. This prevents opponent from hand-fighting your grip and creates different finishing angle. Often transitions naturally when opponent defends by posting their arm. (When to use: When opponent's defensive arm becomes trapped during your setup, or when you want to eliminate hand-fighting defense)
@@ -322,7 +322,7 @@ Apply technique during normal sparring when opportunities arise. Start from turt
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The guillotine from turtle requires careful application in training to prevent neck injuries. Always apply pressure progressively over 3-5 seconds minimum, never explosively or with jerking motions. Partners must have clear communication and immediate tap protocol established before drilling. The choke should target the blood vessels in the neck, not create pressure on the spine or trachea. Practitioners should avoid applying guillotines to partners with known neck injuries or conditions. When drilling, use controlled resistance and stop immediately at tap. Beginners should focus on position and grip mechanics before applying finishing pressure. In competition, be aware that guillotines can transition to dangerous positions if opponent rolls, so maintain awareness of your own neck safety. If you feel pain rather than pressure in your neck as the defender, tap immediately—never try to tough out neck pain. Training partners should agree on intensity levels before each round, and white belts should only practice this technique under direct instructor supervision.
 
@@ -330,7 +330,7 @@ The guillotine from turtle requires careful application in training to prevent n
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The guillotine from turtle is a critical component of the complete front headlock attacking system and serves as a primary submission threat when opponents use turtle as their defensive position. It integrates seamlessly with other turtle top attacks including back takes, crucifix control, darce and anaconda chokes, creating a dilemma-based system where every defensive reaction opens a different attack. In the broader positional hierarchy, this technique represents the bridge between dominant turtle control and submission finish, teaching practitioners that turtle position is not a safe defensive haven but rather a dangerous transitional area. The guillotine from turtle also connects to the standing game, as the same mechanics apply to guillotines from snap-downs and failed takedown attempts. Understanding this transition improves your entire front headlock game and makes you more dangerous whenever opponents expose their neck. It's particularly valuable in modern competition where athletes frequently turtle to avoid back exposure, creating abundant opportunities for this attack. The technique also integrates with guard pulling strategies, as the guillotine provides security when transitioning from top to bottom position.
 
@@ -338,7 +338,7 @@ The guillotine from turtle is a critical component of the complete front headloc
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Guillotine Choke]] - Primary submission finish from this transition
 - [[Front Headlock]] - Required control position before attempting technique
@@ -361,7 +361,7 @@ The guillotine from turtle is a critical component of the complete front headloc
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The guillotine from turtle represents a fundamental principle of submission grappling: every defensive position creates offensive vulnerabilities. When an athlete turtles to protect their back, they necessarily expose their anterior neck structure to front headlock attacks. The mechanical efficiency of the guillotine from this position comes from the perpendicular relationship between your choking arm and their spine, creating optimal leverage for blood choke application. The critical technical element that separates effective guillotines from ineffective ones is grip depth—your wrist must reach the opposite side of their neck to create true choking pressure rather than mere discomfort. The decision tree between standing and guard pull finishes should be based on biomechanical advantage: if their base is broken and they cannot generate upward force, stand and use gravity as an ally. If they retain the ability to generate upward movement, pull guard and use your legs to negate their base entirely. This is not a technique of strength but of systematic position exploitation and leverage maximization.
 - **Gordon Ryan**: In competition, the guillotine from turtle is one of my highest-percentage submissions because most athletes instinctively turtle when they feel back exposure coming. I've finished multiple ADCC and No-Gi Worlds matches with this exact sequence. The key is not waiting for the perfect setup—I take the front headlock immediately when they turtle and let my grip pressure force their decision: defend the choke or try to escape. Most athletes make the mistake of being too patient here, giving the bottom guy time to improve position or stand. I attack the neck within 1-2 seconds of establishing front headlock. My preference is the standing finish with hip drive because it finishes faster and is harder to defend, but against guys like Garry Tonon who are comfortable inverting, I'll immediately pull guard and angle off. The reality is this: if you have a tight guillotine grip from turtle, the match is essentially over if you execute properly. Don't overthink it—secure the grip, break their base, finish the choke. I've built an entire front headlock system around this basic principle, and it works at the absolute highest levels of competition.
 - **Eddie Bravo**: The guillotine from turtle is old school jiu-jitsu that still works in modern competition, but most people don't understand the nuances that make it high-percentage. In 10th Planet, we emphasize the importance of creating the right angle before you even grip—you want your chest driving them flat while you circle slightly to the side, which makes your arm naturally slide deeper when you thread it. Traditional jiu-jitsu teaches a straight-on approach, but I've found that creating even a 15-20 degree angle before you grip increases finish rate dramatically. We also prefer the high-elbow variation from this position because it's harder to defend with the chin tuck, and it sets up beautiful transitions to the Peruvian necktie if they roll. Another thing nobody talks about: the guillotine from turtle is actually a great setup for the twister. If they defend the choke by turning into you hard, that same motion exposes their back for the truck entry. So in my mind, this isn't just a submission—it's a gateway into the entire truck and twister system. Keep your game flowing, don't force anything, and let their defense dictate your offense. That's 10th Planet philosophy applied to classical technique.

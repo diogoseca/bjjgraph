@@ -1044,7 +1044,7 @@ Master fundamental BJJ principles and concepts. Complete guide to leverage, posi
 - **Total Principles**: 122
 - **Items with complete content**: 122
 - **Items needing JSON updates**: 0
-- **Last Updated**: November 12, 2025
+- **Last Updated**: November 14, 2025
 
 ---
 

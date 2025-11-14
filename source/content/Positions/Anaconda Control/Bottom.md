@@ -8,7 +8,7 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 45% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent has secured gable grip or figure-four grip around your neck and near-side arm, with their forearm creating a constricting loop that threatens the anaconda choke while your head and shoulder are trapped together in the control
 - Top player's chest is driving downward pressure into your trapped shoulder with their body positioned perpendicular to yours, using their body weight to compress the choke and restrict your mobility while maintaining tight connection throughout
@@ -203,7 +201,7 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has established front headlock control from turtle, scramble, or failed takedown
 - Top player has successfully secured grip around neck and near-side arm
@@ -231,7 +229,7 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Hip Escape]] → [[Closed Guard]]
 
@@ -281,7 +279,7 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Anaconda Choke]]** → [[Lost by Submission]] (Opponent Success: 65%)
 - **[[Front Headlock to Darce]]** → [[D'arce Control]] (Opponent Success: 45%)
@@ -294,7 +292,7 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Grip Break]]** → [[Front Headlock]]
   - Opponent attempts to tighten grip before stepping over
@@ -340,7 +338,7 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

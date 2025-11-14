@@ -137,7 +137,7 @@ description: "Master defensive BJJ strategy with systematic prioritization frame
 
 
 
-> **Quick Answer**: Defensive Prioritization Framework is a intermediate difficulty Defense System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Defensive Prioritization Framework is a intermediate difficulty Defense System system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Defense System
@@ -156,7 +156,7 @@ The Defensive Prioritization Framework is a comprehensive defensive strategy tha
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Positional hierarchy determines defensive urgency - mount requires more immediate action than side control
 - Submission proximity overrides positional concerns - defending a locked choke takes absolute priority
 - Energy conservation through strategic acceptance - sometimes accepting side control to prevent mount is correct
@@ -170,7 +170,7 @@ The Defensive Prioritization Framework is a comprehensive defensive strategy tha
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Positional Threat Matrix** (Enables rapid threat assessment and appropriate response calibration)
 A hierarchical ranking system that categorizes all positions based on three critical factors: IBJJF point value, submission vulnerability, and escape difficulty. Mount and back control represent maximum threat requiring immediate explosive response. Side control and knee on belly represent medium threat allowing for more measured defensive action. Half guard and turtle represent lower threat positions where patience and systematic recovery are appropriate. This matrix provides the foundation for all defensive decision-making.
 
@@ -192,7 +192,7 @@ A decision framework that guides when to expend maximum effort versus when to co
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Threat Recognition and Assessment**: Develop the ability to instantly recognize current position within the threat matrix and identify the primary dangers. This begins with understanding positional point values and submission vulnerabilities from each position.
 Key points:
 - Practice position identification drills from various entry points
@@ -356,7 +356,7 @@ The framework is best developed through progressive resistance drilling that beg
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The defensive game in jiu-jitsu is fundamentally about creating hierarchies of decision-making under pressure. Most practitioners fail defensively not because they lack escape techniques, but because they lack a systematic method for determining which defensive action is appropriate for a given threat level. The Defensive Prioritization Framework solves this problem by establishing clear threat categories based on submission proximity, positional point value, and escape difficulty. Understanding that defending a locked rear naked choke requires fundamentally different urgency than defending side control allows the practitioner to calibrate their response appropriately. The framework also addresses the critical concept of defensive efficiency - the recognition that explosive escape attempts are a finite resource that must be deployed strategically rather than continuously. By teaching practitioners to maintain defensive structure through frames while waiting for high-percentage escape windows, we eliminate the exhaustion that plagues desperate defensive efforts. The most sophisticated defensive players understand that sometimes accepting an inferior position temporarily is the correct strategic choice if it prevents a more dangerous position or preserves energy for a better escape opportunity.
 - **Gordon Ryan**: In competition, your defensive game needs to be absolutely airtight because one defensive mistake can cost you the match. The way I approach defense is through brutal honesty about position hierarchy - mount is worse than side control, back mount is worse than regular mount, and any locked submission is worse than any position. This framework forces you to make smart decisions under pressure instead of just panicking and burning all your energy on the first escape you think of. The key insight that changed my defensive game was understanding that frames buy you time to think and assess, while premature explosion usually just makes your position worse. I've escaped from absolutely horrible positions against world-class opponents not because I'm stronger or more athletic, but because I stayed calm, maintained my frames, and waited for them to make a small adjustment that opened a legitimate escape window. The framework also teaches you to defend submissions while improving position, which is critical at high levels where guys are attacking constantly. You can't just defend the choke and ignore that you're still mounted - you need integrated defensive sequences that address both threats simultaneously.
 - **Eddie Bravo**: Traditional jiu-jitsu often teaches defense through a bunch of isolated techniques without giving you the big picture of how to think defensively under pressure. The Defensive Prioritization Framework is like having a GPS for bad positions - it tells you exactly how screwed you are and what your best route out is. One thing that makes this framework really powerful is that it accounts for energy management, which is huge in real fights and no-gi competition where things get crazy scrambled. Knowing when to explode versus when to be patient and technical is the difference between getting out and getting submitted. I also love how the framework emphasizes frame fighting as the foundation of everything defensive. In the rubber guard system, we use frames in our own way, but the principle is the same - you need structure to create space, and you need space to escape. The framework's approach to submission defense integrated with positional escape is exactly right too. You can't separate them in real rolling - guys are attacking your neck while smashing you, so you need defensive solutions that handle both problems at once. This systematic approach to defense gives you a mental framework that works even when you're exhausted and stressed.

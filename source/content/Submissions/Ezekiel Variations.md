@@ -8,7 +8,7 @@ description: "Master Ezekiel Choke variations in BJJ. Complete guide with safety
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Ezekiel Choke variations in BJJ. Complete guide with safety
 
 
 
-> **Quick Answer**: Ezekiel Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Ezekiel Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="safety-considerations" class="content-section">
 
-## Is Ezekiel Variations Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -213,7 +213,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Use your own gi sleeve as the primary choking mechanism - the fabric becomes an extension of your arm creating consistent pressure
 - Create bilateral compression by coordinating forearm pressure with the sleeve-wrapped hand to attack both sides of the neck simultaneously
 - Maintain heavy chest pressure to prevent opponent from creating space - weight distribution is critical for all variations
@@ -227,7 +227,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure a dominant position with strong base - mount, side control, or secured top position in closed guard
 - Establish heavy chest-to-chest pressure to limit opponent's breathing and movement options
 - Control opponent's head positioning using your own head pressure against their face or temple
@@ -241,7 +241,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish dominant position and control**: From mount, side control, or closed guard top, establish heavy chest pressure and control the opponent's head using your own head position. Your weight should make the opponent uncomfortable and focused on breathing rather than hand fighting. Ensure your base is solid - in mount, your knees should be tight to their sides; in side control, your hips should be low; in closed guard top, your posture should be controlled but not broken. (Timing: 2-3 seconds to settle weight) [Pressure: Firm]
 2. **Grip your own sleeve**: With your choking hand (typically the hand closer to the opponent's head), reach across and grip your opposite sleeve at the wrist or forearm. This grip should be deep - your thumb should be inside the sleeve creating a pocket for the opponent's neck. The fabric of your gi becomes the primary choking surface. This grip must be secure before proceeding as it's the foundation of the submission. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Thread the choking hand across the neck**: Slide your sleeve-gripped hand blade-side first across the opponent's neck, threading it deep until your thumb passes the centerline of their throat. The movement should be smooth and deliberate - imagine sliding your hand between their neck and the mat. Your knuckles should be against one side of their neck while the gi fabric wrapped around your palm contacts the other side. Maintain downward pressure with your chest throughout this movement to prevent them from creating space. (Timing: 2-3 seconds) [Pressure: Light]
@@ -254,7 +254,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Tucking chin to chest to prevent hand from threading across neck** (Effectiveness: High) - Your Adjustment: Use your head to apply pressure to their face, forcing their chin up. Alternatively, switch to attacking the exposed neck from a different angle or transition to a different submission like an armbar.
 - **Grabbing your choking arm wrist and pulling it away from the neck** (Effectiveness: Medium) - Your Adjustment: Increase chest pressure to make breathing difficult, forcing them to use their hands for framing instead of grip fighting. You can also switch your angle or use your free arm to strip their defensive grip.
 - **Bridging or shrimping to create space and escape the position** (Effectiveness: High) - Your Adjustment: Widen your base in mount or drop your hips lower in side control to absorb the bridge. If you've already established the choke setup, maintain your grips and follow their movement, finishing the choke as they expose their neck during the escape attempt.
@@ -264,25 +264,25 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Trying to finish with downward crushing pressure instead of bilateral compression [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Trying to finish with downward crushing pressure instead of bilateral compression [CRITICAL DANGER]
   - **Consequence**: This crushes the trachea causing pain but doesn't effectively compress the carotid arteries, resulting in a painful but ineffective choke that damages the throat
   - **Correction**: Focus on squeezing your elbows together horizontally rather than pushing down. The choke works through bilateral compression of the arteries on both sides of the neck, not through crushing the windpipe.
-- **Error**: Failing to thread the hand deep enough across the neck
+- **Mistake**: Failing to thread the hand deep enough across the neck
   - **Consequence**: The choke lacks depth and only creates superficial pressure that the opponent can defend by tucking their chin or turning their head
   - **Correction**: Ensure your thumb passes the centerline of the opponent's throat before applying pressure. Your hand should be deep enough that the opponent cannot create space by turning their head.
-- **Error**: Lifting your chest off the opponent while applying the choke
+- **Mistake**: Lifting your chest off the opponent while applying the choke
   - **Consequence**: The opponent gains space to turn, bridge, or escape the position entirely, nullifying the submission attempt
   - **Correction**: Keep your chest heavy on the opponent throughout the entire sequence. Your weight should remain constant even as your arms work to finish the choke.
-- **Error**: Telegraphing the choke by obviously reaching for your sleeve before establishing control
+- **Mistake**: Telegraphing the choke by obviously reaching for your sleeve before establishing control
   - **Consequence**: Opponent recognizes the threat early and defends their neck preemptively, tucking their chin and framing to prevent the setup
   - **Correction**: Establish dominant pressure first, then grip your sleeve in one smooth motion while maintaining chest pressure. Use feints or secondary threats to occupy the opponent's defensive attention.
-- **Error**: Keeping elbows flared away from your body during the finish [Medium DANGER]
+- **Mistake**: Keeping elbows flared away from your body during the finish [Medium DANGER]
   - **Consequence**: Loss of mechanical advantage and leverage, resulting in weak pressure that the opponent can endure or escape
   - **Correction**: Actively squeeze your elbows to your ribcage throughout the finish. Your arms should feel like they're hugging your own body while the opponent's neck is caught between your forearms.
-- **Error**: Continuing to apply pressure after partner taps or goes unconscious [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or goes unconscious [CRITICAL DANGER]
   - **Consequence**: Potential brain damage, trachea injury, or death if choke is held after unconsciousness
   - **Correction**: Release immediately upon tap. Watch for signs of unconsciousness (body going limp, unusual breathing sounds) and release instantly. Never hold blood chokes after tap under any circumstances.
 
@@ -291,7 +291,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Ezekiel from Mount**: The classic and highest percentage variation executed from full mount. Thread your hand across the neck while maintaining heavy chest-to-chest pressure. This variation allows maximum control and weight distribution, making it difficult for the opponent to escape while you establish the choke. (When to use: Use when in secure mount position and opponent is defending with arms crossed over chest or attempting to trap an arm for an escape. This is the primary variation taught to beginners.)
 
 **Ezekiel from Side Control**: Applied from side control by threading your bottom arm (the arm closer to the opponent's legs) across their neck while your top arm provides the compression. Your chest pressure becomes critical in this variation to prevent the opponent from turning away. The angle is slightly different, requiring you to position your hips lower and your head higher on their chest. (When to use: Effective when opponent is framing well against your chest in side control, preventing traditional north-south transitions. Also excellent when opponent is defending a kimura or americana, as their arms are occupied.)
@@ -338,7 +338,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (First 2 weeks of learning)
 - Focus: Learn the grip mechanics, hand threading, and arm positioning without applying any choking pressure. Practice the sleeve grip and understand the bilateral compression concept through demonstration and slow motion drilling.
 - Resistance: Zero resistance
@@ -375,7 +375,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Mount]]
 - [[High Mount]]
@@ -393,7 +393,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Ezekiel Choke]]
 - [[Ezekiel from Mount]]
@@ -436,7 +436,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Ezekiel Choke represents an elegant demonstration of how the gi becomes a weapon multiplier in Brazilian Jiu-Jitsu. What makes this submission particularly valuable from a systematic perspective is its applicability across multiple positions within the positional hierarchy. From a mechanical standpoint, the Ezekiel operates on the principle of bilateral compression - you are creating pressure on both carotid arteries simultaneously using your sleeve-wrapped hand on one side and your forearm on the other. The efficiency of the technique comes from the fact that you are using your own gi to extend the reach and surface area of your choking mechanism. When teaching this technique, I emphasize that the critical detail is not strength but rather depth of hand position and coordinated compression. Your hand must thread deep enough across the neck that your thumb passes the centerline - this is the non-negotiable geometric requirement. From there, the finish is purely mechanical: squeeze your elbows together while maintaining chest pressure. The beauty of having multiple variations from different positions is that it allows you to maintain submission threats throughout positional transitions, forcing your opponent to defend both position and submission simultaneously, which creates the decision-making paralysis that we seek to induce in our opponents. Safety-wise, students must understand the distinction between crushing the trachea and compressing the arteries - one is dangerous and ineffective, the other is safe and effective when applied correctly.
 - **Gordon Ryan**: The Ezekiel is one of those submissions that shows up way more in the gi game than people give it credit for, especially at the highest levels. What I love about having the Ezekiel in my arsenal is that it keeps opponents honest even in positions where they think they're safe. The mount variation is probably my highest percentage version because I can make people so uncomfortable with my pressure that they're not thinking about defending their neck - they're just trying to breathe. The key to finishing it in competition is not telegraphing your intentions. I'll work the position, threaten other submissions like americanas or armbars, and then when they're occupied defending those, I'll slide the Ezekiel in. The variation from inside closed guard is actually super effective against guys who play a very tight guard and won't let you stand up - I've caught multiple black belts with this because they simply don't expect it. In competition, timing is everything - you want to establish the choke when they're already exhausted from defending your position. I'll often spend two or three minutes just crushing from mount, making them carry my weight, and then when their defensive reactions slow down, that's when the Ezekiel becomes available. In training versus competition, there's a huge difference in application speed. In training, I'm applying this over 3-5 seconds minimum and releasing immediately when they tap. In competition, once I have the grip configuration set, I'm finishing in 1-2 seconds maximum because at that level, everyone knows the escape sequences and your window is very small. The detail that made my Ezekiel way more successful was keeping my elbows absolutely glued to my ribs during the finish - that's where the real power comes from, not from arm strength.
 - **Eddie Bravo**: Dude, the Ezekiel from inside someone's closed guard is straight up savage, and it's become one of the trademark moves in the 10th Planet system even though it's a gi technique. What we've done is take the fundamental mechanics of the Ezekiel and applied them in creative ways, including some no-gi adaptations using the forearm without the sleeve grip. The psychological warfare aspect of the Ezekiel is underrated - when you hit someone with an Ezekiel from inside their own guard, it messes with their head because they're supposed to be in control in that position. We drill variations where you're threatening the Ezekiel while simultaneously setting up other attacks, creating multi-layered offensive systems. One of my favorite setups is using the threat of the Ezekiel to get opponents to expose their arms for rubber guard entries or omoplata attacks. In the 10th Planet curriculum, we emphasize the importance of maintaining your safety culture even when you're working on aggressive submissions like this. The Ezekiel is one of those techniques where ego can get people hurt - both the person applying it and the person being choked. You've got to check your ego at the door and tap early in training. We teach students to apply the choke slowly in practice and to be extra cautious because this submission can come on fast once the mechanics are right. The innovation side of the Ezekiel is exploring different grip variations and body angles - we've developed versions that work with different collar grips and even some no-gi adaptations using the palm-to-palm or gable grip. The key innovation is understanding that the fundamental principle is bilateral compression, and once you understand that principle, you can create your own variations based on what's available in the position you're in.

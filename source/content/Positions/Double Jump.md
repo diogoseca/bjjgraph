@@ -13,10 +13,6 @@ description: "Master Double Jump position in BJJ. Dynamic half guard control tec
 
 
 
-> **Quick Overview**: Double Jump is an advanced positional concept in Brazilian Jiu-Jitsu that exists in two distinct tactical contexts: as a dynamic guard recovery entry from bottom and as a turtle attack control positio...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,31 +54,19 @@ Both perspectives share the common principle of using leg-based controls to crea
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium | Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Bilateral leg insertion for rapid position change
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Double Jump/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Double Jump/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Bilateral leg insertion for rapid position change
 
 
 
@@ -90,10 +74,13 @@ Both perspectives share the common principle of using leg-based controls to crea
 
 <section id="bottom-summary" class="content-section">
 
-## Double Jump Bottom Perspective
+
+## Playing as Bottom
+
+[[Double Jump/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in double jump balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -142,7 +129,7 @@ The bottom player in double jump balances defensive frames with offensive opport
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Jumping with legs at different timing or angles**
@@ -174,16 +161,17 @@ The bottom player in double jump balances defensive frames with offensive opport
   - ✅ Correction: Always establish side position first with body perpendicular to opponent before initiating the double jump sequence
 
 
-👉 **[[Double Jump/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Double Jump Top Perspective
+
+## Playing as Top
+
+[[Double Jump/Top|→ Full Top Guide]]
 
 
-The top player in double jump balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -226,7 +214,7 @@ The top player in double jump balances control maintenance with submission attac
   - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Establishing leg hooks without securing upper body control first**
@@ -253,8 +241,6 @@ The top player in double jump balances control maintenance with submission attac
   - Consequence: Opponent recovers defensive composure, extracts hooks, or referee stands up position for stalling
   - ✅ Correction: Use Double Jump as transitional attacking position; commit to back-take, truck entry, or submission within 5-10 seconds of establishing hooks
 
-
-👉 **[[Double Jump/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

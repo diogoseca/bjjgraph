@@ -8,7 +8,7 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
 
 
 
-> **Quick Answer**: Armbar from Mount is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension - apply slowly over 3-5 seconds and release immediately upon tap.
+> Armbar from Mount is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="safety-considerations" class="content-section">
 
-## Is Armbar from Mount Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -210,7 +210,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Maintain mount control throughout the transition to prevent escape during arm isolation
 - Control the wrist before committing to the leg swing to ensure arm security
 - Keep opponent's thumb pointing up (supinated) to maximize elbow vulnerability
@@ -224,7 +224,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish stable mount position with weight distributed forward over opponent's chest
 - Control opponent's defensive frames or pushing arms
 - Break opponent's elbow connection to their body
@@ -237,7 +237,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish mount control and pressure**: From mount, distribute your weight forward onto opponent's chest while keeping your base wide. Pin their shoulders to the mat and prevent bridging by keeping your hips low and chest heavy. This foundational control is critical before attempting any submission. (Timing: Establish solid control for 2-3 seconds before proceeding) [Pressure: Firm]
 2. **Isolate the target arm**: Identify which arm to attack - typically the arm opponent uses to frame against your chest. Use one hand to trap their wrist and your other hand to post on the mat near their head. If opponent has both arms tucked, use collar grips or head control to bait them into creating a frame, then immediately capture the extended arm. (Timing: 1-2 seconds to identify and capture target arm) [Pressure: Moderate]
 3. **Secure two-on-one wrist control**: Transition to gripping the captured wrist with both of your hands, ensuring the opponent's thumb is pointing upward (supinated position). Pull the wrist slightly toward you while keeping their elbow tight to your chest. This two-on-one control prevents the opponent from pulling their arm free during the transition. (Timing: 1 second to establish double grip) [Pressure: Firm]
@@ -250,7 +250,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Pulling arm free before leg swing** (Effectiveness: High) - Your Adjustment: Maintain two-on-one wrist control with maximum grip strength. Keep their elbow pinched to your chest and shift your weight onto the trapped arm. If they begin to escape, abandon the armbar and return to mount rather than losing position completely. Alternatively, chain to triangle or Americana attacks.
 - **Stacking and driving forward during transition** (Effectiveness: High) - Your Adjustment: As opponent stacks, maintain wrist control and use their forward momentum to pivot underneath them, often resulting in a sweep to mounted armbar position. Alternatively, release one leg and use the underhook to take the back as they drive forward. Never try to force the armbar against a successful stack.
 - **Tucking elbow and making fist to prevent extension** (Effectiveness: Medium) - Your Adjustment: First ensure knees are squeezed tightly together to control their head. Then use both hands to peel their grip open - one hand controlling the wrist, the other hand prying fingers away from the palm. Alternatively, adjust angle by walking your shoulders toward their head to change the leverage point and break the grip. If defense persists, transition to omoplata or triangle.
@@ -260,28 +260,28 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Releasing mount too early in the transition [Low DANGER]
+## Common Mistakes
+- **Mistake**: Releasing mount too early in the transition [Low DANGER]
   - **Consequence**: Opponent escapes mount and may reverse position entirely, losing all positional advantage
   - **Correction**: Maintain heavy chest pressure and hip control throughout the initial transition. Only commit fully to the armbar once wrist control is completely secure. Keep one leg posted for base until the last moment of the leg swing.
-- **Error**: Failing to control the wrist with both hands before leg swing [Medium DANGER]
+- **Mistake**: Failing to control the wrist with both hands before leg swing [Medium DANGER]
   - **Consequence**: Opponent pulls arm free during transition, causing you to fall to your back in poor position
   - **Correction**: Always establish firm two-on-one wrist control before beginning the leg swing. Both hands should grip the wrist securely, with opponent's thumb pointing upward. Test the grip by attempting a small pull before committing to the transition.
-- **Error**: Laying flat on back instead of keeping hips elevated [Low DANGER]
+- **Mistake**: Laying flat on back instead of keeping hips elevated [Low DANGER]
   - **Consequence**: Reduces pressure on elbow joint and allows opponent to stack or escape more easily
   - **Correction**: Keep your hips elevated off the mat throughout the finish. Your shoulder blades should touch the mat but your lower back should be arched. This creates maximum extension force through the hip thrust.
-- **Error**: Allowing space between opponent's arm and your chest [Medium DANGER]
+- **Mistake**: Allowing space between opponent's arm and your chest [Medium DANGER]
   - **Consequence**: Opponent can hitchhiker escape by pulling elbow across your body
   - **Correction**: Squeeze opponent's wrist tight to your chest throughout the entire technique. Their tricep should be pressed against your chest/sternum with no gap. Think of hugging their arm as if it were precious.
-- **Error**: Jerking or spiking the armbar suddenly [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the armbar suddenly [CRITICAL DANGER]
   - **Consequence**: CRITICAL INJURY RISK - Can cause immediate elbow dislocation or ligament rupture requiring surgery
   - **Correction**: ALWAYS apply progressive pressure over 3-5 seconds minimum in training. Extend hips smoothly and steadily. In competition, faster application is acceptable, but in training this is the most common cause of serious elbow injuries. Respect your training partners' safety.
-- **Error**: Failing to control opponent's head with knees [Medium DANGER]
+- **Mistake**: Failing to control opponent's head with knees [Medium DANGER]
   - **Consequence**: Opponent turns into you and escapes the submission easily
   - **Correction**: Actively squeeze your knees together throughout the finish, clamping opponent's head. This prevents rotation and maintains optimal arm angle. Your knees should be touching or very close to touching.
-- **Error**: Crossing feet during the finish [Low DANGER]
+- **Mistake**: Crossing feet during the finish [Low DANGER]
   - **Consequence**: Weakens leg control and creates gap for opponent to escape
   - **Correction**: Never cross your feet behind opponent's back. Instead, point your toes and squeeze your heels together. This creates stronger clamping pressure and maintains tighter control. Your legs should form a triangle shape, not crossed ankles.
 
@@ -290,7 +290,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Gift wrap armbar setup**: Control opponent's arm across their own body in a gift wrap configuration from mount. Step over their head with the near leg while maintaining the wrapped arm control, then swing the far leg over to secure the armbar. This variation is excellent against defensive opponents who keep arms tight to body. (When to use: When opponent maintains very tight defensive posture with arms close to body, making standard arm isolation difficult)
 
 **S-mount pressure armbar**: From mount, post one foot on the mat near opponent's head while keeping other knee on their chest (S-mount position). Use this elevated position to create immense pressure while isolating the arm. The S-mount configuration makes it nearly impossible for opponent to bridge while you set up the armbar. (When to use: Against larger or stronger opponents who rely on bridge and roll escapes, or when you need additional control before attempting the submission)
@@ -330,7 +330,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (First 2 weeks of learning)
 - Focus: Learn proper body positioning, grip placement, and transition mechanics without resistance. Partner remains completely passive. Focus on smooth transitions from mount to armbar position. Emphasis on controlling wrist before leg swing.
 - Resistance: Zero resistance
@@ -367,7 +367,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Mount]]
 - [[High Mount]]
@@ -383,7 +383,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle from Mount]]
 - [[Americana from Mount]]
@@ -426,7 +426,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The armbar from mount represents the quintessential application of positional hierarchy in Brazilian Jiu-Jitsu - you begin from the sport's most dominant position and transition to a mechanically superior finishing position. The key to systematic armbar execution lies in understanding that this is fundamentally a control problem, not a submission problem. Most practitioners fail because they abandon mount control prematurely in their eagerness to finish. The proper sequence requires establishing complete wrist dominance with a two-on-one grip before any commitment to the leg swing. The biomechanics of the finish are simple but precise: the elbow joint must be positioned directly over your hip crease, the thumb must point upward to prevent forearm rotation, and extension force must come from hip drive rather than arm pulling. In training, apply the submission with glacial slowness over 5-7 seconds minimum - this is not merely about safety, though that is paramount, but about developing the sensitivity to feel exactly when your partner reaches structural failure. That kinesthetic awareness will make you far more dangerous in competition than any amount of explosive cranking.
 - **Gordon Ryan**: In competition, the armbar from mount is my highest percentage finish because it directly exploits the fundamental defensive error most people make under pressure - they push against your chest to create space. That pushing frame is exactly the gift I need to capture and extend their arm. The difference between training and competition application is timing and commitment. In training, I give my partner 3-5 seconds to recognize the danger and tap safely. In competition, once I've secured proper position with wrist control and leg placement, I'm finishing in under 2 seconds because hesitation creates escape opportunities. That said, even in competition I never jerk or spike the submission - fast doesn't mean reckless. The technical details that matter most at the elite level: keep your hips as close as possible to their shoulder to eliminate the hitchhiker escape angle, squeeze your knees violently together to prevent any head movement, and extend through your hips while simultaneously pulling their wrist to your sternum. Against high-level opponents, you often only get one clean attempt before they become hyper-aware of the threat, so your first attack must be technically perfect. I chain the armbar with mounted triangles constantly - if they defend one, they expose the other.
 - **Eddie Bravo**: The mounted armbar is fundamental, but at 10th Planet we look for ways to make it tighter and more unexpected. One of my favorite setups is from the gift wrap control we use extensively in our system - when you've got their arm trapped across their own neck from mount, they're already in a compromised structure, and stepping over into the armbar becomes almost unstoppable because they can't defend with their wrapped arm. Another concept we emphasize is the 'dead orchard' principle - creating situations where every defensive option leads to a different submission. From mount, if I attack the armbar and they pull their arm out, I'm immediately switching to a triangle or taking the back. If they stack me during the armbar transition, I'm using that forward momentum to sweep them and finish from the bottom or transition to an omoplata. The key is never being married to one submission - the armbar is just one piece of a larger attacking system from mount. For the actual finish, most people don't elevate their hips enough. Your ass should be way off the ground, almost like you're doing a hip thrust at the gym. That elevation combined with squeezing your heels together creates absolutely absurd amounts of pressure. And in training, for the love of god, go slow. I've seen too many people blow out their training partners' elbows by being overly aggressive with armbars. Save that intensity for competition where both people signed up for it.

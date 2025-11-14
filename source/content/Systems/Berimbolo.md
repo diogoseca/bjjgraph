@@ -129,7 +129,7 @@ description: "Master the Berimbolo system in BJJ. Revolutionary guard retention 
 
 
 
-> **Quick Answer**: Berimbolo is a advanced difficulty Attack System system. This systematic approach integrates 4 key components into a cohesive fighting framework.
+> Berimbolo is a advanced difficulty Attack System system. Integrates 4 components.
 
 **System ID**: 
 **System Type**: Attack System
@@ -148,7 +148,7 @@ The Berimbolo is a revolutionary guard retention and back-taking system that fun
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Dynamic inversion - use rotation and hip movement to create angles and attack the back
 - Grip dependency - collar and pant grips control opponent posture and enable rotational entries
 - Base disruption - off-balance opponent while inverted to prevent counter-pressure
@@ -162,7 +162,7 @@ The Berimbolo is a revolutionary guard retention and back-taking system that fun
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **De La Riva Hook Control** (Establish foundational control and create the mechanical leverage needed for inversion)
 The De La Riva hook serves as the primary control and launching point for Berimbolo entries. By threading the inside leg behind the opponent's near leg and controlling the far ankle with the other foot, you create a leverage system that prevents the opponent from passing while setting up inversion angles. The hook maintains distance while the collar and pant grips control posture, creating the essential tension needed for rotational entries.
 
@@ -181,7 +181,7 @@ The final phase involves inserting hooks and establishing seat belt or harness c
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Entry and Grip Establishment**: Begin from De La Riva guard position with inside leg hooked behind opponent's near leg and outside foot controlling their far ankle. Establish collar grip with same-side hand and pant grip on near leg with opposite hand. Create tension by extending legs to break opponent's posture forward while maintaining distance control.
 Key points:
 - Deep collar grip with thumb inside for maximum control
@@ -347,7 +347,7 @@ Berimbolo development requires progressive drilling starting with solo movement 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The Berimbolo represents a paradigm shift in our understanding of guard retention and offensive guard work. Traditionally, guard players focused on static control and waited for passing attempts to initiate sweeps or submissions. The Berimbolo inverts this logic - it transforms the opponent's passing pressure into the very fuel for offensive back-taking sequences. The mechanical efficiency is remarkable: you're using rotational movement, which requires relatively little muscular strength, to overcome the opponent's forward pressure and linear base. The key technical elements are grip dependency and timing precision. Without proper collar and pant control, the rotation becomes unstable and easily countered. The collar grip prevents the opponent from pulling away during inversion, while the pant grip on the near leg creates the leverage point for off-balancing. Timing must be exact - you must invert precisely when the opponent's weight is committed forward and their hands are posted, leaving their back temporarily exposed. The system's true sophistication lies in how it creates positional dilemmas: if the opponent maintains forward pressure to pass, they're vulnerable to Berimbolo; if they sit back to defend it, they're vulnerable to X-Guard and De La Riva sweeps. This forces them into making defensive decisions, each of which opens different offensive pathways for the guard player.
 - **Gordon Ryan**: In competition, the Berimbolo is a game-changer because it turns bottom position into an attacking position where you're hunting for the back, which is four points plus submission opportunities. Most guard passers are trained to pressure forward and smash through the legs, which is exactly what sets up the Berimbolo perfectly. I've scored countless competition wins by threatening Berimbolo to force opponents to sit back, then sweeping them with X-Guard or Single Leg X. The key to making it work at the highest levels is commitment and confidence - you have to invert explosively without hesitation because any delay gives the opponent time to adjust their base or release your grips. The competition application requires developing chains: Berimbolo to kiss of the dragon, Berimbolo to X-Guard sweep, Berimbolo to deep half. You're creating scenarios where every defensive option they choose gives you a different attacking opportunity. One thing people underestimate is the conditioning requirement - you need serious core strength and hip flexibility to hit multiple Berimbolos in a single match without getting exhausted. I typically limit my Berimbolo attempts to high-percentage moments when I have strong collar control and the opponent is heavily committed forward. Against skilled opponents who defend it well, I use Berimbolo threats to manipulate their base and create sweep opportunities rather than forcing completion every time. That strategic flexibility is what separates competition-effective Berimbolo from just drilling the technique.
 - **Eddie Bravo**: The Berimbolo is one of those techniques that completely changed what's possible from bottom position, and it shows how innovation can revolutionize the game. What I love about it is the creativity - someone looked at the guard and said, 'What if instead of trying to sweep them forward or to the side, I just rotate underneath them and take their back?' That kind of thinking is what progresses the art. From a 10th Planet perspective, we've integrated Berimbolo concepts with our system by connecting it to the truck position and twister attacks. If you're inverting for Berimbolo and the opponent defends by sprawling or turning, you can catch the lockdown and transition to truck or calf slicer setups. It's about seeing the connections between systems. The other thing that's crucial is developing the flexibility and movement patterns through consistent drilling - you can't just watch YouTube videos and expect to hit Berimbolos in competition. You need to build the muscle memory and body awareness through hundreds of reps, starting slow and controlled, then gradually adding speed and resistance. I also think Berimbolo works incredibly well in no-gi because the grips translate to collar ties and overhooks, and the rotational mechanics are actually smoother without gi friction. For practitioners developing their game, I'd say embrace the Berimbolo as part of a complete guard system, not as an isolated move. Use it with your other guard attacks to create unpredictability and keep opponents guessing about what's coming next.

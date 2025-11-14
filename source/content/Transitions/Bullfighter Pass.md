@@ -8,7 +8,7 @@ description: "Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standi
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standi
 
 
 
-> **Quick Answer**: Bullfighter Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Bullfighter Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing gua
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control opponent's legs with strong grips before initiating movement
 - Use explosive lateral movement to create angles
 - Maintain forward pressure throughout the pass
@@ -180,7 +180,7 @@ The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing gua
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in open guard configuration (seated or supine)
 - Strong grips on opponent's pants at the knees or ankles
 - Standing posture with good base and balance
@@ -193,7 +193,7 @@ The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing gua
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grip control**: Stand up in opponent's open guard and secure bilateral grips on their pants at the knees or shins. In gi, grip the fabric firmly with thumbs inside. In no-gi, cup behind the knees or control the ankles. Keep your posture upright with hips back to prevent being pulled forward. (Timing: Initial setup phase)
 2. **Create separation**: Push the opponent's knees together and toward their chest while stepping back slightly. This compresses their guard and limits their hip mobility. Maintain constant pressure on the legs to prevent them from re-establishing guard or creating angles for sweeps. (Timing: 1-2 seconds after establishing grips)
 3. **Initiate lateral movement**: Explosively step to one side (usually your stronger side) while simultaneously pushing the opponent's legs in the opposite direction. Your movement should be quick and low to the ground, like a matador stepping aside from a bull. Keep your hips facing the opponent throughout the movement. (Timing: Explosive burst, 0.5 seconds)
@@ -206,7 +206,7 @@ The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing gua
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent retains guard by following your movement with their hips** (Effectiveness: High) - Your Response: Chain multiple directional changes. As they follow your first movement, immediately reverse direction and pass to the opposite side. This overwhelms their ability to track and recover.
 - **Opponent grabs your gi or arms to prevent separation** (Effectiveness: Medium) - Your Response: Break grips aggressively by circling your arms or using sharp postural changes. Alternatively, use their grips against them by moving in the direction they're pulling, then quickly reversing.
 - **Opponent sits up and attempts to re-guard or stand** (Effectiveness: Medium) - Your Response: Time your pass for when they're extending their legs. If they sit up early, switch to a front headlock position or snap them back down before re-attempting the pass.
@@ -216,25 +216,25 @@ The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing gua
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Standing too upright during the pass
+## Common Mistakes
+- **Mistake**: Standing too upright during the pass
   - **Consequence**: Creates space for opponent to insert frames or recover guard
   - **Correction**: Keep your hips low and chest driving forward throughout the entire movement. Think of moving like a sprinter, not standing tall.
-- **Error**: Releasing grips too early before clearing the legs
+- **Mistake**: Releasing grips too early before clearing the legs
   - **Consequence**: Opponent recovers guard by bringing their knees back to their chest
   - **Correction**: Maintain at least one grip until your chest makes contact with their torso. Only fully release when your weight is already controlling them.
-- **Error**: Moving laterally without pushing the legs first
+- **Mistake**: Moving laterally without pushing the legs first
   - **Consequence**: Legs follow your movement and re-establish guard
   - **Correction**: Always push the legs in the opposite direction of your movement simultaneously. The motion should be coordinated like a steering wheel.
-- **Error**: Hesitating between clearing legs and dropping weight
+- **Mistake**: Hesitating between clearing legs and dropping weight
   - **Consequence**: Opponent has time to turn into you or create defensive frames
   - **Correction**: Make the transition explosive and seamless. Practice the rhythm: grip, step, throw, drop as one continuous motion.
-- **Error**: Passing too wide and losing connection to opponent
+- **Mistake**: Passing too wide and losing connection to opponent
   - **Consequence**: Creates scramble situation instead of secured pass
   - **Correction**: Your lateral movement should be just wide enough to clear the legs. Immediately return your hips toward the opponent as you drop your weight.
-- **Error**: Failing to control the hips after passing
+- **Mistake**: Failing to control the hips after passing
   - **Consequence**: Opponent bridges or shrimps to recover guard
   - **Correction**: Your far hand must control the far hip immediately upon passing. This prevents hip escape and locks them in place.
 
@@ -243,7 +243,7 @@ The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing gua
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip control and lateral movement
 Practice standing in guard and establishing proper grips. Drill the lateral stepping motion without a partner, focusing on staying low and explosive. With a partner, practice pushing legs to the side while they remain passive. Emphasis on coordinating grip control with footwork.
 (Resistance: None)
@@ -274,7 +274,7 @@ For gi: Master using the lapel and sleeve grips to control legs. For no-gi: Deve
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double Grip Toreando**: Control both legs at the knees and pass by throwing both legs to one side together. More explosive but requires excellent timing and strength. (When to use: Against opponents who are very mobile with their legs. The simultaneous leg control limits their ability to follow your movement.)
 
 **Single Leg Toreando**: Control one leg at the knee and use it to steer the opponent's entire lower body to the side. The free hand frames on their hip or shoulder. (When to use: When opponent has one leg committed to a De La Riva hook or similar position. Control the free leg and use it to manipulate their entire guard.)
@@ -319,7 +319,7 @@ For gi: Master using the lapel and sleeve grips to control legs. For no-gi: Deve
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Bullfighter Pass is generally a safe technique when practiced properly, but practitioners should be aware of several considerations. When throwing the legs to the side, avoid being overly aggressive with smaller or less experienced partners, as this can cause them to twist awkwardly and potentially strain their lower back or hips. Ensure your partner knows to post their hands when you drop your weight to avoid face-planting into the mat. In no-gi, be cautious with ankle grips as they can slip unexpectedly and cause you to lose balance. When drilling at speed, both partners should communicate clearly about resistance levels to prevent accidental knee injuries from sudden directional changes. If you feel your knee twisting during the lateral movement, immediately stop and reset position.
 
@@ -327,7 +327,7 @@ The Bullfighter Pass is generally a safe technique when practiced properly, but 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Bullfighter Pass is a cornerstone technique in modern standing guard passing systems. It serves as an excellent entry point for beginners learning to pass open guard while remaining highly effective at advanced levels. The pass integrates seamlessly with other standing passes, particularly the Long Step Pass and Knee Cut Pass, creating a comprehensive passing system. It's especially valuable in no-gi grappling where leg grips are harder to maintain, making standing passes more dominant than kneeling passes. The Bullfighter Pass also serves as a bridge to leg attack systems—when the pass is defended, the backstep variation provides direct access to inside position leg entanglements. In competition, this pass is frequently seen in the transition from standing to ground grappling, often used immediately after breaking down an opponent's seated or supine guard. Understanding this pass is essential for developing a complete guard passing game.
 
@@ -335,7 +335,7 @@ The Bullfighter Pass is a cornerstone technique in modern standing guard passing
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Toreando Pass]] - Alternative name for the same technique
 - [[Long Step Pass]] - Complementary standing pass, often chained together
@@ -358,7 +358,7 @@ The Bullfighter Pass is a cornerstone technique in modern standing guard passing
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Bullfighter Pass represents a perfect example of using opposing forces to create passing opportunities. When you analyze the mechanics, you're creating a situation where the opponent must choose between controlling their legs or controlling your upper body—they cannot effectively do both simultaneously. The key to understanding this pass at a deep level is recognizing that it's not about speed alone, but about the precision of your grip control and the timing of your weight transfer. Many students make the error of thinking this is purely an athletic, explosive movement. While explosiveness helps, the pass works because of the mechanical principle of controlling the opponent's legs while moving your center of gravity in the opposite direction. The opponent's legs become a lever that you use to manipulate their entire lower body. When executed with proper understanding, this pass should work regardless of your athletic ability. Focus on the sequential nature of the movements: establish control, create separation, move laterally while redirecting the legs, and immediately consolidate the position. Each step depends on the previous one being executed correctly. This is not a technique you can shortcut or rush through the learning process.
 - **Gordon Ryan**: The Bullfighter Pass is one of my highest percentage passes in both gi and no-gi competition. What makes it so effective at the highest levels is that it's extremely difficult to defend once you commit to the movement. I use this pass constantly because it creates immediate pressure and doesn't give my opponent time to think or set up their defensive sequences. The key to making it work in competition is aggression and commitment—you can't hesitate or do it half-speed. When I hit this pass, I'm trying to go from standing to side control in under two seconds. That speed doesn't give elite guard players time to adjust their hips or create frames. One thing I emphasize that many people miss is the importance of throwing the legs with authority. You're not gently moving them aside—you're forcefully clearing them out of your path. The other critical element is your hip positioning when you drop your weight. Your hips need to drive forward toward the opponent, not just drop straight down. That forward pressure is what prevents them from turning into you or creating space. I also chain this pass with the Long Step constantly. If they defend the Bullfighter by following my movement, I immediately switch to a Long Step in the same direction. These two passes work together perfectly and create a passing system that's very difficult to defend against even for the best guard players in the world.
 - **Eddie Bravo**: What I love about the Bullfighter Pass is how it can be modified and adapted to create unconventional attacking sequences. In the 10th Planet system, we use this pass as an entry point for leg attacks all the time, especially in no-gi where the legs are harder to control. When someone's good at defending the pass by following your movement, that's when you hit them with the backstep variation and go straight into leg locks. They're expecting you to try to pass to side control, so when you suddenly change your objective to their legs, it catches them completely off guard. I also teach students to use this pass to create scrambles intentionally. Sometimes the best way to pass someone's guard is to create chaos and use your scrambling ability. The Bullfighter Pass naturally creates movement and dynamic situations, which favors the person who's more comfortable with chaotic grappling. Another thing we do in our system is use the initial leg control from the Bullfighter setup to enter into the Truck position. If they're really fighting to keep their guard, instead of trying to force the pass, we'll use that same grip control to roll them into the Truck. The key is being creative and not getting locked into the idea that every technique has only one ending position. The Bullfighter Pass is a starting point for multiple attacking sequences, not just a simple pass to side control.

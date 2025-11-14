@@ -8,7 +8,7 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player maintains underhook on the same side as their trapped leg, with elbow tight to their own hip creating a structural frame that prevents top player from driving flattening pressure through the connection
 - Bottom player's hips are turned toward their trapped leg side with shoulders beginning to invert toward the mat, creating the angular momentum necessary for the explosive rolling motion to generate separation
@@ -204,7 +202,7 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player is in bottom half guard with top player establishing dominant forward pressure
 - Bottom player has secured underhook on the same side as trapped leg with elbow connection to hip
@@ -232,7 +230,7 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Jailbreak to Turtle]] → [[Turtle]]
 
@@ -282,7 +280,7 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Crossface and Flatten]]** → [[Flattened Half Guard]] (Opponent Success: 60%)
 - **[[Underhook Strip and Pass]]** → [[Side Control]] (Opponent Success: 55%)
@@ -294,7 +292,7 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Re-Jailbreak from Flatten Attempt]]** → [[Turtle]]
   - When top player drives chest forward to flatten, use their forward momentum to accelerate the roll
@@ -334,7 +332,7 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

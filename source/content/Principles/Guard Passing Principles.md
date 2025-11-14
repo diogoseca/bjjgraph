@@ -8,7 +8,7 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 
 
 
-> **Quick Answer**: Guard Passing Principles is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Guard Passing Principles is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Guard Passing Principles represent the fundamental strategic and biomechanical c
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Maintain strong posture preventing opponent from breaking your structure and establishing offensive control
 - Establish grip dominance preventing opponent from using grips for retention and attacks
 - Control opponent's hip movement as this is primary mechanism for guard retention
@@ -181,7 +181,7 @@ Guard Passing Principles represent the fundamental strategic and biomechanical c
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Posture Management**: Ability to maintain upright spine alignment and structural integrity while in opponent's guard, preventing forward collapse that enables guard attacks. Requires constant tension adjustment and base positioning to resist breaking attempts while maintaining passing mobility.
 
 **Grip Fighting Dominance**: Systematic approach to establishing superior grip configurations while denying opponent's preferred grips, understanding that grip battles typically predict passing success or failure before movement begins.
@@ -204,7 +204,7 @@ Guard Passing Principles represent the fundamental strategic and biomechanical c
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Guard Retention Concepts]]** (Complementary): Understanding guard retention mechanics from defensive perspective provides essential knowledge for developing effective passing strategies, as successful passing requires systematic neutralization of retention mechanisms
 - **[[Pressure Passing Framework]]** (Extension): Represents specific application of guard passing principles emphasizing heavy pressure and pinning control, demonstrating how core passing principles manifest in particular strategic approach
 - **[[Base Maintenance]]** (Prerequisite): Foundational skill required for all guard passing, as inability to maintain stable base during passing attempts results in sweeps regardless of technical passing knowledge
@@ -222,7 +222,7 @@ Guard Passing Principles represent the fundamental strategic and biomechanical c
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Principles manifest through posture maintenance to prevent forward collapse, systematic grip breaking to neutralize offensive control, and strategic opening approaches progressing from closed to open guard phases
 
 **Open Guard**: Requires guard type recognition to select appropriate passing approach, leg management to clear frames and hooks, and distance control to prevent guard re-establishment during passing transitions
@@ -259,7 +259,7 @@ Guard Passing Principles represent the fundamental strategic and biomechanical c
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Initial guard engagement - assess guard type and opponent's primary retention mechanics**: Establish appropriate distance and grip configuration for identified guard variation while maintaining defensive posture preventing immediate attacks
 2. **Grip fighting phase - determine if current grip configuration favors passing or retention**: If grips favor opponent, systematically break their grips and establish superior configuration before attempting passing movements; if grips favorable, proceed to next stage
 3. **Posture and base assessment - evaluate if current structure is stable for passing pressure**: Ensure upright posture and wide base preventing sweeps before applying forward pressure; adjust stance width and weight distribution as needed for guard type
@@ -272,28 +272,28 @@ Guard Passing Principles represent the fundamental strategic and biomechanical c
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting to pass without establishing grip dominance first
+## Common Mistakes
+- **Mistake**: Attempting to pass without establishing grip dominance first
   - **Consequence**: Opponent uses superior grips to break posture, establish offensive controls, and neutralize passing attempts before they begin, resulting in failed passes or submissions
   - **Correction**: Always win grip fighting battle before initiating passing movements, understanding that grip dominance typically predicts passing success regardless of subsequent technique selection
-- **Error**: Rushing through passing stages without consolidating each phase
+- **Mistake**: Rushing through passing stages without consolidating each phase
   - **Consequence**: Opponent exploits gaps in control to recover guard position, resulting in wasted energy and repeated guard recovery cycles that favor defensive player
   - **Correction**: Progress methodically through each passing stage, ensuring control requirements are met before advancing—patience in consolidation ultimately accelerates overall passing success
-- **Error**: Using same passing approach against all guard types
+- **Mistake**: Using same passing approach against all guard types
   - **Consequence**: Passing effectiveness varies dramatically based on guard variation, with approaches that succeed against one guard failing entirely against others, limiting overall passing ability
   - **Correction**: Develop multiple passing systems and learn to recognize which approaches suit specific guard types, understanding that elite passers possess varied passing arsenal
-- **Error**: Neglecting base maintenance during passing attempts
+- **Mistake**: Neglecting base maintenance during passing attempts
   - **Consequence**: Opponent sweeps passer during passing sequences, reversing position and negating passing progress, particularly when passer becomes too focused on advancement and neglects stability
   - **Correction**: Maintain constant awareness of base positioning throughout passing sequences, adjusting stance and weight distribution to prevent sweeps while applying forward pressure
-- **Error**: Applying inappropriate pressure type for guard variation
+- **Mistake**: Applying inappropriate pressure type for guard variation
   - **Consequence**: Heavy pressure against guards requiring floating passes (DLR, spider) or light pressure against guards requiring smashing (closed, half) results in ineffective passing and wasted energy
   - **Correction**: Learn to recognize which guards require heavy pinning pressure versus floating mobility-based passing, adjusting pressure type to match guard-specific retention mechanics
-- **Error**: Failing to control opponent's hips before attempting to pass legs
+- **Mistake**: Failing to control opponent's hips before attempting to pass legs
   - **Consequence**: Opponent uses hip mobility to continuously recover guard position despite successful leg clearing, creating endless passing cycles without consolidation
   - **Correction**: Prioritize hip control establishment before focusing on leg clearing, understanding that controlling hips typically prevents guard recovery more effectively than managing legs alone
-- **Error**: Abandoning pass too quickly when meeting initial resistance
+- **Mistake**: Abandoning pass too quickly when meeting initial resistance
   - **Consequence**: Constantly switching between incomplete passing attempts without developing any approach, preventing development of passing persistence and timing understanding
   - **Correction**: Commit to passing approaches long enough to understand their mechanics and opponent's defenses, developing persistence while also recognizing when genuine strategic change is needed
 
@@ -302,7 +302,7 @@ Guard Passing Principles represent the fundamental strategic and biomechanical c
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Passing Sparring** (Focus: Building passing endurance, learning to maintain pressure through defensive resistance, and developing strategic patience required for successful passing)
 Isolated passing rounds starting from specific guard types with restart after successful pass or guard retention, developing passing persistence and stage progression understanding
 
@@ -327,7 +327,7 @@ Video review or mental replay of unsuccessful passing attempts to identify speci
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Attempts single-movement passes without establishing grip control or progressing through stages
 - Loses base stability during passing attempts resulting in frequent sweeps
@@ -371,7 +371,7 @@ Video review or mental replay of unsuccessful passing attempts to identify speci
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Pressure Passing Framework]] (Principle) - Specific strategic application of guard passing principles emphasizing heavy pressure and smashing control
 - [[Guard Retention Concepts]] (Principle) - Complementary defensive framework providing essential understanding of retention mechanics that passing must neutralize
@@ -391,7 +391,7 @@ Video review or mental replay of unsuccessful passing attempts to identify speci
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Guard passing represents one of jiu-jitsu's most complex problem-solving domains, requiring systematic understanding that each guard type presents specific retention mechanisms demanding specific counters. The concept of passing stages is absolutely critical—practitioners must understand they cannot skip from initial engagement directly to consolidated side control; they must progress through sequential phases where each stage has specific control requirements. I emphasize hierarchical passing priorities: first maintain defensive posture preventing attacks, then establish grip dominance, then control hips, then manage legs, finally consolidate position. Most passing failures occur because practitioners attempt inappropriate actions for their current stage. Additionally, understanding pressure type variation is essential—some guards collapse under heavy pinning pressure while others require floating, mobility-based approaches. Developing this strategic intelligence determining which approach suits which guard represents the difference between limited and comprehensive passing ability.
 - **Gordon Ryan**: My passing game is built on relentless, continuous pressure that never allows opponents to establish comfortable defensive rhythm. I focus heavily on grip fighting dominance as the foundational element—if you lose the grip battle, you'll probably fail to pass regardless of technical knowledge. Unlike traditional passing instruction emphasizing predetermined sequences, I maintain flexibility to switch passing approaches mid-sequence based on opponent's reactions and defensive patterns. This requires developing multiple passing systems you can chain together seamlessly. I particularly stress the importance of recognizing when a pass isn't working and making strategic adjustments rather than stubbornly persisting with ineffective approaches. Against elite guard players, passing success comes from creating offensive pressure that forces defensive reactions, then exploiting the openings those reactions create rather than attempting passes against statically defensive opponents. The key is making them react to your pressure, then passing through the spaces their reactions create.
 - **Eddie Bravo**: While I'm known for innovative guard systems, understanding passing principles from the attacking perspective has been crucial for developing effective guards—you need to understand how guards get passed to build better retention. Within 10th Planet methodology, we sometimes challenge traditional passing principles while still achieving passing objectives through alternative mechanics. I emphasize understanding opponent's guard system dependencies rather than just memorizing passing techniques—if you can identify and attack the foundational elements their entire guard system relies on, you can collapse their defensive structure. We also teach that passing principles can be expressed through varied approaches including leg-based passing, floating passes, and pressure passes depending on individual attributes and opponent preferences. The key is developing a personal passing style reflecting your strengths while maintaining fundamental principles of control, progression, and consolidation. I encourage students to experiment with unconventional passing entries that opponents haven't developed specific defenses against, creating strategic advantages through innovation while respecting core passing mechanics.

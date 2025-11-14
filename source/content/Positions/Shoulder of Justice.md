@@ -13,10 +13,6 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 
 
 
-> **Quick Overview**: The Shoulder of Justice is a highly effective side control variation characterized by intense shoulder pressure applied directly to the opponent's face and jaw. This position represents a refinement o...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -54,31 +50,19 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium to Long |
 
-**What Makes This Position Unique:** Intense jaw pressure creates submission dilemma
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Shoulder of Justice/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Shoulder of Justice/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Intense jaw pressure creates submission dilemma
 
 
 
@@ -86,10 +70,13 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 <section id="bottom-summary" class="content-section">
 
-## Shoulder of Justice Bottom Perspective
+
+## Playing as Bottom
+
+[[Shoulder of Justice/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in shoulder of justice must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -132,7 +119,7 @@ The bottom player in shoulder of justice must focus on creating frames, protecti
   - Success Rate: Beginner 14%, Intermediate 24%, Advanced 36%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Extending near arm to push opponent's shoulder away from face**
@@ -164,16 +151,17 @@ The bottom player in shoulder of justice must focus on creating frames, protecti
   - ✅ Correction: Stay on back and work on creating frames and space for guard recovery instead
 
 
-👉 **[[Shoulder of Justice/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Shoulder of Justice Top Perspective
+
+## Playing as Top
+
+[[Shoulder of Justice/Top|→ Full Top Guide]]
 
 
-The top player in shoulder of justice balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -225,7 +213,7 @@ The top player in shoulder of justice balances control maintenance with submissi
   - Success Rate: Beginner 48%, Intermediate 63%, Advanced 78%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Applying shoulder pressure with upper body only without connecting hips to opponent's hip line**
@@ -260,8 +248,6 @@ The top player in shoulder of justice balances control maintenance with submissi
   - Consequence: Missing high-percentage submissions and position advancements that opponent's reactions naturally create
   - ✅ Correction: Maintain awareness of opponent's defensive movements and immediately capitalize on frames, turns, and arm positions that expose submissions
 
-
-👉 **[[Shoulder of Justice/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

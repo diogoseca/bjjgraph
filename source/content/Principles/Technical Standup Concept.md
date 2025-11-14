@@ -8,7 +8,7 @@ description: "Master the Technical Standup in BJJ. Learn base creation, hip posi
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master the Technical Standup in BJJ. Learn base creation, hip posi
 
 
 
-> **Quick Answer**: Technical Standup Concept is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Technical Standup Concept is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Post the near hand behind the hip to create initial base and prevent backwards collapse
 - Position the far foot flat on the mat with knee up to establish primary posting base
 - Create a strong frame with the lead arm extended toward opponent's hips or chest
@@ -181,7 +181,7 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Hand Posting Mechanics**: The ability to properly post the hand behind the hip at the correct distance and angle, creating a stable base that prevents backwards collapse while allowing for hip elevation. The posted hand should be positioned approximately 6-12 inches behind the hip with fingers pointing away from the body, creating a tripod base with the seated hip and posting foot. Proper posting mechanics prevent injury to the wrist and shoulder while maximizing stability.
 
 **Foot Placement and Base Creation**: The capacity to position the far foot flat on the mat with the knee elevated at the optimal angle (approximately 90-120 degrees) to create maximum posting power. The foot should be positioned close enough to generate drive but far enough to maintain balance. This skill includes the ability to adjust foot position based on opponent pressure and environmental constraints while maintaining readiness to drive through the foot to achieve standing position.
@@ -204,7 +204,7 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Base Maintenance]]** (Prerequisite): Base maintenance is fundamental to technical standup execution, as the entire concept relies on creating and maintaining stable base throughout the transition from seated to standing.
 - **[[Frame Creation]]** (Complementary): Frame creation works in conjunction with technical standup by establishing the distance and connection points necessary to safely transition to standing while preventing opponent from closing space.
 - **[[Space Creation]]** (Complementary): Space creation principles directly support technical standup by establishing the initial distance required before attempting to stand, preventing opponent from maintaining heavy pressure during the transition.
@@ -223,7 +223,7 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Open Guard**: From open guard positions, technical standup allows the bottom player to disengage from guard engagement and return to standing, particularly effective when opponent is standing and attempting to pass from distance.
 
 **Turtle**: When in turtle position, technical standup provides an exit strategy by transitioning from turtle to seated guard position then to standing, preventing opponent from securing back control or other dominant positions.
@@ -266,7 +266,7 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current position and opponent pressure**: Evaluate whether technical standup is appropriate based on opponent positioning, pressure direction, and available space. Technical standup is optimal when opponent is at distance or pressure is manageable, but not ideal under heavy chest-to-chest pressure.
 2. **Establish initial seated frame**: Create strong frame with lead arm against opponent's hips, chest, or bicep to establish initial distance. Frame must be solid enough to prevent opponent from closing space during preparation phase. If frame cannot be established, abort standup and pursue guard retention or alternative escape.
 3. **Post hand and establish tripod base**: Post near hand 6-12 inches behind hip with fingers pointing away from body, simultaneously placing far foot flat on mat with knee up. This creates stable tripod base between posted hand, posting foot, and seated hip. Ensure all three points are firmly established before proceeding.
@@ -279,37 +279,37 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Posting hand too close to hip during initial setup
+## Common Mistakes
+- **Mistake**: Posting hand too close to hip during initial setup
   - **Consequence**: Creates insufficient base angle for stability, resulting in collapse backwards when attempting hip elevation and making practitioner vulnerable to forward pressure and guard passes
   - **Correction**: Post hand 6-12 inches behind hip with fingers pointing away from body, creating proper angle for stable tripod base that can support weight during transition to standing
-- **Error**: Elevating hips before establishing secure frame and base
+- **Mistake**: Elevating hips before establishing secure frame and base
   - **Consequence**: Exposes practitioner to immediate forward pressure from opponent, often resulting in being driven back to mat or swept, as insufficient distance and base exist to support the weight transition
   - **Correction**: Ensure solid frame is established against opponent and tripod base is secure before initiating hip elevation; sequence must be frame-base-then-elevation, never reversed
-- **Error**: Looking down at mat or away from opponent during standup
+- **Mistake**: Looking down at mat or away from opponent during standup
   - **Consequence**: Breaks visual awareness of opponent movement, prevents timely reaction to attacks, and often results in poor posture that compromises base and makes standup vulnerable to timing attacks
   - **Correction**: Maintain constant visual contact with opponent throughout entire technical standup sequence, keeping head up and eyes focused on opponent's chest and hips to monitor threats
-- **Error**: Removing posting hand from mat too early in transition
+- **Mistake**: Removing posting hand from mat too early in transition
   - **Consequence**: Eliminates one point of tripod base prematurely, creating instability during critical phase when weight is transferring from ground to feet, often resulting in loss of balance and failed standup
   - **Correction**: Keep posting hand firmly on mat until both feet are established on ground and majority of weight has transferred forward; hand should be last point to leave mat
-- **Error**: Attempting technical standup under heavy chest-to-chest pressure
+- **Mistake**: Attempting technical standup under heavy chest-to-chest pressure
   - **Consequence**: Opponent's weight and pressure make it impossible to create necessary space for frame and base establishment, resulting in wasted energy and often worsened position as attempted standup fails
   - **Correction**: Recognize when pressure is too heavy for standup attempt; first create space through shrimping, framing, or hip movement before attempting technical standup, or choose alternative escape route
-- **Error**: Using weak or bent-arm frame during standup
+- **Mistake**: Using weak or bent-arm frame during standup
   - **Consequence**: Allows opponent to collapse frame and close distance during transition, preventing successful completion of standup and often resulting in being returned to bottom position under heavy pressure
   - **Correction**: Create rigid skeletal frame with straight-arm structure, using bone alignment rather than muscular tension to create distance; frame angle should direct pressure into hips and legs, not shoulders and arms
-- **Error**: Placing posting foot too far from body
+- **Mistake**: Placing posting foot too far from body
   - **Consequence**: Creates mechanically inefficient position where leg drive cannot generate sufficient power to elevate hips and achieve standing position, often resulting in stuck position between seated and standing
   - **Correction**: Position posting foot close enough to generate powerful drive (approximately one foot-length from seated hip) while maintaining balance; adjust based on leg length and flexibility but prioritize power generation
-- **Error**: Turning body or hips away from opponent during transition
+- **Mistake**: Turning body or hips away from opponent during transition
   - **Consequence**: Exposes back to opponent, eliminates frame effectiveness, and creates vulnerability to back takes, often transforming defensive standup into worse bottom position
   - **Correction**: Maintain squared hips and shoulders facing opponent throughout entire standup sequence; any rotation should be minor adjustment to angle, never turning away or exposing back
-- **Error**: Attempting to pull or lift body with arm strength
+- **Mistake**: Attempting to pull or lift body with arm strength
   - **Consequence**: Creates inefficient muscular effort that exhausts arms quickly, fails to generate sufficient elevation force, and often results in collapsed posture as arm fatigue sets in
   - **Correction**: Generate elevation power by driving forcefully through posting leg while frame arm maintains distance only; think of leg drive pushing body upward rather than arm pulling body up
-- **Error**: Failing to adjust standup timing based on opponent pressure cycles
+- **Mistake**: Failing to adjust standup timing based on opponent pressure cycles
   - **Consequence**: Results in attempting standup at worst possible moment when opponent pressure is heaviest, leading to failed attempts and wasted energy that could have been saved for better opportunity
   - **Correction**: Read opponent pressure patterns and time standup attempt for moments when pressure lightens or opponent shifts weight; create reactions through feints or grips that generate windows of reduced pressure
 
@@ -318,7 +318,7 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Static Position Drilling** (Focus: Technical precision and muscle memory development for proper standup mechanics)
 Practice technical standup mechanics from static starting positions without opponent resistance, focusing on proper hand posting, foot placement, frame creation, hip elevation, and transition sequencing. Drill both sides equally and emphasize perfect technical execution over speed. Progress through each phase slowly, holding positions to build awareness of correct body positioning and base structure.
 
@@ -343,7 +343,7 @@ Begin rolling from standing position with rule that if taken down, bottom player
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can execute basic technical standup sequence from static starting position without resistance, demonstrating general understanding of hand posting, foot placement, and hip elevation phases
 - Maintains facing toward partner throughout standup attempt but may lose balance or base during transition phases
@@ -385,7 +385,7 @@ Begin rolling from standing position with rule that if taken down, bottom player
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Base Maintenance]] (Principle) - Fundamental principle underlying all technical standup mechanics, particularly tripod base creation during transition phase
 - [[Frame Creation]] (Principle) - Essential complementary principle for establishing distance before and during technical standup execution
@@ -405,7 +405,7 @@ Begin rolling from standing position with rule that if taken down, bottom player
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The technical standup represents one of the most systematically neglected elements of defensive jiu-jitsu training, yet it is absolutely fundamental to defensive competence at all levels. The mechanical principle underlying successful standup is the creation and maintenance of what I call a dynamic tripod base - the posted hand, the posting foot, and the seated hip form three points of stable contact that enable weight transfer from ground to standing position. The critical insight that most practitioners miss is that the frame arm does not lift the body; rather, it creates and maintains distance while the posting leg drives the body upward through hip extension. This distinction is not semantic - it is biomechanical and determines success or failure. When we analyze technical standup through the lens of leverage and force vectors, we see that the optimal posting hand position creates approximately 30-40 degrees of angle from the vertical line of the torso, which maximizes stability while minimizing stress on the shoulder joint. The frame arm, meanwhile, must create what I call a 'skeletal frame' where force is transmitted through bone alignment rather than muscular contraction - this is why a smaller, weaker practitioner can successfully stand up against a larger opponent if proper mechanical principles are applied. The decision framework for when to attempt technical standup versus when to maintain guard is fundamentally about distance assessment: if you cannot establish an effective frame before beginning the standup sequence, you do not have sufficient distance and should focus first on creating space through shrimping or other guard retention mechanics.
 - **Gordon Ryan**: In high-level competition, the technical standup is absolutely critical for controlling the pace and range of the match, and I use it constantly to dictate whether we're fighting on the ground or on the feet. The biggest mistake I see at all levels is people treating the standup as a defensive emergency move that they only try when everything else has failed - that's completely wrong. The technical standup should be a proactive tool that you use to control engagement distance and force your opponent to respect your ability to disengage. When I'm playing bottom position against someone with a strong passing game, I'm constantly threatening the standup, which forces them to either commit forward to prevent it (creating sweep opportunities) or respect the distance (allowing me to maintain guard effectively). The key to making standup work at high level is the frame - your frame has to be so solid that the opponent knows they cannot simply rush through it without serious effort, which makes them hesitate and creates the time window you need to complete the standup. I've also found that the standup is incredibly effective as a transition tool within scrambles; if you can be the first person to achieve standing position during a scramble, you immediately gain positional advantage and can choose whether to re-engage on top or maintain standing and force them to stand. The standup is also essential for my competition strategy in terms of time management - if I'm ahead on points, technical standup lets me safely return to standing and force a reset rather than engaging in potentially risky ground exchanges where my opponent might score.
 - **Eddie Bravo**: The technical standup is one of those fundamental skills that everyone learns on day one and then forgets about, but it's actually a high-level strategic tool when you really understand how to use it creatively. In the 10th Planet system, we emphasize the standup not just as an escape but as part of our overall guard retention strategy - the threat of standing up creates reactions from the passer that open up our lockdown entries, our rubber guard attacks, and other bottom game options. One thing I've developed over the years is using what I call the 'fake standup' where you start the standup motion to get the opponent to react forward aggressively, then you abandon the standup and immediately attack with a sweep or submission based on their forward momentum. This works incredibly well because most people are so conditioned to prevent the standup that they overcommit to stopping it. I also teach variations of the technical standup that work specifically for no-gi situations where you don't have the same grip options - in no-gi, your frame mechanics have to be even more precise because you can't rely on grips to manage distance, so the posting positions and hip elevation timing become even more critical. Another innovation we've explored is using the technical standup as an entry to leg attacks - as you're coming up, if the opponent follows too aggressively, you can redirect into an ankle pick or single leg, or even pull them into inside position for ashi garami entries. The standup isn't just about getting to your feet; it's about creating movement and reactions that you can exploit.

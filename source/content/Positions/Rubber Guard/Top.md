@@ -8,7 +8,7 @@ description: "Defend against Rubber Guard from top position with systematic esca
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defend against Rubber Guard from top position with systematic esca
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Defend against Rubber Guard from top position with systematic esca
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 15% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 15%.
 
 ---
 
@@ -187,7 +187,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - One arm trapped against opponent's chest by their elevated leg creating severe posture compromise and limiting defensive options
 - Posture broken with head pulled down toward opponent's chest, unable to establish strong base or create effective distance
@@ -197,7 +197,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of closed guard defensive principles and posture maintenance
 - Knowledge of Rubber Guard submission threats and defensive hierarchy
@@ -223,7 +223,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Posture Recovery]] → [[Closed Guard]]
 
@@ -287,7 +287,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 45%)
 - **[[Omoplata to Back]]** → [[Omoplata Control]] (Opponent Success: 40%)
@@ -300,7 +300,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Posture Recovery]]** → [[Closed Guard]]
   - Bottom player attempts to advance grip configuration creating brief opening
@@ -340,7 +340,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

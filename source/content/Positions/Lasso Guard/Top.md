@@ -8,7 +8,7 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35%.
 
 ---
 
@@ -199,7 +199,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your arm is threaded through the opponent's shin creating a lasso control that restricts your mobility and base on that side
 - The opponent maintains a tight sleeve grip on your trapped arm, creating a lever system against your shoulder
@@ -211,7 +211,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Solid understanding of guard passing fundamentals including pressure, base maintenance, and grip fighting principles
 - Experience with grip breaking techniques and strategies for dealing with extended guard controls
@@ -238,7 +238,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Lasso Guard Pass]] → [[Side Control]]
 
@@ -302,7 +302,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Lasso Guard Sweeps]]** → [[Mount]] (Opponent Success: 50%)
 - **[[Triangle Setup]]** → [[Triangle Control]] (Opponent Success: 45%)
@@ -315,7 +315,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Stack Defense]]** → [[Headquarters Position]]
   - When opponent establishes lasso but commits too much to extension, use aggressive stacking pressure to fold them backwards
@@ -360,7 +360,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

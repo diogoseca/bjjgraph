@@ -8,7 +8,7 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 35%.
 
 ---
 
@@ -191,7 +191,7 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's hips positioned forward toward bottom player's guard with one leg trapped between bottom player's inverted and butterfly hooks, maintaining forward pressure through hip placement and weight distribution
 - Bottom player's inverted inside hook crosses trapped leg creating lateral pulling force while butterfly hook creates elevation threat, forming characteristic 'K' configuration that disrupts top player's base
@@ -204,7 +204,7 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has established K-Guard configuration from half guard bottom with inverted and butterfly hooks active
 - Top player has one leg trapped in bottom player's hook system
@@ -232,7 +232,7 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Knee Slice Pass]] → [[Side Control]]
 
@@ -296,7 +296,7 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Lockdown Sweeps]]** → [[Half Guard]] (Opponent Success: 40%)
 - **[[Underhook Sweep from Half]]** → [[Half Guard]] (Opponent Success: 45%)
@@ -310,7 +310,7 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Smash Pass]]** → [[Side Control]]
   - Bottom player attempts to recover full guard or create distance
@@ -352,7 +352,7 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

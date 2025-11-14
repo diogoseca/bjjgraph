@@ -13,10 +13,6 @@ description: "Master turtle position in BJJ. Strategic guide covering defensive 
 
 
 
-> **Quick Overview**: Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees with their back exposed to the opponent. While traditionally viewed as a weak po...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,31 +48,19 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Defensive posture trading back exposure
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Turtle/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Turtle/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Defensive posture trading back exposure
 
 
 
@@ -84,10 +68,13 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 <section id="bottom-summary" class="content-section">
 
-## Turtle Bottom Perspective
+
+## Playing as Bottom
+
+[[Turtle/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in turtle balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -130,7 +117,7 @@ The bottom player in turtle balances defensive frames with offensive opportuniti
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Remaining static in turtle without attempting movement or improvement**
@@ -158,16 +145,17 @@ The bottom player in turtle balances defensive frames with offensive opportuniti
   - ✅ Correction: Fight to maintain separation between hip and shoulder control, using frames and movement to prevent simultaneous control of both areas
 
 
-👉 **[[Turtle/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Turtle Top Perspective
+
+## Playing as Top
+
+[[Turtle/Top|→ Full Top Guide]]
 
 
-The top player in turtle balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -216,7 +204,7 @@ The top player in turtle balances control maintenance with submission attacks, d
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Committing too much weight forward allowing opponent to sit through**
@@ -243,8 +231,6 @@ The top player in turtle balances control maintenance with submission attacks, d
   - Consequence: Opponent stands up easily or performs technical standup
   - ✅ Correction: Stay connected with hips to opponent's hips, insert bottom hook first before climbing higher
 
-
-👉 **[[Turtle/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

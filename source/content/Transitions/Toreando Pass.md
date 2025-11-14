@@ -8,7 +8,7 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 
 
 
-> **Quick Answer**: Toreando Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Toreando Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish dominant grips on opponent's knees or pants before initiating the pass
 - Create lateral angles by stepping to the side rather than moving straight forward
 - Control opponent's leg positioning by directing both legs to one side simultaneously
@@ -186,7 +186,7 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing or combat base position in opponent's open guard
 - Strong bilateral grips on opponent's knees, pant legs, or ankles
 - Opponent's legs extended or semi-extended in open guard configuration
@@ -199,7 +199,7 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grip control**: From standing or combat base, secure strong grips on both of opponent's knees or pant legs. Your grip should be firm but allow for dynamic movement. Keep elbows tight and maintain upright posture to prevent opponent from breaking your posture or sweeping. (Timing: Take 1-2 seconds to establish secure grips)
 2. **Create initial pressure**: Drive both hands forward and slightly downward, pushing opponent's knees toward their chest. This initial pressure breaks their guard structure and prevents them from establishing strong frames or hooks. Keep your weight centered over your hips. (Timing: Immediate pressure upon securing grips)
 3. **Step laterally to passing side**: Take a large lateral step to one side (typically your stronger side first) while maintaining grip pressure on the knees. Your step should be explosive and create approximately 45-90 degrees of angle relative to your starting position. Keep your head and chest forward. (Timing: Explosive lateral movement in one motion)
@@ -213,7 +213,7 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent establishes strong collar grips to break posture and prevent standing** (Effectiveness: High) - Your Response: Strip grips immediately using two-on-one grip breaks, or establish leg grips first and accept momentary collar contact while executing the pass explosively before they can capitalize
 - **Opponent uses De La Riva or Reverse De La Riva hook to off-balance passer during lateral movement** (Effectiveness: High) - Your Response: Clear the hooking leg before attempting the Toreando by pushing it across their body or using a specific De La Riva guard pass. Alternatively, switch to a different passing approach when hooks are established
 - **Opponent frames with feet on hips or biceps to create distance and prevent grip establishment** (Effectiveness: Medium) - Your Response: Control opponent's ankle or heel with one hand while using the other to clear their frames. Once one leg is controlled, the Toreando becomes available on that side, or switch to knee cut pass
@@ -223,25 +223,25 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Stepping forward instead of laterally, reducing the effectiveness of the angular pass
+## Common Mistakes
+- **Mistake**: Stepping forward instead of laterally, reducing the effectiveness of the angular pass
   - **Consequence**: Opponent easily follows the movement with their hips and re-establishes guard, or sweeps the passer
   - **Correction**: Emphasize 45-90 degree lateral steps to create true passing angles. Think of sidestepping rather than advancing directly
-- **Error**: Releasing grip pressure too early before hips are past the guard line
+- **Mistake**: Releasing grip pressure too early before hips are past the guard line
   - **Consequence**: Opponent immediately recovers guard position or creates scramble situations
   - **Correction**: Maintain grip control throughout the entire passing movement until chest pressure replaces hand control. Only release grips when upper body connection is established
-- **Error**: Poor base and posture during setup, allowing opponent to off-balance or sweep
+- **Mistake**: Poor base and posture during setup, allowing opponent to off-balance or sweep
   - **Consequence**: Opponent sweeps the passer or breaks their posture, shutting down the passing attempt
   - **Correction**: Keep weight centered, head up, and base wide during grip establishment. Practice combat base positioning with resistance
-- **Error**: Pushing opponent's legs without simultaneous lateral movement, giving them time to defend
+- **Mistake**: Pushing opponent's legs without simultaneous lateral movement, giving them time to defend
   - **Consequence**: Opponent recognizes the pass attempt early and establishes defensive frames or hooks
   - **Correction**: Coordinate leg redirection with lateral step as one explosive movement. The pass should feel like a single motion, not separate steps
-- **Error**: Insufficient explosive power in lateral step, allowing opponent to track the movement
+- **Mistake**: Insufficient explosive power in lateral step, allowing opponent to track the movement
   - **Consequence**: Opponent's hips follow the passer's movement and guard is maintained
   - **Correction**: Develop explosive lateral movement through plyometric drills and repetition. The step should be fast enough that opponent cannot react in time
-- **Error**: Gripping too high on the legs (thighs) instead of controlling the knees or lower
+- **Mistake**: Gripping too high on the legs (thighs) instead of controlling the knees or lower
   - **Consequence**: Opponent retains leg mobility and can establish hooks or frames despite grip control
   - **Correction**: Focus grips on the knees, just below the knees, or on pant fabric near the ankles for maximum leg control
 
@@ -250,7 +250,7 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Movement Pattern** - Develop proper lateral stepping and leg redirection mechanics without resistance
 Practice the basic motion of Toreando Pass with compliant partner. Focus on grip establishment, lateral step angle (45-90 degrees), simultaneous leg redirection, and hip advancement past guard line. Perform 20-30 repetitions per training session, alternating sides. Partner remains passive and allows successful passes to build muscle memory.
 (Resistance: None)
@@ -281,7 +281,7 @@ Explore Toreando variations including grip variations (sleeve/collar/ankle), dif
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Single Grip Toreando**: Control one leg with both hands while using body positioning to control the other leg. This variation provides stronger control on one side but requires better positioning to manage the free leg. Often used when opponent's grips prevent bilateral leg control. (When to use: When opponent establishes strong collar/sleeve grips that prevent two-handed leg control, or when passing from collar sleeve guard where you already control one leg)
 
 **Low Toreando (Ankle Grips)**: Instead of gripping the knees, control both ankles or pant cuffs. This provides maximum leg immobilization but requires dropping posture slightly. The lateral step remains the same, but leg redirection involves lifting and placing opponent's legs to the side rather than pushing. (When to use: Against opponents who use strong knee shield or butterfly hooks, or in no-gi when fabric grips are unavailable. Particularly effective against flexible guard players)
@@ -326,7 +326,7 @@ Explore Toreando variations including grip variations (sleeve/collar/ankle), dif
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Toreando Pass is generally a safe passing technique when practiced with proper control and awareness. Primary safety considerations include controlling your explosive lateral movement to avoid knee injuries to yourself (from sudden directional changes) and to your partner (from excessive force when redirecting their legs). When redirecting the opponent's legs, maintain awareness of their knee and hip flexibility - do not force their legs beyond their comfortable range of motion, particularly when they are less flexible. During drilling, communicate with your partner about the speed and force level, especially when first learning the explosive timing. Be cautious when executing the pass near the training area boundaries to avoid driving your partner into walls or other students. In competition or live sparring, be aware that the Toreando can create scramble situations where both practitioners may end up in awkward positions - maintain control throughout the pass to prevent accidental injuries. Partners with existing knee or hip injuries should communicate these limitations before training this pass.
 
@@ -334,7 +334,7 @@ The Toreando Pass is generally a safe passing technique when practiced with prop
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Toreando Pass serves as a cornerstone technique in modern guard passing systems, functioning as both a standalone pass and an integral component of passing chains. It fits into the BJJ positional hierarchy as a primary standing or combat base pass used to clear open guard configurations and progress toward dominant top positions (side control, knee on belly, or mount). The Toreando excels against open guard systems including De La Riva (after clearing the hook), Spider Guard, Collar Sleeve Guard, and Seated Guard positions. It integrates seamlessly with pressure passing systems by creating initial penetration past the guard, at which point pressure can be applied in side control. The pass also complements speed-based passing approaches where the explosive lateral movement fits naturally. Within a guard passing progression, the Toreando typically appears after standing has been established and guard opening has occurred, but before final pressure consolidation in top position. It creates decision points for the opponent that expose them to complementary techniques: if they don't follow the movement, the Toreando completes; if they turn to defend, back takes or over-under passes become available; if they create distance, long step or knee slice passes open up. This integration into broader passing systems makes the Toreando valuable not just as an individual technique but as a strategic tool that structures the entire guard passing game.
 
@@ -342,7 +342,7 @@ The Toreando Pass serves as a cornerstone technique in modern guard passing syst
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Cut Pass]] - Complementary technique - chain from Toreando when opponent turns to defend
 - [[Leg Drag Pass]] - Alternative finish - transition from Toreando motion to leg drag position
@@ -365,7 +365,7 @@ The Toreando Pass serves as a cornerstone technique in modern guard passing syst
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Toreando Pass represents a perfect example of mechanical efficiency in guard passing. The fundamental principle at work is the creation of opposing force vectors - your body accelerates in one lateral direction while simultaneously redirecting the opponent's legs in the opposite direction. This creates a mechanical impossibility for the guard player: they cannot maintain connection to you when their lower body moves one direction while their upper body remains relatively stationary. The biomechanical advantage comes from controlling the opponent's knees or lower legs, which gives you leverage over their entire leg structure. When you push both knees to one side, you're not just moving their legs - you're collapsing their guard's structural integrity. The critical technical element is the timing relationship between your lateral step and the leg redirection. These must occur simultaneously, not sequentially. Sequential execution allows the opponent to adjust; simultaneous execution overwhelms their ability to react. Study the angle of your lateral step carefully - 45 to 90 degrees from your starting position is optimal. Less than 45 degrees and you're moving too much forward, allowing their hips to follow; more than 90 degrees and you lose forward pressure. The Toreando also exemplifies systematic passing principles: it creates binary decision points for the opponent where both options lead to your advancement. They either allow the pass, or they turn to defend and expose back-taking opportunities.
 - **Gordon Ryan**: The Toreando Pass is one of the highest percentage passes in modern competitive BJJ because it works against virtually every open guard system and can be executed with explosive speed that's difficult to defend against. What makes this pass so effective in competition is that it immediately puts the guard player in a defensive crisis - they have to make split-second decisions and any hesitation results in you passing. The key to making the Toreando work at elite levels is understanding grip fighting. You cannot execute this pass without first winning the grip battle and securing control of their legs. I spend significant time hand fighting and clearing their grips before I ever attempt the pass. Once I have my grips, I'm looking for the exact moment when their defensive grips are weak or when they're adjusting position - that's when I explode into the Toreando movement. One critical detail that separates good from great execution: when you redirect their legs, you're not just pushing them aside, you're placing them on the mat in a specific location that makes guard recovery impossible. I aim to pin both legs to the mat on one side of their body, far enough away that they cannot easily bring them back into play. Another competition reality: the Toreando chains perfectly with other passes, so even if they defend it once, I'm immediately threatening knee cuts, leg drags, or double unders. They can't just defend one pass; they have to defend an entire system, which is mentally and physically exhausting for them.
 - **Eddie Bravo**: The Toreando Pass is fundamental, but where it gets really interesting is when you start playing with the rhythm and combining it with misdirection. The traditional Toreando is very linear - grip the legs, step to one side, push legs to the other side. That works great, but high-level guys will start to anticipate it. What I like to do is use fake Toreando movements to set up other passes or create psychological pressure. I'll show the Toreando motion, get them to react by turning or framing, then immediately switch to a completely different pass based on how they responded. This is especially effective in no-gi where the grips are less stable and everything happens faster. Another innovation is what I call the 'step-through Toreando' where instead of stepping to the side and pushing their legs opposite, you step between their legs at an angle while controlling one leg, essentially splitting their guard. This creates different angles and opens up leg drag positions or truck entries. The beauty of the Toreando is its versatility - you can do it standing, from combat base, even from some seated positions if you have the right grips. In 10th Planet system, we use it as an entry point to create chaos in their guard and then capitalize on whatever defensive choice they make. Remember, guard passing isn't about forcing one technique to work; it's about creating problems that have no good solutions. The Toreando creates that kind of dilemma perfectly when you understand how to chain it with other techniques and when you're willing to be creative with the basic framework.

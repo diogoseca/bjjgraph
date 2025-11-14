@@ -8,7 +8,7 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 20% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 20%.
 
 ---
 
@@ -187,7 +187,7 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player has lapel wrapped around top player's leg (typically the lead leg), creating structural connection that limits mobility and creates off-balancing leverage through the lapel-leg linkage
 - Top player maintains standing or combat base posture with weight distribution preventing forward commitment while managing the lapel entanglement around their lower body
@@ -200,7 +200,7 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has successfully established worm guard configuration with lapel wrapped around top player's leg
 - Top player is in standing, combat base, or headquarters position attempting to address the guard
@@ -227,7 +227,7 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Leg Drag Pass]] → [[Leg Drag Control]]
 
@@ -277,7 +277,7 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[X-Guard Sweep]]** → [[Mount]] (Opponent Success: 45%)
 - **[[Omoplata to Back]]** → [[Back Control]] (Opponent Success: 35%)
@@ -289,7 +289,7 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Leg Drag Pass]]** → [[Leg Drag Control]]
   - Bottom player commits to sweep attempt with extended legs
@@ -329,7 +329,7 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

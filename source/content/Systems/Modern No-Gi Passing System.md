@@ -137,7 +137,7 @@ description: "Master modern no-gi guard passing with systematic pressure, connec
 
 
 
-> **Quick Answer**: Modern No-Gi Passing System is a advanced difficulty Passing System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
+> Modern No-Gi Passing System is a advanced difficulty Passing System system. Integrates 6 components.
 
 **System ID**: 
 **System Type**: Passing System
@@ -160,7 +160,7 @@ The system's effectiveness stems from its adaptability to different guard types 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Maintain constant forward pressure and connection control
 - Use headquarters position as central passing hub
 - Break connections before attempting to advance position
@@ -174,7 +174,7 @@ The system's effectiveness stems from its adaptability to different guard types 
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Headquarters Position Control** (Establish dominant position before committing to specific passing sequences)
 The headquarters position serves as the primary control hub where the passer establishes dominant grips, applies pressure, and dictates engagement distance. From this position, the passer controls one or both legs while maintaining postural advantage, creating a platform for launching coordinated passing attacks. Mastery of headquarters allows systematic breakdown of guard retention structures.
 
@@ -199,7 +199,7 @@ Systematic approach to preventing opponents from recovering guard once passing s
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Development**: Build fundamental understanding of headquarters position, connection breaking mechanics, and basic pressure passing concepts
 Key points:
 - Master headquarters entries from standing and open guard
@@ -372,7 +372,7 @@ The system requires progressive drilling that builds from static technical work 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The effectiveness of modern no-gi passing stems from understanding that without gi grips, control must come from connection points and pressure angles rather than fabric manipulation. The headquarters position represents the optimal configuration where you control distance, dictate engagement, and maintain offensive initiative while your opponent lacks the grips to effectively retain guard. From this hub, systematic connection breaking becomes the primary technical skill - identifying which defensive frames and hooks your opponent relies upon, then methodically destroying them through specific hand fighting sequences and pressure applications. The passing sequences themselves must be understood as interconnected chains rather than isolated techniques, with each attack creating defensive reactions that open opportunities for follow-up passes. When opponents defend the knee slice by creating distance, this naturally presents leg drag opportunities. When they block leg drags by recovering frames, they expose themselves to bodylock variations. This systematic chaining, combined with relentless forward pressure that prevents guard recovery, creates the framework for reliable passing success against modern guard players.
 - **Gordon Ryan**: In competition, modern no-gi passing comes down to imposing your pressure game while preventing opponents from playing their preferred guard style. I've built my passing success on establishing headquarters dominance early, then making opponents uncomfortable through constant pressure that forces mistakes. The key is never giving them the distance or time to set up their guard retention sequences - you're always advancing, always pressuring, always making them react defensively rather than attacking. Against high-level guys, you can't rely on single passing attempts; you need to chain attacks relentlessly, using knee slice to leg drag to bodylock combinations that keep them defending. When they start to defend one pass well, immediately transition to another before they can recover their structure. The conditioning element is crucial - you must be able to maintain heavy pressure for entire rounds without fading, because elite guard players will survive initial passing waves and try to wear you down. Mental toughness matters too; even when passes get defended, you recover to headquarters and start pressuring again immediately, never giving them psychological space to feel safe in their guard.
 - **Eddie Bravo**: Modern no-gi passing requires adapting to the reality that guard players today are incredibly dynamic and mobile compared to traditional BJJ. The 10th Planet approach emphasizes constant transitional pressure rather than static passing positions, using movements like the truck entries and calf slicer threats to keep opponents reacting. When passing modern guards, especially against guys comfortable with leg entanglements, you need awareness of dangerous positions while maintaining offensive aggression. The bodylock pass variations we've developed work perfectly for this, letting you float past guards while staying safe from leg attacks. One critical element often overlooked is using the opponent's own movements against them - when they try to invert or come up on wrestling, that's when you capitalize with immediate passing pressure. The system needs fluidity; you're not forcing passes through pure pressure but reading their defensive movements and exploiting the openings they create. Combine this with relentless pace and creativity in your passing angles, and you create problems that traditional guard retention can't solve. The key is staying dangerous with attacks even while passing, making them defend both positional advancement and submission threats simultaneously.

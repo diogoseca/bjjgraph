@@ -8,7 +8,7 @@ description: "Master sweep timing in BJJ. Learn reactive sweeps, off-balancing w
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master sweep timing in BJJ. Learn reactive sweeps, off-balancing w
 
 
 
-> **Quick Answer**: Timing Sweeps is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Timing Sweeps is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -169,7 +169,7 @@ Mastering timing-based sweeps fundamentally changes how practitioners approach g
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Exploit opponent weight shifts and base compromises rather than forcing sweeps through strength
 - Use initial sweep attempts to create reactions that open opportunities for follow-up sweeps
 - Recognize the brief windows when opponent transitions between stable positions
@@ -185,7 +185,7 @@ Mastering timing-based sweeps fundamentally changes how practitioners approach g
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Weight Sensitivity**: The ability to feel through grips and contact points where the opponent's weight is distributed, detecting which leg bears more weight, when they're shifting forward or backward, and when their base is square versus compromised. This tactile awareness allows recognition of sweep opportunities before they're visually apparent.
 
 **Reaction Anticipation**: Predicting how the opponent will respond to specific pressures or threats, allowing pre-emptive positioning for the counter-sweep. This includes understanding that defending a sweep to one side creates vulnerability to the opposite side, and that blocking one angle opens another.
@@ -208,7 +208,7 @@ Mastering timing-based sweeps fundamentally changes how practitioners approach g
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Off-Balancing]]** (Prerequisite): Understanding off-balancing mechanics is fundamental to timing sweeps effectively, as sweeps succeed when opponent base is compromised
 - **[[Action and Reaction]]** (Prerequisite): The principle that every action creates a reaction is the theoretical foundation for reactive sweep timing
 - **[[Sweep Mechanics]]** (Complementary): Technical sweep execution combined with proper timing creates maximally effective sweeping capability
@@ -230,7 +230,7 @@ Mastering timing-based sweeps fundamentally changes how practitioners approach g
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Using opponent's posture-up attempts to execute Hip Bump Sweep when weight shifts backward, or Scissor Sweep when they resist and push forward
 
 **Butterfly Guard**: Timing butterfly elevations when opponent's weight is shifting between legs or when they reach for grips, using their forward pressure against them
@@ -273,7 +273,7 @@ Mastering timing-based sweeps fundamentally changes how practitioners approach g
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Initial Guard Establishment**: Establish grips and contact points that provide tactile feedback about opponent weight distribution and movement intentions. Use collar, sleeve, or leg grips that allow sensing of shifts.
 2. **Base Assessment**: Evaluate opponent's current base stability. Identify which leg bears more weight, whether base is square or compromised, and what defensive priorities they're focused on. Recognize stable versus vulnerable moments.
 3. **Reaction Creation**: Apply directional pressure (push, pull, or elevate) to create a defensive reaction. The goal is not to complete the sweep but to manipulate opponent weight distribution and reveal their defensive patterns.
@@ -286,31 +286,31 @@ Mastering timing-based sweeps fundamentally changes how practitioners approach g
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting sweeps without first establishing off-balancing pressure
+## Common Mistakes
+- **Mistake**: Attempting sweeps without first establishing off-balancing pressure
   - **Consequence**: Sweeps fail against stable base, wasting energy and revealing intentions, allowing opponent to anticipate and counter future attempts
   - **Correction**: Always create continuous off-balancing pressure through grips and hooks before committing to sweep execution. Make opponent work to maintain base constantly.
-- **Error**: Committing to single sweep attempt regardless of timing feedback
+- **Mistake**: Committing to single sweep attempt regardless of timing feedback
   - **Consequence**: Becomes predictable and easy to defend, often resulting in compromised positions or successful passes when sweep fails
   - **Correction**: Develop sensitivity to recognize when timing window has closed. Immediately transition to alternative sweep or guard retention rather than forcing failed attempts.
-- **Error**: Using muscular force instead of opponent momentum
+- **Mistake**: Using muscular force instead of opponent momentum
   - **Consequence**: Sweeps become exhausting, ineffective against larger opponents, and easily defended by maintaining low center of gravity and wide base
   - **Correction**: Focus on amplifying existing opponent movement rather than creating new movement. Wait for weight shifts and use minimal force to redirect their momentum.
-- **Error**: Failing to chain sweep attempts in logical sequences
+- **Mistake**: Failing to chain sweep attempts in logical sequences
   - **Consequence**: Each sweep is isolated, allowing opponent to reset to neutral between attempts and never creating accumulating pressure
   - **Correction**: Link 3-5 sweeps together where defending one creates vulnerability to the next. Use failed attempts as setups rather than starting over.
-- **Error**: Neglecting grip fighting before sweep attempts
+- **Mistake**: Neglecting grip fighting before sweep attempts
   - **Consequence**: Lacks the control and tactile feedback necessary to recognize timing windows, resulting in low-percentage blind sweeps
   - **Correction**: Invest time in establishing strategic grips that both control opponent posture and provide sensory information about weight distribution and movement.
-- **Error**: Executing sweeps when opponent base is stable
+- **Mistake**: Executing sweeps when opponent base is stable
   - **Consequence**: Predictable failure pattern that builds opponent confidence and wastes practitioner energy while achieving no positional improvement
   - **Correction**: Only execute sweeps when clear timing indicators are present: weight shift, base compromise, attention division, or momentum in sweep direction.
-- **Error**: Maintaining constant speed and rhythm in sweep attempts
+- **Mistake**: Maintaining constant speed and rhythm in sweep attempts
   - **Consequence**: Opponent adapts to predictable timing, making all attempts easy to defend through pattern recognition
   - **Correction**: Vary the tempo of sweep attempts. Use slow pressure buildup followed by explosive execution, or rapid chains followed by deliberate pauses.
-- **Error**: Ignoring opponent's defensive priorities and patterns
+- **Mistake**: Ignoring opponent's defensive priorities and patterns
   - **Consequence**: Repeatedly attacking defended angles while missing open opportunities, showing low tactical awareness
   - **Correction**: Observe what the opponent defends first and most aggressively. Attack their secondary defensive priorities or create reactions that force impossible choices.
 
@@ -319,7 +319,7 @@ Mastering timing-based sweeps fundamentally changes how practitioners approach g
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Blind Sweep Sensitivity Drill** (Focus: Developing tactile sensitivity to weight distribution changes and reducing reliance on visual cues for timing recognition)
 Close your eyes while in guard and have training partner randomly shift their weight. Practice feeling the shifts through contact points and calling out which direction they moved before attempting the appropriate sweep.
 
@@ -344,7 +344,7 @@ Start with partner allowing all properly executed sweeps. Gradually increase def
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can execute individual sweep techniques when opponent is stationary but struggles when opponent moves dynamically
 - Relies primarily on strength and effort to complete sweeps rather than timing and leverage
@@ -388,7 +388,7 @@ Start with partner allowing all properly executed sweeps. Gradually increase def
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Hip Bump Sweep]] (Transition) - Foundational timing-based sweep from closed guard that exploits opponent backward weight shift
 - [[Butterfly Sweep]] (Transition) - Classic reactive sweep that uses opponent's forward pressure and weight distribution against them
@@ -408,7 +408,7 @@ Start with partner allowing all properly executed sweeps. Gradually increase def
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The most sophisticated approach to sweeping recognizes that the technique itself is merely the vehicle, while timing is the engine that drives success. I emphasize to my students that the vast majority of failed sweeps fail not because the technique was executed incorrectly, but because it was attempted at the wrong moment. The human body, regardless of strength or size, cannot maintain perfect balance while in motion or during position transitions. Every weight shift, every grip adjustment, every postural change creates a brief window of vulnerability lasting perhaps one to two seconds where even perfect defensive technique cannot prevent a well-timed sweep. The systematic practitioner learns to recognize these windows through thousands of repetitions and develops the sensitivity to feel them through minimal contact points. This is why I advocate for positional sparring from guard where the only objective is sweeping—it accelerates the development of timing recognition far beyond what random rolling provides. The decision tree for timing sweeps must be built on if-then conditionals: if opponent pushes, then pull; if opponent pulls, then push; if opponent posts hand, then attack posted side. This systematic framework transforms timing from an abstract concept into a concrete decision-making process.
 - **Gordon Ryan**: In competition, timing-based sweeps are what separate good guard players from great ones. I've built my entire guard game around creating reactions and capitalizing on them with precise timing. The reality is that at the highest levels, nobody is going to give you a sweep—you have to create the opportunity through strategic manipulation. My approach is to make everything a dilemma: if they defend the butterfly sweep by basing wide, I'm already transitioning to single leg X. If they defend by staying tight, I'm going immediately to the arm drag back take. The key is speed of transition and reading their defensive priorities in real-time. I've noticed that most opponents have one or two sweeps they defend really well because they've been hit with them repeatedly. So I'll deliberately threaten those sweeps not to complete them, but to create the reaction that opens my actual attack. This is advanced timing—you're not waiting for natural opportunities, you're manufacturing them. Against elite opponents, I might attempt 15-20 sweeps per round, and I expect maybe 3-4 to actually work. But those 3-4 reversals are built on the foundation of the 11-16 that created the cumulative reactions and fatigue that made them possible. That's timing in competition context.
 - **Eddie Bravo**: Timing sweeps is all about flow and feeling, man. It's like surfing—you can't force the wave, you have to catch it at exactly the right moment. In 10th Planet, we develop this through our flow rolling methodology where we're constantly moving and reacting without pauses. What I've found is that timing is something you feel more than think. When you're in the zone, you're not consciously deciding 'now is the right moment'—your body just recognizes the opening and goes for it. That's why I emphasize rolling to music with rhythm, because it helps develop that unconscious timing sense. The crazy thing is that you can create timing opportunities through unorthodox movements that opponents aren't expecting. Like from Rubber Guard, when I transition to Meathook, the opponent's entire defensive structure is confused because they've never felt that position before. That confusion is a timing window. Or in the Twister Side Control escape, you're moving in directions that violate their expectations, and that creates these micro-moments of hesitation where sweeps become available. My whole system is built on the idea that innovation creates timing advantages—if they don't know what's coming, they can't time their defense properly, which means your offense has better timing by default. That's the secret.

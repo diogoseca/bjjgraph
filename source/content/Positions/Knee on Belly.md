@@ -13,10 +13,6 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 
 
 
-> **Quick Overview**: Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines hig...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -48,31 +44,19 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium |
 
-**What Makes This Position Unique:** Mobile pressure trading stability for speed
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Knee on Belly/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Knee on Belly/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Mobile pressure trading stability for speed
 
 
 
@@ -80,10 +64,13 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 <section id="bottom-summary" class="content-section">
 
-## Knee on Belly Bottom Perspective
+
+## Playing as Bottom
+
+[[Knee on Belly/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in knee on belly must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -129,7 +116,7 @@ The bottom player in knee on belly must focus on creating frames, protecting aga
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to bench press or push opponent away with arms extended**
@@ -161,16 +148,17 @@ The bottom player in knee on belly must focus on creating frames, protecting aga
   - ✅ Correction: Maintain chin tuck and keep at least one hand ready to defend collar grips while executing hip escape movements
 
 
-👉 **[[Knee on Belly/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Knee on Belly Top Perspective
+
+## Playing as Top
+
+[[Knee on Belly/Top|→ Full Top Guide]]
 
 
-The top player in knee on belly balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -219,7 +207,7 @@ The top player in knee on belly balances control maintenance with submission att
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Placing too much weight on the knee, causing loss of mobility and balance**
@@ -246,8 +234,6 @@ The top player in knee on belly balances control maintenance with submission att
   - Consequence: Loss of pressure and control, allowing opponent to create space and begin escaping
   - ✅ Correction: Keep shoulders and chest forward over opponent with hips high, directing pressure downward through knee
 
-
-👉 **[[Knee on Belly/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

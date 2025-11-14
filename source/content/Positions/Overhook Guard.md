@@ -13,10 +13,6 @@ description: "Master Overhook Guard in BJJ. Strategic guide covering control mec
 
 
 
-> **Quick Overview**: Overhook Guard is a specialized guard position where the bottom practitioner controls one of the opponent's arms with an overhook (overhand grip over the shoulder) while maintaining guard structure. T...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Offensive/Controlling |
-| Risk Level | Low to Medium | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium to Long | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Offensive/Controlling |
+| **Risk Level** | Low to Medium | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium to Long | Medium |
 
-**What Makes This Position Unique:** Arm control sacrifices symmetry for sweeps
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Overhook Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Overhook Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Arm control sacrifices symmetry for sweeps
 
 
 
@@ -88,10 +72,13 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 <section id="bottom-summary" class="content-section">
 
-## Overhook Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Overhook Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in overhook guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -140,7 +127,7 @@ The bottom player in overhook guard controls the position with offensive attacks
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Releasing overhook tension when opponent postures**
@@ -168,16 +155,17 @@ The bottom player in overhook guard controls the position with offensive attacks
   - ✅ Correction: Use overhook and opposite hand to block cross-face attempts, keeping head mobile and creating shoulder frames
 
 
-👉 **[[Overhook Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Overhook Guard Top Perspective
+
+## Playing as Top
+
+[[Overhook Guard/Top|→ Full Top Guide]]
 
 
-The top player in overhook guard balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -220,7 +208,7 @@ The top player in overhook guard balances control maintenance with submission at
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Releasing overhook pressure too early in anticipation of pass**
@@ -251,8 +239,6 @@ The top player in overhook guard balances control maintenance with submission at
   - Consequence: Missed opportunity for back take as opponent recovers to neutral position
   - ✅ Correction: When opponent turns, immediately transition to back take or maintain overhook while establishing better control
 
-
-👉 **[[Overhook Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

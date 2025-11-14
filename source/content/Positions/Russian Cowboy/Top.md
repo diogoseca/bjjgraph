@@ -8,7 +8,7 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 65% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 65%.
 
 ---
 
@@ -191,7 +191,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner maintains control of opponent's back with chest-to-back contact, keeping their torso aligned along the opponent's spine with weight distributed through the core
 - One leg hook is inserted under the opponent's near-side leg, with the foot positioned across the opponent's inner thigh or groin area to create rotational control
@@ -204,7 +204,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent in turtle position, quarter guard, or transitional scramble situation
 - Ability to secure back exposure and prevent opponent from returning to guard
@@ -232,7 +232,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Truck Entry]] → [[Truck]]
 
@@ -296,7 +296,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Granby Roll]]** → [[Open Guard]] (Opponent Success: 25%)
 - **[[Technical Standup]]** → [[Standing Guard]] (Opponent Success: 20%)
@@ -309,7 +309,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Transition to Truck]]** → [[Truck]]
   - Opponent attempts to roll forward or away from the hook
@@ -356,7 +356,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

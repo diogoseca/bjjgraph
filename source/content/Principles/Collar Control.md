@@ -8,7 +8,7 @@ description: "Master collar grip mechanics in BJJ. Learn deep grip penetration, 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master collar grip mechanics in BJJ. Learn deep grip penetration, 
 
 
 
-> **Quick Answer**: Collar Control is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Collar Control is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Collar Control represents the fundamental skill of gripping and manipulating opp
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Establish deep collar grips penetrating to opponent's far side for maximum control
 - Control opponent's head and spine positioning through collar manipulation
 - Use collar grips to break and maintain broken posture
@@ -181,7 +181,7 @@ Collar Control represents the fundamental skill of gripping and manipulating opp
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Deep Collar Grip Penetration**: The ability to progressively work hand deeper into collar opening, achieving palm-deep or knuckle-deep penetration to the far side of opponent's neck. This requires understanding collar opening mechanics, hand positioning to minimize grip breaking vulnerability, and progressive advancement technique.
 
 **Collar Drag Mechanics**: Using collar grips to pull opponent off-balance and create angles by dragging them laterally or diagonally. This involves timing the drag with opponent's forward pressure, understanding leverage points, and combining drags with footwork or hip movement to maximize displacement effect.
@@ -204,7 +204,7 @@ Collar Control represents the fundamental skill of gripping and manipulating opp
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Grip Fighting]]** (Prerequisite): Collar control depends on winning grip fighting exchanges to establish collar grips before opponent can prevent them or establish their own dominant grips
 - **[[Posture Breaking]]** (Complementary): Collar control is the primary mechanism for breaking opponent's posture in guard positions, while posture breaking is often the strategic objective of collar control
 - **[[Head Control]]** (Extension): Deep collar grips extend into direct head control by manipulating the collar material around opponent's neck and base of skull
@@ -220,7 +220,7 @@ Collar Control represents the fundamental skill of gripping and manipulating opp
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Deep collar grips break opponent's posture, prevent them from generating passing pressure, and set up cross collar chokes, triangles, and sweeps when combined with hip movement
 
 **Open Guard**: Collar grips maintain connection and prevent opponent from establishing advantageous passing angles while creating collar drag opportunities to off-balance and sweep
@@ -257,7 +257,7 @@ Collar Control represents the fundamental skill of gripping and manipulating opp
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess grip fighting situation and collar accessibility**: Determine if establishing collar grip is currently feasible and whether it should take priority over other grip objectives based on position and opponent's grip configuration
 2. **Choose appropriate collar grip type for current position**: Select same-side collar, cross collar, baseball grip, or pocket grip based on whether objective is posture breaking, submission setup, or position control
 3. **Establish initial collar contact and begin penetration**: Make initial grip on collar material and begin working hand progressively deeper, using grip fighting techniques to prevent opponent from stripping the grip
@@ -270,28 +270,28 @@ Collar Control represents the fundamental skill of gripping and manipulating opp
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Accepting shallow collar grips without working hand deeper
+## Common Mistakes
+- **Mistake**: Accepting shallow collar grips without working hand deeper
   - **Consequence**: Shallow grips provide minimal control, are easily stripped by opponent, and fail to break posture or create effective submission threats
   - **Correction**: Continuously work hand progressively deeper into collar opening, treating grip depth as ongoing objective rather than accepting initial shallow contact
-- **Error**: Maintaining passive collar grips without active pulling pressure
+- **Mistake**: Maintaining passive collar grips without active pulling pressure
   - **Consequence**: Static collar grips allow opponent to maintain posture, generate forward pressure, and advance their position while grip provides no actual control benefit
   - **Correction**: Constantly pull on collar grips to break posture and prevent opponent from establishing stable base, making collar control an active defensive and offensive tool
-- **Error**: Failing to combine collar control with other grips
+- **Mistake**: Failing to combine collar control with other grips
   - **Consequence**: Isolated collar grips are insufficient for comprehensive control and are easily countered by opponent establishing their own grips or using free limbs to pass or escape
   - **Correction**: Always pair collar control with complementary grips (sleeve, pants, belt) to create multi-point control system that limits opponent's options
-- **Error**: Using same collar grip configuration regardless of position
+- **Mistake**: Using same collar grip configuration regardless of position
   - **Consequence**: Each position has optimal collar grip types, and using inappropriate configurations reduces effectiveness and misses position-specific opportunities
   - **Correction**: Learn position-specific collar grip applications and adapt grip type based on current position and tactical objectives
-- **Error**: Neglecting grip fighting for collar priority
+- **Mistake**: Neglecting grip fighting for collar priority
   - **Consequence**: Opponent establishes their preferred grips first, preventing effective collar control and forcing practitioner into reactive defensive mode
   - **Correction**: Engage in proactive grip fighting to establish collar grips early in exchanges, using grip breaking and hand fighting to win collar priority
-- **Error**: Releasing collar grips prematurely during transitions
+- **Mistake**: Releasing collar grips prematurely during transitions
   - **Consequence**: Losing collar control during position changes eliminates positional advantage and allows opponent to recover posture, escape, or counter-attack
   - **Correction**: Maintain collar grips as long as possible during transitions, only releasing when absolutely necessary and immediately re-establishing when position stabilizes
-- **Error**: Overcommitting to collar attacks without proper setup
+- **Mistake**: Overcommitting to collar attacks without proper setup
   - **Consequence**: Rushing into collar chokes without sufficient grip depth or positional control leads to failed submissions and loss of dominant position
   - **Correction**: Ensure collar grip depth is adequate and position is secure before attempting submissions, using collar control primarily for position maintenance until high-percentage submission opportunity presents
 
@@ -300,7 +300,7 @@ Collar Control represents the fundamental skill of gripping and manipulating opp
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Grip Depth Progression Drilling** (Focus: Developing hand fighting skills, grip penetration mechanics, and ability to maintain grip depth against stripping attempts)
 Isolate collar grip establishment and practice working hand progressively deeper against increasing resistance levels
 
@@ -325,7 +325,7 @@ Free rolling with conscious emphasis on establishing collar control early in exc
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Establishes shallow collar grips but fails to work hand deeper into collar opening
 - Maintains static collar grips without active pulling pressure to break posture
@@ -367,7 +367,7 @@ Free rolling with conscious emphasis on establishing collar control early in exc
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Closed Guard]] (Position) - Primary application position where collar control enables posture breaking and submission setups
 - [[Spider Guard]] (Position) - Guard variation that heavily emphasizes collar control combined with foot placement for maximum extension
@@ -387,7 +387,7 @@ Free rolling with conscious emphasis on establishing collar control early in exc
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches collar control as the most powerful grip in gi BJJ due to its direct connection to choking mechanics and head positioning control. Emphasizes systematic progression of collar grip depth, teaching practitioners to continuously work hand deeper into collar opening rather than accepting shallow grips. Treats collar-based attacks as a comprehensive system where collar control seamlessly transitions between position control, posture breaking, and direct submission application. Particularly emphasizes the concept of 'collar priority' where establishing deep collar grips should often take precedence over other grip objectives. Views collar control as the primary weapon in closed guard, teaching that achieving palm-deep penetration to opponent's far collar fundamentally changes the power dynamic of the position by making posture maintenance nearly impossible while creating immediate cross collar choke threats. Integrates collar control into his systematic approach by teaching specific collar grip configurations for each major position, ensuring students understand not just how to grip the collar but which type of collar grip serves which tactical purpose.
 - **Gordon Ryan**: Uses collar control extensively throughout his gi game, particularly in closed guard where collar grips enable simultaneous posture breaking and submission threats. Focuses on establishing collar control as early as possible in exchanges and maintaining it throughout position changes, recognizing that collar grips provide maximum return on grip fighting investment. Emphasizes the importance of deep collar grip penetration before attempting chokes, often spending significant time working hand progressively deeper while maintaining other control elements. Notes that at elite levels, collar control often determines who controls the pace and direction of exchanges, with the practitioner who establishes dominant collar grips first typically dictating the terms of engagement. Demonstrates particular effectiveness using collar drags from guard to create angles for sweeps and back takes, treating collar control not just as static grip but as dynamic tool for creating off-balancing and positional opportunities. In competition, shows willingness to invest heavily in grip fighting battles specifically for collar control, understanding that winning collar priority early often determines outcome of entire exchange.
 - **Eddie Bravo**: While primarily focused on no-gi competition where collar grips are unavailable, has integrated collar control concepts into his gi curriculum particularly for street applications where clothing provides similar control points. Emphasizes the power of collar-based control for self-defense scenarios where compliance can be generated quickly through choking pressure. When teaching gi, encourages creative collar grip applications that set up both traditional chokes and unconventional attacks, viewing collar control as creating opponent dilemmas where defensive choices open alternative attacking opportunities. Appreciates collar control's effectiveness for controlling distance and preventing opponent from closing gap or creating pressure in standing exchanges. Recognizes that while his system emphasizes positions and attacks that translate to no-gi, collar control represents one of the most significant advantages available in gi-specific contexts. Teaches students to exploit collar control aggressively when available, particularly in self-defense scenarios where clothing grips provide immediate path to dominant control and submission. Views deep collar grips as equalizer that allows smaller practitioners to control larger opponents through superior positional understanding rather than pure strength.

@@ -8,7 +8,7 @@ description: "Master Side Control Defensive Framework in BJJ. Learn systematic e
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Side Control Defensive Framework in BJJ. Learn systematic e
 
 
 
-> **Quick Answer**: Side Control Defensive Framework is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Side Control Defensive Framework is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ The framework scales across skill levels: beginners focus on survival and basic 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Establish defensive frames immediately to prevent mount transition and create breathing room
 - Protect neck and far arm as primary targets while maintaining positional awareness
 - Create and maintain space through strategic hip movement and shoulder frames
@@ -185,7 +185,7 @@ The framework scales across skill levels: beginners focus on survival and basic 
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Defensive Frame Construction**: Ability to rapidly establish arm frames (forearm to neck, hand to hip) that create structural barriers preventing mount transitions while maintaining space for breathing and movement. Includes understanding optimal frame angles, pressure distribution, and when to adjust frames based on opponent movement.
 
 **Hip Escape Mechanics**: Technical execution of shrimping movements that create separation from opponent, recover guard position, or enable knee insertion. Involves coordinating bridge-and-turn motions, timing hip movements with opponent pressure shifts, and maintaining frames during escape sequences.
@@ -208,7 +208,7 @@ The framework scales across skill levels: beginners focus on survival and basic 
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Escape Hierarchy]]** (Prerequisite): Understanding systematic escape prioritization (survival → space → position recovery) provides foundation for framework application. Side Control Defensive Framework implements escape hierarchy specifically for side control scenarios.
 - **[[Frame Management]]** (Complementary): Frame creation and maintenance forms core defensive structure within framework. Effective framing enables all subsequent escape mechanics and space creation.
 - **[[Hip Escape Mechanics]]** (Complementary): Shrimping and hip movement provide primary escape execution method. Framework contextualizes when and how to apply hip escapes within side control defense.
@@ -225,7 +225,7 @@ The framework scales across skill levels: beginners focus on survival and basic 
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Side Control**: Primary application context where all framework principles directly apply. Practitioner uses frames, hip movement, and escape hierarchy to systematically work from worst-case scenarios to guard recovery.
 
 **Kesa Gatame**: Modified application requiring adjusted frame angles due to perpendicular body orientation. Hip escape mechanics remain similar but require different initial space creation due to opponent headlock position.
@@ -252,7 +252,7 @@ The framework scales across skill levels: beginners focus on survival and basic 
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess immediate submission threats (chokes, arm locks) and position stability**: If submissions imminent: protect neck (chin down) and tuck far arm (elbow to ribs). If stable: proceed to frame establishment while maintaining defensive posture.
 2. **Evaluate opponent's weight distribution and control point emphasis**: If weight forward (shoulder pressure): establish strong frames pushing into neck and hip. If weight back or transitioning: capitalize with immediate hip escape attempt.
 3. **Determine frame construction priority based on mount threat**: If opponent attempting mount: prioritize bottom arm frame to hip blocking knee advancement. If mount not imminent: establish balanced frames (forearm to neck, hand to hip) for optimal space.
@@ -265,28 +265,28 @@ The framework scales across skill levels: beginners focus on survival and basic 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Allowing flat back position with shoulders on mat
+## Common Mistakes
+- **Mistake**: Allowing flat back position with shoulders on mat
   - **Consequence**: Eliminates hip mobility, prevents effective escapes, enables opponent to consolidate pressure and advance to mount. Creates crushing pressure making breathing difficult and energy conservation impossible.
   - **Correction**: Maintain side angle by keeping one shoulder off mat throughout defense. Turn slightly toward opponent to preserve hip mobility and create angles for escape mechanics.
-- **Error**: Using only upper body strength to push opponent away without hip movement
+- **Mistake**: Using only upper body strength to push opponent away without hip movement
   - **Consequence**: Rapidly exhausts energy reserves while opponent maintains position effortlessly. Creates muscle fatigue without positional improvement, leaving practitioner vulnerable when strength fails.
   - **Correction**: Coordinate frames with hip escape movements. Frames create space while hips move; neither works effectively alone. Use frames to redirect opponent pressure rather than overcome it through strength.
-- **Error**: Attempting immediate underhook without establishing frames first
+- **Mistake**: Attempting immediate underhook without establishing frames first
   - **Consequence**: Exposes back to taking or enables opponent to isolate arm for submissions. Premature underhook attempts often result in worse positions (back control, crucifix, Kimura).
   - **Correction**: Establish defensive frames and create initial space before fighting for underhooks. Ensure opponent weight is managed before committing arms to underhook battles.
-- **Error**: Bringing far knee up too early before creating sufficient space
+- **Mistake**: Bringing far knee up too early before creating sufficient space
   - **Consequence**: Opponent easily blocks knee with crossface or body pressure, potentially transitioning to mount. Premature knee movement telegraphs escape intention and gets easily countered.
   - **Correction**: Create substantial space through multiple hip escapes before attempting knee insertion. Ensure enough room exists for knee to successfully come across without getting blocked.
-- **Error**: Bridging straight up without angle or strategic timing
+- **Mistake**: Bridging straight up without angle or strategic timing
   - **Consequence**: Opponent easily rides bridge by posting, wastes energy, and creates no positional improvement. Random bridging without purpose accomplishes nothing except exhaustion.
   - **Correction**: Bridge at angle toward opponent's head or hips (creating rotation) and only during opponent transitions or grip changes. Use bridges strategically to disrupt base, not as primary escape method.
-- **Error**: Neglecting to protect neck from crossface during escape attempts
+- **Mistake**: Neglecting to protect neck from crossface during escape attempts
   - **Consequence**: Opponent establishes dominant crossface control, preventing head movement and enabling easy transitions to mount or north-south. Crossface dramatically reduces escape success rates.
   - **Correction**: Maintain constant awareness of top arm protecting against crossface. Keep elbow tight and forearm ready to block crossface attempts even while executing other defensive actions.
-- **Error**: Giving up on systematic escapes and accepting position passively
+- **Mistake**: Giving up on systematic escapes and accepting position passively
   - **Consequence**: Opponent consolidates position comfortably, advances to better positions, or sets up submissions. Passive acceptance creates no pressure on opponent and guarantees positional loss.
   - **Correction**: Maintain constant intelligent defensive activity. Even when escape attempts fail, continued systematic effort creates opportunities and prevents opponent consolidation. Never stop working the framework.
 
@@ -295,7 +295,7 @@ The framework scales across skill levels: beginners focus on survival and basic 
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Resistance Drilling** (Focus: Building muscle memory for frame construction and hip escape mechanics without overwhelming practitioner. Develops confidence in techniques before facing full resistance.)
 Partner begins with light pressure allowing successful escapes, gradually increasing resistance as technique improves. Each session, training partner adds slightly more realistic pressure, submission attempts, or positional advancement.
 
@@ -320,7 +320,7 @@ Study high-level competitors escaping side control, identifying framework princi
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Establishes basic frames (forearm to neck, hand to hip) preventing immediate mount transition
 - Protects neck from crossface and keeps far arm tucked avoiding obvious submissions
@@ -364,7 +364,7 @@ Study high-level competitors escaping side control, identifying framework princi
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Side Control]] (Position) - Primary application position where all framework principles directly apply
 - [[Escape Hierarchy]] (Principle) - Foundational concept providing systematic escape prioritization structure
@@ -382,7 +382,7 @@ Study high-level competitors escaping side control, identifying framework princi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The systematic defensive framework for side control represents one of the most important conceptual structures in all of Jiu-Jitsu because side control is simultaneously one of the most common dominant positions and one of the most escapable when approached correctly. The key insight is understanding that escape is not a single explosive movement but rather a systematic progression through clearly defined stages: first survival and frame establishment, then space creation through coordinated hip movement, and finally position recovery through guard reconstruction. Most students fail in side control defense not because they lack individual techniques, but because they lack the systematic framework connecting these techniques into a coherent whole. They attempt random escape movements without understanding the hierarchical relationship between survival, space, and position recovery. The framework teaches us that each stage must be successfully completed before advancing to the next - attempting guard recovery without sufficient space creation is as futile as attempting submissions without positional control. Furthermore, the framework reveals the critical importance of timing: escape attempts must be synchronized with opponent weight shifts, grip changes, or transitions when control is temporarily reduced. The sophisticated practitioner develops sensitivity to these micro-opportunities, exploiting them systematically rather than relying on strength or explosive athleticism. This transforms side control defense from desperate struggle into calculated systematic progression.
 - **Gordon Ryan**: In competition, side control defense separates winners from losers more than almost any other skill because everyone will end up on bottom in side control at some point - the question is whether you can escape efficiently or whether you burn out fighting uselessly. The framework approach is critical because it gives you a systematic plan when you're under pressure and might otherwise panic. I focus heavily on two specific elements: first, never letting them settle their weight and get comfortable, and second, creating constant dilemmas where every defensive action I take sets up multiple escape options. Frame management is absolutely non-negotiable - if you don't establish frames immediately, you're going to get smashed, transitioned to mount, or submitted. But frames alone aren't enough; you need to coordinate them with hip movement to create actual space. The timing element is huge in high-level competition. Against elite opponents, you're not going to muscle your way out through strength - you have to recognize the split-second windows when they adjust their base or change grips and capitalize immediately. I also emphasize accepting strategic bad positions sometimes. If someone's about to take my back and I can give up side control instead, I'll take side control every time because I have confidence in my systematic approach to escaping it. That confidence comes from drilling the framework until it's automatic, so when you're exhausted in competition and someone gets side control, your body executes the systematic progression without your brain having to think about it.
 - **Eddie Bravo**: The traditional side control defense framework is solid but I teach students to add some unconventional elements that catch people off guard and create unique escape opportunities. The basic frame and shrimp approach works, but everyone expects it, so I like to add some misdirection and creative options that open up when traditional escapes get shut down. For example, when someone's really smashing you in side control and the standard hip escape isn't working, sometimes going to deep half guard or even inverting and attacking the truck position can completely change the game. The framework should include these alternative routes, not just the classic elbow escape progression. I also emphasize the underhook battle more than traditional approaches because getting that underhook and coming up to dogfight gives you so many offensive options - you can sweep, take the back, or hit submissions from there. Another thing I focus on is using the lockdown when they try to knee slice or if you can get them into half guard - that lockdown gives you powerful control and sets up all kinds of sweeps and electric chair submissions. The framework shouldn't be rigid; it should be fluid and give you options to adapt based on what your opponent gives you. If the standard escape route is blocked, you should have three other creative routes ready to go. That's what makes defensive frameworks truly complete - not just having the fundamental systematic approach, but also having the creative adaptations for when fundamentals get countered.

@@ -8,7 +8,7 @@ description: "Learn Guillotine Counter in BJJ. Step-by-step execution from Guill
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Guillotine Counter in BJJ. Step-by-step execution from Guill
 
 
 
-> **Quick Answer**: Guillotine Counter transitions from [[Guillotine Control]] to [[Side Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+> Guillotine Counter transitions from [[Guillotine Control]] to [[Side Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Guillotine Counter is a critical defensive technique that transforms a dange
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain strong posture with chin tucked to prevent deep choke penetration
 - Drive weight and pressure through opponent's chest to flatten their posture
 - Control opponent's choking arm at the wrist or elbow to reduce leverage
@@ -186,7 +186,7 @@ The Guillotine Counter is a critical defensive technique that transforms a dange
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent has secured guillotine grip around your neck
 - Immediate recognition of choke threat before it becomes fully locked
 - Strong base with feet positioned for forward drive
@@ -199,7 +199,7 @@ The Guillotine Counter is a critical defensive technique that transforms a dange
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Recognize and posture**: The moment you feel the guillotine being applied, tuck your chin tightly to your chest and drive your head toward the non-choking side. Maintain a strong, upright posture with your hips forward and shoulders back. Do not allow opponent to break you down or pull your head below their chest level. (Timing: Immediate - within 1 second of feeling the choke)
 2. **Establish hand control**: Your arm on the choking side reaches across your body to grip opponent's choking wrist or forearm. Your opposite hand posts on the mat or grips opponent's hip for base. This hand control is critical to prevent opponent from tightening the choke or adjusting their grip. (Timing: Simultaneous with posture establishment)
 3. **Drive forward pressure**: Using your legs and core, drive your weight forward and down through opponent's chest. Your shoulder on the non-choking side drives into their sternum, flattening their posture and reducing their ability to lift or arch. This pressure makes it difficult for them to generate choking force. (Timing: Continuous pressure - 2-3 seconds)
@@ -213,7 +213,7 @@ The Guillotine Counter is a critical defensive technique that transforms a dange
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent switches to high elbow guillotine variation for tighter finish** (Effectiveness: High) - Your Response: Immediately increase forward pressure and drive your shoulder deeper into their chest while maintaining hand control on their choking wrist. The high elbow variation requires them to maintain distance, which forward pressure negates.
 - **Opponent jumps to closed guard to add body weight to the choke** (Effectiveness: Medium) - Your Response: Widen your base, posture up aggressively, and use your free hand to break the guard open while maintaining head position on the safe side. Do not allow your posture to collapse.
 - **Opponent transitions to arm-in guillotine when you attempt hand control** (Effectiveness: Medium) - Your Response: Accept the arm-in position but maintain strong posture and continue driving forward pressure. The arm-in guillotine is generally less dangerous than the standard guillotine if proper posture is maintained.
@@ -222,25 +222,25 @@ The Guillotine Counter is a critical defensive technique that transforms a dange
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Pulling head straight back instead of circling to the safe side
+## Common Mistakes
+- **Mistake**: Pulling head straight back instead of circling to the safe side
   - **Consequence**: This tightens the choke and makes escape nearly impossible as you're pulling directly into their leverage
   - **Correction**: Always circle your body and head toward the non-choking side while maintaining forward pressure. The escape is circular, not linear.
-- **Error**: Failing to establish hand control on the choking arm
+- **Mistake**: Failing to establish hand control on the choking arm
   - **Consequence**: Opponent can adjust grip, tighten the choke, or transition to other submissions without resistance
   - **Correction**: Immediately grip opponent's choking wrist or forearm with your same-side hand to limit their ability to adjust or tighten.
-- **Error**: Allowing opponent to break down your posture by pulling you forward
+- **Mistake**: Allowing opponent to break down your posture by pulling you forward
   - **Consequence**: Once posture is broken, the choke becomes significantly more dangerous and escape becomes much more difficult
   - **Correction**: Drive hips forward, keep shoulders back, and maintain rigid spine alignment. Fight to keep your head above their chest level.
-- **Error**: Panicking and using explosive movements without technique
+- **Mistake**: Panicking and using explosive movements without technique
   - **Consequence**: Wastes energy, tightens the choke, and prevents systematic escape. Often leads to tapping unnecessarily
   - **Correction**: Remain calm, breathe through your nose if possible, and execute the defensive sequence methodically. Technique overcomes panic.
-- **Error**: Stopping pressure once the choke feels less tight
+- **Mistake**: Stopping pressure once the choke feels less tight
   - **Consequence**: Opponent can re-establish the choke or transition to other attacks if you don't fully complete the escape to dominant position
   - **Correction**: Continue driving pressure and circling until you have completely extracted your head and established side control or another dominant position.
-- **Error**: Tucking chin too late or not tucking it tightly enough
+- **Mistake**: Tucking chin too late or not tucking it tightly enough
   - **Consequence**: Allows opponent to get deep grip under your chin, making the choke much more dangerous and difficult to escape
   - **Correction**: Chin must be tucked immediately when you sense the guillotine attempt, creating a barrier between their forearm and your throat.
 
@@ -249,7 +249,7 @@ The Guillotine Counter is a critical defensive technique that transforms a dange
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Recognition and Posture** - Developing immediate recognition of guillotine threats and proper postural response
 Partner applies light guillotine grip from various positions. Practice immediate chin tuck, posture maintenance, and hand control. Focus on feeling the difference between proper and compromised posture. No resistance from partner.
 (Resistance: None)
@@ -280,7 +280,7 @@ Incorporate guillotine defense into regular training without specific setup. Dev
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standing Guillotine Counter to Takedown**: When caught in standing guillotine, maintain same defensive principles but finish by driving opponent to their back rather than achieving side control. Circle away from choking arm while driving forward, then step leg through to complete takedown into top position. (When to use: When opponent attempts guillotine during takedown scrambles or when both athletes are standing)
 
 **Arm-In Guillotine Counter with Arm Extraction**: If opponent secures arm-in guillotine variation, first maintain posture and drive pressure, then systematically extract your trapped arm by pushing their choking arm down with your free hand while pulling your trapped arm up and out. Complete escape as normal. (When to use: When opponent converts to arm-in variation or when your hand control attempt results in arm-in position)
@@ -320,7 +320,7 @@ Incorporate guillotine defense into regular training without specific setup. Dev
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing guillotine counters, both partners must exercise caution to prevent injury. The person applying the guillotine should release pressure immediately upon tap or if they sense their partner's defense is failing. Prolonged exposure to choking pressure can cause injury even in training. The defending practitioner should tap early and often during learning phases rather than risk injury by fighting through a fully locked submission. Training partners should communicate clearly about pressure levels, starting with light resistance and gradually increasing as technical proficiency improves. Be aware of mat boundaries during the forward drive portion of the defense, as aggressive movement can result in collision with walls or other training partners. Never practice this technique with full resistance until both partners demonstrate technical competency in controlled drilling. Remember that the goal in training is skill development, not proving toughness by refusing to tap.
 
@@ -328,7 +328,7 @@ When practicing guillotine counters, both partners must exercise caution to prev
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Guillotine Counter is a critical component of front headlock defense and scramble management systems. It connects directly to guard passing scenarios where opponent attempts guillotine from bottom, takedown situations where guillotine is used as a counter to shots, and transition moments where guillotines appear during position changes. After successfully defending the guillotine, practitioners advance to Side Control, which is a cornerstone offensive position offering numerous submission and control options. This counter also integrates with broader defensive strategies including Guard Recovery when defense is partially successful, and connects to submission defense frameworks that teach systematic responses to all major submission threats. Understanding this counter improves confidence in scrambles and reduces hesitation when engaging in positions where guillotines are common, such as Front Headlock, Turtle, and various guard-pulling situations. The technique is equally valuable in gi and no-gi contexts, making it a fundamental skill for well-rounded grapplers.
 
@@ -336,7 +336,7 @@ The Guillotine Counter is a critical component of front headlock defense and scr
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Guillotine Defense]] - Core defensive technique - systematic approach to defending all guillotine variations
 - [[Guillotine Choke]] - Offensive technique being countered - understanding the attack improves defense
@@ -354,7 +354,7 @@ The Guillotine Counter is a critical component of front headlock defense and scr
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The guillotine counter exemplifies a fundamental principle of submission defense: the systematic negation of leverage through positional dominance. The guillotine, like all chokes, requires specific geometric relationships to function - the opponent must create an upward arch while maintaining distance and angle. Our defensive strategy systematically dismantles each of these requirements. Forward pressure eliminates the arch, hand control prevents grip adjustments that create angle, and the circular escape pattern removes our neck from the leverage point. Students must understand that panic is the guillotine's greatest ally. The choke itself takes time to render unconsciousness, but panic causes practitioners to abandon technique and strengthen the opponent's position through chaotic movement. Train this defense slowly, understand the mechanical relationship between each defensive component and the submission's requirements, and develop the mental composure to execute technique under pressure. The practitioner who masters guillotine defense gains access to positions and transitions that others must avoid due to submission fear.
 - **Gordon Ryan**: In competition, guillotines are everywhere because they're high-percentage submissions that appear in scrambles, guard pulls, and takedown situations. You cannot avoid guillotine exposure if you want to have an aggressive game, so your defense must be automatic and reliable. I've been caught in countless guillotine attempts and the difference between tapping and winning is immediate recognition and perfect execution of defensive fundamentals. The second I feel the grip, my chin tucks, my posture straightens, and I'm driving pressure before they can secure anything tight. Most guillotines in competition fail not because the person doesn't know the choke, but because the defender executes perfect defense faster than they can finish. Train this counter until the responses are completely automatic - you don't have time to think through steps when someone jumps guard with a guillotine. Your body needs to know exactly what to do. Also, use this counter aggressively to advance position. Don't just survive the guillotine, use it as an opportunity to pass guard or take top position.
 - **Eddie Bravo**: The beautiful thing about the guillotine counter is that it's pure leverage mechanics that work in both gi and no-gi, which is rare. In the 10th Planet system, we see a lot of guillotine attempts because we're constantly inverting, coming up on singles, and creating scrambles. What I teach my students is that the guillotine is actually a gift if you know how to defend it properly, because the person committing to the guillotine is giving up position and control for a submission attempt. When you counter it correctly, you end up in side control while they've wasted energy on a failed submission. The key innovation we've added is being even more aggressive with the forward pressure - think of it as a smash pass through a guillotine. We also emphasize the hand control aspect more than traditional schools because in no-gi, that grip can get adjusted lightning fast without friction. Grab that wrist, drive that pressure, and circle to safety. Once you get comfortable defending guillotines, you can actually bait them and use them as entries to dominant positions, which is next level strategy.

@@ -8,7 +8,7 @@ description: "Master the Omoplata Sweep from closed guard. Step-by-step executio
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Omoplata Sweep from closed guard. Step-by-step executio
 
 
 
-> **Quick Answer**: Omoplata Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Omoplata Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Omoplata Sweep is a sophisticated sweeping technique that combines the threa
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create the omoplata threat first to force opponent's defensive reaction
 - Use opponent's posture and base against them by timing the sweep with their counter-movement
 - Maintain leg positioning across opponent's back to prevent them from rolling out
@@ -186,7 +186,7 @@ The Omoplata Sweep is a sophisticated sweeping technique that combines the threa
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Closed guard established with secure ankle lock
 - Opponent's posture broken forward with head pulled down below your centerline
 - Strong grip on opponent's sleeve or wrist on the arm you'll attack
@@ -199,7 +199,7 @@ The Omoplata Sweep is a sophisticated sweeping technique that combines the threa
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish control and break posture**: From closed guard, secure a strong grip on your opponent's right sleeve or wrist with your left hand. Pull their arm across your centerline while simultaneously breaking their posture by pulling their head down with your right hand behind their neck or gripping their collar. This initial control is critical—without breaking posture, the opponent can easily defend the subsequent attack. (Timing: Take 2-3 seconds to establish solid control before proceeding)
 2. **Open guard and pivot hips**: Release your ankle lock and begin pivoting your hips perpendicular to your opponent. Your left hip should rotate toward their right side while you maintain control of their trapped right arm. This angular change is essential for creating the proper leverage angle for both the omoplata and the sweep. Keep your shoulders on the mat as you pivot to maintain stability. (Timing: Explosive movement combined with maintaining arm control)
 3. **Swing leg over shoulder**: Bring your left leg over your opponent's right shoulder, threading it across their upper back. Your left knee should come across their shoulder blade area while your shin creates a barrier preventing them from rolling forward. Simultaneously, your right leg should hook around their hip or torso to prevent them from backing away. This leg positioning creates the omoplata framework. (Timing: Smooth, controlled movement to prevent opponent from pulling their arm free)
@@ -213,7 +213,7 @@ The Omoplata Sweep is a sophisticated sweeping technique that combines the threa
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent pulls their arm free before leg swings over** (Effectiveness: High) - Your Response: Maintain tighter sleeve control from the start and break posture more effectively. If they pull free, transition to triangle setup or switch to opposite side attack.
 - **Opponent rolls forward with the omoplata to escape** (Effectiveness: Medium) - Your Response: Anticipate the roll and use their momentum to complete the sweep more explosively. Follow their roll and establish mount as they come up. Alternatively, maintain the omoplata and finish from the new angle.
 - **Opponent posts their free hand to prevent sweep** (Effectiveness: Medium) - Your Response: Control or attack the posting arm immediately—either trap it with your right hand or threaten a kimura on that arm. This creates another dilemma and often forces them to abandon the post.
@@ -223,25 +223,25 @@ The Omoplata Sweep is a sophisticated sweeping technique that combines the threa
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting sweep without establishing genuine omoplata threat first
+## Common Mistakes
+- **Mistake**: Attempting sweep without establishing genuine omoplata threat first
   - **Consequence**: Opponent has no reason to react defensively, making the sweep telegraphed and easy to counter. The sweep becomes a pure strength battle.
   - **Correction**: Always create real submission pressure first. Sit up into the omoplata position and make opponent feel the shoulder lock threat before attempting the sweep. Their defensive reaction creates the sweep opportunity.
-- **Error**: Losing control of opponent's trapped arm during sweep execution
+- **Mistake**: Losing control of opponent's trapped arm during sweep execution
   - **Consequence**: Opponent can post with the freed arm to prevent the sweep or can pull their arm completely free and escape the position entirely.
   - **Correction**: Maintain constant tension on the sleeve grip throughout the entire movement. Your grip should be the last thing to release, only after you've established top position.
-- **Error**: Insufficient hip rotation to create proper leverage angle
+- **Mistake**: Insufficient hip rotation to create proper leverage angle
   - **Consequence**: Sweep becomes ineffective because you're trying to lift opponent straight up rather than using angular leverage. Requires excessive strength and usually fails.
   - **Correction**: Pivot your hips completely perpendicular to opponent before attempting sweep. Your shoulders should be nearly 90 degrees to theirs, creating maximum mechanical advantage.
-- **Error**: Failing to secure leg position across opponent's back
+- **Mistake**: Failing to secure leg position across opponent's back
   - **Consequence**: Opponent can easily roll out of the omoplata or simply pull away, completely neutralizing both the submission threat and sweep opportunity.
   - **Correction**: Lock your left foot to your right hip or thigh, creating a tight figure-four across opponent's back. Your shin should be a solid barrier preventing any forward roll escape.
-- **Error**: Not committing fully to the forward roll
+- **Mistake**: Not committing fully to the forward roll
   - **Consequence**: Half-hearted sweep attempt fails and leaves you in an awkward position where opponent can pass your guard or escape the omoplata entirely.
   - **Correction**: Once you initiate the sweep, commit completely. Drive your hips forward explosively and follow through until you've completely reversed position. Hesitation guarantees failure.
-- **Error**: Neglecting to control opponent's hips with right leg
+- **Mistake**: Neglecting to control opponent's hips with right leg
   - **Consequence**: Opponent can back away or reposition their base, escaping both the omoplata and the sweep attempt while potentially passing your guard.
   - **Correction**: Your right leg must actively hook around opponent's hip or torso throughout the technique. This hook prevents backward movement and helps drive them forward during the sweep.
 
@@ -250,7 +250,7 @@ The Omoplata Sweep is a sophisticated sweeping technique that combines the threa
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Fundamental Movement (Weeks 1-2)** - Hip rotation and leg positioning
 Practice the basic hip pivot and leg swing movement pattern without resistance. Start from closed guard and drill the motion of opening guard, pivoting hips perpendicular, and swinging leg over partner's shoulder. Focus on smooth, controlled movement and proper body mechanics. Repeat 20-30 repetitions per training session.
 (Resistance: None)
@@ -281,7 +281,7 @@ Refine your setups and timing through competition-style rolling. Develop backup 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi Omoplata Sweep**: Without gi grips available, control the wrist with a figure-four grip or two-on-one control. Establish the omoplata position by swimming your arm under theirs and controlling their tricep. The sweep mechanics remain the same, but you must be more careful about maintaining arm control since you can't grip the sleeve. (When to use: In no-gi or MMA contexts where gi grips aren't available)
 
 **Omoplata Sweep to Back Take**: Instead of completing the sweep to mount, maintain your leg control across opponent's back and rotate to take their back as they're swept. Your right leg hooks their far hip while your left leg controls their near shoulder. This variation is especially effective when opponent is defending the sweep by turning into you. (When to use: When opponent's defensive reaction creates back exposure, or when back control is more valuable than mount in competition scenario)
@@ -321,7 +321,7 @@ Refine your setups and timing through competition-style rolling. Develop backup 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The omoplata sweep should be practiced with controlled execution to protect both practitioners. When learning the technique, execute the sweep at moderate speed until both partners understand the mechanics—sudden, explosive sweeps during drilling can cause the top person to land awkwardly and injure their shoulder or neck. The person being swept should be prepared for the rotation and should practice proper breakfall technique. For the bottom person executing the sweep, be mindful of your partner's shoulder throughout the movement—maintain the omoplata position without applying excessive pressure during drilling phases. Avoid cranking or jerking the trapped arm, as the shoulder is vulnerable in this position. When practicing with resistance, both partners should communicate clearly, and the person being swept should tap if they feel unsafe or if the shoulder lock pressure becomes uncomfortable. Start all drilling from stationary positions and gradually add movement only after both partners are comfortable with the mechanics.
 
@@ -329,7 +329,7 @@ The omoplata sweep should be practiced with controlled execution to protect both
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The omoplata sweep is a central technique in the closed guard attack system and represents an important example of combining submission threats with sweeping mechanics. It integrates seamlessly with other closed guard fundamentals like the hip bump sweep, scissor sweep, and pendulum sweep, creating a comprehensive offensive system. The technique connects directly to the triangle-armbar-omoplata attack chain that every BJJ practitioner should develop. From a systematic perspective, the omoplata sweep teaches the crucial principle of creating dilemmas—forcing opponents to choose between defending a submission and defending a sweep, with either choice leading to your advantage. This technique also serves as a gateway to understanding how guard attacks should flow together: if the omoplata sweep is defended, you can transition to back takes, armbars, triangles, or other sweeps based on how the opponent responds. In the broader context of BJJ strategy, the omoplata sweep exemplifies the concept of using technique and leverage rather than strength, making it valuable for smaller practitioners against larger opponents. It's particularly relevant in gi-based competition strategies where grip fighting and positional control are emphasized.
 
@@ -337,7 +337,7 @@ The omoplata sweep is a central technique in the closed guard attack system and 
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Omoplata]] - Primary submission threat that creates sweep opportunity
 - [[Omoplata from Guard]] - Direct submission finish if opponent defends sweep incorrectly
@@ -357,7 +357,7 @@ The omoplata sweep is a central technique in the closed guard attack system and 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The omoplata sweep represents a perfect example of what I call 'defensive dilemma creation'—you create a situation where the opponent's defensive response to one threat automatically creates vulnerability to another threat. The mechanical efficiency of this sweep comes from proper angular alignment and the use of the opponent's defensive momentum against them. Too many students attempt to force the sweep through strength, which fundamentally misunderstands the technique. The sweep should feel effortless when properly executed because you're redirecting the opponent's energy rather than creating your own. Pay particular attention to the geometry of your hip rotation—your perpendicular angle to the opponent isn't merely aesthetic, it's biomechanically essential for creating the rotational force needed to overcome their base. The leg configuration across their back serves as both a control mechanism and a lever, while the trapped arm prevents them from establishing a posting point that would neutralize your leverage advantage. Master the principle here—control the opponent's defensive options through positional pressure, then capitalize on whichever defense they choose. This is systematic BJJ at its finest.
 - **Gordon Ryan**: The omoplata sweep is one of my highest percentage attacks from closed guard in competition because it puts opponents in an impossible situation—they can't defend both the submission and the sweep simultaneously. In my experience competing at the highest levels, the key to making this work against elite opponents is selling the omoplata finish convincingly. You absolutely must make them feel real shoulder lock pressure, otherwise they'll recognize the sweep attempt and shut it down immediately. Against high-level guys, I focus on maintaining extremely tight leg control across their back and really sitting up into the shoulder lock before I attempt the sweep. Their reaction to that pressure is what creates the sweep opportunity. One thing I've learned is to be patient—don't rush the sweep the moment you get your leg over. Let them feel uncomfortable, let them start defending, then use that defensive movement. Also, be ready to follow up because good opponents will defend the initial sweep attempt. I'll often chain this directly into triangle attacks or arm drags to the back when they defend. The omoplata sweep isn't just one technique—it's an entry point into my entire closed guard offense system.
 - **Eddie Bravo**: The omoplata sweep is fundamental in the 10th Planet system because it connects perfectly with our mission control and rubber guard attacks. What I love about this sweep is how it embodies our philosophy of control before submission—you're using the threat of the finish to create the positional advancement. In our system, we hit this sweep all the time from various positions, not just traditional closed guard. From mission control especially, the omoplata sweep becomes even more powerful because you already have the angle and leg positioning established. The key detail most people miss is actively using that bottom leg that hooks the hip—don't just let it be passive, really drive with that hook to prevent them from backing out. We also train a lot of the rolling variation where if they try to roll out of the standard omoplata, you roll with them and often end up in mounted omoplata or taking the back. In no-gi, which is our specialty, you have to be extra tight with your arm control since you can't rely on gi grips. I teach students to get a figure-four grip or two-on-one control on that trapped arm before you commit to the sweep. The omoplata sweep fits perfectly into our concept of creating submission chains and dilemmas—it's beautiful jiu-jitsu that works at every level from white belt to black belt.

@@ -1124,7 +1124,7 @@ Master all BJJ submission techniques. Complete guide to chokes, joint locks, and
 - **Total Submissions**: 132
 - **Items with complete content**: 132
 - **Items needing JSON updates**: 0
-- **Last Updated**: November 12, 2025
+- **Last Updated**: November 14, 2025
 
 ---
 

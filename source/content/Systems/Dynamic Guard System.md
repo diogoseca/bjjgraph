@@ -137,7 +137,7 @@ description: "Master Dynamic Guard System in BJJ. Comprehensive framework for ma
 
 
 
-> **Quick Answer**: Dynamic Guard System is a intermediate difficulty Guard System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Dynamic Guard System is a intermediate difficulty Guard System system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Guard System
@@ -156,7 +156,7 @@ The Dynamic Guard System represents a modern approach to guard play that priorit
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Constant movement prevents opponent from establishing stable passing positions
 - Grip fighting determines the pace and direction of engagement
 - Position switching creates confusion and opens offensive opportunities
@@ -170,7 +170,7 @@ The Dynamic Guard System represents a modern approach to guard play that priorit
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Guard Switching Matrix** (Enables fluid position changes that prevent opponents from establishing stable passing positions)
 A systematic approach to transitioning between open guard positions based on opponent grips, posture, and pressure direction. The matrix provides decision trees for when to switch from one guard type to another, ensuring smooth transitions that maintain defensive integrity while creating offensive opportunities.
 
@@ -192,7 +192,7 @@ Offensive techniques integrated into movement patterns, allowing sweeps and subm
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Building**: Develop proficiency in individual guard positions and understand their strengths, weaknesses, and primary functions within the system.
 Key points:
 - Master basic mechanics of closed guard, open guard, butterfly guard, and seated guard
@@ -359,7 +359,7 @@ The Dynamic Guard System requires progressive drilling that builds from isolated
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The dynamic guard system represents an evolution in guard play that prioritizes adaptability over static position holding. The fundamental principle here is that movement creates problems for your opponent - when you constantly switch between guard positions, you force them to continuously recalibrate their passing approach rather than executing a prepared sequence. The key to making this system work lies in understanding the connection points between different guards and maintaining frame integrity throughout transitions. Each guard switch must be purposeful, not random movement. You're creating a defensive matrix where every passing attempt leads to a different guard configuration, making it nearly impossible for opponents to establish the stable grips and pressure required for modern passing systems. The grip fighting component is absolutely critical - whoever controls the grips controls the engagement. Your ability to deny opponent's grips while establishing your own determines whether your guard switches create opportunities or simply waste energy.
 - **Gordon Ryan**: In competition, the dynamic guard system gives you a massive advantage because it makes you extremely difficult to pass. Most passers have a preferred style and sequence - they want to establish specific grips, apply pressure in certain ways, and execute familiar techniques. When you're constantly moving and switching guards, you never give them the stable platform they need to execute their game. I use this approach extensively - I'll switch from butterfly to seated to single-leg-X within seconds, forcing my opponent to react rather than execute. The key is being offensive within your movement. Every guard switch should create a sweep opportunity or at least threaten one. If you're just moving to move, you'll gas out and create openings. But if each position change puts you closer to a sweep or submission, your opponent has to respect the movement and defend, which slows down their passing. The competition mindset here is about dictating the pace - you want them solving the problems you create rather than implementing their game plan.
 - **Eddie Bravo**: The dynamic guard concept is fundamental to 10th Planet methodology, especially in no-gi where you don't have the gi grips to fall back on. We've built entire systems around fluid guard transitions - the rubber guard flows into mission control, into invisible collar, into various attacks. The key innovation in a dynamic guard system is making your defense indistinguishable from your offense. When I'm switching from half butterfly to mission control to lockdown, my opponent can't tell if I'm defending their pass or setting up my attack - it's all one continuous movement. This creates massive confusion and opens up opportunities they don't see coming. The no-gi context makes this even more important because grips are harder to maintain, so being static in one guard position is suicide against good passers. You've got to stay fluid, create angles constantly, and threaten submissions throughout your guard retention. The movement itself becomes an offensive weapon because it puts your opponent in positions they haven't trained for and creates opportunities for unconventional attacks.

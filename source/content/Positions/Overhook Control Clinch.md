@@ -13,10 +13,6 @@ description: "Master overhook control clinch in BJJ. Strategic guide covering de
 
 
 
-> **Quick Overview**: Overhook Control Clinch (also called Whizzer) is a standing control position where you trap opponent's arm by hooking over it with your arm, controlling their shoulder and restricting their movement. ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Understanding when to use the overhook versus other standing controls is crucial
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | Medium | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short to Medium | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | Medium | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Medium |
 
-**What Makes This Position Unique:** Outside control trades inside position for throws
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Overhook Control Clinch/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Overhook Control Clinch/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Outside control trades inside position for throws
 
 
 
@@ -88,10 +72,13 @@ Understanding when to use the overhook versus other standing controls is crucial
 
 <section id="bottom-summary" class="content-section">
 
-## Overhook Control Clinch Bottom Perspective
+
+## Playing as Bottom
+
+[[Overhook Control Clinch/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in overhook control clinch must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in overhook control clinch must focus on creating frames, prot
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing hips to square up directly in front of opponent**
@@ -166,16 +153,17 @@ The bottom player in overhook control clinch must focus on creating frames, prot
   - ✅ Correction: Work defensive techniques and counters first, using guard pull as calculated tactical choice when needed
 
 
-👉 **[[Overhook Control Clinch/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Overhook Control Clinch Top Perspective
+
+## Playing as Top
+
+[[Overhook Control Clinch/Top|→ Full Top Guide]]
 
 
-The top player in overhook control clinch balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -227,7 +215,7 @@ The top player in overhook control clinch balances control maintenance with subm
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing overhook to become shallow or losing elbow control**
@@ -258,8 +246,6 @@ The top player in overhook control clinch balances control maintenance with subm
   - Consequence: Opponent defends successfully and potentially reverses position or establishes superior control
   - ✅ Correction: Chain attacks together based on opponent's reactions, if snap down is defended immediately flow to throw or back take, maintain offensive pressure through continuous attack sequences
 
-
-👉 **[[Overhook Control Clinch/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

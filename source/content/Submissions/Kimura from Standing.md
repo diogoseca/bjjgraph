@@ -8,7 +8,7 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 
 
 
-> **Quick Answer**: Kimura from Standing is a shoulder lock targeting the Shoulder joint, rotator cuff, and posterior shoulder capsule. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kimura from Standing is a shoulder lock targeting the Shoulder joint, rotator cuff, and posterior shoulder capsule. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kimura from Standing Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -220,7 +220,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - **Figure-four grip construction** - Lock wrist control with opposite hand creating unbreakable mechanical advantage before attempting rotation
 - **Elbow height control** - Elevate opponent's elbow above shoulder height to maximize rotational leverage and prevent defensive posturing
 - **Hip positioning and base** - Maintain wide, staggered stance with hips lower than opponent's to generate upward lifting pressure while staying balanced
@@ -234,7 +234,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure **double wrist control** or **single wrist control with collar tie** establishing initial grip dominance before Kimura entry
 - Identify opponent's **extended or reaching arm** creating vulnerability window for wrist isolation and capture
 - Establish **close-range positioning** within striking distance, eliminating space that allows opponent to retract arm safely
@@ -248,7 +248,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Wrist capture and isolation**: From standing engagement (collar tie, wrist control, or clinch), identify opponent's extended arm and secure deep wrist grip with your same-side hand. Pull wrist across opponent's centerline while using free hand to control their shoulder or collar, preventing arm retraction. Step at 45-degree angle offline to compromise their base and create angle for figure-four construction. (Timing: 1-2 seconds - control establishment phase) [Pressure: Moderate]
 2. **Figure-four grip lock construction**: Thread your free hand under opponent's trapped arm, reaching through to grab your own wrist (not hand) creating the classic Kimura figure-four configuration. Ensure your forearm makes contact with back of their upper arm creating structural frame. Squeeze elbows together to compress the lock and eliminate any loose space in the grip structure. This grip must be unbreakable before proceeding. (Timing: 2-3 seconds - critical grip security phase) [Pressure: Firm]
 3. **Elbow elevation and posture disruption**: Lift opponent's trapped elbow upward and slightly away from their body, raising it above shoulder height. Simultaneously lower your own base by bending knees and widening stance. This elevation creates immediate shoulder discomfort and forces opponent onto toes, disrupting their defensive posture. Maintain constant upward pressure while staying heavy and stable in your own stance. (Timing: 2-3 seconds - position establishment) [Pressure: Firm]
@@ -262,7 +262,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Arm retraction and elbow pull-in toward ribs** (Effectiveness: High) - Your Adjustment: Counter by immediately stepping closer, using body weight to prevent retraction, and securing collar tie or head control with free hand before attempting wrist isolation. Feint takedown attacks to force arm extension.
 - **Counter-rotation by spinning toward trapped arm** (Effectiveness: Medium) - Your Adjustment: Follow their rotation by circling in same direction while lifting elbow higher. Use their rotational momentum to elevate them onto toes and off-balance. Transition to back take opportunity if they over-rotate.
 - **Base widening and hip dropping to create heaviness** (Effectiveness: Medium) - Your Adjustment: Respond by increasing elbow elevation and stepping to angle rather than pushing straight forward. Use upward lifting pressure to compromise their lowered base. Combine with outside trip or inside trip to capitalize on their static positioning.
@@ -273,31 +273,31 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting figure-four grip construction before securing isolated wrist control [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting figure-four grip construction before securing isolated wrist control [Low DANGER]
   - **Consequence**: Opponent easily retracts arm and escapes before submission setup is established, wasting energy and telegraphing intent
   - **Correction**: Always establish dominant wrist control first with two-on-one grip or wrist-and-collar control. Only thread figure-four when opponent's arm is trapped and extended, preventing retraction.
-- **Error**: Keeping opponent's elbow low (below shoulder height) during rotation [Medium DANGER]
+- **Mistake**: Keeping opponent's elbow low (below shoulder height) during rotation [Medium DANGER]
   - **Consequence**: Minimal shoulder pressure is generated, allowing opponent to defend easily with strength and potentially counter-attack or escape
   - **Correction**: Consciously elevate trapped elbow above shoulder line before applying any rotation. Lifting motion should engage your legs and core, raising opponent onto toes. High elbow position is non-negotiable for effective standing Kimura.
-- **Error**: Standing too upright with narrow base during control phase [Medium DANGER]
+- **Mistake**: Standing too upright with narrow base during control phase [Medium DANGER]
   - **Consequence**: Vulnerable to opponent's forward pressure, takedown attempts, or explosive escapes. Compromised balance eliminates your ability to control descent safely
   - **Correction**: Maintain wide wrestling stance with knees bent, hips low, and weight distributed evenly. Your base should be wider and lower than opponent's, creating stability platform for applying upward and rotational pressure.
-- **Error**: Explosive or jerking rotation applied to shoulder joint [CRITICAL DANGER]
+- **Mistake**: Explosive or jerking rotation applied to shoulder joint [CRITICAL DANGER]
   - **Consequence**: IMMEDIATE RISK OF CATASTROPHIC SHOULDER INJURY including rotator cuff tears, dislocations, and permanent joint damage. Violates fundamental training safety protocols
   - **Correction**: CRITICAL SAFETY: Apply rotation pressure progressively over minimum 5-7 seconds with continuous monitoring for tap signals. Increment rotation in 10-15 degree segments. Training partner safety is ALWAYS priority over submission completion.
-- **Error**: Failing to control opponent's descent when they drop to knees/ground [CRITICAL DANGER]
+- **Mistake**: Failing to control opponent's descent when they drop to knees/ground [CRITICAL DANGER]
   - **Consequence**: Opponent crashes uncontrolled to mat potentially causing head, neck, or spine injury from standing height. Lost positional control and submission opportunity
   - **Correction**: Anticipate opponent's descent and actively guide them to ground using Kimura grip as steering mechanism. Maintain submission pressure throughout controlled descent, landing in dominant position with grip intact.
-- **Error**: Releasing Kimura grip during scramble or transition [Low DANGER]
+- **Mistake**: Releasing Kimura grip during scramble or transition [Low DANGER]
   - **Consequence**: Complete loss of control and submission opportunity, allowing opponent to recover guard or stand back up, negating all previous work
   - **Correction**: Maintain figure-four grip as primary control handle during all transitions. Grip should only release upon tap signal or when transitioning to alternative submission. Use Kimura as steering wheel for positional dominance.
-- **Error**: Ignoring tap signals in standing position (focusing on takedown rather than tap recognition) [CRITICAL DANGER]
+- **Mistake**: Ignoring tap signals in standing position (focusing on takedown rather than tap recognition) [CRITICAL DANGER]
   - **Consequence**: CATASTROPHIC INJURY RISK - delayed tap recognition in standing position causes severe shoulder damage and violates fundamental training ethics and safety
   - **Correction**: CRITICAL SAFETY: Maintain constant visual and tactile awareness of tap signals. Standing submissions require HEIGHTENED awareness due to limited tap visibility and increased injury risk. Partner safety supersedes all competitive or training goals.
-- **Error**: Attempting standing Kimura without clear training space or matted area [CRITICAL DANGER]
+- **Mistake**: Attempting standing Kimura without clear training space or matted area [CRITICAL DANGER]
   - **Consequence**: Partner falls onto hard surface, equipment, or other training pairs causing preventable injuries ranging from contusions to fractures or concussions
   - **Correction**: ALWAYS verify 6-8 feet of clear, matted space in all directions before attempting standing submissions. Position training away from walls, equipment, and other practitioners. Environmental safety is prerequisite for technique execution.
 
@@ -306,7 +306,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Kimura from Collar Tie and Wrist Control**: From standing clinch with collar tie, control opponent's same-side wrist with your free hand. Pull wrist across their body while driving collar tie forward, creating arm extension. Step offline and construct figure-four grip as arm becomes isolated. This is the highest percentage standing Kimura entry from neutral clinch position. (When to use: Use in neutral standing exchanges, particularly effective when opponent attempts to establish their own collar tie or inside control. Ideal against reactive opponents who extend arms when pressured.)
 
 **Kimura from Failed Single Leg Defense**: When opponent shoots single leg and you defend with sprawl or whizzer, capitalize on their committed position by attacking exposed arm. As they maintain single leg grip, isolate their far arm (often posted on mat or reaching), secure wrist control, and construct Kimura figure-four. Their takedown commitment prevents effective defense. (When to use: Reactive counter-attack against single leg attempts. Particularly effective when opponent maintains failed single leg rather than abandoning and recovering. Creates submission-or-back-take finish opportunities.)
@@ -351,7 +351,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Grip Mechanics** (Week 1-2 (minimum 6-8 training sessions))
 - Focus: Learn figure-four grip construction, wrist isolation from various standing positions, elbow elevation mechanics, and basic rotation principles. Practice on compliant partner with zero resistance. Emphasis on grip security and structural understanding before any pressure application.
 - Resistance: Zero resistance
@@ -388,7 +388,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Standing Position]]
 - [[Clinch]]
@@ -406,7 +406,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura Variations]]
@@ -448,7 +448,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The standing Kimura represents a critical intersection between wrestling control and submission mechanics that most practitioners fundamentally misunderstand. The technique's value lies not in its finishing rate - which is relatively low against experienced opponents in standing position - but in its systematic capacity to create cascading positional dilemmas. When you establish the figure-four grip from standing, you've created a steering mechanism that controls the opponent's entire body through their shoulder girdle. This is mechanically similar to how a steering wheel controls a vehicle - small inputs create large directional changes. The standing Kimura should be conceptualized as a position that opens three primary pathways: forced takedown when opponent lowers their body to escape shoulder pressure, back take opportunity when they counter-rotate toward the trapped arm, and submission finish if they remain static and upright. Advanced practitioners recognize that the grip itself is the weapon, not the rotation. The rotation is merely one option within a systematic framework. From a safety perspective, the standing application demands exceptional control because falls from standing height combined with torqued shoulder position create catastrophic injury potential. The practitioner must develop the discipline to guide opponent's descent actively, maintaining submission pressure throughout the controlled fall. This is technical maturity that separates dangerous practitioners from systematic ones. Train the standing Kimura primarily as a takedown setup that retains submission threat, and you'll discover its true systematic value.
 - **Gordon Ryan**: In competition, the standing Kimura is one of those techniques that looks spectacular when it works but rarely finishes against high-level opponents who understand positional defense. Here's the reality: experienced grapplers will either immediately sit to guard when you establish the grip, drop to their knees to relieve shoulder pressure, or spin hard toward the trapped arm attempting to create scramble positions. All three responses are predictable and exploitable if you're training the position correctly. My approach is to use the standing Kimura as a takedown threat that forces specific reactions I can capitalize on. When I lock the figure-four from standing, I'm not thinking 'submission finish' - I'm thinking 'where is this taking us and how do I land in the most dominant position possible.' If they sit to guard, I'm already passing with Kimura control established. If they drop to knees, I'm taking back or moving to side control. If they spin, I'm following into back control. The submission itself becomes almost secondary to the positional dominance the grip creates. That said, the standing finish does exist in competition, particularly against opponents who panic or freeze rather than moving defensively. The key is recognizing the finish window - it's usually only 1-2 seconds when they're standing static and you've achieved perfect elbow elevation and angle. In training versus competition, the speed difference is massive. In training, you apply this over 5-7 seconds minimum because shoulder injuries end careers and destroy training partners. In competition, if the finish is there, it happens much faster - but still controlled and progressive. Never spike it even in competition. The reputation cost of injuring opponents isn't worth any victory. Train the standing Kimura as a systematic control position that creates takedown advantages, and occasionally you'll catch the submission as a bonus.
 - **Eddie Bravo**: The standing Kimura is one of those old-school catch wrestling techniques that got absorbed into BJJ and creates some really creative opportunities if you're willing to experiment beyond the traditional applications. In the 10th Planet system, we look at standing control positions as entry points for ground sequences, and the standing Kimura fits perfectly into that philosophy. When you lock that figure-four grip from standing, you've basically got a joystick controlling where your opponent goes - and more importantly, you can guide them exactly into the positions where you're most dangerous. One variation we drill heavily is the standing Kimura to sacrifice throw entry, similar to a tomoe nage but with the arm already controlled. You establish the Kimura, sit back pulling them over you, and land in mount or side control with the submission already locked. It's dynamic, it's unexpected, and it creates highlight-reel moments while giving you superior position even if the sub doesn't finish immediately. The other application I love is using the standing Kimura to set up truck entries and twister positions. When they defend by dropping to their knees or turning into the grip, you can transition to truck control and access the whole leg-across-body system. Most people don't see that connection, but it's there if you're drilling the transitions systematically. Now, safety on this technique is absolutely critical because we're dealing with standing height falls combined with a locked shoulder - that's a recipe for disaster if you're being careless or aggressive. In our academy, standing submissions are treated with extra respect. We drill them slow, we tap early, and we never let ego or competition mindset creep into training applications. The standing Kimura should make your partner uncomfortable enough to react, but never hurt them. If you're finishing standing Kimuras regularly in training, you're applying them too hard and you're going to injure somebody eventually. Respect the technique, respect your training partners, and use the standing Kimura as a creative position that opens multiple paths rather than just hunting for the tap from standing.

@@ -8,7 +8,7 @@ description: "Learn Front Headlock to Darce in BJJ. Step-by-step execution from 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Front Headlock to Darce in BJJ. Step-by-step execution from 
 
 
 
-> **Quick Answer**: Front Headlock to Darce transitions from [[Front Headlock]] to [[D'arce Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
+> Front Headlock to Darce transitions from [[Front Headlock]] to [[D'arce Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant downward pressure on opponent's head throughout the transition
 - Use opponent's defensive circling motion to facilitate the underhook insertion
 - Secure the figure-four arm configuration before attempting to circle to finish position
@@ -190,7 +190,7 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established front headlock control with arm wrapped around opponent's neck
 - Opponent's head controlled and pulled tight to your chest or hip
 - Opponent in turtle, scramble, or compromised standing position
@@ -204,7 +204,7 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure front headlock control**: Establish a tight front headlock position with your arm wrapped deep around the opponent's neck. Your bicep should be against one side of their neck while your forearm compresses the other side. Pull their head tight to your chest or hip while driving downward pressure with your body weight. Maintain a low stance with your hips back and chest over their shoulders. (Timing: Initial control phase - maintain until opponent begins defensive movement)
 2. **Insert underhook on choking side**: As the opponent circles or attempts to escape, thread your free arm under their far armpit on the same side as your choking arm. The underhook should be deep, with your shoulder driving into their armpit. Keep your elbow tight and forearm pressed against their ribs. This creates the foundation for the Darce configuration by controlling both the head and the far side of their body simultaneously. (Timing: Insert during opponent's defensive movement - capitalize on their circling)
 3. **Lock figure-four arm configuration**: Bring your choking arm across to meet your underhooking arm. The hand of your choking arm should grip the bicep of your underhooking arm, creating a figure-four lock. Alternatively, grip your own wrist for a deeper configuration. The opponent's neck should be trapped in the triangle formed by your arms with their shoulder completing the choke structure. Ensure the lock is tight before proceeding. (Timing: Lock immediately after underhook is secured - before opponent can defend)
@@ -218,7 +218,7 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent grabs your leg and drives forward to prevent the circle** (Effectiveness: High) - Your Response: Switch to anaconda choke by adjusting arm position, or transition to guillotine if they drive their head up. Maintain downward head pressure and sprawl your hips back to counter their forward drive.
 - **Opponent performs granby roll before you establish hip control** (Effectiveness: High) - Your Response: Follow their roll and maintain the front headlock, resetting to either continue the Darce attempt or transition to back control as they roll through. Keep your choking arm connection tight throughout the roll.
 - **Opponent gets their trapped arm free before you complete the circle** (Effectiveness: Medium) - Your Response: Abandon the Darce and transition to guillotine or anaconda choke, or return to front headlock control to reset. Do not force a compromised Darce position as it becomes ineffective without proper arm trapping.
@@ -228,28 +228,28 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing the front headlock control before securing the underhook
+## Common Mistakes
+- **Mistake**: Releasing the front headlock control before securing the underhook
   - **Consequence**: Opponent escapes entirely or regains good defensive position, losing the submission opportunity completely
   - **Correction**: Maintain constant connection with the front headlock arm while inserting the underhook. Your choking arm should never release until the figure-four is fully locked.
-- **Error**: Circling too early before establishing the figure-four lock
+- **Mistake**: Circling too early before establishing the figure-four lock
   - **Consequence**: Opponent easily defends by pulling their trapped arm free or rolling through to escape
   - **Correction**: Ensure the arm configuration is completely locked with proper grips before beginning to circle. The lock should feel tight and secure before any positional movement.
-- **Error**: Failing to control the near hip during transition
+- **Mistake**: Failing to control the near hip during transition
   - **Consequence**: Opponent executes granby roll or other defensive roll to escape before you establish the finishing position
   - **Correction**: Immediately grip the near hip as soon as the figure-four is locked. This control should be considered a required step, not an optional detail.
-- **Error**: Circling away from the choking side instead of toward it
+- **Mistake**: Circling away from the choking side instead of toward it
   - **Consequence**: Creates incorrect angle where the choke cannot be properly finished, wasting energy and losing position
   - **Correction**: Always circle toward the side of your choking arm. This brings your body perpendicular to theirs and tightens the choke structure. Visualize moving your chest toward their far hip.
-- **Error**: Leaving too much space between your chest and opponent's shoulder
+- **Mistake**: Leaving too much space between your chest and opponent's shoulder
   - **Consequence**: Opponent creates frames and escapes, or the choke lacks necessary pressure to finish
   - **Correction**: Drive heavy chest pressure into their trapped shoulder throughout the entire transition. Your chest should be glued to their upper back and shoulder.
-- **Error**: Applying the choke with arm strength only
+- **Mistake**: Applying the choke with arm strength only
   - **Consequence**: Ineffective submission that fatigues your arms without finishing opponent, potentially allowing escape
   - **Correction**: Use your entire body structure to create pressure - expand your chest, squeeze your legs, drive with your shoulder, and pull elbows together. The choke should feel effortless once positioned correctly.
-- **Error**: Locking the figure-four too shallow around opponent's neck
+- **Mistake**: Locking the figure-four too shallow around opponent's neck
   - **Consequence**: Opponent easily defends by pulling their head out or the choke has insufficient depth to affect the carotid arteries
   - **Correction**: Ensure your choking arm is deep around the neck with your bicep and forearm on opposite sides of their neck before locking the figure-four. The deeper the initial grip, the tighter the finished choke.
 
@@ -258,7 +258,7 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Understanding the arm configuration and basic positioning
 Practice establishing front headlock control and inserting the underhook from static positions. Partner remains still in turtle while you drill the steps slowly: front headlock, underhook, figure-four lock, circle, finish position. Focus on proper hand placement and arm angles. Repeat 20-30 reps per training session.
 (Resistance: None)
@@ -289,7 +289,7 @@ Incorporate the Darce into your complete front headlock system. Practice entries
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Darce from Standing Front Headlock**: Execute the Darce configuration while standing, then jump guard or drop to the mat to finish. This variation is useful when opponent stands up to defend the front headlock position. (When to use: When opponent begins standing up from turtle or during scrambles in standing position)
 
 **Modified Grip Darce**: Instead of the standard figure-four, grip your own wrist for deeper lock or use a gable grip for quicker application. Each grip variation provides different levels of tightness and application speed. (When to use: Against larger opponents (wrist grip) or when speed of application is critical (gable grip))
@@ -329,7 +329,7 @@ Incorporate the Darce into your complete front headlock system. Practice entries
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the Front Headlock to Darce transition, controlled application is paramount as blood chokes can cause unconsciousness rapidly if the training partner does not tap. Always apply choking pressure gradually over 3-5 seconds minimum to allow your partner adequate time to recognize the choke and tap. Monitor your partner's breathing and color during drilling - any signs of distress should result in immediate release. Be especially mindful during the circling phase as this is when maximum pressure is often applied unintentionally. Ensure adequate mat space for the circling movement to avoid rolling your opponent into walls or other obstacles. During competition-level drilling with full resistance, establish clear tap protocols including verbal taps for situations where hand movement is restricted. Never apply sudden or explosive pressure to the neck. Build proficiency through slow, controlled drilling before attempting full-speed application. Both practitioners should understand proper release protocol before training this technique.
 
@@ -337,7 +337,7 @@ When practicing the Front Headlock to Darce transition, controlled application i
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Front Headlock to Darce transition is a cornerstone technique within the systematic front headlock position, representing one of the highest-percentage submissions available from this dominant control position. This transition integrates seamlessly with other front headlock attacks including the guillotine, anaconda, and back take, creating a submission system where each defense opens another attack. Within the broader BJJ positional hierarchy, the front headlock serves as a critical junction point between standing and ground positions, and the Darce provides a powerful finishing option that can be executed from multiple entries including turtle attacks, scrambles, failed takedown attempts, and guard passing situations. The technique's versatility makes it equally effective in gi and no-gi contexts, though it finds particularly high application in no-gi and MMA where the front headlock position is more commonly encountered. Understanding this transition also develops broader concepts of maintaining control during position changes, using opponent's defensive movements to facilitate attacks, and systematically improving position until submission is secured. Practitioners who master this transition often find their entire front headlock game improves as the Darce threat forces opponents into predictable defensive patterns that open other submissions and position advances. The technique also integrates with modern leg lock systems, as the front headlock position often occurs during leg entanglement scrambles, providing a upper-body submission option when leg attacks are defended.
 
@@ -345,7 +345,7 @@ The Front Headlock to Darce transition is a cornerstone technique within the sys
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Darce Choke]] - Primary submission - the finishing technique this transition leads to
 - [[Front Headlock to Anaconda]] - Alternative attack - closely related transition using similar mechanics but different arm configuration
@@ -365,7 +365,7 @@ The Front Headlock to Darce transition is a cornerstone technique within the sys
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Front Headlock to Darce transition exemplifies the principle of cascading controls - each new control point you establish makes the previous controls tighter and creates the foundation for the next advancement. When you insert the underhook while maintaining the front headlock, you're not just adding a second control point; you're fundamentally changing the geometry of the position in your favor. The opponent's neck is now trapped in a triangle formed by your arms with their own shoulder serving as the fourth side of the choke structure. This is biomechanically brilliant because their strongest defensive tool - their trapped arm and shoulder - actually becomes the mechanism of their submission. The circling movement to perpendicular position is not arbitrary; it creates the optimal angle where your skeletal structure does the work rather than your muscles. Your chest expansion and the connection between your elbows creates pressure, while your shoulder drives into the back of their neck. When executed with proper positional awareness, this technique requires minimal strength because you're using mechanical advantage and structural pressure rather than muscular force. The systematic approach requires establishing each control point in sequence - front headlock, underhook, figure-four, hip control, circle, finish - with each step making the next step both easier and more effective.
 - **Gordon Ryan**: In high-level competition, the Front Headlock to Darce is one of my highest-percentage submissions because it's incredibly difficult to defend once you establish the initial controls. The key to making this work against elite opponents is not giving them time to recognize what's happening - you have to move from front headlock to locked Darce in one smooth motion without any pauses that let them start their defenses. I've finished world champions with this because even if they know it's coming, the mechanics make it almost impossible to stop if you execute properly. The critical detail that most people miss is the hip control - without that, good guys will granby roll and escape every time. I grab that near hip the instant my figure-four locks, and I mean the same instant. Also, the circle has to be aggressive and committed. You can't be tentative or slow. Once you decide to go for the Darce, you circle hard and fast while keeping everything tight. Against bigger, stronger opponents, I'll often use the wrist grip instead of the bicep grip because it lets me get deeper and tighter on the neck. Another competition detail: if you feel them starting to defend successfully, immediately switch to anaconda or take the back - don't waste energy fighting for a compromised Darce. The beautiful thing about this system is that their defense to the Darce usually opens up another finish.
 - **Eddie Bravo**: The Darce from front headlock is absolutely sick and it's become a staple in the 10th Planet system because it fits perfectly with our no-gi game. What I love about this technique is how it flows naturally from scrambles - a huge part of no-gi and MMA is those chaotic scramble situations, and the front headlock to Darce gives you a high-percentage finish from that chaos. We drill this constantly from what we call the Jail Break position and from various turtle attacks. One thing I teach that's a little different from traditional approaches is being willing to jump guard to finish this if they start to stand up. Don't let them escape just because they stood up - if you've got that Darce locked, jump into guard and finish from there. It actually can be tighter from guard because you can really squeeze your knees and use your entire body. Also, we work a lot of variations where you lock the Darce and immediately drop to your hip without the traditional circle - it's faster and works great when they're trying to scramble hard. The Darce is also perfect for MMA because it works from so many positions where cage work happens - against the fence, during takedown attempts, during ground and pound exchanges. We've gotten tons of finishes with this in competition and in the cage. Train it, drill it relentlessly, and it'll become one of your best weapons.

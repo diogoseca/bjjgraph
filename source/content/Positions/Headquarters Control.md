@@ -13,10 +13,6 @@ description: "Master Headquarters Control in BJJ. Dominant half guard passing po
 
 
 
-> **Quick Overview**: Headquarters Control is a critical transitional position in modern Brazilian Jiu-Jitsu half guard passing and retention systems. The position represents a strategic checkpoint where the top player has...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,31 +54,19 @@ Strategically, headquarters represents the intersection of pressure passing and 
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium | Low to Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Medium to Long |
 
-**What Makes This Position Unique:** Pressure control trades mobility for dominance
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Headquarters Control/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Headquarters Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Pressure control trades mobility for dominance
 
 
 
@@ -90,10 +74,13 @@ Strategically, headquarters represents the intersection of pressure passing and 
 
 <section id="bottom-summary" class="content-section">
 
-## Headquarters Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Headquarters Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in headquarters control balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -136,7 +123,7 @@ The bottom player in headquarters control balances defensive frames with offensi
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing frames to become passive or collapsed under pressure**
@@ -164,16 +151,17 @@ The bottom player in headquarters control balances defensive frames with offensi
   - ✅ Correction: Continuously threaten sweeps and position improvements to force opponent to divide attention between passing and defense
 
 
-👉 **[[Headquarters Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Headquarters Control Top Perspective
+
+## Playing as Top
+
+[[Headquarters Control/Top|→ Full Top Guide]]
 
 
-The top player in headquarters control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -222,7 +210,7 @@ The top player in headquarters control balances control maintenance with submiss
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Sitting back on heels instead of maintaining forward hip pressure and chest-to-chest contact**
@@ -253,8 +241,6 @@ The top player in headquarters control balances control maintenance with submiss
   - Consequence: Incomplete control leads to scrambles, failed passes, or counterattacks from opponent's remaining offensive tools
   - ✅ Correction: Systematically establish all control points before advancing, ensuring upper body control, pressure, and grip dominance are complete
 
-
-👉 **[[Headquarters Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

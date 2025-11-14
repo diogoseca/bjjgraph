@@ -13,10 +13,6 @@ description: "Master Spider Guard in BJJ. Strategic guide covering when to use s
 
 
 
-> **Quick Overview**: Spider Guard is a highly technical open guard position characterized by the bottom player controlling both sleeves of the opponent while placing their feet on the opponent's biceps or elbows, creating...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Defensive with offensive options |
-| Risk Level | Low to Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium to Long | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Defensive with offensive options |
+| **Risk Level** | Low to Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium to Long | Medium |
 
-**What Makes This Position Unique:** Sleeve and bicep control for distance management
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Spider Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Spider Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Sleeve and bicep control for distance management
 
 
 
@@ -88,10 +72,13 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 <section id="bottom-summary" class="content-section">
 
-## Spider Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Spider Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in spider guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -140,7 +127,7 @@ The bottom player in spider guard balances defensive frames with offensive oppor
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing legs to bend and lose extension pressure on opponent's arms**
@@ -168,16 +155,17 @@ The bottom player in spider guard balances defensive frames with offensive oppor
   - ✅ Correction: Establish strong grip and foot control before initiating sweeps, ensuring proper setup and timing
 
 
-👉 **[[Spider Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Spider Guard Top Perspective
+
+## Playing as Top
+
+[[Spider Guard/Top|→ Full Top Guide]]
 
 
-The top player in spider guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -223,7 +211,7 @@ The top player in spider guard manages the position strategically based on oppon
   - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to pass with sleeve grips still intact, allowing bottom player to maintain full distance control**
@@ -254,8 +242,6 @@ The top player in spider guard manages the position strategically based on oppon
   - Consequence: Poor base makes top player highly vulnerable to technical sweeps even with mediocre Spider Guard execution
   - ✅ Correction: Maintain wide, stable base with feet outside opponent's hips and weight centered between both legs
 
-
-👉 **[[Spider Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step execution fr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step execution fr
 
 
 
-> **Quick Answer**: Tani Otoshi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Tani Otoshi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Jud
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create lateral movement and angle to disrupt opponent's base
 - Commit fully to the sacrifice drop - hesitation results in failure
 - Block opponent's leg at or below the knee for maximum leverage
@@ -180,7 +180,7 @@ Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Jud
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing engagement with opponent in neutral position or clinch
 - Strong collar and sleeve control (gi) or over-under position (no-gi)
 - Opponent's weight distributed evenly or slightly forward
@@ -193,7 +193,7 @@ Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Jud
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips and posture**: In gi, secure a strong collar grip with your right hand and a sleeve grip with your left hand. In no-gi, establish an over-under clinch or collar tie with wrist control. Maintain upright posture while keeping your opponent close enough to control but not so close that you're stacked or off-balance. (Timing: Initial setup phase, establish before any movement)
 2. **Create angle with lateral step**: Take a lateral step to your left (assuming right-handed throw) while maintaining tight upper body control. This step should be approximately 45 degrees to your opponent's centerline, creating the angle necessary for the blocking leg to be effective. Pull your opponent slightly forward and to their right to encourage weight shift onto their right leg. (Timing: Execute as opponent steps forward or when their weight is neutral)
 3. **Drop to seated position**: Commit to dropping your hips and buttocks to the mat in one smooth, explosive motion. Your left leg should be bent and ready to block while your right leg extends backward for base. The drop must be fast and committed - any hesitation allows opponent to sprawl or step over your blocking leg. Keep your chest close to opponent's chest throughout the drop. (Timing: Immediate and explosive, no pause after the angle step)
@@ -206,7 +206,7 @@ Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Jud
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls their hips back and widens their base before you can complete the drop** (Effectiveness: High) - Your Response: Abandon the technique immediately and transition to a different attack such as single leg or ankle pick. Alternatively, if you've already dropped, convert to a seated guard position and work from there rather than being stuck in a compromised position.
 - **Opponent steps over your blocking leg with a wide step, maintaining balance** (Effectiveness: Medium) - Your Response: If they step over successfully, immediately transition to a single leg attack on the leg that stepped over, or convert to butterfly guard position. The key is not to remain static in the failed throwing position.
 - **Opponent posts their free hand on the mat to prevent rotation and falling** (Effectiveness: Medium) - Your Response: Increase the rotational pull with your upper body grips, focusing on breaking their posting arm. Alternatively, use their posted arm as a target for a kimura attack or transition to taking their back as they defend the throw.
@@ -215,25 +215,25 @@ Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Jud
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Dropping too early before establishing proper angle and control
+## Common Mistakes
+- **Mistake**: Dropping too early before establishing proper angle and control
   - **Consequence**: Opponent easily steps over your blocking leg or simply moves away, leaving you on the ground in an inferior position with no control
   - **Correction**: Ensure your lateral step creates a clear 45-degree angle and your grips are secure before committing to the drop. Feel for opponent's weight shifting forward before executing.
-- **Error**: Blocking leg positioned too high (mid-thigh or hip level)
+- **Mistake**: Blocking leg positioned too high (mid-thigh or hip level)
   - **Consequence**: Opponent can bend their knee over your block or step over entirely, nullifying the throwing mechanism
   - **Correction**: Block must contact at or below the opponent's knee joint. Aim for the upper shin to lower knee area where their leg cannot easily bend around the obstacle.
-- **Error**: Weak or tentative drop, sitting down gradually instead of explosive sacrifice
+- **Mistake**: Weak or tentative drop, sitting down gradually instead of explosive sacrifice
   - **Consequence**: Gives opponent time to recognize the attack and defend, typically by sprawling or circling away before the throw develops
   - **Correction**: Commit fully to the drop with explosive speed. Think of it as dropping your weight suddenly rather than sitting down. The surprise element is critical to success.
-- **Error**: Releasing upper body control too early during the throw
+- **Mistake**: Releasing upper body control too early during the throw
   - **Consequence**: Opponent can post, base out, or simply not rotate over your blocking leg, resulting in a failed throw with you on bottom
   - **Correction**: Maintain strong pulling pressure with your grips throughout the entire throw until opponent is clearly airborne and falling. Only release when transitioning to top position.
-- **Error**: Failing to turn into opponent after the throw, remaining on your side or back
+- **Mistake**: Failing to turn into opponent after the throw, remaining on your side or back
   - **Consequence**: Opponent can recover guard or even reverse the position, negating the advantage gained from a successful throw
   - **Correction**: Drive your hips up and turn your chest toward opponent as they fall. Use your right leg to propel yourself into side control position immediately following the throw.
-- **Error**: Attempting the throw without proper grip fighting setup
+- **Mistake**: Attempting the throw without proper grip fighting setup
   - **Consequence**: Opponent's grips or defensive frames prevent the close contact needed for effective execution, or they counter with their own throw
   - **Correction**: Establish dominant grips first through grip fighting. Break opponent's defensive grips before attempting the throw. Control of their posture and sleeves (or body position in no-gi) is prerequisite.
 
@@ -242,7 +242,7 @@ Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Jud
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Foundational Mechanics** - Solo drilling the drop motion and blocking leg placement
 Practice the dropping motion repeatedly without a partner, focusing on explosive hip drop while extending blocking leg at proper height. Work on falling safely and immediately turning to simulate top position. Drill lateral stepping and angle creation. Partner exercises with compliant partner who allows throw completion to develop muscle memory for the full motion sequence.
 (Resistance: None)
@@ -269,7 +269,7 @@ Use in competition or competition-level sparring. Develop deceptive setups and e
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi Tani Otoshi**: Executed from over-under clinch or collar tie with wrist control instead of traditional gi grips. The mechanics remain identical, but upper body control relies on body locks or head control rather than fabric grips. Often more explosive due to reduced friction and grip options. (When to use: No-gi competition or MMA contexts where gi grips are unavailable. Particularly effective when opponent is pushing into you in over-under position.)
 
 **Counter Tani Otoshi**: Executed as a counter when opponent attempts their own forward throw (such as Seoi Nage or Tai Otoshi). As they commit to their throwing motion, you block their leg and drop to execute Tani Otoshi, using their momentum against them. (When to use: Against aggressive throwers who overcommit to forward throws. Requires excellent timing and recognition of opponent's throwing attempts.)
@@ -309,7 +309,7 @@ Use in competition or competition-level sparring. Develop deceptive setups and e
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing Tani Otoshi, the person being thrown should be taught proper breakfall technique to prevent injury, particularly protecting the head and posting the far arm to control landing impact. The thrower must be careful not to drive their blocking leg too aggressively into opponent's knee joint, which could cause lateral knee damage if executed with excessive force. Practice on appropriate mats with sufficient padding, especially during initial learning phases. When drilling with resistance, communicate clearly about intensity levels to prevent awkward landings. Instructors should emphasize that the blocking leg contacts the lower leg/upper shin area rather than directly into the knee joint. Partners should tap if they feel unstable or unable to safely complete the fall. Never practice this throw on hard surfaces or without proper supervision during the learning phase.
 
@@ -317,7 +317,7 @@ When practicing Tani Otoshi, the person being thrown should be taught proper bre
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Tani Otoshi serves as a critical bridge between standing grappling and ground fighting in BJJ. Unlike pulling guard (which sacrifices position) or traditional takedowns (which require extensive setup), Tani Otoshi offers a middle path - sacrificing your base momentarily but immediately recovering to dominant top position. It integrates seamlessly with guard pulling strategies by conditioning opponents to defend traditional guard pulls, making them vulnerable to the unexpected sacrifice throw. The technique chains naturally with other standing attacks: if opponent defends Tani Otoshi by stepping back, you can follow with Osoto Gari or Kouchi Gari; if they circle away, transition to Tai Otoshi or Seoi Nage. From a positional hierarchy perspective, successful Tani Otoshi typically delivers you directly to side control or knee on belly - high-value positions worth the momentary base sacrifice. This makes it particularly valuable in competition where guard passing is challenging and time-consuming.
 
@@ -325,7 +325,7 @@ Tani Otoshi serves as a critical bridge between standing grappling and ground fi
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Tai Otoshi]] - Complementary throw - works when Tani Otoshi is defended by opponent circling
 - [[Osoto Gari]] - Follow-up attack when opponent steps back to defend Tani Otoshi
@@ -345,7 +345,7 @@ Tani Otoshi serves as a critical bridge between standing grappling and ground fi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Tani Otoshi represents a fascinating study in mechanical efficiency and the principle of sacrificing position for overwhelming tactical advantage. The biomechanics are elegant in their simplicity: you create a fixed point obstacle below the opponent's center of gravity while simultaneously generating rotational force through their upper body. What makes this throw scientifically interesting is that it inverts the normal risk-reward calculation of sacrifice techniques. Typically, sacrificing your base is catastrophic in grappling, but here the sacrifice is so brief and the resulting positional advantage so substantial that the equation tilts heavily in your favor. The key technical detail most practitioners miss is the relationship between the blocking leg height and the rotational pull vector - these must be precisely coordinated. Block too high and opponent steps over; pull in the wrong direction and opponent simply posts. When executed correctly, however, the opponent has essentially zero defensive options once you've committed to the drop. This is why timing and setup are paramount - the technique itself is nearly unstoppable when conditions are correct, but those conditions must be deliberately created through superior gripping and movement strategy.
 - **Gordon Ryan**: I've used Tani Otoshi extensively in no-gi competition because it's one of the few judo throws that translates almost perfectly without the gi. The beauty of this throw in a competitive context is that it's unexpected - most people are defending shots, body locks, and snap downs, not lateral sacrifice throws. I particularly like using it against opponents who are stiff-arming and keeping distance, because the lateral angle step combined with the drop completely bypasses their defensive frames. The key to making it work at the highest levels is disguising it within your grip fighting flow - you can't just randomly shoot for it. I'll typically threaten with collar ties or Russian ties, get them moving, and hit the Tani Otoshi when they step into my throwing direction. The other competitive advantage is the position you land in - I'm coming up directly into side control or knee on belly, which means I'm immediately in my pressure passing game without having to pass guard. Against high-level guard players, this is massive. Practice the hell out of the transition from throw completion to established top control, because that's where competitions are won.
 - **Eddie Bravo**: Tani Otoshi is slept on in the BJJ world because everyone's focused on wrestling takedowns, but this throw is perfect for the BJJ meta-game. Think about it - most BJJ guys have terrible takedown defense but they're hard to take down with traditional wrestling because they'll just pull guard. Tani Otoshi completely sidesteps that problem because you're dropping with them, but you're landing on top. It's like pulling guard but reverse-engineering it so you get the dominant position. I teach variations where you can flow into it from failed guard pulls or use it to counter when someone's defending your other standing attacks. The no-gi version from over-under or collar tie is especially nasty because people don't see it coming. One thing I emphasize is don't be afraid to bail on it and convert to something else - if you feel them stepping over or sprawling, immediately transition to a leg attack or regular guard pull. The technique is about creating chaos and opportunities, not forcing a specific outcome. Also experiment with using it from weird positions like when you're both seated and they stand up - you can hit a modified Tani Otoshi as they're rising. Keep your mind open to all the creative applications.

@@ -8,7 +8,7 @@ description: "Master inverted guard from top perspective. Strategic passing appr
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master inverted guard from top perspective. Strategic passing appr
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master inverted guard from top perspective. Strategic passing appr
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 55% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 55%.
 
 ---
 
@@ -187,7 +187,7 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains standing or combat base position with weight distributed to prevent being pulled into berimbolo or back take sequences by the inverted opponent
 - Top player controls distance through strategic grips on opponent's pants, legs, or belt to prevent optimal inversion angles and regulate engagement distance
@@ -199,7 +199,7 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of berimbolo mechanics and common back take sequences from inverted guard to recognize threats early
 - Developed pressure passing skills with ability to apply controlled weight without overcommitting forward
@@ -227,7 +227,7 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Smash Pass]] → [[Side Control]]
 
@@ -291,7 +291,7 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Berimbolo Entry]]** → [[Back Control]] (Opponent Success: 45%)
 - **[[Rolling Back Take]]** → [[Back Control]] (Opponent Success: 40%)
@@ -305,7 +305,7 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Stack Pass]]** → [[Side Control]]
   - Opponent inverts with hips elevated and attempts to rotate for berimbolo
@@ -354,7 +354,7 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

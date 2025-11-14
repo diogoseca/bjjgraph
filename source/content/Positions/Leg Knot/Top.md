@@ -8,7 +8,7 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70%.
 
 ---
 
@@ -189,7 +189,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's legs are systematically crossed and woven through opponent's legs, creating multiple points of control and entanglement that restrict bottom player's movement
 - Top player maintains upper body posture with weight distributed forward, preventing opponent from sitting up or establishing upper body frames while controlling distance
@@ -202,7 +202,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful entry from outside ashi garami, inside ashi, or saddle position with deliberate leg crossing
 - Opponent's leg trapped and controlled with systematic weaving through top player's legs
@@ -230,7 +230,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Heel Hook]] → [[Saddle]]
 
@@ -294,7 +294,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Ashi Garami Escape]]** → [[Open Guard]] (Opponent Success: 25%)
 - **[[Hip Escape]]** → [[Open Guard]] (Opponent Success: 20%)
@@ -307,7 +307,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Heel Hook]]** → [[Saddle]]
   - Opponent attempts to straighten trapped leg or rotate hip outward
@@ -351,7 +351,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

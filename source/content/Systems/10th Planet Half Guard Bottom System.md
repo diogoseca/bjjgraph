@@ -137,7 +137,7 @@ description: "Master 10th Planet Half Guard Bottom System with Lockdown, Electri
 
 
 
-> **Quick Answer**: 10th Planet Half Guard Bottom System is a intermediate difficulty Guard System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> 10th Planet Half Guard Bottom System is a intermediate difficulty Guard System system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Guard System
@@ -156,7 +156,7 @@ The 10th Planet Half Guard Bottom System represents Eddie Bravo's revolutionary 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Lockdown control as the foundation - establish and maintain the leg trap to disrupt opponent's base and posture
 - Active bottom position - constantly attacking and creating dilemmas rather than passively defending
 - Systematic progressions - use defined pathways from Lockdown to sweeps, back takes, and submissions
@@ -171,7 +171,7 @@ The 10th Planet Half Guard Bottom System represents Eddie Bravo's revolutionary 
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Lockdown Position** (Establishes foundational control and creates the platform for all subsequent attacks in the system)
 The Lockdown is the cornerstone control position where the bottom player traps the opponent's leg by threading their inside leg under and around the opponent's thigh, then grabbing their own shin to create a figure-four lock. This configuration prevents the opponent from freeing their leg, disrupts their base, and allows the bottom player to extend their hips to create powerful off-balancing force. From the Lockdown, the bottom player can control the pace of the match, prevent passing attempts, and systematically work toward sweeps and submissions while the opponent is forced into defensive responses.
 
@@ -193,7 +193,7 @@ The system seamlessly integrates Deep Half Guard positions as both a defensive s
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Establishing the Lockdown**: From bottom half guard, thread your inside leg under the opponent's trapped leg and grab your own shin to complete the Lockdown. Focus on getting your foot to your opposite hip to maximize control. Immediately extend your hips slightly to disrupt their base and prevent them from driving forward into a passing position.
 Key points:
 - Secure the Lockdown before opponent establishes strong crossface or underhook control
@@ -366,7 +366,7 @@ The 10th Planet Half Guard Bottom System requires drilling that emphasizes both 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: While the 10th Planet Half Guard Bottom System diverges from traditional Brazilian Jiu-Jitsu methodology in several ways, its underlying principles demonstrate sound systematic thinking. The Lockdown mechanism achieves what all effective guard systems must accomplish - it creates a stable control platform that simultaneously limits the opponent's options while generating offensive opportunities for the guard player. The brilliance of the system lies in its integration of lower body control through the Lockdown with upper body control through underhooks, creating a comprehensive framework where the practitioner controls both ends of the opponent's body. The Electric Chair submission threat functions as what I call a 'systemic catalyst' - it forces defensive reactions that create the conditions for successful sweeps and transitions. Where traditional half guard relies primarily on underhook and knee shield mechanics, the 10th Planet approach adds the Lockdown as a third control dimension, effectively reducing the opponent's defensive options by one-third. The whip-up mechanics demonstrate proper application of leverage principles, using hip extension and the opponent's forward momentum to generate sweeping power rather than relying on muscular strength. For students developing this system, focus on the decision trees - understand precisely which technique to select based on the opponent's weight distribution and defensive posture, and practice smooth transitions between options rather than forcing any single technique against inappropriate resistance.
 - **Gordon Ryan**: From a competition standpoint, the 10th Planet Half Guard Bottom System is a legitimate weapon that has proven effective at the highest levels of no-gi grappling. What makes it particularly dangerous is that most opponents don't train against it regularly, so they're unfamiliar with the specific defensive requirements it demands. The Lockdown completely changes the dynamic of half guard passing - traditional pressure passing methods don't work because you can't drive the knee through, and standing up to free the leg creates entirely different problems. In my competition experience, I've seen the Electric Chair threat create more sweep opportunities than actual submissions, which is exactly how a good systematic threat should function. The Old School sweep is genuinely high-percentage when timed correctly, and the back exposure it creates is often more valuable than the sweep itself. What I've learned fighting against this system is that you must address the Lockdown immediately - if you allow the opponent to fully establish it with underhook control, you're in serious danger. The system rewards aggressive, constant pressure from the bottom, which aligns with modern competitive strategies. If I were building a game around this system, I'd focus on the transition to the back, using the Old School sweep primarily as a vehicle to get there rather than just achieving top position. The integration with leg lock entries adds another dimension that makes it even more threatening in current ADCC-rules competition.
 - **Eddie Bravo**: The 10th Planet Half Guard Bottom System represents my philosophy of transforming traditionally defensive positions into offensive launching pads. I developed this system because I was tired of seeing people get stuck in half guard doing nothing but defending and trying to survive. The Lockdown was the key innovation that changed everything - it turns the bottom player's legs into an offensive weapon rather than just a defensive barrier. What people don't understand is that the Lockdown isn't just about controlling their leg, it's about controlling their entire base and their psychology. Once you lock it up, they know they're in trouble, and that mental pressure creates mistakes and opportunities. The Electric Chair submission emerged from experimenting with ways to maximize the pressure created by the Lockdown - we found that by extending the legs while controlling the upper body, we could create a unique submission that had no traditional counter because nobody had trained against it. The beauty of the system is how everything connects - the Electric Chair threat sets up the Old School sweep, the Old School creates back take opportunities, and if they defend everything, you can transition to Deep Half or come up to the dogfight. It's a complete game plan from one position. I tell my students that the half guard bottom should be one of your best positions, not somewhere you get stuck. With the Lockdown system, you're never stuck - you're always attacking, always creating problems for your opponent. The whip-up mechanics took years to refine, finding the exact timing and hip movement that generates maximum sweeping power. This system proves that innovation and systematic thinking can completely change the meta-game of a position that had been around for decades.

@@ -13,10 +13,6 @@ description: "Master Williams Guard in BJJ. Innovative shoulder lock guard with 
 
 
 
-> **Quick Overview**: Williams Guard is an innovative open guard position characterized by controlling one of the opponent's arms in a shoulder lock configuration while maintaining guard structure. Named after creator Roy ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Defensive |
-| Risk Level | Medium | High |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Defensive |
+| **Risk Level** | Medium | High |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Short to Medium |
 
-**What Makes This Position Unique:** Shoulder lock trades grip retention for submission
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Williams Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Williams Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Shoulder lock trades grip retention for submission
 
 
 
@@ -88,10 +72,13 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 <section id="bottom-summary" class="content-section">
 
-## Williams Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Williams Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in williams guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -137,7 +124,7 @@ The bottom player in williams guard balances defensive frames with offensive opp
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Releasing shoulder lock pressure to adjust grips or leg position**
@@ -165,16 +152,17 @@ The bottom player in williams guard balances defensive frames with offensive opp
   - ✅ Correction: Create constant movement and pressure variations to force opponent into reactive defensive actions that open sweep and submission chains
 
 
-👉 **[[Williams Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Williams Guard Top Perspective
+
+## Playing as Top
+
+[[Williams Guard/Top|→ Full Top Guide]]
 
 
-The top player in williams guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -217,7 +205,7 @@ The top player in williams guard manages the position strategically based on opp
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Yanking trapped arm back aggressively to force extraction**
@@ -248,8 +236,6 @@ The top player in williams guard manages the position strategically based on opp
   - Consequence: Opponent optimizes shoulder lock angle and creates easier pathways to omoplata, triangle, and back take transitions
   - ✅ Correction: Maintain angled hip position relative to opponent's body to reduce shoulder lock effectiveness and limit transition opportunities
 
-
-👉 **[[Williams Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

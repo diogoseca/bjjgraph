@@ -8,7 +8,7 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 45% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player on hands and knees in turtle/quadruped position with weight distributed through both arms and legs, maintaining defensive ball-up posture with chin tucked and elbows tight to prevent space for attacks
 - Top player has one hook (typically inside hook) inserted on one side with foot crossed over bottom player's thigh or wrapped around leg, while maintaining chest-to-back pressure and upper body control through collar ties, overhooks, or seatbelt grip
@@ -202,7 +200,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has entered turtle position from guard pass defense, takedown defense, or failed guard pull
 - Top player has established initial hook insertion from turtle top position
@@ -229,7 +227,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Hip Escape]] → [[Turtle]]
 
@@ -279,7 +277,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Crab Ride to Back]]** → [[Back Control]] (Opponent Success: 55%)
 - **[[Truck Entry]]** → [[Truck]] (Opponent Success: 35%)
@@ -292,7 +290,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Hook Strip Counter]]** → [[Turtle]]
   - When opponent attempts to insert second hook, strip the first hook using hand or leg and return to neutral turtle
@@ -332,7 +330,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

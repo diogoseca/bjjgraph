@@ -8,7 +8,7 @@ description: "Master the technical standup from bottom position in BJJ. Step-by-
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the technical standup from bottom position in BJJ. Step-by-
 
 
 
-> **Quick Answer**: Standing up in Base transitions from [[Turtle]] to [[Standing Guard]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+> Standing up in Base transitions from [[Turtle]] to [[Standing Guard]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish stable posting base before initiating standup sequence
 - Create frames and distance to prevent opponent pressure during transition
 - Maintain defensive posture throughout entire movement sequence
@@ -186,7 +186,7 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Stable turtle position or seated guard with at least one hand posted
 - Opponent positioned at distance or transitioning between control attempts
 - Clear awareness of opponent's grip configuration and pressure direction
@@ -199,7 +199,7 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish posting hand**: From turtle or seated position, post your lead hand firmly on the mat with fingers spread wide, arm positioned slightly in front of your shoulder line. This creates your primary base point and structural support for the entire standup sequence. (Timing: Initial setup phase)
 2. **Create defensive frame**: Extend your non-posting arm to create a frame against opponent's chest or shoulder, establishing distance and preventing them from collapsing their weight onto you during the standup. Keep elbow tight and forearm positioned to redirect pressure. (Timing: Simultaneous with posting hand establishment)
 3. **Position lead foot**: Plant your lead foot flat on the mat with knee bent approximately 90 degrees, positioning it forward and slightly outside your posting hand. This creates your second base point and prepares for hip elevation. Ensure full foot contact with the mat for maximum stability. (Timing: 0.5-1 second after frame creation)
@@ -213,7 +213,7 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives forward with heavy chest pressure as you attempt to post hand** (Effectiveness: High) - Your Response: Immediately transition to alternative escape such as granby roll or hip escape rather than fighting directly against superior pressure. Wait for pressure transition before reattempting standup.
 - **Opponent grabs your posting arm or wrist to prevent base establishment** (Effectiveness: Medium) - Your Response: Switch to opposite side posting, using circular motion to clear the grip while establishing frame with the previously grabbed arm. Alternatively, use the grip to pull opponent off-balance forward.
 - **Opponent attacks turtle position with clock choke or crucifix control** (Effectiveness: High) - Your Response: Abandon standup attempt and address immediate submission threat. Defend neck by getting chin down and hand fighting grips. Return to technical standup only after neutralizing submission threat.
@@ -223,28 +223,28 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to stand up explosively without establishing proper base first
+## Common Mistakes
+- **Mistake**: Attempting to stand up explosively without establishing proper base first
   - **Consequence**: Loss of balance, easy takedown for opponent, wasted energy, and return to bottom position under worse circumstances
   - **Correction**: Focus on sequential base-building with deliberate hand post, foot placement, and hip elevation before attempting to rise. Quality of base determines success rate.
-- **Error**: Failing to create sufficient distance with frames before initiating standup
+- **Mistake**: Failing to create sufficient distance with frames before initiating standup
   - **Consequence**: Opponent easily collapses weight onto you, nullifying the standup attempt and potentially advancing to more dominant control position
   - **Correction**: Establish strong frames first, creating clear space between your torso and opponent's chest. Do not begin standup sequence until distance is secured.
-- **Error**: Looking down at the mat instead of keeping head up during sequence
+- **Mistake**: Looking down at the mat instead of keeping head up during sequence
   - **Consequence**: Poor posture, weakened base, inability to track opponent's movements, and increased vulnerability to front headlock or guillotine attacks
   - **Correction**: Keep head up with eyes on opponent throughout entire movement. Chin should be away from chest with neck in neutral spine alignment.
-- **Error**: Narrow base with feet too close together when rising to standing
+- **Mistake**: Narrow base with feet too close together when rising to standing
   - **Consequence**: Unstable standing position, easy to push over or take down, inability to defend against opponent's follow-up attacks
   - **Correction**: Ensure feet are shoulder-width or wider when completing standup. Think of creating a strong wrestling stance rather than narrow upright posture.
-- **Error**: Posting hand positioned too far from body or at poor angle
+- **Mistake**: Posting hand positioned too far from body or at poor angle
   - **Consequence**: Weak base structure, arm easily collapsed, inability to support body weight during hip elevation, failed standup attempt
   - **Correction**: Post hand should be positioned slightly in front of shoulder line, close enough to support your weight but far enough to allow hip rotation. Fingers spread wide for maximum surface contact.
-- **Error**: Attempting standup while opponent has strong grips on your upper body
+- **Mistake**: Attempting standup while opponent has strong grips on your upper body
   - **Consequence**: Opponent uses your upward movement against you, pulling you forward into their control or using momentum to take your back
   - **Correction**: Address grips first through hand fighting and grip breaking before initiating standup sequence. Clear major grips or use them to your advantage by changing direction.
-- **Error**: Trailing leg remains too close to body during step-through phase
+- **Mistake**: Trailing leg remains too close to body during step-through phase
   - **Consequence**: Cramped base, poor balance, inability to generate proper leverage, and vulnerability to leg attacks from opponent
   - **Correction**: Step trailing leg through with full extension, creating wide base before committing full weight to standing. Think of creating a tripod rather than narrow support structure.
 
@@ -253,7 +253,7 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Solo drilling of technical standup sequence without resistance
 Practice the movement pattern repeatedly from turtle position, focusing on proper hand posting, frame creation, foot placement, and sequential base-building. Perform 20-30 repetitions per session, alternating sides. Video record to check posture, base width, and head position. Emphasize smooth, controlled movement rather than speed.
 (Resistance: None)
@@ -284,7 +284,7 @@ Practice flowing between technical standup, hip escapes, granby rolls, and guard
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Technical Standup from Seated Guard**: Execute standup sequence from seated guard position rather than turtle, using similar base-building principles but with modified initial hand posting and immediate frame establishment against standing opponent. Particularly useful when opponent is attempting to initiate passing sequence. (When to use: When in seated guard and opponent creates distance or stands to pass. Creates opportunity to stand and engage or create further distance.)
 
 **Single Leg Defense Standup**: Modified technical standup used specifically when opponent shoots single leg takedown. Involves sprawling hips while maintaining posting hand base, then executing stepover and rise to standing while defending the leg attack. Integrates wrestling sprawl mechanics with BJJ base principles. (When to use: When opponent shoots single leg during scramble or standup exchange. Allows simultaneous defense and return to neutral standing position.)
@@ -329,7 +329,7 @@ Practice flowing between technical standup, hip escapes, granby rolls, and guard
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Technical standup is a relatively low-risk movement when executed properly, but practitioners should be aware of several safety factors. Ensure adequate hand and wrist strength before attempting under resistance, as posting on weak wrists can result in sprains. During the hip elevation phase, avoid explosive jumping movements that can strain hip flexors or cause loss of balance leading to falls. When training with resistance, partners should progressively increase pressure rather than immediately using full intensity, allowing proper technique development before speed and power are added. Be particularly cautious of neck position during the transition, as improper head placement can expose you to front headlock attacks or choke attempts. When drilling, use mats with adequate cushioning to prevent wrist and hand injuries from repeated posting. Partners should communicate clearly when adding resistance to prevent unexpected pressure that could compromise base and cause falls.
 
@@ -337,7 +337,7 @@ Technical standup is a relatively low-risk movement when executed properly, but 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The technical standup from base serves as a fundamental bridge movement connecting ground positions to standing engagements in Brazilian Jiu-Jitsu. It's an essential component of guard retention systems, providing an escape route when bottom position becomes unfavorable or when energy conservation requires resetting to neutral standing position. The movement integrates with turtle defense strategies, offering an alternative to staying in turtle when opponent hasn't yet established dominant control. From seated guard variations, technical standup allows you to stand and reset distance when passing attempts create space. The technique also connects to scramble navigation, providing a pathway to standing during chaotic transitions where neither athlete has established control. In competitive contexts, technical standup supports strategic positioning by allowing you to dictate whether engagement continues on the ground or standing, particularly important when ahead on points or managing time. The movement feeds into standing guard positions, wrestling exchanges, and can precede offensive actions like guard pulls or takedown attempts executed from more favorable circumstances.
 
@@ -345,7 +345,7 @@ The technical standup from base serves as a fundamental bridge movement connecti
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Technical Stand-up]] - Alternative naming convention for same technique
 - [[Technical Standup]] - Alternative naming convention for same technique
@@ -366,7 +366,7 @@ The technical standup from base serves as a fundamental bridge movement connecti
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The technical standup represents a perfect example of sequential base-building and structural mechanics in jiu-jitsu. What makes this movement fundamentally sound is the systematic progression from one stable base configuration to the next, never compromising structural integrity during the transition. Each position in the sequence—posting hand, planted foot, elevated hips, stepped-through leg—creates a stable platform that can resist disruption while allowing progression to the next stage. This is biomechanically superior to explosive jumping movements which create multiple points of vulnerability during flight phases where base is completely lost. The defensive frame is not merely a blocking structure but a force redirection system that uses skeletal alignment to manage opponent's pressure while preserving energy. Understanding the geometry of base triangulation during the step-through phase is critical: your posting hand and lead foot create one line of support while your trailing leg extends to create a stable tripod structure before you commit to standing. The timing element involves reading pressure transitions in opponent's weight distribution, initiating movement during their positional changes rather than fighting against settled control. This movement should be viewed as a fundamental building block that connects to entire systems of guard retention, scramble management, and positional escape hierarchies.
 - **Gordon Ryan**: In competition, the technical standup is one of the highest-percentage movements for resetting to neutral when bottom position isn't working for you. I use this constantly when opponents are trying to pressure pass and create just enough space that I can establish my base and frames. The key competitive insight is recognizing that standing up doesn't mean you're conceding the bottom game—it means you're choosing when and how the ground engagement happens rather than letting your opponent dictate everything. When I'm ahead on points, technical standup becomes a strategic weapon for killing time and preventing opponent from building offensive momentum. The frame creation aspect is absolutely critical in competition where opponents are strong and applying maximum pressure; you cannot skip the framing step or they'll just collapse onto you. I specifically like to use the standup when opponents stand to pass, because that's when they've created the space I need and their base is higher and easier to deal with from standing. The integration with wrestling is important too—once you're up, you need to be comfortable in standing exchanges or opponents will just take you right back down. Train the standup with the mentality that you're going to stay standing and engage, not just stand up and immediately pull guard every time.
 - **Eddie Bravo**: The technical standup is one of those fundamental movements that people underestimate until they really need it. In 10th Planet we drill this relentlessly because it's your get-out-of-jail card when the bottom game isn't happening and you need to reset. The key innovation I emphasize is staying creative with your frames and base angles—you don't have to always post straight down with your hand, sometimes angling it or using different surfaces creates better base against specific pressure patterns. We also chain the standup with immediate guard pulls or wrestling attacks, making it an offensive reset rather than just defensive escape. One thing I teach that's different from traditional approaches is being willing to invert or use funk movement to create the posting opportunity rather than always coming up in a linear path. If you're comfortable with inverting from rubber guard or mission control, you can use that same body awareness to create really weird angles during standup that opponents can't predict or counter. The other aspect is being mentally comfortable with the scramble that sometimes happens during standup—don't be so locked into the perfect technique that you freeze when things get chaotic. Use the base principles but adapt to whatever's happening in real-time. Train it with high resistance and chaos so you can execute under pressure when your A-game isn't working and you need to create something from nothing.

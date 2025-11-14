@@ -8,7 +8,7 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 60% of the time and finish submissions in 15% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 60% of the time and finish submissions in 15%.
 
 ---
 
@@ -191,7 +191,7 @@ Successful navigation of this position requires understanding the systematic nat
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom opponent has established lockdown on one of top player's legs, creating figure-four entanglement that restricts leg mobility and prevents standard base positioning
 - Bottom opponent controls upper body through underhook or overhook, typically threading under the arm or wrapping over the shoulder to create leverage for whip-up motion
@@ -204,7 +204,7 @@ Successful navigation of this position requires understanding the systematic nat
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Top player previously in half guard top or passing position
 - Bottom opponent successfully established lockdown on one leg
@@ -232,7 +232,7 @@ Successful navigation of this position requires understanding the systematic nat
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Half Guard Pass]] → [[Side Control]]
 
@@ -282,7 +282,7 @@ Successful navigation of this position requires understanding the systematic nat
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Old School Sweep]]** → [[Mount]] (Opponent Success: 55%)
 - **[[Electric Chair Submission]]** → [[Electric Chair]] (Opponent Success: 45%)
@@ -295,7 +295,7 @@ Successful navigation of this position requires understanding the systematic nat
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Whizzer]]** → [[Half Guard]]
   - Opponent attempts underhook-based whip-up motion
@@ -337,7 +337,7 @@ Successful navigation of this position requires understanding the systematic nat
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -13,10 +13,6 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 
 
 
-> **Quick Overview**: Guillotine Control represents a fundamental attacking position in Brazilian Jiu-Jitsu where one practitioner secures a front headlock grip with submission intent, controlling the opponent's head and n...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short to Medium | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short to Medium | Short to Medium |
 
-**What Makes This Position Unique:** Front headlock submission with dual perspectives
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Guillotine Control/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Guillotine Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Front headlock submission with dual perspectives
 
 
 
@@ -88,10 +72,13 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 <section id="bottom-summary" class="content-section">
 
-## Guillotine Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Guillotine Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in guillotine control balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -143,7 +130,7 @@ The bottom player in guillotine control balances defensive frames with offensive
   - Success Rate: Beginner 15%, Intermediate 35%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pulling opponent's head up instead of down while attempting to finish choke**
@@ -175,16 +162,17 @@ The bottom player in guillotine control balances defensive frames with offensive
   - ✅ Correction: Maintain choke control while transitioning to complementary attacks or positional improvements, only releasing grip when opponent has fully escaped or better opportunity presents itself
 
 
-👉 **[[Guillotine Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Guillotine Control Top Perspective
+
+## Playing as Top
+
+[[Guillotine Control/Top|→ Full Top Guide]]
 
 
-The top player in guillotine control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -233,7 +221,7 @@ The top player in guillotine control balances control maintenance with submissio
   - Success Rate: Beginner 45%, Intermediate 62%, Advanced 75%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pulling straight back on the choke without controlling opponent's hips or legs**
@@ -264,8 +252,6 @@ The top player in guillotine control balances control maintenance with submissio
   - Consequence: Opponent finds comfortable defensive position, can breathe and think clearly, eventually escapes or forces stalemate
   - ✅ Correction: Constantly adjust hip angle, stepping pattern, and shoulder pressure in small increments to maintain opponent's discomfort and prevent defensive settling
 
-
-👉 **[[Guillotine Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

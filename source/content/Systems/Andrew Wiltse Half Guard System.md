@@ -143,7 +143,7 @@ description: "Master Andrew Wiltse's modern half guard system. Comprehensive fra
 
 
 
-> **Quick Answer**: Andrew Wiltse Half Guard System is a advanced difficulty Guard System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Andrew Wiltse Half Guard System is a advanced difficulty Guard System system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Guard System
@@ -166,7 +166,7 @@ The technical foundation rests on precise underhook management, hip mobility, an
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Knee shield frames create distance and angles for offensive entries rather than pure defense
 - Underhook control determines sweep direction and back take opportunities
 - Hip mobility enables seamless transitions between half guard variations
@@ -180,7 +180,7 @@ The technical foundation rests on precise underhook management, hip mobility, an
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Knee Shield Frame Management** (Establishes defensive structure while creating offensive angles and preventing crossface control)
 The knee shield serves as the system's primary defensive structure while simultaneously creating the angular leverage necessary for offensive entries. Proper shield placement involves maintaining the shin across the opponent's torso at sternum level, with the bottom leg butterfly hooked or framing against the hip. The shield must remain mobile rather than static, constantly adjusting angle and pressure based on opponent movement. This active frame management creates space for underhook entries while preventing opponent's crossface control. The shield also functions as a launching platform for technical standup sequences when opponents attempt to disengage.
 
@@ -202,7 +202,7 @@ Back take sequences represent the highest-value outcomes in the system, prioriti
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation - Knee Shield Establishment**: Begin by mastering basic knee shield frames and understanding proper shin angle, pressure distribution, and mobility patterns. Practice establishing the shield from various entry positions including guard pulls, failed sweep recoveries, and bottom position scrambles.
 Key points:
 - Shin placement at sternum level with toes flexed toward own face
@@ -381,7 +381,7 @@ Begin each training session with knee shield establishment drills from various p
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The half guard position has evolved from a defensive recovery position into a legitimate offensive platform through systematic development of attacking frameworks. Andrew Wiltse's approach exemplifies this evolution by treating half guard not as a destination but as a transitional hub that connects to higher-value positions. The key insight is understanding that half guard's strategic value lies in its ability to create defensive dilemmas through simultaneous sweep and back take threats. When you force an opponent to choose between defending a sweep or preventing back exposure, you create a binary decision tree where both defensive options lead to your offensive advantage. The systematic approach requires mastering the knee shield as a mobile offensive tool rather than a static defensive frame, using it to create the angular leverage necessary for underhook insertion. The underhook itself becomes the primary control point that determines attack selection, with depth of penetration dictating whether sweep or back take pathways are available. The integration with leg entanglement positions represents a natural evolution of the system, recognizing that modern half guard must account for both upper and lower body attack vectors to remain effective against elite-level opponents who have developed sophisticated passing systems.
 - **Gordon Ryan**: Half guard is one of the most practical positions in competition because everyone ends up there eventually when their primary guards get compromised. The difference between using half guard as an emergency brake versus an offensive weapon comes down to how aggressive your mindset is when you arrive at the position. Wiltse's system works at the highest levels because it's built around creating immediate offensive pressure rather than stalling for position recovery. When I use half guard in competition, I'm immediately hunting for the back take because that's worth more points and creates more submission opportunities than any sweep. The underhook battle is absolutely critical - if you win that battle, you control the entire exchange. If you lose it, you're playing defense and trying to survive the pass. The knee shield is your best friend for creating the space you need to fight for that underhook, but you can't just hold it static and hope the opponent makes a mistake. You have to constantly be moving, creating angles, threatening sweeps to make them react, then capitalizing on those reactions to either complete sweeps or take the back. The single leg X integration is essential for modern half guard because it gives you legitimate leg lock threats that force opponents to divide their defensive attention. Against high-level opponents, you need multiple attack vectors or they'll just shut down your primary attacks and pass.
 - **Eddie Bravo**: The beautiful thing about half guard is that it's the great equalizer - you can end up there from anywhere and immediately start creating problems for whoever's on top. Wiltse's system has a lot of similarities to what we do with the lockdown system, but he's focused more on the dynamic movement game rather than the control-first approach. Both work, but you need to know which one fits your style. The knee shield is money for creating space and angles, but you gotta be ready to abandon it and go to deep half when they start smashing through. That's where having multiple half guard variations in your arsenal becomes critical - you can't just be a one-trick pony or good opponents will figure you out and shut you down. The back take emphasis is spot on because points-wise and submission-wise, it's the best outcome you can get from half guard. We teach similar pathways in the 10th Planet system, using the lockdown to break down their posture first, then converting to the back when they're off-balance. The key is being comfortable in the chaos of half guard scrambles and knowing you've got multiple pathways to victory. Whether that's sweeps, back takes, or even submissions directly from half guard, you need to have that complete game so opponents can't just focus on stopping one thing. Train all the variations, find what works for your body type and flexibility, and then drill the hell out of your favorite sequences until they're automatic.

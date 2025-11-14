@@ -81,7 +81,7 @@ def extract_common_errors_flexible(content):
 
     # Try multiple section patterns
     section_patterns = [
-        r'## Common Errors(.*?)(?=##|$)',
+        r'## Common Mistakes(.*?)(?=##|$)',
         r'## Common Mistakes(.*?)(?=##|$)',
         r'## Errors to Avoid(.*?)(?=##|$)',
         r'## Typical Mistakes(.*?)(?=##|$)',

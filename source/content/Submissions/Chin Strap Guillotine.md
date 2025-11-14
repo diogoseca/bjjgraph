@@ -8,7 +8,7 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 
 
 
-> **Quick Answer**: Chin Strap Guillotine is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine stress from excessive cranking - apply slowly over 3-5 seconds and release immediately upon tap.
+> Chin Strap Guillotine is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine stress from excessive cranking. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="safety-considerations" class="content-section">
 
-## Is Chin Strap Guillotine Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -217,7 +217,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Secure front headlock control with opponent's head positioned to one side of your body
 - Thread the choking arm under the chin with palm facing up toward opponent's far ear
 - Connect the choking hand to the bicep of the opposite arm creating a figure-four configuration
@@ -231,7 +231,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish dominant front headlock position with opponent's head controlled
 - Position opponent's head to one side of your body rather than centered
 - Prevent opponent from establishing strong defensive posture or frames
@@ -245,7 +245,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish front headlock control**: From standing, turtle attack, or guard pull scenario, secure a dominant front headlock position with your arm wrapped around opponent's neck. Position their head to one side of your body and maintain heavy shoulder pressure on their upper back. Control their near arm by overhooking or pinning it to prevent defensive frames. Your hips should be low and your weight should be distributed over their shoulders. (Timing: Initial control phase) [Pressure: Moderate]
 2. **Thread the choking arm under the chin**: With your choking arm (the arm wrapped around their head), begin to slide your hand underneath their chin. Your palm should be facing upward as you thread deeper, aiming to reach across toward their far ear. Use your opposite hand to help guide and clear space if needed. The key is to get your wrist and forearm positioned directly under their chin rather than around the side of their neck. (Timing: 2-3 seconds transition) [Pressure: Light]
 3. **Establish the chin strap grip**: Once your choking hand is threaded under the chin, reach across with that hand and grab the bicep of your opposite arm. Your opposite hand should come up and place its palm on the back of their head. This creates the classic figure-four configuration. Ensure your choking forearm is making direct contact with the underside of their chin and your wrist is positioned deep under their jaw. (Timing: 1-2 seconds to secure grip) [Pressure: Moderate]
@@ -259,7 +259,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent creates a frame with their arms and pushes against your chest to create space** (Effectiveness: Medium) - Your Adjustment: Pin their near arm with your non-choking hand or trap it with your body weight. If they establish a frame, use your body weight to collapse it by driving forward and down. Transition to a different angle if necessary.
 - **Opponent tucks their chin tightly to prevent you from threading under it** (Effectiveness: High) - Your Adjustment: Use your non-choking hand to create space by pushing their forehead back or peeling their chin up. Alternatively, transition to a traditional guillotine or darce choke if the chin strap angle is blocked. Be patient and wait for them to move before attempting to thread.
 - **Opponent attempts to turn toward you and roll through to escape the front headlock** (Effectiveness: Medium) - Your Adjustment: Maintain heavy hip pressure and sprawl your legs back to prevent the roll. If they commit to turning in, follow them and maintain the chin strap configuration as you transition to a mounted or side position. Use your legs to hook and control their hips during the roll.
@@ -269,28 +269,28 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting to finish the choke with the chin on top of your forearm rather than under it [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Attempting to finish the choke with the chin on top of your forearm rather than under it [Medium DANGER]
   - **Consequence**: This creates a painful but ineffective neck crank rather than a proper blood choke. Opponent can endure much longer and may not tap.
   - **Correction**: Ensure your forearm is positioned under the chin with your wrist deep beneath their jaw. Your arm should be cutting across the front of their throat, not pushing their chin back. Take time in the setup to get the proper depth.
-- **Error**: Applying the choke with sudden jerking or spiking motion [CRITICAL DANGER]
+- **Mistake**: Applying the choke with sudden jerking or spiking motion [CRITICAL DANGER]
   - **Consequence**: Can cause severe neck injury, cervical spine damage, or whiplash. This is extremely dangerous and unacceptable in training.
   - **Correction**: Apply all pressure slowly and progressively over 3-5 seconds minimum. There should never be any sudden movements or jerking. Communicate with your partner and respect the tap immediately.
-- **Error**: Failing to secure the proper grip before attempting to finish [Low DANGER]
+- **Mistake**: Failing to secure the proper grip before attempting to finish [Low DANGER]
   - **Consequence**: Opponent easily escapes by turning away or creating frames. You waste energy and lose the dominant position.
   - **Correction**: Take your time to establish the complete chin strap configuration with your hand secured to your bicep and proper chin position. Don't rush the finish - focus on control first, submission second.
-- **Error**: Neglecting to control opponent's hips, allowing them to turn away or stand up [Low DANGER]
+- **Mistake**: Neglecting to control opponent's hips, allowing them to turn away or stand up [Low DANGER]
   - **Consequence**: Opponent escapes by turning away from the choke or standing up to relieve pressure. You lose the submission and potentially the dominant position.
   - **Correction**: Always establish hip control with your legs - close your guard, establish hooks, or sprawl your legs back. Your lower body control is just as important as your upper body control for this submission.
-- **Error**: Positioning opponent's head too centered rather than to one side [Low DANGER]
+- **Mistake**: Positioning opponent's head too centered rather than to one side [Low DANGER]
   - **Consequence**: Makes it nearly impossible to thread your arm under the chin effectively. You end up with a weak guillotine position instead of the proper chin strap.
   - **Correction**: From initial front headlock control, position their head clearly to one side of your body. This creates the proper angle for your choking arm to thread under the chin and for your shoulder to drive into the neck.
-- **Error**: Forgetting to drive shoulder pressure while focusing only on the chin pull [Low DANGER]
+- **Mistake**: Forgetting to drive shoulder pressure while focusing only on the chin pull [Low DANGER]
   - **Consequence**: The choke takes much longer to finish and may not be effective at all. You're missing half of the submission mechanism.
   - **Correction**: Remember the chin strap is a two-part attack: pulling the chin toward your chest AND driving your shoulder into their neck. These actions must happen simultaneously to create the proper scissoring pressure.
-- **Error**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
   - **Consequence**: Can cause loss of consciousness, trachea damage, or serious neck injury. This is completely unacceptable and dangerous.
   - **Correction**: Release immediately upon any tap signal or sign of distress. Your training partner's safety is more important than practicing the finish. Develop the habit of instant release in all choke training.
 
@@ -299,7 +299,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Standing Chin Strap Guillotine**: Applied from a standing front headlock position, often after sprawling on a takedown attempt or after securing a snap-down. The mechanics are identical, but you must use one leg to control opponent's near leg to prevent them from standing fully upright. This variation is common in wrestling-heavy no-gi competition. (When to use: When opponent shoots for a takedown and you sprawl, or after a successful snap-down to front headlock from standing.)
 
 **Turtle Attack Chin Strap**: When opponent is in turtle position and you have front headlock control from the side or behind. Thread your arm under their chin from the side angle. This variation often requires more aggressive hip control with your legs wrapping around their hips or establishing a body triangle to prevent them from rolling away. (When to use: When opponent turtles to defend guard passes or when you're attacking turtle position from top. Particularly effective when opponent is hiding their neck from traditional chokes.)
@@ -342,7 +342,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Positioning** (Week 1-2)
 - Focus: Learn the proper front headlock control, head positioning, and how to thread the arm under the chin without any pressure. Practice the figure-four grip connection and shoulder positioning. Partner remains completely still and offers zero resistance. Focus entirely on mechanics and body positioning.
 - Resistance: None
@@ -379,7 +379,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Guillotine Control]]
@@ -397,7 +397,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[High Elbow Guillotine]]
@@ -439,7 +439,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The chin strap guillotine represents a more sophisticated understanding of front headlock attacks than the traditional guillotine. Where most practitioners focus solely on pulling the head down and squeezing, the chin strap recognizes that the chin itself can become the primary leverage point for attacking the neck. The biomechanical advantage comes from the figure-four configuration combined with the shoulder drive - you're essentially creating a lever system where the chin acts as a fulcrum and your forearm becomes the lever attacking the carotid arteries. The key insight is understanding that this is fundamentally different from a neck crank - your forearm must be positioned under the chin attacking the front of the throat, not behind the chin pushing it backward. When executed properly, the opponent experiences pressure on both carotid arteries simultaneously: your forearm attacks the far-side carotid while your shoulder compression attacks the near-side carotid. This bilateral attack is what makes the chin strap so effective against even defensive opponents. From a safety perspective, the danger lies in practitioners attempting to force the position when they don't have the proper depth under the chin, which converts it from a blood choke into a dangerous neck crank. Take your time establishing the position before applying pressure.
 - **Gordon Ryan**: In high-level no-gi competition, the chin strap guillotine has become one of my most reliable finishing sequences from front headlock positions. What makes it so effective is that it works against opponents who have good guillotine defense - they can hide their neck, maintain posture, and defend traditional guillotines all day, but the chin strap attacks from a different angle that their standard defenses don't address. I particularly like using it after sprawling on takedown attempts or when attacking turtle position, because in those scenarios the opponent's head is already positioned to the side which gives me the perfect angle. The key for competition is recognizing when you have the proper depth under the chin versus when you're just scratching the surface - if you don't have deep position, don't force it, transition to darce or anaconda instead. In training, I'm extremely careful with the finishing pressure because this is one of those techniques where the difference between 'tight but safe' and 'dangerous' is very small. I never go more than 70-80% in the training room, and I apply it over 4-5 seconds minimum. Save the competition pressure for competition. The hip control is absolutely critical - I usually prefer closing my guard or getting some kind of leg entanglement because if they turn away even slightly, the choke is gone. When it's locked properly, it finishes fast, so train it slow.
 - **Eddie Bravo**: The chin strap guillotine fits perfectly into the 10th Planet system because it's a no-gi specialized technique that works from all the positions we flow through - standing, turtle attacks, and especially from guard pulls when we secure front headlock control. What I love about the chin strap is that it's sneaky - people don't expect it when they're defending traditional guillotines, and by the time they realize you're threading under the chin instead of just squeezing their neck, it's often too late. We drill it extensively from the rubber guard positions when we can't finish the traditional attacks, and from our turtle attacks when we're hunting chokes from the back. The innovation aspect comes in how you combine it with other attacks - you can fake the chin strap to set up darces, or fake the darce to set up the chin strap. Keep them guessing. From a training culture perspective, we emphasize that this is a technique where you need to be especially careful with training partners because it can finish very suddenly and the pressure on the trachea can be significant if your forearm isn't positioned correctly. Always drill it slowly, always respect the tap instantly, and make sure you're attacking the carotid arteries with proper technique rather than just cranking somebody's neck. The goal is to submit your training partners, not injure them - we want everyone healthy for the next training session.

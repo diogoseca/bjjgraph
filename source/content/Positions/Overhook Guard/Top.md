@@ -8,7 +8,7 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 35%.
 
 ---
 
@@ -191,7 +191,7 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player has secured overhook control on one of bottom player's arms, with their arm threaded under opponent's arm and controlling near the shoulder or upper back, eliminating bottom player's ability to frame on that side
 - Top player maintains chest-to-chest or chest-to-shoulder pressure with hips positioned forward, preventing bottom player from creating distance or recovering full guard structure
@@ -204,7 +204,7 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful overhook establishment from opponent's guard
 - Bottom player unable to immediately strip the overhook
@@ -231,7 +231,7 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Smash Pass]] → [[Side Control]]
 
@@ -281,7 +281,7 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Closed Guard]]
 - **[[Frame and Shrimp]]** → [[Open Guard]]
@@ -294,7 +294,7 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Pressure Pass]]** → [[Side Control]]
   - Opponent attempts to create space with frames
@@ -336,7 +336,7 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

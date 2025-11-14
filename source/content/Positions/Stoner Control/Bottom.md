@@ -8,7 +8,7 @@ description: "Master Stoner Control Bottom in BJJ. Advanced 10th Planet control 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Stoner Control Bottom in BJJ. Advanced 10th Planet control 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Stoner Control Bottom in BJJ. Advanced 10th Planet control 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 80% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 80% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Both variations represent Eddie Bravo's systematic approach where each control p
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Deep overhook secured on opponent's arm with bottom practitioner's arm threading completely under opponent's armpit and gripping around back or shoulder, controlling rotation and preventing posting attempts
 - Leg control established through either rubber guard configuration (ankle behind opponent's head/neck) or lockdown (feet crossed beneath opponent's thigh), creating mechanical control that limits opponent mobility
@@ -203,7 +201,7 @@ Both variations represent Eddie Bravo's systematic approach where each control p
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Guard control already established from either closed guard (rubber guard version) or half guard (lockdown version)
 - Opponent's posture successfully broken with leg control mechanisms
@@ -230,7 +228,7 @@ Both variations represent Eddie Bravo's systematic approach where each control p
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Triangle Setup]] → [[Triangle Control]]
 
@@ -308,7 +306,7 @@ Both variations represent Eddie Bravo's systematic approach where each control p
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Stack Defense]]** → [[Closed Guard]]
 - **[[Posture Recovery]]** → [[Closed Guard]]
@@ -322,7 +320,7 @@ Both variations represent Eddie Bravo's systematic approach where each control p
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Triangle Setup]]** → [[Triangle Control]]
   - Opponent attempts to pull arm free from overhook or posts with free hand
@@ -364,7 +362,7 @@ Both variations represent Eddie Bravo's systematic approach where each control p
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 
 
 
-> **Quick Answer**: Open Guard to Deep Half transitions from [[Open Guard]] to [[Deep Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Open Guard to Deep Half transitions from [[Open Guard]] to [[Deep Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create angle with hip escape before diving underneath opponent's base
 - Keep head positioned outside opponent's leg throughout transition to prevent crossface
 - Use inside leg as initial hook before completing deep half structure
@@ -180,7 +180,7 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in standing or combat base position attempting to pass
 - Space created between you and opponent through frames or grips
 - Inside position established with at least one leg
@@ -193,7 +193,7 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish inside positioning**: From open guard, use your inside leg to create a butterfly hook or shin shield against your opponent's near leg. Simultaneously grip their pants at the knee or ankle with your near-side hand while your far hand controls their belt or far hip. This creates the necessary frame and angle for entry. (Timing: As opponent begins forward pressure or prepares to initiate pass)
 2. **Create angle with hip escape**: Execute a strong hip escape away from your opponent, rotating your hips approximately 45 degrees to create the angle needed to dive underneath. Your shoulders should turn toward the mat while maintaining your grips. This hip movement opens the pathway under your opponent's leg while protecting your back exposure. (Timing: Immediately following inside leg establishment)
 3. **Dive underneath near leg**: Drive your head and shoulders underneath your opponent's near leg, threading your body through the space between their legs. Your head must pass to the outside of their leg, never between their legs. Keep your chin tucked and neck protected as you slide underneath, using your grips to pull yourself through while your legs follow. (Timing: As opponent's weight shifts forward onto their hands or begins lateral movement)
@@ -206,7 +206,7 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls back and establishes heavy crossface pressure** (Effectiveness: High) - Your Response: Maintain head position outside the leg, use near arm to frame against hip, and continue hip movement to complete entry before crossface can be established. If crossface succeeds, transition to turtle or reverse De La Riva recovery.
 - **Opponent steps leg back as you begin dive underneath** (Effectiveness: Medium) - Your Response: Follow their leg movement with your dive, using your grips to prevent full disengagement. Alternative: transition to single leg X-guard or seated guard if they create too much distance.
 - **Opponent drives knee toward mat to block entry path** (Effectiveness: Medium) - Your Response: Use this commitment to transition to alternative guards such as butterfly, reverse De La Riva, or X-guard. The knee drop creates other positional opportunities.
@@ -215,25 +215,25 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Diving with head between opponent's legs instead of outside
+## Common Mistakes
+- **Mistake**: Diving with head between opponent's legs instead of outside
   - **Consequence**: Creates extreme vulnerability to guillotine chokes and front headlock positions, often resulting in immediate submission threat or positional loss
   - **Correction**: Always ensure your head passes to the outside of opponent's near leg. If unclear, err on the side of going too far outside rather than risk going between legs. Practice the angle in drilling until it becomes automatic.
-- **Error**: Attempting entry without first creating proper angle through hip escape
+- **Mistake**: Attempting entry without first creating proper angle through hip escape
   - **Consequence**: Entry becomes slow and telegraphed, allowing opponent to stuff the attempt and establish dominant passing position
   - **Correction**: Never skip the hip escape step. The angle created by hip movement is what makes the entry possible. Think of it as opening a door before walking through it.
-- **Error**: Failing to maintain grips during transition
+- **Mistake**: Failing to maintain grips during transition
   - **Consequence**: Opponent can easily disengage and reestablish distance, nullifying the entry attempt and forcing restart from inferior position
   - **Correction**: Grips must be maintained throughout entire transition. If grips break, immediately establish new connection points before continuing entry. Practice grip maintenance during dynamic drilling.
-- **Error**: Stopping movement once deep half structure is achieved
+- **Mistake**: Stopping movement once deep half structure is achieved
   - **Consequence**: Allows opponent to establish defensive posture and counter-attack, eliminating offensive advantage that should come from successful entry
   - **Correction**: Treat the entry and sweep as one continuous motion. Begin sweeping action immediately upon completing position - there should be no pause between entry completion and sweep initiation.
-- **Error**: Keeping body parallel to opponent instead of perpendicular
+- **Mistake**: Keeping body parallel to opponent instead of perpendicular
   - **Consequence**: Drastically reduces leverage advantage and makes sweeps exponentially more difficult, essentially neutralizing the position's offensive potential
   - **Correction**: Visualize forming a 'T' shape with your opponent's body. Your torso should cross underneath theirs at a right angle. This perpendicular alignment is fundamental to deep half mechanics.
-- **Error**: Extending neck forward or looking up during entry
+- **Mistake**: Extending neck forward or looking up during entry
   - **Consequence**: Creates vulnerability to crossface control and guillotine attacks, compromising both safety and positional integrity
   - **Correction**: Keep chin tucked throughout transition. Look toward your own hip rather than up at opponent. This protects your neck while maintaining proper structural alignment.
 
@@ -242,7 +242,7 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Entry Drilling** - Basic movement pattern and proper head positioning
 Partner maintains static standing position while you drill the entry sequence slowly. Focus exclusively on correct head position (outside the leg), hip escape angle, and grip maintenance. Repeat 20-30 times per training session, alternating sides. Partner provides zero resistance.
 (Resistance: None)
@@ -269,7 +269,7 @@ Full positional sparring from open guard with scoring. Points awarded for succes
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Reverse De La Riva to Deep Half Entry**: Begin from reverse De La Riva guard position, using the RDLR hook to off-balance opponent forward before diving underneath. This variation provides additional control during entry phase and works particularly well against opponents attempting to backstep pass the RDLR. (When to use: When already in RDLR position or when opponent demonstrates backstep passing tendencies that make traditional open guard entry difficult.)
 
 **Butterfly Guard to Deep Half Entry**: From butterfly guard, use butterfly hooks to elevate opponent slightly while simultaneously diving underneath near leg. The elevation created by hooks makes the dive underneath easier and faster. This entry is particularly smooth when opponent is in combat base or seated position. (When to use: When in butterfly guard against seated or combat base opponents, especially effective when they are defending butterfly sweeps and presenting their weight forward.)
@@ -309,7 +309,7 @@ Full positional sparring from open guard with scoring. Points awarded for succes
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the open guard to deep half transition, practitioners must prioritize proper head positioning throughout the entry sequence. Never allow your head to dive between your opponent's legs, as this creates immediate vulnerability to guillotine chokes and can result in serious neck injuries if the submission is applied aggressively. Always maintain a tucked chin position to protect against crossface pressure and potential neck cranks. During drilling, partners should use controlled movements and avoid explosive counter-pressure until proper technique is established. Beginners should practice this entry exclusively with cooperative partners who understand the safety requirements and will not apply sudden pressure that could compress the neck. As with all inverted or underneath positions, practitioners with neck injuries or restrictions should consult with medical professionals before attempting this technique. The transition should be trained progressively, starting with zero resistance and gradually increasing intensity only after demonstrating consistent proper form. Partners should communicate clearly about resistance levels and immediately stop if either person feels uncomfortable or unsafe during the entry sequence.
 
@@ -317,7 +317,7 @@ When practicing the open guard to deep half transition, practitioners must prior
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The open guard to deep half transition represents a critical component of modern guard retention and recovery systems. This entry serves as an essential bridge between various open guard structures and the deep half position, allowing practitioners to maintain guard integrity when facing aggressive standing or pressure passing attempts. The technique integrates seamlessly with other guard recovery concepts, particularly when combined with reverse De La Riva, butterfly guard, and single leg X positions as alternative pathways. In competition contexts, this transition is frequently used as a last-resort guard retention option when primary guards are being passed, effectively transforming defensive situations into offensive opportunities through depth and angle changes. The deep half position reached through this entry provides immediate access to powerful sweeping sequences including the old school sweep, waiter sweep, and Homer sweep, making it not just a defensive recovery but an offensive position in its own right. Advanced practitioners use this entry as part of layered guard systems where open guard, butterfly, deep half, and single leg X positions flow together based on opponent reactions. The transition also connects to back-take sequences and leg entanglement systems for practitioners who train in modern submission grappling rulesets. Understanding this entry as part of the larger positional ecosystem rather than as an isolated technique is essential for developing comprehensive guard games that function against diverse passing styles and opponent body types.
 
@@ -325,7 +325,7 @@ The open guard to deep half transition represents a critical component of modern
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Deep Half Guard]] - Ending position
 - [[Old School Sweep]] - Primary follow-up sweep
@@ -345,7 +345,7 @@ The open guard to deep half transition represents a critical component of modern
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The transition from open guard to deep half represents a sophisticated application of angular change and depth management in guard retention. The critical mechanical element is the perpendicular alignment achieved relative to the opponent's body - this geometric relationship is what transforms a potentially vulnerable position into one with significant sweeping leverage. I emphasize to students that the head position outside the opponent's near leg is non-negotiable; this is the structural foundation that prevents crossface control and maintains defensive integrity throughout the transition. The timing of this entry is equally important - it should be initiated as the opponent commits their weight forward or laterally, using their momentum against them. The hip escape that precedes the dive underneath is not merely preparatory movement but creates the angular pathway necessary for safe entry. Students must understand that the position is not complete until offensive action begins - the deep half entry and subsequent sweep should be viewed as a single, continuous sequence rather than separate techniques.
 - **Gordon Ryan**: In competition, I view the deep half entry from open guard primarily as a high-percentage guard recovery option rather than a primary attacking system. The technique becomes extremely valuable when facing aggressive standing passers who are difficult to off-balance with traditional butterfly or De La Riva attacks. The key to making this work at the highest levels is explosive execution - there can be no hesitation once you commit to the entry, as elite opponents will immediately capitalize on slow or tentative movement. I specifically use this transition when opponents are pressuring forward with their weight, which makes the dive underneath much easier and more effective. The most important element for competition success is immediately threatening the sweep upon completing the position - if you pause even momentarily, world-class opponents will establish their defensive posture and neutralize your offensive options. I integrate this entry as part of a larger guard retention system where I'm constantly flowing between butterfly, single leg X, and deep half based on how my opponent is attempting to pass. Against opponents with strong pressure passing games, having this transition as a reliable option prevents them from simply smashing through your guard structures.
 - **Eddie Bravo**: The deep half entry from open guard fits beautifully into the 10th Planet system as a connection point between our various half guard positions and our sweeping sequences. What makes this transition special is how it uses the opponent's forward pressure against them - they're literally pushing you into a position where you have leverage advantage. I teach students to think of this as diving under a wave rather than fighting against it. Once you complete the entry, the lockdown becomes an incredibly powerful control mechanism that sets up not just sweeps but also the electric chair submission sequence that's become a signature of our system. The creativity comes in how you combine this entry with other positions - from deep half you can flow to the truck, to standard lockdown, or back to open guard depending on what the opponent gives you. I emphasize that students should never view this as a stalling position but rather as a dynamic platform for attacks. The transition works exceptionally well in no-gi contexts where the lack of gi grips makes it harder for opponents to prevent the dive underneath. We've developed specific entries from rubber guard and mission control that flow into this position, creating multiple pathways that keep opponents guessing about where the attack is coming from.

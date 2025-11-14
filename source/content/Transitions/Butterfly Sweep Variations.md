@@ -8,7 +8,7 @@ description: "Master Butterfly Sweep variations in BJJ. Learn Hook Sweep, Elevat
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Butterfly Sweep variations in BJJ. Learn Hook Sweep, Elevat
 
 
 
-> **Quick Answer**: Butterfly Sweep Variations transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Butterfly Sweep Variations transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Butterfly Sweep family represents one of the most versatile and high-percent
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain active butterfly hooks with feet positioned under opponent's hips
 - Control opponent's upper body through collar and sleeve grips or underhooks
 - Read opponent's weight distribution to select optimal sweep variation
@@ -186,7 +186,7 @@ The Butterfly Sweep family represents one of the most versatile and high-percent
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established butterfly guard with both hooks inserted under opponent's thighs
 - Upper body control through collar/sleeve grips, underhooks, or overhooks
 - Opponent's weight positioned over their base, not completely sprawled back
@@ -199,7 +199,7 @@ The Butterfly Sweep family represents one of the most versatile and high-percent
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish butterfly guard control**: Secure butterfly guard with both hooks active under opponent's hips, feet flexed and positioned to generate lifting power. Establish upper body control through collar and sleeve grips (gi) or underhooks/overhooks (no-gi). Maintain upright posture with chest connected to opponent's chest, preventing them from creating distance or establishing heavy top pressure. (Timing: Before opponent establishes dominant grips or heavy pressure)
 2. **Read opponent's defensive structure**: Assess opponent's weight distribution, base width, and grip configuration. If they sit back with wide base, prepare Hook Sweep. If they drive forward with pressure, prepare Elevator Sweep. If they're upright but squared, prepare Arm Drag variation. This decision-making process should become instinctive through repetition, reading subtle weight shifts that telegraph their defensive strategy. (Timing: Continuous assessment during guard engagement)
 3. **Execute Hook Sweep (Variation 1)**: For wide-based opponents: Secure collar and sleeve grips, then simultaneously lift with one butterfly hook while pulling opponent's sleeve across their body and rotating your shoulders in the same direction. The hook creates elevation while the sleeve pull breaks their base to the side. Your free leg extends to the mat for leverage as you complete the rotation to mount or side control top. (Timing: When opponent posts wide or circles to one side)
@@ -213,7 +213,7 @@ The Butterfly Sweep family represents one of the most versatile and high-percent
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls back and extends arms to create distance, removing their weight from your hooks** (Effectiveness: High) - Your Response: Transition to shin-to-shin guard or single leg X-guard to maintain control despite distance, or stand up and engage in standing guard game
 - **Opponent establishes heavy crossface control and drives chest pressure to flatten you** (Effectiveness: High) - Your Response: Frame against crossface with forearms, create distance with shrimping motion, then reset butterfly hooks or transition to half guard with underhook
 - **Opponent posts arm wide during Hook Sweep attempt, preventing rotation** (Effectiveness: Medium) - Your Response: Immediately switch to Elevator Sweep as their forward post creates perfect setup for overhead lift, or attack posted arm with kimura grip
@@ -223,25 +223,25 @@ The Butterfly Sweep family represents one of the most versatile and high-percent
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Using only arm strength to execute sweep without engaging hooks and hip movement
+## Common Mistakes
+- **Mistake**: Using only arm strength to execute sweep without engaging hooks and hip movement
   - **Consequence**: Sweep fails as opponent easily maintains base with minimal resistance, burning your grip strength and creating stalemate position
   - **Correction**: Generate sweeping power through coordinated lifting of butterfly hooks combined with hip rotation and upper body pulling. The hooks and hips provide the power, arms only control direction
-- **Error**: Attempting same sweep variation repeatedly without reading opponent's defensive adjustments
+- **Mistake**: Attempting same sweep variation repeatedly without reading opponent's defensive adjustments
   - **Consequence**: Opponent recognizes pattern and pre-emptively counters with sprawl, crossface, or pressure pass, shutting down your offense entirely
   - **Correction**: Develop sensitivity to weight distribution changes and actively select sweep variation based on opponent's current structure. If one variation is defended, immediately flow to different variation that exploits their defensive position
-- **Error**: Allowing opponent to create excessive distance between your chest and their chest
+- **Mistake**: Allowing opponent to create excessive distance between your chest and their chest
   - **Consequence**: Loss of upper body control eliminates ability to break their posture or control sweep direction, resulting in easy guard pass or escape
   - **Correction**: Maintain constant chest-to-chest connection through active pulling with collar/sleeve grips or underhooks. If distance opens, immediately close it or transition to different guard that works at longer range
-- **Error**: Positioning butterfly hooks too shallow or too deep under opponent's thighs
+- **Mistake**: Positioning butterfly hooks too shallow or too deep under opponent's thighs
   - **Consequence**: Shallow hooks provide no lifting power, deep hooks get trapped and reduce mobility. Both eliminate sweep effectiveness and create pass vulnerabilities
   - **Correction**: Position hooks at optimal depth where your feet contact the crease of opponent's hips, allowing maximum lifting leverage while maintaining hook mobility to adjust or remove as needed
-- **Error**: Completing sweep motion but failing to follow opponent to establish top position control
+- **Mistake**: Completing sweep motion but failing to follow opponent to establish top position control
   - **Consequence**: Opponent scrambles back to guard or reverses sweep momentum, negating all your offensive work and potentially conceding worse position
   - **Correction**: Treat sweep completion and position establishment as single continuous motion. As opponent is inverted, immediately move with them to secure mount, side control, or back control with proper control points before they land
-- **Error**: Leaning back excessively during sweep attempt, creating space for opponent to circle or pass
+- **Mistake**: Leaning back excessively during sweep attempt, creating space for opponent to circle or pass
   - **Consequence**: Opens gap for opponent to extract their legs from your hooks and initiate pressure pass or establish top position dominance
   - **Correction**: Maintain forward chest pressure and connection even during sweep execution. Only lean back at the precise moment of lifting to create sweep arc, then immediately return forward to follow opponent
 
@@ -250,7 +250,7 @@ The Butterfly Sweep family represents one of the most versatile and high-percent
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Hook Mechanics** - Develop proper butterfly hook positioning and lifting motion in isolation
 Practice inserting and removing butterfly hooks smoothly while maintaining balance. Partner provides zero resistance. Focus on feeling optimal hook depth and foot positioning for maximum lifting power. Drill basic Hook Sweep in slow motion, emphasizing coordination between hook lift, grip pull, and hip rotation. Complete 5-minute rounds of continuous hook insertion and removal to build endurance in hip flexors and core muscles.
 (Resistance: None)
@@ -277,7 +277,7 @@ Practice entering butterfly guard from standing guard pulls, seated guard, and s
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi Double Underhook Variation**: Without gi grips available, establish double underhooks with hands locked behind opponent's back. Use underhook control to break their posture forward and prevent sprawl defense. Execute Elevator Sweep by lifting both hooks explosively while pulling down with locked hands, creating powerful overhead arc. This variation is fundamental to no-gi butterfly guard and works best when opponent is upright and you can secure deep underhooks. (When to use: No-gi training or when opponent is defending gi grips effectively. Especially effective against wrestlers accustomed to sprawling against single-leg attacks)
 
 **Single Hook Variation with Leg Triangle**: Remove one butterfly hook and triangle that leg over opponent's far leg while maintaining other butterfly hook. This creates asymmetric control preventing opponent from circling away from sweep. Execute sweep by lifting remaining butterfly hook while pulling with upper body controls. The triangled leg prevents base recovery and creates powerful rotational sweep. Often used when opponent posts wide on one side or attempts to quarter-guard pass. (When to use: When opponent establishes wide base on one side or when transitioning from half butterfly to full butterfly guard)
@@ -319,7 +319,7 @@ Practice entering butterfly guard from standing guard pulls, seated guard, and s
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Butterfly sweep variations are generally low-risk techniques, but several safety considerations apply. When executing the Elevator Sweep with explosive lifting motion, ensure controlled follow-through to prevent throwing your partner with excessive force, particularly when drilling without mats or near walls. Beginners should start with slow-motion repetitions to develop coordination before adding speed and power. Partners should communicate if neck or back discomfort occurs during any variation, as improper execution can create compression. When drilling the Arm Drag variation, avoid yanking opponent's arm with sudden force that could stress their shoulder; instead, use smooth pulling motion. Training partners should tap early if they feel off-balanced to the point of uncontrolled falling. During live training, be aware of surrounding practitioners to avoid collisions during sweep execution. When practicing hook insertion and removal, start slowly to prevent straining hip flexors and groin muscles. Advanced practitioners executing these sweeps at competition speed should ensure their partner is experienced enough to fall safely and protect themselves during the sweep arc.
 
@@ -327,7 +327,7 @@ Butterfly sweep variations are generally low-risk techniques, but several safety
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The butterfly sweep variations serve as the primary offensive engine of the butterfly guard system, connecting to multiple strategic pathways within BJJ's positional hierarchy. These sweeps integrate with the submission game through guillotine and kimura attacks - failed sweeps often create submission opportunities, while submission defenses create sweep openings. The butterfly guard itself connects to other guard systems: when butterfly sweeps are defended with distance creation, transition to Shin-to-Shin Guard or Single Leg X-Guard; when defended with heavy pressure, transition to Deep Half Guard or Half Guard. From the top position after successful sweep, you can establish Mount, Side Control, or continue to Back Control depending on which variation you executed and how opponent landed. The butterfly sweep system also integrates with standing guard pulls in competition - pulling to seated butterfly guard with immediate Elevator Sweep creates fast scoring opportunity. Understanding these variations transforms butterfly guard from an isolated position into a hub connecting offensive sweeps, submissions, alternate guards, and top position dominance. Elite competitors like Marcelo Garcia demonstrated how butterfly sweep mastery could become the foundation of an entire competitive game, with all other positions serving as backup options when butterfly attacks were defended.
 
@@ -335,7 +335,7 @@ The butterfly sweep variations serve as the primary offensive engine of the butt
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Butterfly Guard]] - Parent position - fundamental guard from which all variations are executed
 - [[Basic Butterfly Sweep]] - Foundation technique - core movement pattern that all variations build upon
@@ -356,7 +356,7 @@ The butterfly sweep variations serve as the primary offensive engine of the butt
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The butterfly sweep variations represent a perfect example of what I call 'systematic defensive adaptation exploitation' - you're not simply executing a single technique repeatedly, but rather reading your opponent's defensive structure and selecting the variation that best exploits their current configuration. The key insight is that all three major variations (Hook, Elevator, Arm Drag) attack different defensive postures, which means your opponent cannot simultaneously defend all three. If they widen their base to prevent Hook Sweep, they become vulnerable to Elevator. If they sit back to prevent Elevator, they expose themselves to Hook Sweep rotation. If they maintain upright square posture to defend both vertical and rotational attacks, the Arm Drag circumvents their structure entirely by attacking laterally. This creates what I call a 'defensive trilemma' - three mutually exclusive defensive requirements that cannot be satisfied simultaneously. The practitioner who can fluidly recognize which defensive choice their opponent has made and instantly select the corresponding sweep variation will dominate the butterfly guard exchange regardless of strength or size differentials. Train to make this recognition automatic through thousands of repetitions with different body types and resistance levels.
 - **Gordon Ryan**: In competition, butterfly sweep variations are my go-to guard system because they score fast and don't require complex setups. The beauty is that you can literally pull guard and score a sweep in one motion if you time the Elevator Sweep with their forward pressure from standing. I've won matches in under 30 seconds using this exact sequence. What makes these variations competition-viable is that they work against defensive reactions rather than requiring your opponent to make a mistake - when they defend one sweep, they're automatically setting up the next variation. My personal hierarchy in no-gi is Elevator first (highest percentage when they're pressuring), then Arm Drag to back take (best points potential at 8+ points), then Hook Sweep (when they're stalling with wide base). In the gi, I add the Kimura-Butterfly combination because that gi sleeve grip makes the kimura control incredibly strong, and the dilemma between defending the sweep versus defending the kimura is nearly unsolvable. The key to making these work at elite level is creating urgency - if you sit in butterfly guard waiting for the perfect moment, good passers will simply disengage or pressure pass. You need to threaten the sweep constantly, force them to defend, then attack whatever defensive structure they choose. That aggressive, attacking mindset from butterfly guard is what separates competitors who score from those who get passed.
 - **Eddie Bravo**: Butterfly sweeps are fundamental, but where it gets really interesting is when you start mixing them with rubber guard transitions and truck entries. From butterfly, if they defend your sweep by posting wide, that's actually a perfect setup to swing your leg up into Mission Control and attack the Invisible Collar or New York choke. I've hit this in competition multiple times because they're so focused on defending the sweep that they don't see the rubber guard entry coming. Another sick variation is the Butterfly-to-Vaporizer connection - when they sprawl back to defend the Elevator Sweep, immediately shoot your legs over their shoulders into Vaporizer position for the calf slicer. The key insight from 10th Planet perspective is that butterfly guard shouldn't be isolated from the rest of your leg lock and back attack game. Every failed butterfly sweep should potentially lead to either rubber guard control, truck position, or leg entanglement. This is the systematic approach I teach - positions and techniques aren't isolated moves, they're all connected in this web where defending one attack opens up three others. So when you're drilling butterfly sweeps, don't just reset after a failed attempt. Instead, have a predetermined chain: failed Elevator Sweep → Vaporizer entry → Truck → Twister. Failed Hook Sweep → Electric Chair setup → Banana Split. This is how you build a complete no-gi game where every position flows into the next and your opponent is constantly defending multiple threats simultaneously.

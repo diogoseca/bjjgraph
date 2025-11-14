@@ -8,7 +8,7 @@ description: "Master Flow Rolling in BJJ. Learn cooperative training principles,
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Flow Rolling in BJJ. Learn cooperative training principles,
 
 
 
-> **Quick Answer**: Flow Rolling is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Flow Rolling is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Maintain reduced intensity (30-50% of maximum effort) throughout engagement to enable continuous movement without fatigue or injury
 - Cooperate with partner's technical attempts rather than maximally preventing their execution
 - Emphasize smooth positional transitions and movement continuity over positional dominance or submissions
@@ -181,7 +181,7 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Tempo Calibration**: Ability to maintain consistent reduced intensity throughout rolling session, modulating speed and power to match partner's capability and training objectives while preventing escalation into competitive exchanges
 
 **Cooperative Resistance**: Providing appropriate level of technical challenge without preventing partner's technique execution, creating realistic movement patterns that simulate competitive scenarios while maintaining collaborative training environment
@@ -204,7 +204,7 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Positional Sparring]]** (Complementary): Flow rolling and positional sparring serve complementary training functions, with flow rolling emphasizing movement exploration and positional sparring focusing on specific position mastery under competitive resistance
 - **[[Drilling Methodology]]** (Extension): Flow rolling represents advanced form of drilling where technical repetition occurs within dynamic, responsive environment rather than static, predetermined sequences
 - **[[Energy Management System]]** (Prerequisite): Understanding energy conservation principles is prerequisite for effective flow rolling, as practitioners must manage intensity levels throughout extended sessions to prevent fatigue and maintain training quality
@@ -220,7 +220,7 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Flow rolling from closed guard emphasizes smooth transitions between different guard variations and submission attempts, allowing exploration of various breaking posture methods and sweeping mechanics without competitive resistance preventing technique completion
 
 **Half Guard**: In flow context, half guard becomes laboratory for exploring various underhook battles, sweep variations, and back-take attempts with partner offering appropriate resistance to simulate realistic scenarios while allowing technical completion
@@ -255,7 +255,7 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Establish training objectives with partner before beginning session**: Communicate specific positions, techniques, or movement patterns to emphasize, ensuring both partners understand cooperative expectations and intended intensity level for session
 2. **Calibrate initial intensity at 30-40% maximum effort**: Begin rolling at deliberately reduced pace and power, establishing tempo baseline that allows continuous movement without fatigue accumulation or competitive escalation
 3. **Monitor partner's technical attempts and energy level throughout exchange**: Continuously assess whether partner is able to execute intended techniques, adjusting resistance level to maintain appropriate challenge without preventing technical completion
@@ -268,25 +268,25 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Gradually escalating intensity throughout session until flow rolling degrades into competitive sparring
+## Common Mistakes
+- **Mistake**: Gradually escalating intensity throughout session until flow rolling degrades into competitive sparring
   - **Consequence**: Defeats training objectives of injury prevention and technical exploration, accumulating fatigue and injury risk that flow rolling methodology is designed to prevent
   - **Correction**: Establish clear intensity ceiling before beginning and deliberately reduce effort whenever competitive escalation is detected, resetting to cooperative baseline through communication with partner
-- **Error**: Providing excessively compliant resistance that creates unrealistic movement patterns
+- **Mistake**: Providing excessively compliant resistance that creates unrealistic movement patterns
   - **Consequence**: Develops false technical confidence in techniques that fail under realistic resistance, creating flow-only techniques that do not transfer to competitive scenarios
   - **Correction**: Maintain realistic structure and base appropriate to position while yielding when partner executes technique correctly, simulating real defensive postures without preventing successful technique completion
-- **Error**: Maintaining positional dominance rather than allowing reversals and position cycling
+- **Mistake**: Maintaining positional dominance rather than allowing reversals and position cycling
   - **Consequence**: Stalls movement exploration and prevents partner's technical development, transforming cooperative training into one-sided positional control session
   - **Correction**: Deliberately yield dominant positions periodically to create continuous positional transitions, prioritizing movement education over position maintenance
-- **Error**: Attempting only familiar techniques rather than using flow environment for technical exploration
+- **Mistake**: Attempting only familiar techniques rather than using flow environment for technical exploration
   - **Consequence**: Misses primary value of flow rolling as technical laboratory, limiting skill expansion and creative problem-solving development
   - **Correction**: Deliberately attempt new techniques and variations during flow rolling, using reduced-consequence environment to explore creative solutions that might not be attempted during competitive training
-- **Error**: Failing to communicate technical objectives and intensity expectations with partner before session
+- **Mistake**: Failing to communicate technical objectives and intensity expectations with partner before session
   - **Consequence**: Creates mismatched training expectations where one partner treats session competitively while other expects cooperative flow, leading to frustration and ineffective training
   - **Correction**: Explicitly discuss training goals, intended intensity level, and specific technical focuses before beginning flow rolling, ensuring mutual understanding of session objectives
-- **Error**: Using same competitive mindset during flow rolling as during competition preparation
+- **Mistake**: Using same competitive mindset during flow rolling as during competition preparation
   - **Consequence**: Prevents achieving flow rolling's educational benefits through excessive ego investment in positional outcomes, accumulating unnecessary injury risk and preventing partner's development
   - **Correction**: Consciously adopt learning mindset rather than winning mindset, measuring session success by technical exploration and movement quality rather than positional dominance
 
@@ -295,7 +295,7 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Structured Positional Flow** (Focus: Developing smooth transitions between related positions and understanding positional relationships through guided technical exploration)
 Partners agree to begin each round from specific position and flow through predetermined sequence of related positions before resetting, creating systematic exposure to connected positional chains
 
@@ -320,7 +320,7 @@ Advanced practitioners flow with beginners at appropriate intensity, providing r
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Able to maintain reduced intensity for 3-5 minute rounds without competitive escalation
 - Demonstrates willingness to yield positions and allow partner's technique completion
@@ -358,7 +358,7 @@ Advanced practitioners flow with beginners at appropriate intensity, providing r
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Positional Sparring]] (Principle) - Complementary training methodology focusing on specific position mastery under competitive resistance
 - [[Drilling Methodology]] (Principle) - Foundation practice method that flow rolling extends into dynamic, responsive environment
@@ -376,7 +376,7 @@ Advanced practitioners flow with beginners at appropriate intensity, providing r
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: John Danaher advocates flow rolling as essential training methodology particularly for advanced practitioners who have established reliable technical foundation and require volume training without accumulated injury from competitive intensity. He emphasizes what he terms 'intelligent flow' where cooperative resistance is calibrated precisely to enable realistic movement patterns while preventing injury—neither too compliant, creating unrealistic technique application, nor too resistant, degrading into competition. Danaher particularly values flow rolling for exploring technical variations and creative solutions that may not emerge under competitive pressure, viewing it as a laboratory environment for technical innovation that complements systematic drilling and competitive sparring. He notes that the highest level practitioners often demonstrate superior flow rolling ability precisely because they possess the technical confidence and ego control necessary to engage cooperatively without competitive anxiety, and that this cooperative training capacity often correlates with training longevity and continued technical evolution throughout one's career.
 - **Gordon Ryan**: Gordon Ryan utilizes flow rolling primarily as recovery methodology and warm-up activity rather than primary skill development tool, preferring high-intensity positional sparring and competitive rolling for technical advancement. However, he acknowledges flow rolling's significant value for maintaining training volume during recovery periods and exploring technical creativity without injury risk that would compromise competition preparation. Ryan emphasizes the critical importance of maintaining realistic movement patterns during flow rolling rather than allowing excessively compliant resistance that creates false technical confidence—flow rolling should simulate real movement even at reduced intensity, preventing development of 'flow-only techniques' that fail under competition pressure. He notes that even in cooperative training, proper structure, base, and defensive postures must be maintained to ensure that technical development transfers to competitive scenarios, and that the discipline to maintain appropriate intensity without competitive escalation itself represents valuable mental training for competition athletes.
 - **Eddie Bravo**: Eddie Bravo has extensively developed flow rolling methodology within the 10th Planet system as a primary vehicle for technical exploration and movement creativity, treating it as a fundamental training pillar rather than supplementary activity. He innovated structured flow drilling where specific positional sequences are practiced cooperatively at varied tempos, creating a bridge between rigid drilling and free sparring that allows systematic exploration of positional chains. Bravo particularly emphasizes flow rolling's capacity to reveal unexpected technical connections and innovative solutions that emerge through unrestricted movement exploration—he treats flow rolling as research methodology where new techniques and positions are discovered through creative experimentation rather than predetermined curriculum. His development of numerous innovative positions and techniques, including the Rubber Guard system, Lockdown variations, and Twister sequences, emerged largely from extensive flow rolling experimentation where reduced competitive pressure allowed exploration of unconventional positions that might be abandoned too quickly under competitive intensity.

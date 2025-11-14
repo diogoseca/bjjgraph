@@ -13,10 +13,6 @@ description: "Master Crucifix position in BJJ. Dominant arm-trapping control wit
 
 
 
-> **Quick Overview**: The Crucifix position represents one of the most dominant and devastating control positions in Brazilian Jiu-Jitsu, characterized by the systematic isolation and control of both of the opponent's arms...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,31 +54,19 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium to Long |
 
-**What Makes This Position Unique:** Bilateral arm isolation creates asymmetric control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Crucifix/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Crucifix/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Bilateral arm isolation creates asymmetric control
 
 
 
@@ -90,10 +74,13 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 <section id="bottom-summary" class="content-section">
 
-## Crucifix Bottom Perspective
+
+## Playing as Bottom
+
+[[Crucifix/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in crucifix must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -136,7 +123,7 @@ The bottom player in crucifix must focus on creating frames, protecting against 
   - Success Rate: Beginner 8%, Intermediate 15%, Advanced 28%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Explosive pulling on trapped arm directly against the leg trap**
@@ -164,16 +151,17 @@ The bottom player in crucifix must focus on creating frames, protecting against 
   - ✅ Correction: Maintain aggressive defensive mindset—statistics show significant escape rates even from consolidated crucifix with proper technique
 
 
-👉 **[[Crucifix/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Crucifix Top Perspective
+
+## Playing as Top
+
+[[Crucifix/Top|→ Full Top Guide]]
 
 
-The top player in crucifix balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -219,7 +207,7 @@ The top player in crucifix balances control maintenance with submission attacks,
   - Success Rate: Beginner 55%, Intermediate 65%, Advanced 75%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing the trapped arm to slip free from the leg triangle**
@@ -246,8 +234,6 @@ The top player in crucifix balances control maintenance with submission attacks,
   - Consequence: Premature attacks create opportunities for escape that would not exist with proper control first
   - ✅ Correction: Follow position-before-submission principle—establish complete control before committing to finishing attacks
 
-
-👉 **[[Crucifix/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Execute the Matrix back take from bottom position. Technical guide
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Execute the Matrix back take from bottom position. Technical guide
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Execute the Matrix back take from bottom position. Technical guide
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,7 +197,7 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - At least one shoulder maintains mat contact during the initial rotation phase, providing the pivot point around which the body rotates—losing this contact causes the rotation to stall and leaves the practitioner floating without mechanical advantage
 - Hip elevation above shoulder level creates the necessary gravitational momentum for the inverted rotation—insufficient hip height results in weak rotational force that opponents can easily defend by simply maintaining their base
@@ -210,7 +208,7 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent is in turtle, seated, or transitional position with relatively static base
 - Practitioner has established at least one grip or connection point to opponent's torso or hips
@@ -238,7 +236,7 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Matrix Back Take]] → [[Back Control]]
 
@@ -302,7 +300,7 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Base Widening]]** → [[Turtle]] (Opponent Success: 60%)
 - **[[Weight Distribution Adjustment]]** → [[Turtle]] (Opponent Success: 55%)
@@ -315,7 +313,7 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Arm Drag to Back]]** → [[Back Control]]
   - Opponent attempts to block rotation by reaching across body, exposing arm for drag
@@ -357,7 +355,7 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

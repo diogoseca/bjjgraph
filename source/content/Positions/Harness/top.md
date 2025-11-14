@@ -8,7 +8,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75%.
 
 ---
 
@@ -191,7 +191,7 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's chest is pressed against opponent's back with body weight distributed through core and hooks, maintaining constant forward pressure that prevents the bottom player from creating separation or turning to face
 - Seat belt grip (harness) is established with one arm over the opponent's shoulder and one arm under the opposite armpit, hands clasped together on the chest or sternum area, creating a locked control mechanism that resists grip breaks
@@ -204,7 +204,7 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful back take from turtle, failed guard pass defense, or transition from other controlling positions
 - Ability to establish at least one hook before opponent completes their escape or guard recovery
@@ -233,7 +233,7 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Rear Naked Choke]] → [[Won by Submission]]
 
@@ -297,7 +297,7 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 25%)
 - **[[Back Escape Series]]** → [[Half Guard]] (Opponent Success: 30%)
@@ -311,7 +311,7 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Control to Crucifix]]** → [[Crucifix]]
   - Opponent attempts to strip top arm of seat belt grip
@@ -360,7 +360,7 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

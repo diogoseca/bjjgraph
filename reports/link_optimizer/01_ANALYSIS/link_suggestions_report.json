@@ -3584,7 +3584,7 @@
       "target_file": "Pressure Application",
       "confidence": 88.0,
       "reason": "The content explicitly mentions insufficient chest pressure as a critical error, making this concept essential for understanding proper Double Jump execution.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-concept",
       "existing_link": false
     },
@@ -4691,7 +4691,7 @@
       "target_file": "Frame Creation",
       "confidence": 85.0,
       "reason": "The content explicitly discusses preventing opponent's frames as a key defensive concern, making this concept directly relevant to understanding side control maintenance.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-concept",
       "existing_link": false
     },
@@ -5132,7 +5132,7 @@
       "target_file": "Triangle Control",
       "confidence": 85.0,
       "reason": "Triangle control is a specific high-threat submission position requiring dedicated defensive principles.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "defense-to-submission-position",
       "existing_link": false
     },
@@ -5141,7 +5141,7 @@
       "target_file": "Armbar Control",
       "confidence": 85.0,
       "reason": "Armbar control represents a critical submission threat position that requires specific defensive frameworks.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "defense-to-submission-position",
       "existing_link": false
     },
@@ -6581,7 +6581,7 @@
       "target_file": "Base Maintenance",
       "confidence": 80.0,
       "reason": "Opponent must maintain base to defend butterfly sweeps, and understanding base maintenance helps practitioners execute elevation-based sweeps.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-concept",
       "existing_link": false
     },
@@ -7931,7 +7931,7 @@
       "target_file": "Guard Pass",
       "confidence": 75.0,
       "reason": "Understanding opponent's passing threats helps develop better half guard defense strategies.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-transition",
       "existing_link": false
     },
@@ -8057,7 +8057,7 @@
       "target_file": "Frame Creation",
       "confidence": 75.0,
       "reason": "Understanding frame creation helps defend against Combat Base when on bottom and explains how to break opponent's frames from this position.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-concept",
       "existing_link": false
     },
@@ -8516,7 +8516,7 @@
       "target_file": "Base Maintenance",
       "confidence": 75.0,
       "reason": "Base maintenance is a critical concept for defending against guard pulls, and understanding this helps contextualize why grip control and timing are essential during the pull.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-concept",
       "existing_link": false
     },
@@ -8633,7 +8633,7 @@
       "target_file": "Back Control",
       "confidence": 75.0,
       "reason": "Half guard defensive failures can lead to back exposure, making back control relevant as a position to avoid when defending half guard.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "system-to-position",
       "existing_link": false
     },
@@ -9029,7 +9029,7 @@
       "target_file": "Triangle Control",
       "confidence": 75.0,
       "reason": "Failing to recover posture often leads directly to triangle attacks, making this an important risk awareness link.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "technique-to-submission",
       "existing_link": false
     },
@@ -9326,7 +9326,7 @@
       "target_file": "Frame Creation",
       "confidence": 75.0,
       "reason": "Defensive framing principles are fundamental to creating the space and structure needed during armbar escape sequences",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "technique-to-concept",
       "existing_link": false
     },
@@ -9569,7 +9569,7 @@
       "target_file": "Side Control",
       "confidence": 75.0,
       "reason": "Failed Kimura attempts from guard often result in opponent passing to side control, relevant for defensive considerations",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "submission-to-position",
       "existing_link": false
     },
@@ -10271,7 +10271,7 @@
       "target_file": "Turtle Position",
       "confidence": 75.0,
       "reason": "Failed sprawl defense often results in turtle position as a secondary defensive structure, making this a natural progression path.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "concept-to-position",
       "existing_link": false
     },
@@ -10667,7 +10667,7 @@
       "target_file": "Side Control",
       "confidence": 72.0,
       "reason": "Side control is a common result of failed half guard defense, particularly relevant to understanding the consequences of poor defensive positioning.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "system-to-position",
       "existing_link": false
     },
@@ -11558,7 +11558,7 @@
       "target_file": "Frame Creation",
       "confidence": 70.0,
       "reason": "Understanding frame creation helps explain defensive escapes from D'arce Control and common mistakes.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-concept",
       "existing_link": false
     },
@@ -11675,7 +11675,7 @@
       "target_file": "Guard Retention",
       "confidence": 70.0,
       "reason": "When Muscle Sweep fails, maintaining guard retention principles prevents passing and allows re-attacking.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "defensive-concept",
       "existing_link": false
     },
@@ -11693,7 +11693,7 @@
       "target_file": "Guard Retention",
       "confidence": 70.0,
       "reason": "Understanding guard retention principles helps set up the angle and hip movement required for the Switch to Triangle.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "supporting-concept",
       "existing_link": false
     },
@@ -11819,7 +11819,7 @@
       "target_file": "Turtle Position",
       "confidence": 70.0,
       "reason": "Failed Seoi Nage attempts often result in the attacker landing in turtle position, making this an important positional consequence to study.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "transition-to-position",
       "existing_link": false
     },
@@ -11990,7 +11990,7 @@
       "target_file": "Turtle Position",
       "confidence": 70.0,
       "reason": "Incomplete bridge and roll attempts may result in turtle position when the practitioner fails to complete the full reversal.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "transition-to-defensive-position",
       "existing_link": false
     },
@@ -12233,7 +12233,7 @@
       "target_file": "Mount",
       "confidence": 70.0,
       "reason": "Failed omoplata attempts often result in opponent passing to mount, making this a critical defensive awareness point.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "submission-to-counter-position",
       "existing_link": false
     },
@@ -14042,7 +14042,7 @@
       "target_file": "Base Maintenance",
       "confidence": 65.0,
       "reason": "Base Maintenance is a fundamental concept relevant to preventing the initial breakdown that leads to Truck Position and ultimately the Twister setup.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "submission-to-concept",
       "existing_link": false
     },
@@ -14159,7 +14159,7 @@
       "target_file": "Turtle Position",
       "confidence": 65.0,
       "reason": "Failed guillotine attempts often result in opponent taking turtle position; relevant for understanding transitions and follow-ups.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "submission-to-position",
       "existing_link": false
     },
@@ -14348,7 +14348,7 @@
       "target_file": "Guard Retention",
       "confidence": 62.0,
       "reason": "Guard Retention techniques help prevent entry into leg entanglement positions that lead to heel hook opportunities, relevant for preventative defense strategies.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "submission-to-transition",
       "existing_link": false
     }
@@ -14784,7 +14784,7 @@
         "target": "Guard Pass",
         "confidence": 75.0,
         "reason": "Understanding opponent's passing threats helps develop better half guard defense strategies.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "position-to-transition"
       }
     ],
@@ -15200,7 +15200,7 @@
         "target": "Frame Creation",
         "confidence": 75.0,
         "reason": "Understanding frame creation helps defend against Combat Base when on bottom and explains how to break opponent's frames from this position.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "position-to-concept"
       },
       {
@@ -15903,7 +15903,7 @@
         "target": "Base Maintenance",
         "confidence": 80.0,
         "reason": "Opponent must maintain base to defend butterfly sweeps, and understanding base maintenance helps practitioners execute elevation-based sweeps.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "position-to-concept"
       },
       {
@@ -16430,7 +16430,7 @@
         "target": "Base Maintenance",
         "confidence": 75.0,
         "reason": "Base maintenance is a critical concept for defending against guard pulls, and understanding this helps contextualize why grip control and timing are essential during the pull.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "position-to-concept"
       },
       {
@@ -16675,14 +16675,14 @@
         "target": "Back Control",
         "confidence": 75.0,
         "reason": "Half guard defensive failures can lead to back exposure, making back control relevant as a position to avoid when defending half guard.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "system-to-position"
       },
       {
         "target": "Side Control",
         "confidence": 72.0,
         "reason": "Side control is a common result of failed half guard defense, particularly relevant to understanding the consequences of poor defensive positioning.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "system-to-position"
       }
     ],
@@ -16862,7 +16862,7 @@
         "target": "Frame Creation",
         "confidence": 85.0,
         "reason": "The content explicitly discusses preventing opponent's frames as a key defensive concern, making this concept directly relevant to understanding side control maintenance.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "position-to-concept"
       },
       {
@@ -17204,7 +17204,7 @@
         "target": "Guard Retention",
         "confidence": 70.0,
         "reason": "When Muscle Sweep fails, maintaining guard retention principles prevents passing and allows re-attacking.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "defensive-concept"
       },
       {
@@ -17366,7 +17366,7 @@
         "target": "Triangle Control",
         "confidence": 75.0,
         "reason": "Failing to recover posture often leads directly to triangle attacks, making this an important risk awareness link.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "technique-to-submission"
       }
     ],
@@ -18728,7 +18728,7 @@
         "target": "Guard Retention",
         "confidence": 70.0,
         "reason": "Understanding guard retention principles helps set up the angle and hip movement required for the Switch to Triangle.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "supporting-concept"
       },
       {
@@ -18890,7 +18890,7 @@
         "target": "Mount",
         "confidence": 70.0,
         "reason": "Failed omoplata attempts often result in opponent passing to mount, making this a critical defensive awareness point.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "submission-to-counter-position"
       }
     ],
@@ -19359,7 +19359,7 @@
         "target": "Base Maintenance",
         "confidence": 65.0,
         "reason": "Base Maintenance is a fundamental concept relevant to preventing the initial breakdown that leads to Truck Position and ultimately the Twister setup.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "submission-to-concept"
       }
     ],
@@ -19955,7 +19955,7 @@
         "target": "Turtle Position",
         "confidence": 65.0,
         "reason": "Failed guillotine attempts often result in opponent taking turtle position; relevant for understanding transitions and follow-ups.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "submission-to-position"
       }
     ],
@@ -20593,7 +20593,7 @@
         "target": "Turtle Position",
         "confidence": 75.0,
         "reason": "Failed sprawl defense often results in turtle position as a secondary defensive structure, making this a natural progression path.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "concept-to-position"
       }
     ],
@@ -21411,7 +21411,7 @@
         "target": "Pressure Application",
         "confidence": 88.0,
         "reason": "The content explicitly mentions insufficient chest pressure as a critical error, making this concept essential for understanding proper Double Jump execution.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "position-to-concept"
       },
       {
@@ -22227,7 +22227,7 @@
         "target": "Frame Creation",
         "confidence": 70.0,
         "reason": "Understanding frame creation helps explain defensive escapes from D'arce Control and common mistakes.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "position-to-concept"
       }
     ],
@@ -22569,7 +22569,7 @@
         "target": "Turtle Position",
         "confidence": 70.0,
         "reason": "Incomplete bridge and roll attempts may result in turtle position when the practitioner fails to complete the full reversal.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "transition-to-defensive-position"
       }
     ],
@@ -22846,14 +22846,14 @@
         "target": "Triangle Control",
         "confidence": 85.0,
         "reason": "Triangle control is a specific high-threat submission position requiring dedicated defensive principles.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "defense-to-submission-position"
       },
       {
         "target": "Armbar Control",
         "confidence": 85.0,
         "reason": "Armbar control represents a critical submission threat position that requires specific defensive frameworks.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "defense-to-submission-position"
       },
       {
@@ -22876,7 +22876,7 @@
         "target": "Side Control",
         "confidence": 75.0,
         "reason": "Failed Kimura attempts from guard often result in opponent passing to side control, relevant for defensive considerations",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "submission-to-position"
       },
       {
@@ -24307,7 +24307,7 @@
         "target": "Turtle Position",
         "confidence": 70.0,
         "reason": "Failed Seoi Nage attempts often result in the attacker landing in turtle position, making this an important positional consequence to study.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "transition-to-position"
       },
       {
@@ -25307,7 +25307,7 @@
         "target": "Frame Creation",
         "confidence": 75.0,
         "reason": "Defensive framing principles are fundamental to creating the space and structure needed during armbar escape sequences",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "technique-to-concept"
       },
       {
@@ -26145,7 +26145,7 @@
         "target": "Guard Retention",
         "confidence": 62.0,
         "reason": "Guard Retention techniques help prevent entry into leg entanglement positions that lead to heel hook opportunities, relevant for preventative defense strategies.",
-        "section": "Common Errors",
+        "section": "Common Mistakes",
         "relationship": "submission-to-transition"
       }
     ],

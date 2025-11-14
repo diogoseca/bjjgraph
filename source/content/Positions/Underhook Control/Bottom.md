@@ -8,7 +8,7 @@ description: "Master bottom underhook control in BJJ. Complete guide to defensiv
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master bottom underhook control in BJJ. Complete guide to defensiv
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master bottom underhook control in BJJ. Complete guide to defensiv
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,7 +193,7 @@ Modern bottom players have developed sophisticated underhook-based guard systems
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - The bottom practitioner's arm penetrates deeply under the opponent's near armpit, with the hand connecting to the far shoulder blade or latissimus dorsi. This deep penetration creates the structural frame necessary to prevent chest-to-chest pressure and maintain space for hip mobility.
 - The bottom practitioner maintains their inside hip away from the mat by using the underhook frame and bottom leg positioning. This hip positioning prevents the opponent from flattening the bottom player completely and enables the dynamic hip movement necessary for sweeps and guard recovery.
@@ -206,7 +204,7 @@ Modern bottom players have developed sophisticated underhook-based guard systems
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has secured inside position with arm penetrating past opponent's armpit
 - Bottom player maintains space between their chest and opponent's chest using underhook frame
@@ -233,7 +231,7 @@ Modern bottom players have developed sophisticated underhook-based guard systems
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Old School Sweep]] → [[Side Control]]
 
@@ -311,7 +309,7 @@ Modern bottom players have developed sophisticated underhook-based guard systems
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Underhook Pass]]** → [[Side Control]] (Opponent Success: 55%)
 - **[[Crossface Pass]]** → [[Side Control]] (Opponent Success: 60%)
@@ -324,7 +322,7 @@ Modern bottom players have developed sophisticated underhook-based guard systems
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Deep Half Entry]]** → [[Deep Half Guard]]
   - When opponent attempts to flatten you with crossface or shoulder pressure
@@ -366,7 +364,7 @@ Modern bottom players have developed sophisticated underhook-based guard systems
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

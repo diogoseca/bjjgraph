@@ -13,10 +13,6 @@ description: "Master the Matrix back take in BJJ. Complete guide to the dynamic 
 
 
 
-> **Quick Overview**: The Matrix back take represents one of Brazilian Jiu-Jitsu's most dynamic and spectacular transitions to back control. Named for its cinematic appearance—where the practitioner inverts and rolls under...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -64,31 +60,19 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Defensive |
-| Risk Level | Medium to High | Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Defensive |
+| **Risk Level** | Medium to High | Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium to Long |
 
-**What Makes This Position Unique:** Inverted rolling motion for dynamic back access
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Matrix/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Matrix/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Inverted rolling motion for dynamic back access
 
 
 
@@ -96,10 +80,13 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 
 <section id="bottom-summary" class="content-section">
 
-## Matrix Bottom Perspective
+
+## Playing as Bottom
+
+[[Matrix/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in matrix controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -148,7 +135,7 @@ The bottom player in matrix controls the position with offensive attacks includi
   - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Insufficient hip elevation before initiating rotation**
@@ -176,16 +163,17 @@ The bottom player in matrix controls the position with offensive attacks includi
   - ✅ Correction: Wait for moments of opponent stillness, weight transfer, or static posting before initiating, using their momentary stability as entry window
 
 
-👉 **[[Matrix/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Matrix Top Perspective
+
+## Playing as Top
+
+[[Matrix/Top|→ Full Top Guide]]
 
 
-The top player in matrix manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -234,7 +222,7 @@ The top player in matrix manages the position strategically based on opponent's 
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Maintaining narrow base in turtle top or passing positions**
@@ -261,8 +249,6 @@ The top player in matrix manages the position strategically based on opponent's 
   - Consequence: Strong grips on belt, pants, or legs give bottom player the connection points necessary to control top player's position during rotation
   - ✅ Correction: Actively fight grips to prevent opponent from establishing strong connection points, breaking grips immediately when they're established
 
-
-👉 **[[Matrix/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

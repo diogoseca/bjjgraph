@@ -8,7 +8,7 @@ description: "Master Triangle Choke from front positions in BJJ. Complete guide 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Triangle Choke from front positions in BJJ. Complete guide 
 
 
 
-> **Quick Answer**: Triangle Choke Front is a blood choke targeting the Carotid arteries and one shoulder. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Triangle Choke Front is a blood choke targeting the Carotid arteries and one shoulder. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="safety-considerations" class="content-section">
 
-## Is Triangle Choke Front Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -213,7 +213,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Posture disruption is prerequisite - opponent cannot be finished from good posture
 - Triangle geometry requires one arm inside, one arm outside the legs
 - Squeeze knees together, not just ankle behind knee, to properly compress carotids
@@ -227,7 +227,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Closed guard, spider guard, or open guard control established
 - Opponent's posture broken forward (head below hips)
 - One of opponent's arms isolated and controlled inside your guard
@@ -240,7 +240,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Break opponent's posture**: From closed guard or open guard position, establish strong grips (collar and sleeve, or overhook and head control). Pull opponent's head and upper body down while using your legs to prevent them from posting back. The goal is to bring their head below the level of their hips, compromising their base and creating the opening for triangle entry. Use hip movement and grip pressure simultaneously. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Isolate one arm inside**: Using your grips and leg positioning, force one of the opponent's arms to be inside your guard while the other remains outside. This creates the essential triangle geometry - one arm trapped against their neck, one arm free. Common methods include pulling one arm across while blocking the other with your shin, or using collar-and-sleeve grips to manipulate arm position. The inside arm should be deep, ideally with their elbow past your hip. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Throw leg over shoulder**: With posture broken and arm isolated, uncross your ankles and bring one leg (same side as the trapped arm) across the opponent's back and over their shoulder. This leg should be high on the shoulder, with your knee pointing toward their opposite ear. Simultaneously, your other leg should maintain control on their hip to prevent them from posturing up during the transition. Execute this movement smoothly to prevent them from recovering posture. (Timing: 1 second - must be quick) [Pressure: Light]
@@ -253,7 +253,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent stands up to defend triangle** (Effectiveness: Medium) - Your Adjustment: Transition to armbar or omoplata as they stand, or hook their far leg with your free hand to prevent full standing posture and sweep them
 - **Opponent grabs their own ankle or knee to prevent triangle lock** (Effectiveness: High) - Your Adjustment: Establish temporary hold with legs unlocked, use hands to strip their defensive grip while maintaining posture control, then immediately lock triangle before they can reestablish defense
 - **Opponent tries to pull head straight back** (Effectiveness: Low) - Your Adjustment: Maintain angle and trapped arm control - pulling head straight back increases pressure on their own shoulder and typically fails if triangle is properly locked and angled
@@ -263,28 +263,28 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting triangle from neutral or good opponent posture [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting triangle from neutral or good opponent posture [Low DANGER]
   - **Consequence**: Opponent easily defends, maintains base, and can pass guard
   - **Correction**: Always break posture first - opponent's head must be below hip level before attempting triangle entry
-- **Error**: Locking ankle behind the back of knee instead of knee behind ankle [Low DANGER]
+- **Mistake**: Locking ankle behind the back of knee instead of knee behind ankle [Low DANGER]
   - **Consequence**: Weak, easily escaped triangle that lacks finishing pressure
   - **Correction**: Always place the ankle of your bottom leg behind the knee of your top leg, creating the proper figure-four lock
-- **Error**: Remaining square with opponent instead of angling off [Low DANGER]
+- **Mistake**: Remaining square with opponent instead of angling off [Low DANGER]
   - **Consequence**: Triangle feels loose, opponent can create space, choke lacks finishing power
   - **Correction**: Always angle 45 degrees toward the trapped arm side - this tightens the triangle geometry significantly
-- **Error**: Releasing control of trapped arm [Medium DANGER]
+- **Mistake**: Releasing control of trapped arm [Medium DANGER]
   - **Consequence**: Opponent creates frame with freed arm, relieves pressure, and potentially escapes
   - **Correction**: Maintain constant control of the trapped wrist throughout the finish, pulling it across your body
-- **Error**: Applying maximum pressure immediately without progressive tightening [CRITICAL DANGER]
+- **Mistake**: Applying maximum pressure immediately without progressive tightening [CRITICAL DANGER]
   - **Consequence**: High risk of injuring training partner or causing unconsciousness without warning
   - **Correction**: Apply triangle pressure progressively over 3-5 seconds in training, allowing partner time to recognize the danger and tap safely
-- **Error**: Squeezing with ankles/feet instead of knees [Low DANGER]
+- **Mistake**: Squeezing with ankles/feet instead of knees [Low DANGER]
   - **Consequence**: Inefficient pressure, leg fatigue, opponent can often withstand or escape
   - **Correction**: Focus squeezing pressure through the knees coming together, using larger muscle groups of the thighs rather than smaller calf muscles
-- **Error**: Not controlling opponent's posture during triangle lock transition [Medium DANGER]
+- **Mistake**: Not controlling opponent's posture during triangle lock transition [Medium DANGER]
   - **Consequence**: Opponent escapes by standing or posturing back up before lock is complete
   - **Correction**: Use hands to maintain head/shoulder control throughout the locking sequence, only releasing to grab trapped arm once triangle is secure
 
@@ -293,7 +293,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Triangle from Closed Guard with Overhook**: From closed guard, establish overhook on one arm while controlling the head. Use the overhook to trap that arm tight to your body as you throw the opposite leg over their back. This variation makes it easier to maintain arm isolation throughout the transition. (When to use: When opponent gives you an overhook opportunity, or when you want more control during the entry sequence)
 
 **Spider Guard Triangle**: From spider guard with sleeve and collar grips, use your foot on bicep to push opponent's arm across while simultaneously pulling with collar grip. Immediately bring that leg across their back into triangle position. The spider guard foot placement creates excellent angle and arm isolation. (When to use: Effective in gi when you have established spider guard control and opponent is pressuring forward)
@@ -338,7 +338,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Week 1-2)** (2 weeks)
 - Focus: Learn triangle geometry, locking mechanics, and basic entry from static positions. Practice on fully compliant partners to understand body positioning and leverage points without any resistance.
 - Resistance: None
@@ -375,7 +375,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Spider Guard]]
@@ -393,7 +393,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Triangle from Closed Guard]]
@@ -436,7 +436,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The triangle choke represents one of the most mechanically efficient submissions in all of grappling, and its effectiveness from front positions stems from perfect biomechanical principles. When we analyze the triangle, we must understand that we're creating a closed kinetic chain using the strongest muscles in our body - the legs and hips - against the opponent's neck, which has relatively weak supporting musculature. The critical detail that separates high-level triangle execution from mediocre attempts is the angle of application. Most practitioners understand they need to angle off, but few understand why: the 45-degree angle creates proper compression geometry where both carotid arteries are simultaneously compressed by the combination of your shin and their own shoulder. The trapped arm becomes the fulcrum that makes the entire system work. From a safety perspective, students must understand that the triangle is a blood choke affecting the carotid arteries, not an air choke. This means unconsciousness can occur in 3-5 seconds if maximum pressure is applied. In training, we must always apply this submission progressively, giving our partner adequate time to recognize the danger and submit. The progression from entry to finish should take at minimum 3-5 seconds, with pressure increasing gradually. This is not weakness or inefficiency - it is the mark of a mature practitioner who understands that longevity in the sport requires protecting your training partners as vigilantly as you protect yourself.
 - **Gordon Ryan**: The front triangle is one of my absolute highest percentage submissions, and there's a specific reason why it works so consistently at the elite level: it creates a true dilemma where every defensive option opens up another submission. When I lock a triangle in competition, my opponent knows that if they try to pull their head out, I'm switching to the armbar on that trapped arm instantly. If they try to posture and create space, I'm attacking the omoplata. If they stand, I either finish the triangle from there or I'm taking their back as they try to defend. This is what makes it different from training versus competition - in training, I'm working the position slowly and methodically, giving my partner time to understand what's happening and tap safely. But in competition, the moment that triangle locks, I'm applying finishing pressure within the legal limits while simultaneously setting up the next attack in the chain. The key technical detail that most people miss is the importance of controlling that trapped arm throughout the entire sequence. I see so many people lock the triangle and then forget about the arm, and their opponent immediately creates a frame and starts to escape. Grab that wrist, pull it across your body, and never let go until the tap comes or you transition to the next submission. One more thing about training safely: even though I can finish triangles very quickly in competition, I never do that in the training room. My training partners are my most valuable asset - they're the people who make me better every day. Injuring them with unnecessarily aggressive triangle applications would be incredibly stupid. So I practice the position, practice the control, and when the triangle is tight, I wait for the tap rather than cranking it as hard as I can.
 - **Eddie Bravo**: The triangle from the front is an absolute staple of the 10th Planet system because it fits perfectly with our philosophy of control before submission and creating multiple attack chains from single positions. What I love about teaching the triangle is that it exemplifies everything we believe about modern no-gi jujitsu - it's a position where flexibility, hip control, and systematic thinking all come together. In our system, we typically enter triangles from rubber guard positions like Mission Control or New York, which give us insane posture control that makes the entry way higher percentage than traditional setups. But regardless of how you enter, the finishing mechanics are universal and they need to be drilled with serious attention to safety. Here's what I tell all my students: the triangle is one of those submissions where you can really hurt someone if you're not careful. We're compressing the carotid arteries, cutting off blood flow to the brain, and if you crank that at full speed in training, your partner can go out in seconds. That's not cool, and it's not what jujitsu is about. So we have strict protocols - progressive pressure over several seconds, clear communication, immediate release on any tap signal. The other thing I emphasize is creativity with the triangle. Don't just learn one entry and stick with it forever. Experiment with entries from different guards, try different angle adjustments, work on your transitions to armbar and omoplata from the triangle position. The front triangle should be a central hub in your submission game, with paths leading in from multiple positions and paths leading out to other attacks. That's how you build a complete game that keeps evolving. But through all that evolution and creativity, never forget the fundamental responsibility we have to keep our training partners safe so they can continue to be our partners for years to come.

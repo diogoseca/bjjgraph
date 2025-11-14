@@ -8,7 +8,7 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 55% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 55%.
 
 ---
 
@@ -195,7 +195,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner maintains superior vertical positioning over opponent, with weight distributed to prevent bottom practitioner from recovering guard or achieving neutral position, while controlling at least one of opponent's legs with arms positioned to attack knee joint
 - Opponent's leg is isolated and secured across top practitioner's torso or between their legs, with control grips preventing leg extraction, positioned to allow hip pressure against knee joint while maintaining enough base to resist reversal attempts
@@ -206,7 +206,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Top practitioner has established dominant position or guard passing control over opponent
 - Opponent's leg has been isolated through passing mechanics, scramble, or purposeful attack entry
@@ -234,7 +234,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Kneebar Finish]] → [[Won by Submission]]
 
@@ -305,7 +305,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 35%)
 - **[[Leg Extraction]]** → [[Closed Guard]] (Opponent Success: 40%)
@@ -319,7 +319,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Knee Cut Pass]]** → [[Side Control]]
   - Opponent attempts to recover half guard or closed guard during kneebar defense
@@ -368,7 +368,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

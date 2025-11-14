@@ -8,7 +8,7 @@ description: "Defensive position requiring explosive bridging and precise timing
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defensive position requiring explosive bridging and precise timing
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Defensive position requiring explosive bridging and precise timing
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 45% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -193,7 +191,7 @@ The most effective escapes involve explosive bridge-and-turn sequences that conv
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's torso is positioned perpendicular across bottom player's chest and face, with continuous downward pressure preventing hip movement and frame creation. The top player's head is positioned near the bottom player's hips while their hips are near the bottom player's head.
 - Bottom player is flat on back with shoulders pinned to the mat, unable to establish effective defensive frames due to the angle of pressure. Arms are vulnerable to isolation as the perpendicular angle makes it difficult to maintain connection to the body.
@@ -204,7 +202,7 @@ The most effective escapes involve explosive bridge-and-turn sequences that conv
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Top player has achieved perpendicular positioning from side control, mount escape, or passing sequence
 - Bottom player's shoulders and hips are flat on the mat with limited mobility
@@ -230,7 +228,7 @@ The most effective escapes involve explosive bridge-and-turn sequences that conv
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Bridge and Turn to Turtle]] → [[Turtle]]
 
@@ -280,7 +278,7 @@ The most effective escapes involve explosive bridge-and-turn sequences that conv
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Maintain Chest Pressure and Base]]** → [[North South Control]]
 - **[[Transition to Mount]]** → [[Mount]]
@@ -292,7 +290,7 @@ The most effective escapes involve explosive bridge-and-turn sequences that conv
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Re-establish Guard]]** → [[Closed Guard]]
   - When opponent attempts to transition to mount and creates space
@@ -325,7 +323,7 @@ The most effective escapes involve explosive bridge-and-turn sequences that conv
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

@@ -13,10 +13,6 @@ description: "Master Quarter Guard in BJJ. Strategic guide covering bottom defen
 
 
 
-> **Quick Overview**: Quarter Guard represents a critical transitional position in Brazilian Jiu-Jitsu's guard passing and retention hierarchy, occupying the narrow space between functional half guard and completed pass. T...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium to High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Short |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium to High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Short |
 
-**What Makes This Position Unique:** Reduced leg control demands immediate action
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Quarter Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Quarter Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Reduced leg control demands immediate action
 
 
 
@@ -88,10 +72,13 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 <section id="bottom-summary" class="content-section">
 
-## Quarter Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Quarter Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in quarter guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -138,7 +125,7 @@ The bottom player in quarter guard balances defensive frames with offensive oppo
   - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Losing underhook control by allowing opponent to strip it with crossface or grip fighting**
@@ -166,16 +153,17 @@ The bottom player in quarter guard balances defensive frames with offensive oppo
   - ✅ Correction: Keep head active and mobile, fighting constantly to maintain space between your head and the mat, using your free hand to block crossface attempts while preventing opponent's shoulder from pinning your head
 
 
-👉 **[[Quarter Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Quarter Guard Top Perspective
+
+## Playing as Top
+
+[[Quarter Guard/Top|→ Full Top Guide]]
 
 
-The top player in quarter guard balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -230,7 +218,7 @@ The top player in quarter guard balances control maintenance with submission att
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Holding static pressure in quarter guard without actively working to complete pass within five to ten seconds**
@@ -257,8 +245,6 @@ The top player in quarter guard balances control maintenance with submission att
   - Consequence: Missed opportunity to complete pass quickly and efficiently within optimal time window. Hesitation allows opponent to rebuild defenses or attempt desperate escapes, transforming dominant position into extended battle requiring additional effort.
   - ✅ Correction: Develop recognition of the precise moment when opponent's knee shield drops, their frames collapse, or their hip mobility fails—immediately advance to completed pass without hesitation or second-guessing. Practice recognizing these breakdown moments in drilling so they become automatic pattern recognition in live training. The optimal window for easy pass completion is often only one to two seconds before they recover.
 
-
-👉 **[[Quarter Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

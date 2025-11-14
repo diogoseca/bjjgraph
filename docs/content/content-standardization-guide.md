@@ -24,7 +24,7 @@ The V2 content standard transforms BJJ Graph from a documentation site into a **
 3. **Decision Tree Logic**: Clear if/else branching enables AI opponent behavior
 4. **Expert Knowledge Integration**: Systematic insights from Danaher, Gordon Ryan, and Eddie Bravo
 5. **SEO Optimization**: Schema.org markup (HowTo, FAQ) for better search rankings
-6. **Educational Depth**: Common errors, prerequisites, and training progressions for learners
+6. **Educational Depth**: Common mistakes, prerequisites, and training progressions for learners
 
 ### Why This Matters
 
@@ -188,7 +188,7 @@ state_machine:
 7. **Offensive Transitions** - What you can do (3+ options with success rates)
 8. **Decision Tree** - If/else logic with probabilities
 9. **Expert Insights** - Danaher, Gordon Ryan, Eddie Bravo (2-3 sentences each)
-10. **Common Errors** - 5+ mistakes with consequences and corrections
+10. **Common Mistakes** - 5+ mistakes with consequences and corrections
 11. **Training Drills** - Practice progressions
 
 **Required for Transitions:**
@@ -203,7 +203,7 @@ state_machine:
 9. **Common Counters** - Opponent responses with success rates
 10. **Decision Logic** - If/else opponent behavior
 11. **Expert Insights** - Danaher, Gordon Ryan, Eddie Bravo
-12. **Common Errors** - 3+ mistakes with corrections
+12. **Common Mistakes** - 3+ mistakes with corrections
 13. **Timing Considerations** - When to attempt, when to avoid
 14. **Prerequisites** - Technical skills needed first
 15. **Knowledge Assessment Questions** - 5 technical questions
@@ -258,7 +258,7 @@ Else (balanced opponent):
 - [ ] Offensive Transitions (3+ with skill-level success rates)
 - [ ] Decision Tree (3+ branches with probabilities)
 - [ ] Expert Insights (Danaher, Gordon Ryan, Eddie Bravo)
-- [ ] Common Errors (5+ with consequences and corrections)
+- [ ] Common Mistakes (5+ with consequences and corrections)
 - [ ] Training Drills (3+ progressions)
 - [ ] Related Positions (3+ wikilinks)
 
@@ -276,7 +276,7 @@ Else (balanced opponent):
 - [ ] Common Counters (3+ with success rates)
 - [ ] Decision Logic (if/else tree)
 - [ ] Expert Insights (all 3 experts)
-- [ ] Common Errors (3+ with full analysis)
+- [ ] Common Mistakes (3+ with full analysis)
 - [ ] Timing Considerations
 - [ ] Prerequisites
 - [ ] Knowledge Assessment Questions (5 questions)
@@ -370,7 +370,7 @@ Else (opponent exhausted):
 - Maintain pressure and setup [[Cross Collar Choke]] → [[Won by Submission]] (Probability: 70%)
 ```
 
-#### 6. Generic Common Errors
+#### 6. Generic Common Mistakes
 ❌ **Wrong:**
 ```markdown
 - **Error**: Bad positioning
@@ -665,7 +665,7 @@ state_machine:  # ✅ Must be present
 **Step 3: Review Schema Markup**
 - Verify JSON-LD is valid (copy/paste into https://validator.schema.org/)
 - Check that HowTo steps match content
-- Verify FAQ questions match Common Errors section
+- Verify FAQ questions match Common Mistakes section
 
 **Step 4: Spot-Check Content Quality**
 
@@ -1220,7 +1220,7 @@ class ContentValidator:
                 "## Offensive Transitions",
                 "## Decision Tree",
                 "## Expert Insights",
-                "## Common Errors"
+                "## Common Mistakes"
             ]
         else:  # transition
             required_sections = [
@@ -1228,7 +1228,7 @@ class ContentValidator:
                 "### Execution Steps",
                 "### Common Counters",
                 "## Expert Insights",
-                "## Common Errors",
+                "## Common Mistakes",
                 "### Knowledge Assessment Questions"
             ]
 
@@ -1594,7 +1594,7 @@ python scripts/validate_content.py
 - [ ] Visual description is detailed (4+ sentences)
 - [ ] Expert insights from all 3 authorities
 - [ ] Expert insights are contextually specific (not generic)
-- [ ] Common errors include consequence + correction
+- [ ] Common mistakes include consequence + correction
 - [ ] Decision tree has 3+ branches with probabilities
 - [ ] Success rates follow Beginner ≤ Intermediate ≤ Advanced
 - [ ] No placeholder text ("PLACEHOLDER", "TBD", etc.)

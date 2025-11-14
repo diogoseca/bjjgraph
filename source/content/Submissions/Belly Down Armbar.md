@@ -8,7 +8,7 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
 
 
 
-> **Quick Answer**: Belly Down Armbar is a arm lock targeting the Elbow joint and shoulder girdle. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Belly Down Armbar is a arm lock targeting the Elbow joint and shoulder girdle. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="safety-considerations" class="content-section">
 
-## Is Belly Down Armbar Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -207,7 +207,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Arm isolation and control - secure the wrist and upper arm before committing to the finish
 - Hip pressure against opponent's shoulder - prevents rolling escape and maintains arm extension
 - Body connection maintenance - keep your chest/torso connected to opponent's back/side throughout
@@ -221,7 +221,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent is in turtle position, flat on belly, or transitioning during scramble
 - One of opponent's arms is extended or isolated away from their body
 - You have established grip control on opponent's wrist and/or upper arm
@@ -234,7 +234,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Arm isolation from turtle position**: As opponent assumes turtle position, identify an extended arm (often the posting arm or the arm defending a choke attempt). Secure a firm two-on-one grip with both hands controlling the wrist and upper tricep area. Pull the arm away from opponent's body at approximately 45-90 degrees, breaking their defensive structure and preventing them from pulling the arm back to safety. (Timing: 0-2 seconds from initial contact) [Pressure: Moderate]
 2. **Drop weight across shoulder**: While maintaining wrist control with your outside hand, drop your chest and bodyweight across the opponent's shoulder blade and upper back area. This pins their shoulder to the mat and prevents them from rolling through the position or rotating their body to escape. Your inside arm should thread under their armpit or over their back to secure additional control and prevent their torso from turning. (Timing: 2-3 seconds, immediately after arm isolation) [Pressure: Firm]
 3. **Hip positioning and leg configuration**: Position your hips perpendicular to the opponent's extended arm, similar to a traditional armbar but without leg control over their head. Your near-side leg should be based out for stability, with your foot planted on the mat. Your far leg can either base out wide, sprawl back, or in some variations hook over the opponent's far hip to prevent them from rolling toward you. The key is maintaining downward pressure through your hips while keeping your base stable. (Timing: 3-4 seconds) [Pressure: Firm]
@@ -247,7 +247,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Rolling through toward the attacking side to create slack and escape the arm** (Effectiveness: High) - Your Adjustment: Anticipate the roll by increasing shoulder pressure and keeping your chest glued to their back. Follow their roll while maintaining wrist control, often transitioning to traditional armbar position or taking the back as they rotate. Do not fight the roll - follow it while keeping connection.
 - **Pulling the trapped arm back toward their body with explosive strength** (Effectiveness: Medium) - Your Adjustment: Counter by dropping all your bodyweight onto their shoulder while maintaining two-handed wrist control. Angle your body so your hip pressure opposes their pulling direction. If they successfully pull the arm close to their body, immediately transition to another attack (back take, crucifix, or neck attack) rather than forcing the finish.
 - **Posting with the free hand and bridging to create space** (Effectiveness: Medium) - Your Adjustment: Use your head position and shoulder pressure to drive into their posted arm, collapsing their base. Alternatively, switch your inside hand control to attack the free arm, creating a dilemma where defending one arm exposes the other. Maintain hip pressure throughout to prevent them from creating significant space.
@@ -256,28 +256,28 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting the submission without proper shoulder control [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting the submission without proper shoulder control [Low DANGER]
   - **Consequence**: Opponent easily rolls through the position, escaping to safety or reversing position while you lose the isolated arm
   - **Correction**: Always establish heavy chest and shoulder pressure before committing to the arm extension. Your bodyweight should pin their shoulder blade to the mat, making rolling nearly impossible.
-- **Error**: Incorrect elbow orientation (thumb pointing down or to the side) [CRITICAL DANGER]
+- **Mistake**: Incorrect elbow orientation (thumb pointing down or to the side) [CRITICAL DANGER]
   - **Consequence**: Submission becomes ineffective and places dangerous torque on the shoulder joint instead of controlled pressure on the elbow. Can cause shoulder injury instead of clean tap from elbow pressure.
   - **Correction**: Before applying extension, verify the thumb points toward the ceiling and the elbow pit faces upward. Adjust the arm orientation before committing to the finish. The natural completion should feel like straightening the arm, not twisting it.
-- **Error**: Explosive or jerking application of the arm extension [CRITICAL DANGER]
+- **Mistake**: Explosive or jerking application of the arm extension [CRITICAL DANGER]
   - **Consequence**: High risk of serious elbow injury including complete ligament tears, dislocations, or bone damage. Opponent may not have time to tap before injury occurs.
   - **Correction**: Apply pressure progressively over 3-5 seconds minimum in training. Think 'squeeze and extend' not 'snap and break.' Competition application can be faster but still must allow tap response time. This is a joint lock, not a strike.
-- **Error**: Losing connection with opponent's body during the finish [Low DANGER]
+- **Mistake**: Losing connection with opponent's body during the finish [Low DANGER]
   - **Consequence**: Creates space for opponent to escape, roll, or counter-attack. Reduces control and effectiveness of the submission significantly.
   - **Correction**: Keep your chest, hips, and legs in constant contact with opponent's back/shoulder throughout the entire sequence. Move with them if they shift position rather than allowing separation.
-- **Error**: Failing to secure proper wrist control before dropping weight [Low DANGER]
+- **Mistake**: Failing to secure proper wrist control before dropping weight [Low DANGER]
   - **Consequence**: Opponent pulls arm free before you can establish the submission, wasting position and energy while alerting them to the attack
   - **Correction**: Sequence matters: grip and isolate the arm first, then drop your weight, then adjust positioning. Never reverse this order or attempt multiple steps simultaneously.
-- **Error**: Using only upper body strength to extend the arm [Medium DANGER]
+- **Mistake**: Using only upper body strength to extend the arm [Medium DANGER]
   - **Consequence**: Inefficient submission that requires excessive strength, tires you out, and allows stronger opponents to resist. Also increases injury risk from improper leverage.
   - **Correction**: Drive extension primarily through hip pressure and body positioning. Your arms hold the wrist while your hips and core do the work of creating the breaking pressure. Technique beats strength.
-- **Error**: Continuing pressure after feeling or hearing joint sounds (pops, cracks) [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after feeling or hearing joint sounds (pops, cracks) [CRITICAL DANGER]
   - **Consequence**: Potential for catastrophic joint injury, ligament damage requiring surgery, or permanent mobility impairment to training partner.
   - **Correction**: Any unusual joint sounds are an immediate signal to STOP and release pressure. Check with your partner before continuing. In competition, joint sounds may indicate imminent tap, but in training they demand immediate release.
 
@@ -286,7 +286,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **From failed back take or seatbelt control**: When attacking the back and opponent defends by turtling, they often post an arm to prevent you from securing the second hook. This posted arm becomes an ideal target for the belly down armbar. Transition from your back attack attempt by releasing your lower hook, dropping your weight across their shoulder, and immediately attacking the posted arm with both hands. (When to use: When back control is defended and opponent turtles with an extended posting arm)
 
 **Rolling belly down armbar from guard or mount**: From traditional armbar positions (closed guard, mount), if the opponent defends by stacking you heavily or attempts to slam, you can roll them over your head while maintaining arm control, ending in the belly down armbar position with them face-down. This variation requires you to keep constant grip on the wrist throughout the roll and immediately establish shoulder pressure when you complete the rotation. (When to use: When traditional armbar is defended with heavy stacking or slam attempts)
@@ -324,7 +324,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Solo Drilling** (Weeks 1-2, 15-20 minutes per session)
 - Focus: Learn the mechanical sequence without a partner. Practice the motion of arm isolation, body positioning, hip placement, and extension movement using a grappling dummy or visualizing the sequence. Study video footage of correct technique and identify key control points.
 - Resistance: None
@@ -361,7 +361,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Turtle]]
 - [[Scramble Position]]
@@ -377,7 +377,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Armbar from Mount]]
 - [[Armbar from Guard]]
@@ -418,7 +418,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The belly down armbar represents a critical component of what I call the 'turtle attack system' - a comprehensive approach to attacking opponents who assume the defensive turtle position. The mechanical principle here is fundamentally different from traditional armbars: you're not using leg control over the head and torso, which means you must generate all your control through shoulder immobilization and hip pressure. The key technical detail most practitioners miss is the angle of their hips relative to the arm - you want your pelvis perpendicular to the humerus, creating a 90-degree angle that maximizes leverage while minimizing the opponent's ability to rotate their shoulder. From a systemic perspective, this submission should never be viewed in isolation but rather as one option within a decision tree: if the opponent turtles, you have back takes, chokes, crucifix positions, and this armbar all available. The belly down armbar becomes highest percentage when the opponent posts an arm defensively or extends an arm while turtling - in these moments, their arm is structurally compromised and isolated, making it the priority target. Training emphasis must be on the transitional flow between these options rather than fixating on any single finish.
 - **Gordon Ryan**: In competition, the belly down armbar is a high-level finishing position that catches people who think they're safe in turtle. What I've found from using this at the highest levels is that it's not really a first attack - it's what you threaten after they defend something else. I'm usually attacking the back or going for a choke, and when they turtle up hard and post that arm to stop me from getting my hooks in, that's when I switch to the armbar. The thing is, you have to be fast with your weight distribution. Soon as you grab that wrist, you're dropping your chest across their shoulder blade before they even realize what's happening. In training versus competition, my application speed is completely different. Training, I take 5-6 seconds, let them feel it coming, let them tap safely. Competition, I'm breaking that elbow in under 2 seconds if they don't tap - that's the reality of high-level grappling. But you build to that over years. The guys I train with know I'm safe; the guys I compete against know I'm dangerous. That distinction matters. Also, if someone starts to roll through, I almost always let them and take the back rather than trying to hold this finish - back control is generally a superior position unless the armbar is already fully locked.
 - **Eddie Bravo**: The belly down armbar fits perfectly into the 10th Planet philosophy of attacking from everywhere and creating constant submission threats even from positions people think are neutral or defensive. What's sick about this move is that most people think turtle is a safe position to stall or rest - we've spent years developing attacks specifically to punish that mindset. From our system perspective, this armbar usually comes after the twister, the crotch ripper, or the truck attempts get defended. They turtle up, post an arm, and boom - you've got the armbar right there. One variation we use a lot is combining this with our lockdown game: if someone defends the lockdown by turtling and trying to clear the leg, their arms are constantly exposed for this finish. The key innovation from our testing is that you don't always need to fully extend the arm - sometimes just controlling it belly-down and threatening the finish opens up the truck or the back take. It's about the dilemma: defend your arm, I take your back; defend your back, I break your arm. In training, we're super careful with this one though - it's one of those techniques where the tap needs to come early because once the arm is straight and the hips are driving, there's no time to tap without damage. We drill the control portions way more than the actual finish, and we teach people to tap to the position, not the pain. That safety culture is what allows us to train this kind of dangerous shit multiple times per week without everyone ending up injured.

@@ -8,7 +8,7 @@ description: "Master the underhook battle in BJJ. Complete guide to grip fightin
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -71,7 +71,7 @@ description: "Master the underhook battle in BJJ. Complete guide to grip fightin
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,9 +177,7 @@ description: "Master the underhook battle in BJJ. Complete guide to grip fightin
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -211,7 +209,7 @@ The strategic importance of the underhook cannot be overstated—it provides the
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Both practitioners actively competing for underhook control with at least one arm attempting to achieve deep underhook position beneath opponent's armpit
 - Body-to-body contact maintained with chest, hips, or shoulders in close proximity enabling continuous grip fighting exchanges and immediate positional transitions
@@ -222,7 +220,7 @@ The strategic importance of the underhook cannot be overstated—it provides the
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of basic grip fighting and hand fighting principles including grip breaking and establishing dominant connections
 - Familiarity with underhook mechanics and their strategic value in positional hierarchy across multiple positions
@@ -341,7 +339,7 @@ The strategic importance of the underhook cannot be overstated—it provides the
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Whizzer counter to underhook]]** → [[Half Guard]] (Success: 50%)
 - **[[Crossface to flatten and control]]** → [[Side Control]] (Success: 55%)
@@ -405,7 +403,7 @@ The strategic importance of the underhook cannot be overstated—it provides the
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

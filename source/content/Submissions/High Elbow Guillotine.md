@@ -8,7 +8,7 @@ description: "Master High Elbow Guillotine in BJJ. Complete guide with safety pr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master High Elbow Guillotine in BJJ. Complete guide with safety pr
 
 
 
-> **Quick Answer**: High Elbow Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> High Elbow Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="safety-considerations" class="content-section">
 
-## Is High Elbow Guillotine Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -217,7 +217,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Elbow positioning above opponent's shoulder line redirects force into carotid arteries rather than trachea
 - Non-choking shoulder drives into opposite side of neck to close the choking angle
 - Hip pressure or guard closure prevents opponent from creating distance and escaping
@@ -231,7 +231,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Front headlock control established with opponent's head controlled and posture broken
 - Choking arm secured around opponent's neck with deep grip achieved before opponent defends
 - Strong grip connection (wrist-to-wrist, palm-to-palm, or gable grip depending on gi/no-gi)
@@ -245,7 +245,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure deep guillotine grip**: From front headlock position, slide your choking arm deep around opponent's neck with your wrist reaching past the opposite side of their neck. Your grip should be palm-up with the blade of your wrist against their trachea/carotid area. Connect your hands using wrist-to-wrist grip (no-gi) or palm-to-palm with gi grips, ensuring your grip is tight before proceeding to the next step. (Timing: 1-2 seconds) [Pressure: Light]
 2. **Elevate choking elbow above shoulder line**: This is the defining characteristic of the high elbow variation. Drive your choking-side elbow upward and backward, positioning it above the plane of opponent's shoulder. Your forearm should now be angled diagonally across their neck rather than horizontal. This elevation redirects pressure into the carotid arteries and creates the proper angle for the finish. Keep your grip tight as you elevate to prevent opponent from pulling their head free. (Timing: 1 second) [Pressure: Moderate]
 3. **Drive non-choking shoulder into opponent's neck**: Your non-choking shoulder becomes a critical pressure point in this variation. Drive this shoulder forcefully into the opposite side of opponent's neck, effectively creating a vice between your forearm and your shoulder. This shoulder pressure closes the angle and prevents opponent from turning into you to escape. Your shoulder should make contact with the side of their neck near the carotid, not their face or jaw. (Timing: Simultaneous with step 2) [Pressure: Firm]
@@ -259,7 +259,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Pushing attacker's head away to create space between head and chest** (Effectiveness: Medium) - Your Adjustment: Increase crown of head pressure into sternum and ensure your non-choking shoulder maintains contact with their neck. If they create significant space, transition to standing finish or adjust to arm-in variation.
 - **Turning into the choke to face attacker and eliminate shoulder pressure** (Effectiveness: High) - Your Adjustment: This is the most effective defense. Counter by immediately increasing non-choking shoulder pressure and pulling choking elbow further back and up. If turn is successful, be prepared to transition to darce or anaconda, or to abandon and establish different control.
 - **Bridging or arching back to create space in the hip connection** (Effectiveness: Medium) - Your Adjustment: Follow their bridge by extending your body and maintaining guard closure or hip pressure. Your weight should move with them. Increase choking pressure during the bridge as their neck is often more exposed during this defensive movement.
@@ -270,31 +270,31 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Keeping elbow low and parallel to ground instead of elevated above shoulder line [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Keeping elbow low and parallel to ground instead of elevated above shoulder line [Medium DANGER]
   - **Consequence**: Pressure goes primarily into trachea rather than carotids, making choke less effective and more uncomfortable without finishing. Also allows opponent to turn into you more easily.
   - **Correction**: Consciously drive your choking elbow upward and backward before applying pressure. Your elbow should be visible in your peripheral vision if positioned correctly. Think of touching your elbow to the ceiling.
-- **Error**: Neglecting non-choking shoulder pressure and relying only on forearm squeeze [Low DANGER]
+- **Mistake**: Neglecting non-choking shoulder pressure and relying only on forearm squeeze [Low DANGER]
   - **Consequence**: Opponent can easily turn into the choke and escape. Without shoulder pressure creating the vice, the submission loses most of its finishing power.
   - **Correction**: Focus equal attention on driving your non-choking shoulder into the side of opponent's neck as you do on your choking arm. The shoulder often does more work than the arm in this variation.
-- **Error**: Allowing distance between hips and opponent's body during finish attempt [Low DANGER]
+- **Mistake**: Allowing distance between hips and opponent's body during finish attempt [Low DANGER]
   - **Consequence**: Opponent pushes off and creates escape space, completely negating your upper body control. The submission becomes a temporary inconvenience rather than a finish.
   - **Correction**: Close guard tightly with heels connected and knees squeezing, or if standing, drive hips forward into opponent's hips. Think of making your body one continuous pressure unit from head to hips.
-- **Error**: Jerking or spiking the submission with sudden explosive pressure [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the submission with sudden explosive pressure [CRITICAL DANGER]
   - **Consequence**: High risk of tracheal damage, cervical spine injury, or causing unconsciousness before partner can tap safely. This is the most dangerous error in guillotine application.
   - **Correction**: Apply all pressure progressively and smoothly over 3-5 seconds minimum. Build pressure gradually, allowing partner clear opportunity to recognize the danger and tap. Never spike submissions in training.
-- **Error**: Failing to adjust when opponent turns into the choke successfully [Low DANGER]
+- **Mistake**: Failing to adjust when opponent turns into the choke successfully [Low DANGER]
   - **Consequence**: You hold a submission that is no longer effective while opponent escapes to better position or counters with their own attacks.
   - **Correction**: Recognize when the high elbow structure is compromised and immediately transition to darce, anaconda, or release and establish different control. Never stubbornly hold a failed submission attempt.
-- **Error**: Gripping over opponent's chin instead of around their neck [CRITICAL DANGER]
+- **Mistake**: Gripping over opponent's chin instead of around their neck [CRITICAL DANGER]
   - **Consequence**: Choke cannot finish and creates high risk of jaw or temporomandibular joint injury. Partner experiences pain before any danger signal that would prompt a tap.
   - **Correction**: Always ensure your forearm blade makes contact with the side of the neck, not the chin. If chin is tucked, use your grip to lift their head or transition to different attack. Never force the submission over the chin.
-- **Error**: Looking away from opponent or failing to monitor their facial responses [CRITICAL DANGER]
+- **Mistake**: Looking away from opponent or failing to monitor their facial responses [CRITICAL DANGER]
   - **Consequence**: Missing visual cues of oxygen deprivation or excessive pressure. Partner may go unconscious without tapping if choke is too tight or applied too quickly.
   - **Correction**: Maintain visual awareness of partner's face and responses during all choking techniques. Look for color changes, eye responses, and ensure they have clear ability to tap. Safety requires constant monitoring.
-- **Error**: Crossing feet while finishing from guard position [Medium DANGER]
+- **Mistake**: Crossing feet while finishing from guard position [Medium DANGER]
   - **Consequence**: Opens yourself to ankle lock counters and weakens your guard control structure. The crossed feet become a submission opportunity for the opponent.
   - **Correction**: Always connect heels behind opponent's back without crossing your feet. Squeeze your knees together to maintain guard pressure. Your lower legs should form parallel lines behind their back.
 
@@ -303,7 +303,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Standing High Elbow Guillotine**: Applied from standing position with opponent's head controlled in front headlock. Attacker drives hips forward while maintaining high elbow position and shoulder pressure. Often finished while opponent is attempting to complete a takedown or after sprawling on their shot. The standing variation generates additional pressure through body weight and forward hip drive. (When to use: When opponent shoots for takedown, during snap-down sequences, or when you want to maintain standing position rather than pulling guard. Particularly effective in no-gi competition where guard pulling is less advantageous.)
 
 **Guard Pull to High Elbow Guillotine**: From standing front headlock control with high elbow position established, attacker sits to guard while maintaining all upper body structure. The act of pulling guard often tightens the choke as it eliminates opponent's ability to create distance. Guard should be closed immediately upon sitting. This is one of the highest percentage entries in modern grappling. (When to use: When standing finish is not immediately available or when opponent has strong base and takedown defense. The guard pull variation is favored in submission-only formats and IBJJF competition where the guard pull itself is relatively low-risk.)
@@ -351,7 +351,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn all structural components separately: grip, elbow elevation, shoulder pressure, lower body control, head position. Practice each element in isolation with compliant partner before attempting complete submission.
 - Resistance: None
@@ -388,7 +388,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Guillotine Control]]
@@ -404,7 +404,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[Guillotine Variations]]
@@ -444,7 +444,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The high elbow guillotine represents a significant mechanical improvement over traditional guillotine applications because it transforms a technique that often fails at high levels into a legitimate finishing threat. The key is understanding that elevation of the elbow above the shoulder line redirects force vectors directly into the carotid arteries rather than relying on tracheal compression, which is both less effective as a finishing mechanism and more uncomfortable for training partners. The non-choking shoulder's role cannot be overstated - it functions as the second jaw of a vice, with the forearm being the first jaw. When both are actively engaged, the opponent faces a true dilemma: any defensive movement that addresses one pressure point necessarily exposes them to the other. The systematic approach to this submission begins with perfect positioning before any pressure is applied. Students must internalize that structural integrity precedes pressure application. In training, apply this submission with extreme care and progressive pressure over minimum 3-5 seconds, as the blood choke mechanism can cause unconsciousness rapidly if applied at competition speed. The safety protocols are not suggestions but mandatory requirements for responsible training.
 - **Gordon Ryan**: In competition, the high elbow guillotine is one of the most reliable submissions from standing exchanges and guard pulls because it requires less setup time than many other submissions and can be finished quickly once structure is established. I favor this variation over arm-in guillotines because it's significantly harder to defend through turning, which is the most common and effective guillotine defense at high levels. The key is establishing the high elbow position before pulling guard - if you pull guard with a standard guillotine and then try to elevate the elbow, opponent has time to defend. In no-gi especially, this submission pairs perfectly with front headlock snap-downs and can catch opponents who are focused on defending their back. Against good opponents, you need to hide your submission attempt until the last moment - maintain what looks like standard front headlock control, then explosively transition to high elbow configuration as you pull guard or apply pressure. That said, in training with partners, always apply progressive pressure and give them clear opportunity to tap. Competition urgency has its place, but training is where we develop technique safely. The distinction between training application and competition application is critical - one builds skills, the other wins matches, but they require different mindsets around safety and pressure.
 - **Eddie Bravo**: The high elbow guillotine fits perfectly into 10th Planet methodology because it works equally well gi and no-gi, and it chains beautifully with our rubber guard and electric chair systems from bottom position. When I'm teaching this, I emphasize that the finish isn't about crushing with your arms - it's about creating the right angles and letting geometry do the work. The shoulder pressure is actually the secret that most people miss; your forearm is just one part of a two-part system. One variation we use a lot is combining this with zombie position from half guard, where you can maintain the high elbow structure even as opponent tries to pass. The creativity comes in finding entries that opponents don't expect - catching it off failed single leg attempts, setting it up from weird angles in scrambles, or using it as a counter when opponent tries to pass your guard aggressively. But here's the real talk about safety: in our gym culture, tapping early and often is a sign of intelligence, not weakness. We want training partners who are still healthy and training in five years, ten years, twenty years. So when you're learning this submission, tap when you feel the pressure starting, not when you're already in danger. And when you're applying it, go slow and progressive every time unless you're in actual competition. Build that habit so deeply that it's automatic.

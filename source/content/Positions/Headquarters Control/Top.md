@@ -8,7 +8,7 @@ description: "Master offensive headquarters position in BJJ. Dominant half guard
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master offensive headquarters position in BJJ. Dominant half guard
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master offensive headquarters position in BJJ. Dominant half guard
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 35%.
 
 ---
 
@@ -191,7 +191,7 @@ From a strategic perspective, Headquarters Control Top serves as both a destinat
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's chest and shoulder pressure directed into opponent's upper body, typically with crossface or underhook controlling the head and far shoulder while maintaining heavy forward pressure through the torso
 - One of top player's legs is trapped between opponent's legs in half guard configuration, while the free leg maintains a strong base position with knee and foot grounded for stability and pressure generation
@@ -204,7 +204,7 @@ From a strategic perspective, Headquarters Control Top serves as both a destinat
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful engagement with half guard where top player has achieved initial control
 - Establishment of upper body control through crossface, underhook, or collar grip
@@ -232,7 +232,7 @@ From a strategic perspective, Headquarters Control Top serves as both a destinat
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Knee Slice Pass]] → [[Side Control]]
 
@@ -296,7 +296,7 @@ From a strategic perspective, Headquarters Control Top serves as both a destinat
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Re-Guard from Headquarters]]** → [[Half Guard]] (Opponent Success: 35%)
 - **[[Underhook Sweep from Half]]** → [[Standing Position]] (Opponent Success: 25%)
@@ -309,7 +309,7 @@ From a strategic perspective, Headquarters Control Top serves as both a destinat
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Pressure Pass]]** → [[Side Control]]
   - Opponent attempts to create space or turn in for underhook
@@ -358,7 +358,7 @@ From a strategic perspective, Headquarters Control Top serves as both a destinat
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

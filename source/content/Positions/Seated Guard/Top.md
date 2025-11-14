@@ -8,7 +8,7 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 35%.
 
 ---
 
@@ -191,7 +191,7 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Standing or kneeling position facing opponent who is seated upright with posted hands and active legs
 - Maintaining distance awareness to prevent opponent's feet from pushing your hips or controlling your legs
@@ -204,7 +204,7 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent in seated guard position with hands posted and legs extended
 - Ability to maintain standing or kneeling posture without being swept
@@ -231,7 +231,7 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Toreando Pass]] → [[Side Control]]
 
@@ -281,7 +281,7 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Technical Stand-up]]** → [[Standing Position]] (Opponent Success: 60%)
 - **[[Butterfly Sweep]]** → [[Mount]] (Opponent Success: 45%)
@@ -294,7 +294,7 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Toreando Pass]]** → [[Side Control]]
   - Opponent attempts to stand or establish grips
@@ -338,7 +338,7 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

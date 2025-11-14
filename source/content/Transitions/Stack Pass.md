@@ -8,7 +8,7 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 
 
 
-> **Quick Answer**: Stack Pass transitions from [[Closed Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
+> Stack Pass transitions from [[Closed Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Drive opponent's knees toward their chest to limit hip mobility
 - Maintain vertical pressure through their center line
 - Control both legs together to prevent guard recovery
@@ -192,7 +192,7 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Guard is closed or semi-open with legs in front of you
 - Strong grips on opponent's pants near the knees or ankles
 - Posture is upright with good base and balance
@@ -205,7 +205,7 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips**: From standing or combat base in closed guard, secure bilateral grips on opponent's pants at the knees or lower shins. These grips will control their leg movement throughout the pass. (Timing: Initial setup before pressure application)
 2. **Break guard open**: Using your grips and posture, create space to open the closed guard. Stand up if necessary, or use a knee-cut motion to split the ankles apart. Maintain grip control throughout. (Timing: Coordinate with opponent's breathing or movement)
 3. **Drive knees to chest**: Step forward with both feet and drive the opponent's knees toward their chest using your grips. Your weight should transfer forward, creating vertical pressure down their center line toward their shoulders. (Timing: Explosive forward drive as guard opens)
@@ -220,7 +220,7 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Hip escape and shrimp away to create space** (Effectiveness: Medium) - Your Response: Follow their hips with your weight, maintain constant pressure, and don't allow them to create distance. Keep your base wide to prevent being swept.
 - **Guillotine choke attempt as you drive forward** (Effectiveness: High) - Your Response: Keep your head positioned to the side and chin tucked. Maintain low posture with head below their chest line. If caught, immediately posture up and strip the grip.
 - **Granby roll or inversion to recover guard** (Effectiveness: Medium) - Your Response: Follow their roll and maintain leg control. Use their momentum to secure back position or mount rather than fighting to finish the side control pass.
@@ -230,25 +230,25 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Standing too upright during the stack, reducing pressure
+## Common Mistakes
+- **Mistake**: Standing too upright during the stack, reducing pressure
   - **Consequence**: Opponent can easily shrimp away or recover guard as there's insufficient weight keeping them flat
   - **Correction**: Keep your chest low and over their knees. Your weight should drive down through their center line, not just push horizontally.
-- **Error**: Releasing leg control too early
+- **Mistake**: Releasing leg control too early
   - **Consequence**: Opponent recovers guard immediately by reestablishing hooks or frames
   - **Correction**: Maintain control of at least one leg until your hips fully clear theirs and you establish side control grips.
-- **Error**: Narrow base making you unstable
+- **Mistake**: Narrow base making you unstable
   - **Consequence**: Opponent can sweep you or create enough movement to escape
   - **Correction**: Keep feet wide and knees slightly bent. Your base should be solid enough that pushing from below has minimal effect.
-- **Error**: Passing directly into their turning direction
+- **Mistake**: Passing directly into their turning direction
   - **Consequence**: Playing into their escape, making the pass much harder
   - **Correction**: Read their defensive turn and pass to the opposite side. Use their momentum against them.
-- **Error**: Lifting the hips too high during the stack
+- **Mistake**: Lifting the hips too high during the stack
   - **Consequence**: Creates space for them to invert, granby roll, or slip their hips away
   - **Correction**: Stack their hips just enough to limit mobility but keep them controlled. Excessive lifting loses control.
-- **Error**: Forgetting head position and getting guillotined
+- **Mistake**: Forgetting head position and getting guillotined
   - **Consequence**: Caught in a tight guillotine choke that may force you to abandon the pass
   - **Correction**: Always keep your head to one side, chin tucked, and below their chest level. Never drive straight into their centerline with your head up.
 
@@ -257,7 +257,7 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip fighting and stacking pressure
 Practice establishing grips on the pants and creating the initial stack without resistance. Focus on weight distribution and maintaining low posture. Partner remains passive.
 (Resistance: None)
@@ -288,7 +288,7 @@ Combine stack pass with other passing options like knee slice, toreando, and leg
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double Under Stack Pass**: Instead of gripping the pants, swim both arms under the legs and clasp hands behind the opponent's back. This creates even more control and pressure but requires careful guillotine defense. (When to use: Against opponents with strong leg pummeling or when you need maximum control)
 
 **Single Stack with Knee Slice**: Stack one leg toward their chest while using the other leg as a wedge for a knee slice pass. This hybrid approach combines stacking pressure with lateral movement. (When to use: When opponent defends the full stack by turning their knees to one side)
@@ -328,7 +328,7 @@ Combine stack pass with other passing options like knee slice, toreando, and leg
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The stack pass places significant pressure on the opponent's neck, spine, and lower back. Always apply pressure gradually and be aware of your partner's flexibility limitations. Beginners should avoid excessive stacking that drives the opponent's knees too far toward their face, as this can cause neck compression injuries. When practicing, communicate with your partner about pressure levels and stop immediately if they tap or show discomfort. Be especially cautious with partners who have neck, back, or shoulder injuries. When defending guillotines, don't jerk your head out violently as this can injure your own neck. The passer should also be aware that poor posture can lead to neck strain from guillotine pressure.
 
@@ -336,7 +336,7 @@ The stack pass places significant pressure on the opponent's neck, spine, and lo
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The stack pass is a cornerstone technique of pressure passing systems and integrates seamlessly into comprehensive guard passing strategies. It serves as both a primary pass and a pressure tool that forces reactions, opening up other passing opportunities. In positional hierarchies, the stack pass transitions from neutral guard positions directly into dominant top positions like side control or mount. It's particularly effective when combined with other pressure passes like double under pass, knee slice, and smash pass. The technique fits into the larger BJJ system as a fundamental skill that works at all belt levels and forms the foundation for understanding pressure-based guard passing. Many world-class competitors use the stack pass as their primary weapon, building entire passing systems around the pressure and control principles it teaches.
 
@@ -344,7 +344,7 @@ The stack pass is a cornerstone technique of pressure passing systems and integr
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Double Under Pass]] - Related pressure passing technique with similar stacking mechanics
 - [[Knee Slice Pass]] - Common follow-up when opponent defends the stack by turning
@@ -364,7 +364,7 @@ The stack pass is a cornerstone technique of pressure passing systems and integr
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The stack pass represents one of the most mechanically efficient methods of passing the guard because it attacks the fundamental weakness of the guard position: the inability to generate power when your hips are elevated and your weight is on your shoulders. The key to understanding this pass from a systematic perspective is recognizing that you're not just pushing the legs—you're creating a leverage point where the opponent's own body weight works against them. When you drive their knees toward their chest and elevate their hips, you remove their ability to use hip movement for guard retention. The critical detail most people miss is the angle of pressure. It must be vertical, down through their center line toward their shoulders, not horizontal into their guard. This vertical pressure is what makes recovery nearly impossible. From a teaching standpoint, I emphasize that the stack pass is not about strength but about understanding angles and weight distribution.
 - **Gordon Ryan**: The stack pass is one of my highest percentage techniques in competition because it's incredibly difficult to defend when done correctly. The key is timing—you need to recognize when your opponent is breathing or making a grip adjustment, then explode into the stack before they can set their defensive frames. I like to combine the stack pass with other passes in sequences. If they defend the stack by keeping their knees wide, I immediately switch to a knee slice. If they defend by turning to one side, I follow their turn and pass to the opposite side. The pass works even better when you've already tired them out with previous passing attempts because the stacking pressure is exhausting to defend. In no-gi especially, the stack pass is brutally effective because there are fewer grips for them to use defensively. My biggest tip is to never release the leg control until you're completely past—so many people release early and lose the position.
 - **Eddie Bravo**: What I love about the stack pass is how it completely shuts down the opponent's game and forces them into a survival position. In 10th Planet system, we use the stack pass not just as a guard pass but as a control position in itself—sometimes we'll hold the stack to tire them out before finishing the pass. The guillotine threat is real though, so you have to keep your head positioned correctly, always to one side and low. We practice a lot of stack pass defense drills where the bottom person tries guillotines, triangles, and inversions, so our passers learn to deal with all those threats automatically. One variation I really like is using the stack to set up leg attacks—when you stack someone hard and they're trying to defend, you can sometimes catch them in a straight ankle lock or even transition to saddle if they try to invert. The stack pass also works great in combination with the truck position. If they granby roll or try to invert out of the stack, you can follow them right into the truck and start hunting for the twister or back take.

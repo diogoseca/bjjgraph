@@ -13,10 +13,6 @@ description: "Master Body Lock position in BJJ. Complete guide covering standing
 
 
 
-> **Quick Overview**: Body Lock is a dominant standing clinch control position where you wrap both arms around your opponent's torso and lock your hands together, creating a unified control mechanism that eliminates their ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ The position is inherently transitional and requires immediate attack execution.
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Locked grip eliminates mobility options
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Body Lock/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Body Lock/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Locked grip eliminates mobility options
 
 
 
@@ -88,10 +72,13 @@ The position is inherently transitional and requires immediate attack execution.
 
 <section id="bottom-summary" class="content-section">
 
-## Body Lock Bottom Perspective
+
+## Playing as Bottom
+
+[[Body Lock/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in body lock must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in body lock must focus on creating frames, protecting against
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing opponent to lock hands without immediate defensive response**
@@ -158,16 +145,17 @@ The bottom player in body lock must focus on creating frames, protecting against
   - ✅ Correction: Sit to guard proactively if standing escapes fail within 2-3 seconds - control your landing rather than being thrown
 
 
-👉 **[[Body Lock/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Body Lock Top Perspective
+
+## Playing as Top
+
+[[Body Lock/Top|→ Full Top Guide]]
 
 
-The top player in body lock balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -216,7 +204,7 @@ The top player in body lock balances control maintenance with submission attacks
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Failing to drive hips forward immediately after locking hands**
@@ -243,8 +231,6 @@ The top player in body lock balances control maintenance with submission attacks
   - Consequence: Poor base makes you vulnerable to counter throws, reduces hip driving power, and limits explosive movement options
   - ✅ Correction: Maintain athletic stance with knees bent, weight on balls of feet, and center of gravity low for maximum stability and explosive power
 
-
-👉 **[[Body Lock/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

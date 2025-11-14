@@ -8,7 +8,7 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -71,7 +71,7 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,9 +177,7 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -211,7 +209,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Both practitioners are elevated on their knees in upright or semi-upright kneeling positions, with weight distributed through knees and posting points, creating an inherently unstable equilibrium where small adjustments determine positional outcomes
 - Active underhook battle occurring with at least one player having established underhook control around opponent's torso, ideally reaching to the far shoulder, while the opponent typically counters with whizzer (overhook) control pulling back and downward
@@ -225,7 +223,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player successfully established underhook from flat half guard position
 - Bottom player elevated hips off mat and came up to knees, creating the dogfight configuration
@@ -324,7 +322,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Knee Slice from Half]]** → [[Side Control]] (Success: 45%)
 - **[[Smash Pass]]** → [[Side Control]] (Success: 50%)
@@ -389,7 +387,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

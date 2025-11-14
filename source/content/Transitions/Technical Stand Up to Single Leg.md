@@ -8,7 +8,7 @@ description: "Master Technical Stand Up to Single Leg in BJJ. Execute safe stand
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Technical Stand Up to Single Leg in BJJ. Execute safe stand
 
 
 
-> **Quick Answer**: Technical Stand Up to Single Leg transitions from [[Turtle]] to [[Single Leg X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Technical Stand Up to Single Leg transitions from [[Turtle]] to [[Single Leg X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Technical Stand Up to Single Leg is a fundamental defensive recovery sequenc
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain strong base and posture throughout the standup sequence
 - Create distance and frames to prevent opponent from collapsing your structure
 - Time the single leg entry when opponent steps forward into range
@@ -186,7 +186,7 @@ The Technical Stand Up to Single Leg is a fundamental defensive recovery sequenc
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Starting from turtle, seated guard, or bottom position under pressure
 - At least one hand posted on the mat for base
 - Opponent applying forward pressure or standing at distance
@@ -199,7 +199,7 @@ The Technical Stand Up to Single Leg is a fundamental defensive recovery sequenc
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish posting hand**: From turtle or seated position, post your near-side hand firmly on the mat with fingers spread wide, elbow locked, and shoulder packed. This creates the primary structural support for your standup. Your posting arm should be positioned slightly behind your hip line to prevent being driven forward. (Timing: Initial setup - maintain until fully standing)
 2. **Extend lead leg**: Extend your far-side leg forward into a posting position with your foot flat on the mat, knee bent at approximately 90 degrees. This leg becomes your primary base for standing. Keep your shin vertical and weight centered over the ball of your foot. Your extended leg should point toward your opponent or slightly away to create angle. (Timing: Immediately after hand post is secure)
 3. **Drive to standing position**: Explosively drive through your posted foot while maintaining pressure through your posted hand. Keep your hips low and back straight as you rise. Your non-posted hand should be active, creating frames against opponent's torso or hips to maintain distance. As you rise, your weight shifts from hand to feet, but maintain hand contact until fully balanced. (Timing: Explosive movement, 0.5-1 second)
@@ -213,7 +213,7 @@ The Technical Stand Up to Single Leg is a fundamental defensive recovery sequenc
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls hard, hips back and weight down** (Effectiveness: High) - Your Response: Immediately switch to ankle pick by releasing upper grip, grabbing their ankle, and pulling while driving shoulder into their knee. Alternatively, transition to double leg by securing second leg or switch to guard pull if takedown becomes low percentage.
 - **Opponent crossfaces and drives you down during standup** (Effectiveness: High) - Your Response: Abandon standup temporarily and return to turtle or guard. Use their forward pressure to pull guard or roll under for sweep. Never force the standup against heavy crossface pressure as it exposes your back.
 - **Opponent circles away and disengages** (Effectiveness: Medium) - Your Response: Maintain standing position and re-engage with grip fighting. Use footwork to cut angles and prevent them from circling. If they refuse to engage, establish your guard pull or force them into your preferred range before attempting another attack.
@@ -223,25 +223,25 @@ The Technical Stand Up to Single Leg is a fundamental defensive recovery sequenc
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rising too quickly without establishing proper base
+## Common Mistakes
+- **Mistake**: Rising too quickly without establishing proper base
   - **Consequence**: Opponent easily drives you back down or sweeps you as you have no structural foundation
   - **Correction**: Take time to properly post hand and foot before rising. It's better to be slow and stable than fast and collapsed. Practice the sequence in slow motion until base becomes automatic.
-- **Error**: Keeping hips too high during level change
+- **Mistake**: Keeping hips too high during level change
   - **Consequence**: Poor penetration depth, easy to sprawl on, and exposing guillotine opportunities
   - **Correction**: Drop your trailing knee toward the mat as you step. Your hips should be below opponent's hips at the moment of contact. Imagine shooting under a table - stay low throughout.
-- **Error**: Reaching for the leg instead of driving through opponent
+- **Mistake**: Reaching for the leg instead of driving through opponent
   - **Consequence**: No pressure on opponent, easy to defend, and poor balance for you
   - **Correction**: Step your lead foot deep between their legs, then wrap the leg. Drive your chest into their thigh throughout. Your feet should run in small steps, never reaching or lunging.
-- **Error**: Head position on inside of opponent's body
+- **Mistake**: Head position on inside of opponent's body
   - **Consequence**: Vulnerable to guillotine, darce, and front headlock attacks
   - **Correction**: Always maintain head on the outside of their body. If you find your head inside, immediately release and re-establish proper position rather than forcing bad position.
-- **Error**: Attacking single leg when opponent has superior position
+- **Mistake**: Attacking single leg when opponent has superior position
   - **Consequence**: Giving up your back or being flattened out under heavy pressure
   - **Correction**: Only attempt this sequence when you have space to stand and opponent is at neutral or slightly advantaged position. If they have dominant control, work escapes first before attacking.
-- **Error**: Gripping too high on the leg (above knee)
+- **Mistake**: Gripping too high on the leg (above knee)
   - **Consequence**: Easy for opponent to hop and maintain balance, or kick leg free
   - **Correction**: Secure your grip behind the knee or on the lower thigh. The lower your grip, the more control you have. Pinch elbows together to maximize control.
 
@@ -250,7 +250,7 @@ The Technical Stand Up to Single Leg is a fundamental defensive recovery sequenc
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Movement Patterns** - Technical standup mechanics in isolation
 Practice technical standup from various bottom positions (turtle, seated, butterfly) without opposition. Focus on proper hand posting, foot placement, and rising mechanics. Partner provides light stability support but no resistance. Drill 20-30 repetitions per session until movement becomes automatic.
 (Resistance: None)
@@ -281,7 +281,7 @@ Practice this sequence in different contexts: with gi grips, against strikes, wi
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Technical Standup to Double Leg**: After establishing standing position, instead of single leg, drop and secure both legs simultaneously. This variation works well when opponent squares up with narrow stance or commits weight forward excessively. (When to use: When opponent presents square stance with feet close together, or when you have superior wrestling experience and want higher percentage finish)
 
 **Standup to Ankle Pick**: As you rise, opponent pulls their leg back to avoid single leg attack. Immediately switch to ankle pick by securing their ankle with one or two hands while driving shoulder into their knee. Often catches opponents who successfully defended the initial single leg attempt. (When to use: Against opponents who read single leg early and retreat their leg, or when you have less size/strength advantage)
@@ -321,7 +321,7 @@ Practice this sequence in different contexts: with gi grips, against strikes, wi
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing technical standup to single leg, always maintain awareness of head position to prevent neck injuries from guillotine or front headlock pressure. During drilling, partners should release guillotine attempts immediately when training partner taps or shows distress. When completing takedowns, control the descent to prevent opponent landing awkwardly or impacting hard surfaces. In live training, tap early to neck cranks or chokes rather than fighting through them. Beginners should practice the standup phase extensively before adding explosive takedown entries to develop proper structural awareness. Always warm up hips, knees, and ankles before practicing this sequence as the level change and driving mechanics create significant joint stress. In competition or self-defense contexts, be aware that failed single leg attempts may expose your back or neck to counterattacks.
 
@@ -329,7 +329,7 @@ When practicing technical standup to single leg, always maintain awareness of he
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Technical Stand Up to Single Leg serves as a critical bridge between defensive and offensive phases of grappling. From defensive positions like turtle, bottom side control, or mount bottom, it provides a pathway to disengage and reset rather than remaining in inferior positions. Once standing, it immediately transitions defensive recovery into offensive takedown attack, preventing opponent from re-establishing their pressure game. This sequence integrates with broader guard recovery systems, as failing to complete the single leg allows you to pull guard rather than being taken down. In no-gi and MMA contexts, it's a fundamental skill for controlling engagement distance and preventing opponent from controlling where the fight takes place. The technique also connects to leg entanglement systems, as securing single leg control can be transitioned into Single Leg X-Guard, Ashi Garami entries, or outside trips if the takedown finish is defended.
 
@@ -337,7 +337,7 @@ The Technical Stand Up to Single Leg serves as a critical bridge between defensi
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Technical Standup]] - Foundational component - first phase of this sequence
 - [[Single Leg Entry]] - Core attack - second phase of this sequence
@@ -358,7 +358,7 @@ The Technical Stand Up to Single Leg serves as a critical bridge between defensi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The technical standup to single leg sequence represents a perfect example of systematic position management and offensive opportunity recognition. The technical standup itself is not merely an escape - it's a methodical construction of base and posture that creates the structural foundation for explosive attack. Notice that we don't simply stand up randomly; we establish specific posting points that create a stable platform capable of generating power. The transition to single leg entry must be timed precisely with opponent's forward weight transfer - attacking when they're stationary or retreating yields low success rates. The biomechanics demand that your level change originates from hip flexion while maintaining spinal extension, allowing you to generate maximum forward drive through skeletal structure rather than pure muscular effort. Most practitioners fail this sequence because they rise too high before attacking, telegraphing their intentions and eliminating the depth advantage necessary for effective penetration. The grip position behind the knee is critical - it's the control point that prevents opponent's leg from functioning as a post, eliminating their primary defensive mechanism. This technique exemplifies how defensive recovery and offensive attack exist on a continuum rather than as separate phases.
 - **Gordon Ryan**: In competition, the technical standup to single leg is one of the highest-percentage sequences for reversing inferior position, particularly in no-gi where grips can't be used to prevent your standup. I use this constantly when opponents try to pass my guard and I turtle or when I'm defending mount and need to create space. The key is not thinking of it as two separate moves - it's one continuous motion from bottom position to top position. When I feel I can't prevent the pass or I'm getting flattened in turtle, I immediately start building my base for the standup. Most guys wait too long and let the position fully consolidate, then the standup becomes much harder. The timing window for the single leg attack is tiny - maybe one second after you stand where opponent is deciding whether to pressure in or step back. That's when you explode into the level change. If you wait longer, they set their grips and stance and the takedown success rate drops significantly. Against high-level opponents, I'm often happy just to complete the standup and establish standing position even if the single leg fails, because it resets the match and prevents them from grinding out positional dominance. The technique also works as a counter to aggressive guard passers who chase when you create space - their forward momentum walks them right into your single leg setup.
 - **Eddie Bravo**: The technical standup to single leg is fundamental in our system, especially for no-gi and MMA application where you can't rely on gi grips to maintain guard. What makes this sequence deadly is the psychological element - when you're underneath getting pressured, opponent expects you to stay defensive and try to recover guard or escape. The standup changes the entire dynamic of the exchange because suddenly you're engaging their wrestling, which a lot of jiu-jitsu guys aren't prepared for. In 10th Planet, we drill this from every bottom position because in MMA you cannot afford to stay on bottom eating ground and pound. The single leg entry has to be explosive and low - I see too many guys kind of casually shooting and getting guillotined or sprawled on. You've got to drop that level like you're trying to go under a low table, then drive through their hips like you're trying to run through them, not to them. The beauty of this technique is the chain wrestling options - if the single leg gets defended, you can immediately go to ankle pick, you can pull into lockdown or rubber guard, you can convert to outside trip, or you can even hit the switch if they try to take your back. We also use the cage wall variation heavily in MMA where you walk your back up the cage which makes it way harder for them to keep you down. The standup component is also critical for creating space to land strikes from bottom, even if you don't complete the full sequence.

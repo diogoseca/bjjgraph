@@ -8,7 +8,7 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -201,7 +199,7 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player maintains cross-collar grip with four fingers deep inside opponent's collar near the shoulder, creating direct leverage over upper body rotation and posture control while keeping the elbow tight to prevent grip breaks
 - Bottom player controls same-side sleeve at the wrist or forearm with firm grip, preventing the opponent from posting or establishing base on that side while maintaining straight arm extension to manage distance effectively
@@ -212,7 +210,7 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has opened your closed guard or you have opened guard deliberately
 - You have established cross-collar grip before opponent secures dominant grips
@@ -240,7 +238,7 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Pendulum Sweep]] → [[Mount]]
 
@@ -318,7 +316,7 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Collar Drag]]** → [[Side Control]]
 - **[[Guard Pass]]** → [[Side Control]]
@@ -331,7 +329,7 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Triangle Setup]]** → [[Triangle Control]]
   - Opponent posts free hand to defend sweep attempt
@@ -378,7 +376,7 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

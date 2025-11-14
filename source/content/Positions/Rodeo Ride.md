@@ -13,10 +13,6 @@ description: "Master Rodeo Ride position in BJJ. Advanced turtle attack with asy
 
 
 
-> **Quick Overview**: Rodeo Ride is an advanced turtle attack position where the top practitioner maintains control over a turtled opponent using asymmetric grips and dynamic positioning. Unlike traditional turtle top cont...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium |
 
-**What Makes This Position Unique:** Dynamic pressure replaces static control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Rodeo Ride/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Rodeo Ride/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Dynamic pressure replaces static control
 
 
 
@@ -88,10 +72,13 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 <section id="bottom-summary" class="content-section">
 
-## Rodeo Ride Bottom Perspective
+
+## Playing as Bottom
+
+[[Rodeo Ride/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in rodeo ride must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -137,7 +124,7 @@ The bottom player in rodeo ride must focus on creating frames, protecting agains
   - Success Rate: Beginner 8%, Intermediate 18%, Advanced 30%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Flattening out on stomach in attempt to prevent back exposure**
@@ -169,16 +156,17 @@ The bottom player in rodeo ride must focus on creating frames, protecting agains
   - ✅ Correction: Fight every grip attempt actively, make opponent work for each control point they establish
 
 
-👉 **[[Rodeo Ride/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Rodeo Ride Top Perspective
+
+## Playing as Top
+
+[[Rodeo Ride/Top|→ Full Top Guide]]
 
 
-The top player in rodeo ride balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -233,7 +221,7 @@ The top player in rodeo ride balances control maintenance with submission attack
   - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Staying too static and allowing opponent to establish strong defensive base**
@@ -264,8 +252,6 @@ The top player in rodeo ride balances control maintenance with submission attack
   - Consequence: Opponent successfully escapes because you're reacting rather than anticipating, always one step behind
   - ✅ Correction: Read opponent's weight distribution and base positioning to predict escape attempts, positioning yourself to intercept movement
 
-
-👉 **[[Rodeo Ride/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

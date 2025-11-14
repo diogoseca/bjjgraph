@@ -137,7 +137,7 @@ description: "Master systematic back control progression from seat belt to strai
 
 
 
-> **Quick Answer**: Danaher Straight Jacket System is a advanced difficulty Attack System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Danaher Straight Jacket System is a advanced difficulty Attack System system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Attack System
@@ -160,7 +160,7 @@ What distinguishes the Straight Jacket System from other back attack approaches 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Upper body immobilization takes precedence over lower body control - restrict hand fighting before establishing hooks
 - Progressive control hierarchy - advance through defined control levels rather than rushing to submissions
 - Grip configuration creates structural dilemmas - opponent cannot defend neck without exposing arms, cannot free arms without exposing neck
@@ -175,7 +175,7 @@ What distinguishes the Straight Jacket System from other back attack approaches 
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Initial Back Take Entry** (Establish foundational back control position with proper upper body connection before opponent can organize defensive structure)
 The system begins with establishing back control from various entry positions including turtle attacks, failed guard passes, scrambles, and standing clinch situations. Critical focus on immediately securing upper body control through seat belt grip configuration (one arm over shoulder, one arm under armpit) before concerning yourself with hook placement. The initial entry emphasizes speed and surprise to capitalize on momentary defensive lapses, with particular attention to preventing opponent's immediate defensive turtle or turning back to guard.
 
@@ -197,7 +197,7 @@ From the straight jacket position, the system provides clear pathways to multipl
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Initial Back Exposure and Entry**: Recognize and capitalize on back exposure opportunities from common positions including opponent's turtle, failed guard pass recovery, scramble situations, or standing clinch positions. Execute rapid transition to back mount, immediately establishing seat belt grip before concerning yourself with hook placement.
 Key points:
 - Speed of entry is critical - opponent's defensive structure weakens during positional transitions
@@ -372,7 +372,7 @@ The Straight Jacket System requires progressive drilling that emphasizes muscle 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The straight jacket system represents the logical evolution of back control methodology from opportunistic submission hunting to systematic position domination. Most practitioners make the critical error of viewing back control as merely a submission position rather than understanding it as a complex hierarchy of control levels, each offering distinct advantages and progression pathways. The system's power lies in its emphasis on upper body immobilization as the primary control mechanism - once you understand that an opponent with free hands can defend indefinitely, while an opponent with controlled hands becomes helpless, the entire strategic framework becomes clear. The progression from seat belt to gift wrap to straight jacket is not arbitrary; each level represents a quantum leap in control quality, with each advancement removing specific defensive capabilities from your opponent's arsenal. The gift wrap removes one arm from the defensive equation, the straight jacket removes both. This is not merely about making submissions easier - it's about creating a positional context where the opponent has no viable defensive options, only choices between different forms of defeat. Train this system with the understanding that every grip placement, every body angle adjustment, and every timing decision either advances you toward this inevitable conclusion or allows opponent escape opportunities to persist.
 - **Gordon Ryan**: In competition, the straight jacket system gives you something most back attack methods don't - time. When you're working against the clock and your opponent knows they just need to survive, traditional back attacks become a race where defensive athletes can often stall their way to safety. The straight jacket flips this equation completely. Once I have someone in gift wrap or full straight jacket, I'm not in a hurry anymore. They're the ones with the problem. They're the ones burning energy trying to create space, defend their neck, and prevent their arms from being further compromised. I'm just maintaining position and waiting for them to make the inevitable mistake. This is the competition reality that Danaher built this system around - it's not about flashy techniques or spectacular finishes, it's about creating a position so dominant that your opponent's defeat becomes a mathematical certainty, just a question of when, not if. The key competition application is understanding that achieving straight jacket against a high-level opponent might take the full length of your control - you might not get it in fifteen seconds like you do in training. But if you're patient, maintain your pressure, and advance your control systematically rather than rushing, you'll get there. And once you're there, the finish is almost guaranteed. I've finished world champions from this position because once your arms are controlled in that crossed configuration, there's simply no effective defense to the rear naked choke. Learn to be comfortable in the progression, don't rush, and this system will win you matches at every level.
 - **Eddie Bravo**: What I love about the straight jacket approach is that it takes the traditional gi-based back control methodology and proves it works just as well, maybe better, in no-gi contexts where a lot of people think back control is harder to maintain. In 10th Planet, we've integrated straight jacket principles with our lockdown and truck systems, creating entry pathways that Danaher's traditional approaches might not emphasize as heavily. The beautiful thing is that the core principles - upper body immobilization, progressive control advancement, creating submission dilemmas - these translate perfectly across different stylistic contexts. Where we diverge a bit is in the acceptance of unorthodox entry positions. Danaher's system is very clean, very classical in its entries from turtle and traditional back takes. We'll hit straight jacket control from rubber guard transitions, from twister side control, from lockdown sweeps that dump us into back control - basically, we view any back exposure as a potential straight jacket opportunity, not just the textbook situations. The other adaptation we've made is integrating the twister submission into the system. When you have someone in gift wrap or straight jacket and they're defending their neck really well, the twister becomes available because their spine is already compromised by your control structure. This isn't something you'll see in Danaher's original framework, but it's a perfect example of how solid systematic principles can be adapted and expanded. The straight jacket gave us a language and framework for back control that we could then mutate and evolve within our own system's DNA.

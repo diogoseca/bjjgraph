@@ -13,10 +13,6 @@ description: "Master D'arce Control position in BJJ. Dominant front headlock var
 
 
 
-> **Quick Overview**: D'arce Control is a highly effective front headlock variation where the attacking practitioner secures a figure-four grip around the opponent's neck and shoulder, creating intense pressure on the caro...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -54,31 +50,19 @@ The effectiveness of D'arce Control lies in its ability to create multiple dilem
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium |
 
-**What Makes This Position Unique:** Arm-in choke creating submission threat
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[D'arce Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[D'arce Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Arm-in choke creating submission threat
 
 
 
@@ -86,10 +70,13 @@ The effectiveness of D'arce Control lies in its ability to create multiple dilem
 
 <section id="bottom-summary" class="content-section">
 
-## D'arce Control Bottom Perspective
+
+## Playing as Bottom
+
+[[D'arce Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in d'arce control must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -128,7 +115,7 @@ The bottom player in d'arce control must focus on creating frames, protecting ag
   - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pulling away from the choke or trying to create distance by extending the neck**
@@ -152,16 +139,17 @@ The bottom player in d'arce control must focus on creating frames, protecting ag
   - ✅ Correction: Keep chin tucked tight to chest, using your jaw and skull structure to block deep penetration of the choke
 
 
-👉 **[[D'arce Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## D'arce Control Top Perspective
+
+## Playing as Top
+
+[[D'arce Control/Top|→ Full Top Guide]]
 
 
-The top player in d'arce control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -200,7 +188,7 @@ The top player in d'arce control balances control maintenance with submission at
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Failing to maintain deep arm penetration with elbow past opponent's spine**
@@ -223,8 +211,6 @@ The top player in d'arce control balances control maintenance with submission at
   - Consequence: Insufficient leverage to close the choke and opponent can defend indefinitely with chin tuck
   - ✅ Correction: Focus on initial arm penetration depth - hand should reach past opponent's far hip before locking the grip, ensuring maximum leverage for the choke
 
-
-👉 **[[D'arce Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Control opponents with innovative lapel grips and configurations. 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Control opponents with innovative lapel grips and configurations. 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Control opponents with innovative lapel grips and configurations. 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 75% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 75% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -197,7 +195,7 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player has established control of opponent's lapel with at least one grip point feeding the fabric around opponent's body, leg, or arm—this lapel configuration creates a mechanical barrier that persists independent of hand grip strength
 - Bottom player maintains open guard structure with hips mobile and legs active, using the lapel as a supplementary control point rather than relying solely on it—this allows continued guard retention if lapel grip is lost
@@ -208,7 +206,7 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Ability to extract opponent's lapel while maintaining guard position
 - Understanding of basic open guard mechanics and hip movement
@@ -236,7 +234,7 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Worm Guard Entry]] → [[Worm Guard]]
 
@@ -314,7 +312,7 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Lapel Grip Break and Distance Creation]]** → [[Standing Guard]] (Opponent Success: 45%)
 - **[[Pressure Pass Through Lapel]]** → [[Half Guard Pass]] (Opponent Success: 35%)
@@ -327,7 +325,7 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Re-configure to Squid When Worm is Cleared]]** → [[Squid Guard]]
   - Opponent clears leg from worm guard lapel wrap
@@ -371,7 +369,7 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

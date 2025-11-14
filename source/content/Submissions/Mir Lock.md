@@ -8,7 +8,7 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 
 
 
-> **Quick Answer**: Mir Lock is a shoulder lock targeting the Shoulder joint (glenohumeral joint). ⚠️ **SAFETY**: This technique can cause Shoulder dislocation (anterior or posterior) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Mir Lock is a shoulder lock targeting the Shoulder joint (glenohumeral joint). ⚠️ **SAFETY**: This technique can cause Shoulder dislocation (anterior or posterior). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="safety-considerations" class="content-section">
 
-## Is Mir Lock Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -219,7 +219,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Isolate the arm completely before attempting any rotational pressure on the shoulder
 - Control the opponent's body position to prevent rolling or escaping the angle
 - Apply pressure through body weight and positioning rather than muscular force alone
@@ -233,7 +233,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Dominant top control position with chest-to-chest connection to opponent
 - Opponent's arm isolated and extended away from their body at approximately 90-degree angle
 - Strong crossface or head control to prevent opponent from turning into you
@@ -247,7 +247,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish dominant side control position**: Secure tight side control with your chest driving into the opponent's chest, crossface applied to control their head, and your hips low to prevent them from inserting frames or shrimping away. Your weight should be distributed approximately 70% toward their head to maximize control and minimize escape options. (Timing: Take 3-5 seconds to establish solid base) [Pressure: Firm]
 2. **Isolate and capture the near-side arm**: As the opponent frames or attempts to create space with their near arm, swim your hand underneath their tricep and capture their wrist with your opposite hand. Simultaneously drive your weight forward to flatten their arm against the mat at approximately a 90-degree angle from their body. This isolation is critical - without it, the submission will fail. (Timing: 2-3 seconds to secure wrist control) [Pressure: Moderate]
 3. **Establish figure-four grip structure**: While maintaining wrist control with one hand, reach your other hand under the opponent's arm and grab your own wrist to create a figure-four configuration. Your forearm should be positioned perpendicular to the opponent's arm with your elbow pointing toward their head. This grip structure provides the mechanical advantage necessary for the submission. (Timing: 2-3 seconds to lock grip) [Pressure: Moderate]
@@ -261,7 +261,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Grabbing own gi or belt to create defensive frame** (Effectiveness: High) - Your Adjustment: Break the grip by driving your weight through the elbow while peeling the defensive grip open with your free hand, then immediately re-establish figure-four control before they can re-grip
 - **Rolling toward you to relieve shoulder pressure** (Effectiveness: Medium) - Your Adjustment: Anticipate the roll by posting your far leg and driving your hips backward while maintaining the figure-four grip, following their momentum to back control or remount rather than losing the submission entirely
 - **Bridging explosively to create space and escape angle** (Effectiveness: Medium) - Your Adjustment: Maintain chest pressure throughout the bridge by keeping your weight forward and hips low, ride the bridge motion while keeping the arm isolated, and reapply pressure as they settle back to the mat
@@ -271,28 +271,28 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting the submission without first establishing dominant position control [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting the submission without first establishing dominant position control [Low DANGER]
   - **Consequence**: Opponent easily escapes by rolling, bridging, or creating frames to recover guard
   - **Correction**: Always establish tight side control with crossface, hip pressure, and forward weight distribution before isolating the arm - position before submission
-- **Error**: Applying rotational pressure too quickly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying rotational pressure too quickly or explosively [CRITICAL DANGER]
   - **Consequence**: Catastrophic shoulder injury including rotator cuff tears, labral damage, or complete dislocation
   - **Correction**: ALWAYS apply progressive pressure over minimum 5-7 seconds in training, monitoring constantly for tap signals and stopping at first indication of discomfort
-- **Error**: Failing to elevate the elbow sufficiently before applying rotation [Low DANGER]
+- **Mistake**: Failing to elevate the elbow sufficiently before applying rotation [Low DANGER]
   - **Consequence**: Submission lacks mechanical effectiveness and opponent easily defends by keeping arm flat
   - **Correction**: Ensure the elbow is lifted 2-3 inches off the mat while the wrist is controlled downward, creating the hyperextension angle necessary for the submission to work
-- **Error**: Losing chest connection to opponent's shoulder during execution [Medium DANGER]
+- **Mistake**: Losing chest connection to opponent's shoulder during execution [Medium DANGER]
   - **Consequence**: Opponent creates space to turn into you, recover guard, or escape the submission entirely
   - **Correction**: Maintain constant chest-to-shoulder pressure throughout the entire sequence, using your body weight as the primary controlling force
-- **Error**: Positioning body perpendicular rather than at 45-degree angle [Medium DANGER]
+- **Mistake**: Positioning body perpendicular rather than at 45-degree angle [Medium DANGER]
   - **Consequence**: Opponent can easily roll toward you to escape, or you lack the proper leverage angle for effective shoulder rotation
   - **Correction**: Walk your hips toward the opponent's head to create approximately 45-degree body angle, which prevents rolling escapes while maximizing rotational leverage
-- **Error**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
   - **Consequence**: Severe shoulder injury requiring months of recovery and potential surgery, ending training partnerships and creating unsafe gym culture
   - **Correction**: Release ALL pressure immediately upon any tap signal - verbal, physical, or implied through distress sounds - and check partner's condition before resuming
-- **Error**: Using only arm strength rather than body weight for finishing pressure [Low DANGER]
+- **Mistake**: Using only arm strength rather than body weight for finishing pressure [Low DANGER]
   - **Consequence**: Technique becomes ineffective against strong opponents and you fatigue quickly attempting muscular submissions
   - **Correction**: Drive pressure through your chest and core weight distribution, using your arms only to maintain grip structure and control, not as the primary force mechanism
 
@@ -301,7 +301,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Mir Lock from North-South Position**: Apply the same shoulder lock mechanics from north-south control by capturing the near arm, establishing figure-four grip, and driving your chest weight downward through the shoulder while lifting the elbow. This variation provides excellent control as the opponent has limited escape options from this angle. (When to use: When you achieve north-south position and the opponent extends their arm defensively or attempts to frame against your chest)
 
 **Mir Lock from Modified Mount**: From modified mount position with one leg stepped over the opponent's body, isolate the trapped-side arm and apply the Mir Lock by dropping your weight to that side while maintaining mount control with your posted leg. This allows you to threaten both mount attacks and the shoulder lock simultaneously. (When to use: When opponent defends mount by turning to their side and extends their bottom arm for framing or posting)
@@ -344,7 +344,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Anatomy Education** (Week 1-2: 3-4 sessions)
 - Focus: Study shoulder anatomy, understand the mechanism of injury, learn proper body positioning and grip structures without resistance. Practice isolation of the arm and figure-four grip formation on compliant partners. Emphasis on recognizing the angles and mechanical principles before adding any pressure.
 - Resistance: None
@@ -381,7 +381,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[North-South]]
@@ -397,7 +397,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Americana]]
 - [[Kimura]]
@@ -435,7 +435,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Mir Lock represents a fascinating convergence of biomechanical principles that separate it from traditional shoulder locks like the Americana or Kimura. While those submissions rely primarily on rotational stress within the shoulder's transverse plane, the Mir Lock introduces a hyperextension component that attacks the anterior shoulder capsule and rotator cuff complex simultaneously. The critical mechanical difference is the straight-arm configuration combined with elbow elevation - this creates a fulcrum effect where small movements of the attacker's body weight translate into exponential pressure increases at the glenohumeral joint. From a teaching perspective, I emphasize that students must understand the anatomical structures at risk: the subscapularis muscle, the anterior deltoid, and most critically, the long head of the biceps tendon which can rupture catastrophically under this specific loading pattern. The submission's effectiveness derives not from speed or strength, but from precise angular alignment and progressive pressure application. In training, the Mir Lock must be approached with even greater caution than standard shoulder locks because the straight-arm position provides the defender with less proprioceptive feedback about impending structural failure, making preventative tapping more difficult and injury risk significantly higher.
 - **Gordon Ryan**: In competition, the Mir Lock is one of those submissions that creates a genuine dilemma for opponents because the defense mechanisms that work against Kimuras and Americanas often make the Mir Lock tighter. When guys try to straighten their arm to defend a traditional shoulder lock, they're actually giving me exactly what I need for the Mir Lock finish. I've used this successfully in ADCC absolute division matches where the strength differential would normally make shoulder locks difficult - the Mir Lock's mechanics mean that opponent strength becomes less relevant when the position is properly established. The key competition insight is recognizing the setup opportunities: I'm constantly looking for this when opponents defend my mount by turning to their side, or when I achieve north-south and they make the mistake of extending their arm to create frames. However, I want to be absolutely clear about the distinction between competition application and training application. In competition, I'm finishing this submission as fast as safely possible because my opponent is a world-class athlete who knows when to tap. In the training room, I apply this technique with extreme caution and slow progression because I need my training partners healthy for tomorrow's practice. The athletes I train with daily are more valuable to my development than any single submission finish, so I build a reputation as someone who protects their partners while still being technical enough to recognize when the submission is there.
 - **Eddie Bravo**: What makes the Mir Lock so dangerous and effective is that it attacks from positions where people feel relatively safe - they think they're defending side control or north-south competently, and suddenly their shoulder is being attacked from an angle they didn't anticipate. In the 10th Planet system, we look at this submission as part of the top control game, especially when we're transitioning between positions and the opponent gives us that extended arm defensive frame. The innovation opportunity with the Mir Lock comes from recognizing how it chains with other attacks: if someone defends by rolling toward you, you can ride that momentum to the back or to the Twister Control position. If they defend by turning away, you can transition to the Armbar or Omoplata. The submission becomes not just a finish, but a control position that opens multiple pathways. From a safety culture perspective, this is one of those techniques where we have to be extra careful in the gym. I tell my students that earning a reputation as someone who cranks shoulder locks in training is the fastest way to become the person nobody wants to roll with. In our gym, we practice the Mir Lock with the understanding that it's a competition technique, and in training, we're working on the position, the control, the recognition of when it's available - but we're tapping our partners with pressure that's nowhere near what would be required to finish a resisting competitor. That training discipline is what separates gyms with lots of injuries from gyms where people can train hard for decades.

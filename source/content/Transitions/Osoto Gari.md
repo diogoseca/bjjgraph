@@ -8,7 +8,7 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 
 
 
-> **Quick Answer**: Osoto Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 55%, Advanced 75%.
+> Osoto Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 55%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control opponent's upper body with strong collar and sleeve grips before attempting the throw
 - Drive opponent's weight onto their back leg by pulling them forward and slightly to the side
 - Reap the weighted leg with your entire leg, not just your foot, using a sweeping motion from hip to heel
@@ -180,7 +180,7 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing position with proper distance management - close enough to control but not so close that hip movement is restricted
 - Strong collar grip with one hand controlling opponent's upper body posture and direction
 - Sleeve or tricep control with the other hand to prevent defensive posting and maintain rotational control
@@ -194,7 +194,7 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish dominant grips**: Secure a high collar grip with your right hand (for right-sided throw), gripping deep into the lapel near the collarbone. Your left hand controls the opponent's right sleeve at the elbow or tricep. Pull opponent slightly forward to test their balance and establish control. These grips must be firm and active, not passive, as they will control the entire throwing motion. (Timing: Take 2-3 seconds to establish and test grips before committing to the throw)
 2. **Close distance and align hips**: Step forward with your left foot, positioning it slightly outside and ahead of opponent's right foot. Simultaneously pull with both grips to bring opponent's upper body closer to yours. Your hips should now be nearly touching opponent's hips, with your chest making contact with their chest. This hip-to-hip alignment is critical for power generation and control. (Timing: Execute as one smooth motion immediately after establishing grips)
 3. **Load the supporting leg**: Bend your left knee (supporting leg) and shift your weight onto it, creating a loaded spring-like position. Your right leg should be light and ready to sweep. The loading phase involves dropping your hips slightly while maintaining upright posture in your upper body. This creates the elastic energy that will drive the throw. (Timing: Brief loading phase of less than one second)
@@ -207,7 +207,7 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent steps back with the attacked leg before you can reap, creating distance and neutralizing the throw** (Effectiveness: High) - Your Response: Immediately transition to a different attack on the other leg such as Kouchi Gari or follow their backward movement with forward pressure to set up a second Osoto Gari attempt when they reset their stance
 - **Opponent posts their hand on the mat on the side you're throwing to, creating a base that prevents them from being fully thrown** (Effectiveness: Medium) - Your Response: Use your sleeve control to strip the posting arm off the mat or transition to an arm drag position if they commit heavily to the post. Alternatively, follow through to land in a modified position and immediately attack the posted arm with a Kimura or sweep
 - **Opponent executes a counter-throw (such as Tani Otoshi) by dropping their weight and rotating under you as you commit to the throw** (Effectiveness: Medium) - Your Response: Maintain strong base with your supporting leg and be prepared to release the throw if you feel them dropping weight. Keep your hips lower than theirs and chest pressure strong to prevent rotation. Advanced practitioners can recognize the counter early and transition to a different attack
@@ -216,25 +216,25 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to throw using only arm strength without engaging hips and full body rotation
+## Common Mistakes
+- **Mistake**: Attempting to throw using only arm strength without engaging hips and full body rotation
   - **Consequence**: Weak throw that fails to off-balance opponent, wastes energy, and leaves you vulnerable to counters as you're extended without proper base
   - **Correction**: Focus on hip drive and whole-body movement. Your arms guide the throw but your hips, legs, and torso generate the actual throwing power. Practice the motion slowly to feel how hip rotation and leg reap work together
-- **Error**: Reaping with only the foot or lower leg rather than using the entire leg from hip to heel
+- **Mistake**: Reaping with only the foot or lower leg rather than using the entire leg from hip to heel
   - **Consequence**: Insufficient sweeping power to remove opponent's base, often resulting in them simply stepping over your reaping attempt or maintaining balance
   - **Correction**: Visualize your entire leg as a sweeping bar. The reaping motion should originate from hip rotation with your leg fully extended. Practice shadow technique focusing on complete hip rotation
-- **Error**: Losing chest-to-chest contact during the throw by leaning back or creating distance with upper body
+- **Mistake**: Losing chest-to-chest contact during the throw by leaning back or creating distance with upper body
   - **Consequence**: Loss of control during the throw, opponent can escape or counter, and you may fail to land in a dominant position even if the throw succeeds
   - **Correction**: Maintain forward pressure with your chest throughout the entire technique. Think of smothering opponent with your upper body as you throw. Your chest should land on their chest
-- **Error**: Attempting the throw while standing too far away from opponent, requiring you to reach rather than drive
+- **Mistake**: Attempting the throw while standing too far away from opponent, requiring you to reach rather than drive
   - **Consequence**: Weak execution with no power generation, telegraphing the technique and giving opponent time to defend or counter
   - **Correction**: Take the extra step to close distance before throwing. Hip-to-hip contact is mandatory. If you can't close the distance, don't attempt the throw - set it up better or choose a different technique
-- **Error**: Failing to load the supporting leg before executing the reap, resulting in flat-footed throwing attempt
+- **Mistake**: Failing to load the supporting leg before executing the reap, resulting in flat-footed throwing attempt
   - **Consequence**: No explosive power in the technique, slow execution that's easily defended, and poor balance that makes you vulnerable to counters
   - **Correction**: Always include the loading phase - bend your supporting leg and feel the tension before exploding into the reap. This loading is what creates the spring-like power needed for effective throws
-- **Error**: Abandoning the throw halfway through if initial resistance is felt rather than committing fully to the technique
+- **Mistake**: Abandoning the throw halfway through if initial resistance is felt rather than committing fully to the technique
   - **Consequence**: Wasted energy, telegraphed intention that makes future attempts more difficult to execute, and potential off-balancing of yourself in an exposed position
   - **Correction**: Once committed to Osoto Gari, follow through completely. If you meet resistance, drive harder and maintain pressure rather than stopping. Practice commitment in controlled drilling to build confidence
 
@@ -243,7 +243,7 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Static Technique (Weeks 1-2)** - Basic mechanics and body positioning without resistance
 Partner stands completely still in neutral standing position. Practice establishing grips, closing distance, loading supporting leg, and executing reap motion in slow motion. Focus on feeling the correct body alignment, hip position, and leg sweep trajectory. Repeat 20-30 times per training session, alternating sides. Partner provides zero resistance but gives feedback on control and positioning.
 (Resistance: None)
@@ -270,7 +270,7 @@ Full resistance standing sparring with emphasis on Osoto Gari as part of your ta
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Osoto Otoshi (Drop Version)**: Instead of reaping opponent's leg while standing, you drop your weight downward while reaping, generating additional downward force. Your knee may touch the mat briefly as you complete the throw. This variation requires less perfect timing and can be effective against taller opponents. (When to use: When opponent is significantly taller or when you're having difficulty generating sufficient power with standard Osoto Gari. Also effective when opponent is particularly strong in upright positions and you need additional leverage.)
 
 **Osoto Gari to Back Take**: Rather than following through to Side Control, maintain your grips and use the momentum of the throw to spin behind opponent as they fall, securing back control or harness position. This requires releasing the collar grip earlier and transitioning to a seatbelt configuration mid-throw. (When to use: When opponent turns slightly during the throw or when your back-taking game is stronger than your top control. Particularly effective in no-gi where securing back control is a high-percentage pathway to submission.)
@@ -310,7 +310,7 @@ Full resistance standing sparring with emphasis on Osoto Gari as part of your ta
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing Osoto Gari, both training partners must be aware of proper falling mechanics to prevent injury. The person being thrown should understand how to breakfall correctly, turning their head away from the impact and slapping the mat with their arm to dissipate force. The person executing the throw must maintain grip connection throughout the technique to control the speed and direction of the fall, never simply throwing the opponent away. Adequate mat space should be verified before attempting the technique - ensure there are no obstacles or other grapplers in the fall zone. Begin all training at reduced speed and with cooperative partners before progressing to full resistance. Both partners should communicate clearly about resistance levels during drilling phases. The thrower should be particularly careful not to follow through with excessive weight if the opponent is unable to complete a proper breakfall. In competition scenarios, be aware of the edge of the mat area to avoid throwing opponents off the competition surface. Practitioners with knee or ankle issues should be cautious with the reaping motion and may need to modify the technique or use alternative takedowns.
 
@@ -318,7 +318,7 @@ When practicing Osoto Gari, both training partners must be aware of proper falli
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Osoto Gari occupies a critical position in the BJJ takedown hierarchy as a fundamental technique that bridges judo and BJJ methodologies. Within the overall standing game, it serves as a primary attacking technique from neutral grips and can be seamlessly integrated with other standing attacks such as foot sweeps, single leg entries, and collar drag systems. The technique is particularly valuable because it allows for immediate transition to dominant top positions - most commonly Side Control, Scarf Hold (Kesa Gatame), or modified mount positions - without requiring a scramble phase. This direct path from standing to control makes it superior to many takedowns that result in neutral or contested ground positions. In a complete BJJ system, Osoto Gari should be practiced as part of a takedown combination series: for example, Osoto Gari can be chained with Kouchi Gari, Ouchi Gari, or foot sweeps to create a comprehensive standing attack system where each technique sets up the others through action-reaction principles. The landing mechanics of Osoto Gari also complement the top pressure passing game, as the forward driving motion and chest pressure used in the throw translate directly into maintaining top control and initiating guard passing sequences. For practitioners building a complete game, Osoto Gari represents an essential technical foundation that scales from fundamental white belt curriculum through high-level competition application.
 
@@ -326,7 +326,7 @@ Osoto Gari occupies a critical position in the BJJ takedown hierarchy as a funda
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Kouchi Gari]] - Combination Setup - Initial inside attack creates reaction that sets up Osoto Gari
 - [[Ouchi Gari]] - Alternative - Similar mechanics but attacks inside of leg rather than outside
@@ -346,7 +346,7 @@ Osoto Gari occupies a critical position in the BJJ takedown hierarchy as a funda
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Osoto Gari represents one of the most mechanically efficient takedowns available in the grappling arts, and its effectiveness stems from proper understanding of leverage and timing rather than athleticism. The critical factor that most practitioners miss is the relationship between upper body control and the reaping motion - these must be perfectly synchronized, not sequential. Your collar grip isn't merely holding the opponent; it's actively driving their upper body backward on a specific angle that intersects with your leg's sweeping motion. Think of it as creating a collision between two forces: your reaping leg traveling backward and upward, and their upper body being driven backward and downward. When these vectors meet at the optimal angle and timing, the opponent has no mechanical option but to fall. The loading phase on your supporting leg is what allows you to generate this synchronized explosive force. Many practitioners attempt to muscle the technique using arm strength, but true Osoto Gari power comes from the kinetic chain starting at your supporting leg, transferring through your hips, and manifesting in both the reap and the upper body drive simultaneously. Study the technique frame by frame and you'll notice that elite execution shows perfect timing where maximum reaping force coincides exactly with maximum upper body drive. This synchronization is what separates functional Osoto Gari from the crude approximations we often see in training.
 - **Gordon Ryan**: In my competition experience, Osoto Gari is one of the highest percentage takedowns you can develop because it doesn't require perfect positioning like some of the more complex judo throws, and it puts you directly into positions where I excel - top control with immediate passing pressure. Here's what matters for actually hitting this in competition: first, you need to be comfortable in the standing grip fighting exchange and not be tentative about closing distance. Hesitation kills this throw. Second, the timing window is actually pretty forgiving if you understand weight distribution - you're looking for moments when they step forward or when they're slightly square to you, not when they're already defending backward. In no-gi especially, I use the overhook variation constantly because once you secure that overhook, their defensive options become very limited and you can chain Osoto Gari with other attacks like the front headlock or duck under. The key detail that took my Osoto Gari from decent to competition-reliable was learning to land with immediate crossface pressure and transitioning straight into my passing sequences. Don't just throw them and admire your work - the throw is the entry to your top game, not the finish. I specifically practice landing with my weight already shifting toward their head and my crossface establishing before they can recover guard. This integration between throwing and passing is what makes Osoto Gari so valuable in my system.
 - **Eddie Bravo**: Most BJJ guys learn Osoto Gari in like the first month and then never really develop it because they get obsessed with pulling guard or wrestling-style shots, but this technique is actually incredibly versatile if you think outside the traditional judo box. In the 10th Planet system, we look at Osoto Gari as an entry point to a lot of creative positions, not just a path to standard side control. One of my favorite variations is using the Osoto Gari motion to create a scramble where I can take the back - instead of driving them straight down, I use the reaping motion to off-balance them and then immediately swim for the harness position as they're falling. The chaos of the throw creates excellent back-taking opportunities if you train for it. Another thing people sleep on is the no-gi variation with the overhook combined with a whizzer position - this gives you incredible control and you can chain it with the truck position entries if they try to turn away from the throw. We also drill a sick combination where if they defend the initial Osoto Gari by stepping back, you immediately switch to a single leg attack or a duck under. The key is not thinking about it as a single isolated technique but as part of a flow where you're creating reactions and exploiting them. Train it with that mindset - attack, read the reaction, flow to the next attack - and Osoto Gari becomes an entry to your entire ground game, not just a way to get top position. The traditional judo guys might not approve but in real grappling, you gotta adapt and innovate.

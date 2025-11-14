@@ -8,7 +8,7 @@ description: "Master the Truck transition in BJJ. Step-by-step execution from Tu
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Truck transition in BJJ. Step-by-step execution from Tu
 
 
 
-> **Quick Answer**: Transition to Truck transitions from [[Turtle]] to [[Truck]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+> Transition to Truck transitions from [[Turtle]] to [[Truck]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control the far leg while maintaining pressure on the turtle
 - Create angles by positioning your body perpendicular to opponent
 - Use your leg as a hook to prevent opponent from rolling away
@@ -180,7 +180,7 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in turtle position with head down and hips elevated
 - You have side control or are positioned behind/beside the turtle
 - Access to opponent's far leg (leg furthest from you)
@@ -194,7 +194,7 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish side position**: From turtle, position yourself perpendicular to your opponent's body, chest to their ribs. Establish a cross face or collar tie with your near arm while maintaining tight chest-to-back pressure. Your hips should be lower than theirs to prevent them from sitting back into you. (Timing: Initial control phase - focus on preventing forward movement)
 2. **Secure the far leg**: Reach your far arm under their body and grip their far knee or shin from the inside. This grip is critical - you're controlling the leg that will become trapped in the Truck. Pull this leg slightly toward you while maintaining upper body control to prevent them from sprawling away. (Timing: Coordinate with opponent's weight shift - grab when they're heavy on their hands)
 3. **Insert your leg hook**: Thread your near leg (the leg closest to their hips) under their far leg, inserting your shin behind their thigh. Your foot should emerge on the far side of their body. This creates the fundamental structure of the Truck - your leg becomes a barrier preventing their escape. (Timing: Insert smoothly as you pull their leg with your grip)
@@ -207,7 +207,7 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sits back aggressively, trying to sit into you before you secure the leg** (Effectiveness: High) - Your Response: Abandon the Truck entry and transition to back control with seat belt grip. Use their backward momentum to take their back traditionally. Alternatively, switch to a Crab Ride position if they sit partially.
 - **Opponent stands up explosively before you can triangle your legs** (Effectiveness: Medium) - Your Response: Maintain your grip on their far leg and use it to trip them back down to turtle, or transition to a single leg takedown if they fully stand. Don't release the leg grip until you've reestablished positional control.
 - **Opponent rolls forward into you, attempting to crush your leg hook** (Effectiveness: Medium) - Your Response: Follow their roll and use the momentum to complete the Truck entry from the opposite angle. Your leg position actually improves as they roll. Alternatively, release and take their back as they roll through.
@@ -217,25 +217,25 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to triangle your legs before securing proper control of the far leg
+## Common Mistakes
+- **Mistake**: Attempting to triangle your legs before securing proper control of the far leg
   - **Consequence**: Opponent easily extracts their leg and escapes to half guard or recovers to standing, wasting the entire setup and giving up positional advantage
   - **Correction**: Always establish a solid grip on the far leg first with your reaching arm. Pull it toward you and feel the control before attempting to insert your hook. The grip comes first, then the leg insertion.
-- **Error**: Positioning your body parallel to the opponent instead of perpendicular
+- **Mistake**: Positioning your body parallel to the opponent instead of perpendicular
   - **Consequence**: Cannot create the proper leverage for the Truck, opponent can easily defend by sitting back or rolling, and you lose mechanical advantage for all submissions
   - **Correction**: Maintain a perpendicular angle throughout the transition. Your chest should be against their side ribs, not their back. Think of creating an 'L' or 'T' shape with your bodies.
-- **Error**: Releasing upper body control to focus entirely on the leg triangle
+- **Mistake**: Releasing upper body control to focus entirely on the leg triangle
   - **Consequence**: Opponent can explosively stand up, turn into you, or hand fight to prevent the Truck completion, potentially reversing position entirely
   - **Correction**: Maintain at least one point of upper body control at all times - collar tie, cross face, or shoulder grip. Coordinate upper and lower body control simultaneously rather than sequentially.
-- **Error**: Inserting the wrong leg as the hook (far leg instead of near leg)
+- **Mistake**: Inserting the wrong leg as the hook (far leg instead of near leg)
   - **Consequence**: Creates an awkward configuration that lacks control, allows easy escape, and prevents proper Truck submissions. Your leverage is completely reversed.
   - **Correction**: Always insert your near leg (the one closest to their hips) as the primary hook. The far leg comes over to lock the triangle. Remember: near leg goes under and through, far leg locks on top.
-- **Error**: Failing to adjust body position after locking the triangle, staying flat on your back
+- **Mistake**: Failing to adjust body position after locking the triangle, staying flat on your back
   - **Consequence**: No submission options available, opponent can defend indefinitely, and you cannot generate the proper angles or pressure for Twister or calf slicers
   - **Correction**: After triangling your legs, immediately turn onto your side facing the same direction as your opponent. Your chest should be against their body, creating the proper Truck geometry for attacks.
-- **Error**: Attempting the transition when opponent's weight is already back on their knees
+- **Mistake**: Attempting the transition when opponent's weight is already back on their knees
   - **Consequence**: Opponent can sit back into you or stand up easily since their weight distribution allows quick movement backward, nullifying your entry attempt
   - **Correction**: Time the entry when opponent is heavy on their hands with weight forward. If they're already sitting back, use alternative entries like the Crab Ride or traditional back take instead.
 
@@ -244,7 +244,7 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental mechanics** - Understanding the leg triangle configuration and basic positioning
 Practice the leg triangle lock in isolation with a stationary partner. Focus on proper leg insertion, triangle formation, and maintaining the lock. Partner remains passive in turtle. Drill 20 repetitions per session, alternating sides. Emphasis on understanding which leg goes where and why.
 (Resistance: None)
@@ -275,7 +275,7 @@ Hunt for the Truck entry during regular training rolls. Focus on recognizing tur
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Inside Truck Entry**: Instead of entering from the outside perpendicular position, enter from directly behind the turtle. Thread your leg from between their legs to create the hook. This variation works well when you have back control but opponent is defending their neck well and you want to switch to leg attacks. (When to use: When you're already behind the turtle with some back control established, or when opponent is too defensive against traditional back takes and you need an alternative attack angle.)
 
 **Rolling Truck Entry**: From standing or when opponent is standing from turtle, grip their far leg and roll underneath them while pulling the leg with you. As you complete the roll, lock your triangle in mid-movement. This dynamic entry creates the Truck through momentum rather than static positioning. (When to use: Effective against opponents who constantly stand up from turtle, or as a counter when they sprawl to defend traditional entries. Requires good timing and coordination but is highly effective once mastered.)
@@ -315,7 +315,7 @@ Hunt for the Truck entry during regular training rolls. Focus on recognizing tur
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the Truck transition, ensure controlled execution to avoid knee injuries to both yourself and your training partner. The leg triangle configuration can create significant torque on the knee joint, so apply pressure gradually and release immediately when partner taps. During drilling, communicate clearly about resistance levels to prevent sudden explosive movements that could cause injury during the leg insertion phase. Be particularly careful when rolling or adjusting position while your legs are triangled, as awkward weight distribution can strain your own knee ligaments. Never force the leg triangle if the angle is wrong - reset and try again rather than cranking it into place. Partners in turtle should tap early if they feel knee pressure during the entry to prevent injury before the position is fully established. The transition itself is relatively safe when executed properly, but the subsequent submissions (Twister and calf slicers) require additional safety awareness and should only be practiced with experienced partners who understand the dangers.
 
@@ -323,7 +323,7 @@ When practicing the Truck transition, ensure controlled execution to avoid knee 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Truck transition is a critical component of modern no-gi grappling and the 10th Planet system, serving as a bridge between traditional back attacks and leg-based submissions. Within your overall BJJ game, the Truck provides an alternative path when opponents defend against conventional back takes from turtle. It integrates seamlessly with other turtle attacking sequences - if your traditional back take is defended, you can switch to Truck; if your Truck entry is stuffed, you can return to back control attempts. This creates an attacking loop that's difficult to defend completely. The Truck also connects your top game to your leg lock system, as successful entries open up the entire lower body submission network including heel hooks, toe holds, and various knee attacks depending on your ruleset. For competitors, the Truck is particularly valuable because many opponents are not well-versed in defending it compared to more common positions, creating knowledge gaps you can exploit. The position also serves as an excellent entry point for learning the biomechanics of leg entanglements, as the leg triangle in Truck shares similarities with configurations in other positions like the Saddle and various Ashi Garami positions. Understanding the Truck improves your overall positional awareness and submission chaining abilities across your entire game.
 
@@ -331,7 +331,7 @@ The Truck transition is a critical component of modern no-gi grappling and the 1
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Truck]] - End position - the target position you're transitioning to
 - [[Turtle]] - Starting position - where the transition begins
@@ -351,7 +351,7 @@ The Truck transition is a critical component of modern no-gi grappling and the 1
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Truck transition represents a fascinating biomechanical puzzle that exploits the structural vulnerabilities inherent in the turtle position. What makes this transition scientifically sound is the leverage principle it employs - by creating a perpendicular angle to your opponent's spine while controlling their leg with a triangle configuration, you've essentially created a system where their defensive options all lead to submission opportunities. The genius lies in the geometry: the leg triangle functions as a fixed point around which you can rotate and generate torque, similar to how a wrench applies rotational force around a bolt. From a systematic perspective, the Truck entry should be viewed not as an isolated technique but as part of a decision tree - when opponent defends option A (traditional back take), you transition to option B (Truck entry), and both paths lead to dominant positions. The key technical detail most practitioners miss is the importance of the far leg grip before inserting your hook. This grip serves as your anchor point and prevents all explosive escape attempts. Without it, you're attempting to build a structure without a foundation. The transition also demonstrates the principle of connection - you're never floating or disconnected from your opponent during the entry sequence. Every movement maintains at least two points of control, which is fundamental to high-percentage grappling. When teaching this, I emphasize that the Truck is not just a position but a problem-solving framework for the turtle situation.
 - **Gordon Ryan**: In competition, the Truck transition is one of my highest-percentage moves from turtle because most people simply don't train it enough to defend it properly. Here's what makes it work at the elite level: timing and commitment. You cannot hesitate during the entry - once you grip that far leg, you need to immediately insert your hook and lock the triangle before they process what's happening. I look for the Truck specifically when opponents are defending my back take attempts too well. If someone's really good at preventing the seat belt grip or clearing hooks, the Truck gives me a completely different attack angle that bypasses their entire defensive system. They've trained thousands of hours defending back attacks, but maybe only a few hours defending Truck entries. That's an exploitable gap. The transition also works beautifully in no-gi because there are no grips to slow you down - it's purely positional, which is my preference. One critical detail I've learned through trial and error: you must keep your hips lower than theirs throughout the entry. If your hips rise above theirs, they can sit back into you and nullify everything. Stay low, stay tight, and don't give them space. From Truck, I have immediate access to calf slicers and the Twister, plus I can always transition to traditional back control if needed. It's the ultimate position for creating submission dilemmas in high-level matches. When I hit this transition cleanly, the match is essentially over - they're in a position they don't understand while I'm in a position I've finished people from hundreds of times.
 - **Eddie Bravo**: The Truck transition is the gateway drug to the entire Twister system, man. This is where it all starts. What I love about this entry is that it completely flips the script on traditional BJJ - instead of chasing the back with hooks like everyone expects, you're going for their legs from a back attack position. It's that unorthodox approach that makes 10th Planet effective. The transition works because it violates people's expectations and attacks a leg when they're defending their upper body. When I developed this sequence, I was thinking about how to create offensive opportunities from positions where people normally just stall or go for basic submissions. The turtle position in traditional BJJ is often a stalemate - top guy tries for the back, bottom guy defends and looks to re-guard. The Truck changes that completely by adding leg attacks to the equation. Now the bottom guy has to defend both areas simultaneously, which is almost impossible if the top guy knows what they're doing. The key innovation here is using the leg triangle like a lockdown but on a single leg while maintaining back attack positioning. It's the same concept as the lockdown from half guard but applied in a completely different context. That's how you innovate - take principles that work in one area and apply them somewhere unexpected. For no-gi especially, this transition is absolutely essential because you don't have gi grips to slow people down or control them. The Truck gives you that same level of control through pure positioning and leg entanglement. Once you understand this transition, you'll see Truck opportunities everywhere - failed guard pulls, scrambles, turtle positions, even from standing positions. It's not just a technique; it's a whole new way of thinking about back attacks and leg attacks as one integrated system.

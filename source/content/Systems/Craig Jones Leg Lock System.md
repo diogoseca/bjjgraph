@@ -151,7 +151,7 @@ description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg att
 
 
 
-> **Quick Answer**: Craig Jones Leg Lock System is a advanced difficulty Attack System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
+> Craig Jones Leg Lock System is a advanced difficulty Attack System system. Integrates 6 components.
 
 **System ID**: 
 **System Type**: Attack System
@@ -170,7 +170,7 @@ The Craig Jones Leg Lock System represents a modern, competition-tested approach
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Control before submission - establish dominant leg entanglement positions before attempting finishes
 - Dual-threat attacks - simultaneously threaten multiple legs to create defensive dilemmas
 - Hip-to-hip connection - maintain constant hip pressure to prevent opponent's defensive adjustments
@@ -184,7 +184,7 @@ The Craig Jones Leg Lock System represents a modern, competition-tested approach
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Saddle Position Entry System** (Establish primary control platform for finishing sequences)
 Systematic pathways to achieve inside sankaku leg configuration from various guard positions, utilizing both direct entries from seated guard and transitional sequences from cross ashi-garami. Emphasizes controlling opponent's far leg while securing deep inside position on near leg, creating immediate submission threats while preventing common defensive hip escape movements.
 
@@ -209,7 +209,7 @@ Specialized seated guard position optimized for leg lock entries, featuring cros
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundational Control Development**: Master basic leg entanglement positions starting with outside ashi-garami and cross ashi-garami configurations. Develop sensitivity to opponent's leg position, hip alignment, and weight distribution. Practice maintaining hip-to-hip connection while opponent attempts basic escape sequences.
 Key points:
 - Establish comfort holding leg entanglement positions for extended periods
@@ -397,7 +397,7 @@ The Craig Jones Leg Lock System requires structured drilling progression startin
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The systematic framework underlying Craig Jones's leg lock approach demonstrates sophisticated understanding of positional hierarchy within lower body entanglements. The emphasis on saddle position as primary control platform reflects proper recognition that submission success derives from dominant positional control rather than opportunistic attacks. The dual-threat methodology of simultaneously attacking near and far legs represents advanced application of dilemma creation principles - forcing opponent into impossible defensive choices where protecting one leg necessarily exposes the other. Jones's integration of 50-50 management protocols addresses the primary strategic weakness in many leg lock systems: symmetrical stalemates that result in referee intervention. The systematic progression from cross ashi-garami to saddle position mirrors the positional advancement principles found in traditional top game systems, creating legitimate pathway to superior control before attempting finishes. This represents mature evolution of leg lock methodology from chaotic scrambling to systematic position-based submission hunting that parallels upper body attack frameworks in strategic sophistication and technical reliability.
 - **Gordon Ryan**: Craig Jones's leg lock system proved itself at highest levels of competition when systematic approaches to lower body attacks were still developing. The focus on saddle position as non-negotiable control requirement separates this system from earlier opportunistic leg lock approaches that relied on explosive timing and athletic advantages. In competition, the ability to maintain saddle position for extended periods while pursuing submission creates psychological pressure that forces opponent errors - they know the finish is inevitable without perfect defensive execution. The 50-50 management protocols are essential for modern no-gi competition where referees quickly standup stalled positions. Jones's systematic grip fighting sequences to break 50-50 symmetry provide competitive advantage in situations where many athletes simply stall hoping for restart. The integration with single leg x-guard creates seamless offensive system where sweep threats and submission attacks complement each other, preventing opponent from establishing defensive specialization. Against elite competition, the dual-threat framework of attacking both legs prevents common defensive strategy of simply protecting heel hook side - opponents must defend entire lower body simultaneously, creating openings for systematic finishers.
 - **Eddie Bravo**: Craig Jones brought competition-tested innovation to leg lock game that bridged gap between pure grappling systems and MMA-applicable techniques. The k-guard entry sequences represent creative adaptation of seated guard concepts specifically optimized for leg attack initiation rather than traditional sweep mechanics. His approach to 50-50 position management introduced systematic solutions to what many considered hopeless stalemate position - using active hip movement and asymmetrical grip configurations to create submission opportunities from supposedly neutral situations. The integration of backside 50-50 as backup position when primary saddle attacks defended demonstrates sophisticated positional awareness and systematic backup planning that prevents opponent from simply defending their way to safety. Jones's emphasis on maintaining offensive pressure throughout leg entanglement exchanges reflects modern competition reality where passivity results in penalties and standups. The system's compatibility with no-gi environments while maintaining technical sophistication proves that systematic approaches work across rule sets when properly adapted. His contribution to modern leg lock evolution involves making these positions accessible to broader practitioner base through systematic teaching methodology rather than treating them as specialized techniques requiring unique athletic attributes.

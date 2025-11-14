@@ -8,7 +8,7 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 
 
 
-> **Quick Answer**: North-South Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> North-South Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="safety-considerations" class="content-section">
 
-## Is North-South Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -210,7 +210,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Use shoulder and chest pressure rather than arm strength to compress the neck
 - Control the far arm to prevent defensive framing and maintain position
 - Create a tight seal around the neck by pulling opponent's head into your torso
@@ -224,7 +224,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure North-South position with chest-to-chest control and weight distribution
 - Isolate opponent's far arm by controlling it with your hand or trapping it with your leg
 - Position your body perpendicular to opponent with your head near their hip
@@ -238,7 +238,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure North-South position and isolate far arm**: From North-South control, use your weight to pin opponent's chest while controlling their far arm with your hand or trapping it under your leg. This prevents them from creating defensive frames. Your chest should be heavy on their sternum, making it difficult for them to breathe or move. Ensure your hips are low and your weight is distributed forward, not sitting back on your heels. (Timing: 2-3 seconds to establish control) [Pressure: Firm]
 2. **Thread your near arm under opponent's head**: Slide your arm (the one closest to their head) deep under their neck, aiming to get your bicep positioned against one side of their neck. Your hand should emerge on the far side of their head. Keep your elbow tight and your arm bent at approximately 90 degrees. The goal is to position your bicep as a compression surface against the carotid artery on one side of their neck. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Secure grip on your own gi or create figure-four configuration**: In gi: grab your own lapel, belt, or pants on the same side your arm is threaded (creating a loop). In no-gi: grab your own tricep, shoulder, or create a gable grip with your hands meeting behind their head. This grip creates the structural frame that will allow you to apply leverage. Ensure the grip is tight and secure before proceeding—any looseness will telegraph the submission and allow escape attempts. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -251,7 +251,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Bridge explosively to create space and disrupt attacker's base** (Effectiveness: Medium) - Your Adjustment: Keep your weight forward and hips low; widen your base with your knees; use your free hand to post and maintain balance; continue driving shoulder pressure downward through the bridge attempt. If they succeed in bridging, follow their movement and reestablish position rather than fighting against their momentum.
 - **Frame against attacker's hips or torso with near arm to create distance** (Effectiveness: High) - Your Adjustment: This is why controlling the near arm in setup is critical. If they establish a frame, use your free hand to strip the frame by controlling their wrist and pulling it across their body. Alternatively, shift your weight further toward their head to collapse the frame's effectiveness. Once the frame is broken, immediately secure the choke before they can re-establish it.
 - **Turn into attacker to escape toward their legs and recover guard** (Effectiveness: Medium) - Your Adjustment: Feel for the turning motion early. When they start to turn, sprawl your legs back and walk your body in the direction they're turning, maintaining chest-to-chest contact. Use your underhook on their near arm to prevent the full rotation. If already committed to the choke, finish quickly as their turning motion often tightens the choke inadvertently.
@@ -261,28 +261,28 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Positioning body too far toward opponent's legs rather than toward their head [Low DANGER]
+## Common Mistakes
+- **Mistake**: Positioning body too far toward opponent's legs rather than toward their head [Low DANGER]
   - **Consequence**: Reduces shoulder pressure on the neck and allows opponent to create frames and escape. The angle becomes too shallow for effective compression.
   - **Correction**: Walk your body toward opponent's head until your shoulder is directly over the side of their neck. Your head should end up near their far hip, creating approximately a 75-degree angle between your body and theirs. This positions your shoulder as an effective compression surface.
-- **Error**: Applying explosive or jerking pressure to finish the choke quickly [CRITICAL DANGER]
+- **Mistake**: Applying explosive or jerking pressure to finish the choke quickly [CRITICAL DANGER]
   - **Consequence**: Risk of tracheal damage and neck injury. Prevents partner from recognizing and tapping to the submission in time.
   - **Correction**: Apply progressive, steady pressure over 3-5 seconds minimum. The choke should feel like a gradually tightening vise, not a sudden squeeze. Focus on positional pressure and structural integrity rather than explosive force. Always prioritize partner safety over speed of finish.
-- **Error**: Failing to control opponent's near arm before attempting the choke [Medium DANGER]
+- **Mistake**: Failing to control opponent's near arm before attempting the choke [Medium DANGER]
   - **Consequence**: Opponent creates strong frames against your hips or shoulders, pushing you away and escaping the position entirely before the choke can be secured.
   - **Correction**: Before threading your arm under their neck, secure control of their near arm with an underhook, wrist control, or by trapping it with your leg. This removes their primary defensive tool and allows you to commit to the choke safely.
-- **Error**: Gripping too loosely on your own gi or body, creating a weak structural frame [Low DANGER]
+- **Mistake**: Gripping too loosely on your own gi or body, creating a weak structural frame [Low DANGER]
   - **Consequence**: The choke has no leverage because the compression surfaces (bicep and shoulder) can't generate adequate pressure. Opponent can easily turn or bridge out of the loose configuration.
   - **Correction**: Lock your grip tightly—whether gripping your own gi, grabbing your tricep, or using a gable grip. The tighter your grip, the more solid your structural frame. Think of your arms and shoulders as creating a rigid C-clamp around their neck, not a loose loop.
-- **Error**: Sitting back on heels with hips high, reducing forward pressure [Medium DANGER]
+- **Mistake**: Sitting back on heels with hips high, reducing forward pressure [Medium DANGER]
   - **Consequence**: Opponent can easily bridge and roll you over, escaping the position. Your weight is no longer pinning them down, and the choke loses its compression effectiveness.
   - **Correction**: Keep your hips low and weight forward throughout the submission. Drive your chest into their upper body and maintain a sprawled-out base with your legs. Your weight should pin them to the mat while your arms create the choke—the two work together synergistically.
-- **Error**: Continuing to apply pressure after partner taps or goes limp [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or goes limp [CRITICAL DANGER]
   - **Consequence**: Severe risk of loss of consciousness, potential brain injury from prolonged oxygen deprivation, and catastrophic damage to the cervical spine if partner convulses or moves involuntarily during unconsciousness.
   - **Correction**: Develop heightened awareness of all tap signals. Watch for hand taps, foot taps, verbal taps, and any loss of resistance. Release immediately and completely at the first sign of submission. In training, err on the side of caution—if you're unsure whether they tapped, release and ask. Partner safety always takes absolute priority over finishing the technique.
-- **Error**: Attempting the choke without properly threading arm deep under opponent's neck [High DANGER]
+- **Mistake**: Attempting the choke without properly threading arm deep under opponent's neck [High DANGER]
   - **Consequence**: Choke becomes a neck crank or jaw crush rather than a blood choke. Causes pain without effectively cutting off blood flow, and creates risk of jaw injury or cervical spine stress.
   - **Correction**: Ensure your entire bicep is positioned under their neck with your elbow on the far side. Your bicep should contact the side of their neck, not their jaw or face. Take time to properly position your arm before committing your weight—a correctly positioned choke works with less pressure and is safer for your partner.
 
@@ -291,7 +291,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Gi-Based North-South Choke with Lapel Grip**: Instead of gripping your own gi, thread your arm under opponent's neck and grab their far lapel with a deep grip. Pull the lapel tight across their near-side carotid while your shoulder compresses the far side. This creates even tighter compression than the standard variation and is extremely difficult to defend once established. (When to use: In gi competition or training when opponent has a thick, accessible lapel. Particularly effective against opponents who defend the standard version by controlling your grip hand, as the lapel provides a different grip structure that's harder to strip.)
 
 **Reverse North-South Choke (Facing Opponent's Legs)**: From North-South with your head toward opponent's legs rather than their head, thread your near arm under their neck from the opposite direction. Your shoulder still provides pressure on one side while your arm creates compression on the other. This variation often surprises opponents who are defending the standard North-South choke direction. (When to use: When opponent is defending the standard North-South choke setup or when you find yourself in North-South facing their legs after a scramble. Also effective as a counter when opponent attempts to turn into you from standard North-South position—their turn actually helps you establish this reversed variation.)
@@ -332,7 +332,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Positional Drilling** (1-2 weeks)
 - Focus: Learn North-South position control, arm threading mechanics, and grip configurations without applying any choking pressure. Practice the movement patterns of transitioning to North-South and establishing the choke structure repeatedly.
 - Resistance: Zero resistance
@@ -369,7 +369,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[North-South]]
 - [[North South Control]]
@@ -386,7 +386,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura from North-South]]
@@ -428,7 +428,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The North-South Choke exemplifies the principle of using superior body positioning to create mechanical advantage that overwhelms defensive capacity. Unlike chokes that depend on speed or surprising your opponent, this submission succeeds through systematic control and structural integrity. The key insight is that the choking mechanism operates independently of your opponent's chin position—a profound advantage that renders many common defensive reactions irrelevant. When teaching this technique, I emphasize that students must understand the geometry: your body creates a compression angle that targets the lateral aspect of the neck, not the anterior surface. This means proper shoulder positioning is absolutely critical—if your shoulder is even slightly off-angle, the choke degrades into a pain-based neck crank rather than an efficient blood choke. The systematic approach requires first establishing dominant North-South control with proper weight distribution, then isolating the near arm to eliminate framing capacity, and only then committing to the choke structure. Each step is necessary; skipping any element significantly reduces success probability. From a safety perspective, practitioners must internalize that progressive pressure application is not merely recommended—it is mandatory. The blood choke nature of this submission means unconsciousness can occur rapidly, so partner awareness and controlled application represent fundamental technical requirements, not optional courtesies.
 - **Gordon Ryan**: In competition, the North-South Choke is an absolute killer precisely because most opponents don't recognize they're being choked until it's too late. Unlike a rear-naked choke where your arm position is obvious, the North-South choke disguises itself as positional pressure. I've finished this in major competitions where my opponent was defending what they thought was just a pin, then suddenly they're tapping. The trick is to make your initial setup look like you're consolidating North-South control for points or transitions—your arm threads under the neck casually, almost like you're just adjusting position. By the time they realize it's a choke setup, your structure is locked in and they're already defensive. In competition, I'll apply this much faster than in training—maybe two seconds once the structure is set—but that's only appropriate in high-level matches where both athletes understand the risks. What separates this choke at high levels is combining it with legitimate transition threats. If your opponent knows you only hunt the North-South choke, they'll defend it specifically. But if they're worried about you transitioning to mount, taking the back, or switching to Kimura, they can't allocate full defensive attention to the choke. I'll often fake a transition to mount, and when they react to prevent it, the choke is suddenly there. The distinction between training and competition application is critical: in the gym, always apply progressive pressure over 3-5 seconds minimum because your training partners are what allow you to develop this weapon. In competition, once your structure is set, apply it decisively but always watch for the tap—ego should never prevent immediate release.
 - **Eddie Bravo**: The North-South Choke is one of those techniques that looks so simple people underestimate how lethal it is, but once you understand the mechanics, it becomes this beautiful trap that just shuts people down. What I love about it is that it doesn't rely on explosive athleticism or complex sequences—it's pure positional pressure and geometry working together. In 10th Planet system, we emphasize creativity and innovation, but sometimes the fundamentals are so effective they don't need modification. That said, we do teach some interesting setups from unconventional positions, like hitting the North-South choke after transitioning from Truck position or when opponent is defending Twister attempts. The innovation comes in how you get there, not necessarily the finishing mechanics. One thing I always stress is the importance of training this slowly and building that safety culture in your gym. I've trained with some dangerous grapplers over the years, and the ones I trust most are the ones who demonstrate control and awareness during submissions. You can be an absolute killer on the mats and still be someone people want to train with—that balance comes from respecting your training partners' safety while still developing fight-ending technique. The North-South choke teaches that lesson perfectly: it's effective precisely because you can apply it with control and precision rather than wild aggression. When you train it right, you develop this pressure-based attack that works in both gi and no-gi, both in the gym and in competition, and your partners trust you because they know you'll release the instant they tap. That trust is what builds a strong training culture where everyone gets better together without unnecessary injuries.

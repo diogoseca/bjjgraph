@@ -13,10 +13,6 @@ description: "Master closed guard in BJJ. Strategic guide covering both perspect
 
 
 
-> **Quick Overview**: Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,31 +54,19 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Defensive with offensive options |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium to Long | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Defensive with offensive options |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium to Long | Medium |
 
-**What Makes This Position Unique:** Bottom offensive despite being underneath
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Closed Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Closed Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Bottom offensive despite being underneath
 
 
 
@@ -90,10 +74,13 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 <section id="bottom-summary" class="content-section">
 
-## Closed Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Closed Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in closed guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -149,7 +136,7 @@ The bottom player in closed guard balances defensive frames with offensive oppor
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Keeping flat, square position without creating angles or off-balancing opponent through hip movement**
@@ -177,16 +164,17 @@ The bottom player in closed guard balances defensive frames with offensive oppor
   - ✅ Correction: Maintain active leg pressure with heels constantly pulling into lower back while knees squeeze ribs. Legs should be dynamic tools for control and off-balancing, not passive barriers waiting for opponent's initiative.
 
 
-👉 **[[Closed Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Closed Guard Top Perspective
+
+## Playing as Top
+
+[[Closed Guard/Top|→ Full Top Guide]]
 
 
-The top player in closed guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -236,7 +224,7 @@ The top player in closed guard manages the position strategically based on oppon
   - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Poor posture maintenance - allowing spine to round and head to drop below hip level creating structural weakness**
@@ -271,8 +259,6 @@ The top player in closed guard manages the position strategically based on oppon
   - Consequence: Results in opponent maintaining closed guard while you expose yourself to counters during passing attempts without creating actual passing opportunity
   - ✅ Correction: Ensure guard is completely opened before initiating passing sequences - confirm ankles are unlocked and legs cannot re-close before committing to pass
 
-
-👉 **[[Closed Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

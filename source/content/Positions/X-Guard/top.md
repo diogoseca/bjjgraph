@@ -8,7 +8,7 @@ description: "Master X-Guard Top in BJJ. Control opponent's inverted guard with 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master X-Guard Top in BJJ. Control opponent's inverted guard with 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master X-Guard Top in BJJ. Control opponent's inverted guard with 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50%.
 
 ---
 
@@ -187,7 +187,7 @@ X-Guard Top represents the top player's position when facing an opponent in X-Gu
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains upright or forward-leaning posture with base on at least one leg
 - Bottom player has established X-Guard structure with one leg hooking behind top player's knee
@@ -200,7 +200,7 @@ X-Guard Top represents the top player's position when facing an opponent in X-Gu
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has successfully established X-Guard bottom position with hook behind knee
 - Top player has maintained standing or combat base posture rather than being swept
@@ -228,7 +228,7 @@ X-Guard Top represents the top player's position when facing an opponent in X-Gu
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Smash Pass]] → [[Side Control]]
 
@@ -292,7 +292,7 @@ X-Guard Top represents the top player's position when facing an opponent in X-Gu
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[X-Guard Sweep]]** → [[Mount]] (Opponent Success: 45%)
 - **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Opponent Success: 40%)
@@ -305,7 +305,7 @@ X-Guard Top represents the top player's position when facing an opponent in X-Gu
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Saddle Entry from Top]]** → [[Honey Hole]]
   - Opponent attempts to invert deeper or transition to Ashi Garami
@@ -347,7 +347,7 @@ X-Guard Top represents the top player's position when facing an opponent in X-Gu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

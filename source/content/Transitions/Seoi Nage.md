@@ -8,7 +8,7 @@ description: "Master Seoi Nage shoulder throw in BJJ. Step-by-step execution fro
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Seoi Nage shoulder throw in BJJ. Step-by-step execution fro
 
 
 
-> **Quick Answer**: Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ The beauty of Seoi Nage lies in its versatility and adaptability across differen
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Lower your center of gravity below opponent's hips before initiating the turn
 - Control opponent's sleeve and collar (gi) or wrist and upper arm (no-gi) throughout the technique
 - Generate explosive hip rotation while maintaining contact with opponent's body
@@ -190,7 +190,7 @@ The beauty of Seoi Nage lies in its versatility and adaptability across differen
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish strong grip control on opponent's sleeve and collar (gi) or equivalent control points (no-gi)
 - Position yourself within proper throwing distance—close enough to load opponent but not so close that you're off-balance
 - Opponent must have some forward pressure or committed weight distribution
@@ -203,7 +203,7 @@ The beauty of Seoi Nage lies in its versatility and adaptability across differen
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips**: In gi, secure a standard sleeve and collar grip with your right hand controlling their left sleeve and left hand on their right collar. In no-gi, control their left wrist with your right hand and overhook or control their right tricep with your left hand. Pull opponent slightly forward to create forward momentum and test their balance. (Timing: Initial setup phase, no time pressure)
 2. **Step in and drop level**: Step your right foot deeply across and in front of your opponent's right foot, positioning it between their legs or just outside their right foot. Simultaneously drop your hips significantly lower than your opponent's hip line—this is critical for proper loading. Your knees should bend substantially as you lower your center of gravity. (Timing: Explosive entry, approximately 0.5 seconds)
 3. **Turn and load opponent**: Rotate your hips counterclockwise (for right-handed Seoi Nage) while pulling strongly with both grips to load your opponent onto your back. Your left foot pivots to face the direction you want to throw. Your hips and shoulders should be completely turned perpendicular to your opponent's front, with your back making contact with their chest and abdomen. (Timing: Simultaneous with step 2, complete rotation within 1 second)
@@ -217,7 +217,7 @@ The beauty of Seoi Nage lies in its versatility and adaptability across differen
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls backward and pulls their hips away** (Effectiveness: High) - Your Response: Switch to a different technique such as Tai Otoshi or transition to an upper body throw like Uchi Mata. If committed to Seoi Nage, drop even lower and use your legs to sweep their feet as you rotate.
 - **Opponent posts their hand on your hip or side to prevent the turn** (Effectiveness: Medium) - Your Response: Use their posted arm as an opportunity to switch to an armbar or kimura attack. Alternatively, reverse your rotation direction and attack with a reverse Seoi Nage or wheel throw.
 - **Opponent steps around your entry and takes your back** (Effectiveness: High) - Your Response: Immediately sit to guard or execute a rolling kimura to prevent back exposure. The key is recognizing the counter early—if you feel them circling behind you, abort the throw and change levels.
@@ -227,28 +227,28 @@ The beauty of Seoi Nage lies in its versatility and adaptability across differen
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Failing to drop level low enough before initiating the turn
+## Common Mistakes
+- **Mistake**: Failing to drop level low enough before initiating the turn
   - **Consequence**: You cannot load opponent's weight onto your back, resulting in a weak or failed throw that leaves you vulnerable to counters or back takes
   - **Correction**: Emphasize deep knee bend in your entry step. Your hips should be noticeably lower than opponent's hip line. Practice the entry motion separately to develop muscle memory for proper depth.
-- **Error**: Releasing grips too early during the throw
+- **Mistake**: Releasing grips too early during the throw
   - **Consequence**: Loss of control over opponent's rotation and landing, preventing you from establishing top position and potentially allowing them to land in guard or neutral position
   - **Correction**: Maintain tight grip throughout the entire technique until you've established your top position. The grips guide the opponent's body through the rotation and ensure you land advantageously.
-- **Error**: Stepping too far away or too close to opponent during entry
+- **Mistake**: Stepping too far away or too close to opponent during entry
   - **Consequence**: Improper distance prevents effective loading—too far and you can't reach them, too close and you're off-balance and easily countered
   - **Correction**: Practice entry footwork repeatedly at varying distances. The proper distance allows your back to make full contact with their torso while your feet are positioned for stable base and rotation.
-- **Error**: Incomplete hip rotation or hesitating mid-throw
+- **Mistake**: Incomplete hip rotation or hesitating mid-throw
   - **Consequence**: Partial rotation leaves you in vulnerable positions where opponent can counter, escape, or take your back. Half-committed throws rarely succeed and often result in you being scored upon
   - **Correction**: Commit fully once you initiate the technique. Mental hesitation is the enemy of throwing techniques. Practice with compliant partners first to build confidence in the complete motion.
-- **Error**: Failing to pull opponent forward before the turn
+- **Mistake**: Failing to pull opponent forward before the turn
   - **Consequence**: Attempting to throw opponent from a neutral or backward-leaning position requires excessive strength and typically fails, leaving you exposed in a bent-over position
   - **Correction**: Create forward momentum first through grip manipulation and footwork. Your opponent should feel slightly off-balance forward before you enter for the throw. Use feints and grip fighting to generate this reaction.
-- **Error**: Not following through to top position after the throw
+- **Mistake**: Not following through to top position after the throw
   - **Consequence**: Successfully throwing opponent but failing to establish control means losing the positional and psychological advantage, potentially allowing them to recover guard or scramble to neutral
   - **Correction**: The throw is incomplete until you've secured top position. Practice the complete sequence including the landing and position consolidation. Never admire your throw—immediately advance position.
-- **Error**: Turning your head away from opponent during rotation
+- **Mistake**: Turning your head away from opponent during rotation
   - **Consequence**: Loss of spatial awareness and balance, often resulting in you landing awkwardly or losing track of opponent's position for follow-up attacks
   - **Correction**: Keep your head turned toward opponent throughout the technique. Your head position affects your balance and allows you to track their body through the throw.
 
@@ -257,7 +257,7 @@ The beauty of Seoi Nage lies in its versatility and adaptability across differen
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Entry Mechanics** - Perfect the entry step and level change without the throw
 Practice stepping in, dropping your level, and turning your hips without actually throwing your partner. Focus on getting your hips lower than theirs and achieving full rotation. Partner should remain standing and provide light resistance. Repeat 20-30 entries per session, emphasizing proper depth and hip placement.
 (Resistance: None)
@@ -288,7 +288,7 @@ Use Seoi Nage during positional sparring starting from standing, then progress t
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Ippon Seoi Nage (One-Arm Shoulder Throw)**: Instead of controlling the sleeve, you control only the collar/upper body and use your throwing arm to hook under their armpit. This creates a deeper, more secure grip that's harder to escape but requires closer range. (When to use: Use when opponent is defending their sleeves aggressively or in no-gi situations where you have a strong overhook. More commonly seen in Judo competition.)
 
 **Morote Seoi Nage (Two-Hand Shoulder Throw)**: Both hands control the same side—typically two hands on one arm or sleeve. This creates maximum control over that limb but gives up control of their other side. (When to use: Effective against opponents who post or defend with one arm consistently. Common in no-gi where you might grab wrist and elbow of the same arm.)
@@ -330,7 +330,7 @@ Use Seoi Nage during positional sparring starting from standing, then progress t
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Seoi Nage must be practiced with significant safety awareness due to the dynamic nature of the throw and the potential for impact-related injuries. When learning this technique, always work with a cooperative partner on proper mats designed for throwing. The person being thrown should practice proper ukemi (breakfall techniques) to safely absorb the impact—this includes tucking the chin, slapping the mat with the arm, and rolling through the momentum rather than landing flat. Never practice this technique at full speed or power until both partners have developed proper mechanics and breakfall skills. For the person executing the throw, be aware that incomplete or poorly executed attempts can result in you landing awkwardly or being countered into bad positions. Pay special attention to mat boundaries and obstacles—throwing someone near the edge of the mat or into walls/equipment can cause serious injury. In competition, be prepared to adjust your follow-through if your opponent doesn't land cleanly to avoid landing with your full weight on their neck or head. During training progressions, always use controlled speed and have your partner signal if they feel unsafe at any point. Proper warm-up is essential as the explosive rotation and level change required can strain muscles and joints if performed cold.
 
@@ -338,7 +338,7 @@ Seoi Nage must be practiced with significant safety awareness due to the dynamic
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Seoi Nage occupies a unique position in the BJJ technical ecosystem as one of the primary standing-to-ground transitions that bypasses the guard entirely. Unlike guard pulls or shots that may result in neutral or defensive positions, a successful Seoi Nage delivers you directly into dominant top positions such as side control, mount, or knee-on-belly. This makes it particularly valuable in competition scenarios where takedown points and immediate positional dominance can determine match outcomes. The technique integrates into broader standing game strategy as both a primary attack and a secondary option within combination sequences. For example, you might feint a single leg to draw a defensive reaction, then switch to Seoi Nage when they sprawl and commit their weight forward. Or you might use Seoi Nage as your primary attack with leg-based takedowns as backup options if the throw is defended. The grip fighting and clinch work required to set up Seoi Nage also develops fundamental standing grappling skills that support your entire takedown game. In terms of position hierarchy, Seoi Nage represents one of the most efficient paths from standing to advanced top positions, making it worth the investment to develop reliable execution. The technique also has natural connections to submission systems—landing in side control from a throw often leaves your opponent winded and defensive, creating immediate submission opportunities like kimuras, americanas, or arm triangles.
 
@@ -346,7 +346,7 @@ Seoi Nage occupies a unique position in the BJJ technical ecosystem as one of th
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Ippon Seoi Nage]] - Primary variation with deeper underarm control
 - [[Morote Seoi Nage]] - Two-handed variation for maximum control of one side
@@ -366,7 +366,7 @@ Seoi Nage occupies a unique position in the BJJ technical ecosystem as one of th
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The mechanical efficiency of Seoi Nage lies in its exploitation of rotational physics and leverage principles that have been refined over centuries of Judo competition. When we analyze the throw biomechanically, we see that you're essentially creating a first-class lever system where your hips and shoulders serve as the fulcrum, your opponent's upper body acts as the load, and your leg drive provides the effort force. The critical insight is that your center of gravity must be positioned lower than your opponent's before rotation begins—this isn't merely helpful, it's geometrically necessary for the throw to function. What makes Seoi Nage particularly valuable in BJJ contexts is that unlike many Judo techniques that aim simply to score with the throw, our version must emphasize the transition to ground control. This means maintaining grip integrity throughout the rotation and consciously directing your momentum to land in side control or mount rather than allowing randomness in the landing. The entry mechanics reward precision over athleticism—a smaller practitioner with superior technical execution will consistently defeat a larger opponent attempting to muscle the throw. Study the angle of your entry step carefully; it should bisect the line between your opponent's feet while your hips rotate fully perpendicular. This geometric relationship creates the optimal loading angle. Finally, understand that Seoi Nage exists within a system of standing attacks—it's most effective when your opponent must defend multiple threat types, making their defensive choices binary and thus exploitable.
 - **Gordon Ryan**: In competition, Seoi Nage gives you everything you want from a takedown—points for the throw, immediate top position, and a psychologically shaken opponent who just got slammed. I've used variations of this throw effectively against world-class opponents because when it works, it completely changes the match dynamic. The key is developing the grip fighting and setup game to create throwing opportunities rather than forcing the throw from neutral. I typically use Seoi Nage as part of a broader standing strategy where I'm threatening leg attacks, upper body throws, and guard pulls—this makes opponents hesitant and creates the forward pressure I need. One thing I've learned is that modern BJJ athletes are often weak in defending traditional Judo-style throws because they spend most of their time training guard work and ground positions. This is your advantage—invest time in getting really good at one or two throws like Seoi Nage and you'll surprise high-level competitors who aren't prepared for explosive throwing attacks. The transition to top position after the throw is where you can really capitalize—don't just throw and disengage, immediately attack for submissions or advance to mount while they're still recovering. In no-gi especially, the Seoi Nage with wrist and tricep control has become one of my highest percentage standing attacks because people don't expect it and the entry is fast enough to beat most defensive reactions. Practice it until the entry is instinctive and you can execute without thinking—that's when it becomes truly dangerous in competition.
 - **Eddie Bravo**: What's beautiful about Seoi Nage is that it's this traditional Judo throw but you can completely reimagine it for modern no-gi grappling and make it your own. At 10th Planet we've experimented with all kinds of variations—using the throw to set up back takes, using it from weird angles when you're scrambling, even combining it with our lockdown system if the throw doesn't complete and you end up in a scramble position. The thing people don't realize is that the threat of the throw is sometimes more valuable than the throw itself. If you're known for hitting hard Seoi Nage, opponents will defend it by pulling their weight back, which opens up all your guard pulls and sitting to butterfly. It's the same principle we use with everything—create dilemmas where every defensive choice leads to a different problem. I've also had students develop some crazy Seoi Nage entries from clinch positions that most Judo guys would never try—like hitting it when you're already partially on bottom during a scramble, or using a reverse rotation to completely change the angle. Don't get stuck thinking it has to look like textbook Judo—if you can load their weight onto your back and rotate them over, you're doing Seoi Nage even if the setup is unconventional. The no-gi version is especially useful because wrist control is already central to our hand-fighting game, so adding a throw option from those grips multiplies your standing attack system. Just make sure you're committing fully when you go for it—half-assed throws in competition will get you countered hard. Either hit it explosively and with confidence or don't throw at all.

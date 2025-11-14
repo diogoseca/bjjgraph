@@ -8,7 +8,7 @@ description: "Master Shin Shield Recovery in BJJ. Essential defensive framing fr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Shin Shield Recovery in BJJ. Essential defensive framing fr
 
 
 
-> **Quick Answer**: Shin Shield Recovery transitions from [[Half Guard]] to [[Knee Shield Half Guard]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+> Shin Shield Recovery transitions from [[Half Guard]] to [[Knee Shield Half Guard]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create maximum distance between your upper body and opponent's chest using shin across torso
 - Maintain inside underhook or cross-face prevention to control upper body positioning
 - Keep hips mobile and angled to prevent being flattened to your back
@@ -190,7 +190,7 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Half guard established with at least one leg controlling opponent's leg
 - Inside leg (shield leg) must be free to insert across opponent's torso
 - Upper body must have at least one connection point (underhook, cross-face prevention, or collar grip)
@@ -203,7 +203,7 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Recognize passing pressure**: Identify when your half guard knee shield has been compromised or flattened. Feel opponent's weight driving forward toward your chest, indicating imminent passing danger. Assess which direction they are pressuring (toward your head or toward your legs) to determine optimal recovery angle. (Timing: Immediate recognition at first sign of frame collapse)
 2. **Create initial space**: Use your bottom arm to create a strong frame against opponent's shoulder or neck. Simultaneously shrimp your hips away from the opponent, moving your body at a 45-degree angle to create the space necessary for shin insertion. Keep your outside leg actively posting on the mat for additional leverage during the shrimp. (Timing: Explosive hip movement coordinated with frame)
 3. **Insert shin shield**: Thread your inside leg (the leg controlling half guard) up and across the opponent's torso, placing your shin bone horizontally across their chest or stomach. Your knee should be pointing toward their opposite shoulder while your foot hooks near their far hip. The shin creates a rigid barrier preventing forward pressure. (Timing: Insert during the space created by shrimp)
@@ -217,7 +217,7 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent smashes shin shield down by driving shoulder over knee** (Effectiveness: High) - Your Response: Immediately switch to deep half guard entry or reverse half guard by inverting under their pressure. Alternatively, use the downward pressure to facilitate an Old School Sweep by sitting up and capturing their far arm.
 - **Opponent backsteps to free trapped leg and initiate leg drag** (Effectiveness: High) - Your Response: Follow their backstep by extending your shield leg to maintain connection, transitioning to reverse de la riva guard or single leg X-guard. Use your outside leg to hook their leg as they step back.
 - **Opponent drives crossface while controlling your inside arm** (Effectiveness: Medium) - Your Response: Use your shield leg to create distance while shrimping your hips away from the crossface. Fight to recover inside underhook or switch to deep half entry where crossface is less effective.
@@ -227,25 +227,25 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Allowing opponent to flatten you to your back before inserting shin shield
+## Common Mistakes
+- **Mistake**: Allowing opponent to flatten you to your back before inserting shin shield
   - **Consequence**: Once completely flat, hip mobility is severely restricted and shin insertion becomes nearly impossible. Opponent consolidates passing position.
   - **Correction**: Begin shin shield recovery at first sign of knee shield collapse. Maintain constant hip angle and shoulder off mat even under pressure. Prevention is easier than recovery.
-- **Error**: Placing shin too low on opponent's torso (at stomach or hips)
+- **Mistake**: Placing shin too low on opponent's torso (at stomach or hips)
   - **Consequence**: Inadequate distance created allows opponent to drive forward and establish chest-to-chest connection, negating the frame's effectiveness.
   - **Correction**: Insert shin high across chest with knee pointing toward opponent's opposite shoulder. Higher placement creates maximum distance and stronger structural frame.
-- **Error**: Using passive shin shield without active pressure
+- **Mistake**: Using passive shin shield without active pressure
   - **Consequence**: Opponent easily collapses the frame by driving forward or manipulating the leg. Passive frames provide minimal defensive value.
   - **Correction**: Maintain constant extension pressure through the shin, actively pushing opponent away. Think of the leg as an active post, not just a barrier.
-- **Error**: Neglecting upper body control while focusing on shin insertion
+- **Mistake**: Neglecting upper body control while focusing on shin insertion
   - **Consequence**: Opponent achieves crossface or controls both arms, allowing them to pass despite shin shield presence.
   - **Correction**: Coordinate shin shield with simultaneous upper body connections. Never sacrifice inside underhook or crossface prevention for shin position alone.
-- **Error**: Losing control of opponent's trapped leg during recovery
+- **Mistake**: Losing control of opponent's trapped leg during recovery
   - **Consequence**: Opponent extracts their leg and completes the pass while you're still establishing shin shield.
   - **Correction**: Maintain bottom leg hook throughout recovery process. The combination of leg control plus shin shield creates complete defensive system.
-- **Error**: Failing to create proper hip angle (remaining too flat)
+- **Mistake**: Failing to create proper hip angle (remaining too flat)
   - **Consequence**: Reduced effectiveness of shin shield and inability to generate offensive techniques. Easier for opponent to maintain pressure.
   - **Correction**: Always fight to achieve 45-degree angle facing opponent. Bottom shoulder must be off mat. Hip angle is equally important as shin position.
 
@@ -254,7 +254,7 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Isolated shin shield insertion and framing structure
 Practice inserting shin shield from static half guard with compliant partner. Focus on proper shin placement across chest, hip angle maintenance, and creating maximum distance. Drill the shrimping motion required to create space for insertion. Partner provides light pressure to help you feel proper frame tension. Perform 20-30 repetitions per side each session.
 (Resistance: None)
@@ -285,7 +285,7 @@ Incorporate shin shield recovery into regular sparring without preset scenarios.
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **High Shin Shield (Shoulder Level)**: Place shin shield across opponent's collarbone/shoulder level rather than chest. Creates maximum distance and is particularly effective against short opponents or when you have long legs. Enables easier transition to triangle attacks. (When to use: When opponent is driving heavy chest pressure forward or when you have significant leg length advantage. Also ideal when setting up triangle or omoplata attacks.)
 
 **Low Shin Shield (Hip Level)**: Position shin shield across opponent's hips or lower abdomen. Creates less vertical distance but provides excellent control for sweeps and prevents opponent from lowering their base. Common in 10th Planet system as entry to lockdown variations. (When to use: When opponent is maintaining upright posture or when transitioning to lockdown half guard. Effective for executing Electric Chair setups or waiter sweeps.)
@@ -330,7 +330,7 @@ Incorporate shin shield recovery into regular sparring without preset scenarios.
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Shin shield recovery is a relatively safe defensive technique with minimal injury risk when practiced correctly. The primary safety concern involves protecting your shield leg's knee from hyperextension or lateral stress. Never lock your knee completely straight during shin shield application; maintain a slight bend to allow shock absorption if opponent drives forward suddenly. When drilling with resistance, communicate with your partner about pressure levels to prevent knee injuries during the learning phase.
 
@@ -340,7 +340,7 @@ Be cautious of your own neck position when creating frames and shrimping to inse
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Shin Shield Recovery serves as a critical defensive checkpoint within the comprehensive half guard system. It functions as the primary guard retention mechanism when your knee shield has been compromised or when you're recovering from near-passing positions. The technique represents the intersection between pure defense (preventing the pass) and position improvement (re-establishing offensive guard structure).
 
@@ -352,7 +352,7 @@ From a systematic perspective, mastering shin shield recovery is essential for d
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Shield Retention]] - Primary transition - Shin shield recovery leads directly to knee shield position
 - [[Deep Half Entry]] - Alternative - Common transition when shin shield is smashed down
@@ -370,7 +370,7 @@ From a systematic perspective, mastering shin shield recovery is essential for d
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The shin shield represents one of the most biomechanically sound defensive structures available from half guard. The shin bone, when properly positioned across the opponent's torso, creates a rigid frame that is extremely difficult to collapse through forward pressure alone. The key is understanding that the shin shield is not merely a passive barrier but an active pressure system. You must generate constant extension force through the leg, treating it as a piston that continuously pushes the opponent away. The effectiveness is maximized when you combine three elements: proper hip angle to prevent flattening, upper body control to prevent circumvention of the shield, and active leg extension to maintain distance. Many practitioners fail because they focus solely on getting the shin in position without maintaining the structural angle and active pressure. The shin shield should be thought of as the defensive equivalent of combat base for top position—it's the foundation from which all your half guard retention mechanics operate.
 - **Gordon Ryan**: In competition, shin shield recovery is absolutely essential for maintaining guard against high-level pressure passers. I've used this extensively against guys like Felipe Pena and Kaynan Duarte who excel at smashing through half guard. The critical detail for competition effectiveness is timing—you cannot wait until you're completely flattened to attempt recovery. At the elite level, once your back hits the mat flat, the pass is essentially complete. I initiate shin shield recovery the moment I feel my knee shield beginning to collapse. The combination of shin shield with inside underhook creates an almost impenetrable defensive structure that buys you time to assess and execute your counter-offense. Against world-class opponents, I'll often use shin shield as a transitional position—establish it quickly to stop their passing momentum, then immediately flow to deep half or back-take attempts before they can establish counters. The shin shield is most effective when used dynamically as part of a larger defensive system rather than as a static position to hold.
 - **Eddie Bravo**: The shin shield is fundamental to the entire 10th Planet half guard system and connects directly to our lockdown game. What most people miss is that the shin shield is incredibly versatile—you can adjust the height to completely change the position's dynamics. High shin shield, around the shoulders, sets up electric chair and omoplata variations. Low shin shield, at the hips, connects perfectly to lockdown entries and whip-up sweeps. We emphasize the active nature of the shin—it's not just sitting there, it's constantly pushing, adjusting, creating angles. One of our key innovations is using the shin shield to create 'question marks'—positions where the opponent has to choose between bad options. If they drive into the shin shield, you can transition under for deep half or reverse half. If they back away to avoid the pressure, you recover full guard and go on the offensive. The shin shield is also your safety net when you're being too aggressive from half guard—if your sweep attempt or submission setup fails, you can always recover to shin shield and reset. It's the defensive anchor that allows you to play aggressively because you always have this reliable recovery position to fall back on.

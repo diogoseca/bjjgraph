@@ -8,7 +8,7 @@ description: "Master Single Leg Variations in BJJ. Complete takedown guide with 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Single Leg Variations in BJJ. Complete takedown guide with 
 
 
 
-> **Quick Answer**: Single Leg Variations transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Single Leg Variations transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Mastery of single leg variations transforms a grappler's standing game from pred
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control the ankle or lower leg with both hands while maintaining head position on the inside or outside
 - Break opponent's base by elevating their leg or driving them backward while they balance on one foot
 - Chain multiple finishing variations together based on opponent's defensive reactions
@@ -184,7 +184,7 @@ Mastery of single leg variations transforms a grappler's standing game from pred
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Standing position with both grapplers on their feet in neutral or clinch range
 - Clear entry path to penetrate toward opponent's legs without telegraphing intention
 - Grip fighting advantage or clear moment to shoot without opponent's hands controlling your head
@@ -198,7 +198,7 @@ Mastery of single leg variations transforms a grappler's standing game from pred
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Level change and penetration**: Drop your hips explosively while stepping forward with your lead leg. Your head should drive toward the opponent's centerline as you lower your level beneath their hips. Keep your back straight and chest up to maintain structural integrity during the shot. Your hands should be ready to secure the leg while your head makes contact with their torso. (Timing: Execute the level change in one explosive motion to prevent opponent from sprawling)
 2. **Leg capture and secure grip**: As you penetrate, wrap both arms around the back of the opponent's knee or lower thigh. Your inside hand (closer to their centerline) should cup behind their knee while your outside hand reaches across to complete the grip. Pull the leg tight to your chest and shoulder. Your head should be positioned on the inside (between their legs) or outside depending on the entry angle. (Timing: Secure the grip immediately upon contact before opponent can retract their leg)
 3. **Elevate and drive**: Stand up forcefully while lifting the captured leg to break opponent's base. Drive forward into their standing leg while elevating their captured leg to at least hip height. Your head should drive into their chest or ribs to further disrupt their balance. Maintain tight control of the leg against your torso while keeping your hips close to their standing leg. (Timing: Continuous forward pressure - do not pause between capture and elevation)
@@ -211,7 +211,7 @@ Mastery of single leg variations transforms a grappler's standing game from pred
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Sprawl defense - opponent drops their hips and sprawls their legs back while pushing down on your head** (Effectiveness: High) - Your Response: If they sprawl successfully, transition to ankle pick by circling to the outside, grabbing their far ankle, and pulling while their weight is back. Alternatively, switch to a double leg by securing both legs if they sprawl with legs too wide
 - **Guillotine counter - opponent wraps your neck in a guillotine choke as you shoot** (Effectiveness: Medium) - Your Response: Keep your head on the inside during entry to minimize guillotine exposure. If caught, immediately drive forward and turn the corner to relieve pressure while completing the takedown. In no-gi, consider releasing and backing out if the guillotine is deeply locked
 - **Wizard control - opponent overhooks your arm and controls your head, neutralizing the finish** (Effectiveness: High) - Your Response: If opponent establishes wizard control, immediately switch to a different variation. Circle away from their overhook side while maintaining leg control, or transition to running-the-pipe finish by circling behind them. Can also drop for ankle pick on standing leg
@@ -221,28 +221,28 @@ Mastery of single leg variations transforms a grappler's standing game from pred
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Reaching for the leg without proper level change, shooting with hips too high
+## Common Mistakes
+- **Mistake**: Reaching for the leg without proper level change, shooting with hips too high
   - **Consequence**: Opponent easily sprawls and establishes front headlock control, putting you in defensive position
   - **Correction**: Emphasize explosive level change before reaching for the leg. Drop your hips below opponent's hips and drive forward before arm extension. Practice level change mechanics separately from the full shot
-- **Error**: Stopping forward pressure after initial leg capture, pausing to reassess position
+- **Mistake**: Stopping forward pressure after initial leg capture, pausing to reassess position
   - **Consequence**: Opponent recovers their base, establishes defensive grips, and neutralizes the takedown attempt
   - **Correction**: Maintain continuous forward drive from penetration through finish. Single leg is a dynamic chain of movements without pause. Drill the complete sequence as one flowing motion
-- **Error**: Failing to control head position, allowing opponent to control your head with their hands
+- **Mistake**: Failing to control head position, allowing opponent to control your head with their hands
   - **Consequence**: Opponent controls the direction of your movement, prevents finish variations, and sets up guillotine or front headlock
   - **Correction**: Keep your head tight to opponent's torso throughout the sequence. Drive your head into their chest or around their hip depending on variation. Never allow separation between your head and their body
-- **Error**: Using only arm strength to lift the leg without engaging hips and legs
+- **Mistake**: Using only arm strength to lift the leg without engaging hips and legs
   - **Consequence**: Technique becomes exhausting, ineffective against larger opponents, and easy to defend
   - **Correction**: Generate lifting power from standing up with your legs while pulling the captured leg to your chest. Your arms only maintain the grip while your entire body drives upward and forward
-- **Error**: Committing to one finish variation regardless of opponent's defensive reaction
+- **Mistake**: Committing to one finish variation regardless of opponent's defensive reaction
   - **Consequence**: Opponent defends successfully because they know what's coming, leading to failed takedown and potential counter
   - **Correction**: Develop flow between multiple finish variations. Practice recognizing defensive cues and switching finishes mid-execution. Drill specific reactions to specific defenses until responses become automatic
-- **Error**: Keeping feet too far from opponent's standing leg during execution
+- **Mistake**: Keeping feet too far from opponent's standing leg during execution
   - **Consequence**: Opponent maintains mobility, can hop away from finish attempts, and creates distance to escape
   - **Correction**: Keep your hips and feet close to opponent's standing leg. Your inside foot should be next to or between their feet to limit their mobility and maximize your control
-- **Error**: Releasing the captured leg prematurely before establishing dominant position
+- **Mistake**: Releasing the captured leg prematurely before establishing dominant position
   - **Consequence**: Opponent recovers guard or scrambles back to standing, wasting the successful entry
   - **Correction**: Maintain leg control until completely secure in top position or leg entanglement. The captured leg is your primary control point until you establish position on the ground
 
@@ -251,7 +251,7 @@ Mastery of single leg variations transforms a grappler's standing game from pred
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Fundamentals (Weeks 1-2)** - Basic penetration step and leg capture mechanics
 Partner stands stationary while you practice level change and penetration. Focus on proper hip drop, forward drive, and clean leg capture. Partner offers zero resistance. Perform 10-15 repetitions per side, emphasizing perfect form over speed. Work both inside and outside head positions.
 (Resistance: None)
@@ -282,7 +282,7 @@ Integrate single leg variations into your complete takedown game. Use single leg
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **High Crotch Single Leg**: Instead of gripping behind the knee, the hands lock higher on the thigh near the hip. Your shoulder drives into their inner thigh while your head positions outside. This variation provides superior control and makes it easier to elevate the leg for dump finishes. (When to use: Use against taller opponents or when you can penetrate deeply. Particularly effective in no-gi where leg grips can be slippery. Provides better defense against wizard control and whizzer counters.)
 
 **Low Single (Ankle Pick Single)**: Grip is secured on or below the ankle rather than the knee. Your head stays outside and you drive forward while pulling the ankle toward you and slightly up. Often used as a re-attack after initial single leg is defended or as a counter to sprawl defense. (When to use: Excellent against opponents who sprawl well or maintain wide base. Works well when opponent is moving backward or when they are off-balance. Common in no-gi and MMA where lower grips are more secure.)
@@ -329,7 +329,7 @@ Integrate single leg variations into your complete takedown game. Use single leg
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing single leg variations, controlled execution is essential to prevent knee injuries during takedown finishes. Partners should tap if they feel excessive torque on their knee or ankle during practice. Start all variations at slow speed and gradually increase intensity over weeks of training. Ensure adequate mat space and proper surface to prevent injury during falls. When drilling finishes like inside trips and outside trips, be particularly careful with your partner's standing leg as sudden sweeps can cause ligament damage if executed with full power on an unprepared partner. In live training, release leg control if your partner taps to prevent joint strain. The transition to leg entanglements should also be practiced progressively, as sudden drops to ashi positions can torque the knee if partner is not expecting the position change. Always communicate with training partners about intensity level and stop immediately if anyone experiences joint pain.
 
@@ -337,7 +337,7 @@ When practicing single leg variations, controlled execution is essential to prev
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Single Leg Takedown system serves as a critical bridge between standing grappling and ground positions in BJJ. From a strategic perspective, it represents the primary takedown entry for grapplers who want to maintain defensive safety while establishing top position. Unlike throws or double legs that require full commitment, the single leg allows for measured entry with multiple exit options if the technique is unsuccessful. Within the broader positional hierarchy, successful single leg finishes lead directly to dominant top positions: side control, mount, knee on belly, or turtle top depending on how the opponent falls. The modern evolution of the single leg has expanded its integration to include seamless transitions to leg entanglement positions (inside ashi, outside ashi, 50-50) when traditional finishes are defended. This makes the single leg particularly valuable in no-gi competition where the threat of leg locks is prevalent. Elite competitors use single leg entries as part of a complete standing-to-ground system that includes takedowns, guard pulls, and leg attacks as interconnected options rather than separate techniques. The single leg also integrates defensively - when opponents shoot on you, understanding single leg mechanics helps you defend and counter with your own attacks. From a pedagogical standpoint, single leg variations should be taught as a complete system rather than isolated techniques, emphasizing the flow between entries, finishes, counters, and transitions to ensure students develop a comprehensive understanding of standing grappling that integrates smoothly with their ground game.
 
@@ -345,7 +345,7 @@ The Single Leg Takedown system serves as a critical bridge between standing grap
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Single Leg Takedown]] - Core technique - the fundamental single leg from which all variations derive
 - [[Single Leg Entry]] - Setup technique - the penetration step and initial leg capture that begins all variations
@@ -368,7 +368,7 @@ The Single Leg Takedown system serves as a critical bridge between standing grap
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The single leg takedown represents a complete system rather than a single technique, and this is a crucial distinction that separates novice from expert execution. The biomechanical principle underlying all single leg variations is the disruption of bilateral base - by controlling one leg and attacking the standing leg, you create an unsolvable defensive problem for the opponent. The key to systematic single leg mastery is understanding that each defensive reaction opens a specific offensive finish. When opponent sprawls, their weight goes back making ankles vulnerable. When they plant firmly, their standing leg becomes the primary target for knee taps or trips. When they turn away, you have access to their back through run-the-pipe mechanics. The most sophisticated aspect of single leg execution is the seamless integration with leg entanglement positions in modern no-gi grappling. The single leg should be viewed as an entry system that can terminate in traditional takedowns OR in leg lock positions, making it doubly dangerous because opponents must defend two distinct threats simultaneously. Train the single leg as a decision tree where each branch represents a different finish variation triggered by specific defensive cues. This systematic approach transforms a wrestling technique into a complete attacking system that bridges standing grappling with ground-based submissions.
 - **Gordon Ryan**: In competition, the single leg is my highest percentage takedown because it offers the best risk-reward ratio of any standing technique. Unlike throws or double legs that can be countered with guillotines or front headlocks, the single leg allows me to maintain defensive safety while creating multiple finishing threats. The critical factor in competitive application is understanding that you rarely finish with your first attack - the single leg is about creating a chain of attempts that overwhelm the opponent's defense. I shoot the single leg knowing that even if they defend the initial dump, I have inside trip, outside trip, knee tap, and ankle pick variations all available within seconds. What makes my single leg effective against elite opponents is the integration with leg entanglement positions. If they defend the takedown, I immediately transition to inside ashi or outside ashi and attack their legs with submissions. This makes them choose between defending the takedown or defending the leg lock, and that split second of confusion is when I finish. In training, I emphasize the transition phase - the moment when the takedown is defended but I still have leg control. This is where most grapplers give up and reset, but this is actually a position of opportunity where leg lock attacks are highly available. The single leg to ashi garami transition has become such a fundamental part of modern no-gi competition that you cannot be considered a complete grappler without this skill. My advice is to drill the defensive transitions as much as the successful finishes, because that's where championships are won.
 - **Eddie Bravo**: The beauty of the single leg system is how it fits perfectly with 10th Planet's philosophy of creating positions that give opponents multiple problems to solve simultaneously. When I teach single leg variations, I emphasize the creative finishing options that most wrestlers never explore because they're stuck in traditional thinking. The run-the-pipe finish is absolutely money in no-gi because it gives you access to back control even when the takedown is defended. I also love teaching the single leg as an entry to the truck position - when they defend by turning away, you can maintain leg control and take them directly to the position we use for twister setups. One variation we use extensively is the single leg to electric chair transition, where you convert the standing single leg into a lockdown position as you bring them down. This catches opponents completely off guard because they're defending a takedown and suddenly they're in a submission position. The key innovation in our single leg system is treating it as a transition technique rather than just a takedown - it's a vehicle to get to the positions where we excel. We also integrate single leg entries from seated guard positions, which is unconventional but highly effective. If someone is standing in your guard, you can grab a single leg and use it to off-balance them into positions where you have advantages. The single leg is not just about taking people down, it's about controlling their leg to create opportunities for your entire system of attacks. Think of the leg as a steering wheel that lets you direct where the match goes next.

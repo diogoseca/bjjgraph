@@ -13,10 +13,6 @@ description: "Master Seated Guard in BJJ. Complete guide covering entries, trans
 
 
 
-> **Quick Overview**: Seated Guard is an upright open guard position where you sit on the mat with your hips on the ground, hands posted behind you for base, and legs extended or bent toward your opponent. This position pr...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -54,31 +50,19 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive |
-| Risk Level | Medium | Medium |
-| Energy Cost | Low | Medium |
-| Time Sustainability | Medium | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Low | Medium |
+| **Time** | Medium | Medium |
 
-**What Makes This Position Unique:** Upright posture with posted hands enables standups
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Seated Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Seated Guard/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Upright posture with posted hands enables standups
 
 
 
@@ -86,10 +70,13 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <section id="bottom-summary" class="content-section">
 
-## Seated Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Seated Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in seated guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -136,7 +123,7 @@ The bottom player in seated guard balances defensive frames with offensive oppor
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Staying Static in Seated Position**
@@ -168,16 +155,17 @@ The bottom player in seated guard balances defensive frames with offensive oppor
   - ✅ Correction: When opponent enters range, immediately establish grips on sleeves, pants, or ankles. Don't wait for perfect opportunity - establish any grip to slow opponent's advancement and create offensive possibilities.
 
 
-👉 **[[Seated Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Seated Guard Top Perspective
+
+## Playing as Top
+
+[[Seated Guard/Top|→ Full Top Guide]]
 
 
-The top player in seated guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -218,7 +206,7 @@ The top player in seated guard enjoys offensive advantages with access to submis
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Rushing Forward Without Grip Control**
@@ -249,8 +237,6 @@ The top player in seated guard enjoys offensive advantages with access to submis
   - Consequence: Opponent inserts butterfly hooks, closes guard, or transitions to better guards before you've secured passing position.
   - ✅ Correction: Only drop weight when you've cleared opponent's legs and are moving to consolidation. Maintain standing or kneeling posture until the last moment of pass completion.
 
-
-👉 **[[Seated Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

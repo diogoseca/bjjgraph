@@ -8,7 +8,7 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 50% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -189,7 +187,7 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player on hands and knees (turtle position) with weight distributed through knees and at least one hand/forearm while defending against top pressure
 - Top player positioned perpendicular or diagonal across the bottom player's back, with chest/torso making contact with the bottom player's upper back/shoulder area
@@ -201,7 +199,7 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has been forced into turtle position from failed guard retention or scramble situation
 - Top player has established perpendicular or diagonal control across bottom player's back
@@ -228,7 +226,7 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Granby Roll]] → [[Closed Guard]]
 
@@ -278,7 +276,7 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Turtle to Back Control]]** → [[Back Control]] (Opponent Success: 65%)
 - **[[Crucifix from Turtle]]** → [[Crucifix]] (Opponent Success: 55%)
@@ -290,7 +288,7 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Frame and Shrimp]]** → [[Half Guard]]
   - Opponent attempts to flatten or advance to back control
@@ -330,7 +328,7 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

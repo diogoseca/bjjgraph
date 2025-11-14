@@ -8,7 +8,7 @@ description: "Master the Darce Choke in BJJ. Complete guide with safety protocol
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Darce Choke in BJJ. Complete guide with safety protocol
 
 
 
-> **Quick Answer**: Darce Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Darce Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="safety-considerations" class="content-section">
 
-## Is Darce Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -212,7 +212,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Shoulder pressure creates compression on near-side carotid artery
 - Forearm blade compresses far-side carotid artery
 - Figure-four grip locks the choking mechanism in place
@@ -226,7 +226,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Achieve front headlock control or turtle top position with head control
 - Secure deep overhook position on opponent's near arm
 - Establish crossface or head control to prevent opponent turning in
@@ -240,7 +240,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure front headlock position**: Establish front headlock control with your head on the opponent's back and your chest heavy on their shoulders. Control their near arm with an overhook or by controlling the wrist. Your free arm should be threatening the neck or controlling the far shoulder. Ensure opponent's head is lower than their hips to prevent them from standing. (Timing: 0-2 seconds) [Pressure: Moderate]
 2. **Thread choking arm under near armpit**: Slide your choking arm (the arm on the same side as their trapped arm) deep under their near armpit, aiming to get your bicep or elbow past the centerline of their neck. Your hand should emerge on the far side of their neck. Keep your elbow tight to your ribs and maintain downward pressure with your shoulder on their neck throughout the threading motion. (Timing: 2-3 seconds) [Pressure: Firm]
 3. **Secure hand position around far side of neck**: Once your arm is threaded through, reach your hand around the far side of their neck, creating a blade with your forearm across the back/side of their neck. Your palm should be facing up or toward you. Ensure your bicep is on one side of their neck and your forearm is on the other, with their neck in the crook of your elbow. (Timing: 3-4 seconds) [Pressure: Moderate]
@@ -253,7 +253,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Turn into the choke (face you)** (Effectiveness: Medium) - Your Adjustment: Maintain strong crossface pressure to prevent the turn. If they complete the turn, transition to guillotine or anaconda choke. Use your choking arm to frame against their face and prevent them from getting their head across your centerline.
 - **Roll away from the choke** (Effectiveness: High) - Your Adjustment: Establish strong inside leg positioning over their back to prevent the roll. If they start rolling, go with them while maintaining the grip and finish the choke in the new position. Use your hip pressure and sprawl to pin their hips and prevent rotation.
 - **Pull trapped arm out** (Effectiveness: Medium) - Your Adjustment: Increase shoulder pressure on their neck to make the space smaller. Keep your choking elbow tight to your ribs to prevent them from creating space. If they start freeing the arm, switch to a marce choke (using their collar) or anaconda variation.
@@ -263,28 +263,28 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying choke with only forearm pressure (no shoulder involvement) [Low DANGER]
+## Common Mistakes
+- **Mistake**: Applying choke with only forearm pressure (no shoulder involvement) [Low DANGER]
   - **Consequence**: Incomplete carotid compression leads to failed submission and opponent escapes
   - **Correction**: Drive your shoulder down and forward into near side of neck while maintaining forearm pressure on far side—bilateral compression is essential
-- **Error**: Choking arm elbow away from ribs (creating space) [Low DANGER]
+- **Mistake**: Choking arm elbow away from ribs (creating space) [Low DANGER]
   - **Consequence**: Opponent can pull their head out or turn into you, escaping the submission
   - **Correction**: Keep choking elbow pinned tight to your ribcage throughout entire sequence—imagine holding a $100 bill between your elbow and ribs
-- **Error**: Threading arm without maintaining head control [Low DANGER]
+- **Mistake**: Threading arm without maintaining head control [Low DANGER]
   - **Consequence**: Opponent stands up, turns in, or escapes before choke is locked
   - **Correction**: Maintain heavy chest pressure on shoulders and crossface control throughout threading motion—never let opponent's head come up
-- **Error**: Releasing pressure when opponent starts to defend [Medium DANGER]
+- **Mistake**: Releasing pressure when opponent starts to defend [Medium DANGER]
   - **Consequence**: Gives opponent opportunity to escape or counter-attack
   - **Correction**: Maintain consistent pressure while adjusting position—only release if opponent successfully defends or if safety requires it
-- **Error**: Applying choke at full speed/power in training [CRITICAL DANGER]
+- **Mistake**: Applying choke at full speed/power in training [CRITICAL DANGER]
   - **Consequence**: CRITICAL SAFETY VIOLATION—can cause unconsciousness without tap opportunity or neck/trachea injury
   - **Correction**: ALWAYS apply progressive pressure over 3-5 seconds minimum in training—recognize tap immediately—competition speed only in actual competition
-- **Error**: Positioning hips directly over opponent (not creating angle) [Low DANGER]
+- **Mistake**: Positioning hips directly over opponent (not creating angle) [Low DANGER]
   - **Consequence**: Reduces choking pressure and allows opponent to roll or stand more easily
   - **Correction**: Angle your hips away from opponent's head—create perpendicular positioning to maximize leverage and prevent rolling escapes
-- **Error**: Continuing to apply pressure after opponent taps [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after opponent taps [CRITICAL DANGER]
   - **Consequence**: CRITICAL SAFETY VIOLATION—can cause unconsciousness, stroke, or severe injury even after tap
   - **Correction**: Release IMMEDIATELY upon any tap signal—do not wait for verbal confirmation—err on side of early release if uncertain about tap
 
@@ -293,7 +293,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Darce from Turtle**: Most common entry—opponent is in turtle position, you thread arm from top position using their defensive shell against them (When to use: When opponent turtles to avoid back control or to escape side control—their defensive posture creates the arm trap needed for darce entry)
 
 **Darce from Failed Single Leg**: Opponent shoots single leg, you sprawl and circle to front headlock, then darce as they defend the guillotine by pulling their head out (When to use: Excellent counter to wrestling-based attacks—as they defend guillotine by looking away, they create perfect darce angle)
@@ -338,7 +338,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn arm threading, hand positioning, and figure-four grip mechanics without any pressure application—focus entirely on positional control and structural understanding
 - Resistance: None
@@ -375,7 +375,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Turtle]]
@@ -391,7 +391,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Anaconda Choke]]
 - [[Guillotine Choke]]
@@ -427,7 +427,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The darce choke represents one of the most important developments in modern submission grappling, particularly for no-gi contexts. What makes this technique truly exceptional is its bilateral compression mechanism—your shoulder creates pressure on one carotid artery while your forearm blade simultaneously compresses the opposite side. This dual-sided attack is significantly more effective than single-sided compression techniques. The critical technical detail that most practitioners miss is elbow positioning: your choking arm's elbow must remain tight to your ribcage throughout the entire sequence. Any space between your elbow and ribs creates a structural weakness that allows escape. From a systematic perspective, the darce is best understood as part of the front headlock system—it's not an isolated technique but rather one of several finishing options from this dominant position. When opponent defends the guillotine by pulling their head away, they create the perfect darce angle. When they defend the darce by turning in, you transition to anaconda. This systematic approach transforms the darce from a single submission into part of a comprehensive attacking system. Safety considerations are paramount: this is a blood choke that can produce unconsciousness in 3-4 seconds at full pressure, which means progressive application in training is not optional—it's mandatory for ethical practice.
 - **Gordon Ryan**: The darce is one of my highest-percentage submissions in competition, particularly in no-gi where it's absolutely devastating when properly applied. The key to competition success with the darce isn't just technical execution—it's recognizing the setup opportunities in real-time during scrambles and transitions. Most darce finishes in high-level competition come from dynamic situations: opponent shoots a takedown and you sprawl to front headlock, opponent turtles after a failed guard pass, or opponent attempts to stand from bottom position. The timing window is often only 1-2 seconds, so your entry must be automatic and your finish must be efficient. In training versus competition, the application philosophy must be completely different. In training, I apply darce chokes slowly and progressively, giving my training partners ample time to tap safely—this preserves my training partners for the long term, which is essential for high-level preparation. In competition, the application is immediate and decisive once the position is secured—there's no progressive pressure, it's binary: position secured, apply finish, opponent taps or goes unconscious. This distinction between training and competition intensity is what separates professional athletes from hobbyists. The other competition consideration is defensive awareness: when someone attempts darce on me, I defend by immediately turning into them before they can lock the figure-four. Once the hands are locked, the escape probability drops dramatically, so defense must be preemptive.
 - **Eddie Bravo**: The darce choke is a perfect example of how no-gi grappling evolved past traditional gi-based techniques to create something uniquely effective for modern submission grappling. In the 10th Planet system, we approach the darce as a core component of our front headlock game, but we also use it from unconventional positions that most traditional schools don't emphasize—particularly from bottom half guard using the lockdown system. When you're on bottom in half guard with lockdown control, if opponent gives you an underhook and drops their head, you can sometimes catch a darce as you come up or sweep them. It's unexpected and very high percentage when the opportunity presents itself. The innovation aspect is huge with the darce—there are so many variations and entry points that haven't been fully explored yet. We experiment with standing darce finishes, rolling darce entries, and transitioning from darce attempts to other submissions in the front headlock system. Safety culture is critical in our gym: we teach that the darce can put someone to sleep fast, so you apply it SLOW in training, you tap EARLY when caught, and you release INSTANTLY when partner taps. No ego, no tough-guy nonsense—we're all trying to get better, not send each other to the hospital. That mentality is what allows us to train hard and innovate without injury. The darce is constantly evolving, and the best practitioners are those who understand the fundamental mechanics but aren't afraid to experiment with new angles and setups.

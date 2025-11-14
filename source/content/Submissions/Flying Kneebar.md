@@ -8,7 +8,7 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 
 
 
-> **Quick Answer**: Flying Kneebar is a leg lock targeting the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear - apply slowly over 3-5 seconds and release immediately upon tap.
+> Flying Kneebar is a leg lock targeting the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="safety-considerations" class="content-section">
 
-## Is Flying Kneebar Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -221,7 +221,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Timing is critical - execute during opponent's forward step or weight shift to maximize success and minimize resistance
 - Control the targeted leg immediately upon contact - secure ankle and control the knee line before rotation
 - Protect yourself during the fall - tuck chin, distribute impact across back/shoulders, never post with arms
@@ -235,7 +235,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent standing upright or in low wrestling stance with weight distributed between both legs
 - Clear identification of target leg (typically lead leg or leg they're stepping forward with)
 - Adequate space to execute jump and rotation without obstacles or mat boundaries
@@ -250,7 +250,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Target Leg Selection and Initial Movement**: Identify the target leg (opponent's lead leg or leg currently bearing weight). Position yourself at a 30-45 degree angle from their centerline. Begin your jumping motion with a small penetration step toward the target leg. This step loads your jumping leg and closes distance while maintaining balance. Your eyes should track the target leg's position throughout, and your hands should begin reaching toward the ankle or knee area. Timing is crucial - execute this as opponent shifts weight forward onto the target leg. (Timing: 0.0-0.3 seconds) [Pressure: Light]
 2. **Jump and Leg Grip Establishment**: Explosively jump off your back leg while simultaneously securing the opponent's ankle with both hands (no-gi) or gripping the pants at ankle and knee (gi). Your jump trajectory should be upward and slightly forward, not diving low. As you leave the ground, your inside leg (closest to opponent) begins to swing up and around the target leg. Grip security is paramount - if you cannot establish a solid ankle grip, abort the technique. Your body should be airborne for only a brief moment, with grip contact established before full weight commitment. (Timing: 0.3-0.8 seconds) [Pressure: Moderate]
 3. **Hip Entry and Rotational Mechanics**: As you descend, drive your inside hip directly into the back of the opponent's knee while simultaneously threading your inside leg across their hip line. Your outside leg hooks over their torso (typically over the shoulder or upper back area). Begin your backward rotation, pulling the ankle toward your chest while pushing your hip into the back of their knee. The rotation should be smooth and continuous - this is NOT a static position. Your shoulders will rotate toward the mat as your legs configure around the target leg. Maintain absolute grip security on the ankle throughout this phase. (Timing: 0.8-1.5 seconds) [Pressure: Firm]
@@ -264,7 +264,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Pull targeted leg back immediately when they recognize jump initiation** (Effectiveness: High) - Your Adjustment: Commit fully to the jump and follow the leg backward - maintain grip security and complete rotation even if they retreat. Alternatively, switch to single leg takedown if leg withdrawal is too fast.
 - **Turn into the kneebar to alleviate pressure (rotate toward trapped leg)** (Effectiveness: High) - Your Adjustment: Counter-rotate with them to maintain perpendicular alignment, or immediately switch to heel hook position as their knee turns inward, exposing the heel.
 - **Sit forward and grab your head/upper body to prevent full rotation** (Effectiveness: Medium) - Your Adjustment: Use your outside leg to push their torso away while continuing rotation. Accelerate rotation speed to complete position before they establish upper body control.
@@ -275,31 +275,31 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Jumping too low and diving at opponent's legs rather than maintaining upright trajectory [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Jumping too low and diving at opponent's legs rather than maintaining upright trajectory [CRITICAL DANGER]
   - **Consequence**: Failed entry, easy takedown defense, and dangerous head-first landing with potential neck injury
   - **Correction**: Jump UP first, then rotate. Your initial jump should gain height before rotation begins. Think 'up and around' not 'dive and spin'.
-- **Error**: Failing to secure ankle grip before committing full weight to the technique [High DANGER]
+- **Mistake**: Failing to secure ankle grip before committing full weight to the technique [High DANGER]
   - **Consequence**: Loss of leg control during rotation, failed submission, and awkward landing positions
   - **Correction**: Establish firm two-handed ankle grip during flight phase before committing to rotation. If grip isn't secure by mid-jump, abort and land on feet.
-- **Error**: Attempting to finish before rotation is complete [CRITICAL DANGER]
+- **Mistake**: Attempting to finish before rotation is complete [CRITICAL DANGER]
   - **Consequence**: Severe torque on opponent's knee in unsafe direction, high injury risk, and certain escape
   - **Correction**: Complete full 180-degree rotation until your back is on mat before applying ANY extension pressure. Position first, then finish.
-- **Error**: Posting arm(s) during landing to break fall [High DANGER]
+- **Mistake**: Posting arm(s) during landing to break fall [High DANGER]
   - **Consequence**: Shoulder injury, broken arm/wrist, and loss of leg control allowing escape
   - **Correction**: Keep arms committed to ankle grip throughout landing. Accept back/shoulder impact with proper breakfall - chin tucked, rounded spine, no arm posting.
-- **Error**: Hip positioned too high on opponent's thigh rather than directly behind knee [Low DANGER]
+- **Mistake**: Hip positioned too high on opponent's thigh rather than directly behind knee [Low DANGER]
   - **Consequence**: No hyperextension pressure on knee joint, easy escape by turning into position
   - **Correction**: After landing, make precise micro-adjustment to place your hip bone directly on the back of their knee joint line. Lower hip position slightly if needed.
-- **Error**: Allowing opponent's toes to point downward (knee bent position) [Medium DANGER]
+- **Mistake**: Allowing opponent's toes to point downward (knee bent position) [Medium DANGER]
   - **Consequence**: Leg position becomes defensive, removing all finishing leverage and enabling escape
   - **Correction**: Actively control foot angle - use your chest to pin ankle in plantarflexed position (toes pointing up/toward you). Never allow their heel to move toward buttocks.
-- **Error**: Jerking or spiking the finish with sudden explosive pressure [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the finish with sudden explosive pressure [CRITICAL DANGER]
   - **Consequence**: Catastrophic knee injury (PCL/MCL tear), permanent damage, and training partner lost
   - **Correction**: Even in competition, ramp pressure progressively over 2-3 seconds. In training, 5-7 second minimum ramp time. Think 'squeeze and extend' not 'rip and tear'.
-- **Error**: Practicing at full speed/resistance before mastering controlled entries [CRITICAL DANGER]
+- **Mistake**: Practicing at full speed/resistance before mastering controlled entries [CRITICAL DANGER]
   - **Consequence**: High injury rate to both partners, failed technique development, and dangerous training culture
   - **Correction**: Spend 8-12 weeks minimum on crash pad drilling with zero resistance before adding any live pressure. Brown belt minimum for live application.
 
@@ -308,7 +308,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Flying Kneebar from Guard Pull**: Instead of jumping from standing range, initiate from closer distance by grabbing sleeves/wrists (gi) or overhooks (no-gi). Sit to guard pull position, but instead of establishing seated guard, immediately convert to flying kneebar by threading inside leg across hip and rotating backward. This variation has shorter flight time and more control throughout entry. (When to use: When opponent is extremely defensive to traditional flying entries or when competing under rulesets that allow guard pulls but you want to catch opponent off-guard with dynamic attack.)
 
 **Rolling Kneebar (Ground-Based Entry)**: From opponent's standing position while you're on ground (turtle, seated guard, etc.), grab their ankle with both hands and perform forward roll over your shoulder while maintaining ankle grip. As you roll, your legs configure around their leg identically to flying kneebar. This variation sacrifices surprise but increases control and reduces fall risk. (When to use: When you're already in bottom position and opponent stands to pass, or when opponent is too defensive for aerial entry but creates opening with standing posture.)
@@ -353,7 +353,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Phase 1: Technical Understanding and Static Drilling** (Weeks 1-2)
 - Focus: Study video breakdown of elite practitioners executing technique. Practice jump entry mechanics on crash pads with no partner. Drill static kneebar position from ground to understand finishing mechanics. Develop proper breakfall through dedicated ukemi training (forward rolls, backward rolls, side falls from height).
 - Resistance: None
@@ -390,7 +390,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Standing Guard]]
 - [[Standing Position]]
@@ -404,7 +404,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kneebar]]
 - [[Kneebar from Guard]]
@@ -445,7 +445,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The flying kneebar represents one of the most spectacular techniques in our sport, but it must be approached with scientific rigor and safety consciousness. The biomechanics of this submission are unforgiving - you are creating knee hyperextension through a dynamic entry where positional errors are magnified by momentum and rotational forces. The key to safe and effective execution lies in understanding that this is fundamentally TWO separate techniques married together: first, the aerial entry and rotation which demands gymnastic body control, and second, the kneebar finish which requires precise joint isolation. Most practitioners fail because they attempt to finish before the rotation is complete, creating torque in dangerous planes. From a systematic perspective, I teach students to master static kneebar mechanics for 6-12 months before ever attempting flying entries. The finish must become automatic and precise before adding the complexity of aerial rotation. When drilling, focus on these technical checkpoints: hip position directly behind knee joint, ankle locked to chest, legs configured to prevent rotation, and progressive pressure application over minimum 5 seconds in training. The flying kneebar should only be attempted by advanced practitioners (brown belt minimum) who have demonstrated exceptional body control and unwavering respect for their training partners' safety. This is not a technique to be learned from YouTube - seek qualified instruction and progress through systematic drilling protocols over months, not weeks.
 - **Gordon Ryan**: In competition, the flying kneebar is an absolute game-changer when you have the athleticism and confidence to execute it. I've hit this in ADCC and other high-level matches because it catches opponents completely off-guard - they're not expecting you to jump on them from standing range. But here's the reality: this move has maybe 30-40% success rate even at the highest levels, and you're putting yourself at positional risk if it fails. That said, when it works, it's an instant finish. The key is timing - you need to hit it when they're moving forward or reaching for grips, not when they're static and balanced. I look for the moment they step forward with that lead leg and commit their weight. The entry has to be committed and explosive - if you hesitate halfway through, you're going to land in a terrible position and probably get passed or taken down. Once you land in the kneebar position, the finish is straightforward if you've drilled your leg locks properly. My hip goes behind the knee, I pull the ankle tight, and I extend smoothly but firmly over 2-3 seconds - even in competition I give them time to tap because knee injuries take months to recover from and I need training partners. One important distinction: in training, I almost NEVER use this technique at full speed because the injury risk is too high. I'll drill the entry slowly and finish with control. In competition, I'll use it strategically when the moment is perfect. Young guys want to fly around hitting this constantly, but that's how you end up with no training partners and a reputation as dangerous. Master the static kneebar first, get your athleticism to a high level, then add the flying entry gradually over many months of drilling.
 - **Eddie Bravo**: The flying kneebar is one of those techniques that embodies the creativity and fearlessness of 10th Planet Jiu-Jitsu, but it also demands respect and responsibility. I've always encouraged innovation and dynamic entries, but with leg locks especially, you've got to balance aggression with control. The flying kneebar fits into our no-gi game perfectly because without sleeves and collars, opponents stand up more often, creating opportunities for these aerial attacks. From a 10th Planet perspective, we teach this as part of a broader system - it's not an isolated move but rather one option in your leg lock arsenal. We drill this extensively on crash pads first, making sure students can control their rotation and land safely. The creativity comes in the setups - we hit flying knees from failed guard pulls, from opponent's single leg attempts, even from scrambles where they're standing and we're inverted. The key innovation we emphasize is creating misdirection: threaten a traditional guard pull or ankle pick, and when they react, convert to the flying entry. Safety-wise, we have strict protocols at 10th Planet gyms: white and blue belts don't touch this technique in live training, period. Purple belts can drill it controlled only. Brown and black belts can apply it in sparring but with explicit partner consent and slow finishes. Even in our competition-focused training camps, we emphasize that hurting training partners is counterproductive to your development. The injury culture in some leg lock schools is unacceptable - you can be innovative and aggressive while still protecting your teammates. When teaching the finish, I tell students to think about the tap happening in their mind BEFORE they apply full pressure. Visualize your partner tapping, then apply just enough pressure to make that visualization reality. This isn't about ripping limbs - it's about technical superiority and creating that moment where your opponent knows they're caught. That's the art of it.

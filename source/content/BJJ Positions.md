@@ -1330,7 +1330,7 @@ Complete guide to all BJJ positions. Learn the positional hierarchy, point value
 - **Total Positions**: 153
 - **Items with complete content**: 153
 - **Items needing JSON updates**: 0
-- **Last Updated**: November 12, 2025
+- **Last Updated**: November 14, 2025
 
 ---
 

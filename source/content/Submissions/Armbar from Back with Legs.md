@@ -8,7 +8,7 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
 
 
 
-> **Quick Answer**: Armbar from Back with Legs is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation - apply slowly over 3-5 seconds and release immediately upon tap.
+> Armbar from Back with Legs is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="safety-considerations" class="content-section">
 
-## Is Armbar from Back with Legs Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Maintain back control throughout the transition using leg configuration to prevent rolling escapes
 - Isolate the arm by using your legs to control their upper body and head while transitioning
 - Create the proper angle by swinging your leg over their face to establish the armbar position
@@ -225,7 +225,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish secure back control with at least one hook in and seatbelt grip control
 - Opponent is defending rear naked choke by keeping chin tucked and hands fighting your grips
 - You can isolate one of their arms away from their body through grip fighting or positioning
@@ -239,7 +239,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure the target arm from back control**: From back control with seatbelt grip, identify which arm you will attack (typically the arm they are using to fight your choking hand). Use your choking-side hand to grab their wrist while maintaining your other hook and upper body control. Pull their wrist across their body toward your hip-side, breaking their defensive frame and isolating the limb from their torso. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Transition your hips and establish leg over face**: While controlling their wrist with both hands, remove your top hook and swing that leg over their face and shoulder, placing your calf/shin across their face and throat area. This leg acts as a barrier to prevent them from turning into you. Keep your bottom hook in place initially to maintain back exposure and prevent them from turning away. Your hips should begin to pivot perpendicular to their body. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Complete hip rotation and establish armbar configuration**: Rotate your hips fully perpendicular to their body while maintaining wrist control with both hands. Remove your bottom hook and bring that leg over their torso, establishing a figure-four or tight leg configuration around their upper body. Their arm should now be extended across your hips with your legs controlling their head and upper body. Ensure their thumb points upward (pronated position) for maximum elbow vulnerability. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -252,7 +252,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Rolling forward over their trapped shoulder to relieve pressure** (Effectiveness: Medium) - Your Adjustment: Anticipate the roll by keeping your top leg heavy across their face and your bottom leg hooked under their far shoulder. If they commit to rolling, follow the roll while maintaining wrist control and re-establish the position on top. Some advanced practitioners will allow the roll and finish the armbar from the top position.
 - **Grabbing their own gi lapel or belt to create a defensive grip** (Effectiveness: Low) - Your Adjustment: This grip only delays the inevitable if you have proper position. Continue to extend their arm and elevate your hips. The defensive grip will break under sufficient hip pressure, or you can attack the fingers to break the grip before applying full extension pressure.
 - **Turning into you to stack your hips and compress your legs** (Effectiveness: High) - Your Adjustment: This is the most dangerous defense and must be prevented early. Keep your top leg heavy across their face to prevent the turn. If they begin turning, you may need to abandon the armbar and transition to other back attacks, or quickly adjust to a belly-down armbar configuration if you can maintain arm control.
@@ -262,31 +262,31 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Releasing back control too early before establishing leg configuration [Low DANGER]
+## Common Mistakes
+- **Mistake**: Releasing back control too early before establishing leg configuration [Low DANGER]
   - **Consequence**: Opponent can roll forward or turn into you, completely escaping the submission attempt and potentially reversing position
   - **Correction**: Maintain at least one hook in place until your leg is over their face and you have secure wrist control. The transition should be smooth but methodical, never rushed. Think of your legs as transferring control, not abandoning it.
-- **Error**: Failing to control the wrist with both hands during transition [Medium DANGER]
+- **Mistake**: Failing to control the wrist with both hands during transition [Medium DANGER]
   - **Consequence**: Opponent can retract their arm or establish defensive grips, completely nullifying the submission attempt
   - **Correction**: From the moment you isolate their arm, both hands should be controlling the wrist or hand. Never release this grip during the transition. Your hands are the anchor point while your body repositions.
-- **Error**: Not squeezing knees together, leaving space around their shoulder [Low DANGER]
+- **Mistake**: Not squeezing knees together, leaving space around their shoulder [Low DANGER]
   - **Consequence**: Opponent can extract their arm by pulling their elbow back, or can turn into you more easily
   - **Correction**: Actively squeeze your knees together as if trying to touch them. This eliminates space and locks their shoulder in place. The squeeze should be maintained throughout the entire finishing sequence.
-- **Error**: Allowing their thumb to point downward instead of upward [Medium DANGER]
+- **Mistake**: Allowing their thumb to point downward instead of upward [Medium DANGER]
   - **Consequence**: Reduces submission effectiveness dramatically and allows the hitchhiker escape, potentially causing wrist injury instead of elbow pressure
   - **Correction**: Constantly monitor thumb position. Their thumb should point toward their head (supinated position). Adjust your wrist grips to maintain this position throughout the submission.
-- **Error**: Explosive or jerking hip extension when applying finishing pressure [CRITICAL DANGER]
+- **Mistake**: Explosive or jerking hip extension when applying finishing pressure [CRITICAL DANGER]
   - **Consequence**: SEVERE elbow dislocation or ligament rupture before opponent can tap, causing permanent injury
   - **Correction**: ALWAYS apply hip extension pressure gradually over 3-5 seconds minimum. The submission should feel like a steadily increasing force, not a sudden snap. Give your partner time to recognize the danger and tap. In training, never exceed 70% of maximum pressure.
-- **Error**: Positioning their elbow too high on your torso instead of over hip bones [Low DANGER]
+- **Mistake**: Positioning their elbow too high on your torso instead of over hip bones [Low DANGER]
   - **Consequence**: Reduces leverage significantly and makes the submission feel loose, allowing easier escapes
   - **Correction**: Ensure their elbow joint is positioned directly over your hip bones, which serve as the fulcrum point. Your hips should be slightly elevated, with your shoulders lower than your hips. This creates the optimal lever geometry.
-- **Error**: Letting your top leg become passive instead of maintaining pressure across their face [Medium DANGER]
+- **Mistake**: Letting your top leg become passive instead of maintaining pressure across their face [Medium DANGER]
   - **Consequence**: Opponent can turn into you, stack your position, or reduce the effectiveness of your hip extension
   - **Correction**: Keep your top leg active and heavy across their face throughout the submission. This leg should be pushing their head away and down, preventing them from looking at their trapped arm or turning into you. Think of it as a steering wheel controlling their upper body direction.
-- **Error**: Attempting the submission when opponent has strong defensive posture [Low DANGER]
+- **Mistake**: Attempting the submission when opponent has strong defensive posture [Low DANGER]
   - **Consequence**: Low success rate and wasted energy, potentially losing back control entirely during failed attempt
   - **Correction**: Only attempt this submission when you have broken their defensive posture and can isolate an arm. If they are maintaining strong defensive frames, work to break down their posture first or choose a different attack. Patience in attack selection is crucial.
 
@@ -295,7 +295,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Belly-Down Armbar Transition**: If opponent begins to turn into you during the setup, you can transition to a belly-down armbar instead of fighting the roll. Maintain wrist control, allow them to turn toward you, then roll over their body while keeping the arm isolated, finishing with your chest on their shoulder blade. (When to use: When opponent successfully initiates a turn into you during the initial transition and you cannot prevent it with leg pressure. This variation converts their escape attempt into a different finishing position.)
 
 **Armbar from Body Triangle Back Control**: If you have back control with a body triangle already established, you can transition to the armbar while maintaining the triangle lock. This provides even more control during the transition as your legs are already configured, making it extremely difficult for opponent to roll or escape. (When to use: When you have already secured body triangle back control and opponent is defending the choke. The locked triangle makes this variation more secure but requires excellent hip flexibility to complete the armbar transition.)
@@ -338,7 +338,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Movement Pattern Only)** (Week 1-2)
 - Focus: Learn the transition mechanics from back control to armbar position without any submission pressure. Practice swinging your leg over, establishing wrist control, and positioning the arm across your hips. Partner provides zero resistance and keeps their arm completely relaxed. Focus on smooth, controlled movements and proper body positioning.
 - Resistance: None
@@ -375,7 +375,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Back Control]]
 - [[Body Triangle]]
@@ -391,7 +391,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Armbar from Back]]
 - [[Rear Naked Choke]]
@@ -430,7 +430,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The armbar from back control with leg configuration represents the highest evolution of back attack finishing systems because it maintains the fundamental principle of never abandoning superior position until the submission is absolutely secured. What makes this variation particularly effective is the biomechanical reality that your legs create a frame that is nearly impossible for the opponent to escape once properly established. The critical detail that most practitioners miss is understanding that your legs must function as an active control system throughout the transition, not merely as passive holding mechanisms. Your top leg across the face is controlling the rotational direction of their upper body - it is steering their escape options toward your desired outcome. The bottom leg under the shoulder prevents rolling escapes by creating a barrier to forward rotation. These two legs working together create what I call a 'rotational cage' where the opponent's movement is constrained to a very narrow range that does not include effective escape paths. The submission itself is finished with the same mechanical principles as any armbar - hip extension against an isolated hyperextended joint - but the leg configuration makes the success rate dramatically higher because you have eliminated their primary defensive responses before applying finishing pressure. From a safety perspective in training, this submission requires even more careful application than standard armbars because your control is so complete that partners may not recognize how much danger they are in until it is too late. Always apply progressive pressure over 5 seconds minimum and watch for any sign of distress, not just verbal or physical taps.
 - **Gordon Ryan**: In competition, the armbar from back with legs is one of my highest percentage finishes because it combines the best of both worlds - maintaining back control points while attacking a submission. The beautiful thing about this attack is that even if you don't finish, you're not giving up the back position like you might with other submission attempts. I see a lot of competitors make the mistake of rushing the transition because they're worried about losing the back, but that's exactly when you get rolled or they escape. The key is being patient with establishing your leg over their face - that leg is everything. If you get that leg positioned correctly across their face before you commit to removing your bottom hook, they literally cannot turn into you no matter how hard they try. In training, I work this submission at probably 60-70% maximum pressure because the control is so good that you can seriously hurt someone before they realize they need to tap. I've had training partners tell me they didn't feel threatened until suddenly they were in serious danger, which means I wasn't communicating the progression clearly enough with my pressure application. In competition, this is a different story - once I have the position locked, the finish is fast because I know they're not tapping early. But that competition mindset has no place in the training room. The other thing I focus on is making sure their thumb is pointing up before I extend my hips. If the thumb is down, you're basically doing a wrist lock that won't finish, and you're wasting an incredible position. Small detail, massive difference in finishing rate.
 - **Eddie Bravo**: The armbar from back with the leg configuration is one of those positions where the 10th Planet system really shines because we've always emphasized using your legs as active submission tools, not just hooks for points. What I love about this finish is that it fits perfectly into the rubber guard philosophy of using your legs to control and attack simultaneously. When you swing that leg over their face, you're essentially creating what we call a 'mission control' type situation but from the back - your leg is controlling their head position and preventing defensive movements while setting up the submission. The beauty is that this submission actually works better in no-gi than gi in many ways, because in gi they can grab their own lapel and create that defensive frame, but in no-gi their grip options are way more limited. I teach my students to think of this as a flow position where you're ready to transition between the armbar, a triangle from back, or even returning to standard back control based on how they defend. You're never stuck in one attack - you're flowing between multiple threats. From a training safety perspective, this is critical to emphasize: we train to flow and create movement, not to injure our partners. The 10th Planet culture is all about being technical and creative, but never at the expense of your training partner's safety. When you're working this armbar, you need to be giving your partner every opportunity to tap - slow pressure, clear communication, and immediate release when they tap. We want everyone coming back to train tomorrow, not sitting out with elbow injuries. That said, once you get good at this position, it's one of the most satisfying submissions in jiu-jitsu because the control is just so complete and the finish is so clean when you have all the details right.

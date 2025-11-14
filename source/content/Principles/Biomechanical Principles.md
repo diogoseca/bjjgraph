@@ -8,7 +8,7 @@ description: "Master biomechanical principles in BJJ. Learn leverage optimizatio
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master biomechanical principles in BJJ. Learn leverage optimizatio
 
 
 
-> **Quick Answer**: Biomechanical Principles is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Biomechanical Principles is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Biomechanical Principles in BJJ represent the fundamental physical laws and mech
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Leverage maximization - Using mechanical advantage through proper fulcrum placement and force application points to multiply effective strength
 - Force vector optimization - Directing force along the most efficient paths to overcome resistance with minimal energy expenditure
 - Structural integrity maintenance - Maintaining skeletal alignment and connection to transfer force efficiently without energy loss
@@ -181,7 +181,7 @@ Biomechanical Principles in BJJ represent the fundamental physical laws and mech
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Lever Analysis**: The ability to identify fulcrum points, resistance arms, and force application points in any position or technique. This includes recognizing where to place pressure, where joints act as pivot points, and how to maximize mechanical advantage by manipulating the relative lengths of lever arms in both offensive and defensive situations.
 
 **Force Vector Recognition**: Understanding the direction and magnitude of forces in any position, including how to direct force perpendicular to opponent's structure for maximum effect, how to redirect incoming force away from your center of mass, and how to combine multiple force vectors for compound mechanical advantages in submissions and positional control.
@@ -204,7 +204,7 @@ Biomechanical Principles in BJJ represent the fundamental physical laws and mech
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Leverage Principles]]** (Complementary): Leverage Principles represents the specific application of biomechanical laws to BJJ techniques. While Biomechanical Principles provides the theoretical physics foundation, Leverage Principles translates those laws into practical grappling applications and technique-specific implementations.
 - **[[Base Maintenance]]** (Extension): Base Maintenance applies biomechanical principles of geometry, center of gravity, and structural stability to the specific challenge of maintaining balance and position. It represents one practical application domain of broader biomechanical understanding focused on defensive stability.
 - **[[Frame Creation]]** (Extension): Frame Creation utilizes biomechanical principles of structural integrity and force distribution to create defensive structures. The physics of skeletal alignment, rigid body mechanics, and force redirection underpin all effective framing techniques.
@@ -220,7 +220,7 @@ Biomechanical Principles in BJJ represent the fundamental physical laws and mech
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Biomechanics determines optimal weight distribution for control (pressure concentrated through hips and knees), proper base geometry (wide knee placement creating stable triangle), and force vectors for maintaining position (downward and forward pressure preventing hip escape mechanics).
 
 **Side Control**: Physics dictates efficient cross-face mechanics (perpendicular force to spine), shoulder pressure application (concentrating weight through skeletal structure), and base positioning (low center of gravity, wide base preventing opponent's bridging leverage).
@@ -257,7 +257,7 @@ Biomechanical Principles in BJJ represent the fundamental physical laws and mech
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Analyze the current mechanical situation**: Identify your structural position, opponent's structural position, current force vectors, and available lever points. Assess base geometry for both you and opponent, recognizing mechanical advantages and disadvantages in the position.
 2. **Identify the primary mechanical objective**: Determine whether the situation requires creating leverage (offensive), maintaining structural integrity (defensive), disrupting opponent's structure, or transitioning between positions. Define success in mechanical terms (angles achieved, pressures applied, bases disrupted).
 3. **Select optimal fulcrum and lever configuration**: Choose the most efficient lever system available given your body position and physical attributes. Identify where to place pressure, which joints act as pivot points, and how to maximize the ratio between resistance arm and effort arm for mechanical advantage.
@@ -270,28 +270,28 @@ Biomechanical Principles in BJJ represent the fundamental physical laws and mech
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Applying force against opponent's strongest structural alignment
+## Common Mistakes
+- **Mistake**: Applying force against opponent's strongest structural alignment
   - **Consequence**: Technique requires excessive strength and energy, often failing against resistance despite correct movement pattern. Creates strength-versus-strength battles that favor larger, stronger opponents and lead to rapid fatigue.
   - **Correction**: Redirect force perpendicular to opponent's structure or attack from angles where skeletal alignment cannot efficiently resist. Identify the direction where opponent's bones, joints, and muscles cannot coordinate defensive force, then apply pressure along that vector.
-- **Error**: Neglecting base geometry before attempting techniques
+- **Mistake**: Neglecting base geometry before attempting techniques
   - **Consequence**: Techniques fail due to insufficient stability, allowing opponent to counter or reverse position. Practitioner loses balance mid-technique, creating defensive vulnerabilities and failed offensive attempts that waste energy and position.
   - **Correction**: Establish proper triangular base configuration before initiating techniques. Ensure center of gravity is positioned correctly relative to base points, creating mechanical stability that allows force generation without compromising positional security.
-- **Error**: Using arms instead of kinetic chain for force generation
+- **Mistake**: Using arms instead of kinetic chain for force generation
   - **Consequence**: Techniques lack power and efficiency, relying on weak muscle groups instead of engaging legs, hips, and core. Results in arm fatigue, insufficient force to overcome resistance, and mechanical disadvantage against opponents using proper body mechanics.
   - **Correction**: Initiate all force generation from feet, legs, and hips. Use arms only as connectors that transmit force from larger muscle groups to application points. Maintain rigid arm structure to prevent energy loss while generating power from lower body.
-- **Error**: Failing to identify and exploit fulcrum points
+- **Mistake**: Failing to identify and exploit fulcrum points
   - **Consequence**: Techniques require more force than necessary because mechanical advantage is not optimized. Submissions feel tight but don't finish, sweeps require excessive strength, and positions are harder to maintain than they should be.
   - **Correction**: Analyze each technique to identify the natural fulcrum point (usually a joint or contact point). Position your force application to maximize the distance from fulcrum while minimizing opponent's resistance arm length, creating optimal lever ratios for mechanical advantage.
-- **Error**: Maintaining improper skeletal alignment during force application
+- **Mistake**: Maintaining improper skeletal alignment during force application
   - **Consequence**: Generated force dissipates through structural collapse instead of transmitting to opponent. Joints bend when they should remain rigid, spine curves when it should stay straight, resulting in energy loss and reduced effective pressure.
   - **Correction**: Focus on maintaining bone-on-bone stacking and structural rigidity through the force transmission pathway. Keep joints aligned, engage core muscles to prevent spinal collapse, and create rigid frames that channel force efficiently from generation point to application point.
-- **Error**: Ignoring rotational mechanics in favor of linear force
+- **Mistake**: Ignoring rotational mechanics in favor of linear force
   - **Consequence**: Missing opportunities for sweeps, escapes, and reversals that require less strength when executed with proper rotation. Attempting to push or pull directly when circular motion would be more efficient, leading to failed techniques against strong positional players.
   - **Correction**: Recognize situations where rotational mechanics are superior to linear force application. Use torque around appropriate axes (opponent's spine, your hip, their base points) to generate angular momentum that overcomes resistance through circular rather than straight-line movement.
-- **Error**: Distributing pressure broadly instead of concentrating force
+- **Mistake**: Distributing pressure broadly instead of concentrating force
   - **Consequence**: Positional control feels loose and escapable because force is spread across large surface area. Opponent can create space and escape more easily because pressure at any single point is insufficient to immobilize or control effectively.
   - **Correction**: Concentrate body weight through strategic pressure points (knee, shoulder, hip bone) to create maximum control with minimum energy. Understand when to distribute pressure (initial position establishment) versus when to concentrate it (securing position and preventing escape).
 
@@ -300,7 +300,7 @@ Biomechanical Principles in BJJ represent the fundamental physical laws and mech
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Mechanical Visualization Practice** (Focus: Developing conscious awareness of mechanical principles underlying techniques, building mental models that allow analysis and troubleshooting, and creating deeper understanding beyond surface-level movement imitation.)
 During technique instruction and drilling, pause to explicitly identify and discuss the biomechanical principles at work. Draw diagrams showing force vectors, identify fulcrum points, analyze lever arms, and discuss why the technique works from a physics perspective before drilling repetitions.
 
@@ -325,7 +325,7 @@ During rolling, verbally identify the primary lever system being used immediatel
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can identify obvious lever points when explicitly pointed out by instructor during technique demonstration
 - Recognizes the importance of base stability but struggles to maintain it during dynamic movement or when applying techniques
@@ -364,7 +364,7 @@ During rolling, verbally identify the primary lever system being used immediatel
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Leverage Principles]] (Principle) - Complementary concept providing technique-specific applications of biomechanical theory
 - [[Base Maintenance]] (Principle) - Practical application of biomechanical stability and geometry principles
@@ -382,7 +382,7 @@ During rolling, verbally identify the primary lever system being used immediatel
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The fundamental error most practitioners make is treating jiu-jitsu as a collection of memorized movements rather than a mechanical system governed by physical laws. Every technique that works does so because it creates a favorable mechanical relationship between you and your opponent - optimal leverage, efficient force vectors, and structural superiority. When you understand the biomechanical principles underlying techniques, you gain the ability to diagnose failures, create variations, and innovate solutions to novel problems. I emphasize to my students that technique is simply applied physics - if a movement isn't working, there's a specific mechanical reason why, and addressing that mechanical deficiency is far more effective than simply trying harder or moving faster. The systematic study of biomechanics transforms jiu-jitsu from an art of memorization into a science of mechanical problem-solving, where every position can be analyzed and every technique can be optimized through rigorous application of physical principles.
 - **Gordon Ryan**: Understanding the biomechanics behind techniques has been crucial to my competitive success because it allows me to make techniques work even when opponents know they're coming. When everyone at the elite level knows the same techniques, the differentiator becomes mechanical efficiency - who can create better angles, apply leverage more precisely, and maintain structural integrity under pressure. I focus heavily on the physics of pressure distribution in my passing and top game, understanding exactly where to concentrate my weight for maximum control while conserving energy. The biomechanical principles of base disruption and lever manipulation allow me to sweep larger opponents and submit stronger grapplers because I'm not relying on attributes - I'm exploiting mechanical advantages that exist regardless of size or strength. In competition, when fatigue sets in and everything becomes harder, having deeply ingrained biomechanical efficiency means my techniques still work while opponents who rely on athleticism begin to fail. The physics doesn't change when you're tired.
 - **Eddie Bravo**: The beautiful thing about understanding biomechanics is it frees you to innovate and create new techniques instead of being limited to what you've been taught. When I developed the rubber guard system and twister mechanics, I wasn't following traditional jiu-jitsu - I was applying biomechanical principles to create positions and leverage configurations that people hadn't explored yet. The physics of the human body doesn't care about tradition or belt rank, it just is. If you can create a mechanically superior position through unconventional means, it works regardless of whether it's in the textbook. I teach my students to understand the 'why' behind techniques from a physics perspective because that understanding allows them to modify, adapt, and create their own techniques based on their unique body types and attributes. The biomechanical principles are universal, but their application can be endlessly creative. Whether you're using traditional positions or inventing new ones, if you're applying force efficiently through proper leverage and structural mechanics, the technique will be effective.

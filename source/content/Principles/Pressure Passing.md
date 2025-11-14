@@ -8,7 +8,7 @@ description: "Master pressure passing fundamentals in BJJ. Learn weight distribu
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master pressure passing fundamentals in BJJ. Learn weight distribu
 
 
 
-> **Quick Answer**: Pressure Passing is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Pressure Passing is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Pressure Passing represents the strategic framework of using forward pressure, w
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Generate consistent forward pressure that flattens opponent and restricts hip mobility
 - Distribute weight strategically to control opponent's movement while maintaining passing stability
 - Maintain stable base throughout passing sequence preventing sweeps during pressure application
@@ -181,7 +181,7 @@ Pressure Passing represents the strategic framework of using forward pressure, w
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Weight Distribution Mechanics**: The ability to strategically shift and distribute body weight to maximize pressure on opponent while maintaining balance and base stability. This includes understanding how to position hips, chest, and shoulders to create maximum restriction without compromising passing structure or creating sweep opportunities.
 
 **Flattening Techniques**: Systematic methods for removing opponent's ability to create angles and maintain guard structure by driving them flat onto their back. This involves coordinating crossface pressure, shoulder driving, and hip control to eliminate the space and angles necessary for effective guard retention.
@@ -204,7 +204,7 @@ Pressure Passing represents the strategic framework of using forward pressure, w
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Pressure Application]]** (Prerequisite): Pressure Application provides the foundational understanding of how to generate and transfer pressure effectively, which Pressure Passing builds upon by systematizing pressure use specifically for guard passing contexts.
 - **[[Guard Passing Principles]]** (Extension): Pressure Passing represents one major strategic approach within the broader Guard Passing Principles framework, offering a systematic methodology focused on control and restriction rather than speed or agility.
 - **[[Base Maintenance]]** (Complementary): Base Maintenance works synergistically with Pressure Passing by providing the stability necessary to apply aggressive forward pressure without creating sweep vulnerabilities, making these concepts mutually reinforcing.
@@ -220,7 +220,7 @@ Pressure Passing represents the strategic framework of using forward pressure, w
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Apply sustained chest-to-chest pressure while breaking posture and establishing grips that prevent opponent from creating angles, using forward pressure to flatten opponent and restrict hip mobility necessary for sweep attempts or submissions.
 
 **Half Guard**: Use crossface and shoulder pressure to drive opponent flat while controlling the trapped leg, applying systematic pressure that prevents underhook establishment and eliminates space for recovery to full guard or sweep attempts.
@@ -251,7 +251,7 @@ Pressure Passing represents the strategic framework of using forward pressure, w
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess opponent's guard type and structural integrity**: Identify specific guard variation and evaluate whether opponent's posture is upright (requiring flattening) or already compromised (enabling immediate pressure application)
 2. **Establish pressure-enabling grips and positioning**: Secure grips (collar, sleeve, pants) that facilitate pressure transfer while positioning body to maximize forward pressure potential and base stability
 3. **Initiate systematic flattening sequence**: Apply coordinated upper body pressure (crossface, shoulder drive) with lower body positioning to drive opponent onto back, eliminating angles necessary for guard retention
@@ -264,25 +264,25 @@ Pressure Passing represents the strategic framework of using forward pressure, w
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Applying excessive pressure without maintaining base stability
+## Common Mistakes
+- **Mistake**: Applying excessive pressure without maintaining base stability
   - **Consequence**: Creates sweep vulnerabilities as forward momentum can be exploited by opponent to execute elevator sweeps, butterfly sweeps, or hip bump reversals despite the pressure advantage
   - **Correction**: Maintain wide base with knees and posts, keeping center of gravity low while applying pressure primarily through chest and shoulders rather than overcommitting weight forward beyond stable structure
-- **Error**: Using static pressure without modulation or adjustment
+- **Mistake**: Using static pressure without modulation or adjustment
   - **Consequence**: Allows opponent to establish defensive frames and rhythms against consistent pressure, enabling them to time escapes or create space during predictable pressure application patterns
   - **Correction**: Continuously adjust pressure intensity and direction based on opponent's reactions, using pressure surges when they attempt to move and strategic pressure releases when advancing position
-- **Error**: Advancing position prematurely before pressure has adequately compromised guard structure
+- **Mistake**: Advancing position prematurely before pressure has adequately compromised guard structure
   - **Consequence**: Enables opponent to recover guard during transition as insufficient pressure restriction allows hip mobility and guard retention mechanics to remain functional despite passing attempt
   - **Correction**: Ensure opponent is fully flattened with hips controlled before attempting position advancement, using sustained pressure to eliminate all guard recovery options before transitioning
-- **Error**: Neglecting upper body control while focusing exclusively on leg positioning
+- **Mistake**: Neglecting upper body control while focusing exclusively on leg positioning
   - **Consequence**: Permits opponent to establish frames, create angles with upper body movement, or recover guard structure despite effective lower body pressure through uncontrolled shoulder and head positioning
   - **Correction**: Coordinate upper body pressure (crossface, shoulder drive) with lower body control, ensuring comprehensive pressure that restricts both hip mobility and upper body defensive capabilities simultaneously
-- **Error**: Failing to protect against leg entanglement opportunities during pressure application
+- **Mistake**: Failing to protect against leg entanglement opportunities during pressure application
   - **Consequence**: Creates vulnerability to leg lock entries as sustained forward pressure without proper distance management can enable opponent to establish ashi garami or other leg entanglement positions
   - **Correction**: Maintain appropriate distance from opponent's legs while applying pressure, using headquarters positioning or strategic leg positioning that applies pressure while protecting against leg entanglements
-- **Error**: Exhausting energy through continuous maximum pressure application
+- **Mistake**: Exhausting energy through continuous maximum pressure application
   - **Consequence**: Depletes stamina rapidly making sustained pressure passing unsustainable over multiple rounds, forcing abandonment of pressure approach despite its effectiveness due to energy depletion
   - **Correction**: Modulate pressure to use minimum effective intensity for control, reserving maximum pressure for critical moments when opponent attempts to escape or when finalizing passes
 
@@ -291,7 +291,7 @@ Pressure Passing represents the strategic framework of using forward pressure, w
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Pressure Sparring** (Focus: Developing practical pressure passing skills against live resistance, learning to maintain pressure despite opponent's defensive efforts, and timing position advancement based on pressure effectiveness)
 Structured sparring sessions starting from specific guard positions where top player focuses exclusively on pressure application and methodical passing while bottom player defends using guard retention principles
 
@@ -316,7 +316,7 @@ Training sessions where practitioner alternates between applying pressure passin
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Applies forward pressure but struggles to maintain base stability, frequently getting swept when attempting aggressive pressure application
 - Uses static pressure without adjustment, failing to modulate pressure intensity based on opponent's reactions or position advancement needs
@@ -347,7 +347,7 @@ Training sessions where practitioner alternates between applying pressure passin
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Pressure Application]] (Principle) - Foundational concept providing core pressure mechanics that Pressure Passing systematizes for guard passing contexts
 - [[Guard Passing Principles]] (Principle) - Overarching framework containing Pressure Passing as one major strategic approach alongside speed and dynamic passing methodologies
@@ -367,7 +367,7 @@ Training sessions where practitioner alternates between applying pressure passin
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches pressure passing as fundamental guard passing methodology particularly effective against modern retention-based guard systems. Emphasizes systematic pressure application with specific protocols for flattening different guard types—knee shield, butterfly, X-guard—each requiring distinct pressure approaches. Teaches what he terms 'progressive pressure passing' where pressure intensifies incrementally while maintaining base stability, creating methodical advancement that minimizes risk. Systematizes pressure passing with clear decision frameworks showing when to apply pressure, when to advance position, and how to maintain control throughout sequences. Particularly emphasizes the importance of coordinating upper body pressure (crossface, shoulder pressure) with lower body control (hip control, leg control) for comprehensive passing effectiveness. Notes that pressure passing represents the most reliable passing methodology for controlling high-level opponents because it removes their ability to create the movement and angles necessary for guard retention, making it foundational rather than supplementary to guard passing development.
 - **Gordon Ryan**: Views pressure passing as essential component of his dominant guard passing game, particularly effective in no-gi contexts where reduced friction makes pressure control more critical. Focuses on aggressive forward pressure combined with systematic position advancement, creating relentless passing sequences that exhaust opponent's defensive capabilities. Emphasizes the importance of what he calls 'suffocating pressure' where opponent feels continuously compressed and unable to create space despite repeated attempts. Advocates for heavy sustained pressure that creates psychological as well as physical control, noting that opponents often mentally concede positions when they cannot create space despite maximum effort. Particularly innovative in his integration of leg attacks with pressure passing, using pressure control to set up leg entanglements when opponents defend passes by creating specific reactions he can exploit. Has demonstrated that pressure passing effectiveness scales directly with competition level, remaining effective even against elite guard players who successfully defend dynamic passing attempts through superior retention skills.
 - **Eddie Bravo**: Has developed specific pressure passing applications within his 10th Planet system, particularly focused on no-gi contexts where pressure advantages are magnified. When teaching pressure passing, emphasizes using pressure to create specific reactions that open submission opportunities rather than pure positional advancement. Particularly innovative in his approach to pressure passing half guard, developing the 'jiu-claw' and other pressure-based half guard passes that force opponent into predictable defensive patterns enabling attacks. Advocates for what he calls 'active pressure passing' where pressure is continuously modulated and redirected to prevent opponent from establishing defensive rhythms, creating more dynamic pressure approach compared to static pressure methodologies. Integrates pressure passing with his lockdown system, teaching how to use pressure effectively both when attacking with lockdown and when defending against it from top position. Notes that pressure passing becomes especially effective in MMA contexts where strikes can be integrated with pressure control, creating offensive dilemmas that pure grappling contexts cannot replicate.

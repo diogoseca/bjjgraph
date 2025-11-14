@@ -8,7 +8,7 @@ description: "Master the Technical Standup escape in BJJ. Step-by-step execution
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Technical Standup escape in BJJ. Step-by-step execution
 
 
 
-> **Quick Answer**: Technical Standup transitions from [[Seated Guard]] to [[Standing Position]]. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
+> Technical Standup transitions from [[Seated Guard]] to [[Standing Position]]. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Technical Standup is one of the most fundamental defensive movements in Braz
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish a strong posting base with hand and foot placement before initiating movement
 - Maintain constant visual contact with opponent throughout the entire sequence
 - Use systematic weight transfer from seated to standing without compromising defensive posture
@@ -180,7 +180,7 @@ The Technical Standup is one of the most fundamental defensive movements in Braz
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Seated position with weight on one hip and buttock, not flat on back
 - Both hands free and available for posting (no grips held by opponent)
 - Sufficient space between you and opponent to execute movement safely (minimum 2-3 feet)
@@ -193,7 +193,7 @@ The Technical Standup is one of the most fundamental defensive movements in Braz
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish seated base**: From seated position, plant one foot flat on the mat with knee up, approximately hip-width from your seated hip. The other leg can be extended or bent depending on opponent distance. Sit on one hip, not flat on your back, creating a stable triangular base with your seated hip and planted foot. (Timing: Complete before opponent closes distance)
 2. **Post rear hand**: Place your rear hand (same side as seated hip) flat on the mat behind you, fingers pointing away from body or slightly angled. The posting hand should be 12-18 inches behind your hip, creating a strong structural support. Keep elbow slightly bent to absorb force, not locked straight. (Timing: Establish solid post before weight transfer)
 3. **Frame with lead hand**: Extend your front hand (opposite side from posting hand) toward opponent with palm facing them, creating a defensive frame to manage distance. This hand acts as both a range-finder and a barrier to prevent opponent from closing distance during your standup. Keep this arm active and ready to post or frame as needed. (Timing: Simultaneous with or immediately after rear post)
@@ -206,7 +206,7 @@ The Technical Standup is one of the most fundamental defensive movements in Braz
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent rushes forward as you begin to stand, attempting to drive you back down** (Effectiveness: Medium) - Your Response: Maintain strong posting hand connection to mat longer than normal, use lead hand frame aggressively to create distance, and be prepared to sprawl or circle away if necessary. Can also abandon standup and recover guard if opponent commits too aggressively.
 - **Opponent grabs your posting ankle or foot during the step-through phase** (Effectiveness: High) - Your Response: Immediately kick free with the grabbed leg, posting more weight on your hand and other foot. If grip is secure, transition to a different guard recovery option such as turtle or seated guard rather than forcing the standup. Can also use free leg to kick or push opponent away.
 - **Opponent secures grip on your gi or wrist before you can establish posts** (Effectiveness: High) - Your Response: Break grips using proper grip-breaking mechanics before attempting standup, or use grips to your advantage by creating tension and off-balancing opponent as you stand. If grips cannot be broken, transition to guard recovery that works with the grips rather than against them.
@@ -215,25 +215,25 @@ The Technical Standup is one of the most fundamental defensive movements in Braz
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Posting hand too close to body or fingers pointing wrong direction
+## Common Mistakes
+- **Mistake**: Posting hand too close to body or fingers pointing wrong direction
   - **Consequence**: Weak structural support leads to collapsed base when weight is transferred, often resulting in falling backward or inability to elevate hips properly
   - **Correction**: Place posting hand 12-18 inches behind hip with fingers pointing away from body. Test the post by applying weight gradually before committing to full hip elevation.
-- **Error**: Attempting to stand up while seated flat on back instead of on hip
+- **Mistake**: Attempting to stand up while seated flat on back instead of on hip
   - **Consequence**: Extremely difficult to generate upward momentum, exposes you to being passed or having guard passed, and makes the movement mechanically inefficient
   - **Correction**: Always turn to one hip first, creating a seated position before initiating the technical standup sequence. This fundamental adjustment makes the entire movement significantly easier.
-- **Error**: Looking down at mat or away from opponent during standup
+- **Mistake**: Looking down at mat or away from opponent during standup
   - **Consequence**: Loss of situational awareness allows opponent to time attacks during vulnerable transition phases, and compromises posture making the movement less stable
   - **Correction**: Maintain constant eye contact with opponent throughout entire sequence. Your head position affects your balance and posture, so keep chin up and eyes forward.
-- **Error**: Dropping hips back to mat during the step-through phase
+- **Mistake**: Dropping hips back to mat during the step-through phase
   - **Consequence**: Creates opportunity for opponent to secure top position, forces you to restart the entire sequence, and wastes energy with incomplete attempts
   - **Correction**: Focus on maintaining maximum hip elevation throughout the step-through. Press actively through posting hand and front foot to keep hips high until back foot is planted.
-- **Error**: Removing posting hand from mat too early in the sequence
+- **Mistake**: Removing posting hand from mat too early in the sequence
   - **Consequence**: Loss of balance and structural support often results in falling or being unable to complete the standup, leaving you in vulnerable transitional position
   - **Correction**: Keep posting hand on mat until both feet are firmly planted and you have stable base. Only remove posting hand as final step when rising to standing position.
-- **Error**: Failing to maintain defensive frame with lead hand throughout movement
+- **Mistake**: Failing to maintain defensive frame with lead hand throughout movement
   - **Consequence**: Allows opponent to close distance uncontested, increasing likelihood of being tackled, guillotined, or having standup stuffed
   - **Correction**: Active lead hand frame is not passive - constantly assess distance and push opponent away if they attempt to close. This hand is your early warning system and defensive barrier.
 
@@ -242,7 +242,7 @@ The Technical Standup is one of the most fundamental defensive movements in Braz
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Mechanics** - Master each position in isolation without time pressure or opponent
 Practice establishing seated base, posting hand placement, and hip bridge separately. Perform 10-15 repetitions of each component daily, focusing on perfect positioning and balance. Use mirror or coach feedback to ensure proper hand placement, hip height, and head position. Goal is to build muscle memory for each phase.
 (Resistance: None)
@@ -269,7 +269,7 @@ Incorporate technical standup into live rolling with specific goals: standup to 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Rapid Standup (No-Gi)**: Simplified version without concern for gi grips, emphasizing speed and explosiveness. Hip bridge is lower and posting hand may leave mat earlier to accelerate the sequence. Lead hand focuses more on pushing opponent's head/shoulders than maintaining frame. (When to use: No-gi competition or MMA scenarios where opponent cannot grip clothing and speed is prioritized over perfect technique. Useful when opponent is momentarily out of range and quick standup is possible.)
 
 **Seated to Sprawl Standup**: Modified version where upon reaching standing position, immediately transition into sprawl position to defend against opponent's takedown attempt. Posting hand transitions to ground in sprawl position rather than coming to hands-up fighting stance. (When to use: When opponent is actively shooting for takedown as you stand, or when you anticipate immediate wrestling engagement upon reaching standing position. Common in MMA and self-defense scenarios.)
@@ -309,7 +309,7 @@ Incorporate technical standup into live rolling with specific goals: standup to 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The technical standup is generally a low-risk movement when performed correctly, but several safety considerations should be observed. Ensure adequate space before attempting the movement to avoid collision with training partners or obstacles. When first learning, practice on mats rather than hard surfaces to minimize impact if balance is lost. Do not rush the sequence - maintain control throughout each phase to prevent awkward falls or joint strain. Pay particular attention to wrist and shoulder positioning when posting; a hyperextended elbow or backward-bent wrist can lead to injury under load. If you have existing wrist, shoulder, or hip injuries, modify the technique or consult with your instructor about appropriate variations. When training with resistance, communicate with your partner about intensity levels to prevent injury during the learning phases. Be especially cautious when practicing with significant size mismatches, as a much larger opponent can generate forces that compromise your structure.
 
@@ -317,7 +317,7 @@ The technical standup is generally a low-risk movement when performed correctly,
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Technical Standup serves as a critical connective technique in BJJ's positional hierarchy, functioning primarily as a defensive exit strategy from compromised guard positions. When your guard has been opened or you've been swept but not yet controlled, the technical standup provides a safe pathway to reset the engagement to standing. From standing position, you regain the option to re-engage on your terms through guard pulls, remain standing to work takedowns, or create distance for strategic reset. The technique integrates seamlessly with guard retention systems, serving as the final layer when frames and barriers fail. It connects with various guard positions (seated guard, open guard, butterfly guard) as an escape option, and flows into standing positions where wrestling and judo techniques become available. In competition strategy, the technical standup allows you to control engagement pace, conserve energy by choosing when to re-engage, and avoid disadvantageous positions. The movement also teaches fundamental body mechanics that transfer to numerous other techniques: proper posting, weight transfer, hip elevation, and maintaining defensive awareness during transitions.
 
@@ -325,7 +325,7 @@ The Technical Standup serves as a critical connective technique in BJJ's positio
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Seated Guard]] - Primary starting position
 - [[Standing Position]] - Ending position and goal
@@ -345,7 +345,7 @@ The Technical Standup serves as a critical connective technique in BJJ's positio
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The technical standup represents one of the most elegant applications of leverage and systematic movement in all of grappling. What appears simple on the surface reveals profound biomechanical sophistication upon analysis. The posting hand creates a vertical load-bearing structure that, combined with the planted foot, forms a stable base for hip elevation - this is the same mechanical principle underlying countless techniques throughout BJJ. The systematic nature of the movement, progressing through clearly defined phases, makes it highly reliable and teachable. I emphasize to my students that the technical standup is not merely an escape technique but a fundamental movement pattern that teaches essential body mechanics: creating base, transferring weight systematically, maintaining defensive awareness during transitions, and using structure rather than athletics. The technique's reliability comes from its mechanical soundness - when executed with proper positioning, it works regardless of opponent's actions because you're not fighting them directly, you're creating geometric relationships they cannot easily attack. In self-defense contexts, this becomes even more critical as it provides a safe exit from the ground against opponents who may not understand grappling but can still be dangerous. Master this fundamental and you've developed movement patterns that will serve you throughout your entire grappling career.
 - **Gordon Ryan**: From a competition standpoint, the technical standup is one of the most underutilized weapons in high-level BJJ. I've used it countless times to reset engagements when my opponent has managed to shut down my guard, and it's saved me from difficult positions more times than I can count. The key thing people miss is that the standup isn't just about getting to your feet - it's about controlling the pace and terms of engagement. When you execute a clean technical standup, you force your opponent to make a decision: let you stand and reset, or commit to rushing in and potentially giving up position. I specifically train the standup as part of my guard retention sequences, always keeping it as my final option when other recoveries aren't working. In my matches, you'll notice I use the standup strategically when I'm ahead on points and want to force my opponent to take risks, or when I'm behind and need to reset a stalled position. The no-gi version is even more valuable because without grips to slow you down, you can execute it rapidly and create space before your opponent can react. The technical standup also sets up one of my favorite re-engagement strategies: stand up, force opponent to commit to their guard pull or standup, then capitalize on whatever they choose. It's a chess move, not just an escape.
 - **Eddie Bravo**: Man, the technical standup is one of those basics that too many people sleep on, especially in the 10th Planet system where we're always looking for creative solutions. But here's the thing - sometimes the old-school fundamental is still the best answer, and the technical standup is proof of that. We drill this constantly because in no-gi, when everything is fast and slippery, having that solid standup base is crucial. I teach it a bit differently than traditional schools though - I emphasize the explosion and the immediate transition to either sprawl or rubber guard pull because you can't just stand there and reset in real competition or MMA. The standup becomes a launching point for re-engagement on your terms. One thing I've added to our system is using the posting hand not just for base but as a weapon - if the opponent rushes in during your standup, that posting hand can frame their face, push their head, create angles. We also chain the technical standup with our lockdown escapes and twister positioning, so it's not isolated, it's part of a complete system. In MMA especially, the technical standup is gold because it gets you off the bottom without giving your back or eating shots. We practice it under strikes, with cage positioning, with immediate follow-ups to clinch work. It's fundamental, but fundamental is what works when everything else fails.

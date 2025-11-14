@@ -8,7 +8,7 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 15% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 15%.
 
 ---
 
@@ -187,7 +187,7 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains upright posture with hips elevated above opponent's guard, preventing lower body from being pulled into bottom player's offensive range while maintaining balance through posted hands or controlled grips
 - Bottom player controls both of top player's sleeves at wrist or forearm level with bilateral grips, creating a frame that maintains distance and prevents top player from achieving dominant grips or closing distance effectively
@@ -198,7 +198,7 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has established both sleeve grips while maintaining guard position
 - Top player has achieved standing or combat base posture above the guard
@@ -226,7 +226,7 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Toreando Pass]] → [[Side Control]]
 
@@ -283,7 +283,7 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Open Guard]] (Opponent Success: 45%)
 - **[[Butterfly Sweep]]** → [[Butterfly Guard]] (Opponent Success: 35%)
@@ -296,7 +296,7 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Smash Pass]]** → [[Side Control]]
   - Opponent attempts to invert or enter deep half guard
@@ -339,7 +339,7 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

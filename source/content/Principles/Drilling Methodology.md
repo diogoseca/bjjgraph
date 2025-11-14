@@ -8,7 +8,7 @@ description: "Master drilling methodology in BJJ. Learn systematic practice prin
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -137,7 +137,7 @@ description: "Master drilling methodology in BJJ. Learn systematic practice prin
 
 
 
-> **Quick Answer**: Drilling Methodology is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Drilling Methodology is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -157,7 +157,7 @@ Drilling Methodology represents the systematic approach to technique repetition 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Begin with slow, precise repetitions prioritizing movement quality over speed or resistance
 - Progress gradually from zero resistance to dynamic opposition following structured progression
 - Maintain high repetition volume with consistent technique execution across all iterations
@@ -173,7 +173,7 @@ Drilling Methodology represents the systematic approach to technique repetition 
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Movement Quality Control**: The ability to maintain precise technical form throughout repetitions regardless of fatigue or speed increase. This involves conscious attention to body positioning, weight distribution, and biomechanical efficiency during each repetition, ensuring that movement patterns are encoded correctly from the beginning of skill acquisition.
 
 **Progressive Resistance Calibration**: The capacity to appropriately adjust partner resistance levels to match current technical proficiency, gradually increasing opposition as movement patterns become more refined. This requires clear communication with training partners and honest self-assessment of technical readiness for increased resistance.
@@ -196,7 +196,7 @@ Drilling Methodology represents the systematic approach to technique repetition 
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Positional Sparring]]** (Complementary): Positional sparring serves as the bridge between structured drilling and free rolling, providing controlled resistance environments where drilled techniques are tested against intelligent opposition. Drilling develops the technical foundation that positional sparring then stress-tests and refines.
 - **[[Flow Rolling]]** (Extension): Flow rolling represents an advanced drilling methodology where partners transition between techniques with continuous movement rather than discrete repetitions. This extends basic drilling principles by developing transition smoothness and positional awareness beyond isolated technique execution.
 - **[[Competition Training]]** (Advanced form): Competition-specific training builds upon drilling methodology by adding intensity, timing constraints, and strategic elements to technique execution. Drilling creates the technical foundation that competition training then tests under realistic pressure conditions.
@@ -213,7 +213,7 @@ Drilling Methodology represents the systematic approach to technique repetition 
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Drilling from mount involves progressive resistance development from static positioning through dynamic escapes, allowing practitioners to refine both offensive submissions and positional control mechanics through high-repetition practice. Partners alternate between applying escape attempts and maintaining dominant position with graduated resistance levels.
 
 **Side Control**: Side control drilling emphasizes weight distribution, shoulder pressure application, and transition readiness through repetitive positioning cycles. Practitioners drill both maintenance mechanics and common transitions (to mount, north-south, or submission attempts) with incrementally increasing defensive resistance from training partners.
@@ -250,7 +250,7 @@ Drilling Methodology represents the systematic approach to technique repetition 
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Identify the specific technique or position requiring development**: Select a single technical objective with clear success criteria—a specific sweep, submission, escape, or positional transition that needs refinement through repetition.
 2. **Determine the appropriate starting resistance level based on current proficiency**: Begin with zero resistance if the movement pattern is new or unfamiliar, allowing exclusive focus on technical precision. Start with light resistance if the basic movement is understood but needs refinement under opposition.
 3. **Establish target repetition volume and tempo for the drilling session**: Set specific repetition goals (typically 20-50+ per session for priority techniques) and initial tempo (slow and controlled for new techniques, moderate for familiar movements). Plan for tempo variation throughout the session.
@@ -263,22 +263,22 @@ Drilling Methodology represents the systematic approach to technique repetition 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Introducing resistance too quickly before movement patterns are established
+## Common Mistakes
+- **Mistake**: Introducing resistance too quickly before movement patterns are established
   - **Consequence**: Practitioners develop compensatory mechanics and poor technical habits, encoding inefficient movement patterns that become difficult to correct later. The technique may appear functional but lacks the precision necessary for high-level application.
   - **Correction**: Begin all drilling with zero resistance, focusing exclusively on movement quality until the basic pattern is internalized. Only introduce opposition when repetitions can be executed with consistent technical precision.
-- **Error**: Prioritizing speed and intensity over technical precision during repetitions
+- **Mistake**: Prioritizing speed and intensity over technical precision during repetitions
   - **Consequence**: Movement quality degrades as practitioners rush through repetitions, reinforcing sloppy execution patterns rather than refined technique. Fast, imprecise drilling creates false confidence in movements that will fail under actual competition pressure.
   - **Correction**: Deliberately slow down execution to allow conscious attention to technical details. Use the mantra 'slow is smooth, smooth is fast' and only increase tempo when movement quality remains consistent at slower speeds.
-- **Error**: Failing to develop bilateral competency by favoring the dominant side
+- **Mistake**: Failing to develop bilateral competency by favoring the dominant side
   - **Consequence**: Significant technical asymmetries develop, creating exploitable weaknesses in competition and limiting overall technical development. Practitioners become predictable and vulnerable to opponents who recognize and exploit the weak side.
   - **Correction**: Implement strict bilateral drilling protocols, ensuring equal or greater repetition volume on the non-dominant side. Consider drilling the weak side exclusively during specific sessions to accelerate symmetrical development.
-- **Error**: Continuing repetitions despite progressive fatigue degrading movement quality
+- **Mistake**: Continuing repetitions despite progressive fatigue degrading movement quality
   - **Consequence**: Fatigue-induced technical breakdowns become habituated through repetition, encoding flawed movement patterns rather than precise execution. This creates inconsistent technique application and reinforces poor mechanics under stress.
   - **Correction**: Monitor movement quality throughout drilling sessions and stop repetitions when fatigue begins causing technical breakdown. Better to perform fewer quality repetitions than high volume with degraded mechanics.
-- **Error**: Drilling techniques in isolation without contextual integration
+- **Mistake**: Drilling techniques in isolation without contextual integration
   - **Consequence**: Techniques that work perfectly in drilling fail during live rolling because they were never practiced with realistic entries, defensive responses, or positional transitions. This creates a disconnect between drilling performance and rolling application.
   - **Correction**: Integrate realistic scenarios into drilling by including common defensive responses, multiple technique entries, and follow-up actions. Drill technique chains and sequences rather than isolated movements whenever possible.
 
@@ -287,7 +287,7 @@ Drilling Methodology represents the systematic approach to technique repetition 
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Isolation Drilling** (Focus: Movement quality, technical precision, motor pattern encoding)
 Focus exclusively on a single technique through high-volume repetition with zero or minimal resistance, allowing complete attention to technical details and movement precision. This approach is essential for establishing new motor patterns and refining specific technical elements.
 
@@ -312,7 +312,7 @@ Practice continuous movement between techniques and positions with reduced resis
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Requires significant mental focus and conscious attention to execute techniques during drilling repetitions
 - Movement execution is slow and deliberate with frequent pauses for position adjustment
@@ -350,7 +350,7 @@ Practice continuous movement between techniques and positions with reduced resis
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Positional Sparring]] (Principle) - Complementary practice method that tests drilled techniques under controlled resistance
 - [[Flow Rolling]] (Principle) - Advanced drilling methodology emphasizing continuous movement and transition smoothness
@@ -369,7 +369,7 @@ Practice continuous movement between techniques and positions with reduced resis
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Drilling methodology is perhaps the most misunderstood and underutilized element in modern jiu-jitsu training, with most practitioners engaging in what I would characterize as 'mindless repetition' rather than deliberate practice with clear technical objectives and progressive resistance structures. The transformation from novice to expert occurs almost entirely through the accumulation of perfect practice repetitions—what I define as repetitions where every technical element is executed with precision regardless of speed or resistance level. I advocate for extraordinarily high repetition volumes, often 50-100+ repetitions per training session for priority techniques, combined with obsessive attention to technical detail that most practitioners would consider excessive. The critical insight is that drilling is not merely preparation for live training—it IS the primary vehicle through which technical mastery develops, with live rolling serving more as a testing ground for movements already perfected through systematic drilling. The progression from zero resistance through light opposition to dynamic resistance must be earned through demonstrated technical consistency at each level, never rushed because of impatience or ego. Most technical deficiencies I observe in competition can be traced directly to inadequate drilling methodology—movements that were never truly mastered through sufficient repetition under proper conditions, creating unreliable technique execution when pressure is applied.
 - **Gordon Ryan**: My approach to drilling methodology is heavily influenced by competition-specific requirements rather than comprehensive technical development, focusing drilling time almost exclusively on high-percentage techniques and positions that directly contribute to winning performances. What separates my drilling from traditional approaches is the emphasis on what I call 'realistic drilling' where resistance levels are calibrated to simulate actual competition pressure from relatively early in the learning process, rather than the gradual progression that many instructors advocate. I believe that context-accurate practice accelerates competitive readiness more effectively than perfect-form drilling under zero resistance—if a technique can't be executed against intelligent, competition-intensity resistance, it has limited value regardless of how perfectly it looks in isolation. My drilling sessions prioritize technique chains and tactical sequences rather than isolated movements, because competition requires continuous decision-making and positional transitions rather than single-technique execution in isolation. I specifically drill my best techniques far more than weak areas, operating under the philosophy that making your A-game unstoppable is more valuable than developing comprehensive but mediocre technical repertoire. The drilling methodology that produces champions is not necessarily the one that develops perfect technique in all areas, but rather the one that creates absolute mastery of specific high-percentage systems that can be executed reliably under maximum pressure against elite opposition.
 - **Eddie Bravo**: The 10th Planet drilling methodology represents a fundamental departure from traditional jiu-jitsu repetition structures, emphasizing position-specific sequences and system integration rather than isolated technique drilling. We've developed what we call 'flow drilling' where partners alternate between offensive and defensive roles seamlessly, creating continuous movement patterns that exist somewhere between structured drilling and free sparring—this approach develops positional awareness and transition fluidity that rigid drilling structures simply cannot create. One of our most innovative contributions is encouraging creative variation exploration during drilling sessions rather than demanding strict adherence to single technique form, because we believe that movement creativity developed during drilling translates directly to innovative problem-solving during competition when standard techniques encounter unexpected defensive responses. The traditional drilling model where you perform 50 perfect repetitions of a single technique has value, but we've found that drilling the connections between techniques—the transitions, the reactions, the positional flows—produces more well-rounded grapplers who can adapt and innovate under pressure. Our system-specific drilling sequences, like the entire lockdown-to-electric-chair progression or the rubber guard attack sequences, are designed to be drilled as complete systems rather than isolated movements, creating practitioners who understand positional relationships and technique chains rather than just individual moves. The methodology isn't just about repetition—it's about exploring the creative space within each position and discovering personal variations that work for your body type and style.

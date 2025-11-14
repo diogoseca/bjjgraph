@@ -8,7 +8,7 @@ description: "Master systematic guard passing defense in BJJ. Learn defensive fr
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master systematic guard passing defense in BJJ. Learn defensive fr
 
 
 
-> **Quick Answer**: Passing Counter System is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Passing Counter System is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -169,7 +169,7 @@ Modern passing counter systems have evolved to address the diverse passing meta-
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Recognize passing patterns early through grip fighting and base analysis rather than reacting to completed movements
 - Establish defensive frames and connections that simultaneously defend against passing while creating counter-attack leverage
 - Force passing opponents into commitment dilemmas where advancing position creates exploitable vulnerabilities
@@ -183,7 +183,7 @@ Modern passing counter systems have evolved to address the diverse passing meta-
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Grip Fighting Fundamentals**: The ability to deny optimal passing grips while establishing defensive grips that create counter-attack leverage. This includes understanding which grips enable specific passing sequences and preventing them before passes develop, while simultaneously establishing sleeve, collar, or pant grips that facilitate sweeps and transitions. Advanced grip fighting involves creating grip dilemmas where opponents must choose between advancing position and maintaining control, with either choice creating counter opportunities.
 
 **Frame Establishment and Management**: Creating and maintaining defensive frames using feet, knees, and hands that control distance while preparing counter-attacks. Effective frames are dynamic rather than static, constantly adjusting to maintain optimal distance while creating angles for off-balancing or entries to leg entanglements. Frame management includes understanding when to extend frames to create space versus when to collapse them to enter butterfly hooks or deep half positions.
@@ -206,7 +206,7 @@ Modern passing counter systems have evolved to address the diverse passing meta-
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Guard Retention Concepts]]** (Prerequisite): Basic guard retention provides the foundational movement patterns and spatial awareness necessary for implementing counter systems. Without solid retention fundamentals, practitioners cannot maintain position long enough to recognize and execute counter opportunities.
 - **[[Guard Passing Principles]]** (Complementary): Understanding passing mechanics from the passer's perspective reveals the specific commitments and vulnerabilities that counter systems exploit. The relationship is inversely symmetrical - every passing principle creates a corresponding counter principle.
 - **[[Dilemma Creation]]** (Extension): Passing counter systems represent applied dilemma creation where defensive positioning forces opponents to choose between advancing position and maintaining control, with either choice creating specific counter opportunities. This extends basic dilemma concepts into systematic defensive frameworks.
@@ -223,7 +223,7 @@ Modern passing counter systems have evolved to address the diverse passing meta-
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Counter system focuses on grip fighting to prevent guard opening while preparing sweeps and submissions. When opponents attempt to stand or posture, counter with triangle setups, arm drags to back, or kimura traps. If guard is opened, immediately transition to open guard recovery with specific grips already established.
 
 **Open Guard**: Emphasizes distance management through foot placement on hips, biceps, or collar grips while maintaining dynamic guard options. Counter pressure passes with hook entries to butterfly or deep half, counter dynamic passes with leg entanglement entries to ashi garami or X-guard variations.
@@ -260,7 +260,7 @@ Modern passing counter systems have evolved to address the diverse passing meta-
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Identify opponent's passing style category**: Analyze initial grips, stance, and base positioning to classify as pressure passing (low, heavy grips), dynamic passing (standing, mobile), or leg weave passing (standing, pant grips). This classification determines which counter system to deploy.
 2. **Establish appropriate defensive structure**: Create frames and connections specific to identified passing style - extended frames for pressure passes, active hooks for dynamic passes, shin shields for standing passes. Ensure defensive structure simultaneously defends and prepares counters.
 3. **Win critical grip battles**: Fight to deny opponent's optimal passing grips while establishing own grips that facilitate counters. For pressure passes, prevent crossface and underhook control; for dynamic passes, maintain distance grips; for leg weaves, control far leg or collar.
@@ -273,28 +273,28 @@ Modern passing counter systems have evolved to address the diverse passing meta-
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Waiting for passing sequences to fully develop before initiating counter techniques
+## Common Mistakes
+- **Mistake**: Waiting for passing sequences to fully develop before initiating counter techniques
   - **Consequence**: By the time passes are fully developed, opponent has established strong control positions that eliminate counter windows. Late reactions force purely defensive scrambling rather than proactive countering.
   - **Correction**: Develop passing pattern recognition to identify passing attempts from initial grip and stance changes. Initiate counter sequences as soon as passing pattern is recognized, while opponent is still establishing control rather than after control is consolidated.
-- **Error**: Using static frames that create pushing contests rather than dynamic defensive structures
+- **Mistake**: Using static frames that create pushing contests rather than dynamic defensive structures
   - **Consequence**: Static frames allow strong opponents to simply drive through defensive structures, especially in pressure passing scenarios. Pushing matches favor the top player who can use gravity and forward pressure advantages.
   - **Correction**: Maintain dynamic frames that constantly adjust angles and create off-balancing opportunities. Use frames to redirect rather than resist force, combining frame pressure with hip movement to create angles for counter-attacks.
-- **Error**: Attempting counters without establishing necessary grip and frame prerequisites
+- **Mistake**: Attempting counters without establishing necessary grip and frame prerequisites
   - **Consequence**: Counter techniques executed without proper grips or frames lack the leverage and control necessary for success. Opponents easily defend or counter the counter attempts, leading to worse defensive positions.
   - **Correction**: Always establish required grips and frames before executing counter techniques. Treat grip fighting and frame creation as integral components of counter systems rather than separate defensive phases.
-- **Error**: Focusing exclusively on preventing passes without maintaining counter-attack threats
+- **Mistake**: Focusing exclusively on preventing passes without maintaining counter-attack threats
   - **Consequence**: Purely defensive retention allows opponents to continuously attack without consequence, eventually breaking through defenses through accumulated pressure and opportunities. Defense without offense is energetically unsustainable.
   - **Correction**: Maintain constant offensive threats through sweep attempts, submission setups, or back take opportunities. Force opponents to defend themselves while passing, reducing their attacking efficiency and creating counter windows.
-- **Error**: Failing to chain multiple counter options when initial counters are defended
+- **Mistake**: Failing to chain multiple counter options when initial counters are defended
   - **Consequence**: Single-option counters become predictable and easily defended by experienced passers. When the sole counter is defended, practitioners have no backup plan and lose momentum, allowing opponents to consolidate passing position.
   - **Correction**: Develop counter chains where defended techniques flow into secondary and tertiary options. For example, defended butterfly sweep transitions to X-guard entry, which flows to single leg X, creating recursive offensive pressure.
-- **Error**: Neglecting guard recovery protocols as backup defensive layers
+- **Mistake**: Neglecting guard recovery protocols as backup defensive layers
   - **Consequence**: When all counter attempts fail and passing progresses toward completion, practitioners without recovery skills accept inferior positions rather than fighting to restore guard. This creates cascading positional losses.
   - **Correction**: Practice systematic guard recovery from compromised positions including headquarters, leg drag control, and knee slice positions. Treat recovery as the final defensive layer that prevents pass completion even when counters fail.
-- **Error**: Applying same counter system against all passing styles regardless of technical differences
+- **Mistake**: Applying same counter system against all passing styles regardless of technical differences
   - **Consequence**: Counters optimized for pressure passing often fail against dynamic passes and vice versa. Generic defensive approaches lack the specificity needed to exploit style-specific vulnerabilities effectively.
   - **Correction**: Develop separate counter systems for pressure, dynamic, and standing passing categories. Learn to quickly identify passing style and deploy appropriate counter framework - use underhook battles for pressure, leg entanglements for dynamic, and guard pulls for standing passes.
 
@@ -303,7 +303,7 @@ Modern passing counter systems have evolved to address the diverse passing meta-
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Passing Pattern Recognition Drilling** (Focus: Developing perceptual sensitivity to passing cues including grips, stance, and weight distribution that signal passing style and commitment points)
 Partner begins passing attempts from various guards using specific passing styles (pressure, dynamic, standing). Defender identifies passing style and executes appropriate counter within first 2-3 seconds of passing initiation. Focus on early recognition rather than full execution. Progress from single passing style repetitions to random style mixing to develop automatic pattern recognition responses.
 
@@ -328,7 +328,7 @@ Partner executes specific passing sequences in slow motion, pausing at commitmen
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can identify basic passing style categories (pressure vs dynamic vs standing) when given time to analyze position
 - Establishes static frames against passing attempts but struggles to maintain them under sustained pressure
@@ -372,7 +372,7 @@ Partner executes specific passing sequences in slow motion, pausing at commitmen
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Guard Retention Concepts]] (Principle) - Foundational principle providing basic retention mechanics that counter systems build upon with offensive additions
 - [[Guard Passing Principles]] (Principle) - Inverse relationship - understanding passing mechanics reveals the specific vulnerabilities that counter systems exploit
@@ -392,7 +392,7 @@ Partner executes specific passing sequences in slow motion, pausing at commitmen
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches passing counters as sophisticated tactical responses that require precise understanding of passing mechanics and commitment points. Emphasizes the concept of "counter-attacking windows" - specific moments in passing sequences where the opponent's position creates optimal counter opportunities. Views successful passing counters as the result of proper preparation through grip fighting, frame establishment, and angle creation rather than merely reacting to passing pressure. Places particular emphasis on understanding the relationship between different passing styles and their specific vulnerabilities - pressure passes expose underhook entries and deep half opportunities, dynamic passes create leg entanglement windows, standing passes allow guard pull counters. Teaches systematic recognition patterns that enable practitioners to identify passing styles early and deploy appropriate counter frameworks automatically. Stresses that counter systems should create recursive loops where defended techniques flow into secondary options, maintaining constant offensive pressure rather than resetting to pure defense after each attempt.
 - **Gordon Ryan**: Implements passing counters with an emphasis on seamless transition between defensive and offensive phases, creating situations where opponents never feel the shift from passing to being countered. Rather than viewing defense and counter-offense as separate phases, emphasizes developing an integrated approach where defensive movements simultaneously create counter-attacking leverage. Particularly focuses on developing "defensive sensitivity" to recognize subtle weight shifts and balance points during passing attempts that create counter opportunities - this sensitivity comes from extensive positional sparring experience against diverse passing styles. Utilizes a diverse range of counter systems optimized for specific passing styles, with particular emphasis on leg entanglement entries from dynamic passing defense and underhook battles from pressure passing scenarios. Advocates for aggressive counter-attacking that forces passers into defensive responses, inverting the traditional dynamic where bottom players are purely defensive. Notes that elite-level guard retention requires making opponents defend themselves while passing, reducing their offensive efficiency and creating windows for counter techniques.
 - **Eddie Bravo**: Has developed specialized passing counter systems within his 10th Planet approach that often utilize unconventional mechanics and transitions, particularly emphasizing lockdown entries and rubber guard recoveries from passing defense situations. Emphasizes creating what he terms "counter loops" where defensive sequences flow directly into offensive opportunities, particularly focusing on leg entanglement entries from passing defense and electric chair attacks from lockdown positions. Places high value on developing "passing awareness" through specific recognition training that enables practitioners to identify passing patterns before they fully develop - uses focused positional sparring with restricted passing styles to build this awareness systematically. Advocates for opportunistic rather than purely systematic countering, capitalizing on unexpected openings during passing exchanges while maintaining systematic backup options when opportunistic counters aren't available. Has pioneered specific counter sequences for no-gi contexts that integrate submission threats directly into defensive movements, creating hybrid sweep-submission attacks that multiply offensive threats from bottom positions.

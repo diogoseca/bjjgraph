@@ -8,7 +8,7 @@ description: "Master the Arm Triangle from Turtle in BJJ. Complete guide coverin
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Arm Triangle from Turtle in BJJ. Complete guide coverin
 
 
 
-> **Quick Answer**: Arm Triangle from Turtle transitions from [[Turtle]] to [[Arm Triangle]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Arm Triangle from Turtle transitions from [[Turtle]] to [[Arm Triangle]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Isolate one arm by driving opponent's elbow to their neck
 - Control the head and trapped arm simultaneously
 - Generate perpendicular pressure with shoulder placement
@@ -186,7 +186,7 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Top position in turtle with chest-to-back pressure
 - Opponent's near arm isolated away from their body
 - Control of opponent's head through front headlock or similar grip
@@ -199,7 +199,7 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish front headlock control**: From top turtle, secure a front headlock by wrapping your arm around opponent's neck while maintaining chest pressure on their back. Your other hand should control their far shoulder or tricep to prevent them from turning into you. Keep your hips low and weight distributed forward to break their defensive posture. (Timing: Initial control phase, 0-2 seconds)
 2. **Isolate the near arm**: Using your chest and shoulder pressure, drive the opponent's near elbow toward their own neck, creating separation between their arm and body. This isolation is critical - the arm must be trapped against their neck to create the necessary compression. Use your body weight rather than muscular force to achieve this position. (Timing: Setup phase, 2-4 seconds)
 3. **Slide shoulder through**: Thread your shoulder under the opponent's trapped arm while maintaining head control with your wrapping arm. Your shoulder should penetrate deep, positioning your armpit against the side of their neck. This creates one half of the triangle compression. Keep your head tight to theirs to prevent space creation. (Timing: Penetration phase, 4-6 seconds)
@@ -213,7 +213,7 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent tucks near elbow tight to body to prevent arm isolation** (Effectiveness: High) - Your Response: Switch to opposite side attack, transition to back take, or use turtle attacks to fatigue them before re-attempting arm isolation
 - **Opponent turns into you aggressively before shoulder penetration** (Effectiveness: Medium) - Your Response: Use their rotation momentum to transition to guillotine control or anaconda position, or allow partial turn and secure front headlock from different angle
 - **Opponent posts with free arm to prevent perpendicular transition** (Effectiveness: Medium) - Your Response: Attack the posting arm with kimura grip or use their base to sweep them to their side while maintaining arm triangle structure
@@ -223,25 +223,25 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting the technique without proper arm isolation
+## Common Mistakes
+- **Mistake**: Attempting the technique without proper arm isolation
   - **Consequence**: Opponent easily defends and may escape turtle position entirely
   - **Correction**: Ensure the near arm is completely separated from their body and driven to their neck before attempting shoulder penetration
-- **Error**: Insufficient shoulder depth during penetration phase
+- **Mistake**: Insufficient shoulder depth during penetration phase
   - **Consequence**: Choke lacks necessary compression and opponent can create defensive space
   - **Correction**: Drive shoulder deep under trapped arm until your armpit contacts their neck - shallow shoulder position produces weak finishing pressure
-- **Error**: Transitioning to perpendicular position too quickly or too slowly
+- **Mistake**: Transitioning to perpendicular position too quickly or too slowly
   - **Consequence**: Either losing the position entirely or giving opponent time to defend effectively
   - **Correction**: Move with controlled urgency - maintain constant pressure while smoothly transitioning, don't rush but don't hesitate
-- **Error**: Allowing gaps in the figure-four grip structure
+- **Mistake**: Allowing gaps in the figure-four grip structure
   - **Consequence**: Opponent exploits gaps to relieve pressure or escape completely
   - **Correction**: Keep elbows tight together and maintain squeeze throughout - any gap between your arms reduces choking efficiency significantly
-- **Error**: Applying only arm pressure without proper body positioning
+- **Mistake**: Applying only arm pressure without proper body positioning
   - **Consequence**: Choke relies on muscular strength rather than positional leverage and fatigues quickly
   - **Correction**: Use chest expansion, shoulder drive, and perpendicular body angle to generate pressure - technique should feel mechanical rather than muscular
-- **Error**: Raising hips too high during initial control phase
+- **Mistake**: Raising hips too high during initial control phase
   - **Consequence**: Opponent easily rolls forward or explodes out of turtle position
   - **Correction**: Keep hips low and weight distributed forward during setup - high hips reduce control and allow explosive escapes
 
@@ -250,7 +250,7 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Isolation Mechanics** - Arm isolation and shoulder positioning
 Practice isolating the near arm from static turtle position with compliant partner. Focus on using body weight rather than strength to drive elbow to neck. Drill shoulder penetration depth repeatedly until movement becomes automatic. Partner provides light resistance only.
 (Resistance: Light)
@@ -277,7 +277,7 @@ Develop complete turtle top attack system incorporating arm triangle, darce, ana
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Modified grip arm triangle**: Instead of traditional figure-four, use gable grip or S-grip behind opponent's head while maintaining shoulder pressure on neck. Allows for quicker grip establishment but may sacrifice some finishing pressure. (When to use: When opponent is actively hand fighting to prevent figure-four completion, or when speed of attack is prioritized over maximum pressure)
 
 **Arm-in arm triangle variation**: Intentionally trap opponent's defensive arm inside the choke structure if they attempt to push on your choking arm. Creates modified triangle compression using their own arm against them. (When to use: When opponent extends their free arm into the choke to create defensive space - capitalize on their defensive error)
@@ -317,7 +317,7 @@ Develop complete turtle top attack system incorporating arm triangle, darce, ana
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the arm triangle from turtle, both training partners must maintain clear communication regarding tap signals, as this choke can render the defensive partner unconscious in 3-5 seconds once fully applied. The choking partner should release immediately upon feeling a tap, and both partners should be aware that verbal taps may be difficult once the choke is tight. During drilling phases, apply pressure gradually and progressively - never apply maximum pressure suddenly, as this can cause panic responses. Partners should understand that arm triangles are blood chokes affecting the carotid arteries, not air chokes, and the sensation of the choke tightening may not provide as much warning as other submission types. When rolling live, be especially careful when finishing from dynamic transitions, as the momentum of the roll combined with the choke can create compression faster than anticipated. Beginners should practice the mechanical positions extensively before adding finishing pressure.
 
@@ -325,7 +325,7 @@ When practicing the arm triangle from turtle, both training partners must mainta
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The arm triangle from turtle represents a crucial component of the top turtle attack system, filling the strategic gap between back take attempts and front headlock submissions. This technique integrates seamlessly with other turtle top positions and creates a comprehensive pressure system where defensive reactions to one attack set up alternative finishes. If the opponent defends the arm triangle by tucking their elbow, this defensive commitment often exposes the back for hooks insertion. If they turn to face you to prevent shoulder penetration, they expose themselves to front headlock guillotine or anaconda attacks. The technique also integrates forward in the positional hierarchy - after securing the arm triangle structure, you can transition to more dominant finishing positions such as mount or side control while maintaining the submission. Understanding this interconnected system prevents the common error of becoming fixated on a single attack and allows you to flow between techniques based on opponent reactions, which is the hallmark of advanced BJJ strategy.
 
@@ -333,7 +333,7 @@ The arm triangle from turtle represents a crucial component of the top turtle at
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Turtle]] - Starting position
 - [[Front Headlock]] - Control position during setup
@@ -353,7 +353,7 @@ The arm triangle from turtle represents a crucial component of the top turtle at
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The arm triangle from turtle exemplifies the principle of exploiting structural weakness in defensive positions. When an opponent adopts the turtle position, they create inherent vulnerabilities by elevating their upper body while keeping their base narrow - this structure necessarily separates their defensive frames from their core. The key mechanical insight is understanding that the turtle position requires the defender to maintain arm connection to their body for structural integrity. By systematically breaking this connection through progressive shoulder pressure and weight distribution, you convert their defensive structure into a submission trap. The perpendicular finishing angle is not arbitrary - it represents the geometric optimization of force vectors to compress both carotid arteries simultaneously while minimizing the opponent's ability to generate counter-pressure. This is pure mechanical advantage rather than athletic imposition. The progression from control to submission should feel inevitable once proper isolation is achieved - if you find yourself struggling muscularly, your positioning contains errors that must be corrected. Study the geometry of the position, understand why each angle matters, and your execution will become efficient and reliable across all opponent types and sizes.
 - **Gordon Ryan**: In competition, the arm triangle from turtle is one of my highest percentage submissions because most opponents view turtle as a safe defensive position and don't recognize the danger until it's too late. The critical competition insight is that you must attack quickly once you achieve top turtle - hesitation allows the opponent to improve their defensive structure or escape entirely. I prefer to chain this with the darce and anaconda, creating a triangle of attacks where defending one exposes the other. If they tuck their elbow tight to stop the arm triangle, I immediately switch to the opposite side or attack the back. If they turn to face me, the guillotine or anaconda opens up. The mistake I see constantly is people trying to force the arm triangle when the setup isn't there - this wastes energy and often loses position. Instead, use it as part of a sequence. Another competition-specific detail: when you transition to the perpendicular position, do it explosively in one smooth motion. If you try to adjust incrementally, experienced opponents will use each micro-adjustment to create escape opportunities. Get the angle right in one decisive movement, establish your base immediately, and finish. In no-gi especially, this submission is extremely effective because there are no collar grips to complicate the mechanics - it's pure compression and positioning.
 - **Eddie Bravo**: The arm triangle from turtle fits perfectly into the 10th Planet system because it capitalizes on the front headlock control we emphasize so heavily. What makes this technique particularly nasty is that it punishes the defensive reflex most people develop - when you're in turtle and someone grabs your head, the natural reaction is to keep your elbows wide to maintain base and prevent being rolled. That exact defensive structure is what creates the arm triangle opportunity. We drill this constantly as part of the twister series - if you're attacking from turtle top and the twister isn't available because they're defending well, the arm triangle is often right there. The innovative element we add is using constant motion and multiple attack threats to tire the defender's mind and body. Don't just grab the arm triangle - threaten the back, threaten the twister, make them defend multiple things, then when their defense fatigues or their attention is divided, that's when you snatch the arm triangle. Also, don't sleep on the rolling finish variation - if you can't get the perpendicular angle because they're posting hard, sometimes just committing to the roll and ending up in mounted arm triangle is the answer. Keep your mind open to creative solutions. The submission matters more than the exact path you took to get there.

@@ -8,7 +8,7 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
 
 
 
-> **Quick Answer**: Sickle Sweep transitions from [[De La Riva Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Sickle Sweep transitions from [[De La Riva Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain strong De La Riva hook with toes pulled toward you
 - Control opponent's posture with collar or sleeve grip to prevent posting
 - Create diagonal sweeping angle rather than straight backward
@@ -184,7 +184,7 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - De La Riva hook established on opponent's near leg
 - Strong collar grip or sleeve control to manage posture
 - Bottom foot positioned on opponent's far hip or thigh
@@ -197,7 +197,7 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish De La Riva control**: Secure your De La Riva hook by threading your right leg behind opponent's left leg with your foot hooking around their thigh. Pull your toes toward your body to tighten the hook. Simultaneously, place your left foot on their right hip or thigh for distance management and establish a strong collar grip with your right hand. (Timing: Setup phase - maintain until opponent commits weight forward)
 2. **Grip the collar and control posture**: Establish a deep collar grip with your right hand, getting as far behind the neck as possible. Your left hand should control the opponent's left sleeve at the wrist or elbow. These grips work together to prevent your opponent from posting their hands when swept and keep their posture broken forward. (Timing: Continuous control throughout technique)
 3. **Create the sweeping angle**: Shift your hips to your right side to create an angle approximately 45 degrees from the opponent's centerline. This angle is critical as it allows your De La Riva hook to function as a powerful lever. Your body should form a 'C' shape with your head moving away from the opponent's hooking leg. (Timing: Immediately before initiating sweep motion)
@@ -210,7 +210,7 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent posts hand on mat to prevent being swept backward** (Effectiveness: Medium) - Your Response: Switch to taking the back by following their posted arm and climbing up their body, or transition to an omoplata attack on the posted arm
 - **Opponent steps back with far leg to widen base** (Effectiveness: High) - Your Response: Immediately transition to X-Guard or Single Leg X-Guard by collecting the near leg with your bottom leg and adjusting your hook position
 - **Opponent drops weight down and pressures into you** (Effectiveness: Medium) - Your Response: Switch to Kiss of the Dragon by inverting under them or transition to Reverse De La Riva Guard and attack the back from underneath
@@ -219,25 +219,25 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Sweeping straight backward instead of at an angle
+## Common Mistakes
+- **Mistake**: Sweeping straight backward instead of at an angle
   - **Consequence**: Opponent easily posts their hands or steps back to recover base
   - **Correction**: Always create a 45-degree angle with your hips before initiating the sweep, directing the opponent diagonally rather than straight back
-- **Error**: Weak or passive De La Riva hook without active toe flexion
+- **Mistake**: Weak or passive De La Riva hook without active toe flexion
   - **Consequence**: Hook slips off during the sweep, losing primary control point
   - **Correction**: Actively pull your toes toward your shin throughout the entire technique to maintain rigid hook tension
-- **Error**: Pushing with hip foot before executing sickle motion
+- **Mistake**: Pushing with hip foot before executing sickle motion
   - **Consequence**: Creating space allows opponent to step back and escape the sweep
   - **Correction**: Coordinate the hip push and hook scythe simultaneously so the opponent cannot adjust their base
-- **Error**: Failing to control opponent's upper body with collar grip
+- **Mistake**: Failing to control opponent's upper body with collar grip
   - **Consequence**: Opponent posts hands easily and prevents sweep completion
   - **Correction**: Establish deep collar grip before attempting sweep and pull down aggressively during execution
-- **Error**: Not following through to top position after sweep
+- **Mistake**: Not following through to top position after sweep
   - **Consequence**: Opponent recovers guard or scrambles back to standing
   - **Correction**: Immediately come up as opponent falls, using collar grip to pull yourself forward into mount or side control
-- **Error**: Keeping hips flat on mat during sweep attempt
+- **Mistake**: Keeping hips flat on mat during sweep attempt
   - **Consequence**: Reduced sweeping power and leverage, allowing opponent to resist
   - **Correction**: Elevate your hips off the mat and drive them toward the opponent to maximize sweeping force
 
@@ -246,7 +246,7 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Hook positioning and sweeping angle
 Partner starts in standing De La Riva position with no resistance. Practice establishing the hook, creating the angle, and executing the sickle motion slowly. Focus on feeling the correct leg extension path and coordination between hook and hip push. Repeat 20 reps per side per session.
 (Resistance: None)
@@ -277,7 +277,7 @@ Continue drilling specific scenarios that arise in competition or sparring. Work
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Reverse Sickle to Single Leg X**: Instead of completing the backward sweep, use the sickle motion to off-balance the opponent momentarily, then immediately shoot your bottom leg through to establish Single Leg X-Guard. This creates a powerful entry to the leg entanglement system. (When to use: When opponent has excellent balance and is difficult to sweep completely, or when you prefer leg locks over top position)
 
 **Sickle to Back Take**: As opponent posts their hand to defend the sweep, release your collar grip and grab their posted arm, using it to climb up their back while maintaining your De La Riva hook. Establish seat belt control as you take the back. (When to use: When opponent consistently posts hand to defend, or when back attacks are your preferred finishing position)
@@ -320,7 +320,7 @@ Continue drilling specific scenarios that arise in competition or sparring. Work
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Sickle Sweep is generally a low-risk technique when practiced correctly, but certain safety considerations should be observed. When drilling with a partner, communicate clearly about resistance levels and ensure they know how to fall safely backward when swept. The person being swept should practice falling with proper breakfall technique, keeping their chin tucked and slapping the mat with their arms to dissipate impact force. Avoid executing this sweep explosively during initial learning phases as uncontrolled falls can cause head or spine injuries. When your partner posts their hand to defend, do not force the sweep as this can result in wrist, elbow, or shoulder injuries to the posted arm. Instead, transition to alternative attacks. Ensure adequate mat space behind your partner before attempting the sweep to prevent them from hitting walls or other practitioners. In training environments, tap if you feel your balance completely compromised rather than risking an uncontrolled fall. When practicing at higher resistance levels, both partners should be warmed up properly with particular attention to hip flexibility and leg strength preparation.
 
@@ -328,7 +328,7 @@ The Sickle Sweep is generally a low-risk technique when practiced correctly, but
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Sickle Sweep is a cornerstone technique in the modern De La Riva Guard system and serves as a fundamental attacking option that connects to multiple advanced positions. From a strategic perspective, it represents the primary sweeping threat that prevents opponents from staying static in your De La Riva Guard, forcing them to make decisions that open up other attacks. When combined with berimbolo entries, back takes, and leg entanglement transitions, the Sickle Sweep creates a complete offensive system from De La Riva.
 
@@ -338,7 +338,7 @@ This sweep integrates seamlessly into a broader guard retention and advancement 
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[De La Riva Sweep]] - Parent category - family of sweeps from same position
 - [[X-Guard Sweep]] - Follow-up - transition point when sickle sweep is defended
@@ -356,7 +356,7 @@ This sweep integrates seamlessly into a broader guard retention and advancement 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Sickle Sweep exemplifies perfect mechanical efficiency in guard work through its exploitation of fundamental leverage principles. The sweeping motion creates what I call a 'rotational vector' that is perpendicular to the opponent's primary base structure, making recovery essentially impossible once proper angle and timing are achieved. The critical technical detail that separates effective execution from failure is the practitioner's ability to maintain rigid structural tension in their hook while simultaneously creating hip mobility to generate the sweeping arc. Most students make the error of treating this as a push-pull movement when it's actually a sophisticated rotational leverage system. The 45-degree angle isn't arbitrary - it represents the mathematical optimal angle where the opponent's defensive options (posting hands, stepping back, or dropping weight) all become neutralized simultaneously. When you understand the biomechanical reasoning behind each component, you can adapt the sweep to different body types and defensive strategies with precision. This sweep should be viewed as a foundational lesson in how to convert static control into dynamic positional advancement through leverage multiplication.
 - **Gordon Ryan**: In competition, the Sickle Sweep is one of my highest-percentage techniques from De La Riva because it directly addresses the modern passing meta where opponents stay standing and mobile. What makes this sweep so effective at the elite level is that it forces the opponent into a true lose-lose scenario - if they stay heavy on the hook leg to resist the sweep, they're vulnerable to back takes and leg entanglements; if they lighten their base to avoid being swept, they expose themselves to the full sickle motion. I've scored countless sweep points with this technique by focusing on one key detail that most people miss: you need to make the opponent commit their weight to the hooked leg before executing. I do this by pulling them slightly forward with my collar grip and using my hip push to create the illusion I'm going to invert under them. The moment they base heavy on that leg to prevent the inversion, I hit the sickle sweep and they have no counter. The timing component is everything - drill this sweep ten thousand times until you can recognize that weight commitment moment instinctively. In my passing system, I specifically avoid this sweep by never allowing my weight to load onto the De La Riva hook, which shows how dangerous competitors consider this technique at the highest levels.
 - **Eddie Bravo**: The Sickle Sweep is sick because it embodies that beautiful principle of using your opponent's defensive instincts against them - they think they're defending by posting or widening base, but they're actually walking into your trap. In the 10th Planet system, we chain this directly into our leg lock game and back attack sequences because modern BJJ is all about creating those decision trees where every path leads to you winning. What I love teaching about this sweep is the inversion option - when they sprawl their weight down to stop it, you can go underneath them Kiss of the Dragon style and still come out on top or on the back. That's the kind of creative flow that keeps BJJ evolving. We also do a sick variation where instead of finishing the sweep to mount, you use the momentum to come up into a leg drag position or even straight to the truck position if they're really committed to defending. The key thing I tell my students is don't be married to completing the sweep exactly as taught - use it as one entry point in a larger system of attacks. If they defend the sickle, you should already know your next three moves. That's how you become a complete guard player who's dangerous from every position, not just a guy who knows individual techniques. This sweep is also money in no-gi with the ankle grip variation because you get that same powerful lever without needing the gi fabric.

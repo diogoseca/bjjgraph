@@ -8,7 +8,7 @@ description: "Master defensive strategy in BJJ through systematic opponent analy
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master defensive strategy in BJJ through systematic opponent analy
 
 
 
-> **Quick Answer**: Defensive Strategy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Defensive Strategy is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Defensive Strategy represents the competition-focused application of defensive c
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Analyze opponent's attacking preferences and develop targeted defensive counters
 - Prioritize defensive preparation for opponent's highest-percentage attacks
 - Adapt defensive positioning and technique selection to specific rule sets and scoring systems
@@ -181,7 +181,7 @@ Defensive Strategy represents the competition-focused application of defensive c
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Opponent Pattern Recognition**: The ability to identify and catalog opponent's preferred attacking sequences, positional tendencies, and technical patterns through video study and live observation. This skill enables practitioners to anticipate opponent's strategic approach and prepare targeted defensive responses before match begins.
 
 **Threat Prioritization Analysis**: The systematic assessment of opponent's various attacking options to determine which threats require most defensive preparation and which can be addressed with general defensive principles. This involves evaluating success rates, finishing percentages, and strategic importance of different attacks.
@@ -204,7 +204,7 @@ Defensive Strategy represents the competition-focused application of defensive c
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Defensive Concepts]]** (Prerequisite): Defensive strategy requires mastery of fundamental defensive concepts as technical foundation upon which match-specific strategic planning is built.
 - **[[Match Strategy]]** (Complementary): Defensive strategy integrates with overall match strategy to create comprehensive competitive approach that balances defensive preparation with offensive game planning.
 - **[[Competition Mindset]]** (Complementary): Effective defensive strategy requires appropriate competition mindset to execute strategic decisions under pressure and adapt to unexpected match developments.
@@ -220,7 +220,7 @@ Defensive Strategy represents the competition-focused application of defensive c
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Guard Recovery**: Defensive strategy determines which guard positions to prioritize recovering based on opponent's passing preferences and practitioner's defensive strengths, creating targeted recovery pathways rather than generic re-guarding.
 
 **Back Control**: Strategic defensive planning for back control scenarios involves preparing specific hand fighting sequences, chin protection methods, and escape pathways based on opponent's choking preferences and attacking patterns.
@@ -257,7 +257,7 @@ Defensive Strategy represents the competition-focused application of defensive c
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Pre-Match Analysis - Identify opponent's primary attacking systems and preferred positions**: Study available match footage, competition results, and training information to catalog opponent's technical patterns, success rates, and strategic tendencies across different positions and match situations.
 2. **Threat Prioritization - Determine which opponent attacks require dedicated defensive preparation**: Rank opponent's attacks by finishing percentage, frequency of attempt, and strategic importance to their game plan, allocating preparation time proportionally to threat level rather than distributing equally.
 3. **Defensive System Selection - Choose specific defensive techniques and positions for each major threat**: Select proven defensive responses from personal repertoire that specifically counter opponent's attacks, developing multiple defensive pathways for highest-priority threats to create strategic redundancy.
@@ -270,28 +270,28 @@ Defensive Strategy represents the competition-focused application of defensive c
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Over-preparing for all possible attacks equally rather than prioritizing opponent's highest-percentage threats
+## Common Mistakes
+- **Mistake**: Over-preparing for all possible attacks equally rather than prioritizing opponent's highest-percentage threats
   - **Consequence**: Insufficient defensive preparation for attacks opponent actually uses frequently, while wasting preparation time on low-probability scenarios that never materialize during competition.
   - **Correction**: Focus defensive preparation heavily on opponent's top three most successful attacks, developing deep defensive expertise in these specific scenarios rather than shallow preparation across all possibilities.
-- **Error**: Maintaining same defensive strategy even when opponent clearly demonstrates they have prepared counters
+- **Mistake**: Maintaining same defensive strategy even when opponent clearly demonstrates they have prepared counters
   - **Consequence**: Predictable defensive responses that opponent exploits repeatedly, leading to accumulated positional losses and eventual submission as prepared defensive approaches fail consistently.
   - **Correction**: Recognize when primary defensive strategy is ineffective within first two attempts, immediately switching to alternative defensive approaches before positional damage becomes insurmountable.
-- **Error**: Developing defensive strategy in isolation from offensive game plan without considering integration
+- **Mistake**: Developing defensive strategy in isolation from offensive game plan without considering integration
   - **Consequence**: Purely reactive defensive approach that never creates offensive opportunities, allowing opponent to maintain constant offensive pressure while practitioner survives but cannot win.
   - **Correction**: Integrate defensive positioning with offensive counter-attacks, ensuring every defensive response creates pathway to offensive positions or submissions rather than survival alone.
-- **Error**: Failing to account for rule set differences when implementing defensive strategy across different competition formats
+- **Mistake**: Failing to account for rule set differences when implementing defensive strategy across different competition formats
   - **Consequence**: Defensive decisions that make strategic sense in one rule set but create disadvantages in different format, such as accepting positions that score heavily or defending submissions that aren't legal.
   - **Correction**: Explicitly review competition rules before implementing defensive strategy, modifying defensive priorities based on point values, submission restrictions, and advantage criteria specific to format.
-- **Error**: Expending maximum defensive energy early in match without considering sustainability across entire duration
+- **Mistake**: Expending maximum defensive energy early in match without considering sustainability across entire duration
   - **Consequence**: Defensive exhaustion in later match stages when energy is most critical, forcing acceptance of dominant positions and submissions due to inability to mount effective defensive resistance.
   - **Correction**: Distribute defensive effort strategically across expected match duration, accepting some early positional disadvantages to conserve energy for critical defensive scenarios later when fatigue increases vulnerability.
-- **Error**: Relying on single defensive response for each threat rather than developing backup defensive strategies
+- **Mistake**: Relying on single defensive response for each threat rather than developing backup defensive strategies
   - **Consequence**: Complete defensive failure when opponent anticipates primary defensive approach, leaving no alternative defensive pathways when initial strategy is countered.
   - **Correction**: Develop minimum of two defensive responses for each high-priority threat, creating strategic redundancy that maintains defensive effectiveness even when opponent prepares for primary defensive approach.
-- **Error**: Abandoning prepared defensive strategy at first sign of difficulty rather than giving it adequate time to work
+- **Mistake**: Abandoning prepared defensive strategy at first sign of difficulty rather than giving it adequate time to work
   - **Consequence**: Constant defensive uncertainty and panic switching between approaches, never allowing any defensive strategy sufficient time to succeed while creating mental chaos during competition.
   - **Correction**: Commit to prepared defensive strategy for minimum of two complete cycles before switching to alternatives, allowing sufficient time for strategy to work while avoiding premature abandonment.
 
@@ -300,7 +300,7 @@ Defensive Strategy represents the competition-focused application of defensive c
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Opponent-Specific Drilling** (Focus: Developing automatic defensive reactions to specific opponent's attacks, ensuring defensive strategy becomes instinctive rather than requiring conscious decision-making during competition.)
 Training partner replicates specific opponent's attacking patterns and sequences while practitioner implements prepared defensive responses under increasingly realistic conditions.
 
@@ -325,7 +325,7 @@ Systematic analysis of training sessions to evaluate defensive strategy effectiv
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can identify opponent's most obvious attacking preferences through video study or direct observation
 - Develops basic defensive plan focusing on one or two primary threats without strategic depth
@@ -364,7 +364,7 @@ Systematic analysis of training sessions to evaluate defensive strategy effectiv
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Defensive Concepts]] (Principle) - Provides fundamental defensive principles upon which strategic planning is built, serving as technical foundation for implementing match-specific defensive strategies.
 - [[Match Strategy]] (Principle) - Encompasses defensive strategy within broader competitive planning framework, ensuring defensive preparation integrates with offensive game planning and overall match approach.
@@ -384,7 +384,7 @@ Systematic analysis of training sessions to evaluate defensive strategy effectiv
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Defensive strategy represents one of the most intellectually demanding aspects of competitive BJJ, requiring practitioners to conduct sophisticated analytical work that most competitors neglect entirely in favor of offensive preparation alone. When approaching defensive strategy, I emphasize the importance of understanding not merely what opponents do but why they prefer certain approaches, enabling strategic positioning that prevents opponent's game plan implementation rather than reacting to attacks after they develop. The most critical insight regarding defensive strategy is that effective strategic preparation requires developing multiple defensive pathways for each major threat rather than relying on single defensive approach, creating strategic redundancy that maintains effectiveness even when opponent anticipates defensive responses. I teach students to view defensive strategy as equally important to offensive strategy, dedicating substantial preparation time to developing comprehensive defensive game plans that account for opponent's technical capabilities, strategic tendencies, and psychological patterns. The practitioners who implement this systematic analytical approach to defensive preparation consistently neutralize opponent's strongest attacks while creating counter-attacking opportunities that emerge from defensive scenarios.
 - **Gordon Ryan**: At the championship level where I compete, defensive strategy often determines match outcomes between equally skilled opponents who both possess world-class offensive systems. My approach to defensive strategy emphasizes identifying opponent's absolute best attacks and over-preparing those specific defensive scenarios rather than distributing preparation time equally across all possible threats, ensuring I have exceptional defensive expertise where I need it most. I've developed what I call aggressive defensive strategy where my defensive positioning is chosen to create counter-attacking opportunities rather than purely defensive survival, maintaining offensive threat even during defensive phases of the match. This approach has proven critical in my highest-level matches where purely reactive defensive strategy allows opponent to maintain constant pressure without risk. When preparing defensive strategy, I focus exclusively on defensive approaches that remain effective under maximum pressure, avoiding overly complex strategic approaches that break down when facing championship-level opponents who attack with exceptional timing and technical precision. The key insight I've gained through championship experience is that defensive strategy must integrate seamlessly with offensive game plan, creating unified competitive approach where defensive positions generate offensive opportunities.
 - **Eddie Bravo**: Within the 10th Planet system, I've developed defensive strategies that often challenge conventional strategic thinking, particularly regarding which positions to accept and which to avoid at all costs based on submission threat versus positional control. When teaching defensive strategy, I emphasize the importance of maintaining personal style and system even during defensive phases, advocating for defensive strategies that funnel opponents into practitioner's preferred positions rather than attempting to defend everywhere equally. This approach has led to innovative defensive strategies from positions like turtle and half guard where conventional defensive approaches are predictable and easily countered by sophisticated opponents who have studied traditional defensive responses extensively. I encourage students to develop creative defensive strategies that opponents may not anticipate, using unconventional defensive positioning and unexpected counter-attacks that create mental uncertainty in opponent's strategic planning. The practitioners who implement this creative approach to defensive strategy often surprise opponents who have prepared extensively for conventional defensive responses but have no strategic answer for innovative defensive approaches that don't follow expected patterns.

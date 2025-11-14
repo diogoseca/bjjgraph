@@ -8,7 +8,7 @@ description: "Master the Technical Standup in BJJ. Learn proper base mechanics, 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Technical Standup in BJJ. Learn proper base mechanics, 
 
 
 
-> **Quick Answer**: Standing up transitions from [[Open Guard]] to [[Standing Position]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+> Standing up transitions from [[Open Guard]] to [[Standing Position]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jit
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Post base hand 12-18 inches behind hips with arm fully extended and locked, creating strong triangular base structure
 - Immediately elevate hips off mat upon posting hand to create distance and establish defensive posture
 - Keep near leg (same side as base hand) bent and loaded for explosive drive when transitioning to full standing position
@@ -186,7 +186,7 @@ The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jit
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in standing position or attempting to engage from top position
 - Sufficient space created through shrimping, framing, or distance management to begin standup sequence
 - No immediate submission threats or controlling grips that would prevent arm posting
@@ -199,7 +199,7 @@ The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jit
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Create distance and space**: Use frames, shrimping, or leg extensions to create sufficient space between you and opponent. Push away with feet on hips or use defensive frames to prevent opponent from closing distance while you prepare to post base hand. (Timing: Before opponent can establish controlling grips or advance position)
 2. **Post base hand**: Rotate body slightly to side and post base hand approximately 12-18 inches behind hips with palm flat on mat, fingers pointed away from body. Fully extend and lock arm with scapula depressed and stable, creating first point of triangular base structure. (Timing: As soon as sufficient space is created)
 3. **Elevate hips immediately**: Drive hips upward off mat by pushing through posted hand and beginning to load near leg. Elevate hips high enough that only base hand, near foot, and far heel remain in contact with mat, creating mobile defensive structure. (Timing: Immediately after base hand posts)
@@ -213,7 +213,7 @@ The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jit
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent rushes forward to prevent standup and close distance aggressively** (Effectiveness: High) - Your Response: Immediately retract far leg and transition to guard recovery, establishing butterfly guard, seated guard, or open guard rather than fighting for compromised standup
 - **Opponent grabs or controls extended far leg to prevent distance management** (Effectiveness: Medium) - Your Response: Retract captured leg and transition to Single Leg X-Guard entry or alternative guard position, using opponent's grip as entry point for leg entanglement system
 - **Opponent attempts to sweep or collapse base hand by attacking posted arm** (Effectiveness: Medium) - Your Response: Execute Granby Roll to turtle position or immediately transition to guard recovery using hip escape mechanics before base is fully compromised
@@ -223,28 +223,28 @@ The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jit
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Posting base hand too close to hips, creating weak base structure
+## Common Mistakes
+- **Mistake**: Posting base hand too close to hips, creating weak base structure
   - **Consequence**: Insufficient leverage to elevate hips properly, making sweep or collapse more likely, and reducing ability to drive to standing position
   - **Correction**: Post base hand approximately 12-18 inches behind hips with arm fully extended and locked, creating strong triangular base structure
-- **Error**: Turning head or chest away from opponent during standup sequence
+- **Mistake**: Turning head or chest away from opponent during standup sequence
   - **Consequence**: Loss of visual contact with opponent, exposure of back, and vulnerability to attacks from blind spots
   - **Correction**: Maintain constant visual contact with opponent, keep chest facing toward threat throughout entire sequence, rotate body around base hand rather than turning away
-- **Error**: Attempting to stand with both legs simultaneously without proper base
+- **Mistake**: Attempting to stand with both legs simultaneously without proper base
   - **Consequence**: Loss of balance, exposure to takedowns, and inability to defend or create distance
   - **Correction**: Use proper technical standup sequence: post hand, elevate hips, load near leg, drive to standing while maintaining far leg as defensive barrier
-- **Error**: Keeping hips too low to mat during standup position
+- **Mistake**: Keeping hips too low to mat during standup position
   - **Consequence**: Reduced mobility, slower reaction time to opponent's movement, and easier for opponent to close distance or attack
   - **Correction**: Immediately elevate hips high off mat upon posting hand, maintaining tension in base hand and near leg to create active defensive posture
-- **Error**: Allowing opponent to control or trap extended leg without response
+- **Mistake**: Allowing opponent to control or trap extended leg without response
   - **Consequence**: Loss of distance management, exposure to leg attacks or passes, inability to complete standup sequence
   - **Correction**: Actively pump and reposition extended leg, retract if gripped, and transition to alternative guard recovery rather than fighting for compromised standup
-- **Error**: Standing up without timing or awareness of opponent's position
+- **Mistake**: Standing up without timing or awareness of opponent's position
   - **Consequence**: Vulnerability to takedowns during transition, poor positioning when reaching standing, and wasted energy on ill-timed attempts
   - **Correction**: Time standup with opponent's movement, create distance first through framing and leg extensions, then commit to standing explosively when window opens
-- **Error**: Bending base arm or allowing elbow to collapse under pressure
+- **Mistake**: Bending base arm or allowing elbow to collapse under pressure
   - **Consequence**: Immediate loss of base structure, fall back to mat, and return to inferior bottom position with opponent advancing
   - **Correction**: Lock base arm completely straight with scapula depressed and stable, redirect pressure through bone structure rather than muscular tension
 
@@ -253,7 +253,7 @@ The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jit
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Basic standup sequence without resistance
 Practice technical standup from both sides (left and right hand posts) with emphasis on proper base positioning, hip elevation, and smooth transition to standing. Start slowly focusing on correct mechanics, then gradually increase speed while maintaining quality of movement. No partner resistance.
 (Resistance: None)
@@ -284,7 +284,7 @@ Integrate standup position with offensive entries to leg entanglement systems, g
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Combat Base Standup**: Alternative standup method using knee-down combat base position before rising to standing. Near leg posts on knee rather than foot, providing more stable base but slower transition to standing. (When to use: When opponent is applying heavy pressure or when additional stability is needed before committing to full standup)
 
 **Seated Guard Standup**: Modified standup from seated guard position where both hands can be used for base or grips. Allows for transitions to guard pulls or leg entanglement entries rather than full standing. (When to use: When opponent is maintaining distance and you want to establish guard rather than stand completely)
@@ -324,7 +324,7 @@ Integrate standup position with offensive entries to leg entanglement systems, g
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing the technical standup, ensure controlled execution to avoid injury to the supporting wrist and shoulder from improper base hand positioning or collapse. Start with slow, deliberate repetitions focusing on proper mechanics before adding speed or resistance. The base hand should always post with proper wrist alignment and the arm should remain locked to distribute force through bone structure rather than muscular tension. When training with partners, communicate clearly about resistance levels and avoid explosive movements during early learning phases. Partners applying pressure should do so progressively and give feedback on base stability. Be particularly cautious about the extended far leg being grabbed or attacked - retract immediately if controlled rather than fighting the grip. In self-defense contexts, the technical standup provides essential distance management and should be practiced regularly as a fundamental defensive skill.
 
@@ -332,7 +332,7 @@ When practicing the technical standup, ensure controlled execution to avoid inju
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The technical standup represents a critical bridge in the BJJ positional hierarchy between ground fighting and standing combat. It serves multiple strategic functions: as an escape mechanism from inferior bottom positions, as a method of controlling engagement range, and as a reset tool when the ground game is not favorable. The standup integrates with the guard retention system as the ultimate distance creation tool when guard recovery through re-guarding is not optimal. It connects to the standing game by providing safe entry to standing combat while maintaining defensive integrity. The standup also serves as a gateway position - from this structure, practitioners can choose to complete the standup to standing, transition to seated guard positions, or enter leg entanglement systems based on opponent's reactions. In the context of modern no-gi grappling, the technical standup has become increasingly important as a strategic tool for controlling pace and preventing dominant grapplers from establishing their preferred ground positions. The position embodies the principle of maintaining autonomy over engagement range and should be mastered as thoroughly as any guard pass or submission technique.
 
@@ -340,7 +340,7 @@ The technical standup represents a critical bridge in the BJJ positional hierarc
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Technical Standup]] - Primary technique for executing this transition
 - [[Standing up in Base]] - Alternative standup method using combat base structure
@@ -363,7 +363,7 @@ The technical standup represents a critical bridge in the BJJ positional hierarc
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The technical standup represents one of the most fundamental yet frequently neglected skills in Brazilian Jiu-Jitsu. From a biomechanical perspective, the position creates a stable triangular base through the strategic placement of three contact points: the base hand, the near foot, and the far heel. This configuration maximizes stability while maintaining mobility, allowing the practitioner to pivot, adjust distance, and transition to standing with minimal vulnerability. The critical element is the immediate elevation of the hips upon posting the base hand - this single action creates distance from the mat and establishes a defensive structure that makes it exceedingly difficult for the opponent to close distance or establish control. The extended far leg functions as an active barrier, using heel placement and leg extension to manage distance precisely. When executed with proper technical precision, the standup position provides complete autonomy over engagement range, allowing the practitioner to dictate whether the match continues on the ground or returns to standing combat. This positional control is invaluable in self-defense contexts and represents a fundamental skill that should be drilled with the same dedication as any guard passing or submission technique. The standup also exemplifies the principle of creating frames and managing distance - two foundational concepts that permeate all effective defensive grappling.
 - **Gordon Ryan**: In competition, the technical standup is your insurance policy against being held down by opponents who want to stall or control without advancing position. I use the standup constantly when I want to reset the engagement or force my opponent to actually engage rather than hold position. The key is being explosive and decisive with the movement - don't telegraph the standup, just execute it quickly and confidently when the window opens. I particularly like using the standup position as a bait to draw opponents into single leg attempts, which I can then counter with entries into leg entanglement systems or guillotine attacks. In no-gi especially, the standup becomes even more important because without the gi grips, it's harder for opponents to prevent you from disengaging when you decide to stand. The standup also creates excellent opportunities for re-guard entries into my preferred guard systems like butterfly or seated guard, giving me control over which guard position I'm working from rather than being forced into whatever position my opponent wants. Master the standup and you'll never feel trapped on your back - you always have the option to reset and re-engage on your terms. In my matches, I use standup strategically to control pace and force opponents to play my game rather than theirs.
 - **Eddie Bravo**: The technical standup is absolutely essential in the 10th Planet system because it gives you the freedom to choose your battles and control the pace of engagement. What's really interesting about the standup position is how it integrates with our lockdown and rubber guard systems - when opponents try to prevent the standup by grabbing the extended leg, that's actually an excellent entry into leg lock positions or deep half guard variations. I teach my students to use the standup not just as an escape mechanism but as an active offensive tool for creating reactions and entries. The standup also becomes crucial in the transition game between standing and ground fighting, especially in MMA contexts where you need to be able to move fluidly between ranges. One variation I really like is using the standup position to create angles for back attacks - as the opponent tries to prevent you from standing, you can pivot and spin to their back while they're committed to controlling your legs. The standup also sets up some excellent guillotine opportunities when opponents shoot takedowns as you're rising to your feet. Don't just think of standup as defensive - it's an active position with offensive potential if you're creative with it. In the 10th Planet curriculum, we drill standup extensively because it's the gateway to controlling engagement range and dictating the flow of the match.

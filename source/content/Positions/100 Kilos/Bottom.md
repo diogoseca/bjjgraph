@@ -8,7 +8,7 @@ description: "Master defensive survival from 100 Kilos Bottom. Complete guide co
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master defensive survival from 100 Kilos Bottom. Complete guide co
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master defensive survival from 100 Kilos Bottom. Complete guide co
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 50% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ The 100 Kilos Bottom Position represents one of the most challenging defensive s
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player is on their back or side with top player's shoulder driven into their chest, face, or neck area, creating intense localized pressure and restricting breathing capacity
 - Top player's weight is concentrated through their shoulder and upper body, with their hips typically positioned to maximize pressure and prevent bottom player's escape attempts
@@ -198,7 +196,7 @@ The 100 Kilos Bottom Position represents one of the most challenging defensive s
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Top player has achieved side control or similar dominant position with significant weight distribution advantages
 - Bottom player's defensive frames have been compromised or are in the process of being broken down
@@ -224,7 +222,7 @@ The 100 Kilos Bottom Position represents one of the most challenging defensive s
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Elbow Escape]] → [[Half Guard]]
 
@@ -281,7 +279,7 @@ The 100 Kilos Bottom Position represents one of the most challenging defensive s
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Americana from Side Control]]** → [[Americana Control]] (Opponent Success: 60%)
 - **[[Kimura from Side Control]]** → [[Kimura Control]] (Opponent Success: 55%)
@@ -294,7 +292,7 @@ The 100 Kilos Bottom Position represents one of the most challenging defensive s
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Granby Roll]]** → [[Turtle]]
   - When opponent commits weight forward during submission attempt
@@ -334,7 +332,7 @@ The 100 Kilos Bottom Position represents one of the most challenging defensive s
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

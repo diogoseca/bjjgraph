@@ -13,10 +13,6 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 
 
 
-> **Quick Overview**: The Jailbreak position represents a critical dynamic state in the half guard game, characterized by explosive movement and strategic risk-taking to escape dominant pressure. This position manifests in...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ From bottom perspective, the practitioner uses underhook control combined with i
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive |
-| Risk Level | Medium to High | Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive |
+| **Risk Level** | Medium to High | Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Explosive inversion trades stability for escape
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Jailbreak/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Jailbreak/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Explosive inversion trades stability for escape
 
 
 
@@ -88,10 +72,13 @@ From bottom perspective, the practitioner uses underhook control combined with i
 
 <section id="bottom-summary" class="content-section">
 
-## Jailbreak Bottom Perspective
+
+## Playing as Bottom
+
+[[Jailbreak/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in jailbreak balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in jailbreak balances defensive frames with offensive opportun
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting jailbreak without securing underhook first**
@@ -162,16 +149,17 @@ The bottom player in jailbreak balances defensive frames with offensive opportun
   - ✅ Correction: Set up the jailbreak with other attacks or movements, then execute explosively when top player commits weight
 
 
-👉 **[[Jailbreak/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Jailbreak Top Perspective
+
+## Playing as Top
+
+[[Jailbreak/Top|→ Full Top Guide]]
 
 
-The top player in jailbreak enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -220,7 +208,7 @@ The top player in jailbreak enjoys offensive advantages with access to submissio
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Standing too upright and losing forward pressure while navigating extended legs**
@@ -251,8 +239,6 @@ The top player in jailbreak enjoys offensive advantages with access to submissio
   - Consequence: Pass stalls and bottom player eventually recovers guard or sweeps
   - ✅ Correction: Continuously assess bottom player's leg positioning and switch between passing strategies as their defense changes
 
-
-👉 **[[Jailbreak/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

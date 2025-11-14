@@ -13,10 +13,6 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 
 
 
-> **Quick Overview**: Worm Guard is an advanced lapel-based open guard position developed and popularized by Keenan Cornelius. The position is characterized by feeding the opponent's lapel behind their back and around thei...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Offensive |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Offensive |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Medium |
 
-**What Makes This Position Unique:** Lapel control trades mobility for leverage
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Worm Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Worm Guard/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Lapel control trades mobility for leverage
 
 
 
@@ -88,10 +72,13 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 <section id="bottom-summary" class="content-section">
 
-## Worm Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Worm Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in worm guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -140,7 +127,7 @@ The bottom player in worm guard controls the position with offensive attacks inc
   - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Losing lapel tension during transitions or adjustment movements**
@@ -168,16 +155,17 @@ The bottom player in worm guard controls the position with offensive attacks inc
   - ✅ Correction: Develop sensitivity to recognize when lapel control is truly lost versus temporarily loosened. When compromised, immediately transition to alternative guard (spider, lasso, DLR) rather than forcing broken worm guard structure.
 
 
-👉 **[[Worm Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Worm Guard Top Perspective
+
+## Playing as Top
+
+[[Worm Guard/Top|→ Full Top Guide]]
 
 
-The top player in worm guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -220,7 +208,7 @@ The top player in worm guard enjoys offensive advantages with access to submissi
   - Success Rate: Beginner 12%, Intermediate 28%, Advanced 42%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting forward pressure passes while lapel is still wrapped and tensioned around the leg**
@@ -247,8 +235,6 @@ The top player in worm guard enjoys offensive advantages with access to submissi
   - Consequence: Allows bottom player to reset and strengthen their guard structure, and in competition results in stalling penalties or failed passing attempts
   - ✅ Correction: Maintain engagement with strategic grips and pressure while systematically working through the positional problems, using pressure to limit bottom player's mobility even while addressing the lapel
 
-
-👉 **[[Worm Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

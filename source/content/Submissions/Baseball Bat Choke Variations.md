@@ -8,7 +8,7 @@ description: "Master Baseball Bat Choke Variations in BJJ. Multiple grips and se
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Baseball Bat Choke Variations in BJJ. Multiple grips and se
 
 
 
-> **Quick Answer**: Baseball Bat Choke Variations is a gi collar choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Tracheal damage from excessive pressure - apply slowly over 3-5 seconds and release immediately upon tap.
+> Baseball Bat Choke Variations is a gi collar choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Tracheal damage from excessive pressure. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="safety-considerations" class="content-section">
 
-## Is Baseball Bat Choke Variations Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -212,7 +212,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Cross-collar grip configuration with both hands on same side creates powerful rotational force
 - Thumb-inside grip on deeper collar provides primary choking pressure
 - Second hand grip reinforces and amplifies the choking force through pulling motion
@@ -226,7 +226,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure dominant control position (back control, mount, side control, or turtle top)
 - Access to opponent's gi collar on at least one side
 - Ability to establish deep cross-collar grip without opponent blocking
@@ -239,7 +239,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish primary cross-collar grip**: Reach across opponent's neck and establish a deep thumb-inside grip on the far collar. The grip should be as deep as possible with your thumb penetrating below the collar line and your four fingers gripping on the outside. Your hand positioning resembles the bottom hand on a baseball bat. This grip must be established early before the opponent recognizes the attack and defends their collar. (Timing: 2-3 seconds) [Pressure: Light]
 2. **Secure second collar grip**: Establish your second hand grip on the same collar, positioned above your first grip like the top hand on a baseball bat. This grip can use either thumb-inside or four-fingers-inside configuration depending on the variation. The key is creating a continuous grip line along one side of the opponent's neck with both hands working together. Maintain tight grip spacing with minimal gap between your hands. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Adjust body position and angle**: Shift your body weight and positioning to optimize the choking angle. From back control, this typically involves falling to your side opposite the grips. From mount, you may need to lean heavily toward the choking side. From side control, adjust your chest pressure to prevent opponent from turning away. Your body positioning creates the leverage that makes the grip effective rather than relying solely on arm strength. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -252,7 +252,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Hand fighting to prevent initial collar grip establishment** (Effectiveness: High) - Your Adjustment: Use grip fighting sequences and feints to create openings. Threaten other attacks to occupy opponent's defensive hands. Consider switching to alternative grips or setup variations when primary entry is blocked.
 - **Tucking chin aggressively into chest to block collar access** (Effectiveness: Medium) - Your Adjustment: Use your free hand or forearm to create space under the chin. Apply pressure to force head back slightly before establishing second grip. Consider switching to different choke variation that works around the chin tuck.
 - **Turning head toward the choke to relieve pressure** (Effectiveness: Medium) - Your Adjustment: Use your chest, shoulder, or legs to prevent head rotation. Adjust your body angle to maintain perpendicular pressure regardless of head movement. In some variations, following the turn actually tightens the choke.
@@ -262,25 +262,25 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying excessive tracheal pressure instead of targeting carotid arteries [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying excessive tracheal pressure instead of targeting carotid arteries [CRITICAL DANGER]
   - **Consequence**: Causes unnecessary pain and potential injury without effective blood choke
   - **Correction**: Ensure collar grips are positioned on sides of neck targeting carotids. Use rotational force rather than straight crushing pressure. The choke should feel like restriction of blood flow rather than airway compression.
-- **Error**: Establishing shallow collar grips without sufficient depth
+- **Mistake**: Establishing shallow collar grips without sufficient depth
   - **Consequence**: Opponent easily defends by tucking chin or creates space to escape grips
   - **Correction**: Fight to get thumb as deep as possible below collar line on initial grip. Sacrifice time to get proper depth rather than rushing to second grip. Deep grips are the foundation of all successful variations.
-- **Error**: Using arm strength alone without proper body positioning leverage
+- **Mistake**: Using arm strength alone without proper body positioning leverage
   - **Consequence**: Choke lacks finishing power and exhausts your grip strength quickly
   - **Correction**: Focus on body angle and weight distribution to create mechanical advantage. Let your body weight and positioning do the work while your hands simply maintain the grips. The power comes from your whole body, not just your arms.
-- **Error**: Failing to control opponent's head and allowing excessive movement
+- **Mistake**: Failing to control opponent's head and allowing excessive movement
   - **Consequence**: Opponent creates space, relieves pressure, and potentially escapes position
   - **Correction**: Use chest, shoulder, forearms, or legs to restrict head movement throughout finish. Head control should be established before applying maximum choking pressure. Treat head control as equally important as collar grips.
-- **Error**: Applying finishing pressure too quickly without progressive tightening [CRITICAL DANGER]
+- **Mistake**: Applying finishing pressure too quickly without progressive tightening [CRITICAL DANGER]
   - **Consequence**: Partner cannot tap safely, risk of injury or unconsciousness
   - **Correction**: Build pressure progressively over 3-4 seconds minimum in training. Give clear incremental warnings through gradual tightening. Watch for tap signals continuously and maintain ability to release instantly.
-- **Error**: Maintaining choke after tap or distress signals [CRITICAL DANGER]
+- **Mistake**: Maintaining choke after tap or distress signals [CRITICAL DANGER]
   - **Consequence**: Serious injury including unconsciousness, tracheal damage, or cervical strain
   - **Correction**: Release all grips immediately at first indication of tap or distress. Train yourself to recognize subtle tap signals. When in doubt about a tap, release and ask. Holding submissions after tap is unacceptable in training.
 
@@ -289,7 +289,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Standard Baseball Bat Choke from Back Control**: The fundamental variation executed from back mount with hooks in. Establish cross-collar grip with bottom hand thumb-inside, second grip above it, then fall to the side opposite your grips while maintaining hook control. This creates the classic rotational finish. (When to use: Primary option when you have full back control with both hooks established. Most powerful when opponent is defending rear naked choke and exposing their collar.)
 
 **Baseball Bat Choke from Mount**: Applied from high mount by establishing the same grip configuration, then leaning your chest heavily toward the choking side while keeping opposite knee tight to prevent escape. The mount variation uses your body weight as the primary pressure source. (When to use: When opponent is defending armbar attempts from mount and turning their head, exposing the collar. Particularly effective when you're in high mount position.)
@@ -336,7 +336,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn grip configurations, body positioning, and mechanical principles without applying pressure. Study all major variations and understand when each applies.
 - Resistance: None
@@ -373,7 +373,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Back Control]]
 - [[Mount]]
@@ -389,7 +389,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Baseball Bat Choke]]
 - [[Clock Choke]]
@@ -427,7 +427,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The baseball bat choke variations represent a perfect case study in systematic submission hunting from dominant positions. The fundamental mechanical principle—rotational force applied through cross-collar grips—remains constant across all variations, but the setup, angle, and body positioning adapt to the specific control position you've established. What makes this submission family particularly valuable from a systematic perspective is the difficulty opponents face defending multiple variations simultaneously. When you establish deep collar grips, the opponent must choose which variation to defend, and that choice itself creates vulnerabilities to alternative finishes. From a safety standpoint, practitioners must understand that the power of this choke comes from the grip configuration and body leverage, not from explosive application. Training intensity should always prioritize your partner's safety over your ego. The goal is to develop the technical precision to finish the choke smoothly and inevitably rather than relying on speed or strength. Progressive pressure application over 4-5 seconds minimum gives your partner adequate time to recognize the submission and tap safely. Remember that in training, your partner's safety is your responsibility regardless of their experience level or how hard they're resisting.
 - **Gordon Ryan**: In competition, the baseball bat choke variations are absolute money techniques because once you establish both grips deeply, the opponent has very limited defensive options and the finish is almost inevitable. I've used different variations to secure victories at the highest levels because the rotational pressure makes it extremely difficult to defend by conventional means like tucking the chin or hand fighting. The key competitive advantage is recognizing which variation applies to your current position and opponent's defensive posture. From back control, I prefer the standard variation falling to my hip opposite the grips. From mount, I use heavy chest pressure and the mount variation. What separates competition application from training is the finishing speed—in competition I can apply maximum pressure quickly because my opponent is trained to tap appropriately, but in training we must always use controlled, progressive pressure over several seconds to ensure partner safety. When drilling these variations, focus on grip depth and body positioning perfection rather than speed. The grip fighting to establish the initial collar grip is often the most important phase—once you have both grips deeply secured, the finish becomes mechanical. Chain this with rear naked choke attempts from back control; when they defend the RNC by hand fighting, their collar opens up perfectly for the baseball bat variation.
 - **Eddie Bravo**: The baseball bat choke family is fascinating because it works in gi obviously, but the grip principles translate to understanding collar control in general. What I find interesting about the variations is how the same fundamental mechanics apply from completely different positions—back, mount, side control, even from turtle. This teaches you to think beyond specific techniques and recognize the underlying principles that make submissions work. In 10th Planet system we don't train with the gi, but understanding these collar mechanics helps develop general submission awareness and grip fighting principles that apply to no-gi controls. When we work with gi practitioners in training or MMA contexts, recognizing the setup and defending the initial grip establishment is critical because once both grips are deep, the mechanics make the finish very difficult to stop. From a training culture perspective, the baseball bat choke variations require mature training partners because the effectiveness of the choke means you must trust your partner to apply it slowly and release immediately on tap. Build that trust by being the practitioner who always trains safely, always applies progressive pressure, and always respects the tap instantly. The gym culture around collar chokes specifically needs to emphasize safety because the line between effective training pressure and dangerous application is subtle. Everyone in the gym should feel comfortable working these techniques because everyone knows their partners will prioritize their safety.

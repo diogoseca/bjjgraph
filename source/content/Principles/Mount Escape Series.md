@@ -8,7 +8,7 @@ description: "Master systematic mount escape sequences in BJJ. Learn frame mecha
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master systematic mount escape sequences in BJJ. Learn frame mecha
 
 
 
-> **Quick Answer**: Mount Escape Series is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Mount Escape Series is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Mount Escape Series represents the systematic approach to escaping from mount po
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Establish defensive frames immediately to prevent position advancement before initiating escape attempts
 - Select primary escape based on opponent's mount configuration and weight distribution
 - Create movement and reactions that set up secondary escapes when primary attempts are defended
@@ -181,7 +181,7 @@ Mount Escape Series represents the systematic approach to escaping from mount po
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Defensive Frame Establishment**: Ability to create and maintain frames using forearms against opponent's hips and torso immediately upon being mounted, preventing weight settling and creating foundation for subsequent escape mechanics. This includes proper elbow positioning, maintaining frame tension without overextension, and adjusting frame placement based on opponent's weight distribution across mount variations.
 
 **Bridge Mechanics**: Explosive hip elevation coordinated with proper foot placement and shoulder positioning to create maximum upward force and lateral displacement. Effective bridging requires driving through heels, creating arch in lower back, and timing explosive movement with opponent's weight shifts to maximize effectiveness while maintaining defensive arm positioning throughout motion.
@@ -204,7 +204,7 @@ Mount Escape Series represents the systematic approach to escaping from mount po
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Mount Escape Hierarchy]]** (Prerequisite): Understanding which escapes have highest success probability in specific mount configurations provides the decision-making framework for selecting primary escape attempts within the series progression
 - **[[Bridge and Shrimp]]** (Prerequisite): Fundamental movement patterns that form the mechanical foundation for all mount escape techniques, must be developed before effective escape series can be implemented
 - **[[Frame Creation]]** (Complementary): Defensive framing mechanics work in coordination with escape movements to create space and prevent position advancement throughout escape sequences
@@ -222,7 +222,7 @@ Mount Escape Series represents the systematic approach to escaping from mount po
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Primary application context where entire escape series unfolds, with technique selection based on standard mount configuration and opponent's weight distribution across chest and hips
 
 **High Mount**: Modified escape series emphasizing arm trap prevention and immediate hip escape initiation before opponent can establish grapevine control or progress to mounted triangle position
@@ -253,7 +253,7 @@ Mount Escape Series represents the systematic approach to escaping from mount po
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess mount configuration and opponent weight distribution**: Identify whether opponent is in standard mount, high mount, technical mount, or modified variation, and determine primary weight distribution pattern (chest-heavy, hip-heavy, or balanced) to inform primary escape selection
 2. **Establish immediate defensive frames**: Create forearm frames against opponent's hips and/or torso based on mount configuration, ensuring frames prevent weight settling and submission setup while maintaining defensive arm positioning that protects against armbars
 3. **Select primary escape based on configuration assessment**: Choose bridge-and-roll if opponent is chest-heavy with high base, elbow escape if opponent is balanced or hip-heavy, or technical standup if opponent is extremely high and creating space under hips
@@ -266,28 +266,28 @@ Mount Escape Series represents the systematic approach to escaping from mount po
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting escapes without establishing defensive frames first
+## Common Mistakes
+- **Mistake**: Attempting escapes without establishing defensive frames first
   - **Consequence**: Allows opponent to settle weight fully and advance position or setup submissions before escape mechanics can be properly executed, dramatically reducing escape success probability
   - **Correction**: Always establish forearm frames against opponent's hips and torso immediately upon being mounted, creating foundational structure that prevents weight settling and enables subsequent escape mechanics
-- **Error**: Using tentative or incomplete bridging mechanics
+- **Mistake**: Using tentative or incomplete bridging mechanics
   - **Consequence**: Insufficient force generation fails to create meaningful displacement or reactions from opponent, wasting energy while allowing opponent to maintain position and potentially advance to more dominant variations
   - **Correction**: Execute bridges with maximum explosive power, driving through heels with full hip extension and coordinated shoulder movement, committing fully to each bridging attempt rather than testing with partial movements
-- **Error**: Randomly switching between escape techniques without systematic progression
+- **Mistake**: Randomly switching between escape techniques without systematic progression
   - **Consequence**: Creates disconnected escape attempts that opponent can defend individually rather than forcing them into reactive patterns that create vulnerabilities for follow-up techniques
   - **Correction**: Select primary escape based on mount configuration, then adapt subsequent escape choices systematically based on opponent's specific defensive reactions to create connected series rather than isolated attempts
-- **Error**: Abandoning defensive arm positioning during escape attempts
+- **Mistake**: Abandoning defensive arm positioning during escape attempts
   - **Consequence**: Creates armbar vulnerability as arms become extended or isolated during explosive escape movements, allowing opponent to abandon mount maintenance and transition directly to submission
   - **Correction**: Maintain continuous awareness of arm positioning throughout all escape attempts, keeping elbows connected to body and hands near own face except during specific moments of frame creation or trap establishment
-- **Error**: Failing to coordinate upper and lower body movement
+- **Mistake**: Failing to coordinate upper and lower body movement
   - **Consequence**: Reduces escape effectiveness as frame pressure and hip movement work independently rather than synergistically, allowing opponent to defend each element separately rather than being overwhelmed by coordinated attack
   - **Correction**: Synchronize frame pressure with hip movement so pushing frames coincides with bridging or shrimping motion, creating maximum cumulative displacement through coordinated upper and lower body mechanics
-- **Error**: Exhausting before completing escape sequence
+- **Mistake**: Exhausting before completing escape sequence
   - **Consequence**: Energy depletion during early escape attempts leaves practitioner unable to execute subsequent techniques in series, forcing acceptance of mounted position or creating submission vulnerability from fatigue
   - **Correction**: Manage explosive power allocation across multiple escape cycles, using frames to create rest opportunities between explosive attempts, and maintaining breathing control to preserve escape capability throughout extended sequences
-- **Error**: Ignoring mount variation and using generic escape approach
+- **Mistake**: Ignoring mount variation and using generic escape approach
   - **Consequence**: Attempting standard mount escapes against specialized mount variations often fails because opponent's base and control patterns require adapted escape mechanics specific to the variation
   - **Correction**: Identify specific mount variation (high mount, technical mount, S-mount) and adapt escape selection and execution to address variation-specific control patterns and base configurations
 
@@ -296,7 +296,7 @@ Mount Escape Series represents the systematic approach to escaping from mount po
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Isolated Escape Drilling** (Focus: Technical refinement of bridge-and-roll mechanics, elbow escape execution, frame positioning, and hip movement patterns without defensive resistance)
 Practice individual escape techniques repeatedly with cooperative partner allowing successful completion to develop proper mechanical patterns and muscle memory for each escape in the series
 
@@ -321,7 +321,7 @@ Practice escape sequences while in fatigued state, deliberately conditioning abi
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can execute basic bridge-and-roll and elbow escape techniques in cooperative drilling with proper fundamental mechanics
 - Establishes defensive frames upon being mounted, preventing immediate submission attempts even if frames are not optimally positioned
@@ -365,7 +365,7 @@ Practice escape sequences while in fatigued state, deliberately conditioning abi
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Mount]] (Position) - Primary position where mount escape series is applied, represents starting point for all escape sequences in the series
 - [[Bridge and Roll]] (Transition) - Fundamental escape technique within series, typically serving as primary option against chest-heavy mount configurations
@@ -385,7 +385,7 @@ Practice escape sequences while in fatigued state, deliberately conditioning abi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches mount escape series as systematic progression through interconnected techniques organized by logical decision tree based on opponent's reactions. Emphasizes what he terms 'escape hierarchy' where techniques are ordered from highest to lowest percentage based on positional specifics, with each escape creating specific reactions that set up subsequent attempts. Teaches detailed analysis of opponent's weight distribution and mount configuration to select optimal primary escape, then systematizes the transitional mechanics between escapes to create seamless series rather than disconnected attempts. Particularly emphasizes maintaining defensive arm positioning throughout entire escape sequence, noting that submission vulnerability during escapes represents primary failure mode for most practitioners. Views mount escape series as exemplar of systematic defensive approach applicable to all pin escape scenarios, demonstrating how principles of creating reactions, reading responses, and adapting technique selection apply universally across defensive situations. Stresses importance of what he calls 'escape persistence' where practitioners must maintain systematic progression through multiple attempt cycles rather than accepting position after initial failures.
 - **Gordon Ryan**: Views mount escape series as fundamental survival skill that must be developed to automatic level before offensive development can proceed effectively. Focuses on what he terms 'aggressive escaping' where escape attempts are executed with full commitment and explosive power rather than tentative testing, noting that half-hearted escape attempts waste energy while allowing opponent to consolidate position. Emphasizes importance of immediate frame establishment and space creation, noting that delayed defensive actions allow opponent to consolidate mount making subsequent escapes exponentially more difficult and energy-intensive. Particularly focuses on bridging mechanics as foundation for entire escape series, teaching explosive bridge with coordinated arm frames as universal setup for all subsequent escape progressions regardless of specific technique selection. Advocates practicing mount escapes under maximum resistance to develop capability under competition-level pressure where tentative escapes fail consistently, arguing that cooperative drilling without progressive resistance development creates false confidence in escape capability. Notes from competition experience that successful mount escapes often require three to five attempt cycles, emphasizing importance of energy management and systematic progression rather than explosive commitment to single escape attempt.
 - **Eddie Bravo**: Has developed specialized mount escape progressions within 10th Planet system that emphasize unconventional approaches and flow between escape types, often incorporating lockdown and half guard recovery as intermediate objectives rather than pursuing full guard recovery exclusively. When teaching mount escape series, emphasizes what he calls 'escape combinations' where initial escape attempts are executed primarily to create opponent reactions setting up higher-percentage follow-up escapes rather than expecting initial technique to succeed independently. Particularly innovative in using lockdown and half guard recovery as primary escape objective rather than full guard recovery, treating partial escapes as successful outcomes when full escape is not immediately available and using half guard position as platform for continued escape progression. Advocates understanding that mount escapes often require multiple attempt cycles, emphasizing persistence and systematic progression rather than expecting immediate success from single technique execution. Has developed specific training methodologies for building 'escape endurance' where practitioners drill escape sequences under fatigue to ensure defensive capability persists during late-round scenarios when metabolic stress is high. Notes that unconventional escape approaches often succeed against opponents trained primarily to defend standard techniques, advocating for developing personal escape variations that address individual body types and opponent patterns.

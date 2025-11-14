@@ -8,7 +8,7 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 
 
 
-> **Quick Answer**: Leg Drag Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Leg Drag Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control the opponent's near leg with both hands to prevent recovery
 - Create an angle by dragging the leg across their centerline
 - Maintain heavy chest pressure to prevent re-guard
@@ -180,7 +180,7 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent is in seated guard, open guard, or butterfly position
 - At least one of opponent's legs is accessible and not locked in closed guard
 - Passer has established grip control on opponent's pant leg or ankle
@@ -193,7 +193,7 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish primary grip control**: From standing or combat base position facing open guard, establish a strong grip on the opponent's near-side pant leg at the knee or just below. Your opposite hand should control their collar, sleeve, or establish a post on their hip to prevent them from sitting up or establishing strong grips on you. (Timing: Initial engagement phase - secure grips before opponent establishes dominant guard position)
 2. **Break guard structure**: Step your near-side leg forward and drive your knee to the mat near their hip, cutting the angle. Simultaneously pull their controlled leg across their body's centerline while using your collar/sleeve grip to break their posture and prevent them from framing against your chest or face. This creates the fundamental 'drag' motion that gives the pass its name. (Timing: Explosive initiation as opponent commits weight forward or extends legs)
 3. **Secure the drag position**: Transition your pant grip to trap their leg tightly against your body, pinning it between your chest and their body. Your near-side arm should wrap around and control their dragged leg while your opposite hand frames or controls their far shoulder to prevent them turning into you. Your chest should be heavy on their trapped leg, making it extremely difficult for them to recover guard. (Timing: Immediate follow-through after initial drag - no pause)
@@ -206,7 +206,7 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent frames on your head/face to prevent chest connection** (Effectiveness: High) - Your Response: Swim your head under their frame while maintaining the leg drag control, or transition to a knee slice variation by cutting your knee across their bottom leg instead of maintaining the drag position
 - **Opponent establishes butterfly hook on dragged side to prevent pass completion** (Effectiveness: Medium) - Your Response: Address the butterfly hook immediately by using your free hand to strip it while increasing pressure on the trapped leg, or transition to a smash pass by flattening the butterfly hook with your shin and pressure
 - **Opponent turns away to turtle or gives their back defensively** (Effectiveness: Low) - Your Response: Accept the back exposure and transition directly to back control by establishing seat belt grips and inserting hooks. This is often considered a successful outcome as back control is superior to side control
@@ -216,25 +216,25 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Dragging the leg but failing to maintain chest pressure on it
+## Common Mistakes
+- **Mistake**: Dragging the leg but failing to maintain chest pressure on it
   - **Consequence**: Opponent easily recovers guard by pulling the dragged leg back to their centerline and re-establishing hooks or frames
   - **Correction**: Think of the leg drag as creating a pin, not just a pull. Your chest must stay heavy on the trapped leg throughout the entire passing sequence. The leg should feel stuck between your body and theirs
-- **Error**: Standing too upright during the drag motion
+- **Mistake**: Standing too upright during the drag motion
   - **Consequence**: Creates space underneath that allows opponent to insert frames, recover butterfly hooks, or invert to recover guard. Also makes you vulnerable to sweeps
   - **Correction**: Maintain a low, forward-leaning posture with your chest driving toward the mat. Your hips should be lower than your shoulders throughout the pass
-- **Error**: Failing to control opponent's upper body with secondary hand
+- **Mistake**: Failing to control opponent's upper body with secondary hand
   - **Consequence**: Opponent sits up, establishes collar or sleeve grips, and can either sweep you or prevent the pass completion by framing effectively
   - **Correction**: Your non-dragging hand must actively control their collar, sleeve, or post on their shoulder/head to keep them broken down and prevent them from sitting up into you
-- **Error**: Dragging the leg but not circling the hips toward their back
+- **Mistake**: Dragging the leg but not circling the hips toward their back
   - **Consequence**: Pass stalls in a neutral position where opponent can recover guard or you remain stuck in a knee-on-belly-like position without proper control
   - **Correction**: The circular hip motion is what completes the pass. As soon as the drag is established, begin moving your hips and torso in a circular path toward their back to complete the transition to side control
-- **Error**: Attempting the pass with insufficient leg control or weak grips
+- **Mistake**: Attempting the pass with insufficient leg control or weak grips
   - **Consequence**: Opponent easily pulls their leg free and recovers guard before you can establish the drag position. Wasted energy and lost passing opportunity
   - **Correction**: Ensure you have a strong, committed grip on the pant leg before initiating the pass. Consider using two hands initially to secure the leg if opponent is actively defending
-- **Error**: Losing balance by overcommitting weight forward without proper base
+- **Mistake**: Losing balance by overcommitting weight forward without proper base
   - **Consequence**: Opponent can use your forward momentum against you to execute sweeps or scramble to advantageous positions
   - **Correction**: Maintain a wide base with your legs and keep your hips mobile. Your weight should be directed into the opponent through your chest, not through falling forward off-balance
 
@@ -243,7 +243,7 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Basic leg drag motion and body positioning
 Start from static positions with cooperative partner in seated guard. Practice the fundamental drag motion slowly, focusing on proper grip placement, chest pressure on the trapped leg, and the circular hip movement. Partner offers zero resistance. Drill 20-30 repetitions per side each session, emphasizing the feeling of pinning the leg with body weight rather than just holding with arms.
 (Resistance: None)
@@ -270,7 +270,7 @@ Incorporate the leg drag into full-resistance rolling. Use position-specific spa
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Reverse Leg Drag**: Instead of dragging the near leg across, control the far leg and drag it across your body, creating a different angle that can be more effective against certain guard retention styles (When to use: When opponent's near leg is heavily defended or when they are inverted/on their side presenting the far leg as more accessible)
 
 **Leg Drag to Back Take**: Rather than completing the pass to side control, recognize when opponent turns away defensively and immediately transition to back control by establishing seat belt and inserting hooks (When to use: When opponent has strong side control escapes and habitually turns away to turtle, or when back control is more strategically valuable than side control in competition scenario)
@@ -310,7 +310,7 @@ Incorporate the leg drag into full-resistance rolling. Use position-specific spa
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The leg drag pass is generally one of the safer guard passing techniques for both practitioners when executed properly. However, several safety considerations should be observed. Avoid driving your head or shoulder into your training partner's face with excessive force, as this can cause neck injuries or facial trauma. When establishing chest pressure on the trapped leg, be mindful of knee torque - the leg should be dragged across the body's centerline without twisting the knee joint in dangerous angles. During drilling, communicate with your partner about pressure levels, especially when learning to establish heavy chest pressure. Partners defending the leg drag should avoid posting with extended arms as this can lead to wrist, elbow, or shoulder injuries when the passer's weight collapses the frame. Beginners should start with slow, controlled repetitions before adding speed and dynamic movement. When the pass is completed and opponent is flattened, be conscious of rib and chest pressure - effective control doesn't require crushing pressure that prevents breathing.
 
@@ -318,7 +318,7 @@ The leg drag pass is generally one of the safer guard passing techniques for bot
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The leg drag pass is a central technique in modern Brazilian Jiu-Jitsu passing systems and integrates seamlessly into multiple strategic approaches. It serves as a primary response to seated guards, butterfly guard, and various open guard configurations where the opponent's legs are not locked. The leg drag naturally connects to other passing styles: it can transition to knee slice passes when opponent defends the initial drag, flow into toreando passes if they stand the near leg up to prevent the drag, or convert to back takes when opponent turns defensively. From a positional hierarchy perspective, the leg drag represents an immediate elevation from neutral guard engagement to dominant control (side control or back control), making it extremely valuable for competition where position advancement scores points. The technique also serves as both a standalone pass and as part of passing combinations - many high-level competitors use leg drag threats to set up their primary passing game by forcing predictable defensive reactions.
 
@@ -326,7 +326,7 @@ The leg drag pass is a central technique in modern Brazilian Jiu-Jitsu passing s
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Cut Pass]] - Alternative pass when opponent defends leg drag with frames
 - [[Knee Slice Pass]] - Complementary technique using similar angle creation principles
@@ -346,7 +346,7 @@ The leg drag pass is a central technique in modern Brazilian Jiu-Jitsu passing s
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The leg drag pass represents one of the most mechanically sound passing methods in all of grappling. What makes it so powerful from a systematic perspective is that it simultaneously accomplishes three critical objectives: it removes the opponent's primary defensive tool (their legs) from the equation, it creates an angular approach that bypasses their strongest frames and defensive structures, and it establishes a clear pathway to superior positions with minimal risk exposure. The key to mastering the leg drag is understanding that you're not simply moving the opponent's leg - you're creating a structural collapse in their entire defensive system. When you drag the leg across their centerline and pin it with your chest, you've effectively turned one of their legs into an obstacle that works against them rather than for them. This is why the circular motion of the pass is so critical - you're orbiting around this structural weakness you've created, and every moment you maintain that pin, their defensive options diminish exponentially. From a teaching methodology standpoint, I emphasize that students must develop sensitivity to recognize the exact moment when the leg is truly pinned versus when they merely have leg contact. That distinction determines whether you're executing a high-percentage pass or attempting a low-percentage scramble. The leg drag should feel like you're controlling a piece of their body so completely that it no longer functions as a defensive tool - it becomes deadweight they must work around.
 - **Gordon Ryan**: The leg drag is probably my highest percentage guard pass in competition, and there's a simple reason why - it puts people in positions where they can't play their game. When you execute a proper leg drag, you're not just passing the guard, you're taking away every single thing they've trained to do from bottom position. Their favorite sweeps don't work because their leg structure is compromised. Their submission attempts don't work because they can't create the angles they need. Their retention tactics don't work because you've already circled past their primary defensive barriers. In competition, I use the leg drag threat constantly to set up everything else - if they defend the drag really hard by framing and fighting the leg control, I can switch to knee cuts or long steps. If they give me the drag but fight the completion, I'm happy to take the back when they turn away. The beautiful thing about the leg drag is that even partial success gives you significant advantages. Maybe you don't complete the pass perfectly, but you've established a headquarters control position or leg drag control position that makes their life miserable and sets up the next phase of your passing attack. My advice for competitors is to drill the leg drag until the circling motion becomes completely automatic - you should be able to feel when their leg is pinned and immediately start moving your hips without thinking about it. Also, don't sleep on the leg drag to back take connection. Some of my fastest submission finishes in competition have come from threatening the leg drag, having the opponent turn away defensively, and taking the back before they realize what happened.
 - **Eddie Bravo**: The leg drag is one of those techniques that works in both gi and no-gi, which automatically makes it valuable in my book. What I really appreciate about it from a 10th Planet perspective is that it's a pass that relies more on position and angle than on grips, so it translates perfectly to our no-gi game. We teach the leg drag as part of our fundamental passing system, but we add some wrinkles that make it fit our style. First, we're always looking for the leg drag to create back exposure rather than just settling for side control. Our whole system is built around taking the back, and the leg drag gives you this beautiful opportunity where people will turn away to avoid the chest-to-chest pressure, and boom - you've got the back. Second, we incorporate a lot of calf slicer and knee bar threats from the leg drag control position, especially in no-gi where people are more willing to engage in leg lock exchanges. If you've got their leg dragged and they're fighting hard to recover, you can sometimes catch them thinking so much about the guard pass that they forget about the submission danger. The other thing I love about the leg drag is how it complements the twister side control game - if you hit a leg drag and establish that control on their side, you're already halfway to the twister position if you want to go there. My students drill what we call the 'drag to prison' sequence where you hit the leg drag, control their near arm as you pass, and end up in a twister side control variant that's extremely oppressive. It's not traditional, but it's effective as hell and people don't see it coming.

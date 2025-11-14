@@ -8,7 +8,7 @@ description: "Master the North-South transition in BJJ. Control technique from S
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the North-South transition in BJJ. Control technique from S
 
 
 
-> **Quick Answer**: Transition to North-South transitions from [[Side Control]] to [[North-South]]. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
+> Transition to North-South transitions from [[Side Control]] to [[North-South]]. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain chest-to-chest pressure throughout the entire transition
 - Keep opponent's near arm controlled or trapped during movement
 - Walk your feet in a circular path around opponent's head
@@ -180,7 +180,7 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Solid Side Control position established with chest pressure
 - Opponent's near arm controlled or neutralized (crossface, underhook, or trapped)
 - Your hips low and connected to opponent's torso
@@ -193,7 +193,7 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure near arm control**: Establish dominant control of opponent's near arm through crossface pressure or underhook grip. This prevents them from creating frames as you transition. Your weight should drive through their shoulder into the mat. (Timing: Before initiating movement)
 2. **Walk feet toward opponent's head**: Begin walking your feet in a semicircular path toward opponent's head while maintaining chest-to-chest contact. Your steps should be small and controlled, never breaking pressure. Keep your hips low and connected throughout the entire walking motion. (Timing: Smooth continuous motion)
 3. **Slide your head across**: As your feet walk around, slide your head and chest across opponent's torso toward their far hip. Maintain constant downward pressure - imagine trying to drive your sternum through their sternum into the mat. Your chin should stay tight to their body. (Timing: Synchronized with foot movement)
@@ -206,7 +206,7 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Bridge and turn into you during transition** (Effectiveness: Medium) - Your Response: Anticipate the bridge by keeping your weight low and hips connected. Use their bridging momentum to accelerate your transition to North-South, letting their energy help you complete the movement.
 - **Frame with far arm to create space** (Effectiveness: Low) - Your Response: Keep your chest tight to their torso throughout the transition. If they establish a frame, use your head position to collapse it as you move, or attack the extended arm with kimura or armbar.
 - **Hip escape toward your legs during transition** (Effectiveness: Medium) - Your Response: Maintain hip-to-hip connection and walk your feet faster to stay ahead of their hip movement. If they create significant space, abandon the transition and reestablish Side Control or mount.
@@ -215,22 +215,22 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Raising hips during transition losing pressure
+## Common Mistakes
+- **Mistake**: Raising hips during transition losing pressure
   - **Consequence**: Creates space allowing opponent to insert frames, recover guard, or escape to turtle position
   - **Correction**: Keep hips low and heavy throughout entire movement. Your chest should never break contact with opponent's chest. Walk on your toes with bent knees.
-- **Error**: Releasing near arm control too early
+- **Mistake**: Releasing near arm control too early
   - **Consequence**: Opponent creates frames with free arm, blocking your transition or escaping to guard
   - **Correction**: Maintain arm control (crossface or underhook) until you've fully established North-South position and secured new grips.
-- **Error**: Walking too wide around opponent's head
+- **Mistake**: Walking too wide around opponent's head
   - **Consequence**: Creates excessive space during transition allowing opponent to turn into turtle or re-guard
   - **Correction**: Take smaller steps in a tight arc around their head. Your body should stay connected to theirs throughout the entire path.
-- **Error**: Transitioning when opponent is stable and defensive
+- **Mistake**: Transitioning when opponent is stable and defensive
   - **Consequence**: Opponent has time to post, frame, or begin escape sequences as you move
   - **Correction**: Wait for opponent to move first - transition when they attempt to turn into you, create frames, or shift their weight. Use their movement as the trigger.
-- **Error**: Standing upright or raising chest during transition
+- **Mistake**: Standing upright or raising chest during transition
   - **Consequence**: Completely eliminates control allowing opponent to sit up, re-guard, or escape
   - **Correction**: Keep your chest parallel to the mat and heavy on opponent's torso. Your weight should constantly drive downward throughout the movement.
 
@@ -239,7 +239,7 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Static Position Familiarization** - Understanding start and end positions
 Start in Side Control, partner passive. Practice walking feet around their head while maintaining chest pressure. Focus on keeping hips low and connected. Repeat 10 times per side.
 (Resistance: None)
@@ -266,7 +266,7 @@ Full positional sparring starting from Side Control. Top player must decide when
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Reverse North-South Transition**: Instead of walking toward opponent's head, walk your feet toward their legs, ending in reverse North-South (your hips near their head, your head near their hips). This variation is effective when opponent's near arm is difficult to control. (When to use: When opponent has strong underhook defense preventing standard transition, or when setting up reverse kesa-gatame attacks)
 
 **North-South via Mount**: Rather than directly transitioning from Side Control to North-South, first step over to mount position, then slide directly to North-South. This path avoids common defensive frames. (When to use: When opponent creates strong frames preventing direct transition, or when you want to threaten multiple positions simultaneously)
@@ -304,7 +304,7 @@ Full positional sparring starting from Side Control. Top player must decide when
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The North-South transition is one of the safer movements in BJJ when executed properly, but practitioners must be aware of potential issues. Maintain controlled pressure throughout - dropping your full weight suddenly onto opponent's chest can cause rib injuries or breathing difficulty. Be particularly cautious with smaller or injured training partners. When consolidating in North-South, ensure your partner can breathe and tap if needed. Avoid posting hands near opponent's face during the transition to prevent accidental eye pokes. Practice smooth, controlled movements rather than explosive or jerky motions that could injure neck or shoulders. Always respond immediately when partner taps, especially if you've transitioned to submission attempts from North-South.
 
@@ -312,7 +312,7 @@ The North-South transition is one of the safer movements in BJJ when executed pr
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The North-South transition is a critical component of top control maintenance and advancement strategy. It serves as the natural next step when Side Control becomes stable and opponent begins defensive movements. The position connects to the broader pinning system, flowing between Side Control, North-South, Mount, and Knee on Belly. Advanced practitioners use this transition as both a control position and a submission platform, immediately attacking kimuras, chokes, and armbars upon arrival. The position also serves as a strategic rest point in competition, allowing you to maintain dominant position while managing energy expenditure. Understanding when to transition to North-South versus maintaining Side Control or attacking mount is fundamental to positional flow. The transition integrates with front headlock systems, allowing you to follow opponent's defensive movements seamlessly between different pinning configurations.
 
@@ -320,7 +320,7 @@ The North-South transition is a critical component of top control maintenance an
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Side Control]] - Starting position - master this before transitioning
 - [[North-South]] - Ending position - destination of this technique
@@ -340,7 +340,7 @@ The North-South transition is a critical component of top control maintenance an
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The transition to North-South represents a fundamental principle of positional dominance - the concept of eliminating defensive frames through angular change. When you maintain Side Control, your opponent always has potential to create frames with their near-side arm, establishing a barrier between your bodies. The moment you transition to North-South, this defensive tool is geometrically eliminated. Your perpendicular alignment means their arm structure cannot create meaningful frames. This is why the highest-level approach to top control involves constant angular shifting between Side Control, North-South, mount, and knee on belly. Each position eliminates specific defensive options while creating new submission opportunities. The key technical detail during transition is maintaining chest-to-chest pressure throughout the entire circular path around opponent's head. Most practitioners raise their hips during this movement, creating the fatal space that allows re-guarding. Keep your sternum driving through their sternum into the mat for the entire duration of the transition. Time this movement for when opponent attempts to turn into you or create frames - their defensive movement becomes the trigger that makes your transition highest percentage.
 - **Gordon Ryan**: I use the North-South transition constantly in competition, but most people do it at the wrong time. The key is understanding that you don't transition just because you can - you transition when it gives you a strategic advantage. I'm looking for three specific triggers: first, when opponent turns into me trying to come up to turtle or recover guard, their weight shift makes the transition effortless. Second, when they're defending the mount aggressively by keeping their elbows tight, North-South gives me better access to isolate those arms. Third, when I want to attack the far-side arm with kimura but can't reach it from standard Side Control. The technical detail everyone misses is that you need to drop your weight progressively heavier as you complete the transition. Start with medium pressure in Side Control, increase it during the walk, and absolutely crush them when you land in North-South. This progressive pressure prevents them from timing their escape to your movement. In no-gi, this transition is even more critical because without the gi grips, North-South gives you the best control with minimal grip dependence. I'm walking on my toes with knees bent throughout the entire movement - this keeps my hips low and mobile. The moment I arrive in North-South, I'm immediately attacking kimura or the North-South choke, treating it as an attacking position not just a control position.
 - **Eddie Bravo**: The North-South transition is slept on in 10th Planet because everyone wants to go straight to mount or take the back, but this position is a killer setup for submissions if you approach it with the right mindset. The standard approach is too passive - people transition there and just hold it like they're waiting for something to happen. Instead, I teach the transition as part of an active submission chain. As you're walking around their head, you should already be thinking about which arm you're attacking. If their near arm is extended, you're setting up the kimura grip before you even complete the transition. If their far arm is reachable, you're planning to hug it to your chest for the armbar. The transition itself becomes part of the submission sequence, not a separate movement. Here's a key detail for no-gi that changes everything: as you transition, slide your near arm under their head and grab your own leg or ankle. This creates the North-South choke setup automatically during the position change. Now you're not just transitioning for control - you're transitioning directly into a submission threat that forces them to defend, which opens up the kimura and other attacks. Think of it as a trap: they defend the choke, you attack the arm; they defend the arm, you switch back to the choke. The transition becomes offensive, not just positional.

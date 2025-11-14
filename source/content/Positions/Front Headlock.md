@@ -13,10 +13,6 @@ description: "Master front headlock position in BJJ. Strategic control position 
 
 
 
-> **Quick Overview**: The front headlock is one of the most dominant control positions in Brazilian Jiu-Jitsu, occurring when you secure your opponent's head and neck while they are bent forward, typically on their hands a...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -62,31 +58,19 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium |
 
-**What Makes This Position Unique:** Bent-over control with submission versatility
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Front Headlock/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Front Headlock/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Bent-over control with submission versatility
 
 
 
@@ -94,10 +78,13 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 <section id="bottom-summary" class="content-section">
 
-## Front Headlock Bottom Perspective
+
+## Playing as Bottom
+
+[[Front Headlock/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in front headlock must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -140,7 +127,7 @@ The bottom player in front headlock must focus on creating frames, protecting ag
   - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Lifting head up or extending neck while attempting to escape**
@@ -168,16 +155,17 @@ The bottom player in front headlock must focus on creating frames, protecting ag
   - ✅ Correction: Stay calm and systematic - secure defensive frames first, then make measured technical escapes
 
 
-👉 **[[Front Headlock/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Front Headlock Top Perspective
+
+## Playing as Top
+
+[[Front Headlock/Top|→ Full Top Guide]]
 
 
-The top player in front headlock balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -229,7 +217,7 @@ The top player in front headlock balances control maintenance with submission at
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Holding static front headlock without threatening submissions or transitions**
@@ -260,8 +248,6 @@ The top player in front headlock balances control maintenance with submission at
   - Consequence: Opponent can roll through or forward, escaping control and potentially reversing position
   - ✅ Correction: As you lock anaconda or darce grip, immediately sprawl hips back and to the side to prevent rolls
 
-
-👉 **[[Front Headlock/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Learn Half Guard to Back Take in BJJ. Advanced transition from hal
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Learn Half Guard to Back Take in BJJ. Advanced transition from hal
 
 
 
-> **Quick Answer**: Half Guard to Back Take transitions from [[Half Guard]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 70%, Advanced 85%.
+> Half Guard to Back Take transitions from [[Half Guard]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 70%, Advanced 85%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Underhook Control: Deep underhook acts as primary control point for rotation and prevents opponent's crossface
 - Hip Positioning: Block opponent's hip to prevent defensive movement and base recovery
 - Pressure Direction: Use forward pressure followed by lateral transition to create opening
@@ -192,7 +192,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Underhook established on opponent's far side with deep penetration
 - Opponent applying forward pressure or attempting to flatten
 - Hip mobility sufficient to create perpendicular angle
@@ -205,7 +205,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish underhook control**: From bottom half guard, secure deep underhook on opponent's far side, threading your arm under their armpit and connecting your hand to their far shoulder or lat muscle. Simultaneously prevent their crossface by keeping your other hand framing against their neck or shoulder. (Timing: Establish during initial half guard engagement)
 2. **Create perpendicular angle**: Use the underhook to pull yourself perpendicular to your opponent's body, rotating your torso so you're facing their side rather than directly facing them. Your hips should form approximately a 90-degree angle with their body, with your inside leg still maintaining the half guard lock. (Timing: Execute as opponent drives forward pressure)
 3. **Block bottom hip**: As you create the angle, bring your top knee across to block opponent's bottom hip, preventing them from turning into you or recovering their base. This knee acts as a critical control point that maintains your perpendicular position. (Timing: Simultaneous with angle creation)
@@ -220,7 +220,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent turns into guard** (Effectiveness: High) - Your Response: Maintain underhook control and follow their rotation, transitioning to butterfly guard or continuing to take the back as they expose it during the turn
 - **Crossface pressure** (Effectiveness: High) - Your Response: Use inside arm to frame against their neck while using underhook to create angle anyway, or transition to deep half guard if crossface becomes too dominant
 - **Opponent bases out wide** (Effectiveness: Medium) - Your Response: Use their wide base against them by attacking far side with underhook sweep variations, or transition to lockdown to break down their base structure
@@ -230,25 +230,25 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing underhook too early during transition
+## Common Mistakes
+- **Mistake**: Releasing underhook too early during transition
   - **Consequence**: Loss of primary control point allowing opponent to establish crossface and flatten you back to bottom half guard
   - **Correction**: Maintain underhook throughout entire sequence until back control is fully established with both hooks inserted
-- **Error**: Insufficient perpendicular angle before climbing
+- **Mistake**: Insufficient perpendicular angle before climbing
   - **Consequence**: Unable to effectively climb to back as opponent's weight pins you in place, resulting in stuck position or opponent recovery
   - **Correction**: Ensure your torso forms true 90-degree angle with opponent's body before releasing half guard lock and attempting climb
-- **Error**: Attempting technique against heavy crossface pressure
+- **Mistake**: Attempting technique against heavy crossface pressure
   - **Consequence**: Getting flattened back to bottom position with lost underhook and poor defensive position
   - **Correction**: Address crossface first with frames and head position, or choose different technique more suitable for that defensive scenario
-- **Error**: Failing to block opponent's bottom hip
+- **Mistake**: Failing to block opponent's bottom hip
   - **Consequence**: Opponent easily turns into you and recovers guard, nullifying your back take attempt completely
   - **Correction**: Top knee must actively block their bottom hip throughout the transition, maintaining perpendicular alignment
-- **Error**: Slow, hesitant execution after angle is created
+- **Mistake**: Slow, hesitant execution after angle is created
   - **Consequence**: Opponent recognizes the threat and has time to defend by turning in or establishing strong base
   - **Correction**: Once perpendicular angle is achieved, execute climb explosively and decisively with continuous forward pressure
-- **Error**: Poor hook insertion depth
+- **Mistake**: Poor hook insertion depth
   - **Consequence**: Weak back control that opponent easily escapes by hip sliding or turning into guard
   - **Correction**: Insert both hooks deep with heels pulling into hip creases and knees driving into thighs for maximum control
 
@@ -257,7 +257,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Underhook mechanics foundation** - Establishing and maintaining underhook control
 Partner remains relatively stationary in top half guard while you practice securing deep underhook, preventing crossface, and maintaining connection. Focus on grip strength and positional awareness without attempting full technique.
 (Resistance: None)
@@ -288,7 +288,7 @@ Use technique seamlessly during regular rolling, chaining it with other half gua
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Kimura Grip Back Take**: Using kimura grip on opponent's near arm instead of traditional underhook to create back exposure. Thread arm through and grip your own wrist, then use the kimura leverage to force opponent to turn away from the threat, exposing their back for the take. (When to use: When opponent is defending underhook well or when their arm positioning makes kimura more accessible than deep underhook)
 
 **Lockdown Electric Chair Back Take**: From lockdown position, use electric chair threat (knee torque on trapped leg) to force opponent to post and turn away from the pressure, creating back exposure. Maintain lockdown initially, then release to climb as they rotate. (When to use: When playing 10th Planet style half guard or when opponent's base is particularly difficult to off-balance with standard approach)
@@ -331,7 +331,7 @@ Use technique seamlessly during regular rolling, chaining it with other half gua
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Ensure controlled execution to avoid injury during the transition. Maintain awareness of opponent's spine and neck position, particularly when establishing back control and inserting hooks. Apply pressure gradually rather than explosively when first learning to prevent knee and hip injuries to your training partner. When inserting hooks, be careful not to drive knees forcefully into opponent's thighs, which can cause painful contusions. During drilling, communicate clearly if crossface pressure becomes excessive, as this can strain neck muscles. Partners should tap early if they feel trapped in poor positions during the transition to prevent panic responses that lead to injury.
 
@@ -339,7 +339,7 @@ Ensure controlled execution to avoid injury during the transition. Maintain awar
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Half Guard to Back Take is a fundamental transition in the offensive half guard system, representing one of the highest-percentage paths from defensive bottom position to dominant back control. This transition integrates seamlessly with the broader half guard framework, connecting underhook battles, lockdown systems, deep half positions, and various sweep attempts. The technique serves as a critical bridge between guard retention and position dominance, allowing practitioners to transform defensive scenarios into offensive opportunities through proper angle creation and timing. It connects directly to back attack systems once back control is achieved, opening pathways to rear naked choke, armbar from back, and bow and arrow variations. The transition also complements other half guard techniques like the old school sweep, kimura traps, and deep half entries, creating a comprehensive half guard game where each technique supports and enhances the others.
 
@@ -347,7 +347,7 @@ Half Guard to Back Take is a fundamental transition in the offensive half guard 
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Half Guard]] - Starting position - foundational position where technique initiates
 - [[Back Control]] - Ending position - dominant control achieved through successful execution
@@ -365,7 +365,7 @@ Half Guard to Back Take is a fundamental transition in the offensive half guard 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The half guard to back take transition represents one of the highest-percentage positional advancements in Brazilian Jiu-Jitsu when executed with proper underhook control and systematic angle creation. The key to this technique lies not in explosive athleticism but in understanding the biomechanical principles that make it work. The underhook creates a lever against the opponent's far shoulder, and when combined with the perpendicular angle, it creates a mechanical disadvantage for the top player that is nearly impossible to defend if executed correctly. The systematic approach emphasizes maintaining multiple connection points throughout the transition rather than relying on single-point explosive movements that sacrifice control for speed. Students must understand that the underhook is not merely a grip but a structural control that dictates the opponent's available movements. When you establish the perpendicular angle, you're not just moving your body - you're creating a geometric relationship that makes their defensive options increasingly limited. The transition should feel inevitable rather than forced, with each step flowing naturally from the previous one based on sound mechanical principles.
 - **Gordon Ryan**: In competition, the half guard back take is absolutely essential for any serious half guard player, and I've used it countless times to turn defensive bottom positions into dominant attacks. The key difference between drilling this in the gym and executing it in competition is understanding the timing and explosive nature required at the highest levels. I focus on creating the angle first through patient underhook work, then executing the back take explosively once my position is established and I feel opponent's weight commit forward. You cannot hesitate in competition - when you feel that perpendicular angle lock in and their hip is blocked, you must attack the back immediately and decisively. One critical detail many people miss is that you need to be comfortable with the technique failing and transitioning to other attacks like the old school sweep or deep half. Against high-level opponents, they will defend the back take, so you need to chain it with other attacks seamlessly. I often use the threat of the back take to set up sweeps, and use sweep attempts to set up back takes. The key is making opponent choose between bad options, then capitalizing on whichever defense they choose.
 - **Eddie Bravo**: From the 10th Planet system perspective, the half guard back take is fundamental, but we approach it differently than traditional gi-based methods. We use the lockdown position to control their base and break down their posture, making the back take much higher percentage than standard half guard approaches. The electric chair threat is key here - when you torque their knee with the lockdown and they feel that pressure building, they naturally want to turn away from the pain and post their far arm. That's exactly when you release the lockdown and climb to their back. It's beautiful because you're using their defensive reaction to a submission threat to create the back take opportunity. We also emphasize the whip-up motion from lockdown, which elevates them and creates the angle automatically rather than having to manually create it with just the underhook. The rubber guard concepts apply here too - you want to break their posture completely before attempting the back take, which is why we focus so much on the lockdown and leg control rather than just upper body. When you combine the leg control with the underhook, you're controlling both ends of their body, making the back take almost unstoppable if you time it right with their defensive movements.

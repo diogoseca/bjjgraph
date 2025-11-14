@@ -8,7 +8,7 @@ description: "Master grip breaking mechanics in BJJ. Learn biomechanical princip
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master grip breaking mechanics in BJJ. Learn biomechanical princip
 
 
 
-> **Quick Answer**: Grip Breaking is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Grip Breaking is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Grip Breaking represents the fundamental defensive skill of removing an opponent
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Apply breaking force against the weakest point of opponent's grip structure
 - Utilize biomechanical leverage rather than raw strength for efficient breaking
 - Coordinate breaking mechanics with strategic body movement
@@ -181,7 +181,7 @@ Grip Breaking represents the fundamental defensive skill of removing an opponent
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Mechanical Breaking Efficiency**: Understanding the biomechanical principles that enable maximum breaking force with minimum effort. This involves applying force perpendicular to the grip structure, using circular movements that attack multiple grip points simultaneously, and leveraging body weight rather than isolated muscle strength.
 
 **Timing Recognition**: Identifying moments when opponent's grip is momentarily weakened due to weight shifts, transitions, or adjustments. Successful grip breaking often depends on exploiting these brief windows when grip pressure is naturally reduced, requiring constant tactical awareness of opponent's movement patterns.
@@ -204,7 +204,7 @@ Grip Breaking represents the fundamental defensive skill of removing an opponent
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Grip Fighting]]** (Prerequisite): Grip fighting provides the foundational understanding of grip establishment and hand fighting that makes grip breaking tactically meaningful. Understanding offensive grip strategy enables defensive recognition of which grips are most dangerous and require immediate breaking.
 - **[[Hand Fighting]]** (Complementary): Hand fighting and grip breaking work together as offensive and defensive components of the same tactical domain. While hand fighting focuses on establishing your own controls, grip breaking denies opponent controls, creating a complete approach to grip exchanges.
 - **[[Frame Creation]]** (Complementary): Frame creation often follows successful grip breaking, using the space created by breaking to establish defensive structures. Frames prevent opponent from immediately reestablishing broken grips while creating leverage for escapes or reversals.
@@ -221,7 +221,7 @@ Grip Breaking represents the fundamental defensive skill of removing an opponent
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Breaking opponent's collar and sleeve grips to prevent posture control and passing attempts. Focus on breaking cross collar grips that enable chokes and posture breaking, using hip movement to create angles that weaken grip structure while maintaining closed guard control.
 
 **Spider Guard**: Preventing opponent from stripping foot grips on biceps or breaking spider control by maintaining constant tension. When opponent establishes counter-grips on pants or ankles, breaking these immediately prevents smash passing and enables spider guard maintenance.
@@ -264,7 +264,7 @@ Grip Breaking represents the fundamental defensive skill of removing an opponent
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Identify which grips opponent has established**: Perform rapid visual and tactile assessment of opponent's grip configuration, categorizing grips by type (collar, sleeve, pants, belt) and danger level. Recognize which grips enable immediate threats versus positional controls.
 2. **Prioritize grips based on hierarchy and immediate threat**: Determine breaking order based on Control Point Hierarchy principles. Break submission-enabling grips first (deep collar grips, wrist controls near submissions), followed by passing-enabling grips (pants grips, controlling sleeve grips), then positional grips.
 3. **Select appropriate breaking method for grip type**: Choose mechanical breaking approach based on grip structure. Apply two-handed breaks for strong grips, circular breaks for sleeve grips, explosive pulls for collar grips, perpendicular force for pants grips, matching method to grip mechanics.
@@ -277,28 +277,28 @@ Grip Breaking represents the fundamental defensive skill of removing an opponent
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Using isolated arm strength to break grips without mechanical advantage
+## Common Mistakes
+- **Mistake**: Using isolated arm strength to break grips without mechanical advantage
   - **Consequence**: Rapid fatigue, failed breaking attempts, and strengthening of opponent's grips as they react to pulling force. Creates strength-based exchanges that favor larger, stronger opponents.
   - **Correction**: Apply leverage principles using body weight, hip rotation, and two-handed breaks. Attack grips at perpendicular angles using circular movements rather than direct opposition, creating mechanical advantage that overcomes grip strength.
-- **Error**: Breaking grips in random order without strategic prioritization
+- **Mistake**: Breaking grips in random order without strategic prioritization
   - **Consequence**: Wasting energy breaking low-priority grips while allowing dangerous grips to remain, enabling opponent submissions or dominant position consolidation despite some successful breaks.
   - **Correction**: Assess grip hierarchy and break highest-value grips first: deep collar grips enabling chokes, controlling grips enabling passes, then positional grips. Create systematic breaking sequences that eliminate threats in priority order.
-- **Error**: Remaining stationary after breaking grips without preventing reacquisition
+- **Mistake**: Remaining stationary after breaking grips without preventing reacquisition
   - **Consequence**: Opponent immediately reestablishes same grips, rendering breaking effort meaningless. Creates exhausting cycle of repeated breaking without positional improvement or strategic advantage.
   - **Correction**: Coordinate every grip break with simultaneous body movement, frame creation, or grip establishment. Change position, create distance, or establish your own controls immediately after breaking to prevent opponent from entering same grip configuration.
-- **Error**: Breaking grips against static, strengthened opponent controls
+- **Mistake**: Breaking grips against static, strengthened opponent controls
   - **Consequence**: Low success rate and high energy expenditure when attacking grips at their strongest. Opponent anticipates breaking attempts and reinforces grips, making mechanical breaking extremely difficult.
   - **Correction**: Develop timing awareness to break grips during opponent's weight shifts, transitions, or momentary adjustments when grip pressure naturally reduces. Use feints and movements to create these moments if opponent remains static.
-- **Error**: Neglecting grip prevention in favor of reactive breaking
+- **Mistake**: Neglecting grip prevention in favor of reactive breaking
   - **Consequence**: Constant defensive reactions to established grips rather than proactive control denial. Creates pattern where opponent always achieves initial grips, putting defender at tactical disadvantage from engagement start.
   - **Correction**: Implement active hand fighting and grip prevention strategies before opponent establishes controls. Maintain constant hand activity, distance management, and grip anticipation so breaking becomes secondary to prevention.
-- **Error**: Ignoring grip type differences and using same breaking method for all grips
+- **Mistake**: Ignoring grip type differences and using same breaking method for all grips
   - **Consequence**: Inefficient breaking attempts that fail because mechanical approach doesn't match grip structure. Pistol grips, lasso grips, and cross collar grips require different breaking mechanics.
   - **Correction**: Study specific breaking methods for each grip type. Use circular pulls for sleeve grips, two-handed perpendicular breaks for collar grips, explosive pulls for pants grips, matching breaking mechanics to specific grip structures.
-- **Error**: Breaking grips without connecting to larger strategic objectives
+- **Mistake**: Breaking grips without connecting to larger strategic objectives
   - **Consequence**: Successful breaking that leads nowhere because no offensive action or positional improvement follows. Treating grip breaking as isolated skill rather than enabler of strategic goals.
   - **Correction**: Always connect grip breaking to specific tactical objectives: escapes, sweeps, submissions, or passes. Plan the action that will follow successful breaking before attempting break, ensuring breaking serves strategic purpose.
 
@@ -307,7 +307,7 @@ Grip Breaking represents the fundamental defensive skill of removing an opponent
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Grip Breaking Drills with Resistance Levels** (Focus: Developing mechanical breaking proficiency and understanding leverage principles without strength-based compensation. Builds muscle memory for proper breaking patterns across different grip types.)
 Partner establishes various grips with predetermined resistance levels (light, medium, maximum) while practitioner works to break them using proper mechanics. Progress from single grips to multiple simultaneous grips, focusing on mechanical efficiency rather than speed.
 
@@ -332,7 +332,7 @@ Practice translating gi-based grip breaking principles to no-gi contexts, workin
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes when opponent has established grips but responds reactively rather than proactively preventing them
 - Uses isolated arm strength for breaking attempts with limited success against resistance
@@ -371,7 +371,7 @@ Practice translating gi-based grip breaking principles to no-gi contexts, workin
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Grip Fighting]] (Principle) - Parent concept providing offensive perspective on grip exchanges and establishment strategies
 - [[Grip Fighting Strategies]] (Principle) - Strategic framework for grip exchange including both establishment and breaking components
@@ -391,7 +391,7 @@ Practice translating gi-based grip breaking principles to no-gi contexts, workin
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Grip breaking must be understood as a precise mechanical problem rather than a test of strength. The key insight is that all grips, regardless of opponent strength, have structural weaknesses based on hand anatomy and leverage principles. When you apply force perpendicular to the grip structure—attacking from the side rather than pulling directly against the grip—you create mechanical advantages that overcome even very strong grips. I emphasize what I call 'compound breaking forces' where you attack a grip from multiple angles simultaneously, creating a breaking force that the grip isn't structurally designed to resist. For example, when breaking a cross collar grip, rather than simply pulling the hand away, you should circle your hand around while simultaneously moving your collar in the opposite direction, creating a compound force that attacks the grip from multiple vectors. The grip can resist direct pulling, but it cannot simultaneously resist circular motion, lateral displacement, and the collar moving away. This systematic approach to grip breaking transforms it from a strength contest into a technical skill that smaller practitioners can execute with equal or superior effectiveness compared to larger opponents.
 - **Gordon Ryan**: In competition, grip breaking isn't just about defense—it's about controlling the pace and terms of engagement. I focus heavily on what I call 'preemptive breaking' where you address grips the moment they begin forming rather than waiting for them to be fully established and strengthened. When someone starts reaching for a collar grip, I'm already circling my hand to strip it before their grip tightens. This creates a rhythm where I'm always one step ahead in the grip exchange. The other critical element is connecting every grip break to an immediate offensive action. When I break someone's sleeve grip in my guard, I'm not just removing their control—I'm immediately establishing my own controlling grip or entering a sweep. The break creates a momentary window where they have no grips and I do, giving me complete control of the engagement. In my matches, you'll notice I very rarely allow opponents to settle into their preferred gripping patterns because I'm constantly breaking and preventing, making them grip fight throughout the entire match. This is exhausting for them and gives me the control I need to implement my game plan without restriction.
 - **Eddie Bravo**: In the 10th Planet system, we've adapted traditional grip breaking concepts for the no-gi environment where you're dealing with overhooks, underhooks, and body locks instead of cloth grips. The same principles apply but the execution changes significantly. When someone has an overhook on you, you can't just pull your arm out—you need to understand the mechanics of how the overhook controls your arm and attack those mechanics. We use a lot of what I call 'swimming' movements where you're constantly circling your arms to prevent static control establishment. The key in no-gi is that grips are based on friction and pressure rather than cloth, so they're more vulnerable to explosive movements but also harder to fully break without creating movement. I teach my students to think of breaking and movement as inseparable—you break controls by moving your body in ways that make those controls impossible to maintain. For example, when someone has an underhook, rather than trying to strip their arm, you create an angle where their underhook becomes useless for control, forcing them to abandon it. This approach has made grip breaking in no-gi more about position denial than mechanical breaking, but the strategic thinking is identical.

@@ -145,7 +145,7 @@ description: "Master the Front Headlock System in BJJ. Comprehensive control fra
 
 
 
-> **Quick Answer**: Danaher Front Headlock System is a advanced difficulty Control System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
+> Danaher Front Headlock System is a advanced difficulty Control System system. Integrates 6 components.
 
 **System ID**: 
 **System Type**: Control System
@@ -168,7 +168,7 @@ What distinguishes Danaher's approach is the emphasis on systematic progression 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Head and arm control establishes dominant leverage over opponent's upper body movement and posture
 - Breaking down opponent's defensive structure through systematic shoulder pressure and cross-face control
 - Creating submission dilemmas where defensive responses to one attack open pathways to others
@@ -182,7 +182,7 @@ What distinguishes Danaher's approach is the emphasis on systematic progression 
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Front Headlock Control Position** (Establish positional dominance that limits opponent's defensive options while providing multiple offensive pathways)
 The foundational control position establishes dominance through head and arm control with chest-to-back pressure. The position features multiple grip variations including the chinstrap, Russian tie, and arm-in configurations, each optimized for different finishing sequences. Proper weight distribution keeps opponent flattened while maintaining mobility for transitions.
 
@@ -207,7 +207,7 @@ Systematic methods for dismantling opponent's defensive posture including crossf
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Entry and Initial Control**: Secure front headlock position through snap down, sprawl, or turtle attack. Establish head control first, then secure arm control. Immediate chest pressure prevents opponent from standing or recovering guard.
 Key points:
 - Head control takes priority - secure before pursuing arm control
@@ -394,7 +394,7 @@ The front headlock system requires layered drilling that progressively builds fr
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The front headlock represents the perfect intersection of control and attack - a position where you dominate your opponent's movement while simultaneously threatening multiple high-percentage submissions. What makes this system particularly powerful is its self-reinforcing nature: every defensive action an opponent takes to address one threat directly exposes them to another. The guillotine forces hands to fight at the neck, which exposes the arm for anaconda and darce attacks. Defending the arm-triangle chokes requires pulling the arm free, which re-exposes the neck to guillotine attacks. And when both choke pathways are defended, the very defensive structure needed to stop chokes - elbows tight, hands fighting - creates the perfect configuration for spiral mechanics to expose the back. This is systematic jiu-jitsu at its finest: not a collection of techniques, but an interconnected framework where each component reinforces the others, creating a web of threats from which there is no safe defensive position. The key to mastery is understanding these connections deeply enough that your attack selection becomes automatic, driven by opponent reactions rather than predetermined sequences.
 - **Gordon Ryan**: I've finished more matches from front headlock than probably any other position in my competition career, and there's a simple reason why: it works at the highest levels against the best defensive grapplers in the world. When someone shoots a terrible takedown attempt, gives you a front headlock off a failed guard pull, or makes themselves vulnerable in turtle, you have to capitalize immediately and finish the match right there. The guillotine is my go-to because it's the fastest finish - if I get the right grip configuration with their posture broken, they're going to sleep in seconds, not minutes. But what separates good front headlock players from great ones is knowing when to abandon the guillotine for the anaconda or darce. Against elite defenders who know how to hand fight and create space, sometimes you're better off trapping the arm and going for the shoulder choke. And honestly, some of my best submissions have come when I couldn't finish the choke but used their defense to take the back and finish with the rear naked instead. In competition, you don't get style points for attempting thirty guillotines - you get the win for finishing one submission or dominating position for points. The front headlock system gives you every tool you need to do both.
 - **Eddie Bravo**: The front headlock game is where wrestling meets jiu-jitsu in the most beautiful way possible, and we've developed some crazy variations in the 10th Planet system that nobody sees coming. Traditional front headlock attacks are great, but we add our own flavor with things like transitioning from front headlock to the truck position using what we call the 'turbo spiral' - it's like the standard back take but with way more rotation and it sets up the twister perfectly. The standard anaconda and darce are money, but we have variations where you're attacking from weird angles, even from bottom positions where you wouldn't normally think front headlock attacks are available. What people don't realize is that the front headlock is one of the best positions to work in the gi or no-gi - sure, in the gi you have collar options, but the core control mechanics and submissions work identically. My advice? Master the traditional Danaher system first because it's absolutely sound and proven at the highest levels, but then start experimenting with unconventional entries and finishes. Some of my students hit front headlock submissions from positions that would make traditional grapplers shake their heads, but when it works in competition, nobody's arguing with the results. The front headlock is one of those rare positions where creativity and systematic approach can coexist perfectly.

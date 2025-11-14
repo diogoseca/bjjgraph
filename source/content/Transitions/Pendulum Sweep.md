@@ -8,7 +8,7 @@ description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper
 
 
 
-> **Quick Answer**: Pendulum Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
+> Pendulum Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control opponent's sleeve and collar to break their base structure
 - Create angle by shifting hips perpendicular to opponent's centerline
 - Use pendulum leg motion to generate rotational sweeping force
@@ -180,7 +180,7 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Closed guard established with ankles crossed behind opponent's back
 - Strong grip on opponent's same-side sleeve at the wrist or elbow
 - Cross-collar grip or grip on opposite lapel for upper body control
@@ -193,7 +193,7 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips**: Secure a firm grip on the opponent's same-side sleeve with your hand, controlling at the wrist or elbow. With your other hand, grip the opposite collar deep, or alternatively grip the opposite lapel. These grips will break the opponent's posting ability and provide leverage for the sweep. (Timing: Initial setup phase)
 2. **Open guard and create angle**: Uncross your ankles and open your closed guard. Immediately place your same-side foot on the opponent's hip (the side where you're gripping their sleeve) while keeping your other leg wrapped around their back. Begin shifting your hips out to the side, creating a 45-90 degree angle with your body perpendicular to the opponent's centerline. (Timing: 0.5-1 second transition)
 3. **Extend and chamber the pendulum leg**: Fully extend your outside leg (opposite side from sleeve grip) straight up toward the ceiling, keeping it close to the opponent's shoulder. This leg will become the pendulum. Simultaneously, use your foot on the hip to push and create more angle while pulling with your grips to off-balance the opponent to their posting side. (Timing: Synchronize with hip movement)
@@ -206,7 +206,7 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent bases out wide with their far leg to prevent rotation** (Effectiveness: Medium) - Your Response: Switch to Triangle Choke by bringing your pendulum leg over the posted arm and locking the triangle, or transition to Omoplata on the trapped arm
 - **Opponent pulls their sleeve grip free and posts on the mat** (Effectiveness: High) - Your Response: Immediately switch to attacking the posted arm with Kimura or transition to different sweep using the new opening
 - **Opponent drives forward and attempts to stack you before pendulum motion** (Effectiveness: Medium) - Your Response: Abandon pendulum and transition to Hip Bump Sweep or Flower Sweep which work better against forward pressure
@@ -215,25 +215,25 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Swinging pendulum leg too far from opponent's body
+## Common Mistakes
+- **Mistake**: Swinging pendulum leg too far from opponent's body
   - **Consequence**: Loss of sweeping leverage and momentum, allowing opponent to maintain base and defend easily
   - **Correction**: Keep pendulum leg close to opponent's shoulder and head throughout the arc, generating rotational force around their center of gravity
-- **Error**: Attempting sweep without first creating proper angle with hips
+- **Mistake**: Attempting sweep without first creating proper angle with hips
   - **Consequence**: Weak sweeping force that opponent can easily resist by maintaining square posture
   - **Correction**: Always shift hips 45-90 degrees to the side before initiating pendulum motion, creating the angle necessary for effective leverage
-- **Error**: Releasing grips too early during the sweep
+- **Mistake**: Releasing grips too early during the sweep
   - **Consequence**: Loss of control over opponent's upper body, allowing them to post and prevent the sweep
   - **Correction**: Maintain tight grips throughout entire sweep until opponent is fully on their back and you're securing mount
-- **Error**: Using bent leg for pendulum motion instead of straight leg
+- **Mistake**: Using bent leg for pendulum motion instead of straight leg
   - **Consequence**: Reduced sweeping power and loss of leverage, making the technique ineffective
   - **Correction**: Fully extend pendulum leg and keep it straight throughout the arc to maximize momentum and leverage
-- **Error**: Failing to coordinate upper body pull with leg pendulum motion
+- **Mistake**: Failing to coordinate upper body pull with leg pendulum motion
   - **Consequence**: Opposing forces that cancel each other out, resulting in failed sweep
   - **Correction**: Time the grip pull and pendulum swing to happen simultaneously, creating synchronized force that overwhelms opponent's base
-- **Error**: Not following through to mount after successful sweep
+- **Mistake**: Not following through to mount after successful sweep
   - **Consequence**: Opponent recovers guard or escapes before you establish dominant position
   - **Correction**: Maintain momentum and immediately move to mount as opponent falls, keeping grips and transitioning smoothly to secure the position
 
@@ -242,7 +242,7 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Foundation Mechanics** - Hip movement and pendulum leg motion
 Practice opening guard, creating angle with hips, and swinging pendulum leg in proper arc without a partner. Focus on the biomechanics of the movement. With compliant partner, drill the complete motion slowly, emphasizing proper angle creation and leg extension.
 (Resistance: None)
@@ -273,7 +273,7 @@ Incorporate Pendulum Sweep into regular positional sparring from closed guard. S
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Flower Sweep Combination**: When opponent bases out to stop the pendulum motion, immediately switch to Flower Sweep by redirecting momentum and using the same grips to sweep in the opposite direction. (When to use: When opponent defends by posting far leg wide or driving their weight away from the pendulum)
 
 **Pendulum to Triangle**: If opponent successfully posts their arm during the sweep attempt, bring the pendulum leg over the posted arm and lock a triangle choke instead of completing the sweep. (When to use: When opponent defends by posting same-side arm strongly to prevent the sweep)
@@ -313,7 +313,7 @@ Incorporate Pendulum Sweep into regular positional sparring from closed guard. S
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Pendulum Sweep is generally a very safe technique for both practitioners when executed properly. The primary safety concern is ensuring controlled execution during the sweeping motion to avoid the opponent falling awkwardly or having insufficient time to protect their head when landing. When drilling, start slowly and allow your partner to become familiar with the falling motion. For the person being swept, practice proper breakfall technique by tucking your chin and using your arms to absorb impact. Avoid forcefully swinging the pendulum leg into the opponent's face or head; the leg should pass close to their shoulder but not strike them. When teaching beginners, emphasize the importance of maintaining control throughout the sweep rather than executing it explosively before they understand the mechanics. As with all sweeps, be mindful of training surfaces and ensure adequate mat space to complete the technique safely.
 
@@ -321,7 +321,7 @@ The Pendulum Sweep is generally a very safe technique for both practitioners whe
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Pendulum Sweep is a cornerstone technique in the closed guard bottom attacking system and serves as a critical component of a complete guard game. It integrates seamlessly with other closed guard attacks by creating a multi-threat system where each technique sets up the next. When you threaten Triangle Choke or Kimura, the opponent often posts their hand to defend, which creates the perfect opportunity for the Pendulum Sweep. Similarly, if the opponent defends the Pendulum Sweep by basing wide or standing, this opens opportunities for other attacks like Omoplata or technical stand-ups. The sweep's direct path to mount position makes it especially valuable because it allows you to transition from the most defensive position to the most dominant position in a single movement. In the broader BJJ positional hierarchy, mastering the Pendulum Sweep gives practitioners a reliable method to reverse inferior positions and establish control, which is essential for both self-defense and competition contexts. It also teaches fundamental concepts of angle creation, leverage, and timing that apply throughout the entire guard system.
 
@@ -329,7 +329,7 @@ The Pendulum Sweep is a cornerstone technique in the closed guard bottom attacki
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Closed Guard]] - Starting position where technique is executed from
 - [[Mount]] - Ending position achieved after successful sweep
@@ -347,7 +347,7 @@ The Pendulum Sweep is a cornerstone technique in the closed guard bottom attacki
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Pendulum Sweep represents one of the most mechanically efficient sweeps in the entire closed guard system because it leverages fundamental principles of rotational mechanics and angular momentum. The key to understanding this technique at a deep level is recognizing that you're creating a pendulum with your extended leg that generates force proportional to the length of the lever arm and the speed of the arc. This is why keeping the leg straight is absolutely non-negotiable - any bend in the leg reduces the effective lever arm length and dramatically decreases the momentum generated. The angle creation with your hips is equally critical because it positions your center of rotation perpendicular to the opponent's base, allowing you to sweep around their center of gravity rather than attempting to lift them vertically against gravity. When you coordinate the pendulum motion with simultaneous pulling on the grips, you create what engineers would call a moment of force or torque around the opponent's body that overwhelms their ability to maintain base. The beauty of this sweep is that it becomes more effective the more the opponent resists in the wrong direction - if they pull back against your collar grip, they're actually helping you create the angle and reducing their own base stability.
 - **Gordon Ryan**: In competition, the Pendulum Sweep is one of my highest-percentage techniques from closed guard because it creates an immediate and clear path to mount, which is exactly where you want to be to start accumulating points and establishing dominance. The key to making this work at high levels is understanding that you rarely hit it as an isolated technique - instead, you use it as part of a combination system where you're constantly threatening multiple attacks to create defensive reactions. I like to attack with Triangle or Kimura first, and when the opponent posts their hand to defend, that's when the Pendulum Sweep becomes available with extremely high success rates. The critical detail that most people miss is that you need to commit fully to the sweep once you initiate it - don't slow down or hesitate during the pendulum motion because that gives your opponent time to adjust their base. I also always make sure to keep my grips throughout the entire sweep and into the mount position, which prevents any last-second escapes or guard recoveries. Against really good opponents who know this sweep is coming, I'll sometimes fake the pendulum motion to one side to get them to base out, then immediately switch to Flower Sweep in the opposite direction. The versatility of this position is what makes it so dangerous in competition.
 - **Eddie Bravo**: What I love about the Pendulum Sweep is how it naturally flows into the entire mission control and rubber guard system that we emphasize in 10th Planet. When you're setting up the pendulum, you're already working on breaking their posture and controlling their arms, which are the same concepts we use to enter our more advanced rubber guard attacks. I teach my students to think of the Pendulum Sweep not just as a sweep but as a gateway technique that can morph into multiple attacks depending on how the opponent defends. If they defend the sweep by posturing up hard, boom, you're already in perfect position to throw on the rubber guard. If they try to stand up to escape, you've got easy access to technical stand-ups or you can follow them up and attack the legs. The no-gi variation is especially important for MMA applications because you can use the same pendulum mechanics with overhooks instead of gi grips, and it works just as effectively when you nail the timing. One innovation we've developed is using the pendulum motion to create momentum for inverted attacks - if the sweep doesn't land, you can sometimes use that same rotation to invert under and attack the back or go for a rolling attack. The key is staying creative and never getting stuck in just one outcome from the movement.

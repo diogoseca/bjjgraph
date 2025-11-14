@@ -8,7 +8,7 @@ description: "Master Spider Guard Pass techniques in BJJ. Complete guide with gr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Spider Guard Pass techniques in BJJ. Complete guide with gr
 
 
 
-> **Quick Answer**: Spider Guard Pass transitions from [[Spider Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Spider Guard Pass transitions from [[Spider Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Break spider guard grips systematically before attempting to pass
 - Maintain strong upright posture to prevent sweep angles
 - Control opponent's knees to limit guard retention mobility
@@ -180,7 +180,7 @@ The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent has established spider guard with both feet on biceps or one foot on bicep
 - Opponent controls at least one sleeve or collar grip
 - Passer maintains strong upright posture with base
@@ -193,7 +193,7 @@ The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish strong posture**: Stand tall or post on knees with vertical spine alignment. Drive chest forward and keep elbows tight to body. This posture prevents opponent from breaking you down and limits their sweep angles. Weight should be distributed evenly to maintain balance against foot pressure. (Timing: Initial position before grip breaking)
 2. **Strip first spider guard grip**: Target the opponent's weaker grip (typically the same-side sleeve grip). Use your free hand to grip their wrist while pulling your trapped arm back forcefully in a straight line. Alternatively, push their knee down while extracting your arm. Break the grip completely before advancing. (Timing: Explosive pull when opponent adjusts their grip)
 3. **Control stripped arm side knee**: Immediately after breaking the first grip, pin the opponent's knee to the mat on that side using your hand or elbow. This prevents them from re-establishing the spider hook and creates an entry angle. Maintain downward pressure throughout the pass. (Timing: Immediately following grip break)
@@ -206,7 +206,7 @@ The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent switches to De La Riva hook during grip break** (Effectiveness: High) - Your Response: Immediately address the DLR hook by circling away from it while stripping the grip. Alternatively, backstep and face opponent to enter different passing position.
 - **Opponent transitions to triangle attack when you lean forward** (Effectiveness: Medium) - Your Response: Keep posture upright during initial grip stripping. If triangle threat appears, immediately posture up and create space before continuing pass. Hand position on knees prevents leg elevation.
 - **Opponent uses remaining grip to sweep as you pass** (Effectiveness: Medium) - Your Response: Ensure both grips are fully broken before committing to pass. If one grip remains, use it as a pivot point to redirect pressure and complete grip break before advancing.
@@ -215,22 +215,22 @@ The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to pass before breaking both spider guard grips completely
+## Common Mistakes
+- **Mistake**: Attempting to pass before breaking both spider guard grips completely
   - **Consequence**: Opponent uses remaining grip control to off-balance passer and execute sweep or maintain guard
   - **Correction**: Systematically strip all grips using proper mechanics before advancing position. Patience in grip fighting prevents being swept.
-- **Error**: Leaning too far forward while breaking grips
+- **Mistake**: Leaning too far forward while breaking grips
   - **Consequence**: Creates triangle and omoplata attack opportunities as head and arm become vulnerable to guard player's legs
   - **Correction**: Maintain vertical posture during grip stripping. Keep head up and shoulders back until grips are broken and you're ready to apply pressure.
-- **Error**: Failing to control opponent's knees after breaking grips
+- **Mistake**: Failing to control opponent's knees after breaking grips
   - **Consequence**: Opponent easily re-establishes spider guard hooks or transitions to other guard retention systems
   - **Correction**: Immediately secure knee control after each grip break. Pin knees to mat or control with hands to prevent guard recovery.
-- **Error**: Using only arm strength to break grips without body positioning
+- **Mistake**: Using only arm strength to break grips without body positioning
   - **Consequence**: Wastes energy and often fails against strong grips, leaving passer exhausted and vulnerable
   - **Correction**: Combine wrist control with full body movement. Pull your entire arm back in straight line while stepping or shifting weight backward.
-- **Error**: Passing too slowly without commitment after breaking grips
+- **Mistake**: Passing too slowly without commitment after breaking grips
   - **Consequence**: Gives opponent time to recover grips, adjust position, or transition to different guard variations
   - **Correction**: Once both grips are broken and knees controlled, immediately explode forward with pressure. Speed eliminates guard recovery window.
 
@@ -239,7 +239,7 @@ The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Grip Breaking Fundamentals** - Develop grip stripping mechanics and posture maintenance
 Partner establishes spider guard grips. Practice breaking grips one at a time using proper wrist control and arm extraction. Drill maintaining upright posture while stripping grips. Repeat until grip breaks become automatic.
 (Resistance: Light)
@@ -266,7 +266,7 @@ Use spider guard pass in specific sparring (starting from spider guard) and live
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standing Spider Guard Pass**: Perform pass from standing position rather than on knees. Stand tall, strip grips using same mechanics but with greater height advantage. Step around opponent's legs after breaking grips and drive forward into pressure pass. (When to use: Against opponents with strong guard retention from bottom. Standing provides better leverage for grip breaking and allows dynamic stepping movements.)
 
 **Long Step Spider Pass**: After breaking grips, use long step movement to circle around opponent's guard. Step one leg deep past their hip while controlling both knees. Drag other leg through and establish side control with crossface. (When to use: When opponent has good hip mobility and might recover guard with shrimping. Long step creates too much distance for guard recovery.)
@@ -304,7 +304,7 @@ Use spider guard pass in specific sparring (starting from spider guard) and live
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Spider guard passing is relatively low-risk compared to submission-heavy positions, but practitioners should exercise caution during several key moments. When breaking grips forcefully, avoid hyperextending the opponent's fingers by focusing pressure on their wrist rather than individual digits. During the pressure passing phase, control the intensity to prevent injury to the opponent's ribs or sternum—apply steady pressure rather than dropping full body weight explosively. Be aware of potential leg entanglements during passing transitions that could stress knee ligaments. If the opponent attempts submissions like triangles or armbars during the pass, recognize them early and defend appropriately rather than forcing the pass through dangerous positions. When drilling, communicate clearly about resistance levels to prevent training injuries from unexpected movements or grip fighting intensity.
 
@@ -312,7 +312,7 @@ Spider guard passing is relatively low-risk compared to submission-heavy positio
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Spider Guard Pass is a fundamental component of any comprehensive guard passing system, particularly essential in gi-based Brazilian Jiu-Jitsu where spider guard is among the most prevalent open guard variations. This pass integrates with broader pressure passing principles and connects strategically to other open guard passing sequences. If the spider pass is defended by guard switching, practitioners can chain to passes for De La Riva, lasso guard, or seated guard depending on the opponent's transition. The grip fighting methodology developed through spider guard passing transfers directly to breaking other guard retention grips. After successfully passing spider guard to side control, the position chains naturally into mount attacks, submission hunting, or back take opportunities. Understanding spider guard passing mechanics also improves your spider guard game from bottom by revealing the position's vulnerabilities and strongest defensive configurations.
 
@@ -320,7 +320,7 @@ The Spider Guard Pass is a fundamental component of any comprehensive guard pass
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Spider Guard]] - Starting position being passed
 - [[Side Control]] - Primary ending position after successful pass
@@ -340,7 +340,7 @@ The Spider Guard Pass is a fundamental component of any comprehensive guard pass
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The spider guard pass represents a systematic approach to dismantling one of the most mechanically sound guard retention systems in Brazilian Jiu-Jitsu. The fundamental principle underlying successful spider guard passing is the sequential removal of distance management controls before applying forward pressure. Spider guard functions through the creation and maintenance of specific distances using foot placement and sleeve control—the guard player extends your arms while simultaneously creating angles with their leg positioning. Your passing strategy must recognize that these two control elements (sleeve grips and foot placement) work synergistically, meaning you cannot successfully pass by addressing only one. The biomechanical advantage of spider guard lies in its ability to use the passer's own arm length against them, creating levers that generate sweep angles and prevent pressure application. Therefore, the systematic grip breaking sequence—addressing one side completely before advancing—allows you to progressively reduce the guard player's control points until forward pressure becomes possible. The critical error most practitioners make is attempting to pass while the opponent retains even partial grip control, which inevitably results in sweep vulnerability or guard maintenance. Patience in the grip fighting phase, combined with explosive commitment during the passing window, creates the rhythm that defines successful spider guard passing at the highest levels.
 - **Gordon Ryan**: In competition, spider guard passing is all about aggressive grip fighting combined with relentless forward pressure once you've created the opening. The reality of high-level matches is that your opponent's spider guard grips will be strong and they'll fight hard to maintain them, so you need to develop grip breaking power and technical precision. I focus heavily on breaking the first grip explosively—when you strip that initial control, it creates a chain reaction where the opponent's entire guard structure becomes vulnerable. The key is not just breaking grips but immediately capitalizing on that moment by controlling their knees and preventing guard recovery. Against world-class opponents, you might only get one clean window to pass after breaking their grips, so your pressure application has to be instantaneous and overwhelming. I prefer standing spider guard passes because the height advantage makes grip breaking more effective and allows me to generate more pressure during the actual passing movement. The standing position also gives you better options if they switch guards—you can quickly adjust to address De La Riva, lasso, or whatever guard transition they attempt. In my experience, the practitioners who struggle with spider guard passing are those who fight the grips too long without committing to the pass. Once both grips are broken and you've secured knee control, you need to attack with everything you have because hesitation allows guard recovery. This pass is fundamentally about creating and exploiting brief windows of opportunity through superior grip fighting and explosive pressure timing.
 - **Eddie Bravo**: Spider guard passing is where traditional gi techniques meet the need for creativity and adaptability, especially when your opponent has sick guard retention skills. From the 10th Planet perspective, understanding spider guard mechanics helps you develop both your guard passing and your own bottom game, since we use similar distance management concepts in positions like Mission Control and rubber guard variations. The key innovation I emphasize is using the grip break as a setup for unconventional passing angles rather than always going straight to pressure passing. When you strip that first spider grip, instead of immediately driving forward, consider using that moment to enter leg drag positions or even saddle entries if they leave their legs extended. The spider guard player is conditioned to defend against forward pressure, so lateral movement and leg attacks can catch them by surprise. Another element that most people miss is using your opponent's grip strength against them—if they're holding your sleeve super tight, use that anchor point to generate momentum for passing movements in unexpected directions. The standing spider pass is money because it sets up so many options: you can break grips and immediately dive into leg entanglements, or use the elevated position to chain into calf slicer setups if they try to recover guard. The fundamental principle is that spider guard creates a game of distance and angles, so your passing should exploit those same concepts rather than just trying to overwhelm the position with pressure. Mix traditional pressure passing with creative angle changes and submission threats to create dilemmas that make the guard unsustainable.

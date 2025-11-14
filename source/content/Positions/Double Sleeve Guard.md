@@ -13,10 +13,6 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 
 
 
-> **Quick Overview**: Double Sleeve Guard is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This po...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -54,31 +50,19 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive |
-| Risk Level | Low to Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium to Long | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive |
+| **Risk Level** | Low to Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium to Long | Medium to Long |
 
-**What Makes This Position Unique:** Bilateral sleeve control optimizes distance
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Double Sleeve Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Double Sleeve Guard/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Bilateral sleeve control optimizes distance
 
 
 
@@ -86,10 +70,13 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 <section id="bottom-summary" class="content-section">
 
-## Double Sleeve Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Double Sleeve Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in double sleeve guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -141,7 +128,7 @@ The bottom player in double sleeve guard balances defensive frames with offensiv
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Releasing tension on sleeve grips, allowing opponent to break grips easily**
@@ -169,16 +156,17 @@ The bottom player in double sleeve guard balances defensive frames with offensiv
   - ✅ Correction: Be ready to transition one sleeve grip to lasso, spider, or collar grip as opponent moves
 
 
-👉 **[[Double Sleeve Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Double Sleeve Guard Top Perspective
+
+## Playing as Top
+
+[[Double Sleeve Guard/Top|→ Full Top Guide]]
 
 
-The top player in double sleeve guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -224,7 +212,7 @@ The top player in double sleeve guard enjoys offensive advantages with access to
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing posture to break forward while opponent maintains strong sleeve grips**
@@ -251,8 +239,6 @@ The top player in double sleeve guard enjoys offensive advantages with access to
   - Consequence: Even with weak sleeve grips, strong foot frames can maintain distance and facilitate sweeps or guard retention
   - ✅ Correction: Address both the sleeve grips and leg positioning simultaneously, using strategies that diminish both control mechanisms
 
-
-👉 **[[Double Sleeve Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

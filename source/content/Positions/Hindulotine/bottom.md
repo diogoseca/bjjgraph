@@ -8,7 +8,7 @@ description: "Offensive guillotine variation from bottom guard using rotational 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Offensive guillotine variation from bottom guard using rotational 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Offensive guillotine variation from bottom guard using rotational 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 75% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 75% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -193,7 +191,7 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your guillotine grip is secured around opponent's neck with your arm wrapped under their chin, hands locked together using gable grip or arm-in configuration, creating direct pressure on the carotid arteries and trachea while your forearm or wrist blade is positioned high under the chin for maximum choking efficiency
 - Your hips are positioned at an angle to your opponent's body rather than directly underneath them, creating the leverage angle necessary for rotational pressure on the neck, with your lower back and hips actively engaged to generate torque rather than relying solely on arm strength
@@ -206,7 +204,7 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent's head must be available for guillotine grip establishment, typically during takedown attempts, guard pulls, or scrambles where their head passes below your chest line
 - Your ability to secure the guillotine grip before opponent establishes defensive posture or gets their chin tucked and arms framed
@@ -234,7 +232,7 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Guillotine Choke]] → [[Won by Submission]]
 
@@ -298,7 +296,7 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Posture Recovery and Chin Tuck]]** → [[Closed Guard]] (Opponent Success: 40%)
 - **[[Von Flue Counter]]** → [[Side Control]] (Opponent Success: 35%)
@@ -311,7 +309,7 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Angle Adjustment for Deeper Choke]]** → [[Won by Submission]]
   - Opponent attempts to posture up or drive forward with pressure
@@ -353,7 +351,7 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

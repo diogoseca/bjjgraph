@@ -8,7 +8,7 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 65% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 65%.
 
 ---
 
@@ -191,7 +191,7 @@ Successful back control requires understanding the hierarchy of control points: 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Your chest pressed tightly against opponent's back with constant forward pressure ensuring they cannot create distance or turn to face you
 - Your legs wrapped around opponent's waist with feet hooked inside their thighs (hooks in) or locked in body triangle configuration, controlling hip movement and preventing rotation
@@ -203,7 +203,7 @@ Successful back control requires understanding the hierarchy of control points: 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful transition from mount, side control, turtle, guard, or standing position establishing back connection
 - Control of opponent's upper body preventing them from turning to face you during entry sequence
@@ -231,7 +231,7 @@ Successful back control requires understanding the hierarchy of control points: 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Rear Naked Choke]] → [[Won by Submission]]
 
@@ -295,7 +295,7 @@ Successful back control requires understanding the hierarchy of control points: 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hand Fighting from Back]]** → [[Defensive Position]] (Opponent Success: 20%)
 - **[[Hip Escape]]** → [[Turtle]] (Opponent Success: 25%)
@@ -308,7 +308,7 @@ Successful back control requires understanding the hierarchy of control points: 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Control to Crucifix]]** → [[Crucifix]]
   - Opponent attempts to remove top arm from harness grip exposing their arm
@@ -350,7 +350,7 @@ Successful back control requires understanding the hierarchy of control points: 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

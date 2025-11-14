@@ -13,10 +13,6 @@ description: "Master Toe Hold Control position in BJJ. Strategic guide covering 
 
 
 
-> **Quick Overview**: Toe Hold Control represents a specialized leg entanglement position where rotational pressure is applied to the ankle joint through a figure-four grip configuration, creating one of Brazilian Jiu-Jits...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Ankle rotation attack with joint isolation
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Toe Hold Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Toe Hold Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Ankle rotation attack with joint isolation
 
 
 
@@ -88,10 +72,13 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 <section id="bottom-summary" class="content-section">
 
-## Toe Hold Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Toe Hold Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in toe hold control must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in toe hold control must focus on creating frames, protecting 
   - Success Rate: Beginner 12%, Intermediate 28%, Advanced 42%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing knee to rotate externally while opponent controls the foot**
@@ -166,16 +153,17 @@ The bottom player in toe hold control must focus on creating frames, protecting 
   - ✅ Correction: Never attempt to stand with foot controlled, clear grips completely first, then consider postural changes
 
 
-👉 **[[Toe Hold Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Toe Hold Control Top Perspective
+
+## Playing as Top
+
+[[Toe Hold Control/Top|→ Full Top Guide]]
 
 
-The top player in toe hold control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -218,7 +206,7 @@ The top player in toe hold control balances control maintenance with submission 
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Failing to secure deep foot positioning in the armpit before attempting the toe hold finish**
@@ -245,8 +233,6 @@ The top player in toe hold control balances control maintenance with submission 
   - Consequence: Opponent finds consistent escape route through predictable positioning, eventually extracting their leg or reversing position through superior adaptability
   - ✅ Correction: Continuously adjust body angle and hip positioning in response to opponent's movements, maintaining control through dynamic positioning rather than static strength
 
-
-👉 **[[Toe Hold Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

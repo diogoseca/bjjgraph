@@ -8,7 +8,7 @@ description: "Master Half Guard Sweeps in BJJ. Complete systematic approach from
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Half Guard Sweeps in BJJ. Complete systematic approach from
 
 
 
-> **Quick Answer**: Half Guard Sweeps transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
+> Half Guard Sweeps transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Half Guard Sweeps represent a comprehensive offensive system from the half guard
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish and maintain underhook control to control opponent's weight distribution
 - Create angles with hip movement to off-balance opponent's base
 - Use knee shield or lockdown to control distance and prevent flattening
@@ -186,7 +186,7 @@ Half Guard Sweeps represent a comprehensive offensive system from the half guard
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Half guard established with one leg trapped between your legs
 - Active frames preventing opponent from achieving chest-to-chest pressure
 - Underhook secured on one side or strong defensive frame structure in place
@@ -200,7 +200,7 @@ Half Guard Sweeps represent a comprehensive offensive system from the half guard
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish foundational half guard structure**: Begin in half guard bottom with one of opponent's legs trapped between yours. Secure an underhook on one side, driving your shoulder into their armpit while your other arm creates a frame against their opposite shoulder or neck. Your bottom leg should hook around their trapped leg while your top leg creates a knee shield or locks in lockdown position. Keep your hips mobile and angled, never flat on your back. (Timing: Establish immediately upon entering half guard)
 2. **Create angle and off-balance**: Use your underhook to come up onto your side, creating a 45-degree angle with your body. Simultaneously, use your frames and leg control to disrupt opponent's base. If they have weight forward, pull them; if they're posting back, drive into them. The goal is to make them react and expose sweeping opportunities. Your head should be positioned outside their trapped leg, never under their chest. (Timing: As soon as opponent attempts to establish passing pressure)
 3. **Execute primary sweep attempt**: Based on opponent's reaction, execute your primary sweep. For underhook sweep: drive your underhook arm upward and forward while using your leg hook to elevate their trapped leg, rolling them over your shoulder. For Old School sweep: thread your bottom leg over their back while maintaining underhook, then extend legs to sweep. For deep half entry: duck under their trapped leg and establish deep half guard position before sweeping. (Timing: Explosive execution as soon as off-balance is created)
@@ -214,7 +214,7 @@ Half Guard Sweeps represent a comprehensive offensive system from the half guard
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent establishes strong crossface and flattens you to the mat** (Effectiveness: High) - Your Response: Immediately work to recover your frames and create space. Bridge into opponent to create space for reguarding, or transition to deep half guard by ducking under. Use the lockdown if available to prevent them from advancing position while you recover structure.
 - **Opponent sprawls back and pulls their trapped leg free** (Effectiveness: Medium) - Your Response: As they pull back, follow them by coming up on your knees and transitioning to single leg or transitioning to butterfly guard. Alternatively, if you have underhook, use their backward movement to come up into dogfight position or take their back.
 - **Opponent posts strong far-side base to prevent sweep** (Effectiveness: High) - Your Response: Attack the posted arm with kimura or switch to sweeping to the opposite direction. Alternatively, use their posting reaction to enter deep half guard or transition to taking their back as they base out.
@@ -224,28 +224,28 @@ Half Guard Sweeps represent a comprehensive offensive system from the half guard
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Staying flat on back without creating angles
+## Common Mistakes
+- **Mistake**: Staying flat on back without creating angles
   - **Consequence**: Opponent easily establishes heavy pressure and advances to more dominant passing positions, making sweeps nearly impossible to execute
   - **Correction**: Always maintain a 45-degree angle with your body, coming up on your side with your underhook active. Keep hips mobile and ready to adjust angles constantly based on opponent's pressure.
-- **Error**: Failing to secure and maintain underhook control
+- **Mistake**: Failing to secure and maintain underhook control
   - **Consequence**: Without underhook, you lose ability to control opponent's weight and create the leverage necessary for sweeps. Opponent can easily flatten you and advance position.
   - **Correction**: Make securing the underhook your primary goal in half guard. Drive your shoulder deep into their armpit and keep the underhook active by constantly lifting and driving forward. If you lose it, fight immediately to recover it or establish strong defensive frames.
-- **Error**: Using only leg strength without upper body control
+- **Mistake**: Using only leg strength without upper body control
   - **Consequence**: Sweeps become ineffective because you cannot control opponent's upper body and weight distribution. They can simply base out with their arms and prevent the reversal.
   - **Correction**: Coordinate upper body control (underhook, frames, grips) with lower body mechanics. The sweep works through the combination of off-balancing with upper body while elevating or disrupting base with lower body.
-- **Error**: Telegraphing sweep attempts without creating reactions first
+- **Mistake**: Telegraphing sweep attempts without creating reactions first
   - **Consequence**: Opponent anticipates the sweep and preemptively defends by adjusting base and pressure. Your sweep attempts fail because opponent is already prepared for them.
   - **Correction**: Create false attacks and feints to make opponent react and shift weight. Execute sweeps based on their reactions rather than from static positions. Use combinations where the defense to one sweep opens another.
-- **Error**: Stopping offensive pressure after first sweep attempt fails
+- **Mistake**: Stopping offensive pressure after first sweep attempt fails
   - **Consequence**: Losing momentum allows opponent to recover base and establish dominant passing position. Static half guard becomes increasingly difficult to defend.
   - **Correction**: Chain sweep attempts continuously. If underhook sweep fails, immediately transition to old school, deep half entry, or back take attempt. Never allow opponent to rest and consolidate their position.
-- **Error**: Allowing opponent to achieve crossface without fighting hands
+- **Mistake**: Allowing opponent to achieve crossface without fighting hands
   - **Consequence**: Crossface pressure flattens your position and removes all sweeping opportunities. You become purely defensive and must work just to prevent being passed.
   - **Correction**: Fight opponent's hands constantly to prevent crossface establishment. Use your free arm to strip grips, create frames, and prevent their hand from reaching your far shoulder. If crossface lands, immediately work to remove it before attempting sweeps.
-- **Error**: Failing to control opponent's trapped leg properly
+- **Mistake**: Failing to control opponent's trapped leg properly
   - **Consequence**: Opponent easily frees their leg and completes the pass. The fundamental structure of half guard collapses without proper leg control.
   - **Correction**: Maintain active control of trapped leg with both your legs. Bottom leg hooks behind their knee while top leg applies pressure across their shin or thigh. Adjust leg positioning constantly to prevent leg extraction.
 
@@ -254,7 +254,7 @@ Half Guard Sweeps represent a comprehensive offensive system from the half guard
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Foundational Structure (Weeks 1-2)** - Establishing basic half guard structure and understanding positional requirements
 Begin with static position holds in half guard bottom. Practice securing underhook against compliant partner and maintaining frames. Work on coming to your side and creating proper angles without any sweeping attempts yet. Partner provides light pressure but doesn't actively pass. Focus on comfort in the position and ability to maintain structure for extended periods.
 (Resistance: None)
@@ -285,7 +285,7 @@ Develop your personal high-percentage half guard sweep system based on body type
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Underhook Sweep (Basic Half Guard Sweep)**: The fundamental half guard sweep using underhook control. Drive the underhook upward and forward while using your leg hook to elevate opponent's trapped leg. Roll them over your shoulder as you come up to top position. Most effective when opponent has weight forward. (When to use: Use when you have secured strong underhook and opponent is applying forward pressure. Best against opponents who are trying to flatten you or establish crossface control.)
 
 **Old School Sweep**: Thread your bottom leg over opponent's back while maintaining underhook control. Extend your legs to create powerful sweeping motion that lifts and rotates opponent. Often leads to mount or taking the back. Named after Roberto 'Gordo' Correa who popularized this sweep. (When to use: Effective when opponent has low posture and you have strong underhook. Particularly good in gi where you can control opponent's lapel or belt. Works well when opponent is defending other sweep attempts.)
@@ -329,7 +329,7 @@ Develop your personal high-percentage half guard sweep system based on body type
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Half guard sweep training is generally safe when practiced with proper control and progressive resistance. Key safety points include: controlling the sweep's speed to prevent partner from landing awkwardly on their head or neck (always guide them to their side or back), maintaining awareness of knees during lockdown techniques to prevent hyperextension or twisting injuries, communicating with training partners about resistance levels especially when learning new sweeps, ensuring adequate mat space when practicing explosive sweep variations to prevent collision with other practitioners or walls, being cautious with underhook pressure against the neck area to avoid cranking injuries, and building up gradually to full resistance to develop proper mechanics before applying maximum power. Partners should tap early if they feel unstable or at risk of injury during sweep attempts, and instructors should supervise beginners closely during initial learning phases.
 
@@ -337,7 +337,7 @@ Half guard sweep training is generally safe when practiced with proper control a
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Half guard sweeps are integral to a complete BJJ game and serve as a critical bridge between defensive guard retention and offensive top position establishment. In the positional hierarchy, half guard occupies a unique space as both a defensive recovery position (when passing is being attempted) and an aggressive attacking platform (when proper structure is established). The sweep system connects to multiple other positions: successful sweeps typically lead to side control, mount, or knee on belly, while defended sweeps often create opportunities for back takes or transitions to other guard systems like butterfly, X-guard, or deep half. From a strategic perspective, developing strong half guard sweeps allows practitioners to intentionally enter half guard during scrambles or guard pulls, knowing they have offensive options rather than viewing it purely as defensive. The position also serves as an excellent platform for submission attacks (kimura, guillotine, triangle) which can be combined with sweep attempts to create dilemmas for opponents. Competition strategy often revolves around using half guard as a sweeping position, especially at higher levels where athletes have specialized in making half guard their primary attacking platform.
 
@@ -345,7 +345,7 @@ Half guard sweeps are integral to a complete BJJ game and serve as a critical br
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Old School Sweep]] - Primary technique - fundamental half guard sweep variation
 - [[Underhook Sweep from Half]] - Primary technique - basic half guard sweep using underhook control
@@ -365,7 +365,7 @@ Half guard sweeps are integral to a complete BJJ game and serve as a critical br
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The half guard sweep system represents one of the most sophisticated examples of leverage-based reversals in grappling. The fundamental principle underlying all successful half guard sweeps is the systematic disruption of your opponent's base structure while simultaneously controlling their weight distribution through upper body connections. The underhook is not merely a grip—it functions as a lever that allows you to manipulate your opponent's center of gravity and create the angular momentum necessary for reversals. The most common error I observe is practitioners attempting to sweep through leg strength alone, which inevitably fails against skilled opposition. Instead, you must understand that the legs control and trap, while the upper body creates the actual sweeping force through coordinated pushing and pulling. The timing element is equally critical: sweeps succeed not when you are strongest, but when your opponent is most off-balanced, typically during their weight transfers and base adjustments. Develop a systematic approach where each sweep attempt creates a specific reaction that opens a subsequent attack. This creates an offensive loop where the opponent's defensive responses continuously expose new vulnerabilities.
 - **Gordon Ryan**: In high-level competition, half guard sweeps are absolutely essential for anyone fighting from bottom position. What separates winning half guard players from those who get passed is the ability to chain sweeps together relentlessly without giving the top player any breathing room to establish their game. I've built my half guard system around creating constant dilemmas—if they defend the underhook sweep by posting, I'm attacking their arm with kimura or I'm taking their back. If they sit back to defend that, I'm entering deep half or coming up on a single leg. The key is never stopping your attacks. In my matches, I'm looking for the sweep primarily, but I'm equally happy to take the back, which is often easier to achieve when they're defending sweeps. The lockdown is incredibly valuable for controlling the pace and setting up sweeps, especially in no-gi where grip fighting is different. People who just hang out in half guard waiting for opportunities get passed—you have to be the one forcing the action. Training-wise, I spend enormous amounts of time in positional sparring from half guard bottom, always starting from slightly bad positions to develop the scrambling and recovery skills necessary when sweeps don't go perfectly in competition.
 - **Eddie Bravo**: Half guard is where the 10th Planet system really shines, and sweeps are just one part of this incredibly deep position. The lockdown completely changes the half guard game by giving you total control over their trapped leg—they can't extract it, they can't stand up easily, and you can manipulate it to create sweep opportunities they've never seen before. The Electric Chair sweep is a perfect example: you're using the lockdown to stretch their leg in an uncomfortable way, which makes them react, and that reaction is what creates the sweep. Same with the Homer Simpson—you're creating such weird angles with the lockdown that traditional base doesn't work anymore. What I love about half guard sweeps is how they integrate with submissions. When I'm going for an Electric Chair sweep, I might finish the actual Electric Chair submission if they defend wrong. When I'm setting up the Old School sweep, I'm threatening their back or setting up triangles. Everything chains together in this beautiful web of attacks. The biggest thing I tell students is don't be afraid to get weird with it—create unusual positions, make them uncomfortable, use the lockdown to control the timing. Traditional half guard is great, but adding these unconventional elements makes your half guard game unpredictable and extremely dangerous.

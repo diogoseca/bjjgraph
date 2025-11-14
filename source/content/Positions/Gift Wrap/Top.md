@@ -8,7 +8,7 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 70% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 70%.
 
 ---
 
@@ -195,7 +195,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - One of opponent's arms is trapped across their own body with attacker's arm threaded under opponent's armpit and controlling the wrist or forearm on the opposite side, creating a diagonal control line that immobilizes the limb throughout the position
 - Attacker maintains back control position with hooks secured (at least one deep inside thigh hook) or body triangle established, with chest connected to opponent's back and hips positioned directly behind opponent's hips for maximum control leverage and pressure application
@@ -206,7 +206,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Back control has been established with hooks in or body triangle secured
 - One of opponent's arms has been isolated through initial grip fighting or transition
@@ -234,7 +234,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Rear Naked Choke]] → [[Won by Submission]]
 
@@ -305,7 +305,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Trapped Arm Recovery]]** → [[Back Control]] (Opponent Success: 25%)
 - **[[Hip Escape to Guard]]** → [[Half Guard]] (Opponent Success: 20%)
@@ -318,7 +318,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Rear Naked Choke Finish]]** → [[Won by Submission]]
   - Opponent uses free arm to recover trapped arm, exposing neck
@@ -372,7 +372,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master positional hierarchy in BJJ. Learn strategic position ranki
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master positional hierarchy in BJJ. Learn strategic position ranki
 
 
 
-> **Quick Answer**: Positional Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Positional Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Positional Hierarchy represents the fundamental strategic concept of ranking BJJ
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Recognize that positions have objective value hierarchy independent of personal preference
 - Prioritize achieving higher-value positions before attempting submissions from lower-value positions
 - Understand that giving up lower-value position to achieve higher-value position is often strategic gain
@@ -181,7 +181,7 @@ Positional Hierarchy represents the fundamental strategic concept of ranking BJJ
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Position Value Assessment**: The ability to rapidly evaluate the relative value of current position compared to potential positions, considering control stability, submission access, escape difficulty, and point value in competitive context.
 
 **Hierarchical Navigation**: The skill of systematically moving through positional hierarchy, advancing from lower to higher positions through deliberate technical sequences rather than random transitions, maximizing positional gains while minimizing risks.
@@ -204,7 +204,7 @@ Positional Hierarchy represents the fundamental strategic concept of ranking BJJ
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Position-Over-Submission Approach]]** (Complementary): Position-Over-Submission philosophy directly implements positional hierarchy by prioritizing hierarchical advancement over premature submission attempts, using hierarchy as decision framework for when submissions become strategically appropriate.
 - **[[Control Point Hierarchy]]** (Complementary): Control Point Hierarchy provides micro-level framework within each position while Positional Hierarchy provides macro-level framework across positions, creating nested hierarchical system for complete strategic understanding.
 - **[[Escape Hierarchy]]** (Extension): Escape Hierarchy represents defensive application of positional hierarchy, establishing priority system for which positions to escape first based on their hierarchical danger level.
@@ -219,7 +219,7 @@ Positional Hierarchy represents the fundamental strategic concept of ranking BJJ
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Represents highest offensive position in traditional hierarchy, warranting submission attempts and aggressive attacks due to superior control, minimal escape routes for opponent, and maximum point value in competition.
 
 **Back Control**: Occupies highest hierarchical position alongside mount, justifying submission focus due to exceptional control quality, extremely limited defensive options for opponent, and high point value with submission access to rear naked choke.
@@ -256,7 +256,7 @@ Positional Hierarchy represents the fundamental strategic concept of ranking BJJ
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Identify current hierarchical position for both self and opponent**: Assess where current position falls in hierarchy from mount/back control (highest) through guards (medium) to bottom mount/back controlled (lowest), establishing baseline for strategic decisions.
 2. **Evaluate available position transitions and their hierarchical changes**: Identify potential transitions from current position and determine whether each represents hierarchical advancement, maintenance, or descent, calculating net hierarchical value of each option.
 3. **Assess submission viability from current hierarchical position**: Determine whether current position is hierarchically valuable enough to warrant submission attempts or whether positional advancement would increase submission success probability more than immediate attempts.
@@ -269,28 +269,28 @@ Positional Hierarchy represents the fundamental strategic concept of ranking BJJ
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting submissions from inferior hierarchical positions without first advancing position
+## Common Mistakes
+- **Mistake**: Attempting submissions from inferior hierarchical positions without first advancing position
   - **Consequence**: Low submission success rate combined with high risk of further hierarchical descent when submission fails, creating compound disadvantage through failed submission attempt and worsened position
   - **Correction**: Prioritize achieving higher hierarchical position before submission attempts, using position-first approach where securing mount or back control substantially increases submission success while reducing defensive options for opponent
-- **Error**: Failing to recognize when position trading represents net hierarchical gain
+- **Mistake**: Failing to recognize when position trading represents net hierarchical gain
   - **Consequence**: Maintaining lower-value position when opportunity exists to trade for higher-value position, missing chances for strategic improvement through intelligent position exchange based on hierarchical calculation
   - **Correction**: Develop position trading calculation skill by systematically evaluating whether surrendering current position for alternative represents hierarchical advancement, considering control quality, submission access, and escape difficulty for both positions
-- **Error**: Ignoring defensive hierarchy when in inferior positions
+- **Mistake**: Ignoring defensive hierarchy when in inferior positions
   - **Consequence**: Attempting offensive techniques from low hierarchical positions instead of prioritizing escape or position improvement, leading to further hierarchical descent and increased submission danger through misallocated defensive effort
   - **Correction**: Apply defensive hierarchy principle where preventing additional hierarchical loss takes absolute priority when in inferior position, focusing exclusively on position improvement until achieving sufficient hierarchical security for offensive attempts
-- **Error**: Overvaluing personal position preferences over objective hierarchical value
+- **Mistake**: Overvaluing personal position preferences over objective hierarchical value
   - **Consequence**: Seeking preferred positions that offer lower hierarchical value than available alternatives, sacrificing strategic advantage for comfort or familiarity, reducing overall positional effectiveness through subjective decision-making
   - **Correction**: Recognize that hierarchical value is objective and independent of personal preference, developing skill with high-hierarchy positions even if initially uncomfortable, using objective hierarchy as guide rather than subjective comfort
-- **Error**: Failing to use hierarchical dominance to create psychological pressure
+- **Mistake**: Failing to use hierarchical dominance to create psychological pressure
   - **Consequence**: Achieving superior hierarchical position but not leveraging psychological advantage, missing opportunity to induce defensive errors through sustained hierarchical pressure beyond pure mechanical control
   - **Correction**: Understand that occupying superior hierarchical position creates psychological burden on opponent that compounds over time, maintaining dominant positions strategically to maximize mental pressure alongside physical control
-- **Error**: Misunderstanding competition point system relationship to hierarchy
+- **Mistake**: Misunderstanding competition point system relationship to hierarchy
   - **Consequence**: Pursuing positions with lower point values when higher-value positions are accessible, failing to maximize competitive scoring through hierarchical advancement aligned with point system
   - **Correction**: Recognize that competition points directly reflect positional hierarchy, using point values as reinforcement of hierarchical understanding and prioritizing positions that offer both hierarchical advantage and maximum point accumulation
-- **Error**: Abandoning hierarchically superior position for speculative submission attempts
+- **Mistake**: Abandoning hierarchically superior position for speculative submission attempts
   - **Consequence**: Trading secure high-hierarchy position for low-percentage submission that risks hierarchical loss if failed, sacrificing strategic advantage for tactical opportunity with poor risk-reward calculation
   - **Correction**: Maintain hierarchical discipline by ensuring submissions attempted from superior positions are high-percentage with acceptable risk profile, willing to abandon low-percentage submissions to preserve hierarchical advantage
 
@@ -299,7 +299,7 @@ Positional Hierarchy represents the fundamental strategic concept of ranking BJJ
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Sparring by Hierarchy Level** (Focus: Build experiential understanding of hierarchical positions through repeated exposure to control requirements, submission opportunities, and escape difficulties characteristic of each level, developing intuitive hierarchical assessment through practice.)
 Structure positional sparring sessions organized by hierarchical position level, spending dedicated time working from each major hierarchical category (dominant, neutral, defensive) to develop positional understanding and transition skills specific to each hierarchy level.
 
@@ -324,7 +324,7 @@ Practice flow rolling with explicit focus on smooth hierarchical transitions, mo
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can identify basic hierarchy of mount and back control as highest positions and recognize being mounted or back-controlled as most dangerous defensive situations requiring urgent response
 - Demonstrates basic understanding that achieving mount or side control is strategically valuable and attempts to maintain these positions when achieved rather than immediately abandoning for submissions
@@ -359,7 +359,7 @@ Practice flow rolling with explicit focus on smooth hierarchical transitions, mo
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Position-Over-Submission Approach]] (Principle) - Direct implementation philosophy - position-before-submission approach operationalizes hierarchical understanding into tactical decision-making rule
 - [[Control Point Hierarchy]] (Principle) - Nested hierarchy system - control points provide micro-level hierarchy within positions while positional hierarchy provides macro-level framework
@@ -379,7 +379,7 @@ Practice flow rolling with explicit focus on smooth hierarchical transitions, mo
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches positional hierarchy as objective ranking system based on measurable factors: submission potential, escape difficulty, control stability, and competitive value. Systematically teaches hierarchy as: Mount and Back Control (highest), Knee on Belly and Side Control (high), Top Half Guard and Closed Guard Top (medium-high), Closed Guard Bottom and Open Guards (medium), Bottom Half Guard (medium-low), Turtle and Defensive Guards (low), Mount Bottom and Back Controlled (lowest). Emphasizes using hierarchy as decision-making tool where position improvement should generally be prioritized over submission attempts from low-value positions. Views hierarchy as force multiplication where submissions become significantly higher-percentage from superior positions, making position achievement strategically more valuable than direct submission pursuit from inferior positions.
 - **Gordon Ryan**: Focuses on aggressive hierarchy climbing through continuous position improvement, using hierarchy as offensive pressure tool forcing opponent into progressively worse positions. Emphasizes that maintaining higher hierarchical position creates psychological pressure and fatigue beyond mechanical advantages, as opponent's defensive burden increases geometrically as they descend hierarchy. Particularly stresses competition strategy built on hierarchical point accumulation, establishing dominant positions and maintaining them to guarantee point victory before attempting submissions. Views hierarchy as strategic roadmap where each position improvement represents concrete tactical gain measurable in control capability and submission probability.
 - **Eddie Bravo**: Integrates non-traditional positions into hierarchical framework, arguing that positions like Truck and Twister Side Control deserve higher hierarchical ranking than traditionally assigned. Emphasizes that positional hierarchy can be personalized based on individual technical development, noting that position value increases dramatically when practitioner has developed sophisticated submission systems from that position. Teaches that hierarchy should guide general strategy while acknowledging that individual technical strengths can justify prioritizing certain positions beyond their general hierarchical ranking. Advocates for understanding conventional hierarchy while developing personal positional preferences that reflect individual technical sophistication.

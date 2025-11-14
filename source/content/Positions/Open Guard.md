@@ -13,10 +13,6 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 
 
 
-> **Quick Overview**: Open Guard is the fundamental bottom position in BJJ where you use your legs positioned between you and your opponent to create distance, manage angles, and prevent them from establishing dominant con...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,31 +54,19 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Medium to Long |
 
-**What Makes This Position Unique:** Dynamic leg positioning for mobility and control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Open Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Open Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Dynamic leg positioning for mobility and control
 
 
 
@@ -90,10 +74,13 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 <section id="bottom-summary" class="content-section">
 
-## Open Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Open Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in open guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -154,7 +141,7 @@ The bottom player in open guard balances defensive frames with offensive opportu
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Passive legs/feet that remain static without active engagement**
@@ -186,16 +173,17 @@ The bottom player in open guard balances defensive frames with offensive opportu
   - ✅ Correction: Develop fluid transitions between guard variations - spider to lasso to de la riva - based on opponent's reactions
 
 
-👉 **[[Open Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Open Guard Top Perspective
+
+## Playing as Top
+
+[[Open Guard/Top|→ Full Top Guide]]
 
 
-The top player in open guard balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -250,7 +238,7 @@ The top player in open guard balances control maintenance with submission attack
   - Success Rate: Beginner 32%, Intermediate 48%, Advanced 62%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Poor posture with rounded back and hips too close to opponent**
@@ -281,8 +269,6 @@ The top player in open guard balances control maintenance with submission attack
   - Consequence: Using pressure passes against distance guards or speed passes against close guards; mismatched strategy leads to failed attempts and energy waste
   - ✅ Correction: Identify specific guard type being employed and select appropriate passing strategy; pressure pass butterfly/half guard, movement pass De La Riva/Spider guard
 
-
-👉 **[[Open Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

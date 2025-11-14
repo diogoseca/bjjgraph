@@ -137,7 +137,7 @@ description: "Master IBJJF competition strategy for BJJ. Complete framework cove
 
 
 
-> **Quick Answer**: IBJJF Strategy Guide is a intermediate difficulty Competition Strategy system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> IBJJF Strategy Guide is a intermediate difficulty Competition Strategy system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Competition Strategy
@@ -156,7 +156,7 @@ The IBJJF Strategy Guide provides a comprehensive framework for competing succes
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Position before submission - secure points through positional advancement before attacking submissions
 - Points accumulation hierarchy - understand relative value of sweeps (2), takedowns (2), guard passing (3), mount/back (4)
 - Advantage management - use advantages strategically when point opportunities are unavailable
@@ -170,7 +170,7 @@ The IBJJF Strategy Guide provides a comprehensive framework for competing succes
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Scoring System Mastery** (Maximize point accumulation through strategic position selection and timing)
 Deep understanding of IBJJF point values and scoring criteria is fundamental to competition success. Athletes must internalize the positional hierarchy: 2 points for takedowns, sweeps, and knee on belly; 3 points for guard passing; 4 points for mount and back control. Critical is understanding the 3-second stabilization rule - positions must be controlled for three seconds before points are awarded. This creates specific tactical opportunities around securing positions just long enough to score while immediately transitioning to prevent opponent counters.
 
@@ -192,7 +192,7 @@ IBJJF penalty system includes verbal warnings, penalties for stalling, and disqu
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Pre-Match Preparation**: Develop match-specific game plan based on weight class, belt level, and bracket position. Study IBJJF rule updates for current competition season. Visualize scoring sequences and defensive scenarios. Prepare primary game plan with two backup tactical approaches.
 Key points:
 - Review current IBJJF rule book for belt level and age division
@@ -370,7 +370,7 @@ IBJJF competition preparation requires scenario-based positional sparring with s
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The IBJJF competition format fundamentally alters tactical decision-making through its points-based scoring hierarchy. Unlike submission-only formats where positional dominance serves purely as pathway to submission, IBJJF competition makes position advancement itself the primary strategic objective. This creates a systematic progression through increasingly valuable positions: guard retention and opening (neutral), guard passing (3 points), and dominant positions of mount or back control (4 points). The critical tactical insight is understanding that submission attempts must be risk-adjusted based on current positional value and score differential. When ahead on points from a high-value position, submission attempts should only come from attacks that maintain positional dominance even if unsuccessful. The 3-second stabilization rule requires precise control mechanics - athletes must develop position-specific markers that clearly demonstrate the required criteria to referees. Strategic success demands treating each match as a mathematical optimization problem: maximize point differential while minimizing opponent scoring opportunities and penalty accumulation. Time management becomes the controlling variable in this equation, with optimal tactics shifting as time remaining decreases and score differential changes. The competitor who best manages these variables through systematic position selection and tactical discipline achieves consistent competitive success.
 - **Gordon Ryan**: IBJJF competition is won through relentless positional advancement combined with submission threats that force defensive reactions without sacrificing position. My approach centers on establishing early point leads through high-percentage passing and then using that lead to dictate match pace and force opponents into desperation. The key is chaining positions together - don't just pass the guard for 3 points and hold side control, immediately advance to mount or back for the additional 4 points. This creates 7-point swings that psychologically break opponents and force them into low-percentage comeback attempts. When ahead, I maintain enough offensive activity to avoid stalling while never taking risks that could result in sweeps or reversals. Submission attempts from dominant positions serve dual purposes: generating advantages when they don't finish, and forcing opponents to defend rather than escape. Against lower-level opponents, I'll accumulate 15-20 points through position cycling before finishing. Against elite opponents, 6-8 point leads often prove insurmountable given their defensive skills. The critical competitive edge comes from superior conditioning and position retention - I can maintain maximum offensive pressure for entire matches while defending my positions against fresh opponents in later rounds. Tournament success requires winning 4-6 matches in a day, making energy management and tactical efficiency essential. Early rounds should be won decisively but efficiently, saving maximum effort for finals when both athletes are fatigued.
 - **Eddie Bravo**: IBJJF competition requires adapting your creative game to point-based strategic realities, which means sometimes sacrificing your most spectacular techniques for positions that score reliably. The advantage system is underutilized by most competitors - I teach students to use submission attempts strategically even when completion probability is low, accumulating advantages that decide close matches. From rubber guard positions, attacks like the Invisible Collar to Omoplata create advantages through near-sweeps and submission threats while maintaining guard retention. The key innovation in IBJJF strategy is using apparently defensive positions to set up offensive sequences - 10th Planet lockdown from half guard appears defensive but generates sweeps and back takes that score points. Against traditional gi-based competitors, focus on positions they're unfamiliar with from no-gi training: truck position, inside sankaku control, leg entanglement positions that are legal at higher belts. The psychological component is crucial - appearing hyper-aggressive while actually maintaining tactical discipline. Create constant movement and submission threats that generate advantages and force referee perceptions of your dominance, even when actual scoring is limited. For competitors specializing in leg locks, IBJJF belt-level restrictions require developing upper-body submission games as primary weapons until brown/black belt where heel hooks become legal. The strategic adaptation is developing a points game to create opportunities for your specialized submissions rather than forcing them from poor positions. Tournament preparation must include specific IBJJF rule drilling - students regularly lose matches through illegal technique disqualifications that could be avoided with proper training protocols.

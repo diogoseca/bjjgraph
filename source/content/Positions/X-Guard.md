@@ -13,10 +13,6 @@ description: "Master X-Guard in BJJ with comprehensive analysis from both top an
 
 
 
-> **Quick Overview**: X-Guard is an advanced open guard position where the bottom practitioner entangles one of the opponent's legs using both of their own legs in an 'X' configuration, creating powerful leverage for sweep...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,7 +48,7 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -60,30 +56,8 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[X-Guard]] | Medium | Medium | Low | Medium | Leg-based control eliminates grip dependency |
-
 | [[Reverse X-Guard]] | Medium | Medium | Medium | Medium | Inverted orientation for explosive lifting |
-
 | [[Single Leg X-Guard]] | Medium | Medium | Medium | Medium | Leg isolation creates sweep-submission duality |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[X-Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[X-Guard/Top|Top Perspective]]** - Submissions and positional attacks
-
-
-### By Variation
-
-- **[[Reverse X-Guard]]** - Mirror variation used when opponent circles opposite side
-
-- **[[Single Leg X-Guard]]** - Natural variation when opponent pulls trapped leg back
 
 
 
@@ -91,10 +65,13 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 
 <section id="bottom-summary" class="content-section">
 
-## X-Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[X-Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in x-guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -140,7 +117,7 @@ The bottom player in x-guard controls the position with offensive attacks includ
   - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing hips to remain flat on the mat instead of elevating them**
@@ -168,16 +145,17 @@ The bottom player in x-guard controls the position with offensive attacks includ
   - ✅ Correction: Proactively transition to Single Leg X, Ashi Garami, or Deep Half based on opponent's escape direction, maintaining control through positional flow
 
 
-👉 **[[X-Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## X-Guard Top Perspective
+
+## Playing as Top
+
+[[X-Guard/Top|→ Full Top Guide]]
 
 
-The top player in x-guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -226,7 +204,7 @@ The top player in x-guard enjoys offensive advantages with access to submissions
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Standing fully upright with narrow base while opponent has established hooks**
@@ -254,8 +232,6 @@ The top player in x-guard enjoys offensive advantages with access to submissions
   - ✅ Correction: Recognize when opponent's inversion exposes them to saddle or ashi positions and capitalize on these submissions or dominant positions
 
 
-👉 **[[X-Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -268,14 +244,14 @@ The top player in x-guard enjoys offensive advantages with access to submissions
 
 Mirror variation used when opponent circles opposite side
 
-[Explore Reverse X-Guard →](x-guard/reverse-x-guard)
+[Explore Reverse X-Guard →](./Reverse X-Guard)
 
 
 ### [[Single Leg X-Guard]]
 
 Natural variation when opponent pulls trapped leg back
 
-[Explore Single Leg X-Guard →](x-guard/single-leg-x-guard)
+[Explore Single Leg X-Guard →](./Single Leg X-Guard)
 
 
 

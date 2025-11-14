@@ -8,7 +8,7 @@ description: "Defensive strategies and escape techniques when opponent has estab
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defensive strategies and escape techniques when opponent has estab
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Defensive strategies and escape techniques when opponent has estab
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 55% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent's arms wrapped completely around your torso with their hands locked behind your back or at your centerline, creating unified grip that restricts your movement
 - Opponent's chest pressed against your back or side torso, eliminating space and preventing you from turning to face them or creating distance
@@ -204,7 +202,7 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has successfully established chest-to-back or chest-to-side connection
 - Opponent has locked their hands around your torso before you could prevent the connection
@@ -232,7 +230,7 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Hip Escape]] → [[Standing Position]]
 
@@ -282,7 +280,7 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Mat Return to Back]]** → [[Back Control]] (Opponent Success: 70%)
 - **[[Throw to Side Control]]** → [[Side Control]] (Opponent Success: 55%)
@@ -294,7 +292,7 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Re-guard with Frames]]** → [[Standing Guard]]
   - Successfully break opponent's grip and create space with frames
@@ -327,7 +325,7 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

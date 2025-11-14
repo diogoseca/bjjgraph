@@ -8,7 +8,7 @@ description: "Master off-balancing (kuzushi) in BJJ. Learn directional pressure 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master off-balancing (kuzushi) in BJJ. Learn directional pressure 
 
 
 
-> **Quick Answer**: Off-Balancing is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Off-Balancing is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Off-Balancing represents the fundamental principle of disrupting an opponent's s
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Identify opponent's base configuration and center of gravity position before attempting disruption
 - Apply pressure in directions where opponent has weakest structural support or fewest base points
 - Time off-balancing attempts during opponent's weight shifts, transitions, or movement phases
@@ -181,7 +181,7 @@ Off-Balancing represents the fundamental principle of disrupting an opponent's s
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Base Assessment**: The ability to quickly evaluate opponent's base structure by identifying the number, position, and quality of their support points (hands, feet, knees, elbows), understanding how their weight is distributed across these points, and recognizing which directions offer the least resistance to displacement based on their current configuration.
 
 **Directional Pressure Application**: The skill of applying force in specific vectors that exploit opponent's base vulnerabilities, understanding how to push, pull, lift, or drive in directions perpendicular to their available support, and knowing how to combine multiple directional pressures to create compound effects that overwhelm defensive capacity.
@@ -204,7 +204,7 @@ Off-Balancing represents the fundamental principle of disrupting an opponent's s
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Base Maintenance]]** (Complementary): Off-balancing and base maintenance represent opposing sides of the same stability equation - understanding how to maintain your own base provides direct insight into how to disrupt opponent's base, and the principles that make bases strong also reveal their vulnerabilities
 - **[[Leverage Principles]]** (Prerequisite): Effective off-balancing requires understanding mechanical advantage and leverage application, as the most efficient balance disruption comes from applying force at points where mechanical advantage is maximized and opponent's structural integrity is most vulnerable to leverage-based displacement
 - **[[Timing and Rhythm]]** (Complementary): Off-balancing effectiveness depends heavily on timing recognition and rhythm manipulation, as balance disruption attempts succeed most reliably when executed during opponent's transitional moments or when their movement patterns create predictable windows of vulnerability
@@ -220,7 +220,7 @@ Off-Balancing represents the fundamental principle of disrupting an opponent's s
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Off-balancing from closed guard involves breaking opponent's posture through pulling grips while eliminating posting opportunities with leg control, creating situations where their weight moves forward beyond their knees or backward beyond their hips to enable sweeps like hip bump, scissor, or pendulum variations
 
 **Butterfly Guard**: Butterfly guard off-balancing utilizes hook elevation combined with upper body control to lift opponent's weight forward and upward while preventing them from establishing wide base or posting hands, creating the unstable configuration necessary for butterfly sweeps and transitions
@@ -257,7 +257,7 @@ Off-Balancing represents the fundamental principle of disrupting an opponent's s
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess opponent's current base configuration**: Identify the number and position of their base points (feet, knees, hands, elbows), evaluate the width and stability of their stance, and recognize which directions offer the least structural resistance based on their current positioning
 2. **Establish necessary grips and controls**: Secure grips or hooks that provide control over opponent's body while simultaneously eliminating or threatening their ability to establish additional base points, prioritizing controls that restrict their posting and base widening options
 3. **Identify primary off-balancing direction**: Determine which direction perpendicular to their current base structure offers the greatest vulnerability, considering where they have fewest base points, narrowest stance, or least ability to post defensively
@@ -270,28 +270,28 @@ Off-Balancing represents the fundamental principle of disrupting an opponent's s
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting technical sweeps or takedowns without first establishing off-balancing pressure
+## Common Mistakes
+- **Mistake**: Attempting technical sweeps or takedowns without first establishing off-balancing pressure
   - **Consequence**: Technical movements fail against stable, well-based opponents who can easily defend purely mechanical attempts without the prerequisite balance disruption that makes techniques effective
   - **Correction**: Always establish meaningful off-balancing pressure before executing technical finishes, ensuring opponent's base is compromised and their stability is degraded before committing to sweep or takedown mechanics
-- **Error**: Applying off-balancing pressure in directions where opponent has strong structural support
+- **Mistake**: Applying off-balancing pressure in directions where opponent has strong structural support
   - **Consequence**: Wasted energy and effort trying to disrupt opponent in directions where their base configuration provides maximum resistance, allowing them to easily maintain balance and potentially counter-attack during failed attempts
   - **Correction**: Carefully assess base geometry before applying pressure, choosing directions perpendicular to their strongest base points and targeting vectors where they have minimal structural support or fewest defensive options
-- **Error**: Using discrete isolated off-balancing attempts rather than persistent progressive pressure
+- **Mistake**: Using discrete isolated off-balancing attempts rather than persistent progressive pressure
   - **Consequence**: Opponent easily recovers between attempts and maintains overall base quality, never experiencing the cumulative degradation that makes them vulnerable to eventual sweeps or takedowns despite repeated efforts
   - **Correction**: Maintain continuous off-balancing pressure through chained attempts and persistent directional forces that progressively degrade base quality over time, creating cumulative effects that eventually overcome defensive capacity
-- **Error**: Failing to redirect attacks when opponent makes defensive base adjustments
+- **Mistake**: Failing to redirect attacks when opponent makes defensive base adjustments
   - **Consequence**: Missing opportunities created by opponent's defensive movements, allowing them to successfully re-establish stable positioning instead of exploiting the temporary vulnerabilities their base recovery efforts create
   - **Correction**: Develop reactive redirection skills that immediately recognize defensive adjustments and capitalize on the directions those adjustments compromise, using their base recovery against them through immediate attack redirection
-- **Error**: Neglecting grip and hook controls that eliminate opponent's base points
+- **Mistake**: Neglecting grip and hook controls that eliminate opponent's base points
   - **Consequence**: Opponent freely posts hands, establishes wide stances, or creates additional base points that provide stability reserves, making off-balancing ineffective despite directional pressure because they can compensate through base expansion
   - **Correction**: Prioritize establishing grips and hooks that actively restrict opponent's ability to post or widen base while applying off-balancing pressure, ensuring your controls eliminate their defensive base options simultaneously with disruption attempts
-- **Error**: Poor timing that applies off-balancing pressure when opponent is statically stable
+- **Mistake**: Poor timing that applies off-balancing pressure when opponent is statically stable
   - **Consequence**: Maximum resistance from opponent who is prepared and positioned to defend balance disruption, requiring excessive force and effort while producing minimal results against their optimally configured base structure
   - **Correction**: Develop timing recognition that identifies transitional moments, weight shifts, and movement phases when opponent's base is temporarily compromised, applying off-balancing pressure during these windows of vulnerability for maximum effectiveness
-- **Error**: Separating off-balancing from technical execution rather than coordinating them
+- **Mistake**: Separating off-balancing from technical execution rather than coordinating them
   - **Consequence**: Gaps between balance disruption and technical finish that allow opponent to recover stability before sweep or takedown mechanics are applied, reducing success rates despite achieving initial off-balancing
   - **Correction**: Practice coordinating off-balancing pressure with technical execution so that disruption and mechanics occur simultaneously, ensuring your sweeping or takedown movements coincide precisely with opponent's maximum instability moment
 
@@ -300,7 +300,7 @@ Off-Balancing represents the fundamental principle of disrupting an opponent's s
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Base Disruption Positional Sparring** (Focus: Building sensitivity to base vulnerabilities and developing the control and pressure application skills necessary for effective balance disruption across multiple positions and scenarios)
 Dedicated rounds where practitioners focus exclusively on achieving off-balancing without necessarily completing sweeps or takedowns, developing the ability to consistently compromise opponent's base structure
 
@@ -325,7 +325,7 @@ Studying competition footage of elite practitioners executing successful sweeps 
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes when they have been off-balanced but struggles to identify what created the balance disruption
 - Attempts sweeps and takedowns primarily through mechanical execution without establishing prerequisite off-balancing pressure
@@ -360,7 +360,7 @@ Studying competition footage of elite practitioners executing successful sweeps 
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Base Maintenance]] (Principle) - Opposing principle that reveals base vulnerabilities through understanding of stability requirements
 - [[Sweep Mechanics]] (Principle) - Technical application layer that capitalizes on off-balancing through specific mechanical execution
@@ -380,7 +380,7 @@ Studying competition footage of elite practitioners executing successful sweeps 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Off-balancing represents the systematic application of biomechanical leverage principles where we identify opponent's base geometry and apply directional kuzushi precisely perpendicular to their available support structures. The most common error in sweeping and takedown sequences is attempting technical execution without first establishing genuine balance disruption - practitioners must understand that techniques succeed not through mechanical perfection alone, but through the prerequisite creation of instability that makes those mechanics effective against resistance. I teach position-specific base vulnerabilities as a systematic framework where each guard variation and standing scenario has predictable directions of least structural resistance that can be exploited through proper grip configuration and pressure application. The integration of off-balancing with technical execution must become automatic - your sweeping mechanics should coincide precisely with the moment of maximum balance disruption rather than occurring as discrete sequential phases.
 - **Gordon Ryan**: In competition, off-balancing is a continuous tactical process rather than a discrete setup phase - I focus on what I call cumulative kuzushi where persistent pressure progressively degrades opponent's base quality over time until they become vulnerable to finishing sequences. Elite competitors don't wait for perfect off-balancing opportunities but rather create those opportunities through persistent tactical pressure combined with mental pressure that forces opponents into defensive decision-making. When I'm attacking from guard positions, I'm constantly applying directional forces that make my opponent choose between maintaining perfect base and defending my offensive threats - this creates a dilemma where their base recovery efforts often create the exact vulnerabilities I need for successful sweeps. The key insight is that off-balancing effectiveness increases dramatically when you learn to use opponent's defensive adjustments against them through immediate reactive redirection rather than fighting their strongest defensive configurations.
 - **Eddie Bravo**: Within the 10th Planet system, we've developed specialized off-balancing approaches that utilize unconventional angles and leverage points, particularly through rubber guard controls that manipulate opponent's posture and base simultaneously rather than sequentially. What I call invisible kuzushi involves subtle incremental disruptions that accumulate into significant base compromise without obvious large movements that telegraph your intentions - you're constantly making micro-adjustments that degrade their stability while they're focused on defending your more obvious threats. Creative off-balancing violates conventional directional expectations by attacking in unexpected vectors that exploit opponent's base maintenance instincts against them - when they're prepared to defend the obvious sweep direction, you've already compromised their base in a completely different plane. The innovation in modern guard play comes from recognizing that off-balancing doesn't have to follow traditional pushing and pulling patterns - sometimes the most effective balance disruption comes from rotational forces, spiral movements, or asymmetric pressures that opponent's defensive programming isn't prepared to handle.

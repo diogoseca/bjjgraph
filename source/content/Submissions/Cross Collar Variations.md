@@ -8,7 +8,7 @@ description: "Master Cross Collar Choke variations in BJJ. Complete safety guide
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Cross Collar Choke variations in BJJ. Complete safety guide
 
 
 
-> **Quick Answer**: Cross Collar Variations is a blood choke targeting the Carotid arteries and blood flow to brain. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke - apply slowly over 3-5 seconds and release immediately upon tap.
+> Cross Collar Variations is a blood choke targeting the Carotid arteries and blood flow to brain. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="safety-considerations" class="content-section">
 
-## Is Cross Collar Variations Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -212,7 +212,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - **Grip Depth and Placement**: Four fingers deep inside the collar with thumb outside creates maximum leverage and prevents easy grip breaks
 - **Crossing Mechanics**: The choking power comes from the cross pattern—one hand high, one hand low, creating scissoring pressure on the carotid arteries
 - **Elbow Position**: Elbows should be tight to the body and pointing down, not flaring out, to maximize leverage and prevent opponent's defensive framing
@@ -226,7 +226,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Secure deep collar grips with at least one hand four fingers deep into opponent's collar
 - Break opponent's posture by pulling them forward and down to prevent defensive framing
 - Control opponent's ability to create space by maintaining tight hip connection
@@ -240,7 +240,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish primary grip**: Insert your dominant hand four fingers deep into opponent's collar on the opposite side (right hand to left collar or vice versa). The thumb stays outside the collar while fingers curl deep inside against their neck. This first grip is critical—it must be deep enough that opponent cannot easily strip it. Pull down slightly to break their posture and prevent them from sitting up or creating distance. (Timing: Take 2-3 seconds to secure grip depth) [Pressure: Light]
 2. **Break posture completely**: Using your primary grip and your legs (if in guard) or body weight (if on top), pull opponent's head down and forward into your chest or the mat. Their spine should be rounded and their head should be lower than their hips. This broken posture is essential—without it, they can create frames and prevent your second grip. Control their head by pulling it to your chest or shoulder. (Timing: Maintain constant pulling pressure for 2-3 seconds) [Pressure: Moderate]
 3. **Clear defensive grips**: Before attempting your second grip, identify and strip any defensive grips opponent has on your sleeves or collar. Use your free hand to peel their fingers off or use circular motions to break their grip structure. This step is often overlooked but critical—if opponent controls your second hand, they can prevent the finish. Be patient and systematic in clearing these obstacles. (Timing: 1-2 seconds per grip strip) [Pressure: Moderate]
@@ -253,7 +253,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Gripping your sleeves to prevent second hand from reaching collar** (Effectiveness: High) - Your Adjustment: Strip their grips systematically by peeling fingers off or using circular hand motions. Be patient—establish dominant collar grip first, then address their sleeve grips before attempting second collar grip. Use your weight to pin their arms if possible.
 - **Creating strong frames with arms to push away and prevent posture break** (Effectiveness: High) - Your Adjustment: Attack the choke when they're already compromised—during passing attempts, after failed sweeps, or when they're focused on other attacks. Use your legs (in guard) or body weight (on top) to overwhelm their frames. Break down one arm at a time rather than fighting both simultaneously.
 - **Tucking chin tightly to protect neck and prevent collar access** (Effectiveness: Medium) - Your Adjustment: Attack over the chin—the choke still works even with their chin tucked, it just requires deeper grips and more pressure. Alternatively, use the chin-trap variation where you intentionally include their chin in the choke, creating extreme discomfort. Never try to forcefully remove their chin as this can cause injury.
@@ -263,28 +263,28 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting second grip before securing first grip deeply enough [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting second grip before securing first grip deeply enough [Low DANGER]
   - **Consequence**: Opponent easily strips your shallow first grip while you're focused on second grip, losing entire submission setup and wasting energy
   - **Correction**: Be patient and methodical—spend extra time ensuring your first grip is four fingers deep and cannot be stripped. Only then move to second grip. Quality over speed in grip establishment.
-- **Error**: Applying pressure directly on windpipe instead of carotid arteries [CRITICAL DANGER]
+- **Mistake**: Applying pressure directly on windpipe instead of carotid arteries [CRITICAL DANGER]
   - **Consequence**: Creates air choke that takes much longer to finish, causes unnecessary discomfort, and risks trachea damage. Partner may not tap in time due to panic or stubbornness.
   - **Correction**: Always target the sides of the neck where carotid arteries are located. Your collar grips should compress from sides, not front. If opponent is coughing or making choking sounds, you're on windpipe—adjust immediately.
-- **Error**: Elbows flaring out away from body during finish [Medium DANGER]
+- **Mistake**: Elbows flaring out away from body during finish [Medium DANGER]
   - **Consequence**: Loses all leverage and allows opponent to create frames between your arms and their body. The choke becomes weak and easily defended despite having good grips.
   - **Correction**: Keep elbows pinned tightly to your own body throughout the finish. Think of pulling your elbows toward your own hips while spreading them horizontally. This creates maximum leverage on the collar grips.
-- **Error**: Forgetting to break opponent's posture before attempting finish [Medium DANGER]
+- **Mistake**: Forgetting to break opponent's posture before attempting finish [Medium DANGER]
   - **Consequence**: Opponent maintains strong upright posture, can easily defend with frames and hand fighting, and may even pass your guard or escape position while you're focused on grips
   - **Correction**: Always break posture first using your primary grip combined with legs or body weight. Opponent's head should be pulled down to your chest or the mat before you attempt second grip. No posture break equals no submission.
-- **Error**: Pulling collars outward away from opponent's neck instead of in opposite diagonal directions [Medium DANGER]
+- **Mistake**: Pulling collars outward away from opponent's neck instead of in opposite diagonal directions [Medium DANGER]
   - **Consequence**: Opens up space around opponent's neck rather than closing it, completely negating the choking mechanism. Opponent feels no pressure despite your grips being correct.
   - **Correction**: Pull your grips in opposite diagonal directions while keeping elbows tight—one high hand pulls up and across, low hand pulls down and across. This creates scissoring compression on the neck. Visualize closing a scissor rather than opening a door.
-- **Error**: Continuing to apply pressure after partner taps or goes limp [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or goes limp [CRITICAL DANGER]
   - **Consequence**: Can cause unconsciousness, injury, or serious harm. Violates fundamental training safety protocols and may result in being removed from academy.
   - **Correction**: Develop automatic release response—the instant you feel a tap or any loss of resistance, immediately release all pressure on the collar. Practice this response during drilling to make it instinctive. Safety is always first priority.
-- **Error**: Gripping with thumbs inside the collar [Low DANGER]
+- **Mistake**: Gripping with thumbs inside the collar [Low DANGER]
   - **Consequence**: Drastically reduces grip strength and makes stripping the grip extremely easy for opponent. Also reduces leverage for applying choking pressure.
   - **Correction**: Always grip with four fingers inside collar and thumb outside. This creates much stronger grip structure and better leverage for the finish. Thumb outside also allows you to use thumb pressure for additional control.
 
@@ -293,7 +293,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Two-Handed Cross Collar from Closed Guard**: The fundamental version executed from bottom closed guard. Both hands grip opposite collars, one high near the neck and one low near the chest. Break opponent's posture by pulling them down with grips and squeezing with legs, then finish by spreading elbows horizontally while arching hips upward. This is the highest-percentage variation for beginners to learn. (When to use: When opponent is in your closed guard and you can break their posture down to your chest. Particularly effective when they're focused on passing or have their hands on the mat for base.)
 
 **Cross Collar from Mount**: From mounted position, slide one hand deep into opponent's far collar, then establish second grip on same side but different height. Drive your chest down toward their face while pulling grips in opposite directions. The mount provides excellent weight advantage for breaking posture and preventing escape. Can transition to high mount for even better angle. (When to use: From dominant mount position when opponent is defensive and not actively escaping. Excellent when they're focused on preventing other attacks like armbars, as the collar grips can be established while they defend other submissions.)
@@ -340,7 +340,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Grip Development** (Weeks 1-2, 30 minutes per session)
 - Focus: Learning proper grip depth, collar identification, and hand positioning without any submission pressure. Partner remains completely stationary while you practice establishing grips from various positions. Focus on feeling the depth of grips and understanding where carotid arteries are located versus windpipe.
 - Resistance: Zero resistance
@@ -377,7 +377,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Mount]]
@@ -393,7 +393,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Cross Collar Choke]]
 - [[Ezekiel Choke]]
@@ -436,7 +436,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The cross collar choke represents a perfect case study in mechanical efficiency and leverage principles that define effective Brazilian Jiu-Jitsu. The fundamental mechanism is beautifully simple: by creating a crossing pattern with the gi lapels at different heights, you generate a scissoring compression that simultaneously attacks both carotid arteries from opposing angles, making it nearly impossible for the opponent to relieve pressure by turning their head in either direction. The critical technical element that most practitioners overlook is the relationship between elbow position and choking leverage—when your elbows remain tight to your body and pull in opposite diagonal directions, you maximize the transmission of force through the collar material into the sides of the neck. Conversely, when elbows flare outward, you lose approximately seventy percent of your leverage regardless of grip quality. From a safety perspective, the cross collar choke is one of the safest submissions when properly applied because it targets blood flow rather than airway, inducing unconsciousness rapidly and reversibly within five to eight seconds with no lasting effects when released immediately. However, improper application targeting the windpipe can cause serious trachea damage, which is why grip placement on the sides of the neck is absolutely non-negotiable. The submission's versatility across multiple positions—from guard to mount to back control—makes it an essential component of any complete gi-based attacking system, and its effectiveness against opponents of all sizes makes it particularly valuable for smaller practitioners who understand leverage principles.
 - **Gordon Ryan**: Cross collar chokes are absolutely fundamental to gi competition, and the difference between sport application and training application is massive and needs to be understood by everyone practicing this technique. In competition, I'll hold a properly applied cross collar choke for twenty to thirty seconds if necessary because opponents at high levels will try to survive as long as possible before tapping, hoping you'll burn your grips or make a mistake. But in training, you absolutely cannot do this—you need to apply the choke slowly enough that your partner can recognize the danger and tap before any real pressure builds up. The biggest mistake I see competitors make with cross collar chokes is trying to force them from bad positions or without proper setup. In modern high-level competition, everyone knows the basic defenses—sleeve gripping, posture fighting, chin tucking—so you can't just grab collars and expect it to work. You need to set it up as part of combination attacks. My approach is using collar grips to break posture and threaten the choke, which forces opponents to defend with their hands, which then opens up armbars, triangles, and other attacks. When they focus on those submissions, the collar choke becomes available again. The mount variation is particularly high-percentage in competition because your weight makes it nearly impossible for opponents to create the frames they need to defend, and you can transition between collar chokes and other mount attacks very fluidly. One crucial competition detail: if you're going to attack cross collar chokes, your entire guard and top game needs to be built around establishing and maintaining collar grips early, because waiting until the perfect moment to grab collars rarely works against good opposition. But again, in training, we need to be extra careful with these because they're so effective—tap early when caught, release immediately when you feel the tap, and never use these techniques to prove anything or assert dominance in the gym.
 - **Eddie Bravo**: The traditional cross collar choke is definitely fundamental, but what interests me more is how we can innovate on it and integrate it into no-gi conceptual frameworks even though it requires the gi. At 10th Planet we obviously focus primarily on no-gi, but when we do train in the gi, we approach collar chokes with a different mentality than traditional Brazilian Jiu-Jitsu schools. Instead of seeing the cross collar as a standalone fundamental technique, we see it as part of a larger system of dilemma creation and combination attacks. The opponent has to make choices—defend the collar grips or defend position, protect their neck or protect their arms, maintain posture or prevent sweeps. Every choice they make should open up something else for you. What I love about the gi environment is how it slows the game down and forces you to think about grips and control in ways that translate back to no-gi through conceptual understanding. The cross collar choke teaches you about angle creation, pressure management, and creating convergent attack systems where multiple submissions threaten simultaneously. One innovation we've explored is using collar grips from rubber guard positions, where traditional schools might focus only on triangles and omoplatas—the collar grips from mission control or New York can create extremely tight chokes because your legs control their posture completely. From a safety culture perspective, which is huge for us at 10th Planet, the cross collar choke is great for teaching new students about the difference between pressure submissions and crank submissions, and how to apply controlled pressure progressively. We drill these extensively with the specific instruction to apply them over ten to fifteen seconds in training, which builds muscle memory for controlled application. Too many schools just let students rip submissions in live training without building that control first, which leads to injuries and people not tapping when they should because they don't trust their training partners. Building a culture where everyone applies submissions slowly and releases immediately on the tap is absolutely essential for longevity in this sport.

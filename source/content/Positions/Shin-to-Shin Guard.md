@@ -13,10 +13,6 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
 
 
 
-> **Quick Overview**: Shin-to-Shin Guard represents a sophisticated intersection between traditional open guard concepts and modern leg entanglement systems. This position is characterized by the guard player placing their...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,31 +48,19 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Medium to Long |
 
-**What Makes This Position Unique:** Perpendicular shin connection for sweeps
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Shin-to-Shin Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Shin-to-Shin Guard/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Perpendicular shin connection for sweeps
 
 
 
@@ -84,10 +68,13 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 <section id="bottom-summary" class="content-section">
 
-## Shin-to-Shin Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Shin-to-Shin Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in shin-to-shin guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -142,7 +129,7 @@ The bottom player in shin-to-shin guard balances defensive frames with offensive
   - Success Rate: Beginner 28%, Intermediate 46%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Passive shin connection with insufficient pressure and angle adjustment, treating the position as static holding pattern**
@@ -174,16 +161,17 @@ The bottom player in shin-to-shin guard balances defensive frames with offensive
   - ✅ Correction: Keep free leg mobile and actively managed, using it to frame against opponent's body, post for base, or establish secondary connections while denying them grips that could compromise position
 
 
-👉 **[[Shin-to-Shin Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Shin-to-Shin Guard Top Perspective
+
+## Playing as Top
+
+[[Shin-to-Shin Guard/Top|→ Full Top Guide]]
 
 
-The top player in shin-to-shin guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -232,7 +220,7 @@ The top player in shin-to-shin guard enjoys offensive advantages with access to 
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to drive forward with pressure directly through the shin connection without first clearing or neutralizing it**
@@ -263,8 +251,6 @@ The top player in shin-to-shin guard enjoys offensive advantages with access to 
   - Consequence: Predictable passing becomes easy to defend as opponent recognizes patterns and can prepare appropriate defensive reactions or counters
   - ✅ Correction: Vary clearing methods and passing approaches, mixing circling patterns, pressure timing, and attack angles to keep opponent guessing and prevent pattern recognition
 
-
-👉 **[[Shin-to-Shin Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

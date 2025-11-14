@@ -8,7 +8,7 @@ description: "Master the Peruvian Necktie in BJJ. Complete guide with safety pro
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Peruvian Necktie in BJJ. Complete guide with safety pro
 
 
 
-> **Quick Answer**: Peruvian Necktie is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Peruvian Necktie is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="safety-considerations" class="content-section">
 
-## Is Peruvian Necktie Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -213,7 +213,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Front headlock control must be established before attempting the submission
 - The leg threading creates the fulcrum that amplifies choking pressure
 - Forearm placement across the neck targets carotid arteries, not trachea
@@ -227,7 +227,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent is in turtle, combat base, or building up from bottom
 - You have established a front headlock control with one arm around the neck
 - Opponent's near arm is trapped or controlled to prevent defensive posting
@@ -241,7 +241,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish Front Headlock Control**: From opponent's turtle or combat base, secure a tight front headlock with your choking arm wrapped around their neck. Your forearm should be positioned across the side of the neck targeting the carotid artery, not crushing the trachea. Your opposite hand controls their far shoulder or reaches under their body for additional control. Maintain heavy shoulder pressure driving down onto their neck to prevent them from standing or turning away. (Timing: Initial setup phase) [Pressure: Moderate]
 2. **Trap the Near Arm**: As you maintain the front headlock, use your body position to trap the opponent's near arm (same side as your choking arm) against their own neck. This is accomplished by driving your chest and shoulder pressure down while keeping their arm pinned. The trapped arm becomes part of the choking mechanism and prevents defensive hand fighting. Ensure the arm is trapped high near their neck, not down by their torso, as this creates the proper angle for the leg thread. (Timing: Setup phase - 1-2 seconds) [Pressure: Firm]
 3. **Thread Your Near Leg Through**: This is the defining movement of the Peruvian Necktie. Take your near leg (same side as your choking arm) and thread it between the opponent's head and their trapped arm. Your shin should pass through this gap with your foot ending up near or past their far shoulder. This requires hip flexibility and precise body positioning. As you thread the leg, maintain constant pressure with your choking arm and keep your chest heavy on their upper back. The leg threading creates the mechanical advantage that makes this choke so powerful. (Timing: Critical transition - 2-3 seconds) [Pressure: Firm]
@@ -254,7 +254,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent attempts to posture up and create space before leg thread** (Effectiveness: High) - Your Adjustment: Maintain heavy shoulder pressure and use your free hand to post on their far shoulder or hip to prevent them from rising. Sprawl your hips back slightly to add weight while keeping the front headlock tight.
 - **Opponent pulls their trapped arm free before you lock the triangle** (Effectiveness: High) - Your Adjustment: If they free the arm, immediately transition to standard guillotine, darce, or anaconda choke variations. You can also use the momentum of their arm pull to transition to their back or sweep them to mount.
 - **Opponent turns into you during the leg threading phase** (Effectiveness: Medium) - Your Adjustment: If they turn in, continue your rotation in the same direction and transition to a mounted triangle or front headlock from guard. The turning motion can actually help you establish the mounted position with the choke partially locked.
@@ -264,28 +264,28 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying the choke too quickly or jerking the neck [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying the choke too quickly or jerking the neck [CRITICAL DANGER]
   - **Consequence**: High risk of neck injury, trachea damage, or causing panic in training partner
   - **Correction**: Always apply progressive pressure over 3-5 seconds in training. Focus on body positioning and mechanical advantage rather than explosive force. Safety in training builds trust and allows for proper technical refinement.
-- **Error**: Threading the leg too low on the opponent's back instead of through the gap near their neck [Low DANGER]
+- **Mistake**: Threading the leg too low on the opponent's back instead of through the gap near their neck [Low DANGER]
   - **Consequence**: No choking pressure generated, opponent easily escapes, you're off-balance
   - **Correction**: Ensure your leg threads through the small gap between their head and trapped arm, with your shin ending up high across the back of their neck and shoulders, not down on their mid-back.
-- **Error**: Failing to trap the near arm securely before threading the leg [Medium DANGER]
+- **Mistake**: Failing to trap the near arm securely before threading the leg [Medium DANGER]
   - **Consequence**: Opponent uses the free arm to defend, prevent the leg thread, or escape the position entirely
   - **Correction**: Use shoulder and chest pressure to pin the opponent's near arm against their own neck before attempting to thread your leg. The arm must be completely trapped and immobilized for the technique to work.
-- **Error**: Locking the triangle too loose or too far from the neck [Low DANGER]
+- **Mistake**: Locking the triangle too loose or too far from the neck [Low DANGER]
   - **Consequence**: No effective choking pressure, opponent easily escapes by pulling their head out
   - **Correction**: Lock your triangle high and tight on the neck, not on the shoulders or upper back. Your hips should be close to their head, creating a tight configuration. Adjust and re-adjust until the triangle feels locked solidly in place.
-- **Error**: Forgetting to rotate the hips during the finishing sequence [Low DANGER]
+- **Mistake**: Forgetting to rotate the hips during the finishing sequence [Low DANGER]
   - **Consequence**: Minimal choking pressure despite proper setup, opponent survives and escapes
   - **Correction**: Hip rotation is essential for finishing this choke. After locking the triangle, actively rotate your hips away from the opponent while driving your shoulder down. This scissoring motion creates the bilateral carotid compression needed to finish.
-- **Error**: Placing forearm directly on trachea instead of targeting carotid arteries [CRITICAL DANGER]
+- **Mistake**: Placing forearm directly on trachea instead of targeting carotid arteries [CRITICAL DANGER]
   - **Consequence**: Causes pain and potential trachea injury but ineffective blood choke, opponent may not tap despite injury
   - **Correction**: Position your forearm across the side of the neck targeting the carotid artery, not crushing straight down on the trachea. This is a blood choke, not an air choke. Proper carotid compression causes rapid unconsciousness with less pain.
-- **Error**: Releasing pressure when opponent shows initial resistance or begins to roll [Low DANGER]
+- **Mistake**: Releasing pressure when opponent shows initial resistance or begins to roll [Low DANGER]
   - **Consequence**: Opponent escapes a properly locked submission due to premature abandonment of the technique
   - **Correction**: Once the choke is locked, maintain constant pressure and follow the opponent's movement while keeping the submission intact. The Peruvian Necktie can be maintained through various opponent movements if you stay connected and adjust your body position.
 
@@ -294,7 +294,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Peruvian Necktie from Turtle Attack**: The most common entry where opponent is in defensive turtle position. You establish front headlock control from top turtle, trap their near arm, and execute the standard leg threading sequence. This variation works particularly well after failed guillotine attempts or during scrambles from guard. (When to use: When opponent turtles to defend guard passes, after takedowns, or during scrambles where they assume a defensive shell position)
 
 **Peruvian Necktie from Failed Takedown Defense**: When opponent shoots a takedown and you sprawl successfully, you may end up in a front headlock position with their head trapped. If they're on their knees trying to recover, this creates an ideal opportunity for the Peruvian Necktie. The leg threading is easier because their posture is already compromised from the failed takedown. (When to use: After successfully defending single or double leg takedowns when opponent remains on their knees with you controlling front headlock position)
@@ -337,7 +337,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (1-2 weeks)
 - Focus: Learn proper front headlock control, arm trapping mechanics, and leg threading geometry without any submission pressure. Use cooperative drilling to understand body positioning and the spatial relationships required for the technique.
 - Resistance: Zero resistance
@@ -374,7 +374,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Turtle]]
@@ -389,7 +389,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[Darce Choke]]
@@ -427,7 +427,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Peruvian Necktie represents an elegant solution to the problem of finishing from front headlock when traditional guillotine mechanics are unavailable. What makes this submission particularly interesting from a systematic perspective is the way it transforms a defensive arm trap into an offensive weapon - the opponent's own trapped arm becomes part of the choking structure itself. The leg threading creates a mechanical advantage that doesn't rely on arm strength, making it accessible to smaller practitioners against larger opponents. Biomechanically, the bilateral carotid compression comes from multiple vectors simultaneously - your choking arm from one angle, your shin from another, and the opponent's own trapped arm creating rigidity that prevents escape. The critical detail most practitioners miss is the importance of hip rotation in the finishing sequence. Without proper hip rotation creating that scissoring effect with your legs, you simply have a control position rather than a submission. From a safety perspective, this is a blood choke that should be applied with exceptional care in training. The trapped configuration means your partner has limited ability to tap with their hands, so you must be hyper-vigilant for verbal taps or any signs of distress. Always prioritize your training partner's safety over completing the submission in practice. The technical precision required makes this an intermediate to advanced technique - ensure students have solid fundamentals in front headlock control and submission safety protocols before introducing this powerful finishing mechanism.
 - **Gordon Ryan**: I use the Peruvian Necktie primarily in scramble situations and against opponents who habitually turtle to defend. In competition, the window of opportunity for this submission is narrow but the finish rate is extremely high once you lock it properly. The key is recognizing the setup moment - usually when your opponent is building back to their base from turtle or after a failed takedown. You need to be aggressive with the leg thread because hesitation gives them time to free their arm or posture up. One thing I emphasize is the difference between training and competition application. In training, you apply this slowly and release at the tap. In competition, you're looking to apply progressive pressure but opponents at high levels will resist until they're unconscious if the stakes are high enough, so you need to be technical rather than just squeezing hard. I've finished multiple ADCC and EBI competitors with this choke because it's not commonly studied at the highest levels - most guys focus on defending guillotines and darces but the Peruvian Necktie uses different mechanics. Chain it with your other front headlock attacks. If they defend the guillotine by getting their arm in, that's exactly where you want them for the Peruvian. If they defend the Peruvian by freeing their arm, you transition back to the guillotine or take the back. The submission itself is binary - either you have it locked correctly and they tap, or you don't have it and you transition to something else. Don't waste energy trying to force it if the setup isn't there. Move efficiently between your attacks and eventually you'll catch them in something they can't defend.
 - **Eddie Bravo**: The Peruvian Necktie is one of those submissions that looks wild and complicated but once you understand the geometry it's actually pretty simple and incredibly effective. We drill this a lot at 10th Planet because it fits perfectly into our no-gi front headlock game and it chains beautifully with the Twister system and our turtle attacks. What I love about this choke is that it works in the chaos - when you're in those scramble situations and everything's moving fast, you can snatch this submission before your opponent realizes what's happening. The leg threading is key and that's where people get creative. Some guys thread it differently, some use different triangle configurations, and that's cool - experiment and find what works for your body and game. Safety-wise, this is one you need to respect in the training room. We have a strong safety culture at 10th Planet and with neck submissions like this, you absolutely cannot be reckless. Slow is smooth, smooth is fast. Practice the mechanics slowly until they're second nature, then you can apply it at speed when needed. I've seen too many guys get hurt because someone spiked a choke in training - that's unacceptable. When you're drilling this, communicate with your partner, tap early, and protect each other. That's how we build a team where everyone gets better without getting injured. From a strategic standpoint, hit them with the conventional attacks first - guillotines, darces, anacondas - and when they wise up to those, surprise them with the Peruvian Necktie. It's like the tenth planet in the system - they don't even know it exists until it's too late. Keep innovating, stay safe, and don't be afraid to put your own twist on the technique.

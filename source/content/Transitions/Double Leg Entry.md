@@ -8,7 +8,7 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 
 
 
-> **Quick Answer**: Double Leg Entry transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Double Leg Entry transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Double Leg Entry is a fundamental wrestling-based takedown that serves as a 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Level change must precede forward penetration to avoid telegraphing the attack
 - The penetration step drives deep between opponent's legs to compromise their base
 - Head position on the centerline or outside creates structural control and prevents guillotine exposure
@@ -180,7 +180,7 @@ The Double Leg Entry is a fundamental wrestling-based takedown that serves as a 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish a neutral standing position with squared stance and balanced weight distribution
 - Maintain upright posture to disguise the level change until the moment of execution
 - Control distance management to position yourself within penetration range without alerting opponent
@@ -194,7 +194,7 @@ The Double Leg Entry is a fundamental wrestling-based takedown that serves as a 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Create Setup Opportunity**: Engage in hand fighting or grip exchanges to occupy opponent's attention and hands. Use feints, pushes, or circular movement to create a momentary lapse in defensive awareness. The goal is to disguise the impending level change by keeping opponent's focus on upper body exchanges rather than preparing for low attacks. (Timing: During grip fighting exchange or opponent's forward pressure)
 2. **Execute Level Change**: Drop your hips explosively by bending at the knees and waist while maintaining a straight back. Your head should remain up with eyes on opponent's chest or hips. The level change should be sudden and commit fully - hesitant or gradual dropping telegraphs the attack and allows opponent to sprawl or withdraw. Bring your arms into position with elbows tight to body. (Timing: Explosive drop in single fluid motion (0.2-0.3 seconds))
 3. **Penetration Step**: As you drop levels, drive your lead leg forward in a deep step that places your foot between opponent's feet or slightly beyond centerline. The step should be long and low, with your knee nearly touching the mat. This penetration step commits your body weight forward and positions you to attack both legs simultaneously. Your hips should drive forward and down. (Timing: Immediately following level change - one continuous motion)
@@ -207,7 +207,7 @@ The Double Leg Entry is a fundamental wrestling-based takedown that serves as a 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Sprawl Defense - opponent drives hips back and down while pushing head to mat** (Effectiveness: High) - Your Response: Maintain head position and hand control, switch to single leg finish or transition to front headlock position if sprawl is successful. Can also circle out and re-attack or convert to ankle pick.
 - **Guillotine Choke - opponent secures front headlock grip during entry** (Effectiveness: High) - Your Response: Keep head position high and outside, complete the takedown rapidly before guillotine can be locked in, or immediately abandon attack and defend guillotine if head gets trapped low and inside.
 - **Wizard/Whizzer Overhook - opponent secures deep overhook on attacking arm** (Effectiveness: Medium) - Your Response: Continue driving forward with one-armed finish, or switch to high crotch position using the trapped arm as a post. Can also step around to opponent's back using the whizzer as a pivot point.
@@ -217,28 +217,28 @@ The Double Leg Entry is a fundamental wrestling-based takedown that serves as a 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Dropping head below opponent's hips during entry
+## Common Mistakes
+- **Mistake**: Dropping head below opponent's hips during entry
   - **Consequence**: Exposes neck to guillotine choke and removes structural drive from the position, allowing opponent to easily sprawl and defend
   - **Correction**: Keep head up with eyes on opponent's chest/hips, and drive forehead into their midsection. Head should be the highest point of contact initially, providing upward pressure against their center of gravity.
-- **Error**: Telegraphing the level change by dropping hips gradually or looking down first
+- **Mistake**: Telegraphing the level change by dropping hips gradually or looking down first
   - **Consequence**: Opponent recognizes the attack and sprawls before penetration can be achieved, resulting in defensive position or guillotine exposure
   - **Correction**: Maintain normal posture until the explosive level change. Use setups, feints, and grip fighting to disguise intent. The level change should appear sudden to the opponent.
-- **Error**: Taking short penetration step that doesn't get between opponent's legs
+- **Mistake**: Taking short penetration step that doesn't get between opponent's legs
   - **Consequence**: Shallow penetration allows opponent to maintain base and defend effectively with sprawl, creating poor finishing position
   - **Correction**: Commit to deep penetration step that places lead knee between or past opponent's feet. The step should be long and low, fully committing body weight forward.
-- **Error**: Reaching for legs before completing level change and penetration
+- **Mistake**: Reaching for legs before completing level change and penetration
   - **Consequence**: Creates bent-over posture with no forward drive, making sprawl defense easy and guillotine entries available
   - **Correction**: Level change and penetration step must occur before arms reach for legs. The sequence is: level change → penetrate → secure legs, not reach first.
-- **Error**: Grabbing only one leg or failing to secure both legs simultaneously
+- **Mistake**: Grabbing only one leg or failing to secure both legs simultaneously
   - **Consequence**: Opponent can post with free leg, circle away, or counter with strikes/submissions. Single leg control requires different finishing mechanics
   - **Correction**: Both arms must wrap around both legs with hands connecting behind knees/thighs. If only one leg is available, immediately transition to single leg technique rather than forcing double leg finish.
-- **Error**: Stopping forward drive after initial penetration
+- **Mistake**: Stopping forward drive after initial penetration
   - **Consequence**: Allows opponent to recover base, defend the position, or counter-attack with submissions or reversals
   - **Correction**: Maintain continuous forward pressure and hip drive throughout the entire entry and finishing sequence. The double leg is dynamic, not static - cessation of drive equals failure.
-- **Error**: Rising up before securing leg control
+- **Mistake**: Rising up before securing leg control
   - **Consequence**: Creates space for opponent to withdraw legs, sprawl effectively, or attack with guillotine/kimura
   - **Correction**: Stay low throughout the entry until both legs are secured and controlled. Only elevate during the finish phase when leg control is already established.
 
@@ -247,7 +247,7 @@ The Double Leg Entry is a fundamental wrestling-based takedown that serves as a 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Level change, penetration step, and head position without resistance
 Practice the level change and penetration step repeatedly from standing position without a partner. Focus on explosive dropping motion with straight back and proper foot placement. Partner drills with stationary opponent allowing you to execute entry slowly, checking each detail: level change depth, penetration step length, head position, and hand placement. No resistance - purely technical repetition to build muscle memory.
 (Resistance: None)
@@ -278,7 +278,7 @@ Continue refining entry mechanics for specific opponent types (taller, shorter, 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Outside Step Double Leg Entry**: Penetration step goes outside opponent's lead leg rather than between legs, creating angle and reducing guillotine exposure. Head position goes to outside of opponent's hip. Particularly effective against taller opponents or those with strong front headlock defense. (When to use: Against opponents with active guillotine threats or when opponent's stance is narrow)
 
 **Low Single to Double Leg Conversion**: Initial attack targets single leg with low penetration, then quickly converts to double leg control as opponent defends. Uses opponent's single leg defensive reactions (whizzer, hop-back) to facilitate double leg entry. Effective deception technique that exploits single leg preparation. (When to use: Against opponents who defend double legs effectively but have weaker single leg defense)
@@ -320,7 +320,7 @@ Continue refining entry mechanics for specific opponent types (taller, shorter, 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Double leg entries carry inherent risks that must be managed through proper technique and training progression. The primary safety concern is guillotine choke exposure - improper head position or premature reaching for legs creates immediate submission vulnerability. Always maintain head position awareness and drill defensive guillotine responses. During training, partners should apply guillotine pressure slowly to allow recognition and escape rather than sudden application. For the person being taken down, learning to breakfall properly is essential - landing with arms extended can cause wrist, elbow, or shoulder injuries. Practice taking the fall by turning to the side, distributing impact across back/shoulder, and keeping chin tucked. When drilling entries, the defending partner should allow controlled completion rather than explosive counter-resistance that can lead to knee injuries, muscle strains, or collision injuries. Progress resistance gradually over weeks rather than immediately applying full defensive intensity. For both practitioners, ensuring adequate mat space and awareness of walls, other students, or obstacles prevents collision injuries during dynamic takedown practice. Knee health is paramount - penetration steps place significant stress on the lead knee, so proper warm-up, gradual intensity progression, and attention to any knee pain is critical.
 
@@ -328,7 +328,7 @@ Double leg entries carry inherent risks that must be managed through proper tech
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The double leg entry serves as a foundational transition from standing engagement to ground control, functioning as a critical bridge technique in the overall BJJ positional hierarchy. From a strategic perspective, the double leg entry is typically attempted from neutral standing position or various clinch configurations where neither player has established dominance. Successful execution leads to several advantageous ground positions depending on finishing mechanics: Front Headlock if opponent defends with sprawl but you maintain head control, Side Control or Half Guard if the takedown is completed with traditional drive-through finish, or even direct Back Control if opponent turns away during the takedown. The entry itself can be chained with other takedown attempts - if the double leg is defended, common transitions include converting to single leg attacks, transitioning to front headlock snap downs, or re-establishing standing position to reset. Understanding these positional relationships allows the practitioner to view the double leg entry not as an isolated technique but as part of a comprehensive standing-to-ground transition system. The technique also integrates with broader strategic concepts including controlling engagement distance, dictating pace of the match, and forcing opponent reactions that create additional offensive opportunities. In competition contexts, the double leg entry is often used to secure takedown points, establish top position for the remainder of the match, or force guard-pulling opponents to engage in standing exchanges. Modern BJJ increasingly emphasizes wrestling competency, making the double leg entry a fundamental skill that separates well-rounded grapplers from guard-specialist players.
 
@@ -336,7 +336,7 @@ The double leg entry serves as a foundational transition from standing engagemen
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Double Leg Setup]] - Prerequisite technique - establishes grips and positioning before entry
 - [[Double Leg Finish]] - Follow-up technique - completes the takedown after successful entry
@@ -354,7 +354,7 @@ The double leg entry serves as a foundational transition from standing engagemen
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The double leg entry represents a fundamental study in the physics of human balance and structural integrity. When we analyze this technique from a biomechanical perspective, we observe that the human body maintains standing balance through a base of support defined by foot placement. The double leg entry's strategic brilliance lies in its simultaneous attack on both pillars of this base, creating a mechanical impossibility for the opponent to maintain upright posture once proper penetration is achieved. The level change must be understood not as a preparatory movement but as the actual initiation of the attack - it functions to lower your center of gravity below your opponent's, establishing the leverage differential required for successful execution. The penetration step serves to bisect opponent's base while positioning your center of mass inside their defensive perimeter, creating geometric advantages that overwhelm structural defensive capabilities. Head position deserves particular emphasis: it must provide upward pressure against opponent's center of mass while simultaneously protecting the neck from guillotine exposure. This dual function makes head position the single most critical detail determining success or failure. Students must understand that the entry and finish are distinct technical phases - many practitioners fail because they conflate these elements, attempting to finish before entry is secured. Master the entry in isolation, achieving the position where both legs are controlled and opponent's base is comprehensively compromised, then proceed to finishing mechanics as a separate problem-solving exercise.
 - **Gordon Ryan**: In high-level competition, the double leg entry succeeds or fails based on timing and commitment rather than technical perfection. I've found that opponents who defend takedowns effectively are constantly monitoring for the tell-tale signs of level change - any hesitation or gradual dropping motion gets shut down immediately with sprawl defense. The key to high-percentage entries is creating situations where opponent's attention and defensive resources are committed elsewhere: after breaking a grip, during their forward pressure, or immediately following a feint to upper body attacks. What separates competition-effective double legs from practice room technique is the absolute commitment required - you cannot half-step the penetration or ease into the position. The moment you initiate level change, you must explode through the entire sequence with complete commitment because any pause allows defensive reaction. I particularly favor using the double leg entry against opponents who are pressuring forward aggressively or those who have pulled guard unsuccessfully - these moments create the forward weight commitment that makes sprawling nearly impossible. Understanding the risk-reward calculation is critical: double leg entries against defensive specialists with strong guillotine games require different setups and greater head position discipline than entries against less submission-oriented opponents. In my competition preparation, I drill entry mechanics until they become completely automatic, allowing me to recognize and exploit timing windows that exist for fractions of a second during live engagement.
 - **Eddie Bravo**: While traditional wrestling double leg entries are highly effective, I've adapted them for the specific demands of no-gi grappling where submission threats are more accessible and sweat makes traditional control methods less reliable. The key adaptation involves maintaining constant awareness of guillotine exposure - in no-gi, the front headlock choke is available much faster than in gi grappling, so head position discipline becomes absolutely critical. I emphasize to students that the double leg entry in BJJ contexts often serves as a transitional attack rather than a primary finishing technique. What I mean is: the entry creates scramble situations that, for practitioners trained in my system, present opportunities to attack leg entanglements, transition to back attacks, or establish unconventional control positions. When opponent sprawls on your double leg attempt, rather than viewing this as defensive success, I see it as an opportunity to dive under for leg attacks or transition to truck position. The setup phase is where creativity really matters - I've developed numerous feint patterns and grip fighting sequences specific to no-gi that create the split-second openings required for entry. Timing the entry to opponent's breathing patterns, weight shifts, or grip adjustments provides massive advantages. I also encourage students to develop their double leg entry from unconventional positions: from seated guard, during ground-to-standing transitions, or even from bottom positions where opponent stands. The technical mechanics remain consistent but the timing and application become far more dynamic than traditional standing-only approaches.

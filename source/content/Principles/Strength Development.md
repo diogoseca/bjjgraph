@@ -8,7 +8,7 @@ description: "Master strength development for BJJ. Learn functional power traini
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master strength development for BJJ. Learn functional power traini
 
 
 
-> **Quick Answer**: Strength Development is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.
+> Strength Development is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Expert.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Functional strength emphasizes connected, whole-body power rather than isolated muscle development
 - Grip strength and endurance directly correlate with control maintenance and submission success rates
 - Postural strength enables defensive frames and offensive pressure application across all positions
@@ -185,7 +185,7 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Grip Strength and Endurance**: The ability to maintain controlling grips on gi fabric, wrists, or body parts under sustained resistance. Includes both maximum grip strength for establishing initial control and grip endurance for maintaining control throughout extended exchanges. Critical for guard retention, passing control, and submission finishing sequences.
 
 **Core and Postural Strength**: The capacity to maintain rigid spinal alignment and resist torque forces from multiple angles. Essential for creating defensive frames, maintaining base under pressure, executing effective bridges and shrimps, and transferring power efficiently through the kinetic chain during offensive movements.
@@ -208,7 +208,7 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Explosive Power]]** (Complementary): Explosive power represents the rate at which strength can be applied, working synergistically with maximum strength to create rapid force generation for sweeps, escapes, and dynamic transitions.
 - **[[Biomechanical Principles]]** (Prerequisite): Understanding leverage, force vectors, and mechanical advantage allows strength to be applied efficiently through proper body alignment and positioning, multiplying the effectiveness of raw strength.
 - **[[Energy Management System]]** (Complementary): Strength development must be balanced with energy conservation strategies—knowing when to apply maximum force versus when to use minimal strength with superior positioning prevents premature fatigue.
@@ -227,7 +227,7 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Grip strength maintains sleeve and collar control, core strength enables hip movement and posture breaking, pulling strength closes distance and controls opponent's upper body, leg strength maintains closed guard position and creates sweeping force.
 
 **Mount**: Isometric strength maintains weight distribution and base, core strength resists bridge and roll attempts, pressing strength creates forward pressure for submission setups, hip strength maintains high mount position against escape attempts.
@@ -264,7 +264,7 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess position-specific strength demands and current limitations**: Identify which strength qualities (maximum strength, strength endurance, explosive power, isometric strength) are most relevant to improving performance in specific positions or situations where technical gaps exist.
 2. **Evaluate technical efficiency versus strength application**: Determine if performance limitations stem from lack of strength or from inefficient technique—prioritize technical refinement before increasing strength training volume, as improved mechanics multiply strength effectiveness.
 3. **Design periodized training program balancing strength and skill development**: Structure training blocks emphasizing general strength development during off-season periods while reducing strength volume during competition phases to prioritize technical training and recovery.
@@ -277,28 +277,28 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Prioritizing maximum strength development over technical efficiency and positional understanding
+## Common Mistakes
+- **Mistake**: Prioritizing maximum strength development over technical efficiency and positional understanding
   - **Consequence**: Creates over-reliance on muscling through positions rather than developing proper mechanics, leading to premature fatigue, increased injury risk, and performance plateaus against technically superior opponents who neutralize strength advantages through superior positioning.
   - **Correction**: Establish solid technical foundation first, then add strength training as a supplement to enhance already-efficient movement patterns. Use strength to amplify technique, not replace it—focus 70-80% of training time on skill development and 20-30% on strength and conditioning.
-- **Error**: Neglecting grip strength and endurance training in favor of general bodybuilding exercises
+- **Mistake**: Neglecting grip strength and endurance training in favor of general bodybuilding exercises
   - **Consequence**: Develops aesthetically impressive but functionally limited strength that doesn't translate to maintaining control during live rolling. Experiences rapid grip fatigue during extended guard retention or control sequences, forcing premature position abandonment despite having adequate overall strength.
   - **Correction**: Incorporate specific grip training including gi pull-ups, farmers carries with thick implements, dead hangs, and grip-intensive rope climbing. Train grip endurance through timed holds and high-repetition exercises that mimic the sustained gripping demands of extended positional control.
-- **Error**: Training exclusively with high-intensity, low-repetition protocols without developing strength endurance
+- **Mistake**: Training exclusively with high-intensity, low-repetition protocols without developing strength endurance
   - **Consequence**: Builds impressive maximum strength for single explosive efforts but lacks the strength endurance required for maintaining control through 5-10 minute rounds or tournament matches with minimal rest between bouts. Experiences rapid strength decline after initial explosive movements.
   - **Correction**: Implement periodization that includes strength endurance phases using moderate loads (60-75% of maximum) for higher repetitions (12-20 reps) and shorter rest periods. Include circuit training, complexes, and conditioning work that requires sustained force production under fatigue.
-- **Error**: Ignoring core and postural strength development in favor of limb-focused exercises
+- **Mistake**: Ignoring core and postural strength development in favor of limb-focused exercises
   - **Consequence**: Creates strength imbalances where extremities can generate force but the core cannot stabilize sufficiently to transfer that force effectively. Results in energy leaks during power generation, inability to maintain rigid frames under pressure, and increased susceptibility to back injuries during dynamic movements.
   - **Correction**: Prioritize anti-rotation exercises (Pallof presses, dead bugs), anti-extension movements (ab wheel rollouts, planks), and loaded carries that challenge spinal stability. Ensure all major lifts are performed with strict bracing and neutral spine positioning to build functional core strength.
-- **Error**: Failing to balance pushing and pulling strength ratios, typically over-developing pressing movements
+- **Mistake**: Failing to balance pushing and pulling strength ratios, typically over-developing pressing movements
   - **Consequence**: Creates shoulder imbalances and postural dysfunction with internally rotated shoulders and protracted scapulae. Increases injury risk to shoulders and elbows while reducing pulling capacity needed for guard control, arm drags, and submission finishing. Develops anterior-dominant strength profile poorly suited to grappling demands.
   - **Correction**: Implement 2:1 or even 3:1 ratio of pulling to pressing volume in strength training. For every set of pressing (bench press, push-ups), perform 2-3 sets of horizontal rowing and vertical pulling. Prioritize rear deltoid and upper back development to maintain shoulder health and grappling-specific strength.
-- **Error**: Neglecting unilateral and rotational strength development through exclusive bilateral exercise selection
+- **Mistake**: Neglecting unilateral and rotational strength development through exclusive bilateral exercise selection
   - **Consequence**: Develops strength that only manifests in symmetrical, predictable movement patterns while grappling occurs in constantly changing, asymmetrical positions. Creates strength deficits in single-leg stance, rotational power generation, and the ability to produce force from compromised positions common in actual rolling.
   - **Correction**: Include single-leg exercises (Bulgarian split squats, single-leg deadlifts), rotational movements (woodchops, landmine rotations), and asymmetrical carries. Train the ability to generate force from unusual positions through crawling patterns, Turkish get-ups, and unilateral loading that challenges stability while producing force.
-- **Error**: Training to absolute muscular failure regularly without accounting for central nervous system fatigue and recovery demands
+- **Mistake**: Training to absolute muscular failure regularly without accounting for central nervous system fatigue and recovery demands
   - **Consequence**: Accumulates excessive fatigue that impairs technical skill execution, increases injury susceptibility, and reduces training quality during subsequent technical sessions. Creates chronic recovery deficit where neither strength nor technical training can be performed at sufficient quality for adaptation, leading to overtraining symptoms and performance decline.
   - **Correction**: Leave 1-2 repetitions in reserve on most strength training sets, reaching true failure only occasionally on final sets of training blocks. Monitor recovery markers including resting heart rate, sleep quality, and performance in technical training. Adjust strength training volume based on ability to maintain technical precision during BJJ sessions.
 
@@ -307,7 +307,7 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **General Physical Preparation (GPP) Foundation** (Focus: Deadlifts, squats, pressing and pulling variations, loaded carries, mobility work, and general conditioning to create robust foundation for advanced training demands and injury prevention.)
 Systematic development of baseline strength, work capacity, and movement quality through fundamental compound exercises and conditioning work. Emphasizes building structural resilience, correcting movement dysfunctions, and establishing sustainable training capacity before advancing to specialized strength development.
 
@@ -332,7 +332,7 @@ Strategic manipulation of training variables across training phases to peak stre
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Relies primarily on arm strength rather than connected whole-body power, frequently experiencing premature grip and arm fatigue during rolling sessions
 - Demonstrates adequate strength in isolated exercises but struggles to generate force from compromised grappling positions or under dynamic resistance
@@ -374,7 +374,7 @@ Strategic manipulation of training variables across training phases to peak stre
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Explosive Power]] (Principle) - Complementary concept focusing on rate of force development and speed-strength, working synergistically with maximum strength to create dynamic force application
 - [[Progressive Resistance Training]] (Principle) - Training methodology providing systematic framework for continuous strength adaptation through proper load progression and periodization principles
@@ -394,7 +394,7 @@ Strategic manipulation of training variables across training phases to peak stre
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The relationship between strength and technical efficiency in jiu-jitsu represents one of the most misunderstood elements of grappling development. Strength, properly understood, is not the enemy of technique—rather, it is the amplifier of technique. The error lies not in developing strength but in attempting to substitute strength for proper mechanical advantage and positional hierarchy. When you examine the physics of grappling, you quickly realize that even perfect leverage creates force multiplication of only 5:1 or 6:1—substantial, but not infinite. Against an opponent with a 50-100 pound weight advantage, even perfect technique requires significant baseline strength to be effective. The key insight is that strength development must be directed toward the specific force production patterns required in grappling: isometric strength for maintaining positions, eccentric strength for controlling opponent movement, and explosive concentric strength for sweeps and takedowns. Generic bodybuilding protocols that isolate muscles in predictable ranges of motion provide minimal transfer to the chaotic, multi-directional forces encountered in live rolling. Instead, prioritize compound movements that develop total body strength, supplemented with position-specific exercises that replicate the exact force vectors and muscle recruitment patterns used in actual grappling situations.
 - **Gordon Ryan**: Strength has been absolutely critical to my competitive success, but not in the way most people think. It's not about being able to bench press more than my opponents or having the biggest muscles—it's about being able to maintain my grips when someone is desperately trying to break them, sustain crushing pressure for an entire match without my control weakening, and finish submissions on opponents who are fighting with everything they have. My strength training is completely focused on these practical applications. I do heavy pulling work because that directly improves my ability to finish heel hooks and maintain back control. I do grip-specific training because losing a grip at the wrong moment can cost you a match. I train my core obsessively because every position in jiu-jitsu requires rock-solid core strength to transfer power efficiently. The biggest mistake I see competitors make is getting strong in ways that don't translate to actual grappling. You can deadlift 500 pounds but if you can't maintain a body triangle for ten minutes straight against a world-class opponent, that strength is useless. Everything in my strength program has a direct line to improving my performance in specific positions or finishing specific submissions. I also think people drastically underestimate how much strength you need at the highest level. When you're competing against the best in the world, everyone has great technique—strength becomes a legitimate differentiator when combined with that technical excellence.
 - **Eddie Bravo**: People get too caught up in this false dichotomy between strength and technique, like you have to choose one or the other. That's complete bullshit. Look at the highest-level competitors in any combat sport—they're all strong as hell AND technically exceptional. The 10th Planet approach recognizes that strength, flexibility, and technique form an integrated system where each element enhances the others. We specifically develop strength that serves our system—we need exceptional grip strength for maintaining lockdown control, powerful hip drive for our sweeping sequences, and the pulling strength necessary for rubber guard positions. But we develop that strength through movements that mimic our actual techniques, not just generic weight room exercises. We do loaded lockdown holds, we practice explosive hip escapes with resistance, we train our rubber guard setups against heavy resistance. This builds strength that's neurologically integrated with our technical movement patterns. The other aspect people miss is that strength gives you options when your technique breaks down or when you're in a bad position. Sometimes you need to muscle your way out of a bad spot to survive—that's reality. The goal is to have both worlds: the technical precision to use minimal strength in most situations, combined with the physical capacity to apply overwhelming force when the situation demands it. That versatility is what makes a complete grappler.

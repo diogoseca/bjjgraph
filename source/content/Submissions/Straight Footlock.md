@@ -8,7 +8,7 @@ description: "Master the Straight Footlock in BJJ. Safety guide with setup and e
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Straight Footlock in BJJ. Safety guide with setup and e
 
 
 
-> **Quick Answer**: Straight Footlock is a ankle lock targeting the Ankle joint and Achilles tendon. ⚠️ **SAFETY**: This technique can cause Ankle ligament sprain or tear (deltoid ligament, lateral collateral ligaments) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Straight Footlock is a ankle lock targeting the Ankle joint and Achilles tendon. ⚠️ **SAFETY**: This technique can cause Ankle ligament sprain or tear (deltoid ligament, lateral collateral ligaments). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="safety-considerations" class="content-section">
 
-## Is Straight Footlock Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Hip positioning and alignment creates the mechanical advantage - hips must be higher than opponent's knee
 - Foot control requires the blade of the forearm across the Achilles tendon, not the bicep or wrist
 - Leg entanglement prevents escape by controlling the opponent's knee line and hip rotation
@@ -225,7 +225,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Control of opponent's foot with proper forearm placement across Achilles tendon
 - Inside leg position controlling opponent's knee line (standard Ashi) or outside position (outside Ashi)
 - Hip positioning higher than opponent's trapped knee joint
@@ -239,7 +239,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish Ashi Garami control**: Secure the leg entanglement with your inside leg crossing over opponent's trapped leg at the hip, your outside leg hooking behind their knee or posted on the mat. Ensure your hips are positioned higher than their knee joint to establish proper mechanical advantage for the finish. (Timing: Take 2-3 seconds to settle into stable position) [Pressure: Light]
 2. **Secure the foot grip**: Wrap both arms around opponent's foot, ensuring the blade of your forearm (thumb-side radius bone) is positioned directly across their Achilles tendon. The foot should be pulled into your armpit or pressed against your ribcage. Clasp your hands together using either a gable grip or figure-four grip, with elbows tight to your body. (Timing: 1-2 seconds for grip establishment) [Pressure: Moderate]
 3. **Adjust hip alignment**: Angle your hips at approximately 45 degrees to opponent's body, creating a strong structural line from your shoulders through your hips. Your hips should be slightly higher than their trapped knee. Lean your upper body backward while maintaining tight arm compression on the foot. (Timing: 1 second adjustment) [Pressure: Moderate]
@@ -252,7 +252,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **External hip rotation to create space and alignment change** (Effectiveness: High) - Your Adjustment: Pinch knees together more aggressively, control their hip with your outside leg, and adjust your hip angle to follow their rotation while maintaining forearm position on Achilles
 - **Sitting up and driving forward to create shoulder pressure** (Effectiveness: High) - Your Adjustment: Post your outside leg firmly on the mat, create a strong frame with your leg entanglement, and if necessary transition to outside Ashi or 50-50 to maintain control
 - **Grabbing your pants or gi to prevent hip extension** (Effectiveness: Medium) - Your Adjustment: Use small scooting movements to reposition hips backward while maintaining compression, or switch to alternative finishes like belly-down ankle lock if opponent secures strong grips
@@ -262,28 +262,28 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Pulling with the arms instead of driving with the hips [Low DANGER]
+## Common Mistakes
+- **Mistake**: Pulling with the arms instead of driving with the hips [Low DANGER]
   - **Consequence**: Dramatically reduces submission effectiveness, wastes energy, and allows opponent time to defend or escape
   - **Correction**: Focus on hip extension as the primary pressure source. Arms should compress and hold, while hips create the finishing force by driving backward
-- **Error**: Positioning the bicep or wrist against Achilles instead of forearm blade [Low DANGER]
+- **Mistake**: Positioning the bicep or wrist against Achilles instead of forearm blade [Low DANGER]
   - **Consequence**: Loss of structural integrity in the finish, allows opponent to pull foot free, reduces pain compliance significantly
   - **Correction**: Adjust arm position so the bony ridge of your forearm (thumb-side radius) is the contact point against their Achilles tendon, creating a hard surface for the fulcrum
-- **Error**: Failing to control hip rotation with knee pinch [Low DANGER]
+- **Mistake**: Failing to control hip rotation with knee pinch [Low DANGER]
   - **Consequence**: Opponent easily rotates out of the submission by externally rotating their hip, escaping before any real pressure develops
   - **Correction**: Actively squeeze knees together throughout the entire finish, creating a vice that prevents leg rotation and locks opponent in place
-- **Error**: Hips positioned too low or level with opponent's knee [Medium DANGER]
+- **Mistake**: Hips positioned too low or level with opponent's knee [Medium DANGER]
   - **Consequence**: Eliminates mechanical advantage, makes submission nearly impossible to finish, allows opponent to easily come on top
   - **Correction**: Ensure hips are elevated above opponent's knee joint before attempting finish. Scoot backward if necessary to create proper angle
-- **Error**: Explosive jerking or spiking the submission [CRITICAL DANGER]
+- **Mistake**: Explosive jerking or spiking the submission [CRITICAL DANGER]
   - **Consequence**: High risk of serious ankle ligament damage or Achilles rupture, potential career-ending injury to training partner
   - **Correction**: Apply pressure progressively over 3-5 seconds minimum. The submission should feel like a gradually increasing vise, not a sudden spike
-- **Error**: Continuing pressure after tap signal [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after tap signal [CRITICAL DANGER]
   - **Consequence**: Guaranteed injury to partner, violation of training safety protocols, potential for serious ankle or tendon damage
   - **Correction**: Maintain constant awareness of partner's tap signals. The instant any tap occurs, cease all pressure immediately and begin controlled release protocol
-- **Error**: Neglecting to secure opponent's heel in armpit or against ribs [Low DANGER]
+- **Mistake**: Neglecting to secure opponent's heel in armpit or against ribs [Low DANGER]
   - **Consequence**: Opponent can point toes and slip foot through the grip, escaping the submission entirely
   - **Correction**: Pull heel deep into armpit and squeeze it against ribcage before beginning hip extension. The heel should feel locked in place
 
@@ -292,7 +292,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Outside Ashi Straight Footlock**: Entry from outside leg positioning where your outside leg crosses over opponent's hip rather than inside leg. This variation offers different control mechanics and is particularly effective when opponent defends standard inside Ashi entry. (When to use: When opponent defends inside leg position, when attacking from standing passes, or when opponent attempts to enter on your legs first)
 
 **Belly-down ankle lock**: Finishing variation where you rotate to stomach-down position while maintaining foot control. This eliminates opponent's ability to sit up and creates devastating pressure through spinal extension combined with arm compression. (When to use: When opponent sits up and creates strong forward pressure, when standard hip extension is difficult due to grips, or as a high-percentage competition finish)
@@ -337,7 +337,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Weeks 1-2)
 - Focus: Learn proper Ashi Garami positioning, foot grip mechanics, and hip alignment without applying any finishing pressure. Study anatomy of ankle joint and Achilles tendon to understand injury mechanisms.
 - Resistance: None
@@ -374,7 +374,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Ashi Garami]]
 - [[Outside Ashi-Garami]]
@@ -392,7 +392,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Straight Ankle Lock]]
 - [[Achilles Lock]]
@@ -432,7 +432,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The straight ankle lock represents the foundational technique of our entire leg entanglement system, not because it is the most powerful submission, but because it teaches the fundamental mechanics that underpin all leg attacks. The critical insight students must understand is the relationship between hip position and mechanical advantage - your hips must be elevated above the opponent's knee joint to create the proper lever arm for effective finishing pressure. Many practitioners make the error of relying on arm strength to finish the ankle lock, when in reality the arms serve only as a compression and retention mechanism while hip extension provides the actual finishing force. The submission's safety relative to heel hooks makes it the ideal teaching vehicle for developing positional awareness in leg entanglements. Students should spend months perfecting entries, maintenance, and finishes from standard Ashi Garami before progressing to more complex positions. The straight footlock also introduces the concept of inside versus outside position control, where the placement of your legs relative to opponent's centerline determines your offensive options and defensive vulnerabilities. When teaching this technique, I emphasize extremely slow application speed - taking five to seven seconds to develop full pressure allows the training partner adequate time to recognize the danger and submit safely, while also building the technical precision necessary for competition application.
 - **Gordon Ryan**: In competition, the straight footlock serves dual purposes - it's both a legitimate finishing threat at all levels and a critical tool for creating reactions that open more powerful submissions. At the highest levels, opponents will defend the straight ankle lock aggressively, and these defensive reactions are exactly what I'm looking for to transition into heel hooks or knee bars. The key distinction between training and competition application is pressure speed and commitment. In training, I apply pressure over three to five seconds minimum and release immediately on the tap. In competition, the pressure ramps much faster because opponents delay the tap, but you must still maintain absolute control and awareness of the tap signal. The belly-down variation is my highest percentage finish in no-gi competition because it eliminates the opponent's ability to sit up and attack my upper body while generating tremendous pressure through back extension combined with arm compression. The critical detail most people miss is the positioning of their forearm blade directly on the Achilles tendon rather than letting the bicep or wrist make contact. That small adjustment transforms the submission from uncomfortable to fight-ending. When integrating straight footlocks into your competition game, chain them with other attacks - attempt the ankle lock, read the defense, then flow immediately into kneebar or back take based on how they respond. This creates the dilemma-based game that defines modern grappling.
 - **Eddie Bravo**: The straight ankle lock gets overlooked in modern leg lock evolution, but it's actually one of the most accessible submissions for creating absolute chaos in scramble situations. At 10th Planet, we teach the ankle lock primarily as a transitional weapon - you enter on the leg during a scramble, secure the ankle lock grip, and use that control to either finish or sweep to dominant position. The beauty is that unlike heel hooks which are illegal in many rule sets, you can drill straight footlocks from day one with beginners and it builds their leg lock IQ without the injury paranoia. My favorite variation is the standing ankle lock during takedown exchanges - when someone shoots a sloppy single leg, you can sprawl, grab their foot, and finish the ankle lock from standing while they're still committed to the takedown attempt. It's completely legal even in IBJJF and creates huge psychological impact because most people don't expect leg attacks from standing positions. Safety-wise, we drill this at super slow speed for months before adding any real pressure. The training culture around leg locks has to emphasize tap early, tap often mentality because ankle injuries can derail your training just as badly as knee injuries even though they heal faster. In the Twister system progressions, we use the straight footlock as the entry point into the Vaporizer and other hybrid positions, teaching students to think about leg attacks not as isolated techniques but as entire positional systems with multiple offensive pathways.

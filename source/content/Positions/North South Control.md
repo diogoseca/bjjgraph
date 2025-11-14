@@ -13,10 +13,6 @@ description: "Master North-South control in BJJ. Complete strategic guide coveri
 
 
 
-> **Quick Overview**: North-South control represents one of Brazilian Jiu-Jitsu's most dominant pinning positions, characterized by the top practitioner positioning their torso perpendicular across the bottom person's uppe...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -60,31 +56,19 @@ North-South serves as a crucial transitional hub in positional chess, often appe
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Low |
-| Time Sustainability | Short | Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Low |
+| **Time** | Short | Long |
 
-**What Makes This Position Unique:** Perpendicular pressure eliminates space
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[North South Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[North South Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Perpendicular pressure eliminates space
 
 
 
@@ -92,10 +76,13 @@ North-South serves as a crucial transitional hub in positional chess, often appe
 
 <section id="bottom-summary" class="content-section">
 
-## North South Control Bottom Perspective
+
+## Playing as Bottom
+
+[[North South Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in north south control must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -138,7 +125,7 @@ The bottom player in north south control must focus on creating frames, protecti
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pushing against consolidated chest pressure with straight arms**
@@ -162,16 +149,17 @@ The bottom player in north south control must focus on creating frames, protecti
   - ✅ Correction: Turn toward opponent into turtle position, keeping back protected from hook insertion
 
 
-👉 **[[North South Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## North South Control Top Perspective
+
+## Playing as Top
+
+[[North South Control/Top|→ Full Top Guide]]
 
 
-The top player in north south control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -220,7 +208,7 @@ The top player in north south control balances control maintenance with submissi
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Lifting chest to reach for submissions before establishing control**
@@ -243,8 +231,6 @@ The top player in north south control balances control maintenance with submissi
   - Consequence: Opponent immediately creates space and escapes during the transition window
   - ✅ Correction: Maintain chest pressure throughout all transitions, using pressure as the foundation for positional changes
 
-
-👉 **[[North South Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

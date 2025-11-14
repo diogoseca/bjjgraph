@@ -13,10 +13,6 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 
 
 
-> **Quick Overview**: Gift Wrap is a highly dominant back control variation in Brazilian Jiu-Jitsu where the attacker isolates and controls one of the defender's arms, effectively removing half of their defensive capabilit...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -60,31 +56,19 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium |
 
-**What Makes This Position Unique:** Arm trap removes half of defensive capability
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Gift Wrap/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Gift Wrap/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Arm trap removes half of defensive capability
 
 
 
@@ -92,10 +76,13 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 <section id="bottom-summary" class="content-section">
 
-## Gift Wrap Bottom Perspective
+
+## Playing as Bottom
+
+[[Gift Wrap/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in gift wrap must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -141,7 +128,7 @@ The bottom player in gift wrap must focus on creating frames, protecting against
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Using trapped arm to push or frame, creating additional leverage for opponent's control**
@@ -169,16 +156,17 @@ The bottom player in gift wrap must focus on creating frames, protecting against
   - ✅ Correction: Follow systematic escape hierarchy: neck defense first, arm recovery second, position escape third; maintain composure and execute each step methodically
 
 
-👉 **[[Gift Wrap/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Gift Wrap Top Perspective
+
+## Playing as Top
+
+[[Gift Wrap/Top|→ Full Top Guide]]
 
 
-The top player in gift wrap balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -230,7 +218,7 @@ The top player in gift wrap balances control maintenance with submission attacks
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Focusing entirely on arm trap while neglecting fundamental back control maintenance (hooks, chest connection)**
@@ -261,8 +249,6 @@ The top player in gift wrap balances control maintenance with submission attacks
   - Consequence: Creates straight ankle lock opportunity for opponent despite dominant position
   - ✅ Correction: Keep feet uncrossed with hooks properly positioned inside opponent's thighs; use body triangle as alternative leg control if ankle lock defense is concern
 
-
-👉 **[[Gift Wrap/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

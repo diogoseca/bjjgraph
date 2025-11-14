@@ -8,7 +8,7 @@ description: "Master D'arce choke variations in BJJ. Complete guide covering set
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master D'arce choke variations in BJJ. Complete guide covering set
 
 
 
-> **Quick Answer**: Darce Variations is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Darce Variations is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="safety-considerations" class="content-section">
 
-## Is Darce Variations Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Arm isolation and control of opponent's near-side shoulder creates the choking structure
 - Figure-four arm configuration maximizes pressure on carotid arteries while minimizing effort
 - Hip pressure and body weight provide finishing force rather than pure arm strength
@@ -225,7 +225,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Dominant front headlock position with opponent's head controlled below your chest
 - Opponent's near arm isolated and controlled, preferably trapped between their body and yours
 - Your choking-side arm positioned with space to thread through the neck-shoulder gap
@@ -239,7 +239,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish front headlock control**: Secure a dominant front headlock position with opponent's head trapped under your chest. Control their far arm with your non-choking hand while keeping your weight forward to prevent them from standing. Your choking-side arm should be free and positioned near their neck. Ensure opponent's posture is broken forward with their head lower than their hips. (Timing: 2-3 seconds for secure position) [Pressure: Moderate]
 2. **Isolate and trap the near arm**: Control opponent's near-side arm by pinning it against their body with your chest and shoulder pressure. This arm must be trapped between you and them to create the necessary space at their neck. If they're defending with this arm extended, use your body weight to collapse it back toward their body. The goal is to eliminate this arm from the defensive equation entirely. (Timing: 1-2 seconds to secure arm isolation) [Pressure: Firm]
 3. **Thread choking arm through neck gap**: Slide your choking-side arm (palm down) through the space between opponent's neck and their trapped shoulder. Your arm should penetrate deep, with your bicep making contact with one side of their neck. Drive your shoulder forward as you thread to maximize depth. The deeper your arm penetrates, the tighter the finish will be. Your hand should emerge on the far side of their neck. (Timing: 2-3 seconds for deep penetration) [Pressure: Moderate]
@@ -252,7 +252,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent grabs their own trapped arm to prevent full isolation** (Effectiveness: High) - Your Adjustment: Switch to alternative variation such as the Marce (D'arce from opposite side) or use your legs to kick their defensive arm away while maintaining head control. Can also transition to anaconda choke if they create space defending.
 - **Opponent turns into you to escape the angle** (Effectiveness: Medium) - Your Adjustment: Follow their rotation while maintaining the figure-four lock, potentially transitioning to anaconda choke or taking the back if they continue rotating. Alternatively, use your legs to block their hip movement and prevent the turn.
 - **Opponent drives forward and attempts to stand** (Effectiveness: Medium) - Your Adjustment: Jump to closed guard while maintaining the D'arce grip, finishing from bottom position. Alternatively, use their forward momentum to roll them over your shoulder into a top position, similar to guillotine defense counters.
@@ -261,25 +261,25 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Threading arm too shallow, leaving choking arm at neck level rather than deep shoulder penetration [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Threading arm too shallow, leaving choking arm at neck level rather than deep shoulder penetration [Medium DANGER]
   - **Consequence**: Weak choke that relies on neck crank rather than blood flow restriction; opponent can defend easily by turning or posturing
   - **Correction**: Drive your shoulder forward aggressively as you thread, aiming to get your entire forearm through the gap. Your hand should emerge completely on the far side. Think 'reach for their far hip' as you penetrate.
-- **Error**: Failing to control opponent's trapped arm, allowing them to create defensive frames [Low DANGER]
+- **Mistake**: Failing to control opponent's trapped arm, allowing them to create defensive frames [Low DANGER]
   - **Consequence**: Opponent can insert their arm as a shield, block the choke, or create space to escape
   - **Correction**: Use chest pressure and shoulder weight to pin their near arm completely against their body before threading your choking arm. The arm must be immobilized throughout the entire sequence.
-- **Error**: Remaining too square to opponent instead of creating perpendicular angle [Low DANGER]
+- **Mistake**: Remaining too square to opponent instead of creating perpendicular angle [Low DANGER]
   - **Consequence**: Minimal pressure on carotid arteries; choke feels loose and ineffective; opponent has time to defend or escape
   - **Correction**: Step your feet to the side away from your choking arm, creating a 90-degree angle to opponent's spine. Your chest should be perpendicular to their body, not parallel.
-- **Error**: Attempting to finish with arm strength instead of body weight and positioning [Medium DANGER]
+- **Mistake**: Attempting to finish with arm strength instead of body weight and positioning [Medium DANGER]
   - **Consequence**: Exhaustion, weak choke, and reliance on muscle rather than technique; increased risk of neck cranking rather than blood choke
   - **Correction**: Lock your arms in the figure-four position and finish by expanding your chest and dropping your body weight. Pressure should come from core and positioning, not bicep flexion.
-- **Error**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
   - **Consequence**: Risk of unconsciousness, potential injury to partner, unsafe training environment
   - **Correction**: Immediately release all pressure upon any tap signal. Watch for signs of distress during application. In training, tap your partner out at 40-50% pressure rather than full finishing pressure.
-- **Error**: Positioning forearm directly across trachea instead of targeting carotids [CRITICAL DANGER]
+- **Mistake**: Positioning forearm directly across trachea instead of targeting carotids [CRITICAL DANGER]
   - **Consequence**: Painful air choke that causes unnecessary suffering; increased injury risk to trachea; inefficient technique
   - **Correction**: Ensure your bicep is against one side of neck and the sharp edge of your radius bone (not forearm flat) compresses the opposite carotid. The choke should be on the sides of the neck, not the front.
 
@@ -288,7 +288,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Darce from Turtle Top**: When opponent is in turtle position, establish front headlock control, isolate their near arm against your body, thread your choking arm deep through the neck-shoulder gap, secure figure-four grip, and roll to your side to finish with perpendicular angle. (When to use: Opponent turtles up after takedown defense, guard pass, or scramble situation. Most common D'arce variation in no-gi grappling.)
 
 **Marce (Reverse D'arce)**: Similar mechanics to standard D'arce but executed from the opposite side. Thread your arm from the far side of opponent's neck rather than the near side. Often available when opponent defends standard D'arce by controlling their near arm. (When to use: Standard D'arce is blocked due to opponent defending their near arm; front headlock position with control of opponent's far arm instead of near arm.)
@@ -332,7 +332,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Week 1-2)** (2 weeks)
 - Focus: Learn D'arce mechanics from static positions without any resistance. Understand arm threading depth, figure-four grip variations, and proper angle creation. Study anatomical targets and safety considerations.
 - Resistance: Zero resistance
@@ -369,7 +369,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Turtle]]
@@ -385,7 +385,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Darce Choke]]
 - [[Anaconda Choke]]
@@ -426,7 +426,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The D'arce family of chokes represents a perfect example of systematic submission development—a single mechanical principle expressed through multiple positional contexts. The core mechanical structure never changes: you create a figure-four arm lock that simultaneously controls the opponent's shoulder while compressing the carotid arteries. What changes is the entry pathway and the angle of finish. Understanding this allows you to recognize D'arce opportunities in positions where most people would never look for them. The critical technical detail that separates effective D'arce variations from weak attempts is penetration depth of the choking arm. Shallow penetration creates a neck crank that is both ineffective and potentially dangerous. Deep penetration—where your hand completely clears the far side of their neck—positions your bicep perfectly against one carotid while your radius bone compresses the opposite artery. This creates a true blood choke that is both safer and more effective. Train the depth obsessively until it becomes automatic, and the variations will follow naturally from positional understanding.
 - **Gordon Ryan**: In competition, D'arce variations are absolutely devastating because they're available from so many common positions—front headlock, turtle, side control, half guard passes. I've won multiple matches with D'arce variants because opponents simply don't expect the attack from certain angles. The Brabo from side control is particularly underrated in gi grappling; people defend the standard arm triangle religiously but leave the opposite side completely open. The key difference between training room D'arces and competition finishing is commitment—in competition, once you've secured the figure-four grip and achieved the proper angle, you finish explosively without hesitation. In training, you control the pace and use 50-60% pressure maximum to preserve your partners. I've trained the D'arce enough that I can feel when it's locked versus when my opponent still has defensive options. If the choke isn't tight after you've established position, don't force it—transition to anaconda, guillotine, or take the back instead. The worst thing you can do is waste energy grinding a choke that isn't there while better options are available.
 - **Eddie Bravo**: The D'arce is one of those techniques that evolved primarily in no-gi grappling because it doesn't rely on fabric grips—it's all about body mechanics and positioning. At 10th Planet, we teach D'arce variations from everywhere: turtle attacks, half guard passes, even from bottom position if you're creative enough. One of my favorite details that nobody talks about is using your head position to control their posture during the finish. If you post your head on the mat near their far hip while finishing, it creates additional torque and prevents them from rolling toward you to escape. Another key innovation we use is the 'truck to D'arce' transition—when you have someone in the truck position and they defend the twister by tucking their head, you can transition to a modified D'arce by threading your arm through and creating the figure-four. It's all about being creative and recognizing the fundamental structure in unconventional positions. Safety-wise, the D'arce can be brutal if you crank it like a neck crank instead of applying it as a blood choke, so make sure you're squeezing the sides of the neck, not the front of the throat. In our gym, we're militant about safety protocols because these chokes are so effective—tap early, release immediately, and save the death grips for competition only.

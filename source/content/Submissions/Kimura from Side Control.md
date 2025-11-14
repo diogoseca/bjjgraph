@@ -8,7 +8,7 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 
 
 
-> **Quick Answer**: Kimura from Side Control is a shoulder lock targeting the Shoulder joint (rotation and elevation). ⚠️ **SAFETY**: This technique can cause Shoulder dislocation (anterior or posterior) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kimura from Side Control is a shoulder lock targeting the Shoulder joint (rotation and elevation). ⚠️ **SAFETY**: This technique can cause Shoulder dislocation (anterior or posterior). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kimura from Side Control Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -215,7 +215,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Establish dominant side control with chest pressure before attacking the arm
 - Secure the figure-four grip with proper wrist and forearm positioning for maximum leverage
 - Control the opponent's hip and prevent them from turning into you during the finish
@@ -229,7 +229,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Stable side control position with chest-to-chest pressure and no space
 - Opponent's near arm isolated and away from their body
 - Your weight distributed to prevent opponent's hip escape or reversal
@@ -243,7 +243,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish Dominant Side Control**: From side control, drive your chest weight into the opponent's chest and shoulder area, eliminating all space. Your near-side arm should control their head or far shoulder while your hips stay heavy on their torso. Ensure your base is wide with your far leg posted out for stability. (Timing: 2-3 seconds to establish solid pressure) [Pressure: Firm]
 2. **Isolate the Near Arm**: Using your near-side hand, reach under the opponent's near arm (the arm closest to you) and grip their wrist. Simultaneously use your head and shoulder pressure to pin their upper body and prevent them from pulling the arm back to their body. The goal is to create separation between their elbow and their ribs. (Timing: 1-2 seconds once pressure is established) [Pressure: Moderate]
 3. **Thread Your Arm for Figure-Four Grip**: While maintaining wrist control with your near hand, thread your far arm over their arm and reach for your own wrist to establish the figure-four lock. Your forearm should be perpendicular to their forearm, creating the leverage structure. Keep your elbows tight together and close to their body to prevent them from straightening their arm. (Timing: 2-3 seconds to secure proper grip alignment) [Pressure: Light]
@@ -257,7 +257,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent grabs their own belt or gi pants to prevent arm isolation** (Effectiveness: High) - Your Adjustment: Use your head and shoulder to drive their elbow away from their body while using your near hand to pry their grip open. Alternatively, transition to Americana or maintain control and wait for grip fatigue.
 - **Opponent turns into you (toward your legs) to escape the rotation** (Effectiveness: High) - Your Adjustment: Block their hip with your near knee and maintain chest pressure to prevent the turn. If they succeed in turning, follow them to take the back or adjust to a rolling Kimura variation.
 - **Opponent straightens their arm completely to break the figure-four structure** (Effectiveness: Medium) - Your Adjustment: Keep your elbows pinched together near their body to prevent full extension. If they straighten, transition to an armbar or use the Kimura grip to sweep them when they push.
@@ -267,28 +267,28 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Attempting the Kimura grip before establishing solid side control pressure [Low DANGER]
+## Common Mistakes
+- **Mistake**: Attempting the Kimura grip before establishing solid side control pressure [Low DANGER]
   - **Consequence**: Opponent easily escapes their hips or turns into you, nullifying the submission attempt and potentially losing top position
   - **Correction**: Always establish dominant side control first with chest pressure and hip control. Only attack the arm once your weight is settled and their movement is restricted.
-- **Error**: Allowing space between your elbow and their body during the figure-four grip [Low DANGER]
+- **Mistake**: Allowing space between your elbow and their body during the figure-four grip [Low DANGER]
   - **Consequence**: Opponent can straighten their arm and break the submission structure, escaping the lock completely
   - **Correction**: Keep both elbows tight and close to their torso throughout the entire sequence. Your forearms should form a tight loop around their arm with no gaps.
-- **Error**: Forgetting to control the opponent's hip with your knee [Medium DANGER]
+- **Mistake**: Forgetting to control the opponent's hip with your knee [Medium DANGER]
   - **Consequence**: Opponent turns into you and escapes the submission, potentially reversing position or taking your back
   - **Correction**: Post your near knee tight against their near hip before elevating the arm. This blocks their primary escape route and maintains your dominant angle.
-- **Error**: Using jerking or explosive motions to finish the submission [CRITICAL DANGER]
+- **Mistake**: Using jerking or explosive motions to finish the submission [CRITICAL DANGER]
   - **Consequence**: Severe shoulder injuries including dislocation, rotator cuff tears, or labrum damage before partner can tap
   - **Correction**: Apply pressure slowly and progressively over 3-5 seconds minimum. The shoulder is extremely vulnerable - control and patience are essential for training safety.
-- **Error**: Lifting the elbow too high (over 90 degrees) before rotating [CRITICAL DANGER]
+- **Mistake**: Lifting the elbow too high (over 90 degrees) before rotating [CRITICAL DANGER]
   - **Consequence**: Risk of shoulder dislocation and severe injury, especially if opponent is inflexible or has prior shoulder issues
   - **Correction**: Keep elevation moderate (approximately 90 degrees from body) and focus on the rotational component. The combination creates the lock without dangerous elevation.
-- **Error**: Gripping your own wrist incorrectly in the figure-four (thumb orientation wrong) [Low DANGER]
+- **Mistake**: Gripping your own wrist incorrectly in the figure-four (thumb orientation wrong) [Low DANGER]
   - **Consequence**: Weak grip structure that allows opponent to escape and reduced leverage for finishing
   - **Correction**: Ensure your top hand grips your bottom wrist with four fingers, creating a strong bracket. Your bottom hand controls their wrist with proper alignment for maximum leverage.
-- **Error**: Losing chest pressure while setting up the grip [Medium DANGER]
+- **Mistake**: Losing chest pressure while setting up the grip [Medium DANGER]
   - **Consequence**: Opponent creates space and escapes their hips or replaces guard before submission is secured
   - **Correction**: Maintain constant chest-to-chest pressure throughout the entire setup. Your weight should never come off their torso until the submission is locked in place.
 
@@ -297,7 +297,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Far-Side Kimura from Side Control**: Attack the opponent's far arm (the arm away from you) by using an underhook or controlling their far wrist, then establishing the figure-four grip across their body. This variation works well when opponent is defending their near arm strongly. (When to use: When opponent is protecting their near arm by keeping elbow tight to body, or when transitioning from north-south position)
 
 **Rolling Kimura Finish**: If opponent successfully turns into you to defend, maintain the figure-four grip and perform a forward roll over your shoulder while keeping the grip tight. This transitions to a different angle where you finish the Kimura from top with your body weight driving their arm. (When to use: When opponent commits to turning into you as their primary defense, or when you want to transition to a more secure finishing position)
@@ -340,7 +340,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn proper side control position, figure-four grip mechanics, and body positioning without any submission pressure. Practice grip establishment and releases repeatedly.
 - Resistance: None
@@ -377,7 +377,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[Kesa Gatame]]
@@ -393,7 +393,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura Variations]]
@@ -436,7 +436,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Kimura from side control represents the perfect marriage of positional dominance and submission mechanics. From a systematic perspective, side control provides the optimal platform for shoulder attacks because your weight immobilizes the opponent's torso while their arm becomes isolated and vulnerable. The figure-four grip structure creates a mechanical advantage that few joints in the human body can resist when properly applied. What makes this submission particularly valuable is its dual nature as both a finishing technique and a control mechanism. Even when the opponent defends the submission successfully, you maintain dominant position and can transition seamlessly to back attacks, mount advancement, or alternative submissions. The key technical detail that most practitioners miss is the relationship between hip control and finishing mechanics - you must prevent their ability to turn into you with your near knee while simultaneously maintaining chest pressure. This creates an inescapable dilemma where all defensive movements either expose them to the finish or to positional advancement. The shoulder joint's vulnerability demands respect in training - always apply pressure progressively over several seconds, never explosively. Competition-level finishing speed has no place in the training room. The Kimura grip should be viewed as a steering wheel for controlling your opponent's upper body, not merely as a submission attempt.
 - **Gordon Ryan**: The Kimura from side control is one of my highest percentage attacks because it's nearly impossible to defend once you have the position locked in correctly. In competition, I use this constantly because even if guys know it's coming, the mechanics are so strong that defense is extremely difficult. The biggest thing people get wrong is they try to attack the arm before their side control is actually heavy and secure - you'll lose position every time if you do that. I make sure my chest pressure is absolutely suffocating before I even think about the arm. Once I have that weight settled, the arm isolation becomes easy because they can't move their upper body. The grip itself becomes a nightmare for them because I can use it to break them down, advance to mount, or take the back if they try to turn into me. In training versus competition, there's a massive difference in how I finish this. In the gym, I'm taking 4-5 seconds minimum and stopping at like 60-70% pressure so my partners can tap safely. In competition, I'm finishing much faster because that's what wins matches, but you have to build that trust in the room first. The walking motion where you move toward their head is what really cranks the finish - it increases the angle dramatically. Against elite guys, I'm always ready to chain this with the far-side armbar or the transition to back control because they're going to defend hard. The Kimura grip is like a handle that lets me control where the match goes next.
 - **Eddie Bravo**: The Kimura from side control is absolutely brutal and it's one of those techniques where the traditional approach is already really solid, but there's always room for creativity in how you set it up and finish it. What I love about this submission is that it works in both gi and no-gi, and you can hit it from so many different angles. In the 10th Planet system, we emphasize using the Kimura grip as a pathway to other positions, not just a submission finish. If I get that grip locked in from side control and the guy starts defending really hard, I'm not going to just sit there and muscle it - I'm looking to take the back, I'm looking to roll through into a different finishing angle, I'm looking to transition into the truck position if he gives me his back. The creativity comes from not being attached to finishing the submission from one position. The reverse Kimura variation is something we drill a lot because it catches people by surprise when they're expecting the traditional rotation direction. In terms of safety, man, the shoulder is no joke - you can really hurt someone fast with this technique, so in training we're always emphasizing slow, controlled pressure and tapping early. I want my students to be comfortable tapping to this submission at like 40-50% of full pressure so they can train it frequently without injuries. The key to making this work at a high level is having such good side control pressure that they can barely breathe, let alone defend their arm effectively. That's the foundation everything else builds on.

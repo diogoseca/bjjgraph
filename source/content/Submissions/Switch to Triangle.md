@@ -8,7 +8,7 @@ description: "Master the Switch to Triangle in BJJ. Safety protocols, guard setu
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Switch to Triangle in BJJ. Safety protocols, guard setu
 
 
 
-> **Quick Answer**: Switch to Triangle is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine compression - apply slowly over 3-5 seconds and release immediately upon tap.
+> Switch to Triangle is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine compression. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="safety-considerations" class="content-section">
 
-## Is Switch to Triangle Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -207,7 +207,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Attack in sequences - every defensive response should lead to another offensive opportunity
 - Hip angle control is critical - perpendicular angle maximizes choke effectiveness
 - Maintain arm isolation throughout the transition to prevent escape
@@ -221,7 +221,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent's posture must be broken forward or compromised
 - Control of at least one opponent arm (ideally overhook or wrist control)
 - Active guard position with hips mobile and not pinned
@@ -235,7 +235,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish initial control and break posture**: From your guard position (closed, open, or spider), break your opponent's posture forward by pulling on their collar, sleeve, or head while simultaneously scooting your hips toward them. Secure a strong grip on one of their arms - typically an overhook on their defending arm or a wrist control if they're posting. Your goal is to compromise their base and bring their upper body within range for leg positioning. (Timing: 1-2 seconds) [Pressure: Firm]
 2. **Create angle and initiate leg threading**: Hip escape to create a 45-90 degree angle relative to your opponent's centerline. This angle is critical for effective leg placement. Simultaneously begin threading your leg (same side as the arm you're controlling) up and across the back of their neck. Your shin should contact the back of their neck while your foot aims toward their opposite shoulder. Maintain constant forward pull on their posture to prevent them from sitting back. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Secure the trapped arm position**: As your leg crosses the back of their neck, actively pull their controlled arm across your body centerline, ensuring it ends up on the inside of your leg that's crossing their neck. This trapped arm positioning is essential - their arm must be inside your leg configuration for the choke to work. Use your hand grip to guide their arm into proper position while your leg begins to secure it. Many beginners fail here by allowing the arm to slip to the outside. (Timing: 1 second) [Pressure: Firm]
@@ -248,7 +248,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent postures up aggressively during transition** (Effectiveness: High) - Your Adjustment: Abandon the triangle temporarily and switch to armbar attack, using their posture against them by elevating hips and swinging leg over their face. Alternatively, threaten omoplata to force them to lower their posture again.
 - **Opponent pulls trapped arm free before lock is secured** (Effectiveness: High) - Your Adjustment: If arm escapes early, immediately transition to armbar by swinging your leg over their face while controlling their freed arm. Alternatively, switch to omoplata control by rotating your hips underneath their escaping arm.
 - **Opponent stands up to escape triangle pressure** (Effectiveness: Medium) - Your Adjustment: Maintain closed triangle legs and either execute flower sweep by hooking their ankle, or release guard and follow them up by pulling yourself up their body, then re-establish the triangle from standing or transition to guillotine.
@@ -258,25 +258,25 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Failing to control the angle during transition [Low DANGER]
+## Common Mistakes
+- **Mistake**: Failing to control the angle during transition [Low DANGER]
   - **Consequence**: Opponent easily escapes by posturing or extracting their arm
   - **Correction**: Always hip escape to create 45-90 degree angle before attempting leg threading. Your body position relative to theirs is more important than speed of execution.
-- **Error**: Allowing opponent's arm to slip to outside of leg during switch [Low DANGER]
+- **Mistake**: Allowing opponent's arm to slip to outside of leg during switch [Low DANGER]
   - **Consequence**: Triangle cannot be completed and opponent has easy escape path
   - **Correction**: Actively pull and guide opponent's arm across your centerline using strong wrist or overhook control. Their arm must be inside your leg that crosses their neck. Verify arm position before locking figure-four.
-- **Error**: Switching legs explosively without controlling posture [Medium DANGER]
+- **Mistake**: Switching legs explosively without controlling posture [Medium DANGER]
   - **Consequence**: Opponent postures up or stacks during transition, potentially injuring your knees or back
   - **Correction**: Always break posture first and maintain forward pull throughout the switch. The transition should be smooth and controlled, not explosive. In training, sacrifice speed for control and safety.
-- **Error**: Locking triangle with legs at wrong angle (parallel instead of perpendicular) [Low DANGER]
+- **Mistake**: Locking triangle with legs at wrong angle (parallel instead of perpendicular) [Low DANGER]
   - **Consequence**: Choke is ineffective, opponent escapes easily, excessive pressure on jaw instead of arteries
   - **Correction**: After locking legs, adjust your entire body position to be perpendicular to opponent - forming a 'T' shape. Your hips should be off to one side, not directly in front of them.
-- **Error**: Applying the choke too quickly in training without proper control established [CRITICAL DANGER]
+- **Mistake**: Applying the choke too quickly in training without proper control established [CRITICAL DANGER]
   - **Consequence**: Potential neck injury to training partner, breakdown of trust and training culture
   - **Correction**: In training, always secure full position first (legs locked, angle correct, arm trapped) before applying any finishing pressure. Give partner clear opportunity to recognize position and tap before tightening. Save competition speed for competition.
-- **Error**: Neglecting to control opponent's free arm during finish [Low DANGER]
+- **Mistake**: Neglecting to control opponent's free arm during finish [Low DANGER]
   - **Consequence**: Opponent creates frames, relieves pressure, or escapes the position
   - **Correction**: Once triangle is locked, immediately address their free arm by either pulling their head to eliminate space, gripping their free wrist, or using your hands to press their arm across their own neck.
 
@@ -285,7 +285,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Armbar to Triangle Switch**: When attempting armbar from guard, if opponent defends by gripping their own hands together or pulling their arm free, immediately thread your leg across their neck and switch to triangle. Their defensive grips often position their arm perfectly for the triangle trap. (When to use: When opponent successfully defends your initial armbar attempt by clasping hands or extracting arm)
 
 **Omoplata to Triangle Switch**: From omoplata control when opponent rolls forward to escape, use their forward roll momentum to swing your leg over their head and establish triangle position. This is particularly effective because their arm is already isolated and they're moving in a direction that facilitates your triangle lock. (When to use: When opponent attempts forward roll escape from your omoplata control)
@@ -325,7 +325,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn proper body mechanics and positioning without any resistance. Partner remains completely passive while you practice the transition movements, angle creation, and leg threading. Focus on smooth execution and understanding where each body part should be positioned.
 - Resistance: None
@@ -362,7 +362,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Open Guard]]
@@ -380,7 +380,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Triangle from Closed Guard]]
@@ -422,7 +422,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The switch to triangle represents a fundamental principle in systematic guard work - the concept of attacking in sequences rather than isolated techniques. When we understand that every defensive response from our opponent creates specific openings, we transform our guard from a series of hopeful attempts into a cohesive system where escape from one attack leads directly into another. The critical detail that separates effective from ineffective triangle switches is the arm trap mechanism - the opponent's arm must be inside your leg configuration or the technique simply does not work. This is not a detail of convenience but a mechanical necessity based on the anatomy of the carotid arteries and the geometry of compression. In training, we must emphasize progressive pressure application, maintaining our culture of safety while developing the technical precision necessary for competition effectiveness. The student who masters this transition gains not merely a submission technique but a gateway into systematic thinking where positions flow seamlessly based on opponent reactions.
 - **Gordon Ryan**: In competition, the switch to triangle is one of my highest percentage attacks because most opponents are conditioned to defend single-technique attempts rather than sequences. When I threaten armbar from guard, experienced opponents immediately grip their hands together or hide their arm - this defensive reaction positions their arm perfectly for the triangle trap. The key to using this effectively at high levels is maintaining constant offensive pressure so your opponent never has time to settle and plan their defense. I always work to finish from the most advantageous angle, which means being perpendicular to my opponent rather than staying in front of them. In training, I emphasize controlled application because injured training partners cannot help you improve. But in competition, once the triangle is locked and their arm is trapped, I apply maximum pressure immediately - there is no value in giving elite opponents time to develop their escape. The distinction between training application and competition application must be clear in your mind before you enter either situation.
 - **Eddie Bravo**: The switch to triangle is built into the DNA of 10th Planet guard systems, especially from rubber guard positions like Mission Control and New York. When your opponent is defending the arm attacks from rubber guard - fighting to free their trapped arm or prevent the armbar - that defensive struggle creates perfect conditions for switching to triangle. The beauty of systematic guard work is that you're never stuck on one attack path. If they defend the omoplata, give me the triangle; if they defend the triangle by posturing, give me the armbar back. This is the dilemma concept that makes guard work so powerful against bigger, stronger opponents. In training, we emphasize smooth transitions over forced submissions because smooth is fast and forced is dangerous. Safety culture in the gym allows us to train these techniques at high volume without accumulating injuries. Remember that the switch often works best when you commit fully to the first attack - if your armbar attempt is half-hearted, your opponent won't commit to the defense that opens the triangle. Sell the first attack to set up the second.

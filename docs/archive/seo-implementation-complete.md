@@ -385,7 +385,7 @@
 
 ### FAQ Sections
 - [ ] **Task 2.7:** Create FAQ sections on top 10 Position pages (0/10, 0%)
-  - Extract from "Common Errors" and expand
+  - Extract from "Common Mistakes" and expand
   - Status: NOT STARTED
   - Priority: MEDIUM
   - Estimated time: 45 minutes
@@ -434,7 +434,7 @@
   - Completed: October 2025
 
 - [x] **Task 3.2:** Implement FAQ schema for all Position pages (24/94, 26%)
-  - Extract from "Common Errors" section
+  - Extract from "Common Mistakes" section
   - Format as Q&A pairs
   - Status: PARTIALLY COMPLETE
   - Priority: HIGH

@@ -8,7 +8,7 @@ description: "Master connection principles in BJJ. Learn grip management, frame 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master connection principles in BJJ. Learn grip management, frame 
 
 
 
-> **Quick Answer**: Connection Principles is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Connection Principles is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ Connection principles extend beyond simple grip fighting to encompass the entire
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - **Connection Hierarchy**: Not all connection points are equal; grips closer to opponent's center of mass and decision-making centers (head, hips, shoulders) generally provide superior control compared to peripheral grips (wrists, ankles)
 - **Reciprocal Nature**: Every connection established creates a two-way relationship; when you grip your opponent, you also give them a reference point and potential connection to exploit
 - **Quality Over Quantity**: A single high-quality connection (proper grip with good mechanics) often provides more control than multiple poor-quality contacts
@@ -185,7 +185,7 @@ Connection principles extend beyond simple grip fighting to encompass the entire
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Grip Selection and Establishment**: The ability to identify and secure optimal grip configurations based on positional context, opponent's body type, and tactical objectives. This includes understanding gi versus no-gi grip mechanics, recognizing high-percentage grip patterns, and executing grip establishment under resistance while managing opponent's defensive grip fighting.
 
 **Frame Construction and Maintenance**: Building and preserving structural frames using arms, legs, and skeletal alignment to create barriers that prevent opponent advancement. Effective frames maintain rigid structure under pressure while allowing the framer to preserve energy and create escape opportunities through proper bone alignment and weight distribution mechanics.
@@ -208,7 +208,7 @@ Connection principles extend beyond simple grip fighting to encompass the entire
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Grip Strategy]]** (Complementary): Grip Strategy provides the tactical framework for which grips to pursue in different scenarios, while Connection Principles explains why those grips work and how they integrate into overall control schemes
 - **[[Frame Management]]** (Complementary): Frame Management represents the defensive application of connection principles, focusing specifically on creating and maintaining space-preserving connections rather than control-establishing ones
 - **[[Control Point Hierarchy]]** (Extension): Control Point Hierarchy builds on connection principles by ranking which connection points provide greatest control value in specific positions, adding tactical prioritization to fundamental connection mechanics
@@ -227,7 +227,7 @@ Connection principles extend beyond simple grip fighting to encompass the entire
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Bottom player establishes collar and sleeve grips to break opponent's posture while using leg connections (closed guard itself) to prevent distance creation. Connection management focuses on maintaining grip control that enables attacks while using frames to deal with opponent's pressure attempts.
 
 **Mount**: Top player uses connection points (grapevines, underhooks, crossface) to pin opponent and prevent escape while minimizing their own grips that opponent could exploit. Focus shifts to body weight connections and strategic grip placement for submissions rather than grip-heavy control.
@@ -270,7 +270,7 @@ Connection principles extend beyond simple grip fighting to encompass the entire
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current connection state - who has superior connections?**: Evaluate quality and positioning of existing connections from both you and opponent. Identify which connections provide tactical advantage and which represent liabilities or neutral contacts.
 2. **Determine positional context and immediate tactical goal**: Recognize which connections are most valuable for your current position and objective (attack, defend, advance position, maintain). Different positions require different connection priorities.
 3. **Identify critical opponent connections to break**: Recognize which of opponent's existing connections pose greatest threat to your position or goals. Prioritize breaking dangerous connections before establishing your own new ones when opponent has superior control.
@@ -283,28 +283,28 @@ Connection principles extend beyond simple grip fighting to encompass the entire
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Gripping without purpose or positional awareness
+## Common Mistakes
+- **Mistake**: Gripping without purpose or positional awareness
   - **Consequence**: Wastes energy maintaining connections that provide no tactical value while potentially giving opponent reference points to exploit. Creates false sense of control without actual positional advantage.
   - **Correction**: Before establishing any connection, identify specific tactical purpose it serves. Every grip should facilitate a technique, prevent opponent's technique, or advance positional objective. Release purposeless grips to conserve energy.
-- **Error**: Attempting to establish new connections before breaking opponent's existing ones
+- **Mistake**: Attempting to establish new connections before breaking opponent's existing ones
   - **Consequence**: Allows opponent to use their established connections to defend or counter your attempts. Creates defensive frames or grips that neutralize your offensive connection establishment.
   - **Correction**: When opponent has dangerous connections established, prioritize breaking theirs before making your own. Use systematic grip breaking and frame destruction to create connection-neutral state, then establish your superior connections.
-- **Error**: Over-gripping and maintaining all connections at maximum strength
+- **Mistake**: Over-gripping and maintaining all connections at maximum strength
   - **Consequence**: Rapidly depletes grip strength and overall energy. Creates tension that reduces mobility and makes you predictable. Leads to grip fatigue that compromises performance in later rounds or matches.
   - **Correction**: Vary grip intensity based on tactical need. Use light touch for awareness and positioning, reserve maximum grip strength for critical moments. Release and re-establish grips strategically rather than maintaining constant death grip.
-- **Error**: Focusing exclusively on upper body connections while neglecting lower body hooks and connections
+- **Mistake**: Focusing exclusively on upper body connections while neglecting lower body hooks and connections
   - **Consequence**: Allows opponent to establish superior base and movement capability through uncontested lower body positioning. Limits sweeping and off-balancing opportunities that require integrated upper and lower body connection.
   - **Correction**: Develop whole-body connection awareness that integrates grips, frames, hooks, and positional connections. Recognize that lower body connections often provide superior control leverage, especially for sweeps and guard retention.
-- **Error**: Establishing connections that compromise your own structure or base
+- **Mistake**: Establishing connections that compromise your own structure or base
   - **Consequence**: Creates grips or frames that pull you off balance or make you vulnerable to opponent's counters. Allows opponent to use your connections against you through superior leverage or positional awareness.
   - **Correction**: Maintain structural integrity when establishing connections. Ensure grips and frames work with your skeletal alignment and base rather than compromising them. Release connections that pull you out of position.
-- **Error**: Failing to transition or chain connections as positions change
+- **Mistake**: Failing to transition or chain connections as positions change
   - **Consequence**: Maintains obsolete connections that were valuable in previous position but no longer serve tactical purpose. Creates windows where you have no effective connections during positional transitions.
   - **Correction**: Develop connection transition skills that allow seamless shifting between connection configurations as positions evolve. Practice maintaining at least one connection at all times while transitioning others.
-- **Error**: Allowing opponent to isolate and attack individual connections
+- **Mistake**: Allowing opponent to isolate and attack individual connections
   - **Consequence**: Opponent systematically strips your grips one at a time because connections aren't mutually supporting. Leads to complete loss of control as each connection falls individually.
   - **Correction**: Create connection systems where multiple grips, frames, or hooks support each other. Position connections so opponent must deal with multiple points simultaneously rather than stripping them sequentially.
 
@@ -313,7 +313,7 @@ Connection principles extend beyond simple grip fighting to encompass the entire
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Specific Connection Drilling** (Focus: Technical refinement of connection mechanics including grip establishment speed, frame construction under pressure, and efficient grip breaking techniques. Builds muscle memory for optimal connection patterns.)
 Isolated practice focusing on establishing, maintaining, and breaking specific connection types without full positional complexity. Partner provides progressive resistance to connection attempts.
 
@@ -338,7 +338,7 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Grabs whatever is available without strategic grip selection; connection choices appear random rather than purposeful
 - Maintains death grip on all connections constantly, leading to rapid grip fatigue and compromised performance
@@ -377,7 +377,7 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Grip Strategy]] (Principle) - Provides tactical framework for which connections to establish in different scenarios
 - [[Frame Management]] (Principle) - Applies connection principles specifically to defensive space-creation through frames
@@ -397,7 +397,7 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Connection principles represent the fundamental mechanism through which we impose our will upon an opponent in grappling. Every connection you establish creates a potential control vector - a pathway through which you can transmit force and restrict opponent movement. The sophistication of your grappling is directly proportional to your understanding of connection hierarchy and mechanics. Beginners grab randomly; advanced practitioners establish connections systematically based on biomechanical advantage and tactical objectives. The critical insight is recognizing that connections are bidirectional - when you grip your opponent, you simultaneously give them a connection to you. Therefore, superior grappling requires not merely establishing connections, but establishing connections that provide asymmetric advantage where your control potential exceeds theirs. This is achieved through understanding leverage angles, connection positioning relative to centers of mass, and the integration of multiple connections into mutually supporting systems. Master the principle that quality connections strategically positioned will always defeat quantity connections randomly distributed.
 - **Gordon Ryan**: In high-level competition, connection warfare determines match outcomes more than any other single factor. I win most of my matches in the grip fighting phase, establishing my preferred connections while denying my opponent theirs. The practical reality is that certain connections unlock entire technical systems while others provide minimal value. When I can establish my preferred passing grips - typically bodylock or leg pummeling configurations - I can run my entire passing system with high success rates. When opponent prevents those grips, my passing becomes significantly more difficult regardless of technical knowledge. This creates a simple competition strategy: identify the 3-4 critical connections your game depends on, become expert at establishing them, and equally expert at denying opponent's critical connections. In my matches, you'll notice I'm willing to spend considerable time and energy on grip fighting because I understand that winning the connection battle often decides the positional battle before techniques are even attempted. The athlete who dictates connection terms typically dictates match flow and outcome.
 - **Eddie Bravo**: Traditional BJJ often overlooks how radically different connection principles become in no-gi versus gi environments, and this represents massive opportunity for innovation. Without fabric to grip, you're forced to understand skeletal connections, friction-based connections, and dynamic connections that work with momentum rather than static control. In 10th Planet, we emphasize connection creativity - using unconventional grips like the lockdown which creates multi-point lower body connection, or rubber guard which establishes connection hierarchy that neutralizes opponent's upper body connection attempts entirely. The innovation comes from recognizing that connections don't have to be grip-based in traditional sense. Your leg can create a connection across opponent's leg that's more powerful than any hand grip. Your head position can create a connection point that controls their posture without any gripping at all. I teach students to think about connections as energy pathways - wherever you have connection, you have potential to transmit force and create reaction. Get creative with unconventional connection points and you'll discover techniques and controls that gi-focused grapplers never consider because they're not in the traditional textbook.

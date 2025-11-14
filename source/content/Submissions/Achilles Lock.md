@@ -8,7 +8,7 @@ description: "Master the Achilles Lock leg submission with comprehensive safety 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Achilles Lock leg submission with comprehensive safety 
 
 
 
-> **Quick Answer**: Achilles Lock is a leg lock targeting the Achilles tendon and ankle joint. ⚠️ **SAFETY**: This technique can cause Achilles tendon rupture or tear - apply slowly over 3-5 seconds and release immediately upon tap.
+> Achilles Lock is a leg lock targeting the Achilles tendon and ankle joint. ⚠️ **SAFETY**: This technique can cause Achilles tendon rupture or tear. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="safety-considerations" class="content-section">
 
-## Is Achilles Lock Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -211,7 +211,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Hip extension creates the primary breaking mechanism - hips must drive forward while controlling the heel
 - The fulcrum point (forearm or wrist bone) must be positioned precisely on the Achilles tendon, not the calf muscle
 - Foot position matters critically - opponent's toes must point toward you with heel controlled in your armpit
@@ -225,7 +225,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish Ashi Garami position with opponent's leg captured between your legs
 - Your inside leg must be across opponent's hip to prevent them from coming up or turning
 - Your outside leg must hook behind opponent's trapped knee to control leg extension
@@ -238,7 +238,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure the leg position**: From Ashi Garami, ensure your inside leg is firmly across the opponent's hip with your foot on the mat for base. Your outside leg hooks behind their trapped knee with your foot locked to your own hip. Your knees should be squeezed tightly together with no gap. (Timing: 2-3 seconds to establish solid position) [Pressure: Light]
 2. **Grip configuration for heel control**: Reach across and grab your opponent's heel with both hands. Configure a figure-four grip (one hand grabs opposite wrist) or gable grip (palms together). The heel must be trapped deep in your armpit with the Achilles tendon exposed. Ensure the foot cannot rotate or turn. (Timing: 1-2 seconds to secure grip) [Pressure: Light]
 3. **Position the fulcrum point**: Adjust your grip so that either your radius bone (wrist bone on thumb side) or your forearm creates a sharp edge directly against the opponent's Achilles tendon. This should be positioned approximately 2-3 inches above the heel. The sharper the angle, the more effective the submission. (Timing: 1-2 seconds to find exact placement) [Pressure: Light]
@@ -251,7 +251,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent turns their knee inward to rotate the foot and relieve pressure on Achilles tendon** (Effectiveness: High) - Your Adjustment: Immediately tighten your knees together and use your inside leg to prevent hip rotation. Adjust your grip to maintain heel control and reposition fulcrum as foot alignment changes. You may need to transition to outside Ashi or switch to toe hold.
 - **Opponent sits up and drives forward into you to remove the angle and reduce hip extension** (Effectiveness: Medium) - Your Adjustment: Use your inside leg posted on their hip to create a strong frame. Maintain backward lean with your upper body and use your free hand to post behind you for base. Keep hips elevated and extend harder to maintain breaking pressure despite their forward movement.
 - **Opponent extracts their leg by pulling knee back through the gap between your legs** (Effectiveness: Medium) - Your Adjustment: Squeeze your knees together tighter before they create space. If you feel the leg starting to extract, immediately follow their hip movement and maintain outside leg hook behind their knee. You may need to transition to a different Ashi variation or re-establish position.
@@ -260,25 +260,25 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying pressure too quickly or spiking the submission [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying pressure too quickly or spiking the submission [CRITICAL DANGER]
   - **Consequence**: High risk of Achilles tendon rupture, training partner injury, loss of trust
   - **Correction**: Always apply pressure progressively over 3-5 seconds minimum. Build up slowly and give partner time to recognize the submission and tap safely.
-- **Error**: Positioning fulcrum on calf muscle instead of Achilles tendon [Medium DANGER]
+- **Mistake**: Positioning fulcrum on calf muscle instead of Achilles tendon [Medium DANGER]
   - **Consequence**: Submission is ineffective, wastes energy, allows opponent to escape
   - **Correction**: Ensure your wrist bone or forearm edge is placed 2-3 inches above the heel, directly on the Achilles tendon. You should feel the tendon - it's the hard cord-like structure, not the soft calf muscle.
-- **Error**: Leaving gap between knees allowing leg extraction [Low DANGER]
+- **Mistake**: Leaving gap between knees allowing leg extraction [Low DANGER]
   - **Consequence**: Opponent easily escapes by pulling leg through the gap
   - **Correction**: Squeeze your knees together tightly throughout the entire submission. Your legs should be creating a vice-like control on the opponent's leg with no space for extraction.
-- **Error**: Failing to control the foot direction (allowing foot to turn outward) [Medium DANGER]
+- **Mistake**: Failing to control the foot direction (allowing foot to turn outward) [Medium DANGER]
   - **Consequence**: Pressure comes off Achilles tendon, submission fails, opponent may escape
   - **Correction**: Ensure toes are pointed toward your face and heel is deep in armpit. Use your grip to prevent any rotation of the foot. If foot turns, immediately adjust or abandon the submission.
-- **Error**: Hips too far from opponent's hip creating poor leverage angle [Low DANGER]
+- **Mistake**: Hips too far from opponent's hip creating poor leverage angle [Low DANGER]
   - **Consequence**: Cannot generate sufficient breaking pressure, tired arms, easy escape for opponent
   - **Correction**: Scoot your hips close to opponent's hip before attempting finish. Your seat should be nearly touching their leg. Close distance first, then apply technique.
-- **Error**: Leaning forward instead of backward during finish [Medium DANGER]
+- **Mistake**: Leaning forward instead of backward during finish [Medium DANGER]
   - **Consequence**: Removes the breaking angle, reduces pressure, may lose position entirely
   - **Correction**: Your shoulders and head must move away from the opponent while hips extend forward. Think of creating a 'bow and arrow' shape with your body - backward lean combined with forward hip drive.
 
@@ -287,7 +287,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Figure-Four Achilles Lock**: Instead of gable grip, use one arm to thread under the ankle and grab your own wrist/forearm creating a figure-four configuration. This provides more leverage and a sharper fulcrum point. (When to use: Use when opponent has strong ankle flexibility or when you need maximum breaking power. Also effective when transitioning from other leg attacks.)
 
 **Belly-Down Achilles Lock**: Instead of sitting back, turn your body face-down toward the mat while maintaining heel control. Use your body weight and chest pressure to drive the submission while extending hips. (When to use: Effective when opponent is successfully defending the standard version by sitting up. Also useful in no-gi when grips are harder to maintain.)
@@ -327,7 +327,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (2 weeks)
 - Focus: Learn position mechanics, grip configurations, and body positioning without any pressure. Study anatomy of ankle and Achilles tendon. Practice entry from Ashi Garami.
 - Resistance: None
@@ -364,7 +364,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Ashi Garami]]
 - [[Inside Ashi-Garami]]
@@ -381,7 +381,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Straight Ankle Lock]]
 - [[Heel Hook]]
@@ -419,7 +419,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Achilles Lock represents the entry point into the leg lock system - it is the submission that teaches fundamental principles of heel control, hip extension, and fulcrum mechanics that apply across all leg attacks. The primary technical error I observe is practitioners attempting to muscle the submission with arm strength rather than using hip extension as the primary motor. Your arms are merely connectors - they position the fulcrum and control the heel, but your hips generate the breaking pressure. The second critical element is understanding that the Achilles Lock, when applied correctly, should feel inevitable to the opponent rather than sudden. Proper positioning eliminates their escape options before you even begin to apply pressure. In training, this submission must be approached with exceptional care because the Achilles tendon has less blood supply than many other tissues, making injury recovery particularly difficult. Apply pressure slowly and progressively, treating every repetition as an opportunity to refine positional control rather than pursuing the tap. The student who masters the Achilles Lock with perfect technique and safety consciousness has built the foundation for understanding the entire leg lock ecosystem.
 - **Gordon Ryan**: In competition, the Achilles Lock is incredibly high-percentage when you truly commit to the position and understand the mechanics. Too many people bail on the position or apply it half-heartedly, but if you establish proper Ashi control and configure your grips correctly, this submission is extremely difficult to defend. The key distinction between training and competition application is psychological - in training, you must give your partners time to tap and apply pressure slowly. In competition, while you still extend your hips progressively, you're applying pressure with intent to finish immediately. That said, even in competition I'm extending my hips over 2-3 seconds rather than spiking it - it's about committed, progressive pressure versus slow, teaching pressure. The Achilles also serves as an excellent setup for other leg attacks. When opponents defend by turning their knee, you can transition to outside Ashi or toe hold. When they pull back, you can follow to inside Ashi or 50-50. The submission itself is dangerous but manageable with proper technique - I've finished countless Achilles Locks in competition and training without causing serious injury because I understand the mechanics and apply them precisely. Master this before moving to heel hooks.
 - **Eddie Bravo**: The Achilles Lock is fundamental, but it's also where a lot of people get creative with variations in the 10th Planet system. We look at it not just as an isolated submission but as part of a leg control system that includes transitions to Electric Chair, Vaporizer, and other positions. One variation we emphasize is the belly-down Achilles Lock where you turn face-down and use your body weight - this is particularly effective in no-gi when grips are sweaty and harder to maintain. The traditional gi approach of sitting back works great, but when you go belly-down, you can use your chest and shoulder pressure to drive the submission while maintaining better control. Safety-wise, this is one area where we're extremely conservative in the gym. The Achilles tendon is no joke - I've seen too many injuries from people cranking ankle locks too fast. In our system, you drill the position and mechanics extensively before ever applying pressure, and even advanced students go slow in training. The innovation comes in how you enter the position and chain submissions together, not in how fast or hard you apply pressure to the joint. Create the dilemma - threaten the Achilles, be ready to transition to knee attacks or sweeps when they defend. Keep your training partners healthy so they can train tomorrow.

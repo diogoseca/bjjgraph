@@ -8,7 +8,7 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 75% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 75% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player's lower body has one leg maintaining minimal engagement with opponent's leg—typically a weakened knee shield touching opponent's hip, a partial butterfly hook without full insertion, or quarter lockdown with reduced squeeze pressure, while the other leg is free or being controlled by opponent's crossface-side pressure
 - Bottom player maintains underhook on one side with forearm deeply connected to opponent's lat or armpit, elbow pointing toward ceiling, creating offensive leverage for sweeps and preventing opponent's shoulder pressure from flattening the position completely
@@ -203,7 +201,7 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has begun passing half guard, advancing their hips and one leg past your centerline
 - You have established underhook control on at least one side before position fully deteriorates
@@ -229,7 +227,7 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Old School Sweep]] → [[Side Control]]
 
@@ -293,7 +291,7 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Half Guard Pass]]** → [[Side Control]] (Opponent Success: 60%)
 - **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 65%)
@@ -306,7 +304,7 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Deep Half Entry]]** → [[Deep Half Guard]]
   - Opponent drives weight forward aggressively to consolidate pass, creating space underneath for deep half insertion
@@ -350,7 +348,7 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

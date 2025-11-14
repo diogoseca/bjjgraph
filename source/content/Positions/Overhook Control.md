@@ -13,10 +13,6 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
 
 
 
-> **Quick Overview**: Overhook Control Position, also known as the whizzer in wrestling terminology, represents one of the most versatile control mechanisms in Brazilian Jiu-Jitsu and grappling. This control involves wrapp...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Short to Medium |
 
-**What Makes This Position Unique:** Arm elevation neutralizes offensive capability
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Overhook Control/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Overhook Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Arm elevation neutralizes offensive capability
 
 
 
@@ -88,10 +72,13 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 <section id="bottom-summary" class="content-section">
 
-## Overhook Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Overhook Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in overhook control balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -140,7 +127,7 @@ The bottom player in overhook control balances defensive frames with offensive o
   - Success Rate: Beginner 26%, Intermediate 42%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Holding overhook statically without using it to create sweep or submission opportunities**
@@ -164,16 +151,17 @@ The bottom player in overhook control balances defensive frames with offensive o
   - ✅ Correction: Be willing to release overhook and transition to escape protocols when opponent has established dominant passing position. The overhook is valuable but not worth holding when it prevents effective defensive responses. Recognize when to let go.
 
 
-👉 **[[Overhook Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Overhook Control Top Perspective
+
+## Playing as Top
+
+[[Overhook Control/Top|→ Full Top Guide]]
 
 
-The top player in overhook control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -225,7 +213,7 @@ The top player in overhook control balances control maintenance with submission 
   - Success Rate: Beginner 32%, Intermediate 48%, Advanced 64%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Leaving gap between armpit and opponent's shoulder while focusing on hand grip**
@@ -252,8 +240,6 @@ The top player in overhook control balances control maintenance with submission 
   - Consequence: Opponent can use your forward momentum against you, potentially sweeping or reversing position. You become vulnerable to opponent's counters and lose the ability to react to their movements. You may lose top position entirely despite having overhook.
   - ✅ Correction: Maintain solid base with feet positioned to support dynamic movement while applying pressure. Keep your weight distributed so you can pressure forward but also react to opponent's escape attempts. Balance offense with defensive awareness and mobility.
 
-
-👉 **[[Overhook Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
 
 
 
-> **Quick Answer**: North-South to Kimura transitions from [[North-South]] to [[Kimura Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> North-South to Kimura transitions from [[North-South]] to [[Kimura Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The North-South to Kimura transition represents a fundamental attacking sequence
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant chest-to-chest pressure throughout the transition to prevent opponent escape
 - Control the near-side arm first before attempting to secure the Kimura grip
 - Use your head position to block the opponent's hip escape and maintain superior position
@@ -180,7 +180,7 @@ The North-South to Kimura transition represents a fundamental attacking sequence
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established North-South position with chest-to-chest pressure
 - Opponent's near-side arm is exposed or defending against your weight
 - Your head is positioned on the mat beside opponent's hip to block escape
@@ -193,7 +193,7 @@ The North-South to Kimura transition represents a fundamental attacking sequence
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure North-South control**: Establish dominant North-South position with your chest pressing firmly into opponent's chest. Your head should be positioned low, near their far hip, with your arms wrapped around their torso or controlling their arms. Distribute your weight evenly with knees wide for maximum base and control. (Timing: Initial control phase)
 2. **Isolate the near-side arm**: Slide your near-side hand under the opponent's near-side arm, reaching for their wrist or forearm. Use your chest pressure to pin their arm against their body, preventing them from pulling it back to safety. Your far-side arm continues to control their far shoulder or head to maintain position. (Timing: As opponent attempts to frame or push)
 3. **Feed the arm across**: Pull the opponent's wrist across their own body using your near-side hand, positioning their arm so the back of their hand is against their far shoulder or neck. This creates the necessary angle for the Kimura grip. Maintain downward pressure with your chest to prevent them from recovering their arm. (Timing: Smooth, controlled movement)
@@ -206,7 +206,7 @@ The North-South to Kimura transition represents a fundamental attacking sequence
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent grabs their own belt or gi to prevent arm isolation** (Effectiveness: High) - Your Response: Attack the far-side arm with a choke or armbar to force them to release their defensive grip, then return to the Kimura attack
 - **Opponent bridges explosively to disrupt your base** (Effectiveness: Medium) - Your Response: Widen your base, lower your center of gravity, and use your head to post on the mat. Ride out the bridge and re-establish control as they return to the mat
 - **Opponent turns into you to recover guard** (Effectiveness: Medium) - Your Response: Follow their rotation while maintaining the Kimura grip, transitioning to side control or mount with the Kimura still secured
@@ -215,25 +215,25 @@ The North-South to Kimura transition represents a fundamental attacking sequence
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing chest pressure while attempting to secure the Kimura grip
+## Common Mistakes
+- **Mistake**: Releasing chest pressure while attempting to secure the Kimura grip
   - **Consequence**: Opponent escapes to their side or recovers guard, losing the dominant position entirely
   - **Correction**: Maintain constant downward pressure with your chest throughout the grip transition. Use your body weight, not just arm strength, to control the opponent
-- **Error**: Attempting the transition with insufficient control of opponent's far-side arm
+- **Mistake**: Attempting the transition with insufficient control of opponent's far-side arm
   - **Consequence**: Opponent uses their free arm to frame against your head or shoulder, creating space to escape
   - **Correction**: Control or pin the far-side arm first, either with your arm or by trapping it with your chest pressure before isolating the near-side arm
-- **Error**: Gripping the opponent's hand instead of their wrist for the figure-four
+- **Mistake**: Gripping the opponent's hand instead of their wrist for the figure-four
   - **Consequence**: Weak grip connection that allows opponent to slip their hand free and escape the submission
   - **Correction**: Grip the wrist with your thumb pointing toward their head, ensuring your grip is above their wrist joint for maximum control
-- **Error**: Sitting too far back too quickly when establishing the Kimura
+- **Mistake**: Sitting too far back too quickly when establishing the Kimura
   - **Consequence**: Loss of chest pressure allows opponent to bridge, turn, or escape to a better position
   - **Correction**: Shift your weight gradually, maintaining chest-to-chest contact until the Kimura grip is completely secure and your position is stable
-- **Error**: Allowing opponent to keep their elbow tight to their body
+- **Mistake**: Allowing opponent to keep their elbow tight to their body
   - **Consequence**: Cannot achieve the necessary angle to finish the submission or transition effectively
   - **Correction**: Use your chest and shoulder pressure to pry their elbow away from their ribs before attempting to feed their arm across their body
-- **Error**: Positioning your head too high near opponent's head instead of their hip
+- **Mistake**: Positioning your head too high near opponent's head instead of their hip
   - **Consequence**: Opponent easily escapes by bridging toward you or turning into your body
   - **Correction**: Keep your head low and positioned near their far hip to block their hip escape and maintain superior control
 
@@ -242,7 +242,7 @@ The North-South to Kimura transition represents a fundamental attacking sequence
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Positional Familiarization** - Understanding North-South control and arm isolation mechanics
 Practice establishing and maintaining North-South position without resistance. Work on isolating the near-side arm and feeding it across the opponent's body. Focus on proper chest pressure and weight distribution. Drill the movement slowly, emphasizing control and precision over speed.
 (Resistance: None)
@@ -269,7 +269,7 @@ Experiment with entries from different North-South variations, use the Kimura th
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Reverse Kimura from North-South**: Instead of feeding the arm across the body, trap the opponent's arm on the near side with their palm facing up, then secure the Kimura grip in reverse. This variation is effective when the opponent defends the traditional grip by keeping their arm tight to their near side. (When to use: When opponent successfully defends the cross-body feed by keeping their elbow tight to their ribs)
 
 **North-South Kimura to Back Take**: Use the Kimura grip as a control handle to roll the opponent onto their side, then transition to back control while maintaining the Kimura grip. This creates a devastating position with both back control and a submission threat. (When to use: When opponent begins to turn into you to defend the Kimura submission)
@@ -309,7 +309,7 @@ Experiment with entries from different North-South variations, use the Kimura th
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When training the North-South to Kimura transition, practitioners must exercise caution to prevent shoulder injuries. The Kimura places significant torque on the shoulder joint, and applying pressure too quickly or forcefully can result in serious injury including shoulder dislocation, rotator cuff tears, or labrum damage. Always apply the technique slowly and progressively, giving your training partner ample time to tap. When drilling, focus on control and positioning rather than forcing the finish. Partners should establish clear tap signals (verbal tap, physical tap with free hand, or foot tap if hands are trapped) before beginning. The person applying the technique must release immediately upon feeling any resistance or tap signal. When defending, do not wait too long to tap - protecting your training longevity is more important than ego. Instructors should closely supervise beginners learning this technique to ensure proper application and safety protocols are followed.
 
@@ -317,7 +317,7 @@ When training the North-South to Kimura transition, practitioners must exercise 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The North-South to Kimura transition is a cornerstone technique in modern BJJ's top control system, bridging the gap between positional dominance and submission finishing. North-South position is typically achieved through transitions from side control, mount escapes, or successful guard passes, and represents one of the strongest control positions in grappling. From this position, the Kimura serves as both a high-percentage submission and a powerful control mechanism that opens multiple attacking pathways. When the direct Kimura finish is defended, practitioners can seamlessly transition to back control (rolling them with the Kimura grip), move to mount (using the arm as a handle), switch to armbars or chokes, or return to side control with superior arm control. This versatility makes the North-South to Kimura transition essential for any top game specialist. The technique also integrates into larger systematic approaches, particularly in submission-oriented games where practitioners chain submissions together. Understanding this transition is crucial for both offensive and defensive purposes - attacking practitioners must master the technique to capitalize on North-South opportunities, while defensive practitioners must understand the mechanics to defend intelligently and avoid injury. The position exemplifies the fundamental BJJ principle of using superior position to create submission opportunities while maintaining control and safety.
 
@@ -325,7 +325,7 @@ The North-South to Kimura transition is a cornerstone technique in modern BJJ's 
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[North-South]] - Starting position for this transition
 - [[Kimura Control]] - Ending position and primary goal of this transition
@@ -348,7 +348,7 @@ The North-South to Kimura transition is a cornerstone technique in modern BJJ's 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The North-South to Kimura transition represents a perfect application of the fundamental principle that superior position creates submission opportunities, not the reverse. From North-South, your weight distribution across the opponent's chest and shoulders creates a biomechanical environment where their defensive capabilities are severely compromised. The key insight is understanding that the Kimura is not simply a submission attempt - it is a control position that creates a decision tree of offensive options. When properly executed, the opponent faces multiple simultaneous threats: the direct shoulder lock finish, the transition to back control using the arm as a lever, the switch to armbar attacks, or the maintenance of dominant top position. This exemplifies what I call 'layered offense' - each defensive choice the opponent makes opens a different offensive pathway. The technical precision required is in the grip mechanics and weight distribution. Your figure-four grip must be unbreakable, achieved through proper wrist control and closed-loop hand connection. Your weight must remain distributed across their chest even as you adjust angles for the finish. The transition timing is critical - you must isolate the arm while maintaining sufficient pressure to prevent escape, requiring coordinated movement of your upper and lower body. Master this transition and you master the fundamental concept of using positional dominance to create inexorable submission pressure.
 - **Gordon Ryan**: The North-South to Kimura is one of my highest percentage attacks in competition because it exploits a fundamental weakness in most people's top game - they focus so much on getting to North-South that they don't develop sophisticated attacks from there. In high-level competition, your opponents will defend basic submissions, so you need techniques that create genuine dilemmas. This transition does exactly that. When I secure the Kimura grip from North-South, I'm not necessarily trying to finish it immediately - I'm creating a control position that forces my opponent to choose between defending the shoulder lock or defending the back take. Both defenses open additional attacks. Against defensive specialists who grab their belt, I immediately attack the far arm with a choke or armbar, forcing them to release. Against opponents who try to turn into me, I follow their movement and take the back while keeping the Kimura grip - now I have back control with a submission already locked in. The competition-proven detail that separates this from a low-percentage attack is the head position - keeping my head low near their far hip prevents all their major escape attempts. I also never rush the grip. I'd rather spend an extra five seconds establishing an unbreakable Kimura connection than attempt a quick finish with a weak grip. In competition, patience and precision beat speed every time. This technique has scored me numerous victories because once you truly master the control aspects, opponents have no good defensive options remaining.
 - **Eddie Bravo**: From a 10th Planet perspective, the North-South to Kimura is a gateway technique that opens up the entire submission control game. What makes this transition beautiful is how it creates what I call 'cascading threats' - one attack flowing seamlessly into the next based on how your opponent defends. We integrate this heavily into our system because it connects to so many of our signature positions. When I have the Kimura grip from North-South, I'm looking at five or six different paths depending on how they react: if they defend by turning into me, I'm transitioning to the truck position or taking the back; if they defend by straightening their arm, I'm switching to the armbar or transitioning to a crucifix; if they defend by grabbing their belt, I'm attacking the opposite side with a choke or different arm attack. The innovation we've developed is using the Kimura grip as a steering wheel - you're literally controlling their entire upper body with that one grip. We've also found that combining this with rubber guard concepts creates additional layers. If you can get one leg over their head while maintaining the Kimura, you've created an inescapable position that combines the best elements of both techniques. The key is developing the feel for when to hold the position and apply pressure versus when to flow into the next attack. Don't get married to the finish - use it as a control position that creates opportunities. Train this transition until the Kimura grip becomes your default response from North-South, and you'll see your submission rate from top positions skyrocket.

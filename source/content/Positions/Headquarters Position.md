@@ -8,7 +8,7 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -71,7 +71,7 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,9 +177,7 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
-> **Quick Stats**: Advanced practitioners advance to better positions 80% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners advance to better positions 80% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -211,7 +209,7 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - One opponent leg controlled and pinned between top player's legs with knee driven toward mat by shin or knee pressure, restricting hip mobility and preventing guard recovery through sustained downward pressure
 - Supporting leg firmly posted wide on mat creating stable triangular base typically positioned 45-90 degrees from controlled leg, providing stability against sweeps while allowing dynamic weight transfer for passing attacks
@@ -224,7 +222,7 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Solid understanding of base mechanics and weight distribution principles in top positions
 - Ability to establish and maintain knee-line control against resistance from various guard configurations
@@ -316,7 +314,7 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How to Defend and Counter
+## Defensive Counters
 
 - **[[Frame and Shrimp]]** → [[Half Guard]] (Success: 45%)
 - **[[Underhook Sweep from Half]]** → [[Scramble Position]] (Success: 35%)
@@ -371,7 +369,7 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
 

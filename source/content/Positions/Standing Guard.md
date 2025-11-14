@@ -13,10 +13,6 @@ description: "Master Standing Guard in BJJ. Strategic guide covering defensive s
 
 
 
-> **Quick Overview**: Standing Guard represents a critical transitional phase where both practitioners maintain upright postures while engaging in grip fighting and distance management. This position serves as the gateway ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short to Medium | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Medium |
 
-**What Makes This Position Unique:** Upright posture for mobility and distance control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Standing Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Standing Guard/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Upright posture for mobility and distance control
 
 
 
@@ -88,10 +72,13 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 
 <section id="bottom-summary" class="content-section">
 
-## Standing Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Standing Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in standing guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -146,7 +133,7 @@ The bottom player in standing guard balances defensive frames with offensive opp
   - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Standing too upright with locked knees and flat feet**
@@ -178,16 +165,17 @@ The bottom player in standing guard balances defensive frames with offensive opp
   - ✅ Correction: Constantly monitor position relative to mat boundaries and use circular movement to stay in center of training area
 
 
-👉 **[[Standing Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Standing Guard Top Perspective
+
+## Playing as Top
+
+[[Standing Guard/Top|→ Full Top Guide]]
 
 
-The top player in standing guard enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -236,7 +224,7 @@ The top player in standing guard enjoys offensive advantages with access to subm
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Leaning forward with weight over opponent's guard**
@@ -267,8 +255,6 @@ The top player in standing guard enjoys offensive advantages with access to subm
   - Consequence: Allows opponent to establish ideal guard, set grips, and prepare defensive strategy
   - ✅ Correction: Apply constant pressure through grip fighting and dynamic footwork to keep opponent reactive and defensive
 
-
-👉 **[[Standing Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

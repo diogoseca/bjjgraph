@@ -8,7 +8,7 @@ description: "Navigate leg drag control from bottom position. Master defensive t
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Navigate leg drag control from bottom position. Master defensive t
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Navigate leg drag control from bottom position. Master defensive t
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 60% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -193,7 +191,7 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player's near-side leg is controlled and pulled across their body by the top player, typically with the top player's arm threading under or over the leg and gripping the hip or pants. This crossed leg configuration creates the fundamental control mechanism of the position and limits the bottom player's ability to use their legs for guard retention.
 - Top player maintains significant hip control through the trapped leg position, with their chest or shoulder driving pressure into the bottom player's near hip. This pressure prevents the bottom player from turning fully toward the top player and creates a constant threat of back exposure as the bottom player's natural defensive reaction is to turn away.
@@ -204,7 +202,7 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has achieved control of one leg and pulled it across your body during guard passing sequence
 - You have not yet been turned completely to your side or onto your stomach
@@ -231,7 +229,7 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Leg Drag Escape to Closed Guard]] → [[Closed Guard]]
 
@@ -295,7 +293,7 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Leg Drag Pass to Side Control]]** → [[Side Control]] (Opponent Success: 65%)
 - **[[Leg Drag to Back Take]]** → [[Back Control]] (Opponent Success: 55%)
@@ -309,7 +307,7 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Counter Back Take Attempt]]** → [[Half Guard]]
   - When opponent attempts to take back and you prevent hook insertion by capturing their leg
@@ -349,7 +347,7 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

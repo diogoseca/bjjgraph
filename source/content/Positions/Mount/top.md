@@ -8,7 +8,7 @@ description: "Master offensive strategies from top Mount. Learn control mechanic
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master offensive strategies from top Mount. Learn control mechanic
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master offensive strategies from top Mount. Learn control mechanic
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75%.
 
 ---
 
@@ -187,7 +187,7 @@ The top Mount position represents the pinnacle of positional dominance in Brazil
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner sits astride opponent's torso with knees positioned on either side of body
 - Top practitioner's hips maintain downward pressure while upper body remains mobile
@@ -199,7 +199,7 @@ The top Mount position represents the pinnacle of positional dominance in Brazil
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of base maintenance and weight distribution from top positions
 - Knowledge of fundamental mount submissions (Americana, Armbar, Cross Collar Choke)
@@ -227,7 +227,7 @@ The top Mount position represents the pinnacle of positional dominance in Brazil
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Armbar from Mount]] → [[Armbar Control]]
 
@@ -305,7 +305,7 @@ The top Mount position represents the pinnacle of positional dominance in Brazil
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Elbow Escape]]** → [[Closed Guard]] (Opponent Success: 45%)
 - **[[Upa Escape]]** → [[Closed Guard]] (Opponent Success: 35%)
@@ -319,7 +319,7 @@ The top Mount position represents the pinnacle of positional dominance in Brazil
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Grapevine Legs]]** → [[Mount]]
   - When opponent attempts hip escape to side
@@ -366,7 +366,7 @@ The top Mount position represents the pinnacle of positional dominance in Brazil
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

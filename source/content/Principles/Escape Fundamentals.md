@@ -8,7 +8,7 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
 
 
 
-> **Quick Answer**: Escape Fundamentals is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Escape Fundamentals is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Escape Fundamentals represent the core principles and mechanical patterns underl
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Establish frames immediately as first defensive priority to create structural barriers
 - Generate space between bodies through hip movement and frame pressure
 - Create angles perpendicular to opponent's pressure to redirect force
@@ -181,7 +181,7 @@ Escape Fundamentals represent the core principles and mechanical patterns underl
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Frame Construction and Maintenance**: The ability to establish and maintain structural frames using forearms, knees, and feet to create barriers against opponent's pressure. Effective framing requires understanding leverage points, proper bone alignment, and the capacity to maintain frame integrity under dynamic pressure while conserving energy.
 
 **Hip Escape Mechanics**: Proficiency in shrimping, bridging, and hip movement patterns that create distance and angles from bottom positions. This includes understanding when to use explosive versus continuous hip movement, proper foot placement for generating power, and sequencing hip escapes with upper body movements.
@@ -204,7 +204,7 @@ Escape Fundamentals represent the core principles and mechanical patterns underl
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Frame Creation]]** (Prerequisite): Frame Creation forms the foundational skill that enables all escape fundamentals, as frames provide the structural basis for generating space and protecting against submissions during escape attempts.
 - **[[Hip Escape Mechanics]]** (Prerequisite): Hip movement patterns are essential mechanical components of escape fundamentals, providing the primary means of generating distance and creating angles from bottom positions.
 - **[[Escape Hierarchy]]** (Extension): Escape Hierarchy builds upon escape fundamentals by providing positional priority system for determining which escapes to attempt based on current position's relative danger and opportunity.
@@ -223,7 +223,7 @@ Escape Fundamentals represent the core principles and mechanical patterns underl
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Escape fundamentals manifest through establishing frames across opponent's hips and chest, creating space via hip bridge and elbow escape, generating angles to insert knee shield, and recovering to half guard or closed guard through sequential movements.
 
 **Side Control**: Applied by constructing frames using forearms against opponent's neck and hip, shrimping to create hip distance, turning to face opponent while maintaining frames, and recovering guard through insertion of knee shield or butterfly hooks.
@@ -262,7 +262,7 @@ Escape Fundamentals represent the core principles and mechanical patterns underl
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess immediate submission threats and control points**: Identify which submissions are most immediately threatening and which control points opponent has established. Prioritize defending most dangerous submission while preparing escape mechanics.
 2. **Establish protective frames at critical control points**: Insert frames at opponent's primary pressure points (hips, shoulders, neck) using forearms, knees, or feet. Create structural barriers that prevent opponent from advancing position or tightening submissions.
 3. **Identify opponent's base and pressure direction**: Determine where opponent's weight is distributed and direction of primary pressure. Use this information to plan hip movement direction and identify which side offers better escape opportunity.
@@ -275,28 +275,28 @@ Escape Fundamentals represent the core principles and mechanical patterns underl
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting explosive single-movement escapes without establishing frames first
+## Common Mistakes
+- **Mistake**: Attempting explosive single-movement escapes without establishing frames first
   - **Consequence**: Creates energy expenditure without structural foundation, allowing opponent to easily reestablish control after brief disruption. Results in rapid fatigue and progressively diminishing escape attempts.
   - **Correction**: Always establish frames before attempting dynamic movement. Build escape through sequential stages: frame, space, angle, recover. Coordinate explosive effort with proper structural positioning rather than using explosion as substitute for technique.
-- **Error**: Maintaining flat body position instead of turning to face opponent
+- **Mistake**: Maintaining flat body position instead of turning to face opponent
   - **Consequence**: Allows opponent to maintain full pressure application and control over both shoulders. Prevents effective hip escape and makes guard recovery extremely difficult. Increases submission vulnerability significantly.
   - **Correction**: Immediately begin turning to face opponent as part of escape mechanics. Create perpendicular or angular alignment rather than accepting flat positioning. Use frames to facilitate rotation while protecting against submissions.
-- **Error**: Using isolated limb strength instead of whole-body mechanics
+- **Mistake**: Using isolated limb strength instead of whole-body mechanics
   - **Consequence**: Creates rapid arm fatigue as frames collapse under sustained pressure. Wastes energy on ineffective pushing that opponent easily counters with weight distribution. Leads to frame collapse and position deterioration.
   - **Correction**: Drive frame pressure from hip movement and core rotation rather than arm strength alone. Coordinate upper and lower body to create unified escape system. Use skeletal structure and leverage rather than muscular effort as primary force generation.
-- **Error**: Abandoning escape attempt when opponent adjusts position
+- **Mistake**: Abandoning escape attempt when opponent adjusts position
   - **Consequence**: Allows opponent to consolidate control between escape attempts, making subsequent escapes progressively more difficult. Creates pattern of isolated rather than continuous defensive pressure.
   - **Correction**: Maintain constant escape pressure even when opponent counters initial attempt. Transition immediately to alternative escape pathway when primary route is blocked. View escape as continuous process rather than discrete attempts.
-- **Error**: Focusing solely on position improvement while ignoring submission threats
+- **Mistake**: Focusing solely on position improvement while ignoring submission threats
   - **Consequence**: Results in submission while attempting escape, as defensive priorities are misaligned. Creates dangerous situations where escape attempt actually facilitates opponent's submission opportunities.
   - **Correction**: Maintain submission awareness throughout escape process. Protect vulnerable areas (neck, arms, legs) while simultaneously working toward position improvement. Adjust escape pathway if submission threat becomes immediate.
-- **Error**: Escaping without clear destination or guard recovery plan
+- **Mistake**: Escaping without clear destination or guard recovery plan
   - **Consequence**: Creates space and angles but fails to capitalize by recovering specific guard position. Allows opponent to reestablish control in created space as practitioner lacks clear transition objective.
   - **Correction**: Identify target guard position before initiating escape sequence. Work toward specific recovery objective (closed guard, half guard, etc.) throughout escape process. Complete escape only when improved position is actually established.
-- **Error**: Using same escape timing and rhythm repeatedly
+- **Mistake**: Using same escape timing and rhythm repeatedly
   - **Consequence**: Becomes predictable to opponent who can anticipate and counter escape attempts before they fully develop. Reduces escape success rate as opponent establishes defensive patterns against recognized timing.
   - **Correction**: Vary escape timing between continuous pressure and explosive bursts. Use rhythm changes and false timing to create uncertainty in opponent's defensive responses. Maintain unpredictability while adhering to fundamental escape mechanics.
 
@@ -305,7 +305,7 @@ Escape Fundamentals represent the core principles and mechanical patterns underl
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Pin Escapes with Increasing Resistance** (Focus: Develops ability to apply escape fundamentals under realistic pressure while building confidence through systematic progression. Allows refinement of frame placement, hip mechanics, and timing before facing full resistance.)
 Begin from specific pins with partner providing graduated resistance levels (30%, 50%, 70%, 100%). Focus on executing complete escape sequences using proper fundamentals at each resistance level before progressing.
 
@@ -330,7 +330,7 @@ Record sparring sessions and review escape attempts that failed, identifying spe
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Understands concept of framing but struggles to maintain frame integrity under sustained pressure
 - Can execute basic hip escape movements in isolation but fails to coordinate with upper body framing
@@ -372,7 +372,7 @@ Record sparring sessions and review escape attempts that failed, identifying spe
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Frame Creation]] (Principle) - Core prerequisite skill that provides structural foundation for all escape fundamentals applications
 - [[Hip Escape Mechanics]] (Principle) - Essential mechanical component providing primary space and angle generation during escapes
@@ -392,7 +392,7 @@ Record sparring sessions and review escape attempts that failed, identifying spe
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches escape fundamentals as hierarchical system of defensive priorities: frame establishment, space creation, angle generation, and position recovery. Systematically teaches that escapes failing to follow this sequence have significantly reduced success probability regardless of athleticism or determination. Emphasizes concept of 'escape stages' where practitioner must complete each stage before progressing to next, noting that skipping stages creates failure regardless of technique quality in later stages. Views escape fundamentals as applicable across all positions with position-specific variations being surface-level differences built on common foundational principles. Particularly stresses the biomechanical reality that frames must be established before space can be created, and space must exist before angles can be generated—any attempt to reverse this ordering violates mechanical efficiency and leads to predictable failure patterns.
 - **Gordon Ryan**: Focuses on aggressive, continuous escape pressure that creates cumulative defensive success rather than relying on isolated escape attempts. Emphasizes maintaining offensive mindset even when defending, using escape mechanics to create scramble situations where opponent loses control advantage. Particularly stresses importance of immediate escape initiation when position is lost rather than waiting for opponent to consolidate control, noting that early-stage escapes have dramatically higher success rates than late-stage attempts from fully consolidated positions. Views escape fundamentals as enabling defensive confidence that supports offensive aggression, knowing that position loss is recoverable through systematic escape mechanics. Advocates for training escapes extensively against larger partners to develop technical precision under worst-case pressure scenarios, building escape capability that functions reliably even when strength and size advantages are unavailable.
 - **Eddie Bravo**: Integrates unconventional escape mechanics into 10th Planet system that sometimes violate traditional escape sequencing but follow fundamental principles in non-obvious ways. Emphasizes what he calls 'proactive defense' where escape mechanics are initiated before opponent fully establishes position, creating continuous defensive pressure that prevents secure control establishment. Teaches that escape fundamentals can be expressed through varied movement patterns beyond traditional shrimp-and-recover sequences, particularly through leg-based defenses and inverted positions that create space and angles using non-traditional mechanics. Advocates for developing personal escape style that reflects individual attributes while adhering to fundamental principles of framing, spacing, and angling. Particularly emphasizes the psychological component of escapes, teaching that belief in escape capability and willingness to accept uncomfortable positions temporarily often determines whether escape fundamentals can be applied successfully under competition pressure.

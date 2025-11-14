@@ -8,7 +8,7 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50%.
 
 ---
 
@@ -191,7 +191,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's chest positioned perpendicular across opponent's back, creating heavy cross-body pressure through shoulder and upper torso contact with opponent's spine and shoulder blade area
 - Opponent in turtle position with knees and hands/elbows on mat, back exposed and facing downward, unable to achieve standing or supine positions
@@ -204,7 +204,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent in defensive turtle position with back exposed
 - Top player has achieved perpendicular angle relative to opponent's spine
@@ -232,7 +232,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Turtle to Back Control]] → [[Back Control]]
 
@@ -296,7 +296,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Granby Roll]]** → [[Closed Guard]] (Opponent Success: 30%)
 - **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 25%)
@@ -309,7 +309,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Take Generic]]** → [[Back Control]]
   - Opponent attempts to roll forward or granby
@@ -356,7 +356,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

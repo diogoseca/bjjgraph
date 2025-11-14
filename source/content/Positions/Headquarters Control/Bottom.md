@@ -8,7 +8,7 @@ description: "Master defensive headquarters position in BJJ. Strategic frame-bas
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master defensive headquarters position in BJJ. Strategic frame-bas
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master defensive headquarters position in BJJ. Strategic frame-bas
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ The headquarters bottom position is particularly valuable in modern no-gi compet
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player maintains outside leg (far leg) as knee shield or butterfly hook creating distance between their hip and opponent's chest, with shin/knee pressing into opponent's torso or shoulder to prevent chest-to-chest contact
 - Bottom player's inside leg (near leg) is either hooked behind opponent's near leg in half guard configuration or positioned as secondary hook/frame, maintaining connection to prevent full pass and providing leverage for sweeps
@@ -204,7 +202,7 @@ The headquarters bottom position is particularly valuable in modern no-gi compet
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has initiated guard pass and established grips or pressure on your guard structure
 - You maintain at least one leg frame (knee shield or butterfly hook) preventing full pass completion
@@ -232,7 +230,7 @@ The headquarters bottom position is particularly valuable in modern no-gi compet
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Underhook Sweep from Half]] → [[Standing Position]]
 
@@ -282,7 +280,7 @@ The headquarters bottom position is particularly valuable in modern no-gi compet
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Headquarters Pass]]** → [[Side Control]] (Opponent Success: 45%)
 - **[[Knee Slice from Half]]** → [[Side Control]] (Opponent Success: 50%)
@@ -294,7 +292,7 @@ The headquarters bottom position is particularly valuable in modern no-gi compet
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Frame Recovery]]** → [[Knee Shield Half Guard]]
   - Opponent attempts to collapse knee shield with crossface pressure
@@ -334,7 +332,7 @@ The headquarters bottom position is particularly valuable in modern no-gi compet
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

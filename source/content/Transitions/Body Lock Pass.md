@@ -8,7 +8,7 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step execution from Half
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step execution from Half
 
 
 
-> **Quick Answer**: Body Lock Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Body Lock Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ This pass is especially valuable against opponents with strong half guard retent
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish tight upper body connection before attempting to pass
 - Use chest-to-chest pressure to eliminate opponent's frames
 - Control opponent's head and shoulders to prevent re-guard
@@ -184,7 +184,7 @@ This pass is especially valuable against opponents with strong half guard retent
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in half guard bottom with one of your legs trapped
 - Ability to establish upper body control (over-under or double unders)
 - Hip mobility to create pressure angles
@@ -197,7 +197,7 @@ This pass is especially valuable against opponents with strong half guard retent
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish upper body control**: From top half guard, secure a body lock by threading one arm under the opponent's near armpit and the other over their far shoulder, clasping your hands together behind their back. Your chest should be tight to theirs with no space between your bodies. (Timing: As opponent attempts to create frames or distance)
 2. **Create head control**: Drive your head to the mat on the opposite side of where your leg is trapped, positioning your forehead or temple against the mat. This prevents the opponent from turning into you and creates a heavy crossface pressure on their jaw and neck. (Timing: Immediately after securing body lock)
 3. **Flatten the opponent**: Using your chest-to-chest connection and head pressure, drive your weight forward and down, forcing the opponent's back flat to the mat. Simultaneously sprawl your hips back slightly to create downward pressure through your torso while maintaining the tight body lock. (Timing: Maintain steady pressure for 2-3 seconds)
@@ -210,7 +210,7 @@ This pass is especially valuable against opponents with strong half guard retent
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent frames against your hips to prevent being flattened** (Effectiveness: Medium) - Your Response: Anticipate the frame by securing the body lock extra tight and using your head pressure more aggressively. Walk your hips in small increments to bypass the frames rather than trying to drive through them directly.
 - **Opponent locks down your trapped leg with lockdown position** (Effectiveness: High) - Your Response: Don't try to rip your leg free immediately. Instead, focus on flattening the opponent first, which reduces their ability to control your leg. Once flat, methodically work to break the lockdown by controlling their far knee and creating separation.
 - **Opponent turns into you to prevent being flattened** (Effectiveness: Medium) - Your Response: Use your head position to prevent the turn. If they succeed in turning, adjust your pass to address the new angle - you may transition to a different passing approach or re-establish your body lock from the modified position.
@@ -219,22 +219,22 @@ This pass is especially valuable against opponents with strong half guard retent
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Maintaining too much space between your chest and opponent's chest when establishing body lock
+## Common Mistakes
+- **Mistake**: Maintaining too much space between your chest and opponent's chest when establishing body lock
   - **Consequence**: Opponent can create frames and prevent being flattened, nullifying the entire passing sequence
   - **Correction**: Focus on eliminating all space when initially securing the body lock. Your chest should be glued to theirs before attempting to flatten them.
-- **Error**: Trying to pass the leg before fully flattening the opponent
+- **Mistake**: Trying to pass the leg before fully flattening the opponent
   - **Consequence**: Opponent retains mobility and can re-establish frames, recover guard, or transition to other defensive positions
   - **Correction**: Be patient and ensure the opponent is completely flat before attempting to clear the trapped leg. Flattening is the prerequisite for successful leg clearing.
-- **Error**: Raising your hips too high when attempting to clear the leg
+- **Mistake**: Raising your hips too high when attempting to clear the leg
   - **Consequence**: Creates space underneath for opponent to re-guard or escape, and reduces your pressure advantage
   - **Correction**: Keep your hips relatively low throughout the pass. Use small, controlled hip movements rather than large motions that create gaps.
-- **Error**: Abandoning head control to look at the trapped leg
+- **Mistake**: Abandoning head control to look at the trapped leg
   - **Consequence**: Opponent can turn into you, create frames, or escape the position entirely
   - **Correction**: Maintain head position and pressure throughout. Feel for the leg clearing rather than looking - your head position is more important than visual confirmation.
-- **Error**: Releasing the body lock too early during the transition to side control
+- **Mistake**: Releasing the body lock too early during the transition to side control
   - **Consequence**: Opponent can create immediate space and potentially recover guard before you consolidate position
   - **Correction**: Only release the body lock once your trapped leg is completely free and you're ready to immediately establish proper side control grips and pressure.
 
@@ -243,7 +243,7 @@ This pass is especially valuable against opponents with strong half guard retent
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Connection Mastery** - Establishing and maintaining tight body lock connection
 Practice securing the body lock from various half guard positions with no resistance. Focus on eliminating all space and maintaining connection while moving. Partner should be compliant, allowing you to develop feel for proper tightness and positioning.
 (Resistance: None)
@@ -274,7 +274,7 @@ Continuously refine pressure application, timing, and transitions. Develop abili
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double Unders Body Lock Pass**: Instead of traditional over-under body lock, both arms go under the opponent's armpits, hands clasped behind their back. This variation provides even tighter control and prevents them from using whizzer defense. (When to use: Against opponents who consistently defend with whizzer against traditional body lock, or when you have exceptional upper body strength to maintain the connection)
 
 **Body Lock to Leg Drag Transition**: When opponent successfully prevents the traditional pass by keeping their knee shield strong, transition from the body lock into a leg drag position by using your body lock to lift and redirect their legs to one side. (When to use: When encountering strong knee shield retention that prevents traditional clearing, or against flexible opponents who can maintain frames despite pressure)
@@ -312,7 +312,7 @@ Continuously refine pressure application, timing, and transitions. Develop abili
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The body lock pass is generally a safe technique for both practitioners when executed properly. The passer should be mindful of applying chest pressure gradually rather than explosively to avoid causing rib injuries or breathing difficulties in their partner. When flattening the opponent, avoid driving your head into their jaw with excessive force, as this can cause TMJ issues or neck strain. For the bottom player, tap early if you experience any breathing difficulty or neck pain. When practicing with training partners of significantly different sizes, the larger practitioner should modulate their pressure to match their partner's size and experience level. During drilling phases, communicate clearly about pressure levels to ensure both partners can train safely and effectively.
 
@@ -320,7 +320,7 @@ The body lock pass is generally a safe technique for both practitioners when exe
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The body lock pass is a cornerstone technique in modern pressure passing systems and integrates seamlessly with multiple guard passing approaches. It's particularly valuable as part of a systematic half guard passing game, where it can be combined with underhook passes, knee slice variations, and leg drag options. The technique serves as an excellent foundation for developing pressure passing skills because it teaches fundamental concepts of connection, pressure application, and systematic progression that apply across all passing scenarios. Within the broader BJJ positional hierarchy, mastering the body lock pass provides a reliable method for advancing from the half guard battleground to the dominant side control position. It's especially important in no-gi contexts where it often serves as a primary passing option when gi-specific grips are unavailable. The pass also integrates well with back attack systems - if the opponent turns away to defend the pass, the passer can transition to taking the back.
 
@@ -328,7 +328,7 @@ The body lock pass is a cornerstone technique in modern pressure passing systems
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Half Guard]] - Starting position for this technique
 - [[Side Control]] - Ending position and primary goal
@@ -348,7 +348,7 @@ The body lock pass is a cornerstone technique in modern pressure passing systems
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The body lock pass represents a perfect example of systematic connection-based passing. The fundamental principle is simple: establish a connection that cannot be broken, then use that connection to methodically remove the opponent's defensive options. What makes this pass particularly effective is that it reverses the normal dynamic of guard passing - instead of you having to maintain multiple grips while the opponent only needs to break one, the body lock creates a singular connection point that requires their entire body to escape. From a biomechanical perspective, the pass works because it eliminates the opponent's ability to create the frames that are essential for guard retention. When executed properly, you're not fighting against their frames - you're preventing the frames from ever being established. The key technical detail that separates successful execution from failure is the absolute elimination of space between your chest and theirs. Even a few inches of space allows them to create structure, but zero space removes that possibility entirely. The pass also demonstrates proper pressure application - you're not using strength to smash through their defense, you're using positioning to make their defense impossible.
 - **Gordon Ryan**: The body lock pass is one of the highest percentage passes in modern no-gi competition, and it's a technique I use constantly at the highest levels. What makes it so effective in competition is its reliability - it doesn't require perfect timing or catching the opponent off-guard, it just requires proper execution of the fundamental mechanics. Against elite competitors with incredible guard retention, this pass works because it gives them nothing to work with. They can't push your hips, they can't create angles, they can't establish their knee shield effectively - all their normal defensive tools are neutralized by the tight connection. The key to using this in competition is understanding that it's a patient pass, not an explosive one. Trying to rush through the steps will fail against good opponents. Instead, you need to be comfortable spending time in the position, maintaining heavy pressure, and waiting for the right moment to advance. I also use this pass as a way to tire opponents out - the person on bottom carrying all that pressure while being unable to create effective defense is exhausting. Often they'll make a desperate escape attempt that opens up the pass or gives me their back.
 - **Eddie Bravo**: What I love about the body lock pass is how it completely shuts down the dynamic movements that make half guard dangerous. In the 10th Planet system, we spend a lot of time developing our half guard game with lockdown, electric chair, and all these sweeps, but the body lock pass done correctly takes all of that away. The innovation I've added to this technique is understanding how to use it as a starting point for other attacks. If someone's defending the body lock pass well and you're stuck there, you're not really stuck - you have incredible control and you can transition to darce chokes, anacondas, or even give up the pass attempt and go for guillotines if they try to turn in. The body lock position itself becomes a control position rather than just a passing position. For no-gi specifically, this pass is gold because you're not relying on fabric grips that can be broken. Your hands are locked together behind their back, and that's an incredibly strong connection that doesn't require grip strength to maintain. I teach my students to think of the body lock not as a quick pass but as a dominant position where you have multiple options, and the pass is just one of them.

@@ -13,10 +13,6 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 
 
 
-> **Quick Overview**: Collar sleeve guard is a fundamental open guard variation that combines a collar grip (typically cross-collar) with a same-side sleeve grip to create powerful off-balancing and sweeping opportunities....
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -62,31 +58,19 @@ The position demands active hip movement and constant angle adjustment to remain
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Offensive | Neutral |
-| Risk Level | Low to Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium to Long | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive | Neutral |
+| **Risk Level** | Low to Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium to Long | Medium to Long |
 
-**What Makes This Position Unique:** Two-grip asymmetry creates rotational control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Collar Sleeve Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Collar Sleeve Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Two-grip asymmetry creates rotational control
 
 
 
@@ -94,10 +78,13 @@ The position demands active hip movement and constant angle adjustment to remain
 
 <section id="bottom-summary" class="content-section">
 
-## Collar Sleeve Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Collar Sleeve Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in collar sleeve guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -152,7 +139,7 @@ The bottom player in collar sleeve guard controls the position with offensive at
   - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Maintaining static hip position without constant angle adjustment**
@@ -180,16 +167,17 @@ The bottom player in collar sleeve guard controls the position with offensive at
   - ✅ Correction: Chain attacks where defense of one technique directly exposes opponent to complementary attack (sweep to triangle, triangle to omoplata)
 
 
-👉 **[[Collar Sleeve Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Collar Sleeve Guard Top Perspective
+
+## Playing as Top
+
+[[Collar Sleeve Guard/Top|→ Full Top Guide]]
 
 
-The top player in collar sleeve guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -238,7 +226,7 @@ The top player in collar sleeve guard manages the position strategically based o
   - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing posture to break forward when opponent pulls collar grip**
@@ -265,8 +253,6 @@ The top player in collar sleeve guard manages the position strategically based o
   - Consequence: Opponent can focus all defensive energy on shutting down your single passing approach
   - ✅ Correction: Threaten passes in multiple directions, using opponent's defense of one pass to create opportunities for complementary passes
 
-
-👉 **[[Collar Sleeve Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

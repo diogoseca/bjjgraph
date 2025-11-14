@@ -8,7 +8,7 @@ description: "Master Squid Guard Top in BJJ. Learn guard passing strategies, lap
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Squid Guard Top in BJJ. Learn guard passing strategies, lap
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Squid Guard Top in BJJ. Learn guard passing strategies, lap
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35%.
 
 ---
 
@@ -191,7 +191,7 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player stands or kneels with one or both legs entangled by bottom player's lapel wrapped around knee or ankle, creating tension and control through fabric manipulation
 - Bottom player remains on their back or inverted with active lapel grips maintaining connection to top player's lower body, using lapel tension to control distance and create off-balancing threats
@@ -203,7 +203,7 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has successfully established Squid Guard configuration with lapel wrapped around top player's leg
 - Top player has entered bottom player's open guard range and triggered lapel entanglement
@@ -230,7 +230,7 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Stack Pass]] → [[Side Control]]
 
@@ -280,7 +280,7 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Berimbolo Entry]]** → [[Back Control]] (Opponent Success: 45%)
 - **[[Kiss of the Dragon]]** → [[Back Control]] (Opponent Success: 40%)
@@ -293,7 +293,7 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Step]]** → [[Headquarters Position]]
   - Bottom player begins inversion sequence
@@ -335,7 +335,7 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

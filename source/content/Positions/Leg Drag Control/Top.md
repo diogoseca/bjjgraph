@@ -8,7 +8,7 @@ description: "Master leg drag control from top position. Complete strategic guid
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master leg drag control from top position. Complete strategic guid
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master leg drag control from top position. Complete strategic guid
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 45% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 45%.
 
 ---
 
@@ -193,7 +193,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains control of bottom player's near-side leg, typically with their arm threading under or around it and gripping the hip, pants, or belt. This leg control is pulled across the bottom player's body, creating the characteristic crossed-leg position that defines the leg drag and serves as the primary control mechanism.
 - Top player's chest or shoulder applies constant pressure to the bottom player's near hip, driving them onto their side and preventing them from facing directly into the top player. This hip pressure is critical—it prevents the bottom player from using their legs effectively for defense and creates the threat of back exposure that dominates the position's dynamics.
@@ -204,7 +204,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - You have entered opponent's guard space and secured control of one leg
 - Opponent's guard structure has been compromised sufficiently to pull leg across their body
@@ -231,7 +231,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Leg Drag Pass to Side Control]] → [[Side Control]]
 
@@ -309,7 +309,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Leg Drag Escape to Half Guard]]** → [[Half Guard]] (Opponent Success: 40%)
 - **[[Technical Standup from Bottom]]** → [[Standing Position]] (Opponent Success: 30%)
@@ -323,7 +323,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Follow to Back Control]]** → [[Back Control]]
   - When opponent turns away to defend their guard, follow their rotation and insert hooks
@@ -370,7 +370,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

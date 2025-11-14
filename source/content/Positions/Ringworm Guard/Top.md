@@ -8,7 +8,7 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 60% of the time and finish submissions in 15% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 60% of the time and finish submissions in 15%.
 
 ---
 
@@ -193,7 +193,7 @@ This position is primarily encountered in gi-based competition and training envi
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player has one leg compromised by opponent's lapel wrapped around the knee or thigh area, restricting mobility and creating mechanical disadvantage with limited base options and altered weight distribution patterns
 - Bottom player maintains lapel grip with tension while using leg frames, hooks, or shields to control distance and create off-balancing angles, forcing top player into reactive defensive patterns
@@ -204,7 +204,7 @@ This position is primarily encountered in gi-based competition and training envi
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has successfully threaded their lapel around your leg and secured the grip
 - Bottom player maintains tension on the lapel wrap creating movement restrictions
@@ -231,7 +231,7 @@ This position is primarily encountered in gi-based competition and training envi
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Lapel Grip Break and Posture Recovery]] → [[Open Guard]]
 
@@ -281,7 +281,7 @@ This position is primarily encountered in gi-based competition and training envi
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Ringworm Sweep to Back Control]]** → [[Back Control]] (Opponent Success: 50%)
 - **[[Triangle Setup from Lapel Control]]** → [[Triangle Control]] (Opponent Success: 40%)
@@ -293,7 +293,7 @@ This position is primarily encountered in gi-based competition and training envi
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Immediate Posture and Grip Strip]]** → [[Open Guard]]
   - Bottom player attempts to tighten lapel wrap or establish secondary grips
@@ -333,7 +333,7 @@ This position is primarily encountered in gi-based competition and training envi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

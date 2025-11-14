@@ -8,7 +8,7 @@ description: "Master closed guard top position with defensive strategies, guard 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master closed guard top position with defensive strategies, guard 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master closed guard top position with defensive strategies, guard 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 20% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 20%.
 
 ---
 
@@ -191,7 +191,7 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent's legs wrapped completely around your waist or hips with ankles locked behind your back, creating closed circuit of control that restricts your mobility and creates constant pressure on your torso, compressing your breathing and limiting lateral movement options while threatening to break your posture.
 - You are positioned between opponent's guard with your torso trapped inside their leg control, typically on your knees or in low squat with your hips positioned between their thighs, with your weight distributed through your knees to the mat while maintaining enough mobility to defend sweeps and work toward guard opening.
@@ -204,7 +204,7 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of posture mechanics and spinal alignment principles with ability to recognize when structural integrity is compromised and how to recover it
 - Knowledge of guard passing principles and progression sequences from guard opening through completion of pass
@@ -232,7 +232,7 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Guard Opening Sequence]] → [[Open Guard]]
 
@@ -303,7 +303,7 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Bump Sweep]]** → [[Mount]] (Opponent Success: 45%)
 - **[[Scissor Sweep]]** → [[Mount]] (Opponent Success: 50%)
@@ -321,7 +321,7 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Posture Recovery]]** → [[Closed Guard]]
   - Opponent attempts to break your posture by pulling your head or shoulders down toward their chest using collar grips or hand behind head
@@ -369,7 +369,7 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

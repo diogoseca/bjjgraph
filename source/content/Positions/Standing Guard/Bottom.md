@@ -8,7 +8,7 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 80% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 80% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player maintains upright standing posture with feet on mat, knees slightly bent in athletic stance with weight distributed through balls of feet for mobility and quick directional changes
 - Hands actively engaged in grip fighting or framing against opponent's body, controlling distance through collar ties, wrist control, or body frames to prevent opponent from closing distance and establishing dominant grips
@@ -204,7 +202,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Ability to perform technical standup from seated or supine guard positions
 - Understanding of grip fighting fundamentals and hand control
@@ -232,7 +230,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Pull guard]] → [[Closed Guard]]
 
@@ -310,7 +308,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Sprawl]]** → [[Front Headlock]] (Opponent Success: 45%)
 - **[[Guard Pass]]** → [[Side Control]] (Opponent Success: 35%)
@@ -324,7 +322,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Technical Standup]]** → [[Standing Position]]
   - Opponent attempts to force seated position or drive forward
@@ -378,7 +376,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

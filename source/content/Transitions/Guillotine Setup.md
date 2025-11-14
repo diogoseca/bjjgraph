@@ -8,7 +8,7 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
 
 
 
-> **Quick Answer**: Guillotine Setup transitions from [[Front Headlock]] to [[Guillotine Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Guillotine Setup transitions from [[Front Headlock]] to [[Guillotine Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Guillotine Setup represents one of the most fundamental and highest-percenta
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Secure deep arm placement around opponent's neck before attempting to finish
 - Maintain head control throughout the transition to prevent opponent escape
 - Position your choking arm's wrist bone against opponent's trachea for maximum pressure
@@ -186,7 +186,7 @@ The Guillotine Setup represents one of the most fundamental and highest-percenta
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Front headlock control established with opponent's head secured
 - Opponent's posture broken forward with head lower than hips
 - Clear access to thread choking arm under opponent's chin
@@ -199,7 +199,7 @@ The Guillotine Setup represents one of the most fundamental and highest-percenta
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure front headlock position**: Establish dominant front headlock control with your arm wrapped around opponent's head, controlling the back of their neck with your armpit. Your opposite hand should control their far arm or shoulder to prevent them from establishing a defensive frame. Maintain your weight distributed over their back to keep their posture broken. (Timing: Initial control phase)
 2. **Thread choking arm deep**: Release your controlling arm and immediately thread it deep under the opponent's chin, driving your forearm across their throat. The goal is to get your wrist bone positioned directly against their trachea rather than having the soft part of your forearm against their neck. Push your shoulder forward as you thread to maximize depth and prevent them from tucking their chin. (Timing: As opponent attempts to recover or advance)
 3. **Establish choking grip**: Once your choking arm is deep, bring your opposite hand to meet it. For maximum leverage, use a palm-to-palm grip (sometimes called 'gable grip') or interlace your fingers if your arms are long enough. The key is creating a tight closed loop around the neck with no gaps. Your choking-side shoulder should be tight against the side of their head. (Timing: Immediately after threading arm)
@@ -213,7 +213,7 @@ The Guillotine Setup represents one of the most fundamental and highest-percenta
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives forward aggressively to stack you** (Effectiveness: High) - Your Response: Pull guard immediately and use your legs to break their posture while maintaining the choke. Alternatively, step back and use their forward momentum to finish the standing guillotine by dropping your weight.
 - **Opponent tucks chin and creates frame with near arm** (Effectiveness: Medium) - Your Response: Switch to a high elbow guillotine variation by raising your choking elbow higher, or transition to an anaconda or darce choke where the chin tuck actually helps the submission. You can also use your free hand to strip their defensive frame.
 - **Opponent circles away from your choking arm side** (Effectiveness: Medium) - Your Response: Follow their movement by stepping with them to maintain the angle. If they successfully create distance, transition to a snap down and re-establish front headlock control, or switch to an arm-in guillotine configuration.
@@ -222,25 +222,25 @@ The Guillotine Setup represents one of the most fundamental and highest-percenta
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Threading the choking arm too shallow under the chin
+## Common Mistakes
+- **Mistake**: Threading the choking arm too shallow under the chin
   - **Consequence**: Opponent easily tucks chin and creates defensive space, making the choke ineffective and easily escapable
   - **Correction**: Drive your shoulder forward as you thread the arm, aiming to get your wrist bone—not your forearm—across their throat. Think about reaching for their far shoulder as you penetrate.
-- **Error**: Staying square to opponent instead of stepping to angle
+- **Mistake**: Staying square to opponent instead of stepping to angle
   - **Consequence**: Opponent can drive straight into you, stack you, or simply posture up to escape, as you have minimal leverage from a squared-up position
   - **Correction**: Always step to create a 45-degree angle toward your choking arm side. This angle multiplies your leverage and makes it nearly impossible for them to drive into you effectively.
-- **Error**: Releasing head control too early before securing the grip
+- **Mistake**: Releasing head control too early before securing the grip
   - **Consequence**: Opponent immediately postures up and escapes before you can establish the guillotine configuration
   - **Correction**: Maintain front headlock control until the exact moment you thread your choking arm. The transition should be smooth and continuous with no gap where their head is free.
-- **Error**: Using weak or incorrect grip configuration
+- **Mistake**: Using weak or incorrect grip configuration
   - **Consequence**: The choke lacks finishing power and your grip may fail under pressure, especially if opponent is strong or defensive
   - **Correction**: Use a palm-to-palm gable grip or S-grip with your choking hand pulling toward your chest. Interlaced fingers work if you have long arms, but ensure maximum tightness regardless of grip choice.
-- **Error**: Allowing gap between your chest and opponent's head
+- **Mistake**: Allowing gap between your chest and opponent's head
   - **Consequence**: Opponent creates space to turn into you, hand fight, or escape by pulling their head out of the choke
   - **Correction**: Drive your chest into their head constantly, pinning it against your ribcage. Your shoulder should be in constant contact with the side of their head throughout the setup.
-- **Error**: Flaring elbow away from body during setup
+- **Mistake**: Flaring elbow away from body during setup
   - **Consequence**: Loss of leverage and structural integrity, making the choke weak and allowing opponent to strip your grip or escape
   - **Correction**: Keep your choking-side elbow glued to your ribcage. Think about making your arm and body into one unified choking mechanism rather than separate components.
 
@@ -249,7 +249,7 @@ The Guillotine Setup represents one of the most fundamental and highest-percenta
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Foundation and Mechanics** - Basic arm threading and grip establishment from static front headlock
 Partner starts in turtle position while you establish front headlock. Practice threading your arm deep under their chin and securing various grip configurations (gable, S-grip, interlaced fingers). Focus on proper wrist placement against the throat and tight elbow positioning. Repeat 20-30 times per training session with no resistance.
 (Resistance: None)
@@ -276,7 +276,7 @@ Incorporate guillotine setups into live rolling with specific focus on recognizi
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **High Elbow Guillotine Setup**: Instead of keeping the elbow tight to the ribs, the choking arm's elbow is raised higher, with the forearm driving at an upward angle against the throat. This variation is particularly effective when the opponent has successfully tucked their chin. (When to use: Use when opponent tucks chin defensively or when you have long arms that create gaps with traditional positioning. Also highly effective in no-gi situations where clothing cannot be used for additional leverage.)
 
 **Arm-In Guillotine Setup**: The opponent's near arm is trapped inside your guillotine grip rather than being left outside. Your choking arm goes over their shoulder and under their chin, capturing their arm in the process. This creates a different choking mechanism that's harder to defend once established. (When to use: Excellent when opponent drives into you with their arm extended, during scrambles where you catch them mid-movement, or when transitioning from failed takedown defense. Particularly powerful from guard positions.)
@@ -316,7 +316,7 @@ Incorporate guillotine setups into live rolling with specific focus on recognizi
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When training the guillotine setup, both practitioners must understand that the neck and trachea are extremely vulnerable areas requiring careful, controlled practice. Apply the setup slowly during drilling, giving your partner time to tap if uncomfortable. Never explosively jerk or crank the neck during the setup phase. Partners should communicate clearly about pressure levels, and the person applying the technique should release immediately upon any tap, verbal submission, or sign of distress. Be especially cautious with grip pressure during the initial threading phase, as overly aggressive arm placement can cause trachea damage even before the choke is fully applied. When practicing from standing positions, ensure adequate mat space and be prepared to control your partner's fall if they lose balance. Beginners should focus on positioning and mechanics with minimal pressure until they understand the technique thoroughly. Remember that a properly applied guillotine can render someone unconscious in 3-8 seconds, so never maintain pressure once a tap occurs, and never practice finishing mechanics without a partner's explicit consent and understanding of safe tapping protocols.
 
@@ -324,7 +324,7 @@ When training the guillotine setup, both practitioners must understand that the 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The guillotine setup occupies a critical junction point in the BJJ positional hierarchy, serving as the primary offensive weapon from the front headlock position while also functioning as an opportunistic attack from numerous transitional scenarios. From a systematic perspective, the front headlock itself sits in the category of dominant head control positions, alongside back control and certain north-south variations, where controlling the opponent's head provides significant strategic advantage. The guillotine setup represents the natural evolution from front headlock control to a submission threat, forcing opponents to respect your offense even when they believe they are in a relatively safe position. This technique integrates seamlessly into multiple strategic frameworks: it serves as a punishment for poor takedown execution, a defensive counter to over-aggressive passing attempts, and an offensive weapon from bottom guard positions. The setup creates a decision tree for opponents—if they drive forward to escape, you can pull guard and finish; if they try to back out, you can follow and maintain control; if they circle away, you can transition to alternative front headlock attacks or take the back. Understanding the guillotine setup is essential for developing a complete submission game, as it represents one of the highest-percentage submission entries in both gi and no-gi contexts across all skill levels. It also serves as a gateway technique that teaches fundamental concepts of head control, grip fighting, and angle creation that apply broadly across Brazilian Jiu-Jitsu.
 
@@ -332,7 +332,7 @@ The guillotine setup occupies a critical junction point in the BJJ positional hi
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Front Headlock to Guillotine]] - Direct follow-up
 - [[Guillotine Choke]] - Natural finish
@@ -352,7 +352,7 @@ The guillotine setup occupies a critical junction point in the BJJ positional hi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The guillotine setup represents a masterclass in converting positional dominance into submission threat through systematic application of mechanical principles. The critical element that separates effective guillotine setups from failed attempts lies in understanding the geometry of the choke—specifically, the relationship between your wrist bone placement, the angle of your body relative to your opponent's spine, and the closure of space around their neck. When executed with proper technical precision, the setup phase essentially pre-determines the success of the finish, as a properly established guillotine configuration is extraordinarily difficult to defend through strength alone. The key technical detail practitioners must internalize is the concept of creating a closed hydraulic system around the opponent's neck during the setup: your choking arm, your chest, and your reinforcing arm must work as one unified structure with zero gaps. The moment you allow separation between your chest and their head, or your elbow drifts away from your ribs, the hydraulic pressure fails and the opponent can create escape routes. Additionally, the timing of when you transition from front headlock to guillotine setup is paramount—you must catch your opponent in a moment of transition or weight commitment where they cannot immediately react by posturing up. This is why the setup is so effective against takedown attempts: the opponent's forward momentum and committed weight distribution makes it impossible for them to reverse direction and posture up, giving you the critical seconds needed to establish the configuration completely. Study the biomechanics carefully, drill the positioning obsessively, and recognize that this is a technique where millimeters matter in terms of grip depth and arm placement.
 - **Gordon Ryan**: In high-level competition, the guillotine setup is one of those techniques that you see work at every single level from white belt to black belt world championships, which tells you something important about its fundamental effectiveness. From my experience competing at the highest levels, the setup is successful when you make it a reaction-based attack rather than a hunting expedition. What I mean by that is you're not forcing the guillotine—you're creating situations where your opponent's natural reactions give you the setup. When someone shoots on you, their head is there; when someone tries to pass your guard with poor posture, their neck is exposed; when someone turtles to defend, they're basically offering you the position. The practitioners who get guillotines consistently are the ones who recognize these moments instantly and capitalize without hesitation. My personal preference is to establish the grip configuration completely before I commit to any finishing position—standing, guard pull, or jump guard. Too many people try to do both simultaneously and end up with a half-setup that's easily defended. Get your arm deep, lock your grip tight, establish your angle, and only then decide which finishing variation to use based on how your opponent is reacting. Another competition-specific detail: in no-gi especially, the guillotine setup is an incredible weapon because there are no grips to defend with, and the moment someone feels that pressure on their throat, they panic and make mistakes. I've won matches where the setup itself caused my opponent to give up their back or make defensive errors that led to other submissions. Don't just think of this as a path to one choke—think of it as a dominant control position that creates multiple offensive opportunities.
 - **Eddie Bravo**: The guillotine setup is the perfect example of why you've got to be creative and adaptable in jiu-jitsu rather than just following one rigid formula. Sure, there's the standard setup everybody learns, but at 10th Planet we've developed a whole range of entries and variations based on the specific situation you're in. One thing I always emphasize is using the guillotine setup as part of a combination attack rather than as an isolated technique. For example, when someone defends your guillotine setup by tucking their chin hard, don't just abandon it—that defensive reaction opens up the darce, the anaconda, or even transitions to the back. You're creating what I call 'submission chains' where each defensive option they choose leads to another offensive threat. Another detail that a lot of people miss is using the guillotine setup as a sweep from bottom positions. If you catch someone in a guillotine grip from closed guard or half guard, you can use that control to off-balance them and reverse position even if the choke doesn't finish immediately. The setup also works beautifully in scrambles and transitions, which is where a lot of modern no-gi jiu-jitsu happens. When you're inverting, rolling, or moving dynamically, those split-second moments when someone's head drops give you guillotine opportunities that more static players will miss completely. My advice is to drill the setup from weird angles and positions, not just from the standard front headlock. Practice catching it while you're on your back, while you're inverting, while you're standing up from bottom—make it a reflexive reaction whenever you see a neck rather than a technique you only hit from specific positions. That's how you build a dangerous, unpredictable guillotine game that works in real competition against people who know it's coming.

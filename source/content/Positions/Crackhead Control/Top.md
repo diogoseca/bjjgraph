@@ -8,7 +8,7 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 55% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 55%.
 
 ---
 
@@ -193,7 +193,7 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner's hips positioned on opponent's lower back/hip area in a seated chair-like position, with bodyweight distributed through the gluteal muscles directly onto opponent's lumbar spine and sacrum creating fulcrum effect
 - At least one leg (typically inside leg) hooked around opponent's near hip or thigh, with the foot controlling inside position while the other leg may be posted wide for base or also hooked for additional control
@@ -205,7 +205,7 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent in turtle position with defensive posture
 - Successful establishment of initial turtle control from pass, scramble, or transition
@@ -232,7 +232,7 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Turtle to Back Take]] → [[Back Control]]
 
@@ -289,7 +289,7 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 25%)
 - **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 20%)
@@ -302,7 +302,7 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Take Generic]]** → [[Back Control]]
   - Opponent attempts to sit through to guard
@@ -342,7 +342,7 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

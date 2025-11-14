@@ -8,7 +8,7 @@ description: "Master Position Change transitions in BJJ. Learn systematic advanc
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Position Change transitions in BJJ. Learn systematic advanc
 
 
 
-> **Quick Answer**: Position Change transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Position Change transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -176,7 +176,7 @@ Position changes serve multiple strategic purposes: they increase point scoring 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Understand and exploit the positional hierarchy to systematically improve position
 - Maintain at least two points of connection during transitions to prevent opponent escape
 - Create angles before initiating position changes to reduce opponent's defensive options
@@ -190,7 +190,7 @@ Position changes serve multiple strategic purposes: they increase point scoring 
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Clear understanding of current position and available advancement options
 - Recognition of opponent's defensive posture and weight distribution
 - Establishment of initial grips or frames appropriate to starting position
@@ -203,7 +203,7 @@ Position changes serve multiple strategic purposes: they increase point scoring 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Assess current position**: Evaluate your current position within the BJJ hierarchy and identify the most strategic advancement option based on opponent's posture, grips, and base. Consider both immediate opportunities and multi-step sequences that lead to dominant positions. (Timing: Continuous assessment during engagement)
 2. **Establish control points**: Secure at least two points of contact with opponent through grips, hooks, frames, or pressure points. These connection points must be maintained throughout the transition to prevent opponent from creating space or recovering position. (Timing: Before initiating movement)
 3. **Create angle**: Generate an angle relative to opponent's centerline by shifting your hips, adjusting your torso position, or repositioning your base. The angle reduces opponent's defensive leverage and opens pathways for positional advancement. (Timing: 1-2 seconds before main transition)
@@ -217,7 +217,7 @@ Position changes serve multiple strategic purposes: they increase point scoring 
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent creates frames and pushes to generate space during transition** (Effectiveness: High) - Your Response: Maintain connection through different points of contact, transition to alternative position changes that utilize their pushing energy, or consolidate at intermediate position before continuing advancement
 - **Opponent uses bridge and hip escape to disrupt transition momentum** (Effectiveness: High) - Your Response: Follow opponent's movement while maintaining control points, use their momentum to facilitate different position change, or establish heavy crossface and shoulder pressure to neutralize bridge
 - **Opponent secures underhook or overhook during transition to prevent advancement** (Effectiveness: Medium) - Your Response: Address the hook immediately by stripping it, transitioning to positions where the hook becomes less effective, or using the hook against them by changing direction of advancement
@@ -227,25 +227,25 @@ Position changes serve multiple strategic purposes: they increase point scoring 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rushing the transition without establishing proper control points first
+## Common Mistakes
+- **Mistake**: Rushing the transition without establishing proper control points first
   - **Consequence**: Opponent easily escapes or reverses position during transition, potentially ending in worse position than where you started
   - **Correction**: Slow down and ensure at least two solid points of connection before initiating movement; position changes should feel controlled and inevitable rather than scrambled
-- **Error**: Failing to create angle before attempting position change
+- **Mistake**: Failing to create angle before attempting position change
   - **Consequence**: Opponent's defensive structure remains strong, making transition energy-expensive and low-percentage
   - **Correction**: Always establish an angle first through hip movement or torso adjustment; this fundamentally weakens opponent's ability to maintain current structure
-- **Error**: Abandoning the transition at first sign of resistance
+- **Mistake**: Abandoning the transition at first sign of resistance
   - **Consequence**: Never developing the persistence needed to work through defensive layers, resulting in stagnant positional game
   - **Correction**: Commit to the transition while remaining adaptable; use resistance as information to flow to alternative positions rather than abandoning advancement entirely
-- **Error**: Moving to new position without consolidating control
+- **Mistake**: Moving to new position without consolidating control
   - **Consequence**: Opponent immediately escapes new position or reverses, wasting energy and potentially creating openings for counters
   - **Correction**: Pause briefly after each major position change to establish proper weight distribution and control points before advancing further
-- **Error**: Ignoring positional hierarchy and attempting unrealistic advancement
+- **Mistake**: Ignoring positional hierarchy and attempting unrealistic advancement
   - **Consequence**: Overextending and creating vulnerabilities that skilled opponents exploit for sweeps or reversals
   - **Correction**: Learn the realistic pathways between positions and advance incrementally; sometimes reaching mount requires passing through side control and knee on belly first
-- **Error**: Maintaining same grips throughout transition despite changing positional requirements
+- **Mistake**: Maintaining same grips throughout transition despite changing positional requirements
   - **Consequence**: Grips become mechanically disadvantaged in new position, reducing control and making further advancement difficult
   - **Correction**: Develop grip-changing awareness; release and re-establish grips as needed during transitions to maintain optimal leverage in each phase
 
@@ -254,7 +254,7 @@ Position changes serve multiple strategic purposes: they increase point scoring 
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Understanding** - Learning positional hierarchy and basic transition pathways
 Study the BJJ positional hierarchy chart extensively. Practice identifying current position and verbally naming the next logical advancement. Drill basic transitions like guard pass to side control, side control to mount, and bottom mount to half guard with compliant partner. Focus on understanding WHY positions are organized hierarchically.
 (Resistance: None)
@@ -285,7 +285,7 @@ Build personal game plans around reliable position change sequences. Develop pos
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Incremental Position Change**: Making small, conservative positional improvements rather than attempting dramatic advancements. For example, moving from bottom half guard to lockdown to deep half to sweep rather than attempting immediate sweep. (When to use: Against skilled opponents who defend major transitions well, when conserving energy, or when building confidence in competitive situations)
 
 **Explosive Position Change**: Rapid advancement through multiple positions in quick succession, often during scrambles or when opponent is mentally or physically compromised. Requires excellent cardio and technical precision under speed. (When to use: When opponent shows fatigue, after successful submission defense when opponent is recovering, or when opponent's defensive system is disrupted)
@@ -325,7 +325,7 @@ Build personal game plans around reliable position change sequences. Develop pos
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Position changes in BJJ are generally safe when executed with proper control and awareness. However, practitioners should focus on smooth, controlled transitions rather than explosive movements that could lead to collisions or awkward landings. Pay particular attention to mat awareness, ensuring adequate space exists for the intended transition. Communicate with training partners about pace and intensity, especially when drilling new position changes. Avoid posting hands or feet in positions where they could be trapped during transitions, as this can lead to joint injuries. When practicing position changes from bottom positions, be cautious about neck placement and avoid allowing full body weight to compress the cervical spine. Advanced position changes involving inversions or rapid direction changes should only be attempted after developing sufficient body awareness and control. Always tap early if caught in a compromised position during a transition attempt.
 
@@ -333,7 +333,7 @@ Position changes in BJJ are generally safe when executed with proper control and
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Position Change represents the fundamental connective tissue of Brazilian Jiu-Jitsu strategy, linking all individual positions into a coherent system of advancement and control. This concept sits at the heart of the BJJ game plan philosophy, where the goal is systematic improvement of position leading to dominant control and eventual submission opportunities. Understanding position changes transforms BJJ from a collection of isolated techniques into a flowing, strategic combat sport where each movement purposefully advances your positional standing.
 
@@ -345,7 +345,7 @@ Position changes also integrate deeply with other core BJJ concepts including gr
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Guard Pass]] - Primary example of position change from bottom guard to top control
 - [[Butterfly Sweep]] - Position change that reverses bottom and top positions
@@ -365,7 +365,7 @@ Position changes also integrate deeply with other core BJJ concepts including gr
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The ability to change positions systematically represents the fundamental strategic framework of Brazilian Jiu-Jitsu. Every position in our art exists within a hierarchical structure, and understanding this hierarchy provides the roadmap for intelligent positional advancement. The most important principle in position change is maintaining connection throughout the transition—you must never allow space to be created between you and your opponent during the critical movement phase. I teach my students to view position changes as a series of connected control points that shift and adjust while maintaining constant pressure. The angle you create before initiating the transition is biomechanically critical; it fundamentally compromises opponent's ability to maintain their current structure. When executing position changes, think in terms of control systems rather than individual techniques. Your grips, weight distribution, and base must work together as an integrated system that remains functional throughout the transition. Many practitioners fail at position changes because they focus on the destination position without properly managing the journey. The transition itself is a position that requires its own control methodology.
 - **Gordon Ryan**: In competition, position changes are how you actually win matches at the highest levels. You're not going to submit elite black belts easily, but you can absolutely out-position them and win on points while wearing them down. I've built my entire game around reliable position change sequences that I can hit even when opponents know they're coming. The key is making your position changes so mechanically sound that defending them becomes exhausting. When I pass guard, I'm not just thinking about getting to side control—I'm thinking about the entire sequence through to mount or back control. Every position change I make is designed to create a worse situation for my opponent, forcing them to expend energy defending while I systematically improve my position. The best position changes are the ones where opponent has to choose between two bad options: either let you improve position or give up energy trying to prevent it. I specifically practice position changes under fatigue because that's when they matter most in competition. In the later rounds of matches, the fighter who can still execute clean position changes while exhausted has a massive advantage. Don't just drill position changes fresh—practice them when you're tired and see which ones still work reliably.
 - **Eddie Bravo**: Position changes in the 10th Planet system are all about creating opportunities through unconventional pathways that opponents don't expect. We use a lot of inversion, rolling movements, and dynamic transitions that traditional BJJ practitioners aren't as familiar with defending. The beauty of creative position changes is that they force opponents to solve problems in real-time rather than relying on their trained defensive responses. I teach my students to view position changes as puzzles where you're constantly adjusting based on opponent's reactions. If they defend high, go low. If they defend low, go high. The position change itself becomes a game of chess where you're always one step ahead mentally. We also emphasize using submission threats as vehicles for position changes—threaten the triangle to facilitate the omoplata sweep, or vice versa. The opponent gets so focused on defending the submission that they don't realize you're systematically improving position throughout the exchange. In rubber guard, for example, we have multiple position change sequences that flow from the same basic control position, and opponent defending one option automatically opens others. The key is developing comfort with non-traditional positions during the transition phase. Most people only feel comfortable in the standard positions, but we train extensively in the in-between spaces, which makes our position changes more fluid and harder to counter.

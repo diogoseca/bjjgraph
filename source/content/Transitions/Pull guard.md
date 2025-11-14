@@ -8,7 +8,7 @@ description: "Master Pull Guard in BJJ. Learn proper execution from standing to 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Pull Guard in BJJ. Learn proper execution from standing to 
 
 
 
-> **Quick Answer**: Pull guard transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Pull guard transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish dominant grips before initiating the pull to maintain control throughout transition
 - Sit back with hips low and controlled to prevent injury and maintain balance
 - Keep opponent's posture broken forward to prevent them from establishing top pressure
@@ -180,7 +180,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Strong grip control established on opponent's sleeves, collar, or body
 - Proper distance management to prevent opponent from sprawling or backing away
 - Clear understanding of which guard position you intend to establish
@@ -193,7 +193,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grip control**: Secure dominant grips on opponent's sleeves, collar, or both. For closed guard pull, typical grips include two sleeve grips or collar and sleeve. For open guards, establish grips specific to that guard system (spider, DLR, lasso, etc.). Ensure grips are tight and controlling before proceeding. (Timing: Before any weight shift)
 2. **Break opponent's posture**: Pull opponent's weight slightly forward using your established grips. This prevents them from sprawling backward or establishing heavy top pressure as you descend. Keep their head and shoulders moving toward you, disrupting their base. (Timing: Immediately before sitting)
 3. **Step in close**: Take a small step forward with one foot to close distance, bringing your hips within range of opponent's center line. This proximity is essential for maintaining connection as you sit and prevents opponent from creating separation during your descent. (Timing: As posture breaks)
@@ -206,7 +206,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent backs away or disengages as you sit** (Effectiveness: High) - Your Response: Maintain grip tension and follow them with your guard, using grips to prevent complete separation. Scoot your hips forward aggressively and re-establish connections with legs or feet on their hips to prevent them from establishing distance.
 - **Opponent sprawls forward with heavy chest pressure** (Effectiveness: Medium) - Your Response: Use the pressure to establish underhooks or create angles for off-balancing sweeps. Convert the forward pressure into sweep opportunities rather than fighting it directly. Rotate hips to side and look for butterfly hooks or deep half guard entries.
 - **Opponent immediately begins passing sequence** (Effectiveness: High) - Your Response: Establish strong guard retention frames, create distance with pushing frames on hips and shoulders, and circle your hips away from the passing pressure. Use grip fighting to break their grips and re-establish your preferred guard configuration.
@@ -215,25 +215,25 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Sitting without establishing grips first
+## Common Mistakes
+- **Mistake**: Sitting without establishing grips first
   - **Consequence**: Opponent easily disengages or establishes dominant top position without any control challenges
   - **Correction**: Always secure controlling grips before initiating the pull. Grips are your connection and control throughout the transition.
-- **Error**: Dropping straight down rather than sitting back
+- **Mistake**: Dropping straight down rather than sitting back
   - **Consequence**: Hard impact on tailbone, potential injury, loss of control during descent, easier for opponent to establish pressure
   - **Correction**: Sit back smoothly with rounded back and controlled descent. Think of sitting into a chair behind you, not falling straight down.
-- **Error**: Pulling guard without clear plan for which guard to establish
+- **Mistake**: Pulling guard without clear plan for which guard to establish
   - **Consequence**: Landing in scramble position with no immediate offensive or defensive structure
   - **Correction**: Decide your guard type before pulling and establish appropriate grips for that guard. Execute the pull specifically to enter that position.
-- **Error**: Letting go of grips during descent
+- **Mistake**: Letting go of grips during descent
   - **Consequence**: Complete loss of control, opponent easily backs away or establishes dominant position
   - **Correction**: Maintain constant grip tension throughout the entire pulling motion. Grips are your primary control mechanism from standing to guard.
-- **Error**: Pulling guard too far from opponent
+- **Mistake**: Pulling guard too far from opponent
   - **Consequence**: Opponent steps back and disengages, forcing you to chase or stand back up
   - **Correction**: Step in close before sitting, ensure your grips can maintain connection, and pull opponent's weight forward as you descend.
-- **Error**: Landing with legs apart or no immediate guard structure
+- **Mistake**: Landing with legs apart or no immediate guard structure
   - **Consequence**: Opponent easily passes or establishes top control while you're still organizing your guard
   - **Correction**: Establish guard position simultaneously with landing. Your legs should be wrapping, hooking, or framing as your hips touch the mat.
 
@@ -242,7 +242,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Safe descent and basic closed guard pull
 Practice sitting back motion without partner, focusing on smooth controlled descent. Progress to pulling with compliant partner into closed guard only. Emphasize grip control and safe landing mechanics. No resistance.
 (Resistance: None)
@@ -269,7 +269,7 @@ Full resistance training where guard pull flows directly into sweep or submissio
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Closed Guard Pull**: Traditional guard pull where you wrap legs around opponent's waist and lock ankles behind their back immediately upon landing. Most basic and fundamental variation. (When to use: When facing opponent with strong pressure passing game, or when you want to control posture and prevent immediate passing attempts. Best for beginners learning guard pull mechanics.)
 
 **Spider Guard Pull**: Pull with both hands controlling sleeves, sit back and immediately establish feet on biceps with extended legs controlling distance. Requires strong grip endurance. (When to use: Against opponents who try to establish heavy top pressure. Excellent for creating distance and off-balancing opportunities. Effective in gi for setting up sweeps immediately.)
@@ -311,7 +311,7 @@ Full resistance training where guard pull flows directly into sweep or submissio
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When pulling guard, descend with control to avoid hard impact on your tailbone or spine, which can cause acute injury or cumulative damage over time. Always ensure adequate mat space behind you before initiating the pull to prevent collisions with walls or other practitioners. Communicate with training partners when practicing guard pulls, especially when learning new variations, as unexpected movements can cause both partners to lose balance. Release grips immediately if you feel yourself falling in an uncontrolled manner to prevent wrist, finger, or elbow injuries. Never pull guard on hard surfaces or inadequate mats. Be aware that pulling guard in self-defense situations may be inappropriate as it concedes top position and may involve landing on concrete or other dangerous surfaces. In competition, understand the rules regarding guard pulling and whether penalties apply for immediate disengagement attempts. Warm up properly before drilling guard pulls as the hip and back movements require flexibility and core strength.
 
@@ -319,7 +319,7 @@ When pulling guard, descend with control to avoid hard impact on your tailbone o
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Guard pulling serves as a critical tactical transition that allows practitioners to bypass the standing phase entirely and immediately establish their preferred ground fighting system. This technique represents a fundamental strategic choice in competition and training: rather than engaging in takedown exchanges where wrestling specialists may have advantages, guard players can immediately enter the domain where their technical systems are strongest. The guard pull connects directly into the entire guard retention and attack framework, making it an essential entry point for all guard-based games. Modern competition has evolved sophisticated guard pull variations specifically designed to enter advanced positions like De La Riva, spider guard, lasso guard, or even inverted positions that immediately threaten back takes. The technique also integrates with grip fighting strategy, as the grips established during standing exchanges directly determine which guard positions can be most effectively established. Understanding guard pulling is essential for developing a complete game, as it provides the bridge between standing engagement and ground control, allowing practitioners to dictate the pace and domain of the match. The technique's effectiveness multiplies when combined with strong guard retention skills and immediate offensive sequences from the established position.
 
@@ -327,7 +327,7 @@ Guard pulling serves as a critical tactical transition that allows practitioners
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Closed Guard]] - Primary ending position for basic guard pull
 - [[Open Guard]] - Alternative ending position for distance-based guard pulls
@@ -347,7 +347,7 @@ Guard pulling serves as a critical tactical transition that allows practitioners
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The guard pull represents a critical strategic decision point in the match, one that must be understood not merely as a technique but as a systematic choice about which domain you wish to contest. The essential mechanical principle is that the pull must create immediate hierarchical advantage in the position you establish - you cannot simply fall to guard and hope to organize afterward. Your grips must be configured before the pull to facilitate the specific guard system you intend to implement. The descent must be controlled through core engagement and proper hip mechanics to prevent injury while maintaining connection tension. Most importantly, the guard pull must flow seamlessly into your offensive sequences - it is not a defensive retreat but an aggressive entry into your attacking system. Consider the guard pull as the gateway technique that either enables or destroys your entire ground game. If executed poorly, you enter ground fighting from a position of disorder and defensive scrambling. If executed properly, you enter with immediate control, established frames, and offensive initiative. The difference between these outcomes lies entirely in the precision of your mechanical execution and strategic preparation.
 - **Gordon Ryan**: In high-level competition, pulling guard is often the most percentage move against elite wrestlers, but it requires absolute commitment and immediate aggression to work. When I pull guard, I'm not retreating - I'm entering my strongest domain where I have systematic advantages. The key is making your guard pull so tight and controlled that opponent has zero opportunities to establish their passing game. I prefer pulls that establish immediate off-balancing or back-taking threats, like DLR or single leg X positions where I'm attacking from the first second. Never just fall to closed guard and hang out - that's how you get smashed by good pressure passers. Pull with specific grips already configured for your highest percentage attacks, and launch into those attacks within 2-3 seconds of hitting the mat. Against high-level opponents, guard pulling success is measured not by whether you establish a guard, but by whether you create immediate offensive threats that put them on the defensive. If they're defending your attacks, they're not passing. That's the mindset difference between guard pulling as defense versus guard pulling as strategic offensive entry.
 - **Eddie Bravo**: Guard pulling gets a bad reputation in some circles, but in reality it's one of the most strategic moves you can make when you know your ground game is superior to their takedown game. In 10th Planet we emphasize pulling to very specific positions - usually rubber guard, lockdown, or positions that immediately threaten the truck and back takes. The traditional closed guard pull is fine for beginners, but I teach my students to pull into positions that create immediate confusion and dilemmas for the opponent. When you pull to rubber guard with mission control already configured, you're not in a neutral guard - you're in an offensive control position threatening omoplatas, triangles, and gogoplatas immediately. Same with pulling to lockdown half guard - you're entering a systematic position where you have the structural advantage and numerous sweep and back-take options. The key innovation in modern guard pulling is treating it as an entry into advanced positions rather than basic positions. Don't just pull to guard - pull to the specific variation of guard where you have the most developed attack systems and where your opponent has the least experience defending. That's how you turn a simple technique into a major strategic weapon.

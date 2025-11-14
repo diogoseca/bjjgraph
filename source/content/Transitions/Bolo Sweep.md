@@ -8,7 +8,7 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn setup, executio
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn setup, executio
 
 
 
-> **Quick Answer**: Bolo Sweep transitions from [[De La Riva Guard]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
+> Bolo Sweep transitions from [[De La Riva Guard]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Control opponent's far leg with De La Riva hook throughout the rotation
 - Create angle and space by inverting underneath opponent's base
 - Use momentum from rotation to break opponent's posting arm
@@ -180,7 +180,7 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established De La Riva guard with hook on opponent's far leg
 - Grip on opponent's collar or sleeve with same-side hand
 - Opponent in standing or combat base position
@@ -194,7 +194,7 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish De La Riva control**: Secure De La Riva hook on opponent's far leg with your outside leg, threading it deep behind their knee. Simultaneously grip their collar or same-side sleeve with your hand, creating a strong connection that prevents them from easily disengaging or circling away from your guard. (Timing: Initial setup phase)
 2. **Create angle and off-balance**: Pull opponent forward and slightly to the side using your collar or sleeve grip while simultaneously extending your De La Riva hook. This forces their weight onto the hooked leg and creates the foundational angle needed for your inversion. Your free leg should be framing against their near hip or controlling their other leg. (Timing: As opponent begins to pass or stand)
 3. **Begin inversion**: Release your frame leg and begin rotating your hips underneath your body, turning your shoulders toward the mat. Your De La Riva hook remains active throughout this movement. Start threading your head and shoulders under the opponent's posted leg, creating a corkscrew-like rotation that takes you beneath their base. (Timing: Explosive movement as you feel opponent's weight shift)
@@ -207,7 +207,7 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent steps over your inverting body with their free leg** (Effectiveness: High) - Your Response: Immediately hook their stepping leg with your free leg and transition to X-Guard or Single Leg X-Guard position. Use their stepping motion to off-balance them backward.
 - **Opponent posts their hand on the mat to prevent rotation** (Effectiveness: Medium) - Your Response: Switch to attacking the posted arm with a triangle setup or transition to Kiss of the Dragon by continuing your rotation toward the posted arm side. Use their posting as an anchor point for different sweeping angle.
 - **Opponent sits back and pulls their hooked leg away** (Effectiveness: Medium) - Your Response: Follow their backward movement by coming up on your posting hand and transitioning to a wrestling-style single leg attack or reverting to standard De La Riva sweeping mechanics.
@@ -216,22 +216,22 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing De La Riva hook too early during rotation
+## Common Mistakes
+- **Mistake**: Releasing De La Riva hook too early during rotation
   - **Consequence**: Opponent easily steps away or passes guard as you lose primary control mechanism
   - **Correction**: Maintain active De La Riva hook throughout entire rotation until back exposure is achieved. The hook should be the last control released, not the first.
-- **Error**: Inverting without creating sufficient angle first
+- **Mistake**: Inverting without creating sufficient angle first
   - **Consequence**: Rotation is blocked by opponent's base and you end up stuck underneath with no sweeping leverage
   - **Correction**: Always establish proper angle by pulling opponent forward and to the side before beginning inversion. Your shoulders should already be turned 30-45 degrees before you start rolling.
-- **Error**: Failing to pull opponent's upper body forward with grip
+- **Mistake**: Failing to pull opponent's upper body forward with grip
   - **Consequence**: Opponent maintains strong posture and base, making rotation ineffective and allowing easy counter-passing
   - **Correction**: Actively pull with your collar or sleeve grip throughout the movement. Your grip hand should move in a large arc, dragging opponent's shoulders down and forward.
-- **Error**: Stopping rotation halfway through the movement
+- **Mistake**: Stopping rotation halfway through the movement
   - **Consequence**: You end up inverted but not properly positioned for sweep or back-take, leaving you vulnerable to leg attacks or passing
   - **Correction**: Commit fully to the rotation with explosive movement. The Bolo is not a position - it's a transitional movement that must be completed with speed and commitment.
-- **Error**: Not immediately securing back control after rotation
+- **Mistake**: Not immediately securing back control after rotation
   - **Consequence**: Opponent escapes or counters because you fail to capitalize on the positional advantage created
   - **Correction**: Have a clear plan for finishing - either seat belt grip for back control or immediate pressure for top position. Begin establishing controls before your rotation is completely finished.
 
@@ -240,7 +240,7 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Drilling** - Basic inversion mechanics and body awareness
 Practice the inversion movement in isolation with no resistance. Partner remains stationary in De La Riva position. Focus on smooth rotation, maintaining hook connection, and proper threading of shoulders under opponent's leg. Repeat 20-30 repetitions per training session to build muscle memory.
 (Resistance: None)
@@ -263,7 +263,7 @@ Execute Bolo attempts during live positional sparring from De La Riva guard. Par
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Reverse Bolo (Reverse Berimbolo)**: Instead of rotating under opponent's far leg, rotate under their near leg in the opposite direction. This variation is particularly effective when opponent defends traditional Bolo by posting or shifting weight away from standard rotation. (When to use: When opponent anticipates standard Bolo and shifts weight to defend, or when their positioning makes traditional Bolo difficult but opposite-side rotation is open)
 
 **Bolo to Crab Ride**: Complete the rotation but instead of taking full back control, establish crab ride position with one hook in and opponent face-down. This variation provides excellent control while maintaining multiple attacking options including second hook insertion, armbar setups, or continued back exposure. (When to use: When opponent is belly-down defending back exposure, or in no-gi situations where traditional back control grips are harder to secure)
@@ -301,7 +301,7 @@ Execute Bolo attempts during live positional sparring from De La Riva guard. Par
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Bolo requires significant spinal flexibility and inversion ability, making proper warm-up essential to prevent neck and back injuries. Practitioners should develop neck strength and flexibility through progressive drilling before attempting the technique at full speed. When practicing, ensure adequate mat space is available since the rotation can carry practitioners several feet from starting position. Partners should avoid posting hands directly on the inverting practitioner's head or neck, and both participants should be aware of potential collision with other training pairs. Beginners should practice the inversion mechanics slowly with cooperative partners before adding resistance. Those with pre-existing neck, back, or shoulder injuries should consult medical professionals before training this technique. In competition, be aware of legal vs illegal variations under IBJJF rules, particularly regarding the direction of opponent's forced rotation.
 
@@ -309,7 +309,7 @@ The Bolo requires significant spinal flexibility and inversion ability, making p
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Bolo Sweep is the centerpiece technique of modern De La Riva guard systems, fundamentally defining how advanced practitioners approach this guard position. It integrates seamlessly with other De La Riva attacks including traditional sweeps, Kiss of the Dragon entries, and triangle setups, creating a comprehensive attacking system. The technique connects the lower-body control of De La Riva guard directly to back-taking sequences, bypassing traditional intermediate positions. In systematic guard development, the Bolo represents an advanced-level technique that builds upon fundamental De La Riva mechanics including hook maintenance, angle creation, and grip fighting. The position also connects to broader inversion-based guard systems including Reverse De La Riva Guard, allowing practitioners to attack with similar rotational mechanics from multiple guard variations. Understanding the Bolo provides insight into modern competition strategy, particularly in lighter weight divisions where speed and flexibility can be maximized. The technique has influenced development of related positions including Single Leg X-Guard and X-Guard, as practitioners developed systematic ways to transition between these positions during failed or defended Bolo attempts.
 
@@ -317,7 +317,7 @@ The Bolo Sweep is the centerpiece technique of modern De La Riva guard systems, 
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Berimbolo Entry]] - Alternative name and systematic entry method
 - [[De La Riva Sweep]] - Foundational technique from same position
@@ -337,7 +337,7 @@ The Bolo Sweep is the centerpiece technique of modern De La Riva guard systems, 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Berimbolo represents a fascinating case study in how theoretical impossibilities become practical realities through systematic development and athletic evolution. From a purely mechanical perspective, the technique appears to violate fundamental principles of leverage and base - you are attempting to off-balance a standing opponent by rotating underneath their base while maintaining minimal points of contact. Yet through precise understanding of rotational momentum, timing relative to opponent's weight distribution, and systematic coordination of grip work with lower body movement, the technique becomes not just possible but highly reliable. The key insight is recognizing that traditional sweeping mechanics operate primarily in two dimensions - forward/backward and side-to-side. The Berimbolo introduces a third dimension of rotation that opponents cannot effectively defend without fundamental changes to their base structure. This is why the technique is particularly effective against wrestlers and judoka who have developed exceptional two-dimensional balance but lack experience with rotational attacks. From a teaching perspective, the Berimbolo must be understood as part of a systematic guard approach rather than an isolated movement. Students must develop the foundational De La Riva mechanics - hook maintenance, grip fighting, angle creation - before attempting the more complex rotational elements. The progression from basic De La Riva control to successful Berimbolo execution typically requires 6-12 months of focused training for athletes with good flexibility and body awareness.
 - **Gordon Ryan**: The Berimbolo is one of the most powerful weapons in modern no-gi competition, particularly at the elite level where everyone has strong passing and top pressure. What makes it so effective in high-level competition is that it forces your opponent into an impossible defensive dilemma - they either let you complete the rotation and take their back, or they defend so aggressively that they expose themselves to other attacks. I've used this extensively in competition, and the key to making it work at the highest level is developing it as part of an integrated system, not just a single technique. You need to chain it with X-Guard entries, Kiss of the Dragon, and traditional De La Riva sweeps so opponents can never settle into defending just one attack. The timing is absolutely critical - you cannot telegraph the movement or wait too long. The moment you feel their weight shift onto the De La Riva-hooked leg, you must initiate the rotation explosively. Hesitation kills the technique because it allows opponent to retract their leg or change their base. In my competitive experience, the Berimbolo is most effective in the 5-7 minute range of a match when opponents start getting tired and their defensive reactions slow down. Fresh opponents with good awareness can sometimes step over or sprawl effectively, but fatigued opponents make critical defensive errors that allow you to complete the sweep or take the back. One tactical note - in no-gi, the lack of collar grips changes some mechanics, but you can compensate with overhook or underhook control combined with aggressive hip movement.
 - **Eddie Bravo**: The Berimbolo is beautiful because it completely breaks the traditional BJJ rules about position before submission and slow, controlled progression through positions. You're literally going inverted underneath a standing opponent and ending up on their back - that's some matrix-level shit that wouldn't have been considered legitimate BJJ twenty years ago. At 10th Planet, we integrate Berimbolo-style movements into our overall system, particularly when working from our various guard positions. The key innovation we've added is combining Berimbolo mechanics with lockdown and rubber guard concepts, creating hybrid attacks that opponents have never seen. For example, you can use a modified Berimbolo rotation from lockdown to create back exposure without the traditional De La Riva hook. The inversion element is what makes it so powerful - most BJJ players, even high-level ones, don't have extensive experience defending against inverted attacks because traditional BJJ dogma dismissed such movements as risky or impractical. But in modern sport BJJ, especially no-gi, these 'impractical' movements score points and win matches. What I love about the Berimbolo is it rewards creativity and athleticism, not just technique and strength. Smaller, more flexible practitioners can use it to absolutely dominate larger opponents who can't match their inversion speed and rotational awareness. That's the future of BJJ - technique that emphasizes movement quality, timing, and three-dimensional spatial awareness rather than just positional pressure and submission hunting. The Berimbolo also teaches a critical lesson about commitment - you cannot do this technique half-heartedly. You must fully commit to the rotation with explosive energy or you get stuck in a terrible position. That commitment and willingness to take calculated risks is what separates good competitors from great ones.

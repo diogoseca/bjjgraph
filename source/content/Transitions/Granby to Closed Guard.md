@@ -8,7 +8,7 @@ description: "Learn Granby to Closed Guard recovery technique. Master Granby rol
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Granby to Closed Guard recovery technique. Master Granby rol
 
 
 
-> **Quick Answer**: Granby to Closed Guard transitions from [[Turtle]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Granby to Closed Guard transitions from [[Turtle]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Use shoulder roll mechanics to create rotational momentum and protect your back
 - Generate space through hip extension before initiating the roll
 - Maintain tight body positioning throughout the movement to prevent back exposure
@@ -183,7 +183,7 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Must be in a bottom position where back is threatened or side control is being established
 - Opponent applying forward pressure toward your upper body
 - Sufficient space exists to complete a shoulder roll without obstruction
@@ -196,7 +196,7 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Create initial space**: From bottom turtle or defensive position, explosively extend your hips backward while posting your outside hand on the mat. This hip extension creates the critical space needed to begin your roll and forces your opponent to adjust their base. Your inside arm should be protecting your neck, with your elbow tight to your ribs to prevent opponent from establishing control. (Timing: Execute during opponent's forward pressure)
 2. **Initiate shoulder roll**: Drop your inside shoulder toward the mat while tucking your chin tightly to your chest. Begin rolling over this shoulder in a diagonal direction, away from your opponent's pressure. Your head should never touch the mat - the roll occurs across your upper back and shoulders. Keep your body compact by bringing your knees toward your chest as you begin the rotation. (Timing: Immediate follow-up to space creation)
 3. **Complete the rotation**: Continue the rolling motion by driving your outside hip over your body, using momentum to complete the rotation. Your knees should remain tucked toward your chest throughout this phase. As you roll, your outside leg will naturally sweep in an arc over your body. Focus on maintaining a tight, compact body position to prevent your back from being exposed during the vulnerable rotation phase. (Timing: Smooth continuation of the roll)
@@ -209,7 +209,7 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sprawls backward as you begin the roll, maintaining distance** (Effectiveness: Medium) - Your Response: Adapt by completing the roll into a seated guard position instead, using your legs to create frames and prevent them from passing. You can transition to butterfly guard or continue working for closed guard from the seated position.
 - **Opponent drives forward aggressively, attempting to flatten you mid-roll** (Effectiveness: High) - Your Response: Use their forward momentum to accelerate your roll, completing it faster than they can follow. The increased pressure actually helps you rotate more quickly. Ensure you thread your inside leg immediately as you complete the rotation to block their forward movement.
 - **Opponent secures a grip on your leg during the roll, preventing guard closure** (Effectiveness: Medium) - Your Response: Accept an open guard position temporarily (butterfly, half guard, or single leg X-guard depending on which leg they control). Work to break their grip and recover full closed guard, or transition to attacks from the open guard position you've achieved.
@@ -218,25 +218,25 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rolling directly backward instead of diagonally away from opponent
+## Common Mistakes
+- **Mistake**: Rolling directly backward instead of diagonally away from opponent
   - **Consequence**: This exposes your back to the opponent and allows them to take back control or maintain dominant position. You end up giving them the exact position they were seeking.
   - **Correction**: Always roll at an angle, moving your shoulders in a diagonal line away from the opponent's center line. Visualize rolling toward the corner of the mat rather than straight back.
-- **Error**: Leaving the body extended during the roll instead of staying compact
+- **Mistake**: Leaving the body extended during the roll instead of staying compact
   - **Consequence**: Extended limbs make you vulnerable to submissions, particularly kimuras and armbars. The roll also becomes slower and easier for the opponent to counter.
   - **Correction**: Keep your knees tucked to your chest, elbows tight to your ribs, and chin tucked throughout the entire rolling motion. Think 'tight ball' rather than 'rolling log'.
-- **Error**: Failing to create initial space before beginning the roll
+- **Mistake**: Failing to create initial space before beginning the roll
   - **Consequence**: Without space, the opponent's weight pins you in place and prevents the rolling motion from generating momentum. You become stuck mid-movement in a highly vulnerable position.
   - **Correction**: Always initiate with an explosive hip extension to create 6-12 inches of space. This space is non-negotiable for successful execution. If you cannot create space, choose a different escape.
-- **Error**: Threading both legs simultaneously instead of sequentially
+- **Mistake**: Threading both legs simultaneously instead of sequentially
   - **Consequence**: This creates a large opening that skilled opponents can exploit to pass your guard or attack your legs. The simultaneous movement also reduces your ability to control the distance.
   - **Correction**: Always insert inside leg first as a barrier, then bring the outside leg around. This sequential approach maintains defensive frames throughout and prevents guard passing opportunities.
-- **Error**: Lifting head during the roll, looking at the opponent
+- **Mistake**: Lifting head during the roll, looking at the opponent
   - **Consequence**: Lifting your head disrupts the rolling motion, strains your neck, and can result in you rolling directly onto your head rather than your shoulders. This is both ineffective and dangerous.
   - **Correction**: Keep chin tucked to chest throughout the entire movement. Look at your own belt or knees, never at your opponent. Your head should never touch the mat during a proper Granby roll.
-- **Error**: Stopping the rotation before fully completing the movement to guard
+- **Mistake**: Stopping the rotation before fully completing the movement to guard
   - **Consequence**: Half-completed rolls leave you on your side or back without proper frames, making you extremely vulnerable to guard passes or submissions. The opponent can easily capitalize on your compromised position.
   - **Correction**: Commit fully to the rolling motion and immediately establish your leg frames as soon as your rotation allows. The movement should be continuous and fluid from initiation to guard closure.
 
@@ -245,7 +245,7 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Week 1-2 - Movement Mechanics** - Learning proper Granby roll mechanics in isolation
 Practice Granby rolls solo across the mat, focusing on shoulder positioning, head protection, and compact body shape. Start from hands and knees, then progress to rolling from seated and standing positions. Drill 20-30 repetitions daily until the movement becomes natural and smooth. Partner can provide light resistance by placing hand on your hip to simulate pressure.
 (Resistance: None)
@@ -276,7 +276,7 @@ Experiment with different entry points (from various bottom positions), develop 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Granby to Butterfly Guard**: Instead of closing the guard with locked ankles, keep both feet on the opponent's hips in butterfly hooks position. This variation is useful when the opponent has a very strong base and closing guard would be difficult. From butterfly, you maintain mobility and can immediately work sweeps. (When to use: Against opponents with excellent base, when you need immediate sweep options, or when opponent is preventing closed guard closure)
 
 **Reverse Granby to Half Guard**: Roll in the opposite direction (toward the opponent rather than away) while simultaneously inserting your inside leg as a half guard hook. This unorthodox direction often surprises opponents who expect the standard away-direction roll. Particularly effective when the standard Granby is being countered repeatedly. (When to use: When opponent is over-committed to defending the standard Granby direction, or when space constraints prevent the traditional roll)
@@ -316,7 +316,7 @@ Experiment with different entry points (from various bottom positions), develop 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Granby to Closed Guard is generally a safe technique when executed with proper mechanics, but practitioners must be mindful of several safety considerations. Most importantly, never allow your head to bear weight during the roll - the movement should occur exclusively across the shoulders and upper back. Rolling onto the head or neck can cause serious cervical spine injuries. Always keep the chin tucked tightly to the chest throughout the movement. Practitioners with neck, shoulder, or upper back injuries should consult with medical professionals before practicing this technique. When training, ensure adequate mat space is available to complete the roll without obstruction, as collisions with walls or other practitioners during rotation can cause injury. Partners should provide appropriate resistance levels based on the practitioner's skill level and training phase. Beginners should master the solo movement mechanics before adding partner resistance. The rapid rotational movement can cause dizziness in some practitioners initially; if this occurs, reduce repetition frequency until vestibular adaptation occurs. Proper warm-up of the shoulders, neck, and hips is essential before practicing this technique intensively.
 
@@ -324,7 +324,7 @@ The Granby to Closed Guard is generally a safe technique when executed with prop
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Granby to Closed Guard serves as a critical defensive recovery technique that connects compromised bottom positions back to offensive guard systems. Within the broader BJJ positional hierarchy, this technique functions as a safety valve that prevents the progression from bad positions (turtle, flattened positions) to worse positions (back control, mount). It is particularly important in the defensive framework because it provides an escape route that works specifically against forward pressure scenarios where traditional shrimping or bridge-and-roll escapes are ineffective. The technique integrates seamlessly with the guard retention system, as it uses similar hip movement principles but applies them in a rotational rather than linear fashion. From a systematic perspective, mastering the Granby to Closed Guard opens up entire families of related techniques including the reverse Granby, rolling back takes, and various inverting guard entries. The movement also connects to offensive scrambling sequences where practitioners use Granby mechanics to create unpredictable angles during transitions. Many high-level competitors use Granby-based movements as core elements of their guard recovery system, making this technique essential for both fundamental defensive skills and advanced guard play development.
 
@@ -332,7 +332,7 @@ The Granby to Closed Guard serves as a critical defensive recovery technique tha
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Granby Roll]] - Foundation technique - core movement mechanic
 - [[Hip Escape]] - Alternative guard recovery method for different scenarios
@@ -352,7 +352,7 @@ The Granby to Closed Guard serves as a critical defensive recovery technique tha
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Granby roll to closed guard represents one of the most mechanically sophisticated defensive movements in Brazilian Jiu-Jitsu, combining rotational dynamics with precise timing to transform defensive vulnerability into offensive opportunity. The critical element that most practitioners miss is the relationship between the initial space creation and the rotational momentum - these are not separate actions but rather a unified explosive movement where the hip extension directly feeds into the shoulder roll. From a biomechanical perspective, the technique exploits the opponent's forward vector of pressure by redirecting it through a rotational plane that they cannot effectively follow. The compact body positioning throughout the roll is not merely defensive; it creates a moment of inertia that accelerates the rotation while simultaneously protecting vulnerable joints. The sequential leg threading is perhaps the most important technical detail - by establishing the inside leg frame first, you create a mechanical barrier that prevents the opponent from following your rotation, while the outside leg hook redirects their momentum into your closed guard structure. This technique should be viewed as a fundamental pillar of the defensive framework, as important as the bridge and shrimp, because it provides the solution to forward pressure scenarios where linear escape mechanics fail.
 - **Gordon Ryan**: In competition, the Granby to closed guard is an absolute game-changer for defensive situations, but it requires serious drilling to be reliable under pressure. I've used this escape countless times when opponents think they've got me pinned in turtle or are about to pass my guard - the explosive hip extension combined with the roll completely changes the dynamic of the exchange. What makes it so effective at the highest levels is that most competitors are conditioned to expect linear escape movements like shrimping, so the rotational attack completely disrupts their pressure and base. The key to making this work in competition is commitment - you cannot half-ass a Granby roll. If you hesitate or slow down mid-movement, you're giving your opponent your back on a platter. I drill this movement pattern almost daily, not just from static positions but from live scrambles where the timing is less predictable. When you hit it perfectly against a strong opponent who's driving hard into you, their own pressure actually helps you complete the rotation faster. From the closed guard position you establish, you're immediately in a position to attack or sweep, so this isn't just an escape - it's a transition to offense. The technique is especially valuable in no-gi where the reduced friction makes rotational movements smoother and faster.
 - **Eddie Bravo**: The Granby to closed guard is pure jiu-jitsu wizardry, man - it's like you're getting smashed, and then suddenly you're on bottom playing your game. In the 10th Planet system, we use variations of this movement constantly, especially in our lockdown and rubber guard games where we need to recover guard from bad positions. What I love about the Granby is that it's so unexpected - most people are trained to defend against straight shrimping escapes, but when you start rolling and inverting, it blows their mind and their base. We've developed some sick variations where you Granby into lockdown half guard instead of closed guard, which sets up the whole electric chair and vaporizer sequence. The technique is also fundamental for our Twister side control escapes. One thing I emphasize with my students is that the Granby roll isn't just an escape - it's a transition into attacks. You should be thinking submission or sweep as soon as you hit closed guard, not just 'phew, I escaped.' We drill Granby movements from everywhere - standing, sitting, turtle, side control - because the body mechanics translate across all these positions. The rotational power you develop from practicing Granby rolls also translates into better inverting for guard work and more explosive scrambling ability. This is essential modern jiu-jitsu movement that every player should have in their defensive arsenal.

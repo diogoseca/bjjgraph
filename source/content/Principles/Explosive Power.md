@@ -8,7 +8,7 @@ description: "Master explosive power in BJJ. Learn force production, rate of dev
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master explosive power in BJJ. Learn force production, rate of dev
 
 
 
-> **Quick Answer**: Explosive Power is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Explosive Power is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Develop explosive power progressively building from strength foundation before emphasizing maximal velocity
 - Target sport-specific movement patterns rather than generic power development exercises
 - Recognize explosive power combines force production capacity with movement velocity and technique timing
@@ -181,7 +181,7 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Rapid Force Production**: The ability to recruit maximum motor units in minimal time, creating immediate force output essential for explosive movements like bridging escapes, dynamic sweeps, and takedown entries where delayed force application results in opponent counters or position consolidation
 
 **Movement Velocity Control**: Capacity to execute techniques at high speed while maintaining proper mechanics and body alignment, ensuring explosive movements remain technically sound rather than degenerating into uncontrolled flailing that compromises position and creates defensive vulnerabilities
@@ -204,7 +204,7 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Strength Development]]** (Prerequisite): Basic strength capacity provides the foundation upon which explosive power is built, as rate of force development depends on having adequate force production capacity to express at high velocity
 - **[[Biomechanical Principles]]** (Complementary): Understanding leverage, force vectors, and kinetic chain mechanics ensures explosive power is applied through mechanically optimal pathways that maximize technique effectiveness
 - **[[Timing and Rhythm]]** (Complementary): Proper timing determines when explosive efforts are deployed for maximum tactical advantage, as poorly timed power application wastes energy and creates defensive vulnerabilities
@@ -223,7 +223,7 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Explosive hip elevation and angle creation enables dynamic sweep entries like Hip Bump Sweep and Pendulum Sweep where rapid force generation breaks opponent's base before defensive adjustments occur
 
 **Half Guard**: Explosive underhook battles and knee shield movements create space and off-balance opponents, with power enabling rapid transitions to Deep Half Guard or sweep completions when brief windows open
@@ -264,7 +264,7 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current energy state and determine if explosive effort is sustainable without compromising subsequent performance**: Evaluate fatigue level, remaining match time, and tactical importance of current situation to decide if explosive power deployment is strategically justified
 2. **Identify tactical window where explosive movement creates positional advantage**: Recognize brief opportunities when opponent's balance, base, or defensive structure becomes momentarily vulnerable to rapid force application
 3. **Establish proper body mechanics and alignment before initiating explosive movement**: Position body to enable efficient kinetic chain function ensuring force generated in legs and hips transfers effectively through torso to point of technique application
@@ -277,28 +277,28 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Treating explosive power as substitute for proper technique rather than enhancement of sound mechanics
+## Common Mistakes
+- **Mistake**: Treating explosive power as substitute for proper technique rather than enhancement of sound mechanics
   - **Consequence**: Creates energy-inefficient movement patterns that fail against technically superior opponents who can neutralize athleticism through superior positioning and timing
   - **Correction**: Develop explosive power within context of proper technique execution, ensuring speed and force amplify mechanical advantage rather than compensate for technical deficiency
-- **Error**: Deploying maximum explosive effort continuously rather than strategically timing power application
+- **Mistake**: Deploying maximum explosive effort continuously rather than strategically timing power application
   - **Consequence**: Leads to rapid neuromuscular fatigue and performance degradation, leaving athlete unable to generate explosive force when critical tactical moments arise
   - **Correction**: Implement strategic power deployment where explosive efforts target specific high-value opportunities while maintaining controlled pressure during other phases
-- **Error**: Training explosive power through generic exercises disconnected from BJJ movement patterns
+- **Mistake**: Training explosive power through generic exercises disconnected from BJJ movement patterns
   - **Consequence**: Develops athletic capacity that fails to transfer to sport-specific contexts due to lack of movement pattern similarity and neuromuscular specificity
   - **Correction**: Prioritize loaded technical drilling and explosive movement training that directly mirrors competition demands while maintaining proper recovery protocols
-- **Error**: Failing to establish proper body mechanics before initiating explosive movement
+- **Mistake**: Failing to establish proper body mechanics before initiating explosive movement
   - **Consequence**: Results in inefficient force transfer through poorly aligned kinetic chains, reducing power output while increasing injury risk from high-velocity forces applied through compromised positions
   - **Correction**: Ensure optimal body positioning and alignment before explosive efforts, recognizing brief setup time improves both effectiveness and safety of power application
-- **Error**: Confusing explosive power training with conditioning work by using insufficient recovery between efforts
+- **Mistake**: Confusing explosive power training with conditioning work by using insufficient recovery between efforts
   - **Consequence**: Trains muscular endurance rather than power development as cumulative fatigue prevents maintenance of maximum velocity and force production quality
   - **Correction**: Implement full recovery between explosive repetitions (typically 2-5 minutes) to maintain neuromuscular freshness and ensure training stimulus targets power rather than endurance
-- **Error**: Neglecting defensive awareness during explosive movements in pursuit of maximum speed
+- **Mistake**: Neglecting defensive awareness during explosive movements in pursuit of maximum speed
   - **Consequence**: Creates exploitable vulnerabilities where opponent counters explosive effort through technical precision, often resulting in worse position than before power application
   - **Correction**: Maintain tactical consciousness during explosive movements, ensuring positional security is preserved and ability to abort or adjust movement remains available
-- **Error**: Attempting to develop explosive power without adequate strength foundation
+- **Mistake**: Attempting to develop explosive power without adequate strength foundation
   - **Consequence**: Limits power development potential as rate of force development depends on having sufficient force production capacity to express at high velocity
   - **Correction**: Build basic strength capacity through progressive resistance training before emphasizing maximum velocity development in power-specific protocols
 
@@ -307,7 +307,7 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Loaded Technical Drilling** (Focus: Develops sport-specific explosive power through movement patterns that directly transfer to competition while teaching proper force application within technical context)
 Execute specific BJJ techniques with resistance bands, weighted vests, or partner resistance while maintaining maximum velocity and proper mechanics
 
@@ -332,7 +332,7 @@ Emphasize rapid transitions between eccentric and concentric actions through exe
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can execute explosive movements when fresh but experiences rapid power degradation under fatigue
 - Explosive efforts often compromise technical precision as speed and proper mechanics are treated as competing rather than complementary qualities
@@ -369,7 +369,7 @@ Emphasize rapid transitions between eccentric and concentric actions through exe
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Hip Bump Sweep]] (Transition) - Primary application of explosive hip elevation and upper body pulling to generate rapid off-balancing from closed guard
 - [[Butterfly Sweep]] (Transition) - Exemplifies explosive hook elevation combined with upper body control to execute rapid sweeping movements
@@ -389,7 +389,7 @@ Emphasize rapid transitions between eccentric and concentric actions through exe
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches explosive power from biomechanical optimization perspective, emphasizing that technical positioning and timing create the conditions where explosive force becomes most effective rather than treating power as purely athletic quality. Systematically analyzes which techniques benefit most from explosive force application and which are better executed through controlled pressure, advocating for strategic power deployment rather than constant explosiveness. Particularly emphasizes the importance of developing explosive power in sport-specific movement patterns through loaded technical drilling rather than generic power exercises that may not transfer effectively to BJJ contexts. Views power development as component of comprehensive athletic preparation that must be integrated with technical skill acquisition rather than pursued as separate training objective, ensuring explosive capacity enhances rather than compromises positional jiu-jitsu principles.
 - **Gordon Ryan**: Views explosive power as significant competitive advantage that enables tactical approaches unavailable to less explosive athletes, particularly in scrambles and transition moments where athletic qualities dominate. Focuses heavily on what he terms functional explosiveness where power must be accessible under fatigue and stress rather than just when fresh, emphasizing that competition-relevant power endurance matters more than single-effort maximum power. Advocates for maintaining explosive power throughout career through consistent training even as technical refinement reduces reliance on pure athleticism, viewing power as performance insurance enabling additional tactical options. Particularly emphasizes the competitive value of superior scrambling ability derived from explosive power, noting that matches often hinge on transitional moments where technical positions temporarily break down and athletic superiority determines who establishes dominant position. Recommends strategic power deployment targeting high-value opportunities rather than constant explosive effort that leads to premature fatigue.
 - **Eddie Bravo**: Approaches explosive power with emphasis on efficiency and technique integration rather than maximum force production, having developed systems that often prioritize control and strategic positioning over explosive athleticism. When teaching power development, emphasizes importance of understanding when explosive efforts are tactically justified versus when controlled movement is superior, warning against excessive reliance on explosiveness that can compromise positional stability. Particularly interested in developing elastic strength and reactive power through movement-based training rather than heavy strength training, believing this approach better preserves joint health and movement quality over career longevity. Views explosive power as valuable tool but cautions against allowing athletic superiority to become crutch that prevents development of sophisticated technical skill, advocating for power development that complements rather than substitutes for technical refinement in systematic positional progression.

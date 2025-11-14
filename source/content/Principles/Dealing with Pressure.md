@@ -8,7 +8,7 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
 
 
 
-> **Quick Answer**: Dealing with Pressure is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> Dealing with Pressure is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -165,7 +165,7 @@ Dealing with Pressure represents the fundamental skill of maintaining defensive 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Establish frames immediately to create minimal space for breathing and movement
 - Never allow flat back position—maintain angle to one side or hip orientation
 - Breathe strategically using diaphragmatic breathing despite chest compression
@@ -181,7 +181,7 @@ Dealing with Pressure represents the fundamental skill of maintaining defensive 
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Frame Construction and Maintenance**: The ability to create and maintain structural frames using forearms, elbows, knees, and shins to prevent complete weight compression. This includes understanding which frame types work in different positions and how to maintain frame integrity while conserving energy under sustained pressure.
 
 **Breathing Under Compression**: The technique of maintaining respiratory function when chest and diaphragm are compressed by opponent's weight. This involves diaphragmatic breathing, timing breaths with opponent's weight shifts, and creating micro-spaces for air intake through subtle postural adjustments.
@@ -204,7 +204,7 @@ Dealing with Pressure represents the fundamental skill of maintaining defensive 
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Frame Creation]]** (Prerequisite): Frame Creation provides the foundational technical skill for establishing the structural barriers necessary to deal with pressure effectively. Without proper frame construction, pressure management becomes impossible.
 - **[[Defensive Frame]]** (Complementary): Defensive Frame works in conjunction with pressure management by providing the specific frame structures appropriate to different pressure scenarios. Both concepts reinforce effective bottom position survival.
 - **[[Energy Conservation]]** (Complementary): Energy Conservation is essential for sustainable pressure defense, as managing energy expenditure determines whether a practitioner can outlast opponent's pressure or exhausts attempting ineffective escapes.
@@ -221,7 +221,7 @@ Dealing with Pressure represents the fundamental skill of maintaining defensive 
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Under mount pressure, the concept manifests through establishing elbow frames to prevent chest-to-chest compression, maintaining hip angles to prevent flattening, and timing breathing with opponent's weight shifts while protecting neck from choke attempts.
 
 **Side Control**: In side control, pressure management involves creating frames with bottom arm and knee shield, turning to the side to reduce pressure surface area, protecting neck with chin-to-shoulder connection, and using small shrimping movements to prevent complete flattening.
@@ -258,7 +258,7 @@ Dealing with Pressure represents the fundamental skill of maintaining defensive 
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess immediate submission threats to neck and limbs**: If submission threats exist, prioritize defensive hand positioning and neck protection over all other concerns. If no immediate threats, proceed to breathing assessment.
 2. **Evaluate breathing capacity and chest compression level**: If breathing is severely compromised, immediately establish frames to create minimal space for diaphragmatic breathing. If breathing is manageable, proceed to positional assessment.
 3. **Determine current body position (flat, angled, or on side)**: If flat on back, make small hip escape to create angle as highest priority. If already angled or on side, maintain that structure and proceed to frame assessment.
@@ -271,28 +271,28 @@ Dealing with Pressure represents the fundamental skill of maintaining defensive 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Allowing complete flattening of back to mat without maintaining angles
+## Common Mistakes
+- **Mistake**: Allowing complete flattening of back to mat without maintaining angles
   - **Consequence**: Maximizes effective pressure surface area, prevents hip mobility, eliminates escape pathways, and creates vulnerable position for submissions and sustained control
   - **Correction**: Immediately turn to side or create hip angle, even small degrees of rotation significantly reduce effective pressure. Practice maintaining side orientation as default defensive posture.
-- **Error**: Explosive, high-energy escape attempts without creating necessary space first
+- **Mistake**: Explosive, high-energy escape attempts without creating necessary space first
   - **Consequence**: Wastes critical energy reserves, tightens opponent's control through reactive adjustment, creates exhaustion that leads to submission or complete positional breakdown
   - **Correction**: Use sequential small movements to accumulate space first, then execute committed escapes only when sufficient space exists. Energy conservation is essential for sustained pressure defense.
-- **Error**: Holding breath or shallow chest breathing under compression
+- **Mistake**: Holding breath or shallow chest breathing under compression
   - **Consequence**: Accelerates oxygen depletion, increases panic response, reduces muscular endurance, impairs decision-making capacity, and creates psychological pressure that exceeds physical pressure
   - **Correction**: Focus on diaphragmatic breathing using available space, coordinate breathing with opponent's weight shifts, create micro-spaces through frame adjustments specifically for breathing windows.
-- **Error**: Pushing directly against opponent's weight with rigid arm extensions
+- **Mistake**: Pushing directly against opponent's weight with rigid arm extensions
   - **Consequence**: Creates strength-versus-strength battle that favors top position, exhausts arm muscles rapidly, provides opponent with frames to attack for armbars or other submissions
   - **Correction**: Use frames structurally rather than muscularly, direct pressure at angles rather than head-on, maintain bent-arm frames that use skeletal structure rather than muscle strength.
-- **Error**: Abandoning defensive priorities to attempt escapes prematurely
+- **Mistake**: Abandoning defensive priorities to attempt escapes prematurely
   - **Consequence**: Exposes neck and limbs to submission attacks, allows opponent to transition to more dominant positions, converts survivable pressure situation into immediate submission danger
   - **Correction**: Maintain priority hierarchy: protect submissions first, maintain breathing second, preserve position third, attempt escapes fourth. Never compromise higher priorities for lower ones.
-- **Error**: Accepting static position without making small progressive adjustments
+- **Mistake**: Accepting static position without making small progressive adjustments
   - **Consequence**: Allows opponent to settle into optimized pressure configuration, prevents accumulation of escape opportunities, leads to increasing physical and psychological pressure over time
   - **Correction**: Make constant small adjustments to frames, angles, and position even under heavy pressure. Small movements prevent opponent from achieving perfect control and create escape opportunities.
-- **Error**: Focusing solely on physical technique while ignoring psychological composure
+- **Mistake**: Focusing solely on physical technique while ignoring psychological composure
   - **Consequence**: Creates panic responses that override technical knowledge, leads to premature tapping to pressure rather than actual submissions, impairs pattern recognition and decision-making
   - **Correction**: Train pressure tolerance specifically through positional sparring, practice maintaining calm mindset under discomfort, recognize that psychological submission occurs before physical limits in most cases.
 
@@ -301,7 +301,7 @@ Dealing with Pressure represents the fundamental skill of maintaining defensive 
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Pressure Tolerance Drills** (Focus: Builds physical tolerance for pressure, develops breathing techniques under compression, conditions psychological response to discomfort, teaches sustainable frame structures.)
 Partner applies gradually increasing pressure from specific positions (mount, side control, etc.) while defender practices frame maintenance, breathing, and composure for timed intervals. Start with 30-second rounds and progress to 2+ minutes.
 
@@ -326,7 +326,7 @@ Extended rounds (5+ minutes) under sustained pressure with focus on maintaining 
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can maintain basic forearm frames for 30-60 seconds under moderate pressure before structural collapse
 - Demonstrates diaphragmatic breathing when reminded, but reverts to chest breathing under sustained pressure
@@ -372,7 +372,7 @@ Extended rounds (5+ minutes) under sustained pressure with focus on maintaining 
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Frame Creation]] (Principle) - Provides foundational technical skill for establishing structural barriers against pressure
 - [[Frame Management]] (Principle) - Extends pressure defense by teaching dynamic frame adjustments during opponent's pressure changes
@@ -392,7 +392,7 @@ Extended rounds (5+ minutes) under sustained pressure with focus on maintaining 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches pressure management as a scientific application of biomechanical leverage principles, teaching students to view pressure as a vector force that can be redirected rather than directly opposed. Emphasizes the importance of what he terms 'pressure geometry' where small postural adjustments dramatically reduce effective pressure by changing the angle and surface area against which opponent's weight operates. Systematizes pressure defense into hierarchical priorities: first protect submissions (neck, arms), second maintain breathing capacity through frames and angles, third create progressive space for escape execution. Teaches students to understand pressure as a strategic resource opponent must invest, creating opportunities when that investment is redistributed during transitions or submission attempts. His systematic approach breaks pressure defense into component skills that can be isolated, drilled, and progressively combined into comprehensive defensive frameworks applicable across all bottom positions.
 - **Gordon Ryan**: Views pressure management as a war of attrition where the defender's objective is surviving long enough for opponent to make mistakes or create opportunities through position changes. Focuses on what he calls 'pressure endurance' where elite practitioners can maintain frame structures and breathing control for extended periods without degrading, forcing opponents to abandon pressure strategies or take risks to finish. Emphasizes the psychological component of pressure defense, teaching students that most practitioners submit to pressure psychologically before reaching physical limits, making composure under discomfort a trainable skill as important as technical frame positioning. Advocates practicing pressure scenarios extensively to build both physical tolerance and mental resistance to the panic response that defeats most defenders. In competition, he demonstrates this concept by appearing completely comfortable under maximum pressure from world-class opponents, using his pressure tolerance to exhaust opponents who rely on control-based strategies, then capitalizing on their fatigue or positional adjustments to execute escapes or create advantageous scrambles.
 - **Eddie Bravo**: Has developed specialized pressure management approaches within his rubber guard system that often invert conventional pressure defense principles by actively drawing opponent into certain pressure configurations while maintaining control. When teaching pressure defense outside his specialized systems, emphasizes the importance of maintaining offensive threat even from defensive positions, using what he calls 'active pressure defense' where frames serve both defensive and offensive purposes by creating submission setups or sweep opportunities. Advocates for creative pressure management solutions that challenge opponent's expectations, particularly using unconventional guard positions like mission control and invisible collar that transform pressure situations into attacking opportunities rather than purely defensive scenarios. His approach teaches students that accepting pressure strategically while maintaining offensive control can be superior to immediate escape attempts, particularly when the pressure position offers submission or sweep opportunities. This philosophy reflects his broader innovative approach where traditional defensive hierarchies are questioned and reconstructed based on creating maximum problems for opponents even from apparently disadvantaged positions.

@@ -8,7 +8,7 @@ description: "Master systematic escape prioritization in BJJ. Learn to assess po
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master systematic escape prioritization in BJJ. Learn to assess po
 
 
 
-> **Quick Answer**: Escape Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Escape Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Prioritize escaping from most dangerous positions first (back control, mount, then side control)
 - Attempt highest-percentage escapes before lower-percentage alternatives
 - Conserve energy by selecting efficient escapes over forceful techniques when possible
@@ -181,7 +181,7 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Positional Danger Assessment**: The ability to rapidly evaluate relative threat levels of different positions, recognizing that back control represents highest submission danger, mount offers high control with submission threats, side control provides dominant control with lower immediate submission danger, and positions like knee on belly offer transitional control with specific escape windows.
 
 **Energy Cost Calculation**: Understanding the metabolic demands of different escape mechanics, recognizing that explosive bridge-and-roll escapes consume significant energy, hip escape sequences require moderate sustained effort, frame-based escapes demand isometric strength, and timing-based escapes rely on minimal force application with precise execution.
@@ -204,7 +204,7 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding relative value and danger of positions is essential for establishing escape priorities, as positional hierarchy defines which positions demand immediate escape versus which allow methodical improvement.
 - **[[Escape Fundamentals]]** (Prerequisite): Basic escape mechanics must be developed before hierarchical decision-making becomes relevant, as hierarchy determines which fundamental escapes to apply but relies on technical proficiency in those escapes.
 - **[[Energy Management System]]** (Complementary): Energy conservation principles work synergistically with escape hierarchy, as both concepts prioritize efficiency and recognize that defensive situations require strategic resource allocation to maintain escape capacity throughout matches.
@@ -223,7 +223,7 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: From mount bottom, escape hierarchy prioritizes creating frames to prevent upper body submissions first, then attempting elbow escape or bridge-and-roll based on opponent's posture, accepting side control as intermediate improvement when direct guard recovery is unavailable.
 
 **Back Control**: Under back control, hierarchy demands immediate hand fighting to prevent rear naked choke, followed by hip escape to face opponent, with willingness to accept inferior positions like turtle or half guard as successful escapes from this highest-danger position.
@@ -260,7 +260,7 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess immediate submission danger in current position**: If high submission threat exists (back control, mounted triangle, tight armbar), prioritize defending specific submission before addressing positional escape; if submission threat is moderate or low, proceed to positional escape selection.
 2. **Evaluate current energy levels and match context**: If energy is high and match situation allows, select highest-percentage escape regardless of energy cost; if fatigued or leading on points, prioritize energy-efficient escapes even if success probability is slightly lower; if desperate situation exists, accept high-energy explosive escapes.
 3. **Identify highest-priority escape based on position danger**: Attempt primary escape appropriate to position (bridge-and-roll from mount if opponent is high, elbow escape if opponent is low, hip escape from side control, hand fighting from back control), executing with proper technical mechanics.
@@ -273,28 +273,28 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting same escape repeatedly without variation
+## Common Mistakes
+- **Mistake**: Attempting same escape repeatedly without variation
   - **Consequence**: Opponent develops defensive timing and progressively improves position with each failed attempt, leading to energy depletion without positional improvement and potential advancement to more dangerous positions.
   - **Correction**: After two unsuccessful attempts of same escape, transition to alternative escape that addresses different angle or exploits opponent's defensive commitment, using escape variation to prevent opponent's defensive adaptation.
-- **Error**: Refusing to accept partial escapes and exhausting energy pursuing complete freedom
+- **Mistake**: Refusing to accept partial escapes and exhausting energy pursuing complete freedom
   - **Consequence**: Excessive energy expenditure leaves practitioner unable to defend subsequent attacks, creates scrambles that often favor top position, and misses opportunities to consolidate incremental improvements into stable positions.
   - **Correction**: Recognize mount-to-side control, side control-to-half guard, and similar partial escapes as legitimate successes, pause to recover energy and improve new position before continuing escape progression, building cumulative improvement through multiple partial successes.
-- **Error**: Ignoring positional danger hierarchy and treating all positions as equally urgent
+- **Mistake**: Ignoring positional danger hierarchy and treating all positions as equally urgent
   - **Consequence**: Wastes explosive energy escaping relatively safe positions while lacking reserves for dangerous situations, fails to develop appropriate urgency when in high-danger positions, and creates poor strategic habits regarding defensive priorities.
   - **Correction**: Internalize danger hierarchy where back control demands immediate explosive response, mount requires urgent systematic escape, side control allows methodical approach, and positions like half guard permit patient improvement, calibrating effort to actual danger level.
-- **Error**: Abandoning defensive frames during escape attempts
+- **Mistake**: Abandoning defensive frames during escape attempts
   - **Consequence**: Failed escapes result in worse positions as opponent advances during unframed moments, submission opportunities emerge when structural integrity is lost, and recovery from failed escapes becomes progressively more difficult as positions deteriorate.
   - **Correction**: Maintain at least one defensive frame throughout all escape attempts, ensuring that if escape fails you retain structural barriers against position advancement, never sacrificing defensive structure completely even when pursuing aggressive escapes.
-- **Error**: Selecting escapes based on personal preference rather than situational appropriateness
+- **Mistake**: Selecting escapes based on personal preference rather than situational appropriateness
   - **Consequence**: Attempts low-percentage escapes when high-percentage options exist, wastes opportunities by using wrong escape for specific situation, and develops predictable escape patterns that opponents easily defend once identified.
   - **Correction**: Choose escapes based on opponent's position quality, your current attributes, and situational demands rather than comfort level, deliberately practicing unfamiliar but situationally-appropriate escapes to develop complete hierarchical decision-making.
-- **Error**: Panicking under pressure and abandoning systematic escape approach
+- **Mistake**: Panicking under pressure and abandoning systematic escape approach
   - **Consequence**: Random frantic movements waste energy without positional improvement, create opportunities for opponent to advance position or secure submissions, and reinforce psychological patterns that undermine defensive composure.
   - **Correction**: Develop mental frameworks that maintain systematic thinking even under pressure, practicing escapes from worst-case scenarios to build confidence that methodical application works even from severely compromised positions.
-- **Error**: Failing to recognize timing windows for optimal escape execution
+- **Mistake**: Failing to recognize timing windows for optimal escape execution
   - **Consequence**: Attempts escapes against fully established control rather than during transitional moments, requiring excessive force and energy while achieving lower success rates, missing opportunities when opponent is vulnerable during position transitions.
   - **Correction**: Study opponent's weight distribution patterns and transition moments, timing escape attempts to coincide with shifts in pressure or grip adjustments, developing sensitivity to detect vulnerability windows even under heavy control.
 
@@ -303,7 +303,7 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Sparring Cycles** (Focus: Building muscle memory for position-specific escape priorities and developing realistic assessment of escape difficulty across position spectrum.)
 Start rounds from specific inferior positions with goal of achieving defined escape objectives within time limits, rotating through position hierarchy from least to most dangerous, developing both escape execution and prioritization instincts.
 
@@ -328,7 +328,7 @@ Start from highly disadvantaged scenarios (flattened under mount, seat belt lock
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes basic position hierarchy (mount worse than side control, back control most dangerous) and attempts appropriate escapes for each position type
 - Executes fundamental escapes with proper mechanics from common positions, though may require multiple attempts and significant energy expenditure
@@ -366,7 +366,7 @@ Start from highly disadvantaged scenarios (flattened under mount, seat belt lock
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Positional Hierarchy]] (Principle) - Foundational concept that defines relative danger levels used to establish escape priorities
 - [[Escape Fundamentals]] (Principle) - Provides technical escape mechanics that hierarchy determines when to apply
@@ -386,7 +386,7 @@ Start from highly disadvantaged scenarios (flattened under mount, seat belt lock
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Approaches escape hierarchy as a systematic diagnostic process where position evaluation precedes technique selection, with each position category having defined high-percentage escapes that should be attempted in priority order. Emphasizes what he terms 'positional triage' where most dangerous positions receive immediate attention while less threatening positions can be addressed methodically. Systematizes escapes based on mechanical efficiency, arguing that understanding which escapes require least energy for maximum positional gain enables survival in extended defensive situations where energy conservation is critical. Teaches hierarchy as decision tree where each position has primary, secondary, and tertiary escape options ranked by success probability, with clear criteria for when to transition between options based on opponent's defensive reactions. Views escape hierarchy as inseparable from submission defense hierarchy, arguing that preventing finishes while improving position represents integrated defensive system rather than separate skillsets.
 - **Gordon Ryan**: Views escape hierarchy as fundamentally context-dependent rather than following rigid priority rules, focusing on how match situation (score, time, fatigue) dramatically affects optimal escape selection. Emphasizes what he calls 'tactical escapes' where escape choices serve broader strategic objectives beyond immediate positional improvement, such as forcing opponent to expend energy or creating specific tactical situations. Prioritizes escapes that lead to offensive opportunities rather than merely achieving safety, arguing that best escapes transition seamlessly from defense to offense. Demonstrates how escape hierarchy shifts against different opponent types, using aggressive explosive escapes against slower grapplers while employing patient technical escapes against explosive athletes. Advocates developing personal escape hierarchies based on individual attributes, suggesting that practitioners identify which escape mechanics suit their body type and physical capabilities, then structure hierarchies around highest-percentage personal options rather than theoretical ideals. Shows how world-class competitors often invert traditional hierarchies in specific situations, accepting positional risks to create offensive opportunities.
 - **Eddie Bravo**: Has developed unique escape hierarchies within his 10th Planet system that often prioritize unconventional escape paths based on flexibility and positioning advantages specific to his methodology. When teaching escape hierarchy, emphasizes importance of what he calls 'flow escapes' where continuous movement creates cumulative positional improvement even when discrete escape attempts are partially defended. Advocates for personalizing escape hierarchies based on individual attributes, encouraging practitioners to identify which escape types suit their physical capabilities and to prioritize those in their defensive frameworks. Integrates psychological elements into escape hierarchy, discussing how accepting inferior positions temporarily can create opponent overconfidence that enables subsequent explosive escapes. Demonstrates creative escape sequencing where intentionally 'failing' primary escape creates specific reactions that set up unconventional secondary escapes, using hierarchy as strategic framework rather than rigid prescription. Teaches that escape hierarchy should evolve continuously based on meta-game developments, arguing that static hierarchies become predictable while adaptive hierarchies maintain effectiveness against evolving opposition strategies.

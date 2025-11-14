@@ -8,7 +8,7 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 
 
 
-> **Quick Answer**: Loop Choke from Mount is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression - apply slowly over 3-5 seconds and release immediately upon tap.
+> Loop Choke from Mount is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="safety-considerations" class="content-section">
 
-## Is Loop Choke from Mount Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -207,7 +207,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Maintain solid mount base throughout the setup and finish to prevent escapes
 - Deep collar grip is essential - shallow grips result in air chokes rather than blood chokes
 - The choke tightens through diagonal pulling vectors, not just downward pressure
@@ -221,7 +221,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish solid mount position with weight properly distributed on opponent's chest and hips
 - Control opponent's near-side arm to prevent framing and collar defense
 - Secure deep four-finger grip in opponent's far collar, with thumb inside against neck
@@ -234,7 +234,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish mount control and isolate near arm**: From solid mount position, use your weight to pin opponent's hips while simultaneously controlling or trapping their near-side arm. This can be accomplished by pinning their wrist to the mat with your knee, catching their elbow with your hand, or using your weight to limit their defensive frames. The goal is to remove their ability to defend their collar on the side you'll attack. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Feed deep collar grip on far side**: Reach across with your same-side hand (right hand to opponent's left collar) and feed your hand deep into their far collar, getting at least four fingers inside with your thumb against their neck. The deeper the grip, the more effective the choke. Use your opposite hand to pull their collar away from their neck to create space for insertion. Your elbow should be high and your grip should reach past their trachea toward the back of their neck. (Timing: 3-4 seconds) [Pressure: Light]
 3. **Secure opposite side lapel grip**: While maintaining the deep collar grip, use your free hand to grab the opponent's near-side lapel or collar, creating the loop configuration. This grip should be positioned near their shoulder or upper chest area. The two grips now form opposing vectors - one deep in the collar, one controlling the near lapel. (Timing: 2-3 seconds) [Pressure: Light]
@@ -247,7 +247,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Frames against attacker's hips and attempts to bridge and shrimp to escape mount** (Effectiveness: Low) - Your Adjustment: Use your grips on their collar to base out and prevent the bridge, then continue tightening the choke as they expend energy. Their bridging motion can actually help tighten the collar around their neck.
 - **Grabs and pulls on the deep collar grip wrist to prevent proper positioning** (Effectiveness: Medium) - Your Adjustment: If they grab your wrist, use your free hand to reinforce the grip or to strip their hand away. Alternatively, use their pulling to help you circle your elbow over their face, which can set up the loop configuration from a different angle.
 - **Tucks chin deeply to protect neck and collar access** (Effectiveness: Medium) - Your Adjustment: If the chin is tucked early, use collar drags and arm attacks to force them to extend their neck. Alternatively, transition to other mount attacks like Americana or armbar to create reactions that expose the collar. Once they defend other attacks, the collar becomes available again.
@@ -257,28 +257,28 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Shallow collar grip that only reaches the front of the neck [Medium DANGER]
+## Common Mistakes
+- **Mistake**: Shallow collar grip that only reaches the front of the neck [Medium DANGER]
   - **Consequence**: Creates an ineffective air choke that takes much longer to work and causes unnecessary discomfort without proper blood choke mechanics
   - **Correction**: Take time to feed the grip deep into the collar, getting your hand all the way past the trachea toward the back of the neck. Use your free hand to create space by pulling the collar away from their neck as you insert your choking hand.
-- **Error**: Rising too high in mount while attempting the choke, sacrificing base and stability
+- **Mistake**: Rising too high in mount while attempting the choke, sacrificing base and stability
   - **Consequence**: Opponent can easily bridge and roll, escaping mount and potentially reversing position
   - **Correction**: Maintain low center of gravity with hips heavy on opponent's torso. Your chest should lower toward their head as you finish, not rise away from them. Think of driving your weight through the choke rather than pulling upward.
-- **Error**: Pulling both grips in the same direction or straight down rather than creating diagonal opposing vectors
+- **Mistake**: Pulling both grips in the same direction or straight down rather than creating diagonal opposing vectors
   - **Consequence**: Choke doesn't tighten properly and opponent can defend or escape
   - **Correction**: Visualize making an 'X' with your forearms - one grip pulls toward your hip, the other pulls across their neck toward your opposite shoulder. The diagonal crossing motion is what creates the loop tightening mechanism.
-- **Error**: Applying sudden, jerking pressure to force a quick tap [CRITICAL DANGER]
+- **Mistake**: Applying sudden, jerking pressure to force a quick tap [CRITICAL DANGER]
   - **Consequence**: Risk of injuring training partner's neck or trachea, creating a dangerous training environment
   - **Correction**: Always apply choking pressure progressively over 3-5 seconds minimum in training. Competition speed is never appropriate for practice. Your training partner should have time to recognize the choke and tap safely.
-- **Error**: Neglecting to control opponent's near arm, allowing them to defend the collar effectively
+- **Mistake**: Neglecting to control opponent's near arm, allowing them to defend the collar effectively
   - **Consequence**: Opponent uses frames to prevent collar grips or pushes your weight off to escape mount
   - **Correction**: Before attempting collar grips, trap or control the near-side arm using your knee, hand, or weight distribution. This isolation is a prerequisite for successful setup.
-- **Error**: Continuing to apply pressure after partner taps or shows distress signals [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or shows distress signals [CRITICAL DANGER]
   - **Consequence**: Risk of causing unconsciousness or injury to training partner, violation of fundamental training safety
   - **Correction**: Develop sensitivity to tap signals including hand taps, foot taps, verbal taps, and changes in partner's resistance. Release immediately upon any tap signal without hesitation or delay.
-- **Error**: Attempting the choke without proper mount stability, leading to position loss
+- **Mistake**: Attempting the choke without proper mount stability, leading to position loss
   - **Consequence**: Opponent escapes mount during setup attempt, losing dominant position for a failed submission
   - **Correction**: Ensure mount is fully consolidated before attempting submission attacks. If opponent is actively bridging and escaping, focus on maintaining position before threatening submissions. Position before submission.
 
@@ -287,7 +287,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **High Mount Loop Choke**: From high mount position with knees near opponent's armpits, the loop choke can be applied with even greater control. The higher position limits opponent's bridging ability and makes collar access easier, though it requires excellent balance. (When to use: Use this variation against opponents who are good at bridging from standard mount, or when you've already established high mount during positional transitions.)
 
 **Cross Collar to Loop Choke Combination**: Begin by threatening a standard cross collar choke from mount. When opponent defends by pulling on your wrists or tucking their chin, transition to the loop choke using the same deep collar grip as the foundation. This combination uses their defensive reaction to set up the loop. (When to use: Effective against opponents who are well-versed in defending cross collar chokes from mount. Their defensive grips on your wrists can actually help you establish the loop configuration.)
@@ -330,7 +330,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn proper collar grip depth, hand positioning, and loop configuration mechanics without any resistance. Practice mount stability and arm control prerequisites. Study the diagonal vector mechanics that create the choking pressure.
 - Resistance: None
@@ -367,7 +367,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Mount]]
 - [[High Mount]]
@@ -383,7 +383,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Loop Choke]]
 - [[Loop Choke Variations]]
@@ -424,7 +424,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The loop choke from mount represents a perfect example of how positional dominance creates submission opportunities through mechanical advantage rather than pure strength. The key to understanding this technique is recognizing that it's fundamentally a problem of vectors and leverage. When properly executed, your collar grips create two opposing diagonal force vectors that form a loop mechanism around the opponent's neck, with their own gi material becoming the primary strangling device. The depth of the initial collar grip is absolutely critical - a shallow grip of two or three centimeters creates an air choke on the trachea, while a deep grip that reaches past the trachea to the back of the neck creates a proper blood choke on the carotid arteries. From a safety perspective, this distinction is paramount. The blood choke is not only more effective and faster-acting, but it's also significantly safer because it doesn't involve crushing the trachea. Train your students to always pursue maximum depth on the collar grip, using their free hand to create space by pulling the collar away from the neck during insertion. The finishing mechanics should emphasize the crossing diagonal pull rather than downward pressure - imagine making an 'X' with your forearms across their throat, with each hand pulling toward opposite corners.
 - **Gordon Ryan**: In competition, the loop choke from mount is one of my go-to attacks because it allows me to threaten a finish without giving up position, which is huge for both points and strategic control. The beautiful thing about this choke is that even if it doesn't finish immediately, the threat forces opponents to make defensive decisions that open up other attacks. Here's what works at the highest levels: you need to have absolute mount control before you even think about collar grips. Too many people sacrifice their base to reach for the collar and end up getting bridged off. I establish mount, get my weight settled, and only then do I start attacking the collar. One thing that's different in competition versus training is the timing - in competition, I'm using every defensive movement they make to help me get my grips deeper. When they bridge, I use that motion to feed my hand deeper into the collar. When they try to frame, I'm using their arm movement to access the lapel. In training, though, you need to give your partners time to feel the choke coming and tap safely. I've seen too many people get injured from chokes being slammed on at competition speed in the training room. Competition is where you go fast, training is where you go slow and technical. The training room is for your partners to survive and improve, not for you to prove how tough your choke is. Respect the tap immediately and your training partners will trust you, which makes everyone better.
 - **Eddie Bravo**: The loop choke from mount is a classic gi technique that shows why collar control is so dangerous in traditional BJJ. In the 10th Planet system, we obviously don't have the gi to work with, but the principles of creating a loop or noose around the opponent's neck translate directly to our no-gi variations like the twister side control or certain guillotine setups. What I love about teaching this technique is that it demonstrates the concept of using the opponent's own defensive tools against them - their gi becomes a weapon for you. The innovation angle here is thinking about how to set up the loop choke from unconventional mount positions. Most people only think about it from standard mount, but you can hit this from technical mount, from S-mount, even from positions where you're transitioning between mount variations. The key is always getting that deep collar grip first, everything else builds from there. From a safety perspective, and this is critical in our gym culture, you never rush a choke in training. Our whole philosophy is about pushing the boundaries of technique while keeping training partners safe. The loop choke should be applied slowly and progressively - you should feel it tightening over several seconds, not snapping on instantly. If your partner taps, you release immediately, no ego, no hesitation. That's not just safety protocol, that's respect for your training partner's trust. They're giving you their neck; you need to honor that by keeping them safe. Train hard, train creative, but always train smart and safe.

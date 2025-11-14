@@ -8,7 +8,7 @@ description: "Master Kimura from North-South in BJJ. Complete safety guide with 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Kimura from North-South in BJJ. Complete safety guide with 
 
 
 
-> **Quick Answer**: Kimura from North-South is a shoulder lock targeting the Shoulder joint, rotator cuff, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Kimura from North-South is a shoulder lock targeting the Shoulder joint, rotator cuff, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="safety-considerations" class="content-section">
 
-## Is Kimura from North-South Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -217,7 +217,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Maintain heavy chest pressure throughout the attack to prevent escape via hip movement
 - Isolate the near-side arm by controlling the wrist before establishing the figure-four grip
 - Position your hips perpendicular to opponent's body to maximize rotational leverage
@@ -231,7 +231,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish stable north-south control with chest pressure across opponent's sternum and diaphragm
 - Opponent's near-side arm must be extended or framing against your body (not trapped under their body)
 - Your hips positioned perpendicular to opponent's torso for maximum leverage angle
@@ -244,7 +244,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure North-South Control**: From north-south position, distribute your weight heavily across opponent's chest and upper torso. Your head should pressure their far shoulder to prevent rotation. Spread your knees wide for base and position your hips perpendicular to their body. The opponent will naturally frame or push against your body with their near-side arm, creating the opportunity for attack. (Timing: 2-3 seconds to establish stable control) [Pressure: Firm]
 2. **Isolate and Control the Wrist**: As opponent extends their near-side arm to frame or create space, thread your arm closest to their legs underneath their forearm. Capture their wrist with a firm grip, pulling it slightly away from their body. Your grip should be palm-to-palm with your thumb toward their thumb, creating strong wrist control that prevents them from pulling the arm back to safety. (Timing: 1-2 seconds to secure wrist control) [Pressure: Moderate]
 3. **Establish Figure-Four Grip**: While maintaining wrist control with your lower hand, reach your upper arm (the one near their head) over the top of their arm and grab your own wrist to complete the figure-four configuration. Your upper arm's elbow should be positioned over their elbow, creating a strong structural frame. Ensure your grip is tight and your arms form a solid mechanical connection—any looseness here reduces your leverage significantly. (Timing: 2-3 seconds to establish secure grip) [Pressure: Moderate]
@@ -258,7 +258,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Opponent pulls elbow tight to body and hides arm** (Effectiveness: High) - Your Adjustment: Before they can fully retract the arm, use your chest pressure and head position to bait them into re-extending the arm to create space. Alternatively, transition to far-side armbar or switch to alternative attacks like the north-south choke to force them to react.
 - **Opponent rolls toward the submission (into you) to relieve shoulder pressure** (Effectiveness: Medium) - Your Adjustment: Follow their roll by moving your hips in the same direction while maintaining the figure-four grip. As they roll toward you, they often expose their back—be prepared to transition to back control by releasing the Kimura and establishing seat belt control.
 - **Opponent bridges explosively to disrupt your base** (Effectiveness: Medium) - Your Adjustment: Maintain wide knee base and heavy chest pressure to absorb the bridge. If they create significant disruption, temporarily release rotational pressure (not the grip) and reestablish positional control before continuing the submission. Prioritize position maintenance over submission completion.
@@ -267,25 +267,25 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying submission too quickly without progressive pressure [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying submission too quickly without progressive pressure [CRITICAL DANGER]
   - **Consequence**: High risk of shoulder injury to training partner, potentially causing rotator cuff tears or labral damage before they can safely tap
   - **Correction**: Always apply the submission over minimum 5-7 seconds with gradually increasing pressure. The north-south angle creates deceptive leverage—be extra cautious with application speed.
-- **Error**: Loosening chest pressure while attempting the Kimura
+- **Mistake**: Loosening chest pressure while attempting the Kimura
   - **Consequence**: Opponent can hip escape or roll out, defeating the submission and potentially escaping to a neutral or superior position
   - **Correction**: Maintain constant heavy chest pressure throughout the entire submission sequence. Your weight distribution should remain primarily on opponent's upper torso even as your arms work the figure-four lock.
-- **Error**: Poor figure-four grip with loose or improper hand positioning
+- **Mistake**: Poor figure-four grip with loose or improper hand positioning
   - **Consequence**: Loss of mechanical leverage allows opponent to straighten their arm or slip out of the lock, wasting the positional opportunity
   - **Correction**: Ensure your wrist-to-wrist grip is tight with proper thumb alignment. Your upper arm's elbow must be positioned directly over opponent's elbow to create a solid structural frame. Check grip integrity before applying pressure.
-- **Error**: Hips aligned parallel with opponent's body instead of perpendicular
+- **Mistake**: Hips aligned parallel with opponent's body instead of perpendicular
   - **Consequence**: Significantly reduced rotational leverage makes finishing the submission difficult, and opponent can more easily defend or escape
   - **Correction**: Adjust your hips so they form a perpendicular angle to opponent's torso. This positioning maximizes your ability to generate rotational torque on their shoulder joint while maintaining control.
-- **Error**: Focusing only on rotation without upward lifting pressure on elbow
+- **Mistake**: Focusing only on rotation without upward lifting pressure on elbow
   - **Consequence**: Incomplete submission mechanics allow opponent to defend by keeping their elbow close to their body, reducing shoulder joint stress
   - **Correction**: Apply upward lifting pressure on their elbow first, then add rotation. The combination of lifting and rotating creates the full submission—either component alone is less effective.
-- **Error**: Continuing submission after tap or distress signals [CRITICAL DANGER]
+- **Mistake**: Continuing submission after tap or distress signals [CRITICAL DANGER]
   - **Consequence**: Severe injury risk including rotator cuff tears, shoulder dislocation, or ligament damage requiring surgical intervention
   - **Correction**: Release immediately at first sign of tap or distress. Err on the side of caution—if you sense discomfort, stop and check verbally. Safety always supersedes submission completion in training.
 
@@ -294,7 +294,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Transition from North-South Choke Attempt**: When attempting a north-south choke, opponent often defends by framing with their near-side arm. As they extend this arm to create space and prevent the choke, immediately abandon the choke attempt and switch to the Kimura grip on the extended arm. This variation capitalizes on their defensive reaction. (When to use: When opponent successfully defends north-south choke by framing; creates immediate opportunity as their arm is already in vulnerable position)
 
 **Step-Over Kimura for Additional Leverage**: After establishing the figure-four grip, step your leg closest to opponent's head completely over their head and plant it on the far side. This creates a modified position with even greater leverage and prevents opponent from rolling into the submission. Your hips can now drive perpendicular pressure while your arms maintain the lock. (When to use: When opponent has strong shoulder flexibility and standard application lacks sufficient leverage; also useful when opponent attempts to roll toward the submission)
@@ -332,7 +332,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn proper grip mechanics, body positioning, and safety protocols through demonstration and slow-motion practice. Study anatomy of shoulder joint to understand injury mechanisms.
 - Resistance: None
@@ -369,7 +369,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[North-South]]
 - [[North South Control]]
@@ -385,7 +385,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura Variations]]
@@ -427,7 +427,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Kimura from north-south represents one of the most mechanically efficient shoulder locks in our arsenal due to the perpendicular body alignment and the dual-axis pressure system. The critical element most practitioners misunderstand is the relationship between vertical elbow elevation and horizontal rotation—these must occur simultaneously to create true joint stress. From north-south, we possess superior leverage compared to traditional side control Kimuras because our body weight naturally loads through the opponent's chest while our arms are free to work independent of weight distribution. The safety consideration is paramount: this angle creates approximately 40% more torque on the shoulder complex than standard Kimuras, meaning injury occurs much faster. I emphasize to my students that the progression must be lifting the elbow first to establish tension in the joint capsule, then adding rotation gradually. The opponent's defensive options are severely limited from north-south, which paradoxically increases our responsibility for controlled application. We must train this submission with heightened safety awareness, understanding that our mechanical advantage becomes our partner's vulnerability. The intelligent practitioner uses this position not merely to finish, but to force defensive reactions that open alternative attacks—the Kimura grip itself becomes a powerful control mechanism even when the submission doesn't materialize.
 - **Gordon Ryan**: In competition, the Kimura from north-south is a high-percentage finish that I've used successfully at the highest levels, but there's a significant difference between competition application and training room application that practitioners must understand. In competition, when I secure north-south control and isolate that near arm, I'm finishing the Kimura with maximum pressure and speed because the goal is winning the match. However, in the training room, this same submission requires completely different handling—I'm applying it over 5-7 seconds minimum and stopping at much lighter pressure than I would in competition. The reason this position is so effective in matches is that most opponents don't realize how much danger they're in until it's too late—the angle is deceptive. I've finished multiple high-level black belts with this because they're focused on escaping north-south and don't prioritize hiding that arm until I've already established my grips. My advice for competition use: once you get the figure-four locked, don't hesitate or give them time to adjust—finish decisively. For training: that same decisive finish becomes extremely dangerous to your partners, so you must override your competitive instincts and apply it slowly. The setup I prefer is attacking the north-south choke first, getting them to frame with that near arm, then immediately switching to the Kimura. That reaction-based entry is much higher percentage than just hunting for the arm directly.
 - **Eddie Bravo**: The north-south Kimura is interesting because it's a traditional jiu-jitsu position giving you this super modern, high-leverage finish, and the safety dynamics are completely different than what most people think about with other Kimuras. In the 10th Planet system, we're big on the Kimura grip as a control tool more than just a finish—we use it to break people down, move them around, set up other attacks. From north-south specifically, what I like is how it connects to our whole system of never staying static. If they defend the Kimura by rolling into it, you're flowing right into back control—that's beautiful jiu-jitsu right there, where one attack chains into superior position. But here's what I tell my students about safety: this angle is sneaky dangerous because you don't feel like you're cranking that hard, but your partner's shoulder is getting torqued way harder than you think. I've seen people get hurt from this in the gym because the person applying it didn't realize how much pressure they were using—it's that deceptive leverage thing. So we drill this super slow, and I mean glacially slow, until people develop that sensitivity to how much pressure they're actually applying. In training, I'd rather you lose position than hurt your training partner rushing this submission. But the technical evolution here is cool—we're seeing more people using that step-over variation where you swing your leg across their head for even more leverage, which is great for competition but requires even more safety awareness in training. The whole key is understanding that traditional doesn't mean less dangerous—sometimes the old school techniques are old school because they work so efficiently they can cause damage quickly.

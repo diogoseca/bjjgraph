@@ -8,7 +8,7 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 55% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -193,7 +191,7 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player's back remains flat on the mat with chest facing upward, head aligned roughly perpendicular to opponent's body with skulls near each other, creating the characteristic head-to-head alignment that defines North-South positioning
 - Top player's chest creates continuous downward pressure across bottom player's chest and shoulder area, with their body weight distributed to restrict rib expansion and limit breathing capacity while maintaining heavy control
@@ -204,7 +202,7 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Top player has established chest-to-chest pressure from perpendicular alignment
 - Bottom player's back is flat on mat with limited hip mobility
@@ -231,7 +229,7 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Elbow Escape]] → [[Closed Guard]]
 
@@ -295,7 +293,7 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[North-South Choke]]** → [[Lost by Submission]]
 - **[[Kimura from North-South]]** → [[Lost by Submission]]
@@ -308,7 +306,7 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Frame and Shrimp]]** → [[Half Guard]]
   - Opponent shifts weight forward during North-South choke attempt
@@ -348,7 +346,7 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

@@ -13,10 +13,6 @@ description: "Master Crackhead Control in BJJ. Complete guide to Eddie Bravo's i
 
 
 
-> **Quick Overview**: Crackhead Control is an innovative turtle position system developed within the 10th Planet Jiu-Jitsu methodology, characterized by unconventional positioning and dynamic movement patterns that challen...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,31 +54,19 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short to Medium | Medium to Long |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short to Medium | Medium to Long |
 
-**What Makes This Position Unique:** Chair-sit mechanics create asymmetric control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Crackhead Control/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Crackhead Control/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Chair-sit mechanics create asymmetric control
 
 
 
@@ -90,10 +74,13 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 <section id="bottom-summary" class="content-section">
 
-## Crackhead Control Bottom Perspective
+
+## Playing as Bottom
+
+[[Crackhead Control/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in crackhead control balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -136,7 +123,7 @@ The bottom player in crackhead control balances defensive frames with offensive 
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Remaining static in turtle position instead of maintaining constant movement**
@@ -164,16 +151,17 @@ The bottom player in crackhead control balances defensive frames with offensive 
   - ✅ Correction: Develop sensitivity to opponent's weight distribution and commitment, explosively capitalize on moments of instability to recover guard or sweep
 
 
-👉 **[[Crackhead Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Crackhead Control Top Perspective
+
+## Playing as Top
+
+[[Crackhead Control/Top|→ Full Top Guide]]
 
 
-The top player in crackhead control balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -219,7 +207,7 @@ The top player in crackhead control balances control maintenance with submission
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Sitting too high on opponent's upper back instead of hips**
@@ -246,8 +234,6 @@ The top player in crackhead control balances control maintenance with submission
   - Consequence: Opponent regains base and can push into you to escape or stand up
   - ✅ Correction: Maintain perpendicular hip angle, keeping opponent's hips turned away while your hips stay loaded on their lower back
 
-
-👉 **[[Crackhead Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

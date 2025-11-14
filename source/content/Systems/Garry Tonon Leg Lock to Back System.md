@@ -137,7 +137,7 @@ description: "Master Garry Tonon's leg lock to back system. Learn seamless trans
 
 
 
-> **Quick Answer**: Garry Tonon Leg Lock to Back System is a advanced difficulty Attack System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Garry Tonon Leg Lock to Back System is a advanced difficulty Attack System system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Attack System
@@ -156,7 +156,7 @@ The Garry Tonon Leg Lock to Back System represents one of the most sophisticated
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Attack cycling between lower body submissions and back control creates inescapable dilemmas
 - Defensive movements against leg locks naturally expose back taking opportunities
 - Back escape attempts frequently re-expose leg entanglement positions
@@ -170,7 +170,7 @@ The Garry Tonon Leg Lock to Back System represents one of the most sophisticated
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Inside Ashi to Back Transition** (Primary entry to back control from leg entanglement positions)
 The fundamental pathway from inside ashi-garami to back control. When opponent attempts to clear the bottom leg hook, their rotation creates exposure for seat belt grip establishment. This transition capitalizes on the forward roll escape attempt, using their momentum to achieve rear mount positioning. The key is maintaining connection with the far hip throughout the rotation.
 
@@ -192,7 +192,7 @@ This dynamic rolling back take serves as both an entry to back control and a rec
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Entry Establishment**: Establish initial control position through standing leg attacks, guard pulling to x-guard variations, or transitional leg entanglements during scrambles
 Key points:
 - Prefer inside ashi-garami as primary starting position for bilateral attack options
@@ -368,7 +368,7 @@ The system requires both isolated component drilling and integrated flow trainin
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The brilliance of Tonon's approach lies in its recognition that opponent defensive movements are predictable reactions to submission pressure. When you apply systematic heel hook pressure from inside ashi-garami, the opponent has limited defensive options: turn toward you, turn away from you, or attempt to widen base and clear the entanglement. Each of these defenses exposes a specific counter-attack pathway. The turn toward you creates the angle for seat belt establishment and back control. The turn away exposes truck position and spine attacks. The base widening creates space for kiss of the dragon entries. This is not opportunistic scrambling—it is systematic exploitation of defensive necessity. The key is maintaining what I call 'transitional connection' throughout these movements. Your hips must remain in contact with opponent's hips during every position change. This connection prevents the defensive reset that would allow opponent to escape the system entirely. Train each binary relationship until the defensive movement automatically triggers the appropriate offensive response. The system's true power emerges when you stop thinking about individual positions and instead recognize the continuous attack cycle. You are never stuck in one position hoping for a finish—you are systematically moving through a predetermined sequence where every defensive success creates the next offensive opportunity.
 - **Gordon Ryan**: I've competed against Garry extensively and also implemented variations of this system in my own competition game. The reality is that most high-level opponents can defend individual leg attacks or individual back attacks when that's all you're threatening. But nobody can simultaneously defend both categories effectively while also preventing the transitions between them. That's what makes this system so dangerous at the highest levels. When I have inside ashi and my opponent starts defending the heel hook, I'm already looking for their hips turning—that turn is my entry to the back. When I have their back and they try that granby roll escape, I'm immediately looking to recapture their legs because that roll exposes them perfectly. The key competitive application is finish rate on the individual submissions. If you can't actually finish heel hooks or rear naked chokes, opponents will just accept being in those positions and focus all their energy on preventing transitions. You need legitimate finishing ability in both categories to make the dilemma real. Also, this system shines in no-gi competition where the reduced friction makes transitions faster and harder to defend. In the gi, you can implement similar concepts but the execution timing changes due to grip friction. For competition, I recommend emphasizing whichever attack category your opponent is weaker at defending first, then using their defensive over-commitment to attack the other category.
 - **Eddie Bravo**: What Garry developed here is the modern evolution of what we were trying to do with the twister system—create multiple submission threats from interconnected positions where defending one exposes another. The truck position is a perfect example of this intersection between leg attacks and back attacks. When you have saddle and they turn into you defending the heel hook, you're right there in truck which can go to twister, back take, or return to legs. It's beautiful because nothing is wasted movement. The innovation that takes this beyond traditional back attack systems is the leg entanglement integration. Old school back attack systems relied on getting past the legs first, then working the back. This approach treats the legs as both destination and pathway—you're attacking legs as a primary target but also using leg control as the highway to the back. For 10th Planet practitioners, integrate this with rubber guard and lockdown concepts. When you have lockdown from bottom half guard, you're already in position for electric chair which connects to truck which connects to this whole system. The lockdown becomes an entry point rather than an isolated position. Also, develop your truck game heavily because it's the nexus position connecting everything. Master the truck and you can flow between heel hooks, calf slicers, twisters, and back takes all from one position. That's the 10th Planet philosophy applied to modern leg lock integration.

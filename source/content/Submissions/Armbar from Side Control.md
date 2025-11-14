@@ -8,7 +8,7 @@ description: "Master Armbar from Side Control in BJJ. Complete guide with safety
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Armbar from Side Control in BJJ. Complete guide with safety
 
 
 
-> **Quick Answer**: Armbar from Side Control is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension - apply slowly over 3-5 seconds and release immediately upon tap.
+> Armbar from Side Control is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="safety-considerations" class="content-section">
 
-## Is Armbar from Side Control Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -210,7 +210,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Control the opponent's head and far hip to prevent escape
 - Isolate the target arm completely before transitioning
 - Keep your hips tight to the opponent's shoulder throughout
@@ -224,7 +224,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish dominant side control position with chest pressure
 - Control opponent's near arm (typically with cross face or underhook)
 - Secure opponent's far hip to prevent them turning into you
@@ -238,7 +238,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Establish tight side control**: Begin in standard side control with your chest heavy on the opponent's chest. Secure a strong cross face with your near arm, driving your shoulder into their jaw while your far arm controls their far hip. Your weight should be distributed to prevent any bridging or shrimping movement. Ensure your hips are low and your knees are wide for maximum base. (Timing: Establish control for 3-5 seconds before transitioning) [Pressure: Firm]
 2. **Isolate the near arm**: Transition your cross face arm to control the opponent's near arm at the wrist or forearm. Use your chest pressure to pin their arm across their body or bring it slightly away from their torso. Your other hand maintains control of the far hip. The goal is to make the near arm completely isolated and unable to defend. If the opponent grips their own belt or gi, use your weight to break the grip before proceeding. (Timing: 2-3 seconds to break grips and isolate) [Pressure: Firm]
 3. **Step over the head**: While maintaining control of the isolated arm, step your leg nearest to the opponent's head over their face. Your shin should rest across their forehead or neck area, with your knee pointing toward their far shoulder. This step must be deliberate and controlled - do not jump or rush. Keep constant downward pressure with your chest to prevent them from following you or sitting up. Your other leg may post out temporarily for base during this transition. (Timing: 1-2 seconds for controlled transition) [Pressure: Moderate]
@@ -251,7 +251,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Grabbing their own belt or gi to keep arm bent** (Effectiveness: Medium) - Your Adjustment: Use chest pressure and weight to break the grip before proceeding. Isolate the arm by driving your chest down and pulling the arm away from their body. Alternatively, transition to Kimura if the grip is too strong.
 - **Turning into you to regain guard** (Effectiveness: High) - Your Adjustment: Maintain heavy cross face pressure and control of the far hip throughout the setup. If they begin turning, abandon the armbar and secure side control or mount instead. Prevention is key - establish strong positional control first.
 - **Bridging explosively as you step over** (Effectiveness: High) - Your Adjustment: Keep your weight low and distribute it across their chest during the transition. If they bridge, ride the bridge by posting your free leg and maintaining chest pressure. Wait for them to lower back down before continuing the submission.
@@ -261,28 +261,28 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Spiking or jerking the armbar finish [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Spiking or jerking the armbar finish [CRITICAL DANGER]
   - **Consequence**: Severe elbow injury to training partner, potential ligament tears or dislocation
   - **Correction**: Always apply smooth, progressive pressure over 3-5 seconds minimum. Lift hips gradually and maintain constant communication with training partners about application speed.
-- **Error**: Transitioning too quickly without establishing control
+- **Mistake**: Transitioning too quickly without establishing control
   - **Consequence**: Opponent easily escapes or reverses position, losing dominant control
   - **Correction**: Take time to establish heavy side control, break grips, and isolate the arm completely before attempting to step over. Each setup step should be deliberate and controlled.
-- **Error**: Failing to keep hips close to opponent's shoulder
+- **Mistake**: Failing to keep hips close to opponent's shoulder
   - **Consequence**: Creates space for arm extraction and reduces finishing pressure
   - **Correction**: Scoot your hips as high onto their shoulder as possible. Pull their wrist to your chest and actively pinch your knees together to eliminate space.
-- **Error**: Positioning opponent's thumb down instead of up [Medium DANGER]
+- **Mistake**: Positioning opponent's thumb down instead of up [Medium DANGER]
   - **Consequence**: Reduces effectiveness of armbar and applies pressure to wrong part of elbow joint
   - **Correction**: Always ensure the thumb points toward the ceiling before finishing. The back of their elbow (tricep) should face your hips, not the front (bicep). Rotate the arm if necessary before securing final position.
-- **Error**: Pulling with arms instead of extending with hips
+- **Mistake**: Pulling with arms instead of extending with hips
   - **Consequence**: Inefficient technique that wastes energy and reduces submission effectiveness
   - **Correction**: Focus on hip extension as the primary finishing mechanism. Your arms should hold position while your hips do the work of creating the hyperextension.
-- **Error**: Not controlling the head with your leg
+- **Mistake**: Not controlling the head with your leg
   - **Consequence**: Opponent can turn into you and escape or defend the submission
   - **Correction**: Keep your leg tight across their face or neck. Squeeze your knees together actively. Use the leg pressure to prevent any rotation of their body.
-- **Error**: Releasing control too early in training [High DANGER]
+- **Mistake**: Releasing control too early in training [High DANGER]
   - **Consequence**: Creates unsafe training habits and potential for injury if timing is misjudged
   - **Correction**: Maintain all control positions and pressure until the tap is complete and acknowledged. Only then release in the prescribed protocol. Never rush the release.
 
@@ -291,7 +291,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Step-over armbar from kesa gatame**: From scarf hold position (kesa gatame), control the opponent's far arm and step your leg over their face while maintaining the head control with your arm. This variation emphasizes the arm control from the scarf hold position. (When to use: When opponent is turtled or defensive in scarf hold and you have strong control of the head and far arm)
 
 **Knee slide armbar**: Instead of stepping completely over the head, slide your knee across their face while maintaining arm control. This lower amplitude variation can be faster and requires less movement, making it harder for the opponent to anticipate. (When to use: When opponent has good defensive awareness and might react to the step-over, or in no-gi where sliding is easier)
@@ -334,7 +334,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Week 1-2)** (First 2 weeks)
 - Focus: Learn proper body positioning, arm isolation, and step-over mechanics without resistance. Study the safety protocols and release procedures thoroughly. Understand the anatomical mechanics of elbow hyperextension.
 - Resistance: None
@@ -371,7 +371,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[Kesa Gatame]]
@@ -386,7 +386,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Armbar from Mount]]
 - [[Armbar from Guard]]
@@ -422,7 +422,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The armbar from side control is one of the most mechanically sound submissions in the entire sport when executed with proper attention to detail. The key element that most practitioners miss is the critical importance of hip positioning relative to the opponent's shoulder. Your hips must be high - as close to their shoulder as possible - to create the proper fulcrum for the lever system. The elbow joint can only bend in one direction naturally, and our job is to extend it beyond its natural range in the opposite direction using our hips as the fulcrum and their upper arm as the lever. When teaching this technique, I emphasize the concept of control before submission - you must completely dominate the position and isolate the arm before even considering the finish. The step-over transition is where most people fail because they rush it without establishing the prerequisite control points. In training, this submission should always be applied progressively over several seconds, allowing your partner adequate time to tap. The elbow joint is relatively fragile compared to other joints, and career-ending injuries can occur in milliseconds if the technique is spiked or jerked. Safety in training is not optional - it's the foundation of effective learning.
 - **Gordon Ryan**: From a competition perspective, the armbar from side control is a high-percentage finish when you've done the work to break down your opponent's defensive frames and posture. In my matches, I look for this submission when I've established heavy pressure in side control and I feel my opponent's near arm becoming isolated - often this happens when they try to push my face or create a frame. The key difference between training and competition is that in competition, I'm looking to transition faster once I have the control established, but even in matches, I never spike the joint - it's about smooth, relentless pressure that doesn't give them time to adjust their defense. What makes this submission especially effective at high levels is that you can chain it with the Kimura and Americana from the same position. If they defend the armbar by pulling their arm back, that often exposes the Kimura. If they keep their elbow tight to defend the Kimura, the armbar becomes available. In training, I always tell people to slow down on the finish - you can work at competition speed until you secure the position, but that last finishing pressure needs to be controlled so your partners can train safely tomorrow. I've seen too many guys get hurt from training partners who don't understand the difference between training intensity and finishing speed.
 - **Eddie Bravo**: The beauty of the armbar from side control in the 10th Planet system is how it integrates with our overall submission chain philosophy and our emphasis on controlling without the gi. When you're working no-gi, the armbar from side control requires even tighter mechanics because you don't have cloth to grip - you're working with pure positional control and underhooks. We teach this as part of a larger system where every submission attempt sets up the next one, and you're always thinking two or three moves ahead. What I love about this submission is that it works whether you're in the gym or in competition, and it doesn't require any gi grips so it translates perfectly to MMA and self-defense situations. But here's the thing that I really hammer home with my students - this is one of those submissions where you can seriously hurt someone if you're not paying attention to the safety protocols. We've built a culture at 10th Planet where tapping early and often in training is not just accepted, it's encouraged and respected. Your training partners are the most valuable asset you have - without them, you can't train, you can't improve, you can't test your techniques. So when you've got someone in an armbar, especially from side control where you have so much leverage, you need to be thinking about their safety first, the tap second, and your ego never. Apply it slow, apply it smooth, and give them every opportunity to tap. Competition is different - you go harder, faster - but even then, you finish with control, not with a spike that might end someone's career or put them on the shelf for months.

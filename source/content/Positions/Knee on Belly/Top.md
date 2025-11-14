@@ -8,7 +8,7 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 55% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 55%.
 
 ---
 
@@ -187,7 +187,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - One knee positioned on opponent's torso/solar plexus area with shin perpendicular to their centerline, creating direct downward pressure through the knee joint while controlling their breathing and movement
 - Opposite leg extended wide for base with foot planted firmly on the mat, toes pointing away from opponent to create stable tripod structure and enable quick transitions
@@ -200,7 +200,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful guard pass to side control or direct entry from standing
 - Control of opponent's upper body through collar or cross-collar grip
@@ -228,7 +228,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Transition to Mount]] → [[Mount]]
 
@@ -292,7 +292,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Elbow Escape]]** → [[Half Guard]] (Opponent Success: 35%)
 - **[[Shrimp Escape]]** → [[Open Guard]] (Opponent Success: 30%)
@@ -305,7 +305,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Transition to Mount]]** → [[Mount]]
   - Opponent creates space by pushing knee away
@@ -347,7 +347,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

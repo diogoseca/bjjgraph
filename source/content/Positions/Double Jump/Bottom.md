@@ -8,7 +8,7 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player's body positioned on their side with hips oriented perpendicular to opponent's centerline, creating the angle necessary for leg insertion underneath opponent's base
 - Both of bottom player's legs actively shooting underneath opponent's hips in synchronized motion, with knees driving toward opponent's far hip while feet hook behind near leg
@@ -204,7 +202,7 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent applying forward pressure from top position (side control, headquarters, or knee slice)
 - Bottom player has inside space to initiate hip movement
@@ -233,7 +231,7 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Deep Half Entry]] → [[Deep Half Guard]]
 
@@ -297,7 +295,7 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Sprawl Defense]]** → [[Front Headlock]] (Opponent Success: 45%)
 - **[[Base Widening]]** → [[Half Guard]] (Opponent Success: 35%)
@@ -311,7 +309,7 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Deep Half Entry]]** → [[Deep Half Guard]]
   - Opponent sprawls legs back - immediately establish deep half hooks on their near leg
@@ -360,7 +358,7 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

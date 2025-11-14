@@ -8,7 +8,7 @@ description: "Learn Guard Pass techniques in BJJ. Comprehensive guide to passing
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Learn Guard Pass techniques in BJJ. Comprehensive guide to passing
 
 
 
-> **Quick Answer**: Guard Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Guard Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Mastering guard passing fundamentals creates the foundation for all top game dev
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish dominant grips before attempting to pass - control of sleeves, collar, or pants prevents opponent from establishing strong guard retention frames
 - Break opponent's posture and structure first - disrupting their base and hip alignment creates passing opportunities
 - Control the distance and angle - staying too close invites submissions, too far allows guard recovery
@@ -184,7 +184,7 @@ Mastering guard passing fundamentals creates the foundation for all top game dev
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent is in guard position (closed guard, open guard, or guard variation)
 - Passer has established top position with at least one hand contact on opponent
 - Passer maintains good posture with head up and spine alignment
@@ -197,7 +197,7 @@ Mastering guard passing fundamentals creates the foundation for all top game dev
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish dominant grips**: Secure control of opponent's collar, sleeves, or pants depending on guard type. For closed guard, control the collar and break posture. For open guard, control sleeves or pants to limit mobility. Grip fighting is essential - deny opponent their preferred grips while establishing your own control points. (Timing: Initial contact - spend 2-5 seconds establishing grip dominance before advancing)
 2. **Break opponent's guard structure**: Disrupt the opponent's base and alignment. For closed guard, stand up to open the guard. For open guard, address the specific retention mechanism (hooks, frames, or leg entanglements). Use a combination of grip control, weight distribution, and angle changes to compromise their structure. (Timing: 3-8 seconds - patience here prevents rushing into bad positions)
 3. **Control opponent's hips and legs**: Pin the opponent's hips to the mat or control their legs to prevent guard retention. This may involve stapling the knee, controlling the shin, or using heavy pressure to limit hip mobility. The specific control depends on the guard type being passed. (Timing: Simultaneous with structure breaking - 2-4 seconds to establish control)
@@ -210,7 +210,7 @@ Mastering guard passing fundamentals creates the foundation for all top game dev
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent establishes strong frames and creates distance** (Effectiveness: High) - Your Response: Transition to pressure passing - collapse the frames by controlling the elbows, bringing weight onto the opponent's chest, and using shoulder pressure to flatten their defensive structure
 - **Opponent uses hip escape (shrimping) to recover guard** (Effectiveness: High) - Your Response: Follow the hip movement, maintain connection with chest-to-chest pressure, and redirect your passing angle to address their new positioning. Control the near hip to prevent further shrimping.
 - **Opponent attacks with submissions (triangle, armbar, omoplata) during passing attempt** (Effectiveness: Medium) - Your Response: Immediately posture up, extract trapped limbs, and reset grips. Address the submission threat before continuing the pass. Sometimes abandoning the current pass and resetting is the safest option.
@@ -220,25 +220,25 @@ Mastering guard passing fundamentals creates the foundation for all top game dev
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rushing the pass without establishing proper grips and control
+## Common Mistakes
+- **Mistake**: Rushing the pass without establishing proper grips and control
   - **Consequence**: Opponent easily re-guards, sweeps, or catches submissions during the rushed passing attempt
   - **Correction**: Slow down and pass in stages - establish grips, break structure, control hips, then advance. Each stage should be solid before proceeding to the next.
-- **Error**: Standing up too straight or leaning too far forward during the pass
+- **Mistake**: Standing up too straight or leaning too far forward during the pass
   - **Consequence**: Standing too straight allows opponent to retain guard easily; leaning forward invites triangles, guillotines, and sweeps
   - **Correction**: Maintain balanced posture with slight forward lean from the hips, head up, and weight distributed through connection points rather than overcommitting in either direction.
-- **Error**: Ignoring opponent's grips and allowing them to control sleeves, collar, or pants
+- **Mistake**: Ignoring opponent's grips and allowing them to control sleeves, collar, or pants
   - **Consequence**: Opponent uses their grips to control distance, set up sweeps, and prevent passing progress
   - **Correction**: Actively break opponent's grips before they can be used effectively. Prioritize grip fighting in the early stages of guard passing.
-- **Error**: Passing without controlling the opponent's hips
+- **Mistake**: Passing without controlling the opponent's hips
   - **Consequence**: Opponent uses hip mobility to follow your movement, recover guard, and nullify passing attempts
   - **Correction**: Pin the hips to the mat using pressure, grips, or knee positioning. Limit hip mobility before attempting to navigate around the legs.
-- **Error**: Crossing feet or bringing knees together while passing
+- **Mistake**: Crossing feet or bringing knees together while passing
   - **Consequence**: Narrow base makes you vulnerable to sweeps and off-balancing, especially against butterfly guard and elevation sweeps
   - **Correction**: Maintain wide base with knees apart, weight distributed evenly, and feet positioned for stability and mobility throughout the passing sequence.
-- **Error**: Abandoning passing pressure when close to completing the pass
+- **Mistake**: Abandoning passing pressure when close to completing the pass
   - **Consequence**: Opponent escapes at the last moment, re-establishes guard, or creates scramble situations
   - **Correction**: Maintain heavy pressure and connection throughout the final stages. Only release pressure once you have fully secured the dominant position with proper control points.
 
@@ -247,7 +247,7 @@ Mastering guard passing fundamentals creates the foundation for all top game dev
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Foundational Mechanics** - Basic passing principles and positional understanding
 Practice guard passing against cooperative partner who maintains guard structure but doesn't actively resist. Focus on proper grips, posture, base, and moving through stages slowly. Drill individual components: grip establishment, posture breaking, hip control, and position advancement separately before combining.
 (Resistance: None)
@@ -278,7 +278,7 @@ Refine timing, pressure application, and grip fighting nuances. Develop signatur
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Pressure Passing**: Emphasis on heavy weight distribution, grinding pressure, and using body weight to flatten opponent's guard retention. Slower, more methodical approach that prioritizes control over speed. Effective against flexible opponents and those who rely on frames. (When to use: Against opponents with good mobility and flexibility, when you have significant weight advantage, or when opponent is tired and pressure will drain their energy further)
 
 **Speed Passing (Toreando Style)**: Quick footwork, rapid direction changes, and explosive movements to pass before opponent can establish retention. Minimal time in any single position, constant movement to prevent opponent from setting up defenses. Less pressure, more agility. (When to use: Against larger opponents where pressure passing is difficult, when opponent has strong pressure defense but struggles with mobile passing, or when you have superior conditioning and speed)
@@ -325,7 +325,7 @@ Refine timing, pressure application, and grip fighting nuances. Develop signatur
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Guard passing is generally one of the safer aspects of BJJ training when practiced with control. However, several safety concerns should be addressed: avoid slamming or dropping weight suddenly onto opponent's chest or ribs as this can cause injury; be careful when stacking opponent to not drive excessive pressure onto their neck or spine; when passing near the legs, be aware of potential leg entanglement submission positions and tap if caught; maintain awareness of training space to avoid passing out of bounds and into walls or other practitioners; communicate with partner during drilling if pressure is too intense or if any discomfort occurs; progress resistance gradually rather than jumping immediately to full-speed, full-resistance passing which increases injury risk; finally, when opponent is attempting submission during your pass, respect the submission and tap rather than forcing through the position and risking injury to prove a point in training.
 
@@ -333,7 +333,7 @@ Guard passing is generally one of the safer aspects of BJJ training when practic
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Guard passing is the fundamental transitional skill that connects bottom position defense to top position dominance in BJJ. Every advanced position - mount, side control, knee on belly, back control - is accessed through successful guard passing. The guard pass sits at the center of positional hierarchy: it is how the top player advances from neutral or disadvantaged positions to point-scoring dominant positions. Understanding guard passing requires studying both the mechanical execution of specific passes and the strategic decision-making about when to employ pressure versus speed passing, when to switch passing approaches, and how to chain multiple passing attempts together. Elite competitors build their top game around a core passing system that they can execute against all guard types, supplemented by specialized passes for specific situations. The guard pass is also intimately connected to submission offense from top - many submissions (kimura, arm triangle, darce) emerge from passing opportunities when opponent overcommits to guard retention. Defensively, understanding guard passing mechanics makes you a better guard player as you recognize passing setups and can retain guard more effectively. Finally, guard passing fitness and drilling builds the positional awareness, pressure management, and scrambling ability that translates to every other aspect of BJJ.
 
@@ -341,7 +341,7 @@ Guard passing is the fundamental transitional skill that connects bottom positio
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Toreando Pass]] - Specific speed-passing technique
 - [[Knee Slice Pass]] - Specific pressure-passing technique
@@ -364,7 +364,7 @@ Guard passing is the fundamental transitional skill that connects bottom positio
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Guard passing represents the most systematic aspect of positional advancement in Brazilian Jiu-Jitsu, and it must be understood through the lens of mechanical advantage and sequential control. The fundamental error most students make is viewing the guard pass as a single explosive movement rather than a series of connected control points that must be systematically dominated. Every guard pass, regardless of style or specific technique, progresses through identifiable stages: grip establishment and control, structural disruption of the opponent's guard retention mechanisms, hip immobilization or control, angular advancement past the legs, and finally consolidation of dominant position. Skipping any of these stages creates vulnerability to re-guarding, sweeps, or submissions. The most efficient guard passers understand that time invested in early-stage control - particularly grip fighting and hip control - pays enormous dividends in the later stages by removing the opponent's defensive options before they can be employed. Additionally, guard passing must be trained as a fluid conversation between pressure application and mobility, with the ability to seamlessly transition between these modes based on opponent reactions. The passer who rigidly commits to pure pressure or pure speed will be countered by competent guard players who exploit the limitations of single-dimensional passing approaches.
 - **Gordon Ryan**: In competition, guard passing separates winners from losers more than any other single skill. I've built my entire game around the ability to pass any guard type through a systematic approach that combines heavy pressure with strategic mobility. The key insight that changed my passing game was understanding that you don't need to be the best at every passing style - you need to be elite at one or two core passing approaches and competent enough at others to prevent opponents from exploiting gaps in your passing game. For me, that meant developing world-class pressure passing with leg drags and body locks while maintaining adequate speed passing ability to prevent opponents from simply backing away. The modern guard passing meta requires you to address leg entanglement guards differently than traditional guards - you cannot use the same passing approaches against a De La Riva player as you would against closed guard. My competition strategy involves forcing opponents into guard positions where my A-game passing techniques work best, rather than accepting whatever guard they want to play. Against elite opponents, the guard pass is won or lost in the first 10 seconds based on grip fighting - if you allow them to establish their preferred grips and guard structure, you're already behind. Finally, the connection between passing and submission hunting is critical; my best submissions come directly from passing sequences when opponents overcommit to guard retention and expose their necks or arms.
 - **Eddie Bravo**: Traditional guard passing approaches have been evolving rapidly with the rise of leg lock games and inverted guard positions, requiring passers to develop new solutions to modern guard retention problems. At 10th Planet, we've pioneered guard passing strategies that specifically address rubber guard, lockdown half guard, and other unconventional guards that shut down traditional passing. The critical insight is that many modern guards are designed to nullify conventional pressure passing, so you need creative angles and unexpected approaches to succeed. One principle we emphasize is the importance of clearing the legs completely before settling into side control - half-ass passing where the opponent still has one leg in creates constant re-guarding battles that waste energy and time. Another 10th Planet innovation is using wrestling-style leg attacks during the passing sequence, treating the pass as a submission itself where you attack the knee line and create pain compliance that forces guard players to abandon their retention. We've also developed specific counters to inverted guard and berimbolo attempts that traditional BJJ schools struggle with because they don't train these positions regularly. The future of guard passing will require addressing increasingly athletic and mobile guard players who can invert, granby, and create scrambles from seemingly controlled positions - static pressure passing alone won't cut it against modern guard retention at the highest levels.

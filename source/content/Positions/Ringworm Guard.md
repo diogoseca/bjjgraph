@@ -13,10 +13,6 @@ description: "Master Ringworm Guard in BJJ. Advanced lapel guard variation with 
 
 
 
-> **Quick Overview**: Ringworm Guard is an advanced lapel guard variation that originated from the Worm Guard system popularized by Keenan Cornelius. The position involves threading the opponent's lapel around their leg wh...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -54,31 +50,19 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Defensive |
-| Risk Level | Medium | Medium to High |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium to Long | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Defensive |
+| **Risk Level** | Medium | Medium to High |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium to Long | Short to Medium |
 
-**What Makes This Position Unique:** Lapel wrap trades stability for sweep leverage
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Ringworm Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Ringworm Guard/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Lapel wrap trades stability for sweep leverage
 
 
 
@@ -86,10 +70,13 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 
 <section id="bottom-summary" class="content-section">
 
-## Ringworm Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Ringworm Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in ringworm guard balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -132,7 +119,7 @@ The bottom player in ringworm guard balances defensive frames with offensive opp
   - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing the lapel wrap to become loose or slack during transitions**
@@ -160,16 +147,17 @@ The bottom player in ringworm guard balances defensive frames with offensive opp
   - ✅ Correction: Use the lapel wrap in combination with leg frames to first compromise opponent's balance and posture, waiting for them to react or adjust their base before committing to sweeping motions
 
 
-👉 **[[Ringworm Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Ringworm Guard Top Perspective
+
+## Playing as Top
+
+[[Ringworm Guard/Top|→ Full Top Guide]]
 
 
-The top player in ringworm guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -210,7 +198,7 @@ The top player in ringworm guard manages the position strategically based on opp
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to pressure pass or drive forward while the lapel wrap is secure**
@@ -237,8 +225,6 @@ The top player in ringworm guard manages the position strategically based on opp
   - Consequence: The lapel wrap converts explosive energy into sweeping momentum, often resulting in dramatic position reversal
   - ✅ Correction: Work methodically and with controlled movements, using gradual pressure and systematic techniques rather than explosive bursts
 
-
-👉 **[[Ringworm Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

@@ -137,7 +137,7 @@ description: "Master Roger Gracie's fundamental system: positional dominance thr
 
 
 
-> **Quick Answer**: Roger Gracie Fundamental System is a intermediate difficulty Attack System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Roger Gracie Fundamental System is a intermediate difficulty Attack System system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Attack System
@@ -158,7 +158,7 @@ At its core, this system emphasizes positional progression following the classic
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Perfect execution of fundamental techniques beats complex advanced techniques performed poorly
 - Positional dominance must be established and maintained before attempting submissions
 - Every position transition follows the classical hierarchy without skipping steps
@@ -172,7 +172,7 @@ At its core, this system emphasizes positional progression following the classic
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Methodical Guard Passing** (Achieve side control or mount with such complete control that opponent cannot immediately begin escape sequences)
 Roger's guard passing system prioritizes control over speed, using precise grips, optimal base positioning, and patient pressure to systematically break down any guard structure. The approach involves establishing dominant grips first, controlling opponent's hips and preventing re-guard, then advancing through stable positions rather than explosive movements that create scrambles.
 
@@ -194,7 +194,7 @@ Roger's approach to energy conservation involves using leverage and position rat
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Building**: Master the fundamental positions and transitions through repetitive drilling with focus on perfect form rather than speed or strength. Every detail of body positioning, grip placement, and weight distribution must become automatic.
 Key points:
 - Drill basic positions daily: mount, side control, back control
@@ -365,7 +365,7 @@ Roger's methodology emphasizes quality over quantity, drilling fundamental techn
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: Roger Gracie's competitive record stands as the ultimate validation of systematic fundamental mastery. What made his game exceptional was not the techniques themselves - every practitioner knows how to execute a cross collar choke from mount - but rather the depth of understanding he brought to these basic movements. Roger understood that technique selection matters far less than technique execution, and he chose to develop perfect execution of high-percentage fundamentals rather than accumulate vast technical arsenals. His mount control demonstrated principles of weight distribution, base maintenance, and pressure application that transcended the specific position. The cross collar choke became unstoppable not through novel mechanics but through perfect grip depth, optimal angle creation, precise elbow positioning, and systematic application of pressure that built inexorably toward completion. This represents the highest expression of jiu-jitsu philosophy: technique is only as effective as the precision with which it is executed, and perfect fundamentals defeat imperfect advanced techniques every time.
 - **Gordon Ryan**: Roger proved that you can tell opponents exactly what you're going to do and still submit them if your execution is perfect. That's the ultimate competition mindset - not trying to surprise or trick people, but executing fundamentals so well they can't stop you even with full knowledge. His mount was impossible to escape not because of some secret technique but because every detail was perfect: weight distribution kept you flat, hand positioning prevented your frames, hip mobility followed every escape attempt before it developed. When he got the cross collar grips, you knew the choke was coming, you'd defended it a thousand times before, but his grip depth, angle, and pressure made defense impossible. That's what separates world champions from everyone else - not secret techniques but world-class execution of basics. If you can make fundamental techniques work against elite opponents who know they're coming, you understand jiu-jitsu at the highest level. Roger's game proves you don't need hundreds of techniques; you need perfect execution of the right ones.
 - **Eddie Bravo**: What's crazy about Roger is he did the complete opposite of my system and proved fundamentals can be just as effective as innovation when executed perfectly. I'm all about creating new positions and unexpected attacks, but Roger showed that perfect execution of basics can dominate world-class competition. His cross collar choke from mount became legendary because he refined every tiny detail until it was unstoppable - that's a level of dedication to fundamentals that deserves massive respect. The lesson isn't that you have to choose between fundamentals and innovation, but that depth matters more than breadth. Roger went incredibly deep on a small set of techniques while I went broad with lots of positions and variations. Both approaches can work at the highest level if you commit fully. His success proves that mastering the fundamentals everyone knows can be just as effective as developing techniques nobody expects. It's not about the techniques themselves but about the level of understanding and execution you bring to them.

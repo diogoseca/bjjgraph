@@ -8,7 +8,7 @@ description: "Master Truck Entry in BJJ. Step-by-step execution from Turtle to T
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Truck Entry in BJJ. Step-by-step execution from Turtle to T
 
 
 
-> **Quick Answer**: Truck Entry transitions from [[Turtle]] to [[Truck]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Truck Entry transitions from [[Turtle]] to [[Truck]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain constant pressure on turtle to prevent opponent from returning to guard
 - Establish leg hook control before attempting upper body isolation
 - Create perpendicular angle to opponent's spine for optimal control
@@ -186,7 +186,7 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in turtle position with weight on hands and knees
 - You positioned on opponent's side or back with chest pressure applied
 - Control of opponent's near-side arm or shoulder to prevent escape
@@ -199,7 +199,7 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish side control on turtle**: Position yourself perpendicular to your opponent's spine while they are in turtle. Place your chest across their back with your weight distributed to prevent them from returning to guard or standing up. Control their near-side arm with your hand, gripping the wrist or triceps. (Timing: Initial control phase)
 2. **Create space under hips**: Use your near-side hand to lift or shift the opponent's far hip slightly upward while maintaining chest pressure. This creates the necessary space to thread your leg underneath. Keep constant pressure so they cannot flatten or escape forward. (Timing: Preparation phase)
 3. **Thread leg hook under far hip**: Swing your inside leg (the leg closer to opponent's hips) underneath their body, threading it across and under their far hip. Your shin should pass completely under their torso with your foot emerging on their opposite side. Keep your knee bent to maintain the hook. (Timing: Entry phase)
@@ -213,7 +213,7 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sits back toward guard before leg hook is established** (Effectiveness: High) - Your Response: Follow their movement and transition to leg drag position or standing guard pass. Alternatively, use their backward motion to switch to a front headlock attack.
 - **Opponent rolls forward over their shoulder as you enter** (Effectiveness: Medium) - Your Response: Maintain your leg hook and follow the roll, allowing it to complete while keeping connection. This often delivers them directly into Truck position if you stay attached.
 - **Opponent flattens their hips to mat preventing leg threading** (Effectiveness: Medium) - Your Response: Switch to alternative turtle attacks such as Crucifix entry, or use your positioning to force them onto their side by applying shoulder pressure and pulling their far arm.
@@ -223,25 +223,25 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Threading leg hook too shallow under opponent's hips
+## Common Mistakes
+- **Mistake**: Threading leg hook too shallow under opponent's hips
   - **Consequence**: Opponent easily escapes the hook by pulling their leg free or sitting back to guard, losing the position entirely.
   - **Correction**: Drive your shin completely across their centerline with your foot emerging clearly on their opposite side. Your knee should be deep under their far hip bone for maximum control.
-- **Error**: Losing chest pressure during leg hook entry
+- **Mistake**: Losing chest pressure during leg hook entry
   - **Consequence**: Opponent creates space to turn toward you or return to guard, nullifying your attacking position before Truck is established.
   - **Correction**: Maintain constant chest-to-back pressure throughout the entire entry sequence. Use your posting hand for base but keep your weight distributed onto opponent's back.
-- **Error**: Attempting the roll before upper body control is secured
+- **Mistake**: Attempting the roll before upper body control is secured
   - **Consequence**: Opponent slips out during the roll because you lack the connection needed to bring them with you, resulting in a scramble position.
   - **Correction**: Always establish seatbelt control or arm/shoulder isolation before initiating the roll to Truck. The upper body connection is what prevents their escape during transition.
-- **Error**: Rolling too far past Truck position onto your own back
+- **Mistake**: Rolling too far past Truck position onto your own back
   - **Consequence**: You end up underneath opponent with poor control, allowing them to escape or potentially reverse the position into their top game.
   - **Correction**: Stop the roll when you reach your side with opponent perpendicular to you. Use your free leg posted on the mat to prevent over-rotation and maintain Truck structure.
-- **Error**: Failing to anticipate opponent's defensive roll direction
+- **Mistake**: Failing to anticipate opponent's defensive roll direction
   - **Consequence**: Opponent rolls away from your entry, creating separation and escaping to a neutral or advantageous position before you can establish Truck.
   - **Correction**: Read their defensive tendencies early and position your body to intercept their roll direction. If they roll forward, follow with your hook maintained. If they flatten, use alternative entries.
-- **Error**: Using only arm strength without engaging hips and legs
+- **Mistake**: Using only arm strength without engaging hips and legs
   - **Consequence**: Entry becomes physically exhausting and low-percentage as you try to muscle opponent into position, telegraphing your intentions and allowing escape.
   - **Correction**: Drive the entry with your leg hook and hip motion. The legs are stronger than arms - use them to manipulate opponent's position while arms only maintain connection.
 
@@ -250,7 +250,7 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static Entry Drilling** - Leg hook threading mechanics and body positioning
 Partner remains stationary in turtle while you practice threading your leg hook under their hips from various angles. Focus on getting your shin completely across their centerline with smooth motion. Repeat 20-30 repetitions per training session to build muscle memory.
 (Resistance: None)
@@ -277,7 +277,7 @@ Apply Truck entries during regular sparring without prearranged setups. Focus on
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Near-side Truck Entry**: Instead of threading your leg under opponent's far hip, establish the hook on the near side by controlling their near leg and driving your hook between their legs from the front. This entry works well when opponent's weight is shifted to their far side. (When to use: When opponent is defending the traditional far-side entry or when you're already controlling their near-side leg from previous attacks.)
 
 **Crab Ride to Truck Transition**: From the Crab Ride position (on opponent's back with leg hooks in), transition to Truck by releasing your seat belt control and threading one leg deeper under their hips while rolling to your side. This leverages existing back control to enter Truck. (When to use: When opponent is defending rear naked choke effectively or when you want to switch to Twister system attacks from back control.)
@@ -320,7 +320,7 @@ Apply Truck entries during regular sparring without prearranged setups. Focus on
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Truck Entry is generally a safe transition technique with minimal injury risk during the entry phase itself, though practitioners should be aware of potential knee stress when threading the leg hook under resistance. Ensure your knee is properly warmed up before practicing as the threading motion places rotational stress on the joint. When drilling with partners, communicate clearly about pace and resistance level, especially during the rolling phase where uncontrolled momentum can cause both practitioners to fall awkwardly. The primary safety concerns arise not from the entry itself but from the submissions available from Truck position (Twister, Calf Slicer), so practitioners should be educated about these submission mechanics before training Truck entries at full resistance. Always progress gradually through the training phases outlined above rather than attempting full-speed entries immediately.
 
@@ -328,7 +328,7 @@ Truck Entry is generally a safe transition technique with minimal injury risk du
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Truck Entry serves as a critical gateway technique in modern back attack systems, particularly within the 10th Planet methodology where it functions as the entry point to the entire Twister system. The technique bridges traditional turtle-based attacks (Front Headlock, Crucifix entries) with modern leg entanglement systems, creating a hybrid position that combines elements of both back control and leg control. In contemporary no-gi competition, Truck Entry has become essential for competitors who want to threaten turtle position effectively without relying exclusively on traditional back takes. The position naturally chains with Half Guard systems (particularly Lockdown), as many sequences lead from bottom Half Guard to Old School Sweep to opponent's turtle recovery to Truck Entry. Understanding Truck Entry also opens pathways to other advanced positions like Twister Side Control and various Crucifix variations, making it a central node in a well-developed back attack game.
 
@@ -336,7 +336,7 @@ Truck Entry serves as a critical gateway technique in modern back attack systems
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Truck]] - Ending position
 - [[Turtle]] - Starting position
@@ -356,7 +356,7 @@ Truck Entry serves as a critical gateway technique in modern back attack systems
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Truck Entry represents a fascinating mechanical solution to the turtle position problem. Traditional back attack methods from turtle rely on either arm-based controls or weight distribution to break the opponent's base, but these approaches become increasingly difficult against skilled defensive grapplers who understand turtle structure. The genius of the Truck Entry lies in its attack vector - by establishing a leg hook under the opponent's center of mass, you create a lever arm that bypasses their arm-based frames entirely. The mechanical advantage is profound: your leg muscles, which are far stronger than arm muscles, now control their entire body position. The perpendicular angle is not arbitrary but rather the optimal geometry for torque generation, allowing you to rotate their mass around the axis created by your leg hook. What makes this entry systematically sound is its binary nature - either your leg hook is established deeply enough to control them, or it isn't. There's minimal gray area, which makes the technique highly teachable and reliable. The position also follows the principle of connection hierarchy: secure the primary control mechanism (leg hook) before attempting the positional transition (roll to Truck). This systematic approach to breaking down the entry into distinct phases - establish side pressure, create space, thread hook, secure upper body, execute roll - ensures consistent execution under pressure.
 - **Gordon Ryan**: I've used Truck Entry extensively in ADCC and other major no-gi competitions because it solves a specific problem that modern competitors face: everyone has gotten really good at defending standard back takes from turtle. When someone turtles up nowadays, especially high-level guys, they know exactly how to defend the traditional attacks like seat belt grips and arm-based back takes. But Truck Entry comes from a completely different angle that most people haven't built as many defensive layers against. In competition, I look for this entry specifically after leg entanglement exchanges or when I sweep someone and they turtle up to recover. The timing is crucial - you want to attack immediately when they establish turtle, before they get comfortable and set their base. One thing I've learned is that the leg hook depth is non-negotiable at the elite level. Against world-class opponents, if your hook isn't completely threaded across their centerline, they will sit back and escape instantly. The other competition-specific detail is using your head position to control their posture during the entry - keeping your head tight to their back prevents them from creating the space needed for most turtle escapes. From Truck, I can threaten the Calf Slicer, which forces a reaction that often opens up the back take or Twister, creating multiple attack pathways from one entry. The position has a high finishing rate because people don't train it as much as traditional back defense.
 - **Eddie Bravo**: The Truck Entry is absolutely fundamental to the entire 10th Planet system - it's how we get to some of our highest percentage submissions in competition. I developed and systematized this entry because I saw that traditional gi-based turtle attacks didn't translate well to no-gi, especially against flexible, mobile opponents who could slip out of conventional back control. The Truck gives you a completely different control structure where you're attacking the lower body and spine simultaneously, creating problems opponents aren't used to solving. What's beautiful about this entry is how it chains with the Lockdown game - you can go from Lockdown Half Guard to Old School Sweep, opponent turtles, you hit Truck Entry, and suddenly you're in position for the Twister. It's a seamless system where each position flows into the next. The rolling motion during the entry is something people struggle with at first because it feels like you're giving up top position, but you have to trust the leg hook connection. Once you commit to the roll, your opponent comes with you if you've maintained proper connection. From a teaching perspective, I always emphasize that the Truck isn't just about the Twister submission, even though that's the most famous attack - the position opens up Calf Slicers, Banana Splits, various back takes, and even allows you to transition to other leg entanglements. The entry itself is really a gateway to an entire attacking system that gives you options most people aren't defending effectively. Train this entry until it's completely automatic from turtle, and you'll have a massive weapon in no-gi.

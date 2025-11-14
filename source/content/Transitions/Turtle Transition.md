@@ -8,7 +8,7 @@ description: "Master Turtle transitions in BJJ. Complete guide to attacking and 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Turtle transitions in BJJ. Complete guide to attacking and 
 
 
 
-> **Quick Answer**: Turtle Transition transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Turtle Transition transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Turtle position represents a critical transitional state in BJJ where the bo
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain strong base with elbows tight to knees to prevent easy back takes
 - Keep head protected and tucked to defend against front headlock attacks
 - Create movement and momentum to prevent opponent from consolidating control
@@ -186,7 +186,7 @@ The Turtle position represents a critical transitional state in BJJ where the bo
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Bottom player in defensive turtle posture with hands and knees on mat
 - Elbows positioned inside knees to create defensive frame
 - Head tucked and protected from front headlock attacks
@@ -200,7 +200,7 @@ The Turtle position represents a critical transitional state in BJJ where the bo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Assess opponent's attack angle**: Quickly determine if opponent is attacking from front headlock position, attempting back take via hooks, or seeking crucifix control. This assessment dictates your defensive priority and escape route selection. (Timing: Immediate upon entering turtle position)
 2. **Establish defensive base**: Place hands shoulder-width apart with elbows inside knees, creating a tight defensive box. Tuck chin to chest to protect neck from guillotine and front headlock attacks while maintaining ability to look laterally at opponent's position. (Timing: Within first second of turtle entry)
 3. **Fight critical grips**: Prevent opponent from establishing seat belt grip, harness control, or deep front headlock. Use explosive shoulder shrugs and arm movements to strip grips before they become consolidated. Priority is preventing the far side underhook and seat belt completion. (Timing: Continuous grip fighting throughout position)
@@ -214,7 +214,7 @@ The Turtle position represents a critical transitional state in BJJ where the bo
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent establishes seat belt control and begins back take sequence** (Effectiveness: High) - Your Response: Immediately address the choking arm by getting chin to chest and hands fighting the choking hand. Execute granby roll away from the choking side or sit through to guard while stripping the bottom grip.
 - **Top player secures front headlock with arm trapped** (Effectiveness: High) - Your Response: Circle toward trapped arm side while keeping hips heavy and driving forward. Execute granby roll or switch to single leg position, using forward pressure to prevent guillotine completion.
 - **Opponent drives knee through to establish crucifix control** (Effectiveness: Medium) - Your Response: Recognize crucifix entry early when opponent's knee begins cutting between your arm and body. Immediately turn toward the attacking side and execute defensive roll while protecting trapped arm from extension.
@@ -224,25 +224,25 @@ The Turtle position represents a critical transitional state in BJJ where the bo
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Remaining static in turtle without creating movement or escape attempts
+## Common Mistakes
+- **Mistake**: Remaining static in turtle without creating movement or escape attempts
   - **Consequence**: Allows opponent time to establish dominant grips, set up attacks methodically, and achieve back control or submission positions without resistance
   - **Correction**: Maintain constant subtle movement with base adjustments, grip fighting, and weight shifting. View turtle as temporary transition, not destination position. Begin escape sequences within 2-3 seconds.
-- **Error**: Posting hand far from body during turtle defense
+- **Mistake**: Posting hand far from body during turtle defense
   - **Consequence**: Creates space for opponent to insert hooks, attack posted arm with kimura, or establish crucifix control by trapping extended arm
   - **Correction**: Keep elbows tight inside knee line, hands positioned close to body. If forced to post hand wider, immediately retract it once pressure is released.
-- **Error**: Raising head up high while in turtle position
+- **Mistake**: Raising head up high while in turtle position
   - **Consequence**: Exposes neck to front headlock attacks, guillotine setups, and allows opponent easier access to establishing harness control across upper back
   - **Correction**: Maintain chin tucked to chest with ability to look laterally at opponent. Head should be protected within defensive frame of arms and shoulders.
-- **Error**: Committing to escape direction without reading opponent's weight placement
+- **Mistake**: Committing to escape direction without reading opponent's weight placement
   - **Consequence**: Escape attempts directly into opponent's weight distribution fail and often result in giving up back or mount positions during failed escape
   - **Correction**: Before executing escape, assess where opponent has committed weight. Escape away from weight concentration and during weight shift moments when opponent is off-balance.
-- **Error**: Allowing opponent to establish seat belt without immediate defensive response
+- **Mistake**: Allowing opponent to establish seat belt without immediate defensive response
   - **Consequence**: Completed seat belt control provides opponent with back take mechanics, making escape exponentially more difficult and leading to back control or rear naked choke setups
   - **Correction**: Fight seat belt establishment aggressively, particularly the choking-side overhook. Strip grips immediately and execute escape before both grips are secured. Priority is preventing far side underhook.
-- **Error**: Executing granby roll without proper timing or setup
+- **Mistake**: Executing granby roll without proper timing or setup
   - **Consequence**: Poorly timed granby rolls expose back completely to opponent who is positioned to take advantage, often resulting in immediate back control with both hooks
   - **Correction**: Time granby roll when opponent's weight is forward or during grip adjustments. Create initial movement in opposite direction to draw opponent's weight, then explosively granby roll when they're off-balance.
 
@@ -251,7 +251,7 @@ The Turtle position represents a critical transitional state in BJJ where the bo
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Defensive Fundamentals (Weeks 1-2)** - Establishing and maintaining safe turtle posture
 Partner begins in turtle with proper defensive frame—elbows inside knees, head tucked, tight base. Top player applies light pressure without attacking. Bottom player holds position for 30-second intervals, focusing on maintaining proper structure. Progress to top player adding weight and attempting basic grip establishment while bottom player maintains defensive posture.
 (Resistance: Light)
@@ -282,7 +282,7 @@ During regular sparring rounds, intentionally enter turtle position from guard o
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Granby Roll to Closed Guard**: From defensive turtle, execute backward shoulder roll toward non-threatened side, using momentum to invert and establish closed guard. Most effective when opponent's weight is forward or when they're attempting front headlock control. (When to use: When opponent is heavy on upper body controls and attacking front headlock or attempting to flatten you forward. Particularly effective in gi where opponent commits grips to upper body.)
 
 **Sit-Through to Butterfly Guard**: Explosively sit hip through to side while establishing butterfly hook with near leg, creating seated guard position. Use inside arm to frame against opponent's chest while establishing second hook. Effective for creating immediate offensive guard position. (When to use: When opponent's weight is committed to one side for back take attempt or when they've established weak seat belt control. Best against opponents driving forward pressure without proper base.)
@@ -327,7 +327,7 @@ During regular sparring rounds, intentionally enter turtle position from guard o
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Turtle transitions involve dynamic movements and scrambles where both practitioners are moving explosively with compromised base and balance. Primary injury risks include neck strain from improper granby roll execution, shoulder injuries from posted arms being driven into, and knee stress from sudden weight changes during sit-through escapes. When drilling turtle escapes, start at reduced speed to develop proper mechanics before adding explosive power. Top players should avoid driving excessive weight onto bottom player's neck during front headlock positions and should release pressure if bottom player's base collapses unexpectedly. Bottom players must protect neck by keeping chin tucked and should tap immediately if caught in neck cranks or dangerous positions. During granby rolls, ensure adequate mat space exists behind you to complete the roll safely. Communicate with training partners about intensity levels and stop immediately if either person experiences joint pain or positional entrapment.
 
@@ -335,7 +335,7 @@ Turtle transitions involve dynamic movements and scrambles where both practition
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Turtle position functions as a critical junction point in the BJJ positional hierarchy, serving as both a defensive refuge and a dynamic transitional state. From bottom position, turtle commonly occurs after failed guard retention, unsuccessful sweep attempts, or as a defensive reaction to strong passing pressure. The position connects to multiple potential outcomes: successful escapes return to closed guard, butterfly guard, or half guard; failed defenses lead to back control, side control, or crucifix positions. From top turtle, attackers can transition to front headlock systems, back attack sequences, or submission entries including guillotines, anacondas, and darce chokes. Understanding turtle transitions is essential for complete guard passing systems, as many modern passes intentionally drive opponents to turtle before attacking. The position also represents a key component of scramble game, where both practitioners are working through transitional sequences. Advanced competitors use turtle actively during competition, intentionally entering the position to create granby roll opportunities or to reset exchanges when trapped in bad positions. Mastery of both attacking and defending turtle transitions dramatically improves overall grappling ability and positions practitioners to capitalize on the chaotic moments that occur during position changes.
 
@@ -343,7 +343,7 @@ Turtle position functions as a critical junction point in the BJJ positional hie
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Turtle]] - Primary starting position
 - [[Back Control]] - Primary ending position for top player
@@ -366,7 +366,7 @@ Turtle position functions as a critical junction point in the BJJ positional hie
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The turtle position represents a fundamental test of positional understanding and mechanical precision in grappling. From a systematic perspective, turtle exists at the boundary between adequate defense and catastrophic position loss—it is inherently unstable and demands immediate action. The bottom player's defensive structure must prioritize creating a strong base with elbows inside knees while simultaneously fighting the critical grips that enable back exposure. The biomechanics of turtle defense center on weight distribution and frame integrity; any extension of limbs beyond the defensive box creates mechanical leverage for the opponent. Top players must understand that turtle attacks follow a hierarchy: establish positional control first through harness or front headlock, then pursue submission or position advancement. The most sophisticated approach involves creating grip dilemmas where defending one attack necessarily exposes another pathway. From bottom, escape timing correlates directly with opponent's weight commitment—explosive escapes during their settled weight fail, while escapes during weight shifts succeed. The granby roll exemplifies efficient use of rotational mechanics to create space and recover guard, but requires precise timing and commitment. Understanding turtle transitions separates practitioners who merely survive from those who actively navigate the position toward advantageous outcomes.
 - **Gordon Ryan**: In high-level competition, turtle has evolved from a purely defensive position into an active transitional state that creates scramble opportunities. I've used turtle deliberately during matches to bait opponents into attacking positions that I can counter—the key is never remaining static. When defending turtle, you have maybe three seconds before a skilled opponent establishes controls that become extremely difficult to escape. My approach centers on immediate explosive action, whether that's granby rolling to guard, sitting through to butterfly, or standing up. The worst thing you can do is wait and hope they make a mistake. From top turtle, the highest percentage path is establishing seat belt control for back take, but you need to be heavy and methodical—rushing the back take usually results in the opponent escaping. I prefer controlling the far hip with one hand while using the other to fight for the underhook, then driving my weight to prevent their granby roll as I establish hooks. Against opponents who are strong at turtle defense, front headlock becomes extremely high percentage, especially in no-gi where the guillotine threat is constant. The modern meta-game requires being comfortable both attacking and defending turtle because guard passing sequences increasingly drive opponents there. Practicing turtle transitions under full resistance is essential—your escapes need to work against opponents who know they're coming and are actively trying to take your back.
 - **Eddie Bravo**: Turtle is one of those positions where 10th Planet methodology really shines because we've developed offensive sequences that most people don't expect. Instead of just trying to escape back to guard, we look for opportunities to attack—things like rolling for kneebars, hitting Peterson rolls to come on top, or setting up unconventional transitions to rubber guard or lockdown. The traditional BJJ approach treats turtle as purely defensive, but we've found ways to make it an attacking position. When I'm coaching someone in turtle, the first thing I emphasize is staying active and creating movement because static turtle against a good back taker is death. The twister system actually starts from turtle in many cases—if someone's attacking from turtle and they don't know the truck defense, you can catch them in that leg trap and work the twister sequence. For escaping, I like the sit-through to butterfly because it immediately puts you in an offensive guard where you can start working your game. The granby roll works great too, especially in gi, but you've got to sell it with movement in the opposite direction first or they'll see it coming. In no-gi especially, being able to explode from turtle to standing is crucial because the grips aren't as secure and you can create separation more easily. We drill turtle transitions constantly at 10th Planet because competitions often come down to who wins the scrambles, and turtle is where a lot of those scrambles happen. Learning to stay calm and technical when things are chaotic is what separates good competitors from great ones.

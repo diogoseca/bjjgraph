@@ -8,7 +8,7 @@ description: "Master the Butterfly Smash pass in BJJ. Break down butterfly hooks
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Butterfly Smash pass in BJJ. Break down butterfly hooks
 
 
 
-> **Quick Answer**: Butterfly Smash transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Butterfly Smash transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Forward pressure through the opponent's center line to collapse butterfly structure
 - Systematic removal of frames and hooks before attempting to pass
 - Weight distribution through shoulders and hips to pin lower body
@@ -186,7 +186,7 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent is in butterfly guard with both hooks established
 - You have established grips on opponent's collar or sleeves
 - Your posture is upright or slightly forward
@@ -199,7 +199,7 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish upper body control**: Secure grips on opponent's collar or control both sleeves. Drive your forehead into opponent's chest or shoulder to begin breaking their upright posture. Keep your elbows tight to your body to prevent arm drags. (Timing: Initial engagement phase)
 2. **Choose side and begin pressure**: Select the side where opponent's butterfly hook feels weaker or where you have better grip control. Step your opposite leg back slightly to create angle while driving your chest and shoulder forward into opponent's upper body, beginning to collapse their structure. (Timing: As soon as grips are secured)
 3. **Drive knee to mat**: On your chosen side, drive your knee to the mat beside opponent's hip, pinning their bottom leg and removing space for their hook to function. Your knee should be tight to their hip, not floating or allowing gaps. (Timing: Immediately after establishing forward pressure)
@@ -213,7 +213,7 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sits up explosively and pumps butterfly hooks to create distance** (Effectiveness: Medium) - Your Response: Maintain head position low on their chest, drive forward harder with your shoulders, and immediately drop your hips to smother their hook movement before they can extend
 - **Opponent arm drags your controlling arm to attack your back** (Effectiveness: High) - Your Response: Keep elbows tight to body during initial engagement, if dragged begins, immediately limp arm and circle away while establishing new grips, never let them get behind your shoulder line
 - **Opponent switches to half guard as you begin to pass** (Effectiveness: High) - Your Response: Expect this transition and be prepared to immediately address half guard with appropriate passing techniques, or prevent the transition by controlling the far hip as you pass
@@ -222,22 +222,22 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to pass too quickly without establishing sufficient pressure
+## Common Mistakes
+- **Mistake**: Attempting to pass too quickly without establishing sufficient pressure
   - **Consequence**: Opponent easily maintains hooks and can sweep or re-establish guard
   - **Correction**: Take time to fully collapse the structure with pressure before attempting to move around the legs
-- **Error**: Keeping hips too high during the smash
+- **Mistake**: Keeping hips too high during the smash
   - **Consequence**: Opponent can use hooks effectively to elevate and sweep
   - **Correction**: Drop hips toward the mat while maintaining chest pressure, create a low, heavy base
-- **Error**: Neglecting to control opponent's upper body before passing
+- **Mistake**: Neglecting to control opponent's upper body before passing
   - **Consequence**: Opponent sits up, re-establishes guard, or attacks submissions
   - **Correction**: Always secure crossface or underhook before attempting to step over the second leg
-- **Error**: Allowing gaps between your chest and opponent's upper body
+- **Mistake**: Allowing gaps between your chest and opponent's upper body
   - **Consequence**: Opponent inserts frames and creates distance to recover guard
   - **Correction**: Maintain constant chest-to-chest connection throughout the entire passing sequence
-- **Error**: Stepping over the second leg too wide or too early
+- **Mistake**: Stepping over the second leg too wide or too early
   - **Consequence**: Opponent captures half guard or re-establishes full guard
   - **Correction**: Only step over once first hook is completely cleared and upper body is controlled, keep the step tight to their body
 
@@ -246,7 +246,7 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Pressure Fundamentals** - Learning proper weight distribution and pressure application
 Practice establishing grips and forward pressure against static butterfly guard. Focus on feeling how pressure collapses hooks. Partner provides minimal resistance, only maintaining butterfly structure. Emphasize chest-to-chest connection and hip positioning.
 (Resistance: Light)
@@ -273,7 +273,7 @@ Incorporate gi and no-gi specific grips. Practice against high-level butterfly p
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **No-Gi Butterfly Smash**: Without collar grips, establish head position lower on the chest and use wrist control or overhooks for upper body control. Emphasis shifts more to body weight and head pressure rather than grip-based control. (When to use: No-gi training or competition, when collar grips are not available)
 
 **Single Underhook Smash**: Establish a deep underhook on one side before initiating the smash, using the underhook to control opponent's upper body throughout. This creates a stronger control position but may telegraph your passing direction. (When to use: Against opponents who are particularly good at sitting up and maintaining upright posture)
@@ -311,7 +311,7 @@ Incorporate gi and no-gi specific grips. Practice against high-level butterfly p
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The butterfly smash is generally a safe passing technique when performed with control. However, practitioners should be mindful of pressure application on the opponent's face and neck during crossface establishment - excessive or sudden pressure can cause discomfort or injury. When drilling, start with light pressure and gradually increase as both partners become comfortable with the mechanics. Be particularly careful with head positioning to avoid accidental headbutts when driving forward. Partners should communicate clearly if pressure becomes uncomfortable, especially on the jaw or neck. When receiving the pass, avoid explosive bridging or shrimping movements that could result in collision injuries.
 
@@ -319,7 +319,7 @@ The butterfly smash is generally a safe passing technique when performed with co
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Butterfly Smash integrates into a comprehensive pressure passing system as a fundamental response to butterfly guard. It connects seamlessly with other pressure-based passes like the double under pass, long step pass, and knee slice, forming a coherent passing chain. When opponents defend the butterfly smash by transitioning to half guard, you can immediately switch to appropriate half guard passing sequences. The technique also serves as an entry point for back-takes when opponents turn away to defend, and for mount attacks when you achieve full crossface control. Understanding this pass builds the foundational pressure mechanics needed for more advanced passing systems like those developed by Bernardo Faria and Gordon Ryan.
 
@@ -327,7 +327,7 @@ The Butterfly Smash integrates into a comprehensive pressure passing system as a
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Butterfly Guard]] - Starting position - the guard being passed
 - [[Butterfly Hook Control]] - Defensive mechanism being neutralized
@@ -347,7 +347,7 @@ The Butterfly Smash integrates into a comprehensive pressure passing system as a
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The butterfly smash represents a fundamental application of pressure passing principles to a specific guard structure. What makes this technique systematically effective is the relationship between forward pressure and hook functionality. Butterfly hooks operate as a lever system - they require space and angle to generate force. By driving your weight through specific points of connection and controlling the opponent's upper body, you remove the geometric requirements for their hooks to function. This isn't about strength, it's about understanding the mechanical necessities of their position and systematically denying them. The progression should always be: establish pressure, collapse structure, clear obstacles, consolidate position. Each step must be complete before proceeding to the next. Students often rush to the passing phase before the structure is truly collapsed, which is why they get swept or re-guarded.
 - **Gordon Ryan**: The butterfly smash is one of the highest percentage passes at the elite level because it's fundamentally sound against technical guard players. In competition, you'll face opponents who are excellent at maintaining distance and using butterfly hooks to off-balance you. The key to making this work at a high level is understanding that it's a war of attrition - you're making them carry your weight until their structure fails. I focus heavily on chest-to-chest connection because once you eliminate that space, their hooks become much less threatening. The timing for securing the crossface is critical in competition - if you attempt it too early, they'll defend it and possibly counter. Wait until you feel their first hook collapse under pressure, then immediately establish the crossface before they can sit back up. Against world-class butterfy players, I'll often use this pass to force them into half guard, which I find easier to pass than dealing with active butterfly hooks.
 - **Eddie Bravo**: The butterfly smash is old school fundamental technique, but it still works at every level because it attacks the basic physics of butterfly guard. In the 10th Planet system, we see this as part of the broader pressure game that complements our guard systems. What's interesting is how this pass forces the bottom player to make decisions - do they try to maintain hooks and get smashed, or do they bail to half guard or attempt a sweep? Either way, you're controlling the engagement. I like teaching this pass early because it builds the muscle memory for forward pressure and weight distribution that carries over to so many other positions. One detail we emphasize is keeping your head position active - don't just put your head down, actively drive it into their chest or shoulder. That small detail multiplies the effectiveness of your pressure. And remember, if they're good at butterfly, they're going to make you work for this pass, so develop your conditioning and learn to be patient with pressure.

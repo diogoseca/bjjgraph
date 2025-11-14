@@ -8,7 +8,7 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
 
 
 
-> **Quick Answer**: Ten Finger Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea damage from excessive crushing pressure - apply slowly over 3-5 seconds and release immediately upon tap.
+> Ten Finger Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea damage from excessive crushing pressure. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="safety-considerations" class="content-section">
 
-## Is Ten Finger Guillotine Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -209,7 +209,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Grip configuration with interlaced fingers creates maximum compression while distributing pressure evenly
 - Shoulder elevation and lat engagement are critical to generate choking force without arm strength alone
 - Hip positioning relative to opponent's body determines angle of attack and effectiveness
@@ -223,7 +223,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish front headlock control with opponent's head secured below your chest level
 - Opponent's posture must be broken forward, preventing them from standing upright
 - Your choking arm must be deep around the neck with forearm crossing the throat
@@ -237,7 +237,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure front headlock position**: From standing or turtle position, wrap your choking arm (typically your dominant arm) deep around opponent's neck. Your bicep should be against one side of their neck, your forearm across the throat, and your armpit should be tight over the crown of their head. Keep your chest heavy on their upper back to prevent them from standing up. (Timing: Initial control - 1-2 seconds) [Pressure: Moderate]
 2. **Establish ten finger grip**: Reach your non-choking hand underneath opponent's torso to meet your choking hand. Interlace all ten fingers together, creating a palm-to-palm connection with fingers woven tightly. This grip should feel like a prayer grip but with maximum finger engagement. Position the grip so your choking forearm is centered on their throat, not on their chin or purely on the side of the neck. (Timing: Grip establishment - 1 second) [Pressure: Light]
 3. **Adjust hip position and posture**: If standing, step your hips back slightly while keeping your chest forward and heavy on opponent. If on the ground after a guard pull, establish closed guard or maintain a seated position with hooks. Your spine should be relatively upright with your head positioned above or slightly in front of theirs. This posture allows your lats and shoulder muscles to generate choking pressure rather than relying purely on arm strength. (Timing: Positional adjustment - 1-2 seconds) [Pressure: Moderate]
@@ -250,7 +250,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Hand fighting to break the grip by prying fingers apart** (Effectiveness: Medium) - Your Adjustment: Counter by squeezing your elbows tighter to your ribs and increasing shoulder elevation. The opponent's grip-breaking attempts actually help you finish if you maintain elbow position. Alternatively, adjust your hand position slightly deeper or switch to a different grip variation momentarily before re-establishing the ten finger lock.
 - **Driving forward aggressively to create space and posture up** (Effectiveness: High) - Your Adjustment: Use opponent's forward pressure to sit to guard or jump to closed guard, bringing them with you. As you fall backward, maintain the choke and use your legs to control their hips, preventing them from following through with the posture recovery. The transition to guard actually tightens the choke by changing the angle.
 - **Grabbing your leg for a single or double leg takedown to alleviate pressure** (Effectiveness: Medium) - Your Adjustment: Sprawl your hips backward while maintaining upper body pressure and the choke. Alternatively, accept the takedown but ensure you maintain the guillotine grip and land in closed guard. Many successful guillotine finishes occur after the opponent completes a takedown but finds themselves trapped in guard with the choke still locked.
@@ -260,28 +260,28 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Relying purely on arm strength instead of engaging shoulders and lats [Low DANGER]
+## Common Mistakes
+- **Mistake**: Relying purely on arm strength instead of engaging shoulders and lats [Low DANGER]
   - **Consequence**: Choke feels weak, opponent can defend easily, and you fatigue quickly burning out your grip and biceps
   - **Correction**: Focus on the shoulder shrug and elbow pull-down motion. Your arms should feel relatively relaxed while your back and shoulder muscles do the work. Practice the motion without a partner first to build the muscle memory.
-- **Error**: Positioning the choking arm too high on opponent's chin or face instead of deep on the neck [Medium DANGER]
+- **Mistake**: Positioning the choking arm too high on opponent's chin or face instead of deep on the neck [Medium DANGER]
   - **Consequence**: Choke becomes primarily a crank on the jaw or face, which is painful but less effective and potentially dangerous to opponent's TMJ
   - **Correction**: Before establishing the grip, use your non-choking hand to guide your choking arm deeper. The blade of your forearm should bisect opponent's throat, not push up on their chin. Adjust position before locking the ten finger grip.
-- **Error**: Leaning too far forward with hips, losing leverage and allowing opponent to drive forward [Low DANGER]
+- **Mistake**: Leaning too far forward with hips, losing leverage and allowing opponent to drive forward [Low DANGER]
   - **Consequence**: Opponent can posture up, drive through you, or complete a takedown that breaks your control
   - **Correction**: Keep your hips back and weight distributed between forward chest pressure and backward hip positioning. Your spine should be relatively vertical, not bent over opponent's back. Think 'sit back and squeeze up' rather than 'bend forward and squeeze down.'
-- **Error**: Allowing elbows to flare out away from your own ribs [Medium DANGER]
+- **Mistake**: Allowing elbows to flare out away from your own ribs [Medium DANGER]
   - **Consequence**: Opponent can insert their hands inside your grip and break it apart, or create space to escape
   - **Correction**: Imagine holding a basketball between your elbows throughout the entire sequence. Your elbows should pull toward each other and down toward your hips simultaneously. Pin them to your ribcage as if protecting your own body.
-- **Error**: Jerking or spiking the choke with sudden explosive force [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the choke with sudden explosive force [CRITICAL DANGER]
   - **Consequence**: Can cause serious neck injury, trachea damage, or loss of consciousness without warning
   - **Correction**: Apply pressure progressively over 3-5 seconds, giving partner clear signals that danger is increasing. In training, use controlled steady pressure. Save explosive finishes for competition only, and even then ensure opponent has opportunity to tap.
-- **Error**: Maintaining pressure after partner taps or shows distress signals [CRITICAL DANGER]
+- **Mistake**: Maintaining pressure after partner taps or shows distress signals [CRITICAL DANGER]
   - **Consequence**: Risk of choking partner unconscious or causing injury, violating fundamental training safety
   - **Correction**: Develop automatic release reflex the instant you feel a tap. In training, release at 70-80% pressure rather than fighting to the absolute finish. Partner safety always comes before ego or submission completion.
-- **Error**: Failing to control opponent's far arm, allowing them to strip your grip [Low DANGER]
+- **Mistake**: Failing to control opponent's far arm, allowing them to strip your grip [Low DANGER]
   - **Consequence**: Opponent peels your hands apart or creates enough space to slip their head out
   - **Correction**: Use your chest, armpit, and head position to trap opponent's far arm. If they have good hand fighting, transition to a different choke variation or improve position before attempting the finish. Control position first, then submit.
 
@@ -290,7 +290,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **High Elbow Ten Finger Guillotine**: Position your choking elbow higher near their face while maintaining the ten finger grip. This variation creates a different angle of attack that's particularly effective against opponents who defend by tucking their chin, as it attacks from above rather than across the throat. (When to use: Use when opponent has excellent chin defense and you cannot get your forearm across the throat in the traditional position. Also effective from standing positions where you have superior height advantage.)
 
 **Guard Pull Ten Finger Guillotine**: From standing front headlock position, jump to closed guard while maintaining the ten finger grip. As you land, squeeze your knees together and arch your back simultaneously with the choking squeeze. The guard pull often tightens the choke by changing the angle and preventing opponent's escape. (When to use: Ideal when opponent is driving forward aggressively or attempting a takedown. The guard pull uses their momentum against them and transitions immediately to a finishing position. Particularly effective in no-gi where grip fighting is constant.)
@@ -330,7 +330,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Grip Mechanics** (Week 1-2)
 - Focus: Learn proper hand positioning, finger interlacing, and basic body mechanics without resistance. Practice establishing the ten finger grip from various front headlock positions. Study anatomical targets and safety considerations. Emphasis on understanding the difference between control pressure and finishing pressure.
 - Resistance: Zero resistance
@@ -367,7 +367,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Front Headlock]]
 - [[Guillotine Control]]
@@ -385,7 +385,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[High Elbow Guillotine]]
@@ -426,7 +426,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The ten finger guillotine represents a fascinating study in biomechanical efficiency and grip configuration. The interlaced finger structure creates a mechanical advantage that traditional gable or S-grips cannot match, particularly in no-gi environments where moisture and friction work against you. The key insight is understanding that this is not an arm-strength submission—it's a full-body compression system. The shoulders elevate, the lats engage, the chest expands, and the hips position correctly to create a noose that tightens from multiple vectors simultaneously. When teaching this technique, I emphasize the concept of 'progressive entrapment'—each micro-adjustment increases pressure incrementally until the opponent reaches a breaking point. Safety is paramount: the choke must be applied with deliberate, controlled pressure that gives the opponent clear feedback about increasing danger. The training progression should emphasize sensitivity and control over raw finishing power, as this builds both technical mastery and the ethical framework necessary for safe training partnerships.
 - **Gordon Ryan**: In competition, the ten finger guillotine is one of my highest percentage finishes from scrambles and front headlock positions, particularly in ADCC rules where the time limits require efficient submissions. The grip is incredibly secure even when opponents are sweaty and explosive, which is why I favor it over traditional guillotine variations in no-gi competition. The key difference between training and competition application is timing and commitment—in competition, once I have the grip established and feel my opponent's defensive structure failing, I finish in 1-2 seconds maximum. In training, I apply the same technical sequence but over 4-5 seconds to allow partners to tap safely. The standing to guard pull variation is particularly devastating because opponents don't expect the sudden change in leverage when you jump to guard. I've finished multiple ADCC trials and high-level matches with this exact sequence. However, in training, I'm very conscious about partner safety—I release immediately on tap and often finish at 80% pressure rather than breaking someone's will to continue training. Competition is where you prove the technique works at full intensity; training is where you develop the control and precision that makes competition application safe and effective.
 - **Eddie Bravo**: The ten finger guillotine is old school street fighting wisdom that translates perfectly to modern no-gi jiu-jitsu, and it's a fundamental part of the 10th Planet system for exactly that reason—it works when everything is sweaty, scrambled, and chaotic. What I love about this choke is its simplicity and its variability. You can hit it from standing, from guard pulls, from failed takedown attempts, from the dogfight position—it's everywhere if you know how to see it. In our training methodology, we emphasize what we call 'threat-based grappling,' where the guillotine threat creates opportunities for back takes, leg attacks, and positional improvements even if you don't finish the choke itself. The innovation in this technique comes from understanding that the ten finger configuration lets you maintain control through transitions that would break a traditional grip. When I teach this to students, especially those preparing for competition or self-defense scenarios, I stress two things equally: technical precision and absolute commitment to partner safety in training. You can be creative and aggressive in how you enter the position, but the application phase demands respect and control. Too many people have been injured by training partners who don't understand the difference between proving they can finish a choke and actually developing the skill to use it effectively when it matters.

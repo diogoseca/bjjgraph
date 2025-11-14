@@ -8,7 +8,7 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 12% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 12%.
 
 ---
 
@@ -187,7 +187,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player standing or on knees facing bottom player who has established Spider Guard with at least one sleeve grip and corresponding foot placement on bicep or hip
 - Bottom player on their back or seated with hips elevated off mat using foot pressure on top player's arms or torso to create distance and control posture
@@ -199,7 +199,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player has established at least one Spider Guard hook with corresponding sleeve grip
 - Top player is in standing or combat base position facing the guard
@@ -227,7 +227,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Toreando Pass]] → [[Side Control]]
 
@@ -284,7 +284,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Scissor Sweep]]** → [[Mount]] (Opponent Success: 35%)
 - **[[Lasso Guard Sweeps]]** → [[Mount]] (Opponent Success: 40%)
@@ -297,7 +297,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Grip Break]]** → [[Combat Base]]
   - Bottom player attempts to establish second sleeve grip or transition to Lasso
@@ -345,7 +345,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

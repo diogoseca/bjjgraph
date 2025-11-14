@@ -8,7 +8,7 @@ description: "Master grasshopper guard from top. Complete guide to countering in
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master grasshopper guard from top. Complete guide to countering in
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master grasshopper guard from top. Complete guide to countering in
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 40% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 40%.
 
 ---
 
@@ -195,7 +195,7 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player maintains standing or low combat base posture with weight distributed to prevent being elevated by bottom player's hip leverage. The base must be wide enough to resist sweeping attempts while narrow enough to threaten passing lanes.
 - At least one leg remains free from bottom player's hooks or entanglement attempts, providing escape route and passing option. This free leg serves as both defensive tool against submissions and offensive weapon for stepping over or around guard.
@@ -207,7 +207,7 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of basic leg lock defense principles and common entry mechanics
 - Ability to maintain balance and base while opponent generates upward pressure
@@ -236,7 +236,7 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Back Step Pass]] → [[Side Control]]
 
@@ -307,7 +307,7 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Inversion Follow and Leg Recovery]]** → [[Inside Ashi-Garami]]
 - **[[X-Guard Elevation]]** → [[Mount]]
@@ -320,7 +320,7 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Back Step and Clear Legs]]** → [[Side Control]]
   - Bottom player attempts to thread leg between yours or establish entanglement
@@ -362,7 +362,7 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

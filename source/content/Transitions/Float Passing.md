@@ -8,7 +8,7 @@ description: "Master Float Passing in BJJ. Strategic guard passing using minimal
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Float Passing in BJJ. Strategic guard passing using minimal
 
 
 
-> **Quick Answer**: Float Passing transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Float Passing transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Float Passing is a dynamic guard passing approach that emphasizes movement, timi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain minimal pressure to stay mobile and responsive
 - Constantly change angles and directions to confuse guard retention
 - Use quick transitions rather than static control positions
@@ -180,7 +180,7 @@ Float Passing is a dynamic guard passing approach that emphasizes movement, timi
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent in open guard with active leg frames
 - Standing or combat base position established
 - Strong grip control on opponent's pants or ankles
@@ -193,7 +193,7 @@ Float Passing is a dynamic guard passing approach that emphasizes movement, timi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish initial control**: From standing or combat base, secure grips on opponent's pants at the knees or ankles while maintaining proper posture. Keep your hips back and weight distributed to prevent off-balancing. Establish distance that allows you to control their legs while staying mobile. (Timing: Initial setup phase)
 2. **Begin floating movement**: Start moving laterally around the opponent's guard, using small quick steps while maintaining your grips. Keep your weight light and mobile, ready to change direction instantly. Your movement should be unpredictable, mixing clockwise and counterclockwise circles around their hips. (Timing: Continuous movement phase)
 3. **Control leg frames**: As you circle, use your grips to redirect opponent's legs away from your passing path. Push one leg down or across while stepping around the other. Your grip manipulation should complement your footwork, creating openings in their defensive structure. (Timing: During lateral movement)
@@ -206,7 +206,7 @@ Float Passing is a dynamic guard passing approach that emphasizes movement, timi
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent establishes strong collar and sleeve grips** (Effectiveness: High) - Your Response: Break grips immediately using two-on-one grip breaks or posture adjustments. Alternatively, transition to different passing approach that works well with those grips established, such as toreando passing.
 - **Opponent recovers guard with quick shrimping** (Effectiveness: Medium) - Your Response: Anticipate the shrimp by maintaining connection with your grips and following their hip movement. Float to the other side as they recover, using their momentum against them to create new passing opportunities.
 - **Opponent sits up and pursues upper body control** (Effectiveness: Medium) - Your Response: Use their forward commitment to change levels underneath them. As they sit up, circle behind their back or transition to a different passing angle. Their upright posture creates opportunities for back takes or alternative passes.
@@ -215,22 +215,22 @@ Float Passing is a dynamic guard passing approach that emphasizes movement, timi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Committing to pass too early before window fully opens
+## Common Mistakes
+- **Mistake**: Committing to pass too early before window fully opens
   - **Consequence**: Opponent easily recovers guard or sweeps during premature commitment
   - **Correction**: Maintain patient floating movement until you see clear separation in opponent's leg frames. The pass should feel easy when the window is truly open. If you meet significant resistance, return to floating.
-- **Error**: Using too much pressure during floating phase
+- **Mistake**: Using too much pressure during floating phase
   - **Consequence**: Loss of mobility and ability to change directions quickly, allowing opponent to establish stronger frames
   - **Correction**: Keep weight light on the balls of your feet with hips elevated. Think of floating above the guard rather than pressing into it. Your pressure should only increase during the final passing commitment.
-- **Error**: Losing grip control during lateral movement
+- **Mistake**: Losing grip control during lateral movement
   - **Consequence**: Opponent re-establishes guard structure or attacks with sweeps and submissions
   - **Correction**: Maintain consistent grip pressure throughout floating movements. Your grips should control their leg positioning while allowing you to remain mobile. Adjust grip positions as needed but never release both grips simultaneously.
-- **Error**: Moving in predictable patterns
+- **Mistake**: Moving in predictable patterns
   - **Consequence**: Opponent anticipates direction changes and times defensive responses
   - **Correction**: Vary your floating rhythm, speed, and direction unpredictably. Mix quick bursts with slower movements, sudden direction changes with sustained circling. Read opponent's reactions and adapt your pattern to their defensive habits.
-- **Error**: Failing to consolidate side control after passing
+- **Mistake**: Failing to consolidate side control after passing
   - **Consequence**: Opponent escapes back to guard or recovers defensive frames
   - **Correction**: Immediately establish cross-face and hip control as you complete the pass. Drop your weight and get chest-to-chest positioning before they can create frames. Proper consolidation is as important as the pass itself.
 
@@ -239,7 +239,7 @@ Float Passing is a dynamic guard passing approach that emphasizes movement, timi
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Movement Fundamentals** - Developing footwork and balance during floating movements
 Practice floating movements around static opponent. Focus on maintaining balance, proper posture, and grip control while moving laterally. Partner remains passive, holding guard structure but not actively defending. Work on smooth directional changes and staying light on your feet.
 (Resistance: None)
@@ -270,7 +270,7 @@ Experiment with combining float passing with other passing styles. Develop your 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Knee Cut Float**: Combines floating movements with knee slice passing mechanics. As you float laterally and identify a window, transition directly into a knee cut pass by driving your knee across opponent's thigh line. This variant works well when opponent's bottom leg becomes separated from their top leg during floating phase. (When to use: When opponent's legs separate horizontally, creating space for knee insertion)
 
 **Backstep Float**: Uses floating movement to set up backstep passing sequences. As you circle one direction, opponent adjusts their guard to defend that angle. Suddenly reverse direction with a backstep, moving to the opposite side while they're committed to the original defense. Particularly effective against De La Riva and Reverse De La Riva guards. (When to use: Against hook-based guards or when opponent commits heavily to one side)
@@ -310,7 +310,7 @@ Experiment with combining float passing with other passing styles. Develop your 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Float passing is generally safe when practiced with proper control and progressive resistance. Key safety points: maintain awareness of your balance to avoid falling onto opponent with uncontrolled weight, control your speed when transitioning from floating to passing to prevent knee or ankle injuries to both partners, communicate with training partners about resistance levels during drilling phases, avoid explosive movements before proper warm-up to prevent muscle strains, be cautious when floating around leg lock positions—maintain distance from entanglements until you understand the threats, practice proper falling technique if you lose balance during floating movements to protect yourself and your partner. When consolidating to side control, apply pressure gradually rather than dropping full weight suddenly. Progress resistance slowly over weeks to build the physical conditioning needed for sustained floating movements without exhausting yourself and compromising technique safety.
 
@@ -318,7 +318,7 @@ Float passing is generally safe when practiced with proper control and progressi
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Float passing serves as a primary guard passing strategy that integrates seamlessly with other passing systems in a comprehensive BJJ game. It works particularly well as the initial passing approach, using movement to identify opponent's defensive tendencies before switching to pressure passing or other styles if needed. Float passing naturally chains into toreando passing, leg drag passing, and backstep sequences as the opponent adjusts to your floating movements. It complements standing guard opening sequences and transitions smoothly between standing and kneeling positions. When combined with strong grip fighting and distance management, float passing creates a complete guard passing framework that adapts to various opponent styles. The technique also develops essential attributes like timing, balance, and reaction reading that improve all areas of your guard passing game. Many high-level competitors use float passing as their primary approach against flexible opponents with strong guard retention, while maintaining pressure passing as a secondary option against less mobile opponents.
 
@@ -326,7 +326,7 @@ Float passing serves as a primary guard passing strategy that integrates seamles
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Toreando Pass]] - Complementary technique—shares lateral movement concepts
 - [[Leg Drag Pass]] - Follow-up option when floating creates leg drag opportunities
@@ -346,7 +346,7 @@ Float passing serves as a primary guard passing strategy that integrates seamles
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Float passing represents a fundamental understanding of guard passing as a problem of angles and timing rather than force application. The biomechanical advantage comes from exploiting the inherent limitations of the human body to defend multiple angles simultaneously. When you create constant angular changes through floating movements, the opponent's nervous system must continuously recalculate defensive positioning. This creates processing delays—moments where their physical structure lags behind their mental adjustments. These micro-moments are your passing windows. The key is understanding that every defensive structure has a recovery time, and float passing exploits this by never allowing full recovery. Your movement tempo must exceed their recovery rate. The technique requires exceptional proprioception and balance, as you're operating in a state of controlled instability. Develop this by drilling floating movements with various resistance levels while maintaining awareness of your center of gravity and weight distribution. The pass itself is merely the logical conclusion of superior angle creation—if you've moved correctly, the pass should feel effortless.
 - **Gordon Ryan**: Float passing is one of the highest percentage approaches against modern guard players who spend years developing retention systems. In competition, I've found that trying to pressure pass elite guard players is often a low-percentage strategy—they're too comfortable defending pressure and have trained specifically for those scenarios. Float passing forces them out of their comfort zone by creating problems they can't solve with frames and structure alone. The critical factor is commitment timing. Average competitors float too long without committing, allowing opponents to adjust and reset. Elite passers recognize windows instantly and attack them explosively. I look for the moment when their hips flatten or their knees separate—that's when I transition from floating to passing with maximum speed and pressure. The other key is combining float passing with other styles. I'll float to identify their defensive pattern, then switch to pressure passing or leg drags based on what they show me. Don't be predictable. Use floating as reconnaissance and pattern recognition, then exploit what you discover with the appropriate finishing technique.
 - **Eddie Bravo**: Float passing is beautiful because it's pure flow and creativity—there's no rigid structure, just constant movement and adaptation. In the 10th Planet system, we emphasize this type of passing against rubber guard and other flexible guards where traditional pressure doesn't work. The key insight is that movement creates opportunities that static pressure can't. When you're floating, you're in a flow state, reading their adjustments in real-time and responding with your own counter-adjustments. It's like a dance where you're leading and they're always reacting. One thing I emphasize is mixing levels—don't just float standing. Drop to combat base, pop back up, drop again. These level changes combined with lateral movement create three-dimensional problems they can't solve. Also, don't be afraid to fake commitments. Show like you're passing one direction to get a reaction, then float to the other side when they over-commit to the defense. The more unpredictable your movement pattern, the more windows you'll create. Float passing rewards creativity and athleticism—study movement artists in other sports and bring those concepts to your guard passing. Make it your own style.

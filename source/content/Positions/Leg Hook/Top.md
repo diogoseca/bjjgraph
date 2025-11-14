@@ -8,7 +8,7 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 35%.
 
 ---
 
@@ -187,7 +187,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's leg is hooked underneath or around bottom player's defending leg, creating mechanical control of the hip and limiting bottom player's ability to recover guard or create distance
 - Top player maintains forward chest pressure on bottom player's upper body, typically with shoulder or chest pressure on the sternum or shoulder line to prevent bottom player from sitting up or creating frames
@@ -200,7 +200,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Top player has initiated half guard passing sequence and achieved initial control
 - Bottom player's leg is accessible for hooking (not deeply locked in half guard or other defensive configuration)
@@ -228,7 +228,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Knee Slice Pass]] → [[Side Control]]
 
@@ -292,7 +292,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Hip Escape]]** → [[Half Guard]] (Opponent Success: 45%)
 - **[[Re-Guard]]** → [[Open Guard]] (Opponent Success: 35%)
@@ -305,7 +305,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Pressure Pass]]** → [[Side Control]]
   - Bottom player attempts to create space or frame
@@ -354,7 +354,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

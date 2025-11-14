@@ -8,7 +8,7 @@ description: "Master escaping Side Control with systematic defensive frameworks 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master escaping Side Control with systematic defensive frameworks 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master escaping Side Control with systematic defensive frameworks 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 50% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent's chest positioned perpendicular to your torso with direct contact across your upper body, creating constant pressure and control surface
 - Your shoulders pinned flat on the mat with limited rotational mobility due to opponent's weight distribution
@@ -199,7 +197,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of framing principles and creating defensive structures with arms and legs
 - Hip escape (shrimping) mechanics for creating space under pressure
@@ -227,7 +225,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Elbow Escape]] → [[Half Guard]]
 
@@ -291,7 +289,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Side Control to Mount]]** → [[Mount]] (Opponent Success: 55%)
 - **[[Transition to North-South]]** → [[North-South]] (Opponent Success: 65%)
@@ -305,7 +303,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Elbow Escape]]** → [[Half Guard]]
   - Opponent transitions toward mount creating momentary space
@@ -354,7 +352,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

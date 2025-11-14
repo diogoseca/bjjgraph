@@ -8,7 +8,7 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 
 
 
-> **Quick Answer**: Rolling Kimura Escape transitions from [[Kimura Control]] to [[Open Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Rolling Kimura Escape transitions from [[Kimura Control]] to [[Open Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Rolling Kimura Escape is an advanced defensive technique used to escape when
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Commit fully to the forward roll - hesitation leads to injury
 - Roll in the direction of the lock to relieve shoulder pressure
 - Use momentum to create distance and disrupt opponent's control
@@ -186,7 +186,7 @@ The Rolling Kimura Escape is an advanced defensive technique used to escape when
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent has secured Kimura grip with figure-four lock
 - Adequate mat space available for full forward roll
 - Shoulder pressure is increasing toward submission finish
@@ -199,7 +199,7 @@ The Rolling Kimura Escape is an advanced defensive technique used to escape when
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Recognize the need to escape**: As opponent secures the Kimura grip and begins applying pressure toward your back, assess that traditional defensive measures (hand fighting, posture recovery) are no longer viable. Feel the increasing shoulder torque and recognize the submission is progressing. This awareness must happen quickly, before the lock reaches the point of no return. (Timing: As soon as shoulder pressure becomes intense)
 2. **Tuck chin and prepare body position**: Immediately tuck your chin tightly to your chest to protect your neck during the upcoming roll. Draw your free arm across your body to assist with the rolling motion. Position your body weight slightly forward to prepare for the forward roll. Your trapped arm should remain as relaxed as possible to prevent additional torque. (Timing: 0.5-1 second before initiating roll)
 3. **Initiate forward roll**: Explosively drive forward over your trapped shoulder, committing fully to a forward roll in the direction of the Kimura lock. Plant your free hand on the mat and use it to guide your body into a tight somersault. Keep your chin tucked and your core tight throughout the rotation. The momentum must be sufficient to complete a full 360-degree rotation. (Timing: Explosive commitment - no hesitation)
@@ -213,7 +213,7 @@ The Rolling Kimura Escape is an advanced defensive technique used to escape when
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent follows the roll and maintains Kimura grip** (Effectiveness: High) - Your Response: If opponent successfully follows your roll while maintaining the grip, immediately transition to alternative escape methods such as stepping over to create a different angle, or use your legs to push opponent's hips away. Do not attempt a second roll as this increases injury risk.
 - **Opponent adjusts base and prevents full rotation** (Effectiveness: High) - Your Response: If you cannot complete the full roll due to opponent's base adjustment, abort the escape midway and transition to explosive hip escape (shrimp) to create lateral distance. Use your free arm to establish a strong crossface or frame against opponent's head.
 - **Opponent releases grip and transitions to alternative control** (Effectiveness: Medium) - Your Response: While this means you escaped the Kimura, remain vigilant as opponent may attempt to take your back or establish mount during your roll. Prioritize guard recovery and use your legs actively to prevent opponent from advancing position.
@@ -222,25 +222,25 @@ The Rolling Kimura Escape is an advanced defensive technique used to escape when
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Hesitating or performing a partial roll
+## Common Mistakes
+- **Mistake**: Hesitating or performing a partial roll
   - **Consequence**: Incomplete rolling motion leaves you in an even worse position, with your shoulder more vulnerable and your base completely compromised, often resulting in immediate submission or injury
   - **Correction**: Commit fully and explosively to the forward roll. Once you decide to execute this escape, there is no turning back. Practice the rolling motion extensively in safe contexts before attempting under pressure.
-- **Error**: Failing to tuck chin during the roll
+- **Mistake**: Failing to tuck chin during the roll
   - **Consequence**: Neck injury from improper rolling mechanics, potentially hitting your head on the mat or hyperextending your neck during the rotation
   - **Correction**: Always tuck your chin tightly to your chest before and throughout the entire rolling motion. This is a fundamental safety requirement. Practice forward rolls extensively to develop this habit.
-- **Error**: Attempting the escape too late in the submission sequence
+- **Mistake**: Attempting the escape too late in the submission sequence
   - **Consequence**: The shoulder joint is already compromised when you begin the roll, leading to torn ligaments, rotator cuff damage, or labrum tears during the escape attempt
   - **Correction**: Recognize early that traditional defenses are failing and initiate the rolling escape before maximum pressure is applied. This technique requires preemptive action, not last-second desperation.
-- **Error**: Rolling without checking available mat space
+- **Mistake**: Rolling without checking available mat space
   - **Consequence**: Rolling into a wall, equipment, or off the training area, causing impact injuries or failed escape that leaves you in an even worse position
   - **Correction**: Develop constant mat awareness during training. Before initiating the roll, quickly glance to verify you have adequate space. In competition, position yourself away from boundary lines when defending Kimuras.
-- **Error**: Keeping the trapped arm tense and rigid
+- **Mistake**: Keeping the trapped arm tense and rigid
   - **Consequence**: Increased torque on the shoulder joint during the roll, as the rigid arm creates a longer lever and more stress on the joint structures
   - **Correction**: Allow the trapped arm to remain as relaxed as possible during the escape. The goal is to change the angle of attack, not to muscle out of the lock. Tension only increases injury risk.
-- **Error**: Failing to establish immediate defensive frames after the roll
+- **Mistake**: Failing to establish immediate defensive frames after the roll
   - **Consequence**: Opponent quickly reestablishes dominant control, potentially securing mount, back control, or immediately re-attacking the same Kimura
   - **Correction**: The moment you complete the roll and land, your hands should immediately go to work establishing frames and distance. Practice the transition from roll completion to defensive position as a single fluid movement.
 
@@ -249,7 +249,7 @@ The Rolling Kimura Escape is an advanced defensive technique used to escape when
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Rolling Mechanics (Week 1-2)** - Master basic forward rolling technique without any submission context
 Practice forward rolls extensively to develop smooth, safe rolling mechanics. Focus on proper chin tuck, shoulder positioning, and landing safely. Perform 20-30 quality forward rolls per training session from standing, kneeling, and lying positions. Develop the ability to roll in both directions with equal proficiency.
 (Resistance: None)
@@ -280,7 +280,7 @@ Continue practicing the rolling escape periodically (once per week) to maintain 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Rolling to Turtle Transition**: Instead of rolling all the way through to guard position, complete approximately 270 degrees of rotation and land in turtle position. This variation can be useful when you have strong turtle defense or want to create a scramble situation. From turtle, you can immediately work wrestling-based escapes or transition to guard. (When to use: When you have superior turtle defense skills or when opponent has weaker turtle attack game compared to their guard passing abilities)
 
 **Rolling to Technical Stand-up**: Upon completing the forward roll and breaking the Kimura grip, immediately execute a technical stand-up rather than attempting to recover guard. This creates maximum distance and returns the match to standing, which can be advantageous if you prefer stand-up grappling or if the opponent has superior ground control. (When to use: When you have a strong takedown game, when you are losing on points and need to reset, or when you want to maximize distance from a dangerous opponent)
@@ -318,7 +318,7 @@ Continue practicing the rolling escape periodically (once per week) to maintain 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The Rolling Kimura Escape is one of the highest-risk defensive techniques in Brazilian Jiu-Jitsu due to the combination of shoulder joint stress and dynamic rolling mechanics. This escape should ONLY be practiced with experienced training partners who understand the technique and can release pressure appropriately when needed. Always ensure adequate mat space is available before attempting the roll - colliding with walls, equipment, or other practitioners during the escape can cause serious injury. The technique requires complete commitment; hesitation mid-execution dramatically increases injury risk to both shoulder and neck. Practitioners with any shoulder injuries, instability, or previous dislocations should avoid this technique entirely and focus on alternative Kimura defenses. Never practice this escape at full speed or pressure until you have mastered the rolling mechanics through hundreds of repetitions in safe, controlled environments. Both partners must have clear communication and established tap protocols. If at any point during the escape the pressure increases rather than decreases, tap immediately - preserving joint integrity is always more important than completing an escape. This technique is generally recommended only for advanced practitioners (purple belt and above) who have excellent body awareness and significant mat experience.
 
@@ -326,7 +326,7 @@ The Rolling Kimura Escape is one of the highest-risk defensive techniques in Bra
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Rolling Kimura Escape occupies a unique position in the BJJ defensive hierarchy as a last-resort technique when facing one of the most common and dangerous shoulder locks. It is typically employed from bottom positions such as side control, half guard, or during scrambles where the opponent has successfully secured the Kimura grip and is applying finishing pressure. This escape connects to the broader defensive system by representing the final option when standard defensive measures (hand fighting, posture maintenance, hip escape) have all failed. Successfully executing this escape typically transitions you to guard recovery or turtle position, from which you must immediately engage guard retention concepts or turtle defense systems. The technique also fits into the larger framework of submission defense principles, demonstrating the concept that sometimes moving with a submission's force rather than against it can create escape opportunities. Understanding when to employ this escape versus when to tap is a critical decision-making skill that reflects overall mat awareness and ego management. Advanced practitioners often drill this escape not because they plan to use it frequently, but because understanding its mechanics improves their overall Kimura defense by teaching them to recognize the submission's progression stages and maintain better preventative positioning earlier in the sequence.
 
@@ -334,7 +334,7 @@ The Rolling Kimura Escape occupies a unique position in the BJJ defensive hierar
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Kimura Defense]] - Primary preventative technique - preferred over rolling escape
 - [[Kimura Control]] - Starting position for the attack this escape counters
@@ -354,7 +354,7 @@ The Rolling Kimura Escape occupies a unique position in the BJJ defensive hierar
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The rolling Kimura escape represents a fascinating intersection of biomechanics and risk management in Brazilian Jiu-Jitsu. From a mechanical perspective, the effectiveness stems from the temporary change in the force vector acting on the shoulder joint during rotation. When you roll forward in the direction of the lock, you momentarily transform a static submission hold into a dynamic situation where the opponent must choose between maintaining their grip and maintaining their base. Most importantly, this escape highlights a critical principle in submission defense: the hierarchy of defensive responses. This technique should only be employed after all superior defensive options have been exhausted, as it carries inherent injury risk. The intelligent practitioner develops a layered defensive system where early preventative measures are prioritized, and high-risk escapes like this serve as final safety valves rather than primary responses.
 - **Gordon Ryan**: In high-level competition, I view the rolling Kimura escape as a technique you need to know exists but hope you never have to use. The reality is that if your opponent has locked in a tight Kimura and you're forced to consider this escape, you've already made several defensive mistakes earlier in the sequence. That said, understanding this escape has value beyond its practical application - it teaches you to recognize the Kimura's danger zones and motivates better preventative positioning. When I train this technique, I focus heavily on the timing recognition aspect because that's what separates a successful escape from a torn shoulder. In competition, I've seen this escape work at the highest levels, but always with practitioners who had exceptional body control and had drilled the mechanics thousands of times. If you're going to add this to your defensive arsenal, commit to mastering it completely or don't use it at all - there's no middle ground with techniques this risky.
 - **Eddie Bravo**: The rolling escape from the Kimura is one of those techniques that looks absolutely crazy the first time you see it, but it's actually based on sound mechanical principles once you understand the physics involved. In the 10th Planet system, we spend a lot of time working on dynamic movement and unconventional escapes, and this technique fits perfectly into that philosophy. What I love about this escape is that it completely violates your opponent's expectations - they're expecting you to defend statically or try to hand fight, and suddenly you're rolling through and changing the entire dynamic of the position. However, I always tell my students that this is a technique that requires absolute commitment and extensive practice before you even think about using it live. We drill the rolling mechanics constantly in warm-ups specifically to prepare people for escapes like this. The key innovation we've added is combining this with the rubber guard recovery system, where after the roll, you immediately look to establish mission control or other high guard positions rather than just settling for closed guard. This creates an opportunity to turn a desperate defensive situation into an attacking position if you can execute with precision.

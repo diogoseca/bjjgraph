@@ -8,7 +8,7 @@ description: "Master Kimura Control from top in BJJ. Dominant control position w
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Kimura Control from top in BJJ. Dominant control position w
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Kimura Control from top in BJJ. Dominant control position w
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 90% of the time and finish submissions in 75% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 90% of the time and finish submissions in 75%.
 
 ---
 
@@ -191,7 +191,7 @@ Modern submission-focused competitors have demonstrated that Kimura Control Top 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner maintains Kimura grip on opponent's arm with wrist control and figure-four lock while applying downward pressure through chest and hips, creating constant shoulder rotation threat that restricts bottom player's escape options and movement
 - Top practitioner's body weight is distributed strategically to prevent opponent from creating space or escaping, with hips low and chest pressure applied to control bottom player's upper body while maintaining grip integrity throughout position changes
@@ -203,7 +203,7 @@ Modern submission-focused competitors have demonstrated that Kimura Control Top 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Kimura grip established with proper wrist control and figure-four configuration from top position
 - Top position advantage with ability to apply pressure and control opponent's movement
@@ -231,7 +231,7 @@ Modern submission-focused competitors have demonstrated that Kimura Control Top 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Kimura from Side Control]] → [[Kimura]]
 
@@ -302,7 +302,7 @@ Modern submission-focused competitors have demonstrated that Kimura Control Top 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Kimura Defense]]** → [[Side Control]] (Opponent Success: 30%)
 - **[[Rolling Kimura Escape]]** → [[Turtle]] (Opponent Success: 35%)
@@ -315,7 +315,7 @@ Modern submission-focused competitors have demonstrated that Kimura Control Top 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Transition to Mount]]** → [[Mount]]
   - Opponent attempts to defend by turning into grip or creating space with bridge
@@ -364,7 +364,7 @@ Modern submission-focused competitors have demonstrated that Kimura Control Top 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

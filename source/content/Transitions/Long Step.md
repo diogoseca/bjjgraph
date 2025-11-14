@@ -8,7 +8,7 @@ description: "Master the Long Step pass in BJJ. Systematic guard passing techniq
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Long Step pass in BJJ. Systematic guard passing techniq
 
 
 
-> **Quick Answer**: Long Step transitions from [[Headquarters Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Long Step transitions from [[Headquarters Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The **Long Step Pass** is a fundamental pressure passing technique that neutrali
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish dominant grips before initiating the step to prevent guard recovery
 - Step far enough to clear the opponent's defensive frames and knee shields
 - Maintain chest-to-chest pressure throughout the passing sequence
@@ -186,7 +186,7 @@ The **Long Step Pass** is a fundamental pressure passing technique that neutrali
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established grips on opponent's collar and pants or sleeve
 - Standing position or headquarters position with good posture
 - Opponent is in seated guard, butterfly guard, or knee shield position
@@ -199,7 +199,7 @@ The **Long Step Pass** is a fundamental pressure passing technique that neutrali
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish dominant grips**: From headquarters position, secure a strong collar grip with one hand (typically cross-collar grip) and control the opponent's far sleeve or pant leg with your other hand. These grips prevent the guard player from creating distance or recovering guard during your pass. (Timing: Establish grips while opponent is attempting to frame or create distance)
 2. **Clear the near leg**: Use your knee or hand to clear the opponent's near-side leg (knee shield or butterfly hook) by pushing it to the mat or pinning it away from your body. This creates the pathway for your long step and prevents the opponent from following your movement with their leg. (Timing: Clear the leg as opponent extends their frame or attempts to create space)
 3. **Execute the long step**: Take a large step with your outside leg, planting your foot near the opponent's far hip or beyond their body line. This step should be explosive and committed—stepping too short allows the opponent to recover their guard. Your stepping leg should land in a strong base position. (Timing: Step immediately after clearing the near leg, before opponent can recover position)
@@ -213,7 +213,7 @@ The **Long Step Pass** is a fundamental pressure passing technique that neutrali
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent follows your step with their bottom leg, maintaining guard contact** (Effectiveness: High) - Your Response: Step even farther, beyond their hip line, and immediately apply downward pressure to prevent them from turning. Use your hand to pin their near hip to the mat.
 - **Opponent creates a strong frame and pushes your head away during the step** (Effectiveness: Medium) - Your Response: Break the frame by circling your head under their arm or using a hand to clear their elbow. Maintain forward pressure throughout to prevent them from creating distance.
 - **Opponent inverts or goes upside down to follow your movement** (Effectiveness: Medium) - Your Response: Recognize the inversion early and transition to a different passing angle. Alternatively, follow their inversion and establish back control or turtle position as they attempt to recover.
@@ -223,25 +223,25 @@ The **Long Step Pass** is a fundamental pressure passing technique that neutrali
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Stepping too short, allowing opponent to maintain guard contact with their legs
+## Common Mistakes
+- **Mistake**: Stepping too short, allowing opponent to maintain guard contact with their legs
   - **Consequence**: Opponent easily recovers guard by following your movement with their bottom leg or reinserting their knee shield
   - **Correction**: Commit to a full, explosive step that lands your foot beyond the opponent's hip line. Practice the distance in drilling to develop proper spatial awareness.
-- **Error**: Failing to clear the near leg before stepping, getting tangled in opponent's hooks
+- **Mistake**: Failing to clear the near leg before stepping, getting tangled in opponent's hooks
   - **Consequence**: Your step is blocked or shortened, and opponent maintains strong guard retention position with frames and hooks
   - **Correction**: Always clear the near-side leg completely before initiating your step. Use your knee or hand to pin it to the mat or push it away from your body.
-- **Error**: Rising too high or leaning back during the step, losing forward pressure
+- **Mistake**: Rising too high or leaning back during the step, losing forward pressure
   - **Consequence**: Opponent creates space underneath and recovers guard easily, or worse, sweeps you as your base is compromised
   - **Correction**: Maintain forward pressure and keep your chest driving forward throughout the step. Your posture should be aggressive and forward-leaning, not upright.
-- **Error**: Not controlling the far hip, allowing opponent to turn into you
+- **Mistake**: Not controlling the far hip, allowing opponent to turn into you
   - **Consequence**: Opponent bridges and turns into you, recovering guard or transitioning to turtle position before you can consolidate the pass
   - **Correction**: Immediately secure the far hip with your hand as you complete the step. Your grip should be strong and your elbow tight to prevent them from inserting their knee.
-- **Error**: Moving your trailing leg too early, before establishing chest pressure
+- **Mistake**: Moving your trailing leg too early, before establishing chest pressure
   - **Consequence**: Opponent escapes by inverting under you or creating space to recover guard during the transition
   - **Correction**: Be patient with your trailing leg. Only bring it through after your chest pressure has fully flattened the opponent and they have stopped moving defensively.
-- **Error**: Telegraphing the step with body language or weight shifts
+- **Mistake**: Telegraphing the step with body language or weight shifts
   - **Consequence**: Opponent anticipates your movement and adjusts their guard retention strategy, making the pass significantly more difficult
   - **Correction**: Maintain consistent pressure and grip tension before initiating the step. The movement should be explosive and unexpected, not gradual or predictable.
 
@@ -250,7 +250,7 @@ The **Long Step Pass** is a fundamental pressure passing technique that neutrali
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Technical Development** - Isolate the stepping mechanics and distance management
 Partner sits in open guard or knee shield and allows you to practice the long step movement repeatedly. Focus on stepping distance, landing position, and maintaining balance. No resistance initially—just develop the motor pattern and spatial awareness.
 (Resistance: None)
@@ -281,7 +281,7 @@ Practice the long step against various guard types (butterfly, knee shield, lass
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Standing Long Step**: Initiate the long step from a fully standing position rather than headquarters. This variation is particularly effective when the opponent is seated or lying on their back with legs extended. The standing version allows for more explosive movement but requires excellent balance and timing. (When to use: When opponent is playing a seated guard game or attempting to stand up themselves. Effective against guard pullers who remain seated.)
 
 **Long Step to North-South**: After executing the long step and establishing initial pressure, continue circling around the opponent's head to transition directly into north-south position rather than side control. This variation is useful when the opponent has strong side control escapes or when you want to attack the far arm. (When to use: When opponent has excellent side control defense or when you want to set up north-south submissions like kimuras or chokes.)
@@ -321,7 +321,7 @@ Practice the long step against various guard types (butterfly, knee shield, lass
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The long step pass is generally a safe technique when executed with proper control and timing. However, practitioners should be aware of several safety considerations: Avoid stepping with excessive speed onto an opponent's body, as this can cause rib or chest injuries from the sudden impact. When driving chest pressure, ensure you're distributing weight through your torso rather than dropping your full body weight suddenly. Be mindful of your partner's neck position—do not drive their head at extreme angles that could cause cervical strain. When practicing with beginners, use controlled movement and progressive resistance to prevent panic reactions that could lead to injury. Tap immediately if your leg becomes trapped in deep half or other leg entanglements during the pass—forcing the pass with a trapped leg can result in knee injuries.
 
@@ -329,7 +329,7 @@ The long step pass is generally a safe technique when executed with proper contr
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The long step pass is a cornerstone technique in modern pressure passing systems and integrates seamlessly with multiple guard passing strategies. It serves as a natural follow-up to knee slice passes when the opponent blocks the centerline, and it counters many modern guard retention systems that rely on frames and distance management. The pass connects directly into side control, from which you can advance to mount, take the back, or attack submissions. The long step is particularly valuable against knee shield, butterfly, and lasso guard variations where traditional pressure passes may be blocked by the opponent's leg positioning. It also serves as an essential component of stack passing systems, as the same principles of stepping around the legs apply when the opponent is inverted. Understanding the long step improves your overall passing game by teaching critical concepts of distance management, timing, and angle creation that apply across all guard passing scenarios.
 
@@ -337,7 +337,7 @@ The long step pass is a cornerstone technique in modern pressure passing systems
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Cut Pass]] - Complementary pass - combines with long step to create passing dilemma
 - [[Toreando Pass]] - Alternative approach - different method of getting around opponent's legs
@@ -357,7 +357,7 @@ The long step pass is a cornerstone technique in modern pressure passing systems
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The long step pass represents a critical understanding of spatial relationships in guard passing. The fundamental problem of passing the guard is that the opponent's legs create a barrier between you and the dominant position. The long step solves this problem by creating a geometric impossibility—you place your body in a position where the opponent's legs simply cannot reach you. This is not about speed or athleticism; it's about understanding angles and distance. The key technical detail that most people miss is the relationship between the step distance and the opponent's leg length. You must step far enough that even if they extend their leg completely, they cannot maintain guard contact. This is why I emphasize measuring the step—your foot should land near or beyond their far hip. The second critical element is the immediate application of chest pressure. The step and the pressure are not sequential; they are simultaneous. As your foot lands, your chest must be driving forward. This prevents the opponent from having even a microsecond to adjust. When executed correctly, the long step creates what I call a 'passing singularity'—a position from which guard recovery becomes physically impossible rather than merely difficult. This is the essence of systematic passing: creating positions where the opponent's defensive options are reduced to zero through superior positioning, not superior athleticism.
 - **Gordon Ryan**: The long step is one of my highest percentage passes in competition because it's almost impossible to defend if you time it correctly. The key isn't just the step itself—it's creating the situation where the step will work. I'm constantly using grip fighting and pressure to get my opponent to extend their frames or commit to blocking a different pass. Once their legs are extended or their attention is divided, I explode into the long step. The step needs to be aggressive and committed. You can't be tentative. I see a lot of people step halfway and wonder why it doesn't work. You need to step so far that your opponent has no chance of following you with their legs. I also focus heavily on the chest pressure immediately after the step. A lot of guys step correctly but then hesitate with the pressure, and that hesitation is enough for a good guard player to start recovering. I'm dropping my chest and driving forward before my foot even fully plants. Another competition detail: I always control the far hip with my hand, not just with my body position. In training, you might get away with loose hip control, but in competition, that's where you'll get bridged and lose the position. The far hip control is what prevents the bridge and turn—it's non-negotiable. I also use the long step in combinations constantly. I'll threaten a knee cut to get them to block center, then immediately hit the long step to the outside. Or I'll fake the long step one direction to get them to follow, then switch and long step the other direction. At the highest level, the long step works best when it's part of a passing system, not an isolated technique.
 - **Eddie Bravo**: The long step is a fundamental pass, but where it gets interesting is how you can modify it for different situations and guard types. In the 10th Planet system, we use a variation of the long step that we call the 'long step smash' where we're not just stepping around—we're stepping and immediately driving the opponent's legs down to the mat as we apply chest pressure. This creates a more aggressive pin and prevents them from trying to invert or do any weird recovery stuff. One thing I really emphasize is using the long step against rubber guard and other flexible guard players. When someone is really bendy and can hold onto your posture with their leg, the long step is perfect because you're removing yourself from their range of motion entirely. They can't hold you if you're not there. I also teach a variation where you long step and immediately look for a leg drag grip as you're passing. So your hand that was controlling the pants switches to a leg drag grip mid-pass, and now you're entering leg drag position instead of standard side control. This is especially useful in no-gi where side control escapes are more common. The creativity in the long step comes from understanding that it's not just a pass—it's a principle of creating distance and angle that can be applied in multiple ways. You can long step from standing, from headquarters, from combat base, even from half guard top when you're trying to pass. The fundamentals stay the same: get around their legs, apply pressure, control the far hip. But how you get there and what you do afterward—that's where you can get creative and develop your own style. Just make sure you're still finishing the pass, not getting fancy and losing position.

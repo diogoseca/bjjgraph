@@ -13,10 +13,6 @@ description: "Master triangle escape techniques in BJJ. Complete defensive guide
 
 
 
-> **Quick Overview**: Triangle Escape Position represents one of the most critical defensive scenarios in Brazilian Jiu-Jitsu, where a practitioner finds themselves caught in an opponent's triangle choke configuration and ...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,31 +54,19 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Defensive |
-| Risk Level | High | High |
-| Energy Cost | High | High |
-| Time Sustainability | Short | Short |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Defensive |
+| **Risk Level** | High | High |
+| **Energy Cost** | High | High |
+| **Time** | Short | Short |
 
-**What Makes This Position Unique:** Defensive urgency balances survival priority
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Triangle Escape Position/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Triangle Escape Position/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Defensive urgency balances survival priority
 
 
 
@@ -90,10 +74,13 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 <section id="bottom-summary" class="content-section">
 
-## Triangle Escape Position Bottom Perspective
+
+## Playing as Bottom
+
+[[Triangle Escape Position/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in triangle escape position must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -136,7 +123,7 @@ The bottom player in triangle escape position must focus on creating frames, pro
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pulling trapped arm straight out with force**
@@ -160,16 +147,17 @@ The bottom player in triangle escape position must focus on creating frames, pro
   - ✅ Correction: Keep free arm tight to body or posted on mat, never extending it into opponent's guard space
 
 
-👉 **[[Triangle Escape Position/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Triangle Escape Position Top Perspective
+
+## Playing as Top
+
+[[Triangle Escape Position/Top|→ Full Top Guide]]
 
 
-The top player in triangle escape position manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -212,7 +200,7 @@ The top player in triangle escape position manages the position strategically ba
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting to pull trapped arm out with brute force rather than creating space systematically**
@@ -235,8 +223,6 @@ The top player in triangle escape position manages the position strategically ba
   - Consequence: Opponent easily transitions to armbar when defender focuses only on choke aspect
   - ✅ Correction: Keep trapped arm's elbow tight to body and hand in defensive position while escaping
 
-
-👉 **[[Triangle Escape Position/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

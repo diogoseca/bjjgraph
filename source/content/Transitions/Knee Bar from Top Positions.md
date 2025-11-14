@@ -8,7 +8,7 @@ description: "Master kneebar control from top positions in BJJ. Learn entries fr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master kneebar control from top positions in BJJ. Learn entries fr
 
 
 
-> **Quick Answer**: Knee Bar from Top Positions transitions from [[Headquarters Position]] to [[Kneebar Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+> Knee Bar from Top Positions transitions from [[Headquarters Position]] to [[Kneebar Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Knee Bar from Top Positions represents a modern submission-oriented approach
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain superior top position and base throughout the attack to prevent sweeps or reversals while threatening submission
 - Isolate opponent's leg through passing mechanics before transitioning to submission control, ensuring positional security first
 - Control opponent's ankle securely in armpit with elbow connection to ribs, creating structural integrity for submission pressure
@@ -186,7 +186,7 @@ The Knee Bar from Top Positions represents a modern submission-oriented approach
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Top position established with opponent on bottom, typically during passing sequence or guard engagement
 - One opponent leg isolated through passing mechanics such as leg drag, knee slice, or headquarters control
 - Secure grip or control on opponent's ankle or lower leg area with ability to transition to armpit control
@@ -199,7 +199,7 @@ The Knee Bar from Top Positions represents a modern submission-oriented approach
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Isolate opponent's leg during passing**: From passing position such as headquarters, leg drag, or knee slice, control opponent's leg by gripping ankle or lower leg while maintaining chest pressure and top position. Prevent opponent from establishing defensive frames with their hands by controlling distance and applying forward pressure with your upper body. (Timing: Execute during opponent's defensive adjustment when their leg is extended or isolated)
 2. **Transition ankle to armpit control**: Bring opponent's ankle to your armpit while maintaining tight elbow connection to your ribs, creating a structural seal that prevents rotation or extraction. Keep your grip on their lower leg or foot as you establish this armpit control, ensuring continuous connection throughout the transition. (Timing: Move smoothly and continuously to prevent opponent from retracting leg)
 3. **Position hips near opponent's knee joint**: Adjust your hip position to place your hip bone directly adjacent to opponent's knee joint, creating the fulcrum point for hyperextension leverage. Your torso should be perpendicular or angled relative to opponent's body, with your hips forming the pressure point against their knee. (Timing: Establish before applying any extension pressure)
@@ -213,7 +213,7 @@ The Knee Bar from Top Positions represents a modern submission-oriented approach
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent pulls knee toward chest and establishes defensive frames with hands on your hips or shoulders** (Effectiveness: High) - Your Response: Transition to mount or side control by following their defensive movement, or strip their frames and re-establish kneebar control with better hip positioning
 - **Opponent turns knee inward toward floor to relieve hyperextension pressure and potentially expose their back** (Effectiveness: Medium) - Your Response: Follow their rotation and transition to truck position or saddle entry, or switch to heel hook attack as their defensive turn exposes the heel
 - **Opponent uses free leg to push your head or shoulder, creating space and disrupting your base** (Effectiveness: High) - Your Response: Control opponent's free leg with your free hand at ankle or knee before they can establish effective push, or adjust angle to reduce effectiveness of their frame
@@ -223,28 +223,28 @@ The Knee Bar from Top Positions represents a modern submission-oriented approach
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Positioning hips too far from opponent's knee joint during setup and finishing attempt
+## Common Mistakes
+- **Mistake**: Positioning hips too far from opponent's knee joint during setup and finishing attempt
   - **Consequence**: Dramatically reduces leverage effectiveness, allowing opponent extended time to defend or escape while submission pressure remains insufficient for finish
   - **Correction**: Keep hips pressed tightly against opponent's knee joint throughout entire attack sequence, following their movement if they attempt to create distance
-- **Error**: Failing to control opponent's free leg or upper body before attempting submission finish
+- **Mistake**: Failing to control opponent's free leg or upper body before attempting submission finish
   - **Consequence**: Opponent uses free leg to push your head or shoulders creating frames that disrupt your base, potentially leading to sweeps or complete position reversal
   - **Correction**: Establish control on opponent's free leg at ankle or knee with your free hand, or maintain chest pressure on upper body before transitioning to finishing mechanics
-- **Error**: Applying explosive or sudden kneebar pressure without progressive application over several seconds
+- **Mistake**: Applying explosive or sudden kneebar pressure without progressive application over several seconds
   - **Consequence**: High risk of serious knee ligament injury to training partner before they can recognize danger and tap, creating unsafe training environment
   - **Correction**: Apply extension pressure gradually and smoothly over minimum 3-5 seconds, watching partner's face and listening for tap signal throughout application
-- **Error**: Releasing armpit control on opponent's ankle during finishing sequence or transition
+- **Mistake**: Releasing armpit control on opponent's ankle during finishing sequence or transition
   - **Consequence**: Opponent rotates their knee or pulls leg free, completely escaping submission and potentially establishing offensive position or guard recovery
   - **Correction**: Maintain continuous tight connection between armpit and opponent's ankle with elbow pinned to ribs throughout entire attack sequence and transitions
-- **Error**: Losing base and top position stability while focusing exclusively on submission mechanics
+- **Mistake**: Losing base and top position stability while focusing exclusively on submission mechanics
   - **Consequence**: Opponent sweeps or reverses position, negating submission attempt and losing positional advantage that created the attack opportunity
   - **Correction**: Keep wide base with posting leg throughout attack, maintaining shoulder pressure forward and balance over opponent to preserve top position control
-- **Error**: Attempting kneebar without first breaking opponent's defensive grips and structural frames
+- **Mistake**: Attempting kneebar without first breaking opponent's defensive grips and structural frames
   - **Consequence**: Opponent maintains strong defensive structure preventing full leg isolation and extension, providing platform for escape or counter-attack
   - **Correction**: Systematically strip opponent's grips on their own leg or your body, eliminate their frames, and establish complete control before applying finishing pressure
-- **Error**: Abandoning position when immediate finish is not available instead of maintaining control
+- **Mistake**: Abandoning position when immediate finish is not available instead of maintaining control
   - **Consequence**: Loses excellent control position and ongoing submission threat, giving opponent opportunity to recover guard or reverse position unnecessarily
   - **Correction**: Maintain kneebar control position even when immediate finish unavailable, using it as platform for transitions to other attacks or positional advancement
 
@@ -253,7 +253,7 @@ The Knee Bar from Top Positions represents a modern submission-oriented approach
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Entry Mechanics (Weeks 1-2)** - Smooth transition from passing positions to kneebar control
 Practice entering kneebar control from various passing positions including leg drag, headquarters, and knee slice. Partner remains passive allowing focus on proper mechanics for isolating leg, establishing armpit control, and positioning hips near knee joint. Perform 20 repetitions per training session from each passing position, emphasizing smooth transitions and maintaining top position throughout.
 (Resistance: None)
@@ -284,7 +284,7 @@ Start from realistic passing positions such as headquarters or leg drag with bot
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Belly Down Kneebar from Top**: When opponent attempts to sit up or create frames during kneebar attack, transition to belly down position by rotating your body toward the mat while maintaining armpit control on their ankle. This variation removes many defensive options and changes the angle of knee pressure, making it more difficult for opponent to defend or escape. (When to use: When opponent successfully sits up or establishes strong frames that threaten your top position control during standard kneebar attempt)
 
 **Standing Kneebar from Pass**: From passing positions where opponent creates significant space, stand up while maintaining armpit control on their ankle. Post your free hand on mat for balance and drop your weight into the kneebar finish using gravity to enhance extension pressure. This creates unexpected angle that catches opponents off guard when they think they have created escape distance. (When to use: When opponent successfully creates distance during passing sequence but their leg remains isolated and controlled)
@@ -324,7 +324,7 @@ Start from realistic passing positions such as headquarters or leg drag with bot
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Kneebar from top positions requires careful attention to safety protocols due to the structural vulnerability of the knee joint to hyperextension injuries. Always apply pressure gradually over minimum 3-5 seconds rather than explosively, watching your partner's face and listening for tap signals throughout. The knee joint can suffer serious ligament damage including ACL, PCL, and meniscus tears if pressure is applied too quickly or if taps are ignored. When training, both partners must communicate clearly about pressure levels and defensive capabilities. The attacking practitioner should never force the submission through defensive structures but rather maintain control and work systematically to establish proper finishing position. Partners should discuss their experience levels with leg locks before training this position, and beginners should work with experienced practitioners who understand proper application mechanics. In competition scenarios, be aware of ruleset restrictions—many gi competitions restrict or prohibit kneebars below brown belt. Always release immediately upon tap signal without any delay. Training should progress gradually through phases emphasizing control before finishing, and positional sparring should be conducted at appropriate intensity levels for participants' skill levels.
 
@@ -332,7 +332,7 @@ Kneebar from top positions requires careful attention to safety protocols due to
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Knee Bar from Top Positions integrates seamlessly into modern BJJ systems by bridging traditional passing approaches with contemporary leg lock attacks, creating a submission-oriented passing game that combines positional safety with finishing potential. This technique fits within the broader guard passing framework as an alternative to traditional positional advancement, allowing practitioners to recognize when leg isolation during passing creates immediate submission opportunities rather than continuing to force positional passes against strong defenses. It connects to leg entanglement systems by providing entries to ashi garami variations, saddle positions, and heel hook attacks when initial kneebar attempts are defended. The position also integrates with back attack systems when opponents defend by turning their knee, exposing their back for truck entries. Strategically, this creates offensive dilemmas where opponents must simultaneously defend passing attempts and submission threats, dividing their defensive attention and creating openings in both domains. The technique is particularly valuable in no-gi competition where leg locks are universally legal, though it requires ruleset awareness in gi competition.
 
@@ -340,7 +340,7 @@ The Knee Bar from Top Positions integrates seamlessly into modern BJJ systems by
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Kneebar Control]] - Primary control position being established through this transition technique
 - [[Headquarters Position]] - Common starting position offering frequent kneebar entry opportunities
@@ -360,7 +360,7 @@ The Knee Bar from Top Positions integrates seamlessly into modern BJJ systems by
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The kneebar from top positions represents one of the most strategically sound leg attacks in Brazilian Jiu-Jitsu because it combines the safety of positional dominance with the finishing power of leg entanglements, creating a low-risk, high-reward attacking scenario that intelligent competitors should prioritize. The fundamental principle that makes this position so effective is the maintenance of superior position throughout the attack—you never sacrifice your top position to hunt for the leg, rather you recognize when your passing mechanics naturally create leg isolation opportunities and transition seamlessly from passing to finishing. The critical mechanical detail that determines success or failure is the relationship between your hip position and your opponent's knee joint. Your hips must function as a fulcrum point, positioned directly adjacent to their knee, so that any extension of your hips translates with mechanical efficiency into hyperextension pressure on their knee joint. When practitioners fail with this technique, it is almost always because they have positioned their hips too far from the opponent's knee, dramatically reducing leverage despite appearing to have proper control otherwise. The systematic approach to this position involves a clear hierarchy of objectives: first establish and maintain top position, second isolate the leg through passing mechanics, third secure armpit control on the ankle with proper structural connection, fourth break any defensive grips or frames the opponent establishes, fifth position your hips as the fulcrum against their knee, and only sixth apply progressive extension pressure for the finish. This sequence ensures you never sacrifice positional security for submission attempts, paradoxically leading to higher finishing rates because you only attempt the submission when all prerequisites are satisfied. Furthermore, understanding this position as a node within a submission ecosystem rather than an isolated technique transforms its effectiveness—when opponents defend by turning their knee, they expose heel hook opportunities; when they defend by pulling their knee close, they expose mount or back attack opportunities; this systematic connectivity between positions creates unsolvable dilemmas that characterize high-level modern grappling.
 - **Gordon Ryan**: The kneebar from top positions has become one of my highest percentage techniques in competition because it perfectly aligns with my strategic philosophy of maintaining dominant position while constantly threatening submissions. Unlike traditional ashi garami positions where you might be on bottom or in neutral positions, this variation keeps you on top throughout the entire attack, which is absolutely critical in competition scenarios where judges are scoring and referees might stand you up if things get stale. The way I integrate this into my game is primarily off passing sequences—when I'm working my leg drag or knee slice and opponents defend by framing or extending their leg to prevent the pass, I immediately recognize that as a kneebar opportunity rather than battling through the pass. This creates an offensive dilemma they fundamentally cannot solve: defend the pass and expose the leg, or defend the leg and get passed. My success rate with this technique improved dramatically when I stopped treating it as a separate attack and started viewing it as an integral part of my passing system. The specific mechanical detail that transformed my finishing rate was learning to control their far leg with my free hand throughout the attack—before I learned this, people would push my head or create hooks that disrupted my base, but once I started proactively controlling that far leg, the escapes disappeared. In my experience training and competing against the highest level grapplers in the world, the belly down variation is particularly effective because it removes defensive options—they can't sit up, they can't easily turn into you, and the angle makes it harder to defend. The competitive data strongly supports prioritizing this position: I've finished multiple ADCC and No-Gi Worlds matches with this technique, and my training data shows it has comparable finishing rates to rear naked choke when executed properly. One tactical insight that might not be obvious is that even when I don't finish the kneebar, maintaining this control position puts tremendous psychological pressure on opponents while I remain relatively safe and offensive, often leading them to make defensive errors that open up other attacks or positional advancements.
 - **Eddie Bravo**: The kneebar from top positions fits perfectly into the 10th Planet philosophy of attacking submissions without giving up position—we never want to sacrifice control to hunt for subs, we want to create situations where the submission attack enhances our positional control rather than compromising it. What's beautiful about this technique is how it integrates with our passing system, particularly from headquarters where we're controlling one leg and can either pass or attack depending on how they defend. The innovation I've brought to this position is connecting it to our truck system—when people defend the kneebar by turning their knee toward the mat, which is a pretty common defensive instinct, they're actually loading themselves directly into truck position, which then opens up the twister, back attacks, or banana split. This creates a submission chain where every defensive option leads to another attack, embodying that dilemma-based approach that defines high-level no-gi grappling. Another variation we've developed in the 10th Planet system is hitting the kneebar during the transition from lockdown to old school sweep—when you're coming up with the old school and they're trying to defend by posting, there's often a beautiful kneebar entry where you can catch their leg and immediately threaten the knee. One detail I emphasize that's different from traditional approaches is being comfortable standing up into the kneebar when they create space—sometimes when they're defending well from bottom and pushing your hips away, you can actually stand up while keeping that ankle control and drop your weight into the finish, which creates a completely unexpected angle that catches people off guard. The whole position exemplifies what we're trying to do in 10th Planet: stay creative, stay offensive, create chains where defending one thing opens another, and never accept static positions. In training, we drill this heavily as part of our passing sequences because in no-gi especially, where leg locks are fair game at all levels, you need to be able to recognize these opportunities instantly and transition smoothly from passing to finishing without telegraphing your intentions.

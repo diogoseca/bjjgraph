@@ -8,7 +8,7 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 
 
 
-> **Quick Answer**: Triangle Setup transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Triangle Setup transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Break opponent's posture to create forward weight commitment
 - Control one arm while isolating it across your centerline
 - Create angle with hip movement before initiating leg throw
@@ -186,7 +186,7 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Closed guard established with ankles securely crossed
 - Opponent's posture broken forward with head below shoulders
 - Strong grip control on opponent's sleeve or wrist
@@ -200,7 +200,7 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Break posture**: Pull opponent's head down using collar grip while simultaneously pulling with closed guard legs. Drive their head below shoulder line and maintain constant forward pressure. Use sleeve grip to prevent posting and maintain broken posture throughout setup sequence. (Timing: Continuous pressure until opponent commits weight forward)
 2. **Isolate target arm**: Using sleeve grip, pull opponent's arm across your centerline while maintaining head control. The target arm should cross past the midpoint of your chest. Simultaneously push opponent's opposite shoulder away to create separation and prevent their base recovery on that side. (Timing: As opponent attempts to regain posture or post)
 3. **Create angle**: Open guard momentarily and hip escape toward the trapped arm side, creating approximately 45-degree angle. Your shoulders should rotate off the mat while keeping opponent's posture broken. This angle is critical—insufficient angle makes leg throw impossible while excessive angle allows escape. (Timing: Immediately after arm isolation, before opponent recognizes threat)
@@ -214,7 +214,7 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent maintains strong upright posture preventing initial setup** (Effectiveness: High) - Your Response: Transition to alternative attacks like hip bump sweep or kimura to create posture-breaking opportunities, or use collar drag to off-balance and break posture from different angle
 - **Opponent keeps elbows tight to body preventing arm isolation** (Effectiveness: High) - Your Response: Attack opposite side to force defensive reaction, use overhook controls to break elbow connection, or transition to attacks that don't require arm isolation like scissor sweeps or back takes
 - **Opponent postures hard as you create angle, regaining base** (Effectiveness: Medium) - Your Response: Immediately transition to omoplata or overhead sweep using the momentum from their posture recovery, or switch to opposite side triangle setup
@@ -224,25 +224,25 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting triangle setup without breaking opponent's posture first
+## Common Mistakes
+- **Mistake**: Attempting triangle setup without breaking opponent's posture first
   - **Consequence**: Opponent easily defends by maintaining upright base, making leg throw impossible and exposing you to guard passes
   - **Correction**: Always establish broken posture before attempting arm isolation—opponent's head should be pulled down below shoulder line with their weight committed forward
-- **Error**: Creating insufficient angle before throwing leg over shoulder
+- **Mistake**: Creating insufficient angle before throwing leg over shoulder
   - **Consequence**: Triangle configuration is too shallow, opponent escapes by turning toward trapped arm or your legs fail to clear shoulder properly
   - **Correction**: Hip escape to create full 45-degree angle with shoulders off mat before leg throw—you should feel perpendicular to opponent's body
-- **Error**: Throwing leg over shoulder without controlling opponent's arm across centerline
+- **Mistake**: Throwing leg over shoulder without controlling opponent's arm across centerline
   - **Consequence**: Opponent pulls arm back through the opening, escaping triangle configuration entirely and often passing guard in the process
   - **Correction**: Ensure trapped arm is pulled completely across your centerline and held with sleeve grip until leg is secured over shoulder
-- **Error**: Opening closed guard too early in the sequence
+- **Mistake**: Opening closed guard too early in the sequence
   - **Consequence**: Loss of posture control allows opponent to regain base and defend setup, or they immediately begin guard passing sequence
   - **Correction**: Maintain closed guard until the exact moment of angle creation and leg throw—use guard tension to keep posture broken throughout setup
-- **Error**: Failing to elevate hips during triangle closure
+- **Mistake**: Failing to elevate hips during triangle closure
   - **Consequence**: Triangle configuration is loose with excessive space, opponent easily escapes by pulling arm out or stacking
   - **Correction**: Drive hips up toward ceiling as you lock triangle configuration, creating tight connection between your legs and opponent's neck with no gaps
-- **Error**: Locking triangle too far down opponent's back instead of across neck
+- **Mistake**: Locking triangle too far down opponent's back instead of across neck
   - **Consequence**: Opponent has space to pull head and trapped arm out, or technique becomes purely shoulder pressure with no choking mechanism
   - **Correction**: Ensure your calf is positioned directly behind opponent's neck and your locking knee is at the back of their head before securing configuration
 
@@ -251,7 +251,7 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Posture Breaking (Week 1-2)** - Master posture control before introducing triangle elements
 Partner starts in closed guard with neutral posture. Practice breaking posture using collar and guard pulls, maintaining broken posture for 30-second holds. Partner provides graduated resistance. Focus on pulling head below shoulder line and keeping it controlled with minimal effort.
 (Resistance: Light)
@@ -282,7 +282,7 @@ Start from closed guard position during positional rounds with both players comp
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Spider Guard Triangle Setup**: From spider guard with sleeve and collar grips, use foot on bicep to create arm isolation while breaking posture with collar grip. Hip escape and throw leg over shoulder while maintaining foot pressure on opposite arm. Creates more control of opponent's arms during setup phase. (When to use: Against opponents who maintain good posture in closed guard, or when you have established strong spider guard controls)
 
 **Overhook Triangle Setup**: From closed guard with deep overhook control, break posture by pulling with overhook while extending guard. Use overhook to trap arm across centerline naturally. Create angle away from overhook side and throw leg over, using overhook to prevent arm escape during setup. (When to use: When opponent gives overhook opportunity, or against opponents who defend traditional setups by keeping elbows tight)
@@ -325,7 +325,7 @@ Start from closed guard position during positional rounds with both players comp
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Triangle setup is generally safe for both practitioners when executed with proper control. The primary safety concern is neck and spine stress on the training partner—always release pressure immediately if partner taps or shows distress. When drilling, avoid explosive leg throws that could impact the face or whip the neck unexpectedly. The person applying the triangle should focus on control rather than force during practice, building tightness gradually rather than slamming the position closed. Partners should communicate about neck sensitivity and prior injuries before training triangles. The training partner should maintain awareness of their neck position and avoid stacking themselves excessively which can create spinal compression. Both practitioners should understand proper tapping mechanics and tap early during learning phases. Avoid practicing on partners with significant size/weight disadvantages as this increases injury risk.
 
@@ -333,7 +333,7 @@ Triangle setup is generally safe for both practitioners when executed with prope
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Triangle Setup serves as a critical attacking hub within the closed guard system and connects to multiple position families. From closed guard, it represents one of the primary offensive threats alongside sweeps and kimura attacks, creating a rock-paper-scissors dynamic where defending one attack opens others. The setup phase naturally flows into Triangle Control position, which itself is a hub connecting to multiple submission finishes and positional transitions. Failed triangle setups commonly transition to omoplata positions, back take opportunities, or armbar attacks, making the setup valuable even when incomplete. The technique integrates with high guard and rubber guard systems, particularly in no-gi contexts where collar grips are unavailable. Understanding triangle setup mechanics improves guard retention and sweep timing by developing sensitivity to opponent's weight distribution and arm positioning. The angle creation skills developed during triangle setup transfer directly to numerous other guard techniques including flower sweeps, pendulum sweeps, and shoulder walk escapes.
 
@@ -341,7 +341,7 @@ The Triangle Setup serves as a critical attacking hub within the closed guard sy
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Closed Guard]] - Primary starting position
 - [[Triangle Control]] - Direct progression
@@ -364,7 +364,7 @@ The Triangle Setup serves as a critical attacking hub within the closed guard sy
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The triangle setup exemplifies fundamental principles of guard work that extend far beyond this single technique. The sequence demonstrates the critical concept of creating structural problems for your opponent before attempting submissions—in this case, breaking posture and isolating an arm creates a mechanical disadvantage that makes defense exponentially more difficult. The angle creation phase is biomechanically essential because attempting to throw your leg over the shoulder from a square position violates the body's natural range of motion and telegraphs your intention. The 45-degree angle solves both problems simultaneously by allowing your hip to rotate naturally while hiding your attack until the last moment. Students must understand that the triangle setup is not merely a series of steps but rather a systematic dismantling of the opponent's defensive structure. Each phase—posture breaking, arm isolation, angle creation, leg throw—builds upon the previous phase to create compounding advantages. This cumulative effect is why rushing any single phase dramatically reduces success rates. The setup also demonstrates the principle of connected attacks: the same controls and angles that create triangle opportunities also enable omoplata, armbar, and sweep options, creating the attacking ecosystems that define high-level guard play.
 - **Gordon Ryan**: From competition experience, the triangle setup is most effective when you make it part of a larger attacking system rather than hunting for it in isolation. I use the threat of the triangle to set up other attacks and vice versa—when opponents defend my hip bump sweep by basing their arm out, they give me the triangle setup. When they hide their arms to prevent triangles, they give me sweep opportunities. The key is making every defensive choice they make wrong. In modern high-level competition, everyone knows the basic triangle setup mechanics, so you need to disguise your intention until the last possible moment. I maintain broken posture for extended periods while attacking with other techniques, waiting for the exact moment when their arm positioning gives me the opening. The moment of transition from setup to finish happens faster at high levels—you can't slowly work through each step because good opponents will recognize and defend. I practice the setup until it becomes one explosive motion from angle creation to locked triangle. Another competition reality: you need backup plans when the setup gets defended. I never commit fully to triangle if the initial setup meets resistance—instead, I immediately flow to omoplata or back takes. The setup's value is creating dilemmas, not forcing a single outcome. Training partners who allow you to complete triangles slowly are creating false confidence that fails in competition.
 - **Eddie Bravo**: The traditional triangle setup works but the 10th Planet system offers multiple entry points that solve common problems, especially in no-gi where you don't have collar grips. The rubber guard approach to triangles is revolutionary because mission control naturally breaks posture and controls the arm simultaneously—you're already halfway through the traditional setup before even attempting the triangle. From mission control, the opponent's defensive options are severely limited because your leg is controlling their head and their arm is trapped by your lockdown. This creates much higher percentage triangle setups than starting from standard closed guard. Another innovation is using the opponent's defensive grip breaks against them. When they grab your ankle to prevent the triangle throw, you can use that grip commitment to transition to omoplata or dead orchard positions. The key principle in our system is that positions create submissions rather than hunting submissions from neutral positions. Zombie position is another entry point where the gogoplata threat forces defensive reactions that open triangle setups. We also emphasize the importance of practicing setups from weird, off-balance positions because that's where opportunities actually appear during rolling. Drilling perfect triangle setups from perfect closed guard creates techniques that only work in drilling. Train the setup from half-guard, from standing, from failed sweep attempts—anywhere the position might realistically appear. The triangle isn't one setup, it's a family of related entries that adapt to whatever opportunity your opponent gives you.

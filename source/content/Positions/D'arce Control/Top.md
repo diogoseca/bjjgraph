@@ -8,7 +8,7 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75%.
 
 ---
 
@@ -191,7 +191,7 @@ From a strategic perspective, D'arce Control Top exemplifies the modern submissi
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's arm threaded under opponent's near arm and around the back of opponent's neck with hands locked in a figure-four or gable grip configuration on the far side of opponent's body establishing the fundamental darce control structure
 - Top player's chest and shoulder pressure driving into the side of opponent's head and trapped shoulder creating a wedge that prevents escape while simultaneously tightening the choke through compression
@@ -204,7 +204,7 @@ From a strategic perspective, D'arce Control Top exemplifies the modern submissi
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful arm trap from front headlock, turtle, or scramble situation
 - Deep penetration of choking arm under opponent's armpit to neck
@@ -230,7 +230,7 @@ From a strategic perspective, D'arce Control Top exemplifies the modern submissi
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Darce Choke]] → [[Won by Submission]]
 
@@ -280,7 +280,7 @@ From a strategic perspective, D'arce Control Top exemplifies the modern submissi
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Guard Recovery]]** → [[Open Guard]] (Opponent Success: 25%)
 - **[[Rolling Guard Pull]]** → [[Closed Guard]] (Opponent Success: 20%)
@@ -292,7 +292,7 @@ From a strategic perspective, D'arce Control Top exemplifies the modern submissi
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Darce Setup]]** → [[D'arce Control]]
   - Opponent attempts to pull guard or roll
@@ -327,7 +327,7 @@ From a strategic perspective, D'arce Control Top exemplifies the modern submissi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 70% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Bottom player's shin maintains perpendicular or diagonal contact across opponent's same-side shin at the lower third of the tibia, creating a biomechanical lever that compromises the opponent's base and provides constant feedback about their weight distribution and movement intentions
 - Bottom player's hips remain mobile and positioned at an angle that allows continuous adjustment of the shin connection pressure and angle, enabling dynamic responses to opponent clearing attempts while maintaining the ability to transition to related guard positions without first disengaging completely
@@ -200,7 +198,7 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Fundamental understanding of open guard distance management and the concept of using leg frames to control opponent positioning
 - Sufficient hip mobility and core strength to maintain seated or semi-reclined posture while actively managing shin connection
@@ -229,7 +227,7 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Single Leg X Entry]] → [[Single Leg X-Guard]]
 
@@ -307,7 +305,7 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Knee Slice Pass]]** → [[Headquarters Position]] (Opponent Success: 40%)
 - **[[Long Step Pass]]** → [[Side Control]] (Opponent Success: 35%)
@@ -321,7 +319,7 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
   - Opponent attempts to step over shin connection or drive forward with weight
@@ -370,7 +368,7 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

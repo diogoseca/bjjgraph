@@ -8,7 +8,7 @@ description: "Master escaping the triangle from top position. Complete guide cov
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master escaping the triangle from top position. Complete guide cov
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master escaping the triangle from top position. Complete guide cov
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 55% of the time and finish submissions in 15% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 55% of the time and finish submissions in 15%.
 
 ---
 
@@ -191,7 +191,7 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Opponent's legs are configured in triangle formation with one leg across back of practitioner's neck and other leg locked behind knee, creating closed loop threatening blood choke
 - One of practitioner's arms is trapped inside triangle between opponent's legs while other arm remains outside, creating asymmetrical positioning requiring immediate address
@@ -204,7 +204,7 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent has successfully closed triangle choke configuration from guard position
 - One arm is trapped inside triangle while defending choke with other arm
@@ -231,7 +231,7 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Stack Pass]] → [[Side Control]]
 
@@ -281,7 +281,7 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Triangle Choke]]** → [[Won by Submission]] (Opponent Success: 45%)
 - **[[Triangle to Armbar]]** → [[Armbar Control]] (Opponent Success: 35%)
@@ -293,7 +293,7 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Stack Pass]]** → [[Side Control]]
   - Opponent attempts to adjust angle or switch to armbar
@@ -328,7 +328,7 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

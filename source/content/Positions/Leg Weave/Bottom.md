@@ -8,7 +8,7 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 45% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top player's knee-side leg is threaded between bottom player's legs, typically positioning the shin or knee across the bottom player's hip line or thigh to establish the weave structure that disrupts defensive leg positioning
 - Bottom player maintains half guard hook with one leg (usually the far leg) while the near leg is being controlled or pressured by the top player's weaved leg, creating asymmetric leg connection
@@ -200,7 +198,7 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Bottom player was in half guard position (standard, knee shield, or lockdown variation)
 - Top player successfully initiated leg weave entry by threading knee-side leg between bottom player's legs
@@ -228,7 +226,7 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Frame and Shrimp]] → [[Knee Shield Half Guard]]
 
@@ -285,7 +283,7 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Leg Weave Pass]]** → [[Side Control]] (Opponent Success: 60%)
 - **[[Smash Pass]]** → [[Side Control]] (Opponent Success: 55%)
@@ -300,7 +298,7 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]]
   - Top player attempts to flatten with crossface - create frame on neck and shrimp hip away
@@ -346,7 +344,7 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

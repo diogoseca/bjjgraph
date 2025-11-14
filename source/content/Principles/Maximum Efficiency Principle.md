@@ -8,7 +8,7 @@ description: "Master the principle of maximum efficiency with minimum effort in 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master the principle of maximum efficiency with minimum effort in 
 
 
 
-> **Quick Answer**: Maximum Efficiency Principle is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.
+> Maximum Efficiency Principle is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Expert.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ At its core, maximum efficiency teaches practitioners to work smarter rather tha
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Use leverage and mechanical advantage rather than muscular strength to control and submit opponents
 - Conserve energy by remaining relaxed during neutral exchanges and exploding only at critical decision points
 - Position your skeletal structure to bear loads rather than relying on sustained muscular tension
@@ -184,7 +184,7 @@ At its core, maximum efficiency teaches practitioners to work smarter rather tha
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Leverage Recognition**: The ability to identify mechanical advantages in body positioning, joint angles, and fulcrum points that allow small forces to generate large effects. This includes understanding how to position limbs, hips, and torso to create optimal lever arms for control and submission applications.
 
 **Structural Loading**: Using skeletal alignment and bone structure to bear opponent weight and pressure rather than muscular engagement. This involves positioning your frame so that gravity and opponent mass work through your bones, allowing muscles to remain relaxed while maintaining control and pressure.
@@ -207,7 +207,7 @@ At its core, maximum efficiency teaches practitioners to work smarter rather tha
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Leverage Principles]]** (Complementary): Leverage Principles provide the mechanical foundation that enables maximum efficiency, defining the specific fulcrum and force relationships that create mechanical advantage
 - **[[Energy Conservation]]** (Complementary): Energy Conservation represents the practical outcome of applying maximum efficiency, as proper mechanical application directly reduces unnecessary energy expenditure during training and competition
 - **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanics is essential for identifying which body positions and movements create maximum efficiency through optimal force transfer and structural alignment
@@ -223,7 +223,7 @@ At its core, maximum efficiency teaches practitioners to work smarter rather tha
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Use hip angle and guard structure to off-balance opponent while remaining relaxed, applying breaking mechanics through skeletal positioning rather than pulling with arms. The closed guard exemplifies efficiency through using leg structure to control posture while conserving upper body energy for attacks.
 
 **Mount**: Distribute weight through optimal hip and chest positioning to create oppressive pressure using gravity rather than muscular tension. Proper mount control demonstrates efficiency through structural positioning that makes escape attempts strengthen your control while you remain relaxed.
@@ -260,7 +260,7 @@ At its core, maximum efficiency teaches practitioners to work smarter rather tha
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current position and identify available mechanical advantages**: Scan for leverage points (fulcrums, long lever arms, structural weaknesses in opponent position) and angle opportunities that would yield disproportionate control-to-effort ratios
 2. **Evaluate muscular tension levels and energy expenditure**: Identify unnecessary tension in your body and consciously relax non-essential muscle groups while maintaining structural integrity through skeletal positioning and strategic connection points
 3. **Determine optimal force application points and vectors**: Select pressure points, grip locations, and body positioning that maximize mechanical advantage, focusing on creating compound leverage systems where multiple advantages work synergistically
@@ -273,28 +273,28 @@ At its core, maximum efficiency teaches practitioners to work smarter rather tha
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Over-reliance on muscular strength and grip fighting intensity
+## Common Mistakes
+- **Mistake**: Over-reliance on muscular strength and grip fighting intensity
   - **Consequence**: Rapid fatigue during rolls, inability to maintain techniques during long matches, and increased injury risk from sustained tension. Practitioners burn out quickly and find their game deteriorates as rounds progress.
   - **Correction**: Consciously practice relaxation during neutral exchanges, identify leverage points before engaging, and use positional structure rather than grip strength for control. Focus on feeling where opponent structure is weak rather than forcing positions through strength.
-- **Error**: Attempting techniques against optimal opponent structure and timing
+- **Mistake**: Attempting techniques against optimal opponent structure and timing
   - **Consequence**: Techniques fail despite significant effort, creating frustration and reinforcing strength-based approaches. Practitioners develop poor timing recognition and struggle against skilled opponents who maintain good structure.
   - **Correction**: Study opponent weight distribution and breathing patterns to identify moments of structural compromise. Wait for or create these windows rather than forcing techniques when opponent is perfectly balanced and prepared.
-- **Error**: Using arm muscles to maintain positions that should be controlled with body weight
+- **Mistake**: Using arm muscles to maintain positions that should be controlled with body weight
   - **Consequence**: Positions that require constant muscular engagement cannot be held indefinitely, leading to position loss as fatigue accumulates. Upper body exhaustion prevents effective finishing sequences even from dominant positions.
   - **Correction**: Reposition body mass and skeletal structure to bear loads, allowing arms to remain light and ready for adjustments. Focus on feeling gravity do the work through proper positioning rather than actively pressing with muscles.
-- **Error**: Meeting opponent force directly with opposing force rather than redirecting
+- **Mistake**: Meeting opponent force directly with opposing force rather than redirecting
   - **Consequence**: Strength versus strength exchanges that favor the more athletic or larger practitioner, negating technical advantages. Energy expenditure increases exponentially when forces oppose each other directly.
   - **Correction**: Practice circular and angular movements that guide opponent force past your position or into directions that compromise their base. Study Judo principles of using opponent momentum rather than creating opposing momentum.
-- **Error**: Maintaining constant tension and engagement without strategic relaxation periods
+- **Mistake**: Maintaining constant tension and engagement without strategic relaxation periods
   - **Consequence**: Cardiovascular fatigue, reduced technical precision as rounds progress, and inability to recognize efficient movement patterns. Practitioners feel exhausted after every roll regardless of outcome.
   - **Correction**: Develop awareness of when you're truly in danger versus when position is stable, relaxing during stable periods to recover. Practice breathing deeply during neutral exchanges and only exploding during critical moments.
-- **Error**: Ignoring small positional adjustments that would create significant mechanical advantages
+- **Mistake**: Ignoring small positional adjustments that would create significant mechanical advantages
   - **Consequence**: Techniques that should work easily become difficult or impossible, reinforcing belief that strength is necessary. Practitioners miss opportunities to control or submit opponents through simple angle adjustments.
   - **Correction**: Study micro-adjustments in hip position, shoulder angle, and grip placement that create leverage multipliers. Experiment with small changes during drilling to feel how minimal adjustments create disproportionate effects.
-- **Error**: Focusing on explosive athleticism rather than systematic mechanical advantage
+- **Mistake**: Focusing on explosive athleticism rather than systematic mechanical advantage
   - **Consequence**: Game style that cannot be sustained long-term as athletic capacity declines with age or injury. Younger, more athletic training partners consistently defeat technical knowledge through physical advantages.
   - **Correction**: Deliberately practice techniques slowly to understand the mechanical components, building game around principles that work regardless of athletic capacity. Seek to submit opponents through technical perfection rather than timing windows created by explosiveness.
 
@@ -303,7 +303,7 @@ At its core, maximum efficiency teaches practitioners to work smarter rather tha
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Slow Rolling Technical Sparring** (Focus: Developing sensitivity to mechanical advantages, learning to maintain relaxed state under pressure, and building awareness of unnecessary tension patterns that waste energy)
 Practice positional sparring at 50-60% speed with emphasis on feeling leverage points and maintaining relaxation. Both partners focus on technical execution rather than winning exchanges.
 
@@ -328,7 +328,7 @@ Extended duration rounds (10-15 minutes) where goal is to maintain technical cap
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes when using excessive force but struggles to identify alternative approaches in real-time
 - Can maintain relaxation during drilling but reverts to tension during live sparring when under pressure
@@ -373,7 +373,7 @@ Extended duration rounds (10-15 minutes) where goal is to maintain technical cap
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Leverage Principles]] (Principle) - Provides the mechanical mathematics and biomechanical foundations that enable maximum efficiency in practice
 - [[Energy Conservation]] (Principle) - Represents the practical training outcome and strategic implementation of maximum efficiency principles
@@ -392,7 +392,7 @@ Extended duration rounds (10-15 minutes) where goal is to maintain technical cap
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Maximum efficiency is not merely a training principle—it represents the fundamental philosophical divergence between grappling arts and other combat systems. In striking, you can compensate for poor mechanics with speed and power, but in grappling, the truth of mechanical advantage is absolute and cannot be overcome through athleticism alone. When I teach this principle, I emphasize that every position has an optimal structural configuration where control becomes nearly effortless, where the geometry of bone alignment and lever arms makes opponent escape attempts strengthen rather than weaken your position. The systematic study of these optimal configurations across all positions creates a game that improves with age rather than deteriorating, as mechanical understanding deepens even as athletic capacity declines. Students must understand that the appearance of effortlessness in high-level grapplers isn't genetic—it's the visible manifestation of thousands of hours spent eliminating unnecessary movement and muscular tension, refining each position until only the essential mechanical components remain. This is why I structure all my teaching systems around identifying and exploiting these mechanical truths rather than relying on attributes that fluctuate with conditioning or age.
 - **Gordon Ryan**: In competition, maximum efficiency becomes the difference between finishing strong in the final matches versus barely surviving. I've won ADCC finals that went the full time period not because I have superior cardio to other elite competitors, but because my positional control requires almost no energy expenditure while forcing opponents to burn massive amounts trying to escape. When I have someone in mount or back control, I'm positioned so that their escape attempts tighten my controls—I'm literally resting while they exhaust themselves. This efficiency advantage compounds throughout a tournament; in my final match I'm still finishing with submissions while opponents who relied on strength and pressure all day are surviving on fumes. The key insight is that efficiency isn't just about individual techniques—it's about building entire positional systems where every defensive option the opponent has requires them to expend energy while you maintain control through structure. In my passing game, I use angles and pressure points that force the guard player to constantly adjust and re-guard, burning their energy while I'm moving forward through optimal mechanical pathways. By the time I pass to mount, they're already compromised from the cumulative energy deficit, making submissions readily available. This is how you can compete multiple times in a day against the world's best—your game has to be built on efficiency principles at every level.
 - **Eddie Bravo**: Most people misunderstand efficiency and think it means being passive or defensive, but maximum efficiency can be wildly offensive when you understand leverage multiplication. In 10th Planet system, we use rubber guard and lockdown specifically because they create mechanical traps where opponent strength works against them—the harder they fight, the tighter the position gets. When you have someone in Mission Control with the overhook trapped, they can be a world champion and they still can't get out without giving you their back or their arm. That's pure efficiency—I'm not using strength to hold them there, the position itself is doing the work through geometric control. The lockdown in half guard is another example; when I whip up the electric chair, I'm not lifting them with my legs muscularly, I'm creating a lever system where small hip movements generate enormous spine pressure. This concept of efficiency through position structure allowed me to tap guys way bigger and stronger throughout my career. The innovation in no-gi is finding new geometric configurations that create these efficient control mechanisms, positions where the mechanical advantage is so severe that athleticism becomes irrelevant. That's what I'm always searching for—new positions where size and strength don't matter because the leverage math is so overwhelmingly in your favor that technique becomes absolute. When you find these positions, you can roll forever without getting tired because you're not fighting against them, you're just maintaining structure while they exhaust themselves trying to overcome the geometry.

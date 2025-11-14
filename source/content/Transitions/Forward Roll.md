@@ -8,7 +8,7 @@ description: "Master the Forward Roll in BJJ. Essential escape and movement tech
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Forward Roll in BJJ. Essential escape and movement tech
 
 
 
-> **Quick Answer**: Forward Roll transitions from [[Defensive Position]] to [[Seated Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Forward Roll transitions from [[Defensive Position]] to [[Seated Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Tuck chin to chest to protect the neck and create a smooth rolling surface
 - Maintain rounded spine throughout the roll to distribute pressure evenly
 - Control momentum by pushing off with legs and guiding with hands
@@ -186,7 +186,7 @@ The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent is driving forward with pressure or attempting to pass guard
 - Sufficient space exists behind you to complete the roll safely
 - Your chin is tucked to protect the neck from injury
@@ -199,7 +199,7 @@ The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish base position**: Begin from a seated or bottom position with your opponent applying forward pressure. Keep your knees bent and feet positioned to push off the mat. Your hands should be in front of you, ready to support your body weight as you initiate the roll. (Timing: As opponent commits weight forward)
 2. **Tuck chin to chest**: Bring your chin down firmly to your chest, creating a rounded cervical spine. This critical safety step protects your neck and creates the proper curved surface for rolling. Your gaze should be directed at your belt or knees throughout the movement. (Timing: Immediately before initiating roll)
 3. **Position hands for support**: Place both hands on the mat shoulder-width apart in front of you, fingers pointing forward. Your hands will guide the roll and support your body weight during the initial phase. Keep elbows slightly bent to absorb impact as you transition onto your shoulder. (Timing: Simultaneous with chin tuck)
@@ -213,7 +213,7 @@ The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent follows the roll and maintains pressure** (Effectiveness: High) - Your Response: As you complete the roll, immediately establish feet on hips guard or continue rolling backward to create additional distance. Use your legs to frame and prevent opponent from settling into passing position.
 - **Opponent grabs your legs during the roll** (Effectiveness: Medium) - Your Response: Accelerate the roll and use your hands to push off opponent's grip. If caught, transition to defensive guard position immediately rather than completing the roll, using frames to create space.
 - **Opponent times your roll and steps around** (Effectiveness: Medium) - Your Response: Abort the roll if opponent begins moving around early. Instead, transition to seated guard or technical stand-up. Use the forward momentum to create angle change rather than completing the roll.
@@ -222,25 +222,25 @@ The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Rolling straight down the spine instead of diagonally across shoulder
+## Common Mistakes
+- **Mistake**: Rolling straight down the spine instead of diagonally across shoulder
   - **Consequence**: Increased risk of neck and spine injury, painful impact on vertebrae, and loss of momentum during the roll
   - **Correction**: Focus on rolling diagonally from one shoulder blade across your back to the opposite hip. Think of drawing a diagonal line across your back rather than a straight vertical line down your spine.
-- **Error**: Failing to tuck chin properly before initiating roll
+- **Mistake**: Failing to tuck chin properly before initiating roll
   - **Consequence**: Serious risk of neck injury, potential for head to strike the mat, and disruption of smooth rolling motion
   - **Correction**: Always bring chin to chest before any forward momentum. Your gaze should be at your belt throughout the entire roll. Make chin tuck the first movement, not an afterthought.
-- **Error**: Extending legs too early in the roll
+- **Mistake**: Extending legs too early in the roll
   - **Consequence**: Loss of momentum, exposure to leg attacks, and inability to complete the roll smoothly
   - **Correction**: Keep knees pulled tight to chest throughout the entire rolling motion. Only extend legs when establishing guard position after the roll is complete.
-- **Error**: Using insufficient leg drive to initiate momentum
+- **Mistake**: Using insufficient leg drive to initiate momentum
   - **Consequence**: Incomplete roll that stalls halfway, leaving you vulnerable in a compromised position
   - **Correction**: Generate explosive power from your legs by pushing firmly off the mat. The roll should have enough momentum to carry you completely through to guard position without requiring additional pushes.
-- **Error**: Not creating immediate distance after completing roll
+- **Mistake**: Not creating immediate distance after completing roll
   - **Consequence**: Opponent maintains control and pressure, negating the escape attempt
   - **Correction**: As the roll completes, immediately establish defensive frames with feet on hips or hands on opponent's shoulders. Create space before opponent can close distance and establish control.
-- **Error**: Rolling in predictable straight line backward
+- **Mistake**: Rolling in predictable straight line backward
   - **Consequence**: Opponent easily follows and maintains dominant position
   - **Correction**: Add angles to your roll by pushing off at slight angles rather than straight back. Mix forward rolls with other movements like granby rolls to make your movement less predictable.
 
@@ -249,7 +249,7 @@ The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Solo Drilling** - Develop proper rolling mechanics and body awareness
 Practice forward rolls without a partner, focusing on chin tuck, diagonal rolling path, and maintaining tight body position. Start slowly and gradually increase speed as comfort improves. Perform 20-30 repetitions per training session.
 (Resistance: None)
@@ -280,7 +280,7 @@ Integrate forward roll seamlessly with entire guard game during free rolling and
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Forward Roll to Technical Stand-up**: Instead of recovering to seated guard, continue momentum from the forward roll directly into a technical stand-up position. This variation creates maximum distance and returns you to standing position. (When to use: When opponent has strong passing pressure and remaining on the ground would be disadvantageous. Particularly effective when near the boundary of the training area or when standing engagement is preferred.)
 
 **Angled Forward Roll**: Execute the forward roll at a 45-degree angle rather than straight backward. This creates unpredictable movement patterns and can help you roll away from opponent's preferred passing direction. (When to use: When opponent is following your movements closely or when you need to create an angle advantage. Effective against opponents who chase the roll predictably.)
@@ -320,7 +320,7 @@ Integrate forward roll seamlessly with entire guard game during free rolling and
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Forward rolling must be practiced with careful attention to neck safety. Always ensure proper chin tuck before initiating any rolling motion, as failure to protect the neck can result in serious cervical spine injuries. Begin practicing on soft surfaces and progress gradually to harder surfaces as technique improves. Students with neck, shoulder, or back injuries should consult medical professionals before practicing forward rolls. When practicing with partners, ensure adequate space around you to complete the roll without colliding with other practitioners or obstacles. Start with slow, controlled repetitions and gradually increase speed only after mastering proper mechanics. Younger or less experienced practitioners should always be supervised during initial learning phases. Never attempt forward rolls on surfaces that are too hard, slippery, or uneven.
 
@@ -328,7 +328,7 @@ Forward rolling must be practiced with careful attention to neck safety. Always 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Forward Roll is a fundamental component of the guard recovery system in BJJ, serving as a critical link between defensive positions and re-establishing guard. This technique integrates primarily with bottom positions, particularly when transitioning from compromised positions back to guard. It connects directly with guard retention concepts, as maintaining guard often requires dynamic movement including forward rolls when static defenses fail. The technique also integrates with the broader movement vocabulary including granby rolls, technical stand-ups, and inverting movements. Forward rolls are essential for developing the body awareness and coordination needed for advanced guard work, including inverted guards and berimbolo techniques. Understanding forward rolling mechanics also translates to better execution of rolling submissions like rolling kimuras and rolling back takes. This technique represents the intersection between defensive survival, guard retention, and offensive movement patterns.
 
@@ -336,7 +336,7 @@ The Forward Roll is a fundamental component of the guard recovery system in BJJ,
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Granby Roll]] - Alternative rolling escape that moves in a different direction
 - [[Technical Stand-up]] - Follow-up technique often chained after forward roll
@@ -356,7 +356,7 @@ The Forward Roll is a fundamental component of the guard recovery system in BJJ,
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The forward roll represents a fundamental principle in Brazilian Jiu-Jitsu: the ability to use spherical motion to create space and negate an opponent's linear pressure. When we examine the biomechanics of the forward roll, we see it exploits the body's natural ability to move in a curved path while maintaining structural integrity through spinal flexion. The critical element is understanding that the roll must follow a diagonal trajectory across the musculature of the upper back, never down the spine itself. This diagonal path distributes compressive forces across the stronger, more resilient tissues while protecting the vulnerable vertebral column. The timing of the forward roll is equally important - it should be initiated as the opponent commits their weight forward, using their momentum against them. Students must develop proprioceptive awareness to know when rolling is the optimal response versus other guard recovery methods. The forward roll is not merely an escape; it's a sophisticated use of angular momentum and body mechanics to transform a defensive situation into a neutral or even advantageous position.
 - **Gordon Ryan**: In competition, the forward roll is a high-percentage technique when you understand its proper application within the context of modern guard passing. I use forward rolling as a tactical reset that prevents opponents from consolidating passing positions. The key is not just executing the roll mechanically, but timing it precisely when your opponent overcommits to their pass. Many elite competitors make the mistake of staying flat when their guard is being passed, but the forward roll allows you to maintain mobility and prevent your opponent from establishing stable control. I particularly favor chaining the forward roll with immediate guard re-establishment using my feet on the opponent's hips - this creates a defensive cycle that's extremely difficult to break. The variation where you roll at angles rather than straight back is especially effective against predictable passers who chase in a straight line. In my matches, I've found that mixing forward rolls with granby rolls and technical stand-ups creates a movement pattern that prevents opponents from timing their passes. The forward roll also serves as an entry point to more advanced movements like inversions and berimbolo-style techniques when you develop comfort with rolling motions. It's not flashy, but it's fundamentally sound and keeps you in the fight.
 - **Eddie Bravo**: Forward rolling is deeply integrated into the 10th Planet system's defensive framework, particularly when we're working our way back to our preferred guard positions like lockdown or rubber guard. What I emphasize with forward rolling is the concept of 'rolling into space' rather than rolling away from danger - this mental shift helps practitioners identify the open pathways during scrambles. The forward roll becomes especially valuable when you're being smashed and need to create breathing room before re-engaging. We chain forward rolls with specific 10th Planet positions, like rolling through to establish electric chair or transitioning to truck position. The variant where you roll forward and immediately invert creates fantastic entry opportunities to positions like reverse De La Riva or crab ride. I teach students to view the forward roll not as a last-resort escape, but as a proactive movement that can catch opponents off-guard and create offensive opportunities. When you combine forward rolling with our system's emphasis on flexibility and unconventional positions, you create movement patterns that traditional guard passers aren't prepared to deal with. The key innovation in our approach is using the forward roll as a bridge between defensive survival and offensive position establishment, rather than just as an escape technique. We drill forward rolls into specific 10th Planet positions so the movement becomes second nature during live rolling.

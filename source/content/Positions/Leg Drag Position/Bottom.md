@@ -8,7 +8,7 @@ description: "Defend and escape the leg drag position with systematic recovery s
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Defend and escape the leg drag position with systematic recovery s
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Defend and escape the leg drag position with systematic recovery s
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 55% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,7 +193,7 @@ Advanced practitioners develop sensitivity to the weight distribution and pressu
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - One leg is controlled and dragged across the body by the opponent, with their grip or pressure on the hip or knee preventing that leg from returning to guard position
 - The top player's chest or shoulder applies downward pressure on the dragged leg, pinning the bottom player's hip to the mat and restricting hip mobility
@@ -206,7 +204,7 @@ Advanced practitioners develop sensitivity to the weight distribution and pressu
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Guard has been partially passed with one leg controlled
 - Top player has established hip control and chest pressure
@@ -230,7 +228,7 @@ Advanced practitioners develop sensitivity to the weight distribution and pressu
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Butterfly Hook Recovery]] → [[Butterfly Guard]]
 
@@ -280,7 +278,7 @@ Advanced practitioners develop sensitivity to the weight distribution and pressu
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Knee Slice Pass]]** → [[Side Control]]
 - **[[Back Step]]** → [[Back Control]]
@@ -292,7 +290,7 @@ Advanced practitioners develop sensitivity to the weight distribution and pressu
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Re-Guard]]** → [[Butterfly Guard]]
   - When top player shifts weight to complete pass
@@ -325,7 +323,7 @@ Advanced practitioners develop sensitivity to the weight distribution and pressu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

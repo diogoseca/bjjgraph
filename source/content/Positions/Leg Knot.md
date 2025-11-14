@@ -13,10 +13,6 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 
 
 
-> **Quick Overview**: Leg Knot Position represents an advanced leg entanglement configuration where practitioners' legs are woven together in a complex, knot-like structure that creates mutual control and submission opport...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Short to Medium | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short to Medium | Medium |
 
-**What Makes This Position Unique:** Geometric leg weaving creates entanglement control
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Leg Knot/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Leg Knot/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Geometric leg weaving creates entanglement control
 
 
 
@@ -88,10 +72,13 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 
 <section id="bottom-summary" class="content-section">
 
-## Leg Knot Bottom Perspective
+
+## Playing as Bottom
+
+[[Leg Knot/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in leg knot must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in leg knot must focus on creating frames, protecting against 
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Turning away from opponent and exposing heel**
@@ -166,16 +153,17 @@ The bottom player in leg knot must focus on creating frames, protecting against 
   - ✅ Correction: Use hands actively to control opponent's gi/body, create frames, and manage distance throughout the entanglement
 
 
-👉 **[[Leg Knot/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Leg Knot Top Perspective
+
+## Playing as Top
+
+[[Leg Knot/Top|→ Full Top Guide]]
 
 
-The top player in leg knot balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -224,7 +212,7 @@ The top player in leg knot balances control maintenance with submission attacks,
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Forcing heel hook finish before establishing proper breaking mechanics and control**
@@ -251,8 +239,6 @@ The top player in leg knot balances control maintenance with submission attacks,
   - Consequence: Opponent establishes defensive stalemate and works methodically toward escape
   - ✅ Correction: Continuously adjust angles, pressure points, and leg crossing configuration to stay ahead of opponent's defensive adjustments
 
-
-👉 **[[Leg Knot/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

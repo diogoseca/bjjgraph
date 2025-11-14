@@ -8,7 +8,7 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 75% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 75% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,7 +189,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Lockdown established on one leg with bottom practitioner's legs intertwined around opponent's trapped leg, creating structural control through the figure-four configuration that prevents leg extraction
 - Underhook or overhook secured on opponent's upper body, typically with the arm threading under the opponent's arm or wrapping over their shoulder to create leverage for the whip-up motion
@@ -204,7 +202,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Lockdown secured on one of opponent's legs with figure-four leg configuration
 - Opponent in or transitioning from half guard top position
@@ -232,7 +230,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Old School Sweep]] → [[Mount]]
 
@@ -282,7 +280,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Lockdown Defense]]** → [[Half Guard]] (Opponent Success: 35%)
 - **[[Whizzer]]** → [[Half Guard]] (Opponent Success: 40%)
@@ -294,7 +292,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Electric Chair Submission]]** → [[Electric Chair]]
   - Opponent tries to whizzer or pull leg free
@@ -334,7 +332,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master Williams Shoulder Lock in BJJ. Complete guide with safety p
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Williams Shoulder Lock in BJJ. Complete guide with safety p
 
 
 
-> **Quick Answer**: Williams Shoulder Lock is a shoulder lock targeting the Shoulder joint (glenohumeral joint and rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) - apply slowly over 3-5 seconds and release immediately upon tap.
+> Williams Shoulder Lock is a shoulder lock targeting the Shoulder joint (glenohumeral joint and rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="safety-considerations" class="content-section">
 
-## Is Williams Shoulder Lock Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -217,7 +217,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Overhook control must be deeply secured with opponent's arm trapped across your body
 - Hip positioning creates the angle necessary for shoulder isolation
 - Rotational force is generated from core and hip movement, not arm strength
@@ -231,7 +231,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Establish Williams Guard position with deep overhook control on opponent's arm
 - Opponent's trapped arm must be isolated across your centerline with limited mobility
 - Your legs must be active in maintaining guard retention and preventing opponent's posture
@@ -245,7 +245,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure Deep Overhook Control**: From Williams Guard, feed your arm deep under opponent's arm, securing an overhook that brings their arm across your body. Your grip should be on their tricep or upper back, pulling their arm tightly across your chest. Ensure their elbow is positioned near your sternum for maximum control. (Timing: 2-3 seconds to establish secure control) [Pressure: Firm]
 2. **Establish Wrist Control**: With your free hand, grab opponent's wrist or forearm of the trapped arm. This creates a two-point control system that prevents them from extracting their arm. Your grip should be firm but allow you to feel when they begin experiencing discomfort, enabling immediate release if needed. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Adjust Hip Position for Angle**: Shift your hips away from the trapped arm side, creating an angle that increases the leverage on their shoulder. Your body should form approximately 45-90 degrees relative to your opponent's centerline. This angle is critical for generating rotational force on the shoulder joint rather than simply pulling. (Timing: 2-3 seconds to find optimal angle) [Pressure: Light]
@@ -259,7 +259,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Grabbing their own gi or belt (defensive grip)** (Effectiveness: Medium) - Your Adjustment: Break their defensive grip by increasing hip angle and using your wrist control to prevent them from maintaining the grip. Alternatively, attack their opposite arm or transition to different submission.
 - **Attempting to roll toward the trapped arm to relieve pressure** (Effectiveness: Low) - Your Adjustment: Use your leg hooks to prevent the roll. If they commit to the roll, you can follow through and often end up in a more dominant position such as mount or back control while maintaining the overhook.
 - **Posturing up aggressively to create space** (Effectiveness: Medium) - Your Adjustment: Your leg control should prevent effective posturing. If they begin to posture, immediately adjust your top leg to their neck or shoulder, pulling them back down while maintaining overhook control.
@@ -269,28 +269,28 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying sudden jerking or spiking motion to finish the submission [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying sudden jerking or spiking motion to finish the submission [CRITICAL DANGER]
   - **Consequence**: Immediate shoulder dislocation or rotator cuff tear with no opportunity for training partner to tap safely
   - **Correction**: Always apply progressive pressure over 5-7 seconds minimum. Think of slowly turning a dial, not flipping a switch. Your training partner's safety is more important than getting the tap.
-- **Error**: Insufficient overhook depth, allowing opponent's elbow to escape across their body
+- **Mistake**: Insufficient overhook depth, allowing opponent's elbow to escape across their body
   - **Consequence**: Complete loss of submission control and potential counter-attack opportunity for opponent
   - **Correction**: Feed your overhook arm deeply under their arm until your grip reaches their upper back or opposite shoulder. Their elbow should be trapped near your centerline with no space to extract.
-- **Error**: Using arm strength instead of hip and core rotation to generate force [High DANGER]
+- **Mistake**: Using arm strength instead of hip and core rotation to generate force [High DANGER]
   - **Consequence**: Ineffective submission that tires your arms while failing to create proper shoulder torque, and increased injury risk from improper mechanics
   - **Correction**: Focus on hip movement and body rotation. Your arms should maintain position while your core and hips create the rotational force. Think of your overhook as a seatbelt holding their arm in place while your body does the work.
-- **Error**: Poor hip angle that creates pulling force rather than rotational torque
+- **Mistake**: Poor hip angle that creates pulling force rather than rotational torque
   - **Consequence**: Submission fails to engage shoulder joint properly and may strain your own back and shoulders
   - **Correction**: Establish 45-90 degree angle with your hips relative to opponent's centerline. The angle creates the lever system necessary for rotation. Adjust angle until you feel rotational force on their shoulder, not pulling.
-- **Error**: Neglecting leg control, allowing opponent to posture or base
+- **Mistake**: Neglecting leg control, allowing opponent to posture or base
   - **Consequence**: Opponent escapes the position entirely or reverses to top position while you maintain useless overhook
   - **Correction**: Active leg engagement is critical. Bottom leg hooks far hip or leg, top leg controls near shoulder or neck. Your legs must prevent posture and base throughout the entire submission sequence.
-- **Error**: Failing to monitor for tap signals or partner distress [CRITICAL DANGER]
+- **Mistake**: Failing to monitor for tap signals or partner distress [CRITICAL DANGER]
   - **Consequence**: Training partner suffers serious shoulder injury that could have been prevented
   - **Correction**: Maintain visual and auditory awareness of your partner throughout the submission. Watch their face for signs of distress, listen for verbal taps or unusual sounds from the shoulder, and keep tap access clear. When in doubt, release immediately.
-- **Error**: Practicing finish mechanics on inexperienced training partners [High DANGER]
+- **Mistake**: Practicing finish mechanics on inexperienced training partners [High DANGER]
   - **Consequence**: Partner lacks awareness to recognize danger in time to tap, resulting in injury
   - **Correction**: Only practice finishing mechanics with advanced training partners who understand shoulder submissions. With less experienced partners, practice only the position and control, stopping well before applying any pressure to the shoulder.
 
@@ -299,7 +299,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Entry from Closed Guard Overhook**: When opponent postures in closed guard with one arm forward, establish deep overhook control and transition to Williams Guard by opening your guard and repositioning your legs for the submission setup. This variation is more common in gi due to the grip fighting dynamics. (When to use: When opponent drives single arm deep into closed guard attempting to open or control, creating overhook opportunity)
 
 **Reverse Williams Shoulder Lock**: Instead of external rotation, this variation applies internal rotation pressure by adjusting hip angle and rotating in the opposite direction. This attacks different aspects of the shoulder capsule and can catch opponents who defend traditional external rotation shoulder locks. (When to use: When opponent successfully defends external rotation by grabbing their gi or belt, switch to internal rotation to attack from different angle)
@@ -339,7 +339,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding and Position Familiarization** (Week 1-2)
 - Focus: Study shoulder anatomy, understand injury mechanisms, practice Williams Guard position without any submission pressure. Learn overhook control and hip positioning fundamentals. Partner provides zero resistance.
 - Resistance: None
@@ -376,7 +376,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Williams Guard]]
 - [[Closed Guard]]
@@ -392,7 +392,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Kimura]]
 - [[Kimura from Guard]]
@@ -431,7 +431,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Williams Shoulder Lock represents a sophisticated application of rotational mechanics to one of the body's most complex joints. The shoulder's ball-and-socket structure, while providing tremendous range of motion, creates multiple planes of vulnerability that can be exploited with proper leverage. The key to this submission's effectiveness lies in understanding that you are not pulling the arm but rather rotating it against a fixed fulcrum created by your body position. The overhook serves as the control mechanism, but the actual submission force comes from hip angle and core rotation - your arms merely maintain position while your body generates the torque. From a safety perspective, practitioners must appreciate that the shoulder has four primary stabilizing muscles in the rotator cuff, along with the labrum and capsule, all of which can be damaged simultaneously with improper application. This is why progressive pressure over 5-7 seconds minimum is not merely a suggestion but an absolute requirement. The submission should feel like slowly increasing tension on a spring, not snapping a branch. In training, I emphasize that achieving the position is more valuable than finishing the submission - your goal should be to develop such precise control that your partner taps to the threat rather than the pain. This builds the sensitivity required to apply shoulder locks safely in competition while preserving your training partners' health for long careers in the sport.
 - **Gordon Ryan**: In competition, the Williams Shoulder Lock is a high-percentage finish when you have the position locked in, but getting to that position against elite opposition requires excellent guard retention and overhook fighting skills. I've found that the submission works best when combined with other threats - if your opponent is defending an omoplata or triangle, they often expose their arm for the Williams lock without realizing it. The key competitive detail that most people miss is that you need to attack their base and posture simultaneously with your legs while setting up the shoulder lock. If they can establish a strong base, they'll extract their arm before you can finish. I always emphasize the difference between training application and competition application - in training, you apply this submission at maybe 40-50% intensity maximum and hold position to get the tap. In competition, you can go to 70-80%, but even then, I'm looking for the tap within 2-3 seconds of full pressure. If it's not there quickly, the arm is coming out and I'm transitioning to back takes or sweeps. The shoulder is too dangerous to crank on for extended periods even in competition. One critical competitive detail: use your free hand to strip their defensive grips before applying rotational pressure. Many opponents will grab their belt or gi to defend, and if you crank through that defensive structure, you risk injuring them unnecessarily. Strip the grip, then apply the pressure. Against no-gi opponents, this submission becomes even higher percentage because they lack the gi grips to defend, but you must be even more careful with application speed since there are no friction points to slow down the rotation.
 - **Eddie Bravo**: The Williams Shoulder Lock fits perfectly into the 10th Planet philosophy of using unconventional positions to create submission opportunities that opponents don't see coming. While we don't call it 'Williams Guard' in our system, the overhook control and shoulder attack mechanics appear in several of our positions, particularly when transitioning from Rubber Guard variations. The beauty of this submission is that it attacks from a guard position where most people are only thinking about sweeps or back takes - the shoulder lock catches them completely off guard. From a creativity standpoint, I love how this submission can be combined with our Invisible Collar and Meathook positions, where you already have deep overhook control and just need to adjust hip angle to finish. The innovation opportunity here is in the entry - most people hit this from static Williams Guard, but I teach my students to enter it during transitions, particularly when opponents are trying to pass or posture. The movement creates the angle naturally, and they're so focused on the pass that they don't feel the shoulder attack coming until it's locked on. However, I cannot emphasize enough how careful you must be with this one. Shoulder injuries are career-enders, and in our gym culture, we treat shoulder locks with even more respect than leg locks. We have a rule: white and blue belts don't practice the finish at all, purple belts practice only with black belts, and everyone applies it at slow-motion speed in training. The tap should come from position control and the threat, never from pain. We also incorporate a lot of shoulder mobility work and prehab exercises into our warm-ups specifically because we work these positions, ensuring our athletes' shoulders can handle the stress and making them more aware of their shoulder positioning. Innovation means nothing if your training partners are injured - safety enables creativity by keeping everyone healthy enough to experiment.

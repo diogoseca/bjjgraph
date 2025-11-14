@@ -8,7 +8,7 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
 
 
 
-> **Quick Answer**: Morote Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Morote Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain bilateral sleeve or wrist control throughout the entire throwing motion
 - Break opponent's posture forward with strong pulling action before entry
 - Rotate hips deeply under opponent's center of gravity during entry
@@ -186,7 +186,7 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish strong bilateral grips on opponent's sleeves or wrists
 - Create forward momentum or reaction through push-pull grip fighting
 - Opponent's weight shifted slightly forward or on their heels
@@ -200,7 +200,7 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish sleeve grips**: Secure firm grips on both of opponent's sleeves at the wrists or mid-forearm. Your grip should be strong enough to control their arms but flexible enough to allow pulling motion. Keep your elbows slightly bent and ready to pull. (Timing: During initial grip fighting exchange)
 2. **Break opponent's balance forward**: Execute a strong forward pull with both hands while stepping your lead foot forward. This kuzushi action should break opponent's posture forward and shift their weight onto their toes. Feel for the moment when they resist by pulling back or pushing forward. (Timing: Immediately before entry, exploit their reaction)
 3. **Step in with lead leg**: Step your lead foot (same side as your direction of rotation) deep across and in front of opponent's lead foot. This foot should be placed slightly inside their stance, pointing perpendicular to their centerline. Keep your weight on this foot momentarily. (Timing: As opponent's weight shifts forward)
@@ -214,7 +214,7 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Sprawl and whizzer defense** (Effectiveness: Medium) - Your Response: If opponent sprawls early, immediately switch to single leg attack or snap down to front headlock. If they establish whizzer, continue rotation and use their resistance to complete throw in modified direction.
 - **Break grips and create distance** (Effectiveness: High) - Your Response: Prevent grip breaks by keeping elbows close to body and using circular motion rather than straight pulls. If grips are broken, immediately re-establish or transition to alternative takedown like arm drag or ankle pick.
 - **Post and spin to turtle** (Effectiveness: Medium) - Your Response: Maintain strong downward pull on arms throughout throw to prevent posting. If opponent manages to post, follow them to turtle position and immediately attack back control or front headlock position.
@@ -223,25 +223,25 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Releasing grips too early during the throw
+## Common Mistakes
+- **Mistake**: Releasing grips too early during the throw
   - **Consequence**: Opponent can post out, land safely, or reverse position
   - **Correction**: Maintain death grips on both sleeves throughout entire technique until firmly established in top position
-- **Error**: Insufficient hip rotation or loading opponent too high
+- **Mistake**: Insufficient hip rotation or loading opponent too high
   - **Consequence**: Opponent remains on their feet or throw lacks power
   - **Correction**: Drop hips well below opponent's center of gravity and complete full 180-degree rotation before driving upward
-- **Error**: Stepping too far away during entry
+- **Mistake**: Stepping too far away during entry
   - **Consequence**: Cannot properly load opponent onto back
   - **Correction**: Step close enough that your back makes firm contact with opponent's chest during rotation
-- **Error**: Attempting throw without proper kuzushi
+- **Mistake**: Attempting throw without proper kuzushi
   - **Consequence**: Opponent maintains strong base and counters easily
   - **Correction**: Always break opponent's balance forward before entry - wait for reaction or create it through grip fighting
-- **Error**: Hesitating or pausing mid-technique
+- **Mistake**: Hesitating or pausing mid-technique
   - **Consequence**: Gives opponent time to defend or counter
   - **Correction**: Commit fully to explosive, continuous motion from entry through completion - no stopping points
-- **Error**: Landing in poor position after throw
+- **Mistake**: Landing in poor position after throw
   - **Consequence**: Miss opportunity to establish dominant control
   - **Correction**: Follow opponent's body throughout throw and plan transition to side control or mount during execution
 
@@ -250,7 +250,7 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Basic Entry Mechanics** - Footwork and hip rotation without partner resistance
 Practice solo drilling of stepping pattern and hip rotation. Work with cooperative partner to establish correct loading position and body contact. Focus on achieving proper 180-degree rotation and low hip positioning. No throws yet, just entry and load.
 (Resistance: None)
@@ -277,7 +277,7 @@ Attempt technique during live rolling and competition training. Analyze video fo
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Reverse Morote Seoi Nage**: Entry executed by stepping behind opponent's lead leg instead of in front, then rotating in opposite direction. Useful when opponent's stance or grip configuration prevents standard entry. (When to use: When opponent has strong forward posture or when attacking from opposite stance matchup)
 
 **Drop Seoi Nage**: Instead of maintaining standing position during rotation, drop to one or both knees while loading opponent. Generates more leverage and works well against taller opponents. (When to use: Against taller opponents or when seeking maximum power with reduced speed requirement)
@@ -317,7 +317,7 @@ Attempt technique during live rolling and competition training. Analyze video fo
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing Morote Seoi Nage, safety is paramount due to the potential for impact injuries. Both practitioners must understand proper breakfall techniques before live drilling. The person executing the throw must maintain control of both sleeves throughout the technique to prevent the opponent from landing directly on their head or neck. Practice on appropriate mats with sufficient padding. Begin with slow, controlled repetitions and gradually increase speed only after both partners are comfortable. The throwing partner should guide the landing by maintaining grip pressure and not releasing too early. Training partners should communicate clearly about their comfort level with resistance and speed. Avoid attempting this technique against significantly larger opponents until technical proficiency is established, as improper execution can result in back or shoulder injuries for the thrower.
 
@@ -325,7 +325,7 @@ When practicing Morote Seoi Nage, safety is paramount due to the potential for i
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Morote Seoi Nage serves as a critical bridge between standing positions and dominant ground control in Brazilian Jiu-Jitsu. It fits into the broader takedown system as a forward-rotation throw that complements other judo-based techniques like Tai Otoshi and Harai Goshi. When successfully executed, it delivers the opponent to the mat in a position where you can immediately establish side control, mount, or knee-on-belly - all high-value positions in both gi and no-gi competition. The technique is particularly valuable for BJJ practitioners because it maintains grips throughout the throw, preventing scrambles and ensuring positional control from the moment of impact. In terms of strategic positioning, Morote Seoi Nage works best as part of a system that includes grip fighting, arm drags, and alternative throws, creating a dilemma for opponents who must defend multiple threats simultaneously. It also transitions naturally to front headlock attacks if the opponent defends by posting or turtling.
 
@@ -333,7 +333,7 @@ Morote Seoi Nage serves as a critical bridge between standing positions and domi
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Ippon Seoi Nage]] - Alternative - single-arm shoulder throw variation
 - [[Tai Otoshi]] - Combination - body drop throw that chains well with Morote Seoi Nage
@@ -353,7 +353,7 @@ Morote Seoi Nage serves as a critical bridge between standing positions and domi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The Morote Seoi Nage represents one of the most mechanically sound throwing systems available to grapplers because it maintains bilateral control throughout the entire kinetic chain. The fundamental principle at work here is the creation of a rotational lever system where your hips become the fulcrum point. By dropping your center of gravity below your opponent's while maintaining strong pulling tension on both sleeves, you create an irresistible mechanical advantage. The key technical detail that separates successful execution from failure is the depth of hip rotation - your back must make full contact with the opponent's chest at a point where your hips are positioned well below theirs. This is not merely a matter of turning; it requires a committed dropping of your entire base while simultaneously maintaining upward pulling pressure. The timing element is critical - the technique must be initiated at the precise moment when the opponent's balance has been broken forward through proper kuzushi, not before and not after. Students must understand that this is a complete system requiring grip fighting skills, distance management, and explosive athletic execution, not simply a throwing technique practiced in isolation.
 - **Gordon Ryan**: In high-level competition, Morote Seoi Nage is one of the highest percentage judo throws you can develop because it's extremely difficult for opponents to counter once you've committed to the rotation. I've used this technique successfully because it gives you massive control even if the throw doesn't land perfectly - you maintain those sleeve grips the entire time, which means you're never losing position. The biggest advantage over single-arm variations is that your opponent can't easily post out or scramble when you've got both their arms controlled. My approach is to set it up through aggressive grip fighting where I'm constantly breaking their posture forward and creating reactions. When they pull back or push forward into my grips, that's when I explode into the entry. The key for competition success is having absolute confidence in your breakfall control - you need to be willing to commit 100% to the throw because any hesitation telegraphs your intent and allows them to defend. I always chain this with attacks to the legs because opponents who defend well against throws typically drop their level, which sets up perfect single or double leg opportunities. The transition to side control or mount after landing is where you really capitalize - those sleeve grips let you control their entire upper body while you establish your position.
 - **Eddie Bravo**: What I love about Morote Seoi Nage from a 10th Planet perspective is how you can adapt it for no-gi situations and create some really unique setups that catch people completely off guard. Most BJJ guys aren't expecting judo-style throws, especially in no-gi, so when you hit them with a properly executed shoulder throw, they don't know what hit them. The key innovation I teach is using it off the clinch break - when someone's pressuring you with an overhook or collar tie, you can use that forward pressure against them by suddenly rotating under and loading them. Instead of traditional sleeve grips, we use wrist control or overhooks on both arms, which requires faster execution but creates incredible throwing power. I also encourage students to think about the technique as part of a larger system that includes wrestling shots and front headlock attacks - if they defend the throw by sprawling or dropping their weight, you've got immediate entries to all your ground attacks. The electric chair and lockdown positions actually work really well after a failed Morote Seoi Nage attempt where you end up in a scramble situation. The creative element comes in when you start combining this with rubber guard pulls and other unconventional entries - use the threat of the throw to get your opponent thinking about their upper body, then attack their base in completely different ways.

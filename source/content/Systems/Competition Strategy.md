@@ -145,7 +145,7 @@ description: "Master BJJ competition strategy. Framework for tournament preparat
 
 
 
-> **Quick Answer**: Competition Strategy is a advanced difficulty Competition Strategy system. This systematic approach integrates 6 key components into a cohesive fighting framework.
+> Competition Strategy is a advanced difficulty Competition Strategy system. Integrates 6 components.
 
 **System ID**: 
 **System Type**: Competition Strategy
@@ -164,7 +164,7 @@ Competition Strategy represents a comprehensive framework for tournament success
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Position before submission - establish dominant control before hunting finishes to minimize reversal risk
 - Points management - understand scoring hierarchies and optimize positional sequences for maximum point accumulation
 - Time awareness - adjust aggression and risk tolerance based on match clock and current score differential
@@ -178,7 +178,7 @@ Competition Strategy represents a comprehensive framework for tournament success
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Pre-Match Preparation Protocol** (Maximize physical and mental readiness while minimizing pre-competition anxiety and uncertainty)
 Systematic approach to competition readiness including weight management timelines, video analysis of potential opponents, technical drilling focused on high-percentage competition techniques, and mental visualization of match scenarios. This preparation phase establishes the foundation for confident execution under tournament pressure by creating familiarity with competitive environments and reducing unknown variables.
 
@@ -203,7 +203,7 @@ Pattern recognition system for identifying high-percentage finishing opportuniti
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Tournament Selection and Registration**: Choose competitions aligned with current skill level and strategic goals, register in appropriate weight class accounting for cutting capacity, and begin 6-8 week preparation timeline.
 Key points:
 - Select tournaments matching experience level to build confidence through achievable challenges
@@ -386,7 +386,7 @@ Competition strategy development requires three-phase drilling methodology: isol
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: Competition strategy must be understood as systematic decision-making under adversity rather than random technical deployment. The competitor who recognizes that every match represents a series of problems requiring sequential solutions will dramatically outperform the athlete who simply 'does jiu-jitsu' without strategic framework. Your pre-match preparation should identify the 3-4 most likely scenarios you will encounter based on weight class and skill level meta-game, then develop detailed response protocols for each scenario. During the match itself, your mind should operate like a chess player evaluating positions several moves ahead: 'If I attempt this pass and he counters with this sweep, I will immediately respond with this counter-sweep or back take.' This systematic approach transforms competition from chaotic scrambling into coherent problem-solving. The athlete who maintains this analytical mindset under pressure, who recognizes patterns and implements pre-planned solutions rather than improvising desperately, will achieve dramatically superior results. Competition reveals not who has more techniques, but who has better systems for deploying those techniques under stress.
 - **Gordon Ryan**: I've won multiple world championships by treating every match like a puzzle where I already know most of the pieces. Before I step on the mat, I've studied my opponent's footage if available, identified their preferred positions and submissions, and planned exactly how to deny them their game while imposing mine. Most competitors make the mistake of trying to learn everything - you don't need to know every technique, you need to be absolutely elite at a specific strategic pathway and force every match into that pathway. My game is built around establishing dominant position quickly, accumulating points while hunting for submissions, and never giving opponents opportunities to implement their preferred attacks. When I'm up on points, I become incredibly difficult to sweep or submit because I've drilled defensive scenarios thousands of times. The key insight is that competition jiu-jitsu is fundamentally different from training - in competition, you must execute your best techniques while preventing opponents from executing theirs, which requires pre-planned strategic dominance rather than reactive scrambling. If you can't clearly articulate your game plan for the first two minutes of a match, you're not prepared to compete at high levels.
 - **Eddie Bravo**: Competition strategy is where innovation meets reality - you find out real quick what actually works under pressure versus what looks cool in practice. I've always taught my students to develop game plans that create chaos for opponents while maintaining your own structure and composure. The rubber guard system, for example, wasn't designed to be pretty, it was designed to give you offensive control from bottom position when opponents are trying to smash pass. In competition, especially no-gi, you need positions that let you attack submissions while making it nearly impossible for opponents to advance position or escape. The mental game is huge too - I've seen incredibly technical guys crumble under tournament pressure because they never trained their mind to handle adversity. You need to put yourself in bad positions during training, get comfortable with the discomfort of being behind on points or defending submissions, because that mental toughness is what separates champions from everyone else. Also, don't sleep on the importance of conditioning - technical strategy means nothing if you're too gassed to execute in the final minutes. Build your competition game around your personality: if you're aggressive, develop attacking strategies that pressure from the opening second; if you're calculating, develop patient games that capitalize on opponent mistakes.

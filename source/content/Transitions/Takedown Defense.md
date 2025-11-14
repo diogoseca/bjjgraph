@@ -8,7 +8,7 @@ description: "Master takedown defense in BJJ and MMA. Learn sprawl mechanics, gr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master takedown defense in BJJ and MMA. Learn sprawl mechanics, gr
 
 
 
-> **Quick Answer**: Takedown Defense transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
+> Takedown Defense transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whet
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain wide athletic stance with hips back and weight distributed evenly
 - Control distance through grip fighting and hand positioning
 - React immediately to opponent's level change or penetration step
@@ -180,7 +180,7 @@ Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whet
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Strong standing posture with feet shoulder-width apart
 - Hands active and ready to establish grips or frames
 - Hips positioned back with knees slightly bent
@@ -193,7 +193,7 @@ Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whet
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish defensive stance**: Stand with feet shoulder-width apart, knees slightly bent, hips back, and hands at chest level. Keep your weight distributed on the balls of your feet to allow quick movement in any direction. Maintain an upright posture while keeping your center of gravity low enough to sprawl quickly. (Timing: Continuous throughout standing phase)
 2. **Read level change**: Watch for visual cues that signal a takedown attempt: opponent's hips dropping, shoulders dipping forward, eyes looking at your legs, or a sudden penetration step. React the instant you detect these signals, not after the opponent has already closed distance. (Timing: 0.1-0.3 seconds before contact)
 3. **Sprawl explosively**: Shoot your hips back and down while extending your legs behind you. Your hips should land on your opponent's upper back/shoulders while your chest drives forward over their head. Keep your weight heavy on their shoulders to flatten them out and prevent them from driving forward. (Timing: Explosive reaction within 0.2 seconds of level change)
@@ -206,7 +206,7 @@ Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whet
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent switches to single leg or ankle pick during your sprawl** (Effectiveness: High) - Your Response: Immediately hop your trapped leg back while maintaining front headlock control. Use your free leg to step around and establish an angle, then break their grip by elevating their elbow while cross-facing their head.
 - **Opponent runs the pipe by continuing to drive forward despite your sprawl** (Effectiveness: Medium) - Your Response: Circle aggressively to the side while maintaining heavy hip pressure on their shoulders. Use your cross-face to turn their head away from their driving direction, which breaks their structure and forces them to turtle or release.
 - **Opponent secures body lock from standing and lifts** (Effectiveness: High) - Your Response: Immediately widen your base and drop your hips low. Drive your forearm under their chin to create separation, then use hip movement to break their lock. If they lift you, hook their leg with yours or transition to guillotine control.
@@ -215,22 +215,22 @@ Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whet
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Standing too upright with hips directly under shoulders
+## Common Mistakes
+- **Mistake**: Standing too upright with hips directly under shoulders
   - **Consequence**: Easy target for single leg and double leg attacks; insufficient time to react to level changes
   - **Correction**: Keep hips back with slight forward lean from ankles, creating distance between your hips and opponent while maintaining balance
-- **Error**: Sprawling with hips too high or not extending legs fully
+- **Mistake**: Sprawling with hips too high or not extending legs fully
   - **Consequence**: Opponent can continue driving forward, complete the takedown, or elevate your hips for a mat return
   - **Correction**: Drive hips explosively to opponent's shoulders while fully extending legs behind you; chest should be over their head with maximum bodyweight on their upper back
-- **Error**: Failing to control opponent's head after sprawling
+- **Mistake**: Failing to control opponent's head after sprawling
   - **Consequence**: Opponent can look up, regain posture, and continue attacking or scramble to better position
   - **Correction**: Immediately establish front headlock or cross-face position with your forearm under their chin; maintain constant head control throughout the sequence
-- **Error**: Remaining static in sprawl position without circling
+- **Mistake**: Remaining static in sprawl position without circling
   - **Consequence**: Opponent can wait for you to tire, adjust their attack angle, or secure a leg when you try to disengage
   - **Correction**: Continuously circle away from their head control side while maintaining hip pressure; keep moving until you can transition to a dominant position
-- **Error**: Crossing feet or narrowing base during defensive movement
+- **Mistake**: Crossing feet or narrowing base during defensive movement
   - **Consequence**: Loss of balance and base; easy to be swept or taken down with lateral pressure
   - **Correction**: Maintain wide athletic stance at all times; step with lead foot first then follow with rear foot, never crossing your feet during lateral movement
 
@@ -239,7 +239,7 @@ Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whet
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamentals** - Sprawl mechanics and stance
 Practice sprawl motion from static positions without resistance. Focus on explosive hip extension, proper leg positioning, and maintaining balance. Partner stands in takedown position while you practice sprawling onto their shoulders repeatedly. Drill defensive stance and footwork patterns.
 (Resistance: None)
@@ -270,7 +270,7 @@ Train defenses against specific takedown specialists (wrestlers, judoka, sambo).
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Guillotine counter sprawl**: As opponent shoots, sprawl while simultaneously securing a guillotine grip (arm around head with hands locked). Use the sprawl to flatten them while jumping guard or transitioning to a guillotine finish from standing or front headlock. (When to use: When opponent shoots with head too low or exposed; effective against sloppy double leg attempts)
 
 **Whizzer defense to back take**: Against single leg attacks, establish a tight overhook (whizzer) on opponent's attacking arm instead of traditional sprawl. Use the whizzer to elevate their elbow while circling behind to take the back or establish rear standing position. (When to use: Against single leg and high crotch attempts when opponent commits deeply; allows direct transition to back control)
@@ -310,7 +310,7 @@ Train defenses against specific takedown specialists (wrestlers, judoka, sambo).
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Takedown defense requires explosive movements that can strain muscles and joints if not properly conditioned. Always warm up thoroughly before drilling sprawls, focusing on hip mobility, hamstring flexibility, and dynamic stretching. When practicing with partners, communicate clearly about intensity levels and gradually increase resistance over weeks of training. Beginners should master the sprawl motion at slow speed before attempting full-resistance defense to prevent groin strains, hip flexor injuries, and lower back issues. When drilling guillotine counters or front headlock transitions, release immediately if partner taps. Ensure adequate mat space when practicing takedown defense to prevent collisions with walls or other practitioners. Advanced practitioners should wear knee pads when drilling high-volume sprawl repetitions to prevent mat burns and chronic knee irritation.
 
@@ -318,7 +318,7 @@ Takedown defense requires explosive movements that can strain muscles and joints
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Takedown defense is the critical gateway skill that determines whether you begin ground fighting from top or bottom position. In modern BJJ competition, effective takedown defense is equally important as guard passing or submission skills because it prevents opponents from scoring takedown points while creating opportunities for your own attacks. The transition from sprawl to front headlock connects directly to the guillotine submission system, anaconda/darce choke entries, and back take sequences. When training takedown defense, you're simultaneously developing the attributes needed for effective top pressure (hip control, weight distribution, base) and the tactical awareness required for scrambling situations. Advanced practitioners view the standing phase not as separate from ground fighting but as the initial position in their overall strategic system.
 
@@ -326,7 +326,7 @@ Takedown defense is the critical gateway skill that determines whether you begin
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Sprawl]] - Primary defensive technique
 - [[Front Headlock]] - Primary counter-attack position
@@ -349,7 +349,7 @@ Takedown defense is the critical gateway skill that determines whether you begin
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Takedown defense in Brazilian Jiu-Jitsu must be understood as a systematic progression from distance management through grip fighting to reactive defense and finally offensive counter-attack. The fundamental error most practitioners make is treating defense as a purely reactive skill - waiting for the opponent to shoot and then sprawling. This is incorrect. Elite takedown defense begins long before the opponent penetrates - it starts with controlling the distance between you and your opponent, denying them the grips they need to execute their preferred attacks, and maintaining a stance that allows explosive reaction in any direction. The sprawl itself is merely one component of a larger system. When executed properly, the sprawl should simultaneously defend the attack and create an offensive opportunity through front headlock control. Your hips must drive explosively onto your opponent's shoulders with sufficient force to flatten their posture, while your arms immediately establish head control to prevent them from looking up or regaining their base. The direction of your sprawl should angle slightly toward the side where you will establish head control, creating an immediate pathway to guillotine attacks or back exposure. Remember that takedown defense is not about avoiding engagement - it is about controlling the terms of engagement and using your opponent's commitment against them.
 - **Gordon Ryan**: In competition, takedown defense is about points and psychology as much as technique. If you can consistently deny your opponent's takedown attempts, you break their confidence and force them to work harder for every exchange. Here's what actually works at the highest level: first, you have to make them uncomfortable in the standing phase through aggressive grip fighting and forward pressure. Most BJJ guys play too passive standing, waiting to be attacked. Bad strategy. You need to be the one controlling grips, creating angles, and threatening your own attacks. This makes them hesitant and disrupts their timing. When they do shoot, your sprawl needs to be instant and violent - hips back, chest forward, driving all your weight through their shoulders. But here's the key that most people miss: as soon as you sprawl, you need to be attacking. Front headlock, guillotine, back take - pick one and go hard. The best takedown defense isn't just stopping the takedown, it's making your opponent regret trying it by immediately putting them in danger. In my matches, I use takedown defense as a primary offensive weapon. When guys shoot on me, they're not just failing to score points - they're giving me front headlock position which leads directly to my finishing system. Train your takedown defense until it's automatic, then train the transitions from sprawl to submission until those are automatic too.
 - **Eddie Bravo**: Takedown defense in 10th Planet is all about creating chaos and using unconventional positions. Yeah, the basic sprawl works, but we take it further by immediately transitioning to submission threats that most wrestlers aren't used to dealing with. When someone shoots on you, that's actually a gift - they're giving you front headlock position on a silver platter. From there, we're looking for guillotines, darces, anacondas, or we're snapping them down to turtle where we can attack the twister system. The key is being comfortable in those scramble positions and having a systematic approach to capitalizing on them. We drill a lot of sprawl-to-guillotine sequences because in real fighting or MMA, you need to make people pay immediately for shooting. Can't just sprawl and disengage like in pure grappling - you need to hurt them or sweep them or take their back. Another thing we focus on is using the cage or wall in MMA situations. When someone shoots, you can sprawl and then use the cage to trap them in front headlock while you work for submissions or the back. That's a totally different game than sport BJJ, and you need to train it specifically. Bottom line: takedown defense should flow immediately into your offensive system, not be a separate skill. Make it part of your overall game where defending a shot leads directly to your best attacks.

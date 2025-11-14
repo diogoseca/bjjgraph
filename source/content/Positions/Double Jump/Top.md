@@ -8,7 +8,7 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35%.
 
 ---
 
@@ -191,7 +191,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Top practitioner's legs hooked inside bottom opponent's thighs bilaterally, with feet controlling hip positioning and preventing base recovery
 - Top practitioner maintains upper body control through harness grips (seatbelt), crossface, or overhook positioning to prevent opponent's escape to guard
@@ -204,7 +204,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent in defensive turtle position with hands and knees on mat
 - Top practitioner has positional dominance from previous guard pass, scramble, or turtle attack
@@ -232,7 +232,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Turtle to Back Control]] → [[Back Control]]
 
@@ -282,7 +282,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Turtle to Guard]]** → [[Closed Guard]] (Opponent Success: 35%)
 - **[[Turtle to Standing]]** → [[Standing Position]] (Opponent Success: 25%)
@@ -294,7 +294,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Crab Ride to Back]]** → [[Crab Ride]]
   - Opponent attempts to sit to butterfly guard or turn into you
@@ -339,7 +339,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

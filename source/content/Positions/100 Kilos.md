@@ -13,10 +13,6 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 
 
 
-> **Quick Overview**: 100 Kilos (Cem Quilos in Portuguese) represents one of the most psychologically and physically devastating pressure positions in Brazilian Jiu-Jitsu, named for the sensation of bearing the crushing we...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -52,31 +48,19 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | High |
-| Time Sustainability | Short | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | High |
+| **Time** | Short | Short to Medium |
 
-**What Makes This Position Unique:** Shoulder pressure trades control for submission
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[100 Kilos/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[100 Kilos/Top|Top Perspective]]** - Submissions and positional attacks
+**What Makes This Unique:** Shoulder pressure trades control for submission
 
 
 
@@ -84,10 +68,13 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 
 <section id="bottom-summary" class="content-section">
 
-## 100 Kilos Bottom Perspective
+
+## Playing as Bottom
+
+[[100 Kilos/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in 100 kilos must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -133,7 +120,7 @@ The bottom player in 100 kilos must focus on creating frames, protecting against
   - Success Rate: Beginner 8%, Intermediate 18%, Advanced 32%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Pushing directly into opponent's shoulder pressure with arms fully extended**
@@ -157,16 +144,17 @@ The bottom player in 100 kilos must focus on creating frames, protecting against
   - ✅ Correction: Keep chin tucked and head turned slightly away from pressure while maintaining peripheral awareness
 
 
-👉 **[[100 Kilos/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## 100 Kilos Top Perspective
+
+## Playing as Top
+
+[[100 Kilos/Top|→ Full Top Guide]]
 
 
-The top player in 100 kilos enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 ### Key Principles
@@ -212,7 +200,7 @@ The top player in 100 kilos enjoys offensive advantages with access to submissio
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Using muscular tension to apply pressure rather than relaxing and using body weight**
@@ -235,8 +223,6 @@ The top player in 100 kilos enjoys offensive advantages with access to submissio
   - Consequence: Wastes the fatigue you create because you don't capitalize on their weakened state
   - ✅ Correction: Before establishing 100 kilos, identify your primary transition targets based on opponent's typical responses
 
-
-👉 **[[100 Kilos/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

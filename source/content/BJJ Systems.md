@@ -444,7 +444,7 @@ Master BJJ through systematic approaches. Complete guide to guard systems, passi
 - **Total Systems**: 47
 - **Items with complete content**: 47
 - **Items needing JSON updates**: 0
-- **Last Updated**: November 12, 2025
+- **Last Updated**: November 14, 2025
 
 ---
 

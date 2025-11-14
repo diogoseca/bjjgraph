@@ -13,10 +13,6 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 
 
 
-> **Quick Overview**: **Lasso Guard** is a sophisticated open guard variation that combines elements of spider guard control with a unique leg threading mechanism. The position is characterized by threading your shin acros...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -58,7 +54,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
@@ -66,30 +62,8 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Lasso Guard]] | Medium | Medium | Medium | Medium | Sleeve extension trades mobility for sweeps |
-
 | [[Inverted Lasso Guard]] | Medium to High | Medium to High | High | Medium | Inverted posture creates superior sweep angles |
-
 | [[Russian Leg Lasso]] | Medium | Medium | Medium | Medium | Deep lasso with extra grip controls |
-
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Lasso Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
-- **[[Lasso Guard/Top|Top Perspective]]** - Techniques and strategies
-
-
-### By Variation
-
-- **[[Inverted Lasso Guard]]** - Lasso control with inverted position for dynamic sweeps and berimbolo entries
-
-- **[[Russian Leg Lasso]]** - Threading both legs through opponent's arms creating double lasso control
 
 
 
@@ -97,10 +71,13 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 <section id="bottom-summary" class="content-section">
 
-## Lasso Guard Bottom Perspective
+
+## Playing as Bottom
+
+[[Lasso Guard/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in lasso guard controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+You control the position. Attack with sweeps and submissions while shutting down passes.
 
 
 ### Key Principles
@@ -147,7 +124,7 @@ The bottom player in lasso guard controls the position with offensive attacks in
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing the lasso leg to bend or collapse, reducing the leverage and control over the opponent's arm**
@@ -175,16 +152,17 @@ The bottom player in lasso guard controls the position with offensive attacks in
   - ✅ Correction: Constantly threaten sweeps and submissions to force defensive reactions that create additional opportunities and prevent patient passing
 
 
-👉 **[[Lasso Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Lasso Guard Top Perspective
+
+## Playing as Top
+
+[[Lasso Guard/Top|→ Full Top Guide]]
 
 
-The top player in lasso guard manages the position strategically based on opponent's defensive reactions.
+Adapt to their defense.
 
 
 ### Key Principles
@@ -231,7 +209,7 @@ The top player in lasso guard manages the position strategically based on oppone
   - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Attempting aggressive passing immediately without addressing the lasso control first**
@@ -259,8 +237,6 @@ The top player in lasso guard manages the position strategically based on oppone
   - ✅ Correction: Use technical solutions like specific grip breaks, angle changes, and pressure application rather than relying on strength alone
 
 
-👉 **[[Lasso Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
-
 </section>
 
 
@@ -273,14 +249,14 @@ The top player in lasso guard manages the position strategically based on oppone
 
 Lasso control with inverted position for dynamic sweeps and berimbolo entries
 
-[Explore Inverted Lasso Guard →](lasso-guard/inverted-lasso-guard)
+[Explore Inverted Lasso Guard →](./Inverted Lasso Guard)
 
 
 ### [[Russian Leg Lasso]]
 
 Threading both legs through opponent's arms creating double lasso control
 
-[Explore Russian Leg Lasso →](lasso-guard/russian-leg-lasso)
+[Explore Russian Leg Lasso →](./Russian Leg Lasso)
 
 
 

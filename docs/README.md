@@ -132,7 +132,7 @@ docs/
 - Added execution steps to 14 submissions
 - Added visual descriptions to 37 positions
 - Enhanced visual sequences in 47 submissions
-- All 50 submissions have Common Errors sections
+- All 50 submissions have Common Mistakes sections
 
 **Link Optimizer** (Sessions 1-4, October 13-14, 2025)
 - Fixed 124 broken wikilinks across 26 files

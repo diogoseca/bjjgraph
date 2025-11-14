@@ -8,7 +8,7 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 75% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 75%.
 
 ---
 
@@ -189,7 +189,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Choking arm wrapped around opponent's neck with forearm or bicep crossing the front of the throat, head trapped between arm and body
 - Hands clasped together in a secure grip configuration (palm-to-palm, gable grip, or arm-in variation) creating a closed loop around the neck
@@ -202,7 +202,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Successful guillotine grip established from guard pull, sprawl, turtle attack, or scramble situation
 - Control of opponent's head with ability to break their posture forward
@@ -230,7 +230,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Guillotine Choke]] → [[Won by Submission]]
 
@@ -294,7 +294,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Guillotine Defense]]** → [[Closed Guard]] (Opponent Success: 40%)
 - **[[Guillotine Defense]]** → [[Half Guard]] (Opponent Success: 35%)
@@ -307,7 +307,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Transition to Mount]]** → [[Mount]]
   - Opponent attempts to create space by pushing with hands on hips
@@ -356,7 +356,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

@@ -8,7 +8,7 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 75% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 75% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -193,7 +191,7 @@ Strategically, the position forces top players into impossible choices—they mu
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Practitioner maintains Kimura grip on opponent's arm with figure-four configuration (practitioner's outside hand grips their own wrist after threading under opponent's arm), ensuring deep grip placement near opponent's elbow for maximum control and leverage while preventing grip breaks through constant inward pressure and elbow positioning that protects the lock structure
 - Practitioner's body positioned on bottom with shoulders on or near mat, using hips and legs to create connection with opponent through half guard lockdown, butterfly hooks, or other retention mechanisms that prevent opponent from settling weight and establishing stable top control while maintaining mobility for sweeping and transitional movements
@@ -205,7 +203,7 @@ Strategically, the position forces top players into impossible choices—they mu
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Opponent commits arm forward or across body in half guard, side control, or turtle position, creating opportunity to thread arm under and establish Kimura grip
 - Practitioner able to secure deep Kimura grip with proper hand positioning (own wrist grip) before opponent recognizes threat and withdraws arm
@@ -232,7 +230,7 @@ Strategically, the position forces top players into impossible choices—they mu
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Old School Sweep]] → [[Mount]]
 
@@ -296,7 +294,7 @@ Strategically, the position forces top players into impossible choices—they mu
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Kimura Defense]]** → [[Half Guard]] (Opponent Success: 55%)
 - **[[Base Widening]]** → [[Side Control]] (Opponent Success: 45%)
@@ -309,7 +307,7 @@ Strategically, the position forces top players into impossible choices—they mu
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Rolling Kimura Escape]]** → [[Mount]]
   - Opponent attempts to pull arm free by driving forward or posting, creating forward momentum
@@ -351,7 +349,7 @@ Strategically, the position forces top players into impossible choices—they mu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

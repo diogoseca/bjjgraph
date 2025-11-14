@@ -8,7 +8,7 @@ description: "Learn Omoplata to Back transition in BJJ. Step-by-step execution f
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Learn Omoplata to Back transition in BJJ. Step-by-step execution f
 
 
 
-> **Quick Answer**: Omoplata to Back transitions from [[Omoplata Control]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Omoplata to Back transitions from [[Omoplata Control]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -178,7 +178,7 @@ The Omoplata to Back transition represents one of the most sophisticated and hig
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain tight connection to opponent's shoulder throughout the roll
 - Time the transition to match opponent's forward roll momentum
 - Establish first hook immediately as opponent's hips pass
@@ -192,7 +192,7 @@ The Omoplata to Back transition represents one of the most sophisticated and hig
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Established omoplata position with opponent's arm isolated and extended
 - Opponent beginning to roll forward to escape the shoulder lock
 - Your outside leg maintaining pressure on opponent's shoulder
@@ -205,7 +205,7 @@ The Omoplata to Back transition represents one of the most sophisticated and hig
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Recognize the roll**: As opponent attempts to escape the omoplata by rolling forward over their trapped shoulder, identify this defensive movement early. Your opponent will begin tucking their head and driving their weight forward in a forward roll motion. This is your trigger to begin the transition rather than insisting on the shoulder lock finish. (Timing: Immediate recognition as opponent initiates forward movement)
 2. **Maintain shoulder connection**: As opponent begins rolling, keep your outside leg (the leg over their shoulder) tightly connected to their shoulder girdle. Your hip should remain glued to the back of their shoulder as they roll. This connection is critical - if you lose it, the transition will fail. Use your leg to ride their shoulder through the rolling motion. (Timing: Throughout the opponent's roll)
 3. **Follow the roll dynamically**: Allow your body to follow the momentum of opponent's forward roll while maintaining the shoulder connection. Your torso will naturally rotate as they roll forward. Keep your weight committed to staying with them rather than trying to hold your original position. Your body should flow with their movement like you're attached to their shoulder. (Timing: Continuous movement with opponent)
@@ -220,7 +220,7 @@ The Omoplata to Back transition represents one of the most sophisticated and hig
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent rolls explosively and creates separation during the roll** (Effectiveness: Medium) - Your Response: Anticipate the explosive roll by pre-emptively tightening your shoulder connection. If separation occurs, immediately pursue with a technical stand-up and back take from standing, or transition to turtle top position for alternative attacks.
 - **Opponent turns into you immediately after rolling to prevent back exposure** (Effectiveness: High) - Your Response: As they attempt to turn, use your seatbelt control to redirect them back to their side or stomach. If they successfully turn toward you, transition to closed guard with an overhook or work for a triangle setup from the advantageous position.
 - **Opponent refuses to roll forward and instead postures up aggressively to escape omoplata** (Effectiveness: Low) - Your Response: If they don't roll forward, you still maintain the omoplata position. Sit up to finish the shoulder lock, sweep them to the opposite side, or transition to a triangle or armbar. The back take specifically requires their forward roll, but you maintain offensive advantage regardless.
@@ -229,25 +229,25 @@ The Omoplata to Back transition represents one of the most sophisticated and hig
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Losing shoulder connection during opponent's forward roll
+## Common Mistakes
+- **Mistake**: Losing shoulder connection during opponent's forward roll
   - **Consequence**: Complete loss of control and position, allowing opponent to escape to neutral or even achieve top position
   - **Correction**: Keep your outside leg actively pressuring their shoulder throughout the entire roll. Your hip should stay glued to their shoulder - think of riding their shoulder rather than trying to hold your original spot. Practice the rolling motion slowly with a cooperative partner first.
-- **Error**: Attempting to hold the omoplata finish rather than following the roll
+- **Mistake**: Attempting to hold the omoplata finish rather than following the roll
   - **Consequence**: Opponent escapes the submission and you miss the opportunity for the back take transition
   - **Correction**: Recognize that once opponent commits to the forward roll, the omoplata finish is no longer the highest percentage option. Immediately switch your mindset from submission to position, prioritizing the back take over insisting on the shoulder lock.
-- **Error**: Waiting too long to establish first hook
+- **Mistake**: Waiting too long to establish first hook
   - **Consequence**: Opponent completes their roll and faces you, preventing back exposure and negating the transition
   - **Correction**: Begin threading your inside leg for the hook the moment their hips pass the midpoint of the roll. The timing should be proactive rather than reactive - anticipate where their hips will be and start inserting the hook early.
-- **Error**: Failing to secure seatbelt grip quickly enough
+- **Mistake**: Failing to secure seatbelt grip quickly enough
   - **Consequence**: Opponent can hand fight, turn into you, or escape before back control is established
   - **Correction**: The seatbelt should be secured simultaneously with or even before the first hook. Make this grip your priority - position can be adjusted afterward, but without the seatbelt, opponent has too much freedom to escape.
-- **Error**: Creating space between your chest and opponent's back
+- **Mistake**: Creating space between your chest and opponent's back
   - **Consequence**: Opponent can shrimp, turn, or otherwise escape the back control position
   - **Correction**: Imagine your chest is glued to their back throughout the entire transition and final position. There should be zero daylight between you. If space appears, immediately drive your chest forward to close the gap while maintaining hook and grip control.
-- **Error**: Crossing ankles while establishing hooks in back control
+- **Mistake**: Crossing ankles while establishing hooks in back control
   - **Consequence**: Opens you up to ankle lock submissions and weakens hip control
   - **Correction**: Keep your feet separate with heels pulling toward opponent's centerline but never crossing your ankles. Your insteps should hook behind their thighs with active pulling pressure, creating a strong grapevining effect without the vulnerability of crossed ankles.
 
@@ -256,7 +256,7 @@ The Omoplata to Back transition represents one of the most sophisticated and hig
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Movement Familiarization (Weeks 1-2)** - Understanding the rolling motion and maintaining connection
 Practice the forward roll motion slowly with a fully cooperative partner who rolls at 50% speed. Focus exclusively on maintaining shoulder connection throughout the roll without worrying about hooks or grips. Drill just following the roll 20-30 repetitions per session until the movement pattern feels natural.
 (Resistance: None)
@@ -287,7 +287,7 @@ Use the technique during regular sparring sessions whenever the opportunity pres
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Body Triangle Variation**: Instead of inserting a second hook, establish a body triangle by locking your ankle behind your opposite knee across opponent's torso. This provides extremely strong hip control and is useful when opponent is defending hook insertion effectively. (When to use: When opponent is hand fighting your second hook or has strong leg defense. Also excellent for smaller practitioners facing larger opponents who need maximum leverage.)
 
 **Rolling Back Take from Broken Omoplata**: If you lose the tight omoplata position before they roll but still maintain some shoulder connection, you can pursue the back take by doing your own forward roll alongside their roll, using momentum to establish back position. Requires more dynamic movement and athleticism. (When to use: When the initial omoplata control is compromised but opponent still commits to the forward roll escape. Particularly effective for mobile, athletic practitioners.)
@@ -327,7 +327,7 @@ Use the technique during regular sparring sessions whenever the opportunity pres
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The omoplata to back transition is generally a safe technique to practice, but several considerations should be observed. When drilling, the partner rolling forward should control their speed to allow the practitioner to develop timing and connection - explosive rolling can lead to neck strain for the person rolling or loss of balance for the practitioner. Ensure adequate mat space for the rolling motion to prevent rolling into walls or other practitioners. When establishing hooks during live training, avoid slamming your heels into opponent's thighs with excessive force, as this can cause bruising. If practicing the body triangle variation, apply pressure gradually rather than explosively to avoid rib injuries. For the person being omoplata'd, tap early if you feel shoulder discomfort rather than forcing the roll - the goal in training is developing the transition, not testing pain tolerance. As always, communicate with your training partner and adjust intensity as needed based on experience levels.
 
@@ -335,7 +335,7 @@ The omoplata to back transition is generally a safe technique to practice, but s
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The omoplata to back transition is a crucial component of modern bottom guard systems, particularly for practitioners who emphasize triangular control positions from closed guard, open guard, or spider guard. This technique exemplifies the principle of chaining attacks together - the omoplata threat forces the defensive roll, which creates the back take opportunity. Within the broader BJJ positional hierarchy, this transition represents converting a submission attempt into arguably the most dominant control position in grappling. The technique integrates seamlessly with closed guard attack systems, as the omoplata itself is often set up from triangle attempts or failed armbars from closed guard. It also connects to the rubber guard system in 10th Planet methodology, where omoplatas are frequently pursued. Once back control is established, practitioners can pursue high-percentage finishes like the rear naked choke or transition to other dominant positions like the crucifix or truck. The omoplata to back transition also serves as an excellent example of positional flow in BJJ - rather than forcing a single attack, skilled practitioners read their opponent's defensive reactions and seamlessly adjust to maintain offensive advantage. This technique is particularly relevant for competitors, as it demonstrates the ability to score both submission attempt points and position advancement points within a single sequence.
 
@@ -343,7 +343,7 @@ The omoplata to back transition is a crucial component of modern bottom guard sy
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Omoplata]] - Primary setup submission - the technique this transition begins from
 - [[Omoplata Sweep]] - Alternative follow-up if opponent doesn't roll forward to escape
@@ -361,7 +361,7 @@ The omoplata to back transition is a crucial component of modern bottom guard sy
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The omoplata to back transition represents a perfect example of mechanical efficiency in positional grappling. When your opponent executes the forward roll to escape the shoulder lock, they are essentially doing the difficult work of the transition for you - your job is simply to maintain connection and follow their momentum. The critical mechanical principle here is maintaining what I call 'adhesive contact' with the shoulder throughout the rolling motion. Your hip must stay glued to their shoulder girdle as if connected by an invisible force. This connection point becomes your reference frame through the dynamic movement. Most practitioners fail this technique not due to complex technical deficiency, but rather from the simple error of allowing separation during the roll. The biomechanics of the position dictate that once proper shoulder connection is maintained, the hooks will naturally fall into place as their body completes the rotation. Focus your training attention on this singular point of connection - master this, and the remainder of the technique becomes a natural consequence of maintaining structural integrity through dynamic movement.
 - **Gordon Ryan**: In competition, the omoplata to back is one of my highest percentage transitions because it catches opponents in a trap of their own making. When I threaten the omoplata from guard, particularly from closed guard or spider guard positions, my opponent has two bad choices: stay and get submitted, or roll and give up their back. This is textbook dilemma creation. The key competitive detail most people miss is that you need to sell the omoplata finish convincingly for the opponent to commit to the roll. If I'm lazy with my initial omoplata setup, smart opponents won't roll - they'll stack or posture instead. But when I really drive my hips into their shoulder and make them feel the submission coming, they panic into the forward roll almost every time. Once they roll, the back take is nearly automatic if you've drilled the timing properly. In my experience, the biggest difference between success and failure at the highest levels is the speed of your seatbelt establishment. Elite opponents will attempt to turn into you immediately after rolling, so you have maybe a one-second window to lock that grip. Train this transition until securing the seatbelt becomes pure reflex the moment you feel their hips passing. That's what separates hobbyists from competitors who actually score with this move.
 - **Eddie Bravo**: The omoplata to back is a fundamental transition in the 10th Planet system, and we approach it slightly differently than traditional schools. First, we emphasize using the omoplata not just as a submission but as a position unto itself - what we call 'omoplata control.' From this control position, we're constantly threatening the shoulder lock, but we're equally ready to roll into truck position, take the back, or hit the sweep depending on how they defend. When they roll forward, instead of just following blindly, we teach maintaining that shoulder connection while being aware of the opportunity for variations. If you can't get both hooks in immediately, lock up a body triangle or establish the truck position with a lockdown - both are viable paths that maintain offensive dominance. Another 10th Planet detail: we often use this transition as part of a larger rubber guard attack sequence. The omoplata to back becomes particularly effective when you've already frustrated your opponent with multiple rubber guard attack attempts. They're tired, they're desperate, and when the omoplata comes they'll roll without thinking, practically handing you their back. The beauty is in the system - each technique sets up the next, creating a web of attacks where every defensive option leads to another offensive opportunity. That's how you break people's will in competition.

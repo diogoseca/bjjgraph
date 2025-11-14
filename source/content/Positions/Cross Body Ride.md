@@ -13,10 +13,6 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 
 
 
-> **Quick Overview**: Cross Body Ride is an advanced controlling position from turtle where the top practitioner establishes perpendicular chest-to-back contact with the opponent while securing a harness grip (seatbelt con...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -56,31 +52,19 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive | Offensive/Controlling |
-| Risk Level | High | Low to Medium |
-| Energy Cost | High | Medium |
-| Time Sustainability | Short | Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Medium |
+| **Time** | Short | Medium |
 
-**What Makes This Position Unique:** Perpendicular pressure isolates limbs
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Cross Body Ride/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
-- **[[Cross Body Ride/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Perpendicular pressure isolates limbs
 
 
 
@@ -88,10 +72,13 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 
 <section id="bottom-summary" class="content-section">
 
-## Cross Body Ride Bottom Perspective
+
+## Playing as Bottom
+
+[[Cross Body Ride/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in cross body ride must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+You're defending. Create frames, survive the pressure, escape to guard.
 
 
 ### Key Principles
@@ -134,7 +121,7 @@ The bottom player in cross body ride must focus on creating frames, protecting a
   - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Remaining static in turtle position without active defensive movement**
@@ -162,16 +149,17 @@ The bottom player in cross body ride must focus on creating frames, protecting a
   - ✅ Correction: Actively fight grips by adjusting posture, using hand fighting, and moving before opponent can consolidate control points
 
 
-👉 **[[Cross Body Ride/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Cross Body Ride Top Perspective
+
+## Playing as Top
+
+[[Cross Body Ride/Top|→ Full Top Guide]]
 
 
-The top player in cross body ride balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -220,7 +208,7 @@ The top player in cross body ride balances control maintenance with submission a
   - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Staying too static and allowing opponent to build defensive structure**
@@ -247,8 +235,6 @@ The top player in cross body ride balances control maintenance with submission a
   - Consequence: Opponent escapes to opposite side or reverses position using top player's committed weight
   - ✅ Correction: Stay mobile and ready to switch sides, following opponent's movement rather than forcing predetermined sequences
 
-
-👉 **[[Cross Body Ride/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

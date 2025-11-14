@@ -13,10 +13,6 @@ description: "Master Leg Hook position in BJJ. Transitional half guard control u
 
 
 
-> **Quick Overview**: The Leg Hook Position is a transitional control position characterized by active leg hooking mechanics that bridge various half guard variations and advanced leg entanglement systems. This position se...
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -54,31 +50,19 @@ This position requires precise understanding of weight distribution, hip positio
 
 <section id="variant-comparison" class="content-section">
 
-## Position Properties Comparison
+## Top vs Bottom
 
 
 
 
-| Property | Bottom Perspective | Top Perspective |
-|----------|-------------------|-----------------|
-| Position Type | Defensive with offensive options | Offensive/Controlling |
-| Risk Level | Medium | Medium |
-| Energy Cost | Medium | Medium |
-| Time Sustainability | Medium | Short to Medium |
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Short to Medium |
 
-**What Makes This Position Unique:** Dynamic leg control for mobile transitions
-
-
-
-</section>
-
-<section id="navigation" class="content-section">
-
-## Quick Navigation
-
-### By Perspective
-- **[[Leg Hook/Bottom|Bottom Perspective]]** - Techniques and strategies
-- **[[Leg Hook/Top|Top Perspective]]** - Techniques and strategies
+**What Makes This Unique:** Dynamic leg control for mobile transitions
 
 
 
@@ -86,10 +70,13 @@ This position requires precise understanding of weight distribution, hip positio
 
 <section id="bottom-summary" class="content-section">
 
-## Leg Hook Bottom Perspective
+
+## Playing as Bottom
+
+[[Leg Hook/Bottom|→ Full Bottom Guide]]
 
 
-The bottom player in leg hook balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+Balance defense with offense. Frame when they attack, sweep when they over-commit.
 
 
 ### Key Principles
@@ -138,7 +125,7 @@ The bottom player in leg hook balances defensive frames with offensive opportuni
   - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Allowing opponent to establish dominant crossface control without fighting hands**
@@ -166,16 +153,17 @@ The bottom player in leg hook balances defensive frames with offensive opportuni
   - ✅ Correction: Every grip and frame should serve specific purpose: preventing crossface, creating distance, or setting up transitions
 
 
-👉 **[[Leg Hook/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
-
 </section>
 
 <section id="top-summary" class="content-section">
 
-## Leg Hook Top Perspective
+
+## Playing as Top
+
+[[Leg Hook/Top|→ Full Top Guide]]
 
 
-The top player in leg hook balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+Balance control with attacks. Consolidate position or finish—your choice.
 
 
 ### Key Principles
@@ -224,7 +212,7 @@ The top player in leg hook balances control maintenance with submission attacks,
   - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
 
 
-### Common Errors
+### Common Mistakes
 
 
 - ❌ **Maintaining static hook position without advancing the pass or adjusting pressure**
@@ -255,8 +243,6 @@ The top player in leg hook balances control maintenance with submission attacks,
   - Consequence: Position becomes a stalemate with no clear advancement opportunity, wasting the control advantage and allowing bottom player time to develop counters
   - ✅ Correction: Have a clear technical sequence planned before establishing the hook, using it as one step in a multi-part passing chain that leads to position advancement or submission threats
 
-
-👉 **[[Leg Hook/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 

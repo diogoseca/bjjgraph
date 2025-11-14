@@ -8,7 +8,7 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 
 
 
-> **Quick Answer**: Triangle from Spider Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Triangle from Spider Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="safety-considerations" class="content-section">
 
-## Is Triangle from Spider Guard Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -216,7 +216,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Use spider guard feet-on-biceps to break posture and control arm positioning before triangle entry
 - Create proper angle (30-45 degrees off centerline) by pivoting hips during transition
 - Lock triangle with opponent's arm trapped across their own neck (one arm in, one arm out)
@@ -230,7 +230,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Established spider guard with feet on opponent's biceps
 - Broken opponent posture—head pulled down, back rounded
 - Grips on opponent's sleeves or wrists to control arm placement
@@ -244,7 +244,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Break posture and isolate arm**: From spider guard with feet on biceps and sleeve grips, use one foot to push opponent's arm across their centerline while pulling the sleeve grip. Simultaneously kick the other foot into their bicep to break their posture forward. The goal is to get one arm trapped across their neck while maintaining control of the other arm with your foot and grip. (Timing: 1-2 seconds to establish control) [Pressure: Moderate]
 2. **Pivot hips and throw leg over shoulder**: Release the foot from the bicep on the side where you want to throw your leg. Pivot your hips 30-45 degrees away from the trapped arm side, creating an angle. Throw your leg high over the opponent's shoulder and back, with your shin landing across the back of their neck. Keep your other foot controlling the free arm or posted on their hip for base. (Timing: Explosive movement, less than 1 second) [Pressure: Light]
 3. **Lock the triangle**: Bring your other leg up and lock it over the ankle of the leg across their back. Create a figure-four lock by flexing your foot and squeezing your knees together. At this point, one of opponent's arms should be trapped inside the triangle across their own neck, and their head should be controlled. Ensure the lock is behind their head, not on top of it. (Timing: 1-2 seconds to secure the lock) [Pressure: Moderate]
@@ -258,7 +258,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Posturing up aggressively to prevent triangle lock** (Effectiveness: Medium) - Your Adjustment: Use spider guard feet to kick their arms out and break posture back down before they can establish strong base. If already postured, transition to sweep or different attack rather than forcing a weak triangle.
 - **Pulling trapped arm out of triangle space** (Effectiveness: High) - Your Adjustment: Immediately hug their arm across your body with both hands and pull it toward your opposite hip. Lock your legs tighter and adjust angle to prevent them from creating the space needed to extract their arm.
 - **Stacking forward to put weight on your shoulders** (Effectiveness: Medium) - Your Adjustment: Bring your knees to your chest and use your leg strength to pull opponent's posture back down. If stack is successful, transition to omoplata or sweep. Never fight a lost position—better to transition than get passed.
@@ -268,28 +268,28 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Locking triangle without proper angle (straight-on instead of diagonal) [Low DANGER]
+## Common Mistakes
+- **Mistake**: Locking triangle without proper angle (straight-on instead of diagonal) [Low DANGER]
   - **Consequence**: No choking pressure on carotid arteries; opponent easily defends or escapes
   - **Correction**: Always pivot hips 30-45 degrees before locking triangle. Your body should form an 'L' or perpendicular angle to opponent, not be directly in front of them. The angle is what creates the choke.
-- **Error**: Locking triangle on top of head instead of behind neck [Low DANGER]
+- **Mistake**: Locking triangle on top of head instead of behind neck [Low DANGER]
   - **Consequence**: No choking pressure; opponent has easy posture and can stack or pass
   - **Correction**: Ensure your leg crosses the back of opponent's neck at the base of the skull, not over the crown of their head. Your shin should be cutting diagonally across the back of their neck.
-- **Error**: Not controlling the trapped arm [Low DANGER]
+- **Mistake**: Not controlling the trapped arm [Low DANGER]
   - **Consequence**: Opponent creates defensive frame and escapes triangle
   - **Correction**: Immediately after locking triangle, grab the trapped arm and pull it across opponent's body toward your opposite hip. This is not optional—it's a required component of a successful triangle.
-- **Error**: Locking ankles too loose or too far from body [Low DANGER]
+- **Mistake**: Locking ankles too loose or too far from body [Low DANGER]
   - **Consequence**: Opponent creates space and escapes; no finishing pressure
   - **Correction**: Lock your figure-four tight with your ankle in the crook of your other knee, and bring your knees together with maximum squeeze. The tighter the lock, the less space for escape.
-- **Error**: Applying choke too quickly without proper position (competition speed in training) [CRITICAL DANGER]
+- **Mistake**: Applying choke too quickly without proper position (competition speed in training) [CRITICAL DANGER]
   - **Consequence**: Risk of injuring training partner; creates unsafe training environment
   - **Correction**: Always apply progressive pressure over 3-5 seconds minimum in training. Get perfect position first, then slowly increase pressure. Your partner's safety is more important than getting the tap.
-- **Error**: Holding choke after partner taps or goes unconscious [CRITICAL DANGER]
+- **Mistake**: Holding choke after partner taps or goes unconscious [CRITICAL DANGER]
   - **Consequence**: Potential brain damage from prolonged unconsciousness; severe injury risk
   - **Correction**: Release IMMEDIATELY upon tap or any sign of unconsciousness. The tap ends the technique instantly—no exceptions. Practice the release protocol until it's automatic muscle memory.
-- **Error**: Using triangle to stall or rest without attempting finish [Low DANGER]
+- **Mistake**: Using triangle to stall or rest without attempting finish [Low DANGER]
   - **Consequence**: Poor training habits; doesn't develop finishing ability
   - **Correction**: If you have triangle locked, either finish it or transition to another attack. Don't use submissions as rest positions—this builds bad competition habits and wastes training time.
 
@@ -298,7 +298,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Spider Guard Sweep to Triangle**: Instead of attacking triangle directly from spider guard, use a sweep attempt (elevator sweep, sickle sweep, or balloon sweep) to bait opponent into posting their hand or driving weight forward. As they defend the sweep, their weight shift and arm placement often create perfect triangle entry. The threat of the sweep makes them vulnerable to the submission. (When to use: When opponent is being defensive and not committing weight forward; the sweep threat forces them to react)
 
 **Collar Drag to Triangle**: From spider guard with one sleeve grip and one collar grip, use a collar drag to pull opponent off balance to one side. As they post their hand to catch themselves, throw your leg over the posted arm side for triangle entry. The collar drag creates the broken posture and arm isolation simultaneously. (When to use: Against opponents with strong grips who are preventing you from breaking posture with feet alone)
@@ -341,7 +341,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Week 1-2)** (First 2 weeks of learning)
 - Focus: Learn the step-by-step mechanics without any resistance. Practice spider guard grips, posture breaks, hip angles, leg throws, and figure-four locks in isolation. Understand the anatomy of the choke and where pressure should be felt (sides of neck, not throat or back of neck).
 - Resistance: None
@@ -378,7 +378,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Spider Guard]]
 - [[Open Guard]]
@@ -395,7 +395,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Triangle from Guard]]
@@ -438,7 +438,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The triangle from spider guard represents a perfect marriage of positional control and submission mechanics. What makes this particular variation scientifically superior is that spider guard already establishes the three fundamental requirements for triangle success: postural disruption via feet-on-biceps pressure, arm isolation through sleeve control, and optimal distance management that prevents opponent from creating defensive frames. The common error I observe is students attempting to force the triangle entry before these prerequisites are properly established. You must first break the opponent's posture completely with your spider guard controls, then isolate the arm you intend to trap by pushing it across their centerline with your foot while pulling the sleeve grip. Only after these conditions are met should you pivot your hips to create the angle and throw your leg over their shoulder. The angle is not optional—it is the mechanism by which your leg creates diagonal pressure across both carotid arteries simultaneously. A triangle without angle is not a triangle; it is merely a leg position. In training, apply pressure progressively over 5+ seconds minimum, monitoring your partner's safety continuously. The submission is effective because it uses the opponent's own trapped arm to compress their carotid arteries—your leg simply provides the fulcrum. Master the spider guard controls first, and the triangle becomes a natural extension of position rather than a separate technique requiring force.
 - **Gordon Ryan**: In competition, the triangle from spider guard is one of my highest-percentage submissions because it catches opponents in transition when they're focused on passing rather than defending submissions. The key competitive insight is that you need to use the threat of spider guard sweeps to create the defensive reactions that expose the triangle. If I just sit in spider guard waiting for triangle opportunity, good opponents won't give it to me. But if I threaten elevator sweep, balloon sweep, or sickle sweep, they have to respond—posting hands, driving weight forward, collapsing posture—and those defensive reactions create perfect triangle entries. The difference between training and competition is timing and commitment. In training, I take 5+ seconds to finish and focus on perfect position. In competition, once I have proper angle and arm control locked, I finish fast—but the setup is still methodical. I never force a triangle from bad position in competition because elite opponents will pass you while you're trying to fix a broken triangle. If the setup isn't clean, I transition immediately to omoplata or armbar on the trapped arm. The other competitive detail: I always control the trapped arm by pulling it across their body toward my opposite hip. Without this arm control, even with good angle, the opponent can create enough space to escape. This isn't a training detail—it's a required component of competition-level triangles. Train the release protocol religiously so it becomes automatic, because in competition the adrenaline makes you want to hold submissions too long. Your training habits become your competition habits.
 - **Eddie Bravo**: The triangle from spider guard is sick because spider guard gives you so much control over distance and arm placement that you can set up triangles that are almost impossible to defend. In the 10th Planet system, we use a lot of spider guard concepts even in no-gi by controlling the biceps with our feet and using overhooks or wrist control instead of sleeve grips. The key innovation I teach is using the spider guard to create what I call 'triangle baits'—you make the opponent think they're defending a sweep or pass, but you're actually setting up the triangle the whole time. For example, go for a balloon sweep or elevator sweep really hard, and when they base out or post their hand to defend, boom—that's your triangle entry on the posted arm. They think they defended the sweep, but they just gave you the submission. Another thing we do is combine spider guard triangles with the rubber guard system. If you can't get the triangle from regular spider guard, transition to mission control or New York (rubber guard positions) and attack triangle from there—the opponent gets confused because they're defending spider guard and suddenly they're in rubber guard getting triangled. The safety part is huge though—triangles put people out fast, so in training you gotta apply that pressure slow and progressive. I've seen too many people get injured or go unconscious because their partner rushed the finish in training. Competition is different—you finish fast when you have position—but in training, your partner's safety is more important than your ego. Drill the release until it's automatic, and never hold a choke after the tap. That's non-negotiable in my academy. The triangle from spider guard is one of the most versatile submissions in jiu-jitsu, and once you master the setups and safety protocols, it becomes a cornerstone of your guard game.

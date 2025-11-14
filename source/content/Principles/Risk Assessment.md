@@ -8,7 +8,7 @@ description: "Master strategic decision-making in BJJ through comprehensive risk
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master strategic decision-making in BJJ through comprehensive risk
 
 
 
-> **Quick Answer**: Risk Assessment is a high complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.
+> Risk Assessment is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -169,7 +169,7 @@ The development of risk assessment skills transforms a practitioner from a react
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Position hierarchy determines the baseline risk level - assess from bottom of mount vs top of closed guard differently
 - Energy expenditure must be weighed against potential positional gain - high-risk sweeps from bad positions often waste energy
 - Opponent skill level and fatigue state dramatically affect success probabilities for all techniques
@@ -185,7 +185,7 @@ The development of risk assessment skills transforms a practitioner from a react
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Position Valuation**: The ability to accurately assess the relative value and danger level of current position versus potential positions. This includes understanding point values in competition, submission threat levels, energy drain rates, and escape difficulty. Practitioners must develop an internal hierarchy that accounts for both offensive and defensive considerations.
 
 **Probability Estimation**: The capacity to estimate success likelihood for techniques based on setup quality, opponent positioning, relative skill levels, and fatigue states. This skill develops through extensive experience and requires honest self-assessment of technical proficiency across different scenarios and against different opponent types.
@@ -208,7 +208,7 @@ The development of risk assessment skills transforms a practitioner from a react
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding position hierarchy is essential for risk assessment - cannot evaluate risk without knowing relative position values and danger levels
 - **[[Energy Management System]]** (Complementary): Risk assessment and energy management work together - high-risk moves often require high energy, and energy state affects risk tolerance
 - **[[Position-Over-Submission Approach]]** (Complementary): This philosophy represents a specific risk assessment strategy prioritizing lower-risk position advancement over higher-risk submission attempts
@@ -225,7 +225,7 @@ The development of risk assessment skills transforms a practitioner from a react
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: From dominant position, assess risk-reward of transitioning to high mount or S-mount versus maintaining stable low mount - premature transitions can allow escape opportunities
 
 **Closed Guard**: Evaluate risk-reward of submission attempts versus sweeps - failed triangle from closed guard may allow opponent to pass, while failed sweep often returns to closed guard
@@ -262,7 +262,7 @@ The development of risk assessment skills transforms a practitioner from a react
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Identify current position and hierarchical value**: Assess whether you are in dominant, neutral, or inferior position using positional hierarchy framework
 2. **Evaluate immediate threats and opportunities**: Scan for submission threats against you, available attacks for you, and potential transitions in both directions
 3. **Assess energy and time context**: Consider your fatigue level, opponent's fatigue level, match time remaining, and current score if in competition
@@ -275,28 +275,28 @@ The development of risk assessment skills transforms a practitioner from a react
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Attempting low-percentage submissions from inferior positions
+## Common Mistakes
+- **Mistake**: Attempting low-percentage submissions from inferior positions
   - **Consequence**: Wastes energy, abandons positional defense, often results in worse position or getting submitted
   - **Correction**: Prioritize escapes and position improvement from bad positions - only attempt submissions from inferior positions when setup is exceptional or match context demands desperation
-- **Error**: Overestimating success probability due to limited training partners
+- **Mistake**: Overestimating success probability due to limited training partners
   - **Consequence**: Techniques that work against familiar training partners fail in competition against unfamiliar opponents with different skill sets
   - **Correction**: Seek diverse training partners and competition experience - calibrate probability estimates based on success against varied skill levels and body types
-- **Error**: Failing to adjust risk tolerance based on score and time
+- **Mistake**: Failing to adjust risk tolerance based on score and time
   - **Consequence**: Conservative play when behind on points leads to losses, aggressive play when ahead leads to unnecessary position loss
   - **Correction**: Explicitly incorporate match context into every decision - defend leads conservatively, pursue when behind, and match urgency to time remaining
-- **Error**: Ignoring energy costs in risk calculation
+- **Mistake**: Ignoring energy costs in risk calculation
   - **Consequence**: Explosive techniques early in match lead to fatigue, making later rounds or matches difficult regardless of early success
   - **Correction**: Include energy expenditure as a cost in risk assessment - favor energy-efficient techniques early unless immediate finish is highly probable
-- **Error**: Emotional decision-making after setbacks
+- **Mistake**: Emotional decision-making after setbacks
   - **Consequence**: Frustration leads to rushed, low-percentage attacks that compound positional disadvantage
   - **Correction**: Develop emotional regulation protocols - when frustrated, default to conservative position-based game and rebuild control before attacking
-- **Error**: Static risk assessment that doesn't update with new information
+- **Mistake**: Static risk assessment that doesn't update with new information
   - **Consequence**: Continuing failed approaches because initial assessment suggested high success, despite opponent clearly defending well
   - **Correction**: Continuously update probability estimates based on opponent responses - if technique is being consistently defended, reassess and adapt
-- **Error**: Undervaluing stable positions in favor of dynamic attacks
+- **Mistake**: Undervaluing stable positions in favor of dynamic attacks
   - **Consequence**: Giving up dominant control positions prematurely for submission attempts that aren't properly set up
   - **Correction**: Consolidate positions fully before attacking - from mount and back control especially, ensure positional dominance before hunting submissions
 
@@ -305,7 +305,7 @@ The development of risk assessment skills transforms a practitioner from a react
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Sparring with Constraints** (Focus: Develops contextual adjustment skills and decision-making under pressure with real consequences)
 Start rounds from specific positions with score differentials and time limits to practice risk assessment under various competitive contexts
 
@@ -330,7 +330,7 @@ Off-mat mental training where you visualize positions and work through decision 
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Attempts techniques without considering positional consequences of failure
 - Pursues submissions from bad positions without defensive awareness
@@ -372,7 +372,7 @@ Off-mat mental training where you visualize positions and work through decision 
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Positional Hierarchy]] (Principle) - Foundation for position valuation in risk assessment
 - [[Energy Management System]] (Principle) - Complementary framework that integrates with risk assessment
@@ -390,7 +390,7 @@ Off-mat mental training where you visualize positions and work through decision 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Risk assessment represents the transition from mechanical technique execution to strategic decision-making, which is the hallmark of advanced jiu-jitsu. The fundamental principle is that every action must be evaluated not merely by its mechanical correctness, but by its probability of success in the current context and the consequences of failure. I emphasize to my students that position is the foundation of all offense - when you have dominant position, you can be patient and selective because failed attacks rarely result in position loss. Conversely, from inferior positions, only the highest-percentage escapes should be attempted, and submission attacks are almost never justified unless the setup is exceptional. The critical insight is that risk assessment must be dynamic and continuous - what was high percentage thirty seconds ago may now be low percentage due to changes in grips, base, or positioning. Elite competitors distinguish themselves not by having more techniques, but by having superior judgment about when to apply which techniques. This judgment is built through thousands of hours of experience, careful analysis of successes and failures, and honest self-assessment of one's capabilities. The student who develops systematic risk assessment will consistently defeat more athletic or technically diverse opponents through superior strategic thinking.
 - **Gordon Ryan**: In competition, risk assessment is everything - it's the difference between being a gym hero and a tournament champion. I approach every match with a clear understanding of what I do at the highest level and what carries more risk for me personally. From top position, I can be extremely patient because I know my passing and control is world-class, so I wait for the perfect submission setup rather than forcing low-percentage attacks. But if I'm down on points with two minutes left, the entire calculation changes - I'll accept much higher risks because the status quo means I lose anyway. The key is being brutally honest about your skill level in different areas. If your guard passing is average but your leg locks are elite, pulling guard against a strong wrestler might be the right risk assessment even though it seems defensive. I see a lot of guys lose because they try to prove something instead of playing the percentages - they want to show they can wrestle or pass guard even when it's not their A-game. In my matches, you'll notice I almost never attempt submissions from bad positions because giving up dominant control for a low-percentage finish is terrible risk-reward. I'd rather spend three minutes securing mount perfectly and then finish with a high-percentage attack than rush an armbar from half guard that might get me swept. Competition is about winning, not about showing off every technique you know.
 - **Eddie Bravo**: Risk assessment in 10th Planet is all about creating situations where the risk-reward ratio is in your favor through position and control, but we also embrace calculated risks that other systems might avoid. The rubber guard is a perfect example - conventional wisdom says attacking from bottom guard is risky, but when you have the opponent's posture completely broken and their arm isolated, the risk-reward of going for omoplata or triangle is actually better than trying to sweep to a top position you might not be comfortable in anyway. The key is understanding what risks make sense for your game. If you're a guard player, staying on bottom against a strong top player and working your attacks might be lower risk than trying to get on top where you're less comfortable. We also think about risk differently in no-gi versus gi - in no-gi, positions are more fluid and escapes are faster, so sometimes you have to take the submission when it's there because the window might close. I teach my guys to know their path - if you're working the lockdown system, you need to understand the risk at each stage and when to commit to the electric chair versus when to return to half guard. The biggest mistake I see is people playing too conservative from their A-game positions because they're applying general risk assessment rules instead of understanding the specific risk-reward of their personal system. You've got to know when your system gives you advantages that change the normal calculations, and that comes from drilling your sequences until you know exactly what works and what doesn't.

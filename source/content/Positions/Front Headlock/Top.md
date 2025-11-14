@@ -8,7 +8,7 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,7 +157,7 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 65% of exchanges.
+> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 65%.
 
 ---
 
@@ -197,7 +197,7 @@ Mastering front headlock top requires understanding both the technical details o
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - You control opponent's head and neck with at least one arm wrapped around their head, while your chest drives downward pressure into their upper back and shoulders, forcing them into bent-forward compromised posture with limited mobility and defensive options
 - Your opponent's torso is bent forward at the waist, typically with their hands and knees on mat or attempting to stand with compromised posture, while you maintain superior position above and around their head with ability to sprawl hips back or step around to different angles for submissions or back take
@@ -208,7 +208,7 @@ Mastering front headlock top requires understanding both the technical details o
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - You have secured control of opponent's head with at least one arm wrapped around their head/neck
 - Opponent's posture is compromised into bent-forward position (hands and knees, turtle, or standing bent over)
@@ -234,7 +234,7 @@ Mastering front headlock top requires understanding both the technical details o
 
 <section id="offensive-transitions" class="content-section">
 
-## What Attacks Are Available?
+## Available Attacks
 
 ### [[Guillotine Setup]] → [[Guillotine Control]]
 
@@ -305,7 +305,7 @@ Mastering front headlock top requires understanding both the technical details o
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Escape?
+## Opponent Escapes
 
 - **[[Technical Standup]]** → [[Standing Position]] (Opponent Success: 40%)
 - **[[Granby Roll]]** → [[Closed Guard]] (Opponent Success: 35%)
@@ -318,7 +318,7 @@ Mastering front headlock top requires understanding both the technical details o
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Escapes
+## Escape Counters
 
 - **[[Guillotine Choke]]** → [[Won by Submission]]
   - Opponent attempts to stand with head still trapped - lock guillotine and pull guard or finish standing
@@ -368,7 +368,7 @@ Mastering front headlock top requires understanding both the technical details o
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
 

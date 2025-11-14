@@ -8,7 +8,7 @@ description: "Master defensive strategies against the rear naked choke in BJJ. L
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master defensive strategies against the rear naked choke in BJJ. L
 
 
 
-> **Quick Answer**: RNC Defense is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
+> RNC Defense is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Fundamental
@@ -169,7 +169,7 @@ RNC Defense represents one of the most critical survival skills in BJJ, as failu
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Hand fighting must begin before the choke is attempted - proactive defense is exponentially more effective than reactive defense
 - Protect the neck first, escape the position second - positional hierarchy is irrelevant if you are unconscious
 - The chin is your first line of defense - tuck it to deny neck access and create structural barriers
@@ -185,7 +185,7 @@ RNC Defense represents one of the most critical survival skills in BJJ, as failu
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Proactive Hand Fighting**: The ability to recognize and intercept choking attempts before the arm crosses the neck. This involves maintaining constant hand awareness near the neck area, using two-on-one grips to control the choking arm, and creating frames that prevent the attacker's hands from getting into position. Skilled practitioners develop tactile sensitivity to feel when hands are approaching the neck and reflexively engage defensive hand fighting without visual confirmation.
 
 **Chin Tucking Mechanics**: The technical execution of chin protection that creates structural barriers without exposing the jaw to strikes or pain compliance. This involves tucking the chin into the chest while maintaining the ability to breathe, using the chin to block arm insertion while the hands work to clear the threat, and understanding when to sacrifice the chin position for more effective hand-based defenses. The skill includes knowing when chin protection alone is sufficient versus when it must be combined with other defensive layers.
@@ -208,7 +208,7 @@ RNC Defense represents one of the most critical survival skills in BJJ, as failu
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Chin Protection]]** (Prerequisite): Chin protection serves as the foundational defensive layer that RNC Defense builds upon. Understanding proper chin positioning and structural frames created by the jawline is essential before developing more advanced hand fighting and escape sequences.
 - **[[Hand Fighting from Back]]** (Complementary): Hand fighting from back control is the primary proactive component of RNC Defense. The two concepts work in tandem, with hand fighting preventing the choke from being attempted while RNC Defense addresses situations where hand fighting has been bypassed or defeated.
 - **[[Defensive Strategy]]** (Extension): RNC Defense applies the broader principles of defensive strategy specifically to the rear naked choke threat. It exemplifies the defensive hierarchy of prevention, active defense, and emergency escape that applies across all submission defense scenarios.
@@ -227,7 +227,7 @@ RNC Defense represents one of the most critical survival skills in BJJ, as failu
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Back Control**: The primary application context where RNC Defense is essential for survival. All defensive layers from proactive hand fighting to emergency escapes are directly applicable. The defender must maintain constant neck protection while working toward positional escape, creating the fundamental tension between defensive and offensive priorities that defines back control defense.
 
 **Seat Belt Control Back**: When the attacker has established the seatbelt grip configuration, RNC Defense focuses on controlling the choking-side arm before it can transition to the neck. Hand fighting targets the arm that will cross the neck, while secondary attention monitors the arm behind the back. The asymmetric grip creates specific vulnerabilities and defensive opportunities that skilled defenders exploit.
@@ -264,7 +264,7 @@ RNC Defense represents one of the most critical survival skills in BJJ, as failu
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess immediate threat level - are the attacker's hands currently near your neck or already in choking position?**: If hands are not yet near neck: Implement proactive hand fighting to prevent initial approach. If one hand is approaching: Focus two-on-one control on the approaching arm. If both hands are in position or one arm is across neck: Escalate to active defense and grip breaking protocols.
 2. **Evaluate current chin position and neck accessibility - is your chin protecting the neck or is it exposed?**: If chin is up or neck exposed: Immediately tuck chin to chest to create structural barrier. If chin is already protected: Maintain position while hands work to address arm threats. If choking arm is under chin: Use chin to trap arm while working hand-based defenses to clear it before opponent can adjust.
 3. **Determine which defensive hand position provides maximum protection based on current arm configuration.**: If choking arm is approaching but not across: Use both hands to grip and control the wrist/forearm, preventing it from crossing neck. If arm is partially across: Use near-side hand to grip the wrist while far-side hand blocks the opposite hand from connecting. If hands are connected: Focus both hands on breaking the grip at its weakest point.
@@ -277,31 +277,31 @@ RNC Defense represents one of the most critical survival skills in BJJ, as failu
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Focusing on positional escape before adequately defending the immediate choking threat
+## Common Mistakes
+- **Mistake**: Focusing on positional escape before adequately defending the immediate choking threat
   - **Consequence**: The practitioner expends energy on hip escapes or back escapes while the opponent secures the choke, resulting in being submitted during the escape attempt. The fundamental error is prioritizing positional improvement over survival.
   - **Correction**: Establish the absolute rule: defend the neck first, escape the position second. Only begin positional escape attempts once the immediate choking threat is fully neutralized and controlled. Accept that you may remain in back control longer, but you will remain conscious.
-- **Error**: Using only one hand to defend against the choking arm while the other hand is passive or pushing the opponent
+- **Mistake**: Using only one hand to defend against the choking arm while the other hand is passive or pushing the opponent
   - **Consequence**: The single defending hand is typically overpowered by the choking arm, especially once the opponent has mechanical advantage with the arm across the neck. One-handed defense is almost always insufficient against a committed choking attempt.
   - **Correction**: Commit both hands to defending the choking arm using two-on-one control. Release ineffective pushing or framing attempts and prioritize neck defense. Only use one hand defensively if the other hand is performing a specific critical function like preventing the second hand from connecting.
-- **Error**: Attempting to pull the choking arm away from the neck using bicep strength alone
+- **Mistake**: Attempting to pull the choking arm away from the neck using bicep strength alone
   - **Consequence**: This creates a pure strength battle that strongly favors the attacker, who has superior leverage with the arm across the neck and body weight compressing from behind. The defender exhausts their arm strength rapidly while making minimal progress.
   - **Correction**: Use proper leverage mechanics: grip the wrist with both hands, create angles by rotating the body, use whole-body movement rather than isolated arm strength, and attack the grip connection rather than trying to pull the entire arm away. Technique and leverage must supplement raw strength.
-- **Error**: Keeping the chin elevated or looking up during the defensive sequence
+- **Mistake**: Keeping the chin elevated or looking up during the defensive sequence
   - **Consequence**: An elevated chin creates a clear opening for the choking arm to slide deeply under the jaw, eliminating a critical defensive layer and allowing the opponent to establish the choke more quickly. Visual orientation upward provides no defensive benefit.
   - **Correction**: Maintain chin tucked to chest throughout the defensive sequence unless tactically lifting it for a specific technique. Develop the ability to defend effectively without visual confirmation, relying on tactile awareness instead. Accept that you cannot always see what you're defending against.
-- **Error**: Panic breathing or holding breath when the choke is being attempted
+- **Mistake**: Panic breathing or holding breath when the choke is being attempted
   - **Consequence**: Hyperventilation rapidly depletes oxygen reserves and accelerates the onset of fatigue and panic. Breath holding creates artificial oxygen deprivation that compounds the effects of any actual choking pressure. Both patterns severely compromise defensive effectiveness.
   - **Correction**: Practice controlled breathing patterns during RNC defense drills, consciously taking slow deep breaths during defensive moments and avoiding breath holding. Train the physiological and psychological response to remain calm under choking pressure. Recognize that panic is more dangerous than the actual technique in many cases.
-- **Error**: Waiting too long to implement emergency explosive escapes when the choke is deep
+- **Mistake**: Waiting too long to implement emergency explosive escapes when the choke is deep
   - **Consequence**: Hesitation when consciousness is fading leads to unconsciousness before the escape can be executed. The window for emergency escapes is extremely narrow - typically 2-3 seconds once blood flow is fully restricted. Late execution equals failure.
   - **Correction**: Develop recognition of the point of no return where technical defense has failed and emergency action is required. Practice explosive escape sequences until they become reflexive. Accept that emergency escapes will damage your position but preserve consciousness. Better to be in mount bottom than unconscious in back control.
-- **Error**: Ignoring the non-choking hand and allowing it to connect behind the head unopposed
+- **Mistake**: Ignoring the non-choking hand and allowing it to connect behind the head unopposed
   - **Consequence**: Once both hands are connected, the mechanical strength of the choke increases exponentially and the difficulty of defense rises dramatically. Allowing the second hand to easily find its position essentially gives the opponent a completed choke setup.
   - **Correction**: Divide defensive attention between preventing the choking arm from crossing and preventing the second hand from connecting. Use one hand to control the choking wrist while the other hand blocks or redirects the second hand. Understand that preventing the connection is vastly easier than breaking an established grip.
-- **Error**: Attempting the same failed defensive technique repeatedly without adjusting approach
+- **Mistake**: Attempting the same failed defensive technique repeatedly without adjusting approach
   - **Consequence**: If a defensive technique isn't working after the first sincere attempt, continuing the same action wastes precious time and energy while the choke tightens. This represents both tactical inflexibility and failure to recognize when to change strategies.
   - **Correction**: Develop a hierarchy of defensive attempts: if the first layer fails within 2-3 seconds, immediately progress to the next defensive option. Move from hand fighting to grip breaking to arm removal to emergency escape in a progressive sequence. Never commit more than a few seconds to a technique that isn't producing results.
 
@@ -310,7 +310,7 @@ RNC Defense represents one of the most critical survival skills in BJJ, as failu
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Progressive Resistance RNC Defense Drilling** (Focus: Developing automatic defensive responses calibrated to the current threat level, building muscle memory for each defensive layer, and creating smooth transitions between defensive techniques as the situation deteriorates or improves.)
 Partner drill where the defender practices the complete defensive sequence against incrementally increasing resistance. Begin with the attacker slowly approaching with hands toward the neck, allowing the defender to implement proactive hand fighting. Progress through stages of increasing speed and resistance: arm approaching, arm crossing, one hand connecting, grip established, and partial squeeze. The defender practices the appropriate defensive layer for each stage, developing the recognition and response patterns for different threat levels.
 
@@ -335,7 +335,7 @@ Training approach where practitioners take turns teaching RNC Defense concepts t
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes when a choke is being attempted but response is delayed and often reactive rather than proactive
 - Can tuck chin and implement basic hand blocking when prompted, but often forgets under pressure or during rolling
@@ -381,7 +381,7 @@ Training approach where practitioners take turns teaching RNC Defense concepts t
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Chin Protection]] (Principle) - Foundational defensive layer that RNC Defense builds upon, providing the structural barrier created by proper chin positioning
 - [[Hand Fighting from Back]] (Principle) - Primary proactive component of RNC Defense, focusing on preventing the choke before it can be attempted
@@ -401,7 +401,7 @@ Training approach where practitioners take turns teaching RNC Defense concepts t
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: The rear naked choke represents one of the highest percentage submissions in all of grappling precisely because of the mechanical advantages it provides the attacker and the limited defensive options available once properly applied. Understanding RNC Defense requires first understanding the mechanical requirements for a successful choke: the arm must cross deeply under the chin or across the neck, the opposite hand must connect to secure the position, and the attacker's body position must create forward pressure that prevents the defender from creating space. Your defensive strategy must systematically deny these requirements in reverse order of difficulty - it is far easier to prevent the initial arm crossing than to escape once the choke is locked. The concept of defensive layering is critical here: your first layer is proactive hand fighting before any arm approaches the neck, your second layer is chin protection and hand blocking as the arm approaches, your third layer is grip breaking if hands connect, and your final layer is emergency explosive escape if the choke becomes tight. Each layer buys time for the next, and mastery involves recognizing which layer you're currently in and applying the appropriate defensive response. Most practitioners fail because they skip defensive layers, attempting emergency escapes when proactive defense would work, or continuing technical defense when emergency action is required. The key to effective defense is calibrating your response to the current threat level.
 - **Gordon Ryan**: In competition, the rear naked choke is the submission I've both finished most often and had to defend most often at the highest levels. The reality is that against elite-level opponents, if you let them fully establish back control with hands in choking position, you're already in serious trouble. My RNC Defense strategy prioritizes preventing the setup over defending the finish - I focus intensely on hand fighting and controlling my opponent's arms before they can even attempt to go for the neck. The specific detail that changed my defensive game was understanding that you need to commit both hands to defending the choking arm once it starts crossing. I see so many people try to defend with one hand while pushing with the other, and it just doesn't work against high-level opposition. They're stronger with one arm across your neck than you are with one arm trying to stop them. My approach is simple: as soon as I feel a hand coming toward my neck, both my hands go to that wrist and I fight like my life depends on it, because in competition, my consciousness certainly does. The other key detail is maintaining offensive pressure even while defending - I'm always looking to improve my position while defending the neck, never purely defensive. If I can create angles or start working back to guard while defending the choke, I'm forcing my opponent to make decisions between maintaining the choking attack and preventing my positional improvement. The worst thing you can do is become purely defensive and give them all the time in the world to perfect the choke.
 - **Eddie Bravo**: RNC Defense from a 10th Planet perspective has some unique elements because of how we use the position and how we defend it. First, we spend a lot of time working from back control both attacking and defending, so we're very familiar with the angles and timing. One thing I emphasize that's different from traditional approaches is using the Lockdown and body positioning concepts even from bottom back control - creating angles with your hips and legs to make it harder for them to get flat on your back, which is when the choke is most dangerous. We also work a lot on what I call 'offensive defense' where you're immediately looking for your own attacks even while defending the neck. If I'm defending a choke, I'm simultaneously looking to attack their arms for kimuras or to spin into them for reversal opportunities. This creates dilemmas where they have to choose between finishing the choke and defending your attacks, which often opens up escape routes. Another innovation we use is practicing defense while already partially choked - sounds crazy, but we train the ability to function and execute technique even when you're getting squeezed, because in real competition situations, you're often going to be defending while under partial pressure. You need to be able to think and move effectively even when you're feeling that pressure, not just when you're comfortable. We also emphasize the mental game aspect - staying calm, breathing controlled, not panicking. Panic kills more people in RNC situations than the actual technique. Train your mind to stay ice cold even when your neck is being attacked.

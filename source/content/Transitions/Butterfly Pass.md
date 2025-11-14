@@ -8,7 +8,7 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 
 
 
-> **Quick Answer**: Butterfly Pass transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Butterfly Pass transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Establish and maintain wide, stable base to resist sweep attempts
 - Control opponent's upper body posture through grips and weight distribution
 - Systematically remove butterfly hooks through pressure and positioning
@@ -186,7 +186,7 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent is in butterfly guard with one or both hooks established
 - Wide base with knees spread to prevent sweep leverage
 - Strong grips on collar and sleeve or body control
@@ -199,7 +199,7 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish wide base and grips**: From standing or combat base, widen your knee position significantly beyond shoulder width. Secure collar and sleeve grips (gi) or underhook and overhook controls (no-gi). Lower your hips while keeping chest pressure forward to prevent being pulled off balance. Your base width should make it geometrically impossible for opponent's hooks to generate sweeping leverage.
 2. **Control upper body posture**: Drive your chest forward and downward toward opponent's upper body while maintaining collar grip or head control. This forward pressure prevents opponent from creating the space needed for effective sweeps. Keep your elbows tight to your body to defend against arm drags. Your posture should make opponent feel heavy and compressed.
 3. **Identify and address primary hook**: Determine which butterfly hook poses the greatest sweep threat (typically the side where opponent has better upper body control). Begin addressing this hook first by shifting your weight toward that side and lowering your hip. The goal is to flatten the hook by removing the angle it needs to elevate your body.
@@ -213,7 +213,7 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent sits up explosively to maintain butterfly hooks and attempt sweep** (Effectiveness: High) - Your Response: Immediately drive your chest down harder, using collar grip or head control to break their posture back down. Lower your hips further to remove sweep angles and maintain wide base.
 - **Opponent transitions to deep half guard as you clear hooks** (Effectiveness: High) - Your Response: Prevent the deep half entry by keeping your near leg heavy and driving crossface pressure. If they begin the transition, immediately switch to deep half guard passing strategies, focusing on hip isolation.
 - **Opponent attempts arm drag to take your back during pass** (Effectiveness: Medium) - Your Response: Keep your elbows extremely tight to your body and maintain forward pressure. If arm drag begins, circle away from the drag direction while maintaining base and establishing defensive grips.
@@ -223,28 +223,28 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Standing too upright or losing forward chest pressure during pass
+## Common Mistakes
+- **Mistake**: Standing too upright or losing forward chest pressure during pass
   - **Consequence**: Opponent easily sits up, maintains hooks, and executes sweeps with proper posture and leverage
   - **Correction**: Maintain constant forward pressure with chest driving toward opponent's upper body. Your posture should feel like you're leaning heavily on them while keeping your base wide for stability.
-- **Error**: Base too narrow allowing butterfly hooks to generate sweep leverage
+- **Mistake**: Base too narrow allowing butterfly hooks to generate sweep leverage
   - **Consequence**: Opponent successfully elevates you with butterfly hooks and completes sweeps to mount or top position
   - **Correction**: Keep knees spread significantly wider than shoulder width throughout the entire passing sequence. Your wide base should make it geometrically impossible for hooks to create sweeping angles.
-- **Error**: Attempting to pass both hooks simultaneously without methodical control
+- **Mistake**: Attempting to pass both hooks simultaneously without methodical control
   - **Consequence**: Opponent maintains at least one hook and uses it to sweep or recover full guard position
   - **Correction**: Address hooks systematically one at a time. Neutralize the primary threat hook first with hip pressure, secure control, then address the secondary hook from a position of dominance.
-- **Error**: Neglecting upper body control while addressing butterfly hooks
+- **Mistake**: Neglecting upper body control while addressing butterfly hooks
   - **Consequence**: Opponent sits up, establishes grips, or transitions to alternative guards like deep half or X-guard
   - **Correction**: Always maintain strong collar/head control or underhook before and during hook removal. Upper body control prevents postural recovery and alternative guard transitions.
-- **Error**: Crossing feet or bringing knees together during pass progression
+- **Mistake**: Crossing feet or bringing knees together during pass progression
   - **Consequence**: Opponent capitalizes on narrow base to sweep or transition to more advantageous guard positions
   - **Correction**: Keep your feet wide and knees spread throughout entire pass. Only bring your weight across centerline once hooks are completely neutralized and control is established.
-- **Error**: Failure to secure underhook or crossface before completing pass
+- **Mistake**: Failure to secure underhook or crossface before completing pass
   - **Consequence**: Opponent easily recovers guard, creates frames, or escapes as you attempt to establish side control
   - **Correction**: Before dropping your full weight into side control, ensure you have secured at least one major control point (underhook or crossface). This control makes the pass completion inevitable.
-- **Error**: Moving too quickly without pressure, allowing opponent to create space
+- **Mistake**: Moving too quickly without pressure, allowing opponent to create space
   - **Consequence**: Opponent uses created space to recover hooks, insert knees for guard retention, or escape entirely
   - **Correction**: Move methodically with constant pressure at every stage. Your weight should always be bearing down on opponent, limiting their movement options and preventing space creation.
 
@@ -253,7 +253,7 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Establishing proper base, posture, and hook removal mechanics
 Begin with stationary drills focusing on wide base positioning and proper posture from butterfly guard. Practice systematic hook removal on cooperative partners who maintain butterfly position without resistance. Emphasize feeling how hip pressure neutralizes hook leverage. Drill 20-30 repetitions per session focusing on mechanical precision rather than speed.
 (Resistance: None)
@@ -284,7 +284,7 @@ Practice against various opponents with different butterfly guard styles (aggres
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double Under Butterfly Pass**: Instead of collar and sleeve grips, secure double underhooks on opponent's arms while maintaining wide base. Drive forward with heavy shoulder pressure on their chest while systematically removing hooks. This variant provides superior upper body control but requires careful base maintenance. (When to use: Against opponents who rely heavily on sleeve and collar grips for their butterfly guard. Particularly effective in no-gi where fabric grips are unavailable. Best used when opponent sits relatively upright.)
 
 **Knee Slice Butterfly Pass**: As you remove the first butterfly hook, immediately insert your knee across opponent's centerline in a slicing motion toward their far hip. This creates a knee slice position while the remaining hook is being addressed. Combines butterfly passing with knee slice mechanics for faster completion. (When to use: When opponent's butterfly guard is relatively shallow or when they lack strong upper body control. Effective against opponents who are slow to recover guard once hooks are compromised.)
@@ -324,7 +324,7 @@ Practice against various opponents with different butterfly guard styles (aggres
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 When practicing butterfly passing, both passer and guard player should be mindful of knee and hip stress. The passer should avoid dropping their full weight suddenly onto opponent's legs, which can cause knee hyperextension or strain. When removing hooks with hip pressure, apply force gradually rather than explosively to allow partner's joints to adjust. The guard player should tap if they feel excessive pressure on their knees or hips during hook removal, particularly if the passer's weight creates uncomfortable joint angles. During drilling, start with light resistance and gradually increase intensity as both partners develop familiarity with the mechanics. Partners with existing knee or hip injuries should communicate this clearly and may need to modify the technique or use alternative passing strategies. Always ensure adequate mat space around training partners to prevent accidental collisions during sweeping attempts or pass completions.
 
@@ -332,7 +332,7 @@ When practicing butterfly passing, both passer and guard player should be mindfu
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Butterfly Pass serves as a fundamental component of any complete guard passing system, representing the primary answer to one of BJJ's most dynamic and threatening guard positions. This technique integrates seamlessly with pressure passing frameworks, as it relies on constant forward pressure and methodical advancement rather than explosive movements. In competition scenarios, the butterfly pass often chains with other passing strategies - if opponent defends the butterfly pass by transitioning to deep half or alternative guards, the passer can flow directly into position-specific passing techniques. The butterfly pass also connects to standing passing strategies, as many competitors begin their butterfly passing sequences from standing before committing to ground-based pressure. Understanding this pass is essential for anyone developing a top game, as butterfly guard appears frequently in both gi and no-gi competition across all skill levels. The systematic approach to removing hooks and establishing control translates directly to other guard passing situations where methodical pressure overcomes dynamic retention.
 
@@ -340,7 +340,7 @@ The Butterfly Pass serves as a fundamental component of any complete guard passi
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Butterfly Guard]] - Primary position being passed
 - [[Butterfly Hook Control]] - Specific control being neutralized
@@ -360,7 +360,7 @@ The Butterfly Pass serves as a fundamental component of any complete guard passi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The butterfly pass represents a masterclass in biomechanical problem-solving under pressure. The fundamental challenge is this: your opponent has positioned their body to create maximum sweeping leverage through optimal hook placement and upper body control - your task is to systematically dismantle this leverage structure without exposing yourself to the very attacks you're trying to neutralize. The solution lies in understanding the geometric relationships at play. Butterfly hooks only generate sweeping force when they create an angle relative to your base - eliminate this angle through width and you eliminate the threat. The wide base is not merely defensive; it's an offensive weapon that makes your position geometrically immune to certain attacks while you advance. When removing hooks, you must understand that you're not fighting against muscular strength but against mechanical advantage - use hip pressure to change the angle of their hook from vertical to horizontal, transforming a dangerous lever into a neutralized limb. The crossface and underhook are not optional finishing touches but essential control points that must be secured before committing your weight, as they serve as anchors preventing the guard recovery that would otherwise be inevitable. Study the geometry of base width relative to hook placement, and you will understand why this pass succeeds or fails at a fundamental level.
 - **Gordon Ryan**: In competition, the butterfly pass is one of my highest-percentage techniques because it's fundamentally sound against every level of opponent - from hobbyists to world champions. What makes this pass championship-caliber is that it doesn't rely on catching opponent making mistakes; it works through systematic pressure application that creates opportunities even against perfect defensive posture. The critical detail everyone misses is that your chest pressure isn't just about preventing them from sitting up - it's about making every second in their guard psychologically and physically exhausting. When I'm passing butterfly, I want my opponent feeling crushed, compressed, and desperate for relief. This mental state forces them to make the defensive reactions I'm looking for - posting hands, attempting to create space, rushing their sweep attempts before I'm vulnerable. Against elite competitors, I use this pass as a pressure gauge: if they can maintain their butterfly guard comfortably against my pressure, I know I need to increase intensity or change strategies. If they're struggling under the weight, I know the pass is inevitable and I just need to execute systematically. The standing butterfly pass variation is particularly valuable in IBJJF rules where staying standing earns you nothing but gives you strategic advantages in grip fighting and timing. Master this pass with genuine crushing pressure, and you'll pass butterfly guard on anyone.
 - **Eddie Bravo**: The traditional butterfly pass is solid fundamentally, but in 10th Planet we've evolved how we think about dealing with butterfly hooks because modern no-gi butterfly guard has become so sophisticated with guys like Cobrinha and Miyao brothers making it a legitimate championship-level position. The key innovation is understanding that butterfly passing isn't just about removing hooks - it's about controlling the transition game. Savvy butterfly players aren't just trying to sweep you; they're trying to use your passing pressure to transition to deep half, X-guard, or leg entanglement positions where they're even more dangerous. So when I teach butterfly passing, I emphasize recognizing and shutting down these transitions before they start. The whizzer becomes incredibly important in our system because it not only helps control their upper body but it prevents the deep half entry that's coming when you start pressuring their hooks. We also use a lot more strategic distance management - sometimes we'll actually create space intentionally to bait the butterfly sweep attempt, then sprawl and take the back rather than completing a traditional pass. The fundamental mechanics of the butterfly pass are still essential - wide base, pressure, systematic hook removal - but the advanced game is about reading what transition they're setting up and hitting them with the appropriate counter before they get there. Train this pass but stay creative with your responses when they start defending like they've seen it before.

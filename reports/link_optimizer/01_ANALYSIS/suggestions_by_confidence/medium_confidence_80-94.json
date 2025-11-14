@@ -1744,7 +1744,7 @@
       "target_file": "Pressure Application",
       "confidence": 88.0,
       "reason": "The content explicitly mentions insufficient chest pressure as a critical error, making this concept essential for understanding proper Double Jump execution.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-concept",
       "existing_link": false
     },
@@ -2851,7 +2851,7 @@
       "target_file": "Frame Creation",
       "confidence": 85.0,
       "reason": "The content explicitly discusses preventing opponent's frames as a key defensive concern, making this concept directly relevant to understanding side control maintenance.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-concept",
       "existing_link": false
     },
@@ -3292,7 +3292,7 @@
       "target_file": "Triangle Control",
       "confidence": 85.0,
       "reason": "Triangle control is a specific high-threat submission position requiring dedicated defensive principles.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "defense-to-submission-position",
       "existing_link": false
     },
@@ -3301,7 +3301,7 @@
       "target_file": "Armbar Control",
       "confidence": 85.0,
       "reason": "Armbar control represents a critical submission threat position that requires specific defensive frameworks.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "defense-to-submission-position",
       "existing_link": false
     },
@@ -4741,7 +4741,7 @@
       "target_file": "Base Maintenance",
       "confidence": 80.0,
       "reason": "Opponent must maintain base to defend butterfly sweeps, and understanding base maintenance helps practitioners execute elevation-based sweeps.",
-      "suggested_section": "Common Errors",
+      "suggested_section": "Common Mistakes",
       "relationship_type": "position-to-concept",
       "existing_link": false
     },

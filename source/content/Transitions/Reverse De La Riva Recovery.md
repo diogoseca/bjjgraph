@@ -8,7 +8,7 @@ description: "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establi
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establi
 
 
 
-> **Quick Answer**: Reverse De La Riva Recovery transitions from [[Reverse De La Riva Guard]] to [[Reverse De La Riva Guard]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Reverse De La Riva Recovery transitions from [[Reverse De La Riva Guard]] to [[Reverse De La Riva Guard]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,7 +170,7 @@ Mastering RDLR recovery creates a safety net that allows more aggressive guard p
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Maintain at least one point of contact (hook or grip) at all times during recovery
 - Use hip escape mechanics to create the angle necessary for hook reinsertion
 - Prioritize recovering the RDLR hook before re-establishing secondary controls
@@ -184,7 +184,7 @@ Mastering RDLR recovery creates a safety net that allows more aggressive guard p
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Reverse De La Riva guard has been partially compromised or cleared
 - At least one connection point remains (sleeve grip, pants grip, or partial hook)
 - Opponent is attempting to advance position or consolidate a pass
@@ -196,7 +196,7 @@ Mastering RDLR recovery creates a safety net that allows more aggressive guard p
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish emergency frames**: As soon as you recognize the RDLR position is compromised, immediately establish defensive frames using your arms to create distance. Place your bottom arm frame against opponent's hip or knee, and your top arm frame against their shoulder or crossface attempt. These frames prevent them from consolidating pressure while you work to recover. (Timing: Immediate upon recognizing position compromise)
 2. **Execute hip escape**: Perform a strong hip escape (shrimp) away from the opponent while maintaining your frames. Push off your outside foot to generate power and create the angle necessary for hook recovery. Your hips should rotate approximately 45-90 degrees away from the opponent, creating space for your RDLR leg to function. (Timing: Explosive movement coordinated with frame extension)
 3. **Recover RDLR hook**: As you create space with the hip escape, thread your inside leg back underneath opponent's near leg to re-establish the reverse De La Riva hook. Your foot should curve around their thigh with your heel pulling toward their far hip. The hook must be deep enough to control their leg and prevent forward pressure. (Timing: During or immediately after hip escape)
@@ -209,7 +209,7 @@ Mastering RDLR recovery creates a safety net that allows more aggressive guard p
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drives forward with heavy shoulder pressure before you can hip escape** (Effectiveness: High) - Your Response: Switch to an alternative recovery path using the Technical Standup or Granby Roll to create more dramatic angle change and escape the pressure line
 - **Opponent controls your RDLR leg and prevents hook reinsertion** (Effectiveness: Medium) - Your Response: Transition to butterfly hooks or switch to opposite side guard recovery, accepting the position change rather than forcing a compromised RDLR recovery
 - **Opponent establishes strong crossface and prevents hip movement** (Effectiveness: High) - Your Response: Fight the crossface with near arm, create an underhook if possible, and use this connection to generate enough space for a smaller hip adjustment before attempting full recovery
@@ -218,25 +218,25 @@ Mastering RDLR recovery creates a safety net that allows more aggressive guard p
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Attempting to recover the position while remaining stationary
+## Common Mistakes
+- **Mistake**: Attempting to recover the position while remaining stationary
   - **Consequence**: Opponent consolidates their passing position and establishes control before you can move
   - **Correction**: Immediately begin hip escape movement as soon as you recognize position compromise - recovery requires dynamic movement
-- **Error**: Giving up all connection points simultaneously
+- **Mistake**: Giving up all connection points simultaneously
   - **Consequence**: Complete loss of guard with no pathway to recovery
   - **Correction**: Always maintain at least one grip or hook during transitions, even if it means accepting a less-than-ideal connection temporarily
-- **Error**: Focusing on grip fighting before re-establishing hooks
+- **Mistake**: Focusing on grip fighting before re-establishing hooks
   - **Consequence**: Opponent passes while you fight for grips without proper hook structure to prevent advancement
   - **Correction**: Prioritize recovering the RDLR hook first, then work on optimizing grips from a structurally sound position
-- **Error**: Using weak or passive frames that don't create real distance
+- **Mistake**: Using weak or passive frames that don't create real distance
   - **Consequence**: Insufficient space to execute hip escape and hook recovery
   - **Correction**: Apply strong, active frames with locked elbows and drive through your shoulder to genuinely move opponent and create working space
-- **Error**: Hip escaping toward opponent instead of away
+- **Mistake**: Hip escaping toward opponent instead of away
   - **Consequence**: Movement actually helps opponent consolidate the pass rather than creating recovery space
   - **Correction**: Always shrimp away from pressure, creating angle and distance that makes hook reinsertion geometrically possible
-- **Error**: Accepting a shallow or weak RDLR hook just to say position is recovered
+- **Mistake**: Accepting a shallow or weak RDLR hook just to say position is recovered
   - **Consequence**: Opponent easily clears the insufficient hook and continues passing
   - **Correction**: Ensure the recovered hook is deep and functionally controlling before considering the position truly recovered - quality over speed
 
@@ -245,7 +245,7 @@ Mastering RDLR recovery creates a safety net that allows more aggressive guard p
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Fundamental Movement Patterns** - Solo drilling of hip escape mechanics and hook reinsertion
 Practice hip escapes from bottom position without a partner, focusing on creating proper angles. Then add solo practice of threading the RDLR leg back to hook position from various compromised angles. Develop muscle memory for the core movements.
 (Resistance: None)
@@ -276,7 +276,7 @@ Full positional sparring where partner scores points for successful passes and y
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Granby Roll Recovery**: When opponent's pressure is too heavy for standard hip escape, perform a granby roll (reverse shoulder roll) to create dramatic angle change and space. This commits you to a more athletic movement but can escape situations where standard recovery is blocked. (When to use: Against heavy shoulder pressure or when opponent has controlled your standard hip escape movement)
 
 **Technical Standup Recovery**: Instead of recovering to bottom RDLR guard, use the recovery sequence to stand up to a technical base position. This creates maximum distance and allows you to either re-engage standing or pull guard on your terms rather than fighting from a compromised bottom position. (When to use: When opponent has significantly advanced the pass and bottom recovery seems unlikely to succeed)
@@ -316,7 +316,7 @@ Full positional sparring where partner scores points for successful passes and y
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 RDLR recovery techniques are generally low-risk but practitioners should be aware of potential knee and ankle stress. During hip escape movements, avoid explosive rotations that could strain the RDLR hook knee, especially if the opponent has significant weight on your leg. When reinserting the hook, ensure your ankle has flexibility to curve around opponent's leg without forcing the position - tight ankles attempting deep hooks can result in ankle sprains. During training, communicate with partners about pressure levels, particularly when they're driving forward during your recovery attempts. Partners should recognize taps or verbal cues if pressure becomes uncomfortable on the bottom player's joints. As the bottom player, don't sacrifice joint health to retain position - if recovery isn't working, it's better to accept the pass and reset than to force movements that could cause injury. Beginners should focus on technique and positioning rather than speed and power during initial learning phases.
 
@@ -324,7 +324,7 @@ RDLR recovery techniques are generally low-risk but practitioners should be awar
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 RDLR Recovery is a critical component of comprehensive guard retention strategy and integrates with multiple defensive and offensive systems. This recovery sequence connects directly to the broader guard retention framework, where multiple layers of defense prevent opponents from passing. When RDLR is your primary guard, having reliable recovery sequences allows you to play the position more aggressively, knowing you can reset if attacks are defended.
 
@@ -336,7 +336,7 @@ Within competition strategy, reliable RDLR recovery sequences reduce the psychol
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[De La Riva Guard]] - Related guard system with similar recovery principles
 - [[Kiss of the Dragon]] - Alternative recovery path that transitions to back attack
@@ -356,7 +356,7 @@ Within competition strategy, reliable RDLR recovery sequences reduce the psychol
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The concept of guard recovery represents a fundamental understanding of positional chess in Brazilian Jiu-Jitsu. When we examine RDLR recovery from a systematic perspective, we must recognize that recovery is not simply returning to a previous position - it is the application of specific mechanical principles to rebuild structural advantages that have been compromised. The hip escape movement creates angular change that is geometrically necessary for hook reinsertion. Without this angle, the hook cannot physically pass underneath opponent's leg. The frame mechanics create the distance that makes the angle meaningful. This is not random defensive movement - this is the systematic application of leverage principles to rebuild positional structure. Advanced practitioners understand that recovery sequences are predictive rather than reactive. They feel weight distribution changes and grip pressure variations that indicate incoming attacks, allowing them to begin recovery movements before position is completely compromised. This predictive recovery is vastly more efficient than reactive recovery and represents the difference between defensive survival and true positional control.
 - **Gordon Ryan**: In competition, your guard recovery determines whether you can actually use your guard game under real pressure. I've won matches specifically because opponents couldn't pass my guard even when they got close - and that's entirely about having reliable recovery sequences. With RDLR specifically, I use the recovery hip escape as both defensive reset and offensive opportunity creation. When I hip escape during recovery, I'm looking to immediately transition to Kiss of the Dragon or go underneath for the leg drag counter. The recovery movement creates the angle I need for those attacks, so I'm never purely defensive. That's the competition mindset you need - even when defending, you're setting up your next attack. Against high-level opponents, they will compromise your RDLR structure repeatedly. The question is whether you can recover it faster than they can capitalize on the compromised position. That's the meta-game of modern guard retention. I drill RDLR recovery constantly because it's a high-percentage defensive sequence that also creates attacking opportunities. If you can't recover your guard under pressure, you can't compete at the highest levels. It's that simple.
 - **Eddie Bravo**: RDLR recovery is where a lot of traditional guard players struggle because they're trying to perfectly rebuild the position instead of staying fluid and adapting. In the 10th Planet system, we look at recovery as flow between related positions rather than rigid restoration of exact structure. If my RDLR is getting smashed, maybe I granby roll into it and come up with a totally different angle, or maybe I accept the position change and switch to butterfly or even stand up. The key is maintaining movement and not getting fixated on making the exact original position work when it's severely compromised. We also use RDLR recovery as a setup for leg attacks - when I hip escape to recover, I'm looking for opportunities to enter into leg entanglements if opponent overcommits to their pass. This creates a dilemma for them because aggressive passing opens up leg locks, but passive passing allows me to recover and sweep. Recovery sequences should create these kinds of dilemmas rather than just being pure defense. Keep moving, stay unpredictable, and turn defensive moments into offensive opportunities. That's how you make recovery actually work in real situations against explosive athletes who aren't going to let you slowly rebuild perfect position.

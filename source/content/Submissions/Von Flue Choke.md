@@ -8,7 +8,7 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 
 
 
-> **Quick Answer**: Von Flue Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
+> Von Flue Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -174,7 +174,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="safety-considerations" class="content-section">
 
-## Is Von Flue Choke Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -216,7 +216,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Shoulder pressure creates one-sided carotid compression while opponent's arm creates the other
 - Body weight distribution amplifies the choke without requiring arm strength
 - The opponent's defensive grip becomes the mechanism of their own submission
@@ -230,7 +230,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent is holding a guillotine grip from bottom position (closed guard, half guard, or open guard)
 - You have achieved side control or are transitioning to side control
 - Your head is positioned on the far side of opponent's body (not trapped in guillotine)
@@ -243,7 +243,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Secure side control position**: As you pass the guard or establish side control against an opponent holding a guillotine, ensure your chest is heavy on their chest and your hips are low. Your head should be on the far side of their body, away from the arm executing the guillotine grip. Do not try to pull your head out of any partial guillotine pressure—instead, accept the position and focus on establishing dominant control. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Position your shoulder against their neck**: Drive your near-side shoulder (the shoulder closest to their head) directly into the side of their neck on the same side as their gripping arm. This shoulder should make contact with the soft tissue of the neck, not the jaw or chin. Your shoulder becomes the primary pressure point that will compress one carotid artery. Ensure your posture is tight with your head connected to their far shoulder. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Establish crossface control**: Your near arm should cross their face, with your hand gripping behind their far shoulder or under their far armpit. This crossface serves multiple purposes: it prevents them from turning into you, it helps you maintain head position, and it allows you to drive additional pressure through your shoulder into their neck. Your elbow should be tight to their near side to prevent space. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -257,7 +257,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Releasing the guillotine grip immediately** (Effectiveness: High) - Your Adjustment: This is the desired outcome—maintain side control and continue your passing or submission attack from the improved position. Do not continue applying pressure once they release.
 - **Attempting to turn into you to recover guard** (Effectiveness: Low) - Your Adjustment: Your crossface and hip control should prevent this entirely. If they create any turning motion, increase your crossface pressure and walk your hips higher to shut down the movement.
 - **Using legs to push your hips away and create distance** (Effectiveness: Medium) - Your Adjustment: Counter by walking your hips even higher toward their head, which removes their leverage to push. Alternatively, if they successfully create distance, transition to mount while maintaining shoulder pressure.
@@ -266,25 +266,25 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Applying sudden or explosive pressure to the neck [CRITICAL DANGER]
+## Common Mistakes
+- **Mistake**: Applying sudden or explosive pressure to the neck [CRITICAL DANGER]
   - **Consequence**: Partner loses consciousness without time to tap, risking serious injury and creating dangerous training environment
   - **Correction**: Always apply pressure progressively over 3-5 seconds minimum, watching carefully for tap signals or the grip loosening
-- **Error**: Using the jaw or chin as the pressure point instead of the neck [Medium DANGER]
+- **Mistake**: Using the jaw or chin as the pressure point instead of the neck [Medium DANGER]
   - **Consequence**: No choke occurs, opponent experiences jaw pain but no real danger, technique fails
   - **Correction**: Ensure your shoulder is positioned on the soft tissue of the neck lateral to the trachea, below the jaw line, directly targeting the carotid artery
-- **Error**: Failing to control the far hip, allowing opponent to turn in [Low DANGER]
+- **Mistake**: Failing to control the far hip, allowing opponent to turn in [Low DANGER]
   - **Consequence**: Opponent escapes by turning into you and recovering guard, losing the submission and potentially the position
   - **Correction**: Maintain constant connection to the far hip with your far arm, keeping your elbow tight to prevent space creation
-- **Error**: Keeping hips too far from opponent's head [Medium DANGER]
+- **Mistake**: Keeping hips too far from opponent's head [Medium DANGER]
   - **Consequence**: Insufficient angle for effective shoulder pressure, opponent can use legs to create distance and escape
   - **Correction**: Walk your hips progressively closer to their head, creating a more acute angle that increases pressure while limiting their defensive options
-- **Error**: Continuing to apply pressure after opponent releases the guillotine grip [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after opponent releases the guillotine grip [CRITICAL DANGER]
   - **Consequence**: Unnecessary injury risk, poor training partnership, potential for causing unconsciousness when submission is already achieved
   - **Correction**: The moment you feel their grip loosen or release, immediately remove shoulder pressure and consolidate side control—the submission is complete when they let go
-- **Error**: Lifting your head up to look around or see what's happening [Medium DANGER]
+- **Mistake**: Lifting your head up to look around or see what's happening [Medium DANGER]
   - **Consequence**: Creates space under your shoulder, eliminates choke pressure, allows opponent to escape or maintain guillotine grip safely
   - **Correction**: Keep your head connected tightly to their far shoulder throughout the entire sequence, maintaining constant pressure through your shoulder to their neck
 
@@ -293,7 +293,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Von Flue from Half Guard**: When passing half guard against an opponent holding a guillotine, you can apply the Von Flue choke before fully passing to side control. The setup is identical, but you must be careful to prevent them from using their half guard to sweep you as you apply pressure. (When to use: When opponent maintains guillotine grip from bottom half guard during your passing attempt, allowing you to finish the pass with a submission threat)
 
 **Standing Von Flue**: If opponent attempts a standing guillotine and you successfully sprawl, you can apply Von Flue pressure from the standing position by driving your shoulder into their neck while they hold the guillotine. This is less common but highly effective in no-gi scrambles. (When to use: Against standing guillotine attempts where opponent refuses to release grip after you've sprawled and established superior position)
@@ -331,7 +331,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Conceptual Understanding** (Week 1)
 - Focus: Understanding the mechanism of the Von Flue choke as a counter to the guillotine, learning proper shoulder placement on the neck, and understanding the safety implications of blood chokes
 - Resistance: None
@@ -368,7 +368,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[Half Guard]]
@@ -384,7 +384,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Guillotine Choke]]
 - [[Arm in Guillotine]]
@@ -420,7 +420,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The Von Flue choke represents a beautiful example of leverage mechanics in Brazilian Jiu-Jitsu where the opponent's defensive structure becomes the mechanism of their own defeat. The biomechanics are elegant: by maintaining a guillotine grip from an inferior position, the opponent creates a rigid frame with their own arm that crosses their neck. Your shoulder pressure then creates a scissoring effect—one carotid is compressed by your shoulder, the other by their own arm. The key technical detail most practitioners miss is the angle of shoulder pressure. It must be at approximately 45 degrees downward and forward, not straight down. This angle ensures the shoulder contacts the neck lateral to the trachea where the carotid artery is accessible, rather than the more protected frontal aspect of the neck. From a systematic perspective, the Von Flue is not truly a submission technique but rather a positional control mechanism that uses the threat of submission to force behavioral change. Once an opponent understands you can apply this choke, they will release guillotine grips from bottom position, which fundamentally alters their defensive options during your passing sequences. This is the deeper value of the technique—it removes a defensive weapon from their arsenal through the threat of immediate countering. In training, the progressive application of pressure is not merely a safety consideration but a technical one: gradual pressure allows you to feel the exact moment when the choke becomes effective, developing your sensitivity to the proper mechanics. Safety-wise, recognize that blood chokes create unconsciousness rapidly once properly applied. Your responsibility as the person applying the technique is to provide your partner with adequate time to recognize the danger and respond appropriately, which requires patience and control that may feel contrary to competitive instincts but is essential for long-term training partnership.
 - **Gordon Ryan**: In competition, the Von Flue choke is one of the highest-percentage submissions I can threaten because opponents often don't realize they're in danger until it's too late. The mistake most people make is they get caught in a guillotine during a passing sequence, panic, and start trying to pull their head out. That's exactly wrong. If someone has a guillotine on you from bottom position—especially in no-gi—you should be happy because you're about to either pass their guard easily or submit them with the Von Flue. The key is complete commitment to the pass. Don't try to defend the guillotine by pulling your head out; instead, drive forward into the pass while positioning your shoulder on their neck. Most opponents will stubbornly hold the guillotine because they think they're winning the exchange, right up until they go unconscious or are forced to tap. In training versus competition, there's a critical distinction: in training, you apply gradual pressure and release immediately when they tap. In competition, you apply progressive pressure but you can hold it longer because the referee is watching for the tap. However, even in competition, I never try to injure someone with this choke—the goal is the tap, not causing harm. One tactical consideration that's important: once you have a reputation for the Von Flue, opponents stop holding guillotines from bottom, which makes your passing much easier. I've had entire matches where my opponent got a guillotine grip during a scramble and immediately released it because they knew I would punish them with the Von Flue. That fear factor is worth more than the submission itself. For training partners, recognize that the Von Flue is a learning tool. If someone catches you with it, the lesson is clear: don't hold a guillotine from bottom position. Learn that lesson early with light pressure in training rather than learning it the hard way in competition.
 - **Eddie Bravo**: The Von Flue choke is perfect for the 10th Planet system because it addresses one of the main counters people try to use against our aggressive guard passing—the desperation guillotine. When you're playing a dynamic, pressure-based passing game, especially in no-gi, people will grab guillotines constantly because it's their last line of defense. But if you understand the Von Flue, those guillotine attempts become gifts. Here's the mind game aspect that I love: the Von Flue works because of ego. Your opponent is holding a submission grip, so in their mind they're winning, they're attacking, they're dangerous. They don't want to let go because that feels like giving up. That psychological attachment to their own submission attempt is what gets them submitted. It's beautiful—their ego submits them more than your technique. Now, for the 10th Planet guys, we have to modify the application slightly because we're often in more dynamic positions. You might hit the Von Flue from a scramble, from half guard, even from a weird transition where you're not yet fully in side control. The key is recognizing the configuration: their arm is across their own neck (guillotine grip) and you have shoulder access to the opposite side of their neck. Those two elements are all you need—the position is secondary. In terms of training safety, this is one of those techniques where you really need to develop trust with your partners. Because it's a counter-submission, it only happens when someone is trying to submit you first, so emotions can run high. You have to establish with your training partners that if they grab a guillotine from bottom and you start applying the Von Flue, they need to let go or tap immediately. No stubbornness, no proving points. The Von Flue should be a teaching moment: 'Hey, that grip doesn't work from there.' Once everyone understands that, it becomes a valuable safety valve that prevents people from holding onto bad positions too long. One creative application I've developed is using the threat of the Von Flue to set up other submissions. If I'm passing and they grab a guillotine, I'll start applying Von Flue pressure, they'll release their grip, and in that moment of release they're often exposed to other attacks—arm triangles, kimuras, even back takes. The Von Flue doesn't have to finish the fight; it can be the setup for something else.

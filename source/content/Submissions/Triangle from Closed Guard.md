@@ -8,7 +8,7 @@ description: "Master triangle choke from closed guard. Complete guide with safet
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master triangle choke from closed guard. Complete guide with safet
 
 
 
-> **Quick Answer**: Triangle from Closed Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression - apply slowly over 3-5 seconds and release immediately upon tap.
+> Triangle from Closed Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="safety-considerations" class="content-section">
 
-## Is Triangle from Closed Guard Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -217,7 +217,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Angle Creation - Your hips must be angled approximately 90 degrees to opponent's centerline, not directly underneath them, to create proper choking mechanics and prevent them from stacking you
 - Leg Configuration - One leg crosses over opponent's back while the other leg's knee creates the choking corner at their neck; the triangle is complete when your ankle locks behind the opposite knee
 - Arm Isolation - One of opponent's arms must be trapped inside the triangle while the other remains outside; this asymmetry is essential for the choke to function by using their own shoulder against their neck
@@ -231,7 +231,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent must have at least one arm inside your closed guard or be posting with one hand
 - Your guard must be closed or you must have sufficient hip control to manage distance
 - Opponent's posture should be broken forward or you must have grips to break it (collar, back of head, or sleeve)
@@ -245,7 +245,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Control and Angle Creation**: From closed guard, control opponent's posture with collar grip or hand behind their head. Simultaneously control one arm (typically the one you'll trap inside) with your opposite hand gripping their wrist or sleeve. Begin opening your guard while immediately pivoting your hips to create approximately 45-90 degrees of angle relative to opponent's centerline. This angle is critical - if you stay directly underneath them, they can stack you and defend. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Leg Swing and Initial Triangle Frame**: While maintaining wrist/sleeve control of the arm you're trapping inside, swing your same-side leg high over opponent's shoulder and across their back. Your shin should land across their upper back/shoulder blades. The key is to get your leg high on their shoulder, near their neck, not down on their mid-back. Simultaneously use your other leg to create a frame against their far hip to maintain the angle and prevent them from following your movement or stacking you. (Timing: 1 second - must be quick but controlled) [Pressure: Moderate]
 3. **Lock the Triangle Configuration**: Bring your shin down in front of opponent's face while maintaining the high position on their shoulder. Your ankle should cross behind your opposite knee to create the triangle lock. The critical detail is that your knee (the choking leg) must be tight against the side of their neck - this creates the choking corner. Pull their trapped arm across their centerline if needed to ensure it's truly isolated inside the triangle. At this point, the triangle is structurally locked but not yet tight. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -258,7 +258,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Standing up to stack or slam** (Effectiveness: High) - Your Adjustment: Hook opponent's far leg with your bottom arm immediately as they start to stand, preventing them from achieving the base needed to stack effectively. Alternatively, if already standing, release triangle and transition to armbar or sweep rather than risk injury from slam.
 - **Posturing up aggressively with arms pushing on hips/knees** (Effectiveness: High) - Your Adjustment: Instead of fighting their posture directly, release one grip to control their far arm and pull it across, using their defensive posture against them. Alternatively, open to armbar transition when they commit to posting both hands. Never allow sustained upright posture as this makes triangle ineffective.
 - **Turning toward the choking leg to relieve pressure** (Effectiveness: Medium) - Your Adjustment: Follow their turn by adjusting your angle - move your shoulders in the direction they're turning while maintaining triangle lock. You can also transition to armbar on the trapped arm as they turn, or switch to opposite-side triangle if they fully turn out.
@@ -268,28 +268,28 @@ The technical execution of the triangle from closed guard requires precise angle
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Staying directly underneath opponent instead of creating angle [High DANGER]
+## Common Mistakes
+- **Mistake**: Staying directly underneath opponent instead of creating angle [High DANGER]
   - **Consequence**: Opponent can easily stack you and drive forward, making the triangle ineffective and putting you at risk of being passed or slammed
   - **Correction**: Always pivot hips to create 90-degree angle relative to opponent's centerline before locking triangle; your spine should be perpendicular to theirs when viewed from above
-- **Error**: Locking triangle with knee too low on opponent's back/shoulder [Low DANGER]
+- **Mistake**: Locking triangle with knee too low on opponent's back/shoulder [Low DANGER]
   - **Consequence**: Triangle is loose, opponent has more space to escape, and choking pressure cannot be properly generated regardless of how hard you squeeze
   - **Correction**: Ensure your leg swings high over their shoulder, with your shin landing near their neck level, not mid-back; the higher your leg, the tighter the initial lock
-- **Error**: Squeezing legs together laterally instead of extending hips [Low DANGER]
+- **Mistake**: Squeezing legs together laterally instead of extending hips [Low DANGER]
   - **Consequence**: Exhausts your leg muscles quickly without creating proper choking pressure; opponent can often survive by tucking chin or hand-fighting
   - **Correction**: Focus on elevating hips toward ceiling and extending legs straight while pulling opponent's head down; pressure comes from hip extension, not adduction
-- **Error**: Allowing opponent to maintain upright posture during finish [Medium DANGER]
+- **Mistake**: Allowing opponent to maintain upright posture during finish [Medium DANGER]
   - **Consequence**: Triangle cannot function with opponent postured up; they will eventually escape or pass your guard
   - **Correction**: Constantly pull opponent's head down using grips behind head, collar, or far arm; their face should point at your belly button throughout the finish
-- **Error**: Not controlling opponent's posture before attempting leg swing [Medium DANGER]
+- **Mistake**: Not controlling opponent's posture before attempting leg swing [Medium DANGER]
   - **Consequence**: Opponent sees triangle coming and defends by posturing up or blocking your leg, resulting in failed attempt and possible pass
   - **Correction**: Always establish posture control (collar grip, head control, or wrist control) before opening guard and attempting triangle; break their posture first
-- **Error**: Holding choke after tap or continuing pressure when partner goes limp [CRITICAL DANGER]
+- **Mistake**: Holding choke after tap or continuing pressure when partner goes limp [CRITICAL DANGER]
   - **Consequence**: Partner can lose consciousness leading to potential brain injury, or sustain neck/cervical spine injury from excessive pressure
   - **Correction**: Release triangle immediately upon any tap signal or if partner goes limp/stops resisting; check partner's awareness before continuing training
-- **Error**: Jerking or spiking the triangle finish at full speed in training [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the triangle finish at full speed in training [CRITICAL DANGER]
   - **Consequence**: Can cause neck strain, cervical spine injury, or sudden loss of consciousness without warning
   - **Correction**: Always apply pressure progressively over 5-7 seconds minimum in training; partner needs time to recognize pressure and tap safely
 
@@ -298,7 +298,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Triangle from Overhook**: When opponent has overhook on one side, use your free arm to control their opposite wrist and prevent them from posting. Swing your leg on the overhook side over their back to lock triangle. The overhook actually helps trap their arm deeper inside the triangle. (When to use: Excellent against opponents who aggressively seek overhooks in closed guard; their own grip helps you trap the arm inside)
 
 **Triangle from Failed Armbar**: If opponent defends armbar by pulling their arm out and stacking you, immediately swing your top leg over their head to lock triangle. Their defensive posture (bent forward, arm extended) puts them directly into triangle position. (When to use: Natural follow-up when armbar attempt is defended; creates submission chain that makes opponent choose between two finishing positions)
@@ -340,7 +340,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding (Weeks 1-2)** (2 weeks)
 - Focus: Learn triangle mechanics, leg positioning, and angle creation with completely cooperative partner. Practice locking triangle configuration slowly with partner in static position. Emphasis on understanding where choking knee should be, how ankle locks behind opposite knee, and importance of angle.
 - Resistance: None
@@ -377,7 +377,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Closed Guard]]
 - [[Rubber Guard]]
@@ -393,7 +393,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Triangle Choke]]
 - [[Armbar from Guard]]
@@ -436,7 +436,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The triangle choke from closed guard represents perhaps the single most important submission in the entire closed guard system, not merely for its effectiveness as a finishing technique, but for the systematic framework it provides for controlling and attacking from the guard position. The mechanical beauty of the triangle lies in its use of skeletal structure rather than muscular force - when properly configured, your legs create an inescapable frame where the opponent's own trapped shoulder becomes the primary weapon against their neck. The critical technical element that separates effective triangles from ineffective attempts is the geometric relationship between your centerline and theirs - you must achieve approximately perpendicular alignment, creating what I call the 'T-position' when viewed from above. This angle prevents them from using forward pressure to stack you while simultaneously optimizing the choking geometry. Furthermore, understand that the triangle is not an isolated technique but rather the centerpiece of an entire attack system - when your opponent defends the triangle by turning one direction, they expose themselves to the armbar; turn the other direction and the omoplata becomes available. This creates what I term a 'submission triangle' where three techniques - triangle, armbar, and omoplata - form an interconnected system where defending any one attack necessarily opens another. Train the triangle not as a single submission but as the gateway to understanding systematic attacking from the guard position, and you will find it becomes one of your highest-percentage finishing positions across all levels of competition.
 - **Gordon Ryan**: In competition, the triangle from closed guard is one of my absolute highest-percentage submissions because it works at every level from white belt to black belt world championships - I've finished countless opponents with this technique and it never gets old because it's fundamentally sound and difficult to defend when applied correctly. The key difference between how most people hit triangles and how I finish them is the commitment to the angle and the unwillingness to accept half-measures in the setup. When I shoot for triangle, I'm immediately going to the perfect angle - not kind of at an angle, but fully perpendicular - and I'm breaking their posture violently before they even understand what's happening. Most people fail at triangles because they try to finish from directly underneath their opponent or they allow the opponent to maintain some posture, and that's just not going to work against anyone with decent defense. The second critical element is understanding when to transition - if I lock the triangle and they're defending intelligently by turning into my choking leg or pulling their arm out, I'm not going to waste energy fighting a defended position. I'm immediately going to armbar or omoplata depending on which direction they turn. This is what separates competition-level triangle attacks from hobby-level - I'm not hoping to finish one specific technique, I'm creating a systematic problem where they have to choose which submission they want to defend, and their choice determines which one I finish with. In training versus competition, the only difference is speed and pressure - I drill triangles at 60-70% pressure and slower speed, but in competition I'm finishing at 100% as fast as possible once the position is locked. The triangle has won me matches at every major tournament because it's reliable, it works from a fundamental position everyone plays, and when you combine it with armbar and omoplata, it creates an unsolvable problem for your opponent.
 - **Eddie Bravo**: The triangle from closed guard is absolutely fundamental, but where it gets really interesting is when you understand how to use the rubber guard and mission control to set up triangles that your opponent doesn't see coming until it's too late. In the 10th Planet system, we don't just wait for opponents to make mistakes and give us triangle opportunities - we create them by using the high guard and rubber guard to control their posture and arm positioning in ways that make triangle entries inevitable. When you get to mission control position with the rubber guard, you've got complete control of their posture and their arm is already where you need it for the triangle, so the transition is seamless and fast. The beauty of the triangle is its versatility - you can hit it from so many different positions and you can disguise it within other attacks. I love setting up triangles from failed omoplata attempts, from the dogfight position in half guard, and especially from the rubber guard where I can control their head and prevent them from posturing before they even realize I'm going for it. One thing that's critical but often overlooked is that the triangle shouldn't just be thought of as a submission finish - it's a control position that opens up a whole world of attacks. From triangle control, you can go to omoplata, armbar, triangle armbar combinations, sweep them, take their back - it's a hub position for the entire guard game. The other innovation we focus on is using the triangle as a defensive position when someone's trying to pass your guard - if they're driving forward aggressively, sometimes the best defense is to attack with triangle because it stops their passing momentum and puts them on the defensive immediately. Safety-wise, especially when you're drilling this with your training partners, always give them time to tap and never spike or jerk the finish - we want to build a culture where people can train hard without getting injured, and that means being responsible with submissions that can put people out quickly like the triangle. Train it slow, train it often, and understand that mastering the triangle from closed guard opens up your entire guard game because opponents become so worried about it that they give you everything else.

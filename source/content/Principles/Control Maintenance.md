@@ -8,7 +8,7 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
 
 
 
-> **Quick Answer**: Control Maintenance is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Control Maintenance is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Apply continuous pressure that prevents opponent's movement without creating escape opportunities through overcommitment
 - Maintain multiple connection points distributing control across different body areas
 - Adjust position dynamically in response to opponent's escape attempts rather than remaining static
@@ -181,7 +181,7 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Pressure Modulation**: The ability to vary pressure intensity and direction based on opponent's defensive reactions, applying maximum pressure when opponent attempts escape while conserving energy during passive periods. This skill requires constant feedback reading and tactical adjustment.
 
 **Connection Reinforcement**: The practice of maintaining and strengthening multiple contact points with opponent's body, redistributing connections when one is threatened, and establishing new control points preemptively before old ones are broken. Skilled practitioners maintain 3-5 simultaneous connections.
@@ -204,7 +204,7 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Control Point Hierarchy]]** (Prerequisite): Understanding which body areas provide highest-value control is prerequisite to effective control maintenance, as practitioners must know what connections to prioritize when forced to choose during opponent's escape attempts.
 - **[[Pressure Application]]** (Complementary): Pressure application provides the mechanical means through which control maintenance is achieved, with both concepts working synergistically to prevent opponent movement and escape.
 - **[[Base Maintenance]]** (Prerequisite): Stable base is fundamental requirement for control maintenance, as practitioners cannot effectively maintain dominant position while defending their own structural stability from opponent's attacks.
@@ -221,7 +221,7 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Mount**: Control maintenance in mount requires distributing weight across opponent's torso and hips while maintaining high posture that prevents bridge-and-roll escapes, using gable grip or S-mount configuration to prevent elbow escape mechanics, and continuously adjusting base width and weight distribution as opponent attempts various escape patterns.
 
 **Side Control**: From side control, control maintenance involves establishing crossface and underhook connections while applying shoulder pressure to prevent opponent's hip escape, modulating chest pressure to prevent bridge attempts, and transitioning between various side control configurations as opponent's defensive reactions change.
@@ -258,7 +258,7 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current control security and identify primary escape threats**: Evaluate which connections are secure versus threatened, identify opponent's most likely escape pathway based on current body position, and determine if immediate adjustment is required or if position is momentarily stable.
 2. **Establish or reinforce highest-value control points**: Prioritize securing control points that prevent most dangerous escape options (typically head control, underhook, or crossface depending on position), accepting temporary loss of lower-value connections if necessary to secure critical ones.
 3. **Apply appropriate pressure based on opponent's defensive reactions**: Increase pressure intensity when opponent attempts active escape movements, moderate pressure during passive periods to conserve energy, and adjust pressure direction to counter specific escape mechanics opponent is employing.
@@ -271,28 +271,28 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Maintaining static position without dynamic adjustment to opponent's escape attempts
+## Common Mistakes
+- **Mistake**: Maintaining static position without dynamic adjustment to opponent's escape attempts
   - **Consequence**: Creates predictable control pattern that opponent can systematically defeat through practiced escape sequences, eventually enabling escape success even against initially dominant position.
   - **Correction**: Develop habit of continuous micro-adjustment in response to opponent's movements, treating control maintenance as active process requiring constant attention rather than passive achievement once position is established.
-- **Error**: Applying maximum pressure constantly without modulating based on opponent's reactions
+- **Mistake**: Applying maximum pressure constantly without modulating based on opponent's reactions
   - **Consequence**: Rapidly depletes practitioner's energy resources while creating excessive pressure points that opponent can exploit for escape, particularly through bridging or explosive movements that use practitioner's committed pressure against them.
   - **Correction**: Learn to vary pressure intensity strategically, applying maximum force only when opponent attempts active escape while moderating to sustainable levels during passive periods, developing 'active rest' within dominant positions.
-- **Error**: Prioritizing submission attempts over control maintenance before position is secure
+- **Mistake**: Prioritizing submission attempts over control maintenance before position is secure
   - **Consequence**: Creates escape opportunities when practitioner commits to offensive attacks from unstable position, often resulting in position loss and reversal of advantageous situation into neutral or defensive position.
   - **Correction**: Internalize position-over-submission approach, ensuring control is sufficiently secure before attempting submissions, accepting that slower offensive progression produces higher success rates and fewer position losses.
-- **Error**: Failing to recognize and counter escape attempts in their initial stages
+- **Mistake**: Failing to recognize and counter escape attempts in their initial stages
   - **Consequence**: Allows opponent's escape mechanics to develop full momentum before implementing counters, making position retention far more difficult and energy-intensive than early intervention would require.
   - **Correction**: Develop pattern recognition for early escape indicators including postural changes, weight shifts, and frame creation attempts, implementing preemptive counters when escape is still in preparation phase rather than execution phase.
-- **Error**: Maintaining insufficient connection points or over-relying on single control mechanism
+- **Mistake**: Maintaining insufficient connection points or over-relying on single control mechanism
   - **Consequence**: Creates fragile control structure that collapses completely when opponent defeats single critical connection, enabling rapid escape from what appeared to be dominant position.
   - **Correction**: Establish multiple redundant connections distributing control across different body areas, ensuring that loss of any single connection still leaves sufficient control to maintain position while reestablishing broken connection.
-- **Error**: Neglecting base maintenance while focusing on pressure application
+- **Mistake**: Neglecting base maintenance while focusing on pressure application
   - **Consequence**: Allows opponent to use practitioner's committed pressure and compromised base against them, enabling sweeps or reversals even from inferior positions through exploitation of structural imbalance.
   - **Correction**: Coordinate pressure application with base maintenance, ensuring structural stability is preserved even while applying significant control pressure, and recognizing when base must be prioritized over pressure increase.
-- **Error**: Using exclusively muscular force rather than structural and technical control
+- **Mistake**: Using exclusively muscular force rather than structural and technical control
   - **Consequence**: Creates unsustainable control approach that fails as fatigue develops, enabling opponent to escape simply by outlasting practitioner's physical capacity rather than through superior technique.
   - **Correction**: Develop technical control methods that use body position, weight distribution, and structural alignment rather than muscular force, enabling sustained control throughout extended engagements without excessive energy expenditure.
 
@@ -301,7 +301,7 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Positional Sparring with Escape Focus** (Focus: Developing sustainable control methods and escape recognition through repetitive exposure to opponent's defensive efforts, building both technical skill and psychological comfort with extended position maintenance.)
 Practice control maintenance through positional rounds where bottom player's sole objective is escaping while top player focuses exclusively on position retention without submission attempts. Time-based rounds (2-5 minutes) develop endurance and efficiency in control maintenance.
 
@@ -326,7 +326,7 @@ Study video footage of high-level competition matches focusing specifically on c
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Can maintain mount or side control against passive opponent for 30+ seconds without position loss
 - Recognizes when opponent is actively attempting escape versus remaining passive
@@ -370,7 +370,7 @@ Study video footage of high-level competition matches focusing specifically on c
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Control Point Hierarchy]] (Principle) - Prerequisite concept defining which connections to prioritize during control maintenance
 - [[Pressure Application]] (Principle) - Complementary concept providing mechanical means for achieving control maintenance
@@ -390,7 +390,7 @@ Study video footage of high-level competition matches focusing specifically on c
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: John Danaher approaches control maintenance as systematic application of pressure and connection principles, emphasizing that position maintenance is active process requiring continuous micro-adjustments rather than static achievement. He teaches specific pressure patterns and connection reinforcement strategies for each dominant position, viewing control maintenance as technical skill requiring deliberate practice. Danaher emphasizes concept of 'control hierarchy' where maintaining highest-value connections enables position security even when lower-value connections are compromised. He systematically teaches how to recognize and counter each escape mechanics pattern before it develops threatening momentum, creating proactive rather than reactive control maintenance. Danaher's approach treats control maintenance as prerequisite to offensive actions, insisting that submission attempts from unstable positions represent technical errors regardless of whether submissions succeed.
 - **Gordon Ryan**: Gordon Ryan views control maintenance as dynamic pressure application requiring constant opponent reading and anticipatory adjustment. He focuses on what he terms 'active control' where pressure and position are modulated continuously based on opponent's defensive reactions rather than maintaining static control configuration. Ryan emphasizes efficiency in control maintenance, noting that exhaustive pressure application creates fatigue that enables opponent's eventual escape, while intelligent pressure conservation enables sustained dominance. He particularly focuses on controlling pace of engagement from dominant positions, using control maintenance to create high-pressure situations that force opponent into mistakes rather than allowing them to execute practiced escape sequences. Ryan's competition experience demonstrates that superior control maintenance often provides greater competitive advantage than submission skills, as opponents who cannot escape become exhausted and demoralized regardless of whether submissions are attempted.
 - **Eddie Bravo**: Eddie Bravo has developed specialized control maintenance approaches within his 10th Planet system, particularly in unconventional positions where traditional pressure patterns are replaced with innovative control mechanisms. When teaching control maintenance, Bravo emphasizes importance of what he calls 'control creativity' where practitioners develop position-specific control innovations rather than relying solely on conventional pressure and connection patterns. He advocates for understanding control maintenance as psychological as well as physical, noting that unpredictable pressure patterns and unconventional positions create mental stress that amplifies control effectiveness beyond purely mechanical considerations. Bravo's approach includes position-specific control systems like the Lockdown from half guard and Rubber Guard from closed guard, where non-standard control mechanisms achieve similar objectives as traditional methods while creating different defensive problems for opponents. His teaching emphasizes that control maintenance innovation enables competitive success against opponents who have developed defenses against conventional control patterns.

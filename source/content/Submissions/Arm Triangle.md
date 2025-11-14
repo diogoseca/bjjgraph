@@ -8,7 +8,7 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 
 
 
-> **Quick Answer**: Arm Triangle is a blood choke targeting the Carotid arteries (compressed by opponent's own shoulder and your arm). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke - apply slowly over 3-5 seconds and release immediately upon tap.
+> Arm Triangle is a blood choke targeting the Carotid arteries (compressed by opponent's own shoulder and your arm). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke. Apply gradually and release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -168,7 +168,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="safety-considerations" class="content-section">
 
-## Is Arm Triangle Dangerous? Complete Safety Guide
+## Safety Guide
 
 **Injury Risks**:
 
@@ -209,7 +209,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles for Success?
+## Key Principles
 - Create the triangle structure: your arms and opponent's trapped arm/shoulder form three sides around their neck
 - Head position is critical: your head must be tight to opponent's head on the choke side to prevent space
 - Shoulder pressure drives the choke: walk your shoulder toward opponent's head to compress carotid
@@ -223,7 +223,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Attempting This Submission?
+## Prerequisites
 - Opponent's near arm must be isolated and positioned across their own neck
 - Head control established with your head tight to opponent's head
 - Crossface control active to prevent opponent turning into you
@@ -236,7 +236,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission Step-by-Step
+## How to Execute This Submission
 1. **Isolate and trap the near arm**: From side control with crossface pressure, use your chest and shoulder to drive opponent's near arm across their own neck. The key is making their defensive frame become the choking mechanism. Drive your weight through your shoulder while controlling their head, forcing their arm to cross their centerline. This arm will compress one carotid artery while your arm compresses the other. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Thread the choking arm deep**: Slide your near arm (the one closest to opponent's head) under their neck, reaching as deep as possible toward the far side of their neck. Your bicep should contact one side of their neck while their own trapped shoulder/arm contacts the other side. The deeper you can thread this arm, the tighter the eventual choke. Your forearm should emerge on the far side of their head with your hand reaching toward their far shoulder. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Lock the grip and create the triangle**: Reach your free hand over opponent's back and grab your own bicep (gable grip) or clasp your hands together. This creates the triangle structure: your bicep on one side of their neck, their trapped arm/shoulder on the other side, and your forearm across the back of their head/neck. Ensure your head is positioned tight against opponent's head on the choke side—this is critical to prevent space and escape. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -249,7 +249,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="opponent-defense-patterns" class="content-section">
 
-## How Does the Opponent Defend This Submission?
+## Opponent Defenses
 - **Frame against your neck/chin with trapped arm** (Effectiveness: High) - Your Adjustment: Maintain crossface pressure and wait for arm to fatigue, or use your weight to collapse the frame by driving your shoulder through their arm structure. Once frame collapses, thread deeper immediately.
 - **Turn into you to recover guard** (Effectiveness: High) - Your Adjustment: Prevent the turn by maintaining heavy crossface and hip pressure. If they begin turning, you can transition to taking the back or switching to a guillotine variation. Do not fight the turn if they commit—flow with it to back control.
 - **Bridge and create space at the hips** (Effectiveness: Medium) - Your Adjustment: Base wide with your legs and keep your weight distributed through your shoulder toward their head, not your hips. A proper arm triangle keeps weight high on the shoulders, making hip escapes less effective. Tighten your head position to their head.
@@ -259,25 +259,25 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Submission?
-- **Error**: Squeezing with arm strength alone without shoulder pressure [Low DANGER]
+## Common Mistakes
+- **Mistake**: Squeezing with arm strength alone without shoulder pressure [Low DANGER]
   - **Consequence**: Choke never tightens fully, opponent can defend indefinitely, you fatigue your arms quickly
   - **Correction**: Use your entire body weight driving through your shoulder toward opponent's head. The squeeze comes from structural pressure and body positioning, not bicep strength. Walk your knees forward to increase shoulder drive.
-- **Error**: Head position too far from opponent's head (space between heads) [Low DANGER]
+- **Mistake**: Head position too far from opponent's head (space between heads) [Low DANGER]
   - **Consequence**: Opponent can turn their head into the space and relieve pressure on carotid arteries, preventing the finish
   - **Correction**: Keep your head glued tight to opponent's head on the choke side throughout the entire sequence. Think of your head as a plug preventing their escape. No space should exist between your heads.
-- **Error**: Finishing from directly perpendicular side control position [Low DANGER]
+- **Mistake**: Finishing from directly perpendicular side control position [Low DANGER]
   - **Consequence**: Choke angle is inefficient, opponent can bridge or turn more easily, finish becomes strength-based
   - **Correction**: Always adjust your angle toward the trapped arm side before finishing. Move toward north-south or step into modified mount. The angle change is what makes the choke work with technique rather than strength.
-- **Error**: Not threading arm deep enough under opponent's neck [Medium DANGER]
+- **Mistake**: Not threading arm deep enough under opponent's neck [Medium DANGER]
   - **Consequence**: Insufficient control of one side of neck, choke becomes one-sided arm bar on neck rather than true blood choke
   - **Correction**: Before locking your grip, ensure your choking arm is as deep as possible with your bicep on the far side of their neck. Your hand should be reaching toward their far shoulder. Depth creates the proper triangle structure.
-- **Error**: Holding the choke after opponent taps or goes unconscious [CRITICAL DANGER]
+- **Mistake**: Holding the choke after opponent taps or goes unconscious [CRITICAL DANGER]
   - **Consequence**: Can cause loss of consciousness, potential brain damage from prolonged oxygen deprivation, or stroke in extreme cases
   - **Correction**: Release immediately upon any tap signal. Watch opponent's face color and resistance level. If they go limp or stop resisting, release instantly even without tap. Blood chokes work quickly—there is no benefit to holding pressure after tap.
-- **Error**: Applying sudden jerking or spiking pressure to finish faster [CRITICAL DANGER]
+- **Mistake**: Applying sudden jerking or spiking pressure to finish faster [CRITICAL DANGER]
   - **Consequence**: Can cause neck strain, whiplash-type injury, or force unconsciousness before opponent can tap safely
   - **Correction**: Apply smooth, progressive pressure over 3-5 seconds minimum. The gradual increase allows opponent to recognize the danger and tap safely. Training is about control and learning, not speed finishes.
 
@@ -286,7 +286,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="variations-and-setups" class="content-section hide-minimal">
 
-## What Are the Variations of This Submission?
+## Variations
 **Arm Triangle from Mount**: When opponent frames from bottom mount with one arm, trap that arm across their neck and transition to side control or modified mount to finish. This is often easier to set up than from side control because opponent's defensive frames from mount naturally position their arm across their neck. (When to use: When opponent uses stiff arm defense from bottom mount, or when you have high mount and opponent tries to push your head away)
 
 **Arm Triangle from North-South**: From north-south position with opponent's arm trapped, use your body weight driving through your shoulder while maintaining the triangle structure. Some practitioners prefer this finish because the downward shoulder pressure is easier to generate from this angle. (When to use: When transitioning from side control to north-south and opponent's arm is already trapped, or when opponent defends initial side control finish by turning away)
@@ -326,7 +326,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
 
-## How to Train This Submission Safely Over Time
+## Training Progressions
 **Technical Understanding** (Week 1-2)
 - Focus: Learn triangle structure, head positioning, and basic mechanics without any finishing pressure. Partner remains completely safe while you practice grip, angle, and positioning.
 - Resistance: None
@@ -363,7 +363,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="from-positions" class="content-section">
 
-## From Which Positions Can You Apply This Submission?
+## From Which Positions?
 
 - [[Side Control]]
 - [[Mount]]
@@ -380,7 +380,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="related-submissions" class="content-section">
 
-## Which Submissions Are Related or Chain Together?
+## Related Submissions
 
 - [[Darce Choke]]
 - [[Anaconda Choke]]
@@ -421,7 +421,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Submission?
+## Expert Insights
 - **Danaher System**: The arm triangle represents a perfect example of systemic efficiency in Brazilian Jiu-Jitsu—you're using the opponent's own defensive structure as the primary weapon against them. The key to understanding this submission at a deep level is recognizing that it's not actually your arms doing the choking; rather, you're creating a structural triangle where the opponent's shoulder becomes one side of the compression mechanism. Most practitioners make the error of trying to squeeze with arm strength, which is both exhausting and ineffective. The superior approach is to establish the triangle structure first—ensuring your arm is threaded deeply under their neck, their arm is properly positioned across their own neck, and your grip is secure—then use your entire body weight driving through your shoulder to create the compression. The finish is achieved by walking your shoulder toward their head incrementally, with each small step of your knees forward increasing pressure exponentially. Head positioning cannot be overstated: your head must be glued to their head on the choke side, acting as a plug that prevents any turning or escape. From a safety perspective, this is a blood choke affecting the carotid arteries, meaning it can cause unconsciousness rapidly if applied with full pressure. In training, we must always apply progressive pressure over several seconds, giving our partner ample time to recognize the danger and tap. The educational value of the arm triangle extends beyond just finishing—it teaches the fundamental principle of using opponent's position against them, which applies across all of jiu-jitsu.
 - **Gordon Ryan**: In competition, the arm triangle is one of my highest-percentage finishes from top position because it's incredibly difficult to defend once the structure is locked and the angle is correct. The setup I prefer most often comes from mount when my opponent tries to push my head away with a stiff arm—that defensive frame is exactly what I need to finish them. I'll trap that arm across their neck, slide my choking arm deep underneath, and immediately start transitioning my angle toward modified mount or north-south. The critical detail that separates elite-level arm triangle finishes from beginner attempts is the angle adjustment—you cannot finish this effectively from straight side control. You must move your body position toward the trapped arm side, which allows your shoulder to drive more directly into their head and creates the compression needed on both carotid arteries simultaneously. In competition, I'm looking to finish this within 5-7 seconds once the lock is established because I know my opponent is also elite and will be working defensive frames aggressively. However, in training, the approach must be completely different. I never spike or jerk this submission in the gym because it's too dangerous—blood chokes can put someone out cold in under 10 seconds if you're not careful. I apply slow, progressive pressure and release immediately on the tap. The distinction between competition intensity and training safety is something every serious competitor must understand and respect. Your training partners are what allow you to develop these skills; injuring them through carelessness defeats the entire purpose of training.
 - **Eddie Bravo**: The arm triangle is a fundamental finish in the 10th Planet system because it works seamlessly from so many positions we commonly find ourselves in—whether that's side control after passing, modified mount during transitions, or even from turtle when we're hunting for back control. One of the innovations we emphasize is the modified mount finish where you step over into almost an S-mount position with your shin across their torso. This gives you incredible control and allows you to really drive that shoulder pressure down through their neck while they can't bridge or turn effectively. The setup I teach most often comes from the truck position or when the opponent turtles—they're defending with their arms extended, which makes it easy to trap one arm across their own neck and roll them over into the finish. What's cool about the arm triangle is that it teaches a bigger lesson about jiu-jitsu: using the opponent's defensive positioning as your offense. They're trying to frame and create space, but you're turning that frame into the choking mechanism. That's beautiful technique right there. From a safety standpoint, we drill this submission extensively but always with the understanding that it's a blood choke that works fast. In our training culture, we emphasize tapping early and often—there's no shame in tapping, there's only stupidity in not tapping and getting injured or choked unconscious. We practice the finish with slow, controlled pressure, and we never hold submissions after the tap. The goal is to develop ninjas who can finish in competition when needed, but who train smart and keep their partners safe so everyone can keep training tomorrow. An injured training partner helps nobody.

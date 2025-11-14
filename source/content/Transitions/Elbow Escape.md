@@ -8,7 +8,7 @@ description: "Master the Elbow Escape from side control in BJJ. Step-by-step exe
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Elbow Escape from side control in BJJ. Step-by-step exe
 
 
 
-> **Quick Answer**: Elbow Escape transitions from [[Side Control]] to [[Knee Shield Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Elbow Escape transitions from [[Side Control]] to [[Knee Shield Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Elbow Escape, also known as the shrimp escape or hip escape, is the most fun
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create strong frames using skeletal structure, not muscular strength, to maintain distance from opponent's chest
 - Generate space through explosive hip movement away from opponent (shrimping motion)
 - Insert knee shield immediately when space is created to prevent opponent from reclosing distance
@@ -180,7 +180,7 @@ The Elbow Escape, also known as the shrimp escape or hip escape, is the most fun
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Bottom player is flat on back with opponent in stable side control position
 - Opponent's chest is applying pressure to bottom player's chest
 - Bottom player's far arm is free and not trapped under opponent's body
@@ -193,7 +193,7 @@ The Elbow Escape, also known as the shrimp escape or hip escape, is the most fun
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish frames**: Place your far-side hand on opponent's near shoulder or neck, creating your primary pushing frame. Position your near-side elbow on opponent's hip bone, creating a secondary frame. These frames work together to create distance between your chest and theirs. Your near elbow should be tight to your ribs, creating a strong structural frame rather than pushing with arm strength. Keep your forearm perpendicular to opponent's body for maximum structural integrity. (Timing: Establish frames immediately when recognizing stable side control)
 2. **Bridge and turn into opponent**: Explosively bridge your hips off the mat, driving through your feet while turning slightly toward your opponent. This creates momentary weight redistribution and forces them to post their hands or adjust their base. The bridge should be directed at a 45-degree angle toward your opponent's head, not straight up. This motion creates the initial space needed for the hip escape and disrupts their pressure. (Timing: Bridge explosively as opponent settles their weight or attempts to improve position)
 3. **Hip escape (shrimp away)**: As you land from the bridge, immediately shrimp your hips away from opponent by pulling your near knee up toward your chest and explosively pushing your hips backward along the mat. Your far leg should be bent with foot flat on the mat, providing the pushing power. Drive through this foot while simultaneously pulling with your frames. This creates 4-6 inches of space between your hip and opponent's body. Your head should move in the opposite direction of your hips. (Timing: Execute shrimp immediately upon landing from bridge, using the momentum)
@@ -206,7 +206,7 @@ The Elbow Escape, also known as the shrimp escape or hip escape, is the most fun
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent drops weight and crossfaces to prevent bridge** (Effectiveness: High) - Your Response: Use smaller, technical shrimps without bridging first, or wait for weight shift when opponent attempts submission or mount transition. Focus on framing first, then create micro-spaces through incremental hip movement.
 - **Opponent controls near hip and prevents shrimp** (Effectiveness: High) - Your Response: Redirect hip escape to far side instead, or use ghost escape variation by turning into opponent and coming up to knees. Can also chain to other escapes like turning to turtle position.
 - **Opponent steps over to mount during knee insertion** (Effectiveness: Medium) - Your Response: Keep knee shield tight to your chest and prevent them from clearing it. If mount is inevitable, immediately trap their foot and begin mount escape sequence. Prevention is key - insert knee deep between your bodies.
@@ -216,28 +216,28 @@ The Elbow Escape, also known as the shrimp escape or hip escape, is the most fun
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Pushing with arms instead of creating structural frames
+## Common Mistakes
+- **Mistake**: Pushing with arms instead of creating structural frames
   - **Consequence**: Arms fatigue quickly and opponent easily collapses frames using their body weight, wasting energy without creating lasting space
   - **Correction**: Keep elbows tight to body, use skeletal structure by keeping forearms perpendicular to opponent's body. Frames should feel 'heavy' not 'pushy'
-- **Error**: Bridging straight up instead of toward opponent at angle
+- **Mistake**: Bridging straight up instead of toward opponent at angle
   - **Consequence**: Opponent simply waits for you to land and maintains position, bridge creates no useful space or weight disruption
   - **Correction**: Bridge at 45-degree angle toward opponent's head, forcing them to post hands and adjust base. The bridge should create actual movement in their position
-- **Error**: Shrimping without bridging first (in most scenarios)
+- **Mistake**: Shrimping without bridging first (in most scenarios)
   - **Consequence**: Insufficient space created as opponent's weight is still heavy on your chest, hip movement is restricted and ineffective
   - **Correction**: Bridge first to lighten their weight and create initial space, then shrimp immediately upon landing. The bridge-shrimp combination is more effective than either alone
-- **Error**: Inserting knee too shallow between bodies
+- **Mistake**: Inserting knee too shallow between bodies
   - **Consequence**: Opponent easily clears knee and returns to side control or advances to mount, wasted effort without defensive benefit
   - **Correction**: Drive knee deep between your bodies immediately when space opens. Knee should reach opponent's chest/sternum, not just touch their stomach
-- **Error**: Stopping after one shrimp when insufficient space created
+- **Mistake**: Stopping after one shrimp when insufficient space created
   - **Consequence**: Opponent maintains control and recaptures dominant position, partial escape becomes no escape
   - **Correction**: Chain multiple shrimps together until guard is fully recovered. Most escapes require 2-3 shrimps. Maintain frames between each shrimp
-- **Error**: Allowing opponent to establish crossface during escape attempt
+- **Mistake**: Allowing opponent to establish crossface during escape attempt
   - **Consequence**: Head control prevents effective bridging and gives opponent ability to flatten you or take back, escape becomes nearly impossible
   - **Correction**: Protect neck with near-side hand, keep chin tucked, and block crossface attempts. If crossface is established, must address it before attempting escape
-- **Error**: Leaving far leg extended during shrimp
+- **Mistake**: Leaving far leg extended during shrimp
   - **Consequence**: No power generated for hip escape, movement is weak and creates minimal space
   - **Correction**: Bend far leg with foot flat on mat, drive through this foot explosively during shrimp. This leg provides the power for the escape
 
@@ -246,7 +246,7 @@ The Elbow Escape, also known as the shrimp escape or hip escape, is the most fun
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Solo Movement (Week 1-2)** - Hip escape mechanics and framing structure
 Practice shrimping movement solo on mat, focusing on proper hip mechanics, head movement opposite direction of hips, and explosive power generation. Practice establishing frames against wall or with partner holding pads. Perform 3 sets of 10 shrimps each direction daily. Focus on quality of movement, not speed. Learn to chain multiple shrimps together smoothly.
 (Resistance: None)
@@ -277,7 +277,7 @@ Regular drilling to maintain muscle memory and timing. Experiment with personal 
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Ghost Escape**: Instead of shrimping away, turn into opponent and come up to knees, using their forward pressure against them. Create space by getting chest-to-chest and circling to turtle or guard recovery. (When to use: When opponent controls your far hip and prevents traditional shrimp, or when opponent is very heavy and traditional escape is energy-intensive. Particularly effective against larger opponents.)
 
 **Running Escape**: Chain multiple rapid shrimps together without pausing to establish frames between each one. Create cumulative space through movement speed rather than single powerful shrimp. (When to use: When opponent maintains heavy pressure and single shrimps are ineffective. When you need to create significant distance quickly. Common in no-gi where frames are less stable.)
@@ -322,7 +322,7 @@ Regular drilling to maintain muscle memory and timing. Experiment with personal 
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Practice bridging with control to avoid neck strain or hyperextension - the bridge should be explosive but controlled, using proper hip drive rather than forcing with the neck. Ensure adequate mat space is available as the escape can move you several feet across the mat, and colliding with walls or other practitioners can cause injury. During drilling, the top partner should allow the escape when proper technique is executed to prevent training injuries and allow skill development. Beginners should build explosive power gradually, starting with slow technical repetitions before adding speed and power. When training with significant size mismatches, smaller practitioners should focus on technical precision rather than trying to muscle through the escape. Both partners should communicate about pressure levels, especially when introducing progressive resistance. Stop immediately if neck pain, shoulder pain, or hip discomfort occurs, as these can indicate improper mechanics.
 
@@ -330,7 +330,7 @@ Practice bridging with control to avoid neck strain or hyperextension - the brid
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The Elbow Escape serves as the foundational defensive technique from side control and forms the cornerstone of the entire bottom position defensive framework in BJJ. It connects directly to the guard retention system, as successful execution leads to half guard, closed guard, or open guard positions where the defensive practitioner can begin their own offensive sequences. This escape is typically the first defensive response taught to new practitioners because it applies universal principles (framing, hip escape, space creation) that transfer to escaping from mount, knee-on-belly, north-south, and other pinning positions. The escape integrates with the broader positional hierarchy where practitioners fight to prevent mount or back control by successfully executing the elbow escape from side control. It also connects to the submission defense system, as many side control submissions (americana, kimura, arm triangle) become less threatening once proper frames and hip escape mechanics are employed. Advanced practitioners layer the elbow escape with other defensive techniques like the running escape, ghost escape, or technical standup, creating a comprehensive defensive system that adapts to different opponent reactions. Understanding this escape is essential for developing a complete bottom game, as it represents the technical foundation upon which all other escapes and reversals are built.
 
@@ -338,7 +338,7 @@ The Elbow Escape serves as the foundational defensive technique from side contro
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Shrimp Escape]] - Alternative name - same technique with emphasis on hip movement
 - [[Frame and Shrimp]] - Related concept - combines framing with shrimping motion
@@ -358,7 +358,7 @@ The Elbow Escape serves as the foundational defensive technique from side contro
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The elbow escape represents the fundamental architecture of defensive movement in Brazilian Jiu-Jitsu, built upon three immutable biomechanical principles that every practitioner must internalize. First, understand that frames are structural, not muscular - your skeleton is far stronger than your muscles, and proper frame construction using bone alignment creates insurmountable barriers that cannot be collapsed through pressure alone. Keep your elbows tight to your ribs and your forearms perpendicular to your opponent's torso to create frames that operate on structural integrity rather than strength. Second, the bridge-shrimp sequence is not arbitrary but represents optimal force generation and space creation - the bridge unweights your opponent and disrupts their base, while the shrimp capitalizes on this disruption to generate lateral movement. The timing between these movements is critical; shrimp immediately upon landing from the bridge while their weight is still adjusting. Third, recognize that escapes are rarely completed in a single movement - the insertion of the knee shield represents a checkpoint in a longer defensive sequence, not an end goal. Your objective is not merely to insert a knee, but to establish a defensive guard position from which you can begin your own systematic attacks. The elbow escape, therefore, is not simply an escape technique but the foundational movement pattern that underlies all defensive work in the art.
 - **Gordon Ryan**: In competition, the elbow escape is your most reliable and highest-percentage defensive technique from side control, but its effectiveness depends entirely on timing and commitment to the movement. I've used this escape countless times at the highest levels of competition, and the key difference between success and failure is recognizing the precise moment when your opponent's weight shifts and exploding into the escape with complete commitment. You cannot hesitate or perform tentative half-shrimps - you must bridge explosively and shrimp with maximum power, creating enough space in a single sequence to get your knee shield deep between your bodies. Against elite opponents, you often need to chain two or three powerful shrimps together because they're excellent at maintaining pressure and closing space. Here's the reality: if you're getting flattened out repeatedly from your escape attempts, you're either telegraphing your movement, attempting the escape while their weight is too heavy, or not creating deep enough frames before initiating. Watch your opponent's hands and weight distribution - when they post a hand, reach for a submission, or attempt to transition to mount, their chest pressure lightens momentarily and that's your escape window. Also, don't be married to recovering closed guard every time - sometimes half guard is perfectly acceptable, and sometimes the escape creates opportunities to come up to your knees or take the back. The elbow escape opens multiple pathways; stay opportunistic and take what your opponent gives you.
 - **Eddie Bravo**: The elbow escape is fundamental, but here's where most people miss the opportunity to make it way more effective - you've got to combine it with misdirection and create real dilemmas for the top player. In the 10th Planet system, we don't just shrimp away blindly; we use the threat of the ghost escape (turning into them) to make the traditional elbow escape more effective. If your opponent knows you might turn into them at any moment, they can't just heavy pressure you and wait - they have to respect multiple escape paths. Also, most people don't utilize the lockdown position enough after a successful elbow escape to half guard. Once you get that knee shield in, if you can immediately establish the lockdown on their leg, you've got them in your control system where you can start working electric chair sweeps, plan B attacks, or the whole sequence of offensive options. The escape isn't just about getting out of a bad position; it's about transitioning into your offensive system. Another thing - in no-gi especially, I'm way more likely to use the elbow escape to create space for a technical standup rather than pulling guard, because standing back up denies them any top control and resets to neutral. Think about the escape as creating options, not just recovering guard. Every time you create space, you're creating opportunity for something creative, and that's where the real game is played.

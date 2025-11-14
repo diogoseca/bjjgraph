@@ -8,7 +8,7 @@ description: "Master grip fighting in BJJ. Learn strategic hand engagement, grip
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -145,7 +145,7 @@ description: "Master grip fighting in BJJ. Learn strategic hand engagement, grip
 
 
 
-> **Quick Answer**: Grip Fighting is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
+> Grip Fighting is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
 **Principle ID**: 
 **Application Level**: Intermediate
@@ -165,7 +165,7 @@ Grip Fighting represents the fundamental tactical battle for control through han
 
 <section id="key-principles" class="content-section">
 
-## What Are the Fundamental Principles?
+## Core Components
 - Establish advantageous grips before opponent secures their preferred controls
 - Deny opponent's primary grip objectives through preventative hand fighting
 - Break established grips using efficient biomechanical leverage rather than strength
@@ -181,7 +181,7 @@ Grip Fighting represents the fundamental tactical battle for control through han
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Principle?
+## Component Skills
 **Grip Establishment**: The ability to secure desired grips quickly and efficiently before the opponent can establish their preferred controls. This requires understanding optimal grip placements for different positions, recognizing windows of opportunity, and executing grip acquisitions with proper hand positioning and timing to maximize control while minimizing telegraphing.
 
 **Grip Breaking Mechanics**: The technical ability to remove opponent grips using leverage principles rather than strength. This involves understanding breaking angles, utilizing two-hands-on-one principles, creating frames against grips, and timing breaks to coincide with opponent's movements or transitions to maximize efficiency and conserve energy.
@@ -204,7 +204,7 @@ Grip Fighting represents the fundamental tactical battle for control through han
 
 <section id="principle-relationships" class="content-section">
 
-## How Does This Principle Relate to Others?
+## Related Principles
 - **[[Control Maintenance]]** (Complementary): Grip fighting serves as the primary mechanism for establishing the initial control that must then be maintained. These concepts work together as grip fighting wins the initial battle while control maintenance preserves the advantages gained.
 - **[[Posture Breaking]]** (Extension): Effective grip fighting creates the opportunities and mechanical advantages necessary for posture breaking. The grips established through grip fighting determine the leverage points available for breaking opponent's structural integrity.
 - **[[Guard Passing Principles]]** (Prerequisite): Successful guard passing requires first winning the grip fighting exchange to establish passing grips while denying guard retention grips. Grip fighting mastery is foundational to implementing effective passing strategies.
@@ -223,7 +223,7 @@ Grip Fighting represents the fundamental tactical battle for control through han
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Principle?
+## Application Contexts
 **Closed Guard**: Grip fighting focuses on controlling sleeves and collars to break posture while preventing opponent from establishing cross-face or pants grips. Priority grips include cross-collar for chokes, sleeve control for posture breaking, and preventing opponent's grip on belt or pants that enables standing posture.
 
 **Standing Position**: Grip fighting establishes initial control in standing exchanges, with priority on collar ties, sleeve grips, and preventing double unders or body locks. The grip fighting here determines who controls the takedown initiative and can impose their preferred throwing or wrestling entries.
@@ -260,7 +260,7 @@ Grip Fighting represents the fundamental tactical battle for control through han
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Principle
+## Decision Framework
 1. **Assess current grip status and position context**: Identify which grips you have, which grips opponent has, and which grips are most valuable in the current position. Determine immediate priorities based on position-specific grip hierarchy.
 2. **Determine if opponent has dangerous grips requiring immediate breaking**: If opponent has established high-priority grips that enable immediate attacks or advantageous transitions, prioritize breaking these grips using efficient biomechanical leverage before pursuing your own grip objectives.
 3. **Identify your primary grip objective for the position**: Based on your game plan and the position, determine which grip or grip combination you need to establish to enable your preferred techniques or transitions. Develop a sequence for obtaining these grips.
@@ -273,28 +273,28 @@ Grip Fighting represents the fundamental tactical battle for control through han
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Principle?
-- **Error**: Fighting for grips with strength rather than leverage and timing
+## Common Mistakes
+- **Mistake**: Fighting for grips with strength rather than leverage and timing
   - **Consequence**: Rapid fatigue, inefficient energy expenditure, and failure to establish or break grips against technically superior opponents who use mechanical advantages
   - **Correction**: Focus on using two-hands-on-one principles, breaking angles, and timing breaks with opponent's movements. Study biomechanical principles of grip breaking and practice efficient grip acquisition mechanics in drilling.
-- **Error**: Allowing opponent to establish dominant grips without immediate response
+- **Mistake**: Allowing opponent to establish dominant grips without immediate response
   - **Consequence**: Opponent gains control of exchanges, can impose their game, and sets up advantageous techniques while you fight from defensive grip positions
   - **Correction**: Develop awareness of grip hierarchies and immediately address dangerous grips through breaking or prevention. Make grip fighting proactive rather than reactive by anticipating opponent's grip objectives.
-- **Error**: Tunnel vision on single grip without adapting to opponent's counters
+- **Mistake**: Tunnel vision on single grip without adapting to opponent's counters
   - **Consequence**: Predictable grip fighting patterns allow opponent to anticipate and counter attempts, wasting energy on repeatedly failed grip acquisitions
   - **Correction**: Develop multiple grip pathways to achieve objectives and use misdirection to create openings. If direct approach fails repeatedly, use feints and secondary grips to set up primary grip objectives.
-- **Error**: Neglecting grip prevention in favor of only breaking established grips
+- **Mistake**: Neglecting grip prevention in favor of only breaking established grips
   - **Consequence**: Constantly fighting uphill battles against established grips instead of preventing them proactively, leading to energy disadvantage and control deficits
   - **Correction**: Develop active hand fighting to intercept grip attempts before they're established. Keep hands moving, use blocking frames, and recognize opponent's grip patterns to prevent rather than break.
-- **Error**: Gripping without clear purpose or technical objective
+- **Mistake**: Gripping without clear purpose or technical objective
   - **Consequence**: Random grip fighting that doesn't create tactical advantages or enable specific techniques, wasting energy on meaningless grip exchanges
   - **Correction**: Always grip with specific technical or positional objectives in mind. Understand which grips enable which techniques in which positions, and fight for grips that advance your game plan.
-- **Error**: Releasing grips prematurely under pressure without fighting to maintain
+- **Mistake**: Releasing grips prematurely under pressure without fighting to maintain
   - **Consequence**: Surrendering hard-won grip advantages too easily, allowing opponent to escape controls and reset grip exchanges on more favorable terms
   - **Correction**: Develop grip retention strength and mechanics to maintain grips under pressure. Learn when to fight to keep grips vs. when to strategically release and re-grip with better positioning.
-- **Error**: Failing to coordinate grip fighting with body positioning and footwork
+- **Mistake**: Failing to coordinate grip fighting with body positioning and footwork
   - **Consequence**: Isolated hand fighting disconnected from overall movement, making grips easier to defend and break while reducing their effectiveness
   - **Correction**: Integrate grip fighting with stance, distance management, and body positioning. Use footwork to create angles that enhance grip acquisition and make grips more difficult to defend or break.
 
@@ -303,7 +303,7 @@ Grip Fighting represents the fundamental tactical battle for control through han
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Principle
+## Training Methods
 **Specific Grip Fighting Drilling** (Focus: Developing technical efficiency in grip acquisition, breaking, and prevention mechanics. Building pattern recognition for opponent's grip objectives and common defensive reactions to grip attempts.)
 Isolated drilling of grip fighting exchanges in specific positions with resistance levels varying from cooperative to fully competitive. Partners start in defined positions and engage in pure grip fighting with clear win conditions for establishing or preventing specific grips.
 
@@ -328,7 +328,7 @@ Cooperative flow drilling where partners alternate establishing and breaking gri
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Principle
+## Mastery Indicators
 **Beginner Level**:
 - Recognizes basic grip types (collar, sleeve, pants) and can identify when opponent has established grips
 - Can execute basic grip breaks using two-hands-on-one principle with coaching or reminders
@@ -374,7 +374,7 @@ Cooperative flow drilling where partners alternate establishing and breaking gri
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Principle?
+## Related Content
 
 - [[Grip Fighting Strategies]] (Principle) - Expanded strategic framework building on fundamental grip fighting principles
 - [[Grip Strategy]] (Principle) - Strategic approach to grip selection and sequencing in various contexts
@@ -397,7 +397,7 @@ Cooperative flow drilling where partners alternate establishing and breaking gri
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Principle?
+## Expert Insights
 - **John Danaher**: Grip fighting is not a separate skill set but rather the foundational infrastructure upon which all Brazilian Jiu-Jitsu techniques are built. The causal relationship between grip control and subsequent positional dominance cannot be overstated - whoever wins the grip fighting exchange gains the ability to impose their game while simultaneously denying the opponent theirs. My approach emphasizes understanding the biomechanical principles that make certain grips inherently dominant over others in specific contexts. We must develop systematic grip sequences where initial controls are established with the specific purpose of facilitating subsequent, higher-value grips. The key insight is that grips are not acquired randomly but rather through intelligent sequencing that creates cascading advantages. Students must understand that efficient grip fighting relies on leverage, timing, and positioning rather than strength - using two-hands-on-one principles, breaking angles that maximize mechanical advantage, and coordinating grip attempts with footwork and body positioning. Furthermore, grip fighting must be understood as a proactive rather than reactive endeavor - the goal is to prevent opponent's grips from being established rather than constantly fighting to break them after the fact.
 - **Gordon Ryan**: In competition, grip fighting separates the elite from the merely good. I approach every exchange with the mindset of disrupting my opponent's preferred grip patterns before they can establish their game. The concept I call 'grip intimidation' is crucial - by threatening certain grips or actions, you force predictable defensive responses that open opportunities for your actual grip objectives. For example, threatening a strong collar grip forces opponents to fight that hand, which opens opportunities for sleeve control on the other side. My game is built on preemptive grip fighting - I'm constantly working to establish my grips while preventing theirs, which allows me to control the pace and direction of matches. In guard passing especially, if I can prevent the guard player from establishing their primary grips - whether that's sleeve control in spider guard or collar grips in closed guard - I've already won half the battle. The key is understanding which grips enable your best techniques and which grips your opponent absolutely needs for their game, then making those the priority targets. Under fatigue, grip fighting becomes even more important because technical efficiency in grip exchanges conserves energy while forcing opponents to work harder just to establish basic controls.
 - **Eddie Bravo**: What's fascinating about grip fighting is how differently it manifests in gi versus no-gi contexts, and I've had to adapt traditional grip fighting concepts completely for 10th Planet's no-gi system. Without the gi, we're controlling through what I call anatomical 'handles' - wrists, elbows, head, and neck become the primary control points. The principles remain the same but the execution changes dramatically. In our system, we emphasize controlling through hooks, overwraps, and body positioning rather than cloth grips. For example, instead of fighting for collar grips, we're fighting for neck ties and head control. Instead of sleeve grips, we're controlling wrists or establishing overhooks. What I've found is that no-gi grip fighting requires even more emphasis on prevention because once someone gets slippery grips established on skin or rashguards, they're harder to break than gi grips. The rubber guard system is essentially an entire framework built on winning a specific grip fight - establishing that high guard with deep overhook control while preventing opponent from getting their posture. We also use grip fighting to set up our signature techniques - the lockdown, electric chair, truck position - all of these begin with specific grip battles that need to be won to enter the positions effectively.

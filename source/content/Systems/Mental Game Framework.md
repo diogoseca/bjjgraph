@@ -145,7 +145,7 @@ description: "Master the mental game in BJJ competition. Complete psychological 
 
 
 
-> **Quick Answer**: Mental Game Framework is a intermediate difficulty Competition Strategy system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Mental Game Framework is a intermediate difficulty Competition Strategy system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Competition Strategy
@@ -164,7 +164,7 @@ The Mental Game Framework provides a comprehensive psychological approach to Bra
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Maintain offensive mindset regardless of position or score
 - Use controlled breathing to regulate emotional state and decision-making quality
 - Develop position-specific decision trees to reduce cognitive load during matches
@@ -178,7 +178,7 @@ The Mental Game Framework provides a comprehensive psychological approach to Bra
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Pre-Competition Visualization** (Reduce anxiety and improve execution by mentally rehearsing success patterns)
 Systematic mental rehearsal of match scenarios including successful execution of techniques, recovery from bad positions, and emotional responses to adversity. Visualization should be specific, multi-sensory, and repeated daily in the weeks leading to competition. This primes neural pathways and reduces cognitive load during actual competition by making scenarios feel familiar.
 
@@ -200,7 +200,7 @@ Structured review process focusing on decision quality rather than outcome. Anal
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Foundation Building (Weeks 1-4)**: Establish baseline mental skills through daily visualization practice, breath control training, and identification of personal stress triggers. Begin journaling training sessions to develop self-awareness of performance patterns and emotional responses.
 Key points:
 - Practice 10 minutes daily visualization of successful technique execution
@@ -368,7 +368,7 @@ Mental game development requires systematic progression from controlled environm
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The mental game is not mystical—it is systematic preparation meeting systematic execution. Every physical technique requires corresponding mental preparation. Your brain operates under the same principle as your body: it performs under stress based on how it has been trained. Most competitors train their bodies extensively but leave their minds to chance. This is irrational. Develop decision trees for every major position so your mind has clear pathways even when your body is fatigued and your emotions are activated. The competitor who maintains clarity of thought when exhausted and behind on points has trained their mind as systematically as their body. Visualization is not daydreaming—it is neural pathway activation. When you visualize correctly, with multi-sensory detail and emotional engagement, you are literally training your nervous system. The mind cannot distinguish between vivid visualization and actual experience at the neural level. Therefore, systematic visualization practice provides additional training sessions without physical wear. The competitor who visualizes daily has trained significantly more than the competitor who relies solely on mat time.
 - **Gordon Ryan**: Competition is won by who makes better decisions under pressure, not who knows more techniques. I've beaten people with better technique because my mind stayed clear when theirs panicked. Mental preparation is not soft—it's the hardest training there is because you have to confront your actual weaknesses instead of pretending they don't exist. Most people avoid competition simulation because they don't want to feel the pressure in training. That's exactly why they break under pressure in competition. I train my decision-making as hard as my technique. Every hard round, I'm testing if I can still think clearly when I'm exhausted. Every time I'm in a bad position, I'm practicing staying calm instead of panicking. By competition day, pressure feels normal because I've felt it hundreds of times in training. Your competition performance is a direct reflection of your training honesty. If you avoid pressure in training, you'll crumble under pressure in competition. If you embrace it systematically, you'll thrive when others break. The matches I've won while behind on points or in bad positions were won during training when I practiced maintaining my game plan even when things weren't going my way.
 - **Eddie Bravo**: The mental game is about trusting your preparation and staying creative under pressure. Most people get tight when they compete because they're trying to remember everything they learned instead of just flowing with what their body knows. The key is training so much that your techniques become instinctive, then your conscious mind is free to be creative and respond to what's actually happening instead of overthinking. I tell my guys: your body knows what to do, get your mind out of the way. Breath work is essential—when you control your breathing, you control your state. I use specific breathing patterns to either amp up or calm down depending on what the moment needs. Before a match, I'm using breath to get into that focused but loose state where I'm ready to explode but not tense. During the match, breath keeps me from burning out emotionally and physically. The mental game isn't about being fearless—it's about being comfortable with fear. You're going to feel pressure, you're going to feel doubt, that's normal. The difference is whether you panic or whether you breathe through it and stick to your game. Train yourself to recognize when you're getting tight, take a controlled breath, and reset. That's a skill just like anything else.

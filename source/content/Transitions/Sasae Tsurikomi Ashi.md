@@ -8,7 +8,7 @@ description: "Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Sta
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Sta
 
 
 
-> **Quick Answer**: Sasae Tsurikomi Ashi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+> Sasae Tsurikomi Ashi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create circular movement through grip manipulation to generate rotational momentum
 - Break opponent's balance forward and to the side before applying the foot block
 - Time the sweep to coincide with opponent's forward step or weight shift
@@ -186,7 +186,7 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Establish strong collar and sleeve grips with proper hand placement
 - Create initial kuzushi by breaking opponent's upright posture
 - Generate circular movement pattern through grip manipulation
@@ -200,7 +200,7 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Establish grips**: Secure a high collar grip with your right hand, controlling the opponent's left lapel near the collarbone. Your left hand grips their right sleeve at the elbow or just above. These grips provide the leverage needed for both off-balancing and the lifting action that follows. (Timing: Initial contact phase)
 2. **Create circular motion**: Pull with your left hand (sleeve grip) while pushing slightly with your right hand (collar grip), initiating a circular stepping pattern. Move to your right, encouraging the opponent to follow and step forward with their right foot. This circular movement is critical for generating the momentum that makes the sweep effective. (Timing: Setup phase, 1-2 seconds)
 3. **Break balance forward**: As the opponent steps forward with their right foot, pull sharply upward and forward with both hands, breaking their balance toward their front right corner. Their weight should shift onto the balls of their feet, with their center of gravity moving beyond their base of support. This kuzushi moment is the key to the entire technique. (Timing: Just before foot placement)
@@ -214,7 +214,7 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent steps over or around the blocking foot** (Effectiveness: High) - Your Response: Immediately switch to a different foot sweep (Kouchi Gari or Deashi Harai) using their altered stepping pattern, or transition to an upper body throw if they overcommit to avoiding the foot
 - **Opponent pulls back and retracts their foot** (Effectiveness: Medium) - Your Response: Use their backward movement to execute Osoto Gari or Kouchi Gari, attacking the leg they've loaded their weight onto when retreating
 - **Opponent grips your blocking leg and defends** (Effectiveness: Low) - Your Response: Their grip on your leg typically requires them to break posture and bend forward, creating opportunities for Uchi Mata, Harai Goshi, or snap down to front headlock
@@ -223,25 +223,25 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Placing the blocking foot too early before establishing kuzushi
+## Common Mistakes
+- **Mistake**: Placing the blocking foot too early before establishing kuzushi
   - **Consequence**: Opponent easily steps over or around the block, wasting energy and telegraphing the technique
   - **Correction**: Focus on breaking balance first; only place the blocking foot at the exact moment when opponent is committed to their forward step and off-balance
-- **Error**: Insufficient upward pull with the hands during execution
+- **Mistake**: Insufficient upward pull with the hands during execution
   - **Consequence**: Opponent can base out with their free leg or post their hand, preventing the completion of the throw
   - **Correction**: Emphasize the lifting action with both grips, particularly the collar hand; the pull should be upward and circular, not just backward
-- **Error**: Blocking with the toes pointing downward or sideways
+- **Mistake**: Blocking with the toes pointing downward or sideways
   - **Consequence**: Weak barrier that the opponent can push through or that collapses under pressure, potentially injuring your own foot
   - **Correction**: Keep toes pulled back toward your shin, creating a solid surface with the sole of your foot against their ankle; practice the foot position in drilling
-- **Error**: Standing too close or too far from opponent during setup
+- **Mistake**: Standing too close or too far from opponent during setup
   - **Consequence**: Improper distance prevents effective leverage and makes the circular motion awkward or impossible
   - **Correction**: Maintain approximately one arm's length distance; adjust positioning through footwork while maintaining grip control throughout the setup
-- **Error**: Releasing grips during or immediately after the throw
+- **Mistake**: Releasing grips during or immediately after the throw
   - **Consequence**: Lose control of opponent's landing, allowing them to recover guard or escape to a neutral position
   - **Correction**: Maintain at least one grip (preferably both) throughout the entire technique and landing; use grips to guide them to the mat and establish top position
-- **Error**: Attempting the technique from static position without movement
+- **Mistake**: Attempting the technique from static position without movement
   - **Consequence**: No momentum to work with, making the technique require excessive force and becoming easy to defend
   - **Correction**: Create circular movement first through grip manipulation and footwork; the technique works best when opponent is already in motion
 
@@ -250,7 +250,7 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Week 1-2: Static drilling** - Grip placement, foot positioning, and basic mechanics
 Partner stands statically while you practice proper grip establishment, circular stepping pattern, and placement of blocking foot. Focus on correct body positioning and hand action without resistance. Repeat 20-30 times per training session.
 (Resistance: None)
@@ -277,7 +277,7 @@ Use Sasae as part of complete takedown system during regular sparring. Combine w
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Sasae from Opposite Grips**: Execute the technique with left collar, right sleeve grips, blocking with the right foot against opponent's left ankle. Same mechanics apply but mirror-imaged. (When to use: When opponent's grip fighting or stance makes traditional grips difficult to establish; also valuable for developing ambidextrous capabilities)
 
 **Sasae to Guard Pull Combo**: If the foot sweep fails because opponent retracts their leg, immediately use the created space and their backward momentum to pull guard, securing De La Riva or Reverse De La Riva control. (When to use: Against opponents with excellent takedown defense who habitually pull back; particularly effective in BJJ competition where guard pulling is allowed)
@@ -320,7 +320,7 @@ Use Sasae as part of complete takedown system during regular sparring. Combine w
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 Controlled application is paramount when practicing Sasae Tsurikomi Ashi. The thrower must maintain grips throughout the technique to control the opponent's descent and prevent uncontrolled falls that could result in head, shoulder, or back injuries. During drilling, start with slow, cooperative repetitions to build proper mechanics before adding speed or resistance. Ensure adequate mat space is available in all directions, as the throw can create unexpected rotation. Partners should practice breakfall techniques (ukemi) before being thrown at full speed. When learning, the blocking foot should be placed gently at first to avoid ankle injuries to either person - the blocking leg can be vulnerable to knee torque if planted too rigidly. Never practice this technique near walls, equipment, or other practitioners. As with all standing techniques, both partners should be aware of their surroundings and communicate clearly about resistance levels. Gradually progress from static drilling to dynamic application over several weeks, allowing the body to adapt to the forces involved. If either partner feels uncomfortable with the speed or intensity, immediately reduce the pace and return to controlled drilling.
 
@@ -328,7 +328,7 @@ Controlled application is paramount when practicing Sasae Tsurikomi Ashi. The th
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 Sasae Tsurikomi Ashi serves as a fundamental entry point into the top game for BJJ practitioners who prefer technical takedowns over wrestling-heavy approaches. Within the broader BJJ system, this technique bridges the gap between standing exchanges and ground control, offering a reliable method to secure top position without expending excessive energy. The throw integrates seamlessly with guard pulling strategies - if the opponent defends by pulling back, the created distance and off-balance make them vulnerable to guard pulls into De La Riva or Reverse De La Riva positions. When successful, the throw typically lands the opponent on their back or side, allowing direct transition to side control, mount, or immediate guard passing positions. This technique is particularly valuable in the modern BJJ meta-game where many practitioners lack traditional judo or wrestling backgrounds, making timing-based foot sweeps less expected than common wrestling shots. The circular movement pattern used in the setup also creates entries for other techniques in the ashi-waza (foot technique) family, including Deashi Harai, Kouchi Gari, and Osoto Gari, allowing development of a complete foot-sweep based game. For competitors focused on points, the clean takedown provides 2 points under IBJJF rules, and the controlled landing often leads to quick advancement through positions. The technique also teaches fundamental concepts of kuzushi, timing, and leverage that transfer to all aspects of BJJ, from guard passing to submission entries.
 
@@ -336,7 +336,7 @@ Sasae Tsurikomi Ashi serves as a fundamental entry point into the top game for B
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Deashi Harai]] - Alternative foot sweep using sweeping motion instead of blocking action
 - [[Kouchi Gari]] - Follow-up technique when opponent retracts leg backward
@@ -356,7 +356,7 @@ Sasae Tsurikomi Ashi serves as a fundamental entry point into the top game for B
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: Sasae Tsurikomi Ashi represents a perfect example of using minimal force to achieve maximum effect through precise application of biomechanical principles. The technique succeeds not through strength, but through understanding human balance and the physics of rotation around a fixed point. When you block the ankle at the moment of maximum forward commitment, you create a fulcrum around which the opponent's own momentum and your hand action combine to generate the rotational force needed for the throw. The key technical detail that most practitioners miss is the quality of kuzushi - the off-balancing must be genuine, meaning the opponent's center of gravity must actually move beyond their base of support before you block. Without proper kuzushi, you're trying to overcome their stability with force, which defeats the entire purpose of the technique. The hands perform the majority of the actual work in this throw; the foot simply removes the possibility of recovery. Practice this technique slowly and deliberately, focusing on the sensation of when the opponent's balance truly breaks - that split-second of genuine off-balance is when the technique becomes effortless.
 - **Gordon Ryan**: In competition, Sasae Tsurikomi Ashi works best against opponents who fight from upright postures or come forward aggressively trying to establish grips. I use it primarily as part of a combination system rather than as an isolated attack - threaten it to make them step back, then hit singles or guard pulls, or set it up by making them defend other attacks first. The biggest mistake I see is people trying to force this throw without creating real movement and momentum first. You need to get them actually moving in a circle, actually stepping forward, before the technique has any chance. Against high-level guys, you're not going to just walk up and hit a perfect Sasae - you need setups, you need to make them think about other threats first. What makes it valuable in modern BJJ is that most people don't train takedowns seriously, so timing-based techniques like this catch them by surprise. They're worried about wrestling shots or guard pulls, not foot sweeps. The other huge advantage is that when it works, you land in excellent position to immediately start passing or taking the back, unlike some throws where you have to scramble for position afterward.
 - **Eddie Bravo**: From the 10th Planet perspective, we've adapted Sasae into our no-gi standing game by modifying the grips and emphasizing the combination with guard pulls. Instead of traditional collar and sleeve, we use overhooks, underhooks, or head control combined with wrist control. The principle stays the same - create circular movement, break balance, block the ankle - but the grip variations make it work without the gi. What I really like about this technique is how it flows into our guard pulling game. If they defend the sweep by pulling back, that's perfect - use that momentum to pull them into Mission Control or Rubber Guard. The foot sweep becomes a setup for the guard pull, and the guard pull becomes a backup if the sweep fails. We also drill it in combination with snap downs - threaten the foot sweep low, when they pull their leg back and lift up, snap them down to front headlock or guillotine. It's all about creating reactions and having answers ready. The other thing we emphasize is using it in scrambles, not just from clean standing positions. When you're both standing up from the ground or resetting, that's when people are most vulnerable to foot sweeps because they're focused on getting their grips, not on protecting their feet.

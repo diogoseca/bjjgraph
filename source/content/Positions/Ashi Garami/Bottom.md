@@ -8,7 +8,7 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,7 +193,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - You control at least one of opponent's legs with your legs in hooking/entanglement configuration
 - Your hips maintain mobility and positioning capability to advance or defend within leg entanglement system
@@ -205,7 +203,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Understanding of leg lock safety protocols and tap-early mentality to prevent injury during training
 - Fundamental leg lock mechanics including straight ankle locks and basic heel hook principles
@@ -229,7 +227,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Inside Ashi Entry]] → [[Inside Ashi-Garami]]
 
@@ -293,7 +291,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Ashi Garami Escape]]** → [[Standing Position]] (Opponent Success: 40%)
 - **[[Counter Ashi Entry]]** → [[Inside Ashi-Garami]] (Opponent Success: 35%)
@@ -305,7 +303,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
   - When opponent attempts leg extraction from Outside Ashi, redirect to inside position control
@@ -345,7 +343,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

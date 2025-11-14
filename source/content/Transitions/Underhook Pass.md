@@ -8,7 +8,7 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -153,7 +153,7 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 
 
 
-> **Quick Answer**: Underhook Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+> Underhook Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,7 +172,7 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Secure underhook on far side before initiating pass
 - Drive shoulder pressure into opponent's chest to flatten
 - Control opponent's near hip with free hand to prevent re-guard
@@ -186,7 +186,7 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Top position in opponent's half guard with leg trapped
 - Underhook secured on opponent's far side arm
 - Head positioned on opponent's chest, not allowing space
@@ -199,7 +199,7 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Secure the underhook**: From half guard top, thread your arm under opponent's far armpit, securing a deep underhook. Your shoulder should drive into their chest while your hand reaches across their back, ideally gripping their far lat or belt. This underhook is the cornerstone of the entire passing sequence. (Timing: Establish before opponent can frame or create distance)
 2. **Establish crossface pressure**: Place your head on opponent's chest, driving your shoulder into their near pectoral muscle. This crossface pressure prevents them from turning into you or establishing their own underhook. Your ear should be tight to their sternum, minimizing space for their frames. (Timing: Immediately after securing underhook)
 3. **Control the near hip**: With your free hand (non-underhook side), establish a firm grip on opponent's near hip, pants, or belt. This grip prevents them from using hip movement to recover guard or create the angle needed for sweeps. Your palm should be facing down with fingers digging into their hip. (Timing: Concurrent with crossface establishment)
@@ -213,7 +213,7 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Bottom player establishes their own underhook, creating an underhook battle and preventing pass progression** (Effectiveness: High) - Your Response: Immediately switch to whizzer control on their underhook arm, driving your weight into their shoulder while using your free hand to strip their grip or transition to alternative passes like the knee slice
 - **Strong knee shield frame preventing chest-to-chest pressure and flattening** (Effectiveness: High) - Your Response: Address the knee shield by controlling the knee with your free hand, driving it to the mat while maintaining underhook pressure. Alternatively, transition to knee cut pass or smash pass variations
 - **Bottom player turns away (going to turtle) to escape pressure and leg clear** (Effectiveness: Medium) - Your Response: Follow their rotation, maintaining the underhook and transitioning to back attack or using the momentum to complete the pass to opposite side control
@@ -223,25 +223,25 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Lifting weight up while trying to pass, creating space underneath
+## Common Mistakes
+- **Mistake**: Lifting weight up while trying to pass, creating space underneath
   - **Consequence**: Bottom player easily re-guards or sweeps as pressure is eliminated
   - **Correction**: Keep hips low and weight driving forward and down throughout entire sequence. Think of spreading your weight like a heavy blanket, not lifting to step over
-- **Error**: Rushing the leg extraction before opponent is fully flattened
+- **Mistake**: Rushing the leg extraction before opponent is fully flattened
   - **Consequence**: Bottom player maintains mobility and uses frames to prevent pass or attempt sweeps
   - **Correction**: Be patient with the flattening process. Take time to completely neutralize their structure before attempting to clear your leg
-- **Error**: Allowing opponent to get their underhook, creating a neutral underhook battle
+- **Mistake**: Allowing opponent to get their underhook, creating a neutral underhook battle
   - **Consequence**: Pass progression stalls, and opponent has pathway to sweep or recover full guard
   - **Correction**: Secure your underhook early and maintain constant shoulder pressure to prevent them from establishing their own. If they get it, immediately address it
-- **Error**: Head positioning too high or too far to one side, allowing opponent to turn
+- **Mistake**: Head positioning too high or too far to one side, allowing opponent to turn
   - **Consequence**: Opponent can turn into you or away to turtle, escaping the pass
   - **Correction**: Keep your head centered on their chest with ear to sternum. This central position prevents rotation in either direction
-- **Error**: Failing to control the near hip, allowing opponent to hip escape
+- **Mistake**: Failing to control the near hip, allowing opponent to hip escape
   - **Consequence**: Opponent creates angle and distance to recover guard or initiate sweeps
   - **Correction**: Maintain active grip on near hip throughout the pass. This grip is as important as the underhook for preventing guard recovery
-- **Error**: Base too narrow, making you susceptible to sweeps or off-balancing
+- **Mistake**: Base too narrow, making you susceptible to sweeps or off-balancing
   - **Consequence**: Opponent can use bridges, hip bumps, or other movements to destabilize and reverse position
   - **Correction**: Keep your free leg posted wide with knee out, creating a stable base that can't be easily disrupted
 
@@ -250,7 +250,7 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Static Control (Weeks 1-2)** - Establishing and maintaining the underhook and crossface position
 Practice securing the underhook from various half guard scenarios with compliant partner. Focus on grip placement, shoulder pressure, and maintaining position without attempting to pass. Partner provides light frames but doesn't actively escape. Goal is to hold position for 2-3 minutes with proper pressure and posture.
 (Resistance: None)
@@ -281,7 +281,7 @@ Start in half guard top with goal of completing underhook pass. Partner provides
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Reverse Underhook Pass (Whizzer Pass)**: Instead of underhooking the far side, overhook (whizzer) opponent's underhook attempt while using same pressure principles. Drive shoulder into their trapped arm, control near hip, and clear leg using similar mechanics. (When to use: When opponent establishes their underhook first or when transitioning from underhook battle situations)
 
 **Underhook to Knee Cut Combination**: From underhook control, if opponent's knee shield remains strong, switch to knee cut motion while maintaining underhook. Drive your knee across their thigh while keeping shoulder pressure, combining two passing systems. (When to use: Against strong knee shield retention when direct pressure pass is stalling)
@@ -321,7 +321,7 @@ Start in half guard top with goal of completing underhook pass. Partner provides
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The underhook pass is generally a safe technique when executed properly, but practitioners should be aware of several safety considerations. Avoid driving excessive pressure into the opponent's neck or head, as the crossface should target the chest and shoulder, not the cervical spine. When extracting the trapped leg, move methodically to avoid hyperextending your own or your opponent's knee joints. Be cautious of cranking or twisting motions with the underhook that could stress the opponent's shoulder joint. When drilling, partners should communicate about pressure levels, especially when learning the flattening mechanics. Beginners should focus on positional control rather than explosive movements that could result in knee or shoulder injuries.
 
@@ -329,7 +329,7 @@ The underhook pass is generally a safe technique when executed properly, but pra
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The underhook pass is a cornerstone technique in the pressure passing system and serves as a fundamental connection point between half guard top and side control. It integrates seamlessly with other half guard passing approaches, allowing practitioners to chain together multiple passing sequences based on the opponent's defensive responses. The underhook position naturally transitions to knee cut passes, long step passes, or back takes depending on how the opponent defends. This pass is particularly important in gi grappling where grips enhance the underhook control, but remains highly effective in no-gi through proper body mechanics. The underhook pass teaches essential principles of pressure application, weight distribution, and systematic position advancement that apply broadly across all top game scenarios.
 
@@ -337,7 +337,7 @@ The underhook pass is a cornerstone technique in the pressure passing system and
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Knee Cut Pass]] - Alternative pass when knee shield prevents underhook pass
 - [[Knee Slice Pass]] - Combination option from underhook position
@@ -357,7 +357,7 @@ The underhook pass is a cornerstone technique in the pressure passing system and
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The underhook pass represents one of the most biomechanically efficient methods of advancing past the half guard because it addresses the fundamental problem of guard passing: controlling the opponent's ability to create frames and angles. The underhook creates what I call a 'control hierarchy' where you dominate the far side connection while the crossface neutralizes the near side. This dual control system collapses the opponent's defensive structure systematically. The key technical insight is understanding that the pass occurs not through explosive force but through progressive pressure application. Each component - the underhook, the crossface, the hip control - creates a compound effect where the sum is greater than the parts. When students struggle with this pass, it's almost always because they're trying to pass with their legs before they've established dominance with their upper body. The legs are merely the final technical detail; the real passing occurs in the chest-to-chest pressure battle.
 - **Gordon Ryan**: In competition, the underhook pass is my go-to technique from half guard because it's the highest percentage option against elite-level defenders. What makes it competition-proven is that it works even when your opponent knows it's coming. The pressure and control are so dominant that awareness doesn't equal effective defense. The critical factor most people miss is the timing of when to commit to the leg extraction. I see a lot of guys trying to yank their leg out while the opponent is still mobile. That's low percentage. You need to make them completely flat first, even if it takes 30-40 seconds of grinding pressure. Once they're flat, the leg clears easily. In my matches, I'll often use the threat of the underhook pass to set up other attacks. If they're overly defensive about their far side underhook, I can switch to knee cut passes. If they turn away to avoid the pressure, I take the back. The underhook position is a control position first, passing position second, which is why it's so reliable under pressure.
 - **Eddie Bravo**: The underhook pass is interesting because it's one of the few traditional passing techniques that works equally well in gi and no-gi, though we approach it slightly differently in the 10th Planet system. Without the gi grips, the underhook becomes even more critical because it's your primary connection point. We emphasize what I call the 'shoulder of justice' - driving that shoulder into their chest like you're trying to put it through the mat. That shoulder pressure is everything. One innovation we've added is being willing to transition to back takes more aggressively. In traditional approaches, if the guy turns away, it's sometimes seen as a problem. For us, that's perfect - we follow the turn and take the back. The underhook gives you the connection to follow wherever they go. We also use the underhook position to set up Darce chokes when guys fight hard for their underhook. If they're exposing their neck fighting the underhook battle, we're happy to switch to the submission. The key is being fluid and opportunistic rather than rigidly committed to the pass.

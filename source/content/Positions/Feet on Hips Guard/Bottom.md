@@ -8,7 +8,7 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
 }
 </script>
 
-<!-- Schema Markup - FAQ from Common Errors -->
+<!-- Schema Markup - FAQ from Common Mistakes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -157,9 +157,7 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
-> **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.
-
----
+> **Quick Stats**: Advanced practitioners escape 65% of the time.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -187,7 +185,7 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 <section id="state-invariants" class="content-section">
 
-## What Defines This Position?
+## Position Definition
 
 - Both feet placed firmly on opponent's hip bones (anterior superior iliac spine landmarks) with ball of foot contact creating maximum pushing surface and connection stability, preventing opponent from settling weight or closing distance
 - Bottom practitioner's hips elevated off mat with lower back curved, creating space and mobility for hip movement and angle adjustment while maintaining defensive frame integrity and preventing opponent from flattening guard structure
@@ -200,7 +198,7 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 <section id="prerequisites" class="content-section">
 
-## What Do You Need Before This Position?
+## Prerequisites
 
 - Guard opening from closed guard or initial guard pull position
 - Opponent standing or in combat base with hips elevated above bottom player
@@ -228,7 +226,7 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 <section id="offensive-transitions" class="content-section">
 
-## What Escapes Are Available?
+## Available Escapes
 
 ### [[Scissor Sweep]] → [[Mount]]
 
@@ -299,7 +297,7 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 <section id="defensive-responses" class="content-section hide-minimal">
 
-## How Does the Opponent Counter Your Escapes?
+## Opponent Counters
 
 - **[[Toreando Pass]]** → [[Side Control]] (Opponent Success: 45%)
 - **[[Knee Slice Pass]]** → [[Side Control]] (Opponent Success: 40%)
@@ -313,7 +311,7 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 <section id="counter-transitions" class="content-section hide-minimal">
 
-## How to Counter Opponent's Attacks
+## Counter-Attacks
 
 - **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
   - Opponent steps in close to control ankles or drive pressure forward into frames
@@ -363,7 +361,7 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
 

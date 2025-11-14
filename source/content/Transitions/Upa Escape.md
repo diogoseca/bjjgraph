@@ -8,7 +8,7 @@ description: "Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundame
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -147,7 +147,7 @@ description: "Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundame
 
 
 
-> **Quick Answer**: Upa Escape transitions from [[Mount]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+> Upa Escape transitions from [[Mount]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +166,7 @@ The Upa Escape, also known as the bridge and roll or trap and roll escape, is th
 
 <section id="key-principles" class="content-section">
 
-## What Are the Key Principles?
+## Key Principles
 - Create explosive hip bridge to disrupt opponent's base and weight distribution
 - Trap arm and leg on the same side to prevent opponent from posting
 - Time the escape when opponent's weight shifts forward or attempts submission
@@ -180,7 +180,7 @@ The Upa Escape, also known as the bridge and roll or trap and roll escape, is th
 
 <section id="setup-requirements" class="content-section">
 
-## What Do You Need Before Starting This Technique?
+## Prerequisites
 - Opponent has achieved mount position with weight distributed forward
 - Your arms are not compromised or controlled in submission attempts
 - Hip mobility sufficient to create bridging motion
@@ -194,7 +194,7 @@ The Upa Escape, also known as the bridge and roll or trap and roll escape, is th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique Step-by-Step
+## How to Execute This Technique
 1. **Trap the arm**: Identify the side where opponent's weight is shifted or where they are attempting to attack. Cup your hand behind their tricep/elbow on that side, pulling it tight across your chest. Your other hand can post on their hip or grab their belt to control their posture and prevent them from posting far away. (Timing: Initiate when opponent reaches for attack or shifts weight forward)
 2. **Trap the foot**: On the same side as the trapped arm, hook your foot over opponent's ankle/foot, pinning it to the mat. Your knee should be bent with your heel pulled close to your buttocks to generate maximum bridging power. This prevents them from stepping over to establish base. (Timing: Execute simultaneously with arm trap or immediately after)
 3. **Position your bridge angle**: Turn your head toward the trapped side, looking over your shoulder in the direction you'll roll. Your bridge should drive at approximately 45 degrees over your shoulder, not straight up. This angle is critical - bridging straight up allows opponent to post with their free hand. (Timing: Set angle before initiating explosive bridge)
@@ -207,7 +207,7 @@ The Upa Escape, also known as the bridge and roll or trap and roll escape, is th
 
 <section id="common-counters" class="content-section">
 
-## How Does the Opponent Counter This Technique?
+## Opponent Counters
 - **Opponent posts with free hand wide to establish base and prevent roll** (Effectiveness: High) - Your Response: Time the escape when their hand is committed elsewhere (reaching for submission, establishing grips). Alternatively, switch to elbow escape if they post strongly, or fake the upa to one side then execute to the other when they overcompensate their base.
 - **Opponent sits back on their heels in high mount to avoid forward weight shift** (Effectiveness: High) - Your Response: From high mount, opponent is vulnerable to elbow escape and hip escape combinations. Wait for them to come forward for attacks, or force their weight forward by framing against their hips and threatening to create space, then execute upa when they pressure back down.
 - **Opponent switches hips and takes back as you attempt to roll** (Effectiveness: Medium) - Your Response: Maintain extremely tight connection during the roll, don't allow any space between your bodies. If they begin taking back, abandon the upa and immediately defend back control by fighting their hooks and turning into them rather than completing the roll.
@@ -217,25 +217,25 @@ The Upa Escape, also known as the bridge and roll or trap and roll escape, is th
 
 </section>
 
-<section id="common-errors" class="content-section hide-minimal">
+<section id="common-mistakes" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Technique?
-- **Error**: Bridging straight up vertically instead of at an angle over the shoulder
+## Common Mistakes
+- **Mistake**: Bridging straight up vertically instead of at an angle over the shoulder
   - **Consequence**: Opponent easily posts with free hand and returns to mount, wasting your energy on ineffective movement
   - **Correction**: Turn your head toward the escape side and visualize rolling over that shoulder. Bridge at 45-degree angle combining upward and rotational force, not purely vertical lift.
-- **Error**: Attempting escape without properly trapping both arm and leg on same side
+- **Mistake**: Attempting escape without properly trapping both arm and leg on same side
   - **Consequence**: Opponent maintains base with free limbs and easily counters the escape attempt, potentially advancing to submissions
   - **Correction**: Always secure both arm trap (behind tricep) and foot trap (hook over ankle) before initiating bridge. These traps are non-negotiable requirements for success.
-- **Error**: Using gradual, sustained pressure instead of explosive single movement
+- **Mistake**: Using gradual, sustained pressure instead of explosive single movement
   - **Consequence**: Opponent feels the escape developing and adjusts base accordingly, telegraphing your intention and allowing easy counter
   - **Correction**: Explode in one sudden burst after setting up traps. The upa should feel like a single violent movement, not a slow pushing battle. Speed and surprise are critical.
-- **Error**: Releasing arm trap too early during the roll
+- **Mistake**: Releasing arm trap too early during the roll
   - **Consequence**: Opponent uses freed arm to post and prevent completion of reversal, or takes back position during transition
   - **Correction**: Maintain the arm trap throughout entire rolling motion until you've established top position. Keep it glued across your chest even as you rotate.
-- **Error**: Trapping wrong side (where opponent has strong base)
+- **Mistake**: Trapping wrong side (where opponent has strong base)
   - **Consequence**: Escape attempt fails because opponent's weight and structure are aligned to resist that direction
   - **Correction**: Trap the side where opponent's weight is shifted or where they're reaching for attacks. Feel for which side has weaker base before committing. Sometimes faking one direction will shift their base, allowing escape to the other.
-- **Error**: Keeping feet too far from buttocks during bridge setup
+- **Mistake**: Keeping feet too far from buttocks during bridge setup
   - **Consequence**: Insufficient hip extension power to generate effective bridge, resulting in weak lifting force
   - **Correction**: Walk your feet close to your buttocks before executing bridge, creating sharp knee angle. This positioning maximizes mechanical advantage for hip extension power.
 
@@ -244,7 +244,7 @@ The Upa Escape, also known as the bridge and roll or trap and roll escape, is th
 
 <section id="training-progressions" class="content-section hide-minimal">
 
-## How to Train This Technique Progressively
+## Training Progressions
 **Phase 1: Static Bridge Mechanics (Week 1-2)** - Develop proper bridging movement pattern and hip power
 Practice solo bridging drills lying on back, focusing on explosive hip extension and proper shoulder angle. Partner lies in mount with no resistance, allowing you to feel correct trap positions and bridge direction. Repeat 20-30 reps per session to build muscle memory and explosive power.
 (Resistance: None)
@@ -275,7 +275,7 @@ Apply upa escape during regular sparring, combining with other mount escapes bas
 
 <section id="variants-and-adaptations" class="content-section hide-minimal">
 
-## What Are the Variations of This Technique?
+## Variations
 **Double trap variation for heavy opponents**: When opponent is significantly heavier, trap both their arms by pulling both elbows tight to your chest while they are posted. This prevents them from posting as you bridge, but requires exceptional hip power since you cannot trap their foot. Generate maximum bridge height and roll with pure rotational momentum. (When to use: Against much heavier opponents who rely on weight rather than base, or when opponent posts both hands high near your head)
 
 **Gift wrap to upa combination**: When opponent reaches across your body for americana or other attack, catch their arm in gift wrap position (controlling their wrist with opposite hand while wrapping their arm). Use gift wrap control as arm trap while securing foot trap on same side, then execute standard upa. The gift wrap provides superior arm control throughout the roll. (When to use: When opponent overcommits reaching across your body for submissions or control)
@@ -315,7 +315,7 @@ Apply upa escape during regular sparring, combining with other mount escapes bas
 
 <section id="safety-considerations" class="content-section">
 
-## What Are the Safety Considerations?
+## Safety Considerations
 
 The upa escape is among the safest fundamental techniques in BJJ when practiced properly, but several precautions ensure injury-free training. Execute the bridge with explosive power but controlled direction - wild, uncontrolled bridging can cause both practitioners to land awkwardly, risking shoulder, neck, or wrist injuries from unexpected impact. Partners should avoid posting rigidly with locked elbows when defending, as the rotational force can hyperextend the elbow joint. Beginners should practice on padded mats and start with cooperative drilling before adding resistance. When completing the roll, maintain connection to prevent partner free-falling onto their head or neck. For the person being escaped, learn to roll with the movement rather than resisting rigidly, and tuck your chin to protect your neck during the reversal. Practitioners with lower back issues should engage core muscles throughout the bridge to protect the lumbar spine, and those with neck injuries should modify the head turn component as needed.
 
@@ -323,7 +323,7 @@ The upa escape is among the safest fundamental techniques in BJJ when practiced 
 
 <section id="position-integration" class="content-section">
 
-## How Does This Fit Into Your Overall Game?
+## Position Integration
 
 The upa escape serves as the foundational mount escape and entry point to understanding defensive principles from bottom positions. Within the positional hierarchy, it represents the primary method for reversing from one of BJJ's most dominant positions back to neutral or advantageous positions. The technique integrates into broader defensive systems by teaching essential movement patterns - explosive bridging, directional control, and timing recognition - that transfer to escapes from side control, back control, and other pins. As practitioners advance, the upa becomes part of a comprehensive mount defense matrix where they flow between upa, elbow escape, and hip escape based on opponent reactions, creating an unsolvable defensive puzzle. The escape also integrates into offensive guard strategies, as successfully executing the upa often lands you in closed guard where you can immediately attack with sweeps and submissions. Competition strategists view the upa as essential for point recovery, as successfully escaping mount immediately erases a 4-point deficit while potentially scoring sweep points. The movement patterns developed through upa drilling - explosive hip power, body rotation, and directional bridging - also enhance performance in numerous other techniques including sweeps, takedown defenses, and back escape sequences.
 
@@ -331,7 +331,7 @@ The upa escape serves as the foundational mount escape and entry point to unders
 
 <section id="related-content" class="content-section">
 
-## Which Techniques Are Related?
+## Related Techniques
 
 - [[Elbow Escape]] - Complementary escape, primary alternative when upa is unavailable
 - [[Hip Escape]] - Complementary escape, creates defensive dilemma with upa
@@ -351,7 +351,7 @@ The upa escape serves as the foundational mount escape and entry point to unders
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Technique?
+## Expert Insights
 - **Danaher System**: The upa escape exemplifies the fundamental principle that position in jiu-jitsu is determined not by static structure but by dynamic disruption of opponent's base. Many students misunderstand the mechanics, believing the goal is to lift opponent's weight through pure strength. This is biomechanically inefficient and unnecessarily exhausting. The true mechanism operates through base removal and angular momentum generation. By trapping same-side arm and leg, you eliminate two of three support points on one side of their body, creating structural asymmetry. The bridge then exploits this asymmetry through explosive rotational force directed over your shoulder, not vertical lifting. The physics are elegant: you're not overcoming their mass but redirecting it, using their own weight as momentum once their base collapses. The timing component is equally critical - the technique succeeds in the transitional moments when opponent's base is already compromised, not against settled, static mount. Train to recognize these moments of vulnerability: when they reach for grips, attempt submissions, or adjust position. The explosive nature of the movement is essential because it operates faster than their nervous system can react and adjust base. This is systematic defensive jiu-jitsu at its most fundamental level.
 - **Gordon Ryan**: The upa is your panic button from mount, but it only works if you commit to it violently and explosively. I see too many people try this escape tentatively, gradually pushing and telegraphing their intentions. That's how you waste energy and stay mounted. When I'm underneath and I feel my opponent's weight come forward for an attack, I'm already trapping and bridging before they realize what's happening. The key is making it one single explosive movement - trap, bridge, roll, all in less than one second. In competition, I've reversed countless mount positions with this escape because opponents get greedy and overcommit to submissions. The moment they reach for that americana or cross collar, their weight shifts forward and their base gets narrow - that's your window, and it's only open for a split second. Also, you need to be comfortable hitting this on both sides equally. In my matches, I'll sometimes give a slight opening on one side to bait the opponent's base shift, then explode to the other side where they're weak. The upa also sets up my other escapes - if they start defending the upa by sitting back or posting wide, now they're vulnerable to elbow escapes and hip escapes. Everything works together to create problems they can't solve.
 - **Eddie Bravo**: The upa is old school but it's essential, especially in the 10th Planet system where we combine it with our lockdown and rubber guard concepts. What most people miss is that the upa isn't just an escape, it's a sweep opportunity when you're creative with it. From bottom mount, if I can catch my opponent's arm in something like a gift wrap or overhook while they're attacking, I'm using that superior arm control as my trap instead of just cupping the elbow. This gives me way more security during the roll and often lets me come up directly to mount instead of settling for guard. We also drill upa escapes from unconventional mount variations - technical mount, reverse mount, mounted triangle attempts - because in no-gi and MMA the positions aren't as clean as sport BJJ. The explosive bridging power you develop from upa drilling translates directly to our rubber guard game too, because that same hip power lets you climb higher up opponent's back for mission control and dead orchard positions. One variation I love: if they defend the upa by posting really wide with their free hand, that's when I abandon it and immediately shoot for deep half guard on the posting side. They're so focused on defending the roll that they don't see the direction change coming. Keep them guessing, stay dangerous from bottom.

@@ -137,7 +137,7 @@ description: "Master Kimura Trap System in BJJ. Framework connecting control to 
 
 
 
-> **Quick Answer**: Kimura Trap System is a advanced difficulty Submission Chain system. This systematic approach integrates 5 key components into a cohesive fighting framework.
+> Kimura Trap System is a advanced difficulty Submission Chain system. Integrates 5 components.
 
 **System ID**: 
 **System Type**: Submission Chain
@@ -160,7 +160,7 @@ The genius of this system lies in its problem-solving approach: every defensive 
 
 <section id="key-principles" class="content-section">
 
-## What Are the Core Principles of This System?
+## Core Principles
 - Use the kimura grip as a control mechanism first, submission second
 - Create cascading dilemmas where every defensive choice leads to a different attack
 - Maintain constant shoulder rotation pressure to prevent opponent's escape
@@ -174,7 +174,7 @@ The genius of this system lies in its problem-solving approach: every defensive 
 
 <section id="key-components" class="content-section">
 
-## What Are the Key Components?
+## Key Components
 **Kimura Grip Establishment** (Creates the control foundation from which all other system elements flow)
 The foundational element involves securing the figure-four grip on the opponent's arm with proper hand positioning and shoulder alignment. The grip must be deep enough to control the shoulder girdle while maintaining mechanical advantage through proper arm angles. This requires understanding the difference between a shallow grip (easily escaped) and a deep, controlling grip that immobilizes the opponent's shoulder complex.
 
@@ -196,7 +196,7 @@ The rolling kimura represents an advanced expression of the system where the pra
 
 <section id="implementation-sequence" class="content-section">
 
-## How to Implement This System Step-by-Step
+## Implementation Sequence
 1. **Grip Establishment**: Secure the kimura grip from your starting position (side control, half guard, or turtle). Ensure deep hand positioning with your controlling hand gripping your own wrist, not just fingers. Apply immediate shoulder rotation pressure to test opponent's defensive awareness.
 Key points:
 - Deep grip with wrist-to-wrist connection, not finger interlock
@@ -358,7 +358,7 @@ The Kimura Trap System should be developed through progressive layering of compl
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This System?
+## Expert Insights
 - **John Danaher**: The Kimura Trap System exemplifies the fundamental principle that superior jiujitsu is built upon creating systematized problem-solving frameworks rather than memorizing isolated techniques. When you establish the kimura grip, you are not merely hunting for one submission—you are constructing an entire control ecosystem from which multiple offensive pathways emerge based on your opponent's defensive choices. The beauty of this system lies in its logical structure: every defensive response opens a different attack vector, creating what I call 'systematized inevitability.' Your opponent must choose between defending the submission, defending the back take, or defending the positional advancement, but they cannot defend all three simultaneously. This forces them into a decision-making hell where every choice leads to progressive deterioration of their position. The key to mastery is understanding that the kimura grip itself is the system's nucleus—maintain that grip with proper mechanics and shoulder rotation, and the various pathways will present themselves organically based on resistance patterns. Train this system not as a sequence of techniques, but as a decision tree where you develop automatic pattern recognition for which branch to follow.
 - **Gordon Ryan**: In competition, the Kimura Trap System has become one of my highest-percentage offensive frameworks because it solves the fundamental problem of how to advance position against defensive specialists who are experts at stalling and preventing submissions. When I secure the kimura grip from side control or half guard, I'm not thinking about the submission finish—I'm thinking about how to use that trapped arm as a steering wheel to drive my opponent into progressively worse positions. Against elite competitors, the immediate kimura finish is rare because they understand the danger and defend intelligently. But that's exactly what makes the system so effective: their defensive movements predictably open the back take or mount transition. I've won multiple ADCC and No-Gi Worlds matches by establishing kimura control and then methodically working through the decision tree until something breaks. The mental warfare aspect is crucial—once your opponent knows you have a systematized approach to the kimura, they start making mistakes out of panic, either defending too aggressively and giving up their back, or remaining too passive and allowing the positional advancement. My advice is to develop absolute confidence in your grip strength and shoulder pressure, because if you lose the grip during the transition, you lose all your accumulated advantage.
 - **Eddie Bravo**: The Kimura Trap System is a perfect example of how traditional techniques can be evolved into modern attacking frameworks when you stop thinking about jiujitsu in static, position-by-position terms. At 10th Planet, we've integrated the kimura grip into our rubber guard system, our truck system, and our leg lock game because it's such a versatile control mechanism. What most people miss is that the kimura can be the connector between completely different attacking systems—you can establish it from standing, use it to enter into your guard game, or transition from it into leg attacks. The rolling kimura variation is particularly effective in no-gi where grips are harder to maintain, because the rotational momentum allows you to break even the strongest defensive structures. I teach my students to view the kimura grip as a 'universal control adapter' that plugs into whatever system you're already using. If you're a leg locker, use the kimura to off-balance opponents and expose their legs. If you're a back attack specialist, use it to climb onto the back. The genius is in the versatility. Don't limit yourself to the traditional pathways—experiment with using the kimura grip from inverted positions, from bottom positions, even from defensive scrambles. The more creative you get with the entry points and transition options, the more unpredictable and dangerous your game becomes.
