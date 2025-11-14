@@ -118,9 +118,11 @@ summary::-webkit-details-marker {
     }
   }
 
-  // Dark mode support for TOC gradient fade indicator
-  #toc-content > ul.overflow::after {
-    background: linear-gradient(to bottom, transparent 0%, var(--dark) 85%);
+  // Dark mode shadow indicators for scrollable TOC
+  #toc-content {
+    box-shadow:
+      inset 0 0.5rem 0.5rem -0.5rem rgba(255, 255, 255, 0.08),
+      inset 0 -0.5rem 0.5rem -0.5rem rgba(255, 255, 255, 0.08);
   }
 
   // Adjust scrollbar colors for dark mode

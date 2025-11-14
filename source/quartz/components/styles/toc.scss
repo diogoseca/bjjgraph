@@ -45,6 +45,11 @@ button#toc {
   position: relative;
   visibility: visible;
 
+  // Shadow indicators for scrollable content
+  box-shadow:
+    inset 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.12),
+    inset 0 -0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.12);
+
   &.collapsed {
     max-height: 0;
     transition:
@@ -76,27 +81,6 @@ button#toc {
     max-height: none;
     width: 100%;
     position: relative;
-
-    // Gradient fade indicator at bottom when scrollable
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: 3rem;
-      background: linear-gradient(to bottom, transparent 0%, var(--light) 85%);
-      pointer-events: none;
-      opacity: 1;
-      transition: opacity 0.3s ease;
-      z-index: 10;
-    }
-
-    // Hide gradient when at bottom of scroll
-    &.at-bottom::after {
-      opacity: 0;
-    }
   }
 
   // Custom scrollbar styling for better visibility
