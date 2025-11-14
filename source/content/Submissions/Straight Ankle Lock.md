@@ -153,14 +153,12 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
 
 
 
-> Straight Ankle Lock is a ankle lock targeting the Ankle joint, Achilles tendon, and foot ligaments. ⚠️ **SAFETY**: This technique can cause Ankle sprain or ligament damage. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Straight Ankle Lock targets the Ankle joint, Achilles tendon, and foot ligaments. Risk: Ankle sprain or ligament damage. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Straight Ankle Lock?
 
 The Straight Ankle Lock (also called Straight Footlock) is the most fundamental lower body submission in Brazilian Jiu-Jitsu, targeting the ankle joint through hyperextension while controlling the leg in Ashi Garami or similar entanglement positions. Unlike heel hooks which attack multiple planes, the straight ankle lock creates a single-axis pressure on the ankle, making it the safest entry point for leg lock training and the foundational technique from which all other lower body attacks develop. The submission works by securing the opponent's foot in your armpit, creating a fulcrum point with your forearm across the top of the foot, then extending your hips forward while pulling back on the foot to create hyperextension of the ankle. The straight ankle lock is legal at all belt levels in IBJJF competition (unlike heel hooks and most knee attacks), making it an essential tool for competitors and a critical defensive skill for all practitioners. When properly applied, the submission creates progressive pressure that allows training partners to recognize the danger and tap before injury occurs, though the ankle joint can be compromised rapidly if excessive force is applied. The technique's effectiveness lies in proper leg control, hip positioning, and the relationship between your chest and the opponent's knee line—control these elements and the finish becomes inevitable regardless of the opponent's defensive efforts.
 
@@ -244,7 +242,7 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure the Foot Deep in Armpit**: With both hands controlling the opponent's foot and heel, pull the foot across your centerline and wedge it deeply into your armpit (opposite side from the trapped leg). The heel should be fully enclosed by your armpit and latissimus, with your elbow pinched down to trap it. Your hands should be palm-to-palm or figure-four gripped around the ankle and heel area, not the toes. (Timing: Initial setup phase, establish before applying pressure) [Pressure: Moderate]
 2. **Position Forearm Blade Across Top of Foot**: Rotate your gripping arms so the blade of your forearm (the thumb-side, radial bone side) lies across the top of the opponent's foot near where the foot meets the ankle. This creates the fulcrum point for hyperextension. Your wrist should be relatively straight, not bent, to maximize structural strength. The forearm must be high on the foot, not down near the toes where leverage is lost. (Timing: After armpit control established) [Pressure: Light]
 3. **Lock Chest to Opponent's Knee**: Drive your chest forward and down onto the opponent's knee, creating tight connection. This prevents them from pulling their leg free and ensures your hip extension translates directly into ankle pressure. Your head should be positioned on the outside of their knee (away from their free leg), and your shoulders should be square to their trapped leg. Maintain this connection throughout the finish. (Timing: Simultaneously with forearm positioning) [Pressure: Firm]
@@ -315,7 +313,7 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the correct speed of pressure application for a straight ankle lock in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The straight ankle lock must be applied with slow, progressive pressure over 3-5 seconds minimum in training environments. This is critical because it allows your training partner to recognize the depth of the submission and tap before reaching the injury threshold. Ankle joints and Achilles tendons can be damaged rapidly once their capacity is exceeded, and explosive application leaves no safety margin for the tap signal to be given and received. Training is not competition—we preserve our partners' health so we have people to train with long-term.
 

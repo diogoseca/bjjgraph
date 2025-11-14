@@ -147,14 +147,12 @@ description: "Master the Baratoplata submission in BJJ. Innovative shoulder lock
 
 
 
-> Baratoplata is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Baratoplata targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Baratoplata?
 
 The Baratoplata is an advanced shoulder lock submission that originated from Eddie Bravo's 10th Planet Jiu-Jitsu system, combining elements of the omoplata with unique arm isolation mechanics. This technique is typically initiated from rubber guard positions, particularly Mission Control or New York, and represents a sophisticated understanding of shoulder manipulation and control. The submission works by trapping the opponent's arm while rotating their shoulder beyond its natural range of motion, creating intense pressure on the rotator cuff and shoulder capsule. Unlike traditional omoplatas that focus primarily on forward shoulder rotation, the Baratoplata incorporates a unique arm weave that increases the mechanical advantage and makes escape more difficult. The technique exemplifies the innovation within modern no-gi grappling, offering a creative solution to opponents who defend conventional rubber guard attacks. While technically demanding and requiring significant flexibility and timing, the Baratoplata has proven effective at the highest levels of competition when executed with proper setup and control.
 
@@ -239,7 +237,7 @@ The Baratoplata is an advanced shoulder lock submission that originated from Edd
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish rubber guard control**: From closed guard, break opponent's posture and establish Mission Control by placing your foot behind their head. Use your hand to control their trapped arm's wrist, preventing them from posting or creating defensive frames. Your other leg should maintain closed guard position initially. (Timing: 3-5 seconds to establish solid control) [Pressure: Moderate]
 2. **Transition to New York position**: Release your bottom leg from closed guard and bring your knee across opponent's back while maintaining high guard pressure with your top leg. This creates the angle necessary for the arm weave. Keep constant pressure pulling their head down and controlling their trapped arm throughout this transition. (Timing: 2-3 seconds for smooth transition) [Pressure: Firm]
 3. **Thread your arm for the weave**: With your hand that's controlling their wrist, thread your arm over their trapped arm and under your own leg that's across their back. This creates the characteristic arm weave that locks their shoulder in place. Maintain tight connection between your leg and their arm during this threading motion. (Timing: 2-4 seconds to establish weave) [Pressure: Moderate]
@@ -307,7 +305,7 @@ The Baratoplata is an advanced shoulder lock submission that originated from Edd
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the minimum application time and key safety considerations when finishing the Baratoplata? **[SAFETY-CRITICAL]**
 **A**: Minimum 5-7 seconds extremely slow application time is required. Key safety considerations include: never using explosive or jerking motions on shoulder submissions, immediately releasing upon any tap signal, being especially cautious with partners who have limited shoulder flexibility, and understanding that shoulder injuries can be severe (rotator cuff tears, labrum damage, dislocations) with recovery times of 6 weeks to 6 months or more.
 

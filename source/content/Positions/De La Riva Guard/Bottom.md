@@ -8,7 +8,7 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is De La Riva Guard from the Bottom?
 
 De La Riva Guard Bottom is one of the most dynamic and versatile open guard positions in modern Brazilian Jiu-Jitsu. Named after Ricardo De La Riva who revolutionized its use in the 1980s, this position is characterized by the bottom player hooking their opponent's leg from the outside while controlling the opposite sleeve or collar. The De La Riva hook, created by threading your leg around the outside of your opponent's near leg and hooking behind their knee, creates powerful off-balancing opportunities and serves as the foundation for numerous sweeps, back takes, and leg entanglements.
 
@@ -433,17 +414,17 @@ Practice entering the berimbolo from De La Riva guard with partner providing 50%
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The De La Riva guard represents a fundamental shift in guard theory - from using the guard purely as a defensive shield to employing it as an active weapons system for off-balancing and attacking. The biomechanical genius of the position lies in its exploitation of human anatomy's vulnerability to rotational forces applied to the knee joint. By threading your leg around the outside of your opponent's leg and hooking behind their knee, you create a powerful lever that disrupts their sagittal plane stability while your cross grip eliminates their frontal plane balance. This diagonal control system - hook on one side, grip on the opposite side - creates what I call 'structural breakdown through diagonal tension.' The opponent cannot move forward because of the hook, cannot move backward because you're pulling them, and cannot rotate because the cross grip prevents it. Understanding this principle allows you to chain techniques not randomly, but systematically based on which plane of movement your opponent attempts to use for escape. When they try to remove the hook by stepping back, you have overhead and waiter sweeps. When they drive forward to smash, you have berimbolo and kiss of the dragon. Every defensive reaction opens a specific offensive opportunity, making De La Riva guard a perfect example of using physics and biomechanics to overcome strength disadvantages.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 De La Riva guard is one of the highest-percentage positions in modern competitive jiu-jitsu because it gives you multiple paths to dominant positions and submissions while being extremely difficult for opponents to pass cleanly. In my competition experience, I've found the key to making De La Riva truly dangerous is being relentlessly offensive with it - you can't just hold the position and wait. I'm constantly threatening the berimbolo, the sweep, or transitioning to X-guard or Single Leg X. The moment you become defensive or static in De La Riva, good passers will methodically clear your hooks and pass. What makes it especially effective at the highest levels is that it works both gi and no-gi, and it creates immediate access to leg entanglements which is crucial in modern competitive grappling. When someone stands to disengage, I'm immediately entering outside ashi or saddle positions. The position also has excellent synergy with modern back attack systems - the berimbolo has become one of the most high-percentage back takes in competition because it's so difficult to defend when executed properly. I've won numerous matches by chaining De La Riva sweeps into immediate mount or back attacks, then finishing with submissions. The versatility is what makes it championship-level - you're never stuck with only one option, you always have multiple attack paths based on how opponent reacts.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 De La Riva guard is sick because it's one of those positions that proves jiu-jitsu is constantly evolving. Ricardo De La Riva basically invented a whole new guard system that nobody was using before, and now it's fundamental to the game. What I love about it is how it opens up these crazy inversion entries and back takes that look like magic to people who don't understand the mechanics. The berimbolo is basically a De La Riva specialty - you're using that hook to control their base while you spin underneath them and come up on their back. It's like a skateboard trick but for jiu-jitsu. In the 10th Planet system, we've adapted De La Riva concepts for no-gi by focusing more on the leg entanglement side of things. Without the gi grips, you have to be more aggressive about getting to outside ashi or inside position on the legs. We also combine De La Riva with rubber guard concepts when the distance closes - if they break your hook and try to smash, you can transition to mission control or invisible collar. The key innovation we've brought is treating De La Riva not as a standalone position but as an entry system to our other guards and leg attacks. It's like a highway interchange - you can use it to get to X-guard, to single leg X, to leg locks, or to the truck position. That versatility combined with the ability to completely off-balance and frustrate passers makes it essential for any modern no-gi game.
 

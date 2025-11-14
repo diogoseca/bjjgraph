@@ -153,14 +153,10 @@ description: "Master the Arm Drag Sweep in BJJ. Complete guide with step-by-step
 
 
 
-> Arm Drag Sweep transitions from [[Closed Guard]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Arm Drag Sweep?
 
 The Arm Drag Sweep is a fundamental yet highly effective technique that combines off-balancing principles with opportunistic back-taking opportunities. Unlike traditional sweeps that focus solely on achieving top position, the arm drag creates a dual threat: either sweeping the opponent to a dominant position or transitioning directly to back control. This versatility makes it an essential tool in any guard player's arsenal, particularly from closed guard, butterfly guard, and seated guard positions.
 
@@ -204,7 +200,7 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish primary control**: From guard position, secure a firm grip on your opponent's wrist or sleeve with your same-side hand (right hand controls their right wrist). This grip should be strong enough to redirect the arm but not telegraph your intentions. Simultaneously, break their posture slightly forward by pulling with your guard or using your legs to close distance. Your opponent should feel engaged but not threatened at this stage. (Timing: During opponent's forward pressure or neutral engagement)
 2. **Secure secondary control**: With your opposite hand (left hand), reach over or around their controlled arm to grip their tricep, lat muscle, or back of their shoulder. In gi, this can be a deep collar grip or lat grip. In no-gi, grip the tricep or wrap around the back. This second grip is critical for preventing them from posting with this arm and for generating the dragging force. The combination of wrist/sleeve control and upper arm control creates a strong mechanical advantage. (Timing: Immediately after establishing wrist control)
 3. **Create angular displacement**: Begin moving your hips away from the arm you're controlling, creating a 45-degree angle relative to your opponent. If controlling their right arm, shift your hips to your left. This angular movement is crucial—it removes you from directly in front of them and begins to expose their back. Your shoulders should rotate in the same direction as your hips. This hip movement must be explosive enough to create momentum but controlled enough to maintain grips. (Timing: Simultaneous with initiating the arm drag)
@@ -296,7 +292,7 @@ Live positional sparring from guard where you attempt arm drag sweep and partner
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is creating a 45-degree hip angle essential to the arm drag sweep's effectiveness?
 **A**: The 45-degree hip angle serves multiple critical functions: (1) it removes you from directly in front of your opponent, eliminating their ability to use their free arm and legs to post directly forward; (2) it begins to expose their back, creating dual-threat opportunities between sweep and back take; (3) it allows you to generate rotational force that adds to the off-balancing effect of the arm drag itself; (4) it creates a mechanical advantage where your entire body is working together rather than just your arms pulling. Without this angle, you're fighting directly against their base, which is their strongest defensive position.
 

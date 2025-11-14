@@ -8,7 +8,7 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 80%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Buggy Choke from the Top?
 
 The Buggy Choke from top position represents one of the most versatile and high-percentage turtle attack systems in modern Brazilian Jiu-Jitsu. Unlike many turtle attacks that offer binary outcomes (submission or return to neutral), the buggy choke creates a branching decision tree where every defensive response opens different offensive opportunities. This positional versatility makes it exceptionally valuable in competition where opponents are well-versed in defending single-path attacks but struggle against multi-threat systems.
 
@@ -500,17 +479,17 @@ Begin from turtle top without grips. Partner provides graduated resistance: Roun
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The buggy choke position exemplifies sophisticated attack system design where a single control configuration creates multiple high-percentage offensive pathways. From a systematic perspective, this represents optimal jiu-jitsu strategy: establishing control structures that make all defensive options lead to disadvantageous outcomes for the opponent. The biomechanical effectiveness derives from the perpendicular pressure principle—when we apply chest weight downward while the choking arm applies rotational torque, we create a structural problem where the opponent's turtle posture facilitates rather than prevents the submission. The critical technical element that most practitioners overlook is the palm-up orientation of the threading arm, which transforms body weight into choking pressure through lever mechanics rather than requiring arm strength. From a teaching perspective, I emphasize that the buggy choke should be trained as a position rather than a submission—students must develop the ability to read defensive reactions and flow between finishing the choke, taking the back, attacking the crucifix, or rolling to truck without releasing control. This reactive methodology represents advanced strategy where opponent choices determine specific outcomes, but all outcomes favor the top player.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In high-level competition, the buggy choke position is one of my most reliable turtle attacks because it eliminates the stalling strategy that many defensive players rely on. When I secure these grips, my opponent can't just stay in turtle and wait for the referee to stand us up or wait for me to make a mistake—they must move, and every movement creates opportunities for me. The competitive application is understanding when to finish the choke versus when to use it as entry control for back takes or crucifix attacks. Against opponents with excellent buggy choke defense, I often use the initial grip establishment as a forcing mechanism—they defend the choke by sitting to guard, which gives me the exact back take I was actually setting up. This represents high-level strategy where the visible primary attack (the choke) serves as setup for the actual objective (the back take). The key insight for competitors is recognizing that maintaining this position for 20-30 seconds while reading defensive reactions provides more valuable information than rushing immediately to submission attempts. Patience in this control position allows you to identify the specific defensive pattern your opponent uses, then exploit that pattern with the appropriate counter-transition. In the gi, this position is even more dominant because the collar grips are extremely difficult to strip once properly established.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The buggy choke fits perfectly into the 10th Planet turtle attack philosophy—we're not trying to just take the back and play it safe, we're hunting for submissions and dominant positions simultaneously. What makes this position so effective is that it's completely compatible with our twister system and truck game. From buggy choke control, I can finish the choke, take the back, or roll them to the truck for twister attacks, and all those options flow naturally without me having to release control and start over. The no-gi adaptation is important to understand because you're not relying on collar grips—you're connecting hands around the neck and shoulder to create similar structural control with different mechanics. This actually makes the position slightly more dynamic in no-gi because transitions between buggy choke, darce, and anaconda happen more fluidly when you're not committed to specific collar grips. In training, we emphasize treating turtle top as submission hunting position rather than just positional control, and the buggy choke is a perfect example of that mindset. You're threatening damage immediately while simultaneously setting up transitions to even more dangerous positions. This aggressive approach forces opponents to make rushed defensive decisions, which usually means they're making mistakes you can capitalize on.
 

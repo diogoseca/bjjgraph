@@ -153,14 +153,10 @@ description: "Learn Single Leg Entry in BJJ. Step-by-step execution from Standin
 
 
 
-> Single Leg Entry transitions from [[Standing Position]] to [[Single Leg X-Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Single Leg Entry?
 
 The Single Leg Entry is a fundamental wrestling-based takedown that serves as one of the most reliable techniques for establishing top position from standing in Brazilian Jiu-Jitsu. This technique involves capturing one of your opponent's legs while maintaining your own base and balance, creating a powerful mechanical advantage that can lead to various finishing positions including top control, back takes, or leg entanglements. The single leg entry is particularly effective in both gi and no-gi grappling, making it an essential component of any complete BJJ game.
 
@@ -204,7 +200,7 @@ From a strategic perspective, the single leg entry represents a crucial bridge b
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: Begin from standing position with hand fighting or collar/sleeve grips in gi. Create connection points that will allow you to control opponent's upper body and prevent them from creating distance. In no-gi, this typically involves head control, overhooks, or wrist control. Set up your entry by manipulating opponent's posture and weight distribution through these grips. (Timing: Initial setup phase - establish before commitment)
 2. **Execute level change**: Drop your elevation rapidly by bending at hips and knees simultaneously, lowering your center of gravity well below opponent's hips. This level change should be explosive and committed, with your chest staying upright and eyes maintaining visual contact with target leg. Your back should remain relatively straight to maintain structural integrity and power generation capability. (Timing: Explosive movement - 0.3 to 0.5 seconds)
 3. **Penetration step**: As you change levels, step your lead foot deep between opponent's legs or to the outside of their target leg, positioning your foot approximately 12-18 inches behind their heel. This penetration step is crucial for getting your hips close to opponent and establishing the proper angle for leg capture. Your trailing leg should remain back initially to maintain base and provide pushing power. (Timing: Simultaneous with level change)
@@ -306,7 +302,7 @@ Implement single leg entry during regular rolling sessions, choosing when to att
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is proper level change mechanics essential for single leg entry success, and what are the key components of an effective level change?
 **A**: Proper level change is essential because it allows you to get your hips below opponent's hips, which is necessary to penetrate their base and secure the leg without being sprawled on. Key components include explosive hip and knee flexion that drops your center of gravity rapidly, maintaining upright chest position to preserve structural power, keeping eyes on target throughout the movement, and executing the penetration step simultaneously with the level drop. Without proper level change, you remain too high and vulnerable to sprawl defense, guillotines, and front headlock attacks. The level change must be committed and explosive rather than gradual or tentative.
 

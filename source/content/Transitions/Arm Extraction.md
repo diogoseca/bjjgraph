@@ -147,14 +147,10 @@ description: "Master Arm Extraction escape from Side Control. Learn systematic a
 
 
 
-> Arm Extraction transitions from [[Side Control]] to [[Guard Recovery]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Arm Extraction?
 
 Arm Extraction is a fundamental defensive technique used to escape side control by systematically removing the opponent's underhook or crossface control. This escape creates the necessary space to insert frames and recover guard position. The technique exploits the opponent's commitment to chest-to-chest pressure by using precise timing and hip movement to extract the trapped arm.
 
@@ -197,7 +193,7 @@ This escape is particularly effective against pressure-based top players who pri
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish defensive frames**: From bottom side control, immediately establish frames using the near-side arm against opponent's hip or shoulder. Place the far-side hand on the opponent's near-side shoulder or bicep. Create maximum distance between your shoulder and the mat by using these frames to prevent opponent from settling their full weight. Your elbows should be tight to your body, creating a structural frame rather than extended arms that can be collapsed. (Timing: Immediately upon being taken to side control)
 2. **Identify the trapped arm**: Determine which arm is most compromised—typically the arm caught in an underhook or trapped by a crossface. This is your primary extraction target. The trapped arm is usually on the side where opponent's chest makes contact with yours. Assess whether you're dealing with an underhook (opponent's arm under yours) or crossface (opponent's arm across your face). This determines your extraction angle. (Timing: During initial defensive assessment)
 3. **Create shoulder rotation space**: Using your frames, push and create a small gap between your shoulder and the mat. Simultaneously turn your shoulders toward the opponent, rotating your trapped-side shoulder upward and away from the mat. This rotation is subtle—only 2-3 inches of movement—but critical for creating extraction space. Maintain constant frame pressure throughout this rotation to prevent opponent from following your movement and closing the gap. (Timing: As opponent commits pressure forward)
@@ -292,7 +288,7 @@ Practice flowing between arm extraction and other side control escapes (bridge a
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary control mechanism you must address before attempting arm extraction from side control?
 **A**: The primary control mechanism is the opponent's upper body connection, specifically the underhook or crossface that traps your arm and prevents shoulder rotation. This arm control prevents you from creating the necessary space for escape. By identifying and extracting this trapped arm first, you eliminate the opponent's primary control point and create the foundation for full guard recovery. The trapped arm is typically on the side where opponent's chest makes contact with yours.
 

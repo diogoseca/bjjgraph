@@ -147,14 +147,10 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn setup, executio
 
 
 
-> Bolo Sweep transitions from [[De La Riva Guard]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Bolo Sweep?
 
 The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques in modern Brazilian Jiu-Jitsu, fundamentally transforming how practitioners approach the De La Riva guard. This dynamic sweeping technique utilizes rotation and inversion to destabilize opponents while simultaneously creating opportunities to take the back. The movement combines elements of traditional sweeping mechanics with gymnastic-style inversion, making it particularly effective against standing opponents who base heavily on their De La Riva-hooked leg. The technique's effectiveness lies in its ability to create a rotational force that opponents cannot easily counter without risking being swept or having their back taken. What makes the Bolo particularly powerful is its scalability - it can be executed as a pure sweep to off-balance and reverse positions, or it can seamlessly transition into back-taking sequences when the opponent attempts to defend the initial sweep. The technique has become a cornerstone of modern sport BJJ competition, particularly in the lighter weight divisions where flexibility and speed can be maximized.
 
@@ -194,7 +190,7 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish De La Riva control**: Secure De La Riva hook on opponent's far leg with your outside leg, threading it deep behind their knee. Simultaneously grip their collar or same-side sleeve with your hand, creating a strong connection that prevents them from easily disengaging or circling away from your guard. (Timing: Initial setup phase)
 2. **Create angle and off-balance**: Pull opponent forward and slightly to the side using your collar or sleeve grip while simultaneously extending your De La Riva hook. This forces their weight onto the hooked leg and creates the foundational angle needed for your inversion. Your free leg should be framing against their near hip or controlling their other leg. (Timing: As opponent begins to pass or stand)
 3. **Begin inversion**: Release your frame leg and begin rotating your hips underneath your body, turning your shoulders toward the mat. Your De La Riva hook remains active throughout this movement. Start threading your head and shoulders under the opponent's posted leg, creating a corkscrew-like rotation that takes you beneath their base. (Timing: Explosive movement as you feel opponent's weight shift)
@@ -276,7 +272,7 @@ Execute Bolo attempts during live positional sparring from De La Riva guard. Par
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary control mechanism that must be maintained throughout the Bolo rotation?
 **A**: The De La Riva hook on the opponent's far leg must be maintained throughout the entire rotation. This hook is the foundational control that prevents the opponent from stepping away, creates the leverage for the sweep, and guides your body through the proper rotational path. Releasing this hook prematurely is one of the most common errors that causes the technique to fail.
 

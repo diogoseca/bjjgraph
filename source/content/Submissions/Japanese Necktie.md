@@ -153,14 +153,12 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 
 
 
-> Japanese Necktie is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from bilateral carotid compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Japanese Necktie targets the Carotid arteries and trachea. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Japanese Necktie?
 
 The Japanese Necktie is a sophisticated blood choke that attacks from front headlock or turtle positions, creating a powerful stranglehold using the opponent's own shoulder and arm as part of the choking mechanism. Unlike traditional guillotines that rely purely on your arms, the Japanese Necktie leverages bodyweight, rotational pressure, and the opponent's trapped arm to create an inescapable compression of the carotid arteries. This submission is particularly effective in scramble situations where opponents attempt to escape turtle or when transitioning from failed takedown attempts. The technique gained prominence in modern no-gi competition but works equally well in the gi, offering multiple entry points from common positions. The Japanese Necktie creates a unique predicament where the opponent's defensive frames actually tighten the choke, making it a high-percentage finish once proper positioning is established. The submission requires precise understanding of angle creation, shoulder pressure mechanics, and the critical importance of hip positioning relative to the opponent's head. When executed correctly, the Japanese Necktie produces rapid unconsciousness due to bilateral carotid compression, making tap awareness and controlled application essential safety considerations during training.
 
@@ -246,7 +244,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure Front Headlock with Arm Trap**: From front headlock position with opponent in turtle, swim your near arm deep around opponent's neck, achieving a front headlock grip. Simultaneously establish a deep overhook on their near arm with your far arm, pinching their arm tightly to their body. This trapped arm will become part of the choking mechanism. Your chest should be heavy on their shoulder, preventing them from sitting back or standing up. (Timing: 2-3 seconds to establish secure grips) [Pressure: Moderate]
 2. **Create Perpendicular Angle**: Begin rotating your body perpendicular to opponent's spine by stepping your far leg over their back and toward their far hip. As you rotate, maintain the tight overhook on their trapped arm while your choking arm stays deep around their neck. Your goal is to position your torso at approximately 90 degrees to their spine, with your hips facing their far side. This angle is critical for the choke's effectiveness. (Timing: 2-3 seconds for rotation) [Pressure: Moderate]
 3. **Lock the Grip Configuration**: With your choking arm deep around their neck, reach for your own leg (typically grabbing your shin or foot) or clasp your hands together in a gable grip behind their head. The exact grip varies by body type and flexibility, but the key is creating a closed loop that prevents your arm from sliding out. Some variations involve gripping your own lapel in gi, or grabbing your ankle in no-gi. Ensure the lock is tight before applying pressure. (Timing: 1-2 seconds to secure grip) [Pressure: Light]
@@ -315,7 +313,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary choking mechanism of the Japanese Necktie, and how does it differ from a standard guillotine?
 **A**: The Japanese Necktie uses the opponent's own trapped shoulder as part of the choking mechanism, creating bilateral carotid compression through your shoulder on one side and their shoulder on the other side of their neck. Your choking arm serves primarily to control head position rather than generate the choking pressure itself. This differs from a standard guillotine where your arms create the compression directly. The Japanese Necktie generates pressure through hip extension and shoulder drive rather than arm strength, making it effective even against larger opponents.
 

@@ -153,14 +153,12 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 
 
 
-> Von Flue Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Von Flue Choke targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Von Flue Choke?
 
 The Von Flue Choke is a devastating counter-submission that punishes opponents who maintain an overly committed guillotine grip from bottom position. Named after Jason Von Flue who famously used it in the UFC, this technique transforms a defensive scenario into an immediate offensive threat. The choke works by using shoulder pressure combined with body weight to compress one carotid artery while the opponent's own arm compresses the other, creating a blood choke that renders the guillotine grip not only ineffective but actively dangerous for the person holding it. This submission is particularly effective in no-gi grappling where guillotine attempts are common, and it serves as a crucial defensive concept that every practitioner must understand. The psychological impact of the Von Flue choke cannot be overstated—once an opponent has been caught with it, they become hesitant to hold guillotine grips from bottom position, fundamentally changing the dynamics of guard passing exchanges. The technique demonstrates a core principle in Brazilian Jiu-Jitsu: every offensive position contains the seeds of its own defeat if held too long or too rigidly.
 
@@ -243,7 +241,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure side control position**: As you pass the guard or establish side control against an opponent holding a guillotine, ensure your chest is heavy on their chest and your hips are low. Your head should be on the far side of their body, away from the arm executing the guillotine grip. Do not try to pull your head out of any partial guillotine pressure—instead, accept the position and focus on establishing dominant control. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Position your shoulder against their neck**: Drive your near-side shoulder (the shoulder closest to their head) directly into the side of their neck on the same side as their gripping arm. This shoulder should make contact with the soft tissue of the neck, not the jaw or chin. Your shoulder becomes the primary pressure point that will compress one carotid artery. Ensure your posture is tight with your head connected to their far shoulder. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Establish crossface control**: Your near arm should cross their face, with your hand gripping behind their far shoulder or under their far armpit. This crossface serves multiple purposes: it prevents them from turning into you, it helps you maintain head position, and it allows you to drive additional pressure through your shoulder into their neck. Your elbow should be tight to their near side to prevent space. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -306,7 +304,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the two primary pressure points that create the Von Flue choke, and why is the opponent's own arm critical to the technique?
 **A**: The two primary pressure points are: 1) Your shoulder driving into one side of their neck to compress one carotid artery, and 2) Their own arm (from the guillotine grip) which crosses their neck and compresses the opposite carotid artery. The opponent's arm is critical because it creates half of the choke for you—without their guillotine grip, the shoulder pressure alone would be insufficient. This is why the technique works as a counter-submission: their offensive weapon becomes the instrument of their own defeat.
 

@@ -147,14 +147,10 @@ description: "Learn the X Pass in BJJ. Comprehensive guide to executing this dyn
 
 
 
-> X Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is X Pass?
 
 The X Pass is a highly effective guard passing technique that combines pressure, angle creation, and strategic weight distribution to neutralize the bottom player's defensive structure. Originating from top half guard positions, this pass leverages crossface control and hip pressure to flatten the opponent while simultaneously clearing the legs. The technique's name derives from the cross-body angle created during execution, where the passer's torso forms an 'X' shape relative to the opponent's body. This pass is particularly effective against knee shield and standard half guard variations, as it attacks the fundamental defensive frames that bottom players rely upon. The X Pass exemplifies modern pressure passing principles by combining forward pressure with lateral movement, creating a dilemma where the opponent must choose between maintaining their guard structure or preventing the pass. When executed with proper timing and pressure application, the X Pass becomes a cornerstone technique for any guard passing system, seamlessly transitioning into dominant top positions.
 
@@ -192,7 +188,7 @@ The X Pass is a highly effective guard passing technique that combines pressure,
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish crossface control**: Drive your shoulder across opponent's face while threading your arm under their head, establishing a strong crossface. Your hand should reach toward their far shoulder or secure a grip on their far lat. This crossface serves to flatten their shoulders and eliminate their ability to frame effectively against your chest. (Timing: Immediately upon securing top half guard position)
 2. **Apply chest pressure**: Drive your chest weight forward and down into opponent's sternum, using your crossface shoulder as the pressure point. Your weight should be distributed approximately 70% forward onto your crossface shoulder, 30% on your base leg. This pressure prevents them from turning into you or establishing an effective underhook. (Timing: Simultaneous with crossface establishment)
 3. **Step outside leg wide**: Take a wide step with your outside leg (the leg not trapped in half guard), planting your foot approximately 18-24 inches away from opponent's hip at a 45-degree angle. This creates the angle necessary for the X-shaped body position and provides a stable base for driving pressure across their body. (Timing: As opponent reacts to initial pressure)
@@ -282,7 +278,7 @@ Practice X Pass as part of passing combinations. Set up X Pass from knee cut att
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is stepping the outside leg wide at a 45-degree angle critical to the X Pass execution?
 **A**: Stepping wide creates the angular pressure line that defines the X Pass and distinguishes it from linear pressure passing. The wide base allows you to drive your chest and hips diagonally across opponent's torso rather than straight forward. This angle makes it significantly harder for the opponent to frame effectively because their defensive frames would need to extend at awkward angles to meet your pressure. Additionally, the wide base provides stability for maintaining pressure while clearing your trapped leg.
 

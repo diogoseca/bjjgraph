@@ -8,7 +8,7 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 60% of the time and finish submissions in 15%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: Medium to High
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Ringworm Guard from the Top?
 
 Ringworm Guard Top represents the defensive challenge of dealing with one of the most technically sophisticated lapel guard variations in modern Brazilian Jiu-Jitsu. When caught in this position, the top player faces significant mobility restrictions due to the lapel wrapped around their leg, limiting base, balance, and passing options. The position requires systematic problem-solving to extract from the lapel configuration while defending against sweeps, back takes, and submission attempts.
 
@@ -437,17 +416,17 @@ Partner in Ringworm Guard attempts various sweeps and back-taking attacks while 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Defending against Ringworm Guard requires understanding that the lapel wrap creates a closed mechanical system that converts your own movement into control disadvantages. The biomechanical principle at work is leverage multiplication - the bottom player uses the lapel as a force multiplier that makes your leg weight work against your base stability. The systematic solution involves grip breaking as the primary objective, with all other defensive considerations subordinate to this goal. You must be willing to temporarily accept other positional disadvantages to focus both hands on breaking the lapel grip, as no other aspect of your defense matters while that wrap remains secure. The key technical insight is recognizing that patience and systematic approach defeat this position far more reliably than athleticism or pressure. Many top players make the error of treating this like standard open guard, attempting to pressure pass or drive forward, which plays directly into the guard player's mechanical advantages. Instead, we must prioritize grip breaking, then leg extraction, then posture recovery, and only finally consider passing attacks. This sequential approach may feel slow, but it represents the highest percentage path through this defensive challenge.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Ringworm Guard is one of those positions where you need to check your ego and accept that you're in a bad spot that requires careful navigation. I've had training sessions with Keenan where he showed me just how effective this guard can be, and the biggest lesson was understanding that rushing makes everything worse. When I encounter this position in competition, my immediate mindset is escape first, pass second. Don't worry about looking dominant or aggressive - focus on solving the problem systematically. The grip break is everything. I typically use a two-on-one approach where I control their wrist with one hand and strip the lapel with the other, accepting that I might lose some upper body control temporarily. Once the grip is broken or weakened, I immediately stand up to create distance and reset to a standing passing position where the lapel wrap becomes much less effective. The key is recognizing this position early and not letting them fully consolidate it. If you feel the lapel starting to thread around your leg, address it immediately before they secure the full configuration. Prevention is infinitely easier than extraction once they've locked it in.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 From a 10th Planet perspective, dealing with gi-specific positions like Ringworm is interesting because it highlights the importance of understanding different games even if you primarily train no-gi. The conceptual lesson here is recognizing when you're in a specialized control system that requires specialized counters - whether that's a lapel wrap in gi or a body triangle in no-gi. What I tell my students who cross-train in gi is don't try to muscle through weird gi guards. These positions were invented by high-level competitors specifically to shut down standard passing approaches, so you need to develop specific counters. For Ringworm, the answer is usually creating distance and standing up, essentially resetting the engagement rather than fighting through the control system. It's like when someone gets a really good lockdown on you in half guard - sometimes the best option is to disengage and restart rather than fighting through their strongest position. The mental game aspect is huge too. Don't let frustration make you sloppy. These technical positions can be incredibly annoying to deal with, but that's exactly why they work - they make you want to do something reckless, which is exactly what the guard player is hoping for.
 

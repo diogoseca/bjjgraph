@@ -153,14 +153,12 @@ description: "Master Kneebar from 50-50 Guard in BJJ. Complete guide with safety
 
 
 
-> Kneebar from 50-50 is a leg lock targeting the Knee joint (hyperextension of knee ligaments). ⚠️ **SAFETY**: This technique can cause MCL/LCL ligament tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kneebar from 50-50 targets the Knee joint (hyperextension of knee ligaments). Risk: MCL/LCL ligament tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kneebar from 50-50?
 
 The Kneebar from 50-50 Guard is a fundamental leg lock submission that targets the opponent's knee joint through hyperextension. This position creates a powerful mechanical advantage where both practitioners have entangled legs, but the attacking player uses hip extension and proper leg positioning to isolate and attack one of the opponent's legs. The 50-50 position is unique because it offers both offensive and defensive opportunities simultaneously—while you attack your opponent's knee, you must also defend your own.
 
@@ -250,7 +248,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish inside 50-50 position**: From 50-50 Guard, ensure your inside leg is deeper than opponent's. Your inside leg should be positioned with your foot behind their far hip while your outside leg wraps over their near thigh. This inside position is critical—if opponent has deeper inside position, you must address this first before attempting the kneebar. (Timing: Initial setup phase) [Pressure: Light]
 2. **Isolate and secure the target leg**: Reach across and grab opponent's foot (the leg you're entangling), pulling it tightly into your armpit. Their toes should point toward your back. Clamp your elbow and arm tightly around their foot, treating it like a seatbelt grip. This foot control is non-negotiable—if you lose this connection, the submission fails. (Timing: 2-3 seconds) [Pressure: Firm]
 3. **Position hip across knee joint**: Adjust your body angle so your hip bone is positioned directly across opponent's knee joint. Think of your hip as the fulcrum of a lever system. Scoot your hips closer to their knee, eliminating all space. Your body should be roughly perpendicular to opponent's trapped leg. This positioning determines the efficiency of your leverage. (Timing: 2-3 seconds positioning) [Pressure: Moderate]
@@ -319,7 +317,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply finishing pressure on a kneebar during training, and why? **[SAFETY-CRITICAL]**
 **A**: Minimum 5-7 seconds of progressive pressure during training. This slow application allows your training partner ample time to recognize the danger and tap safely. Explosive or fast applications can cause severe knee ligament damage before the person can react, potentially causing ACL/MCL tears that require surgery and 9-12 months recovery. Competition speed and training speed are different—partner safety always takes priority in the training room.
 

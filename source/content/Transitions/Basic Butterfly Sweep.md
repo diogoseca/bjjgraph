@@ -153,14 +153,10 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
 
 
 
-> Basic Butterfly Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Basic Butterfly Sweep?
 
 The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard that exploits opponent's forward pressure and balance. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength. When executed properly, the Basic Butterfly Sweep can transition smoothly into mount, side control, or back control depending on the opponent's defensive reactions. This is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced butterfly guard sweeping systems.
 
@@ -199,7 +195,7 @@ The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish butterfly guard position**: Secure butterfly guard with both hooks under opponent's thighs, heels pulled in toward their hips. Sit up tall with active posture, controlling opponent's upper body with collar and sleeve grips or underhooks. Your hips should be mobile and ready to move. (Timing: Initial setup position)
 2. **Secure upper body control**: Establish strong grip control - typically collar and sleeve grips, double underhooks, or overhook/underhook combinations. Pull opponent's upper body down and forward to break their posture and bring their weight over your hips. This control is critical for preventing them from posting and defending the sweep. (Timing: Maintain throughout sweep)
 3. **Create angle with hip movement**: Shift your hips at a 45-degree angle away from the side you intend to sweep toward. This angling creates better leverage for the butterfly hook and positions your body to follow through into top position. Your spine should be curved toward the sweeping direction. (Timing: As opponent commits weight forward)
@@ -298,7 +294,7 @@ Refine technique based on experience against various opponents. Study high-level
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the butterfly sweep effective?
 **A**: The butterfly sweep works by creating leverage through the butterfly hook which acts as a fulcrum point under the opponent's center of gravity. When you drive the hook upward while simultaneously pulling their upper body forward and across, you create a rotational force that disrupts their base. The hook elevation combined with upper body control creates a mechanical advantage that allows a smaller person to sweep a larger opponent by exploiting physics rather than relying on strength.
 

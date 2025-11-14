@@ -147,14 +147,12 @@ description: "Master Triangle from Guard in BJJ. Complete safety guide covering 
 
 
 
-> Triangle from Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle from Guard targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle from Guard?
 
 The Triangle from Guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu, representing the perfect marriage of positional control and finishing mechanics. From the guard position, the practitioner uses their legs to create a figure-four configuration around the opponent's neck and arm, compressing the carotid arteries while using the opponent's own shoulder to complete the strangle. This submission is particularly effective because it can be applied from numerous guard variations, creates a powerful dilemma for the opponent, and allows the bottom player to maintain dominant control throughout the finishing sequence. The triangle's versatility makes it a cornerstone technique from white belt through black belt, with applications in gi and no-gi grappling. Understanding proper angle creation, hip positioning, and leg configuration is essential for maximizing effectiveness while minimizing the risk of escape. The triangle also serves as an excellent platform for transitioning to other submissions like armbars and omoplatas when the opponent defends, making it a critical component of any guard player's systematic approach to finishing from the bottom position.
 
@@ -237,7 +235,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Break Posture and Control Arm**: From closed guard, establish a strong collar grip with one hand and sleeve grip with the other. Break the opponent's posture by pulling down on the collar while simultaneously pulling one arm across your centerline. The opponent's elbow should cross your body's midline, creating the angle needed for triangle entry. Use your legs to squeeze and assist in breaking posture if needed. (Timing: 2-3 seconds of sustained pulling pressure) [Pressure: Moderate]
 2. **Create Angle and Swing Leg Over**: While maintaining the broken posture, use your hips to create a 45-degree angle to the side of the arm you're attacking. Open your guard and immediately swing your leg (same side as the attacking arm) high over the opponent's shoulder and behind their head. The back of your knee should touch the side of their neck. Keep the other leg active on their hip to prevent them from posturing up or passing. (Timing: 1-2 seconds - must be quick to prevent escape) [Pressure: Light]
 3. **Lock the Triangle Configuration**: Bring your opposite leg across to create the figure-four lock. Place your ankle behind the knee of the leg that's over their shoulder. Ensure the opponent's shoulder is pulled tight to your hip - this is critical as their own shoulder will be compressing one side of their neck. The trapped arm should be pulled across your body, keeping their elbow tight to your centerline. (Timing: 2-3 seconds to establish secure lock) [Pressure: Moderate]
@@ -307,7 +305,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must the triangle be locked deep with the opponent's shoulder pulled to your hip, and what happens if the lock is too high?
 **A**: The triangle must be locked deep so the leg is positioned behind the opponent's neck, not on their head or face. When locked properly with shoulder tight to hip, one carotid artery is compressed by the leg while the other is compressed by the opponent's own shoulder. If locked too high on the head/face, there is no compression on the carotid arteries, the opponent can breathe normally, and they will easily escape. The shoulder-to-hip connection is critical for creating the compressive force needed for the blood choke to work effectively.
 

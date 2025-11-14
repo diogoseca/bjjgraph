@@ -8,7 +8,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Z-Guard from the Bottom?
 
 Z-Guard Bottom is a dynamic half guard variation characterized by an active knee shield that creates distance and frames against the top player's pressure. This position, also known as Knee Shield Half Guard in some systems, represents one of the most versatile defensive positions in modern BJJ, offering exceptional retention capabilities while maintaining offensive sweep and back-take options. The fundamental structure involves trapping one of the opponent's legs with your inside leg while your outside leg creates a shield with the knee pressed into the opponent's shoulder or upper chest, preventing them from settling their weight and establishing effective passing pressure.
 
@@ -491,17 +472,17 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The Z-Guard represents a profound understanding of the biomechanical principles underlying effective guard retention. The knee shield functions as a lever that converts the opponent's forward pressure into a sweeping opportunity - the harder they drive forward, the more effective your frames become. The critical insight is that the knee shield must be treated as an active, spring-loaded mechanism rather than a passive barrier. When your opponent applies pressure, you can either extend the spring to create more distance or compress it to enter into deep half guard or sweep entries. The position's effectiveness stems from creating what I call 'frame integrity' - multiple points of contact that work together to control distance and prevent the opponent from settling their weight. The underhook on the trapped leg side is absolutely essential because it prevents the opponent from establishing crossface control, which would immediately compromise your ability to create angles and maintain effective frames. Most practitioners fail to understand that Z-Guard is not a position you hold statically; it is a dynamic platform from which you create angles, threaten sweeps, and transition to more offensive positions. The moment you become static in Z-Guard, you have already begun to lose the position. Your hips must be in constant micro-movement, adjusting angles and maintaining the tension in your frames that makes the position effective.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Z-Guard is one of my absolute go-to positions when I need to deal with heavy top pressure, especially against guys who are bigger and stronger than me. The beautiful thing about this position is that it gives you options - you're never just defending, you're always threatening something. My favorite setup is to get the underhook, maintain a strong knee shield, and wait for them to make a mistake. When they try to smash through the knee shield, that's when you go to deep half. When they post their hand to prevent the deep half entry, that's your Old School sweep. If they try to be smart and circle around your knee shield to backstep, you get their back or hit them with the Electric Chair. In competition, I've found that the key to making Z-Guard work at the highest level is being absolutely relentless with your frames - you cannot let them collapse your knee shield because once that happens, you're playing a much harder game. I also use my knee shield leg very actively, not just as a barrier but as a tool to create reactions. Sometimes I'll actually push harder into their shoulder, which makes them push back, and that's when I'll quickly pull them forward into a sweep. The position is all about creating dilemmas - making them choose between defending the sweep and defending the pass, and when they commit to one, you hit them with the other. Against really good passers, I'll often use Z-Guard as a transitional position rather than trying to hold it for extended periods, constantly cycling between Z-Guard, deep half, and back takes to keep them guessing.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Z-Guard is the entry point to the whole 10th Planet half guard system, man. We call it different things - Lockdown with the knee shield, Z-Guard, whatever - but it's all about creating that barrier that lets you work your game. The key thing people miss is that the knee shield isn't just for defense; it's actually a sweeping tool if you use it right. When you get good at Z-Guard, you're setting up the whole sequence - you're threatening the Old School, you're ready to transition to Lockdown if they get past your shield, you've got the Electric Chair cooking if they try to backstep. The position is all about staying one step ahead mentally. In 10th Planet, we teach Z-Guard as part of a system, not as an isolated position. You're always thinking about where you're going next. If they respect your knee shield too much and stay back, you can transition to deep half or even pull them into your lockdown. If they try to smash it, you're ready with the deep half entry. If they try to be cute and go around, boom, you're taking the back or setting up the Truck. The innovation in Z-Guard that we brought to the game is treating the knee shield as dynamic and mobile rather than a static frame. We're constantly pumping it, adjusting the angle, using it to create off-balancing moments that set up our attacks. And here's something most people don't get - the Z-Guard is actually better in no-gi than in gi because you're not getting bogged down with grip fighting; you can be much more fluid and dynamic with your movements. Master the Z-Guard, and you've got a half guard game that works against anybody, regardless of size or strength.
 

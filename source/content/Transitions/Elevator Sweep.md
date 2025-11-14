@@ -159,14 +159,10 @@ description: "Master the Elevator Sweep from butterfly guard. Step-by-step execu
 
 
 
-> Elevator Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Elevator Sweep?
 
 The Elevator Sweep is a fundamental butterfly guard technique that uses both hooks and upper body control to lift and sweep the opponent. This sweep capitalizes on the mechanical advantage created by the butterfly hooks positioned on the opponent's inner thighs, combined with an overhook or underhook grip that controls their upper body. When executed properly, the practitioner uses their legs like an elevator to lift the opponent while simultaneously pulling them off balance with the upper body grip, resulting in a clean reversal to mount or top position.
 
@@ -209,7 +205,7 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish butterfly guard control**: Sit up in butterfly guard with both feet inserted as hooks on the inside of opponent's thighs, knees wide. Your back should be upright, not lying flat. Ensure hooks are deep enough that your feet can lift their hips. Keep your weight centered and mobile, ready to adjust. (Timing: Initial position - maintain continuous hook pressure)
 2. **Secure the overhook grip**: Swim your arm over one of opponent's arms to establish a deep overhook, controlling their shoulder and upper back. Your overhook hand should grip their lat or back of gi. Simultaneously, your other hand grips their opposite sleeve, collar, or establishes an underhook. Pull them close to break their posture and prevent posting. (Timing: Before initiating sweep - grip must be tight)
 3. **Position your head**: Bring your head tight to opponent's chest on the overhook side, with your ear against their sternum. This head position prevents them from creating space and posting with the overhooked arm. Keep your chin tucked to protect against guillotine counters. Your forehead should drive into their body. (Timing: Immediately after securing overhook)
@@ -310,7 +306,7 @@ Develop a comprehensive butterfly guard game where elevator sweep works in combi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it essential to maintain an upright seated posture rather than lying back during the elevator sweep setup?
 **A**: An upright posture is critical because it allows you to generate upward lifting force with your hooks and core muscles. When lying back, you lose the mechanical advantage of your legs and core working together, making it nearly impossible to lift opponent's weight effectively. The upright position also keeps your weight mobile and makes it easier to create angles, adjust grips, and transition if needed. Additionally, sitting up prevents opponent from easily stacking or flattening you, which would completely shut down the sweep.
 

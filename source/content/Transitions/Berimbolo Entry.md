@@ -147,14 +147,10 @@ description: "Master the Berimbolo Entry in BJJ. Dynamic inversion technique fro
 
 
 
-> Berimbolo Entry transitions from [[De La Riva Guard]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Berimbolo Entry?
 
 The Berimbolo Entry is a revolutionary back-taking technique that emerged from the modern sport jiu-jitsu evolution, fundamentally changing how practitioners approach De La Riva guard. This dynamic movement combines inversion mechanics with precise grip control to spin underneath the opponent, emerging directly onto their back. The technique exploits the opponent's base by creating a rotational momentum that makes defending against the back take extremely difficult once the movement is initiated.
 
@@ -195,7 +191,7 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish De La Riva control**: From De La Riva guard, secure a deep hook with your outside leg behind opponent's near knee. Your inside foot should be on their far hip. Grip their far hip, belt, or gi material firmly with your bottom hand while maintaining collar or sleeve control with your top hand. (Timing: Hold position until opponent commits weight forward)
 2. **Break opponent's base**: Pull opponent's far hip toward you while simultaneously pushing with your inside foot on their hip and pulling with your De La Riva hook. This off-balances them forward and to the side, creating the opening for your inversion. Their weight should be distributed over their hands or forward knee. (Timing: Execute as opponent steps forward or reaches for controls)
 3. **Initiate the inversion**: Release your collar/sleeve grip and post your top hand on the mat beside your head. Simultaneously pull your body underneath the opponent using your belt/hip grip while maintaining your De La Riva hook. Your head and shoulders should begin rotating toward the mat as your hips elevate. (Timing: Smooth continuous motion, do not pause mid-rotation)
@@ -287,7 +283,7 @@ Develop your own grip preferences, timing cues, and counter-responses. Experimen
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical advantage that the berimbolo creates over traditional sweeping mechanics?
 **A**: The berimbolo creates a rotational angle of attack that bypasses conventional passing defenses by positioning the practitioner underneath and behind the opponent. Unlike traditional sweeps that attempt to off-balance the opponent laterally or forward, the berimbolo uses inversion to access the back from an angle that is extremely difficult to defend once the rotation is initiated. This three-dimensional movement exploits the opponent's natural inability to maintain base while someone rotates underneath their center of gravity.
 

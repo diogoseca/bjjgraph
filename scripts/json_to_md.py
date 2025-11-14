@@ -264,13 +264,24 @@ def process_category(category, dry_run=False):
 
     # Find all JSON files at root level only (not in subdirectories)
     # This prevents processing variant files (which are in subdirectories)
-    json_files = [f for f in category_path.glob("*.json")]
+    root_json_files = [f for f in category_path.glob("*.json")]
+
+    # Also find JSON files in subdirectories (variant positions)
+    # For Positions category only, process variant JSON files
+    variant_json_files = []
+    if category == "Positions":
+        # Find all JSON files in subdirectories
+        variant_json_files = [f for f in category_path.glob("*/*.json")]
+        print(f"Found {len(variant_json_files)} variant JSON files in subdirectories")
+
+    # Combine both lists
+    json_files = root_json_files + variant_json_files
 
     if not json_files:
         print(f"No JSON files found in {category_path}")
         return
 
-    print(f"\nProcessing {len(json_files)} files in {category}...")
+    print(f"\nProcessing {len(json_files)} files in {category} ({len(root_json_files)} root, {len(variant_json_files)} variants)...")
 
     processed = 0
     for json_file in sorted(json_files):

@@ -8,7 +8,7 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 50%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Shin-to-Shin Guard from the Top?
 
 Facing Shin-to-Shin Guard from the top position presents a unique set of challenges that require understanding both the mechanical vulnerabilities of the position and the strategic objectives of the guard player. The top player's primary concern is the perpendicular shin connection that the bottom player establishes across their same-side shin, which creates leverage for off-balancing and sweep mechanics while simultaneously preventing straightforward forward pressure. Effective top play requires a systematic approach that addresses three interconnected elements: neutralizing or clearing the shin connection, preventing transitions to more dangerous positions like single leg X or full X-guard, and establishing dominant grips and positioning that allow effective passing sequences. The modern meta-game around shin-to-shin has evolved significantly, with top players developing sophisticated clearing strategies that exploit the position's inherent weaknesses—primarily its reliance on a single point of lower body connection that can be systematically dismantled through proper pressure, angle changes, and grip fighting. Understanding the decision tree from top perspective is crucial: aggressive forward pressure invites butterfly or X-guard sweeps, passive standing allows the guard player to dictate engagement range and set up entries, while systematic clearing combined with upper body control creates the highest-percentage passing opportunities. The position rewards patient, technical passing that addresses the shin connection methodically while simultaneously preventing the guard player from establishing the upper body grips they need to maintain effective distance management. Advanced passers recognize that shin-to-shin is fundamentally a transitional position for the guard player, and the key to defeating it lies in preventing those transitions while the connection is being cleared rather than simply trying to pass through the connection itself.
 
@@ -479,17 +458,17 @@ Partner maintains shin-to-shin with moderate resistance. Practice applying diffe
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Passing shin-to-shin guard effectively requires understanding the position's fundamental mechanical structure and the decision tree it creates for the guard player. The shin connection functions as a lever that can generate significant off-balancing force, but it has a critical weakness: it relies on a single point of lower body connection that can be systematically dismantled through proper technique. The key insight is that you cannot simply drive through the shin connection with pressure—this plays directly into the guard player's sweeping mechanics. Instead, effective passing requires a two-phase approach: first, establish dominant upper body control through grips that prevent the guard player from managing distance effectively; second, clear the shin connection through controlled circling, stepping back, or pressure-based clearing while maintaining base and preventing transitions to single leg X or X-guard. The most common error I observe is passers attempting to force through the connection without addressing these preparatory elements, resulting in being swept or transitioned to more dangerous positions. Advanced passers recognize that shin-to-shin is fundamentally a transitional position, and the highest-percentage approach is to intercept those transitions while the guard player is in motion rather than trying to pass through a fully established static connection.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From the top position against shin-to-shin, my passing strategy centers on preventing the guard player from achieving what they want—entries to single leg X and leg entanglements. The position is only effective when the guard player can maintain both the shin connection and strong upper body grips for distance management. My approach is to immediately engage in aggressive grip fighting to prevent them from establishing the collar and sleeve grips they need, then use strategic pressure and circling to systematically break down the shin connection. What I've learned through competition is that you can't be passive against shin-to-shin—if you allow the guard player to dictate the pace and maintain their connections indefinitely, they'll eventually find the opening they need for transitions or sweeps. The highest-percentage passing sequence involves establishing dominant grips, using a combination of pressure and circling to compromise their shin connection, then immediately advancing with knee slice or long step passes before they can re-establish guard structure. The critical moment is recognizing when they attempt to transition to single leg X—this is actually an opportunity to catch their leg and execute leg drag passes or establish dominant top positions. Against advanced guard players, I incorporate feints and pressure variation to create reactions I can exploit, rather than trying to methodically work through a fully established connection.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Passing shin-to-shin from the top perspective requires thinking outside the traditional passing framework that most people use. While conventional passers focus on clearing the shin connection methodically, we've found that the position creates unique opportunities for creative passing approaches that most guard players don't expect. One of our key innovations is using the shin connection itself as a entry point for unconventional passes—instead of trying to clear it, you can sometimes use it as a pivot point for circling or stepping into passing positions that bypass the guard entirely. The key is staying dynamic and unpredictable, mixing traditional clearing methods with unexpected pressure angles and movement patterns. What makes shin-to-shin vulnerable from the top perspective is that it requires active maintenance from the guard player—they can't be passive and expect it to work. If you can disrupt their rhythm through grip fighting, unexpected pressure changes, or movement patterns they're not prepared for, the position often collapses quickly. Our system emphasizes creating situations where the guard player has to choose between maintaining shin connection and defending against other threats, forcing them into reactive mode where their guard becomes less effective. The biggest mistake traditional passers make is being too methodical and predictable, giving the guard player time to adjust and maintain their connections indefinitely.
 

@@ -147,14 +147,12 @@ description: "Master Americana variations in BJJ. Complete guide with safety pro
 
 
 
-> Americana Variations is a shoulder lock targeting the Shoulder joint, rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Americana Variations targets the Shoulder joint, rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Americana Variations?
 
 The Americana variations represent a family of shoulder lock techniques that attack the rotator cuff and shoulder joint through external rotation combined with leverage. While the standard Americana from mount and side control are foundational techniques, advanced practitioners develop numerous variations to adapt to different grips, positions, and defensive reactions. These variations maintain the core mechanical principle of isolating the arm and applying controlled external rotation while preventing the opponent from straightening or retracting their arm.
 
@@ -244,7 +242,7 @@ The variations explored in this guide include the figure-four Americana, palm-to
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure wrist control and positioning**: From dominant top position, establish control of opponent's wrist or hand using your chosen grip variation (figure-four, palm-to-palm, or traditional grip). Ensure opponent's arm is bent at approximately 90 degrees with elbow positioned away from their body. The quality of your initial grip determines which variation will be most effective. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Pin the shoulder**: Drive your chest or shoulder pressure directly onto opponent's shoulder joint, pinning it firmly to the mat. This prevents them from lifting their shoulder to relieve rotational pressure. Your weight should be distributed to maintain control while keeping your own base stable. The shoulder pin is the foundation that makes all variations effective. (Timing: 1 second) [Pressure: Firm]
 3. **Control the elbow**: Secure opponent's elbow position using your free hand, forearm, or body positioning depending on the variation. Prevent them from straightening their arm or bringing their elbow close to their ribs. The elbow control combined with wrist control creates the isolation frame necessary for the submission. (Timing: 1 second) [Pressure: Moderate]
@@ -318,7 +316,7 @@ The variations explored in this guide include the figure-four Americana, palm-to
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum safe application time for an Americana submission in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: Minimum 3-5 seconds of progressive pressure from initiation to maximum pressure. This is critical because the shoulder joint contains delicate rotator cuff structures that can tear catastrophically with sudden force. Progressive application allows partner clear opportunity to tap and prevents devastating injuries that require surgical repair and 6-12 months recovery.
 

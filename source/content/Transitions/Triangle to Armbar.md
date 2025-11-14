@@ -147,14 +147,10 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
 
 
 
-> Triangle to Armbar transitions from [[Triangle Control]] to [[Armbar Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle to Armbar?
 
 The Triangle to Armbar transition represents one of the most fundamental and high-percentage submission chains in Brazilian Jiu-Jitsu. When an opponent defends the triangle choke by maintaining proper posture or hand positioning, the armbar becomes immediately available. This transition capitalizes on the opponent's defensive response to the triangle, creating a classic two-attack system where defending one submission opens the path to another. The technical execution requires precise angle adjustment, hip mobility, and control of the defending arm. Unlike standalone armbars, this variation benefits from the leg control already established during the triangle attempt, making escape significantly more difficult. The transition can be executed from closed guard, open guard variations, or even scramble situations where triangle control has been established. Understanding this connection is essential for developing a complete guard game, as it forces opponents into defensive dilemmas where every response creates vulnerability. The triangle-to-armbar system exemplifies the principle of submission chains, where multiple attacks flow seamlessly based on the opponent's reactions, maximizing offensive pressure while minimizing energy expenditure.
 
@@ -193,7 +189,7 @@ The Triangle to Armbar transition represents one of the most fundamental and hig
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Identify the defending arm**: Recognize that the opponent is defending the triangle by using their trapped arm to create space or frame against your leg. This arm, already inside your triangle configuration, becomes your primary target for the armbar transition. (Timing: Immediate recognition when triangle pressure is being resisted)
 2. **Overhook and isolate the arm**: Reach over the top of the defending arm and secure a deep overhook grip, pulling the arm tight across your chest and toward your opposite shoulder. This isolation prevents the opponent from extracting the arm and commits them to a defensive position that facilitates the armbar. (Timing: Before opponent can retract or reposition the defending arm)
 3. **Release the triangle squeeze slightly**: Momentarily reduce the squeezing pressure of your legs to allow hip movement, while maintaining the leg configuration around the opponent's head and arm. This creates the mobility needed to pivot without losing positional control. (Timing: Only after securing the overhook control on the arm)
@@ -275,7 +271,7 @@ Start from guard positions during rolling with the specific goal of establishing
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is the triangle to armbar transition considered a high-percentage attack combination?
 **A**: The transition is high-percentage because defending the triangle choke naturally positions the opponent's arm in vulnerable placement for the armbar. The leg control established during the triangle attempt remains intact during the transition, preventing escape. Additionally, the opponent's defensive focus on relieving choking pressure creates cognitive distraction from the developing armbar threat, reducing their reaction time to defend the second attack.
 

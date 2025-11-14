@@ -8,7 +8,7 @@ description: "Master overhook control clinch in BJJ. Strategic guide covering de
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master overhook control clinch in BJJ. Strategic guide covering de
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Overhook Control Clinch?
 
 Overhook Control Clinch (also called Whizzer) is a standing control position where you trap opponent's arm by hooking over it with your arm, controlling their shoulder and restricting their movement. This position is primarily defensive, used to neutralize opponent's underhook or single-leg attempts, but can also be used offensively to create throwing and takedown opportunities. The overhook is a fundamental wrestling control adapted into BJJ standup game.
 
@@ -50,7 +48,7 @@ Understanding when to use the overhook versus other standing controls is crucial
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Understanding when to use the overhook versus other standing controls is crucial
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium |
 
-**What Makes This Unique:** Outside control trades inside position for throws
+**Key Difference:** Outside control trades inside position for throws
 
 
 
@@ -76,10 +74,6 @@ Understanding when to use the overhook versus other standing controls is crucial
 ## Playing as Bottom
 
 [[Overhook Control Clinch/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -161,10 +155,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Overhook Control Clinch/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -248,7 +238,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

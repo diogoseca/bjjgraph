@@ -153,14 +153,10 @@ description: "Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing 
 
 
 
-> Tomoe Nage transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Tomoe Nage?
 
 Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice technique borrowed from judo that has found significant application in sport Brazilian Jiu-Jitsu. The technique involves dropping to your back while using foot placement on the opponent's hip or abdomen to elevate and throw them overhead, typically transitioning directly into closed guard or other dominant positions. This technique is particularly effective in gi competition where grips are secure, and it has become a staple for guard pullers who want to combine offensive takedown scoring with immediate guard establishment. The circular motion that gives Tomoe Nage its name refers to the arc created as the opponent is thrown over your body. Modern BJJ has adapted this classical judo throw into a versatile entry system that can lead to sweeps, guard pulls, and submission setups. The technique's effectiveness lies in its ability to use the opponent's forward momentum and weight against them, requiring more timing and technical precision than raw strength.
 
@@ -199,7 +195,7 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips**: Secure a strong same-side collar grip with your right hand and control the opponent's sleeve with your left hand. Pull down on the collar while pulling the sleeve across their centerline to break their posture forward and compromise their base. (Timing: Initial setup phase)
 2. **Break opponent's balance forward**: Use your grips to pull the opponent's upper body forward and slightly down, forcing them to step toward you or lean into your pull. This forward momentum is critical for the throw's success and prevents them from sprawling backward defensively. (Timing: As opponent steps or leans forward)
 3. **Drop to your back**: Sit straight back toward the ground while maintaining strong grip tension. Do not sit down gradually - commit to a controlled fall directly backward with your hips dropping below your shoulders. Keep your head tucked to protect your neck and maintain visual contact with opponent. (Timing: Immediately after forward momentum established)
@@ -301,7 +297,7 @@ Develop no-gi variations using body lock controls instead of gi grips. Practice 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to drop straight backward rather than sitting down gradually when executing Tomoe Nage?
 **A**: Dropping straight backward generates the momentum and proper angle needed to lift the opponent's entire body weight over yours. Sitting down gradually reduces the lifting force, provides the opponent time to sprawl defensively, and creates an improper angle that leaves you on your back without guard control. The sudden drop also helps break the opponent's balance forward, which is essential for the throw's success. The physics of the technique require your center of mass to drop below the opponent's rapidly to create the lever action.
 

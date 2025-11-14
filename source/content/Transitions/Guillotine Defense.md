@@ -153,14 +153,10 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
 
 
 
-> Guillotine Defense transitions from [[Front Headlock]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guillotine Defense?
 
 The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jitsu, addressing one of the most common and dangerous submission threats across all levels of competition. When caught in a guillotine choke, whether standing or on the ground, understanding the proper defensive mechanics can mean the difference between tapping and escaping to a superior position. This defensive sequence focuses on alleviating pressure from the carotid arteries while simultaneously creating escape pathways that neutralize the submission threat. The defense must be executed with precise timing and technical understanding, as improper attempts can actually tighten the choke and accelerate the need to tap. Modern guillotine defense emphasizes posture management, hand fighting, and strategic movement patterns that exploit the mechanical weaknesses inherent in the attacking position. Success requires both preventative awareness to avoid deep guillotine positions and reactive technical skills to escape when caught. The technique serves as a fundamental component of any complete defensive system, particularly relevant in no-gi grappling where guillotine attacks are statistically among the most successful submissions.
 
@@ -199,7 +195,7 @@ The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jit
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure chin protection**: Immediately tuck your chin to your chest and insert your near-side hand (same side as their choking arm) between your neck and their forearm. Create a protective frame by pressing your palm against their wrist or forearm, establishing a barrier between their choking pressure and your carotid arteries. This initial frame is critical for buying time to execute subsequent defensive steps. (Timing: Immediate reaction upon recognizing guillotine threat)
 2. **Address the fulcrum**: Use your framing hand to push down on opponent's wrist while simultaneously pulling your head backward and upward. The guillotine choke relies on a fulcrum point where their wrist contacts your neck - by controlling this point and changing the angle, you significantly reduce choking pressure. Focus on moving their wrist away from the center of your throat toward the side of your neck where the choke is less effective. (Timing: Within 1-2 seconds of initial frame)
 3. **Create hip distance**: Step your legs away from opponent's hips, creating maximum distance between your body and theirs. If standing, step backward while maintaining low posture. If on ground, extend your hips away and sprawl your legs back. This distance prevents them from using their hip as an additional fulcrum point and reduces their mechanical advantage significantly. Keep your weight on your toes if standing, ready to continue circling away. (Timing: Simultaneous with addressing the fulcrum)
@@ -298,7 +294,7 @@ Full resistance guillotine defense during live rolling. Partner actively attempt
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary fulcrum point that creates choking pressure in a standard guillotine choke?
 **A**: The primary fulcrum point is the opponent's wrist or forearm pressing against your neck while their other hand provides pulling force. The choke works by compressing the carotid arteries against this bony fulcrum. Effective defense requires controlling this wrist/forearm position to eliminate the fulcrum and reduce pressure on the arteries.
 

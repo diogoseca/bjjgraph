@@ -147,14 +147,12 @@ description: "Master the Straight Armbar in BJJ. Complete safety-first guide wit
 
 
 
-> Straight Armbar is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension with ligament damage (LCL/MCL tears). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Straight Armbar targets the Elbow joint. Risk: Elbow hyperextension with ligament damage (LCL/MCL tears). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Straight Armbar?
 
 The Straight Armbar is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu, targeting the elbow joint through hyperextension. This technique leverages the power of your entire body—hips, legs, and core—against the isolated structure of your opponent's arm, creating a mechanical advantage that makes it effective regardless of size or strength differentials. The armbar can be applied from virtually every major position in BJJ, making it an essential component of any complete grappling game. Its versatility allows practitioners to transition seamlessly from positional control to submission, often catching opponents in the flow of movement. The straight armbar's effectiveness lies in its ability to control multiple joints simultaneously: the shoulder is isolated and controlled by your legs, the wrist is secured against your chest, and the elbow becomes the focal point of pressure when you elevate your hips. Understanding the biomechanics of elbow hyperextension, proper angle creation, and the critical safety protocols makes this submission both highly effective in competition and safe in training when applied with control and respect for your training partners.
 
@@ -239,7 +237,7 @@ The Straight Armbar is one of the most fundamental and highest-percentage submis
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Isolate and grip the target arm**: Secure a two-on-one grip on your opponent's arm, with one hand controlling the wrist and the other gripping above the elbow or at the tricep. Begin breaking down their defensive posture by pulling the arm across their centerline and away from their body. This isolation is critical—you need to separate this arm from their other defensive tools. Use your body weight and angles to make it difficult for them to retract the arm or connect their hands together in a defensive grip. (Timing: Initial setup phase, 2-3 seconds) [Pressure: Moderate]
 2. **Swing leg over head and establish leg configuration**: While maintaining control of the isolated arm, swing your leg over your opponent's head (or across their torso depending on position). Your base leg should post on the opposite side for stability and hip mobility. The finishing leg (over the head) should have your calf applying gentle pressure across their face or neck, but never the trachea. Your knees should begin pinching together to create a scissor-like control mechanism that traps the shoulder and prevents rotation. Position your hips as close to their shoulder as possible to minimize the space they can use for escape mechanics. (Timing: Transition phase, 3-4 seconds) [Pressure: Moderate]
 3. **Secure wrist to chest and verify thumb position**: Pull your opponent's wrist tightly to your chest, preferably high on your sternum, using both hands in a reinforced grip. This eliminates the space needed for the hitchhiker escape. Verify that their thumb is pointing toward the ceiling—this ensures the elbow joint is properly oriented for the submission. If the thumb is pointing down or to the side, you must adjust by rotating their wrist until proper alignment is achieved. The wrist should be cradled against your chest like you're hugging it, with your elbows pulled tight to your sides. (Timing: Control refinement, 2-3 seconds) [Pressure: Firm]
@@ -311,7 +309,7 @@ The Straight Armbar is one of the most fundamental and highest-percentage submis
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply pressure when finishing an armbar in training? **[SAFETY-CRITICAL]**
 **A**: A minimum of 3-5 seconds of progressive, controlled pressure from initial contact to tap. The pressure should increase gradually and smoothly, never explosively or with jerking motions. This gives your training partner clear feedback and time to tap safely. In drilling scenarios with beginners, even slower application is appropriate. Competition may allow faster finishes, but training should always prioritize safety and control over speed.
 

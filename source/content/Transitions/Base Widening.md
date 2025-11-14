@@ -153,14 +153,10 @@ description: "Learn Base Widening defensive technique in BJJ. Essential stabilit
 
 
 
-> Base Widening transitions from [[Defensive Position]] to [[Combat Base]]. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Base Widening?
 
 Base Widening is a fundamental defensive technique that involves expanding your stance and lowering your center of gravity to recover stability when your base is threatened. This technique is essential across all grappling positions, from standing to ground fighting, and represents one of the most important defensive reflexes in Brazilian Jiu-Jitsu. The principle is rooted in basic physics: a wider base creates a more stable platform that is significantly harder to destabilize or sweep. When executed properly, base widening allows you to resist sweeps, prevent takedowns, and maintain control even when your opponent is actively trying to off-balance you. The technique involves spreading your weight-bearing points farther apart while simultaneously lowering your hips, creating a pyramid-like structure that distributes force more effectively. This defensive movement is often combined with other defensive principles such as posting hands, head positioning, and weight distribution to create a comprehensive defensive framework. Mastery of base widening is crucial for all belt levels, as it forms the foundation for defending against attacks from nearly every position in BJJ.
 
@@ -199,7 +195,7 @@ Base Widening is a fundamental defensive technique that involves expanding your 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize threat**: Immediately identify when your opponent is attempting to compromise your base through grips, off-balancing, or positional pressure. Common indicators include pulling grips on your upper body, attacks on your posting arms, or attempts to control your hips. (Timing: Instant recognition - 0.2-0.5 seconds reaction window)
 2. **Spread legs wider**: Explosively drive your feet outward, spreading your legs significantly wider than shoulder-width apart. The wider stance increases the area of your base, making it geometrically more difficult for your opponent to create enough angular momentum to sweep you. (Timing: Execute simultaneously with threat recognition)
 3. **Lower center of gravity**: Drop your hips downward toward the mat while maintaining upright posture in your upper body. This lowering creates a more stable pyramid structure where force vectors must travel through a lower, more stable center of mass. (Timing: 0.3-0.5 seconds after initial spread)
@@ -295,7 +291,7 @@ Dedicated training for base widening from guard passing positions, turtle defens
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why does widening your base increase stability, and what physical principle makes this effective?
 **A**: Widening your base increases stability because it expands the area of your base of support, which is the polygon formed by your contact points with the ground. According to physics principles of leverage and torque, the farther apart your support points are, the more force is required to tip you over because the opponent must create enough torque to overcome the increased moment arm. Additionally, a wider base lowers your center of gravity relative to your base width, creating a more favorable ratio that resists tipping forces.
 

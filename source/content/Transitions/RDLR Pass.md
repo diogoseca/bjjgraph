@@ -153,14 +153,10 @@ description: "Learn Reverse De La Riva Pass in BJJ. Step-by-step execution from 
 
 
 
-> RDLR Pass transitions from [[Reverse De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is RDLR Pass?
 
 The Reverse De La Riva (RDLR) Pass is an essential technique for neutralizing one of modern BJJ's most dynamic guard systems. The RDLR guard creates powerful off-balancing angles and back-take opportunities, making it a favorite among competition grapplers. Successfully passing this guard requires understanding the mechanical structure of the position, controlling the key points of contact, and systematically dismantling the guard player's hooks and grips. This pass emphasizes pressure, balance, and timing to transition from a defensive position into dominant top control. The technique involves clearing the RDLR hook, establishing strong base and pressure, and circling around the guard player's leg frame to achieve side control or other passing positions.
 
@@ -203,7 +199,7 @@ This passing sequence integrates seamlessly with other modern passing systems, i
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: Secure a strong grip on the opponent's far hip or belt, using this to anchor your base and prevent them from taking your back. Your other hand should control their sleeve or wrist on the side of the RDLR hook to limit their framing ability. This grip configuration gives you steering control over their body. (Timing: Immediately upon entering RDLR guard)
 2. **Widen your base**: Step your feet wider than shoulder-width apart, creating a stable platform that resists the off-balancing force of the RDLR hook. Your lead leg (the one being hooked) should have the knee pointing slightly outward to create structural strength against the rotational pull of the guard. (Timing: Before attempting to clear the hook)
 3. **Drive chest pressure**: Lower your chest onto the opponent's inside thigh (the leg not performing the RDLR hook), using your upper body weight to flatten their guard structure. This pressure should be directed diagonally downward toward their hip, collapsing the space they need to maintain the guard's effectiveness. (Timing: As you establish grip control)
@@ -300,7 +296,7 @@ Work on combining the RDLR pass with other passing systems. Practice transitioni
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary grip you should establish when beginning the RDLR pass and why is it important?
 **A**: The far hip or belt grip is the primary control point because it allows you to prevent back exposure and control the opponent's rotation. This grip acts as a steering wheel for their entire body, enabling you to turn them away from back take attempts and control their ability to follow your movements during the pass.
 

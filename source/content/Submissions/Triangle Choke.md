@@ -153,14 +153,12 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
 
 
 
-> Triangle Choke is a blood choke targeting the Carotid arteries and brachial plexus. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle Choke targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle Choke?
 
 The Triangle Choke is one of Brazilian Jiu-Jitsu's most fundamental and high-percentage blood chokes, typically executed from the bottom position in closed guard. By trapping the opponent's head and one arm between your legs while using your shin to compress the neck, you create a triangle configuration that occludes the carotid arteries and restricts blood flow to the brain. The effectiveness of the triangle lies in its mechanical efficiency—once properly locked, it requires minimal strength to finish and becomes progressively tighter as the opponent struggles.
 
@@ -246,7 +244,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Break posture and isolate arm**: From closed guard, establish strong collar and sleeve grips. Pull opponent forward while opening guard, forcing their weight onto their hands. Simultaneously pull one of their arms across their centerline using your sleeve grip, creating the fundamental triangle setup position. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Throw leg over shoulder**: Open your guard and immediately throw your leg (same side as the isolated arm) high over the opponent's shoulder. Your shin should land on the back of their neck, with your knee pointing toward the ceiling. The opponent's trapped arm should now be across their own body. (Timing: 0.5 seconds (must be quick)) [Pressure: Light]
 3. **Lock the triangle**: Pull your ankle (from the leg over the shoulder) behind your opposite knee to create the triangle lock. Do NOT cross your ankles—this is mechanically weaker. Your shin should be tight against one side of their neck while their own shoulder compresses the other side. (Timing: 1 second) [Pressure: Moderate]
@@ -311,7 +309,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the most critical safety protocol when applying a triangle choke in training? **[SAFETY-CRITICAL]**
 **A**: The most critical safety protocol is to release IMMEDIATELY upon any tap signal or if the partner goes limp/loses resistance. Triangle chokes restrict blood flow to the brain and can cause unconsciousness in seconds. Holding the choke after a tap or after unconsciousness occurs can result in brain damage or death. Always apply pressure progressively (3-5 seconds minimum) to give your partner time to recognize the danger and tap.
 

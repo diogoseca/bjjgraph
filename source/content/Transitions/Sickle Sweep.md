@@ -147,14 +147,10 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
 
 
 
-> Sickle Sweep transitions from [[De La Riva Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Sickle Sweep?
 
 The Sickle Sweep is a fundamental attacking technique from the De La Riva Guard that leverages the hook control to off-balance and sweep your opponent. Named for its characteristic leg hooking motion that resembles a sickle cutting through grass, this sweep exploits the opponent's base when they attempt to pass or establish their posture. The technique combines precise leg positioning with upper body control to create a powerful sweeping motion that drives the opponent backward and allows you to come on top.
 
@@ -197,7 +193,7 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish De La Riva control**: Secure your De La Riva hook by threading your right leg behind opponent's left leg with your foot hooking around their thigh. Pull your toes toward your body to tighten the hook. Simultaneously, place your left foot on their right hip or thigh for distance management and establish a strong collar grip with your right hand. (Timing: Setup phase - maintain until opponent commits weight forward)
 2. **Grip the collar and control posture**: Establish a deep collar grip with your right hand, getting as far behind the neck as possible. Your left hand should control the opponent's left sleeve at the wrist or elbow. These grips work together to prevent your opponent from posting their hands when swept and keep their posture broken forward. (Timing: Continuous control throughout technique)
 3. **Create the sweeping angle**: Shift your hips to your right side to create an angle approximately 45 degrees from the opponent's centerline. This angle is critical as it allows your De La Riva hook to function as a powerful lever. Your body should form a 'C' shape with your head moving away from the opponent's hooking leg. (Timing: Immediately before initiating sweep motion)
@@ -292,7 +288,7 @@ Continue drilling specific scenarios that arise in competition or sparring. Work
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical difference between the Sickle Sweep and other De La Riva sweeps?
 **A**: The Sickle Sweep uses a wide, arc-shaped sweeping motion with the hooking leg (resembling a sickle cutting) rather than a linear push or pull. This scything action combined with a diagonal angle creates a more powerful off-balancing effect that's harder to defend with posting. The wide arc also removes the opponent's near leg entirely from their base structure.
 

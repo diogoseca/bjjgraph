@@ -153,14 +153,10 @@ description: "Learn the Ankle Pick takedown in BJJ. Step-by-step execution from 
 
 
 
-> Ankle Pick transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ankle Pick?
 
 The Ankle Pick is a fundamental wrestling-based takedown that has become increasingly important in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique exploits an opponent's forward pressure and weight distribution by attacking their lead ankle while simultaneously controlling their upper body. The Ankle Pick is valued for its relatively low risk profile compared to other takedown attempts, as a failed execution typically results in a neutral standing position rather than a compromised bottom position.
 
@@ -205,7 +201,7 @@ In the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish collar tie control**: Secure a collar tie on the back of opponent's neck with your lead hand, keeping your elbow tight to prevent them from breaking the connection. Simultaneously control their wrist or sleeve with your other hand. Apply forward pressure to load their weight onto their lead leg while maintaining your own balanced stance with your hips low and back straight. (Timing: Initial setup phase - establish before any level change)
 2. **Create angle and forward pressure**: Using the collar tie, pull opponent's head down and forward while circling to create a 45-degree angle to their lead leg. This angle is critical as it positions your body outside their centerline and makes their ankle accessible. Push their wrist away slightly to create space for your level change. The opponent should feel pressure to step forward onto their lead leg. (Timing: Setup phase - create opportunity for attack)
 3. **Execute explosive level change**: Drop your level by bending at the knees and hips while keeping your back straight and head up. Your drop should be explosive but controlled, bringing your chest down toward your lead knee. Maintain the collar tie throughout the level change to prevent opponent from backing away or sprawling. Your trailing leg should load like a spring, ready to drive forward. (Timing: Attack initiation - explosive but controlled drop)
@@ -307,7 +303,7 @@ Develop ankle pick as part of complete standing game. Work on subtle setups and 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is creating a 45-degree angle critical before executing the ankle pick?
 **A**: The 45-degree angle positions your head outside the opponent's body line rather than directly in front of them, which accomplishes three critical objectives: it makes sprawl defense much more difficult as their hips can't effectively pressure your head; it provides you with superior leverage for the pull-and-drive mechanics; and it prevents the opponent from easily securing a guillotine choke during your level change. Without this angle, you end up directly in front of the opponent where they can easily sprawl and control your head.
 

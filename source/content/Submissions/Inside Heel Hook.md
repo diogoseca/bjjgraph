@@ -147,14 +147,12 @@ description: "Master Inside Heel Hook in BJJ. Complete guide with safety protoco
 
 
 
-> Inside Heel Hook is a leg lock targeting the Ankle, knee ligaments, and surrounding connective tissue. ⚠️ **SAFETY**: This technique can cause ACL, MCL, or LCL tear or rupture. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Inside Heel Hook targets the Ankle, knee ligaments, and surrounding connective tissue. Risk: ACL, MCL, or LCL tear or rupture. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Inside Heel Hook?
 
 The Inside Heel Hook is one of the most powerful and dangerous leg locks in Brazilian Jiu-Jitsu, targeting the ankle joint, knee ligaments (ACL, MCL, LCL), and surrounding connective tissue through rotational force. Applied primarily from Inside Ashi-Garami (inside leg entanglement position), this submission creates torque on the opponent's leg by controlling the heel and rotating it against the natural range of motion of the knee joint. The Inside Heel Hook differs from the Outside Heel Hook in the direction of rotation and the leg entanglement configuration—the inside position places your inside leg across the opponent's hip while your outside leg hooks over their trapped leg, creating a figure-four control that isolates the limb. This submission is notorious for its rapid finish time and the difficulty opponents face in recognizing when they are in danger, as there is often minimal pain before catastrophic ligament damage occurs. The mechanical advantage created by proper hip placement and heel control generates enormous rotational force that can rupture ligaments in under one second when applied at full speed, making it absolutely essential that practitioners understand the safety protocols and training progressions before attempting this technique. The systematic development of inside heel hook mechanics requires mastery of leg entanglement entries, positional control maintenance, and precise finishing mechanics that prioritize control over speed in all training applications.
 
@@ -239,7 +237,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure inside ashi-garami control**: From leg entanglement or guard position, establish inside ashi-garami by placing your inside leg across opponent's hip (your left leg across their right hip if attacking their right leg) and hooking your outside leg over the back of their trapped leg. Ensure your outside leg hooks deeply, with your heel pulling their leg toward you while your inside leg prevents hip rotation. This configuration isolates the opponent's leg and creates the foundation for heel control. (Timing: 2-3 seconds to establish secure position) [Pressure: Moderate]
 2. **Attack the heel grip**: Reach across your body with both hands and establish a five-finger grip on opponent's heel. Your thumbs should be positioned on the Achilles tendon with fingers wrapped around the heel bone. The grip should be palm-to-palm with fingers interlaced for maximum strength, or cupping grip with one hand reinforcing the other. Pull the heel tightly to your chest or shoulder area, eliminating space between their heel and your body. This connection is the critical control point for the submission. (Timing: 1-2 seconds to secure grip before opponent defends) [Pressure: Firm]
 3. **Clear opponent's defensive grips**: Before beginning rotation, ensure opponent cannot strip your heel control by breaking any grips they have established on your hands, wrists, or arms. Use head position, shoulder pressure, or grip breaks to clear their defensive grips. If opponent has strong upper body control, you may need to adjust your angle or use your inside leg to create distance from their upper body attacks. Never begin rotation while opponent has strong grips on your controlling hands. (Timing: Varies based on opponent's defense, 1-4 seconds) [Pressure: Moderate]
@@ -310,7 +308,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must inside heel hook pressure be applied extremely slowly in training, and what is the minimum application time? **[SAFETY-CRITICAL]**
 **A**: Inside heel hooks must be applied over a minimum of 5-7 seconds in training because the submission attacks ligaments (ACL, MCL, LCL) that have minimal pain receptors and can rupture catastrophically before the opponent feels pain sufficient to tap. The slow application gives the training partner time to recognize danger and tap safely, preventing career-ending injuries. Ligament damage often occurs before pain signals register in the brain, making progressive pressure application the only safe training method.
 

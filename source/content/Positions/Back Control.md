@@ -8,7 +8,7 @@ description: "Master back control in BJJ with comprehensive guide covering hooks
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master back control in BJJ with comprehensive guide covering hooks
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Back Control?
 
 Back Control is widely considered the most dominant position in Brazilian Jiu-Jitsu. The practitioner controls the opponent from behind, with their chest against the opponent's back, legs wrapped around their waist (hooks), and arms controlling the upper body. This position offers exceptional attacking opportunities with minimal defensive risks, as the opponent cannot directly see or easily counter the attacks. The position scores 4 points in IBJJF competition and provides the highest percentage submission opportunities in grappling.
 
@@ -46,15 +44,15 @@ From back control, the top practitioner maintains a significant positional advan
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 
 
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[Back Control]] | High | Low | High | Medium | Maximum submission threat with minimal risk |
 | [[Seat Belt Control Back]] | High | Low | Medium | Medium | Diagonal over-under grip prevents rotation |
 | [[Body Triangle]] | Low to Medium | High | Low | High | Figure-four lock trades mobility for control |
@@ -70,10 +68,6 @@ From back control, the top practitioner maintains a significant positional advan
 ## Playing as Bottom
 
 [[Back Control/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -152,10 +146,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Back Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -228,36 +218,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 - ❌ **Chasing submission too aggressively without maintaining positional control first**
   - Consequence: Loses back control entirely when submission attempt fails, allowing opponent to escape completely or reverse position
   - ✅ Correction: Follow position-before-submission principle rigorously: secure dominant control with hooks and harness before attacking for finish
-
-
-</section>
-
-
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-
-### [[Seat Belt Control Back]]
-
-Specific harness grip variation for upper body control
-
-[Explore Seat Belt Control Back →](./Seat Belt Control Back)
-
-
-### [[Body Triangle]]
-
-Back control with legs locked in body triangle configuration
-
-[Explore Body Triangle →](./Body Triangle)
-
-
-### [[Standing Back Control]]
-
-Back control maintained in standing position
-
-[Explore Standing Back Control →](./Standing Back Control)
-
 
 
 </section>

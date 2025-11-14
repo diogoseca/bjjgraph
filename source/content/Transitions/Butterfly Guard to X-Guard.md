@@ -147,14 +147,10 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
 
 
 
-> Butterfly Guard to X-Guard transitions from [[Butterfly Guard]] to [[X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Butterfly Guard to X-Guard?
 
 The Butterfly Guard to X-Guard transition represents a fundamental evolution in modern guard play, connecting dynamic elevation mechanics with sophisticated off-balancing systems. This transition capitalizes on the opponent's forward pressure and posture, using butterfly hooks as launching mechanisms to establish the powerful X-Guard position. The technique exploits the natural reaction of opponents who base wide or post their weight forward while defending butterfly sweeps, creating the perfect opportunity to slide underneath and capture the standing leg. This transition is particularly effective against pressure passers who commit their weight forward, as their defensive posture naturally sets up the mechanics required for X-Guard entry. The movement requires precise timing, active hip mobility, and the ability to maintain connection throughout the transition, making it a cornerstone technique for guard players at all levels who want to develop a dynamic, flowing guard game.
 
@@ -193,7 +189,7 @@ The Butterfly Guard to X-Guard transition represents a fundamental evolution in 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish butterfly control**: Begin in butterfly guard with both hooks actively engaged under opponent's thighs, feet pulling inward. Secure strong grips on opponent's sleeves or collar, maintaining one underhook when possible. Keep your hips active and mobile, shoulders off the mat, creating constant elevation threat that prevents opponent from settling their weight. (Timing: Initial setup phase)
 2. **Create elevation and forward pressure**: Lift forcefully with both butterfly hooks while pulling opponent's upper body forward with your grips. This creates the crucial off-balance moment where opponent must post their hands or feet to prevent being swept. Focus on making opponent's base widen and weight shift forward onto their posted leg, which becomes your target for X-Guard capture. (Timing: Explosive elevation moment)
 3. **Identify target leg and begin hip slide**: As opponent posts their leg forward to defend the sweep, immediately identify this as your target leg. Begin sliding your hips toward that side, angling your body to position yourself perpendicular to their leg. Release the butterfly hook on the opposite side while maintaining the hook on the target leg side to control their balance. (Timing: Immediate reaction to opponent's post)
@@ -282,7 +278,7 @@ Implement transition during positional sparring from butterfly guard. Partner us
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that enables the butterfly guard to X-Guard transition?
 **A**: The primary mechanical principle is using butterfly hooks to create elevation and off-balance, forcing the opponent to post their leg forward. This forward post creates the space and angle necessary to slide your hips underneath their base and establish X-Guard hooks. The transition succeeds because the opponent's defensive reaction to butterfly elevation naturally positions them for X-Guard entry.
 

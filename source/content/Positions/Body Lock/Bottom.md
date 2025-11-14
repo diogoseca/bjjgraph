@@ -8,7 +8,7 @@ description: "Defensive strategies and escape techniques when opponent has estab
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Defensive strategies and escape techniques when opponent has estab
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 55% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Body Lock from the Bottom?
 
 Body Lock Bottom is a highly disadvantageous defensive position where your opponent has wrapped both arms around your torso with hands locked together, controlling your movement and setting up immediate threats of back takes, throws, or mat returns. This position requires urgent defensive action as it represents one of the most dominant forms of standing control in grappling. Your opponent has eliminated your ability to create distance, established connection to your center of mass, and can execute multiple high-percentage attacks within seconds.
 
@@ -424,17 +405,17 @@ Partner establishes body lock and begins driving or lifting. Practice recognizin
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The body lock bottom position represents a critical failure point in standing exchanges where your opponent has achieved mechanical dominance over your center of gravity. The locked grip creates a closed kinetic chain that allows them to transfer force efficiently while you must work against their entire body structure. Your primary defensive principle must be prevention through aggressive hand fighting before the lock is established, as breaking a completed lock requires exponentially more energy and technical precision. If the lock is established, your only high-percentage options involve either explosive space creation by posting on their hips and driving them away, or controlled sitting to guard where you dictate the terms of ground engagement rather than being thrown with their momentum advantage. The critical error most practitioners make is trying to turn into the lock or using only arm strength to fight the grip, both of which accelerate their opponent's attacking options. Understand that this position has an extremely short sustainability window - you must act within 2-3 seconds or accept that you will be taken down or thrown on opponent's terms.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 When someone gets a body lock on me, I know I'm in immediate danger and I need to act fast. At the elite level, if you let someone hold a body lock for more than a couple seconds, you're going on your back or they're taking your back - that's just the reality. My first priority is preventing the lock from happening at all through constant hand fighting in the clinch. But if they do get it locked, I have two options: either I post hard on their hips and create explosive distance to break the connection, or I sit to closed guard immediately so I'm controlling how we hit the ground. What you can't do is wait and see what happens or try to muscle out of it slowly - that's how you get thrown hard or give up your back. Against high-level opponents with good body locks, sitting to guard is often the smartest choice because you're resetting to a position where you have options rather than letting them launch you or take your back with momentum on their side.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The body lock bottom position is dangerous, but it also gives you opportunities if you think creatively. Obviously you want to prevent it through hand fighting, but if someone locks it up, you've got to make quick decisions. One option is sitting to guard, which in our system is totally acceptable - we'd rather be on our backs working rubber guard or other positions than getting slammed or giving up back control. Another thing we work on is using the momentum of their pressure against them - if they're driving hard, sometimes you can roll through to guard rather than resisting the pressure. The key is not panicking and making a deliberate choice rather than just defending passively. You're in a bad spot, but you still have agency over what happens next if you act fast and stay calm under pressure.
 

@@ -147,14 +147,10 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
 
 
 
-> Technical Stand-up transitions from [[Seated Guard]] to [[Standing Position]]. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Technical Stand-up?
 
 The Technical Stand-up is a fundamental defensive movement in Brazilian Jiu-Jitsu that allows a practitioner to safely transition from a seated or grounded position to standing. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition. The technique is particularly valuable in self-defense scenarios, scrambles, and situations where re-establishing guard is not immediately possible. Mastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems.
 
@@ -193,7 +189,7 @@ The Technical Stand-up is a fundamental defensive movement in Brazilian Jiu-Jits
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish seated base**: From seated guard or bottom position, sit up with back straight and hands ready. Your lead leg (typically the leg closest to opponent) should have foot flat on mat with knee up, creating a barrier. Your trail leg can be bent or extended depending on distance to opponent. (Timing: Initiate when opponent pressures forward or when you need to create distance)
 2. **Post hand behind hip**: Place your posting hand (same side as trail leg) flat on the mat approximately 12-18 inches behind and slightly to the side of your hip. Fingers should point away from your body at roughly 45 degrees. This hand becomes one point of your tripod base. Keep elbow locked and shoulder engaged to support your weight. (Timing: Post hand must be established before hip elevation)
 3. **Elevate hips off mat**: Drive through your posting hand and lead leg simultaneously to lift your hips completely off the mat. Your weight is now distributed across three points: posting hand, lead leg foot, and trail leg foot. Your hips should rise high enough that your glutes are well clear of the mat, creating maximum distance from opponent. (Timing: Explosive hip elevation prevents opponent from closing distance)
@@ -288,7 +284,7 @@ Identify and execute technical stand-up during appropriate moments in live train
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the three points of contact that form the tripod base during the technical stand-up?
 **A**: The three points are: (1) the posting hand placed behind the hip, (2) the lead leg foot planted flat on the mat with knee up, and (3) the trail leg foot. These three points create a stable triangular base that supports your weight during hip elevation and allows for the controlled leg swing to complete the stand-up.
 

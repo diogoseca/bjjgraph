@@ -8,7 +8,7 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is North-South?
 
 North-South position represents one of the most controlling pin positions in Brazilian Jiu-Jitsu, characterized by perpendicular body alignment where the top player's chest covers the bottom player's head and chest while facing opposite directions. This position creates immense pressure and control through strategic weight distribution across the opponent's upper body.
 
@@ -54,7 +52,7 @@ The position demands different strategic approaches based on whether you're esta
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -68,7 +66,7 @@ The position demands different strategic approaches based on whether you're esta
 | **Energy Cost** | High | Low |
 | **Time** | Short | Long |
 
-**What Makes This Unique:** Perpendicular alignment maximizes pressure
+**Key Difference:** Perpendicular alignment maximizes pressure
 
 
 
@@ -80,10 +78,6 @@ The position demands different strategic approaches based on whether you're esta
 ## Playing as Bottom
 
 [[North-South/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -172,10 +166,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[North-South/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -261,7 +251,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

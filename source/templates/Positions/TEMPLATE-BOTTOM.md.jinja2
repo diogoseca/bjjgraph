@@ -8,7 +8,7 @@ description: "{{ bottom.description }}"
 ---
 
 {# PostHog A/B Testing Metadata #}
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -108,29 +108,10 @@ description: "{{ bottom.description }}"
 -->
 {% endif %}
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape {{ bottom.position_metrics.advancement_probability.advanced }}% of the time.
-
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: `{{ bottom.state_id }}`
-- **Point Value**: {{ bottom.state_properties.point_value }} ({% if bottom.state_properties.point_value < 0 %}Disadvantaged by {{ bottom.state_properties.point_value|abs }} points{% else %}{{ bottom.state_properties.point_value }} points{% endif %})
-- **Position Type**: {{ bottom.state_properties.position_type }}
-- **Risk Level**: {{ bottom.state_properties.risk_level }}
-- **Energy Cost**: {{ bottom.state_properties.energy_cost }}
-- **Time Sustainability**: {{ bottom.state_properties.time_sustainability }}
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is {{ bottom.name.replace(' (Defense)', '').replace(' Bottom', '') }} from the Bottom?
 
 {{ bottom.overview }}
 
@@ -279,17 +260,17 @@ description: "{{ bottom.description }}"
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 {{ bottom.expert_insights.danaher }}
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 {{ bottom.expert_insights.gordon_ryan }}
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 {{ bottom.expert_insights.eddie_bravo }}
 

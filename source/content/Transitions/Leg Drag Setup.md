@@ -147,14 +147,10 @@ description: "Master the Leg Drag Setup from open guard. Learn grip sequences, a
 
 
 
-> Leg Drag Setup transitions from [[Open Guard]] to [[Leg Drag Position]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Leg Drag Setup?
 
 The Leg Drag Setup is a fundamental entry sequence into one of modern Brazilian Jiu-Jitsu's most effective passing positions. This technique establishes the critical grips, angles, and hip control necessary to transition from open guard into the leg drag position, where the passer controls the opponent's legs while staying perpendicular to their hips. The setup phase is crucial because it determines whether you can successfully enter the leg drag position or whether your opponent can retain guard. The leg drag setup exploits the natural tendency of guard players to extend their legs for frame creation, using grip fighting and angle changes to trap the near leg while controlling the far hip. This creates a powerful passing position that combines pressure, angle, and hip control to neutralize most guard retention strategies. Modern no-gi and gi passing systems have made the leg drag setup essential knowledge, as it provides a reliable entry into dominant passing positions against even the most technical guard players.
 
@@ -193,7 +189,7 @@ The Leg Drag Setup is a fundamental entry sequence into one of modern Brazilian 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish primary grips**: From standing or combat base, secure a grip on the opponent's far side pants (at the knee) with your near hand while controlling their same-side sleeve or collar with your other hand. In no-gi, control the far ankle with your near hand and establish an underhook or overhook with your far hand. These grips give you the leverage to begin manipulating their leg position. (Timing: Initial contact phase)
 2. **Create angle and pressure**: Step your near foot forward and slightly to the outside of the opponent's near leg while maintaining your grips. Drive your weight forward through your chest, forcing them onto their back if they're sitting up. This angle change is critical as it begins to isolate the near leg and prevents them from turning to face you directly. (Timing: As opponent extends legs or sits up)
 3. **Pin the near leg**: Using your near hip and leg, pin the opponent's near leg to the mat by driving your weight across it. Your shin should be across their thigh or your hip should be heavy on their knee. This immobilization prevents them from retracting the leg or creating a new guard frame. Maintain constant downward pressure through your core. (Timing: Immediately after angle change)
@@ -285,7 +281,7 @@ Use the leg drag setup exclusively during live rolling and competition-style spa
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is controlling the far hip essential during the leg drag setup?
 **A**: Controlling the far hip prevents the opponent from turning toward you, which is their primary escape mechanism from the leg drag position. Without far hip control, they can rotate their body to face you, recover guard, and nullify your passing advantage. The hip control keeps them on their side or back and maintains the perpendicular angle that makes the leg drag effective.
 

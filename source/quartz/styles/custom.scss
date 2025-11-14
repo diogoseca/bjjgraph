@@ -117,4 +117,22 @@ summary::-webkit-details-marker {
       border-left-color: #c4961f;
     }
   }
+
+  // Dark mode support for TOC gradient fade indicator
+  #toc-content > ul.overflow::after {
+    background: linear-gradient(to bottom, transparent 0%, var(--dark) 85%);
+  }
+
+  // Adjust scrollbar colors for dark mode
+  #toc-content::-webkit-scrollbar-track {
+    background: var(--darkgray);
+  }
+
+  #toc-content::-webkit-scrollbar-thumb {
+    background: var(--lightgray);
+
+    &:hover {
+      background: var(--light);
+    }
+  }
 }

@@ -159,14 +159,12 @@ description: "Master Triangle from Back in BJJ. Complete guide with safety proto
 
 
 
-> Triangle from Back is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle from Back targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle from Back?
 
 The Triangle from Back is an advanced blood choke that represents a sophisticated evolution of traditional back control submissions. This technique combines the positional dominance of back control with the mechanical efficiency of the triangle choke, creating a submission that attacks the carotid arteries while maintaining superior position. Unlike the standard rear naked choke, the triangle from back uses leg configuration to create the choking pressure, freeing the hands for positional control and defense nullification.
 
@@ -252,7 +250,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure traditional back control foundation**: Begin from standard back control with both hooks in or body triangle secured. Establish seat belt grip (one arm over shoulder, one under armpit) and ensure your chest is tight to opponent's back. Your goal is complete positional dominance before attempting the triangle transition. (Timing: Maintain for 5-10 seconds minimum) [Pressure: Firm]
 2. **Bait and assess rear naked choke defense**: Attempt a traditional rear naked choke setup by bringing your choking arm across opponent's throat. Observe their defensive reaction - most will tuck their chin hard and grab your choking arm with both hands. This defensive commitment creates the opening for triangle transition. (Timing: 3-5 seconds to assess defense pattern) [Pressure: Light]
 3. **Trap defensive arm on choking side**: With your non-choking hand, swim over the top and grab opponent's wrist or forearm on the same side as your choking arm. Pull this arm tightly across their body, isolating it. This trapped arm will become part of the triangle choke structure. (Timing: 2-3 seconds) [Pressure: Firm]
@@ -318,7 +316,7 @@ The triangle from back also serves as a critical component of modern back attack
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is it critical to trap the opponent's arm on the same side as your choking leg during triangle from back setup?
 **A**: The trapped arm becomes part of the triangle structure and is essential for proper choke geometry. Trapping the arm on the same side ensures that when you bring your leg over that shoulder, their own arm helps compress their carotid artery. Crossing over the opposite shoulder would place their arm outside the triangle, destroying the choking mechanism and allowing easy defense.
 

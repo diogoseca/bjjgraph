@@ -8,7 +8,7 @@ description: "Master Body Lock position in BJJ. Complete guide covering standing
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Body Lock position in BJJ. Complete guide covering standing
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Body Lock?
 
 Body Lock is a dominant standing clinch control position where you wrap both arms around your opponent's torso and lock your hands together, creating a unified control mechanism that eliminates their ability to create distance or establish defensive grips. This position exists in two distinct strategic contexts: from behind (where you control their back while standing and threaten mat returns to back control), and from the side or front (where you establish over-under or double underhook configurations to execute throws, takedowns, and transitions to dominant ground positions).
 
@@ -50,7 +48,7 @@ The position is inherently transitional and requires immediate attack execution.
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ The position is inherently transitional and requires immediate attack execution.
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Locked grip eliminates mobility options
+**Key Difference:** Locked grip eliminates mobility options
 
 
 
@@ -76,10 +74,6 @@ The position is inherently transitional and requires immediate attack execution.
 ## Playing as Bottom
 
 [[Body Lock/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -153,10 +147,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Body Lock/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -233,7 +223,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -8,7 +8,7 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Open Guard?
 
 Open Guard is the fundamental bottom position in BJJ where you use your legs positioned between you and your opponent to create distance, manage angles, and prevent them from establishing dominant control. Unlike closed guard where your legs lock around the opponent's back, open guard maintains an open configuration that allows for greater mobility and diverse attacking options at the cost of requiring more active management. This position serves as the gateway to all modern guard systems and is essential for contemporary BJJ competition.
 
@@ -52,7 +50,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -66,7 +64,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 
-**What Makes This Unique:** Dynamic leg positioning for mobility and control
+**Key Difference:** Dynamic leg positioning for mobility and control
 
 
 
@@ -78,10 +76,6 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ## Playing as Bottom
 
 [[Open Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -182,10 +176,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Open Guard/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -271,7 +261,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

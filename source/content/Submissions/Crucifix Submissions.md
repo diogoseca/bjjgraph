@@ -147,14 +147,12 @@ description: "Master crucifix submissions in BJJ. Complete guide covering arm is
 
 
 
-> Crucifix Submissions is a multiple submissions targeting the Neck and isolated arm. ⚠️ **SAFETY**: This technique can cause Shoulder dislocation from trapped arm. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Crucifix Submissions targets the Neck and isolated arm. Risk: Shoulder dislocation from trapped arm. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Crucifix Submissions?
 
 The Crucifix position represents one of the most dominant control positions in Brazilian Jiu-Jitsu, offering multiple high-percentage submission opportunities while maintaining exceptional control. From the crucifix, both arms of the opponent are trapped and isolated - one arm controlled between your legs while the other is trapped by your body weight and positioning. This dual arm isolation creates a unique submission environment where the opponent has severely limited defensive capacity. The position derives its name from the cross-like configuration of the opponent's trapped arms, reminiscent of crucifixion imagery. From this superior control position, you can attack with chokes targeting the neck and carotid arteries, or joint locks attacking the isolated arm. The crucifix is most commonly entered from back control, turtle position, or during scrambles where you can capture and isolate the opponent's arms. Understanding the fundamental mechanics of arm isolation and maintaining the crucifix structure is essential before attempting submissions, as losing the position often results in the opponent escaping to a more favorable position.
 
@@ -240,7 +238,7 @@ The Crucifix position represents one of the most dominant control positions in B
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish crucifix control**: From back control or turtle, secure one opponent arm between your legs while trapping the other arm with your upper body. Your legs should form a tight figure-four or similar configuration around the trapped arm, with your hips tight to the opponent's back. The opponent's free arm should be controlled with your hands or trapped under your body weight. (Timing: Initial setup phase - establish before attacking) [Pressure: Firm]
 2. **Flatten opponent and consolidate position**: Drive your hips forward into the opponent's back while distributing your weight across their upper back and shoulders. This flattens the opponent to the mat and eliminates their ability to create space or posture. Keep constant pressure with your legs on the trapped arm while maintaining control of the free arm. Your chest should be heavy on their shoulder area. (Timing: 2-3 seconds to consolidate control) [Pressure: Maximum]
 3. **Secure head or collar control for choke**: With the opponent flattened and both arms controlled, use your hands to establish a collar grip or direct head control. For gi training, feed a lapel across the neck or establish a deep collar grip. For no-gi, slide your forearm under the chin or around the neck. Maintain all existing controls while establishing this grip - do not sacrifice arm isolation for the choke. (Timing: 1-2 seconds to establish grip) [Pressure: Light]
@@ -308,7 +306,7 @@ The Crucifix position represents one of the most dominant control positions in B
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the two fundamental arm controls that define the crucifix position?
 **A**: The crucifix requires one arm trapped between your legs with a figure-four or similar tight leg configuration, while the other arm is controlled and isolated by your upper body or hands. Both arms must be simultaneously controlled and separated from the opponent's body to create the crucifix structure.
 

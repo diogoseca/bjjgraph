@@ -8,7 +8,7 @@ description: "Master offensive control from Anaconda Control Top position. Learn
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master offensive control from Anaconda Control Top position. Learn
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 80%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Low
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Anaconda Control from the Top?
 
 Anaconda Control Top represents a dominant submission control position where the top practitioner has secured the anaconda grip configuration while maintaining superior positioning. This position bridges the gap between transitional control and submission finish, characterized by the distinctive arm-in grip around the opponent's neck and far shoulder. The position derives its name from the constricting nature of the choke, where the top player's body weight and grip structure create immense pressure on the opponent's carotid arteries and neck.
 
@@ -438,17 +417,17 @@ Start with anaconda grip established, bottom player works to escape while top pl
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The anaconda control position represents a perfect example of closed kinetic chain mechanics in grappling. The arm-in configuration creates a structural trap where the opponent's own anatomy works against them - their trapped arm actually reinforces the choking mechanism rather than defending against it. The key to maximum effectiveness lies in understanding the directional component of your pressure. Many practitioners make the error of pulling straight back or purely squeezing, but the optimal finish requires a specific angle that bisects the opponent's neck, attacking the carotid arteries bilaterally while their trapped shoulder acts as a fulcrum. The roll-through finish isn't simply an aesthetic choice - it's a biomechanical necessity that allows you to use your entire body weight in a forward rolling motion, generating far more pressure than static squeezing could ever achieve. Study the relationship between your chest position, hip placement, and the angle of your forearms within the lock structure. When these three elements align correctly, the submission becomes nearly inescapable regardless of the opponent's strength or defensive knowledge.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, the anaconda has been one of my highest-percentage submissions from top positions, particularly against opponents who rely heavily on turtle defense. The critical thing people miss is that this isn't just a submission position - it's a complete control system that allows you to dictate the pace and direction of the match. When I secure the anaconda grip, I'm immediately evaluating whether my opponent will give me the standing finish, the roll-through finish, or if they'll turn into it and give me their back. Each defensive reaction opens a different finishing path, and they're all bad for them. The competition-proven approach is to establish the grip with absolute tightness first - don't rush the finish. I've won numerous matches by holding this position and waiting for the perfect moment to execute the roll or back take. Against high-level opponents, the threat of the anaconda often forces them into defensive positions that open up other attacks. The psychological pressure of being stuck in this position causes mistakes. My advice: drill the grip until you can secure it in under two seconds from turtle, and practice maintaining chest pressure while staying mobile enough to follow their escape attempts.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The anaconda is a beautiful submission because it fits perfectly into the 10th Planet philosophy of creating submission chains and dilemmas. From our perspective, this position is the gateway to multiple finishing sequences, and we've developed specific modifications that increase the effectiveness. One key innovation we emphasize is the 'anaconda vice' variation, where instead of immediately pursuing the choke, you use the grip to break down their turtle and create secondary submission opportunities. The traditional approach teaches the roll-through as the primary finish, but we've found that maintaining top control and using the anaconda grip as a steering wheel to manipulate their position opens up darce opportunities, back takes, and even creates setups for our signature moves like the twister. The beautiful thing about this position is how it complements the rubber guard system - if someone escapes your rubber guard control, the scramble often puts them directly into anaconda range. We also spend significant time drilling the anaconda from unconventional entries, including from standing positions and even from certain guard positions where the opponent makes the mistake of diving for underhooks. The creativity in this position is limitless, and when you understand how to flow between anaconda, darce, and guillotine variations, you create an inescapable submission web that defines modern no-gi grappling.
 

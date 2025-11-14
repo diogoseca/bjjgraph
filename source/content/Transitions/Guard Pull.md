@@ -147,14 +147,10 @@ description: "Master the Guard Pull transition in BJJ. Complete guide from stand
 
 
 
-> Guard Pull transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 65%, Intermediate 75%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guard Pull?
 
 The Guard Pull is a fundamental BJJ transition that allows practitioners to move from standing position directly into their guard game, bypassing the takedown exchange entirely. This technique is particularly valuable in sport BJJ contexts where bottom guard position offers numerous attacking opportunities and where takedown exchanges may not align with a practitioner's strengths. The guard pull requires precise grip establishment, proper body positioning, and excellent timing to execute safely and effectively. When performed correctly, it allows the practitioner to immediately begin implementing their guard strategy while controlling distance and grips. The technique has become increasingly sophisticated in modern competition, with various entries designed to land directly into specific guard positions rather than a generic seated guard. Understanding when and how to pull guard effectively is essential for building a complete competition game.
 
@@ -193,7 +189,7 @@ The Guard Pull is a fundamental BJJ transition that allows practitioners to move
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish primary grips**: Secure strong grips on opponent's collar and sleeve, or body and head in no-gi. Focus on controlling their posture and preventing them from establishing dominant grips first. The grip establishment phase is critical as these connections will control the entire transition. (Timing: Before initiating any downward movement)
 2. **Break opponent's posture**: Pull opponent slightly forward and off-balance using your grips, disrupting their base and making it difficult for them to sprawl or disengage. This subtle off-balancing creates the timing window for your pull. A well-postured opponent can easily defend the guard pull by stepping back or sprawling. (Timing: Immediately before sitting)
 3. **Sit to seated position**: Drop your hips straight down or slightly back while maintaining strong grip tension. Keep your upper body upright and engaged rather than falling backward completely. Your sitting motion should be controlled and maintain connection to your opponent throughout. Avoid simply falling to your back which gives opponent passing opportunities. (Timing: As opponent's weight shifts forward)
@@ -288,7 +284,7 @@ Partner provides full resistance including grip fighting, counter attempts, and 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is grip establishment critical before initiating a guard pull?
 **A**: Grips provide the connection and control necessary to pull opponent into your guard structure and prevent them from disengaging or immediately passing. Without grips, opponent can simply step back, sprawl, or walk around your legs as you sit, leaving you in defensive bottom position with no guard established. Strong grips allow you to control their posture and distance throughout the entire transition.
 

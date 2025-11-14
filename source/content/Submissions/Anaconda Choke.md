@@ -153,14 +153,12 @@ description: "Master Anaconda Choke in BJJ. Complete guide with safety protocols
 
 
 
-> Anaconda Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Anaconda Choke targets the Carotid arteries and trachea. Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Anaconda Choke?
 
 The Anaconda Choke is a front headlock blood choke that targets the carotid arteries through a figure-four configuration of the arms. Named for the constricting serpent, this submission wraps around the opponent's neck and arm, creating a powerful strangling mechanism. The technique is most commonly applied from turtle position or front headlock control when the opponent is defending with their head down. Unlike the rear naked choke which attacks from behind, the Anaconda approaches from the side, threading one arm under the opponent's neck and opposite armpit while the other arm completes the figure-four grip. The submission's effectiveness comes from the combined pressure of the choking arm against the carotid artery while the opponent's own shoulder is driven into their opposite carotid. This dual-sided pressure creates a rapid loss of consciousness if not defended immediately. The Anaconda is particularly effective in no-gi grappling where the absence of collar grips forces opponents to defend with posture, creating the head-down position ideal for this attack. The technique has become a staple in modern BJJ, with practitioners like Braulio Estima and Milton Vieira demonstrating its effectiveness at the highest levels of competition.
 
@@ -245,7 +243,7 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish front headlock control**: From opponent's turtle position or as they shoot a takedown, secure your arm around their neck in a front headlock position. Your chest should be heavy on their upper back/neck area, preventing them from posturing up. Control their near arm with your free hand, either gripping their wrist or tricep, or trap it against their body. Keep your hips low and weight distributed forward to maintain control. (Timing: Initial control phase: 1-2 seconds) [Pressure: Moderate]
 2. **Thread choking arm deep under neck**: With your controlling arm already around their neck, begin threading it deeper, aiming to get your forearm across their far-side carotid artery. Your hand should emerge on the opposite side of their body, past their shoulder. The key is depth - shallow placement will not create sufficient pressure. As you thread, use your other hand to help guide your choking arm deeper by pushing your own elbow or pulling your wrist through. (Timing: Threading phase: 2-3 seconds) [Pressure: Light]
 3. **Trap opponent's arm against their neck**: As your choking arm threads through, ensure the opponent's near-side arm is trapped tightly against their own neck and shoulder. This arm becomes part of the choking mechanism - their own shoulder will compress their opposite carotid artery. If their arm is not trapped, reach across with your free hand and pull their wrist toward their opposite shoulder, folding the arm against their neck. This creates the essential dual-sided pressure. (Timing: Arm trapping: 1-2 seconds) [Pressure: Moderate]
@@ -319,7 +317,7 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the minimum safety requirements for applying an Anaconda choke in training? **[SAFETY-CRITICAL]**
 **A**: Apply pressure progressively over 3-5 seconds minimum (never explosive or jerking), ensure partner has clear tap access with at least one hand, monitor partner constantly for tap signals or distress, and release immediately upon any tap signal or loss of resistance. Additionally, avoid practicing on partners with neck injuries without instructor approval.
 

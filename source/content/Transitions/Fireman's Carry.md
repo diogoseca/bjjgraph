@@ -153,14 +153,10 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete step-by-step 
 
 
 
-> Fireman's Carry transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Fireman's Carry?
 
 The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.
 
@@ -200,7 +196,7 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: Begin from a standing clinch position, typically with collar ties or underhooks. Secure a firm grip on your opponent's lead arm, controlling either the wrist or the triceps area. Your opposite hand should be positioned on the opponent's shoulder, neck, or opposite arm to maintain connection and prevent them from creating distance. (Timing: Initial setup phase)
 2. **Execute level change**: Drop your level rapidly by bending at the knees and hips, lowering your center of gravity significantly below your opponent's. As you drop, pull the controlled arm downward and across your body. Your head should drive toward the opponent's far hip while your shoulders remain square. This sudden level change disrupts their balance and creates the opening for penetration. (Timing: Explosive initiation - 0.5 seconds)
 3. **Penetration step**: Step your lead leg deep between your opponent's legs, positioning your foot past their centerline. Your hips should now be underneath theirs, with your shoulder making contact with their midsection. The penetration step is critical - shallow penetration will result in a failed lift. Your back should be straight and strong, ready to support their weight. (Timing: Immediately following level change)
@@ -302,7 +298,7 @@ Regularly drill technique to maintain muscle memory and explosive power. Study h
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical component of the Fireman's Carry that determines whether the lift will be successful?
 **A**: The depth of the penetration step is the most critical component. Your lead foot must step deep between the opponent's legs, positioning your hips directly underneath theirs and lower than their center of gravity. Without proper penetration, you cannot generate sufficient lifting leverage, and the technique will fail regardless of how strong you are. The penetration step must place your shoulder in contact with their midsection and your hip below theirs.
 

@@ -147,14 +147,12 @@ description: "Master the Darce Choke in BJJ. Complete guide with safety protocol
 
 
 
-> Darce Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Darce Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Darce Choke?
 
 The Darce Choke is a highly effective blood choke that targets the carotid arteries through a figure-four arm configuration combined with shoulder pressure. Named after Joe D'Arce who popularized it in no-gi competition, this submission represents one of the most versatile finishing techniques from transitional positions. The mechanics involve threading one arm under the opponent's near arm and around their neck, then clasping your hands together while using your shoulder to create compression on one side and your forearm on the other. This bilateral compression restricts blood flow to the brain, producing a rapid loss of consciousness if not defended. The Darce's effectiveness stems from its applicability across multiple positions—front headlock, turtle, scrambles, and even from bottom positions—making it a cornerstone technique in modern no-gi grappling. Unlike traditional gi chokes that rely on fabric grips, the Darce's body mechanics and leverage make it equally effective with or without the gi, though it's primarily considered a no-gi specialist's weapon.
 
@@ -240,7 +238,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure front headlock position**: Establish front headlock control with your head on the opponent's back and your chest heavy on their shoulders. Control their near arm with an overhook or by controlling the wrist. Your free arm should be threatening the neck or controlling the far shoulder. Ensure opponent's head is lower than their hips to prevent them from standing. (Timing: 0-2 seconds) [Pressure: Moderate]
 2. **Thread choking arm under near armpit**: Slide your choking arm (the arm on the same side as their trapped arm) deep under their near armpit, aiming to get your bicep or elbow past the centerline of their neck. Your hand should emerge on the far side of their neck. Keep your elbow tight to your ribs and maintain downward pressure with your shoulder on their neck throughout the threading motion. (Timing: 2-3 seconds) [Pressure: Firm]
 3. **Secure hand position around far side of neck**: Once your arm is threaded through, reach your hand around the far side of their neck, creating a blade with your forearm across the back/side of their neck. Your palm should be facing up or toward you. Ensure your bicep is on one side of their neck and your forearm is on the other, with their neck in the crook of your elbow. (Timing: 3-4 seconds) [Pressure: Moderate]
@@ -310,7 +308,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the two primary structures creating compression in a properly applied darce choke?
 **A**: The shoulder drives into the near-side carotid artery while the blade of the forearm compresses the far-side carotid artery. This bilateral compression is what makes the darce effective—single-side pressure alone will not produce a clean finish. The figure-four grip locks these structures in place while the body positioning creates the leverage needed for effective compression.
 

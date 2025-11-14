@@ -147,14 +147,12 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 
 
 
-> Arm Triangle is a blood choke targeting the Carotid arteries (compressed by opponent's own shoulder and your arm). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Arm Triangle targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Arm Triangle?
 
 The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the opponent's own shoulder and arm to compress one carotid artery while your arm compresses the other. Unlike the rear naked choke which requires access to both sides of the neck, the arm triangle turns the opponent's defensive frame into an offensive weapon. This submission is particularly effective from side control and can be finished from multiple positions including modified mount, north-south transition, and even from turtle when the opponent is defending incorrectly. The mechanics rely on proper head positioning, shoulder pressure, and controlled weight distribution rather than pure strength. Understanding the anatomy of the choke—creating a triangle with your arms around the opponent's head and their own arm—is essential for consistent finishing. The arm triangle represents a perfect example of using an opponent's defensive structure against them, making it a high-percentage submission across all skill levels when the fundamental mechanics are properly applied.
 
@@ -236,7 +234,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Isolate and trap the near arm**: From side control with crossface pressure, use your chest and shoulder to drive opponent's near arm across their own neck. The key is making their defensive frame become the choking mechanism. Drive your weight through your shoulder while controlling their head, forcing their arm to cross their centerline. This arm will compress one carotid artery while your arm compresses the other. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Thread the choking arm deep**: Slide your near arm (the one closest to opponent's head) under their neck, reaching as deep as possible toward the far side of their neck. Your bicep should contact one side of their neck while their own trapped shoulder/arm contacts the other side. The deeper you can thread this arm, the tighter the eventual choke. Your forearm should emerge on the far side of their head with your hand reaching toward their far shoulder. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Lock the grip and create the triangle**: Reach your free hand over opponent's back and grab your own bicep (gable grip) or clasp your hands together. This creates the triangle structure: your bicep on one side of their neck, their trapped arm/shoulder on the other side, and your forearm across the back of their head/neck. Ensure your head is positioned tight against opponent's head on the choke side—this is critical to prevent space and escape. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -301,7 +299,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What creates the actual choking pressure in an arm triangle, and why is it more effective than just squeezing with your arms?
 **A**: The choking pressure comes from the triangle structure formed by your bicep on one side of the opponent's neck, their own trapped shoulder/arm on the other side, and your shoulder driving toward their head. This structural pressure compresses both carotid arteries simultaneously. It's more effective than arm squeezing because you're using your entire body weight through proper positioning and angle, making it sustainable and powerful without relying on grip strength that fatigues quickly.
 

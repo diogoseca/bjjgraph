@@ -147,14 +147,10 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 
 
 
-> Front Headlock to Guillotine transitions from [[Front Headlock]] to [[Guillotine Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Front Headlock to Guillotine?
 
 The Front Headlock to Guillotine transition represents a critical pathway in modern submission grappling, transforming a dominant control position into a high-percentage finishing opportunity. This transition is fundamental to understanding the front headlock series, where the practitioner leverages head and arm control to create the angle and grip necessary for the guillotine choke. The technique is particularly effective when the opponent attempts to stand from turtle or drives forward from a defensive posture, creating the perfect moment to secure the guillotine grip and establish submission control.
 
@@ -198,7 +194,7 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure front headlock control**: Establish a tight front headlock by wrapping your arm around the opponent's neck with your hand gripping their far shoulder or tricep. Your chest should be heavy on the back of their head, forcing their posture down. Keep your hips close to their head and your knees bent for mobility. Your free hand can post on the mat or control their near arm to prevent defensive reactions. (Timing: Initial control position - maintain until opponent shows movement)
 2. **Identify the transition moment**: Wait for the opponent to attempt an escape by either trying to stand up, driving forward to pass, or pulling their head backward. These movements create the perfect moment for the transition as they are actively working against your control, making them vulnerable to the grip change. You'll feel them start to extend their neck or create upward pressure - this is your cue to act. (Timing: React immediately when opponent initiates escape movement)
 3. **Slide choking arm deep**: As the opponent moves, quickly slide your choking arm deeper around their neck, bringing your wrist and forearm past their trachea to the far side of their neck. Your goal is to get your wrist bone positioned under their chin rather than across their throat. Drive your shoulder forward and down while pulling their head into your chest to maintain control during this adjustment. This depth is critical for the effectiveness of the guillotine. (Timing: Execute quickly during opponent's movement - 0.5 to 1 second window)
@@ -292,7 +288,7 @@ Experiment with different grip variations (arm-in guillotine, high-elbow, ten-fi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most important factor in determining the effectiveness of a guillotine choke?
 **A**: The depth of your choking arm under the opponent's chin is the most critical factor. Your wrist bone must be positioned past their throat on the far side of their neck, creating a choking surface under the chin rather than across the trachea. Without proper depth, the choke will be weak and easily defended by a simple chin tuck. Achieving this depth requires sliding your arm deep during the transition from front headlock, which is why timing the transition during opponent movement is so important.
 

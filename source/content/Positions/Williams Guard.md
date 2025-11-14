@@ -8,7 +8,7 @@ description: "Master Williams Guard in BJJ. Innovative shoulder lock guard with 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Williams Guard in BJJ. Innovative shoulder lock guard with 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Williams Guard?
 
 Williams Guard is an innovative open guard position characterized by controlling one of the opponent's arms in a shoulder lock configuration while maintaining guard structure. Named after creator Roy Williams, this position combines elements of traditional guard retention with unique shoulder manipulation that creates both offensive and defensive opportunities. The practitioner on bottom secures the opponent's arm in a shoulder lock grip while using their legs to maintain distance and create angles for sweeps and submissions. This guard is particularly effective against opponents who attempt aggressive passing strategies, as it neutralizes their posting ability and creates immediate submission threats.
 
@@ -50,7 +48,7 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ From the top perspective, Williams Guard presents significant challenges requiri
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Short to Medium |
 
-**What Makes This Unique:** Shoulder lock trades grip retention for submission
+**Key Difference:** Shoulder lock trades grip retention for submission
 
 
 
@@ -76,10 +74,6 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ## Playing as Bottom
 
 [[Williams Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -161,10 +155,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Williams Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -238,7 +228,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

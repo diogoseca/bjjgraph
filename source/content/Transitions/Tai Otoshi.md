@@ -153,14 +153,10 @@ description: "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution 
 
 
 
-> Tai Otoshi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Tai Otoshi?
 
 Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that has been seamlessly integrated into modern Brazilian Jiu-Jitsu as a high-percentage standing technique. This throw exemplifies the principle of maximum efficiency with minimum effort, using timing, off-balancing, and mechanical advantage to project an opponent to the mat. Unlike many judo throws that rely heavily on hip positioning, Tai Otoshi uses the practitioner's leg as a blocking point while pulling the opponent forward and downward in a circular motion. The technique is particularly effective in no-gi grappling due to its reliance on body mechanics rather than gi grips, though traditional sleeve and lapel controls make it even more powerful in the gi. When executed correctly, Tai Otoshi allows a smaller practitioner to throw a significantly larger opponent by exploiting their forward momentum and breaking their base at precisely the right moment. The throw creates immediate scoring opportunities in competition and transitions naturally into dominant positions such as side control, knee on belly, or back control, making it a complete technique that bridges the standing and ground phases of combat.
 
@@ -199,7 +195,7 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: In gi, secure traditional sleeve grip with your right hand on opponent's left sleeve near the elbow, and lapel grip with your left hand high on their right collar. In no-gi, establish collar tie with left hand behind opponent's neck and wrist control with right hand. Pull grips tightly to your centerline to begin breaking their posture. (Timing: Initial engagement phase)
 2. **Break opponent's balance forward**: Execute strong kuzushi (off-balancing) by pulling opponent forward and slightly to their right front corner using both grips simultaneously. Your left hand pulls high and forward while right hand pulls down and toward you. Opponent should feel themselves being pulled onto their toes with weight shifting forward. (Timing: 0.5-1 second before throw initiation)
 3. **Step in with pivot**: Step your right foot deeply across and in front of opponent's right foot, positioning it approximately 6-8 inches in front of their toes. Simultaneously begin rotating your hips counterclockwise, turning your back toward opponent's chest. Your shoulders should become perpendicular to their shoulders. (Timing: As opponent's weight commits forward)
@@ -299,7 +295,7 @@ Utilize Tai Otoshi in competition-style rounds with points, time limits, and str
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of kuzushi in Tai Otoshi and when should it occur relative to your entry step?
 **A**: Kuzushi (off-balancing) in Tai Otoshi serves to break the opponent's upright posture and commit their weight forward onto their toes, making them vulnerable to being thrown over your blocking leg. The kuzushi must occur before you step in with your blocking leg—typically 0.5-1 seconds prior. You should feel their weight clearly committed forward before placing your leg across. If you attempt the blocking leg placement before proper kuzushi, the opponent will simply step over or around your leg and the throw will fail.
 

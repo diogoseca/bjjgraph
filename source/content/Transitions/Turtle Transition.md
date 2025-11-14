@@ -153,14 +153,10 @@ description: "Master Turtle transitions in BJJ. Complete guide to attacking and 
 
 
 
-> Turtle Transition transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Turtle Transition?
 
 The Turtle position represents a critical transitional state in BJJ where the bottom player assumes a quadruped defensive posture to protect against back exposure and submission attacks. While traditionally viewed as a defensive position, modern grapplers have transformed Turtle into an active launching point for sweeps, guard recoveries, and scrambles. The position creates a unique tactical battleground where the top player seeks back control, front headlock positions, or submission entries, while the bottom player works to return to guard, execute reversals, or escape to standing. Understanding Turtle transitions is essential for both attacking opportunities from top position and defensive survival from bottom. The position's dynamic nature creates constant momentum shifts, requiring practitioners to develop sharp awareness of weight distribution, grip fighting, and timing. Mastery of Turtle transitions distinguishes intermediate from advanced competitors, as it demonstrates the ability to maintain composure during scrambles and capitalize on fleeting opportunities during position changes.
 
@@ -200,7 +196,7 @@ The Turtle position represents a critical transitional state in BJJ where the bo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Assess opponent's attack angle**: Quickly determine if opponent is attacking from front headlock position, attempting back take via hooks, or seeking crucifix control. This assessment dictates your defensive priority and escape route selection. (Timing: Immediate upon entering turtle position)
 2. **Establish defensive base**: Place hands shoulder-width apart with elbows inside knees, creating a tight defensive box. Tuck chin to chest to protect neck from guillotine and front headlock attacks while maintaining ability to look laterally at opponent's position. (Timing: Within first second of turtle entry)
 3. **Fight critical grips**: Prevent opponent from establishing seat belt grip, harness control, or deep front headlock. Use explosive shoulder shrugs and arm movements to strip grips before they become consolidated. Priority is preventing the far side underhook and seat belt completion. (Timing: Continuous grip fighting throughout position)
@@ -299,7 +295,7 @@ During regular sparring rounds, intentionally enter turtle position from guard o
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary defensive priority when first entering turtle position?
 **A**: The primary priority is establishing a strong defensive frame with elbows inside knees, head tucked to protect the neck, and maintaining active grip fighting to prevent opponent from establishing seat belt control or front headlock position. This defensive structure prevents immediate back takes and submission setups while buying time to assess escape opportunities.
 

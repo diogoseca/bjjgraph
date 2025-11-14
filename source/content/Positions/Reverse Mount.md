@@ -8,7 +8,7 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Reverse Mount?
 
 Reverse Mount is a transitional dominant position where the practitioner sits on the opponent's torso while facing away from their head, essentially mounted in the opposite direction from standard mount. This position scores 4 points (same as standard mount in IBJJF) but possesses fundamentally different control dynamics and sustainability characteristics due to its backward orientation.
 
@@ -54,7 +52,7 @@ The position's moderate risk level reflects its transitional nature - dominant e
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -68,7 +66,7 @@ The position's moderate risk level reflects its transitional nature - dominant e
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short |
 
-**What Makes This Unique:** Backward orientation enables rapid transitions
+**Key Difference:** Backward orientation enables rapid transitions
 
 
 
@@ -80,10 +78,6 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ## Playing as Bottom
 
 [[Reverse Mount/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -165,10 +159,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Reverse Mount/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -238,7 +228,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

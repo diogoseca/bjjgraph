@@ -8,7 +8,7 @@ description: "Master triangle escape techniques in BJJ. Complete defensive guide
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master triangle escape techniques in BJJ. Complete defensive guide
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle Escape Position?
 
 Triangle Escape Position represents one of the most critical defensive scenarios in Brazilian Jiu-Jitsu, where a practitioner finds themselves caught in an opponent's triangle choke configuration and must execute immediate, systematic defensive techniques to prevent submission while creating opportunities for positional recovery. This position demands mastery of defensive hierarchy: first maintaining consciousness through breathing space preservation, then establishing posture to reduce choking pressure, then systematically dismantling the triangle structure through proper mechanical understanding. Unlike many defensive positions where time can work in the defender's favor, the triangle escape scenario becomes progressively more dangerous as the attacking practitioner refines their angle and tightness, making decisive technical action essential within a narrow window of opportunity.
 
@@ -52,7 +50,7 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -66,7 +64,7 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 | **Energy Cost** | High | High |
 | **Time** | Short | Short |
 
-**What Makes This Unique:** Defensive urgency balances survival priority
+**Key Difference:** Defensive urgency balances survival priority
 
 
 
@@ -78,10 +76,6 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ## Playing as Bottom
 
 [[Triangle Escape Position/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -156,10 +150,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Triangle Escape Position/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -225,7 +215,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

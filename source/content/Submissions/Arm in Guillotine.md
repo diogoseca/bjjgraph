@@ -153,14 +153,12 @@ description: "Master Arm in Guillotine in BJJ. High-percentage front headlock ch
 
 
 
-> Arm in Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Arm in Guillotine targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Arm in Guillotine?
 
 The Arm in Guillotine represents a powerful variation of the standard guillotine choke where one of the opponent's arms becomes trapped inside the choking mechanism. This configuration significantly increases the effectiveness of the submission by preventing defensive hand fighting and creating additional pressure on the carotid arteries. Unlike the standard guillotine where both arms remain outside, the arm-in variation capitalizes on the opponent's attempted defensive frames or underhooks, turning their defensive structure into a liability. This submission is particularly effective in scrambles, takedown situations, and transitional moments where the opponent commits an arm to establish position. The arm-in configuration creates a tighter choking circle and eliminates several escape pathways available in the traditional guillotine. While slightly more difficult to finish than a clean high-elbow guillotine, the arm-in variation offers superior control and maintains effectiveness even when jumping guard or pulling to closed guard.
 
@@ -243,7 +241,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure Front Headlock Control**: Establish dominant front headlock position with your head tight to opponent's far shoulder. Your choking arm should be threatening the neck while your opposite hand controls their far arm or shoulder. Break their posture by pulling down and driving your weight through their head and shoulders. (Timing: Initial setup: 1-2 seconds) [Pressure: Moderate]
 2. **Identify and Trap the Arm**: Recognize when opponent commits an arm inside your control space - this typically occurs when they attempt an underhook, post their hand on your hip, or frame against your body. As they commit this arm, immediately adjust your choking arm to ensure their arm becomes trapped between your forearm and their own neck. Your forearm should be across the front of their throat with their arm pinned inside. (Timing: Opportunistic timing: 0.5-1 second window) [Pressure: Light]
 3. **Achieve Deep Neck Penetration**: Drive your choking arm deeper around the opponent's neck, aiming to get your wrist past the centerline of their throat. The blade of your forearm (thumb-side) should be positioned directly across their trachea and carotid arteries. Ensure the trapped arm remains secured inside - if it starts to slip out, adjust your angle and re-secure it before proceeding. (Timing: 1-2 seconds for optimal depth) [Pressure: Moderate]
@@ -312,7 +310,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary advantage of trapping the opponent's arm inside the guillotine choke compared to a standard guillotine?
 **A**: The primary advantage is the elimination of defensive hand fighting. With one arm trapped inside, the opponent cannot use both hands to create frames, push your hips away, or grab your choking wrist to relieve pressure. This significantly increases the submission success rate and control, particularly when transitioning to guard or during scrambles. Additionally, the trapped arm creates a tighter choking diameter and adds structural rigidity to the submission system.
 

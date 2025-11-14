@@ -147,14 +147,10 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Success rates:
 
 
 
-> Muscle Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Muscle Sweep?
 
 The Muscle Sweep is a fundamental attacking technique from Closed Guard that exploits the opponent's forward pressure and broken posture. Unlike more technical sweeps that rely on precise leverage points, the Muscle Sweep uses a combination of hip movement, upper body control, and explosive power to drive the opponent backward and sweep them to Mount position. This sweep is particularly effective when the opponent is defending other attacks and their weight is distributed forward, or when they attempt to posture up from a broken-down position. The technique requires good timing and the ability to coordinate upper body pulling with lower body hip elevation. While often considered a 'strength-based' technique by its name, proper execution relies more on timing the opponent's weight distribution and creating the correct angle of attack. The Muscle Sweep serves as an excellent foundational sweep for beginners while remaining effective at advanced levels when combined with other guard attacks.
 
@@ -194,7 +190,7 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish control grips**: From closed guard, secure a deep collar grip with your right hand, pulling the opponent's head down and breaking their posture forward. Simultaneously grip their left sleeve or wrist with your left hand, preventing them from posting to that side. (Timing: Initial setup phase - control before movement)
 2. **Create hip angle**: Shift your hips approximately 45 degrees to your left, moving your body off-center relative to the opponent. This angle is critical as it allows your right shoulder to get under their centerline while creating space for the sweep. Keep your guard closed throughout this movement. (Timing: Preparatory positioning - smooth weight shift)
 3. **Break opponent's base**: Pull strongly on the collar grip, driving the opponent's head down and across toward your left hip. Simultaneously pull their controlled arm across their body, eliminating their left-side post and compromising their base structure. (Timing: Base-breaking phase - strong directional pull)
@@ -286,7 +282,7 @@ Apply technique during positional sparring from closed guard and eventually free
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the optimal hip angle to create before executing the muscle sweep?
 **A**: Approximately 45 degrees off-center from the opponent's centerline. This angle allows your shoulder to get underneath their centerline while creating the proper sweeping vector. The angle is critical because it determines the direction and mechanical advantage of the sweep, making it much more effective than attempting to sweep from directly underneath the opponent.
 

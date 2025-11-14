@@ -8,7 +8,7 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Lasso Guard from the Bottom?
 
 Playing **Lasso Guard Bottom** requires sophisticated understanding of leverage mechanics, grip control, and dynamic movement patterns. From the bottom position, you thread your shin across the opponent's tricep while controlling their sleeve, creating a powerful lever that restricts their mobility and creates constant off-balancing threats. This position fundamentally alters the passing game by removing the opponent's ability to effectively use their trapped arm for base, pressure, or grips.
 
@@ -477,17 +458,17 @@ Partner actively works to counter the lasso using various methods: stepping over
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The lasso guard represents a sophisticated application of lever mechanics in grappling. The critical element is understanding that the position creates a perpendicular force vector against the opponent's arm that compromises their ability to generate forward pressure or establish stable base. Your control isn't just about holding the sleeve - it's about creating a geometric relationship where their arm becomes a liability rather than an asset. The most common error is treating lasso as a static holding position rather than a dynamic platform for constant off-balancing attacks. Superior practitioners maintain relentless pressure on the opponent's equilibrium, forcing defensive reactions that create the actual scoring opportunities. The position demands exceptional hip mobility because your ability to maintain perpendicular angles while the opponent circles determines whether the lasso functions as intended or becomes merely a temporary inconvenience they can systematically address.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Lasso guard is a competition-proven position that works at the highest levels when executed with proper aggression and attack mentality. I use it primarily as a transitional control rather than a destination position - establish the lasso, immediately threaten a sweep or submission, and flow into whatever opportunity presents itself. The key is never letting the opponent settle and work their passing game methodically. If they start making progress on clearing the lasso, I'm already transitioning to X-guard, De La Riva, or inverting underneath before they complete the pass. Against standing opponents, the lasso becomes particularly effective because you can combine it with De La Riva hooks or single leg X entries, creating multi-layered threats they must address simultaneously. In modern no-gi, I adapt the concept using overhook control instead of sleeve grips, maintaining the same geometric principles while adjusting for the lack of gi friction. The competitive value is in creating chaos and forcing reactions rather than achieving perfect positional control.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Lasso guard is incredible for creating unconventional angles and entries into the 10th Planet system. I love combining it with lockdown principles and rubber guard concepts - using the lasso to control one arm while working missions on the other side. The position naturally leads to inverted attacks and corkscrew movements that fit perfectly with our no-gi approach. When teaching lasso, I emphasize the importance of staying dangerous with constant submission threats - triangles, omoplatas, armbars all become available when you maintain active pressure. The flexibility required for effective lasso work also develops the hip mobility needed for other advanced positions in our system. One unique variation we work is using the lasso as a entry mechanism into truck positions and twister attacks - when they try to clear the lasso by stepping over, you can often capture the leg and transition directly into the twister system. The creative potential is enormous if you think beyond traditional sweeping applications and explore the submission chains available from these angles.
 

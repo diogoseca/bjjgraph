@@ -147,14 +147,10 @@ description: "Master the Technical Standup escape in BJJ. Step-by-step execution
 
 
 
-> Technical Standup transitions from [[Seated Guard]] to [[Standing Position]]. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Technical Standup?
 
 The Technical Standup is one of the most fundamental defensive movements in Brazilian Jiu-Jitsu, serving as a critical bridge between grounded and standing positions. This technique allows a grounded practitioner to safely return to their feet while maintaining defensive integrity and preventing the opponent from capitalizing on the transition. The movement combines proper base construction, systematic weight transfer, and intelligent posting mechanics to create a safe pathway to standing. Unlike an athletic scramble or explosive standup, the technical standup prioritizes control and safety, making it accessible to practitioners of all athletic levels. The technique is particularly valuable in self-defense scenarios, competition situations where disengagement is strategic, and as a foundational movement pattern that teaches proper body mechanics for numerous other techniques. Understanding the technical standup is essential for developing complete guard retention systems and defensive frameworks.
 
@@ -193,7 +189,7 @@ The Technical Standup is one of the most fundamental defensive movements in Braz
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish seated base**: From seated position, plant one foot flat on the mat with knee up, approximately hip-width from your seated hip. The other leg can be extended or bent depending on opponent distance. Sit on one hip, not flat on your back, creating a stable triangular base with your seated hip and planted foot. (Timing: Complete before opponent closes distance)
 2. **Post rear hand**: Place your rear hand (same side as seated hip) flat on the mat behind you, fingers pointing away from body or slightly angled. The posting hand should be 12-18 inches behind your hip, creating a strong structural support. Keep elbow slightly bent to absorb force, not locked straight. (Timing: Establish solid post before weight transfer)
 3. **Frame with lead hand**: Extend your front hand (opposite side from posting hand) toward opponent with palm facing them, creating a defensive frame to manage distance. This hand acts as both a range-finder and a barrier to prevent opponent from closing distance during your standup. Keep this arm active and ready to post or frame as needed. (Timing: Simultaneous with or immediately after rear post)
@@ -284,7 +280,7 @@ Incorporate technical standup into live rolling with specific goals: standup to 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of keeping your hips elevated during the step-through phase of the technical standup?
 **A**: Keeping hips elevated during the step-through prevents the opponent from securing top position and makes it mechanically impossible for them to pin you to the mat. High hips create clearance that allows your free leg to swing through smoothly while maintaining defensive integrity. If hips drop to the mat during this critical phase, you lose the structural advantage and may be forced to restart the sequence or worse, have your guard passed.
 

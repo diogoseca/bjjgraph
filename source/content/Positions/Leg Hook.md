@@ -8,7 +8,7 @@ description: "Master Leg Hook position in BJJ. Transitional half guard control u
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Leg Hook position in BJJ. Transitional half guard control u
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Leg Hook?
 
 The Leg Hook Position is a transitional control position characterized by active leg hooking mechanics that bridge various half guard variations and advanced leg entanglement systems. This position serves as a critical decision point in modern guard play, offering both offensive and defensive capabilities depending on perspective and practitioner skill level.
 
@@ -48,7 +46,7 @@ This position requires precise understanding of weight distribution, hip positio
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -62,7 +60,7 @@ This position requires precise understanding of weight distribution, hip positio
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Short to Medium |
 
-**What Makes This Unique:** Dynamic leg control for mobile transitions
+**Key Difference:** Dynamic leg control for mobile transitions
 
 
 
@@ -74,10 +72,6 @@ This position requires precise understanding of weight distribution, hip positio
 ## Playing as Bottom
 
 [[Leg Hook/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -162,10 +156,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Leg Hook/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -245,7 +235,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

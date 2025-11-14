@@ -8,7 +8,7 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: Low
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Seated Guard from the Bottom?
 
 Seated Guard Bottom is an upright open guard position where you sit on the mat with your hips on the ground, hands posted behind you for base, and legs extended or bent toward your opponent. This position provides a stable base with excellent mobility and the ability to quickly transition to standing or other guard positions. Unlike closed guard or butterfly guard, Seated Guard maintains maximum freedom of leg movement for distance management and attacks.
 
@@ -486,17 +467,17 @@ Start in seated guard. Partner attempts to pass. You defend and look for sweeps 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Seated Guard represents a fundamental principle in guard retention: the ability to control distance through active leg engagement while maintaining the option to disengage entirely. The biomechanical advantage lies in the tripod base structure - hips on mat, hands posted behind - which provides stability in multiple planes while preserving mobility. The critical error most practitioners make is treating this as a static position rather than a dynamic transitional state. Your seated guard should be in constant flux, with micro-adjustments in hip position and leg placement occurring continuously. The moment you become stationary, your opponent can solve the positional puzzle. Think of it as a game of distance management where your legs are simultaneously defensive barriers and offensive probes. The technical standup from seated guard is not merely an escape; it's a strategic reset that forces your opponent to abandon their passing strategy and re-engage from neutral. Master the relationship between seated guard and standing, and you control the pace and nature of engagement.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, I use Seated Guard as a pressure release valve. When someone's passing hard and I need a moment to reset, sitting up with good base gives me time to evaluate and forces them to reposition. From there, I'm either standing up to neutralize their passing entirely, or I'm timing a sweep when they step in. The key is staying active - if you sit there like a dummy, you get passed. But if you're moving your hips and threatening their ankles, they have to respect it. I particularly like seated guard against standing passers because it gives me so many options: I can attack single leg X, I can go to butterfly, or I can just stand up. The versatility is what makes it valuable. And here's something important - don't think of seated guard as a destination. It's a waystation. You're using it to transition to something better, whether that's a sweep, a better guard, or standing position. The biggest mistake is staying there too long and letting your opponent figure out your game.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Seated Guard is underrated, man. It's not sexy like inverted guards or rubber guard, but it's super practical. You can hit ankle picks, you can stand up, you can enter leg attacks. I teach my guys to use it when they're tired or when they need to slow things down. It's also great for no-gi because you don't need grips to maintain it - just good base and active feet. Connect it to X-Guard entries and suddenly you have a whole system. One thing I love about seated guard is how it messes with aggressive passers. They want to smash you, but you're sitting up, moving around, threatening to stand. It's frustrating for them. And when they commit to stopping you from standing, that's when you hit them with a sweep. The psychological element is huge. Also, in 10th Planet system, we use seated guard as entry point for lockdown positions and truck entries. When you're sitting and opponent is standing, you can grab that ankle, pull them off balance, and enter all kinds of unorthodox positions. Don't sleep on the fundamentals - seated guard is one of those positions that looks simple but has layers of depth when you really explore it.
 

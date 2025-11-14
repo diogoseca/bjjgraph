@@ -147,14 +147,10 @@ description: "Learn Frame and Shrimp escape in BJJ. Step-by-step execution from 
 
 
 
-> Frame and Shrimp transitions from [[Side Control]] to [[Open Guard]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Frame and Shrimp?
 
 The Frame and Shrimp is the most fundamental escape mechanism in Brazilian Jiu-Jitsu, serving as the cornerstone technique for creating space and recovering guard from bottom positions. This technique combines structural framing with hip mobility to systematically address the control points that keep you pinned. The frame creates a barrier that prevents your opponent from maintaining chest-to-chest pressure, while the shrimping motion uses hip movement to create angles and distance.
 
@@ -197,7 +193,7 @@ Mastery of the frame and shrimp fundamentally changes a practitioner's ability t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish primary frame**: Place your forearm across opponent's neck or chin, creating a stiff arm with elbow tight to your body. Your hand should be palm-down on their shoulder or collar, with your forearm acting as a barrier. Keep your elbow connected to your ribs to prevent arm isolation. The frame should use skeletal structure, not muscle tension. (Timing: Immediate upon recognizing pin position)
 2. **Create secondary frame**: Place your second hand on opponent's hip, near their belt line. This hand will push against their hip to create the initial separation. Your arm should be slightly bent with elbow protected. Both frames together create a cross-body barrier that prevents chest-to-chest pressure. (Timing: As soon as primary frame is secure)
 3. **Bridge to create initial space**: Drive through your feet to lift your hips slightly off the mat, creating just enough space to turn onto your side. This is a small, controlled bridge - not an explosive upa. Turn your body toward the opponent to create the angle needed for shrimping. Your shoulder should now be off the mat. (Timing: Coordinate with opponent's breathing or weight shift)
@@ -289,7 +285,7 @@ Start in side control bottom, partner can advance position or attack submissions
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you establish frames before shrimping rather than shrimping first?
 **A**: Frames create and hold the space that shrimping generates. Without frames, your opponent's weight simply follows your hip movement and immediately fills any space you create. The frame acts as a barrier that prevents them from maintaining chest-to-chest pressure while you move your hips. Think of the frame as a door stop - it holds the door open while you move through it.
 

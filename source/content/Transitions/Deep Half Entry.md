@@ -147,14 +147,10 @@ description: "Learn Deep Half Entry in BJJ. Step-by-step execution from Half Gua
 
 
 
-> Deep Half Entry transitions from [[Half Guard]] to [[Deep Half Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Deep Half Entry?
 
 The Deep Half Entry is a fundamental transition from traditional half guard to the deep half guard position, representing a critical defensive recovery and offensive repositioning technique. This entry allows the bottom player to create powerful sweeping opportunities while simultaneously removing themselves from immediate passing danger. Deep half guard has become increasingly prevalent in modern competition BJJ, particularly at the highest levels, as it provides a systematic framework for dealing with pressure-based passing attempts. The position works by getting underneath your opponent's center of gravity, using their weight against them to create mechanical advantage for sweeps and back takes. The entry itself requires precise timing, proper hip mobility, and an understanding of how to manage space and frames during the transition. When executed correctly, the deep half entry transforms a potentially defensive situation into an offensive opportunity, allowing the practitioner to attack with various sweep options including the waiter sweep, Homer Simpson sweep, and electric chair variations.
 
@@ -194,7 +190,7 @@ The Deep Half Entry is a fundamental transition from traditional half guard to t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Create initial space**: From half guard bottom, use your top arm to create a strong frame against opponent's shoulder or hip. Simultaneously perform a small shrimp/hip escape to create just enough space to begin rotating your body. Your goal is to create 2-3 inches of space between your torso and opponent's chest. (Timing: Execute immediately when opponent commits forward pressure)
 2. **Secure underhook on near leg**: As you create space, slide your bottom arm (the arm closest to the mat) underneath opponent's near leg, securing a deep underhook around their thigh. Your shoulder should be positioned against the inside of their thigh, with your hand gripping behind their knee or reaching toward their far hip. This underhook is the foundational control for the entire position. (Timing: Immediately following space creation, before opponent can recover pressure)
 3. **Begin rotation underneath**: Using the underhook as an anchor point, begin rotating your entire body perpendicular to your opponent. Turn onto your side and continue rotating so that your back begins to face the mat. Your head should start moving toward a position underneath opponent's hips, while your hips rotate away from them. Think of creating a 'T' shape with your bodies. (Timing: Smooth, continuous motion - do not pause mid-rotation)
@@ -285,7 +281,7 @@ Use deep half entry during regular positional sparring and live rolling. Focus o
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary control point that must be established first during deep half entry?
 **A**: The deep underhook on the opponent's near leg is the primary control that must be established first. Your shoulder should be positioned against the inside of their thigh with your hand gripping behind their knee or reaching toward their far hip. This underhook serves as the anchor point for the entire rotation and provides the foundational control necessary to complete the entry safely.
 

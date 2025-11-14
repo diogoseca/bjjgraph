@@ -8,7 +8,7 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is De La Riva Guard?
 
 De La Riva Guard (DLR) is a sophisticated open guard variation where the bottom player hooks the opponent's lead leg with their outside foot while controlling the ankle or pant with their hand on the same side. The other hand typically controls the opponent's sleeve or collar, creating a structure that limits the opponent's mobility and generates powerful sweeping leverage. This guard has become fundamental in modern BJJ, particularly for setting up berimbolo sequences, back takes, and creating connections to other guard systems.
 
@@ -46,15 +44,15 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 
 
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[De La Riva Guard]] | Medium | Medium | Medium | Medium | Dynamic hooks trade static frames for leverage |
 | [[Reverse De La Riva Guard]] | Medium | Medium | Medium | Medium | Inverted hook creates rotational off-balancing |
 
@@ -68,10 +66,6 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 ## Playing as Bottom
 
 [[De La Riva Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -148,10 +142,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[De La Riva Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -216,22 +206,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 - ❌ **Using tentative, half-committed passing attempts without full commitment to direction**
   - Consequence: DLR rewards patient guard players who can read telegraphed movements. Tentative passing gives them time to adjust, reset grips, and execute sweeps or transitions
   - ✅ Correction: Once you've chosen a passing direction, commit fully with explosive movement and proper grips. If you're going to pass right, drive hard right. If you're going to backstep, backstep decisively. Hesitation in the middle of a pass is when you're most vulnerable
-
-
-</section>
-
-
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-
-### [[Reverse De La Riva Guard]]
-
-Opposite-side hook for alternative angles and sweep entries
-
-[Explore Reverse De La Riva Guard →](./Reverse De La Riva Guard)
-
 
 
 </section>

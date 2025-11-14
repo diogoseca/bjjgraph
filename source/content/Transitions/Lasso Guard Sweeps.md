@@ -147,14 +147,10 @@ description: "Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps fro
 
 
 
-> Lasso Guard Sweeps transitions from [[Lasso Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Lasso Guard Sweeps?
 
 Lasso Guard sweeps represent a sophisticated set of techniques that leverage the unique control offered by threading your leg over the opponent's arm. By isolating one arm and controlling the corresponding leg, you create powerful leverage points for off-balancing attacks. The lasso configuration naturally disrupts your opponent's base while maintaining distance control, making it an ideal platform for technical sweeps. The key to successful lasso sweeps lies in understanding how to manipulate your opponent's weight distribution while maintaining the integrity of the lasso control. These sweeps work best when combined with active grip fighting and the ability to transition between different lasso variations based on your opponent's reactions.
 
@@ -193,7 +189,7 @@ Lasso Guard sweeps represent a sophisticated set of techniques that leverage the
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish deep lasso control**: Thread your leg deeply over opponent's arm, ensuring your shin is positioned across their tricep with your foot emerging behind their back. Pull their sleeve to deepen the lasso while keeping your knee tight to their shoulder. (Timing: Before initiating sweep sequence)
 2. **Secure opposite leg control**: Grip opponent's opposite pant leg at the knee or establish a butterfly hook. This control is critical for preventing them from posting and maintaining base during the sweep. Your free leg should be active and mobile. (Timing: Simultaneously with lasso establishment)
 3. **Create angular pressure**: Rotate your hips away from the lasso side while pulling the lasso arm across your body. This creates a diagonal line of force that compromises their base. Your shoulders should move toward the mat on the non-lasso side. (Timing: As opponent's weight shifts forward)
@@ -288,7 +284,7 @@ Experiment with inverted lasso, reverse lasso, and hybrid positions. Analyze vid
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is controlling the opponent's opposite leg critical for lasso sweep success?
 **A**: Controlling the opposite leg prevents the opponent from posting and establishing a wide base, which is their primary defense against the off-balancing action of the lasso sweep. Without this control, even a perfectly executed lasso extension will fail because the opponent can simply step their free leg out to recover base. The opposite leg control creates a closed system where all their base points are compromised simultaneously.
 

@@ -147,14 +147,10 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 
 
 
-> Standing to Single Leg X transitions from [[Standing Position]] to [[Single Leg X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Standing to Single Leg X?
 
 The Standing to Single Leg X transition is a fundamental guard pull entry that converts standing engagement into a powerful leg entanglement position. This technique allows the bottom player to bypass traditional guard establishment and immediately threaten sweeps and leg attacks from a mechanically advantageous position. The Single Leg X position provides superior control of one leg while maintaining distance management and sweep opportunities. Unlike traditional seated guard pulls, this entry creates immediate offensive pressure by compromising the opponent's base and posture simultaneously. The technique is particularly effective in no-gi grappling and modern sport BJJ competition, where dynamic guard pulling has become essential. Success depends on timing the entry during opponent movement, maintaining proper body positioning throughout the transition, and securing critical grips before the opponent can establish defensive posture.
 
@@ -193,7 +189,7 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: Secure a strong grip on opponent's sleeve or wrist with your same-side hand. In gi, collar grips also work effectively. This grip prevents opponent from sprawling backward and maintains connection throughout the entry. (Timing: Before initiating level change)
 2. **Drop level and step in**: Explosively drop your hips below the opponent's knee line while stepping your lead foot between their legs. Your chest should angle toward their thigh as you change levels, similar to a single leg takedown setup but with different finishing mechanics. (Timing: Execute when opponent steps forward or shifts weight)
 3. **Insert inside hook**: As you drop, immediately insert your inside leg (same side as grip) behind opponent's near knee. Your shin should slide across the back of their knee joint while your foot hooks around to their inner thigh. This hook is the foundation of Single Leg X control. (Timing: Simultaneously with level change)
@@ -285,7 +281,7 @@ Integrate Standing to Single Leg X with alternative entries (Ankle Pick Sweep, D
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you drop your hips below the opponent's knee level during the entry to Single Leg X?
 **A**: Dropping hips below the knee level is biomechanically essential for three critical reasons: First, it creates the proper angle for your inside hook to control their leg effectively from underneath their knee joint. Second, it prevents the opponent from driving forward pressure into your chest, which would flatten you and eliminate the guard position. Third, it establishes the foundational hip positioning needed for generating sweep leverage - your hips must be lower than theirs to elevate their leg effectively. Insufficient depth results in easy smash passing or opponent disengagement.
 

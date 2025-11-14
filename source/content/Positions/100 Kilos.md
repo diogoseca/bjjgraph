@@ -8,7 +8,7 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is 100 Kilos?
 
 100 Kilos (Cem Quilos in Portuguese) represents one of the most psychologically and physically devastating pressure positions in Brazilian Jiu-Jitsu, named for the sensation of bearing the crushing weight of 100 kilograms concentrated on the chest. This specialized side control variation sacrifices some mobility and sustainability in exchange for overwhelming pressure that breaks both body and will. Unlike standard side control which emphasizes control retention and transition options, 100 Kilos is designed specifically to create rapid fatigue, restrict breathing, and force panic responses that expose submission opportunities. The position excels as a finishing tool in competition contexts where breaking an opponent's defensive structure quickly is paramount, particularly effective against already-tired opponents or when time constraints demand aggressive tactics. Understanding both perspectives - defensive survival from bottom and pressure maximization from top - reveals the position's role as a strategic weapon with defined operational parameters rather than a sustainable control position.
 
@@ -46,7 +44,7 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -60,7 +58,7 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 | **Energy Cost** | High | High |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Shoulder pressure trades control for submission
+**Key Difference:** Shoulder pressure trades control for submission
 
 
 
@@ -72,10 +70,6 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 ## Playing as Bottom
 
 [[100 Kilos/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -153,10 +147,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[100 Kilos/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -225,7 +215,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

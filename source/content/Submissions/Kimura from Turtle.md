@@ -153,14 +153,12 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 
 
 
-> Kimura from Turtle is a shoulder lock targeting the Shoulder joint, rotator cuff, and associated ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kimura from Turtle targets the Shoulder joint, rotator cuff, and associated ligaments. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura from Turtle?
 
 The Kimura from Turtle is a powerful shoulder lock submission that capitalizes on the opponent's defensive turtle position. When executed properly, this technique isolates the arm through a figure-four grip while controlling the opponent's posture, creating significant torque on the shoulder joint. The turtle position provides unique mechanical advantages for the Kimura, as the opponent's weight distribution and defensive posture naturally expose the arms. This submission can be approached from various angles including traditional top turtle control, front headlock positions, or transitional scrambles. The Kimura from turtle serves multiple strategic purposes: it can be used as a direct finish, as a powerful control position to break down the turtle and transition to back control, or as a means to roll the opponent and establish dominant top positions like mount or side control. The technique's effectiveness stems from the combination of grip control, hip pressure, and proper angle creation that prevents the opponent from defending effectively while maintaining the structural integrity needed to apply safe, controlled pressure to the shoulder joint.
 
@@ -248,7 +246,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure initial arm control**: From top turtle position, identify the exposed arm (typically the arm furthest from you or posting forward). Use your near hand to control the opponent's wrist or tricep area. Apply downward pressure to prevent them from pulling the arm back to their body. Position your body at approximately 45-90 degrees to their torso to create the proper attacking angle. (Timing: Establish control before opponent recognizes the threat) [Pressure: Moderate]
 2. **Thread your attacking arm**: Thread your attacking arm (same side as their exposed arm) underneath their arm, moving from outside to inside. Your forearm should pass under their tricep/elbow area. Keep your elbow tight and maintain constant contact with their arm. Your hand should emerge on the inside of their arm, near their head. Maintain hip pressure on their back to prevent them from sitting back or rolling away. (Timing: Quick insertion while maintaining control) [Pressure: Moderate]
 3. **Establish figure-four grip**: With your threading arm now under their arm, reach across and grab your own wrist with your opposite hand, creating the characteristic figure-four configuration. The opponent's wrist should be controlled with your initial controlling hand. Ensure the grip is tight and positioned with your forearm across the back of their shoulder. Your elbows should be close together, creating a solid structural frame. The opponent's arm should be bent at approximately 90 degrees or slightly more. (Timing: Secure grip before applying rotational pressure) [Pressure: Firm]
@@ -320,7 +318,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time frame you should use when applying rotational pressure during the Kimura from turtle in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: You must apply rotational pressure slowly and progressively over a minimum of 3-5 seconds in training. This is critical because the shoulder joint is extremely vulnerable to injury, and explosive or rapid application can cause rotator cuff tears, shoulder dislocation, or labrum damage before your partner can safely tap. The slow application allows your partner time to recognize the danger, make the decision to tap, and signal submission before injury occurs. In training, the goal is technical development and safety, not speed of submission.
 

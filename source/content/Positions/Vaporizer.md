@@ -8,7 +8,7 @@ description: "Master Vaporizer position in BJJ. 10th Planet innovation for lockd
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Vaporizer position in BJJ. 10th Planet innovation for lockd
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Vaporizer?
 
 The Vaporizer is an advanced controlling position within the 10th Planet system, representing a strategic extension of the lockdown half guard. This position is characterized by establishing a deep lockdown while simultaneously creating a powerful whip-up motion that forces the opponent onto their side or back. The practitioner uses the lockdown to control the opponent's leg while employing an underhook or overhook to manipulate their upper body, creating a mechanical advantage that makes escape extremely difficult.
 
@@ -48,7 +46,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -62,7 +60,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Short to Medium |
 
-**What Makes This Unique:** Lockdown whip-up trades stability for leverage
+**Key Difference:** Lockdown whip-up trades stability for leverage
 
 
 
@@ -74,10 +72,6 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ## Playing as Bottom
 
 [[Vaporizer/Bottom|→ Full Bottom Guide]]
-
-
-Read and react based on their actions.
-
 
 ### Key Principles
 
@@ -156,10 +150,6 @@ Read and react based on their actions.
 
 [[Vaporizer/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -233,7 +223,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

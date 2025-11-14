@@ -8,7 +8,7 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Feet on Hips Guard from the Bottom?
 
 Feet on Hips Guard Bottom is the guard player's perspective in this fundamental open guard position, where you place both feet on the opponent's hip bones while maintaining hip elevation and mobility. This position provides immediate defensive structure through leg frames while preserving maximum offensive options for sweeps, submissions, and guard transitions. The bottom perspective emphasizes active distance management, constant hip movement, and aggressive grip fighting to prevent the opponent from consolidating passing position. Success requires understanding that feet-on-hips is a transitional state rather than a static guard—you must constantly threaten attacks and transitions to prevent the opponent from systematically breaking down your frames. The position teaches essential guard retention skills including frame maintenance, hip mobility, and timing that form the foundation for all advanced open guard variations. Your primary objectives are maintaining distance through active leg frames, creating off-balancing opportunities through coordinated pushing and pulling, and transitioning to more controlling guards or sweep attempts before the opponent can establish dominant grips.
 
@@ -492,17 +473,17 @@ Top partner starts with one ankle controlled. Bottom player must recover feet-on
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The feet-on-hips position represents a fundamental application of frame theory in guard play, where we use the legs as primary structural frames to control distance and opponent movement. The critical insight here is understanding that your feet must contact the hip bones—the anterior superior iliac spine—rather than the softer tissue of the thighs or abdomen. This bony landmark provides maximum transmission of force with minimal energy expenditure. From a biomechanical perspective, this position creates a closed kinetic chain where hip extension generates pushing force that travels through the femur, tibia, and into the opponent's pelvis, creating measurable distance that can be maintained or manipulated based on tactical requirements. The sophistication of this position lies not in its complexity but in its versatility as a hub from which multiple guard systems can be accessed. Your feet on the hips should function as mobile contact points rather than rigid posts—constant micro-adjustments in pressure and angle allow you to track opponent movement and prevent the static grips that enable successful passing.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Feet on hips is one of those positions that looks basic but separates competitors at the highest level because of how it's used tactically. When I play this guard, I'm not just pushing—I'm creating a threat matrix where every adjustment forces my opponent into defensive reactions that open sweep or submission opportunities. The key is understanding that feet on hips is a transitional state, not a destination. I'll use it for maybe 2-3 seconds maximum before I'm already threatening a scissor sweep, pendulum sweep, or transitioning to Spider or De La Riva. In competition, if you stay static in feet on hips, good passers will eventually find ankle control or circling angles to defeat it. My approach is constant motion—I'm walking my hips, changing angles, threatening attacks, and forcing my opponent to make decisions under pressure. When they commit to defending one threat, that's when the actual attack comes from a different angle. The feet-on-hips position gives you time and space to set up these combinations, which is why it's so effective even at black belt when you understand how to weaponize it.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Feet on hips is one of those fundamental positions that people underestimate because it looks too simple, but it's actually a launch pad for some of the most dynamic guard games in modern jiu-jitsu. In the 10th Planet system, we use this position as a reset mechanism—when things get scrambled or you lose your preferred guard configuration, feet on hips gives you instant distance control and breathing room to reassess. What I love about this position is the hip mobility it provides. You're not locked into a static structure like closed guard—your hips are free to move in any direction, which opens up creative sweep entries and transition paths that rigid guard systems can't access. The innovation comes from how you combine the pushing frames with unconventional grips and angle creation. Instead of just holding feet on hips and waiting, we teach students to use this position to create momentum—pump the hips, walk laterally, threaten submissions, and flow into more committed guard positions when opportunities arise. The beauty of feet on hips is that it requires minimal energy to maintain but creates maximum options for offensive action, which aligns perfectly with the efficiency principles we emphasize.
 

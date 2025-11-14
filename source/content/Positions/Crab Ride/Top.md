@@ -8,7 +8,7 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 65%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Crab Ride from the Top?
 
 Crab Ride Top is a highly effective attacking position from the turtle, where the top practitioner controls the opponent from the side with a distinctive hook-and-grip configuration. This position creates a perfect platform for back attacks, submissions, and positional transitions while keeping the opponent trapped and unable to effectively defend or escape.
 
@@ -482,17 +461,17 @@ Partner in turtle randomly performs different defensive actions (turning in, sit
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The crab ride represents a mechanically superior control position from turtle precisely because of its asymmetrical nature and the biomechanical advantages it creates. By positioning your hips perpendicular to the opponent's spine rather than parallel, you create a configuration where their defensive structure is fundamentally compromised. The hooking leg serves as a mechanical anchor that controls their hip movement in multiple directions simultaneously, while your chest pressure against their shoulder creates a collapsing force on their turtle posture. This position excels because it allows you to control distance and angle while maintaining multiple high-percentage attacking pathways. The key mechanical principle is that you're using your opponent's own defensive turtle structure against them by creating leverage points that their posture cannot effectively resist. Focus on understanding the geometry of control - your perpendicular orientation creates angles that make escape geometrically difficult while simultaneously opening direct pathways to the back. The systematic approach involves establishing the position methodically, then using opponent defensive reactions to dictate your specific attacking sequence rather than forcing predetermined attacks.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, crab ride is one of the highest percentage positions for securing back control or finishing submissions from turtle, which is why you see it constantly at the highest levels of no-gi grappling. When I get to crab ride, I'm thinking about back control first because that's where the most reliable finishing opportunities exist, especially under ADCC rules where you can ride time and hunt the finish. The position gives you complete control while keeping you relatively safe from counters, which is critical in high-level competition where mistakes are immediately punished. What makes this position so effective competitively is that it forces your opponent into a defensive shell while you have multiple attacking options based on their reactions. If they stay tight in turtle, I'm working to the back. If they try to sit through or turn in, I'm looking for darce or anaconda. If they extend their far arm, crucifix is there. The versatility is what makes it competition-proven. In my matches, I use crab ride as a control position where I can assess my energy levels and my opponent's defensive patterns before committing to my finishing sequence. It's also excellent for strategic purposes because it accumulates control time while you're in a genuinely dominant attacking position.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Crab ride is crucial in the 10th Planet system, especially for no-gi where you don't have collar grips to fall back on when attacking turtle. We drill this position extensively because it's one of the best setups for our favorite submissions from turtle - darce, anaconda, and twister sequences. The beautiful thing about crab ride is how it naturally flows into multiple attacks depending on how your opponent defends. If they keep their head up, you're going to the back and hunting the rear naked or setting up the twister. If they tuck and try to make themselves small, that's when the darce and anaconda entries become available. One thing we emphasize in our system is staying active and creating constant threats from crab ride rather than just holding the position. We want to make the opponent react, and their reactions tell us which attack to pursue. The position also works perfectly with our overall philosophy of maintaining control while hunting the submission - you're not abandoning position to attack, you're using a dominant control position as the platform for finishing. For MMA applications, crab ride is even more valuable because you can land effective strikes to the body and head while controlling position and setting up back takes or submissions.
 

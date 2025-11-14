@@ -153,14 +153,10 @@ description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execut
 
 
 
-> Old School Sweep transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Old School Sweep?
 
 The Old School Sweep is a fundamental half guard technique popularized by Eddie Bravo and the 10th Planet system. This sweep capitalizes on the opponent's forward pressure by using an underhook and strategic footwork to off-balance and sweep them. The technique is particularly effective when the opponent is driving forward in an attempt to pass your half guard. By establishing a deep underhook and creating an angle with your body, you can use your opponent's momentum against them. The Old School Sweep is valued for its reliability and mechanical simplicity - it doesn't require exceptional flexibility or athleticism, making it accessible to practitioners of all body types. The sweep flows naturally into dominant top positions and integrates seamlessly with other half guard attacks, creating a threatening offensive system from bottom position.
 
@@ -199,7 +195,7 @@ The Old School Sweep is a fundamental half guard technique popularized by Eddie 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure deep underhook**: From half guard bottom, thread your inside arm deep underneath opponent's far armpit, securing a strong underhook grip. Your hand should reach their far shoulder blade or lat muscle. Pull this underhook tight to your body, eliminating space between you and your opponent. (Timing: Initial setup - before opponent establishes heavy crossface pressure)
 2. **Post outside leg**: Extend your outside leg (the leg not trapping opponent's leg) and plant your foot flat on the mat behind you. Position this foot approximately 12-18 inches from your hips, creating a stable posting base. Your knee should point toward the ceiling, ready to drive. (Timing: Immediately after securing underhook)
 3. **Create angle and lift hips**: Bridge up onto your posted foot and shoulder, creating a 45-degree angle with your body relative to your opponent. As you lift your hips off the mat, simultaneously pull with your underhook to break opponent's base forward. Your head should drive into opponent's chest on the underhook side. (Timing: As opponent drives forward pressure)
@@ -301,7 +297,7 @@ Develop old school sweep against specific opponent reactions. Create personal va
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the old school sweep effective?
 **A**: The old school sweep leverages the opponent's forward pressure against them by creating a fulcrum point with your posted leg and shoulder, using the underhook to control their upper body while driving them backward over their base. The technique converts their attacking energy into sweeping momentum.
 

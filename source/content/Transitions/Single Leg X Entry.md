@@ -147,14 +147,10 @@ description: "Master Single Leg X Entry in BJJ. Step-by-step execution from seat
 
 
 
-> Single Leg X Entry transitions from [[Seated Guard]] to [[Single Leg X-Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Single Leg X Entry?
 
 The Single Leg X Entry is a fundamental transition in modern leg entanglement systems, allowing practitioners to establish a dominant sweeping position from various seated guard configurations. This entry creates a powerful off-balancing structure by controlling one leg while using your own legs to destabilize your opponent's base. The position excels at creating immediate sweeping opportunities and serves as a gateway to more advanced leg entanglement positions.
 
@@ -197,7 +193,7 @@ The Single Leg X position reached through this entry offers multiple offensive p
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish initial seated guard position**: Begin in seated guard with your hips elevated slightly off the mat, posting on your hands behind you. Keep your legs mobile and ready to engage, with knees bent and feet active. Maintain posture that allows quick movement in any direction while tracking opponent's movement and weight distribution. (Timing: Preparation phase - establish before opponent pressures)
 2. **Secure ankle or lower leg grip**: As opponent steps forward or shifts weight, immediately secure a grip on their ankle, achilles, or lower pant leg on the side you intend to attack. Use a firm overhand grip with your hand wrapping around the ankle from outside to inside. This grip prevents them from stepping back and serves as your primary control point throughout the entry. (Timing: Execute as opponent commits weight forward)
 3. **Insert inside leg hook**: Rapidly bring your inside leg (same side as your gripping hand) underneath and behind opponent's captured leg. Hook your foot behind their knee, creating a clamping pressure by pulling your heel toward their hamstring while your shin crosses behind their knee. This hook prevents backward escape and begins to compromise their base. (Timing: Immediate follow-up to grip - within 1 second)
@@ -289,7 +285,7 @@ Develop multiple entry pathways to Single Leg X from standing, kneeling, and var
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary function of the inside leg hook in Single Leg X Entry?
 **A**: The inside leg hook serves multiple critical functions: it prevents opponent from stepping backward to escape, creates clamping pressure by pulling their leg toward you, compromises their base by attacking one pillar of their stance, and works in conjunction with your ankle grip to create two-point control on the same leg. The hook should be positioned deep behind their knee with your heel pulling toward their hamstring for maximum effectiveness.
 

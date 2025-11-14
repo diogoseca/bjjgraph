@@ -8,7 +8,7 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 72% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Butterfly Guard from the Bottom?
 
 Butterfly Guard Bottom represents one of the most dynamic and offensive-minded guard positions in Brazilian Jiu-Jitsu. From the bottom perspective, this position offers exceptional sweeping opportunities through the combination of inside position via hooks and superior upper body control. The bottom player sits upright with both feet inserted as hooks under the opponent's inner thighs, creating constant elevator pressure that compromises the top player's base and posture. This configuration allows for explosive, high-percentage sweeps while simultaneously providing pathways to back takes, leg entanglements, and submission opportunities.
 
@@ -503,17 +484,17 @@ Practice smooth transitions from butterfly guard to various X-Guard positions as
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The butterfly guard represents a fundamental shift in guard philosophy from the closed guard's focus on breaking posture through closed leg configuration to an open guard system that emphasizes inside position and mechanical elevation. The key biomechanical principle is understanding the fulcrum created by your hooks under the opponent's center of mass - when you pull with the upper body in one direction while simultaneously driving with the hooks in the same direction, you create an irresistible rotational force that overcomes even superior strength and weight. The critical error most practitioners make is treating the hooks as passive barriers rather than active elevators; you must constantly maintain upward pressure against the opponent's inner thighs to compromise their base before initiating sweeps. Superior butterfly guard is characterized by the ability to maintain this elevator pressure while simultaneously controlling the opponent's upper body to prevent defensive posting and base recovery, creating a unified system of control that generates high-percentage sweeping opportunities.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, I use butterfly guard primarily as a transitional position rather than a destination - it's a staging area for entering more dominant positions like X-Guard or taking the back when opponents react defensively. The modern competitor needs to understand that elite passers will not allow you to sit in butterfly comfortably, so you must be explosive with your entries and attacks, never passive or waiting. My approach is to use false retreats - appearing to lose the position or give ground - which baits opponents into driving forward with pressure, setting up perfectly timed sweeps or transitions to leg entanglements when they overcommit. When I do sweep from butterfly, I prioritize the positions that immediately threaten submissions: I aim for mount or back control rather than side control because these positions offer immediate finishing opportunities. The guillotine from butterfly is also extremely high percentage when timed correctly during scrambles, as opponents often overcommit to passing pressure and expose their necks in ways they wouldn't from other guard positions.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Butterfly guard is one of those positions that really opens up when you start combining it with rubber guard principles and unorthodox gripping strategies - I teach my students to think about butterfly as a launchpad for creative attacks rather than just a traditional sweeping position with predictable outcomes. One thing we emphasize heavily in 10th Planet is the integration with the lockdown when one hook gets partially cleared - instead of losing the position entirely and conceding the pass, you can immediately transition to a lockdown half guard and maintain offensive pressure through an entirely different system. The overhook from butterfly is particularly powerful in no-gi, where you can threaten submissions like the guillotine while simultaneously using the hook for sweeps, creating true dilemmas for opponents. We also drill extensively on going from butterfly directly to leg entanglements and back attacks, treating the position as a hub in a larger system of interconnected attacks rather than an isolated position. The key innovation is not being stuck in the traditional mindset of 'I must sweep to top position' but rather 'how can I create the most chaos and submission opportunities from this configuration regardless of whether I end up on top or not.'
 

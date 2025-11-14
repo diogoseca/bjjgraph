@@ -8,7 +8,7 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Armbar Control?
 
 Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on isolating and controlling a single arm through a combination of leg control, hip positioning, and grip management. From the top position, the practitioner uses their entire body to attack a single joint, creating overwhelming mechanical advantage. From the bottom position, the defender must employ systematic defensive principles to prevent hyperextension and create escape opportunities.
 
@@ -50,7 +48,7 @@ This position appears across all levels of competition and training, making prof
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ This position appears across all levels of competition and training, making prof
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Limb isolation through multi-point control
+**Key Difference:** Limb isolation through multi-point control
 
 
 
@@ -76,10 +74,6 @@ This position appears across all levels of competition and training, making prof
 ## Playing as Bottom
 
 [[Armbar Control/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -158,10 +152,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Armbar Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -235,7 +225,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

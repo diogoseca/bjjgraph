@@ -8,7 +8,7 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 60% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Spider Guard from the Bottom?
 
 Spider Guard Bottom is a fundamental gi-based open guard position where the bottom practitioner controls the opponent's sleeves with their grips while using their feet against the opponent's biceps or hips to create distance and control. This position is characterized by active foot placement on the opponent's arms, extended legs creating mechanical advantage, and strong collar or sleeve grips that prevent the opponent from establishing dominant posture. The guard creates a web-like control system that makes passing extremely difficult while offering numerous sweep and submission opportunities. Spider Guard is one of the most versatile positions in gi jiu-jitsu, allowing the bottom player to control distance, create angles, and launch attacks while maintaining a strong defensive framework. The position excels at neutralizing pressure passing attempts and creating opportunities for transitions to other guard variations or direct attacks.
 
@@ -455,17 +436,17 @@ Start with compromised spider guard position (weak grips or poor foot placement)
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Spider guard represents a fundamental principle in guard work - the creation of mechanical advantage through geometric positioning. By placing your feet on the opponent's biceps while controlling their sleeves, you create a lever system where your legs (the stronger muscle group) oppose their arms (weaker in this context). The critical technical detail is maintaining full leg extension to maximize this mechanical advantage. Many practitioners fail by allowing their knees to bend, which eliminates the structural integrity of the position. The grips must be established at or above the elbows to control the entire arm as a unit. This position exemplifies the concept of distance management in jiu-jitsu - you can extend fully to prevent forward pressure or retract strategically to create angles for sweeps and submissions. The systematic approach to spider guard involves recognizing that every opponent reaction creates a specific opportunity: posturing up opens triangles and omoplatas, driving forward opens balloon sweeps, and lateral movement opens directional sweeps.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Spider guard is one of the highest percentage gi positions for creating sweep opportunities against standing opponents, which is why I used it extensively in my gi competition career. The key to making spider guard work at the highest levels is being extremely aggressive with your attacks - you cannot be passive or the opponent will eventually break your grips and pass. I focus on constant threatening with sweeps, forcing the opponent into defensive reactions that open up submissions. The balloon sweep is my go-to move because it works on everyone regardless of size, and when they defend it, the triangle opens up immediately. In competition, I never hold spider guard statically - I'm always moving my hips, adjusting angles, and threatening attacks to keep the opponent reactive. The worst thing you can do is let them settle into a comfortable posture and start their passing sequence. Against world-class passers, I combine spider guard with lasso and De La Riva grips to create a guard retention system rather than relying on pure spider guard alone.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Spider guard is solid but in no-gi you obviously can't use it, which is why we developed alternatives in the 10th Planet system. However, when I do train in the gi, I look at spider guard as an entry point to more dynamic positions rather than a place to hang out. The traditional spider guard can become too static, so I like to use it momentarily to set up transitions to rubber guard, omoplata sequences, or to stand up for wrestling. One thing people don't utilize enough from spider guard is the ability to invert and attack the legs - if you have good grips and the opponent is standing, you can use that control to safely enter leg entanglements. The innovation I bring to spider guard is treating it as a transitional position in a larger system rather than a destination. Also, the bicep control you learn in spider guard translates directly to controlling the arms in rubber guard, so the grip strength and sensitivity you develop transfers between systems. For 10th Planet practitioners training in the gi, I teach spider guard as a way to develop grip fighting skills and understanding of distance control that applies universally.
 

@@ -8,7 +8,7 @@ description: "Master defensive headquarters position in BJJ. Strategic frame-bas
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master defensive headquarters position in BJJ. Strategic frame-bas
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Headquarters Control from the Bottom?
 
 Headquarters Control Bottom represents the bottom player's perspective in the headquarters position, where you maintain defensive frames and structural integrity against a passer who has established connection to your knee shield or half guard. This position is characterized by your ability to create distance through systematic framing while maintaining offensive opportunities through sweeps and re-guards. The bottom player uses their outside leg as a primary defensive barrier, shoulder frames to manage distance, and hip mobility to prevent the pass while setting up counter-attacks.
 
@@ -447,17 +428,17 @@ Start in compromised headquarters bottom position (opponent has good grips/press
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The headquarters bottom position is fundamentally about managing distance through systematic frame application while maintaining offensive capability. The critical insight is that frames are not static barriers but dynamic tools that must constantly adjust based on opponent pressure vectors. Your outside leg serves as the primary distance manager, but its effectiveness is entirely dependent on shoulder elevation and active posture maintenance. When students flatten to the mat, they lose the biomechanical advantage of frame leverage, making even strong frames ineffective against moderate pressure. The position requires understanding that you're not trying to stop the pass permanently—you're creating enough difficulty that the opponent makes tactical errors or exposes vulnerabilities you can exploit through sweeps or re-guards. Success comes from treating this as a transitional control state where you're systematically working toward better positions while preventing immediate pass completion.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, headquarters bottom is where a lot of guard passers try to pin you down and slowly grind through your frames. The key is never letting them settle—if they settle into stable pressure, you're getting passed. I'm constantly moving my hips, adjusting frames, and threatening sweeps even if I don't fully commit to them. The threat alone forces them to adjust their base, which gives me opportunities to re-guard or actually hit the sweep. Against high-level guys, I focus heavily on the deep half entry from here because it's lower risk than trying to re-guard against someone who's already established good passing position. The biggest mistake I see is people being too patient in this position—you need to be actively working toward improvement or you're just delaying the inevitable pass. Time your movements when they shift weight or adjust grips, and always have two or three options ready depending on how they react.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Headquarters bottom is all about turning defensive positions into offensive opportunities, which is exactly the 10th Planet philosophy. From here, I'm always looking for the lockdown entry or the deep half dive—both of those take a bad situation and flip it into my game. The mistake people make is thinking they need to stop the pass directly. Instead, use their passing pressure to load the sweeps or entries. When they drive hard, that's when deep half opens up. When they stay upright and grip fight, that's when underhooks and old school sweeps are there. The key is being comfortable in uncomfortable positions—most people panic when someone's pressuring their guard and they make rushed decisions. Stay calm, maintain your frames, and let them give you the opening by overcommitting to the pass. Also, never underestimate the power of making them uncomfortable with constant movement—if you're static, they can problem-solve the pass, but if you're constantly creating new problems with your frames and hips, they're always adjusting and never settling.
 

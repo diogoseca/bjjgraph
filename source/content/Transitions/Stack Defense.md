@@ -147,14 +147,10 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
 
 
 
-> Stack Defense transitions from [[Closed Guard]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Stack Defense?
 
 Stack Defense is a fundamental defensive skill for maintaining guard when an opponent attempts to stack you by driving your knees toward your shoulders and passing around your legs. This defensive framework combines frame management, hip escape mechanics, and strategic angle recovery to neutralize one of the most common guard passing approaches in both gi and no-gi grappling. The stack pass creates pressure by folding your body, compressing your spine, and limiting your hip mobility—making it essential to understand proper defensive posture and escape mechanics. Effective stack defense requires recognizing the pass early, establishing strong frames to create distance, using hip movement to recover optimal angles, and maintaining active leg engagement to prevent the passer from consolidating control. This technique is critical for guard players at all levels, as the stack pass is a high-percentage attack that can lead to mount, side control, or submission opportunities if not properly defended.
 
@@ -193,7 +189,7 @@ Stack Defense is a fundamental defensive skill for maintaining guard when an opp
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize stack initiation**: As opponent begins driving your knees toward your shoulders to initiate the stack pass, immediately recognize the threat. Feel for the characteristic forward pressure that aims to fold your body and compress your spine. This early recognition is critical for timely defensive response before the stack becomes fully established. (Timing: Immediately upon feeling forward driving pressure)
 2. **Establish primary frames**: Create strong frames using both hands against opponent's hips, shoulders, or biceps to prevent them from achieving full stacking position. Push your palms into their hip bones or cup your hands over their shoulders, creating maximum distance between your torso and theirs. These frames are your first line of defense against the crushing pressure of the stack. (Timing: Within first second of recognizing stack attempt)
 3. **Angle hip away from pressure**: While maintaining your frames, perform a strong hip escape (shrimp) to angle your hips away from the direction of the opponent's passing pressure. Turn your body 45-90 degrees to the side, creating an angle that makes it mechanically difficult for the opponent to continue driving forward. This hip movement is the cornerstone of effective stack defense. (Timing: Immediately after frames are established)
@@ -281,7 +277,7 @@ Live rolling with emphasis on stack pass defense, where you start in guard and p
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical timing element for successful stack defense?
 **A**: The most critical timing element is recognizing the stack pass initiation immediately—as soon as you feel forward driving pressure toward your shoulders—and establishing defensive frames before the opponent achieves full stacking position. Once the stack is fully consolidated with your spine compressed, defense becomes exponentially more difficult and risky. Early recognition allows you to implement frames, hip escapes, and angle creation while you still have mobility, rather than trying to create space from a fully compromised position.
 

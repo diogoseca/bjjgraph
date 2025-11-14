@@ -153,14 +153,10 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 
 
 
-> Anaconda from Turtle transitions from [[Turtle]] to [[Anaconda Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Anaconda from Turtle?
 
 The Anaconda from Turtle is a dynamic submission setup that transitions from turtle top position to anaconda control through a rolling motion. This technique is technically similar to the D'arce choke but requires trapping the near arm instead of the far arm, and involves rolling to your side or back rather than maintaining top position. The anaconda exploits opponent's defensive turtle posture by threading your arm under their neck while trapping their near arm, then using a figure-four grip and rolling motion to secure optimal choking angle. The execution requires precise timing - threading the arm deep with palm-down orientation, ensuring the near arm is trapped between your choking arm and their neck, locking the grip tight, and committing to the roll before opponent can defend. Your bicep compresses one carotid artery while their own trapped arm and shoulder compress the other, creating bilateral pressure. The rolling momentum is not just a finishing detail but essential for creating the proper choking angle. This technique has become a staple of modern no-gi grappling, particularly effective because the dynamic roll is unexpected and often secures the finish before opponents can defend properly. It represents a high-level understanding of front headlock mechanics combined with dynamic movement principles.
 
@@ -200,7 +196,7 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish Position**: Secure turtle top position with chest pressure on opponent's back while controlling their near-side arm with your hand. Maintain tight top pressure to prevent them from standing or rolling before you're ready to attack. Your weight should be distributed forward to keep them flattened and unable to create defensive space.
 2. **Arm Threading**: Thread your far-side arm under opponent's neck toward their near shoulder, maintaining palm-down position throughout. Drive your arm deep until your wrist clears past their near shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be.
 3. **Trap Near Arm**: Ensure opponent's near arm is trapped between your choking arm and their neck - this is the critical element that distinguishes anaconda from D'arce. The near arm creates pressure on one carotid while your bicep targets the other side. Verify the arm is fully trapped before proceeding to next step.
@@ -299,7 +295,7 @@ Work with advanced partners who defend with various reactions and counter-techni
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What creates the choking pressure in the anaconda from turtle?
 **A**: The choking pressure comes from bilateral compression - your bicep squeezes one carotid artery while the opponent's own trapped near arm and shoulder compress the other carotid. This dual-sided pressure is what makes the anaconda effective, distinguishing it from single-sided chokes. The trapped arm essentially becomes part of the choking mechanism.
 

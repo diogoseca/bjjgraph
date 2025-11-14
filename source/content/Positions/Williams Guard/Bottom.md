@@ -8,7 +8,7 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Williams Guard from the Bottom?
 
 Williams Guard Bottom is an innovative open guard position characterized by controlling the opponent's arm with a shoulder lock grip while maintaining guard structure. Named after creator Roy Williams, this position combines elements of traditional guard retention with a unique shoulder manipulation that creates both offensive and defensive opportunities. The practitioner on bottom secures the opponent's arm in a shoulder lock configuration while using their legs to maintain distance and create angles for sweeps and submissions. This guard is particularly effective against opponents who attempt aggressive passing strategies, as it neutralizes their posting ability and creates immediate submission threats. Williams Guard exemplifies the evolution of modern BJJ guard systems by integrating joint manipulation with positional control, forcing opponents into defensive reactions that open sweep opportunities. The position functions as a systematic approach where the shoulder lock serves as both submission threat and positional control mechanism, channeling opponent responses into predictable patterns that each open specific attacking opportunities. Understanding the relationship between shoulder lock pressure and hip angle creates a dynamic threat environment where opponents can never settle into defensive posture.
 
@@ -452,17 +433,17 @@ Flow drill connecting Williams shoulder lock to omoplata to triangle to armbar. 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Williams Guard represents a fascinating integration of joint manipulation and positional control that challenges conventional guard retention theory. The position's effectiveness stems from its ability to create a mechanical dilemma where the opponent must simultaneously defend a shoulder lock submission while attempting to pass guard—two goals that are often mutually exclusive. From a systems perspective, Williams Guard functions as a forcing mechanism that channels opponent responses into predictable patterns, each of which opens specific sweep or submission opportunities. The critical technical element is maintaining what I call 'constant tension integrity'—the shoulder lock must apply sufficient pressure to occupy the opponent's defensive focus without overcommitting to the finish prematurely. This creates a state where every defensive movement opens a new attacking vector. The position's true sophistication lies in its transition architecture: the shoulder lock itself functions less as a finishing mechanism and more as a control hub from which omoplatas, triangles, and back takes emerge with high efficiency. Understanding this conceptual framework transforms Williams Guard from a novelty technique into a systematic positional approach.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 I've used Williams Guard in competition and it's a legitimate weapon when you understand the timing and psychology behind it. The key is recognizing that most opponents have zero experience defending this position, which creates immediate psychological pressure. In matches, I use Williams Guard primarily as a sweep setup rather than hunting the shoulder lock finish—the submission threat forces defensive reactions that open much higher percentage sweeping opportunities. The position works exceptionally well against aggressive passers who like to drive forward with pressure, because their natural instinct to pressure into you actually accelerates the omoplata or back take. What makes it competition-viable is the arm control—once you have that shoulder lock established, you've effectively neutralized one of their arms completely, meaning they're passing with diminished resources. I focus heavily on the transition to omoplata when they try to yank their arm out, and the triangle when they post their free hand. The finish rate on the shoulder lock itself is lower at high levels, but it doesn't matter because the position control and transition options are what create the success. It's particularly effective in no-gi where the shoulder lock bite is sharper and harder to defend.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Williams Guard is one of those positions that perfectly embodies the 10th Planet philosophy of innovation and control—it takes a submission hold and turns it into a positional strategy, which is exactly the kind of creative thinking that advances the art. What I love about Williams Guard is how it creates the same kind of dilemma structure we see in Rubber Guard but through a completely different mechanical approach. The opponent is constantly dealing with shoulder pressure and submission threat, which opens up the entire game tree of sweeps and transitions. In our system, we've integrated Williams Guard into the larger open guard framework, particularly as an entry point to Omoplata or Triangle when traditional setups are defended. The position's effectiveness increases dramatically when you understand the relationship between shoulder lock pressure and hip angle—by constantly adjusting your hip position while maintaining shoulder control, you create a dynamic threat environment where the opponent can never settle. We drill Williams Guard extensively as part of our submission chain development, emphasizing the flow between shoulder lock, omoplata, triangle, and armbar. The real mastery comes when you stop thinking of it as separate techniques and start seeing it as one continuous control system where you're just riding the opponent's defensive reactions to different finish points.
 

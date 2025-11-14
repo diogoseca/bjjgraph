@@ -82,7 +82,6 @@ content/
 ```markdown
 ---
 title: Closed Guard Bottom
-state_id: S001
 point_value: 0
 position_type: Defensive
 risk_level: Medium

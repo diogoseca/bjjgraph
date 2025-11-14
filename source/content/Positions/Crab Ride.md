@@ -8,7 +8,7 @@ description: "Master Crab Ride position in BJJ. Strategic guide covering turtle 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Crab Ride position in BJJ. Strategic guide covering turtle 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Crab Ride?
 
 Crab Ride is a highly effective transitional position from turtle where the top practitioner establishes a dominant perpendicular control position alongside the opponent's torso. This position serves as a critical gateway to back control, allowing the top player to systematically break down the turtle defense while maintaining offensive pressure. The position derives its name from the crab-like lateral positioning, where the attacking practitioner sits perpendicular to their opponent with hooks established and weight distributed to prevent escape. From this configuration, the top player can attack the back, threaten submissions, or force positional improvements while the bottom player struggles with limited mobility and defensive options.
 
@@ -50,7 +48,7 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium to Long |
 
-**What Makes This Unique:** Perpendicular angle maximizes control leverage
+**Key Difference:** Perpendicular angle maximizes control leverage
 
 
 
@@ -76,10 +74,6 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ## Playing as Bottom
 
 [[Crab Ride/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -158,10 +152,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Crab Ride/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -237,7 +227,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

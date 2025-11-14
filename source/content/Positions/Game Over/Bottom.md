@@ -8,7 +8,7 @@ description: "Learn defensive awareness and tap protocols to prevent injury when
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Learn defensive awareness and tap protocols to prevent injury when
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 0% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Game Over from the Bottom?
 
 Game Over Bottom represents the terminal defensive state where a practitioner is caught in a fully-locked submission and must tap to avoid injury. This position is not a traditional BJJ position in the structural sense—it is the endpoint where defensive options have been exhausted and submission is inevitable. Understanding this state is critical for safe training and competition, as it defines the moment when ego must yield to safety and strategic retreat becomes necessary.
 
@@ -444,17 +425,17 @@ With experienced partner and instructor supervision, experience brief choke prog
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Game Over Bottom is not a technical position but a recognition threshold that separates intelligent training from injury-inducing stubbornness. The mechanical reality is simple—once a submission is structurally complete, escape is physically impossible regardless of strength, flexibility, or technical knowledge. A fully-locked rear naked choke cuts off blood flow to the brain within seconds; resistance cannot restore circulation. A completed armbar places joint structures beyond their mechanical tolerance; no amount of willpower prevents ligament rupture once that threshold is crossed. The critical skill is recognizing this threshold before crossing it, which requires detailed understanding of submission mechanics and honest self-assessment of current position. Students must learn that tapping is not surrender but acknowledgment of mechanical reality, preserving their ability to train tomorrow while gaining crucial feedback about defensive gaps exposed today.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 I've tapped thousands of times in training and competition, and every single tap made me better. Game Over Bottom teaches you more than any instructional video because it shows you exactly where your defense failed under live resistance. The competitors who progress fastest are the ones who tap quickly in training, analyze what went wrong, and drill the specific defensive sequence they missed. In competition, I recognize Game Over Bottom instantly—there's a feeling when a submission is fully locked where further resistance is just injury risk with zero escape probability. That recognition comes from experiencing countless submissions in training and learning to feel the difference between tight pressure where escape is hard versus mechanical completion where escape is impossible. Ego makes people resist too long; intelligence makes them tap and learn. Every tap in training is data, every injury from not tapping is wasted time away from the mat.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Game Over Bottom is where you learn who you really are on the mat. When that choke is sinking and your vision is tunneling, or that armbar is locked and your elbow is screaming—that's when your true character shows. Do you tap intelligently and live to roll another day, or do you let ego drive you into injury? In my system we practice submission situations constantly because familiarity removes fear. When you've felt the twister a hundred times in training, you know exactly when it's locked versus when you still have escape options. That knowledge lets you stay calm and make good decisions under pressure. We also practice tapping with different signals because in real situations your hands might be trapped—verbal tap, foot tap, whatever it takes to signal submission before damage occurs. There's no shame in tapping; the only shame is letting pride injure you and take you off the mats. Smart fighters tap early and often in training so they can keep training for decades.
 

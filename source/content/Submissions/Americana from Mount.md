@@ -147,14 +147,12 @@ description: "Master the Americana shoulder lock from mount with safety protocol
 
 
 
-> Americana from Mount is a shoulder lock targeting the Shoulder joint (rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Americana from Mount targets the Shoulder joint (rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Americana from Mount?
 
 The Americana from Mount is a fundamental shoulder lock that targets the rotator cuff by isolating the opponent's arm and applying a figure-four grip to force external rotation beyond the joint's natural range. This submission is one of the highest-percentage attacks from the mount position due to the superior control and weight distribution available from top position.
 
@@ -242,7 +240,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Bait and Capture the Arm**: From mount, allow the opponent to place their hand on your chest or hip in a defensive frame. As they extend their arm to create space, immediately capture their wrist with your same-side hand (right hand to their right wrist). Use a firm grip with your thumb on the inside of their wrist and fingers wrapping around the outside. (Timing: Immediate reaction to opponent's frame - within 0.5 seconds of arm extension) [Pressure: Moderate]
 2. **Pin the Shoulder**: Shift your weight forward and slightly to the side of the controlled arm, driving your chest toward the mat near their shoulder. This pins their shoulder blade to the ground and prevents them from following their arm as you manipulate it. Your hips should remain heavy and connected to their torso. (Timing: Simultaneous with wrist capture) [Pressure: Firm]
 3. **Walk the Arm to Position**: Using your grip on their wrist, walk their arm across their body and toward the mat beside their head, creating a 90-degree angle at the elbow. Their palm should be facing up or toward their head. Post your opposite foot out wide for base if needed to maintain balance during this transition. (Timing: 1-2 seconds with controlled movement) [Pressure: Moderate]
@@ -309,7 +307,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply finishing pressure on an americana in training, and why? **[SAFETY-CRITICAL]**
 **A**: You should take a minimum of 3-5 seconds to apply finishing pressure on an americana in training. This slow, controlled application allows your training partner time to recognize the danger, assess whether to defend or tap, and signal submission before injury occurs. The shoulder joint is particularly vulnerable to rotator cuff tears, and sudden or jerking movements can cause serious injuries that require months of recovery or even surgery. Training is about learning and improvement, not injuring partners.
 

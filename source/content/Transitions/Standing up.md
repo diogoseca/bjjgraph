@@ -153,14 +153,10 @@ description: "Master the Technical Standup in BJJ. Learn proper base mechanics, 
 
 
 
-> Standing up transitions from [[Open Guard]] to [[Standing Position]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Standing up?
 
 The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jitsu that allows a grounded practitioner to safely return to their feet while maintaining defensive frames and preventing takedowns. This transition represents a critical bridge between ground and standing combat, serving as both an escape mechanism from inferior positions and a method of disengagement when desired. The technical standup is essential for maintaining distance management, creating space, and resetting the engagement to a more favorable position. It is particularly crucial in self-defense scenarios, MMA contexts, and competitive situations where standing offers strategic advantages. The position requires precise weight distribution, balance, timing, and spatial awareness to execute safely without compromising defensive integrity. Mastery of the standing up sequence provides practitioners with autonomy over engagement range and the ability to dictate whether the match remains on the ground or returns to standing combat. The transition involves posting a base hand, elevating the hips, loading the near leg, and driving explosively to standing while maintaining the far leg as a defensive barrier throughout the sequence.
 
@@ -199,7 +195,7 @@ The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jit
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Create distance and space**: Use frames, shrimping, or leg extensions to create sufficient space between you and opponent. Push away with feet on hips or use defensive frames to prevent opponent from closing distance while you prepare to post base hand. (Timing: Before opponent can establish controlling grips or advance position)
 2. **Post base hand**: Rotate body slightly to side and post base hand approximately 12-18 inches behind hips with palm flat on mat, fingers pointed away from body. Fully extend and lock arm with scapula depressed and stable, creating first point of triangular base structure. (Timing: As soon as sufficient space is created)
 3. **Elevate hips immediately**: Drive hips upward off mat by pushing through posted hand and beginning to load near leg. Elevate hips high enough that only base hand, near foot, and far heel remain in contact with mat, creating mobile defensive structure. (Timing: Immediately after base hand posts)
@@ -299,7 +295,7 @@ Integrate standup position with offensive entries to leg entanglement systems, g
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the three primary contact points that create the triangular base structure during the technical standup position?
 **A**: The three contact points are: (1) the base hand posted 12-18 inches behind the hips with palm flat on mat, (2) the near foot (same side as base hand) flat on ground with knee bent, and (3) the far heel on ground with leg extended as defensive barrier. These three points create a stable triangular base that maximizes stability while maintaining mobility.
 

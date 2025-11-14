@@ -8,7 +8,7 @@ description: "Master collar ties in BJJ and wrestling. Complete guide to establi
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -175,29 +175,10 @@ description: "Master collar ties in BJJ and wrestling. Complete guide to establi
 
 
 
-> **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
->
-> **Quick Stats**: Advanced practitioners advance to better positions 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (Neutral)
-- **Position Type**: Neutral
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Low
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Collar Ties?
 
 Collar ties represent a fundamental clinching position in Brazilian Jiu-Jitsu and wrestling where one or both practitioners establish control of the opponent's head and neck area. This position creates an immediate tactical advantage by controlling posture, disrupting balance, and setting up a variety of offensive attacks. The collar tie is characterized by one hand gripping behind the opponent's neck (at the collar in gi or directly on the neck/upper back in no-gi) while maintaining an upright stance.
 
@@ -546,17 +527,17 @@ Partner with collar tie control makes random movements (pull down, push away, ci
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Approach
+### John Danaher
 
 The collar tie represents one of the most efficient control points in standing grappling because it allows you to control the opponent's entire body through leverage on their head and neck. The mechanical advantage comes from the fact that the head sits atop the spine, and by controlling it you can manipulate the opponent's base and posture with minimal energy expenditure. The key technical detail most practitioners miss is the relationship between collar tie pressure and footwork - you must circle toward the side you're controlling while maintaining downward and lateral pressure to truly break their structure. The collar tie also serves as an excellent defensive tool because it creates distance and frames that prevent the opponent from establishing dominant grips or achieving the optimal angle for their attacks. When executed with proper head positioning and constant pressure, the collar tie becomes a systematic gateway to multiple attacking sequences including snap downs to front headlock positions, arm drags to back exposure, and level changes to leg attacks.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In high-level competition, the collar tie battle determines who controls the standing exchange and dictates the pace of engagement. I use collar ties aggressively to force opponents into reactive positions where they're constantly defending rather than attacking. The competition reality is that whoever establishes superior head position and collar tie control first usually gets to choose between shooting takedowns or forcing guard pulls on their terms. Against tough opponents, I focus on establishing my collar tie while keeping my head higher than theirs - this creates an immediate hierarchical advantage that's difficult to overcome. The snap down from collar tie is one of my highest-percentage techniques because once their head breaks down, you have immediate access to front headlock control which opens up multiple submission paths. In no-gi especially, collar ties are even more critical because without gi grips, head control becomes the primary means of manipulating your opponent's position. I chain collar tie attacks together - if the snap down fails, I immediately switch to arm drag or level change for takedowns, never allowing them to reset to neutral.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Collar ties are one of those fundamental positions that work everywhere from sport BJJ to MMA to street situations. What makes them so effective is they give you offensive options while keeping you safe from counters. In the 10th Planet system, we emphasize using collar ties to set up our guard pulls - you control their posture and head, then sit to your guard game on your terms rather than letting them pass from the start. The collar tie also creates perfect entries for front headlock attacks, and once you have front headlock control, you're in the danger zone for anacondas, darces, and guillotines. One thing people sleep on is using collar tie pressure to create scrambles - you break their posture down, they try to stand up or defend, and that's when creative techniques happen. The snap down to front headlock to guillotine sequence is money in both gi and no-gi. From a self-defense perspective, collar ties let you control distance against strikes while setting up takedowns or clinch positions. The innovation comes in combining collar tie control with unorthodox attacks - instead of just standard wrestling attacks, think about transitioning to rubber guard entries or creating angles for unusual takedowns that opponents don't expect from this position.
 

@@ -147,14 +147,10 @@ description: "Master Front Headlock Series in BJJ. Complete guide to control and
 
 
 
-> Front Headlock Series Transition transitions from [[Front Headlock]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Front Headlock Series Transition?
 
 The Front Headlock Series represents one of the most versatile and high-percentage control positions in Brazilian Jiu-Jitsu, offering multiple pathways to dominant positions and submissions. This series exploits the vulnerable turtle position or failed takedown attempts, where the opponent's head and arm become available for control. From this position, a skilled practitioner can flow between guillotine chokes, anaconda chokes, darce chokes, and transitions to back control, creating a web of interconnected attacks that force opponents into defensive dilemmas.
 
@@ -198,7 +194,7 @@ Developed and refined by high-level competitors including Marcelo Garcia, John D
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock control**: As opponent assumes turtle position or bends forward, immediately secure head control by threading your arm around their neck with your forearm positioned across the front of their throat. Your bicep should be on one side of their neck and your forearm on the other, creating a vice-like grip. Simultaneously control their near arm by either overhooking it or pinning it to their body. (Timing: Immediate as opportunity presents)
 2. **Secure proper angle and base**: Position your body at roughly a 45-degree angle to your opponent's body—never directly behind them where they can back into you. Establish a wide, stable base with your feet, keeping your weight forward over their shoulders. Your chest should be heavy on their upper back, preventing them from elevating their posture. Lock your hands in your preferred grip (gable grip, palm-to-palm, or guillotine grip). (Timing: Within 1-2 seconds of initial control)
 3. **Apply initial control pressure**: Drive your weight downward through your chest into their shoulders while maintaining the headlock. Your forearm should create light pressure across their throat (not yet choking), and your near-arm control should prevent them from posting or framing. This pressure keeps them defensive and prevents immediate escape attempts while you assess their reactions. (Timing: Continuous throughout control phase)
@@ -297,7 +293,7 @@ Actively seek front headlock opportunities during free training. Work on obtaini
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of controlling the opponent's near arm in the front headlock position?
 **A**: Controlling the near arm serves multiple critical functions: it prevents the opponent from posting to stand up or create frames for escape, eliminates their ability to defend their neck with that hand, and removes a key structural support that would allow them to improve their position. Without near arm control, the opponent can base out, create space, and potentially escape or counter your attacks. This control is essential for maintaining dominant position throughout the series.
 

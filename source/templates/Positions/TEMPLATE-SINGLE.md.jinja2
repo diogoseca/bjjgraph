@@ -8,7 +8,7 @@ description: "{{ data.description }}"
 ---
 
 {# PostHog A/B Testing Metadata #}
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -100,12 +100,11 @@ description: "{{ data.description }}"
   🐛 BJJ Graph A/B Testing Debug Mode
 
   Content Type: positions
-  Section Count: 15
+  Section Count: 14
   Week Seed: {{ week_seed }}
   Visual Variant: {{ visual_elements }}
 
   Section Priorities:
-  - state-properties: {{ priorities.get('state-properties', 'N/A') }}
   - overview: {{ priorities.get('overview', 'N/A') }}
   - state-invariants: {{ priorities.get('state-invariants', 'N/A') }}
   - prerequisites: {{ priorities.get('prerequisites', 'N/A') }}
@@ -125,29 +124,10 @@ description: "{{ data.description }}"
 -->
 {% endif %}
 
-> **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
->
-> **Quick Stats**: Advanced practitioners advance to better positions {{ data.position_metrics.advancement_probability.advanced }}% of the time.
-
 {# Flexbox wrapper for CSS order-based A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: `{{ data.state_id }}`
-- **Point Value**: {{ data.state_properties.point_value }} (Neutral)
-- **Position Type**: {{ data.state_properties.position_type }}
-- **Risk Level**: {{ data.state_properties.risk_level }}
-- **Energy Cost**: {{ data.state_properties.energy_cost }}
-- **Time Sustainability**: {{ data.state_properties.time_sustainability }}
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is {{ data.name.split('|')[0].strip() }}?
 
 {{ data.overview }}
 
@@ -296,17 +276,17 @@ description: "{{ data.description }}"
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Approach
+### John Danaher
 
 {{ data.expert_insights.danaher }}
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 {{ data.expert_insights.gordon_ryan }}
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 {{ data.expert_insights.eddie_bravo }}
 

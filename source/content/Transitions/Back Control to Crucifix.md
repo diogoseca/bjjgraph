@@ -147,14 +147,10 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 
 
 
-> Back Control to Crucifix transitions from [[Back Control]] to [[Crucifix]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Back Control to Crucifix?
 
 The Back Control to Crucifix transition represents a critical advancement in back attack systems, converting standard rear mount dominance into an even more controlling and submission-rich position. This transition capitalizes on the opponent's defensive hand fighting and arm positioning, transforming their defensive frames into liabilities. When executed properly, the crucifix provides superior control over both of the opponent's arms while maintaining back exposure, creating a near-inescapable submission platform. The transition typically occurs when the bottom player attempts to defend the rear naked choke by gripping their own collar or creating defensive frames with their arms. Understanding this positional flow is essential for any serious back attack specialist, as it represents the logical evolution from basic back control to a more sophisticated control position that dramatically increases submission percentages while minimizing escape opportunities.
 
@@ -194,7 +190,7 @@ The Back Control to Crucifix transition represents a critical advancement in bac
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure the choking arm**: From back control with seatbelt grip, thread your choking-side hand deep across opponent's neck while maintaining your other hook. The choking hand should be palm-down with your forearm cutting across the front of their throat, establishing the foundation for rear naked choke threat that will force defensive reactions. (Timing: Execute when opponent is not actively turning or escaping)
 2. **Bait the defensive grip**: Apply moderate pressure with your choking arm to force opponent to commit both hands to defending their neck. They will typically grab your choking wrist with both hands or grip their own collar defensively, which exposes both arms away from their body and creates the window for crucifix entry. (Timing: Wait for both opponent's hands to elevate toward neck defense)
 3. **Remove the top hook**: Extract your top-side hook (same side as your choking arm) while maintaining bottom hook deeply inserted. This hook removal is critical - your knee will replace this hook's function by coming over the top of opponent's trapped arm. Keep your chest pressure tight to their back during this adjustment. (Timing: Remove hook smoothly when opponent is focused on hand fighting)
@@ -285,7 +281,7 @@ Full resistance back attack scenarios where partner defends intelligently. Pract
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is maintaining the bottom hook critical throughout the back control to crucifix transition?
 **A**: The bottom hook serves as your primary anchor and prevents opponent from turning into you during the transition. Removing both hooks simultaneously creates space for opponent to escape or reverse position. The bottom hook maintains back exposure and provides base stability while your top-side leg transitions to the shin-pin configuration. Without this hook, you lose the positional foundation that defines back control and risk complete position loss during the vulnerable transition phase.
 

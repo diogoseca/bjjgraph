@@ -153,14 +153,10 @@ description: "Master the Matrix Back Take from turtle. Step-by-step execution wi
 
 
 
-> Matrix Back Take transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Matrix Back Take?
 
 The Matrix Back Take is an advanced transition from turtle position that exploits the opponent's defensive posture to establish back control. This technique derives its name from the fluid, evasive movements required to navigate around the opponent's defensive frames while maintaining constant pressure and connection. The Matrix Back Take is particularly effective when the opponent is tightly defending their turtle position with good base and posture, making traditional back take entries difficult. By using dynamic movement and precise weight distribution, the attacker can bypass the opponent's defenses and secure the coveted back control position.
 
@@ -203,7 +199,7 @@ The Matrix Back Take has become increasingly popular in modern no-gi grappling, 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish initial control from turtle top**: Begin from a strong turtle top position with your chest heavy on the opponent's upper back. Secure a grip on the far-side hip with your far hand and control the near-side shoulder or lat with your near hand. Your weight should be distributed to prevent the opponent from sitting back or turning into you, while your knees maintain a wide base for stability. (Timing: Establish solid control before beginning the transition)
 2. **Create angle and insert near-side arm**: Begin to circle your body toward the opponent's far side while maintaining pressure on their upper back. As you create this angle, thread your near-side arm deep under the opponent's near-side armpit, reaching toward their far-side shoulder. This arm should be inserted deeply enough that your shoulder is pressed against their ribs, creating a strong connection point. (Timing: Coordinate angle creation with arm insertion in one smooth motion)
 3. **Step near-side leg through**: With your near-side arm deeply inserted, swing your near-side leg through the space between the opponent's elbow and knee on the near side. Your foot should end up on the mat near the opponent's far-side hip, with your knee maintaining connection to their near-side hip. This creates the beginning of the 'matrix' position where your body is perpendicular to the opponent's torso. (Timing: Execute leg insertion while opponent is still processing arm control)
@@ -292,7 +288,7 @@ Work on flowing between the matrix back take and other back take options from tu
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical connection point to maintain throughout the entire matrix back take transition?
 **A**: The near-side arm control on the opponent's shoulder or lat is the most critical connection point. This arm acts as an anchor that prevents the opponent from turning into you while your body moves around them during the hip slide. Without maintaining this connection, the opponent can easily rotate toward you and eliminate your back take opportunity, potentially recovering guard or achieving a better position.
 

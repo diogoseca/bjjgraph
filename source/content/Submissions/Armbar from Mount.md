@@ -147,14 +147,12 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
 
 
 
-> Armbar from Mount is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Armbar from Mount targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Armbar from Mount?
 
 The Armbar from Mount represents one of the most fundamental and high-percentage finishing techniques in Brazilian Jiu-Jitsu, targeting the elbow joint through hyperextension. From the dominant mount position, this submission leverages superior positional control to isolate an opponent's arm and create mechanical advantage through hip extension. The mount-to-armbar transition is particularly effective because it capitalizes on the defensive frames opponents naturally create when attempting to escape mount, turning their defensive structure into offensive opportunities. This technique exemplifies the core BJJ principle of using an opponent's energy against them - as they push to create space, you redirect that energy to capture and extend their arm. The armbar from mount serves as a gateway submission that opens pathways to multiple other attacks including triangles, Americanas, and back takes, making it essential for developing a complete offensive game from top position.
 
@@ -237,7 +235,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish mount control and pressure**: From mount, distribute your weight forward onto opponent's chest while keeping your base wide. Pin their shoulders to the mat and prevent bridging by keeping your hips low and chest heavy. This foundational control is critical before attempting any submission. (Timing: Establish solid control for 2-3 seconds before proceeding) [Pressure: Firm]
 2. **Isolate the target arm**: Identify which arm to attack - typically the arm opponent uses to frame against your chest. Use one hand to trap their wrist and your other hand to post on the mat near their head. If opponent has both arms tucked, use collar grips or head control to bait them into creating a frame, then immediately capture the extended arm. (Timing: 1-2 seconds to identify and capture target arm) [Pressure: Moderate]
 3. **Secure two-on-one wrist control**: Transition to gripping the captured wrist with both of your hands, ensuring the opponent's thumb is pointing upward (supinated position). Pull the wrist slightly toward you while keeping their elbow tight to your chest. This two-on-one control prevents the opponent from pulling their arm free during the transition. (Timing: 1 second to establish double grip) [Pressure: Firm]
@@ -305,7 +303,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for an armbar in training and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time in training should be 3-5 seconds of progressive, smooth pressure. This is critical because the elbow joint can be seriously injured with sudden force, potentially causing ligament tears or dislocation that require months of recovery or surgery. Training at slower speeds allows partners to recognize the danger and tap safely while still learning proper mechanics. Competition speed should only be used in actual competition where both participants accept the injury risk.
 

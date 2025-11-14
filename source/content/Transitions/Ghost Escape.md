@@ -147,14 +147,10 @@ description: "Learn Ghost Escape in BJJ. Step-by-step execution from Side Contro
 
 
 
-> Ghost Escape transitions from [[Side Control]] to [[Turtle]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ghost Escape?
 
 The Ghost Escape is an advanced, dynamic escape from side control that utilizes rotational movement and timing to create space and transition to turtle position. Named for its ability to seemingly disappear from underneath the opponent's control, this escape combines hip movement, shoulder rotation, and precise timing to slip out from heavy pressure. Unlike traditional shrimping escapes that move perpendicular to the opponent, the Ghost Escape rotates the body in a circular motion, creating a unique angle that disrupts the opponent's base and weight distribution. This technique is particularly effective against opponents who maintain heavy chest-to-chest pressure and are anticipating standard escape patterns. The Ghost Escape requires good body awareness, timing, and the ability to create small windows of space under pressure. It's most successful when initiated during transitional moments when the opponent shifts their weight or adjusts their grips. The escape represents a modern, mobile approach to dealing with dominant top positions and is especially valuable in no-gi grappling where traditional gi grips are unavailable.
 
@@ -194,7 +190,7 @@ The Ghost Escape is an advanced, dynamic escape from side control that utilizes 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Create initial frame**: From bottom side control, establish a strong frame against the opponent's shoulder or neck with your far arm while keeping your near elbow tight to your ribs. Your near-side hand should be posted on the mat or creating a secondary frame against the opponent's hip. This dual framing structure creates the essential space needed to begin the escape. (Timing: Establish frames immediately when opponent settles into side control)
 2. **Generate hip movement**: Bridge slightly to create additional space, then explosively turn your hips away from the opponent (towards your stomach) while maintaining your frames. Your hips should rotate approximately 45-90 degrees, bringing your bottom knee closer to your chest. This hip rotation is the critical first movement that initiates the ghost motion. (Timing: Execute during opponent's exhale or weight adjustment)
 3. **Initiate shoulder rotation**: As your hips rotate, begin rotating your shoulders in the same direction, creating a continuous circular motion through your entire body. Your far shoulder should drive towards the mat as if performing a forward roll. Keep your chin tucked to your chest to protect your neck during this rotation. Your body should now be turning perpendicular to the opponent. (Timing: Immediate follow-through from hip movement without pause)
@@ -290,7 +286,7 @@ Incorporate the ghost escape into your regular sparring as a high-percentage opt
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the Ghost Escape effective compared to traditional shrimping escapes?
 **A**: The Ghost Escape uses rotational/circular motion rather than linear movement, which creates unique angles that disrupt the opponent's base and weight distribution in ways they don't anticipate from standard escapes. This rotational motion makes it difficult for the opponent to follow and maintain pressure.
 

@@ -8,7 +8,7 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 50%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 4 (Dominant position)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Reverse Mount from the Top?
 
 Reverse Mount Top is a transitional dominant position where the practitioner sits on the opponent's chest or abdomen while facing away from their head, essentially mounted in the opposite direction from standard mount. This position scores 4 points (same as standard mount in IBJJF) but is inherently less stable and more difficult to maintain long-term. It typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control.
 
@@ -451,17 +430,17 @@ Start from various scramble positions (failed back take, turtle transitions, mou
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Reverse mount represents an interesting paradox in positional hierarchy - it scores identically to standard mount yet possesses fundamentally different control mechanics and sustainability characteristics. The backward orientation eliminates our most powerful control mechanism: head and shoulder control through upper body connection. Without visual and tactile feedback from opponent's face and upper torso, we lose critical information about their defensive intentions and reactions. The biomechanics of reverse mount require core strength and balance adjustments that are inherently less stable than forward-facing positions. However, the position's value lies not in its sustainability but in its transitional efficiency - it provides clean pathways to superior positions with minimal resistance. When opponent is flat, back control via hook insertion becomes remarkably accessible. When they begin defensive movement, the rotational transition to standard mount becomes natural and fluid. The critical error practitioners make is attempting to develop reverse mount as a destination position rather than recognizing its purpose as a efficient bridge between scrambles and dominant control positions.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, reverse mount happens a lot during scrambles - usually when you're attacking the back and they defend by turning, or during chaotic transitions where positions flip rapidly. I never try to stay in reverse mount for more than a few seconds. I'm immediately thinking: can I get hooks in for back control? If yes, do it. If no, turn to standard mount. That's it. No complicated decision tree, no trying to force submissions from an inherently unstable position. The position scores the same points as mount but it's way less stable, so why stay there when you can easily convert to something better? Sometimes I'll hit a quick armbar if their arm is completely out of position and the setup is obvious, but 95% of the time I'm transitioning immediately. In training, I drill smooth transitions FROM reverse mount rather than trying to develop a reverse mount game. It's a bridge position, not a house you want to live in. The competitors who waste time trying to maintain reverse mount usually end up getting swept or losing position entirely.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Reverse mount is interesting because it's actually the setup position for some of our advanced 10th Planet techniques, particularly the twister and truck entries. But here's the thing - the twister requires very specific positioning and opponent movement patterns that don't happen frequently. Most of the time, you're better off converting to standard mount or getting hooks in for back control. Where reverse mount shines in our system is as part of a flow sequence - you can flow smoothly from turtle top control to reverse mount to either back control or standard mount, maintaining offensive pressure throughout the transition. Don't think of it as static position; think of it as part of a continuous flow sequence where you're always moving toward better control. The exception is if you see the twister setup clear as day - opponent's bottom leg is trapped, their upper body is turned away, everything lines up perfectly - then absolutely go for it because it's devastating. But don't force it. If the twister isn't obviously there within 5 seconds, you should already be transitioning to mount or back control. The position's value is in its flexibility and transition options, not in its ability to be held long-term.
 

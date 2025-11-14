@@ -8,7 +8,7 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Shoulder of Justice?
 
 The Shoulder of Justice is a highly effective side control variation characterized by intense shoulder pressure applied directly to the opponent's face and jaw. This position represents a refinement of traditional side control where the top player drives their shoulder into the opponent's chin or jaw line while maintaining heavy cross-face control. The name comes from the relentless, almost punishing pressure that forces the opponent to make difficult decisions under duress.
 
@@ -48,7 +46,7 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -62,7 +60,7 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium to Long |
 
-**What Makes This Unique:** Intense jaw pressure creates submission dilemma
+**Key Difference:** Intense jaw pressure creates submission dilemma
 
 
 
@@ -74,10 +72,6 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ## Playing as Bottom
 
 [[Shoulder of Justice/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -159,10 +153,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Shoulder of Justice/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -250,7 +240,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

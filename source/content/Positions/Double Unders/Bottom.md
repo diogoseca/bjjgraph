@@ -8,7 +8,7 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 50% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Double Unders from the Bottom?
 
 Double Unders Bottom Position occurs when an opponent has established underhooks on both sides while attempting to pass your guard, creating significant pressure and control. This is a critical defensive position commonly encountered during pressure passing sequences, particularly from half guard or when defending knee slice attacks. The bottom player faces immense forward pressure as the top player drives their weight through the underhooks, collapsing posture and threatening to flatten the defender completely onto their back. This position represents a transitional crisis state in the guard passing hierarchy where the top player has gained significant control but hasn't yet achieved side control. The bottom practitioner must act quickly and decisively to recover frames, create space, and either re-establish guard or accept the pass to a more stable defensive position like deep half guard or turtle. Understanding defensive framing mechanics, hip movement patterns, and strategic position acceptance is crucial for survival. While extremely challenging, this position offers opportunities to transition to deep half guard, recover butterfly hooks, or execute granby rolls when timed correctly with the opponent's forward pressure momentum.
 
@@ -447,17 +428,17 @@ Partner continuously seeks double underhooks while you work to maintain frames, 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The double underhooks bottom position represents a critical failure point in defensive guard structure where bilateral underhook control has been conceded to the opponent. From a systematic perspective, this position exists in the late stages of the guard passing sequence, typically occurring after initial frames have been compromised and the opponent has successfully penetrated your defensive layers. The biomechanical reality is severe - with both underhooks established, the opponent can generate tremendous forward pressure through their shoulder girdle directly into your chest, collapsing your posture and eliminating the spinal extension necessary for effective hip mobility. Your defensive priorities must be hierarchical: first, prevent complete flattening of your back to the mat, as this removes all escape mechanics; second, create any available frame using elbows, forearms, or head positioning to generate minimal space; third, commit to a directional escape rather than passive resistance. The deep half guard entry is biomechanically optimal here because you use the opponent's forward pressure as momentum for your dive under their base. Understanding that this is a transitional crisis position, not a sustainable guard variant, is essential - you must act decisively within seconds or accept the pass to a more stable defensive position.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 When I end up with someone getting double underhooks on me, I know I'm in serious trouble and need to move immediately. This position shows up all the time in competition when guys are pressure passing - they get their head low, wrap both underhooks, and just drive forward trying to flatten you. The key is not panicking when you feel both underhooks lock in. I've escaped this countless times by going straight to deep half - as soon as I feel that pressure coming forward, I'm already diving under for the deep half entry. The timing is critical - you can't wait until you're completely flattened. Against high-level guys, if you let them settle here for even three seconds, you're getting passed. I also look for the granby roll if they commit too much weight forward, but you have to really feel their pressure direction. In competition, I'd rather give up turtle from the granby than get smash passed to side control where I'm giving up points and dealing with heavy shoulder pressure. The absolute worst thing you can do is try to push them away with your hands or feet - that just gives them the space to step over and complete the pass. Keep your legs active, always threatening something, and commit to your escape direction fully.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Double underhooks on bottom is a nightmare scenario that I see all the time when people don't properly understand lockdown mechanics or butterfly guard retention. This is where the whole 10th Planet system of keeping your opponent in your guard really shows its value - if you let them get double underhooks, you've already failed multiple defensive layers. But when it happens, you've got to have your escape routes wired. The deep half entry is money here, and it actually fits perfectly with the lockdown game because you're used to diving under and working from bottom positions. The granby roll is another excellent option, especially against bigger guys who are driving heavy pressure - use that weight against them and roll right into turtle or even come up on top if you time it right. What I teach is staying loose and mobile - if you tense up and try to match strength when someone has double underhooks, you're done. Flow with the pressure, wait for them to commit their weight in one direction, then explode the opposite way. Also, don't sleep on the electric chair setup from here if you can get that lockdown in - sometimes the best defense is a crazy offense that your opponent isn't expecting. The traditional BJJ approach is too passive in this spot - you need to be attacking, moving, creating chaos.
 

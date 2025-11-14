@@ -147,14 +147,12 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 
 
 
-> Outside Heel Hook is a leg lock targeting the Knee joint, ankle joint, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause ACL tear (anterior cruciate ligament rupture). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Outside Heel Hook targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Outside Heel Hook?
 
 The Outside Heel Hook is one of the most dangerous and effective leg lock submissions in Brazilian Jiu-Jitsu, targeting the knee joint through rotational force applied to the heel and foot. Unlike inside heel hooks which attack from inside positioning, the outside heel hook is applied when controlling the opponent's leg from the outside position, typically from outside ashi-garami or similar leg entanglement positions. This submission creates torque on the knee joint by rotating the foot and lower leg while the upper leg remains fixed, placing tremendous stress on the ACL, MCL, meniscus, and other knee structures. The outside heel hook gained prominence in modern no-gi competition through the leg lock revolution pioneered by practitioners like John Danaher's Death Squad and has become a fundamental finishing position in high-level competition. Due to its extreme injury potential and the speed at which damage occurs, this technique requires exceptional technical precision, safety awareness, and should only be practiced by experienced grapplers with trustworthy training partners. The mechanical advantage created by proper hip positioning and heel control makes this one of the highest percentage finishing attacks from leg entanglement positions, but also one requiring the greatest responsibility and control during application.
 
@@ -245,7 +243,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish outside ashi-garami position**: Secure outside ashi-garami with your inside leg hooking over opponent's hip and your outside leg controlling their trapped leg from the outside. Your inside leg should prevent them from rotating their knee line toward you, which is their primary defense. Ensure you have broken their grips on your legs and that your position is stable before proceeding to heel control. (Timing: Control phase - no submission pressure yet) [Pressure: Light]
 2. **Cup the heel with both hands**: Reach over the top of opponent's foot and cup their heel with both hands, creating a figure-four grip or similar secure configuration. Your forearm should run along the bottom of their foot with the heel secured in the crook of your elbow. The grip should be firm but the focus is on control, not pressure. Ensure the blade of the forearm is positioned across the Achilles tendon area for maximum control. (Timing: Setup phase - establishing control) [Pressure: Moderate]
 3. **Extend hips to create leg straightness**: Push your hips forward toward your opponent while maintaining heel control, creating extension in their trapped leg. This removes slack from the system and begins to load tension into the knee joint. The leg should become relatively straight but not hyperextended. Your inside leg must maintain constant pressure on their hip to prevent defensive rotation. This extension is crucial for the submission to function properly. (Timing: Tension creation - 2-3 seconds) [Pressure: Moderate]
@@ -313,7 +311,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for an outside heel hook in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 5-7 seconds of slow, progressive pressure. This is critical because knee ligament damage from heel hooks occurs extremely rapidly once the failure threshold is crossed. Unlike joint locks where there is some warning pain, heel hooks can cause catastrophic ACL, MCL, and meniscus tears with minimal warning. Slow application in training gives partners adequate time to recognize the danger and tap safely, preventing career-ending injuries.
 

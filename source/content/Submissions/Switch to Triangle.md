@@ -147,14 +147,12 @@ description: "Master the Switch to Triangle in BJJ. Safety protocols, guard setu
 
 
 
-> Switch to Triangle is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Switch to Triangle targets the Carotid arteries and jugular veins. Risk: Neck strain or cervical spine compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Switch to Triangle?
 
 The Switch to Triangle represents a fundamental transition technique in Brazilian Jiu-Jitsu guard work, allowing practitioners to convert from various guard attacks or defensive positions into a high-percentage triangle choke configuration. This technique capitalizes on opponent defensive reactions, particularly when they defend initial armbar attempts, guillotine setups, or omoplata attacks by pulling their arm free or posturing. The switch leverages the principle of attacking in sequences rather than singular techniques, creating dilemmas where every defensive choice opens another offensive pathway. The mechanics involve rapidly transitioning leg positioning while maintaining arm control, using hip angle adjustment and leg threading to secure the triangle configuration before the opponent can counter-posture or extract their trapped arm. Understanding this transition is essential for developing a cohesive guard game where techniques flow seamlessly into one another, dramatically increasing submission success rates by attacking combinations rather than isolated attempts. The technique works across multiple guard variations including closed guard, open guard, rubber guard, and spider guard, making it a versatile weapon in any guard player's arsenal.
 
@@ -235,7 +233,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish initial control and break posture**: From your guard position (closed, open, or spider), break your opponent's posture forward by pulling on their collar, sleeve, or head while simultaneously scooting your hips toward them. Secure a strong grip on one of their arms - typically an overhook on their defending arm or a wrist control if they're posting. Your goal is to compromise their base and bring their upper body within range for leg positioning. (Timing: 1-2 seconds) [Pressure: Firm]
 2. **Create angle and initiate leg threading**: Hip escape to create a 45-90 degree angle relative to your opponent's centerline. This angle is critical for effective leg placement. Simultaneously begin threading your leg (same side as the arm you're controlling) up and across the back of their neck. Your shin should contact the back of their neck while your foot aims toward their opposite shoulder. Maintain constant forward pull on their posture to prevent them from sitting back. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Secure the trapped arm position**: As your leg crosses the back of their neck, actively pull their controlled arm across your body centerline, ensuring it ends up on the inside of your leg that's crossing their neck. This trapped arm positioning is essential - their arm must be inside your leg configuration for the choke to work. Use your hand grip to guide their arm into proper position while your leg begins to secure it. Many beginners fail here by allowing the arm to slip to the outside. (Timing: 1 second) [Pressure: Firm]
@@ -300,7 +298,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for tightening the triangle choke during training, and why is this safety protocol critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 3-5 seconds of slow, progressive pressure during training. This is critical because it gives your training partner clear opportunity to recognize the danger, tap early, and prevents sudden pressure spikes that could cause neck injury or loss of consciousness without warning. Blood chokes can render someone unconscious in 5-10 seconds, so training application must be slower than competition to prioritize safety and maintain training culture.
 

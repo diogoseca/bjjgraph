@@ -147,14 +147,12 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 
 
 
-> Kimura from Half Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kimura from Half Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura from Half Guard?
 
 The **Kimura from Half Guard** is one of the most versatile shoulder locks in Brazilian Jiu-Jitsu, applicable from both top and bottom positions. From bottom half guard, the Kimura serves as a powerful sweep, back take, and submission threat that capitalizes on the opponent's commitment to passing. The technique exploits the natural underhook battle that occurs in half guard, transforming defensive frames into offensive attack chains. The submission targets the shoulder joint through a figure-four grip configuration, creating rotational pressure on the glenohumeral joint and surrounding connective tissue. What makes this variation particularly effective is its capacity to create dilemmas: opponents must choose between defending the submission, preventing the sweep, or stopping the back take. This multi-threat system exemplifies modern half guard strategy, where single techniques branch into complete attacking sequences based on defensive reactions.
 
@@ -237,7 +235,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Underhook and Wrist Control**: From bottom half guard, establish a deep underhook on opponent's far arm while they attempt to crossface or consolidate top position. With your free hand, grip their wrist of the underhook arm (creating 2-on-1 control). This initial control prevents them from withdrawing the arm and sets up the figure-four entry. Keep your head tight to their chest to prevent them from driving forward with shoulder pressure. (Timing: Initial setup phase) [Pressure: Moderate]
 2. **Create Space and Swim Figure-Four**: Create a small frame with your underhook side elbow against their hip while pulling their wrist across your centerline. This generates the space needed to swim your underhook hand through and grab your own wrist, completing the figure-four grip. The opponent's arm should form roughly a 90-degree angle at the elbow. Ensure their elbow stays tight to their body (not posting on mat) which maintains vulnerability. (Timing: 2-3 seconds) [Pressure: Moderate]
 3. **Secure Figure-Four and Hip Connection**: Lock in the figure-four grip configuration with your palm-to-palm or wrist-to-wrist connection. Simultaneously close distance and reconnect your chest to their chest, eliminating space they could use to roll forward. Your half guard legs should be actively controlling their trapped leg. This hip-to-hip connection is critical - without it, they can granby roll forward and escape before you can apply pressure. (Timing: 1-2 seconds) [Pressure: Firm]
@@ -302,7 +300,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for shoulder rotation during training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 3-5 seconds of progressive, smooth rotation. This is critical because the shoulder joint is extremely vulnerable to sudden torque, and rapid application can cause rotator cuff tears, shoulder dislocation, or labral damage before the partner has time to recognize the danger and tap. Slow application in training protects your partner's long-term health while still teaching proper finishing mechanics. Competition speed is faster but should never involve jerking motions.
 

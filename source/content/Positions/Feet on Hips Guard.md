@@ -8,7 +8,7 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Feet on Hips Guard?
 
 Feet on Hips Guard represents one of the most fundamental distance management positions in Brazilian Jiu-Jitsu, where the guard player places both feet on the opponent's hip bones to create controllable space. This position serves as a critical gateway between closed guard and more advanced open guard systems, teaching practitioners the essential principle that effective guard play relies on leg frames rather than grip strength alone. The feet-on-hips configuration provides immediate defensive structure while maintaining maximum mobility for transitions, sweeps, and submissions.
 
@@ -52,7 +50,7 @@ The position excels against standing and combat base opponents, using leg extens
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -66,7 +64,7 @@ The position excels against standing and combat base opponents, using leg extens
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium to Long |
 
-**What Makes This Unique:** Leg frames maximize mobility and transitions
+**Key Difference:** Leg frames maximize mobility and transitions
 
 
 
@@ -78,10 +76,6 @@ The position excels against standing and combat base opponents, using leg extens
 ## Playing as Bottom
 
 [[Feet on Hips Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -173,10 +167,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Feet on Hips Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -253,7 +243,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -8,7 +8,7 @@ description: "Master the leg drag position in BJJ with comprehensive coverage of
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master the leg drag position in BJJ with comprehensive coverage of
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Leg Drag Position?
 
 The leg drag position is one of the most versatile and effective passing positions in modern Brazilian Jiu-Jitsu. It represents a critical transitional state where the top practitioner has successfully controlled one of the bottom player's legs and dragged it across their body, disrupting the guard structure while maintaining a strategic angle of attack. This position creates multiple offensive opportunities including direct passes to side control, transitions to the back, and knee slice variations.
 
@@ -54,7 +52,7 @@ Historically, the leg drag evolved from traditional gi passing but has found eve
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -68,7 +66,7 @@ Historically, the leg drag evolved from traditional gi passing but has found eve
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Hip control removes guard retention options
+**Key Difference:** Hip control removes guard retention options
 
 
 
@@ -80,10 +78,6 @@ Historically, the leg drag evolved from traditional gi passing but has found eve
 ## Playing as Bottom
 
 [[Leg Drag Position/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -153,10 +147,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Leg Drag Position/Top|→ Full Top Guide]]
-
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
 
 ### Key Principles
 
@@ -231,7 +221,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

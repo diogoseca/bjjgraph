@@ -159,14 +159,10 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
 
 
 
-> Double Leg Setup transitions from [[Standing Position]] to [[Double Leg Entry]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Double Leg Setup?
 
 The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-Jitsu that creates the optimal conditions for executing a double leg takedown. This preparatory sequence focuses on controlling distance, manipulating opponent reactions, and establishing proper positioning before committing to the explosive penetration step. The setup phase is arguably more important than the finish itself, as it determines whether you'll achieve a clean takedown or expose yourself to sprawl defense and guillotine attacks. Effective setup work involves a combination of grip fighting, level changes, angle creation, and timing that forces your opponent into defensive postures while creating offensive opportunities. The modern approach to double leg setups emphasizes tactical entries over purely athletic explosiveness, making it accessible to practitioners of all physical abilities. Understanding the setup mechanics allows you to chain together multiple takedown attempts, use feints to create openings, and seamlessly transition between standing and ground techniques when opportunities arise.
 
@@ -205,7 +201,7 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: Secure a collar tie with your lead hand, placing it behind opponent's neck with fingers interlaced. Simultaneously control their wrist or sleeve with your rear hand, creating a connected grip system that limits their defensive options and allows you to manipulate their posture. (Timing: Initial contact phase)
 2. **Create distance and angle**: Step your lead foot to the outside of opponent's lead foot, approximately 45 degrees off their centerline. This lateral positioning creates an angle that opens up the shooting lane while making it difficult for them to sprawl directly backward over your entry. (Timing: Setup positioning)
 3. **Execute upper body feint**: Push or pull with your collar tie to create a reactive response from your opponent. A forward push often causes them to push back, while a pull creates forward momentum. These reactions momentarily compromise their defensive readiness and weight distribution. (Timing: Reaction creation phase)
@@ -299,7 +295,7 @@ Engage in full-intensity standing-only rounds where both partners attempt takedo
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of establishing grip control before attempting a double leg setup?
 **A**: Grip control serves multiple functions: it prevents opponent from creating distance or frames, allows you to manipulate their posture and create reactions, limits their defensive options by controlling their upper body, and provides tactical information about their weight distribution and defensive tendencies. Without grips, opponent can easily move away from your attack line or establish defensive structures before you complete your penetration.
 

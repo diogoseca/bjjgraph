@@ -8,7 +8,7 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 48%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is De La Riva Guard from the Top?
 
 De La Riva Guard Top position occurs when the top practitioner is facing an opponent playing De La Riva (DLR) guard, where the bottom player has their outside leg hooked behind the top player's near leg while controlling the pants or ankle, with their other leg typically managing distance or controlling the opposite side. The top player's goal is to neutralize the DLR hooks and leg controls, pass the guard, and establish a dominant position. This requires understanding DLR mechanics, applying appropriate pressure, and choosing the right passing strategy based on the bottom player's grips and positioning.
 
@@ -433,17 +412,17 @@ Partner plays active DLR guard with full resistance. Top player drills passing c
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 De La Riva guard presents a fascinating biomechanical problem that requires systematic understanding to solve consistently. The DLR hook creates a mechanical disadvantage by establishing a fulcrum point behind your leg combined with grip-based pulling force, creating rotational leverage that can off-balance even the most athletic practitioners if proper countermeasures aren't employed. The key insight is that DLR operates on a principle of angular control - the bottom player seeks to maintain a perpendicular hip angle relative to your torso, which maximizes their leverage while minimizing yours. Your primary objective isn't simply to pass, but rather to first neutralize this angular advantage by flattening their hips or forcing them to face you squarely. Once you've removed the perpendicular angle, the DLR hook loses most of its sweeping power and becomes merely a positional inconvenience rather than a serious threat. The secondary consideration is grip control - the ankle or pants grip provides the pulling force that, when combined with the hook's pushing force, creates the scissoring action that sweeps you. Strip this grip and you've removed half the equation. Modern DLR passing has evolved to include leg entanglement opportunities, particularly when the opponent inverts for berimbolo attempts, creating windows for saddle entries that can result in immediate submissions. The most effective passers treat DLR not as a single position to overcome, but as a dynamic system with multiple states, each requiring specific technical solutions based on hip angle, grip configuration, and the opponent's immediate intentions.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 I pass DLR by immediately attacking the hook leg with aggressive intention and technical precision. My approach is to grab that shin and either backstep explosively to remove the hook and take the back, or smash it across their body for a leg drag that leads directly to passing opportunities. The key is being explosive and committed - tentative DLR passing gets you swept every time because you're stuck in the danger zone where their leverage is maximum. I also like creating distance first, letting them extend their legs and structure, then diving in hard with the pass when their structure is stretched and they can't generate the same power with the hook. DLR is dangerous at mid-range but weak at both close range where you can smash and pressure, and far range where they're extended and their hook loses effectiveness. Another thing I focus on heavily is not allowing them to establish their rhythm and grips. I'm constantly stripping grips, changing my stance, and forcing them to adjust. If they do get me off-balance, I have trained responses - immediate base recovery, posting the far leg, or transitioning to leg attacks if they invert. In competition, I've found that most DLR players have predictable patterns - they'll either try to sweep forward, attempt berimbolo, or transition to X-guard or single leg X. Once you recognize which pattern they prefer, you can anticipate and counter before they fully commit. The best DLR passers are proactive, not reactive - you dictate the engagement, not them.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 DLR can be a nightmare if you don't know what you're doing, but once you understand the mechanics it becomes very manageable. In 10th Planet, we drill specific DLR counters extensively because so many competitors use it at the highest levels. The main thing is don't let them establish their rhythm and control. Pressure their non-hooked leg immediately, strip grips aggressively, and don't give them time to set up berimbolo or sweep entries. One thing I teach is to think about DLR as a position where time is your enemy - the longer you stay in it, the more opportunities they have to sweep or attack. So your mentality should be constant forward progress toward passing, not cautious position holding. If they do get you off-balance, be ready to sprawl or base out immediately with trained reactions. We also look for unconventional counters like transitioning to leg attacks when they invert, or using their DLR hook against them by stepping over and applying pressure to create leg entanglements. DLR rewards patience from the bottom but punishes hesitation from the top. You need to be aggressive, technical, and willing to engage rather than trying to maintain safe distance. The other key is having multiple passing options ready - if your toreando gets shut down, immediately flow to knee slice or leg drag. Chain your passes together and don't let them reset. Most people fail at DLR passing because they commit to one technique and force it even when it's not working. Be fluid, recognize when something isn't there, and smoothly transition to your next option.
 

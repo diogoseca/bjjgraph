@@ -147,14 +147,12 @@ description: "Master Armbar from Side Control in BJJ. Complete guide with safety
 
 
 
-> Armbar from Side Control is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Armbar from Side Control targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Armbar from Side Control?
 
 The Armbar from Side Control is a fundamental finishing technique that targets the elbow joint through hyperextension. This submission capitalizes on the top player's dominant position and the control established in side control, making it one of the most reliable joint locks in Brazilian Jiu-Jitsu. The technique works by isolating the opponent's arm, typically the near arm, and creating a fulcrum across your hips while extending their elbow beyond its natural range of motion. The effectiveness of this armbar lies in the combination of positional control and precise technical execution. Unlike the armbar from mount or guard, the side control variation requires careful attention to maintaining weight distribution and preventing the opponent from turning into you or escaping their hips. The submission can be entered from various side control variations including standard side control, kesa gatame, and north-south position, making it a versatile finishing option from top position.
 
@@ -238,7 +236,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish tight side control**: Begin in standard side control with your chest heavy on the opponent's chest. Secure a strong cross face with your near arm, driving your shoulder into their jaw while your far arm controls their far hip. Your weight should be distributed to prevent any bridging or shrimping movement. Ensure your hips are low and your knees are wide for maximum base. (Timing: Establish control for 3-5 seconds before transitioning) [Pressure: Firm]
 2. **Isolate the near arm**: Transition your cross face arm to control the opponent's near arm at the wrist or forearm. Use your chest pressure to pin their arm across their body or bring it slightly away from their torso. Your other hand maintains control of the far hip. The goal is to make the near arm completely isolated and unable to defend. If the opponent grips their own belt or gi, use your weight to break the grip before proceeding. (Timing: 2-3 seconds to break grips and isolate) [Pressure: Firm]
 3. **Step over the head**: While maintaining control of the isolated arm, step your leg nearest to the opponent's head over their face. Your shin should rest across their forehead or neck area, with your knee pointing toward their far shoulder. This step must be deliberate and controlled - do not jump or rush. Keep constant downward pressure with your chest to prevent them from following you or sitting up. Your other leg may post out temporarily for base during this transition. (Timing: 1-2 seconds for controlled transition) [Pressure: Moderate]
@@ -306,7 +304,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for an armbar in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 3-5 seconds of progressive pressure. This is critical because it gives your training partner adequate time to recognize the submission and tap before injury occurs. Elbow joints can be severely damaged in a fraction of a second if jerked or spiked, so slow, controlled application is essential for safety and allows both practitioners to learn the technique properly without fear of injury.
 

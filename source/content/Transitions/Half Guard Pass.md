@@ -147,14 +147,10 @@ description: "Master the Half Guard Pass in BJJ. Systematic approach from Half G
 
 
 
-> Half Guard Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Half Guard Pass?
 
 The Half Guard Pass is one of the most essential techniques in Brazilian Jiu-Jitsu, representing the fundamental challenge of progressing from the half guard top position to full side control. This technique encompasses a systematic approach to defeating the bottom player's defensive structure, which includes their leg entanglement, underhook battles, and frame creation. Understanding the half guard pass is crucial because half guard represents one of the most common positions in modern BJJ, serving as a key battleground between the top player's passing efforts and the bottom player's retention and sweeping attacks.
 
@@ -198,7 +194,7 @@ Successful half guard passing requires a combination of technical precision, pre
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish upper body control**: From half guard top, immediately work to establish a strong crossface by driving your shoulder across opponent's face toward the far side of the mat. Alternatively, secure an underhook on the far side by swimming your arm underneath their arm and connecting your hands in a gable grip or seat belt configuration. Your chest should be heavy on their chest, limiting their ability to create frames or recover guard. (Timing: Initial setup - first 2-3 seconds of engagement)
 2. **Win the underhook battle**: If opponent has an underhook on your near side, address this immediately by either whizzering over their arm (overhooking) and driving your weight onto their shoulder, or by stripping their underhook using your crossface-side hand to peel their grip from your body. The underhook battle is critical - if opponent maintains the underhook, they can execute sweeps and back takes. Your goal is either to remove their underhook or neutralize its effectiveness through superior shoulder pressure. (Timing: Continuous battle throughout the pass)
 3. **Clear the knee shield (if present)**: If opponent establishes a knee shield frame with their top leg, use your crossface-side hand to control their knee, pushing it down toward the mat while simultaneously driving your hips forward. Alternatively, step your outside leg over their knee shield to establish a headquarters or knee slice position. Some advanced passers choose to go under the knee shield by lowering their hips and driving forward, but this requires excellent pressure and timing to avoid being swept. (Timing: Mid-pass, after establishing upper body dominance)
@@ -296,7 +292,7 @@ Regularly practice specific sparring starting from half guard top with various p
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to establish upper body control before attempting to free your trapped leg in half guard?
 **A**: Upper body control prevents the bottom player from creating frames, recovering full guard, or using hip mobility to execute sweeps. Without controlling their upper body first, any attempt to free your leg will likely fail because they can simply follow your movement with their hips and legs. The pass is won with chest pressure and head control, not by forcefully yanking your leg free. Proper upper body dominance limits their mobility and creates the foundation for successful leg extraction.
 

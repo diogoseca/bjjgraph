@@ -8,7 +8,7 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee on Belly?
 
 Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness.
 
@@ -42,7 +40,7 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -56,7 +54,7 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**What Makes This Unique:** Mobile pressure trading stability for speed
+**Key Difference:** Mobile pressure trading stability for speed
 
 
 
@@ -68,10 +66,6 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ## Playing as Bottom
 
 [[Knee on Belly/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -157,10 +151,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Knee on Belly/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -236,7 +226,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

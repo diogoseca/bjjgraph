@@ -8,7 +8,7 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 60% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Russian Cowboy from the Bottom?
 
 Defending the Russian Cowboy position requires understanding the unique threats posed by this asymmetric back control variant. Unlike traditional back control where both hooks are established, the Russian Cowboy's single-hook configuration creates specific vulnerabilities that the bottom practitioner can exploit. The primary defensive challenge stems from the position's transitional nature—the top player can quickly advance to truck position, establish full back control, or attack with submissions, making defensive prioritization crucial.
 
@@ -431,17 +412,17 @@ Partner establishes Russian Cowboy then periodically loosens control. Practice r
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Defending the Russian Cowboy requires understanding that you're dealing with a hybrid control system that combines back control mechanics with leg entanglement principles. The primary defensive error I observe is practitioners treating this as either pure back control or pure leg entanglement, when in fact it requires a integrated defensive approach that addresses both simultaneously. The biomechanical reality is that the single hook creates an asymmetric loading pattern that you must exploit—the opponent's control is stronger on one side than the other, and intelligent defense involves turning into the weaker control side while maintaining defensive frames. The key technical insight is that unlike traditional back defense where you're primarily concerned with hand fighting and hip movement, Russian Cowboy defense requires managing the leg hook as your first priority after neck protection, because that hook is the gateway to truck position and the entire twister system. Your defensive sequence should be: protect neck, control hooking leg, create frames, execute escape. Any deviation from this hierarchy significantly reduces escape probability.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From my competition experience, the Russian Cowboy is one of those positions where you have maybe a 10-15 second window to escape before it transitions into something much worse like the truck or full back control. What I've learned through hard experience is that you cannot be passive in this position—every second you wait, the top player is adjusting their controls and setting up their attack sequence. The most effective defense I've found is aggressive hand fighting combined with constant hip movement to prevent the position from settling. When you feel that single hook go in, you need to immediately start addressing it while simultaneously protecting your neck. In competition, I've seen too many high-level guys lose because they got caught in Russian Cowboy and tried to defend statically instead of creating movement and frames. The reality is that this position is specifically designed to break down passive defense, so your mindset has to be proactive escape rather than survival. Work your frames, turn into the free leg side, and never stop moving until you've recovered guard or achieved standing position.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Russian Cowboy is a huge part of our game at 10th Planet, so I've seen every defensive approach imaginable. The guys who successfully defend this position understand that the single hook is both the opponent's strength and weakness—it gives them control but also creates an escape path that doesn't exist with both hooks in. What you need to do is use that asymmetry to your advantage by turning into the free leg side while keeping your frames strong. The biggest mistake I see is people rolling away from the hook trying to escape, which is exactly what we want because it feeds straight into the truck position. Instead, you've got to turn in, establish frames, and use your hip movement to extract that hooked leg. The other critical thing is never, ever stop moving in this position. The moment you become static, we're setting up the twister or calf slicer and your options become extremely limited. Keep your defensive movement unpredictable, protect that neck with your life, and work systematically to address the hook and the upper body control in sequence. If you can make it back to half guard or turtle, you've survived one of the most dangerous positions in no-gi grappling.
 

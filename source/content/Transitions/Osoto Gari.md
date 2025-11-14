@@ -147,14 +147,10 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 
 
 
-> Osoto Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 55%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Osoto Gari?
 
 Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successfully integrated into Brazilian Jiu-Jitsu as a high-percentage standing technique. This technique involves reaping your opponent's weight-bearing leg from the outside while simultaneously driving their upper body backward, creating a powerful off-balancing motion that results in a controlled takedown. The beauty of Osoto Gari lies in its simplicity and effectiveness - it requires minimal setup compared to other throws and can be executed from various gripping configurations. In the BJJ context, Osoto Gari is particularly valuable because it allows the practitioner to maintain upper body control throughout the throw, often landing directly in dominant positions such as Side Control or Scarf Hold (Kesa Gatame). The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. Unlike many judo throws that require extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively when the opponent is slightly forward-weighted, making it an excellent counter-attacking technique.
 
@@ -194,7 +190,7 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish dominant grips**: Secure a high collar grip with your right hand (for right-sided throw), gripping deep into the lapel near the collarbone. Your left hand controls the opponent's right sleeve at the elbow or tricep. Pull opponent slightly forward to test their balance and establish control. These grips must be firm and active, not passive, as they will control the entire throwing motion. (Timing: Take 2-3 seconds to establish and test grips before committing to the throw)
 2. **Close distance and align hips**: Step forward with your left foot, positioning it slightly outside and ahead of opponent's right foot. Simultaneously pull with both grips to bring opponent's upper body closer to yours. Your hips should now be nearly touching opponent's hips, with your chest making contact with their chest. This hip-to-hip alignment is critical for power generation and control. (Timing: Execute as one smooth motion immediately after establishing grips)
 3. **Load the supporting leg**: Bend your left knee (supporting leg) and shift your weight onto it, creating a loaded spring-like position. Your right leg should be light and ready to sweep. The loading phase involves dropping your hips slightly while maintaining upright posture in your upper body. This creates the elastic energy that will drive the throw. (Timing: Brief loading phase of less than one second)
@@ -285,7 +281,7 @@ Full resistance standing sparring with emphasis on Osoto Gari as part of your ta
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of the loading phase on your supporting leg before executing Osoto Gari?
 **A**: The loading phase creates elastic energy by bending the supporting leg and shifting weight onto it, similar to compressing a spring. This loaded position generates the explosive power needed to drive through the throw while maintaining balance. Without proper loading, the technique becomes flat and lacks the dynamic force required to off-balance a resisting opponent. The loading phase also allows for rapid weight transfer and creates the mechanical advantage necessary for effective execution.
 

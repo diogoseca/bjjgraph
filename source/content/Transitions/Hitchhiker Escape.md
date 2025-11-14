@@ -153,14 +153,10 @@ description: "Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar
 
 
 
-> Hitchhiker Escape transitions from [[Armbar Control]] to [[Defensive Position]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Hitchhiker Escape?
 
 The Hitchhiker Escape is an advanced defensive technique used to escape from a fully extended armbar attack by exploiting rotational mechanics and timing. This escape requires exceptional flexibility, precise timing, and deep understanding of leverage principles. The technique involves rotating the thumb outward (the 'hitchhiker' motion) while simultaneously turning into the opponent and creating space to recover guard. While primarily associated with high-level competition and no-gi grappling, the Hitchhiker Escape represents a last-resort defensive option when positional escapes have failed and the armbar is nearly locked. The escape is particularly effective against opponents who rely purely on extension without proper shoulder control, as it exploits the natural weakness in the grip when the thumb is pointed away from the body. Success requires reading the opponent's finishing mechanics and executing the rotation at the precise moment before full extension is achieved.
 
@@ -199,7 +195,7 @@ The Hitchhiker Escape is an advanced defensive technique used to escape from a f
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize the window**: Immediately assess the armbar position and identify if escape is viable. Your arm should still have a slight bend - if fully extended, tap immediately. Check opponent's hip position and leg pressure to determine if rotation space exists. (Timing: Within 1-2 seconds of armbar being applied)
 2. **Thumb rotation (hitchhiker)**: Rotate your trapped arm's thumb outward and away from your body, mimicking a hitchhiker's gesture. This rotation reduces direct pressure on the elbow joint by changing the angle of attack. The thumb should point toward the ceiling or away from opponent's body. (Timing: Immediate - before opponent can fully extend)
 3. **Turn into opponent**: Simultaneously turn your entire body toward the opponent, rotating your shoulders and hips in the direction of the trapped arm. This counter-intuitive movement actually reduces joint stress by changing the leverage angle. Your chest should turn to face opponent's legs. (Timing: Coordinated with thumb rotation in one fluid motion)
@@ -289,7 +285,7 @@ Attempt the escape during regular sparring when opportunities arise. Develop jud
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical timing factor for executing the Hitchhiker Escape successfully?
 **A**: The escape must be executed before the arm reaches full extension. Once the elbow is completely straight, the escape becomes exponentially more dangerous and difficult. The optimal window is when there's still a slight bend in the arm and before opponent achieves maximum hip extension.
 

@@ -147,14 +147,10 @@ description: "Master the Hip Bump Sweep from Closed Guard. Complete guide with s
 
 
 
-> Hip Bump Sweep V2 transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Hip Bump Sweep V2?
 
 The Hip Bump Sweep is a fundamental attacking technique from closed guard that exploits an opponent's broken posture and forward weight distribution. This sweep creates an angular attack by using hip movement to off-balance the opponent laterally, resulting in a reversal to the mount position. The technique is particularly effective when the opponent resists backward pressure by posting their hands or driving their weight forward.
 
@@ -197,7 +193,7 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Break posture and establish grips**: From closed guard, use collar or head control to break opponent's posture forward. Simultaneously grip their right wrist or sleeve with your left hand. Pull opponent's head down toward your chest while maintaining tight guard closure. (Timing: Initial setup, no time pressure)
 2. **Open guard and post your right hand**: Release your ankle lock and bring your right leg out from around opponent's back. Plant your right hand on the mat approximately 12 inches from your hip at a 45-degree angle, creating a strong posting base. (Timing: Smooth transition, 1-2 seconds)
 3. **Sit up and create angle**: Using your posted right hand, sit up into your opponent while simultaneously rotating your hips to the left. Your chest should come up to meet opponent's right shoulder. Your left arm maintains control of their right wrist, pinning it to your chest. (Timing: Explosive sit-up, immediate)
@@ -291,7 +287,7 @@ Use hip bump sweep during regular sparring and competition training. Focus on re
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the hip bump sweep effective?
 **A**: The hip bump sweep works by creating an angular off-balancing moment that eliminates the opponent's ability to post effectively. By driving your hips up and laterally while controlling their arm and shoulder, you create a rotational force perpendicular to their base, making it impossible to maintain structure even with one free hand. The angle disrupts their weight distribution and removes posting options.
 

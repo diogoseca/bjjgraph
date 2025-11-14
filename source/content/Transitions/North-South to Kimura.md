@@ -147,14 +147,10 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
 
 
 
-> North-South to Kimura transitions from [[North-South]] to [[Kimura Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is North-South to Kimura?
 
 The North-South to Kimura transition represents a fundamental attacking sequence from one of BJJ's most dominant control positions. From North-South position, the practitioner isolates the opponent's arm and transitions to the Kimura control position, threatening a high-percentage shoulder lock submission. This technique capitalizes on the superior weight distribution and control inherent to the North-South position, where the opponent's defensive frames are compromised and their shoulders are vulnerable to attack. The transition requires precise timing and grip control, as the practitioner must maintain chest-to-chest pressure while manipulating the opponent's arm into the characteristic figure-four Kimura grip. Once established, the Kimura control offers multiple finishing options, sweep opportunities, and transitions to other dominant positions, making this a versatile and essential technique for any top game specialist. The position's effectiveness stems from the mechanical advantage created by controlling the opponent's shoulder joint while their mobility is restricted by your body weight.
 
@@ -193,7 +189,7 @@ The North-South to Kimura transition represents a fundamental attacking sequence
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure North-South control**: Establish dominant North-South position with your chest pressing firmly into opponent's chest. Your head should be positioned low, near their far hip, with your arms wrapped around their torso or controlling their arms. Distribute your weight evenly with knees wide for maximum base and control. (Timing: Initial control phase)
 2. **Isolate the near-side arm**: Slide your near-side hand under the opponent's near-side arm, reaching for their wrist or forearm. Use your chest pressure to pin their arm against their body, preventing them from pulling it back to safety. Your far-side arm continues to control their far shoulder or head to maintain position. (Timing: As opponent attempts to frame or push)
 3. **Feed the arm across**: Pull the opponent's wrist across their own body using your near-side hand, positioning their arm so the back of their hand is against their far shoulder or neck. This creates the necessary angle for the Kimura grip. Maintain downward pressure with your chest to prevent them from recovering their arm. (Timing: Smooth, controlled movement)
@@ -284,7 +280,7 @@ Experiment with entries from different North-South variations, use the Kimura th
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of maintaining chest-to-chest pressure during the North-South to Kimura transition?
 **A**: Chest-to-chest pressure serves multiple critical functions: it prevents the opponent from creating space to escape, limits their ability to bridge or turn effectively, keeps their shoulders pinned to the mat making arm isolation easier, and maintains your dominant position throughout the transition. Without constant pressure, the opponent can use bridging or turning movements to escape before you secure the Kimura grip.
 

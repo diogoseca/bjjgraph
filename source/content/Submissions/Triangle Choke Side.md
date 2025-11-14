@@ -153,14 +153,12 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 
 
 
-> Triangle Choke Side is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle Choke Side targets the Carotid arteries and jugular veins. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle Choke Side?
 
 The Triangle Choke Side (also called Side Triangle or Kata Gatame Triangle) is an advanced variation of the traditional triangle choke executed from top positions, most commonly from side control or north-south transitions. Unlike the standard triangle from guard where the defender is between the attacker's legs, the side triangle traps one of the opponent's arms across their own neck while the attacker's legs create the choking mechanism from a perpendicular angle.
 
@@ -250,7 +248,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Isolate and trap opponent's near arm**: From side control or north-south position, use your upper body control to guide opponent's near-side arm across their own neck and centerline. This is often accomplished by pressuring their far shoulder, causing them to frame with their near arm, or by directly controlling their wrist and threading it across. The arm must cross past their centerline to create the choking angle. (Timing: 1-2 seconds - requires reading opponent's defensive reactions) [Pressure: Moderate]
 2. **Secure trapped arm position with chest pressure**: Once the arm is isolated across their neck, use your chest or shoulder pressure to pin it in place temporarily while you transition your legs. Your upper body should maintain enough pressure to prevent them from pulling the arm back, but not so much that you cannot move your hips freely. This is a critical transition moment where balance is essential. (Timing: 1 second) [Pressure: Firm]
 3. **Swing near leg over opponent's head and neck**: From your side control or north-south position, swing your near-side leg (the leg closest to opponent's head) over their head and across the back of their neck. Your shin should make contact with the back of their neck while your knee is positioned near their far shoulder. This requires lifting your hips and potentially using your hands on the mat for base during the transition. (Timing: 1-2 seconds - dynamic movement requiring coordination) [Pressure: Light]
@@ -317,7 +315,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary difference between a traditional bottom triangle and a side triangle in terms of body positioning and angle?
 **A**: The traditional bottom triangle is applied from a parallel position with the attacker's body aligned with the opponent's torso and the attacker between the opponent's legs. The side triangle is applied from a perpendicular (90-degree) angle with the attacker's hips positioned toward the opponent's head and the attacker's body forming a 'T' shape with the opponent. This perpendicular angle is critical for proper compression in the side triangle, as it changes the direction of pressure on the neck and requires different mechanics to finish effectively.
 

@@ -8,7 +8,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 50%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Estima Lock from the Top?
 
 The Estima Lock Top Position is an advanced leg attack position where the top practitioner controls the opponent's foot and ankle, applying rotational pressure to the ankle joint through an inverted grip configuration. Named after the Estima brothers who popularized this technique in high-level competition, this position represents a specialized foot lock that combines elements of traditional ankle locks with unique rotational mechanics that distinguish it from conventional straight ankle attacks. From the top position, the practitioner maintains superior control while isolating the opponent's leg, creating a direct path to submission through proper mechanical application.
 
@@ -448,17 +427,17 @@ Start from established Estima Lock Top Position. Bottom player works to escape u
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The Estima Lock Top Position represents a sophisticated understanding of leg entanglement mechanics where rotational force is applied to the ankle joint through a specific grip configuration that differs fundamentally from conventional ankle attacks. The key to this position lies in understanding that the forearm acts as a fulcrum across the dorsal surface of the foot, while the hands control the heel and create the rotational vector through coordinated pressure application. From the top position, you have superior mechanical advantage because gravity assists your pressure and the opponent's defensive options are severely limited by their supine position and leg isolation. The technical execution requires precise hand placement where one hand cups the heel creating a fixed point while the other reinforces the wrist, forming a frame that allows the forearm to bite into the foot's instep with maximum efficiency. This is not merely a foot lock but a comprehensive control position that opens multiple submission pathways including toe holds, straight ankle locks, and transitions to more dominant leg entanglements like the saddle position. The position's effectiveness multiplies when integrated into systematic leg attack sequences where each defensive reaction creates new offensive opportunities.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, the Estima Lock Top Position is a high-percentage attack when you've already established leg entanglement dominance and your opponent is defending conventional ashi garami attacks. I use this primarily as a finishing position when I've broken down the opponent's leg defense structure and they're flat on their back trying to extract their foot without success. The top position gives you complete control because you can use your body weight to pin their leg while attacking the ankle with both mechanical advantage and gravitational assistance. What makes this effective at the highest levels is that it's often unexpected—most opponents are defending against heel hooks and knee bars with their mental focus there, so when you switch to the Estima Lock mechanics, they're not prepared for the rotational pressure and the submission comes on quickly. The key is commitment—once you establish the grips with proper configuration, you must be decisive in applying pressure because hesitation allows them to sit up and counter or create escape opportunities. I typically hunt for this after successful leg drag passes or when transitioning through 50-50 positions where their foot becomes exposed during exchanges.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Estima Lock Top Position fits perfectly into the 10th Planet philosophy of always having multiple submission options from any control position and keeping opponents guessing about your next attack. What I love about this attack is that it's completely unconventional and most traditional BJJ practitioners don't train to defend it specifically, which creates massive opportunities in no-gi competition where innovation wins matches. From the top, you're in a dominant position where you can maintain pressure while hunting for the finish, and if they defend the Estima Lock by turning their foot, you've got immediate transitions to toe holds waiting; if they try to sit up to create frames, that opens the backstep into the saddle position for heel hook attacks. The rotational mechanics of the Estima Lock also make it an excellent setup for creating reactions—when they feel that unique ankle pressure building from the inverted grip, they'll often turn their foot away which opens up the toe hold perfectly, or they'll try to sit up aggressively which gives you the saddle entry with minimal resistance. This position embodies the concept of systematic leg attacking where every defense creates a new offensive opportunity and opponents are constantly solving problems. Train it extensively because in live rolling, people freeze when they feel that unique ankle pressure from the inverted configuration—it's unlike anything else they've experienced.
 

@@ -153,14 +153,10 @@ description: "Master the Knee Cut Pass in BJJ. Complete guide from Open Guard to
 
 
 
-> Knee Cut Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Cut Pass?
 
 The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental and high-percentage guard passes in Brazilian Jiu-Jitsu. This technique involves driving your knee across the opponent's thigh line while establishing control over their upper body, effectively bisecting their guard structure and creating a direct path to side control. The knee cut's effectiveness lies in its ability to combine forward pressure with perpendicular movement, making it difficult for the opponent to retain guard once the pass is properly initiated.
 
@@ -203,7 +199,7 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and posture**: From open guard, establish a dominant cross-collar grip with your lead hand (thumb inside) and control the opponent's same-side pants at the knee with your other hand. Maintain upright posture with your chest forward, preventing them from breaking your posture down. Your weight should be centered over your hips, ready to drive forward. (Timing: Begin with stable base before movement)
 2. **Step up to combat base**: Bring your passing-side leg up into combat base position (foot flat on the mat, knee up). Your other leg remains posted with knee down for stability. The standing leg should be positioned slightly wide for balance. Drive your hips forward slightly to begin pressuring their guard structure. (Timing: Transition smoothly to maintain balance)
 3. **Control far leg**: Using your pants grip, pull the opponent's far leg across their body and pin it to the mat. This grip prevents them from inserting hooks or creating defensive frames with that leg. Your grip should be firm on the pants material near the knee, controlling the leg without allowing it to escape or create space. (Timing: Secure control before cutting knee)
@@ -300,7 +296,7 @@ Practice transitioning between knee cut and other passes (leg drag, toreando, ov
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the correct angle for your cutting knee relative to the opponent's body during the knee cut pass?
 **A**: The cutting knee should drive perpendicular (90 degrees) to the opponent's centerline, bisecting their guard structure. This perpendicular angle creates maximum separation between their legs and prevents them from closing their guard or creating effective frames. A parallel or shallow angle allows space for guard recovery.
 

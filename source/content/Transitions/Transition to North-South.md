@@ -147,14 +147,10 @@ description: "Master the North-South transition in BJJ. Control technique from S
 
 
 
-> Transition to North-South transitions from [[Side Control]] to [[North-South]]. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Transition to North-South?
 
 The transition from Side Control to North-South is a fundamental positional advancement that creates new submission opportunities and eliminates defensive frames. This movement maintains maximum pressure while switching your position perpendicular to your opponent, placing your head near their hips and your hips near their head. The North-South position offers unique attacking angles for chokes, kimuras, and armbars while severely limiting your opponent's escape options. Unlike Side Control where opponents can create frames with their near-side arm, North-South removes this defensive tool entirely. The transition is highest percentage when executed as a response to specific defensive movements, particularly when opponents turn into you or attempt to recover guard. Understanding when to transition versus when to maintain Side Control is critical for strategic positional flow.
 
@@ -193,7 +189,7 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure near arm control**: Establish dominant control of opponent's near arm through crossface pressure or underhook grip. This prevents them from creating frames as you transition. Your weight should drive through their shoulder into the mat. (Timing: Before initiating movement)
 2. **Walk feet toward opponent's head**: Begin walking your feet in a semicircular path toward opponent's head while maintaining chest-to-chest contact. Your steps should be small and controlled, never breaking pressure. Keep your hips low and connected throughout the entire walking motion. (Timing: Smooth continuous motion)
 3. **Slide your head across**: As your feet walk around, slide your head and chest across opponent's torso toward their far hip. Maintain constant downward pressure - imagine trying to drive your sternum through their sternum into the mat. Your chin should stay tight to their body. (Timing: Synchronized with foot movement)
@@ -279,7 +275,7 @@ Full positional sparring starting from Side Control. Top player must decide when
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary control point that must be maintained throughout the transition to North-South?
 **A**: Chest-to-chest pressure must be maintained throughout the entire transition. Breaking this connection creates space for opponent to insert frames, recover guard, or escape. Your sternum should remain heavy on their torso from start to finish of the movement.
 

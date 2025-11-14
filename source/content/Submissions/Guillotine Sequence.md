@@ -153,14 +153,12 @@ description: "Master the guillotine sequence in BJJ with systematic entry, contr
 
 
 
-> Guillotine Sequence is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea damage from improper hand placement. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Guillotine Sequence targets the Carotid arteries and trachea. Risk: Trachea damage from improper hand placement. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guillotine Sequence?
 
 The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu-Jitsu's most versatile submission systems. Rather than treating the guillotine as a single technique, this sequence encompasses the complete tactical framework from initial front headlock control through multiple finishing variations and transitions. The sequence begins with establishing dominant head control, typically from standing exchanges, turtle attacks, or guard pulls. From this foundation, the practitioner can flow seamlessly between standard guillotine grips, high elbow variations, arm-in controls, and related submissions like the D'arce and anaconda chokes. What makes this sequence particularly effective is its adaptability across positional contexts - it works standing, from guard, in half guard, and during scrambles. The guillotine sequence exemplifies the principle of submission chains, where one attack creates openings for related techniques, forcing opponents into defensive dilemmas with no safe escape. Understanding this sequence transforms the guillotine from an opportunistic submission into a complete offensive system that can be systematically developed and refined across all skill levels.
 
@@ -244,7 +242,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish front headlock control**: Secure dominant head position with opponent's head trapped under your chest. Your choking arm wraps around the neck while your non-choking hand controls the opponent's far shoulder or back. Keep your hips low and chest heavy to prevent them from standing or pulling their head free. This initial control is the foundation for the entire sequence. (Timing: 0-2 seconds) [Pressure: Moderate]
 2. **Choose appropriate guillotine variation**: Assess the position and select the optimal variation: standard guillotine with locked hands for standing or closed guard, high elbow guillotine for maximum squeeze when pulled to guard, arm-in guillotine if opponent's arm is trapped inside your grip, or ten-finger guillotine for quick finishing opportunities. Your selection depends on opponent's posture, available space, and defensive reactions. (Timing: 2-3 seconds) [Pressure: Light]
 3. **Secure choking grip**: For standard guillotine, your choking arm extends deep around the neck with the blade of your forearm (radius bone side) positioned across both carotid arteries, NOT the trachea. Lock your hands together using gable grip, S-grip, or palm-to-palm grip depending on flexibility and variation. Ensure your elbow is positioned on centerline of opponent's body. For high elbow variation, your choking elbow stays high near your own chest. For arm-in, trap their defensive arm inside your grip. (Timing: 3-4 seconds) [Pressure: Moderate]
@@ -312,7 +310,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must the forearm blade be positioned across the carotid arteries rather than the trachea, and what are the safety implications of incorrect placement? **[SAFETY-CRITICAL]**
 **A**: The forearm blade (radius bone side) must target both carotid arteries on the sides of the neck because this creates a blood choke that induces unconsciousness safely by restricting blood flow to the brain. Choking across the trachea (windpipe) is both less effective and significantly more dangerous - it causes severe pain without inducing unconsciousness, can damage the trachea, creates panic responses in the opponent, and provides no safe tap window. Blood chokes are safer because they work quickly (5-10 seconds) and have no lasting effects when released immediately. Trachea chokes are considered poor technique and carry serious injury risk including crushed windpipe, which can be life-threatening. Proper guillotine technique should never involve significant trachea pressure.
 

@@ -8,7 +8,7 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Ashi Garami from the Bottom?
 
 From the bottom perspective, **Ashi Garami** positions represent offensive leg entanglement opportunities where you control your opponent's leg(s) while maintaining defensive posture against their leg attack attempts. Unlike traditional guard positions that emphasize sweeping or back-taking, Ashi Garami from bottom prioritizes leg control advancement through the positional hierarchy, ultimately reaching dominant finishing positions like **Saddle** or **Cross Ashi-Garami**. The bottom player must simultaneously manage defensive responsibilities (protecting their own heel), offensive opportunities (exposing opponent's heel), and positional advancement (progressing up the hierarchy).
 
@@ -442,17 +423,17 @@ Drill seamless entries from guard positions (SLX, De La Riva, X-Guard) into vari
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The Ashi Garami system represents the most significant technical development in submission grappling over the past two decades. What distinguishes modern leg lock methodology is the systematic, hierarchical approach to position—treating leg entanglements not as desperate scrambles but as controllable positions with clear advancement pathways. The key insight is recognizing that heel exposure and inside space control determine position quality more than position type. A practitioner in Outside Ashi with superior inside control holds better position than an opponent in Inside Ashi without it. Success in these positions requires patience to advance systematically rather than forcing submissions from inferior positions. The bilateral nature of leg entanglements creates unique strategic considerations—both practitioners can attack simultaneously, making defensive awareness equally critical as offensive technique. Master the hierarchy, control inside space, protect your own heel, and the finishing opportunities emerge naturally from superior positioning.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Ashi Garami positions have completely changed high-level no-gi competition. The positions are so dominant because they neutralize size and strength advantages while creating equal or better submission opportunities than traditional top positions. My competition strategy revolves around forcing opponents into leg entanglement exchanges where I have superior technical understanding and positional recognition. The reality is most competitors, even at black belt level, lack comprehensive leg lock defense and position understanding, making these positions incredibly high-percentage for those who invest in systematic study. The key to competition success is patience—I'll hold Outside or Inside Ashi for minutes if necessary, waiting for the precise moment when inside space and heel exposure align for advancement to Saddle or Cross Ashi. Don't force the finish; let superior position create the opportunity. When you have Saddle with proper mechanics, the match is effectively over. Focus on position quality over submission attempts, and your finishing rate will increase dramatically.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The leg lock revolution vindicated what we were exploring in 10th Planet for years—there are entire positional dimensions beyond the traditional top-bottom hierarchy. Ashi Garami positions are beautiful because they create chaos within structure, allowing smaller, technical practitioners to compete with larger, stronger opponents on equal or superior terms. The positions embody the principle of modern grappling: force your opponent into dilemma situations where all their defensive options expose them to different attacks. In 50-50, defending the heel exposes the calf, defending the calf exposes the heel, and attempts to escape create opportunities for positional advancement. What makes these positions revolutionary is how they democratize submission opportunities—you don't need to be Gordon Ryan's size to finish Gordon Ryan-sized opponents when you have Saddle with proper mechanics. The technical equalizer aspect is profound. Train the system comprehensively, not just the flashy finishes, and you'll develop a complete game that works at every level of competition.
 

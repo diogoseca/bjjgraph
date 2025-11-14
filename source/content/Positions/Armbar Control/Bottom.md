@@ -8,7 +8,7 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Armbar Control from the Bottom?
 
 Armbar Control Bottom represents the defensive position where a practitioner is caught in an armbar attempt and must focus on survival, defense, and escape. This is a critical submission defense position requiring immediate technical response to prevent joint damage. The bottom player's primary objectives are protecting the elbow joint, creating defensive frames, and systematically working toward escape or position recovery.
 
@@ -443,17 +424,17 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The armbar defense is fundamentally about understanding the biomechanics of joint manipulation and systematically removing the conditions necessary for the finish. The opponent requires three elements: arm extension, hip pressure on the elbow joint, and leg control preventing your escape. Your defensive strategy must methodically address each element in reverse order of difficulty. First, prevent full arm extension through maintaining flexion - this is your primary survival mechanism. Second, compromise their hip pressure through stacking, turning, or creating angles that reduce force transmission to your elbow. Third, address their leg control by gripping and manipulating the leg across your face. The critical insight is that armbar defense is not about explosive strength but rather systematic removal of mechanical advantages. The thumb-to-ceiling principle strengthens your elbow's resistance to hyperextension by aligning the joint's natural structure against the attack vector. Combined with the connection principle - using your free hand to grip your attacked wrist and pull toward your body - you create a defensive frame that significantly increases the force required for the finish. From this stable defensive position, you can then work specific escapes: the hitchhiker (sliding the elbow across your body to turtle or half guard), the stack (driving forward to compromise their angle), or the roll (turning away to create escape opportunities). Each escape has specific timing windows and mechanical requirements that must be understood and drilled until they become automatic responses to the armbar threat.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, armbar defense is about buying time and creating opportunities while protecting your arm. I've had countless matches where I've defended armbars that looked completely locked in, and the key is never giving up on the position mentally. When someone gets the armbar, immediately go through your checklist: bend the arm, thumb up, grab your own wrist, control their leg. Don't try to do everything at once - methodically work through the steps. The hitchhiker escape is my go-to because it's simple and it works at the highest levels. You're basically sliding your elbow across your centerline while turning to turtle or half guard. The timing is crucial - you want to do this before they get their legs really tight and drop their hips back. If they're already falling back, stacking becomes your best option. Drive your hips forward, get your weight on their lower back, and make them uncomfortable. A lot of times they'll release the armbar to defend the stack or try to transition to triangle, and that's your window. In training, I let people get the armbar deep so I can practice the defense under real pressure. You need to know that feeling of being in danger and still executing technique calmly. Also, recognize when you're actually caught versus when you still have defensive options. There's no shame in tapping to a good armbar, but there's a lot of value in developing the ability to survive and escape positions that look bad. The mental toughness you develop from armbar defense carries over to every other aspect of your game.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Armbar defense is one of those situations where you gotta stay loose and creative while still respecting the danger. The traditional defenses work - hitchhiker, stack, all that - but there are some unconventional approaches that can catch people off guard. One thing I teach is the 'telephone' defense where you literally make a phone gesture with your attacked arm, bringing your thumb to your ear. This extreme rotation can sometimes create enough space to start your escape, especially if they don't have their legs super tight. Another concept is using your free leg to create problems for them - if you can get your foot on their hip or even behind their head, you can create leverage for escapes they're not expecting. The key is not getting predictable with your defense. If everyone knows you're going hitchhiker, they'll adjust their armbar to counter it. Mix in stacks, rolls, and even some explosive movements when the timing is right. In 10th Planet, we also work a lot on the transition game - if they're attacking the armbar, can you somehow get to their back? Can you create a scramble that neutralizes their position? Sometimes the best armbar defense is offense in a different direction. And here's something people don't talk about enough: conditioning your elbows and arms to handle that extended position. Obviously don't let them break your arm, but through careful, progressive training, you can develop resilience and buy yourself more time to escape. The armbar is a powerful submission, but with the right mindset and techniques, you can turn it into just another position to work from rather than an automatic tap.
 

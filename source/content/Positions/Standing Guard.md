@@ -8,7 +8,7 @@ description: "Master Standing Guard in BJJ. Strategic guide covering defensive s
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Standing Guard in BJJ. Strategic guide covering defensive s
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Standing Guard?
 
 Standing Guard represents a critical transitional phase where both practitioners maintain upright postures while engaging in grip fighting and distance management. This position serves as the gateway between initial engagement and ground-based grappling, where strategic decisions about guard pulling, takedown attempts, or continued standup exchanges are made. The position is characterized by active hand fighting, footwork-based positioning, and the constant tension between offensive opportunity and defensive responsibility.
 
@@ -50,7 +48,7 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium |
 
-**What Makes This Unique:** Upright posture for mobility and distance control
+**Key Difference:** Upright posture for mobility and distance control
 
 
 
@@ -76,10 +74,6 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ## Playing as Bottom
 
 [[Standing Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -174,10 +168,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Standing Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -257,7 +247,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

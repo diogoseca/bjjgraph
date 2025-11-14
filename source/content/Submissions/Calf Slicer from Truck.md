@@ -153,14 +153,12 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 
 
 
-> Calf Slicer from Truck is a leg compression lock targeting the Calf muscle and knee joint. ⚠️ **SAFETY**: This technique can cause Calf muscle tear or rupture (gastrocnemius/soleus). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Calf Slicer from Truck targets the Calf muscle and knee joint. Risk: Calf muscle tear or rupture (gastrocnemius/soleus). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Calf Slicer from Truck?
 
 The Calf Slicer from Truck is a high-level compression submission that targets the calf muscle and knee joint simultaneously. Popularized by Eddie Bravo's 10th Planet system, this technique capitalizes on the unique control offered by the Truck position - where you control your opponent's back while they're turned away, with their legs trapped. The submission works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.
 
@@ -247,7 +245,7 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure Truck Position**: From truck position, ensure your opponent is face-down with their back controlled by your chest pressure. Your top leg should be over their hip, and your bottom leg should be threading under their trapped leg. Maintain a harness or seat belt grip on their upper body to prevent them from turning into you. Your weight should be distributed across their back, keeping them flat and unable to establish defensive frames. (Timing: 2-3 seconds to verify position) [Pressure: Moderate]
 2. **Isolate the Target Leg**: Identify which of their legs is trapped in your leg configuration - this is your target leg. Use your bottom leg (the one threading under) to hook deeply around their thigh, pulling it tight to your body. Simultaneously, use your top leg to drive pressure over their hip, rotating their hips away and preventing them from rolling toward you. This isolation prevents them from straightening the leg or extracting it from your control. (Timing: 1-2 seconds) [Pressure: Firm]
 3. **Insert Shin Behind Calf**: Carefully slide your shin (of your bottom leg) behind their calf muscle, positioning the bone directly across the belly of their gastrocnemius. Your shin should be perpendicular to their lower leg, creating a wedge. This requires you to adjust your hip angle slightly - rotate your hips toward their legs while maintaining upper body control. The precise placement is critical: too high (behind the knee) risks joint damage without the compression component; too low (near the achilles) loses effectiveness. (Timing: 2-3 seconds for precise placement) [Pressure: Light]
@@ -316,7 +314,7 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must the shin be placed across the calf muscle rather than behind the knee joint? **[SAFETY-CRITICAL]**
 **A**: Placing the shin across the calf muscle creates a compression submission that targets both the gastrocnemius muscle and the knee joint together, which is the intended mechanism. Placing it behind the knee creates pure ligament stress on the posterior knee structures (PCL and meniscus) without the muscular compression component, dramatically increasing injury risk while reducing effectiveness. The muscle compression is actually the primary pain compliance mechanism, with joint stress being secondary. Proper placement several inches below the knee ensures the muscle belly is compressed against the femur and tibia, creating unbearable pressure without requiring dangerous joint hyperextension.
 

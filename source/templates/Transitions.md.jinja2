@@ -92,14 +92,10 @@ description: "{{description}}"
 -->
 {% endif %}
 
-> {{name}} transitions from [[{{starting_position}}]] to [[{{ending_position}}]]. Success rates: Beginner {{success_rates.beginner}}%, Intermediate {{success_rates.intermediate}}%, Advanced {{success_rates.advanced}}%.
-
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is {{name}}?
 
 {{overview}}
 
@@ -129,7 +125,7 @@ description: "{{description}}"
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 {% for step in execution_steps -%}
 {{step.step_number}}. **{{step.action}}**: {{step.description}}{% if step.timing %} (Timing: {{step.timing}}){% endif %}
 {% endfor %}
@@ -180,7 +176,7 @@ description: "{{description}}"
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 {% for qa in knowledge_assessment -%}
 **Q{{loop.index}}**: {{qa.question}}
 **A**: {{qa.answer}}

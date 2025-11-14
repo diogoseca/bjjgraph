@@ -153,14 +153,10 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mo
 
 
 
-> Uchi Mata transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Uchi Mata?
 
 The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile throwing techniques, highly effective in both gi and no-gi grappling. Translated as 'inner thigh reap,' this technique involves using your inner thigh to sweep your opponent's supporting leg while simultaneously rotating them over your hip. The Uchi Mata is particularly effective against taller opponents or those who stand upright in the clinch, as it exploits their high center of gravity. When executed properly, this throw generates tremendous force and typically results in a direct transition to side control or mount, making it one of the highest-percentage scoring techniques in BJJ competition. The technique requires precise timing, proper kuzushi (off-balancing), and coordinated hip and leg movement. Unlike some throws that rely purely on strength, Uchi Mata is a technical throw that uses rotational momentum and leverage to amplify your power. Its effectiveness has made it a staple in the arsenals of many high-level BJJ competitors who incorporate judo into their standing game.
 
@@ -198,7 +194,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish dominant grips**: Secure a high collar grip with your right hand (for right-sided throw) and control the left sleeve or tricep. In no-gi, establish an over-under or underhook position. Your grips should be strong enough to control your opponent's upper body throughout the throw. (Timing: Before initiating movement)
 2. **Break opponent's posture**: Pull downward and forward with your collar grip while simultaneously pushing or pulling with your sleeve hand to break your opponent's upright posture. They should feel slightly off-balance forward and to their left side. This is the critical kuzushi phase that makes the throw possible. (Timing: 1-2 seconds before entry)
 3. **Step in with entry foot**: Step your right foot deep between your opponent's legs, placing it slightly to the outside of their right foot. Your foot should point in the direction you're throwing (toward their left side). This step should be explosive and committed, bringing your hip in close contact with their hip. (Timing: Immediately after kuzushi)
@@ -296,7 +292,7 @@ Continuously refine mechanics based on success rate in live training. Develop se
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary contact point in Uchi Mata and how does it differ from Harai Goshi?
 **A**: In Uchi Mata, the primary contact point is the inner thigh sweeping against the opponent's inner thigh/supporting leg, while the hip provides the rotation point. In Harai Goshi, the primary contact is the outer thigh sweeping the opponent's outer thigh. Uchi Mata's inner thigh action allows for a more upward lifting motion, while Harai Goshi generates more lateral sweeping force. Both use hip rotation, but the leg placement and sweeping direction are distinctly different.
 

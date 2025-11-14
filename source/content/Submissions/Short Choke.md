@@ -153,14 +153,12 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 
 
 
-> Short Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Short Choke targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Short Choke?
 
 The Short Choke is a highly effective gi-based blood choke executed from top positions, particularly side control and north-south. Unlike traditional collar chokes that require deep grips, the Short Choke capitalizes on minimal space and opponent defensive reactions. The technique involves threading your own lapel or the opponent's lapel behind their neck while maintaining superior top position control, then applying pressure through a combination of wrist rotation and shoulder pressure. This choke is particularly effective when opponents defend aggressively against more common submissions like the Americana or Kimura, creating the exact spacing needed for lapel manipulation. The Short Choke exemplifies economy of motion - once the lapel is positioned correctly, the finish requires minimal energy expenditure while creating maximum discomfort. The technique is especially valuable in gi competition because it can be concealed within normal top position pressure, making it difficult for opponents to recognize and defend until the submission is deeply locked. Advanced practitioners use the Short Choke as both a primary finish and a setup for transitioning to mount or taking the back when opponents attempt to escape.
 
@@ -241,7 +239,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure dominant side control position**: Establish tight side control with your chest heavy on opponent's chest. Control their near arm using either an underhook or by pinning it to the mat with your hip. Position your head near their far shoulder while maintaining crossface pressure. Your hips should be low and heavy, preventing any bridging or turning attempts. (Timing: Take 5-10 seconds to establish solid control before proceeding) [Pressure: Firm]
 2. **Feed lapel behind opponent's neck**: Using your free hand (typically the hand nearest their legs), grip your own lapel at chest level or slightly lower. Maintain pressure with your chest and crossface while threading the lapel behind opponent's neck from the far side. The lapel should pass behind their neck like a scarf, with the material positioned against the side of their neck closest to you. This requires precise hand positioning and often involves slight adjustments to your body angle. (Timing: 3-5 seconds for lapel placement) [Pressure: Moderate]
 3. **Secure lapel grip on opposite side**: Once the lapel has been threaded behind their neck, reach under their head with your opposite hand and grip the lapel material. Your grip should be palm-down with fingers curled around the lapel fabric. The key is to have minimal slack in the material while maintaining top position control. Some practitioners prefer gripping their own gi material for additional control. (Timing: 2-3 seconds to establish secure grip) [Pressure: Moderate]
@@ -307,7 +305,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the primary blood vessels targeted by the Short Choke, and why is proper positioning critical? **[SAFETY-CRITICAL]**
 **A**: The Short Choke targets the carotid arteries on the side of the neck. Proper positioning is critical because if the lapel is placed incorrectly (over the front of the throat), you create a painful air choke on the trachea rather than an effective blood choke. The lapel must sit on the side of the neck, allowing the combination of lapel pressure and shoulder drive to compress the carotid artery. Blood chokes are safer and more effective than air chokes in training.
 

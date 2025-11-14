@@ -8,7 +8,7 @@ description: "Master Toe Hold Control position in BJJ. Strategic guide covering 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Toe Hold Control position in BJJ. Strategic guide covering 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Toe Hold Control?
 
 Toe Hold Control represents a specialized leg entanglement position where rotational pressure is applied to the ankle joint through a figure-four grip configuration, creating one of Brazilian Jiu-Jitsu's most technically demanding submission control scenarios. This position exists at a critical junction in modern leg lock systems, serving as both a legitimate finishing threat and a transitional hub that facilitates movement throughout the leg entanglement hierarchy. The mechanical advantage derives from isolating the opponent's foot while controlling their leg's orientation, allowing the attacking practitioner to generate torque against the ankle's ligamentous structures through precise wrist and forearm positioning.
 
@@ -50,7 +48,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Ankle rotation attack with joint isolation
+**Key Difference:** Ankle rotation attack with joint isolation
 
 
 
@@ -76,10 +74,6 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ## Playing as Bottom
 
 [[Toe Hold Control/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -162,10 +156,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Toe Hold Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -235,7 +225,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

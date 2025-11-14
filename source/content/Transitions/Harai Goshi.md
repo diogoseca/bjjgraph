@@ -147,14 +147,10 @@ description: "Learn Harai Goshi in BJJ. Step-by-step judo throw execution from s
 
 
 
-> Harai Goshi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Harai Goshi?
 
 Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective techniques that has found significant application in Brazilian Jiu-Jitsu's standing game. This throw combines precise footwork, hip placement, and leg sweeping action to generate tremendous off-balancing force while maintaining control throughout the opponent's descent. Unlike pure forward throws, Harai Goshi creates a unique rotational motion that allows the thrower to follow smoothly into dominant ground positions. The technique's effectiveness in BJJ competition stems from its versatility in both gi and no-gi contexts, its ability to score significant points, and its natural transition into side control or mount. When executed properly, Harai Goshi demonstrates the fundamental principle that technical precision and timing can overcome significant strength advantages, making it particularly valuable for smaller practitioners against larger opponents.
 
@@ -194,7 +190,7 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and break balance**: Secure a strong collar grip with your right hand (or overhook in no-gi) and sleeve grip with your left hand. Pull opponent forward and slightly to their right side, breaking their balance onto their toes while maintaining your own upright posture. Your goal is to feel their weight committed forward before initiating the throw. (Timing: Initial setup phase - 1-2 seconds of grip fighting and balance breaking)
 2. **Step in with lead foot**: Step your right foot deep across your opponent's body, placing it slightly in front of and outside their right foot. Your foot should point in the direction you intend to throw. This step creates the angle necessary for hip placement and positions your sweeping leg for the critical action. (Timing: Execute as opponent steps forward - capitalize on their movement)
 3. **Rotate hips and lower center of gravity**: Pivot on your right foot while rotating your hips 180 degrees to face the same direction as your opponent. Simultaneously drop your hips below their center of gravity by bending your knees. Your back should make contact with their front torso, and your hips should be positioned lower than theirs to create the lifting platform. (Timing: Immediate continuation from step entry - one fluid motion)
@@ -289,7 +285,7 @@ Full-intensity standup sparring where you must hit Harai Goshi and follow to sub
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical factor in achieving a successful Harai Goshi throw?
 **A**: The most critical factor is achieving proper hip placement where your hips are positioned significantly lower than your opponent's center of gravity. This creates the mechanical advantage necessary to lift and rotate them over your hip. Without correct hip depth, the throw lacks the fundamental platform for generating force, regardless of how well other elements are executed. The hip position must be established before initiating the leg sweep, and it requires sufficient knee bend and complete rotation to be effective.
 

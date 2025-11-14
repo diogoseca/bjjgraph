@@ -147,14 +147,10 @@ description: "Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standi
 
 
 
-> Bullfighter Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Bullfighter Pass?
 
 The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing guard pass that uses lateral movement and precise grip control to bypass the opponent's guard. The name comes from the bullfighting motion of moving to the side while controlling the opponent's legs, similar to a matador avoiding a charging bull. This pass is effective against various open guard configurations including Spider Guard, De La Riva Guard, and Collar Sleeve Guard. The technique relies on explosive footwork, proper weight distribution, and the ability to control the opponent's legs while maintaining balance. The Bullfighter Pass is particularly effective in no-gi grappling where leg grips are harder to maintain, but it remains highly useful in the gi when executed with proper timing. The pass creates significant pressure and forward momentum, making it difficult for the opponent to recover guard or establish defensive frames.
 
@@ -193,7 +189,7 @@ The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing gua
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: Stand up in opponent's open guard and secure bilateral grips on their pants at the knees or shins. In gi, grip the fabric firmly with thumbs inside. In no-gi, cup behind the knees or control the ankles. Keep your posture upright with hips back to prevent being pulled forward. (Timing: Initial setup phase)
 2. **Create separation**: Push the opponent's knees together and toward their chest while stepping back slightly. This compresses their guard and limits their hip mobility. Maintain constant pressure on the legs to prevent them from re-establishing guard or creating angles for sweeps. (Timing: 1-2 seconds after establishing grips)
 3. **Initiate lateral movement**: Explosively step to one side (usually your stronger side) while simultaneously pushing the opponent's legs in the opposite direction. Your movement should be quick and low to the ground, like a matador stepping aside from a bull. Keep your hips facing the opponent throughout the movement. (Timing: Explosive burst, 0.5 seconds)
@@ -291,7 +287,7 @@ For gi: Master using the lapel and sleeve grips to control legs. For no-gi: Deve
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it important to push the opponent's legs in the opposite direction of your lateral movement?
 **A**: Pushing the legs opposite to your movement creates a separation that prevents the opponent from following you with their hips. If you only move laterally without controlling the legs, they can simply rotate their hips to track your movement and maintain guard. The opposing forces (you moving one way, legs going the other) create the space needed to pass. This is the fundamental mechanical principle that makes the pass work.
 

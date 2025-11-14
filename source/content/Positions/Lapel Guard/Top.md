@@ -8,7 +8,7 @@ description: "Navigate and pass lapel guard configurations with technical precis
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Navigate and pass lapel guard configurations with technical precis
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 50%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Neutral
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Lapel Guard from the Top?
 
 Lapel guard top position presents unique technical challenges that distinguish it from traditional guard passing scenarios. The opponent has transformed their gi into a control system by feeding the lapel around your body, legs, or arms, creating mechanical barriers that prevent standard passing approaches.
 
@@ -466,17 +445,17 @@ Partner establishes lapel configuration of choice. Clear it using appropriate te
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Passing lapel guard requires understanding that you're not fighting against a person's limbs—you're fighting against a mechanical system that extends their control range through fabric leverage. The solution must be systematic: first identify which specific configuration is being used, as each has distinct mechanical vulnerabilities. Worm guard is typically addressed through backstep mechanics that rotate around the lapel-controlled leg. Squid guard often requires creating distance or using pressure passing that drives through the arm control. Complex configurations like ringworm may necessitate complete disengagement and reset rather than direct passing. The common thread is that explosive athleticism rarely succeeds—the fabric barriers are geometrically solid regardless of how much force you apply. Technical precision in clearing the configuration before advancing your passing position is the only reliable approach. Study the position from the bottom perspective to understand the control mechanics, then develop specific technical solutions for each variation.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From a competition standpoint, lapel guard is one of the most frustrating positions to pass because your usual athletic advantages don't help as much. I can't just pressure through a lapel wrapped around my leg the same way I can pressure through a collar grip. What works for me is prevention first—if I see someone starting to extract my lapel, I immediately engage with dominant grips and pressure to shut it down before it develops. Once it's established, I focus on which specific configuration they have and apply the right technical solution. Against worm guard, I'm backstepping and rotating around the controlled leg. Against squid, I'm usually creating distance or using pressure depending on their specific setup. The key is not panicking and trying to muscle through it. These positions look weird and feel restrictive, but they have technical solutions. You have to stay patient, apply the right technique, and trust the process rather than trying to explode out of it. Also, learning to play these positions yourself dramatically improves your ability to pass them—you understand the vulnerabilities from firsthand experience.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Lapel guard is gi players getting creative with their uniform, and you've got to respect the innovation even while you're trying to pass it. The mistake I see is people treating it like a standard guard pass when it's fundamentally different—there's a physical barrier created by the fabric that doesn't exist in other positions. From a strategic perspective, the best defense is preventing it in the first place through aggressive engagement. Once it's set up, you need position-specific knowledge because generic passing doesn't work. What's interesting is how this demonstrates the importance of understanding positions you don't personally play—even if you're a no-gi specialist, understanding lapel guard mechanics helps you appreciate control extension concepts that apply everywhere. For gi players dealing with lapel guard, invest time learning it from both sides. Roll with high-level lapel guard players and let them work on you so you feel what actually threatens you versus what just looks complicated. That experiential knowledge is invaluable for developing efficient passing solutions.
 

@@ -147,14 +147,12 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
 
 
 
-> Belly Down Armbar is a arm lock targeting the Elbow joint and shoulder girdle. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Belly Down Armbar targets the Elbow joint and shoulder girdle. Risk: Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Belly Down Armbar?
 
 The Belly Down Armbar is an opportunistic joint lock typically applied when the opponent is in turtle position or during scrambles when they expose an arm while defending other attacks. Unlike traditional armbars executed from guard or mount where you control the opponent's torso with your legs, the belly down variant requires you to secure the isolated arm while the opponent remains face-down on the mat. This submission is particularly effective when your opponent turtles to defend against back takes or other attacks, as their defensive posture often leaves their arms extended and vulnerable. The key to success lies in rapid arm isolation, maintaining connection to the opponent's body to prevent them from rolling through the position, and applying controlled hyperextension to the elbow joint. The belly down armbar requires excellent timing and positional awareness, as the opponent has more escape options compared to traditional armbar positions. However, when executed correctly with proper control of the shoulder and hip, this submission becomes a powerful finishing option from positions where traditional submissions may be difficult to secure.
 
@@ -234,7 +232,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Arm isolation from turtle position**: As opponent assumes turtle position, identify an extended arm (often the posting arm or the arm defending a choke attempt). Secure a firm two-on-one grip with both hands controlling the wrist and upper tricep area. Pull the arm away from opponent's body at approximately 45-90 degrees, breaking their defensive structure and preventing them from pulling the arm back to safety. (Timing: 0-2 seconds from initial contact) [Pressure: Moderate]
 2. **Drop weight across shoulder**: While maintaining wrist control with your outside hand, drop your chest and bodyweight across the opponent's shoulder blade and upper back area. This pins their shoulder to the mat and prevents them from rolling through the position or rotating their body to escape. Your inside arm should thread under their armpit or over their back to secure additional control and prevent their torso from turning. (Timing: 2-3 seconds, immediately after arm isolation) [Pressure: Firm]
 3. **Hip positioning and leg configuration**: Position your hips perpendicular to the opponent's extended arm, similar to a traditional armbar but without leg control over their head. Your near-side leg should be based out for stability, with your foot planted on the mat. Your far leg can either base out wide, sprawl back, or in some variations hook over the opponent's far hip to prevent them from rolling toward you. The key is maintaining downward pressure through your hips while keeping your base stable. (Timing: 3-4 seconds) [Pressure: Firm]
@@ -299,7 +297,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the PRIMARY safety concern when applying the belly down armbar, and what specifically must you do to minimize this risk? **[SAFETY-CRITICAL]**
 **A**: The primary safety concern is causing severe elbow hyperextension, ligament tears, or joint dislocation through explosive application. To minimize risk, you must apply pressure progressively over a minimum of 3-5 seconds in training, never spike or jerk the extension, and immediately release at any sign of tap or distress signals. The controlled, gradual application allows the opponent adequate time to recognize the danger and tap before structural damage occurs to the joint.
 

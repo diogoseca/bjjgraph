@@ -147,14 +147,10 @@ description: "Master the High Crotch takedown in BJJ. Complete step-by-step exec
 
 
 
-> High Crotch transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is High Crotch?
 
 The High Crotch is a fundamental wrestling-based takedown that has become essential in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. Unlike the traditional double leg where both legs are attacked simultaneously, the High Crotch focuses on capturing one leg while driving the opponent's hips backward, creating a mechanical advantage that makes the takedown highly effective even against larger opponents. This technique is particularly valuable because it allows the practitioner to maintain better posture throughout the execution, reducing exposure to guillotine chokes and other standing submission threats.
 
@@ -198,7 +194,7 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Create opening with grip fighting**: Engage in hand fighting or collar ties to create the opening for your attack. Use feints, pushes, or pulls to get the opponent to react and shift their weight. Look for the moment when their lead leg is slightly forward or their weight is distributed between both feet. Your grip fighting should disguise the impending level change and prevent them from establishing dominant grips that could stop your penetration. (Timing: 1-3 seconds of active hand fighting)
 2. **Execute penetration step**: Explosively drop your level by bending at the knees and hips while simultaneously stepping your lead foot deep between the opponent's legs. Your penetration step should place your foot at least even with their back foot, ideally slightly past it. Keep your back straight and head up as you change levels - avoid simply bending at the waist which telegraphs the shot and compromises your posture. This step must be fast and deep to prevent defensive reactions. (Timing: Explosive - less than 0.5 seconds)
 3. **Secure the leg and establish high shoulder position**: As you penetrate, wrap both arms around the opponent's near leg, clasping your hands together behind their thigh. Simultaneously drive your shoulder into their lower abdomen or hip area - this high shoulder placement is what distinguishes the high crotch from other single-leg attacks. Your head should be positioned on the outside of their captured leg, pressed against their hip, which both controls their movement and protects you from front headlock attacks. Lock your grip tightly with your arms forming a complete circle around their leg. (Timing: Immediate upon penetration)
@@ -286,7 +282,7 @@ Develop proficiency in all finishing variations (run the pipe, lift and return, 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the key difference between a high crotch and a traditional single leg takedown?
 **A**: The high crotch places the shoulder high into the opponent's hip or lower abdomen rather than lower on the thigh, providing better control over their entire body and hips. This high shoulder placement combined with head position on the outside of the captured leg gives superior driving leverage and makes it more difficult for the opponent to defend by simply stepping back or circling away.
 

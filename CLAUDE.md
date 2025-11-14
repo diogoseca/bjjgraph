@@ -16,11 +16,11 @@ BJJ Graph is a comprehensive knowledge graph for Brazilian Jiu-Jitsu, built usin
 BJJ Graph uses a **JSON → Jinja2 → Markdown** pipeline:
 
 1. **Source of Truth:** `.json` files in `source/templates/` contain structured content data
-   - `Positions.json` - Position state data (S### IDs)
-   - `Transitions.json` - Transition technique data (T### IDs)
-   - `Submissions.json` - Submission technique data (SUB### IDs)
-   - `Principles.json` - Conceptual principles (C### IDs)
-   - `Systems.json` - Expert systems (SC### IDs)
+   - `Positions.json` - Position state data
+   - `Transitions.json` - Transition technique data
+   - `Submissions.json` - Submission technique data
+   - `Principles.json` - Conceptual principles
+   - `Systems.json` - Expert systems
 
 2. **Templates:** `.jinja2` files generate markdown from JSON
    - Located in `source/templates/`
@@ -95,11 +95,11 @@ bjjgraph/
 ├── source/
 │   ├── content/                      # Generated markdown files (95 positions, 71 transitions, 49 submissions)
 │   │   ├── CONTRIBUTING-YAML-SCHEMA.md  # Complete schema documentation
-│   │   ├── Positions/                # Position pages (S### IDs)
-│   │   ├── Transitions/              # Transition pages (T### IDs)
-│   │   ├── Submissions/              # Submission pages (SUB### IDs)
-│   │   ├── Principles/               # Conceptual principles (C### IDs)
-│   │   ├── Systems/                  # Expert systems (SC### IDs)
+│   │   ├── Positions/                # Position pages
+│   │   ├── Transitions/              # Transition pages
+│   │   ├── Submissions/              # Submission pages
+│   │   ├── Principles/               # Conceptual principles
+│   │   ├── Systems/                  # Expert systems
 │   │   └── BJJ-*.md                  # Hub pages (Positions, Transitions, Submissions, Escapes, Guard Passing)
 │   └── templates/                    # JSON source files + Jinja2 templates
 │       ├── Positions.json            # All position data
@@ -136,7 +136,6 @@ When creating or improving content:
 - Title: `[Technique Name] | [Type] | BJJ Graph`
 - Description: 150-160 characters, include success rates for techniques
 - Tags: category, subcategory, skill level (minimum 3)
-- State ID: Correct format (S###, T###, SUB###, C###, SC###)
 
 **Success Rates (CRITICAL):**
 - Ordering: Beginner ≤ Intermediate ≤ Advanced (strictly enforced)
@@ -167,19 +166,19 @@ Each insight: 2-3 sentences with distinct perspective
 
 ### Required Sections by Content Type
 
-**Positions (S###):** State Description, Visual Description (4-8 sentences), Key Principles (5-7), Offensive Transitions (min 6), Defensive Responses (min 4), Decision Tree (min 3 conditions), Expert Insights (all 3), Common Mistakes (min 5), Training Drills (min 3), Related Positions (min 3)
+**Positions:** State Description, Visual Description (4-8 sentences), Key Principles (5-7), Offensive Transitions (min 6), Defensive Responses (min 4), Decision Tree (min 3 conditions), Expert Insights (all 3), Common Mistakes (min 5), Training Drills (min 3), Related Positions (min 3)
 
-**Transitions (T###):** Overview & Properties, Visual Execution Sequence, Setup Requirements (min 6), Execution Steps (min 6), Common Counters (min 3), Physical Requirements, Expert Insights (all 3), Common Mistakes (min 5), Variations & Setups (min 2), Knowledge Assessment (min 5 questions)
+**Transitions:** Overview & Properties, Visual Execution Sequence, Setup Requirements (min 6), Execution Steps (min 6), Common Counters (min 3), Physical Requirements, Expert Insights (all 3), Common Mistakes (min 5), Variations & Setups (min 2), Knowledge Assessment (min 5 questions)
 
-**Submissions (SUB###):** Safety Notice (mandatory), Overview & Properties, Visual Finishing Sequence, Setup Requirements (min 6), Execution Steps (min 6), Anatomical Targeting & Injury Awareness, Training Progressions (6 phases), Expert Insights (all 3 with safety emphasis), Common Mistakes (min 5 + safety errors), Knowledge Assessment (min 6 questions including safety)
+**Submissions:** Safety Notice (mandatory), Overview & Properties, Visual Finishing Sequence, Setup Requirements (min 6), Execution Steps (min 6), Anatomical Targeting & Injury Awareness, Training Progressions (6 phases), Expert Insights (all 3 with safety emphasis), Common Mistakes (min 5 + safety errors), Knowledge Assessment (min 6 questions including safety)
 
-### Content IDs
+### Content Organization
 
-- Positions: `S###` (e.g., S001, S042)
-- Transitions: `T###` (e.g., T001, T099)
-- Submissions: `SUB###` (e.g., SUB001, SUB049)
-- Principles: `C###` (e.g., C001)
-- Systems: `SC###` (e.g., SC001)
+Content is organized by **unique names and filesystem structure**:
+- Each content piece has a unique filename that matches its canonical name
+- Positions use hub/role architecture (e.g., `Mount.md`, `Mount/Bottom.md`, `Mount/Top.md`)
+- All requirements are defined by JSON templates in `source/templates/`
+- No manual ID tracking needed - the filesystem and JSON structure handle organization
 
 ---
 
@@ -349,7 +348,7 @@ python3 scripts/check_sync.py
 
 1. Add entry to appropriate `.json` file in `source/templates/`
 2. Follow schema defined in `CONTRIBUTING-YAML-SCHEMA.md`
-3. Use correct ID format (S###, T###, SUB###, C###, SC###)
+3. Use unique, descriptive names that match the technique/position
 4. Run `python3 scripts/validate_json.py` to check compliance
 5. Run `python3 scripts/json_to_md.py` to generate markdown
 6. Build and test: `cd source && npx quartz build --serve`

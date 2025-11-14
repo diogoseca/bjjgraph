@@ -153,14 +153,10 @@ description: "Master Seoi Nage shoulder throw in BJJ. Step-by-step execution fro
 
 
 
-> Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Seoi Nage?
 
 Seoi Nage, meaning 'shoulder throw' in Japanese, is one of the most fundamental and effective throwing techniques adapted from Judo into Brazilian Jiu-Jitsu. This classical technique involves loading your opponent onto your back by dropping your level, turning your hips, and using your shoulders as the fulcrum point to execute a powerful forward rotation that sends them to the mat. The throw is particularly effective in both gi and no-gi scenarios, though the gripping strategies differ significantly between the two contexts.
 
@@ -203,7 +199,7 @@ The beauty of Seoi Nage lies in its versatility and adaptability across differen
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips**: In gi, secure a standard sleeve and collar grip with your right hand controlling their left sleeve and left hand on their right collar. In no-gi, control their left wrist with your right hand and overhook or control their right tricep with your left hand. Pull opponent slightly forward to create forward momentum and test their balance. (Timing: Initial setup phase, no time pressure)
 2. **Step in and drop level**: Step your right foot deeply across and in front of your opponent's right foot, positioning it between their legs or just outside their right foot. Simultaneously drop your hips significantly lower than your opponent's hip line—this is critical for proper loading. Your knees should bend substantially as you lower your center of gravity. (Timing: Explosive entry, approximately 0.5 seconds)
 3. **Turn and load opponent**: Rotate your hips counterclockwise (for right-handed Seoi Nage) while pulling strongly with both grips to load your opponent onto your back. Your left foot pivots to face the direction you want to throw. Your hips and shoulders should be completely turned perpendicular to your opponent's front, with your back making contact with their chest and abdomen. (Timing: Simultaneous with step 2, complete rotation within 1 second)
@@ -305,7 +301,7 @@ Use Seoi Nage during positional sparring starting from standing, then progress t
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical factor in successfully loading your opponent onto your back during Seoi Nage?
 **A**: Getting your hips and center of gravity significantly lower than your opponent's hip line before initiating the turn. If your hips aren't lower, you won't be able to properly load their weight onto your back, and the throw will fail. This requires a deep knee bend and committed level change during the entry step.
 

@@ -8,7 +8,7 @@ description: "Master closed guard in BJJ. Strategic guide covering both perspect
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master closed guard in BJJ. Strategic guide covering both perspect
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Closed Guard?
 
 Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.
 
@@ -52,7 +50,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -66,7 +64,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium |
 
-**What Makes This Unique:** Bottom offensive despite being underneath
+**Key Difference:** Bottom offensive despite being underneath
 
 
 
@@ -78,10 +76,6 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ## Playing as Bottom
 
 [[Closed Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -173,10 +167,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Closed Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -261,7 +251,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

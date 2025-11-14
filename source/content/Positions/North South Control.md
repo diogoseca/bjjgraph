@@ -8,7 +8,7 @@ description: "Master North-South control in BJJ. Complete strategic guide coveri
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master North-South control in BJJ. Complete strategic guide coveri
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is North South Control?
 
 North-South control represents one of Brazilian Jiu-Jitsu's most dominant pinning positions, characterized by the top practitioner positioning their torso perpendicular across the bottom person's upper body, with chest-to-chest pressure and head control. This position excels at neutralizing the opponent's defensive frames and hip mobility while maintaining exceptional control through distributed weight and strategic base positioning.
 
@@ -54,7 +52,7 @@ North-South serves as a crucial transitional hub in positional chess, often appe
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -68,7 +66,7 @@ North-South serves as a crucial transitional hub in positional chess, often appe
 | **Energy Cost** | High | Low |
 | **Time** | Short | Long |
 
-**What Makes This Unique:** Perpendicular pressure eliminates space
+**Key Difference:** Perpendicular pressure eliminates space
 
 
 
@@ -80,10 +78,6 @@ North-South serves as a crucial transitional hub in positional chess, often appe
 ## Playing as Bottom
 
 [[North South Control/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -158,10 +152,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[North South Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -233,7 +223,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

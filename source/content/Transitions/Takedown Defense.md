@@ -147,14 +147,10 @@ description: "Master takedown defense in BJJ and MMA. Learn sprawl mechanics, gr
 
 
 
-> Takedown Defense transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Takedown Defense?
 
 Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whether you fight from top or bottom position. The ability to defend takedowns effectively not only prevents your opponent from scoring points but also creates opportunities for counter-attacks and advantageous positions. Modern BJJ competition increasingly emphasizes standing exchanges, making takedown defense essential for both gi and no-gi practitioners. Effective takedown defense combines defensive posture, grip fighting, hip positioning, and timing to neutralize shooting attacks, body locks, and upper body throws. The fundamental principle is to maintain proper base and distance while reading your opponent's setup and reacting before they can fully commit to their attack. Advanced practitioners use takedown defense not merely to avoid being taken down, but as an offensive weapon to create front headlock situations, guillotine opportunities, and transitions to dominant top positions.
 
@@ -193,7 +189,7 @@ Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whet
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish defensive stance**: Stand with feet shoulder-width apart, knees slightly bent, hips back, and hands at chest level. Keep your weight distributed on the balls of your feet to allow quick movement in any direction. Maintain an upright posture while keeping your center of gravity low enough to sprawl quickly. (Timing: Continuous throughout standing phase)
 2. **Read level change**: Watch for visual cues that signal a takedown attempt: opponent's hips dropping, shoulders dipping forward, eyes looking at your legs, or a sudden penetration step. React the instant you detect these signals, not after the opponent has already closed distance. (Timing: 0.1-0.3 seconds before contact)
 3. **Sprawl explosively**: Shoot your hips back and down while extending your legs behind you. Your hips should land on your opponent's upper back/shoulders while your chest drives forward over their head. Keep your weight heavy on their shoulders to flatten them out and prevent them from driving forward. (Timing: Explosive reaction within 0.2 seconds of level change)
@@ -285,7 +281,7 @@ Train defenses against specific takedown specialists (wrestlers, judoka, sambo).
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the three most important visual cues that signal an incoming takedown attempt?
 **A**: The three primary visual cues are: (1) opponent's hips dropping or shoulders lowering as they change levels, (2) a sudden penetration step where their lead foot advances toward your hips/legs, and (3) their eyes looking down at your legs or hips rather than at your upper body. Advanced practitioners also watch for weight shifts, grip changes, and head positioning that precede attacks.
 

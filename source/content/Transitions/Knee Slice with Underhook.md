@@ -147,14 +147,10 @@ description: "Master the Knee Slice with Underhook pass in BJJ. High-percentage 
 
 
 
-> Knee Slice with Underhook transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Slice with Underhook?
 
 The Knee Slice with Underhook represents one of the most fundamental and high-percentage methods of passing half guard in modern Brazilian Jiu-Jitsu. This technique combines two powerful control mechanisms: the cutting action of the knee slice and the dominant positioning provided by the underhook. The underhook prevents the bottom player from recovering guard while the slicing motion of the knee creates separation from the remaining half guard hook, allowing the passer to achieve side control.
 
@@ -197,7 +193,7 @@ The technique exemplifies core guard passing principles: control before movement
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish underhook control**: From top half guard, drive your near-side arm deep under opponent's armpit, achieving an underhook. Your hand should reach toward their far shoulder, creating maximum depth. Simultaneously use your opposite hand to establish a crossface or control their far-side arm, preventing them from framing. (Timing: Before any passing motion begins)
 2. **Position the slicing knee**: Place the knee of your free leg on the mat at a 45-degree angle, positioned near opponent's trapped knee. Your shin should be angled to cut across their thigh line. Keep your toes flexed and base positioned for drive-forward power. Your trapped leg should be working to extract from the half guard hook. (Timing: As you secure underhook depth)
 3. **Drive forward and flatten**: Using the underhook, drive your chest forward and down onto opponent's upper body, flattening them to the mat. Your weight should be distributed through your chest and the underhook-side shoulder. This forward pressure is critical - it prevents them from coming to their side or creating defensive frames. Keep your hips close to theirs. (Timing: Before beginning the slice motion)
@@ -293,7 +289,7 @@ Teach the technique to lower belts to deepen understanding. Continue to refine d
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is establishing the underhook considered more important than beginning the slicing motion immediately?
 **A**: The underhook provides the positional control that prevents the bottom player from coming to their side, recovering guard, or creating defensive frames. Without a deep underhook, the opponent can easily turn into you, establish their own underhook, or use the space to recover. The underhook is the foundation that makes the slice mechanically effective - it pins their upper body while you work to clear their legs. Attempting to slice without securing the underhook first results in a battle rather than a systematic pass.
 

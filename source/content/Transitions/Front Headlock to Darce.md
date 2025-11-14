@@ -153,14 +153,10 @@ description: "Learn Front Headlock to Darce in BJJ. Step-by-step execution from 
 
 
 
-> Front Headlock to Darce transitions from [[Front Headlock]] to [[D'arce Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Front Headlock to Darce?
 
 The Front Headlock to Darce transition represents one of the most powerful finishing sequences from the front headlock position. This technique capitalizes on the opponent's defensive posture in turtle or scramble situations, where they attempt to protect their neck while maintaining a low base. The transition exploits the natural tendency of opponents to circle away from the choking arm, creating the perfect angle for the Darce configuration.
 
@@ -204,7 +200,7 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure front headlock control**: Establish a tight front headlock position with your arm wrapped deep around the opponent's neck. Your bicep should be against one side of their neck while your forearm compresses the other side. Pull their head tight to your chest or hip while driving downward pressure with your body weight. Maintain a low stance with your hips back and chest over their shoulders. (Timing: Initial control phase - maintain until opponent begins defensive movement)
 2. **Insert underhook on choking side**: As the opponent circles or attempts to escape, thread your free arm under their far armpit on the same side as your choking arm. The underhook should be deep, with your shoulder driving into their armpit. Keep your elbow tight and forearm pressed against their ribs. This creates the foundation for the Darce configuration by controlling both the head and the far side of their body simultaneously. (Timing: Insert during opponent's defensive movement - capitalize on their circling)
 3. **Lock figure-four arm configuration**: Bring your choking arm across to meet your underhooking arm. The hand of your choking arm should grip the bicep of your underhooking arm, creating a figure-four lock. Alternatively, grip your own wrist for a deeper configuration. The opponent's neck should be trapped in the triangle formed by your arms with their shoulder completing the choke structure. Ensure the lock is tight before proceeding. (Timing: Lock immediately after underhook is secured - before opponent can defend)
@@ -304,7 +300,7 @@ Incorporate the Darce into your complete front headlock system. Practice entries
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical control point to establish before attempting to circle to the Darce finishing position?
 **A**: The near hip control is the most critical point to establish before circling. Without controlling the opponent's near hip, they can execute a granby roll or other defensive roll to escape before you establish the finishing position. The hip control should be established immediately after locking the figure-four arm configuration.
 

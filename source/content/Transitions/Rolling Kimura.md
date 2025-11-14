@@ -153,14 +153,10 @@ description: "Master the Rolling Kimura in BJJ. Dynamic sweep and submission tec
 
 
 
-> Rolling Kimura transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rolling Kimura?
 
 The Rolling Kimura is a dynamic and highly effective technique that combines sweeping mechanics with submission threats from the turtle position. This versatile technique capitalizes on the kimura grip to create a rolling motion that either sweeps the opponent to expose their back or sets up the kimura submission itself. The beauty of the Rolling Kimura lies in its dual-threat nature—the opponent must defend both the positional advancement and the submission simultaneously, creating a powerful dilemma that is difficult to counter effectively.
 
@@ -203,7 +199,7 @@ The Rolling Kimura works particularly well in both gi and no-gi contexts, though
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure kimura grip**: From top turtle position, reach over the opponent's back and secure a kimura grip on their far arm. Your same-side hand grips their wrist while your opposite hand threads under their arm and grabs your own wrist, creating the figure-four kimura configuration. Ensure the grip is tight and positioned at or above their elbow for maximum control. (Timing: Establish grip when opponent is stationary and defensive)
 2. **Break down posture**: Pull the trapped arm away from the opponent's body at approximately a 90-degree angle while driving your chest weight into their back. This breaks their base and prevents them from posting effectively with their free hand. Your head should be positioned near their far hip, creating downward pressure. (Timing: Immediately after securing kimura grip)
 3. **Position for the roll**: Adjust your body position so you're perpendicular to the opponent, with your hips near their trapped arm's shoulder. Your inside leg (closest to opponent) should be ready to post, while your outside leg prepares to initiate the rolling motion. Maintain constant tension on the kimura grip. (Timing: Setup phase before initiating roll)
@@ -300,7 +296,7 @@ Integrate rolling kimura into your overall game as part of a systematic turtle a
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical advantage of the rolling motion in the Rolling Kimura technique?
 **A**: The rolling motion uses your entire body weight and rotational momentum to amplify the leverage on the opponent's shoulder joint, making it far more effective than relying on arm strength alone. The rotation also creates a dynamic situation where the opponent must move with you or risk serious shoulder injury, limiting their defensive options while simultaneously advancing your position toward back control or submission finish.
 

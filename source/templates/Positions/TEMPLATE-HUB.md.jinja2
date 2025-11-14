@@ -8,7 +8,7 @@ description: "{{ description }}"
 ---
 
 {# PostHog A/B Testing Metadata #}
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 {# Debug mode indicator #}
 {% if debug_mode %}
@@ -16,7 +16,7 @@ description: "{{ description }}"
   🐛 BJJ Graph A/B Testing Debug Mode (Hub Page)
 
   Content Type: positions-hub
-  Section Count: 7
+  Section Count: 6
   Week Seed: {{ week_seed }}
   Visual Variant: {{ visual_elements }}
 
@@ -28,8 +28,6 @@ description: "{{ description }}"
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is {{ name }}?
 
 {{ overview }}
 
@@ -45,15 +43,15 @@ description: "{{ description }}"
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 {% if variations %}
 {# FAMILY: Combined multi-variant table #}
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[{{ name }}]] | {{ bottom_summary.state_properties.risk_level }} | {{ top_summary.state_properties.risk_level }} | {{ bottom_summary.state_properties.energy_cost }} | {{ top_summary.state_properties.energy_cost }} | {{ variant_uniqueness }} |
 {%- for variant in variants_comparison %}
 | [[{{ variant.name }}]] | {{ variant.bottom_risk }} | {{ variant.top_risk }} | {{ variant.bottom_energy }} | {{ variant.top_energy }} | {{ variant.uniqueness }} |
@@ -69,7 +67,7 @@ description: "{{ description }}"
 | **Energy Cost** | {{ bottom_summary.state_properties.energy_cost }} | {{ top_summary.state_properties.energy_cost }} |
 | **Time** | {{ bottom_summary.state_properties.time_sustainability }} | {{ top_summary.state_properties.time_sustainability }} |
 
-**What Makes This Unique:** {{ variant_uniqueness }}
+**Key Difference:** {{ variant_uniqueness }}
 
 {% endif %}
 
@@ -81,16 +79,6 @@ description: "{{ description }}"
 ## Playing as Bottom
 
 [[{{ name }}/Bottom|→ Full Bottom Guide]]
-
-{% if bottom_summary.state_properties.position_type == "Defensive" %}
-You're defending. Create frames, survive the pressure, escape to guard.
-{% elif bottom_summary.state_properties.position_type == "Offensive" %}
-You control the position. Attack with sweeps and submissions while shutting down passes.
-{% elif bottom_summary.state_properties.position_type == "Defensive with offensive options" %}
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-{% else %}
-Read and react based on their actions.
-{% endif %}
 
 ### Key Principles
 
@@ -122,16 +110,6 @@ Read and react based on their actions.
 
 [[{{ name }}/Top|→ Full Top Guide]]
 
-{% if top_summary.state_properties.position_type == "Offensive" %}
-You have the advantage. Maintain control, hunt submissions, advance position.
-{% elif top_summary.state_properties.position_type == "Controlling" %}
-You dominate the position. Apply pressure, break their structure, create openings.
-{% elif top_summary.state_properties.position_type == "Offensive/Controlling" %}
-Balance control with attacks. Consolidate position or finish—your choice.
-{% else %}
-Adapt to their defense.
-{% endif %}
-
 ### Key Principles
 
 {% for principle in top_summary.key_principles %}
@@ -155,22 +133,6 @@ Adapt to their defense.
 
 </section>
 
-{% if variations %}
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-{% for variation in variations %}
-### [[{{ variation.name }}]]
-
-{{ variation.description }}
-
-[Explore {{ variation.name }} →](./{{ variation.name }})
-
-{% endfor %}
-
-</section>
-{% endif %}
 
 <section id="related-positions" class="content-section">
 

@@ -8,7 +8,7 @@ description: "Master grasshopper guard from top. Complete guide to countering in
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master grasshopper guard from top. Complete guide to countering in
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 40%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Medium
-- **Energy Cost**: Low
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Grasshopper Guard from the Top?
 
 Facing grasshopper guard from the top position presents unique challenges that differ significantly from traditional guard passing scenarios. The bottom player's inverted posture and elevated hips create unconventional angles that can nullify standard passing mechanics. Your primary objectives are preventing leg entanglements, avoiding elevated sweeps, and either passing to side control or disengaging safely to reset to a more favorable engagement.
 
@@ -473,17 +452,17 @@ Partner holds grasshopper position but signals by dropping hips 2-3 times per ro
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 When facing grasshopper guard, you must understand the fundamental asymmetry at play - the bottom player has superior leg attack access, but inferior sustainability and base. Your strategic approach should exploit this asymmetry by denying them the quick attacks that justify their energy expenditure. The critical concept is 'transition window recognition' - there are brief moments when the bottom player shifts between leg configurations where their defensive structure is incomplete. This is when you advance. The most common error I see is top players trying to use constant forward pressure, which plays directly into the bottom player's sweeping mechanics. Instead, maintain strategic distance with active base management, force them to work hard to maintain connection, and strike during their transition moments. The back step is your primary safety mechanism - when in doubt, step back and around rather than trying to drive through their legs. Remember that successfully preventing their attacks while maintaining top position is a form of winning, even if the pass doesn't immediately materialize.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Grasshopper guard is annoying to deal with because the bottom guy can be really mobile and follow you as you try to disengage. My approach is pretty straightforward - I'm not interested in staying engaged with their legs at all. I use a lot of leg drag mechanics and back steps to get around their leg entanglement attempts rather than trying to pass through them. In competition, I'm also very comfortable just disengaging completely and resetting if they're too good at following - there's no rule that says I have to engage with their grasshopper game. The key for me is staying patient and not forcing anything. If I can't see a clear passing opportunity within 10-15 seconds, I'm backing out and resetting rather than getting stuck in their entanglement game. When I do commit to passing, it's usually when I see their hips drop or they make a big movement that leaves a leg exposed. Then I'm driving hard through that opening immediately. It's all about timing and recognizing when they're vulnerable versus when they're well-positioned to attack or sweep.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 From the top against grasshopper, you've got to be super aware of leg locks and stay mobile. In our system we teach a lot of inverted guard work, so we also teach how to beat it - and the answer is usually movement and base management. Don't plant your feet and try to be immovable, because the bottom guy will find angles to sweep you or attack legs. Instead, keep making small adjustments, circling, stepping back when they invert deep. The cartwheel pass and back step are money against grasshopper because they take you completely around their leg control rather than trying to go through it. We also use a lot of sprawl reactions when we see them starting to roll for leg attacks - just sprawl hard and usually you end up in a better position or they have to abandon the attempt. The other thing is recognizing that grasshopper is exhausting for the bottom guy. If you can survive their initial attacks and deny them the quick finish or sweep, they usually have to come out of it, and that's when you can really start to pass effectively. Stay patient, stay safe, and wait for your moment.
 

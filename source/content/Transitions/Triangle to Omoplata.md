@@ -147,14 +147,10 @@ description: "Learn Triangle to Omoplata transition in BJJ. Step-by-step executi
 
 
 
-> Triangle to Omoplata transitions from [[Triangle Control]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle to Omoplata?
 
 The Triangle to Omoplata transition is a fundamental submission chain that exploits opponent's defensive reactions to the triangle choke. When an opponent successfully defends the triangle by posturing or stacking, the bottom player can seamlessly transition to an omoplata shoulder lock by releasing the triangle configuration and capturing the trapped arm. This transition represents a core principle in modern guard work: using the opponent's escape attempts to create new attacking opportunities. The technique is particularly effective because the opponent's defensive posture—driving forward to relieve triangle pressure—naturally feeds into the omoplata setup. This creates a true dilemma where defending one submission opens the path to another.
 
@@ -193,7 +189,7 @@ The Triangle to Omoplata transition is a fundamental submission chain that explo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize triangle defense**: Identify opponent's defensive reaction—typically posturing up, stacking, or driving forward to relieve triangle pressure. This reaction creates the necessary space and positioning for the omoplata transition. Monitor opponent's weight distribution and arm position. (Timing: As opponent begins defensive movement)
 2. **Secure trapped arm control**: Tighten grip on opponent's trapped arm at the wrist or gi sleeve. This control prevents the arm from escaping during the transition and ensures the shoulder joint remains isolated. Pull the arm slightly across your body to maintain the angle needed for omoplata. (Timing: Before releasing triangle configuration)
 3. **Release triangle legs**: Unlock your figure-four leg configuration by releasing the ankle lock behind opponent's head. Simultaneously maintain hip pressure against opponent's shoulder to prevent escape. Keep your legs active and engaged rather than passively releasing. (Timing: As opponent's posture reaches maximum height)
@@ -279,7 +275,7 @@ Begin sparring from open guard positions and work to establish triangle, then tr
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary defensive reaction from the triangle that creates the opportunity for the omoplata transition?
 **A**: The opponent posturing up, stacking, or driving forward to relieve the triangle choke pressure. This defensive movement elevates the opponent's posture and creates the necessary space and angle for the attacking player to swing their leg over the opponent's back. The forward pressure that relieves triangle compression naturally feeds into the omoplata setup, making this a true attacking chain where defense of one submission opens the path to another.
 

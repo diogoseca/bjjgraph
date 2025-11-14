@@ -153,14 +153,12 @@ description: "Master the D'arce-Anaconda connection in BJJ. Learn seamless trans
 
 
 
-> D'arce-Anaconda Connection is a blood choke chain targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: D'arce-Anaconda Connection targets the Carotid arteries and trachea. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is D'arce-Anaconda Connection?
 
 The D'arce-Anaconda Connection represents one of the most fundamental submission chains in modern Brazilian Jiu-Jitsu, particularly in no-gi grappling. This connection exploits the geometric relationship between two mechanically similar but positionally distinct blood chokes. Both submissions target the carotid arteries using the practitioner's arm and the opponent's shoulder to create a vise-like compression, but they differ in arm configuration and optimal finishing angles. Understanding when to transition between these chokes based on opponent hand position and body orientation is critical for high-percentage finishing from front headlock positions. The connection becomes especially powerful when the opponent defends one choke by adjusting their posture or hand placement, inadvertently creating the perfect setup for the alternative finish. This chain is foundational in wrestling-based BJJ systems and represents essential knowledge for anyone seeking to develop a complete submission game from top turtle, scrambles, and standing exchanges.
 
@@ -245,7 +243,7 @@ The D'arce-Anaconda Connection represents one of the most fundamental submission
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Assess opponent's hand position from front headlock**: From front headlock control with opponent in turtle or broken down posture, identify whether their near-side hand is positioned high (reaching to defend head) or low (posted on mat). Hand down indicates D'arce availability, hand up indicates Anaconda availability. This assessment determines your entire attack sequence. (Timing: Immediate assessment during initial control establishment) [Pressure: Moderate]
 2. **Enter primary choke based on hand position**: If opponent's hand is down, thread your choking arm under their near armpit for D'arce entry (arm goes under, then over neck). If their hand is up, thread your arm over their near arm and under their neck for Anaconda entry (arm goes over, then under neck). Drive your shoulder into the side of their neck as you secure the initial connection. The depth of this entry determines finishing efficiency. (Timing: 1-2 seconds for deep penetration) [Pressure: Firm]
 3. **Lock grip configuration**: For both chokes, connect your hands in a gable grip or figure-four configuration. Your choking forearm should bisect the opponent's neck at a diagonal angle, with your bicep against one carotid and their own shoulder compressing the opposite carotid. Ensure your forearm blade (not flat) is against the neck for maximum efficiency. Pull your elbows tight together to begin initial compression. (Timing: Instantaneous grip lock) [Pressure: Firm]
@@ -314,7 +312,7 @@ The D'arce-Anaconda Connection represents one of the most fundamental submission
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary geometric difference that determines whether to apply D'arce or Anaconda from front headlock?
 **A**: The opponent's near-side hand position determines the available choke. If their hand is posted down on the mat, D'arce is available (your arm threads under their armpit then over neck). If their hand is up defending their head, Anaconda is available (your arm threads over their arm then under neck). The chokes are mirror images separated by 180-degree rotation.
 

@@ -132,6 +132,21 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   const neighbourhood = new Set<SimpleSlug>()
   const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
+
+  // For position hubs, aggregate links from Bottom and Top role pages
+  const isPositionHub = slug.toLowerCase().startsWith('positions/') &&
+                        !slug.toLowerCase().endsWith('/bottom') &&
+                        !slug.toLowerCase().endsWith('/top')
+
+  if (isPositionHub) {
+    const bottomPage = (slug + '/bottom') as SimpleSlug
+    const topPage = (slug + '/top') as SimpleSlug
+
+    // Add role pages to search queue if they exist in the data
+    if (data.has(bottomPage)) wl.unshift(bottomPage)
+    if (data.has(topPage)) wl.unshift(topPage)
+  }
+
   if (depth >= 0) {
     while (depth >= 0 && wl.length > 0) {
       // compute neighbours

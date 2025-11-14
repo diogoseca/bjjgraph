@@ -8,7 +8,7 @@ description: "Master Ringworm Guard in BJJ. Advanced lapel guard variation with 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Ringworm Guard in BJJ. Advanced lapel guard variation with 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ringworm Guard?
 
 Ringworm Guard is an advanced lapel guard variation that originated from the Worm Guard system popularized by Keenan Cornelius. The position involves threading the opponent's lapel around their leg while maintaining control from bottom guard, creating a powerful control system that limits the top player's mobility and creates numerous sweeping and back-taking opportunities. The name derives from the lapel configuration that wraps around the opponent's leg, hence the creative nomenclature consistent with the Worm Guard family.
 
@@ -48,7 +46,7 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -62,7 +60,7 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Short to Medium |
 
-**What Makes This Unique:** Lapel wrap trades stability for sweep leverage
+**Key Difference:** Lapel wrap trades stability for sweep leverage
 
 
 
@@ -74,10 +72,6 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 ## Playing as Bottom
 
 [[Ringworm Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -156,10 +150,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Ringworm Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -227,7 +217,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

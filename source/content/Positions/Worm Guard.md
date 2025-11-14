@@ -8,7 +8,7 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Worm Guard?
 
 Worm Guard is an advanced lapel-based open guard position developed and popularized by Keenan Cornelius. The position is characterized by feeding the opponent's lapel behind their back and around their leg, creating a lasso-like configuration that immobilizes their movement and creates powerful sweeping and back-taking opportunities. The name derives from the serpentine path the lapel takes around the opponent's body. This guard represents a modern evolution in gi-based grappling, utilizing the gi itself as an extension of your limbs to create control and leverage that would be impossible in no-gi grappling. The position excels at neutralizing larger, stronger opponents through technical manipulation rather than physical force.
 
@@ -50,7 +48,7 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium |
 
-**What Makes This Unique:** Lapel control trades mobility for leverage
+**Key Difference:** Lapel control trades mobility for leverage
 
 
 
@@ -76,10 +74,6 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ## Playing as Bottom
 
 [[Worm Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -164,10 +158,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Worm Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -237,7 +227,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

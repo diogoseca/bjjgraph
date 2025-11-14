@@ -153,14 +153,12 @@ description: "Master Williams Shoulder Lock in BJJ. Complete guide with safety p
 
 
 
-> Williams Shoulder Lock is a shoulder lock targeting the Shoulder joint (glenohumeral joint and rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Williams Shoulder Lock targets the Shoulder joint (glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Williams Shoulder Lock?
 
 The Williams Shoulder Lock is an advanced shoulder submission primarily executed from the Williams Guard position, utilizing an overhook control to isolate and attack the shoulder joint. This technique targets the glenohumeral joint and rotator cuff through a combination of lateral pressure and rotation, creating significant torque on the shoulder capsule. Named after its innovator, the Williams Shoulder Lock represents a sophisticated application of leverage principles where the attacker uses their entire body to control the opponent's arm while applying controlled rotational force. The submission is particularly effective against opponents who defend traditional armlocks by keeping their elbows tight, as it attacks a different plane of movement. The technique requires precise positioning and exceptional body awareness, making it a favorite among advanced practitioners who appreciate technical submissions over brute force applications. Due to the complexity of shoulder anatomy and the potential for serious injury, this submission demands careful study and controlled practice progression.
 
@@ -245,7 +243,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure Deep Overhook Control**: From Williams Guard, feed your arm deep under opponent's arm, securing an overhook that brings their arm across your body. Your grip should be on their tricep or upper back, pulling their arm tightly across your chest. Ensure their elbow is positioned near your sternum for maximum control. (Timing: 2-3 seconds to establish secure control) [Pressure: Firm]
 2. **Establish Wrist Control**: With your free hand, grab opponent's wrist or forearm of the trapped arm. This creates a two-point control system that prevents them from extracting their arm. Your grip should be firm but allow you to feel when they begin experiencing discomfort, enabling immediate release if needed. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Adjust Hip Position for Angle**: Shift your hips away from the trapped arm side, creating an angle that increases the leverage on their shoulder. Your body should form approximately 45-90 degrees relative to your opponent's centerline. This angle is critical for generating rotational force on the shoulder joint rather than simply pulling. (Timing: 2-3 seconds to find optimal angle) [Pressure: Light]
@@ -314,7 +312,7 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time frame for applying progressive pressure to complete a Williams Shoulder Lock safely in training? **[SAFETY-CRITICAL]**
 **A**: The minimum time frame is 5-7 seconds of extremely slow, progressive pressure. This allows your training partner adequate time to recognize the danger, process what is happening to their shoulder, and execute a tap signal before injury occurs. Never spike or jerk the submission, as this can cause immediate dislocation or rotator cuff tear before the partner can react. The extended time frame is critical because shoulder injuries are among the most debilitating in BJJ, often requiring surgery and months of rehabilitation.
 

@@ -147,14 +147,10 @@ description: "Master the Knee Cut Pass in BJJ. Step-by-step execution from Half 
 
 
 
-> Knee Cut transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Cut?
 
 The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental and highest-percentage guard passing techniques in Brazilian Jiu-Jitsu. This pass works by cutting the knee across the opponent's bottom leg while maintaining heavy shoulder pressure to prevent guard recovery. The technique creates a powerful diagonal line of force that pins the opponent's lower body while your upper body controls their upper body, making it extremely difficult to retain guard. The Knee Cut is effective against virtually all open guard variations and is particularly powerful against Half Guard, De La Riva Guard, and Butterfly Guard. What makes this pass so reliable is its combination of pressure, angle, and the difficulty opponents face in creating frames once the knee begins its cutting motion. The pass transitions seamlessly into Side Control and can be chained with other passing sequences when met with resistance.
 
@@ -193,7 +189,7 @@ The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and posture**: From Half Guard or open guard position, establish a strong collar grip with your lead hand and control the opponent's far hip or pants with your other hand. Maintain upright posture with your head up and chest forward to prevent opponent from breaking you down. (Timing: Before initiating any forward movement)
 2. **Insert cutting knee**: Drive your lead knee forward and across the opponent's bottom thigh, positioning it at a 45-degree angle. The knee should cut diagonally toward the mat, not straight forward. Your shin creates a wedge that separates their legs and prevents guard recovery. (Timing: As opponent's guard opens or when you create space)
 3. **Apply shoulder pressure**: Immediately drive your shoulder into the opponent's chin or upper chest while maintaining your collar grip. This pressure prevents them from sitting up or turning into you. Your chest should be heavy and connected to their torso throughout the pass. (Timing: Simultaneously with knee insertion)
@@ -291,7 +287,7 @@ Use knee cut pass against fully resisting opponents in live training. Start from
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the optimal angle for the cutting knee during the knee cut pass?
 **A**: The cutting knee should move at approximately a 45-degree diagonal angle toward the mat on the opposite side of the opponent's body, not straight forward. This diagonal angle creates a more effective wedge that separates the opponent's legs and makes it harder for them to recover guard or create frames.
 

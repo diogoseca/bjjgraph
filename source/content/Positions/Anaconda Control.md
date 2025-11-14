@@ -8,7 +8,7 @@ description: "Master Anaconda Control in BJJ. Complete guide covering offensive 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Anaconda Control in BJJ. Complete guide covering offensive 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Anaconda Control?
 
 Anaconda Control is a powerful submission control position in Brazilian Jiu-Jitsu where one practitioner has secured a front headlock variation with an arm-in configuration around the opponent's neck and shoulder. This position creates a distinctive vice-like compression that threatens the anaconda choke while providing exceptional control over the opponent's upper body. The position derives its name from the constricting nature of the control, where the top player's arms encircle the opponent's neck and trapped arm in a loop that tightens with proper pressure and positioning.
 
@@ -46,7 +44,7 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -60,7 +58,7 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Arm-in headlock trades base for submission
+**Key Difference:** Arm-in headlock trades base for submission
 
 
 
@@ -72,10 +70,6 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ## Playing as Bottom
 
 [[Anaconda Control/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -154,10 +148,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Anaconda Control/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -223,7 +213,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

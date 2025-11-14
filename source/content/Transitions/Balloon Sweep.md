@@ -147,14 +147,10 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 
 
 
-> Balloon Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Balloon Sweep?
 
 The Balloon Sweep is a dynamic and versatile sweep that combines elements of butterfly guard mechanics within the closed guard structure. This technique exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps. The technique requires precise timing and coordination between upper body control and lower body mechanics, making it a valuable addition to any guard player's arsenal.
 
@@ -194,7 +190,7 @@ The Balloon Sweep is a dynamic and versatile sweep that combines elements of but
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish upper body control**: Secure a strong grip on the back of opponent's collar or neck with your dominant hand while controlling their sleeve or tricep with your other hand. Break their posture forward so their weight is over their hands and their head is near your chest. This control prevents them from posting wide during the sweep. (Timing: Setup phase - establish before initiating sweep)
 2. **Open guard and create angle**: Open your closed guard by uncrossing your ankles. Simultaneously shift your hips at a 45-degree angle to the side opposite your collar grip. This angular position creates the rotational axis for the sweep and prevents opponent from simply posting their leg to defend. (Timing: Pre-sweep positioning - smooth transition)
 3. **Insert butterfly hook or posting foot**: Insert your inside foot (same side as your collar grip) as a butterfly hook under opponent's thigh, or alternatively place it as a posting foot on their hip. Your outside leg should remain active, with your knee drawn toward your chest and your foot ready to assist with lift or control. (Timing: Preparation phase - quick insertion)
@@ -285,7 +281,7 @@ Develop variations for different opponent body types and defensive strategies. P
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical difference between the Balloon Sweep and traditional lateral sweeps from closed guard?
 **A**: The Balloon Sweep uses vertical displacement and upward lift to compromise the opponent's base before rotating them over your center line, rather than relying primarily on lateral movement. This vertical component creates a balloon-like inflation effect under their center of mass, making it effective against opponents with strong wide bases who resist lateral sweeps.
 

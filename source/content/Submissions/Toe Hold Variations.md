@@ -147,14 +147,12 @@ description: "Master toe hold variations in BJJ. Learn setups from 50-50, ashi g
 
 
 
-> Toe Hold Variations is a leg lock targeting the Ankle and foot ligaments. ⚠️ **SAFETY**: This technique can cause Ankle ligament tears (deltoid, talofibular). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Toe Hold Variations targets the Ankle and foot ligaments. Risk: Ankle ligament tears (deltoid, talofibular). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Toe Hold Variations?
 
 The toe hold is a versatile leg lock that attacks the ankle and foot through rotational pressure, targeting the ligaments and small joints of the foot. Unlike the straight ankle lock which applies linear extension, the toe hold creates a twisting force that can quickly damage the ankle joint. This submission is particularly effective from entangled leg positions like 50-50, ashi garami variations, and can also be applied from top positions during scrambles. The toe hold's effectiveness comes from its multiple variations and entry points, making it a high-percentage finish when proper control is established. Advanced practitioners can transition seamlessly between toe hold variations based on opponent defensive reactions, creating submission chains that are difficult to escape. The technique requires precise ankle control and understanding of rotational mechanics to apply safely in training while maintaining finishing effectiveness in competition.
 
@@ -239,7 +237,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish leg entanglement control**: From 50-50 or ashi garami position, ensure opponent's leg is fully controlled between your legs with their knee trapped. Your outside leg should be over their thigh while your inside leg controls under their knee. Establish hip-to-hip connection to prevent them from creating distance. Your hips should be angled toward their trapped leg, not square to their body. (Timing: 2-3 seconds to establish control) [Pressure: Moderate]
 2. **Cup the heel and control the ankle**: Use your hand closest to their foot to cup their heel, wrapping your palm around the back of the heel with fingers pointing toward their toes. This hand maintains ankle alignment and prevents the foot from rotating independently. Your other hand will control the toes. Break any grips they have on their own foot by using your shoulder pressure or by controlling their wrist. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Grip the toes and ball of foot**: With your free hand, reach across and grip the ball of their foot, wrapping your fingers around their toes. Your thumb should be on the sole of their foot. This creates a figure-four-like structure with your arms. Ensure you have control of at least three toes for maximum leverage. Keep your elbows tight to your body to maintain structural strength. (Timing: 1-2 seconds) [Pressure: Light]
@@ -311,7 +309,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary difference in mechanics between a toe hold and a straight ankle lock?
 **A**: A toe hold applies rotational twisting force to the ankle and foot ligaments by externally rotating the foot, while a straight ankle lock applies linear extension pressure by pulling the foot toward the opponent's shin. The toe hold targets the ankle's rotational stability and small foot joints, whereas the ankle lock focuses on the Achilles tendon and ankle joint extension. This mechanical difference means toe holds can finish from different angles and require different defensive strategies than straight ankle locks.
 

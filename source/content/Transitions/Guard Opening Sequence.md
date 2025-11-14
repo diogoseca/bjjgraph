@@ -153,14 +153,10 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 
 
 
-> Guard Opening Sequence transitions from [[Closed Guard]] to [[Open Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guard Opening Sequence?
 
 Guard Opening Sequence represents the systematic approach to breaking closed guard and transitioning to an open guard passing position. This foundational technique encompasses posture establishment, grip fighting, and the application of specific opening mechanics to force the opponent's guard open. The sequence is fundamental to all guard passing systems, as no pass can begin without first opening the closed guard. Understanding proper opening mechanics prevents common injuries, maintains positional control, and sets up high-percentage passing opportunities. The technique involves careful attention to base maintenance, grip control, and strategic pressure application to overcome the opponent's defensive structure while maintaining safety and control throughout the transition.
 
@@ -199,7 +195,7 @@ Guard Opening Sequence represents the systematic approach to breaking closed gua
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish posture**: Begin from closed guard top position. Create a strong defensive frame by straightening your spine, lifting your head, and creating distance with your hips. Your elbows should be inside their knees, forearms driving into their hips or controlling their belt. This posture is non-negotiable - without it, the guard cannot be safely opened. (Timing: First priority - establish before any opening attempt)
 2. **Break opponent's grips**: Systematically remove the opponent's grip connections on your collar, sleeves, or head. Use circular motions to break collar grips by rotating your shoulders. For sleeve grips, push their grip toward their thumb (weakest point) while pulling your elbow back. Prevent them from re-establishing grips by maintaining proper distance and hand positioning. (Timing: 2-3 seconds of focused grip fighting)
 3. **Establish control grips**: Secure your own grips to control the opponent's position. Common options include: both hands on the pants near the knees (most common), one hand on belt with other on knee, or cross-collar grip with knee control. These grips prevent the opponent from following you as you create distance and control their hip movement. (Timing: Immediately after breaking their grips)
@@ -298,7 +294,7 @@ Practice against specialized closed guard styles: collar and sleeve guard, overh
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you establish strong posture before attempting to open closed guard?
 **A**: Strong posture with a straight spine and elevated head is essential because it prevents the opponent from breaking you down to sweep or submit you. Without proper posture, you cannot generate the leverage needed to open the guard, and you become vulnerable to triangles, omoplatas, and sweeps. Posture creates the structural foundation that allows your hips and legs to generate opening pressure safely.
 

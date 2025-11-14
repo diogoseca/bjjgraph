@@ -8,7 +8,7 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Collar Sleeve Guard from the Bottom?
 
 From the bottom perspective, collar sleeve guard represents an active offensive position where you control the engagement through strategic grip placement and systematic attack sequencing. Your primary objective is to break the opponent's posture using the collar grip while the sleeve grip prevents them from establishing base or advancing their position.
 
@@ -491,17 +472,17 @@ Attempt collar sleeve sweep (pendulum, flower, or scissor). If partner defends a
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Collar sleeve guard represents a fundamental asymmetric control system where grip placement creates mechanical advantages that transcend strength disparities. The cross-collar grip functions as a lever controlling the opponent's upper body rotation and posture, while the same-side sleeve grip eliminates their ability to post on that side, creating a structural imbalance. This asymmetry is not accidental—it's biomechanically designed to compromise the opponent's base in specific directions. When you pull the collar while extending the sleeved arm, you create a rotational force that the opponent cannot effectively counter without posting their free hand forward. This posting action is precisely what triggers your triangle entry, creating a systematic connection between your sweeping attacks and your submission game. The position's effectiveness stems from understanding that you're not simply holding grips; you're using those grips to manipulate the opponent's center of gravity and force predictable defensive reactions that lead directly into your attacking sequences.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, collar sleeve guard is my preferred initial control position in gi because it gives me immediate offensive options while being extremely difficult to pass when maintained correctly. The key to making this guard elite level is constant grip fighting and never allowing your hips to go flat. I'm always threatening the pendulum sweep, which forces my opponent to stay heavy on their posted leg, and that weight distribution is exactly what makes them vulnerable to the scissor sweep in the opposite direction. When they defend my sweeps by posting their free hand, I immediately attack the triangle, and if they pull their arm back to avoid the triangle, I'm transitioning to omoplata or switching to spider guard. This guard works at the highest levels because it creates genuine dilemmas where every defensive option opens another attack. Against pressure passers, the collar grip prevents them from getting their weight forward effectively, and against speed passers, my grips give me instant feedback about direction changes so I can maintain connection and control the engagement pace throughout the match.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Collar sleeve guard is money in the gi because it sets up everything—sweeps, triangles, omoplatas, and transitions to more advanced positions like rubber guard if you can break them down far enough. What people miss about this guard is that the collar grip isn't just for sweeping; it's your primary tool for breaking their posture down and controlling their upper body so you can start threatening submissions. When I teach this position, I emphasize that you should always be moving your hips and creating angles because static collar sleeve is garbage—you need that movement to generate the momentum for your sweeps and to make your triangle entries explosive and unexpected. One thing I love about collar sleeve is how easily it transitions to lasso guard when your opponent starts defending. You just thread that leg through and now you've got even more control. The versatility is what makes this guard fundamental; it's not just one position, it's a launching pad for your entire guard game, and mastering the grip fighting and hip movement here will improve everything else you do from guard.
 

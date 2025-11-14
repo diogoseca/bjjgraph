@@ -147,14 +147,10 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
 
 
 
-> Flower Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Flower Sweep?
 
 The Flower Sweep is a fundamental closed guard sweep that exploits the opponent's reaction to your initial attack. Named for the circular, flowing motion that resembles a flower opening, this technique is one of the highest-percentage sweeps available from closed guard. The sweep works by creating a pendulum-like momentum that uses the opponent's forward pressure against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you're already positioned for triangles, armbars, or omoplatas. The technique requires excellent hip mobility and precise timing, but once mastered, it becomes an instinctive response to the opponent's posture. The Flower Sweep is often one of the first sweeps taught to beginners due to its mechanical simplicity and high success rate, yet it remains effective at the highest levels of competition when executed with proper timing and setup.
 
@@ -193,7 +189,7 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips**: From closed guard, grip the opponent's same-side sleeve with your same-side hand (right hand to their right sleeve). Your opposite hand controls their collar or wraps behind their head. Pull down to break their posture forward, bringing their chest close to yours. (Timing: Initial setup - take time to secure grips properly)
 2. **Open guard and create angle**: Uncross your ankles and place your opposite foot (left foot if sweeping right) on the mat near their same-side hip. Simultaneously pivot your hips approximately 30-45 degrees away from the sweeping side, creating an angle with your body. Your other leg remains hooked around their back. (Timing: Smooth transition - 1-2 seconds)
 3. **Insert butterfly hook**: Bring your same-side leg (right leg if sweeping right) underneath the opponent, inserting a butterfly hook with your instep against the inside of their thigh. Keep your knee pointing upward and outward to create maximum leverage. (Timing: Quick insertion while opponent is off-balance)
@@ -284,7 +280,7 @@ Work on entering the Flower Sweep from different guard positions and grips. Prac
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of creating an angle with your hips before executing the Flower Sweep?
 **A**: Creating an angle (approximately 30-45 degrees) changes the sweeping direction from straight back to diagonal, which makes it much harder for the opponent to defend. When you sweep diagonally, the opponent must defend in multiple directions simultaneously - they can't simply post their knee or hand straight back. The angle also allows you to use your butterfly hook more effectively as a lever and generates the circular, rotating momentum that characterizes the sweep.
 

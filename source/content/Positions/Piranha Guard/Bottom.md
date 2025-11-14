@@ -8,7 +8,7 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Piranha Guard from the Bottom?
 
 Piranha Guard Bottom is an innovative lapel-based guard position characterized by controlling the opponent's lapel and feeding it through your legs while maintaining strategic grips and hooks. Named for its aggressive, opportunistic nature, this guard creates constant threats of sweeps, back takes, and submissions through creative use of the gi. The position was popularized by modern gi practitioners who adapted lapel control concepts from systems like Berimbolo, Worm Guard, and other contemporary lapel guard innovations.
 
@@ -478,17 +459,17 @@ Partner attempts various guard passes (knee slice, toreando, long step, stack pa
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The Piranha Guard represents an excellent example of how modern guard development has expanded the tactical options available to bottom players through creative use of the gi as an extension of your control system. The mechanical advantage created by threading the collar through the legs fundamentally changes the geometry of posture breaking—what would normally require significant strength becomes a matter of leverage and angles when properly executed. The key systematic principle is understanding that the collar thread creates a pulley-like mechanism where your legs act as the fulcrum, allowing relatively small pulling forces to generate large breaking effects on the opponent's posture and structural integrity. When teaching this position, I emphasize the importance of maintaining what I call 'constant collar tension'—the thread must never go slack, as this is your primary control mechanism and the foundation of your entire attacking system. The position works because it attacks the opponent's structure at multiple points simultaneously: their collar controls their head and shoulders, while your legs control distance and create barriers to passing attempts. This multi-point control system is what makes the position so effective despite its apparent complexity, and understanding the interaction between these control points is essential for maximizing the position's effectiveness in competition scenarios.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In high-level competition, Piranha Guard is one of those positions that can really frustrate opponents who haven't specifically trained against it, and I've used variations of this system to set up omoplatas and triangles when guys try to stand and break my guard aggressively. The beauty of it is that the harder they pull trying to get their collar back, the more they break their own posture, which sets up your attacks perfectly and creates the exact mechanical disadvantage you want to exploit. The key to making this work in competition is being extremely fast with the collar feed—you need to thread that lapel in one smooth motion when the opportunity presents itself, because if you're slow, good passers will shut it down immediately before you can establish the configuration. Once you have it locked in though, you're in a great position to attack because their defensive options become very limited and they're forced to react to your threats rather than implementing their passing system. I specifically like using the pendulum sweep when they try to stand up tall to extract the lapel, and the triangle when they lean forward trying to control my legs and hips. The sweep percentages are legitimate if you've drilled the mechanics properly—I've hit these sweeps on black belts who outweigh me significantly because the leverage is that effective when timed correctly with proper tension management. Don't overcomplicate it—collar tension, broken posture, and aggressive attacking mentality will get you most of your sweeps and submissions from here without needing fancy variations.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Piranha Guard is exactly the kind of creative, outside-the-box thinking that keeps jiu-jitsu evolving and keeps it interesting for both practitioners and spectators. This is pure innovation—someone looked at the gi and figured out a completely new way to use it that traditional players never thought of, turning the collar into an additional limb for control. What I love about this position is that it completely messes with people's expectations and their trained responses, creating psychological pressure in addition to the mechanical advantages. Most players have thousands of reps dealing with standard open guard positions, but when you thread that collar through your legs, suddenly they're in unfamiliar territory and their usual solutions don't work the way they expect. The psychological aspect is huge—people get frustrated and make mistakes when they can't solve a position quickly, and that's when you capitalize with your attacks. From a 10th Planet perspective, while we don't use the gi, the underlying principle of creating unconventional control mechanisms that disrupt opponent's trained responses is something we apply in no-gi with different tools like rubber guard and lockdown systems. The innovation here is recognizing that you can turn the gi into additional limbs for control, creating control points that extend beyond your natural reach. If I were teaching this to students who train gi, I'd emphasize the creativity aspect and encourage them to experiment with their own variations and combinations rather than just copying exactly what they've seen—that's how new techniques and entire systems get developed in our sport.
 

@@ -153,14 +153,12 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 
 
 
-> Omoplata from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Omoplata from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Omoplata from Guard?
 
 The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's rotator cuff and shoulder joint through hip extension and shoulder rotation. This submission originated from Brazilian Jiu-Jitsu's guard-playing traditions and has evolved into a central hub technique that connects sweeps, back takes, and other submissions. The Omoplata creates a mechanical advantage by using the legs to control the opponent's arm while the hips generate rotational pressure on the shoulder. Unlike many submissions that finish quickly, the Omoplata is often used as a position to create movement and opportunity - sweeps when opponent defends by rolling, back takes when they turn away, or transitions to triangles and armbars when they posture. The technique requires excellent hip mobility, timing, and understanding of how to maintain control throughout the finish. As a fundamental guard submission, the Omoplata teaches important principles about using legs for control, creating angles, and maintaining offensive pressure from bottom positions.
 
@@ -243,7 +241,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish initial control and break posture**: From closed guard or open guard, secure a same-side sleeve grip (right hand to opponent's right wrist) and use your legs or opposite hand to break their posture forward. Pull their head down or use your legs to prevent them from sitting back. The goal is to get their weight forward and their arm isolated. (Timing: 2-3 seconds to establish solid control) [Pressure: Moderate]
 2. **Swim arm under for overhook control**: Release or adjust your gripping hand and swim your same-side arm underneath their controlled arm to establish a deep overhook. Your armpit should be tight to their tricep with your hand reaching toward their opposite lat or belt. This overhook prevents them from extracting their arm during the leg swing. (Timing: 1-2 seconds, must be quick before they posture) [Pressure: Firm]
 3. **Create angle and swing leg over shoulder**: Shift your hips significantly to the side opposite the controlled arm (if controlling their right arm, shift hips to your left). Open your guard and swing your same-side leg (right leg for right-side Omoplata) over their shoulder and neck, with your calf landing across their upper back. Keep your overhook tight as you swing to prevent arm extraction. (Timing: One fluid motion, 2-3 seconds) [Pressure: Light]
@@ -314,7 +312,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary direction of hip extension when finishing the Omoplata, and why is this critical for safety? **[SAFETY-CRITICAL]**
 **A**: The hips extend horizontally forward toward opponent's head, not upward or at an angle. This is critical for safety because forward extension creates progressive, controlled pressure on the shoulder joint that the partner can tap to early. Upward or jerking motions can cause immediate injury without warning, particularly rotator cuff tears or shoulder dislocations. The slow, forward extension allows gradual pressure application and gives clear feedback for when to stop.
 

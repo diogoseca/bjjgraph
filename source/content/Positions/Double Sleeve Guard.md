@@ -8,7 +8,7 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Double Sleeve Guard?
 
 Double Sleeve Guard is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This position provides excellent control over the opponent's upper body, preventing them from establishing grips or initiating passing sequences while setting up numerous sweep and transition opportunities. The position is particularly effective in gi jiu-jitsu, where the sleeve grips create a strong connection that can be used to manipulate the opponent's posture and balance.
 
@@ -48,7 +46,7 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -62,7 +60,7 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium to Long |
 
-**What Makes This Unique:** Bilateral sleeve control optimizes distance
+**Key Difference:** Bilateral sleeve control optimizes distance
 
 
 
@@ -74,10 +72,6 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ## Playing as Bottom
 
 [[Double Sleeve Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -165,10 +159,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Double Sleeve Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -241,7 +231,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

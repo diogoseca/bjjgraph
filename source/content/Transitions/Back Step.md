@@ -153,14 +153,10 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
 
 
 
-> Back Step transitions from [[Outside Ashi-Garami]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Back Step?
 
 The Back Step is a fundamental leg entanglement escape and guard pass that creates immediate pressure passing opportunities when an opponent attempts to enter outside ashi-garami or other leg entanglement positions. By stepping the trapped leg backward over the opponent's body while maintaining heavy chest pressure, you simultaneously break their leg entanglement structure and establish dominant top position. This technique is essential in modern BJJ, particularly in no-gi competition where leg locks are prevalent. The back step exemplifies the principle of using aggressive forward movement to counter defensive guard retention, turning a potentially dangerous leg entanglement situation into a dominant passing position. When executed properly, the back step not only neutralizes the leg attack but also creates a direct path to side control or knee on belly, often catching opponents off-guard as they transition from offensive to defensive positioning.
 
@@ -199,7 +195,7 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish forward pressure**: Drive your chest forward and downward toward the opponent's upper body, creating heavy pressure that forces their shoulders toward the mat. This pressure is critical as it prevents them from sitting up and maintaining strong leg entanglement structure. Keep your weight distributed over your hands and chest, not sitting back on your hips. (Timing: Immediate upon recognizing leg entanglement entry)
 2. **Control near arm**: Secure a grip on the opponent's near side arm (the arm closest to your trapped leg) by grabbing the wrist or tricep. In gi, you can use sleeve grips. This arm control prevents them from posting and creating frames that would allow them to maintain distance and complete their leg entanglement or sit up for better attacking position. (Timing: Before initiating the back step movement)
 3. **Clear top leg**: Use your free hand to push or swim underneath the opponent's top leg that is crossing over your hip or thigh. Create enough space to allow your trapped leg to move freely. In some cases, you may need to use your hip movement to create this space rather than purely hand fighting. The goal is to reduce the opponent's control points from two legs to one. (Timing: As you prepare to extract trapped leg)
@@ -287,7 +283,7 @@ Develop your passing system by chaining the back step with knee slice, leg drag,
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical element of pressure to establish before attempting the back step?
 **A**: Forward chest pressure driving down toward the opponent's upper body is the most critical element. This pressure prevents them from sitting up and maintaining strong leg entanglement structure, and it creates the conditions necessary for successfully clearing your trapped leg and passing to side control. Without sufficient chest pressure, opponents can easily sit up, strengthen their leg control, and prevent the pass entirely.
 

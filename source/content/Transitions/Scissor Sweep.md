@@ -147,14 +147,10 @@ description: "Learn Scissor Sweep in BJJ. Step-by-step execution from Closed Gua
 
 
 
-> Scissor Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Scissor Sweep?
 
 The Scissor Sweep is one of the most fundamental and high-percentage sweeps in Brazilian Jiu-Jitsu, executed from closed guard. This classical technique exploits an opponent's weight distribution and posture by using a scissoring leg motion combined with upper body control to reverse positions. The sweep derives its power from the biomechanical advantage created when one leg pushes while the other pulls, creating a lever system that off-balances even larger, stronger opponents.
 
@@ -197,7 +193,7 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and break posture**: From closed guard, secure a strong grip on opponent's same-side sleeve with your same-side hand. With your opposite hand, grip deep into their collar. Use both grips simultaneously to break their posture forward, pulling them down and disrupting their base. Their head should be pulled down toward your chest, preventing them from establishing strong posture. (Timing: Initial setup - take time to establish solid grips before proceeding)
 2. **Open guard and create angle**: Release your closed guard by uncrossing your ankles. Simultaneously, use your grips to angle your body approximately 45-90 degrees to your opponent. Your shoulders should rotate toward the side where you have the collar grip. This angle is critical for creating the leverage needed for the scissor motion. (Timing: Execute smoothly as one continuous motion with step 3)
 3. **Position scissor legs**: Place your bottom leg (the leg on the collar grip side) across opponent's lower abdomen or belt line with your shin making contact. Your top leg (sleeve grip side) bends at the knee and places the back of your knee/calf behind opponent's same-side shoulder or across their back. Your feet should be flexed, creating tension in both legs. (Timing: Legs must be positioned before opponent can react and establish base)
@@ -286,7 +282,7 @@ Execute the sweep during positional sparring from closed guard with full resista
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the optimal angle to create with your body relative to your opponent when setting up the Scissor Sweep?
 **A**: Your body should be positioned approximately 45-90 degrees perpendicular to your opponent. This angle is critical because it creates the leverage necessary for the scissoring leg motion to be effective. Being too square to the opponent reduces leverage and makes the sweep much weaker.
 

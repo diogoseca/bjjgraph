@@ -8,7 +8,7 @@ description: "Master leg drag control from top position. Complete strategic guid
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master leg drag control from top position. Complete strategic guid
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 45%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Leg Drag Control from the Top?
 
 Leg drag control from the top position represents one of the most dynamic and effective passing positions in modern Brazilian Jiu-Jitsu. This position serves as a critical transition point in your passing sequence, where you have successfully compromised your opponent's guard structure but have not yet achieved a fully consolidated position. The power of leg drag control lies in its versatility—from here, you have direct pathways to side control, mount, back control, and various submission attacks, while maintaining strong positional dominance that limits your opponent's defensive options.
 
@@ -489,17 +468,17 @@ Partner randomly performs one of four defensive reactions (turn away, stay flat,
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The leg drag control position represents one of the most elegant expressions of guard passing mechanics in modern jiu-jitsu. What makes it particularly effective is the control fulcrum it creates—by pulling the opponent's leg across their body, you create a single control point that allows you to manipulate their entire lower body structure with relatively minimal effort. The biomechanics are fascinating: the crossed leg creates a mechanical disadvantage where the opponent cannot effectively use their legs for defense or mobility, while simultaneously creating natural pathways to multiple dominant positions. Your control system must operate on two levels—the primary control through the crossed leg and hip pressure, and the secondary control through shoulder or head positioning that prevents compensatory movements. The position teaches an important lesson about transitional passing: you don't need to completely shut down your opponent's movement, you need only to channel it in directions that benefit you. When they turn away, you take the back. When they turn in, you secure north-south or a crucifix. This creates what I call a 'forced choice' system where every defensive option leads to your advancement. The key to mastery is developing the sensitivity to recognize which defensive reaction they're choosing within the first second, allowing you to flow immediately to the appropriate response. Practice your transitions until they become reflexive—hesitation in this position allows escape.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 The leg drag is one of my highest percentage passing positions because it gives you so many good options while the bottom guy has basically nothing. In competition, once I get to leg drag control, I'm thinking about it like I've already passed—now it's just a matter of which dominant position I'm going to take. The biggest thing people mess up is they treat it like a static position and try to hold it, but that's completely wrong. You should be moving to back, mount, or side control within 2-3 seconds maximum. The longer you stay there, the more chance they have to escape. My personal preference is always threatening the back take first because that creates the most panic in opponents. Even if they defend the back well, that defense usually opens up the mount or side control pass. The hip pressure is absolutely crucial—you need to be driving your chest into their hip constantly so they can't square up to you. If they can face you, the leg drag doesn't work anymore. Another detail that's really important is which leg you're controlling and how that relates to your body position. You want diagonal pressure across their body, not straight down. That diagonal angle makes it impossible for them to effectively frame or create space. I see a lot of people get the leg drag control but then they square up too much, and the bottom guy just shrimps out. Keep that diagonal pressure, stay mobile, and be ready to take whatever they give you. Don't force one specific transition—read what they're defending and attack the opening.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The leg drag is interesting from a 10th Planet perspective because it's not traditionally part of our system, but it's become essential for modern no-gi grappling, so we've had to integrate it. What I like about the position is how well it combines with our back taking approaches and leg lock entries. When you've got someone in leg drag control, you're basically in a choose-your-own-adventure situation—you can go to their back using techniques from our truck system, you can drop down to their legs and enter our leg lock game, or you can go traditional with the mount or side control. The versatility is what makes it so powerful. One thing we emphasize that's maybe different from traditional approaches is staying very aware of the leg entanglement option. If the opponent is good at defending the back take and the mount, you can often catch them by transitioning to inside heel hook position because they're not expecting that direction of attack. Their leg is already compromised from the leg drag, so it's a natural entry point. The other detail I really like is using the leg drag to set up the crucifix when they try to sit up—that's a position we work a lot in 10th Planet, and the leg drag creates a perfect entry if you're ready for it. The key is keeping your mind open to all the different paths and not getting locked into one specific finish. The leg drag is a hub position—treat it like a crossroads where you can go in multiple directions based on what your opponent gives you. Stay creative, stay fluid, and don't be predictable.
 

@@ -147,14 +147,12 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 
 
 
-> Kneebar from Guard is a leg lock targeting the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear or rupture. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kneebar from Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kneebar from Guard?
 
 The Kneebar from Guard represents a powerful attacking option from bottom positions, allowing the guard player to transition from defensive positioning to an immediate submission threat. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament and collateral ligaments. The kneebar from guard is particularly effective because it capitalizes on the opponent's forward pressure and weight distribution, using their momentum against them. The technique can be executed from multiple guard variations including closed guard, butterfly guard, open guard, and De La Riva guard, each offering unique entry mechanics and control positions. Modern leg lock systems have elevated the kneebar from guard to a fundamental attacking position, with practitioners developing sophisticated entries that blend seamlessly with sweeps and back takes. The position requires precise timing, hip positioning, and leg control to prevent escape while maintaining offensive pressure. When executed correctly, the kneebar from guard creates an inescapable submission that forces immediate tap or results in serious injury.
 
@@ -239,7 +237,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish grip control and break posture**: From closed guard or open guard, secure a grip on opponent's ankle or pants near their knee. Simultaneously pull them forward to break their posture, preventing them from sitting back and creating the forward momentum needed for the kneebar entry. Your opposite hand should control their same-side sleeve or collar to prevent them from posting. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Open guard and pivot hips perpendicular**: Open your closed guard if applicable and immediately pivot your hips 90 degrees so your body becomes perpendicular to opponent's trapped leg. This is the most critical positional element - your spine should form a 'T' shape with their leg. Thread your inside leg across their trapped thigh to begin isolation. (Timing: 1 second - this must be explosive) [Pressure: Light]
 3. **Isolate the leg and establish leg triangle**: Wrap your inside leg around opponent's trapped thigh and lock a figure-four position with your outside leg hooking behind your ankle. This leg triangle prevents them from extracting their leg. Simultaneously, your arms must control their heel, pulling it tightly to your chest with their toes pointing away from you. Your outside arm typically secures the heel while your inside arm reinforces. (Timing: 2-3 seconds) [Pressure: Firm]
@@ -307,7 +305,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must you apply kneebar pressure progressively over 5-7 seconds in training rather than explosively? **[SAFETY-CRITICAL]**
 **A**: Explosive application of the kneebar can cause immediate catastrophic knee injury including PCL tears, MCL ruptures, and meniscus damage before your training partner has time to recognize the danger and tap. The knee joint is extremely vulnerable to hyperextension, and unlike many other submissions, there is minimal 'safe zone' between no pressure and injury. Progressive application over 5-7 seconds allows your partner to feel the increasing danger and tap safely, preventing serious injuries that require surgery and months of recovery.
 

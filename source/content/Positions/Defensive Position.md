@@ -8,7 +8,7 @@ description: "Master defensive positioning in BJJ. Comprehensive guide covering 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -175,29 +175,10 @@ description: "Master defensive positioning in BJJ. Comprehensive guide covering 
 
 
 
-> **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
->
-> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (Neutral)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Defensive Position?
 
 Defensive Position represents the fundamental survival state in Brazilian Jiu-Jitsu when an opponent has established a dominant position. This conceptual framework encompasses the core principles of protecting yourself from submissions, maintaining structural integrity under pressure, and creating opportunities to escape or recover guard. Rather than a single static position, Defensive Position is a dynamic mindset that applies across multiple compromised scenarios including bottom of side control, mount, back control, and turtle. The primary goals are to prevent immediate submission threats, conserve energy, and systematically work toward positional improvement. Mastery of defensive positioning is essential for all practitioners, as it forms the foundation for survival against larger, stronger, or more skilled opponents.
 
@@ -488,17 +469,17 @@ Top player alternates between heavy pressure and creating space for transitions.
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Approach
+### John Danaher
 
 Defensive Position represents a scientific approach to survival based on understanding mechanical principles rather than memorizing specific techniques. The foundation of effective defense is hierarchical prioritization: neck and limb protection supersedes all other concerns, followed by structural frame creation, then movement initiation. What separates advanced defensive positioning from beginner survival is the concept of defensive layers - multiple redundant protective mechanisms working simultaneously so that if one fails, others remain intact. The chin tuck protects against chokes, the elbow connection prevents arm isolations, the curved spine enables hip movement, and the strategic leg positioning creates barriers against advancement. Each layer must be systematically dismantled by the opponent, buying time and creating counter-opportunities. Advanced practitioners don't just survive in defensive positions; they actively manage the opponent's attack sequence, controlling the pace of engagement and choosing which defensive layer to sacrifice strategically to enable escape movements. The key to longevity in this position is understanding that defense is not passive resistance but active problem-solving.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Defensive Position in high-level competition is about energy efficiency and precise frame placement rather than pure survival. The key insight is creating what I call defensive wedges - frames positioned so they become stronger as more pressure is applied against them, similar to architectural buttresses. When you understand angle and leverage correctly, you can maintain frames with minimal muscular effort while the opponent exhausts themselves trying to flatten you. My defensive approach emphasizes creating brief moments of space through timing rather than attempting to maintain constant separation. When the opponent transitions or adjusts their pressure, that's when you shrimp, not when they're settled and driving forward. Competition-level defense also requires accepting small disadvantages to prevent larger ones - sometimes you give up the underhook to prevent the crossface, or you allow side control to prevent mount. Understanding these trade-offs and making them decisively rather than fighting every inch prevents the panic and exhaustion that leads to submissions. Against elite opponents, your defensive position needs to be so solid that they start making mistakes trying to break through it.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Defensive Position within the 10th Planet system goes beyond traditional survival concepts into unconventional framing techniques that utilize leg positioning and inverted movements. We focus heavily on what I call connection disruption - rather than just building protective barriers, we actively work to break the opponent's established control points through unexpected angles and movements. The Lockdown from half guard bottom exemplifies this approach: instead of trying to create space through traditional frames, we use leg entanglement to completely change the geometry of the position, turning what appears defensive into an offensive control system. Our defensive philosophy also emphasizes transition through bad positions rather than static survival - using movements like the Electric Chair setup or Dogfight entries that move through compromised positions so quickly that the opponent can't capitalize on them. The mental aspect is crucial: defensive positions in our system aren't places to survive, they're temporary states you flow through on the way to offensive opportunities. We train students to stay calm and creative under pressure, looking for unconventional solutions when traditional escapes aren't available.
 

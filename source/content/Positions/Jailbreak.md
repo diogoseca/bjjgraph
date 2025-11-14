@@ -8,7 +8,7 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Jailbreak?
 
 The Jailbreak position represents a critical dynamic state in the half guard game, characterized by explosive movement and strategic risk-taking to escape dominant pressure. This position manifests in two distinct perspectives: from bottom, it's an advanced escape technique using inversion and momentum to break free from crushing pressure, while from top, it's a transitional passing position where maintaining control through extended leg barriers determines success.
 
@@ -50,7 +48,7 @@ From bottom perspective, the practitioner uses underhook control combined with i
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ From bottom perspective, the practitioner uses underhook control combined with i
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Explosive inversion trades stability for escape
+**Key Difference:** Explosive inversion trades stability for escape
 
 
 
@@ -76,10 +74,6 @@ From bottom perspective, the practitioner uses underhook control combined with i
 ## Playing as Bottom
 
 [[Jailbreak/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -157,10 +151,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 ## Playing as Top
 
 [[Jailbreak/Top|→ Full Top Guide]]
-
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
 
 ### Key Principles
 
@@ -241,7 +231,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

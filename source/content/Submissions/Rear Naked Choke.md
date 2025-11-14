@@ -147,14 +147,12 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 
 
 
-> Rear Naked Choke is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Rear Naked Choke targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rear Naked Choke?
 
 The Rear Naked Choke (RNC) is widely considered the highest-percentage submission in Brazilian Jiu-Jitsu and mixed martial arts. This blood choke targets the carotid arteries on both sides of the neck, cutting off blood flow to the brain and causing unconsciousness in 6-10 seconds if not released. Unlike air chokes that can take 30+ seconds and cause panic, the RNC is efficient and relatively safe when applied correctly with proper training protocols. The position's effectiveness stems from the back control position itself - the opponent cannot see you, cannot effectively defend with their arms, and must deal with your body weight and control while their breathing and circulation are compromised. The RNC is the most common submission finish in high-level competition, with statistics showing it accounts for approximately 25-30% of all submission victories in professional MMA and 15-20% in gi BJJ competition. The technique's universality across gi and no-gi contexts, combined with its mechanical simplicity and high success rate even against larger opponents, makes it an essential technique for all practitioners regardless of style or body type.
 
@@ -239,7 +237,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish back control foundation**: From back control position, ensure you have both hooks in or a body triangle secured. Your chest should be tight to opponent's back. Establish seat belt control with one arm over the shoulder and one arm under the armpit. Your head should be beside their head, not directly behind where they can push it away. (Timing: Hold position until opponent settles) [Pressure: Moderate]
 2. **Hand fight and create entry angle**: Use your top hand (over the shoulder) to control opponent's hand or collar, preventing them from defending their neck. Slightly angle your body to the choking arm side. If opponent's chin is down, use your chest pressure and head position to create space. Post your choking arm's hand on their shoulder or chest initially to prevent them from tracking the danger. (Timing: 1-2 seconds of setup) [Pressure: Light]
 3. **Insert choking arm under chin**: Slide your choking arm under the chin, driving deep until your elbow is past the centerline of their chin. The blade of your forearm (thumb-side) should be across one carotid artery. Keep your hand open or in a loose fist initially. The deeper your elbow position in front of their chin, the more difficult the escape. Your forearm should not be on the trachea or windpipe - it must be on the sides of the neck. (Timing: Insert quickly but smoothly, 1-2 seconds) [Pressure: Light]
@@ -307,7 +305,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary target of a properly applied Rear Naked Choke, and why is this important for safety? **[SAFETY-CRITICAL]**
 **A**: The primary target is the carotid arteries on both sides of the neck, NOT the windpipe or trachea. This is critically important for safety because a blood choke causes unconsciousness in 6-10 seconds through reduced blood flow to the brain, while an air choke can take 30+ seconds, causes panic and violent resistance, and creates serious risk of trachea injury. The forearm blade must be positioned on the sides of the neck where you can feel the pulse, creating compression of the arteries. Proper positioning makes the technique both more effective and significantly safer.
 

@@ -8,7 +8,7 @@ description: "Master escaping Side Control with systematic defensive frameworks 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master escaping Side Control with systematic defensive frameworks 
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 50% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: -3 (Disadvantaged by 3 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Side Control from the Bottom?
 
 Side Control Bottom is one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you are pinned on your back with your opponent's chest perpendicular to your torso, controlling your upper body and hips. This position represents a critical moment where effective defense can prevent submission and enable escape or guard recovery. Understanding the systematic approach to escaping side control is essential for all practitioners, as it directly impacts your ability to survive and counter dominant positions. The bottom player must focus on creating frames, generating space through hip movement, and systematically working toward guard recovery or escape while defending against constant submission threats. Success from this position requires technical precision, timing, patience, and the ability to recognize and exploit small windows of opportunity when the top player transitions or attacks. The defensive hierarchy prioritizes first preventing submissions, second preventing position advancement to mount or back, and third creating escape opportunities through systematic space creation and guard recovery sequences. The mechanical principle that makes side control escapes possible is the creation of space through hip movement combined with framing structures that prevent the opponent from following your movement. When you shrimp your hips away, you must simultaneously create a frame with your forearms against the opponent's shoulders or hips to prevent them from simply following your movement and maintaining the pin. The timing element is critical - attempts to escape when the opponent has stable base and settled weight will fail regardless of technique quality.
 
@@ -467,17 +448,17 @@ Partner transitions between side control variations and mount attempts. Practice
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The escape from side control is fundamentally about understanding the hierarchy of defensive priorities and executing them systematically. Your first priority must always be preventing submission - no escape is worth being submitted during the attempt. Your second priority is preventing position advancement to mount or back control, as these positions offer even fewer escape opportunities and higher submission rates. Only after securing these defensive fundamentals should you focus on actual escape and guard recovery. The mechanical principle that makes side control escapes possible is the creation of space through hip movement combined with framing structures that prevent the opponent from following your movement. When you shrimp your hips away, you must simultaneously create a frame with your forearms against the opponent's shoulders or hips to prevent them from simply following your movement and maintaining the pin. The timing element is critical - attempts to escape when the opponent has stable base and settled weight will fail regardless of technique quality. You must recognize the moments when their base is compromised: during transitions to mount, during submission attacks that require weight shifts, or during attempts to advance position. These momentary windows of reduced control are when your escape attempts have the highest probability of success.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, being stuck under side control is one of the worst positions because you're already down on points and burning energy trying to escape while your opponent controls you efficiently. My approach to escaping side control focuses on two key elements: never letting them settle into a comfortable position, and making them choose between maintaining control and pursuing submissions. The moment I feel side control pressure, I'm immediately creating frames - not pushing their head or chest, but creating structure against their hips and shoulders that prevents them from distributing their full weight. I look for the transition moments when they try to advance to mount or north-south, because that's when I can insert my knee for half guard recovery or create enough space to reguard completely. Against heavy pressure passers, sometimes the turtle escape is actually the highest percentage option - you turn away, get to your knees, and immediately work your guard retention from there rather than trying to force a guard recovery from flat on your back. The key is being proactive with your defense rather than reactive - if you wait until they've settled their full weight and established perfect control, your escape percentage drops dramatically. Move early, move constantly, and make them work to keep the position rather than letting them rest and attack.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The traditional side control escape that most gyms teach - the elbow-knee escape with the shrimp - is solid, but I teach my students to think more creatively about escaping this position because waiting to hit that perfect technical escape against a skilled opponent can take forever and you're getting smashed the whole time. One of my favorite options is going immediately to the ghost escape or the Granby roll when they're transitioning to the position, before they settle their weight completely. If they've already settled, I teach using the lockdown principles even from bottom side control - you can sometimes trap their near leg and create a weird half guard position that gives you way more options than being flat. The other thing people don't think about enough is that sometimes the best escape from side control is actually giving up the back temporarily - if you can turn into them and get to your knees while protecting your neck, you're in turtle which actually has more escape options than side control bottom for creative grapplers. The key innovation is recognizing that the 'proper' technical escape isn't always the highest percentage play - sometimes the unorthodox movement that catches them off guard is what actually works when you're dealing with high-level pressure players who have seen every traditional escape a thousand times.
 

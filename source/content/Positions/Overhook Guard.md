@@ -8,7 +8,7 @@ description: "Master Overhook Guard in BJJ. Strategic guide covering control mec
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Overhook Guard in BJJ. Strategic guide covering control mec
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Overhook Guard?
 
 Overhook Guard is a specialized guard position where the bottom practitioner controls one of the opponent's arms with an overhook (overhand grip over the shoulder) while maintaining guard structure. This position creates powerful off-balancing opportunities and direct pathways to sweeps and back takes by compromising the opponent's base and posture. The overhook functions as both a defensive frame to prevent passes and an offensive tool to break down the top player's structure.
 
@@ -50,7 +48,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium |
 
-**What Makes This Unique:** Arm control sacrifices symmetry for sweeps
+**Key Difference:** Arm control sacrifices symmetry for sweeps
 
 
 
@@ -76,10 +74,6 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ## Playing as Bottom
 
 [[Overhook Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -164,10 +158,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Overhook Guard/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -241,7 +231,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

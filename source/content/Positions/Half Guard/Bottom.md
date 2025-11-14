@@ -8,7 +8,7 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Half Guard from the Bottom?
 
 Half Guard Bottom represents a sophisticated defensive position that has evolved into one of the most dynamic offensive platforms in modern Brazilian Jiu-Jitsu. From this position, the bottom practitioner controls one of the top player's legs between their own legs while lying on their side or back, creating an asymmetric control structure that enables sweeps, submissions, and back takes despite the apparently inferior positioning. The position serves as a critical last line of defense before being passed while simultaneously offering numerous high-percentage offensive opportunities.
 
@@ -460,17 +441,17 @@ Start in half guard bottom. Top player's goal is to pass within 2 minutes. Botto
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Half guard bottom represents the quintessential modern guard position where systematic understanding trumps physical attributes. The position's effectiveness derives from its inherent asymmetry - the trapped leg serves as a fulcrum around which the bottom player can generate mechanical advantage through proper lever arm creation. The fundamental principle is that the underhook battle determines positional hierarchy: secure the underhook on the trapped leg side and you control the vertical plane, allowing systematic progression to back exposure or sweep completion. Without the underhook, you must employ distance management through knee shield or transition to deep half guard where head position and shoulder angle replace the underhook as primary control mechanism. The position demands constant angle creation - remaining flat is biomechanical death, whereas maintaining side position preserves hip mobility essential for all offensive actions.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, half guard bottom is my go-to position when someone is pressuring my open guard because it offers the best risk-reward ratio of any bottom position. The key is never letting them settle - you have to constantly threaten sweeps, back takes, and leg attacks to prevent them from methodically working their pass. I focus heavily on the underhook battle because once I get that underhook, I'm sweeping 70% of the time at the highest levels. My favorite path is underhook to old school sweep directly to mount, but if they defend well I immediately chain to deep half or back take attempts. The critical mistake I see competitors make is playing half guard passively, trying to just hold position - that's a guaranteed pass against elite opposition.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Half guard bottom is the foundation of the entire 10th Planet system because it's the position where you can be most creative while maintaining security. The lockdown completely changes the game - instead of just trapping their leg, you're controlling their entire base and posture, which opens up the whole electric chair, old school, and plan B sequence. What people don't understand is that half guard isn't about waiting for opportunities, it's about creating dilemmas through constant pressure and unconventional attacks. I want them thinking about the electric chair so they stand up, then I hit the old school. The whip-up from lockdown is crucial - it off-balances them and creates the scramble situations where technical innovation beats traditional pressure passing.
 

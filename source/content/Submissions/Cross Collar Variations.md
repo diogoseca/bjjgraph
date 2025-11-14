@@ -147,14 +147,12 @@ description: "Master Cross Collar Choke variations in BJJ. Complete safety guide
 
 
 
-> Cross Collar Variations is a blood choke targeting the Carotid arteries and blood flow to brain. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Cross Collar Variations targets the Carotid arteries and blood flow to brain. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Cross Collar Variations?
 
 The Cross Collar Choke represents one of the most fundamental and highest-percentage finishing techniques in gi-based Brazilian Jiu-Jitsu. This blood choke works by compressing the carotid arteries on both sides of the opponent's neck using the lapels of their own gi, cutting off blood flow to the brain and inducing unconsciousness within seconds if not defended. The beauty of cross collar variations lies in their versatility—they can be executed from numerous positions including closed guard, mount, side control, and even standing positions. The technique's effectiveness stems from using the opponent's gi as a force multiplier, allowing a smaller practitioner to generate tremendous pressure with proper grip placement and body mechanics. Cross collar chokes are particularly valuable because they remain effective against opponents of all sizes and skill levels when executed with proper timing and control. Understanding the full spectrum of cross collar variations—from the basic two-handed version to one-handed attacks and transitional variations—is essential for developing a complete gi submission game.
 
@@ -240,7 +238,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish primary grip**: Insert your dominant hand four fingers deep into opponent's collar on the opposite side (right hand to left collar or vice versa). The thumb stays outside the collar while fingers curl deep inside against their neck. This first grip is critical—it must be deep enough that opponent cannot easily strip it. Pull down slightly to break their posture and prevent them from sitting up or creating distance. (Timing: Take 2-3 seconds to secure grip depth) [Pressure: Light]
 2. **Break posture completely**: Using your primary grip and your legs (if in guard) or body weight (if on top), pull opponent's head down and forward into your chest or the mat. Their spine should be rounded and their head should be lower than their hips. This broken posture is essential—without it, they can create frames and prevent your second grip. Control their head by pulling it to your chest or shoulder. (Timing: Maintain constant pulling pressure for 2-3 seconds) [Pressure: Moderate]
 3. **Clear defensive grips**: Before attempting your second grip, identify and strip any defensive grips opponent has on your sleeves or collar. Use your free hand to peel their fingers off or use circular motions to break their grip structure. This step is often overlooked but critical—if opponent controls your second hand, they can prevent the finish. Be patient and systematic in clearing these obstacles. (Timing: 1-2 seconds per grip strip) [Pressure: Moderate]
@@ -312,7 +310,7 @@ The Cross Collar Choke represents one of the most fundamental and highest-percen
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary target of a properly executed cross collar choke, and why is this important for safety? **[SAFETY-CRITICAL]**
 **A**: The primary targets are the carotid arteries located on both sides of the neck, not the windpipe in front. This is critical for safety because blood chokes that target the carotid arteries are faster, more humane, and much safer than air chokes that crush the windpipe. Carotid compression causes unconsciousness within 3-8 seconds, while windpipe pressure can take 30+ seconds and risks serious trachea damage. A properly applied blood choke allows the opponent to tap quickly before any injury occurs, whereas windpipe pressure causes panic, pain, and potential permanent damage to the throat structures.
 

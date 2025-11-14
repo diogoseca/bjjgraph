@@ -8,7 +8,7 @@ description: "Master Double Jump position in BJJ. Dynamic half guard control tec
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Double Jump position in BJJ. Dynamic half guard control tec
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Double Jump?
 
 Double Jump is an advanced positional concept in Brazilian Jiu-Jitsu that exists in two distinct tactical contexts: as a dynamic guard recovery entry from bottom and as a turtle attack control position from top. This dual-perspective position represents modern approaches to creating explosive transitions and bypassing traditional defensive structures.
 
@@ -52,7 +50,7 @@ Both perspectives share the common principle of using leg-based controls to crea
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -66,7 +64,7 @@ Both perspectives share the common principle of using leg-based controls to crea
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Bilateral leg insertion for rapid position change
+**Key Difference:** Bilateral leg insertion for rapid position change
 
 
 
@@ -78,10 +76,6 @@ Both perspectives share the common principle of using leg-based controls to crea
 ## Playing as Bottom
 
 [[Double Jump/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -170,10 +164,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Double Jump/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -243,7 +233,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

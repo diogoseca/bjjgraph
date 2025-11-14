@@ -8,7 +8,7 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 55% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 2 (2 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Knee on Belly from the Bottom?
 
 Knee on Belly Bottom is a highly disadvantageous defensive position where the practitioner is flat on their back with the opponent's knee driving into their diaphragm or solar plexus. This position represents one of the most pressure-intensive scenarios in Brazilian Jiu-Jitsu, requiring immediate defensive action to prevent both submission attacks and further positional deterioration. The bottom player must manage overwhelming chest pressure while protecting their neck and arms from various submission threats including armbars, Americanas, and collar chokes. Understanding proper defensive framing, hip escape mechanics, and re-guard strategies is essential for survival and escape. The position scores 2 points for the top player in IBJJF competition and creates a significant advantage in the control hierarchy. Success from this position is measured not by offensive capability but by the speed and efficiency of escape back to guard or neutral positions. The key to effective defense lies in immediate frame creation, hip movement to create angles, and systematic pressure management that prevents the opponent from consolidating control or advancing to mount.
 
@@ -463,17 +444,17 @@ Top player establishes knee on belly and actively hunts for submissions (armbar,
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The knee on belly bottom position represents a critical juncture in the defensive hierarchy where the practitioner must make immediate decisions regarding escape priorities. The biomechanical disadvantage stems from the opponent's ability to concentrate their entire body weight through a single point of contact on your diaphragm, creating respiratory distress that compounds with every passing second. The systematic approach to escape requires understanding that all effective escapes share three fundamental components: frame creation to manage distance, hip angle generation to reduce pressure surface area, and directional shrimping to create the geometric space necessary for re-guard entries. The most common error I observe is students attempting to generate vertical force against the knee pressure rather than creating lateral movement away from the pressure vector. Your frames must be positioned on the opponent's hips and near-side knee, not their upper body, as this creates the mechanical leverage necessary to turn your torso and generate the critical first inches of hip escape. Once you understand that escape is fundamentally about creating angles rather than opposing force directly, your success rate will increase dramatically across all bottom positions.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, knee on belly bottom is where matches are often lost if you don't have a systematic escape protocol that you've drilled thousands of times under pressure. I've been caught here against world-class opponents and the difference between escape and submission comes down to your immediate reaction in the first two seconds. You cannot afford to be passive or wait to see what they do - you must immediately establish your defensive frames and start your escape sequence before they settle their weight. My preferred escape is the elbow-knee frame combination where I use my far elbow on their hip and my near forearm on their knee while simultaneously turning into them and shrimping away. This creates the angle I need to get my knee shield in and start working back to half guard. Against someone like Buchecha or Galvao who has incredible pressure, you have to chain your escapes together - if the first shrimp doesn't get you all the way out, you immediately hit a second and third shrimp until you've created enough space to re-guard. The key is never stopping your movement because the moment you become static, they will advance to mount or attack a submission and your bad position becomes a losing position.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Knee on belly bottom is one of those positions where the conventional wisdom of 'stay calm and technical' can actually work against you if you're not careful. Yeah, you need good frames and hip movement, but you also need a sense of urgency because this position drains your energy faster than almost any other bottom position. What I teach at 10th Planet is to get creative with your escape entries - don't just default to the standard shrimp to half guard that everyone expects. If you can create the space, look for the lockdown entry or even the deep half because these positions give you way more offensive potential than standard half guard. One underutilized option is when they're hunting for the far side armbar and they lift their knee to step over - that's your window to either recover full guard or even hit a technical standup if you're quick. The rubber guard philosophy applies here too: use your opponent's aggression against them. If they're driving hard with that knee trying to smash you, that forward pressure can be redirected once you get your frames in. The biggest mistake I see is people giving up mentally because the pressure is uncomfortable - you've got to embrace the suck and keep working your escapes even when it feels hopeless.
 

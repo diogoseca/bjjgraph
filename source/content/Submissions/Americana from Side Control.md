@@ -147,14 +147,12 @@ description: "Master the Americana from Side Control with comprehensive safety p
 
 
 
-> Americana from Side Control is a shoulder lock targeting the Shoulder joint (specifically rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Americana from Side Control targets the Shoulder joint (specifically rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Americana from Side Control?
 
 The Americana from Side Control is one of the most fundamental shoulder lock submissions in Brazilian Jiu-Jitsu, representing a cornerstone technique for controlling and finishing opponents from top positions. This submission attacks the shoulder joint through external rotation, creating tremendous pressure on the rotator cuff and surrounding ligaments when applied correctly. The technique's effectiveness stems from the superior control afforded by side control, where the practitioner can isolate the opponent's arm while maintaining heavy pressure and preventing escape.
 
@@ -247,7 +245,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Side Control Foundation**: Secure dominant side control position with your chest driving across the opponent's sternum. Your head should be positioned on the far side with heavy cross-face pressure. Your hips should be low and tight to their body, preventing space for escape. Distribute your weight so that approximately 70% is on their chest and 30% on your base. (Timing: Maintain for 2-3 seconds to ensure stability) [Pressure: Firm]
 2. **Bait and Isolate the Near Arm**: Create a reaction by increasing pressure or threatening to advance to mount. When the opponent frames with their near arm (pushing against your shoulder or hip), this is your opportunity. Alternatively, if their arm is already positioned defensively near their body, slide your near-side hand underneath their elbow to begin isolation. (Timing: React immediately when arm extends or moves) [Pressure: Moderate]
 3. **Secure Wrist and Elbow Control**: Grip the opponent's wrist with your near-side hand using a palm-to-palm grip, with your thumb positioned on the back of their hand. Simultaneously bring your far-side arm over their arm and grip your own wrist, creating a figure-four configuration. Your forearm should slide under their elbow, capturing it securely. The opponent's elbow should now be trapped between your two arms. (Timing: Complete the grip connection within 1-2 seconds) [Pressure: Firm]
@@ -317,7 +315,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for the Americana in training, and why is this safety protocol critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 3-5 seconds of progressive, controlled pressure from initial engagement to maximum safe training pressure. This is critical because the shoulder joint, particularly the rotator cuff, is extremely vulnerable to injury from sudden force. Slow application gives your partner adequate time to recognize the danger, assess their defensive options, and tap safely before injury occurs. Jerking or spiking the submission can cause rotator cuff tears, labral damage, or shoulder dislocation - all serious injuries requiring months of recovery.
 

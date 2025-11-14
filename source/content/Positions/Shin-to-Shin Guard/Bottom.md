@@ -8,7 +8,7 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Shin-to-Shin Guard from the Bottom?
 
 Shin-to-Shin Guard from the bottom perspective represents one of the most versatile and dynamic positions in modern Brazilian Jiu-Jitsu guard systems. The position is built around a fundamental biomechanical principle: creating a perpendicular connection between your shin and the opponent's shin generates leverage that can control their base, manipulate their balance, and create pathways to dominant positions. From the bottom, the practitioner sits or reclines with one shin placed across the opponent's same-side shin at approximately the lower third of their tibia, while simultaneously managing upper body positioning through grips and frames. This dual-layer control system—leg connection plus upper body management—creates a sophisticated defensive barrier that prevents aggressive passing while setting up offensive opportunities. The beauty of shin-to-shin lies in its scalability and integration with modern guard systems. Beginners can use it as a simple distance management tool, maintaining space and preventing the opponent from establishing dominant passing positions. Intermediate practitioners begin to recognize the sweeping opportunities created by the shin connection, using off-balancing mechanics to generate attacks. Advanced players integrate shin-to-shin into comprehensive guard retention systems, flowing seamlessly between shin-to-shin, single leg X, full X-guard, and leg entanglement positions based on opponent reactions. The position's effectiveness in competition stems from its ability to create genuine dilemmas: opponents who attempt to aggressively clear the shin connection expose themselves to single leg X and leg lock entries, while those who maintain distance and try to work around the position allow the guard player to dictate engagement range and set up technical sweeps. Understanding the position requires mastering several interconnected elements: the biomechanics of the shin connection itself, the timing and angle adjustments needed to maintain connection against clearing attempts, the upper body control patterns that prevent the opponent from achieving dominant grips, and the transitional pathways that lead to related positions when shin-to-shin is compromised or when offensive opportunities emerge.
 
@@ -496,17 +477,17 @@ Partner defends your first sweep attempt using one of several predetermined defe
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The shin-to-shin guard represents a critical junction point in the modern leg entanglement system, functioning simultaneously as a defensive barrier and an offensive launching pad. The biomechanical advantage lies in the perpendicular angle of the shin connection, which creates a lever arm that can generate significant off-balancing force with minimal energy expenditure. What makes this position particularly valuable is its dual nature: it provides distance management against aggressive passers while simultaneously creating entries to the most dominant positions in leg lock systems. The key technical detail that separates effective shin-to-shin play from ineffective attempts is the angle and pressure of the shin connection—it must be maintained at approximately 45 degrees across the lower third of the opponent's tibia, with constant upward and lateral pressure that compromises their base. This creates a dilemma where any attempt to clear the connection opens pathways to single leg X or full X-guard positions. Students must understand that shin-to-shin is not a static holding position but rather a dynamic state machine with multiple branching pathways based on opponent reactions. The position's integration into comprehensive guard retention systems allows practitioners to control engagement range while building systematic pathways toward submissions.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, shin-to-shin has become one of my most reliable positions for controlling engagement range and setting up my leg lock game. Against aggressive passers who want to pressure forward, the shin connection gives me exactly what I need—a way to manage distance while building towards single leg X entries that lead to my outside ashi attacks. The position is particularly effective because it forces standing opponents into a lose-lose situation: if they try to drive forward with pressure, I transition to butterfly or X-guard for sweeps; if they stay upright and mobile, I work towards single leg X and leg entanglements. What I've learned through thousands of competition rounds is that you can't be passive with shin-to-shin—you need to constantly adjust angles and pressure, making the opponent feel uncomfortable and reactive rather than allowing them to settle into their passing rhythm. I use the position as part of a larger guard retention system where I'm always ready to flow between shin-to-shin, single leg X, and outside ashi depending on how they react. The high percentage play is to use shin-to-shin to create the initial off-balance, then capitalize on their defensive reaction to enter the leg entanglement game where I have the advantage. The position's effectiveness in no-gi is even more pronounced since traditional grip-based guards are less available.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The shin-to-shin position fits perfectly into the 10th Planet philosophy of creating dynamic, transition-heavy guard systems that keep opponents guessing and reacting. While traditional BJJ often treats shin-to-shin as a standalone guard, we view it as a connector position—a way station between different guard layers that allows you to control the flow of the match. What I love about this position is how it naturally sets up our signature moves: from shin-to-shin you can hit the lockdown entry if they drop their weight, transition to rubber guard if they lean forward, or go into our leg lock system if they stay upright. The innovation we've brought to shin-to-shin in our system is incorporating it with our electric chair setups and twister progressions—positions that most people don't associate with traditional shin-to-shin play. By thinking outside the conventional applications, we've found that shin-to-shin can be a gateway to all sorts of creative attacks that opponents don't expect. The key is staying loose, flowing with their energy, and using the shin connection not as a rigid control point but as a dynamic reference point that guides your transitions. Don't get married to the position—use it to create reactions, then exploit those reactions with technique chains that lead to dominant positions or submissions.
 

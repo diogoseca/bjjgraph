@@ -147,14 +147,12 @@ description: "Master Kneebar Variations in BJJ. Complete guide covering entries 
 
 
 
-> Kneebar Variations is a leg lock targeting the Knee joint (patellar ligaments, MCL, LCL, meniscus). ⚠️ **SAFETY**: This technique can cause MCL/LCL ligament tears. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kneebar Variations targets the Knee joint (patellar ligaments, MCL, LCL, meniscus). Risk: MCL/LCL ligament tears. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kneebar Variations?
 
 Kneebar variations represent a diverse family of leg attacks targeting the knee joint through hyperextension. Unlike the basic kneebar which relies on a single entry and finishing position, kneebar variations adapt to different leg entanglement configurations, opponent reactions, and positional contexts. From the flying kneebar in standing exchanges to the belly-down kneebar from ashi garami, each variation exploits specific biomechanical principles while maintaining the fundamental attacking mechanism. The systematic approach to kneebar variations involves understanding the spectrum of control positions (inside ashi, outside ashi, 50-50, X-guard configurations) and how each position enables different finishing angles, hip configurations, and control mechanisms. Modern leg lock systems integrate kneebar variations as essential components of dilemma-based attacks, where the threat of the kneebar forces defensive reactions that expose heel hook opportunities, creating a comprehensive lower body submission system. Mastery requires understanding not just the individual variations, but the transitional pathways between them and their role within the broader leg entanglement game.
 
@@ -239,7 +237,7 @@ Kneebar variations represent a diverse family of leg attacks targeting the knee 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish leg entanglement control**: From your chosen position (ashi garami, 50-50, X-guard variant), secure the opponent's leg with your legs, ensuring their knee is isolated and controlled. Your legs should create a frame that prevents them from extracting their leg while positioning their knee at your hip line. (Timing: Initial setup - 2-3 seconds) [Pressure: Light]
 2. **Break opponent's defensive knee bend**: Using a combination of hip pressure, leg grips, and pulling on their heel, work to straighten their leg and eliminate the protective knee bend. This may require multiple attempts as the opponent resists. Keep their heel pulled toward your chest while pushing your hips forward. (Timing: 3-5 seconds progressive pressure) [Pressure: Moderate]
 3. **Secure chest-to-thigh connection**: Once the leg is extended, drive your chest tight to their thigh, wrapping your arms around their leg. Your sternum should be pressed against the back or side of their thigh depending on variation. This connection prevents space that would allow escape or counter-rotation. (Timing: 1-2 seconds) [Pressure: Firm]
@@ -306,7 +304,7 @@ Kneebar variations represent a diverse family of leg attacks targeting the knee 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time frame you should use when applying finishing pressure in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: You must apply kneebar pressure over a minimum of 3-5 seconds with progressive, controlled force. This slow application is critical because the knee joint contains multiple ligaments (MCL, LCL, PCL, meniscus) that can tear catastrophically with sudden force. Explosive or jerking applications can cause severe injuries requiring surgery and 6-12 months recovery. Training partners must have adequate time to recognize the submission and tap safely. Speed-based finishes are never appropriate in training regardless of skill level.
 

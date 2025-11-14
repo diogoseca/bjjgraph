@@ -147,14 +147,10 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Step-by-step ex
 
 
 
-> Underhook Sweep from Half transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Underhook Sweep from Half?
 
 The Underhook Sweep from Half Guard is a fundamental attacking technique that exploits the power of the underhook control to off-balance and sweep opponents from bottom half guard. This sweep represents one of the highest percentage attacks available from half guard, combining proper angle creation, hip movement, and timing to reverse position. The technique capitalizes on the underhook's ability to control the opponent's posture and weight distribution, creating the mechanical advantage necessary to complete the reversal. By establishing the underhook on the trapped leg side, you create a powerful lever that disrupts your opponent's base while simultaneously generating the momentum needed for the sweep. This technique serves as a cornerstone of modern half guard systems, offering a reliable pathway from defensive bottom position to dominant top control.
 
@@ -194,7 +190,7 @@ The Underhook Sweep from Half Guard is a fundamental attacking technique that ex
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure the underhook**: Drive your arm deep under opponent's armpit on the trapped leg side, wrapping around their back. Your shoulder should connect tightly to their ribs, with your hand gripping their far lat or back of the gi. This underhook becomes your primary sweeping lever. (Timing: Establish during initial half guard engagement)
 2. **Create the angle**: Shift your hips out and away from your opponent at approximately 45 degrees, moving your shoulders toward the mat on the underhook side. This angle is critical as it creates the mechanical advantage for the sweep and prevents you from lifting dead weight directly underneath the opponent. (Timing: Immediately after securing underhook)
 3. **Control the far hip**: With your free hand, establish a strong grip on opponent's far hip, belt, or pants. This grip prevents them from posting their leg out for base and helps control their weight distribution. Pull this hip toward you while maintaining your angle. (Timing: Simultaneous with angle creation)
@@ -290,7 +286,7 @@ Actively seek half guard positions during normal sparring sessions. Practice rec
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is creating a 45-degree angle essential before executing the underhook sweep?
 **A**: The angle creates mechanical advantage by positioning your body perpendicular to your opponent's center of gravity rather than directly underneath them. This allows you to sweep them over your body using leverage instead of attempting to lift their full weight vertically, which would be inefficient and require excessive strength. The angle also positions your underhook arm at the optimal trajectory for driving upward and forward.
 

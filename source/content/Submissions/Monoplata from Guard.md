@@ -147,14 +147,12 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 
 
 
-> Monoplata from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Monoplata from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Monoplata from Guard?
 
 The Monoplata from Guard is an advanced shoulder lock that combines elements of the traditional omoplata with a unique single-leg entanglement configuration. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. The technique is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. The technique has gained popularity in modern no-gi competition due to its effectiveness against strong postural defenses and its ability to chain seamlessly with other guard attacks.
 
@@ -239,7 +237,7 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Isolate and control the arm**: From closed guard or open guard, secure a deep overhook or grip on one of the opponent's arms. Break their posture by pulling them forward and to the side, ensuring their arm is extended past your hip line. Control their wrist with your same-side hand to prevent them from pulling their arm back. This isolation is critical - the arm must be completely committed before proceeding. (Timing: Take 2-3 seconds to establish this control) [Pressure: Moderate]
 2. **Swing your leg over the arm**: Open your guard if still closed, and swing your near-side leg (same side as trapped arm) up and over the opponent's shoulder and arm. Your shin should come across their upper back while your knee hooks over their shoulder. Maintain constant control of their wrist throughout this movement to prevent escape. Your hips should start to angle perpendicular to their body. (Timing: Smooth 1-2 second motion) [Pressure: Light]
 3. **Establish the figure-four leg lock**: Bring your far-side leg underneath the opponent's trapped arm and lock it in a figure-four configuration with your near-side leg. Your far-side ankle should hook behind your near-side knee, creating a tight lock around their arm. Ensure the opponent's arm is trapped between your legs with their elbow pointing toward their own head. This leg configuration is the key mechanical element of the monoplata. (Timing: 2-3 seconds to secure proper configuration) [Pressure: Moderate]
@@ -307,7 +305,7 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply finishing pressure in the monoplata during training? **[SAFETY-CRITICAL]**
 **A**: You should take a minimum of 5-7 seconds to apply finishing pressure in training. This extremely slow application allows your partner ample time to recognize the danger and tap, preventing serious shoulder injuries. Competition pace should never be used in training for shoulder locks due to the high injury risk.
 

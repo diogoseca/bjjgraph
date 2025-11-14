@@ -147,14 +147,12 @@ description: "Master Ezekiel Choke variations in BJJ. Complete guide with safety
 
 
 
-> Ezekiel Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Ezekiel Variations targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ezekiel Variations?
 
 The Ezekiel Choke is a highly versatile gi-based blood choke that can be applied from multiple dominant positions, making it one of the most adaptable submissions in Brazilian Jiu-Jitsu. Named after Brazilian judoka Ezequiel Paraguassu who popularized it in BJJ, this technique uses the practitioner's own sleeve as a choking mechanism combined with the forearm to compress the carotid arteries. What makes the Ezekiel Choke particularly dangerous is its ability to be executed from positions where opponents typically feel safe, including mount, side control, closed guard top, and even unconventional positions like inside the opponent's closed guard. The fundamental mechanism involves threading one hand inside the opponent's collar or using your own gi sleeve, while the other arm wraps around the neck to create a scissoring pressure that cuts off blood flow to the brain.
 
@@ -241,7 +239,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish dominant position and control**: From mount, side control, or closed guard top, establish heavy chest pressure and control the opponent's head using your own head position. Your weight should make the opponent uncomfortable and focused on breathing rather than hand fighting. Ensure your base is solid - in mount, your knees should be tight to their sides; in side control, your hips should be low; in closed guard top, your posture should be controlled but not broken. (Timing: 2-3 seconds to settle weight) [Pressure: Firm]
 2. **Grip your own sleeve**: With your choking hand (typically the hand closer to the opponent's head), reach across and grip your opposite sleeve at the wrist or forearm. This grip should be deep - your thumb should be inside the sleeve creating a pocket for the opponent's neck. The fabric of your gi becomes the primary choking surface. This grip must be secure before proceeding as it's the foundation of the submission. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Thread the choking hand across the neck**: Slide your sleeve-gripped hand blade-side first across the opponent's neck, threading it deep until your thumb passes the centerline of their throat. The movement should be smooth and deliberate - imagine sliding your hand between their neck and the mat. Your knuckles should be against one side of their neck while the gi fabric wrapped around your palm contacts the other side. Maintain downward pressure with your chest throughout this movement to prevent them from creating space. (Timing: 2-3 seconds) [Pressure: Light]
@@ -310,7 +308,7 @@ The variations of the Ezekiel Choke demonstrate the technique's tactical flexibi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary mechanism that makes the Ezekiel Choke effective as a submission?
 **A**: The Ezekiel Choke works primarily through bilateral compression of the carotid arteries on both sides of the neck. The gi sleeve wrapped around your palm creates pressure on one side while your opposite forearm creates pressure on the other side. This scissoring action restricts blood flow to the brain, causing unconsciousness if not released. The effectiveness comes from coordinated pressure from both sides rather than crushing the trachea, which is a common mistake.
 

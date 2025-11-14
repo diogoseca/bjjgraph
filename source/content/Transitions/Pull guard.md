@@ -147,14 +147,10 @@ description: "Master Pull Guard in BJJ. Learn proper execution from standing to 
 
 
 
-> Pull guard transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Pull guard?
 
 Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.
 
@@ -193,7 +189,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: Secure dominant grips on opponent's sleeves, collar, or both. For closed guard pull, typical grips include two sleeve grips or collar and sleeve. For open guards, establish grips specific to that guard system (spider, DLR, lasso, etc.). Ensure grips are tight and controlling before proceeding. (Timing: Before any weight shift)
 2. **Break opponent's posture**: Pull opponent's weight slightly forward using your established grips. This prevents them from sprawling backward or establishing heavy top pressure as you descend. Keep their head and shoulders moving toward you, disrupting their base. (Timing: Immediately before sitting)
 3. **Step in close**: Take a small step forward with one foot to close distance, bringing your hips within range of opponent's center line. This proximity is essential for maintaining connection as you sit and prevents opponent from creating separation during your descent. (Timing: As posture breaks)
@@ -286,7 +282,7 @@ Full resistance training where guard pull flows directly into sweep or submissio
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is establishing grips before pulling guard critically important?
 **A**: Grips provide the essential connection and control that prevents opponent from simply backing away or establishing dominant top position as you descend. Without grips, you lose all control during the transition and may end up in a defensive scramble or with opponent completely disengaged. Grips allow you to break opponent's posture, maintain connection throughout the pull, and ensure you can establish your chosen guard position rather than landing in a neutral or disadvantaged position.
 

@@ -8,7 +8,7 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Overhook Guard from the Bottom?
 
 Overhook Guard Bottom is a highly offensive variation of guard where the bottom practitioner controls one of the opponent's arms with an overhook (also called a whizzer). This position creates significant control over the opponent's posture and base while opening multiple sweep and submission opportunities. The overhook effectively neutralizes one of the opponent's posting hands, making them vulnerable to off-balancing attacks and limiting their passing options.
 
@@ -467,17 +448,17 @@ Bottom player maintains overhook guard while top player attempts to flatten them
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The overhook in guard represents a fundamental asymmetry in control that creates predictable mechanical advantages for the bottom player. When you establish the overhook, you effectively remove one of your opponent's primary defensive tools—their ability to post and create frames with that arm. This creates a systematic hierarchy of attacks based on their reactions. If they attempt to recover the overhook, the triangle becomes available as their arm crosses their centerline. If they posture backward to reduce pressure, the hip bump sweep exploits their elevated center of gravity. If they drive forward to stack, the omoplata sweep capitalizes on their forward momentum. The key is recognizing that the overhook itself is not the finish—it is the control mechanism that forces your opponent into positions where their defensive options all lead to your offensive opportunities. Maintain the overhook with relentless tension through your lat and elbow connection, and your attacks will flow naturally from their inevitable reactions.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, overhook guard is one of my go-to positions because it gives me immediate offensive options while maintaining a safe defensive structure. The beauty of this position is that it forces my opponent to make difficult decisions under time pressure. If they sit back and try to establish posture, I can hit the hip bump sweep almost at will—it's extremely high percentage when you time it with their backward weight shift. If they try to drive into me, I'm already set up for the triangle or omoplata, and both lead to either the finish or a dominant sweep position. The critical detail that most people miss is the grip on the back with your overhook hand—you need to grip deep on their lat or shoulder blade, not just wrap the arm loosely. This deep grip gives you the leverage to break their posture and control their shoulder rotation, which is essential for both sweeps and submissions. I also use the overhook to set up my back takes by creating an angle and rolling them over my shoulder. It's a complete offensive system disguised as a simple control position.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Overhook guard is where 10th Planet's mission control system begins, and it's absolutely crucial for no-gi guard play because you're not relying on gi grips to control your opponent. The overhook gives you that same level of control through pure body mechanics and positioning. What I love about this position is how it sets up the zombie and other rubber guard variations—once you have that overhook established, you can start working your leg up to control their head and transition into high-level attacks. But even before you get fancy with it, the basic overhook gives you immediate access to sweeps and submissions that work at the highest levels. The hip bump sweep from overhook is money, especially in MMA or no-gi where people are more aggressive with their posture. You can also use the overhook to set up the truck position by rolling them over your shoulder—this is a huge part of our system because it leads directly to back takes and the twister. The key is staying active with it, never letting them settle or recover their base. Keep threatening, keep moving, and use that overhook as your anchor point for everything you do from guard.
 

@@ -153,14 +153,10 @@ description: "Master Half Guard Sweeps in BJJ. Complete systematic approach from
 
 
 
-> Half Guard Sweeps transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Half Guard Sweeps?
 
 Half Guard Sweeps represent a comprehensive offensive system from the half guard bottom position, offering multiple pathways to reverse an opponent and achieve dominant top position. The half guard has evolved from a defensive position into one of the most dynamic attacking platforms in modern Brazilian Jiu-Jitsu. These sweeps exploit the inherent structural weaknesses created when an opponent attempts to pass or maintain control in half guard. The success of half guard sweeps relies on understanding weight distribution, creating angles, and manipulating the opponent's base through systematic off-balancing. Whether using the underhook series, lockdown mechanics, or deep half guard entries, practitioners must develop a layered approach that chains multiple sweep attempts together. The half guard sweep system is particularly effective because it allows the bottom player to control distance, manage frames, and create offensive opportunities even against larger, stronger opponents. Modern competition has demonstrated that a well-developed half guard sweep game can neutralize even the most aggressive passers and create consistent paths to dominant positions or back takes.
 
@@ -200,7 +196,7 @@ Half Guard Sweeps represent a comprehensive offensive system from the half guard
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish foundational half guard structure**: Begin in half guard bottom with one of opponent's legs trapped between yours. Secure an underhook on one side, driving your shoulder into their armpit while your other arm creates a frame against their opposite shoulder or neck. Your bottom leg should hook around their trapped leg while your top leg creates a knee shield or locks in lockdown position. Keep your hips mobile and angled, never flat on your back. (Timing: Establish immediately upon entering half guard)
 2. **Create angle and off-balance**: Use your underhook to come up onto your side, creating a 45-degree angle with your body. Simultaneously, use your frames and leg control to disrupt opponent's base. If they have weight forward, pull them; if they're posting back, drive into them. The goal is to make them react and expose sweeping opportunities. Your head should be positioned outside their trapped leg, never under their chest. (Timing: As soon as opponent attempts to establish passing pressure)
 3. **Execute primary sweep attempt**: Based on opponent's reaction, execute your primary sweep. For underhook sweep: drive your underhook arm upward and forward while using your leg hook to elevate their trapped leg, rolling them over your shoulder. For Old School sweep: thread your bottom leg over their back while maintaining underhook, then extend legs to sweep. For deep half entry: duck under their trapped leg and establish deep half guard position before sweeping. (Timing: Explosive execution as soon as off-balance is created)
@@ -304,7 +300,7 @@ Develop your personal high-percentage half guard sweep system based on body type
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most important control to establish before attempting half guard sweeps?
 **A**: The underhook is the most critical control before attempting half guard sweeps. The underhook allows you to control the opponent's weight distribution, create angles, and generate the leverage necessary for sweeps. Without the underhook or strong defensive frames, the bottom player cannot effectively off-balance the opponent or prevent being flattened, which eliminates sweeping opportunities. The underhook should be deep, with your shoulder driven into their armpit, and maintained actively throughout sweep attempts.
 

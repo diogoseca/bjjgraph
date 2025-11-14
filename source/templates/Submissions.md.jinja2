@@ -92,14 +92,12 @@ description: "{{description}}"
 -->
 {% endif %}
 
-> {{name}} is a {{submission_type|lower}} targeting the {{target_area}}. ⚠️ **SAFETY**: This technique can cause {{safety_considerations.injury_risks[0].injury}}. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: {{name}} targets the {{target_area}}. Risk: {{safety_considerations.injury_risks[0].injury}}. Release immediately upon tap.
 
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is {{name}}?
 
 {{overview}}
 
@@ -162,7 +160,7 @@ description: "{{description}}"
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 {% for step in execution_steps -%}
 {{step.step_number}}. **{{step.action}}**: {{step.description}}{% if step.timing %} (Timing: {{step.timing}}){% endif %}{% if step.pressure_level %} [Pressure: {{step.pressure_level}}]{% endif %}
 {% endfor %}
@@ -201,7 +199,7 @@ description: "{{description}}"
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 {% for qa in knowledge_assessment -%}
 **Q{{loop.index}}**: {{qa.question}}{% if qa.safety_critical %} **[SAFETY-CRITICAL]**{% endif %}
 **A**: {{qa.answer}}

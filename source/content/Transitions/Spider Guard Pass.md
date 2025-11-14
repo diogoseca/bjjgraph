@@ -147,14 +147,10 @@ description: "Master Spider Guard Pass techniques in BJJ. Complete guide with gr
 
 
 
-> Spider Guard Pass transitions from [[Spider Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Spider Guard Pass?
 
 The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu-Jitsu, requiring systematic grip breaking, precise posture control, and strategic pressure application. This passing sequence targets one of the most common guard retention systems by neutralizing the opponent's foot-on-bicep control and collar grips that define spider guard. The pass succeeds by combining aggressive grip stripping with forward pressure and hip positioning to overcome the guard player's distance management. Understanding spider guard mechanics reveals that the guard's strength lies in creating distance and angles through arm extension and foot placement—the pass systematically removes these advantages through posture maintenance, grip dominance, and positional pressure. Success requires patience in grip fighting exchanges, explosive movement during passing windows, and technical precision in controlling the opponent's hips during the final consolidation phase.
 
@@ -193,7 +189,7 @@ The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish strong posture**: Stand tall or post on knees with vertical spine alignment. Drive chest forward and keep elbows tight to body. This posture prevents opponent from breaking you down and limits their sweep angles. Weight should be distributed evenly to maintain balance against foot pressure. (Timing: Initial position before grip breaking)
 2. **Strip first spider guard grip**: Target the opponent's weaker grip (typically the same-side sleeve grip). Use your free hand to grip their wrist while pulling your trapped arm back forcefully in a straight line. Alternatively, push their knee down while extracting your arm. Break the grip completely before advancing. (Timing: Explosive pull when opponent adjusts their grip)
 3. **Control stripped arm side knee**: Immediately after breaking the first grip, pin the opponent's knee to the mat on that side using your hand or elbow. This prevents them from re-establishing the spider hook and creates an entry angle. Maintain downward pressure throughout the pass. (Timing: Immediately following grip break)
@@ -279,7 +275,7 @@ Use spider guard pass in specific sparring (starting from spider guard) and live
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to break both spider guard grips before attempting to pass?
 **A**: Breaking both grips is essential because spider guard's primary defense mechanism relies on distance management and off-balancing through the foot-on-bicep and sleeve controls. Even one remaining grip gives the guard player the ability to create angles, prevent forward pressure, and execute sweeps. Systematic grip breaking removes all distance management tools before the passer commits to forward movement.
 

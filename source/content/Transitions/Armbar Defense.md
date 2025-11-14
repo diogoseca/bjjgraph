@@ -147,14 +147,10 @@ description: "Master Armbar Defense in BJJ. Learn systematic escapes from mount,
 
 
 
-> Armbar Defense transitions from [[Armbar Control]] to [[Guard Opening Sequence]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Armbar Defense?
 
 Armbar defense represents one of the most critical defensive skills in Brazilian Jiu-Jitsu, as the armbar is among the highest-percentage submissions across all skill levels and rule sets. The defensive sequence must be executed with precise timing and technical understanding, as even slight delays can result in a completed submission. Effective armbar defense operates on multiple layers: preventing the initial setup through postural awareness, recognizing the attack in its early stages, executing appropriate escape mechanics based on the specific armbar variation, and transitioning to a safer position once the immediate threat is neutralized. The defense varies significantly depending on whether the armbar is being applied from mount, guard, side control, or back control, requiring practitioners to develop position-specific defensive responses while maintaining awareness of fundamental escape principles that apply across all variations.
 
@@ -193,7 +189,7 @@ Armbar defense represents one of the most critical defensive skills in Brazilian
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize the attack**: Identify armbar setup immediately as opponent begins to pivot their body perpendicular to yours, isolates your arm, or starts to swing their leg across your head or chest. Early recognition is critical as defenses become exponentially more difficult once full extension begins. (Timing: As soon as leg begins to swing or arm isolation occurs)
 2. **Lock hands together**: Immediately clasp both hands together in a grip (gable grip or S-grip) to prevent full arm extension. Keep thumbs pointed upward and elbows tight to your body. This creates a structural frame that makes it significantly harder for opponent to straighten your arm. (Timing: Within 0.5-1 second of recognizing attack)
 3. **Rotate toward opponent**: Turn your body and trapped shoulder toward your opponent's head, moving from supine position to your side. This rotation reduces the angle of attack on your elbow joint and begins to stack opponent's hips, compromising their leverage for the submission. (Timing: Simultaneously with hand clasping)
@@ -286,7 +282,7 @@ Dedicate focused training time to defending specific armbar types: mount armbar,
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you rotate your shoulder toward opponent's head during armbar defense rather than pulling straight back?
 **A**: Rotating the shoulder toward the opponent's head changes the angle of attack on the elbow joint, reducing the mechanical advantage they have for extension. Pulling straight back against their leg pressure actually assists the submission by creating direct resistance against their strongest leverage point. The rotation also facilitates stacking their hips, which further compromises their ability to generate extension force.
 

@@ -8,7 +8,7 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Armbar Control from the Top?
 
 Armbar Control Top is a dominant submission control position where the practitioner has isolated their opponent's arm and established the fundamental mechanics for an armbar finish. This position represents the critical transition point between achieving positional control and executing the submission itself. The top player has secured the opponent's arm across their body, typically with both hands gripping the wrist or forearm, while positioning their hips near the opponent's shoulder to create the leveraged extension required for the armbar.
 
@@ -464,17 +443,17 @@ Practice entering armbar control from five different starting positions: closed 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The armbar represents perhaps the purest expression of mechanical advantage in submission grappling. When we examine the biomechanics of this position, we see that success hinges upon three critical vectors of force application. First, the hip elevation vector creates upward pressure against the opponent's humerus while the elbow joint remains relatively fixed by our grip control. Second, the arm pull vector draws the forearm toward our centerline, creating the hyperextension moment about the elbow. Third, and often overlooked, is the leg pressure vector which prevents the opponent from creating the postural height necessary for effective defense. The integration of these three vectors, properly timed and coordinated, creates an overwhelming mechanical advantage that renders strength differential largely irrelevant. Most failures in armbar execution stem from incomplete development of one or more of these vectors. The practitioner who truly understands the systematic relationship between hip position, grip configuration, and leg control will find the armbar to be among the highest percentage submissions available from virtually any position.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, the armbar from top positions is one of my absolute highest percentage finishes because it's incredibly difficult to defend once you establish proper control. The key difference between training room armbars and competition armbars is the level of control you establish before you even think about finishing. Against elite opponents, I'm not looking to rush the submission - I'm looking to make them completely miserable in the control position first. I want my hip pressure so heavy on their shoulder that they can't breathe comfortably. I want my leg across their face creating constant discomfort. I want my grips so tight on their arm that they feel helpless. Only after I've established this suffocating level of control do I begin to think about the actual finish. And when I do finish, it's explosive and coordinated - hips up and arms pull happen simultaneously, not sequentially. This is what separates competition-level armbars from the slow, methodical attacks that work against lesser opponents but fail against world-class defense. Control first, finish second, and finish explosively when you commit.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The beauty of the armbar in the 10th Planet system is how it integrates with our overall submission chain strategy. We don't look at the armbar as an isolated attack - it's part of a web of interconnected attacks where defense of one opens the path to another. When someone defends the armbar by bending their arm, we flow to omoplata. When they stack to defend, we transition to triangle. When they try to roll through, we have options to take the back or switch to other attacks. This is the essence of building submission chains that create true dilemmas for the opponent. I also teach my students to embrace the tension between control and finish. Too many people try to finish too early and lose the position. But you also can't be so conservative that you never commit to the finish. You need to feel that moment when the opponent is fully controlled, their defensive options are exhausted, and that's when you explode with the finish. It's an art form, not just a technique. And in no-gi especially, where grips are more transient and positions are more fluid, this timing becomes even more critical. Master the armbar and you master the concept of submission chains.
 

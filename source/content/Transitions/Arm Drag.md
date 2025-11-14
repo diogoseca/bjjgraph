@@ -147,14 +147,10 @@ description: "Master the Arm Drag in BJJ. Complete guide from setup to back cont
 
 
 
-> Arm Drag transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Arm Drag?
 
 The Arm Drag is a fundamental control and positioning technique in Brazilian Jiu-Jitsu that creates superior angles by redirecting the opponent's arm across their body. This versatile movement forms the foundation of countless back takes, guard passes, and positional improvements across all levels of grappling.
 
@@ -197,7 +193,7 @@ Mastery of the Arm Drag opens entire systematic approaches to grappling, as it s
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish double grip control**: Secure a firm grip on opponent's wrist with your lead hand using a pistol grip (thumb inside their palm). Simultaneously grab their tricep or upper arm with your trailing hand, creating a frame that controls their entire arm structure. Your grips should be tight enough to prevent them from retracting their arm but relaxed enough to allow fluid movement. (Timing: Grip during opponent's forward pressure or hand fighting)
 2. **Pull arm across centerline**: Execute a strong pulling motion with both hands, dragging opponent's arm across their body's centerline and past their opposite shoulder. The wrist hand pulls in a circular arc while the tricep hand pushes slightly, creating a levering action. This motion should be explosive but controlled, disrupting their base and blocking their near-side defensive frames. (Timing: Pull as opponent commits weight forward or extends arm)
 3. **Step behind shoulder line**: As you pull their arm across, immediately step your outside foot past their shoulder line, positioning your body at approximately 45 degrees to their back. Your hips should drive forward and around simultaneously with the arm drag, creating momentum that compounds the positional advantage. Keep your chest low and connected to their trapped arm. (Timing: Step during the pulling motion, not after)
@@ -294,7 +290,7 @@ Develop chains of techniques that begin with or complement arm drags. Study high
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the two essential grips needed for a proper arm drag and why is each important?
 **A**: The two essential grips are the wrist grip and tricep/upper arm grip. The wrist grip controls the endpoint of their arm and allows you to redirect it across their centerline. The tricep grip prevents them from retracting their arm and provides leverage to enhance the pulling motion. Together, these grips control the entire arm structure and prevent common defensive reactions while maximizing the mechanical advantage of the technique.
 

@@ -147,14 +147,12 @@ description: "Master triangle choke from closed guard. Complete guide with safet
 
 
 
-> Triangle from Closed Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle from Closed Guard targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle from Closed Guard?
 
 The Triangle Choke from Closed Guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu, representing the perfect marriage of control and finishing mechanics from the guard position. This blood choke uses your legs to create a triangular configuration around the opponent's neck and their own shoulder, compressing the carotid arteries and jugular veins to induce unconsciousness if not defended or escaped. The beauty of the triangle lies in its structural efficiency - once properly locked, the opponent's own posture and trapped arm work against them, making escape increasingly difficult as they tire.
 
@@ -245,7 +243,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Control and Angle Creation**: From closed guard, control opponent's posture with collar grip or hand behind their head. Simultaneously control one arm (typically the one you'll trap inside) with your opposite hand gripping their wrist or sleeve. Begin opening your guard while immediately pivoting your hips to create approximately 45-90 degrees of angle relative to opponent's centerline. This angle is critical - if you stay directly underneath them, they can stack you and defend. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Leg Swing and Initial Triangle Frame**: While maintaining wrist/sleeve control of the arm you're trapping inside, swing your same-side leg high over opponent's shoulder and across their back. Your shin should land across their upper back/shoulder blades. The key is to get your leg high on their shoulder, near their neck, not down on their mid-back. Simultaneously use your other leg to create a frame against their far hip to maintain the angle and prevent them from following your movement or stacking you. (Timing: 1 second - must be quick but controlled) [Pressure: Moderate]
 3. **Lock the Triangle Configuration**: Bring your shin down in front of opponent's face while maintaining the high position on their shoulder. Your ankle should cross behind your opposite knee to create the triangle lock. The critical detail is that your knee (the choking leg) must be tight against the side of their neck - this creates the choking corner. Pull their trapped arm across their centerline if needed to ensure it's truly isolated inside the triangle. At this point, the triangle is structurally locked but not yet tight. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -315,7 +313,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is creating approximately 90 degrees of angle essential for triangle effectiveness, and what happens if you stay directly underneath your opponent?
 **A**: The 90-degree angle prevents the opponent from stacking you and driving forward with their weight, which would break the triangle's structure and potentially pass your guard. When you're directly underneath them, they can use gravity and forward pressure to compress you, making it impossible to maintain the triangle configuration or extend your hips for the finish. The perpendicular angle also optimizes the choking geometry by ensuring their neck is properly positioned relative to your leg and their own trapped shoulder.
 

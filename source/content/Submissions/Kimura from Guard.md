@@ -147,14 +147,12 @@ description: "Master the Kimura from Guard in BJJ. Complete guide with safety pr
 
 
 
-> Kimura from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kimura from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura from Guard?
 
 The Kimura from Guard is a fundamental shoulder lock that can be applied from multiple guard positions, with the closed guard variation being one of the most reliable entries. This submission targets the shoulder joint and surrounding structures through a figure-four grip configuration, creating rotational pressure that can damage the rotator cuff, shoulder capsule, and associated ligaments if applied forcefully. The technique's versatility lies in its dual nature as both a finishing submission and a powerful control position that opens pathways to sweeps, back takes, and other submissions. From the bottom position, the Kimura provides exceptional control over your opponent's posture and base, allowing you to dictate the pace of the engagement while maintaining offensive threats. The figure-four grip configuration creates a mechanical advantage that allows smaller practitioners to control and submit larger opponents through proper technique rather than raw strength. Understanding the Kimura from guard is essential for developing a complete bottom game, as it integrates seamlessly with guard retention, sweeping systems, and transitional attacks.
 
@@ -239,7 +237,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Control opponent's wrist and break posture**: From closed guard, use your right hand to grip opponent's left wrist (palm-to-palm or four-finger grip). Simultaneously pull their wrist across your body while using your legs to break their posture forward. This creates the initial off-balancing necessary for arm isolation. (Timing: 0-2 seconds - Initial control establishment) [Pressure: Moderate]
 2. **Thread your arm and establish overhook**: Thread your left arm over and around opponent's left arm, moving from outside to inside. Your left forearm should pass over their bicep and come underneath their forearm. This overhook position is crucial for controlling the arm's elevation and preventing early escape attempts. (Timing: 2-4 seconds - Arm threading phase) [Pressure: Light]
 3. **Secure figure-four grip configuration**: Grab your own right wrist with your left hand, creating the characteristic figure-four shape. Ensure the grip is tight with no gaps - your thumb should connect with your thumb or your fingers should overlap significantly. This grip creates the mechanical lock that generates shoulder pressure. (Timing: 4-6 seconds - Grip establishment) [Pressure: Firm]
@@ -309,7 +307,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum safe application time for a Kimura shoulder lock during training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum safe application time is 3-5 seconds of progressive, smooth pressure. This is critical because shoulder joints have multiple structures (rotator cuff, labrum, capsule, ligaments) that can be catastrophically damaged by sudden force. Gradual pressure allows your training partner to recognize the danger and tap before injury occurs, whereas explosive application can cause permanent damage before they can signal submission. In training, safety always supersedes finishing the submission quickly.
 

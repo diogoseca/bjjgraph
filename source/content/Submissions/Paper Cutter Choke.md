@@ -147,14 +147,12 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 
 
 
-> Paper Cutter Choke is a blood choke targeting the Carotid arteries (bilateral compression). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Paper Cutter Choke targets the Carotid arteries (bilateral compression). Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Paper Cutter Choke?
 
 The Paper Cutter Choke is a highly effective blood choke executed primarily from side control, though it can also be applied from various transitional positions including north-south and turtle. The technique derives its name from the cutting motion of the choking arm across the opponent's neck, similar to how paper is cut with a blade. This submission targets both carotid arteries simultaneously through a combination of the gi collar and the attacker's forearm, creating a powerful constriction that leads to rapid unconsciousness if not defended. The Paper Cutter Choke is particularly dangerous because it can be applied with relatively little warning and often catches opponents by surprise during position transitions. The technique is valued for its mechanical efficiency—once the grip is secured and the angle is correct, very little strength is required to finish. This makes it an excellent submission for practitioners of all sizes and is especially effective against larger, stronger opponents who might resist other collar chokes. The choke is frequently taught as part of side control attack sequences and integrates seamlessly with other submissions like the cross collar choke and arm triangle.
 
@@ -239,7 +237,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Side Control Dominance**: From standard side control, flatten opponent fully and establish chest-to-chest pressure. Your weight should be distributed across their torso, making it difficult for them to bridge or shrimp. Control the near arm with an underhook or by pinning it to their body. Your head should be positioned on the far side of their head, preventing them from turning into you. (Timing: Take 3-5 seconds to establish solid control before attacking) [Pressure: Firm]
 2. **Insert Collar Grip**: Slide your choking hand (typically your bottom hand when in side control) deep into the opponent's far collar. Your four fingers should penetrate at least to the second knuckle, ideally reaching all the way to the back of their neck. Your thumb stays outside the collar. The deeper the grip, the more effective the choke. Use your non-choking hand to pull their collar away from their neck slightly to create space for insertion. (Timing: 2-3 seconds to work the grip deep) [Pressure: Light]
 3. **Secure Head Control**: With your non-choking hand, reach around and cup the back of opponent's head or grab their far collar for additional control. This hand serves two purposes: it prevents them from turning their head away from the choke, and it can assist in pulling their head toward your choking arm. Your elbow should stay tight to their head, blocking any escape attempts. (Timing: 1-2 seconds simultaneous with collar grip) [Pressure: Moderate]
@@ -307,7 +305,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the primary anatomical targets of the Paper Cutter Choke, and why is proper targeting critical for safety? **[SAFETY-CRITICAL]**
 **A**: The primary targets are the bilateral carotid arteries on both sides of the neck. Proper targeting is critical because compressing the carotid arteries causes blood choke (unconsciousness in 3-8 seconds) which is relatively safe when released promptly. However, if the forearm crosses the trachea instead, it creates an air choke which is more painful, less effective, and can cause serious trachea damage including crush injuries that may require medical intervention. The proper application should feel tight immediately with minimal pain, while improper targeting creates choking sensation and coughing, indicating you're on the windpipe not the arteries.
 

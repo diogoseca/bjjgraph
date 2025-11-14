@@ -147,14 +147,10 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
 
 
 
-> Hip Bump Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Hip Bump Sweep?
 
 The Hip Bump Sweep is a fundamental and high-percentage sweep from closed guard that capitalizes on the opponent's forward posture and broken base. This technique is particularly effective when the opponent attempts to establish strong posture or begins to stand in your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.
 
@@ -197,7 +193,7 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish control and break posture**: From closed guard, secure a firm grip on your opponent's right wrist or sleeve with your left hand. Simultaneously, use your right hand to grip behind their head or collar. Pull their head down and forward, breaking their posture completely. Your ankles should remain locked, and you should feel their weight distributed forward onto you. (Timing: Initial setup - take time to establish solid grips and broken posture)
 2. **Open guard and plant posting hand**: Unlock your ankles and open your closed guard. Immediately plant your right hand on the mat approximately 6-12 inches away from your hip, fingers pointing away from your body. This hand will serve as the base for your explosive hip movement. Keep your left hand firmly controlling their right wrist, preventing them from posting on that side. (Timing: Quick transition - don't allow opponent time to establish base)
 3. **Hip escape and angle creation**: Shrimp your hips slightly to the left, creating a 30-45 degree angle with your body relative to your opponent. This angle is crucial - if you stay square, the sweep becomes much more difficult. Your right foot should come to the mat with your knee bent, ready to drive. Your left leg should begin to swing out wide to the left side. (Timing: Smooth and deliberate - proper angle sets up the entire sweep)
@@ -293,7 +289,7 @@ Regular live rolling with focus on creating and recognizing Hip Bump opportuniti
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of controlling your opponent's arm during the Hip Bump Sweep?
 **A**: Controlling the opponent's arm serves two critical purposes: first, it prevents them from posting that arm to stop the sweep, and second, it creates the chain attack opportunity to Kimura if they post with their other arm. The arm control is the linchpin that makes the entire closed guard attack system work together.
 

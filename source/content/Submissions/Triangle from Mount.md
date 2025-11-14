@@ -147,14 +147,12 @@ description: "Master Triangle from Mount in BJJ. Complete guide with safety prot
 
 
 
-> Triangle from Mount is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle from Mount targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle from Mount?
 
 The Triangle from Mount represents an advanced finishing sequence that combines positional dominance with a high-percentage submission. This technique is particularly effective when the bottom opponent attempts to create frames or push against the mount, providing the necessary arm positioning for triangle entry. Unlike the traditional triangle from guard, the mounted version offers superior control and multiple backup options, making it a favorite among competitors who prioritize position-based submissions. The key to success lies in recognizing the precise moment when the opponent's defensive structure creates the triangle opportunity, typically when they establish an underhook or frame across the body. This submission showcases the principle of using your opponent's defensive efforts against them, converting their escape attempts into submission setups. The mounted triangle is especially valuable because it maintains top position even if the finish is not immediate, allowing for transitions to other attacks like armbars, arm triangles, or remounting while the opponent remains defensive.
 
@@ -238,7 +236,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Identify Triangle Opening**: From mount, recognize when opponent creates a frame with their arm across your body or establishes an underhook. This defensive structure positions their arm perfectly across their own centerline, creating the triangle opportunity. Common triggers include opponent pushing your hip, framing against your chest, or attempting to create space for an elbow escape. (Timing: Recognition phase - 1-2 seconds) [Pressure: Light]
 2. **Control the Head and Trap the Arm**: Use your same-side hand to control opponent's head, pulling it forward and toward the side where you'll swing your leg. Simultaneously use your opposite hand to secure their framing arm, ensuring it stays across their centerline. This double control prevents them from pulling their arm back out and sets up the proper angle for the triangle. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Swing Leg Over Shoulder**: Post your outside hand on the mat for base, then swing your leg (same side as trapped arm) over opponent's shoulder and behind their head. Your shin should land across the back of their neck with your knee pointed toward the ceiling. Maintain control of their head throughout this movement to prevent them from turning away or escaping their arm. (Timing: 1-2 seconds during transition) [Pressure: Light]
@@ -306,7 +304,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary indicator that triangle from mount opportunity exists?
 **A**: The primary indicator is when the opponent creates a defensive frame or underhook that positions one of their arms across their own centerline. This arm positioning is essential because the triangle works by using their own arm to compress one carotid artery while your legs compress the other. Common scenarios include opponent framing against your chest, establishing an underhook to create space, or pushing your hip during escape attempts.
 

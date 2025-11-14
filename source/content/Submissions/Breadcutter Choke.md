@@ -147,14 +147,12 @@ description: "Master the Breadcutter Choke in BJJ. Devastating collar choke from
 
 
 
-> Breadcutter Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Breadcutter Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Breadcutter Choke?
 
 The Breadcutter Choke is a powerful gi-based blood choke that utilizes the opponent's own collar to create a devastating strangling mechanism. Executed primarily from turtle position, back control, or transitional positions, this technique creates immense pressure on both carotid arteries while simultaneously compressing the trachea. The name derives from the cutting action of the collar across the neck, similar to slicing bread. What makes the Breadcutter particularly effective is its ability to be applied from positions where the opponent believes they are relatively safe or defending other attacks. The mechanics rely on deep collar grips combined with precise body positioning to generate choking pressure without requiring both arms wrapped around the opponent. This makes it an excellent option when traditional rear naked choke grips are not available. The Breadcutter belongs to a family of collar chokes that includes the Clock Choke, Bow and Arrow, and Baseball Bat variations, but distinguishes itself through its unique application angle and grip configuration.
 
@@ -238,7 +236,7 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Initial Control**: From turtle or back position, secure control of opponent's hips with one arm or use knee pressure on their near hip. Your other hand reaches for the far collar, inserting four fingers deep inside the collar at the back of their neck. The thumb stays outside. This grip must be established before opponent recognizes the attack. (Timing: 2-3 seconds for grip establishment) [Pressure: Light]
 2. **Feed the Collar**: Pull the collar material across opponent's neck, feeding it deeply so your blade hand (pinky side) makes contact with the near side of their neck. The collar should cut diagonally across both carotid arteries. Maintain continuous pressure during this feed to prevent opponent from creating defensive frames. Your elbow drives toward the mat on the choking side. (Timing: 2-4 seconds for deep collar feed) [Pressure: Moderate]
 3. **Secure Far Side Control**: Your non-choking hand reaches across opponent's body to control their far shoulder, far collar, or posts on the mat for base. This prevents rolling escapes and adds rotational pressure to the choke. Some variations use this hand to grip the pants or belt on the far hip instead. The key is preventing their escape route. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -306,7 +304,7 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time period you should apply progressive pressure when executing the Breadcutter Choke in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: A minimum of 3-5 seconds of progressive, gradual pressure application is critical in training to allow your partner time to recognize the threat, assess their defensive options, and tap safely if needed. Sudden or spiking application can cause immediate loss of consciousness without tap opportunity, or can damage the trachea before carotid restriction takes effect. The slow application also allows you to develop technical precision rather than relying on explosive force. In competition, faster application may be appropriate, but in training the safety of your partner must always be the priority. This time window also gives you opportunity to feel the proper mechanics and adjust your technique.
 

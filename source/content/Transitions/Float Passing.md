@@ -147,14 +147,10 @@ description: "Master Float Passing in BJJ. Strategic guard passing using minimal
 
 
 
-> Float Passing transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Float Passing?
 
 Float Passing is a dynamic guard passing approach that emphasizes movement, timing, and minimal pressure to navigate around the opponent's guard. Unlike traditional pressure passing, float passing relies on quick transitions, constant movement, and strategic positioning to bypass defensive frames and leg configurations. The technique is particularly effective against flexible opponents or those with strong retention games who excel at recovering guard under pressure. Float passing creates passing opportunities by forcing opponents to constantly adjust their defensive structures, eventually exposing gaps in their guard retention. This approach requires excellent balance, timing, and the ability to read opponent reactions in real-time, making it a favorite among competitors who prefer speed and athleticism over grinding pressure.
 
@@ -193,7 +189,7 @@ Float Passing is a dynamic guard passing approach that emphasizes movement, timi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish initial control**: From standing or combat base, secure grips on opponent's pants at the knees or ankles while maintaining proper posture. Keep your hips back and weight distributed to prevent off-balancing. Establish distance that allows you to control their legs while staying mobile. (Timing: Initial setup phase)
 2. **Begin floating movement**: Start moving laterally around the opponent's guard, using small quick steps while maintaining your grips. Keep your weight light and mobile, ready to change direction instantly. Your movement should be unpredictable, mixing clockwise and counterclockwise circles around their hips. (Timing: Continuous movement phase)
 3. **Control leg frames**: As you circle, use your grips to redirect opponent's legs away from your passing path. Push one leg down or across while stepping around the other. Your grip manipulation should complement your footwork, creating openings in their defensive structure. (Timing: During lateral movement)
@@ -285,7 +281,7 @@ Experiment with combining float passing with other passing styles. Develop your 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the fundamental difference between float passing and pressure passing?
 **A**: Float passing emphasizes minimal pressure, constant movement, and quick transitions to navigate around the guard, while pressure passing uses heavy weight, static control, and grinding force to collapse defensive structures. Float passing maintains mobility and lightness, whereas pressure passing prioritizes control and suffocating pressure. Float passing is more effective against flexible opponents with strong guard retention, while pressure passing works better against less mobile or less technical opponents.
 

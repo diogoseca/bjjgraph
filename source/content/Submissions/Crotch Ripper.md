@@ -147,14 +147,12 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 
 
 
-> Crotch Ripper is a groin compression targeting the Hip flexors, groin muscles, and inner thigh adductors. ⚠️ **SAFETY**: This technique can cause Groin strain or muscle tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Crotch Ripper targets the Hip flexors, groin muscles, and inner thigh adductors. Risk: Groin strain or muscle tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Crotch Ripper?
 
 The Crotch Ripper is a compression-based leg lock submission originating from Eddie Bravo's 10th Planet Jiu-Jitsu system, specifically designed to be executed from the lockdown position in half guard. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning. The Crotch Ripper represents the offensive potential of the lockdown system, transforming a traditionally defensive half guard position into a legitimate finishing threat. This technique requires excellent flexibility, hip control, and precise timing to execute effectively, making it a hallmark of the 10th Planet methodology's emphasis on unconventional attacks from bottom positions.
 
@@ -238,7 +236,7 @@ The Crotch Ripper is a compression-based leg lock submission originating from Ed
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure the lockdown position**: From half guard bottom, thread your inside leg underneath opponent's trapped leg and establish the lockdown figure-four by grabbing your own ankle or shin. Your outside leg wraps over their thigh while your inside leg hooks under their ankle, creating a tight figure-four configuration that prevents leg extraction. (Timing: Take 2-3 seconds to properly secure the lockdown before proceeding) [Pressure: Moderate]
 2. **Establish underhook control**: Secure a deep underhook on the same side as your lockdown, driving your shoulder into opponent's armpit. This underhook is critical for creating the angle necessary for the submission and preventing opponent from flattening you completely. Your underhook hand should grip behind their back or their far lat muscle. (Timing: Maintain constant underhook pressure throughout) [Pressure: Firm]
 3. **Create the angle and turn to your side**: Use your underhook to turn your body toward the underhook side, rotating onto your side rather than staying flat on your back. This angle is essential - you want to create approximately 45-90 degrees of rotation. Your lockdown should stretch opponent's trapped leg as you turn, and your hips should be mobile, not pinned flat. (Timing: Smooth rotation over 1-2 seconds) [Pressure: Moderate]
@@ -304,7 +302,7 @@ The Crotch Ripper is a compression-based leg lock submission originating from Ed
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply pressure during Crotch Ripper submission in training? **[SAFETY-CRITICAL]**
 **A**: 4-6 seconds minimum of progressive pressure application. This allows your training partner sufficient time to recognize the submission, feel the pressure building, and tap safely before any muscular damage occurs. Unlike joint locks which have mechanical stop points, compression submissions can cause muscle tears if applied too quickly, making controlled application essential for training safety.
 

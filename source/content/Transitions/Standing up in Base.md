@@ -153,14 +153,10 @@ description: "Master the technical standup from bottom position in BJJ. Step-by-
 
 
 
-> Standing up in Base transitions from [[Turtle]] to [[Standing Guard]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Standing up in Base?
 
 The technical standup from base is a fundamental defensive movement that allows a grounded fighter to safely return to standing position while maintaining defensive posture and base. This essential skill bridges the gap between ground-based positions and standing engagement, providing both escape utility and offensive opportunity. The technique emphasizes proper weight distribution, frame creation, and sequential base-building to prevent opponent interference during the standup process. Understanding this movement is critical for guard retention, scramble navigation, and preventing opponents from consolidating top position control. The standup sequence involves establishing a stable posting base, creating distance through frames, and executing a coordinated hip elevation that brings you to your feet while maintaining defensive awareness. This technique serves as a gateway movement that connects various bottom positions to standing engagements, making it indispensable for complete positional fluency in Brazilian Jiu-Jitsu.
 
@@ -199,7 +195,7 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish posting hand**: From turtle or seated position, post your lead hand firmly on the mat with fingers spread wide, arm positioned slightly in front of your shoulder line. This creates your primary base point and structural support for the entire standup sequence. (Timing: Initial setup phase)
 2. **Create defensive frame**: Extend your non-posting arm to create a frame against opponent's chest or shoulder, establishing distance and preventing them from collapsing their weight onto you during the standup. Keep elbow tight and forearm positioned to redirect pressure. (Timing: Simultaneous with posting hand establishment)
 3. **Position lead foot**: Plant your lead foot flat on the mat with knee bent approximately 90 degrees, positioning it forward and slightly outside your posting hand. This creates your second base point and prepares for hip elevation. Ensure full foot contact with the mat for maximum stability. (Timing: 0.5-1 second after frame creation)
@@ -301,7 +297,7 @@ Practice flowing between technical standup, hip escapes, granby rolls, and guard
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is establishing a proper posting base more important than explosive speed when executing the technical standup?
 **A**: A proper posting base creates structural integrity that allows you to support your body weight and resist opponent's pressure during the vulnerable transition from bottom to standing. Explosive speed without solid base results in unstable balance that opponents can easily disrupt, causing you to fall back to bottom position or worse. The sequential base-building approach (hand post, foot plant, hip elevation, step through) distributes your weight properly and provides checkpoints where you can react to opponent interference. Speed matters only after base quality is established, as proper structure multiplies the effectiveness of explosive power.
 

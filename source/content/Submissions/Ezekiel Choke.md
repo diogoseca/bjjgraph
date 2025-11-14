@@ -153,14 +153,12 @@ description: "Master the Ezekiel Choke in BJJ with safety protocols, setup, and 
 
 
 
-> Ezekiel Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Ezekiel Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ezekiel Choke?
 
 The Ezekiel Choke is a fundamental gi-based blood choke that can be executed from dominant top positions, most commonly from mount but also effective from side control, knee on belly, and other control positions. Named after Brazilian judoka Ezequiel Paraguassú who popularized it in BJJ, this technique utilizes the practitioner's own sleeve as a fulcrum to create pressure on both carotid arteries. The Ezekiel is particularly effective because it can be applied even when the opponent has their hands free to defend, making it a high-percentage submission when proper mechanics are understood. The technique's versatility allows it to be threaded through various defensive frames and can be executed with either a traditional lapel grip or by threading the sleeve through for maximum control. What makes the Ezekiel especially valuable is its ability to create submission threats that force opponents to expose other attacks, making it an excellent tool for creating offensive sequences from dominant positions.
 
@@ -248,7 +246,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Dominant Mount Position**: Secure high mount position with hips heavy on opponent's chest and knees tight to their ribcage. Your weight should be distributed forward, making bridging difficult while maintaining balance. Control opponent's frames by either riding very high (chest-to-face pressure) or controlling their elbows with underhooks. (Timing: Initial position establishment: 2-3 seconds) [Pressure: Moderate]
 2. **Grip Own Sleeve**: With your non-dominant hand, reach across and grip your dominant hand's sleeve at the wrist or slightly above. This grip should be deep (four fingers inside the sleeve) to create a rigid lever for the choke. Keep this gripping hand close to your body initially to hide your intention. (Timing: Grip establishment: 1-2 seconds) [Pressure: Light]
 3. **Thread Choking Arm Behind Head**: Feed your dominant hand (the one whose sleeve you're gripping) behind the opponent's head, aiming to position your forearm across the far side of their neck. Your elbow should pass close to their ear. Thread deeply enough that your wrist bone (blade) makes contact with the far side carotid artery. Maintain mount stability by keeping weight forward. (Timing: Threading motion: 2-3 seconds) [Pressure: Light]
@@ -321,7 +319,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical target of the Ezekiel choke, and why is proper blade angle critical for both effectiveness and safety? **[SAFETY-CRITICAL]**
 **A**: The primary targets are the carotid arteries on both sides of the neck. Proper blade angle is critical because targeting the carotid arteries creates a blood choke that safely induces unconsciousness within seconds if not defended, while improper angle targeting the trachea (windpipe) causes pain and potential injury without effective submission. The blade of your wrist should press against the side of the neck where the carotid artery runs, not across the front of the throat. This distinction is fundamental for both submission effectiveness and training safety.
 

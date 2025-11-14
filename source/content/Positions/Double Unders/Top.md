@@ -8,7 +8,7 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 45%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Double Unders from the Top?
 
 Double Unders Top Position is a dominant pressure passing position where the top practitioner controls both of the bottom player's legs by threading their arms underneath, typically securing a grip behind the opponent's back or on their belt. This position represents a critical transition point in guard passing, offering exceptional control over the opponent's hip mobility and creating intense chest-to-chest pressure that makes guard retention extremely difficult. The position is characterized by the top player's ability to stack the opponent's weight onto their shoulders while controlling their legs, effectively neutralizing most guard recovery attempts and creating a crushing pressure that fatigues the defensive player rapidly.
 
@@ -442,17 +421,17 @@ Partner actively attempts specific escapes: hip escape, granby roll, butterfly h
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The double unders position represents one of the most mechanically sound pressure passing positions available in jiu-jitsu. The bilateral control of both legs eliminates the opponent's primary defensive tools—their ability to create frames with their feet and establish distance with their knees. By securing both arms underneath and connecting them behind the opponent's back, you create a closed system of control that is extremely difficult to break. The key mechanical principle is the stacking angle: you must drive your chest forward and downward into their thighs, forcing their weight onto their shoulders. This creates a compression that not only limits their mobility but also taxes their breathing and energy reserves significantly. The position is most effective when you understand the relationship between pressure angle and hip control. Your goal is not merely to hold the position but to progressively advance your knees forward, claiming hip territory until you achieve the critical threshold where their guard can no longer be retained. At that moment, the transition to side control becomes inevitable. The locked hands must climb as high as possible up the opponent's back, ideally reaching mid-back or higher, which creates maximum leverage for the stack pass while simultaneously preventing hip mobility through superior mechanical advantage.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Double unders is my go-to position for passing most open guard styles because it's extremely high percentage at the highest levels of competition. When you get those double underhooks and secure the grip, you're basically deciding when the pass happens, not your opponent. The beauty of this position is that it's incredibly draining for the bottom player—they're carrying your weight on their legs while stacked in a terrible breathing position. In competition, I use this to wear opponents down in the first few minutes, making them exhausted for the rest of the match. The key is being patient enough to maintain the pressure until they make a mistake, then exploding to side control. Most guys try to pass too early before the opponent is really cooked. If you feel them trying to turn or hip escape, that's your signal to drive forward hard and complete the pass. I also look for the back take constantly—if they turn away from the pressure, I'm immediately transitioning to back control. This position has probably given me more passing success in ADCC and no-gi worlds than any other control position. The critical detail is hand position height - get those hands locked at mid-back or higher, not just at their hips. When they defend the stack by pushing my face or creating frames, I immediately transition to knee slice - that defensive choice opens the passing lane perfectly.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 From a 10th Planet perspective, double unders is crucial for shutting down a lot of the guards we typically play—butterfly, half butterfly, rubber guard attempts. When someone gets that double under control on you, you're in serious trouble because all your leg dexterity is neutralized. That's why we spend a lot of time training counters and escapes from this position. But when you're on top with it, man, you can really impose your game. The stacking pressure is brutal, especially in no-gi where it's harder for the bottom player to grip and create frames. I like to use the double unders as a gateway position—you can go to side control, but you can also transition to more creative options like truck position if they try to turn away. The head position is key: if you put your head on their chest, you get maximum pressure, but if you slide it to their hip, you're setting up the leg weave or preparing to step over into mount. It's a versatile position that fits well into an aggressive, submission-hunting style. Don't be so focused on passing that you miss submission opportunities - collar chokes in the gi, shoulder pressure chokes in no-gi, even arm attacks when they create frames. The double unders position creates so much pressure that they often get desperate with their defensive framing, and desperate frames create submission opportunities.
 

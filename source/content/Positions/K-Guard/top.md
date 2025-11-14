@@ -8,7 +8,7 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 35%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is K-Guard from the Top?
 
 K-Guard Top is the top position in the K-Guard system, where the passer faces a bottom player who has configured their legs in an inverted butterfly hook structure creating the characteristic 'K' shape. From the top perspective, this position requires careful navigation of the bottom player's active hook system and upper body frames while maintaining forward pressure and working toward guard passing opportunities. The position demands systematic pressure application, grip dominance, and awareness of the bottom player's sweep and back-take threats.
 
@@ -483,17 +462,17 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The K-Guard Top position represents a critical juncture in the half guard passing game where systematic pressure and proper weight distribution determine success. The fundamental principle is to view the bottom player's inverted hook system not as obstacles to overcome through brute force, but as structural weaknesses to be exploited through angle creation and strategic redirection. Your primary objective is to control the far hip while simultaneously addressing the hook tension through one of three methods: blocking the hooks at their source by controlling the knees, redirecting them by changing your angle of attack and flattening the spine, or bypassing them entirely through leg drag mechanics. The most common error I observe is practitioners attempting to push directly against the hook system, which creates a stalemate and wastes tremendous energy. Instead, focus on hip pressure that anchors the bottom player to the mat while your upper body establishes dominant grips - ideally an underhook on the far side combined with crossface control. This grip configuration creates a systematic framework for passing that addresses both the bottom player's defensive structure and their offensive potential simultaneously. Remember that every passing sequence from this position must account for the bottom player's primary weapons: the underhook for sweeps and back-takes, and the ability to recover full guard through hip movement. By controlling these elements systematically, you transform a complex defensive position into a straightforward passing scenario.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From a competition standpoint, K-Guard Top is all about imposing your will through relentless pressure while staying safe from the bottom player's most dangerous weapons. In high-level competition, I've found that the majority of points scored come from guard passing, and positions like K-Guard represent the battleground where matches are won or lost. My approach is to immediately establish heavy hip pressure that makes the bottom player work just to maintain their hook tension - this is where the 'cooking' happens. I'm not trying to pass right away; I'm trying to make them exhaust their energy defending while I stay relatively fresh. The key is controlling their far hip with an underhook or strong grip while keeping my head positioned safely to avoid guillotines and darce attempts. Once I feel them starting to flatten or their hooks weakening, that's when I attack with purpose. I prefer the smash pass or knee slice because they're high-percentage techniques that work at every level of competition. The critical thing people miss is grip fighting - you absolutely must win the grip battle before attempting to pass. If they have strong frames or active hook tension supported by good grips, your passing attempts will fail. I spend 70% of my time in this position establishing dominant grips and breaking down their structure, and only 30% actually executing passes, but this ratio is why my passing success rate is so high. Against elite competition, patience and systematic pressure always defeat explosive, rushed passing attempts.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The K-Guard is one of those positions where creativity and understanding of leg entanglement mechanics can give you a huge advantage. From the 10th Planet perspective, when you're on top of K-Guard, you're dealing with someone who understands how to use their legs as a dynamic retention weapon, so you need to respect that while also looking for unconventional passing opportunities. What I like to do is use the threat of leg attacks to create passing opportunities - if I can get my opponent worried about heel hooks or toe holds, they're less focused on maintaining their hook tension and defensive structure. But here's the thing: you need to stay safe while exploring these options. The bottom player's underhook is their main weapon for sweeps and back-takes, so I'm always thinking about how to neutralize that while maintaining forward pressure. One technique I've had a lot of success with is using the calf slicer threat to force the bottom player to open up their hook configuration, which then creates easier passing lanes. The key is to keep them guessing - am I going for a pass, am I going for a leg attack, am I setting up a submission from top position? This creates decision fatigue and forces them to make mistakes. Don't get stuck in the traditional passing game if it's not working; be willing to explore different angles, different grips, and different attacks. The beautiful thing about half guard variations like K-Guard is that they create so many different attack vectors, and if you're creative and unpredictable, you can often catch even high-level players by surprise with unconventional approaches.
 

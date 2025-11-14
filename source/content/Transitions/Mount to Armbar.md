@@ -153,14 +153,10 @@ description: "Master the Mount to Armbar transition in BJJ. Complete step-by-ste
 
 
 
-> Mount to Armbar transitions from [[Mount]] to [[Armbar Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Mount to Armbar?
 
 The Mount to Armbar transition is one of the most fundamental and high-percentage submission attacks in Brazilian Jiu-Jitsu, representing a cornerstone technique that every practitioner must master. From the dominant Mount position, this technique capitalizes on the opponent's natural defensive reactions by converting their arm-framing attempts into submission opportunities. The transition requires precise weight distribution, controlled movement sequencing, and the ability to maintain dominant positioning throughout the execution. This technique exemplifies the principle of position before submission, as maintaining mount control throughout the transition is critical to success. The Mount to Armbar serves as a gateway technique that opens pathways to other submissions including the triangle choke, Americana, and Ezekiel choke, making it an essential component of any complete mount attack system.
 
@@ -200,7 +196,7 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish high mount control**: From Mount, walk your knees forward toward the opponent's armpits to establish high mount position. Drive your chest forward and down, forcing your opponent to frame against your chest with their arms. This defensive reaction creates the opportunity for the armbar attack. Keep your hips heavy and maintain connection through your chest. (Timing: Establish position before opponent can create significant frames)
 2. **Isolate the target arm**: As opponent pushes against your chest, choose one arm to attack (typically the arm on the side you feel most stable). Pin this arm to your chest by hugging it with your same-side arm, or grab their wrist with your opposite hand and pull it across your centerline. Ensure their elbow is above your belt line for proper armbar alignment. (Timing: Capture arm immediately when opponent extends it to frame)
 3. **Control the opposite arm**: With your free hand, post on the mat near opponent's opposite shoulder or control their free arm by pinning it to the mat. This prevents them from turning into you or using that arm to defend the armbar. This control is critical for preventing the hitchhiker escape. (Timing: Simultaneous with arm isolation)
@@ -287,7 +283,7 @@ Integrate the Mount to Armbar into a complete attack system including transition
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical control to establish before pivoting for the Mount to Armbar?
 **A**: Control of the target arm is paramount - the arm must be pinned to your chest or securely gripped before initiating any pivot. Additionally, controlling or posting on the opposite arm prevents the hitchhiker escape. Without these controls established, the opponent can simply withdraw their arms defensively and the attack fails.
 

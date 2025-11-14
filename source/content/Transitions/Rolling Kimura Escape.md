@@ -153,14 +153,10 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 
 
 
-> Rolling Kimura Escape transitions from [[Kimura Control]] to [[Open Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rolling Kimura Escape?
 
 The Rolling Kimura Escape is an advanced defensive technique used to escape when an opponent has secured a tight Kimura grip on your arm. This dynamic escape utilizes forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. The technique is particularly effective when traditional defensive frames have failed and the shoulder lock is being applied with significant pressure. The rolling motion works by using momentum and body rotation to change the angle of attack, transforming what would be a devastating submission into an opportunity to return to a neutral or even advantageous position. This escape requires excellent timing, spatial awareness, and complete commitment to the rolling motion. The key principle is that by rolling in the direction of the lock rather than resisting against it, you can momentarily relieve pressure while repositioning your body to defend. Success depends heavily on recognizing the exact moment when your opponent is committed to the finish and cannot easily adjust their base to follow your roll.
 
@@ -199,7 +195,7 @@ The Rolling Kimura Escape is an advanced defensive technique used to escape when
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize the need to escape**: As opponent secures the Kimura grip and begins applying pressure toward your back, assess that traditional defensive measures (hand fighting, posture recovery) are no longer viable. Feel the increasing shoulder torque and recognize the submission is progressing. This awareness must happen quickly, before the lock reaches the point of no return. (Timing: As soon as shoulder pressure becomes intense)
 2. **Tuck chin and prepare body position**: Immediately tuck your chin tightly to your chest to protect your neck during the upcoming roll. Draw your free arm across your body to assist with the rolling motion. Position your body weight slightly forward to prepare for the forward roll. Your trapped arm should remain as relaxed as possible to prevent additional torque. (Timing: 0.5-1 second before initiating roll)
 3. **Initiate forward roll**: Explosively drive forward over your trapped shoulder, committing fully to a forward roll in the direction of the Kimura lock. Plant your free hand on the mat and use it to guide your body into a tight somersault. Keep your chin tucked and your core tight throughout the rotation. The momentum must be sufficient to complete a full 360-degree rotation. (Timing: Explosive commitment - no hesitation)
@@ -293,7 +289,7 @@ Continue practicing the rolling escape periodically (once per week) to maintain 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the rolling Kimura escape effective?
 **A**: The rolling motion temporarily changes the angle of the shoulder lock by rotating your entire body in the direction of the force being applied. This rotation relieves direct pressure on the shoulder joint by transforming the locked position into a different geometric relationship. Rather than resisting against the lock's force vector, you move with it in a way that creates momentary relief and allows repositioning. The effectiveness comes from using momentum and rotation to achieve what static strength cannot accomplish.
 

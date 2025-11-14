@@ -147,14 +147,12 @@ description: "Master the Spine Lock submission in BJJ. Advanced spinal compressi
 
 
 
-> Spine Lock is a spinal compression targeting the Lumbar spine, thoracic vertebrae, spinal column. ⚠️ **SAFETY**: This technique can cause Lumbar spine strain or disc herniation. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Spine Lock targets the Lumbar spine, thoracic vertebrae, spinal column. Risk: Lumbar spine strain or disc herniation. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Spine Lock?
 
 The Spine Lock is an advanced spinal compression submission that targets the opponent's vertebral column through hyperextension and rotational pressure. Popularized within the 10th Planet system, this technique creates extreme discomfort through mechanical pressure on the spine rather than joint manipulation. The submission is primarily accessed from the Truck position, where the attacker controls one leg while the opponent's body is inverted and vulnerable. The Spine Lock exemplifies the principle of using body positioning and leverage to create inescapable pressure without relying on limb isolation. This technique requires exceptional body awareness, precise control, and absolute commitment to safety protocols due to the vulnerability of the spinal column. The effectiveness of the Spine Lock comes from the combination of hip pressure driving into the opponent's lower back while maintaining rotational control that prevents escape. Unlike joint locks that target a single articulation point, spinal compression affects multiple vertebrae simultaneously, creating a compound pressure that is difficult to defend once fully established. The technique is particularly effective in no-gi competition where traditional gi-based controls are unavailable and modern leg entanglement systems dominate.
 
@@ -240,7 +238,7 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Truck control**: From turtle or scramble position, secure the Truck by hooking opponent's near leg with your legs while their body is inverted. Your inside leg hooks under their near leg while your outside leg comes over their back. Ensure their shoulders are driven toward the mat while their hips are elevated and rotated. (Timing: 2-3 seconds to secure position) [Pressure: Moderate]
 2. **Position hips for compression**: Adjust your hip position so your hips are directly above opponent's lower back/sacrum area. Your body weight should be concentrated on their lumbar spine region. Keep your chest upright and posture strong to maximize downward pressure through your hips. (Timing: 1-2 seconds adjustment) [Pressure: Light]
 3. **Secure rotational control**: Maintain leg control on opponent's near leg while using your free hand to control their far hip or far leg. This prevents them from rotating out of the compression. Your other hand can post on the mat for base or control their upper body to increase rotational strain. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -303,7 +301,7 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the PRIMARY safety consideration that makes spine locks more dangerous than most joint locks? **[SAFETY-CRITICAL]**
 **A**: The spinal column contains the spinal cord and affects multiple vertebrae simultaneously rather than a single joint. Injury to the spine can result in permanent neurological damage, paralysis, or chronic pain conditions that are far more severe than joint injuries. Additionally, spinal injuries often don't provide the same immediate pain feedback as joint locks, meaning opponents may not recognize the danger until damage occurs.
 

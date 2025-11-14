@@ -8,7 +8,7 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Leg Drag Control?
 
 Leg drag control represents a critical transitional position in Brazilian Jiu-Jitsu where the passer has successfully controlled one of the opponent's legs and achieved significant hip dominance. This position sits at a strategic crossroads in the passing sequence—the passer has cleared the guard but has not yet achieved a traditional scoring position like side control or mount. The leg drag creates a unique control dynamic where the top player uses the opponent's own leg as a barrier to prevent re-guarding while simultaneously opening pathways to dominant positions and submissions.
 
@@ -54,7 +52,7 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -68,7 +66,7 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Hip control trades mount points for attacks
+**Key Difference:** Hip control trades mount points for attacks
 
 
 
@@ -80,10 +78,6 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ## Playing as Bottom
 
 [[Leg Drag Control/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -168,10 +162,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Leg Drag Control/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -253,7 +243,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

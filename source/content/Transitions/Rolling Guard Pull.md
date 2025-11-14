@@ -153,14 +153,10 @@ description: "Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple gu
 
 
 
-> Rolling Guard Pull transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rolling Guard Pull?
 
 The Rolling Guard Pull is a dynamic guard entry technique that utilizes rotational momentum to transition from standing to a guard position. Unlike static guard pulls that rely on grips and weight distribution, the rolling guard pull creates a sweeping motion that can catch opponents off-guard and establish multiple guard variations. This technique is particularly effective in competition scenarios where aggressive guard pulling is rewarded, and it allows the practitioner to maintain offensive initiative while transitioning to the ground.
 
@@ -203,7 +199,7 @@ Mastery of the rolling guard pull requires excellent body awareness, timing, and
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish primary grip**: Secure a strong grip on the opponent's sleeve, collar, or belt with your lead hand. This grip will serve as your anchor point throughout the rolling motion and help you pull the opponent into your guard. Position your body at a slight angle to create space for the rolling motion. (Timing: During initial engagement)
 2. **Create forward momentum**: Step forward with your lead foot while pulling the opponent slightly toward you with your grip. This creates the forward momentum necessary for a smooth roll. Your body should be moving toward the opponent as you begin to lower your center of gravity. (Timing: 1-2 seconds before initiating roll)
 3. **Drop hips and initiate roll**: Lower your hips rapidly by bending your knees and sitting back onto your rear while maintaining your grip. As your hips drop, tuck your chin to your chest and round your spine into a ball position. Begin the backward roll by allowing your momentum to carry your hips over your shoulders. (Timing: Immediate transition from forward step)
@@ -301,7 +297,7 @@ Master the ability to transition to different guard types based on opponent's re
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of creating forward momentum before initiating the rolling guard pull?
 **A**: Forward momentum serves multiple purposes: it creates the rotational energy needed to complete the roll smoothly, it prevents the opponent from simply stepping back to disengage, and it helps you maintain grip control throughout the movement. The momentum carries you through the rotation and makes it more difficult for the opponent to counter mid-technique. Without proper forward momentum, the roll becomes incomplete or sluggish, allowing the opponent to escape or apply heavy pressure during your vulnerable rolling phase.
 

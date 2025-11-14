@@ -147,14 +147,10 @@ description: "Master the Truck transition in BJJ. Step-by-step execution from Tu
 
 
 
-> Transition to Truck transitions from [[Turtle]] to [[Truck]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Transition to Truck?
 
 The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jitsu system and modern no-gi grappling. When an opponent assumes the turtle position, the Truck offers a devastating alternative to traditional back takes, providing access to the Twister submission, various calf slicers, and back control options. The Truck position involves controlling the opponent's leg while maintaining a specific body configuration that creates the signature "truck" shape - hence the name. This transition is particularly effective because it exploits the turtle position's inherent vulnerability to leg attacks while the opponent focuses on defending their neck and preventing traditional back takes. The Truck serves as a gateway position within the larger Twister system, allowing the attacker to create multiple submission threats simultaneously. What makes this transition especially valuable is its ability to bypass traditional back defense protocols, as most practitioners are conditioned to defend against seat belt control rather than leg-based attacks from turtle. The success of this transition relies on timing, understanding weight distribution, and the ability to coordinate upper and lower body control simultaneously.
 
@@ -194,7 +190,7 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish side position**: From turtle, position yourself perpendicular to your opponent's body, chest to their ribs. Establish a cross face or collar tie with your near arm while maintaining tight chest-to-back pressure. Your hips should be lower than theirs to prevent them from sitting back into you. (Timing: Initial control phase - focus on preventing forward movement)
 2. **Secure the far leg**: Reach your far arm under their body and grip their far knee or shin from the inside. This grip is critical - you're controlling the leg that will become trapped in the Truck. Pull this leg slightly toward you while maintaining upper body control to prevent them from sprawling away. (Timing: Coordinate with opponent's weight shift - grab when they're heavy on their hands)
 3. **Insert your leg hook**: Thread your near leg (the leg closest to their hips) under their far leg, inserting your shin behind their thigh. Your foot should emerge on the far side of their body. This creates the fundamental structure of the Truck - your leg becomes a barrier preventing their escape. (Timing: Insert smoothly as you pull their leg with your grip)
@@ -290,7 +286,7 @@ Hunt for the Truck entry during regular training rolls. Focus on recognizing tur
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary leg configuration that defines the Truck position?
 **A**: The Truck requires a triangle or figure-four lock with your legs around the opponent's leg, with your near leg inserted under and through their far leg, and your far leg locking over the top. This creates a leg triangle similar to a lockdown but around a single leg while your body is positioned perpendicular to your opponent. The triangle must be tight with active pressure pulling their leg away from their body.
 

@@ -147,14 +147,10 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 
 
 
-> Kosoto Gake transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kosoto Gake?
 
 Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a staple in Brazilian Jiu-Jitsu's standing game. This technique involves reaping your opponent's supporting leg from the outside while simultaneously pulling their upper body backward, causing them to fall directly into your side control position. The beauty of Kosoto Gake lies in its simplicity and relatively low physical demands compared to explosive throws like Uchi Mata or Harai Goshi. It excels when your opponent has their weight distributed on their rear leg, making it an excellent counter to defensive stances and backward movement. The throw creates a seamless transition from standing to dominant groundwork, with the thrower maintaining control throughout the entire movement and landing directly in a scoring position. This makes it particularly valuable in both gi and no-gi competition contexts where takedown points and top position are strategically critical.
 
@@ -193,7 +189,7 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and close distance**: Secure a dominant collar grip with your lead hand and sleeve or elbow control with your rear hand in gi (or collar tie and underhook in no-gi). Step in close to eliminate space between your chest and opponent's upper body, positioning yourself at a 45-degree angle to their stance. (Timing: Initial setup phase)
 2. **Break opponent's posture**: Pull your opponent's upper body backward and slightly downward using your collar grip, forcing them to shift their weight onto their rear leg. Their natural reaction is to resist by pushing back or stepping backward, which loads their rear leg perfectly for the reap. (Timing: As opponent resists forward pressure)
 3. **Position your reaping leg**: Step your rear leg (same side as your collar grip) behind opponent's weighted rear leg. Your calf should make contact with the back of their calf/Achilles area. Keep your knee slightly bent and your weight balanced on your supporting leg. (Timing: Immediately after breaking posture)
@@ -278,7 +274,7 @@ Attempt Kosoto Gake during regular standup sparring with full resistance. Focus 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most important factor in timing Kosoto Gake effectively?
 **A**: The most critical timing factor is recognizing when your opponent's weight is committed to their rear leg. This typically occurs when they are moving backward, resisting forward pressure, or adopting a defensive stance with their weight distributed rearward. Attempting the throw when weight is on the front leg will fail because the rear leg can easily step away.
 

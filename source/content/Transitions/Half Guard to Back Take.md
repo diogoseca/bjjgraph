@@ -159,14 +159,10 @@ description: "Learn Half Guard to Back Take in BJJ. Advanced transition from hal
 
 
 
-> Half Guard to Back Take transitions from [[Half Guard]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Half Guard to Back Take?
 
 Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.
 
@@ -205,7 +201,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish underhook control**: From bottom half guard, secure deep underhook on opponent's far side, threading your arm under their armpit and connecting your hand to their far shoulder or lat muscle. Simultaneously prevent their crossface by keeping your other hand framing against their neck or shoulder. (Timing: Establish during initial half guard engagement)
 2. **Create perpendicular angle**: Use the underhook to pull yourself perpendicular to your opponent's body, rotating your torso so you're facing their side rather than directly facing them. Your hips should form approximately a 90-degree angle with their body, with your inside leg still maintaining the half guard lock. (Timing: Execute as opponent drives forward pressure)
 3. **Block bottom hip**: As you create the angle, bring your top knee across to block opponent's bottom hip, preventing them from turning into you or recovering their base. This knee acts as a critical control point that maintains your perpendicular position. (Timing: Simultaneous with angle creation)
@@ -303,7 +299,7 @@ Use technique seamlessly during regular rolling, chaining it with other half gua
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary control point that enables the half guard to back take transition?
 **A**: The underhook on opponent's far side is the primary control point, providing leverage for angle creation, preventing opponent's crossface pressure, and serving as the main anchor throughout the entire transition from half guard to full back control.
 

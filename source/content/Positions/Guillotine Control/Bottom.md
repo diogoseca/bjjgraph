@@ -8,7 +8,7 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Guillotine Control from the Bottom?
 
 Guillotine Control Bottom represents a critical attacking position where the bottom practitioner has secured a guillotine choke grip while maintaining guard or attempting to close guard. This position transforms defensive bottom play into an immediate offensive threat, creating a powerful submission opportunity from what would otherwise be a neutral or disadvantageous position. The position is characterized by the bottom player controlling the opponent's head and neck with a front headlock grip, typically with the choking arm wrapped around the opponent's neck and the hands clasped together, while using the legs to control distance and prevent the opponent from escaping or advancing position.
 
@@ -499,17 +480,17 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The guillotine from bottom represents a fundamental dilemma in grappling: the simultaneous need to attack the neck while defending against positional advancement. The mechanical efficiency of the guillotine choke depends entirely on the relationship between choking arm depth, wrist blade positioning across the trachea or carotid arteries, and the angle created by pulling the head down while lifting upward. Most practitioners fail to understand that the guillotine is not simply a matter of squeezing harder, but rather about creating the proper geometric angle between the forearm, wrist, and opponent's neck. The coordination between upper body control through the choke and lower body control through guard retention represents the core technical challenge of this position. Advanced practitioners recognize that the guillotine from bottom functions as both a submission threat and a positional control mechanism, forcing opponents into defensive postures that create opportunities for sweeps and transitions. The position demands constant adjustment based on opponent reactions, transitioning fluidly between different guillotine variations as defensive adjustments create new attacking angles.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From competition experience, the guillotine from bottom is one of the highest percentage submissions when executed with proper timing and mechanics, but it's also one of the most commonly defended at elite levels. The key to success is recognizing that you're fighting two battles simultaneously: finishing the choke and preventing the pass. In my matches, I've found that the arm-in guillotine variation is significantly more effective from bottom than the traditional version because it eliminates the opponent's primary defense of pulling their arm across. The critical moment is the initial grip establishment - if you can't get deep around the neck immediately, the success rate drops dramatically. Modern competitors have become very good at defending guillotines by driving their weight forward and flattening you, so maintaining active guard retention with the legs is absolutely essential. The position works best when you're prepared to chain it with sweep attempts, particularly the hip bump sweep when they drive forward. In high-level competition, the guillotine from bottom is often more valuable as a control position that sets up sweeps than as a primary submission, though the submission threat must remain constant to keep the opponent defensive.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The guillotine from bottom is a perfect example of the 10th Planet philosophy of combining submission threats with dynamic guard retention. What makes this position so powerful in no-gi is that it completely disrupts the opponent's passing game while creating immediate finishing opportunities. We've developed specific variations like the Marce choke and specific grip adjustments that work exceptionally well from bottom position, particularly when combined with rubber guard concepts for leg control. The traditional approach of just squeezing and hoping for the tap is outdated - modern guillotine systems require understanding multiple finishing mechanics and the ability to transition between them based on how the opponent defends. One of the most underutilized aspects of guillotine control from bottom is using it as a sweeping position. When they drive forward to defend the choke, that's your opportunity to bump them over or transition to alternative attacks. The position also sets up beautifully for the Mission Control position from rubber guard when you need to prevent the pass while maintaining the submission threat. The key innovation in our system is recognizing that the guillotine from bottom should never be an isolated technique - it's part of a larger control system that includes sweeps, transitions to other submissions like the triangle or omoplata, and guard retention strategies that keep you in attacking positions even when the initial choke doesn't finish.
 

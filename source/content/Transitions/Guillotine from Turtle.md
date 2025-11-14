@@ -147,14 +147,10 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
 
 
 
-> Guillotine from Turtle transitions from [[Turtle]] to [[Guillotine Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guillotine from Turtle?
 
 The Guillotine from Turtle is a high-percentage submission attack that capitalizes on the opponent's defensive turtle position. When an opponent turtles to avoid back exposure, they inadvertently expose their neck to front headlock attacks. This transition exploits the fundamental weakness of turtle position: the head and neck are accessible while the opponent focuses on protecting their back. The technique requires precise timing, proper grip mechanics, and understanding of when to finish from standing versus when to pull guard. Elite competitors like Marcelo Garcia have built entire systems around this attack, demonstrating its effectiveness across all skill levels and rule sets. The guillotine from turtle represents a critical junction in modern grappling where the top player must decide between back attacks and front headlock submissions. Understanding this transition is essential for anyone developing a complete top game, as it creates a dilemma for the bottom player: defend the back or defend the neck. The technique's success rate increases dramatically with proper setup and grip configuration, making it one of the most reliable submissions from turtle position.
 
@@ -193,7 +189,7 @@ The Guillotine from Turtle is a high-percentage submission attack that capitaliz
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock position**: From turtle top, drive your chest into opponent's upper back while wrapping your arm around their neck. Your armpit should be tight to the side of their head, with your forearm crossing under their chin. Simultaneously control their far shoulder with your free hand to prevent rotation escape. (Timing: Execute as opponent settles into defensive turtle, before they can establish strong base)
 2. **Secure guillotine grip**: Thread your choking arm deeper until your wrist reaches the opposite side of their neck. With your free hand, grab your choking wrist using either a palm-to-palm grip (high elbow style) or a gable grip (arm-in variation). Your shoulder should be pressing down on the back of their neck, creating immediate discomfort. (Timing: Lock grip before opponent can posture or turn into you)
 3. **Break opponent's base**: Drive your chest forward and down into opponent's upper back while pulling up slightly with your grip. This forward pressure breaks their posted hands and forces their weight onto their forehead. Your hips should move forward, making it impossible for them to maintain stable base or stand to their feet. (Timing: Continuous pressure until opponent's arms buckle)
@@ -294,7 +290,7 @@ Apply technique during normal sparring when opportunities arise. Start from turt
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary control position you must establish before attempting the guillotine from turtle?
 **A**: Front headlock position with your chest driving into opponent's upper back, arm wrapped around neck with armpit tight to their head, and control of their far shoulder to prevent rotation. This dominant position must be secured before threading deeper for the choke grip.
 

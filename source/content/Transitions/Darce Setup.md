@@ -147,14 +147,10 @@ description: "Learn Darce Setup in BJJ. Step-by-step execution from Front Headlo
 
 
 
-> Darce Setup transitions from [[Front Headlock]] to [[D'arce Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Darce Setup?
 
 The Darce Setup is a crucial transitional technique that transforms front headlock control into one of Brazilian Jiu-Jitsu's most effective submission positions. Named after Joe D'Arce, this setup exploits opponent posture and creates the distinctive arm-in configuration that defines the Darce choke system. The technique is particularly effective when opponents attempt to defend turtle position or when transitioning from scrambles, making it an essential weapon for modern grapplers. Understanding proper hand positioning, angle creation, and body weight distribution during the setup phase dramatically increases finishing rates. The Darce setup requires precise timing and technical execution rather than pure strength, making it accessible to practitioners of all sizes when properly understood. This technique serves as a gateway to multiple submission opportunities including the Darce choke, Anaconda choke, and various transitions to back control or mount positions.
 
@@ -194,7 +190,7 @@ The Darce Setup is a crucial transitional technique that transforms front headlo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock control**: From standing or ground position, secure front headlock with strong crossface using your near arm wrapped around opponent's head. Your chest should be heavy on their neck and upper back, forcing their posture down. Control their far shoulder with your other hand to prevent them turning away. (Timing: Initial control phase - take 2-3 seconds to solidify position)
 2. **Create proper angle**: Step your near leg forward and across opponent's centerline while driving your shoulder into their neck. Your body should form approximately 90-degree angle to their spine. This angle is critical - too shallow and they escape, too deep and you lose leverage. Your hips should be close to their body. (Timing: Angle creation - 1-2 seconds of adjustment)
 3. **Trap the far arm**: Use your chest pressure and near arm to pin opponent's far arm against their body. Their bicep should be trapped against their ribs or lat muscle. This creates the essential 'arm-in' configuration that makes the Darce effective. Without this trap, opponent can defend by framing. (Timing: Arm trap - must be secured before proceeding)
@@ -290,7 +286,7 @@ Implement Darce setup during regular sparring with no special rules or accommoda
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical requirement for a successful Darce setup?
 **A**: Trapping the opponent's far arm against their body to create the arm-in configuration. Without this trap, the opponent can use their free arm to frame and defend, making the choke ineffective. The trapped arm creates the necessary anatomical positioning for the choke to work properly.
 

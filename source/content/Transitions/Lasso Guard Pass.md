@@ -147,14 +147,10 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
 
 
 
-> Lasso Guard Pass transitions from [[Lasso Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Lasso Guard Pass?
 
 The Lasso Guard Pass is a fundamental skill for defeating one of the most controlling open guard variations in Brazilian Jiu-Jitsu. The lasso guard utilizes the opponent's sleeve grip combined with a leg threaded behind the arm to create powerful control that can sweep, submit, or prevent passing. Understanding how to systematically dismantle this guard structure is essential for any serious competitor. The pass requires a combination of precise grip control, posture management, and strategic pressure application to neutralize the lasso hook while maintaining balance. Successful execution involves recognizing the mechanical disadvantages created by the lasso position and exploiting them through systematic steps that progressively remove the guard player's control points. This technique integrates principles of base maintenance, pressure passing, and tactical grip fighting to achieve dominant top position.
 
@@ -193,7 +189,7 @@ The Lasso Guard Pass is a fundamental skill for defeating one of the most contro
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish sleeve control**: Grip the sleeve of your lassoed arm with your free hand, creating a strong connection. Pull the sleeve across your body while maintaining upright posture. This grip prevents the opponent from extending you and creating distance, which is essential for their lasso control. Keep your elbow tight to your ribs to make the grip difficult to break. (Timing: Immediately when entering lasso guard or regaining posture)
 2. **Establish standing base**: Stand up while maintaining the sleeve grip, bringing both feet flat to the mat with a wide stable base. Keep your chest upright and hips back slightly to prevent forward sweeps. The standing position reduces the mechanical advantage of the lasso hook and prepares you for angular passing options. Distribute your weight evenly to maintain balance against sweep attempts. (Timing: Once sleeve control is secure)
 3. **Step outside the lasso leg**: Take a large step with your outside leg (the leg on the same side as the lasso) around and outside of the opponent's lasso leg. This foot should land near their hip with your knee pointing outward. This angle change immediately reduces the effectiveness of the lasso hook and begins to unwind their control. Keep your posture tall and maintain the sleeve grip throughout. (Timing: After establishing stable standing position)
@@ -289,7 +285,7 @@ Implement the lasso guard pass during regular sparring sessions. Begin recognizi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is sleeve control on the lassoed arm considered the most important grip during this pass?
 **A**: Sleeve control on the lassoed arm is critical because it prevents the opponent from creating and maintaining distance, which is the foundation of lasso guard effectiveness. By controlling this sleeve, you neutralize their ability to extend you away, set up sweeps, or transition to other guards. This grip also gives you control over their posture and prevents them from sitting up to reestablish their guard during the pass.
 

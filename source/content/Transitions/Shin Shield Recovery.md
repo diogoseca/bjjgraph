@@ -153,14 +153,10 @@ description: "Master Shin Shield Recovery in BJJ. Essential defensive framing fr
 
 
 
-> Shin Shield Recovery transitions from [[Half Guard]] to [[Knee Shield Half Guard]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Shin Shield Recovery?
 
 The Shin Shield Recovery is a fundamental defensive technique used to re-establish guard retention from compromised half guard positions. When an opponent is pressuring to pass your half guard, the shin shield creates a strong frame that prevents forward pressure while creating the space necessary to recover full guard structure. This technique is essential for maintaining defensive integrity when your knee shield has been flattened or your frames have been broken.
 
@@ -203,7 +199,7 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize passing pressure**: Identify when your half guard knee shield has been compromised or flattened. Feel opponent's weight driving forward toward your chest, indicating imminent passing danger. Assess which direction they are pressuring (toward your head or toward your legs) to determine optimal recovery angle. (Timing: Immediate recognition at first sign of frame collapse)
 2. **Create initial space**: Use your bottom arm to create a strong frame against opponent's shoulder or neck. Simultaneously shrimp your hips away from the opponent, moving your body at a 45-degree angle to create the space necessary for shin insertion. Keep your outside leg actively posting on the mat for additional leverage during the shrimp. (Timing: Explosive hip movement coordinated with frame)
 3. **Insert shin shield**: Thread your inside leg (the leg controlling half guard) up and across the opponent's torso, placing your shin bone horizontally across their chest or stomach. Your knee should be pointing toward their opposite shoulder while your foot hooks near their far hip. The shin creates a rigid barrier preventing forward pressure. (Timing: Insert during the space created by shrimp)
@@ -302,7 +298,7 @@ Incorporate shin shield recovery into regular sparring without preset scenarios.
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of the shin shield in half guard recovery?
 **A**: The shin shield creates a strong structural frame that prevents the opponent from driving forward pressure while creating the necessary space to recover proper guard structure. It transforms the leg into an active barrier that manages distance and prevents the opponent from achieving chest-to-chest contact, which is essential for most passing sequences. The shin shield also maintains your ability to create angles and launch counter-offensive techniques.
 

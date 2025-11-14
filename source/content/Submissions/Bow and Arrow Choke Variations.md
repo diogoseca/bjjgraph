@@ -153,14 +153,12 @@ description: "Master Bow and Arrow Choke variations in BJJ. Complete guide cover
 
 
 
-> Bow and Arrow Choke Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Bow and Arrow Choke Variations targets the Carotid arteries and trachea. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Bow and Arrow Choke Variations?
 
 The Bow and Arrow Choke variations represent a family of highly effective finishing techniques from back control that combine lapel manipulation with lower body control to create an inescapable strangle. Unlike the standard Bow and Arrow which relies on a single configuration, these variations adapt to different defensive responses, body types, and positional contexts. The fundamental principle remains constant across all variations: using the opponent's lapel as a primary choking mechanism while the legs create extension and angle to tighten the strangle. What makes these variations particularly dangerous is their ability to transition seamlessly between different configurations based on the opponent's defensive reactions. Each variation addresses specific scenarios - whether the opponent is defending the lapel grip, fighting the leg position, or attempting to relieve pressure through posture changes. The technical diversity within this system allows practitioners to maintain offensive pressure even as opponents attempt standard defenses. These variations are especially valued in gi competition where lapel control provides mechanical advantages unavailable in no-gi grappling.
 
@@ -244,7 +242,7 @@ The Bow and Arrow Choke variations represent a family of highly effective finish
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure deep lapel grip**: From back control with seat belt established, use your choking side hand (typically the hand that is under their armpit) to reach across and grip the far side of their collar as deeply as possible. The thumb should be inside the collar, and you want your fingers to reach past their carotid artery on the far side. This grip is fundamental - insufficient depth here compromises the entire technique. If the opponent is defending the collar, use your body weight to post them forward momentarily or use your non-choking hand to clear their defensive grips before establishing your deep collar hold. (Timing: 3-5 seconds to establish without rushing) [Pressure: Moderate]
 2. **Control the opposite lapel**: With your non-choking hand, reach over their shoulder and grip their near-side lapel at approximately chest level. This grip serves multiple purposes: it prevents them from turning into you, controls their posture, and provides a handle to manipulate their upper body as you transition. The grip should be firm but not your primary focus - your choking hand grip is more important. Some variations feed this lapel across for the choke, while others use it purely for control. Maintain constant tension on both lapels to limit their defensive options. (Timing: 2-3 seconds) [Pressure: Moderate]
 3. **Secure leg position variation**: This is where variations diverge significantly. Classic variation: insert your top leg (away from their head) across their hip/thigh while keeping your bottom hook in place. High variation: bring your top leg higher across their shoulder/neck area to create additional downward pressure. Low variation: keep both legs hooking their hips but prepare to extend. Truck variation: if they turn into you, transition to truck position with both legs controlling their lower body. The leg positioning determines which variation you're executing - choose based on their defensive posture and body position. (Timing: 2-4 seconds for position establishment) [Pressure: Light]
@@ -317,7 +315,7 @@ The Bow and Arrow Choke variations represent a family of highly effective finish
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is lapel grip depth more important than grip strength when establishing the bow and arrow choke?
 **A**: Grip depth determines whether your hand is positioned over the carotid artery on the far side of the opponent's neck, which is the actual target for blood choke mechanics. A strong grip on a shallow collar position will never create a functional blood choke regardless of how tightly you squeeze, while a deep grip with moderate pressure positioned correctly over the carotid arteries will create effective circulation restriction. The depth places the choking mechanism in the correct anatomical position - strength without position is ineffective.
 

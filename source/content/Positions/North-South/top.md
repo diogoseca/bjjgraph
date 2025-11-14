@@ -8,7 +8,7 @@ description: "Master North-South top position in BJJ. Complete guide to establis
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master North-South top position in BJJ. Complete guide to establis
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 65%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 3 (Guard pass)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low
-- **Energy Cost**: Low
-- **Time Sustainability**: Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is North-South from the Top?
 
 North-South top is one of Brazilian Jiu-Jitsu's most dominant pinning positions, characterized by perpendicular chest-to-chest alignment where you distribute your entire body weight across your opponent's upper body while your heads point in opposite directions. This position offers exceptional control with relatively low energy expenditure once properly established, making it ideal for recovering stamina while maintaining offensive pressure.
 
@@ -489,17 +468,17 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 North-South top represents an exceptional control position built on fundamental principles of weight distribution and structural pressure. The position's effectiveness stems from perpendicular body alignment that allows you to distribute your entire body mass across the opponent's chest and shoulders, creating pressure that restricts both movement and breathing. The key to mastery lies in understanding the relationship between chest pressure, arm control, and base positioning. Your chest must create continuous downward pressure - this is non-negotiable. Your hands work to control arms and set up submissions, but never at the expense of chest pressure. Base positioning prevents bridge and roll escapes through wide, low hip positioning similar to sprawl mechanics. The submission game from North-South centers on the namesake choke and kimura variations, both of which exploit the perpendicular alignment. However, the position's greatest value may be as a transitional checkpoint during passing sequences - it allows you to consolidate control while deciding whether to advance to mount or maintain the pin. Understanding when to stay in North-South versus when to transition requires reading your opponent's defensive structure and energy level.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 North-South is one of my favorite positions in competition because it lets me recover my breathing while still maintaining dominant control. After a hard passing sequence, I'll often settle into North-South and just crush the guy while I catch my breath. The pressure is what matters most - if you're doing it right, the bottom guy should feel like they can't breathe and every second is miserable for them. I focus on getting my chest heavy on their chest, not their stomach, and I keep my hips low so they can't bridge me. For submissions, the North-South choke is money if you drill it enough, but honestly I use this position more for transitions. When they start to panic and try to escape, that's when I take mount or if they turn away, I take the back. The timing is everything - you wait for them to make their move, then you capitalize. In ADCC-style matches where there's less stalling calls, you can really make people suffer here and drain their gas tank before moving to the finish. Just don't get lazy and sit up high or they'll escape. Stay heavy, stay patient, and wait for your opportunity.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 North-South is solid for control, but I like to think of it as more of a transitional position than a place to hang out. In 10th Planet we're always flowing and moving, so when I hit North-South, I'm already thinking about where I'm going next - usually mount or sometimes I'll switch back to side control if I feel them creating frames. The North-South choke is legit if you drill it a lot, but it's not as high percentage as people think unless you really commit to it. What I like about the position is that you can really crush people and make them uncomfortable, which is huge in no-gi where everything is more slippery. The key is keeping your chest heavy and not letting them get their frames in - once they establish frames, you're fighting an uphill battle. I also teach my guys to watch for the lockdown if they're not careful with their leg positioning, which sounds weird from North-South but trust me, creative guard players will find ways to cause problems. The other thing is don't be predictable - if everyone expects you to go for the North-South choke every time, mix it up with kimuras or just transition to mount to keep them guessing. The mental game of making them uncomfortable while you're comfortable is what really breaks people down.
 

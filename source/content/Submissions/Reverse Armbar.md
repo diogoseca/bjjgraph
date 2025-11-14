@@ -147,14 +147,12 @@ description: "Master the Reverse Armbar in BJJ. Complete guide with safety proto
 
 
 
-> Reverse Armbar is a arm lock targeting the Elbow joint (hyperextension with reverse rotation). ⚠️ **SAFETY**: This technique can cause Elbow hyperextension with lateral stress. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Reverse Armbar targets the Elbow joint (hyperextension with reverse rotation). Risk: Elbow hyperextension with lateral stress. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Reverse Armbar?
 
 The Reverse Armbar is an advanced elbow hyperextension technique distinguished by its inverted body positioning relative to the standard armbar. Unlike the traditional armbar where you face toward your opponent's head, the reverse armbar requires you to rotate your body 180 degrees so your hips face toward their feet while maintaining control of their arm. This submission is particularly effective in scramble situations, failed standard armbar attempts, or when opponents defend the conventional armbar by turning their thumb down. The reverse mechanics create unexpected leverage angles that catch even experienced practitioners off-guard, as defensive instincts trained for standard armbars often fail against this variation. The technique demands precise hip positioning, tight arm isolation, and careful rotational control to prevent escape while maintaining submission pressure. Success hinges on understanding how the reversed body angle changes the leverage dynamics—your legs must control their shoulder and head differently, and your hip placement becomes critical for generating breaking force without losing control.
 
@@ -237,7 +235,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Standard Armbar Control**: From mount or guard, secure traditional armbar position with both hands gripping opponent's wrist and forearm. Ensure their arm is fully extended with thumb pointing upward. Your legs should control their head and far shoulder, with your near leg across their chest or face. This standard position serves as the foundation for the reversal. (Timing: 2-3 seconds to secure) [Pressure: Moderate]
 2. **Pin Arm to Your Chest**: Pull opponent's arm tightly across your chest, pinning their tricep against your sternum with both hands maintaining wrist control. This pin is critical—any space between their arm and your body will allow escape during rotation. Your elbows should be tight to your sides, creating an unbreakable connection. Keep their elbow slightly bent to prevent them from pulling out. (Timing: 1-2 seconds) [Pressure: Firm]
 3. **Initiate Hip Rotation**: Begin rotating your entire body 180 degrees toward opponent's feet while maintaining the arm pin to your chest. This rotation must be smooth and controlled—jerky movement will lose arm control. Your head should track toward their feet as your hips rotate over their arm. Keep your knees tight together during this phase to prevent their arm from slipping between your legs. The rotation happens around the axis of their trapped arm. (Timing: 2-3 seconds controlled rotation) [Pressure: Moderate]
@@ -301,7 +299,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the most critical safety consideration when applying extension pressure in the reverse armbar? **[SAFETY-CRITICAL]**
 **A**: Never apply extension pressure while still rotating or before completely securing the reversed position. The extension must be slow and progressive (3-5 seconds minimum) and only applied after the 180-degree rotation is complete and legs are repositioned. Applying pressure during rotation creates unpredictable angles that can cause serious ligament damage to the elbow.
 

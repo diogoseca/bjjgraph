@@ -153,14 +153,10 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 
 
 
-> Triangle Setup transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle Setup?
 
 The Triangle Setup is a fundamental attacking sequence from closed guard that establishes the control position necessary for finishing the triangle choke. This technique exploits the opponent's defensive posture and arm positioning to create the angle and leg configuration required for effective triangle control. The setup phase is arguably more critical than the finish itself, as poor initial positioning makes the submission nearly impossible to complete regardless of technical knowledge. The triangle setup demonstrates the principle of using the opponent's defensive structure against them—their posting arm becomes the trapped limb, and their attempt to maintain base provides the opening for angle creation. This technique serves as a gateway to multiple attacking options including the triangle choke itself, omoplata transitions, armbar variations, and back take opportunities. Mastering the setup phase dramatically increases submission success rates across all skill levels and forms the foundation of a dangerous guard game.
 
@@ -200,7 +196,7 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Break posture**: Pull opponent's head down using collar grip while simultaneously pulling with closed guard legs. Drive their head below shoulder line and maintain constant forward pressure. Use sleeve grip to prevent posting and maintain broken posture throughout setup sequence. (Timing: Continuous pressure until opponent commits weight forward)
 2. **Isolate target arm**: Using sleeve grip, pull opponent's arm across your centerline while maintaining head control. The target arm should cross past the midpoint of your chest. Simultaneously push opponent's opposite shoulder away to create separation and prevent their base recovery on that side. (Timing: As opponent attempts to regain posture or post)
 3. **Create angle**: Open guard momentarily and hip escape toward the trapped arm side, creating approximately 45-degree angle. Your shoulders should rotate off the mat while keeping opponent's posture broken. This angle is critical—insufficient angle makes leg throw impossible while excessive angle allows escape. (Timing: Immediately after arm isolation, before opponent recognizes threat)
@@ -297,7 +293,7 @@ Start from closed guard position during positional rounds with both players comp
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you break your opponent's posture before attempting the triangle setup?
 **A**: Breaking posture commits the opponent's weight forward, prevents them from maintaining defensive base, and creates the necessary conditions for arm isolation and angle creation. Without broken posture, the opponent can easily defend by staying upright, making it impossible to throw your leg over their shoulder and allowing them to counter with guard passing.
 

@@ -153,14 +153,10 @@ description: "Master the Turtle to Standing transition in BJJ. Learn systematic 
 
 
 
-> Turtle to Standing transitions from [[Turtle]] to [[Standing Position]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Turtle to Standing?
 
 The Turtle to Standing transition is a fundamental defensive escape that allows a practitioner to safely exit the vulnerable turtle position and return to a standing position. This transition is essential for both gi and no-gi grappling, as it enables you to reset the engagement and prevent your opponent from securing dominant positions like back control or a submission. The technique relies on proper base maintenance, explosive hip movement, and strategic hand placement to create space while protecting against common attacks like chokes and back takes. Understanding this transition is critical for developing a complete defensive game, as turtle position is often a transitional state that occurs during scrambles, failed takedowns, or guard passing sequences. The ability to stand up from turtle not only prevents your opponent from scoring points but also creates opportunities to re-engage on your terms, potentially pulling guard or initiating your own takedown attack. This movement pattern is particularly valuable in competition settings where stalling penalties make it essential to show active defense and position improvement.
 
@@ -199,7 +195,7 @@ The Turtle to Standing transition is a fundamental defensive escape that allows 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure defensive turtle posture**: Begin in strong turtle position with hands and knees creating four points of contact. Keep your chin tucked tightly to your chest, elbows pinched to your ribs, and spine rounded to minimize available space for opponent's attacks. Your knees should be hip-width apart with weight distributed evenly. (Timing: Establish before opponent secures dominant control)
 2. **Choose direction and post lead hand**: Determine which direction offers the safest exit based on opponent's positioning and weight distribution. Post your lead hand firmly on the mat at approximately 45 degrees from your body, creating a strong posting base. The non-posting hand maintains neck protection by staying tight to your body. (Timing: When opponent's weight shifts or attacks are momentarily absent)
 3. **Drive lead leg forward**: Explosively drive your same-side leg forward into a deep lunge position, placing your foot flat on the mat with knee bent at approximately 90 degrees. This leg becomes your primary driver for the upward movement. Your posted hand provides stability and prevents you from being driven back down. (Timing: Immediately after posting hand, creating one fluid motion)
@@ -300,7 +296,7 @@ Incorporate turtle to standing transition as automatic response during open spar
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to keep your chin tucked throughout the turtle to standing transition?
 **A**: Keeping your chin tucked protects your neck from guillotine chokes and front headlock attacks, which are the most common submissions attempted as you rise from turtle. An exposed neck allows your opponent to easily secure a choking position with their arm under your chin, potentially forcing a submission even as you successfully stand. The tucked chin also helps maintain spinal alignment and creates a more rounded defensive posture that minimizes attack opportunities.
 

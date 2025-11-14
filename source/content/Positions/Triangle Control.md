@@ -8,7 +8,7 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle Control?
 
 Triangle Control represents one of the most powerful submission positions in Brazilian Jiu-Jitsu, where the practitioner has locked their legs around the opponent's neck and one arm, creating an imminent choking threat while simultaneously establishing a control platform for multiple submission chains. This position exemplifies the fundamental principle of using the body's strongest muscles—the legs and hips—against the opponent's most vulnerable structure—the neck. The triangle configuration creates a mechanical advantage where the practitioner compresses the carotid arteries while trapping one of the opponent's arms across their own neck, amplifying the choking pressure through their own trapped limb.
 
@@ -46,15 +44,15 @@ The biomechanics of triangle control favor the attacking practitioner significan
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 
 
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[Triangle Control]] | Medium | High | Medium | High | High-reward submission trading stability |
 | [[Rear Triangle]] | High | Low | High | Medium | Triangle legs free hands for attacks |
 
@@ -68,10 +66,6 @@ The biomechanics of triangle control favor the attacking practitioner significan
 ## Playing as Bottom
 
 [[Triangle Control/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -153,10 +147,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Triangle Control/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -227,22 +217,6 @@ Adapt to their defense.
 - ❌ **Giving up on the escape too early and tapping before exhausting all defensive options**
   - Consequence: Misses learning opportunities, reinforces defeatist mindset, and prevents development of tough defense necessary for high-level competition
   - ✅ Correction: Understand the difference between a training tap (preventing injury) and competitive survival—practice staying calm under pressure and working through complete escape sequences
-
-
-</section>
-
-
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-
-### [[Rear Triangle]]
-
-Triangle applied from back control position
-
-[Explore Rear Triangle →](./Rear Triangle)
-
 
 
 </section>

@@ -153,14 +153,10 @@ description: "Master the Long Step Pass to dominate open guard. Step-by-step exe
 
 
 
-> Long Step Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Long Step Pass?
 
 The Long Step Pass is a fundamental pressure passing technique used to control and pass open guard positions. This pass involves establishing grips on the opponent's pants or belt, using a long stepping motion to bypass the guard while maintaining heavy pressure and base. The technique is particularly effective against seated guards, butterfly guard, and De La Riva variations where the passer can control the distance and dictate the pace of engagement.
 
@@ -204,7 +200,7 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish Control Grips**: From standing or combat base position, establish strong grips on the opponent's pants at the knees or belt. In gi, you can also control the collar with one hand while controlling the near leg with the other. Your posture should be upright with hips pushed forward to create pressure and prevent the opponent from off-balancing you backward. Your weight distribution should favor your lead leg, allowing the back leg to step freely. (Timing: Initial setup phase - take time to establish dominant grips)
 2. **Create Passing Angle**: Begin to angle your body approximately 45 degrees to the side you intend to pass. Push the opponent's knees down and away while maintaining your upright posture. This creates the initial angle and begins to flatten the opponent's guard structure. Your head should stay over your hips to maintain balance and prevent being pulled forward into closed guard or triangles. (Timing: Continuous pressure - don't allow opponent to recover guard structure)
 3. **Execute Long Step**: Take a large step with your outside leg, placing your foot near the opponent's hip on the side you're passing. This is the defining characteristic of the Long Step Pass - the step should be deep enough to put your knee past the opponent's hip line. As you step, drive your weight forward and down, using your chest to create heavy pressure on the opponent's torso. Your hips should remain low and mobile. (Timing: Explosive step combined with weight commitment - full commitment to the pass)
@@ -306,7 +302,7 @@ Continue drilling the fundamental movement pattern regularly to maintain muscle 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of the long step in this passing technique?
 **A**: The long step serves to bypass the opponent's guard structure by placing your knee past their hip line, creating an angle that makes it extremely difficult for them to insert defensive frames or recover guard position. It commits your weight forward and establishes the passing angle that will be maintained throughout the technique.
 

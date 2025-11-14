@@ -147,14 +147,10 @@ description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper
 
 
 
-> Pendulum Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Pendulum Sweep?
 
 The Pendulum Sweep is a fundamental and highly effective attack from closed guard that exploits the opponent's defensive posture when they post their hand to the mat. Named for the pendulum-like leg motion that generates sweeping momentum, this technique is one of the first sweeps taught to beginners due to its mechanical efficiency and high success rate. The sweep works by creating a powerful lever system using your legs while controlling the opponent's upper body, making it extremely difficult to defend once properly initiated. Unlike many sweeps that require breaking the opponent's posture forward, the Pendulum Sweep actually works best when the opponent maintains upright posture or even leans back, making it an ideal complement to other closed guard attacks. The technique's effectiveness comes from the combination of hip movement, proper gripping, and the pendulum motion of the outside leg, which creates overwhelming rotational force that dumps the opponent directly into mount position. Mastering this sweep provides practitioners with a reliable path from defensive bottom position to dominant top position.
 
@@ -193,7 +189,7 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips**: Secure a firm grip on the opponent's same-side sleeve with your hand, controlling at the wrist or elbow. With your other hand, grip the opposite collar deep, or alternatively grip the opposite lapel. These grips will break the opponent's posting ability and provide leverage for the sweep. (Timing: Initial setup phase)
 2. **Open guard and create angle**: Uncross your ankles and open your closed guard. Immediately place your same-side foot on the opponent's hip (the side where you're gripping their sleeve) while keeping your other leg wrapped around their back. Begin shifting your hips out to the side, creating a 45-90 degree angle with your body perpendicular to the opponent's centerline. (Timing: 0.5-1 second transition)
 3. **Extend and chamber the pendulum leg**: Fully extend your outside leg (opposite side from sleeve grip) straight up toward the ceiling, keeping it close to the opponent's shoulder. This leg will become the pendulum. Simultaneously, use your foot on the hip to push and create more angle while pulling with your grips to off-balance the opponent to their posting side. (Timing: Synchronize with hip movement)
@@ -288,7 +284,7 @@ Incorporate Pendulum Sweep into regular positional sparring from closed guard. S
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the Pendulum Sweep effective?
 **A**: The primary mechanical principle is the creation of rotational force through the combination of the pendulum leg's arc motion, which generates momentum around the opponent's center of gravity, combined with simultaneous upper body control through grips. The straight leg acts as a lever arm, and when swung in an arc close to the opponent's body while pulling with the grips, it creates overwhelming rotational force that is extremely difficult to resist. The angle created by the hips is crucial because it positions your body perpendicular to the opponent, maximizing the leverage of this rotational force.
 

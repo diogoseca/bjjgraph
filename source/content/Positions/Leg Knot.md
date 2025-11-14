@@ -8,7 +8,7 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Leg Knot?
 
 Leg Knot Position represents an advanced leg entanglement configuration where practitioners' legs are woven together in a complex, knot-like structure that creates mutual control and submission opportunities. This position exists in the transitional space of leg entanglement warfare, where neither practitioner has achieved complete dominance but both are actively fighting for positional superiority and submission setups. The intricate leg crossing and weaving patterns create a dynamic battleground where technical precision, systematic understanding, and positional awareness determine outcomes.
 
@@ -50,7 +48,7 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium |
 
-**What Makes This Unique:** Geometric leg weaving creates entanglement control
+**Key Difference:** Geometric leg weaving creates entanglement control
 
 
 
@@ -76,10 +74,6 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ## Playing as Bottom
 
 [[Leg Knot/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -162,10 +156,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Leg Knot/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -241,7 +231,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

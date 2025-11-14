@@ -8,7 +8,7 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Cross Body Ride?
 
 Cross Body Ride is an advanced controlling position from turtle where the top practitioner establishes perpendicular chest-to-back contact with the opponent while securing a harness grip (seatbelt control). This position serves as a critical transitional state between turtle top and back control, offering exceptional control and multiple high-percentage paths to dominant positions and submissions. The cross body orientation provides mechanical advantage by directing pressure across the opponent's spine while preventing effective hip escapes.
 
@@ -50,7 +48,7 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**What Makes This Unique:** Perpendicular pressure isolates limbs
+**Key Difference:** Perpendicular pressure isolates limbs
 
 
 
@@ -76,10 +74,6 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 ## Playing as Bottom
 
 [[Cross Body Ride/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -158,10 +152,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Cross Body Ride/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -237,7 +227,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

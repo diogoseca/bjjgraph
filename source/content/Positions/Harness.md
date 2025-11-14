@@ -8,7 +8,7 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Harness?
 
 The Harness Position, also known as the Seat Belt or Seatbelt Control, is a fundamental back control configuration where the attacking practitioner secures one arm over the opponent's shoulder and the other under the opposite armpit, creating a powerful control mechanism that resembles a seat belt. This grip structure is the cornerstone of modern back attack systems and provides exceptional control while maintaining multiple offensive pathways to submissions, particularly the rear naked choke.
 
@@ -50,7 +48,7 @@ Strategically, the harness position serves as a transitional control point and a
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Strategically, the harness position serves as a transitional control point and a
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Long |
 
-**What Makes This Unique:** Seat belt grip prioritizes submission proximity
+**Key Difference:** Seat belt grip prioritizes submission proximity
 
 
 
@@ -76,10 +74,6 @@ Strategically, the harness position serves as a transitional control point and a
 ## Playing as Bottom
 
 [[Harness/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -157,10 +151,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Harness/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -241,7 +231,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

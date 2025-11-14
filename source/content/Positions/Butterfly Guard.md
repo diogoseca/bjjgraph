@@ -8,7 +8,7 @@ description: "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sw
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sw
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Butterfly Guard?
 
 Butterfly Guard is a dynamic open guard variation where the bottom player inserts hooks (feet) under the opponent's thighs while sitting up, creating powerful leverage for sweeps and upper body control. This position allows for explosive elevation of the opponent and offers exceptional offensive options while maintaining defensive capabilities. Butterfly Guard serves as both a powerful position in its own right and as a connector between various guard configurations.
 
@@ -50,15 +48,15 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 
 
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[Butterfly Guard]] | Medium | Medium | Medium | Medium | Explosive elevation over defensive stability |
 | [[Butterfly Hook Control]] | Medium | Medium to High | Medium | Medium | Active elevation hooks create instability |
 | [[Half Butterfly]] | Medium | Medium | Medium | Medium | Butterfly hook adds elevation to half guard |
@@ -73,10 +71,6 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ## Playing as Bottom
 
 [[Butterfly Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -171,10 +165,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Butterfly Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -254,29 +244,6 @@ Adapt to their defense.
 - ❌ **Using purely strength and pressure against butterfly guard without technical passing strategy**
   - Consequence: Energy depletion while making minimal progress against properly maintained butterfly structure
   - ✅ Correction: Employ technical passing sequences that specifically address butterfly guard mechanics rather than generic pressure approaches
-
-
-</section>
-
-
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-
-### [[Butterfly Hook Control]]
-
-Standard butterfly guard with both hooks inserted and upright seated posture
-
-[Explore Butterfly Hook Control →](./Butterfly Hook Control)
-
-
-### [[Half Butterfly]]
-
-Asymmetric variation with one butterfly hook and one leg configuration
-
-[Explore Half Butterfly →](./Half Butterfly)
-
 
 
 </section>

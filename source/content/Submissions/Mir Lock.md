@@ -153,14 +153,12 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 
 
 
-> Mir Lock is a shoulder lock targeting the Shoulder joint (glenohumeral joint). ⚠️ **SAFETY**: This technique can cause Shoulder dislocation (anterior or posterior). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Mir Lock targets the Shoulder joint (glenohumeral joint). Risk: Shoulder dislocation (anterior or posterior). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Mir Lock?
 
 The Mir Lock is a powerful shoulder lock submission that targets the glenohumeral joint through hyperextension and rotation. Named after UFC Hall of Famer Frank Mir, who famously used this technique to break Tim Sylvia's arm at UFC 48, this submission represents a devastating variation of the traditional Americana position. The mechanics involve isolating the opponent's arm while applying rotational pressure that combines external rotation with backward leverage against the shoulder's natural range of motion. Unlike the standard Americana which emphasizes figure-four control and lateral rotation, the Mir Lock utilizes a straight-arm position with the attacker's body weight driving the shoulder into dangerous hyperextension. This submission is most commonly applied from top control positions like side control, north-south, or modified mount, where the attacker has superior positioning and can effectively isolate one of the opponent's arms. The technique requires precise understanding of shoulder anatomy and careful application due to its potential for catastrophic injury. The Mir Lock exemplifies the principle that submissions should control the position first, establish the grip structure second, and only then apply finishing pressure with proper safety awareness.
 
@@ -247,7 +245,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish dominant side control position**: Secure tight side control with your chest driving into the opponent's chest, crossface applied to control their head, and your hips low to prevent them from inserting frames or shrimping away. Your weight should be distributed approximately 70% toward their head to maximize control and minimize escape options. (Timing: Take 3-5 seconds to establish solid base) [Pressure: Firm]
 2. **Isolate and capture the near-side arm**: As the opponent frames or attempts to create space with their near arm, swim your hand underneath their tricep and capture their wrist with your opposite hand. Simultaneously drive your weight forward to flatten their arm against the mat at approximately a 90-degree angle from their body. This isolation is critical - without it, the submission will fail. (Timing: 2-3 seconds to secure wrist control) [Pressure: Moderate]
 3. **Establish figure-four grip structure**: While maintaining wrist control with one hand, reach your other hand under the opponent's arm and grab your own wrist to create a figure-four configuration. Your forearm should be positioned perpendicular to the opponent's arm with your elbow pointing toward their head. This grip structure provides the mechanical advantage necessary for the submission. (Timing: 2-3 seconds to lock grip) [Pressure: Moderate]
@@ -316,7 +314,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the minimum application speed and pressure progression requirements for the Mir Lock in training environments? **[SAFETY-CRITICAL]**
 **A**: The Mir Lock must be applied over a minimum of 5-7 seconds with progressive pressure in training environments. The pressure should start light and gradually increase while constantly monitoring for tap signals. This slow application allows the training partner to recognize the submission and tap before any structural damage occurs to the shoulder joint. Competition application may be faster, but training must always prioritize safety over speed.
 

@@ -153,14 +153,12 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 
 
 
-> Bicep Slicer is a bicep compression lock targeting the Bicep muscle and elbow joint. ⚠️ **SAFETY**: This technique can cause Bicep muscle tear or severe contusion. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Bicep Slicer targets the Bicep muscle and elbow joint. Risk: Bicep muscle tear or severe contusion. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Bicep Slicer?
 
 The Bicep Slicer is a devastating compression lock that applies crushing pressure to the bicep muscle and hyperextends the elbow joint. This advanced submission works by trapping the opponent's arm between your shin and forearm, creating a lever that compresses the bicep against the humerus bone while simultaneously hyperextending the elbow. Most commonly applied from the crucifix, truck, or modified mount positions, the bicep slicer is a technical submission that requires precise positioning and control. The compression creates intense pain in the bicep muscle belly, while the hyperextension threatens the elbow joint, creating a two-fold attack that is difficult to defend. This submission is particularly effective in no-gi grappling where the opponent cannot use gi grips to defend, and it serves as an excellent backup when traditional chokes or arm locks are unavailable. The bicep slicer's effectiveness comes from its ability to attack an area that most grapplers do not regularly condition or defend, making it a high-percentage finish when the proper positioning is achieved. Understanding the mechanical advantage required and the precise angles needed separates successful application from ineffective attempts.
 
@@ -244,7 +242,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure dominant control position**: From the crucifix, truck, or modified mount, establish complete control over the opponent's body. Ensure they cannot easily escape or counter your attack. Your weight should be distributed to prevent them from rolling or bridging effectively. (Timing: 2-3 seconds to establish solid control) [Pressure: Moderate]
 2. **Isolate the target arm**: Identify the arm you will attack (typically the one closest to your legs or most exposed). Use your hands to control the opponent's wrist, pulling it away from their body and preventing them from tucking it defensively. The arm should be extended at approximately 90 degrees or slightly more. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Insert shin behind elbow**: Slide your shin behind the opponent's elbow joint, positioning it perpendicular to their forearm. Your shin bone should be directly against the back of their elbow, with your knee on one side of their arm and your ankle/foot on the other. This creates the fulcrum for the compression. (Timing: 2-3 seconds with careful positioning) [Pressure: Light]
@@ -313,7 +311,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary safety concern when applying the bicep slicer, and what application speed should be used in training? **[SAFETY-CRITICAL]**
 **A**: The primary safety concerns are bicep muscle tears and elbow hyperextension injuries. In training, the bicep slicer must be applied EXTREMELY SLOWLY over a minimum of 5-7 seconds with constant communication. The submission attacks both the bicep muscle (compression) and elbow joint (hyperextension), making it capable of causing severe injury if applied suddenly or explosively. Training partners must be experienced enough to recognize the submission early and tap immediately.
 

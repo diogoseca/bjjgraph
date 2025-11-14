@@ -153,14 +153,12 @@ description: "Master the Twister submission in BJJ. Complete guide with safety p
 
 
 
-> Twister is a spinal lock targeting the Cervical and thoracic spine, shoulder girdle. ⚠️ **SAFETY**: This technique can cause Cervical spine damage (neck injury). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Twister targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage (neck injury). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Twister?
 
 The Twister is an advanced spinal lock submission popularized by Eddie Bravo and the 10th Planet Jiu-Jitsu system. This technique creates a corkscrew-like torque on the opponent's spine by controlling their lower body with a lockdown or body triangle while simultaneously controlling their upper body in the opposite direction. The Twister is primarily entered from the Truck position, where you have your opponent's back while they are belly-down, with their legs controlled in a specific entanglement. The submission applies pressure to the entire spinal column, creating a twisting motion that forces the tap. Due to the complex mechanics and significant injury potential, the Twister is considered an advanced technique requiring extensive training under qualified instruction. In competition, it is illegal in many rulesets including IBJJF gi divisions, though it is legal in most no-gi competitions at brown and black belt levels. The Twister represents the culmination of Eddie Bravo's systematic approach to back attacks and is the signature submission of the 10th Planet system.
 
@@ -245,7 +243,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure Truck Position Foundation**: From back control or turtle position, transition to the Truck by controlling opponent's legs while they are belly-down. Establish a lockdown on their near leg by threading your inside leg through and hooking your feet together. Your opponent should be on their stomach with you perpendicular to their body, controlling their lower half completely. (Timing: 3-5 seconds to establish solid base) [Pressure: Moderate]
 2. **Isolate the Far Arm**: Reach across opponent's back and control their far arm at the wrist or triceps. Pull this arm across their back and maintain control. This prevents them from posting or creating defensive frames. Your opponent should now be belly-down with one arm trapped behind them and their legs locked in your control. (Timing: 2-3 seconds) [Pressure: Moderate]
 3. **Establish Head Control**: With your free hand, reach over opponent's far shoulder and cup under their chin or jaw (gable grip with your hands is ideal). Do not pull yet - simply establish the grip. Your body should be positioned perpendicular to their spine, with your chest near their ribs. (Timing: 2-3 seconds to secure grip) [Pressure: Light]
@@ -314,7 +312,7 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the MINIMUM application time for the Twister in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 5-7 seconds of extremely slow, progressive pressure. This is critical because the Twister attacks the spine, which has no 'give' like joints do. Spinal injuries can be catastrophic and permanent. Slow application gives your partner time to recognize the danger, feel the pressure building, and tap before injury occurs. Fast or explosive application can cause serious injury before the partner can respond.
 

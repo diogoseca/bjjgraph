@@ -147,14 +147,10 @@ description: "Master the Side Control to Mount transition in BJJ. Step-by-step e
 
 
 
-> Side Control to Mount transitions from [[Side Control]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Side Control to Mount?
 
 The Side Control to Mount transition is a fundamental positional advancement that represents a critical step up the positional hierarchy in Brazilian Jiu-Jitsu. This transition moves from a strong control position (side control) to the most dominant position in grappling (mount), significantly increasing offensive opportunities while further limiting the opponent's defensive options. The transition requires precise weight distribution, careful management of the opponent's defensive frames, and strategic timing to prevent the opponent from recovering half guard or escaping. Success depends on systematically removing each defensive barrier—the near-side arm, the knee shield, and the hip frame—while maintaining constant pressure and control. The technique exemplifies the principle of 'mount by increments,' where each micro-adjustment builds upon the previous one, creating a seamless flow from side control to full mount. Understanding this transition is essential for developing a coherent top game, as it connects one of the most common control positions to the most advantageous attacking position in BJJ.
 
@@ -194,7 +190,7 @@ The Side Control to Mount transition is a fundamental positional advancement tha
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Isolate near-side arm**: From side control, use your chest pressure and cross-face to pin the opponent's near-side arm to their body. Your weight should be distributed primarily through your chest and shoulder, making it difficult for them to create frames. Control their near wrist with your hand or trap their arm between your body and theirs. (Timing: Maintain pressure for 2-3 seconds to ensure arm is fully controlled)
 2. **Secure far-side control**: Reach your free hand (usually the one not controlling the head) under the opponent's far-side armpit or around their back, establishing a deep grip on their far shoulder or lat. This grip prevents them from bridging effectively and gives you a steering wheel for the transition. Your cross-face should maintain head control throughout. (Timing: Establish grip before shifting weight)
 3. **Create space with knee slide**: Begin sliding your near-side knee (the one closest to opponent's legs) across their belly toward their far hip. Keep your knee tight to their body to prevent them from inserting a knee shield. Your shin should act as a wedge, gradually creating space while maintaining downward pressure. Your weight shifts slightly toward your hands to allow the knee movement. (Timing: Slow, controlled movement over 1-2 seconds)
@@ -286,7 +282,7 @@ Implement the transition during free rolling, focusing on recognizing optimal ti
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must the near-side arm be isolated before attempting the side control to mount transition?
 **A**: The near-side arm is the opponent's primary defensive tool for creating frames against your chest and preventing you from advancing position. If this arm is free, the opponent can easily post on your hip or chest, creating space to prevent the mount or even escape side control entirely. By isolating this arm (pinning it to their body, trapping it, or controlling the wrist), you eliminate their most effective defensive barrier and make the transition significantly more successful. This exemplifies the principle of systematic progression—removing defensive obstacles before advancing position.
 

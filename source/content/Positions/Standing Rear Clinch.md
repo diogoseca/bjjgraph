@@ -8,7 +8,7 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -175,29 +175,10 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 
 
 
-> **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
->
-> **Quick Stats**: Advanced practitioners advance to better positions 78% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (Neutral)
-- **Position Type**: Neutral
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Standing Rear Clinch?
 
 Standing Rear Clinch is a dominant control position where you establish chest-to-back connection with a standing opponent, typically securing body lock, seatbelt, or collar tie configurations. This position bridges wrestling and Brazilian Jiu-Jitsu, serving as a critical transition point for securing takedowns, back takes, or forcing opponents into inferior ground positions. The standing variant offers unique tactical advantages over ground-based back control, allowing the top player to dictate when and how the engagement transitions to the mat while maintaining dominant positional control.
 
@@ -491,17 +472,17 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Approach
+### John Danaher
 
 The standing rear clinch represents a critical junction in the systematic progression from neutral standing position to dominant ground control. The biomechanical principle underlying this position is the elimination of the opponent's ability to use their legs effectively for base and power generation while you maintain full use of yours. Your chest-to-back connection creates a mechanical disadvantage for the opponent where any attempt at movement requires them to carry your weight in addition to their own. The key technical element most practitioners miss is the hip angle—by positioning your hips approximately 45 degrees to one side rather than directly behind, you create a geometry that prevents the opponent from sitting straight back while simultaneously providing you with leverage for takedown mechanics. This position should be viewed as a temporary control position with the explicit goal of transitioning to back control on the ground. The grip hierarchy is crucial: begin with body structure and hip positioning, then establish grips rather than gripping first and hoping to achieve position second. Understanding that every second in this position should be directed toward systematic advancement rather than static holding separates effective practitioners from those who merely achieve the position without capitalizing on its advantages.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, the standing rear clinch is one of the highest percentage positions for forcing action and scoring points when opponents are stalling or attempting to disengage. I use this position constantly against guard pullers who try to sit immediately—by maintaining the rear clinch as they sit, I can transition directly to bodylock passing sequences that bypass their guard entirely. The competition reality is that referees reward aggressive back exposure and takedown attempts, so establishing this position puts immediate pressure on your opponent to respond defensively. The key for competitive success is not to think of this as a static control position but as a dynamic transition zone where you're constantly threatening multiple attacks. I'm always looking for the back step as my primary option, but I'm equally prepared to follow them down with a bodylock pass or execute a mat return if they try to turtle. The mistake most competitors make is holding this position looking for the perfect moment—in reality, you need to attack within three to five seconds or the referee will break you. My approach is to establish the position, immediately threaten the rear naked choke to create a defensive reaction, then use that reaction to complete my takedown or back take. Against high-level opponents, the standing rear clinch often appears briefly in scrambles, so you must be able to recognize it and capitalize immediately rather than waiting for perfect circumstances that rarely materialize in competition.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The standing rear clinch is a perfect example of how wrestling and jiu-jitsu blend together in modern grappling, especially in no-gi contexts where this position appears constantly. From a 10th Planet perspective, we view this position as an opportunity to enter our unique control systems rather than just going for standard wrestling takedowns. When I have someone in standing rear clinch, I'm thinking about how I can transition to the truck position or create angles for unconventional attacks rather than just doing a basic mat return. One variation we use extensively is the matrix entry where you use the standing rear clinch to set up a rolling back take that puts you directly into the truck. The creativity in this position comes from recognizing that you have tremendous control over the opponent's upper body while their legs are still mobile—this creates opportunities for unorthodox movements that traditional wrestling doesn't explore. We also emphasize using this position to set up submission attempts even while standing, particularly the rear naked choke applied from a lower angle where you're almost squatting behind them. This forces them to make difficult decisions about whether to defend the choke or defend the takedown, creating the dilemmas that are central to our system. The key innovation is not viewing this as purely a takedown position but as a genuine control position where you can attack in multiple ways simultaneously, keeping the opponent constantly reacting to threats rather than executing their own game plan.
 

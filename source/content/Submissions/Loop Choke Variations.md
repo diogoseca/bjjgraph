@@ -147,14 +147,12 @@ description: "Master Loop Choke Variations in BJJ. Complete guide covering setup
 
 
 
-> Loop Choke Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Tracheal compression and potential damage. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Loop Choke Variations targets the Carotid arteries and trachea. Risk: Tracheal compression and potential damage. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Loop Choke Variations?
 
 The Loop Choke represents a sophisticated family of collar-based blood chokes that exploit the opponent's defensive reactions and posture. Unlike traditional cross collar chokes, loop choke variations utilize a looping motion of the collar around the opponent's neck, creating compression on the carotid arteries from unexpected angles. These techniques are particularly effective when opponents defend against standard collar attacks by tucking their chin or turning away, as the looping action bypasses typical defensive frames. The versatility of loop choke variations makes them applicable from multiple positions including closed guard, half guard, turtle, and even from top positions. Understanding the fundamental mechanics of collar manipulation, angle creation, and body positioning is essential for executing these techniques effectively while maintaining safety and control throughout the sequence.
 
@@ -239,7 +237,7 @@ The Loop Choke represents a sophisticated family of collar-based blood chokes th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Primary Collar Grip**: Insert your hand deep into opponent's collar on the same side, palm facing you, with fingers inside and thumb outside. The deeper the grip, the tighter the final choke. Aim to have your wrist past their neck centerline. This foundational grip determines the success of all subsequent steps. (Timing: During opponent's forward pressure or posture break) [Pressure: Firm]
 2. **Secure Secondary Control**: Establish control with your opposite hand - either grabbing their same-side sleeve, securing a second collar grip, or controlling their opposite shoulder. This prevents them from pulling away and provides leverage for angle creation. The secondary control varies by specific loop choke variation being executed. (Timing: Immediately after primary grip establishment) [Pressure: Moderate]
 3. **Create Angle Through Hip Movement**: Shift your hips away from your choking hand side while pulling opponent's upper body toward your hip. This angular displacement is critical - it transforms a straight pull into a looping diagonal force that wraps the collar around their neck. The angle should be approximately 45 degrees from centerline. (Timing: As opponent resists or maintains posture) [Pressure: Moderate]
@@ -306,7 +304,7 @@ The Loop Choke represents a sophisticated family of collar-based blood chokes th
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply full pressure when finishing a loop choke in training? **[SAFETY-CRITICAL]**
 **A**: You should apply pressure progressively over a minimum of 3-5 seconds in training. This allows your training partner sufficient time to recognize the submission and tap safely. Competition applications may be faster, but training prioritizes safety and learning. Rushing the finish risks injury and prevents proper technical development.
 

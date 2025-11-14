@@ -8,7 +8,7 @@ description: "Master underhook control in BJJ. Strategic guide covering bottom d
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master underhook control in BJJ. Strategic guide covering bottom d
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Underhook Control?
 
 Underhook control represents one of the most fundamental positional battles in Brazilian Jiu-Jitsu, occurring across multiple positions including half guard, side control transitions, and scramble situations. This inside control position creates a critical strategic fork where the practitioner who secures and maintains the underhook gains significant mechanical advantage in directing the pace and outcome of exchanges.
 
@@ -56,7 +54,7 @@ Modern Brazilian Jiu-Jitsu has elevated underhook control from a fundamental con
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -70,7 +68,7 @@ Modern Brazilian Jiu-Jitsu has elevated underhook control from a fundamental con
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 
-**What Makes This Unique:** Inside control trades defense for sweep access
+**Key Difference:** Inside control trades defense for sweep access
 
 
 
@@ -82,10 +80,6 @@ Modern Brazilian Jiu-Jitsu has elevated underhook control from a fundamental con
 ## Playing as Bottom
 
 [[Underhook Control/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -176,10 +170,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Underhook Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -264,7 +254,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

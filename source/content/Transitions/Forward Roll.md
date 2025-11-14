@@ -153,14 +153,10 @@ description: "Master the Forward Roll in BJJ. Essential escape and movement tech
 
 
 
-> Forward Roll transitions from [[Defensive Position]] to [[Seated Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Forward Roll?
 
 The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that serves both defensive and offensive purposes. This dynamic rolling motion allows practitioners to escape dangerous positions, create distance from opponents, and transition into advantageous guard positions. The forward roll is particularly effective when combined with proper timing and spatial awareness, enabling practitioners to turn defensive situations into offensive opportunities. Understanding the biomechanics of rolling forward while maintaining control of your center of gravity is essential for smooth execution. This technique becomes increasingly valuable as practitioners develop their guard game, as it provides a reliable method for recovering guard position after being passed or during scrambles. The forward roll also builds body awareness and coordination that translates to other advanced movements in BJJ.
 
@@ -199,7 +195,7 @@ The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish base position**: Begin from a seated or bottom position with your opponent applying forward pressure. Keep your knees bent and feet positioned to push off the mat. Your hands should be in front of you, ready to support your body weight as you initiate the roll. (Timing: As opponent commits weight forward)
 2. **Tuck chin to chest**: Bring your chin down firmly to your chest, creating a rounded cervical spine. This critical safety step protects your neck and creates the proper curved surface for rolling. Your gaze should be directed at your belt or knees throughout the movement. (Timing: Immediately before initiating roll)
 3. **Position hands for support**: Place both hands on the mat shoulder-width apart in front of you, fingers pointing forward. Your hands will guide the roll and support your body weight during the initial phase. Keep elbows slightly bent to absorb impact as you transition onto your shoulder. (Timing: Simultaneous with chin tuck)
@@ -295,7 +291,7 @@ Integrate forward roll seamlessly with entire guard game during free rolling and
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you tuck your chin to your chest before initiating a forward roll?
 **A**: Tucking the chin to the chest protects the neck from injury by preventing hyperextension and creates a rounded surface for smooth rolling. It ensures you roll across your shoulder blade and back rather than your head or neck, which could result in serious cervical spine injury. The chin tuck also helps maintain the proper curved spine position throughout the entire rolling motion.
 

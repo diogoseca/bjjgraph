@@ -153,14 +153,10 @@ description: "Master Lasso Guard variations in BJJ. Learn spider lasso, inverted
 
 
 
-> Lasso Guard Variations transitions from [[Lasso Guard]] to [[Lasso Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Lasso Guard Variations?
 
 The Lasso Guard system represents one of Brazilian Jiu-Jitsu's most versatile open guard frameworks, offering practitioners a wide array of tactical variations that blend control, sweeps, and submission attacks. At its core, the lasso guard uses a fundamental leg-threading mechanism where one leg wraps around the opponent's arm, creating a powerful control point that disrupts posture and limits mobility. This foundational position branches into multiple variations, each with distinct strategic applications and technical nuances. Understanding how to transition between lasso variations allows practitioners to maintain offensive initiative while adapting to different opponent reactions and body types. The system's effectiveness lies in its ability to create persistent off-balancing opportunities while maintaining a strong defensive structure. Advanced practitioners learn to chain lasso variations together, creating multi-layered attacking sequences that force opponents into defensive dilemmas where every escape attempt opens new offensive opportunities.
 
@@ -200,7 +196,7 @@ The Lasso Guard system represents one of Brazilian Jiu-Jitsu's most versatile op
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish base lasso guard configuration**: From open guard, thread your right leg behind opponent's left arm, bringing your shin across their back while gripping their left sleeve with your left hand. Your right foot hooks around their shoulder or upper arm, creating the fundamental lasso control point. Maintain tension by pulling their sleeve toward you while pushing your foot away, creating opposing forces that disrupt their posture. (Timing: Initial guard establishment)
 2. **Add spider lasso variation elements**: Place your left foot on opponent's right bicep or hip, extending the leg to create distance and prevent forward pressure. This spider-lasso hybrid configuration provides maximum control and off-balancing potential. Grip their right sleeve with your right hand, creating a two-sleeve control system. The combination of lasso hook and spider foot creates a powerful steering mechanism for directing opponent's movement. (Timing: When opponent maintains upright posture)
 3. **Transition to inverted lasso when needed**: When opponent attempts to clear the lasso by stepping back or standing tall, invert by rolling onto your shoulders while maintaining the lasso hook. Your free leg posts on the mat or wraps around opponent's leg for additional control. This inversion creates new sweeping angles and prevents opponent from establishing distance. Maintain constant tension on the lasso sleeve throughout the inversion process. (Timing: Response to opponent creating distance)
@@ -300,7 +296,7 @@ Continue testing lasso variations against diverse opponents and current passing 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the three primary lasso guard variations and when should each be employed tactically?
 **A**: The three primary variations are spider-lasso hybrid (used against upright posture for distance control and sweep setups), inverted lasso (employed when opponent creates distance or attempts to disengage), and Russian lasso (utilized for maximum control and submission entries after breaking posture). Each variation addresses specific opponent reactions and defensive strategies, requiring practitioners to recognize postural cues and weight distribution patterns to select optimal configuration.
 

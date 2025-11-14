@@ -8,7 +8,7 @@ description: "Master straight ankle lock control in BJJ. Complete strategic guid
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master straight ankle lock control in BJJ. Complete strategic guid
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Straight Ankle Lock Control?
 
 The straight ankle lock control position represents one of the most fundamental leg entanglement positions in Brazilian Jiu-Jitsu, serving as both an entry-level foot lock control and a tactical hub for transitioning to more advanced leg attack systems. This position is characterized by the attacker securing control of their opponent's ankle while establishing positional dominance that limits defensive options and creates submission opportunities.
 
@@ -58,7 +56,7 @@ The position also serves an important pedagogical function in teaching fundament
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -72,7 +70,7 @@ The position also serves an important pedagogical function in teaching fundament
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Short |
 
-**What Makes This Unique:** Static ankle control for submission leverage
+**Key Difference:** Static ankle control for submission leverage
 
 
 
@@ -84,10 +82,6 @@ The position also serves an important pedagogical function in teaching fundament
 ## Playing as Bottom
 
 [[Straight Ankle Lock Control/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -175,10 +169,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Straight Ankle Lock Control/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -251,7 +241,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

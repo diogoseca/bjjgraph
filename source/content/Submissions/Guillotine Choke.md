@@ -147,14 +147,12 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
 
 
 
-> Guillotine Choke is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Trachea damage or crush injury. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Guillotine Choke targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guillotine Choke?
 
 The Guillotine Choke is one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu, capable of being executed from standing positions, guard, or transitional scrambles. This blood choke targets the carotid arteries while also applying pressure to the trachea, making it a powerful finishing technique when applied correctly. The guillotine's effectiveness stems from its ability to capitalize on common defensive movements, particularly when opponents shoot for takedowns or attempt to pass guard with poor posture. The technique works by using your arm as a fulcrum around the opponent's neck while using hip pressure and body positioning to create the choking force. Its versatility allows for execution from numerous positions including standing, closed guard, half guard, and even during scrambles, making it an essential weapon for practitioners at all levels. The guillotine family includes multiple variations such as the high elbow guillotine, arm-in guillotine, and ten-finger guillotine, each with specific applications based on the situation and opponent's defensive reactions.
 
@@ -236,7 +234,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure head control**: Wrap your choking arm around opponent's neck with your forearm positioned across the front of their throat. Your shoulder should be tight against the side of their neck. Ensure opponent's head is pulled down below your centerline to prevent them from posturing up and escaping. (Timing: 0-1 seconds) [Pressure: Moderate]
 2. **Establish the grip**: Bring your non-choking hand to meet your choking hand. For the standard guillotine, grip your own wrist with your non-choking hand. For high elbow variation, connect palm-to-palm. Your choking arm elbow should be pointing upward at approximately 45 degrees to target the carotid arteries rather than crushing the windpipe. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Adjust body position**: If standing, step your hips forward and angle your body 45 degrees away from your choking arm side. If in guard, close your guard or use your legs to control opponent's hips. The key is to create an angle that allows you to use your entire body weight rather than just arm strength. (Timing: 2-3 seconds) [Pressure: Moderate]
@@ -308,7 +306,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply a guillotine choke in training? **[SAFETY-CRITICAL]**
 **A**: You should take a minimum of 3-5 seconds to apply progressive pressure when practicing guillotine chokes in training. Never snap or jerk the submission. This slow, controlled application allows your training partner adequate time to tap and prevents serious neck or trachea injuries. In competition the speed may be faster, but in training, safety must always be the priority.
 

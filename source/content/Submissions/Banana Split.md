@@ -147,14 +147,12 @@ description: "Master the Banana Split submission in BJJ. Complete guide covering
 
 
 
-> Banana Split is a groin stretch targeting the Hip adductors, groin, and lower back. ⚠️ **SAFETY**: This technique can cause Groin muscle tear or strain. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Banana Split targets the Hip adductors, groin, and lower back. Risk: Groin muscle tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Banana Split?
 
 The Banana Split is a unique compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Primarily executed from deep half guard or lockdown positions, this technique creates extreme discomfort by splitting the opponent's legs apart while controlling their upper body. The submission gained prominence through Eddie Bravo's 10th Planet system, where it serves as both a finishing technique and a powerful position to force reactions. Unlike traditional joint locks, the Banana Split relies on muscular compression and flexibility limitations, making it particularly effective against less flexible opponents. The technique requires precise control of the opponent's legs and hips while maintaining a stable base. Understanding the biomechanics of hip rotation and groin flexibility is essential for safe application. The Banana Split often works in combination with other attacks from half guard, creating multiple offensive threats that force defensive errors.
 
@@ -239,7 +237,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Deep Half Control**: From deep half guard, secure your lockdown on the near leg while maintaining your shoulder underneath opponent's hips. Your head should be on the far side, creating the foundation for the split. Ensure your lockdown is tight and opponent's weight is loaded onto your structure. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Isolate the Far Leg**: Reach across with your far hand to grab opponent's far ankle, knee, or lower thigh. Some variations involve using your own far leg to hook their far leg. The goal is to prevent them from posting or establishing a wide base. This isolation is critical for the splitting mechanics to function. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Create the Splitting Angle**: While maintaining lockdown control on the near leg, begin to pull the far leg toward you and away from their body. Simultaneously, use your lockdown to push the near leg in the opposite direction. Your body position should create a wedge that forces their legs apart. Maintain shoulder pressure under their hips to prevent them from rolling forward. (Timing: 3-4 seconds) [Pressure: Moderate]
@@ -303,7 +301,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take when applying finishing pressure in the banana split during training? **[SAFETY-CRITICAL]**
 **A**: A minimum of 5-7 seconds with slow, progressive pressure application. The banana split targets muscle groups that can tear rapidly if pressure is applied too quickly. Unlike joint locks where you feel structural limits, compression submissions like the banana split create intense muscular pain that requires gradual application to allow safe tapping. Never spike or jerk the pressure.
 

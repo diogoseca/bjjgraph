@@ -147,14 +147,10 @@ description: "Master Spider Guard variations in BJJ. Learn sleeve control mechan
 
 
 
-> Spider Guard Variations transitions from [[Spider Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Spider Guard Variations?
 
 Spider Guard variations represent a comprehensive system of distance management and sleeve control techniques that transform basic spider guard into a dynamic attacking platform. These variations exploit different grips, foot positions, and angles to create sweeping opportunities while maintaining optimal defensive distance. The fundamental principle underlying all spider guard variations is the use of your feet on the opponent's biceps or hips to control distance while your hands control their sleeves, creating a mechanical advantage that prevents them from establishing passing pressure. Understanding when to transition between variations based on your opponent's base, posture, and passing strategy is essential for developing a complete spider guard game that can adapt to different body types and grappling styles.
 
@@ -193,7 +189,7 @@ Spider Guard variations represent a comprehensive system of distance management 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish sleeve control**: From open guard, secure deep four-finger grips on both of your opponent's sleeves at the wrists. Pull their hands toward your hips to straighten their arms and prevent them from getting heavy grips on your legs or collar. (Timing: As opponent opens your closed guard or as you open to transition)
 2. **Place feet on biceps**: Lift your hips off the mat and place the balls of both feet on your opponent's biceps, creating a pushing frame. Keep your knees slightly bent to maintain spring-loaded pressure that prevents them from driving forward into your guard. (Timing: Immediately after securing sleeve grips)
 3. **Create distance and posture**: Extend your legs to push your opponent's arms away while maintaining strong sleeve grips. This creates maximum distance and forces them into an extended posture where their base is compromised. Your arms should be pulling while your legs push, creating opposing forces. (Timing: Once both feet are established on biceps)
@@ -291,7 +287,7 @@ Free rolling with emphasis on entering spider guard from different scenarios, ma
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the fundamental push-pull relationship that makes spider guard control effective?
 **A**: Your hands pull the opponent's sleeves toward your hips while your feet push their biceps away from your body. This creates opposing forces that straighten their arms, compromise their base, and prevent them from establishing forward pressure or heavy grips on your legs. The tension between pushing and pulling is what maintains distance and creates the mechanical advantage for sweeps and submissions.
 

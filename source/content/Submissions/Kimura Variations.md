@@ -147,14 +147,12 @@ description: "Master Kimura variations in BJJ. Complete guide covering setups fr
 
 
 
-> Kimura Variations is a shoulder lock targeting the Shoulder joint (glenohumeral), rotator cuff, and supporting ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kimura Variations targets the Shoulder joint (glenohumeral), rotator cuff, and supporting ligaments. Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura Variations?
 
 The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, targeting the glenohumeral joint through a figure-four grip configuration. Named after judoka Masahiko Kimura who famously used it against Helio Gracie in 1951, this submission applies rotational force to the shoulder while isolating the arm. What makes the Kimura exceptional is its adaptability across virtually every position in grappling - from bottom guard to top mount, from turtle to standing clinch. The basic mechanics remain consistent: secure a figure-four grip on the opponent's wrist and your own wrist, isolate their elbow against your body, and create leverage by lifting their elbow while rotating their hand toward their back. However, the setup, control, and finishing details vary significantly depending on position and opponent response. The Kimura functions not only as a high-percentage submission but also as a powerful control position that opens pathways to back takes, sweeps, and positional advancement. Understanding the positional variations and their tactical applications transforms the Kimura from a single technique into a complete system that can dominate opponents at all skill levels.
 
@@ -242,7 +240,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish positional control and isolate target arm**: From your chosen position, use appropriate grips and body positioning to separate one of opponent's arms from their defensive structure. From guard, this often means breaking posture and controlling their wrist. From top positions, it requires breaking their frames and capturing an arm as they attempt to create space. From turtle or standing, it involves controlling their arm during movement transitions. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Secure the figure-four wrist grip**: With their arm isolated, reach over and grip their wrist with your same-side hand (right hand on their right wrist or left on their left). Thread your opposite hand underneath their forearm and grab your own wrist, forming the characteristic figure-four shape. Keep your elbows tight together to prevent them from breaking the grip by pulling their elbow back. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Pin the elbow against your body**: Bring their elbow tight to your torso, hip, or side of your ribcage depending on the position. This creates the fulcrum point for the shoulder lock. From guard bottom, pin their elbow to your ribs and chest. From side control or mount, pin it to your hip or lower abdomen. From turtle attacks, pin it against your side or hip. The elbow must stay connected to your body throughout the finish. (Timing: 1 second) [Pressure: Firm]
@@ -318,7 +316,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the two simultaneous actions required to generate effective shoulder pressure in the Kimura finish?
 **A**: Lifting the opponent's elbow upward (raising it toward head level or higher) while simultaneously rotating their hand toward the back of their own head or spine. These compound movements create rotational force on the shoulder joint while the pinned elbow serves as the fulcrum. Doing only one without the other significantly reduces the effectiveness and may allow escapes.
 

@@ -153,14 +153,12 @@ description: "Master Kimura from North-South in BJJ. Complete safety guide with 
 
 
 
-> Kimura from North-South is a shoulder lock targeting the Shoulder joint, rotator cuff, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kimura from North-South targets the Shoulder joint, rotator cuff, and surrounding ligaments. Risk: Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura from North-South?
 
 The Kimura from North-South is a powerful shoulder lock that exploits the vulnerable arm position inherent to north-south control. This submission represents a high-percentage finishing option from one of the most stable top positions in Brazilian Jiu-Jitsu. The north-south position provides exceptional control over the opponent's upper body while creating natural opportunities to isolate and attack the near-side arm. When the opponent frames or attempts to create space, their arm becomes exposed to the figure-four grip that characterizes the Kimura lock. The mechanical advantage from north-south is significant—you can generate rotational pressure on the shoulder joint while maintaining heavy chest pressure that prevents hip escape. The angle of attack differs from traditional side control or guard-based Kimuras, requiring adaptations in grip placement and finishing mechanics. Understanding the proper application speed and safety protocols is essential, as the north-south angle can generate extreme leverage on the shoulder complex with minimal warning to training partners.
 
@@ -244,7 +242,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure North-South Control**: From north-south position, distribute your weight heavily across opponent's chest and upper torso. Your head should pressure their far shoulder to prevent rotation. Spread your knees wide for base and position your hips perpendicular to their body. The opponent will naturally frame or push against your body with their near-side arm, creating the opportunity for attack. (Timing: 2-3 seconds to establish stable control) [Pressure: Firm]
 2. **Isolate and Control the Wrist**: As opponent extends their near-side arm to frame or create space, thread your arm closest to their legs underneath their forearm. Capture their wrist with a firm grip, pulling it slightly away from their body. Your grip should be palm-to-palm with your thumb toward their thumb, creating strong wrist control that prevents them from pulling the arm back to safety. (Timing: 1-2 seconds to secure wrist control) [Pressure: Moderate]
 3. **Establish Figure-Four Grip**: While maintaining wrist control with your lower hand, reach your upper arm (the one near their head) over the top of their arm and grab your own wrist to complete the figure-four configuration. Your upper arm's elbow should be positioned over their elbow, creating a strong structural frame. Ensure your grip is tight and your arms form a solid mechanical connection—any looseness here reduces your leverage significantly. (Timing: 2-3 seconds to establish secure grip) [Pressure: Moderate]
@@ -307,7 +305,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is application speed more critical for the Kimura from north-south compared to Kimuras from other positions? **[SAFETY-CRITICAL]**
 **A**: The north-south angle creates significantly more leverage on the shoulder joint than traditional side control or guard-based Kimuras. The perpendicular body position and the combination of lifting and rotating away from the head generates extreme torque with minimal effort. This deceptive leverage means that what feels like moderate pressure to the person applying it can be intense joint stress for the recipient. Partners may not have sufficient time to recognize danger and tap before injury occurs if the submission is applied quickly. Therefore, extremely slow application (5-7 seconds minimum) is essential to give partners adequate opportunity to tap safely.
 

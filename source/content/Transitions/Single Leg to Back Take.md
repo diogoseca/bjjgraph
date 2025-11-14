@@ -147,14 +147,10 @@ description: "Learn Single Leg to Back Take in BJJ. Convert failed takedown to b
 
 
 
-> Single Leg to Back Take transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Single Leg to Back Take?
 
 The Single Leg to Back Take is an advanced transitional technique that capitalizes on an opponent's defensive reactions to a single leg attack. Rather than forcing a completed takedown against heavy resistance, the skilled practitioner recognizes when the opponent posts and turns away, then exploits this defensive rotation to climb onto their back. This technique represents a fundamental principle in grappling: when your opponent defends one attack, they often expose themselves to another.
 
@@ -197,7 +193,7 @@ Successful execution requires strong positional awareness, quick hip movement, a
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure single leg position**: Establish a strong single leg control with your head on the outside of the opponent's leg. Your arms should be locked around their thigh, with your inside shoulder pressed tightly against their hip. Maintain a strong base with your knees wide and hips low to the mat. (Timing: Initial control phase)
 2. **Read opponent's defensive turn**: As your opponent attempts to defend the takedown, they will typically turn their hips away from you and post their far hand on the mat. This defensive reaction creates the opportunity for the back take. Stay alert and connected as they begin this rotation. (Timing: Recognition phase - 1-2 seconds after initial attack)
 3. **Release leg and insert near hook**: As the opponent commits to their turn, release your grip on their leg and immediately swing your inside leg (the leg closest to their hips) forward to insert the first hook. Your knee should slide between their legs as your foot hooks around their inner thigh. Keep your chest pressed against their back to maintain connection. (Timing: Immediate - as opponent begins rotation)
@@ -289,7 +285,7 @@ Practice seamless transitions between traditional single leg finish, back take, 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary defensive action by the opponent that creates the opportunity for the single leg to back take?
 **A**: The opponent turning their hips away from you and posting their far hand on the mat to defend the single leg takedown. This defensive rotation creates the angle and space necessary for you to climb onto their back. You must recognize this specific defensive pattern to time the transition correctly.
 

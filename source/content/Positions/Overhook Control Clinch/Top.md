@@ -8,7 +8,7 @@ description: "Master top overhook control clinch in BJJ. Dominant standing contr
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master top overhook control clinch in BJJ. Dominant standing contr
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Overhook Control Clinch from the Top?
 
 Overhook Control Clinch Top is a dominant standing position where the practitioner controls one of the opponent's arms by hooking over it while maintaining an advantageous posture in the clinch. This position provides excellent control for executing throws, takedowns, and transitions to superior positions. The overhook creates a mechanical advantage by limiting the opponent's defensive frames and postural control while opening pathways to the back, front headlock, or takedown positions. This position is fundamental in both gi and no-gi grappling, featuring prominently in wrestling, judo, and modern BJJ competition.
 
@@ -499,17 +478,17 @@ Start standing with one partner having established overhook control. Top player 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The overhook in clinch position represents a fascinating strategic paradox in grappling. While conventional wisdom suggests that inside control through underhooks is superior, the overhook position, when properly executed, provides exceptional mechanical advantages through leverage multiplication and angular control. The critical understanding is that the overhook functions not as a static control position but as a dynamic attacking platform. By combining the overhook with superior head positioning, we create what I term 'dual-axis control' - simultaneously controlling the opponent's lateral movement through the hook while dominating their vertical posture through head pressure. This dual control system forces the opponent into a defensive crouch, loading their weight forward and making them vulnerable to both forward throws like Uchi Mata and backward attacks through snap downs to front headlock positions. The key technical detail that separates effective overhook control from ineffective attempts is the depth of the hook combined with active hip engagement - the overhook must reach deep around the tricep or elbow while the hips maintain close contact, creating a closed system that prevents the opponent from generating explosive separation or establishing their own inside control.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, overhook control in the clinch is one of my favorite positions because it gives me multiple high-percentage pathways to dominant positions without taking significant risks. The beauty of the overhook is that it allows me to control the pace of the engagement - I can choose between explosive throws, grinding pressure into front headlock positions, or opportunistic back takes based on how my opponent reacts. Against wrestlers or judo players who are strong in the clinch, I use the overhook specifically because it neutralizes their underhook game while setting up my snap downs to front headlock, which is one of my best positions. The most important thing I've learned is that you cannot be passive with the overhook - you need constant forward pressure through your head and continuous adjustment of your hip position to maintain the superior angle. I circle toward my overhook side, keep my head heavy on their shoulder, and wait for them to make a mistake - either they stand too tall and I throw them, they bend forward and I snap them down, or they turn in and I take their back. The overhook also sets up my guillotine game perfectly because when they defend the snap down by pulling their head back, that's when I switch to the guillotine grip. It's a complete system that forces opponents into bad choices.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The overhook in the clinch is underrated in modern no-gi grappling, man. Everyone's fighting for double underhooks, but if you understand how to use the overhook properly, you can completely dominate the standing game. What I teach my guys is that the overhook is your steering wheel - you control where your opponent goes and what options they have. From 10th Planet perspective, we use the overhook as an entry point to our Twister system and our truck positions because the overhook naturally makes people turn their back when they try to escape. We also love the overhook for setting up our standing guillotine entries - when you have the overhook and they try to shoot, boom, you've got the perfect guillotine angle. The key innovation we've developed is combining the overhook with what we call 'active posting' - using your free hand not just to control their wrist but to create frames and angles that open up unconventional attacks. We'll use the overhook to control one side while our free hand creates a collar tie or posts on their hip, and this creates these dilemma situations where they can't defend everything. If they defend the snap down, we're hitting the lateral drop. If they defend the throw, we're transitioning to the back. The overhook is all about creativity and making your opponent guess wrong.
 

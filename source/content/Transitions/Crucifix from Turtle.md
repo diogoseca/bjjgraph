@@ -147,14 +147,10 @@ description: "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Tur
 
 
 
-> Crucifix from Turtle transitions from [[Turtle]] to [[Crucifix]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Crucifix from Turtle?
 
 The Crucifix from Turtle is a sophisticated back attack transition that capitalizes on your opponent's defensive turtle position. This technique involves controlling both of your opponent's arms while establishing back control, creating one of the most dominant positions in Brazilian Jiu-Jitsu. The crucifix offers exceptional control with minimal energy expenditure while presenting multiple submission opportunities including chokes, armbars, and joint locks. The transition requires precise timing and coordination, as you must simultaneously secure arm control while establishing your hooks. This position is particularly valuable in both gi and no-gi competition, as it effectively neutralizes your opponent's defensive capabilities while maximizing your offensive options. The crucifix from turtle represents a fundamental component of modern back attack systems.
 
@@ -194,7 +190,7 @@ The Crucifix from Turtle is a sophisticated back attack transition that capitali
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish initial arm control**: From turtle top position, secure control of your opponent's near-side arm by grabbing their wrist or triceps with your same-side hand. Drive your chest into their back while using your opposite hand to control their far shoulder or establish a cross-face. This initial control prevents them from posting and creates the foundation for your attack. (Timing: Execute when opponent commits weight forward onto their hands)
 2. **Insert near-side hook**: While maintaining arm control, swing your near-side leg underneath their body and insert your foot as a hook on their near-side hip. Keep your knee tight to their ribs and use this hook to control their hip movement. Your hook should be deep enough to prevent them from sitting back but not so deep that you lose base for the subsequent steps. (Timing: Insert hook as opponent's weight shifts away from near side)
 3. **Swim for far-side arm control**: Release your cross-face and immediately swim your free arm underneath their far armpit, catching their wrist or forearm. Pull this arm across their body toward you while maintaining pressure with your chest. This creates the characteristic crucifix arm trap where both arms are controlled and extended away from their body's centerline. (Timing: Swim for far arm immediately after establishing near hook)
@@ -280,7 +276,7 @@ Implement the crucifix from turtle in live rolling scenarios. Start from turtle 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical element to establish before attempting to thread your leg over the opponent's shoulder in the crucifix from turtle?
 **A**: Firm control of both of the opponent's arms is the most critical element. You must secure the near-side arm and swim for the far-side arm control before threading your leg. Attempting to thread the leg without controlling both arms will result in the opponent pulling their far arm free and escaping the position entirely.
 

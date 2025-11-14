@@ -153,14 +153,12 @@ description: "Master Toe Hold from Top in BJJ. Complete guide with safety protoc
 
 
 
-> Toe Hold from Top is a leg lock targeting the Ankle and knee ligaments (lateral ankle complex, medial collateral ligament). ⚠️ **SAFETY**: This technique can cause Ankle ligament tears (lateral collateral ligament complex). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Toe Hold from Top targets the Ankle and knee ligaments (lateral ankle complex, medial collateral ligament). Risk: Ankle ligament tears (lateral collateral ligament complex). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Toe Hold from Top?
 
 The Toe Hold from Top is a fundamental leg lock submission that attacks the ankle and knee simultaneously through a figure-four grip configuration. This technique is particularly effective from various top leg entanglement positions including Ashi Garami, Outside Ashi, and 50-50 Guard. The toe hold creates a combined rotational and hyperextension force on the ankle while placing significant stress on the knee's medial collateral ligament (MCL), making it one of the most versatile and dangerous leg attacks in modern Brazilian Jiu-Jitsu.
 
@@ -252,7 +250,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure leg entanglement foundation**: From your top position in Ashi Garami or Outside Ashi, clamp your knees tightly together around opponent's trapped leg. Your bottom leg should hook across their hip (inside position) while your top leg crosses over their thigh. This creates the fundamental control structure that prevents leg extraction. Your hips should be close to their hip, eliminating space that would allow them to turn or escape. (Timing: Initial control phase: 2-3 seconds) [Pressure: Moderate]
 2. **Break opponent's defensive grips**: Most opponents will immediately grip their own foot or ankle to defend the toe hold. Use your hands to strip these grips by peeling their fingers away or by controlling their wrists and pulling them away from the danger zone. Alternatively, if they're gripping your legs, break these grips using circular hand movements or by suddenly changing your leg position to compromise their grip strength. (Timing: Grip fighting phase: 3-5 seconds) [Pressure: Light]
 3. **Establish figure-four grip on the foot**: Cup the ball of opponent's foot with your hand closest to their foot (usually your right hand if controlling their right leg). Your palm should contact the metatarsal area while your fingers wrap around the top of the foot. Your other hand reaches under their ankle and grasps the wrist of your first hand, creating the figure-four configuration. Use either a palm-to-palm grip or gable grip - never interlace fingers as this can cause finger injuries during the finish. (Timing: Grip establishment: 2-3 seconds) [Pressure: Light]
@@ -329,7 +327,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the two primary joint structures that the toe hold attacks, and why does this make it more dangerous than a straight ankle lock? **[SAFETY-CRITICAL]**
 **A**: The toe hold attacks both the ankle's lateral ligament complex AND the knee's medial collateral ligament (MCL) simultaneously through its combined hyperextension and rotational mechanism. Unlike a straight ankle lock which primarily targets the Achilles tendon and ankle in one plane of motion, the toe hold's rotational component creates spiraling force that affects multiple joint structures at once, making injury more likely if applied with excessive speed or force.
 

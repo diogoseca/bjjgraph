@@ -8,7 +8,7 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guillotine Control?
 
 Guillotine Control represents a fundamental attacking position in Brazilian Jiu-Jitsu where one practitioner secures a front headlock grip with submission intent, controlling the opponent's head and neck while threatening immediate choke submission. This position exists across a spectrum of scenarios—from standing clinch exchanges to ground-based situations—and creates powerful strategic dilemmas for the defender who must simultaneously protect against the submission while preventing positional advancement. The guillotine's effectiveness stems from its versatility as both a high-percentage finishing technique and a control position that severely limits the opponent's offensive options.
 
@@ -50,7 +48,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 | **Energy Cost** | High | Medium |
 | **Time** | Short to Medium | Short to Medium |
 
-**What Makes This Unique:** Front headlock submission with dual perspectives
+**Key Difference:** Front headlock submission with dual perspectives
 
 
 
@@ -76,10 +74,6 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ## Playing as Bottom
 
 [[Guillotine Control/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -171,10 +165,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Guillotine Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -254,7 +244,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -147,14 +147,12 @@ description: "Master the Armbar Finish mechanics in BJJ. Complete guide covering
 
 
 
-> Armbar Finish is a arm lock targeting the Elbow joint (hyperextension). ⚠️ **SAFETY**: This technique can cause Elbow hyperextension and ligament damage. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Armbar Finish targets the Elbow joint (hyperextension). Risk: Elbow hyperextension and ligament damage. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Armbar Finish?
 
 The Armbar Finish represents the critical final phase of any armbar variation, where positional control transitions into submission completion. This fundamental finishing sequence applies across all armbar positions—from mount, guard, side control, or back control. The finish itself is remarkably simple mechanically: isolate the arm, control the shoulder, elevate the hips, and apply rotational pressure to hyperextend the elbow joint. However, achieving a clean finish requires precise technical execution and deep understanding of leverage mechanics. The difference between beginners who allow escapes and advanced practitioners who finish consistently lies not in strength, but in control point management, timing, and systematic application of pressure. A proper armbar finish creates an inescapable dilemma where the opponent must tap or risk serious injury to their elbow ligaments and connective tissue.
 
@@ -240,7 +238,7 @@ The Armbar Finish represents the critical final phase of any armbar variation, w
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure wrist control with both hands**: Grip opponent's wrist with both hands, pulling it tight to your chest. Your grip should position their thumb pointing upward (palm facing away from you). This supinated position aligns the elbow joint for maximum vulnerability to hyperextension. Keep constant pulling pressure toward your sternum. (Timing: Establish immediately upon arm isolation) [Pressure: Firm]
 2. **Pinch knees together to trap arm**: Squeeze your knees together powerfully, creating a vice-like trap around opponent's isolated arm. This knee pinch prevents them from pulling their elbow back to their centerline. The leg across their chest should apply downward pressure while the leg over their face controls head position and prevents forward rolling escapes. (Timing: Continuous throughout finish) [Pressure: Maximum]
 3. **Position wrist at your centerline**: Pull opponent's wrist directly to the center of your chest, creating a straight line from their shoulder through their elbow to your hips. This alignment maximizes leverage and prevents them from creating angles that reduce pressure. Keep their arm as straight as possible with constant pulling pressure. (Timing: Before hip elevation begins) [Pressure: Firm]
@@ -304,7 +302,7 @@ The Armbar Finish represents the critical final phase of any armbar variation, w
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for armbar finish in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: 3-5 seconds minimum application time in training. This is critical because explosive or sudden application causes immediate elbow injury. Progressive pressure allows training partner to recognize the danger and tap before ligament damage occurs. This safety protocol preserves training partners and builds trust in the gym culture. Competition finishing speed should never be used in training.
 

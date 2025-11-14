@@ -147,14 +147,12 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 
 
 
-> Brabo Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Brabo Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Brabo Choke?
 
 The Brabo Choke is a powerful blood choke from the front headlock position, closely related to the D'arce and Anaconda chokes. The technique involves threading your arm under the opponent's near arm and across their neck, securing a grip on your own bicep to create a vice-like constriction of the carotid arteries. The name 'Brabo' is a Portuguese pronunciation variation of 'D'arce,' though some practitioners distinguish between the two based on subtle grip and angle differences. This submission is particularly effective when the opponent is defending a front headlock by keeping their elbows tight, creating the necessary space for arm insertion. The Brabo Choke excels in scramble situations, turtle attacks, and failed takedown defense scenarios. Its effectiveness comes from the mechanical advantage created by using your entire body weight to compress the opponent's neck against their own shoulder, making it extremely difficult to defend once properly locked. The choke works in both gi and no-gi contexts, though grip variations differ slightly between formats. Modern competitors favor this submission for its high finishing rate and the control it provides throughout the execution process.
 
@@ -239,7 +237,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure dominant front headlock position**: From standing or ground front headlock, establish strong head control with your primary arm wrapped around opponent's head. Your chest should be heavy on their upper back, preventing them from posturing up. Control their posture by pulling their head toward your hip while maintaining shoulder pressure downward. Ensure your weight is distributed to prevent opponent from rolling or scrambling away. (Timing: Establish control before attempting arm insertion - 2-3 seconds of stable position) [Pressure: Firm]
 2. **Thread choking arm under opponent's near arm**: Identify the opponent's near arm (same side as their controlled head). Slide your free arm under their armpit, driving deep across their neck. Your forearm should cross the front of their throat with the blade of your forearm (pinky side) positioned against the near-side carotid artery. Keep your elbow tight and continue threading until your hand emerges on the far side of their neck. This deep insertion is critical for effectiveness. (Timing: Smooth insertion over 2-3 seconds - do not rush or force) [Pressure: Moderate]
 3. **Secure bicep grip to lock the choke**: Once your choking arm is fully threaded, reach your choking hand to grip your own bicep of the head-control arm. This creates a closed circuit where your arms form a tight loop around opponent's neck and trapped arm. Alternatively, you can grip your own wrist for a tighter lock. The grip completion transforms separate controls into a unified choking mechanism. Ensure the grip is deep and secure before applying pressure. (Timing: Grip must be secured before pressure application - 1-2 seconds) [Pressure: Light]
@@ -309,7 +307,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary safety difference between a properly executed blood choke and an air choke, and why does the Brabo Choke require deep arm insertion? **[SAFETY-CRITICAL]**
 **A**: A blood choke (properly executed Brabo) compresses the carotid arteries causing rapid unconsciousness within 5-10 seconds, then releases safely with immediate recovery. An air choke compresses the trachea causing panic and pain but takes much longer to be effective, and can cause serious tracheal damage. Deep arm insertion ensures your forearm crosses the front of the neck at the correct angle to compress carotids rather than crush the trachea. Shallow insertion results in painful but less effective air choke that risks injury.
 

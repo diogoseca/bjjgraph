@@ -8,7 +8,7 @@ description: "Master the Americana shoulder lock in BJJ. Complete strategic guid
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master the Americana shoulder lock in BJJ. Complete strategic guid
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Americana Control?
 
 Americana Control represents a dominant shoulder lock position in Brazilian Jiu-Jitsu where the attacker secures a figure-four grip on the opponent's arm, controlling the wrist with one hand while applying rotational pressure behind the elbow with the other. This position is most commonly achieved from mount, side control, or other top positions where the opponent's arm can be isolated. The Americana (also called ude garami in judo) creates a powerful mechanical advantage through the figure-four configuration, allowing the top player to apply controlled shoulder rotation that can force a tap or lead to positional advancement. From the bottom perspective, defending the Americana requires immediate recognition, proper hand fighting, and explosive escape attempts before the submission is fully locked. Understanding both perspectives - defensive survival and offensive finishing - is essential for complete mastery of this fundamental submission control position.
 
@@ -42,7 +40,7 @@ Americana Control represents a dominant shoulder lock position in Brazilian Jiu-
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -56,7 +54,7 @@ Americana Control represents a dominant shoulder lock position in Brazilian Jiu-
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short |
 
-**What Makes This Unique:** Figure-four grip creates submission threat
+**Key Difference:** Figure-four grip creates submission threat
 
 
 
@@ -68,10 +66,6 @@ Americana Control represents a dominant shoulder lock position in Brazilian Jiu-
 ## Playing as Bottom
 
 [[Americana Control/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -144,10 +138,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Americana Control/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -211,7 +201,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

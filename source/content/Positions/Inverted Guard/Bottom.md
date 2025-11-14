@@ -8,7 +8,7 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Inverted Guard from the Bottom?
 
 From the bottom perspective, Inverted Guard represents a highly mobile defensive posture that creates unique offensive opportunities through unconventional angles. The practitioner positions themselves upside-down with shoulders and upper back in contact with the mat, weight carefully distributed to avoid neck compression. The legs extend upward toward the opponent, creating defensive frames while maintaining connection through hooks, grips, or foot placement. This position excels at neutralizing pressure passing attempts while simultaneously establishing pathways to back attacks and leg entanglements. The bottom player must maintain constant movement and transitional intent, as static holding in inverted guard leads to energy depletion and increased vulnerability to stack passes. Success from this position requires specific flexibility, developed inversion mechanics, and clear understanding of connected positions like berimbolo entries, X-guard variations, and back take sequences. The modern competition meta has elevated inverted guard from a niche position to a fundamental component of comprehensive guard retention systems, particularly in no-gi and advanced gi competition. The position's effectiveness stems from forcing opponents to navigate unfamiliar passing angles while the inverted practitioner maintains superior mobility and offensive options. Training emphasis should focus on rapid transitions rather than sustained holding, with clear pathways to dominant positions serving as the primary objective of inversion.
 
@@ -501,17 +482,17 @@ Focus specifically on berimbolo entries and rolling back takes from inverted gua
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Inverted guard represents a transitional movement pattern rather than a static position within systematic guard retention mechanics. The biomechanics of inversion create unique angular advantages that disrupt traditional passing structures, but the position's primary value lies in its role as an entry pathway to back attacks and leg entanglements. The critical technical element is maintaining weight distribution across the shoulder blades rather than the cervical spine, which requires specific flexibility and body awareness developed through progressive training. When integrated into a comprehensive guard system, inversion serves as a defensive response to pressure passing while simultaneously creating offensive opportunities through berimbolo sequences and X-guard entries. The position should be trained with emphasis on rapid transitional flow rather than sustained holding, as extended time inverted leads to energy depletion and increased vulnerability to stack passes. Modern competition demonstrates that practitioners who successfully integrate inversion into their guard retention framework gain significant defensive advantages while maintaining constant offensive threat.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 I utilize inversion primarily as a transitional position within my guard system, particularly as a component of defensive guard retention when facing aggressive pressure passing from high-level opponents. The key is maintaining defensive integrity throughout the inversion to prevent opportunistic passes while immediately looking for pathways to my preferred back attack sequences or leg entanglement positions. Against high-level opponents, staying inverted for extended periods is energetically inefficient and tactically limiting, so I emphasize quick transitions to berimbolo or single leg X entries with clear finishing objectives. The position works best when integrated with De La Riva and Reverse De La Riva systems, creating a comprehensive guard retention framework that frustrates passing attempts while setting up high-percentage back takes that lead to dominant control positions. In competition, I use inversion specifically to counter smash passes and create the angular control necessary for entering leg entanglement positions, but always with immediate transitional intent rather than static holding without purpose.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Inverted guard has become a cornerstone of modern 10th Planet methodology, particularly in how we develop pathways to leg entanglements and back attacks through systematic sequences. We've incorporated inversion extensively into our system, creating specialized variations and entries that connect to rubber guard transitions and control positions like the Truck that offer unique finishing opportunities. The beauty of the inverted position is its ability to create unconventional angles that traditional top players struggle to pass effectively, especially when combined with our no-gi specific grips and control strategies. We emphasize drilling inversion as part of comprehensive movement patterns, connecting it to our unique positions like Electric Chair and Lockdown variations for seamless transitional flow. The key innovation is treating inversion not as an isolated position but as a dynamic linking mechanism within larger systematic sequences that lead to dominant positions and submissions. Our approach focuses on using inversion to create immediate offensive opportunities rather than purely defensive guard retention, which aligns with the aggressive, submission-oriented philosophy of 10th Planet Jiu-Jitsu and modern competition demands.
 

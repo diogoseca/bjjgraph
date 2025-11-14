@@ -8,7 +8,7 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Gogoplata Control?
 
 Gogoplata Control represents one of Brazilian Jiu-Jitsu's most technically demanding and strategically unique control positions. This position establishes a shin-across-throat configuration that creates both a controlling position and an immediate submission threat simultaneously. Unlike traditional control positions that prioritize stability before submission attacks, Gogoplata Control merges these concepts into a single unified state where the controlling mechanics are inseparable from the finishing mechanics.
 
@@ -58,7 +56,7 @@ The position also demonstrates important principles about submission-based contr
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -72,7 +70,7 @@ The position also demonstrates important principles about submission-based contr
 | **Energy Cost** | High | Medium |
 | **Time** | Short to Medium | Short |
 
-**What Makes This Unique:** Shin pressure creates immediate submission threat
+**Key Difference:** Shin pressure creates immediate submission threat
 
 
 
@@ -84,10 +82,6 @@ The position also demonstrates important principles about submission-based contr
 ## Playing as Bottom
 
 [[Gogoplata Control/Bottom|→ Full Bottom Guide]]
-
-
-Read and react based on their actions.
-
 
 ### Key Principles
 
@@ -172,10 +166,6 @@ Read and react based on their actions.
 
 [[Gogoplata Control/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -245,7 +235,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -8,7 +8,7 @@ description: "Master Double Unders position in BJJ. Strategic guide covering whe
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Double Unders position in BJJ. Strategic guide covering whe
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Double Unders?
 
 Double Unders Position is a critical control state in Brazilian Jiu-Jitsu where both practitioners are engaged in a bilateral underhook battle with dramatically different strategic objectives. From the top perspective, securing both underhooks creates one of the most dominant pressure passing positions available, eliminating the opponent's ability to create effective frames while applying crushing chest-to-chest pressure that forces them onto their shoulders. From the bottom perspective, this represents a crisis position requiring immediate defensive action to prevent complete flattening and inevitable pass completion.
 
@@ -50,7 +48,7 @@ Understanding double unders from both perspectives is essential for developing c
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Understanding double unders from both perspectives is essential for developing c
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**What Makes This Unique:** Bilateral underhook control for pressure
+**Key Difference:** Bilateral underhook control for pressure
 
 
 
@@ -76,10 +74,6 @@ Understanding double unders from both perspectives is essential for developing c
 ## Playing as Bottom
 
 [[Double Unders/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -162,10 +156,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Double Unders/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -235,7 +225,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

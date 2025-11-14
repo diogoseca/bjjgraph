@@ -153,14 +153,10 @@ description: "Master Ouchi Gari takedown in BJJ. Step-by-step execution from sta
 
 
 
-> Ouchi Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ouchi Gari?
 
 Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has become an essential tool in Brazilian Jiu-Jitsu's standing game. The technique involves reaping the opponent's lead leg from the inside while simultaneously breaking their posture and balance to the rear corner. Unlike pure throwing arts where the goal is a clean ippon, BJJ practitioners use Ouchi Gari both as a takedown to achieve dominant top position and as a setup for other attacks when the opponent defends. The technique's effectiveness lies in its ability to capitalize on natural standing posture—most grapplers stand with weight distributed between both legs, making them vulnerable to this inside leg attack. When executed properly, Ouchi Gari creates a powerful combination of off-balancing, sweeping action, and forward pressure that makes it extremely difficult for the opponent to maintain their base. The technique integrates seamlessly with BJJ's ground game, as a successful Ouchi Gari typically lands the practitioner in side control or a transitional position from which mount or back control can be achieved. Its versatility makes it valuable across all rulesets, from IBJJF competition to no-gi grappling and MMA applications.
 
@@ -200,7 +196,7 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish dominant grips**: Secure a high collar grip with your right hand (on opponent's left lapel or behind their neck in no-gi) and a sleeve grip with your left hand on their right arm. In no-gi, establish an overhook or underhook position. These grips provide the control necessary to break posture and prevent escape. (Timing: Setup phase - establish before initiating throw)
 2. **Break opponent's posture**: Pull down and backward with your collar grip while pushing or pulling with your sleeve grip to bend opponent forward and break their upright posture. Their weight should shift slightly backward onto their heels. This postural break is critical—without it, they maintain balance too easily. (Timing: 0.5-1 second before step 3)
 3. **Step in close**: Step your left foot forward and slightly to the outside of their right foot, closing the distance significantly. Your hips should be close to theirs, and your chest should be pressed against their upper body. This proximity is essential for the reaping action and prevents them from creating defensive space. (Timing: Immediately after posture break)
@@ -302,7 +298,7 @@ Full sparring rounds that start standing and continue on the ground. Score taked
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary direction of off-balancing in Ouchi Gari?
 **A**: The primary direction of off-balancing in Ouchi Gari is to the rear corner—backward and slightly to the side of opponent's supporting leg. This breaks their base by removing weight from the leg you're about to reap while making it difficult for them to step back with that leg to recover. The off-balancing is achieved through pulling down and back with the collar grip while the leg reap simultaneously removes their support.
 

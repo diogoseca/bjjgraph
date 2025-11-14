@@ -147,14 +147,10 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 
 
 
-> De La Riva Sweep transitions from [[De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is De La Riva Sweep?
 
 The De La Riva Sweep is a fundamental attacking technique from the De La Riva Guard position that allows the bottom player to off-balance and sweep their opponent to achieve top position. This sweep exploits the mechanical disadvantage created when the opponent's weight is distributed across a compromised base, using the De La Riva hook and strategic grips to control and manipulate their center of gravity. The technique is highly effective in gi-based Brazilian Jiu-Jitsu and forms the foundation of an entire guard system.
 
@@ -197,7 +193,7 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish De La Riva Guard**: From open guard, insert your right leg behind opponent's left leg with your foot hooking deep behind their knee. Your shin should be tight against the back of their leg. Simultaneously grab their left sleeve with your left hand and establish a collar or belt grip with your right hand. (Timing: Initial guard establishment phase)
 2. **Control opponent's posture**: Pull down on the collar or belt grip to break opponent's posture forward while maintaining tight sleeve control. Your left foot should be on their right hip creating a frame. This creates the foundational control structure necessary for the sweep. (Timing: As opponent attempts to establish passing pressure)
 3. **Off-balance opponent laterally**: Pull strongly with your left hand on their sleeve toward your left side while simultaneously extending your De La Riva hook. This combination creates a circular motion that compromises their base and shifts their weight onto their left side. (Timing: When opponent's weight shifts forward or they step with far leg)
@@ -292,7 +288,7 @@ Integrate multiple sweep variations, submission attacks, and back take options f
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical lever that generates sweeping force in the De La Riva Sweep?
 **A**: The De La Riva hook (leg wrapped behind opponent's knee from outside) acts as the primary lever. When extended forcefully while maintaining the hook position, it elevates the opponent's leg and disrupts their base, creating the sweeping motion when combined with strategic grip pulls.
 

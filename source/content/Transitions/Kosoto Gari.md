@@ -153,14 +153,10 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 
 
 
-> Kosoto Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kosoto Gari?
 
 Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has become essential in modern BJJ's standing game. Unlike explosive forward throws, Kosoto Gari capitalizes on subtle weight distribution, timing, and off-balancing to sweep the opponent's weight-bearing leg from beneath them. The technique combines a pulling motion with upper body control while simultaneously reaping the opponent's heel backward and upward. This creates a powerful rotation that deposits the opponent on their back, allowing immediate transition to dominant positions like side control or knee on belly. The beauty of Kosoto Gari lies in its mechanical efficiency - it requires minimal strength when executed with proper timing, making it accessible to practitioners of all sizes. The technique is particularly effective against opponents who resist forward throws by posting their weight backward, as this natural defensive reaction places them perfectly into Kosoto Gari's zone of vulnerability. In competition, Kosoto Gari scores as a throw and frequently results in immediate positional dominance, making it a high-percentage technique for gi and no-gi contexts alike.
 
@@ -199,7 +195,7 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips**: Secure deep collar grip with your right hand, fingers inside opponent's collar at neck level. Left hand controls opponent's right sleeve at elbow or tricep. Grips must be tight enough to control movement but relaxed enough to allow explosive pulling action. (Timing: During initial clinch engagement)
 2. **Create initial off-balance**: Pull opponent forward and slightly to their right front corner using both grips. This creates initial reaction where opponent posts weight backward to resist. Watch for their weight to shift predominantly to their right leg - this is your attack signal. (Timing: 1-2 seconds after grip establishment)
 3. **Step to optimal angle**: Step your left foot forward and outside opponent's right foot, positioning yourself at approximately 45-degree angle to their body. Your left foot should be toe-to-toe with their right foot, creating the geometric foundation for the sweep. (Timing: As opponent's weight commits backward)
@@ -295,7 +291,7 @@ Continually refine technique based on body type and competition experience. Deve
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes Kosoto Gari effective?
 **A**: The primary mechanical principle is removing the weight-bearing support (heel) while simultaneously pulling opponent's upper body toward their rear corner, creating a rotation with no base to prevent falling. The opposing forces of forward upper body pressure and backward lower body sweep create the throw's power.
 

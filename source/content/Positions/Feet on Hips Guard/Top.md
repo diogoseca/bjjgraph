@@ -8,7 +8,7 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 40%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Feet on Hips Guard from the Top?
 
 Feet on Hips Guard Top is the passing perspective when facing an opponent who has established feet on your hips as defensive frames. This common open guard scenario requires systematic breakdown of the bottom player's leg frames through grip control, pressure application, and strategic positioning. Success demands understanding how to neutralize the pushing power of the legs while maintaining forward pressure and creating passing opportunities. The position requires patience and technical precision—rushing into passes often results in the bottom player re-establishing guard or executing sweeps. Effective top players focus on controlling the knees, breaking the frames methodically, and transitioning to more advantageous passing positions. Your primary objectives are establishing dominant grips (particularly pants grips at the knees), applying constant forward pressure to prevent guard recovery, and timing your passing attacks to coincide with the bottom player's frame adjustments. The position demands balance between aggression and control—too passive allows the bottom player to threaten attacks, too aggressive creates sweep opportunities.
 
@@ -470,17 +449,17 @@ Start with bottom player in feet on hips position with grips already established
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The feet on hips guard represents a fundamental distance management problem that must be solved through systematic grip control and pressure application. The critical insight is that the bottom player's frames are only effective when they can generate pushing power through their legs. By controlling the knees and preventing full extension, you remove their primary defensive tool. The most efficient approach involves establishing pants grips at the knee line, which allows you to manipulate their leg position and create passing angles. Notice that successful passing from this position requires constant forward pressure—you must make the bottom player feel like they are defending rather than attacking. The moment you allow them to dictate the pace, they will begin to establish more sophisticated guard variations like spider guard or De La Riva. Your goal is to methodically break down their frames while maintaining such overwhelming pressure that submission attacks become their only option for creating space. The systematic approach involves grip establishment, frame neutralization, and pass execution as discrete phases that must be completed sequentially rather than simultaneously.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, I've found that most people waste too much time trying to be gentle with the feet on hips position. The reality is that you need to be aggressive with your passing—grip their pants hard, control their knees, and impose your will. My preferred approach is the toreando pass because it's fast and shuts down most of their attacking options. When you grip both knees and throw their legs to one side, you're passing before they can establish any dangerous guards. The key is timing—you wait for them to push against you, then use their own force to redirect their legs. I'll also mix in knee cuts when they try to play more defensive, because that forces them to choose between defending the pass or setting up attacks. Against high-level guys, I'm constantly changing my passing angle to prevent them from timing my movements. The worst thing you can do is stay static—if you let them set their grips and establish rhythm, now you're playing their game instead of yours. My entire passing philosophy from feet on hips is about creating pressure, breaking grips, and passing before they can develop offensive threats.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The feet on hips position is interesting because most people approach it way too traditionally. In the 10th Planet system, we've developed some unconventional ways to deal with this that really mess with people's timing. One thing I love is using aggressive pressure to force them into defensive positions they're not expecting—instead of playing the grip fighting game, sometimes I'll immediately pressure pass or even threaten submissions from top to disrupt their guard game. Another approach we use is the lockdown pass when they have feet on hips—you can trap one leg and immediately put them into a defensive lockdown situation where they're dealing with your attacks instead of setting up sweeps. The traditional pressure passing stuff works, but I like to keep people guessing about what's coming. Sometimes I'll even engage their guard more deeply than expected, getting into their space and forcing them to react rather than setting up their planned attacks. The point is, don't get stuck in one mindset about what this position is supposed to be. If everyone expects you to stand and pass, maybe you drop down and pressure. If they expect pressure, maybe you create space and use footwork. The innovation comes from not being predictable and using unconventional approaches that most people don't train for.
 

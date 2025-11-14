@@ -153,14 +153,10 @@ description: "Master the Single Leg X Sweep in BJJ. Step-by-step execution from 
 
 
 
-> Single Leg X Sweep transitions from [[Single Leg X-Guard]] to [[Standing Position]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Single Leg X Sweep?
 
 The Single Leg X Sweep is a fundamental sweeping technique from the Single Leg X Guard position that creates powerful off-balancing mechanics through elevation and extension. This sweep capitalizes on the opponent's isolated leg while using your entire body as a lever system to destabilize and invert their base. The technique is particularly effective because it combines upper body control (typically a sleeve or collar grip) with lower body mechanics (the X-frame created by your legs) to create a two-directional force that opponents find difficult to counter.
 
@@ -204,7 +200,7 @@ The Single Leg X Sweep is a cornerstone technique in modern leg entanglement sys
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure X-frame structure**: From Single Leg X Guard, ensure your bottom leg is deeply hooked behind opponent's knee with your shin tight to their hamstring. Your top leg should be extended across their hip or lower abdomen, creating maximum distance. Your upper body should have control of their sleeve, collar, or maintain an overhook on the far arm. Your shoulders should be aligned perpendicular to their base leg. (Timing: Initial setup phase)
 2. **Break opponent's posture**: Pull with your upper body grip while simultaneously extending your top leg forcefully into their hip or core. This creates a two-directional force that breaks their upright posture and brings their upper body forward and down. Your bottom leg maintains the hook behind their knee, preventing them from stepping back to recover. (Timing: As opponent begins to stand or post)
 3. **Elevate the captured leg**: Drive your bottom leg upward and forward, lifting their captured leg off the mat while maintaining the knee hook. Simultaneously, your top leg continues to extend, pushing their hips away from you. This creates an inverted position where their weight shifts over their shoulders and they lose all base on the captured side. (Timing: Immediately after posture break)
@@ -306,7 +302,7 @@ Refine technique for competition scenarios including grip fighting, timing again
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the two primary components that create the X-frame structure in Single Leg X Guard?
 **A**: The bottom leg hooked behind the opponent's knee and the top leg extended across their hip or lower abdomen. These two legs create opposing forces that form an X-configuration, allowing you to control both the captured leg and the opponent's posture simultaneously.
 

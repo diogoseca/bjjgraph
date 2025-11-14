@@ -153,14 +153,12 @@ description: "Master Arm Triangle choke progression from side control. Systemati
 
 
 
-> Arm Triangle Progression is a blood choke targeting the Carotid arteries (compression via shoulder and arm). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Arm Triangle Progression targets the Carotid arteries (compression via shoulder and arm). Risk: Loss of consciousness from carotid compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Arm Triangle Progression?
 
 The Arm Triangle Progression represents a fundamental systematic approach to one of Brazilian Jiu-Jitsu's highest-percentage blood chokes. Also known as Kata Gatame in Judo, this submission creates a triangular choking structure using the opponent's own shoulder and arm against their carotid arteries. The progression typically begins from side control, moves through a transitional phase where proper head and arm isolation occurs, and culminates in either a tight side control finish or a mount completion. What makes this choke particularly effective is its use of the opponent's own anatomy against them - their shoulder becomes part of the choking mechanism, meaning they cannot simply pull their arm free to escape. The systematic progression emphasized here follows a clear developmental path: establish dominant side control, isolate the head and arm, secure proper shoulder positioning, transition to the optimal finishing angle, and apply controlled pressure through precise positioning rather than muscular force. This methodical approach ensures consistent success across skill levels and body types, as the technique relies on structural leverage rather than attributes. Understanding this progression allows practitioners to recognize multiple entry opportunities and maintain the submission through various defensive responses.
 
@@ -242,7 +240,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish dominant side control with crossface**: Begin from tight side control with heavy crossface pressure. Your chest should be driving into opponent's face, preventing them from turning toward you. Your hips are low and tight to their body. Your far arm can control their far hip or be posted for base. This foundational control prevents the initial defensive movements that would stop the choke setup. (Timing: Hold for 2-3 seconds to establish positional dominance) [Pressure: Firm]
 2. **Thread choking arm deep under opponent's head**: Slide your crossface arm deep under opponent's head, reaching across to the far side of their neck. Your shoulder should be tight to their face. The key detail is depth - your bicep should be on one side of their neck and their own shoulder on the other side, creating the triangular structure. This arm becomes the 'blade' of the choke, so maximum depth is critical. Your hand can grip your own opposite shoulder or reach to the mat on the far side. (Timing: 2-3 seconds to establish deep arm position) [Pressure: Moderate]
 3. **Trap opponent's near arm across their body**: Use your free hand to control opponent's near arm, either pushing it across their chest or using it to create the choking triangle. You want their arm to run across their own neck, adding to the compression. This arm positioning is what makes the choke 'arm triangle' - their shoulder becomes part of the choking mechanism. Some variations have the arm high near their face, others across the chest. Both work if the shoulder is properly aligned. (Timing: 1-2 seconds of active arm control) [Pressure: Firm]
@@ -313,7 +311,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What creates the actual choking mechanism in the arm triangle - is it your arm squeezing, or the structural triangle formed by your arm and their shoulder?
 **A**: The choking mechanism is the structural triangle formed by your arm, their head, and their own shoulder. Your arm and their shoulder create a V-shape that compresses both carotid arteries. This is why the technique is called 'arm triangle' - it's the triangular structure that chokes, not muscular squeezing force. Understanding this principle allows you to finish the choke with proper positioning rather than exhausting strength-based squeezing.
 

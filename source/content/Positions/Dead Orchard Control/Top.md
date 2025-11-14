@@ -8,7 +8,7 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Dead Orchard Control from the Top?
 
 Dead Orchard Control Top is an advanced anaconda choke variation developed within the 10th Planet system, characterized by a specific grip configuration and body positioning that creates exceptional control while maintaining submission threat. This position represents a hybrid control state where the practitioner has secured the anaconda grip but emphasizes positional dominance and control mechanics over immediate submission completion. The nomenclature refers to the trapped, lifeless quality of the opponent's arm position combined with the systematic breakdown of their defensive structure. From top position, the practitioner establishes a deep anaconda-style grip around the opponent's neck and nearside arm while maintaining superior body positioning that prevents escape and creates submission opportunities. Unlike standard anaconda control, dead orchard control incorporates specific grip adjustments and weight distribution principles that allow for extended positional maintenance while gradually increasing submission pressure. This position is particularly effective in no-gi contexts where the practitioner can control timing and gradually advance position or finish the submission based on opponent reactions. The position serves as both a control platform and a submission gateway, allowing the practitioner to maintain dominant position while threatening the finish. Understanding dead orchard control requires mastery of anaconda mechanics, shoulder pressure application, and the ability to read opponent defensive patterns to determine optimal finishing timing.
 
@@ -456,17 +435,17 @@ Partner executes specific escape sequences from dead orchard control (hip escape
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Dead orchard control represents a sophisticated understanding of anaconda mechanics where the practitioner transitions from viewing the position purely as a submission setup to recognizing it as a complete control system. The biomechanical foundation rests on creating a closed kinetic chain around the opponent's neck and shoulder complex while simultaneously removing their ability to generate escape-relevant forces. The key distinction from standard anaconda positioning lies in the emphasis on shoulder pressure maintenance and grip depth optimization throughout extended control periods. By treating the position as a control platform first and submission second, the practitioner develops the patience and technical precision necessary to recognize optimal finishing windows rather than forcing low-percentage submission attempts. The systematic approach involves establishing the grip complex, securing superior body positioning, breaking down opponent defensive structures through gradual pressure increases, and finally capitalizing on defensive errors or fatigue to complete the submission. This methodology produces significantly higher success rates because the opponent's defensive capabilities have been systematically dismantled before the finishing sequence begins. The position exemplifies the principle that truly dominant control states should offer multiple offensive pathways while eliminating defensive options, creating a scenario where the opponent faces an increasingly impossible defensive problem as time progresses.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Dead orchard control is one of the highest-percentage no-gi positions I use in competition because it gives you complete control while maintaining constant submission threat. The position works exceptionally well against defensive specialists who are good at stalling from bottom positions because you're attacking their neck and structure simultaneously - they can't just turtle up and wait. What makes this position elite is that most opponents don't recognize the submission danger until it's too late because you're maintaining it as a control position rather than immediately attacking the finish. I focus on three main aspects: getting my grip as deep as possible initially so I don't have to readjust under pressure, driving my shoulder into their trapped shoulder to prevent any posture recovery, and controlling their hips so they can't create the distance needed to escape. When they start to fatigue from defending the position, that's when I tighten everything up and finish the choke. The position also sets up perfect transitions to mount or back control if they defend the submission correctly, so you're always advancing your position even if the finish isn't there. In competition, I use this to break opponents mentally because they're stuck defending with no clear escape path. The psychological pressure of being trapped in a position where you can feel the submission threat but can't effectively escape creates mistakes and opportunities that wouldn't exist with more explosive submission attempts.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Dead orchard control is a perfect example of 10th Planet's philosophy of creating positions that put opponents in constant dilemma situations where every defensive option opens up something else. The name comes from how dead and lifeless their trapped arm becomes - it's completely useless to them, like a dead tree in an orchard. What makes this position special is the grip variation and shoulder pressure combination that creates this weird trapped feeling opponents hate. You're not just going for the choke right away - you're cooking them, making them carry your weight while their arm is stuck in this uncomfortable position where it's actually working against them by being tight to their own neck. The innovation in dead orchard is recognizing that the anaconda grip can be a long-term control position in no-gi where you can maintain it, transition from it, and finish from it based on how they react. I teach students to think of it as a web - once they're caught in the dead orchard, every movement they make either tightens the submission or opens up a transition to a more dominant position. The psychological warfare aspect is huge because experienced opponents recognize they're in trouble but don't have a clear defensive path, which creates the kind of mental pressure that leads to mistakes and taps. Master this position and you've got a weapon that works at every level of competition.
 

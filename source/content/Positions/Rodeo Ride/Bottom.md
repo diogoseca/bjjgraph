@@ -8,7 +8,7 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 50% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Rodeo Ride from the Bottom?
 
 From the bottom perspective, being caught in Rodeo Ride represents a challenging defensive scenario where the opponent has established dynamic control over your turtle position. Unlike more stable top positions where you can wait for specific openings, Rodeo Ride's transitional nature means the top practitioner is constantly threatening multiple attacks and positional advancements. Your primary defensive objectives are to prevent back exposure, avoid submissions, and work systematically toward guard recovery or standing escape.
 
@@ -456,17 +437,17 @@ Starting from bottom of Rodeo Ride, work specifically on rolling to guard variat
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Defending Rodeo Ride requires understanding that you are in a transitional disadvantage where the opponent has multiple high-percentage paths to superior positions. The critical defensive concept is maintaining what I call 'structural integrity under dynamic pressure'—your turtle position must remain fundamentally sound even as you make the small movements necessary to create escape opportunities. The biomechanical challenge is that traditional static turtle defense is insufficient here; you must develop the ability to maintain defensive structure while creating movement. Focus on the relationship between your elbow position and your knee position—these must remain connected to prevent the opponent from inserting hooks or achieving back control. When escaping, your primary mechanical objective is to create a rotational moment that moves your hips away from the opponent's control while simultaneously recovering a guard position. The timing of this rotation is crucial: wait for the opponent's weight to shift forward toward your shoulders, then use that moment to rotate your hips back and recover guard.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From the bottom of Rodeo Ride against high-level opponents, you need to accept that you're in a bad position and your goal is damage control, not heroic escapes. The mistake I see constantly is people trying to explode out immediately, which just gives the top player what they want—movement they can capitalize on. Instead, stay heavy in your turtle, make them work for every inch of control, and wait for specific moments to attempt escapes. Against someone like me who's good at this position, your best bet is usually to roll to half guard when I commit my weight high attacking your neck. If I'm staying patient with good weight distribution, you might need to accept the back take and focus on defending the choke instead. In competition, I'd rather give up back control on my terms (when I'm ready to defend hands) than get caught in a clock choke or bow and arrow from turtle. The other key detail: never let your far arm get trapped. I can finish you from so many positions if I secure that crucifix control.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Rodeo Ride bottom position is actually an opportunity if you've trained the 10th Planet turtle game. Most people panic here and that's exactly what gets them in trouble. What we teach is to stay calm, maintain your turtle structure, and use the lockdown mindset even though you're in turtle—control what you can control. When the top guy attacks, that's your window. If they go for the clock choke, that's when you sit through to butterfly. If they commit to taking the back, you can sometimes catch them with a rolling reversal if your timing is sharp. The Granby roll is one of our primary escapes here, but it has to be explosive and committed—half-speed granby rolls just give up your back. Another underutilized option is the technical stand-up when they get too focused on upper body control. If you can get your hips under you and create that initial space, you can often disengage completely. The key is not being predictable—if you always try the same escape, good top players will anticipate and counter it. Mix up your timing and your escape selection.
 

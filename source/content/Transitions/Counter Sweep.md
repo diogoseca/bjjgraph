@@ -153,14 +153,10 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
 
 
 
-> Counter Sweep transitions from [[Guard Bottom Transition]] to [[Guard Pass]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Counter Sweep?
 
 Counter sweeping represents the critical defensive skill of neutralizing an opponent's sweep attempt while simultaneously converting their momentum into your own offensive advantage. This meta-technique encompasses the timing, weight distribution, and positional awareness necessary to prevent being swept from top position or to counter an opponent's sweep with your own reversal from bottom. The essence of counter sweeping lies in reading your opponent's commitment to a sweep direction, maintaining optimal base and posture, and exploiting the vulnerable moments created when they overcommit to the sweep attempt. Against any sweep, the top player must recognize the early indicators: grip changes, hip movement, hook placement, and weight shifts that telegraph the sweep direction. By maintaining proper base principles while remaining mobile enough to follow your opponent's movement, you can either shut down the sweep entirely or use their momentum against them. From bottom position, counter sweeping involves recognizing when your opponent has committed to defending your initial sweep, creating a situation where you can chain to a secondary sweep or transition. This skill separates intermediate practitioners from advanced competitors, as it requires reading multiple layers of action and reaction simultaneously.
 
@@ -200,7 +196,7 @@ Counter sweeping represents the critical defensive skill of neutralizing an oppo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize sweep initiation**: Identify the early indicators of the sweep attempt through opponent's grip changes, hip shifts, hook insertion, or weight redistribution. The moment you feel their base change or see grips adjusting for a sweep, your counter-sweep window opens. (Timing: React within first 0.5 seconds of sweep initiation)
 2. **Assess sweep direction and mechanics**: Quickly analyze which direction they're sweeping and what mechanical principles they're using (pushing/pulling your base, elevating your hips, disrupting your posting hand). This determines your counter strategy. (Timing: Simultaneous with recognition)
 3. **Execute base adjustment**: Widen your base in the direction opposite the sweep or step your leg back/forward to create a stable posting position. For lateral sweeps, step the threatened leg back and angle your body. For elevation sweeps, lower your hips and drive your weight forward into their guard. (Timing: Immediately upon sweep recognition)
@@ -294,7 +290,7 @@ Full resistance training with emphasis on recognizing and defending sweeps while
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the three primary indicators that a sweep attempt is being initiated from closed guard?
 **A**: The three primary indicators are: (1) grip changes where opponent establishes stronger control on your sleeves, collar, or posture, (2) hip and shoulder movement where opponent begins to create angles or elevate their hips off the mat, and (3) your own posture being broken forward or pulled in a specific direction indicating they're loading the sweep mechanics. Advanced practitioners also recognize the subtle weight shifts and tension changes that precede visible movement.
 

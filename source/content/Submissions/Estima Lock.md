@@ -153,14 +153,12 @@ description: "Master Estima Lock foot submission with safety protocols, setup fr
 
 
 
-> Estima Lock is a leg lock targeting the Foot and ankle joints (dorsiflexion of foot). ⚠️ **SAFETY**: This technique can cause Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Estima Lock targets the Foot and ankle joints (dorsiflexion of foot). Risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Estima Lock?
 
 The Estima Lock is a sophisticated foot lock submission targeting the ankle and foot through dorsiflexion pressure. Named after Victor Estima who popularized the technique, this submission applies pressure by using the back of the opponent's knee to create a fulcrum while controlling the foot. The Estima Lock is most commonly executed from leg entanglement positions, particularly the 50-50 guard, where both practitioners' legs are entangled and the positioning creates ideal mechanical advantage for the foot attack.
 
@@ -250,7 +248,7 @@ The technique requires precise control and understanding of leg entanglement mec
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish leg entanglement control**: From 50-50 guard bottom or similar leg entanglement, ensure your legs are properly positioned around opponent's leg. Your inside leg should be positioned with the shin or calf behind opponent's knee. Maintain close hip positioning to prevent opponent from creating distance and straightening their leg. (Timing: Initial setup: 2-3 seconds) [Pressure: Light]
 2. **Secure foot grip with both hands**: Reach down and grip opponent's foot with both hands. Position your fingers across the top of the foot (dorsal surface) with thumbs underneath (plantar surface). Your grip should be near the ball of the foot, not the toes. Ensure the grip is tight and controlled before proceeding to pressure application. (Timing: Grip establishment: 1-2 seconds) [Pressure: Light]
 3. **Position attacking leg behind knee**: Adjust your leg position so that the back of opponent's knee rests against your shin or calf. Your knee should be bent at approximately 90 degrees or slightly more. This creates the fulcrum point where pressure will be applied. Ensure your foot is positioned to provide stability and prevent opponent from pulling their leg free. (Timing: Leg positioning: 1-2 seconds) [Pressure: Light]
@@ -324,7 +322,7 @@ The technique requires precise control and understanding of leg entanglement mec
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical target of the Estima Lock and what motion creates the pressure?
 **A**: The Estima Lock targets the ankle joint and foot ligaments through dorsiflexion (upward bending) of the foot. The pressure is created by pulling the foot toward the shin with the hands while using the attacking leg behind the opponent's bent knee as a fulcrum point. This combination of forces creates intense pressure on the deltoid ligament, talofibular ligaments, and other ankle structures.
 

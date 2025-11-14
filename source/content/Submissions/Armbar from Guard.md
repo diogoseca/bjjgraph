@@ -147,14 +147,12 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 
 
 
-> Armbar from Guard is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Armbar from Guard targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Armbar from Guard?
 
 The armbar from guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu. This technique targets the elbow joint by hyperextending it against the natural range of motion, forcing a tap or causing structural damage. From closed guard, the armbar represents a perfect marriage of positional control and finishing mechanics—you maintain the defensive safety of guard position while simultaneously attacking with a fight-ending submission. The armbar from guard is typically the first submission taught to beginners because it introduces the essential concepts of angle creation, hip control, and limb isolation that underpin all joint lock attacks. What makes this technique particularly effective is that it can be entered from multiple guard variations and combined seamlessly with other attacks like triangles and omoplatas, creating powerful submission chains that are difficult to defend.
 
@@ -239,7 +237,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Break posture and secure arm control**: From closed guard, use your legs to break opponent's posture by pulling their head down toward you. Simultaneously secure a cross-collar grip with your right hand (if attacking their left arm) or establish a strong sleeve grip. Your goal is to bring their head down while maintaining control of the attacking arm. (Timing: Initial setup - maintain until posture is broken) [Pressure: Moderate]
 2. **Isolate and trap the attacking arm**: Pull the attacking arm across your centerline using your sleeve or collar grip. Your free hand should overhook their arm and grip your own thigh or shin to lock it in place. This isolation prevents them from pulling their arm back to safety. The arm should be positioned with their thumb pointing up, setting up proper elbow alignment. (Timing: 1-2 seconds - secure before creating angle) [Pressure: Firm]
 3. **Create angle and position attacking leg**: Open your guard and immediately place your left leg (opposite side to attacking arm) across the back of opponent's head and neck. Simultaneously shift your hips out at approximately 45-90 degrees to create the perpendicular angle. This leg prevents them from posturing up and escapes, while the angle gives you mechanical advantage. (Timing: Explosive transition - 1 second) [Pressure: Moderate]
@@ -309,7 +307,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is it critically important to apply armbar pressure slowly and progressively in training rather than using competition speed? **[SAFETY-CRITICAL]**
 **A**: Slow, progressive application allows your training partner adequate time to recognize the danger and tap before injury occurs. Elbow joints can be damaged in fractions of a second with explosive pressure, potentially requiring surgery and months of recovery. The elbow joint has less sensory feedback than other joints, so partners may not feel pain until structural damage is already occurring. Training is about learning and improvement, not injury, so controlled application is essential for long-term training partner relationships and safety culture.
 

@@ -153,14 +153,10 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
 
 
 
-> Guillotine Setup transitions from [[Front Headlock]] to [[Guillotine Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guillotine Setup?
 
 The Guillotine Setup represents one of the most fundamental and highest-percentage submission entries in Brazilian Jiu-Jitsu, serving as a critical bridge between controlling the opponent's head and securing a fight-finishing choke. This transition capitalizes on the dominant front headlock position, where the practitioner has already secured head control and posture dominance, and systematically converts this control into a guillotine choke configuration. The setup is characterized by precise arm placement around the opponent's neck, proper hand positioning for maximum leverage, and strategic body alignment that maximizes choking pressure while minimizing escape opportunities. What makes this setup particularly valuable is its versatility across multiple contexts—it can be executed from standing exchanges, scrambles, failed takedown attempts, or ground transitions, making it an essential tool for practitioners at all levels. The guillotine setup embodies the principle of capitalizing on opponent mistakes, as it most commonly presents itself when an opponent shoots for a takedown, turtles defensively, or attempts to pass guard with poor posture. Understanding the nuances of grip configuration, head positioning, and hip placement during the setup phase dramatically increases the success rate of the subsequent choke, as a properly established guillotine is extraordinarily difficult to defend once locked in place.
 
@@ -199,7 +195,7 @@ The Guillotine Setup represents one of the most fundamental and highest-percenta
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure front headlock position**: Establish dominant front headlock control with your arm wrapped around opponent's head, controlling the back of their neck with your armpit. Your opposite hand should control their far arm or shoulder to prevent them from establishing a defensive frame. Maintain your weight distributed over their back to keep their posture broken. (Timing: Initial control phase)
 2. **Thread choking arm deep**: Release your controlling arm and immediately thread it deep under the opponent's chin, driving your forearm across their throat. The goal is to get your wrist bone positioned directly against their trachea rather than having the soft part of your forearm against their neck. Push your shoulder forward as you thread to maximize depth and prevent them from tucking their chin. (Timing: As opponent attempts to recover or advance)
 3. **Establish choking grip**: Once your choking arm is deep, bring your opposite hand to meet it. For maximum leverage, use a palm-to-palm grip (sometimes called 'gable grip') or interlace your fingers if your arms are long enough. The key is creating a tight closed loop around the neck with no gaps. Your choking-side shoulder should be tight against the side of their head. (Timing: Immediately after threading arm)
@@ -291,7 +287,7 @@ Incorporate guillotine setups into live rolling with specific focus on recognizi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical landmark you should aim for when threading your choking arm under the opponent's chin?
 **A**: You should aim to position your wrist bone (the bony prominence on the thumb side of your wrist) directly against the opponent's trachea rather than having the soft, muscular part of your forearm against their neck. This creates focused pressure on the most vulnerable part of the throat and prevents them from creating space by tucking their chin. The wrist bone acts as a hard point of pressure that is extremely difficult to defend against when properly positioned.
 

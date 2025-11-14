@@ -159,14 +159,10 @@ description: "Master the critical tap out protocol in BJJ. Learn proper tap sign
 
 
 
-> Tap Out transitions from [[Defensive Position]] to [[Lost by Submission]]. Success rates: Beginner 95%, Intermediate 98%, Advanced 99%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Tap Out?
 
 The tap out is the most fundamental safety mechanism in Brazilian Jiu-Jitsu, representing the universal signal of submission and the practitioner's acknowledgment that they have been caught in a technique they cannot escape. This critical protocol transcends technique and competition, serving as the cornerstone of safe training that allows practitioners to push their limits while minimizing injury risk. Understanding when and how to tap is essential for longevity in the sport, as pride-driven resistance to tapping leads to unnecessary injuries that can end careers. The tap out requires no technical skill but demands mental discipline, ego management, and trust in the training environment. Every practitioner from white belt to black belt must respect the tap, both as the person applying submissions and as the one caught in them. This mutual respect for the tap creates the safe training environment that allows BJJ to be practiced at full intensity without the injury rates seen in other combat sports.
 
@@ -206,7 +202,7 @@ The tap out is the most fundamental safety mechanism in Brazilian Jiu-Jitsu, rep
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize submission danger**: Identify that you are caught in a submission position where escape is no longer possible or where continuing to resist will result in injury. This includes recognizing joint hyperextension, airway restriction, or blood choke that is progressing to completion. The key is early recognition before damage occurs. (Timing: Immediately upon recognizing inescapable position)
 2. **Make tap decision**: Override ego and pride to make the rational decision to tap. This mental step is often harder than the physical tap itself, especially for competitive practitioners. Remember that tapping preserves your ability to train tomorrow, while resisting may cause injury that prevents training for weeks or months. (Timing: Within 1-2 seconds of recognition)
 3. **Execute physical tap**: Tap your partner's body firmly with an open palm at least two to three times in rapid succession. The tap should be on any part of their body you can reach - arm, leg, torso, or head. Use enough force to be clearly felt but not so much as to be aggressive. The standard is multiple taps to ensure the signal is not mistaken for incidental contact. (Timing: Immediately upon decision to tap)
@@ -289,7 +285,7 @@ Equally important as knowing when to tap is immediately releasing submissions wh
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it important to tap early and often in training rather than testing your limits?
 **A**: Tapping early in training prevents injuries that would prevent you from training at all. The purpose of training is to improve skills over time, which requires consistent mat time. One preventable injury from not tapping can mean weeks or months away from training, dramatically slowing your progress. Additionally, tapping early allows you to learn the submission mechanics and setups without the distraction of pain or injury fear, making it a superior learning tool. Elite practitioners tap constantly in training to preserve their bodies for competition and long-term practice.
 

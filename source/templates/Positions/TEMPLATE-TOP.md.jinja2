@@ -8,7 +8,7 @@ description: "{{ top.description }}"
 ---
 
 {# PostHog A/B Testing Metadata #}
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -108,31 +108,10 @@ description: "{{ top.description }}"
 -->
 {% endif %}
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control {{ top.position_metrics.retention_rate.advanced }}% of the time and finish submissions in {{ top.position_metrics.submission_probability.advanced }}%.
-
----
-
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: `{{ top.state_id }}`
-- **Point Value**: {{ top.state_properties.point_value }} ({% if top.state_properties.point_value == 4 %}Dominant position{% elif top.state_properties.point_value == 3 %}Guard pass{% elif top.state_properties.point_value == 2 %}Advantage{% else %}{{ top.state_properties.point_value }} points{% endif %})
-- **Position Type**: {{ top.state_properties.position_type }}
-- **Risk Level**: {{ top.state_properties.risk_level }}
-- **Energy Cost**: {{ top.state_properties.energy_cost }}
-- **Time Sustainability**: {{ top.state_properties.time_sustainability }}
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is {{ top.name.replace(' (Attacks)', '').replace(' Top', '') }} from the Top?
 
 {{ top.overview }}
 
@@ -281,17 +260,17 @@ description: "{{ top.description }}"
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 {{ top.expert_insights.danaher }}
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 {{ top.expert_insights.gordon_ryan }}
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 {{ top.expert_insights.eddie_bravo }}
 

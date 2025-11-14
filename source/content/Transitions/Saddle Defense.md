@@ -159,14 +159,10 @@ description: "Learn Saddle Defense in BJJ. Step-by-step escape from one of the m
 
 
 
-> Saddle Defense transitions from [[Saddle]] to [[Standing Position]]. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Saddle Defense?
 
 The Saddle Defense (also known as the Honey Hole or 4-11 escape) is a critical defensive sequence designed to escape one of the most dangerous leg entanglement positions in modern BJJ. When caught in the saddle, your opponent controls both your legs while isolating one for heel hook attacks, creating an extremely high-risk submission threat. This defense prioritizes immediate heel protection through proper positioning of the trapped leg, systematic dismantling of opponent control points, and strategic recovery to safer positions. The technique requires precise understanding of leg entanglement mechanics, as improper defensive movements can actually facilitate the heel hook finish. Successfully executing this escape involves controlling your opponent's hip alignment, clearing their leg triangle configuration, and creating the rotational space needed to extract your trapped leg. This is considered an advanced technique due to the severe injury risk associated with heel hooks and the technical precision required under extreme pressure.
 
@@ -205,7 +201,7 @@ The Saddle Defense (also known as the Honey Hole or 4-11 escape) is a critical d
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Hide the heel immediately**: The moment you recognize the saddle position, internally rotate your trapped leg by turning your foot inward toward your opposite leg. This heel-hiding position prevents your opponent from establishing the heel hook grip and buys crucial time for your escape sequence. Keep your foot actively turned in throughout the entire escape process. (Timing: Immediate upon position recognition)
 2. **Clear the near leg connection**: Using your free leg, step over and clear your opponent's near leg (the leg that is underneath your trapped leg). Push this leg down and away while posting your free foot on the mat. This breaks the leg triangle configuration and removes one control point, making it harder for your opponent to maintain the saddle structure. (Timing: 1-2 seconds after heel hiding)
 3. **Control opponent's hip**: Reach your inside hand (same side as trapped leg) to grab your opponent's hip, belt, or pants at the hip. Apply forward pressure to prevent them from creating distance or falling backward to secure deeper control. This hand becomes your steering wheel for controlling their body position throughout the escape. (Timing: Simultaneously with leg clearing)
@@ -302,7 +298,7 @@ Work on recognizing and defending saddle entries before position is fully establ
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the first and most critical defensive action when caught in saddle position?
 **A**: Immediately hide the heel by internally rotating the trapped foot (turning it inward toward your opposite leg). This prevents your opponent from establishing the heel hook grip and is your primary safety mechanism throughout the entire escape sequence. The heel must remain hidden during all subsequent clearing and rotation movements.
 

@@ -153,14 +153,10 @@ description: "Master Snap Down to Front Headlock. Complete guide from standing c
 
 
 
-> Snap Down to Front Headlock transitions from [[Clinch]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Snap Down to Front Headlock?
 
 The Snap Down to Front Headlock is a fundamental wrestling-based technique that transitions from standing clinch positions to dominant ground control. This technique exploits opponent's posture and weight distribution by using explosive downward force combined with precise grip positioning to break their base and establish front headlock control. The snap down is particularly effective against opponents who maintain upright posture or attempt to establish collar ties, as it capitalizes on their forward pressure and redirects their momentum downward.
 
@@ -203,7 +199,7 @@ The snap down's effectiveness lies in its ability to bypass traditional takedown
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish primary head control**: From standing clinch position, secure a firm grip on the back of opponent's head or neck using your lead hand. Position your palm against the rear of their skull or clasp behind their neck, ensuring your elbow is positioned near their shoulder line. This creates the primary control point that will direct their descent. (Timing: Initial setup - establish before opponent can counter-grip)
 2. **Secure secondary control point**: With your trailing hand, establish a second control point by gripping opponent's tricep, latissimus dorsi, or securing an overhook on their near arm. This secondary grip prevents them from posting or creating defensive frames during the snap. The two-point control system is essential for maintaining dominance throughout the transition. (Timing: Immediately following head control)
 3. **Create forward pressure and load opponent's weight**: Pull opponent's head slightly forward and down while maintaining your upright posture. This loading phase causes them to either resist by pushing back or to shift their weight forward. Both reactions create the necessary conditions for an explosive snap. Feel for their weight commitment before executing the primary movement. (Timing: 1-2 seconds of loading pressure)
@@ -305,7 +301,7 @@ Develop snap down variations for different body types, gi vs. no-gi contexts, an
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the two critical grip positions required before executing an effective snap down to front headlock?
 **A**: The two critical grips are: (1) Primary head/neck control - hand positioned behind opponent's skull or neck with firm pressure, and (2) Secondary control point - grip on opponent's tricep, lat, or overhook on near arm. This two-point control system prevents opponent from posting or creating defensive frames while providing the necessary leverage to direct their descent and maintain control throughout the transition.
 

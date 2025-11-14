@@ -75,14 +75,12 @@ This directory contains templates for creating BJJ position content with hub-and
   },
 
   "bottom": {
-    "state_id": "S015",
     "metadata": {...},
     "overview": "400+ words (defensive)",
     // ALL 15 sections (full content)
   },
 
   "top": {
-    "state_id": "S016",
     "metadata": {...},
     "overview": "400+ words (offensive)",
     // ALL 15 sections (full content)
@@ -102,12 +100,10 @@ This directory contains templates for creating BJJ position content with hub-and
   "slug": "turtle",
 
   "bottom": {
-    "state_id": "S042",
     // ALL 15 sections (defensive focus)
   },
 
   "top": {
-    "state_id": "S043",
     // ALL 15 sections (offensive focus)
   }
 }
@@ -122,7 +118,6 @@ This directory contains templates for creating BJJ position content with hub-and
 ```json
 {
   "metadata": {
-    "state_id": "S001",
     "title": "...",
     "tags": [...]
   },

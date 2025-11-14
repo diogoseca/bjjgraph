@@ -8,7 +8,7 @@ description: "Master Buggy Choke position in BJJ. Strategic guide covering turtl
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Buggy Choke position in BJJ. Strategic guide covering turtl
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Buggy Choke?
 
 The Buggy Choke position represents a sophisticated turtle attack system that bridges the gap between positional control and immediate submission threats. This specialized grip configuration emerged from gi competition where practitioners needed more aggressive turtle attacks beyond traditional back takes. The position's defining characteristic is the threaded arm under the opponent's armpit reaching to the far collar, creating simultaneous choking pressure and postural breakdown.
 
@@ -50,7 +48,7 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Threading arm trades stability for submission
+**Key Difference:** Threading arm trades stability for submission
 
 
 
@@ -76,10 +74,6 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 ## Playing as Bottom
 
 [[Buggy Choke/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -153,10 +147,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Buggy Choke/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -243,7 +233,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

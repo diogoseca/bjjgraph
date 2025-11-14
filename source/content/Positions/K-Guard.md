@@ -8,7 +8,7 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is K-Guard?
 
 K-Guard is a dynamic half guard variation characterized by an inverted butterfly hook configuration that creates a distinct 'K' shape with the legs. This position combines elements of deep half guard retention with butterfly guard mechanics, allowing the bottom practitioner to maintain distance control while threatening immediate sweeps and back-takes. From the top perspective, it presents unique passing challenges requiring systematic pressure and grip dominance to overcome the bottom player's active hook system and framing structures.
 
@@ -50,7 +48,7 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium to Long |
 
-**What Makes This Unique:** Inverted hook trades static control for dynamics
+**Key Difference:** Inverted hook trades static control for dynamics
 
 
 
@@ -76,10 +74,6 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ## Playing as Bottom
 
 [[K-Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -161,10 +155,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[K-Guard/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -244,7 +234,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -153,14 +153,10 @@ description: "Learn Guard Replacement in BJJ. Step-by-step execution from compro
 
 
 
-> Guard Replacement transitions from [[Defensive Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guard Replacement?
 
 Guard Replacement is a fundamental defensive transition that allows a bottom player to re-establish guard control after their opponent has begun to pass or compromise their guard structure. This technique is essential for maintaining defensive integrity and preventing the opponent from advancing to more dominant positions like side control or mount. The movement combines hip escape mechanics, framing, and timing to create the necessary space and angle to reinsert the guard.
 
@@ -203,7 +199,7 @@ Guard replacement serves as a bridge between losing guard control and being full
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish frames**: Create defensive frames using your hands and forearms against the opponent's shoulders, hips, or head. The frames should be rigid enough to create distance but not so extended that they can be easily collapsed. Position your elbows at approximately 90 degrees, using skeletal structure rather than pure muscle strength to maintain the barrier. Your hands should be active, constantly adjusting to redirect opponent's pressure away from your centerline. (Timing: Immediately upon recognizing guard is being compromised)
 2. **Hip escape (shrimp)**: Execute a powerful hip escape by turning onto your side, posting your inside foot on the mat, and driving your hips away from the opponent at approximately a 45-degree angle. Your outside shoulder should touch or nearly touch the mat as you create this angle. The shrimp should be explosive enough to create 6-12 inches of space between your hip and the opponent. Maintain your frames throughout this movement to prevent the opponent from following your hips. (Timing: Execute when opponent commits weight forward)
 3. **Create angle**: As you shrimp, rotate your body to create an angle perpendicular or nearly perpendicular to your opponent's torso. This angle is critical because it increases the distance your legs must travel to recover guard while making it more difficult for the opponent to pressure directly into you. Your head should move away from the opponent while your hips create space. Keep your shoulders off the mat and weight on your side to maintain mobility. (Timing: Simultaneous with hip escape)
@@ -305,7 +301,7 @@ Guard replacement becomes an automatic response integrated with other retention 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the optimal angle to shrimp during guard replacement and why is angle more important than distance?
 **A**: The optimal angle is approximately 45 degrees or greater relative to the opponent's torso. Angle is more important than linear distance because it creates perpendicular positioning that increases the effective distance your opponent must travel to maintain passing pressure. A 45-degree shrimp creates more functional space than a longer straight-back shrimp because it forces the opponent to redirect their pressure rather than simply following in a straight line. The angle also facilitates the swinging motion needed to recover the far leg around the opponent's body.
 

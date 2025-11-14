@@ -153,14 +153,10 @@ description: "Master Rolling to Guard in BJJ. Dynamic defensive recovery from bo
 
 
 
-> Rolling to Guard transitions from [[Defensive Position]] to [[Closed Guard]]. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rolling to Guard?
 
 Rolling to Guard is a fundamental defensive recovery technique that allows a practitioner to transition from an inferior bottom position back to a guard position using dynamic movement and hip rotation. This technique is essential for escaping bad positions, recovering guard after a scramble, or regaining a defensive frame when an opponent attempts to establish control. The rolling motion creates space, disrupts opponent positioning, and allows the practitioner to reestablish their legs as a barrier between themselves and their opponent. This movement is particularly effective when combined with proper framing and timing, as it converts defensive desperation into offensive opportunity. The technique requires coordination, body awareness, and understanding of when to commit to the roll versus when to use alternative escapes. Mastery of rolling to guard is a hallmark of effective guard retention and defensive grappling.
 
@@ -199,7 +195,7 @@ Rolling to Guard is a fundamental defensive recovery technique that allows a pra
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish frames**: Create initial space by placing frames on opponent's hips, shoulders, or biceps. Push away to generate enough distance for the rolling motion to begin. Your frames should be strong but not rigid, allowing you to feel opponent's pressure and reactions. (Timing: Immediately when opponent attempts to close distance)
 2. **Turn to side**: Rotate your body onto your side, positioning your shoulder toward the mat. This creates the initial angle necessary for the roll and prevents you from being flattened. Your bottom arm should be ready to post on the mat for support. (Timing: As frames create initial space)
 3. **Tuck chin and initiate roll**: Tuck your chin to your chest to protect your neck and initiate the backward roll by driving off your shoulder. Your head should never touch the mat directly - the roll should go across the upper back and shoulders. Begin rotating your hips backward and overhead. (Timing: When opponent's pressure shifts or weight commits forward)
@@ -291,7 +287,7 @@ Incorporate rolling to guard into full sparring rounds, using it reactively base
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to tuck your chin during a rolling to guard movement?
 **A**: Tucking the chin protects the cervical spine and prevents neck injury by ensuring the roll occurs across the upper back and shoulders rather than directly on the head or neck. This creates a safer, more controlled rolling surface and prevents compression injuries that could occur if the head contacts the mat with your body weight. Additionally, a tucked chin maintains better positional awareness as you can track your opponent throughout the movement.
 

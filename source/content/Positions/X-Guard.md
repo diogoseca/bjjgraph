@@ -8,7 +8,7 @@ description: "Master X-Guard in BJJ with comprehensive analysis from both top an
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master X-Guard in BJJ with comprehensive analysis from both top an
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is X-Guard?
 
 X-Guard is an advanced open guard position where the bottom practitioner entangles one of the opponent's legs using both of their own legs in an 'X' configuration, creating powerful leverage for sweeps and transitions. This position provides exceptional control over the opponent's balance and mobility by eliminating one of their posting bases while creating strong elevating forces. Developed and popularized by Marcelo Garcia, X-Guard has become a fundamental component of modern BJJ guard systems, particularly in no-gi competition where it offers high-percentage sweeps against standing opponents. The position serves as a critical junction point between traditional sweeping guards and modern leg entanglement systems, offering both offensive sweep opportunities and pathways to ashi garami positions. The mechanical advantage stems from creating a fulcrum underneath the opponent's center of gravity while simultaneously removing one of their two posting bases, resulting in a 50% reduction in their base stability.
 
@@ -46,15 +44,15 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 
 
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[X-Guard]] | Medium | Medium | Low | Medium | Leg-based control eliminates grip dependency |
 | [[Reverse X-Guard]] | Medium | Medium | Medium | Medium | Inverted orientation for explosive lifting |
 | [[Single Leg X-Guard]] | Medium | Medium | Medium | Medium | Leg isolation creates sweep-submission duality |
@@ -69,10 +67,6 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ## Playing as Bottom
 
 [[X-Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -154,10 +148,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[X-Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -230,29 +220,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 - ❌ **Ignoring leg entanglement opportunities when opponent inverts deeply**
   - Consequence: Missing high-percentage finishing opportunities and allowing opponent to maintain control of the engagement
   - ✅ Correction: Recognize when opponent's inversion exposes them to saddle or ashi positions and capitalize on these submissions or dominant positions
-
-
-</section>
-
-
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-
-### [[Reverse X-Guard]]
-
-Mirror variation used when opponent circles opposite side
-
-[Explore Reverse X-Guard →](./Reverse X-Guard)
-
-
-### [[Single Leg X-Guard]]
-
-Natural variation when opponent pulls trapped leg back
-
-[Explore Single Leg X-Guard →](./Single Leg X-Guard)
-
 
 
 </section>

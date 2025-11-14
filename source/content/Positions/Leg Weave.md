@@ -8,7 +8,7 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Leg Weave?
 
 Leg Weave is a sophisticated guard passing position where one player threads their leg between the opponent's legs to establish control and disrupt defensive structures. This position represents a critical juncture in modern Brazilian Jiu-Jitsu where the passer creates a mechanical advantage through leg positioning while the bottom player must employ specific defensive strategies to prevent the pass or create counter-attacks.
 
@@ -50,7 +48,7 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**What Makes This Unique:** Threading leg trades mobility for passing power
+**Key Difference:** Threading leg trades mobility for passing power
 
 
 
@@ -76,10 +74,6 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ## Playing as Bottom
 
 [[Leg Weave/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -157,10 +151,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Leg Weave/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -232,7 +222,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

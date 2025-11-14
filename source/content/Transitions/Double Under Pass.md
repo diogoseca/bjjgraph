@@ -153,14 +153,10 @@ description: "Master the Double Under Pass in BJJ. Control-based guard pass usin
 
 
 
-> Double Under Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Double Under Pass?
 
 The Double Under Pass is a fundamental pressure-based guard passing technique that relies on establishing bilateral underhooks beneath the opponent's legs. This pass is characterized by its heavy control orientation, making it extremely difficult for the opponent to retain guard once proper positioning is achieved. The technique involves methodically breaking down the opponent's defensive frames, consolidating position with chest-to-chest pressure, and using controlled lateral movement to clear the legs and establish side control.
 
@@ -203,7 +199,7 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish first underhook**: From open guard top position, begin by breaking any grips the opponent has on your upper body using grip breaks or hand fighting. Drop your weight forward slightly and swim your first arm deep underneath one of the opponent's legs, achieving an underhook position with your elbow on the inside of their thigh. Your hand should reach across their body toward the opposite hip, establishing a deep hook that prevents them from easily extracting their leg. (Timing: Initial setup phase, no rush)
 2. **Establish second underhook**: With the first underhook secure, immediately work to establish the second underhook beneath the opponent's other leg. This requires you to drop your chest pressure onto their hips and legs while swimming your second arm underneath. Both hands should now be behind the opponent's body, with your forearms crossed or parallel beneath their legs. This bilateral underhook configuration is the foundation of the entire pass. (Timing: Quickly after first underhook, before opponent can frame)
 3. **Consolidate chest pressure**: Once both underhooks are established, drop your full chest weight onto the opponent's hips and thighs, driving them toward the mat. Your head should be positioned on one side of their body (typically the side you plan to pass toward), with your ear near their ribcage or shoulder area. Lock your hands together behind their back if possible, creating a tight grip that prevents separation. This pressure should be overwhelming and constant, making it extremely difficult for them to create space or move their hips. (Timing: Immediate consolidation after achieving double unders)
@@ -300,7 +296,7 @@ Incorporate the double under pass into your active passing game during live roll
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical element to establish before attempting to clear the opponent's legs in the double under pass?
 **A**: The most critical element is establishing heavy, constant chest-to-chest pressure while maintaining deep bilateral underhooks. Without this consolidated pressure, the opponent can easily create space with frames, recover guard, or execute sweeps. The pressure must be so dominant that the opponent's mobility is severely restricted before you begin the lateral movement to clear legs.
 

@@ -147,14 +147,12 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 
 
 
-> Armbar from Back is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Armbar from Back targets the Elbow joint. Risk: Elbow hyperextension or dislocation. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Armbar from Back?
 
 The Armbar from Back Control represents one of the most devastating finishing sequences in Brazilian Jiu-Jitsu, combining positional dominance with precise joint manipulation. From the back mount position, where you already control the most advantageous position in grappling, the armbar becomes available when the opponent defends the rear naked choke by gripping their hands together or tucking their chin. This submission targets the elbow joint through hip extension and leg control, creating a mechanical advantage that makes escape nearly impossible once properly locked. The transition from back control to armbar requires careful weight distribution and timing, as abandoning the back position prematurely can result in losing dominant control. Elite grapplers use this technique as part of a systematic attack chain, forcing opponents into defensive dilemmas where defending the choke opens the arm, and protecting the arm exposes the neck. The armbar from back is particularly effective in competition because it maintains control throughout the transition, preventing opponents from improving position even if they defend the initial submission attempt.
 
@@ -235,7 +233,7 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure back control and establish dominant grips**: From back mount position, establish seat belt control with one arm over the shoulder and one arm under the armpit. Insert both hooks deep, with your heels inside opponent's thighs. Alternatively, secure a body triangle for even tighter control. Your chest should be heavy on opponent's upper back, breaking their posture forward. (Timing: Take 2-3 seconds to ensure hooks and grips are solid) [Pressure: Firm]
 2. **Threaten the rear naked choke to elicit defensive response**: Slide your choking arm's hand toward opponent's opposite collar or position your forearm across their throat. This forces opponent to defend by either gripping their hands together, tucking their chin, or grabbing your choking arm with both hands. This defensive reaction is what opens the armbar opportunity by extending their arms away from their body. (Timing: 1-2 seconds to establish choke threat) [Pressure: Moderate]
 3. **Isolate the defending arm**: As opponent grips their hands together or grabs your choking arm, use your non-choking hand to grip their defending wrist. If they're using a grip break defense, wait for the moment when one arm extends slightly. Cup their wrist from underneath with your palm up, thumb on the inside of their wrist. Your choking arm wraps over their shoulder to help control the isolated arm. (Timing: 1-2 seconds to establish wrist control) [Pressure: Firm]
@@ -303,7 +301,7 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must opponent's thumb point upward during the armbar finish? **[SAFETY-CRITICAL]**
 **A**: The thumb-up position ensures proper alignment of the elbow joint for the submission. When the thumb points upward, the elbow's natural hinge is positioned perpendicular to your hip extension, allowing the joint to hyperextend as intended. If the thumb points down, the elbow rotates out of alignment, making the submission ineffective and potentially directing pressure to the shoulder instead of the elbow, which can cause unintended injury.
 

@@ -8,7 +8,7 @@ description: "Master front headlock position in BJJ. Strategic control position 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master front headlock position in BJJ. Strategic control position 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Front Headlock?
 
 The front headlock is one of the most dominant control positions in Brazilian Jiu-Jitsu, occurring when you secure your opponent's head and neck while they are bent forward, typically on their hands and knees or in a compromised standing position. This position represents a critical junction point in grappling where numerous high-percentage submissions and positional advancements become available.
 
@@ -56,7 +54,7 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -70,7 +68,7 @@ Understanding the front headlock requires recognizing its role as a transitional
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**What Makes This Unique:** Bent-over control with submission versatility
+**Key Difference:** Bent-over control with submission versatility
 
 
 
@@ -82,10 +80,6 @@ Understanding the front headlock requires recognizing its role as a transitional
 ## Playing as Bottom
 
 [[Front Headlock/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -163,10 +157,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Front Headlock/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -250,7 +240,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

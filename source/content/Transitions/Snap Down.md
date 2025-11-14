@@ -147,14 +147,10 @@ description: "Master the Snap Down in BJJ. Control opponent's posture from stand
 
 
 
-> Snap Down transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Snap Down?
 
 The Snap Down is a fundamental wrestling-based technique that has become essential in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique exploits an opponent's upright posture by rapidly pulling their head and upper body downward, forcing them into a compromised position. The Snap Down creates immediate offensive opportunities, allowing you to transition into dominant positions like front headlock control, back takes, or submission attacks. The effectiveness of the snap down lies in its simplicity and timing - when executed properly, it combines grip control, body positioning, and explosive downward force to break your opponent's base and posture. This technique is particularly valuable because it works across all skill levels and can be chained with numerous follow-up attacks, making it a cornerstone of standing grappling exchanges in BJJ.
 
@@ -193,7 +189,7 @@ The Snap Down is a fundamental wrestling-based technique that has become essenti
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish collar tie control**: Secure a strong collar tie with your lead hand on the back of opponent's neck, fingers interlaced behind their skull. Your grip should be firm but not overly tight, positioned where neck meets skull for maximum control. Simultaneously control their opposite wrist or tricep with your other hand. (Timing: Initial engagement phase)
 2. **Create angle and load hips**: Step slightly off-center to opponent's lead side while lowering your center of gravity. Bend your knees deeply and load your hips backward, creating stored energy like a compressed spring. Your posture should be athletic with chest up and back straight. (Timing: Setup phase)
 3. **Generate upward pull**: Pull opponent's head upward slightly with your collar tie, causing them to extend their neck and rise onto their toes momentarily. This creates the illusion you're attempting to control them in the clinch, causing them to resist by pulling back or driving forward. (Timing: Feint to create reaction)
@@ -286,7 +282,7 @@ Develop personal snap down system including setups, primary attacks, and backup 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary source of power generation in an effective snap down?
 **A**: The primary power source is explosive hip extension coordinated with arm pull, not just arm strength alone. The technique requires loading your hips backward like a compressed spring, then extending them forward violently while simultaneously pulling down with your collar tie. This hip drive generates significantly more force than arms alone and allows you to break even larger opponents' posture. The arms guide the direction, but the legs and hips provide the power.
 

@@ -147,14 +147,12 @@ description: "Master Triangle Choke from Back Control in BJJ. Complete guide wit
 
 
 
-> Triangle Choke Back is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle Choke Back targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle Choke Back?
 
 The Triangle Choke from Back Control represents an advanced finishing option that combines the control dominance of back position with the mechanical efficiency of the triangle. This submission emerges when the opponent begins defending the rear naked choke by protecting their neck, creating an opportunity to transition to a different strangling mechanism. Unlike the traditional front triangle from guard, the rear triangle utilizes the already-established back control framework, making it particularly effective when opponents successfully defend traditional back attacks.
 
@@ -245,7 +243,7 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish dominant back control position**: Begin from standard back control with seat belt grip (one arm over shoulder, one under armpit) or body triangle. Ensure you have at least one hook in if not using body triangle. Your chest should be tight to opponent's back with your head positioned to one side of their head. Maintain constant forward pressure to keep opponent defensive. (Timing: Hold stable position for 2-3 seconds before initiating) [Pressure: Firm]
 2. **Attack rear naked choke to create defensive reaction**: Slide your choking arm (typically the over-the-shoulder arm) toward opponent's neck as if attempting a standard rear naked choke. This forces opponent to bring their hands up to defend their neck, either by grabbing your choking arm or blocking under their chin. This defensive reaction is essential to create the space needed for the triangle setup. (Timing: Apply for 3-5 seconds until strong defensive reaction) [Pressure: Moderate]
 3. **Trap one arm inside triangle configuration**: As opponent defends the choke with both hands near their neck, use your choking arm to control one of their arms (typically the arm on the same side as your choking arm). Pull this arm across their body and keep it tight to their neck. This arm will become trapped inside the triangle. The opposite arm should remain outside and can be controlled with your other hand or simply isolated. (Timing: Execute smoothly over 2-3 seconds) [Pressure: Firm]
@@ -312,7 +310,7 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must you create an angle with your hips before attempting to throw your leg over the opponent's shoulder?
 **A**: Creating an angle (45-90 degrees) with your hips is essential because it generates the space necessary for your leg to enter between the opponent's arm and head. Without this angle, you remain directly behind the opponent where there is no room for your leg to pass over their shoulder. The angle also positions your body perpendicular to theirs, which is the optimal finishing position for the triangle choke. Attempting the technique without creating this angle first results in an awkward, loose triangle that is easily escaped.
 

@@ -153,14 +153,10 @@ description: "Learn Guard Bottom Transition in BJJ. Master proper guard pulling 
 
 
 
-> Guard Bottom Transition transitions from [[Standing Position]] to [[Open Guard]]. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guard Bottom Transition?
 
 The Guard Bottom Transition, commonly known as pulling guard, is a fundamental BJJ technique that allows a practitioner to voluntarily move from standing position to open guard bottom. This transition is essential in modern Brazilian Jiu-Jitsu as it enables grapplers to establish their preferred guard system without engaging in the takedown battle. The technique involves controlled sitting while maintaining grips on the opponent, ensuring proper distance management and immediate guard establishment. Unlike a wrestling-focused approach where both practitioners compete for takedowns, pulling guard represents a strategic choice to fight from the bottom position, leveraging the comprehensive guard attack system that BJJ is renowned for. This transition is particularly valuable in sport BJJ competition where pulling guard incurs no penalty and allows immediate implementation of sweeps, submissions, and control strategies from the bottom position.
 
@@ -199,7 +195,7 @@ The Guard Bottom Transition, commonly known as pulling guard, is a fundamental B
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips**: From standing position, establish your preferred grip configuration on the opponent. Common options include collar and sleeve (cross or same-side), double sleeve, collar and wrist, or two-on-one arm control. Ensure grips are secure before committing to the pull. (Timing: Take 1-2 seconds to establish solid grips)
 2. **Close distance**: Step closer to opponent while maintaining upright posture. Your feet should be positioned so that when you sit, you'll be at optimal guard range. Distance should allow your legs to reach opponent's hips or thighs when extended. (Timing: Smooth step forward, coordinated with grip establishment)
 3. **Drop hips backward**: Initiate the sit by bending your knees and dropping your hips straight down and slightly back. Keep your chest upright initially to maintain control of your grips and prevent opponent from falling forward onto you with their full weight. (Timing: Controlled descent over 0.5-1 second)
@@ -296,7 +292,7 @@ Integrate guard pulling with standing game - use threat of pull to set up takedo
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical action to perform immediately after your buttocks contact the mat during a guard pull?
 **A**: Establish active foot frames on opponent's hips, biceps, or in their gi to create and maintain proper guard distance. This prevents opponent from driving forward into a dominant passing position and allows you to control the engagement distance from the bottom position.
 

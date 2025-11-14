@@ -153,14 +153,12 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 
 
 
-> Aoki Lock is a leg compression targeting the Shin and ankle compression. ⚠️ **SAFETY**: This technique can cause Severe plantar fascia strain or tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Aoki Lock targets the Shin and ankle compression. Risk: Severe plantar fascia strain or tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Aoki Lock?
 
 The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated leg compression submission that targets the opponent's shin and ankle through extreme plantar flexion and compression forces. Unlike traditional heel hooks or kneebars that attack specific joints, the Aoki Lock creates intense pressure across multiple structures of the lower leg simultaneously, making it extremely painful and effective for securing taps. The submission works by trapping the opponent's foot in a figure-four configuration while using your legs to apply tremendous squeezing pressure, forcing the foot into extreme plantar flexion while compressing the shin and calf muscle. This creates a unique combination of joint stress and muscular compression that becomes unbearable rapidly. The Aoki Lock is particularly effective from ashi garami positions and 50-50 configurations where traditional heel hooks might be defended. Its unconventional mechanics often catch opponents off-guard, as the setup can appear less threatening than a heel hook until the pressure is fully applied. The technique requires excellent leg dexterity and hip flexibility to properly configure the figure-four trap, making it a more advanced submission that rewards technical precision over raw strength.
 
@@ -247,7 +245,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish ashi garami control**: Begin from inside ashi garami position with your outside leg hooking over opponent's trapped leg and your inside leg positioned underneath. Your outside arm should control their knee or ankle while your inside arm prepares to manipulate their foot. Ensure your hips are close to their hips to limit their mobility and prevent them from pulling their leg free. (Timing: 2-3 seconds for initial control establishment) [Pressure: Light]
 2. **Thread inside leg for figure-four**: Begin weaving your inside leg (the leg that was underneath) through the gap between your outside leg and opponent's trapped leg. Your inside foot will need to cross over your own outside leg to create the figure-four configuration. This requires hip flexibility and precise leg positioning. Keep your outside leg hook tight to maintain the ashi garami frame while threading. (Timing: 3-4 seconds to properly position legs) [Pressure: Light]
 3. **Secure opponent's foot in the trap**: Use your hands to guide opponent's foot into position between your legs, placing their heel or ankle into the space created by your figure-four. The exact placement depends on your leg length and their leg length - experiment to find the tightest configuration. Their foot should be trapped between your crossed legs in a way that when you squeeze, it forces extreme plantar flexion (toes pointing). (Timing: 2-3 seconds for foot positioning) [Pressure: Moderate]
@@ -316,7 +314,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the primary anatomical structures at risk during an Aoki Lock and why must pressure be applied slowly? **[SAFETY-CRITICAL]**
 **A**: The Aoki Lock targets the plantar fascia, ankle ligaments (particularly ATFL and deltoid ligament), achilles tendon, calf muscle, and shin periosteum through combined plantar flexion and compression. Pressure must be applied slowly (5-7 seconds minimum) because these structures can sustain serious damage before pain signals fully register, and sudden application can cause tears or ruptures before the opponent has time to tap. The achilles tendon is particularly vulnerable to sudden loading in extreme plantar flexion.
 

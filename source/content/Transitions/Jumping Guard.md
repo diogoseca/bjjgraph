@@ -147,14 +147,10 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
 
 
 
-> Jumping Guard transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Jumping Guard?
 
 Jumping Guard is a dynamic and aggressive guard pull technique that involves literally jumping onto your opponent from standing position, wrapping your legs around their torso to establish closed guard. This technique represents a high-risk, high-reward approach to guard engagement that can catch opponents off-guard and immediately establish offensive control. Unlike traditional guard pulls that emphasize control and connection before committing, jumping guard requires explosive athleticism, precise timing, and confident execution. The technique is particularly effective against opponents who maintain distance or refuse to engage in grip fighting, as it closes distance instantly and forces immediate close-range grappling. While spectacular when successful, jumping guard carries inherent risks including potential for opponent to pass immediately, exposure to slams in certain rulesets, and significant energy expenditure. Modern competition BJJ has seen both the rise and decline of jumping guard variations, with current trends favoring more controlled guard pull entries that prioritize safety and retention.
 
@@ -193,7 +189,7 @@ Jumping Guard is a dynamic and aggressive guard pull technique that involves lit
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: Secure a strong collar grip with your dominant hand and control the opponent's sleeve or wrist with your other hand. The collar grip should be deep enough to prevent easy breaking. This grip foundation is essential for maintaining connection during the jump and preventing opponent from creating distance. (Timing: During initial standing engagement, before opponent establishes defensive grips)
 2. **Close distance strategically**: Step forward with your lead foot to reduce the gap between you and your opponent to approximately one foot. This shortened distance allows for explosive jumping while maintaining grip integrity. Avoid telegraphing your intention by maintaining normal posture and grip fighting rhythm. (Timing: Immediately before commitment, when opponent's attention is on grip fighting)
 3. **Generate upward and forward momentum**: Explosively push off both feet simultaneously, driving your hips forward and upward toward your opponent's center mass. The trajectory should be slightly upward first, then forward, to avoid pulling opponent's weight down on top of you. Use your collar grip to pull yourself closer while jumping. (Timing: Execute when opponent shifts weight forward or is momentarily static)
@@ -289,7 +285,7 @@ Attempt jumping guard during regular positional sparring and rolling sessions wh
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to establish grip control before attempting jumping guard, and what specific grips provide the best foundation for this technique?
 **A**: Grip control before jumping guard is critical because without it, your opponent can easily create distance or sprawl backward during your jump, causing the technique to fail completely and leaving you vulnerable. The grips serve multiple purposes: they close distance, provide pulling leverage to assist your jumping momentum, and maintain connection if your leg wrap is delayed or incomplete. The best grips are deep collar grip (preferably with four fingers inside) and sleeve or wrist control. The collar grip prevents opponent from creating upper body distance and provides strong pulling leverage, while the sleeve grip prevents them from posting or pushing your hips away. These two grips together create a structural control system that persists throughout the jumping motion, significantly increasing success probability.
 

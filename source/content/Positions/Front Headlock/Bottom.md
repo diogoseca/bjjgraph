@@ -8,7 +8,7 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 55% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Front Headlock from the Bottom?
 
 Being caught in front headlock bottom is one of the most dangerous defensive positions in Brazilian Jiu-Jitsu, requiring immediate and precise defensive responses to avoid powerful submissions while working to improve position. This position occurs when your opponent has secured control of your head and neck while you're bent forward, typically on your hands and knees in turtle or during a failed takedown attempt.
 
@@ -447,17 +428,17 @@ Partner establishes front headlock and announces which submission they'll attemp
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The front headlock presents a defensive dilemma where the natural instinct to pull your head free works directly against your safety. Anatomically, the human neck is weakest in extension, and every pulling motion extends your neck further into your opponent's control. The solution is counter-intuitive but mechanically sound: you must move perpendicular to the choke's force vector rather than opposing it directly. This means circling laterally or rolling forward, never pulling straight back. Additionally, the timing of your escape is critical. The moment you feel your opponent's weight shift or their grip adjust, that microsecond of transition is your escape window. Static defense in front headlock is merely delaying submission, not preventing it. Your defensive posture must combine absolute chin protection with constant positional movement, creating what I call 'defensive motion' rather than 'defensive positioning.' The practitioners who survive front headlock most consistently are those who accept they cannot simply wait it out - they must actively and systematically work toward escape while maintaining their defensive frames throughout the entire sequence.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Getting caught in front headlock is one of the worst positions in competition because your opponent has so many high-percentage options and you have very few good answers. In my experience, the difference between getting submitted and escaping comes down to recognizing what type of front headlock control they have within the first second. If they have a guillotine grip, your priority is completely different than if they're setting up an anaconda. The biggest mistake I see is people trying to use the same escape for every front headlock variation. Against guillotine, I'm immediately working to stand and hand fight. Against arm-in controls, I'm circling away from my trapped arm side. The other critical factor is energy management. Front headlock bottom makes you want to explode and escape immediately, but that panic response usually ends with you getting submitted mid-escape. I stay calm, secure my defensive frames (chin down, hand controlling their wrist), and then make one calculated explosive movement when I feel their weight shift. That single well-timed explosive escape attempt has much higher success rate than five panicked scrambles. Also, if someone really good has you in front headlock, sometimes the smartest move is to give up half guard rather than risk getting choked out fighting for a full escape.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Front headlock bottom is where a lot of 10th Planet guys used to get caught before we developed our turtle defense system, specifically because we were always inverting and rolling through stuff. The key breakthrough was understanding that front headlock isn't just one position - it's a spectrum based on where their weight is. If they're high and forward, you can roll through or stand. If they're sprawled back with their hips low, you need to circle to the side. We developed what we call the 'escape hierarchy' for front headlock: first priority is always protect the neck (chin down, hand fighting), second priority is get your head free (usually by standing or circling), third priority is recover guard if you can't get fully free. The most effective escape we found is actually the technical standup combined with an immediate level change. You hand fight, stand up while keeping chin tucked, then immediately shoot your hips back and circle away. It's not pretty but it works against even the tightest front headlocks. We also drill front headlock bottom constantly because it happens so often in no-gi when someone sprawls on your takedown or catches you inverting. The students who survive it best are the ones who don't fear it - they've been there so many times in training that they stay calm and work through their defensive checklist systematically rather than panicking.
 

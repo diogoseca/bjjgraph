@@ -8,7 +8,7 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Gift Wrap?
 
 Gift Wrap is a highly dominant back control variation in Brazilian Jiu-Jitsu where the attacker isolates and controls one of the defender's arms, effectively removing half of their defensive capabilities. This position derives its name from the visual appearance of the trapped arm being 'wrapped' across the defender's body, similar to wrapping a present.
 
@@ -54,7 +52,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -68,7 +66,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**What Makes This Unique:** Arm trap removes half of defensive capability
+**Key Difference:** Arm trap removes half of defensive capability
 
 
 
@@ -80,10 +78,6 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ## Playing as Bottom
 
 [[Gift Wrap/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -164,10 +158,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Gift Wrap/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -251,7 +241,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

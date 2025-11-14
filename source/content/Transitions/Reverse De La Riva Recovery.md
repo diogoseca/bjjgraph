@@ -147,14 +147,10 @@ description: "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establi
 
 
 
-> Reverse De La Riva Recovery transitions from [[Reverse De La Riva Guard]] to [[Reverse De La Riva Guard]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Reverse De La Riva Recovery?
 
 Reverse De La Riva Recovery is a critical defensive transition that allows practitioners to re-establish proper Reverse De La Riva guard structure when the opponent has begun to compromise the position. This technique is essential for maintaining guard retention when facing pressure passing attacks or when hooks and grips have been partially cleared. The recovery sequence focuses on hip movement, hook retention, and grip fighting to restore the fundamental control elements of RDLR guard.
 
@@ -196,7 +192,7 @@ Mastering RDLR recovery creates a safety net that allows more aggressive guard p
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish emergency frames**: As soon as you recognize the RDLR position is compromised, immediately establish defensive frames using your arms to create distance. Place your bottom arm frame against opponent's hip or knee, and your top arm frame against their shoulder or crossface attempt. These frames prevent them from consolidating pressure while you work to recover. (Timing: Immediate upon recognizing position compromise)
 2. **Execute hip escape**: Perform a strong hip escape (shrimp) away from the opponent while maintaining your frames. Push off your outside foot to generate power and create the angle necessary for hook recovery. Your hips should rotate approximately 45-90 degrees away from the opponent, creating space for your RDLR leg to function. (Timing: Explosive movement coordinated with frame extension)
 3. **Recover RDLR hook**: As you create space with the hip escape, thread your inside leg back underneath opponent's near leg to re-establish the reverse De La Riva hook. Your foot should curve around their thigh with your heel pulling toward their far hip. The hook must be deep enough to control their leg and prevent forward pressure. (Timing: During or immediately after hip escape)
@@ -291,7 +287,7 @@ Full positional sparring where partner scores points for successful passes and y
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is maintaining at least one connection point critical during RDLR recovery?
 **A**: Maintaining at least one connection point (grip or hook) prevents complete guard passage and gives you a reference point to work from during recovery. Once all connections are lost, the opponent can establish passing position more easily and you lose the ability to influence their movement. That single connection allows you to maintain enough control to create the space and angles needed for full recovery.
 

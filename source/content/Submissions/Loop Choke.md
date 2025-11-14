@@ -147,14 +147,12 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from mount, 
 
 
 
-> Loop Choke is a blood choke targeting the Carotid arteries via deep collar grip and body positioning. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Loop Choke targets the Carotid arteries via deep collar grip and body positioning. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Loop Choke?
 
 The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arteries through a deep same-side collar grip combined with strategic body positioning and weight distribution. Unlike traditional collar chokes that rely on bilateral compression, the Loop Choke creates asymmetric pressure by threading one hand deep into the opponent's collar while using body weight and positioning to complete the strangle. The technique is particularly effective from mount, side control, and turtle positions, where the attacker can control posture and prevent defensive hand fighting. The Loop Choke's effectiveness stems from its ability to disguise the attacking grip as a standard control position, allowing practitioners to secure deep collar penetration before the opponent recognizes the submission threat. Advanced practitioners excel at chaining the Loop Choke with other collar attacks, creating offensive systems where defensive reactions to one threat open pathways to another. The submission requires refined sensitivity to grip depth, angle management, and the ability to maintain control while transitioning through finishing mechanics.
 
@@ -235,7 +233,7 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish deep collar grip**: From mount or side control, feed your hand (same side as the direction you'll finish) deep into opponent's far collar, aiming for four fingers inside with thumb outside. The deeper the grip, the more effective the choke. Disguise this as a standard control grip by maintaining pressure and not telegraphing the submission intention. (Timing: Take 2-3 seconds to work grip progressively deeper) [Pressure: Moderate]
 2. **Control defensive frames**: Use your free hand to control opponent's near arm, either by pinning it to their chest, controlling the wrist, or blocking at the elbow. This prevents them from stripping your collar grip or creating frames. Maintain steady pressure with your chest to limit their mobility and breathing space. (Timing: Establish control before progressing to finish) [Pressure: Firm]
 3. **Adjust body angle**: Begin shifting your body weight toward the side of your choking arm, positioning your shoulder near opponent's head. Your head should be close to theirs, limiting their ability to turn away. This angle change starts to create compression on the near-side carotid artery while setting up the finishing mechanics. (Timing: Smooth transition over 1-2 seconds) [Pressure: Firm]
@@ -299,7 +297,7 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum depth required for the collar grip to be effective in the loop choke?
 **A**: The collar grip must be at least four fingers deep inside the collar with thumb outside. Insufficient depth is one of the most common technical errors that prevents the choke from being effective, as shallow grips lack the leverage and compression necessary to attack the carotid arteries properly.
 

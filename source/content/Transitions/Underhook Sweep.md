@@ -147,14 +147,10 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Complete techni
 
 
 
-> Underhook Sweep transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Underhook Sweep?
 
 The Underhook Sweep is a fundamental offensive technique from half guard bottom that exploits the powerful mechanical advantage of the underhook grip. This sweep operates on the principle of controlling your opponent's center of gravity while simultaneously removing their base, creating an inevitable off-balancing moment that allows you to reverse position. The underhook provides crucial control of the opponent's shoulder and upper body, preventing them from establishing effective crossface pressure and creating the angle necessary for the sweep. This technique is particularly effective against opponents who commit their weight forward while passing, as it redirects their momentum against them. The sweep can be executed from various half guard configurations including traditional half guard, deep half guard, and knee shield variations, making it a versatile tool in your bottom game arsenal. Understanding the timing and mechanical principles of this sweep is essential for developing a complete half guard game, as it creates offensive threats that force opponents into defensive reactions, opening pathways to other attacks and transitions.
 
@@ -193,7 +189,7 @@ The Underhook Sweep is a fundamental offensive technique from half guard bottom 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish underhook control**: From half guard bottom, work your inside arm deep under opponent's armpit, reaching your hand to their far hip or wrapping around their back. Your shoulder should be tight to their ribcage with your head pressed against their chest to prevent crossface control. (Timing: Initial setup phase - establish before opponent secures heavy crossface)
 2. **Create angle and get to side**: Rotate your body onto your side, facing your opponent rather than lying flat on your back. Use your outside leg to create a knee shield or butterfly hook, preventing opponent from flattening you. Your hips should be angled approximately 45 degrees from the mat, creating space for the sweep. (Timing: Immediately after securing underhook)
 3. **Grip opponent's far leg or control base**: With your outside hand, reach across and grip opponent's far leg behind the knee, or control their far posting arm if they base out wide. This grip is crucial for removing their base during the sweep. Alternatively, you can grip their pants at the ankle or control their belt/gi material. (Timing: As opponent attempts to drive forward or establish pressure)
@@ -289,7 +285,7 @@ Use the underhook sweep as primary attack from half guard during normal training
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is establishing an angle and getting to your side crucial before attempting the underhook sweep?
 **A**: Getting to your side creates the necessary mechanical leverage for the sweep by allowing you to bridge diagonally upward and forward rather than straight up from a flat back position. When flat on your back, you have no angle of attack and generate minimal lifting power. Being on your side positions your shoulder as a fulcrum point under their center of gravity, allowing you to leverage their weight against them. Additionally, the side position protects you from being flattened by crossface pressure and creates the hip mobility needed to generate explosive bridging power.
 

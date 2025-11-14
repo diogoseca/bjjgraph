@@ -147,14 +147,12 @@ description: "Master the Kneebar in BJJ. Complete guide with safety protocols, s
 
 
 
-> Kneebar is a leg lock targeting the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kneebar targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kneebar?
 
 The Kneebar is a fundamental leg lock submission that attacks the knee joint through hyperextension. As one of the most accessible entries into modern leg lock systems, the kneebar serves as both a high-percentage finish and a gateway to more complex leg entanglements. The submission works by controlling the opponent's leg while using hip drive and posterior chain engagement to create dangerous hyperextension of the knee joint. Unlike heel hooks which attack rotational structures, the kneebar creates linear extension force, making it somewhat more predictable but still extremely dangerous when applied incorrectly. The technique has evolved significantly with modern leg lock systems, particularly through the systematic approaches developed by high-level competitors who have refined entries, controls, and finishing mechanics. Understanding proper kneebar application requires not just technical knowledge of the finish, but comprehensive awareness of the control positions that precede it, the defensive reactions opponents employ, and the biomechanical principles that make the submission effective. The kneebar exists within a broader ecosystem of leg attacks, often serving as a transitional threat that opens opportunities for other submissions or positional advances.
 
@@ -237,7 +235,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure the leg entanglement**: From ashi garami or similar leg entanglement, ensure opponent's leg is trapped between your legs with your inside leg hooking behind their knee and your outside leg controlling across their hip or thigh. Your legs should create a scissor-like control that prevents the opponent from simply pulling their leg free. (Timing: Establish control before attempting finish) [Pressure: Moderate]
 2. **Grip the ankle and pull toward your chest**: Cup your hands around opponent's ankle or lower shin, creating a strong connection. Pull the leg tight to your chest, eliminating any space between your torso and their leg. This connection is critical - any gap allows the opponent to create defensive frames or rotate their leg to relieve pressure. Your elbows should squeeze together, trapping the leg securely. (Timing: Before applying hip pressure) [Pressure: Firm]
 3. **Adjust angle and hip position**: Scoot your hips toward opponent's body while maintaining the tight ankle grip. Your hips should be positioned so that your pubic bone or lower abdomen makes contact with the back of opponent's knee. The angle should be perpendicular to their leg - your spine should form roughly a 90-degree angle with their femur. This perpendicular alignment is essential for proper force application. (Timing: Positioning phase before pressure) [Pressure: Light]
@@ -307,7 +305,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply finishing pressure during training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: Minimum 3-5 seconds of progressive pressure in training. This is critical because knee ligaments can rupture before a partner recognizes the danger and has time to tap. Explosive application in training is never acceptable as it risks career-ending injuries to training partners. The progressive application allows your partner to feel the increasing danger and respond appropriately with a tap signal.
 

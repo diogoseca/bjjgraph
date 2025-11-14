@@ -153,14 +153,10 @@ description: "Master Technical Stand Up to Single Leg in BJJ. Execute safe stand
 
 
 
-> Technical Stand Up to Single Leg transitions from [[Turtle]] to [[Single Leg X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Technical Stand Up to Single Leg?
 
 The Technical Stand Up to Single Leg is a fundamental defensive recovery sequence that transforms a vulnerable bottom position into an offensive wrestling attack. This technique combines the safety and base management of the technical standup with the explosive entry mechanics of single leg takedowns, creating a seamless transition from defense to offense. The sequence is particularly valuable in no-gi grappling, MMA, and self-defense contexts where maintaining distance and controlling engagement timing is critical. By establishing proper base during the standup phase, you create the structural foundation necessary to generate explosive power for the single leg entry. The technique exemplifies the principle of position-over-submission thinking, as you prioritize safe recovery before attacking. Against opponents who pressure forward during your standup, this sequence allows you to redirect their momentum into a takedown opportunity, turning their aggression into your advantage.
 
@@ -199,7 +195,7 @@ The Technical Stand Up to Single Leg is a fundamental defensive recovery sequenc
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish posting hand**: From turtle or seated position, post your near-side hand firmly on the mat with fingers spread wide, elbow locked, and shoulder packed. This creates the primary structural support for your standup. Your posting arm should be positioned slightly behind your hip line to prevent being driven forward. (Timing: Initial setup - maintain until fully standing)
 2. **Extend lead leg**: Extend your far-side leg forward into a posting position with your foot flat on the mat, knee bent at approximately 90 degrees. This leg becomes your primary base for standing. Keep your shin vertical and weight centered over the ball of your foot. Your extended leg should point toward your opponent or slightly away to create angle. (Timing: Immediately after hand post is secure)
 3. **Drive to standing position**: Explosively drive through your posted foot while maintaining pressure through your posted hand. Keep your hips low and back straight as you rise. Your non-posted hand should be active, creating frames against opponent's torso or hips to maintain distance. As you rise, your weight shifts from hand to feet, but maintain hand contact until fully balanced. (Timing: Explosive movement, 0.5-1 second)
@@ -296,7 +292,7 @@ Practice this sequence in different contexts: with gi grips, against strikes, wi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must your head position be on the outside of opponent's body during the single leg entry?
 **A**: Outside head position prevents guillotine, darce, and front headlock submissions. When your head is inside, your neck is exposed and opponent can use their near arm to wrap your head, creating immediate submission threats. Outside position also allows you to drive through their hips more effectively and makes it difficult for them to apply crossface pressure or turn into you. The outside position is a fundamental safety principle in all single leg attacks.
 

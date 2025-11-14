@@ -147,14 +147,10 @@ description: "Master the Hip Escape (Shrimp) in BJJ. Essential defensive movemen
 
 
 
-> Hip Escape transitions from [[Side Control]] to [[Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Hip Escape?
 
 The Hip Escape, also known as the Shrimp or Shrimping movement, is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu. This essential movement pattern allows practitioners to create distance and recover guard position when pinned beneath an opponent. The technique involves a coordinated movement of bridging, turning, and sliding the hips away from pressure while maintaining proper frames to prevent the opponent from following. Understanding and mastering the hip escape is critical for survival in bottom positions, as it forms the foundation for virtually all escapes from pins including side control, mount, knee on belly, and north-south positions. The movement creates the necessary space to insert defensive frames, recover guard, or transition to better positions. While simple in concept, the hip escape requires precise timing, proper weight distribution, and efficient body mechanics to execute effectively against a skilled opponent applying heavy pressure.
 
@@ -193,7 +189,7 @@ The Hip Escape, also known as the Shrimp or Shrimping movement, is one of the mo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish frames**: Create strong frames using forearms and hands against opponent's hips, shoulders, or neck. Keep elbows tight to body while extending frames to create maximum structural integrity. Frame placement depends on opponent's position - typically one frame on hip and one on shoulder or neck. (Timing: Immediately upon being pinned)
 2. **Bridge and turn**: Drive hips explosively upward and slightly toward the direction you want to escape, using legs and core power. Simultaneously turn shoulders and upper body onto your side, creating a wedge shape with your body. This bridge momentarily disrupts opponent's base and creates the initial space needed. (Timing: Execute bridge when opponent's weight is committed forward or shifting)
 3. **Slide hips away**: As you bridge and turn, forcefully slide your hips away from opponent in the direction opposite their pressure. Push off the mat with your outside foot (the foot furthest from opponent) while dragging the inside leg. The movement should trace your hips along the mat in a 'shrimping' motion, creating 6-12 inches of distance. (Timing: Immediately following the bridge, while opponent is off-balanced)
@@ -291,7 +287,7 @@ Include hip escape drilling in regular warm-ups. Seek opportunities during live 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is establishing frames critical before executing the hip escape movement?
 **A**: Frames create the structural barrier that maintains the space you create with your hip movement. Without frames, your opponent can simply follow your hips as you move, negating any space created. Strong frames on the opponent's hips, shoulders, or neck prevent them from closing distance and allow you to maintain the separation needed to insert your knee shield or recover guard position.
 

@@ -8,7 +8,7 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 50% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Cross Body Ride from the Bottom?
 
 Cross Body Ride Bottom represents a highly disadvantageous defensive position where the practitioner is on their hands and knees (turtle position) with the opponent mounted across their back in a perpendicular or diagonal orientation. The top player controls from the side, using their bodyweight to flatten the bottom player while threatening back takes, crucifix entries, and various choke attacks. This position requires immediate defensive action as remaining static allows the opponent to systematically break down defenses and advance to more dominant positions.
 
@@ -439,17 +420,17 @@ Start in cross body ride bottom position. Bottom player scores points for succes
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Cross Body Ride Bottom exemplifies a position where the bottom player's defensive priorities must be perfectly ordered to survive and eventually escape. The systematic approach requires first establishing neck protection through proper chin position and elbow placement, second maintaining hip mobility to prevent complete flattening, and third creating timing windows through small postural adjustments that force the top player to react. The biomechanical reality is that remaining static in this position allows the opponent to methodically break down each defensive layer, while constant micro-adjustments force the opponent to continually re-establish control, creating brief windows where explosive escape techniques like the granby roll become viable. The key insight is that defense in this position is not passive survival but active positional warfare where the bottom player uses frame creation, weight distribution, and timing to transform a highly disadvantageous position into escape opportunities.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From a competition perspective, Cross Body Ride Bottom is a position you absolutely cannot afford to stay in for extended periods. Top-level competitors will punish static defense by rapidly advancing to back control or crucifix, both of which lead to high-percentage submission threats or dominant point positions. My approach focuses on immediate, explosive escape attempts the moment I recognize the position developing—granby rolls and hip escapes executed with maximum speed and commitment before the opponent can consolidate their control. The mistake most people make is trying to be too defensive and methodical, which plays directly into the top player's hands. You need to create chaos through explosive movement, force scrambles, and be willing to give up some positional control temporarily to avoid the worse outcome of allowing clean back takes. In competition, I'd rather risk a slightly disadvantageous guard position than remain in cross body ride where my opponent has all the initiative.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Cross Body Ride Bottom is one of those positions where creativity and unorthodox movement patterns can really pay off. The traditional granby roll escape is solid, but I've found that incorporating elements from breakdancing and gymnastic movement—like the tactical roll combined with inverted guard entries—can create escape pathways that opponents don't anticipate. The key from a 10th Planet perspective is understanding that your legs are weapons even from turtle, and positions like this can transition into lockdown entries or rubber guard variations if you time the roll correctly and catch their leg during your escape attempt. We also emphasize the psychological aspect—staying calm under heavy pressure, controlling your breathing, and waiting for that perfect moment when your opponent shifts their weight or reaches for a grip. That split-second is when you explode into your escape sequence. The conventional approach treats this purely as a defensive emergency, but I see it as a transition point where unconventional entries to offensive guard systems become possible if you have the right mindset and movement vocabulary.
 

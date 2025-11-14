@@ -147,14 +147,10 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
 
 
 
-> North-South Escape transitions from [[North-South]] to [[Guard Recovery]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is North-South Escape?
 
 The North-South Escape is a fundamental defensive technique designed to recover guard from one of the most dominant pinning positions in Brazilian Jiu-Jitsu. When trapped in north-south position, the top player maintains heavy chest pressure and controls your movement with their hips and arms, making escape extremely difficult without proper technique. This escape relies on precise hip movement, frame creation, and timing to create the space necessary to recover to a safer bottom position. The technique emphasizes the principle of creating distance through bridging and shrimping mechanics while preventing your opponent from transitioning to more dangerous positions like mount or side control. Success requires understanding weight distribution, maintaining defensive posture throughout the escape sequence, and capitalizing on small windows of opportunity when the top player adjusts their position. The north-south escape is essential for any practitioner's defensive arsenal, as it addresses a common scenario where opponents achieve dominant control through passing or transitioning from other top positions.
 
@@ -193,7 +189,7 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish defensive frames**: Immediately bring both hands to opponent's hips or lower torso, creating strong frames with your forearms against their body. Keep your elbows tight to your sides and hands positioned to push away from their center of mass. This prevents them from settling their full weight onto your chest and gives you the structural foundation to begin creating space. (Timing: Execute immediately upon recognizing north-south control)
 2. **Protect neck and create initial space**: Tuck your chin to your chest to defend against choke attempts while simultaneously pushing with your frames to create a few inches of space between your chest and opponent's chest. Focus on creating vertical space first by pushing their torso away from yours, rather than trying to turn or twist at this stage. (Timing: Coordinate push with opponent's exhale or weight adjustment)
 3. **Bridge and turn to side**: Execute a powerful bridge by driving through your feet and elevating your hips off the mat while maintaining your frames. As you reach the apex of the bridge, turn your body to one side (typically away from their head) to get onto your shoulder. This rotation converts the vertical space into lateral space and begins to change the angle of control. (Timing: Bridge explosively but controlled, turning at peak height)
@@ -289,7 +285,7 @@ Develop the ability to flow between north-south escape and related escapes (side
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the first priority when trapped in north-south position before attempting any escape?
 **A**: The first priority is to establish defensive frames on the opponent's hips or torso to prevent them from settling their full weight onto your chest and to create the structural foundation necessary for generating space. Without frames, any escape attempt will be ineffective as the opponent can simply maintain pressure.
 

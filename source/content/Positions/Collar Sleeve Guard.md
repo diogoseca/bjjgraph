@@ -8,7 +8,7 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Collar Sleeve Guard?
 
 Collar sleeve guard is a fundamental open guard variation that combines a collar grip (typically cross-collar) with a same-side sleeve grip to create powerful off-balancing and sweeping opportunities. This guard is characterized by its asymmetric grip structure, which generates rotational forces that disrupt the opponent's base while maintaining distance control through the extended sleeve grip.
 
@@ -56,7 +54,7 @@ The position demands active hip movement and constant angle adjustment to remain
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -70,7 +68,7 @@ The position demands active hip movement and constant angle adjustment to remain
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium to Long |
 
-**What Makes This Unique:** Two-grip asymmetry creates rotational control
+**Key Difference:** Two-grip asymmetry creates rotational control
 
 
 
@@ -82,10 +80,6 @@ The position demands active hip movement and constant angle adjustment to remain
 ## Playing as Bottom
 
 [[Collar Sleeve Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -176,10 +170,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Collar Sleeve Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -255,7 +245,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

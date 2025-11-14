@@ -8,7 +8,7 @@ description: "Master the attacking perspective of straight ankle lock control. C
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master the attacking perspective of straight ankle lock control. C
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium to High
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Straight Ankle Lock Control from the Bottom?
 
 From the attacking bottom perspective, straight ankle lock control represents a calculated trade of superior positioning for immediate submission threat and transitional opportunities into more advanced leg entanglement systems. The practitioner on bottom has intentionally entered this position to exploit their opponent's leg vulnerability, accepting temporary positional sacrifice in exchange for offensive potential.
 
@@ -488,17 +469,17 @@ With fully compliant partner in straight ankle lock control, practice proper bre
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Straight ankle lock control represents the fundamental entry point into systematic leg attack sequences, but its true value lies not in the ankle lock itself but in how it forces defensive reactions that open pathways to more dominant positions. The biomechanical reality is that a properly defended straight ankle lock can be very difficult to finish against a knowledgeable opponent, but the defender's escape attempts create predictable movement patterns that the prepared attacker exploits. When the defender rotates their hip away, they open the inside space for ashi garami entry with leg triangle control. When they rotate toward you, they expose themselves to outside ashi configurations. When they attempt to stand, they create angles for single leg X transitions. This systematic approach transforms a relatively weak control position into a powerful offensive hub where the attacker maintains initiative regardless of defensive choices. The key is developing pattern recognition that automatically triggers appropriate transitions based on the defender's movements, creating a chess-like decision tree where the attacker always has optimal responses prepared for every defensive option.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition at the highest levels, straight ankle lock control is almost never a finishing position by itself - it's a transitional state you pass through on the way to more dominant leg entanglements where heel hooks become available. Against elite defenders who understand proper hip rotation and knee extraction mechanics, attempting to finish the straight ankle from this basic control will fail consistently. The real competitive application is using the ankle lock threat to elicit reactions you can exploit. I'll establish straight ankle control knowing the opponent will attempt to rotate away, and that rotation is exactly what I need to enter inside ashi with proper leg triangle configuration. Or they'll attempt to come on top, which opens outside ashi entries where I can transition to saddle or 50-50 depending on ruleset. The position is also valuable for learning fundamental leg lock concepts - grip configurations, hip positioning, leg control mechanics - that transfer directly to more advanced systems. For competitors focused on winning matches, treat straight ankle lock control as a waypoint rather than a destination, always ready to advance based on defensive reactions rather than forcing low-percentage finishes from incomplete control.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 From the 10th Planet perspective, straight ankle lock control fits into our leg attack system as a gateway position that creates scramble opportunities and forces defensive commitments we can exploit. While traditional approaches emphasize systematic positional advancement, we also recognize the value of dynamic attacking sequences that keep opponents reacting and defending multiple threats simultaneously. Once I've secured ankle control, I'm threatening not just the immediate finish but also rapid transitions to rubber guard variations if they attempt to posture up, or entries to truck position if they try to roll away from the pressure. The position also has interesting applications in the no-gi street fighting context where ankle locks provide quick submission options from positions that don't require the extended ground engagement of upper body submissions. Training this position develops the grip strength and body awareness needed for all leg lock systems while maintaining the adaptability to flow with resistance rather than forcing techniques against prepared defenses. The innovation comes from recognizing that every position has multiple attacking pathways, and straight ankle lock control opens doors to both traditional leg lock progressions and creative scramble opportunities that confuse opponents expecting linear systematic attacks.
 

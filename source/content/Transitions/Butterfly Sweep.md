@@ -147,14 +147,10 @@ description: "Learn the Butterfly Sweep in BJJ. Complete execution guide from Bu
 
 
 
-> Butterfly Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Butterfly Sweep?
 
 The Butterfly Sweep is a fundamental attacking technique from butterfly guard that exploits opponent's weight distribution and base. By using butterfly hooks (feet positioned on opponent's inner thighs) combined with precise hip movement and off-balancing mechanics, the practitioner elevates and destabilizes the opponent, reversing position from bottom to top. This sweep is particularly effective when the opponent commits their weight forward or attempts to pass, creating the perfect opportunity for the guard player to capitalize on compromised balance. The technique exemplifies efficient use of leverage over strength, making it accessible to practitioners of all sizes and suitable against larger opponents. The butterfly sweep serves as a cornerstone technique in modern Brazilian Jiu-Jitsu, forming the foundation for numerous guard systems and serving as a gateway to more advanced butterfly guard attacks.
 
@@ -193,7 +189,7 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish butterfly guard control**: Sit up in butterfly guard with both feet positioned as hooks on opponent's inner thighs, balls of feet making contact. Secure upper body control with underhooks or collar grips, bringing opponent's weight forward onto your centerline. Maintain active posture with chest up and hips mobile. (Timing: Initial position - take time to secure proper grips and hooks)
 2. **Break opponent's posture**: Pull opponent forward using your grips while simultaneously driving your forehead or shoulder into their chest. This breaks their posture and brings their weight onto you, compromising their base. Your goal is to get them heavy on top of you, making it difficult for them to post or resist the sweep. (Timing: 1-2 seconds of steady pulling pressure)
 3. **Post base hand**: Post your non-sweeping hand (typically the hand opposite to your sweep direction) on the mat behind you for stability and leverage. This hand acts as a pivot point and prevents you from falling backward. Keep elbow slightly bent to absorb pressure and maintain structural integrity. (Timing: Simultaneous with step 2)
@@ -294,7 +290,7 @@ Regular drilling of fundamental mechanics to maintain technical sharpness. Exper
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the butterfly sweep effective against larger opponents?
 **A**: The butterfly sweep uses leverage and rotational momentum rather than pure strength. By establishing a fulcrum with the posted base hand and using the butterfly hook to break opponent's base while pulling them across your centerline, you create a wheel-like rotation that multiplies force. The technique redirects opponent's weight and uses their own mass against them, making size difference less relevant. Proper execution requires coordination of multiple components (hook elevation, upper body pull, hip rotation) occurring simultaneously to generate circular momentum that opponent cannot resist with base alone.
 

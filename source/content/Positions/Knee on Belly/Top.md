@@ -8,7 +8,7 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 55%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 2 (Advantage)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Knee on Belly from the Top?
 
 Knee on Belly Top is a highly effective transitional control position where the top practitioner places one knee across the opponent's torso while maintaining a wide base with the other leg extended. This position creates immense pressure on the bottom player's diaphragm and solar plexus, making it difficult to breathe and forcing defensive reactions. The top player maintains constant forward pressure while staying light on their feet, ready to transition to mount, side control, or submission attacks. From a strategic standpoint, Knee on Belly Top serves as an excellent position for consolidating control after passing the guard, scoring IBJJF points, and setting up a variety of attacks. The mobility inherent in this position allows the top player to quickly respond to escape attempts while maintaining dominant pressure. Unlike more static positions like mount or side control, Knee on Belly requires active weight distribution and constant micro-adjustments to maintain effectiveness. This position is particularly valuable in competition settings where maintaining pressure while remaining mobile is essential. The threat of submissions, transitions to mount, and back takes forces the bottom player into a reactive defensive posture, allowing the top player to dictate the pace and direction of the match.
 
@@ -466,17 +445,17 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Knee on Belly represents a fascinating intersection of mobility and control in our positional hierarchy. The biomechanical effectiveness stems from directing your body weight through a single point of contact - the knee - onto the opponent's solar plexus or lower ribs, creating respiratory distress that compounds their defensive difficulties. The key technical element that beginners miss is the forward angle of pressure: your shoulders must be ahead of your hips, creating a downward vector through the knee rather than simply resting your weight on top. The extended base leg functions as both a stability mechanism and a launching pad for transitions. When the opponent inevitably attempts to create space by pushing your knee, this reaction opens their arms for kimuras and armbars. The position becomes truly effective when you develop the sensitivity to feel their weight shifts and breathing patterns, allowing you to predict and counter their escape attempts before they fully develop. This is not a resting position - it is an active, dynamic platform for launching attacks and maintaining offensive pressure while scoring points in competition.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In high-level competition, Knee on Belly is one of my favorite positions because it scores points while keeping me extremely mobile and dangerous. The biggest mistake I see competitors make is treating it like a stable position where they can rest - that's completely wrong. You need to be constantly threatening submissions and transitions to keep your opponent defensive and unable to execute their escape plan. I use Knee on Belly primarily as a transitional position after passing the guard, holding it just long enough to score the points and force a reaction, then immediately attacking based on how they defend. If they push my knee, I'm going straight to the armbar. If they turn away, I'm taking the back. The pressure needs to be intense enough that they can't breathe comfortably, which forces rushed, desperate escapes that I can capitalize on. In no-gi, the baseball bat choke isn't available, so I focus more on using Knee on Belly to set up arm attacks and mount transitions. The key is staying one step ahead - you should already be transitioning to your next attack before they even start their escape. This aggressive, forward-thinking approach is what separates effective Knee on Belly control from ineffective stalling.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Knee on Belly in the 10th Planet system is all about creating chaos and forcing your opponent into bad decisions under pressure. We use it a bit differently than traditional schools - instead of just holding position for points, we're constantly switching knees, changing angles, and threatening different attacks to keep them completely overwhelmed. One thing I love teaching is the knee switch: as soon as they start defending one side, you pop up and switch your knee to the other side of their body, which completely resets their escape progress and adds new submission opportunities. The baseball bat choke from Knee on Belly is money in the gi, but in no-gi we're looking at darce setups and truck entries when they turn away. The mobility of this position is perfect for the flow-based approach we emphasize - you're never stuck, always moving, always attacking. I also teach my students to use Knee on Belly as a recovery position when they're tired in mount or side control. You can catch your breath while still maintaining dominant pressure and points, then explode back into heavy attacks when you're ready. The creativity comes from mixing up your knee placement, grip fighting, and transition timing to keep them guessing and defensive.
 

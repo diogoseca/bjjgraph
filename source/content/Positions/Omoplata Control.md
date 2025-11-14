@@ -8,7 +8,7 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Omoplata Control?
 
 Omoplata Control represents a sophisticated transitional position in Brazilian Jiu-Jitsu where the practitioner uses their legs to isolate and control the opponent's shoulder joint while creating multiple offensive pathways. This position exists at the intersection of submission attacks, sweeps, and positional advancement, making it one of the most versatile control positions in modern BJJ. The mechanics involve threading one leg over the opponent's trapped shoulder while maintaining hip connection, creating a lever system that applies rotational pressure to the shoulder capsule. What distinguishes Omoplata Control from other guard positions is its ability to force opponents into predictable defensive reactions, each of which opens different offensive opportunities. The position demonstrates the principle of using leg strength against arm strength, creating a mechanical advantage that limits the opponent's mobility while providing the controller with numerous high-percentage options. Understanding when to finish the submission, when to sweep, and when to transition to back control is essential for maximizing the position's effectiveness. The Omoplata Control position has evolved significantly in competitive BJJ, with modern practitioners recognizing that the control itself often provides more value than the submission finish, as it creates reliable pathways to dominant positions and forces opponents into defensive postures that drain energy and create openings for submission chains.
 
@@ -46,7 +44,7 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -60,7 +58,7 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium to Long |
 
-**What Makes This Unique:** Shoulder isolation enables sweep options
+**Key Difference:** Shoulder isolation enables sweep options
 
 
 
@@ -72,10 +70,6 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ## Playing as Bottom
 
 [[Omoplata Control/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -150,10 +144,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Omoplata Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -223,7 +213,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

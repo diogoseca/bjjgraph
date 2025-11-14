@@ -147,14 +147,12 @@ description: "Master the Twister finishing sequence in BJJ. Complete guide with 
 
 
 
-> Twister Finish is a spinal lock targeting the Cervical and thoracic spine, shoulder girdle. ⚠️ **SAFETY**: This technique can cause Cervical spine strain or herniation. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Twister Finish targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine strain or herniation. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Twister Finish?
 
 The Twister is an advanced spinal compression submission that targets the opponent's spine and shoulder through opposed rotational forces. Popularized by Eddie Bravo and the 10th Planet system, the Twister represents one of the most sophisticated control-to-submission sequences in no-gi grappling. The submission works by creating a figure-four configuration with your legs to isolate the opponent's lower body while your arms control the upper body, creating a corkscrew effect on the spine. The finish involves pulling the opponent's head and shoulder in one direction while their hips are locked in the opposite direction, creating immense pressure on the thoracic spine. This technique requires exceptional positional control from the Truck position and precise understanding of spinal mechanics. The Twister is primarily a no-gi submission due to its reliance on body control rather than gi grips, though variations exist for gi training. Safety is paramount - this submission can cause serious spinal injury if applied carelessly. The technique's effectiveness lies in its multi-layered control system: leg entanglement prevents hip escape, body positioning eliminates space, and arm control secures the finish. Understanding the progression from back control through the Truck to the Twister finish is essential for safe and effective application.
 
@@ -240,7 +238,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure the Truck position foundation**: From back control or crab ride, establish the Truck by getting perpendicular to opponent's body with your legs creating a figure-four lock around their hips. Your bottom leg threads under their near leg while your top leg crosses over their body, locking at the ankle or shin. Ensure opponent is on their side facing away from the direction you'll create the twist. Your body should be chest-to-back with their spine, creating immense control. (Timing: Take 3-5 seconds to establish position securely) [Pressure: Moderate]
 2. **Isolate the far shoulder and arm**: Reach over the opponent's body with your top arm and secure their far arm at the wrist or forearm. Pull this arm across their body toward you, exposing the shoulder blade and creating the initial rotation. The key is to bring their arm high across their chest, almost like they're reaching for their opposite shoulder. This arm control prevents them from defending the neck and begins the rotational pressure on the shoulder girdle. (Timing: 2-3 seconds with controlled movement) [Pressure: Light]
 3. **Establish head and neck control**: Your bottom arm snakes under the opponent's head, either cupping the chin or wrapping around the neck and head together. This creates a handle for the upper body rotation. Your hand should connect with your own chest or shoulder to create a tight loop. Be extremely careful not to compress the trachea - the pressure should be on the head and shoulder, not the throat. This control point is what creates the opposed rotation against the locked hips. (Timing: 3-4 seconds ensuring proper position) [Pressure: Light]
@@ -303,7 +301,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the Twister effective as a submission?
 **A**: The Twister works through opposed rotational forces applied to the spine. The figure-four leg lock anchors the opponent's hips in one direction while the arm controls rotate the upper body (head and shoulders) in the opposite direction. This creates a corkscrew compression effect on the spine, specifically targeting the thoracic vertebrae. The submission's effectiveness comes from the fact that the locked hips cannot follow the rotation of the upper body, creating immense pressure on the spinal column and surrounding musculature.
 

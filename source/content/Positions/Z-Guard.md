@@ -8,7 +8,7 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Z-Guard?
 
 Z-Guard represents an advanced evolution of knee shield half guard where the bottom player elevates the knee shield to target the opponent's shoulder or upper chest rather than the hip, creating a more complete defensive structure that resembles the letter 'Z' when viewed from the side. This specialized positioning fundamentally changes the guard's defensive geometry, making it exceptionally difficult for pressure passers to settle their weight while simultaneously creating powerful sweeping angles. The position gained prominence in modern BJJ as competitors discovered that the higher knee placement not only prevents the pass more effectively but also generates superior leverage for off-balancing attacks and back takes.
 
@@ -50,7 +48,7 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium |
 
-**What Makes This Unique:** High knee shield targets shoulder for distance
+**Key Difference:** High knee shield targets shoulder for distance
 
 
 
@@ -76,10 +74,6 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ## Playing as Bottom
 
 [[Z-Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -168,10 +162,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Z-Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -244,7 +234,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

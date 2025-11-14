@@ -147,14 +147,12 @@ description: "Master Bow and Arrow Choke variations in BJJ. Complete guide with 
 
 
 
-> Bow and Arrow Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Bow and Arrow Variations targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Bow and Arrow Variations?
 
 The Bow and Arrow Choke variations represent a family of finishing techniques from back control that combine collar control with leg positioning to create devastating submission pressure. Unlike the standard Bow and Arrow, these variations adapt to different grip configurations, body types, and defensive responses, making them essential tools for any gi practitioner. The fundamental principle remains constant: using the gi collar to compress the carotid arteries while the legs create extension and prevent escape. However, the variations allow practitioners to adjust their approach based on collar availability, opponent size differences, and positional nuances. These adaptations include the cross-collar variation for deeper penetration, the single-collar variation for quicker entries, the rolling variation for dynamic transitions, and the modified grip variations for no-gi adaptations using the collar. Understanding these variations transforms a single technique into a comprehensive finishing system that accounts for real-world variables and opponent defensive patterns.
 
@@ -238,7 +236,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure Deep Collar Grip**: From back control with seat belt grip, release your choking-side hand and immediately feed it deep into the opponent's collar on the same side. Drive four fingers inside the collar as close to their neck as possible, with your thumb outside. Your knuckles should be touching their neck for maximum depth. This grip is the foundation of all variations. (Timing: 2-3 seconds) [Pressure: Light]
 2. **Control the Far Shoulder**: With your non-choking hand, maintain a tight grip on the opponent's far shoulder, tricep, or far-side collar. This prevents them from turning into you or using their arms to defend the choke. Keep this control tight throughout the entire sequence - any looseness here allows defensive hand fighting that can defeat the submission. (Timing: Continuous) [Pressure: Firm]
 3. **Initiate Hip Rotation**: Begin rotating your hips away from the opponent while maintaining your collar grip. Swing your top leg over their body toward their far hip, preparing to establish the bow-and-arrow position. Keep your chest connected to their back during this rotation to prevent them from following your movement and escaping back control. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -310,7 +308,7 @@ The Bow and Arrow Choke variations represent a family of finishing techniques fr
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must you establish the collar grip BEFORE transitioning your legs to bow-and-arrow position?
 **A**: Establishing the collar grip before moving your legs ensures you maintain back control throughout the transition. If you move your legs first, you sacrifice your hooks and positional control, allowing the opponent to escape to guard or turn into you before the submission is secured. The collar grip acts as your insurance policy - once it's deep and controlled, you can safely transition your legs knowing you still have a strong control point even if they attempt to escape.
 

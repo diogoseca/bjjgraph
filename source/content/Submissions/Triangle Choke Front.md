@@ -147,14 +147,12 @@ description: "Master Triangle Choke from front positions in BJJ. Complete guide 
 
 
 
-> Triangle Choke Front is a blood choke targeting the Carotid arteries and one shoulder. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle Choke Front targets the Carotid arteries and one shoulder. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle Choke Front?
 
 The Triangle Choke from front positions is one of the most fundamental and high-percentage submissions in Brazilian Jiu-Jitsu, particularly effective from closed guard, spider guard, and various open guard positions. This blood choke works by using your legs to create a triangle configuration around the opponent's neck and one arm, simultaneously compressing the carotid arteries while using their own shoulder to complete the choke. The beauty of the front triangle lies in its mechanical efficiency - you're using the largest muscle groups in your body (legs and hips) against the relatively weaker muscles of the opponent's neck, creating a submission that requires minimal strength when executed with proper technique.
 
@@ -240,7 +238,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Break opponent's posture**: From closed guard or open guard position, establish strong grips (collar and sleeve, or overhook and head control). Pull opponent's head and upper body down while using your legs to prevent them from posting back. The goal is to bring their head below the level of their hips, compromising their base and creating the opening for triangle entry. Use hip movement and grip pressure simultaneously. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Isolate one arm inside**: Using your grips and leg positioning, force one of the opponent's arms to be inside your guard while the other remains outside. This creates the essential triangle geometry - one arm trapped against their neck, one arm free. Common methods include pulling one arm across while blocking the other with your shin, or using collar-and-sleeve grips to manipulate arm position. The inside arm should be deep, ideally with their elbow past your hip. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Throw leg over shoulder**: With posture broken and arm isolated, uncross your ankles and bring one leg (same side as the trapped arm) across the opponent's back and over their shoulder. This leg should be high on the shoulder, with your knee pointing toward their opposite ear. Simultaneously, your other leg should maintain control on their hip to prevent them from posturing up during the transition. Execute this movement smoothly to prevent them from recovering posture. (Timing: 1 second - must be quick) [Pressure: Light]
@@ -310,7 +308,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the proper configuration for locking the triangle - which leg's ankle goes behind which leg's knee?
 **A**: The ankle of your bottom leg (the leg that comes across the back) should be placed behind the knee of your top leg (the choking leg). This creates a figure-four lock. Reversing this (putting the back of the knee behind the ankle) creates a weak triangle that is easily escaped.
 

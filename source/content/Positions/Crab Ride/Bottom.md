@@ -8,7 +8,7 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 45% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Crab Ride from the Bottom?
 
 Crab Ride Bottom is a defensive position where you find yourself on all fours in turtle position while your opponent has established a one-sided back control with hooks and upper body control. This position is common in wrestling-based grappling and represents a critical juncture where the bottom player must defend against back takes while seeking opportunities to escape or counter. The position gets its name from the crab-like configuration of the top player's body as they wrap around the bottom player's side with asymmetric hook control.
 
@@ -445,17 +426,17 @@ Bottom player flows through all escape options (hip escape, granby, stand up, si
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The crab ride bottom position represents a critical phase in the turtle position hierarchy where defensive priorities must be immediately established. The biomechanical reality is that once the first hook is inserted, you are working against time - the longer you remain in this position, the more likely the top player will consolidate control. The key is understanding the concept of 'hook removal windows' - brief moments when the top player adjusts their grips or shifts weight where the inserted hook becomes vulnerable to stripping. Technically, you must maintain what I call 'structured chaos' - explosive, unpredictable movement that prevents the opponent from settling into their control, while simultaneously maintaining enough structure to protect your neck and prevent being flattened. The granby roll is often the highest percentage escape because it combines direction change, explosive hip movement, and positional inversion in a single technique that is difficult for the top player to counter if timed correctly with their weight shifts.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From competition experience, I can tell you that staying in crab ride bottom is a losing battle - you need to explode out of it immediately. The best grapplers I've faced in this position never let me get comfortable; they're constantly moving, changing directions, and making it exhausting for me to maintain the ride. What works at the highest level is combining your defensive escapes with constant hand fighting - don't let them get clean grips on your collar or belt because that's what allows them to break you down. I've had success both escaping and attacking from this position depending on how the top player commits their weight. If they're aggressive going for the back take, the granby roll works great. If they're being more conservative, sometimes you can actually counter them with a rolling back take or sit-through to half guard. The key is reading their intentions and timing your explosions for when they're adjusting position - that's when they're most vulnerable.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Crab ride bottom is where 10th Planet guys need to think outside the box because traditional turtle defense isn't enough against high-level back attackers. What we focus on is the 'Electric Chair mindset' even from bottom - looking for leg entanglements and off-balancing opportunities while defending. One thing that's super effective is when the top guy has that one hook in, you can actually use your leg to trap their hooking leg and create a lockdown-style control, then use that to facilitate your granby or sit-through. It's all about being unpredictable and uncomfortable to ride. We also drill a lot of inverted movements from this position - forward rolls, reverse granby, even cartwheel escapes for the flexible guys. The moment you accept being static in crab ride bottom, you're going to get your back taken or get caught in a twister setup. Keep moving, stay creative, and look for those unconventional escapes that people don't expect.
 

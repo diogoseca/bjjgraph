@@ -8,7 +8,7 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -175,29 +175,10 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 
 
 
-> **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
->
-> **Quick Stats**: Advanced practitioners advance to better positions 75% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (Neutral)
-- **Position Type**: Neutral
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Standing Position?
 
 The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.
 
@@ -562,17 +543,17 @@ Practice multiple guard pull variations from standing engagement, focusing on gr
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Approach
+### John Danaher
 
 The standing position represents the most complex decision-making environment in grappling because it requires integration of multiple skill sets that are often trained in isolation. The systematic approach to standing exchanges begins with understanding that grip fighting is not merely about securing grips, but about creating hierarchical control that facilitates specific takedown entries while denying the opponent's preferred attacks. I emphasize the connection between grip configurations and takedown mechanics - certain grips naturally lead to certain techniques, and the grip fighting phase should be viewed as the setup phase for your primary offensive techniques. The concept of creating defensive frames in standing is equally critical; maintaining proper distance through head position, forearm frames, and strategic grips prevents the opponent from entering their optimal attack range. From a biomechanical perspective, the standing position demands an understanding of leverage principles that differ significantly from ground grappling - the base of support is much smaller with just the feet, making balance disruption through rotational forces and directional changes more effective than the linear pressure that works on the ground. Practitioners must develop the ability to recognize takedown entries in their earliest phases, as defensive reactions become exponentially more difficult once an opponent has established positional control through grips and body positioning.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In modern competition, the standing phase is often a strategic game of managing risk versus opportunity, and understanding your strengths relative to your opponent is critical for decision-making in this position. I approach standing exchanges with a clear hierarchy of preferred outcomes based on the specific opponent and competitive context. Against wrestlers with superior takedown games, I prioritize grip configurations that facilitate tactical guard pulls to my strongest guard positions, particularly outside Ashi Garami entries that immediately threaten leg attacks. The key is to make the guard pull look like a defensive reaction while actually being a planned offensive entry. Against pure guard players, I'll engage more aggressively in the standing phase to establish dominant grips that set up passing sequences or force them into guard pulls that favor my top game. Grip fighting in competition needs to be efficient and purposeful - I'm not interested in prolonged grip battles that drain energy, but rather in quick decisive grip sequences that either establish my attack or force the opponent into a disadvantageous position. The timing of guard pulls is crucial; pulling too early gives up potential advantages position and points, while waiting too long can result in being taken down. I've developed specific grip sequences that create the illusion of takedown attempts, causing opponents to react defensively, which then opens clean guard pull entries with optimal positioning. Understanding referee interpretation of engagement rules is also critical for avoiding penalties while controlling the pace of standing exchanges.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The standing position in no-gi grappling presents unique opportunities for creative entries into the 10th Planet system, and I've developed specialized approaches that bridge conventional wrestling with our submission-oriented game plan. The absence of gi grips fundamentally changes the standing game - you're working with collar ties, underhooks, overhooks, and wrist control rather than sleeve and lapel grips, which creates different timing windows and entry mechanics. I emphasize using the standing position to set up direct entries into rubber guard, lockdown half guard, or leg entanglement positions through strategic guard pulls that immediately establish the grips and configurations needed for our attacking sequences. The concept of the combat guard pull is central to our approach - this isn't a passive pull to guard, but an aggressive entry that immediately threatens submissions or sweeps, putting the top player in defensive mode from the moment they enter your guard. For example, pulling to rubber guard with immediate mission control or pulling to lockdown with the whip-up setup already in progress. Standing exchanges also present opportunities for front headlock entries, which are highly compatible with our submission chains - the guillotine, darce, and anaconda sequences work beautifully in no-gi and can be set up through snapdowns or failed takedown defense. I teach students to view the standing position not as a separate phase of grappling, but as the entry point to our systematic submission attacks, with each grip fight and positioning battle designed to create the specific entries that lead into our highest-percentage finishing sequences.
 

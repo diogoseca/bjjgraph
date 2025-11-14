@@ -8,7 +8,7 @@ description: "Terminal state in BJJ representing match loss via submission. Anal
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -163,29 +163,10 @@ description: "Terminal state in BJJ representing match loss via submission. Anal
 
 
 
-> **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
->
-> **Quick Stats**: Advanced practitioners advance to better positions 0% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (Neutral)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Lost by Submission?
 
 Lost by Submission represents the terminal state in Brazilian Jiu-Jitsu where a practitioner is forced to concede the match due to a successful submission attack. This state encompasses all submission finishes including joint locks, strangulations, and compression techniques. Understanding the pathways to this terminal state is critical for defensive awareness and submission prevention. The state is reached when a practitioner either taps verbally or physically, or when a referee stops the match due to unconsciousness or joint compromise. This position analysis examines the common submission control positions that precede this terminal state, the defensive failures that allow submissions to succeed, and the decision-making processes that determine when to tap versus when to defend. Competitive strategy around submission defense emphasizes recognizing danger early, understanding escape hierarchies, and accepting the tactical loss to prevent injury.
 
@@ -451,17 +432,17 @@ Partner applies submissions in stages (entry, control, finish). Identify the exa
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Approach
+### John Danaher
 
 The terminal state of submission loss represents not merely a tactical failure but a complete breakdown in the defensive hierarchy. From a systematic perspective, this outcome should be analyzed by working backwards through the submission chain: what was the control position that enabled the finish, what was the guard or transition that allowed that control position, and what was the initial tactical error that began the sequence. The intelligent practitioner views each submission loss as data - a clear indication of where their defensive system has structural weaknesses. Most importantly, the decision to tap must be viewed through the lens of long-term training sustainability rather than short-term competitive ego. A tap is simply acknowledgment of superior position at a given moment in time, not a reflection of permanent skill differential.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Getting submitted is part of the learning process, but in competition it's the ultimate failure - you lose immediately with no chance to recover points or position. The key is understanding which submissions you can defend versus which ones are already locked. Against world-class opponents, I tap to positions, not just finished submissions. If someone like Nicky Rod has my back with a body triangle and is working his second hand in for the strangle, that's often a tap situation because the finish is inevitable. In training, I tap much earlier than in competition because there's no benefit to getting injured defending a locked submission. But in competition, especially in finals, I'll defend until the absolute last moment because tournaments are won by one match. The skill is knowing exactly where that line is for each submission type.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The tap is your friend, man. I've trained with guys who refused to tap and they're all dealing with permanent injuries now - blown out knees, damaged shoulders, neck problems. In the 10th Planet system, we drill submissions extensively so everyone knows what a locked position feels like. When you're caught in a Twister or an Electric Chair or a deep heel hook, there's this moment where you feel the position lock and you know it's over. That's your tap moment. Fighting past that point doesn't make you tough, it makes you stupid. We also emphasize that tapping is a learning opportunity - after you tap, you ask your training partner to show you the exact moment where the position became inescapable so you can recognize it earlier next time. The goal isn't to never tap, it's to tap less frequently over time because your defensive awareness improves.
 

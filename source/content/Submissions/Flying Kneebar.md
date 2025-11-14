@@ -153,14 +153,12 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 
 
 
-> Flying Kneebar is a leg lock targeting the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Flying Kneebar targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Flying Kneebar?
 
 The Flying Kneebar is an advanced, dynamic leg lock submission that involves jumping onto the opponent's leg while standing and immediately transitioning to a kneebar position mid-air. This spectacular technique combines athleticism, timing, and technical precision to catch opponents off-guard during standup exchanges or guard pulls. While visually impressive and highly effective when executed properly, the Flying Kneebar carries significant risk for both practitioners and requires extensive drilling before live application. The submission targets the knee joint through hyperextension, attacking the posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL) simultaneously. Due to the dynamic nature of the entry and the potential for awkward landings, this technique demands exceptional body control and spatial awareness. The Flying Kneebar is most commonly seen in no-gi competition where grips don't interfere with the rotational mechanics, though gi variations exist using lapel and sleeve grips to control the descent. This submission represents the intersection of takedown artistry and leg lock expertise, requiring practitioners to master both the aerial component and the finishing mechanics to achieve consistent success.
 
@@ -250,7 +248,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Target Leg Selection and Initial Movement**: Identify the target leg (opponent's lead leg or leg currently bearing weight). Position yourself at a 30-45 degree angle from their centerline. Begin your jumping motion with a small penetration step toward the target leg. This step loads your jumping leg and closes distance while maintaining balance. Your eyes should track the target leg's position throughout, and your hands should begin reaching toward the ankle or knee area. Timing is crucial - execute this as opponent shifts weight forward onto the target leg. (Timing: 0.0-0.3 seconds) [Pressure: Light]
 2. **Jump and Leg Grip Establishment**: Explosively jump off your back leg while simultaneously securing the opponent's ankle with both hands (no-gi) or gripping the pants at ankle and knee (gi). Your jump trajectory should be upward and slightly forward, not diving low. As you leave the ground, your inside leg (closest to opponent) begins to swing up and around the target leg. Grip security is paramount - if you cannot establish a solid ankle grip, abort the technique. Your body should be airborne for only a brief moment, with grip contact established before full weight commitment. (Timing: 0.3-0.8 seconds) [Pressure: Moderate]
 3. **Hip Entry and Rotational Mechanics**: As you descend, drive your inside hip directly into the back of the opponent's knee while simultaneously threading your inside leg across their hip line. Your outside leg hooks over their torso (typically over the shoulder or upper back area). Begin your backward rotation, pulling the ankle toward your chest while pushing your hip into the back of their knee. The rotation should be smooth and continuous - this is NOT a static position. Your shoulders will rotate toward the mat as your legs configure around the target leg. Maintain absolute grip security on the ankle throughout this phase. (Timing: 0.8-1.5 seconds) [Pressure: Firm]
@@ -325,7 +323,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time in training for a flying kneebar finish, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 5-7 seconds of progressive pressure in training. This is critical because the knee joint has multiple ligaments (PCL, MCL, LCL) that can be damaged simultaneously with fast application, and the dynamic entry often masks early pain signals. Slow progression allows training partners to recognize the submission and tap before structural damage occurs. Unlike chokes where unconsciousness provides a safety mechanism, knee submissions cause permanent ligament damage before the pain becomes unbearable.
 

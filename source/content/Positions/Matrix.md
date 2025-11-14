@@ -8,7 +8,7 @@ description: "Master the Matrix back take in BJJ. Complete guide to the dynamic 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master the Matrix back take in BJJ. Complete guide to the dynamic 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Matrix?
 
 The Matrix back take represents one of Brazilian Jiu-Jitsu's most dynamic and spectacular transitions to back control. Named for its cinematic appearance—where the practitioner inverts and rolls underneath or around the opponent—this technique transforms defensive or neutral positions into dominant back control through fluid rotational movement.
 
@@ -58,7 +56,7 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -72,7 +70,7 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium to Long |
 
-**What Makes This Unique:** Inverted rolling motion for dynamic back access
+**Key Difference:** Inverted rolling motion for dynamic back access
 
 
 
@@ -84,10 +82,6 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ## Playing as Bottom
 
 [[Matrix/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -172,10 +166,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Matrix/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -251,7 +241,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

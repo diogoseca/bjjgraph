@@ -153,14 +153,10 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
 
 
 
-> Morote Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Morote Seoi Nage?
 
 Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo technique that has proven highly effective in Brazilian Jiu-Jitsu competition and self-defense scenarios. Unlike the single-handed Ippon Seoi Nage, this variation maintains grips on both sleeves or wrists throughout the throw, providing superior control and reducing the opponent's ability to counter. The technique exploits forward momentum or pressure, using a rotating entry to load the opponent onto your back before executing an explosive forward projection. This throw is particularly effective in gi competition where sleeve control is paramount, and it transitions seamlessly into dominant top positions like side control or mount. The Morote Seoi Nage requires precise timing, strong hip positioning, and excellent kuzushi (off-balancing) to execute successfully against resisting opponents. When mastered, it becomes a high-percentage technique that can score immediate points in competition while establishing superior position for submission attacks or control.
 
@@ -200,7 +196,7 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish sleeve grips**: Secure firm grips on both of opponent's sleeves at the wrists or mid-forearm. Your grip should be strong enough to control their arms but flexible enough to allow pulling motion. Keep your elbows slightly bent and ready to pull. (Timing: During initial grip fighting exchange)
 2. **Break opponent's balance forward**: Execute a strong forward pull with both hands while stepping your lead foot forward. This kuzushi action should break opponent's posture forward and shift their weight onto their toes. Feel for the moment when they resist by pulling back or pushing forward. (Timing: Immediately before entry, exploit their reaction)
 3. **Step in with lead leg**: Step your lead foot (same side as your direction of rotation) deep across and in front of opponent's lead foot. This foot should be placed slightly inside their stance, pointing perpendicular to their centerline. Keep your weight on this foot momentarily. (Timing: As opponent's weight shifts forward)
@@ -292,7 +288,7 @@ Attempt technique during live rolling and competition training. Analyze video fo
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary difference between Morote Seoi Nage and Ippon Seoi Nage?
 **A**: Morote Seoi Nage maintains grips on both of the opponent's sleeves or wrists throughout the throw, while Ippon Seoi Nage uses only one arm with the throwing arm going under the opponent's armpit. This bilateral grip control in Morote Seoi Nage provides superior control during the throw and makes it more difficult for opponents to post out or counter.
 

@@ -147,14 +147,10 @@ description: "Master Chair Sit to Back Take in BJJ. Control opponent from turtle
 
 
 
-> Chair Sit to Back transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Chair Sit to Back?
 
 The Chair Sit to Back Take is a fundamental transition from attacking turtle position to establishing dominant back control. This technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while systematically climbing onto their back. The chair sit position provides exceptional control by using your leg as a barrier, preventing the opponent from turning into you while you establish the crucial seatbelt grip configuration. The technique represents a high-percentage pathway to back control because it neutralizes the opponent's ability to counter-rotate or escape forward, creating a controlled environment for methodical position advancement. Success requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. The chair sit acts as a transitional control position that bridges the gap between attacking turtle and securing full back mount with hooks established.
 
@@ -193,7 +189,7 @@ The Chair Sit to Back Take is a fundamental transition from attacking turtle pos
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish hip control**: From attacking turtle position, secure a firm grip on opponent's near hip using your near hand, controlling their ability to move forward or turn into you. Your other hand should control their far shoulder or collar to prevent posting.
 2. **Insert blocking leg**: Thread your near leg across opponent's near thigh, positioning your shin as a barrier that prevents them from turning into you. Your foot should hook around their far thigh, creating a strong structural frame that controls their hip mobility.
 3. **Sit to chair position**: Lower your hips to the mat while maintaining the leg barrier, sitting perpendicular to your opponent. Your blocking leg should remain rigid across their thigh while your far leg posts out for base, preventing them from rolling you backward.
@@ -286,7 +282,7 @@ Integrate chair sit with other turtle attack options, creating decision trees ba
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you establish the seatbelt grip before attempting to climb onto the opponent's back?
 **A**: The seatbelt grip provides the structural control necessary to prevent opponent escape during the transition to back mount. Without this grip, the opponent can simply drive forward or turn into you as you attempt to climb, completely neutralizing the position. The seatbelt acts as your anchor point, allowing you to break their structure and control their movement while inserting hooks. Attempting to climb first creates unnecessary space and escape opportunities.
 

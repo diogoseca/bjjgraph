@@ -147,14 +147,12 @@ description: "Master Monoplata from Mount in BJJ. Complete safety guide covering
 
 
 
-> Monoplata from Mount is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Monoplata from Mount targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Monoplata from Mount?
 
 The Monoplata from Mount is an advanced shoulder lock submission that combines elements of the traditional omoplata with mounted control. This technique targets the opponent's shoulder joint and rotator cuff by isolating one arm and applying rotational pressure through a leg-based figure-four configuration. From the mount position, the attacker transitions to isolate the opponent's arm, threads their leg through to create the lock, and applies controlled pressure to force the tap. The monoplata is particularly effective against opponents who defend by framing with their arms or attempting to create distance from mount. Unlike the traditional omoplata which is executed from guard positions, the monoplata from mount provides superior control and eliminates many common escape routes. The technique requires excellent hip mobility, precise timing, and thorough understanding of shoulder mechanics to execute safely. When performed correctly, the monoplata creates an inescapable position where the opponent must tap or risk serious shoulder injury. This submission has gained popularity in modern no-gi grappling due to its effectiveness against athletic opponents who maintain strong defensive frames from bottom mount.
 
@@ -239,7 +237,7 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure high mount with arm isolation**: From mount, slide your hips high toward opponent's head while maintaining chest pressure. Isolate one of opponent's arms by controlling their wrist or forearm. The target arm should be extended toward your body, either framing against your chest or reaching up defensively. Use your opposite hand to pin their wrist to your chest or trap it against your body. Keep your weight forward to prevent them from bridging or creating space. (Timing: 3-5 seconds to establish secure control) [Pressure: Firm]
 2. **Control opponent's head and far arm**: While maintaining control of the isolated arm, use your free hand to control opponent's head or secure their far arm. This is critical to prevent them from defending the monoplata by grabbing your leg or creating frames. You can cup the back of their head, control their far wrist, or establish a grip on their far shoulder. This control eliminates their primary defensive options as you transition. (Timing: 2-3 seconds) [Pressure: Moderate]
 3. **Swing leg over opponent's head**: Begin the transition by swinging your leg (same side as the trapped arm) over opponent's head. Post your opposite hand on the mat for balance as you lift your leg. Your leg should arc over their face smoothly without losing mount control with your other leg. Keep the trapped arm pinned to your body throughout this movement. Your leg should end up positioned so your shin is across the back of their head/neck area. (Timing: 2-4 seconds for smooth transition) [Pressure: Moderate]
@@ -307,7 +305,7 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply pressure on a monoplata during training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: You must apply pressure over a minimum of 5-7 seconds during training because the shoulder joint is highly susceptible to rotator cuff tears and dislocations. Slow application gives your training partner adequate time to recognize the submission and tap safely before injury occurs. The shoulder complex involves multiple tendons and ligaments that can tear catastrophically with fast application.
 

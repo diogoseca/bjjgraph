@@ -153,14 +153,10 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
 
 
 
-> Arm Drag to Back transitions from [[Butterfly Guard]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Arm Drag to Back?
 
 The Arm Drag to Back is a fundamental and highly effective technique for advancing position from various guard positions to the dominant back control. This technique involves controlling the opponent's arm and using it as a lever to move past their defensive frame while simultaneously rotating behind them. The arm drag is one of the most versatile techniques in Brazilian Jiu-Jitsu, applicable from standing, seated guard, butterfly guard, and many other positions. Its effectiveness lies in the ability to bypass the opponent's defensive structure without having to break through their guard or pass directly, instead using their own arm against them to create a pathway to the back. The arm drag represents a fundamental principle in grappling: using the opponent's limbs as handles to manipulate their body position. When executed properly, the arm drag creates a cascading sequence of positional advantages. First, it removes one of the opponent's posting hands, compromising their base. Second, it creates an angle that makes it difficult for them to defend against the back take. Third, it positions you perpendicular to their body, giving you leverage advantages. The technique requires precise timing, grip control, and hip movement to execute successfully. Against skilled opponents, the arm drag must be set up carefully, often requiring feints, grip fighting, or combination attacks to create the opening needed for successful execution.
 
@@ -200,7 +196,7 @@ The Arm Drag to Back is a fundamental and highly effective technique for advanci
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish double grip control**: Secure a same-side wrist grip with your right hand on opponent's right wrist, palm facing down with four fingers wrapped around their wrist. Simultaneously grip their right triceps or lat with your left hand, creating a frame that will allow you to pull their arm across your body. Your grips should be tight but not telegraphing your intention to drag. (Timing: Setup phase - establish before opponent recognizes threat)
 2. **Pull arm across centerline**: Explosively pull the opponent's wrist across your body toward your left hip while your left hand pushes their triceps in the same direction. The motion should be diagonal, bringing their arm across their own centerline. This removes their posting base on that side and begins to turn their shoulders away from you. (Timing: Initiation - coordinate with opponent's forward pressure)
 3. **Hip escape and angle creation**: As you drag the arm, simultaneously hip escape away from the dragged arm (to your left if dragging their right arm). This creates the crucial angle that allows you to move perpendicular to their body rather than remaining directly in front of them. Your hips should move explosively, creating space between you and opponent. (Timing: Simultaneous with arm drag - critical for creating angle)
@@ -302,7 +298,7 @@ Develop arm drag as part of larger attack system. Chain with other back takes, s
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to coordinate the arm drag with hip movement rather than just pulling the arm?
 **A**: The hip movement away from the dragged arm creates the angle necessary to move perpendicular to opponent's body. Without this angle creation, you remain directly in front of the opponent where they can easily recover or counter. The hip escape also generates the momentum needed to circle behind them - it's the engine that drives the rotation. Additionally, the hip movement helps you avoid being pulled into their guard if they counter by sitting back.
 

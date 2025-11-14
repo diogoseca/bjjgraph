@@ -147,14 +147,12 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 
 
 
-> Arm Crush is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Arm Crush targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Arm Crush?
 
 The Arm Crush is a powerful shoulder lock submission that combines crushing pressure with rotational torque on the opponent's shoulder joint. Unlike traditional shoulder locks that isolate the joint through leverage alone, the Arm Crush uses body weight and positional pressure to compress the shoulder while simultaneously applying a twisting motion. This submission is most commonly executed from side control positions, particularly when the opponent's arm is trapped between their body and yours. The technique targets the rotator cuff muscles and shoulder capsule, creating intense pressure that forces a quick tap. The Arm Crush is especially effective against defensive opponents who keep their elbows tight to their body, as this defensive posture actually creates the necessary configuration for the submission. The finish combines elements of the Americana and Kimura while adding a unique crushing component that makes it extremely difficult to defend once properly applied.
 
@@ -237,7 +235,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure side control consolidation**: From side control, establish a strong cross-face with your near arm while driving your shoulder into opponent's jaw. Your far arm reaches across to control their far shoulder or reach under their far armpit. Your chest should be heavy on their chest, and your hips should be low and tight to their near hip. This consolidated position prevents escape and sets up the arm trap. (Timing: 2-3 seconds to settle weight) [Pressure: Firm]
 2. **Trap the near arm**: As opponent defends by keeping their near elbow tight to their ribs, slide your far arm underneath their trapped arm at the elbow level. Your forearm should wedge between their upper arm and their ribcage. Maintain heavy chest pressure to prevent them from extracting their arm. The tighter they defend, the deeper you can wedge your arm underneath theirs. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Establish the grip configuration**: With your far arm wedged under their elbow, reach across with your near hand to grip your own wrist or forearm, creating a figure-four configuration around their trapped arm. Your grip should be tight and your elbows should be squeezed together. This creates the frame that will apply the crushing pressure. Ensure your chest remains heavy on their torso throughout this adjustment. (Timing: 1-2 seconds) [Pressure: Firm]
@@ -299,7 +297,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary source of pressure in the Arm Crush submission?
 **A**: The primary source of pressure is your chest weight driving down and forward into the opponent's shoulder, creating crushing compression between your body weight and their torso. This is combined with a figure-four grip that controls the arm position and allows you to add rotational torque. The submission is more about body positioning and weight distribution than arm strength.
 

@@ -153,14 +153,12 @@ description: "Master Calf Slicer Variations in BJJ. Complete guide covering setu
 
 
 
-> Calf Slicer Variations is a leg compression targeting the Calf muscle and knee joint. ⚠️ **SAFETY**: This technique can cause Calf muscle tear or strain. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Calf Slicer Variations targets the Calf muscle and knee joint. Risk: Calf muscle tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Calf Slicer Variations?
 
 The Calf Slicer represents a sophisticated compression submission that targets the calf muscle and surrounding tissues through crushing pressure applied by the shin bone. Unlike joint locks that attack articulation points, the calf slicer creates intense pressure on the gastrocnemius and soleus muscles, forcing a tap through severe discomfort and potential tissue damage. This submission is particularly effective from leg entanglement positions where the opponent's leg is trapped and isolated, allowing the attacker to apply controlled compression with their shin or forearm acting as the fulcrum. The technical sophistication required for calf slicers makes them advanced submissions that demand precise positioning and sensitivity to apply safely. The calf slicer's effectiveness stems from its ability to attack from positions where the opponent has limited defensive options, particularly in 50-50, truck, and deep half guard variations. Understanding the multiple entry points and variations of the calf slicer is essential for modern leg lock practitioners, as it provides both a primary finishing option and a powerful tool for creating defensive reactions that open other submission opportunities. The compression nature of this submission requires exceptionally slow application in training, as muscle and soft tissue damage can occur rapidly with excessive force.
 
@@ -244,7 +242,7 @@ The Calf Slicer represents a sophisticated compression submission that targets t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish leg entanglement control**: From 50-50, truck, or deep half position, secure complete control of opponent's trapped leg using your legs and hips. Ensure their knee is bent and their leg cannot be extracted easily. Establish grips or frames on their upper body to prevent posturing. (Timing: 2-3 seconds for secure control) [Pressure: Moderate]
 2. **Insert attacking shin behind opponent's knee**: Thread your shin behind the opponent's knee joint, positioning the bone of your shin directly against their calf muscle. Your shin should be perpendicular to their leg, with your foot pointing away from their body. This creates the compression surface for the submission. (Timing: 1-2 seconds to position correctly) [Pressure: Light]
 3. **Secure figure-four grip configuration**: Establish a figure-four lock with your legs by grabbing your own foot or ankle, creating a closed system. Alternatively, use your hands to grab your shin or foot to reinforce the compression structure. This configuration prevents the opponent from opening the submission and escaping. (Timing: 1 second to lock configuration) [Pressure: Moderate]
@@ -315,7 +313,7 @@ The Calf Slicer represents a sophisticated compression submission that targets t
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary surface used to create compression in a calf slicer and why?
 **A**: The shin bone is the primary compression surface because it provides a hard, concentrated pressure point that effectively crushes the soft tissue of the calf muscle. Using the shin bone rather than the foot or ankle creates the necessary pressure concentration to force a tap. The bone-to-muscle contact is what makes the submission effective.
 

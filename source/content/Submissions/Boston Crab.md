@@ -153,14 +153,12 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 
 
 
-> Boston Crab is a spinal compression targeting the Lumbar spine and hip flexors. ⚠️ **SAFETY**: This technique can cause Lumbar spine strain or disc herniation. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Boston Crab targets the Lumbar spine and hip flexors. Risk: Lumbar spine strain or disc herniation. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Boston Crab?
 
 The Boston Crab is a compression submission that targets the opponent's lumbar spine and hip flexors by creating extreme hyperextension of the lower back. Originating from catch wrestling and professional wrestling, this technique has limited application in modern sport BJJ due to rule restrictions in many competition formats, but remains valuable for understanding spinal mechanics and no-gi scenarios where it can create legitimate finishing pressure. The submission works by controlling both of the opponent's legs, typically from turtle or back control positions, then sitting back to create a bridge-like arch in the opponent's spine. The effectiveness comes from the combination of hip flexor strain, lower back compression, and the opponent's inability to effectively defend while both legs are controlled. This technique requires careful application due to the significant spinal stress involved and is most commonly seen in catch wrestling competitions or MMA scenarios where back control is established but traditional chokes are defended. Understanding the Boston Crab provides insight into compression-based submission mechanics and the importance of protecting your lower back when opponent has leg control from behind.
 
@@ -245,7 +243,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish leg control from turtle**: From opponent's turtle position or back control, secure grips on both of their ankles or lower legs. The grip should be firm but allow you to manipulate their legs. Ensure opponent is flattened or unable to effectively post with their hands. Your position should be behind or to the side of the opponent with clear access to both legs. (Timing: 2-3 seconds for secure grips) [Pressure: Light]
 2. **Step over opponent's body**: While maintaining ankle control, step one leg over the opponent's back so you are standing over them facing their legs. Your feet should be positioned on either side of their torso. This positioning allows you to control their leg position while preparing for the sit-back motion. Keep your weight distributed to maintain balance. (Timing: 2-3 seconds) [Pressure: Light]
 3. **Turn and position legs**: Turn your body 180 degrees so you are now facing away from the opponent's head while maintaining ankle grips. Position opponent's legs so their shins are controlled against your hips or lower back area. Their knees should be relatively close together. This alignment is critical for proper spinal mechanics when you sit back. (Timing: 3-4 seconds) [Pressure: Moderate]
@@ -313,7 +311,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical target of the Boston Crab and what type of injury risk does it present? **[SAFETY-CRITICAL]**
 **A**: The primary target is the lumbar spine (lower back) through hyperextension, with secondary stress on hip flexors. The main injury risk is lumbar spine strain, disc herniation, or muscle tears in the lower back region. This is why the submission must be applied extremely slowly and progressively, with constant monitoring for tap signals. The spinal compression nature makes it one of the higher-risk submissions in terms of potential for serious injury.
 

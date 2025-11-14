@@ -147,14 +147,10 @@ description: "Learn Granby to Closed Guard recovery technique. Master Granby rol
 
 
 
-> Granby to Closed Guard transitions from [[Turtle]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Granby to Closed Guard?
 
 The Granby to Closed Guard is a dynamic defensive recovery technique that uses the Granby roll motion to transition from compromised bottom positions back to closed guard. This technique is essential for practitioners who find themselves in turtle, side control escape scenarios, or other defensive positions where traditional guard recovery methods are unavailable. The movement combines a shoulder roll with hip rotation to create space and redirect momentum, allowing you to insert your legs between you and your opponent to re-establish guard.
 
@@ -196,7 +192,7 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Create initial space**: From bottom turtle or defensive position, explosively extend your hips backward while posting your outside hand on the mat. This hip extension creates the critical space needed to begin your roll and forces your opponent to adjust their base. Your inside arm should be protecting your neck, with your elbow tight to your ribs to prevent opponent from establishing control. (Timing: Execute during opponent's forward pressure)
 2. **Initiate shoulder roll**: Drop your inside shoulder toward the mat while tucking your chin tightly to your chest. Begin rolling over this shoulder in a diagonal direction, away from your opponent's pressure. Your head should never touch the mat - the roll occurs across your upper back and shoulders. Keep your body compact by bringing your knees toward your chest as you begin the rotation. (Timing: Immediate follow-up to space creation)
 3. **Complete the rotation**: Continue the rolling motion by driving your outside hip over your body, using momentum to complete the rotation. Your knees should remain tucked toward your chest throughout this phase. As you roll, your outside leg will naturally sweep in an arc over your body. Focus on maintaining a tight, compact body position to prevent your back from being exposed during the vulnerable rotation phase. (Timing: Smooth continuation of the roll)
@@ -291,7 +287,7 @@ Experiment with different entry points (from various bottom positions), develop 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to create space with hip extension before initiating the Granby roll?
 **A**: Creating space before the roll is essential because it provides the physical room needed to complete the rotational movement without being pinned by the opponent's weight. Without this initial space, the opponent's pressure will prevent your shoulders from rotating properly, leaving you stuck in a vulnerable position mid-movement. The hip extension also momentarily disrupts the opponent's base and creates the timing window for successful execution.
 

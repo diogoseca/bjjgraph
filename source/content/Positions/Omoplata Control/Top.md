@@ -8,7 +8,7 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 70%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Omoplata Control from the Top?
 
 Omoplata Control Top represents a dominant shoulder lock position where the top practitioner has established deep control over the opponent's shoulder joint using their legs while maintaining superior positioning. This position occurs when you have successfully secured the omoplata configuration with your leg over the opponent's shoulder and arm trapped, creating immense pressure on the shoulder capsule and rotator cuff. The position offers exceptional control and high-percentage submission opportunities, though it requires precise technique and patience to maintain effectively. From the top position in omoplata control, you possess multiple pathways to finish the submission, transition to back control, or sweep to more dominant positions. The mechanics rely heavily on hip positioning, leg pressure distribution, and precise shoulder isolation. Unlike many other submission positions, omoplata control from top allows you to maintain the attack while simultaneously controlling posture and preventing escape, making it one of the most reliable shoulder lock positions in modern Brazilian Jiu-Jitsu. The position is particularly effective in both gi and no-gi contexts, though the gi provides additional grip options for control refinement. Understanding the biomechanical principles of shoulder rotation and the opponent's defensive instincts is crucial for maximizing effectiveness from this position. Modern competition data shows that practitioners who achieve omoplata control top finish the submission approximately 70% of the time at advanced levels, making it one of the highest-percentage attacks from guard positions.
 
@@ -448,17 +427,17 @@ Partner in omoplata control position attempts forward roll escape. Practice timi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The omoplata control position represents a perfect example of biomechanical advantage in Brazilian Jiu-Jitsu. The shoulder joint, being a ball-and-socket joint with significant mobility, becomes extremely vulnerable when placed in forced external rotation combined with extension. From the top position, you must understand that the true power of omoplata control comes not from applying maximum pressure immediately, but from establishing perfect angle of attack where the shoulder capsule is maximally stressed. The key mechanical principle is creating a fulcrum with your shin across the opponent's upper back while using your hips as the lever to apply rotational force to the shoulder. Many practitioners make the error of trying to finish too quickly without first establishing complete postural control over the opponent. The correct systematic approach involves first controlling the opponent's ability to sit up or roll, then methodically adjusting your hip angle to create the optimal leverage ratio, and finally applying finishing pressure in a controlled, progressive manner. This position also offers exceptional transitional opportunities because the opponent's defensive instincts create predictable reactions that can be exploited for back takes or sweeps.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, omoplata control top is one of my highest-percentage positions because it puts the opponent in a devastating dilemma with no good options. When I establish this position, I know I'm going to either finish the submission, take the back, or sweep to mount - the opponent literally cannot stop all three threats simultaneously. The competition-proven approach is to immediately secure tight hip connection and then watch for the opponent's first defensive reaction. If they try to roll forward, I follow to the back and often get the choke. If they try to sit up and stack, I sweep them directly to mount. If they stay static trying to defend the shoulder lock, I have all the time I need to adjust my angle and finish the omoplata. What makes this position so effective at the highest levels is that even black belts struggle with the timing of the escape - they either commit too early and give up back control, or wait too long and get submitted. My advice for making this work in competition is to never rush the finish. Establish perfect control first, make them react to your pressure, then capitalize on whichever defensive option they choose. The position's power comes from the fact that every escape attempt creates an even better offensive opportunity.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The omoplata from top position is absolutely sick because it embodies everything we love about 10th Planet jiu-jitsu - it's creative, it chains perfectly into other attacks, and it puts incredible pressure on traditional defensive thinking. What most people don't realize is that omoplata control isn't just about the shoulder lock submission - it's about creating a position where you're always attacking and the opponent is always defending, which is the essence of the game. From the top perspective, I teach my students to think of the omoplata control as a central hub in a wheel of attacks. You've got the direct finish, sure, but you've also got the back take if they roll, the sweep if they try to sit up, the triangle if they defend the shoulder, and even the armbar if they change their arm position. The innovation here is treating it as a dynamic attacking position rather than a static submission hold. In the no-gi context especially, the omoplata control from top becomes even more powerful because without gi grips to defend, the opponent has fewer options to create frames or leverage. I also like to incorporate rubber guard entries into omoplata control because it gives you additional control points and makes the position even more versatile for transitioning between different attack sequences.
 

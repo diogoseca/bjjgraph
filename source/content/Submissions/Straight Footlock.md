@@ -147,14 +147,12 @@ description: "Master the Straight Footlock in BJJ. Safety guide with setup and e
 
 
 
-> Straight Footlock is a ankle lock targeting the Ankle joint and Achilles tendon. ⚠️ **SAFETY**: This technique can cause Ankle ligament sprain or tear (deltoid ligament, lateral collateral ligaments). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Straight Footlock targets the Ankle joint and Achilles tendon. Risk: Ankle ligament sprain or tear (deltoid ligament, lateral collateral ligaments). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Straight Footlock?
 
 The Straight Footlock, also known as the Straight Ankle Lock, represents the fundamental entry point into leg lock systems in Brazilian Jiu-Jitsu. This submission targets the ankle joint and Achilles tendon through a combination of dorsiflexion and compression, creating mechanical pressure that forces the tap. Unlike more advanced leg locks such as heel hooks, the straight footlock is legal across all major competition rulesets including IBJJF white belt divisions, making it an essential technique for practitioners at every level. The submission's effectiveness lies in its accessibility from multiple positions including Ashi Garami variations, single leg X-guard, and even from top pressure positions. The straight footlock teaches fundamental principles of leg entanglement, hip positioning, and rotational control that serve as the foundation for more advanced leg attack systems. When executed properly, the technique creates a powerful fulcrum against the ankle while the practitioner's arms function as a compression unit, generating increasing pressure as the hips extend. The submission's relatively lower injury risk compared to knee-targeting attacks makes it an ideal teaching tool for developing leg lock competency, though proper application speed and tap recognition remain absolutely critical for training safety.
 
@@ -239,7 +237,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Ashi Garami control**: Secure the leg entanglement with your inside leg crossing over opponent's trapped leg at the hip, your outside leg hooking behind their knee or posted on the mat. Ensure your hips are positioned higher than their knee joint to establish proper mechanical advantage for the finish. (Timing: Take 2-3 seconds to settle into stable position) [Pressure: Light]
 2. **Secure the foot grip**: Wrap both arms around opponent's foot, ensuring the blade of your forearm (thumb-side radius bone) is positioned directly across their Achilles tendon. The foot should be pulled into your armpit or pressed against your ribcage. Clasp your hands together using either a gable grip or figure-four grip, with elbows tight to your body. (Timing: 1-2 seconds for grip establishment) [Pressure: Moderate]
 3. **Adjust hip alignment**: Angle your hips at approximately 45 degrees to opponent's body, creating a strong structural line from your shoulders through your hips. Your hips should be slightly higher than their trapped knee. Lean your upper body backward while maintaining tight arm compression on the foot. (Timing: 1 second adjustment) [Pressure: Moderate]
@@ -309,7 +307,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply finishing pressure during training, and why is this critical for safety? **[SAFETY-CRITICAL]**
 **A**: Minimum 3-5 seconds of progressive pressure application during training. This is critical because it gives your partner adequate time to recognize the danger, process the sensation, and execute a tap signal before injury occurs. Ankle and Achilles injuries can happen extremely quickly with explosive application, potentially causing ligament damage or tendon rupture that requires months of recovery. Gradual application also builds better technical understanding of the submission mechanics.
 

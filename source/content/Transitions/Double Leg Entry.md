@@ -147,14 +147,10 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 
 
 
-> Double Leg Entry transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Double Leg Entry?
 
 The Double Leg Entry is a fundamental wrestling-based takedown that serves as a cornerstone technique for standing grappling exchanges in Brazilian Jiu-Jitsu. This technique involves penetrating your opponent's defensive space, securing both legs simultaneously, and driving through to establish a dominant position on the ground. The double leg entry is distinguished from the finish itself - it focuses on the critical initial phases of level change, penetration step, and leg capture that create the conditions for a successful takedown. Understanding proper entry mechanics is essential because even perfect finishing technique cannot compensate for poor penetration and positioning. The double leg entry requires precise timing, explosive movement, and tactical deception to bypass an opponent's defensive posture. Unlike other takedown approaches that rely on upper body control, the double leg entry commits fully to attacking the opponent's base by removing both legs from the equation simultaneously. This creates an unavoidable mechanical disadvantage for the defender once proper penetration is achieved. Mastery of the double leg entry provides a reliable method for taking the fight to the ground on your terms, establishing top position, and controlling the pace of engagement from the opening exchange.
 
@@ -194,7 +190,7 @@ The Double Leg Entry is a fundamental wrestling-based takedown that serves as a 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Create Setup Opportunity**: Engage in hand fighting or grip exchanges to occupy opponent's attention and hands. Use feints, pushes, or circular movement to create a momentary lapse in defensive awareness. The goal is to disguise the impending level change by keeping opponent's focus on upper body exchanges rather than preparing for low attacks. (Timing: During grip fighting exchange or opponent's forward pressure)
 2. **Execute Level Change**: Drop your hips explosively by bending at the knees and waist while maintaining a straight back. Your head should remain up with eyes on opponent's chest or hips. The level change should be sudden and commit fully - hesitant or gradual dropping telegraphs the attack and allows opponent to sprawl or withdraw. Bring your arms into position with elbows tight to body. (Timing: Explosive drop in single fluid motion (0.2-0.3 seconds))
 3. **Penetration Step**: As you drop levels, drive your lead leg forward in a deep step that places your foot between opponent's feet or slightly beyond centerline. The step should be long and low, with your knee nearly touching the mat. This penetration step commits your body weight forward and positions you to attack both legs simultaneously. Your hips should drive forward and down. (Timing: Immediately following level change - one continuous motion)
@@ -295,7 +291,7 @@ Continue refining entry mechanics for specific opponent types (taller, shorter, 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the correct sequence for double leg entry execution?
 **A**: The correct sequence is: 1) Create setup opportunity through grip fighting or feints, 2) Execute explosive level change by dropping hips with straight back, 3) Drive forward with deep penetration step between opponent's legs, 4) Establish head position on centerline or outside while driving into opponent's midsection, 5) Secure both legs with arms wrapped behind knees/thighs and hands connected, 6) Maintain continuous forward drive to complete entry position. This sequence must flow as one continuous motion with each element triggering the next.
 

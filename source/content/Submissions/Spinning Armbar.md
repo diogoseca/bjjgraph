@@ -147,14 +147,12 @@ description: "Master the Spinning Armbar in BJJ. Dynamic submission from multipl
 
 
 
-> Spinning Armbar is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension with ligament damage (UCL/MCL tears). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Spinning Armbar targets the Elbow joint. Risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Spinning Armbar?
 
 The Spinning Armbar is a dynamic and versatile submission technique that targets the elbow joint through rotational movement. Unlike traditional static armbars, this technique involves spinning your entire body around the opponent's arm to create a finishing angle, making it particularly effective when standard armbar entries are defended or unavailable. The spinning motion generates momentum that can overcome defensive postures and creates multiple entry points from various positions including mount, guard, scrambles, and standing situations. This submission requires precise timing, spatial awareness, and fluid hip movement to execute successfully. The technique's effectiveness lies in its ability to catch opponents off-guard through the unexpected rotational attack vector, bypassing traditional armbar defenses that focus on preventing hip movement or protecting the arm statically. Mastery of the spinning armbar opens up offensive opportunities from seemingly neutral positions and creates a constant submission threat that keeps opponents defensive and reactive throughout the match.
 
@@ -237,7 +235,7 @@ The Spinning Armbar is a dynamic and versatile submission technique that targets
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure arm control**: Establish a firm two-handed grip on the opponent's arm - one hand controlling the wrist and the other gripping above the elbow or on the triceps. Pull the arm across your centerline to isolate it from their body and create the initial separation needed for the spin. Ensure your grip is tight and your elbows are pulled in close to maintain control throughout the rotation. (Timing: 1-2 seconds for grip establishment) [Pressure: Firm]
 2. **Break opponent's posture**: Use your grip to pull the opponent forward and off-balance, breaking their defensive posture. If in guard, open your guard and place your feet on their hips or shoulders to create distance while maintaining arm control. If from mount or top position, shift your weight to compromise their base. This postural disruption is critical to prevent them from following your rotation and escaping. (Timing: 1 second) [Pressure: Moderate]
 3. **Initiate the spin**: Begin rotating your body toward the side of the controlled arm by pivoting on your shoulder and hips. Keep the opponent's arm pinned tightly to your chest as you spin, using your legs to push off their body or the mat for momentum. Your head should lead the rotation while your hips follow in a circular path around the opponent's arm. Maintain constant tension on the arm throughout the spin to prevent them from yanking it free during the rotation phase. (Timing: 2-3 seconds for complete rotation) [Pressure: Firm]
@@ -307,7 +305,7 @@ The Spinning Armbar is a dynamic and versatile submission technique that targets
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the two critical points of control on the opponent's arm before initiating a spinning armbar?
 **A**: You must control both the wrist (for directional control and prevention of hand retraction) and a point above the elbow such as the triceps or upper forearm (to prevent arm rotation and maintain alignment throughout the spin). Controlling only the wrist allows the opponent to rotate their arm and escape, while controlling only above the elbow gives them the ability to pull the arm back to their body. Two-point control is essential for maintaining the submission throughout the dynamic rotational movement.
 

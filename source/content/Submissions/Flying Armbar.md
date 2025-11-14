@@ -153,14 +153,12 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 
 
 
-> Flying Armbar is a arm lock targeting the Elbow joint and shoulder. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or ligament tears (opponent). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Flying Armbar targets the Elbow joint and shoulder. Risk: Elbow hyperextension or ligament tears (opponent). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Flying Armbar?
 
 The Flying Armbar is an explosive aerial submission that combines dynamic movement with precise timing to attack the elbow joint. This high-risk, high-reward technique involves jumping into armbar position from standing, typically when the opponent is standing in or attempting to pass your guard. The technique requires exceptional coordination, timing, and spatial awareness to execute safely and effectively.
 
@@ -251,7 +249,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish two-on-one grip control**: From guard bottom position with opponent standing or posting, secure a strong two-on-one grip on their arm. One hand controls the wrist, the other grips the sleeve above the elbow. Pull the arm across your centerline to begin isolating it from their body. Ensure this grip is tight and your elbows are pulled to your ribs to maximize control before any dynamic movement. (Timing: 2-3 seconds of solid grip establishment) [Pressure: Firm]
 2. **Break opponent's posture and create extension**: While maintaining grip control, use your legs to push against opponent's hips or knees to create distance and force them to extend forward to maintain balance. This extension is critical - you want their arm reaching forward and their base compromised. Their weight should shift slightly forward as they try to stabilize. This creates the window for your entry. (Timing: 1-2 seconds of posture disruption) [Pressure: Moderate]
 3. **Initiate jumping motion**: Explosively swing your hips up and toward the controlled arm while maintaining your two-on-one grip. Your body should rotate 90-180 degrees as you elevate. The jumping motion is more of a swing than a vertical jump - think of swinging your legs up and around their arm rather than jumping straight up. Your head should pass close to their hip on the same side as the controlled arm. (Timing: Explosive 1-second movement) [Pressure: Maximum]
@@ -320,7 +318,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the absolute priority when landing a flying armbar in training, even above securing the submission? **[SAFETY-CRITICAL]**
 **A**: The absolute priority is controlling your landing to avoid injuring your training partner. You must land gently, allow your partner to base with their free hand, and never spike or slam onto their extended arm. Partner safety takes complete precedence over submission success in training. This means consciously controlling your descent and being prepared to release the technique entirely if the landing becomes uncontrolled. A successful tap means nothing if your partner is injured in the process.
 

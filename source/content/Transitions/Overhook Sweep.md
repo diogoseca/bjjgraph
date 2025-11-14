@@ -147,14 +147,10 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Step-by-step e
 
 
 
-> Overhook Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Overhook Sweep?
 
 The Overhook Sweep is a fundamental attacking technique from closed guard that capitalizes on controlling one of the opponent's arms with an overhook grip. This sweep is particularly effective when the opponent posts their hand on the mat or extends their arm, creating the opportunity to trap it and use their own base against them. The technique combines off-balancing principles with leverage mechanics to elevate and roll the opponent, transitioning from a bottom position to a dominant top position. The overhook sweep is highly reliable because it works with the opponent's natural defensive reactions - when they post to maintain base, they inadvertently create the exact weakness needed for the sweep. This makes it an excellent choice for practitioners at all levels, from beginners learning fundamental sweeping mechanics to advanced competitors using it as part of a sophisticated closed guard attacking system. The sweep can be executed both in gi and no-gi scenarios, though grip configurations differ slightly between the two contexts.
 
@@ -193,7 +189,7 @@ The Overhook Sweep is a fundamental attacking technique from closed guard that c
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure the overhook**: When opponent posts their hand on the mat or extends their arm, thread your arm over their tricep and lock it against your body. Pull their arm tight to your chest, eliminating space between their arm and your torso. Your forearm should be across their tricep with your hand gripping their lat or back. (Timing: Immediately when opponent posts hand)
 2. **Control the opposite side**: With your free hand, grip the opponent's collar near their neck, grab their opposite sleeve at the wrist, or cup behind their head. This control prevents them from posturing up and keeps them broken down into your guard. Maintain constant pulling pressure with this grip. (Timing: Simultaneous with overhook establishment)
 3. **Create the angle**: Shift your hips away from the side of the overhook, creating approximately 45 degrees of angle. Your head should move away from the trapped arm while your hips angle toward it. This positioning is critical - it allows you to sweep perpendicular to their base rather than trying to lift them straight up. (Timing: After securing both grips)
@@ -281,7 +277,7 @@ Chain overhook sweep with triangle, kimura, hip bump, and omoplata. Use each tec
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is creating an angle critical before attempting the overhook sweep?
 **A**: Creating a 45-degree angle allows you to sweep perpendicular to the opponent's base rather than trying to lift them straight up against gravity. Sweeping at an angle requires significantly less force and makes it much more difficult for the opponent to maintain their base. Without the angle, you're fighting their entire body weight and both of their posting points.
 

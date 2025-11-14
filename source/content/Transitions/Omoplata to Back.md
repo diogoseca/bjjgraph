@@ -159,14 +159,10 @@ description: "Learn Omoplata to Back transition in BJJ. Step-by-step execution f
 
 
 
-> Omoplata to Back transitions from [[Omoplata Control]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Omoplata to Back?
 
 The Omoplata to Back transition represents one of the most sophisticated and high-percentage follow-ups when an opponent defends the omoplata shoulder lock by rolling forward. This technical sequence exploits the opponent's defensive response to escape the submission, transforming their escape attempt into a direct path to back control. The transition requires precise timing and spatial awareness, as the practitioner must recognize the moment when their opponent commits to the forward roll and immediately adjust their position to maintain connection while establishing back control hooks. This transition is particularly effective in both gi and no-gi contexts, though the gi provides additional control options through lapel grips. The beauty of this technique lies in its seamless flow from submission attempt to dominant position, exemplifying the fundamental BJJ principle of chaining attacks together to create dilemmas for the opponent. When executed properly, the defender finds themselves transitioning from defending a shoulder lock directly into one of the most dominant control positions in grappling, with the attacker already positioned to threaten the rear naked choke.
 
@@ -205,7 +201,7 @@ The Omoplata to Back transition represents one of the most sophisticated and hig
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize the roll**: As opponent attempts to escape the omoplata by rolling forward over their trapped shoulder, identify this defensive movement early. Your opponent will begin tucking their head and driving their weight forward in a forward roll motion. This is your trigger to begin the transition rather than insisting on the shoulder lock finish. (Timing: Immediate recognition as opponent initiates forward movement)
 2. **Maintain shoulder connection**: As opponent begins rolling, keep your outside leg (the leg over their shoulder) tightly connected to their shoulder girdle. Your hip should remain glued to the back of their shoulder as they roll. This connection is critical - if you lose it, the transition will fail. Use your leg to ride their shoulder through the rolling motion. (Timing: Throughout the opponent's roll)
 3. **Follow the roll dynamically**: Allow your body to follow the momentum of opponent's forward roll while maintaining the shoulder connection. Your torso will naturally rotate as they roll forward. Keep your weight committed to staying with them rather than trying to hold your original position. Your body should flow with their movement like you're attached to their shoulder. (Timing: Continuous movement with opponent)
@@ -302,7 +298,7 @@ Use the technique during regular sparring sessions whenever the opportunity pres
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary trigger that indicates you should transition from omoplata to back instead of finishing the shoulder lock?
 **A**: The primary trigger is when your opponent commits to a forward roll over their trapped shoulder to escape the omoplata submission. Once they initiate this rolling motion, the back take becomes the higher percentage option compared to insisting on the shoulder lock finish. Recognizing this early is critical for successful execution.
 

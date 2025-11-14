@@ -153,14 +153,10 @@ description: "Master kneebar control from top positions in BJJ. Learn entries fr
 
 
 
-> Knee Bar from Top Positions transitions from [[Headquarters Position]] to [[Kneebar Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Bar from Top Positions?
 
 The Knee Bar from Top Positions represents a modern submission-oriented approach to passing where the practitioner transitions directly from passing scenarios to leg entanglement attacks while maintaining superior position. This technique bridges traditional positional advancement with contemporary leg lock systems, creating immediate submission threats during the passing process itself. The fundamental concept involves recognizing opportunities during leg drag sequences, headquarters positions, or knee slice attempts where the opponent's leg becomes isolated and vulnerable to kneebar attack. By maintaining top position throughout the attack, the practitioner combines the safety of positional dominance with the finishing power of leg entanglements, creating a low-risk, high-reward attacking scenario. The technique has become increasingly prevalent in modern no-gi competition where leg locks are legal at all skill levels, though it requires careful application in gi competition due to varying ruleset restrictions. Understanding the biomechanics of knee hyperextension, proper control mechanics to prevent escapes, and systematic finishing details transforms this from an opportunistic attack into a reliable component of a comprehensive passing and submission system.
 
@@ -199,7 +195,7 @@ The Knee Bar from Top Positions represents a modern submission-oriented approach
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Isolate opponent's leg during passing**: From passing position such as headquarters, leg drag, or knee slice, control opponent's leg by gripping ankle or lower leg while maintaining chest pressure and top position. Prevent opponent from establishing defensive frames with their hands by controlling distance and applying forward pressure with your upper body. (Timing: Execute during opponent's defensive adjustment when their leg is extended or isolated)
 2. **Transition ankle to armpit control**: Bring opponent's ankle to your armpit while maintaining tight elbow connection to your ribs, creating a structural seal that prevents rotation or extraction. Keep your grip on their lower leg or foot as you establish this armpit control, ensuring continuous connection throughout the transition. (Timing: Move smoothly and continuously to prevent opponent from retracting leg)
 3. **Position hips near opponent's knee joint**: Adjust your hip position to place your hip bone directly adjacent to opponent's knee joint, creating the fulcrum point for hyperextension leverage. Your torso should be perpendicular or angled relative to opponent's body, with your hips forming the pressure point against their knee. (Timing: Establish before applying any extension pressure)
@@ -299,7 +295,7 @@ Start from realistic passing positions such as headquarters or leg drag with bot
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical mechanical principle for generating effective hyperextension pressure during kneebar from top positions?
 **A**: The most critical mechanical principle is positioning your hips directly adjacent to the opponent's knee joint to create an effective fulcrum point. Your hip bone must remain tight against their knee throughout the attack, allowing any extension of your hips to translate directly into hyperextension pressure on their knee joint. If your hips are positioned too far from their knee, the leverage is dramatically reduced and the submission becomes ineffective despite appearing properly set up. This hip-to-knee connection must be maintained even as the opponent moves, requiring you to follow their defensive movements while preserving this critical distance relationship.
 

@@ -8,7 +8,7 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 15%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Standing Guard from the Top?
 
 Standing Guard Top is a fundamental passing position where the top player maintains an upright posture while the bottom player has some form of open guard established. This position represents a critical decision point in BJJ where the standing player must choose between pressure-based passing, speed-based passing, or dynamic movement to circumvent the guard. The standing player's primary objective is to control distance, break grips, and create passing opportunities while avoiding sweeps and submissions.
 
@@ -489,17 +468,17 @@ Bottom player establishes specific guard type (De La Riva, Spider, Lasso, etc.) 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Standing guard passing represents the intersection of biomechanics, timing, and strategic decision-making. The critical principle is understanding that your upright posture provides both advantages and vulnerabilities - you gain mobility and the ability to generate explosive passing momentum, but you sacrifice the pressure-based control available from lower postures. The key is systematic grip control: you must dominate the grip fighting exchange to dictate the terms of engagement. Break the opponent's grips methodically, establish your own control points on their legs or hips, and only then commit to your passing sequence. The standing position also allows you to read the opponent's guard configuration and select the appropriate passing strategy - pressure-based approaches like the knee slice for stretched-out guards, or speed-based approaches like the Toreando for compact defensive structures. Understanding when to apply pressure versus when to use speed and direction changes is what separates effective standing passers from those who struggle against modern guard retention systems.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, standing guard passing is my primary method for dealing with modern guard players because it allows me to control the pace and choose my passing entries. The biggest mistake I see is people standing up without a clear passing plan - they just stand there and let the guard player establish their ideal guard structure. I always enter standing with grip fighting intent and immediately start breaking down their guard configuration. My preference is the leg drag and Toreando combination because they work together perfectly - if they defend the leg drag by keeping their legs tight, I switch to Toreando; if they extend to stop the Toreando, I come back to the leg drag. The standing position also lets me avoid getting stuck in long guard passing battles that drain energy. I can explode into my pass, and if it doesn't work immediately, I can reset to standing and try a different approach rather than getting caught in a grinding pressure pass. This flexibility is crucial in high-level competition where guard retention is incredibly sophisticated.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Standing guard passing is essential in no-gi where you don't have the gi grips to control from lower positions, but the same principles apply in gi as well. The key thing people miss is that standing guard passing is about creating dilemmas and misdirection - you can't just bull rush through someone's guard. I like to use fakes and feints from the standing position to get the opponent moving their legs or shifting their weight, then I attack the opening they create. The standing position also sets up some of my favorite submission entries. If someone is defending guard passes really well, I'll sometimes fake a pass to get them to extend their legs, then I can drop down for leg attacks or front headlock positions. The versatility is what makes standing guard passing so effective - you're not committed to one plane of attack like you are when you're on your knees grinding through a pressure pass. You can switch between speed passing, pressure passing, and even submission threats all from the standing position.
 

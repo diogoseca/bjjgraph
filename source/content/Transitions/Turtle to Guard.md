@@ -147,14 +147,10 @@ description: "Master Turtle to Guard recovery in BJJ. Essential defensive transi
 
 
 
-> Turtle to Guard transitions from [[Turtle]] to [[Closed Guard]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Turtle to Guard?
 
 The Turtle to Guard recovery is a fundamental defensive transition that allows practitioners to escape the vulnerable turtle position and re-establish their guard. This transition is critical for maintaining defensive integrity when an opponent is attempting back takes or submissions from turtle. The technique involves creating space, managing opponent's grips and hooks, and using hip movement to rotate underneath the opponent while establishing guard frames. Success depends on timing, hip mobility, and understanding weight distribution principles. The recovery can lead to multiple guard variations including Closed Guard, Half Guard, Butterfly Guard, or Open Guard depending on opponent positioning and grip configurations. This transition represents a key defensive skill that prevents opponents from consolidating dominant positions while allowing the defender to return to offensive guard positions where they can threaten sweeps and submissions.
 
@@ -193,7 +189,7 @@ The Turtle to Guard recovery is a fundamental defensive transition that allows p
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish defensive turtle posture**: Begin in strong turtle position with knees directly under hips, elbows tight to knees creating a compact defensive ball. Keep your head tucked with chin to chest, preventing opponent from getting under your chin for chokes. Your hands should be active, ready to fight grips and prevent opponent from establishing control positions. (Timing: Maintain this posture until you identify opponent's weight commitment)
 2. **Hand fight and grip strip**: Actively strip opponent's grip attempts, focusing on preventing seat belt control (one arm over shoulder, one under armpit). Use circular hand movements to strip grips before they solidify. If opponent has one hook in, prioritize removing it by trapping their ankle with your hand and extracting your hip away from the hook. (Timing: Constant defensive hand fighting until grips are controlled)
 3. **Create space with hip shift**: Shift your hips away from opponent's weight commitment, creating a small gap between your body and theirs. This movement should be subtle but explosive, using your legs to push your hips laterally. The goal is to create enough space to begin rotation without opponent's weight pinning you down. (Timing: Execute when opponent commits weight forward or to one side)
@@ -285,7 +281,7 @@ Specific sparring starting from turtle position. Bottom player works to recover 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is hand fighting and grip prevention critical before attempting the turtle to guard rotation?
 **A**: Hand fighting prevents opponent from establishing seat belt control or harness grips that would allow them to follow your rotation and secure back control. If opponent has strong grips, especially the seat belt, they can maintain their position as you rotate, converting your escape attempt into their back control. Stripping grips first ensures you can rotate freely without opponent maintaining dominant control. Additionally, controlling opponent's hands prevents them from establishing hooks that would make the position even more dangerous.
 

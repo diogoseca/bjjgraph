@@ -153,14 +153,10 @@ description: "Master the John Wayne Sweep from Butterfly Guard. High-reward tran
 
 
 
-> John Wayne Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is John Wayne Sweep?
 
 The John Wayne Sweep is a powerful offensive technique from butterfly guard that capitalizes on opponent's forward pressure and poor base management. Named after the characteristic pistol-shooting motion used during the grip break, this sweep combines elements of traditional butterfly mechanics with creative grip fighting. The technique exploits the moment when your opponent reaches for underhooks or attempts to pass, using their forward momentum against them. By establishing strong sleeve control, creating an angle with your hip movement, and utilizing butterfly hooks effectively, you can elevate your opponent and transition directly to mount. This sweep is particularly effective in gi grappling where grip control provides leverage advantages, though no-gi variations exist using wrist and tricep controls.
 
@@ -199,7 +195,7 @@ The John Wayne Sweep is a powerful offensive technique from butterfly guard that
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish sleeve control**: Secure a firm two-on-one grip on your opponent's lead sleeve, with one hand on the wrist and the other on the tricep or elbow. Pull this arm across your centerline to break their posting base and create an angle. In no-gi, establish a firm grip on the wrist and tricep.
 2. **Insert butterfly hooks**: Ensure both butterfly hooks are actively engaged under your opponent's thighs with your feet flexed and knees creating lifting pressure. Your hooks should be deep enough to control their hips but ready to extend for elevation. Keep your hips close to theirs to maximize leverage.
 3. **Create angular momentum**: While maintaining sleeve control, angle your body approximately 45 degrees toward the side of the controlled arm. This off-balances your opponent and positions your body for the rotational sweep. Your head should move toward the outside of their controlled arm.
@@ -295,7 +291,7 @@ Free rolling with emphasis on using John Wayne Sweep as part of larger guard ret
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is establishing two-on-one sleeve control essential before attempting the John Wayne Sweep?
 **A**: Two-on-one sleeve control serves multiple critical functions: it breaks your opponent's ability to post on that side, creates an angle by pulling their arm across their centerline which disrupts their base, provides a steering mechanism to guide them through the sweep, and prevents them from establishing underhooks or grips on that side. Without this control, opponent can easily post and maintain their base throughout your sweep attempt.
 

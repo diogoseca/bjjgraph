@@ -153,14 +153,12 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 
 
 
-> Chin Strap Guillotine is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine stress from excessive cranking. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Chin Strap Guillotine targets the Carotid arteries and windpipe. Risk: Neck strain or cervical spine stress from excessive cranking. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Chin Strap Guillotine?
 
 The Chin Strap Guillotine is a sophisticated variation of the traditional guillotine choke that involves wrapping the arm around the opponent's head from a front headlock position, with the choking arm passing under the chin and connecting to the bicep of the opposite arm. Unlike the standard guillotine where you secure a guillotine grip, the chin strap variation creates a unique angle of attack by cupping the opponent's chin and pulling it toward your chest while simultaneously driving your shoulder into their neck. This technique is particularly effective when the opponent has good posture defense against traditional guillotines or when they're attempting to pass your guard with their head positioned to one side. The chin strap creates tremendous pressure on both the carotid arteries and the windpipe, making it a high-percentage finishing option from various front headlock scenarios. The submission works exceptionally well in no-gi situations where collar grips are unavailable, and it can be applied from standing positions, turtle attacks, or guard pull situations where you've secured front headlock control.
 
@@ -245,7 +243,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish front headlock control**: From standing, turtle attack, or guard pull scenario, secure a dominant front headlock position with your arm wrapped around opponent's neck. Position their head to one side of your body and maintain heavy shoulder pressure on their upper back. Control their near arm by overhooking or pinning it to prevent defensive frames. Your hips should be low and your weight should be distributed over their shoulders. (Timing: Initial control phase) [Pressure: Moderate]
 2. **Thread the choking arm under the chin**: With your choking arm (the arm wrapped around their head), begin to slide your hand underneath their chin. Your palm should be facing upward as you thread deeper, aiming to reach across toward their far ear. Use your opposite hand to help guide and clear space if needed. The key is to get your wrist and forearm positioned directly under their chin rather than around the side of their neck. (Timing: 2-3 seconds transition) [Pressure: Light]
 3. **Establish the chin strap grip**: Once your choking hand is threaded under the chin, reach across with that hand and grab the bicep of your opposite arm. Your opposite hand should come up and place its palm on the back of their head. This creates the classic figure-four configuration. Ensure your choking forearm is making direct contact with the underside of their chin and your wrist is positioned deep under their jaw. (Timing: 1-2 seconds to secure grip) [Pressure: Moderate]
@@ -314,7 +312,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply finishing pressure in the chin strap guillotine during training? **[SAFETY-CRITICAL]**
 **A**: You should take a minimum of 3-5 seconds to apply finishing pressure during training, always progressing slowly and progressively. This allows your training partner ample time to recognize the danger and tap safely. Never apply sudden or explosive pressure to any neck submission in training. The speed should be slow enough that your partner can tap at any point before feeling serious discomfort. In drilling, you should apply even less pressure - only enough for your partner to feel the position and mechanics.
 

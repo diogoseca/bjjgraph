@@ -147,14 +147,10 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
 
 
 
-> Japanese Necktie Setup transitions from [[Front Headlock]] to [[Japanese Necktie]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Japanese Necktie Setup?
 
 The Japanese Necktie Setup is a sophisticated transition from Front Headlock control that capitalizes on the opponent's defensive turtle position. This technique creates a powerful blood choke by threading the arm under the opponent's neck while establishing a specific body configuration that amplifies pressure. Unlike traditional front chokes that rely purely on arm strength, the Japanese Necktie uses body positioning and weight distribution to generate overwhelming force. The setup phase is critical—proper arm threading, head positioning, and hip placement determine whether the submission becomes viable. When executed correctly, this transition catches opponents off-guard because it appears to be a standard front headlock attack until the choking mechanism suddenly materializes. The technique gained prominence in modern no-gi competition due to its effectiveness against defensive turtling and its ability to finish from seemingly neutral scramble positions.
 
@@ -194,7 +190,7 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock control**: From turtle or scramble position, secure a tight front headlock with your right arm wrapped around opponent's neck. Your chest should be heavy on their upper back, and your left hand should control their far arm or shoulder to prevent defensive movements. Ensure your head is positioned on their back, not beside their head. (Timing: Wait until opponent commits weight forward or attempts to stand)
 2. **Thread choking arm deep**: Release your headlock grip and immediately thread your right arm deep under opponent's neck from their left side. Your palm should face up with elbow pointing down toward the mat. Drive the arm as deep as possible—your bicep should be against the side of their neck and your forearm across their throat. This depth is critical for choking leverage. (Timing: Thread quickly to prevent opponent from blocking with their hand)
 3. **Capture opponent's far arm**: With your left hand, reach across and grab opponent's right wrist or forearm, pulling it tight against their body. This prevents them from creating defensive frames or hand fighting to clear your choking arm. Keep this grip tight throughout the entire transition—if they free this arm, the submission becomes significantly harder to finish. (Timing: Secure this control immediately after threading arm)
@@ -288,7 +284,7 @@ Attempt technique during free rolling against all body types and skill levels. F
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is controlling the opponent's far arm critical to successful Japanese Necktie execution?
 **A**: Controlling the far arm prevents the opponent from creating defensive frames, posting to block the roll, or hand-fighting to clear your choking arm. Without this control, they can effectively defend by blocking your roll initiation or stripping your grips before you establish the finishing position. The far arm represents their primary defensive tool, so neutralizing it is essential.
 

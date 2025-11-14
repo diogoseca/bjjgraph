@@ -153,14 +153,10 @@ description: "Master De La Riva Sweep Variations in BJJ. Complete guide covering
 
 
 
-> De La Riva Sweep Variations transitions from [[De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is De La Riva Sweep Variations?
 
 The De La Riva Sweep Variations represent a comprehensive system of sweeps from one of BJJ's most dynamic guard positions. Named after Ricardo De La Riva, this guard position uses a deep hook on the opponent's leg combined with strategic grips to create powerful off-balancing opportunities. The variations include the classic De La Riva sweep to the back, the waiter sweep, the balloon sweep, and numerous transitional sweeps that flow into X-Guard, Single Leg X, and other advanced positions. Each variation exploits different defensive reactions and postures, making this system highly adaptable to various opponent responses. The technical foundation of all De La Riva sweeps relies on maintaining the characteristic DLR hook (wrapping your inside leg around the opponent's near leg), controlling distance with your outside leg on the hip or bicep, and using grips to break the opponent's base while creating angles. Success with these sweeps requires understanding timing, grip fighting, and the ability to chain multiple attacks together when the first attempt is defended. The De La Riva system is particularly effective in gi competition due to the control offered by pant and sleeve grips, though no-gi variations exist using underhooks and overhooks instead.
 
@@ -199,7 +195,7 @@ The De La Riva Sweep Variations represent a comprehensive system of sweeps from 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish DLR control**: Secure the De La Riva guard position by threading your inside leg deep around opponent's near leg, hooking your foot behind their knee. Your outside leg should be active on their hip or bicep. Establish strong grips on their same-side sleeve and opposite pant leg at the ankle. Your hips should be slightly angled, not flat on your back. (Timing: Initial guard establishment phase)
 2. **Break opponent's posture and base**: Pull sharply on the sleeve grip while simultaneously pushing with your outside leg on their hip. This creates a diagonal force that breaks their upright posture. Simultaneously, use your DLR hook to lift and extend their trapped leg, removing their base on that side. Their weight should shift forward and to the side. (Timing: As opponent attempts to stabilize)
 3. **Create sweeping angle**: Rotate your hips and shoulders in the direction of the sweep (typically toward your DLR hook side). This rotation amplifies the off-balancing force and positions your body to follow through. Your outside leg transitions from hip to potentially bicep control, preventing them from posting their arm to that side. (Timing: Immediately after posture break)
@@ -303,7 +299,7 @@ Study high-level competitors using DLR guard systems. Experiment with advanced v
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary function of the outside leg in De La Riva guard, and why is it critical for sweep success?
 **A**: The outside leg in De La Riva guard controls distance by creating a frame on the opponent's hip, bicep, or knee, preventing them from closing distance and smashing through your guard. This distance control is critical because it maintains the space needed for your DLR hook to function effectively and prevents opponent from establishing heavy pressure that would flatten your guard and make sweeps impossible. Without active outside leg pressure, opponent can easily pass by driving forward.
 

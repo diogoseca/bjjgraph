@@ -147,14 +147,10 @@ description: "Master the Collar Drag in BJJ. Essential standing technique transi
 
 
 
-> Collar Drag transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Collar Drag?
 
 The Collar Drag is a fundamental standing technique that creates dominant angles by pulling the opponent's collar or neck across their body while simultaneously controlling their opposite arm. This creates a powerful torque that disrupts their structure and opens pathways to back control, single leg attacks, or forced guard pulls. The technique relies on precise timing, proper grip placement, and explosive hip movement to generate the necessary pulling force. When executed correctly, the Collar Drag compromises the opponent's base and posture simultaneously, making it extremely difficult to defend. The beauty of this technique lies in its versatility—it works equally well in gi and no-gi contexts (using the neck in no-gi), functions as both an offensive attack and a counter to aggressive opponents, and chains seamlessly into multiple follow-up options. The Collar Drag represents a core principle of BJJ: using leverage and angles to overcome strength, making it effective regardless of size differential when timing and technique are sound.
 
@@ -193,7 +189,7 @@ The Collar Drag is a fundamental standing technique that creates dominant angles
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish collar and sleeve grips**: Secure a deep collar grip with your right hand (thumb inside collar, four fingers outside), reaching across to their left collar. Simultaneously grip their right sleeve at the wrist or triceps with your left hand. In no-gi, replace collar grip with cupping the back of their neck or head. (Timing: During neutral standing exchange or grip fighting)
 2. **Create tension and load the grips**: Pull both grips slightly toward you to create tension in their upper body. This loading phase disguises your actual intention and causes them to pull back, which you'll use to amplify your drag. Keep your elbows bent at approximately 90 degrees to maximize pulling power. (Timing: Wait for opponent to push back or settle their weight)
 3. **Explosive collar pull across centerline**: Violently pull the collar grip across their body toward your left hip while simultaneously pushing or pulling their right arm in the opposite direction. The collar should move in a diagonal arc across their chest, rotating their upper body. Use your hips and core, not just your arms, to generate force. (Timing: Explosive burst when opponent is momentarily static or pushing forward)
@@ -286,7 +282,7 @@ Develop fake collar drags to opposite side to set up real drag. Chain with arm d
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of stepping offline at a 45-degree angle during the collar drag?
 **A**: Stepping offline achieves three critical objectives: it removes your body from the line of their potential counter-attacks, positions your hips at an angle where you can circle to their back with minimal steps, and makes it geometrically difficult for them to square their hips back to you. The angle creates a positional advantage where they must rotate their entire body to face you, while you're already moving toward their back. Without proper angle creation, the collar drag becomes a straight pull that opponent can easily defend by maintaining their facing.
 

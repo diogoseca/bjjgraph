@@ -8,7 +8,7 @@ description: "Master bottom underhook control in BJJ. Complete guide to defensiv
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master bottom underhook control in BJJ. Complete guide to defensiv
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Underhook Control from the Bottom?
 
 Bottom underhook control represents the most fundamental defensive and offensive tool available to the bottom practitioner in Brazilian Jiu-Jitsu. When facing top pressure in half guard, quarter guard, or side control transitions, securing the underhook becomes the primary objective that separates successful escapes from prolonged defensive struggles. The bottom underhook penetrates deep under the opponent's armpit, connecting to their far shoulder or back and creating a structural frame that prevents chest-to-chest pressure while opening pathways for hip movement.
 
@@ -479,17 +460,17 @@ Bottom player maintains underhook while top player specifically attempts to esta
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The bottom underhook represents the most mechanically sound defensive structure available to the bottom practitioner because it simultaneously creates a barrier against chest pressure while establishing a lever for off-balancing. The key insight most practitioners miss is that underhook depth determines everything—a shallow underhook connecting only to the opponent's bicep provides minimal leverage and invites shoulder pressure, while a deep underhook penetrating past the armpit to connect with the scapula or latissimus creates genuine mechanical advantage. The non-underhook hand plays an equally critical role by preventing crossface control, which would nullify all underhook advantages. When you coordinate deep underhook control with intelligent hip positioning and dynamic movement patterns, you transform defensive scenarios into offensive launching points. The bottom player who masters underhook battles controls the fundamental exchange that determines whether they remain defensive or transition to offensive action.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, I win most of my bottom battles by immediately establishing the underhook and refusing to let opponents neutralize it. The moment you're in bottom half guard or any similar position, your first action must be securing that deep underhook—everything else flows from there. I see too many competitors holding shallow underhooks or staying static, which allows top players to establish their pressure game and grind out passes. My approach is to use the underhook aggressively for immediate action: driving forward for old school sweeps, rolling under for deep half entries, or coming up on top in scrambles. The underhook gives you the structural control to move your hips freely, and hip movement is what creates successful sweeps. Against high-level opponents, I combine the underhook with leg positioning—using lockdown to control their leg while the underhook controls their upper body creates a complete control system that's extremely difficult to pass. Don't be passive with underhooks—use them to create immediate offensive threats.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The underhook from bottom is the foundation of the entire 10th Planet half guard system because it gives you the leverage to control bigger, stronger opponents without relying purely on strength. When you get that deep underhook in lockdown position, you've created a control system where you can sweep, take the back, or transition to deep half at will—the opponent has to defend multiple threats simultaneously. What makes underhook control so powerful in no-gi is that without the gi grips to slow things down, whoever controls the underhook controls the scramble. I teach my students to think of the underhook as the key that unlocks all your offensive options from bottom—without it, you're just defending, but with it, you become dangerous. The underhook connects perfectly with the lockdown system because while your legs control their leg, your underhook controls their upper body, giving you complete control of their base and posture. From there, you can hit old school sweeps, electric chair attacks, or roll into deep half depending on how they react. The beauty of underhook-based systems is they work at every skill level and translate perfectly from gi to no-gi competition.
 

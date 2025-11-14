@@ -8,7 +8,7 @@ description: "Master Rubber Guard in BJJ with this comprehensive guide covering 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Rubber Guard in BJJ with this comprehensive guide covering 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rubber Guard?
 
 The Rubber Guard is a specialized guard position developed and popularized by Eddie Bravo within his 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various 10th Planet-specific submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize the 10th Planet approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions.
 
@@ -42,15 +40,15 @@ The Rubber Guard is a specialized guard position developed and popularized by Ed
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 
 
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[Rubber Guard]] | Medium | High | Medium | Medium | High flexibility for arm control |
 | [[Mission Control]] | Medium | High | Medium | High | High guard trades base for submission proximity |
 | [[New York]] | Medium | High | Medium | High | High-risk control trading stability for attacks |
@@ -72,10 +70,6 @@ The Rubber Guard is a specialized guard position developed and popularized by Ed
 ## Playing as Bottom
 
 [[Rubber Guard/Bottom|→ Full Bottom Guide]]
-
-
-Read and react based on their actions.
-
 
 ### Key Principles
 
@@ -163,10 +157,6 @@ Read and react based on their actions.
 
 [[Rubber Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -239,78 +229,6 @@ Adapt to their defense.
 - ❌ **Panicking and using excessive muscular force without technical understanding**
   - Consequence: Rapid fatigue while remaining in compromised position, increased injury risk to own shoulder and neck, creation of jerky movements that trigger submission opportunities
   - ✅ Correction: Remain calm and apply systematic defensive protocol. Use leverage and positioning rather than pure strength. Conserve energy for sustained defensive effort rather than explosive bursts
-
-
-</section>
-
-
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-
-### [[Mission Control]]
-
-Primary Rubber Guard position with shin across back and foot secured
-
-[Explore Mission Control →](./Mission Control)
-
-
-### [[New York]]
-
-Advanced variation with omoplata threat and enhanced arm control
-
-[Explore New York →](./New York)
-
-
-### [[New York Control]]
-
-Submission-ready configuration from New York position
-
-[Explore New York Control →](./New York Control)
-
-
-### [[Invisible Collar]]
-
-Submission setup position emphasizing neck control without gi grips
-
-[Explore Invisible Collar →](./Invisible Collar)
-
-
-### [[Zombie]]
-
-Gogoplata setup position with shin positioned across throat
-
-[Explore Zombie →](./Zombie)
-
-
-### [[Crackhead Control]]
-
-Variation emphasizing extreme arm isolation and shoulder pressure
-
-[Explore Crackhead Control →](./Crackhead Control)
-
-
-### [[Meathook]]
-
-Transitional position focusing on elbow control and arm trapping
-
-[Explore Meathook →](./Meathook)
-
-
-### [[Chill Dog]]
-
-Relaxed control position maintaining arm isolation with minimal energy
-
-[Explore Chill Dog →](./Chill Dog)
-
-
-### [[Carni]]
-
-High-level variation combining multiple control points for submissions
-
-[Explore Carni →](./Carni)
-
 
 
 </section>

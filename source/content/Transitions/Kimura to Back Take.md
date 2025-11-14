@@ -147,14 +147,10 @@ description: "Master the Kimura to Back Take in BJJ. Complete transition from Ki
 
 
 
-> Kimura to Back Take transitions from [[Kimura Control]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura to Back Take?
 
 The Kimura to Back Take is a fundamental transition that exemplifies the principle of using submission threats to advance position. When an opponent defends the Kimura finish by pulling their elbow tight to their body or rolling with the lock, this creates a predictable defensive pathway that can be exploited to transition to back control. This transition is particularly effective because the opponent's defensive instinct to protect their shoulder naturally exposes their back. The grip control established in the Kimura position provides exceptional leverage to maintain connection throughout the transition, making it one of the highest-percentage back take sequences available from side control or turtle positions. Understanding this transition fundamentally changes how practitioners approach the Kimura, transforming it from merely a submission attempt into a positional control system that offers multiple attacking pathways.
 
@@ -192,7 +188,7 @@ The Kimura to Back Take is a fundamental transition that exemplifies the princip
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure Kimura grip**: Establish figure-four Kimura grip on opponent's arm with their elbow bent and hand behind their back. Your grip hand should feed through under their arm, meeting your other hand in a strong configuration. Apply initial shoulder lock pressure to create discomfort and force a defensive reaction. (Timing: Maintain constant pressure until opponent begins moving)
 2. **Pressure the submission**: Increase Kimura pressure by lifting opponent's hand toward their shoulder blade while driving their elbow toward their far hip. This creates the dilemma that forces their defensive response. Apply enough pressure that staying stationary becomes untenable, but maintain control rather than attempting to finish immediately. (Timing: Progressive pressure increase over 2-3 seconds)
 3. **Read defensive movement**: Recognize opponent's defensive pattern - typically rolling toward the trapped arm to relieve shoulder pressure or turtling to protect the submission. Their body rotation toward the Kimura is the primary back exposure opportunity. Stay alert to their hip direction and shoulder rotation. (Timing: React immediately when movement begins)
@@ -287,7 +283,7 @@ Use technique actively during live training sessions. Start from side control/tu
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is the Kimura grip maintained throughout the entire transition to back control?
 **A**: The Kimura grip serves multiple essential functions during the transition: it provides a secure connection point to the opponent that prevents separation during movement, it creates the initial submission threat that forces their defensive roll, it acts as a steering mechanism to control their rotation direction, and it prevents them from turning back into you once you begin taking the back. Releasing the grip prematurely eliminates all these control elements and typically results in losing position entirely.
 

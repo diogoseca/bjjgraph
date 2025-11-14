@@ -147,14 +147,12 @@ description: "Master Choke from Crucifix in BJJ. Complete guide with safety prot
 
 
 
-> Choke from Crucifix is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Choke from Crucifix targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Choke from Crucifix?
 
 The Choke from Crucifix is a devastating finishing technique that capitalizes on one of the most dominant control positions in Brazilian Jiu-Jitsu. The crucifix position provides exceptional arm control, with both of the opponent's arms trapped and neutralized, leaving their neck completely exposed and defenseless. This submission represents the culmination of superior positional control, where the attacker has achieved near-total dominance over their opponent's ability to defend. The choke can be executed with multiple grips including rear naked choke mechanics, short chokes, or even gi-based attacks when wearing the kimono. What makes this submission particularly effective is the opponent's complete inability to defend their neck with their hands, as both arms are controlled by the attacker's legs and body positioning. The psychological pressure of the crucifix position often causes opponents to panic, making the finish easier to secure. This technique is commonly seen in high-level competition and represents excellent understanding of positional hierarchy in grappling.
 
@@ -237,7 +235,7 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure crucifix control fully**: Before thinking about the choke, establish complete crucifix dominance. Your top leg hooks over their far arm with your knee driving down for pressure. Your bottom leg controls their near arm, either in a figure-four configuration or with a leg weave. Both of their arms must be completely neutralized before proceeding. Your chest should be heavy on their back, and your hips should be glued to their shoulder line. This positional control is the foundation of everything that follows. (Timing: Take 5-10 seconds to perfect this control before advancing) [Pressure: Firm]
 2. **Flatten opponent to expose neck**: Use hip pressure and chest weight to roll opponent away from you slightly, flattening them onto their side or back. This opens up their neck and prevents them from turtling to defend. Drive your hips forward into their shoulder while pulling their trapped arms to create the rolling motion. Your goal is to have their head away from the mat with their neck completely exposed. If they resist, use small adjustments and wait for their muscle fatigue rather than forcing. (Timing: 2-4 seconds of gradual pressure) [Pressure: Moderate]
 3. **Insert choking arm carefully**: Snake your choking arm (typically your bottom arm, the one on the same side as your bottom leg) under their chin, approaching from the side rather than straight over their face. Your palm should be facing you, with the blade of your forearm positioning across their throat. The key is to establish the grip before they realize the danger. Keep your elbow tight and aim to get your bicep on one carotid artery and your forearm bone on the other. If executing a rear naked choke variation, reach for your opposite bicep. For a short choke, grip your own gi lapel or their collar. (Timing: 3-5 seconds - patience is critical here) [Pressure: Light]
@@ -301,7 +299,7 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What must be established before attempting any choke from crucifix position?
 **A**: Complete crucifix control with both of the opponent's arms fully trapped and neutralized must be established first. This means your top leg securely hooks their far arm, your bottom leg controls their near arm, and they are flattened onto their side or back. Position dominates submission - attempting the choke before securing this control will result in escape or defensive hand fighting. The crucifix arm traps are what make this choke defenseless.
 

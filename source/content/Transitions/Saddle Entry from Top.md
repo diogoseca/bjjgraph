@@ -153,14 +153,10 @@ description: "Master the Saddle Entry from Top in BJJ. Step-by-step leg entangle
 
 
 
-> Saddle Entry from Top transitions from [[Headquarters Position]] to [[Saddle]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Saddle Entry from Top?
 
 The Saddle Entry from Top is a fundamental leg entanglement technique that allows the top player to transition from various passing positions into the Saddle (also known as Honey Hole or Inside Sankaku). This entry is critical for modern leg lock systems and represents one of the most direct paths to dominant leg attack positions. The technique exploits moments when the bottom player's legs are extended or when they attempt defensive movements that expose their leg positioning.
 
@@ -203,7 +199,7 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure near leg control**: From top position (headquarters, knee slice, or passing position), establish control of the opponent's near leg using both hands. Grip the ankle with your near hand and control the knee or thigh with your far hand. This prevents the opponent from retracting their leg and creates the foundation for entry. (Timing: Establish control when opponent extends leg defensively or during guard recovery)
 2. **Create entry angle**: Step your outside leg (the leg furthest from opponent's hips) toward the opponent's hip line while maintaining leg control. Position your foot near their hip or on the mat beside their hip. This creates the proper angle for stepping over and prevents the opponent from rotating away. (Timing: Execute immediately after securing leg control)
 3. **Step over controlled leg**: Bring your inside leg (nearest to opponent's legs) over the opponent's controlled leg. Your inside knee should clear their leg and land on the opposite side. Maintain constant pressure on their leg throughout this movement to prevent escape. Keep your weight distributed to avoid being swept. (Timing: Smooth, controlled movement coordinated with hip positioning)
@@ -305,7 +301,7 @@ Test entry against various body types and defensive styles. Analyze competition 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Which leg should step over first when entering saddle from top position, and why is this sequencing critical?
 **A**: Your outside leg (furthest from opponent's hips) should step toward their hip first to create the proper entry angle. This positioning prevents opponent from rotating away and creates the geometric foundation for threading your inside leg over and under their controlled leg. Stepping with the wrong leg first creates poor angles and leaves you vulnerable to sweeps or makes the entanglement impossible to complete correctly.
 

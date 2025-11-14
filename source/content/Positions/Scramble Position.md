@@ -8,7 +8,7 @@ description: "Master scramble position dynamics in BJJ with expert techniques fo
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -175,29 +175,10 @@ description: "Master scramble position dynamics in BJJ with expert techniques fo
 
 
 
-> **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
->
-> **Quick Stats**: Advanced practitioners advance to better positions 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (Neutral)
-- **Position Type**: Neutral
-- **Risk Level**: Medium
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Scramble Position?
 
 The Scramble Position refers to a highly dynamic transitional state in BJJ where neither practitioner has established clear positional dominance, resulting in a chaotic exchange with rapidly changing configurations. Unlike stable positions with clear structural definitions, scrambles are characterized by fluid movement, temporary connections, and continuous positional battles where both practitioners simultaneously attempt to improve position while preventing the opponent from doing the same. Scrambles often result from failed techniques, escapes, or transitions, and represent critical junctures where matches can be decisively won or lost based on split-second decision making and instinctive technical application. The ability to navigate scrambles effectively is considered a hallmark skill that separates elite competitors from average practitioners, requiring exceptional spatial awareness, technical fluidity, and strategic decision-making under pressure.
 
@@ -492,17 +473,17 @@ Live scrambling with one arm behind back to develop reliance on positioning, wei
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Approach
+### John Danaher
 
 Scrambles represent the intersection of chaos and systematic technique, where preparation meets opportunity in the most condensed time frames imaginable. The practitioner who understands scrambles as probabilistic rather than random develops pattern recognition that appears almost supernatural to observers. Every scramble contains fleeting windows—typically one to two seconds—where specific pathways to dominant positions open based on opponent reactions and weight distribution patterns. The systematic approach involves cataloguing these patterns through thousands of repetitions: when opponent turtles, back exposure probability increases exponentially; when opponent frames and extends limbs, passing lanes open geometrically; when opponent turns head away from pressure, front headlock control becomes available with minimal resistance. Train scrambles not as chaos to be survived, but as high-speed decision trees where your technical vocabulary determines which opportunities you can recognize and execute. The athlete who can slow down their perception of scrambles through systematic preparation and pattern recognition will consistently emerge with positional advantage, appearing to possess preternatural instincts when in reality they are executing trained responses to recognized stimuli.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In high-level competition, scrambles separate the athletes who train isolated techniques from those who train complete systems with decision-making frameworks. I actively create scrambles against opponents who rely exclusively on established positions because most competitors haven't systematized their scramble game—they're hoping for lucky outcomes rather than executing trained patterns with probabilistic advantages. My scramble success derives from two fundamental factors: physical conditioning that allows me to maintain explosive pressure and movement while opponents fade under the metabolic demands, and systematic training of specific scramble resolutions practiced thousands of times until they become automatic responses. I drill turtle-to-back sequences, guard recovery defense patterns, and front headlock series at competition intensity until my body executes these pathways instinctively during live scrambles. The key insight: scrambles favor the athlete who can sustain high-intensity output longest and who has systematized their chaos through deliberate practice. Train scrambles at one hundred percent intensity for short bursts, always drilling specific resolution patterns rather than random scrambling, and you'll dominate athletes with superior technique who lack scramble conditioning and systematic frameworks.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Scrambles are where creativity and athleticism collide in the most beautiful chaos jiu-jitsu has to offer, man. The traditional approach treats scrambles as mistakes to avoid or survive, but I see them as strategic weapons to be wielded deliberately. At 10th Planet, we deliberately create scrambles through techniques like the truck and twister sequences because we train scramble situations more extensively than most traditional schools. When you're genuinely comfortable in chaos and your opponent fears it, you control the entire psychological battle before grips are even established. My approach embraces weird positions, trains scrambles from unusual angles and inverted orientations, and develops scramble-specific conditioning that allows explosive movement repeatedly while opponents conserve energy for established positions. The rubber guard system, the lockdown variations, the truck position—all these create scramble opportunities where trained patterns and comfort in chaos beat positional purity and technical orthodoxy. Make scrambles your friend through systematic weirdness training and creative problem-solving practice, and you'll dominate athletes with better positional technique but less comfort in transitional chaos. The future of jiu-jitsu is increasingly scramble-heavy, especially in no-gi, and those who master chaos will define the next generation of elite grapplers.
 

@@ -147,14 +147,12 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 
 
 
-> Can Opener is a neck crank targeting the Cervical spine and neck muscles. ⚠️ **SAFETY**: This technique can cause Cervical spine compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Can Opener targets the Cervical spine and neck muscles. Risk: Cervical spine compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Can Opener?
 
 The Can Opener is a neck crank technique applied from within an opponent's closed guard, primarily used as a guard-breaking mechanism rather than a finishing submission. The technique involves interlacing fingers behind the opponent's head and driving the forearms into their neck while pulling the head forward and down, creating intense pressure on the cervical spine and neck muscles. This compression submission is banned in most Brazilian Jiu-Jitsu competitions under IBJJF rules and is considered a controversial technique due to its high injury potential. While it can be effective at forcing an opponent to open their guard to relieve pressure, the Can Opener carries significant risks including neck muscle strains, cervical spine compression injuries, and potential disc damage. Modern BJJ practitioners typically learn this technique primarily for defensive purposes - understanding how to recognize and counter it - rather than as an offensive weapon. The technique's effectiveness comes from the mechanical disadvantage created when the defender's own guard restricts their ability to posture away from the pressure. However, higher-level practitioners develop strong defensive responses including grip fighting, posture control, and guard adjustments that significantly reduce the Can Opener's success rate. Understanding this technique is essential for comprehensive grappling education, but its application should be severely restricted or avoided entirely in training environments.
 
@@ -241,7 +239,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish head control**: From within closed guard, swim both hands behind opponent's head while they attempt to break your posture. Focus on getting deep hand position near the base of their skull rather than shallow neck contact. This requires timing when opponent momentarily releases collar grips or attempts to adjust their guard. (Timing: Initial setup phase - 2-3 seconds) [Pressure: Light]
 2. **Interlace fingers**: Lock your fingers together behind opponent's head creating a strong structural frame with your arms. The finger interlace should be tight with palms pressing against the back of their skull. This grip must be secure as it provides the foundation for all subsequent pressure. Position your elbows to point outward creating a wide base. (Timing: Grip establishment - 1-2 seconds) [Pressure: Light]
 3. **Position forearms against neck**: Adjust your arm position so the bony portions of your forearms contact the sides and front of opponent's neck while your hands remain locked behind their head. The forearms should frame their neck creating a compression structure. Ensure your arms create an inverted V-shape that will drive downward pressure through the neck. (Timing: Structural positioning - 2-3 seconds) [Pressure: Light]
@@ -308,7 +306,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is the Can Opener banned in most Brazilian Jiu-Jitsu competitions? **[SAFETY-CRITICAL]**
 **A**: The Can Opener is banned because it targets the cervical spine with compression forces that carry unacceptable injury risks including disc herniation, vertebrae damage, and nerve impingement. Unlike joint locks that have clear joint range limits, neck cranks can cause catastrophic injuries before the defender recognizes the danger. The technique provides minimal technical development while creating significant liability, leading organizations like IBJJF to prohibit it at all belt levels.
 

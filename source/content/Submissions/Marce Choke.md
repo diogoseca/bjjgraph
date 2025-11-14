@@ -147,14 +147,12 @@ description: "Master the Marce Choke in BJJ - powerful lapel choke from top posi
 
 
 
-> Marce Choke is a lapel choke targeting the Carotid arteries and trachea via lapel compression. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Marce Choke targets the Carotid arteries and trachea via lapel compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Marce Choke?
 
 The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effective gi-specific submission that combines elements of the loop choke and cross collar choke mechanics. Named after multiple-time world champion Marcelo Garcia, this technique leverages the opponent's own lapel to create a powerful blood choke from dominant top positions, particularly side control and north-south. The Marce Choke is particularly effective because it uses the mechanical advantage of the lapel wrapped around the opponent's neck, creating compression on both carotid arteries simultaneously while controlling the opponent's upper body. Unlike traditional collar chokes that require both hands on the lapel, the Marce Choke uses one hand on the lapel and your body weight to apply pressure, making it extremely difficult to defend once properly set. The technique excels in gi competition because it can be applied from multiple top positions and often catches opponents by surprise as they focus on defending more common submissions. The choke works on a fundamental principle: using the lapel as a ligature around the neck while your body weight and positioning create the constricting force. This makes it a high-percentage technique for practitioners who master the proper setup and understand the mechanics of lapel manipulation.
 
@@ -236,7 +234,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure side control position**: Establish tight side control with your chest heavy on the opponent's chest. Control their near arm by pinning it to their body or trapping it with your hip. Your head should be positioned on the far side of their head to prevent them from turning into you. Maintain strong shoulder pressure into their face or neck to keep them flat. (Timing: Take 2-3 seconds to ensure solid control) [Pressure: Firm]
 2. **Access the far lapel**: Using your hand closest to their head (typically your right hand if you're on their right side), reach across their neck and grip their far lapel deep - your grip should be at least 4-6 inches past their shoulder to ensure sufficient material. Your four fingers should go inside the lapel, thumb outside. The deeper your initial grip, the more effective the choke will be. (Timing: 1-2 seconds while maintaining pressure) [Pressure: Light]
 3. **Feed the lapel across the neck**: Pull the lapel across the opponent's throat toward their opposite shoulder, creating a diagonal line across their neck. The material should be tight against their neck, particularly targeting the carotid arteries on both sides. Ensure the lapel goes under their chin, not over it. As you feed, maintain your chest pressure to prevent them from turning or creating space. (Timing: 2-3 seconds with controlled movement) [Pressure: Moderate]
@@ -299,7 +297,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical target of the Marce Choke and why is it more effective than targeting the trachea? **[SAFETY-CRITICAL]**
 **A**: The primary target is the carotid arteries on both sides of the neck, which supply blood to the brain. Targeting the carotid arteries creates a blood choke that causes unconsciousness in 3-8 seconds by restricting blood flow to the brain, whereas tracheal compression (air choke) is more painful, takes longer, and gives the opponent more time to escape or defend. Blood chokes are also safer when properly applied and released promptly because they don't damage the windpipe structure.
 

@@ -8,7 +8,7 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 15%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Williams Guard from the Top?
 
 Williams Guard Top represents the challenging defensive and passing position faced when an opponent secures Williams Guard Bottom control with a shoulder lock threat on your arm. This position requires technical understanding of shoulder lock defense mechanics combined with systematic guard passing principles. The top practitioner must simultaneously defend the shoulder lock submission threat while working to extract their trapped arm and establish guard passing control. Success in this position demands patience, proper defensive posture, and recognition of the opponent's transition triggers. Williams Guard Top exemplifies modern guard passing challenges where submission threats and positional control are integrated, requiring the passer to address multiple layers of offense while advancing their passing game. Understanding the mechanical relationship between shoulder lock defense and guard passing is essential for navigating this position effectively and preventing the bottom player from transitioning to more dominant attacking positions. The fundamental challenge lies in the mechanical hierarchy of defensive priorities—submission defense must take absolute precedence over passing advancement, as attempting to pass while your arm remains compromised virtually guarantees either submission or sweep. Systematic arm extraction combined with proper base maintenance and transition recognition transforms this challenging position into a manageable defensive problem with clear pathways to guard passing success.
 
@@ -445,17 +424,17 @@ Start in Williams Guard Top with arm controlled. Partner works for submissions a
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Williams Guard Top presents a sophisticated defensive problem that requires understanding the mechanical hierarchy of shoulder lock defense and guard passing. The fundamental principle is that submission defense must take absolute priority over passing advancement—attempting to pass while your arm remains in a compromised shoulder lock position virtually guarantees either submission or sweep. The arm extraction process must be approached systematically: first, protect the shoulder joint by maintaining proper alignment and preventing full extension or rotation; second, create small circular movements that gradually reduce the opponent's leverage without triggering their transition responses; third, time the final extraction to coincide with establishing a dominant passing position. The critical error most practitioners make is treating arm extraction and guard passing as separate problems when they are actually interconnected elements of the same defensive sequence. The opponent's Williams Guard effectiveness stems from creating a mechanical dilemma where defending the shoulder lock opens sweep opportunities and pursuing the pass opens submission opportunities. Breaking this dilemma requires what I call 'defensive priority sequencing'—address the immediate submission threat first, then advance position only when the threat is neutralized. Understanding this principle transforms Williams Guard Top from a panicked defensive scramble into a systematic problem-solving sequence.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 When I get caught in Williams Guard, my first reaction is to recognize I made a mistake earlier in the passing sequence that allowed the arm isolation. The key is not panicking about the shoulder lock—yes it's uncomfortable, but if you protect your shoulder properly it's very hard for them to finish it quickly. My approach is to stay calm, protect the joint, and work methodically on the extraction while watching for their transitions. The most important thing is recognizing when they're about to go to omoplata or triangle, because those transitions create the openings for your passing attacks. I specifically bait the omoplata transition sometimes because when they commit to it, there's a window where I can stack them or pressure pass. The shoulder lock finish itself is actually the least of my concerns at high levels because most advanced players know how to defend it—what's dangerous is getting swept or having them take your back during the transition phases. I focus heavily on keeping my hips angled and maintaining base with my free side while I work the extraction. Once the arm is free, I immediately attack with passing pressure before they can re-establish guard structure. The position is definitely uncomfortable and risky, but with proper defensive mechanics and patience, it's very passable.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Williams Guard Top is one of those positions where you're essentially paying the price for not respecting the opponent's arm isolation game earlier. From the 10th Planet perspective, we train extensively in Williams Guard from both sides because it embodies the kind of submission-based guard retention we build our entire system around. When you're on top in this position, the first thing to understand is that your opponent has created a control system very similar to our Rubber Guard philosophy—they're using a submission hold as a positional control mechanism. Your defense needs to address both layers: the immediate submission threat and the positional control that's keeping you stuck in their guard. The key technical element is the circular arm extraction movement—you can't just yank straight back because that's exactly what they want you to do. Instead, you need to create small circles with your shoulder while maintaining proper joint alignment, gradually working your way out of the shoulder lock configuration. What makes this challenging is that you have to do this while also preventing them from transitioning to omoplata, triangle, or back attacks. The best defense is actually recognizing the Williams Guard setup before it's fully established and shutting it down early, but once you're in it, you need patience, technical extraction mechanics, and constant awareness of their transition triggers. It's a humbling position that teaches respect for arm isolation and submission-based guard systems.
 

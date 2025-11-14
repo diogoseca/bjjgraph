@@ -8,7 +8,7 @@ description: "Master Rubber Guard bottom position with this complete guide to Ed
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Rubber Guard bottom position with this complete guide to Ed
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Rubber Guard from the Bottom?
 
 The Rubber Guard from the bottom perspective represents one of the most innovative and systematically developed guard positions in modern Brazilian Jiu-Jitsu. Developed by Eddie Bravo specifically for no-gi grappling and MMA applications, this position fundamentally reimagines closed guard control by incorporating extreme flexibility and systematic progression through named positions. From bottom, the practitioner uses their leg to create a locked configuration that traps the opponent's arm against their own chest while simultaneously controlling posture. This dual-threat control system creates unique submission opportunities unavailable from conventional guard positions. The position begins from closed guard, where the bottom player breaks the opponent's posture and brings one leg high across the opponent's back, securing the shin or foot with the same-side hand to create Mission Control, the foundational Rubber Guard position. From here, systematic progressions lead to New York (omoplata threat), Invisible Collar (choke setups), Zombie (gogoplata position), and numerous other variations, each with specific grip configurations and submission entries. The bottom player's strategy centers on maintaining constant arm isolation while using the opponent's defensive reactions to dictate which submission pathway to pursue. Understanding the Rubber Guard system requires accepting its physical prerequisites—exceptional hip flexibility is non-negotiable—but for practitioners who possess or develop this attribute, the position offers a comprehensive attacking system that creates unique problems for conventionally trained opponents. The energy management aspect is critical: unlike traditional closed guard where pressure can be sustained for extended periods, Rubber Guard's elevated leg position demands intelligent application of pressure in bursts rather than constant maximum tension. The bottom player must also manage the inherent vulnerability to stacking pressure by maintaining proper shoulder positioning and using hip mobility to adjust angles. When executed properly with systematic understanding of the position's nuances, Rubber Guard from bottom provides exceptional control, neutralizes striking in MMA contexts, and creates high-percentage submission opportunities through its unique mechanical configurations.
 
@@ -463,17 +444,17 @@ Start in established Rubber Guard position. Flow between triangle, omoplata, and
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 While the Rubber Guard represents an innovative approach to closed guard control, its effectiveness is highly dependent on individual physical attributes, particularly exceptional hip flexibility and favorable limb proportions. From a biomechanical perspective, the position creates powerful posture-breaking mechanics through the leverage of the elevated leg against the trapped arm, effectively removing one of the opponent's primary posting bases. However, this same leg elevation creates structural vulnerabilities if the opponent successfully drives forward or achieves stacking pressure. The systematic progression through named positions demonstrates sound pedagogical principles, though practitioners must understand that the position's applicability varies significantly based on body type, flexibility level, and the opponent's defensive knowledge. The energy cost of maintaining the position can be substantial, making it most effective when used as part of a broader guard retention system rather than as a primary defensive position.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 The Rubber Guard occupies a niche role in high-level competition, particularly effective in no-gi contexts where traditional gi grips are unavailable and posture control becomes more challenging. In my experience, the position works best against opponents who lack familiarity with the specific defensive protocols required, as experienced competitors understand the critical importance of preventing the initial high leg position and will fight aggressively to maintain distance in closed guard. The submission rate from Rubber Guard at elite levels is relatively low compared to more conventional guard positions, primarily because the defensive hierarchy is well-established and the flexibility requirements limit its applicability for many competitors. That said, fighters with exceptional flexibility and systematic knowledge of the position's nuances can create legitimate attacking threats, particularly the triangle and omoplata entries. The position's value increases significantly in MMA contexts where it serves the dual purpose of controlling posture while limiting the opponent's striking ability, though this comes at the cost of reduced mobility for escaping bad positions if the guard is passed.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Rubber Guard represents the cornerstone of the 10th Planet system and embodies our philosophy of creating systematic, position-based attacks that neutralize conventional defensive strategies. This position was specifically developed to address the challenges of no-gi grappling and MMA, where traditional gi-based posture control methods become unavailable. The beauty of Rubber Guard lies in its ability to isolate the opponent's arm while simultaneously controlling their posture, creating a double-threat scenario where defending one aspect opens opportunities for the other. The named positions within the system—Mission Control, New York, Invisible Collar, Zombie, and others—aren't arbitrary labels but represent specific mechanical configurations, each with distinct submission entries and transitional opportunities. Critics focus on the flexibility requirements, but this misses the point: the position is designed for practitioners who possess or develop that flexibility, creating a specialized game that opponents struggle to defend without specific training. The systematic progression through positions creates a decision tree where the opponent's defensive choices dictate your offensive response, embodying the principle of using their energy and reactions against them. In MMA specifically, Rubber Guard has proven invaluable for controlling opponents while limiting ground-and-pound opportunities, serving both offensive and defensive purposes simultaneously.
 

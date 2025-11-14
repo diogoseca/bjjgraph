@@ -8,7 +8,7 @@ description: "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative t
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative t
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 55% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: High
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Crackhead Control from the Bottom?
 
 Crackhead Control Bottom is an innovative defensive turtle position developed by Eddie Bravo as part of the 10th Planet Jiu-Jitsu system. This position represents a modern evolution of traditional turtle defense, characterized by extreme hip mobility, aggressive hand fighting, and constant motion to prevent back takes and maintain defensive integrity. Unlike static turtle positions, Crackhead Control emphasizes dynamic movement, making it exceptionally difficult for opponents to establish dominant grips or secure controlling positions.
 
@@ -452,17 +433,17 @@ Continuous flow drill alternating between turtle bottom and various guard positi
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The biomechanical efficiency of Crackhead Control Bottom lies in its disruption of the opponent's ability to establish the fundamental prerequisites for back control - namely stable grip configuration and weight distribution. Traditional turtle defense emphasizes static structural integrity, creating a defensive shell that resists penetration. However, this approach concedes initiative entirely to the top player, who can methodically work to establish grips and advance position. The innovation of Crackhead Control is the introduction of constant kinetic energy into the defensive framework. By maintaining perpetual hip movement and aggressive hand fighting, the bottom player forces the top opponent to continuously re-establish control rather than consolidating existing grips. This creates a fundamentally different strategic dynamic - instead of defending against established control, you prevent control from ever being established. The energy cost is significant, requiring exceptional cardiovascular conditioning, but the return on investment is substantial. Each moment of movement denies the opponent the stable platform required for systematic advancement, transforming turtle from a position of inevitability into one of genuine strategic contest.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, Crackhead Control Bottom is one of the most effective turtle variations I've encountered when executed by athletes with sufficient conditioning and technical precision. The key differentiator from traditional turtle is the psychological impact on your opponent - instead of having time to methodically break down your defense, they're immediately thrust into a scramble situation where their technical advantages may be neutralized by your superior movement and activity level. I've seen this position completely frustrate world-class back attackers because it removes their ability to implement systematic control progressions. The critical factor is understanding when to explode and when to conserve energy. You cannot maintain maximum intensity movement indefinitely, so you must develop sensitivity to recognize when your opponent is genuinely threatening advancement versus when they're simply maintaining position. Use your most explosive movements when they attempt to secure the second grip of seat belt control or when they commit their weight forward for back take attempts. These are the highest-percentage moments for granby roll escapes or guard recovery. Against elite opponents, expect to only maintain this position for 30-60 seconds before either escaping or being forced to transition to another defensive position. The energy expenditure is too high for extended durations, but those 30-60 seconds can completely change the momentum of a match.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Crackhead Control is the embodiment of 10th Planet philosophy applied to turtle defense - we don't accept inferior positions as inevitable, we turn them into opportunities through movement, aggression, and unpredictability. The name itself reflects the energy required - you need to be absolutely relentless, moving like you've got unlimited energy even when you're exhausted. What makes this position so effective in no-gi is that without gi grips to anchor their control, your opponent is forced to rely entirely on body positioning and underhooks, both of which you can disrupt through constant hip movement and hand fighting. The traditional approach to turtle is to wait for your opponent to make a mistake, but that's passive and gives them all the control. With Crackhead Control, you're actively creating mistakes by forcing them to deal with constant movement and grip fighting. Every time they try to establish control, you're already moving away from it, creating angles, and looking for your escape. The best practitioners develop an almost manic quality to their movement - not random or panicked, but purposeful and relentless. You're not just defending, you're attacking their ability to attack you. The granby roll is your best friend here, and you should be threatening it constantly to keep them guessing. Mix in sit-throughs to dogfight and technical standups to keep them from predicting your movement patterns. This isn't a position you maintain for minutes - it's a high-intensity scramble position that you use to create guard recovery or standing opportunities within 20-40 seconds of explosive activity.
 

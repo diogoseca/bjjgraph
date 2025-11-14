@@ -153,14 +153,10 @@ description: "Master the Double Leg Finish in BJJ. Complete execution from penet
 
 
 
-> Double Leg Finish transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 55%, Intermediate 75%, Advanced 88%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Double Leg Finish?
 
 The Double Leg Finish is the critical completion phase of the double leg takedown, transitioning from the penetration step to establishing dominant top position. This fundamental wrestling technique adapted for BJJ focuses on the mechanical principles of lift, drive, and controlled landing to secure top position. The finish requires proper coordination of leg drive, hip extension, and upper body control to overcome opponent resistance and establish side control or mount.
 
@@ -203,7 +199,7 @@ Mastery of the double leg finish is essential for any grappler's takedown game, 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure the grip connection**: Ensure your hands are tightly clasped behind both of the opponent's knees with your forearms pressing into the back of their legs. Your head should be positioned firmly against their torso, typically at hip level, creating a strong structural connection. Verify that your shoulders are lower than their hips and your spine maintains proper alignment for the upcoming explosive movement. (Timing: Immediately following successful penetration)
 2. **Initiate hip extension drive**: Begin explosive hip extension by driving forcefully through your legs while simultaneously lifting with your arms. Your hips should thrust forward and upward, transferring energy through your torso into the opponent's legs. Maintain constant pressure with your head against their body to prevent space creation. The power comes from your legs driving into the mat, not from pulling with your arms alone. (Timing: Explosive movement coordinated with breath)
 3. **Angle and elevate**: As you drive forward, angle your trajectory to move the opponent's hips backward while their shoulders move toward the mat. Continue lifting their legs higher while your head drives into their torso, creating the falling motion. Your feet should step forward in short, powerful steps maintaining base and drive rather than standing fully upright which compromises leverage. (Timing: Continuous motion from step 2)
@@ -305,7 +301,7 @@ Develop personal preferences for finish variations based on body type and style.
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary source of lifting power in the double leg finish?
 **A**: The primary lifting power comes from explosive hip extension and leg drive into the mat, not from arm strength alone. The practitioner drives through their legs while extending their hips forward and upward, creating the force needed to elevate and displace the opponent. The arms maintain connection and guide direction, but the lower body generates the actual power. This mechanical principle allows the technique to work against larger opponents and prevents early fatigue.
 

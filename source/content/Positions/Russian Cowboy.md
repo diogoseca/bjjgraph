@@ -8,7 +8,7 @@ description: "Master Russian Cowboy position in BJJ. Complete guide covering bac
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Russian Cowboy position in BJJ. Complete guide covering bac
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Russian Cowboy?
 
 The Russian Cowboy is a highly effective back control variant commonly used in no-gi grappling and submission wrestling. This position features the top practitioner establishing control over the opponent's back while maintaining a hook under one leg, creating powerful leverage for attacks and making escape extremely difficult. The position derives its name from the riding motion resembling a cowboy on a bucking horse, combined with its popularity among Russian and Eastern European grapplers.
 
@@ -50,7 +48,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium to Long |
 
-**What Makes This Unique:** Single-hook back control for truck transitions
+**Key Difference:** Single-hook back control for truck transitions
 
 
 
@@ -76,10 +74,6 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ## Playing as Bottom
 
 [[Russian Cowboy/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -153,10 +147,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Russian Cowboy/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -233,7 +223,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -159,14 +159,10 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 
 
 
-> Stack Pass transitions from [[Closed Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Stack Pass?
 
 The Stack Pass is a fundamental pressure passing technique that uses vertical pressure and weight distribution to break through the guard. By driving the opponent's knees toward their chest and stacking their hips over their shoulders, you create a mechanical disadvantage that makes guard retention extremely difficult. This pass is particularly effective against opponents who rely on active guard retention, as the stacking pressure limits their hip mobility and ability to create defensive frames. The technique requires excellent base, timing, and the ability to maintain heavy top pressure while navigating past the legs. When executed properly, the Stack Pass transitions seamlessly into dominant side control or mount positions.
 
@@ -205,7 +201,7 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips**: From standing or combat base in closed guard, secure bilateral grips on opponent's pants at the knees or lower shins. These grips will control their leg movement throughout the pass. (Timing: Initial setup before pressure application)
 2. **Break guard open**: Using your grips and posture, create space to open the closed guard. Stand up if necessary, or use a knee-cut motion to split the ankles apart. Maintain grip control throughout. (Timing: Coordinate with opponent's breathing or movement)
 3. **Drive knees to chest**: Step forward with both feet and drive the opponent's knees toward their chest using your grips. Your weight should transfer forward, creating vertical pressure down their center line toward their shoulders. (Timing: Explosive forward drive as guard opens)
@@ -303,7 +299,7 @@ Combine stack pass with other passing options like knee slice, toreando, and leg
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical advantage created by the stack pass?
 **A**: The stack pass creates a mechanical advantage by driving the opponent's knees toward their chest, which lifts their hips off the mat and places their weight onto their shoulders. This severely limits their hip mobility and ability to create defensive frames, making guard retention extremely difficult. The vertical pressure also restricts their breathing and ability to generate power in their legs.
 

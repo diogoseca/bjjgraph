@@ -153,14 +153,12 @@ description: "Master heel hook variations in BJJ. Complete guide covering inside
 
 
 
-> Heel Hook Variations is a leg lock targeting the Knee ligaments, ankle joint, and heel structure. ⚠️ **SAFETY**: This technique can cause ACL tear (anterior cruciate ligament). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Heel Hook Variations targets the Knee ligaments, ankle joint, and heel structure. Risk: ACL tear (anterior cruciate ligament). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Heel Hook Variations?
 
 The heel hook represents one of the most devastating and dangerous submissions in Brazilian Jiu-Jitsu, capable of causing catastrophic knee damage in milliseconds. Unlike other leg locks that primarily attack the ankle joint, heel hooks attack the knee through rotational forces applied to the heel while the knee is trapped. The various heel hook variations—inside heel hook, outside heel hook, and reverse heel hook—differ primarily in the angle of attack and the configuration of the entanglement. Each variation presents unique mechanical advantages and strategic applications depending on the leg entanglement position. The inside heel hook, executed from positions like inside ashi-garami or the saddle, is generally considered the highest percentage finish due to superior hip control and breaking mechanics. The outside heel hook, typically entered from outside ashi-garami or 50-50 guard, attacks from the opposite angle and requires different finishing mechanics. The reverse heel hook, a more specialized variation, involves inverting the typical grip configuration. Understanding the biomechanics of each variation is essential not only for effective application but critically for training safety. The heel hook's danger stems from the fact that there is often minimal pain before structural damage occurs, making it essential that practitioners understand proper application speed, tap recognition, and release protocols. These techniques should only be practiced by experienced students under qualified instruction with emphasis on controlled, slow application and immediate release upon tap.
 
@@ -250,7 +248,7 @@ The heel hook represents one of the most devastating and dangerous submissions i
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure heel control grip**: From established ashi-garami position, reach across your body and grab opponent's heel. For inside heel hook, your arm reaches across to grab their heel on the side away from you. Configure your grip (figure-four, Gable grip, or palm-to-palm depending on preference) so the heel is pulled tight to your chest/armpit area. The heel should be anchored against your body, not just held in your hands. Your forearm creates a lever across the back of their ankle and Achilles. (Timing: Establish grip during initial leg entanglement or transition) [Pressure: Light]
 2. **Tighten leg entanglement and control knee line**: Ensure your legs are properly configured around their trapped leg. Your outside leg should hook across their hip (for saddle) or their thigh (for inside ashi), while your inside leg triangles under their knee or controls their far leg. The key is preventing them from turning their knee away from danger or toward their chest. Their knee must remain pointing in the vulnerable direction. Squeeze your knees together to increase control. Pull their leg tight to your body with your entangling legs. (Timing: Simultaneous with heel grip establishment) [Pressure: Moderate]
 3. **Break defensive hand grips**: Opponent will almost certainly grip their own leg, grabbing their shin or knee to prevent rotation. You must break this grip before finishing. Use your free hand to strip their grip away - grab their wrist or forearm and pull/peel it off their leg. Alternatively, use your free hand to post on their chest or face to create distance and break their defensive posture. Some variations involve using your free hand to control their far leg or opposite ankle. Once their grip is broken, immediately proceed to the finish before they can re-establish defense. (Timing: Before applying finishing rotation) [Pressure: Firm]
@@ -326,7 +324,7 @@ The heel hook represents one of the most devastating and dangerous submissions i
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical target of a heel hook and why is it more dangerous than most other submissions? **[SAFETY-CRITICAL]**
 **A**: The heel hook primarily targets the knee joint, specifically attacking the ACL, MCL, LCL, and PCL ligaments through rotational force applied via the heel while the knee is trapped. It is more dangerous than most submissions because these ligaments can rupture with minimal warning pain - structural damage often occurs before the defender feels significant discomfort, meaning they may not realize they need to tap until permanent injury has already occurred. This is unlike joint locks such as armbars or kimuras where pain provides clear warning before structural damage.
 

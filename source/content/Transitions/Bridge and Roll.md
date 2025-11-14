@@ -153,14 +153,10 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
 
 
 
-> Bridge and Roll transitions from [[Mount]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Bridge and Roll?
 
 The Bridge and Roll (also known as the Upa Escape or trap and roll) is the most fundamental and highest-percentage escape from the mounted position. This technique exploits the opponent's base by creating a powerful bridge with the hips while simultaneously trapping one arm and the same-side leg, forcing them to roll over their trapped shoulder. The escape is effective because it uses the strongest muscles in the body—the glutes and hamstrings—to generate explosive power that overwhelms the opponent's balance. The Bridge and Roll is typically the first mount escape taught to beginners due to its intuitive mechanics and immediate effectiveness, yet it remains a cornerstone technique at all belt levels. The success of this escape depends on proper timing, creating the correct angle before bridging, and understanding the relationship between the trapped arm and leg. When executed correctly, the practitioner not only escapes the mounted position but often ends up inside the opponent's closed guard with improved position. The technique demonstrates fundamental BJJ principles including the use of frames, hip movement, angle creation, and explosive power generation from inferior positions.
 
@@ -199,7 +195,7 @@ The Bridge and Roll (also known as the Upa Escape or trap and roll) is the most 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish defensive frames**: Place both hands on opponent's hips or biceps to create space and prevent them from establishing high mount or attacking submissions. Keep elbows tight to body to protect against arm attacks. This framing creates the necessary space to begin the escape sequence. (Timing: Immediate upon being mounted)
 2. **Choose side and trap arm**: Select the side where opponent's base appears weaker (usually the side they're leaning toward or posting with). Reach across your body with your same-side hand to grab their wrist or sleeve, pulling their arm across your centerline and trapping it tight against your chest. The trapped arm must be controlled completely as this becomes their only potential post. (Timing: When opponent shifts weight or reaches for attack)
 3. **Trap same-side foot**: Using your foot on the same side as the trapped arm, hook over and trap opponent's foot by placing your instep over their ankle or shin. The foot trap prevents them from posting with that leg during the roll. Your heel should hook behind their calf with toes pointing toward their knee to maximize control. (Timing: Simultaneously with or immediately after arm trap)
@@ -299,7 +295,7 @@ Develop nuanced understanding of when bridge and roll is highest percentage vers
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you trap the arm and same-side foot together rather than just the arm?
 **A**: The foot trap is essential because it prevents the opponent from posting with that leg to maintain base. Even with the arm trapped, if they can post with the same-side foot, they can resist the bridge and prevent the roll. The arm and foot on the same side work together as a complete base removal system—eliminating both prevents any posting possibility on that side, forcing them to roll over the trapped shoulder. Without the foot trap, the escape has almost zero success rate against any technical opponent.
 

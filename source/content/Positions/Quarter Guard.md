@@ -8,7 +8,7 @@ description: "Master Quarter Guard in BJJ. Strategic guide covering bottom defen
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Quarter Guard in BJJ. Strategic guide covering bottom defen
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Quarter Guard?
 
 Quarter Guard represents a critical transitional position in Brazilian Jiu-Jitsu's guard passing and retention hierarchy, occupying the narrow space between functional half guard and completed pass. This position emerges when the top player has advanced significantly past the bottom player's hip line but the bottom player maintains minimal leg engagement—typically just a weakened knee shield, partial hook, or quarter lockdown. Unlike full half guard where the bottom player has substantial control and time to develop attacks, quarter guard is inherently unstable and demands immediate decision-making from both practitioners.
 
@@ -50,7 +48,7 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short |
 
-**What Makes This Unique:** Reduced leg control demands immediate action
+**Key Difference:** Reduced leg control demands immediate action
 
 
 
@@ -76,10 +74,6 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ## Playing as Bottom
 
 [[Quarter Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -162,10 +156,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Quarter Guard/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -247,7 +237,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

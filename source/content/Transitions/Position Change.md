@@ -153,14 +153,10 @@ description: "Master Position Change transitions in BJJ. Learn systematic advanc
 
 
 
-> Position Change transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Position Change?
 
 Position Change represents the fundamental tactical advancement in Brazilian Jiu-Jitsu, where a practitioner systematically transitions from one position to a more dominant position. This concept encompasses the entire spectrum of positional transitions, from escaping inferior positions to establishing and maintaining dominant control. Understanding position change is essential for developing a cohesive game plan that emphasizes positional dominance over immediate submission attempts.
 
@@ -203,7 +199,7 @@ Position changes serve multiple strategic purposes: they increase point scoring 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Assess current position**: Evaluate your current position within the BJJ hierarchy and identify the most strategic advancement option based on opponent's posture, grips, and base. Consider both immediate opportunities and multi-step sequences that lead to dominant positions. (Timing: Continuous assessment during engagement)
 2. **Establish control points**: Secure at least two points of contact with opponent through grips, hooks, frames, or pressure points. These connection points must be maintained throughout the transition to prevent opponent from creating space or recovering position. (Timing: Before initiating movement)
 3. **Create angle**: Generate an angle relative to opponent's centerline by shifting your hips, adjusting your torso position, or repositioning your base. The angle reduces opponent's defensive leverage and opens pathways for positional advancement. (Timing: 1-2 seconds before main transition)
@@ -300,7 +296,7 @@ Build personal game plans around reliable position change sequences. Develop pos
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of creating an angle before initiating a position change?
 **A**: Creating an angle before initiating a position change serves to fundamentally weaken the opponent's defensive structure by moving your body off their centerline. This angular relationship reduces their leverage and ability to use their base effectively, while opening pathways for advancement that would be blocked if you remained square to their position. The angle makes the subsequent transition both more efficient and higher percentage.
 

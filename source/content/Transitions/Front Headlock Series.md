@@ -159,14 +159,10 @@ description: "Master the Front Headlock Series in BJJ. Complete system covering 
 
 
 
-> Front Headlock Series transitions from [[Front Headlock]] to [[Back Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Front Headlock Series?
 
 The Front Headlock Series represents one of the most comprehensive and versatile control systems in Brazilian Jiu-Jitsu, offering multiple high-percentage attack options from a single dominant position. This position occurs frequently in scrambles, after failed takedown attempts, or when the opponent turtles defensively. From the front headlock, practitioners can seamlessly transition between submissions (Anaconda choke, Darce choke, Guillotine choke), position advancement (back takes, mount entries), or maintain superior control while the opponent exhausts themselves.
 
@@ -210,7 +206,7 @@ Mastery of the Front Headlock Series transforms scrambles and transitional momen
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock control**: Secure the front headlock position by wrapping your arm around the opponent's neck, threading it deep so your bicep and forearm create a tight frame against their carotid arteries. Your other hand should control their near arm, either by overhooking it, controlling the wrist, or securing a gable grip with your choking arm. Position your chest on top of their upper back/shoulders to apply downward pressure. (Timing: Immediately upon opponent exposing their head in turtle or failed takedown)
 2. **Apply shoulder pressure and assess opponent's reaction**: Drive your shoulder into the back of opponent's head, forcing their chin to their chest and breaking their posture. Keep your hips mobile and ready to adjust. Observe carefully how they defend: if they reach for your choking arm, prepare for Anaconda/Darce; if they try to stand or circle out, prepare for back take; if they turtle tightly, prepare for Guillotine or position advancement. (Timing: Continuous pressure while reading defensive patterns)
 3. **Select attack based on opponent's defensive response**: If opponent reaches across their body to defend your choke arm, slide your choking arm deeper and prepare Anaconda entry. If they keep their defending arm tight to their body, circle to your choking-arm side and prepare Darce. If they attempt to stand or posture up, maintain head control and circle to their back. If they stay statically defensive, adjust to Guillotine position or advance to mount/side control. (Timing: Within 2-3 seconds of establishing control)
@@ -311,7 +307,7 @@ Positional sparring starting from front headlock or turtle bottom (alternating r
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What defensive reaction from your opponent indicates you should attempt the Anaconda choke rather than the Darce choke?
 **A**: When the opponent reaches across their body with their far arm to defend your choking arm, this creates the perfect setup for the Anaconda. Their reaching arm opens the space under their armpit for you to thread your non-choking arm and complete the figure-four grip. In contrast, the Darce is selected when they keep their defending arm tight to their body.
 

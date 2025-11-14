@@ -8,7 +8,7 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Lasso Guard?
 
 **Lasso Guard** is a sophisticated open guard variation that combines elements of spider guard control with a unique leg threading mechanism. The position is characterized by threading your shin across the opponent's trapped arm, creating a lasso-like control that severely restricts their mobility and posture. This guard offers exceptional control over one side of the opponent's body while maintaining the ability to attack with sweeps, submissions, and transitions.
 
@@ -52,15 +50,15 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 
 
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[Lasso Guard]] | Medium | Medium | Medium | Medium | Sleeve extension trades mobility for sweeps |
 | [[Inverted Lasso Guard]] | Medium to High | Medium to High | High | Medium | Inverted posture creates superior sweep angles |
 | [[Russian Leg Lasso]] | Medium | Medium | Medium | Medium | Deep lasso with extra grip controls |
@@ -75,10 +73,6 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ## Playing as Bottom
 
 [[Lasso Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -161,10 +155,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Lasso Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -235,29 +225,6 @@ Adapt to their defense.
 - ❌ **Using excessive strength to muscle through the lasso without proper technique**
   - Consequence: You expend enormous energy while making minimal progress, eventually fatiguing and becoming vulnerable to submissions
   - ✅ Correction: Use technical solutions like specific grip breaks, angle changes, and pressure application rather than relying on strength alone
-
-
-</section>
-
-
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-
-### [[Inverted Lasso Guard]]
-
-Lasso control with inverted position for dynamic sweeps and berimbolo entries
-
-[Explore Inverted Lasso Guard →](./Inverted Lasso Guard)
-
-
-### [[Russian Leg Lasso]]
-
-Threading both legs through opponent's arms creating double lasso control
-
-[Explore Russian Leg Lasso →](./Russian Leg Lasso)
-
 
 
 </section>

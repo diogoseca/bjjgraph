@@ -8,7 +8,7 @@ description: "Master kneebar control position in BJJ. Complete guide covering en
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master kneebar control position in BJJ. Complete guide covering en
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kneebar Control?
 
 Kneebar Control represents a critical leg entanglement position in Brazilian Jiu-Jitsu where the attacker has isolated one of the opponent's legs and established control for a potential kneebar finish. This position exists on a spectrum from loose leg control to fully-extended submission, with the controlling practitioner using their arms to secure the opponent's leg while their hips create leverage against the knee joint.
 
@@ -56,7 +54,7 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -70,7 +68,7 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium |
 
-**What Makes This Unique:** Isolated leg control for knee hyperextension
+**Key Difference:** Isolated leg control for knee hyperextension
 
 
 
@@ -82,10 +80,6 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ## Playing as Bottom
 
 [[Kneebar Control/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -180,10 +174,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Kneebar Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -266,7 +256,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

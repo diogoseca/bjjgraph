@@ -8,7 +8,7 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 3 (Guard pass)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low
-- **Energy Cost**: Low
-- **Time Sustainability**: Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Side Control from the Top?
 
 Side Control Top is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player pins the opponent from the side with their chest perpendicular to the opponent's torso while controlling their hips and head. Worth 3 points in IBJJF competition for passing the guard, this position offers exceptional control with minimal energy expenditure when executed correctly. It provides numerous submission opportunities, transitions to even more dominant positions like mount or back control, and presents significant defensive challenges for the bottom player. Side control is often considered the home base of top position work, as it offers stability, control, and offensive options while maintaining relatively low risk of reversal. The position's effectiveness comes from the mechanical advantage of perpendicular body positioning combined with strategic weight distribution that limits the opponent's movement while preserving the top player's mobility. Mastery of side control is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy between guard passing and mount. From this position, the top player can methodically work toward submissions, advance to more dominant positions, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon.
 
@@ -489,17 +468,17 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Side control represents a critical junction in the positional hierarchy where mechanical advantage meets strategic decision-making. The fundamental principle is perpendicular body alignment - your longitudinal axis crossing their longitudinal axis creates maximum control surface while minimizing their leverage options. The crossface is not merely a control point but a systematic removal of their ability to generate rotational force toward you, which is their primary escape mechanism. Your hip pressure serves a dual purpose: preventing guard recovery inferiorly while creating the downward force that makes their bridging attempts biomechanically inefficient. The common error I observe is practitioners treating side control as a static position when it should be understood as a dynamic platform for systematic advancement. Every escape attempt the opponent makes should be met with a predetermined counter that either maintains position or advances to a more dominant configuration. The submission opportunities from side control - Americana, kimura, arm triangle - are not random attacks but systematic responses to specific defensive postures. When the opponent extends their near arm, the kimura becomes mechanically available; when they defend with their far arm across, the arm triangle presents itself. This is not opportunistic submission hunting but rather the systematic exploitation of biomechanical vulnerabilities created by their defensive choices.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, I view side control as a decision point where I choose between submission hunting and advancing to mount based on the opponent's defensive patterns and the match situation. If they're defending with good frames and I'm not getting immediate submission opportunities, I'll typically transition to knee on belly or mount to score additional points and create new submission angles. The Americana and kimura from side control are my highest percentage attacks, particularly in gi, because they're difficult to defend without exposing the arm or creating mount entry opportunities. In no-gi, I focus more on head and arm chokes and quick transitions to mount or back, as the lack of grips makes static submissions from side control more difficult to finish. The key is recognizing when to stay heavy and when to be mobile - against flexible opponents who can recover guard quickly, I maintain crushing pressure and work for submissions; against less mobile opponents, I use side control as a launching point for position advancement. My approach is always to maximize points while creating submission opportunities, so I'm constantly transitioning between side control, knee on belly, and mount to keep them guessing and defending multiple threats simultaneously.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Side control is where I teach students to develop the truck mentality - constantly looking for ways to isolate limbs and take the back. The traditional side control is effective, but I emphasize variations like reverse kesa gatame and twister side control that create immediate entry points to the truck position and calf slice submissions. The key innovation is recognizing that side control doesn't have to be a static crushing position - it can be a dynamic platform for creative attacks that opponents don't see coming. When they're defending the traditional Americana and mount threats, you hit them with inverted attacks and back takes that bypass their prepared defenses. The lockdown principles apply even from top side control - I teach creating dilemmas where every defensive choice they make opens up a different attack path. If they turn in to recover guard, you're already setting up the darce or anaconda; if they try to push you away, you're transitioning to mount or taking their arm for the kimura. The beauty of the 10th Planet approach to side control is that we're not just holding position for points - we're using it as a launching pad for the most devastating submissions in the game, and we're getting there through paths that traditional training doesn't prepare people to defend.
 

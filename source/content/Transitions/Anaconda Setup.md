@@ -153,14 +153,10 @@ description: "Master Anaconda Setup from turtle with arm threading, grip mechani
 
 
 
-> Anaconda Setup transitions from [[Turtle]] to [[Anaconda Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Anaconda Setup?
 
 The Anaconda Choke setup is a fundamental front headlock attack that capitalizes on an opponent's defensive turtle position. This technique involves securing a specific arm-in configuration where you thread your arm under the opponent's neck and trap their near-side arm, creating the distinctive anaconda grip position. The setup is particularly effective in no-gi grappling but translates well to gi competition with proper adaptations.
 
@@ -203,7 +199,7 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock control**: From a position perpendicular to your opponent's turtle, secure your near-side arm around their head with your palm on the back of their skull. Your chest should be heavy on their upper back/neck area. Your opposite hand should be controlling their near wrist or posted on the mat for base. Keep your hips low and weight driving downward. (Timing: Initial control phase)
 2. **Break opponent's posting arm**: Use your free hand to pull the opponent's near-side arm away from their base, typically by gripping their wrist or tricep and pulling it across their body. Simultaneously drive your shoulder pressure into their head to force their weight onto their far arm. This creates a moment where they cannot post with the near arm. (Timing: As opponent attempts to base out)
 3. **Thread the choking arm**: Release your headlock grip and immediately shoot your arm under the opponent's neck, driving deep until your hand reaches past their far shoulder. Your palm should be facing down/away from you. Think of threading a needle - your arm goes under their neck, around their trapped arm (which is pinned against their own neck), reaching for their opposite shoulder blade. (Timing: Immediately after breaking their base)
@@ -303,7 +299,7 @@ Develop your preferred grips (gable vs S-grip), finishing positions (from setup,
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the key difference between threading your arm for an anaconda choke versus a D'arce choke from the front headlock position?
 **A**: The anaconda choke threads from the near side under the opponent's neck, wrapping around to trap their near arm against their own neck. The D'arce choke threads from the far side, going over the opponent's trapped arm before diving under their neck. The arm threading direction is essentially opposite between the two techniques, though both end in similar grip configurations.
 

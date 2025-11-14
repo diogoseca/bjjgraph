@@ -147,14 +147,12 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 
 
 
-> Kimura from Mount is a shoulder lock targeting the Shoulder joint (glenohumeral joint, rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kimura from Mount targets the Shoulder joint (glenohumeral joint, rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura from Mount?
 
 The Kimura from Mount represents one of the highest-percentage shoulder lock attacks in Brazilian Jiu-Jitsu, combining the dominant control of mount with the mechanical advantage of the double-wrist grip. This submission targets the shoulder joint through a figure-four grip configuration that isolates the opponent's arm while leveraging superior positional control. From mount, the attacking grappler can transition seamlessly between maintaining positional dominance and applying submission pressure, creating a strategic dilemma where defensive movements often expose additional attacks. The technique's effectiveness stems from the ability to use bodyweight, hip pressure, and precise angle creation to generate overwhelming torque on the shoulder capsule. Unlike Kimuras from other positions, the mount variation offers exceptional control over the opponent's ability to roll or escape, making it particularly reliable in both training and competition scenarios. The submission can be finished while maintaining mount or used as a transition mechanism to take the back or establish other dominant positions.
 
@@ -240,7 +238,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Mount Control and Isolate the Arm**: From high mount, use your chest pressure and hip control to pin opponent flat. Bait or force their arm across their body by threatening attacks to the opposite side, or wait for them to frame against your chest. When the arm extends, immediately trap their wrist with your same-side hand (if attacking right arm, use your right hand). Pin their wrist to the mat or their chest to prevent retraction. (Timing: 2-3 seconds to establish position) [Pressure: Firm]
 2. **Feed the Wrist and Secure Figure-Four Grip**: While maintaining wrist control, thread your opposite hand (left hand for right arm attack) underneath their elbow and grip your own wrist, creating the figure-four configuration. Your grip should be as deep as possible on your wrist - the further from their arm you grip, the more leverage you create. Keep their elbow bent at approximately 90 degrees and tight to their torso during this transition. (Timing: 1-2 seconds for grip transition) [Pressure: Moderate]
 3. **Create Angle and Establish Base**: Shift your hips and upper body toward the trapped arm side, creating a perpendicular angle to their body. Your chest should now be oriented toward their head rather than directly down on their torso. Maintain one knee tight against their ribs on the trapped arm side while extending the other leg for base. This angle is critical - it aligns your body mechanics for optimal torque application. (Timing: 1-2 seconds for positional adjustment) [Pressure: Firm]
@@ -308,7 +306,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must the Kimura from mount be applied with slow, progressive pressure in training rather than explosive force? **[SAFETY-CRITICAL]**
 **A**: The shoulder joint contains multiple vulnerable structures including the rotator cuff tendons, labrum, and joint capsule that can tear or rupture without adequate warning if explosive force is applied. Slow, progressive application over 3-5 seconds allows the training partner to recognize the danger, assess their defense options, and tap safely before structural damage occurs. The shoulder joint's complex anatomy means injury can happen rapidly and without pain signals until damage is already done. Competition-speed application should only occur in competition where both athletes accept this risk.
 

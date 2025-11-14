@@ -147,14 +147,10 @@ description: "Master Turtle to Back Take in BJJ. Complete guide covering hooks i
 
 
 
-> Turtle to Back Take transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Turtle to Back Take?
 
 The Turtle to Back Take represents one of the most fundamental and high-percentage transitions in Brazilian Jiu-Jitsu. When an opponent assumes the turtle position, they create a defensive shell that protects against many attacks but simultaneously exposes their back. This transition capitalizes on that exposure by systematically breaking down the turtle structure and establishing dominant back control. The technique involves controlling the opponent's hips, preventing their escape to guard, inserting hooks methodically, and securing the seatbelt grip configuration. Mastery of this transition is essential for any grappler, as the turtle position appears frequently during scrambles, failed takedown attempts, guard passing sequences, and submission escapes. The back take from turtle offers multiple entry points and can be achieved through various methods including the chair sit, crab ride, crucifix threat, and direct hook insertion. Understanding the timing, weight distribution, and grip fighting elements of this transition dramatically increases finishing rates and overall positional dominance.
 
@@ -193,7 +189,7 @@ The Turtle to Back Take represents one of the most fundamental and high-percenta
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish chest pressure**: Position your chest directly on opponent's upper back, driving weight downward to flatten their posture. Keep your hips heavy and base wide to prevent them from standing or turning into you. Your weight should make it difficult for them to maintain the turtle structure. (Timing: Initial control phase)
 2. **Secure seatbelt grip**: Thread your choking-side arm under their near armpit and across their chest, while your other arm goes over their far shoulder. Lock your hands together in a seatbelt configuration with your choking hand gripping your own wrist or bicep. This grip prevents their rotation and creates offensive threats. (Timing: As they react to pressure)
 3. **Control the near hip**: Use your leg closest to their hips to hook over their near hip, blocking their ability to sit back to guard. Your knee should be tight to their body, and your foot should hook inside their thigh. This is critical for preventing their primary escape route. (Timing: Before inserting first hook)
@@ -285,7 +281,7 @@ Free rolling with emphasis on creating and capitalizing on turtle position oppor
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must the bottom hook be inserted before the top hook when taking the back from turtle?
 **A**: The bottom hook serves as your anchor point and base. It prevents opponent from rolling you over and provides the stability needed to safely work for the top hook. Inserting the top hook first compromises your base and makes you vulnerable to being swept or reversed. The bottom hook also blocks opponent's ability to sit back to guard, which is their most common escape from this position.
 

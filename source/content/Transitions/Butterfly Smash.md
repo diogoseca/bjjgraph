@@ -153,14 +153,10 @@ description: "Master the Butterfly Smash pass in BJJ. Break down butterfly hooks
 
 
 
-> Butterfly Smash transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Butterfly Smash?
 
 The Butterfly Smash is a fundamental pressure passing technique designed to neutralize and collapse the butterfly guard structure. This pass exploits the inherent weakness of butterfly hooks when met with forward pressure and proper weight distribution. By driving your weight through specific points of control while systematically removing the bottom player's frames and hooks, you create a pathway to dominant top positions. The technique emphasizes pressure over speed, making it highly effective against technically proficient guard players who rely on maintaining distance and active hooks. Understanding the mechanics of hip pressure, shoulder positioning, and incremental advances makes this pass a cornerstone of any pressure-based passing system.
 
@@ -199,7 +195,7 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish upper body control**: Secure grips on opponent's collar or control both sleeves. Drive your forehead into opponent's chest or shoulder to begin breaking their upright posture. Keep your elbows tight to your body to prevent arm drags. (Timing: Initial engagement phase)
 2. **Choose side and begin pressure**: Select the side where opponent's butterfly hook feels weaker or where you have better grip control. Step your opposite leg back slightly to create angle while driving your chest and shoulder forward into opponent's upper body, beginning to collapse their structure. (Timing: As soon as grips are secured)
 3. **Drive knee to mat**: On your chosen side, drive your knee to the mat beside opponent's hip, pinning their bottom leg and removing space for their hook to function. Your knee should be tight to their hip, not floating or allowing gaps. (Timing: Immediately after establishing forward pressure)
@@ -286,7 +282,7 @@ Incorporate gi and no-gi specific grips. Practice against high-level butterfly p
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is forward pressure more effective than lateral movement when passing butterfly guard?
 **A**: Forward pressure directly attacks the structural integrity of butterfly hooks by removing the space they need to function. Butterfly hooks rely on creating elevation and distance - forward pressure collapses this structure by driving the opponent flat and removing the leverage their hooks require. Lateral movement without pressure allows the opponent to maintain their hook connection and rotate with you.
 

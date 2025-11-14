@@ -147,14 +147,10 @@ description: "Master Re-Guard recovery in BJJ. Complete step-by-step execution f
 
 
 
-> Re-Guard transitions from [[Defensive Position]] to [[Open Guard]]. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Re-Guard?
 
 Re-guarding is the fundamental defensive skill of recovering guard from inferior positions where an opponent has passed or is passing your guard. This technique represents the critical bridge between defensive survival and offensive opportunity, allowing practitioners to escape dangerous positions and re-establish their guard structure. The re-guard encompasses a systematic approach to guard recovery that includes creating frames, generating space through hip movement, and re-inserting guard retention mechanics. Mastery of re-guarding is essential for any practitioner, as it directly impacts survival rate in competitive and training scenarios. The technique relies heavily on timing, spatial awareness, and the ability to exploit momentary lapses in opponent pressure. By understanding the principles of re-guarding, practitioners can transform seemingly hopeless positions into opportunities for sweeps, submissions, or at minimum, positional reset.
 
@@ -193,7 +189,7 @@ Re-guarding is the fundamental defensive skill of recovering guard from inferior
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish defensive frames**: Create strong frames using forearms against opponent's shoulders, hips, or biceps to prevent further advancement. Keep elbows tight to body, frames angled at 45 degrees to maximize structural strength. This initial framing creates the foundation for all subsequent movement. (Timing: Immediately upon recognizing guard pass progression)
 2. **Generate space with hip escape**: Bridge slightly to create upward pressure, then explosively shrimp your hips away from opponent while maintaining frames. Move hips at a 45-degree angle backward and away, creating 6-12 inches of separation. Keep shoulders on mat to maintain base and prevent being flattened. (Timing: During opponent's weight shift or adjustment)
 3. **Insert knee shield or hook**: As space opens, quickly insert your near-side knee between your body and opponent's chest, establishing a knee shield. Alternatively, insert butterfly hook or de la riva hook depending on available space and opponent's position. The leg insertion is the critical moment of re-guard initiation. (Timing: Immediately following hip escape while space exists)
@@ -285,7 +281,7 @@ Implement re-guard techniques during regular sparring. Identify personal prefere
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the correct sequence for re-guarding from bottom position?
 **A**: The correct sequence is: 1) Establish defensive frames against opponent's pressure points, 2) Create space through bridge and hip escape (shrimp), 3) Insert knee shield or leg hooks, 4) Secure controlling grips, 5) Recover full guard structure, and 6) Immediately transition to offensive actions. This sequence ensures each step builds upon the previous, creating cumulative advantage.
 

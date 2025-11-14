@@ -147,14 +147,12 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 
 
 
-> North-South Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: North-South Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is North-South Choke?
 
 The North-South Choke is a powerful compression-based blood choke applied from the North-South position, targeting the opponent's carotid arteries through combined pressure from the attacker's bicep, shoulder, and body weight. Unlike traditional arm chokes that rely on limb positioning, this submission leverages the unique geometry of North-South control to create an inescapable vise around the neck. The technique's effectiveness stems from its ability to disguise the choking mechanism—the opponent often doesn't realize they're being choked until the submission is nearly complete, as the pressure builds gradually through positional consolidation rather than obvious arm placement. This makes it particularly effective in both gi and no-gi contexts, though gi variations offer additional gripping options for enhanced control. The North-South Choke represents a fundamental example of using superior position and body mechanics to create submissions without relying on complex limb entanglements, making it accessible to practitioners at all levels while remaining dangerously effective at the highest levels of competition.
 
@@ -238,7 +236,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure North-South position and isolate far arm**: From North-South control, use your weight to pin opponent's chest while controlling their far arm with your hand or trapping it under your leg. This prevents them from creating defensive frames. Your chest should be heavy on their sternum, making it difficult for them to breathe or move. Ensure your hips are low and your weight is distributed forward, not sitting back on your heels. (Timing: 2-3 seconds to establish control) [Pressure: Firm]
 2. **Thread your near arm under opponent's head**: Slide your arm (the one closest to their head) deep under their neck, aiming to get your bicep positioned against one side of their neck. Your hand should emerge on the far side of their head. Keep your elbow tight and your arm bent at approximately 90 degrees. The goal is to position your bicep as a compression surface against the carotid artery on one side of their neck. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Secure grip on your own gi or create figure-four configuration**: In gi: grab your own lapel, belt, or pants on the same side your arm is threaded (creating a loop). In no-gi: grab your own tricep, shoulder, or create a gable grip with your hands meeting behind their head. This grip creates the structural frame that will allow you to apply leverage. Ensure the grip is tight and secure before proceeding—any looseness will telegraph the submission and allow escape attempts. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -304,7 +302,7 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the two primary compression surfaces in the North-South Choke, and why is their positioning critical?
 **A**: The two primary compression surfaces are your bicep (threaded under opponent's neck) and your shoulder (driven into the opposite side of their neck). Their positioning is critical because they must compress both carotid arteries simultaneously to create a blood choke. If either surface is poorly positioned—such as bicep too high near the jaw or shoulder too far from the neck—the choke becomes a pain-based neck crank rather than an effective blood choke. Proper positioning allows the submission to work with less force and greater safety.
 

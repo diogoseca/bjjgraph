@@ -153,14 +153,10 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 
 
 
-> 50-50 Entry from Standing transitions from [[Standing Position]] to [[50-50 Guard]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is 50-50 Entry from Standing?
 
 The 50-50 Entry from Standing is a modern leg entanglement technique that allows you to establish the 50-50 Guard position directly from a standing engagement. This entry is particularly effective in no-gi competition where traditional guard pulls may be penalized or less effective. The technique involves controlling your opponent's leg while simultaneously sitting to the mat, creating a symmetrical leg entanglement that offers both offensive and defensive advantages.
 
@@ -201,7 +197,7 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: Begin by securing a controlling grip on your opponent's upper body, typically a collar tie or sleeve grip. This grip serves two purposes: it prevents your opponent from creating distance during your entry, and it helps control your descent to the mat. Keep your posture upright and maintain a comfortable fighting distance. (Timing: Pre-entry positioning phase)
 2. **Target the lead leg**: Identify your opponent's lead leg (the leg that is slightly forward or bearing more weight). Lower your level slightly by bending at the knees while maintaining your upper body grip. Begin to reach for their lead leg with your outside hand, aiming to secure a grip on their ankle or lower shin. This hand will guide their leg into the proper position as you enter. (Timing: Initial commitment phase, 0.5-1 seconds)
 3. **Drop to seated position**: Once you have secured the ankle or shin grip, quickly drop your hips to the mat in a controlled sitting motion. Your inside leg (the leg closest to your opponent) should extend and hook behind their knee, while your outside leg begins to thread inside their leg. Keep your upper body grip active to prevent them from backing away or creating distance. The descent should be smooth and controlled, not a sudden drop. (Timing: Entry phase, 1-1.5 seconds)
@@ -301,7 +297,7 @@ Actively look for opportunities to enter 50-50 from standing during regular spar
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of the upper body grip when entering 50-50 from standing?
 **A**: The upper body grip serves two critical purposes: first, it prevents the opponent from creating distance and sprawling away during your entry; second, it helps control your descent to the mat and allows you to pull yourself into the proper position. Without this grip, opponents can easily avoid the entry by stepping back or sprawling.
 

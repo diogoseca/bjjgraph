@@ -147,14 +147,12 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
 
 
 
-> Omoplata is a shoulder lock targeting the Shoulder joint (rotator cuff, capsule, AC joint). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Omoplata targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Omoplata?
 
 The Omoplata is a sophisticated shoulder lock that attacks the opponent's shoulder joint through controlled rotation and leverage. Originating from Brazilian Jiu-Jitsu, this technique involves trapping the opponent's arm with your legs while controlling their posture, then rotating their shoulder beyond its natural range of motion. The Omoplata is unique among submissions because it functions as both a finishing technique and a powerful positional control system, offering numerous sweep and transition opportunities even when the submission itself is defended. The technique is particularly effective from guard positions, where the bottom player can use their legs to control distance and angle while isolating the opponent's arm. Modern competition has elevated the Omoplata from a low-percentage novelty to a high-level control position that creates multiple offensive dilemmas for the opponent.
 
@@ -239,7 +237,7 @@ The Omoplata is a sophisticated shoulder lock that attacks the opponent's should
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Initial arm isolation**: From guard position, secure a grip on the opponent's wrist or sleeve on the target side. Simultaneously grip their opposite collar or sleeve to control posture. Break their posture by pulling them forward while opening your guard slightly to create the angle needed for leg insertion. The key is preventing them from posting their trapped arm back or pulling it free. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Leg insertion over shoulder**: Pivot your hips at a 90-degree angle to the opponent while maintaining wrist control. Swing your leg (same side as trapped arm) up and over their shoulder, positioning your calf or shin across their upper back. Your other leg should hook under their armpit or wrap around their torso for additional control. Ensure your hips are elevated and mobile, not flat on the mat. (Timing: 3-4 seconds) [Pressure: Moderate]
 3. **Hip rotation and shoulder trap**: Rotate your hips further while pulling the opponent's trapped arm tight to your body. Your top leg should press down on their shoulder blade while your bottom leg maintains torso control. The opponent's arm should now be straightened and trapped between your legs with their shoulder beginning to rotate internally. Adjust your angle so your hips are perpendicular to their body. (Timing: 3-4 seconds) [Pressure: Moderate]
@@ -311,7 +309,7 @@ The Omoplata is a sophisticated shoulder lock that attacks the opponent's should
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary reason you must release the omoplata immediately if your opponent attempts a forward roll escape? **[SAFETY-CRITICAL]**
 **A**: The forward roll escape creates a dangerous situation where the opponent's body weight combines with your applied pressure, potentially causing catastrophic shoulder injury including dislocation or severe labrum tear. The momentum and weight of their rolling body multiplies the force on their shoulder joint beyond safe limits. You must release all pressure instantly to prevent serious injury. This is one of the few emergency release situations in BJJ where position preservation is completely secondary to partner safety.
 

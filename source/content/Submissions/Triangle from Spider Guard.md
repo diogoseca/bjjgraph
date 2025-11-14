@@ -153,14 +153,12 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 
 
 
-> Triangle from Spider Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle from Spider Guard targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle from Spider Guard?
 
 The Triangle from Spider Guard is a high-percentage finishing sequence that capitalizes on the distance control and posture breaking inherent to spider guard. By using the feet-on-biceps position to control opponent posture and arm placement, you create ideal conditions for triangle entry while preventing your opponent from establishing defensive grips or posture. This submission represents the natural evolution of spider guard control into a finishing position, where the same mechanical advantages that make spider guard effective for sweeps translate directly into submission opportunities. The key is understanding that spider guard already establishes many of the prerequisites for triangle success: broken posture, controlled arm positioning, and angles that favor the guard player. What makes this variation particularly effective is that opponents defending against spider guard sweeps often create the exact defensive reactions—posting hands, driving forward into guard—that expose them to the triangle. The transition from spider guard to triangle is fluid and natural, often catching opponents by surprise as they focus on passing rather than submission defense.
 
@@ -244,7 +242,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Break posture and isolate arm**: From spider guard with feet on biceps and sleeve grips, use one foot to push opponent's arm across their centerline while pulling the sleeve grip. Simultaneously kick the other foot into their bicep to break their posture forward. The goal is to get one arm trapped across their neck while maintaining control of the other arm with your foot and grip. (Timing: 1-2 seconds to establish control) [Pressure: Moderate]
 2. **Pivot hips and throw leg over shoulder**: Release the foot from the bicep on the side where you want to throw your leg. Pivot your hips 30-45 degrees away from the trapped arm side, creating an angle. Throw your leg high over the opponent's shoulder and back, with your shin landing across the back of their neck. Keep your other foot controlling the free arm or posted on their hip for base. (Timing: Explosive movement, less than 1 second) [Pressure: Light]
 3. **Lock the triangle**: Bring your other leg up and lock it over the ankle of the leg across their back. Create a figure-four lock by flexing your foot and squeezing your knees together. At this point, one of opponent's arms should be trapped inside the triangle across their own neck, and their head should be controlled. Ensure the lock is behind their head, not on top of it. (Timing: 1-2 seconds to secure the lock) [Pressure: Moderate]
@@ -313,7 +311,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum amount of time you should take to apply choking pressure when training the triangle, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: A minimum of 3-5 seconds of progressive pressure application is critical for safety. This allows your training partner time to recognize the submission, make a decision to tap or defend, and signal the tap before losing consciousness. Applying chokes too quickly in training can cause unconsciousness before the partner has time to tap, creating serious injury risk and an unsafe training environment. Competition speed is never appropriate in training for blood chokes.
 

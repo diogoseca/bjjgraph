@@ -147,14 +147,12 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
 
 
 
-> Cross Collar Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to temporary loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Cross Collar Choke targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Cross Collar Choke?
 
 The Cross Collar Choke represents one of the most fundamental and effective gi submissions in Brazilian Jiu-Jitsu, targeting the carotid arteries through precise collar grip manipulation. This technique leverages the opponent's own gi against them, creating a constriction that cuts blood flow to the brain when executed properly. The cross grip configuration—where your right hand grips their left collar and vice versa—generates tremendous mechanical advantage through the twisting action of your forearms. This submission is particularly valuable because it can be applied from multiple positions, most commonly from closed guard bottom, mount top, and side control. The technique's effectiveness stems from its ability to disguise the setup within normal grip fighting exchanges, making it difficult for opponents to recognize the threat until the choke is already deep. When executed with proper depth and angle, the Cross Collar Choke creates an inescapable situation that forces immediate submission, often within 3-5 seconds of full application. Its versatility across skill levels and positions makes it an essential component of any gi practitioner's submission arsenal.
 
@@ -233,7 +231,7 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish First Deep Grip**: Secure your first grip deep in the opponent's collar, driving your hand across their neck with your palm facing you and your knuckles against their carotid artery. Aim for second knuckle depth at minimum, ideally getting your entire hand past the collar seam. The thumb should be inside the collar while four fingers grip outside. This first grip is typically established on the opposite side collar (right hand to their left collar for orthodox grip). (Timing: Take 2-3 seconds to work the grip deep without rushing) [Pressure: Light]
 2. **Break Posture and Control Head**: Using your first collar grip, pull the opponent's head down toward your chest while simultaneously using your legs (if in guard) or body position (if in mount/top position) to prevent them from creating distance. Breaking their posture is critical because an upright posture gives them defensive leverage and the ability to hand fight effectively. Pull them into a compromised position where their head is lower than their hips. (Timing: Continuous pressure over 3-5 seconds) [Pressure: Moderate]
 3. **Secure Second Cross Collar Grip**: While maintaining the first grip and broken posture, snake your second hand underneath their defending arm to grab the opposite collar in a cross configuration. Your second hand should mirror the first—palm facing you, knuckles against their neck, achieving deep penetration. This is often the most technical step because you must thread past their defensive frames without losing the first grip. Use subtle movements and patience to work this grip into position. (Timing: Take 4-6 seconds to secure properly without forcing) [Pressure: Light]
@@ -301,7 +299,7 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the correct hand position depth needed for an effective Cross Collar Choke?
 **A**: Your hands should achieve second knuckle depth at minimum, ideally getting the entire hand past the collar seam. The thumb should be inside the collar while four fingers grip outside. Shallow grips are the most common reason for choke failure, as they provide insufficient leverage and are easily stripped by a posturing opponent. Deep grips ensure you have mechanical control even when the opponent attempts to create distance or defend.
 

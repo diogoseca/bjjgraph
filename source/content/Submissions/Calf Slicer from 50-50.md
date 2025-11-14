@@ -147,14 +147,12 @@ description: "Master the Calf Slicer from 50-50 Guard in BJJ. Complete safety gu
 
 
 
-> Calf Slicer from 50-50 is a leg compression lock targeting the Calf muscle, Achilles tendon, knee joint. ⚠️ **SAFETY**: This technique can cause Calf muscle tear or rupture (gastrocnemius/soleus). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Calf Slicer from 50-50 targets the Calf muscle, Achilles tendon, knee joint. Risk: Calf muscle tear or rupture (gastrocnemius/soleus). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Calf Slicer from 50-50?
 
 The Calf Slicer from 50-50 Guard represents one of the most devastating compression submissions available from leg entanglement positions. This technique applies crushing pressure to the calf muscle by trapping the opponent's leg between your shin and thigh, creating a biomechanical vice that attacks multiple structures simultaneously. From the 50-50 position, where both practitioners have their legs entangled symmetrically, the calf slicer emerges when one player establishes superior control of the opponent's trapped leg and applies their shin blade across the calf muscle while pulling the foot toward their own body. The submission creates intense pressure on the gastrocnemius and soleus muscles, places dangerous strain on the Achilles tendon, and can hyperextend the knee joint if applied with excessive force. The 50-50 guard provides an ideal platform for this submission because the position naturally creates the leg entanglement required, both legs are already positioned close to the target area, and the symmetrical nature makes it difficult for opponents to recognize the submission setup until it's fully locked. This technique requires exceptional technical precision, careful control during application, and comprehensive understanding of the anatomical vulnerabilities being exploited. Due to its compression nature and potential for rapid onset injury, the calf slicer from 50-50 demands the highest level of training discipline and safety awareness.
 
@@ -243,7 +241,7 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure 50-50 position and isolate target leg**: From established 50-50 guard, ensure your legs are fully entangled with your opponent's legs. Your bottom leg should already be underneath their trapped leg. Focus on controlling their ankle or foot with both hands, pulling it slightly toward your centerline. The opponent's heel should be positioned near your hip or lower ribcage. Verify that your shin is positioned across the meaty part of their calf muscle, not on their Achilles tendon or knee joint. (Timing: 2-3 seconds for position verification) [Pressure: Light]
 2. **Adjust shin blade placement for optimal compression**: Make micro-adjustments to place the blade of your shin (the sharp anterior ridge of your tibia) directly across the thickest part of the opponent's calf muscle, typically the upper third of the gastrocnemius. This precise placement is critical - too high attacks the knee joint dangerously, too low reduces compression effectiveness. Ensure your shin crosses perpendicular to the length of their leg for maximum surface area contact and even pressure distribution. (Timing: 1-2 seconds for positioning) [Pressure: Light]
 3. **Secure the ankle and foot with compound grip**: Establish a strong grip on the opponent's foot using both hands. One common grip is to cup the heel with one hand while the other controls the toes or ball of the foot. Alternatively, use a figure-four grip around the ankle. Pull the foot toward your shoulder on the same side as your trapping leg, beginning to create the angle necessary for compression. The foot should be moving toward you while your shin remains pressed against their calf. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -314,7 +312,7 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What anatomical structures are at risk when applying the calf slicer from 50-50, and which has the highest severity injury potential? **[SAFETY-CRITICAL]**
 **A**: The calf slicer from 50-50 attacks three primary structures: the calf muscle (gastrocnemius and soleus), the Achilles tendon, and the knee joint. The Achilles tendon has the highest severity injury potential, as rupture requires surgical repair and 6-12 months recovery. Calf muscle tears take 6-12 weeks to heal, while knee hyperextension ranges from 4 weeks to 6+ months depending on severity. Proper shin placement across the mid-calf muscle minimizes knee and Achilles risk while maximizing submission effectiveness.
 

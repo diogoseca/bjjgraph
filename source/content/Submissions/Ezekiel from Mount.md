@@ -153,14 +153,12 @@ description: "Master the Ezekiel Choke from Mount with comprehensive safety prot
 
 
 
-> Ezekiel from Mount is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Ezekiel from Mount targets the Carotid arteries and windpipe. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ezekiel from Mount?
 
 The Ezekiel Choke from Mount is one of the most fundamental and high-percentage submissions in Brazilian Jiu-Jitsu, particularly effective in gi training. This technique combines positional dominance with a devastating choke that can be applied even when the opponent defends well against other mount attacks. The Ezekiel works by using your own gi sleeve as a fulcrum to compress the carotid arteries and windpipe simultaneously, creating both a blood and air choke that produces rapid submission.
 
@@ -251,7 +249,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Dominant Mount**: Begin in a solid mount position with your weight distributed forward toward the opponent's head. Your knees should be tight to their sides, and your hips should be low and heavy on their chest. Keep your base wide enough for stability but narrow enough to maintain control. Position your head over their head to prevent bridging escapes. (Timing: Establish within first 2-3 seconds of achieving mount) [Pressure: Moderate]
 2. **Grip Your Own Sleeve**: Reach across your body with your right hand (or left, depending on preference) and grip deep into your opposite sleeve, ideally 4-6 inches above your wrist. The grip should be a thumb-in grip that creates a solid anchor point. This sleeve will become the fulcrum for your choke. Ensure the grip is secure before proceeding, as losing this grip during execution will compromise the entire technique. (Timing: 1-2 seconds for secure grip establishment) [Pressure: Firm]
 3. **Insert Choking Arm Across Throat**: Slide your sleeve-gripped hand (still holding your opposite sleeve) underneath the opponent's head, threading it across their throat from one side to the other. The blade of your forearm should make contact with one side of their neck at approximately a 45-degree angle. Your hand will emerge on the opposite side of their neck. Keep your elbow tight to your body to maintain structure and prevent the opponent from controlling this arm. (Timing: 2-3 seconds, moving smoothly to avoid alerting opponent) [Pressure: Light]
@@ -322,7 +320,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary safety consideration when applying the Ezekiel choke in training, and what is the minimum time frame for application? **[SAFETY-CRITICAL]**
 **A**: The primary safety consideration is applying the choke with slow, progressive pressure rather than explosive force to prevent neck injury and give the partner adequate time to tap. The minimum application time in training should be 3-5 seconds from initial contact to full pressure, applied at approximately 50% of competition speed. This allows the partner to recognize the danger, make a technical decision, and tap safely before injury occurs.
 

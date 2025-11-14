@@ -147,14 +147,10 @@ description: "Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Ga
 
 
 
-> Foot Sweep Series transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Foot Sweep Series?
 
 The Foot Sweep Series represents a collection of highly technical standing techniques derived from Judo's ashi-waza (foot techniques) that have been adapted and refined for BJJ competition and training. These sweeps exploit opponent's weight distribution, timing, and movement patterns to off-balance and take down opponents with minimal energy expenditure. Unlike explosive takedowns that rely on strength and power, foot sweeps emphasize precise timing, proper positioning, and reading opponent's movement to create opportunities for clean, controlled takedowns that often land directly into dominant positions like side control or mount.
 
@@ -198,7 +194,7 @@ Mastering foot sweeps requires developing exceptional timing, balance, and sensi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish dominant grips**: Secure a strong cross-collar grip with your right hand, fingers inside the collar at the back of opponent's neck. Your left hand controls opponent's right sleeve at the elbow or wrist level. Pull down slightly with collar grip and out with sleeve grip to break opponent's posture forward and create initial off-balance. (Timing: During initial grip exchange or after grip fighting sequence)
 2. **Create movement and read weight distribution**: Use your grips to create circular or forward-backward movement patterns. Pull opponent forward and slightly to their right side with your collar grip while simultaneously pulling their sleeve across their body. This movement causes opponent to step forward with their right leg to regain balance. Identify the moment when their weight commits to the advancing leg. (Timing: 1-2 seconds of grip manipulation)
 3. **Execute primary sweep (Deashi Harai example)**: As opponent's right foot makes contact with the mat during their forward step, immediately sweep your left foot across the mat surface in a sweeping arc that contacts the outside of their right ankle. Your sweeping foot should make contact just as their weight is transferring onto that leg but before it's fully planted. Simultaneously pull strongly with both grips—up and to your right with the collar, across and down with the sleeve—to lift and rotate opponent's upper body. (Timing: The moment opponent's foot touches down)
@@ -301,7 +297,7 @@ Practice sweeps under competition rule sets (IBJJF, ADCC, etc.) with time limits
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical element of timing for foot sweeps—when should you make contact with opponent's leg?
 **A**: Contact should occur the instant opponent's foot touches the mat during their step, before their weight fully settles onto that leg. This timing catches them in the vulnerable transition moment between steps when their base is compromised but their weight is already committing to the targeted leg, making it impossible for them to quickly adjust or withdraw the leg.
 

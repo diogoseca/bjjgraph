@@ -8,7 +8,7 @@ description: "Master Kimura Control in BJJ. Strategic guide covering grip mechan
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Kimura Control in BJJ. Strategic guide covering grip mechan
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura Control?
 
 Kimura Control is a fundamental control position in Brazilian Jiu-Jitsu built around the Kimura grip—a figure-four configuration where one hand controls the opponent's wrist while the other arm threads under their armpit to clasp your own wrist. This grip structure creates a powerful mechanical advantage that simultaneously restricts the opponent's mobility, threatens shoulder lock submissions, and generates opportunities for sweeps, back takes, and positional advancement.
 
@@ -50,7 +48,7 @@ What distinguishes Kimura Control from other grip-based positions is its dual-pu
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ What distinguishes Kimura Control from other grip-based positions is its dual-pu
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 
-**What Makes This Unique:** Figure-four grip creates asymmetric control
+**Key Difference:** Figure-four grip creates asymmetric control
 
 
 
@@ -76,10 +74,6 @@ What distinguishes Kimura Control from other grip-based positions is its dual-pu
 ## Playing as Bottom
 
 [[Kimura Control/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -167,10 +161,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Kimura Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -249,7 +239,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

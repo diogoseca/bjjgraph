@@ -153,14 +153,10 @@ description: "Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Sta
 
 
 
-> Sasae Tsurikomi Ashi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Sasae Tsurikomi Ashi?
 
 Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep technique that has been successfully adapted into modern Brazilian Jiu-Jitsu for standing exchanges. This technique exploits forward momentum and circular movement, using precise timing to block the opponent's ankle while simultaneously lifting and pulling their upper body. The beauty of Sasae Tsurikomi Ashi lies in its minimal force requirement - when executed with proper timing, the opponent's own movement and weight distribution do most of the work. Unlike power-based takedowns, this technique relies on kuzushi (off-balancing) and precise placement of the blocking foot. The throw is particularly effective against opponents who step forward aggressively or maintain an upright, forward-leaning posture. In BJJ competition, this technique offers a clean takedown that can lead directly to dominant positions, making it valuable for competitors who prefer technical entries over wrestling-heavy approaches.
 
@@ -200,7 +196,7 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips**: Secure a high collar grip with your right hand, controlling the opponent's left lapel near the collarbone. Your left hand grips their right sleeve at the elbow or just above. These grips provide the leverage needed for both off-balancing and the lifting action that follows. (Timing: Initial contact phase)
 2. **Create circular motion**: Pull with your left hand (sleeve grip) while pushing slightly with your right hand (collar grip), initiating a circular stepping pattern. Move to your right, encouraging the opponent to follow and step forward with their right foot. This circular movement is critical for generating the momentum that makes the sweep effective. (Timing: Setup phase, 1-2 seconds)
 3. **Break balance forward**: As the opponent steps forward with their right foot, pull sharply upward and forward with both hands, breaking their balance toward their front right corner. Their weight should shift onto the balls of their feet, with their center of gravity moving beyond their base of support. This kuzushi moment is the key to the entire technique. (Timing: Just before foot placement)
@@ -292,7 +288,7 @@ Use Sasae as part of complete takedown system during regular sparring. Combine w
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical timing element for Sasae Tsurikomi Ashi to be effective?
 **A**: The blocking foot must be placed at the exact moment when the opponent is committed to their forward step and their weight is shifting beyond their base of support. Placing it too early allows them to adjust, while placing it too late means they've already established their new base.
 

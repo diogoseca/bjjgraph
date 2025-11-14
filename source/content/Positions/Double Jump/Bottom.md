@@ -8,7 +8,7 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Double Jump from the Bottom?
 
 Double Jump Bottom is an advanced dynamic entry position used to recover guard and transition into deep half guard when under pressure from top control. This explosive technique involves shooting both legs underneath the opponent's hips while on your side, creating a brief airborne moment before establishing deep half hooks. The position is particularly effective against heavy pressure passing and allows the bottom player to quickly transition from a defensive scenario to an offensive deep half guard system.
 
@@ -489,17 +470,17 @@ Partner starts with zero resistance, allowing perfect execution of double jump t
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The double jump represents a critical paradigm shift in guard recovery methodology - rather than incrementally creating space through traditional shrimping mechanics, we commit entirely to explosive leg insertion that bypasses the opponent's passing structure in a single motion. The biomechanical efficiency of this technique lies in converting the opponent's forward pressure into the very force that enables your leg insertion. When they drive their weight onto your torso, they create a pivot point around which your hips can rotate explosively. The key technical element often missed by practitioners is the necessity of maintaining perpendicular body alignment throughout the entry - your torso must remain on its side with the shoulder line at ninety degrees to the opponent's centerline. This geometric relationship is what allows both legs to shoot underneath their hips simultaneously rather than sequentially, which would telegraph the movement and allow defensive sprawling. The position also exemplifies the concept of position before submission - while the electric chair and banana split are tempting immediate attacks, the higher percentage pathway involves first consolidating deep half guard control, then using the opponent's defensive reactions to create the submission openings.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, the double jump is one of the highest-percentage guard recovery techniques when you're getting smashed in bottom half or headquarters positions. I use this constantly against guys who are trying to pressure pass me because it completely nullifies their forward pressure strategy - the harder they drive into you, the better the entry works. The timing aspect is crucial though - you can't just randomly throw your legs under whenever you want. You need to wait for that specific moment when their weight commits forward and their hands are occupied trying to control your upper body. That's when you explode with the double jump and they have zero time to react. Once you establish the deep half hooks, you immediately have access to multiple high-level sweeps - old school, waiter, homer simpson - and if they defend those, you're taking the back. The competition proven sequence is double jump to deep half, opponent defends the sweep by stepping over, you roll under and take the back. This works at the highest levels because the defensive responses to deep half sweeps are predictable and you can have your counter programmed before they even make their move. The electric chair is also there as a finishing option when guys get stubborn and refuse to give up the position.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The double jump is pure 10th Planet innovation - we developed this because traditional guard recovery was too slow and predictable against modern pressure passing. When someone's crushing you with that knee slice or headquarters pressure, you don't have time to frame and shrimp incrementally like it's 1995. You need to create chaos and explode into a dominant position immediately, and that's exactly what double jump does. The technique is all about that explosive entry where both legs shoot under at the same time - it's like a double leg takedown but you're doing it upside down and backwards. Once you're in that deep half position, you've got the whole system available: lockdown to electric chair, old school sweep to mount, waiter sweep to side control, or you can transition to dogfight and take the back. The beautiful thing is your opponent can't really train to defend it effectively because the entry is so fast and unexpected. By the time they realize what's happening, you've already got your hooks in and you're attacking. We drill this constantly at 10th Planet gyms because it's a position that gives smaller guys the ability to sweep much bigger opponents using timing and explosion rather than trying to muscle them around. The electric chair finish from here is also one of my favorite submissions because it attacks the hip and knee simultaneously, creating a pain compliance scenario that's really hard to tough out even for the most stubborn competitors.
 

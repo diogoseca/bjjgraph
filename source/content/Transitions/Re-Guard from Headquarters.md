@@ -147,14 +147,10 @@ description: "Master re-guard recovery from Headquarters position. Learn systema
 
 
 
-> Re-Guard from Headquarters transitions from [[Headquarters Position]] to [[Guard Recovery]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Re-Guard from Headquarters?
 
 Re-guarding from Headquarters position is a critical defensive skill that allows you to recover guard structure when your opponent has established a dominant passing position. Headquarters, also known as the floating passing position, occurs when the passer has cleared your legs to one side but hasn't yet established a control position like side control or knee on belly. This transitional moment presents a critical window for guard recovery.
 
@@ -197,7 +193,7 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish defensive frames**: Immediately create frames with your hands on opponent's hips, shoulders, or biceps. The near-side hand typically frames on the hip while the far-side hand pushes on the shoulder or cross-faces. These frames prevent your opponent from settling their weight and consolidating the pass. Keep your elbows tight to your body while maintaining active pressure through your frames to create the maximum distance possible. (Timing: Immediate as Headquarters position is recognized)
 2. **Create angle with hip escape**: Execute a strong hip escape (shrimp) away from your opponent, using your frames to maintain distance. Plant your near-side foot on the mat and drive your hips away at a 45-degree angle. This movement creates the critical space needed for leg recovery while also creating an angle that makes it more difficult for your opponent to pressure directly into you. The quality of this shrimp determines the success of the entire sequence. (Timing: Immediately after establishing frames)
 3. **Recover near-side knee**: As you create space with the hip escape, immediately pull your near-side knee through the gap between you and your opponent. This knee should come to your chest in a defensive posture. Use your frames actively to prevent your opponent from closing the distance while your leg recovers. The near-side knee is recovered first because it's closer and easier to insert into the space you've created. (Timing: During the hip escape movement)
@@ -298,7 +294,7 @@ Develop advanced timing to recover guard even against expert passers. Use feints
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you establish frames before attempting hip escapes during guard recovery from Headquarters?
 **A**: Frames create and maintain the distance necessary for hip escapes to be effective. Without frames, your opponent can follow your hips as you escape, closing the distance immediately and preventing any space creation. Frames act as structural barriers that prevent your opponent from consolidating their position while you create the space needed for leg recovery. The frames don't create the space themselves, but they prevent the opponent from closing the space that your hip escapes create.
 

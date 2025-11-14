@@ -147,14 +147,12 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
 
 
 
-> Armbar from Crucifix is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Armbar from Crucifix targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Armbar from Crucifix?
 
 The Armbar from Crucifix represents one of the most dominant finishing positions in Brazilian Jiu-Jitsu, combining the extreme control of the crucifix position with the high-percentage mechanics of the armbar submission. From the crucifix, the opponent's arms are isolated and controlled, with one arm typically trapped by your legs while the other becomes vulnerable to the armbar attack. This submission exemplifies the principle of position before submission, as the crucifix itself provides such overwhelming control that the opponent has severely limited defensive options. The armbar from this position is particularly effective because the opponent cannot use their trapped arm to defend, cannot effectively bridge or roll, and has minimal ability to grip fight or create defensive frames. This submission is commonly accessed from back control transitions, turtle attacks, or crucifix entries from side control. The technical execution requires careful attention to arm isolation, hip positioning, and maintaining crucifix control throughout the finishing sequence. Understanding the biomechanics of the elbow joint and the proper angle of attack is crucial for safe and effective application. The armbar from crucifix is a staple technique in both gi and no-gi grappling, with applications in competition, MMA, and self-defense contexts.
 
@@ -238,7 +236,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure Crucifix Control**: From back control or turtle position, establish the crucifix by trapping one of the opponent's arms between your legs while controlling their other arm with your hands. Your top leg should be across their face/neck area, and your bottom leg should hook under their armpit to trap their near arm. Ensure your chest is tight to their back. (Timing: Establish control before attempting submission) [Pressure: Firm]
 2. **Isolate the Target Arm**: With both hands, control the opponent's far arm (the one not trapped by your legs). Grip their wrist with one hand and their forearm or triceps area with the other. Pull this arm away from their body and extend it slightly, ensuring they cannot retract it. This isolation is critical - the opponent should not be able to make a fist near their chest or grab their own gi/body. (Timing: 2-3 seconds of controlled extension) [Pressure: Moderate]
 3. **Position Your Hips**: Shift your hips toward the opponent's shoulder on the side of the arm you're attacking. Your hip should be positioned close to their shoulder joint, creating a fulcrum point for the armbar. Maintain pressure with your chest against their back to prevent them from turning into you. Your body should form a 'T' shape with theirs. (Timing: Smooth repositioning over 1-2 seconds) [Pressure: Firm]
@@ -306,7 +304,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary reason the armbar from crucifix has such a high success rate compared to armbars from other positions?
 **A**: The crucifix position provides superior control by trapping one of the opponent's arms completely with your legs, preventing them from using it for defense. This means the opponent cannot establish defensive grips, cannot use both arms to defend the attacking arm, and has severely limited mobility. The combination of leg control, chest pressure, and arm isolation creates a position where the opponent has minimal defensive options, making the armbar extremely difficult to defend.
 

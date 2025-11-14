@@ -147,14 +147,10 @@ description: "Master Single Leg Variations in BJJ. Complete takedown guide with 
 
 
 
-> Single Leg Variations transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Single Leg Variations?
 
 The Single Leg Takedown and its variations represent one of the most versatile and fundamental takedown systems in Brazilian Jiu-Jitsu and wrestling. This technique family involves controlling one of the opponent's legs while using various finishing methods to bring them to the ground. The beauty of the single leg system lies in its adaptability - when one finish is defended, the practitioner can seamlessly flow to another variation, creating a chain of attacks that overwhelms the opponent's defensive structure.
 
@@ -198,7 +194,7 @@ Mastery of single leg variations transforms a grappler's standing game from pred
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Level change and penetration**: Drop your hips explosively while stepping forward with your lead leg. Your head should drive toward the opponent's centerline as you lower your level beneath their hips. Keep your back straight and chest up to maintain structural integrity during the shot. Your hands should be ready to secure the leg while your head makes contact with their torso. (Timing: Execute the level change in one explosive motion to prevent opponent from sprawling)
 2. **Leg capture and secure grip**: As you penetrate, wrap both arms around the back of the opponent's knee or lower thigh. Your inside hand (closer to their centerline) should cup behind their knee while your outside hand reaches across to complete the grip. Pull the leg tight to your chest and shoulder. Your head should be positioned on the inside (between their legs) or outside depending on the entry angle. (Timing: Secure the grip immediately upon contact before opponent can retract their leg)
 3. **Elevate and drive**: Stand up forcefully while lifting the captured leg to break opponent's base. Drive forward into their standing leg while elevating their captured leg to at least hip height. Your head should drive into their chest or ribs to further disrupt their balance. Maintain tight control of the leg against your torso while keeping your hips close to their standing leg. (Timing: Continuous forward pressure - do not pause between capture and elevation)
@@ -301,7 +297,7 @@ Integrate single leg variations into your complete takedown game. Use single leg
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary advantage of the single leg takedown system compared to the double leg takedown?
 **A**: The single leg allows for better balance and head position control since only one leg is attacked while maintaining base on both your feet. This makes it safer against guillotine counters, easier to maintain during the finishing sequence, and allows for superior adaptability to switch between multiple finish variations. Additionally, the single leg commits only your arms to leg control while keeping your legs and hips mobile for various finishes.
 

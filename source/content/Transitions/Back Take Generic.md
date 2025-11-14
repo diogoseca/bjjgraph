@@ -153,14 +153,10 @@ description: "Master back take transitions in BJJ. Learn multiple paths to back 
 
 
 
-> Back Take Generic transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Back Take Generic?
 
 Back take transitions represent some of the most valuable positional advancements in Brazilian Jiu-Jitsu, as back control offers the highest point value in competition and provides access to the most dominant submission opportunities. A successful back take requires understanding multiple pathways from various positions including turtle, side control, guard, and standing positions. The fundamental principle underlying all back takes is creating and exploiting angles while controlling your opponent's defensive frames. Whether you're attacking from top position, transitioning from guard, or capitalizing on scrambles, the ability to recognize and execute back take opportunities separates advanced practitioners from beginners. This transition encompasses a family of techniques unified by the common goal of achieving rear control with both hooks established and control of the upper body through seat belt grip or similar control mechanisms.
 
@@ -199,7 +195,7 @@ Back take transitions represent some of the most valuable positional advancement
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish dominant angle**: Create a minimum 45-degree angle relative to your opponent's centerline by moving your hips laterally while maintaining chest contact. From turtle, this means getting perpendicular to their spine. From standing, this means circling to their back corner. The angle prevents them from turning into you effectively. (Timing: Initial setup phase)
 2. **Secure first control point**: Grip the far shoulder, establish an overhook, or secure a collar grip on the opposite side from your angle of attack. This control point serves as your anchor and prevents the opponent from rotating away. The grip should be firm but not energy-depleting, as you'll maintain it throughout the transition. (Timing: Before committing to back exposure)
 3. **Create hip clearance**: Use your free hand to clear the opponent's near-side elbow away from their ribs, creating space for your first hook. This can be accomplished with hand fighting, a knee slide, or by driving your shoulder into their armpit to collapse their defensive frame. The goal is opening the door for hook insertion. (Timing: As opponent reacts to your angle)
@@ -302,7 +298,7 @@ Ensure every position in your game has at least two viable back take options. Bu
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you establish an angle before attempting a back take rather than attacking directly from behind?
 **A**: Attacking from directly behind allows the opponent to simply turn into you, converting your back attack into their guard or a neutral scramble. An angle (minimum 45 degrees) prevents them from rotating effectively because their spine biomechanics don't allow rotation toward the back corner as easily as rotation forward. The angle also creates the geometric space needed to insert your first hook without it being immediately trapped or defended.
 

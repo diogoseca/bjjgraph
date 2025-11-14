@@ -147,14 +147,12 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
 
 
 
-> Triangle from De La Riva is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Triangle from De La Riva targets the Carotid arteries and jugular veins. Risk: Neck strain or cervical spine compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle from De La Riva?
 
 The Triangle from De La Riva is a sophisticated blood choke that capitalizes on the unique angular control provided by the De La Riva guard position. This submission represents a fundamental offensive option from one of modern BJJ's most dynamic open guard systems. The De La Riva hook on the opponent's leg creates natural off-balancing opportunities while the opposite leg controls posture and distance, establishing perfect conditions for transitioning to the triangle position. The technical challenge lies in transitioning from the linear De La Riva guard structure to the circular enclosure required for an effective triangle choke. Success depends on precise timing, grip manipulation, and understanding how to use the De La Riva hook as a pivot point rather than abandoning it prematurely. When executed correctly, this technique combines the sweeping threat inherent in De La Riva with a finishing submission, creating a true dilemma for the opponent.
 
@@ -233,7 +231,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish dominant De La Riva control**: Secure classic De La Riva position with hook deep behind opponent's knee, opposite foot on hip or bicep, and strong collar-sleeve grips. Break opponent's posture forward using collar grip while preventing them from standing tall. This foundational control is essential before attempting any offensive transition. (Timing: Initial position establishment - hold until opponent commits weight forward) [Pressure: Moderate]
 2. **Break opponent's defensive grips and posture**: Use collar grip to pull opponent's head down while simultaneously pushing their far arm across your centerline with your sleeve grip. The De La Riva hook prevents them from stepping back to recover posture. This creates the broken posture necessary for triangle entry and begins isolating one arm. (Timing: 1-2 seconds as opponent attempts to maintain base) [Pressure: Firm]
 3. **Pivot on De La Riva hook and swim leg over shoulder**: Maintain the De La Riva hook as a pivot point while releasing the hip control with your opposite leg. Swing this free leg high and over the opponent's shoulder on the side of your collar grip. The De La Riva hook prevents them from backing away during this transition. Aim to place your shin across the back of their neck. (Timing: Quick transition - 0.5-1 second window as opponent is off-balanced) [Pressure: Light]
@@ -295,7 +293,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary function of the De La Riva hook during the triangle setup phase?
 **A**: The De La Riva hook serves as a pivot point and prevents the opponent from backing away or standing up during the transition. It maintains close distance and off-balances the opponent forward while you swing your opposite leg over their shoulder. The hook should be maintained until the triangle is nearly locked to prevent defensive escape.
 

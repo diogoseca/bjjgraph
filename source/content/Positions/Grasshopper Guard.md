@@ -8,7 +8,7 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Grasshopper Guard?
 
 Grasshopper Guard represents an unorthodox open guard position where the bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs toward the opponent. This inverted guard creates unique angles for leg attacks, especially kneebars and ankle locks, while simultaneously offering powerful sweeping mechanics through hip elevation and leg entanglement.
 
@@ -58,7 +56,7 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -72,7 +70,7 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 | **Energy Cost** | High | Low |
 | **Time** | Short | Medium to Long |
 
-**What Makes This Unique:** Inverted posture for leg attacks and sweeps
+**Key Difference:** Inverted posture for leg attacks and sweeps
 
 
 
@@ -84,10 +82,6 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ## Playing as Bottom
 
 [[Grasshopper Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -178,10 +172,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Grasshopper Guard/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -260,7 +250,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

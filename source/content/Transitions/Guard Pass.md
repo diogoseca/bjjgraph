@@ -147,14 +147,10 @@ description: "Learn Guard Pass techniques in BJJ. Comprehensive guide to passing
 
 
 
-> Guard Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guard Pass?
 
 Guard passing represents one of the fundamental challenges in Brazilian Jiu-Jitsu - the art of moving from an opponent's guard position to a dominant top position. The guard pass is not a single technique but rather a category of movements that share the common goal of safely navigating past the opponent's legs while maintaining control and balance. Successful guard passing requires a combination of technical precision, timing, pressure management, and strategic decision-making based on the opponent's guard type and defensive responses.
 
@@ -197,7 +193,7 @@ Mastering guard passing fundamentals creates the foundation for all top game dev
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish dominant grips**: Secure control of opponent's collar, sleeves, or pants depending on guard type. For closed guard, control the collar and break posture. For open guard, control sleeves or pants to limit mobility. Grip fighting is essential - deny opponent their preferred grips while establishing your own control points. (Timing: Initial contact - spend 2-5 seconds establishing grip dominance before advancing)
 2. **Break opponent's guard structure**: Disrupt the opponent's base and alignment. For closed guard, stand up to open the guard. For open guard, address the specific retention mechanism (hooks, frames, or leg entanglements). Use a combination of grip control, weight distribution, and angle changes to compromise their structure. (Timing: 3-8 seconds - patience here prevents rushing into bad positions)
 3. **Control opponent's hips and legs**: Pin the opponent's hips to the mat or control their legs to prevent guard retention. This may involve stapling the knee, controlling the shin, or using heavy pressure to limit hip mobility. The specific control depends on the guard type being passed. (Timing: Simultaneous with structure breaking - 2-4 seconds to establish control)
@@ -297,7 +293,7 @@ Refine timing, pressure application, and grip fighting nuances. Develop signatur
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the three main categories of guard passing and when should each be applied?
 **A**: The three main categories are pressure passing (using weight and grinding control, effective against flexible opponents), speed passing (using footwork and rapid movements, effective against larger opponents or strong pressure defenders), and systematic/combination passing (switching between pressure and speed based on opponent reactions, most effective at high levels). The best passers recognize which style to use based on opponent's body type, guard type, and defensive responses.
 

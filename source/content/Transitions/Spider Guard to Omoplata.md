@@ -153,14 +153,10 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
 
 
 
-> Spider Guard to Omoplata transitions from [[Spider Guard]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Spider Guard to Omoplata?
 
 The Spider Guard to Omoplata is a fundamental attacking transition that combines sweeping mechanics with submission threat. From spider guard, you manipulate your opponent's posture and base using sleeve control and foot pressure on the biceps, creating an opening to swing your leg over their shoulder and sit up into the omoplata position. This technique exemplifies the principle of using your opponent's defensive reactions against them - when they resist your spider guard pressure by posting or pulling back, you capitalize on their commitment by attacking the shoulder with the omoplata. The transition is highly effective because it occurs in a single fluid motion, giving your opponent minimal time to recognize and counter the attack. Understanding proper grip mechanics, hip movement, and timing is essential for successfully executing this technique under resistance.
 
@@ -198,7 +194,7 @@ The Spider Guard to Omoplata is a fundamental attacking transition that combines
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish spider guard control**: From spider guard, secure both sleeves with deep grips, placing both feet on opponent's biceps. Apply constant pressure outward with your legs to extend their arms and compromise their posture. (Timing: Setup phase - establish stable control)
 2. **Identify attacking side**: Choose the side where opponent's weight is more committed forward or where their arm is more extended. Strengthen your grip on that sleeve while maintaining foot pressure on that bicep to prevent arm withdrawal. (Timing: Recognition phase - read opponent's position)
 3. **Remove opposite foot**: Take your foot off the non-attacking side bicep and place it on the mat or opponent's hip for base. This allows you to generate rotational momentum while maintaining control of the attacking side. (Timing: Preparation - create mobility)
@@ -285,7 +281,7 @@ Practice the entire sequence from guard establishment through finish during full
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical element to maintain during the transition from spider guard to omoplata?
 **A**: The most critical element is maintaining strong sleeve control on the attacking side throughout the entire transition. Without this grip, the opponent can pull their arm free and escape the position entirely. The sleeve grip must be maintained from the initial spider guard setup, through the leg swing, and until the omoplata position is fully secured with body weight and leg pressure.
 

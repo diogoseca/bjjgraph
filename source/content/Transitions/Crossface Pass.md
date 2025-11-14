@@ -147,14 +147,10 @@ description: "Learn Crossface Pass in BJJ. Step-by-step execution from half guar
 
 
 
-> Crossface Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Crossface Pass?
 
 The Crossface Pass is a fundamental pressure-passing technique used to pass the half guard by controlling the opponent's head and neck with the crossface while clearing the trapped leg. This technique exemplifies the principle of controlling the head to control the body, using heavy shoulder pressure to flatten the opponent and restrict their mobility. The crossface creates a powerful wedge that prevents the opponent from turning into you or creating effective defensive frames, while simultaneously setting up the leg extraction necessary to achieve side control. This pass is particularly effective against opponents who rely on the underhook battle in half guard, as the crossface neutralizes their framing attempts and creates a severe defensive dilemma. The technique requires proper weight distribution, precise timing, and the ability to maintain heavy pressure while systematically clearing the bottom leg. When executed correctly, the crossface pass is one of the highest percentage methods for passing half guard, especially in no-gi situations where lapel grips are unavailable.
 
@@ -193,7 +189,7 @@ The Crossface Pass is a fundamental pressure-passing technique used to pass the 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish crossface**: Drive your forearm across the opponent's face and neck, positioning the blade of your forearm firmly against their jaw. Your hand should reach toward their far shoulder. Simultaneously, position your head on the opposite side from your trapped leg, creating a wedge that prevents them from turning into you. (Timing: Immediately upon recognizing half guard position)
 2. **Apply shoulder pressure**: Drop your shoulder weight directly onto the opponent's face and neck, driving downward and slightly forward. This pressure should flatten them to their back and make it difficult for them to breathe or frame effectively. Keep your chest heavy and connected to their upper body throughout. (Timing: Continuous throughout the pass)
 3. **Control far arm**: With your free hand, either underhook the opponent's far arm (the arm away from your trapped leg) or pin it to the mat. This prevents them from creating frames or establishing defensive grips. If they're attempting to push your head away, swim your free arm over their arm and secure the underhook position. (Timing: As opponent attempts to create defensive frames)
@@ -289,7 +285,7 @@ Practice transitioning between crossface pass and other half guard passes (knee 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of the crossface in this passing technique?
 **A**: The crossface serves to control the opponent's head and upper body, preventing them from turning into you or creating effective defensive frames. It creates a wedge that keeps them flattened to their back, restricts their mobility, and establishes the control necessary to safely extract your trapped leg without them following with their hips or recovering guard.
 

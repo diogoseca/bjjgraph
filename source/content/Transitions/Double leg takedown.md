@@ -147,14 +147,10 @@ description: "Master the Double Leg Takedown in BJJ. Complete execution from sta
 
 
 
-> Double leg takedown transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Double leg takedown?
 
 The Double Leg Takedown is a fundamental wrestling technique that has become essential in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This high-percentage takedown involves attacking both of your opponent's legs simultaneously, driving through their base, and taking them to the mat where you can establish a dominant position. The technique is prized for its direct, explosive nature and its ability to immediately put you in a top position.
 
@@ -197,7 +193,7 @@ The double leg takedown requires excellent timing, level change mechanics, and t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Setup and distance management**: Begin from standing position with upright posture. Use hand fighting, collar ties, or feints to create an opening. Establish proper distance—approximately one arm's length from your opponent. Your feet should be in an athletic stance with knees slightly bent, weight on the balls of your feet, ready to explode forward. (Timing: Pre-attack phase, 2-5 seconds of setup)
 2. **Level change and penetration step**: Drop your level explosively by bending at the hips and knees, not by bending forward at the waist. Simultaneously take a deep penetration step with your lead leg, placing your foot between your opponent's feet or slightly behind their front foot. Your hips should drive forward and down, getting closer to your opponent than their hips are to you. Keep your head up and spine straight to maintain power. (Timing: Explosive movement, 0.5 seconds)
 3. **Hand connection and head placement**: As you penetrate, drive both arms around the outside of your opponent's legs. Your hands should connect behind their knees or even behind their calves—the deeper the better. Your head should be placed firmly against their hip or lower abdomen on one side (never in the center where it's vulnerable to guillotine). Your shoulder should make contact with their midsection. (Timing: During penetration, simultaneous with step 2)
@@ -298,7 +294,7 @@ Develop your preferred setups, grips, and angles based on body type and athletic
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most important factor for achieving deep hand positioning on a double leg takedown?
 **A**: The penetration step is the most important factor. Your lead foot must step deep between or past your opponent's feet, getting your hips closer to them than theirs are to you. This deep penetration naturally allows your hands to reach behind their knees rather than just at their thighs. Without proper penetration depth, you're forced into a shallow shot that's easy to defend.
 

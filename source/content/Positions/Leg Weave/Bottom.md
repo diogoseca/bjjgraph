@@ -8,7 +8,7 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 45% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Leg Weave from the Bottom?
 
 Leg Weave Bottom Position represents a challenging defensive scenario in half guard where the top player has threaded their leg through your guard structure, establishing a powerful passing position. This position occurs when the passer has successfully weaved their knee-side leg between your legs while maintaining upper body control, creating significant pressure and limiting your mobility. The bottom player faces immediate threats of guard passes to side control, mount, or back control if defensive frames and hip movement are not properly established. While disadvantageous, this position offers specific defensive pathways and counter-attacks that can recover guard or create scrambles when executed with proper timing and technique. Understanding the mechanics of maintaining frames, creating angles, and preventing the complete pass is essential for survival and eventual escape from this high-pressure position. Success requires constant movement, precise framing against the opponent's pressure points, and recognition of timing windows for transitions to more favorable positions like knee shield, deep half, or dogfight.
 
@@ -450,17 +431,17 @@ Top player alternates between forward pressure and backward weight shifts. Botto
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The leg weave bottom position represents a critical junction in the half guard passing sequence where the battle of angles and frames determines outcome. The fundamental principle at work here is the concept of inside position versus outside position - the top player has achieved inside leg positioning through the weave, creating a biomechanical advantage that must be neutralized through superior frame construction and hip angle management. The key defensive insight is that frames are not static structures but dynamic tools that create distance, which then enables angle creation through shrimping mechanics. Most bottom players make the catastrophic error of accepting the flat position, at which point the passer's weight advantage becomes insurmountable. The intelligent escape sequence begins with establishing frames that prevent complete chest-to-chest contact, then immediately creating hip angle to insert the knee shield or transition to deep half guard. Understanding that this position is fundamentally about the battle for inside control - once lost with the leg weave, it must be systematically recovered through precise technical sequences rather than explosive scrambling.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Leg weave bottom is honestly one of the worst positions to be in during competition because good passers will flatten you and pass in seconds if you don't know the specific escapes. From my experience at the highest levels, the absolute key is never letting them settle their weight - you need to be moving your hips constantly even if it's small movements. The frame on the neck is non-negotiable, that's your survival tool that buys you time to hip escape. What works for me when I end up here is immediately recognizing whether they're driving forward pressure or trying to step over - if they drive forward, that's your deep half window, if they elevate to step over, that's when you come up to dogfight. Against elite guys like Lachlan Giles or Nick Rodriguez who have incredible pressure, I've found that the old school sweep becomes viable because they commit so much weight forward trying to flatten you. The biggest mistake I see is people giving up the position mentally and just accepting the pass - if you keep fighting for frames and angles, you'd be surprised how many scrambles you can create even against world-class passers.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The leg weave is basically the passer trying to kill your lockdown and half guard game, but there's some sick counters if you know the 10th Planet system. First thing, don't let them flatten you bro - that's death. You gotta keep that electric chair option alive by maintaining your leg connection and looking for that ankle. A lot of people don't realize that when they weave their leg through, they're actually giving you a potential path to the twister side control if you can get the underhook and roll them. The deep half entry is money here too, especially if you've been drilling the dogfight to deep half connection. What I teach is to always be thinking about the lockdown recovery even from bad positions like this - if you can get your foot across their hip while they're weaving, you can sometimes trap their leg and create the whole lockdown game again. The vaporizer sweep is also there if they commit too much weight forward and you have that far leg hook. Bottom line is leg weave bottom is dangerous but it's not game over - you've got electric chair, deep half, dogfight, and if you're flexible enough, rubber guard entries when they post their hands. Keep moving, maintain that hook, and look for the counters.
 

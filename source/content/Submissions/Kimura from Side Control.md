@@ -153,14 +153,12 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 
 
 
-> Kimura from Side Control is a shoulder lock targeting the Shoulder joint (rotation and elevation). ⚠️ **SAFETY**: This technique can cause Shoulder dislocation (anterior or posterior). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kimura from Side Control targets the Shoulder joint (rotation and elevation). Risk: Shoulder dislocation (anterior or posterior). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura from Side Control?
 
 The Kimura from Side Control is one of the most fundamental and high-percentage shoulder locks in Brazilian Jiu-Jitsu, offering exceptional control and finishing potential from a dominant top position. This submission targets the shoulder joint through figure-four grip mechanics, creating rotational and elevational stress that forces the tap. From side control, the attacker has superior positioning, weight distribution, and multiple angles to establish the lock while the opponent's mobility is severely restricted. The technique's versatility allows for seamless transitions to other submissions, back takes, or positional advancements if the opponent defends. The Kimura grip itself becomes a powerful control mechanism, enabling the top player to manipulate the opponent's posture, break their defensive frames, and create submission opportunities even when the finish isn't immediately available. This makes it an essential tool for maintaining offensive pressure from side control while constantly threatening the finish.
 
@@ -243,7 +241,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Dominant Side Control**: From side control, drive your chest weight into the opponent's chest and shoulder area, eliminating all space. Your near-side arm should control their head or far shoulder while your hips stay heavy on their torso. Ensure your base is wide with your far leg posted out for stability. (Timing: 2-3 seconds to establish solid pressure) [Pressure: Firm]
 2. **Isolate the Near Arm**: Using your near-side hand, reach under the opponent's near arm (the arm closest to you) and grip their wrist. Simultaneously use your head and shoulder pressure to pin their upper body and prevent them from pulling the arm back to their body. The goal is to create separation between their elbow and their ribs. (Timing: 1-2 seconds once pressure is established) [Pressure: Moderate]
 3. **Thread Your Arm for Figure-Four Grip**: While maintaining wrist control with your near hand, thread your far arm over their arm and reach for your own wrist to establish the figure-four lock. Your forearm should be perpendicular to their forearm, creating the leverage structure. Keep your elbows tight together and close to their body to prevent them from straightening their arm. (Timing: 2-3 seconds to secure proper grip alignment) [Pressure: Light]
@@ -312,7 +310,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum recommended application time for finishing the Kimura in training to ensure partner safety? **[SAFETY-CRITICAL]**
 **A**: 3-5 seconds minimum from position establishment to submission pressure. The shoulder joint is extremely vulnerable to injury from sudden or explosive movements. Progressive, slow application allows the training partner adequate time to recognize the submission, process the danger, and tap before injury occurs. Competition speed should never be used during training applications.
 

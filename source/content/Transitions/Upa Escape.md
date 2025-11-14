@@ -147,14 +147,10 @@ description: "Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundame
 
 
 
-> Upa Escape transitions from [[Mount]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Upa Escape?
 
 The Upa Escape, also known as the bridge and roll or trap and roll escape, is the most fundamental and highest-percentage escape from bottom mount position. This technique leverages explosive hip power and proper weight distribution to reverse an opponent who has achieved the dominant mount position. The escape works by creating a powerful bridge while simultaneously trapping one of the opponent's arms and the corresponding leg, forcing them to post with their free hand while you drive them over your shoulder. The beauty of the Upa lies in its mechanical efficiency - it doesn't require superior strength or flexibility, making it accessible to practitioners of all sizes and athletic abilities. When executed with proper timing and technique, the Upa can completely reverse a seemingly hopeless position, transitioning you from bottom mount into your opponent's closed guard or even to a top position. This escape forms the cornerstone of mount defense and is typically the first escape taught to beginners due to its reliability and fundamental movement patterns that translate to many other techniques.
 
@@ -194,7 +190,7 @@ The Upa Escape, also known as the bridge and roll or trap and roll escape, is th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Trap the arm**: Identify the side where opponent's weight is shifted or where they are attempting to attack. Cup your hand behind their tricep/elbow on that side, pulling it tight across your chest. Your other hand can post on their hip or grab their belt to control their posture and prevent them from posting far away. (Timing: Initiate when opponent reaches for attack or shifts weight forward)
 2. **Trap the foot**: On the same side as the trapped arm, hook your foot over opponent's ankle/foot, pinning it to the mat. Your knee should be bent with your heel pulled close to your buttocks to generate maximum bridging power. This prevents them from stepping over to establish base. (Timing: Execute simultaneously with arm trap or immediately after)
 3. **Position your bridge angle**: Turn your head toward the trapped side, looking over your shoulder in the direction you'll roll. Your bridge should drive at approximately 45 degrees over your shoulder, not straight up. This angle is critical - bridging straight up allows opponent to post with their free hand. (Timing: Set angle before initiating explosive bridge)
@@ -290,7 +286,7 @@ Apply upa escape during regular sparring, combining with other mount escapes bas
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you trap the arm and leg on the same side rather than opposite sides?
 **A**: Trapping same-side limbs prevents opponent from establishing a triangular base structure. If you trap opposite sides (left arm, right leg), they maintain three points of stable contact (right arm, left leg, and their body weight) forming a strong tripod. Same-side trapping removes two of three base points on one side, forcing them to rely only on the far side for stability, which cannot resist the rotational force of your bridge directed toward the trapped side.
 

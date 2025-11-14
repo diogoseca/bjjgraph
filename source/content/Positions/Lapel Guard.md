@@ -8,7 +8,7 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Lapel Guard?
 
 Lapel guard represents a modern evolution in gi-based Brazilian Jiu-Jitsu guard play, utilizing the opponent's lapel fabric to create powerful control systems that transcend traditional grip fighting. This position fundamentally alters the guard game by transforming the gi itself into an extension of the practitioner's limbs, creating frames, barriers, and control points that would be impossible in no-gi grappling.
 
@@ -56,7 +54,7 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -70,7 +68,7 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 | **Energy Cost** | Low | Medium |
 | **Time** | Long | Medium |
 
-**What Makes This Unique:** Gi fabric becomes control extension point
+**Key Difference:** Gi fabric becomes control extension point
 
 
 
@@ -82,10 +80,6 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ## Playing as Bottom
 
 [[Lapel Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -176,10 +170,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Lapel Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -255,7 +245,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

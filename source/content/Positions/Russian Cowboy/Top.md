@@ -8,7 +8,7 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 65%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 4 (Dominant position)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Russian Cowboy from the Top?
 
 The Russian Cowboy is a highly effective back control variant commonly used in no-gi grappling and submission wrestling. This position features the top practitioner establishing control over the opponent's back while maintaining a hook under one leg, creating powerful leverage for attacks and making escape extremely difficult. The position derives its name from the riding motion resembling a cowboy on a bucking horse, combined with its popularity among Russian and Eastern European grapplers.
 
@@ -475,17 +454,17 @@ Partner in turtle position with moderate defensive posture. Practice entering Ru
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The Russian Cowboy represents a fascinating hybrid control position that combines the mechanical advantages of back control with the submission versatility of leg entanglement systems. What makes this position particularly effective from a biomechanical perspective is the asymmetric loading it creates on the opponent's body—the single leg hook generates rotational torque that disrupts their ability to establish a stable base, while the upper body control prevents compensatory movements. The position's true genius lies in its ability to create what I call 'directional commitment problems' where any defensive movement by the opponent opens new attack vectors. When executed properly, the Russian Cowboy functions as a transitional hub position, allowing the top practitioner to flow seamlessly between truck position, traditional back control, and crucifix variations based on the opponent's defensive reactions. The key technical consideration is maintaining what I term 'connection density'—the number of meaningful control points between your body and the opponent's—which must remain high throughout all transitions to prevent escape windows from opening.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In high-level competition, the Russian Cowboy has become one of my most reliable positions because it puts opponents in an impossible defensive situation where they're forced to defend both upper body attacks and lower body leg locks simultaneously. What I've found through extensive competition experience is that most opponents don't have well-developed defensive protocols for this position because it requires defending against threats they normally encounter separately. When I secure Russian Cowboy, I'm immediately looking to advance to the truck position for the calf slicer or twister, but I'm also constantly monitoring for the transition to full back control if they turn into me. The position's effectiveness at the highest levels comes from its ability to break the opponent's defensive rhythm—they can't establish the kind of systematic defensive posture they might use against pure back control or pure leg entanglement positions. In competition, I'll often use Russian Cowboy as a recovery position when my initial back take attempt is defended, as it allows me to maintain dominant control while resetting my attack sequences. The submission rate from this position in my training and competition is exceptional, primarily because it naturally leads to the truck position which opens up my entire leg attack system.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Russian Cowboy is absolutely crucial in the 10th Planet system because it's the gateway position to all our most devastating submissions—the twister, the electric chair, and various calf slicer variations. What makes this position so dangerous in our game is that it completely shuts down the opponent's ability to establish traditional defensive postures while opening up our signature attacks that most people aren't prepared to defend. From a 10th Planet perspective, we approach Russian Cowboy not as a static position but as a dynamic hunting ground where we're constantly looking to create the chaos that leads to our best finishes. The beauty of this position is that it works perfectly in no-gi environments where traditional gi grips aren't available—you're using pure body mechanics and leverage to control the opponent. When I teach this position, I emphasize the importance of staying loose and flowing with the opponent's escape attempts rather than rigidly holding position, because their movement is what creates the submission opportunities. The Russian Cowboy exemplifies our whole philosophy of using unconventional positions that people aren't familiar with to create submission opportunities they don't see coming until it's too late.
 

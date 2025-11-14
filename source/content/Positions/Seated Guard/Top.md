@@ -8,7 +8,7 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 35%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Seated Guard from the Top?
 
 Seated Guard Top position places you standing or on your knees facing an opponent who is sitting upright with hands posted behind them and legs extended toward you. This position requires careful distance management and grip fighting to prevent opponent from standing up or entering leg entanglements. Unlike closed guard or butterfly guard top positions, you must respect opponent's ability to instantly transition to standing, making aggressive pressure passing dangerous.
 
@@ -469,17 +448,17 @@ Start with you standing/kneeling and partner in seated guard. Attempt to pass. P
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Passing Seated Guard requires understanding the unique biomechanical challenge it presents: your opponent has excellent base, complete leg mobility, and the constant threat of standing. Unlike passing supine guards where you can use pressure and weight, Seated Guard forces you to respect opponent's structural advantages. The key is systematic grip control before any forward movement. You must neutralize their ability to stand first - typically through collar or sleeve control - then address their leg mobility through angle changes and distance management. The common error is treating this like closed guard passing where you can simply drive forward. That approach walks directly into sweeps. Instead, think of it as a standing wrestling exchange where you happen to have slight height advantage. Use that advantage to control their upper body while circling to angles that minimize their legs' defensive utility. The pass is won through superior grips and positioning, not through force.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 When I'm passing Seated Guard, I'm thinking grip fighting first. If they get good grips on me, they can stand up or hit sweeps all day. But if I control their collar and one sleeve, now I'm dictating the engagement. I like to stay standing initially because it gives me mobility to avoid their sweeps and ankle picks. When I see an opportunity - usually when they overcommit to stopping me from passing one way - I quickly change directions with a toreando or leg drag. The key is not giving them time to set up their attacks. Keep them reacting to your grips and angle changes. And here's important: don't be afraid to backstep and reset if you don't like the position. Better to restart than walk into a sweep trying to force a pass that isn't there. Seated Guard passing is about patience and timing. Wait for them to extend their legs or reach for grips, then explode past their legs before they can recover their structure.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Passing Seated Guard is all about not getting frustrated and doing something stupid. Your opponent is sitting there, looking all comfortable, and you want to just smash through. Don't do it. That's exactly what they want. Instead, use your grips to mess with their base. Grab a collar, pull them off balance, make them post that hand forward. Now they can't sit as comfortably. Or grab both sleeves and lift - now they can't base out. Once you disrupt their structure, that's when you pass. I like leg drags against seated guard because you're going around their legs instead of through them. Control one leg, step to the side, pull them into you as you move past. Also, don't sleep on the snap down. When they try to stand, snap them down to front headlock. Now you're hunting darces and guillotines instead of passing guard. In no-gi, this position happens a lot, so you better have a game plan. Stay mobile, control the grips, pass from angles, and be ready to attack when they try to stand. Simple but effective.
 

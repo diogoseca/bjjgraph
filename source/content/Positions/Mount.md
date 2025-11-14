@@ -8,7 +8,7 @@ description: "Master the Mount position in BJJ. Learn control mechanics, submiss
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master the Mount position in BJJ. Learn control mechanics, submiss
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Mount?
 
 The Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, awarded 4 points in IBJJF competition. From this elevated position, the top practitioner sits astride the opponent's torso with their knees on either side, creating overwhelming control through gravity and positioning. The Mount has been refined over decades as one of the most devastating positions in grappling, offering numerous submission opportunities while maintaining exceptional control. Modern Mount control focuses on creating submission dilemmas where defensive movements open new attacking opportunities. The position's effectiveness stems from the top practitioner's ability to use their entire body weight to pin the opponent while maintaining freedom of movement for attacks. From bottom Mount, the position represents a critical defensive challenge requiring systematic escape knowledge and composure under extreme pressure. The escape hierarchy prioritizes establishing frames, creating space through hip movement, and recovering guard through technical precision rather than explosive strength. Understanding Mount from both perspectives is essential for complete grappling development, as it represents the intersection of positional control and submission finishing ability.
 
@@ -46,15 +44,15 @@ The Mount position represents the pinnacle of positional dominance in Brazilian 
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 
 
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[Mount]] | High | Low | High | Low | Highest points with control-submission balance |
 | [[High Mount]] | High | Low to Medium | High | Medium | Elevated knees maximize submission access |
 | [[Modified Mount]] | High | Low to Medium | High | Low | One leg posted for enhanced base stability |
@@ -75,10 +73,6 @@ The Mount position represents the pinnacle of positional dominance in Brazilian 
 ## Playing as Bottom
 
 [[Mount/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -167,10 +161,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Mount/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -253,71 +243,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 - ❌ **Ignoring opponent's turn to side, allowing back exposure**
   - Consequence: Miss opportunity to advance to superior back control position
   - ✅ Correction: Immediately follow opponent's turn, inserting hooks for back control transition
-
-
-</section>
-
-
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-
-### [[High Mount]]
-
-Knees positioned near armpits for maximum submission control, reduced stability
-
-[Explore High Mount →](./High Mount)
-
-
-### [[Modified Mount]]
-
-One leg posted out for stability while maintaining dominant position
-
-[Explore Modified Mount →](./Modified Mount)
-
-
-### [[S Mount]]
-
-Asymmetric positioning with one leg extended for armbar setups
-
-[Explore S Mount →](./S Mount)
-
-
-### [[Technical Mount]]
-
-One hook in while maintaining mount control, transitional to back control
-
-[Explore Technical Mount →](./Technical Mount)
-
-
-### [[Mounted Triangle]]
-
-Triangle lock applied from mount position for hybrid control and submission
-
-[Explore Mounted Triangle →](./Mounted Triangle)
-
-
-### [[Mounted Crucifix]]
-
-Arm isolation control from mount with both arms trapped
-
-[Explore Mounted Crucifix →](./Mounted Crucifix)
-
-
-### [[3-4 Mount]]
-
-Modified position with one leg posted, one knee across body
-
-[Explore 3-4 Mount →](./3-4 Mount)
-
-
-### [[Mount Control]]
-
-Fundamental low mount position emphasizing stability and control
-
-[Explore Mount Control →](./Mount Control)
-
 
 
 </section>

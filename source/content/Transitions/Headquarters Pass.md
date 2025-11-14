@@ -147,14 +147,10 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 
 
 
-> Headquarters Pass transitions from [[Headquarters Position]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Headquarters Pass?
 
 The Headquarters Pass is a fundamental position and passing sequence that establishes dominant control over the half guard player before advancing to side control. This position, popularized by modern no-gi grapplers, creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.
 
@@ -193,7 +189,7 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish crossface control**: From top half guard, drive your shoulder across the opponent's face while securing an underhook or crossface grip. Your weight should be forward on your opponent's chest, preventing them from creating frames or sitting up. Keep your hips heavy and connected to their bottom hip. (Timing: Initial control phase)
 2. **Control the near leg**: Use your trapped leg to apply pressure on the opponent's bottom hip while simultaneously working to control their near leg (the leg closest to you). This can be done by cupping under their knee or using your free hand to control their thigh, preventing deep half guard entries. (Timing: Simultaneous with crossface establishment)
 3. **Establish headquarters position**: Position your free leg (the one not trapped) into a headquarters stance - knee up, foot planted near opponent's hip. Your shin may rest on their bottom thigh, creating a barrier. Your chest remains heavy on their chest with constant crossface pressure. This is the stable headquarters platform. (Timing: Hold this position for 1-2 seconds to assess)
@@ -282,7 +278,7 @@ Execute headquarters pass during positional sparring and live rolling. Start fro
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary control point that must be maintained throughout the entire headquarters pass sequence?
 **A**: The crossface or shoulder pressure across the opponent's face/chest is the primary control point. This prevents the opponent from sitting up, creating frames, or establishing defensive posture. Without constant upper body control, the opponent can recover guard or create sweeping opportunities regardless of leg positioning.
 

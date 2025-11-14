@@ -147,14 +147,10 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation wit
 
 
 
-> Ippon Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ippon Seoi Nage?
 
 Ippon Seoi Nage is a classical judo shoulder throw adapted for Brazilian Jiu-Jitsu competition and self-defense. The technique involves entering beneath your opponent's center of gravity, loading them onto your back and shoulders, then executing a powerful forward rotation to throw them to the mat. Unlike many BJJ-specific takedowns, Ippon Seoi Nage requires significant technical precision in grip fighting, footwork, and kuzushi (off-balancing) to execute successfully against resisting opponents.
 
@@ -197,7 +193,7 @@ The modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and off-balance**: Secure traditional sleeve and lapel grips (gi) or wrist and shoulder control (no-gi). Pull opponent's sleeve grip downward and forward while lifting lapel grip upward, breaking their posture forward. Opponent should feel pulled onto their toes with weight shifting forward. (Timing: 2-3 seconds of grip fighting before entry)
 2. **Entry step**: Step your lead foot (same side as lapel grip) deeply across opponent's centerline, positioning it between their feet or just beyond. Your foot should point in the direction you'll throw them. This entry step commits you to the throw and must be decisive. (Timing: Explosive movement coordinated with pulling action)
 3. **Hip insertion and loading**: Pivot on your lead foot while swinging your back leg around in a circular motion. Drop your hips below opponent's hip line by bending your knees. Simultaneously rotate your torso so your back faces opponent. Pull their arm across your chest and shoulder. Your hips should make contact with their lower abdomen/thigh area. (Timing: Continuous motion from entry step - no pause)
@@ -288,7 +284,7 @@ Attempt throw opportunities during regular sparring rounds. Study successful com
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must your hips be lower than your opponent's hips during the loading phase of Ippon Seoi Nage?
 **A**: Your hips must be lower than opponent's hips to create the mechanical advantage necessary to lift their entire body weight onto your back and shoulders. If your hips are at the same level or higher, you cannot generate sufficient lifting power and the throw will fail. The lower hip position also creates the fulcrum point over which opponent rotates during the throw.
 

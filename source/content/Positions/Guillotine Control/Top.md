@@ -8,7 +8,7 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 75%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Guillotine Control from the Top?
 
 Guillotine Control Top is a dominant submission-control position where the top practitioner has secured a guillotine choke grip while maintaining superior positioning. This position represents a critical junction between positional control and submission finishing, offering the top player multiple high-percentage pathways to victory. The position is characterized by the choking arm wrapped around the opponent's neck with hands clasped together, while the top player uses their body weight and positioning to prevent escape and tighten the submission. Unlike the guillotine from guard (where the bottom player attempts the choke), this top variation provides superior leverage and control, making it one of the highest-percentage submissions in modern BJJ.
 
@@ -487,17 +466,17 @@ Start in guillotine control with partner attempting to close guard, you must mai
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The guillotine control top position represents a fascinating study in biomechanical leverage and the interplay between submission and position. The fundamental principle that makes this position so effective is the creation of a fulcrum using your own body against the opponent's neck—their head becomes trapped between your choking arm and your torso, creating a lever system where small adjustments in angle produce dramatic increases in pressure. What separates elite guillotine players from intermediate practitioners is understanding that the grip itself is only half the equation; the other half is hip positioning and weight distribution. When you secure the guillotine from a sprawl or front headlock, your hips must immediately drive forward and down, preventing the opponent from establishing their guard while simultaneously increasing the choking pressure. The common error of pulling straight back on the choke actually reduces effectiveness because it allows the opponent to use their legs to close guard and neutralize your positional advantage. Instead, think of the finish as a circular motion—pulling your hands toward your chest while simultaneously driving your hip into the opponent's trapped shoulder, creating a spiral of pressure that simultaneously chokes and controls. The decision tree from this position should be systematic: attempt the standard guillotine first, if the opponent defends by tucking their chin and pulling their head back, immediately adjust to the high elbow variation which attacks from a different angle. If both are defended, the opponent has necessarily compromised their positional defense, allowing you to advance to mount or take the back. This is the essence of systematic jiu-jitsu—every defensive choice the opponent makes opens a different offensive pathway, creating an inescapable web of consequences.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Guillotine control top is one of my highest-percentage positions in both gi and no-gi competition, but it requires aggressive, forward-thinking execution to maximize its effectiveness. The biggest mistake I see competitors make is treating the guillotine like a static submission attempt—they secure the grip and then just pull, hoping the opponent will tap. In reality, the guillotine is a dynamic position that you need to actively improve throughout the sequence. When I hit a guillotine from a scramble or sprawl, my immediate focus is preventing the guard closure while maintaining maximum pressure on the neck. I do this by sprawling my legs back hard, keeping my hips heavy on the opponent's shoulder, and constantly stepping to angle off rather than staying directly in front. This stepping pattern is crucial because it prevents the opponent from using their legs to create frames or sweep, while simultaneously increasing the choke's effectiveness by creating that spiral pressure that Danaher talks about. In terms of competition strategy, I view the guillotine as a position that forces my opponent into a terrible dilemma: if they focus on defending their neck with hand fighting and chin tucking, I have a free pass to mount or the back. If they focus on preventing me from advancing position, they're allowing me to work my finishing mechanics without interference. I've finished countless black belts with the arm-in guillotine variation specifically because they were so focused on preventing the mount that they forgot to defend the choke properly. The key is maintaining offensive pressure from multiple angles simultaneously—threaten the choke, threaten the position advancement, threaten the transition to anaconda or darce. When your opponent has to defend three things at once, something will break, and that's when you capitalize. Time management is also crucial; in competition, I'm willing to work the guillotine for 45-60 seconds if I'm improving my position or grip continuously, but if I feel my opponent has found a stable defensive position, I immediately transition to my next attack rather than wasting energy on a stalled attempt.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The guillotine from top position is absolutely devastating when you combine the classic approach with some unconventional entries and finishing mechanics from the 10th Planet system. What makes this position so powerful is that it's one of the few submissions where being on top actually gives you better leverage than being on bottom—the exact opposite of most BJJ submissions. In our system, we emphasize the marching guillotine concept, where you're constantly moving and adjusting your feet in a walking pattern while maintaining the choke. This serves two purposes: first, it prevents the opponent from getting comfortable or finding an escape route because you're constantly changing the angle and pressure direction. Second, it helps you prevent the guard closure which is absolutely critical—once they get their guard closed, you've lost about 60% of your submission effectiveness and 100% of your positional advantage. The way I teach it, when you secure that guillotine grip from a sprawl or front headlock, you immediately want to think about your hip positioning relative to their trapped shoulder. Most people pull straight back, but we emphasize driving the hip into their shoulder while pulling their head toward your opposite hip—this creates a figure-four effect with their own shoulder acting as part of the choking mechanism. One innovation we've developed is transitioning seamlessly between the guillotine and the anaconda or darce when the opponent starts to defend. Instead of treating them as separate techniques, view them as different expressions of the same control position—if they turn into you to defend the guillotine, you're already 80% of the way to a darce choke. If they try to pull their head back and away, the anaconda often opens up perfectly. This fluidity between related techniques is what separates the 10th Planet approach from more traditional systems—we don't believe in forcing a single technique until it works, we believe in following the path of least resistance through related attacks. Also, don't sleep on using the guillotine threat to set up your passing game. Some of my best guard passes happen when my opponent is so focused on defending the guillotine that they completely forget about their legs, and I can just walk right into side control or mount while maintaining the choke grip for additional control. The mental pressure of a tight guillotine around your neck cannot be overstated—it makes people make mistakes and take risks they wouldn't normally take.
 

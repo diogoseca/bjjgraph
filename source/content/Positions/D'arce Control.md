@@ -8,7 +8,7 @@ description: "Master D'arce Control position in BJJ. Dominant front headlock var
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master D'arce Control position in BJJ. Dominant front headlock var
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is D'arce Control?
 
 D'arce Control is a highly effective front headlock variation where the attacking practitioner secures a figure-four grip around the opponent's neck and shoulder, creating intense pressure on the carotid arteries. Named after its popularizer Joe D'Arce, this position combines elements of the arm triangle and anaconda choke, offering both submission threat and positional dominance. The position is characterized by the attacker threading their arm under the opponent's near armpit, across the back of their neck, and catching their own bicep with the opposite hand to complete the choke.
 
@@ -48,7 +46,7 @@ The effectiveness of D'arce Control lies in its ability to create multiple dilem
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -62,7 +60,7 @@ The effectiveness of D'arce Control lies in its ability to create multiple dilem
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**What Makes This Unique:** Arm-in choke creating submission threat
+**Key Difference:** Arm-in choke creating submission threat
 
 
 
@@ -74,10 +72,6 @@ The effectiveness of D'arce Control lies in its ability to create multiple dilem
 ## Playing as Bottom
 
 [[D'arce Control/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -148,10 +142,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[D'arce Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -213,7 +203,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

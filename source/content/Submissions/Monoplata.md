@@ -147,14 +147,12 @@ description: "Master the Monoplata submission in BJJ. Complete guide covering se
 
 
 
-> Monoplata is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Shoulder dislocation or subluxation. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Monoplata targets the Shoulder joint and rotator cuff. Risk: Shoulder dislocation or subluxation. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Monoplata?
 
 The Monoplata is an advanced shoulder lock submission that combines elements of the omoplata with unique figure-four leg control. Executed primarily from guard positions, particularly the rubber guard and mission control, this technique applies rotational pressure to the shoulder joint through a distinctive leg configuration that traps the opponent's arm while controlling their posture. The monoplata represents a sophisticated evolution of traditional shoulder attacks, offering practitioners a powerful finishing option when conventional submissions are defended. Unlike the traditional omoplata which uses both legs to isolate the arm, the monoplata employs a figure-four leg entanglement that creates exceptional control while maintaining offensive options. This submission has gained prominence in modern no-gi grappling due to its effectiveness against defensive posturing and its integration within systematic guard attack sequences.
 
@@ -237,7 +235,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Rubber Guard or High Guard Control**: From closed guard with broken posture, secure an overhook on opponent's arm and pull your foot high onto their back or shoulder. Control their head with your overhook side hand, creating a tight connection. This initial control prevents them from establishing defensive posture and sets up the arm isolation needed for the monoplata. (Timing: Hold for 2-3 seconds to ensure stable control) [Pressure: Moderate]
 2. **Create Space and Thread Bottom Leg**: Using your free leg, push on opponent's hip or thigh to create space and angle your body approximately 30-45 degrees. Thread your bottom leg (the one not controlling the overhook) underneath their trapped arm, aiming to position your shin across their upper back or neck area. This threading motion requires hip mobility and precise timing to catch the arm before they can defend. (Timing: 2-3 seconds for positioning adjustment) [Pressure: Light]
 3. **Establish Figure-Four Leg Configuration**: Once your bottom leg is threaded through, bring your top leg (the one that was on their back) over and lock your feet in a figure-four position. Your top foot should hook behind your bottom leg's knee or ankle, creating a tight loop around their trapped arm. Ensure the arm is isolated between your legs with their shoulder joint exposed and vulnerable to rotational pressure. (Timing: 3-4 seconds to secure proper leg configuration) [Pressure: Moderate]
@@ -305,7 +303,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply finishing pressure in the monoplata during training? **[SAFETY-CRITICAL]**
 **A**: You must take a minimum of 5-7 seconds to apply finishing pressure progressively during training. This extremely slow application allows your training partner time to recognize the danger and tap safely before serious injury occurs. Never apply explosive or sudden pressure to the shoulder joint.
 

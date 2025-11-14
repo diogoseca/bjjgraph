@@ -153,14 +153,10 @@ description: "Master the Granby Roll escape technique in BJJ. Essential defensiv
 
 
 
-> Granby Roll transitions from [[Turtle]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Granby Roll?
 
 The Granby Roll is a fundamental defensive movement technique that allows a practitioner to escape from inferior positions by rolling over the shoulder and inverting the body. Named after the wrestling technique popularized at Granby High School, this movement has become essential in modern BJJ for escaping turtle position, preventing back takes, and recovering guard. The technique involves a coordinated shoulder roll combined with hip extension and leg drive to create space and change the orientation of your body relative to your opponent. The Granby Roll is particularly effective against opponents attempting to take the back from turtle or when trapped in side control variations. Its effectiveness comes from the explosive nature of the movement combined with the ability to create angles that disrupt opponent control. Modern no-gi practitioners have elevated this technique to an art form, using it not just as an escape but as a transition into offensive positions and guard pulls. The movement requires significant flexibility in the spine and shoulders, as well as the spatial awareness to roll into open space rather than into your opponent's control.
 
@@ -199,7 +195,7 @@ The Granby Roll is a fundamental defensive movement technique that allows a prac
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Identify escape direction**: From turtle position, quickly assess which side has more open space and where your opponent's weight is distributed. The optimal direction is typically away from where their chest is pressuring and toward the side where their grips are weakest. Look for the shoulder you will roll over. (Timing: Immediately when sensing back take attempt)
 2. **Tuck chin and position shoulder**: Tuck your chin tightly to your chest and angle the shoulder on your escape side downward toward the mat. Your ear should nearly touch your shoulder. This protects your neck and creates the proper angle for the roll. Keep your elbows tight to your ribs to prevent arm drags or kimura attacks. (Timing: Before initiating the roll)
 3. **Post opposite hand**: The hand opposite to your rolling direction posts firmly on the mat near your hip to provide base and prevent being flattened. This hand acts as a pivot point and helps generate rotational force. Keep this arm strong but ready to release as you commit to the roll. (Timing: Simultaneously with shoulder positioning)
@@ -298,7 +294,7 @@ Dedicated flexibility work for spine and shoulders including yoga, gymnastic bri
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What part of your body should make contact with the mat during a Granby Roll and why?
 **A**: The shoulder blade (scapula) and upper back should make contact with the mat, never the neck or cervical spine. This is critical for safety as rolling over the neck can cause serious injury including nerve damage, vertebrae compression, or stingers. The shoulder blade provides a stable, broad surface area that can safely support body weight during the rotation while protecting the vulnerable neck structures.
 

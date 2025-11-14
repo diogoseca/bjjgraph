@@ -147,14 +147,10 @@ description: "Learn Hook Sweep in BJJ. Step-by-step execution from Butterfly Gua
 
 
 
-> Hook Sweep transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Hook Sweep?
 
 The Hook Sweep is a fundamental butterfly guard technique that leverages proper hook placement, angle creation, and weight manipulation to off-balance and sweep an opponent. This sweep is particularly effective when the opponent's weight is distributed forward or when they're attempting to pass your guard. The technique relies on elevating the opponent using butterfly hooks while simultaneously pulling them off-balance, creating a sweeping motion that results in a dominant top position. The Hook Sweep is one of the most high-percentage sweeps from butterfly guard due to its mechanical efficiency and the difficulty opponents face in defending once proper grips and hooks are established. This technique forms the foundation of the butterfly guard system and connects seamlessly with other butterfly guard attacks, making it essential for any practitioner looking to develop a comprehensive guard game. The sweep can be executed from both seated and combat base butterfly positions, and its success depends on timing, proper hook placement, and the ability to create and exploit angles.
 
@@ -193,7 +189,7 @@ The Hook Sweep is a fundamental butterfly guard technique that leverages proper 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish butterfly guard position**: Sit with both butterfly hooks inserted deep under opponent's thighs, feet flexed and pulling upward. Establish strong grips on opponent's collar with one hand and sleeve or tricep with the other. Maintain upright posture with chest connected to opponent's upper body. (Timing: Pre-sweep positioning phase)
 2. **Create angle and off-balance**: Shift your hips approximately 45 degrees to the side you intend to sweep (typically to the side of your collar grip hand). Simultaneously pull opponent forward and slightly to that side using your grips, breaking their base and forcing their weight forward over their knees. (Timing: Initial off-balancing motion)
 3. **Load the sweeping hook**: Transfer your weight slightly to the non-sweeping side while maintaining the angle. Drive the sweeping-side butterfly hook deep under opponent's thigh, foot flexed and ready to elevate. Your opposite hook maintains base and prevents opponent from posting. (Timing: Loading phase before explosive action)
@@ -281,7 +277,7 @@ Apply technique in live rolling and competition scenarios. Develop timing to cap
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is creating a 45-degree angle essential before executing the hook sweep?
 **A**: Creating a 45-degree angle before the sweep serves multiple critical functions. First, it removes one of the opponent's base points (the leg on the sweeping side), making them vulnerable to off-balancing. Second, the angle allows your lifting hook to have maximum mechanical advantage, as you're pushing perpendicular to their remaining base rather than directly into their strength. Third, the angle positions your body to follow through and establish top position naturally as the sweep completes. Without this angle, the opponent can simply post to the sweeping side or maintain their base through their legs, making the sweep ineffective regardless of how much force is applied.
 

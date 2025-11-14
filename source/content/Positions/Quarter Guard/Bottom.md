@@ -8,7 +8,7 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 75% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium to High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Quarter Guard from the Bottom?
 
 Quarter Guard Bottom is a dynamic half guard variation where the bottom player has secured an underhook while the top player has passed one leg, leaving only a quarter of the guard remaining. This transitional position bridges full half guard and complete guard passing, creating opportunities for sweeps, back takes, and re-guards while simultaneously defending against the pass. The position is characterized by asymmetric control where proper underhook management and hip positioning determine success.
 
@@ -463,17 +444,17 @@ Begin in severely compromised quarter guard with partner seventy-five percent th
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Quarter guard bottom represents a critical inflection point in the guard passing sequence where the defender must make immediate tactical decisions based on biomechanical reality. The underhook becomes mathematically essential here—it provides the only significant lever arm to counteract the passer's forward pressure and weight advantage which typically exceeds your control by a three-to-one ratio. What makes quarter guard technically fascinating is the asymmetric control paradigm: you have reduced your base of support by fifty percent while simultaneously increasing your offensive requirements. The solution lies in understanding that quarter guard is not a static position but rather a dynamic transitional state requiring constant angular adjustment and proactive sweep initiation within a narrow time window of five to ten seconds maximum. The leg entanglement has deteriorated to the point where it cannot generate sufficient leverage for defensive purposes alone, making the underhook and hip mobility your primary survival mechanisms. Students who treat quarter guard as a sustainable position invariably get passed, while those who embrace its transitional nature and attack immediately find considerable success with sweeps and back takes.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, quarter guard bottom is where matches get decided—you either sweep immediately or you get passed, there's absolutely no middle ground at high levels of grappling. I focus exclusively on the underhook sweep variations and back take sequences because they're percentage plays that work consistently against elite opponents who are actively trying to smash through your guard. The key tactical insight is recognizing that quarter guard happens during scrambles and failed retention attempts, so you need to already know your offensive sequences before you end up there rather than trying to figure things out in the moment. When I feel my guard getting passed to quarter guard position, I'm immediately attacking the back take or hitting the old school sweep before my opponent can settle their weight and establish proper crossface control. Hesitation in quarter guard equals getting passed every single time against competent competition—the position deteriorates within five seconds under elite pressure. I train this position specifically by having partners pass my half guard to quarter guard repeatedly, forcing myself to attack within three seconds or accept that I failed the position. That urgency mindset is what separates successful quarter guard players from those who just get passed consistently.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Quarter guard bottom is actually a sick position for 10th Planet practitioners because we train the lockdown variation religiously—when you've got that electric chair threat fully developed, suddenly the passer has to worry about getting submitted instead of just completing their pass. Most traditional jiu jitsu players think quarter guard is purely defensive and desperate, but that's old school thinking that doesn't account for modern leg attack innovations. We use quarter guard as an offensive weapon system, especially the transition sequences to truck position and back takes that catch opponents completely off guard. The whip-up technique and swim move to the back are absolute money from quarter guard, and if opponents are defending those back take attempts, you can hit them with the electric chair or banana split leg attacks. The whole tactical game changes when you make them afraid of your bottom position instead of just trying to survive their passing pressure. What I teach is treating quarter guard as a submission hunting position rather than an escape position—that mindset shift completely changes how you approach the technique and dramatically improves your success rate.
 

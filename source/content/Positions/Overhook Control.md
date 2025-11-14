@@ -8,7 +8,7 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Overhook Control?
 
 Overhook Control Position, also known as the whizzer in wrestling terminology, represents one of the most versatile control mechanisms in Brazilian Jiu-Jitsu and grappling. This control involves wrapping your arm over the opponent's extended arm from above, creating a vice-like connection with your armpit sealed tightly over their shoulder. The position appears across countless scenarios including standing clinch exchanges, turtle attacks, front headlock sequences, half guard battles, and as a fundamental counter to underhook attempts.
 
@@ -50,7 +48,7 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Short to Medium |
 
-**What Makes This Unique:** Arm elevation neutralizes offensive capability
+**Key Difference:** Arm elevation neutralizes offensive capability
 
 
 
@@ -76,10 +74,6 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ## Playing as Bottom
 
 [[Overhook Control/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -160,10 +154,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Overhook Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -242,7 +232,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -153,14 +153,10 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
 
 
 
-> Whizzer transitions from [[Overhook Control]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Whizzer?
 
 The Whizzer is a fundamental overhook control position that serves as both a powerful defensive mechanism and an offensive transition tool in Brazilian Jiu-Jitsu. Borrowed from wrestling, this technique involves threading your arm over your opponent's arm and controlling their shoulder, creating a mechanical advantage that neutralizes underhook-based attacks while opening pathways to dominant positions. The Whizzer excels in multiple contexts: defending single-leg takedowns, preventing back takes from turtle, controlling scrambles, and setting up your own offensive transitions to back control or reversal positions. Understanding when to establish, maintain, and abandon the Whizzer separates competent grapplers from those who get swept or taken down repeatedly. The position's effectiveness stems from its ability to control your opponent's posture and limit their hip mobility while preserving your own defensive structure and offensive options.
 
@@ -199,7 +195,7 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Identify underhook threat**: Recognize when opponent is establishing or has established an underhook on your torso. This is most common during scrambles, turtle defense, single-leg defense, or standing clinch exchanges. Feel their arm reaching deep around your body or under your armpit. (Timing: React immediately upon feeling underhook pressure)
 2. **Thread the overhook**: Drive your arm over the top of opponent's underhooking arm, threading it through the gap between their arm and their body. Your bicep should connect with the back of their shoulder. Reach as deep as possible, aiming to get your hand past their far shoulder blade for maximum control depth. (Timing: Execute while opponent is committed to their underhook)
 3. **Lock the shoulder**: Squeeze your elbow tight to your body, creating a vice grip on opponent's shoulder and upper arm. Your forearm should be driving across their upper back. Pull their trapped arm tight to your torso, eliminating space between your body and their shoulder. This mechanical connection prevents them from extracting their arm. (Timing: Immediate upon completing the thread)
@@ -291,7 +287,7 @@ Training partner uses sophisticated counters: switching underhooks, dropping wei
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical advantage created by a properly executed Whizzer?
 **A**: The Whizzer creates a lever system where your overhook controls the opponent's shoulder joint while your hip angle prevents them from using their underhook to complete their technique. By controlling the top of their arm structure at the shoulder, you have superior leverage over their attempt to control your body with an underhook. The combination of shoulder control and hip angle makes it mechanically impossible for them to finish most underhook-based attacks.
 

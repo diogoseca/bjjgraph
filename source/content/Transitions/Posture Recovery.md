@@ -153,14 +153,10 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
 
 
 
-> Posture Recovery transitions from [[Closed Guard]] to [[Combat Base]]. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Posture Recovery?
 
 Posture Recovery is a fundamental defensive technique used when your posture has been broken while inside an opponent's guard. This critical skill allows you to regain an upright, stable position from which you can effectively pass or defend against submissions and sweeps. Breaking an opponent's posture is one of the primary objectives from guard positions, making posture recovery an essential skill for any top player. The technique involves a systematic approach to creating space, establishing proper base, and using controlled movements to return to an advantageous position. Mastering posture recovery is crucial because it represents the difference between maintaining offensive potential and being swept or submitted. When executed properly, it neutralizes the guard player's attacks while preserving your energy and positioning for continued passing attempts.
 
@@ -199,7 +195,7 @@ Posture Recovery is a fundamental defensive technique used when your posture has
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Assess threats**: Before initiating recovery, quickly identify immediate submission threats such as collar chokes, armbars, or triangle setups. Check hand positions, collar grips, and hip angle. This assessment determines your recovery path and urgency level. (Timing: Immediate upon posture break)
 2. **Establish hand frames**: Place hands on opponent's hips, biceps, or chest to create initial frames. If they have collar grips, prioritize breaking or controlling these first. Your hands should be positioned to push while protecting your own neck and arms from isolation. (Timing: Within 1-2 seconds of assessment)
 3. **Widen base**: Spread your knees outward to create a wider, more stable base. This prevents easy sweeps and provides the foundation for driving your hips backward. Your feet should be positioned to allow backward movement while maintaining balance. (Timing: Simultaneous with hand frames)
@@ -296,7 +292,7 @@ Regularly drill posture recovery as part of warm-ups and technique sessions. Vid
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary movement that creates distance during posture recovery?
 **A**: Driving the hips backward and downward away from the opponent is the primary movement. This hip drive creates the necessary distance to begin straightening the spine and recovering upright posture. The movement should be initiated from the legs and hips, not from pulling with the upper body or jerking the head back.
 

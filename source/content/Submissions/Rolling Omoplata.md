@@ -147,14 +147,12 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 
 
 
-> Rolling Omoplata is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Rolling Omoplata targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rolling Omoplata?
 
 The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on momentum and transition phases during scrambles, failed sweeps, or guard recovery situations. Unlike the traditional static omoplata from closed or open guard, this variation involves a rolling motion that allows the practitioner to capture the opponent's shoulder joint while both grapplers are in movement. This technique is particularly effective when transitioning from failed sweep attempts, inverting under pressure, or recovering guard against aggressive passing attempts. The rolling motion generates unexpected leverage on the shoulder while simultaneously off-balancing the opponent, making it difficult to defend once initiated. The technique requires excellent timing, spatial awareness, and flexibility, as the practitioner must coordinate their hip rotation with leg positioning while maintaining control of the opponent's trapped arm throughout the roll. The Rolling Omoplata represents modern BJJ's evolution toward dynamic, flow-based submissions that blur the lines between offense and defense, making it a favorite among competitors who emphasize movement-based games.
 
@@ -240,7 +238,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Arm isolation and initial control**: During a scramble, failed sweep, or transition, identify when opponent posts their arm or extends it for base. Secure control of this arm by gripping the wrist or controlling it with your legs. Your opponent should be slightly off-balance with their weight forward or lateral. This is often available when they're defending a sweep or trying to pass your guard. (Timing: Opportunistic - requires reading the scramble) [Pressure: Light]
 2. **Hip positioning for the roll**: Position your hips near the opponent's trapped shoulder while maintaining arm control. Your body should be oriented perpendicular or angled to your opponent. Begin to load your weight onto your shoulders and upper back in preparation for the rolling motion. Your free leg should be positioned to hook over the opponent's back or shoulder during the roll. (Timing: 1-2 seconds - establish position) [Pressure: Light]
 3. **Initiate the rolling motion**: Execute a smooth backward roll over your shoulder, similar to a granby roll, while maintaining control of the isolated arm. As you roll, your hips should rotate toward the opponent's head, and your legs should begin to position around their shoulder and head. The roll should be fluid and controlled, not explosive or sudden. Use your momentum to swing your legs into position. (Timing: 2-3 seconds - complete the roll) [Pressure: Moderate]
@@ -310,7 +308,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for the Rolling Omoplata in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 4-6 seconds with gradual pressure increase. This is critical because the shoulder joint is extremely vulnerable to sudden rotational forces, and the dynamic nature of the rolling entry can generate unexpected momentum. The trapped partner may have limited ability to tap with the captured arm, so slower application gives them time to recognize the danger and tap with their free hand or verbally. Rushing the technique significantly increases the risk of rotator cuff tears or shoulder dislocation.
 

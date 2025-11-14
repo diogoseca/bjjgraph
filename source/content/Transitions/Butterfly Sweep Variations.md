@@ -153,14 +153,10 @@ description: "Master Butterfly Sweep variations in BJJ. Learn Hook Sweep, Elevat
 
 
 
-> Butterfly Sweep Variations transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Butterfly Sweep Variations?
 
 The Butterfly Sweep family represents one of the most versatile and high-percentage sweeping systems in Brazilian Jiu-Jitsu. Unlike the basic Butterfly Sweep which relies primarily on the hook and lift motion, these variations adapt to different grips, postures, and defensive reactions from your opponent. The Hook Sweep emphasizes rotational momentum when your opponent posts wide, the Elevator Sweep exploits forward pressure by launching them overhead, and the Arm Drag variation combines off-balancing with positional advancement to the back. Understanding these variations transforms the butterfly guard from a single-technique position into a dynamic attacking system where each defensive adjustment creates a new sweeping opportunity. The key to mastering these variations lies in recognizing your opponent's weight distribution and grip configuration, then selecting the sweep that best exploits their current structure. This systematic approach to butterfly guard sweeps allows practitioners to maintain constant offensive pressure while developing the sensitivity to feel which variation will have the highest success probability in real-time.
 
@@ -199,7 +195,7 @@ The Butterfly Sweep family represents one of the most versatile and high-percent
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish butterfly guard control**: Secure butterfly guard with both hooks active under opponent's hips, feet flexed and positioned to generate lifting power. Establish upper body control through collar and sleeve grips (gi) or underhooks/overhooks (no-gi). Maintain upright posture with chest connected to opponent's chest, preventing them from creating distance or establishing heavy top pressure. (Timing: Before opponent establishes dominant grips or heavy pressure)
 2. **Read opponent's defensive structure**: Assess opponent's weight distribution, base width, and grip configuration. If they sit back with wide base, prepare Hook Sweep. If they drive forward with pressure, prepare Elevator Sweep. If they're upright but squared, prepare Arm Drag variation. This decision-making process should become instinctive through repetition, reading subtle weight shifts that telegraph their defensive strategy. (Timing: Continuous assessment during guard engagement)
 3. **Execute Hook Sweep (Variation 1)**: For wide-based opponents: Secure collar and sleeve grips, then simultaneously lift with one butterfly hook while pulling opponent's sleeve across their body and rotating your shoulders in the same direction. The hook creates elevation while the sleeve pull breaks their base to the side. Your free leg extends to the mat for leverage as you complete the rotation to mount or side control top. (Timing: When opponent posts wide or circles to one side)
@@ -294,7 +290,7 @@ Practice entering butterfly guard from standing guard pulls, seated guard, and s
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary indicator that should trigger selection of the Hook Sweep variation rather than the Elevator Sweep?
 **A**: The Hook Sweep should be selected when the opponent has a wide base with their weight distributed to the sides, or when they are circling to one direction. This wide base makes overhead elevation difficult but creates vulnerability to rotational sweeps. In contrast, the Elevator Sweep works best when opponent's weight is square and driving forward, making the lifting motion more effective than rotation.
 

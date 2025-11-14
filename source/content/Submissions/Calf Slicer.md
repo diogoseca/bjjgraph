@@ -153,14 +153,12 @@ description: "Master the Calf Slicer in BJJ. Complete guide with safety protocol
 
 
 
-> Calf Slicer is a leg compression targeting the Calf muscle and Achilles tendon. ⚠️ **SAFETY**: This technique can cause Calf muscle tear or rupture. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Calf Slicer targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Calf Slicer?
 
 The Calf Slicer is a compression-based leg submission that targets the calf muscle and Achilles tendon by creating a wedge with your shin bone against the opponent's lower leg. This submission applies tremendous pressure to the muscle belly and can cause severe muscle damage if applied too quickly or aggressively. The technique is most commonly executed from the Truck position, 50-50 Guard, and various scrambles where leg entanglement creates the opportunity. Unlike joint locks that target ligaments and tendons, the Calf Slicer creates a crushing pressure that can cause muscle tears, nerve damage, and extensive bruising. The submission is particularly dangerous because the pain can be delayed, meaning injury may occur before the opponent recognizes the need to tap. In competition, this technique is generally restricted to brown and black belt levels due to its injury potential. The mechanical principle relies on using your shin as a fulcrum while pulling the opponent's foot and applying pressure with your hips, creating a scissors-like compression that becomes unbearable rapidly.
 
@@ -245,7 +243,7 @@ The Calf Slicer is a compression-based leg submission that targets the calf musc
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish leg entanglement**: From the Truck or 50-50 position, ensure your legs are wrapped around one of your opponent's legs. Your top leg should be positioned so your shin can cross their calf, while your bottom leg hooks behind their knee or over their thigh to prevent them from straightening their leg. (Timing: Initial setup, 2-3 seconds) [Pressure: Light]
 2. **Insert shin across calf**: Slide your shin bone across the back of your opponent's calf muscle, positioning it as deep as possible into the pocket behind their knee. The bony part of your shin should make contact with the soft tissue of their calf. This is the critical placement that determines submission effectiveness. (Timing: Precise placement, 1-2 seconds) [Pressure: Light]
 3. **Secure foot control**: Grip your opponent's foot or ankle with both hands, or trap it in the crook of your arm or armpit. This control prevents them from rotating their leg to relieve pressure and is essential for maintaining the submission. Consider using a figure-four grip around their ankle for maximum control. (Timing: Immediate after shin insertion) [Pressure: Moderate]
@@ -314,7 +312,7 @@ The Calf Slicer is a compression-based leg submission that targets the calf musc
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for a Calf Slicer in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 5-7 seconds with slow, progressive pressure. This is critical because calf slicers cause muscle damage that may not produce immediate pain, meaning injury can occur before the opponent realizes they need to tap. Slow application gives the partner time to recognize the submission and tap safely before tissue damage occurs.
 

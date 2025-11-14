@@ -147,14 +147,10 @@ description: "Master Knee Slice pass in BJJ. Complete breakdown from half guard 
 
 
 
-> Knee Slice transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Slice?
 
 The Knee Slice pass is one of the most fundamental and effective guard passing techniques in Brazilian Jiu-Jitsu. This dynamic passing system creates a powerful slicing motion that cuts through the guard's defensive structure, specifically targeting the space between the opponent's legs. The technique combines forward pressure with lateral movement, making it extremely difficult for the bottom player to maintain their guard retention. The Knee Slice is particularly effective against half guard, knee shield, and various open guard positions. Its effectiveness stems from the simultaneous attack on multiple defensive frames - as you slice your knee through, you collapse the opponent's knee shield while controlling their upper body, creating a direct path to dominant side control. This pass is valued across all levels of competition for its reliability, pressure-based mechanics, and ability to chain into other passing sequences when met with resistance.
 
@@ -193,7 +189,7 @@ The Knee Slice pass is one of the most fundamental and effective guard passing t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and posture**: From top half guard position, secure a cross-collar grip or grip on the far side sleeve. Your other hand posts on the mat near opponent's hip for base. Drive your chest forward to create pressure and maintain upright posture, preventing them from breaking you down. (Timing: Initial setup phase before movement begins)
 2. **Break down knee shield**: If opponent has knee shield, use your free hand to push their knee down toward the mat while simultaneously driving your chest forward. This collapses their primary defensive frame and opens the pathway for your knee to slice through. Maintain constant forward pressure throughout this breakdown. (Timing: As soon as grips are established)
 3. **Step inside leg forward**: Step your inside leg (the leg trapped in their half guard) forward and slightly toward their hip line. Your knee should be positioned to cut diagonally across their bottom thigh. This creates the angle necessary for the slicing motion and begins to flatten them to their back. (Timing: Immediately after knee shield is neutralized)
@@ -289,7 +285,7 @@ Use knee slice as your primary passing option during regular sparring rounds. Fo
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary target line for your knee during the knee slice pass?
 **A**: The knee should slice diagonally across the opponent's thigh, moving from their hip line toward their far shoulder. This angle is critical because it simultaneously collapses their defensive structure while moving your body toward the passing position. Slicing too high allows them to recover guard underneath you, while slicing too low gives them space to turn in.
 

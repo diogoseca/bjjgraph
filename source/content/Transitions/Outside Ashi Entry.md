@@ -153,14 +153,10 @@ description: "Master the Outside Ashi Entry from standing. Learn systematic appr
 
 
 
-> Outside Ashi Entry transitions from [[Standing Position]] to [[Outside Ashi-Garami]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Outside Ashi Entry?
 
 The Outside Ashi Entry is a fundamental leg entanglement technique that allows practitioners to transition from standing positions into the Outside Ashi Garami position, establishing immediate leg lock threats. This entry is particularly effective in no-gi grappling and represents one of the foundational movements in modern leg lock systems. The technique capitalizes on the opponent's forward pressure or stance while maintaining a connection to their leg, ultimately resulting in a dominant leg entanglement position where multiple submission options become available.
 
@@ -204,7 +200,7 @@ This technique has become increasingly prevalent in modern competition due to it
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish initial grip connection**: From standing, establish a controlling grip on the opponent's lead leg, typically at the ankle or lower shin. Simultaneously maintain an upper body connection through collar ties, wrist control, or shoulder pressure. The grip should be firm but allow for quick adjustment as you begin the entry sequence. Your posture should remain upright initially to disguise the upcoming level change. (Timing: Establish grip during opponent's forward step or weight shift)
 2. **Execute controlled level change**: Drop your level by bending at the knees and hips while maintaining grip on the opponent's leg. Your head position should move to the outside of their trapped leg, creating the proper angle for outside ashi. Keep your spine relatively straight during this drop to maintain structural integrity and prevent being sprawled upon. The level change should be explosive enough to commit but controlled enough to maintain balance. (Timing: Drop as opponent commits weight forward or is momentarily static)
 3. **Secure the leg and begin rotation**: As you drop, pull the opponent's trapped leg tight to your chest using your initial grip, now reinforced by wrapping your arms around the ankle and lower shin. Begin rotating your body perpendicular to the opponent's stance, with your chest turning toward their trapped knee. This rotation is crucial for achieving the proper outside angle and prevents the opponent from simply stepping over or sprawling effectively. (Timing: Initiate rotation immediately upon completing level change)
@@ -306,7 +302,7 @@ Regular practice in full sparring and competition settings. Develop entry timing
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical head position during the outside ashi entry and why?
 **A**: The head must be positioned on the outside of the opponent's trapped leg throughout the entry. This positioning prevents guillotine attacks, facilitates proper rotation mechanics by allowing your body to turn perpendicular to the opponent, and maintains structural safety during the level change. Inside head position makes you vulnerable to submissions and mechanically compromises the rotation needed for successful entry.
 

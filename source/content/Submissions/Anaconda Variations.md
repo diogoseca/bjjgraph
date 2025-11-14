@@ -147,14 +147,12 @@ description: "Master Anaconda choke variations in BJJ. Complete guide covering a
 
 
 
-> Anaconda Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Anaconda Variations targets the Carotid arteries and trachea. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Anaconda Variations?
 
 The Anaconda choke variations represent a sophisticated family of blood chokes that capitalize on front headlock control, turtle attacks, and scramble situations. Unlike the standard anaconda which relies purely on arm encirclement and body compression, these variations offer tactical adaptations for different defensive responses, body types, and positional contexts. The arm-in anaconda sacrifices pure choking mechanics for superior control when opponents defend their neck aggressively. The high elbow variation generates increased shoulder pressure into the carotid while maintaining structural integrity against athletic opponents. The marce choke represents a hybrid evolution combining anaconda mechanics with darce-style shoulder driving, creating a powerful finishing option when traditional angles are compromised. Understanding these variations transforms the anaconda from a single technique into a complete submission system capable of finishing from multiple entries and adapting to diverse opponent responses. Modern competition demonstrates that variation mastery dramatically increases finishing percentages, as opponents who defend one variation often expose themselves to another.
 
@@ -242,7 +240,7 @@ The Anaconda choke variations represent a sophisticated family of blood chokes t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure deep arm penetration**: From front headlock position, drive your choking arm (same side as controlled head) deep under opponent's neck. Your elbow must clear past their centerline completely. For arm-in variation, capture their defensive arm inside your grip. For high elbow variation, keep elbow elevated near their temple. Your forearm crosses their throat at the carotid arteries, not the trachea. This deep penetration is critical - shallow placement will fail regardless of compression applied. (Timing: 2-3 seconds - establish depth before proceeding) [Pressure: Light]
 2. **Lock hands and trap opponent's shoulder**: Secure your grip by connecting your choking hand to your opposite hand. For standard anaconda, use gable grip (palm to palm) or s-grip (fingers interlaced). Your non-choking arm reaches across opponent's back and under their far armpit. Lock your hands on the far side of their body. Your choking-side shoulder should now be positioned behind their near shoulder, creating the trap. This configuration turns their own shoulder into a choking mechanism as you apply compression. (Timing: 1-2 seconds - secure lock before compression) [Pressure: Moderate]
 3. **Establish body lock and hip pressure**: Circle your hips toward opponent's far side while maintaining the arm encirclement. Your body should form a tight 'C' shape wrapped around their upper body. Drive your hips forward and slightly upward, creating compression. Your chest presses into their trapped shoulder from behind. For marce variation, emphasize shoulder driving similar to darce mechanics. Your head position stays tight to their far hip or ribs to prevent space. This body lock multiplies the choking pressure exponentially. (Timing: 1-2 seconds - position for finish) [Pressure: Firm]
@@ -312,7 +310,7 @@ The Anaconda choke variations represent a sophisticated family of blood chokes t
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for anaconda variations in training, and why is progressive pressure essential? **[SAFETY-CRITICAL]**
 **A**: Minimum 4-6 seconds of progressive pressure application is required in training. Progressive pressure is essential because blood chokes affecting the carotid arteries can cause unconsciousness rapidly if applied explosively. Gradual application gives your partner time to recognize the danger and tap before losing consciousness. It also teaches proper technical mechanics rather than relying on speed and surprise. Explosive application in training represents a critical safety violation that can cause injury and breaks the fundamental trust required for learning submissions safely.
 

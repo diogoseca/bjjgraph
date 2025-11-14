@@ -145,14 +145,10 @@ description: "Master the Leg Weave Pass in BJJ. Step-by-step pressure passing fr
 
 
 
-> Leg Weave Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Leg Weave Pass?
 
 The Leg Weave Pass is a highly effective pressure passing technique used to control and pass the half guard. This technique involves threading your leg between the opponent's legs while maintaining heavy top pressure, creating a configuration that severely limits the bottom player's mobility and defensive options. The leg weave creates a unique control position that combines elements of smash passing with positional control, making it particularly effective against modern half guard retention strategies. The technique is characterized by inserting your inside leg (the leg on the same side as the opponent's lockdown or half guard) through and over the opponent's bottom leg, creating a weaving pattern that traps their legs and prevents hip movement. This passing method has become increasingly popular in modern competition BJJ due to its effectiveness against knee shield and deep half guard variations. The leg weave pass represents a systematic approach to passing that prioritizes control and pressure over speed, making it an essential technique for practitioners who favor a methodical, pressure-based passing game.
 
@@ -191,7 +187,7 @@ The Leg Weave Pass is a highly effective pressure passing technique used to cont
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish heavy crossface pressure**: From top half guard, drive your shoulder across the opponent's face while securing a strong crossface with your near arm. Your weight should be distributed primarily through your chest and shoulder, creating downward pressure that makes it difficult for the opponent to turn into you or create effective frames. Keep your head positioned on the far side of the opponent's head. (Timing: Initial control phase - establish before attempting the weave)
 2. **Control the far hip**: With your far hand, reach across and grip the opponent's far hip or pants at the hip level. This grip is crucial as it prevents the opponent from turning into you or bridging effectively. Your elbow should be positioned tight to your body to maintain connection and prevent the opponent from creating space between your bodies. (Timing: Simultaneous with or immediately after crossface establishment)
 3. **Thread the inside leg through**: Begin threading your inside leg (the leg that's between the opponent's legs) by lifting your knee and driving it forward and over the opponent's bottom leg. Your shin should slide across the opponent's bottom thigh as you weave your leg through. This creates the characteristic weaving pattern that gives the technique its name. Maintain heavy pressure throughout this movement to prevent the opponent from shrimping away. (Timing: Once controls are secure - this is the defining movement of the pass)
@@ -274,7 +270,7 @@ Incorporate the leg weave pass into your regular passing game during live traini
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of threading your leg through the opponent's guard in the leg weave pass?
 **A**: The primary purpose is to create a configuration that traps and immobilizes the opponent's legs beneath your shin, preventing them from using their legs to create frames, shrimp away, or recover guard. This control position combines the benefits of pressure passing with leg control, making it extremely difficult for the bottom player to escape.
 

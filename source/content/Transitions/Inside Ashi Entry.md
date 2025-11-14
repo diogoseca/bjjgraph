@@ -147,14 +147,10 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
 
 
 
-> Inside Ashi Entry transitions from [[Open Guard]] to [[Inside Ashi-Garami]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Inside Ashi Entry?
 
 Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.
 
@@ -194,7 +190,7 @@ Inside Ashi Entry is a fundamental transition in modern leg lock systems that es
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish leg control**: From open guard, secure a two-on-one grip on your opponent's near leg, with one hand controlling the ankle and the other hand gripping behind the knee or on the calf. Pull this leg slightly toward you to break their base and prevent them from stepping back. (Timing: Execute when opponent steps forward or posts their weight)
 2. **Thread inside leg**: Simultaneously as you pull their leg, thread your inside leg (the leg on the same side as the leg you're attacking) between their legs, driving your knee and shin through the gap between their thighs. Your shin should end up across their far hip, creating a wedge that prevents hip rotation. (Timing: Thread leg immediately upon securing grips before opponent can react)
 3. **Hook outside leg**: Swing your outside leg over and around their near hip, hooking your foot behind their thigh or calf. This leg acts as a secondary control mechanism that prevents them from circling away or extracting their trapped leg. Keep this leg active with constant backward pressure. (Timing: Hook should occur as inside leg wedge is establishing)
@@ -292,7 +288,7 @@ Use inside ashi entry during regular sparring sessions, starting from standing o
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the defining characteristic of the 'inside' position in inside ashi garami?
 **A**: The inside position is defined by having your outside leg positioned between your opponent's legs, creating a wedge across their far hip. This inside leg acts as a blocking mechanism that prevents hip rotation and escape, distinguishing inside ashi from outside ashi where your legs are positioned on the outside of their leg.
 

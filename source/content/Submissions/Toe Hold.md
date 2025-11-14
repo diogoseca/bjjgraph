@@ -153,14 +153,12 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
 
 
 
-> Toe Hold is a leg lock targeting the Ankle, toes, and foot ligaments. ⚠️ **SAFETY**: This technique can cause Ankle ligament tears (lateral and medial collateral ligaments). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Toe Hold targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Toe Hold?
 
 The Toe Hold is a powerful leg lock submission that attacks the ankle joint and foot by controlling the heel and applying rotational pressure to the toes and forefoot. Unlike straight ankle locks that compress the joint, the Toe Hold creates a twisting, hyperextending force that threatens multiple structures simultaneously - the ankle ligaments, the small joints of the toes, and the plantar fascia. This makes it an extremely effective finishing technique when applied correctly, but also one that requires exceptional control and awareness due to the injury potential.
 
@@ -252,7 +250,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish heel control**: From your leg entanglement position, use both hands to grip the opponent's heel firmly. Pull the heel tight against your chest or shoulder, creating a secure anchor point. The heel should be trapped between your forearm and torso, making it impossible for the opponent to pull their foot away. This is your primary control and must be established before proceeding. (Timing: 2-3 seconds to secure firmly) [Pressure: Firm]
 2. **Transition to toe grip**: Maintaining heel control with one arm, reach your other hand across your body to grip the opponent's toes and ball of the foot. Your grip should encompass all the toes - use a cupping grip with your palm on the ball of the foot and fingers wrapping around the toes. Never grip individual toes as this can cause fractures. The blade of your forearm should now run along the bottom of their foot. (Timing: 1-2 seconds for grip transition) [Pressure: Light]
 3. **Adjust your torso angle**: Lean slightly back and angle your upper body so that the opponent's heel is pinned securely against your shoulder or upper chest. This creates the fulcrum point for the submission. Your body angle should be approximately 45 degrees from vertical. The heel must stay completely immobile against this point - any movement here compromises the submission. (Timing: 1 second to adjust position) [Pressure: Moderate]
@@ -326,7 +324,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time that should be taken when applying rotational pressure during training? **[SAFETY-CRITICAL]**
 **A**: A minimum of 3-5 seconds of progressive, controlled rotation. In training, this should be even slower - 5-7 seconds is recommended. The rotation must never be sudden or explosive. The goal in training is to allow your partner to recognize the submission and tap safely, not to finish as quickly as possible. Competition speed application is only appropriate in actual competition and even then must be controlled to avoid injury.
 

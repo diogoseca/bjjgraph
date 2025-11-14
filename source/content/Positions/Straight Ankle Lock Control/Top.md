@@ -8,7 +8,7 @@ description: "Master defensive strategies from top of straight ankle lock contro
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master defensive strategies from top of straight ankle lock contro
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 55% of the time and finish submissions in 20%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: Medium to High
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Straight Ankle Lock Control from the Top?
 
 From the defensive top perspective, being caught in straight ankle lock control represents a critical decision point where immediate intelligent action determines whether the practitioner escapes to safety or becomes increasingly trapped in progressively more dangerous leg entanglement systems. Unlike traditional top positions where time and patience favor the top player, straight ankle lock control reverses this dynamic - every moment spent in this configuration allows the bottom attacker to improve their control and advance toward more dominant positions.
 
@@ -473,17 +452,17 @@ Partner establishes straight ankle lock control and applies moderate submission 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The defensive problem posed by straight ankle lock control is fundamentally about time management and hierarchical objective prioritization. From the moment your ankle is controlled, a countdown begins where your escape probability decreases with each passing second as the attacker improves their position and identifies transition opportunities. The untrained response is panicked explosive movement attempting to rip the foot free through strength alone, which fails against any competent attacker and often facilitates exactly the transitions they want. The systematic defensive approach begins with immediate recognition of the threat level based on the attacker's grip configuration and leg positioning. If the attacker has secured strong grips but not yet completed leg triangle control, your window for direct escape remains open and should be exploited immediately through proper hip rotation and knee extraction mechanics. If leg triangle control is established, your priority shifts from direct escape to preventing transitions to inside or outside ashi configurations where the danger escalates substantially. Understanding this hierarchical decision tree - when to pursue escape, when to prevent transition, when to establish counter-control - separates successful defenders from those who become trapped in progressively worse positions. The technical details of specific escape sequences matter less than the conceptual framework that guides when each sequence applies and what defensive objective it serves.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In high-level competition, being caught in straight ankle lock control represents a failure in defensive awareness that occurred several steps earlier in the engagement sequence. Elite competitors understand the common entry patterns to leg attacks - how single leg X guard creates ankle lock opportunities, how certain guard passing approaches expose the lead leg to entanglement - and implement preventive measures that shut down attacks before control is established. Once you're actually stuck defending straight ankle lock control, your competitive objective is escaping to neutral before the attacker can advance to positions where heel hooks threaten. Against world-class leg lockers, allowing progression to inside ashi or saddle essentially ends the match because their finishing rates from those positions approach certainty. This creates enormous pressure to escape immediately using whatever method the situation allows - direct extraction, standing escape, symmetrical entry to 50-50, even aggressive passing attempts if the attacker commits too heavily to submission and sacrifices position. What doesn't work is passive hoping or conservative defensive postures that allow the attacker time to improve their situation. The escape must be immediate, aggressive, and technically sound, executed with full understanding that time is not your friend in this position. Training should emphasize rapid recognition and explosive systematic escape rather than extended defensive engagements, because extended engagements favor attackers who have developed extensive transition systems from this control position.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 From our perspective at 10th Planet, defending straight ankle lock control requires combining systematic technical escape with willingness to engage in dynamic scrambles that create chaos and reset the engagement. While the traditional approach emphasizes methodical hierarchical escapes, we also recognize value in explosive athletic movements that take the attacker out of their comfort zone and force real-time adaptation rather than practiced transitions. If the attacker expects measured technical escape attempts, surprising them with explosive rotations or aggressive passing attempts can create opportunities that don't exist in more predictable defensive sequences. The position also connects to our broader philosophy about leg lock exchanges in no-gi grappling where mutual entanglement is common and both practitioners must simultaneously attack and defend. Being comfortable in these asymmetrical or symmetrical leg entanglement scenarios - maintaining composure while your leg is controlled and threatening your own attacks - is essential for modern no-gi competition. Training should include significant time spent in uncomfortable defensive positions, building mental toughness and developing instinctive responses that function under submission threat. The innovation comes from recognizing that defense and offense aren't separate sequential actions but simultaneous aspects of the same engagement, where threatening counter-attacks often creates the space needed for successful escape.
 

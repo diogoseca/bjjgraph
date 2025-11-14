@@ -159,14 +159,10 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 
 
 
-> 100% Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 20%, Intermediate 40%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is 100% Sweep?
 
 The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an advanced closed guard technique that reverses position from bottom to top by isolating the opponent's arm and using precise hip movement. This sweep exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The technique starts from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement. The 100% Sweep is particularly effective against opponents who posture aggressively or attempt to break the guard, making it a high-percentage competition technique. Success requires excellent timing, proper arm control, and dynamic hip mobility to roll the opponent over their trapped arm and shoulder. This sweep is essential for advanced practitioners developing a sophisticated closed guard game and understanding the mechanics of limb isolation sweeps.
 
@@ -205,7 +201,7 @@ The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish Closed Guard Control**: Start in Closed Guard with your legs locked around the opponent's waist, facing them as they posture up or attempt to break your guard. Your hands control their wrists or sleeves to prevent strikes or grip breaks, while maintaining a tight guard to keep their posture under control, and your feet locked securely behind their back to trap them in place.
 2. **Secure Grip Control**: Control the opponent's wrists or sleeves using both hands to limit their actions. Keep your hands actively gripping to prevent them from establishing strong posture or creating space. This grip control is essential for setting up the arm trap in the next steps and preventing them from posting their hands to defend.
 3. **Break Opponent's Posture**: Maintain a tight guard by squeezing your knees together to break the opponent's posture. Pull them down using your legs and core, ensuring your head is positioned defensively to avoid being easily stacked. Keep strong tension in your closed guard to limit their movement and prepare for the arm isolation.
@@ -303,7 +299,7 @@ Apply the 100% Sweep in full sparring and competition simulation rounds. Focus o
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What creates the primary leverage mechanism in a 100% Sweep?
 **A**: The primary leverage comes from trapping the opponent's arm across your body while simultaneously shifting your hips to the side of that trapped arm. This creates a fulcrum effect where the trapped arm and your hip position combine to roll the opponent over. The planted foot provides additional power by driving your hips upward and to the side, completing the rotational force needed to sweep them over their trapped shoulder.
 

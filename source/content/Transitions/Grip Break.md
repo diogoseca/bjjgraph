@@ -147,14 +147,10 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
 
 
 
-> Grip Break transitions from [[Open Guard]] to [[Open Guard]]. Success rates: Beginner 60%, Intermediate 75%, Advanced 90%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Grip Break?
 
 Grip breaking is a fundamental skill in Brazilian Jiu-Jitsu that serves as the foundation for both offensive and defensive guard play. Whether you're playing guard or attempting to pass, the ability to systematically break your opponent's grips determines who controls the engagement and dictates the pace of the match. This technique encompasses a variety of methods to release collar grips, sleeve grips, pant grips, and body locks, each requiring specific biomechanical principles and timing.
 
@@ -197,7 +193,7 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Identify priority grip**: Assess which of your opponent's grips poses the greatest immediate threat to your position. Collar grips typically threaten posture control and chokes, sleeve grips limit your arm mobility and framing ability, and pant grips control your hip movement and leg positioning. Prioritize breaking grips that directly prevent your intended technique or allow opponent advancement. (Timing: Immediately upon opponent establishing grip)
 2. **Establish two-on-one control**: Bring both of your hands to control the single gripping hand of your opponent. Your first hand should grip their wrist while your second hand grips their sleeve or gi material near the elbow. This creates a fundamental mechanical advantage where you're using two limbs against their one, making the break significantly easier and more reliable. (Timing: Before opponent consolidates their grip into a strong control position)
 3. **Create breaking angle**: Adjust your body position to create the optimal angle for breaking the specific grip. For collar grips, this often means creating space by framing with your legs or hips. For sleeve grips, angle your body to add rotational force to the break. The key is to position yourself so you're breaking in the direction that naturally opens the grip rather than fighting against the strongest part of their grip structure. (Timing: Simultaneous with establishing two-on-one control)
@@ -286,7 +282,7 @@ Full-resistance positional sparring where successful grip fighting directly dete
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is two-on-one control essential for effective grip breaking?
 **A**: Two-on-one control creates a fundamental mechanical advantage by using two of your limbs against one of your opponent's limbs. This makes the grip break significantly easier and more reliable because you can apply force from multiple angles simultaneously while controlling their ability to adjust or reinforce their grip. It's exponentially more effective than trying to break a grip with equal numbers of limbs.
 

@@ -147,14 +147,12 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 
 
 
-> Loop Choke from Mount is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Loop Choke from Mount targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Loop Choke from Mount?
 
 The Loop Choke from Mount is a devastating gi-based blood choke that leverages the attacker's dominant top position to create an inescapable strangling mechanism using the opponent's own collar. This technique exemplifies the principle of using positional control to set up high-percentage submissions. From mount, the practitioner feeds one hand deep into the opponent's collar while securing the opposite side lapel with the other hand, creating a loop configuration that tightens around the neck as pressure is applied. The beauty of this submission lies in its ability to be applied from one of the most dominant positions in BJJ, making it extremely difficult to defend once properly set up. Unlike many other mount attacks that require significant positional shifts, the loop choke can be finished while maintaining full mount control, allowing the attacker to threaten the submission without compromising position. The technique works on a biomechanical principle where the opponent's own collar becomes a noose, with the attacker's grips creating opposing vectors of force that compress both carotid arteries simultaneously.
 
@@ -234,7 +232,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish mount control and isolate near arm**: From solid mount position, use your weight to pin opponent's hips while simultaneously controlling or trapping their near-side arm. This can be accomplished by pinning their wrist to the mat with your knee, catching their elbow with your hand, or using your weight to limit their defensive frames. The goal is to remove their ability to defend their collar on the side you'll attack. (Timing: 2-3 seconds) [Pressure: Moderate]
 2. **Feed deep collar grip on far side**: Reach across with your same-side hand (right hand to opponent's left collar) and feed your hand deep into their far collar, getting at least four fingers inside with your thumb against their neck. The deeper the grip, the more effective the choke. Use your opposite hand to pull their collar away from their neck to create space for insertion. Your elbow should be high and your grip should reach past their trachea toward the back of their neck. (Timing: 3-4 seconds) [Pressure: Light]
 3. **Secure opposite side lapel grip**: While maintaining the deep collar grip, use your free hand to grab the opponent's near-side lapel or collar, creating the loop configuration. This grip should be positioned near their shoulder or upper chest area. The two grips now form opposing vectors - one deep in the collar, one controlling the near lapel. (Timing: 2-3 seconds) [Pressure: Light]
@@ -302,7 +300,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time period you should take to apply full pressure in the loop choke from mount during training? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 3-5 seconds from initial tightness to full pressure. This progressive application is a critical safety requirement that gives your training partner adequate time to recognize the choke and tap safely. Competition-speed application is never appropriate in training and significantly increases injury risk. The choke should tighten gradually, allowing your partner to feel the progression and tap at any point.
 

@@ -147,14 +147,12 @@ description: "Master the Achilles Lock leg submission with comprehensive safety 
 
 
 
-> Achilles Lock is a leg lock targeting the Achilles tendon and ankle joint. ⚠️ **SAFETY**: This technique can cause Achilles tendon rupture or tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Achilles Lock targets the Achilles tendon and ankle joint. Risk: Achilles tendon rupture or tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Achilles Lock?
 
 The Achilles Lock is a fundamental leg lock submission that targets the Achilles tendon and ankle joint by creating hyperextension and compression. Unlike heel hooks which attack rotational integrity, the Achilles Lock applies straight pressure to the posterior ankle, making it one of the safer leg attacks when applied with control. This submission is legal at all IBJJF belt levels (with straight ankle variations) and serves as the foundation for understanding leg lock mechanics. The position is typically entered from Ashi Garami variations, Single Leg X Guard, or during scrambles when controlling an opponent's leg. The effectiveness of the Achilles Lock depends on precise hip placement, proper grip configuration, and the ability to create a fulcrum against the opponent's Achilles tendon using your forearm or wrist bone. Understanding this submission is essential for developing a complete leg lock game and provides critical defensive awareness for all practitioners.
 
@@ -238,7 +236,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure the leg position**: From Ashi Garami, ensure your inside leg is firmly across the opponent's hip with your foot on the mat for base. Your outside leg hooks behind their trapped knee with your foot locked to your own hip. Your knees should be squeezed tightly together with no gap. (Timing: 2-3 seconds to establish solid position) [Pressure: Light]
 2. **Grip configuration for heel control**: Reach across and grab your opponent's heel with both hands. Configure a figure-four grip (one hand grabs opposite wrist) or gable grip (palms together). The heel must be trapped deep in your armpit with the Achilles tendon exposed. Ensure the foot cannot rotate or turn. (Timing: 1-2 seconds to secure grip) [Pressure: Light]
 3. **Position the fulcrum point**: Adjust your grip so that either your radius bone (wrist bone on thumb side) or your forearm creates a sharp edge directly against the opponent's Achilles tendon. This should be positioned approximately 2-3 inches above the heel. The sharper the angle, the more effective the submission. (Timing: 1-2 seconds to find exact placement) [Pressure: Light]
@@ -302,7 +300,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the absolute minimum time you should take to apply pressure when finishing an Achilles Lock in training? **[SAFETY-CRITICAL]**
 **A**: The absolute minimum is 3-5 seconds of progressive pressure from initial tension to full extension. This gives your training partner adequate time to recognize the submission and tap safely before any damage occurs to the Achilles tendon or ankle ligaments. In training, you should prioritize safety over speed and apply pressure even more slowly when working with newer partners.
 

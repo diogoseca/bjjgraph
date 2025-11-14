@@ -153,14 +153,10 @@ description: "Learn Guillotine Counter in BJJ. Step-by-step execution from Guill
 
 
 
-> Guillotine Counter transitions from [[Guillotine Control]] to [[Side Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guillotine Counter?
 
 The Guillotine Counter is a critical defensive technique that transforms a dangerous submission threat into a dominant top position. When caught in a guillotine choke, whether standing or on the ground, understanding proper defensive mechanics can mean the difference between tapping and establishing control. This counter relies on fundamental principles of posture management, pressure application, and strategic hand positioning to neutralize the choking threat while simultaneously advancing position. The technique is particularly valuable in both gi and no-gi contexts, as guillotine attempts are common across all levels of competition. By mastering this counter, practitioners develop confidence in scramble situations and learn to remain calm under submission pressure. The guillotine counter exemplifies the BJJ principle that every offensive technique has a systematic defense, and that proper technique overcomes strength and panic.
 
@@ -199,7 +195,7 @@ The Guillotine Counter is a critical defensive technique that transforms a dange
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize and posture**: The moment you feel the guillotine being applied, tuck your chin tightly to your chest and drive your head toward the non-choking side. Maintain a strong, upright posture with your hips forward and shoulders back. Do not allow opponent to break you down or pull your head below their chest level. (Timing: Immediate - within 1 second of feeling the choke)
 2. **Establish hand control**: Your arm on the choking side reaches across your body to grip opponent's choking wrist or forearm. Your opposite hand posts on the mat or grips opponent's hip for base. This hand control is critical to prevent opponent from tightening the choke or adjusting their grip. (Timing: Simultaneous with posture establishment)
 3. **Drive forward pressure**: Using your legs and core, drive your weight forward and down through opponent's chest. Your shoulder on the non-choking side drives into their sternum, flattening their posture and reducing their ability to lift or arch. This pressure makes it difficult for them to generate choking force. (Timing: Continuous pressure - 2-3 seconds)
@@ -295,7 +291,7 @@ Incorporate guillotine defense into regular training without specific setup. Dev
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to keep your head on the non-choking side during the guillotine counter?
 **A**: Keeping your head on the non-choking side creates the proper angle for escape and prevents opponent from tightening the choke. If your head moves toward the choking arm side, you are pulling directly into their leverage, which makes the choke tighter and nearly impossible to escape. The circular escape pattern away from the choking arm is what creates the space needed to extract your head safely.
 

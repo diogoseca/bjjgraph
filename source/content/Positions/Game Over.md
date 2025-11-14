@@ -8,7 +8,7 @@ description: "Master Game Over position in BJJ. Strategic guide covering when to
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Game Over position in BJJ. Strategic guide covering when to
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Game Over?
 
 Game Over represents the terminal state in Brazilian Jiu-Jitsu where a match concludes through submission. This unique position exists outside the traditional positional hierarchy, representing the ultimate objective of all offensive strategies and the endpoint all defensive strategies seek to avoid. Unlike transitional positions that offer opportunities for movement and counter-attack, Game Over is absolute and irreversible once achieved.
 
@@ -58,7 +56,7 @@ Game Over also represents different tactical significance across rule sets. In I
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -72,7 +70,7 @@ Game Over also represents different tactical significance across rule sets. In I
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short |
 
-**What Makes This Unique:** Terminal state requiring full submission
+**Key Difference:** Terminal state requiring full submission
 
 
 
@@ -84,10 +82,6 @@ Game Over also represents different tactical significance across rule sets. In I
 ## Playing as Bottom
 
 [[Game Over/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -168,10 +162,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Game Over/Top|→ Full Top Guide]]
-
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
 
 ### Key Principles
 
@@ -264,7 +254,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

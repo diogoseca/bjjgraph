@@ -147,14 +147,10 @@ description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique fro
 
 
 
-> Knee Tap transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Tap?
 
 The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's weight distribution and stance. By attacking the knee while controlling the upper body, you create a mechanical advantage that collapses their base. This technique is particularly effective against opponents who overcommit their weight forward or stand square in their stance. The Knee Tap works across all skill levels and translates seamlessly between gi and no-gi environments. It requires minimal setup compared to more complex takedowns, making it an essential tool for pulling guard practitioners who need reliable standing entries. The technique's beauty lies in its simplicity - by simultaneously pulling the upper body while sweeping the lower support, you create an unstoppable collapse that transitions directly into dominant top positions.
 
@@ -193,7 +189,7 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish upper body control**: Secure a collar tie with your lead hand on the back of opponent's neck while your rear hand controls their tricep or elbow. Maintain upright posture to avoid telegraphing the takedown. Keep your head position high and outside to prevent guillotine exposure. (Timing: During initial standup engagement or grip fighting exchange)
 2. **Create angle and close distance**: Step your lead foot outside opponent's lead foot, creating approximately 45-degree angle to their stance. Simultaneously pull their upper body forward and slightly off-balance using your collar tie. This positions you to attack the near knee while compromising their defensive structure. (Timing: Execute as opponent steps forward or shifts weight onto front leg)
 3. **Drop level and penetrate**: Explosively drop your level by bending at the knees and hips while maintaining spine angle. Your rear hand releases the tricep control and shoots toward opponent's near knee. Keep your head tight to their ribs with eyes looking up to maintain safe posture and prevent guillotine vulnerability. (Timing: Immediate explosive movement once angle is established)
@@ -285,7 +281,7 @@ Develop automatic transitions when knee tap is defended. Practice knee tap to si
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is establishing upper body control before attacking the knee crucial to successful knee tap execution?
 **A**: Upper body control prevents opponent from simply stepping back or sprawling when you attack the leg. By controlling the head or collar, you can pull their weight forward onto the leg you're attacking while preventing defensive posture recovery. Without this control, you're only attacking half their structure and they can easily base out with their hands or move their leg away from danger.
 

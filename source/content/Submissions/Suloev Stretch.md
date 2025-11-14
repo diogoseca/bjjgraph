@@ -147,14 +147,12 @@ description: "Master the Suloev Stretch in BJJ. Devastating knee compression sub
 
 
 
-> Suloev Stretch is a knee compression targeting the Knee joint and calf muscle. ⚠️ **SAFETY**: This technique can cause Posterior knee ligament damage (PCL tear or strain). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Suloev Stretch targets the Knee joint and calf muscle. Risk: Posterior knee ligament damage (PCL tear or strain). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Suloev Stretch?
 
 The Suloev Stretch is a sophisticated knee compression submission that combines elements of both joint manipulation and muscular pressure. Named after Russian MMA fighter Amar Suloev, this technique attacks the posterior knee joint while simultaneously compressing the calf muscle against the hamstring, creating a dual-threat submission that can finish fights rapidly when applied correctly. The position is typically entered from top positions where the attacker has controlled one of the opponent's legs, most commonly from half guard top, knee shield passes, or leg entanglement positions. Unlike traditional straight leg locks that attack the ankle or traditional knee bars that hyperextend the knee joint, the Suloev Stretch creates a bending compression force on the knee while the practitioner's body weight drives the opponent's heel toward their own buttocks. This creates an intense pressure that combines knee joint stress with severe calf muscle compression, often resulting in immediate taps from even experienced grapplers. The technique requires excellent positional control and precise body mechanics, as the finishing pressure comes from hip extension and proper angle creation rather than raw pulling force. Understanding the biomechanics of knee compression and maintaining control throughout the entry and finish are essential for safe and effective application of this powerful submission.
 
@@ -238,7 +236,7 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Isolate and Control the Target Leg**: From top position (commonly half guard top, knee shield pass, or leg entanglement), secure control of one of your opponent's legs. Cup the ankle or control the lower leg while using your weight to prevent them from extending the leg fully. Your chest and shoulder pressure should be driving into their upper body to prevent them from sitting up. This initial control is critical - if they can extend the leg or create distance, the entry becomes impossible. (Timing: Initial control phase - 2-3 seconds) [Pressure: Moderate]
 2. **Step Over with Near Leg**: Take your leg that is closest to their head (near leg) and step it over their trapped leg, positioning your shin across their thigh just above the knee. This creates the first part of the figure-four configuration. Your foot should be positioned so you can hook it around your own ankle in the next step. Maintain downward pressure with your upper body throughout this transition to prevent them from recovering guard or extracting the leg. (Timing: Transition phase - 1-2 seconds) [Pressure: Firm]
 3. **Complete the Figure-Four Lock**: Bring your far leg (the one near their feet) underneath their trapped leg and hook your own ankle with your foot, completing a figure-four configuration around their leg. Your legs should form a tight lock with their leg trapped inside, their knee bent, and their heel pulled toward their own buttocks. Squeeze your knees together slightly to secure the lock. This figure-four creates the structural integrity needed for the submission and prevents the leg from escaping. (Timing: Lock completion - 2-3 seconds) [Pressure: Firm]
@@ -305,7 +303,7 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical target of the Suloev Stretch and what dual mechanism creates the submission pressure?
 **A**: The Suloev Stretch primarily targets the posterior knee joint (specifically the PCL and posterior capsule) while simultaneously creating pressure through two mechanisms: compression of the calf muscle into the hamstring, and bending stress on the knee joint. The figure-four configuration traps the leg in a bent position while hip extension drives the compression force through both the muscular tissue and the joint structures. This dual-threat nature makes the submission effective against various body types and flexibility levels.
 

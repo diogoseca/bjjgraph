@@ -147,14 +147,10 @@ description: "Learn Double Leg Variations in BJJ. Step-by-step execution from St
 
 
 
-> Double Leg Variations transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Double Leg Variations?
 
 The Double Leg Takedown represents one of the most fundamental and highest-percentage takedowns in Brazilian Jiu-Jitsu, borrowed from wrestling and adapted for both gi and no-gi competition. This technique involves attacking both of the opponent's legs simultaneously, driving through their base, and securing a dominant top position. The beauty of the double leg lies in its versatility—it can be executed from various setups including level changes, penetration steps, and reactive entries when opponents commit their weight forward. Unlike single leg attacks that isolate one limb, the double leg controls both legs, making it significantly harder for opponents to maintain balance or counter. The technique's effectiveness spans all skill levels, though execution refinement and setup sophistication increase dramatically with experience. Mastery of double leg variations allows practitioners to control the standing phase of matches, dictate where the fight takes place, and establish dominant positions from the opening engagement. Understanding the multiple finishing variations—from traditional dumps to mat returns to direct passes—transforms this fundamental takedown into a complete offensive system.
 
@@ -193,7 +189,7 @@ The Double Leg Takedown represents one of the most fundamental and highest-perce
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Setup and distance management**: Establish proper range control through grip fighting or hand positioning. Use collar ties, underhooks, or circling movement to maintain offensive distance where you can penetrate but opponent cannot easily defend. Create a threatening posture that keeps opponent guessing about your timing. (Timing: Pre-attack positioning phase—no rush)
 2. **Explosive level change**: Drop your hips explosively while maintaining upright shoulders. Bend deeply at the knees while keeping your back relatively straight. The level change should be sudden and committed—hesitation allows opponent to react and sprawl. Your head should remain up with eyes on opponent's chest throughout the drop. (Timing: Single explosive motion—0.5 seconds maximum)
 3. **Penetration step**: Step your lead foot (typically same side as your head placement) deep between opponent's legs. Your knee should nearly touch the mat between their feet. This deep penetration is critical—shallow penetration allows easy sprawl defense. Your trailing leg should follow immediately to maintain base. (Timing: Coordinated with level change—simultaneous motion)
@@ -291,7 +287,7 @@ Develop instinctive recognition of which finish variation will work based on opp
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical component of the penetration step, and why does shallow penetration compromise the technique?
 **A**: The lead knee must drop nearly to the mat between the opponent's feet (deep penetration). Shallow penetration leaves your hips too far from the opponent, making it easy for them to sprawl their hips back and establish defensive position. Deep penetration puts your center of gravity under theirs, making sprawl defense ineffective and allowing you to control their base.
 

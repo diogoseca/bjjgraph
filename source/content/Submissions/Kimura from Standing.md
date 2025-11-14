@@ -153,14 +153,12 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 
 
 
-> Kimura from Standing is a shoulder lock targeting the Shoulder joint, rotator cuff, and posterior shoulder capsule. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kimura from Standing targets the Shoulder joint, rotator cuff, and posterior shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura from Standing?
 
 The Kimura from Standing represents one of the most versatile shoulder lock applications in Brazilian Jiu-Jitsu, bridging the gap between takedown control and submission finish. This technique capitalizes on the standing position's dynamic nature, where opponents are often less defensive against upper body attacks while focused on maintaining balance and preventing takedowns. The standing Kimura serves multiple strategic purposes: it can force an immediate tap, create a dominant takedown opportunity, or establish superior positional control as both fighters transition to the ground. Unlike ground-based Kimura applications, the standing version requires acute awareness of weight distribution, base management, and the ability to control an opponent who maintains full mobility. The technique's effectiveness stems from its integration with wrestling fundamentals—using the Kimura grip to break down posture, compromise base, and create cascading defensive dilemmas. Advanced practitioners use the standing Kimura as a systematic entry point, recognizing that even when the submission doesn't finish, the control gained opens pathways to dominant positions including back takes, side control entries, and turtle attacks. The standing application demands precise technical execution combined with strategic timing, making it a cornerstone technique for practitioners transitioning between standing and ground phases of combat.
 
@@ -248,7 +246,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Wrist capture and isolation**: From standing engagement (collar tie, wrist control, or clinch), identify opponent's extended arm and secure deep wrist grip with your same-side hand. Pull wrist across opponent's centerline while using free hand to control their shoulder or collar, preventing arm retraction. Step at 45-degree angle offline to compromise their base and create angle for figure-four construction. (Timing: 1-2 seconds - control establishment phase) [Pressure: Moderate]
 2. **Figure-four grip lock construction**: Thread your free hand under opponent's trapped arm, reaching through to grab your own wrist (not hand) creating the classic Kimura figure-four configuration. Ensure your forearm makes contact with back of their upper arm creating structural frame. Squeeze elbows together to compress the lock and eliminate any loose space in the grip structure. This grip must be unbreakable before proceeding. (Timing: 2-3 seconds - critical grip security phase) [Pressure: Firm]
 3. **Elbow elevation and posture disruption**: Lift opponent's trapped elbow upward and slightly away from their body, raising it above shoulder height. Simultaneously lower your own base by bending knees and widening stance. This elevation creates immediate shoulder discomfort and forces opponent onto toes, disrupting their defensive posture. Maintain constant upward pressure while staying heavy and stable in your own stance. (Timing: 2-3 seconds - position establishment) [Pressure: Firm]
@@ -323,7 +321,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must the opponent's elbow be elevated above shoulder height before applying rotational pressure in the standing Kimura?
 **A**: Elbow elevation above shoulder height is biomechanically critical because it pre-loads the shoulder joint into vulnerable position, compromises the opponent's ability to use lat and pectoral muscles for defensive strength, forces them onto their toes disrupting base, and maximizes the mechanical advantage of the figure-four grip. Low elbow position allows opponent to use major muscle groups for defense and provides minimal submission pressure regardless of rotation applied.
 

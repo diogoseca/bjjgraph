@@ -8,7 +8,7 @@ description: "Master Kimura Control from bottom in BJJ. Defensive position with 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Kimura Control from bottom in BJJ. Defensive position with 
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Kimura Control from the Bottom?
 
 Kimura Control Bottom represents a defensive yet opportunistic position where the bottom practitioner has secured a Kimura grip on their opponent while being on their back or side. This position emerges frequently from failed guard passes, scrambles, or as a defensive response to top pressure. The Kimura grip—characterized by securing the opponent's wrist with one hand while threading the other arm under their armpit and clasping your own wrist—provides exceptional control over the opponent's posture, shoulder mobility, and base.
 
@@ -481,17 +462,17 @@ Bottom partner maintains Kimura grip while top partner applies various passing p
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The Kimura grip from bottom position represents one of the most versatile control mechanisms in grappling because it simultaneously addresses three critical elements: it restricts the opponent's ability to generate pressure through arm isolation, it creates a mechanical advantage for off-balancing through the lever arm principle, and it threatens immediate submission forcing defensive reactions. The key to maximizing this position lies in understanding that the grip itself is more valuable than the submission finish—once you have secured proper wrist control and figure-four configuration, you possess a steering wheel that controls your opponent's entire upper body structure. From bottom position, this becomes particularly powerful because you can use the grip to prevent consolidation while your legs and hips work to create the angles necessary for sweeps. The most common error I observe is practitioners rushing to finish the submission when the opponent's base is still sound, rather than first using the grip to compromise their structure through off-balancing and then capitalizing on the defensive reactions with sweeps or positional advancement. Think of Kimura Control Bottom not as a submission position, but as a positional control system that creates multiple pathways based on systematic pressure testing of the opponent's defensive priorities.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, Kimura Control from bottom is one of my highest-percentage positions for generating both sweeps and back takes, especially against opponents who are primarily focused on passing rather than submission defense. The beautiful thing about this position is that it puts your opponent in an impossible dilemma: they can either defend the shoulder lock and stay relatively safe but immobile, or they can try to advance their position and immediately expose themselves to sweeps and back attacks. I've found that most competitors, especially in no-gi where the Kimura grip compensates for lack of gi grips, will prioritize defending the submission which gives you extended time to work your sweeps and create angles. My go-to sequence is to use the Kimura grip to off-balance them forward, and when they post with their free hand to defend, I immediately switch to triangle or omoplata attacks. If they try to back away to escape the grip entirely, I use that space to technical stand or recover guard. The key is maintaining absolute control of that wrist—never let them pull their arm out, even if it means giving up some positional ground temporarily. A solid Kimura grip from bottom can completely stall even the best passers because they can't effectively generate pressure or advance with one arm compromised.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Kimura grip from bottom position is central to the entire 10th Planet system because it's one of the most effective ways to control an opponent when you don't have gi grips to work with in no-gi grappling. What makes this position so deadly is that it integrates perfectly with rubber guard, lockdown, and our whole approach to creating submission chains from bottom. When you have someone in Kimura Control from bottom, you're not just defending—you're setting up an entire attack sequence that can go to triangle, omoplata, sweeps, or the Kimura finish itself depending on how they react. We drill this extensively with what we call the Kimura trap game, where you learn to recognize the specific defensive reactions and automatically flow to the appropriate attack. The innovation we've added is using the Kimura grip in conjunction with foot on hip or lockdown control to create even more dynamic sweep and back take opportunities. One thing I emphasize is that you need to get comfortable finishing from weird angles—don't just think of Kimura as a traditional shoulder lock from standard positions. You can hit it while inverting, rolling, standing up, whatever. The grip is the foundation, and once you have it locked in solid, you can get creative with how you manipulate their body and create the angles needed to finish or sweep. Keep that grip at all costs and let the opponent's defensive movements create the opportunities for you.
 

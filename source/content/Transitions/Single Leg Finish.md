@@ -147,14 +147,10 @@ description: "Learn Single Leg Finish in BJJ. Step-by-step takedown completion f
 
 
 
-> Single Leg Finish transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Single Leg Finish?
 
 The Single Leg Finish is a fundamental takedown completion technique that transforms single leg control into a dominant position on the ground. After successfully capturing your opponent's leg, the finish requires precise elevation, off-balancing, and control to safely bring your opponent to the mat while maintaining positional dominance. This technique represents the critical transition point between standing grappling and ground control, making it essential for both gi and no-gi practitioners.
 
@@ -197,7 +193,7 @@ Mastery of single leg finishes dramatically improves takedown success rates and 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure leg control**: Establish deep control around opponent's thigh with both arms, clasping hands behind their knee. Your shoulder should be tight against their hip with head positioned on the outside to avoid guillotine counters. Maintain strong posture with your back straight and hips underneath your center of gravity. (Timing: Initial capture phase - 1-2 seconds)
 2. **Elevate captured leg**: Drive upward with your legs while pulling the captured leg tight to your chest, lifting it above opponent's hip level. This elevation disrupts their base and prevents them from hopping to maintain balance. Keep constant upward pressure throughout the finish. (Timing: Continuous elevation - maintain throughout)
 3. **Create finishing angle**: Step your outside foot (the one closest to opponent's free leg) to a 45-degree angle away from their centerline. This lateral movement combined with elevation breaks their remaining base and prevents them from squaring up to defend. Your head should move around their hip as you angle off. (Timing: Simultaneous with elevation)
@@ -288,7 +284,7 @@ Practice single leg finishes in specific rule sets (IBJJF, submission-only, MMA)
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is head position on the outside of the opponent's hip critical for single leg finish safety?
 **A**: Head position on the outside protects your neck from guillotine counters and prevents the opponent from using crossface pressure to sprawl effectively. This position also provides better leverage for elevation and allows you to create the necessary angle for finish. Inside head position exposes you to guillotine and makes your finish attempts weaker and more dangerous.
 

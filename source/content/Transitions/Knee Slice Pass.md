@@ -153,14 +153,10 @@ description: "Master the Knee Slice Pass in BJJ. High-percentage guard passing t
 
 
 
-> Knee Slice Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Slice Pass?
 
 The Knee Slice Pass is one of the most fundamental and high-percentage guard passing techniques in Brazilian Jiu-Jitsu. This pass involves cutting through the opponent's guard by driving your knee across their thighs while controlling their upper body, effectively bisecting their defensive structure. The technique is particularly effective from half guard and open guard positions, where the passer can establish strong control points before initiating the slice. The knee slice creates a powerful combination of forward pressure and lateral movement that makes it extremely difficult for the bottom player to retain guard. The pass works across all levels of competition and remains a staple in modern BJJ due to its mechanical efficiency and adaptability to both gi and no-gi contexts. Understanding the knee slice is essential for developing a complete passing game, as it serves as a gateway to numerous other passing sequences and submissions.
 
@@ -200,7 +196,7 @@ The Knee Slice Pass is one of the most fundamental and high-percentage guard pas
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish control points**: Secure a strong collar grip with your lead hand and control the opponent's far sleeve or wrist. Your other hand should control their near hip or pants to prevent them from turning into you. Ensure your head is positioned on the opposite side of where your knee will slice. (Timing: Initial setup phase)
 2. **Clear the bottom leg**: If passing from half guard, use your free leg to backstep and clear the bottom hook. Drive your shin across the opponent's thigh to create separation. If passing from open guard, establish your knee position on top of their thigh, preparing to slice. (Timing: Pre-slice preparation)
 3. **Begin the knee slice**: Drive your knee across the opponent's thighs at approximately a 45-degree angle, slicing from outside to inside. Your knee should cut through the space between their legs while your shin creates a barrier. Keep your hips low and weight driving forward into their center. (Timing: Active slicing phase)
@@ -296,7 +292,7 @@ Integrate the knee slice into your regular rolling sessions. Focus on recognizin
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the optimal angle for driving your knee during the knee slice pass?
 **A**: Approximately 45 degrees from outside to inside. This angle maximizes forward pressure while efficiently cutting through the opponent's guard structure. Too perpendicular makes the pass easier to defend; too parallel reduces the slicing effectiveness and can allow guard recovery.
 

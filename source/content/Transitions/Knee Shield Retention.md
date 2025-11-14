@@ -153,14 +153,10 @@ description: "Master Knee Shield Retention in BJJ. Essential defensive framework
 
 
 
-> Knee Shield Retention transitions from [[Knee Shield Half Guard]] to [[Knee Shield Half Guard]]. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Shield Retention?
 
 Knee Shield Retention is the fundamental defensive framework for maintaining half guard structure against passing attempts. This technical system focuses on using the top leg as a dynamic barrier to create distance, manage angles, and prevent the opponent from consolidating chest-to-chest pressure. The knee shield creates a structural frame that allows the bottom player to control distance while maintaining offensive and defensive options. Unlike passive defensive positions, knee shield retention is an active management system that requires constant adjustment of angles, frames, and connection points based on the opponent's pressure and passing tactics. The effectiveness of knee shield retention lies in understanding it as a dynamic system rather than a static position - the shield must constantly adapt to maintain optimal distance and angle control. This technique serves as the foundation for modern half guard systems, providing a platform for sweeps, back takes, and submissions while simultaneously defending against the most common passing sequences.
 
@@ -199,7 +195,7 @@ Knee Shield Retention is the fundamental defensive framework for maintaining hal
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish knee shield structure**: Position your top leg with shin perpendicular to opponent's torso, creating a barrier between their chest and your hips. The foot of your shield leg should be active and engaged on their hip or thigh, ready to extend and create distance. Your knee should be at approximately shoulder height on their body. (Timing: Establish immediately when entering half guard or when opponent begins passing pressure)
 2. **Secure bottom leg lockdown**: Wrap your bottom leg around opponent's trapped leg with your foot hooking behind their knee or controlling their ankle. This creates the retention system that prevents leg extraction while your shield manages upper body pressure. Maintain constant tension on this connection. (Timing: Maintain throughout entire retention sequence)
 3. **Control opponent's arms**: Establish grip control on opponent's far sleeve or wrist with your bottom arm, preventing them from establishing an underhook or crossface. Your top arm creates an additional frame on their shoulder, bicep, or hip depending on their pressure angle. These grips work together with your shield to create a complete defensive structure. (Timing: Control arms before opponent can establish dominant grips)
@@ -296,7 +292,7 @@ Use knee shield retention during regular sparring rounds, starting from half gua
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is staying on your side crucial for knee shield retention rather than allowing yourself to flatten to your back?
 **A**: Staying on your side maintains hip mobility and allows you to adjust angles and create distance through hip escapes. When flattened to your back, you lose this mobility and your shield becomes a static barrier that can be easily collapsed. Being on your side also allows you to see your opponent clearly and react to their movements, while being flat limits your vision and defensive options.
 

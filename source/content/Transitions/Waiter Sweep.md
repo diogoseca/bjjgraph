@@ -147,14 +147,10 @@ description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percenta
 
 
 
-> Waiter Sweep transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Waiter Sweep?
 
 The Waiter Sweep is a fundamental butterfly guard technique that derives its name from the characteristic hand position resembling a waiter carrying a tray. This sweep is highly effective because it capitalizes on creating an asymmetrical control structure—combining an underhook on one side with an overhook or collar grip on the other—that severely compromises your opponent's base and posture. The technique works by using your butterfly hooks to elevate your opponent while simultaneously using your grips to break their posting ability, creating a clean sweep to side control or mount. Unlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses leverage and timing to redirect your opponent's weight, making it accessible to practitioners of all sizes and strength levels. The sweep is particularly effective in both gi and no-gi contexts, though the grip variations differ slightly between formats. Its high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power.
 
@@ -193,7 +189,7 @@ The Waiter Sweep is a fundamental butterfly guard technique that derives its nam
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish asymmetrical grips**: Secure a deep underhook on one side, pulling opponent's armpit tight to your shoulder. On the opposite side, establish an overhook, collar grip (gi), or lat grip (no-gi). Your underhook arm should be the 'waiter' arm that will lift like carrying a tray. (Timing: Setup during initial butterfly guard engagement)
 2. **Break opponent's posture**: Pull opponent forward and down using your overhook/collar grip while maintaining the underhook connection. Your opponent's chest should be brought close to yours, preventing them from establishing strong base with their arms. This forward break is critical for preventing defensive posts. (Timing: As opponent attempts to establish distance or begin passing)
 3. **Load opponent's weight**: Using your butterfly hooks, lift your opponent's hips slightly off the mat while pulling them further onto you with your grips. Your underhook-side hook is primary for elevation. Rock back slightly to load their weight onto your body, creating the feeling that they're falling forward. (Timing: Immediately after posture break)
@@ -288,7 +284,7 @@ Apply waiter sweep during live rolling with no restrictions. Partner actively de
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is breaking your opponent's posture critical before attempting the Waiter Sweep?
 **A**: Breaking posture prevents your opponent from posting their hands or sprawling their weight backward, which are the two primary defensive mechanisms against butterfly sweeps. When their chest is pulled down to yours, their arms are compromised and cannot effectively base out, and their hips are loaded forward onto your hooks, making the sweep primarily about redirection rather than pure lifting strength.
 

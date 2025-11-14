@@ -147,14 +147,12 @@ description: "Master Clock Choke from turtle/back in BJJ. Blood choke with gi la
 
 
 
-> Clock Choke is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Clock Choke targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Clock Choke?
 
 The Clock Choke is a highly effective gi-based blood choke primarily executed from turtle position, though it can also be applied from back control variations. The technique derives its name from the circular walking motion the attacker makes around the opponent's head, resembling the movement of clock hands. This submission targets the carotid arteries using a combination of the opponent's own gi lapel and precise body positioning. The Clock Choke represents an excellent example of using the gi as a force multiplier, creating a mechanical advantage that doesn't require significant upper body strength. The technique is particularly valuable because it can be executed when traditional back takes are defended, offering an alternative finishing option from turtle and transition positions. Many practitioners overlook the Clock Choke in favor of taking the back, but experienced grapplers recognize it as a high-percentage finish that capitalizes on the opponent's defensive posture in turtle.
 
@@ -233,7 +231,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish collar grip**: From turtle position or while opponent is defending back control, feed your hand deep into opponent's near side collar, getting at least four fingers inside. Your grip should be palm-down with the blade of your forearm positioned against the side of their neck. This initial grip is crucial - without depth, the choke will not be effective regardless of your subsequent positioning. (Timing: 2-3 seconds to establish proper depth) [Pressure: Light]
 2. **Control far side**: With your free hand, reach over opponent's back and establish control of their far side hip, belt, or far side collar. This control prevents them from rolling away from you during the choke sequence. Maintain heavy chest pressure on their back. Your body weight should be distributed to make escape difficult while maintaining your own base. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Begin walking motion**: Start walking your feet in a circular path around opponent's head, moving in the direction of your choking arm (if gripping right collar, walk clockwise). Keep your steps small and controlled, maintaining constant pressure throughout. Your hips should stay low and close to opponent's body. Think of your body as a lever rotating around your collar grip as the pivot point. (Timing: 2-4 seconds for initial quarter circle) [Pressure: Moderate]
@@ -298,7 +296,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should allow for a training partner to recognize and tap to the Clock Choke, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: You must allow minimum 3-5 seconds for progressive pressure application in training. This is critical because blood chokes can cause loss of consciousness if held too long, and the rotational nature of the Clock Choke means it can tighten very quickly. The gradual application gives your partner time to recognize the danger, assess their escape options, and make a safe decision to tap. Applying it explosively denies them this decision-making time and significantly increases injury risk.
 

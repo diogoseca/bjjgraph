@@ -8,7 +8,7 @@ description: "Master inverted guard from top perspective. Strategic passing appr
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master inverted guard from top perspective. Strategic passing appr
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 55%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Inverted Guard from the Top?
 
 From the top perspective, facing an opponent in Inverted Guard requires strategic adjustments to traditional passing approaches. The inverted position creates unconventional angles that make standard pressure passing and distance passing less effective, requiring specific techniques and timing to pass successfully. The top player must recognize the transitional nature of inverted guard and prevent the bottom player from achieving their primary objectives: berimbolo entries, back takes, and leg entanglement positions. Success from the top position involves controlling the opponent's rotation, preventing their hips from achieving optimal angles, and capitalizing on opportunities to apply crushing pressure through smash passes and stack passes. The top player must maintain awareness of the bottom player's grip controls and foot placement, as these determine the available transitions from inverted guard. Modern guard passing systems have developed specific responses to inverted guard, including headquarters positioning, leg weave passes, and strategic pressure application that forces the inverted player to abandon the position. The key strategic principle is recognizing when the opponent begins inverting and immediately attacking with appropriate passing techniques rather than allowing them to establish optimal inverted positioning. Top players must also protect against the berimbolo sequence by controlling distance, maintaining proper base, and preventing the opponent from establishing the grips necessary for back take entries. Training emphasis should focus on recognizing inversion entries early and responding with immediate passing pressure that forces defensive reactions.
 
@@ -485,17 +464,17 @@ Partner actively attempts single leg X, X-guard, and ashi garami entries from in
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Passing inverted guard requires understanding that the position functions as a transitional mechanism rather than a static defensive structure, which fundamentally alters the tactical approach necessary for successful passing. The key strategic principle is preventing the bottom player from achieving optimal inversion angles and immediately applying pressure when they commit to the inverted position. Stack passing represents the highest-percentage approach against inverted guard because it neutralizes the rotational mobility that makes the position effective, forcing weight onto the opponent's shoulders and eliminating their ability to create angular advantages. The timing of pressure application is critical—waiting until the opponent commits fully to inversion rather than applying pressure prematurely when they still maintain defensive mobility. Modern passing systems must integrate specific responses to inversion within comprehensive frameworks, recognizing that allowing the bottom player to establish optimal inverted positioning dramatically reduces passing success rates and increases vulnerability to berimbolo sequences and back attacks.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Against high-level opponents using inverted guard, I focus on preventing optimal positioning rather than attempting to pass after they've already established strong inverted angles and grip controls. The key is recognizing inversion attempts during the entry phase and immediately shutting them down through strategic grip controls and pressure application before they achieve full mobility. When opponents do establish inverted guard, I utilize stack passing and headquarters positioning to neutralize their rotational advantages while protecting against berimbolo and leg entanglement entries. The critical element is maintaining proper base and distance control to prevent being pulled into back take sequences, which requires constant awareness of the opponent's rotation and grip controls throughout the passing sequence. In competition, I've found that sustained pressure combined with strategic timing forces even skilled inverted guard players to abandon the position or expose themselves to passing opportunities, but this requires patience and technical precision rather than explosive effort without strategic purpose.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 As someone who's developed extensive inversion systems within 10th Planet methodology, I understand both the offensive potential and the vulnerabilities of inverted guard from the top perspective. The key to passing effectively is recognizing that inversion creates specific transitional pathways that can be anticipated and countered with proper positioning and timing. Against inverted guard, I emphasize maintaining distance control and strategic pressure application that forces the bottom player to commit to transitions prematurely, creating passing opportunities during these transitional moments. The headquarters position and related control strategies offer excellent frameworks for neutralizing inverted guard while maintaining offensive pressure and submission threats. Modern no-gi competition has evolved to the point where both inverted guard and passing systems against it have reached sophisticated levels, requiring practitioners to develop comprehensive understanding of both perspectives to compete effectively at high levels.
 

@@ -147,14 +147,12 @@ description: "Master the Peruvian Necktie in BJJ. Complete guide with safety pro
 
 
 
-> Peruvian Necktie is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Peruvian Necktie targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Peruvian Necktie?
 
 The Peruvian Necktie is a sophisticated blood choke that attacks the carotid arteries from a front headlock position, typically initiated when the opponent is in turtle or combat base. Unlike traditional guillotine variations, this submission utilizes a unique body positioning where the attacker threads their leg through the opponent's neck and arm configuration, creating a fulcrum that amplifies choking pressure. The technique derives its effectiveness from the combination of arm pressure across the neck and the leverage created by the attacker's bodyweight and leg position. This submission is particularly effective in scrambles and transitional situations where the opponent attempts to build back to their base from turtle. The Peruvian Necktie represents an advanced understanding of front headlock mechanics and requires precise timing and positioning. When executed correctly, it creates an inescapable choking mechanism that forces a rapid tap due to the simultaneous compression of both carotid arteries. The submission has gained prominence in modern no-gi grappling and MMA due to its effectiveness in dynamic situations and its relatively low energy cost compared to maintaining traditional control positions.
 
@@ -241,7 +239,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Front Headlock Control**: From opponent's turtle or combat base, secure a tight front headlock with your choking arm wrapped around their neck. Your forearm should be positioned across the side of the neck targeting the carotid artery, not crushing the trachea. Your opposite hand controls their far shoulder or reaches under their body for additional control. Maintain heavy shoulder pressure driving down onto their neck to prevent them from standing or turning away. (Timing: Initial setup phase) [Pressure: Moderate]
 2. **Trap the Near Arm**: As you maintain the front headlock, use your body position to trap the opponent's near arm (same side as your choking arm) against their own neck. This is accomplished by driving your chest and shoulder pressure down while keeping their arm pinned. The trapped arm becomes part of the choking mechanism and prevents defensive hand fighting. Ensure the arm is trapped high near their neck, not down by their torso, as this creates the proper angle for the leg thread. (Timing: Setup phase - 1-2 seconds) [Pressure: Firm]
 3. **Thread Your Near Leg Through**: This is the defining movement of the Peruvian Necktie. Take your near leg (same side as your choking arm) and thread it between the opponent's head and their trapped arm. Your shin should pass through this gap with your foot ending up near or past their far shoulder. This requires hip flexibility and precise body positioning. As you thread the leg, maintain constant pressure with your choking arm and keep your chest heavy on their upper back. The leg threading creates the mechanical advantage that makes this choke so powerful. (Timing: Critical transition - 2-3 seconds) [Pressure: Firm]
@@ -309,7 +307,7 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is it critical to apply the Peruvian Necktie slowly and progressively in training rather than with explosive force? **[SAFETY-CRITICAL]**
 **A**: Applying the choke slowly is critical because the Peruvian Necktie creates powerful bilateral carotid compression that can cause unconsciousness in seconds. Explosive or jerking application risks serious neck injury, trachea damage, and creates an unsafe training environment where partners cannot properly recognize and respond to the submission. Progressive application over 3-5 seconds allows your training partner to recognize the submission, evaluate their escape options, and tap safely before reaching the point of injury or unconsciousness. Training safety builds trust and allows both practitioners to develop proper technique without fear of injury.
 

@@ -37,6 +37,13 @@ const defaultOptions = {
     // Hide tags folder
     if (node.name === "tags") return false
 
+    // Hide Bottom/Top folders (case-insensitive)
+    // These are reserved folder names in the BJJ Graph architecture
+    const nodeName = node.name.toLowerCase()
+    if (nodeName === "bottom" || nodeName === "top") {
+      return false
+    }
+
     // Hide Bottom/Top files under Positions folders (playing_as model)
     if (node.file?.slug) {
       const slug = node.file.slug.toLowerCase()

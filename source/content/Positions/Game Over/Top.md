@@ -8,7 +8,7 @@ description: "Master submission completion and control to finish matches. Compre
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master submission completion and control to finish matches. Compre
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 100% of the time and finish submissions in 100%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Low
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Game Over from the Top?
 
 Game Over Top represents the offensive terminal state where a practitioner successfully completes a submission, forcing their opponent to tap and ending the match. This position is the culmination of superior positional control, technical submission knowledge, and tactical execution. Unlike traditional positions that create temporary advantages, Game Over Top represents absolute tactical success and the ultimate objective of BJJ competition under most rule sets.
 
@@ -522,17 +501,17 @@ Spend entire round in one dominant position (mount, back, side control) with goa
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Game Over Top is the ultimate expression of systematic BJJ—the culmination of positional dominance, technical submission knowledge, and tactical execution. My teaching philosophy emphasizes that submissions are not magic techniques but mechanical outcomes of superior positioning. When you establish back control with seat belt grip and proper body triangle, the rear naked choke becomes geometrically inevitable if you understand the mechanics. The opponent's defense creates predictable movements, which you counter systematically until the submission locks. This is why position before submission is fundamental—attempting submissions from poor positions is gambling, while submissions from dominant control are systematic outcomes. The key insight students must internalize is that submission success is determined primarily by the control position preceding the submission attempt, not by the submission technique itself. A mediocre armbar from perfect mount control succeeds more often than a perfect armbar from poor position. Therefore, focus your training energy on establishing and maintaining the control positions that make submissions inevitable rather than drilling submissions in isolation.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Game Over Top is what winning looks like in competition—everything else is just preparation for this moment. My game is built around creating submission opportunities from positions where I can finish multiple ways, so opponent's defense of one submission creates vulnerability to another. From back control I threaten rear naked choke, if they defend by grabbing my choking arm I switch to armbar from back, if they defend that I take the mounted crucifix. This submission chain methodology makes my attacks nearly impossible to defend because successful defense requires perfect technique against multiple simultaneous threats. The practical competition reality is that most matches are won by submission rather than points at high levels, which means your entire game should be optimized for reaching Game Over Top efficiently. I choose positions, grips, and transitions based on whether they lead to high-percentage finishes. Every movement has submission threat behind it, making opponents defensive and creating the pressure that leads to mistakes I can capitalize on. Train your best submissions from your best positions until they become automatic—when opportunity appears in competition, your body executes without thought.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Game Over Top is the beautiful ending to the chess match on the mat. In my system we hunt for submissions constantly because points don't mean anything if you can finish the fight. From rubber guard I'm attacking gogoplata, from lockdown I'm setting up electric chair, from truck I'm going for twister—every position in my game is designed with submission finish as the primary goal. What makes submission-focused games so effective is that opponents can't just defend passively and win on points—they have to escape actively, and active escapes create the movement and vulnerability that leads to finish. This is what I call the submission trap game—setting up positions where any opponent movement creates a different submission opportunity. The key innovation in 10th Planet system is recognizing that you don't need to follow traditional positional hierarchy to reach Game Over Top. You can attack submissions directly from guard, from turtle, from scrambles—anywhere you can establish the specific controls required for that submission. This expands your submission opportunities and makes you dangerous from every position, not just traditional top dominant positions.
 

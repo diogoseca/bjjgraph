@@ -153,14 +153,12 @@ description: "Master the Inverted Triangle submission in BJJ. Complete guide cov
 
 
 
-> Inverted Triangle is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Cervical spine compression from improper rotation during setup. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Inverted Triangle targets the Carotid arteries and trachea. Risk: Cervical spine compression from improper rotation during setup. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Inverted Triangle?
 
 The Inverted Triangle is an advanced blood choke executed from bottom positions where the practitioner's body orientation is inverted relative to a standard triangle. This submission creates exceptional choking pressure by trapping one of the opponent's arms across their neck while isolating it with the legs in a figure-four configuration. The inverted nature of this technique generates unique leverage mechanics that make it particularly effective against opponents who have strong triangle defense patterns developed for conventional angles. The submission is most commonly entered from positions like turtle defense, failed armbar attempts, or scrambles where traditional triangle setups are unavailable. The mechanical advantage stems from the practitioner's ability to use their entire body weight and hip extension to create compression against the carotid arteries while simultaneously restricting the opponent's ability to posture or turn into the choke. Unlike the standard triangle where you face your opponent, the inverted variation positions you facing away or perpendicular, creating unusual angles that opponents often struggle to defend. This makes it an excellent addition to any guard player's submission arsenal, particularly for those who frequently find themselves in scramble situations or against opponents with excellent triangle awareness.
 
@@ -245,7 +243,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure Arm Across Neck**: From closed guard bottom or scramble position, use an overhook, kimura grip, or direct control to pull one of opponent's arms across their own neck. The bicep or forearm should be pressing against the side of their neck. Maintain tight control of this arm with both hands initially, preventing them from extracting it. This is the foundation of the entire submission. (Timing: 2-3 seconds to establish control) [Pressure: Moderate]
 2. **Break Down Opponent's Posture**: While controlling the trapped arm, use your legs and free hand to break opponent's posture forward and down. You need them close to your body with their head lower than their hips. Pull their shoulder down with the trapped arm while using your legs to prevent them from posting. This collapsed posture is essential for the next steps. (Timing: 1-2 seconds) [Pressure: Firm]
 3. **Swing Lead Leg Over Back of Neck**: Identify which leg will go over the back of opponent's neck (typically the leg on the same side as their trapped arm). Release your leg control and swing this leg up and over the back of their neck, placing your calf across the base of their skull. Your knee should be pointing toward the ceiling. Maintain arm control throughout this movement to prevent escape. (Timing: 1-2 seconds for leg placement) [Pressure: Light]
@@ -314,7 +312,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is the inverted angle mechanically superior to a standard triangle for finishing the choke?
 **A**: The inverted angle creates perpendicular pressure against the carotid arteries rather than frontal pressure. This perpendicular orientation makes it much harder for the opponent to relieve pressure by posturing or turning into the choke, as their natural defensive movements (turning toward you) actually increase the compression. Additionally, the inverted angle allows you to use hip extension in a direction that opponent cannot easily counter with posture, creating more reliable blood restriction than standard triangles where opponents can sometimes create space by arching their back.
 

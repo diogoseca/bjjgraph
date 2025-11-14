@@ -8,7 +8,7 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Lasso Guard from the Top?
 
 Facing **Lasso Guard Top** presents unique technical challenges that require systematic understanding of grip breaking, pressure application, and passing mechanics. The opponent's lasso creates a powerful lever against your trapped arm, restricting mobility and base while exposing you to constant sweep threats. Success in this position demands methodical approach to neutralizing the lasso's mechanical advantage while advancing your passing game.
 
@@ -475,17 +454,17 @@ Start every round with partner in established lasso control. Full intensity spar
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Dealing with lasso guard from top requires understanding the fundamental mechanical problem it creates. The opponent has established a lever system that uses your own arm against you, creating a perpendicular force that compromises your base and mobility. Your response must be systematic and technical rather than reactive or strength-based. The most effective approach involves first recognizing which specific variation of lasso control they've established - is it purely lasso, or combined with De La Riva hooks, collar grips, or other controls? Each variation requires slightly different solutions. Generally, your priority is reducing the perpendicular angle that gives the lasso its power. This can be accomplished by stepping over the lasso leg, driving your knee through to create a smashing angle, or using specific grip breaks that allow you to recover your trapped arm's functionality. Superior passers demonstrate patience in this process, recognizing that attempting to pass before addressing the lasso's mechanical advantage typically results in being swept. The position teaches important lessons about systematic problem-solving when facing mechanical disadvantage.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 When I'm caught in lasso guard, my immediate focus is on preventing the opponent from settling into their optimal attacking position. I don't wait for them to establish their full system - I'm immediately working on grip breaks, posture adjustments, and creating movement that disrupts their control. The key is understanding that lasso is strongest when you remain static and allow them to find their sweep timing. If I can't clear the lasso immediately, I focus on controlling their non-lasso leg to prevent them from establishing secondary systems like De La Riva or X-guard. Against high-level lasso players, I often find standing to be effective - it changes the angles and forces them to transition their controls, creating opportunities during that adjustment period. The psychological aspect is important too - many people panic when caught in lasso and try to muscle through it, which plays directly into the bottom player's game. I stay calm, work systematically, and recognize that taking an extra 30 seconds to properly address the position before passing is more efficient than rushing and getting swept repeatedly.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Lasso guard can be frustrating to deal with if you don't have a systematic approach, especially in the gi where the grips are so strong. In our no-gi game, we adapt by treating overhook situations similarly to how gi players deal with lasso - the same perpendicular control principles apply. When facing lasso, I emphasize creating chaos through movement rather than trying to methodically clear everything. If I can get them moving and defending, they often lose the tight control needed for effective lasso. One approach we use is immediately attacking their non-lasso arm with kimura grips or guillotine threats - this forces them to defend rather than attack and often causes them to release or weaken the lasso. The creative aspect is important - if traditional passing isn't working, look for unconventional solutions like cartwheel passes, leg drag variations, or even pulling guard yourself to reset the engagement. The worst thing you can do is stay in lasso guard for extended periods trying the same passing attempt repeatedly. Stay innovative, stay moving, and look for opportunities in the transitions rather than trying to win the static position battle.
 

@@ -8,7 +8,7 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura Trap?
 
 The Kimura Trap is a revolutionary position system in Brazilian Jiu-Jitsu that fundamentally challenges traditional notions of top and bottom control. At its core, the Kimura Trap uses a figure-four Kimura grip to create a control mechanism that transcends positional hierarchy—the practitioner with the Kimura grip controls their opponent's shoulder girdle and arm structure regardless of whether they are on top or bottom. This position represents a paradigm shift from purely positional thinking to grip-based control systems.
 
@@ -54,7 +52,7 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -68,7 +66,7 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 | **Energy Cost** | Medium | Low |
 | **Time** | Medium to Long | Long |
 
-**What Makes This Unique:** Grip-based control inverts positional hierarchy
+**Key Difference:** Grip-based control inverts positional hierarchy
 
 
 
@@ -80,10 +78,6 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ## Playing as Bottom
 
 [[Kimura Trap/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -168,10 +162,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Kimura Trap/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -244,7 +234,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

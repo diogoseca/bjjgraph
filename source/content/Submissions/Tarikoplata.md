@@ -153,14 +153,12 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 
 
 
-> Tarikoplata is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Tarikoplata targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Tarikoplata?
 
 The Tarikoplata is an advanced shoulder lock submission that combines the mechanics of the omoplata with additional wrist control and torque. Named after Tarik Hopstock, this technique represents an evolution of the traditional omoplata position, adding a second lever through wrist manipulation to create a devastating shoulder attack. The submission works by trapping the opponent's arm in an omoplata configuration while simultaneously controlling and twisting their wrist, creating a compound lock that attacks both the shoulder joint and rotator cuff. This technique is particularly effective when the opponent attempts to defend the traditional omoplata by posturing or rolling, as the added wrist control prevents these common escape routes. The Tarikoplata has gained significant traction in modern no-gi grappling and is a staple of innovative guard systems, particularly within the 10th Planet Jiu-Jitsu methodology. The submission requires excellent hip mobility, precise timing, and thorough understanding of omoplata mechanics before attempting the wrist control variation.
 
@@ -245,7 +243,7 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Omoplata Position**: From closed guard or rubber guard, secure a traditional omoplata position with your leg over the opponent's shoulder and their arm trapped across your body. Break their posture forward and ensure their shoulder is loaded with pressure. Your opposite leg should hook around their far hip for positional control. (Timing: 2-3 seconds to secure position) [Pressure: Moderate]
 2. **Secure Wrist Control**: With your same-side hand (leg that's over the shoulder), reach down and grip the opponent's wrist of the trapped arm. Use a four-finger grip on the back of their hand with your thumb on their palm. This grip allows you to manipulate their wrist orientation while maintaining control. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Adjust Hip Position**: Sit up slightly and adjust your hips to be perpendicular to the opponent's body. Your leg over their shoulder should have your shin bone making firm contact across their upper back. This angle is critical - too parallel reduces pressure, too perpendicular allows escape. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -308,7 +306,7 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must wrist rotation be applied slowly and progressively during tarikoplata execution? **[SAFETY-CRITICAL]**
 **A**: Wrist rotation must be applied slowly because the combination of shoulder pressure and wrist torque creates compound joint stress that can cause severe injury very quickly. The rotator cuff and shoulder ligaments are particularly vulnerable to rapid loading, and explosive rotation can tear these structures before the opponent has time to recognize danger and tap. Progressive application over 3-5 seconds allows the opponent to feel increasing pressure and tap safely before damage occurs. Additionally, slow application gives you better control and feedback, allowing you to feel the submission tightening rather than risking overshooting and causing injury.
 

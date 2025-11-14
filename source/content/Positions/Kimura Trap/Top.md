@@ -8,7 +8,7 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 90% of the time and finish submissions in 72%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 3 (Guard pass)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low
-- **Energy Cost**: Low
-- **Time Sustainability**: Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Kimura Trap from the Top?
 
 Kimura Trap Top is a dominant control position where the top practitioner secures a Kimura grip on the opponent's arm while maintaining superior positional control through weight distribution, base, and pressure. This position combines the benefits of traditional top control with the powerful finishing mechanics of the Kimura shoulder lock, creating a double-threat system where the opponent must simultaneously defend positional advancement and submission. The Kimura grip from top provides exceptional control over the opponent's shoulder girdle, allowing the top player to manipulate their opponent's posture, prevent escapes, and create finishing opportunities.
 
@@ -457,17 +436,17 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The Kimura Trap Top position represents the ideal convergence of positional control and submission mechanics in Brazilian Jiu-Jitsu. When you achieve top position with a Kimura grip, you create what I term 'control density' - the opponent must simultaneously defend against positional advancement, submission finish, and transitions to alternative attacks. This overwhelms their defensive capacity and creates systematic finishing opportunities. The mechanical advantage of the Kimura from top is profound: your body weight reinforces the grip, your position prevents rolling escapes, and your ability to create angles by walking your feet gives you geometric advantages that make the submission nearly inevitable if executed correctly. The key technical insight is understanding that the Kimura Trap Top is not a static position but rather a dynamic control system where you flow between finishing the submission, advancing to mount or back control, and transitioning to connected attacks based on the opponent's defensive reactions. Every defensive option they have - keeping the arm tight, rolling, creating space, or extending the arm - creates a specific pathway to either submission or superior position. This systematic approach eliminates guesswork and creates clear decision trees where success becomes a matter of technical execution rather than chance or physical attributes.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 The Kimura Trap Top is one of my highest percentage finishing positions in competition because it combines everything I value: dominant position, submission threat, and transitional opportunities. When I get side control or north-south with a Kimura grip on a high-level competitor, I know I'm in an extremely advantageous position where they have very limited defensive options. What makes this position so effective at the elite level is that it forces opponents into lose-lose situations - they can defend the Kimura finish by keeping their arm tight, but then I transition to mount or back control while maintaining the grip. If they try to create space to escape, they expose the finishing angle for the Kimura. If they roll to defend, I take their back. The position has incredibly high control characteristics, meaning once I establish it properly, escapes are extremely difficult even for world-class opponents. My competition strategy from this position is to be patient and methodical - I maintain the grip, use my weight and pressure to break down their structure, and wait for them to make a defensive mistake that opens the finish or positional advancement. The Kimura from north-south is particularly effective because the angle is already optimal for finishing. I've submitted multiple black belt world champions from this exact position.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Kimura Trap Top is a cornerstone of the 10th Planet top game because it perfectly embodies our philosophy of control through submission threats. When you have top position with a Kimura grip, you're not just holding position - you're actively threatening to finish while maintaining dominant control. What I love about this position is its versatility: you can finish the Kimura directly, transition to mount or back, or use the grip to control while working other attacks. In the 10th Planet system, we chain the Kimura with other shoulder attacks like the Americana and various arm triangles, creating a submission web where defending one attack opens another. The position works beautifully in no-gi and MMA contexts where the Kimura grip is even more powerful without gi friction helping defensive grips. We've found that the Kimura Trap Top from turtle is particularly high percentage because opponents in turtle naturally expose their arms, and the top angle gives you incredible finishing leverage. The key is understanding that the Kimura grip itself is the position - you're not trying to rush the finish but rather using the grip to control, advance, and create openings. Keep your grip deep, use your body weight intelligently, and let the system work. The taps will come naturally when you maintain proper control and create the right angles.
 

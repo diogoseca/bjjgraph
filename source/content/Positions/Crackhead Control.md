@@ -8,7 +8,7 @@ description: "Master Crackhead Control in BJJ. Complete guide to Eddie Bravo's i
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Crackhead Control in BJJ. Complete guide to Eddie Bravo's i
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Crackhead Control?
 
 Crackhead Control is an innovative turtle position system developed within the 10th Planet Jiu-Jitsu methodology, characterized by unconventional positioning and dynamic movement patterns that challenge traditional turtle defense and attack paradigms. This position exists in two distinct perspectives: the bottom defensive position emphasizing constant movement and grip fighting to prevent back takes, and the top attacking position utilizing chair-sit mechanics to isolate the opponent's hips while threatening multiple submission and positional advancement pathways.
 
@@ -52,7 +50,7 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -66,7 +64,7 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 | **Energy Cost** | High | Medium |
 | **Time** | Short to Medium | Medium to Long |
 
-**What Makes This Unique:** Chair-sit mechanics create asymmetric control
+**Key Difference:** Chair-sit mechanics create asymmetric control
 
 
 
@@ -78,10 +76,6 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ## Playing as Bottom
 
 [[Crackhead Control/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -160,10 +154,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Crackhead Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -236,7 +226,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -153,14 +153,10 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 
 
 
-> Butterfly Pass transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Butterfly Pass?
 
 The Butterfly Pass is a fundamental guard passing technique designed to neutralize and overcome the butterfly guard's sweeping threats. This pass relies on superior base, weight distribution, and methodical pressure application to eliminate your opponent's hooks while advancing to a dominant position. The technique represents the essential answer to butterfly guard retention, combining defensive posture with offensive advancement. Understanding this pass is critical because butterfly guard is one of the most dynamic and threatening guard positions in modern BJJ. The passer must simultaneously defend against powerful sweeps while creating angles to pass. Success depends on recognizing when butterfly hooks are vulnerable, maintaining proper base through strategic weight shifting, and exploiting the opponent's reactions to secure dominant control. This pass serves as the foundation for all butterfly guard passing strategies.
 
@@ -199,7 +195,7 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish wide base and grips**: From standing or combat base, widen your knee position significantly beyond shoulder width. Secure collar and sleeve grips (gi) or underhook and overhook controls (no-gi). Lower your hips while keeping chest pressure forward to prevent being pulled off balance. Your base width should make it geometrically impossible for opponent's hooks to generate sweeping leverage.
 2. **Control upper body posture**: Drive your chest forward and downward toward opponent's upper body while maintaining collar grip or head control. This forward pressure prevents opponent from creating the space needed for effective sweeps. Keep your elbows tight to your body to defend against arm drags. Your posture should make opponent feel heavy and compressed.
 3. **Identify and address primary hook**: Determine which butterfly hook poses the greatest sweep threat (typically the side where opponent has better upper body control). Begin addressing this hook first by shifting your weight toward that side and lowering your hip. The goal is to flatten the hook by removing the angle it needs to elevate your body.
@@ -299,7 +295,7 @@ Practice against various opponents with different butterfly guard styles (aggres
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is maintaining a wide base crucial when passing butterfly guard?
 **A**: A wide base is essential because butterfly hooks generate sweeping leverage by creating angles between the passer's points of contact with the mat. When your knees are spread significantly wider than your opponent's hooks can reach, the geometric relationship makes it impossible for them to elevate your center of mass effectively. The butterfly sweep relies on getting under your hips with their feet while controlling your upper body - a wide base places your hips outside the range where their hooks can create the necessary leverage. Additionally, the wide base provides lateral stability against off-angle sweep attempts and allows you to shift weight strategically without compromising balance.
 

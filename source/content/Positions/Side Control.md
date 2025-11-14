@@ -8,7 +8,7 @@ description: "Master Side Control in BJJ with comprehensive guides covering subm
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Side Control in BJJ with comprehensive guides covering subm
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Side Control?
 
 Side Control (also known as side mount or cross-side) is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player lies perpendicularly across the opponent's torso, controlling them without the opponent's legs interfering. This position offers significant control and multiple attacking opportunities while providing a stable base from which to advance to more dominant positions. As one of the fundamental controlling positions in Brazilian Jiu-Jitsu, Side Control serves as a critical gateway between guard passing and more dominant positions like mount or back control. The position is valued at 3 points in IBJJF competition and is considered one of the most versatile positions for both maintaining control and launching attacks. Mastery of Side Control requires understanding weight distribution, pressure application, and the ability to transition fluidly between variations while maintaining constant offensive pressure. The perpendicular body alignment creates maximum control surface area while minimizing the opponent's leverage options, making it one of the most efficient positions for control relative to energy expenditure. From this position, the top player can methodically work toward submissions including Americana, kimura, and arm triangle chokes, advance to more dominant positions such as mount, north-south, or knee on belly, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon. Understanding both the top and bottom perspectives of this position is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy and offers numerous opportunities for both offensive advancement and defensive recovery depending on your position.
 
@@ -38,15 +36,15 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
 
 
 
-| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
-|---------|-------------|----------|---------------|------------|-------------------------------|
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
 | [[Side Control]] | High | Low | High | Low | Perpendicular alignment maximizes control |
 | [[Kesa Gatame]] | High | Medium | Medium | Medium | Perpendicular angle trades back exposure for arm |
 | [[Kuzure Kesa-Gatame]] | High | Low to Medium | High | Medium | Arm isolation for superior submission access |
@@ -66,10 +64,6 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ## Playing as Bottom
 
 [[Side Control/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -154,10 +148,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Side Control/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -236,64 +226,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 - ❌ **Overcommitting to submissions without maintaining position**
   - Consequence: Opponent escapes to guard or neutral position during your submission attempt, losing your dominant position entirely
   - ✅ Correction: Maintain positional control throughout submission attempts, return to solid side control if submission isn't immediately available
-
-
-</section>
-
-
-<section id="variations-list" class="content-section">
-
-## Position Variations
-
-
-### [[Kesa Gatame]]
-
-Traditional scarf hold with head control and far arm trapped
-
-[Explore Kesa Gatame →](./Kesa Gatame)
-
-
-### [[Kuzure Kesa-Gatame]]
-
-Modified scarf hold with variations in arm control
-
-[Explore Kuzure Kesa-Gatame →](./Kuzure Kesa-Gatame)
-
-
-### [[Modified Scarf Hold]]
-
-Adapted scarf position with enhanced mobility
-
-[Explore Modified Scarf Hold →](./Modified Scarf Hold)
-
-
-### [[Reverse Kesa-Gatame]]
-
-Inverted scarf hold facing opponent's legs
-
-[Explore Reverse Kesa-Gatame →](./Reverse Kesa-Gatame)
-
-
-### [[Reverse Scarf Hold]]
-
-Alternative reverse positioning with different control points
-
-[Explore Reverse Scarf Hold →](./Reverse Scarf Hold)
-
-
-### [[Scarf Hold Position]]
-
-Classic scarf hold with traditional grips
-
-[Explore Scarf Hold Position →](./Scarf Hold Position)
-
-
-### [[Side Control Consolidation]]
-
-Transition phase establishing dominant control
-
-[Explore Side Control Consolidation →](./Side Control Consolidation)
-
 
 
 </section>

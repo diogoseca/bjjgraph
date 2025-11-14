@@ -147,14 +147,10 @@ description: "Master the Single Leg Takedown in BJJ. Complete guide covering ent
 
 
 
-> Single Leg Takedown transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Single Leg Takedown?
 
 The Single Leg Takedown is one of the most fundamental and high-percentage takedowns in Brazilian Jiu-Jitsu and grappling arts, borrowed from wrestling. This technique involves attacking one of the opponent's legs while maintaining control of their upper body, creating an imbalance that forces them to the mat. The single leg is particularly effective in no-gi competition and MMA contexts, where traditional judo-style throws may be more difficult to execute. Unlike double leg takedowns that require deeper penetration and expose the practitioner to guillotine chokes, the single leg offers a more upright finishing position with multiple mechanical advantages. The technique's versatility lies in its numerous finishing variations - from the classic run-the-pipe to trips, dumps, and elevation finishes - allowing practitioners to adapt based on opponent reactions and defensive responses. Mastery of the single leg takedown provides a reliable method for taking the fight to the ground while maintaining dominant positioning, making it an essential skill for competitors at all levels who seek to control where and how the match is contested.
 
@@ -193,7 +189,7 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Set up and create opening**: Use grip fighting, head movement, or feints to create a reaction from your opponent. Common setups include collar ties, Russian ties, or hand fighting that draws their attention upward. Create an angle by circling or use a snap-down motion to get their weight shifting forward or their hands occupied. (Timing: Initial engagement phase)
 2. **Change levels explosively**: Drop your hips and bend your knees to lower your level while maintaining upright posture in your back. This level change should be sudden and explosive, not telegraphed. Keep your head up and eyes on your target - the opponent's near leg. Your back leg should be coiled and ready to drive forward. (Timing: 0.5-1 second explosive motion)
 3. **Penetration step and leg capture**: Step deep with your lead leg (same side as the leg you're attacking) between opponent's legs or just outside their far leg. Simultaneously reach with both arms to secure the attacked leg - one hand behind the knee (in the popliteal fossa) and one hand grabbing the ankle or lower calf. Your head should make contact with opponent's body on the outside of the captured leg. (Timing: Immediate following level change)
@@ -291,7 +287,7 @@ Continue drilling against fully resisting partners in live training. Identify wh
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical advantage of the single leg takedown compared to the double leg?
 **A**: The single leg maintains a more upright posture which reduces exposure to guillotine chokes and allows for better control of opponent's hip and upper body. It also provides multiple finishing options that can be chained together based on opponent's defensive reactions, whereas double leg typically commits to one direction of force.
 

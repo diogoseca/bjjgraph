@@ -153,14 +153,10 @@ description: "Master Truck Entry in BJJ. Step-by-step execution from Turtle to T
 
 
 
-> Truck Entry transitions from [[Turtle]] to [[Truck]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Truck Entry?
 
 The Truck Entry is a fundamental transition in modern no-gi grappling that transforms defensive turtle position into an offensive attacking platform. This technique involves establishing a leg hook control while securing the opponent's upper body, creating the distinctive Truck configuration where the opponent's back is exposed and multiple submission pathways become available. The position derives its name from the 10th Planet system where Eddie Bravo systematized these entries as gateways to the Twister and other spine-locking submissions. The Truck Entry capitalizes on the turtle position's inherent vulnerability - while turtle protects against many traditional attacks, it exposes the legs and hips to creative entries. Modern competitors have elevated this transition into a high-percentage system, particularly in no-gi competition where the absence of gi grips makes traditional back-taking methods less reliable. The entry requires precise timing and spatial awareness to thread your leg hook while maintaining control of the opponent's upper body, creating a locked structure that prevents escape while opening submission opportunities.
 
@@ -199,7 +195,7 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish side control on turtle**: Position yourself perpendicular to your opponent's spine while they are in turtle. Place your chest across their back with your weight distributed to prevent them from returning to guard or standing up. Control their near-side arm with your hand, gripping the wrist or triceps. (Timing: Initial control phase)
 2. **Create space under hips**: Use your near-side hand to lift or shift the opponent's far hip slightly upward while maintaining chest pressure. This creates the necessary space to thread your leg underneath. Keep constant pressure so they cannot flatten or escape forward. (Timing: Preparation phase)
 3. **Thread leg hook under far hip**: Swing your inside leg (the leg closer to opponent's hips) underneath their body, threading it across and under their far hip. Your shin should pass completely under their torso with your foot emerging on their opposite side. Keep your knee bent to maintain the hook. (Timing: Entry phase)
@@ -292,7 +288,7 @@ Apply Truck entries during regular sparring without prearranged setups. Focus on
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical advantage the leg hook provides in Truck Entry?
 **A**: The leg hook acts as a lever under the opponent's center of mass, allowing you to manipulate their entire body position using your stronger leg muscles rather than arm strength. It creates a structural connection that prevents them from using their base effectively while enabling you to control their rotation and off-balance them toward your desired position. The hook also limits their hip mobility, which is essential for most turtle escapes.
 

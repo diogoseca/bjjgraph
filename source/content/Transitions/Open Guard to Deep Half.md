@@ -147,14 +147,10 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 
 
 
-> Open Guard to Deep Half transitions from [[Open Guard]] to [[Deep Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Open Guard to Deep Half?
 
 The transition from Open Guard to Deep Half represents a strategic guard recovery sequence that transforms defensive situations into powerful offensive opportunities. This technique is particularly valuable when facing aggressive standing or passing pressure from top position, allowing the bottom player to dive underneath their opponent's center of gravity and establish the deep half guard structure. The deep half position provides excellent sweeping mechanics while simultaneously nullifying many common passing strategies. This transition emphasizes proper hip movement, head positioning, and timing to safely navigate underneath the opponent's base. Modern practitioners have refined this entry to work against various passing styles, making it an essential component of comprehensive guard retention systems. The technique demonstrates the principle of using depth and angle changes to create defensive depth while maintaining offensive threats.
 
@@ -193,7 +189,7 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish inside positioning**: From open guard, use your inside leg to create a butterfly hook or shin shield against your opponent's near leg. Simultaneously grip their pants at the knee or ankle with your near-side hand while your far hand controls their belt or far hip. This creates the necessary frame and angle for entry. (Timing: As opponent begins forward pressure or prepares to initiate pass)
 2. **Create angle with hip escape**: Execute a strong hip escape away from your opponent, rotating your hips approximately 45 degrees to create the angle needed to dive underneath. Your shoulders should turn toward the mat while maintaining your grips. This hip movement opens the pathway under your opponent's leg while protecting your back exposure. (Timing: Immediately following inside leg establishment)
 3. **Dive underneath near leg**: Drive your head and shoulders underneath your opponent's near leg, threading your body through the space between their legs. Your head must pass to the outside of their leg, never between their legs. Keep your chin tucked and neck protected as you slide underneath, using your grips to pull yourself through while your legs follow. (Timing: As opponent's weight shifts forward onto their hands or begins lateral movement)
@@ -284,7 +280,7 @@ Full positional sparring from open guard with scoring. Points awarded for succes
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical safety consideration when entering deep half guard from open guard?
 **A**: The most critical safety consideration is ensuring your head passes to the outside of your opponent's near leg, never between their legs. Diving with your head between the legs creates extreme vulnerability to guillotine chokes and front headlock positions that can result in immediate submission. Your head must always be positioned outside the leg to maintain defensive integrity while completing the transition. Additionally, maintaining a tucked chin throughout the entry protects against crossface attempts and maintains proper neck alignment.
 

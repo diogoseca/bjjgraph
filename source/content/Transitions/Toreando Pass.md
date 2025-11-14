@@ -153,14 +153,10 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 
 
 
-> Toreando Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Toreando Pass?
 
 The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.
 
@@ -199,7 +195,7 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: From standing or combat base, secure strong grips on both of opponent's knees or pant legs. Your grip should be firm but allow for dynamic movement. Keep elbows tight and maintain upright posture to prevent opponent from breaking your posture or sweeping. (Timing: Take 1-2 seconds to establish secure grips)
 2. **Create initial pressure**: Drive both hands forward and slightly downward, pushing opponent's knees toward their chest. This initial pressure breaks their guard structure and prevents them from establishing strong frames or hooks. Keep your weight centered over your hips. (Timing: Immediate pressure upon securing grips)
 3. **Step laterally to passing side**: Take a large lateral step to one side (typically your stronger side first) while maintaining grip pressure on the knees. Your step should be explosive and create approximately 45-90 degrees of angle relative to your starting position. Keep your head and chest forward. (Timing: Explosive lateral movement in one motion)
@@ -298,7 +294,7 @@ Explore Toreando variations including grip variations (sleeve/collar/ankle), dif
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the Toreando Pass effective?
 **A**: The Toreando Pass creates opposing vectors of movement where the passer's body moves laterally in one direction while forcefully redirecting the opponent's legs in the opposite direction. This separation between upper and lower body breaks the guard player's ability to maintain connection and creates a clear passing lane. The effectiveness comes from the simultaneous nature of these opposing movements, preventing the opponent from adjusting their position in time to maintain guard.
 

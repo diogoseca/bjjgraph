@@ -8,7 +8,7 @@ description: "Master Crucifix position in BJJ. Dominant arm-trapping control wit
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Crucifix position in BJJ. Dominant arm-trapping control wit
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Crucifix?
 
 The Crucifix position represents one of the most dominant and devastating control positions in Brazilian Jiu-Jitsu, characterized by the systematic isolation and control of both of the opponent's arms simultaneously. The position derives its name from the cross-like appearance created when both arms are trapped and extended away from the body, rendering the opponent virtually defenseless against submissions and positional advances.
 
@@ -52,7 +50,7 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -66,7 +64,7 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium to Long |
 
-**What Makes This Unique:** Bilateral arm isolation creates asymmetric control
+**Key Difference:** Bilateral arm isolation creates asymmetric control
 
 
 
@@ -78,10 +76,6 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ## Playing as Bottom
 
 [[Crucifix/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -160,10 +154,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Crucifix/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -236,7 +226,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -147,14 +147,10 @@ description: "Master the Elbow Escape from side control in BJJ. Step-by-step exe
 
 
 
-> Elbow Escape transitions from [[Side Control]] to [[Knee Shield Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Elbow Escape?
 
 The Elbow Escape, also known as the shrimp escape or hip escape, is the most fundamental and essential defensive technique in Brazilian Jiu-Jitsu for escaping from side control. This technique involves creating space through hip movement and frame construction, allowing the bottom practitioner to insert their knee shield and recover guard position. The elbow escape is built on the principle of using your skeletal structure to create frames that prevent your opponent from closing distance while simultaneously using hip movement to generate space. This is the first escape taught to beginners and remains relevant at the highest levels of competition, as it forms the foundation for all pin escapes. The technique's effectiveness lies in its systematic approach to creating and maintaining space, using the combination of proper framing, hip escape mechanics, and timing to neutralize the top player's control. Understanding this escape is critical because side control is one of the most common pins in BJJ, and the ability to escape efficiently conserves energy and prevents further positional deterioration.
 
@@ -193,7 +189,7 @@ The Elbow Escape, also known as the shrimp escape or hip escape, is the most fun
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish frames**: Place your far-side hand on opponent's near shoulder or neck, creating your primary pushing frame. Position your near-side elbow on opponent's hip bone, creating a secondary frame. These frames work together to create distance between your chest and theirs. Your near elbow should be tight to your ribs, creating a strong structural frame rather than pushing with arm strength. Keep your forearm perpendicular to opponent's body for maximum structural integrity. (Timing: Establish frames immediately when recognizing stable side control)
 2. **Bridge and turn into opponent**: Explosively bridge your hips off the mat, driving through your feet while turning slightly toward your opponent. This creates momentary weight redistribution and forces them to post their hands or adjust their base. The bridge should be directed at a 45-degree angle toward your opponent's head, not straight up. This motion creates the initial space needed for the hip escape and disrupts their pressure. (Timing: Bridge explosively as opponent settles their weight or attempts to improve position)
 3. **Hip escape (shrimp away)**: As you land from the bridge, immediately shrimp your hips away from opponent by pulling your near knee up toward your chest and explosively pushing your hips backward along the mat. Your far leg should be bent with foot flat on the mat, providing the pushing power. Drive through this foot while simultaneously pulling with your frames. This creates 4-6 inches of space between your hip and opponent's body. Your head should move in the opposite direction of your hips. (Timing: Execute shrimp immediately upon landing from bridge, using the momentum)
@@ -294,7 +290,7 @@ Regular drilling to maintain muscle memory and timing. Experiment with personal 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you bridge before shrimping in the standard elbow escape sequence?
 **A**: Bridging momentarily unweights your opponent's chest pressure and forces them to adjust their base or post their hands. This creates the initial space and weight redistribution necessary for an effective hip escape. Without the bridge, the opponent's full weight is still heavy on your chest, making the shrimp movement restricted and ineffective. The bridge also disrupts their control momentarily, giving you a timing window for the escape.
 

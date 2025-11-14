@@ -147,14 +147,12 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 
 
 
-> Buggy Choke is a blood choke targeting the Carotid arteries and neck compression. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Buggy Choke targets the Carotid arteries and neck compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Buggy Choke?
 
 The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.
 
@@ -238,7 +236,7 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Half Guard Control**: From half guard bottom, secure your opponent's leg with your half guard while they attempt to flatten you or consolidate position. Your outside leg should hook deep while your inside knee creates a frame. Recognize the moment when your opponent commits their weight forward, making them vulnerable to the choke setup. (Timing: Initial setup phase, typically when opponent drives into you) [Pressure: Light]
 2. **Create the Angle and Trap**: Turn your body into your opponent, creating a sharp angle rather than staying flat. As you turn, thread your inside arm (the arm on the side of your trapped leg) around and behind their head, or trap their far arm so it crosses their own neck. Your goal is to create a position where their own arm contributes to the choke. Use your free hand to control their wrist or sleeve, preventing defensive hand fighting. (Timing: 2-3 seconds to establish proper angle) [Pressure: Light]
 3. **Lock the Grip Configuration**: Secure your choking arm position by grabbing your own leg, your opponent's leg, or establishing a gable grip around their head and shoulder. The exact grip varies based on body proportions and positioning, but the critical element is creating a closed loop that prevents them from swimming their trapped arm free. Your grip should feel secure but not yet applying choking pressure. (Timing: 1-2 seconds for grip establishment) [Pressure: Moderate]
@@ -306,7 +304,7 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary target of the Buggy Choke and why is proper angle so critical? **[SAFETY-CRITICAL]**
 **A**: The primary target is the carotid arteries on the sides of the neck, not the windpipe. Proper angle is critical because you need to create compression from the side to effectively cut off blood flow to the brain. If your angle is wrong and you compress the windpipe instead, you create a painful but less effective submission that's also more dangerous to your partner's throat structure.
 

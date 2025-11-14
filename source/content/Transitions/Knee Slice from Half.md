@@ -147,14 +147,10 @@ description: "Master the Knee Slice from Half Guard pass in BJJ. High-percentage
 
 
 
-> Knee Slice from Half transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Slice from Half?
 
 The Knee Slice from Half Guard is one of the most fundamental and high-percentage guard passes in Brazilian Jiu-Jitsu. This technique exploits the half guard player's commitment to the inside position by creating a powerful angle that drives your knee across their legs while establishing dominant upper body control. The pass works by combining forward pressure with lateral movement, using your knee as a wedge to separate the opponent's legs while your hips drive through the opening.
 
@@ -198,7 +194,7 @@ This pass represents a cornerstone of modern guard passing systems because it wo
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish crossface control**: Drive your shoulder across the opponent's face and into their far shoulder, using your forearm to create pressure on their jaw. This control point is critical - without it, they can create frames and prevent your pass. Your weight should be forward, making it difficult for them to turn into you or establish an underhook. (Timing: Before attempting any leg extraction)
 2. **Secure the underhook**: Thread your free arm under their far armpit, gripping around their back or their far lat muscle. This underhook serves multiple purposes: it lifts their shoulder off the mat, prevents them from turning away, and gives you control over their torso rotation. Pull their upper body toward you while maintaining the crossface pressure. (Timing: Immediately after establishing crossface)
 3. **Flatten the opponent**: Using your underhook and crossface together, drive the opponent flat onto their back. Their bottom shoulder should be pinned to the mat, eliminating their ability to come up on their side. This flattening motion removes most of their defensive power and makes the leg extraction significantly easier. (Timing: Continuous pressure as you prepare to move your knee)
@@ -292,7 +288,7 @@ Integrate knee slice into your complete passing system. Practice flowing between
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is establishing the crossface before attempting the knee slice critical to the pass's success?
 **A**: The crossface eliminates the opponent's ability to turn into you and create defensive frames. It pins their bottom shoulder to the mat, flattening their posture and removing their strongest defensive position. Without the crossface, they can easily use their arms to create space, block your knee, or recover guard. The crossface also controls their head, which controls their entire body's orientation.
 

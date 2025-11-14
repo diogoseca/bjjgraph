@@ -8,7 +8,7 @@ description: "Master defensive survival from 100 Kilos Bottom. Complete guide co
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master defensive survival from 100 Kilos Bottom. Complete guide co
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 50% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is 100 Kilos from the Bottom?
 
 The 100 Kilos Bottom Position represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu, where the bottom practitioner must survive extreme shoulder and chest pressure that creates intense physical discomfort and psychological stress. This position is characterized by concentrated crushing force through the opponent's shoulder into your chest or face, creating the sensation of bearing tremendous weight while simultaneously restricting breathing capacity. The name derives from the feeling of having 100 kilograms pressing on a small area of your body, even though actual weight may be less. Success from this position depends not on strength or explosive escape attempts, but on systematic defensive thinking, controlled breathing under pressure, and recognizing specific moments when the opponent's weight shifts create escape windows. The psychological challenge often exceeds the physical - maintaining composure and technical precision while unable to breathe normally separates championship-level defensive skills from those who surrender mentally before exhausting technical options. Understanding proper frame management, hip mobility patterns, and energy conservation principles transforms this seemingly hopeless position into a solvable technical problem with clear escape pathways.
 
@@ -435,17 +416,17 @@ Bottom player cycles through elbow escape, shrimp escape, bridge and roll, and r
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The 100 Kilos position from bottom exemplifies the fundamental principle that jiu-jitsu is not about strength, but about intelligent application of leverage and systematic problem-solving under extreme duress. When trapped underneath heavy shoulder pressure, the untrained response is to push directly against the force - this is precisely what the top player wants, as it creates muscular fatigue that leads to submission. The intelligent defensive approach begins with understanding that you cannot simply push your way out of consolidated pressure. Your defensive frames must be structural, not muscular - think of your forearms as beams in a building rather than pistons pushing weight. Escape begins not with large explosive movements, but with small precise adjustments of hip angle and shoulder position that create geometric space necessary for larger movements. Your breathing must remain controlled and your mind must remain calm, treating this as a technical problem to be solved systematically rather than a physical challenge to be overcome through strength or panic.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From a competition standpoint, being stuck in 100 Kilos bottom is where matches are often decided - if you can't handle this pressure mentally, you'll tap or give up your back. The reality is that if you're in this position against a high-level competitor, you're in serious danger and survival is the priority. My approach is to accept the discomfort, stay calm, and wait for the specific moment when they commit their weight to an attack - that's your window. I'm not wasting energy on constant escape attempts; I'm conserving energy and maintaining my defensive frames until I see that opportunity. When that moment comes, you need to be explosive and decisive - half-committed escape attempts will fail and make things worse. The other critical factor is mental fortitude. I've seen countless competitors tap to pressure simply because they couldn't handle the psychological warfare of being crushed. Championship-level jiu-jitsu requires the ability to remain calm and technical even in the worst positions.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The 100 Kilos bottom position is where you see the difference between sport jiu-jitsu and street reality - this kind of pressure is what you might face in a real fight where someone is trying to hurt you. In the 10th Planet system, we train extensively under heavy pressure because we know that in MMA or self-defense scenarios, you're going to face opponents trying to break your will with crushing weight. Traditional gi-based escapes often rely on grips that aren't available without the gi, so you need alternative escape mechanisms. The psychological component is huge - if you train regularly under this kind of pressure with larger, stronger partners, you develop mental toughness to stay calm when it matters. I've seen smaller guys survive against bigger opponents simply because they refused to be broken psychologically, and that mental resilience opened up technical opportunities that panic would have closed off. Even from the worst bottom positions, maintain an offensive mindset - look for leg attacks, look for their base vulnerabilities, stay thinking rather than just surviving.
 

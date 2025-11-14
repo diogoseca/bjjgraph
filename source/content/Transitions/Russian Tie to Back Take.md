@@ -147,14 +147,10 @@ description: "Master the Russian Tie to Back Take in BJJ. Step-by-step execution
 
 
 
-> Russian Tie to Back Take transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Russian Tie to Back Take?
 
 The Russian Tie to Back Take is a fundamental wrestling-based technique that has become essential in modern BJJ, particularly in no-gi competition. This technique exploits opponent's defensive reactions to wrist control by using leverage and angular movement to circle to their back. The Russian Tie (also called the Russian 2-on-1) creates a powerful control position where you control opponent's one arm with both of your hands while positioning your head on the bicep side of that arm.
 
@@ -197,7 +193,7 @@ This technique is favored by modern grapplers like Gordon Ryan and Garry Tonon b
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish Russian Tie grip**: From standing, secure a 2-on-1 control on opponent's lead arm. Your lead hand grips their wrist with thumb on top, fingers wrapped underneath. Your trailing hand grips their tricep just above the elbow. Pull their arm slightly across their centerline while positioning your forehead against the outside of their bicep. This head position is critical - it prevents them from rotating toward you and establishes the angle. (Timing: Initial setup - 1-2 seconds)
 2. **Create angle and apply pressure**: Drive your forehead into their bicep while simultaneously pulling their wrist down and across. This creates a bent-arm position that weakens their structure. Step your lead foot (same side as their controlled arm) laterally and slightly forward at a 45-degree angle. Your body should be angling toward their back rather than directly facing them. Maintain downward pressure on their wrist to prevent them from straightening their arm. (Timing: Continuous motion - 1 second)
 3. **Begin circular motion to back**: Using the angle you've created, begin circling toward opponent's back by taking small, controlled steps in the direction of their controlled arm. Your movement should be lateral and slightly forward, not backward. Keep your hips lower than theirs to maintain base. As you circle, maintain constant pressure with your head and continue pulling their wrist across their body. Your trailing hand on their tricep helps guide the circle. (Timing: Circular motion - 2-3 seconds)
@@ -287,7 +283,7 @@ Use Russian Tie to Back Take in live sparring rounds starting from standing. Pra
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the correct hand positioning for the Russian Tie control?
 **A**: The Russian Tie requires a 2-on-1 grip where your lead hand grips opponent's wrist with thumb on top and fingers underneath, while your trailing hand grips their tricep just above the elbow. Your forehead should be positioned against the outside of their bicep on the same side as the controlled arm. This head position prevents their rotation and is critical to the control.
 

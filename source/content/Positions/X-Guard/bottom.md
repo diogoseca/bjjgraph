@@ -8,7 +8,7 @@ description: "Master X-Guard Bottom in BJJ. Comprehensive guide covering sweeps,
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master X-Guard Bottom in BJJ. Comprehensive guide covering sweeps,
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 70% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Low
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is X-Guard from the Bottom?
 
 X-Guard Bottom is a powerful open guard position where the bottom practitioner controls the opponent using their legs in an 'X' configuration around one of the opponent's legs. The position is characterized by one leg hooking behind the opponent's knee while the other controls the hip or belt line, creating a crossing pattern that gives the position its name. This configuration provides exceptional off-balancing control and sweep opportunities. The X-Guard emerged as a revolutionary position in modern BJJ, popularized by Marcelo Garcia who demonstrated its effectiveness at the highest levels of competition. The position offers a systematic approach to dealing with standing opponents and is particularly effective against knee slice passes and other pressure-based attacks. Unlike traditional guards, X-Guard creates mechanical advantages through leg control rather than grips, making it highly effective in both gi and no-gi contexts. From a strategic standpoint, X-Guard Bottom serves as both a sweeping platform and a transitional hub to other leg entanglement positions. The position's power comes from controlling the opponent's base while simultaneously threatening multiple sweeping directions. Advanced practitioners use X-Guard as part of an integrated guard system, flowing seamlessly between Single Leg X, Reverse X-Guard, and Deep Half variations based on opponent reactions.
 
@@ -453,17 +434,17 @@ Practice flowing from X-Guard to Single Leg X to Ashi Garami and back based on p
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 X-Guard represents a paradigm shift in guard theory, moving away from grip-based control to mechanical leg-based control systems. The position's effectiveness stems from its ability to simultaneously destroy the opponent's base while creating multiple directional sweeping threats. The inside leg hook functions as a powerful lever that controls the opponent's hamstring and knee joint, while the outside leg creates a rigid barrier that prevents forward pressure. The key to mastering X-Guard lies in understanding that it is not a static position but rather a dynamic control system that flows between variations based on opponent reactions. Advanced practitioners develop the ability to maintain the essential mechanical properties of X-Guard - base destruction and directional threat - while transitioning seamlessly between X-Guard, Single Leg X, and leg entanglement positions. The position requires precise hip elevation and active leg tension to maintain control; passive execution leads to immediate failure as the opponent can simply pressure through the position.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 X-Guard is one of the most high-percentage sweeping positions in modern competition BJJ, particularly effective against standing opponents who are trying to establish distance for knee slice or toreando passes. In my competition experience, X-Guard serves as both an attacking platform and a transitional hub to leg entanglements, which is where the real finishing opportunities emerge. The key to making X-Guard work at the elite level is developing ruthless efficiency in your entries - you need to establish the position immediately and sweep before the opponent can set their defense. I particularly favor using X-Guard as a transitional position to Single Leg X and Ashi Garami, where the submission opportunities are far more abundant. The most common mistake I see is practitioners trying to hold X-Guard statically rather than flowing through it as part of a larger guard system. Against world-class opponents, you have a very narrow window to sweep from X-Guard before they start their pass, so your timing and explosive execution must be perfect. The position is especially powerful in no-gi where grip fighting is less of a factor and pure mechanical control dominates.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 X-Guard is a fundamental position in the 10th Planet system, and we've developed numerous creative entries and variations that work exceptionally well in no-gi contexts. The beauty of X-Guard is that it doesn't rely on gi grips, making it equally effective whether you're wearing a gi or not. We emphasize using X-Guard as an entry point to our leg lock game, particularly flowing to Honey Hole and saddle positions for heel hook attacks. The traditional X-Guard sweep is great, but we've found even more success using it as a transitional position that keeps opponents guessing and off-balance. One of our key innovations is combining X-Guard with rubber guard concepts, using the trapped leg control to set up unique submission opportunities. We also drill extensively on maintaining X-Guard against modern passing methods like the knee slice and leg drag, developing specific counter-reactions that flow into either sweeps or leg entanglements. The position requires constant movement and adjustment - you can't just sit there and hold it statically. The key is building a systematic understanding of where to go based on how the opponent reacts, turning X-Guard into a hub position that connects to multiple offensive pathways.
 

@@ -147,14 +147,12 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
 
 
 
-> Ten Finger Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea damage from excessive crushing pressure. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Ten Finger Guillotine targets the Carotid arteries and trachea. Risk: Trachea damage from excessive crushing pressure. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ten Finger Guillotine?
 
 The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an interlocking grip with all ten fingers, creating tremendous squeezing power around the opponent's neck. Unlike the traditional guillotine which uses a gable or arm-in configuration, the ten finger variation employs both hands clasped together with fingers interlaced, allowing for maximum compression of the carotid arteries. This submission is particularly effective in no-gi grappling where hand-fighting and grip transitions happen rapidly. The choke can be applied from standing positions during scrambles, from guard pulls, or when defending takedown attempts. The ten finger grip provides exceptional control even against sweaty or slippery opponents, making it a reliable finishing option across all skill levels. The submission works through a combination of blood restriction and airway compression, with proper technique emphasizing the former for safety and effectiveness. The versatility of this choke allows it to be integrated into multiple positional sequences, from front headlock control to closed guard variations.
 
@@ -237,7 +235,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure front headlock position**: From standing or turtle position, wrap your choking arm (typically your dominant arm) deep around opponent's neck. Your bicep should be against one side of their neck, your forearm across the throat, and your armpit should be tight over the crown of their head. Keep your chest heavy on their upper back to prevent them from standing up. (Timing: Initial control - 1-2 seconds) [Pressure: Moderate]
 2. **Establish ten finger grip**: Reach your non-choking hand underneath opponent's torso to meet your choking hand. Interlace all ten fingers together, creating a palm-to-palm connection with fingers woven tightly. This grip should feel like a prayer grip but with maximum finger engagement. Position the grip so your choking forearm is centered on their throat, not on their chin or purely on the side of the neck. (Timing: Grip establishment - 1 second) [Pressure: Light]
 3. **Adjust hip position and posture**: If standing, step your hips back slightly while keeping your chest forward and heavy on opponent. If on the ground after a guard pull, establish closed guard or maintain a seated position with hooks. Your spine should be relatively upright with your head positioned above or slightly in front of theirs. This posture allows your lats and shoulder muscles to generate choking pressure rather than relying purely on arm strength. (Timing: Positional adjustment - 1-2 seconds) [Pressure: Moderate]
@@ -305,7 +303,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary muscle group that should generate choking pressure in the ten finger guillotine, and why is this biomechanically superior to using arm strength alone?
 **A**: The latissimus dorsi (lats) and shoulder muscles should generate the primary choking force through shoulder elevation and elbow retraction. This is biomechanically superior because these large muscle groups are much stronger and have greater endurance than the biceps and forearms. The lat engagement creates a powerful pulling motion that tightens the noose around the neck without requiring grip strength, making the choke sustainable even in extended sequences. Additionally, using the lats allows the arms to remain relatively relaxed, preserving energy and preventing the grip from failing due to forearm fatigue.
 

@@ -153,14 +153,12 @@ description: "Master guillotine variations in BJJ. Complete guide covering high 
 
 
 
-> Guillotine Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea crush and airway damage. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Guillotine Variations targets the Carotid arteries and trachea. Risk: Trachea crush and airway damage. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Guillotine Variations?
 
 The guillotine choke represents one of the most versatile submission families in Brazilian Jiu-Jitsu, with numerous grip variations that fundamentally change the mechanics and effectiveness of the finish. While the basic guillotine is effective, understanding the full spectrum of variations—from the high elbow guillotine that maximizes shoulder pressure to the arm-in configuration that prevents defensive hand fighting—allows practitioners to adapt to different body types, positions, and defensive responses. Each variation serves a specific strategic purpose: the chin strap guillotine controls opponents who tuck their chin, the ten finger guillotine provides maximum squeeze for shorter arms, and the marce variation creates a devastating choke from front headlock positions. Mastery of these variations transforms the guillotine from a single technique into a complete submission system that can be applied from standing, guard, half guard, or scrambles, making it one of the highest percentage finishes across all skill levels and competition formats.
 
@@ -245,7 +243,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish front headlock control and break opponent's posture**: From standing, guard, or scramble position, secure a strong collar tie or head control that breaks opponent's posture forward. Your goal is to get their head below hip level while controlling their movement. Use your free hand to control their far shoulder or establish an overhook preventing them from circling away. This positional control is critical before attempting any guillotine variation. (Timing: Take 2-3 seconds to establish solid positional control) [Pressure: Moderate]
 2. **Thread choking arm deep around opponent's neck**: Slide your choking arm around opponent's neck, aiming to get the blade of your wrist as deep as possible against the far side of their neck. The depth of this initial threading determines the effectiveness of all guillotine variations. Your elbow should be positioned on the near side of their neck, creating the choking mechanism. Maintain downward pressure on their head with your non-choking hand to prevent them from pulling their head free during this threading motion. (Timing: 1-2 seconds for deep threading) [Pressure: Light]
 3. **Select and establish grip variation based on position and opponent's defense**: Choose your grip variation based on the tactical situation: High elbow guillotine (palm-to-palm grip with high elbow) for maximum shoulder pressure when opponent's chin is up; Arm-in guillotine when opponent gets their defensive hand inside; Chin strap when opponent tucks chin defensively; Ten finger guillotine (gable grip) for maximum squeeze with shorter arms. Each grip fundamentally changes the finishing mechanics, so this selection point is critical for success. (Timing: 1 second for grip transition) [Pressure: Light]
@@ -316,7 +314,7 @@ The guillotine choke represents one of the most versatile submission families in
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary source of choking pressure in all guillotine variations, and why is arm strength alone insufficient?
 **A**: Hip extension creates the primary choking pressure by generating a lever arm that multiplies force against opponent's neck. The arms function primarily to hold the position and maintain grip depth, while the hips driving upward (from guard) or downward (from standing) create the actual compressive force on the carotid arteries. Arm strength alone cannot generate sufficient pressure to finish a guillotine against a defending opponent, and attempting to do so leads to muscle fatigue and loss of position. The mechanical advantage created by proper hip positioning allows even smaller practitioners to finish guillotines against larger opponents.
 

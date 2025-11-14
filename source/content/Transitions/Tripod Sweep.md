@@ -147,14 +147,10 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
 
 
 
-> Tripod Sweep transitions from [[Spider Guard]] to [[Standing Position]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Tripod Sweep?
 
 The Tripod Sweep is a fundamental open guard technique that creates a mechanical advantage through angles and off-balancing. From Spider Guard, the practitioner establishes a three-point base (two feet and one hand on the opponent) to create an unstable platform, forcing the opponent to react and creating sweep opportunities. This technique is particularly effective against opponents attempting to maintain distance and posture in the guard, as it exploits their upright stance and converts their weight distribution into a sweeping motion. The name 'tripod' refers to the three points of contact that control the opponent's base while simultaneously removing one of their legs from the equation. This sweep is a cornerstone of modern Spider Guard systems and provides entry points into multiple dominant positions including mount, knee on belly, or standing control. The tripod structure allows for dynamic transitions and combinations, making it an essential technique for competitors at all levels who wish to develop an active, attacking guard game.
 
@@ -193,7 +189,7 @@ The Tripod Sweep is a fundamental open guard technique that creates a mechanical
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish Spider Guard control**: Secure deep collar grip with one hand and strong sleeve grip with the other. Place both feet on opponent's biceps with toes pointed outward, creating maximum extension and preventing them from closing distance. Maintain active pressure pushing opponent away while pulling with grips. (Timing: Before opponent establishes passing grips or begins movement)
 2. **Transition to tripod base**: Remove one foot from opponent's bicep (typically same side as sleeve grip) and place it on the mat outside your hip, creating the first leg of the tripod. Simultaneously post your free hand (same side) on the mat behind you for stability. Keep remaining spider hook active on opposite bicep with maximum extension. (Timing: As opponent maintains upright posture)
 3. **Off-balance with collar control**: Pull sharply with your collar grip while simultaneously pushing with your active spider hook, creating a diagonal force vector that disrupts opponent's base. This should cause them to post their free hand forward or step to recover balance. Maintain constant pressure to prevent them from settling their weight back. (Timing: Continuous pressure until opponent reacts)
@@ -282,7 +278,7 @@ Develop automatic combinations: Tripod Sweep to Triangle when opponent sits back
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is the Tripod Sweep most effective when your opponent's weight is forward rather than back on their heels?
 **A**: When the opponent's weight is forward, they are already off-balance in the direction of the sweep. The tripod structure and ankle attack remove their ability to post and catch themselves, making the sweep mechanically sound. When their weight is back, they have no forward momentum to exploit and can simply step back or sit down to defend, making the sweep biomechanically impossible to complete with the required force vectors.
 

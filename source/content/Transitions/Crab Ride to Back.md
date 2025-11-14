@@ -147,14 +147,10 @@ description: "Master the Crab Ride to Back transition in BJJ. Complete step-by-s
 
 
 
-> Crab Ride to Back transitions from [[Crab Ride]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Crab Ride to Back?
 
 The Crab Ride to Back transition represents one of the most dominant pathways from turtle control to full back control in modern Brazilian Jiu-Jitsu. This technique capitalizes on the unique leverage advantages of the Crab Ride position, where the attacking grappler maintains control with hooks and strategic weight distribution while the opponent is trapped in turtle. The transition exploits the opponent's defensive reactions and limited mobility to secure the coveted back control position.
 
@@ -197,7 +193,7 @@ What makes this transition particularly effective is the combination of mechanic
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure Crab Ride control**: From top turtle position, establish the Crab Ride by inserting your inside leg as a hook under the opponent's near thigh while maintaining chest pressure on their back. Your outside leg posts wide for base. Secure control of their near arm with an underhook or wrist control to prevent posting. Your chest should be heavy on their back with your head positioned near their far shoulder. (Timing: Establish solid control before initiating transition)
 2. **Establish seat belt grip**: Begin transitioning your upper body control by sliding your top arm (the one not controlling the near arm) over the opponent's far shoulder, reaching for their opposite armpit or collar. This creates the first component of the seat belt grip. Maintain pressure with your chest while initiating this grip to prevent the opponent from creating space. Your bottom arm will continue controlling their near arm initially. (Timing: Secure upper seat belt component before proceeding)
 3. **Insert bottom seat belt arm**: Release your control of the opponent's near arm and quickly thread your lower arm under their near armpit, completing the seat belt configuration. Your hands should meet at their chest with one arm over the shoulder (top grip) and one arm under the armpit (bottom grip). Lock your hands together in a grip that prevents separation. This grip structure is crucial for maintaining control during the transition. (Timing: Execute hand transition quickly to minimize escape window)
@@ -290,7 +286,7 @@ Actively hunt for Crab Ride opportunities during regular sparring sessions. Prac
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the proper sequence for establishing control during the Crab Ride to Back transition?
 **A**: The proper sequence is: establish Crab Ride position with first hook and near arm control, begin seat belt grip by securing the top arm over the far shoulder, release near arm control and immediately insert bottom arm under near armpit to complete seat belt, insert second hook while maintaining seat belt control, execute the transition to back mount through rolling or sliding, and finally consolidate the back control position. This sequence ensures continuous control throughout the transition without creating escape opportunities.
 

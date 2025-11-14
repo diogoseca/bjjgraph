@@ -153,14 +153,10 @@ description: "Learn Transition to Omoplata in BJJ. Complete guide to entering om
 
 
 
-> Transition to Omoplata transitions from [[Closed Guard]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Transition to Omoplata?
 
 The transition to omoplata is a fundamental shoulder lock entry that exploits the opponent's defensive posture and arm positioning from guard. This technique combines elements of sweeping mechanics with submission attacks, creating a powerful dual threat that forces opponents into defensive dilemmas. The omoplata transition is particularly effective when opponents defend against triangle or armbar attempts, as their arm positioning naturally sets up the shoulder lock entry. The beauty of this transition lies in its versatility - it can be executed from closed guard, spider guard, rubber guard, and various open guard configurations, making it an essential component of any guard player's arsenal. The technique relies on controlling the opponent's arm at the shoulder and using leg positioning to create rotational pressure on the shoulder joint while simultaneously off-balancing them for potential sweeps.
 
@@ -199,7 +195,7 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish arm control**: Secure control of opponent's arm using overhook, sleeve grip, or wrist control. Break their posture forward and prevent them from posting their free hand on the mat. The controlled arm should be isolated and pulled across your centerline. (Timing: Initial setup phase)
 2. **Create angle with hip escape**: Perform a hip escape movement to create approximately 45-degree angle to your opponent's body. This angle is crucial for threading your leg over their shoulder. Your hips should be perpendicular to their torso while maintaining arm control. (Timing: As opponent attempts to establish base)
 3. **Thread leg over shoulder**: Swing your near-side leg over the opponent's shoulder, placing your hamstring across the back of their neck and shoulder. Your shin should be pressing against their head, creating downward pressure. Keep your leg tight to their body throughout this movement. (Timing: Immediately after creating angle)
@@ -296,7 +292,7 @@ Attempt omoplata transitions during normal rolling without pre-arrangement. Focu
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the optimal hip angle needed before threading your leg over opponent's shoulder for omoplata entry?
 **A**: Approximately 45 degrees perpendicular to opponent's torso. Your hips should be angled so that your body forms an 'L' shape with the opponent's body. This angle allows proper leg threading while maintaining arm control and base breaking capability. Without this angle, the leg cannot be effectively positioned over the shoulder.
 

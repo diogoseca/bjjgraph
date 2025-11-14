@@ -153,14 +153,10 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 
 
 
-> Pressure Pass transitions from [[Combat Base]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Pressure Pass?
 
 The Pressure Pass is a fundamental guard passing technique that relies on controlled, heavy pressure to pin the opponent's hips and progressively advance past their legs. Unlike speed-based passes that seek to quickly bypass the guard, pressure passing emphasizes control, weight distribution, and methodical advancement. This approach is particularly effective against flexible opponents or those with strong retention, as it limits their mobility and forces them to carry your weight while you systematically break down their defensive structure. The Pressure Pass can be initiated from various guard positions including closed guard, half guard, and open guard variations. The key principle is establishing chest-to-chest or chest-to-hip pressure while controlling the opponent's hips and preventing them from creating space or recovering their guard. This pass is highly effective in gi and no-gi contexts and forms the foundation of many modern guard passing systems. The technique requires patience, proper weight distribution, and the ability to maintain pressure while advancing position incrementally.
 
@@ -199,7 +195,7 @@ The Pressure Pass is a fundamental guard passing technique that relies on contro
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish combat base position**: From inside opponent's guard, posture up and establish combat base with one knee up and one knee down. Your lead knee should be between opponent's legs while your back foot is planted flat for base. Grip opponent's pants at both knees or one knee and one belt/hip area. (Timing: Initial positioning phase)
 2. **Open and pin opponent's legs**: Use your grips to push opponent's knees apart and down toward the mat. As you create this opening, begin to drive your chest forward and down toward opponent's hips or lower chest. Your head should be positioned on one side (typically the side you'll pass toward). (Timing: Coordinated with hip pressure)
 3. **Apply chest-to-chest or chest-to-hip pressure**: Drive your chest heavily into opponent's body, making them carry your weight. Keep your hips low and drive them forward to maximize pressure. Your chest should create a crushing sensation that limits opponent's ability to move their hips or create frames. (Timing: Continuous throughout the pass)
@@ -291,7 +287,7 @@ Use pressure passing as primary passing method during positional sparring from v
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary objective of pressure passing compared to speed passing?
 **A**: The primary objective of pressure passing is to use controlled, heavy weight distribution to limit the opponent's mobility and progressively break down their guard structure, rather than trying to quickly bypass their legs. Pressure passing emphasizes control and methodical advancement over speed.
 

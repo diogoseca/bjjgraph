@@ -147,14 +147,10 @@ description: "Master the Bodylock Pass in BJJ. Powerful pressure passing techniq
 
 
 
-> Bodylock Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Bodylock Pass?
 
 The Bodylock Pass is a fundamental pressure passing technique used to overcome the half guard position. By securing a tight bodylock around the opponent's torso, you create immense control while systematically removing their defensive frames and barriers. This pass is characterized by heavy shoulder pressure, strategic hip positioning, and the methodical clearing of the bottom leg to achieve side control. The bodylock grip provides multiple offensive advantages: it restricts the opponent's upper body movement, prevents them from creating effective frames, and allows you to transfer maximum pressure while maintaining balance. This technique is particularly effective against opponents who rely on knee shield or underhook defense, as the bodylock neutralizes these defensive structures. The pass combines elements of pressure, control, and strategic leg manipulation to create a high-percentage pathway from half guard top to dominant side control position.
 
@@ -193,7 +189,7 @@ The Bodylock Pass is a fundamental pressure passing technique used to overcome t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish bodylock grip**: From half guard top position, thread your arm under the opponent's far armpit and connect your hands behind their back in a tight bodylock configuration. Use a gable grip or S-grip depending on arm length and body proportions. Ensure the lock is high on their back, near the shoulder blades, to maximize control. (Timing: Initial setup phase)
 2. **Apply shoulder pressure**: Drive your shoulder into the opponent's sternum or upper chest, creating downward and forward pressure. Position your head on the far side of their body (opposite the trapped leg) to prevent them from turning into you. Your chest should be heavy on theirs, making it difficult for them to breathe or create space. (Timing: Continuous throughout pass)
 3. **Lower your hips**: Drop your hips toward the mat while maintaining the bodylock, creating a heavy, low base that makes it nearly impossible for the opponent to roll or sweep you. Your weight should be distributed through your chest and hips onto the opponent, not supported by your own base. (Timing: Before advancing position)
@@ -279,7 +275,7 @@ Use the bodylock pass during competition-style positional sparring and full roll
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary advantage of securing a high, tight bodylock grip during this pass?
 **A**: A high, tight bodylock grip positioned near the shoulder blades provides maximum control over the opponent's upper body, restricts their ability to create effective frames with their arms, prevents them from turning into you, and allows you to transfer your weight efficiently through your chest onto their torso. This grip architecture neutralizes most upper body escapes and gives you a stable platform to work on clearing the leg entanglement.
 

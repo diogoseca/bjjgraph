@@ -147,14 +147,10 @@ description: "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Stand
 
 
 
-> Sitting Guard Pull transitions from [[Standing Position]] to [[Seated Guard]]. Success rates: Beginner 70%, Intermediate 85%, Advanced 95%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Sitting Guard Pull?
 
 The Sitting Guard Pull is one of the most fundamental and reliable methods for establishing guard from standing position in Brazilian Jiu-Jitsu. This technique allows a practitioner to safely transition from neutral standing to a seated open guard position while maintaining grips and controlling distance. Unlike dynamic jumping or rolling guard pulls, the sitting guard pull emphasizes control, safety, and strategic positioning. The technique is particularly valuable in both gi and no-gi contexts, serving as a foundational entry point to various open guard systems including butterfly guard, De La Riva, seated guard, and shin-to-shin configurations. The sitting guard pull's high success rate across all skill levels makes it an essential technique for competitors who prefer playing guard, as it reliably achieves the desired position while minimizing risk of injury or positional disadvantage. Mastery of this technique provides a solid platform for developing a comprehensive guard game.
 
@@ -193,7 +189,7 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish primary grips**: From standing position, secure your preferred grip configuration. In gi, this typically involves a same-side collar grip with one hand and opposite sleeve or wrist control with the other. In no-gi, establish wrist control or an overhook/underhook position. The grip must be firm enough to maintain connection throughout the sitting motion. (Timing: Before any weight shift)
 2. **Create angle and assess space**: Angle your body slightly to one side (typically the side of your collar grip) rather than facing directly forward. Quickly assess the mat space behind you to ensure safe sitting room. This angle creates better access to specific guard types and prevents sitting directly backward which can strain the lower back. (Timing: Simultaneous with grip establishment)
 3. **Begin controlled descent**: Bend your knees and lower your hips in a controlled sitting motion, maintaining tension in your grips throughout. Your weight should transfer smoothly from standing to sitting, not dropping or falling. Keep your core engaged and your upper body slightly forward-leaning to maintain balance and prevent falling backward onto your tailbone. (Timing: 1-2 seconds for full descent)
@@ -288,7 +284,7 @@ Integrate sitting guard pull into your complete guard system. Practice flowing b
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical element to establish before initiating the sitting guard pull?
 **A**: At least one grip must be established before sitting. The grip provides connection, control, and prevents the opponent from immediately disengaging or circulating away. Sitting without grips leaves you isolated and vulnerable, unable to establish guard structure effectively. The proper sequence is always grip first, then sit.
 

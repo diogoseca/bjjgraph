@@ -8,7 +8,7 @@ description: "Master body lock control from top position. Dominant standing cont
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master body lock control from top position. Dominant standing cont
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 60%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Body Lock from the Top?
 
 Body Lock Top is one of the most dominant control positions in standing grappling, where you wrap both arms completely around your opponent's torso and lock your hands together, creating unified control over their center of mass and movement. This position provides immediate pathways to back control through mat returns, various throwing techniques, or transitions to other dominant ground positions. The body lock eliminates your opponent's ability to create distance, establish defensive grips, or execute their own offensive techniques, forcing them into a series of defensive choices where all options lead to disadvantageous positions.
 
@@ -474,17 +453,17 @@ Partner attempts various escapes from your body lock including frames, whizzer, 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The body lock top position represents the pinnacle of standing control mechanics because it creates a unified system where your entire upper body functions as a single controlling unit. When you successfully lock your hands around your opponent's torso, you establish a closed kinetic chain that allows maximum force transfer from your legs through your hips directly into their center of mass. This biomechanical configuration gives you mechanical advantage that transcends size and strength differentials. The critical principle most practitioners fail to understand is that the locked hands are redundant insurance, not the primary control mechanism. Your chest-to-back connection and hip pressure provide the actual control, while your hands merely prevent separation. This is why proper body lock control can be maintained with relatively minimal grip strength if the body positioning is correct. The position's tactical superiority stems from creating forced decision trees where your opponent must simultaneously defend against back takes, throws, and mat returns, but cannot effectively defend all three options. Every defensive choice they make opens a different offensive pathway, which is the fundamental characteristic of all dominant control positions in systematic grappling.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 The body lock is my primary weapon for getting to the back in both gi and no-gi competition. Once I lock it up tight with my chest connected and hips driving forward, my opponent has only bad options available. If they stay upright and try to defend, I hit throws or trips. If they turtle to avoid the throw, I take their back directly or use crab ride. If they sit to guard, I'm passing with the lock still connected. The key at the elite level is speed of establishment and immediate attack - you can't give high-level opponents any time to establish their defenses. I'm attacking within one or two seconds of locking my hands. The other critical detail is maintaining chest pressure throughout the entire sequence. I see a lot of competitors get the lock but then their chest comes off the back when they try to finish, and that's when the opponent escapes. I keep my chest glued to their back whether I'm standing, hitting the mat return, or taking the back, and I use my head position to control their shoulder so they can't turn into me. Against elite opposition, the body lock eliminates uncertain standup exchanges and forces them into wrestling positions they often don't want, which then leads directly to my back control game.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The body lock is crucial in the 10th Planet system because it's a high-control no-gi position that gives you explosive options. What I love is how it connects to our Truck position and back attack sequences. When you have the body lock and your opponent turtles up, you can hit rolling back takes that end up in the Truck, and from there you've got all your Twister and back attack options ready to go. The body lock also works perfectly as a wrestling entry - you lock it up standing and you can hit suplexes, mat returns, or just drag them down and pass their guard with the lock still connected. A lot of people think it's too basic, but at the highest levels of no-gi it's become super important because everyone's guard retention is so good now. You need positions like the body lock that force them into bad spots where they can't just invert and recover. We drill a lot of maintenance against hand fighting because that grip battle is where most people lose the position. Once you can keep it locked through resistance and immediately attack, you become extremely dangerous in scrambles and transitions.
 

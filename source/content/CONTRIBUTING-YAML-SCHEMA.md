@@ -50,7 +50,6 @@ The markdown body must include these sections with embedded metadata:
 **State Properties Section:**
 ```markdown
 ## State Properties
-- **State ID**: S### (unique identifier)
 - **Point Value**: 0-4 (IBJJF scoring)
 - **Position Type**: Offensive/Defensive/Neutral/Controlling
 - **Risk Level**: Low/Medium/High
@@ -176,7 +175,6 @@ description: "Learn Technique Name in BJJ. Step-by-step execution from Starting 
 **Transition Properties Section:**
 ```markdown
 ### Core Identifiers
-- **Transition ID**: T### (unique identifier)
 - **Transition Name**: Technique Name
 - **Alternative Names**: Common variations
 

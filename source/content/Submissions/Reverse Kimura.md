@@ -147,14 +147,12 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 
 
 
-> Reverse Kimura is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Reverse Kimura targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Reverse Kimura?
 
 The Reverse Kimura is a shoulder lock variation that applies the same rotational mechanics as the traditional Kimura but with a reversed grip configuration. Instead of the standard figure-four grip with your hand grabbing your own wrist behind the opponent's arm, the Reverse Kimura involves gripping your wrist in front of the opponent's arm, creating a different leverage angle and control pattern. This submission is particularly effective from standing positions, front headlocks, and scrambles where traditional Kimura grips may not be accessible. The Reverse Kimura shares the same target area and injury mechanism as the standard Kimura—the shoulder joint and rotator cuff—but the reversed grip often provides superior control in dynamic situations and allows for unique transitions to back takes and other submissions. The technique is highly valued in wrestling-based grappling and no-gi contexts where grip fighting and hand fighting create opportunities for unconventional entries. Understanding both the standard and reverse Kimura variations creates a more complete shoulder lock system that adapts to different gripping scenarios.
 
@@ -240,7 +238,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish wrist control and arm isolation**: From your starting position (standing, front headlock, or scramble), secure a firm grip on your opponent's wrist with one hand. Simultaneously use your other arm to trap their elbow or upper arm. This two-point control prevents them from straightening the arm or pulling it away. Your grip should be strong but not death-gripping—you need to be able to transition to the reverse Kimura grip smoothly. Position yourself so that your opponent's arm is somewhat bent and vulnerable to rotational attack. (Timing: Initial control phase, 1-2 seconds) [Pressure: Moderate]
 2. **Thread arm through for reverse grip**: Thread your controlling arm through the space between your opponent's arm and their body, positioning your hand to grab your own wrist on the opposite side of their arm. This creates the reverse figure-four configuration. The key difference from standard Kimura is that your grabbing hand reaches in front of their arm rather than behind it. This grip reversal changes the leverage angle and often provides tighter control. Ensure the grip is deep and secure before proceeding—a shallow grip will slip under pressure. (Timing: Grip transition, 1-2 seconds) [Pressure: Moderate]
 3. **Establish body position and angle**: With the reverse Kimura grip secured, adjust your body position to create the optimal angle for shoulder rotation. If standing, maintain a strong base with your weight distributed properly. If from front headlock, ensure your chest pressure controls their head and prevents forward movement. Your hips should be positioned to allow you to rotate their shoulder without forcing your own body into awkward positions. The angle should feel natural—if you have to contort yourself, adjust your position before applying pressure. (Timing: Position optimization, 1-2 seconds) [Pressure: Moderate]
@@ -308,7 +306,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for Reverse Kimura in training and why is this submission particularly dangerous? **[SAFETY-CRITICAL]**
 **A**: Minimum 4-6 seconds with progressive pressure and constant communication. The Reverse Kimura is particularly dangerous because the reversed grip angle can cause the submission to complete more suddenly than standard Kimura, potentially injuring the opponent before they can tap. The internal rotation of the shoulder happens rapidly once the joint reaches its limit, creating high injury risk if applied too quickly. Always stop well before the finish point in training.
 

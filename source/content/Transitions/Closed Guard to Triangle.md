@@ -147,14 +147,10 @@ description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execut
 
 
 
-> Closed Guard to Triangle transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Closed Guard to Triangle?
 
 The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself. This transition teaches fundamental principles of angle creation, hip movement, and limb isolation that apply throughout guard-based submissions. Mastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat.
 
@@ -192,7 +188,7 @@ The transition from Closed Guard to Triangle represents one of the most fundamen
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Break posture and control**: From closed guard, establish a deep collar grip with your left hand and secure the opponent's right sleeve with your right hand. Pull down forcefully on the collar to break their posture forward while maintaining tight guard closure with your legs. (Timing: Initiate when opponent attempts to establish their grips or begins to posture)
 2. **Isolate the arm**: Using your sleeve grip, pull the opponent's right arm across their centerline toward your left side while simultaneously using your collar grip to prevent them from basing out with their left arm. The goal is to create a situation where one arm is trapped inside your guard while the other is positioned outside. (Timing: Pull the arm across as you feel their weight shift forward)
 3. **Open guard and create angle**: Release your ankle lock and place your left foot on the opponent's right hip while keeping your right leg hooked behind their back. Simultaneously perform a slight hip escape to your right side, creating approximately 45 degrees of angle relative to your opponent's centerline. This angle is critical for proper triangle mechanics. (Timing: Execute the angle creation as one fluid motion immediately after isolating the arm)
@@ -285,7 +281,7 @@ Implement triangle attacks during full sparring sessions. Develop recognition of
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is creating an angle with your hips essential for a successful triangle from closed guard?
 **A**: Creating an angle positions your thigh and calf bone perpendicular to the opponent's neck, allowing them to compress the carotid arteries effectively. Without this angle, the choke relies only on forward pressure which is easily defended by posturing. The angle also prevents the opponent from simply pulling straight back to escape, as your body position blocks their escape path.
 

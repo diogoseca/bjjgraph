@@ -153,14 +153,10 @@ description: "Master the Arm Triangle from Turtle in BJJ. Complete guide coverin
 
 
 
-> Arm Triangle from Turtle transitions from [[Turtle]] to [[Arm Triangle]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Arm Triangle from Turtle?
 
 The Arm Triangle from Turtle is a powerful submission attack that exploits the defensive turtle position by isolating one of the opponent's arms and converting to a blood choke. This transition combines elements of front headlock control with precise shoulder positioning to create a devastating finishing sequence. The technique is particularly effective against opponents who rely heavily on the turtle as a defensive refuge, as it punishes the common error of keeping the elbows too wide or allowing the head to drift away from the body. Unlike traditional arm triangles from side control or mount, this variation requires the attacker to generate the necessary compression while transitioning from a top turtle position, making timing and weight distribution critical factors. The arm triangle from turtle has become increasingly popular in modern no-gi competition, where the absence of gi grips makes traditional collar chokes less accessible. Mastery of this technique provides a high-percentage finishing option from one of the most common defensive positions in Brazilian Jiu-Jitsu.
 
@@ -199,7 +195,7 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock control**: From top turtle, secure a front headlock by wrapping your arm around opponent's neck while maintaining chest pressure on their back. Your other hand should control their far shoulder or tricep to prevent them from turning into you. Keep your hips low and weight distributed forward to break their defensive posture. (Timing: Initial control phase, 0-2 seconds)
 2. **Isolate the near arm**: Using your chest and shoulder pressure, drive the opponent's near elbow toward their own neck, creating separation between their arm and body. This isolation is critical - the arm must be trapped against their neck to create the necessary compression. Use your body weight rather than muscular force to achieve this position. (Timing: Setup phase, 2-4 seconds)
 3. **Slide shoulder through**: Thread your shoulder under the opponent's trapped arm while maintaining head control with your wrapping arm. Your shoulder should penetrate deep, positioning your armpit against the side of their neck. This creates one half of the triangle compression. Keep your head tight to theirs to prevent space creation. (Timing: Penetration phase, 4-6 seconds)
@@ -292,7 +288,7 @@ Develop complete turtle top attack system incorporating arm triangle, darce, ana
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the critical first step before attempting the arm triangle from turtle?
 **A**: The critical first step is properly isolating the opponent's near arm by driving their elbow to their own neck using body weight and chest pressure. Without this isolation, the arm triangle structure cannot be established effectively, and the opponent will easily defend by keeping their elbow connected to their body. The isolation must be complete before attempting shoulder penetration.
 

@@ -153,14 +153,10 @@ description: "Learn the Omoplata to Sweep transition in BJJ. Step-by-step execut
 
 
 
-> Omoplata to Sweep transitions from [[Omoplata Control]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Omoplata to Sweep?
 
 The Omoplata to Sweep is a fundamental transition that capitalizes on your opponent's defensive reactions to the omoplata shoulder lock. When executing an omoplata from guard, opponents frequently defend by rolling forward or posting their free hand to relieve pressure on the trapped shoulder. This defensive response creates an immediate sweeping opportunity where you can use their momentum and compromised base to reverse position and achieve top control. The technique demonstrates the principle of creating offensive dilemmas - your opponent must choose between defending the submission and maintaining positional stability, and either choice creates attacking opportunities for you. This sweep is particularly effective because it maintains offensive pressure throughout the transition, never allowing your opponent to recover their guard or escape the engagement. The movement flows naturally from the omoplata setup and requires minimal additional energy expenditure, making it an essential component of any complete guard attack system.
 
@@ -200,7 +196,7 @@ The Omoplata to Sweep is a fundamental transition that capitalizes on your oppon
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize defensive reaction**: As you secure the omoplata position, observe your opponent's defensive reaction. They will typically either attempt to roll forward over their trapped shoulder, post their free hand on the mat to create a base, or try to stack you by driving their weight onto your guard. Each defensive option creates specific sweeping opportunities. Maintain constant pressure on the trapped shoulder while monitoring their weight distribution and movement patterns. (Timing: Immediate recognition as opponent initiates defense)
 2. **Secure free arm control**: Before initiating the sweep, establish control of your opponent's free arm to eliminate their primary posting opportunity. Reach across their body and grip their free wrist, sleeve, or triceps. This control prevents them from creating a stable base and forces their weight to shift forward onto the trapped shoulder. Pull the free arm slightly toward their trapped shoulder to further compromise their base and create rotational momentum. (Timing: As opponent begins defensive movement)
 3. **Elevate hips and extend top leg**: Drive your hips upward and forward while simultaneously extending your top leg (the leg positioned over their shoulder) in a powerful kicking motion. This generates rotational force that amplifies their forward momentum if they're rolling, or breaks their base if they're attempting to stay stationary. Your bottom leg maintains pressure across their neck and upper back. The hip elevation is critical for creating the mechanical advantage needed to complete the sweep against resistant opponents. (Timing: Coordinated explosive movement)
@@ -292,7 +288,7 @@ Incorporate the omoplata to sweep into full sparring sessions. Focus on setting 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary defensive reaction that creates the sweeping opportunity from omoplata?
 **A**: The primary reaction is when the opponent rolls forward over their trapped shoulder or posts their free hand to relieve pressure on the shoulder joint. Both reactions compromise their base and create the mechanical disadvantage needed to complete the sweep. The forward roll provides momentum you can amplify, while the posting action extends their arm and narrows their base.
 

@@ -153,14 +153,12 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 
 
 
-> Electric Chair Submission is a knee and hip compression targeting the Knee joint, hip flexors, and posterior chain. ⚠️ **SAFETY**: This technique can cause Medial collateral ligament (MCL) sprain or tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Electric Chair Submission targets the Knee joint, hip flexors, and posterior chain. Risk: Medial collateral ligament (MCL) sprain or tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Electric Chair Submission?
 
 The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission creates intense pressure on the opponent's trapped leg by combining hip extension, knee torque, and spinal rotation. Unlike traditional joint locks that isolate a single articulation, the Electric Chair simultaneously attacks multiple anatomical structures including the knee joint, hip flexors, IT band, and lower back.
 
@@ -255,7 +253,7 @@ Historically developed and refined by Eddie Bravo and the 10th Planet system, th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish and tighten lockdown control**: From half guard bottom, secure your lockdown by threading your outside leg under opponent's trapped leg and locking your feet in a figure-four configuration. Pull your feet toward your body to create immediate pressure on their trapped leg while maintaining tight connection with your inside leg around their thigh. This foundational control must be solid before attempting any submission mechanics. (Timing: 2-3 seconds to secure proper lockdown configuration) [Pressure: Moderate]
 2. **Secure underhook and break posture**: Establish a deep underhook on the same side as your lockdown, driving your shoulder into opponent's armpit and controlling their far shoulder. Simultaneously use your lockdown to pull opponent forward, breaking their posture and preventing them from maintaining upright base. Your underhook arm should be active, constantly pulling opponent's weight forward over your centerline. (Timing: 1-2 seconds to secure underhook and break posture) [Pressure: Firm]
 3. **Begin inversion and create angle**: Start rotating your body away from opponent by pushing off your bottom shoulder and beginning to invert underneath them. As you rotate, use your underhook to maintain connection while creating the angle necessary for hip extension. Your head should move toward the mat in the direction away from opponent, creating approximately 45-90 degrees of rotation from your starting position. (Timing: 2-3 seconds for controlled rotation) [Pressure: Moderate]
@@ -329,7 +327,7 @@ Historically developed and refined by Eddie Bravo and the 10th Planet system, th
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum safe application time for Electric Chair compression in training environments? **[SAFETY-CRITICAL]**
 **A**: The minimum safe application time is 5-7 seconds from initial pressure to maximum extension. Compression submissions like Electric Chair require extremely slow, progressive pressure application to allow training partners adequate time to recognize the submission and tap safely. This extended timeframe is essential because the submission attacks multiple anatomical structures simultaneously and can cause injury if applied explosively.
 

@@ -147,14 +147,12 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
 
 
 
-> Heel Hook is a leg lock targeting the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. ⚠️ **SAFETY**: This technique can cause ACL tear (anterior cruciate ligament rupture). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Heel Hook targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Heel Hook?
 
 The heel hook represents one of the most devastating and dangerous submissions in Brazilian Jiu-Jitsu, targeting the ankle joint and knee ligaments through rotational force applied to the heel while controlling the leg. Unlike other leg locks that primarily attack in a linear fashion, the heel hook's rotational mechanics can cause catastrophic injury to multiple structures simultaneously—including the ACL, MCL, LCL, meniscus, and ankle joint—often before the opponent feels significant pain due to the nature of ligament damage. This delayed pain response makes the heel hook exceptionally dangerous in training environments.
 
@@ -249,7 +247,7 @@ Successful heel hook application demands mastery of positional control, understa
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish dominant leg entanglement position**: From standing, passing, or guard engagement, secure an ashi-garami variant (inside ashi, outside ashi, or saddle position). Your outside leg should hook over opponent's trapped leg while your inside leg controls their hip or triangles across their body. Focus on inside position control - your knee should be inside their knee line. For saddle position specifically, both your legs should be on the same side of opponent's body with their leg trapped between your legs and their heel near your opposite hip. (Timing: Initial setup phase, 3-5 seconds) [Pressure: Light]
 2. **Hide the heel and secure proper grip configuration**: Pull opponent's heel across your body toward your opposite hip, 'hiding' it behind your torso where they cannot easily defend with hand fighting. Cup the heel with both hands - bottom hand wraps under the heel with fingers behind the achilles, top hand reinforces over the foot/ankle. Your forearms should create an 'X' or figure-four grip configuration across the top of their foot. The heel should be tight to your chest/shoulder area, not extended away from your body where they can create space. (Timing: 2-3 seconds transition) [Pressure: Moderate]
 3. **Perfect hip positioning and angle creation**: Adjust your hips to create perpendicular alignment with opponent's trapped leg. Your spine should form approximately 90 degrees to their leg, with your body positioned to the side rather than directly in front. Fall to your side/back if necessary to achieve proper angle. Ensure their knee cannot rotate freely by maintaining tight leg entanglement - their foot should be trapped against your ribs/lat area. This perpendicular positioning is critical for rotational mechanics to affect the knee joint rather than just the ankle. (Timing: 1-2 seconds adjustment) [Pressure: Moderate]
@@ -325,7 +323,7 @@ Successful heel hook application demands mastery of positional control, understa
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is the heel hook particularly dangerous compared to other submissions, and what specific injury mechanism makes it critical to apply slowly in training? **[SAFETY-CRITICAL]**
 **A**: The heel hook is exceptionally dangerous because it simultaneously attacks multiple structures (ankle joint, ACL, MCL, LCL, meniscus) through rotational force, and ligament damage often occurs before significant pain signals reach the brain due to the nature of ligamentous tissue innervation. This delayed pain response means a training partner may suffer catastrophic knee damage before recognizing they need to tap. The rotational mechanics also mean that once ligaments begin tearing, the failure cascade happens extremely rapidly - often in under one second from 'uncomfortable' to 'surgical reconstruction required.' This is why minimum 5-7 second progressive application is mandatory in training, allowing partner's nervous system time to recognize and respond to the threat before structural damage occurs.
 

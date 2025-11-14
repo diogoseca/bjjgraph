@@ -147,14 +147,10 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step execution fr
 
 
 
-> Tani Otoshi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Tani Otoshi?
 
 Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Judo that has proven highly effective in Brazilian Jiu-Jitsu competition and no-gi grappling. Unlike traditional forward throws that require significant breaking of opponent's posture, Tani Otoshi capitalizes on lateral movement and timing, making it accessible to practitioners who may lack explosive power or superior size. The technique involves dropping to a seated position while simultaneously blocking the opponent's leg and controlling their upper body, creating a mechanical advantage that sends them over your blocking leg. What makes this throw particularly valuable in BJJ is its seamless transition potential - the throwing motion naturally places you in a dominant position (typically side control or knee on belly) as your opponent lands. The sacrifice nature of the technique also makes it psychologically surprising, as opponents often don't expect you to willingly drop your base. In modern competition, Tani Otoshi has gained popularity because it works effectively in both gi and no-gi contexts, requires minimal setup compared to other throws, and can be executed with relatively low energy expenditure when timed correctly.
 
@@ -193,7 +189,7 @@ Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Jud
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and posture**: In gi, secure a strong collar grip with your right hand and a sleeve grip with your left hand. In no-gi, establish an over-under clinch or collar tie with wrist control. Maintain upright posture while keeping your opponent close enough to control but not so close that you're stacked or off-balance. (Timing: Initial setup phase, establish before any movement)
 2. **Create angle with lateral step**: Take a lateral step to your left (assuming right-handed throw) while maintaining tight upper body control. This step should be approximately 45 degrees to your opponent's centerline, creating the angle necessary for the blocking leg to be effective. Pull your opponent slightly forward and to their right to encourage weight shift onto their right leg. (Timing: Execute as opponent steps forward or when their weight is neutral)
 3. **Drop to seated position**: Commit to dropping your hips and buttocks to the mat in one smooth, explosive motion. Your left leg should be bent and ready to block while your right leg extends backward for base. The drop must be fast and committed - any hesitation allows opponent to sprawl or step over your blocking leg. Keep your chest close to opponent's chest throughout the drop. (Timing: Immediate and explosive, no pause after the angle step)
@@ -284,7 +280,7 @@ Use in competition or competition-level sparring. Develop deceptive setups and e
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes Tani Otoshi effective despite being a sacrifice throw?
 **A**: The primary principle is creating a rigid mechanical obstacle (your blocking leg) below the opponent's center of gravity while simultaneously pulling their upper body forward and across your body. This creates a lever system where their forward momentum and body weight work against them, making it nearly impossible to maintain balance once properly executed. The sacrifice of your own base is compensated by the overwhelming mechanical advantage created through the leg block and rotational pull.
 

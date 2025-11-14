@@ -50,6 +50,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     return (
       <div class={classes}>
         <article>{content}</article>
+        {/* Commented out to hide repetitive page listings on folder pages
         <div class="page-listing">
           {options.showFolderCount && (
             <p>
@@ -62,6 +63,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
             <PageList {...listProps} />
           </div>
         </div>
+        */}
       </div>
     )
   }

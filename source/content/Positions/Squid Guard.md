@@ -8,7 +8,7 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Squid Guard?
 
 Squid Guard is an advanced open guard position that combines elements of De La Riva Guard and Reverse De La Riva Guard with unique lapel control. The bottom player establishes a deep hook behind the opponent's knee while using the opponent's lapel to create a powerful control system that restricts the top player's mobility and posture. This position is characterized by the bottom player's ability to control distance, break posture, and create angles for sweeps and back takes.
 
@@ -50,7 +48,7 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium |
 
-**What Makes This Unique:** Asymmetrical lapel control bypasses responses
+**Key Difference:** Asymmetrical lapel control bypasses responses
 
 
 
@@ -76,10 +74,6 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 ## Playing as Bottom
 
 [[Squid Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -167,10 +161,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Squid Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -240,7 +230,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

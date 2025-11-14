@@ -147,14 +147,10 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
 
 
 
-> Knee Through transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Knee Through?
 
 The Knee Through pass is a fundamental half guard passing technique that involves systematically inserting the trapped knee through the opponent's guard while maintaining upper body control. This pass is particularly effective against defensive half guard players who rely on the knee shield or traditional half guard frames. The technique exploits the natural weakness in the half guard structure when proper shoulder pressure and knee positioning combine to create an overwhelming passing sequence. The Knee Through differs from the Knee Slice in that it emphasizes driving the knee completely through the guard rather than cutting across, making it especially effective when the opponent has a strong underhook or is attempting to recover full guard. This pass forms the cornerstone of pressure-based passing systems and serves as a critical transition between standing passes and consolidated top positions.
 
@@ -192,7 +188,7 @@ The Knee Through pass is a fundamental half guard passing technique that involve
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish crossface control**: Secure a strong crossface across the opponent's face using your near shoulder, driving their head to the mat while maintaining pressure. Your crossfacing arm can either underhook their far arm or post on the mat for base. This crossface is the anchor point for all subsequent movements. (Timing: Before any leg movement begins)
 2. **Control near side arm**: With your free hand, control the opponent's near wrist or sleeve to prevent them from establishing an underhook. Alternatively, secure your own underhook first, completely denying their primary defensive frame. This arm control is critical as the underhook is the half guard player's main defensive weapon. (Timing: Simultaneous with crossface establishment)
 3. **Align hip and shoulder**: Position your hips so they are aligned with your shoulders, creating a straight line of pressure from shoulder through hip into the opponent's chest. Your trapped leg should be slightly externally rotated to begin creating space for knee extraction. Avoid allowing your hips to lag behind your shoulders. (Timing: As opponent begins to feel pressure)
@@ -286,7 +282,7 @@ Apply Knee Through pass during regular training rolls when opportunities arise. 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must shoulder pressure be established before attempting to extract the trapped leg in the Knee Through pass?
 **A**: Shoulder pressure compresses the opponent's defensive frames and limits their ability to create space for guard recovery. Without proper upper body control, the opponent can easily use their hands and knee shield to prevent the pass or even sweep. The pressure also prevents them from sitting up or establishing an effective underhook. Attempting to pass with just leg movement allows the opponent to maintain active frames and control the distance.
 

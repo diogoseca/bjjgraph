@@ -159,14 +159,10 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
 
 
 
-> X-Guard to Ashi Transition transitions from [[X-Guard]] to [[Inside Ashi-Garami]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is X-Guard to Ashi Transition?
 
 The X-Guard to Ashi Garami transition represents a fundamental connection between traditional sweeping systems and modern leg entanglement attacks. This transition exploits the inherent vulnerability of the standing opponent's near leg while maintaining the control framework established in X-Guard. The technique creates a seamless progression from a sweep-oriented position into a submission-focused leg entanglement, forcing opponents into a defensive dilemma where defending the sweep opens the leg lock, and defending the leg opens the sweep. This dual-threat system exemplifies modern no-gi grappling's evolution toward integrated positional systems. The transition requires precise timing, as the window of opportunity opens when the opponent attempts to disengage from X-Guard by pulling their trapped leg backward. Success depends on maintaining hip connection throughout the transition while simultaneously transitioning grip configurations from sweep-oriented controls to leg entanglement frames. Mastery of this transition fundamentally changes the threat landscape from X-Guard, transforming it from a purely sweeping position into a submission entry system.
 
@@ -206,7 +202,7 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize the transition window**: Identify the moment when opponent pulls their trapped leg backward to escape X-Guard pressure. This backward pull creates the necessary space and angle to reconfigure into Ashi Garami while their balance is compromised and their leg is extended into your control zone. (Timing: As opponent initiates backward leg pull)
 2. **Release bottom hook strategically**: Remove your bottom hook from opponent's hip while maintaining top hook engagement above their knee. Simultaneously begin transitioning your grip from the ankle to a position that will allow heel control. The top hook serves as your anchor point during this reconfiguration, preventing opponent from recovering their leg. (Timing: Immediately upon recognizing transition window)
 3. **Hip escape to create angle**: Perform a small hip escape away from opponent's free leg while keeping your top hook engaged. This creates the perpendicular angle necessary for Ashi Garami positioning. Your shoulders should begin rotating to face more perpendicular to opponent's trapped leg rather than directly underneath them. (Timing: Coordinated with bottom hook release)
@@ -304,7 +300,7 @@ Begin positional sparring from X-Guard with goal of achieving and finishing from
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is the top hook maintained as an anchor point during the transition while the bottom hook is released first?
 **A**: The top hook positioned above the knee provides superior leverage and control over opponent's leg while you reconfigure your bottom leg. If you release the top hook first, opponent can easily pull their leg free or step over you. The top hook's position above the knee joint gives you mechanical advantage to control their leg's movement while your bottom leg transitions from hip hook to inside position. This sequential release ensures continuous control throughout the transition.
 

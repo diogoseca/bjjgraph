@@ -8,7 +8,7 @@ description: "Master Seated Guard in BJJ. Complete guide covering entries, trans
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Seated Guard in BJJ. Complete guide covering entries, trans
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Seated Guard?
 
 Seated Guard is an upright open guard position where you sit on the mat with your hips on the ground, hands posted behind you for base, and legs extended or bent toward your opponent. This position provides a stable base with excellent mobility and the ability to quickly transition to standing or other guard positions. Unlike closed guard or butterfly guard, Seated Guard maintains maximum freedom of leg movement for distance management and attacks.
 
@@ -48,7 +46,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -62,7 +60,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 | **Energy Cost** | Low | Medium |
 | **Time** | Medium | Medium |
 
-**What Makes This Unique:** Upright posture with posted hands enables standups
+**Key Difference:** Upright posture with posted hands enables standups
 
 
 
@@ -74,10 +72,6 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ## Playing as Bottom
 
 [[Seated Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -164,10 +158,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Seated Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -239,7 +229,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -8,7 +8,7 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 20%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Worm Guard from the Top?
 
 Worm Guard Top represents the passing position against one of modern BJJ's most complex lapel-based guard systems. The top player faces a sophisticated web of lapel entanglements where the bottom player has wrapped their gi lapel around the passer's leg, creating powerful off-balancing mechanics and sweep opportunities. Success from this position requires systematic lapel management, strategic base positioning, and patience to methodically dismantle the guard's structural foundations. The position demands technical precision over explosive movement, as hasty passing attempts often result in devastating sweeps or back takes. Advanced practitioners achieve 60% pass rates by combining pressure passing principles with lapel-specific counters, while beginners struggle with the unfamiliar grip configurations and sweep threats that make this one of sport BJJ's most challenging guard passing scenarios. The Worm Guard Top position is characterized by constant grip fighting and positional problem-solving. Unlike traditional open guards where space management is primary, worm guard requires the passer to address the lapel entanglement as a structural problem that must be solved before traditional passing mechanics can be applied. The bottom player's lapel creates a mechanical advantage that transforms their legs into powerful levers, making standard pressure passing approaches ineffective without first neutralizing the lapel control.
 
@@ -444,17 +423,17 @@ Bottom player in worm guard attempts to off-balance top player using lapel mecha
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The worm guard presents a fascinating biomechanical problem that separates systematic thinkers from reactive players. The lapel wrapped around your leg creates a mechanical lever system where the bottom player can generate sweeping force far exceeding their actual strength through proper leverage application. Your primary objective must be to nullify this mechanical advantage before attempting traditional passing mechanics. Think of it as a two-stage problem: first, you must dismantle the structural control system (the lapel entanglement), and only then can you apply standard passing principles. The key insight is recognizing that the lapel creates a closed kinetic chain around your leg - breaking this chain requires either removing your leg from the entanglement or stripping the grip that creates tension. Most failed passing attempts occur because practitioners try to solve both problems simultaneously, leading to neither being addressed effectively. Systematic progression demands you solve the lapel problem completely, then transition to passing mechanics with full commitment.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, worm guard is one of those positions where patience completely determines the outcome. I've lost rounds early in my career trying to force passes against quality worm guard players, and I've won matches by taking 90 seconds to methodically dismantle the position. The competition reality is that most opponents will attempt desperate sweeps if you maintain steady pressure without giving them openings - they know the position is difficult to maintain under intelligent pressure. My approach focuses on controlling their far collar immediately, which cuts their rotation options in half. Then I work systematic lapel stripping while maintaining enough pressure that they can't reset their grips. The moment you feel the lapel tension break, that's when you commit to the pass with full intensity. Before that moment, everything is preparation and setup. Against world-class worm guard players like the Miyao brothers, I've found that the leg drag becomes available much more frequently than other passes because it naturally addresses the lapel angle problem while advancing position.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Worm guard is one of those positions that looks like chaos but it's actually super systematic from the bottom, which means there's a clear formula for beating it from top. The Miyao brothers revolutionized this position and we had to develop specific counters at 10th Planet because our no-gi system didn't prepare us for lapel-based attacks initially. What I teach my guys is to treat the lapel like it's a locked seatbelt - you can't just rip it off, you gotta unbuckle it methodically. The innovation we brought is using the lockdown and truck concepts in reverse - if they're wrapping your leg with lapels, you can create counter-wrapping pressure that neutralizes their leverage. Also, don't sleep on the backstep counter when they invert - that's straight out of our leg attack defense system and it works perfectly here. The psychological battle is huge too - if you show frustration or rush, they've won mentally before the technique even matters. Stay calm, work the system, and remember that complexity works both ways - their position is hard to maintain if you understand the mechanics.
 

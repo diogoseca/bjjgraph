@@ -147,14 +147,10 @@ description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, exe
 
 
 
-> Sumi Gaeshi transitions from [[Standing Position]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Sumi Gaeshi?
 
 Sumi Gaeshi is a classical sacrifice throw borrowed from Judo that has proven highly effective in BJJ competition and training. The technique involves sacrificing your base by dropping to your back while using your legs to elevate and off-balance your opponent, resulting in a complete reversal of position. The name translates to 'corner reversal throw' in Japanese, referring to the angular entry that creates the throwing opportunity.
 
@@ -197,7 +193,7 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and break posture**: From standing, secure strong grips on your opponent's collar and sleeve (gi) or establish double underhooks (no-gi). Pull their upper body forward to break their posture and bring their weight toward you. Their chest should be leaning over their front foot. (Timing: Initial setup phase)
 2. **Create angle by stepping offline**: Step to the outside at approximately 45 degrees with your non-throwing leg. This lateral movement creates the angle necessary for the throw and positions you perpendicular to your opponent's forward momentum rather than directly in front of them. (Timing: As opponent steps forward or pressures in)
 3. **Position lifting leg at hip**: Raise your inside leg and place your foot firmly against your opponent's hip or inner thigh on the same side. The foot should be positioned high on the hip, not at the knee. Your toes should point slightly outward to create maximum leverage for the lifting motion. (Timing: Immediately after creating the angle)
@@ -288,7 +284,7 @@ Implement Sumi Gaeshi in live rolling and competition scenarios. Develop persona
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is creating a 45-degree angle crucial before executing Sumi Gaeshi?
 **A**: The angle positions you perpendicular to your opponent's forward momentum rather than directly in their path. This allows you to redirect their energy in a circular arc over your center of gravity. Without the angle, you're fighting directly against their forward pressure, making the technique require excessive strength and reducing success probability significantly.
 

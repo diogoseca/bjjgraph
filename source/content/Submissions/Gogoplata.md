@@ -153,14 +153,12 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 
 
 
-> Gogoplata is a shin choke targeting the Trachea and carotid arteries. ⚠️ **SAFETY**: This technique can cause Tracheal damage or crushing. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Gogoplata targets the Trachea and carotid arteries. Risk: Tracheal damage or crushing. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Gogoplata?
 
 The Gogoplata is an advanced submission technique that utilizes the shin bone to create a choke by pressing against the opponent's trachea while simultaneously pulling their head forward. This highly technical submission is most commonly associated with Eddie Bravo's 10th Planet Jiu-Jitsu system and requires exceptional flexibility, precise positioning, and excellent timing. The Gogoplata is executed primarily from rubber guard positions, though variations exist from mount and other control positions.
 
@@ -252,7 +250,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish high guard control**: From closed guard or open guard, establish a high guard position by climbing your legs up your opponent's back. Secure one foot across their back in rubber guard position, with your shin behind their head. Your other leg should maintain control around their body or be prepared to become the choking mechanism. (Timing: 0-2 seconds) [Pressure: Light]
 2. **Break opponent's posture completely**: Using your rubber guard control and both hands gripping behind opponent's head or controlling their arms, pull their head down aggressively until their face is close to your chest. Their posture must be completely broken - if they can maintain any upright posture, the submission will not work. (Timing: 2-4 seconds) [Pressure: Moderate]
 3. **Thread the choking leg across the throat**: From your high guard position, begin to thread your free leg (the one not in rubber guard) across the front of opponent's throat. Your shin bone should come across their trachea while your foot moves toward the opposite side of their neck. This requires significant hip flexibility and must be done while maintaining broken posture. (Timing: 4-7 seconds) [Pressure: Light]
@@ -320,7 +318,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why is the gogoplata considered one of the most dangerous submissions to practice in training? **[SAFETY-CRITICAL]**
 **A**: The gogoplata directly compresses the trachea (windpipe) with the hard shin bone, which can cause serious injury much more quickly than blood chokes that target the carotid arteries. The trachea is a delicate structure, and rapid or excessive pressure can cause tracheal collapse, crushing, or permanent damage. Unlike blood chokes that cause unconsciousness gradually, tracheal damage happens quickly and can be irreversible. This is why extremely slow application (5-7 seconds minimum) and immediate release upon tap are absolutely critical. Training partners must have complete trust and experience before practicing this technique.
 

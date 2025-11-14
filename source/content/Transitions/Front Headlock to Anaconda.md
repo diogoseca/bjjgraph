@@ -153,14 +153,10 @@ description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution fr
 
 
 
-> Front Headlock to Anaconda transitions from [[Front Headlock]] to [[Anaconda Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 68%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Front Headlock to Anaconda?
 
 The Front Headlock to Anaconda transition represents one of the highest-percentage finishing sequences from the front headlock position. This technique exploits the opponent's defensive posture in turtle or standing positions by converting head and arm control into a devastating choking attack. The anaconda choke, characterized by its distinctive rolling motion and figure-four arm configuration, creates simultaneous pressure on both the carotid artery and the shoulder, making it extremely difficult to defend once properly locked.
 
@@ -203,7 +199,7 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock control**: From opponent's turtle or standing bent-over position, secure front headlock by wrapping your arm around their head and neck. Drive your shoulder into the side of their head, forcing it down and to the side. Your chest should be heavy on their upper back and shoulders, preventing upward movement. Control their posture by pulling their head toward your hip while maintaining downward pressure. (Timing: Initial control phase - establish before opponent recovers posture)
 2. **Thread choking arm across neck**: Release your headlock grip and immediately thread your choking-side arm (same side as their trapped head) deep across their neck. Your forearm should cross their throat with your elbow traveling past their far shoulder. Drive your shoulder forward to help your arm slide deeper, ensuring maximum depth of penetration. Your bicep should be on one side of their neck and your forearm on the other, creating the choking mechanism. (Timing: Quick transition - thread arm before opponent recognizes the setup)
 3. **Trap opponent's near arm**: As you thread your choking arm, use your body weight and positioning to trap their near arm (the arm closest to you). Either scoop their arm with your threading motion, capturing it within your choking arm's embrace, or pin it to their body with your chest and shoulder. This trapped arm is critical—it prevents them from posting during the roll and creates the characteristic 'anaconda' position where their own arm contributes to the choke. (Timing: Simultaneous with arm threading - capture before they pull arm free)
@@ -303,7 +299,7 @@ Practice technique against fresh, fully-resisting opponents in competition-style
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the correct direction to roll when executing the anaconda choke, and why is this direction critical for the technique's success?
 **A**: You must always roll toward your choking-arm side (the arm threaded across their neck). This direction is critical because rolling toward the choking arm tightens the noose-like configuration around the neck and trapped arm. Rolling the opposite direction would actually loosen the choke and allow easy escape, as it would open space rather than eliminate it. The rolling motion toward the choking side creates the characteristic spiraling pressure that makes the anaconda so effective.
 

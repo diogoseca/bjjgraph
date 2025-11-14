@@ -153,14 +153,12 @@ description: "Master the Americana shoulder lock from mount and side control. Co
 
 
 
-> Americana is a shoulder lock targeting the Shoulder joint (specifically glenohumeral joint and rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Americana targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Americana?
 
 The Americana, also known as the keylock or ude garami, is a fundamental shoulder lock that attacks the glenohumeral joint through external rotation and hyperextension. This submission is one of the first joint locks taught to beginners due to its mechanical simplicity and high-percentage nature from dominant positions like mount and side control. The Americana works by isolating the opponent's arm at a 90-degree angle and applying rotational pressure that forces the shoulder joint beyond its natural range of motion. The technique's effectiveness stems from leverage advantage rather than strength, making it accessible to practitioners of all sizes when executed with proper mechanics.
 
@@ -251,7 +249,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Isolate and extend the target arm**: From mount or side control, swim your hand under the opponent's tricep and establish a deep grip on their wrist. Pull the arm away from their body at approximately 90 degrees, creating space between their elbow and torso. The opponent's palm should be facing toward their own head. Maintain heavy chest pressure throughout this isolation to prevent them from pulling the arm back to their body or establishing defensive frames. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Establish figure-four wrist control**: Thread your other hand under their wrist and grab your own wrist, creating a figure-four configuration. Your bottom hand controls their wrist while your top hand reinforces by gripping your own wrist. The opponent's hand should be trapped between your forearms. Ensure your grip is tight enough to prevent slipping but not so tight that you fatigue quickly. Your forearms should form a 'C' shape around their wrist. (Timing: 1 second) [Pressure: Firm]
 3. **Pin the elbow to create the fulcrum**: Drive your chest weight down onto their upper arm, pinning their elbow to the mat (from mount) or to their own ribcage/body (from side control). This pinned elbow becomes the fulcrum for the lever arm that creates the shoulder lock. The opponent should feel pressure on their elbow but not pain at this stage. Ensure your own elbows are tucked tight to your sides to maximize mechanical advantage. (Timing: 1 second) [Pressure: Firm]
@@ -322,7 +320,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical structure being attacked in the Americana submission?
 **A**: The Americana primarily attacks the glenohumeral joint (shoulder joint) through external rotation and hyperextension, placing stress on the rotator cuff muscles (particularly supraspinatus, infraspinatus, and teres minor), the shoulder capsule, and associated ligaments. The submission creates rotational force that exceeds the joint's natural range of motion.
 

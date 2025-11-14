@@ -147,14 +147,12 @@ description: "Master the Kneebar from Top positions in BJJ. Complete safety guid
 
 
 
-> Kneebar from Top is a leg lock targeting the Knee joint (tibial plateau, popliteal ligaments, meniscus). ⚠️ **SAFETY**: This technique can cause Knee hyperextension and ligament damage (ACL, PCL, MCL tears). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kneebar from Top targets the Knee joint (tibial plateau, popliteal ligaments, meniscus). Risk: Knee hyperextension and ligament damage (ACL, PCL, MCL tears). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kneebar from Top?
 
 The Kneebar from Top represents a high-percentage leg attack opportunity that arises when controlling an opponent from dominant positions such as side control, mount, knee on belly, or half guard top. Unlike bottom-position kneebarring where defensive responsibility is shared, top kneebarring demands exceptional control and positional awareness since abandoning top position carries inherent risk. The fundamental concept involves transitioning from a dominant top position into a leg entanglement configuration—typically through step-over mechanics or direct leg isolation—while maintaining sufficient control to prevent opponent escape or counter-attack. The submission targets the knee joint through hyperextension, applying pressure to the tibial plateau, popliteal ligaments, and meniscus structures. Modern leg lock systems have elevated top kneebarring from an opportunistic submission to a systematic attacking framework, particularly in no-gi competition where reduced friction facilitates faster entries and tighter control. The technique requires precise timing, as premature commitment can result in loss of dominant position, while delayed execution allows opponent defensive responses. Understanding when to pursue the kneebar versus maintaining positional dominance represents a critical decision point that separates beginner and advanced practitioners. The top kneebar serves dual purposes: as a finishing submission and as a positional transitional tool that creates sweeping opportunities, back exposure, or alternative submission entries when opponents defend aggressively.
 
@@ -240,7 +238,7 @@ The Kneebar from Top represents a high-percentage leg attack opportunity that ar
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Isolate and control target leg**: From top position (side control, mount, or half guard), identify accessible leg and establish two-on-one control by hugging opponent's leg to your chest while maintaining upper body pressure. In gi, secure pant grips at knee and ankle; in no-gi, use gable grip or rear naked choke grip around opponent's lower leg. Your weight should remain heavy on opponent's upper body initially to prevent sit-up defensive response. The leg isolation must be definitive—partial control invites leg extraction during transition phases. (Timing: 2-3 seconds during position maintenance) [Pressure: Firm]
 2. **Step over opponent's body**: While maintaining tight leg control against your chest, step your inside leg (leg closest to opponent's head) over opponent's torso, placing your foot on the far side of their body. This creates the perpendicular body alignment essential for proper leverage. Your stepping leg should cross opponent's centerline completely, with your foot positioned near their far shoulder or head. Maintain chest-to-thigh connection on the controlled leg throughout the step-over to prevent opponent from pulling their leg free. Your base leg (outside leg) remains posted for stability during rotation. (Timing: 1-2 seconds explosive movement) [Pressure: Moderate]
 3. **Rotate hips and drop weight**: Immediately after stepping over, rotate your hips toward the mat while pulling opponent's leg across your body, positioning their knee joint against your lower abdominal region or hip crease. Your rotation should be controlled, not a fall, landing your back near the mat while keeping opponent's leg elevated and controlled. The opponent's heel should be positioned near your armpit or shoulder (opposite side from their body), with their toes pointing toward the ceiling. This rotation creates the perpendicular alignment where your hip extension will generate knee hyperextension. (Timing: 1-2 seconds controlled descent) [Pressure: Moderate]
@@ -316,7 +314,7 @@ The Kneebar from Top represents a high-percentage leg attack opportunity that ar
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: Why must training application of kneebarring techniques occur over minimum 5-7 seconds with progressive pressure buildup? **[SAFETY-CRITICAL]**
 **A**: Progressive application allows training partners adequate time to recognize submission danger and tap before ligament or cartilage damage occurs. Knee joint injuries happen extremely rapidly—ACL tears can occur in milliseconds under sudden force. The 5-7 second guideline ensures pressure builds gradually from zero to tap threshold, giving partners continuous opportunity to tap at any discomfort level. This training methodology prevents catastrophic injuries while allowing practitioners to develop proper mechanical understanding. Competition application occurs faster, but only after extensive slow practice establishes correct technique patterns and safety awareness.
 

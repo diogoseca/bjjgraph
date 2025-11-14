@@ -159,14 +159,12 @@ description: "Master Omoplata variations in BJJ. Complete guide covering standar
 
 
 
-> Omoplata Variations is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Omoplata Variations targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Omoplata Variations?
 
 The Omoplata family represents one of the most versatile submission systems in Brazilian Jiu-Jitsu, offering multiple entry points, finish variations, and transition opportunities. Unlike single-purpose submissions, omoplata variations create a web of offensive threats that force opponents into defensive dilemmas. The standard omoplata attacks the shoulder joint through controlled hip pressure and leg entanglement, hyperextending the shoulder capsule and stressing the rotator cuff. Advanced practitioners use omoplata variations not just as finishing techniques but as positional control platforms that open paths to back takes, sweeps, and alternative submissions. The rolling omoplata adds dynamic movement to bypass defensive grips, while the baratoplata and tarikoplata variations modify the angle of attack to catch opponents who defend the standard finish. Understanding the full spectrum of omoplata variations transforms this submission from a novelty technique into a systematic attacking framework that works across gi and no-gi contexts.
 
@@ -250,7 +248,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Break posture and secure grips**: From closed guard or open guard, break opponent's posture by pulling their head and upper body forward. Secure a strong grip on the arm you intend to attack (sleeve grip in gi, wrist control no-gi). Establish a secondary control point such as collar grip or head control to prevent them from posturing back up. (Timing: 2-3 seconds to establish controls) [Pressure: Moderate]
 2. **Create angle and swing leg over**: Pivot your hips approximately 90 degrees toward the trapped arm side, creating a perpendicular angle to your opponent's body. Swing your same-side leg (the leg on the side of the trapped arm) over their shoulder and behind their head. Your shin should cross their upper back with your foot positioned near their opposite shoulder blade. (Timing: 1-2 seconds for hip rotation and leg swing) [Pressure: Light]
 3. **Secure the triangle lock**: Bring your opposite leg over your shin to create a figure-four leg lock around their head and trapped arm. Lock your foot in the crook of your opposite knee or over your own shin, depending on the variation. This triangle configuration secures the position and prevents them from removing their arm from the entanglement. (Timing: 1-2 seconds to lock legs) [Pressure: Moderate]
@@ -324,7 +322,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for omoplata pressure in training and why is this critical? **[SAFETY-CRITICAL]**
 **A**: Minimum 3-5 seconds progressive application is critical because the shoulder joint is extremely vulnerable to rotator cuff tears and labral damage. Rapid application doesn't give your partner sufficient time to recognize the submission and tap safely. Shoulder injuries from omoplata can require 6-12 months recovery including potential surgery, making slow progressive pressure essential for safe training.
 

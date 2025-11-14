@@ -8,7 +8,7 @@ description: "Master Headquarters Control in BJJ. Dominant half guard passing po
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Headquarters Control in BJJ. Dominant half guard passing po
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Headquarters Control?
 
 Headquarters Control is a critical transitional position in modern Brazilian Jiu-Jitsu half guard passing and retention systems. The position represents a strategic checkpoint where the top player has established significant pressure and control against the bottom player's knee shield or half guard structure, while the bottom player maintains defensive frames and looks for opportunities to recover or sweep. Named and popularized by Bernardo Faria, headquarters has become fundamental to understanding modern pressure passing methodology and systematic guard retention.
 
@@ -52,7 +50,7 @@ Strategically, headquarters represents the intersection of pressure passing and 
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -66,7 +64,7 @@ Strategically, headquarters represents the intersection of pressure passing and 
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 
-**What Makes This Unique:** Pressure control trades mobility for dominance
+**Key Difference:** Pressure control trades mobility for dominance
 
 
 
@@ -78,10 +76,6 @@ Strategically, headquarters represents the intersection of pressure passing and 
 ## Playing as Bottom
 
 [[Headquarters Control/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -159,10 +153,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 ## Playing as Top
 
 [[Headquarters Control/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -243,7 +233,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

@@ -153,14 +153,12 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 
 
 
-> Bow and Arrow Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Bow and Arrow Choke targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Bow and Arrow Choke?
 
 The Bow and Arrow Choke is a highly effective gi-based blood choke executed from back control that combines collar control with leg configuration to create a powerful finishing position. Named for its distinctive shape where the practitioner's body resembles a drawn bow, this submission leverages the opponent's own lapel and pant leg to generate unstoppable pressure on both carotid arteries simultaneously. The technique is particularly valued in gi competition for its reliability once the position is secured, as it requires minimal strength and relies primarily on proper body mechanics and leverage. The bow and arrow creates a unique predicament where the opponent cannot effectively defend both the choking pressure from the collar grip and the stretching tension from the leg control. This submission is especially effective when transitioning from standard back control positions, as opponents often expose the necessary grips while defending against the rear naked choke. The technique represents a fundamental principle in advanced gi grappling: using the opponent's own garments as force multipliers to create inescapable finishing positions.
 
@@ -245,7 +243,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure deep collar grip**: From back control, establish a deep four-finger grip inside the opponent's collar on your choking-side arm. Your thumb should remain outside the collar while your fingers penetrate as deep as possible toward the opposite side of their neck. This grip should be secured before the opponent realizes your intention to transition from standard back control attacks. The depth of this grip is critical - shallow collar grips will not generate sufficient pressure for the finish. (Timing: Initial setup phase) [Pressure: Light]
 2. **Transition hips to perpendicular angle**: Begin rotating your hips away from parallel alignment with the opponent's spine toward a perpendicular position. This rotation should be smooth and controlled, using your bottom hook (if present) to push off the mat while your top hook pulls their body. Your goal is to create approximately 90 degrees of angle between your torso and their spine. This angle is essential for the bow shape that generates the choking mechanism. Maintain collar grip security throughout this transition. (Timing: Mid-setup phase) [Pressure: Moderate]
 3. **Establish far leg control**: With your non-choking hand, secure a grip on the opponent's far-side pants at the knee or lower leg. Alternatively, if your top leg is already positioned, thread it across their far hip and bend your knee to hook their far leg. This control prevents them from turning into you and creates the foundation for the stretching mechanism. The pants grip should be firm - use all four fingers inside the fabric with thumb outside for maximum security. (Timing: Setup completion) [Pressure: Moderate]
@@ -317,7 +315,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should apply progressive pressure during the bow and arrow choke in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: You should apply pressure progressively over a minimum of 3-5 seconds in training to allow your partner sufficient time to recognize the submission and tap safely. This is critical because the bow and arrow can induce unconsciousness very quickly once properly locked due to its efficient compression of both carotid arteries. Rushing the application creates danger of partner injury or losing consciousness before they can tap, which is completely unacceptable in training environments. Competition speed should never be used in practice.
 

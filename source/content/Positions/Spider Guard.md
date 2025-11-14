@@ -8,7 +8,7 @@ description: "Master Spider Guard in BJJ. Strategic guide covering when to use s
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Spider Guard in BJJ. Strategic guide covering when to use s
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Spider Guard?
 
 Spider Guard is a highly technical open guard position characterized by the bottom player controlling both sleeves of the opponent while placing their feet on the opponent's biceps or elbows, creating strong pushing frames. This guard creates exceptional distance management and posture control, allowing the bottom player to break down the top player's base while setting up sweeps, triangles, and omoplatas. The position derives its name from the resemblance to a spider's legs extending outward with thread-like control of the opponent's arms.
 
@@ -50,7 +48,7 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium |
 
-**What Makes This Unique:** Sleeve and bicep control for distance management
+**Key Difference:** Sleeve and bicep control for distance management
 
 
 
@@ -76,10 +74,6 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ## Playing as Bottom
 
 [[Spider Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -164,10 +158,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Spider Guard/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -244,7 +234,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

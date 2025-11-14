@@ -153,14 +153,12 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 
 
 
-> Far Side Armbar is a arm lock targeting the Elbow joint (hyperextension). ⚠️ **SAFETY**: This technique can cause Elbow hyperextension (ligament damage). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Far Side Armbar targets the Elbow joint (hyperextension). Risk: Elbow hyperextension (ligament damage). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Far Side Armbar?
 
 The Far Side Armbar is a high-percentage finishing technique targeting the opponent's far arm (the arm furthest from you) when controlling from top positions like side control, mount, or north-south. This submission exploits the opponent's defensive frames by isolating the extended arm and applying hyperextension pressure to the elbow joint. The far side armbar is particularly effective because it attacks the arm that opponents naturally use to create distance and prevent transitions, making it a fundamental component of submission chains from dominant positions.
 
@@ -246,7 +244,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure far arm control**: From side control or mount, identify the opponent's far arm (furthest from you). Grip the wrist firmly with your near hand, or cup behind the elbow if they're framing. Your goal is to prevent them from pulling their arm back or clasping their hands together for defense. (Timing: 0-2 seconds) [Pressure: Firm]
 2. **Break opponent's defensive structure**: Drive your weight forward and down to extend the opponent's arm fully. If they're framing against your neck or shoulder, use your free hand to swim under their arm or peel it across your body. The arm should be straightened and pulled across your chest at approximately shoulder height. (Timing: 2-3 seconds) [Pressure: Firm]
 3. **Trap the arm to your body**: Once the arm is extended, clamp it tightly to your chest by squeezing your elbow to your ribs. The opponent's arm should be positioned so their thumb points up and their tricep presses against your sternum. This grip prevents them from bending their arm to escape. (Timing: 1 second) [Pressure: Firm]
@@ -317,7 +315,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum time you should take to apply finishing pressure to the far side armbar in training? **[SAFETY-CRITICAL]**
 **A**: You should apply finishing pressure progressively over a minimum of 3-5 seconds in training. This slow, controlled application allows your training partner adequate time to recognize the danger and tap safely, preventing sudden hyperextension injuries to the elbow joint. Competition timing may be faster, but training should always prioritize partner safety.
 

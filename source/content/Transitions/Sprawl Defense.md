@@ -159,14 +159,10 @@ description: "Master the sprawl defense in BJJ. Essential takedown defense techn
 
 
 
-> Sprawl Defense transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Sprawl Defense?
 
 The sprawl is the fundamental defensive response to takedown attempts in Brazilian Jiu-Jitsu and wrestling. It involves explosively driving the hips back and down while simultaneously shooting the legs back to prevent an opponent from completing a double leg or single leg takedown. This critical defensive technique transforms a potentially vulnerable position into an offensive opportunity, often transitioning to front headlock control or guillotine attacks. The sprawl's effectiveness lies in its ability to redirect an opponent's forward momentum while creating downward pressure that flattens them to the mat. When executed properly, the sprawl not only defends the takedown but establishes dominant top position, forcing the attacker to carry your weight while you control their head and arm. Mastering the sprawl is essential for maintaining standing position in BJJ, preventing takedowns in competition, and creating offensive opportunities from defensive situations.
 
@@ -205,7 +201,7 @@ The sprawl is the fundamental defensive response to takedown attempts in Brazili
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize takedown entry**: Identify opponent's level change and forward drive as they shoot for your legs. Watch for their head drop, stance change, and penetration step that signals the takedown attempt. (Timing: Immediate reaction - within 0.2 seconds of opponent's level change)
 2. **Drive hips back explosively**: Explosively thrust your hips backward and downward in a powerful hip extension movement. Your hips should drive back at a 45-degree angle, not straight down, to maximize distance from opponent's grip while maintaining pressure. (Timing: Simultaneous with leg shoot)
 3. **Shoot legs back**: Simultaneously shoot both legs straight back, extending them fully to move your hips away from opponent's reaching hands. Your legs should be completely straight and toes pointed, with weight shifting forward onto your chest and hands. (Timing: Instantaneous with hip drive)
@@ -304,7 +300,7 @@ Regularly drill sprawl mechanics as part of warm-up routine. Analyze sprawl effe
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical action that makes a sprawl effective in defending takedowns?
 **A**: The primary mechanical action is the explosive backward and downward drive of the hips combined with fully extending the legs backward. This creates distance from the opponent's grip while simultaneously transferring your weight onto their back, making it impossible for them to complete the takedown and flattening them to the mat.
 

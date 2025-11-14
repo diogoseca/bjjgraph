@@ -147,14 +147,10 @@ description: "Master Front Headlock to Back Take in BJJ. Complete guide from fro
 
 
 
-> Front Headlock to Back transitions from [[Front Headlock]] to [[Back Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Front Headlock to Back?
 
 The Front Headlock to Back Take is a fundamental transitional technique that exploits the opponent's defensive turtle position to establish dominant back control. This technique represents a critical juncture in grappling where the attacking practitioner converts head control into the most dominant position in Brazilian Jiu-Jitsu. The transition combines elements of wrestling-based front headlock control with BJJ-specific back attack principles, creating a systematic pathway from a neutral or semi-dominant position to full back control with hooks and seat belt grip established.
 
@@ -197,7 +193,7 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure front headlock control**: Establish a solid front headlock position with your choking arm wrapped around the opponent's neck. Your chest should be heavy on their upper back, and your hips should be loaded forward. Ensure your head is positioned on the opposite side of your choking arm to create proper angle and prevent opponent from rolling through. Your free hand should control their far arm or post on their hip for stability. (Timing: Initial control phase)
 2. **Circle toward choking arm side**: Begin circling your body toward the side of your choking arm while maintaining downward pressure on the opponent's head. This lateral movement creates the necessary angle to access their back. Take small shuffling steps with your feet while keeping your weight distributed forward. The opponent will typically follow this circle to maintain their base, inadvertently opening their back to your attack. (Timing: Continuous movement, 2-3 seconds)
 3. **Swim inside leg as first hook**: As you circle, bring your inside leg (the leg on the same side as your choking arm) underneath the opponent's near hip. Drive your knee forward and insert your foot as a hook on the inside of their thigh. Your shin should make contact with their inner thigh, and your foot should be active with toes flexed. Maintain head control throughout this insertion to prevent opponent from turning into you or escaping. (Timing: Mid-transition, coordinated with circling motion)
@@ -290,7 +286,7 @@ Practice identifying front headlock opportunities during normal sparring, includ
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the front headlock to back take effective?
 **A**: The technique exploits the opponent's defensive turtle position by using their own structural posture against them. As the opponent turtles to defend the front headlock, they create the spatial relationship necessary for hook insertion. The attacker's circular motion around the opponent's head, combined with constant downward pressure, progressively opens access to the back while preventing the opponent from turning to face the attacker or standing up. The transition works because it systematically removes the opponent's defensive options while creating offensive opportunities.
 

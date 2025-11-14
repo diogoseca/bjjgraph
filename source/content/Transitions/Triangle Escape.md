@@ -147,14 +147,10 @@ description: "Master Triangle Escape in BJJ. Defensive strategies to escape tria
 
 
 
-> Triangle Escape transitions from [[Triangle Control]] to [[Guard Recovery]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle Escape?
 
 The Triangle Escape is a critical defensive technique for escaping one of Brazilian Jiu-Jitsu's most dominant submission positions. When caught in a triangle choke, the defender faces a race against time as blood flow to the brain becomes restricted. Understanding the mechanics of the triangle allows practitioners to identify escape windows and execute proper defensive sequences. The escape requires a combination of posture management, pressure redirection, and strategic positioning to break the configuration before the choke becomes fully locked. Early recognition and immediate defensive action dramatically increase escape success rates, making this skill essential for all practitioners. The triangle escape encompasses multiple strategies depending on the stage of the attack, from preventing the initial lock to escaping fully secured positions. Advanced practitioners develop sensitivity to triangle entries and can abort attacks before they materialize, while beginners must focus on fundamental escape mechanics and preventing the worst-case scenario of a fully locked submission.
 
@@ -193,7 +189,7 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Immediate posture recovery**: As soon as triangle is recognized, drive head up and away from opponent's chest, creating maximum distance between your shoulder and neck. Keep spine straight and chest expanded to prevent choking pressure from compressing carotid arteries. This posture must be maintained throughout the entire escape sequence. (Timing: Immediate upon recognizing triangle threat)
 2. **Pin trapped arm to body**: Pull your trapped arm tight against your own torso, creating a barrier between your shoulder and neck. This prevents opponent from isolating the arm across your body, which would complete the choking mechanism. The trapped arm becomes a defensive shield rather than a liability when properly positioned. (Timing: Simultaneously with posture recovery)
 3. **Establish base with free arm**: Post your free hand on the mat beside opponent's hip or on their body, creating a strong base that prevents you from being pulled down or swept. This posting arm becomes your anchor point for all subsequent movements. Drive weight through this post to maintain structural integrity. (Timing: After securing trapped arm position)
@@ -289,7 +285,7 @@ During regular rolling, focus on identifying triangle setups and aborting them b
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is maintaining posture the single most important factor in triangle escape?
 **A**: Posture creates distance between your shoulder and neck, preventing the choking mechanism from compressing the carotid arteries. Without posture, the triangle completes its function regardless of other defensive efforts. Posture also provides the structural foundation needed for all subsequent escape movements including stacking and circling. Losing posture typically results in rapid submission.
 

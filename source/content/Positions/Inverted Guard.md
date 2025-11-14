@@ -8,7 +8,7 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Inverted Guard?
 
 Inverted Guard is a modern guard position where the practitioner turns upside-down, with their back facing the ground and legs positioned upward toward the opponent. This position creates unique angles for controlling the opponent's movement and setting up sweeps, leg entanglements, and back takes. While physically demanding and technically complex, Inverted Guard offers exceptional defensive capabilities through its mobility and creates offensive opportunities that are difficult to counter using traditional passing approaches. This position has become increasingly prominent in modern BJJ competition, particularly in the context of berimbolo sequences and leg entanglement entries. The inverted position is typically transitional rather than static, serving as a critical link between guard retention sequences and more dominant attacking positions. The position's strategic value lies in creating unconventional angles that disrupt traditional passing mechanics while simultaneously establishing pathways to back control and leg attacks. Inverted guard requires significant hip and spine flexibility combined with spatial awareness while upside-down. The position emerged prominently in the early 2000s through competition innovations by the Mendes brothers and has since evolved into a comprehensive system with multiple entry methods and transition pathways. Modern practitioners integrate inversion throughout their guard retention systems, using it defensively against pressure passing while maintaining offensive threats. The position's effectiveness stems from forcing opponents to navigate unfamiliar angles and grips while the inverted practitioner maintains superior mobility and transition options.
 
@@ -46,7 +44,7 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -60,7 +58,7 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium |
 
-**What Makes This Unique:** Upside-down mobility for dynamic angles
+**Key Difference:** Upside-down mobility for dynamic angles
 
 
 
@@ -72,10 +70,6 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ## Playing as Bottom
 
 [[Inverted Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -170,10 +164,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Inverted Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -253,7 +243,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

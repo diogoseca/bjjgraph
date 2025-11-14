@@ -147,14 +147,10 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step execution from Half
 
 
 
-> Body Lock Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Body Lock Pass?
 
 The Body Lock Pass is a fundamental pressure passing technique that uses upper body control to bypass the half guard. This high-percentage pass relies on establishing a tight body lock (also called a bear hug or body triangle with the arms) to nullify the bottom player's frames and mobility. The technique is particularly effective in no-gi grappling where grips on clothing are unavailable, though it remains highly effective in gi training as well.
 
@@ -197,7 +193,7 @@ This pass is especially valuable against opponents with strong half guard retent
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish upper body control**: From top half guard, secure a body lock by threading one arm under the opponent's near armpit and the other over their far shoulder, clasping your hands together behind their back. Your chest should be tight to theirs with no space between your bodies. (Timing: As opponent attempts to create frames or distance)
 2. **Create head control**: Drive your head to the mat on the opposite side of where your leg is trapped, positioning your forehead or temple against the mat. This prevents the opponent from turning into you and creates a heavy crossface pressure on their jaw and neck. (Timing: Immediately after securing body lock)
 3. **Flatten the opponent**: Using your chest-to-chest connection and head pressure, drive your weight forward and down, forcing the opponent's back flat to the mat. Simultaneously sprawl your hips back slightly to create downward pressure through your torso while maintaining the tight body lock. (Timing: Maintain steady pressure for 2-3 seconds)
@@ -287,7 +283,7 @@ Continuously refine pressure application, timing, and transitions. Develop abili
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical element to establish before attempting to flatten the opponent in the body lock pass?
 **A**: The most critical element is establishing a completely tight body lock with zero space between your chest and the opponent's chest. Without this tight connection, the opponent can create frames and prevent being flattened, which is the foundation for the entire passing sequence. The connection must be so tight that the opponent cannot get their hands or arms between your bodies.
 

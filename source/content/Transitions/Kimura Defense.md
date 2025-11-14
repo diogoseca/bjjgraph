@@ -147,14 +147,10 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework from mu
 
 
 
-> Kimura Defense transitions from [[Kimura Control]] to [[Guard Recovery]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kimura Defense?
 
 The Kimura Defense represents a critical defensive skill set against one of BJJ's most versatile submissions. The kimura presents danger from virtually every position, making defensive proficiency essential for survival. Understanding proper defensive mechanics protects the shoulder joint while creating opportunities to escape or counter-attack. The defense operates on three levels: prevention (hand fighting and grip denial), early escape (before full lock completion), and late-stage survival (managing locked positions). Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions. Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals.
 
@@ -193,7 +189,7 @@ The Kimura Defense represents a critical defensive skill set against one of BJJ'
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize threat early**: Identify kimura setup as soon as opponent secures wrist control. Monitor for figure-four grip formation before full lock completion. Early recognition provides maximum defensive options and prevents deep shoulder exposure. (Timing: Immediate upon wrist control)
 2. **Secure defensive posture**: Pull trapped elbow tight to ribs, creating defensive frame. This reduces the lever arm length and prevents shoulder hyperextension. Keep shoulder internally rotated and elbow bent at 90 degrees minimum to maintain structural integrity. (Timing: Before opponent applies upward pressure)
 3. **Circle arm with the lock**: Rotate trapped arm in the direction of the lock (typically forward and down) to relieve shoulder joint stress. This swimming motion follows the natural shoulder rotation pattern and prevents ligament damage while buying time for escape execution. (Timing: Continuous circular motion)
@@ -288,7 +284,7 @@ Face progressive resistance from training partners applying full-intensity kimur
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must you circle your trapped arm in the direction of the lock rather than against it?
 **A**: Circling with the lock follows natural shoulder joint mechanics and relieves stress on the ligaments and joint capsule. Moving against the lock increases torque and accelerates potential injury. The circular motion with the lock creates temporary pressure relief while maintaining structural integrity, buying time to execute escapes without damaging the shoulder. This principle applies to all shoulder locks - always move with the rotation, never against it.
 

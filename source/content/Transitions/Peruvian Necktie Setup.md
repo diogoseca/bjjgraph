@@ -153,14 +153,10 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 
 
 
-> Peruvian Necktie Setup transitions from [[Front Headlock]] to [[Peruvian Necktie]]. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Peruvian Necktie Setup?
 
 The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.
 
@@ -199,7 +195,7 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock control**: From standing or scramble position, secure a tight front headlock with your arm wrapped around opponent's head and neck. Your chest should be heavy on their upper back, forcing their head down. Grip your hands together in a gable grip or secure a deep overhook on their near arm. (Timing: Control must be established before opponent can posture up)
 2. **Secure deep overhook**: Release the gable grip and thread your near arm deep underneath opponent's armpit, securing a tight overhook. Your hand should reach across their back, gripping their far lat or shoulder. This overhook prevents them from pulling their arm free and creates the structural foundation for the choke. (Timing: Transition smoothly from gable grip to overhook before opponent recognizes the setup)
 3. **Drop to outside hip**: While maintaining head and overhook control, drop your weight to your outside hip (same side as the overhook). Your free hand maintains pressure on opponent's head, keeping it trapped. Position your body at approximately 90 degrees to opponent's body alignment. (Timing: Drop weight suddenly to prevent opponent from following you down)
@@ -296,7 +292,7 @@ Refine setup timing for competition scenarios. Develop multiple entry pathways (
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is the overhook grip critical for the Peruvian Necktie setup?
 **A**: The overhook serves multiple essential functions: it prevents opponent from pulling their trapped arm free and escaping, creates structural control over their upper body, and helps maintain connection during the inversion phase. Without a secure overhook, opponent can easily extract their arm and escape before the position is established. The overhook also helps control their shoulder positioning, which is crucial for the choking mechanism.
 

@@ -147,14 +147,12 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
 
 
 
-> Armbar from Back with Legs is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Armbar from Back with Legs targets the Elbow joint. Risk: Elbow hyperextension or dislocation. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Armbar from Back with Legs?
 
 The Armbar from Back with Legs is an advanced finishing technique that leverages the superior control position of back mount to isolate and hyperextend the opponent's elbow joint. This variation differs from standard armbar attacks by maintaining leg control throughout the submission, using the legs to trap the opponent's upper body while transitioning the arm across your hips. The technique exemplifies the principle of maintaining dominant control even during submission transitions, as you never fully relinquish the back position until the armbar is secured. This submission is particularly effective against opponents who defend the rear naked choke by keeping their chin tucked and arms tight, as it punishes defensive hand fighting by converting grip breaks into submission opportunities. The leg configuration creates a powerful fulcrum that makes escape extremely difficult once properly applied, though the transition requires precise timing and body positioning to prevent rolling escapes. Success depends on understanding how to use your legs not just for control, but as active submission tools that guide the opponent's body into the finishing position.
 
@@ -239,7 +237,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure the target arm from back control**: From back control with seatbelt grip, identify which arm you will attack (typically the arm they are using to fight your choking hand). Use your choking-side hand to grab their wrist while maintaining your other hook and upper body control. Pull their wrist across their body toward your hip-side, breaking their defensive frame and isolating the limb from their torso. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Transition your hips and establish leg over face**: While controlling their wrist with both hands, remove your top hook and swing that leg over their face and shoulder, placing your calf/shin across their face and throat area. This leg acts as a barrier to prevent them from turning into you. Keep your bottom hook in place initially to maintain back exposure and prevent them from turning away. Your hips should begin to pivot perpendicular to their body. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Complete hip rotation and establish armbar configuration**: Rotate your hips fully perpendicular to their body while maintaining wrist control with both hands. Remove your bottom hook and bring that leg over their torso, establishing a figure-four or tight leg configuration around their upper body. Their arm should now be extended across your hips with your legs controlling their head and upper body. Ensure their thumb points upward (pronated position) for maximum elbow vulnerability. (Timing: 1-2 seconds) [Pressure: Moderate]
@@ -310,7 +308,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for this submission in training, and why is this critical? **[SAFETY-CRITICAL]**
 **A**: The minimum application time is 3-5 seconds of progressive pressure from catch to full extension. This is critical because the elbow joint can be severely damaged or dislocated before an opponent realizes they are in danger if pressure is applied too quickly. The gradual application gives your training partner sufficient time to recognize the submission and tap safely, preventing serious injuries like torn ligaments or elbow dislocation that could require surgery and months of recovery.
 

@@ -153,14 +153,12 @@ description: "Master Brabo Choke variations in BJJ. Complete guide covering no-g
 
 
 
-> Brabo Variations is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Brabo Variations targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Brabo Variations?
 
 The Brabo Choke, commonly known as the no-gi darce choke, represents a family of blood chokes that target the carotid arteries through arm-in configurations from front headlock, turtle, and scramble positions. Unlike its gi counterpart, the brabo relies purely on body mechanics and arm positioning without the aid of collar grips, making it a fundamental submission for no-gi grappling and MMA applications. The term 'brabo' originated from Brazilian pronunciation of 'D'Arce' and has evolved to encompass various no-gi adaptations including rolling entries, shallow finishes, and marce variations. These variations exploit different defensive reactions and positional contexts, creating a comprehensive submission system from front headlock control. The technical foundation centers on threading one arm under the opponent's near arm while clasping hands on the far side of their neck, creating a figure-four configuration that compresses both carotid arteries when properly applied. Success depends on shoulder pressure, hip positioning, and understanding which variation applies to specific defensive postures. The brabo system connects seamlessly with anaconda chokes, guillotines, and back takes, forming a complete front headlock submission network that punishes common defensive movements.
 
@@ -245,7 +243,7 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure front headlock position**: Establish solid front headlock with your chest heavy on opponent's upper back, head controlled under your armpit. Use non-choking arm to secure opponent's near arm (overhook, underhook, or controlling their wrist). Angle your body 45 degrees to their spine to create space for arm threading. (Timing: Initial control - establish before opponent can defend) [Pressure: Moderate]
 2. **Thread choking arm under near shoulder**: Slide your choking-side arm (palm down) under opponent's near shoulder and deep across their throat. Your bicep should pass under their shoulder while your forearm crosses the front of their neck. Drive your shoulder forward and down to create initial compression. The deeper you thread, the tighter the finish. (Timing: Quick threading before opponent tucks arm) [Pressure: Light]
 3. **Lock figure-four grip**: Bring your non-choking hand to meet your choking hand on the far side of opponent's neck. Lock hands in figure-four configuration: choking hand grabs your non-choking bicep, non-choking hand grabs behind your choking tricep. Pull grip tight to eliminate slack. Your choking forearm should now be directly across opponent's throat. (Timing: Immediate - before opponent can defend hands) [Pressure: Moderate]
@@ -322,7 +320,7 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the two primary structures creating compression in a properly applied brabo choke?
 **A**: The two primary compression structures are: (1) the shoulder of your choking arm driving into one side of the opponent's neck, and (2) your choking forearm crossing the front of their throat to compress the opposite side. Together, these create a wedge and forearm combination that compresses both carotid arteries when you pull your elbows together and expand your chest.
 

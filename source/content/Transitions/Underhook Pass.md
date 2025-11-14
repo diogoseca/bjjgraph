@@ -153,14 +153,10 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 
 
 
-> Underhook Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Underhook Pass?
 
 The Underhook Pass is a fundamental pressure passing technique used to advance from half guard top position to side control. This pass exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options. The underhook provides both offensive control and defensive protection, preventing the bottom player from establishing their own underhook or recovering full guard. This pass is particularly effective against players who rely on knee shield or traditional half guard retention, as it addresses their primary defensive structures through systematic breakdown and methodical advancement.
 
@@ -199,7 +195,7 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure the underhook**: From half guard top, thread your arm under opponent's far armpit, securing a deep underhook. Your shoulder should drive into their chest while your hand reaches across their back, ideally gripping their far lat or belt. This underhook is the cornerstone of the entire passing sequence. (Timing: Establish before opponent can frame or create distance)
 2. **Establish crossface pressure**: Place your head on opponent's chest, driving your shoulder into their near pectoral muscle. This crossface pressure prevents them from turning into you or establishing their own underhook. Your ear should be tight to their sternum, minimizing space for their frames. (Timing: Immediately after securing underhook)
 3. **Control the near hip**: With your free hand (non-underhook side), establish a firm grip on opponent's near hip, pants, or belt. This grip prevents them from using hip movement to recover guard or create the angle needed for sweeps. Your palm should be facing down with fingers digging into their hip. (Timing: Concurrent with crossface establishment)
@@ -296,7 +292,7 @@ Start in half guard top with goal of completing underhook pass. Partner provides
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is securing the underhook before attempting to flatten the opponent critical to the success of this pass?
 **A**: The underhook provides the primary control mechanism that prevents the bottom player from turning into you or establishing their own underhook. Without it, the opponent can easily create frames, turn to face you, or initiate sweeps. The underhook acts as both offensive control (allowing you to manipulate their posture) and defensive protection (preventing their offensive options from half guard). Attempting to flatten without the underhook results in a scramble situation where the bottom player has equal or superior control options.
 

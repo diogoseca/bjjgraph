@@ -147,14 +147,10 @@ description: "Master the Shin to Shin Pull in BJJ. Step-by-step execution from S
 
 
 
-> Shin to Shin Pull transitions from [[Standing Position]] to [[Shin-to-Shin Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Shin to Shin Pull?
 
 The Shin to Shin Pull is a fundamental guard pulling technique that establishes a shin-to-shin connection before pulling the opponent into your guard. This pull is particularly effective in gi and no-gi competition where you want to establish guard control while maintaining offensive options. The shin-to-shin position provides excellent control of the opponent's posture and base while creating immediate sweeping and back-taking opportunities.
 
@@ -197,7 +193,7 @@ The shin-to-shin pull has become increasingly popular in modern competition BJJ 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish primary grip control**: From standing position, establish a strong grip on your opponent's same-side sleeve or wrist (if pulling with your right leg, grip their right arm). This grip prevents them from establishing strong posture and provides pulling power for off-balancing. In gi, you can also use a collar grip for additional control. Maintain tension in this grip throughout the entire pull sequence. (Timing: Initial setup phase, before weight commitment)
 2. **Sit to seated guard position**: While maintaining your grip, drop your hips to the mat and assume a seated position with your weight on your sitting bones. Keep your chest relatively upright and maintain visual contact with your opponent. This seated position should be active and ready to move, not passive or collapsed. Your non-gripping hand can post behind you for stability or grip opponent's other sleeve. (Timing: Smooth, controlled descent to avoid telegraphing)
 3. **Insert shin to shin connection**: Extend your same-side leg (the side where you have the grip) and place the blade of your shin directly against the inside of your opponent's shin, creating a frame from your knee to your ankle. Your shin should be perpendicular to their shin, creating maximum surface contact and control. Flex your foot and engage your hip flexors to maintain pressure and prevent their leg from sliding free. (Timing: As you settle into seated position)
@@ -286,7 +282,7 @@ Incorporate pull into normal sparring rounds. Start standing and look for opport
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of establishing the shin-to-shin connection before completing the guard pull?
 **A**: The shin-to-shin connection serves as a distance management tool and structural frame that prevents the opponent from immediately establishing strong top pressure or passing grips. By creating this connection first, you ensure that when you pull to guard, you have a control point that disrupts their base and posture, allowing you to maintain offensive initiative. Without this connection, you would simply be sitting in front of an opponent who has superior position and pressure.
 

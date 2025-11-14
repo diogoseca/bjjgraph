@@ -147,14 +147,10 @@ description: "Master the Smash Pass in BJJ. Complete guide covering pressure pas
 
 
 
-> Smash Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Smash Pass?
 
 The Smash Pass is a fundamental pressure-based guard passing technique used to overcome half guard retention. This pass emphasizes heavy shoulder pressure, crossface control, and systematic hip positioning to flatten the opponent and transition to side control. The technique is particularly effective against knee shield half guard and traditional half guard positions, as it uses the passer's body weight and positioning to nullify the bottom player's frames and mobility. The Smash Pass represents a core element of pressure passing systems and is valued for its high percentage success rate when executed with proper mechanics. Unlike dynamic passing approaches, the smash pass relies on patient pressure application, forcing the opponent into progressively worse positions until the guard can be cleared. This technique is especially effective in gi and no-gi contexts, making it a staple of modern BJJ competition strategies.
 
@@ -193,7 +189,7 @@ The Smash Pass is a fundamental pressure-based guard passing technique used to o
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish crossface control**: From half guard top position, drive your near-side shoulder across opponent's face, threading your forearm under their chin and across their jaw line. Your goal is to turn their head away and make them uncomfortable, forcing them to defend the crossface rather than attack. Apply steady pressure with your shoulder into their face while maintaining chest-to-chest contact. (Timing: Initial setup phase - establish before opponent can frame)
 2. **Clear the knee shield**: If opponent has knee shield half guard, use your free hand to push their knee down toward the mat while simultaneously driving your hips forward and to the side. Your chest pressure and crossface should make it difficult for them to maintain the frame. Some variations involve swimming your arm under the knee shield and connecting to your crossface grip, creating a vice-like pressure system. (Timing: As opponent begins defending crossface - capitalize on their distraction)
 3. **Flatten opponent's posture**: Drive heavy shoulder pressure through the crossface, forcing opponent's shoulders flat to the mat. Simultaneously walk your hips up toward their head, creating a downward angle that makes it biomechanically difficult for them to maintain defensive frames or turn into you. Your weight should be distributed through your shoulder into their face and chest, not on their hips where they have stronger structural support. (Timing: Continuous pressure - maintain until opponent is completely flattened)
@@ -288,7 +284,7 @@ During regular sparring, actively seek half guard top position and attempt smash
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is shoulder pressure directed at the opponent's face and chest more effective than pressure on their hips during the smash pass?
 **A**: Shoulder pressure on the face and chest is more effective because the opponent has weaker structural frames in their upper body compared to their hips and legs. When you pressure their hips, they can use their strong leg muscles and hip structure to maintain frames and create space. Upper body pressure compromises their breathing, turns their head away, and makes it biomechanically difficult to maintain defensive structures. Additionally, crossface pressure on the head controls their entire spine, limiting their mobility far more than hip pressure would.
 

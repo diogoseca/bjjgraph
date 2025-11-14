@@ -147,14 +147,10 @@ description: "Master the Turtle to Back Control transition in BJJ. Essential bac
 
 
 
-> Turtle to Back Control transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Turtle to Back Control?
 
 The Turtle to Back Control transition is a fundamental back-taking sequence that exploits the defensive turtle position's inherent vulnerability. When an opponent assumes turtle position to protect against pins or submissions, they expose their back - creating a high-percentage opportunity for positional advancement. This transition involves systematically breaking down the turtle structure through strategic grip placement, hip control, and body positioning to achieve the dominant back control position. The key to successful execution lies in understanding weight distribution, preventing defensive escapes, and methodically establishing control points before fully transitioning to back mount. This technique forms the cornerstone of effective top turtle work and is essential for competitors at all levels, offering direct pathways to both dominant positioning and submission attacks.
 
@@ -193,7 +189,7 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish chest pressure**: Place your chest directly on opponent's upper back with your sternum between their shoulder blades. Drive your weight forward and slightly downward to break their postural integrity and prevent them from exploding forward or standing up. Your head should be positioned to one side of their head, close to their ear. (Timing: Initial contact phase)
 2. **Secure seatbelt control**: Thread your choking-side arm under their near armpit and across their chest, while your other arm goes over their far shoulder. Lock your hands together in a seatbelt configuration with your choking arm on top. Your hands can interlock with a gable grip, S-grip, or grab your own wrist depending on opponent size and your preference. (Timing: Before hip movement)
 3. **Control near hip**: While maintaining upper body control, position your near-side knee against their near hip. This blocking position prevents them from sitting back to guard, rolling forward, or executing defensive granby rolls. Your shin should be tight to their hip bone, creating a barrier to their escape routes. (Timing: Simultaneous with seatbelt establishment)
@@ -285,7 +281,7 @@ Practice flowing between turtle to back, truck entries, crucifix, and submission
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why must seatbelt control be established before attempting to insert hooks during the turtle to back transition?
 **A**: Seatbelt control provides upper body connection and prevents opponent from sitting to guard, standing, or rolling away during the vulnerable hook insertion phase. Without upper body control first, opponent can use their hip mobility to escape before you establish dominant position. The seatbelt creates a steering mechanism that allows you to control their upper body orientation while your legs work to secure hooks. This top-down control progression is fundamental to successful back takes.
 

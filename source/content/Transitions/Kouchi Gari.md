@@ -147,14 +147,10 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
 
 
 
-> Kouchi Gari transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kouchi Gari?
 
 Kouchi Gari (small inner reap) is a fundamental judo technique that has become essential in modern BJJ and no-gi grappling. The technique involves hooking your opponent's inside leg with your own while simultaneously breaking their balance backward and to the side. Unlike its larger cousin Ouchi Gari, Kouchi Gari focuses on a smaller, more nuanced reaping motion that targets the ankle and lower calf rather than the thigh. This makes it particularly effective when your opponent has a narrow stance or is stepping backward. The technique's beauty lies in its timing and subtlety—when executed properly, your opponent falls before they realize they've been swept. Kouchi Gari works exceptionally well as part of combination attacks, often setting up other throws or creating opportunities for guard pulls when the initial attempt is defended.
 
@@ -193,7 +189,7 @@ Kouchi Gari (small inner reap) is a fundamental judo technique that has become e
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grips and angle**: Secure a high collar grip with your right hand and sleeve/wrist control with your left (or equivalent no-gi grips on neck and arm). Position your body at roughly a 45-degree angle to your opponent rather than standing square to them. (Timing: During initial grip fighting when opponent is settling into stance)
 2. **Break opponent's posture**: Pull your opponent's upper body forward and slightly downward with your collar grip while simultaneously pulling their arm across their body. This creates the initial off-balance and prevents them from maintaining strong upright posture. (Timing: As soon as grips are secured)
 3. **Create diagonal off-balance**: Push and pull in opposite directions with your hands to turn your opponent's shoulders and hips. Pull the collar grip backward and to your left while pushing the sleeve grip forward and to your right, creating a diagonal off-balance toward their rear corner. (Timing: Immediately following posture break)
@@ -275,7 +271,7 @@ Incorporate Kouchi Gari into regular stand-up sparring and competition training.
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary target area for the reaping leg in Kouchi Gari?
 **A**: The ankle and lower calf area, specifically the Achilles tendon region. Unlike Ouchi Gari which targets higher on the leg, Kouchi Gari focuses on this lower area to create a small, precise reaping motion that removes the base from an already off-balanced opponent.
 

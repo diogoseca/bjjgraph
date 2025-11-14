@@ -8,7 +8,7 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 50%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Half Guard from the Top?
 
 Half Guard Top represents the dominant counterpart to Half Guard Bottom, where the top player has one leg trapped between the bottom player's legs while maintaining superior positioning with weight and pressure. This position serves as a critical transitional battleground between guard and side control, requiring methodical work to advance position while defending against sweeps, submissions, and back takes. The position has evolved from a simple transitional state into a complex positional chess match with specialized offensive and defensive approaches based on the specific half guard variation employed by the bottom player.
 
@@ -461,17 +440,17 @@ Start in half guard top and flow through multiple passing attempts based on part
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Half guard top represents one of the most critical battlegrounds in modern jiu-jitsu, requiring systematic understanding of the relationship between upper body control configurations and passing mechanics. The fundamental error most practitioners make is treating half guard as a simple obstacle to overcome rather than a complex position requiring methodical dismantling. Success begins with establishing dominant upper body control - typically through crossface or underhook - which creates the foundation for all subsequent passing actions. The crossface, when properly applied with shoulder pressure driving through opponent's jaw toward far shoulder, fundamentally disrupts their ability to create effective frames or generate hip mobility. From this controlled position, the pass becomes a matter of systematic leg extraction rather than explosive athletic movement.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, half guard top is where matches are won or lost, and my approach centers on creating immediate dilemmas that force opponents into predictable defensive responses I can exploit. When I encounter half guard, I immediately establish heavy crossface pressure while controlling their bottom knee to prevent angle creation. This creates the first dilemma: defend the crossface or defend the pass. Most opponents instinctively fight the crossface, which opens clean passing lanes. If they focus on blocking the pass, I increase crossface pressure until I can attack the neck or transition to better positions. The key is recognizing which half guard variation they're using and applying the appropriate pressure passing strategy.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Half guard top became infinitely more complex once we developed the lockdown and electric chair system at 10th Planet, forcing top players to completely rethink their passing strategies. The old-school approach of just smashing through doesn't work against sophisticated lockdown players who understand how to break posture and create sweeping opportunities. When I'm on top in half guard, especially against lockdown, my first priority is posture maintenance - staying tall with my back straight and not letting them break me down. Once they get the lockdown, the battle becomes about hand fighting and preventing them from controlling my posture or getting to their offensive positions. Against traditional half guard, I look for the darce when they try to come up for the underhook, or I'll work the knee slice if they stay flat.
 

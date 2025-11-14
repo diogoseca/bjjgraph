@@ -147,14 +147,12 @@ description: "Master D'arce choke variations in BJJ. Complete guide covering set
 
 
 
-> Darce Variations is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Darce Variations targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Darce Variations?
 
 The D'arce choke represents one of the most versatile blood chokes in modern Brazilian Jiu-Jitsu, with numerous variations that adapt to different scenarios and opponent reactions. Unlike the standard D'arce which follows a specific sequence, these variations allow practitioners to finish the choke from unconventional positions, angles, and grips. The D'arce family of chokes—including the Marce, Brabo, and modified entries—shares the fundamental principle of creating a figure-four configuration around the opponent's neck and shoulder, but each variation exploits different positional contexts. Understanding these variations transforms the D'arce from a single technique into a comprehensive attacking system that can be applied from turtle, front headlock, scrambles, half guard, and even standing positions. The key to mastering D'arce variations lies in recognizing the common thread: controlling the opponent's near arm while threading your choking arm through the gap between their neck and trapped shoulder. Each variation modifies the entry, angle, or finishing position while maintaining this core principle, making the D'arce one of the most adaptable submissions in the grappling arsenal.
 
@@ -239,7 +237,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish front headlock control**: Secure a dominant front headlock position with opponent's head trapped under your chest. Control their far arm with your non-choking hand while keeping your weight forward to prevent them from standing. Your choking-side arm should be free and positioned near their neck. Ensure opponent's posture is broken forward with their head lower than their hips. (Timing: 2-3 seconds for secure position) [Pressure: Moderate]
 2. **Isolate and trap the near arm**: Control opponent's near-side arm by pinning it against their body with your chest and shoulder pressure. This arm must be trapped between you and them to create the necessary space at their neck. If they're defending with this arm extended, use your body weight to collapse it back toward their body. The goal is to eliminate this arm from the defensive equation entirely. (Timing: 1-2 seconds to secure arm isolation) [Pressure: Firm]
 3. **Thread choking arm through neck gap**: Slide your choking-side arm (palm down) through the space between opponent's neck and their trapped shoulder. Your arm should penetrate deep, with your bicep making contact with one side of their neck. Drive your shoulder forward as you thread to maximize depth. The deeper your arm penetrates, the tighter the finish will be. Your hand should emerge on the far side of their neck. (Timing: 2-3 seconds for deep penetration) [Pressure: Moderate]
@@ -307,7 +305,7 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical target of the D'arce choke and why is proper positioning critical for safety? **[SAFETY-CRITICAL]**
 **A**: The D'arce choke targets the carotid arteries and jugular veins on both sides of the neck using a figure-four arm configuration. Proper positioning is critical because the bicep should compress one carotid while the radius bone compresses the opposite side—NOT the forearm across the trachea. Incorrect positioning can create a dangerous air choke or neck crank instead of a clean blood choke. The choke should render opponent unconscious within 8-10 seconds if applied correctly, making it essential to release immediately upon tap to prevent injury.
 

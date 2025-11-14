@@ -8,7 +8,7 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Piranha Guard?
 
 Piranha Guard is an advanced lapel-based guard system where the bottom player feeds the opponent's collar through their legs, creating a powerful control mechanism that generates exceptional posture-breaking leverage and sweep opportunities. This guard is characterized by the unique gripping configuration where the practitioner threads the opponent's lapel between their legs and controls it with strategic hand placements, creating a pulley-like mechanical advantage similar to how a piranha's teeth lock onto prey.
 
@@ -50,7 +48,7 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 
-**What Makes This Unique:** Lapel-fed-through-legs creates powerful leverage
+**Key Difference:** Lapel-fed-through-legs creates powerful leverage
 
 
 
@@ -76,10 +74,6 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ## Playing as Bottom
 
 [[Piranha Guard/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -168,10 +162,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Piranha Guard/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -248,7 +238,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

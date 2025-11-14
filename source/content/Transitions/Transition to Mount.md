@@ -147,14 +147,10 @@ description: "Master the fundamental transition from side control to mount in BJ
 
 
 
-> Transition to Mount transitions from [[Side Control]] to [[Mount]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Transition to Mount?
 
 The transition to mount from side control represents one of the most fundamental and high-percentage positional advancements in Brazilian Jiu-Jitsu. This transition is the natural progression when an opponent's defensive frames are compromised or when they turn into you attempting to recover guard. The movement capitalizes on controlling the near side of the opponent's body while stepping over to establish the dominant mount position. Understanding this transition is critical for developing a systematic top game, as mount offers superior control and submission opportunities compared to side control. The technique relies on precise weight distribution, maintaining connection throughout the movement, and timing the transition when defensive frames collapse or opponent movement creates openings. This is a bread-and-butter technique that every practitioner from white belt to black belt uses regularly in training and competition. The transition can be executed with various grips and entry methods, but the fundamental mechanics remain consistent: control the near side, step the leg over, and establish mount with proper weight distribution.
 
@@ -193,7 +189,7 @@ The transition to mount from side control represents one of the most fundamental
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish dominant side control**: Begin from a tight side control position with heavy chest pressure on opponent's sternum, crossface controlling the head, and near-side underhook securing the arm. Your hips should be tight to opponent's side with knees providing mobile base. Ensure opponent cannot create frames or space before initiating the transition. (Timing: Take 2-3 seconds to consolidate control and feel opponent's defensive structure)
 2. **Isolate near-side arm**: Secure opponent's near-side arm by either maintaining the underhook deep, trapping it with your knee, or using a grip on their wrist or gi material. This arm must be neutralized as it's the primary defensive frame that can block your leg from stepping over. Your crossface should maintain constant pressure on opponent's far cheek, turning their head away. (Timing: Coordinate arm control with maintaining shoulder pressure)
 3. **Create angle and posting base**: Shift your hips slightly toward opponent's head while maintaining chest pressure, creating a 30-45 degree angle. Post your far-side hand on the mat near opponent's far hip or on their belt/gi for base and control. This posting hand will support your weight during the leg step-over and help control opponent's hip from escaping. (Timing: Movement should be smooth without releasing pressure)
@@ -288,7 +284,7 @@ Apply the transition in regular sparring against various body types and skill le
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary reason you must control opponent's near-side arm before attempting to step over to mount?
 **A**: The near-side arm represents opponent's strongest defensive frame that can directly block your leg from stepping over their body. If this arm is free and active, they can post it against your hip or chest, preventing the transition entirely and potentially creating space to recover guard. By controlling this arm through underhook, wrist control, or trapping, you eliminate their primary defensive barrier and create a clear path for your leg to step over.
 

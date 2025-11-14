@@ -8,7 +8,7 @@ description: "Master Piranha Guard Top in BJJ. Complete guide covering passing s
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Piranha Guard Top in BJJ. Complete guide covering passing s
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 15%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Piranha Guard from the Top?
 
 Piranha Guard Top represents the passing position against the Piranha Guard, a lapel-based open guard variation where the bottom player threads your collar through their legs to control distance and create attacking opportunities. From the top position, you face a complex web of lapel controls and must navigate carefully to avoid sweeps and submissions while maintaining posture and working systematically toward guard passing opportunities.
 
@@ -471,17 +450,17 @@ Start with bottom player using 50% resistance with lapel grips. Top player works
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 The Piranha Guard represents an evolution in lapel-based guard systems that requires the top player to understand the hierarchical threat structure inherent in lapel configurations and respond with systematic methodology. The most dangerous lapel positions are those that compromise the neck and back, as these create immediate submission threats and positional control that can lead to rapid position loss. When facing this guard, your primary objective must be systematic threat reduction—first eliminate neck wraps, then back controls, then leg entanglements in that specific order based on danger level. The biomechanical principle at work is that the lapel creates extension points beyond the normal reach of the bottom player's limbs, effectively giving them longer levers for control and off-balancing. To counter this, you must close the distance these extensions create while simultaneously maintaining the base width necessary to defend against leverage-based sweeps that exploit these extended control points. Your passing strategy should exploit the fundamental weakness of all lapel guards: they require the bottom player to maintain grip integrity on a piece of cloth that can be stripped with proper technique and timing. Focus on grip breaking methodology that addresses the specific hand configurations used in Piranha Guard, and time your passing entries for the moments immediately following successful grip breaks when the bottom player is reorganizing their defensive structure and cannot immediately threaten you with attacks.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 From competition experience, the Piranha Guard is most dangerous when you give the bottom player time to fully establish their lapel web and set their grips, so my approach is aggressive grip fighting from the moment I recognize the guard configuration—I'm immediately working to strip lapel grips and prevent them from completing their setup before it's fully established. The key is understanding that most competitors using Piranha Guard have specific sweep and submission sequences they're trying to hit, and these all require certain lapel configurations to be in place for the attacks to work properly. If you can disrupt their grip pattern before they complete it, you take away their entire attacking system and force them to restart from disadvantaged positions. When I pass lapel guards, I'm looking for the toreando or long step pass because these capitalize on the bottom player's extended leg position which is necessary for their lapel configuration—the same position that gives them control also creates passing opportunities. The moment I break a critical grip, I'm immediately moving to pass—there's no waiting, no reorganizing my own grips, just explosive forward movement into passing sequences. Speed is crucial here because good Piranha Guard players can reestablish their controls very quickly, often in under two seconds if you give them the opportunity. Also, I always protect my neck first, even if it means giving up other grips or passing opportunities temporarily. A lapel choke finish is way more dangerous than a sweep, so prioritize your defensive hierarchy correctly and never compromise neck safety for passing speed.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Piranha Guard is a perfect example of the innovation happening in modern gi jiu-jitsu, using the uniform as an extension of your body to create control points and attacking opportunities that don't exist in no-gi. When you're on top, you've got to respect the creativity of the position but not be paralyzed by it or get stuck in defensive mode. My approach is to stay super active with my hands, never letting them get comfortable with their lapel configuration, constantly stripping and re-gripping to disrupt their rhythm. One thing people miss is that you can use your own lapel against their grips—if they're holding your lapel, you can sometimes use that connection to control their posture and set up your passing angles by manipulating the tension they've created. The real key though is understanding the rhythm of lapel guards and when they're vulnerable. There's a moment right after they establish a grip where they're transitioning to the next part of their setup—that's your window to explode into your pass before the position is fully locked in. Don't try to methodically break down every grip like you've got all day, because that just gives them more time to improve position. Hit them with movement, change levels frequently, make them react to you instead of you reacting to their lapel web and pre-planned sequences. And if you're training no-gi like we do at 10th Planet, study these gi positions anyway because the concepts of distance management and grip fighting translate directly to no-gi control positions like overhooks and collar ties. The lapel is just a tool—the real battle is about controlling distance and breaking your opponent's structural integrity, which applies to all grappling regardless of uniform.
 

@@ -147,14 +147,10 @@ description: "Master the Sprawl takedown defense in BJJ. Essential defensive tec
 
 
 
-> Sprawl transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Sprawl?
 
 The Sprawl is a fundamental defensive technique in Brazilian Jiu-Jitsu and wrestling, designed to counter opponent takedown attempts, particularly single leg and double leg attacks. When executed properly, the sprawl allows you to stuff the opponent's shot, prevent them from completing the takedown, and transition to a dominant position such as front headlock control. The sprawl works by explosively driving your hips down and back while simultaneously driving your weight onto the opponent's shoulders and head, breaking their posture and eliminating their ability to lift or drive forward. This creates an immediate shift in positional hierarchy, turning a potentially dangerous defensive situation into an offensive opportunity. The sprawl is considered one of the most high-percentage defensive techniques in grappling because it relies on fundamental principles of base, weight distribution, and reactive timing rather than complex technical sequences. Mastery of the sprawl is essential for anyone seeking to develop a complete standing game, as it provides the foundation for defending against wrestling-based attacks while setting up submission opportunities and positional transitions.
 
@@ -193,7 +189,7 @@ The Sprawl is a fundamental defensive technique in Brazilian Jiu-Jitsu and wrest
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize the shot**: Identify opponent's level change and forward drive as they initiate a single or double leg takedown attempt. Watch for their head dropping, shoulders hunching forward, and explosive movement toward your legs. This recognition phase must happen within milliseconds to allow proper defensive reaction. (Timing: Immediate recognition as opponent drops level)
 2. **Drive hips back explosively**: Explosively thrust your hips backward and downward, creating maximum distance between your legs and the opponent's penetrating arms. This hip movement should be violent and immediate, shooting your legs back as if jumping backward while keeping your upper body weight forward. Your hips should drop low enough that your pelvis is nearly touching the mat. (Timing: Simultaneous with recognition, within 0.2-0.3 seconds)
 3. **Chest and weight forward**: As your hips drive back, simultaneously drive your chest and upper body weight forward and down onto the opponent's shoulders and upper back. Your chest should be heavy on their shoulder blades, with your weight distributed to collapse their posture. Keep your head up to maintain neck safety and positional awareness. (Timing: Coordinated with hip drive)
@@ -288,7 +284,7 @@ Include sprawl drills in every warm-up. Perform sprawl-specific conditioning at 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the proper sequence of body movements when executing a sprawl?
 **A**: The proper sequence is to explosively drive your hips backward and downward first, creating distance from the opponent's penetrating attack, while simultaneously driving your chest and upper body weight forward onto the opponent's shoulders and upper back. Your hands should establish a stable base on the mat to support this position. The hip drive must happen fractionally before or simultaneously with the chest drive to ensure your legs are out of reach before committing your weight forward.
 

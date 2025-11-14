@@ -147,14 +147,10 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
 
 
 
-> Side Control Escape transitions from [[Side Control]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Side Control Escape?
 
 The Side Control Escape is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu, representing a critical survival skill for practitioners at all levels. When trapped in side control, the bottom player faces constant pressure, point accumulation, and the threat of submission. This escape sequence uses precise framing, hip movement, and timing to create space and recover guard position. The technique emphasizes creating defensive frames to manage opponent's pressure while systematically working to turn the hips, insert the knee shield, and reestablish guard. Understanding side control escapes is essential because side control is one of the most common dominant positions in both gi and no-gi grappling. The escape requires patience, proper breathing under pressure, and the discipline to execute technical movements rather than relying on explosive strength. Mastering this fundamental escape provides the foundation for more advanced guard recovery systems and builds the defensive awareness necessary for high-level competition.
 
@@ -193,7 +189,7 @@ The Side Control Escape is one of the most fundamental defensive techniques in B
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish defensive frames**: Place bottom forearm against opponent's hip with elbow tight to your ribs, creating a rigid frame. Top hand frames against opponent's shoulder or neck, keeping elbow inside to prevent crossface. Both frames work together to create structural barriers preventing opponent's weight from crushing down onto your chest and face. (Timing: Immediately upon reaching side control bottom position)
 2. **Create initial space with bridge**: Bridge powerfully upward, driving your shoulder and hips toward the ceiling while pushing through both frames. This momentarily disrupts opponent's base and creates the first critical inches of space needed for hip movement. Time the bridge when opponent is adjusting their position or attempting to consolidate control. (Timing: When opponent shifts weight or adjusts grips)
 3. **Execute hip escape (shrimp)**: As you land from the bridge, immediately shrimp your hips away from opponent by pulling bottom knee toward chest and pushing off top foot. Slide your hips back 6-12 inches while maintaining strong frames to prevent opponent from following your movement. This creates the space needed to begin turning your hips. (Timing: Immediately following bridge, during brief moment of disruption)
@@ -284,7 +280,7 @@ Execute escapes during positional sparring with partner using maximum effort to 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it essential to turn your hips toward opponent rather than just creating space with shrimping?
 **A**: Turning the hips toward the opponent is critical because guard recovery requires getting your knees between you and your opponent. Simply creating space while remaining flat on your back allows the opponent to easily follow your movement and resettle their position. By rotating the hips during the escape, you create the proper angle to insert knee shield or butterfly hooks, establishing the structure necessary for guard positions. The hip rotation also makes it much more difficult for the opponent to maintain crushing chest pressure and follow your movement.
 

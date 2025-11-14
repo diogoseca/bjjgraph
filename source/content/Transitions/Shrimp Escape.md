@@ -147,14 +147,10 @@ description: "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Contr
 
 
 
-> Shrimp Escape transitions from [[Side Control]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Shrimp Escape?
 
 The Shrimp Escape, also known as the hip escape, is one of the most fundamental and essential defensive movements in Brazilian Jiu-Jitsu. This technique allows a practitioner trapped in side control to create space, recover their guard, and neutralize their opponent's positional dominance. The shrimping motion involves a coordinated hip movement that generates distance between you and your opponent, enabling you to insert your knee shield or establish frames that prevent further advancement. The effectiveness of the shrimp escape lies in its mechanical efficiency—by bridging slightly and then explosively moving your hips away from your opponent while posting with your far leg, you create the angular space necessary for guard recovery. This technique is not merely an escape; it represents a fundamental principle of creating space under pressure that applies across countless defensive scenarios in BJJ. Mastery of the shrimp escape is essential for survival in bottom positions and serves as the foundation for more advanced escapes and recoveries throughout your jiu-jitsu journey.
 
@@ -193,7 +189,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish defensive frames**: Create a strong elbow frame with your near-side arm against opponent's hip or shoulder, while your far-side arm frames against their neck or cross-face arm. These frames are critical to maintain distance and prevent further pressure advancement. Your near elbow should be tight to your body, forearm vertical, creating a wedge that keeps opponent's chest from crushing down onto yours. (Timing: Immediate upon being controlled in side control)
 2. **Bridge slightly to unweight hips**: Drive through both feet to create a small bridge, lifting your hips 2-4 inches off the mat. This micro-bridge momentarily unweights your hips and creates the mobility needed for the upcoming escape movement. Do not bridge too high or hold the bridge too long, as this can give opponent opportunity to take mount. The bridge should be quick and subtle. (Timing: Coordinate with opponent's breathing or weight shift)
 3. **Turn onto your hip**: As you come down from the bridge, turn your body to face your opponent, rotating onto your near-side hip. Your shoulders should now be perpendicular to the mat rather than flat. This hip rotation is the beginning of the shrimping motion and sets up the directional escape vector. (Timing: Immediately following the bridge, in one fluid motion)
@@ -284,7 +280,7 @@ Positional sparring from side control with full resistance. Bottom player's goal
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to establish frames before attempting the shrimp escape movement?
 **A**: Frames serve multiple essential functions: they maintain distance preventing opponent from following your hip movement, they provide structural support against opponent's pressure, and they create the space needed for your hips to move freely. Without frames, opponent can simply drive their chest into yours and nullify the space you're trying to create with your shrimp. Frames act as mobile barriers that maintain the gap your hip movement generates.
 

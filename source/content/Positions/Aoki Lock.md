@@ -8,7 +8,7 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Aoki Lock?
 
 The Aoki Lock position represents an advanced submission control state named after Japanese MMA fighter Shinya Aoki, characterized by leg entanglement control combined with shoulder lock pressure. This hybrid position integrates elements of omoplata mechanics with leg-based trapping, creating a powerful control system that limits opponent mobility while applying progressive shoulder joint pressure. The position exists in two distinct perspectives: bottom (defensive escape focus) and top (offensive finishing focus), each requiring specialized technical knowledge and safety awareness.
 
@@ -50,7 +48,7 @@ This position appears most commonly in no-gi competition, submission-only format
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ This position appears most commonly in no-gi competition, submission-only format
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short | Short to Medium |
 
-**What Makes This Unique:** Leg entanglement isolates shoulder joint
+**Key Difference:** Leg entanglement isolates shoulder joint
 
 
 
@@ -76,10 +74,6 @@ This position appears most commonly in no-gi competition, submission-only format
 ## Playing as Bottom
 
 [[Aoki Lock/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -154,10 +148,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 
 [[Aoki Lock/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -231,7 +221,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

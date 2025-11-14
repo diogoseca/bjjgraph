@@ -8,7 +8,7 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 45% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 4 (4 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Gift Wrap from the Bottom?
 
 Gift Wrap Bottom represents one of the most precarious defensive positions in Brazilian Jiu-Jitsu. With one arm trapped and back control established, the defender faces a situation where traditional defensive tools are severely compromised. The trapped arm eliminates half of the defensive capability while the back position itself places the defender in immediate submission danger.
 
@@ -459,17 +440,17 @@ Start each round from Gift Wrap Bottom position. Defender's goal is to escape to
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The Gift Wrap represents a catastrophic breakdown in defensive structure where the practitioner has lost asymmetric control - one arm is completely removed from the defensive equation while back control remains established. The mechanical reality is that human beings require both arms for effective back defense: one to fight the choking hand, one to create frames and break connections. Remove one arm from this equation and the defensive task becomes geometrically more difficult rather than arithmetically. The escape hierarchy must be religiously observed: first, prevent immediate submission through neck protection with the remaining arm; second, work to recover the trapped arm through hip movement and shoulder rotation rather than pulling with the trapped arm itself; third, address the back position through systematic hip escaping. Students must understand that explosive movements without proper angles are merely energetic displays of panic rather than technical escapes. The key mechanical insight is that the trapped arm becomes free not through pulling but through changing the angular relationship between your shoulders and your opponent's control line.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Gift Wrap Bottom is one of the positions where you need to be honest with yourself about how bad the situation is. I see a lot of people try to tough it out and look for miracle escapes, but the reality is once someone has you here and knows what they're doing, you're in serious trouble. Your one-arm defense against the choke needs to be absolutely rock solid because you're not recovering that trapped arm if you get choked out first. What works for me when I end up here - which is rare but it happens - is staying patient and waiting for them to make a mistake. Usually that means they try to advance to mount or go for the armbar on my free arm. That's when you have a window because they have to loosen something to transition. The hip escape needs to be explosive and timed perfectly to that moment. Don't waste energy making random escape attempts when they're settled in the position. And honestly, if someone really good has you in Gift Wrap, sometimes the smartest competitive decision is to accept the position is too bad and look to start the next exchange fresh rather than exhaust yourself in a low-percentage escape battle.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Gift Wrap is gnarly because it's like they've got one of your arms in a straight jacket while they're on your back - you're basically half-disabled trying to fight off submissions. The traditional back escape stuff doesn't really work here because all those escapes assume you have both arms available. What I like to teach is the commitment to getting to turtle as your primary escape. You're not going to delicately hip escape your way out of a good Gift Wrap, you need to make a big move. My guys practice rolling hard to turtle even if it feels like you're giving up position - because turtle with both arms free is infinitely better than Gift Wrap Bottom. The key is timing it when they're hunting for the finish. They go for the rear naked choke hard, that's when you roll to turtle. They try to jump on the armbar, that's when you roll to turtle. Some people will say turtle is a bad position, but it's a palace compared to Gift Wrap Bottom. Also don't sleep on the idea of grabbing their leg with your free arm and doing almost like a rolling kneebar motion to break them off your back - it's low percentage but sometimes desperation moves are all you've got and it can create chaos which is better than slowly getting finished.
 

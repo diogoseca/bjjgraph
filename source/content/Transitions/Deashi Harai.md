@@ -159,14 +159,10 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
 
 
 
-> Deashi Harai transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Deashi Harai?
 
 Deashi Harai, also known as the advanced foot sweep, is a foundational Judo technique that has been successfully integrated into modern Brazilian Jiu-Jitsu standup game. This technique exploits the opponent's forward momentum and weight transfer, using precise timing to sweep their leading leg as it advances. Unlike more forceful throws, Deashi Harai relies on perfect synchronization between grip control, body positioning, and the sweeping action of your foot against the opponent's ankle or lower shin.
 
@@ -209,7 +205,7 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish and test grips**: Secure a same-side sleeve grip with your lead hand and a collar or lapel grip with your rear hand. Apply light pulling pressure to test opponent's reaction and weight distribution. Your sleeve grip should be firm but not telegraphing, positioned near the elbow or mid-forearm for maximum control. (Timing: Initial engagement phase)
 2. **Create forward movement**: Use subtle pulling motions with both grips to encourage your opponent to step forward with their lead leg. This can be achieved through small circular movements or by taking a slight backstep yourself, inviting them to pursue. The goal is to get them to commit weight onto their advancing foot without making your intention obvious. (Timing: Setup phase, 1-2 seconds)
 3. **Position for sweep angle**: As opponent steps forward, pivot slightly on your rear foot to create a 45-degree angle to their centerline. Your body should be positioned so your sweeping leg (typically the leg on the same side as your collar grip) has a clear path to their advancing ankle. Maintain upright posture throughout this adjustment. (Timing: As opponent commits weight forward)
@@ -306,7 +302,7 @@ Integrate Deashi Harai into your overall standup strategy, using it as part of c
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical timing element for successful execution of Deashi Harai?
 **A**: The most critical timing element is catching the opponent's lead foot at the exact moment it plants and begins accepting their weight. If you sweep too early (while the foot is still in the air), there's no base to remove. If you sweep too late (after weight is fully settled), they can adjust and maintain balance. The optimal moment is the instant of contact when their commitment is irreversible but their structure is still vulnerable.
 

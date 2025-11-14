@@ -147,14 +147,12 @@ description: "Master the Baseball Bat Choke in BJJ. Devastating collar choke fro
 
 
 
-> Baseball Bat Choke is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Baseball Bat Choke targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Baseball Bat Choke?
 
 The Baseball Bat Choke is a powerful collar-based blood choke executed primarily from top control positions. Named for the grip configuration that resembles holding a baseball bat, this technique creates a highly effective compression of the carotid arteries through crossed collar grips. The Baseball Bat Choke is particularly effective because it allows the attacker to maintain superior position while applying the submission, making it difficult for opponents to escape once the grips are secured. The technique works by using one hand deep in the collar near the opponent's far shoulder while the other hand grips high on the near collar, creating a scissoring action that cuts off blood flow to the brain. Unlike many collar chokes that require specific positioning, the Baseball Bat Choke can be applied from multiple top positions including side control, north-south, turtle, and transitional scrambles. The crossed-hands configuration generates tremendous pressure with relatively little effort, making it accessible to practitioners of all sizes and strength levels. The submission is highly reliable in gi competition and represents a fundamental finishing option that every BJJ practitioner should master as part of their attacking arsenal from dominant positions.
 
@@ -236,7 +234,7 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Far Collar Grip**: From side control or turtle top position, reach across opponent's neck and feed your hand deep into the far collar. Your thumb should be inside the collar, with your grip as deep as possible near the opponent's far shoulder. This is your primary choking hand and must be secured before proceeding. The deeper the grip, the more effective the choke will be. (Timing: Take 2-3 seconds to work the grip as deep as possible) [Pressure: Moderate]
 2. **Secure Near Collar Grip**: With your opposite hand, grip high on the near collar with your palm facing down. This grip should be at or above the opponent's jaw line, creating the top portion of the baseball bat configuration. Your hands should now be crossed with the far-side grip deep and the near-side grip high, resembling the hand position on a baseball bat. (Timing: 1-2 seconds after securing far grip) [Pressure: Light]
 3. **Position Hips and Weight**: Drive your hips forward and down, placing your weight on the opponent's upper body and shoulder. Your chest should be heavy on their shoulder, preventing them from turning toward you or creating space. This weight distribution is critical as it immobilizes the opponent while you apply the choke. Keep your base wide with your legs sprawled to prevent being rolled. (Timing: Simultaneous with grip securing) [Pressure: Firm]
@@ -304,7 +302,7 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the baseball bat choke effective compared to other collar chokes?
 **A**: The crossed-hands configuration creates a scissoring action where the elbows drive toward the centerline from opposite directions, creating powerful compression of the carotid arteries with relatively little effort. The baseball bat grip allows the forearms to act as levers, multiplying the force applied to the collar while maintaining superior top position.
 

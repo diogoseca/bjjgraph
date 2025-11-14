@@ -153,14 +153,10 @@ description: "Master the Ankle Pick Sweep from seated guard. Step-by-step execut
 
 
 
-> Ankle Pick Sweep transitions from [[Seated Guard]] to [[Standing Position]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Ankle Pick Sweep?
 
 The Ankle Pick Sweep is a fundamental technique from seated guard that exploits the opponent's standing posture through precise grip control and off-balancing mechanics. This sweep targets the opponent's base by controlling their ankle while simultaneously disrupting their upper body balance, creating a powerful lever system that dumps them to the mat.
 
@@ -203,7 +199,7 @@ This sweep serves as a cornerstone technique in modern no-gi grappling and has b
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish upper body control**: From seated guard, secure a dominant grip on the opponent's collar, wrist, or sleeve. Your grip should be on the same side as the ankle you intend to attack. Pull this grip slightly to get the opponent leaning forward and to test their balance. Keep your chest up and maintain an active seated posture with your free hand ready to post behind you if needed. (Timing: Initial setup - establish before opponent begins their passing attempt)
 2. **Create angular movement**: Shift your hips at an angle away from the leg you're attacking while maintaining your upper body grip. This lateral hip movement serves two purposes: it creates space for your attacking hand to reach the ankle, and it begins to off-balance the opponent by pulling them in one direction while you move in another. Your shoulders should rotate with your hips to maintain pulling tension. (Timing: As opponent steps forward or shifts weight)
 3. **Secure ankle grip**: Reach your free hand to grip the opponent's ankle on the opposite side from your upper body control. Use a cupping grip with your palm on the Achilles tendon and your fingers wrapped around the front of the ankle. The grip should be firm and positioned as low on the ankle as possible, near the heel, to maximize leverage. Your thumb should point downward toward the mat. (Timing: When opponent's weight shifts onto the target leg)
@@ -301,7 +297,7 @@ Incorporate ankle pick sweep into your overall seated guard system. Practice swi
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that makes the ankle pick sweep effective?
 **A**: The ankle pick sweep works by creating opposing forces - pulling the upper body in one direction while sweeping the ankle in the opposite direction. This creates a diagonal, rotational force that removes the opponent's base and makes it mechanically impossible to resist the sweep without posting hands or moving their feet, both of which create openings for follow-up attacks.
 

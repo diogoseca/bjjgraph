@@ -147,14 +147,12 @@ description: "Master the Kneebar Finish in BJJ. Complete guide covering knee iso
 
 
 
-> Kneebar Finish is a leg lock targeting the Knee joint (posterior cruciate ligament, medial/lateral collateral ligaments, joint capsule). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kneebar Finish targets the Knee joint (posterior cruciate ligament, medial/lateral collateral ligaments, joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kneebar Finish?
 
 The Kneebar Finish represents one of the most mechanically efficient lower body submissions in Brazilian Jiu-Jitsu, targeting the knee joint through hyperextension. Unlike other leg locks that attack the ankle or heel, the kneebar directly challenges the structural integrity of the knee by creating extension beyond its natural range of motion. The finishing mechanics require precise control of the opponent's leg, proper hip placement, and a systematic breaking angle that isolates the knee joint while preventing defensive rotation. This submission appears across multiple positional contexts—from ashi garami variations to top positions—making it a versatile finishing option within modern leg lock systems. The kneebar's effectiveness stems from its ability to create mechanical disadvantage quickly once proper alignment is achieved, though it requires careful attention to safety protocols due to the vulnerability of the knee joint. Understanding the distinction between control position and finishing mechanics is essential, as premature breaking attempts often result in escapes or positional loss.
 
@@ -240,7 +238,7 @@ The Kneebar Finish represents one of the most mechanically efficient lower body 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure Foot Control**: Grip opponent's foot firmly and pull it tight to your chest or armpit, ensuring their toes point toward your head. This foot position is critical—if the foot is not secured to your body, rotational escape becomes possible. Your grip should use both hands initially, with thumbs pointing toward their toes, creating maximum friction and control. The foot must become an extension of your torso, moving as one unit with your body. (Timing: 2-3 seconds of deliberate adjustment) [Pressure: Firm]
 2. **Establish Leg Triangle**: Configure your legs into a secure triangle around opponent's leg. Your inside leg (closest to their body) hooks over their thigh, while your outside leg crosses over your own ankle or shin, locking the triangle closed. This triangle prevents them from rotating their knee away from danger and ensures your hips remain connected to their leg throughout the finish. The triangle should be tight enough that they cannot create space, but not so tight that it restricts your hip mobility for the breaking mechanics. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Hip Positioning and Alignment**: Adjust your hip position so that your centerline (the line from your head to your hips) is perpendicular to their body. Their knee should rest directly on your pubic bone or lower abdomen—this is the fulcrum point for the lever system. Your upper back must be flat on the mat, creating a stable platform. If your hips are too high or too low, the breaking angle becomes inefficient and escape becomes easier. Check that their knee cannot slide to either side of your hips. (Timing: 2-3 seconds of precise adjustment) [Pressure: Light]
@@ -310,7 +308,7 @@ The Kneebar Finish represents one of the most mechanically efficient lower body 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary source of breaking force in a properly executed kneebar finish?
 **A**: The primary breaking force comes from hip extension—driving your hips upward toward the ceiling while your upper back remains planted on the mat. This creates a lever system where the opponent's knee (positioned at your centerline) acts as the fulcrum, and your hip movement generates hyperextension of their knee joint. The arms exist only to control the foot position, not to generate breaking force. Many beginners make the error of trying to pull with their arms, which produces weak, ineffective pressure and often shifts the attack to the ankle rather than the knee. The proper finish feels like performing a bridge exercise while maintaining perfect foot control.
 

@@ -8,7 +8,7 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hip e
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hip e
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 50% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: -4 (Disadvantaged by 4 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Back Control from the Bottom?
 
 Back control bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you are being controlled from behind by an opponent who has established chest-to-back connection, hooks or body triangle, and upper body control through harness or similar grips. This position carries significant disadvantage as you cannot see your opponent's attacks, have limited mobility, and face immediate submission threats including rear naked choke, arm attacks, and various choke variations. In IBJJF competition, your opponent scores 4 points for achieving this position, and you face the additional pressure of defending against high-percentage submission attempts.
 
@@ -450,17 +431,17 @@ Partner establishes back control with both hooks but does not attack submissions
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 Defensive performance from back control requires accepting the fundamental disadvantage of the position while executing systematic defensive protocols that prioritize survival over escape. The hierarchy of defensive actions must be absolutely clear: neck protection supersedes all other considerations, hand fighting dominates your tactical focus until the choking threat is neutralized, and only then do you address the structural controls (hooks and chest pressure) that maintain the position. The common error is attempting escape before establishing defensive security, which typically results in submission during the escape attempt. My students drill a specific two-on-one grip configuration that provides maximum defensive effectiveness against the rear naked choke while maintaining enough mobility to begin escape sequences. The psychological component cannot be understated - maintaining calm controlled breathing and systematic defensive thinking under the pressure of back control separates those who survive from those who panic into submission. Understanding that small position improvements represent success creates realistic goals during defensive sequences.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 My defensive approach to back control emphasizes exceptional hand fighting that makes it extremely difficult for opponents to establish the deep grip required for rear naked choke. I use a specific framing and grip fighting system that controls the space in front of my neck while simultaneously working to remove hooks. The key distinction in my method is refusing to accept purely defensive postures - I'm constantly working small movements that disrupt opponent's balance and weight distribution even while defending submissions. Against body triangle, the defensive priorities shift because hook removal becomes much more difficult, requiring acceptance of extended defensive periods while managing energy efficiently. The mental aspect is critical at elite levels where opponents have exceptional back control - you must remain completely calm and patient, accepting that escape may take 60-90 seconds of systematic work rather than a single explosive movement. I specifically train defensive rounds where I start from terrible back control positions and must survive then escape against high-level training partners, building both technical defensive skills and mental resilience under pressure.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Back control defense in our system incorporates some unconventional escape methods that create opportunities opponents don't typically expect. The standard defensive approach of hand fighting and hip escape works, but we also practice more dynamic movements including rolling escapes and explosive granby rolls that can catch opponents off guard if timed correctly. The key is reading opponent's weight distribution - when they commit heavily to one side for choke attempt, that's often the moment for explosive rotational escape. For body triangle defense specifically, we have techniques that most traditional schools don't teach, focusing on creating specific angles that make the position uncomfortable for the opponent rather than trying to break the lock directly. The psychological game is important - making opponents feel like their back control isn't as secure as they think through constant movement and defensive activity can cause them to rush submission attempts prematurely, creating escape windows. However, the fundamentals still matter - protecting your neck is non-negotiable no matter what escape system you're using. We drill defensive scenarios extensively because back control is where matches are often lost, making defensive competency absolutely essential.
 

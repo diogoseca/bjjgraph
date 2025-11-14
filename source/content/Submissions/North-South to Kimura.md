@@ -147,14 +147,12 @@ description: "Master the North-South to Kimura transition in BJJ. Complete guide
 
 
 
-> North-South to Kimura is a shoulder lock targeting the Shoulder joint (rotator cuff and ligaments). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: North-South to Kimura targets the Shoulder joint (rotator cuff and ligaments). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is North-South to Kimura?
 
 The North-South to Kimura represents a highly effective transitional submission that exploits the inherent control advantages of the north-south position. This technique capitalizes on the opponent's natural defensive reactions when pinned in north-south, specifically their tendency to push or frame against the top player's hips and torso. The submission works by isolating the defending arm, securing the double-wrist grip characteristic of the kimura lock, and applying rotational pressure to the shoulder joint through controlled hip movement and proper positioning. What makes this particular entry so effective is the angle of attack - from north-south, the attacker can generate tremendous leverage while the defender's escape options are severely limited. The position naturally restricts the opponent's ability to roll out or extract their trapped arm, creating a high-percentage finishing opportunity. This technique is particularly valuable in gi and no-gi competition, as it can be applied from various north-south control positions and chains effectively with other submissions like the north-south choke and various arm attacks.
 
@@ -240,7 +238,7 @@ The North-South to Kimura represents a highly effective transitional submission 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure North-South Control**: Establish dominant north-south position with your chest driving into opponent's chest. Your hips should be low and heavy, preventing their bridging or hip escape. Control the near arm by gripping their wrist with your same-side hand. Apply steady chest pressure to restrict their breathing and movement while keeping your base wide and stable. (Timing: 2-3 seconds to establish solid control) [Pressure: Firm]
 2. **Isolate the Near Arm**: Pull the opponent's near arm away from their body by lifting their wrist while maintaining wrist control. Their natural reaction will be to push or frame against your hips. Use this reaction to your advantage by allowing slight extension of their arm while preventing them from pulling the elbow back to their body. Your grip on their wrist should be firm but not squeezing excessively. (Timing: 1-2 seconds) [Pressure: Moderate]
 3. **Thread for Figure-Four Grip**: While maintaining wrist control with your near hand, thread your far arm under their trapped arm, reaching across to grab your own wrist. Form the characteristic kimura figure-four grip with your wrists connecting. Your controlling hand should grip your opposite wrist from above, creating maximum structural strength. Ensure your forearm is positioned against their elbow, creating the fulcrum point for the leverage. (Timing: 2-3 seconds to secure proper grip) [Pressure: Moderate]
@@ -306,7 +304,7 @@ The North-South to Kimura represents a highly effective transitional submission 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the minimum application time for the kimura rotation in training to ensure safety? **[SAFETY-CRITICAL]**
 **A**: The kimura rotation should be applied slowly and progressively over a minimum of 3-5 seconds in training. This allows the training partner adequate time to recognize the danger, feel the pressure building, and tap safely before injury occurs. Competition speed should never be used in training for shoulder locks due to the high risk of serious injury including rotator cuff tears and shoulder dislocation.
 

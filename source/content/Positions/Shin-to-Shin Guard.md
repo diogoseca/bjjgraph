@@ -8,7 +8,7 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Shin-to-Shin Guard?
 
 Shin-to-Shin Guard represents a sophisticated intersection between traditional open guard concepts and modern leg entanglement systems. This position is characterized by the guard player placing their shin across the opponent's same-side shin, creating a perpendicular connection point that serves multiple strategic purposes. Unlike passive guard positions that simply create barriers, shin-to-shin actively compromises the opponent's base through constant angular pressure and leverage manipulation. The position excels in several key areas: distance management against aggressive standing passers, entry pathways to powerful positions like single leg X-guard and X-guard, and immediate threatening potential through off-balancing sweeps. Modern Brazilian Jiu-Jitsu has elevated shin-to-shin from a transitional position to a cornerstone of guard retention and attack systems, particularly in no-gi competition where traditional grip-based guards are less effective. The position's power derives from its ability to create dilemmas—opponents who attempt to clear the shin connection open entries to leg entanglements, while those who maintain distance allow the guard player to dictate engagement range and set up technical attacks. High-level competitors utilize shin-to-shin as part of integrated guard systems, flowing seamlessly between this position and related guards based on opponent reactions. The shin connection itself acts as both a defensive barrier preventing forward pressure and an offensive tool for generating sweep mechanics through off-balancing. Understanding shin-to-shin requires grasping its role within the broader guard retention ecosystem—it's not meant to be held statically but rather used dynamically as a launching pad for transitions and attacks. The position's effectiveness scales dramatically with technical proficiency, as advanced practitioners can maintain the connection while simultaneously controlling upper body positioning and anticipating defensive reactions.
 
@@ -46,7 +44,7 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -60,7 +58,7 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 
-**What Makes This Unique:** Perpendicular shin connection for sweeps
+**Key Difference:** Perpendicular shin connection for sweeps
 
 
 
@@ -72,10 +70,6 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ## Playing as Bottom
 
 [[Shin-to-Shin Guard/Bottom|→ Full Bottom Guide]]
-
-
-Balance defense with offense. Frame when they attack, sweep when they over-commit.
-
 
 ### Key Principles
 
@@ -170,10 +164,6 @@ Balance defense with offense. Frame when they attack, sweep when they over-commi
 
 [[Shin-to-Shin Guard/Top|→ Full Top Guide]]
 
-
-You have the advantage. Maintain control, hunt submissions, advance position.
-
-
 ### Key Principles
 
 
@@ -253,7 +243,6 @@ You have the advantage. Maintain control, hunt submissions, advance position.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

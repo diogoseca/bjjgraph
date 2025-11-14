@@ -147,14 +147,12 @@ description: "Master the Heel Hook Dilemma in BJJ. Strategic finishing system fr
 
 
 
-> Heel Hook Dilemma is a leg lock targeting the Knee joint, ankle joint, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause Lateral collateral ligament (LCL) tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Heel Hook Dilemma targets the Knee joint, ankle joint, and surrounding ligaments. Risk: Lateral collateral ligament (LCL) tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Heel Hook Dilemma?
 
 The Heel Hook Dilemma is an advanced leg lock system that creates a binary choice for the opponent where both defensive options lead to submission opportunities. Originating from the modern leg entanglement game, this technique forces the opponent to choose between defending the heel hook or defending alternative attacks like the calf slicer or straight ankle lock. The dilemma is fundamental to high-level leg lock systems because it exploits the opponent's defensive instincts to create finishing opportunities. Unlike isolated submission attempts, the heel hook dilemma operates as a systematic approach where the primary heel hook threat forces reactions that open secondary attacks. This conceptual framework has revolutionized modern no-gi grappling, particularly through the work of the Danaher Death Squad and subsequent evolution by Craig Jones and the B-Team. The dilemma principle applies across multiple leg entanglement positions including saddle, inside ashi-garami, and 50-50 guard. Proper execution requires deep understanding of leg positioning, hip mechanics, and timing to seamlessly transition between submission threats.
 
@@ -243,7 +241,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish dominant leg entanglement**: Secure saddle position or inside ashi-garami with opponent's leg fully controlled between your legs. Your outside leg crosses over opponent's hip, inside leg controls behind their knee. Hip-to-hip connection is mandatory - no space between your hip and their trapped leg. Opponent's foot should be positioned near your opposite hip or secured in armpit. (Timing: Take 3-5 seconds to establish perfect positioning) [Pressure: Moderate]
 2. **Secure heel grip and establish primary threat**: Cup opponent's heel with your outside arm, fingers wrapping around heel with thumb on Achilles tendon. Palm should be on inside of heel. Elbow stays tight to ribs - never allow arm to extend away from body. Inside arm controls opponent's upper body or posts on mat for base. The heel grip itself creates the primary finishing threat. (Timing: 2-3 seconds for secure grip establishment) [Pressure: Light]
 3. **Extend hips to create initial pressure**: Drive your hips forward toward opponent while maintaining heel grip. This hip extension creates the first layer of the dilemma - opponent feels pressure building on knee joint. Do not rotate yet - pure extension first. This forces opponent to either accept the building pressure or attempt to create space by pushing your hips away or pulling their leg out. (Timing: Slow, progressive pressure over 4-5 seconds) [Pressure: Moderate]
@@ -308,7 +306,7 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What are the two primary defensive reactions that create the heel hook dilemma, and which submission does each reaction open?
 **A**: The two primary defensive reactions are: (1) Creating space by pushing the attacker's hips away, which opens the calf slicer because it straightens the leg across the attacker's shin; and (2) Turning into the pressure or internally rotating the leg, which actually increases the heel hook's effectiveness by adding torsion to the knee joint. The dilemma exists because both defensive options lead to submission opportunities rather than escape.
 

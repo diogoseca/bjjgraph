@@ -153,14 +153,10 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 
 
 
-> Rolling Back Take transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rolling Back Take?
 
 The Rolling Back Take is a dynamic and highly effective transition from top turtle position to back control. This technique exploits the opponent's defensive posture by using momentum and timing to roll over their shoulder, landing directly on their back with control. Unlike static back takes that rely on breaking down the turtle position incrementally, the rolling back take uses explosive movement to bypass defensive frames entirely. This technique is particularly valuable when the opponent maintains a strong defensive turtle with their elbows tight to their knees, making traditional hook insertions difficult. The rolling back take requires precise timing, spatial awareness, and the ability to maintain connection throughout the roll. When executed correctly, it provides immediate access to high-value control positions and submission opportunities, making it a favorite among competitors at all levels.
 
@@ -199,7 +195,7 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish upper body control**: From top turtle, secure a strong grip on the opponent's far shoulder with your near arm reaching under their armpit, while your other hand controls their near shoulder or wraps around their head. Your chest should be heavy on their upper back, preventing them from standing up. (Timing: Maintain this control until opponent settles into a static defensive position)
 2. **Load your weight onto opponent**: Shift your bodyweight forward and slightly to the side you intend to roll, loading your chest onto the opponent's upper back and shoulder. Your head should be positioned tight to their shoulder blade with your chin tucked. This loading creates the foundation for the rolling momentum. (Timing: Execute when opponent pushes back or remains static)
 3. **Initiate the roll**: Drive forward over the opponent's shoulder while pulling their far shoulder toward you. Simultaneously tuck your chin and begin the forward roll, using your head and shoulder to guide the rotation. Your hips should follow in a smooth arc over the opponent's shoulder line. (Timing: Commit fully to the roll in one explosive motion)
@@ -291,7 +287,7 @@ Incorporate the rolling back take into live rolling from top turtle position. Pa
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the most critical element to maintain throughout the rolling back take?
 **A**: The most critical element is maintaining constant upper body connection with the opponent throughout the entire rotation. If you release your grips or allow separation during the roll, the opponent can easily escape and the technique fails. Your arms should remain locked around their shoulder/head throughout the 180-degree rotation.
 

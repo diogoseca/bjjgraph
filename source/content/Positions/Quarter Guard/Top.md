@@ -8,7 +8,7 @@ description: "Master Quarter Guard Top in BJJ. Complete guide covering passing s
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master Quarter Guard Top in BJJ. Complete guide covering passing s
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 45%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Quarter Guard from the Top?
 
 Quarter Guard Top represents an advanced passing position where the top player has achieved significant pass progress by getting their knee past the bottom player's hip line while the bottom player maintains limited defensive control with one leg partially controlling the passer's lower body. This position sits between traditional half guard top (where bottom player has one full leg trapped) and complete passing positions like side control, representing a critical transitional state in the guard passing sequence. Unlike full half guard where the trapped leg provides substantial control, quarter guard control is minimal—typically just the bottom player's knee shield or hook preventing the final pass completion. The position creates significant offensive advantages for the top player who has superior positioning, weight distribution opportunities, and multiple passing pathways available.
 
@@ -499,17 +478,17 @@ Flow rolling from quarter guard top where partner randomly varies their defensiv
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Quarter guard top represents what I term a 'critical decision point' in the guard passing hierarchy—a position where the mechanical advantages have shifted decisively in favor of the passer by approximately three to one ratio, but technical execution remains essential for position completion without errors. The biomechanics of quarter guard are instructive for understanding passing principles: the bottom player's primary defensive tool (the leg entanglement providing frames and sweep leverage) has been reduced to minimal contact, typically just a weakened knee shield or partial hook that provides insufficient leverage for effective frames or sweeping mechanics. At this juncture, the passer's hip position relative to the opponent's center line becomes the determining factor—if your hips are truly past their hip line with proper angle and pressure distribution, the pass is mechanically inevitable unless you make technical errors in execution or timing. The key systematic error I observe in quarter guard top is what I call 'premature commitment syndrome'—passers feel the position slipping away and rush to complete the pass without proper preparation of crossface and frame elimination. Instead, take the extra one to two seconds to ensure crossface is established properly, near-side arm is controlled or neutralized, and your base is secure against sweep attempts. Then, when you commit to the final slide across their center line, there should be no resistance worth noting. The position should feel biomechanically like pushing a door that's already ajar rather than forcing one that's locked and barricaded.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Quarter guard top is a position where I expect immediate pass completion within five seconds in most competitive situations—if I'm spending more than ten seconds here without finishing the pass, I know something is technically wrong with my execution or decision-making process. The biggest thing people miss in quarter guard is that it's not really about strength or static pressure at this point in the passing sequence; it's about timing recognition and angle optimization. Their defensive structure is already broken if you've achieved true quarter guard position, so your job is simply to slide your knee across their center line at the exact moment their last bit of resistance fails completely. I focus heavily on the hip sliding mechanics in this position, making sure my passing knee stays mobile and ready to advance instantly rather than getting stuck in static pressure. When I feel their knee shield drop even slightly or their near-side frame weakens from fatigue or positional compromise, I'm immediately sliding through to side control—there's no hesitation, no waiting, no second-guessing the timing. In competition at black belt level, I view quarter guard as basically already having passed their guard; I'm just executing the final formality of getting my hips fully across their centerline. My passing success rate from quarter guard is probably above ninety percent because I treat it as a transitional position that should be completed within three to five seconds, not a position to hold and control for extended periods. If you're holding quarter guard for extended time, you're either not truly in proper quarter guard position or you're being too passive with your pass completion timing.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Quarter guard top is one of those positions where you need to stay mentally sharp because the bottom player, especially someone trained in 10th Planet lockdown and electric chair systems, might be using it as a tactical trap to get to lockdown submission threats, electric chair setups, or even to start a truck entry sequence if you're not careful with your leg positioning. I've had competitors let me recover quarter guard thinking they're in dominant passing position, then I hit them with the old school sweep or transition to deep half because they got complacent with their pressure application. When I'm teaching quarter guard top in seminars, I emphasize staying aware that your opponent might be baiting you—they might be letting you think you're close to passing so you commit your weight in a way they can exploit for sweeps or leg attacks. That said, if you've got real quarter guard top with good crossface established and they're flat without mobility, you should be finishing that pass immediately within five seconds. What I call 'dynamic quarter guard pressure' is key for no-gi especially—don't just sit there heavy and static, keep your pressure moving and shifting so they can't time their defensive movements or set up unconventional escapes like the truck or electric chair. In no-gi especially, quarter guard top can be slippery as hell, so you need more active hip control and crossface pressure than in gi where you have grip advantages. The leg control is already minimal, so if your upper body control isn't tight and constant, they can slip out or attack with leg locks. My approach is to finish fast from quarter guard—the longer you stay there, the more chances they have to do something weird that catches you off guard.
 

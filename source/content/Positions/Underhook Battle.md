@@ -8,7 +8,7 @@ description: "Master the underhook battle in BJJ. Complete guide to grip fightin
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -175,29 +175,10 @@ description: "Master the underhook battle in BJJ. Complete guide to grip fightin
 
 
 
-> **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
->
-> **Quick Stats**: Advanced practitioners advance to better positions 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (Neutral)
-- **Position Type**: Neutral
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Underhook Battle?
 
 The underhook battle represents a critical neutral position in Brazilian Jiu-Jitsu where both practitioners compete for underhook control, typically occurring in half guard, turtle, clinch, and scramble situations. This position is characterized by intense grip fighting where securing the underhook provides significant tactical advantages including back access, sweep opportunities, and passing control. The underhook battle is fundamentally asymmetric—whoever achieves the underhook first gains offensive initiative while their opponent must either fight to regain parity or accept a defensive posture.
 
@@ -534,17 +515,17 @@ One player establishes underhook, partner applies whizzer counter. First player 
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Approach
+### John Danaher
 
 The underhook battle represents a fundamental biomechanical hierarchy in grappling—whoever achieves deeper underhook position controls the geometric relationship between both bodies and dictates subsequent positional outcomes. The underhook provides structural access to the opponent's back, which is the most dominant control position in our sport. From a systematic perspective, underhook depth correlates directly with back exposure—shallow underhooks provide limited offensive potential, while deep underhooks with the elbow past the opponent's centerline create immediate back-taking opportunities. The critical error most athletes make is treating the underhook as a static achievement rather than a dynamic gateway requiring immediate exploitation. Superior grapplers understand that underhook control must be instantly converted into hip control, head control, or direct back access within two to three seconds, otherwise the opponent's defensive structures will neutralize the advantage. The underhook battle is won not merely by achieving the grip, but by understanding the subsequent chain of attacks that flow from that structural advantage.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, the underhook battle determines who controls the pace and direction of the entire match, especially in no-gi where grip options are limited. I've won countless matches by simply being more aggressive and technical in securing the underhook first from half guard, turtle, or standing positions. The key is understanding that the underhook isn't just about the arm position—it's about immediately using that connection to break your opponent's posture, expose their back, and advance to dominant control. When I get the underhook from half guard, I'm not thinking about holding it; I'm already moving to deep half, taking the back, or sweeping within the same motion. Against elite opponents, hesitation after securing the underhook is the difference between scoring and getting countered with a whizzer into a terrible position. My most effective strategy is combining underhook pressure with constant hip movement and head control—this prevents opponents from establishing their defensive frames and forces them to react to my offense rather than implementing their own game plan. The underhook battle is a race, and the first person to convert their grip into positional advancement wins.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The underhook battle is where creativity and unorthodox techniques really shine, especially in the 10th Planet system where we use it as a gateway to lockdown, electric chair, and truck positions. Traditional BJJ teaches the underhook primarily for back takes and sweeps, but we've expanded it into a whole subsystem of control that leads to unique submissions and positional hierarchies. From half guard bottom with the underhook, you can transition into lockdown to control distance, then use the underhook to set up old school sweeps or even electric chair attacks. The beauty of the underhook is that it gives you offensive control even from supposedly 'bad' positions like bottom half guard or turtle. One of my favorite innovations is using the underhook to set up the twister system—when you have the deep underhook from turtle or dogfight, you can transition directly into the truck position and start hunting for calf slicers and twisters. Most guys don't expect that chain of attacks. The underhook battle isn't just about getting to someone's back the traditional way; it's about opening up an entire universe of offensive possibilities that your opponent isn't prepared for. Think outside the box and chain the underhook into your most creative techniques.
 

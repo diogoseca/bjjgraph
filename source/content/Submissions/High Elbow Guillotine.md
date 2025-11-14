@@ -153,14 +153,12 @@ description: "Master High Elbow Guillotine in BJJ. Complete guide with safety pr
 
 
 
-> High Elbow Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: High Elbow Guillotine targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is High Elbow Guillotine?
 
 The High Elbow Guillotine is a devastating blood choke that targets the carotid arteries through precise elbow positioning and shoulder pressure. Distinguished from the traditional arm-in guillotine by its mechanics, this variation achieves superior control and finishing power by elevating the choking elbow above the opponent's shoulder line while driving the non-choking shoulder into their neck. The technique excels in both standing and ground scenarios, making it a versatile weapon across all grappling contexts. Its effectiveness stems from the biomechanical advantage created when the high elbow position redirects force directly into the carotid arteries rather than relying primarily on forearm compression. The submission can be entered from numerous positions including standing clinch exchanges, failed takedown attempts, and guard pulls, making it an essential component of any complete submission system. Modern competitive grapplers favor this variation for its reliability under pressure and its capacity to finish opponents who successfully defend traditional guillotine mechanics.
 
@@ -245,7 +243,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure deep guillotine grip**: From front headlock position, slide your choking arm deep around opponent's neck with your wrist reaching past the opposite side of their neck. Your grip should be palm-up with the blade of your wrist against their trachea/carotid area. Connect your hands using wrist-to-wrist grip (no-gi) or palm-to-palm with gi grips, ensuring your grip is tight before proceeding to the next step. (Timing: 1-2 seconds) [Pressure: Light]
 2. **Elevate choking elbow above shoulder line**: This is the defining characteristic of the high elbow variation. Drive your choking-side elbow upward and backward, positioning it above the plane of opponent's shoulder. Your forearm should now be angled diagonally across their neck rather than horizontal. This elevation redirects pressure into the carotid arteries and creates the proper angle for the finish. Keep your grip tight as you elevate to prevent opponent from pulling their head free. (Timing: 1 second) [Pressure: Moderate]
 3. **Drive non-choking shoulder into opponent's neck**: Your non-choking shoulder becomes a critical pressure point in this variation. Drive this shoulder forcefully into the opposite side of opponent's neck, effectively creating a vice between your forearm and your shoulder. This shoulder pressure closes the angle and prevents opponent from turning into you to escape. Your shoulder should make contact with the side of their neck near the carotid, not their face or jaw. (Timing: Simultaneous with step 2) [Pressure: Firm]
@@ -320,7 +318,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary distinguishing characteristic of the high elbow guillotine compared to traditional guillotine variations?
 **A**: The primary distinguishing characteristic is the elevation of the choking elbow above the opponent's shoulder line, which redirects pressure into the carotid arteries rather than relying primarily on tracheal compression. This elbow positioning, combined with aggressive shoulder pressure from the non-choking side, creates a more effective blood choke with better control and higher finishing percentage.
 

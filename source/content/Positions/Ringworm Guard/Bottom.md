@@ -8,7 +8,7 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 65% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive with offensive options
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Medium to Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Ringworm Guard from the Bottom?
 
 Ringworm Guard Bottom is an advanced lapel guard variation that originated from the Worm Guard system popularized by Keenan Cornelius. The position involves threading the opponent's lapel around their leg while maintaining control from bottom guard, creating a powerful control system that limits the top player's mobility and creates numerous sweeping and back-taking opportunities. The name derives from the lapel configuration that wraps around the opponent's leg like a parasite, hence the creative nomenclature consistent with the Worm Guard family.
 
@@ -438,17 +419,17 @@ With cooperative partner in Ringworm Guard configuration, flow through all avail
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The Ringworm Guard represents a sophisticated application of lapel control theory where we convert the opponent's gi into a mechanical disadvantage that systematically restricts their movement options. The biomechanics are fascinating - by threading the lapel around their leg, we create a closed loop system where any attempt to extract the leg actually tightens the control mechanism. The key technical principle is understanding that the lapel wrap serves as both a distance management tool and a directional control device. When properly configured, it forces the opponent into predictable defensive patterns that we can exploit with pre-planned sweeping sequences. The position requires precise understanding of leverage angles and weight distribution, as the success of attacks depends entirely on our ability to break their base while maintaining the integrity of the lapel configuration. This is not a position for beginners, as it demands high-level spatial awareness and fine motor control of multiple grips simultaneously.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 Ringworm Guard is one of those high-level gi positions that can completely shut down aggressive passers if you know what you're doing. In competition, I've seen Keenan use this to dominate world-class opponents because it creates such frustrating dilemmas for the top player. The reality is, once that lapel is wrapped around their leg, their passing options become extremely limited and they're forced to fight on your terms. My approach is to use it as a transitional position rather than a sustained guard - get the wrap, create immediate off-balancing, and then capitalize on their defensive reactions with back takes or sweeps. The triangle entries from Ringworm are particularly high-percentage because the lapel wrap naturally pulls their posture down and creates the angle you need. Don't overthink it - wrap, off-balance, attack. The position does the work for you if you maintain tension and stay aggressive with your sweeping attempts. It's also incredibly effective at burning time in competition if you're ahead on points.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 Ringworm is pure Keenan magic and it's a perfect example of how creative minds keep pushing BJJ forward. This position shows that we haven't figured everything out yet - someone can still come along and invent entirely new control systems using parts of the gi we never thought to manipulate. From a 10th Planet perspective, we don't train this in no-gi obviously, but the conceptual lesson is valuable: look for unconventional control points and create systems around them. What I love about Ringworm is that it completely violates your opponent's expectations. They're not used to defending against a guard where their own clothing is actively working against them. It's psychological warfare combined with technical innovation. If you're training gi, this is the kind of position that makes you dangerous because most people haven't developed specific defenses against it. The learning curve is steep but the payoff is huge - you become the guy who has these weird guards that nobody knows how to pass, and that's a huge competitive advantage in the modern game.
 

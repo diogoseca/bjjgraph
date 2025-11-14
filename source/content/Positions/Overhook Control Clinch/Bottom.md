@@ -8,7 +8,7 @@ description: "Master bottom overhook control clinch in BJJ. Defensive strategies
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master bottom overhook control clinch in BJJ. Defensive strategies
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 60% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: Medium
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short to Medium
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Overhook Control Clinch from the Bottom?
 
 The Overhook Control Clinch Bottom position occurs when you are standing and your opponent has secured an overhook on one of your arms while maintaining upper body control. This is fundamentally a defensive standing position where you must work to neutralize the opponent's control, prevent takedowns, and create opportunities to reverse position or establish your own grips. The overhook is a powerful controlling tool that can lead to various takedowns, throws, and transitions to dominant positions, making this a challenging position that requires strong defensive awareness and technical precision.
 
@@ -455,17 +436,17 @@ Start with opponent having overhook. Bottom player wins by achieving back contro
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The overhook control clinch from bottom is fundamentally about understanding leverage disadvantage and systematically working to neutralize it. The opponent has created a mechanical advantage by controlling one of your primary frames and limiting your ability to create distance or establish superior grips. Your defensive strategy must be built on three pillars: first, preventing the opponent from converting their grip advantage into positional advancement through takedowns or throws by maintaining proper hip positioning and base; second, systematically attacking their grip structure through wrist control, circular motion, and underhook pursuit; and third, creating offensive opportunities through their commitment to maintaining the overhook. The key biomechanical principle is that the overhook, while powerful, requires the opponent to commit significant upper body connection which can be exploited through arm drags, snap downs, and duck unders if you maintain proper timing and angle creation. Study how the trapped arm becomes your opponent's anchor point - when they commit to controlling it, they sacrifice mobility and create predictable patterns you can exploit.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 When I'm caught in an overhook bottom position, my immediate priority is either establishing the underhook on the free side or creating an angle for an arm drag to the back. In competition, I've found that most opponents with an overhook are thinking about their takedown entry and aren't defending their back properly. If I can't get the underhook right away, I'm circling hard away from the overhook side and looking to either snap them down to front headlock or time an arm drag when they step forward. The worst thing you can do is stand there static - you need constant movement and pressure on their grips. If none of my primary options are there and they're really closing distance, I'm pulling guard on my terms rather than getting taken down on theirs. The position is definitely defensive, but there are real opportunities to attack if you stay calm and work your escapes systematically. Remember that every time they try to throw or take you down, they're creating windows for counters - you just have to recognize them.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The overhook bottom clinch is one of those positions where you've got to think unconventional because the traditional wrestling exchanges might not be your strong suit. I teach my guys to immediately look for the duck under or arm drag because those are movements that can work even if you're not the stronger wrestler. If the opponent is really locked in and you can't create the angle, don't be afraid to pull guard into something active like closed guard where you can work your rubber guard or triangle setups. The mistake I see people make is trying to out-wrestle a wrestler from a disadvantaged position - use your jiu-jitsu. If you can bait them into shooting by moving backward, hit that guillotine on the way down and you've turned a bad position into a submission opportunity. The key is staying creative and not getting locked into that stalling battle where the better wrestler just grinds you down. Your jiu-jitsu is your superpower - use it.
 

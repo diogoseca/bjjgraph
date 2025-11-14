@@ -8,7 +8,7 @@ description: "Master Stoner Control in BJJ. Advanced 10th Planet position with r
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Stoner Control in BJJ. Advanced 10th Planet position with r
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Stoner Control?
 
 Stoner Control is an advanced control position from the 10th Planet Jiu-Jitsu system that exists in two distinct variations: a rubber guard variant emphasizing posture breaking and submission setups, and a half guard lockdown variant focusing on sweeps and back attacks. Both variations share the core principle of using deep overhook control combined with leg entanglement to 'stone' or freeze the opponent's mobility while creating offensive opportunities.
 
@@ -50,7 +48,7 @@ The lockdown half guard variation combines the mechanical control of the 10th Pl
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ The lockdown half guard variation combines the mechanical control of the 10th Pl
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Short to Medium |
 
-**What Makes This Unique:** Deep overhook with leg control to freeze mobility
+**Key Difference:** Deep overhook with leg control to freeze mobility
 
 
 
@@ -76,10 +74,6 @@ The lockdown half guard variation combines the mechanical control of the 10th Pl
 ## Playing as Bottom
 
 [[Stoner Control/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -164,10 +158,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Stoner Control/Top|→ Full Top Guide]]
 
-
-Adapt to their defense.
-
-
 ### Key Principles
 
 
@@ -233,7 +223,6 @@ Adapt to their defense.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

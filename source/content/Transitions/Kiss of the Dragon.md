@@ -153,14 +153,10 @@ description: "Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to
 
 
 
-> Kiss of the Dragon transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kiss of the Dragon?
 
 The Kiss of the Dragon is an advanced rolling back take technique that allows the top player to bypass the turtle position's defensive structure and directly establish back control. Named for its distinctive forward rolling motion that resembles a dragon's head curling down, this technique exploits the moment when an opponent turtles defensively. The practitioner uses a forward somersault while maintaining grip control on the opponent's hips or belt, rolling underneath and behind the turtle position to emerge directly on the back. This dynamic movement is particularly effective against opponents who are skilled at defending traditional back take attempts, as it circumvents the typical defensive frames and hand fighting that occur during standard back attacks. The technique requires excellent spatial awareness, timing, and the ability to maintain connection throughout the inversion. When executed properly, the Kiss of the Dragon provides an almost undefendable path to the back, as the defender's protective layers are bypassed entirely through the rolling motion.
 
@@ -199,7 +195,7 @@ The Kiss of the Dragon is an advanced rolling back take technique that allows th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish hip control from top turtle**: From top turtle position, secure a firm grip on opponent's belt or the back of their pants at the hip level. This grip serves as your anchor point throughout the entire technique. Position yourself slightly to one side of the turtle position rather than directly behind, as this creates the angle needed for entry. (Timing: When opponent settles into defensive turtle structure)
 2. **Drop head below opponent's hips**: Lower your head and shoulders beneath the level of your opponent's hips while maintaining your grip. This positioning is critical as it creates the proper axis for your forward roll. Your forehead should be pointing toward the mat, and your spine should begin to round in preparation for the somersault motion. (Timing: As opponent's weight shifts forward or they brace against traditional back attacks)
 3. **Initiate forward roll under opponent**: Execute a tight forward somersault while pulling on the hip grip to maintain connection. Tuck your chin to your chest and roll over your shoulder, directing your momentum to pass underneath the opponent's center of gravity. The roll should be compact and controlled, with your body staying connected to the opponent's hips throughout the rotation. (Timing: Explosive initiation once head is properly positioned)
@@ -295,7 +291,7 @@ Use Kiss of the Dragon during normal training rolls when opponent assumes turtle
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of the hip grip during the Kiss of the Dragon?
 **A**: The hip grip serves as the anchor point that maintains connection to the opponent throughout the forward roll. It prevents separation during the inversion phase and ensures you emerge in the correct position relative to their back. Without this constant connection, you would roll into empty space rather than arriving at back control. The grip must be maintained with active pulling tension throughout the entire technique.
 

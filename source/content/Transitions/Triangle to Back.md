@@ -153,14 +153,10 @@ description: "Master the Triangle to Back transition in BJJ. Complete guide cove
 
 
 
-> Triangle to Back transitions from [[Triangle Control]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Triangle to Back?
 
 The Triangle to Back transition represents an advanced positional flow that capitalizes on opponent defensive reactions within triangle control. When an opponent attempts to defend the triangle choke by posturing, stacking, or turning away, the attacker can redirect their control toward back exposure rather than forcing a low-percentage finish. This transition exemplifies the principle of following your opponent's energy rather than opposing it directly, converting a defended submission attempt into superior positional control. The technique is particularly valuable in competition scenarios where opponents are well-versed in triangle defense but may not anticipate the immediate shift to back attacks. By maintaining connection through the legs and upper body grips while rotating around the opponent's defensive posture, the practitioner creates a seamless pathway to the most dominant position in Brazilian Jiu-Jitsu.
 
@@ -200,7 +196,7 @@ The Triangle to Back transition represents an advanced positional flow that capi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize defensive commitment**: Identify when opponent begins turning away from triangle pressure or driving forward to stack. Their defensive rotation creates the opening for back exposure. Monitor their weight distribution and recognize the moment they commit to escaping rather than defending in place. (Timing: As opponent initiates turn or forward drive)
 2. **Adjust triangle angle**: Rotate your hips further perpendicular to opponent's body, creating a steering wheel effect with your legs. The leg across their back becomes your primary control point for directing their rotation. Maintain tension in your leg frame while allowing controlled movement in the direction they're already moving. (Timing: Simultaneously with opponent's defensive movement)
 3. **Establish high collar grip**: Release your grip on their head and immediately establish a deep collar grip or overhook on their far shoulder. This grip prevents them from turning back to face you and provides a steering mechanism for the back take. Your hand should reach as deep as possible behind their shoulder blade. (Timing: Before opponent completes their rotation)
@@ -296,7 +292,7 @@ Actively seek triangle positions during live training and look for back take opp
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary indicator that opponent has created an opportunity for the triangle to back transition?
 **A**: When the opponent begins turning away from the triangle pressure or driving forward in a stacking motion, they expose their back. The key is recognizing their commitment to a defensive rotation rather than maintaining a neutral defended position. This rotational movement creates the angular opportunity to swing your leg over and establish hooks.
 

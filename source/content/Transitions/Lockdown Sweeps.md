@@ -145,14 +145,10 @@ description: "Master Lockdown Sweeps from half guard. Learn Electric Chair, Old 
 
 
 
-> Lockdown Sweeps transitions from [[Lockdown]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Lockdown Sweeps?
 
 The Lockdown Sweeps represent a systematic approach to attacking from the lockdown position, a cornerstone of Eddie Bravo's 10th Planet Jiu-Jitsu system. By controlling the opponent's leg with a figure-four lock using your legs, you create a powerful mechanical advantage that limits their mobility while generating multiple sweep opportunities. The lockdown position transforms the traditional half guard bottom into an offensive platform where the bottom player dictates the pace and direction of the match.
 
@@ -195,7 +191,7 @@ The lockdown system excels in no-gi competition and MMA applications where tradi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Secure lockdown position**: From half guard bottom, thread your bottom leg (the leg on the inside) under the opponent's ankle and bring your top leg over their thigh. Lock your ankles together creating a figure-four configuration. Your bottom foot should hook behind their Achilles while your top shin applies pressure across their thigh. Squeeze your knees together to create immediate tension on their trapped leg. (Timing: Establish before opponent can consolidate passing pressure)
 2. **Establish underhook and prevent flattening**: Secure a deep underhook on the same side as your lockdown with your arm reaching around opponent's back and gripping their far lat or shoulder. Use this underhook to pull yourself onto your side and prevent being flattened to your back. Your free hand should frame against their neck or shoulder to maintain space and angle. Position your head under their chin or to the side of their head, never allowing them to achieve head control. (Timing: Maintain throughout the sweep sequence)
 3. **Extend opponent's trapped leg**: To create the mechanical disadvantage necessary for sweeps, extend the opponent's trapped leg by pushing your knees away from your body while simultaneously pulling with your locked feet. This stretches their leg straight and prevents them from maintaining a strong base. The extension should be progressive - start with moderate tension and increase as you feel their balance compromised. This extension is critical for all lockdown sweeps as it removes their primary posting base. (Timing: Gradually increase extension before initiating sweep direction)
@@ -287,7 +283,7 @@ Full resistance positional sparring from half guard bottom with goal of securing
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is extending the opponent's trapped leg critical before attempting lockdown sweeps?
 **A**: Extending the opponent's trapped leg by pushing your knees away while pulling with your feet creates a fundamental mechanical disadvantage that removes their primary base and posting ability. A bent leg allows them to maintain strong base and effectively resist sweeping motions. The extension straightens their leg, preventing them from generating power or adjusting their base to counter your sweep attempts. Without proper extension, lockdown sweeps become strength-based battles rather than leverage-based techniques, significantly reducing success rates across all skill levels.
 

@@ -8,7 +8,7 @@ description: "Dominant pinning position using perpendicular chest pressure to co
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Dominant pinning position using perpendicular chest pressure to co
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 55%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 3 (Guard pass)
-- **Position Type**: Offensive/Controlling
-- **Risk Level**: Low to Medium
-- **Energy Cost**: Low
-- **Time Sustainability**: Long
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is North South Control from the Top?
 
 North-South control from the top perspective represents one of Brazilian Jiu-Jitsu's most dominant pinning positions, offering exceptional control through distributed weight, multiple submission opportunities, and strategic position advancement options. The perpendicular body alignment creates devastating chest pressure that restricts the opponent's breathing and movement while simultaneously isolating their arms for attacks. Mastering this position requires understanding the nuanced balance between maintaining crushing pressure and transitioning to submissions or improved positions.
 
@@ -444,17 +423,17 @@ Practice timing the transition from North-South to mount in response to opponent
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 North-South control represents a masterclass in weight distribution and pressure mechanics. The perpendicular body alignment creates a pressure vector that is biomechanically optimal for pinning while requiring minimal muscular effort to maintain. Your chest pressure should flow through your sternum directly into their sternum and face—this creates both physical restriction and psychological pressure that compounds their defensive difficulties. The key to advanced North-South play is understanding the relationship between pressure maintenance and offensive action. Every submission attempt creates a window of reduced control, so your attacks must be systematically prepared through arm isolation and positional consolidation. The position excels because it naturally funnels your opponent's defensive reactions into predictable patterns—their bridge attempts and turn attempts all create specific submission and advancement opportunities that you can capitalize on with proper timing.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, North-South is one of my favorite positions because it's incredibly energy-efficient while offering multiple high-percentage attacks. I can maintain crushing pressure for extended periods without exhausting myself, which is critical in longer matches or tournament formats. My approach is to establish the position solidly first—wide base, chest pressure locked in—before thinking about submissions. Once that control is established, I read my opponent's defensive reactions. If they're staying flat and defensive, I work for the kimura on their near arm. If they start trying to bridge and escape, I follow their movement directly into mount. The North-South choke is always available if they give me the right arm configuration. What makes this position so effective at the highest levels is that it creates genuine dilemmas—every defensive option they choose opens up a different offensive opportunity for me.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 North-South is slept on in a lot of no-gi schools, but it's incredibly powerful when you understand the submission chains available. The traditional North-South choke is great, but you can also work some really creative stuff from here. If they start defending the choke, that arm configuration sets up beautiful transitions to reverse mount or even twister control if you're quick. The key is staying heavy but mobile—you want that crushing chest pressure, but you also need to be ready to follow their movement instantly. One thing I emphasize is using North-South as a transitional hub rather than a parking spot. Flow between North-South, side control, and mount based on their reactions, and the submissions will open up naturally. The position is also fantastic for setting up the kimura trap system if you can isolate that near arm while maintaining your pressure foundation.
 

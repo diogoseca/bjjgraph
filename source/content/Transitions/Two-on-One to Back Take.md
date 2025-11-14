@@ -147,14 +147,10 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 
 
 
-> Two-on-One to Back Take transitions from [[Clinch]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Two-on-One to Back Take?
 
 The Two-on-One to Back Take is a fundamental wrestling-based transition that exploits control of a single arm to access the opponent's back from standing positions. This technique leverages the asymmetrical control created when both hands control one of the opponent's arms, creating a mechanical disadvantage that prevents effective defense while opening pathways to superior positioning. The two-on-one grip, also known as a Russian tie in wrestling, is one of the most dominant control positions in standing grappling because it simultaneously neutralizes one of the opponent's primary defensive tools while creating clear paths to the back. The transition capitalizes on the opponent's inability to effectively defend their back when one arm is compromised and their body rotation is controlled. This technique represents a bridge between wrestling and Brazilian Jiu-Jitsu methodologies, combining upper body control with positional advancement principles. The back take can be executed through multiple pathways depending on opponent reactions, including stepping behind, duck-under variations, or arm drag mechanics, making it a versatile addition to any standing game.
 
@@ -193,7 +189,7 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish two-on-one control**: Secure opponent's wrist with your lead hand using a pistol grip (thumb inside their wrist). Your trailing hand grabs their tricep just above the elbow or controls the elbow joint itself. Both grips work together to immobilize the entire arm structure. (Timing: Initial engagement or transition from collar tie)
 2. **Break posture and create angle**: Pull the controlled arm forcefully across the opponent's centerline while simultaneously stepping laterally off the line of attack. This pulling motion should stretch their arm and rotate their shoulders, compromising their base and preventing them from squaring their hips to you. (Timing: Immediately after securing grips)
 3. **Clear head position**: Drive your head past the controlled arm toward their far shoulder or place it tight against their near shoulder depending on your chosen pathway. This head pressure prevents them from turning into you while creating a barrier they cannot easily bypass. (Timing: As posture breaks and angle is created)
@@ -283,7 +279,7 @@ Incorporate into positional sparring from standing, then into full rolling. Focu
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the two primary grips that constitute effective two-on-one control and why is this grip configuration mechanically superior?
 **A**: The two primary grips are: (1) pistol grip on the wrist with thumb inside for maximum control of hand and forearm, and (2) grip on the tricep above elbow or directly on elbow joint. This configuration is mechanically superior because it immobilizes the entire arm structure from two points, preventing the opponent from generating pulling or pushing power with that limb, while creating a 2-to-1 mechanical advantage that they cannot match with their single free arm.
 

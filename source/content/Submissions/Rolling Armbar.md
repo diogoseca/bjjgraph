@@ -147,14 +147,12 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 
 
 
-> Rolling Armbar is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Rolling Armbar targets the Elbow joint. Risk: Elbow hyperextension or dislocation. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rolling Armbar?
 
 The Rolling Armbar represents one of the most dynamic and technically sophisticated submissions in Brazilian Jiu-Jitsu, combining rotational movement with precise joint control to attack the elbow. Unlike static armbars from established positions, the rolling variation capitalizes on momentum and timing, making it particularly effective during transitions and scrambles. This technique requires excellent body coordination, spatial awareness, and the ability to maintain arm control while rotating through space. The rolling armbar is most commonly executed from guard positions when the opponent attempts to posture or stack, though advanced practitioners can hit it from standing, during takedown attempts, or even as a counter to passing attempts. The technique's effectiveness lies in its ability to surprise opponents who are focused on other objectives, making it a high-percentage finish for those who master the rolling mechanics. The continuous rotation creates tremendous leverage on the elbow joint while limiting the opponent's defensive options, as they must defend the submission while managing their own balance during the roll.
 
@@ -239,7 +237,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure the arm and establish control**: From closed guard or during a scramble, secure a two-on-one grip on the opponent's arm. Your outside hand grips their wrist while your inside hand controls above the elbow or grips the bicep. Pull the arm across your centerline and tight to your chest, isolating it from their body. This initial control is critical - without it, the entire technique fails. (Timing: 0-1 seconds) [Pressure: Firm]
 2. **Break posture and create the angle**: Pull the controlled arm down and across your body while simultaneously using your legs to break their posture forward. Open your guard if closed, and swing your outside leg (same side as the controlled arm) over their shoulder and behind their head. Create a 45-degree angle off center by hip escaping slightly to the opposite side. This angle is essential for the rolling mechanics to work properly. (Timing: 1-2 seconds) [Pressure: Firm]
 3. **Initiate the rolling motion**: Maintaining tight arm control, tuck your chin to your chest and look toward the direction you'll roll. Drive your shoulder to the mat on the same side as the controlled arm. Use your free leg to push off the mat and generate rotational momentum. The roll should feel like a smooth backwards somersault over your shoulder. Keep the opponent's arm glued to your chest throughout - any separation here allows escape. (Timing: 2-3 seconds) [Pressure: Moderate]
@@ -309,7 +307,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the most critical safety consideration when applying the rolling armbar, and why must you never spike the submission? **[SAFETY-CRITICAL]**
 **A**: The most critical safety consideration is applying slow, controlled extension over 3-5 seconds minimum because the rolling motion already creates significant torque and surprise on the elbow joint. Spiking or jerking the submission can cause immediate elbow dislocation, ligament rupture, or complete joint capsule failure requiring surgical reconstruction. The dynamic nature of the roll means the opponent often doesn't realize they're in danger until the submission is locked, making controlled application essential to allow time for the tap.
 

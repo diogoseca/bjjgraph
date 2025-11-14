@@ -147,14 +147,12 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 
 
 
-> Kneebar from Half Guard is a leg lock targeting the Knee joint and posterior cruciate ligament. ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear. Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Kneebar from Half Guard targets the Knee joint and posterior cruciate ligament. Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Kneebar from Half Guard?
 
 The Kneebar from Half Guard represents a powerful offensive submission option that capitalizes on the leg entanglement inherent to the half guard position. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament, patellar tendon, and surrounding connective tissue. From bottom half guard, the practitioner transitions from controlling the opponent's upper body to attacking their trapped leg, using the half guard structure to prevent escape while isolating the limb. The position offers unique strategic advantages: the opponent's weight is often committed forward, their leg is already partially controlled by your lockdown or hooks, and defensive hand fighting is complicated by the need to maintain base. This creates a high-percentage finishing opportunity when proper mechanics are applied. The technique requires precise technical execution—controlling the opponent's hip to prevent rotation, achieving proper leg extension across the knee joint, and maintaining connection throughout the finish. Modern leg lock systems have elevated this submission from a surprise attack to a fundamental component of bottom half guard offense, particularly in no-gi grappling where the absence of gi grips makes leg attacks more viable.
 
@@ -234,7 +232,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Secure underhook and create off-balancing angle**: From bottom half guard, establish a deep underhook on the trapped leg side. Drive your underhook hand toward the opponent's far shoulder while using your bottom leg hook to elevate their trapped leg. This off-balances them forward and loads their weight onto their hands, preventing them from sitting back to defend the leg attack. Your free hand should control their wrist or tricep to prevent them from posting and creating base. (Timing: 1-2 seconds) [Pressure: Moderate]
 2. **Transition hips to perpendicular angle**: Shrimp your hips out toward the trapped leg side while maintaining your leg entanglement. Your goal is to create a 90-degree angle between your torso and the opponent's body. As you shrimp, begin to swing your top leg (the leg not in the half guard lockdown) over the opponent's back or shoulder. This rotation is critical—you must achieve perpendicular alignment to create proper kneebar mechanics. Keep the bottom leg (half guard hook) tight to prevent them from pulling their leg free during the transition. (Timing: 2-3 seconds) [Pressure: Moderate]
 3. **Establish leg isolation with both legs**: Complete your hip rotation so your body is perpendicular to your opponent. Your bottom leg (the original half guard hook) should now be positioned behind their knee, while your top leg swings over their hip or back to prevent them from rolling forward or standing. Create a figure-four position with your legs if possible—bottom leg behind their knee, top leg crossed over, locking at the ankles. This isolation is crucial: their trapped leg should be completely immobilized between your legs with no ability to rotate or pull free. (Timing: 1-2 seconds) [Pressure: Firm]
@@ -300,7 +298,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical principle that creates the kneebar submission, and why is hip positioning critical?
 **A**: The kneebar creates hyperextension of the knee joint by using your torso as a fulcrum point. Your body (positioned at their knee) acts as the pivot, while your hips driving upward on one side and your arms controlling the ankle on the other side create opposing forces that hyperextend the joint. Hip positioning is critical because only by achieving perpendicular alignment can you create this leverage system—if you're not perpendicular, you're pulling against their leg strength rather than using mechanical advantage to attack the joint structure.
 

@@ -8,7 +8,7 @@ description: "Master Rodeo Ride position in BJJ. Advanced turtle attack with asy
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master Rodeo Ride position in BJJ. Advanced turtle attack with asy
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Rodeo Ride?
 
 Rodeo Ride is an advanced turtle attack position where the top practitioner maintains control over a turtled opponent using asymmetric grips and dynamic positioning. Unlike traditional turtle top control, Rodeo Ride emphasizes mobility and constant pressure adjustment, allowing the attacker to flow between various back attack entries, submission attempts, and control positions. The position gets its name from the rider-like posture and movement pattern required to maintain control while the opponent attempts to escape.
 
@@ -50,7 +48,7 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -64,7 +62,7 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**What Makes This Unique:** Dynamic pressure replaces static control
+**Key Difference:** Dynamic pressure replaces static control
 
 
 
@@ -76,10 +74,6 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ## Playing as Bottom
 
 [[Rodeo Ride/Bottom|→ Full Bottom Guide]]
-
-
-You're defending. Create frames, survive the pressure, escape to guard.
-
 
 ### Key Principles
 
@@ -164,10 +158,6 @@ You're defending. Create frames, survive the pressure, escape to guard.
 ## Playing as Top
 
 [[Rodeo Ride/Top|→ Full Top Guide]]
-
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
 
 ### Key Principles
 
@@ -254,7 +244,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

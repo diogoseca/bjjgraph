@@ -153,14 +153,10 @@ description: "Master the Switch to Triangle in BJJ. Learn when and how to transi
 
 
 
-> Switch to Triangle transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Switch to Triangle?
 
 The Switch to Triangle represents a fundamental submission chain concept in Brazilian Jiu-Jitsu, allowing practitioners to seamlessly transition from failed or defended attacks into a high-percentage triangle choke. This transition is most commonly executed from closed guard when opponents defend against armbar attempts, kimura attacks, or other offensive techniques by pulling their arm free or posturing up. The beauty of this technique lies in its ability to capitalize on the opponent's defensive reactions - as they focus on escaping one submission, they often create the perfect opening for the triangle. Understanding this transition transforms individual techniques into a flowing attack system where every defense opens a new offensive opportunity. The switch to triangle exemplifies the principle of offensive combinations and submission chains, where skilled practitioners never rely on a single attack but instead link multiple threats together. This creates a dilemma-based game where the opponent must choose between defending the current attack and preventing the follow-up, rarely able to accomplish both simultaneously. Mastering this transition is essential for developing a dangerous closed guard game and represents a critical milestone in understanding how submissions work together as a system rather than as isolated techniques.
 
@@ -199,7 +195,7 @@ The Switch to Triangle represents a fundamental submission chain concept in Braz
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Recognize defensive reaction**: As opponent defends initial attack (typically by pulling arm free from armbar or resisting kimura), immediately identify the opening created by their defensive movement. Their focus on escaping the current submission creates a momentary lapse in posture control and positioning awareness. (Timing: Instant recognition as opponent begins defensive motion)
 2. **Secure control point**: Establish a critical control point during the transition - typically an overhook on the defending arm, head control with your hand behind their skull, or a strong collar grip. This control prevents the opponent from posturing up and provides the anchor point for your triangle entry. (Timing: Simultaneous with defensive recognition)
 3. **Create angle**: Shift your hips significantly to one side (typically 45-90 degrees off centerline) to create the necessary angle for triangle entry. This hip movement positions your body perpendicular to your opponent's torso, allowing your leg to come across their shoulder and neck effectively. (Timing: 0.5-1 second window as opponent focuses on arm defense)
@@ -297,7 +293,7 @@ Explore switching to triangle from increasingly diverse positions - failed sweep
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is creating an angle essential before executing the switch to triangle?
 **A**: Creating an angle (45-90 degrees off centerline) is essential because it positions your body perpendicular to your opponent's torso, which provides the geometric leverage necessary for your leg to effectively cross their neck and shoulder. Without this angle, your leg either won't reach properly or will cross too low on their back, resulting in a weak triangle that lacks the proper compression mechanics. The angle also prevents the opponent from maintaining center position and posturing up, which are their primary defensive tools against the triangle. Attempting the triangle from a straight-on position is one of the most common errors and rarely succeeds against skilled opponents.
 

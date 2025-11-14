@@ -153,14 +153,10 @@ description: "Learn Spider Guard sweeps in BJJ. Triangle setup, omoplata sweep, 
 
 
 
-> Spider Guard Sweeps transitions from [[Spider Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Spider Guard Sweeps?
 
 Spider Guard sweeps represent a fundamental attacking system from one of BJJ's most versatile open guard positions. By controlling the opponent's sleeves with your feet on their biceps, you create a pushing force that breaks their posture and base while maintaining distance control. The spider guard sweep system exploits the mechanical disadvantage created when an opponent attempts to pass while you extend their arms, making it difficult for them to maintain balance or generate forward pressure. These sweeps work synergistically with submission threats like triangles and omoplatas, creating dilemmas where defending one attack opens the opponent to another. The system scales from fundamental techniques suitable for beginners to advanced competition-level variations used at the highest levels of the sport. Understanding the biomechanics of sleeve control, foot positioning, and timing allows practitioners to chain multiple sweep attempts together, adapting to opponent reactions and creating unstoppable offensive sequences.
 
@@ -199,7 +195,7 @@ Spider Guard sweeps represent a fundamental attacking system from one of BJJ's m
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish spider guard control**: Secure deep sleeve grips with both hands, placing your feet on opponent's biceps with toes pointed outward. Create pushing pressure through your legs while pulling with your grips to extend opponent's arms and break their posture forward. (Timing: Before opponent establishes strong base)
 2. **Identify opponent's weight distribution**: Read opponent's base by feeling which direction they're leaning or moving. Pay attention to which hand they post with or which leg carries more weight, as this determines which sweep variation to execute. (Timing: Continuous assessment during guard retention)
 3. **Create sweeping angle**: Rotate your hips and shoulders to create an angle perpendicular to your opponent's base. Remove one foot from bicep control and reposition it on the hip or pants grip while maintaining the other spider hook for control. (Timing: As opponent begins passing attempt or weight shift)
@@ -303,7 +299,7 @@ Continuously analyze successful and failed sweep attempts to identify patterns. 
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What are the key mechanical principles that make spider guard sweeps effective?
 **A**: Spider guard sweeps work by creating a pushing force through the legs on the opponent's biceps while simultaneously pulling their sleeves, extending their arms and breaking their posture and base. This two-directional force makes it difficult for opponents to post or maintain balance. The feet on biceps create distance control while the sleeve grips prevent defensive hand posting. By creating angles perpendicular to the opponent's base and timing sweeps with their weight shifts, you exploit their mechanical disadvantages. The combination of pushing, pulling, and angling creates leverage that allows smaller practitioners to sweep larger opponents efficiently.
 

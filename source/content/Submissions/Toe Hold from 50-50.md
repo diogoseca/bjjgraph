@@ -153,14 +153,12 @@ description: "Master the Toe Hold from 50-50 Guard with comprehensive safety pro
 
 
 
-> Toe Hold from 50-50 is a leg lock targeting the Ankle, talocrural joint, and lateral ankle ligaments. ⚠️ **SAFETY**: This technique can cause Lateral ankle ligament tears (anterior talofibular, calcaneofibular). Apply gradually and release immediately upon tap.
+> ⚠️ **SAFETY**: Toe Hold from 50-50 targets the Ankle, talocrural joint, and lateral ankle ligaments. Risk: Lateral ankle ligament tears (anterior talofibular, calcaneofibular). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Toe Hold from 50-50?
 
 The Toe Hold from 50-50 Guard is a sophisticated leg lock submission that targets the ankle joint through rotational pressure on the foot. This technique represents one of the most accessible finishing opportunities from the 50-50 position, particularly when heel hook opportunities are not available or are prohibited by competition rules. The submission works by isolating the opponent's foot and applying inward rotation to attack the talocrural joint and lateral ankle ligaments, creating intense pressure that forces a quick tap when applied correctly.
 
@@ -251,7 +249,7 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Submission
+## Execution Steps
 1. **Establish Initial Control**: From 50-50 position, use your inside leg to hook behind opponent's knee while your outside leg controls their hip. This creates the foundational structure that prevents them from escaping while you attack the foot. Ensure your hips are slightly elevated to create the angle needed for foot access. (Timing: 2-3 seconds for solid establishment) [Pressure: Moderate]
 2. **Access the Foot**: Reach across with your outside arm (arm furthest from their head) to grab the toes of their trapped foot. Your grip should be on the ball of the foot and toes, not just the toes alone. Simultaneously, use your inside arm to control their ankle or lower shin, creating a frame that prevents them from yanking their foot away. (Timing: 1-2 seconds) [Pressure: Light]
 3. **Establish Figure-Four Configuration**: Bring your inside arm underneath their foot and grab your own wrist or forearm, creating a figure-four grip structure. This configuration locks the foot in place and prevents rotation of their ankle relative to your body. Your outside hand should maintain control of the toes while your inside forearm creates a shelf under the heel and Achilles tendon area. (Timing: 2-3 seconds to secure properly) [Pressure: Moderate]
@@ -322,7 +320,7 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Submission?
+## Test Your Knowledge
 **Q1**: What is the primary anatomical target of the toe hold from 50-50, and why is inward rotation critical? **[SAFETY-CRITICAL]**
 **A**: The primary target is the talocrural joint and lateral ankle ligaments (specifically the anterior talofibular and calcaneofibular ligaments). Inward rotation is critical because it places maximum stress on these lateral structures while the foot is locked in place. Outward rotation would attack different anatomical structures ineffectively and dangerously. The inward rotation creates a rotational force that the ankle joint is not designed to withstand, leading to ligament strain and joint capsule pressure that forces the tap.
 

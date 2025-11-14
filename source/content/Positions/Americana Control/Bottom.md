@@ -8,7 +8,7 @@ description: "Master Americana defense and escape strategies. Complete defensive
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -155,29 +155,10 @@ description: "Master Americana defense and escape strategies. Complete defensive
 
 
 
-> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
->
-> **Quick Stats**: Advanced practitioners escape 50% of the time.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: High
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Americana Control from the Bottom?
 
 Being caught in Americana control from the bottom represents a high-risk defensive scenario where your shoulder joint is under immediate threat. The Americana (ude garami) creates dangerous rotational pressure on the shoulder through a figure-four arm configuration, typically applied from mount or side control positions. Defense requires immediate recognition of the threat, aggressive hand fighting to prevent the lock from being secured, and explosive escape movements to remove pressure from the shoulder. The key defensive principle is never allowing the attacker to complete the figure-four grip and achieve full extension - once locked, the submission becomes extremely difficult to escape without injury. Bottom players must understand the mechanical disadvantage created by the Americana and prioritize position recovery over attempting to muscle out of the lock.
 
@@ -416,17 +397,17 @@ Partner has figure-four locked but not extended. Practice explosive bridge and t
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Defense
+### John Danaher
 
 The Americana is a mechanically efficient shoulder lock that creates extreme leverage disadvantage for the bottom player. Once the figure-four grip is completed and the attacker begins rotation, the submission window closes rapidly. Defense must be proactive - prevent the grip from ever being completed by keeping your elbows connected to your body and using both hands to fight the attempted control. If caught in a locked Americana, recognize that attempting to muscle out is futile and dangerous. The intelligent response is immediate tap to preserve shoulder health for future training.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 I see people get hurt from Americanas in training because they don't tap fast enough. In competition, I use the Americana constantly from mount because people panic and make mistakes. From the bottom, your only real defense is preventing the setup entirely - once I have the figure-four locked, you're done. Don't be a hero, just tap and reset. Shoulder injuries will keep you off the mat for months.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 The Americana is old school but effective, especially in gi where you can trap the sleeve. From bottom, you need to be explosive - bridge hard and hand fight like crazy. If you're caught, don't wait around hoping it gets better. In 10th Planet we emphasize the truck and twister over Americana, but the shoulder lock principles are similar - tap early, train tomorrow.
 

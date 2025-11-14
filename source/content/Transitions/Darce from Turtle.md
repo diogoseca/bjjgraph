@@ -147,14 +147,10 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
 
 
 
-> Darce from Turtle transitions from [[Turtle]] to [[D'arce Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Darce from Turtle?
 
 The Darce choke from turtle position is one of the most high-percentage submissions in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique capitalizes on the opponent's defensive turtle posture by attacking the exposed neck and far-side arm, creating a powerful blood choke that can force a tap within seconds when properly executed. The Darce from turtle is especially effective because opponents often feel safe in the turtle position, making them less defensive against this attack. The technique requires precise arm positioning, shoulder pressure, and an understanding of how to create the necessary space to thread your choking arm through. When executed correctly, the Darce choke cuts off blood flow to both carotid arteries while simultaneously creating structural pressure on the neck, making it extremely difficult to defend once locked in. This submission has become a staple in the arsenals of high-level competitors due to its effectiveness against various turtle defensive strategies and its ability to transition seamlessly from other front headlock attacks.
 
@@ -193,7 +189,7 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish front headlock control**: From turtle top position, secure front headlock control by wrapping your arm around opponent's neck. Your chest should be heavy on their back, flattening them and preventing them from sitting through to guard. Control their far shoulder with your free hand, using an overhook or grip on their lat muscle. Your weight distribution should be forward, making it difficult for them to move or escape. (Timing: Initial control phase - be patient and heavy)
 2. **Swim your choking arm across the neck**: Begin threading your choking arm (the arm that was controlling the neck) across opponent's throat and toward their far-side armpit. Your forearm should slide across the front of their neck with your bicep on one side of their neck and your forearm on the other. Keep your elbow tight and pointed downward as you swim through. The key is to get as deep as possible - your hand should emerge near their opposite lat muscle. (Timing: Execute when opponent is flat and unable to create space)
 3. **Trap the far-side arm**: As your choking arm threads through, ensure opponent's far-side arm becomes trapped between your bicep and their own neck. This is crucial - the Darce choke works by compressing one side of the neck with your arm and the other side with their own trapped shoulder. Use your free hand to guide their arm into the trap if necessary, or prevent them from pulling it free. (Timing: Simultaneous with threading - don't allow arm to escape)
@@ -285,7 +281,7 @@ Use in full resistance positional sparring (start in turtle top position) and re
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary mechanical difference between the Darce choke and a guillotine choke from turtle position?
 **A**: The Darce choke uses opponent's own trapped shoulder to compress one carotid artery while your forearm compresses the other, creating a figure-four style choke. The guillotine compresses the front of the neck with your forearm while your hip or chest provides the counter-pressure. The Darce is a blood choke targeting both carotid arteries, while the guillotine can be either a blood choke or airway restriction depending on placement.
 

@@ -159,14 +159,10 @@ description: "Master the Foot Grab Sweep from open guard. Step-by-step execution
 
 
 
-> Foot Grab Sweep transitions from [[Seated Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Foot Grab Sweep?
 
 The Foot Grab Sweep is a fundamental open guard technique that exploits an opponent's forward pressure and poor base management. By controlling one of the opponent's feet while simultaneously breaking their posture and grips, the practitioner creates a powerful sweeping motion that elevates the opponent and reverses position. This technique is particularly effective against opponents who attempt to stand and pass the guard, or those who maintain a squared-up stance with weight distributed evenly on both legs.
 
@@ -209,7 +205,7 @@ Success with this sweep depends heavily on timing, grip control, and the ability
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish grip control**: From open guard, secure a strong grip on the opponent's sleeve or collar with one hand. Simultaneously use your legs to control their hips or torso, preventing them from creating distance. Your free hand should be ready to grab their foot. (Timing: As opponent begins to engage or stand)
 2. **Isolate target foot**: Identify which foot to attack based on the opponent's weight distribution. Typically, choose the foot that has less weight on it or the one that aligns with your sweeping direction. Use your leg to push or hook behind their opposite knee, forcing weight onto one leg. (Timing: When opponent's weight shifts or commits forward)
 3. **Grab the foot**: With your free hand, quickly reach and secure a firm grip on the opponent's foot, ankle, or heel. The grip should be strong enough to control their leg completely. Your thumb should wrap around the heel or inside of the ankle for maximum control. (Timing: Explosive movement when opening appears)
@@ -306,7 +302,7 @@ Integrate foot grab sweep into complete open guard system. Practice against vari
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it important to establish upper body grip control before grabbing the opponent's foot?
 **A**: Establishing upper body control first serves multiple purposes: it breaks the opponent's posture, making them less able to react to the foot grab; it prevents them from establishing strong grips on you; and it controls their upper body movement so they cannot easily pull their foot away. Without upper body control first, the opponent can simply step back or pull their foot free before the sweep can be initiated.
 

@@ -153,14 +153,10 @@ description: "Master the Long Step pass in BJJ. Systematic guard passing techniq
 
 
 
-> Long Step transitions from [[Headquarters Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Long Step?
 
 The **Long Step Pass** is a fundamental pressure passing technique that neutralizes guard retention by stepping far around the guard player's knee shield or butterfly hooks. This pass creates a powerful angle that prevents hip escape while establishing control on the far side of the opponent's body. The technique emphasizes distance management and timing—stepping too early allows the guard player to follow, while stepping too late gives them time to recover guard. The Long Step is particularly effective against modern guard retention systems that rely on frames and distance management. By committing to the far step, you force the opponent into a defensive position where their primary defensive tools (frames, hip movement, knee shields) become ineffective. This pass integrates seamlessly with other pressure passing sequences, creating a comprehensive passing system that addresses multiple guard variations. The Long Step represents the intersection of pressure passing principles and dynamic movement, requiring both technical precision and explosive execution.
 
@@ -199,7 +195,7 @@ The **Long Step Pass** is a fundamental pressure passing technique that neutrali
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish dominant grips**: From headquarters position, secure a strong collar grip with one hand (typically cross-collar grip) and control the opponent's far sleeve or pant leg with your other hand. These grips prevent the guard player from creating distance or recovering guard during your pass. (Timing: Establish grips while opponent is attempting to frame or create distance)
 2. **Clear the near leg**: Use your knee or hand to clear the opponent's near-side leg (knee shield or butterfly hook) by pushing it to the mat or pinning it away from your body. This creates the pathway for your long step and prevents the opponent from following your movement with their leg. (Timing: Clear the leg as opponent extends their frame or attempts to create space)
 3. **Execute the long step**: Take a large step with your outside leg, planting your foot near the opponent's far hip or beyond their body line. This step should be explosive and committed—stepping too short allows the opponent to recover their guard. Your stepping leg should land in a strong base position. (Timing: Step immediately after clearing the near leg, before opponent can recover position)
@@ -296,7 +292,7 @@ Practice the long step against various guard types (butterfly, knee shield, lass
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: Why is it critical to clear the opponent's near-side leg before executing the long step?
 **A**: Clearing the near-side leg prevents the opponent from following your step with their bottom leg and maintaining guard contact. If you don't clear the leg first, the opponent can easily track your movement and prevent the pass by keeping their leg in front of your body, or worse, they can use their leg to off-balance you during the step. The clear creates the pathway for your step and ensures the opponent cannot follow your movement.
 

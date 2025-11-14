@@ -8,7 +8,7 @@ description: "Master the Hindulotine position in BJJ. High-pressure guillotine v
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
 
 
 
@@ -17,8 +17,6 @@ description: "Master the Hindulotine position in BJJ. High-pressure guillotine v
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Hindulotine?
 
 The Hindulotine is a specialized guillotine variation that combines elements of traditional guillotine mechanics with unique body positioning that creates exceptional pressure on the opponent's neck and spine. Named for its origins in catch wrestling and modern no-gi grappling, this position represents an evolution of front headlock attacks where the controlling practitioner uses their hips and legs to generate torque while maintaining the guillotine grip.
 
@@ -52,7 +50,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 </section>
 
-<section id="variant-comparison" class="content-section">
+<section class="content-section">
 
 ## Top vs Bottom
 
@@ -66,7 +64,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium |
 
-**What Makes This Unique:** Rotational torque replaces linear pulling
+**Key Difference:** Rotational torque replaces linear pulling
 
 
 
@@ -78,10 +76,6 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ## Playing as Bottom
 
 [[Hindulotine/Bottom|→ Full Bottom Guide]]
-
-
-You control the position. Attack with sweeps and submissions while shutting down passes.
-
 
 ### Key Principles
 
@@ -162,10 +156,6 @@ You control the position. Attack with sweeps and submissions while shutting down
 
 [[Hindulotine/Top|→ Full Top Guide]]
 
-
-Balance control with attacks. Consolidate position or finish—your choice.
-
-
 ### Key Principles
 
 
@@ -237,7 +227,6 @@ Balance control with attacks. Consolidate position or finish—your choice.
 
 
 </section>
-
 
 
 <section id="related-positions" class="content-section">

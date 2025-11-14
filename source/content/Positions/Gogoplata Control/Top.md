@@ -8,7 +8,7 @@ description: "Master defending and escaping gogoplata control from top position 
 ---
 
 
-<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -155,31 +155,10 @@ description: "Master defending and escaping gogoplata control from top position 
 
 
 
-> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
->
-> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 20%.
-
----
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<section id="state-properties" class="content-section">
-
-## Position Properties
-
-- **State ID**: ``
-- **Point Value**: 0 (0 points)
-- **Position Type**: Defensive
-- **Risk Level**: High
-- **Energy Cost**: Medium
-- **Time Sustainability**: Short
-
-</section>
-
 <section id="overview" class="content-section">
-
-## What is Gogoplata Control from the Top?
 
 From the top position in Gogoplata Control, the practitioner faces one of Brazilian Jiu-Jitsu's most technically challenging defensive situations. The bottom player has established a shin across the throat while securing their own foot behind the defender's head, creating a submission-control hybrid that severely limits conventional escape options. The top position defender must employ specific strategies to extract themselves from this anatomically compromising position without succumbing to the choke or exposing themselves to alternative attacks.
 
@@ -450,17 +429,17 @@ Partner locks gogoplata at 80% tightness requiring immediate explosive escape at
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say?
+## Expert Analysis
 
-### John Danaher - Systematic Attacks
+### John Danaher
 
 Defending the gogoplata requires understanding that you are facing a submission where the mechanical structure has already been established against you. Unlike defending an armbar where you can prevent the arm from being extended, or a triangle where you can fight the leg positioning, the gogoplata's shin-across-throat configuration is already in place when you recognize the danger. This means your defensive strategy must focus on systematic deconstruction of the position rather than preventing its establishment. The key insight is that the foot-behind-head position is the structural foundation - without it, the shin cannot be maintained across the throat with sufficient pressure. Therefore, your primary objective is not removing the shin directly, but rather addressing the foot position through careful angle management and hand fighting. The defender must also maintain extraordinary composure because the natural panic response to throat compression will cause explosive movements that typically worsen the position. This makes gogoplata defense an excellent training tool for developing mental discipline under submission pressure.
 
-### Gordon Ryan - Competition Application
+### Gordon Ryan
 
 In competition, being caught in a gogoplata usually means you made earlier positional errors that allowed the bottom player to establish high guard or rubber guard control. By the time the shin is across your throat, you're in a bad spot that requires immediate technical response. The reality is that most people don't drill gogoplata defense because they don't encounter it often, which means when they do face it, they panic and get finished. My approach is to stay extremely calm and work systematically even though you're getting choked. The biggest mistake is trying to muscle out or pull your head away - that just tightens it. You need to work on the foot position behind your head first, creating small amounts of space through hand fighting and angle changes. If I feel the position is fully locked and I'm running out of air, I'm tapping rather than taking damage. There's no shame in tapping to a properly executed gogoplata - it's a legitimate submission when done right. The key is learning from it so you don't let flexible opponents get to those high guard positions in future matches.
 
-### Eddie Bravo - 10th Planet Approach
+### Eddie Bravo
 
 From the top, being in gogoplata control is one of the worst spots in jiu-jitsu because your conventional defense tools don't work. You can't posture up, you can't pull away, and strength won't save you. This is why I teach it so much - when students understand how devastating it is from the defensive side, they develop healthy respect for rubber guard positions and stop being lazy in people's guards. The escape mechanics require you to stay calm when you're being choked, which is incredibly difficult. You've got to work the foot behind your head, change angles, and be ready for the transition to triangle or omoplata when you start defending properly. The best defense is obviously not letting flexible people get to Mission Control or New York in the first place. If you're rolling with someone who has serious flexibility and a developed rubber guard game, you need to shut down their high guard before they get to the gogoplata setup. But if you do get caught, remember that panicking and spazzing will only get you submitted faster. Technical defense and willingness to tap if it's locked are your only real options.
 

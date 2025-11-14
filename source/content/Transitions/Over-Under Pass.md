@@ -153,14 +153,10 @@ description: "Master Over-Under Pass in BJJ. Pressure-based passing from Half Gu
 
 
 
-> Over-Under Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
-
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
-
-## What is Over-Under Pass?
 
 The Over-Under Pass is a fundamental pressure-based guard passing technique that combines superior positioning with powerful control mechanics to bypass the opponent's guard. This technique is characterized by controlling one leg over the opponent's body while threading the other arm under their opposite leg, creating a stacking effect that neutralizes their defensive capabilities. The Over-Under Pass is particularly effective against half guard, butterfly guard, and open guard variations, making it a cornerstone technique in modern Brazilian Jiu-Jitsu. What makes this pass especially valuable is its combination of pressure control and positional dominance - by stacking the opponent's weight onto their shoulders, you eliminate their hip mobility and ability to re-guard while methodically advancing to side control. The technique requires excellent weight distribution, patience under pressure, and the ability to maintain chest-to-chest connection throughout the passing sequence. Unlike speed-based passes that rely on quick movements, the Over-Under Pass exemplifies the principle of using superior position and leverage to overcome an opponent's defensive structure through systematic pressure application.
 
@@ -199,7 +195,7 @@ The Over-Under Pass is a fundamental pressure-based guard passing technique that
 
 <section id="execution-steps" class="content-section">
 
-## How to Execute This Technique
+## Execution Steps
 1. **Establish initial grips and position**: From top position in half guard or open guard, secure a deep under-hook on the opponent's near leg, threading your arm as far as possible under their thigh. Simultaneously grip their far leg at the knee or pants with your opposite hand. Your chest should be heavy on their torso with your head positioned on the over-hook side. (Timing: Take time to establish solid grips before advancing)
 2. **Create the stack**: Drive your shoulder into the opponent's chest while lifting their hips with your under-hook arm. Begin walking your feet forward toward their head, stacking their weight onto their shoulders. Your hips should remain low and heavy, with your weight distributed through your chest and shoulder into their torso. The stacking angle should be approximately 45 degrees, compromising their ability to hip escape. (Timing: Progressive stacking - increase angle gradually)
 3. **Secure the far leg over-hook**: With your over-hook hand controlling the far leg, pull it tightly across your body and trap it against your torso. Your forearm should be across their shin or ankle, preventing them from recovering butterfly hooks or creating knee shield. Maintain this grip while continuing to drive pressure through your shoulder. (Timing: Lock the far leg before advancing position)
@@ -297,7 +293,7 @@ Incorporate the pass into regular sparring sessions against various skill levels
 
 <section id="knowledge-assessment" class="content-section">
 
-## How Well Do You Understand This Technique?
+## Test Your Knowledge
 **Q1**: What is the primary purpose of the stacking angle in the Over-Under Pass?
 **A**: The stacking angle serves to elevate the opponent's hips and load their weight onto their shoulders, which eliminates their hip mobility and ability to generate power with their legs. This position compromises their defensive frames and makes it difficult for them to hip escape or recover guard. The stack also creates a psychological pressure that can force defensive errors.
 
