@@ -18,6 +18,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+    Component.NotDesktop(Component.Graph({
+      localGraph: { showTags: false, depth: 2 },
+      globalGraph: { showTags: false }
+    })),
   ],
   left: [
     Component.PageTitle(),
@@ -34,17 +38,34 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.Graph({
-      localGraph: { showTags: false },
+    // Graph shows here on desktop only
+    Component.DesktopOnly(Component.Graph({
+      localGraph: { showTags: false, depth: 2 },
       globalGraph: { showTags: false }
-    }),
+    })),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.MobileOnly(Component.Explorer({
+      mapFn: (node) => {
+        // Strip everything after the first " | " for cleaner Explorer display
+        if (node.displayName && node.displayName.includes(" | ")) {
+          node.displayName = node.displayName.split(" | ")[0]
+        }
+      }
+    })),
   ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    Component.Breadcrumbs(), 
+    Component.ArticleTitle(), 
+    Component.ContentMeta(),
+    Component.NotDesktop(Component.Graph({
+      localGraph: { showTags: false, depth: 2 },
+      globalGraph: { showTags: false }
+    })),
+    ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -60,9 +81,18 @@ export const defaultListPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.Graph({
-      localGraph: { showTags: false },
+    Component.DesktopOnly(Component.Graph({
+      localGraph: { showTags: false, depth: 2 },
       globalGraph: { showTags: false }
-    }),
+    })),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.MobileOnly(Component.Explorer({
+      mapFn: (node) => {
+        // Strip everything after the first " | " for cleaner Explorer display
+        if (node.displayName && node.displayName.includes(" | ")) {
+          node.displayName = node.displayName.split(" | ")[0]
+        }
+      }
+    })),
   ],
 }

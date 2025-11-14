@@ -111,11 +111,24 @@ a {
   @media all and ($mobile) {
     display: none;
   }
+  @media all and ($tablet) {
+    display: none;
+  }
 }
 
 .mobile-only {
   display: none;
   @media all and ($mobile) {
+    display: initial;
+  }
+}
+
+.not-desktop {
+  display: none;
+  @media all and ($mobile) {
+    display: initial;
+  }
+  @media all and ($tablet) {
     display: initial;
   }
 }

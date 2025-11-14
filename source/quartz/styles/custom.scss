@@ -73,6 +73,29 @@ article {
 }
 
 // ============================================================================
+// Collapsible Sections (Playing As Model)
+// ============================================================================
+
+details summary {
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+}
+
+details summary h2 {
+  display: inline;
+  margin: 0;
+}
+
+details[open] summary {
+  margin-bottom: 1rem;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+// ============================================================================
 // Dark Mode Adjustments for A/B Testing Variants
 // ============================================================================
 

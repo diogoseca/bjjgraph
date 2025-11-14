@@ -24,10 +24,6 @@ description: "{{ description }}"
 -->
 {% endif %}
 
-> {{ overview[:200] }}...
-
----
-
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -59,9 +55,9 @@ description: "{{ description }}"
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[{{ name }}]] | {{ bottom_summary.state_properties.risk_level }} | {{ top_summary.state_properties.risk_level }} | {{ bottom_summary.state_properties.energy_cost }} | {{ top_summary.state_properties.energy_cost }} | {{ variant_uniqueness }} |
-{% for variant in variants_comparison %}
+{%- for variant in variants_comparison %}
 | [[{{ variant.name }}]] | {{ variant.bottom_risk }} | {{ variant.top_risk }} | {{ variant.bottom_energy }} | {{ variant.top_energy }} | {{ variant.uniqueness }} |
-{% endfor %}
+{%- endfor %}
 
 {% else %}
 {# DUAL: Simple comparison table - playing_as roles #}
@@ -84,7 +80,7 @@ description: "{{ description }}"
 {# Playing as bottom role #}
 ## Playing as Bottom
 
-[[Bottom|→ Full Bottom Guide]]
+[[{{ name }}/Bottom|→ Full Bottom Guide]]
 
 {% if bottom_summary.state_properties.position_type == "Defensive" %}
 You're defending. Create frames, survive the pressure, escape to guard.
@@ -124,7 +120,7 @@ Read and react based on their actions.
 {# Playing as top role #}
 ## Playing as Top
 
-[[Top|→ Full Top Guide]]
+[[{{ name }}/Top|→ Full Top Guide]]
 
 {% if top_summary.state_properties.position_type == "Offensive" %}
 You have the advantage. Maintain control, hunt submissions, advance position.
@@ -169,7 +165,7 @@ Adapt to their defense.
 
 {{ variation.description }}
 
-[Explore {{ variation.name }} →]({{ slug }}/{{ variation.slug }})
+[Explore {{ variation.name }} →](./{{ variation.name }})
 
 {% endfor %}
 

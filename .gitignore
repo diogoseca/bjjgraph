@@ -5,6 +5,9 @@ public/
 # Node.js dependencies
 node_modules/
 
+# TypeScript build info
+*.tsbuildinfo
+
 # Environment variables
 .env
 .env.local

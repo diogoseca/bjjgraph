@@ -67,6 +67,15 @@ type TweenNode = {
   stop: () => void
 }
 
+// Helper to get hub slug from Bottom/Top role pages (playing_as model)
+function getHubSlug(nodeId: SimpleSlug): SimpleSlug {
+  const lowerNodeId = nodeId.toLowerCase()
+  if (lowerNodeId.endsWith('/bottom') || lowerNodeId.endsWith('/top')) {
+    return nodeId.split('/').slice(0, -1).join('/') as SimpleSlug
+  }
+  return nodeId
+}
+
 async function renderGraph(container: string, fullSlug: FullSlug) {
   const slug = simplifySlug(fullSlug)
   const graph = document.getElementById(container)
@@ -142,26 +151,47 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
   }
 
-  const nodes = [...neighbourhood].map((url) => {
-    let text = url.startsWith("tags/") ? "#" + url.substring(5) : (data.get(url)?.title ?? url)
-    // Strip everything after the first " | " for cleaner graph display
-    if (text.includes(" | ")) {
-      text = text.split(" | ")[0]
-    }
-    return {
-      id: url,
-      text,
-      tags: data.get(url)?.tags ?? [],
-    }
-  })
+  const nodes = [...neighbourhood]
+    .filter((url) => {
+      // Filter out Bottom/Top role pages (playing_as model) - show only hub pages
+      const lowerUrl = url.toLowerCase()
+      return !lowerUrl.endsWith('/bottom') && !lowerUrl.endsWith('/top')
+    })
+    .map((url) => {
+      let text = url.startsWith("tags/") ? "#" + url.substring(5) : data.get(url)?.title
+
+      // If no title found, extract from URL path
+      if (!text) {
+        // Get the last part of the path (the actual filename)
+        const parts = url.split('/')
+        text = parts[parts.length - 1] || url
+      }
+
+      // Strip everything after the first " | " for cleaner graph display
+      if (text.includes(" | ")) {
+        text = text.split(" | ")[0]
+      }
+      return {
+        id: url,
+        text,
+        tags: data.get(url)?.tags ?? [],
+      }
+    })
   const graphData: { nodes: NodeData[]; links: LinkData[] } = {
     nodes,
     links: links
       .filter((l) => neighbourhood.has(l.source) && neighbourhood.has(l.target))
-      .map((l) => ({
-        source: nodes.find((n) => n.id === l.source)!,
-        target: nodes.find((n) => n.id === l.target)!,
-      })),
+      .map((l) => {
+        // Redirect Bottom/Top sources/targets to hub pages (playing_as model)
+        const actualSource = getHubSlug(l.source)
+        const actualTarget = getHubSlug(l.target)
+
+        return {
+          source: nodes.find((n) => n.id === actualSource),
+          target: nodes.find((n) => n.id === actualTarget),
+        }
+      })
+      .filter((l) => l.source && l.target && l.source !== l.target) as LinkData[], // Remove self-loops and invalid links
   }
 
   // we virtualize the simulation and use pixi to actually render it
@@ -238,6 +268,10 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
   const linkRenderData: LinkRenderData[] = []
+
+  // Animation state for current node ring (playing_as model)
+  let currentNodeRing: Graphics | null = null
+  let ringPhase = 0
   const nodeRenderData: NodeRenderData[] = []
   function updateHoverInfo(newHoveredId: string | null) {
     hoveredNodeId = newHoveredId
@@ -425,6 +459,15 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       .circle(0, 0, nodeRadius(n))
       .fill({ color: isTagNode ? computedStyleMap["--light"] : nodeColor })
       .stroke({ width: isTagNode ? 2 : 0, color: nodeColor })
+
+    // Add animated ring for current page node (playing_as model)
+    if (nodeId === slug) {
+      const ring = new Graphics({ interactive: false, eventMode: "none" })
+      gfx.addChild(ring)
+      currentNodeRing = ring
+    }
+
+    gfx
       .on("pointerover", (e) => {
         updateHoverInfo(e.target.label)
         oldLabelOpacity = label.alpha
@@ -564,6 +607,25 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     }
 
     tweens.forEach((t) => t.update(time))
+
+    // Animate current node ring (pause when hovering)
+    if (currentNodeRing && hoveredNodeId === null) {
+      ringPhase += 0.04
+      const node = nodeRenderData.find((n) => n.simulationData.id === slug)
+      if (node) {
+        const baseRadius = nodeRadius(node.simulationData)
+        const scale = 1.3 + Math.sin(ringPhase) * 0.2 // 1.3x to 1.5x range
+        const alpha = 0.3 + Math.sin(ringPhase) * 0.2 // 30% to 50% opacity
+
+        currentNodeRing.clear()
+        currentNodeRing.circle(0, 0, baseRadius * scale)
+        currentNodeRing.stroke({ width: 2, color: node.color, alpha })
+      }
+    } else if (currentNodeRing && hoveredNodeId !== null) {
+      // Clear ring when hovering (paused state)
+      currentNodeRing.clear()
+    }
+
     app.renderer.render(stage)
     requestAnimationFrame(animate)
   }

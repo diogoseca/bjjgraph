@@ -40,6 +40,12 @@ const defaultOptions: BreadcrumbOptions = {
   showCurrentPage: true,
 }
 
+function stripTitleSuffix(title: string): string {
+  // Remove " | BJJ Technique | BJJ Graph" and similar suffixes
+  // Pattern: " | [Type] | BJJ Graph" where type can be any content type
+  return title.split(" | ")[0].trim()
+}
+
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
   return {
     displayName: displayName.replaceAll("-", " "),
@@ -116,7 +122,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       // Add current file to crumb (can directly use frontmatter title)
       if (options.showCurrentPage && slugParts.at(-1) !== "index") {
         crumbs.push({
-          displayName: fileData.frontmatter!.title,
+          displayName: stripTitleSuffix(fileData.frontmatter!.title),
           path: "",
         })
       }

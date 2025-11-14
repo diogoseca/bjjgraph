@@ -15,18 +15,6 @@ const observer = new IntersectionObserver((entries) => {
   }
 })
 
-function toggleExplorer(this: HTMLElement) {
-  this.classList.toggle("collapsed")
-  this.setAttribute(
-    "aria-expanded",
-    this.getAttribute("aria-expanded") === "true" ? "false" : "true",
-  )
-  const content = this.nextElementSibling as MaybeHTMLElement
-  if (!content) return
-
-  content.classList.toggle("collapsed")
-}
-
 function toggleFolder(evt: MouseEvent) {
   evt.stopPropagation()
   const target = evt.target as MaybeHTMLElement
@@ -64,9 +52,6 @@ function setupExplorer() {
       window.addCleanup(() => item.removeEventListener("click", toggleFolder))
     }
   }
-
-  explorer.addEventListener("click", toggleExplorer)
-  window.addCleanup(() => explorer.removeEventListener("click", toggleExplorer))
 
   // Set up click handlers for each folder (click handler on folder "icon")
   for (const item of document.getElementsByClassName(

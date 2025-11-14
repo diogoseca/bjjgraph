@@ -23,32 +23,6 @@
   }*/
 }
 
-button#explorer {
-  background-color: transparent;
-  border: none;
-  text-align: left;
-  cursor: pointer;
-  padding: 0;
-  color: var(--dark);
-  display: flex;
-  align-items: center;
-
-  & h2 {
-    font-size: 1rem;
-    display: inline-block;
-    margin: 0;
-  }
-
-  & .fold {
-    margin-left: 0.5rem;
-    transition: transform 0.3s ease;
-    opacity: 0.8;
-  }
-
-  &.collapsed .fold {
-    transform: rotateZ(-90deg);
-  }
-}
 
 .folder-outer {
   display: grid;
@@ -69,19 +43,6 @@ button#explorer {
   overflow: hidden;
   overflow-y: auto;
   max-height: 100%;
-  transition:
-    max-height 0.35s ease,
-    visibility 0s linear 0s;
-  margin-top: 0.5rem;
-  visibility: visible;
-
-  &.collapsed {
-    max-height: 0;
-    transition:
-      max-height 0.35s ease,
-      visibility 0s linear 0.35s;
-    visibility: hidden;
-  }
 
   & ul {
     list-style: none;
