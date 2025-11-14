@@ -4,7 +4,7 @@
 
 ---
 title: "Twister Control | BJJ Position Guide | BJJ Graph"
-description: "Master Twister Control position in BJJ. Complete strategic guide covering entries, back exposure mechanics, and path to Twister submission with detailed analysis."
+description: "Master Twister Control in BJJ. Complete guide covering entries, spinal rotation mechanics, submission paths, and strategic analysis for 10th Planet techniques."
 ---
 
 
@@ -20,13 +20,13 @@ description: "Master Twister Control position in BJJ. Complete strategic guide c
 
 Twister Control represents one of Brazilian Jiu-Jitsu's most distinctive control positions, originating from Eddie Bravo's 10th Planet system and gaining prominence through high-level no-gi competition. This position creates a unique biomechanical dilemma by combining back exposure with spinal rotation, forcing the opponent into an extremely uncomfortable configuration that severely limits their defensive options.
 
-The position exists at the intersection of back control and spinal manipulation, creating what Danaher describes as "rotational constraint under load." Unlike traditional back control where the focus is on attacking the neck and arms, Twister Control emphasizes spinal torque and lower body immobilization. The top player controls the opponent's upper body with what resembles a modified truck position while simultaneously controlling one leg and creating rotation through the spine.
+The position exists at the intersection of back control and spinal manipulation, creating what can be described as rotational constraint under load. Unlike traditional back control where the focus is on attacking the neck and arms, Twister Control emphasizes spinal torque and lower body immobilization. The top player controls the opponent's upper body with what resembles a modified truck position while simultaneously controlling one leg and creating rotation through the spine.
 
 From a strategic perspective, Twister Control represents a high-risk, high-reward position. The bottom player faces immediate submission danger from the Twister itself, as well as various neck attacks and limb controls. However, the position's unconventional nature means that escapes, while difficult, can lead to scrambles if the top player's control breaks down. The energy cost for maintaining this position is moderate to high, as it requires constant adjustments to maintain the rotational pressure while preventing the opponent from aligning their spine.
 
-The position gained widespread attention through Eddie Bravo's competition success and his students' performances in high-level no-gi events. Gordon Ryan has noted that while the Twister finish itself may be lower percentage at elite levels, the control position creates opportunities for various attacks including guillotines, arm attacks, and transitions to more traditional back control. The key is understanding that Twister Control is fundamentally about creating and maintaining spinal rotation, which compromises the opponent's ability to defend or escape effectively.
+The position gained widespread attention through competitive success and high-level no-gi demonstrations. While the Twister finish itself may be lower percentage at elite levels, the control position creates opportunities for various attacks including guillotines, arm attacks, and transitions to more traditional back control. The key is understanding that Twister Control is fundamentally about creating and maintaining spinal rotation, which compromises the opponent's ability to defend or escape effectively.
 
-Understanding the biomechanical principles of Twister Control requires examining how rotational forces affect the body's defensive structures. When the spine is twisted, the core muscles that typically generate explosive escape movements become compromised. The bottom player cannot effectively bridge, cannot generate hip escape movements in the normal direction, and finds their breathing restricted by the combination of rotation and pressure. This creates what Danaher calls "systemic mechanical failure" where multiple defensive systems are simultaneously compromised.
+Understanding the biomechanical principles of Twister Control requires examining how rotational forces affect the body's defensive structures. When the spine is twisted, the core muscles that typically generate explosive escape movements become compromised. The bottom player cannot effectively bridge, cannot generate hip escape movements in the normal direction, and finds their breathing restricted by the combination of rotation and pressure. This creates systemic mechanical failure where multiple defensive systems are simultaneously compromised.
 
 The position's effectiveness scales with skill level and understanding. Beginners often struggle to maintain the necessary leg control and rotation, allowing opponents to simply turn into them and escape. Intermediate practitioners develop better pressure and control but may fixate too heavily on the Twister submission itself. Advanced practitioners understand Twister Control as a position from which multiple attacks flow, with the Twister finish being just one option in a broader offensive system.
 
@@ -61,14 +61,11 @@ The position's effectiveness scales with skill level and understanding. Beginner
 
 
 
-| &nbsp; | Bottom | Top |
-|--------|--------|-----|
-| **Position Type** | Defensive | Offensive/Controlling |
-| **Risk Level** | High | Medium |
-| **Energy Cost** | Medium | Medium |
-| **Time** | Short | Short to Medium |
-
-**Key Difference:** Spinal rotation control with unique finishes
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
+| [[Twister Control]] | High | Medium | Medium | Medium | Spinal rotation control with unique finishes |
+| [[Truck]] | High | Medium | Medium | Medium | Leg entanglement creates dual spinal threats |
+| [[Twister Side Control]] | High | Medium | High | Medium | Lateral torque control for spinal submissions |
 
 
 
@@ -144,10 +141,6 @@ The position's effectiveness scales with skill level and understanding. Beginner
   - Consequence: Drastically increases opponent's control and submission options
   - ✅ Correction: Fight aggressively to keep free leg away from opponent's control
 
-- ❌ **Attempting to roll against the direction of the twist**
-  - Consequence: Increases rotational force and tightens opponent's submission
-  - ✅ Correction: If rolling, move in direction of twist to release pressure, not against it
-
 
 </section>
 
@@ -197,18 +190,6 @@ The position's effectiveness scales with skill level and understanding. Beginner
 - **[[Arm Triangle]]** → [[Won by Submission]]
   - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
 
-- **[[Crab Ride to Back]]** → [[Crab Ride]]
-  - Success Rate: Beginner 35%, Intermediate 48%, Advanced 62%
-
-- **[[Armbar from Back]]** → [[Won by Submission]]
-  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
-
-- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
-  - Success Rate: Beginner 15%, Intermediate 28%, Advanced 42%
-
-- **[[Banana Split]]** → [[Won by Submission]]
-  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 38%
-
 
 ### Common Mistakes
 
@@ -232,14 +213,6 @@ The position's effectiveness scales with skill level and understanding. Beginner
 - ❌ **Rising too high off opponent losing chest pressure and weight**
   - Consequence: Opponent creates space to turn, breathe, and begin escape sequence
   - ✅ Correction: Maintain heavy chest pressure and weight distribution throughout position
-
-- ❌ **Attempting Twister when opponent has already defended and reduced rotation**
-  - Consequence: Wasted energy on low-percentage finish attempt
-  - ✅ Correction: Recognize when Twister window has closed and transition to alternative attacks
-
-- ❌ **Failing to transition when Twister Control begins breaking down**
-  - Consequence: Complete loss of position instead of maintaining offensive control
-  - ✅ Correction: Develop awareness of when to transition to back control, crab ride, or front headlock
 
 
 </section>

@@ -4,7 +4,7 @@
 
 ---
 title: "Twister Control Top | BJJ Position Guide | BJJ Graph"
-description: "Master offensive strategies from Twister Control Top. Complete guide to maintaining spinal rotation, submission chains, and transition options from this dominant position."
+description: "Master offensive strategies from Twister Control Top. Complete guide covering spinal rotation mechanics, submission chains, and advanced transition techniques."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Twister Control Top",
-  "description": "Master offensive strategies from Twister Control Top. Complete guide to maintaining spinal rotation, submission chains, and transition options from this dominant position.",
+  "description": "Master offensive strategies from Twister Control Top. Complete guide covering spinal rotation mechanics, submission chains, and advanced transition techniques.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,11 +160,11 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
 
 <section id="overview" class="content-section">
 
-Twister Control Top represents one of the most unique and effective control positions in modern no-gi Brazilian Jiu-Jitsu, combining elements of back control with spinal manipulation to create an extremely uncomfortable and submission-rich position. Developed and popularized by Eddie Bravo and the 10th Planet system, this position has proven effective at the highest levels of competition when properly understood and applied. The fundamental concept revolves around controlling the opponent through rotational constraint of their spine, which simultaneously compromises their defensive capabilities while opening multiple offensive opportunities.
+Twister Control Top represents one of the most unique and effective control positions in modern no-gi Brazilian Jiu-Jitsu, combining elements of back control with spinal manipulation to create an extremely uncomfortable and submission-rich position. This position has proven effective at the highest levels of competition when properly understood and applied. The fundamental concept revolves around controlling the opponent through rotational constraint of their spine, which simultaneously compromises their defensive capabilities while opening multiple offensive opportunities.
 
-The position is characterized by the top player controlling one of the opponent's legs while simultaneously controlling their upper body in a way that creates and maintains spinal rotation. Unlike traditional back control where the focus is primarily on attacking the neck and arms, Twister Control emphasizes the creation of torque through the opponent's entire spinal column. This torque creates what Danaher describes as 'systemic mechanical failure' where the opponent cannot effectively utilize their normal defensive structures.
+The position is characterized by the top player controlling one of the opponent's legs while simultaneously controlling their upper body in a way that creates and maintains spinal rotation. Unlike traditional back control where the focus is primarily on attacking the neck and arms, Twister Control emphasizes the creation of torque through the opponent's entire spinal column. This torque creates systemic mechanical failure where the opponent cannot effectively utilize their normal defensive structures.
 
-From a strategic standpoint, Twister Control offers several significant advantages over traditional back control positions. First, it is extremely difficult for the opponent to generate the explosive hip movements that typically enable escapes from back control. Second, the rotational constraint creates breathing difficulties for the opponent, accelerating their fatigue. Third, the position offers multiple submission pathways including the Twister itself, various guillotine variations, arm attacks, and transitions to more traditional back control. Gordon Ryan has noted that while the Twister finish itself may be lower percentage at elite levels, the control position creates reliable opportunities for other submissions and positional advancements.
+From a strategic standpoint, Twister Control offers several significant advantages over traditional back control positions. First, it is extremely difficult for the opponent to generate the explosive hip movements that typically enable escapes from back control. Second, the rotational constraint creates breathing difficulties for the opponent, accelerating their fatigue. Third, the position offers multiple submission pathways including the Twister itself, various guillotine variations, arm attacks, and transitions to more traditional back control. While the Twister finish itself may be lower percentage at elite levels, the control position creates reliable opportunities for other submissions and positional advancements.
 
 The effectiveness of Twister Control scales significantly with technical understanding and practice. Beginners often struggle to coordinate the leg control with the upper body control, allowing opponents to simply turn into them and escape. Intermediate practitioners develop better mechanical understanding but may focus too heavily on the Twister submission itself, missing opportunities for higher-percentage attacks. Advanced practitioners understand Twister Control as a position from which multiple attacks flow naturally, with constant adjustments to maintain control while hunting for finishing opportunities.
 
@@ -178,9 +178,9 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 ## Position Definition
 
-- You maintain control of at least one of the opponent's legs, preventing them from turning into you and escaping the rotational constraint. Your leg configuration creates a mechanical barrier that maintains the angle necessary for spinal rotation. This leg control is the foundation of the entire position and must be prioritized.
-- The opponent's spine is twisted with their shoulders and hips facing different directions, creating rotational torque through their spinal column. You maintain this rotation through the coordination of your leg control and upper body positioning. The degree of rotation determines the effectiveness of your control and the submission opportunities available.
-- Your upper body controls the opponent through a position resembling the truck or modified back control, with your arms positioned to attack the neck, head, or arms. Your chest pressure and arm positioning work in coordination with your leg control to maintain the overall position. You are positioned to transition between multiple submission attacks based on the opponent's defensive reactions.
+- You maintain control of at least one of the opponent's legs, preventing them from turning into you and escaping the rotational constraint
+- The opponent's spine is twisted with their shoulders and hips facing different directions, creating rotational torque through their spinal column
+- Your upper body controls the opponent through a position resembling the truck or modified back control
 
 
 </section>
@@ -192,8 +192,6 @@ One critical aspect that differentiates elite-level Twister Control from interme
 - You have established truck position or similar back exposure control on opponent
 - You have captured at least one of opponent's legs with your leg control
 - Opponent's spine is twisted with shoulders and hips misaligned
-- You have upper body control through grips on opponent's neck, head, or arms
-- Opponent cannot simply turn to face you due to your leg and positional barriers
 
 
 </section>
@@ -259,34 +257,6 @@ One critical aspect that differentiates elite-level Twister Control from interme
 - Intermediate: 32%
 - Advanced: 48%
 
-### [[Crab Ride to Back]] → [[Crab Ride]]
-
-**Success Rates:**
-- Beginner: 35%
-- Intermediate: 48%
-- Advanced: 62%
-
-### [[Armbar from Back]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 25%
-- Intermediate: 40%
-- Advanced: 55%
-
-### [[Bow and Arrow Choke]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 15%
-- Intermediate: 28%
-- Advanced: 42%
-
-### [[Banana Split]] → [[Won by Submission]]
-
-**Success Rates:**
-- Beginner: 12%
-- Intermediate: 25%
-- Advanced: 38%
-
 
 
 </section>
@@ -298,9 +268,7 @@ One critical aspect that differentiates elite-level Twister Control from interme
 - **[[Leg Extraction Defense]]** → [[Turtle]] (Opponent Success: 35%)
 - **[[Roll Through Escape]]** → [[Half Guard]] (Opponent Success: 28%)
 - **[[Frame and Turn Escape]]** → [[Turtle]] (Opponent Success: 32%)
-- **[[Explosive Bridge]]** → [[Scramble Position]] (Opponent Success: 20%)
 - **[[Hand Fighting]]** → [[Twister Control]] (Opponent Success: 40%)
-- **[[Spinal Realignment]]** → [[Back Control]] (Opponent Success: 25%)
 
 
 </section>
@@ -313,12 +281,8 @@ One critical aspect that differentiates elite-level Twister Control from interme
   - Opponent begins to extract trapped leg from your control
 - **[[Transition to Traditional Back Control]]** → [[Back Control]]
   - Twister Control begins to break down but back exposure remains
-- **[[Switch to Guillotine]]** → [[Guillotine Control]]
+- **[[Switch to Guillotine]]** → [[Won by Submission]]
   - Opponent turns into you to escape Twister creating neck exposure
-- **[[Adjust to Crab Ride]]** → [[Crab Ride]]
-  - Leg control needs repositioning while maintaining back exposure
-- **[[Arm Attack Counter]]** → [[Armbar Control]]
-  - Opponent extends arm while hand fighting your controls
 
 
 </section>
@@ -340,11 +304,6 @@ One critical aspect that differentiates elite-level Twister Control from interme
 **Opponent is working to free trapped leg:**
 - Execute **[[Recapture Leg Immediately]]** → [[Twister Control]] (Probability: 70%)
 - Execute **[[Transition to Back Control]]** → [[Back Control]] (Probability: 65%)
-
-
-**Opponent attempts to roll through to escape rotation:**
-- Execute **[[Follow Roll and Tighten Control]]** → [[Twister Control]] (Probability: 60%)
-- Execute **[[Capture Neck During Roll]]** → [[Won by Submission]] (Probability: 55%)
 
 
 **Opponent turns into you sacrificing back to escape twist:**
@@ -385,16 +344,6 @@ One critical aspect that differentiates elite-level Twister Control from interme
 - ❌ **Consequence**: Opponent creates space to turn, breathe, and begin escape sequence
 - ✅ **Correction**: Maintain heavy chest pressure and weight distribution throughout position
 
-### 6. Attempting Twister when opponent has already defended and reduced rotation
-
-- ❌ **Consequence**: Wasted energy on low-percentage finish attempt
-- ✅ **Correction**: Recognize when Twister window has closed and transition to alternative attacks
-
-### 7. Failing to transition when Twister Control begins breaking down
-
-- ❌ **Consequence**: Complete loss of position instead of maintaining offensive control
-- ✅ **Correction**: Develop awareness of when to transition to back control, crab ride, or front headlock
-
 
 
 </section>
@@ -424,20 +373,6 @@ Isolate leg control aspect of Twister Control. Practice maintaining leg control 
 **Duration**: 3 minutes
 
 
-### Truck to Twister Control Transition
-
-Start from truck position and practice transitioning to full Twister Control. Partner provides moderate resistance. Focus on coordinating leg and upper body control during transition.
-
-**Duration**: 4 minutes
-
-
-### Pressure and Weight Distribution
-
-From established Twister Control, practice maintaining heavy pressure while adjusting weight distribution. Partner attempts to create space. Focus on pressure without attempting submissions.
-
-**Duration**: 3 minutes
-
-
 
 
 </section>
@@ -461,10 +396,6 @@ From established Twister Control, practice maintaining heavy pressure while adju
 ### Back Control Consolidation
 
 `Twister Control → Position unstable → Back Control → Rear Naked Choke → Won by Submission`
-
-### Arm Attack Opportunity
-
-`Twister Control → Opponent hand fights → Armbar from Back → Won by Submission`
 
 
 
@@ -491,7 +422,7 @@ From established Twister Control, practice maintaining heavy pressure while adju
 
 ### John Danaher
 
-Twister Control represents an elegant solution to one of jiu-jitsu's fundamental problems - how to control an opponent in a way that simultaneously compromises multiple defensive systems. The genius of the position lies in its use of rotational forces applied to the spine. When the spine is twisted, the core musculature that generates explosive escape movements becomes mechanically compromised. The position creates what I call 'compound control' - your leg control prevents linear escape movements, your upper body control prevents rotational escapes, and the combination creates spinal torque that compromises strength generation. The key to elite-level application is understanding that Twister Control is not primarily about the Twister submission itself, but rather about using the positional control to create multiple submission opportunities. When your opponent defends the neck, attack the arms. When they defend the arms, return to the neck or transition to more traditional back control. The position's real power lies in the forced reactions it creates and your ability to capitalize on those reactions with multiple offensive pathways.
+Twister Control represents an elegant solution to one of jiu-jitsu's fundamental problems - how to control an opponent in a way that simultaneously compromises multiple defensive systems. The genius of the position lies in its use of rotational forces applied to the spine. When the spine is twisted, the core musculature that generates explosive escape movements becomes mechanically compromised. The position creates what I call compound control - your leg control prevents linear escape movements, your upper body control prevents rotational escapes, and the combination creates spinal torque that compromises strength generation. The key to elite-level application is understanding that Twister Control is not primarily about the Twister submission itself, but rather about using the positional control to create multiple submission opportunities. When your opponent defends the neck, attack the arms. When they defend the arms, return to the neck or transition to more traditional back control. The position's real power lies in the forced reactions it creates and your ability to capitalize on those reactions with multiple offensive pathways.
 
 ### Gordon Ryan
 
@@ -508,15 +439,10 @@ The Twister Control is the heart and soul of what we do at 10th Planet, and it's
 ## Related Positions and Techniques
 
 - **[[Truck]]** - Primary entry position leading to Twister Control
-- **[[Twister]]** - Primary submission finish from this control position
 - **[[Back Control]]** - Alternative control position to transition to when Twister Control breaks down
 - **[[Crab Ride]]** - Related back exposure position with similar control concepts
-- **[[Guillotine Choke]]** - High-percentage submission when opponent turns into you
-- **[[Calf Slicer from Truck]]** - Alternative leg attack from similar position
 - **[[Lockdown]]** - Bottom position in 10th Planet system that leads to truck and Twister entries
 - **[[Turtle]]** - Common starting position for entries into Twister system
-- **[[Twister System]]** - Complete systematic approach to this position and related techniques
-- **[[10th Planet Half Guard Bottom System]]** - System that includes pathways leading to Twister Control
 
 
 </section>

@@ -4,7 +4,7 @@
 
 ---
 title: "Twister Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master defensive strategies for Twister Control Bottom. Learn escape sequences, rotation reduction techniques, and critical safety protocols for this dangerous position."
+description: "Master defensive strategies for Twister Control Bottom. Learn escape sequences, rotation reduction techniques, and critical safety protocols for this position."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master defensive strategies for Twister Control Bottom. Learn esca
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Twister Control Bottom",
-  "description": "Master defensive strategies for Twister Control Bottom. Learn escape sequences, rotation reduction techniques, and critical safety protocols for this dangerous position.",
+  "description": "Master defensive strategies for Twister Control Bottom. Learn escape sequences, rotation reduction techniques, and critical safety protocols for this position.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -162,13 +162,13 @@ description: "Master defensive strategies for Twister Control Bottom. Learn esca
 
 Being caught in Twister Control Bottom represents one of the most uncomfortable and dangerous positions in Brazilian Jiu-Jitsu. The combination of spinal rotation, leg immobilization, and upper body control creates a biomechanical nightmare where standard escape mechanisms are severely compromised. Understanding how to survive and escape this position is critical for any no-gi practitioner, as the consequences of poor defensive choices can range from submission to potential injury.
 
-The fundamental problem when stuck in Twister Control Bottom is the rotational constraint applied to your spine. Your upper body is being pulled in one direction while your lower body is controlled and twisted in another, creating torque through your entire spinal column. This rotation compromises your core strength, restricts your breathing, and prevents the generation of explosive movements that typically enable escapes from difficult positions. Eddie Bravo designed this position specifically to neutralize the defensive advantages that flexible and athletic opponents typically possess.
+The fundamental problem when stuck in Twister Control Bottom is the rotational constraint applied to your spine. Your upper body is being pulled in one direction while your lower body is controlled and twisted in another, creating torque through your entire spinal column. This rotation compromises your core strength, restricts your breathing, and prevents the generation of explosive movements that typically enable escapes from difficult positions. This position was designed specifically to neutralize the defensive advantages that flexible and athletic opponents typically possess.
 
-From a defensive perspective, the primary goal is preventing the completion of the Twister finish itself while simultaneously working to reduce the spinal rotation and regain alignment. This requires a systematic approach that addresses both the leg control and the upper body control. Simply attempting to power out or scramble aggressively often results in increased rotation and accelerated submission. Gordon Ryan emphasizes that escape from Twister Control requires calculated, precise movements rather than explosive panic reactions.
+From a defensive perspective, the primary goal is preventing the completion of the Twister finish itself while simultaneously working to reduce the spinal rotation and regain alignment. This requires a systematic approach that addresses both the leg control and the upper body control. Simply attempting to power out or scramble aggressively often results in increased rotation and accelerated submission. Escape from Twister Control requires calculated, precise movements rather than explosive panic reactions.
 
 The position becomes progressively more dangerous as the top player establishes their controls more deeply. Initially, when first entering Twister Control, there may be opportunities to prevent the leg from being fully captured or to resist the initial rotation. Once the position is fully established with deep leg control and significant spinal rotation, escape options become severely limited. At this stage, protecting the neck becomes the primary concern, as various guillotine and neck crank options become available to the top player.
 
-One critical aspect that Danaher emphasizes is understanding the mechanics of how the position creates submission opportunities. The Twister itself works through a combination of spinal rotation and posterior neck pressure. If the twisting force is too great, cervical spine injuries can occur. This makes tap timing critical - unlike some submissions where you can fight until the last moment, the Twister requires early recognition and submission to prevent injury. The bottom player must develop the awareness to recognize when escape is no longer possible and submission is necessary for safety.
+One critical aspect is understanding the mechanics of how the position creates submission opportunities. The Twister itself works through a combination of spinal rotation and posterior neck pressure. If the twisting force is too great, cervical spine injuries can occur. This makes tap timing critical - unlike some submissions where you can fight until the last moment, the Twister requires early recognition and submission to prevent injury. The bottom player must develop the awareness to recognize when escape is no longer possible and submission is necessary for safety.
 
 The energy dynamics of being stuck in Twister Control Bottom are particularly challenging. The twisted position restricts breathing, making it difficult to maintain composure and work systematically through escape sequences. The longer you remain in the position, the more your defensive options deteriorate as fatigue sets in and the top player adjusts their controls. This creates urgency to escape quickly while simultaneously requiring the composure to not panic and make the position worse through poorly executed escape attempts.
 
@@ -178,9 +178,9 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ## Position Definition
 
-- Your spine is in a rotated, twisted position with your upper body facing one direction while your hips and legs are controlled facing another direction. One of your legs is typically trapped and controlled by the opponent, creating the foundation for the rotational control. Your neck and head positioning is compromised, making you vulnerable to various choke and neck attack options.
-- The opponent controls your upper body through a position resembling the truck or modified back control, with their arms creating constraint around your neck, head, or shoulders. This upper body control works in coordination with their leg control to maintain the spinal rotation. Your ability to turn your upper body to face the opponent is severely limited by their grips and positioning.
-- Your trapped leg is controlled in a way that prevents you from simply turning into the opponent to alleviate the spinal rotation. The opponent's leg configuration creates a mechanical barrier that must be addressed before any meaningful escape can occur. Your ability to generate power from your hips and legs is significantly compromised by this control, leaving you dependent on upper body movements and small technical adjustments for escape.
+- Your spine is in a rotated, twisted position with your upper body facing one direction while your hips and legs are controlled facing another direction
+- One of your legs is typically trapped and controlled by the opponent, creating the foundation for the rotational control
+- Your neck and head positioning is compromised, making you vulnerable to various choke and neck attack options
 
 
 </section>
@@ -192,8 +192,6 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 - Opponent has established truck position or similar back exposure control
 - At least one of your legs is controlled or trapped by opponent's legs
 - Your spine is twisted with shoulders and hips facing different directions
-- Opponent has upper body control through grips on neck, head, or arms
-- You are unable to simply turn and face opponent due to leg and upper body constraints
 
 
 </section>
@@ -267,11 +265,10 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ## Opponent Counters
 
-- **[[Neck Protection]]** → [[Twister Control]] (Opponent Success: 70%)
-- **[[Hip Alignment]]** → [[Twister Control]] (Opponent Success: 45%)
-- **[[Hand Fighting]]** → [[Twister Control]] (Opponent Success: 40%)
-- **[[Leg Recapture Prevention]]** → [[Truck]] (Opponent Success: 50%)
-- **[[Bridge Against Rotation]]** → [[Twister Control]] (Opponent Success: 35%)
+- **[[Twister Finish]]** → [[Lost by Submission]] (Opponent Success: 70%)
+- **[[Neck Crank]]** → [[Lost by Submission]] (Opponent Success: 55%)
+- **[[Guillotine Choke]]** → [[Lost by Submission]] (Opponent Success: 50%)
+- **[[Calf Slicer from Truck]]** → [[Lost by Submission]] (Opponent Success: 45%)
 
 
 </section>
@@ -348,11 +345,6 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 - ❌ **Consequence**: Drastically increases opponent's control and submission options
 - ✅ **Correction**: Fight aggressively to keep free leg away from opponent's control
 
-### 6. Attempting to roll against the direction of the twist
-
-- ❌ **Consequence**: Increases rotational force and tightens opponent's submission
-- ✅ **Correction**: If rolling, move in direction of twist to release pressure, not against it
-
 
 
 </section>
@@ -380,13 +372,6 @@ From established Twister Control, work specifically on reducing spinal rotation 
 Practice hand fighting and neck protection while in rotated position. Partner attempts various neck attacks while you defend and work escape fundamentals.
 
 **Duration**: 4 minutes
-
-
-### Leg Extraction Technical Drill
-
-Isolate the leg extraction movement from Twister Control. Partner controls leg statically while you practice various methods to free your trapped leg.
-
-**Duration**: 3 minutes
 
 
 
@@ -434,7 +419,7 @@ Isolate the leg extraction movement from Twister Control. Partner controls leg s
 
 ### John Danaher
 
-Twister Control Bottom represents what I call 'compound mechanical failure' - the position simultaneously compromises spinal integrity, breathing mechanics, and power generation from the hips. The key to defense is understanding that this is not a position you survive through toughness or flexibility alone. You must work systematically to address the mechanical problems in sequence: first protect the neck from immediate submission, then reduce the leg control that maintains rotation, and finally realign the spine to enable conventional escape mechanisms. The mistake most people make is attempting to generate explosive movement while the spine is still under rotational load, which only increases the submission danger. This position requires technical precision and systematic problem-solving under extreme discomfort.
+Twister Control Bottom represents what I call compound mechanical failure - the position simultaneously compromises spinal integrity, breathing mechanics, and power generation from the hips. The key to defense is understanding that this is not a position you survive through toughness or flexibility alone. You must work systematically to address the mechanical problems in sequence: first protect the neck from immediate submission, then reduce the leg control that maintains rotation, and finally realign the spine to enable conventional escape mechanisms. The mistake most people make is attempting to generate explosive movement while the spine is still under rotational load, which only increases the submission danger. This position requires technical precision and systematic problem-solving under extreme discomfort.
 
 ### Gordon Ryan
 
@@ -453,11 +438,8 @@ The Twister Control is the heart of the 10th Planet system and it's designed to 
 - **[[Truck]]** - Primary preceding position that leads to Twister Control
 - **[[Back Control]]** - Alternative position opponent may transition to from similar entry
 - **[[Turtle]]** - Common escape destination when defending Twister Control
-- **[[Twister]]** - Primary submission threat from this position
 - **[[Crab Ride]]** - Related back exposure position with similar control concepts
 - **[[Lockdown]]** - Bottom position that can lead to opponent's Twister Control entries
-- **[[Half Guard]]** - Potential recovery position after successful escape
-- **[[Side Control Escapes]]** - Related defensive principles applicable to escaping rotational control
 
 
 </section>

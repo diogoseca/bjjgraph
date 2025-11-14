@@ -1130,11 +1130,11 @@ Complete guide to all BJJ positions. Learn the positional hierarchy, point value
 **[[Triangle Control]]** - Master Triangle Control in BJJ. Dominant submission platform with 75% finish rate at advanced levels. Learn setup, control mechanics, and submission chains.
 
 
-### Twister
+### Twister Control
 
 **[[Truck]]** - Master Truck Position in BJJ with comprehensive bottom and top perspective analysis. Defensive survival guide and offensive submission system covering twister, calf slicer, and back attacks.
 
-**[[Twister Control]]** - Master Twister Control position in BJJ. Complete strategic guide covering entries, back exposure mechanics, and path to Twister submission with detailed analysis.
+**[[Twister Control]]** - Master Twister Control in BJJ. Complete guide covering entries, spinal rotation mechanics, submission paths, and strategic analysis for 10th Planet techniques.
 
 **[[Twister Side Control]]** - Master twister side control in BJJ. Complete strategic guide covering control maintenance, submission threats, and perspective-specific tactics with success rates.
 
