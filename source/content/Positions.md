@@ -1,7 +1,6 @@
 ---
-title: "BJJ Positions - Complete Guide | BJJ Graph"
+title: "Positions | BJJ Position Guide | BJJ Graph"
 description: "Complete guide to all BJJ positions. Learn the positional hierarchy, point values, and transitions. From standing to submissions - master every position in Brazilian Jiu-Jitsu."
-aliases: ["BJJ-Positions"]
 ---
 
 <!-- Schema Markup for SEO -->
@@ -9,7 +8,7 @@ aliases: ["BJJ-Positions"]
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "BJJ Positions - Complete Guide",
+  "name": "Positions | BJJ Position Guide",
   "description": "Complete guide to all BJJ positions. Learn the positional hierarchy, point values, and transitions. From standing to submissions - master every position in Brazilian Jiu-Jitsu.",
   "url": "https://bjjgraph.org/positions",
   "isPartOf": {
@@ -963,20 +962,18 @@ aliases: ["BJJ-Positions"]
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "BJJ Positions - Complete Guide",
-      "item": "https://bjjgraph.org/bjj-positions"
+      "name": "Positions",
+      "item": "https://bjjgraph.org/positions"
     }
   ]
 }
 </script>
 
-# BJJ Positions: Complete Guide
-
 Complete guide to all BJJ positions. Learn the positional hierarchy, point values, and transitions. From standing to submissions - master every position in Brazilian Jiu-Jitsu.
 
 ---
 
-## All Positions
+## Positions
 
 ### Ashi Garami
 
@@ -1323,18 +1320,3 @@ Complete guide to all BJJ positions. Learn the positional hierarchy, point value
 **[[Z-Guard]]** - Master Z-Guard in BJJ. Advanced knee shield variation with high shoulder framing. Complete guide covering setup, control, sweeps, and transitions with expert insights.
 
 
----
-
-## Statistics
-
-- **Total Positions**: 153
-- **Items with complete content**: 153
-- **Items needing JSON updates**: 0
-- **Last Updated**: November 14, 2025
-
----
-
-## Related Resources
-
-- [[BJJ State Machine]] - Complete positional graph
-- [[BJJ Graph]] - Home page

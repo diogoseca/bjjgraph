@@ -1,7 +1,6 @@
 ---
-title: "BJJ Submissions - Complete Guide | BJJ Graph"
+title: "Submissions | BJJ Technique Guide | BJJ Graph"
 description: "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights."
-aliases: ["BJJ-Submissions"]
 ---
 
 <!-- Schema Markup for SEO -->
@@ -9,7 +8,7 @@ aliases: ["BJJ-Submissions"]
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "BJJ Submissions - Complete Guide",
+  "name": "Submissions | BJJ Technique Guide",
   "description": "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.",
   "url": "https://bjjgraph.org/submissions",
   "isPartOf": {
@@ -837,20 +836,18 @@ aliases: ["BJJ-Submissions"]
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "BJJ Submissions - Complete Guide",
-      "item": "https://bjjgraph.org/bjj-submissions"
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/submissions"
     }
   ]
 }
 </script>
 
-# BJJ Submissions: Complete Guide
-
 Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.
 
 ---
 
-## All Submissions
+## Submissions
 
 **[[Achilles Lock]]** - Master the Achilles Lock leg submission with comprehensive safety protocols, setup mechanics, and finishing details. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
@@ -1117,18 +1114,3 @@ Master all BJJ submission techniques. Complete guide to chokes, joint locks, and
 **[[Williams Shoulder Lock]]** - Master Williams Shoulder Lock in BJJ. Complete guide with safety protocols, setup from Williams Guard, execution steps. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 
----
-
-## Statistics
-
-- **Total Submissions**: 132
-- **Items with complete content**: 132
-- **Items needing JSON updates**: 0
-- **Last Updated**: November 14, 2025
-
----
-
-## Related Resources
-
-- [[BJJ State Machine]] - Complete positional graph
-- [[BJJ Graph]] - Home page

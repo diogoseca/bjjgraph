@@ -1,7 +1,6 @@
 ---
-title: "BJJ Systems & Methodologies - Complete Guide | BJJ Graph"
+title: "Systems | BJJ Methodology Guide | BJJ Graph"
 description: "Master BJJ through systematic approaches. Complete guide to guard systems, passing systems, leg lock systems, and submission chains. Learn proven methodologies from Danaher, Gordon Ryan, and Eddie Bravo."
-aliases: ["BJJ-Systems"]
 ---
 
 <!-- Schema Markup for SEO -->
@@ -9,7 +8,7 @@ aliases: ["BJJ-Systems"]
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "BJJ Systems & Methodologies - Complete Guide",
+  "name": "Systems | BJJ Methodology Guide",
   "description": "Master BJJ through systematic approaches. Complete guide to guard systems, passing systems, leg lock systems, and submission chains. Learn proven methodologies from Danaher, Gordon Ryan, and Eddie Bravo.",
   "url": "https://bjjgraph.org/systems",
   "isPartOf": {
@@ -327,20 +326,18 @@ aliases: ["BJJ-Systems"]
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "BJJ Systems & Methodologies - Complete Guide",
-      "item": "https://bjjgraph.org/bjj-systems"
+      "name": "Systems",
+      "item": "https://bjjgraph.org/systems"
     }
   ]
 }
 </script>
 
-# BJJ Systems: Complete Guide
-
 Master BJJ through systematic approaches. Complete guide to guard systems, passing systems, leg lock systems, and submission chains. Learn proven methodologies from Danaher, Gordon Ryan, and Eddie Bravo.
 
 ---
 
-## All Systems
+## Systems
 
 **[[10th Planet Half Guard Bottom System]]** - Master 10th Planet Half Guard Bottom System with Lockdown, Electric Chair, and systematic sweeps. Eddie Bravo's revolutionary framework for bottom half guard dominance.
 
@@ -437,18 +434,3 @@ Master BJJ through systematic approaches. Complete guide to guard systems, passi
 **[[Twister System]]** - Master the Twister System in BJJ. Complete framework from lockdown control through truck position to spine lock submissions. Progressive control system.
 
 
----
-
-## Statistics
-
-- **Total Systems**: 47
-- **Items with complete content**: 47
-- **Items needing JSON updates**: 0
-- **Last Updated**: November 14, 2025
-
----
-
-## Related Resources
-
-- [[BJJ State Machine]] - Complete positional graph
-- [[BJJ Graph]] - Home page

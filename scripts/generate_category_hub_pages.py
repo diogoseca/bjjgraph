@@ -44,35 +44,40 @@ class CategoryHubPageGenerator:
         self.categories = {
             "Positions": {
                 "dir": "Positions",
-                "title": "BJJ Positions - Complete Guide",
+                "title": "Positions",
+                "page_title": "Positions | BJJ Position Guide",
                 "description": "Complete guide to all BJJ positions. Learn the positional hierarchy, point values, and transitions. From standing to submissions - master every position in Brazilian Jiu-Jitsu.",
                 "url_slug": "positions",
                 "keywords": "bjj positions, brazilian jiu jitsu positions, bjj position hierarchy"
             },
             "Transitions": {
                 "dir": "Transitions",
-                "title": "BJJ Transitions & Techniques - Complete Guide",
+                "title": "Transitions",
+                "page_title": "Transitions | BJJ Technique Guide",
                 "description": "Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, success rates, and expert insights for 68+ techniques.",
                 "url_slug": "transitions",
                 "keywords": "bjj transitions, bjj techniques, bjj sweeps, guard passes"
             },
             "Submissions": {
                 "dir": "Submissions",
-                "title": "BJJ Submissions - Complete Guide",
+                "title": "Submissions",
+                "page_title": "Submissions | BJJ Technique Guide",
                 "description": "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.",
                 "url_slug": "submissions",
                 "keywords": "bjj submissions, bjj chokes, bjj armlocks, submission techniques"
             },
             "Systems": {
                 "dir": "Systems",
-                "title": "BJJ Systems & Methodologies - Complete Guide",
+                "title": "Systems",
+                "page_title": "Systems | BJJ Methodology Guide",
                 "description": "Master BJJ through systematic approaches. Complete guide to guard systems, passing systems, leg lock systems, and submission chains. Learn proven methodologies from Danaher, Gordon Ryan, and Eddie Bravo.",
                 "url_slug": "systems",
                 "keywords": "bjj systems, bjj methodology, bjj game plan"
             },
             "Principles": {
                 "dir": "Principles",
-                "title": "BJJ Principles & Concepts - Complete Guide",
+                "title": "Principles",
+                "page_title": "Principles | BJJ Concept Guide",
                 "description": "Master fundamental BJJ principles and concepts. Complete guide to leverage, positioning, control, and strategic thinking. Build a deep understanding of the art.",
                 "url_slug": "principles",
                 "keywords": "bjj principles, bjj concepts, bjj fundamentals, bjj theory"
@@ -188,7 +193,7 @@ class CategoryHubPageGenerator:
         webpage_schema = {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": category_info["title"],
+            "name": category_info["page_title"],
             "description": category_info["description"],
             "url": f"https://bjjgraph.org/{category_info['url_slug']}",
             "isPartOf": {
@@ -231,7 +236,7 @@ class CategoryHubPageGenerator:
                     "@type": "ListItem",
                     "position": 2,
                     "name": category_info["title"],
-                    "item": f"https://bjjgraph.org/bjj-{category_info['url_slug']}"
+                    "item": f"https://bjjgraph.org/{category_info['url_slug']}"
                 }
             ]
         }
@@ -292,67 +297,46 @@ class CategoryHubPageGenerator:
     def generate_hub_page(self, category_name: str, items: List[ContentItem]) -> str:
         """Generate complete hub page markdown"""
         category_info = self.categories[category_name]
-        
+
         # Generate schema markup
         schema_markup = self.generate_schema_markup(category_name, items)
-        
+
         # Generate content section
         content_section = self.generate_content_section(category_name, items)
-        
+
         # Count items with fallback descriptions
         fallback_count = sum(1 for item in items if "⚠️ Content being updated" in item.description)
-        
+
         # Build note about content in progress if there are fallback items
         content_note = ""
         if fallback_count > 0:
             content_note = f"""
-> **📝 Note**: {fallback_count} of {len(items)} items are using fallback content while their JSON files are being updated. 
-> Items marked with ⚠️ need their JSON files fixed. Run the generator again after fixing to get complete descriptions.
+> **📝 Note**: Some items are currently being updated. Items marked with ⚠️ will be enhanced with complete descriptions soon.
 
 """
-        
+
         # Build complete page
         hub_page = f"""---
-title: "{category_info['title']} | BJJ Graph"
+title: "{category_info['page_title']} | BJJ Graph"
 description: "{category_info['description']}"
-aliases: ["BJJ-{category_name}"]
 ---
 
 <!-- Schema Markup for SEO -->
 {schema_markup}
 
-# BJJ {category_name}: Complete Guide
-
 {category_info['description']}
 
-{content_note}---
-
-## All {category_name}
+{content_note}
 
 {content_section}
 
----
-
-## Statistics
-
-- **Total {category_name}**: {len(items)}
-- **Items with complete content**: {len(items) - fallback_count}
-- **Items needing JSON updates**: {fallback_count}
-- **Last Updated**: {datetime.now().strftime("%B %d, %Y")}
-
----
-
-## Related Resources
-
-- [[BJJ State Machine]] - Complete positional graph
-- [[BJJ Graph]] - Home page
 """
-        
+
         return hub_page
     
     def save_hub_page(self, category_name: str, content: str, dry_run: bool = False) -> None:
         """Save hub page to file"""
-        output_file = self.source_dir / f"BJJ {category_name}.md"
+        output_file = self.source_dir / f"{category_name}.md"
         
         if dry_run:
             print(f"\n{'='*60}")
@@ -392,10 +376,21 @@ aliases: ["BJJ-{category_name}"]
                 continue
             
             print(f"Found {len(items)} items")
-            
+
+            # Calculate statistics for console output
+            fallback_count = sum(1 for item in items if "⚠️ Content being updated" in item.description)
+            complete_count = len(items) - fallback_count
+
+            # Print statistics to console for developers
+            print(f"\nStatistics for {category}:")
+            print(f"  - Total items: {len(items)}")
+            print(f"  - Items with complete content: {complete_count}")
+            print(f"  - Items needing JSON updates: {fallback_count}")
+            print(f"  - Last generated: {datetime.now().strftime('%B %d, %Y')}")
+
             # Generate hub page
             hub_page_content = self.generate_hub_page(category, items)
-            
+
             # Save to file
             self.save_hub_page(category, hub_page_content, dry_run)
         

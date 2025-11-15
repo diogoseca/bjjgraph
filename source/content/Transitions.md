@@ -1,7 +1,6 @@
 ---
-title: "BJJ Transitions & Techniques - Complete Guide | BJJ Graph"
+title: "Transitions | BJJ Technique Guide | BJJ Graph"
 description: "Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, success rates, and expert insights for 68+ techniques."
-aliases: ["BJJ-Transitions"]
 ---
 
 <!-- Schema Markup for SEO -->
@@ -9,7 +8,7 @@ aliases: ["BJJ-Transitions"]
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "BJJ Transitions & Techniques - Complete Guide",
+  "name": "Transitions | BJJ Technique Guide",
   "description": "Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, success rates, and expert insights for 68+ techniques.",
   "url": "https://bjjgraph.org/transitions",
   "isPartOf": {
@@ -1401,20 +1400,18 @@ aliases: ["BJJ-Transitions"]
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "BJJ Transitions & Techniques - Complete Guide",
-      "item": "https://bjjgraph.org/bjj-transitions"
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/transitions"
     }
   ]
 }
 </script>
 
-# BJJ Transitions: Complete Guide
-
 Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, success rates, and expert insights for 68+ techniques.
 
 ---
 
-## All Transitions
+## Transitions
 
 **[[100% Sweep]]** - Master the 100% Sweep from closed guard. Complete guide covering arm trap mechanics, hip angle creation, and sweep execution. Beginner 20%, Intermediate 40%, Advanced 60%.
 
@@ -1869,18 +1866,3 @@ Master all BJJ transitions and techniques. Complete guide to sweeps, passes, tak
 **[[X-Guard to Ashi Transition]]** - Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg entanglement entry with systematic control breakdown. Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
----
-
-## Statistics
-
-- **Total Transitions**: 226
-- **Items with complete content**: 226
-- **Items needing JSON updates**: 0
-- **Last Updated**: November 14, 2025
-
----
-
-## Related Resources
-
-- [[BJJ State Machine]] - Complete positional graph
-- [[BJJ Graph]] - Home page

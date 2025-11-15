@@ -1,7 +1,6 @@
 ---
-title: "BJJ Principles & Concepts - Complete Guide | BJJ Graph"
+title: "Principles | BJJ Concept Guide | BJJ Graph"
 description: "Master fundamental BJJ principles and concepts. Complete guide to leverage, positioning, control, and strategic thinking. Build a deep understanding of the art."
-aliases: ["BJJ-Principles"]
 ---
 
 <!-- Schema Markup for SEO -->
@@ -9,7 +8,7 @@ aliases: ["BJJ-Principles"]
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "BJJ Principles & Concepts - Complete Guide",
+  "name": "Principles | BJJ Concept Guide",
   "description": "Master fundamental BJJ principles and concepts. Complete guide to leverage, positioning, control, and strategic thinking. Build a deep understanding of the art.",
   "url": "https://bjjgraph.org/principles",
   "isPartOf": {
@@ -336,426 +335,414 @@ aliases: ["BJJ-Principles"]
     {
       "@type": "ListItem",
       "position": 52,
-      "name": "Guard Passing Concepts",
-      "url": "https://bjjgraph.org/Principles/guard-passing-concepts"
+      "name": "Guard Passing Principles",
+      "url": "https://bjjgraph.org/Principles/guard-passing"
     },
     {
       "@type": "ListItem",
       "position": 53,
-      "name": "Guard Passing Principles",
-      "url": "https://bjjgraph.org/Principles/guard-passing-principles"
-    },
-    {
-      "@type": "ListItem",
-      "position": 54,
       "name": "Guard Recovery",
       "url": "https://bjjgraph.org/Principles/guard-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 55,
+      "position": 54,
       "name": "Guard Retention",
       "url": "https://bjjgraph.org/Principles/guard-retention"
     },
     {
       "@type": "ListItem",
-      "position": 56,
-      "name": "Guard Retention Concepts",
-      "url": "https://bjjgraph.org/Principles/guard-retention-concepts"
-    },
-    {
-      "@type": "ListItem",
-      "position": 57,
+      "position": 55,
       "name": "Hand Fighting",
       "url": "https://bjjgraph.org/Principles/hand-fighting"
     },
     {
       "@type": "ListItem",
-      "position": 58,
+      "position": 56,
       "name": "Hand Fighting from Back",
       "url": "https://bjjgraph.org/Principles/hand-fighting-from-back"
     },
     {
       "@type": "ListItem",
-      "position": 59,
+      "position": 57,
       "name": "Head Control",
       "url": "https://bjjgraph.org/Principles/head-control"
     },
     {
       "@type": "ListItem",
-      "position": 60,
+      "position": 58,
       "name": "Hip Elevation",
       "url": "https://bjjgraph.org/Principles/hip-elevation"
     },
     {
       "@type": "ListItem",
-      "position": 61,
+      "position": 59,
       "name": "Hip Escape Mechanics",
       "url": "https://bjjgraph.org/Principles/hip-escape-mechanics"
     },
     {
       "@type": "ListItem",
-      "position": 62,
+      "position": 60,
       "name": "Hip Movement",
       "url": "https://bjjgraph.org/Principles/hip-movement"
     },
     {
       "@type": "ListItem",
-      "position": 63,
+      "position": 61,
       "name": "Hip Pressure",
       "url": "https://bjjgraph.org/Principles/hip-pressure"
     },
     {
       "@type": "ListItem",
-      "position": 64,
+      "position": 62,
       "name": "Knee Shield Retention",
       "url": "https://bjjgraph.org/Principles/knee-shield-retention"
     },
     {
       "@type": "ListItem",
-      "position": 65,
+      "position": 63,
       "name": "Knee on Belly Escape",
       "url": "https://bjjgraph.org/Principles/knee-on-belly-escape"
     },
     {
       "@type": "ListItem",
-      "position": 66,
+      "position": 64,
       "name": "Leg Entanglement",
       "url": "https://bjjgraph.org/Principles/leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 67,
+      "position": 65,
       "name": "Leverage Principles",
       "url": "https://bjjgraph.org/Principles/leverage-principles"
     },
     {
       "@type": "ListItem",
-      "position": 68,
+      "position": 66,
       "name": "Long Step Passing",
       "url": "https://bjjgraph.org/Principles/long-step-passing"
     },
     {
       "@type": "ListItem",
-      "position": 69,
+      "position": 67,
       "name": "Match Preparation",
       "url": "https://bjjgraph.org/Principles/match-preparation"
     },
     {
       "@type": "ListItem",
-      "position": 70,
+      "position": 68,
       "name": "Match Strategy",
       "url": "https://bjjgraph.org/Principles/match-strategy"
     },
     {
       "@type": "ListItem",
-      "position": 71,
+      "position": 69,
       "name": "Maximum Efficiency Principle",
       "url": "https://bjjgraph.org/Principles/maximum-efficiency-principle"
     },
     {
       "@type": "ListItem",
-      "position": 72,
+      "position": 70,
       "name": "Mount Escape Hierarchy",
       "url": "https://bjjgraph.org/Principles/mount-escape-hierarchy"
     },
     {
       "@type": "ListItem",
-      "position": 73,
+      "position": 71,
       "name": "Mount Escape Series",
       "url": "https://bjjgraph.org/Principles/mount-escape-series"
     },
     {
       "@type": "ListItem",
-      "position": 74,
+      "position": 72,
       "name": "Off-Balancing",
       "url": "https://bjjgraph.org/Principles/off-balancing"
     },
     {
       "@type": "ListItem",
-      "position": 75,
+      "position": 73,
       "name": "Offensive Combinations",
       "url": "https://bjjgraph.org/Principles/offensive-combinations"
     },
     {
       "@type": "ListItem",
-      "position": 76,
+      "position": 74,
       "name": "Offensive vs Defensive Mindset",
       "url": "https://bjjgraph.org/Principles/offensive-vs-defensive-mindset"
     },
     {
       "@type": "ListItem",
-      "position": 77,
+      "position": 75,
       "name": "Pacing",
       "url": "https://bjjgraph.org/Principles/pacing"
     },
     {
       "@type": "ListItem",
-      "position": 78,
+      "position": 76,
       "name": "Passing Counter System",
       "url": "https://bjjgraph.org/Principles/passing-counter-system"
     },
     {
       "@type": "ListItem",
-      "position": 79,
+      "position": 77,
       "name": "Pin Escape Methodology",
       "url": "https://bjjgraph.org/Principles/pin-escape-methodology"
     },
     {
       "@type": "ListItem",
-      "position": 80,
+      "position": 78,
       "name": "Position Chains",
       "url": "https://bjjgraph.org/Principles/position-chains"
     },
     {
       "@type": "ListItem",
-      "position": 81,
+      "position": 79,
       "name": "Position Transitions",
       "url": "https://bjjgraph.org/Principles/position-transitions"
     },
     {
       "@type": "ListItem",
-      "position": 82,
+      "position": 80,
       "name": "Position-Over-Submission Approach",
       "url": "https://bjjgraph.org/Principles/position-over-submission-approach"
     },
     {
       "@type": "ListItem",
-      "position": 83,
+      "position": 81,
       "name": "Positional Hierarchy",
       "url": "https://bjjgraph.org/Principles/positional-hierarchy"
     },
     {
       "@type": "ListItem",
-      "position": 84,
+      "position": 82,
       "name": "Positional Sparring",
       "url": "https://bjjgraph.org/Principles/positional-sparring"
     },
     {
       "@type": "ListItem",
-      "position": 85,
+      "position": 83,
       "name": "Posture Breaking",
       "url": "https://bjjgraph.org/Principles/posture-breaking"
     },
     {
       "@type": "ListItem",
-      "position": 86,
+      "position": 84,
       "name": "Posture Up",
       "url": "https://bjjgraph.org/Principles/posture-up"
     },
     {
       "@type": "ListItem",
-      "position": 87,
+      "position": 85,
       "name": "Pressure Application",
       "url": "https://bjjgraph.org/Principles/pressure-application"
     },
     {
       "@type": "ListItem",
-      "position": 88,
+      "position": 86,
       "name": "Pressure Passing",
       "url": "https://bjjgraph.org/Principles/pressure-passing"
     },
     {
       "@type": "ListItem",
-      "position": 89,
+      "position": 87,
       "name": "Pressure Passing Framework",
       "url": "https://bjjgraph.org/Principles/pressure-passing-framework"
     },
     {
       "@type": "ListItem",
-      "position": 90,
+      "position": 88,
       "name": "Pressure Reduction",
       "url": "https://bjjgraph.org/Principles/pressure-reduction"
     },
     {
       "@type": "ListItem",
-      "position": 91,
+      "position": 89,
       "name": "Progressive Resistance Training",
       "url": "https://bjjgraph.org/Principles/progressive-resistance-training"
     },
     {
       "@type": "ListItem",
-      "position": 92,
+      "position": 90,
       "name": "RNC Defense",
       "url": "https://bjjgraph.org/Principles/rnc-defense"
     },
     {
       "@type": "ListItem",
-      "position": 93,
+      "position": 91,
       "name": "Risk Assessment",
       "url": "https://bjjgraph.org/Principles/risk-assessment"
     },
     {
       "@type": "ListItem",
-      "position": 94,
+      "position": 92,
       "name": "Shoulder Pressure",
       "url": "https://bjjgraph.org/Principles/shoulder-pressure"
     },
     {
       "@type": "ListItem",
-      "position": 95,
+      "position": 93,
       "name": "Shrimping",
       "url": "https://bjjgraph.org/Principles/shrimping"
     },
     {
       "@type": "ListItem",
-      "position": 96,
+      "position": 94,
       "name": "Side Control Defensive Framework",
       "url": "https://bjjgraph.org/Principles/side-control-defensive-framework"
     },
     {
       "@type": "ListItem",
-      "position": 97,
+      "position": 95,
       "name": "Side Control Escapes",
       "url": "https://bjjgraph.org/Principles/side-control-escapes"
     },
     {
       "@type": "ListItem",
-      "position": 98,
+      "position": 96,
       "name": "Single Leg Variations",
       "url": "https://bjjgraph.org/Principles/single-leg-variations"
     },
     {
       "@type": "ListItem",
-      "position": 99,
+      "position": 97,
       "name": "Sleeve Control",
       "url": "https://bjjgraph.org/Principles/sleeve-control"
     },
     {
       "@type": "ListItem",
-      "position": 100,
+      "position": 98,
       "name": "Space Creation",
       "url": "https://bjjgraph.org/Principles/space-creation"
     },
     {
       "@type": "ListItem",
-      "position": 101,
+      "position": 99,
       "name": "Space Generation",
       "url": "https://bjjgraph.org/Principles/space-generation"
     },
     {
       "@type": "ListItem",
-      "position": 102,
+      "position": 100,
       "name": "Space Management",
       "url": "https://bjjgraph.org/Principles/space-management"
     },
     {
       "@type": "ListItem",
-      "position": 103,
+      "position": 101,
       "name": "Speed Passing",
       "url": "https://bjjgraph.org/Principles/speed-passing"
     },
     {
       "@type": "ListItem",
-      "position": 104,
+      "position": 102,
       "name": "Sprawl Defense",
       "url": "https://bjjgraph.org/Principles/sprawl-defense"
     },
     {
       "@type": "ListItem",
-      "position": 105,
+      "position": 103,
       "name": "Strength Development",
       "url": "https://bjjgraph.org/Principles/strength-development"
     },
     {
       "@type": "ListItem",
-      "position": 106,
+      "position": 104,
       "name": "Submission Chains",
       "url": "https://bjjgraph.org/Principles/submission-chains"
     },
     {
       "@type": "ListItem",
-      "position": 107,
+      "position": 105,
       "name": "Submission Control Position",
       "url": "https://bjjgraph.org/Principles/submission-control-position"
     },
     {
       "@type": "ListItem",
-      "position": 108,
+      "position": 106,
       "name": "Submission Defense",
       "url": "https://bjjgraph.org/Principles/submission-defense"
     },
     {
       "@type": "ListItem",
-      "position": 109,
+      "position": 107,
       "name": "Submission Defense Concepts",
       "url": "https://bjjgraph.org/Principles/submission-defense-concepts"
     },
     {
       "@type": "ListItem",
-      "position": 110,
+      "position": 108,
       "name": "Submission Position",
       "url": "https://bjjgraph.org/Principles/submission-position"
     },
     {
       "@type": "ListItem",
-      "position": 111,
+      "position": 109,
       "name": "Sweep Mechanics",
       "url": "https://bjjgraph.org/Principles/sweep-mechanics"
     },
     {
       "@type": "ListItem",
-      "position": 112,
+      "position": 110,
       "name": "System Building",
       "url": "https://bjjgraph.org/Principles/system-building"
     },
     {
       "@type": "ListItem",
-      "position": 113,
+      "position": 111,
       "name": "Takedown Entry",
       "url": "https://bjjgraph.org/Principles/takedown-entry"
     },
     {
       "@type": "ListItem",
-      "position": 114,
+      "position": 112,
       "name": "Technical Standup Concept",
       "url": "https://bjjgraph.org/Principles/technical-standup-concept"
     },
     {
       "@type": "ListItem",
-      "position": 115,
+      "position": 113,
       "name": "Timing Sweeps",
       "url": "https://bjjgraph.org/Principles/timing-sweeps"
     },
     {
       "@type": "ListItem",
-      "position": 116,
+      "position": 114,
       "name": "Timing and Rhythm",
       "url": "https://bjjgraph.org/Principles/timing-and-rhythm"
     },
     {
       "@type": "ListItem",
-      "position": 117,
+      "position": 115,
       "name": "Top Half Guard",
       "url": "https://bjjgraph.org/Principles/top-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 118,
+      "position": 116,
       "name": "Transition Management",
       "url": "https://bjjgraph.org/Principles/transition-management"
     },
     {
       "@type": "ListItem",
-      "position": 119,
+      "position": 117,
       "name": "Transition Sequences",
       "url": "https://bjjgraph.org/Principles/transition-sequences"
     },
     {
       "@type": "ListItem",
-      "position": 120,
+      "position": 118,
       "name": "Underhook Defense",
       "url": "https://bjjgraph.org/Principles/underhook-defense"
     },
     {
       "@type": "ListItem",
-      "position": 121,
+      "position": 119,
       "name": "Weight Distribution",
       "url": "https://bjjgraph.org/Principles/weight-distribution"
     },
     {
       "@type": "ListItem",
-      "position": 122,
+      "position": 120,
       "name": "Whizzer Control",
       "url": "https://bjjgraph.org/Principles/whizzer-control"
     }
@@ -777,20 +764,18 @@ aliases: ["BJJ-Principles"]
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "BJJ Principles & Concepts - Complete Guide",
-      "item": "https://bjjgraph.org/bjj-principles"
+      "name": "Principles",
+      "item": "https://bjjgraph.org/principles"
     }
   ]
 }
 </script>
 
-# BJJ Principles: Complete Guide
-
 Master fundamental BJJ principles and concepts. Complete guide to leverage, positioning, control, and strategic thinking. Build a deep understanding of the art.
 
 ---
 
-## All Principles
+## Principles
 
 **[[Action and Reaction]]** - Master creating deliberate opponent responses and exploiting predictable defensive commitments. Learn reaction-based attacking across all positions with systematic frameworks.
 
@@ -894,15 +879,11 @@ Master fundamental BJJ principles and concepts. Complete guide to leverage, posi
 
 **[[Grip Strategy]]** - Master grip strategy fundamentals in BJJ. Learn systematic control hierarchies, grip fighting tactics, and positional dominance across gi and no-gi contexts.
 
-**[[Guard Passing Concepts]]** - Master guard passing strategies in BJJ. Learn pressure dynamics, distance management, grip hierarchies, and systematic approaches for overcoming defensive guard structures.
-
 **[[Guard Passing Principles]]** - Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types.
 
 **[[Guard Recovery]]** - Master Guard Recovery principles in BJJ. Learn defensive framing, systematic re-guarding sequences, hip mobility fundamentals, and space creation for recovering guard after passes.
 
 **[[Guard Retention]]** - Master guard retention fundamentals in BJJ. Learn frame management, hip mobility, space creation, and defensive sequencing to maintain guard under pressure across all positions.
-
-**[[Guard Retention Concepts]]** - Master guard retention principles in BJJ. Learn defensive frameworks, movement patterns, framing strategies, and hip mobility for maintaining guard under pressure.
 
 **[[Hand Fighting]]** - Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement. Expert insights from Danaher, Gordon Ryan, Eddie Bravo.
 
@@ -1037,18 +1018,3 @@ Master fundamental BJJ principles and concepts. Complete guide to leverage, posi
 **[[Whizzer Control]]** - Master Whizzer Control in BJJ. Learn overhook mechanics, pressure application, counter-attacking principles. Cross-position applications from half guard to standing included.
 
 
----
-
-## Statistics
-
-- **Total Principles**: 122
-- **Items with complete content**: 122
-- **Items needing JSON updates**: 0
-- **Last Updated**: November 14, 2025
-
----
-
-## Related Resources
-
-- [[BJJ State Machine]] - Complete positional graph
-- [[BJJ Graph]] - Home page

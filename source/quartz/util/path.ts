@@ -225,7 +225,12 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
       const partialPathMatch = opts.allSlugs.find((slug) => {
         // Check if slug ends with the target path when joined with srcDir
         const candidatePath = `${srcDir}/${targetCanonical}`
-        return slug === candidatePath || slug.endsWith(`/${targetCanonical}`)
+        // Only use endsWith for partial paths (containing /), not single names
+        if (targetCanonical.includes("/")) {
+          return slug === candidatePath || slug.endsWith(`/${targetCanonical}`)
+        } else {
+          return slug === candidatePath
+        }
       })
       if (partialPathMatch) {
         return (resolveRelative(src, partialPathMatch) + targetAnchor) as RelativeURL

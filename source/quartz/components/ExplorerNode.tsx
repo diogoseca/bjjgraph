@@ -172,6 +172,22 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   const folderPath = node.name !== "" ? joinSegments(fullPath ?? "", node.name) : ""
   const href = resolveRelative(fileData.slug!, folderPath as SimpleSlug) + "/"
 
+  // Map folder names to their hub pages and display names
+  const folderHubPages: Record<string, string> = {
+    "Positions": "Positions",
+    "Transitions": "Transitions",
+    "Submissions": "Submissions",
+    "Principles": "Principles",
+    "Systems": "Systems",
+  }
+
+  // Get the hub page for this folder if it exists
+  const hubPage = folderHubPages[node.name]
+  const hubHref = hubPage ? resolveRelative(fileData.slug!, hubPage as SimpleSlug) : href
+
+  // Use simple display name for category folders
+  const displayName = hubPage ? node.name : node.displayName
+
   return (
     <>
       {node.children.length > 0 ? (
@@ -194,15 +210,15 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
               >
                 <polyline points="6 9 12 15 18 9"></polyline>
               </svg>
-              {/* render <a> tag if folderBehavior is "link" OR if node has a file (hub page), otherwise render <button> */}
+              {/* render <a> tag if folderBehavior is "link" OR if node has a file (hub page) OR if there's a mapped hub page, otherwise render <button> */}
               <div key={node.name} data-folderpath={folderPath}>
-                {folderBehavior === "link" || node.file ? (
-                  <a href={node.file ? resolveRelative(fileData.slug!, node.file.slug!) : href} data-for={node.file ? node.file.slug : node.name} class="folder-title">
-                    {node.displayName}
+                {folderBehavior === "link" || node.file || hubPage ? (
+                  <a href={node.file ? resolveRelative(fileData.slug!, node.file.slug!) : hubHref} data-for={node.file ? node.file.slug : node.name} class="folder-title">
+                    {displayName}
                   </a>
                 ) : (
                   <button class="folder-button">
-                    <span class="folder-title">{node.displayName}</span>
+                    <span class="folder-title">{displayName}</span>
                   </button>
                 )}
               </div>

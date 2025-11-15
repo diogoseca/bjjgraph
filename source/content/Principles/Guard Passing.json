@@ -1,5 +1,5 @@
 {
-  "name": "Guard Passing Principles",
+  "name": "Guard Passing",
   "description": "Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types.",
   "tags": [
     "bjj",
@@ -9,12 +9,14 @@
     "passing",
     "top-game",
     "control",
-    "progression"
+    "progression",
+    "guard-passing",
+    "systematic-approach"
   ],
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Guard Passing Principles represent the fundamental strategic and biomechanical concepts underlying all successful guard passing, providing systematic framework for advancing from guard to dominant pinning positions. Unlike specific passing techniques, guard passing principles are comprehensive conceptual guidelines that apply across all guard types and determine overall passing effectiveness. This concept encompasses the tactical understanding that successful passing requires neutralizing guard retention mechanics, establishing control points, and progressing through stages from open guard to consolidated side control or mount. Guard passing principles serve as both offensive framework enabling position advancement and strategic guide for pass selection based on opponent's defensive patterns. The ability to apply guard passing principles consistently determines offensive effectiveness against guard players, making it one of the most essential conceptual elements for top game development.",
+  "overview": "Guard Passing represents the fundamental strategic and biomechanical concepts underlying all successful guard passing, providing systematic framework for advancing from guard to dominant pinning positions. Unlike specific passing techniques, guard passing principles are comprehensive conceptual guidelines that apply across all guard types and determine overall passing effectiveness. This concept encompasses the tactical understanding that successful passing requires neutralizing guard retention mechanics, establishing control points, and progressing through stages from open guard to consolidated side control or mount. Guard passing principles serve as both offensive framework enabling position advancement and strategic guide for pass selection based on opponent's defensive patterns. The ability to apply guard passing principles consistently determines offensive effectiveness against guard players, making it one of the most essential conceptual elements for top game development.",
   "key_principles": [
     "Maintain strong posture preventing opponent from breaking your structure and establishing offensive control",
     "Establish grip dominance preventing opponent from using grips for retention and attacks",
@@ -62,7 +64,7 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Complementary",
       "description": "Understanding guard retention mechanics from defensive perspective provides essential knowledge for developing effective passing strategies, as successful passing requires systematic neutralization of retention mechanisms"
     },
@@ -115,6 +117,26 @@
       "principle_name": "Weight Distribution",
       "relationship_type": "Prerequisite",
       "description": "Foundational understanding of balance and pressure allocation required for maintaining base while advancing position during passes"
+    },
+    {
+      "principle_name": "Posture Up",
+      "relationship_type": "Prerequisite",
+      "description": "Critical defensive skill for maintaining structural integrity against posture-breaking attempts, enabling safe passing initiation"
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Understanding how to dismantle opponent's defensive frames is essential for progressing through passing stages effectively"
+    },
+    {
+      "principle_name": "Pressure Application",
+      "relationship_type": "Complementary",
+      "description": "Systematic understanding of when and how to apply different pressure types during passing sequences to maximize effectiveness"
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Fundamental biomechanical understanding that underlies efficient passing mechanics and energy conservation during extended passing sequences"
     }
   ],
   "application_contexts": [
@@ -177,6 +199,14 @@
     {
       "context": "Combat Base",
       "how_applied": "Foundational passing posture demonstrating proper application of base maintenance and posture principles, serving as stable platform for initiating passing sequences"
+    },
+    {
+      "context": "Deep Half Guard",
+      "how_applied": "Requires understanding of weight distribution to prevent sweeps, systematic approach to extracting trapped leg, and maintaining crossface control during extraction process"
+    },
+    {
+      "context": "Knee Shield Half Guard",
+      "how_applied": "Emphasizes frame collapsing techniques to remove knee shield barrier, establishing underhook control, and transitioning to consolidated passing positions"
     }
   ],
   "decision_framework": [
@@ -344,7 +374,7 @@
       "relationship": "Specific strategic application of guard passing principles emphasizing heavy pressure and smashing control"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Complementary defensive framework providing essential understanding of retention mechanics that passing must neutralize"
     },
