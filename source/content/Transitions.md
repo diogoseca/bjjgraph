@@ -1409,9 +1409,7 @@ description: "Master all BJJ transitions and techniques. Complete guide to sweep
 
 Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, success rates, and expert insights for 68+ techniques.
 
----
 
-## Transitions
 
 **[[100% Sweep]]** - Master the 100% Sweep from closed guard. Complete guide covering arm trap mechanics, hip angle creation, and sweep execution. Beginner 20%, Intermediate 40%, Advanced 60%.
 

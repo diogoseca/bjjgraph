@@ -335,9 +335,7 @@ description: "Master BJJ through systematic approaches. Complete guide to guard 
 
 Master BJJ through systematic approaches. Complete guide to guard systems, passing systems, leg lock systems, and submission chains. Learn proven methodologies from Danaher, Gordon Ryan, and Eddie Bravo.
 
----
 
-## Systems
 
 **[[10th Planet Half Guard Bottom System]]** - Master 10th Planet Half Guard Bottom System with Lockdown, Electric Chair, and systematic sweeps. Eddie Bravo's revolutionary framework for bottom half guard dominance.
 

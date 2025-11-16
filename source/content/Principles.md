@@ -335,7 +335,7 @@ description: "Master fundamental BJJ principles and concepts. Complete guide to 
     {
       "@type": "ListItem",
       "position": 52,
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "url": "https://bjjgraph.org/Principles/guard-passing"
     },
     {
@@ -773,9 +773,7 @@ description: "Master fundamental BJJ principles and concepts. Complete guide to 
 
 Master fundamental BJJ principles and concepts. Complete guide to leverage, positioning, control, and strategic thinking. Build a deep understanding of the art.
 
----
 
-## Principles
 
 **[[Action and Reaction]]** - Master creating deliberate opponent responses and exploiting predictable defensive commitments. Learn reaction-based attacking across all positions with systematic frameworks.
 
@@ -879,7 +877,7 @@ Master fundamental BJJ principles and concepts. Complete guide to leverage, posi
 
 **[[Grip Strategy]]** - Master grip strategy fundamentals in BJJ. Learn systematic control hierarchies, grip fighting tactics, and positional dominance across gi and no-gi contexts.
 
-**[[Guard Passing Principles]]** - Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types.
+**[[Guard Passing]]** - Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types.
 
 **[[Guard Recovery]]** - Master Guard Recovery principles in BJJ. Learn defensive framing, systematic re-guarding sequences, hip mobility fundamentals, and space creation for recovering guard after passes.
 

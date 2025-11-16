@@ -346,7 +346,7 @@
     ],
     "offensive_transitions": [
       {
-        "technique": "Americana Finish",
+        "technique": "Americana",
         "target_position": "Won by Submission",
         "success_rates": {
           "beginner": 45,
@@ -355,7 +355,7 @@
         }
       },
       {
-        "technique": "Transition to Armbar",
+        "technique": "Mount to Armbar",
         "target_position": "Armbar Control",
         "success_rates": {
           "beginner": 30,
@@ -364,21 +364,12 @@
         }
       },
       {
-        "technique": "Switch to Kimura",
+        "technique": "Kimura from Mount",
         "target_position": "Kimura Control",
         "success_rates": {
           "beginner": 35,
           "intermediate": 50,
           "advanced": 65
-        }
-      },
-      {
-        "technique": "Maintain Mount Control",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 60,
-          "intermediate": 75,
-          "advanced": 85
         }
       },
       {
@@ -391,7 +382,7 @@
         }
       },
       {
-        "technique": "Switch to Gift Wrap Control",
+        "technique": "Gift Wrap",
         "target_position": "Gift Wrap",
         "success_rates": {
           "beginner": 25,

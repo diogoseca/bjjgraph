@@ -971,9 +971,7 @@ description: "Complete guide to all BJJ positions. Learn the positional hierarch
 
 Complete guide to all BJJ positions. Learn the positional hierarchy, point values, and transitions. From standing to submissions - master every position in Brazilian Jiu-Jitsu.
 
----
 
-## Positions
 
 ### Ashi Garami
 

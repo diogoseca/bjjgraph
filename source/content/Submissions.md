@@ -845,9 +845,7 @@ description: "Master all BJJ submission techniques. Complete guide to chokes, jo
 
 Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.
 
----
 
-## Submissions
 
 **[[Achilles Lock]]** - Master the Achilles Lock leg submission with comprehensive safety protocols, setup mechanics, and finishing details. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
