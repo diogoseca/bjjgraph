@@ -84,6 +84,52 @@ function setupExplorer() {
       setFolderState(folderUl, folderState.collapsed)
     }
   })
+
+  // Auto-expand folders in the path to the current page
+  const currentSlug = document.body.dataset.slug
+  if (currentSlug) {
+    // Build all ancestor folder paths for the current page
+    // e.g., "Positions/Mount/Bottom" → ["Positions", "Positions/Mount"]
+    const slugSegments = currentSlug.split("/")
+    const folderPaths: string[] = []
+
+    // Build paths for all parent folders (exclude the file itself)
+    for (let i = 0; i < slugSegments.length - 1; i++) {
+      folderPaths.push(slugSegments.slice(0, i + 1).join("/"))
+    }
+
+    // Also check if the current page itself is a folder (e.g., "Positions/Mount" hub page)
+    // by checking if there's a folder with the exact slug path
+    const exactFolderLi = document.querySelector(
+      `[data-folderpath='${currentSlug}']`,
+    ) as MaybeHTMLElement
+    if (exactFolderLi) {
+      folderPaths.push(currentSlug)
+    }
+
+    // Expand each folder in the path
+    folderPaths.forEach((folderPath) => {
+      const folderLi = document.querySelector(
+        `[data-folderpath='${folderPath}']`,
+      ) as MaybeHTMLElement
+      const folderUl = folderLi?.parentElement?.nextElementSibling as MaybeHTMLElement
+
+      if (folderUl) {
+        // Set folder to expanded state (false = not collapsed = open)
+        setFolderState(folderUl, false)
+
+        // Update state array to reflect the expansion
+        const stateEntry = currentExplorerState.find((entry) => entry.path === folderPath)
+        if (stateEntry) {
+          stateEntry.collapsed = false
+        }
+      }
+    })
+
+    // Save the updated state to localStorage so it persists
+    const stringifiedFileTree = JSON.stringify(currentExplorerState)
+    localStorage.setItem("fileTree", stringifiedFileTree)
+  }
 }
 
 window.addEventListener("resize", setupExplorer)
