@@ -19,7 +19,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.NotDesktop(Component.Graph({
-      localGraph: { showTags: false, depth: 2 },
+      localGraph: { showTags: false, depth: 1 },
       globalGraph: { showTags: false }
     })),
   ],
@@ -40,7 +40,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     // Graph shows here on desktop only
     Component.DesktopOnly(Component.Graph({
-      localGraph: { showTags: false, depth: 2 },
+      localGraph: { showTags: false, depth: 1 },
       globalGraph: { showTags: false }
     })),
     Component.DesktopOnly(Component.TableOfContents()),
@@ -62,7 +62,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.ArticleTitle(), 
     Component.ContentMeta(),
     Component.NotDesktop(Component.Graph({
-      localGraph: { showTags: false, depth: 2 },
+      localGraph: { showTags: false, depth: 1 },
       globalGraph: { showTags: false }
     })),
     ],
@@ -82,7 +82,7 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.Graph({
-      localGraph: { showTags: false, depth: 2 },
+      localGraph: { showTags: false, depth: 1 },
       globalGraph: { showTags: false }
     })),
     Component.DesktopOnly(Component.TableOfContents()),

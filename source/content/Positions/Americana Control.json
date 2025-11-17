@@ -389,6 +389,15 @@
           "intermediate": 40,
           "advanced": 55
         }
+      },
+      {
+        "technique": "Consolidate Mount",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 50,
+          "intermediate": 65,
+          "advanced": 80
+        }
       }
     ],
     "defensive_responses": [

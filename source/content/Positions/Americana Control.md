@@ -157,23 +157,23 @@ Americana Control represents a dominant shoulder lock position in Brazilian Jiu-
 ### Primary Techniques
 
 
-- **[[Americana Finish]]** → [[Won by Submission]]
+- **[[Americana]]** → [[Won by Submission]]
   - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
 
-- **[[Transition to Armbar]]** → [[Armbar Control]]
+- **[[Mount to Armbar]]** → [[Armbar Control]]
   - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
 
-- **[[Switch to Kimura]]** → [[Kimura Control]]
+- **[[Kimura from Mount]]** → [[Kimura Control]]
   - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
-
-- **[[Maintain Mount Control]]** → [[Mount]]
-  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
 
 - **[[Transition to High Mount]]** → [[High Mount]]
   - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
 
-- **[[Switch to Gift Wrap Control]]** → [[Gift Wrap]]
+- **[[Gift Wrap]]** → [[Gift Wrap]]
   - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Consolidate Mount]]** → [[Mount]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
 
 
 ### Common Mistakes

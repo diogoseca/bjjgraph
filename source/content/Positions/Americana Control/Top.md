@@ -20,38 +20,38 @@ description: "Master Americana finishing techniques from top. Complete offensive
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Americana Finish",
-      "text": "From this position, execute Americana Finish to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
+      "name": "Execute Americana",
+      "text": "From this position, execute Americana to transition to Won by Submission. Success rate for advanced practitioners: 75%.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Armbar",
-      "text": "From this position, execute Transition to Armbar to transition to Armbar Control. Success rate for advanced practitioners: 60%.",
+      "name": "Execute Mount to Armbar",
+      "text": "From this position, execute Mount to Armbar to transition to Armbar Control. Success rate for advanced practitioners: 60%.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Switch to Kimura",
-      "text": "From this position, execute Switch to Kimura to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
+      "name": "Execute Kimura from Mount",
+      "text": "From this position, execute Kimura from Mount to transition to Kimura Control. Success rate for advanced practitioners: 65%.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Maintain Mount Control",
-      "text": "From this position, execute Maintain Mount Control to transition to Mount. Success rate for advanced practitioners: 85%.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Transition to High Mount",
       "text": "From this position, execute Transition to High Mount to transition to High Mount. Success rate for advanced practitioners: 70%.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Gift Wrap",
+      "text": "From this position, execute Gift Wrap to transition to Gift Wrap. Success rate for advanced practitioners: 55%.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Switch to Gift Wrap Control",
-      "text": "From this position, execute Switch to Gift Wrap Control to transition to Gift Wrap. Success rate for advanced practitioners: 55%.",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, execute Consolidate Mount to transition to Mount. Success rate for advanced practitioners: 80%.",
       "position": 6
     }
   ],
@@ -206,33 +206,26 @@ Attacking with the Americana from top position provides a high-percentage submis
 
 ## Available Attacks
 
-### [[Americana Finish]] → [[Won by Submission]]
+### [[Americana]] → [[Won by Submission]]
 
 **Success Rates:**
 - Beginner: 45%
 - Intermediate: 60%
 - Advanced: 75%
 
-### [[Transition to Armbar]] → [[Armbar Control]]
+### [[Mount to Armbar]] → [[Armbar Control]]
 
 **Success Rates:**
 - Beginner: 30%
 - Intermediate: 45%
 - Advanced: 60%
 
-### [[Switch to Kimura]] → [[Kimura Control]]
+### [[Kimura from Mount]] → [[Kimura Control]]
 
 **Success Rates:**
 - Beginner: 35%
 - Intermediate: 50%
 - Advanced: 65%
-
-### [[Maintain Mount Control]] → [[Mount]]
-
-**Success Rates:**
-- Beginner: 60%
-- Intermediate: 75%
-- Advanced: 85%
 
 ### [[Transition to High Mount]] → [[High Mount]]
 
@@ -241,12 +234,19 @@ Attacking with the Americana from top position provides a high-percentage submis
 - Intermediate: 55%
 - Advanced: 70%
 
-### [[Switch to Gift Wrap Control]] → [[Gift Wrap]]
+### [[Gift Wrap]] → [[Gift Wrap]]
 
 **Success Rates:**
 - Beginner: 25%
 - Intermediate: 40%
 - Advanced: 55%
+
+### [[Consolidate Mount]] → [[Mount]]
+
+**Success Rates:**
+- Beginner: 50%
+- Intermediate: 65%
+- Advanced: 80%
 
 
 
