@@ -296,6 +296,12 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const width = graph.offsetWidth
   const height = Math.max(graph.offsetHeight, 250)
 
+  // Skip rendering if container has zero dimensions (not laid out yet)
+  if (width === 0 || height === 0) {
+    console.log('[Graph Debug] Container has zero dimensions, skipping render:', { width, height })
+    return
+  }
+
   // precompute style prop strings as pixi doesn't support css variables
   const cssVars = [
     "--secondary",
