@@ -21,13 +21,13 @@ Think of it as Wikipedia meets chess strategy for Brazilian Jiu-Jitsu. Except in
 
 ## Start Here
 
-**[[Positions]]** - 97 positions from [[/Positions/Mount|Mount]] and [[/Positions/Closed-Guard|Closed Guard]] to obscure leg entanglements like [[/Positions/Ashi-Garami|Ashi Garami]] and [[/Positions/Inside-Sankaku|Inside Sankaku]]. Each one shows you where you can go and how to get there. Start with [[/Positions/Closed-Guard|Closed Guard]], [[/Positions/Mount|Mount]], or [[/Positions/Side-Control|Side Control]] if you're new.
+**[[Positions]]** - 153 positions from [[/Positions/Mount|Mount]] and [[/Positions/Closed-Guard|Closed Guard]] to obscure leg entanglements like [[/Positions/Ashi-Garami|Ashi Garami]] and [[/Positions/Inside-Sankaku|Inside Sankaku]]. Each one shows you where you can go and how to get there. Start with [[/Positions/Closed-Guard|Closed Guard]], [[/Positions/Mount|Mount]], or [[/Positions/Side-Control|Side Control]] if you're new.
 
 **[[Transitions]]** - 226 techniques that move you between positions. Sweeps, passes, escapes, entries. The mechanics that actually win matches. Check out [[/Transitions/Hip-Escape|Hip Escape]], [[/Transitions/Knee-Cut-Pass|Knee Cut Pass]], or [[/Transitions/Bridge-and-Roll|Bridge and Roll]].
 
 **[[Submissions]]** - 132 finishes with full safety protocols. Chokes, joint locks, compressions. We don't mess around with safety—every submission page includes injury awareness and tap protocols. [[/Submissions/Rear-Naked-Choke|Rear Naked Choke]], [[/Submissions/Armbar-from-Mount|Armbar from Mount]], [[/Submissions/Triangle-Choke|Triangle Choke]] are the classics.
 
-**[[Principles]]** - 122 conceptual frameworks covering everything from [[/Principles/Base-Maintenance|Base Maintenance]] to [[/Principles/Hip-Escape-Mechanics|Hip Escape Mechanics]] to [[/Principles/Creating-Reactions|Creating Reactions]].
+**[[Principles]]** - 120 conceptual frameworks covering everything from [[/Principles/Base-Maintenance|Base Maintenance]] to [[/Principles/Hip-Escape-Mechanics|Hip Escape Mechanics]] to [[/Principles/Creating-Reactions|Creating Reactions]].
 
 **[[Systems]]** - 47 expert-developed systems.
 
@@ -56,4 +56,4 @@ Use the **Explorer** (left sidebar) to browse by category. Use **Search** to fin
 
 ---
 
-*97 positions. 226 transitions. 132 submissions. 122 principles. 47 systems. All interconnected. All cross-referenced. All showing you the map, not just the territory.*
+*153 positions. 226 transitions. 132 submissions. 120 principles. 47 systems. All interconnected. All cross-referenced. All showing you the map, not just the territory.*
