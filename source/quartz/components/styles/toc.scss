@@ -1,6 +1,7 @@
 .toc {
   display: flex;
   flex-direction: column;
+  max-height: 100%;
   &.desktop-only {
     display: flex;
   }
@@ -37,7 +38,8 @@ button#toc {
   list-style: none;
   overflow: hidden;
   overflow-y: auto;
-  max-height: 100%;
+  flex: 1;
+  min-height: 0;
   transition:
     max-height 0.35s ease,
     visibility 0s linear 0s;

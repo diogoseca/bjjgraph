@@ -34,6 +34,18 @@ function setupToc() {
     toc.addEventListener("click", toggleToc)
     window.addCleanup(() => toc.removeEventListener("click", toggleToc))
   }
+
+  // Prevent page scroll when scrolling TOC content
+  const tocContent = document.getElementById("toc-content")
+  if (tocContent) {
+    const preventPageScroll = (e: WheelEvent) => {
+      // Stop event from bubbling to page - let TOC scroll naturally
+      e.stopPropagation()
+    }
+
+    tocContent.addEventListener("wheel", preventPageScroll, { passive: true })
+    window.addCleanup(() => tocContent.removeEventListener("wheel", preventPageScroll))
+  }
 }
 
 window.addEventListener("resize", setupToc)

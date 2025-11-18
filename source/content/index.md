@@ -21,23 +21,24 @@ Think of it as Wikipedia meets chess strategy for Brazilian Jiu-Jitsu. Except in
 
 ## Start Here
 
-**[[BJJ Positions]]** - 97 positions from [[Mount]] and [[Closed Guard]] to obscure leg entanglements like [[Ashi Garami]] and [[Inside Sankaku]]. Each one shows you where you can go and how to get there. Start with [[Closed Guard]], [[Mount]], or [[Side Control]] if you're new.
+**[[Positions]]** - 97 positions from [[Mount]] and [[Closed Guard]] to obscure leg entanglements like [[Ashi Garami]] and [[Inside Sankaku]]. Each one shows you where you can go and how to get there. Start with [[Closed Guard]], [[Mount]], or [[Side Control]] if you're new.
 
-**[[BJJ Transitions]]** - 226 techniques that move you between positions. Sweeps, passes, escapes, entries. The mechanics that actually win matches. Check out [[Hip Escape]], [[Knee Cut Pass]], or [[Bridge and Roll]].
+**[[Transitions]]** - 226 techniques that move you between positions. Sweeps, passes, escapes, entries. The mechanics that actually win matches. Check out [[Hip Escape]], [[Knee Cut Pass]], or [[Bridge and Roll]].
 
-**[[BJJ Submissions]]** - 132 finishes with full safety protocols. Chokes, joint locks, compressions. We don't mess around with safety—every submission page includes injury awareness and tap protocols. [[Rear Naked Choke]], [[Armbar]], [[Triangle Choke]] are the classics.
+**[[Submissions]]** - 132 finishes with full safety protocols. Chokes, joint locks, compressions. We don't mess around with safety—every submission page includes injury awareness and tap protocols. [[Rear Naked Choke]], [[Armbar from Mount]], [[Triangle Choke]] are the classics.
 
-**[[BJJ Escapes]]** - Your survival toolkit. [[Mount Bottom|Mount escapes]], [[Side Control Bottom|side control frames]], [[Back Control Bottom|back defense]], [[Guard Retention|guard retention]]. Because you can't attack if you're stuck on bottom getting smashed.
+**[[Principles]]** - 122 conceptual frameworks covering everything from [[Base Maintenance]] to [[Hip Escape Mechanics]] to [[Creating Reactions]].
 
-**[[BJJ Guard Passing]]** - The essential skill connecting guard positions to dominance. [[Smash Pass|Pressure passes]], [[Toreando Pass|speed passes]], and why the best passers mix both.
+**[[Systems]]** - 47 expert-developed systems.
 
-**[[BJJ Principles]]** - 122 conceptual frameworks covering everything from [[Base Maintenance]] to [[Hip Escape Mechanics]] to [[Creating Reactions]].
+**[[/Principles/Escape-Fundamentals|Escapes]]** - Your survival toolkit. [[/Positions/Mount/Bottom|Mount escapes]], [[Side Control Bottom|side control frames]], [[Back Control Bottom|back defense]], [[Guard Retention|guard retention]]. Because you can't attack if you're stuck on bottom getting smashed.
 
-**[[BJJ Systems]]** - 47 expert-developed systems from [[Systems/Danaher System|Danaher]], [[Systems/Gordon Ryan System|Gordon Ryan]], and [[Systems/Eddie Bravo System|Eddie Bravo]].
+**[[Guard Passing]]** - The essential skill connecting guard positions to dominance. [[Smash Pass|Pressure passes]], [[Toreando Pass|speed passes]], and why the best passers mix both.
+
 
 ## What You're Actually Getting
 
-This isn't just a technique database. Every position page includes success rate data by skill level (beginner/intermediate/advanced), expert insights from [[Principles/Danaher Philosophy|Danaher]], [[Principles/Gordon Ryan Philosophy|Gordon Ryan]], and [[Principles/Eddie Bravo Philosophy|Eddie Bravo]], and decision trees showing you what to do when things go wrong.
+This isn't just a technique database. Every position page includes success rate data by skill level (beginner/intermediate/advanced) and decision trees showing you what to do when things go wrong.
 
 The content is structured as a state machine because that's how BJJ actually works—you're always in some position, trying to transition to a better one. We just made it explicit instead of keeping it implicit in your instructor's head.
 
@@ -45,13 +46,13 @@ Use the **Explorer** (left sidebar) to browse by category. Use **Search** to fin
 
 ## Good Entry Points
 
-**New to BJJ?** → [[Closed Guard Bottom]] (most fundamental guard) and [[BJJ Escapes]] (survival first). Also check [[Bridge and Roll]] and [[Frame and Shrimp]].
+**New to BJJ?** → [[Closed Guard Bottom]] (most fundamental guard) for survival first. Also check [[Bridge and Roll]] and [[Frame and Shrimp]].
 
-**Building your game?** → [[BJJ Positions]] to see the full landscape, then dive into specific areas. Maybe [[Half Guard Bottom]], [[Spider Guard]], or [[X-Guard]] for your guard game. [[Side Control Top]] or [[Knee on Belly]] for top control.
+**Building your game?** → [[Positions]] to see the full landscape, then dive into specific areas. Maybe [[Half Guard Bottom]], [[Spider Guard]], or [[X-Guard]] for your guard game. [[Side Control Top]] or [[Knee on Belly]] for top control.
 
 **Competition prep?** → Position-specific pages for your weak points. Study [[Headquarters Position]] for passing, [[Triangle Control]] for submissions, [[Deep Half Guard]] for sweeps.
 
-**Just curious how it all fits together?** → [[BJJ Principles]] for conceptual frameworks like [[Position Before Submission]] and [[Connection Principles]].
+**Just curious how it all fits together?** → [[Principles]] for conceptual frameworks like [[Connection Principles]].
 
 ---
 
