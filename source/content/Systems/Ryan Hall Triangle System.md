@@ -404,7 +404,7 @@ Hall's triangle system requires systematic drilling progressions that build from
 - [[Hip Movement]] (Principle) - Essential body mechanic for system execution
 - [[Creating Reactions]] (Principle) - Strategic principle driving submission chain logic
 - [[Dilemma Creation]] (Principle) - Core strategic concept making system effective
-- [[Guard Retention Concepts]] (Principle) - Defensive foundation supporting offensive triangle attacks
+- [[Guard Retention]] (Principle) - Defensive foundation supporting offensive triangle attacks
 
 
 </section>

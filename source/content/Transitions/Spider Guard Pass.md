@@ -324,8 +324,8 @@ The Spider Guard Pass is a fundamental component of any comprehensive guard pass
 - [[Knee Cut Pass]] - Follow-up pass if spider guard transitions to half guard
 - [[Long Step Pass]] - Related passing variation with similar grip breaking
 - [[Pressure Passing]] - Core principle underlying this passing system
-- [[Guard Passing Principles]] - Fundamental concepts applied in this technique
 - [[Grip Fighting]] - Essential skill for successful execution
+- [[Grip Breaking]] - Fundamental principle applied in this technique
 - [[De La Riva Guard]] - Common guard transition opponent may attempt
 - [[Lasso Guard]] - Related guard variation requiring similar passing approach
 - [[Guard Retention]] - Defensive concepts opponent uses to prevent this pass

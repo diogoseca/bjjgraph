@@ -829,7 +829,7 @@ Master fundamental BJJ principles and concepts. Complete guide to leverage, posi
 
 **[[Defensive Framing]]** - Master defensive framing in BJJ. Learn elbow structure, connection points, pressure redirection, and frame recovery across all bottom positions.
 
-**[[Defensive Posture]]** - Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning with expert insights from Danaher, Ryan, and Bravo.
+**[[Defensive Posture]]** - Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning to maximize defense while minimizing energy expenditure.
 
 **[[Defensive Strategy]]** - Master defensive strategy in BJJ through systematic opponent analysis, tactical planning, and adaptive execution. Learn threat prioritization and counter-attack integration.
 
@@ -883,7 +883,7 @@ Master fundamental BJJ principles and concepts. Complete guide to leverage, posi
 
 **[[Guard Retention]]** - Master guard retention fundamentals in BJJ. Learn frame management, hip mobility, space creation, and defensive sequencing to maintain guard under pressure across all positions.
 
-**[[Hand Fighting]]** - Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement. Expert insights from Danaher, Gordon Ryan, Eddie Bravo.
+**[[Hand Fighting]]** - Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement patterns for guard retention, passing, and clinch dominance.
 
 **[[Hand Fighting from Back]]** - Master defensive hand fighting from back control in BJJ. Learn wrist control mechanics, chin protection strategies, and survival frameworks to prevent rear naked chokes.
 

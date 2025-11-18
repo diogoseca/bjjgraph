@@ -206,14 +206,14 @@ Long Step Passing represents the strategic principle of advancing the lead leg d
 
 ## Related Principles
 - **[[Pressure Passing Framework]]** (Prerequisite): Long step passing is a specific application of broader pressure passing principles, requiring fundamental understanding of pressure-based immobilization and systematic advancement before implementing deep step mechanics.
-- **[[Guard Passing Principles]]** (Prerequisite): Core guard passing concepts including posture control, hip line recognition, and passing progression provide the foundational framework upon which long step passing mechanics are built.
+- **[[Guard Passing]]** (Prerequisite): Core guard passing concepts including posture control, hip line recognition, and passing progression provide the foundational framework upon which long step passing mechanics are built.
 - **[[Base Maintenance]]** (Complementary): Stable base structure is essential throughout long step sequences to prevent sweeps while applying pressure. These concepts work synergistically to enable effective pressure-based passing.
 - **[[Hip Pressure]]** (Complementary): Hip pressure application is the primary mechanism through which long step passing controls opponent's mobility and prevents guard retention. Both concepts reinforce each other in pressure passing systems.
 - **[[Angle Creation]]** (Alternative): While long step passing emphasizes direct forward pressure and deep commitment, angle creation represents an alternative passing philosophy based on lateral movement and positioning. Understanding both approaches creates tactical flexibility.
 - **[[Speed Passing]]** (Alternative): Speed passing represents a contrasting methodology that emphasizes quick movement and timing rather than pressure and control. Long step passing offers pressure-based solutions when speed-based approaches are neutralized by opponent's guard retention.
 - **[[Weight Distribution]]** (Complementary): Proper weight distribution throughout the long step sequence is critical for maintaining pressure while preserving balance, making these concepts mutually reinforcing in pressure passing applications.
 - **[[Forward Pressure]]** (Complementary): Forward pressure generation is the driving force behind long step passing effectiveness, creating the immobilization necessary for systematic advancement through guard structures.
-- **[[Guard Passing Concepts]]** (Extension): Long step passing extends general guard passing concepts into specific pressure-based methodology, applying foundational principles through deep positional commitment framework.
+- **[[Pressure Passing]]** (Extension): Long step passing extends general pressure passing concepts into specific methodology, applying foundational principles through deep positional commitment framework.
 - **[[Control Point Hierarchy]]** (Complementary): Understanding which control points to establish at each phase of long step passing sequence enables systematic advancement and prevents defensive recovery between passing phases.
 
 
@@ -378,7 +378,7 @@ Engage in live guard passing sparring with specific emphasis on long step method
 - [[Headquarters Position]] (Position) - Headquarters represents checkpoint position within long step passing sequence where deep step has been established and passer is consolidating control
 - [[Side Control]] (Position) - Side control represents typical finishing position for successful long step passing sequences, the target control position for systematic advancement
 - [[Pressure Passing Framework]] (Principle) - Long step passing exemplifies core pressure passing principles, serving as specific technical application of broader conceptual framework
-- [[Guard Passing Principles]] (Principle) - Long step passing builds upon fundamental guard passing concepts including posture, hip control, and systematic advancement
+- [[Guard Passing]] (Principle) - Long step passing builds upon fundamental guard passing concepts including posture, hip control, and systematic advancement
 - [[Hip Pressure]] (Principle) - Hip pressure application is primary mechanism through which long step passing controls opponent mobility and prevents guard retention
 - [[Base Maintenance]] (Principle) - Stable base structure is essential throughout long step sequences to prevent sweeps while applying pressure effectively
 - [[Weight Distribution]] (Principle) - Proper weight distribution enables effective pressure application while maintaining balance throughout long step passing sequences

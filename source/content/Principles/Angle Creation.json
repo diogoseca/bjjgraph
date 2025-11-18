@@ -100,7 +100,7 @@
       "description": "Angle creation is primary mechanism for space generation—perpendicular movements create gaps in opponent's control while linear movements often compress space."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Successful guard passing fundamentally depends on creating angles that circumvent rather than penetrate opponent's defensive structure, making angle creation essential passing skill."
     },
@@ -139,7 +139,7 @@
     },
     {
       "context": "Deep Half Guard",
-      "how_applied": "Use angles by positioning body perpendicular under opponent, creating structural problems for their base while enabling sweep entries. Perpendicular alignment multiplies leverage for Homer sweep and back door escapes."
+      "how_applied": "Use angles by positioning body perpendicular under opponent, creating structural problems for their base while enabling sweep entries. Perpendicular alignment multiplies leverage for sweeps and escapes."
     },
     {
       "context": "Butterfly Guard",
@@ -159,7 +159,7 @@
     },
     {
       "context": "Reverse De La Riva Guard",
-      "how_applied": "Establish reverse angles by inverting under opponent's base, creating perpendicular alignment from underneath that enables crab ride, back takes, and kiss of dragon entries."
+      "how_applied": "Establish reverse angles by inverting under opponent's base, creating perpendicular alignment from underneath that enables back takes and sweep entries."
     },
     {
       "context": "Open Guard",
@@ -374,9 +374,9 @@
       "relationship": "Guard position creating multi-directional angles that compromise opponent's base simultaneously"
     },
     {
-      "name": "De La Riva Sweep",
+      "name": "Berimbolo Entry",
       "content_type": "Transition",
-      "relationship": "Sweep family heavily dependent on maintaining angular control through hook and grip combinations"
+      "relationship": "Advanced transition demonstrating extreme angular inversion to circumvent opponent's defensive structure"
     }
   ],
   "expert_insights": {

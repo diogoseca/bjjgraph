@@ -212,7 +212,7 @@ Mastery of timing and rhythm fundamentally transforms technical execution from m
 - **[[Creating Reactions]]** (Complementary): Deliberately generating opponent responses creates predictable timing windows, making these principles mutually reinforcing in practical application
 - **[[Sweep Mechanics]]** (Extension): Sweep timing represents a specific application domain where timing principles manifest through off-balancing during transitional moments
 - **[[Off-Balancing]]** (Complementary): Off-balancing techniques require precise timing to exploit moments of reduced base stability, making temporal awareness essential for execution
-- **[[Guard Passing Principles]]** (Extension): Passing timing involves recognizing when guard retention mechanisms are temporarily compromised, allowing advancement with minimal resistance
+- **[[Guard Passing]]** (Extension): Passing timing involves recognizing when guard retention mechanisms are temporarily compromised, allowing advancement with minimal resistance
 - **[[Guard Retention]]** (Extension): Defensive timing in guard retention requires immediate recognition of passing attempts and coordinated counter-movements within narrow temporal windows
 - **[[Transition Management]]** (Complementary): Smooth transitions depend on timing the initiation of position changes to coincide with optimal windows created by opponent movement or stabilization attempts
 - **[[Energy Management System]]** (Complementary): Proper timing dramatically reduces energy expenditure by aligning technical execution with existing momentum, making these principles synergistic
@@ -251,11 +251,11 @@ Mastery of timing and rhythm fundamentally transforms technical execution from m
 
 **Standing Position**: Timing takedown attempts to coincide with opponent weight shifts, grip adjustments, or forward momentum, dramatically increasing success rates while reducing injury risk
 
-**Guard Recovery**: Timing frame insertion and hip escape movements to coincide with opponent weight shifts during passing sequences, exploiting transitional moments between pressure application phases
+**Scramble Position**: Recognizing and exploiting micro-windows during chaotic transitions where opponent temporarily loses positional awareness or base control
 
-**Guard Pass**: Timing guard passing progression based on opponent retention reactions, advancing position during defensive adjustments rather than attempting to force through established frames
+**Headquarters Position**: Timing guard passing progression based on opponent retention reactions, advancing position during defensive adjustments rather than attempting to force through established frames
 
-**Armbar Finish**: Timing final tightening mechanics to coincide with opponent exhalation or momentary relaxation in defensive tension, recognizing when defensive options are exhausted
+**K-Guard**: Timing sweep entries to coincide with opponent pressure changes and weight distribution shifts, exploiting the inverted positioning to create unexpected angles
 
 
 
@@ -381,7 +381,7 @@ Review video footage of high-level matches specifically analyzing timing element
 - [[Action and Reaction]] (Principle) - Foundational principle explaining why timing windows exist through opponent reactions to stimuli
 - [[Sweep Mechanics]] (Principle) - Primary application domain where timing principles directly determine sweep success probability
 - [[Off-Balancing]] (Principle) - Technical implementation requiring precise timing to exploit moments of reduced base stability
-- [[Guard Passing Principles]] (Principle) - Strategic framework where timing determines when to advance position versus consolidate control
+- [[Guard Passing]] (Principle) - Strategic framework where timing determines when to advance position versus consolidate control
 - [[Transition Management]] (Principle) - Operational principle for coordinating position changes with optimal temporal windows
 - [[Energy Management System]] (Principle) - Efficiency framework that timing directly enhances by reducing effort requirements
 - [[Offensive Combinations]] (Principle) - Attack strategy built on timing multiple techniques within reaction windows

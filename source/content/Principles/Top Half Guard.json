@@ -72,7 +72,7 @@
       "description": "Understanding control point prioritization directly enhances top half guard effectiveness by providing a systematic framework for deciding which connections to establish and maintain based on opponent defensive structure."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Top half guard serves as a specific application domain where general guard passing principles are refined and adapted to the unique constraints of half guard configurations."
     },
@@ -146,7 +146,7 @@
       "how_applied": "Provides foundation for initial half guard control establishment. Concepts guide transition from combat base to more dominant control positions through systematic pressure application."
     },
     {
-      "context": "Headquarters Control",
+      "context": "Headquarters Position",
       "how_applied": "Represents advanced expression of top half guard concepts where underhook control and leg position create platform for multiple passing options and submission threats."
     },
     {
@@ -340,7 +340,7 @@
       "relationship": "Advanced defensive position that must be recognized early and countered using preventive top half guard strategies before full position establishment"
     },
     {
-      "name": "Headquarters Control",
+      "name": "Headquarters Position",
       "content_type": "Position",
       "relationship": "Advanced control position representing optimal expression of top half guard concepts where underhook control creates platform for multiple passing and submission options"
     },

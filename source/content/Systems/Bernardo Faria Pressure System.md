@@ -358,26 +358,30 @@ Begin with static positional drilling focusing on proper weight distribution and
 - [[Deep Half Guard]] (Position) - Defensive position requiring specific escape and passing protocols
 - [[Body Lock]] (Position) - Key control position used to eliminate grip fighting and create passing opportunities
 - [[Headquarters Position]] (Position) - Strategic position for initiating pressure passing sequences
-- [[Knee Slice Pass]] (Transition) - Primary passing technique within the pressure system
+- [[High Mount]] (Position) - Advanced mount position for submission attacks after passing
+- [[Combat Base]] (Position) - Starting position for establishing grips and initiating passing sequences
+- [[Closed Guard]] (Position) - Guard structure requiring systematic opening and passing approach
+- [[Butterfly Guard]] (Position) - Open guard structure addressed with bodylock and over-under techniques
+- [[Knee Cut Pass]] (Transition) - Primary passing technique within the pressure system
 - [[Over-Under Pass]] (Transition) - Core passing technique for creating asymmetric pressure
 - [[Bodylock Pass]] (Transition) - Passing technique that eliminates opponent's grip fighting opportunities
 - [[Half Guard Pass]] (Transition) - Critical passing skill for system success from half guard top
 - [[Long Step Pass]] (Transition) - Alternative passing technique used when knee slice is defended
 - [[Double Under Pass]] (Transition) - Passing variation using bilateral underhook control for pressure application
 - [[Side Control to Mount]] (Transition) - Position advancement sequence after successful passing
+- [[Knee Slice Pass]] (Transition) - Fundamental pressure passing movement driving knee across opponent's thighs
 - [[Pressure Passing]] (Principle) - Foundational principle underlying entire system methodology
 - [[Weight Distribution]] (Principle) - Core principle for creating effective pressure without exhaustion
 - [[Forward Pressure]] (Principle) - Fundamental concept of maintaining constant offensive pressure
 - [[Cross Face Control]] (Principle) - Essential control principle for half guard and side control dominance
-- [[Guard Passing Principles]] (Principle) - Theoretical framework supporting systematic passing approach
+- [[Guard Passing]] (Principle) - Theoretical framework supporting systematic passing approach
 - [[Base Maintenance]] (Principle) - Critical principle for preventing sweeps during passing attempts
 - [[Control Maintenance]] (Principle) - Principle for consolidating positions after successful passes
+- [[Pressure Application]] (Principle) - Technical principle for applying weight effectively during passing
 - [[Gordon Ryan Passing System]] (System) - Complementary modern passing system with different technical emphasis
 - [[Roger Gracie Fundamental System]] (System) - Related fundamental-based system with similar pressure philosophy
-- [[Gi-Specific Strategy]] (System) - Strategic framework for maximizing gi grips in passing sequences
 - [[Arm Triangle]] (Submission) - High-percentage submission from consolidated side control position
-- [[Ezekiel from Mount]] (Submission) - Primary submission attack from consolidated mount position
-- [[Kimura from Side Control]] (Submission) - Submission option from dominant side control position
+- [[Ezekiel Choke]] (Submission) - Primary submission attack from consolidated mount position
 
 
 </section>

@@ -76,14 +76,14 @@
       "description": "Frame Management is a critical component skill within defense technique that focuses specifically on creating and maintaining structural barriers between practitioner and opponent, enabling space creation and position recovery."
     },
     {
-      "principle_name": "Energy Conservation",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
-      "description": "Energy Conservation principles ensure that defense technique is sustainable over extended periods, teaching efficient mechanical solutions rather than strength-based resistance that leads to exhaustion and defensive failure."
+      "description": "Energy Management System principles ensure that defense technique is sustainable over extended periods, teaching efficient mechanical solutions rather than strength-based resistance that leads to exhaustion and defensive failure."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
-      "description": "Guard Retention Concepts represent a specialized application of defense technique specifically to maintaining guard positions, extending defensive principles into the context of preventing guard passing and maintaining offensive capability from bottom."
+      "description": "Guard Retention represents a specialized application of defense technique specifically to maintaining guard positions, extending defensive principles into the context of preventing guard passing and maintaining offensive capability from bottom."
     },
     {
       "principle_name": "Submission Defense",
@@ -111,9 +111,9 @@
       "description": "Mount Escape Hierarchy represents the systematic application of defense technique principles specifically to the mount position, one of the most critical defensive scenarios."
     },
     {
-      "principle_name": "Side Control Defensive Framework",
+      "principle_name": "Side Control Escapes",
       "relationship_type": "Extension",
-      "description": "Side Control Defensive Framework applies defense technique principles specifically to side control escapes, adapting general defensive concepts to this common inferior position."
+      "description": "Side Control Escapes apply defense technique principles specifically to side control escapes, adapting general defensive concepts to this common inferior position."
     },
     {
       "principle_name": "Back Escape Series",
@@ -163,7 +163,7 @@
       "how_applied": "Defense technique prioritizes posture maintenance to prevent opponent's legs from closing around neck, combined with specific hand positioning and stacking pressure to create escape angles, showing adaptation of defensive principles to specific submission contexts."
     },
     {
-      "context": "Kuzure Kesa-Gatame",
+      "context": "Kesa Gatame",
       "how_applied": "Defensive application against this traditional pin emphasizes bridge-and-roll mechanics specific to the side headlock position, combined with inside arm positioning to prevent chest-to-chest seal and create pathways to escape or guard recovery."
     },
     {
@@ -361,14 +361,9 @@
       "relationship": "Specialized application of defense technique specifically to neutralizing finishing attempts"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Application of defensive principles specifically to maintaining guard positions and preventing passes"
-    },
-    {
-      "name": "Pin Escape Methodology",
-      "content_type": "Principle",
-      "relationship": "Systematic approach to escaping dominant pinning positions using defensive technique principles"
     },
     {
       "name": "Mount",

@@ -348,7 +348,7 @@ The RDLR pass is a crucial component of modern guard passing systems, serving as
 - [[Single Leg X-Guard]] - Common counter - guard retention option opponents use when hook is cleared
 - [[Side Control]] - Ending position - primary destination after successful pass completion
 - [[Grip Fighting]] - Prerequisite concept - essential for establishing passing grips
-- [[Guard Passing Principles]] - Fundamental concept - theoretical framework underlying the technique
+- [[Guard Passing]] - Fundamental concept - theoretical framework underlying the technique
 - [[Pressure Passing]] - Related concept - passing philosophy applied in this technique
 - [[Hip Movement]] - Technical element - body mechanics required for circling around legs
 

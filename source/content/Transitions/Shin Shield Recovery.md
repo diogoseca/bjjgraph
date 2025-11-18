@@ -350,15 +350,15 @@ From a systematic perspective, mastering shin shield recovery is essential for d
 
 ## Related Techniques
 
-- [[Knee Shield Retention]] - Primary transition - Shin shield recovery leads directly to knee shield position
-- [[Deep Half Entry]] - Alternative - Common transition when shin shield is smashed down
+- [[Knee Shield Half Guard]] - Primary transition - Shin shield recovery leads directly to knee shield position
+- [[Deep Half Guard]] - Alternative - Common transition when shin shield is smashed down
 - [[Old School Sweep]] - Follow-up attack - Offensive option from established shin shield
 - [[Underhook Sweep from Half]] - Related technique - Both use inside underhook control for guard retention and sweeps
 - [[Frame and Shrimp]] - Fundamental component - Core movement pattern used to create space for shin insertion
 - [[Lockdown Sweeps]] - Alternative system - Low shin shield connects to lockdown half guard entries
 - [[Half Guard to Back Take]] - Follow-up - Shin shield with inside underhook creates back-take opportunities
 - [[Re-Guard]] - Parallel technique - Both focus on recovering guard structure from compromised positions
-- [[Guard Retention Concepts]] - Conceptual framework - Shin shield exemplifies core guard retention principles
+- [[Guard Recovery]] - Conceptual framework - Shin shield exemplifies core guard retention principles
 - [[Hip Escape Mechanics]] - Fundamental movement - Hip escape creates space necessary for shin shield insertion
 
 

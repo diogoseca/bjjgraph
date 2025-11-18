@@ -80,7 +80,7 @@
       "description": "Successful grip fighting to deny or break opponent's posture-breaking grips is essential prerequisite for posture recovery. Without grip control, opponent can continuously re-break posture regardless of recovery efforts."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Posture recovery serves as foundational element that enables effective guard passing. Once posture is established, practitioner can implement specific passing strategies that require upright structure."
     },
@@ -90,7 +90,7 @@
       "description": "Creating distance between hips and opponent's center of mass supports posture recovery by reducing opponent's mechanical advantage for breaking posture. Distance management and posture work synergistically."
     },
     {
-      "principle_name": "Defensive Framing",
+      "principle_name": "Defensive Frame",
       "relationship_type": "Complementary",
       "description": "Defensive frames protect postural structure by creating barriers between practitioner and opponent's breaking controls. Frames and posture work together to maintain defensive integrity."
     },
@@ -363,7 +363,7 @@
       "relationship": "Application context - guard position that creates specific posture-breaking challenges requiring adapted recovery approach"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Extended application - posture recovery serves as foundation for implementing guard passing strategies"
     },

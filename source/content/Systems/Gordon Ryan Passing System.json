@@ -212,9 +212,9 @@
       "relationship": "Central hub position for initiating passing sequences and maintaining strategic control"
     },
     {
-      "name": "Half Guard Pass",
+      "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Specific application of pressure passing principles against half guard retention"
+      "relationship": "Common guard position requiring systematic pressure passing approach"
     },
     {
       "name": "Body Lock Pass",
@@ -247,14 +247,14 @@
       "relationship": "Systematic passing sequence from headquarters control position"
     },
     {
-      "name": "Underhook Pass",
+      "name": "Over-Under Pass",
       "content_type": "Transition",
-      "relationship": "Passing method utilizing underhook control for pressure application"
+      "relationship": "Pressure-based passing method utilizing shoulder pressure and stacking"
     },
     {
-      "name": "Smash Pass",
+      "name": "Knee Cut Pass",
       "content_type": "Transition",
-      "relationship": "Aggressive passing variation using shoulder pressure and stacking"
+      "relationship": "Dynamic passing option that complements pressure passing sequences"
     },
     {
       "name": "Side Control",
@@ -272,7 +272,7 @@
       "relationship": "Core principle underlying entire passing system approach"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Fundamental principles that inform all passing strategies"
     },

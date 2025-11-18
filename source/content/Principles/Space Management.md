@@ -212,9 +212,9 @@ Offensively, space management involves the systematic elimination of opponent op
 - **[[Frame Creation]]** (Prerequisite): Frame creation is the primary technical tool for implementing space management principles. Without proper frame construction using skeletal alignment, space management becomes entirely dependent on strength and athleticism rather than technique.
 - **[[Hip Escape Mechanics]]** (Complementary): Hip escapes work synergistically with space management by providing the movement mechanics needed to capitalize on created space. Frames create initial separation, hip escapes extend that separation, and the combination enables position recovery.
 - **[[Pressure Application]]** (Alternative): Pressure application is the offensive counterpart to defensive space management. Where space management focuses on creating and maintaining distance, pressure application systematically eliminates space to control opponents. Understanding both concepts creates a complete strategic framework.
-- **[[Guard Retention Concepts]]** (Extension): Space management principles extend into guard retention by providing the foundational skills for maintaining distance control and preventing guard passes. Guard retention applies space management concepts specifically to the context of maintaining guard positions.
+- **[[Guard Retention]]** (Extension): Space management principles extend into guard retention by providing the foundational skills for maintaining distance control and preventing guard passes. Guard retention applies space management concepts specifically to the context of maintaining guard positions.
 - **[[Escape Hierarchy]]** (Complementary): Escape hierarchy provides the strategic framework for when and how to apply space management techniques. Space management provides the technical tools, while escape hierarchy determines which spaces to create and when based on positional priorities.
-- **[[Energy Management System]]** (Prerequisite): Proper energy management enables sustained space management under pressure. Without understanding how to conserve energy through efficient frames and movement, practitioners exhaust themselves trying to create space, leading to positional deterioration.
+- **[[Energy Conservation]]** (Prerequisite): Proper energy conservation enables sustained space management under pressure. Without understanding how to conserve energy through efficient frames and movement, practitioners exhaust themselves trying to create space, leading to positional deterioration.
 - **[[Bridging Mechanics]]** (Complementary): Bridging mechanics complement hip escapes and frames by providing vertical space creation that relieves pressure and creates angles for lateral movement. The bridge-then-shrimp sequence is fundamental to effective space management.
 - **[[Defensive Framing]]** (Prerequisite): Defensive framing provides the specific technical applications of frame construction in various defensive contexts. This principle details which frames work in which positions and against which types of attacks.
 - **[[Control Point Hierarchy]]** (Extension): Understanding control point hierarchy allows practitioners to prioritize which spaces to defend or attack. This principle identifies that controlling head and hips provides the most effective space compression, while defending these points is critical for space creation.
@@ -391,9 +391,9 @@ Practice from top positions focusing on eliminating opponent's space through pre
 - [[Guard Recovery]] (Principle) - Common goal of defensive space management from bottom positions
 - [[Pressure Application]] (Principle) - Offensive counterpart to defensive space management, understanding both creates complete framework
 - [[Knee Shield Half Guard]] (Position) - Position that utilizes space management principles through active frame maintenance
-- [[Energy Management System]] (Principle) - Complementary concept that enables sustained space management through efficiency
+- [[Energy Conservation]] (Principle) - Complementary concept that enables sustained space management through efficiency
 - [[Escape Hierarchy]] (Principle) - Strategic framework that determines when and how to apply space management techniques
-- [[Guard Retention Concepts]] (Principle) - Extension of space management principles applied specifically to maintaining guard positions
+- [[Guard Retention]] (Principle) - Extension of space management principles applied specifically to maintaining guard positions
 - [[Defensive Position]] (Position) - Emergency defensive position that represents maximum application of space management for survival
 
 

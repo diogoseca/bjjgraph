@@ -211,9 +211,12 @@ Defensive Strategy represents the competition-focused application of defensive c
 - **[[Risk Assessment]]** (Prerequisite): Defensive strategy depends on accurate risk assessment to prioritize defensive preparation and make sound strategic decisions during competitive exchanges.
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy informs defensive strategy by clarifying which positional losses to prevent absolutely and which to accept temporarily for strategic advantage.
 - **[[Energy Management System]]** (Complementary): Defensive strategy incorporates energy management principles to ensure strategic defensive efforts remain sustainable across entire match duration.
-- **[[Guard Retention Concepts]]** (Extension): Guard retention concepts represent specific application of defensive strategy to guard scenarios, translating strategic planning into technical guard retention execution.
+- **[[Guard Retention]]** (Extension): Guard retention represents specific application of defensive strategy to guard scenarios, translating strategic planning into technical guard retention execution.
 - **[[Escape Hierarchy]]** (Complementary): Escape hierarchy provides framework for prioritizing escape attempts within defensive strategy, ensuring defensive efforts focus on most important positional recoveries.
 - **[[Submission Defense Concepts]]** (Extension): Submission defense concepts guide defensive strategy for submission scenarios, informing which submission defenses to prioritize based on opponent's finishing preferences.
+- **[[Defensive Frame]]** (Prerequisite): Defensive framing provides fundamental structural defense upon which strategic defensive positioning is built across all positions.
+- **[[Pin Escape Methodology]]** (Extension): Pin escape methodology represents systematic application of defensive strategy to pinning positions, providing structured approach to escaping dominant control.
+- **[[Game Planning]]** (Complementary): Game planning encompasses defensive strategy within broader competitive preparation, ensuring defensive approach integrates with overall competition objectives.
 
 
 </section>
@@ -221,25 +224,23 @@ Defensive Strategy represents the competition-focused application of defensive c
 <section id="application-contexts" class="content-section">
 
 ## Application Contexts
-**Guard Recovery**: Defensive strategy determines which guard positions to prioritize recovering based on opponent's passing preferences and practitioner's defensive strengths, creating targeted recovery pathways rather than generic re-guarding.
-
-**Back Control**: Strategic defensive planning for back control scenarios involves preparing specific hand fighting sequences, chin protection methods, and escape pathways based on opponent's choking preferences and attacking patterns.
-
-**Mount**: Defensive strategy under mount prioritizes escape timing, frame placement, and bridge direction based on opponent's tendency to attack submissions versus maintain positional control for points.
-
-**Side Control**: Strategic approach to side control defense involves choosing between immediate escape attempts and energy conservation based on match time remaining, score differential, and opponent's submission threat level.
-
 **Closed Guard**: Defensive strategy from closed guard involves preventing specific guard opening sequences that opponent prefers while maintaining offensive threat to discourage aggressive passing attempts.
 
 **Half Guard**: Strategic defensive planning determines whether to focus on lockdown retention, underhook battles, or transition to other guards based on opponent's half guard passing methodology.
+
+**Open Guard**: Strategic defensive planning identifies which open guard variations to establish based on opponent's passing style, creating defensive guard systems that neutralize opponent's strongest passing approaches.
+
+**Side Control**: Strategic approach to side control defense involves choosing between immediate escape attempts and energy conservation based on match time remaining, score differential, and opponent's submission threat level.
+
+**Mount**: Defensive strategy under mount prioritizes escape timing, frame placement, and bridge direction based on opponent's tendency to attack submissions versus maintain positional control for points.
+
+**Back Control**: Strategic defensive planning for back control scenarios involves preparing specific hand fighting sequences, chin protection methods, and escape pathways based on opponent's choking preferences and attacking patterns.
 
 **Turtle**: Defensive strategy from turtle involves choosing between standing up, rolling to guard, or accepting temporary back exposure based on opponent's turtle attack preferences and scoring situation.
 
 **North-South**: Strategic defensive approach prioritizes specific escape directions and timing based on opponent's tendency to submit from north-south versus transition to other top positions.
 
 **Knee on Belly**: Defensive strategy determines whether to immediately escape knee on belly or accept position temporarily to avoid worse positions based on opponent's transition patterns and match score.
-
-**Open Guard**: Strategic defensive planning identifies which open guard variations to establish based on opponent's passing style, creating defensive guard systems that neutralize opponent's strongest passing approaches.
 
 **Defensive Position**: Defensive strategy governs when to use defensive positioning for recovery versus when to maintain more active guard positions based on match situation and opponent's offensive capabilities.
 
@@ -250,6 +251,14 @@ Defensive Strategy represents the competition-focused application of defensive c
 **Spider Guard**: Strategic defensive planning emphasizes grip maintenance and distance control based on opponent's tendency to pass through pressure versus athleticism and speed.
 
 **X-Guard**: Defensive strategy from X-Guard involves choosing between sweep attempts and position maintenance based on opponent's base stability and counter-passing tactics.
+
+**Deep Half Guard**: Strategic defensive positioning from deep half guard prioritizes underhook control and waiter sweep setups when opponent prefers crossface-based passing strategies.
+
+**Lasso Guard**: Defensive strategy emphasizes maintaining lasso control and preventing opponent's preferred leg weave or smash passing sequences based on scouting reports.
+
+**Headquarters Position**: Strategic defensive approach from headquarters determines when to initiate passing versus when to maintain safe distance based on opponent's guard recovery capabilities.
+
+**Ashi Garami**: Defensive strategy in leg entanglement positions prioritizes specific defensive grips and position exits based on opponent's heel hook finishing mechanics and submission preferences.
 
 
 
@@ -370,7 +379,7 @@ Systematic analysis of training sessions to evaluate defensive strategy effectiv
 - [[Match Strategy]] (Principle) - Encompasses defensive strategy within broader competitive planning framework, ensuring defensive preparation integrates with offensive game planning and overall match approach.
 - [[Competition Mindset]] (Principle) - Provides psychological framework necessary for executing defensive strategy under competition pressure and adapting to unexpected match developments.
 - [[Risk Assessment]] (Principle) - Informs defensive strategy prioritization by evaluating relative threat levels of different attacks, guiding allocation of preparation time and defensive resources.
-- [[Guard Retention Concepts]] (Principle) - Represents specific application of defensive strategy to guard retention scenarios, translating strategic planning into technical guard retention execution.
+- [[Guard Retention]] (Principle) - Represents specific application of defensive strategy to guard retention scenarios, translating strategic planning into technical guard retention execution.
 - [[Escape Hierarchy]] (Principle) - Provides framework for prioritizing escape attempts within defensive strategy, ensuring defensive efforts focus on most important positional recoveries.
 - [[Submission Defense Concepts]] (Principle) - Guides defensive strategy for submission scenarios, informing which submission defenses to prioritize based on opponent's finishing preferences and success rates.
 - [[Energy Management System]] (Principle) - Integrates with defensive strategy to ensure strategic defensive efforts remain sustainable across match duration without creating mid-match exhaustion.

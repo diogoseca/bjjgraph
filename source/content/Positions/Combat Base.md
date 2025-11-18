@@ -51,7 +51,7 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Control. Success rate for advanced practitioners: 65%.",
+      "text": "From this position, execute Leg Drag Pass to transition to Leg Drag Position. Success rate for advanced practitioners: 65%.",
       "position": 6
     },
     {
@@ -269,7 +269,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 - Intermediate: 55%
 - Advanced: 70%
 
-### [[Leg Drag Pass]] → [[Leg Drag Control]]
+### [[Leg Drag Pass]] → [[Leg Drag Position]]
 
 **Success Rates:**
 - Beginner: 35%
@@ -298,13 +298,13 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Defensive Counters
 
-- **[[De La Riva Hook]]** → [[De La Riva Guard]] (Success: 40%)
+- **[[De La Riva Guard Entry]]** → [[De La Riva Guard]] (Success: 40%)
 - **[[X-Guard Entry]]** → [[X-Guard]] (Success: 35%)
 - **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Success: 35%)
 - **[[Butterfly Hook Retention]]** → [[Butterfly Guard]] (Success: 40%)
 - **[[Reverse De La Riva Recovery]]** → [[Reverse De La Riva Guard]] (Success: 30%)
-- **[[Spider Guard Pass]]** → [[Spider Guard]] (Success: 35%)
-- **[[Lasso Guard Pass]]** → [[Lasso Guard]] (Success: 30%)
+- **[[Spider Guard Retention]]** → [[Spider Guard]] (Success: 35%)
+- **[[Lasso Guard Variations]]** → [[Lasso Guard]] (Success: 30%)
 
 
 </section>
@@ -315,7 +315,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 - **[[Knee Slice Pass]]** → [[Side Control]]
   - Opponent attempts to re-establish closed guard or frames against chest with feet on hips
-- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
+- **[[Leg Drag Pass]]** → [[Leg Drag Position]]
   - Opponent extends legs for distance creation or attempts to establish De La Riva hook on posted leg
 - **[[Toreando Pass]]** → [[Side Control]]
   - Opponent elevates hips for sweep attempt or creates excessive space between bodies
@@ -333,7 +333,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 **If opponent maintains open guard with feet on hips and active frames preventing forward movement:**
 - Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 50%)
+- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 50%)
 
 
 **If opponent attempts to close guard or establish butterfly hooks on posted knee:**
@@ -342,7 +342,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 
 **If opponent establishes De La Riva or X-Guard hooks on posted leg:**
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 50%)
+- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 50%)
 - Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 45%)
 
 
@@ -517,12 +517,12 @@ Combat base in no-gi grappling is completely different than in the gi because yo
 - **[[Headquarters Position]]** - Advanced variation - Deeper knee position with similar passing principles
 - **[[Toreando Pass]]** - Primary transition technique - Most common dynamic pass from combat base
 - **[[Knee Slice Pass]]** - Primary transition technique - High-percentage pressure pass from combat base
-- **[[Guard Passing Principles]]** - Foundational concept - Core principles applied in combat base positioning
+- **[[Guard Passing]]** - Foundational concept - Core principles applied in combat base positioning
 - **[[Base Maintenance]]** - Core principle - Essential for maintaining combat base integrity against sweeps
 - **[[Posture Up]]** - Core principle - Critical for effective combat base structure and submission defense
 - **[[Pressure Passing]]** - System concept - Combat base serves as platform for pressure passing sequences
 - **[[De La Riva Guard]]** - Counter position - Common guard retention response to combat base
-- **[[Leg Drag Control]]** - Transition target - Alternative passing position from combat base against hooks
+- **[[Leg Drag Position]]** - Transition target - Alternative passing position from combat base against hooks
 
 
 </section>

@@ -47,7 +47,7 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Prerequisite",
       "description": "Guard Recovery builds upon Guard Retention foundations - recovery becomes necessary when retention protocols fail, making retention the first defensive layer and recovery the second"
     },
@@ -335,7 +335,7 @@
   ],
   "related_content": [
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Prerequisite concept - guard recovery becomes necessary when retention fails, making retention the first defensive layer"
     },

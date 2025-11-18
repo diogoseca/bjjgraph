@@ -206,7 +206,7 @@ Drilling Methodology represents the systematic approach to technique repetition 
 - **[[Progressive Resistance Training]]** (Prerequisite): Progressive resistance training provides the overarching framework that drilling methodology operates within, defining the gradual escalation from cooperative to competitive practice environments. Drilling is the primary vehicle through which progressive resistance principles are applied.
 - **[[Maximum Efficiency Principle]]** (Complementary): Maximum efficiency principle guides the quality standards applied during drilling sessions, ensuring that repetitions encode economical movement patterns rather than wasteful compensation mechanics. Proper drilling methodology is essential for developing the movement efficiency this principle demands.
 - **[[Guard Retention]]** (Complementary): Guard retention skills are developed primarily through systematic drilling of hip escape mechanics, frame creation, and defensive positioning against progressive passing pressure. The complexity of guard retention makes drilling methodology essential for mastery.
-- **[[Guard Passing Principles]]** (Complementary): Guard passing principles are internalized through drilling methodology that progresses from static positioning through dynamic retention, allowing passers to refine pressure application, grip strategies, and positional transitions systematically.
+- **[[Guard Passing]]** (Complementary): Guard passing principles are internalized through drilling methodology that progresses from static positioning through dynamic retention, allowing passers to refine pressure application, grip strategies, and positional transitions systematically.
 
 
 </section>

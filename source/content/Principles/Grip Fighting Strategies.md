@@ -208,8 +208,8 @@ Grip Fighting Strategies represents the fundamental skill of establishing, maint
 - **[[Control Point Hierarchy]]** (Complementary): Grip fighting directly relates to control point hierarchy as grips represent the initial control points that enable access to more dominant positions. Understanding which grips provide superior control informs strategic grip selection.
 - **[[Connection Breaking]]** (Complementary): Connection breaking is the broader concept that encompasses grip breaking as one component. Grip fighting strategies inform when and how to break connections to create offensive opportunities.
 - **[[Posture Breaking]]** (Extension): Once grips are established, posture breaking becomes possible. Grip fighting creates the foundation for posture breaking by securing the necessary control points to manipulate opponent structure.
-- **[[Guard Passing Principles]]** (Prerequisite): Effective guard passing requires winning the grip fight to prevent guard retention grips. Grip fighting strategies determine whether the passer can execute passing mechanics or must first overcome grip-based obstacles.
-- **[[Guard Retention Concepts]]** (Prerequisite): Guard retention depends heavily on establishing retention grips while denying passing grips. The guard player's ability to win grip exchanges directly impacts their capacity to maintain guard position.
+- **[[Guard Passing]]** (Prerequisite): Effective guard passing requires winning the grip fight to prevent guard retention grips. Grip fighting strategies determine whether the passer can execute passing mechanics or must first overcome grip-based obstacles.
+- **[[Guard Retention]]** (Prerequisite): Guard retention depends heavily on establishing retention grips while denying passing grips. The guard player's ability to win grip exchanges directly impacts their capacity to maintain guard position.
 - **[[Timing and Rhythm]]** (Complementary): Grip fighting success depends on timing grip attempts and breaks to coincide with opponent's movements and vulnerabilities. Understanding rhythm in exchanges enables more efficient grip establishment and denial.
 - **[[Frame Management]]** (Complementary): Frame creation often requires specific grips to maintain structural integrity. Grip fighting determines ability to establish and maintain frames that prevent opponent advancement.
 - **[[Distance Creation]]** (Complementary): Creating and managing distance relies on grip control to push or pull opponent. Grip fighting provides the connection points necessary for effective distance management.
@@ -373,8 +373,8 @@ Systematically adding grip fighting requirements to technique drilling, starting
 - [[Grip Breaking]] (Principle) - Component skill that focuses specifically on the technical execution of breaking opponent's established grips
 - [[Hand Fighting]] (Principle) - Closely related concept emphasizing the dynamic hand exchanges that occur before grips are established
 - [[Control Point Hierarchy]] (Principle) - Broader concept that contextualizes grips as initial control points in the hierarchy of positional dominance
-- [[Guard Retention Concepts]] (Principle) - Heavily dependent on grip fighting as guard retention requires establishing retention grips while denying passing grips
-- [[Guard Passing Principles]] (Principle) - Complementary concept where passing success depends significantly on winning the grip fight to neutralize guard retention
+- [[Guard Retention]] (Principle) - Heavily dependent on grip fighting as guard retention requires establishing retention grips while denying passing grips
+- [[Guard Passing]] (Principle) - Complementary concept where passing success depends significantly on winning the grip fight to neutralize guard retention
 - [[Spider Guard]] (Position) - Position that exemplifies grip fighting importance as entire guard structure depends on maintaining sleeve grips against breaking attempts
 - [[Closed Guard]] (Position) - Foundational position where grip fighting determines ability to control posture and execute attacks versus defend against passing
 - [[Lasso Guard]] (Position) - Guard system requiring sophisticated grip fighting to establish and maintain deep sleeve control for lasso configuration

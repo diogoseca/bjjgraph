@@ -81,11 +81,6 @@
       "description": "Positional sparring serves as essential preparation for competition by allowing high-volume practice of specific scenarios likely to occur in matches, with realistic resistance levels."
     },
     {
-      "principle_name": "Dilemma Creation",
-      "relationship_type": "Complementary",
-      "description": "Positional sparring accelerates understanding of dilemma-based positions by providing repeated exposure to decision points where opponents must choose between multiple bad options."
-    },
-    {
       "principle_name": "System Building",
       "relationship_type": "Extension",
       "description": "Positional sparring enables systematic development by allowing practitioners to test and refine interconnected techniques under resistance, revealing which combinations work cohesively under pressure."
@@ -101,17 +96,17 @@
       "description": "Positional sparring develops position-specific energy efficiency by allowing focused practice of energy conservation techniques within isolated positional contexts."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
       "description": "Guard retention skills develop rapidly through positional sparring from guard positions with passing objectives, providing high-volume defensive practice."
     },
     {
-      "principle_name": "Guard Passing Concepts",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Passing skills accelerate through positional sparring scenarios focused on overcoming specific guard retention strategies under realistic resistance."
     },
     {
-      "principle_name": "Escape Hierarchy",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
       "description": "Positional sparring from disadvantageous positions develops escape prioritization and execution through repeated practice under controlled resistance."
     },
@@ -119,6 +114,11 @@
       "principle_name": "Position-Over-Submission Approach",
       "relationship_type": "Complementary",
       "description": "Positional sparring reinforces positional hierarchy by allowing practitioners to focus on positional advancement objectives separate from submission attempts."
+    },
+    {
+      "principle_name": "Control Maintenance",
+      "relationship_type": "Extension",
+      "description": "Positional sparring from dominant positions develops control maintenance skills through sustained pressure application against realistic escape attempts."
     }
   ],
   "application_contexts": [
@@ -357,12 +357,12 @@
       "relationship": "Positional sparring serves as primary competition preparation methodology"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Commonly developed through positional sparring from guard positions"
     },
     {
-      "name": "Guard Passing Concepts",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Refined through positional sparring with passer objectives"
     },

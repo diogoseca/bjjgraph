@@ -214,7 +214,7 @@ Pressure Application represents the strategic utilization of bodyweight, positio
 - **[[Shoulder Pressure]]** (Complementary): Shoulder pressure represents a specific application vector within the broader pressure application framework, particularly relevant in side control and passing positions where shoulder drive creates both control and discomfort.
 - **[[Hip Pressure]]** (Complementary): Hip pressure is a fundamental pressure application method that creates control through lower body positioning, particularly effective in mount and passing positions where hip placement determines pressure quality.
 - **[[Forward Pressure]]** (Extension): Forward pressure represents directional application of the broader pressure principles, emphasizing driving force that advances position while maintaining control during guard passing and top game sequences.
-- **[[Guard Passing Principles]]** (Extension): Pressure application serves as the mechanical foundation for many guard passing principles, where sustained pressure breaks down defensive structures and creates passing opportunities.
+- **[[Guard Passing]]** (Extension): Pressure application serves as the mechanical foundation for many guard passing principles, where sustained pressure breaks down defensive structures and creates passing opportunities.
 - **[[Pressure Passing Framework]]** (Advanced form): The pressure passing framework represents the systematic application of pressure principles specifically optimized for guard passing scenarios, evolving basic pressure concepts into comprehensive passing methodologies.
 - **[[Control Point Hierarchy]]** (Complementary): Pressure application effectiveness depends on understanding which control points to prioritize, with control point hierarchy providing the strategic framework for selecting optimal pressure targets based on positional context.
 
@@ -364,7 +364,7 @@ Video analysis and deliberate practice focused on identifying and eliminating un
 - [[Knee on Belly]] (Position) - Specialized pressure position utilizing concentrated focal point pressure for maximum discomfort while maintaining mobility
 - [[North-South]] (Position) - Position emphasizing chest and shoulder pressure that restricts breathing while preventing bridging escapes
 - [[Pressure Pass]] (Transition) - Guard passing methodology built entirely on pressure application principles to overcome defensive resistance
-- [[Knee Slice Pass]] (Transition) - Dynamic passing technique that maintains continuous pressure throughout passing sequence
+- [[Knee Cut Pass]] (Transition) - Dynamic passing technique that maintains continuous pressure throughout passing sequence
 - [[Weight Distribution]] (Principle) - Foundational concept that provides mechanical understanding necessary for effective pressure application
 - [[Base Maintenance]] (Principle) - Complementary concept ensuring pressure can be sustained without compromising positional stability
 - [[Energy Management System]] (Principle) - Strategic framework within which efficient pressure application serves as primary energy conservation mechanism

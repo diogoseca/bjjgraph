@@ -205,7 +205,7 @@ Knee Shield Retention represents the fundamental skill of maintaining and preser
 <section id="principle-relationships" class="content-section">
 
 ## Related Principles
-- **[[Guard Retention Concepts]]** (Extension): Knee shield retention is a specific application of broader guard retention principles, applying general retention concepts to the specific context of half guard defensive structures
+- **[[Guard Retention]]** (Extension): Knee shield retention is a specific application of broader guard retention principles, applying general retention concepts to the specific context of half guard defensive structures
 - **[[Frame Creation]]** (Prerequisite): Effective knee shield retention requires fundamental understanding of frame creation principles, as the shield itself is a specialized frame structure requiring proper biomechanical positioning
 - **[[Hip Movement]]** (Complementary): Hip mobility and escape mechanics work synergistically with knee shield retention, as hip movement enables shield angle adjustment and recovery when shield position is compromised
 - **[[Defensive Framing]]** (Prerequisite): General defensive framing concepts provide the foundation for specialized knee shield applications, teaching proper structural integrity and pressure distribution principles
@@ -372,7 +372,7 @@ Practice maintaining shield while simultaneously threatening sweeps and back tak
 - [[Lockdown]] (Position) - Complementary retention system that can be combined with or substituted for knee shield retention
 - [[Underhook Sweep from Half]] (Transition) - Specific sweep that integrates underhook frame with knee shield structure for offensive execution
 - [[Frame Management]] (Principle) - Broader concept that encompasses knee shield as specific application of general framing principles
-- [[Guard Retention Concepts]] (Principle) - General retention framework that knee shield retention exemplifies in half guard contexts
+- [[Guard Retention]] (Principle) - General retention framework that knee shield retention exemplifies in half guard contexts
 - [[Space Management]] (Principle) - Fundamental concept that knee shield retention achieves through frame pressure and distance creation
 - [[Hip Movement]] (Principle) - Essential complementary skill that enables dynamic shield adjustment and recovery capabilities
 

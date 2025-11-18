@@ -1,6 +1,6 @@
 {
   "name": "Defensive Posture",
-  "description": "Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning with expert insights from Danaher, Ryan, and Bravo.",
+  "description": "Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning to maximize defense while minimizing energy expenditure.",
   "tags": [
     "bjj",
     "principle",
@@ -82,7 +82,7 @@
       "description": "Pressure reduction techniques rely heavily on proper defensive posture to create the structural foundation necessary for managing and dissipating opponent's pressure effectively."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
       "description": "Guard retention represents a specialized application of defensive posture principles specifically adapted to maintaining guard positions, extending general defensive posture concepts to position-specific contexts."
     },
@@ -145,10 +145,6 @@
       "how_applied": "Defensive posture against knee on belly involves proper framing on the knee and opposite shoulder, protecting the neck from cross-collar attacks, preventing mount transitions, and creating structural foundations for shrimping escapes."
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "During guard recovery sequences, defensive posture maintains protective frames while creating space, shields vulnerable targets during transitions, manages opponent's passing pressure, and establishes temporary defensive structures that enable guard recomposition."
-    },
-    {
       "context": "Open Guard",
       "how_applied": "Open guard defensive posture utilizes legs and arms to create distance management systems, maintains hip mobility for recovery, establishes connection points that prevent opponent advancement, and creates offensive opportunities from defensive structures."
     },
@@ -167,6 +163,10 @@
     {
       "context": "Butterfly Guard",
       "how_applied": "Butterfly guard defensive posture maintains upright spinal alignment, uses hook positioning to prevent opponent's weight settling, establishes collar and sleeve control, and creates leverage structures for sweeping opportunities."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "X-Guard defensive posture focuses on maintaining proper leg hook positioning to control opponent's base, using arms to control upper body positioning, and creating structural frameworks that enable sweeping mechanics and transitions."
     }
   ],
   "decision_framework": [
@@ -353,7 +353,7 @@
       "relationship": "Organizational framework for defensive responses built upon defensive posture foundation"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Position-specific application of defensive posture principles to guard positions"
     },
@@ -378,19 +378,19 @@
       "relationship": "Most dangerous position where defensive posture quality often determines survival versus submission"
     },
     {
-      "name": "Elbow Escape",
-      "content_type": "Transition",
-      "relationship": "Fundamental escape requiring proper defensive posture throughout execution sequence"
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Common disadvantaged position where defensive posture determines escape success and submission vulnerability"
+    },
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Critical defensive position where proper posture prevents back takes and enables recoveries"
     },
     {
       "name": "Bridge and Roll",
       "content_type": "Transition",
       "relationship": "Mount escape technique dependent on maintaining defensive posture during bridging mechanics"
-    },
-    {
-      "name": "Side Control",
-      "content_type": "Position",
-      "relationship": "Common disadvantaged position where defensive posture determines escape success and submission vulnerability"
     }
   ],
   "expert_insights": {

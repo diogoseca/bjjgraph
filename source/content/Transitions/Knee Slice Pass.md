@@ -345,11 +345,11 @@ The knee slice pass is a cornerstone technique in any complete guard passing sys
 - [[Darce Choke]] - Submission when opponent turns into you
 - [[Arm Triangle]] - Follow-up submission from consolidated position
 - [[Pressure Passing]] - Core principle of the technique
-- [[Guard Passing Principles]] - Fundamental concepts applied in technique
 - [[Headquarters Position]] - Intermediate position during pass execution
 - [[Z-Guard]] - Position that knee slice effectively counters
 - [[Deep Half Guard]] - Common guard recovery attempt to prevent
 - [[Top Half Guard]] - Conceptual framework for passing from half guard
+- [[Knee Cut Pass]] - Alternative angle variation of the slice
 
 
 </section>

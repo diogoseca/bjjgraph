@@ -1,7 +1,17 @@
 {
   "name": "Progressive Resistance Training",
   "description": "Master Progressive Resistance Training in BJJ. Learn systematic skill development, controlled intensity progression, resistance calibration across drilling to live sparring.",
-  "tags": ["bjj", "principle", "training methodology", "skill development", "progressive overload", "resistance training", "sparring progression", "periodization", "drilling"],
+  "tags": [
+    "bjj",
+    "principle",
+    "training methodology",
+    "skill development",
+    "progressive overload",
+    "resistance training",
+    "sparring progression",
+    "periodization",
+    "drilling"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Expert",
@@ -83,7 +93,7 @@
       "description": "Building coherent technical systems requires progressive resistance training to test system components individually before integrating them under full resistance."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Complementary",
       "description": "Guard retention skills benefit from early high-resistance exposure to build defensive toughness, demonstrating how different techniques require different resistance curves."
     },
@@ -93,7 +103,7 @@
       "description": "Escape sequences benefit from progressive resistance to build confidence in high-pressure situations while maintaining technical precision under stress."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Complementary",
       "description": "Passing development requires balanced progression where fundamental mechanics are established cooperatively before facing dynamic guard retention resistance."
     },
@@ -356,7 +366,7 @@
       "relationship": "Requires progressive resistance to test system components individually before full integration"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Often benefits from early high-resistance exposure to build defensive toughness and realistic retention patterns"
     },

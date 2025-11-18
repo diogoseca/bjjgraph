@@ -208,12 +208,15 @@ Connection Breaking represents the fundamental principle of disrupting the physi
 - **[[Grip Breaking]]** (Complementary): Grip breaking represents specific technical methods for disrupting hand-based connections, serving as primary tactical application of connection breaking principles.
 - **[[Frame Creation]]** (Complementary): Frame creation works synergistically with connection breaking by preventing reconnection after initial disruption, using structural barriers to maintain separation.
 - **[[Hip Escape Mechanics]]** (Extension): Hip escape mechanics represent the movement patterns used to exploit broken connections, converting disrupted control into positional improvement through coordinated hip movement.
-- **[[Guard Retention Concepts]]** (Advanced form): Guard retention applies connection breaking principles proactively, breaking opponent's passing connections before they fully establish control rather than reactively after control is achieved.
+- **[[Guard Retention]]** (Advanced form): Guard retention applies connection breaking principles proactively, breaking opponent's passing connections before they fully establish control rather than reactively after control is achieved.
 - **[[Escape Fundamentals]]** (Extension): Escape fundamentals represent the complete defensive sequences where connection breaking serves as critical initial phase, creating opportunities for subsequent escape movements.
 - **[[Posture Breaking]]** (Alternative): While connection breaking disrupts opponent's control from inferior positions, posture breaking disrupts opponent's structural integrity from neutral or advantageous positions, representing offensive application of similar principles.
 - **[[Control Point Hierarchy]]** (Prerequisite): Understanding control point hierarchy provides the theoretical foundation for identifying which connections matter most in any given position, enabling strategic prioritization in breaking sequences.
 - **[[Space Creation]]** (Complementary): Space creation works in tandem with connection breaking, as disrupting connections often creates the physical space necessary for defensive movement and position recovery.
 - **[[Defensive Framing]]** (Extension): Defensive framing represents the structural positioning used after connection breaking to prevent opponent from reestablishing control and maintain defensive advantage.
+- **[[Hand Fighting]]** (Complementary): Hand fighting encompasses the proactive and reactive grip management that includes connection breaking as core component, extending into offensive grip establishment beyond pure defensive disruption.
+- **[[Leverage Principles]]** (Prerequisite): Understanding leverage principles provides biomechanical foundation for efficient connection breaking, enabling maximum disruption with minimum energy through optimal force application points.
+- **[[Pressure Reduction]]** (Complementary): Pressure reduction techniques work alongside connection breaking to create comprehensive defensive framework, as reducing opponent's pressure often facilitates easier connection disruption.
 
 
 </section>
@@ -369,15 +372,15 @@ Systematic progression from compliant partner allowing easy connection breaking,
 - [[Grip Breaking]] (Principle) - Primary tactical application of connection breaking principles specifically focused on disrupting hand-based grip controls
 - [[Frame Creation]] (Principle) - Complementary defensive concept that prevents reconnection after connection breaking creates initial separation
 - [[Hip Escape Mechanics]] (Principle) - Movement framework used to exploit broken connections and convert control disruption into positional improvement
-- [[Guard Retention Concepts]] (Principle) - Advanced application where connection breaking is applied proactively to prevent control establishment
+- [[Guard Retention]] (Principle) - Advanced application where connection breaking is applied proactively to prevent control establishment
 - [[Escape Fundamentals]] (Principle) - Broader defensive framework where connection breaking serves as critical initial phase of complete escape sequences
 - [[Side Control]] (Position) - Primary application context where connection breaking targets cross-face, underhook, and hip controls to enable escape
 - [[Mount]] (Position) - High-priority application context where connection breaking focuses on grapevine hooks and upper body controls
 - [[Back Control]] (Position) - Critical defensive scenario where connection breaking addresses seatbelt grips and leg-based controls
 - [[Frame and Shrimp]] (Transition) - Fundamental escape movement that integrates connection breaking with hip escape mechanics
-- [[Elbow Escape]] (Transition) - Specific escape technique heavily dependent on breaking cross-face and underhook connections
 - [[Defensive Posture]] (Principle) - Protective positioning concept that works synergistically with connection breaking to prevent submission and maintain escape opportunities
 - [[Space Creation]] (Principle) - Complementary principle where connection breaking creates the physical space necessary for defensive movement and recovery
+- [[Hand Fighting]] (Principle) - Broader grip management framework that encompasses connection breaking as core defensive component alongside offensive grip establishment
 
 
 </section>

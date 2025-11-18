@@ -76,7 +76,7 @@
       "description": "Defensive framing provides specific technical applications of frame concepts within guard retention context, making the two principles highly complementary in practice."
     },
     {
-      "principle_name": "Guard Passing Concepts",
+      "principle_name": "Guard Passing",
       "relationship_type": "Alternative",
       "description": "Guard retention and guard passing represent opposite sides of the same positional battle, with understanding passing principles enhancing retention effectiveness through anticipation."
     },
@@ -269,12 +269,12 @@
     },
     {
       "approach_name": "Movement Chain Solo Drilling",
-      "description": "Solo practice of retention movement sequences (shrimp → granby → technical standup → seated guard) in continuous flow. Can be performed with or without partner providing light resistance.",
+      "description": "Solo practice of retention movement sequences (shrimp to granby to technical standup to seated guard) in continuous flow. Can be performed with or without partner providing light resistance.",
       "focus": "Building muscle memory for retention movements and developing smooth transitions between different retention techniques"
     },
     {
       "approach_name": "Guard Type Flow Retention",
-      "description": "Practice flowing between different guard types (closed → open → butterfly → half → deep half) based on partner's passing angles. Partner applies moderate resistance while varying passing approaches.",
+      "description": "Practice flowing between different guard types (closed to open to butterfly to half to deep half) based on partner's passing angles. Partner applies moderate resistance while varying passing approaches.",
       "focus": "Developing ability to adapt guard type to passing threat rather than defending single configuration stubbornly"
     },
     {
@@ -368,7 +368,7 @@
       "relationship": "Specific application of framing concepts within guard retention context"
     },
     {
-      "name": "Guard Passing Concepts",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Opposing perspective that enhances retention through understanding passing mechanics"
     },

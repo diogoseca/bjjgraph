@@ -263,7 +263,7 @@ Output ONLY the list of references (no markdown, no explanations, just the list)
 EOF
 )
 
-    echo "$reference_files_summarizer_prompt" | claude --model claude-sonnet-4-5-20250929 | tee /tmp/claude_refs_$$.txt
+    echo "$reference_files_summarizer_prompt" | claude --model claude-sonnet-4-5-20250929 --output-format json | jq -r '.result' | tee /tmp/claude_refs_$$.txt
     top_references=$(<"/tmp/claude_refs_$$.txt")
 
     # Strip markdown code blocks if present (extract content between ``` markers)
@@ -388,7 +388,7 @@ Output the completed JSON file (in entirety, matching template structure, with a
 EOF
 )
 
-echo "$filler_prompt" | claude --model claude-sonnet-4-5-20250929 | tee /tmp/claude_output_$$.txt
+echo "$filler_prompt" | claude --model claude-sonnet-4-5-20250929 --output-format json | jq -r '.result' | tee /tmp/claude_output_$$.txt
 filled_content=$(<"/tmp/claude_output_$$.txt")
 
 # Strip markdown code blocks if present (extract content between ```json and ```)
@@ -474,7 +474,7 @@ Output the corrected JSON file:
 EOF
 )
 
-    echo "$correction_prompt" | claude --model claude-sonnet-4-5-20250929 | tee /tmp/claude_correction_${attempt}_$$.txt
+    echo "$correction_prompt" | claude --model claude-sonnet-4-5-20250929 --output-format json | jq -r '.result' | tee /tmp/claude_correction_${attempt}_$$.txt
     filled_content=$(<"/tmp/claude_correction_${attempt}_$$.txt")
 
     # Strip markdown code blocks if present (extract content between ```json and ```)

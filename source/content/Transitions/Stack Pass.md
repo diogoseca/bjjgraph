@@ -352,7 +352,7 @@ The stack pass is a cornerstone technique of pressure passing systems and integr
 - [[Guard Pass]] - General category of techniques this belongs to
 - [[Pressure Passing Framework]] - Theoretical framework underlying this technique
 - [[Mount]] - Alternative ending position with stack to mount variation
-- [[Guard Passing Principles]] - Fundamental principles applied in this technique
+- [[Guard Passing]] - Fundamental principles applied in this technique
 - [[Base Maintenance]] - Critical principle for maintaining stability during the pass
 
 

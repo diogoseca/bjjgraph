@@ -4,7 +4,7 @@
 
 ---
 title: "Defensive Posture | BJJ Principle | BJJ Graph"
-description: "Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning with expert insights from Danaher, Ryan, and Bravo."
+description: "Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning to maximize defense while minimizing energy expenditure."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master defensive posture in BJJ. Learn structural alignment, conne
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Defensive Posture",
-  "description": "Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning with expert insights from Danaher, Ryan, and Bravo.",
+  "description": "Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning to maximize defense while minimizing energy expenditure.",
   "url": "https://bjjgraph.org/Principles/Defensive-Posture",
   "isPartOf": {
     "@type": "WebSite",
@@ -209,7 +209,7 @@ Defensive Posture represents the foundational body positioning and structural al
 - **[[Base Maintenance]]** (Complementary): Base maintenance works synergistically with defensive posture, as proper base provides the foundation from which effective defensive postures can be established and maintained throughout positional changes.
 - **[[Escape Hierarchy]]** (Extension): Escape hierarchy builds upon defensive posture fundamentals by organizing defensive responses into prioritized sequences, with proper posture serving as the prerequisite for executing effective escapes.
 - **[[Pressure Reduction]]** (Complementary): Pressure reduction techniques rely heavily on proper defensive posture to create the structural foundation necessary for managing and dissipating opponent's pressure effectively.
-- **[[Guard Retention Concepts]]** (Extension): Guard retention represents a specialized application of defensive posture principles specifically adapted to maintaining guard positions, extending general defensive posture concepts to position-specific contexts.
+- **[[Guard Retention]]** (Extension): Guard retention represents a specialized application of defensive posture principles specifically adapted to maintaining guard positions, extending general defensive posture concepts to position-specific contexts.
 - **[[Energy Conservation]]** (Complementary): Energy conservation principles guide the efficiency aspects of defensive posture, ensuring defensive structures are maintained with minimal muscular effort through optimal biomechanical alignment.
 - **[[Frame Management]]** (Complementary): Frame management provides the tactical framework for implementing defensive posture through specific structural configurations and pressure distribution patterns.
 - **[[Space Management]]** (Complementary): Space management principles work together with defensive posture to create and maintain critical breathing and movement space while under pressure.
@@ -239,8 +239,6 @@ Defensive Posture represents the foundational body positioning and structural al
 
 **Knee on Belly**: Defensive posture against knee on belly involves proper framing on the knee and opposite shoulder, protecting the neck from cross-collar attacks, preventing mount transitions, and creating structural foundations for shrimping escapes.
 
-**Guard Recovery**: During guard recovery sequences, defensive posture maintains protective frames while creating space, shields vulnerable targets during transitions, manages opponent's passing pressure, and establishes temporary defensive structures that enable guard recomposition.
-
 **Open Guard**: Open guard defensive posture utilizes legs and arms to create distance management systems, maintains hip mobility for recovery, establishes connection points that prevent opponent advancement, and creates offensive opportunities from defensive structures.
 
 **Kesa Gatame**: Under kesa gatame, defensive posture involves bridging mechanics to create space, proper arm positioning to prevent further entrapment, protecting the neck from chokes, and establishing pathways to escape toward opponent's legs or to turtle.
@@ -250,6 +248,8 @@ Defensive Posture represents the foundational body positioning and structural al
 **De La Riva Guard**: De La Riva defensive posture emphasizes hook control on opponent's leg, uses collar and sleeve grips to prevent passing, maintains hip mobility for off-balancing, and creates structural frameworks for sweeps and back takes.
 
 **Butterfly Guard**: Butterfly guard defensive posture maintains upright spinal alignment, uses hook positioning to prevent opponent's weight settling, establishes collar and sleeve control, and creates leverage structures for sweeping opportunities.
+
+**X-Guard**: X-Guard defensive posture focuses on maintaining proper leg hook positioning to control opponent's base, using arms to control upper body positioning, and creating structural frameworks that enable sweeping mechanics and transitions.
 
 
 
@@ -377,14 +377,14 @@ Recording training sessions and analyzing defensive posture quality during disad
 - [[Base Maintenance]] (Principle) - Complementary principle providing foundational stability for effective defensive postures
 - [[Frame and Shrimp]] (Transition) - Fundamental escape technique that relies on proper defensive posture as prerequisite
 - [[Escape Hierarchy]] (Principle) - Organizational framework for defensive responses built upon defensive posture foundation
-- [[Guard Retention Concepts]] (Principle) - Position-specific application of defensive posture principles to guard positions
+- [[Guard Retention]] (Principle) - Position-specific application of defensive posture principles to guard positions
 - [[Pressure Reduction]] (Principle) - Tactical approach to managing opponent's pressure using defensive posture structures
 - [[Defensive Position]] (Position) - Primary context where defensive posture principles are most critically applied
 - [[Mount]] (Position) - High-priority position requiring excellent defensive posture to prevent submissions and facilitate escapes
 - [[Back Control]] (Position) - Most dangerous position where defensive posture quality often determines survival versus submission
-- [[Elbow Escape]] (Transition) - Fundamental escape requiring proper defensive posture throughout execution sequence
-- [[Bridge and Roll]] (Transition) - Mount escape technique dependent on maintaining defensive posture during bridging mechanics
 - [[Side Control]] (Position) - Common disadvantaged position where defensive posture determines escape success and submission vulnerability
+- [[Turtle]] (Position) - Critical defensive position where proper posture prevents back takes and enables recoveries
+- [[Bridge and Roll]] (Transition) - Mount escape technique dependent on maintaining defensive posture during bridging mechanics
 
 
 </section>

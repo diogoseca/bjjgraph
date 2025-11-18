@@ -283,6 +283,11 @@
       "relationship": "Starting position for many retention sequences when standing opponent applies pressure"
     },
     {
+      "name": "Knee Shield Half Guard",
+      "content_type": "Position",
+      "relationship": "Half guard variation emphasizing frame-based retention with knee shield structure"
+    },
+    {
       "name": "Guard Replacement",
       "content_type": "Transition",
       "relationship": "Core transition technique for recovering guard structure after partial pass attempts"
@@ -303,7 +308,7 @@
       "relationship": "Combined technique integrating frames with hip escapes for effective retention"
     },
     {
-      "name": "Technical Standup",
+      "name": "Technical Stand Up to Single Leg",
       "content_type": "Transition",
       "relationship": "Emergency retention technique used when bottom retention fails"
     },
@@ -313,9 +318,14 @@
       "relationship": "Advanced retention recovery technique for desperate guard replacement scenarios"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Re-Guard",
       "content_type": "Transition",
       "relationship": "Family of techniques for returning to guard from compromised positions"
+    },
+    {
+      "name": "Elbow Escape",
+      "content_type": "Transition",
+      "relationship": "Alternative hip escape method used in retention when opponent controls near-side space"
     },
     {
       "name": "Guard Retention",
@@ -348,9 +358,9 @@
       "relationship": "Foundational principle for controlling distance and preventing position consolidation"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Frame Management",
       "content_type": "Principle",
-      "relationship": "Theoretical framework that supports practical application of retention system"
+      "relationship": "Strategic principle for optimizing frame placement, timing, and energy efficiency"
     },
     {
       "name": "System Building",
@@ -361,11 +371,6 @@
       "name": "Marcelo Garcia Butterfly Guard System",
       "content_type": "System",
       "relationship": "Complementary guard system emphasizing active retention through butterfly hooks"
-    },
-    {
-      "name": "Marcelo Garcia X-Guard System",
-      "content_type": "System",
-      "relationship": "Advanced guard system requiring retention mechanics when transitioning between positions"
     },
     {
       "name": "Dynamic Guard System",

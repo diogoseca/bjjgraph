@@ -208,9 +208,9 @@ Posture Up represents the fundamental skill of establishing and recovering verti
 - **[[Posture Breaking]]** (Complementary): Understanding how opponent breaks posture informs defensive posture recovery strategies. Defensive posture up techniques directly counter offensive posture breaking mechanics, creating complementary relationship.
 - **[[Frame Creation]]** (Complementary): Frames support posture recovery by creating structural barriers that prevent opponent from pulling practitioner forward. Effective framing enables safer posture recovery by managing opponent's breaking pressure.
 - **[[Grip Fighting]]** (Prerequisite): Successful grip fighting to deny or break opponent's posture-breaking grips is essential prerequisite for posture recovery. Without grip control, opponent can continuously re-break posture regardless of recovery efforts.
-- **[[Guard Passing Principles]]** (Extension): Posture recovery serves as foundational element that enables effective guard passing. Once posture is established, practitioner can implement specific passing strategies that require upright structure.
+- **[[Guard Passing]]** (Extension): Posture recovery serves as foundational element that enables effective guard passing. Once posture is established, practitioner can implement specific passing strategies that require upright structure.
 - **[[Distance Creation]]** (Complementary): Creating distance between hips and opponent's center of mass supports posture recovery by reducing opponent's mechanical advantage for breaking posture. Distance management and posture work synergistically.
-- **[[Defensive Framing]]** (Complementary): Defensive frames protect postural structure by creating barriers between practitioner and opponent's breaking controls. Frames and posture work together to maintain defensive integrity.
+- **[[Defensive Frame]]** (Complementary): Defensive frames protect postural structure by creating barriers between practitioner and opponent's breaking controls. Frames and posture work together to maintain defensive integrity.
 - **[[Weight Distribution]]** (Prerequisite): Proper weight distribution through base points enables stable postural recovery without creating sweep vulnerabilities. Understanding weight distribution is essential for safe posture management.
 - **[[Head Control]]** (Extension): Managing head position is critical component of posture recovery, as head placement determines upper body alignment and submission vulnerability during posture attempts.
 - **[[Defensive Strategy]]** (Extension): Posture recovery is fundamental defensive strategy in guard positions that prevents submissions and enables counter-offense through passing attempts.
@@ -374,7 +374,7 @@ Chain posture recovery directly into specific passing attempts, treating posture
 - [[Grip Fighting]] (Principle) - Component skill - grip management is essential element of effective posture recovery
 - [[Frame Creation]] (Principle) - Supporting concept - frames protect and support posture recovery by managing opponent's breaking pressure
 - [[Spider Guard]] (Position) - Application context - guard position that creates specific posture-breaking challenges requiring adapted recovery approach
-- [[Guard Passing Principles]] (Principle) - Extended application - posture recovery serves as foundation for implementing guard passing strategies
+- [[Guard Passing]] (Principle) - Extended application - posture recovery serves as foundation for implementing guard passing strategies
 - [[Distance Creation]] (Principle) - Complementary concept - creating hip distance supports posture recovery by reducing mechanical advantage
 - [[Headquarters Position]] (Position) - Application context - position requiring modified posture that balances vertical structure with leg control
 - [[Posture Recovery]] (Transition) - Direct technical application - specific transition that implements posture up concept

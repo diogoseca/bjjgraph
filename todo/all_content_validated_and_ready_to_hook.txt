@@ -138,9 +138,9 @@ source/content/Positions/Triangle Control.json
 source/content/Positions/Triangle Control/Rear Triangle.json
 source/content/Positions/Triangle Escape Position.json
 source/content/Positions/Turtle.json
-source/content/Positions/Twister/Truck.json
-source/content/Positions/Twister/Twister Control.json
-source/content/Positions/Twister/Twister Side Control.json
+source/content/Positions/Twister Control.json
+source/content/Positions/Twister Control/Truck.json
+source/content/Positions/Twister Control/Twister Side Control.json
 source/content/Positions/Underhook Battle.json
 source/content/Positions/Underhook Control.json
 source/content/Positions/Vaporizer.json
@@ -202,10 +202,8 @@ source/content/Principles/Grip Breaking.json
 source/content/Principles/Grip Fighting Strategies.json
 source/content/Principles/Grip Fighting.json
 source/content/Principles/Grip Strategy.json
-source/content/Principles/Guard Passing Concepts.json
-source/content/Principles/Guard Passing Principles.json
+source/content/Principles/Guard Passing.json
 source/content/Principles/Guard Recovery.json
-source/content/Principles/Guard Retention Concepts.json
 source/content/Principles/Guard Retention.json
 source/content/Principles/Hand Fighting from Back.json
 source/content/Principles/Hand Fighting.json

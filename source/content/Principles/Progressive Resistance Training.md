@@ -215,9 +215,9 @@ Progressive Resistance Training is not merely about making training harder over 
 - **[[Flow Rolling]]** (Alternative): Flow Rolling represents a lower-resistance training modality that emphasizes movement quality and connection over competition, serving as a recovery method within progressive training cycles.
 - **[[Competition Training]]** (Advanced form): Competition Training represents the highest resistance level in the progressive continuum, where all variables approach match conditions and intensity is maximized.
 - **[[System Building]]** (Prerequisite): Building coherent technical systems requires progressive resistance training to test system components individually before integrating them under full resistance.
-- **[[Guard Retention Concepts]]** (Complementary): Guard retention skills benefit from early high-resistance exposure to build defensive toughness, demonstrating how different techniques require different resistance curves.
+- **[[Guard Retention]]** (Complementary): Guard retention skills benefit from early high-resistance exposure to build defensive toughness, demonstrating how different techniques require different resistance curves.
 - **[[Escape Fundamentals]]** (Complementary): Escape sequences benefit from progressive resistance to build confidence in high-pressure situations while maintaining technical precision under stress.
-- **[[Guard Passing Principles]]** (Complementary): Passing development requires balanced progression where fundamental mechanics are established cooperatively before facing dynamic guard retention resistance.
+- **[[Guard Passing]]** (Complementary): Passing development requires balanced progression where fundamental mechanics are established cooperatively before facing dynamic guard retention resistance.
 - **[[Submission Defense]]** (Complementary): Defensive skills often require early resistance exposure to develop realistic escape timing and recognition of submission threats under pressure.
 - **[[Match Preparation]]** (Advanced form): Match preparation cycles use progressive resistance principles to peak physical and technical readiness while managing fatigue and injury risk.
 - **[[Maximum Efficiency Principle]]** (Complementary): Developing maximum efficiency requires progressive resistance to test whether techniques remain effective with minimal energy expenditure under increasing pressure.
@@ -375,7 +375,7 @@ When technique fails under a given resistance level, immediately reducing resist
 - [[Competition Training]] (Principle) - Represents maximum resistance endpoint in the progressive training continuum
 - [[Energy Management System]] (Principle) - Becomes increasingly important as resistance levels increase and energy expenditure rises
 - [[System Building]] (Principle) - Requires progressive resistance to test system components individually before full integration
-- [[Guard Retention Concepts]] (Principle) - Often benefits from early high-resistance exposure to build defensive toughness and realistic retention patterns
+- [[Guard Retention]] (Principle) - Often benefits from early high-resistance exposure to build defensive toughness and realistic retention patterns
 - [[Mount]] (Position) - Common position for teaching progressive resistance principles due to clear control hierarchy
 - [[Back Control]] (Position) - Exemplifies position that requires careful resistance progression from positional control to submission attacks
 - [[Closed Guard]] (Position) - Benefits from extended cooperative phase for developing sweep and submission setups before facing active defense

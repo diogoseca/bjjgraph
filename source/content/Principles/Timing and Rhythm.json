@@ -80,7 +80,7 @@
       "description": "Off-balancing techniques require precise timing to exploit moments of reduced base stability, making temporal awareness essential for execution"
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Passing timing involves recognizing when guard retention mechanisms are temporarily compromised, allowing advancement with minimal resistance"
     },
@@ -170,16 +170,16 @@
       "how_applied": "Timing takedown attempts to coincide with opponent weight shifts, grip adjustments, or forward momentum, dramatically increasing success rates while reducing injury risk"
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "Timing frame insertion and hip escape movements to coincide with opponent weight shifts during passing sequences, exploiting transitional moments between pressure application phases"
+      "context": "Scramble Position",
+      "how_applied": "Recognizing and exploiting micro-windows during chaotic transitions where opponent temporarily loses positional awareness or base control"
     },
     {
-      "context": "Guard Pass",
+      "context": "Headquarters Position",
       "how_applied": "Timing guard passing progression based on opponent retention reactions, advancing position during defensive adjustments rather than attempting to force through established frames"
     },
     {
-      "context": "Armbar Finish",
-      "how_applied": "Timing final tightening mechanics to coincide with opponent exhalation or momentary relaxation in defensive tension, recognizing when defensive options are exhausted"
+      "context": "K-Guard",
+      "how_applied": "Timing sweep entries to coincide with opponent pressure changes and weight distribution shifts, exploiting the inverted positioning to create unexpected angles"
     }
   ],
   "decision_framework": [
@@ -360,7 +360,7 @@
       "relationship": "Technical implementation requiring precise timing to exploit moments of reduced base stability"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Strategic framework where timing determines when to advance position versus consolidate control"
     },

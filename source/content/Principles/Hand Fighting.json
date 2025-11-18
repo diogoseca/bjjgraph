@@ -1,6 +1,6 @@
 {
   "name": "Hand Fighting",
-  "description": "Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement. Expert insights from Danaher, Gordon Ryan, Eddie Bravo.",
+  "description": "Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement patterns for guard retention, passing, and clinch dominance.",
   "tags": [
     "bjj",
     "principle",
@@ -78,7 +78,7 @@
       "description": "Hand fighting creates the tactical positioning necessary for effective connection breaking, while connection breaking principles inform hand fighting strategy. These concepts reinforce each other in creating defensive control denial."
     },
     {
-      "principle_name": "Frame Creation",
+      "principle_name": "Frame Management",
       "relationship_type": "Prerequisite",
       "description": "Effective framing requires successful hand fighting to establish proper hand positioning for frame structures. Hand fighting skills determine the ability to create and maintain defensive frames under pressure."
     },
@@ -108,7 +108,7 @@
       "description": "Guard retention relies heavily on hand fighting to prevent passing grips and maintain control over opponent's upper body. Hand fighting creates the first line of defense in guard retention systems."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Complementary",
       "description": "Successful guard passing requires winning hand fighting battles to establish passing grips while preventing guard player's retention controls. Hand fighting determines initial passing success."
     },
@@ -366,7 +366,7 @@
       "relationship": "Technical application requiring hand fighting success to establish controls necessary for posture disruption"
     },
     {
-      "name": "Frame Creation",
+      "name": "Frame Management",
       "content_type": "Principle",
       "relationship": "Defensive structure requiring effective hand fighting to establish and maintain proper hand positioning"
     },

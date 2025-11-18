@@ -205,7 +205,7 @@ The principle of Guard Recovery is essential for developing complete defensive c
 <section id="principle-relationships" class="content-section">
 
 ## Related Principles
-- **[[Guard Retention Concepts]]** (Prerequisite): Guard Recovery builds upon Guard Retention foundations - recovery becomes necessary when retention protocols fail, making retention the first defensive layer and recovery the second
+- **[[Guard Retention]]** (Prerequisite): Guard Recovery builds upon Guard Retention foundations - recovery becomes necessary when retention protocols fail, making retention the first defensive layer and recovery the second
 - **[[Defensive Framing]]** (Complementary): Defensive Framing provides the structural mechanics that enable Guard Recovery - frames create the space within which recovery movements can occur effectively
 - **[[Hip Escape Mechanics]]** (Prerequisite): Hip Escape Mechanics form the biomechanical foundation of Guard Recovery - recovery sequences are essentially coordinated chains of hip escapes combined with leg reinsertion
 - **[[Escape Fundamentals]]** (Extension): Guard Recovery represents a specialized application of broader Escape Fundamentals - if guard recovery fails, the same principles extend to escaping consolidated top positions
@@ -378,7 +378,7 @@ Systematic study of guard recovery principles through instructional content from
 
 ## Related Content
 
-- [[Guard Retention Concepts]] (Principle) - Prerequisite concept - guard recovery becomes necessary when retention fails, making retention the first defensive layer
+- [[Guard Retention]] (Principle) - Prerequisite concept - guard recovery becomes necessary when retention fails, making retention the first defensive layer
 - [[Defensive Framing]] (Principle) - Complementary principle - provides structural mechanics that create space for recovery movements
 - [[Hip Escape Mechanics]] (Principle) - Foundational principle - biomechanical basis for all guard recovery movement patterns
 - [[Space Creation]] (Principle) - Complementary principle - tactical objective that guard recovery protocols achieve through systematic application

@@ -210,7 +210,7 @@ Hip Movement represents the fundamental capability of generating purposeful pelv
 - **[[Frame Management]]** (Complementary): Effective hip movement must be coordinated with proper framing structures to preserve created space and prevent opponent from immediately recapturing position, making these concepts inseparable in practical application.
 - **[[Space Creation]]** (Extension): Hip Movement serves as the primary mechanical method for achieving the strategic objective of Space Creation, providing the biomechanical foundation for generating distance in defensive scenarios.
 - **[[Biomechanical Principles]]** (Prerequisite): Understanding fundamental biomechanics including leverage, ground connection, and force generation underlies effective hip movement application and enables practitioners to maximize efficiency while minimizing energy expenditure.
-- **[[Guard Retention Concepts]]** (Advanced form): Sophisticated guard retention strategies represent advanced applications of fundamental hip movement principles, demonstrating how basic hip mobility concepts extend into complex defensive systems and continuous adjustment patterns.
+- **[[Guard Retention]]** (Advanced form): Sophisticated guard retention strategies represent advanced applications of fundamental hip movement principles, demonstrating how basic hip mobility concepts extend into complex defensive systems and continuous adjustment patterns.
 - **[[Shrimping]]** (Extension): Shrimping represents the most fundamental application of lateral hip displacement, serving as the cornerstone technique that embodies core hip movement principles across all positions.
 - **[[Bridging Mechanics]]** (Extension): Bridging Mechanics details the vertical hip elevation component of overall hip movement capability, providing specific technical guidance for explosive upward pelvic displacement under pressure.
 - **[[Hip Elevation]]** (Extension): Hip Elevation focuses on the vertical displacement aspect of hip movement, emphasizing techniques for raising the pelvis to create space, generate sweeping power, or escape bottom positions.
@@ -382,7 +382,7 @@ Systematic observation of high-level competitors demonstrating hip movement in v
 - [[Space Creation]] (Principle) - Strategic objective achieved primarily through effective hip movement application in defensive scenarios
 - [[Escape Fundamentals]] (Principle) - Broader defensive framework within which hip movement serves as primary mechanical component
 - [[Hip Elevation]] (Principle) - Specific hip movement pattern emphasizing vertical displacement for various technical purposes
-- [[Guard Retention Concepts]] (Principle) - Advanced defensive system built upon continuous hip movement and adjustment principles
+- [[Guard Retention]] (Principle) - Advanced defensive system built upon continuous hip movement and adjustment principles
 - [[Elbow Escape]] (Transition) - Classic escape technique demonstrating coordinated hip movement with framing and recovery sequence
 - [[Upa Escape]] (Transition) - Explosive bridging-based escape exemplifying hip elevation and rotation mechanics under pressure
 - [[Mount]] (Position) - Primary bottom position where hip movement quality determines escape success and defensive capability

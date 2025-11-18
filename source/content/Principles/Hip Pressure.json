@@ -82,7 +82,7 @@
       "description": "Proper weight distribution principles determine how effectively hip pressure can be applied while maintaining mobility. Understanding weight allocation between hips and base points enables maximum pressure with minimum compromise to stability."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Hip pressure serves as a fundamental component of systematic passing approaches, where controlling opponent's hips through pressure enables advancement past legs while preventing guard retention movements."
     },
@@ -105,6 +105,16 @@
       "principle_name": "Control Point Hierarchy",
       "relationship_type": "Extension",
       "description": "Hip control ranks as high-priority control point in positional dominance hierarchy, with hip pressure serving as primary mechanism for establishing and maintaining this critical control."
+    },
+    {
+      "principle_name": "Pressure Passing",
+      "relationship_type": "Extension",
+      "description": "Hip pressure is the core mechanism in pressure passing systems, where sustained hip contact and weight transfer collapse guard structures and enable position advancement through dominant control."
+    },
+    {
+      "principle_name": "Control Maintenance",
+      "relationship_type": "Extension",
+      "description": "Hip pressure is a primary tool for maintaining control across positions, creating sustained dominance that prevents opponent from initiating escape sequences or recovering defensive structures."
     }
   ],
   "application_contexts": [
@@ -167,6 +177,18 @@
     {
       "context": "Closed Guard",
       "how_applied": "From top, hip pressure combined with posture breaking drives weight down through opponent's hips, preventing them from creating angles or maintaining closed guard structure effectively."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Hip pressure applied to opponent's hips prevents them from standing or rolling through, controlling their base while working to establish back control or other dominant positions."
+    },
+    {
+      "context": "Combat Base",
+      "how_applied": "Hip pressure from combat base pins opponent's bottom hip, preventing them from elevating or shrimping while maintaining stable passing platform for guard clearing sequences."
+    },
+    {
+      "context": "Technical Mount",
+      "how_applied": "Hip pressure prevents opponent from bridging or turning back toward you, maintaining technical mount control while setting up submission attacks or transitioning to full mount."
     }
   ],
   "decision_framework": [
@@ -352,17 +374,12 @@
       "relationship": "Position where hip pressure maintains stability and prevents bridge escapes while enabling attacks"
     },
     {
-      "name": "Pressure Pass",
-      "content_type": "Transition",
-      "relationship": "Pressure-based passing approach where hip pressure is fundamental mechanism for guard collapsing"
-    },
-    {
       "name": "Weight Distribution",
       "content_type": "Principle",
       "relationship": "Foundational concept determining how bodyweight is allocated through hips for pressure generation"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Pressure Passing",
       "content_type": "Principle",
       "relationship": "Strategic framework where hip pressure serves as essential tool for controlling opponent's lower body during passes"
     },

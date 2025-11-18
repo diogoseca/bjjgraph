@@ -289,7 +289,7 @@
       "relationship": "High-percentage floating pass chained with knee slice variations"
     },
     {
-      "name": "Body Lock Pass",
+      "name": "Bodylock Pass",
       "content_type": "Transition",
       "relationship": "Dynamic passing sequence effective against butterfly and seated guards"
     },
@@ -309,17 +309,12 @@
       "relationship": "Pressure-based passing technique particularly effective from half guard"
     },
     {
-      "name": "Over-Under Pass",
-      "content_type": "Transition",
-      "relationship": "Heavy pressure pass used when opponents flatten or turn defensive"
-    },
-    {
       "name": "Smash Pass",
       "content_type": "Transition",
       "relationship": "Aggressive pressure pass for collapsing butterfly and open guard structures"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Fundamental concepts underlying all passing mechanics in system"
     },
@@ -354,7 +349,7 @@
       "relationship": "Related modern passing framework with overlapping principles and techniques"
     },
     {
-      "name": "No-Gi Competition Approach",
+      "name": "No-Gi Tactical Framework",
       "content_type": "System",
       "relationship": "Broader competitive strategy framework incorporating passing system elements"
     },

@@ -334,7 +334,6 @@ Stack defense integrates into the broader guard retention system as one of sever
 - [[Triangle Setup]] - Submission threat available after successful defense
 - [[Defensive Framing]] - Core principle governing frame placement
 - [[Bridge and Shrimp]] - Combined movement pattern for creating explosive space
-- [[Guard Retention Concepts]] - Theoretical framework underlying defensive strategy
 
 
 </section>

@@ -209,14 +209,14 @@ Positional Sparring represents the structured resistance training methodology wh
 - **[[Progressive Resistance Training]]** (Extension): Positional sparring represents a sophisticated application of progressive resistance principles, allowing controlled escalation from cooperative drilling through graded resistance to competition-level intensity.
 - **[[Flow Rolling]]** (Alternative): While flow rolling emphasizes continuous movement and creativity, positional sparring prioritizes focused repetition and measurable objectives, representing different but complementary training modalities.
 - **[[Competition Training]]** (Prerequisite): Positional sparring serves as essential preparation for competition by allowing high-volume practice of specific scenarios likely to occur in matches, with realistic resistance levels.
-- **[[Dilemma Creation]]** (Complementary): Positional sparring accelerates understanding of dilemma-based positions by providing repeated exposure to decision points where opponents must choose between multiple bad options.
 - **[[System Building]]** (Extension): Positional sparring enables systematic development by allowing practitioners to test and refine interconnected techniques under resistance, revealing which combinations work cohesively under pressure.
 - **[[Match Preparation]]** (Complementary): Positional sparring allows targeted preparation for anticipated match scenarios by isolating specific positions and situations likely to occur in competition.
 - **[[Energy Management System]]** (Complementary): Positional sparring develops position-specific energy efficiency by allowing focused practice of energy conservation techniques within isolated positional contexts.
-- **[[Guard Retention Concepts]]** (Extension): Guard retention skills develop rapidly through positional sparring from guard positions with passing objectives, providing high-volume defensive practice.
-- **[[Guard Passing Concepts]]** (Extension): Passing skills accelerate through positional sparring scenarios focused on overcoming specific guard retention strategies under realistic resistance.
-- **[[Escape Hierarchy]]** (Extension): Positional sparring from disadvantageous positions develops escape prioritization and execution through repeated practice under controlled resistance.
+- **[[Guard Retention]]** (Extension): Guard retention skills develop rapidly through positional sparring from guard positions with passing objectives, providing high-volume defensive practice.
+- **[[Guard Passing]]** (Extension): Passing skills accelerate through positional sparring scenarios focused on overcoming specific guard retention strategies under realistic resistance.
+- **[[Escape Fundamentals]]** (Extension): Positional sparring from disadvantageous positions develops escape prioritization and execution through repeated practice under controlled resistance.
 - **[[Position-Over-Submission Approach]]** (Complementary): Positional sparring reinforces positional hierarchy by allowing practitioners to focus on positional advancement objectives separate from submission attempts.
+- **[[Control Maintenance]]** (Extension): Positional sparring from dominant positions develops control maintenance skills through sustained pressure application against realistic escape attempts.
 
 
 </section>
@@ -372,8 +372,8 @@ Recording detailed metrics (success rates, time to completion, specific techniqu
 - [[Progressive Resistance Training]] (Principle) - Foundational principle that informs intensity calibration in positional sparring
 - [[Flow Rolling]] (Principle) - Alternative training method emphasizing continuous movement versus positional focus
 - [[Competition Training]] (Principle) - Positional sparring serves as primary competition preparation methodology
-- [[Guard Retention Concepts]] (Principle) - Commonly developed through positional sparring from guard positions
-- [[Guard Passing Concepts]] (Principle) - Refined through positional sparring with passer objectives
+- [[Guard Retention]] (Principle) - Commonly developed through positional sparring from guard positions
+- [[Guard Passing]] (Principle) - Refined through positional sparring with passer objectives
 - [[Escape Fundamentals]] (Principle) - Accelerated development through positional sparring from disadvantageous positions
 - [[System Building]] (Principle) - Positional sparring reveals which techniques connect systematically under resistance
 - [[Mount]] (Position) - Common positional sparring scenario for developing top control and submission attacks

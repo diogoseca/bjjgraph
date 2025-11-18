@@ -210,7 +210,7 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 - **[[Hip Escape Mechanics]]** (Complementary): Hip escapes and defensive frames work synergistically - frames create the space that enables hip movement, while hip movement creates angles that make frames more effective and sustainable.
 - **[[Leverage Principles]]** (Prerequisite): Effective defensive framing requires understanding leverage mechanics to position frames at optimal angles and distances where skeletal structure provides maximum resistance with minimum energy expenditure.
 - **[[Pressure Reduction]]** (Extension): Defensive Frame extends pressure reduction concepts by providing specific structural mechanisms for managing and redirecting opponent pressure rather than simply tolerating or absorbing it.
-- **[[Guard Retention Concepts]]** (Advanced form): Guard retention represents the advanced application of defensive framing principles in dynamic scenarios where frames must be continuously adjusted to prevent guard passing while maintaining offensive capabilities.
+- **[[Guard Retention]]** (Advanced form): Guard retention represents the advanced application of defensive framing principles in dynamic scenarios where frames must be continuously adjusted to prevent guard passing while maintaining offensive capabilities.
 - **[[Defensive Strategy]]** (Complementary): Defensive framing provides the tactical implementation of broader defensive strategy, translating strategic principles into specific biomechanical structures and movement patterns.
 - **[[Escape Fundamentals]]** (Prerequisite): Understanding escape fundamentals is essential for effective framing, as frames create the space and time necessary for executing escape sequences from inferior positions.
 - **[[Creating Space]]** (Extension): Defensive Frame provides the primary mechanism for implementing space creation principles in bottom positions, using structural barriers to generate and maintain separation from opponent.
@@ -247,6 +247,12 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 **De La Riva Guard**: Asymmetric frame system uses one leg hooking behind while opposite frames control posture and prevent opponent from achieving dominant grips. Frames must coordinate with hook position to create effective angle and distance control.
 
 **Butterfly Guard**: Frames control posture and prevent opponent from driving forward while butterfly hooks create sweeping leverage. The integration of upper body frames with lower body hooks creates unified defensive and offensive structure.
+
+**Kesa Gatame**: Frames focus on creating space at the head and far hip to enable bridging and hip escape. The cross-body nature of kesa gatame requires frames that can function despite limited mobility and unorthodox pressure angles.
+
+**High Mount**: Frames must prevent arm isolation while managing extreme postural control. Priority shifts to protecting the neck and preventing armbar setups, requiring frames that balance defensive needs with submission threat management.
+
+**Knee Shield Half Guard**: The knee shield itself serves as the primary frame, with hand frames supporting and reinforcing the shin barrier. This integrated system creates layered defensive structure where frames work at multiple distances simultaneously.
 
 
 
@@ -370,7 +376,7 @@ Systematically catalog and practice the optimal frame configurations for each ma
 - [[Hip Escape Mechanics]] (Principle) - Complementary movement concept that frames enable by creating necessary space for execution
 - [[Side Control]] (Position) - Primary position where defensive frame principles are most frequently applied and tested
 - [[Mount]] (Position) - Critical defensive position requiring sophisticated multi-point frame systems for survival and escape
-- [[Guard Retention Concepts]] (Principle) - Advanced application of defensive framing in dynamic guard passing scenarios
+- [[Guard Retention]] (Principle) - Advanced application of defensive framing in dynamic guard passing scenarios
 - [[Shrimp Escape]] (Transition) - Fundamental escape technique that requires effective framing to create execution space
 - [[Elbow Escape]] (Transition) - Specific escape emphasizing elbow frame as primary defensive and space-creation tool
 - [[Knee on Belly]] (Position) - Position requiring immediate and effective frame establishment to prevent position consolidation

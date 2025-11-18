@@ -207,8 +207,8 @@ Grip Breaking represents the fundamental defensive skill of removing an opponent
 ## Related Principles
 - **[[Grip Fighting]]** (Prerequisite): Grip fighting provides the foundational understanding of grip establishment and hand fighting that makes grip breaking tactically meaningful. Understanding offensive grip strategy enables defensive recognition of which grips are most dangerous and require immediate breaking.
 - **[[Hand Fighting]]** (Complementary): Hand fighting and grip breaking work together as offensive and defensive components of the same tactical domain. While hand fighting focuses on establishing your own controls, grip breaking denies opponent controls, creating a complete approach to grip exchanges.
-- **[[Frame Creation]]** (Complementary): Frame creation often follows successful grip breaking, using the space created by breaking to establish defensive structures. Frames prevent opponent from immediately reestablishing broken grips while creating leverage for escapes or reversals.
-- **[[Guard Retention Concepts]]** (Extension): Guard retention depends heavily on grip breaking to deny opponent the controls necessary for passing. Breaking pants grips, sleeve grips, and collar controls enables the movement and space creation essential for maintaining guard position.
+- **[[Defensive Frame]]** (Complementary): Frame creation often follows successful grip breaking, using the space created by breaking to establish defensive structures. Frames prevent opponent from immediately reestablishing broken grips while creating leverage for escapes or reversals.
+- **[[Guard Retention]]** (Extension): Guard retention depends heavily on grip breaking to deny opponent the controls necessary for passing. Breaking pants grips, sleeve grips, and collar controls enables the movement and space creation essential for maintaining guard position.
 - **[[Control Point Hierarchy]]** (Prerequisite): Understanding control point hierarchy enables prioritization of which grips to break first. Higher-value control points (cross collar, deep collar grips, controlling grips) require immediate breaking, while lower-value grips may be tolerated temporarily.
 - **[[Leverage Principles]]** (Prerequisite): Leverage principles provide the mechanical understanding that makes grip breaking efficient. Understanding how to apply force perpendicular to grip structure, use body weight, and create mechanical advantage enables effective breaking without excessive strength.
 - **[[Grip Fighting Strategies]]** (Extension): Grip fighting strategies provide the broader tactical context for when and how to break grips. Strategic frameworks inform whether to break immediately, tolerate temporarily, or prevent entirely based on position and game plan.
@@ -378,8 +378,8 @@ Practice translating gi-based grip breaking principles to no-gi contexts, workin
 - [[Hand Fighting]] (Principle) - Complementary concept focusing on preventing grip establishment through active hand fighting
 - [[Grip Strategy]] (Principle) - Higher-level strategic thinking about grip prioritization and exchange patterns
 - [[Collar Control]] (Principle) - Specific application of grip concepts to collar grips and collar-based control systems
-- [[Frame Creation]] (Principle) - Defensive structure often established immediately after successful grip breaking
-- [[Guard Retention Concepts]] (Principle) - Depends heavily on grip breaking to deny passing controls and maintain guard position
+- [[Defensive Frame]] (Principle) - Defensive structure often established immediately after successful grip breaking
+- [[Guard Retention]] (Principle) - Depends heavily on grip breaking to deny passing controls and maintain guard position
 - [[Control Point Hierarchy]] (Principle) - Provides framework for prioritizing which grips to break based on value and threat level
 - [[Leverage Principles]] (Principle) - Fundamental mechanical principles that enable efficient grip breaking without excessive strength
 - [[Spider Guard]] (Position) - Position where grip breaking and maintenance create constant tactical exchanges

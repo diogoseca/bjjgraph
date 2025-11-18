@@ -209,11 +209,13 @@ Hip Pressure represents the specific tactical application of bodyweight through 
 - **[[Shoulder Pressure]]** (Complementary): Hip pressure works synergistically with shoulder pressure to create comprehensive pinning control. While shoulder pressure controls upper body and prevents frames, hip pressure eliminates lower body mobility, together creating complete positional dominance.
 - **[[Base Maintenance]]** (Prerequisite): Stable base structure is essential for generating effective hip pressure, as applying weight through hips requires secure upper body positioning that prevents opponent from destabilizing the top position through sweeps or reversals.
 - **[[Weight Distribution]]** (Complementary): Proper weight distribution principles determine how effectively hip pressure can be applied while maintaining mobility. Understanding weight allocation between hips and base points enables maximum pressure with minimum compromise to stability.
-- **[[Guard Passing Principles]]** (Extension): Hip pressure serves as a fundamental component of systematic passing approaches, where controlling opponent's hips through pressure enables advancement past legs while preventing guard retention movements.
+- **[[Guard Passing]]** (Extension): Hip pressure serves as a fundamental component of systematic passing approaches, where controlling opponent's hips through pressure enables advancement past legs while preventing guard retention movements.
 - **[[Escape Fundamentals]]** (Alternative): From defensive perspective, understanding hip pressure mechanics reveals the escape methodology required to create space. Escape principles focus on preventing or removing hip pressure that pins bottom player to mat.
 - **[[Forward Pressure]]** (Extension): Hip pressure represents a specialized application of forward pressure principles, where driving hips forward creates both control and position advancement in guard passing and top control situations.
 - **[[Cross Face Control]]** (Complementary): Crossface and hip pressure work together in side control and other top positions, with crossface controlling upper body while hip pressure immobilizes lower body for comprehensive pinning systems.
 - **[[Control Point Hierarchy]]** (Extension): Hip control ranks as high-priority control point in positional dominance hierarchy, with hip pressure serving as primary mechanism for establishing and maintaining this critical control.
+- **[[Pressure Passing]]** (Extension): Hip pressure is the core mechanism in pressure passing systems, where sustained hip contact and weight transfer collapse guard structures and enable position advancement through dominant control.
+- **[[Control Maintenance]]** (Extension): Hip pressure is a primary tool for maintaining control across positions, creating sustained dominance that prevents opponent from initiating escape sequences or recovering defensive structures.
 
 
 </section>
@@ -250,6 +252,12 @@ Hip Pressure represents the specific tactical application of bodyweight through 
 **Flattened Half Guard**: Hip pressure flattens opponent from top half guard, preventing them from turning to their side or recovering underhook, maintaining dominant crushing control while advancing position.
 
 **Closed Guard**: From top, hip pressure combined with posture breaking drives weight down through opponent's hips, preventing them from creating angles or maintaining closed guard structure effectively.
+
+**Turtle**: Hip pressure applied to opponent's hips prevents them from standing or rolling through, controlling their base while working to establish back control or other dominant positions.
+
+**Combat Base**: Hip pressure from combat base pins opponent's bottom hip, preventing them from elevating or shrimping while maintaining stable passing platform for guard clearing sequences.
+
+**Technical Mount**: Hip pressure prevents opponent from bridging or turning back toward you, maintaining technical mount control while setting up submission attacks or transitioning to full mount.
 
 
 
@@ -374,9 +382,8 @@ Partner provides escalating resistance to hip pressure application, starting wit
 - [[Side Control]] (Position) - Primary position where hip pressure is essential for maintaining control and preventing hip escapes
 - [[Knee Slice Pass]] (Transition) - Passing technique heavily dependent on hip pressure to pin opponent's hip during pass execution
 - [[Mount]] (Position) - Position where hip pressure maintains stability and prevents bridge escapes while enabling attacks
-- [[Pressure Pass]] (Transition) - Pressure-based passing approach where hip pressure is fundamental mechanism for guard collapsing
 - [[Weight Distribution]] (Principle) - Foundational concept determining how bodyweight is allocated through hips for pressure generation
-- [[Guard Passing Principles]] (Principle) - Strategic framework where hip pressure serves as essential tool for controlling opponent's lower body during passes
+- [[Pressure Passing]] (Principle) - Strategic framework where hip pressure serves as essential tool for controlling opponent's lower body during passes
 - [[Bernardo Faria Pressure System]] (System) - Systematic approach to pressure passing where hip pressure is central technical component
 - [[Escape Fundamentals]] (Principle) - Defensive framework focused on preventing or removing hip pressure to create escape opportunities
 - [[Base Maintenance]] (Principle) - Prerequisite concept ensuring stable structure needed to generate effective hip pressure safely

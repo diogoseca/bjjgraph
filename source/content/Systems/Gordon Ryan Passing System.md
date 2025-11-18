@@ -320,19 +320,19 @@ Development of this passing system requires extensive positional drilling with p
 ## Which Positions, Transitions, and Principles Connect to This System?
 
 - [[Headquarters Position]] (Position) - Central hub position for initiating passing sequences and maintaining strategic control
-- [[Half Guard Pass]] (Position) - Specific application of pressure passing principles against half guard retention
+- [[Half Guard]] (Position) - Common guard position requiring systematic pressure passing approach
 - [[Body Lock Pass]] (Transition) - Primary passing technique within system - body lock establishment and completion
 - [[Leg Drag Pass]] (Transition) - High-percentage passing option that creates back exposure opportunities
 - [[Knee Slice Pass]] (Transition) - Alternative passing method used when body lock is defended
 - [[Pressure Pass]] (Transition) - Fundamental passing approach emphasizing control over speed
 - [[Long Step Pass]] (Transition) - Passing variation effective against butterfly and open guards
 - [[Headquarters Pass]] (Transition) - Systematic passing sequence from headquarters control position
-- [[Underhook Pass]] (Transition) - Passing method utilizing underhook control for pressure application
-- [[Smash Pass]] (Transition) - Aggressive passing variation using shoulder pressure and stacking
+- [[Over-Under Pass]] (Transition) - Pressure-based passing method utilizing shoulder pressure and stacking
+- [[Knee Cut Pass]] (Transition) - Dynamic passing option that complements pressure passing sequences
 - [[Side Control]] (Position) - Primary destination after successful pass completion
 - [[Mount]] (Position) - Advanced position target after establishing passing dominance
 - [[Pressure Passing]] (Principle) - Core principle underlying entire passing system approach
-- [[Guard Passing Principles]] (Principle) - Fundamental principles that inform all passing strategies
+- [[Guard Passing]] (Principle) - Fundamental principles that inform all passing strategies
 - [[Forward Pressure]] (Principle) - Essential pressure application principle for maintaining offensive control
 - [[Connection Breaking]] (Principle) - Strategy for removing opponent's defensive frames and grips
 - [[Control Point Hierarchy]] (Principle) - Understanding which control points to prioritize during passing sequences

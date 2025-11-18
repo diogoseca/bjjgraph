@@ -19,10 +19,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.NotDesktop(Component.Graph({
+    Component.Graph({
       localGraph: { showTags: false, depth: 1 },
       globalGraph: { showTags: false }
-    })),
+    }),
   ],
   left: [
     Component.PageTitle(),
@@ -39,11 +39,6 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
-    // Graph shows here on desktop only
-    Component.DesktopOnly(Component.Graph({
-      localGraph: { showTags: false, depth: 1 },
-      globalGraph: { showTags: false }
-    })),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.MobileOnly(Component.Explorer({
       mapFn: (node) => {
@@ -59,14 +54,14 @@ export const defaultContentPageLayout: PageLayout = {
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(), 
-    Component.ArticleTitle(), 
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.NotDesktop(Component.Graph({
+    Component.Graph({
       localGraph: { showTags: false, depth: 1 },
       globalGraph: { showTags: false }
-    })),
-    ],
+    }),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -82,10 +77,6 @@ export const defaultListPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.DesktopOnly(Component.Graph({
-      localGraph: { showTags: false, depth: 1 },
-      globalGraph: { showTags: false }
-    })),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.MobileOnly(Component.Explorer({
       mapFn: (node) => {

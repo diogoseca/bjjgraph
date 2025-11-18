@@ -300,10 +300,6 @@
       "relationship": "Common defensive entry opponent attempts from headquarters pressure"
     },
     {
-      "name": "Guard Passing Principles",
-      "relationship": "Foundational concept that underlies headquarters systematic passing strategy"
-    },
-    {
       "name": "Pressure Passing",
       "relationship": "Technical concept applied when maintaining headquarters control and advancing passes"
     },
@@ -322,6 +318,10 @@
     {
       "name": "Re-Guard from Headquarters",
       "relationship": "Common defensive transition opponent attempts from this position"
+    },
+    {
+      "name": "Smash Pass",
+      "relationship": "Primary offensive transition when opponent creates strong frames"
     }
   ],
   "position_metrics": {

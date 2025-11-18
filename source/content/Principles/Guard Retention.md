@@ -208,7 +208,7 @@ Guard Retention is the fundamental defensive principle governing the ability to 
 - **[[Space Management]]** (Complementary): Space management and guard retention work together as complementary principles, with space management providing the conceptual framework that guard retention techniques implement.
 - **[[Guard Recovery]]** (Extension): Guard retention extends naturally into guard recovery, with retention preventing complete guard break while recovery re-establishes full guard structure after partial compromise.
 - **[[Defensive Framing]]** (Complementary): Defensive framing provides specific technical applications of frame concepts within guard retention context, making the two principles highly complementary in practice.
-- **[[Guard Passing Concepts]]** (Alternative): Guard retention and guard passing represent opposite sides of the same positional battle, with understanding passing principles enhancing retention effectiveness through anticipation.
+- **[[Guard Passing]]** (Alternative): Guard retention and guard passing represent opposite sides of the same positional battle, with understanding passing principles enhancing retention effectiveness through anticipation.
 - **[[Shrimping]]** (Prerequisite): Core shrimping mechanics are fundamental prerequisite for guard retention, providing the primary movement pattern for creating defensive distance.
 - **[[Hip Movement]]** (Prerequisite): General hip mobility and movement capability must be developed before effective guard retention sequences become possible.
 - **[[Connection Breaking]]** (Complementary): Breaking opponent's grips and connections works complementarily with guard retention, disrupting their passing structure while maintaining defensive positioning.
@@ -311,10 +311,10 @@ Partner applies gradually increasing passing pressure starting at 50% and buildi
 Start with guard partially compromised (one leg trapped, opponent has grip advantage, etc.) and practice recovering to full guard structure from disadvantaged positions. Resets after successful recovery or completed pass.
 
 **Movement Chain Solo Drilling** (Focus: Building muscle memory for retention movements and developing smooth transitions between different retention techniques)
-Solo practice of retention movement sequences (shrimp → granby → technical standup → seated guard) in continuous flow. Can be performed with or without partner providing light resistance.
+Solo practice of retention movement sequences (shrimp to granby to technical standup to seated guard) in continuous flow. Can be performed with or without partner providing light resistance.
 
 **Guard Type Flow Retention** (Focus: Developing ability to adapt guard type to passing threat rather than defending single configuration stubbornly)
-Practice flowing between different guard types (closed → open → butterfly → half → deep half) based on partner's passing angles. Partner applies moderate resistance while varying passing approaches.
+Practice flowing between different guard types (closed to open to butterfly to half to deep half) based on partner's passing angles. Partner applies moderate resistance while varying passing approaches.
 
 **Pure Retention Positional Sparring** (Focus: Isolating retention skills and building endurance for sustained defensive work under pressure)
 Bottom player focuses exclusively on guard retention without attempting sweeps or submissions. Top player works to pass. Reset to guard whenever pass occurs or guard is fully recovered.
@@ -381,7 +381,7 @@ Practice retention with artificial limitations (one hand only, no grips allowed,
 - [[Guard Recovery]] (Principle) - Natural extension focusing on re-establishing full guard after partial compromise
 - [[Shrimping]] (Principle) - Core movement skill essential for creating lateral distance during retention
 - [[Defensive Framing]] (Principle) - Specific application of framing concepts within guard retention context
-- [[Guard Passing Concepts]] (Principle) - Opposing perspective that enhances retention through understanding passing mechanics
+- [[Guard Passing]] (Principle) - Opposing perspective that enhances retention through understanding passing mechanics
 - [[Closed Guard]] (Position) - Primary guard type where retention principles maintain guard structure against opening attempts
 - [[Open Guard]] (Position) - Main application context where retention is continuously tested against passing attempts
 - [[Half Guard]] (Position) - Critical position where retention prevents full pass and enables guard recovery

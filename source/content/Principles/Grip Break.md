@@ -208,7 +208,7 @@ Grip Break represents the fundamental skill and strategic framework of systemati
 - **[[Grip Fighting]]** (Extension): Grip Break is a defensive component within the broader Grip Fighting framework, which encompasses both establishing your own grips and denying opponent's grips through breaking
 - **[[Frame Creation]]** (Complementary): Breaking grips often works synergistically with establishing frames - the broken grip creates space that frames can then maintain and expand
 - **[[Posture Breaking]]** (Alternative): While Grip Break focuses on removing opponent's control points, Posture Breaking achieves similar control denial by compromising opponent's structural integrity despite their grips
-- **[[Guard Retention Concepts]]** (Prerequisite): Effective guard retention requires successful grip breaking to prevent opponent from establishing passing grips and maintaining distance control
+- **[[Guard Retention]]** (Prerequisite): Effective guard retention requires successful grip breaking to prevent opponent from establishing passing grips and maintaining distance control
 - **[[Connection Breaking]]** (Extension): Grip Break is a specific application of the broader Connection Breaking concept, focusing specifically on hand-based connections rather than all body contact points
 - **[[Leverage Principles]]** (Prerequisite): Understanding mechanical leverage is fundamental to executing efficient grip breaks that use angles and body positioning rather than pure strength
 - **[[Energy Conservation]]** (Complementary): Efficient grip breaking using mechanical advantage rather than strength is a critical application of energy conservation principles in competitive contexts

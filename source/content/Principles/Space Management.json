@@ -68,7 +68,7 @@
       "description": "Pressure application is the offensive counterpart to defensive space management. Where space management focuses on creating and maintaining distance, pressure application systematically eliminates space to control opponents. Understanding both concepts creates a complete strategic framework."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
       "description": "Space management principles extend into guard retention by providing the foundational skills for maintaining distance control and preventing guard passes. Guard retention applies space management concepts specifically to the context of maintaining guard positions."
     },
@@ -78,9 +78,9 @@
       "description": "Escape hierarchy provides the strategic framework for when and how to apply space management techniques. Space management provides the technical tools, while escape hierarchy determines which spaces to create and when based on positional priorities."
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Prerequisite",
-      "description": "Proper energy management enables sustained space management under pressure. Without understanding how to conserve energy through efficient frames and movement, practitioners exhaust themselves trying to create space, leading to positional deterioration."
+      "description": "Proper energy conservation enables sustained space management under pressure. Without understanding how to conserve energy through efficient frames and movement, practitioners exhaust themselves trying to create space, leading to positional deterioration."
     },
     {
       "principle_name": "Bridging Mechanics",
@@ -386,7 +386,7 @@
       "relationship": "Position that utilizes space management principles through active frame maintenance"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Complementary concept that enables sustained space management through efficiency"
     },
@@ -396,7 +396,7 @@
       "relationship": "Strategic framework that determines when and how to apply space management techniques"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Extension of space management principles applied specifically to maintaining guard positions"
     },

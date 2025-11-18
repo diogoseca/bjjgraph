@@ -215,8 +215,8 @@ The development of risk assessment skills transforms a practitioner from a react
 - **[[Match Strategy]]** (Extension): Overall match strategy is built upon continuous risk assessment decisions throughout the match duration
 - **[[Dilemma Creation]]** (Advanced form): Creating dilemmas for opponents involves understanding and manipulating their risk assessment to force bad choices
 - **[[Escape Hierarchy]]** (Complementary): Escape prioritization is a direct application of risk assessment from inferior positions
-- **[[Guard Retention Concepts]]** (Complementary): Guard retention strategies involve constant risk assessment about when to fight for guard vs when to accept pass and work escapes
-- **[[Competition Strategy]]** (Extension): Competition strategy is the macro-level application of risk assessment principles across entire tournaments
+- **[[Guard Recovery]]** (Complementary): Guard retention strategies involve constant risk assessment about when to fight for guard vs when to accept pass and work escapes
+- **[[Competition Mindset]]** (Extension): Competition strategy is the macro-level application of risk assessment principles across entire tournaments
 - **[[Defensive Strategy]]** (Complementary): Defensive tactics are informed by risk assessment of escape options versus acceptance of control
 - **[[Submission Defense Concepts]]** (Complementary): Submission defense involves risk assessment of escape timing versus prevention strategies
 

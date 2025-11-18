@@ -274,7 +274,27 @@
       "relationship": "Strategic position for initiating pressure passing sequences"
     },
     {
-      "name": "Knee Slice Pass",
+      "name": "High Mount",
+      "content_type": "Position",
+      "relationship": "Advanced mount position for submission attacks after passing"
+    },
+    {
+      "name": "Combat Base",
+      "content_type": "Position",
+      "relationship": "Starting position for establishing grips and initiating passing sequences"
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Guard structure requiring systematic opening and passing approach"
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Open guard structure addressed with bodylock and over-under techniques"
+    },
+    {
+      "name": "Knee Cut Pass",
       "content_type": "Transition",
       "relationship": "Primary passing technique within the pressure system"
     },
@@ -309,6 +329,11 @@
       "relationship": "Position advancement sequence after successful passing"
     },
     {
+      "name": "Knee Slice Pass",
+      "content_type": "Transition",
+      "relationship": "Fundamental pressure passing movement driving knee across opponent's thighs"
+    },
+    {
       "name": "Pressure Passing",
       "content_type": "Principle",
       "relationship": "Foundational principle underlying entire system methodology"
@@ -329,7 +354,7 @@
       "relationship": "Essential control principle for half guard and side control dominance"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Theoretical framework supporting systematic passing approach"
     },
@@ -344,6 +369,11 @@
       "relationship": "Principle for consolidating positions after successful passes"
     },
     {
+      "name": "Pressure Application",
+      "content_type": "Principle",
+      "relationship": "Technical principle for applying weight effectively during passing"
+    },
+    {
       "name": "Gordon Ryan Passing System",
       "content_type": "System",
       "relationship": "Complementary modern passing system with different technical emphasis"
@@ -354,24 +384,14 @@
       "relationship": "Related fundamental-based system with similar pressure philosophy"
     },
     {
-      "name": "Gi-Specific Strategy",
-      "content_type": "System",
-      "relationship": "Strategic framework for maximizing gi grips in passing sequences"
-    },
-    {
       "name": "Arm Triangle",
       "content_type": "Submission",
       "relationship": "High-percentage submission from consolidated side control position"
     },
     {
-      "name": "Ezekiel from Mount",
+      "name": "Ezekiel Choke",
       "content_type": "Submission",
       "relationship": "Primary submission attack from consolidated mount position"
-    },
-    {
-      "name": "Kimura from Side Control",
-      "content_type": "Submission",
-      "relationship": "Submission option from dominant side control position"
     }
   ],
   "expert_insights": {

@@ -268,10 +268,6 @@
       "relationship": "Core principle of the technique"
     },
     {
-      "name": "Guard Passing Principles",
-      "relationship": "Fundamental concepts applied in technique"
-    },
-    {
       "name": "Headquarters Position",
       "relationship": "Intermediate position during pass execution"
     },
@@ -286,6 +282,10 @@
     {
       "name": "Top Half Guard",
       "relationship": "Conceptual framework for passing from half guard"
+    },
+    {
+      "name": "Knee Cut Pass",
+      "relationship": "Alternative angle variation of the slice"
     }
   ],
   "expert_insights": {

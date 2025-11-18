@@ -206,7 +206,7 @@ The Pressure Passing Framework represents a systematic approach to guard passing
 
 ## Related Principles
 - **[[Pressure Application]]** (Prerequisite): Understanding fundamental pressure mechanics is essential before implementing pressure passing framework, as the framework builds on basic pressure principles applied specifically to guard passing contexts.
-- **[[Guard Passing Principles]]** (Extension): Pressure passing represents one specific application of broader guard passing principles, emphasizing pressure and connection over mobility and speed-based approaches.
+- **[[Guard Passing]]** (Extension): Pressure passing represents one specific application of broader guard passing principles, emphasizing pressure and connection over mobility and speed-based approaches.
 - **[[Weight Distribution]]** (Prerequisite): Proper weight distribution forms the foundation of effective pressure passing, as strategic weight placement determines the effectiveness of pressure application and connection dominance.
 - **[[Connection Breaking]]** (Complementary): While pressure passing emphasizes maintaining your own connections, understanding connection breaking allows you to systematically remove opponent's defensive frames and grips during passing sequences.
 - **[[Base Maintenance]]** (Prerequisite): Strong base is essential for pressure passing as you must maintain stability while applying forward pressure, preventing opponent from sweeping or off-balancing you during passing attempts.
@@ -215,7 +215,7 @@ The Pressure Passing Framework represents a systematic approach to guard passing
 - **[[Hip Pressure]]** (Prerequisite): Hip pressure mechanics are critical for effective pressure passing, as hip placement and weight distribution determine the ability to pin opponent's legs and prevent mobility.
 - **[[Shoulder Pressure]]** (Prerequisite): Shoulder pressure through crossface and chest contact is essential for controlling opponent's upper body and preventing them from sitting up or creating frames during pressure passes.
 - **[[Control Point Hierarchy]]** (Complementary): Understanding which connection points dominate others (crossface beats arm frames, underhook beats shoulder frames) is essential for systematic frame removal in pressure passing.
-- **[[Guard Retention Concepts]]** (Complementary): Understanding guard retention strategies allows pressure passers to anticipate and counter defensive responses, as pressure passing specifically targets the frames and distance management that retention relies on.
+- **[[Guard Retention]]** (Complementary): Understanding guard retention strategies allows pressure passers to anticipate and counter defensive responses, as pressure passing specifically targets the frames and distance management that retention relies on.
 - **[[Dilemma Creation]]** (Extension): Advanced pressure passing creates dilemmas where opponent's defensive choices all lead to different passing positions, with pressure maintained throughout regardless of which option they choose.
 
 
@@ -374,12 +374,11 @@ Record passing attempts and analyze pressure application, weight distribution, b
 
 - [[Headquarters Position]] (Position) - Core pressure passing platform position where framework principles are most clearly demonstrated
 - [[Headquarters Control]] (Position) - Consolidated version of headquarters with dominant grips and weight distribution established for pressure passing
-- [[Half Guard Pass]] (Position) - Key pressure passing position representing advancement from half guard with sustained pressure application
 - [[Knee Slice Pass]] (Transition) - Primary pressure passing technique connecting headquarters to side control consolidation
 - [[Smash Pass]] (Transition) - Pressure-based passing technique emphasizing weight distribution and frame removal
 - [[Long Step Pass]] (Transition) - Pressure passing variation used when opponent creates space with feet on hips or collar grips
 - [[Pressure Pass]] (Transition) - Generic pressure-based passing approach embodying framework principles
-- [[Guard Passing Principles]] (Principle) - Broader conceptual framework that pressure passing framework represents specific application of
+- [[Guard Passing]] (Principle) - Broader conceptual framework that pressure passing framework represents specific application of
 - [[Forward Pressure]] (Principle) - Fundamental concept that forms the foundation of all pressure passing techniques
 - [[Weight Distribution]] (Principle) - Critical concept for effective pressure application and maintaining connection dominance
 - [[Base Maintenance]] (Principle) - Essential concept for applying pressure without becoming vulnerable to sweeps

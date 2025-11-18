@@ -208,14 +208,14 @@ Defense Technique represents the systematic application of mechanical principles
 - **[[Escape Fundamentals]]** (Prerequisite): Escape Fundamentals provide the basic movement patterns and mechanical principles that defense technique builds upon, including shrimping, bridging, and basic framing concepts that must be understood before sophisticated defensive systems can be implemented.
 - **[[Defensive Strategy]]** (Complementary): Defensive Strategy provides the overarching tactical framework and decision-making hierarchy that guides when and how specific defense techniques should be applied, working together to create comprehensive defensive capability.
 - **[[Frame Management]]** (Complementary): Frame Management is a critical component skill within defense technique that focuses specifically on creating and maintaining structural barriers between practitioner and opponent, enabling space creation and position recovery.
-- **[[Energy Conservation]]** (Complementary): Energy Conservation principles ensure that defense technique is sustainable over extended periods, teaching efficient mechanical solutions rather than strength-based resistance that leads to exhaustion and defensive failure.
-- **[[Guard Retention Concepts]]** (Extension): Guard Retention Concepts represent a specialized application of defense technique specifically to maintaining guard positions, extending defensive principles into the context of preventing guard passing and maintaining offensive capability from bottom.
+- **[[Energy Management System]]** (Complementary): Energy Management System principles ensure that defense technique is sustainable over extended periods, teaching efficient mechanical solutions rather than strength-based resistance that leads to exhaustion and defensive failure.
+- **[[Guard Retention]]** (Extension): Guard Retention represents a specialized application of defense technique specifically to maintaining guard positions, extending defensive principles into the context of preventing guard passing and maintaining offensive capability from bottom.
 - **[[Submission Defense]]** (Extension): Submission Defense is the specialized application of defense technique specifically to neutralizing finishing attempts, requiring detailed understanding of submission mechanics and specific defensive responses for each submission category.
 - **[[Defensive Framing]]** (Complementary): Defensive Framing provides specific technical instruction on frame construction and application that directly supports the broader defensive technique framework.
 - **[[Hip Escape Mechanics]]** (Prerequisite): Hip Escape Mechanics are fundamental movement patterns essential for executing most defensive sequences, providing the mechanical foundation for position recovery.
 - **[[Space Creation]]** (Complementary): Space Creation principles guide the process of generating distance between practitioner and opponent, a critical element of effective defense technique implementation.
 - **[[Mount Escape Hierarchy]]** (Extension): Mount Escape Hierarchy represents the systematic application of defense technique principles specifically to the mount position, one of the most critical defensive scenarios.
-- **[[Side Control Defensive Framework]]** (Extension): Side Control Defensive Framework applies defense technique principles specifically to side control escapes, adapting general defensive concepts to this common inferior position.
+- **[[Side Control Escapes]]** (Extension): Side Control Escapes apply defense technique principles specifically to side control escapes, adapting general defensive concepts to this common inferior position.
 - **[[Back Escape Series]]** (Extension): Back Escape Series represents the application of defense technique to the most dangerous inferior position, emphasizing submission defense before positional improvement.
 
 
@@ -244,7 +244,7 @@ Defense Technique represents the systematic application of mechanical principles
 
 **Triangle Control**: Defense technique prioritizes posture maintenance to prevent opponent's legs from closing around neck, combined with specific hand positioning and stacking pressure to create escape angles, showing adaptation of defensive principles to specific submission contexts.
 
-**Kuzure Kesa-Gatame**: Defensive application against this traditional pin emphasizes bridge-and-roll mechanics specific to the side headlock position, combined with inside arm positioning to prevent chest-to-chest seal and create pathways to escape or guard recovery.
+**Kesa Gatame**: Defensive application against this traditional pin emphasizes bridge-and-roll mechanics specific to the side headlock position, combined with inside arm positioning to prevent chest-to-chest seal and create pathways to escape or guard recovery.
 
 **Guillotine Control**: Defense technique addresses the choking threat through specific hand positioning to prevent opponent from securing the choke, combined with posture and pressure strategies to escape the position while protecting the neck.
 
@@ -376,8 +376,7 @@ Specific drilling where partner in top position works to collapse defender's fra
 - [[Escape Fundamentals]] (Principle) - Foundational movement patterns and mechanical principles that defense technique builds upon
 - [[Frame Management]] (Principle) - Critical component skill focusing specifically on creating and maintaining structural barriers essential to defensive success
 - [[Submission Defense]] (Principle) - Specialized application of defense technique specifically to neutralizing finishing attempts
-- [[Guard Retention Concepts]] (Principle) - Application of defensive principles specifically to maintaining guard positions and preventing passes
-- [[Pin Escape Methodology]] (Principle) - Systematic approach to escaping dominant pinning positions using defensive technique principles
+- [[Guard Retention]] (Principle) - Application of defensive principles specifically to maintaining guard positions and preventing passes
 - [[Mount]] (Position) - Primary inferior position where defensive technique application is critical for survival and escape
 - [[Side Control]] (Position) - Common dominant position requiring specific defensive responses including framing and hip escape mechanics
 - [[Back Control]] (Position) - Most dangerous inferior position where defense technique must prioritize submission defense before positional improvement

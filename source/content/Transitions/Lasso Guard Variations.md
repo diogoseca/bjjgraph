@@ -350,10 +350,10 @@ Lasso guard variations function as a comprehensive open guard subsystem that con
 - [[Inverted Guard]] - Related inverted position with similar mechanics
 - [[X-Guard Sweep]] - Common follow-up after lasso sweep attempts
 - [[Pendulum Sweep]] - Classic sweep that works well from spider-lasso
-- [[Guard Retention Concepts]] - Fundamental principles underlying lasso variation system
 - [[Grip Fighting Strategies]] - Essential skill for maintaining lasso control
 - [[Sleeve Control]] - Critical principle for all lasso variations
 - [[Omoplata Sweep]] - Alternative attack from Russian lasso configuration
+- [[Spider Guard Pass]] - Understanding opponent's counter-strategies
 
 
 </section>

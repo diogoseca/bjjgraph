@@ -341,7 +341,6 @@ The smash pass is a cornerstone technique within pressure passing systems and se
 - [[Lockdown]] - Counter position - defensive structure that complicates smash pass
 - [[Gordon Ryan Passing System]] - System integration - smash pass is core component of this system
 - [[Pressure Passing]] - Conceptual framework - smash pass exemplifies pressure passing principles
-- [[Guard Passing Principles]] - Conceptual foundation - general principles applied in smash pass
 
 
 </section>

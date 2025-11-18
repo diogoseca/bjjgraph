@@ -67,9 +67,9 @@
       "description": "Pressure Application provides the foundational understanding of how to generate and transfer pressure effectively, which Pressure Passing builds upon by systematizing pressure use specifically for guard passing contexts."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
-      "description": "Pressure Passing represents one major strategic approach within the broader Guard Passing Principles framework, offering a systematic methodology focused on control and restriction rather than speed or agility."
+      "description": "Pressure Passing represents one major strategic approach within the broader Guard Passing framework, offering a systematic methodology focused on control and restriction rather than speed or agility."
     },
     {
       "principle_name": "Base Maintenance",
@@ -87,9 +87,9 @@
       "description": "Speed Passing represents an alternative guard passing philosophy that emphasizes quick movement and timing over sustained pressure, offering complementary approaches that practitioners often integrate based on opponent characteristics."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Complementary",
-      "description": "Understanding Guard Retention Concepts from the defensive perspective enhances Pressure Passing effectiveness by revealing which retention mechanisms pressure most effectively disrupts and how to systematically eliminate guard recovery options."
+      "description": "Understanding Guard Retention from the defensive perspective enhances Pressure Passing effectiveness by revealing which retention mechanisms pressure most effectively disrupts and how to systematically eliminate guard recovery options."
     },
     {
       "principle_name": "Cross Face Control",
@@ -105,6 +105,36 @@
       "principle_name": "Forward Pressure",
       "relationship_type": "Prerequisite",
       "description": "Forward Pressure represents the core mechanical principle underlying all pressure passing applications, teaching how to generate and sustain pressure without losing structural integrity."
+    },
+    {
+      "principle_name": "Hip Pressure",
+      "relationship_type": "Complementary",
+      "description": "Hip Pressure techniques integrate with Pressure Passing to control opponent's hip mobility and create the comprehensive restriction necessary for successful guard passing."
+    },
+    {
+      "principle_name": "Shoulder Pressure",
+      "relationship_type": "Complementary",
+      "description": "Shoulder Pressure provides the upper body control component that works in coordination with hip control to create complete flattening and restriction during pressure passing sequences."
+    },
+    {
+      "principle_name": "Control Maintenance",
+      "relationship_type": "Complementary",
+      "description": "Control Maintenance principles ensure that pressure advantages gained during passing sequences are preserved throughout transitions and position advancement."
+    },
+    {
+      "principle_name": "Energy Management System",
+      "relationship_type": "Complementary",
+      "description": "Energy Management System helps practitioners sustain effective pressure passing across extended training sessions by teaching efficient pressure application and strategic pressure modulation."
+    },
+    {
+      "principle_name": "Connection Breaking",
+      "relationship_type": "Complementary",
+      "description": "Connection Breaking skills enable pressure passers to eliminate opponent's defensive frames and grips that interfere with pressure application and position advancement."
+    },
+    {
+      "principle_name": "Long Step Passing",
+      "relationship_type": "Extension",
+      "description": "Long Step Passing represents a specific pressure-based passing technique that exemplifies pressure passing principles through sustained pressure during extended step-over movements."
     }
   ],
   "application_contexts": [
@@ -304,7 +334,7 @@
       "relationship": "Foundational concept providing core pressure mechanics that Pressure Passing systematizes for guard passing contexts"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Overarching framework containing Pressure Passing as one major strategic approach alongside speed and dynamic passing methodologies"
     },

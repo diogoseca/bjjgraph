@@ -341,7 +341,7 @@ The Pressure Pass is a cornerstone technique in the guard passing hierarchy and 
 - [[Crossface Pass]] - Uses similar crossface control principles in passing mechanics
 - [[Underhook Pass]] - Alternative control method using underhook instead of crossface
 - [[Deep Half Guard]] - Common counter opponent attempts - must defend against this
-- [[Guard Retention Concepts]] - Understanding opponent's retention helps predict and counter their defensive reactions
+- [[Guard Retention]] - Understanding opponent's retention helps predict and counter their defensive reactions
 
 
 </section>

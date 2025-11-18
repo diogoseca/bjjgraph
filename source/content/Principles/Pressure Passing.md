@@ -206,14 +206,20 @@ Pressure Passing represents the strategic framework of using forward pressure, w
 
 ## Related Principles
 - **[[Pressure Application]]** (Prerequisite): Pressure Application provides the foundational understanding of how to generate and transfer pressure effectively, which Pressure Passing builds upon by systematizing pressure use specifically for guard passing contexts.
-- **[[Guard Passing Principles]]** (Extension): Pressure Passing represents one major strategic approach within the broader Guard Passing Principles framework, offering a systematic methodology focused on control and restriction rather than speed or agility.
+- **[[Guard Passing]]** (Extension): Pressure Passing represents one major strategic approach within the broader Guard Passing framework, offering a systematic methodology focused on control and restriction rather than speed or agility.
 - **[[Base Maintenance]]** (Complementary): Base Maintenance works synergistically with Pressure Passing by providing the stability necessary to apply aggressive forward pressure without creating sweep vulnerabilities, making these concepts mutually reinforcing.
 - **[[Weight Distribution]]** (Prerequisite): Weight Distribution principles form the biomechanical foundation for effective Pressure Passing, as understanding how to shift and position weight optimally determines pressure effectiveness and passing success.
 - **[[Speed Passing]]** (Alternative): Speed Passing represents an alternative guard passing philosophy that emphasizes quick movement and timing over sustained pressure, offering complementary approaches that practitioners often integrate based on opponent characteristics.
-- **[[Guard Retention Concepts]]** (Complementary): Understanding Guard Retention Concepts from the defensive perspective enhances Pressure Passing effectiveness by revealing which retention mechanisms pressure most effectively disrupts and how to systematically eliminate guard recovery options.
+- **[[Guard Retention]]** (Complementary): Understanding Guard Retention from the defensive perspective enhances Pressure Passing effectiveness by revealing which retention mechanisms pressure most effectively disrupts and how to systematically eliminate guard recovery options.
 - **[[Cross Face Control]]** (Complementary): Cross Face Control provides specific technical methodology for establishing upper body dominance that enables systematic pressure application throughout passing sequences.
 - **[[Posture Breaking]]** (Prerequisite): Posture Breaking skills are foundational for initiating pressure passing sequences by establishing the flattened positioning necessary for sustained pressure application and position advancement.
 - **[[Forward Pressure]]** (Prerequisite): Forward Pressure represents the core mechanical principle underlying all pressure passing applications, teaching how to generate and sustain pressure without losing structural integrity.
+- **[[Hip Pressure]]** (Complementary): Hip Pressure techniques integrate with Pressure Passing to control opponent's hip mobility and create the comprehensive restriction necessary for successful guard passing.
+- **[[Shoulder Pressure]]** (Complementary): Shoulder Pressure provides the upper body control component that works in coordination with hip control to create complete flattening and restriction during pressure passing sequences.
+- **[[Control Maintenance]]** (Complementary): Control Maintenance principles ensure that pressure advantages gained during passing sequences are preserved throughout transitions and position advancement.
+- **[[Energy Management System]]** (Complementary): Energy Management System helps practitioners sustain effective pressure passing across extended training sessions by teaching efficient pressure application and strategic pressure modulation.
+- **[[Connection Breaking]]** (Complementary): Connection Breaking skills enable pressure passers to eliminate opponent's defensive frames and grips that interfere with pressure application and position advancement.
+- **[[Long Step Passing]]** (Extension): Long Step Passing represents a specific pressure-based passing technique that exemplifies pressure passing principles through sustained pressure during extended step-over movements.
 
 
 </section>
@@ -350,7 +356,7 @@ Training sessions where practitioner alternates between applying pressure passin
 ## Related Content
 
 - [[Pressure Application]] (Principle) - Foundational concept providing core pressure mechanics that Pressure Passing systematizes for guard passing contexts
-- [[Guard Passing Principles]] (Principle) - Overarching framework containing Pressure Passing as one major strategic approach alongside speed and dynamic passing methodologies
+- [[Guard Passing]] (Principle) - Overarching framework containing Pressure Passing as one major strategic approach alongside speed and dynamic passing methodologies
 - [[Base Maintenance]] (Principle) - Complementary concept enabling stable pressure application without sweep vulnerability during aggressive forward pressure
 - [[Weight Distribution]] (Principle) - Biomechanical foundation explaining how to position and shift weight optimally for maximum pressure effectiveness
 - [[Knee Slice Pass]] (Transition) - Primary passing technique utilizing pressure passing principles to drive through guard with sustained pressure control

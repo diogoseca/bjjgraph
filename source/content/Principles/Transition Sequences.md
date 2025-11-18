@@ -212,7 +212,7 @@ Transition Sequences represent the sophisticated skill of linking multiple posit
 - **[[Action and Reaction]]** (Prerequisite): Sequences leverage opponent reactions to create setup conditions for subsequent moves, requiring deep understanding of how initial actions generate predictable defensive responses
 - **[[Flow Rolling]]** (Advanced form): Flow rolling represents the highest expression of transition sequences where both practitioners link multiple sequences continuously in cooperative manner, developing sequence execution at maximum technical level
 - **[[Submission Chains]]** (Complementary): Submission chains apply sequence logic to finishing techniques, often integrated within positional sequences to create multi-dimensional offensive pressure
-- **[[Guard Passing Principles]]** (Extension): Guard passing sequences represent specific application of transition sequence concepts to the critical skill of defeating guard systems through linked technical progressions
+- **[[Guard Passing]]** (Extension): Guard passing sequences represent specific application of transition sequence concepts to the critical skill of defeating guard systems through linked technical progressions
 - **[[Creating Reactions]]** (Prerequisite): The ability to force opponent reactions through initial techniques provides the mechanical foundation upon which sequence logic is built
 - **[[System Building]]** (Advanced form): Systems represent the highest level of sequence organization, integrating multiple related sequences into comprehensive game frameworks
 

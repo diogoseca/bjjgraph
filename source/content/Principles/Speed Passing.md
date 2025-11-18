@@ -210,14 +210,14 @@ Speed passing requires exceptional conditioning, precise footwork, and understan
 
 ## Related Principles
 - **[[Pressure Passing Framework]]** (Alternative): Speed Passing and Pressure Passing represent contrasting methodologies - pressure passing emphasizes slow, methodical control while speed passing relies on rapid movement and overwhelming pace. Many elite passers blend both approaches, using pressure passing to establish initial control before transitioning to speed passing sequences.
-- **[[Guard Passing Principles]]** (Extension): Speed Passing applies fundamental guard passing principles at accelerated pace. The core concepts of controlling hips, managing distance, and preventing guard recovery remain constant, but the execution occurs at higher velocity with less margin for error.
+- **[[Guard Passing]]** (Extension): Speed Passing applies fundamental guard passing principles at accelerated pace. The core concepts of controlling hips, managing distance, and preventing guard recovery remain constant, but the execution occurs at higher velocity with less margin for error.
 - **[[Timing and Rhythm]]** (Prerequisite): Effective speed passing requires advanced timing and rhythm understanding to identify windows of opportunity during high-speed exchanges. The passer must recognize when the guard player's defensive structures are vulnerable and exploit these moments with explosive attacks before they can recover.
 - **[[Energy Management System]]** (Complementary): Speed passing demands sophisticated energy management to sustain high-intensity output without exhaustion. Passers must learn to identify when to apply maximum effort versus when to maintain circulation at lower intensity, preserving energy for critical passing opportunities.
 - **[[Angle Creation]]** (Prerequisite): Speed passing relies heavily on rapid angle creation and transition. The passer must understand how to generate advantageous passing angles through footwork and body positioning, then transition between these angles faster than the guard player can defend.
 - **[[Explosive Power]]** (Prerequisite): The physical capacity for explosive movement underpins speed passing effectiveness. Without the ability to generate sudden bursts of speed and pressure, the passing attempts become predictable and easier to defend. Explosive power training is essential for developing high-level speed passing.
 - **[[Base Maintenance]]** (Complementary): Maintaining stable base while executing rapid movements is crucial for speed passing success. The passer must develop the ability to move quickly without compromising balance, preventing sweep opportunities that guard players can exploit during high-velocity passing attempts.
 - **[[Grip Fighting]]** (Complementary): Speed passing requires constant grip fighting to prevent the guard player from establishing control points that slow down the passer's circulation. Grip breaking must be integrated seamlessly into the movement patterns rather than treated as a separate phase.
-- **[[Guard Retention Concepts]]** (Complementary): Understanding guard retention principles helps speed passers anticipate and counter defensive reactions. Knowledge of how guard players attempt to retain position informs which angles to attack and when to transition between passing approaches.
+- **[[Guard Retention]]** (Complementary): Understanding guard retention principles helps speed passers anticipate and counter defensive reactions. Knowledge of how guard players attempt to retain position informs which angles to attack and when to transition between passing approaches.
 
 
 </section>
@@ -368,7 +368,7 @@ Dedicate training blocks to speed passing specific guard types - two weeks focus
 
 ## Related Content
 
-- [[Guard Passing Principles]] (Principle) - Parent concept - speed passing applies fundamental guard passing principles at accelerated pace
+- [[Guard Passing]] (Principle) - Parent concept - speed passing applies fundamental guard passing principles at accelerated pace
 - [[Pressure Passing Framework]] (Principle) - Alternative methodology - contrasts with speed passing's rapid movement approach
 - [[Toreando Pass]] (Transition) - Primary technique within speed passing arsenal for attacking open guard positions
 - [[Leg Drag Pass]] (Transition) - Core speed passing technique effective against multiple guard types
@@ -378,7 +378,7 @@ Dedicate training blocks to speed passing specific guard types - two weeks focus
 - [[Energy Management System]] (Principle) - Critical supporting concept for sustaining speed passing output throughout matches
 - [[Explosive Power]] (Principle) - Physical prerequisite for effective speed passing execution
 - [[Timing and Rhythm]] (Principle) - Essential concept for recognizing when to apply explosive attacks during high-speed passing
-- [[Guard Retention Concepts]] (Principle) - Opposing concept - understanding retention principles helps identify vulnerabilities to exploit
+- [[Guard Retention]] (Principle) - Opposing concept - understanding retention principles helps identify vulnerabilities to exploit
 
 
 </section>

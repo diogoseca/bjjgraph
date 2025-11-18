@@ -428,7 +428,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 - [[Lasso Guard]] - Similar arm control concepts applicable to triangle entries
 - [[Elevator Sweep]] - Spider guard sweep that creates triangle opportunities when defended
 - [[Inverted Guard]] - Advanced inverted triangle variation from spider guard
-- [[Guard Passing Principles]] - Understanding passing helps anticipate opponent reactions that expose triangle
+- [[Guard Passing]] - Understanding passing helps anticipate opponent reactions that expose triangle
 - [[Submission Defense]] - Understanding triangle defense improves your offensive execution
 
 

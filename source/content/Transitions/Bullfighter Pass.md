@@ -343,7 +343,7 @@ The Bullfighter Pass is a cornerstone technique in modern standing guard passing
 - [[De La Riva Guard]] - Specific guard type vulnerable to this pass
 - [[Collar Sleeve Guard]] - Specific guard type vulnerable to this pass
 - [[Side Control]] - Standard ending position after successful pass
-- [[Guard Passing Principles]] - Conceptual foundation for this technique
+- [[Guard Passing]] - Conceptual foundation for this technique
 - [[Pressure Passing]] - General category this technique belongs to
 - [[Gordon Ryan Passing System]] - Expert system that heavily features this pass
 - [[Modern No-Gi Passing System]] - Strategic framework where this pass is central

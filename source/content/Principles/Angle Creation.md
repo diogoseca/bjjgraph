@@ -213,7 +213,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 - **[[Timing and Rhythm]]** (Complementary): Proper timing determines angle creation effectiveness—same angular movement succeeds or fails based on whether it coincides with opponent's weight commitment or transition moments.
 - **[[Frame Management]]** (Complementary): Frames enable safe angle creation by maintaining defensive barriers during angular movements, preventing opponent from capitalizing on transitional moments of vulnerability.
 - **[[Creating Space]]** (Extension): Angle creation is primary mechanism for space generation—perpendicular movements create gaps in opponent's control while linear movements often compress space.
-- **[[Guard Passing Principles]]** (Extension): Successful guard passing fundamentally depends on creating angles that circumvent rather than penetrate opponent's defensive structure, making angle creation essential passing skill.
+- **[[Guard Passing]]** (Extension): Successful guard passing fundamentally depends on creating angles that circumvent rather than penetrate opponent's defensive structure, making angle creation essential passing skill.
 - **[[Sweep Mechanics]]** (Extension): Most sweeps rely on angular positioning to compromise opponent's base and create directional vulnerability, making angle creation prerequisite for effective sweeping.
 - **[[Hip Escape Mechanics]]** (Prerequisite): Hip escape movements are fundamental technical mechanisms through which angular positions are created, particularly from bottom defensive positions.
 - **[[Bridging Mechanics]]** (Complementary): Bridging creates vertical angles that complement lateral hip movements, enabling three-dimensional angular positioning that is more difficult to counter than single-plane movements.
@@ -232,7 +232,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 **Mount**: Create angles by shifting weight and hip position off opponent's centerline to set up armbars, transitions to technical mount, or back takes. Angular positions expose one side while opponent defends the other.
 
-**Deep Half Guard**: Use angles by positioning body perpendicular under opponent, creating structural problems for their base while enabling sweep entries. Perpendicular alignment multiplies leverage for Homer sweep and back door escapes.
+**Deep Half Guard**: Use angles by positioning body perpendicular under opponent, creating structural problems for their base while enabling sweep entries. Perpendicular alignment multiplies leverage for sweeps and escapes.
 
 **Butterfly Guard**: Generate angles through lateral movement and hook positioning that creates off-axis alignment, enabling elevator sweeps and guard passes to be defended through angle changes rather than strength.
 
@@ -242,7 +242,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 **Spider Guard**: Use grips to create angular separation, extending one side while contracting the other to position opponent at diagonal alignment that opens sweep and submission opportunities while preventing passes.
 
-**Reverse De La Riva Guard**: Establish reverse angles by inverting under opponent's base, creating perpendicular alignment from underneath that enables crab ride, back takes, and kiss of dragon entries.
+**Reverse De La Riva Guard**: Establish reverse angles by inverting under opponent's base, creating perpendicular alignment from underneath that enables back takes and sweep entries.
 
 **Open Guard**: Constantly adjust body angles to remain perpendicular to opponent's passing direction, using angular frames and positioning to create defensive barriers that force passer to reset.
 
@@ -370,7 +370,7 @@ Full-intensity sparring with coaching feedback specifically highlighting success
 - [[Toreando Pass]] (Transition) - Guard pass requiring precise angular control to move around rather than through opponent's defenses
 - [[Deep Half Guard]] (Position) - Position fundamentally built on perpendicular angular positioning under opponent's structure
 - [[X-Guard]] (Position) - Guard position creating multi-directional angles that compromise opponent's base simultaneously
-- [[De La Riva Sweep]] (Transition) - Sweep family heavily dependent on maintaining angular control through hook and grip combinations
+- [[Berimbolo Entry]] (Transition) - Advanced transition demonstrating extreme angular inversion to circumvent opponent's defensive structure
 
 
 </section>

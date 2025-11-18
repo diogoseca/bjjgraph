@@ -207,7 +207,7 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 ## Related Principles
 - **[[Pressure Application]]** (Prerequisite): Fundamental understanding of pressure mechanics is essential before developing top half guard mastery, as proper pressure distribution forms the foundation of all control and passing strategies from this position.
 - **[[Control Point Hierarchy]]** (Complementary): Understanding control point prioritization directly enhances top half guard effectiveness by providing a systematic framework for deciding which connections to establish and maintain based on opponent defensive structure.
-- **[[Guard Passing Principles]]** (Extension): Top half guard serves as a specific application domain where general guard passing principles are refined and adapted to the unique constraints of half guard configurations.
+- **[[Guard Passing]]** (Extension): Top half guard serves as a specific application domain where general guard passing principles are refined and adapted to the unique constraints of half guard configurations.
 - **[[Underhook Defense]]** (Complementary): Mastery of underhook defense concepts directly translates to top half guard control, as preventing opponent's underhook-based attacks is central to maintaining dominant position and creating passing opportunities.
 - **[[Frame Management]]** (Prerequisite): Understanding how to create, maintain, and break frames is essential for top half guard, as much of the position revolves around negating opponent's defensive frames while establishing offensive connections.
 - **[[Dilemma Creation]]** (Advanced form): Advanced top half guard play evolves into systematic dilemma creation where the top player forces the bottom player to choose between defending different attack vectors, each choice opening specific passing opportunities.
@@ -238,7 +238,7 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 
 **Combat Base**: Provides foundation for initial half guard control establishment. Concepts guide transition from combat base to more dominant control positions through systematic pressure application.
 
-**Headquarters Control**: Represents advanced expression of top half guard concepts where underhook control and leg position create platform for multiple passing options and submission threats.
+**Headquarters Position**: Represents advanced expression of top half guard concepts where underhook control and leg position create platform for multiple passing options and submission threats.
 
 **Quarter Guard**: Demonstrates near-completion of passing process where maintaining pressure and preventing re-guard becomes primary focus of top half guard principles.
 
@@ -368,7 +368,7 @@ Live training where top player must maintain control and pass using only specifi
 - [[Knee Shield Half Guard]] (Position) - Common defensive variation requiring specialized application of top half guard principles, particularly frame negation and pressure angle adjustment
 - [[Lockdown]] (Position) - Defensive system requiring specific adaptations of base and pressure concepts to counter lockdown mechanics and maintain passing opportunities
 - [[Deep Half Guard]] (Position) - Advanced defensive position that must be recognized early and countered using preventive top half guard strategies before full position establishment
-- [[Headquarters Control]] (Position) - Advanced control position representing optimal expression of top half guard concepts where underhook control creates platform for multiple passing and submission options
+- [[Headquarters Position]] (Position) - Advanced control position representing optimal expression of top half guard concepts where underhook control creates platform for multiple passing and submission options
 - [[Half Guard Pass]] (Transition) - Generic passing methodology that applies top half guard principles to convert control into passed position across varied defensive configurations
 - [[Knee Slice from Half]] (Transition) - Specific passing technique that exemplifies proper application of pressure distribution and base maintenance concepts during active passing movements
 - [[Underhook Pass]] (Transition) - Passing approach built around underhook control that demonstrates application of underhook battle concepts within top half guard framework

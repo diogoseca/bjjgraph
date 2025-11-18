@@ -339,7 +339,7 @@ Rolling to guard serves as a critical link in the defensive hierarchy, connectin
 - [[Turtle to Guard]] - Follow-up if roll leads to turtle
 - [[Butterfly Guard]] - Common guard established from this roll
 - [[Closed Guard]] - Primary ending position
-- [[Guard Retention Concepts]] - Theoretical framework supporting this technique
+- [[Guard Retention]] - Theoretical framework supporting this technique
 - [[Shrimp Escape]] - Alternative fundamental escape option
 - [[Elbow Escape]] - Complementary escape from pinned positions
 

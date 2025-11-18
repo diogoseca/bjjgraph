@@ -67,7 +67,7 @@
       "description": "Understanding fundamental pressure mechanics is essential before implementing pressure passing framework, as the framework builds on basic pressure principles applied specifically to guard passing contexts."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Pressure passing represents one specific application of broader guard passing principles, emphasizing pressure and connection over mobility and speed-based approaches."
     },
@@ -112,7 +112,7 @@
       "description": "Understanding which connection points dominate others (crossface beats arm frames, underhook beats shoulder frames) is essential for systematic frame removal in pressure passing."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Complementary",
       "description": "Understanding guard retention strategies allows pressure passers to anticipate and counter defensive responses, as pressure passing specifically targets the frames and distance management that retention relies on."
     },
@@ -350,11 +350,6 @@
       "relationship": "Consolidated version of headquarters with dominant grips and weight distribution established for pressure passing"
     },
     {
-      "name": "Half Guard Pass",
-      "content_type": "Position",
-      "relationship": "Key pressure passing position representing advancement from half guard with sustained pressure application"
-    },
-    {
       "name": "Knee Slice Pass",
       "content_type": "Transition",
       "relationship": "Primary pressure passing technique connecting headquarters to side control consolidation"
@@ -375,7 +370,7 @@
       "relationship": "Generic pressure-based passing approach embodying framework principles"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Broader conceptual framework that pressure passing framework represents specific application of"
     },

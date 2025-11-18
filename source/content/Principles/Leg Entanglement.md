@@ -213,7 +213,7 @@ Leg Entanglement represents the systematic control and positioning of lower extr
 - **[[System Building]]** (Advanced form): Advanced leg entanglement understanding enables building comprehensive leg lock systems where entanglement positions, transitions, and submissions integrate into cohesive strategic frameworks.
 - **[[Leverage Principles]]** (Prerequisite): Understanding mechanical leverage is fundamental to creating effective leg entanglements that control joints with minimal effort through proper structural alignment rather than muscular force.
 - **[[Position Transitions]]** (Complementary): Leg entanglement requires fluid transitional ability between configurations, applying general position transition principles specifically to the lower body control system.
-- **[[Guard Retention Concepts]]** (Complementary): Many leg entanglements function as guard retention positions, using leg control to prevent passing while creating offensive opportunities.
+- **[[Guard Retention]]** (Complementary): Many leg entanglements function as guard retention positions, using leg control to prevent passing while creating offensive opportunities.
 - **[[Defensive Strategy]]** (Complementary): Understanding leg entanglement from defensive perspective informs overall defensive strategy, as leg attacks represent significant modern submission threats.
 
 

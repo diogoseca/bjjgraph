@@ -73,7 +73,7 @@
       "description": "Pressure Reduction techniques often must be employed before Space Creation can occur. Reducing the opponent's pressure through timing, weight distribution exploitation, or connection breaking creates the opportunity for space generation."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
       "description": "Space Creation enables Guard Retention by generating the distance necessary to insert knees, establish frames, and recompose defensive structure. Guard retention is the natural progression after successful space creation."
     },
@@ -384,7 +384,7 @@
       "relationship": "Often the end goal of space creation from ground positions - getting back to standing"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "The natural progression after successful space creation from inferior positions"
     },

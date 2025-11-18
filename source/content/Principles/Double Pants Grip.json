@@ -77,7 +77,7 @@
       "description": "Collar and sleeve grips serve as alternative control systems focusing on upper body manipulation, while double pants grip focuses on lower body control—both achieving guard control through different mechanical means."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Advanced form",
       "description": "Advanced guard retention integrates double pants grip as one component of a comprehensive defensive system, combining it with hip movement, framing, and re-guarding strategies."
     },
@@ -92,7 +92,7 @@
       "description": "Pants grips combined with foot pressure provide the mechanical advantage needed to break opponent's upright posture and create forward vulnerability for sweeps."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Alternative",
       "description": "Understanding passing principles from the top perspective helps guard players recognize and counter common passing strategies when using double pants grip control."
     },
@@ -259,7 +259,7 @@
     },
     {
       "approach_name": "Sweep Chain Development",
-      "description": "From double pants grip position, practice flowing through multiple sweep attempts (scissor → tomahawk → sickle) without releasing grips, emphasizing smooth transitions between techniques",
+      "description": "From double pants grip position, practice flowing through multiple sweep attempts (scissor, tomahawk, sickle) without releasing grips, emphasizing smooth transitions between techniques",
       "focus": "Building ability to chain sweeps together while maintaining control framework of double pants grips"
     },
     {
@@ -383,7 +383,7 @@
       "relationship": "Complementary concept implemented through double pants grip mechanics in open guard systems"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Advanced defensive framework that integrates double pants grip with hip movement and framing strategies"
     },

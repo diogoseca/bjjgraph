@@ -62,7 +62,7 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
       "description": "Butterfly hook retention represents a specific application of broader guard retention principles, focusing on hook-based retention rather than frame or distance-based approaches, requiring distinct technical solutions for similar strategic objectives."
     },
@@ -322,7 +322,7 @@
       "relationship": "Fundamental sweep technique that shares identical hook positioning and pressure application with retention mechanics"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Broader conceptual framework that encompasses hook retention as specific application of general retention principles"
     },

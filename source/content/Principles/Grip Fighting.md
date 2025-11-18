@@ -207,7 +207,7 @@ Grip Fighting represents the fundamental tactical battle for control through han
 ## Related Principles
 - **[[Control Maintenance]]** (Complementary): Grip fighting serves as the primary mechanism for establishing the initial control that must then be maintained. These concepts work together as grip fighting wins the initial battle while control maintenance preserves the advantages gained.
 - **[[Posture Breaking]]** (Extension): Effective grip fighting creates the opportunities and mechanical advantages necessary for posture breaking. The grips established through grip fighting determine the leverage points available for breaking opponent's structural integrity.
-- **[[Guard Passing Principles]]** (Prerequisite): Successful guard passing requires first winning the grip fighting exchange to establish passing grips while denying guard retention grips. Grip fighting mastery is foundational to implementing effective passing strategies.
+- **[[Guard Passing]]** (Prerequisite): Successful guard passing requires first winning the grip fighting exchange to establish passing grips while denying guard retention grips. Grip fighting mastery is foundational to implementing effective passing strategies.
 - **[[Guard Retention]]** (Prerequisite): Guard retention depends heavily on winning grip battles to maintain guard connections while preventing passing grips. The grip fighting exchange often determines whether guards can be retained or will be passed.
 - **[[Distance Creation]]** (Alternative): When grip fighting is unfavorable, creating distance becomes an alternative strategy. These concepts represent different tactical approaches - fighting for grips vs. denying all grips through separation.
 - **[[Frame Management]]** (Complementary): Frames and grips work together to control distance and positioning. Grip fighting establishes offensive connections while frames create defensive structure, with both requiring coordinated hand management.
@@ -383,14 +383,13 @@ Cooperative flow drilling where partners alternate establishing and breaking gri
 - [[Hand Fighting]] (Principle) - Broader concept encompassing grip fighting within overall hand engagement strategy
 - [[Control Maintenance]] (Principle) - Grip fighting establishes the initial controls that must then be maintained
 - [[Posture Breaking]] (Principle) - Grips established through grip fighting enable effective posture breaking mechanics
-- [[Guard Passing Principles]] (Principle) - Winning grip fights is prerequisite for implementing effective passing strategies
+- [[Guard Passing]] (Principle) - Winning grip fights is prerequisite for implementing effective passing strategies
 - [[Guard Retention]] (Principle) - Guard retention depends heavily on maintaining favorable grip exchanges
 - [[Closed Guard]] (Position) - Classic position where grip fighting determines ability to break posture and attack
 - [[Spider Guard]] (Position) - Guard type entirely dependent on winning and maintaining specific grip battles
 - [[Standing Position]] (Position) - Initial grip fighting exchanges in standing determine takedown initiative
 - [[Collar Sleeve Guard]] (Position) - Guard built on fundamental grip fighting principle of collar-and-sleeve control
 - [[Guard Opening Sequence]] (Transition) - Grip fighting determines success of guard opening attempts from top position
-- [[Collar Drag]] (Transition) - Technique that begins with winning specific grip fighting exchange
 
 
 </section>

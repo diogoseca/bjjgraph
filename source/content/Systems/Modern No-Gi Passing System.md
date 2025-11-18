@@ -351,20 +351,19 @@ The system requires progressive drilling that builds from static technical work 
 - [[Turtle]] (Position) - Common defensive escape requiring back take or pass completion skills
 - [[Knee Slice Pass]] (Transition) - Core pressure passing technique integrated throughout system
 - [[Leg Drag Pass]] (Transition) - High-percentage floating pass chained with knee slice variations
-- [[Body Lock Pass]] (Transition) - Dynamic passing sequence effective against butterfly and seated guards
+- [[Bodylock Pass]] (Transition) - Dynamic passing sequence effective against butterfly and seated guards
 - [[Headquarters Pass]] (Transition) - Direct passing finish from headquarters control position
 - [[Long Step Pass]] (Transition) - Floating pass variation used to bypass guard retention attempts
 - [[Knee Cut Pass]] (Transition) - Pressure-based passing technique particularly effective from half guard
-- [[Over-Under Pass]] (Transition) - Heavy pressure pass used when opponents flatten or turn defensive
 - [[Smash Pass]] (Transition) - Aggressive pressure pass for collapsing butterfly and open guard structures
-- [[Guard Passing Principles]] (Principle) - Fundamental concepts underlying all passing mechanics in system
+- [[Guard Passing]] (Principle) - Fundamental concepts underlying all passing mechanics in system
 - [[Pressure Passing]] (Principle) - Core methodology emphasizing weight distribution and forward pressure
 - [[Connection Breaking]] (Principle) - Essential skill for neutralizing defensive frames and grips
 - [[Hip Pressure]] (Principle) - Key pressure application method for controlling opponents and limiting mobility
 - [[Forward Pressure]] (Principle) - Constant offensive pressure principle maintaining passing initiative
 - [[Frame Management]] (Principle) - Understanding and controlling defensive frames throughout passing sequences
 - [[Gordon Ryan Passing System]] (System) - Related modern passing framework with overlapping principles and techniques
-- [[No-Gi Competition Approach]] (System) - Broader competitive strategy framework incorporating passing system elements
+- [[No-Gi Tactical Framework]] (System) - Broader competitive strategy framework incorporating passing system elements
 - [[Bernardo Faria Pressure System]] (System) - Complementary pressure-based approach with applicable passing concepts
 
 

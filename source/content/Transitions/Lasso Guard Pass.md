@@ -339,7 +339,7 @@ The Lasso Guard Pass is a fundamental component of any comprehensive passing sys
 - [[De La Riva Guard]] - Related guard - similar passing concepts apply
 - [[Standing Position]] - Intermediate position - used during the passing sequence
 - [[Grip Fighting]] - Core principle - essential for establishing sleeve control
-- [[Guard Passing Principles]] - Conceptual framework - overarching principles applied in this pass
+- [[Pressure Passing]] - Conceptual framework - overarching principles applied in this pass
 
 
 </section>

@@ -346,7 +346,7 @@ Guard Opening Sequence serves as the critical gateway from closed guard top to a
 - [[Leg Drag Pass]] - Advanced follow-up pass after guard opening
 - [[Long Step Pass]] - Alternative passing option from open guard
 - [[Grip Fighting]] - Essential concept integrated throughout opening sequence
-- [[Guard Passing Principles]] - Broader conceptual framework containing guard opening
+- [[Guard Passing]] - Broader conceptual framework containing guard opening
 - [[Elevator Sweep]] - Common counter/sweep opponent uses during standing break
 - [[Triangle from Closed Guard]] - Submission threat opponent may use if posture breaks
 

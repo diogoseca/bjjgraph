@@ -209,7 +209,7 @@ Collar Control represents the fundamental skill of gripping and manipulating opp
 - **[[Posture Breaking]]** (Complementary): Collar control is the primary mechanism for breaking opponent's posture in guard positions, while posture breaking is often the strategic objective of collar control
 - **[[Head Control]]** (Extension): Deep collar grips extend into direct head control by manipulating the collar material around opponent's neck and base of skull
 - **[[Sleeve Control]]** (Complementary): Collar and sleeve control work together to create comprehensive upper body control, with each grip type compensating for limitations of the other
-- **[[Guard Retention Concepts]]** (Complementary): Collar control from guard positions serves as both offensive attack foundation and defensive retention mechanism by controlling opponent's posture and pressure application
+- **[[Guard Retention]]** (Complementary): Collar control from guard positions serves as both offensive attack foundation and defensive retention mechanism by controlling opponent's posture and pressure application
 - **[[Grip Strategy]]** (Extension): Collar control represents a specific strategic grip priority within the broader grip strategy framework, often taking precedence in gi-specific game plans
 - **[[Control Point Hierarchy]]** (Complementary): Collar grips represent high-value control points in the hierarchy due to their direct connection to choking mechanics and posture control
 - **[[Connection Principles]]** (Prerequisite): Effective collar control requires maintaining strong connection points while preventing opponent from breaking the connection through grip strips or position changes

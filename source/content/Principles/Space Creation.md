@@ -213,7 +213,7 @@ The mastery of Space Creation fundamentally changes a practitioner's defensive c
 - **[[Hip Escape Mechanics]]** (Complementary): Hip Escape Mechanics is the primary engine for Space Creation in most positions. The coordinated movement of shoulders framing and hips escaping represents the fundamental execution of the Space Creation concept.
 - **[[Escape Hierarchy]]** (Extension): Space Creation is the first step in the Escape Hierarchy, representing the initial phase of any positional escape. Without successful space creation, progression through the escape hierarchy cannot occur.
 - **[[Pressure Reduction]]** (Prerequisite): Pressure Reduction techniques often must be employed before Space Creation can occur. Reducing the opponent's pressure through timing, weight distribution exploitation, or connection breaking creates the opportunity for space generation.
-- **[[Guard Retention Concepts]]** (Extension): Space Creation enables Guard Retention by generating the distance necessary to insert knees, establish frames, and recompose defensive structure. Guard retention is the natural progression after successful space creation.
+- **[[Guard Retention]]** (Extension): Space Creation enables Guard Retention by generating the distance necessary to insert knees, establish frames, and recompose defensive structure. Guard retention is the natural progression after successful space creation.
 - **[[Defensive Strategy]]** (Complementary): Space Creation is a core component of overall Defensive Strategy. It represents the proactive approach to defense—generating opportunities for escape rather than simply enduring pressure and waiting for opponent mistakes.
 - **[[Bridging Mechanics]]** (Complementary): Bridging Mechanics provides the vertical space creation component that complements lateral hip escape movements. Together they form the complete space creation toolkit for different positional contexts.
 - **[[Bridge and Shrimp]]** (Extension): Bridge and Shrimp represents the practical application of Space Creation principles, combining both vertical and lateral distance generation into coordinated escape sequences.
@@ -391,7 +391,7 @@ Partner in top position is instructed to transition between different pressure a
 - [[Escape Hierarchy]] (Principle) - Space creation represents the first critical phase in the systematic escape framework
 - [[Pressure Reduction]] (Principle) - Complementary concept that often must occur before or during space creation attempts
 - [[Technical Standup]] (Transition) - Often the end goal of space creation from ground positions - getting back to standing
-- [[Guard Retention Concepts]] (Principle) - The natural progression after successful space creation from inferior positions
+- [[Guard Retention]] (Principle) - The natural progression after successful space creation from inferior positions
 - [[Back Control]] (Position) - Critical defensive position where space creation prevents choking sequences
 - [[Bridge and Roll]] (Transition) - Explosive space creation technique from mount using bridging mechanics
 

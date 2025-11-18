@@ -341,7 +341,7 @@ The Guard Bottom Transition serves as the fundamental entry point into the entir
 - [[Spider Guard]] - Specific variant - common guard system established with sleeve grips and feet on biceps
 - [[De La Riva Guard]] - Specific variant - establishing DLR hook and controls after pull
 - [[Seated Guard]] - Alternative variant - semi-standing guard position after pull
-- [[Guard Retention Concepts]] - Follow-up concept - maintaining guard structure after successful pull
+- [[Guard Retention]] - Follow-up concept - maintaining guard structure after successful pull
 - [[Hip Movement]] - Fundamental concept - essential for controlling distance and creating angles in guard
 - [[Grip Fighting]] - Setup requirement - establishing and maintaining grips before and during pull
 - [[Guard Replacement]] - Related transition - recovering guard structure if initial pull is compromised

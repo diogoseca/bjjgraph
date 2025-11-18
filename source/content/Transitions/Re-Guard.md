@@ -328,17 +328,17 @@ Re-guarding represents a critical defensive skill that integrates throughout the
 - [[Hip Escape]] - Fundamental movement mechanic
 - [[Shrimp Escape]] - Essential technique component
 - [[Granby Roll]] - Advanced variation
-- [[Technical Stand-up]] - Alternative recovery method
+- [[Technical Stand Up to Single Leg]] - Alternative recovery method
 - [[Guard Replacement]] - Related defensive concept
 - [[Butterfly Sweep]] - Follow-up offensive option
 - [[De La Riva Sweep]] - Follow-up from guard recovery
-- [[Frame Management]] - Fundamental principle applied
-- [[Guard Retention Concepts]] - Preventative defensive system
+- [[Frame Creation]] - Fundamental principle applied
+- [[Guard Retention]] - Preventative defensive system
 - [[Hip Escape Mechanics]] - Core biomechanical principle
 - [[Defensive Posture]] - Essential concept maintained throughout
 - [[Elbow Escape]] - Related escape technique
 - [[Frame and Shrimp]] - Combined movement pattern
-- [[Open Guard to Deep Half]] - Guard recovery variation
+- [[Open Guard]] - Primary recovery target position
 
 
 </section>

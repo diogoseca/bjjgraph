@@ -213,7 +213,7 @@ Position Chains represents the strategic principle of linking multiple positiona
 - **[[System Building]]** (Advanced form): Systematic development of position chains around core positions represents advanced evolution where practitioner constructs comprehensive network of interconnected sequences forming cohesive strategic system.
 - **[[Control Point Hierarchy]]** (Prerequisite): Understanding which control points are most important at each position enables construction of chains where grips and frames from one position naturally enable the next transition.
 - **[[Energy Management System]]** (Complementary): Energy management principles determine which chain progressions are sustainable versus which deplete reserves prematurely, influencing selection of transitional movements throughout sequence.
-- **[[Guard Passing Principles]]** (Extension): Guard passing chains represent specific application of position chain concepts where progression from open guard through passing stages to dominant top control follows systematic pathway.
+- **[[Guard Passing]]** (Extension): Guard passing chains represent specific application of position chain concepts where progression from open guard through passing stages to dominant top control follows systematic pathway.
 - **[[Guard Retention]]** (Extension): Defensive position chains for guard retention involve sequential fallback positions where each stage represents controlled retreat toward guard recovery rather than complete position loss.
 - **[[Match Strategy]]** (Complementary): Competition match strategy determines which position chains are prioritized based on point accumulation needs, time management, and opponent's known defensive patterns.
 - **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction principles allows construction of chains where opponent's defensive actions to one position create the setup conditions for subsequent positions in sequence.
@@ -226,7 +226,7 @@ Position Chains represents the strategic principle of linking multiple positiona
 ## Application Contexts
 **Closed Guard**: Common chain: Hip Bump Sweep → Mount → Armbar Control. Practitioner plans sweep-to-mount progression with armbar as terminal option, using opponent's posture-up defense against sweep to create mount entry, then exploiting mount control to establish armbar.
 
-**Half Guard**: Typical chain: Underhook battle → Deep Half Guard → Sweep to top → Pass to Side Control. Sequential progression uses underhook establishment to enable deep half entry, sweep from deep half to reverse positions, immediate pass to consolidate top control.
+**Half Guard**: Typical chain: Underhook Battle → Deep Half Guard → Sweep to top → Pass to Side Control. Sequential progression uses underhook establishment to enable deep half entry, sweep from deep half to reverse positions, immediate pass to consolidate top control.
 
 **Side Control**: Standard chain: Side Control consolidation → Mount transition → Back take when opponent bridges. Three-position sequence where initial control enables mount advancement, with opponent's mount escape attempt creating back exposure that completes chain.
 

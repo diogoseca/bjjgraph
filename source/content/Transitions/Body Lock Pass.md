@@ -335,7 +335,7 @@ The body lock pass is a cornerstone technique in modern pressure passing systems
 - [[Leg Drag Pass]] - Follow-up technique when body lock pass is defended
 - [[Double Under Pass]] - Related passing technique using similar control concepts
 - [[Pressure Passing]] - Core principle underlying this technique
-- [[Guard Passing Principles]] - Theoretical framework governing execution
+- [[Guard Passing]] - Theoretical framework governing execution
 - [[Bernardo Faria Pressure System]] - Strategic system incorporating this pass
 - [[Gordon Ryan Passing System]] - Modern competitive system using this technique
 

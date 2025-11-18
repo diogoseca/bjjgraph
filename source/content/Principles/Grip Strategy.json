@@ -113,7 +113,7 @@
       "description": "Guard retention relies heavily on grip strategy for maintaining connections that prevent passing while creating re-guarding opportunities."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Guard passing success depends on implementing grip strategies that control opponent while preventing their defensive grips from establishing effective frames."
     },

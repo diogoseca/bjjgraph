@@ -478,12 +478,12 @@ From headquarters-type positions, I'm always looking for opportunities to create
 - **[[Half Guard]]** - Common starting position from which headquarters is established during passing sequences
 - **[[Side Control]]** - Primary target position for most passing sequences initiated from headquarters
 - **[[Deep Half Guard]]** - Common defensive entry opponent attempts from headquarters pressure
-- **[[Guard Passing Principles]]** - Foundational concept that underlies headquarters systematic passing strategy
 - **[[Pressure Passing]]** - Technical concept applied when maintaining headquarters control and advancing passes
 - **[[Knee Slice Pass]]** - Primary offensive transition when opponent turns toward trapped leg
 - **[[Long Step Pass]]** - Primary offensive transition when opponent extends leg to create distance
 - **[[Headquarters Pass]]** - Specific passing transition utilizing headquarters control principles
 - **[[Re-Guard from Headquarters]]** - Common defensive transition opponent attempts from this position
+- **[[Smash Pass]]** - Primary offensive transition when opponent creates strong frames
 
 
 </section>

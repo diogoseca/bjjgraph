@@ -103,7 +103,7 @@
       "description": "Energy management principles determine which chain progressions are sustainable versus which deplete reserves prematurely, influencing selection of transitional movements throughout sequence."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Guard passing chains represent specific application of position chain concepts where progression from open guard through passing stages to dominant top control follows systematic pathway."
     },
@@ -130,7 +130,7 @@
     },
     {
       "context": "Half Guard",
-      "how_applied": "Typical chain: Underhook battle → Deep Half Guard → Sweep to top → Pass to Side Control. Sequential progression uses underhook establishment to enable deep half entry, sweep from deep half to reverse positions, immediate pass to consolidate top control."
+      "how_applied": "Typical chain: Underhook Battle → Deep Half Guard → Sweep to top → Pass to Side Control. Sequential progression uses underhook establishment to enable deep half entry, sweep from deep half to reverse positions, immediate pass to consolidate top control."
     },
     {
       "context": "Side Control",

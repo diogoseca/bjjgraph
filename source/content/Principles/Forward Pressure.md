@@ -208,10 +208,10 @@ Forward Pressure represents the strategic application of advancing force, moment
 - **[[Pressure Application]]** (Prerequisite): Forward Pressure is a specific directional application of the broader Pressure Application concept, requiring fundamental understanding of how to generate and transmit force through body positioning before advancing directionally.
 - **[[Weight Distribution]]** (Complementary): Forward Pressure effectiveness depends directly on proper Weight Distribution principles, as advancing force must be balanced across multiple contact points to maintain control while creating forward momentum.
 - **[[Frame Management]]** (Alternative): While Forward Pressure focuses on offensive advancement, Frame Management represents the defensive counter-concept, making understanding both sides essential for recognizing when pressure will succeed versus when it will be neutralized by effective framing.
-- **[[Guard Passing Principles]]** (Extension): Forward Pressure serves as a foundational element within Guard Passing Principles, with passing strategies often built around the systematic application of forward force to overcome guard retention systems.
+- **[[Pressure Passing]]** (Extension): Pressure Passing serves as a specific systematic application of Forward Pressure principles within guard passing contexts, building comprehensive passing systems around forward force application.
 - **[[Control Point Hierarchy]]** (Complementary): Forward Pressure must be coordinated with Control Point Hierarchy understanding to ensure pressure is applied through the most mechanically advantageous contact points for each positional context.
 - **[[Base Maintenance]]** (Prerequisite): Effective Forward Pressure requires strong Base Maintenance to prevent counter-sweeps and off-balancing, as advancing force without stable base creates vulnerability to defensive reversals.
-- **[[Pressure Passing]]** (Extension): Pressure Passing represents a specific systematic application of Forward Pressure principles within guard passing contexts, building comprehensive passing systems around forward force application.
+- **[[Pressure Passing Framework]]** (Extension): Pressure Passing Framework represents a comprehensive systematic application of Forward Pressure principles within guard passing contexts, building entire passing methodologies around forward force application.
 - **[[Shoulder Pressure]]** (Complementary): Shoulder Pressure provides one of the primary mechanisms for Forward Pressure application, particularly in passing and top control situations where shoulder-driven force creates significant advancement opportunities.
 - **[[Hip Pressure]]** (Complementary): Hip Pressure works synergistically with upper body Forward Pressure to create multi-directional force application, with hip-driven pressure often serving as the lower body component of comprehensive pressure systems.
 - **[[Connection Principles]]** (Prerequisite): Understanding Connection Principles is essential for effective Forward Pressure, as pressure can only be transmitted through properly established and maintained connection points between practitioners.
@@ -369,7 +369,7 @@ Drilling where bottom player is instructed to perform specific defensive reactio
 - [[Smash Pass]] (Transition) - Archetypal Forward Pressure passing technique where pressure creates the fundamental mechanism
 - [[Side Control]] (Position) - Control position where Forward Pressure prevents escapes and creates submission opportunities
 - [[Mount]] (Position) - Dominant position maintained and utilized through strategic Forward Pressure application
-- [[Guard Passing Principles]] (Principle) - Broader passing framework within which Forward Pressure serves as a foundational element
+- [[Pressure Passing Framework]] (Principle) - Comprehensive passing framework within which Forward Pressure serves as a foundational element
 - [[Control Point Hierarchy]] (Principle) - Conceptual framework determining which contact points provide optimal Forward Pressure application
 - [[Base Maintenance]] (Principle) - Prerequisite defensive skill necessary to apply Forward Pressure without creating counter vulnerabilities
 - [[Shoulder Pressure]] (Principle) - Specific mechanism for Forward Pressure application through shoulder-driven force

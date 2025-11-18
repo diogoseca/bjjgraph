@@ -67,7 +67,7 @@
       "description": "Long step passing is a specific application of broader pressure passing principles, requiring fundamental understanding of pressure-based immobilization and systematic advancement before implementing deep step mechanics."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Prerequisite",
       "description": "Core guard passing concepts including posture control, hip line recognition, and passing progression provide the foundational framework upon which long step passing mechanics are built."
     },
@@ -102,9 +102,9 @@
       "description": "Forward pressure generation is the driving force behind long step passing effectiveness, creating the immobilization necessary for systematic advancement through guard structures."
     },
     {
-      "principle_name": "Guard Passing Concepts",
+      "principle_name": "Pressure Passing",
       "relationship_type": "Extension",
-      "description": "Long step passing extends general guard passing concepts into specific pressure-based methodology, applying foundational principles through deep positional commitment framework."
+      "description": "Long step passing extends general pressure passing concepts into specific methodology, applying foundational principles through deep positional commitment framework."
     },
     {
       "principle_name": "Control Point Hierarchy",
@@ -366,7 +366,7 @@
       "relationship": "Long step passing exemplifies core pressure passing principles, serving as specific technical application of broader conceptual framework"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Long step passing builds upon fundamental guard passing concepts including posture, hip control, and systematic advancement"
     },

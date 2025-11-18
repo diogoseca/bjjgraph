@@ -336,7 +336,6 @@ The Knee Through pass represents a fundamental element in the pressure passing s
 - [[Darce Choke]] - Submission opportunity if opponent turns into you during pass
 - [[Deep Half Guard]] - Counter position opponent may attempt during pass
 - [[Pressure Passing]] - Foundational principle underlying technique
-- [[Guard Passing Principles]] - Conceptual framework for all passing techniques
 
 
 </section>

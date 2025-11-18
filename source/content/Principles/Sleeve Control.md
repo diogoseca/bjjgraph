@@ -213,13 +213,13 @@ Sleeve control integrates with other fundamental concepts including grip strateg
 - **[[Posture Breaking]]** (Extension): Sleeve control serves as primary mechanism for breaking opponent's posture by extending arms and eliminating their ability to maintain upright structure
 - **[[Off-Balancing]]** (Complementary): Directional sleeve pulls create off-balancing opportunities by controlling opponent's arm placement and preventing compensatory posts
 - **[[Distance Creation]]** (Advanced form): Advanced sleeve control allows precise distance regulation - pulling to close distance or extending fully to create defensive space
-- **[[Guard Retention Concepts]]** (Extension): Sleeve control functions as essential guard retention tool by preventing opponent from establishing strong passing grips and controlling their arm position throughout retention sequences
+- **[[Guard Retention]]** (Extension): Sleeve control functions as essential guard retention tool by preventing opponent from establishing strong passing grips and controlling their arm position throughout retention sequences
 - **[[Grip Fighting]]** (Prerequisite): Hand fighting skills determine success in establishing and maintaining sleeve grips against resistant opponents who actively defend their sleeves
 - **[[Control Point Hierarchy]]** (Extension): Sleeve control represents key control point in hierarchy of gripping priorities - understanding when sleeve control takes precedence over other available grips
 - **[[Leverage Principles]]** (Prerequisite): Mechanical leverage principles explain why deep wrist grips provide superior control compared to elbow or shoulder control
 - **[[Creating Reactions]]** (Complementary): Sleeve control creates predictable reactions - opponent either addresses the grip or ignores it - both reactions create offensive opportunities
-- **[[Dilemma Creation]]** (Extension): Sleeve control forces opponent into constant dilemma between defending grips and advancing position, both choices leading to vulnerabilities
 - **[[Frame Management]]** (Complementary): Controlling opponent's sleeve prevents them from establishing effective frames while allowing you to create your own defensive structures
+- **[[Connection Breaking]]** (Complementary): Sleeve control disrupts opponent's connection to ground and their ability to maintain frames by controlling arm endpoints
 
 
 </section>
@@ -386,7 +386,7 @@ Studying high-level competition footage specifically focusing on sleeve grip pat
 - [[De La Riva Guard]] (Position) - Open guard position using far-side sleeve control combined with DLR hook to prevent guard passing
 - [[Grip Break]] (Transition) - Defensive technique for breaking opponent's sleeve control on your arms to regain freedom of movement
 - [[Guard Pass]] (Transition) - Opponent's primary goal when you have sleeve control - your grips prevent passing by controlling their arms
-- [[Guard Retention Concepts]] (Principle) - Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips
+- [[Guard Retention]] (Principle) - Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips
 - [[Grip Fighting]] (Principle) - Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance
 
 

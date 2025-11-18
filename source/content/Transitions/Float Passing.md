@@ -333,7 +333,7 @@ Float passing serves as a primary guard passing strategy that integrates seamles
 - [[Combat Base]] - Alternative starting position for lower-level float passing
 - [[Side Control]] - Primary ending position after successful pass
 - [[Knee on Belly]] - Alternative ending position for maintaining mobility after pass
-- [[Guard Passing Principles]] - Foundational concepts underlying float passing strategy
+- [[Guard Passing]] - Foundational concepts underlying float passing strategy
 - [[Grip Fighting]] - Essential skill for maintaining control during floating movements
 - [[Base Maintenance]] - Critical principle for preventing sweeps during lateral movement
 

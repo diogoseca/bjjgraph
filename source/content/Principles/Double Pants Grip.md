@@ -213,10 +213,10 @@ Mastery of the double pants grip concept extends beyond simply holding fabric—
 - **[[Off-Balancing]]** (Complementary): The double pants grip creates the framework for executing off-balancing techniques by controlling the opponent's base, making these concepts mutually reinforcing.
 - **[[Sweep Mechanics]]** (Extension): Many sweep sequences are extensions of double pants grip control, using the established control as the foundation for executing specific sweep techniques.
 - **[[Collar Control]]** (Alternative): Collar and sleeve grips serve as alternative control systems focusing on upper body manipulation, while double pants grip focuses on lower body control—both achieving guard control through different mechanical means.
-- **[[Guard Retention Concepts]]** (Advanced form): Advanced guard retention integrates double pants grip as one component of a comprehensive defensive system, combining it with hip movement, framing, and re-guarding strategies.
+- **[[Guard Retention]]** (Advanced form): Advanced guard retention integrates double pants grip as one component of a comprehensive defensive system, combining it with hip movement, framing, and re-guarding strategies.
 - **[[Base Maintenance]]** (Complementary): Double pants grip directly attacks opponent's base maintenance by controlling both legs simultaneously, creating the mechanical foundation for destabilizing their structure.
 - **[[Posture Breaking]]** (Complementary): Pants grips combined with foot pressure provide the mechanical advantage needed to break opponent's upright posture and create forward vulnerability for sweeps.
-- **[[Guard Passing Principles]]** (Alternative): Understanding passing principles from the top perspective helps guard players recognize and counter common passing strategies when using double pants grip control.
+- **[[Guard Passing]]** (Alternative): Understanding passing principles from the top perspective helps guard players recognize and counter common passing strategies when using double pants grip control.
 - **[[Leverage Principles]]** (Extension): Double pants grip exemplifies lever-based control by manipulating opponent's legs (long levers) to affect their entire body position with minimal energy expenditure.
 - **[[Weight Distribution]]** (Complementary): Reading opponent's weight distribution through pants grip feedback is essential for timing sweeps and recognizing when base is most vulnerable to attacks.
 - **[[Connection Principles]]** (Extension): Double pants grip establishes strong connection points at opponent's legs, demonstrating how bilateral connections create greater control than single-point attachments.
@@ -311,7 +311,7 @@ With double pants grips established, guard player practices pulling opponent clo
 Partner with double pants grips established shifts weight forward/backward/side-to-side while guard player identifies shifts through grip feedback and calls out sweep opportunities
 
 **Sweep Chain Development** (Focus: Building ability to chain sweeps together while maintaining control framework of double pants grips)
-From double pants grip position, practice flowing through multiple sweep attempts (scissor → tomahawk → sickle) without releasing grips, emphasizing smooth transitions between techniques
+From double pants grip position, practice flowing through multiple sweep attempts (scissor, tomahawk, sickle) without releasing grips, emphasizing smooth transitions between techniques
 
 **Positional Sparring with Grip Constraint** (Focus: Developing practical grip retention under resistance and learning to work within grip-based constraint system)
 Open guard sparring where bottom player must maintain at least one pants grip at all times; if both grips are broken, reset to starting position
@@ -380,7 +380,7 @@ Partner begins passing guard (knee slice, toreando, etc.) while guard player mus
 - [[Lasso Guard]] (Position) - Guard variation that integrates one pants grip with lasso control for directional manipulation
 - [[Reverse De La Riva Guard]] (Position) - Guard system that relies on double pants grip to establish and maintain control while preventing disengagement
 - [[Distance Creation]] (Principle) - Complementary concept implemented through double pants grip mechanics in open guard systems
-- [[Guard Retention Concepts]] (Principle) - Advanced defensive framework that integrates double pants grip with hip movement and framing strategies
+- [[Guard Retention]] (Principle) - Advanced defensive framework that integrates double pants grip with hip movement and framing strategies
 - [[Sweep Mechanics]] (Principle) - Foundational concept extended by double pants grip control as setup for multiple sweep techniques
 
 

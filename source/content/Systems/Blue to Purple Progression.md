@@ -361,7 +361,7 @@ Purple belt progression requires structured drilling that emphasizes repetition,
 - [[Back Take Generic]] (Transition) - Universal back-taking principles applicable from multiple positions and situations
 - [[Positional Hierarchy]] (Principle) - Fundamental concept governing strategic decision-making and position advancement priorities
 - [[Guard Retention]] (Principle) - Critical defensive concept preventing opponent from passing and establishing dominant positions
-- [[Guard Passing Principles]] (Principle) - Systematic approach to defeating guards through posture, pressure, and connection breaking
+- [[Guard Passing]] (Principle) - Systematic approach to defeating guards through posture, pressure, and connection breaking
 - [[Position-Over-Submission Approach]] (Principle) - Strategic framework emphasizing positional dominance before submission attempts
 - [[Frame Management]] (Principle) - Defensive concept teaching space creation and pressure management from bad positions
 - [[Base Maintenance]] (Principle) - Fundamental principle preventing sweeps and maintaining postural stability in all positions

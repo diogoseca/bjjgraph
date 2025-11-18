@@ -74,12 +74,12 @@
       "description": "Hand fighting and grip breaking work together as offensive and defensive components of the same tactical domain. While hand fighting focuses on establishing your own controls, grip breaking denies opponent controls, creating a complete approach to grip exchanges."
     },
     {
-      "principle_name": "Frame Creation",
+      "principle_name": "Defensive Frame",
       "relationship_type": "Complementary",
       "description": "Frame creation often follows successful grip breaking, using the space created by breaking to establish defensive structures. Frames prevent opponent from immediately reestablishing broken grips while creating leverage for escapes or reversals."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
       "description": "Guard retention depends heavily on grip breaking to deny opponent the controls necessary for passing. Breaking pants grips, sleeve grips, and collar controls enables the movement and space creation essential for maintaining guard position."
     },
@@ -368,12 +368,12 @@
       "relationship": "Specific application of grip concepts to collar grips and collar-based control systems"
     },
     {
-      "name": "Frame Creation",
+      "name": "Defensive Frame",
       "content_type": "Principle",
       "relationship": "Defensive structure often established immediately after successful grip breaking"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Depends heavily on grip breaking to deny passing controls and maintain guard position"
     },

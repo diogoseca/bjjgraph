@@ -152,7 +152,7 @@ description: "Master Roger Gracie's fundamental system: positional dominance thr
 
 The Roger Gracie Fundamental System represents the pinnacle of fundamental Brazilian Jiu-Jitsu executed at the highest level. Built on a foundation of flawless basic techniques performed with exceptional precision, this system demonstrates that mastery of fundamentals trumps complex techniques. Roger's approach centers on achieving dominant positions through methodical advancement, maintaining overwhelming control, and finishing with basic submissions executed so perfectly that opponents cannot escape despite knowing exactly what is coming. The system's philosophy rejects flashy or exotic techniques in favor of high-percentage moves drilled to absolute perfection.
 
-At its core, this system emphasizes positional progression following the classical hierarchy: guard pass to side control, side control to mount, mount to submission. Roger's implementation of these fundamentals proved so dominant that he submitted multiple world champions with basic techniques they had defended thousands of times before. The key lies not in the techniques themselves but in the precision of execution, timing, pressure application, and understanding of leverage that Roger developed through countless hours of deliberate practice. Every movement serves a purpose, every grip is optimized, and every position transition follows mechanical principles that maximize efficiency while minimizing risk.
+At its core, this system emphasizes positional progression following the classical hierarchy: guard pass to side control, side control to mount, mount to submission. Roger's implementation of these fundamentals proved so dominant that he submitted multiple world champions with basic techniques they had defended thousands of times before. The key lies not in the techniques themselves but in the precision of execution, timing, pressure application, and understanding of leverage that Roger developed through countless hours of deliberate practice. Every movement serves a purpose, every grip is optimized, and every position transition follows mechanical principles that maximize efficiency while minimize risk.
 
 </section>
 
@@ -353,7 +353,6 @@ Roger's methodology emphasizes quality over quantity, drilling fundamental techn
 - [[Pressure Application]] (Principle) - Key to making basic positions inescapable - Roger's pressure felt impossibly heavy
 - [[Control Maintenance]] (Principle) - Defines success in system - control quality matters more than position advancement speed
 - [[Escape Fundamentals]] (Principle) - Defensive component of system - knowing escapes deeply helps prevent opponent from executing them
-- [[Guard Passing Principles]] (Principle) - Technical foundation for methodical guard passing approach central to system
 - [[Leverage Principles]] (Principle) - Explains why fundamental techniques work - Roger maximized leverage in every position
 - [[Bernardo Faria Pressure System]] (System) - Complementary system also emphasizing pressure and fundamental techniques over complexity
 - [[Gi-Specific Strategy]] (System) - Roger's system optimized for gi grips and collar chokes - represents pinnacle of gi grappling

@@ -343,10 +343,10 @@ The long step pass is a cornerstone technique in modern pressure passing systems
 - [[Knee Shield Half Guard]] - Common target - long step effectively counters knee shield retention
 - [[Butterfly Guard]] - Common target - long step neutralizes butterfly hooks
 - [[Deep Half Guard]] - Counter concern - opponent may attempt deep half if you don't control properly
-- [[Pressure Pass]] - Category - long step is a type of pressure passing technique
+- [[Pressure Passing]] - Category - long step is a type of pressure passing technique
 - [[Over-Under Pass]] - Follow-up option - can transition to over-under if long step is defended
 - [[Stack Pass]] - Related concept - similar principles of getting around opponent's legs
-- [[Guard Passing Principles]] - Conceptual foundation - underlying principles that make long step effective
+- [[Long Step Passing]] - Conceptual foundation - underlying principles that make long step effective
 
 
 </section>

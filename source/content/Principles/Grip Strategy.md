@@ -215,7 +215,7 @@ Grip Strategy represents the systematic approach to establishing, maintaining, a
 - **[[Grip Fighting]]** (Complementary): Grip fighting encompasses the competitive exchange of grip attempts and denials, representing the tactical implementation of grip strategy principles under resistance.
 - **[[Hand Fighting]]** (Complementary): Hand fighting in no-gi contexts parallels gi-based grip strategy, adapting grip concepts to environments where fabric connections are unavailable.
 - **[[Guard Retention]]** (Extension): Guard retention relies heavily on grip strategy for maintaining connections that prevent passing while creating re-guarding opportunities.
-- **[[Guard Passing Principles]]** (Extension): Guard passing success depends on implementing grip strategies that control opponent while preventing their defensive grips from establishing effective frames.
+- **[[Guard Passing]]** (Extension): Guard passing success depends on implementing grip strategies that control opponent while preventing their defensive grips from establishing effective frames.
 - **[[Distance Creation]]** (Complementary): Distance creation strategies often work in conjunction with grip strategy, using grips to control distance while preventing opponent from closing gaps.
 
 

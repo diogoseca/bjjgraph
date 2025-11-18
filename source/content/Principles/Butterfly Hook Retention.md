@@ -205,7 +205,7 @@ Butterfly Hook Retention represents the fundamental skill of maintaining and pre
 <section id="principle-relationships" class="content-section">
 
 ## Related Principles
-- **[[Guard Retention Concepts]]** (Extension): Butterfly hook retention represents a specific application of broader guard retention principles, focusing on hook-based retention rather than frame or distance-based approaches, requiring distinct technical solutions for similar strategic objectives.
+- **[[Guard Retention]]** (Extension): Butterfly hook retention represents a specific application of broader guard retention principles, focusing on hook-based retention rather than frame or distance-based approaches, requiring distinct technical solutions for similar strategic objectives.
 - **[[Frame Management]]** (Complementary): Effective hook retention requires coordinated frame usage where frames prevent opponent from closing distance and controlling posture while hooks provide elevation and sweep threat, creating a complete retention system through their interaction.
 - **[[Hip Movement]]** (Prerequisite): Fundamental hip mobility and positioning skills enable effective hook retention by allowing the guard player to maintain elevated hips and adjust hook angles dynamically, without which hook retention becomes static and easily defeated.
 - **[[Sweep Mechanics]]** (Complementary): Hook retention and sweep execution share identical mechanical requirements, making retention practice simultaneously sweep development, as the same hip elevation and hook pressure that maintain position also generate sweeping momentum.
@@ -360,7 +360,7 @@ Extended duration hook retention rounds emphasizing minimal energy expenditure w
 - [[Butterfly Hook Control]] (Position) - Specific positional implementation of hook retention concepts, demonstrating practical application of retention principles in bottom butterfly context
 - [[Butterfly Sweep]] (Transition) - Primary offensive application of butterfly hook retention where same hook mechanics used for retention generate sweeping momentum
 - [[Basic Butterfly Sweep]] (Transition) - Fundamental sweep technique that shares identical hook positioning and pressure application with retention mechanics
-- [[Guard Retention Concepts]] (Principle) - Broader conceptual framework that encompasses hook retention as specific application of general retention principles
+- [[Guard Retention]] (Principle) - Broader conceptual framework that encompasses hook retention as specific application of general retention principles
 - [[Hip Movement]] (Principle) - Foundational movement concept that enables effective hook retention through hip elevation and dynamic positioning capability
 - [[Sweep Mechanics]] (Principle) - Complementary concept that shares mechanical requirements with hook retention, creating synergy between defensive retention and offensive sweeping
 - [[X-Guard]] (Position) - Related guard position where similar hook retention principles apply to different hook configuration and leg entanglement structure

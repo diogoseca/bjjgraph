@@ -71,7 +71,7 @@
       "description": "Effective grip fighting creates the opportunities and mechanical advantages necessary for posture breaking. The grips established through grip fighting determine the leverage points available for breaking opponent's structural integrity."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Prerequisite",
       "description": "Successful guard passing requires first winning the grip fighting exchange to establish passing grips while denying guard retention grips. Grip fighting mastery is foundational to implementing effective passing strategies."
     },
@@ -380,7 +380,7 @@
       "relationship": "Grips established through grip fighting enable effective posture breaking mechanics"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Winning grip fights is prerequisite for implementing effective passing strategies"
     },
@@ -413,11 +413,6 @@
       "name": "Guard Opening Sequence",
       "content_type": "Transition",
       "relationship": "Grip fighting determines success of guard opening attempts from top position"
-    },
-    {
-      "name": "Collar Drag",
-      "content_type": "Transition",
-      "relationship": "Technique that begins with winning specific grip fighting exchange"
     }
   ],
   "expert_insights": {

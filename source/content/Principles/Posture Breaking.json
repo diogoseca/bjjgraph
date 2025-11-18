@@ -78,9 +78,9 @@
       "description": "Posture breaking and off-balancing work synergistically where broken posture makes opponent easier to off-balance, and off-balancing creates opportunities to break posture. These concepts reinforce each other in creating dominant control from guard positions."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Recovery",
       "relationship_type": "Complementary",
-      "description": "Guard retention and posture breaking are defensive/offensive sides of the same strategic framework. Posture breaking prevents guard passing by eliminating opponent's ability to generate passing pressure. Strong posture breaking capability is fundamental component of effective guard retention systems."
+      "description": "Guard recovery and posture breaking are defensive/offensive sides of the same strategic framework. Posture breaking prevents guard passing by eliminating opponent's ability to generate passing pressure. Strong posture breaking capability is fundamental component of effective guard recovery systems."
     },
     {
       "principle_name": "Sweep Mechanics",
@@ -111,6 +111,16 @@
       "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage enables efficient posture breaking using optimal mechanical advantage rather than strength. Proper leverage application allows smaller practitioners to break posture of larger opponents. Leverage principles inform grip selection and pulling vector optimization."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Complementary",
+      "description": "Guard retention and posture breaking work together as integrated defensive and offensive systems. Effective posture breaking serves as primary guard retention mechanism by eliminating opponent's passing pressure before it develops. Strong posture breaking fundamentally improves guard retention capability."
+    },
+    {
+      "principle_name": "Defensive Frame",
+      "relationship_type": "Complementary",
+      "description": "Defensive frames in open guard work synergistically with posture breaking by preventing opponent from establishing strong passing positions. Frames create distance while posture breaking eliminates pressure. Combined application creates comprehensive guard control."
     }
   ],
   "application_contexts": [
@@ -360,9 +370,9 @@
       "relationship": "Understanding opponent's base requirements reveals vulnerabilities to exploit through posture breaking"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Recovery",
       "content_type": "Principle",
-      "relationship": "Posture breaking serves as primary guard retention mechanism by eliminating opponent's passing pressure"
+      "relationship": "Posture breaking serves as primary guard recovery mechanism by eliminating opponent's passing pressure"
     },
     {
       "name": "Off-Balancing",

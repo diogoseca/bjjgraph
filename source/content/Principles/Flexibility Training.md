@@ -209,7 +209,7 @@ Flexibility Training represents the systematic development of range of motion, j
 - **[[Strength Development]]** (Complementary): Strength and flexibility must develop in balance as excessive flexibility without corresponding strength creates joint instability while strength without flexibility limits technical options and increases injury risk.
 - **[[Energy Management System]]** (Complementary): Adequate flexibility reduces energy expenditure during technical execution as practitioners can achieve positions efficiently rather than forcing movements through restricted range of motion.
 - **[[Escape Fundamentals]]** (Extension): Flexibility training extends escape capabilities by enabling defensive movements that would be impossible with restricted mobility, particularly hip escapes and bridging mechanics.
-- **[[Guard Retention Concepts]]** (Extension): Enhanced flexibility extends guard retention capacity by allowing greater range in defensive frames, hip movement, and leg positioning that prevents guard passing.
+- **[[Guard Retention]]** (Extension): Enhanced flexibility extends guard retention capacity by allowing greater range in defensive frames, hip movement, and leg positioning that prevents guard passing.
 - **[[Drilling Methodology]]** (Complementary): Systematic drilling methodology provides the repetition volume necessary to develop and maintain functional flexibility while building movement patterns that utilize increased range of motion.
 - **[[Hip Movement]]** (Extension): Flexibility directly enables enhanced hip movement patterns that form the foundation of guard retention, escapes, and positional adjustments throughout BJJ.
 - **[[Bridge and Shrimp]]** (Extension): Adequate spinal and hip flexibility is prerequisite for effective bridging and shrimping mechanics that create escape opportunities and positional improvements.
@@ -372,7 +372,7 @@ Advanced stretching methodology utilizing contract-relax protocols where muscles
 - [[Triangle Control]] (Position) - Requires hamstring flexibility and hip mobility for proper positioning and finishing mechanics across multiple angles
 - [[Inverted Guard]] (Position) - Represents extreme flexibility application requiring exceptional spinal and shoulder mobility for safe and effective execution
 - [[Deep Half Guard]] (Position) - Benefits from hip and shoulder flexibility allowing deep positioning and effective control maintenance under pressure
-- [[Guard Retention Concepts]] (Principle) - Enhanced by flexibility training that enables greater defensive range in frames, hip movement, and leg positioning
+- [[Guard Retention]] (Principle) - Enhanced by flexibility training that enables greater defensive range in frames, hip movement, and leg positioning
 - [[Escape Fundamentals]] (Principle) - Directly supported by flexibility development enabling bridging, shrimping, and escape mechanics that require range of motion
 - [[Hip Movement]] (Principle) - Fundamentally dependent on hip flexibility for full range of guard retention and escape mechanics
 - [[Progressive Resistance Training]] (Principle) - Provides methodology framework that applies equally to flexibility development protocols

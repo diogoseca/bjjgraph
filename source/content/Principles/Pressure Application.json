@@ -109,7 +109,7 @@
       "description": "Forward pressure represents directional application of the broader pressure principles, emphasizing driving force that advances position while maintaining control during guard passing and top game sequences."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Pressure application serves as the mechanical foundation for many guard passing principles, where sustained pressure breaks down defensive structures and creates passing opportunities."
     },
@@ -350,7 +350,7 @@
       "relationship": "Guard passing methodology built entirely on pressure application principles to overcome defensive resistance"
     },
     {
-      "name": "Knee Slice Pass",
+      "name": "Knee Cut Pass",
       "content_type": "Transition",
       "relationship": "Dynamic passing technique that maintains continuous pressure throughout passing sequence"
     },

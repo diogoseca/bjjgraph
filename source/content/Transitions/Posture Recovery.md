@@ -342,7 +342,7 @@ Posture Recovery is a critical defensive technique within the guard passing syst
 - [[Frame Creation]] - Fundamental principle - essential for creating the space needed to recover
 - [[Hip Movement]] - Core mechanic - the primary movement pattern used in recovery
 - [[Defensive Posture]] - Related concept - maintaining proper posture to avoid breaks
-- [[Guard Retention Concepts]] - Opposing strategy - what the bottom player uses to prevent your recovery
+- [[Guard Retention]] - Opposing strategy - what the bottom player uses to prevent your recovery
 - [[Armbar from Guard]] - Common threat - submission often attempted when posture is broken
 - [[Triangle from Guard]] - Common threat - submission that can occur during recovery if not careful
 - [[Technical Stand-up]] - Alternative technique - another method to escape broken posture situations

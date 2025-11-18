@@ -62,7 +62,7 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
       "description": "Knee shield retention is a specific application of broader guard retention principles, applying general retention concepts to the specific context of half guard defensive structures"
     },
@@ -352,7 +352,7 @@
       "relationship": "Broader concept that encompasses knee shield as specific application of general framing principles"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "General retention framework that knee shield retention exemplifies in half guard contexts"
     },

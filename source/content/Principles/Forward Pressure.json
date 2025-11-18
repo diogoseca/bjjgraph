@@ -79,9 +79,9 @@
       "description": "While Forward Pressure focuses on offensive advancement, Frame Management represents the defensive counter-concept, making understanding both sides essential for recognizing when pressure will succeed versus when it will be neutralized by effective framing."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Pressure Passing",
       "relationship_type": "Extension",
-      "description": "Forward Pressure serves as a foundational element within Guard Passing Principles, with passing strategies often built around the systematic application of forward force to overcome guard retention systems."
+      "description": "Pressure Passing serves as a specific systematic application of Forward Pressure principles within guard passing contexts, building comprehensive passing systems around forward force application."
     },
     {
       "principle_name": "Control Point Hierarchy",
@@ -94,9 +94,9 @@
       "description": "Effective Forward Pressure requires strong Base Maintenance to prevent counter-sweeps and off-balancing, as advancing force without stable base creates vulnerability to defensive reversals."
     },
     {
-      "principle_name": "Pressure Passing",
+      "principle_name": "Pressure Passing Framework",
       "relationship_type": "Extension",
-      "description": "Pressure Passing represents a specific systematic application of Forward Pressure principles within guard passing contexts, building comprehensive passing systems around forward force application."
+      "description": "Pressure Passing Framework represents a comprehensive systematic application of Forward Pressure principles within guard passing contexts, building entire passing methodologies around forward force application."
     },
     {
       "principle_name": "Shoulder Pressure",
@@ -357,9 +357,9 @@
       "relationship": "Dominant position maintained and utilized through strategic Forward Pressure application"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Pressure Passing Framework",
       "content_type": "Principle",
-      "relationship": "Broader passing framework within which Forward Pressure serves as a foundational element"
+      "relationship": "Comprehensive passing framework within which Forward Pressure serves as a foundational element"
     },
     {
       "name": "Control Point Hierarchy",

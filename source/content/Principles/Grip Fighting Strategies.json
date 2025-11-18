@@ -76,12 +76,12 @@
       "description": "Once grips are established, posture breaking becomes possible. Grip fighting creates the foundation for posture breaking by securing the necessary control points to manipulate opponent structure."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Prerequisite",
       "description": "Effective guard passing requires winning the grip fight to prevent guard retention grips. Grip fighting strategies determine whether the passer can execute passing mechanics or must first overcome grip-based obstacles."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Prerequisite",
       "description": "Guard retention depends heavily on establishing retention grips while denying passing grips. The guard player's ability to win grip exchanges directly impacts their capacity to maintain guard position."
     },
@@ -360,12 +360,12 @@
       "relationship": "Broader concept that contextualizes grips as initial control points in the hierarchy of positional dominance"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Heavily dependent on grip fighting as guard retention requires establishing retention grips while denying passing grips"
     },
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Complementary concept where passing success depends significantly on winning the grip fight to neutralize guard retention"
     },

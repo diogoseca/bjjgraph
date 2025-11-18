@@ -346,7 +346,7 @@ The knee slice with underhook is a cornerstone technique in modern guard passing
 - [[Darce Choke]] - Submission available if opponent defends poorly
 - [[Pressure Passing]] - Conceptual framework this technique exemplifies
 - [[Underhook Control]] - Positional principle central to technique
-- [[Guard Passing Principles]] - Fundamental concepts applied in this technique
+- [[Guard Passing]] - Fundamental concepts applied in this technique
 
 
 </section>

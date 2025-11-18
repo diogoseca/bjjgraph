@@ -349,7 +349,7 @@ IBJJF competition preparation requires scenario-based positional sparring with s
 - [[Turtle]] (Position) - Defensive position that doesn't concede points but limits offensive options
 - [[Guard Pass]] (Transition) - 3-point scoring transition fundamental to IBJJF competition success
 - [[Toreando Pass]] (Transition) - High-percentage guard pass effective for scoring under time pressure
-- [[Knee Slice Pass]] (Transition) - Reliable passing technique that establishes clear 3-second stabilization criteria
+- [[Knee Cut Pass]] (Transition) - Reliable passing technique that establishes clear 3-second stabilization criteria
 - [[Stack Pass]] (Transition) - Pressure-based pass offering clear scoring criteria when stabilized
 - [[Back Take Generic]] (Transition) - 4-point scoring transition offering maximum point value in single movement
 - [[Double Leg Entry]] (Transition) - Wrestling-based takedown for 2-point opening exchanges
@@ -362,7 +362,7 @@ IBJJF competition preparation requires scenario-based positional sparring with s
 - [[Game Planning]] (Principle) - Pre-match preparation principle essential for IBJJF tournament success
 - [[Energy Management System]] (Principle) - Critical principle for multi-match tournament performance and pacing
 - [[Risk Assessment]] (Principle) - Decision-making principle for score-based tactical adjustments during matches
-- [[Guard Passing Principles]] (Principle) - Technical principles underlying 3-point scoring through guard passing
+- [[Guard Passing]] (Principle) - Technical principles underlying 3-point scoring through guard passing
 - [[Rear Naked Choke]] (Submission) - Highest-percentage submission from back control (4-point position)
 
 

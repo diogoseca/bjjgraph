@@ -58,7 +58,7 @@
       "description": "Speed Passing and Pressure Passing represent contrasting methodologies - pressure passing emphasizes slow, methodical control while speed passing relies on rapid movement and overwhelming pace. Many elite passers blend both approaches, using pressure passing to establish initial control before transitioning to speed passing sequences."
     },
     {
-      "principle_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Speed Passing applies fundamental guard passing principles at accelerated pace. The core concepts of controlling hips, managing distance, and preventing guard recovery remain constant, but the execution occurs at higher velocity with less margin for error."
     },
@@ -93,7 +93,7 @@
       "description": "Speed passing requires constant grip fighting to prevent the guard player from establishing control points that slow down the passer's circulation. Grip breaking must be integrated seamlessly into the movement patterns rather than treated as a separate phase."
     },
     {
-      "principle_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Complementary",
       "description": "Understanding guard retention principles helps speed passers anticipate and counter defensive reactions. Knowledge of how guard players attempt to retain position informs which angles to attack and when to transition between passing approaches."
     }
@@ -303,7 +303,7 @@
   ],
   "related_content": [
     {
-      "name": "Guard Passing Principles",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Parent concept - speed passing applies fundamental guard passing principles at accelerated pace"
     },
@@ -353,7 +353,7 @@
       "relationship": "Essential concept for recognizing when to apply explosive attacks during high-speed passing"
     },
     {
-      "name": "Guard Retention Concepts",
+      "name": "Guard Retention",
       "content_type": "Principle",
       "relationship": "Opposing concept - understanding retention principles helps identify vulnerabilities to exploit"
     }

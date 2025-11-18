@@ -4,7 +4,7 @@
 
 ---
 title: "Hand Fighting | BJJ Principle | BJJ Graph"
-description: "Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement. Expert insights from Danaher, Gordon Ryan, Eddie Bravo."
+description: "Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement patterns for guard retention, passing, and clinch dominance."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Hand Fighting",
-  "description": "Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement. Expert insights from Danaher, Gordon Ryan, Eddie Bravo.",
+  "description": "Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement patterns for guard retention, passing, and clinch dominance.",
   "url": "https://bjjgraph.org/Principles/Hand-Fighting",
   "isPartOf": {
     "@type": "WebSite",
@@ -208,13 +208,13 @@ Hand Fighting represents the dynamic battle for upper body positional control th
 - **[[Grip Fighting]]** (Complementary): Grip fighting focuses specifically on establishing and breaking grips, while hand fighting encompasses the broader strategic positioning and movement that precedes grip establishment. These concepts work synergistically with hand fighting creating the positional foundation for effective grip fighting.
 - **[[Control Point Hierarchy]]** (Extension): Hand fighting implements control point hierarchy principles specifically in the context of upper body control. Understanding control point hierarchy provides the strategic framework for prioritizing hand fighting objectives.
 - **[[Connection Breaking]]** (Complementary): Hand fighting creates the tactical positioning necessary for effective connection breaking, while connection breaking principles inform hand fighting strategy. These concepts reinforce each other in creating defensive control denial.
-- **[[Frame Creation]]** (Prerequisite): Effective framing requires successful hand fighting to establish proper hand positioning for frame structures. Hand fighting skills determine the ability to create and maintain defensive frames under pressure.
+- **[[Frame Management]]** (Prerequisite): Effective framing requires successful hand fighting to establish proper hand positioning for frame structures. Hand fighting skills determine the ability to create and maintain defensive frames under pressure.
 - **[[Posture Breaking]]** (Extension): Hand fighting provides the control pathways necessary for effective posture breaking. The hand positions established through hand fighting determine the mechanical advantage available for breaking opponent's structural integrity.
 - **[[Action and Reaction]]** (Complementary): Hand fighting creates reactions that can be exploited tactically. Understanding action-reaction dynamics allows hand fighting to be used as a setup mechanism for creating desired opponent responses.
 - **[[Collar Control]]** (Extension): Collar control represents a specific application of hand fighting principles for establishing dominant head and upper body control. Hand fighting success determines the ability to establish and maintain collar controls.
 - **[[Sleeve Control]]** (Extension): Sleeve control requires hand fighting competency to establish and maintain across various positions. Hand fighting determines timing and positioning for effective sleeve control establishment.
 - **[[Guard Retention]]** (Complementary): Guard retention relies heavily on hand fighting to prevent passing grips and maintain control over opponent's upper body. Hand fighting creates the first line of defense in guard retention systems.
-- **[[Guard Passing Principles]]** (Complementary): Successful guard passing requires winning hand fighting battles to establish passing grips while preventing guard player's retention controls. Hand fighting determines initial passing success.
+- **[[Guard Passing]]** (Complementary): Successful guard passing requires winning hand fighting battles to establish passing grips while preventing guard player's retention controls. Hand fighting determines initial passing success.
 - **[[Distance Creation]]** (Complementary): Hand fighting can be used to create and manage distance through strategic hand placement and frame establishment. These principles work together in defensive scenarios.
 - **[[Off-Balancing]]** (Extension): Hand fighting establishes the control points necessary for effective off-balancing techniques. Superior hand positioning creates mechanical advantages for disrupting opponent's balance.
 
@@ -375,7 +375,7 @@ Training focused on developing tactile sensitivity, reaction speed, and anticipa
 - [[Control Point Hierarchy]] (Principle) - Provides theoretical framework for prioritizing hand fighting objectives based on positional value
 - [[Connection Breaking]] (Principle) - Defensive application of hand fighting principles for denying opponent's control establishment
 - [[Posture Breaking]] (Principle) - Technical application requiring hand fighting success to establish controls necessary for posture disruption
-- [[Frame Creation]] (Principle) - Defensive structure requiring effective hand fighting to establish and maintain proper hand positioning
+- [[Frame Management]] (Principle) - Defensive structure requiring effective hand fighting to establish and maintain proper hand positioning
 - [[Collar Control]] (Principle) - Specific control type requiring hand fighting success to establish and maintain effectively
 - [[Sleeve Control]] (Principle) - Fundamental control requiring hand fighting competency for establishment in various positions
 - [[Standing Position]] (Position) - Primary context where hand fighting determines initial control establishment before engagement

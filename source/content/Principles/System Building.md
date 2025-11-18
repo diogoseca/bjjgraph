@@ -214,7 +214,7 @@ System Building represents the strategic framework for developing interconnected
 - **[[Submission Chains]]** (Complementary): Submission Chains form the finishing components of offensive systems, and System Building integrates these chains with positional progression to create complete attacking frameworks.
 - **[[Transition Sequences]]** (Complementary): Transition Sequences provide the connective tissue between system components, and System Building organizes these sequences into logical progressions that maximize efficiency and control.
 - **[[Guard Retention]]** (Complementary): Defensive systems built around Guard Retention principles provide the framework for bottom game systems, ensuring practitioners can maintain guard while executing offensive sequences.
-- **[[Guard Passing Principles]]** (Complementary): Top game systems integrate Guard Passing Principles as the entry mechanism, and System Building connects passing approaches with subsequent control and submission strategies.
+- **[[Guard Passing]]** (Complementary): Top game systems integrate Guard Passing principles as the entry mechanism, and System Building connects passing approaches with subsequent control and submission strategies.
 - **[[Energy Management System]]** (Complementary): Effective systems incorporate Energy Management principles to ensure sustainable offensive pressure, balancing high-intensity techniques with efficient control positions that allow recovery.
 - **[[Match Strategy]]** (Extension): Match Strategy applies System Building principles in competitive contexts, adapting pre-built systems to specific opponents and match conditions for optimal competitive performance.
 

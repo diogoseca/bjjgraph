@@ -218,7 +218,7 @@ Mastering this distinction requires a shift in learning methodology. Rather than
 - **[[Biomechanical Principles]]** (Prerequisite): Biomechanical principles represent foundational concepts that underlie all technique execution. Understanding body mechanics is essential for extracting conceptual knowledge from technical practice.
 - **[[Leverage Principles]]** (Prerequisite): Leverage is a core concept that operates across all positions and techniques. Understanding leverage principles helps practitioners recognize why techniques work and how to adapt them.
 - **[[Control Point Hierarchy]]** (Complementary): Control point hierarchy is a conceptual framework that informs countless techniques. Understanding this relationship demonstrates how concepts organize and prioritize technical applications.
-- **[[Guard Passing Principles]]** (Extension): Guard passing principles represent conceptual frameworks that unite diverse passing techniques. This exemplifies how concepts provide coherence to otherwise disparate technical knowledge.
+- **[[Guard Passing]]** (Extension): Guard passing principles represent conceptual frameworks that unite diverse passing techniques. This exemplifies how concepts provide coherence to otherwise disparate technical knowledge.
 
 
 </section>
@@ -248,7 +248,7 @@ Mastering this distinction requires a shift in learning methodology. Rather than
 
 **X-Guard**: X-guard techniques include specific sweeps and back takes, but concepts of elevation control, base removal, and angle manipulation inform all applications. Understanding these principles allows creative adaptation and combination.
 
-**Ashi Garami**: Leg entanglement positions involve specific submission techniques, but concepts of angle control, heel exposure, and defensive limitation operate across all variations. Conceptual understanding enables practitioners to adapt attacks based on opponent's defensive responses.
+**Inside Ashi-Garami**: Leg entanglement positions involve specific submission techniques, but concepts of angle control, heel exposure, and defensive limitation operate across all variations. Conceptual understanding enables practitioners to adapt attacks based on opponent's defensive responses.
 
 **North-South**: North-south position has specific techniques for control and submission, but concepts of shoulder pressure, head control, and escape prevention guide all applications. Understanding these principles allows practitioners to maintain effectiveness across different body types and situations.
 

@@ -349,7 +349,7 @@ Guard passing is the fundamental transitional skill that connects bottom positio
 - [[X Pass]] - Specific technique for X-guard and leg entanglements
 - [[Over-Under Pass]] - Specific pressure-passing technique
 - [[Headquarters Pass]] - Passing from headquarters position
-- [[Guard Passing Principles]] - Conceptual framework for passing
+- [[Guard Passing]] - Conceptual framework for passing
 - [[Pressure Passing]] - Passing style category
 - [[Side Control]] - Common ending position after successful pass
 - [[Combat Base]] - Common position for initiating passes from closed guard
