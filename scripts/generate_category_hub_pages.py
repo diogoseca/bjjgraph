@@ -275,22 +275,20 @@ class CategoryHubPageGenerator:
         # Add categorized items
         for cat, cat_items in sorted(categorized.items()):
             cat_title = cat.replace("-", " ").title()
-            content_lines.append(f"### {cat_title}\n")
-            
+            content_lines.append(f"## {cat_title}\n")
+
             for item in cat_items:
-                content_lines.append(
-                    f"**[[{item.name}]]** - {item.description}\n"
-                )
+                content_lines.append(f"### [[{item.name}]]\n")
+                content_lines.append(f"{item.description}\n")
             content_lines.append("")
-        
+
         # Add uncategorized items
         if uncategorized:
             if categorized:
-                content_lines.append("### Other Techniques\n")
+                content_lines.append("## Other Techniques\n")
             for item in uncategorized:
-                content_lines.append(
-                    f"**[[{item.name}]]** - {item.description}\n"
-                )
+                content_lines.append(f"### [[{item.name}]]\n")
+                content_lines.append(f"{item.description}\n")
         
         return "\n".join(content_lines)
     

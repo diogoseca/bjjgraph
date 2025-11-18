@@ -775,244 +775,484 @@ Master fundamental BJJ principles and concepts. Complete guide to leverage, posi
 
 
 
-**[[Action and Reaction]]** - Master creating deliberate opponent responses and exploiting predictable defensive commitments. Learn reaction-based attacking across all positions with systematic frameworks.
+### [[Action and Reaction]]
 
-**[[Angle Creation]]** - Master Angle Creation in BJJ. Learn strategic principles of generating off-axis positions, creating mechanical advantages, and exploiting structural vulnerabilities.
+Master creating deliberate opponent responses and exploiting predictable defensive commitments. Learn reaction-based attacking across all positions with systematic frameworks.
 
-**[[Armbar Escape]]** - Master armbar escape principles in BJJ. Learn prevention strategies, staged defense protocols, and emergency techniques across all positions with detailed biomechanics.
+### [[Angle Creation]]
 
-**[[Back Escape Series]]** - Master systematic back escape protocols in BJJ. Learn hand fighting, hook removal, space creation, and position recovery from back control. Progressive defense methodology.
+Master Angle Creation in BJJ. Learn strategic principles of generating off-axis positions, creating mechanical advantages, and exploiting structural vulnerabilities.
 
-**[[Base Maintenance]]** - Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included.
+### [[Armbar Escape]]
 
-**[[Biomechanical Principles]]** - Master biomechanical principles in BJJ. Learn leverage optimization, force vectors, structural mechanics across all positions. Physics-based approach to technique efficiency.
+Master armbar escape principles in BJJ. Learn prevention strategies, staged defense protocols, and emergency techniques across all positions with detailed biomechanics.
 
-**[[Bridge and Shrimp]]** - Master the foundational Bridge and Shrimp movements in BJJ. Learn hip elevation mechanics, lateral displacement, escape sequences, and cross-position applications.
+### [[Back Escape Series]]
 
-**[[Bridging Mechanics]]** - Master bridging mechanics in BJJ. Learn explosive hip elevation, weight transfer, and posterior chain activation. Essential escape foundation with cross-position application.
+Master systematic back escape protocols in BJJ. Learn hand fighting, hook removal, space creation, and position recovery from back control. Progressive defense methodology.
 
-**[[Butterfly Hook Retention]]** - Master butterfly hook retention fundamentals in BJJ. Learn hook placement, dynamic adjustment, elevation control, and cross-position applications for effective guard maintenance.
+### [[Base Maintenance]]
 
-**[[Cardio Conditioning]]** - Master cardiovascular conditioning for BJJ. Learn energy system development, sport-specific protocols, recovery optimization, and performance strategies for competition.
+Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included.
 
-**[[Chin Protection]]** - Master neck defense mechanics in BJJ. Learn protective posture principles, structural barriers against chokes, and cross-position defensive applications.
+### [[Biomechanical Principles]]
 
-**[[Collar Control]]** - Master collar grip mechanics in BJJ. Learn deep grip penetration, posture breaking, cross-position applications from guard to mount. Competition-proven control strategies.
+Master biomechanical principles in BJJ. Learn leverage optimization, force vectors, structural mechanics across all positions. Physics-based approach to technique efficiency.
 
-**[[Competition Mindset]]** - Master psychological preparation and mental skills for peak competitive BJJ performance. Learn arousal regulation, tactical decision-making, and adversity response patterns.
+### [[Bridge and Shrimp]]
 
-**[[Competition Training]]** - Master competition training in BJJ. Learn periodization, game planning, mental preparation, rule-specific drilling, and performance optimization for tournaments.
+Master the foundational Bridge and Shrimp movements in BJJ. Learn hip elevation mechanics, lateral displacement, escape sequences, and cross-position applications.
 
-**[[Concepts vs Techniques]]** - Master the critical distinction between BJJ concepts and techniques. Learn how principles guide execution, enable adaptation, and develop strategic thinking.
+### [[Bridging Mechanics]]
 
-**[[Connection Breaking]]** - Master Connection Breaking in BJJ. Learn to identify control points, break grips systematically, and create escape opportunities across all positions with proven techniques.
+Master bridging mechanics in BJJ. Learn explosive hip elevation, weight transfer, and posterior chain activation. Essential escape foundation with cross-position application.
 
-**[[Connection Principles]]** - Master connection principles in BJJ. Learn grip management, frame construction, and strategic control through systematic connection hierarchy and tactical application.
+### [[Butterfly Hook Retention]]
 
-**[[Control Maintenance]]** - Master control maintenance in BJJ. Learn pressure modulation, connection reinforcement, and dynamic positional adjustment across all dominant positions.
+Master butterfly hook retention fundamentals in BJJ. Learn hook placement, dynamic adjustment, elevation control, and cross-position applications for effective guard maintenance.
 
-**[[Control Point Hierarchy]]** - Master control point hierarchy in BJJ. Learn systematic control acquisition, position-specific priorities, and progressive dominance building across all positions.
+### [[Cardio Conditioning]]
 
-**[[Creating Reactions]]** - Master proactive reaction generation in BJJ. Learn threat presentation, defensive exploitation, and offensive initiative through systematic attack combinations.
+Master cardiovascular conditioning for BJJ. Learn energy system development, sport-specific protocols, recovery optimization, and performance strategies for competition.
 
-**[[Creating Space]]** - Master Creating Space in BJJ with coordinated frame and hip mechanics. Learn progressive space generation, optimal timing, directional selection across all bottom positions.
+### [[Chin Protection]]
 
-**[[Cross Face Control]]** - Master cross face control mechanics in BJJ. Learn forearm positioning, pressure application, and head control across multiple positions for dominant top game.
+Master neck defense mechanics in BJJ. Learn protective posture principles, structural barriers against chokes, and cross-position defensive applications.
 
-**[[Dealing with Pressure]]** - Master pressure defense in BJJ with comprehensive strategies for frame maintenance, breathing techniques, energy conservation, and maintaining composure under heavy top control.
+### [[Collar Control]]
 
-**[[Defense Technique]]** - Master defensive technique in BJJ with systematic protection methods. Learn defensive mechanics, escape principles, and survival strategies for all major positions.
+Master collar grip mechanics in BJJ. Learn deep grip penetration, posture breaking, cross-position applications from guard to mount. Competition-proven control strategies.
 
-**[[Defensive Concepts]]** - Master defensive concepts in BJJ with systematic frameworks for survival, escape, and position recovery. Learn threat assessment, energy management, and staged progression.
+### [[Competition Mindset]]
 
-**[[Defensive Frame]]** - Master defensive framing in BJJ. Learn skeletal alignment, pressure management, multi-point frames, and cross-position defense applications.
+Master psychological preparation and mental skills for peak competitive BJJ performance. Learn arousal regulation, tactical decision-making, and adversity response patterns.
 
-**[[Defensive Framing]]** - Master defensive framing in BJJ. Learn elbow structure, connection points, pressure redirection, and frame recovery across all bottom positions.
+### [[Competition Training]]
 
-**[[Defensive Posture]]** - Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning to maximize defense while minimizing energy expenditure.
+Master competition training in BJJ. Learn periodization, game planning, mental preparation, rule-specific drilling, and performance optimization for tournaments.
 
-**[[Defensive Strategy]]** - Master defensive strategy in BJJ through systematic opponent analysis, tactical planning, and adaptive execution. Learn threat prioritization and counter-attack integration.
+### [[Concepts vs Techniques]]
 
-**[[Dilemma Creation]]** - Master Dilemma Creation in BJJ. Learn simultaneous multi-threat construction, binary defensive forcing, and systematic finishing sequences across all positions.
+Master the critical distinction between BJJ concepts and techniques. Learn how principles guide execution, enable adaptation, and develop strategic thinking.
 
-**[[Distance Creation]]** - Master distance creation in BJJ with progressive spatial separation techniques. Learn frame mechanics, hip escape timing, and defensive space generation across all positions.
+### [[Connection Breaking]]
 
-**[[Double Pants Grip]]** - Master double pants grip control in BJJ. Learn bilateral leg control mechanics, distance management, and sweep setups. Comprehensive cross-position applications included.
+Master Connection Breaking in BJJ. Learn to identify control points, break grips systematically, and create escape opportunities across all positions with proven techniques.
 
-**[[Drilling Methodology]]** - Master drilling methodology in BJJ. Learn systematic practice principles, progressive resistance structures, repetition protocols, and skill development frameworks.
+### [[Connection Principles]]
 
-**[[Energy Conservation]]** - Master energy conservation in BJJ. Learn strategic resource management, efficient movement patterns, selective resistance, and tactical concessions for sustained performance.
+Master connection principles in BJJ. Learn grip management, frame construction, and strategic control through systematic connection hierarchy and tactical application.
 
-**[[Energy Management System]]** - Master strategic energy management in BJJ. Learn conservation tactics, pacing principles, and fatigue exploitation across positions for sustainable competitive performance.
+### [[Control Maintenance]]
 
-**[[Escape Fundamentals]]** - Master Escape Fundamentals in BJJ. Learn systematic framing, space creation, angle generation, and position recovery across all defensive scenarios.
+Master control maintenance in BJJ. Learn pressure modulation, connection reinforcement, and dynamic positional adjustment across all dominant positions.
 
-**[[Escape Hierarchy]]** - Master systematic escape prioritization in BJJ. Learn to assess positional danger, select high-percentage escapes, manage energy, and build improvements.
+### [[Control Point Hierarchy]]
 
-**[[Explosive Power]]** - Master explosive power in BJJ. Learn force production, rate of development, velocity optimization across positions for sweeps, escapes, and takedowns.
+Master control point hierarchy in BJJ. Learn systematic control acquisition, position-specific priorities, and progressive dominance building across all positions.
 
-**[[Flexibility Training]]** - Master flexibility development for BJJ. Learn progressive protocols for hip mobility, hamstring elasticity, injury prevention, and position-specific range of motion enhancement.
+### [[Creating Reactions]]
 
-**[[Flow Rolling]]** - Master Flow Rolling in BJJ. Learn cooperative training principles, tempo calibration, movement exploration, and technical development through reduced-intensity practice.
+Master proactive reaction generation in BJJ. Learn threat presentation, defensive exploitation, and offensive initiative through systematic attack combinations.
 
-**[[Forward Pressure]]** - Master Forward Pressure in BJJ. Learn strategic force application, weight distribution, and advancement principles across positions. Technical analysis included.
+### [[Creating Space]]
 
-**[[Frame Creation]]** - Master Frame Creation in BJJ. Learn skeletal alignment, force distribution, and structural barriers to manage pressure, create space, and escape bad positions effectively.
+Master Creating Space in BJJ with coordinated frame and hip mechanics. Learn progressive space generation, optimal timing, directional selection across all bottom positions.
 
-**[[Frame Management]]** - Master Frame Management in BJJ. Learn skeletal framing, pressure redirection, dynamic adaptation across all positions. Build efficient defensive structure.
+### [[Cross Face Control]]
 
-**[[Game Planning]]** - Master strategic game planning in BJJ. Learn pre-match preparation, opponent analysis, technique selection, energy allocation, and tactical execution for competition.
+Master cross face control mechanics in BJJ. Learn forearm positioning, pressure application, and head control across multiple positions for dominant top game.
 
-**[[Granby Roll Concept]]** - Learn the Granby Roll movement concept in BJJ. Master rotational escape mechanics, directional control, guard recovery techniques with detailed progression frameworks.
+### [[Dealing with Pressure]]
 
-**[[Grip Advantage]]** - Master grip advantage in BJJ. Learn strategic grip acquisition, denial patterns, and asymmetric control creation across all positions. Complete guide included.
+Master pressure defense in BJJ with comprehensive strategies for frame maintenance, breathing techniques, energy conservation, and maintaining composure under heavy top control.
 
-**[[Grip Break]]** - Master grip breaking principles in BJJ. Learn mechanical advantages, timing strategies, and energy-efficient breaking methods across all positions for effective control denial.
+### [[Defense Technique]]
 
-**[[Grip Breaking]]** - Master grip breaking mechanics in BJJ. Learn biomechanical principles, strategic timing, and systematic breaking sequences across all positions with detailed technical analysis.
+Master defensive technique in BJJ with systematic protection methods. Learn defensive mechanics, escape principles, and survival strategies for all major positions.
 
-**[[Grip Fighting]]** - Master grip fighting in BJJ. Learn strategic hand engagement, grip hierarchies, breaking mechanics, and prevention tactics across all positions and transitions.
+### [[Defensive Concepts]]
 
-**[[Grip Fighting Strategies]]** - Master grip fighting strategies in BJJ. Learn grip hierarchy, breaking mechanics, tactical sequencing across all positions. Systematic approach to hand fighting.
+Master defensive concepts in BJJ with systematic frameworks for survival, escape, and position recovery. Learn threat assessment, energy management, and staged progression.
 
-**[[Grip Strategy]]** - Master grip strategy fundamentals in BJJ. Learn systematic control hierarchies, grip fighting tactics, and positional dominance across gi and no-gi contexts.
+### [[Defensive Frame]]
 
-**[[Guard Passing]]** - Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types.
+Master defensive framing in BJJ. Learn skeletal alignment, pressure management, multi-point frames, and cross-position defense applications.
 
-**[[Guard Recovery]]** - Master Guard Recovery principles in BJJ. Learn defensive framing, systematic re-guarding sequences, hip mobility fundamentals, and space creation for recovering guard after passes.
+### [[Defensive Framing]]
 
-**[[Guard Retention]]** - Master guard retention fundamentals in BJJ. Learn frame management, hip mobility, space creation, and defensive sequencing to maintain guard under pressure across all positions.
+Master defensive framing in BJJ. Learn elbow structure, connection points, pressure redirection, and frame recovery across all bottom positions.
 
-**[[Hand Fighting]]** - Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement patterns for guard retention, passing, and clinch dominance.
+### [[Defensive Posture]]
 
-**[[Hand Fighting from Back]]** - Master defensive hand fighting from back control in BJJ. Learn wrist control mechanics, chin protection strategies, and survival frameworks to prevent rear naked chokes.
+Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning to maximize defense while minimizing energy expenditure.
 
-**[[Head Control]]** - Master Head Control in BJJ. Learn biomechanical principles, control hierarchy, cross-position applications, and decision frameworks with expert analysis.
+### [[Defensive Strategy]]
 
-**[[Hip Elevation]]** - Master hip elevation mechanics in BJJ. Learn biomechanical principles, timing recognition, and cross-position applications for escapes, sweeps, and defensive movements.
+Master defensive strategy in BJJ through systematic opponent analysis, tactical planning, and adaptive execution. Learn threat prioritization and counter-attack integration.
 
-**[[Hip Escape Mechanics]]** - Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, and rotation for space creation across all bottom positions with expert insights.
+### [[Dilemma Creation]]
 
-**[[Hip Movement]]** - Master hip movement fundamentals in BJJ. Learn pelvic mobility, escape mechanics, space creation, and cross-position applications for defensive and offensive scenarios.
+Master Dilemma Creation in BJJ. Learn simultaneous multi-threat construction, binary defensive forcing, and systematic finishing sequences across all positions.
 
-**[[Hip Pressure]]** - Master hip pressure mechanics in BJJ. Learn weight distribution, pressure vectors, position-specific applications, and control systems across top positions.
+### [[Distance Creation]]
 
-**[[Knee Shield Retention]]** - Master knee shield retention in BJJ half guard. Learn frame maintenance, dynamic angle adjustment, pressure distribution, and systematic retention framework.
+Master distance creation in BJJ with progressive spatial separation techniques. Learn frame mechanics, hip escape timing, and defensive space generation across all positions.
 
-**[[Knee on Belly Escape]]** - Master knee on belly escape mechanics in BJJ. Learn frame creation, hip escape timing, base disruption, and systematic guard recovery pathways for this high-pressure position.
+### [[Double Pants Grip]]
 
-**[[Leg Entanglement]]** - Master Leg Entanglement principles in BJJ. Learn systematic lower body control, position hierarchy, entry mechanics, and transitional flow between configurations.
+Master double pants grip control in BJJ. Learn bilateral leg control mechanics, distance management, and sweep setups. Comprehensive cross-position applications included.
 
-**[[Leverage Principles]]** - Master fundamental leverage mechanics in BJJ. Learn fulcrum positioning, force multiplication, and mechanical advantage across all positions for maximum efficiency.
+### [[Drilling Methodology]]
 
-**[[Long Step Passing]]** - Master Long Step Passing principles in BJJ. Learn deep step mechanics, hip control, pressure application, and systematic guard passing across multiple guard types.
+Master drilling methodology in BJJ. Learn systematic practice principles, progressive resistance structures, repetition protocols, and skill development frameworks.
 
-**[[Match Preparation]]** - Master match preparation in BJJ. Learn systematic preparation protocols, timeline management, opponent analysis, tactical rehearsal, and competition peaking strategies.
+### [[Energy Conservation]]
 
-**[[Match Strategy]]** - Master match strategy in BJJ. Learn tactical planning, score management, energy pacing, opponent analysis. Develop adaptive decision-making frameworks for competition success.
+Master energy conservation in BJJ. Learn strategic resource management, efficient movement patterns, selective resistance, and tactical concessions for sustained performance.
 
-**[[Maximum Efficiency Principle]]** - Master the principle of maximum efficiency with minimum effort in BJJ. Learn leverage mechanics, force redirection, and energy conservation for sustainable technique execution.
+### [[Energy Management System]]
 
-**[[Mount Escape Hierarchy]]** - Master mount escape decision-making in BJJ. Learn systematic frameworks for prioritizing escapes, frame construction, and energy-efficient defense across all mount variations.
+Master strategic energy management in BJJ. Learn conservation tactics, pacing principles, and fatigue exploitation across positions for sustainable competitive performance.
 
-**[[Mount Escape Series]]** - Master systematic mount escape sequences in BJJ. Learn frame mechanics, bridge-and-roll techniques, elbow escapes, and defensive progressions across all mount variations.
+### [[Escape Fundamentals]]
 
-**[[Off-Balancing]]** - Master off-balancing (kuzushi) in BJJ. Learn directional pressure application, base disruption, timing recognition across all positions. Fundamental sweep prerequisite.
+Master Escape Fundamentals in BJJ. Learn systematic framing, space creation, angle generation, and position recovery across all defensive scenarios.
 
-**[[Offensive Combinations]]** - Master systematic attack chains in BJJ. Learn reaction-based combinations, multi-dimensional pressure, and position-submission integration for finishing effectiveness.
+### [[Escape Hierarchy]]
 
-**[[Offensive vs Defensive Mindset]]** - Master strategic mindset selection in BJJ. Learn when to attack vs defend, position-based decision-making, competition mindset shifts, and expert tactical frameworks.
+Master systematic escape prioritization in BJJ. Learn to assess positional danger, select high-percentage escapes, manage energy, and build improvements.
 
-**[[Pacing]]** - Master tempo control and energy management in BJJ. Learn to regulate match pace, exploit opponent fatigue, and maintain technical output across all positions.
+### [[Explosive Power]]
 
-**[[Passing Counter System]]** - Master systematic guard passing defense in BJJ. Learn defensive frameworks, counter-attack timing, grip fighting strategies, and position recovery methods.
+Master explosive power in BJJ. Learn force production, rate of development, velocity optimization across positions for sweeps, escapes, and takedowns.
 
-**[[Pin Escape Methodology]]** - Master systematic pin escape methodology in BJJ. Learn hierarchical priorities, universal framing structures, and incremental positional improvement across all bottom positions.
+### [[Flexibility Training]]
 
-**[[Position Chains]]** - Master position chains in BJJ. Learn systematic progression through 2-4 positions, strategic planning, and multi-step sequences for dominant control.
+Master flexibility development for BJJ. Learn progressive protocols for hip mobility, hamstring elasticity, injury prevention, and position-specific range of motion enhancement.
 
-**[[Position Transitions]]** - Master position transitions in BJJ - understand mechanics and strategies of moving between positional states. Learn transition types, success factors, and hierarchy navigation.
+### [[Flow Rolling]]
 
-**[[Position-Over-Submission Approach]]** - Master the Position-Over-Submission philosophy in BJJ. Learn strategic dominance through systematic positional advancement. Build control hierarchy before finishing.
+Master Flow Rolling in BJJ. Learn cooperative training principles, tempo calibration, movement exploration, and technical development through reduced-intensity practice.
 
-**[[Positional Hierarchy]]** - Master positional hierarchy in BJJ. Learn strategic position ranking by control, submission potential, and competitive value. Build systematic decision-making framework.
+### [[Forward Pressure]]
 
-**[[Positional Sparring]]** - Master Positional Sparring in BJJ. Learn structured resistance training, position-specific skill development, reset protocols, and asymmetric goal structures.
+Master Forward Pressure in BJJ. Learn strategic force application, weight distribution, and advancement principles across positions. Technical analysis included.
 
-**[[Posture Breaking]]** - Master posture breaking in BJJ. Learn systematic methods to disrupt opponent's spinal alignment from guard. Biomechanical principles, timing, and cross-position applications.
+### [[Frame Creation]]
 
-**[[Posture Up]]** - Master postural recovery in BJJ guard positions. Learn systematic elevation techniques, grip breaking strategies, and defensive structure fundamentals.
+Master Frame Creation in BJJ. Learn skeletal alignment, force distribution, and structural barriers to manage pressure, create space, and escape bad positions effectively.
 
-**[[Pressure Application]]** - Master strategic pressure application in BJJ. Learn bodyweight distribution, connection management, and force vectors to create control across all positions.
+### [[Frame Management]]
 
-**[[Pressure Passing]]** - Master pressure passing fundamentals in BJJ. Learn weight distribution, flattening mechanics, systematic passing sequences, and position control for all skill levels.
+Master Frame Management in BJJ. Learn skeletal framing, pressure redirection, dynamic adaptation across all positions. Build efficient defensive structure.
 
-**[[Pressure Passing Framework]]** - Master pressure passing methodology in BJJ. Learn systematic guard passing through sustained pressure, weight distribution, connection control, and incremental advancement.
+### [[Game Planning]]
 
-**[[Pressure Reduction]]** - Master pressure reduction in BJJ with systematic defensive techniques. Learn frame mechanics, space creation, timing, and escape strategies for all bottom positions.
+Master strategic game planning in BJJ. Learn pre-match preparation, opponent analysis, technique selection, energy allocation, and tactical execution for competition.
 
-**[[Progressive Resistance Training]]** - Master Progressive Resistance Training in BJJ. Learn systematic skill development, controlled intensity progression, resistance calibration across drilling to live sparring.
+### [[Granby Roll Concept]]
 
-**[[RNC Defense]]** - Master defensive strategies against the rear naked choke in BJJ. Learn hand fighting, chin protection, grip breaking, and emergency escape protocols.
+Learn the Granby Roll movement concept in BJJ. Master rotational escape mechanics, directional control, guard recovery techniques with detailed progression frameworks.
 
-**[[Risk Assessment]]** - Master strategic decision-making in BJJ through comprehensive risk assessment. Learn position evaluation, success probability estimation, and context-based strategy.
+### [[Grip Advantage]]
 
-**[[Shoulder Pressure]]** - Master shoulder pressure control in BJJ. Learn weight distribution, skeletal alignment, pressure vectors across positions for efficient pinning and control.
+Master grip advantage in BJJ. Learn strategic grip acquisition, denial patterns, and asymmetric control creation across all positions. Complete guide included.
 
-**[[Shrimping]]** - Master shrimping in BJJ. Learn hip escape mechanics, space creation principles, defensive movement patterns, and timing across all bottom positions for effective escapes.
+### [[Grip Break]]
 
-**[[Side Control Defensive Framework]]** - Master Side Control Defensive Framework in BJJ. Learn systematic escape principles, frame management, hip escape timing, and hierarchical recovery strategies for dominant pins.
+Master grip breaking principles in BJJ. Learn mechanical advantages, timing strategies, and energy-efficient breaking methods across all positions for effective control denial.
 
-**[[Side Control Escapes]]** - Master systematic side control escape frameworks in BJJ. Learn frame creation, hip mechanics, space generation, and progressive escape sequences under pressure.
+### [[Grip Breaking]]
 
-**[[Single Leg Variations]]** - Master Single Leg Variations in BJJ - comprehensive guide to high crotch finishes, outside trips, inside trips, running the pipe, and dump variations.
+Master grip breaking mechanics in BJJ. Learn biomechanical principles, strategic timing, and systematic breaking sequences across all positions with detailed technical analysis.
 
-**[[Sleeve Control]]** - Master sleeve control in BJJ. Learn grip mechanics, posture breaking, distance management across guard systems. Strategic framework for arm manipulation.
+### [[Grip Fighting]]
 
-**[[Space Creation]]** - Master Space Creation in BJJ. Learn frame mechanics, hip escape principles, bridging techniques, and defensive applications across positions with proven training methods.
+Master grip fighting in BJJ. Learn strategic hand engagement, grip hierarchies, breaking mechanics, and prevention tactics across all positions and transitions.
 
-**[[Space Generation]]** - Master Space Generation in BJJ. Learn frame mechanics, hip escape techniques, defensive positioning to create distance. Essential for escapes and guard retention.
+### [[Grip Fighting Strategies]]
 
-**[[Space Management]]** - Master Space Management in BJJ. Learn frame construction, hip escape mechanics, pressure recognition across all positions. Defensive and offensive applications.
+Master grip fighting strategies in BJJ. Learn grip hierarchy, breaking mechanics, tactical sequencing across all positions. Systematic approach to hand fighting.
 
-**[[Speed Passing]]** - Master Speed Passing in BJJ. Learn rapid guard passing through explosive movement, angle multiplication, and overwhelming pace. Includes footwork mechanics and timing strategies.
+### [[Grip Strategy]]
 
-**[[Sprawl Defense]]** - Master sprawl defense mechanics in Brazilian Jiu-Jitsu. Learn takedown defense principles, hip positioning, weight distribution, and counter-offense timing.
+Master grip strategy fundamentals in BJJ. Learn systematic control hierarchies, grip fighting tactics, and positional dominance across gi and no-gi contexts.
 
-**[[Strength Development]]** - Master strength development for BJJ. Learn functional power training, grip endurance, position-specific strength applications, and expert programming strategies.
+### [[Guard Passing]]
 
-**[[Submission Chains]]** - Master submission chains in BJJ. Learn systematic attack sequences, transition logic between submissions, and chain-based offensive systems. Includes training methods.
+Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types.
 
-**[[Submission Control Position]]** - Master submission control positioning in BJJ. Learn control maintenance, escape prevention, finishing mechanics across all major submissions. Technical frameworks included.
+### [[Guard Recovery]]
 
-**[[Submission Defense]]** - Master submission defense in BJJ. Learn escape hierarchies, frame creation, space management, and prevention strategies. Comprehensive defense principles included.
+Master Guard Recovery principles in BJJ. Learn defensive framing, systematic re-guarding sequences, hip mobility fundamentals, and space creation for recovering guard after passes.
 
-**[[Submission Defense Concepts]]** - Master submission defense in BJJ. Learn escape hierarchies, frame creation, pressure management, and systematic defensive strategies. Core concepts for all levels.
+### [[Guard Retention]]
 
-**[[Submission Position]]** - Master Submission Position principles in BJJ. Learn control hierarchy, entry mechanics, defensive nullification across all submissions. Strategic framework included.
+Master guard retention fundamentals in BJJ. Learn frame management, hip mobility, space creation, and defensive sequencing to maintain guard under pressure across all positions.
 
-**[[Sweep Mechanics]]** - Master sweep mechanics in BJJ. Learn off-balancing principles, leverage points, timing fundamentals, and success rates across skill levels. Technical framework included.
+### [[Hand Fighting]]
 
-**[[System Building]]** - Master System Building in BJJ. Learn to develop interconnected techniques, create strategic frameworks, and build cohesive game plans. Expert methodologies included.
+Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement patterns for guard retention, passing, and clinch dominance.
 
-**[[Takedown Entry]]** - Master takedown entry mechanics in BJJ. Learn grip fighting, level changes, off-balancing, timing, and distance management for successful takedowns.
+### [[Hand Fighting from Back]]
 
-**[[Technical Standup Concept]]** - Master the Technical Standup in BJJ. Learn base creation, hip positioning, frame mechanics, and safe transitions from ground to standing. Essential defensive skill.
+Master defensive hand fighting from back control in BJJ. Learn wrist control mechanics, chin protection strategies, and survival frameworks to prevent rear naked chokes.
 
-**[[Timing Sweeps]]** - Master sweep timing in BJJ. Learn reactive sweeps, off-balancing windows, and momentum exploitation. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Head Control]]
 
-**[[Timing and Rhythm]]** - Master timing and rhythm in BJJ. Learn to read opponent reactions, capitalize on momentum shifts, and coordinate technique execution. Expert training methods included.
+Master Head Control in BJJ. Learn biomechanical principles, control hierarchy, cross-position applications, and decision frameworks with expert analysis.
 
-**[[Top Half Guard]]** - Master Top Half Guard control in BJJ. Learn pressure distribution, crossface dominance, passing sequences across all half guard variations. Complete strategic framework included.
+### [[Hip Elevation]]
 
-**[[Transition Management]]** - Master transition management in BJJ. Learn timing recognition, risk assessment, and decision frameworks for controlling position changes. Build systematic progression chains.
+Master hip elevation mechanics in BJJ. Learn biomechanical principles, timing recognition, and cross-position applications for escapes, sweeps, and defensive movements.
 
-**[[Transition Sequences]]** - Master Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions with expert insights.
+### [[Hip Escape Mechanics]]
 
-**[[Underhook Defense]]** - Master underhook defense principles in BJJ. Learn prevention strategies, neutralization techniques, and recovery protocols across all positions.
+Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, and rotation for space creation across all bottom positions with expert insights.
 
-**[[Weight Distribution]]** - Master strategic weight allocation in BJJ top positions. Learn biomechanical pressure principles, dynamic distribution adjustment, and energy-efficient control.
+### [[Hip Movement]]
 
-**[[Whizzer Control]]** - Master Whizzer Control in BJJ. Learn overhook mechanics, pressure application, counter-attacking principles. Cross-position applications from half guard to standing included.
+Master hip movement fundamentals in BJJ. Learn pelvic mobility, escape mechanics, space creation, and cross-position applications for defensive and offensive scenarios.
+
+### [[Hip Pressure]]
+
+Master hip pressure mechanics in BJJ. Learn weight distribution, pressure vectors, position-specific applications, and control systems across top positions.
+
+### [[Knee Shield Retention]]
+
+Master knee shield retention in BJJ half guard. Learn frame maintenance, dynamic angle adjustment, pressure distribution, and systematic retention framework.
+
+### [[Knee on Belly Escape]]
+
+Master knee on belly escape mechanics in BJJ. Learn frame creation, hip escape timing, base disruption, and systematic guard recovery pathways for this high-pressure position.
+
+### [[Leg Entanglement]]
+
+Master Leg Entanglement principles in BJJ. Learn systematic lower body control, position hierarchy, entry mechanics, and transitional flow between configurations.
+
+### [[Leverage Principles]]
+
+Master fundamental leverage mechanics in BJJ. Learn fulcrum positioning, force multiplication, and mechanical advantage across all positions for maximum efficiency.
+
+### [[Long Step Passing]]
+
+Master Long Step Passing principles in BJJ. Learn deep step mechanics, hip control, pressure application, and systematic guard passing across multiple guard types.
+
+### [[Match Preparation]]
+
+Master match preparation in BJJ. Learn systematic preparation protocols, timeline management, opponent analysis, tactical rehearsal, and competition peaking strategies.
+
+### [[Match Strategy]]
+
+Master match strategy in BJJ. Learn tactical planning, score management, energy pacing, opponent analysis. Develop adaptive decision-making frameworks for competition success.
+
+### [[Maximum Efficiency Principle]]
+
+Master the principle of maximum efficiency with minimum effort in BJJ. Learn leverage mechanics, force redirection, and energy conservation for sustainable technique execution.
+
+### [[Mount Escape Hierarchy]]
+
+Master mount escape decision-making in BJJ. Learn systematic frameworks for prioritizing escapes, frame construction, and energy-efficient defense across all mount variations.
+
+### [[Mount Escape Series]]
+
+Master systematic mount escape sequences in BJJ. Learn frame mechanics, bridge-and-roll techniques, elbow escapes, and defensive progressions across all mount variations.
+
+### [[Off-Balancing]]
+
+Master off-balancing (kuzushi) in BJJ. Learn directional pressure application, base disruption, timing recognition across all positions. Fundamental sweep prerequisite.
+
+### [[Offensive Combinations]]
+
+Master systematic attack chains in BJJ. Learn reaction-based combinations, multi-dimensional pressure, and position-submission integration for finishing effectiveness.
+
+### [[Offensive vs Defensive Mindset]]
+
+Master strategic mindset selection in BJJ. Learn when to attack vs defend, position-based decision-making, competition mindset shifts, and expert tactical frameworks.
+
+### [[Pacing]]
+
+Master tempo control and energy management in BJJ. Learn to regulate match pace, exploit opponent fatigue, and maintain technical output across all positions.
+
+### [[Passing Counter System]]
+
+Master systematic guard passing defense in BJJ. Learn defensive frameworks, counter-attack timing, grip fighting strategies, and position recovery methods.
+
+### [[Pin Escape Methodology]]
+
+Master systematic pin escape methodology in BJJ. Learn hierarchical priorities, universal framing structures, and incremental positional improvement across all bottom positions.
+
+### [[Position Chains]]
+
+Master position chains in BJJ. Learn systematic progression through 2-4 positions, strategic planning, and multi-step sequences for dominant control.
+
+### [[Position Transitions]]
+
+Master position transitions in BJJ - understand mechanics and strategies of moving between positional states. Learn transition types, success factors, and hierarchy navigation.
+
+### [[Position-Over-Submission Approach]]
+
+Master the Position-Over-Submission philosophy in BJJ. Learn strategic dominance through systematic positional advancement. Build control hierarchy before finishing.
+
+### [[Positional Hierarchy]]
+
+Master positional hierarchy in BJJ. Learn strategic position ranking by control, submission potential, and competitive value. Build systematic decision-making framework.
+
+### [[Positional Sparring]]
+
+Master Positional Sparring in BJJ. Learn structured resistance training, position-specific skill development, reset protocols, and asymmetric goal structures.
+
+### [[Posture Breaking]]
+
+Master posture breaking in BJJ. Learn systematic methods to disrupt opponent's spinal alignment from guard. Biomechanical principles, timing, and cross-position applications.
+
+### [[Posture Up]]
+
+Master postural recovery in BJJ guard positions. Learn systematic elevation techniques, grip breaking strategies, and defensive structure fundamentals.
+
+### [[Pressure Application]]
+
+Master strategic pressure application in BJJ. Learn bodyweight distribution, connection management, and force vectors to create control across all positions.
+
+### [[Pressure Passing]]
+
+Master pressure passing fundamentals in BJJ. Learn weight distribution, flattening mechanics, systematic passing sequences, and position control for all skill levels.
+
+### [[Pressure Passing Framework]]
+
+Master pressure passing methodology in BJJ. Learn systematic guard passing through sustained pressure, weight distribution, connection control, and incremental advancement.
+
+### [[Pressure Reduction]]
+
+Master pressure reduction in BJJ with systematic defensive techniques. Learn frame mechanics, space creation, timing, and escape strategies for all bottom positions.
+
+### [[Progressive Resistance Training]]
+
+Master Progressive Resistance Training in BJJ. Learn systematic skill development, controlled intensity progression, resistance calibration across drilling to live sparring.
+
+### [[RNC Defense]]
+
+Master defensive strategies against the rear naked choke in BJJ. Learn hand fighting, chin protection, grip breaking, and emergency escape protocols.
+
+### [[Risk Assessment]]
+
+Master strategic decision-making in BJJ through comprehensive risk assessment. Learn position evaluation, success probability estimation, and context-based strategy.
+
+### [[Shoulder Pressure]]
+
+Master shoulder pressure control in BJJ. Learn weight distribution, skeletal alignment, pressure vectors across positions for efficient pinning and control.
+
+### [[Shrimping]]
+
+Master shrimping in BJJ. Learn hip escape mechanics, space creation principles, defensive movement patterns, and timing across all bottom positions for effective escapes.
+
+### [[Side Control Defensive Framework]]
+
+Master Side Control Defensive Framework in BJJ. Learn systematic escape principles, frame management, hip escape timing, and hierarchical recovery strategies for dominant pins.
+
+### [[Side Control Escapes]]
+
+Master systematic side control escape frameworks in BJJ. Learn frame creation, hip mechanics, space generation, and progressive escape sequences under pressure.
+
+### [[Single Leg Variations]]
+
+Master Single Leg Variations in BJJ - comprehensive guide to high crotch finishes, outside trips, inside trips, running the pipe, and dump variations.
+
+### [[Sleeve Control]]
+
+Master sleeve control in BJJ. Learn grip mechanics, posture breaking, distance management across guard systems. Strategic framework for arm manipulation.
+
+### [[Space Creation]]
+
+Master Space Creation in BJJ. Learn frame mechanics, hip escape principles, bridging techniques, and defensive applications across positions with proven training methods.
+
+### [[Space Generation]]
+
+Master Space Generation in BJJ. Learn frame mechanics, hip escape techniques, defensive positioning to create distance. Essential for escapes and guard retention.
+
+### [[Space Management]]
+
+Master Space Management in BJJ. Learn frame construction, hip escape mechanics, pressure recognition across all positions. Defensive and offensive applications.
+
+### [[Speed Passing]]
+
+Master Speed Passing in BJJ. Learn rapid guard passing through explosive movement, angle multiplication, and overwhelming pace. Includes footwork mechanics and timing strategies.
+
+### [[Sprawl Defense]]
+
+Master sprawl defense mechanics in Brazilian Jiu-Jitsu. Learn takedown defense principles, hip positioning, weight distribution, and counter-offense timing.
+
+### [[Strength Development]]
+
+Master strength development for BJJ. Learn functional power training, grip endurance, position-specific strength applications, and expert programming strategies.
+
+### [[Submission Chains]]
+
+Master submission chains in BJJ. Learn systematic attack sequences, transition logic between submissions, and chain-based offensive systems. Includes training methods.
+
+### [[Submission Control Position]]
+
+Master submission control positioning in BJJ. Learn control maintenance, escape prevention, finishing mechanics across all major submissions. Technical frameworks included.
+
+### [[Submission Defense]]
+
+Master submission defense in BJJ. Learn escape hierarchies, frame creation, space management, and prevention strategies. Comprehensive defense principles included.
+
+### [[Submission Defense Concepts]]
+
+Master submission defense in BJJ. Learn escape hierarchies, frame creation, pressure management, and systematic defensive strategies. Core concepts for all levels.
+
+### [[Submission Position]]
+
+Master Submission Position principles in BJJ. Learn control hierarchy, entry mechanics, defensive nullification across all submissions. Strategic framework included.
+
+### [[Sweep Mechanics]]
+
+Master sweep mechanics in BJJ. Learn off-balancing principles, leverage points, timing fundamentals, and success rates across skill levels. Technical framework included.
+
+### [[System Building]]
+
+Master System Building in BJJ. Learn to develop interconnected techniques, create strategic frameworks, and build cohesive game plans. Expert methodologies included.
+
+### [[Takedown Entry]]
+
+Master takedown entry mechanics in BJJ. Learn grip fighting, level changes, off-balancing, timing, and distance management for successful takedowns.
+
+### [[Technical Standup Concept]]
+
+Master the Technical Standup in BJJ. Learn base creation, hip positioning, frame mechanics, and safe transitions from ground to standing. Essential defensive skill.
+
+### [[Timing Sweeps]]
+
+Master sweep timing in BJJ. Learn reactive sweeps, off-balancing windows, and momentum exploitation. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Timing and Rhythm]]
+
+Master timing and rhythm in BJJ. Learn to read opponent reactions, capitalize on momentum shifts, and coordinate technique execution. Expert training methods included.
+
+### [[Top Half Guard]]
+
+Master Top Half Guard control in BJJ. Learn pressure distribution, crossface dominance, passing sequences across all half guard variations. Complete strategic framework included.
+
+### [[Transition Management]]
+
+Master transition management in BJJ. Learn timing recognition, risk assessment, and decision frameworks for controlling position changes. Build systematic progression chains.
+
+### [[Transition Sequences]]
+
+Master Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions with expert insights.
+
+### [[Underhook Defense]]
+
+Master underhook defense principles in BJJ. Learn prevention strategies, neutralization techniques, and recovery protocols across all positions.
+
+### [[Weight Distribution]]
+
+Master strategic weight allocation in BJJ top positions. Learn biomechanical pressure principles, dynamic distribution adjustment, and energy-efficient control.
+
+### [[Whizzer Control]]
+
+Master Whizzer Control in BJJ. Learn overhook mechanics, pressure application, counter-attacking principles. Cross-position applications from half guard to standing included.
 
 

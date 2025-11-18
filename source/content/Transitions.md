@@ -1411,456 +1411,908 @@ Master all BJJ transitions and techniques. Complete guide to sweeps, passes, tak
 
 
 
-**[[100% Sweep]]** - Master the 100% Sweep from closed guard. Complete guide covering arm trap mechanics, hip angle creation, and sweep execution. Beginner 20%, Intermediate 40%, Advanced 60%.
+### [[100% Sweep]]
 
-**[[50-50 Entry from Standing]]** - Master the 50-50 Entry from Standing in BJJ. Step-by-step execution from standing position to 50-50 Guard. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+Master the 100% Sweep from closed guard. Complete guide covering arm trap mechanics, hip angle creation, and sweep execution. Beginner 20%, Intermediate 40%, Advanced 60%.
 
-**[[50-50 Pass]]** - Learn the 50-50 Pass in BJJ. Systematic leg extraction from dangerous entanglement to dominant position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[50-50 Entry from Standing]]
 
-**[[Anaconda Setup]]** - Master Anaconda Setup from turtle with arm threading, grip mechanics, and control principles. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
+Master the 50-50 Entry from Standing in BJJ. Step-by-step execution from standing position to 50-50 Guard. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Anaconda from Turtle]]** - Learn Anaconda from Turtle in BJJ. Step-by-step execution from Turtle to Anaconda Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+### [[50-50 Pass]]
 
-**[[Ankle Pick]]** - Learn the Ankle Pick takedown in BJJ. Step-by-step execution from standing position to top control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Learn the 50-50 Pass in BJJ. Systematic leg extraction from dangerous entanglement to dominant position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Ankle Pick Sweep]]** - Master the Ankle Pick Sweep from seated guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Anaconda Setup]]
 
-**[[Arm Drag]]** - Master the Arm Drag in BJJ. Complete guide from setup to back control with step-by-step execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master Anaconda Setup from turtle with arm threading, grip mechanics, and control principles. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[Arm Drag Sweep]]** - Master the Arm Drag Sweep in BJJ. Complete guide with step-by-step execution from guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Anaconda from Turtle]]
 
-**[[Arm Drag to Back]]** - Master the Arm Drag to Back technique in BJJ. Complete guide covering setup, execution, and back take from multiple positions. Beginner 35%, Intermediate 50%, Advanced 65%.
+Learn Anaconda from Turtle in BJJ. Step-by-step execution from Turtle to Anaconda Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
 
-**[[Arm Extraction]]** - Master Arm Extraction escape from Side Control. Learn systematic arm removal to recover guard. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Ankle Pick]]
 
-**[[Arm Triangle from Turtle]]** - Master the Arm Triangle from Turtle in BJJ. Complete guide covering setup, execution, and finishing mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Learn the Ankle Pick takedown in BJJ. Step-by-step execution from standing position to top control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Armbar Defense]]** - Master Armbar Defense in BJJ. Learn systematic escapes from mount, guard, and side control armbars. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+### [[Ankle Pick Sweep]]
 
-**[[Ashi Garami Escape]]** - Master Ashi Garami escape techniques in BJJ. Learn systematic defensive principles, hip positioning, and leg extraction. Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Ankle Pick Sweep from seated guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Back Control to Crucifix]]** - Learn Back Control to Crucifix in BJJ. Step-by-step execution from back mount to crucifix control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Arm Drag]]
 
-**[[Back Step]]** - Master the Back Step pass in BJJ. Essential leg entanglement counter technique. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Master the Arm Drag in BJJ. Complete guide from setup to back control with step-by-step execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Back Take Generic]]** - Master back take transitions in BJJ. Learn multiple paths to back control from various positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+### [[Arm Drag Sweep]]
 
-**[[Balloon Sweep]]** - Master the Balloon Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, timing, and setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Master the Arm Drag Sweep in BJJ. Complete guide with step-by-step execution from guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Base Widening]]** - Learn Base Widening defensive technique in BJJ. Essential stability recovery from compromised positions. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
+### [[Arm Drag to Back]]
 
-**[[Basic Butterfly Sweep]]** - Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Mount or Side Control. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
+Master the Arm Drag to Back technique in BJJ. Complete guide covering setup, execution, and back take from multiple positions. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Berimbolo Entry]]** - Master the Berimbolo Entry in BJJ. Dynamic inversion technique from De La Riva Guard to Back Control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
+### [[Arm Extraction]]
 
-**[[Body Lock Pass]]** - Master the Body Lock Pass in BJJ. Step-by-step execution from Half Guard to Side Control with systematic pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master Arm Extraction escape from Side Control. Learn systematic arm removal to recover guard. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Bodylock Pass]]** - Master the Bodylock Pass in BJJ. Powerful pressure passing technique from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Arm Triangle from Turtle]]
 
-**[[Bolo Sweep]]** - Master the Bolo Sweep from De La Riva Guard. Learn setup, execution, and back-take options. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
+Master the Arm Triangle from Turtle in BJJ. Complete guide covering setup, execution, and finishing mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Bridge and Roll]]** - Master the Bridge and Roll escape from Mount in BJJ. Complete breakdown of hip elevation, weight distribution, and trap mechanics. Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Armbar Defense]]
 
-**[[Bullfighter Pass]]** - Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standing guard pass using lateral movement and grip control. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master Armbar Defense in BJJ. Learn systematic escapes from mount, guard, and side control armbars. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Butterfly Guard to X-Guard]]** - Master the Butterfly Guard to X-Guard transition in BJJ. Learn setup, execution, and control with success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Ashi Garami Escape]]
 
-**[[Butterfly Pass]]** - Master the Butterfly Pass in BJJ. Complete guide to neutralizing butterfly guard with pressure, base control, and positioning. Beginner 35%, Intermediate 50%, Advanced 65%.
+Master Ashi Garami escape techniques in BJJ. Learn systematic defensive principles, hip positioning, and leg extraction. Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Butterfly Smash]]** - Master the Butterfly Smash pass in BJJ. Break down butterfly hooks with pressure and control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Back Control to Crucifix]]
 
-**[[Butterfly Sweep]]** - Learn the Butterfly Sweep in BJJ. Complete execution guide from Butterfly Guard to Mount. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
+Learn Back Control to Crucifix in BJJ. Step-by-step execution from back mount to crucifix control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Butterfly Sweep Variations]]** - Master Butterfly Sweep variations in BJJ. Learn Hook Sweep, Elevator Sweep, and Arm Drag combinations from Butterfly Guard. Success rates 35-65%.
+### [[Back Step]]
 
-**[[Chair Sit to Back]]** - Master Chair Sit to Back Take in BJJ. Control opponent from turtle, establish seatbelt grip, climb to back control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master the Back Step pass in BJJ. Essential leg entanglement counter technique. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Closed Guard to Triangle]]** - Learn the Triangle setup from Closed Guard in BJJ. Complete execution sequence with grip control and angle creation. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
+### [[Back Take Generic]]
 
-**[[Collar Drag]]** - Master the Collar Drag in BJJ. Essential standing technique transitioning to back control or takedown. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Master back take transitions in BJJ. Learn multiple paths to back control from various positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
-**[[Counter Sweep]]** - Master Counter Sweep defense in BJJ. Transform opponent's sweep attempts into your offensive advantage. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+### [[Balloon Sweep]]
 
-**[[Crab Ride to Back]]** - Master the Crab Ride to Back transition in BJJ. Complete step-by-step execution from top turtle control. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+Master the Balloon Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, timing, and setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Crossface Pass]]** - Learn Crossface Pass in BJJ. Step-by-step execution from half guard top to side control using crossface pressure. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Base Widening]]
 
-**[[Crucifix from Turtle]]** - Learn Crucifix from Turtle in BJJ. Step-by-step execution from Turtle to Crucifix. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+Learn Base Widening defensive technique in BJJ. Essential stability recovery from compromised positions. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
 
-**[[Darce Setup]]** - Learn Darce Setup in BJJ. Step-by-step execution from Front Headlock/Turtle to Darce Control. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+### [[Basic Butterfly Sweep]]
 
-**[[Darce from Turtle]]** - Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle Top to Darce Control. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%. Master front headlock attacks.
+Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Mount or Side Control. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[De La Riva Sweep]]** - Learn De La Riva Sweep in BJJ. Step-by-step execution from De La Riva Guard to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Berimbolo Entry]]
 
-**[[De La Riva Sweep Variations]]** - Master De La Riva Sweep Variations in BJJ. Complete guide covering classic sweep, waiter sweep, balloon sweep, berimbolo. Beginner 35%, Intermediate 55%, Advanced 75%.
+Master the Berimbolo Entry in BJJ. Dynamic inversion technique from De La Riva Guard to Back Control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
 
-**[[De La Riva to X-Guard Transition]]** - Master the De La Riva to X-Guard transition in BJJ. Convert DLR control into powerful X-Guard sweeping position. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
+### [[Body Lock Pass]]
 
-**[[Deashi Harai]]** - Learn Deashi Harai in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Body Lock Pass in BJJ. Step-by-step execution from Half Guard to Side Control with systematic pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Deep Half Entry]]** - Learn Deep Half Entry in BJJ. Step-by-step execution from Half Guard to Deep Half Guard. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
+### [[Bodylock Pass]]
 
-**[[Double Leg Entry]]** - Learn Double Leg Entry in BJJ. Step-by-step execution from standing position to dominant takedown setup. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Bodylock Pass in BJJ. Powerful pressure passing technique from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Double Leg Finish]]** - Master the Double Leg Finish in BJJ. Complete execution from penetration to dominant position. Success rates: Beginner 55%, Intermediate 75%, Advanced 88%. Step-by-step guide.
+### [[Bolo Sweep]]
 
-**[[Double Leg Setup]]** - Learn Double Leg Setup in BJJ. Step-by-step execution from Standing Position to Double Leg Entry. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Bolo Sweep from De La Riva Guard. Learn setup, execution, and back-take options. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
 
-**[[Double Leg Variations]]** - Learn Double Leg Variations in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%.
+### [[Bridge and Roll]]
 
-**[[Double Under Pass]]** - Master the Double Under Pass in BJJ. Control-based guard pass using bilateral underhooks. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Step-by-step execution guide.
+Master the Bridge and Roll escape from Mount in BJJ. Complete breakdown of hip elevation, weight distribution, and trap mechanics. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Double leg takedown]]** - Master the Double Leg Takedown in BJJ. Complete execution from standing to side control with setup, timing, and counters. Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Bullfighter Pass]]
 
-**[[Elbow Escape]]** - Master the Elbow Escape from side control in BJJ. Step-by-step execution from Side Control to Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standing guard pass using lateral movement and grip control. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Elevator Sweep]]** - Master the Elevator Sweep from butterfly guard. Step-by-step execution with hook control and elevation. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Butterfly Guard to X-Guard]]
 
-**[[Fireman's Carry]]** - Master the Fireman's Carry takedown in BJJ. Complete step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Butterfly Guard to X-Guard transition in BJJ. Learn setup, execution, and control with success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Float Passing]]** - Master Float Passing in BJJ. Strategic guard passing using minimal pressure and quick transitions. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Butterfly Pass]]
 
-**[[Flower Sweep]]** - Learn the Flower Sweep in BJJ. Master this fundamental closed guard sweep with step-by-step execution from guard to mount. Beginner 35%, Intermediate 55%, Advanced 70%.
+Master the Butterfly Pass in BJJ. Complete guide to neutralizing butterfly guard with pressure, base control, and positioning. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Foot Grab Sweep]]** - Master the Foot Grab Sweep from open guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Butterfly Smash]]
 
-**[[Foot Sweep Series]]** - Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Gari, and Kouchi Gari execution from standing. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Butterfly Smash pass in BJJ. Break down butterfly hooks with pressure and control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Forward Roll]]** - Master the Forward Roll in BJJ. Essential escape and movement technique for guard recovery and defensive positioning. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Butterfly Sweep]]
 
-**[[Frame and Shrimp]]** - Learn Frame and Shrimp escape in BJJ. Step-by-step execution from bottom pins to guard recovery. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+Learn the Butterfly Sweep in BJJ. Complete execution guide from Butterfly Guard to Mount. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-**[[Front Headlock Series]]** - Master the Front Headlock Series in BJJ. Complete system covering Anaconda, Darce, Guillotine, and back takes. Success: Beginner 50%, Intermediate 70%, Advanced 85%.
+### [[Butterfly Sweep Variations]]
 
-**[[Front Headlock Series Transition]]** - Master Front Headlock Series in BJJ. Complete guide to control and transitions from front headlock to multiple finishes. Beginner 35%, Intermediate 55%, Advanced 75%.
+Master Butterfly Sweep variations in BJJ. Learn Hook Sweep, Elevator Sweep, and Arm Drag combinations from Butterfly Guard. Success rates 35-65%.
 
-**[[Front Headlock to Anaconda]]** - Learn Front Headlock to Anaconda in BJJ. Step-by-step execution from Front Headlock to Anaconda Control. Success: Beginner 30%, Intermediate 50%, Advanced 68%.
+### [[Chair Sit to Back]]
 
-**[[Front Headlock to Back]]** - Master Front Headlock to Back Take in BJJ. Complete guide from front headlock control to back control with hooks and seat belt. Beginner 40%, Intermediate 60%, Advanced 75%.
+Master Chair Sit to Back Take in BJJ. Control opponent from turtle, establish seatbelt grip, climb to back control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Front Headlock to Darce]]** - Learn Front Headlock to Darce in BJJ. Step-by-step execution from Front Headlock to Darce Control. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
+### [[Closed Guard to Triangle]]
 
-**[[Front Headlock to Guillotine]]** - Master the Front Headlock to Guillotine transition in BJJ. Complete technical breakdown with step-by-step execution, timing cues, and finishing mechanics.
+Learn the Triangle setup from Closed Guard in BJJ. Complete execution sequence with grip control and angle creation. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
 
-**[[Ghost Escape]]** - Learn Ghost Escape in BJJ. Step-by-step execution from Side Control to Turtle. Advanced rotational escape technique. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Collar Drag]]
 
-**[[Granby Roll]]** - Master the Granby Roll escape technique in BJJ. Essential defensive movement from turtle and bottom positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Collar Drag in BJJ. Essential standing technique transitioning to back control or takedown. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Granby to Closed Guard]]** - Learn Granby to Closed Guard recovery technique. Master Granby roll mechanics to recover guard from compromised positions. Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Counter Sweep]]
 
-**[[Grip Break]]** - Master grip breaking in BJJ with systematic hand fighting methods. Learn two-on-one control, directional force, and grip chains. Beginner 60%, Intermediate 75%, Advanced 90%.
+Master Counter Sweep defense in BJJ. Transform opponent's sweep attempts into your offensive advantage. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
-**[[Guard Bottom Transition]]** - Learn Guard Bottom Transition in BJJ. Master proper guard pulling mechanics from standing to open guard. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.
+### [[Crab Ride to Back]]
 
-**[[Guard Opening Sequence]]** - Master guard opening in BJJ. Systematic approaches to opening closed guard with posture, grips, and pressure. Success: Beginner 35%, Intermediate 55%, Advanced 75%.
+Master the Crab Ride to Back transition in BJJ. Complete step-by-step execution from top turtle control. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
-**[[Guard Pass]]** - Learn Guard Pass techniques in BJJ. Comprehensive guide to passing guard from various positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Crossface Pass]]
 
-**[[Guard Pull]]** - Master the Guard Pull transition in BJJ. Complete guide from standing to seated guard with grip control and timing. Success rates: Beginner 65%, Intermediate 75%, Advanced 85%.
+Learn Crossface Pass in BJJ. Step-by-step execution from half guard top to side control using crossface pressure. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Guard Replacement]]** - Learn Guard Replacement in BJJ. Step-by-step execution from compromised guard to guard recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Crucifix from Turtle]]
 
-**[[Guillotine Counter]]** - Learn Guillotine Counter in BJJ. Step-by-step execution from Guillotine Defense to Side Control Top. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+Learn Crucifix from Turtle in BJJ. Step-by-step execution from Turtle to Crucifix. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
-**[[Guillotine Defense]]** - Learn Guillotine Defense in BJJ. Step-by-step escape from Guillotine Choke attacks. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Essential defensive technique.
+### [[Darce Setup]]
 
-**[[Guillotine Setup]]** - Learn Guillotine Setup in BJJ. Step-by-step execution from Front Headlock to Guillotine Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Learn Darce Setup in BJJ. Step-by-step execution from Front Headlock/Turtle to Darce Control. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Guillotine from Turtle]]** - Learn Guillotine from Turtle in BJJ. Step-by-step execution from Turtle Top to Guillotine Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Darce from Turtle]]
 
-**[[Half Guard Pass]]** - Master the Half Guard Pass in BJJ. Systematic approach from Half Guard Top to Side Control. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.
+Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle Top to Darce Control. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%. Master front headlock attacks.
 
-**[[Half Guard Sweeps]]** - Master Half Guard Sweeps in BJJ. Complete systematic approach from Half Guard Bottom to dominant top positions. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
+### [[De La Riva Sweep]]
 
-**[[Half Guard to Back Take]]** - Learn Half Guard to Back Take in BJJ. Advanced transition from half guard to dominant back control. Success rates: Beginner 45%, Intermediate 70%, Advanced 85%.
+Learn De La Riva Sweep in BJJ. Step-by-step execution from De La Riva Guard to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Harai Goshi]]** - Learn Harai Goshi in BJJ. Step-by-step judo throw execution from standing position to dominant ground control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[De La Riva Sweep Variations]]
 
-**[[Headquarters Pass]]** - Learn Headquarters Pass in BJJ. Step-by-step execution from headquarters position to side control. Success: Beginner 45%, Intermediate 65%, Advanced 80%.
+Master De La Riva Sweep Variations in BJJ. Complete guide covering classic sweep, waiter sweep, balloon sweep, berimbolo. Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[Heel Grab Sweep]]** - Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, execution, and expert insights. Success rates: 35%, 60%, 75%.
+### [[De La Riva to X-Guard Transition]]
 
-**[[High Crotch]]** - Master the High Crotch takedown in BJJ. Complete step-by-step execution from standing to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the De La Riva to X-Guard transition in BJJ. Convert DLR control into powerful X-Guard sweeping position. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[Hip Bump Sweep]]** - Master the Hip Bump Sweep from Closed Guard. Step-by-step execution, common errors, and expert insights. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Deashi Harai]]
 
-**[[Hip Bump Sweep V2]]** - Master the Hip Bump Sweep from Closed Guard. Complete guide with setup, execution steps, and success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Learn Deashi Harai in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Hip Escape]]** - Master the Hip Escape (Shrimp) in BJJ. Essential defensive movement for escaping pins and creating space. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Deep Half Entry]]
 
-**[[Hitchhiker Escape]]** - Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar Control to Guard Recovery. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
+Learn Deep Half Entry in BJJ. Step-by-step execution from Half Guard to Deep Half Guard. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Hook Sweep]]** - Learn Hook Sweep in BJJ. Step-by-step execution from Butterfly Guard to Side Control Top. Success: Beginner 40%, Intermediate 60%, Advanced 75%.
+### [[Double Leg Entry]]
 
-**[[Inside Ashi Entry]]** - Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry from standing or open guard. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Learn Double Leg Entry in BJJ. Step-by-step execution from standing position to dominant takedown setup. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Ippon Seoi Nage]]** - Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation with gripping, entry mechanics, and ground transitions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Double Leg Finish]]
 
-**[[Japanese Necktie Setup]]** - Master the Japanese Necktie Setup from Front Headlock in BJJ. Step-by-step execution with timing cues. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+Master the Double Leg Finish in BJJ. Complete execution from penetration to dominant position. Success rates: Beginner 55%, Intermediate 75%, Advanced 88%. Step-by-step guide.
 
-**[[John Wayne Sweep]]** - Master the John Wayne Sweep from Butterfly Guard. High-reward transition to Mount using grip control and hip leverage. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Double Leg Setup]]
 
-**[[Jumping Guard]]** - Master Jumping Guard in BJJ. Dynamic guard pull from standing to Closed Guard. Step-by-step execution with setup, timing, counters. Beginner 30%, Intermediate 50%, Advanced 65%.
+Learn Double Leg Setup in BJJ. Step-by-step execution from Standing Position to Double Leg Entry. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Kimura Defense]]** - Master Kimura Defense in BJJ. Complete defensive framework from multiple positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+### [[Double Leg Variations]]
 
-**[[Kimura to Back Take]]** - Master the Kimura to Back Take in BJJ. Complete transition from Kimura Control to Back Control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Learn Double Leg Variations in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%.
 
-**[[Kiss of the Dragon]]** - Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to Back Control bypassing defensive layers. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
+### [[Double Under Pass]]
 
-**[[Knee Bar from Top Positions]]** - Master kneebar control from top positions in BJJ. Learn entries from passing scenarios, control mechanics, and finishing details. Beginner 30%, Intermediate 45%, Advanced 60%.
+Master the Double Under Pass in BJJ. Control-based guard pass using bilateral underhooks. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Step-by-step execution guide.
 
-**[[Knee Cut]]** - Master the Knee Cut Pass in BJJ. Step-by-step execution from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Double leg takedown]]
 
-**[[Knee Cut Pass]]** - Master the Knee Cut Pass in BJJ. Complete guide from Open Guard to Side Control with step-by-step execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master the Double Leg Takedown in BJJ. Complete execution from standing to side control with setup, timing, and counters. Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Knee Shield Retention]]** - Master Knee Shield Retention in BJJ. Essential defensive framework for maintaining half guard against passing pressure. Success: Beginner 50%, Intermediate 65%, Advanced 80%.
+### [[Elbow Escape]]
 
-**[[Knee Slice]]** - Master Knee Slice pass in BJJ. Complete breakdown from half guard to side control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Step-by-step execution included.
+Master the Elbow Escape from side control in BJJ. Step-by-step execution from Side Control to Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Knee Slice Pass]]** - Master the Knee Slice Pass in BJJ. High-percentage guard passing technique from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Elevator Sweep]]
 
-**[[Knee Slice from Half]]** - Master the Knee Slice from Half Guard pass in BJJ. High-percentage guard pass using knee pressure and angle control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master the Elevator Sweep from butterfly guard. Step-by-step execution with hook control and elevation. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Knee Slice with Underhook]]** - Master the Knee Slice with Underhook pass in BJJ. High-percentage half guard pass combining cutting action with underhook control. Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Fireman's Carry]]
 
-**[[Knee Tap]]** - Master the Knee Tap takedown in BJJ. Wrestling-based technique from standing to top position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Master the Fireman's Carry takedown in BJJ. Complete step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Knee Through]]** - Master the Knee Through pass in BJJ. Systematic half guard passing technique using knee insertion and pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Float Passing]]
 
-**[[Kosoto Gake]]** - Learn Kosoto Gake in BJJ. Master this minor outer reaping throw from standing to dominant top position. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.
+Master Float Passing in BJJ. Strategic guard passing using minimal pressure and quick transitions. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Kosoto Gari]]** - Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step execution from standing clinch to dominant position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Flower Sweep]]
 
-**[[Kouchi Gari]]** - Master Kouchi Gari in BJJ. Small inner reap takedown from standing clinch. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Complete execution guide.
+Learn the Flower Sweep in BJJ. Master this fundamental closed guard sweep with step-by-step execution from guard to mount. Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Lasso Guard Pass]]** - Master the Lasso Guard Pass in BJJ. Complete breakdown of techniques to defeat lasso hooks and establish top control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Foot Grab Sweep]]
 
-**[[Lasso Guard Sweeps]]** - Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps from lasso control with step-by-step execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Master the Foot Grab Sweep from open guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Lasso Guard Variations]]** - Master Lasso Guard variations in BJJ. Learn spider lasso, inverted lasso, Russian lasso, and tactical adaptations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Foot Sweep Series]]
 
-**[[Leg Drag Pass]]** - Master the Leg Drag Pass in BJJ. Dominant guard passing technique from open guard to side control. Success: 45% beginner, 60% intermediate, 75% advanced.
+Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Gari, and Kouchi Gari execution from standing. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Leg Drag Setup]]** - Master the Leg Drag Setup from open guard. Learn grip sequences, angle creation, and hip control to enter dominant leg drag position. Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Forward Roll]]
 
-**[[Leg Weave Pass]]** - Master the Leg Weave Pass in BJJ. Step-by-step pressure passing from half guard to side control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Forward Roll in BJJ. Essential escape and movement technique for guard recovery and defensive positioning. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Lockdown Sweeps]]** - Master Lockdown Sweeps from half guard. Learn Electric Chair, Old School, and Whipover variations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Frame and Shrimp]]
 
-**[[Long Step]]** - Master the Long Step pass in BJJ. Systematic guard passing technique from standing or headquarters. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Learn Frame and Shrimp escape in BJJ. Step-by-step execution from bottom pins to guard recovery. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
-**[[Long Step Pass]]** - Master the Long Step Pass to dominate open guard. Step-by-step execution from standing to side control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Front Headlock Series]]
 
-**[[Lumberjack Sweep]]** - Master the Lumberjack Sweep from half guard in BJJ. Step-by-step execution with underhook control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Front Headlock Series in BJJ. Complete system covering Anaconda, Darce, Guillotine, and back takes. Success: Beginner 50%, Intermediate 70%, Advanced 85%.
 
-**[[Matrix Back Take]]** - Master the Matrix Back Take from turtle. Step-by-step execution with control maintenance and weight distribution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Front Headlock Series Transition]]
 
-**[[Morote Seoi Nage]]** - Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw from standing to side control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master Front Headlock Series in BJJ. Complete guide to control and transitions from front headlock to multiple finishes. Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[Mount to Armbar]]** - Master the Mount to Armbar transition in BJJ. Complete step-by-step execution from Mount to Armbar Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Front Headlock to Anaconda]]
 
-**[[Muscle Sweep]]** - Master the Muscle Sweep from Closed Guard to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Learn setup, timing, and variations.
+Learn Front Headlock to Anaconda in BJJ. Step-by-step execution from Front Headlock to Anaconda Control. Success: Beginner 30%, Intermediate 50%, Advanced 68%.
 
-**[[North-South Escape]]** - Learn North-South Escape in BJJ. Step-by-step execution from North-South to Guard Recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+### [[Front Headlock to Back]]
 
-**[[North-South to Kimura]]** - Master North-South to Kimura transition in BJJ. Step-by-step arm isolation and control from dominant position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master Front Headlock to Back Take in BJJ. Complete guide from front headlock control to back control with hooks and seat belt. Beginner 40%, Intermediate 60%, Advanced 75%.
 
-**[[Old School Sweep]]** - Learn Old School Sweep from Half Guard in BJJ. Step-by-step execution to top position. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
+### [[Front Headlock to Darce]]
 
-**[[Omoplata Sweep]]** - Master the Omoplata Sweep from closed guard. Step-by-step execution combining shoulder lock threat with sweeping mechanics. Beginner 30%, Intermediate 50%, Advanced 70%.
+Learn Front Headlock to Darce in BJJ. Step-by-step execution from Front Headlock to Darce Control. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Omoplata to Back]]** - Learn Omoplata to Back transition in BJJ. Step-by-step execution from Omoplata Control to Back Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Front Headlock to Guillotine]]
 
-**[[Omoplata to Sweep]]** - Learn the Omoplata to Sweep transition in BJJ. Step-by-step execution from Omoplata Control to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Front Headlock to Guillotine transition in BJJ. Complete technical breakdown with step-by-step execution, timing cues, and finishing mechanics.
 
-**[[Open Guard to Deep Half]]** - Learn Open Guard to Deep Half transition in BJJ. Step-by-step execution from Open Guard Bottom to Deep Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Ghost Escape]]
 
-**[[Osoto Gari]]** - Master Osoto Gari, the fundamental judo throw adapted for BJJ. Step-by-step takedown from Standing Position to Side Control. Success: Beginner 30%, Intermediate 55%, Advanced 75%.
+Learn Ghost Escape in BJJ. Step-by-step execution from Side Control to Turtle. Advanced rotational escape technique. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Ouchi Gari]]** - Master Ouchi Gari takedown in BJJ. Step-by-step execution from standing to dominant top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Granby Roll]]
 
-**[[Outside Ashi Entry]]** - Master the Outside Ashi Entry from standing. Learn systematic approach to leg entanglements with proper mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Master the Granby Roll escape technique in BJJ. Essential defensive movement from turtle and bottom positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Over-Under Pass]]** - Master Over-Under Pass in BJJ. Pressure-based passing from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+### [[Granby to Closed Guard]]
 
-**[[Overhook Sweep]]** - Master the Overhook Sweep from closed guard in BJJ. Step-by-step execution guide. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+Learn Granby to Closed Guard recovery technique. Master Granby roll mechanics to recover guard from compromised positions. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Pendulum Sweep]]** - Master the Pendulum Sweep from Closed Guard to Mount. Learn proper execution, timing, and leverage. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
+### [[Grip Break]]
 
-**[[Peruvian Necktie Setup]]** - Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from Front Headlock to submission position. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
+Master grip breaking in BJJ with systematic hand fighting methods. Learn two-on-one control, directional force, and grip chains. Beginner 60%, Intermediate 75%, Advanced 90%.
 
-**[[Position Change]]** - Master Position Change transitions in BJJ. Learn systematic advancement from guard to dominant positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Guard Bottom Transition]]
 
-**[[Posture Recovery]]** - Learn Posture Recovery in BJJ. Defensive technique for regaining upright position from broken posture. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
+Learn Guard Bottom Transition in BJJ. Master proper guard pulling mechanics from standing to open guard. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.
 
-**[[Pressure Pass]]** - Master the Pressure Pass in BJJ. Complete guide to heavy pressure guard passing. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%. Step-by-step execution.
+### [[Guard Opening Sequence]]
 
-**[[Pull guard]]** - Master Pull Guard in BJJ. Learn proper execution from standing to guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete technique breakdown included.
+Master guard opening in BJJ. Systematic approaches to opening closed guard with posture, grips, and pressure. Success: Beginner 35%, Intermediate 55%, Advanced 75%.
 
-**[[RDLR Pass]]** - Learn Reverse De La Riva Pass in BJJ. Step-by-step execution from RDLR Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Guard Pass]]
 
-**[[Re-Guard]]** - Master Re-Guard recovery in BJJ. Complete step-by-step execution from inferior positions back to guard. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
+Learn Guard Pass techniques in BJJ. Comprehensive guide to passing guard from various positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Re-Guard from Headquarters]]** - Master re-guard recovery from Headquarters position. Learn systematic guard recovery methods. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Guard Pull]]
 
-**[[Reverse De La Riva Recovery]]** - Master Reverse De La Riva Recovery in BJJ. Learn how to re-establish guard control from compromised positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master the Guard Pull transition in BJJ. Complete guide from standing to seated guard with grip control and timing. Success rates: Beginner 65%, Intermediate 75%, Advanced 85%.
 
-**[[Rolling Back Take]]** - Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle to Back Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%. Dynamic technique using momentum.
+### [[Guard Replacement]]
 
-**[[Rolling Guard Pull]]** - Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple guard positions with momentum-based execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Learn Guard Replacement in BJJ. Step-by-step execution from compromised guard to guard recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Rolling Kimura]]** - Master the Rolling Kimura in BJJ. Dynamic sweep and submission technique from turtle using kimura grip mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Guillotine Counter]]
 
-**[[Rolling Kimura Escape]]** - Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from Kimura Control to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+Learn Guillotine Counter in BJJ. Step-by-step execution from Guillotine Defense to Side Control Top. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
 
-**[[Rolling to Guard]]** - Master Rolling to Guard in BJJ. Dynamic defensive recovery from bottom positions to guard using rotational mechanics. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%.
+### [[Guillotine Defense]]
 
-**[[Russian Tie to Back Take]]** - Master the Russian Tie to Back Take in BJJ. Step-by-step execution from standing to back control. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+Learn Guillotine Defense in BJJ. Step-by-step escape from Guillotine Choke attacks. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Essential defensive technique.
 
-**[[Saddle Defense]]** - Learn Saddle Defense in BJJ. Step-by-step escape from one of the most dangerous leg entanglement positions. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
+### [[Guillotine Setup]]
 
-**[[Saddle Entry from Top]]** - Master the Saddle Entry from Top in BJJ. Step-by-step leg entanglement technique for entering Ashi Garami positions. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
+Learn Guillotine Setup in BJJ. Step-by-step execution from Front Headlock to Guillotine Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Sasae Tsurikomi Ashi]]** - Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Standing to Opponent Down. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Guillotine from Turtle]]
 
-**[[Scissor Sweep]]** - Learn Scissor Sweep in BJJ. Step-by-step execution from Closed Guard to Mount. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%. Master this fundamental sweep technique.
+Learn Guillotine from Turtle in BJJ. Step-by-step execution from Turtle Top to Guillotine Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Seoi Nage]]** - Master Seoi Nage shoulder throw in BJJ. Step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Half Guard Pass]]
 
-**[[Shin Shield Recovery]]** - Master Shin Shield Recovery in BJJ. Essential defensive framing from half guard. Prevent passing and create space. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+Master the Half Guard Pass in BJJ. Systematic approach from Half Guard Top to Side Control. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.
 
-**[[Shin to Shin Pull]]** - Master the Shin to Shin Pull in BJJ. Step-by-step execution from Standing to Shin-to-Shin Guard. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Half Guard Sweeps]]
 
-**[[Shrimp Escape]]** - Learn Shrimp Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
+Master Half Guard Sweeps in BJJ. Complete systematic approach from Half Guard Bottom to dominant top positions. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
 
-**[[Sickle Sweep]]** - Master the Sickle Sweep from De La Riva Guard. Step-by-step execution to mount or side control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Half Guard to Back Take]]
 
-**[[Side Control Escape]]** - Learn Side Control Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Learn Half Guard to Back Take in BJJ. Advanced transition from half guard to dominant back control. Success rates: Beginner 45%, Intermediate 70%, Advanced 85%.
 
-**[[Side Control to Mount]]** - Master the Side Control to Mount transition in BJJ. Step-by-step execution from side control to dominant mount position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%
+### [[Harai Goshi]]
 
-**[[Single Leg Entry]]** - Learn Single Leg Entry in BJJ. Step-by-step execution from Standing to Single Leg Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Master takedown fundamentals.
+Learn Harai Goshi in BJJ. Step-by-step judo throw execution from standing position to dominant ground control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Single Leg Finish]]** - Learn Single Leg Finish in BJJ. Step-by-step takedown completion from Single Leg control. Success: Beginner 50%, Intermediate 70%, Advanced 85%.
+### [[Headquarters Pass]]
 
-**[[Single Leg Takedown]]** - Master the Single Leg Takedown in BJJ. Complete guide covering entries, finishing mechanics, and defensive counters. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Learn Headquarters Pass in BJJ. Step-by-step execution from headquarters position to side control. Success: Beginner 45%, Intermediate 65%, Advanced 80%.
 
-**[[Single Leg Variations]]** - Master Single Leg Variations in BJJ. Complete takedown guide with multiple finishes from standing position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Heel Grab Sweep]]
 
-**[[Single Leg X Entry]]** - Master Single Leg X Entry in BJJ. Step-by-step execution from seated guard to Single Leg X. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete technical guide.
+Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, execution, and expert insights. Success rates: 35%, 60%, 75%.
 
-**[[Single Leg X Sweep]]** - Master the Single Leg X Sweep in BJJ. Step-by-step execution from Single Leg X-Guard to top position. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+### [[High Crotch]]
 
-**[[Single Leg to Back Take]]** - Learn Single Leg to Back Take in BJJ. Convert failed takedown to back control position. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the High Crotch takedown in BJJ. Complete step-by-step execution from standing to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Sitting Guard Pull]]** - Learn Sitting Guard Pull in BJJ. Step-by-step execution from Standing Position to Open Guard Bottom. Success: Beginner 70%, Intermediate 85%, Advanced 95%.
+### [[Hip Bump Sweep]]
 
-**[[Smash Pass]]** - Master the Smash Pass in BJJ. Complete guide covering pressure passing mechanics from Half Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Hip Bump Sweep from Closed Guard. Step-by-step execution, common errors, and expert insights. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Snap Down]]** - Master the Snap Down in BJJ. Control opponent's posture from standing to create takedown or submission opportunities. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Hip Bump Sweep V2]]
 
-**[[Snap Down to Front Headlock]]** - Master Snap Down to Front Headlock. Complete guide from standing clinch to dominant control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master the Hip Bump Sweep from Closed Guard. Complete guide with setup, execution steps, and success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Spider Guard Pass]]** - Master Spider Guard Pass techniques in BJJ. Complete guide with grip breaking, posture control, and pressure passing. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Hip Escape]]
 
-**[[Spider Guard Sweeps]]** - Learn Spider Guard sweeps in BJJ. Triangle setup, omoplata sweep, and elevator sweep with step-by-step execution. Beginner 35%, Intermediate 50%, Advanced 65%.
+Master the Hip Escape (Shrimp) in BJJ. Essential defensive movement for escaping pins and creating space. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Spider Guard Variations]]** - Master Spider Guard variations in BJJ. Learn sleeve control mechanics, distance management, and sweep setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Hitchhiker Escape]]
 
-**[[Spider Guard to Omoplata]]** - Master the Spider Guard to Omoplata transition in BJJ. Complete guide with setup, execution steps, and common counters. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar Control to Guard Recovery. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-**[[Sprawl]]** - Master the Sprawl takedown defense in BJJ. Essential defensive technique against single and double leg attacks. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
+### [[Hook Sweep]]
 
-**[[Sprawl Defense]]** - Master the sprawl defense in BJJ. Essential takedown defense technique with hip drive and base mechanics. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
+Learn Hook Sweep in BJJ. Step-by-step execution from Butterfly Guard to Side Control Top. Success: Beginner 40%, Intermediate 60%, Advanced 75%.
 
-**[[Stack Defense]]** - Learn Stack Defense in BJJ. Counter stack passes with frame management, hip escape mechanics, and angle recovery. Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Inside Ashi Entry]]
 
-**[[Stack Pass]]** - Master the Stack Pass in BJJ. High-pressure guard passing technique using opponent's legs to create passing angle. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
+Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry from standing or open guard. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Standing to Single Leg X]]** - Learn Standing to Single Leg X transition in BJJ. Step-by-step entry from standing guard to leg entanglement position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Ippon Seoi Nage]]
 
-**[[Standing up]]** - Master the Technical Standup in BJJ. Learn proper base mechanics, hip elevation, and defensive positioning. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation with gripping, entry mechanics, and ground transitions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-**[[Standing up in Base]]** - Master the technical standup from bottom position in BJJ. Step-by-step execution from defensive positions to standing. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+### [[Japanese Necktie Setup]]
 
-**[[Sumi Gaeshi]]** - Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, execution, and sweep mechanics from standing or seated guard. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Japanese Necktie Setup from Front Headlock in BJJ. Step-by-step execution with timing cues. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Switch to Triangle]]** - Master the Switch to Triangle in BJJ. Learn when and how to transition from failed attacks to triangle choke. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[John Wayne Sweep]]
 
-**[[Tai Otoshi]]** - Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution from standing clinch to dominant position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the John Wayne Sweep from Butterfly Guard. High-reward transition to Mount using grip control and hip leverage. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Takedown Defense]]** - Master takedown defense in BJJ and MMA. Learn sprawl mechanics, grip fighting strategies, and counter-attacks. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
+### [[Jumping Guard]]
 
-**[[Tani Otoshi]]** - Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step execution from standing to side control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master Jumping Guard in BJJ. Dynamic guard pull from standing to Closed Guard. Step-by-step execution with setup, timing, counters. Beginner 30%, Intermediate 50%, Advanced 65%.
 
-**[[Tap Out]]** - Master the critical tap out protocol in BJJ. Learn proper tap signals, safety awareness, and submission defense fundamentals. Success rates vary by submission awareness and timing.
+### [[Kimura Defense]]
 
-**[[Technical Stand Up to Single Leg]]** - Master Technical Stand Up to Single Leg in BJJ. Execute safe standup from bottom positions and attack with single leg takedown. Beginner 35%, Intermediate 50%, Advanced 65%.
+Master Kimura Defense in BJJ. Complete defensive framework from multiple positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
-**[[Technical Stand-up]]** - Master Technical Stand-up in BJJ. Essential escape from bottom to standing. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%. Complete guide.
+### [[Kimura to Back Take]]
 
-**[[Technical Standup]]** - Master the Technical Standup escape in BJJ. Step-by-step execution from grounded to standing position. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
+Master the Kimura to Back Take in BJJ. Complete transition from Kimura Control to Back Control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Tomahawk Sweep]]** - Master the Tomahawk Sweep from X-Guard in BJJ. Dynamic sweep using hook leverage and angle creation. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Kiss of the Dragon]]
 
-**[[Tomoe Nage]]** - Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing to guard positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete execution guide.
+Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to Back Control bypassing defensive layers. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
 
-**[[Toreando Pass]]** - Master the Toreando Pass in BJJ. Control opponent's legs, create angles, pass to dominant position. Success: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Knee Bar from Top Positions]]
 
-**[[Transition to Mount]]** - Master the fundamental transition from side control to mount in BJJ. Step-by-step execution, timing, pressure control. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master kneebar control from top positions in BJJ. Learn entries from passing scenarios, control mechanics, and finishing details. Beginner 30%, Intermediate 45%, Advanced 60%.
 
-**[[Transition to North-South]]** - Master the North-South transition in BJJ. Control technique from Side Control to North-South position. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
+### [[Knee Cut]]
 
-**[[Transition to Omoplata]]** - Learn Transition to Omoplata in BJJ. Complete guide to entering omoplata control from guard positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+Master the Knee Cut Pass in BJJ. Step-by-step execution from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Transition to Truck]]** - Master the Truck transition in BJJ. Step-by-step execution from Turtle to Truck position. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%. Complete breakdown.
+### [[Knee Cut Pass]]
 
-**[[Triangle Escape]]** - Master Triangle Escape in BJJ. Defensive strategies to escape triangle chokes from various positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Knee Cut Pass in BJJ. Complete guide from Open Guard to Side Control with step-by-step execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Triangle Setup]]** - Master Triangle Setup from guard in BJJ. Complete guide covering angle creation, posture breaking, and control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+### [[Knee Shield Retention]]
 
-**[[Triangle to Armbar]]** - Learn Triangle to Armbar transition in BJJ. Step-by-step execution from triangle control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Master Knee Shield Retention in BJJ. Essential defensive framework for maintaining half guard against passing pressure. Success: Beginner 50%, Intermediate 65%, Advanced 80%.
 
-**[[Triangle to Back]]** - Master the Triangle to Back transition in BJJ. Complete guide covering setup, execution, and back take mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Knee Slice]]
 
-**[[Triangle to Omoplata]]** - Learn Triangle to Omoplata transition in BJJ. Step-by-step execution from Triangle Control to Omoplata Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master Knee Slice pass in BJJ. Complete breakdown from half guard to side control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Step-by-step execution included.
 
-**[[Tripod Sweep]]** - Master the Tripod Sweep from Spider Guard in BJJ. Technical breakdown of setup, execution, and follow-ups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Knee Slice Pass]]
 
-**[[Truck Entry]]** - Master Truck Entry in BJJ. Step-by-step execution from Turtle to Truck position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Complete guide to leg hook control.
+Master the Knee Slice Pass in BJJ. High-percentage guard passing technique from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Turtle Transition]]** - Master Turtle transitions in BJJ. Complete guide to attacking and defending from Turtle position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Knee Slice from Half]]
 
-**[[Turtle to Back Control]]** - Master the Turtle to Back Control transition in BJJ. Essential back take from turtle position with systematic control progression. Success: 35/50/70%.
+Master the Knee Slice from Half Guard pass in BJJ. High-percentage guard pass using knee pressure and angle control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Turtle to Back Take]]** - Master Turtle to Back Take in BJJ. Complete guide covering hooks insertion, seatbelt control, and securing back mount. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Knee Slice with Underhook]]
 
-**[[Turtle to Guard]]** - Master Turtle to Guard recovery in BJJ. Essential defensive transition to Closed Guard, Half Guard, or Butterfly. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master the Knee Slice with Underhook pass in BJJ. High-percentage half guard pass combining cutting action with underhook control. Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Turtle to Standing]]** - Master the Turtle to Standing transition in BJJ. Learn systematic escape from Turtle position to Standing Position. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Knee Tap]]
 
-**[[Two-on-One to Back Take]]** - Master the Two-on-One to Back Take in BJJ. Step-by-step execution from standing clinch position. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+Master the Knee Tap takedown in BJJ. Wrestling-based technique from standing to top position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Uchi Mata]]** - Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mount/Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Judo-based technique.
+### [[Knee Through]]
 
-**[[Underhook Pass]]** - Master the Underhook Pass from Half Guard. Complete guide with step-by-step execution, pressure mechanics, and counter strategies. Beginner 45%, Intermediate 60%, Advanced 75%.
+Master the Knee Through pass in BJJ. Systematic half guard passing technique using knee insertion and pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-**[[Underhook Sweep]]** - Master the Underhook Sweep from Half Guard in BJJ. Complete technical breakdown with biomechanical analysis. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Kosoto Gake]]
 
-**[[Underhook Sweep from Half]]** - Master the Underhook Sweep from Half Guard in BJJ. Step-by-step execution from Half Guard Bottom to top position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Learn Kosoto Gake in BJJ. Master this minor outer reaping throw from standing to dominant top position. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.
 
-**[[Upa Escape]]** - Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundamental escape using hip bridge and weight shift. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Kosoto Gari]]
 
-**[[Waiter Sweep]]** - Master the Waiter Sweep from Butterfly Guard in BJJ. High-percentage sweep using underhook and overhook control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step execution from standing clinch to dominant position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-**[[Whizzer]]** - Master the Whizzer overhook control in BJJ. Essential defensive and offensive technique with systematic breakdown. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+### [[Kouchi Gari]]
 
-**[[X Pass]]** - Learn the X Pass in BJJ. Comprehensive guide to executing this dynamic guard pass from half guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master Kouchi Gari in BJJ. Small inner reap takedown from standing clinch. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Complete execution guide.
 
-**[[X-Guard Sweep]]** - Master X-Guard Sweep in BJJ. Complete technical guide with step-by-step execution from X-Guard to Mount/Side Control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+### [[Lasso Guard Pass]]
 
-**[[X-Guard to Ashi Transition]]** - Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg entanglement entry with systematic control breakdown. Beginner 35%, Intermediate 50%, Advanced 65%.
+Master the Lasso Guard Pass in BJJ. Complete breakdown of techniques to defeat lasso hooks and establish top control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Lasso Guard Sweeps]]
+
+Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps from lasso control with step-by-step execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Lasso Guard Variations]]
+
+Master Lasso Guard variations in BJJ. Learn spider lasso, inverted lasso, Russian lasso, and tactical adaptations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Leg Drag Pass]]
+
+Master the Leg Drag Pass in BJJ. Dominant guard passing technique from open guard to side control. Success: 45% beginner, 60% intermediate, 75% advanced.
+
+### [[Leg Drag Setup]]
+
+Master the Leg Drag Setup from open guard. Learn grip sequences, angle creation, and hip control to enter dominant leg drag position. Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Leg Weave Pass]]
+
+Master the Leg Weave Pass in BJJ. Step-by-step pressure passing from half guard to side control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Lockdown Sweeps]]
+
+Master Lockdown Sweeps from half guard. Learn Electric Chair, Old School, and Whipover variations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Long Step]]
+
+Master the Long Step pass in BJJ. Systematic guard passing technique from standing or headquarters. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Long Step Pass]]
+
+Master the Long Step Pass to dominate open guard. Step-by-step execution from standing to side control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Lumberjack Sweep]]
+
+Master the Lumberjack Sweep from half guard in BJJ. Step-by-step execution with underhook control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Matrix Back Take]]
+
+Master the Matrix Back Take from turtle. Step-by-step execution with control maintenance and weight distribution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Morote Seoi Nage]]
+
+Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw from standing to side control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Mount to Armbar]]
+
+Master the Mount to Armbar transition in BJJ. Complete step-by-step execution from Mount to Armbar Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Muscle Sweep]]
+
+Master the Muscle Sweep from Closed Guard to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Learn setup, timing, and variations.
+
+### [[North-South Escape]]
+
+Learn North-South Escape in BJJ. Step-by-step execution from North-South to Guard Recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+
+### [[North-South to Kimura]]
+
+Master North-South to Kimura transition in BJJ. Step-by-step arm isolation and control from dominant position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Old School Sweep]]
+
+Learn Old School Sweep from Half Guard in BJJ. Step-by-step execution to top position. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
+
+### [[Omoplata Sweep]]
+
+Master the Omoplata Sweep from closed guard. Step-by-step execution combining shoulder lock threat with sweeping mechanics. Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Omoplata to Back]]
+
+Learn Omoplata to Back transition in BJJ. Step-by-step execution from Omoplata Control to Back Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Omoplata to Sweep]]
+
+Learn the Omoplata to Sweep transition in BJJ. Step-by-step execution from Omoplata Control to Mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Open Guard to Deep Half]]
+
+Learn Open Guard to Deep Half transition in BJJ. Step-by-step execution from Open Guard Bottom to Deep Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Osoto Gari]]
+
+Master Osoto Gari, the fundamental judo throw adapted for BJJ. Step-by-step takedown from Standing Position to Side Control. Success: Beginner 30%, Intermediate 55%, Advanced 75%.
+
+### [[Ouchi Gari]]
+
+Master Ouchi Gari takedown in BJJ. Step-by-step execution from standing to dominant top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Outside Ashi Entry]]
+
+Master the Outside Ashi Entry from standing. Learn systematic approach to leg entanglements with proper mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Over-Under Pass]]
+
+Master Over-Under Pass in BJJ. Pressure-based passing from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+
+### [[Overhook Sweep]]
+
+Master the Overhook Sweep from closed guard in BJJ. Step-by-step execution guide. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+
+### [[Pendulum Sweep]]
+
+Master the Pendulum Sweep from Closed Guard to Mount. Learn proper execution, timing, and leverage. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
+
+### [[Peruvian Necktie Setup]]
+
+Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from Front Headlock to submission position. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
+
+### [[Position Change]]
+
+Master Position Change transitions in BJJ. Learn systematic advancement from guard to dominant positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Posture Recovery]]
+
+Learn Posture Recovery in BJJ. Defensive technique for regaining upright position from broken posture. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
+
+### [[Pressure Pass]]
+
+Master the Pressure Pass in BJJ. Complete guide to heavy pressure guard passing. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%. Step-by-step execution.
+
+### [[Pull guard]]
+
+Master Pull Guard in BJJ. Learn proper execution from standing to guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete technique breakdown included.
+
+### [[RDLR Pass]]
+
+Learn Reverse De La Riva Pass in BJJ. Step-by-step execution from RDLR Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Re-Guard]]
+
+Master Re-Guard recovery in BJJ. Complete step-by-step execution from inferior positions back to guard. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
+
+### [[Re-Guard from Headquarters]]
+
+Master re-guard recovery from Headquarters position. Learn systematic guard recovery methods. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Reverse De La Riva Recovery]]
+
+Master Reverse De La Riva Recovery in BJJ. Learn how to re-establish guard control from compromised positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Rolling Back Take]]
+
+Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle to Back Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%. Dynamic technique using momentum.
+
+### [[Rolling Guard Pull]]
+
+Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple guard positions with momentum-based execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Rolling Kimura]]
+
+Master the Rolling Kimura in BJJ. Dynamic sweep and submission technique from turtle using kimura grip mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Rolling Kimura Escape]]
+
+Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from Kimura Control to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Rolling to Guard]]
+
+Master Rolling to Guard in BJJ. Dynamic defensive recovery from bottom positions to guard using rotational mechanics. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%.
+
+### [[Russian Tie to Back Take]]
+
+Master the Russian Tie to Back Take in BJJ. Step-by-step execution from standing to back control. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+
+### [[Saddle Defense]]
+
+Learn Saddle Defense in BJJ. Step-by-step escape from one of the most dangerous leg entanglement positions. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
+
+### [[Saddle Entry from Top]]
+
+Master the Saddle Entry from Top in BJJ. Step-by-step leg entanglement technique for entering Ashi Garami positions. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
+
+### [[Sasae Tsurikomi Ashi]]
+
+Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Standing to Opponent Down. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Scissor Sweep]]
+
+Learn Scissor Sweep in BJJ. Step-by-step execution from Closed Guard to Mount. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%. Master this fundamental sweep technique.
+
+### [[Seoi Nage]]
+
+Master Seoi Nage shoulder throw in BJJ. Step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Shin Shield Recovery]]
+
+Master Shin Shield Recovery in BJJ. Essential defensive framing from half guard. Prevent passing and create space. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
+
+### [[Shin to Shin Pull]]
+
+Master the Shin to Shin Pull in BJJ. Step-by-step execution from Standing to Shin-to-Shin Guard. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Shrimp Escape]]
+
+Learn Shrimp Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
+
+### [[Sickle Sweep]]
+
+Master the Sickle Sweep from De La Riva Guard. Step-by-step execution to mount or side control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Side Control Escape]]
+
+Learn Side Control Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Side Control to Mount]]
+
+Master the Side Control to Mount transition in BJJ. Step-by-step execution from side control to dominant mount position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%
+
+### [[Single Leg Entry]]
+
+Learn Single Leg Entry in BJJ. Step-by-step execution from Standing to Single Leg Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Master takedown fundamentals.
+
+### [[Single Leg Finish]]
+
+Learn Single Leg Finish in BJJ. Step-by-step takedown completion from Single Leg control. Success: Beginner 50%, Intermediate 70%, Advanced 85%.
+
+### [[Single Leg Takedown]]
+
+Master the Single Leg Takedown in BJJ. Complete guide covering entries, finishing mechanics, and defensive counters. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Single Leg Variations]]
+
+Master Single Leg Variations in BJJ. Complete takedown guide with multiple finishes from standing position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Single Leg X Entry]]
+
+Master Single Leg X Entry in BJJ. Step-by-step execution from seated guard to Single Leg X. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete technical guide.
+
+### [[Single Leg X Sweep]]
+
+Master the Single Leg X Sweep in BJJ. Step-by-step execution from Single Leg X-Guard to top position. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+
+### [[Single Leg to Back Take]]
+
+Learn Single Leg to Back Take in BJJ. Convert failed takedown to back control position. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Sitting Guard Pull]]
+
+Learn Sitting Guard Pull in BJJ. Step-by-step execution from Standing Position to Open Guard Bottom. Success: Beginner 70%, Intermediate 85%, Advanced 95%.
+
+### [[Smash Pass]]
+
+Master the Smash Pass in BJJ. Complete guide covering pressure passing mechanics from Half Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Snap Down]]
+
+Master the Snap Down in BJJ. Control opponent's posture from standing to create takedown or submission opportunities. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Snap Down to Front Headlock]]
+
+Master Snap Down to Front Headlock. Complete guide from standing clinch to dominant control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Spider Guard Pass]]
+
+Master Spider Guard Pass techniques in BJJ. Complete guide with grip breaking, posture control, and pressure passing. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Spider Guard Sweeps]]
+
+Learn Spider Guard sweeps in BJJ. Triangle setup, omoplata sweep, and elevator sweep with step-by-step execution. Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Spider Guard Variations]]
+
+Master Spider Guard variations in BJJ. Learn sleeve control mechanics, distance management, and sweep setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Spider Guard to Omoplata]]
+
+Master the Spider Guard to Omoplata transition in BJJ. Complete guide with setup, execution steps, and common counters. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+
+### [[Sprawl]]
+
+Master the Sprawl takedown defense in BJJ. Essential defensive technique against single and double leg attacks. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
+
+### [[Sprawl Defense]]
+
+Master the sprawl defense in BJJ. Essential takedown defense technique with hip drive and base mechanics. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
+
+### [[Stack Defense]]
+
+Learn Stack Defense in BJJ. Counter stack passes with frame management, hip escape mechanics, and angle recovery. Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Stack Pass]]
+
+Master the Stack Pass in BJJ. High-pressure guard passing technique using opponent's legs to create passing angle. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
+
+### [[Standing to Single Leg X]]
+
+Learn Standing to Single Leg X transition in BJJ. Step-by-step entry from standing guard to leg entanglement position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Standing up]]
+
+Master the Technical Standup in BJJ. Learn proper base mechanics, hip elevation, and defensive positioning. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+
+### [[Standing up in Base]]
+
+Master the technical standup from bottom position in BJJ. Step-by-step execution from defensive positions to standing. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
+
+### [[Sumi Gaeshi]]
+
+Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, execution, and sweep mechanics from standing or seated guard. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Switch to Triangle]]
+
+Master the Switch to Triangle in BJJ. Learn when and how to transition from failed attacks to triangle choke. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Tai Otoshi]]
+
+Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution from standing clinch to dominant position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Takedown Defense]]
+
+Master takedown defense in BJJ and MMA. Learn sprawl mechanics, grip fighting strategies, and counter-attacks. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
+
+### [[Tani Otoshi]]
+
+Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step execution from standing to side control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Tap Out]]
+
+Master the critical tap out protocol in BJJ. Learn proper tap signals, safety awareness, and submission defense fundamentals. Success rates vary by submission awareness and timing.
+
+### [[Technical Stand Up to Single Leg]]
+
+Master Technical Stand Up to Single Leg in BJJ. Execute safe standup from bottom positions and attack with single leg takedown. Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Technical Stand-up]]
+
+Master Technical Stand-up in BJJ. Essential escape from bottom to standing. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%. Complete guide.
+
+### [[Technical Standup]]
+
+Master the Technical Standup escape in BJJ. Step-by-step execution from grounded to standing position. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
+
+### [[Tomahawk Sweep]]
+
+Master the Tomahawk Sweep from X-Guard in BJJ. Dynamic sweep using hook leverage and angle creation. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Tomoe Nage]]
+
+Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing to guard positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete execution guide.
+
+### [[Toreando Pass]]
+
+Master the Toreando Pass in BJJ. Control opponent's legs, create angles, pass to dominant position. Success: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Transition to Mount]]
+
+Master the fundamental transition from side control to mount in BJJ. Step-by-step execution, timing, pressure control. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Transition to North-South]]
+
+Master the North-South transition in BJJ. Control technique from Side Control to North-South position. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
+
+### [[Transition to Omoplata]]
+
+Learn Transition to Omoplata in BJJ. Complete guide to entering omoplata control from guard positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
+
+### [[Transition to Truck]]
+
+Master the Truck transition in BJJ. Step-by-step execution from Turtle to Truck position. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%. Complete breakdown.
+
+### [[Triangle Escape]]
+
+Master Triangle Escape in BJJ. Defensive strategies to escape triangle chokes from various positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Triangle Setup]]
+
+Master Triangle Setup from guard in BJJ. Complete guide covering angle creation, posture breaking, and control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Triangle to Armbar]]
+
+Learn Triangle to Armbar transition in BJJ. Step-by-step execution from triangle control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Triangle to Back]]
+
+Master the Triangle to Back transition in BJJ. Complete guide covering setup, execution, and back take mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Triangle to Omoplata]]
+
+Learn Triangle to Omoplata transition in BJJ. Step-by-step execution from Triangle Control to Omoplata Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+
+### [[Tripod Sweep]]
+
+Master the Tripod Sweep from Spider Guard in BJJ. Technical breakdown of setup, execution, and follow-ups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Truck Entry]]
+
+Master Truck Entry in BJJ. Step-by-step execution from Turtle to Truck position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Complete guide to leg hook control.
+
+### [[Turtle Transition]]
+
+Master Turtle transitions in BJJ. Complete guide to attacking and defending from Turtle position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Turtle to Back Control]]
+
+Master the Turtle to Back Control transition in BJJ. Essential back take from turtle position with systematic control progression. Success: 35/50/70%.
+
+### [[Turtle to Back Take]]
+
+Master Turtle to Back Take in BJJ. Complete guide covering hooks insertion, seatbelt control, and securing back mount. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Turtle to Guard]]
+
+Master Turtle to Guard recovery in BJJ. Essential defensive transition to Closed Guard, Half Guard, or Butterfly. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Turtle to Standing]]
+
+Master the Turtle to Standing transition in BJJ. Learn systematic escape from Turtle position to Standing Position. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Two-on-One to Back Take]]
+
+Master the Two-on-One to Back Take in BJJ. Step-by-step execution from standing clinch position. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
+
+### [[Uchi Mata]]
+
+Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mount/Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Judo-based technique.
+
+### [[Underhook Pass]]
+
+Master the Underhook Pass from Half Guard. Complete guide with step-by-step execution, pressure mechanics, and counter strategies. Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Underhook Sweep]]
+
+Master the Underhook Sweep from Half Guard in BJJ. Complete technical breakdown with biomechanical analysis. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Underhook Sweep from Half]]
+
+Master the Underhook Sweep from Half Guard in BJJ. Step-by-step execution from Half Guard Bottom to top position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Upa Escape]]
+
+Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundamental escape using hip bridge and weight shift. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[Waiter Sweep]]
+
+Master the Waiter Sweep from Butterfly Guard in BJJ. High-percentage sweep using underhook and overhook control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[Whizzer]]
+
+Master the Whizzer overhook control in BJJ. Essential defensive and offensive technique with systematic breakdown. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[X Pass]]
+
+Learn the X Pass in BJJ. Comprehensive guide to executing this dynamic guard pass from half guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
+
+### [[X-Guard Sweep]]
+
+Master X-Guard Sweep in BJJ. Complete technical guide with step-by-step execution from X-Guard to Mount/Side Control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+
+### [[X-Guard to Ashi Transition]]
+
+Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg entanglement entry with systematic control breakdown. Beginner 35%, Intermediate 50%, Advanced 65%.
 
 
