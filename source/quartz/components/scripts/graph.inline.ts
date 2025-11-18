@@ -712,12 +712,12 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       const node = nodeRenderData.find((n) => n.simulationData.id === slug)
       if (node) {
         const baseRadius = nodeRadius(node.simulationData)
-        const scale = 1.3 + Math.sin(ringPhase) * 0.2 // 1.3x to 1.5x range
-        const alpha = 0.3 + Math.sin(ringPhase) * 0.2 // 30% to 50% opacity
+        const scale = 1.3 + Math.sin(ringPhase) * 3.0
+        const alpha = 0.3 + Math.sin(ringPhase) * 0.3
 
         currentNodeRing.clear()
         currentNodeRing.circle(0, 0, baseRadius * scale)
-        currentNodeRing.stroke({ width: 2, color: node.color, alpha })
+        currentNodeRing.stroke({ width: 3, color: node.color, alpha }) // Thicker stroke too
       }
     } else if (currentNodeRing && hoveredNodeId !== null) {
       // Clear ring when hovering (paused state)
