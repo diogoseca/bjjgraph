@@ -131,40 +131,117 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   const neighbourhood = new Set<SimpleSlug>()
-  const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
 
-  // For position hubs, aggregate links from Bottom and Top role pages
-  const isPositionHub = slug.toLowerCase().startsWith('positions/') &&
-                        !slug.toLowerCase().endsWith('/bottom') &&
-                        !slug.toLowerCase().endsWith('/top')
+  // Define the 6 main category hub pages
+  const categoryHubs = new Set<SimpleSlug>([
+    'positions' as SimpleSlug,
+    'transitions' as SimpleSlug,
+    'submissions' as SimpleSlug,
+    'systems' as SimpleSlug,
+    'principles' as SimpleSlug,
+    'learning' as SimpleSlug
+  ])
 
-  if (isPositionHub) {
-    const bottomPage = (slug + '/bottom') as SimpleSlug
-    const topPage = (slug + '/top') as SimpleSlug
+  // Determine page type and apply appropriate graph logic
+  // Strip trailing slash from slug to avoid double slashes when concatenating
+  const slugClean = slug.replace(/\/$/, '')
+  const slugLower = slugClean.toLowerCase()
+  const isHomepage = slugClean === 'index'
+  const isCategoryHub = categoryHubs.has(slugLower as SimpleSlug)
 
-    // Add role pages to search queue if they exist in the data
-    if (data.has(bottomPage)) wl.unshift(bottomPage)
-    if (data.has(topPage)) wl.unshift(topPage)
-  }
+  console.log('[Graph Debug] slug:', slug, 'slugClean:', slugClean, 'slugLower:', slugLower, 'isHomepage:', isHomepage, 'isCategoryHub:', isCategoryHub)
 
-  if (depth >= 0) {
-    while (depth >= 0 && wl.length > 0) {
-      // compute neighbours
-      const cur = wl.shift()!
-      if (cur === "__SENTINEL") {
-        depth--
-        wl.push("__SENTINEL")
-      } else {
-        neighbourhood.add(cur)
-        const outgoing = links.filter((l) => l.source === cur)
-        const incoming = links.filter((l) => l.target === cur)
-        wl.push(...outgoing.map((l) => l.target), ...incoming.map((l) => l.source))
+  if (isHomepage) {
+    // Homepage: Show only the 6 main category nodes
+    categoryHubs.forEach(hub => {
+      // Find the actual slug (any case) that matches this hub
+      for (const [nodeSlug] of data.entries()) {
+        if (nodeSlug.toLowerCase() === hub) {
+          neighbourhood.add(nodeSlug)
+          break
+        }
+      }
+    })
+  } else if (isCategoryHub) {
+    // Category hub page: Show only items within that category
+
+    // Add the category hub page itself
+    neighbourhood.add(slugClean as SimpleSlug)
+
+    // Add all children in this category
+    const categoryPrefix = slugLower + '/'
+    console.log('[Graph Debug] Category hub detected, prefix:', categoryPrefix)
+    let childCount = 0
+    for (const [nodeSlug] of data.entries()) {
+      const nodeLower = nodeSlug.toLowerCase()
+      // Include items that start with category prefix, but exclude Bottom/Top variants
+      if (nodeLower.startsWith(categoryPrefix) &&
+          !nodeLower.endsWith('/bottom') &&
+          !nodeLower.endsWith('/top')) {
+        neighbourhood.add(nodeSlug)
+        childCount++
       }
     }
+    console.log('[Graph Debug] Category hub added', childCount, 'children, total neighbourhood size:', neighbourhood.size)
   } else {
-    validLinks.forEach((id) => neighbourhood.add(id))
-    if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
+    // All other pages: Show depth-1 connections, excluding category hubs
+    const wl: (SimpleSlug | "__SENTINEL")[] = [slugClean as SimpleSlug, "__SENTINEL"]
+
+    // For position hubs, aggregate links from Bottom and Top role pages
+    const isPositionHub = slugLower.startsWith('positions/') &&
+                          !slugLower.endsWith('/bottom') &&
+                          !slugLower.endsWith('/top')
+
+    console.log('[Graph Debug] isPositionHub:', isPositionHub)
+
+    if (isPositionHub) {
+      const bottomSlugToFind = slugLower + '/bottom'
+      const topSlugToFind = slugLower + '/top'
+
+      console.log('[Graph Debug] Looking for role pages:', bottomSlugToFind, topSlugToFind)
+
+      // Find and collect role pages first (to avoid sentinel index shifting)
+      const rolePagesToAdd: SimpleSlug[] = []
+      for (const [nodeSlug] of data.entries()) {
+        const nodeLower = nodeSlug.toLowerCase()
+        if (nodeLower === bottomSlugToFind || nodeLower === topSlugToFind) {
+          console.log('[Graph Debug] Found role page:', nodeSlug)
+          rolePagesToAdd.push(nodeSlug)
+        }
+      }
+
+      console.log('[Graph Debug] Found', rolePagesToAdd.length, 'role pages to add')
+
+      // Insert all role pages at once before sentinel
+      const sentinelIndex = wl.indexOf("__SENTINEL")
+      wl.splice(sentinelIndex, 0, ...rolePagesToAdd)
+      console.log('[Graph Debug] Worklist after splice:', wl)
+    }
+
+    if (depth >= 0) {
+      while (depth >= 0 && wl.length > 0) {
+        // compute neighbours
+        const cur = wl.shift()!
+        if (cur === "__SENTINEL") {
+          depth--
+          wl.push("__SENTINEL")
+        } else {
+          neighbourhood.add(cur)
+          const outgoing = links.filter((l) => l.source === cur)
+          const incoming = links.filter((l) => l.target === cur)
+          wl.push(...outgoing.map((l) => l.target), ...incoming.map((l) => l.source))
+        }
+      }
+    } else {
+      validLinks.forEach((id) => neighbourhood.add(id))
+      if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
+    }
+
+    // Remove category hub pages from neighbourhood for regular pages
+    categoryHubs.forEach(hub => neighbourhood.delete(hub))
   }
+
+  console.log('[Graph Debug] Final neighbourhood size before filtering:', neighbourhood.size, 'items:', Array.from(neighbourhood).slice(0, 10))
 
   const nodes = [...neighbourhood]
     .filter((url) => {
