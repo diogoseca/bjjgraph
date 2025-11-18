@@ -56,9 +56,16 @@ const defaultOptions: GraphOptions = {
 }
 
 export default ((opts?: GraphOptions) => {
-  const Graph: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+  const Graph: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
+
+    // Hide graph on homepage (index page)
+    const isHomepage = fileData.slug === "index"
+    if (isHomepage) {
+      return null
+    }
+
     return (
       <div class={classNames(displayClass, "graph")}>
         <div class="graph-outer">
