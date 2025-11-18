@@ -26,7 +26,29 @@ export function pageResources(
   staticResources: StaticResources,
 ): StaticResources {
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
-  const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
+  const contentIndexGzPath = joinSegments(baseDir, "static/contentIndex.json.gz")
+
+  // Try to load gzipped version first (much smaller), fallback to uncompressed
+  const contentIndexScript = `
+    const fetchData = (async () => {
+      try {
+        // Try gzipped version first (saves ~70-80% bandwidth)
+        const gzResponse = await fetch("${contentIndexGzPath}")
+        if (gzResponse.ok) {
+          const compressed = await gzResponse.arrayBuffer()
+          // Use browser's native DecompressionStream API (supported in modern browsers)
+          const ds = new DecompressionStream('gzip')
+          const decompressedStream = new Response(compressed).body.pipeThrough(ds)
+          const decompressed = await new Response(decompressedStream).text()
+          return JSON.parse(decompressed)
+        }
+      } catch (e) {
+        console.warn('Failed to load compressed content index, falling back to uncompressed:', e)
+      }
+
+      // Fallback to uncompressed version
+      return fetch("${contentIndexPath}").then(data => data.json())
+    })()`
 
   return {
     css: [joinSegments(baseDir, "index.css"), ...staticResources.css],

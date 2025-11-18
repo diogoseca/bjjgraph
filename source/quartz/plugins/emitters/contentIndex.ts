@@ -8,6 +8,10 @@ import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
+import { gzip } from "zlib"
+import { promisify } from "util"
+
+const gzipAsync = promisify(gzip)
 
 export type ContentIndex = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -26,6 +30,8 @@ interface Options {
   rssLimit?: number
   rssFullHtml: boolean
   includeEmptyFiles: boolean
+  contentTruncateLength?: number
+  enableGzipCompression?: boolean
 }
 
 const defaultOptions: Options = {
@@ -34,6 +40,8 @@ const defaultOptions: Options = {
   rssLimit: 10,
   rssFullHtml: false,
   includeEmptyFiles: true,
+  contentTruncateLength: 3000, // Truncate content to 3000 chars to reduce file size
+  enableGzipCompression: true, // Gzip compress to stay under Cloudflare 25MB limit
 }
 
 function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
@@ -165,18 +173,41 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           // for the RSS feed
           delete content.description
           delete content.date
+
+          // Truncate content to stay under Cloudflare Pages 25MB file size limit
+          if (opts?.contentTruncateLength && content.content.length > opts.contentTruncateLength) {
+            content.content = content.content.slice(0, opts.contentTruncateLength)
+          }
+
           return [slug, content]
         }),
       )
 
+      const jsonContent = JSON.stringify(simplifiedIndex)
+
+      // Option 1: Write uncompressed JSON (for fallback)
       emitted.push(
         await write({
           ctx,
-          content: JSON.stringify(simplifiedIndex),
+          content: jsonContent,
           slug: fp,
           ext: ".json",
         }),
       )
+
+      // Option 2: Write gzip compressed version if enabled
+      if (opts?.enableGzipCompression) {
+        const compressed = await gzipAsync(Buffer.from(jsonContent, "utf-8"))
+        const fpGz = joinSegments("static", "contentIndex") as FullSlug
+        emitted.push(
+          await write({
+            ctx,
+            content: compressed, // Write as binary buffer
+            slug: fpGz,
+            ext: ".json.gz",
+          }),
+        )
+      }
 
       return emitted
     },
