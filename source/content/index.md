@@ -42,7 +42,7 @@ This isn't just a technique database. Every position page includes success rate 
 
 The content is structured as a state machine because that's how BJJ actually works—you're always in some position, trying to transition to a better one. We just made it explicit instead of keeping it implicit in your instructor's head.
 
-Use the **Explorer** (left sidebar) to browse by category. Use **Search** to find specific moves. Use the **Graph View** (top) to see how everything connects visually. Click any [[wikilink]] to jump to that concept and discover related techniques.
+Use the **Explorer** (left sidebar) to browse by category. Use **Search** to find specific moves. Use the **Graph View** (top) to see how everything connects visually. Click any [[.|link]] to jump to that concept and discover related techniques.
 
 ## Good Entry Points
 
