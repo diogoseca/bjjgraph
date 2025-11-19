@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <!-- Glow effect for nodes -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Colors -->
+    <style>
+      .connection { stroke: #404040; stroke-width: 1.5; opacity: 0.4; }
+      .position { fill: #4CAF50; } /* Green - positions */
+      .submission { fill: #E53935; } /* Red - submissions */
+      .transition { fill: #42A5F5; } /* Blue - transitions */
+      .system { fill: #AB47BC; } /* Purple - systems */
+      .principle { fill: #7E57C2; } /* Deep purple - principles */
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" fill="#1a1a1a" rx="20"/>
+  
+  <!-- Connections (draw first so nodes appear on top) -->
+  <g class="connections">
+    <!-- Central hub connections -->
+    <line x1="100" y1="100" x2="60" y2="50" class="connection"/>
+    <line x1="100" y1="100" x2="140" y2="50" class="connection"/>
+    <line x1="100" y1="100" x2="170" y2="80" class="connection"/>
+    <line x1="100" y1="100" x2="170" y2="140" class="connection"/>
+    <line x1="100" y1="100" x2="140" y2="170" class="connection"/>
+    <line x1="100" y1="100" x2="60" y2="170" class="connection"/>
+    <line x1="100" y1="100" x2="30" y2="140" class="connection"/>
+    <line x1="100" y1="100" x2="30" y2="80" class="connection"/>
+    
+    <!-- Outer connections -->
+    <line x1="60" y1="50" x2="140" y2="50" class="connection"/>
+    <line x1="140" y1="50" x2="170" y2="80" class="connection"/>
+    <line x1="170" y1="80" x2="170" y2="140" class="connection"/>
+    <line x1="170" y1="140" x2="140" y2="170" class="connection"/>
+    <line x1="140" y1="170" x2="60" y2="170" class="connection"/>
+    <line x1="60" y1="170" x2="30" y2="140" class="connection"/>
+    <line x1="30" y1="140" x2="30" y2="80" class="connection"/>
+    <line x1="30" y1="80" x2="60" y2="50" class="connection"/>
+    
+    <!-- Cross connections -->
+    <line x1="60" y1="50" x2="170" y2="140" class="connection"/>
+    <line x1="140" y1="50" x2="60" y2="170" class="connection"/>
+    <line x1="170" y1="80" x2="30" y2="140" class="connection"/>
+  </g>
+  
+  <!-- Nodes -->
+  <g class="nodes" filter="url(#glow)">
+    <!-- Center - Large position node (dominant concept) -->
+    <circle cx="100" cy="100" r="14" class="position"/>
+    
+    <!-- Ring of interconnected concepts -->
+    <circle cx="60" cy="50" r="9" class="system"/>
+    <circle cx="140" cy="50" r="9" class="submission"/>
+    <circle cx="170" cy="80" r="7" class="transition"/>
+    <circle cx="170" cy="140" r="9" class="submission"/>
+    <circle cx="140" cy="170" r="10" class="position"/>
+    <circle cx="60" cy="170" r="8" class="principle"/>
+    <circle cx="30" cy="140" r="10" class="position"/>
+    <circle cx="30" cy="80" r="7" class="transition"/>
+  </g>
+</svg>
