@@ -42,7 +42,6 @@ jobs:
   deploy:
     needs: build-and-test
     env:
-      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
       POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
     permissions:
@@ -76,14 +75,6 @@ jobs:
           ls -la public/
         working-directory: ./source
 
-      - name: Publish IndexNow key file
-        if: ${{ env.INDEXNOW_KEY != '' }}
-        run: |
-          # Generate files dynamically to prevent leaking the IndexNow key in the repo.
-          # This writes <key>.txt into the published site root as required by the protocol.
-          printf "%s" "$INDEXNOW_KEY" > "${INDEXNOW_KEY}.txt"
-        working-directory: ./source/public
-
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
@@ -114,8 +105,6 @@ jobs:
       - deploy
       - lighthouse-ci
     runs-on: ubuntu-latest
-    env:
-      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
     permissions:
       contents: read
     steps:
@@ -124,5 +113,5 @@ jobs:
         with:
           # The location of the sitemap must start with http(s); XML Sitemap, Sitemap index, RSS and Atom formats are supported.
           sitemap-location: "https://bjjgraph.org/sitemap.xml"
-          # The IndexNow key obtained from the service and stored as a GitHub secret.
-          key: ${{ secrets.INDEXNOW_KEY }}
+          # The IndexNow key - must match the key file at https://bjjgraph.org/77f7cddd8fa9441797b0c5b19106919a.txt
+          key: "77f7cddd8fa9441797b0c5b19106919a"
