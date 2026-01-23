@@ -1,0 +1,43 @@
+.edit-on-github {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background-color: var(--lightgray);
+  color: var(--darkgray);
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  z-index: 100;
+
+  &:hover {
+    background-color: var(--secondary);
+    color: var(--light);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+
+  svg {
+    flex-shrink: 0;
+  }
+
+  span {
+    @media (max-width: 600px) {
+      // Hide text on mobile, show only icon
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    // Smaller button on mobile
+    padding: 10px;
+    bottom: 16px;
+    right: 16px;
+  }
+}

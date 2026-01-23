@@ -280,7 +280,7 @@ jobs:
                - Suggested new articles
 
             5. **Ensure CSV exists**
-               Check `todo/suggested_new_files.csv` - create if missing with headers: `relative_path,plan`
+               Check `tests/artifacts/suggested_new_files.csv` - create if missing with headers: `relative_path,plan`
 
             Begin processing. Focus on high-intent questions that match user search behavior.
           claude_args: |
@@ -466,7 +466,7 @@ jobs:
             - "SEO TODO:", "[Add keywords]", "PLACEHOLDER"
             - "DRAFT", "WIP", "TBD", "Coming soon"
             - Vague language: "might work", "could be effective", "possibly"
-            - Internal paths: `/todo/`, `/docs/`
+            - Internal paths: `/tests/artifacts/`, `/docs/`
             - Incomplete sentences or "..." trails
 
             **ADD if missing:**
@@ -480,7 +480,7 @@ jobs:
             ## New Article Suggestions
 
             If PAA reveals content gaps or you identify opportunities:
-            - Append to `todo/suggested_new_files.csv`
+            - Append to `tests/artifacts/suggested_new_files.csv`
             - Format: `relative_path,"plan with why/target/sections"`
             - Example: `source/content/Principles/Base-Maintenance.md,"Core principle referenced in 20+ positions; target: beginners; sections: definition, mechanics, drills; gap: no dedicated article exists"`
 
@@ -527,7 +527,7 @@ jobs:
               fixed=false
 
               while [[ $attempts -lt 3 ]]; do
-                ((attempts++))
+                ((++attempts))
                 echo "    Attempt $attempts/3..."
 
                 if ./scripts/fix_content.sh "$file"; then

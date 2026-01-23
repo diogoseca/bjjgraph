@@ -29,7 +29,7 @@ const config: QuartzConfig = {
       "*.bak.*",
       "TEMPLATE.*",
       "**/TEMPLATE.*",
-      "**/*.json",
+      "**/!(bjj-graph).json",
       "**/*.jinja2",
     ],
     defaultDateType: "created",

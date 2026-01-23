@@ -21,7 +21,7 @@ import NotDesktop from "./NotDesktop"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
-import DevelopmentBanner from "./DevelopmentBanner"
+import EditOnGithub from "./EditOnGithub"
 
 export {
   ArticleTitle,
@@ -47,5 +47,5 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
-  DevelopmentBanner,
+  EditOnGithub,
 }

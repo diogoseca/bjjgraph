@@ -4,16 +4,16 @@
 # Generate list of files that need fixing
 #
 # Validates all JSON files and outputs:
-# - Failed files to: todo/all_content_files_to_fix.txt
-# - Passed files to: todo/all_content_validated_and_ready_to_hook.txt
+# - Failed files to: tests/artifacts/all_content_files_to_fix.txt
+# - Passed files to: tests/artifacts/all_content_validated_and_ready_to_hook.txt
 #
 # Usage: ./scripts/regenerate_list_of_content_files_to_fix.sh
 ################################################################################
 
 set -e
 
-OUTPUT_FAILED="todo/all_content_files_to_fix.txt"
-OUTPUT_PASSED="todo/all_content_validated_and_ready_to_hook.txt"
+OUTPUT_FAILED="tests/artifacts/all_content_files_to_fix.txt"
+OUTPUT_PASSED="tests/artifacts/all_content_validated_and_ready_to_hook.txt"
 
 echo "Counting files..."
 # Count total files first

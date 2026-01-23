@@ -1,454 +1,335 @@
-# BJJ Graph Project Documentation
+# BJJGraph - AI Development Guide
 
-This file contains essential information about the BJJ Graph project for AI assistants working on the codebase.
-
-## Project Overview
-
-BJJ Graph is a comprehensive knowledge graph for Brazilian Jiu-Jitsu, built using Quartz (a static site generator). The site maps out positions, transitions, submissions, principles, and systems in BJJ with detailed technical analysis, expert insights, and structured data.
-
-**Site URL**: https://bjjgraph.org
-**Primary Audience:** AI assistants (Claude Code, etc.) - focus on content standards, validation, conventions
+BJJ knowledge graph and state machine as a static site. **Site:** https://bjjgraph.org | **Repo:** https://github.com/diogoseca/bjjgraph
 
 ---
 
-## Architecture: JSON-First Content System
+## 1. AI WORKFLOW (MANDATORY)
 
-BJJ Graph uses a **JSON → Jinja2 → Markdown** pipeline:
+### Step 1: Read Documentation (In Order)
 
-1. **Source of Truth:** `.json` files in `source/templates/` contain structured content data
-   - `Positions.json` - Position state data
-   - `Transitions.json` - Transition technique data
-   - `Submissions.json` - Submission technique data
-   - `Principles.json` - Conceptual principles
-   - `Systems.json` - Expert systems
+```
+1. CLAUDE.md          ← You are here
+2. docs/Architecture.md   ← JSON pipeline, Position model
+3. docs/Content.md        ← Standards, validation rules
+4. docs/SEO.md            ← Schema markup, A/B testing
+```
 
-2. **Templates:** `.jinja2` files generate markdown from JSON
-   - Located in `source/templates/`
-   - Include schema markup (HowTo, FAQ, BreadcrumbList)
-   - Include A/B testing metadata (`data-sections` attributes)
+### Step 2: Ask Critical Questions
 
-3. **Output:** Generated `.md` files published to `source/content/`
+Before starting any task, clarify:
 
-**Key Scripts:**
-- `scripts/validate_json.py` - Validates JSON against schema (run before commits)
-- `scripts/json_to_md.py` - Regenerates markdown from JSON source
-- `scripts/fix_content.sh` - Auto-fills TODOs in JSON using template structure
-- `scripts/select_oldest_files.sh` - Selects files for automated improvement
+| Question | Why It Matters |
+|----------|----------------|
+| **Scope** | What files/systems does this touch? |
+| **Context** | What existing patterns should I follow? |
+| **Constraints** | What must NOT change? |
+| **Success** | How will we verify this worked? |
 
-**Content Improvement Bot:** `.github/workflows/content-improvement-bot.yml` runs daily, improves 2 files per run with Claude API
+### Step 3: Deploy Subagents
 
----
+Match task to engineering personality, then deploy parallel or sequential:
 
-## Position Architecture: "Playing As" Model
+| Personality | Best For | Example Tasks |
+|-------------|----------|---------------|
+| **Systematic Migrator** | Repetitive, pattern-following | Bulk content updates, format changes |
+| **Complexity Handler** | Multi-step logic, debugging | Validation errors, template fixes |
+| **Infrastructure Specialist** | CI/CD, deployment, performance | GitHub Actions, build optimization |
+| **Ruthless Editor** | Documentation, DRY, deletion | Consolidate docs, remove dead code |
+| **Paranoid Tester** | Edge cases, validation | Schema validation, error handling |
+| **Architect** | System design, refactoring | New features, structural changes |
 
-BJJ Graph positions follow a chess-like architecture where the position represents a game state and Top/Bottom represent the roles you play.
+**Parallel:** Independent tasks (audit multiple files, run multiple checks)
+**Sequential:** Dependent tasks (validate → fix → regenerate → build)
 
-### Core Concepts
+### Step 4: Update Documentation
 
-**Position (Hub Page)** - The game state configuration
-- Represents the position itself (e.g., "Mount", "Closed Guard", "Side Control")
-- Canonical entry point and primary graph node
-- Bifurcates into two role-specific pages: Top and Bottom
-- File structure: `Positions/Mount.md` (hub), `Positions/Mount/Bottom.md`, `Positions/Mount/Top.md`
-
-**Top/Bottom (Role Pages)** - Playing as one side
-- **User-facing labels:** "Top" / "Bottom" (displayed in UI, headings, navigation)
-- **Internal naming:** `playing_as`, `role` (use in schemas, code comments, variable names)
-- Separate pages because they represent **opposing roles** with:
-  - Different objectives (Top: maintain control/submit; Bottom: escape/reverse)
-  - Different techniques (sweeps vs. submissions)
-  - Different strategic frameworks
-- **Not "perspectives"** - they are distinct roles you play, like playing White vs. Black in chess
-
-### Chess Analogy
-
-Think of a BJJ position like a chess board configuration:
-- **Position = Board state** (e.g., "King's Gambit opening" or "Mount")
-- **Top/Bottom = Which side you're playing** (White or Black)
-- The board configuration exists independently of which player you are
-- You play ONE role at a time with completely different objectives
-
-### Graph Architecture Implications
-
-**Graph nodes represent positions (hub pages), not roles:**
-- Hub page is the canonical graph node (e.g., "Mount")
-- Bottom/Top pages excluded from graph to avoid redundancy
-- Prevents graph clutter: No "Mount Bottom", "Mount Top", "Mount Hub" as separate nodes
-- User mental model: Graph shows position-to-position relationships
-
-**Hub page aggregates links from both roles:**
-- Bottom page links (escapes, reversals) → Added to hub's graph connections
-- Top page links (submissions, advancements) → Added to hub's graph connections
-- Result: Hub connects to all related positions from both roles
-
-**Navigation behavior:**
-- Clicking hub node in graph → Navigates to hub page
-- Hub page provides overview + navigation to Bottom/Top roles
-- Direct navigation to Bottom/Top pages still works via relative links
+Follow **C-UD pattern** after completing work:
+- **Create** new docs only if essential (prefer updating existing)
+- **Update** existing docs with new learnings
+- **Delete** outdated information immediately
 
 ---
 
-## Project Structure
+## 2. FORBIDDEN ACTIONS
+
+### Never Do These
+
+| Action | Why | Do Instead |
+|--------|-----|------------|
+| Edit generated `.md` in `content/` | Overwrites on regeneration | Edit `.json` source in `templates/` |
+| Skip validation before commits | Breaks build, bad data | Run `python3 scripts/validate_json.py` |
+| Create files >1000 lines | Unmaintainable | Split into focused modules |
+| Add docs without updating index | Orphaned content | Update relevant README/index |
+| Commit secrets or API keys | Security breach | Use `.env` files, check `.gitignore` |
+| Guess at wikilink targets | Broken links | Verify file exists first |
+| Add emojis to content files | Inconsistent styling | Only use in docs if necessary |
+
+### File Size Limits
+
+- **Code files:** <500 lines preferred, <1000 max
+- **Documentation:** <300 lines preferred
+- **JSON source files:** No limit (data files)
+
+---
+
+## 3. PROJECT STRUCTURE
 
 ```
 bjjgraph/
+├── CLAUDE.md                    # AI workflow (this file)
+├── README.md                    # Quick start for contributors
+├── PARTNERS.md                  # Partnership & sponsorship info
+├── docs/
+│   ├── Architecture.md          # JSON pipeline, Position model, A/B testing
+│   ├── Content.md               # Standards, validation, expert insights
+│   └── SEO.md                   # Schema markup, keywords, analytics
+├── scripts/
+│   ├── validate_json.py         # JSON schema validation
+│   ├── json_to_md.py            # Regenerate markdown from JSON
+│   ├── fix_content.sh           # Auto-fill TODOs in JSON
+│   └── select_oldest_files.sh   # File selection for bot
 ├── source/
-│   ├── content/                      # Generated markdown files (95 positions, 71 transitions, 49 submissions)
-│   │   ├── CONTRIBUTING-YAML-SCHEMA.md  # Complete schema documentation
-│   │   ├── Positions/                # Position pages
-│   │   ├── Transitions/              # Transition pages
-│   │   ├── Submissions/              # Submission pages
-│   │   ├── Principles/               # Conceptual principles
-│   │   ├── Systems/                  # Expert systems
-│   │   └── BJJ-*.md                  # Hub pages (Positions, Transitions, Submissions, Escapes, Guard Passing)
-│   └── templates/                    # JSON source files + Jinja2 templates
-│       ├── Positions.json            # All position data
-│       ├── Transitions.json          # All transition data
-│       ├── Submissions.json          # All submission data
-│       ├── *.md.jinja2               # Templates for markdown generation
-│       └── Positions/                # Position-specific templates (SINGLE, HUB, TOP, BOTTOM)
-├── docs/                             # Completed work & reference guides
-├── todo/                             # Active development tasks (3 files)
-├── scripts/                          # Python automation scripts
-└── quartz/                           # Quartz static site generator
+│   ├── content/                 # Generated markdown (DO NOT EDIT DIRECTLY)
+│   │   ├── Positions/           # 95 position pages
+│   │   ├── Transitions/         # 71 transition pages
+│   │   ├── Submissions/         # 49 submission pages
+│   │   └── CONTRIBUTING-YAML-SCHEMA.md  # Complete schema reference
+│   ├── templates/               # JSON source + Jinja2 templates
+│   │   ├── Positions.json       # Position data (EDIT THIS)
+│   │   ├── Transitions.json     # Transition data (EDIT THIS)
+│   │   ├── Submissions.json     # Submission data (EDIT THIS)
+│   │   └── *.md.jinja2          # Template files
+│   └── quartz/                  # Static site generator components
+├── tests/
+│   └── artifacts/               # Validation reports, status files
+└── .github/
+    └── workflows/
+        └── content-improvement-bot.yml  # Daily content automation
 ```
 
----
-
-## Content Standards for AI Assistants
-
-### Schema Reference
-
-**Primary documentation:** `source/content/CONTRIBUTING-YAML-SCHEMA.md` - Complete data structure for all content types
-
-**Template specifications:** Each content type has a `.json` template file in `source/templates/`:
-- `Positions.json` - Position state structure with transitions, decision trees
-- `Transitions.json` - Technique execution structure with setup, steps, counters
-- `Submissions.json` - Submission structure with SAFETY-FIRST requirements
-- `Principles.json` - Conceptual principle structure
-- `Systems.json` - Expert system structure
-
-### Core Quality Standards
-
-When creating or improving content:
-
-**YAML Frontmatter:**
-- Title: `[Technique Name] | [Type] | BJJ Graph`
-- Description: 150-160 characters, include success rates for techniques
-- Tags: category, subcategory, skill level (minimum 3)
-
-**Success Rates (CRITICAL):**
-- Ordering: Beginner ≤ Intermediate ≤ Advanced (strictly enforced)
-- Values: 0-100 integers only
-- All three skill levels required
-- Realistic progression: typical 10-15% increase per level
-- Format: `(Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)`
-
-**Wikilinks:**
-- Format: `[[Page Name]]` with double brackets
-- Must match target filename exactly (case-sensitive, no .md extension)
-- Validate target exists before adding link
-- Special terminal states: `[[Won by Submission]]`, `[[Guard Opening Sequence]]`
-
-**Expert Insights (Required for all technical content):**
-1. **John Danaher** - Systematic approach, technical precision, biomechanical analysis
-2. **Gordon Ryan** - Competition application, high-percentage techniques, modern meta-game
-3. **Eddie Bravo** - Innovation, 10th Planet methodology, unorthodox variations
-
-Each insight: 2-3 sentences with distinct perspective
-
-**Safety Requirements (Submissions Only):**
-- Safety Notice section: First visible content with ⚠️ emoji
-- Injury risks, tap signals, release protocol all mandatory
-- Training progression: 6 phases emphasizing control before completion
-- Safety errors: Dedicated subsection with DANGER labels
-- Knowledge questions: At least 2 safety-critical questions
-
-### Required Sections by Content Type
-
-**Positions:** State Description, Visual Description (4-8 sentences), Key Principles (5-7), Offensive Transitions (min 6), Defensive Responses (min 4), Decision Tree (min 3 conditions), Expert Insights (all 3), Common Mistakes (min 5), Training Drills (min 3), Related Positions (min 3)
-
-**Transitions:** Overview & Properties, Visual Execution Sequence, Setup Requirements (min 6), Execution Steps (min 6), Common Counters (min 3), Physical Requirements, Expert Insights (all 3), Common Mistakes (min 5), Variations & Setups (min 2), Knowledge Assessment (min 5 questions)
-
-**Submissions:** Safety Notice (mandatory), Overview & Properties, Visual Finishing Sequence, Setup Requirements (min 6), Execution Steps (min 6), Anatomical Targeting & Injury Awareness, Training Progressions (6 phases), Expert Insights (all 3 with safety emphasis), Common Mistakes (min 5 + safety errors), Knowledge Assessment (min 6 questions including safety)
-
-### Content Organization
-
-Content is organized by **unique names and filesystem structure**:
-- Each content piece has a unique filename that matches its canonical name
-- Positions use hub/role architecture (e.g., `Mount.md`, `Mount/Bottom.md`, `Mount/Top.md`)
-- All requirements are defined by JSON templates in `source/templates/`
-- No manual ID tracking needed - the filesystem and JSON structure handle organization
+**Key Insight:** `source/content/` is OUTPUT. `source/templates/*.json` is SOURCE.
 
 ---
 
-## A/B Testing Infrastructure
+## 4. ARCHITECTURE
 
-**Status:** Production-ready, pure client-side JavaScript, active on all content pages
+### JSON-First Pipeline
 
-**Architecture:**
-- Pure frontend: No edge workers, no PostHog API calls
-- Uniform random sampling: 3 independent samples (priority, visibility, styling)
+```
+source/templates/*.json  →  *.md.jinja2  →  source/content/*.md  →  Quartz Build  →  Static Site
+        (SOURCE)              (TEMPLATES)         (GENERATED)           (BUILD)        (OUTPUT)
+```
+
+1. **JSON Source** - Structured data in `Positions.json`, `Transitions.json`, etc.
+2. **Jinja2 Templates** - Generate markdown + SEO schema markup
+3. **Generated Markdown** - Content pages with frontmatter
+4. **Quartz Build** - Static site with graph visualization, search, backlinks
+
+### Position "Playing As" Model
+
+Positions follow a chess-like architecture:
+
+```
+Position (Hub Page)     = Board state (e.g., "Mount")
+├── Top (Role Page)     = Playing as White (maintain, submit)
+└── Bottom (Role Page)  = Playing as Black (escape, reverse)
+```
+
+**Graph nodes are hub pages only** - Top/Bottom excluded to prevent redundancy.
+
+**File structure example:**
+```
+Positions/
+├── Mount.md           # Hub page (canonical graph node)
+└── Mount/
+    ├── Top.md         # Playing as top (submissions, control)
+    └── Bottom.md      # Playing as bottom (escapes, reversals)
+```
+
+### A/B Testing (Client-Side)
+
+Pure JavaScript, no edge workers:
+- Uniform random sampling for section priority/visibility/styling
 - Runs in `<head>` before body renders (zero FOUC)
-- Weekly refresh: New assignment every 7 days per user
-- Cookie-cached for consistency
+- Weekly refresh, cookie-cached
+- PostHog tracks engagement metrics
 
-**How it works:**
-1. Script loads in `<head>` (before page renders)
-2. Reads `data-sections` from `<body>` tag metadata
-3. Generates random priority/visibility/styling per section
-4. Applies CSS instantly (order, display, enhanced styling)
-5. Tracks engagement via PostHog (time on page, scroll depth)
-
-**Key Files:**
-- `source/quartz/components/scripts/uniform-ab-testing.inline.ts` (231 lines) - Core A/B logic
-- `source/quartz/components/scripts/posthog-ab-tracking.inline.ts` (203 lines) - Analytics tracking
-- `source/quartz/plugins/emitters/componentResources.ts` - Auto-includes script in `beforeDOMLoaded`
-- All `.jinja2` templates include `<body data-content-type="..." data-sections='[...]'>` metadata
-
-**Debug Mode:** Add `?debug` to any URL to see assignment data in HTML source
-
-**Performance:** <5ms overhead (pure JavaScript, no network calls)
+**Key files:**
+- `source/quartz/components/scripts/uniform-ab-testing.inline.ts`
+- `source/quartz/components/scripts/posthog-ab-tracking.inline.ts`
 
 ---
 
-## SEO Implementation
+## 5. COMMANDS
 
-**Status:** Schema markup active across 267+ pages via Jinja2 templates
+### Essential Commands
 
-### Schema in Templates (Not Python Scripts)
-
-Schema markup is **generated automatically** by Jinja2 templates during build, not manual Python scripts.
-
-**How it works:**
-1. JSON source files contain structured data (transitions, success rates, steps, etc.)
-2. `.jinja2` templates read JSON and generate both markdown content AND schema markup
-3. Schema types embedded as `<script type="application/ld+json">` in generated markdown
-4. Quartz builds static site with schema included
-
-**Schema Types Generated:**
-- **HowTo Schema:** Position and transition pages (step-by-step techniques)
-- **FAQ Schema:** Common mistakes converted to Q&A format
-- **BreadcrumbList:** Navigation hierarchy (Home → Category → Page)
-- **WebPage:** Page metadata and site relationship
-
-**Example:** See `source/templates/Positions/TEMPLATE-SINGLE.md.jinja2` lines 14-32 for HowTo schema generation
-
-**Validation:** Use Google Rich Results Test (https://search.google.com/test/rich-results) to verify schema
-
-### SEO Status Summary
-
-**Completed:**
-- Schema markup via templates (267+ pages)
-- Hub pages (5 strategic pages)
-- Meta titles and descriptions
-- Internal linking structure
-- Mobile responsiveness
-- XML sitemap (auto-generated)
-
-**To Improve:**
-- Image alt text audit
-- 404 page optimization
-- Content quality (automated via bot)
-
-### SEO Validation Workflow
-
-**Before deployment:**
 ```bash
-# 1. Validate JSON source
+# Validate JSON (ALWAYS run before commits)
 python3 scripts/validate_json.py
 
-# 2. Regenerate markdown from JSON
+# Regenerate markdown from JSON
 python3 scripts/json_to_md.py
 
-# 3. Build site
+# Build static site
 cd source && npx quartz build
 
-# 4. Test schema markup
-# Visit: https://search.google.com/test/rich-results
-# Enter page URL from local build
+# Development server (live reload)
+cd source && npx quartz build --serve
+
+# Type checking
+cd source && npm run check
+
+# Format code
+cd source && npm run format
 ```
 
-**Post-deployment:**
-- Monitor Google Search Console for rich results
-- Check for schema errors weekly
-- Track keyword rankings for hub pages
+### Content Workflow
+
+```bash
+# 1. Edit JSON source
+vim source/templates/Positions.json
+
+# 2. Validate
+python3 scripts/validate_json.py
+
+# 3. Regenerate markdown
+python3 scripts/json_to_md.py
+
+# 4. Test build
+cd source && npx quartz build --serve
+
+# 5. Commit
+git add . && git commit -m "Update position data"
+```
+
+### Pre-Commit Checklist
+
+```bash
+python3 scripts/validate_json.py  # Must pass
+cd source && npx quartz build     # Must succeed
+```
 
 ---
 
-## Automation & Maintenance
-
-### Content Improvement Bot
+## 6. CONTENT BOT
 
 **Location:** `.github/workflows/content-improvement-bot.yml`
 
-**What it does:**
-- Runs daily at 8:00 AM UTC
-- Improves 2 files per run (configurable: 1, 2, 5, 10, 20)
-- JSON-first: Prioritizes .json files, handles orphaned .md as fallback
-- Uses Claude API (claude-sonnet-4-5) with full context pre-loaded
-- Validation retry loop: 3 attempts with `validate_json.py` + `fix_content.sh`
-- Auto-regenerates markdown via `json_to_md.py` after improvements
-- Creates pull requests with validation reports
+### What It Does
 
-**Workflow:**
+- Runs daily at 8:00 AM UTC
+- Improves 2 files per run (JSON-first priority)
+- Uses Claude API with full context pre-loaded
+- Creates PRs with validation reports
+
+### Bot Workflow
+
 ```
 SELECT (git age, JSON-first)
-  → PRE-PROCESS (catalog, templates, validation)
-  → CLAUDE IMPROVE (AI SEO optimization, fill TODOs, fix errors)
+  → VALIDATE (schema check)
+  → IMPROVE (Claude API fills TODOs, fixes errors)
   → VALIDATE + RETRY (max 3 attempts)
-  → REGENERATE .md from .json
+  → REGENERATE (json_to_md.py)
   → CREATE PR
 ```
 
-**What bot handles automatically:**
+### What Bot Handles
+
 - Fills TODOs in JSON source files
 - Fixes validation errors (success rates, wikilinks, missing sections)
-- Adds missing transitions/submissions
 - AI SEO optimization (question headings, front-loaded facts)
 - Safety sections for submissions
 - Entity consistency (canonical names with bold emphasis)
 
-**Monitoring:**
-1. Check GitHub Actions for daily runs
-2. Review PRs created by bot
-3. Validate technical accuracy
-4. Merge approved PRs
+### Required Secrets
 
-**Required Secrets:**
 - `CLAUDE_CODE_OAUTH_TOKEN` - Claude Code API token
-- `DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD` - For optional PAA data
+- `DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD` - Optional PAA data
 
 ---
 
-## Common Development Tasks
+## 7. CONTENT STANDARDS (Quick Reference)
 
-### Building the Site
+### Success Rates
 
-```bash
-cd source
-npx quartz build              # Build static site
-npx quartz build --serve      # Development server with live reload
-```
+**Format:** `(Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)`
 
-### Validating Content
-
-```bash
-# Validate JSON source files
-python3 scripts/validate_json.py
-
-# Regenerate markdown from JSON (after JSON edits)
-python3 scripts/json_to_md.py
-
-# Check JSON/MD sync status
-python3 scripts/check_sync.py
-```
-
-### Creating New Content
-
-1. Add entry to appropriate `.json` file in `source/templates/`
-2. Follow schema defined in `CONTRIBUTING-YAML-SCHEMA.md`
-3. Use unique, descriptive names that match the technique/position
-4. Run `python3 scripts/validate_json.py` to check compliance
-5. Run `python3 scripts/json_to_md.py` to generate markdown
-6. Build and test: `cd source && npx quartz build --serve`
-
-### Modifying Templates
-
-Templates are in `source/templates/*.md.jinja2`. After changes:
-1. Regenerate all content: `python3 scripts/json_to_md.py`
-2. Check for errors in generated files
-3. Test build: `cd source && npx quartz build`
-4. Validate schema: Use Google Rich Results Test
-
----
-
-## Key Files Reference
-
-### Content & Schema
-- `source/content/CONTRIBUTING-YAML-SCHEMA.md` - Complete schema documentation
-- `source/templates/*.json` - JSON source files (Positions, Transitions, Submissions, Principles, Systems)
-- `source/templates/*.md.jinja2` - Jinja2 templates for markdown generation
-
-### Scripts
-- `scripts/validate_json.py` - JSON schema validation
-- `scripts/json_to_md.py` - Markdown generation from JSON
-- `scripts/fix_content.sh` - Auto-fill TODOs in JSON files
-- `scripts/select_oldest_files.sh` - File selection for bot
-
-### A/B Testing
-- `source/quartz/components/scripts/uniform-ab-testing.inline.ts` - Core A/B logic
-- `source/quartz/components/scripts/posthog-ab-tracking.inline.ts` - Analytics tracking
-
-### Hub Pages
-- `source/content/BJJ-Submissions.md`
-- `source/content/BJJ-Escapes.md`
-- `source/content/BJJ-Guard-Passing.md`
-- `source/content/BJJ-Positions.md`
-- `source/content/BJJ-Transitions.md`
-
----
-
-## Important Conventions
-
-### Success Rate Format
-
-**Strictly enforced:**
-- Beginner ≤ Intermediate ≤ Advanced
-- All three levels required (no omissions)
-- 0-100 integer values only
+**Rules:**
+- Beginner <= Intermediate <= Advanced (strictly enforced)
+- All three levels required
+- 0-100 integers only
 - Typical progression: 10-15% increase per level
 
-**Examples:**
-- Sweep from guard: Beginner 40%, Intermediate 55%, Advanced 70%
-- Submission from mount: Beginner 50%, Intermediate 65%, Advanced 80%
-- Escape from bad position: Beginner 25%, Intermediate 40%, Advanced 55%
+### Wikilinks
 
-### Wikilink Validation
+**Format:** `[[Page Name]]`
 
-- Always use `[[Page Name]]` format
-- Must match exact filename (case-sensitive)
-- Never include `.md` extension
-- Verify target file exists
-- Special pages: `[[Won by Submission]]`, `[[Guard Opening Sequence]]`
+**Rules:**
+- Must match filename exactly (case-sensitive)
+- No `.md` extension
+- Verify target exists before adding
+- Special: `[[Won by Submission]]`, `[[Guard Opening Sequence]]`
 
-### Expert Insights
+### Expert Insights (Required)
 
-All technical pages require insights from all three experts:
+All technical pages need insights from:
 1. **John Danaher** - Systematic, theoretical, biomechanical
 2. **Gordon Ryan** - Competition-focused, high-percentage
 3. **Eddie Bravo** - Innovative, unorthodox, creative
 
 Each: 2-3 sentences with distinct perspective
 
-### Safety First (Submissions)
+### Safety (Submissions Only)
 
 Every submission MUST include:
-- ⚠️ Safety Notice section (first visible content)
-- Injury risks with severity and recovery time
-- Tap signals clearly documented
-- Release protocol (step-by-step)
-- 6-phase training progression
-- Safety-critical errors with DANGER labels
-- Safety questions in knowledge assessment
+- Safety Notice section first (with warning)
+- Injury risks with severity
+- Tap signals documented
+- Release protocol
+- Safety-critical questions in assessment
 
 ---
 
-## Documentation & Resources
+## 8. RESOURCES
 
-**Project Repository:** https://github.com/diogoseca/bjjgraph
-**Site URL:** https://bjjgraph.org
-**Quartz Docs:** https://quartz.jzhao.xyz/
+### Project Links
 
-**Schema Validation:**
-- Google Rich Results Test: https://search.google.com/test/rich-results
-- Schema.org Validator: https://validator.schema.org/
+| Resource | URL |
+|----------|-----|
+| **Live Site** | https://bjjgraph.org |
+| **Repository** | https://github.com/diogoseca/bjjgraph |
+| **Quartz Docs** | https://quartz.jzhao.xyz/ |
 
-**Reference Docs:**
-- `docs/CONTRIBUTING.md` - Developer guide and project philosophy
-- `docs/seo-strategy.md` - 6-month SEO strategy
-- `scripts/README.md` - Scripts overview and usage
+### Schema Validation
+
+| Tool | URL |
+|------|-----|
+| Google Rich Results Test | https://search.google.com/test/rich-results |
+| Schema.org Validator | https://validator.schema.org/ |
+
+### PostHog Analytics
+
+| Dashboard | URL |
+|-----------|-----|
+| Project Home | https://us.posthog.com/project/236155 |
+| Content Performance | https://us.posthog.com/project/236155/dashboard/611436 |
+| Navigation Patterns | https://us.posthog.com/project/236155/dashboard/611437 |
+| Traffic Sources | https://us.posthog.com/project/236155/dashboard/611439 |
+| User Analytics | https://us.posthog.com/project/236155/dashboard/610768 |
+| A/B Testing | https://us.posthog.com/project/236155/dashboard/616953 |
+| Feature Flags | https://us.posthog.com/project/236155/feature_flags |
+
+### Documentation References
+
+| Doc | Purpose |
+|-----|---------|
+| `docs/Architecture.md` | JSON pipeline, Position model, A/B testing details |
+| `docs/Content.md` | Full content standards, validation rules |
+| `docs/SEO.md` | Schema markup, keywords, analytics setup |
+| `source/content/CONTRIBUTING-YAML-SCHEMA.md` | Complete YAML schema reference |
 
 ---
 
-*This documentation is maintained for AI assistants working on BJJ Graph. Focus on what exists, where to find it, and content standards.*
+*This guide is for AI assistants. Focus on: validate → edit JSON → regenerate → build.*
