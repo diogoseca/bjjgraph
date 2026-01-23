@@ -2,6 +2,7 @@ import FlexSearch from "flexsearch"
 import { ContentDetails } from "../../plugins/emitters/contentIndex"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, normalizeRelativeURLs, resolveRelative } from "../../util/path"
+import { stripTitleSuffix } from "../../util/lang"
 
 interface Item {
   id: number
@@ -274,10 +275,12 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
   const formatForDisplay = (term: string, id: number) => {
     const slug = idDataMap[id]
+    const rawTitle = data[slug].title ?? ""
+    const displayTitle = stripTitleSuffix(rawTitle)
     return {
       id,
       slug,
-      title: searchType === "tags" ? data[slug].title : highlight(term, data[slug].title ?? ""),
+      title: searchType === "tags" ? displayTitle : highlight(term, displayTitle),
       content: highlight(term, data[slug].content ?? "", true),
       tags: highlightTags(term.substring(1), data[slug].tags),
     }

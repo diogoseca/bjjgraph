@@ -2,7 +2,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import breadcrumbsStyle from "./styles/breadcrumbs.scss"
 import { FullSlug, SimpleSlug, joinSegments, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
-import { classNames } from "../util/lang"
+import { classNames, stripTitleSuffix } from "../util/lang"
 
 type CrumbData = {
   displayName: string
@@ -38,12 +38,6 @@ const defaultOptions: BreadcrumbOptions = {
   resolveFrontmatterTitle: true,
   hideOnRoot: true,
   showCurrentPage: true,
-}
-
-function stripTitleSuffix(title: string): string {
-  // Remove " | BJJ Technique | BJJ Graph" and similar suffixes
-  // Pattern: " | [Type] | BJJ Graph" where type can be any content type
-  return title.split(" | ")[0].trim()
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {

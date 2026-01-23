@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { stripTitleSuffix } from "./quartz/util/lang"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -27,9 +28,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {
-        // Strip everything after the first " | " for cleaner Explorer display
-        if (node.displayName && node.displayName.includes(" | ")) {
-          node.displayName = node.displayName.split(" | ")[0]
+        if (node.displayName) {
+          node.displayName = stripTitleSuffix(node.displayName)
         }
       }
     })),
@@ -54,9 +54,8 @@ export const defaultListPageLayout: PageLayout = {
     Component.Search(),
     Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {
-        // Strip everything after the first " | " for cleaner Explorer display
-        if (node.displayName && node.displayName.includes(" | ")) {
-          node.displayName = node.displayName.split(" | ")[0]
+        if (node.displayName) {
+          node.displayName = stripTitleSuffix(node.displayName)
         }
       }
     })),

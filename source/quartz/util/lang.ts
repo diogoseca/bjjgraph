@@ -11,3 +11,11 @@ export function classNames(
   }
   return classes.join(" ")
 }
+
+/**
+ * Strips SEO suffix from page titles for display purposes.
+ * Removes " | [Type] | BJJ Graph" patterns from titles.
+ */
+export function stripTitleSuffix(title: string): string {
+  return title.split(" | ")[0].trim()
+}
