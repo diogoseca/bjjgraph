@@ -43,14 +43,14 @@
 
     & li > a {
       color: var(--dark);
-      opacity: 0.75;
+      opacity: 0.45;
       pointer-events: all;
       font-size: 0.82rem;
       line-height: 1.3rem;
     }
 
     & li > a:hover {
-      opacity: 1;
+      opacity: 0.75;
     }
 
     & li > a.active {
@@ -111,9 +111,15 @@
   &.depth-1 {
     & div > a,
     & div > button span {
-      color: var(--secondary);
+      color: var(--dark);
       font-weight: 600;
       font-size: 0.85rem;
+      opacity: 0.6;
+    }
+
+    & div > a:hover,
+    & div > button:hover span {
+      opacity: 0.85;
     }
   }
 
@@ -127,12 +133,12 @@
       color: var(--dark);
       font-weight: 500;
       font-size: 0.83rem;
-      opacity: 0.85;
+      opacity: 0.5;
     }
 
     & div > a:hover,
     & div > button:hover span {
-      opacity: 1;
+      opacity: 0.75;
     }
   }
 
