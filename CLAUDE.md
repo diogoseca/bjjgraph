@@ -257,12 +257,6 @@ SELECT (git age, JSON-first)
 - Safety sections for submissions
 - Entity consistency (canonical names with bold emphasis)
 
-### Required Secrets
-
-- `CLAUDE_CODE_OAUTH_TOKEN` - Claude Code API token
-- `DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD` - Optional PAA data
-
----
 
 ## 7. CONTENT STANDARDS (Quick Reference)
 

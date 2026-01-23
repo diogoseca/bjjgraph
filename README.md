@@ -94,27 +94,13 @@ bjjgraph/
 └── tests/                 # Test artifacts
 ```
 
-## Deployment
-
-Auto-deploys to **Cloudflare Pages** via GitHub Actions on push to main.
-
-### Required Secrets
-
-| Secret | Purpose |
-|--------|---------|
-| `CLOUDFLARE_API_TOKEN` | Pages deployment |
-| `CLOUDFLARE_ACCOUNT_ID` | Account identifier |
-| `POSTHOG_API_KEY` | Analytics tracking |
-
 ## Partnership & Sponsorship
 
-BJJGraph welcomes partnerships with BJJ apps, gear companies, and training platforms.
+BJJGraph is building the most comprehensive, systematic breakdown of grappling ever assembled. Our mission is to democratize high-level BJJ knowledge so anyone with the interest can truly study the game.
 
-See [PARTNERS.md](PARTNERS.md) for details on:
-- Placement options (banners, contextual links, dedicated pages)
-- Tracking transparency
-- Revenue sharing approaches
-- Getting started
+We're looking for partners who share this vision—BJJ apps, gear companies, academies, and training platforms who want to help advance the sport and make world-class instruction accessible to all.
+
+**Contact**: [Diogo Seca on LinkedIn](https://www.linkedin.com/in/diogoseca/)
 
 ## Analytics
 
