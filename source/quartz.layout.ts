@@ -24,10 +24,8 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
+    Component.DesktopOnly(Component.PageTitle()),
     Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {
         // Strip everything after the first " | " for cleaner Explorer display
@@ -39,7 +37,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.MobileOnly(Component.Explorer({
+    Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {
         // Strip everything after the first " | " for cleaner Explorer display
         if (node.displayName && node.displayName.includes(" | ")) {
@@ -62,10 +60,8 @@ export const defaultListPageLayout: PageLayout = {
     }),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
+    Component.DesktopOnly(Component.PageTitle()),
     Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {
         // Strip everything after the first " | " for cleaner Explorer display
@@ -77,7 +73,7 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.MobileOnly(Component.Explorer({
+    Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {
         // Strip everything after the first " | " for cleaner Explorer display
         if (node.displayName && node.displayName.includes(" | ")) {

@@ -1,3 +1,5 @@
+@use "../../styles/variables.scss" as *;
+
 .breadcrumb-container {
   margin: 0;
   margin-top: 0.75rem;
@@ -6,17 +8,32 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 0.5rem;
+
+  @media all and ($mobile) {
+    margin-top: 0;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  }
 }
 
 .breadcrumb-element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
   p {
     margin: 0;
     margin-left: 0.5rem;
     padding: 0;
     line-height: normal;
   }
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+
+  @media all and ($mobile) {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
 }

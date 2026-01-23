@@ -34,6 +34,9 @@ export default (() => {
       ]
     }
 
+    // Get extracted schemas from SchemaExtractor transformer
+    const extractedSchemas = fileData.schemas || []
+
     return (
       <head>
         <title>{title}</title>
@@ -73,12 +76,20 @@ export default (() => {
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify(organizationSchema)
         }} />
+        {extractedSchemas.map((schema: object, i: number) => (
+          <script key={`schema-${i}`} type="application/ld+json" dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schema)
+          }} />
+        ))}
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
+        <script dangerouslySetInnerHTML={{
+          __html: `document.documentElement.setAttribute("saved-theme", "dark");`
+        }} />
       </head>
     )
   }

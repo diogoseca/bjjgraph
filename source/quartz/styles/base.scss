@@ -206,14 +206,13 @@ a {
       grid-area: grid-sidebar-left;
       flex-direction: column;
       @media all and ($mobile) {
-        gap: 0;
-        align-items: center;
-        position: initial;
-        display: flex;
-        height: unset;
-        flex-direction: row;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        left: auto;
+        height: auto;
         padding: 0;
-        padding-top: 2rem;
+        width: auto;
       }
     }
 
@@ -222,20 +221,10 @@ a {
       margin-right: 0;
       flex-direction: column;
       @media all and ($mobile) {
-        margin-left: inherit;
-        margin-right: inherit;
+        display: none;
       }
       @media all and ($desktop) {
-        position: initial;
-        width: 100%;
-        flex-direction: row;
-        padding: 0;
-        & > * {
-          flex: 1;
-        }
-        & > .toc {
-          display: none;
-        }
+        display: none;
       }
     }
     & .page-header,
@@ -247,8 +236,8 @@ a {
       grid-area: grid-header;
       margin: $topSpacing 0 0 0;
       @media all and ($mobile) {
-        margin-top: 0;
-        padding: 0;
+        margin-top: 1rem;
+        padding: 0 1rem 0 0;
       }
     }
 

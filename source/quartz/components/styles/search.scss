@@ -4,7 +4,8 @@
   min-width: fit-content;
   max-width: 14rem;
   @media all and ($mobile) {
-    flex-grow: 0.3;
+    min-width: unset;
+    max-width: unset;
   }
 
   & > .search-button {
@@ -26,6 +27,15 @@
     & > p {
       display: inline;
       padding: 0 1rem;
+
+      @media all and ($mobile) {
+        display: none;
+      }
+    }
+
+    @media all and ($mobile) {
+      width: auto;
+      padding: 0 0.5rem;
     }
 
     & svg {

@@ -3,6 +3,33 @@
 // put your custom CSS here!
 
 // ============================================================================
+// Global Dark Mode Scrollbar Styles
+// ============================================================================
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--gray) var(--dark);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray);
+  border-radius: 4px;
+
+  &:hover {
+    background: var(--lightgray);
+  }
+}
+
+// ============================================================================
 // A/B Testing Infrastructure
 // ============================================================================
 

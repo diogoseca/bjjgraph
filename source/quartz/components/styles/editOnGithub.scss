@@ -27,16 +27,23 @@
     flex-shrink: 0;
   }
 
-  span {
+  .full-text {
+    display: inline;
+
     @media (max-width: 600px) {
-      // Hide text on mobile, show only icon
       display: none;
     }
   }
 
+  .short-text {
+    display: none;
+
+    @media (max-width: 600px) {
+      display: inline;
+    }
+  }
+
   @media (max-width: 600px) {
-    // Smaller button on mobile
-    padding: 10px;
     bottom: 16px;
     right: 16px;
   }
